@@ -81,13 +81,44 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Search Bar */}
-        <SearchBar className="max-w-3xl mx-auto mb-16" autoFocus />
+        {/* Search + Trending Topics Row */}
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 mb-6">
+          {/* Search Bar - 60% */}
+          <div className="lg:col-span-3">
+            <SearchBar className="w-full" autoFocus />
+          </div>
+
+          {/* Trending Topics - 40% */}
+          <div className="lg:col-span-2 bg-ergo-dark/50 border border-ergo-orange/20 rounded-lg p-4">
+            <div className="flex items-center justify-between mb-3">
+              <h3 className="text-sm font-bold font-mono text-ergo-orange flex items-center gap-2">
+                <TrendingUp className="w-4 h-4" />
+                Trending Topics
+              </h3>
+              <Link
+                to="/topics"
+                className="text-xs font-mono text-ergo-muted hover:text-ergo-orange transition-colors"
+              >
+                View all
+              </Link>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {trendingTopics.slice(0, 8).map(topic => (
+                <TopicTag
+                  key={topic.slug}
+                  topic={topic.name}
+                  count={topic.mention_count}
+                  size="sm"
+                />
+              ))}
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* Recent Calls */}
-      <section className="container mx-auto px-4 py-12">
-        <div className="flex items-center justify-between mb-8">
+      <section className="container mx-auto px-4 py-6">
+        <div className="flex items-center justify-between mb-6">
           <h2 className="text-2xl font-bold font-mono text-ergo-orange">
             Recent Calls
           </h2>
@@ -99,9 +130,11 @@ export default function Home() {
           </Link>
         </div>
 
-        <div className="space-y-6">
+        <div className="space-y-4">
           {recentCalls.map(call => (
-            <CallCard key={call.id} call={call} />
+            <Link key={call.id} to={`/calls/${call.id}`} className="block">
+              <CallCard call={call} />
+            </Link>
           ))}
         </div>
       </section>
@@ -166,33 +199,6 @@ export default function Home() {
             ))}
           </div>
         )}
-      </section>
-
-      {/* Trending Topics */}
-      <section className="container mx-auto px-4 py-12">
-        <div className="flex items-center justify-between mb-8">
-          <h2 className="text-2xl font-bold font-mono text-ergo-orange flex items-center gap-2">
-            <TrendingUp className="w-6 h-6" />
-            Trending Topics
-          </h2>
-          <Link
-            to="/topics"
-            className="flex items-center gap-2 text-sm font-mono text-ergo-muted hover:text-ergo-orange transition-colors"
-          >
-            View all <ArrowRight className="w-4 h-4" />
-          </Link>
-        </div>
-
-        <div className="flex flex-wrap gap-3">
-          {trendingTopics.map(topic => (
-            <TopicTag
-              key={topic.slug}
-              topic={topic.name}
-              count={topic.mention_count}
-              size="md"
-            />
-          ))}
-        </div>
       </section>
 
       {/* Activity Feed */}
