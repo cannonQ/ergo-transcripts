@@ -34,8 +34,8 @@ export default function Home() {
     }
   }, [isInitialized, allDecisions, loadAllDecisions]);
 
-  const recentCalls = calls.slice(0, 3);
-  const recentDecisions = allDecisions?.slice(0, 3) || [];
+  const recentCalls = calls.slice(0, 4);
+  const recentDecisions = allDecisions?.slice(0, 4) || [];
   const trendingTopics = [...topics].sort((a, b) => b.mention_count - a.mention_count).slice(0, 10);
 
   if (isLoading) {
@@ -81,13 +81,44 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Search Bar */}
-        <SearchBar className="max-w-3xl mx-auto mb-16" autoFocus />
+        {/* Search + Trending Topics Row */}
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-6">
+          {/* Search Bar - 60% */}
+          <div className="lg:col-span-3">
+            <SearchBar className="w-full" autoFocus />
+          </div>
+
+          {/* Trending Topics - 40% */}
+          <div className="lg:col-span-2 bg-ergo-dark/50 border border-ergo-orange/20 rounded-lg p-4">
+            <div className="flex items-center justify-between mb-3">
+              <h3 className="text-sm font-bold font-mono text-ergo-orange flex items-center gap-2">
+                <TrendingUp className="w-4 h-4" />
+                Trending Topics
+              </h3>
+              <Link
+                to="/topics"
+                className="text-xs font-mono text-ergo-muted hover:text-ergo-orange transition-colors"
+              >
+                View all
+              </Link>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {trendingTopics.slice(0, 8).map(topic => (
+                <TopicTag
+                  key={topic.slug}
+                  topic={topic.name}
+                  count={topic.mention_count}
+                  size="sm"
+                />
+              ))}
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* Recent Calls */}
-      <section className="container mx-auto px-4 py-12">
-        <div className="flex items-center justify-between mb-8">
+      <section className="container mx-auto px-4 pt-4 pb-8">
+        <div className="flex items-center justify-between mb-4">
           <h2 className="text-2xl font-bold font-mono text-ergo-orange">
             Recent Calls
           </h2>
@@ -99,16 +130,18 @@ export default function Home() {
           </Link>
         </div>
 
-        <div className="space-y-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           {recentCalls.map(call => (
-            <CallCard key={call.id} call={call} />
+            <Link key={call.id} to={`/calls/${call.id}`} className="block">
+              <CallCard call={call} />
+            </Link>
           ))}
         </div>
       </section>
 
       {/* Recent Decisions */}
-      <section className="container mx-auto px-4 py-12">
-        <div className="flex items-center justify-between mb-8">
+      <section className="container mx-auto px-4 pt-4 pb-8">
+        <div className="flex items-center justify-between mb-4">
           <h2 className="text-2xl font-bold font-mono text-ergo-orange">
             Recent Decisions
           </h2>
@@ -125,7 +158,7 @@ export default function Home() {
             <Loader2 className="w-6 h-6 text-ergo-orange animate-spin" />
           </div>
         ) : (
-          <div className="grid gap-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
             {recentDecisions.map(decision => (
               <div
                 key={decision.id}
@@ -143,9 +176,11 @@ export default function Home() {
                   <span className="text-xs font-mono text-ergo-muted">{decision.date}</span>
                 </div>
 
-                <h3 className="font-mono text-lg font-semibold text-ergo-orange mb-2">
-                  {decision.title}
-                </h3>
+                <Link to={`/calls/${decision.call_id}`}>
+                  <h3 className="font-mono text-lg font-semibold text-ergo-orange hover:text-orange-400 transition-colors mb-2">
+                    {decision.title}
+                  </h3>
+                </Link>
 
                 <p className="text-sm text-ergo-light/80 mb-3 line-clamp-2">
                   {decision.content}
@@ -166,33 +201,6 @@ export default function Home() {
             ))}
           </div>
         )}
-      </section>
-
-      {/* Trending Topics */}
-      <section className="container mx-auto px-4 py-12">
-        <div className="flex items-center justify-between mb-8">
-          <h2 className="text-2xl font-bold font-mono text-ergo-orange flex items-center gap-2">
-            <TrendingUp className="w-6 h-6" />
-            Trending Topics
-          </h2>
-          <Link
-            to="/topics"
-            className="flex items-center gap-2 text-sm font-mono text-ergo-muted hover:text-ergo-orange transition-colors"
-          >
-            View all <ArrowRight className="w-4 h-4" />
-          </Link>
-        </div>
-
-        <div className="flex flex-wrap gap-3">
-          {trendingTopics.map(topic => (
-            <TopicTag
-              key={topic.slug}
-              topic={topic.name}
-              count={topic.mention_count}
-              size="md"
-            />
-          ))}
-        </div>
       </section>
 
       {/* Activity Feed */}
