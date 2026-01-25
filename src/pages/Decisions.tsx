@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Gavel, GitBranch, HelpCircle, Filter, Calendar, User, Loader2 } from 'lucide-react';
+import CorrectionButton from '../components/CorrectionButton';
 import { useData } from '../contexts/DataContext';
 import type { AggregatedDecision } from '../types';
 
@@ -303,6 +304,7 @@ export default function Decisions() {
                     >
                       View Call
                     </Link>
+                    <CorrectionButton pageType="Decision" pageTitle={decision.title} />
                   </div>
 
                   {/* Owner & Timeline for commitments */}
