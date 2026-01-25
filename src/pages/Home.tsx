@@ -34,7 +34,7 @@ export default function Home() {
     }
   }, [isInitialized, allDecisions, loadAllDecisions]);
 
-  const recentCalls = calls.slice(0, 3);
+  const recentCalls = calls.slice(0, 4);
   const recentDecisions = allDecisions?.slice(0, 3) || [];
   const trendingTopics = [...topics].sort((a, b) => b.mention_count - a.mention_count).slice(0, 10);
 
@@ -82,7 +82,7 @@ export default function Home() {
         </div>
 
         {/* Search + Trending Topics Row */}
-        <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 mb-6">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-6">
           {/* Search Bar - 60% */}
           <div className="lg:col-span-3">
             <SearchBar className="w-full" autoFocus />
@@ -117,8 +117,8 @@ export default function Home() {
       </section>
 
       {/* Recent Calls */}
-      <section className="container mx-auto px-4 py-6">
-        <div className="flex items-center justify-between mb-6">
+      <section className="container mx-auto px-4 pt-4 pb-8">
+        <div className="flex items-center justify-between mb-4">
           <h2 className="text-2xl font-bold font-mono text-ergo-orange">
             Recent Calls
           </h2>
@@ -130,7 +130,7 @@ export default function Home() {
           </Link>
         </div>
 
-        <div className="space-y-4">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           {recentCalls.map(call => (
             <Link key={call.id} to={`/calls/${call.id}`} className="block">
               <CallCard call={call} />
