@@ -19,7 +19,7 @@ export default function CallCard({ call }: CallCardProps) {
     <div className="bg-ergo-dark border border-ergo-orange/20 rounded-lg p-6 hover:border-ergo-orange/50 transition-all duration-300 group">
       <div className="flex flex-col lg:flex-row gap-4">
         {/* Thumbnail */}
-        <div className="lg:w-48 h-32 lg:h-28 bg-ergo-darker rounded overflow-hidden flex-shrink-0">
+        <Link to={`/calls/${call.id}`} className="lg:w-48 h-32 lg:h-28 bg-ergo-darker rounded overflow-hidden flex-shrink-0 block">
           <img
             src={call.thumbnail}
             alt={call.title}
@@ -28,7 +28,7 @@ export default function CallCard({ call }: CallCardProps) {
               (e.target as HTMLImageElement).src = `https://img.youtube.com/vi/${call.id}/mqdefault.jpg`;
             }}
           />
-        </div>
+        </Link>
 
         {/* Content */}
         <div className="flex-1">

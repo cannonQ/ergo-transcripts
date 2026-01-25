@@ -132,9 +132,7 @@ export default function Home() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           {recentCalls.map(call => (
-            <Link key={call.id} to={`/calls/${call.id}`} className="block">
-              <CallCard call={call} />
-            </Link>
+            <CallCard key={call.id} call={call} />
           ))}
         </div>
       </section>
