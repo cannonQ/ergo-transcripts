@@ -1,0 +1,190 @@
+{
+  "call_date": "2025-12-20",
+  "call_title": "Ergo PoW Blockchain - LATE NIGHT AMA - HAPPY HOLIDAYS!",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Infrastructure Development vs Speculation Culture",
+      "category": "ecosystem",
+      "start_time": "01:05",
+      "end_time": "08:37",
+      "primary_speaker": "armeanio",
+      "summary": "Discussion about the disconnect between building actual infrastructure versus speculative trading. Armeanio emphasizes the importance of running your own nodes and infrastructure rather than just being a passive user who only checks price charts.",
+      "key_terms": [
+        "infrastructure",
+        "peer-to-peer networks",
+        "Rosen watchers",
+        "Lithos",
+        "solo mining"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Lithos Solo Mining and Block Production",
+      "category": "technical",
+      "start_time": "04:49",
+      "end_time": "09:48",
+      "primary_speaker": "armeanio",
+      "summary": "Explanation of Lithos design goals to enable individual miners to build their own blocks on-chain. Discussion covers the economics of solo mining versus pool mining and the lottery-like nature of block discovery.",
+      "key_terms": [
+        "Lithos",
+        "solo mining",
+        "block templates",
+        "proof of work",
+        "mining pools",
+        "BitAxe"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Mining as Digital Farming Analogy",
+      "category": "ecosystem",
+      "start_time": "09:48",
+      "end_time": "15:37",
+      "primary_speaker": "qx()",
+      "summary": "QX presents mining as digital farming where individuals can use consumer hardware to contribute to the network and support their families. Discussion includes potential for utilizing excess capacity in AI data centers.",
+      "key_terms": [
+        "digital farming",
+        "ASIC resistant",
+        "GPU mining",
+        "AI data centers",
+        "excess capacity",
+        "solar mining"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "GPU Hardware Scaling and Mining Opportunities",
+      "category": "technical",
+      "start_time": "15:37",
+      "end_time": "19:21",
+      "primary_speaker": "armeanio",
+      "summary": "Analysis of GPU hardware scaling in AI industry and opportunities for proof-of-work mining using excess capacity. Discussion covers hardware depreciation cycles and natural integration with mining operations.",
+      "key_terms": [
+        "H100 chips",
+        "hardware cycles",
+        "cold capacity",
+        "load balancing",
+        "solar integration",
+        "greenhouse heating"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Mining Pool Centralization Problems",
+      "category": "technical",
+      "start_time": "19:21",
+      "end_time": "27:51",
+      "primary_speaker": "armeanio",
+      "summary": "Critique of mining pool centralization and its impact on Nakamoto consensus. Discussion covers order flow control in DeFi versus simple payments, and comparison with projects like Ocean that validate off-chain.",
+      "key_terms": [
+        "mining pools",
+        "Nakamoto consensus",
+        "order flow",
+        "DeFi arbitrage",
+        "Ocean project",
+        "block templates"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Demurage and Supply Integrity",
+      "category": "technical",
+      "start_time": "22:21",
+      "end_time": "25:12",
+      "primary_speaker": "armeanio",
+      "summary": "Discussion of Ergo's demurage mechanism for UTXO state management and supply predictability. Comparison with other chains that have unpredictable supply due to lost keys or sudden coin discoveries.",
+      "key_terms": [
+        "demurage",
+        "storage rent",
+        "UTXO management",
+        "supply integrity",
+        "monetary policy",
+        "Solana"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Luca's India Travel Experience",
+      "category": "community",
+      "start_time": "35:49",
+      "end_time": "43:52",
+      "primary_speaker": "Luca",
+      "summary": "Luca shares his difficult experience traveling to India for a hackathon and workshop, including getting scammed by a travel agency and dealing with culture shock and pollution in New Delhi.",
+      "key_terms": [
+        "India hackathon",
+        "New Delhi",
+        "travel scam",
+        "culture shock",
+        "air pollution",
+        "Bruno meetup"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Gluon Dollar Development and Updates",
+      "category": "defi",
+      "start_time": "43:55",
+      "end_time": "58:19",
+      "primary_speaker": "Luca",
+      "summary": "Technical discussion of Gluon Dollar stablecoin development, including contract updates needed for oracle fees and reserve ratio calculations. Explanation of the mathematical concepts behind fusion ratios and normalized reserve ratios.",
+      "key_terms": [
+        "Gluon Dollar",
+        "fusion ratio",
+        "reserve ratio",
+        "oracle fees",
+        "depegging",
+        "Staticoin paper"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Proof of Stake Treasury Growth Strategy",
+      "category": "defi",
+      "start_time": "54:40",
+      "end_time": "58:19",
+      "primary_speaker": "armeanio",
+      "summary": "Armeanio proposes using liquid staking derivatives in proof-of-stake systems to capture inflation and grow stablecoin treasuries naturally, contrasting with proof-of-work systems where assets don't generate yield.",
+      "key_terms": [
+        "liquid staking derivatives",
+        "treasury growth",
+        "protocol inflation",
+        "tokenized ADA",
+        "monetary policy"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Ergo's Future: Censorship Resistant DeFi",
+      "category": "defi",
+      "start_time": "59:50",
+      "end_time": "66:11",
+      "primary_speaker": "armeanio",
+      "summary": "Vision for Ergo's future focused on censorship-resistant DeFi protocols. Discussion of USDT's 1.8% frozen supply rate and the importance of building systems without central control points that can freeze or reverse transactions.",
+      "key_terms": [
+        "censorship resistant",
+        "USDT freezing",
+        "rug protection",
+        "DeFi protocols",
+        "total value locked"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Cryptocurrency as Financial Sovereignty Tool",
+      "category": "ecosystem",
+      "start_time": "66:11",
+      "end_time": "71:27",
+      "primary_speaker": "armeanio",
+      "summary": "Discussion of cryptocurrency as a hedge against government overreach and the need for neutral settlement between nation-states. Critique of parent-child financial relationships versus peer-to-peer systems, referencing historical examples like Cyprus bank crisis.",
+      "key_terms": [
+        "financial sovereignty",
+        "Cyprus bank crisis",
+        "Canadian truckers",
+        "neutral settlement",
+        "government overreach",
+        "peer-to-peer money"
+      ]
+    }
+  ]
+}

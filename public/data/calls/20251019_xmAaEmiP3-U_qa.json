@@ -1,0 +1,143 @@
+{
+  "call_date": "2025-10-19",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "25:58",
+      "question": "Does this create an advantage for miners with higher hashrate since they can produce higher difficulty shares more easily?",
+      "asker": "Unknown",
+      "answer": "No, absolutely not. The difference is that when I say a high difficulty share, the difficulty is relative to a difficulty the miner themselves chooses. So if I have my laptop and decide to mine on it, I can't produce many high difficulty shares, but on Lithos, you choose your own difficulty. A high value share for you is different than a high value share for somebody with 20 GPUs.",
+      "responder": "Cheese Enthusiast",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "NISP",
+        "difficulty",
+        "hashrate",
+        "shares"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "30:58",
+      "question": "What do you mean by dual miners?",
+      "asker": "Unknown",
+      "answer": "The way Lithos is working is just a normal stratum. So you can do anything that you do with your normal mining pools as long as it works with a stratum. Some people do dual mining where they partition part of their hashrate to Bitcoin and some to Ergo. You could do the same thing on Lithos without any real issue.",
+      "responder": "Cheese Enthusiast",
+      "category": "mining",
+      "difficulty": "beginner",
+      "related_terms": [
+        "stratum",
+        "dual mining",
+        "hashrate"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "34:58",
+      "question": "Does that answer your question?",
+      "asker": "Cheese Enthusiast",
+      "answer": "The context suggests this was confirming understanding of how NISPs work - that high-value hashes are produced mathematically over time, and if someone is lying about their work, they won't have those high-value hashes to present to the mining pool.",
+      "responder": "Unknown (implied agreement)",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "NISP",
+        "fraud proof",
+        "hash verification"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "35:12",
+      "question": "Is the verification of NISPs decentralized in smart contracts?",
+      "asker": "Unknown",
+      "answer": "Yes, that is all decentralized in smart contracts. The logic itself is being run off-chain - we're doing the logic off-chain and checking each NISP off-chain. If we find an issue, we're producing a fraud proof on the blockchain to ensure that fraudulent NISP is taken off.",
+      "responder": "Cheese Enthusiast",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "smart contracts",
+        "fraud proofs",
+        "off-chain verification"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "47:47",
+      "question": "How does transaction selection and block production work with the client?",
+      "asker": "Unknown",
+      "answer": "Right now, it automatically builds the block by taking whatever transactions with the highest fees from the mempool. MEV is possible but not currently supported in testnet. Storage rent is automatically claimed by the client and given to the miner of the block.",
+      "responder": "Cheese Enthusiast",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "MEV",
+        "storage rent",
+        "transaction fees",
+        "mempool"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "49:47",
+      "question": "How does this work with merge mining?",
+      "asker": "Unknown",
+      "answer": "It should be the same because merge mining usually works by having your mining software connect to various stratum pools, and Lithos has its own stratum connection. If you want to merge mine Zcash and Ergo, you can mine to both - they have different stratum addresses in your mining software config and it'll work normally.",
+      "responder": "Cheese Enthusiast",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "merge mining",
+        "stratum",
+        "multiple blockchains"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "51:24",
+      "question": "Can it accept Babel fees?",
+      "asker": "Unknown",
+      "answer": "Yes, absolutely. It can accept Babel fees. For chain agnostic things, there will have to be at least one transaction on the opposite chain, and that transaction will probably be required to pay some sort of fee by the lender who's collateralizing. But the actual payments on the Ergo blockchain can use Babel fees for payouts to each miner.",
+      "responder": "Cheese Enthusiast",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "Babel fees",
+        "cross-chain",
+        "collateralization"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "56:09",
+      "question": "Can you repeat that?",
+      "asker": "Unknown",
+      "answer": "The current idea is that miners who mine on the pool will get Lithos tokens. To create a collateral contract for blocks being found, you'll have to lock a certain amount of Lithos tokens inside that UTXO. This ensures there's a market for collateralizers to get Lithos tokens and for miners to sell those tokens.",
+      "responder": "Cheese Enthusiast",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Lithos token",
+        "collateral",
+        "UTXO",
+        "staking"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "57:51",
+      "question": "Does the collateral have to be ERG?",
+      "asker": "Unknown",
+      "answer": "It doesn't have to be confirmed ERG. Theoretically, it does not have to be ERG, however the lender will be paid in ERG no matter what. The collateral could be anything they want, and if miners choose to get paid in SigmaUSD, they could if they wanted to.",
+      "responder": "Cheese Enthusiast",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "collateral",
+        "SigmaUSD",
+        "payment tokens"
+      ]
+    }
+  ]
+}

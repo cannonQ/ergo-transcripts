@@ -1,0 +1,82 @@
+{
+  "call_date": "2025-10-19",
+  "call_title": "Lithos: The Future of Proof-of-Work Mining \u2014 Cheese Enthusiast (Ergo Meetup 2025)",
+  "decisions": [],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "45:40",
+      "commitment": "Put instructions out for the Lithos client, ideally at the end of the month",
+      "owner": "Cheese Enthusiast",
+      "timeline": "end of the month",
+      "topic": "lithos-testnet",
+      "quote": "I want to put instructions out for the Lithos client, ideally at the end of the month."
+    },
+    {
+      "id": 2,
+      "timestamp": "46:14",
+      "commitment": "Release the testnet week of November 2nd",
+      "owner": "Cheese Enthusiast",
+      "timeline": "week of November 2nd",
+      "topic": "lithos-testnet",
+      "quote": "So the current testnet, my goal is to release the testnet week of November 2nd."
+    },
+    {
+      "id": 3,
+      "timestamp": "46:51",
+      "commitment": "Start supporting more miners like Team Red Miner, SRB Miner, etc. as the testnet goes along",
+      "owner": "Cheese Enthusiast",
+      "timeline": "as the testnet goes along",
+      "topic": "lithos-testnet",
+      "quote": "My goal is to start supporting more miners like Team Red Miner, SRB Miner, et cetera. But those will happen probably as the test net goes along."
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "57:21",
+      "question": "Exact amounts and tokenomics of the Lithos token",
+      "context": "Discussion about Lithos token staking requirements for collateral contracts",
+      "topic": "lithos-tokenomics",
+      "raised_by": "Cheese Enthusiast"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "36:45",
+      "fact": "After around one and a half years of work and the release of Ergo 6.0, the Lithos testnet is nearing launch",
+      "speaker": "Cheese Enthusiast",
+      "topic": "lithos-development"
+    },
+    {
+      "id": 2,
+      "timestamp": "39:11",
+      "fact": "NISPs are using a value of 10 shares",
+      "speaker": "Cheese Enthusiast",
+      "topic": "lithos-technical"
+    },
+    {
+      "id": 3,
+      "timestamp": "46:46",
+      "fact": "Initial testnet release will support only Riggle Miner and NB Miner",
+      "speaker": "Cheese Enthusiast",
+      "topic": "lithos-testnet"
+    },
+    {
+      "id": 4,
+      "timestamp": "46:37",
+      "fact": "Current stratum is a completely new Java-based stratum",
+      "speaker": "Cheese Enthusiast",
+      "topic": "lithos-technical"
+    },
+    {
+      "id": 5,
+      "timestamp": "55:03",
+      "fact": "On Ergo, miners have to wait 720 blocks for block confirmation before receiving rewards",
+      "speaker": "Cheese Enthusiast",
+      "topic": "ergo-technical"
+    }
+  ]
+}

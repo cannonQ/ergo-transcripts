@@ -1,0 +1,211 @@
+{
+  "call_date": "2025-12-05",
+  "call_title": "Ergo PoW Blockchain - AMA - December 4th 17UTC",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "00:54",
+      "decision": "Schedule format: first Wednesday/Thursday of month for AMAs, third week Thursday for community discussion, flexible weeks for other content",
+      "speaker": "qx()",
+      "context": "Changing up the format of community calls",
+      "topic": "governance",
+      "significance": "minor",
+      "quote": "So we'll do that the first Wednesday, first Thursday of every month. And then we'll leave the week after that for flexible things... And then for sure, we'll have the third week Thursday, we're going to have the classic community chat, community discussion format"
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "02:31",
+      "commitment": "Off-chain bots will start working today, UI launch expected Saturday or Sunday",
+      "owner": "kushti",
+      "timeline": "today for bots, Saturday/Sunday for UI",
+      "topic": "use-stablecoin",
+      "quote": "So off-chain bots will start to work today. And from Saturday or Sunday, we are expecting a UI launch"
+    },
+    {
+      "id": 2,
+      "timestamp": "31:47",
+      "commitment": "Launch a program for community to crowdsource liquidity for AMM v3 type pool on PancakeSwap",
+      "owner": "richi",
+      "timeline": "in one month's time",
+      "topic": "use-stablecoin",
+      "quote": "So this is my next step. I already have in my mind the program that we will launch for the community, probably in one month's time, to crowdsource the liquidity to build AMM v3 type of pool on PancakeSwap"
+    },
+    {
+      "id": 3,
+      "timestamp": "37:23",
+      "commitment": "Open source USE off-chain bots code after polishing",
+      "owner": "coder for USE",
+      "timeline": "quickly after polishing",
+      "topic": "use-stablecoin",
+      "quote": "So yeah, currently the code for off-chain bots done by coder for USE is closed, but he is promising to open source the bots quickly after polishing the code"
+    },
+    {
+      "id": 4,
+      "timestamp": "41:06",
+      "commitment": "Discuss two liquidity pools concept with Bruno",
+      "owner": "kushti",
+      "timeline": "next week",
+      "topic": "use-stablecoin",
+      "quote": "Yeah, actually, very interesting. I would discuss it with Bruno, I guess, next week"
+    },
+    {
+      "id": 5,
+      "timestamp": "52:29",
+      "commitment": "Get another Lithos testnet update with collateral system and client API",
+      "owner": "Joe",
+      "timeline": "in a couple of days",
+      "topic": "lithos",
+      "quote": "We're going to get another update, you know, probably in a couple of days, getting the collateral system working properly again, along with the client's API"
+    },
+    {
+      "id": 6,
+      "timestamp": "53:37",
+      "commitment": "Put together airdrop for testnet miners and bonus for fraud proof detection",
+      "owner": "Joe",
+      "timeline": "unspecified",
+      "topic": "lithos",
+      "quote": "We are putting together, like a airdrop thing, for people that have mined the test net or, you know, maybe even a little bonus for people that are able to slash our fraud and that we're putting on the network"
+    },
+    {
+      "id": 7,
+      "timestamp": "55:33",
+      "commitment": "Present papers at stability workshop in Jaipur",
+      "owner": "kushti, Luca, Bruno",
+      "timeline": "December 15th",
+      "topic": "research",
+      "quote": "About the papers, we've got a bunch of papers accepted for the first stability workshop which will take place in Jaipur city, India on December 15th. I will present the chain cache paper there. Also Luca will present Dexy paper and Bruno with different co-authors including Luca will present also a few papers"
+    },
+    {
+      "id": 8,
+      "timestamp": "58:45",
+      "commitment": "Give short talk at hackathon beginning",
+      "owner": "kushti",
+      "timeline": "December 13th",
+      "topic": "research",
+      "quote": "Bruno also invited me to give a short talk at the beginning of the hackathon, which will be from December 13th"
+    },
+    {
+      "id": 9,
+      "timestamp": "59:23",
+      "commitment": "Start another DevNet in a few days",
+      "owner": "kushti",
+      "timeline": "in a few days",
+      "topic": "technical",
+      "quote": "So on, well, I'm currently not sure about next week, but yeah, well, it's close and we will start another DevNet... It will be started in a few days"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "18:21",
+      "question": "How different reserves with shorter duration than ERG would affect term premium",
+      "context": "Community member asking about reserve structure for USE protocol",
+      "topic": "use-stablecoin",
+      "raised_by": "Byron"
+    },
+    {
+      "id": 2,
+      "timestamp": "22:52",
+      "question": "How Kachina protocol from midnight could work with Ergo or USE",
+      "context": "Community asking about privacy integration possibilities",
+      "topic": "privacy",
+      "raised_by": "Bobcat"
+    },
+    {
+      "id": 3,
+      "timestamp": "36:36",
+      "question": "What is the redundancy on the bots that do buybacks for the protocol",
+      "context": "Understanding bot infrastructure resilience",
+      "topic": "use-stablecoin",
+      "raised_by": "community member"
+    },
+    {
+      "id": 4,
+      "timestamp": "39:02",
+      "question": "Possibility to add liquidity pool controlled by bank that works with Machina Finance",
+      "context": "Exploring integration with upcoming Machina Finance DEX",
+      "topic": "use-stablecoin",
+      "raised_by": "richi"
+    },
+    {
+      "id": 5,
+      "timestamp": "54:14",
+      "question": "Will we see a paper behind Lithos design",
+      "context": "Documentation needs for Lithos",
+      "topic": "lithos",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 6,
+      "timestamp": "62:20",
+      "question": "Need to solidify Mexico trip details",
+      "context": "Planning for Anarcopulco conference participation",
+      "topic": "events",
+      "raised_by": "Bez"
+    }
+  ],
+  "reversals_or_updates": [
+    {
+      "id": 1,
+      "timestamp": "00:21",
+      "previous": "Previous AMA format",
+      "update": "Changing to Redux of Ergo Classic AMA style with guaranteed monthly schedule",
+      "reason": "Improving community engagement structure",
+      "speaker": "qx()",
+      "topic": "governance"
+    }
+  ],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "06:21",
+      "fact": "USE launch raised 395,000 ERG with 129 participants",
+      "speaker": "richi",
+      "topic": "use-stablecoin"
+    },
+    {
+      "id": 2,
+      "timestamp": "09:41",
+      "fact": "Dexy Gold has a few K in liquidity pool and 3K in the bank",
+      "speaker": "kushti",
+      "topic": "dexy-gold"
+    },
+    {
+      "id": 3,
+      "timestamp": "13:00",
+      "fact": "400 million people are using Tether globally",
+      "speaker": "Joe",
+      "topic": "stablecoins"
+    },
+    {
+      "id": 4,
+      "timestamp": "30:20",
+      "fact": "Uniswap v3 efficiency is 20x better than standard AMM pools for stablecoins",
+      "speaker": "richi",
+      "topic": "defi"
+    },
+    {
+      "id": 5,
+      "timestamp": "47:31",
+      "fact": "CLB tokens are locked until December 1st, 2027",
+      "speaker": "richi",
+      "topic": "use-stablecoin"
+    },
+    {
+      "id": 6,
+      "timestamp": "53:50",
+      "fact": "Lithos mainnet planned for March",
+      "speaker": "Joe",
+      "topic": "lithos"
+    },
+    {
+      "id": 7,
+      "timestamp": "63:17",
+      "fact": "Anarcopulco conference is in late February, second half, in Acapulco city, Mexico",
+      "speaker": "kushti",
+      "topic": "events"
+    }
+  ]
+}

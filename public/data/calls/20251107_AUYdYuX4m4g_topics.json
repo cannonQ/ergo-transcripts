@@ -1,0 +1,256 @@
+{
+  "call_date": "2025-11-07",
+  "call_title": "Ergo PoW Blockchain - Community Chat - November 6th",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Community Call Introduction and Time Zone Issues",
+      "category": "community",
+      "start_time": "00:18",
+      "end_time": "01:32",
+      "primary_speaker": "qx",
+      "summary": "Welcome to the 10th/11th consecutive community AMA with kushti, Richi, and Grayman. Discussion about U.S. daylight savings time affecting call scheduling.",
+      "key_terms": [
+        "community AMA",
+        "daylight savings time",
+        "call scheduling"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "AI Integration and GPU Mining Synergy",
+      "category": "technical",
+      "start_time": "01:32",
+      "end_time": "03:47",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of AI developments in the Ergo ecosystem, focusing on GPU mining intersection with AI inference and programmable money solutions for AI payments. Emphasis on public communication and open-source development.",
+      "key_terms": [
+        "AI inference",
+        "GPU mining",
+        "programmable money",
+        "open source"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Sigma Quest AI Game Launch",
+      "category": "community",
+      "start_time": "03:47",
+      "end_time": "06:57",
+      "primary_speaker": "Grayman",
+      "summary": "Tim Erg's Sigma Quest AI game launches Sunday morning, featuring three puzzle guardians with a 200 ERG prize pool plus 20 ERG entry fees. Players solve AI-assisted problems to win seed phrase portions.",
+      "key_terms": [
+        "Sigma Quest",
+        "AI game",
+        "puzzle guardians",
+        "seed phrase",
+        "prize pool"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Infrastructure Outages and Resilience Planning",
+      "category": "technical",
+      "start_time": "07:44",
+      "end_time": "11:03",
+      "primary_speaker": "qx",
+      "summary": "Discussion of recent Hetzner billing issues causing explorer downages, highlighting centralization risks. Plans for CloudFlare load balancing across multiple explorer instances with rollover capabilities for dApps.",
+      "key_terms": [
+        "Hetzner",
+        "explorer outage",
+        "CloudFlare load balancer",
+        "infrastructure resilience",
+        "rollover technique"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Community-Hosted Explorer Network Transition",
+      "category": "technical",
+      "start_time": "11:03",
+      "end_time": "18:03",
+      "primary_speaker": "qx",
+      "summary": "Three community machines shipped for node hosting to replace $700/month centralized infrastructure. Discussion of peer-to-peer network advantages over cloud providers, especially after recent AWS outages.",
+      "key_terms": [
+        "community nodes",
+        "peer-to-peer network",
+        "infrastructure costs",
+        "AWS outages",
+        "decentralization"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Cloud vs On-Premises Infrastructure Philosophy",
+      "category": "technical",
+      "start_time": "12:48",
+      "end_time": "17:09",
+      "primary_speaker": "qx",
+      "summary": "Debate between cloud computing convenience and institutional knowledge retention. Discussion of expertise drain when outsourcing to cloud providers versus maintaining local technical capabilities.",
+      "key_terms": [
+        "cloud computing",
+        "institutional knowledge",
+        "technical expertise",
+        "outsourcing risks"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Explorer and Wallet Maintenance Needs",
+      "category": "technical",
+      "start_time": "18:14",
+      "end_time": "21:11",
+      "primary_speaker": "kushti",
+      "summary": "First pull request submitted for Explorer backend bug fixes. Seeking maintainers for Ergo Wallet Android SDK updates and considering AI agent integration for future wallet designs.",
+      "key_terms": [
+        "Explorer backend",
+        "Ergo Wallet",
+        "Android SDK",
+        "wallet maintainers",
+        "AI agents"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Real-World Asset Tokenization and Sub-blocks Development",
+      "category": "technical",
+      "start_time": "21:11",
+      "end_time": "22:56",
+      "primary_speaker": "kushti",
+      "summary": "Ongoing discussions with teams about RWA tokenization and chain cache basis testing. Sub-blocks DevNet launching soon with international contributors using Raspberry Pis for testing.",
+      "key_terms": [
+        "real-world assets",
+        "tokenization",
+        "chain cache basis",
+        "sub-blocks",
+        "DevNet",
+        "Raspberry Pi"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "USE Stablecoin CLB Bootstrap Event Overview",
+      "category": "defi",
+      "start_time": "22:56",
+      "end_time": "31:52",
+      "primary_speaker": "Richi",
+      "summary": "Community Liquidity Bootstrap event for USE stablecoin launch. 100 CLB tokens with 9 decimals distributed proportionally to ERG contributors, representing shares in locked liquidity pool for two years.",
+      "key_terms": [
+        "USE stablecoin",
+        "CLB tokens",
+        "liquidity bootstrap",
+        "liquidity pool",
+        "two-year lock"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "CLB Token Economics and Incentive Structure",
+      "category": "defi",
+      "start_time": "28:09",
+      "end_time": "40:15",
+      "primary_speaker": "Richi",
+      "summary": "CLB token holders earn 0.3% trading fees during two-year lock period, plus bonus airdrops worth 5-10% of contribution. Secondary market trading available immediately with redemption unlocking after two years.",
+      "key_terms": [
+        "trading fees",
+        "bonus airdrops",
+        "secondary market",
+        "redemption mechanism",
+        "liquidity tokens"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "USE Stablecoin Innovation and Market Strategy",
+      "category": "defi",
+      "start_time": "40:49",
+      "end_time": "46:16",
+      "primary_speaker": "Richi",
+      "summary": "USE aims to solve centralized stablecoin problems with unique decentralized design. Integration with Rosen Bridge for wide distribution, targeting mainstream adoption through familiar stablecoin concept.",
+      "key_terms": [
+        "decentralized stablecoin",
+        "Rosen Bridge integration",
+        "mainstream adoption",
+        "unique DeFi design"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Community Coordination and Marketing Support",
+      "category": "marketing",
+      "start_time": "43:29",
+      "end_time": "46:55",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of community coordination needs, referencing successful SigmaUSD launch community efforts. Emphasis on creating digestible materials and one-pagers for broader understanding and promotion.",
+      "key_terms": [
+        "community coordination",
+        "SigmaUSD launch",
+        "one-pagers",
+        "promotional materials"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Privacy Coins Market Trends and Ergo's Position",
+      "category": "technical",
+      "start_time": "47:17",
+      "end_time": "50:14",
+      "primary_speaker": "Grayman",
+      "summary": "Question about privacy coin price action and Ergo's optional privacy approach. Discussion of transparency benefits for public money systems while maintaining business-level privacy options.",
+      "key_terms": [
+        "privacy coins",
+        "optional privacy",
+        "transparency",
+        "public money systems",
+        "business privacy"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "Ergo Privacy Features and Implementation Challenges",
+      "category": "technical",
+      "start_time": "50:14",
+      "end_time": "56:32",
+      "primary_speaker": "kushti",
+      "summary": "Overview of Ergo's privacy tooling including ErgoMixer, stealth addresses, and native support for thresholds and ring signatures. Discussion of user experience challenges and networking security considerations.",
+      "key_terms": [
+        "ErgoMixer",
+        "stealth addresses",
+        "ring signatures",
+        "user experience",
+        "networking security"
+      ]
+    },
+    {
+      "topic_id": 15,
+      "title": "Regulatory Climate Changes for Privacy Discussion",
+      "category": "governance",
+      "start_time": "56:32",
+      "end_time": "58:46",
+      "primary_speaker": "kushti",
+      "summary": "Historical context of regulatory pressure on privacy discussions and exchange delisting risks. Current improved climate allows resuming privacy development from 2020 foundation.",
+      "key_terms": [
+        "regulatory climate",
+        "exchange delisting",
+        "privacy development",
+        "compliance risks"
+      ]
+    },
+    {
+      "topic_id": 16,
+      "title": "Development Updates and Team Progress",
+      "category": "technical",
+      "start_time": "58:46",
+      "end_time": "61:24",
+      "primary_speaker": "qx",
+      "summary": "Weekly development updates including kushti's R&D work, Rosen Bridge Bitcoin Runes milestone, and Cyberverse game development progress. Call for Kotlin/Java Android developers for wallet maintenance.",
+      "key_terms": [
+        "development updates",
+        "Bitcoin Runes",
+        "Cyberverse game",
+        "Kotlin developers",
+        "wallet maintenance"
+      ]
+    }
+  ]
+}

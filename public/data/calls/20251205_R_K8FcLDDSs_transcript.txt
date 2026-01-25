@@ -1,0 +1,331 @@
+[00:13] **qx()**: Hello everybody and welcome to a Redux of the Ergo Classic AMA style.
+
+[00:21] **qx()**: As some of you may know if you've been paying attention to socials, we're kind of changing up what we're doing. We're going to guarantee the first of the month one of these kind of style AMAs where we try to have different people on like as you can see today below me, we have Richie from the USE coin project.
+
+[00:40] **qx()**: We have Joseph Arminio who needs no introduction. And to my right, we have Batman. We have kushti right there in the dark, doing the anon kind of style.
+
+[00:54] **qx()**: So we'll do that the first Wednesday, first Thursday of every month. And then we'll leave the week after that for flexible things. We've already been discussing what we might do for next week. And then for sure, we'll have the third week Thursday, we're going to have the classic community chat, community discussion format, where we hopefully don't get Zoom bombed too much, figure out a better media, maybe it's spaces, maybe it's not, we'll see.
+
+[01:17] **qx()**: And go from there and then wildcard again for the fourth and if there's a fifth Thursday in the month then we'll see what we can do and then hopefully Joe and I can connect at 1 a.m. and do some late-night dev updates or something in between to fill some gaps so we'll see how that goes but anyway with that aside welcome everybody welcome Joe, kushti, Richie how you guys doing?
+
+[01:41] **kushti**: Doing pretty good. Hi, everyone. Yeah, so busy days, but doing well overall. So our USE launch was successful. Well, at least what was done, done successfully. So I'm currently pinging code for USE to run off-chain bots from today. And from Saturday or Sunday, we are expecting a UI launch. Maybe Richie can provide more details, but yeah, I'm in touch with the developers. So yeah, it will be available to end users soon. So off-chain bots will start to work today.
+
+[02:31] **qx()**: Well, why don't we have Richie jump right in? Richie, tell us how the launch went. You used MewFinance and how did all that go?
+
+[02:39] **richi**: It went well. So the first idea came to me probably two years ago. So I can talk a little bit about it. So the idea is that we have a lot of miners in Ergo that hold their coins and they are not very sophisticated in DeFi. So we have lots of liquidity that is not used for purpose, that kind of holds our network back.
+
+[03:08] **richi**: Compared to other projects, we're not a VC project. We don't have all these VCs who pre-mine or allocate themselves all the capital and then they can use it to promote. So all our coins are fairly distributed. So we have to kind of activate our community, the power of the community properly.
+
+[03:29] **richi**: Now, while many of these guys are just miners or some people who love the idea of a fair launch cryptocurrency, they do not necessarily understand how DeFi works. They maybe suffered some losses during this meme coin mania or whatever. So most of the people are kind of scared to use their coin. They prefer to huddle for years and then sell if the price pumps.
+
+[04:02] **richi**: So now, because our project is fairly launched, so there's no one, everyone needs to understand, there's no one to pump the price behind, right? So we need to do it ourselves. We need to work ourselves to get us where we deserve to be, right? Maybe someone will jump along the way, someone will notice and jump along the way and decide like, you know, massive capital and invest in Ergo, but this is not guaranteed. So we need to work ourselves on this way.
+
+[04:35] **richi**: And basically, if someone wants to join along the road, if he sees the potential, of course, everyone is welcome in an open ecosystem. But by default, if we just hold what we've mined and don't do anything with it, we might be where we are for years, right? So that was my idea.
+
+[04:54] **richi**: And I was thinking how to create a framework that allows us to use the capital, the power of the community, but then again, be very safe for people. So with very clear assumptions, they're not risking too much. It's a very low risk project for investments, for contribution.
+
+[05:19] **richi**: So I put this idea of a CLB framework and I submitted it during ErgoHack 9, I think was it, and got in touch with MewFinance guys who are very collaborative. So we had some very good discussions and they came up with their launch path, which was kind of a little bit modified to meet CLB requirements.
+
+[05:43] **richi**: And we came up with this idea of backing up the stable coin, a new generation stable coin that has lots of technologies behind it to back it up with the community money, basically, community funds. And as you could see, it was quite a successful launch. So we managed to get 395,000 ERG. I don't think we in the history of Ergo, we had any of that kind of launches or I can't remember, right?
+
+[06:21] **richi**: So yeah, so what we do now, very clear assumptions. Everyone knows 129 people participated. The protocol is already launched. So what we need is just UI and some off-chain bots, and hopefully the coin will be tradable by this weekend. And after that, the idea is to expand, make it cross-chain, go to other blockchains and start offering them stablecoins.
+
+[06:54] **richi**: Stablecoins have very clear value. So everyone knows how much is one dollar, right? So you don't need to explain what Ergo is and things like that. The idea is to expand our dollar. And by expanding our algorithmic dollar, naturally our TVL will grow and people will come learn how bank works, how liquidity pool works, and they will learn about the chain itself.
+
+[07:23] **richi**: But even if they don't, they just simply buy the stablecoin. For every stablecoin bought, some ERGs will be going to the bank, right? So like that, we are creating revenue stream and some economics. So I guess there will be many questions about our plans and future. So this is the idea to answer your first question. The idea was to unlock the power of community and unlock all the coins that have been sitting pretty much doing nothing and put them to work for Ergo, right? So, and I think the first stage showed that it worked pretty well.
+
+[08:04] **qx()**: So what, Richie, and kushti, I guess, what makes USE stablecoin different? I understand that kushti was involved with the concept of it or the building of that, the algorithms?
+
+[08:17] **kushti**: Yeah, so the contracts, the idea was mine. Well, mostly I discussed it with Bruno and so on. Then contracts were built initially by Amitabh, rest in peace and then I've extended them and I fixed some things did tests and so on. Then we had Dexy Gold launch right and some tests but Dexy Gold was launched by me so it was highly experimental so I didn't want to attract any money from outside, so just put 1000 ERG into the bank, so it's small scale.
+
+[09:09] **kushti**: Now it's bigger, like a few times bigger. A few K in the liquidity pool and like 3K in the bank. So yeah, it's doing quite well, you know, we had quite volatile price movements, big volatility in recent months but yeah it's doing well so the bank is full and so on.
+
+[09:41] **kushti**: So yeah well after watching our Dexy Gold behavior in the free markets which we have like sometimes absolutely free with no insiders and so on, like in the case of Dexy Gold. So yeah, well, Richie proposed to launch USD. And yeah, well, about fair launch, so I think it is very much needed to document the launch this time to avoid, you know, some mythology to be appeared later like happened with SigmaUSD to some degree.
+
+[10:31] **kushti**: I think it's quite unique kind of launch for this so-called crypto industry. From what I've seen, well, there were many algorithmic stablecoins launched back in 2021-22. Often there were some crazy stories when VCs and teams were involved. Sometimes they attracted liquidity by selling $1 for 70 cents before the launch. After the launch, it was depegged just because early investors went out.
+
+[11:21] **kushti**: So, yeah, well, a lot of crazy stories, which you can find on the internet, some of them, some maybe not so well documented even. I think there is need to document this effort of the community.
+
+[11:45] **qx()**: Well, before we have this question that we have up here, let's circle to Joe. Joe, how do you see Rosen helping out with spreading across ecosystems?
+
+[11:56] **Joe**: That's what Rosen is built for, to take assets into new markets. I do think that as we grow, we can expand, put them in new environments, some of which have deep liquidity already. You could look at a Binance Smart Chain base as a future option, and then you can also look at emerging DeFi ecosystems, right?
+
+[12:21] **Joe**: Or you may have chains that don't have access to like the traditional stablecoin value. And I think there could be huge demand there as well because it's offering a new product that they kind of need. Stable value has a lot of, that's actually probably been one of the best use cases of crypto stable coins in terms of allowing people around the world to access dollars that potentially offers them more stability and inflation resistance than their own local currency.
+
+[13:00] **Joe**: So I think around the world, it's like 400 million are using Tether, which is pretty powerful.
+
+[13:07] **qx()**: Are most stable coins chain dependent or are they offering some sort of bridge where there's shared liquidity on one chain and it's spreading out to other chains?
+
+[13:19] **Joe**: Yeah, you know, a lot of like the traditional stable coins have like a native implementation. But oftentimes what happens is they have the same control system, right? So, you know, they have the ability to issue assets. They have the ability to freeze assets. They have the ability to seize assets in some cases. There's even talk about, you know, reversing transactions. So there's no need for a bridge. They have, you know, essentially, you know, God mode turned on. Yeah. So they can, you know, balance liquidity, move things around as they want.
+
+[13:58] **qx()**: But remind me, Joe, with Rosen Bridge, if the core Rosen team was like, we hate everything and we want to go away, people could still utilize those smart contracts as long as the watchers and the guards were still doing their thing, right?
+
+[14:13] **Joe**: There's no central part. The guard set is distributed enough that if all the Rosen team disappeared, the guard would still function. Now, you know, it's like, okay, it'd be messy in terms of development. The code is open source. It's there for a reason. Our contribution standards have been picked up by a couple of different layer ones that are in different stages of integration.
+
+[14:45] **Joe**: Which is nice to see. Team has been kind of putting together different test environments and preparing, you know, moving from theory to practice as always. You know, nothing kicks you in the teeth like life, right? When you have great ideas in your head. So we're preparing for a contribution from external chains and that's going to be a learning process because it's the first time. But I assume that once we get that process down, it'll be, you know, less friction to bootstrap every time. So I'm looking forward to that.
+
+[15:15] **kushti**: And I've seen some great questions from the Firo team. Maybe there is need to provide answers in public, right? So that they were interested in guards, right? So how hard to censor out certain chains, right. Because it seems for them it's a huge issue, right? So most of the exchanges just throw them away for just providing very basic human rights, basically for financial privacy.
+
+[15:58] **Joe**: Yeah, Rosen was designed with that in mind. You know, that's the one thing that we want to do is distribute the guards in terms of geographically, right? That way any particular zone of control, you know, guards could go offline, the bridge still survives, right? There's no point in having distributed infrastructure unless you have that in mind for this type of project.
+
+[16:22] **Joe**: So we are globally distributed to where we don't have enough footprint in any single jurisdiction that if the guards went offline, the bridge still operates. It is something that from Genesis we've wanted to do, which is expand the guard set. Now, it probably makes sense to do that as a batch rather than a single guard. So, you know, once we have sufficient development and we're kind of ready to take on that task, we want to expand the guard set while keeping like geographic distribution in mind and ultimately harden the system, right?
+
+[16:59] **Joe**: That's really important for censorship resistance because you can have like, you know, multi-sig assumptions, that's just one guy, right? That's not hard to do. But, you know, to have something that has decent liveness guarantees and decent censorship resistance that's actually distributed across, you know, earth is a different animal.
+
+[17:28] **qx()**: Well, we got a question from Iron in here. I'm going to pop it up here. It's a question-ish, I think. I didn't have time to read it real quick. Let's see. Curious, it's about USE. Curious, other reserves, non-metals, being shorter duration than ERG would always net more term premium for the base chain while not having different fee structures, only duration, i.e. term premium. That make sense to any of you guys? You want to chime in on that?
+
+[17:56] **Joe**: That was the question.
+
+[17:59] **qx()**: I'll read it again.
+
+[18:00] **Joe**: I heard Richie and then my brain just turned off.
+
+[18:05] **qx()**: Byron's curious other reserves non-metals being shorter duration than ERG would always net more term premium for the base chain while not having different fee structures only duration ie term premium.
+
+[18:21] **Joe**: It's kind of hard, it's hard to predict, right? I would say the one thing that we're kind of running into in like the, well, this year specifically is just volatility, right? So, you know, we are kind of entering this phase of, you know, I would say, mass fear of debt saturation. And so we've seen gold, silver essentially explode relative to how they normally move. I think gold's at an all-time high. I think silver's at an all-time high.
+
+[18:57] **Joe**: And then you have the tricky paper market around both of those assets where they're rehypothecated to hell, sometimes overrepresented like 200, 300 to 1 based on like physical versus paper. So those are some crazy markets to consider in terms of like what is possible if you know people start to actually claim like delivery, right?
+
+[19:22] **Joe**: I have no idea. It's one of those things where market making tricks and, you know, rehypothecation which creates like artificially inflated supply creates all kinds of fuckery. So I've personally, you know, even had like a silver Oracle built actually for Rosen, because that was something that in the long term I find fascinating. I've kind of made the decision that based on all the other stuff that I'm juggling, it makes sense to sit back and say, okay, well, you know, we have USE, we have Dexy Gold, you know, we have some, I believe there's like Jed's shoe, which is some SigmaUSD variant that's been proposed.
+
+[20:07] **Joe**: It makes sense in my opinion to just be conservative and watch, gather information and then make a choice. But that is potential to have, let's say, other assets in these frameworks. It's just Oracle-dependent. But I do think that being conservative is wise here. Sit down, let them compete, gather real-world testing information, and then we'll know how to proceed.
+
+[20:40] **qx()**: Richie, anything to add to that?
+
+[20:47] **richi**: So the idea of adding more derivatives like silver, gold, well, gold we have is appealing. But I think the way the markets are built and it's not like my choice or kushti's or Joe. So the people, for some reason, they value the United States dollar first. And if you even look at all the stable coins that exist now in circulation, the dollar dominates. It dominates over everything.
+
+[21:26] **richi**: If you look underneath, the structure probably is fragile. It doesn't make sense that the dollar has such a huge domination and printing the trillions of debts. But this is the reality, right? And the first one, the most understood for everyone currently is the dollar. So that's what I kind of want to focus on by USE being the first mover. But after that, yes, we can definitely expand our lineup to precious metals, maybe oil, maybe something else. But it just makes sense to make dollar first because it's the most understood and widespread, right? It has the deepest liquidity. But yes, definitely we're open for other metals, other assets to be added under the same scheme.
+
+[22:28] **qx()**: Well, we got a kind of an off topic question we can pop in here really quickly. Let me bring this up. Bobcat is looking about what your guys' thoughts are on the Kachina protocol from midnight and how it could work with Ergo or how we could use it in Ergo or leverage it essentially, or maybe even with USE or that kind of stable crossing.
+
+[22:52] **kushti**: Yeah, I have no idea. All right. So yeah, well, I read the paper like, five years ago something like that so it's a paper from like late 2010 so yeah well probably makes sense then to review alternative approaches like Aleo or dark DeFi and then yeah provide a comparison right somehow. I believe that there is some plan for that, but I'm not sure when time can be found for that.
+
+[23:32] **kushti**: I think at some point there is a need to consider the possibility for private contracts, but there are a lot of variables here. Well, the space is now considering, well, mostly Ethereum developers, not Bitcoin still, post-quantum cryptography, right? And that usually breaks everything we use in regards with complex protocols and so on.
+
+[24:10] **kushti**: So, yeah, well, I think maybe it's better to build some basic tooling right and to understand how can we build monetary expansion to the real world and then yeah consider privacy well also with considering complications such as post quantum security and so on, or maybe give up. So it depends. It's still not very good shape. It's still mostly uncharted territory, I think.
+
+[25:05] **qx()**: All right, well, there's another question in there, but we'll let that hold for a sec. Sorry, go on, kushti.
+
+[25:10] **kushti**: Yeah, but maybe Richie can add, so he had some thoughts about the need for private DEXes and so on, yeah, expressed in some chats. So, Richie, do you have some thoughts on the need for private contracts, private DEXes. So what's the needs do markets have in your opinion? Because well, we are here to enable free markets, right? Well, digital markets.
+
+[25:41] **richi**: The market definitely values the privacy. And if it's possible to build a DEX, leverage trading or stable coins that have the privacy features, that will definitely be appreciated by the market. Now, the Kachina Protocol and Midnight kind of trying to achieve this. I'm not the tech person to understand it deeply to say what's the trade-offs there.
+
+[26:13] **richi**: And looking at the roadmap that Midnight is proposing, we're talking about some smart contracts going live around Q3, I think, next year. So we'll see how it goes. The one thing that is clear to me, if we connect to Midnight via Rosen, we will definitely bring a stable coin there. And if by getting to Midnight, it becomes private, that will be already a big, quite a big achievement. So you have algorithmic stable coin on private chain. That sounds like a very good combo to me. So while not getting inside what Midnight plans about their own technologies, I'm definitely a big proponent of expanding Rosen to support Midnight and expanding USE to getting into that environment as well. Why not?
+
+[27:11] **kushti**: All right, yeah, and I believe it is about bringing tokens just, well, they USE token right in the first place. So it should be quite straightforward, right? So I believe they should provide some primitives for that, for private tokens on midnight.
+
+[27:39] **Joe**: Yeah. I haven't looked into midnight in a while, to be honest, just in other things. But I do know at one point, I reviewed documentation, but that was, that was a while ago. So I'm no subject matter expert there.
+
+[27:54] **kushti**: Yeah. So I need to refresh my knowledge as well. But yeah, then it's, it would be good to consider options, because so yeah, bringing, algorithmic stable coins to private environments. Yeah. It's a very good combo indeed.
+
+[28:15] **qx()**: All right, let's see. We've got another follow-up from Byron saying, the different reserves support their own USE, like ADA USE, ETH USE, making volatility contained within each ecosystem's proof of support, a basket of algorithmic stables rated by open standards.
+
+[28:33] **qx()**: Yeah, you know, I feel that, right, with utilizing Rosen to spread stablecoin across ecosystems, it feels like such a crowdsourced version of something that makes the management of it actually so much easier in the long run, right? If you have community-run liquidity pools popping up on chains where it's needed that you bridge to, then what do you have to do, you know, as the creator of the project? Nothing, no, I guess. Richie? Seems a lot easier to be able to sustain and manage something like that.
+
+[29:10] **richi**: Yeah, I can speak about my plans and how I see our expansion and just ask me questions and feel free to interrupt. So I did some research and if you look at Uniswap v3 type of pools, now they have Uniswap v4 but that's done mostly for leverage trading so it has no benefit for us. So, but Uniswap v3 is quite interesting protocol and it's battle tested already.
+
+[29:44] **richi**: So, obviously, we have it on PancakeSwap and we will have it on Base as well. Now, the cost efficiency of Uniswap v3, try to guess. So, for example, Cardano and Ergo, we are using typical AMM pools, right? Straight AMM pools, Uniswap v2 type pools. But at a stable coin, it makes sense to switch to Uniswap v3 and kind of select the range, shorter range, and the efficiency of the protocol goes 20x.
+
+[30:20] **richi**: So what does it mean? You need $1 million worth of liquidity on a standard AMM pool, and you can replicate the same efficiency, the same slippage, on Uniswap v3 with just $50,000 of liquidity, right? So if we create that liquidity pool USE to USDT just with 50,000, for example, just as arbitrary number, but on Uniswap v3 on PancakeSwap, it's essentially the same as getting a million dollar worth of liquidity on AMM v2, or if you translate it into ADA, like two and a half million ADA.
+
+[31:07] **richi**: So if you look at the top ADA stable coins now, their liquidity is between two and I think six is the most. So we can replicate the same depth and the same basically quality and cost-efficiency for the end user with just a fraction of it. So this is my next step. I already have in my mind the program that we will launch for the community, probably in one month's time, to crowdsource the liquidity to build AMM v3 type of pool on PancakeSwap.
+
+[31:47] **richi**: So with that one, we will have very efficient rails to move stable coins between USDT, USE, Ergo and Cardano. I think everyone will be surprised with the slippage tolerance and things like that. That's what is in my mind over the next one month, like I said. That's the primary goal.
+
+[32:20] **richi**: And after that, we will plan to expand on other chains, Cardano and maybe some smaller chains that will join the Rosen. But basically every chain will have a very cost-efficient rails to move from USDT or USDC back into USE and to their own chain, just to the fraction of the cost. So with that one, once deployed, obviously lots of arbitrage traders will jump in because for them cost efficiency is very important. And we will have quite a big volumes moving and trading. So that's what I'm hoping for, to enable that trading volume in the next couple months with the help of the community.
+
+[33:10] **kushti**: All right, so it's kind of arbitrage friendly, right, stablecoin. And yeah, I believe actually, well, in the crypto industry, so stablecoins are mostly to tame volatility, right, and do arbitrage, actually, they're used for. Right. I am not very proficient in trading. Is that true?
+
+[33:40] **richi**: Yes, stable coins are used for arbitrage trading mostly and they move to different chains a lot and cost efficiency is very important here. So like I said, the Rosen enables cost-efficient implementation and Pancake's Uniswap V3 type pools enable very efficient trading. So we already have these very efficient rails that we just need to spread and then people will naturally jump in as we expand.
+
+[34:19] **kushti**: Well, nice. And also, it seems it will enable Binance Smart Chain, right? So currently, Rosen is still mostly about Cardano, right? Bringing assets to Cardano from going back. And yeah, so the plan is to go for Binance Smart Chain in the first place, right?
+
+[34:42] **richi**: Yes, Binance Smart Chain is the first priority now because it has USDT. It has very cost-efficient USDT. It's very centralized, but that's what people want, it seems. So they like USDT. And yeah, the Binance Smart Chain enables that very cost-efficient use of USDT. So the funds should be flying back and forth to Ergo, Binance Chain, Cardano, and later to other chains.
+
+[35:16] **kushti**: All right. What about Ethereum?
+
+[35:21] **richi**: Ethereum now is improving a little bit. The cost of transactions on Ethereum was a bit high. But with the recent updates, and I just read yesterday that they're going for another hard fork soon. So with that update, the cost of using the Ethereum L1 goes down. At the moment, it will never be as cost efficient as Binance Smart Chain simply because it's a very centralized chain.
+
+[35:51] **richi**: But yes, I'll be monitoring that. So for example, one year ago, it made no sense to deploy on Ethereum because just the cost of transaction was very high, but it's getting better. So I'll keep monitoring that and maybe we will enable it in future if there will be a demand.
+
+[36:18] **qx()**: Thanks. We've got another question here, guys. And maybe it's for both kushti and Richie. What's the redundancy on the bots that do the buybacks for the protocol? Any of them running like on duck pools or only one or two? I guess like Dexy too, right?
+
+[36:36] **kushti**: Sorry. Can you repeat this?
+
+[36:39] **qx()**: What is the redundancy on the bots that do the buybacks for the protocol, for the USE protocol? Are any of them running like on duck pools or only one or two?
+
+[36:48] **kushti**: Yeah, so currently the code for off-chain bots done by coder for USE is closed, but he is promising to open source the bots quickly after polishing the code. So yeah, currently he's ashamed a bit of open source, but yeah, after some polishing. And I think that there is needs to open source UI also, right? And to have pools on Ergodex and so on.
+
+[37:23] **kushti**: So, and then wallets like Nautilus and Ergo Wallet. And ErgoMixer actually, maybe Minotaur as well, not sure. So they all have a feature to mint SigmaUSD, right? So that should be an option, I believe, in the long term also to get USE. Right.
+
+[37:53] **Joe**: Yeah, I do think that with the matching of finance, with the grid ordering that we're doing, it will be pretty powerful in terms of like community arbitrage around USE. Just because the amount of orders per block potentially could really push a lot of activity through the Ergo network just in that one use case, arbitrage.
+
+[38:26] **richi**: Actually, I have a question to kushti about data that Joe mentioned. kushti, so when we have Machina Finance live, do you think there is a possibility to add a liquidity pool there that will be also controlled by a bank? Is it somehow possible to have two liquidity pools that banks interact with? I know it sounds like complicated, but the cost efficiency and overall the whole structure of Machina Finance is very appealing to me.
+
+[39:02] **richi**: I think that will be a great DEX with the presentation that Anand BR did during the Ergo anniversary, that looks like it will be a very great asset to trade tokens on Ergo. So I was thinking if we can somehow make a bank work with the DEX as well, in addition to Ergodex that we're doing right now, or maybe transfer liquidity somehow, but something just theoretical, obviously you don't need to answer right now fully.
+
+[39:43] **kushti**: Well, to have two pools could be complicated, so switching to another pool may be easier. I think, conceptually even, it makes sense to have one reference pool, right? And then others will be equalized with it. Yeah, arbitrage, right? So, and with two pools, so the bank does need to account for both somehow right and then to intervene into both so yeah well a lot of complexities here probably maybe even some variants of Gresham's law I don't know.
+
+[40:42] **kushti**: Possibly, yes, because, well, pools are quite different, right? They're different markets, after all, somehow. But you need to think about it.
+
+[40:54] **richi**: Yeah, we will definitely think about it.
+
+[40:57] **kushti**: Yeah, actually, very interesting. I would discuss it with Bruno, I guess, next week.
+
+[41:06] **richi**: Yes, it's something to think about because Machina by its design will enable next level DeFi on Ergo. So just for people listening here, Machina Finance should allow us to match the liquidity efficiency of Uniswap V3 type pools. So, think about the efficiency of our current pools, like Uniswap v2, that's what we have on Ergo. And then with Machina, with the grid orders, we will be able to set up ranges. And it goes like 10x, 5x, 10x, it depends on the trading pair. So for stablecoin pairs, it makes a lot of sense to trade them on Machina Finance. It should be very novel. It's very interesting. We'll see how it works. We're still a few months away from it. But yes, something I'm already thinking. It will be a very beneficial development for Ergo DeFi.
+
+[42:12] **kushti**: All right. Yeah, it's quite exciting, right? So we can have concentrated liquidity pools then, basically, just without, well, liquidity pools, AMM ones, I mean, standard, like Uniswap. And that's quite interesting. And yeah, that would be useful for stable to stable, right? So SigmaUSD to USE, for example, Glenn Gold to Dexy Gold.
+
+[42:49] **Joe**: Yeah, I kind of conceptualize that anyway, in terms of extending people's power from being their own bank to being their own market maker, where they have the ability to set these grids within certain liquidity ranges and essentially fulfill the purpose that market making outfits do in terms of liquidity management in and around spread. So that'll be cool.
+
+[43:21] **kushti**: And well, with Dexy design, where a bank is slow to intervene, indeed, a lot of possibilities for arbitrage rights with other stable coins. And that's what helps the bank as well. So the markets would stabilize before the interventions, mostly. It should be the case. And that's quite interesting.
+
+[43:57] **qx()**: All right. Let's see. We've got another hit from Ursa Minor 2010. Wants to know if there's going to be, if there could be a marketplace for the Ergo liquidity provider, the LP tokens. Can you make liquidity pools with LP tokens as part of the pair? I'm wondering how abstract this whole thing can get.
+
+[44:23] **kushti**: So the question is about creating markets with liquidity pools.
+
+[44:28] **qx()**: Yeah, creating a pair with liquidity pools, markets, trading, arbitrage, all that kind of stuff with the liquidity.
+
+[44:35] **kushti**: Yeah, sorry, but you have LP token on one side and on another side, you have what?
+
+[44:42] **qx()**: I guess you'd put whatever you'd want the pair to be, right? Whatever you would speculate against in that manner.
+
+[44:49] **qx()**: kushti, I can take that.
+
+[44:53] **richi**: So basically, CLB token that was distributed to everyone is essentially your LP token. So in two years, you will be able to redeem CLB to liquidity tokens. And then with the liquidity tokens, redeem the liquidity from the main pool.
+
+[45:12] **qx()**: So Ursa is saying SigmaUSD. I'd like to make a pair with SigmaUSD, but sorry, go on, Richie.
+
+[45:19] **richi**: So currently, yes, we have CLB tokens already tradable with ERGs, and they will be tradable with USE on this weekend or whenever the UI goes live. And that's essentially you are trading your liquidity pool tokens with ERG or with stablecoin. So what he says is, yes, it is possible, but it's much better representation when it's like a derivative of it. So a CLB token is essentially a liquidity token and you can trade it even now. It can go now to any of our DEXes and then buy or sell CLB tokens. And that's essentially buying or selling a liquidity token.
+
+[46:05] **richi**: You cannot redeem it yet, because that's the whole idea, to keep that liquidity working for the ecosystem for two years. But you can trade it.
+
+[46:17] **qx()**: Where is it now? It looks like the LP is in about 10 wallets or so. Richie? Sorry?
+
+[46:29] **qx()**: That token? I'm looking at its contents right now. CLB?
+
+[46:35] **qx()**: No. Whatever that LP token, you've created the LP token already?
+
+[46:41] **richi**: Yes, the LP token is created on the CLB launch pool, so it will be transferred to a smart contract and will be locked there. We'll see how much time it takes to create the smart contract, the redeem smart contract. If it will take a little bit longer, then we will just transfer it to Rosen for storage for two years. And then after that, to Rosen Cold Wallet, Multisig Cold Wallet.
+
+[47:12] **richi**: And then from there, we will transfer it to a smart contract with a time lock until December 1st, 2027. And then when December 1, 2027 comes, you will be able to use CLB tokens to redeem your liquidity tokens. I hope that makes sense with what I'm saying.
+
+[47:31] **qx()**: Yeah, it does. Great.
+
+[47:36] **qx()**: All right, let's see what else we have. I don't see any other questions unless we've missed some. What about any other news in the ecosystem? Well, we have 10 minutes left, guys. kushti, what you been working on? Joe, you didn't talk. You're muted, Joe. But what about your runes?
+
+[47:53] **kushti**: That's been kind of... Yeah, we have a lot of news, so 10 minutes not enough probably. But yeah, we can take another five. And yeah, Joe, please go ahead.
+
+[48:04] **Joe**: Sure. So let's start with Runes. Rosen Runes did go live, which means we can now wrap assets onto Bitcoin, which is really unique. Now we're kind of looking across the Bitcoin DeFi space and I've got to say it's pretty rough in terms of like the shallow limits of it.
+
+[48:22] **Joe**: So we're, we're actually have our own little thinking group in terms of like interactive transaction construction, which is basically where you use partially signed signatures and then off chain logic to coordinate more complex swaps. Kind of like a, I don't know. I don't know what you call it. It's like an atomic swap on the same chain with off-chain conditions that you're agreeing on or coming to consensus on is the net goal.
+
+[48:56] **Joe**: So, or actually... How do you enforce those off-chain?
+
+[48:59] **Joe**: Well, you have to use partially signed transactions, essentially. That's a working group theory that we're playing with right now, which is kind of fun.
+
+[49:12] **Joe**: We are going to support a protocol called Ducat protocol, which is somewhat of a MakerDAO style protocol, stablecoin on bitcoin itself that's going to be backed by bitcoin layer one liquidity i think they're going to launch next year and so i do think it's quite interesting if we can scrap together some sort of amm design you know we can potentially get stablecoin to stablecoin pairs on bitcoin you know who knows maybe one of these days they'll drop something like BIP 119 and we'll get covenants and then all of that will be wasted time.
+
+[49:50] **Joe**: But Bitcoin is incredibly slow to evolve. So maybe that's like due 2040. Let's see. In terms of Lithos, we've launched the test net. That's been really going quite well so far. It's been nice to see that in like a dynamic testing environment. You know, they've been catching bugs, that have been coming up. It's been a really good stress test because right now on testnet that Lithos is the king.
+
+[50:20] **qx()**: I've never had so many people mining. I'm mining test net with a 3090 using mining core. And I haven't gotten a block in like days, Joe. It's quite competitive.
+
+[50:30] **Joe**: No, it's been awesome. And it's one of those things where, in testnet right now, we actually are seeing a scenario where Lithos actually has the majority of hash rate in the framework. But you still have a distribution of blocks to people, unique miners, which is the ideal outcome for Lithos, is to be able to spread those block producers.
+
+[50:58] **Joe**: Today, we did have kind of a big event, which because we're on testnet, nobody's really lying about their nisps, the amount of work that they're trying to submit, and they're just running the base client, and the base client is more or less following its own logic. Quote unquote, honest. So we've started lying on testnet. And today, the first fraud proof that caught a misrepresentation of work worked and it slashed us.
+
+[51:32] **qx()**: How much did you put up for the slash? Is that the same cost as the block reward?
+
+[51:38] **Joe**: Yeah, so essentially, when you have miners that are running fraud proofs, when you reduce somebody's submitted share, they get paid less and you get paid more. So there is a nice natural incentive there to audit other miners, because if you catch something, you benefit from slashing them or slashing their share that they submitted.
+
+[52:05] **Joe**: So that's kind of the game theory in terms of like, why would people want redundantly, you know, auditing the work of other people because they get paid more when they catch something, right? So that does kind of spread horizontally across all the actors. You know, we still have more work to do in terms of the test net, but overall things are going really well.
+
+[52:29] **Joe**: We're going to get another update, you know, probably in a couple of days, getting the collateral system working properly again, along with the client's API, but things are chugging along and testnet is its own beast. It's pretty cool.
+
+[52:51] **qx()**: You guys have drained me dry of ERGs for collateral. If anybody has any ERGs that is running the Lithos, please just send them to cheese because I'm all out. I think I have 2000 testnet ERGs left and I'm not getting any more because Lithos has beaten me on the block discovery.
+
+[53:10] **qx()**: Yeah. If you have any extra sentiment, DM cheese and send it with cheese.
+
+[53:13] **Joe**: It's been really cool to see that type of participation on test net. So hats off to the community. We are putting together, like a airdrop thing, for people that have mined the test net or, you know, maybe even a little bonus for people that are able to slash our fraud and that we're putting on the network.
+
+[53:37] **Joe**: But yeah, that type of community engagement is, is really awesome to see. Looking forward to rolling this thing out and hopefully, you know, getting the March, the test night underway or main net, excuse me.
+
+[53:50] **qx()**: I'm impressed, Joe. It's been, it's, Lithos has been a word on people's lips for a long time and now just plus two plus years. And now it just pumps right out. Cheese has been sitting there working in the background for quite a while.
+
+[54:06] **kushti**: All right. Will we see a paper behind Lithos design?
+
+[54:14] **Joe**: I hope so. All right. I think it would make sense to put together some sort of white paper. I do think it's funny how we have a tendency on Ergo to build it first and then like, oh, we need to build it. I don't even think there's a Rosen white paper yet, to be honest. I have to check. I think someone was going to make something.
+
+[54:37] **kushti**: Yeah, well, I think you need now to document and sell it, right? So a lot of coding and well, it's time to sell the tools, right? And the whole story, I believe.
+
+[54:55] **kushti**: About the papers, we've got a bunch of papers accepted for the first stability workshop which will take place in Jaipur city, India on December 15th. I will present the chain cache paper there. Also Luca will present Dexy paper and Bruno with different co-authors including Luca will present also a few papers.
+
+[55:33] **kushti**: So maybe we can do our next AMA from India then me Bruno and Luca but then yeah I'm not sure about Thursday actually maybe Friday or Saturday.
+
+[55:45] **qx()**: Yeah, that's the beauty of the middle weeks. kushti, we can be really flexible with it. So, yeah, just keep us posted.
+
+[55:53] **kushti**: Yeah, and I think it would be nice, right, to have some, like, bleeding edge research. After all, for the first time after, I don't know, maybe years. Then, yeah, I'm testing basis tracker right now and then also thinking to jump on doing presentations, right, marketing materials.
+
+[56:30] **kushti**: Then there is a bunch of community-made writings I need to review, such as Silver Sense by Greiman. So I did some reviews and yeah, well, with basis tracker available, there is need to finalize it in some implementable form, let's say, right, and then do some real-world experiments.
+
+[57:03] **kushti**: Then there are some other ideas. So there is this forum post by Federico, I need to check about this common currency, commonwealth currency, how's it called, so yeah we'll check and probably provide some review also testing the forum which got migrated to a new location, right, a lot of news.
+
+[57:32] **kushti**: Then yeah we have a new version of Minotaur wallet and update for Ergo Wallet is also done and under testing now. So now it's time to consider publishing details for Ergo Wallet and I think it's a good time to start publishing Minotaur as well. So we need to figure out details.
+
+[57:59] **kushti**: Then what? Yeah, my father too or at least sub-blocks white paper. So the initial plan was about the next week, the plan which I had right after the release launch. But with this trip to India, Bruno also invited me to give a short talk at the beginning of the hackathon, which will be from December 13th, so before the main event.
+
+[58:45] **kushti**: So on, well, I'm currently not sure about next week, but yeah, well, it's close and we will start another DevNet. So I actually tested it before the USE deployment with a couple of mining peers of mine and now, well, it's time for more broad testing. It will be started in a few days. Yeah, what else?
+
+[59:23] **qx()**: Just a shout out to, guys, shout out to Bez who's been cranking out a massive amount of community pages here. He's got ergoblockchain.org. He's got the app built on ergo theme, right, that he's cranking out. Fantastic artwork, fantastic amount of content there as well.
+
+[59:41] **kushti**: It's the new community hub and it has a marketing section for you guys so there you can find a lot of fun pages which you can distribute around. Then there were a lot of updates reported during yesterday's DevChats for Hermes. And yeah, we also have Digin's World, so QX, maybe it's your turn to present.
+
+[60:15] **qx()**: No, no, I haven't. Have you played with Digin? You know, I haven't. I haven't played with it much. I tried to build something really quickly and then something else. But that's Rob, right? That's Lithos Rob?
+
+[60:29] **kushti**: Are they doing it? Yeah, so yeah, it's Rob and yeah, they have a lot of good meme NFTs already.
+
+[60:46] **qx()**: Yeah, but somebody built a really beautiful 3D block explorer essentially and kind of like a nice visual where you click on a floating block and you get the stars moving by you and then all the block information shows up to your right and you can slide through the blocks. It's really awesome what you can do with this.
+
+[61:05] **qx()**: I think he's using Gemini for that, for the coding, which the new version is a really, really does a really nice job at that kind of stuff. So if you guys haven't checked it out, please check it out. I'll try to repost something on Twitter today so you can get the link again. But really, really cool site that he made to be able to put coding in the hands of non-coders.
+
+[61:29] **kushti**: Yeah, I'm also playing with AI coding contracts, so we discussed some things with Rob and I used an agent to review Dexy contracts also during the USE deployment. So along with manual recheck of like everything here that there was an agent, coding agents also working on that along with tests.
+
+[62:01] **qx()**: First of all, Bez wants to know if we need to solidify the Mexico trip. Is that something? Did you talk to, who was it, Anon or Allison? Or anybody else? MX. MX, yeah, yeah, yeah.
+
+[62:20] **kushti**: All right. So let me check with the guys how big it will be. So a few years ago, there were friends from pirate chain joining the event they offered to share booth even but yeah now they're not appearing there it seems so yeah need to think with them if loot from pirate is coming that would be great as well because they have experience with this event but yeah let's go why not so it will be late February somewhat second half of February Acapulco city in Mexico Anarcopulco conference and so maybe we can show
+
+[63:17] **kushti**: I know, so some things there like mesh networks based basis powered peer-to-peer cache for like community trading, something like that. All right, and QX, any updates for BRIC experiment?
+
+[63:37] **qx()**: Oh yeah, we're going full... It's ready for... I actually wrote Louis Vacher the other day, and I was like, Louis, I just want to thank you for Tipperbot and having a tool that allowed us to introduce BRIC in a really easy way for micro payments. But I'm going to move off Tipperbot fully. I'm going to sever everybody's Tipperbot wallet. I'm going to actually pull it from the Discord. I can't sever their wallets. And then give them instructions on how to convert to Nautilus and bring the seed phrase over.
+
+[64:07] **qx()**: But the portal is fully built for them. And there's a new method, too, that we're going to distribute. So the idea is that at least administration here, we don't want to reward things that students should be doing. So if we want to reward students with BRIC for showing up to class and scanning and check-in-ing, that's something they should be doing. We don't want to reward them for that.
+
+[64:28] **qx()**: So there's very kind of unique cases that we're going to reward them for. And the latest case that we're going to reward them for is we have a huge issue in our physical woodworking shops and machining shops where students aren't checking in with the QR codes with the third party program called Fabman when they go to the shop.
+
+[64:47] **qx()**: So a shop technician can't know without walking through the shop every time exactly what the capacity of the shop is and how many people are in there because people aren't checking in. So what I've been doing with the portal is I've integrated the API for that third-party software in. Every day, it pulls that third-party software to get people to check in. And then in the back end, I already have it made. We can hit a button, and it builds a transaction and sends BRIC to every single student that checked in that day or that week if it builds up kind of thing.
+
+[65:20] **qx()**: So that's the second to latest thing that we've done. And the latest thing that we've done is we want places to be able to spend this BRIC too, right? We want an economy. So what we're doing is I've already built into the portal as well. Students can send their BRIC to a wallet through the portal with Nautilus and then once a month when the 3D printer shop you know with the 3D printers are charging students for the filament that they used through the 3D printer OS application we take the export from the 3D printer OS application they wouldn't give me API access kind of pissed me off but whatever we take that excel export I dump it into my portal and I then subtract the BRIC that the students have given to the portal from their portal so if you've donated you know 50 BRIC that's what that's about that's about seven dollars six bucks so if you donate six bucks to the portal then we're only going to bill you what your 3d printer cost was minus six bucks
+
+[66:28] **qx()**: So it's a way to get that BRIC circulating back into us that we can then distribute back out for checking in so that's the latest thing that we're doing which is super super cool and next semester will be the full-on launch of hey everybody we've severed discord for tipper bot you're all on nautilus now go to the portal and do it so yeah the portal
+
+[66:47] **qx()**: I mean, that's what I love about Ergo. With AI and how easy Ergo is to use, it took no time at all to integrate Fleet SDK into just normal JavaScript calls and my programming that I use to write websites. And it's just like Tipperbot. If a student, if I'm going to transfer a BRIC to a student or another student wants to transfer a BRIC to a student through the portal, they type in the net ID, they hit send. If the student doesn't exist in the portal, it builds a wallet for them automatically and then sends that to Nautilus so the person can complete the transaction to send the transaction.
+
+[67:21] **qx()**: But it's wicked cool. I'm really excited about it. And as this builds and builds, hopefully we have more use cases to give out BRIC and more use cases to suck BRIC back in as well. So yeah, so that's the BRIC update for the day.
+
+[67:36] **kushti**: Nice. And do you document experiments, like maybe not even technical side, but social and socioeconomic interactions?
+
+[67:47] **qx()**: No, I don't. Glasgow had a nice write-up that he surveyed and got everything pretty right, at least in the initial setup and set. You're right I mean I'd love to be able to what I'd love in the future and maybe a year or two down the road when we get a real big economy going with BRIC here and it's swapping through everything I'd like to see like third party places like let's say students want to, you know, students usually buy lumber from 76th Lumber down the road, right?
+
+[68:17] **qx()**: How awesome would it be if 76 came to us and said we want, you know, to, or we went to them and said, you know, could we have students drop off BRIC and every BRIC you hand us back will give you six cents for right there kind of thing. So that'd be ideal to have it start spreading outside of the local economy in that manner for merchants that want our students' business.
+
+[68:39] **kushti**: Yeah, I think possible.
+
+[68:42] **qx()**: I think so, too. I think so, too, for sure.
+
+[68:46] **qx()**: All right, guys, we're 11 minutes over.
+
+[68:49] **kushti**: This is great. All right. Yeah. So there are more updates, but yeah, let's wrap up with that. Already quite solid. I believe free stuff updates. So, yes. See you.
+
+[69:01] **qx()**: Yeah. Thanks everybody. Thanks Richie for coming, talking about USE, Joe for USE and Rosen, kushti for USE and everything else on your mind. Thanks so much.
+
+[69:12] **kushti**: Have a good one. Take care. Bye.

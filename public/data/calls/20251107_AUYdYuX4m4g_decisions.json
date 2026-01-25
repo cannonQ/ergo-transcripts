@@ -1,0 +1,153 @@
+{
+  "call_date": "2025-11-07",
+  "call_title": "Ergo PoW Blockchain - Community Chat - November 6th",
+  "decisions": [],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "03:56",
+      "commitment": "AI game Sigma Quest starts this weekend, Sunday morning",
+      "owner": "Tim Erg",
+      "timeline": "Sunday morning",
+      "topic": "community-games",
+      "quote": "We even have an AI game coming up this weekend. Tim Erg's AI game Sigma Quest starts this weekend, Sunday morning."
+    },
+    {
+      "id": 2,
+      "timestamp": "18:33",
+      "commitment": "First pull request got into the Explorer backend repository for maintenance work and bug fixes",
+      "owner": "kushti",
+      "timeline": "unspecified",
+      "topic": "infrastructure",
+      "quote": "Infrastructure-wise, we need to do some maintenance work and bug fix for Explorer. Well, the first pull request just got in the Explorer backend repository."
+    },
+    {
+      "id": 3,
+      "timestamp": "22:11",
+      "commitment": "Launch Dev Nets for sub blocks in a few days",
+      "owner": "kushti",
+      "timeline": "a few days",
+      "topic": "technical",
+      "quote": "And for sub blocks. We are going to launch Dev Nets in a few days, now bigger."
+    },
+    {
+      "id": 4,
+      "timestamp": "23:13",
+      "commitment": "Start two weeks marketing campaign for CLB event once technical part is sorted",
+      "owner": "Richi",
+      "timeline": "two weeks",
+      "topic": "tokenomics",
+      "quote": "So as soon as we know this we will start probably two weeks marketing campaign."
+    },
+    {
+      "id": 5,
+      "timestamp": "40:15",
+      "commitment": "Will be posting updates with USE Twitter account specifically dedicated to the stable coin",
+      "owner": "Richi",
+      "timeline": "unspecified",
+      "topic": "marketing",
+      "quote": "How can you help at the moment? Just attend spaces and subscribe to my Twitter, USE Twitter account. So it's there. I'll be posting some updates with my USE account on Twitter, specifically dedicated to this stable coin."
+    },
+    {
+      "id": 6,
+      "timestamp": "59:19",
+      "commitment": "Bitcoin Runes development deployment procedure hoped to start by next week",
+      "owner": "Rosen Bridge team",
+      "timeline": "next week",
+      "topic": "rosen-bridge",
+      "quote": "They hope to finish important ones and start Bitcoin Runes development deployment procedure. Awesome, by next week."
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "18:45",
+      "question": "Looking for maintainers of Ergo Wallet to update Android SDK and publish new versions",
+      "context": "Need to update wallet infrastructure and consider future wallet designs with AI agents",
+      "topic": "infrastructure",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "20:58",
+      "question": "Need to find ways to publish MHS monitor mobile wallets and add multi-sig support to ergo wallet",
+      "context": "MHS monitor supports multi-sig and is quite amazing but needs publishing",
+      "topic": "infrastructure",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 3,
+      "timestamp": "27:42",
+      "question": "Waiting for kushti to give go ahead that technical part is clear for USE protocol launch",
+      "context": "All preparations are ready but need technical confirmation before proceeding",
+      "topic": "tokenomics",
+      "raised_by": "Richi"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "04:17",
+      "fact": "Sigma Quest game currently contains 200 ERG, everybody who participates has to kick in 20 ERG, 15 of which goes into the pot",
+      "speaker": "Grayman",
+      "topic": "community-games"
+    },
+    {
+      "id": 2,
+      "timestamp": "08:54",
+      "fact": "Infrastructure historically paid for by the EF, there was a billing issue with Hetzner midweek or end of last week",
+      "speaker": "qx",
+      "topic": "infrastructure"
+    },
+    {
+      "id": 3,
+      "timestamp": "10:29",
+      "fact": "Current infrastructure costs $700 a month",
+      "speaker": "qx",
+      "topic": "infrastructure"
+    },
+    {
+      "id": 4,
+      "timestamp": "24:16",
+      "fact": "Only 100 CLB tokens will be minted with nine decimals",
+      "speaker": "Richi",
+      "topic": "tokenomics"
+    },
+    {
+      "id": 5,
+      "timestamp": "29:05",
+      "fact": "Goal is to collect around 300,000 to 400,000 ERG for the bootstrap",
+      "speaker": "Richi",
+      "topic": "tokenomics"
+    },
+    {
+      "id": 6,
+      "timestamp": "30:26",
+      "fact": "Liquidity pool is bootstrapped with 0.3% fee",
+      "speaker": "Richi",
+      "topic": "tokenomics"
+    },
+    {
+      "id": 7,
+      "timestamp": "33:01",
+      "fact": "Bonus airdrops expected to be about between 5 to 10% of the value of contribution",
+      "speaker": "Richi",
+      "topic": "tokenomics"
+    },
+    {
+      "id": 8,
+      "timestamp": "39:22",
+      "fact": "CLB event planned to run for three days",
+      "speaker": "Richi",
+      "topic": "tokenomics"
+    },
+    {
+      "id": 9,
+      "timestamp": "52:44",
+      "fact": "Last time checked, only 2% of Zcash total supply was shielded",
+      "speaker": "kushti",
+      "topic": "privacy"
+    }
+  ]
+}

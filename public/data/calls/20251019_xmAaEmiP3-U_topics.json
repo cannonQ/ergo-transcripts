@@ -1,0 +1,181 @@
+{
+  "call_date": "2025-10-19",
+  "call_title": "Lithos: The Future of Proof-of-Work Mining \u2014 Cheese Enthusiast (Ergo Meetup 2025)",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Lithos Introduction and Mining Pool Problems",
+      "category": "technical",
+      "start_time": "00:00",
+      "end_time": "02:20",
+      "primary_speaker": "Cheese Enthusiast",
+      "summary": "Introduction to Lithos protocol and its goal to bring transparency and decentralization to proof-of-work mining pools. Discusses limitations of previous smart pools implementation on Ergo and centralized control issues.",
+      "key_terms": [
+        "Lithos",
+        "mining pools",
+        "smart pools",
+        "getblock.io",
+        "decentralization",
+        "transparency"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Centralization Issues in Mining Pools",
+      "category": "technical",
+      "start_time": "02:20",
+      "end_time": "06:58",
+      "primary_speaker": "Cheese Enthusiast",
+      "summary": "Detailed explanation of how mining pools have centralized power over payments and block production, enabling potential censorship and manipulation. References tornado cash censorship on Ethereum as example of mining pool abuse.",
+      "key_terms": [
+        "51% attacks",
+        "transaction censorship",
+        "tornado cash",
+        "block production",
+        "mining rewards",
+        "Satoshi Nakamoto"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Non-Interactive Share Proofs (NISPs)",
+      "category": "technical",
+      "start_time": "06:58",
+      "end_time": "11:53",
+      "primary_speaker": "Cheese Enthusiast",
+      "summary": "Introduction of NISPs as the core innovation allowing compression of mining work verification into small proofs stored on blockchain. Explains how NISPs use concepts from NIPoPoWs and optimistic rollups for scalability.",
+      "key_terms": [
+        "NISPs",
+        "non-interactive share proofs",
+        "NIPoPoWs",
+        "optimistic rollups",
+        "shares",
+        "goodness",
+        "high difficulty shares"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Collateralized Mining and Censorship Resistance",
+      "category": "technical",
+      "start_time": "11:53",
+      "end_time": "17:38",
+      "primary_speaker": "Cheese Enthusiast",
+      "summary": "Explanation of collateralization mechanism where ERG is provided upfront to enable instant miner payments while block rewards go to lenders. Enables miners to control block production and access MEV and storage rent rewards.",
+      "key_terms": [
+        "collateralization",
+        "censorship resistance",
+        "MEV",
+        "storage rent",
+        "720 block wait",
+        "third-party collateralization"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Lithos Technical Architecture and Blockchain Agnostic Design",
+      "category": "technical",
+      "start_time": "17:38",
+      "end_time": "30:50",
+      "primary_speaker": "Cheese Enthusiast",
+      "summary": "Technical details of Lithos protocol including comparison to existing solutions like P2Pool. Explains blockchain agnostic nature allowing Bitcoin and other cryptocurrency mining through Ergo smart contracts using Rosen bridge integration.",
+      "key_terms": [
+        "P2Pool",
+        "blockchain agnostic",
+        "Rosen bridge",
+        "RAP tokens",
+        "sequencers",
+        "fraud proofs",
+        "Lithos token"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "NISP Verification and Anti-Fraud Mechanisms",
+      "category": "technical",
+      "start_time": "30:50",
+      "end_time": "36:45",
+      "primary_speaker": "Cheese Enthusiast",
+      "summary": "Detailed explanation of how NISPs prevent cheating through mathematical proof of work and timestamp verification. Describes off-chain verification with on-chain fraud proofs and miner incentives to police fraudulent submissions.",
+      "key_terms": [
+        "fraud proofs",
+        "off-chain verification",
+        "timestamp validation",
+        "mathematical proof",
+        "work verification",
+        "miner incentives"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Testnet Launch Plans and Mining Differences",
+      "category": "technical",
+      "start_time": "36:45",
+      "end_time": "45:26",
+      "primary_speaker": "Cheese Enthusiast",
+      "summary": "Announcement of testnet launch for November 2nd with details on new mining paradigm. Explains local stratum, difficulty selection by miners, and trade-offs between payment consistency and reward amounts.",
+      "key_terms": [
+        "testnet",
+        "local stratum",
+        "stale shares",
+        "difficulty selection",
+        "payment consistency",
+        "variable rewards"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Lithos Client and Supported Mining Software",
+      "category": "technical",
+      "start_time": "45:26",
+      "end_time": "47:12",
+      "primary_speaker": "Cheese Enthusiast",
+      "summary": "Overview of Lithos client development including HTML UI and Java-based stratum implementation. Initial support for Rigel Miner and NB Miner with plans to add more mining software.",
+      "key_terms": [
+        "Lithos client",
+        "HTML UI",
+        "Java stratum",
+        "Rigel Miner",
+        "NB Miner",
+        "Team Red Miner",
+        "SRB Miner"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Block Production and MEV Integration",
+      "category": "technical",
+      "start_time": "47:12",
+      "end_time": "49:47",
+      "primary_speaker": "Cheese Enthusiast",
+      "summary": "Details on automated block building prioritizing high-fee transactions and storage rent claiming. Discussion of future MEV implementation and ability for miners to include custom transactions without fees.",
+      "key_terms": [
+        "block production",
+        "transaction selection",
+        "storage rent",
+        "MEV",
+        "Spectrum DEX",
+        "transaction fees",
+        "mempool"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Merge Mining and Collateral Market Dynamics",
+      "category": "technical",
+      "start_time": "49:47",
+      "end_time": "60:39",
+      "primary_speaker": "Cheese Enthusiast",
+      "summary": "Discussion of merge mining compatibility and open market for collateral providers. Explains how miners choose collateral based on fees and the relationship between Lithos tokens and collateralization requirements.",
+      "key_terms": [
+        "merge mining",
+        "collateral market",
+        "pool fees",
+        "open market",
+        "Lithos token economics",
+        "self-collateralization",
+        "Babel fees"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "call_date": "2025-10-19",
+  "call_title": "Machina Finance: eUTXO-Native P2P DEX on Ergo \u2014 Alison Robson (Ergo Meetup 2025)",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Introduction and Background on Ergo",
+      "category": "community",
+      "start_time": "00:00",
+      "end_time": "00:41",
+      "primary_speaker": "anon_BR",
+      "summary": "Alison introduces himself and his involvement with major Ergo projects including Nautilus Wallet and Fleet SDK. He expresses gratitude for meeting the community in person.",
+      "key_terms": [
+        "Nautilus Wallet",
+        "Fleet SDK",
+        "Alison",
+        "community meetup"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Machina DEX Architecture and eUTXO Design",
+      "category": "defi",
+      "start_time": "00:41",
+      "end_time": "04:16",
+      "primary_speaker": "anon_BR",
+      "summary": "Overview of Machina as a UTXO-native P2P decentralized exchange where each order is an individual contract. The design avoids emulating EVM contracts and uses grid orders instead of liquidity pools, with self-custodial asset control and no proxy contracts.",
+      "key_terms": [
+        "P2P DEX",
+        "eUTXO native",
+        "grid orders",
+        "individual contracts",
+        "self-custodial",
+        "proxy contracts",
+        "kushti grid contracts"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Nautilus Batching Mechanism Implementation",
+      "category": "technical",
+      "start_time": "04:16",
+      "end_time": "04:57",
+      "primary_speaker": "anon_BR",
+      "summary": "Discussion of implementing batching directly in Nautilus wallet with slippage tolerance and transaction resignation capability. Users become their own batchers in this decentralized approach.",
+      "key_terms": [
+        "batching mechanism",
+        "Nautilus",
+        "slippage tolerance",
+        "transaction resignation",
+        "own batcher"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Decentralized Architecture with Hermes Streaming",
+      "category": "technical",
+      "start_time": "04:57",
+      "end_time": "06:47",
+      "primary_speaker": "anon_BR",
+      "summary": "Explanation of the system's structural overview emphasizing true decentralization where application logic runs in the user's browser. Hermes provides real-time UTXO streaming from indexed nodes.",
+      "key_terms": [
+        "decentralization",
+        "browser application logic",
+        "Hermes",
+        "UTXO streaming",
+        "indexed node",
+        "settlement layer"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Trading Strategies and Contract Composability",
+      "category": "defi",
+      "start_time": "06:47",
+      "end_time": "08:35",
+      "primary_speaker": "anon_BR",
+      "summary": "Description of two trading strategies: auto-compounding for profit maximization and cumulative strategy for conservative trading. All contracts are composable with other protocols like SigmaFi.",
+      "key_terms": [
+        "auto-compounding",
+        "cumulative strategy",
+        "composable contracts",
+        "SigmaFi",
+        "grid orders",
+        "profit maximization"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Contract Optimization and Transaction Capacity",
+      "category": "technical",
+      "start_time": "08:35",
+      "end_time": "11:32",
+      "primary_speaker": "anon_BR",
+      "summary": "Technical details on contract optimization achieving 300 bytes for grid contracts and 16 bytes for single orders. This allows fitting 219 orders in a single 97kb transaction with potential for larger transactions through mining pools.",
+      "key_terms": [
+        "contract optimization",
+        "300 bytes",
+        "219 orders",
+        "97 kilobytes",
+        "mining pools",
+        "ErgoTree",
+        "single transaction"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "No Protocol Fees Public Good Model",
+      "category": "governance",
+      "start_time": "11:32",
+      "end_time": "12:42",
+      "primary_speaker": "anon_BR",
+      "summary": "Decision to eliminate protocol-level fees to benefit ecosystem growth, making Machina a public good similar to SigmaUSD. This allows other applications to freely use Machina's liquidity.",
+      "key_terms": [
+        "no protocol fees",
+        "public good",
+        "SigmaUSD",
+        "ecosystem growth",
+        "liquidity sharing"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Hermes Tool and Mempool Awareness",
+      "category": "technical",
+      "start_time": "12:42",
+      "end_time": "14:45",
+      "primary_speaker": "anon_BR",
+      "summary": "Detailed explanation of Hermes as a mempool-aware UTXO streaming tool that enables transaction chaining. It simplifies mempool state tracking and enables real-time price tracking.",
+      "key_terms": [
+        "Hermes",
+        "mempool aware",
+        "UTXO streaming",
+        "transaction chaining",
+        "price tracking",
+        "mempool state"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Transaction Throughput Analysis",
+      "category": "technical",
+      "start_time": "14:45",
+      "end_time": "16:10",
+      "primary_speaker": "mgPai",
+      "summary": "Technical analysis of transaction capacity showing 290 orders per transaction in worst case, with potential for 30,000 orders per block through chaining. Discussion of sub-blocks and comparison to other blockchains.",
+      "key_terms": [
+        "290 orders",
+        "transaction chaining",
+        "30,000 orders per block",
+        "sub blocks",
+        "throughput",
+        "UTXO capabilities"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Liquidity Strategy and Market Making",
+      "category": "defi",
+      "start_time": "16:10",
+      "end_time": "17:49",
+      "primary_speaker": "anon_BR",
+      "summary": "Discussion of liquidity building through arbitrage opportunities between Spectrum DEX and Machina. Users act as their own market makers with controlled risk exposure through grid ranges.",
+      "key_terms": [
+        "liquidity construction",
+        "arbitrage",
+        "Spectrum DEX",
+        "market maker",
+        "controlled risk",
+        "grid ranges"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Hermes as Fleet SDK Successor",
+      "category": "technical",
+      "start_time": "17:49",
+      "end_time": "20:04",
+      "primary_speaker": "anon_BR",
+      "summary": "Explanation of development philosophy creating reusable tools like Fleet SDK from Nautilus. Hermes follows this pattern and will replace GraphQL in Nautilus, addressing past implementation mistakes.",
+      "key_terms": [
+        "Fleet SDK",
+        "development philosophy",
+        "reusable tools",
+        "GraphQL replacement",
+        "caching layer",
+        "user experience"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Development Roadmap and Release Timeline",
+      "category": "technical",
+      "start_time": "20:04",
+      "end_time": "21:37",
+      "primary_speaker": "anon_BR",
+      "summary": "Project timeline with contracts under review, Hermes completion by end of year, Machina SDK by Q1, and full beta on Mainnet by Q2. SDK will enable community development of arbitrage bots before UI release.",
+      "key_terms": [
+        "roadmap",
+        "contract review",
+        "Hermes completion",
+        "Machina SDK",
+        "beta mainnet",
+        "arbitrage bots",
+        "community development"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Block Size Calculations and Scalability",
+      "category": "technical",
+      "start_time": "22:06",
+      "end_time": "23:46",
+      "primary_speaker": "mgPai",
+      "summary": "Detailed calculations showing 3,750 orders per block capacity with current parameters. Discussion of miner voting for larger block sizes and comparison to other blockchain throughput capabilities.",
+      "key_terms": [
+        "1.27 million bytes",
+        "96 kilobytes",
+        "3750 orders per block",
+        "miner voting",
+        "block size parameters",
+        "throughput comparison"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "Transaction Fees and WebSocket Implementation",
+      "category": "technical",
+      "start_time": "23:46",
+      "end_time": "28:24",
+      "primary_speaker": "anon_BR",
+      "summary": "Discussion of transaction baseline fees and implementation details. Hermes will use WebSockets for real-time streaming, reducing explorer API spam and maintenance costs while providing better real-time capabilities.",
+      "key_terms": [
+        "baseline fees",
+        "0.011",
+        "WebSockets",
+        "real-time streaming",
+        "explorer API",
+        "maintenance costs",
+        "backwards compatibility"
+      ]
+    },
+    {
+      "topic_id": 15,
+      "title": "Best Case Transaction Capacity",
+      "category": "technical",
+      "start_time": "28:52",
+      "end_time": "29:38",
+      "primary_speaker": "anon_BR",
+      "summary": "Final calculations showing best case scenario of 16,000 transactions per block with smallest order sizes, demonstrating the maximum theoretical throughput of the system.",
+      "key_terms": [
+        "16,000 transactions",
+        "best case",
+        "smallest orders",
+        "maximum throughput",
+        "theoretical capacity"
+      ]
+    }
+  ]
+}

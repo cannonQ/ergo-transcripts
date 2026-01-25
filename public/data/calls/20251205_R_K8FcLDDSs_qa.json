@@ -1,0 +1,261 @@
+{
+  "call_date": "2025-12-05",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "02:31",
+      "question": "Tell us how the USE launch went. You used MewFinance and how did all that go?",
+      "asker": "qx()",
+      "answer": "It went well. We managed to get 395,000 ERG with 129 people participating. I don't think in the history of Ergo we had any launch of that kind. The protocol is already launched and we need just UI and some off-chain bots, hopefully the coin will be tradable by this weekend.",
+      "responder": "richi",
+      "category": "defi",
+      "difficulty": "beginner",
+      "related_terms": [
+        "USE",
+        "MewFinance",
+        "stablecoin",
+        "launch"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "08:04",
+      "question": "What makes USE stablecoin different? I understand that kushti was involved with the concept of it or the building of that, the algorithms?",
+      "asker": "qx()",
+      "answer": "The contracts and idea were mine, initially built by Amitabh then extended by me. We tested it with Dexy Gold first on a small scale, and after watching its behavior in volatile markets, Richie proposed launching USD. It's a unique fair launch compared to other algorithmic stablecoins that had VCs and teams involved.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "USE",
+        "algorithmic",
+        "stablecoin",
+        "Dexy Gold",
+        "contracts"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "11:45",
+      "question": "How do you see Rosen helping out with spreading across ecosystems?",
+      "asker": "qx()",
+      "answer": "That's what Rosen is built for, to take assets into new markets. We can expand into environments with deep liquidity like Binance Smart Chain or emerging DeFi ecosystems that don't have access to traditional stablecoin value, offering huge potential demand.",
+      "responder": "Joe",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Rosen",
+        "cross-chain",
+        "stablecoin",
+        "liquidity"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "13:07",
+      "question": "Are most stable coins chain dependent or are they offering some sort of bridge where there's shared liquidity on one chain and it's spreading out to other chains?",
+      "asker": "qx()",
+      "answer": "Traditional stable coins have native implementations with the same control system - they can issue, freeze, and seize assets, even reverse transactions. There's no need for a bridge because they essentially have God mode turned on and can balance liquidity and move things around as they want.",
+      "responder": "Joe",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "stablecoin",
+        "bridge",
+        "centralized",
+        "control"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "13:58",
+      "question": "With Rosen Bridge, if the core Rosen team was like, we hate everything and we want to go away, people could still utilize those smart contracts as long as the watchers and the guards were still doing their thing, right?",
+      "asker": "qx()",
+      "answer": "There's no central part. The guard set is distributed enough that if all the Rosen team disappeared, the guard would still function. The code is open source and our contribution standards have been picked up by different layer ones in various stages of integration.",
+      "responder": "Joe",
+      "category": "bridges",
+      "difficulty": "advanced",
+      "related_terms": [
+        "Rosen",
+        "decentralized",
+        "guards",
+        "open source"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "17:56",
+      "question": "Curious, other reserves, non-metals, being shorter duration than ERG would always net more term premium for the base chain while not having different fee structures, only duration, i.e. term premium. That make sense to any of you guys?",
+      "asker": "qx() (reading Iron's question)",
+      "answer": "It's hard to predict due to volatility. We're entering a phase of mass fear of debt saturation with gold and silver exploding relative to normal movement. The paper markets are rehypothecated 200-300 to 1, creating crazy market conditions if people start claiming delivery.",
+      "responder": "Joe",
+      "category": "tokenomics",
+      "difficulty": "advanced",
+      "related_terms": [
+        "reserves",
+        "volatility",
+        "precious metals",
+        "rehypothecation"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "22:28",
+      "question": "What are your thoughts on the Kachina protocol from midnight and how it could work with Ergo or how we could use it in Ergo or leverage it?",
+      "asker": "qx() (reading Bobcat's question)",
+      "answer": "I read the paper five years ago from late 2010s. There's probably need to review alternative approaches like Aleo and provide comparison. There's a plan for private contracts but many variables to consider, including post-quantum cryptography complications.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "Kachina",
+        "privacy",
+        "midnight",
+        "post-quantum"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "36:36",
+      "question": "What's the redundancy on the bots that do the buybacks for the protocol? Any of them running like on duck pools or only one or two?",
+      "asker": "qx()",
+      "answer": "Currently the code for off-chain bots is closed but the coder is promising to open source quickly after polishing. There's need to open source UI also and have pools on Ergodex, with wallet integration for minting like SigmaUSD has.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "bots",
+        "off-chain",
+        "open source",
+        "redundancy"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "38:59",
+      "question": "When we have Machina Finance live, do you think there is a possibility to add a liquidity pool there that will be also controlled by a bank? Is it somehow possible to have two liquidity pools that banks interact with?",
+      "asker": "richi",
+      "answer": "To have two pools could be complicated, so switching to another pool may be easier. Conceptually it makes sense to have one reference pool and others equalized with arbitrage. With two pools the bank needs to account for both and intervene into both, creating complexities.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "advanced",
+      "related_terms": [
+        "Machina Finance",
+        "liquidity pools",
+        "bank",
+        "arbitrage"
+      ]
+    },
+    {
+      "qa_id": 10,
+      "timestamp": "44:23",
+      "question": "Is there going to be a marketplace for the Ergo liquidity provider, the LP tokens? Can you make liquidity pools with LP tokens as part of the pair?",
+      "asker": "qx() (reading Ursa Minor 2010's question)",
+      "answer": "CLB token that was distributed is essentially your LP token. In two years you'll be able to redeem CLB to liquidity tokens, then redeem liquidity from the main pool. You can already trade CLB tokens with ERG or USE - that's essentially trading liquidity tokens.",
+      "responder": "richi",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "LP tokens",
+        "CLB",
+        "liquidity",
+        "trading"
+      ]
+    },
+    {
+      "qa_id": 11,
+      "timestamp": "47:36",
+      "question": "What about any other news in the ecosystem? What you been working on? What about your runes?",
+      "asker": "qx()",
+      "answer": "Rosen Runes went live, allowing us to wrap assets onto Bitcoin. We're exploring interactive transaction construction using partially signed signatures for complex swaps. We'll support Ducat protocol, a MakerDAO-style stablecoin on Bitcoin backed by layer one liquidity.",
+      "responder": "Joe",
+      "category": "bridges",
+      "difficulty": "advanced",
+      "related_terms": [
+        "Rosen Runes",
+        "Bitcoin",
+        "Ducat protocol",
+        "interactive transactions"
+      ]
+    },
+    {
+      "qa_id": 12,
+      "timestamp": "50:30",
+      "question": "How much did you put up for the slash? Is that the same cost as the block reward?",
+      "asker": "qx()",
+      "answer": "When you have miners running fraud proofs and reduce somebody's submitted share, they get paid less and you get paid more. There's a natural incentive to audit other miners because if you catch something, you benefit from slashing them.",
+      "responder": "Joe",
+      "category": "mining",
+      "difficulty": "advanced",
+      "related_terms": [
+        "Lithos",
+        "fraud proofs",
+        "slashing",
+        "mining"
+      ]
+    },
+    {
+      "qa_id": 13,
+      "timestamp": "54:06",
+      "question": "Will we see a paper behind Lithos design?",
+      "asker": "kushti",
+      "answer": "I hope so, it would make sense to put together some sort of white paper. It's funny how we have a tendency on Ergo to build it first and then document it. I don't even think there's a Rosen white paper yet.",
+      "responder": "Joe",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Lithos",
+        "white paper",
+        "documentation"
+      ]
+    },
+    {
+      "qa_id": 14,
+      "timestamp": "62:01",
+      "question": "Do we need to solidify the Mexico trip?",
+      "asker": "qx() (reading Bez's question)",
+      "answer": "Let me check with the guys how big it will be. It's late February, second half, Acapulco city Mexico, Anarcopulco conference. Maybe we can show mesh networks based basis powered peer-to-peer cache for community trading, something like that.",
+      "responder": "kushti",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Mexico",
+        "Anarcopulco",
+        "conference",
+        "mesh networks"
+      ]
+    },
+    {
+      "qa_id": 15,
+      "timestamp": "63:37",
+      "question": "Any updates for BRIC experiment?",
+      "asker": "kushti",
+      "answer": "We're moving off Tipperbot fully to Nautilus. The portal is built to reward students for checking into woodworking shops via QR codes and API integration. Students can spend BRIC on 3D printer filament costs, creating a circulation economy where BRIC reduces their bills.",
+      "responder": "qx()",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "BRIC",
+        "education",
+        "economy",
+        "Nautilus"
+      ]
+    },
+    {
+      "qa_id": 16,
+      "timestamp": "67:36",
+      "question": "Do you document experiments, like maybe not even technical side, but social and socioeconomic interactions?",
+      "asker": "kushti",
+      "answer": "No, I don't. Glasgow had a nice write-up that surveyed and got everything pretty right in the initial setup. I'd love to document more when we get a real big economy going with third-party merchants accepting BRIC.",
+      "responder": "qx()",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "BRIC",
+        "documentation",
+        "socioeconomic",
+        "merchants"
+      ]
+    }
+  ]
+}

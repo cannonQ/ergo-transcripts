@@ -1,0 +1,110 @@
+{
+  "call_date": "2025-12-19",
+  "call_title": "Ergo PoW Blockchain - Community Chat - December 18th (time: 17 UTC)",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "03:12",
+      "decision": "Testing community-run market making over the next month or two with community members using their bots",
+      "speaker": "Qx",
+      "context": "Transition from EF-funded market making to community-managed solution",
+      "topic": "governance",
+      "significance": "major",
+      "quote": "So that is something that we're going to be testing over the next month or two. We're going to have some people perhaps give that a try, see how that goes"
+    },
+    {
+      "id": 2,
+      "timestamp": "04:53",
+      "decision": "Continue main Ergo Explorer by running beefy explorer with Qx and shipping another machine to Jamai",
+      "speaker": "Qx",
+      "context": "P2P DAO can handle 99% of queries but not massive queries requiring 120GB RAM",
+      "topic": "technical",
+      "significance": "major",
+      "quote": "So the solution around that, just to keep you guys informed, is to run the beefy explorer that I have here with me. And I have another machine that will ship to Jamai"
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "16:43",
+      "commitment": "Game of Prompts interface and contract will likely be completed before the end of the year",
+      "owner": "Joe Sameh",
+      "timeline": "before the end of the year",
+      "topic": "development",
+      "quote": "Game of Prompts finishing up the interface in the contract, likely have it completed before the end of the year"
+    },
+    {
+      "id": 2,
+      "timestamp": "25:57",
+      "commitment": "Make a PR to add VaultPay to Nautilus buy button",
+      "owner": "HQ3rr",
+      "timeline": "unspecified",
+      "topic": "development",
+      "quote": "I think I will make a PR, yeah"
+    },
+    {
+      "id": 3,
+      "timestamp": "42:20",
+      "commitment": "Add two million FAKU to Ergo Santa campaign",
+      "owner": "HQ3rr",
+      "timeline": "unspecified",
+      "topic": "community",
+      "quote": "Okay, I will do two million then"
+    },
+    {
+      "id": 4,
+      "timestamp": "49:14",
+      "commitment": "Send one million FAKU to Ergo Santa",
+      "owner": "CannonQ",
+      "timeline": "immediate",
+      "topic": "community",
+      "quote": "There's a million FAKU coming. It's inbound now"
+    }
+  ],
+  "open_questions": [],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "02:16",
+      "fact": "Market making costs about $10,000 or $12,000 every quarter",
+      "speaker": "Qx",
+      "topic": "financial"
+    },
+    {
+      "id": 2,
+      "timestamp": "04:26",
+      "fact": "Hetzner bill for main explorers is about 680 euro (720 freedom dollars) per month",
+      "speaker": "Qx",
+      "topic": "financial"
+    },
+    {
+      "id": 3,
+      "timestamp": "04:53",
+      "fact": "Main explorers require machines with about 120 gigs of RAM for massive queries",
+      "speaker": "Qx",
+      "topic": "technical"
+    },
+    {
+      "id": 4,
+      "timestamp": "17:26",
+      "fact": "Krux added DEX LP swapping and extracted SOC to NFT on token from Ergotry constants",
+      "speaker": "Qx",
+      "topic": "development"
+    },
+    {
+      "id": 5,
+      "timestamp": "18:39",
+      "fact": "Lethos released version 2.2.0 with multi-threaded sync process and sorted APIs",
+      "speaker": "Qx",
+      "topic": "development"
+    },
+    {
+      "id": 6,
+      "timestamp": "49:30",
+      "fact": "One million FAKU donation equals $340",
+      "speaker": "CannonQ",
+      "topic": "financial"
+    }
+  ]
+}

@@ -1,0 +1,595 @@
+[00:00] **armeanio**: Alright, welcome everybody.
+[00:02] **armeanio**: It's kind of an annual thing where we do a closeout for the year.
+[00:07] **armeanio**: Cover the progress that we made in the Ergo ecosystem.
+[00:11] **armeanio**: Some of the community-driven advancements, development verticals, thoughts.
+[00:18] **armeanio**: It's been a good year, I would say, in terms of what we delivered.
+[00:23] **armeanio**: There's certainly a lot that we're still chasing, but we could start with something like ChainCash, Basis, those are both monetary frameworks that we've kind of been hallucinating about for what, three years?
+[00:41] **armeanio**: Yeah, three or four, yeah, more or less.
+[00:46] **armeanio**: Yeah, so that idea of putting together kind of this off-chain cash allowing for elasticity, credit expansion, kind of peer-to-peer, potentially bot-to-bot, AI-to-AI, these type of ideas we've been talking about for quite a while, right?
+[01:05] **armeanio**: We have seen some kind of a traction in the space around that more broadly, but I would say that our community effort
+[01:16] **armeanio**: ChainCash basis.
+[01:18] **armeanio**: The idea of these credit systems and kind of putting the foundation in place have been incredibly valuable and I think will deliver real tooling for people long term.
+
+[01:32] **kushti**: All right, yeah.
+[01:33] **kushti**: So I believe it started even from like 2019, right?
+[01:40] **kushti**: Back then it was idea to do LETS - local exchange trading system.
+[01:45] **kushti**: And then kind of LETS constellation but then after some thoughts and yeah well LETS a couple of designs were published back in early 2019 so there was initial blog post by me then of Amitabh so we published designs for
+[02:14] **kushti**: like ordinary LETS, so non-collateralized, purely trust-based, and yeah, Amitabh did collateralized version.
+[02:24] **kushti**: But yeah, well, it wasn't by design even flexible enough, right?
+[02:31] **kushti**: So yeah, well, it's generalization, ChainCash appeared.
+[02:36] **kushti**: So yeah, we discussed the initial design back in like,
+[02:42] **kushti**: late 22, I believe, with Amitabh, but, yeah, well, unfortunately, he stopped to do his parts quite quickly, and, yeah, well, Papa passed away in 24, early 24.
+[03:05] **kushti**: But, yeah, then there were a few iterations, well,
+[03:12] **kushti**: most of it stabilized in 2023, most of ChainCash.
+[03:18] **kushti**: But then, yeah, well, this year, so just very early thoughts on basis of chain version.
+[03:27] **kushti**: And yeah, well, this year, finally some significant progress got made.
+[03:35] **kushti**: So after all, there is some working
+[03:40] **kushti**: Tooling, right, which I'm testing, so it's a very prototype and yeah, well, just ready for some demos now, some initial tests, but we're already planning to do some with it.
+[04:03] **kushti**: like purely local payments well with blockchain reserves anyway right so when you can go into forest and just do payments over mesh network so yeah we are considering such a demo and then and yeah so and when you're
+[04:30] **kushti**: leaving the forest, right, but back to connectivity, you can redeem, right, the notes in the woods, basically.
+[04:43] **kushti**: So yeah, well, something like that, and we can consider applications like agent-to-agent payments.
+[04:51] **kushti**: We discussed some things with Hosimi.
+[04:56] **kushti**: like integrating into his peer-to-peer network, chill out, and so on, so on, so on.
+[05:02] **kushti**: Yeah, well, a lot of interesting things can be done.
+
+[05:07] **kushti**: Then, yeah, I think subblogs, right?
+[05:11] **kushti**: Another big topic for 2025.
+[05:15] **kushti**: So for months, we have DevNets under testing and well, white paper is more or less ready, aside of security.
+[05:30] **kushti**: sections.
+[05:31] **kushti**: So yeah, well, we'll start to send out to peers and then after New Year Eve, well, there will be a public white paper, listen discussions and then yeah, we can think about deployment.
+[05:55] **kushti**: Based on discussions.
+[05:58] **kushti**: So yeah, and well, I think another quite exciting thing is that, yeah, we had unstoppable hackathon, right?
+[06:08] **kushti**: And aside of that, I see actually a lot of new faces in development, like Super Ellipse updated Ergo wallet, finally.
+[06:26] **kushti**: Then, yeah, well, there are some other developers, some new faces.
+[06:33] **kushti**: So yeah, that's quite exciting.
+[06:36] **kushti**: And yeah, also a lot of interesting projects, right, in the community, such as use and yeah, well, sorry, GetCircles and so on.
+[06:50] **kushti**: Yeah, go ahead.
+[06:52] **kushti**: Who was that?
+
+[06:52] **armeanio**: I was going to say it was a good year for kind of derivatives, right?
+[06:55] **armeanio**: We saw Dexy Gold launch.
+[06:58] **armeanio**: We saw Gluon come out.
+[07:00] **armeanio**: We saw the use stablecoin come together.
+[07:06] **armeanio**: That'd be good to have you hop on and give us your feedback in terms of how you're feeling about use and what you expect going into 2026.
+
+[07:23] **richi**: Yeah, let me give overall my thoughts about the industry and what happened in 2025.
+[07:33] **richi**: So first of all, thanks for inviting me to this end of year podcast.
+[07:39] **richi**: And I'd like to step back a little bit and look at the blockchain industry as a whole.
+[07:44] **richi**: So earlier this year, as some of you know, I attended Cardano Summit in Berlin.
+[07:49] **richi**: I was actually quite well organized, but I felt a little bit disappointed by many of the discussions.
+[07:58] **richi**: So during the several panel sessions, speakers were asked a very simple question.
+[08:04] **richi**: What is the blockchain industry actually for?
+[08:07] **richi**: So what's the meaning of it, right?
+[08:09] **richi**: And many of the answers I heard felt completely disconnected.
+[08:13] **richi**: For example, one panelist said that when you go to the petrol station to collect bonus points for fueling your car, blockchain could make it easier and faster to manage those rewards.
+[08:27] **richi**: So, you know, things like that, answers like that you hear in Berlin during quite a big summit.
+[08:36] **richi**: The impression that I got from it was that very few people generally understand what the blockchain industry is for, what is it meant to achieve.
+[08:47] **richi**: So we would all agree that blockchain is here to create better money.
+[08:54] **richi**: So, but better money, what does it mean?
+[08:57] **richi**: People may have differences of opinion about
+[09:00] **richi**: what actually better money is.
+
+[09:03] **richi**: So in my opinion, there are three fundamental challenges that blockchain industry can solve to get us closer to a better money dimension.
+[09:16] **richi**: So I have this in my mind three big problems.
+[09:19] **richi**: So problem number one is creating a secure decentralized ledger with finite supply.
+[09:26] **richi**: The first and the most important challenge is creating a secure and decentralized supply.
+[09:33] **richi**: No one has solved this problem.
+[09:35] **richi**: Many people understand that Bitcoin, in a sense, is kicking the can down the road.
+[09:39] **richi**: At some point, its security model needs to be addressed.
+[09:43] **richi**: Ethereum and Solana, on the other hand, have removed their hard cap supply altogether and just keep printing money.
+[09:50] **richi**: Cardano takes a different approach in subsidizing network security through issuing new coins to stake pool operators.
+[09:57] **richi**: So, for example, stake pool operators will be getting rewards for validating Cardano and Midnight and potentially other side chains, but essentially it again comes down to printing new money.
+[10:09] **richi**: Ergo has a different path.
+[10:10] **richi**: It introduced demurrage.
+[10:13] **richi**: However, we still need to fully understand its impact.
+[10:16] **richi**: So this is the biggest problem that our industry is trying to solve and no one has come close to it, I think.
+
+[10:23] **richi**: Now, the second problem is out of three is a scalable algorithmic stablecoin, in my opinion.
+[10:30] **richi**: So this issue is massive for the industry to take.
+[10:36] **richi**: And we already seen one major attempt that failed catastrophically.
+[10:41] **richi**: And everyone else hasn't come even close to solving this problem.
+[10:47] **richi**: Currently, centralized stablecoins dominate the market.
+[10:50] **richi**: So creating decentralized immutable stablecoin is not optional.
+[10:56] **richi**: It is a global objective that can actually change the world, in my opinion.
+[11:01] **richi**: This is the industry's second great challenge.
+
+[11:06] **richi**: And the number three is the private and fair DeFi.
+[11:13] **richi**: So with equal access to everybody, this problem has some smaller components.
+[11:20] **richi**: And to be fair, industry has made some real progress here.
+[11:25] **richi**: So for example, AMMs, automated market makers, I would say it's one of the biggest achievements of the industry so far, but there's a long way to go.
+[11:36] **richi**: A large part of the DeFi must move from fully public ledger to privacy preserving systems and obviously you cannot build a private DeFi using something like USDC and the list goes on.
+[11:51] **richi**: So these three problems are for years
+[11:55] **richi**: for our industry to take.
+[11:57] **richi**: Obviously, the industry can help with things like tracing stuff or moving real-world assets on the blockchain and many other things.
+[12:10] **richi**: But I don't think they're
+[12:12] **richi**: as big as the three that I described above.
+
+[12:16] **richi**: Now, when talking about me, myself, personally, and my plans and what we have done in 2025, obviously, I want to focus on the problem number two, which is a scalable algorithmic stablecoin.
+[12:29] **richi**: Like I said, there was only one attempt that failed catastrophically and as we can see now and analyze platforms like DefiLlama, there is no one even trying to focus on this challenge now.
+[12:45] **richi**: Everyone gave up pretty much and centralized stablecoins dominate and basically they are ruining the whole idea of DeFi.
+[12:55] **richi**: How can you have even DeFi if in the core of DeFi you have a centralized
+[12:59] **richi**: stablecoin issuer who can freeze and seize your money at any point, right?
+[13:05] **richi**: So yes, now we came up with this very interesting design Dexy and its implementation Dexy use or use let's say and
+[13:18] **richi**: To me, looking with the eyes of someone who's been in the market for quite a long time and been trading a lot, I see a lot of potential in this design.
+[13:29] **richi**: I don't want to go into details during this podcast, otherwise it will take a long time.
+[13:36] **richi**: But basically, yes, I see a lot of potential.
+[13:45] **richi**: 2026 will be fully focused on developing this protocol, growing TVL.
+[13:53] **richi**: Like I said, the first million use in circulation is the biggest milestone.
+[13:58] **richi**: After that, it will get faster.
+[14:00] **richi**: I have a detailed roadmap in my head what I want to implement.
+[14:04] **richi**: But that would be my main focus.
+[14:07] **richi**: And I'm happy to discuss more if a question arises.
+[14:10] **richi**: But I can say that I smell some blood here.
+[14:15] **richi**: This is really unique stuff that we're building here on Ergo.
+[14:22] **richi**: Thanks.
+
+[14:23] **kushti**: All right.
+[14:23] **kushti**: All right.
+[14:24] **kushti**: So Richard, do you want to accept some questions?
+[14:27] **kushti**: Maybe so I'm reading telegram chats, the main and there are some questions to you.
+[14:34] **richi**: Yeah, absolutely.
+[14:37] **kushti**: Yeah.
+[14:37] **kushti**: So the question is, yeah, what are your plans about Crux, which you acquired recently?
+
+[14:49] **richi**: Yes, so what happened with Crux, I was looking for a platform to develop use, to focus on developing use.
+[15:02] **richi**: And I checked some options and rather than building something from scratch, I thought it would be a good idea to pick up a project that was kind of stalled, it was not developing at all, so kind of considered to be dead.
+[15:16] **richi**: But actually,
+[15:18] **richi**: few people use it.
+[15:20] **richi**: It has a nice dashboard.
+[15:22] **richi**: So I reached out to the previous owners of the project and they were quite collaborative.
+[15:28] **richi**: So they passed the ownership to me.
+[15:31] **richi**: So my plans with the Crux Finance is to keep it as
+[15:38] **richi**: as a platform as it is right now and develop it, so-called like a top tools type of a platform.
+[15:46] **richi**: I want people to be, when visiting Ergo first and trying to understand what projects do we have on Ergo, visit Crux Finance first, but I will also make it use-centric.
+[16:00] **richi**: So use would be the main trading pair.
+[16:03] **richi**: I want to build a bank monitor there where people will see how bank reserves behave over time.
+[16:12] **richi**: So to give them more confidence that use is fully collateralized project that we have reserves and how reserves behave that the bank actually accumulating resources.
+[16:25] **richi**: So I want one dedicated page there.
+[16:28] **richi**: It will preserve all the current functions.
+[16:31] **richi**: I was surprised, but quite a few people use Crux to fill their taxes, so we will keep that feature.
+[16:40] **richi**: People can continue using it.
+[16:43] **richi**: So things like that.
+[16:45] **richi**: And overall, I have some DeFi ideas and some events that will be coming in 2026, similar to CLB event.
+[16:55] **richi**: And when the right time comes, we will host events like CLB on top of Crux now.
+[17:05] **richi**: So that's basically the plan.
+[17:08] **richi**: The token will be used for different activities.
+[17:10] **richi**: Now you can pay for transaction fees with tokens.
+[17:14] **richi**: So that's already a good start and we will add more features in the future.
+[17:19] **richi**: But that's not the main purpose.
+[17:20] **richi**: The main purpose for me is to develop use and build TVL and cross-chain liquidity with use.
+[17:29] **richi**: That's my main focus for 2026.
+
+[17:34] **armeanio**: Yeah, that was great.
+[17:36] **armeanio**: Your trilemma, I don't know, people look to liquidity for answers and I think a lot of the actual solutions to what is good money and what is going to be a solid, scalable, stablecoin design and what is privacy going to look like, a lot of those break down to architecture.
+[17:58] **armeanio**: in terms of how the solution is presented.
+[18:03] **armeanio**: We do live in the market space where people look at noise and liquidity much more than architecture.
+[18:10] **armeanio**: I do think those are really deep questions to consider in terms of what's the architecture of good money.
+[18:21] **armeanio**: Same is true with privacy assumptions.
+[18:24] **armeanio**: That's becoming more popular and there are a lot of different paths to create and enhance privacy.
+[18:31] **armeanio**: But when noise and liquidity are driving markets instead of architecture and design and systems, I think we're going to continually fail to deliver something meaningful.
+
+[18:46] **richi**: Correct, Joe.
+[18:48] **richi**: We definitely pivoted in the wrong direction.
+[18:51] **richi**: I feel like we are helpless kinda.
+[18:56] **richi**: So there's nothing better than that industry can come up with.
+[19:01] **richi**: So you look at the hyperliquid.
+[19:03] **richi**: It's a very good example.
+[19:05] **richi**: They came up with a decentralized perpetual DEX, right?
+[19:12] **richi**: Six months after they came over, let's say one year, we have plenty.
+[19:16] **richi**: I lost the count, probably 20 of them now.
+[19:20] **richi**: They're just popping like mushrooms.
+[19:22] **richi**: There's nothing else in the industry.
+[19:23] **richi**: They lost their idea.
+[19:26] **richi**: They're not innovating really.
+[19:29] **richi**: Only one or two good projects come up.
+[19:32] **richi**: here and there, but no one is really focusing on the fundamentals.
+[19:36] **richi**: No one is trying to solve algorithmic stablecoin.
+[19:40] **richi**: That's really frustrating.
+[19:41] **richi**: No one is trying to create a secure ledger with finite supply.
+[19:46] **richi**: Everyone just keeps printing money.
+[19:47] **richi**: Privacy kind of started moving a little bit with Zcash giving a little bit of boost and Night now catching up.
+[19:57] **richi**: But we'll see just a simple privacy and the private smart contracts are very completely different beasts.
+[20:03] **richi**: But at least there's something going on there.
+[20:06] **richi**: Yes, industry feels and actually the price actually reflects where the industry innovation is.
+[20:14] **richi**: Innovation of the whole industry is in a very low point and price reflects it now.
+[20:19] **richi**: So we need to get back to fundamentals and we need to start challenging status quo as a trade fight.
+[20:27] **richi**: and try to solve real problems.
+[20:31] **richi**: And I think here on Ergo, though not many people know about our project, but here on Ergo, I think we're on the right path for many of these challenges.
+
+[20:42] **armeanio**: I hope we're on the right path.
+[20:43] **armeanio**: I would at least say that I think we asked the right questions, right?
+[20:48] **armeanio**: Not necessarily that we have found the absolute correct solutions.
+[20:51] **armeanio**: That's always going to be something that time shows.
+[20:55] **armeanio**: But, you know, take Hyperliquid as an example.
+[20:57] **armeanio**: I have no idea how it works.
+[20:58] **armeanio**: I can't see, right?
+[21:02] **armeanio**: So I don't understand what the architecture is, and frankly, nobody outside the team does.
+[21:08] **armeanio**: which is kind of wild to consider, but that's where, you know, quote unquote, DeFi is.
+[21:17] **armeanio**: Now, I do think we have, you know, made some good progress as an ecosystem.
+[21:22] **armeanio**: You know, you can say Duckpools is something that is always in the background building.
+[21:27] **armeanio**: I think V2 is going to be quite exciting as that rolls out.
+[21:31] **armeanio**: And we can see the architecture there.
+[21:33] **armeanio**: We can understand what's happening.
+[21:34] **armeanio**: And so that allows us not just the developers, but as a user base and as a community potentially to offer direct feedback in terms of design and functionality that wants to be seen.
+
+[21:50] **armeanio**: You know, with Rosen Bridge, that's a work in progress.
+[21:53] **armeanio**: But 2025, we did actually integrate into Binance Smart Chain first.
+[21:59] **armeanio**: I think that was February, February, March in there.
+[22:03] **armeanio**: We've created the first, let's say, meta protocol on Bitcoin that kind of cleanly moves assets in and out.
+[22:13] **armeanio**: That's not something we've fully developed in terms of market function yet, but the underlying potential is quite interesting there.
+[22:25] **armeanio**: This ability to move beyond proof of work mining pools and kind of promote individual miner control is something that the proof of work space has been chasing for, I don't know, since 2011, 2012 when pooling appeared, right?
+[22:43] **armeanio**: I think we have some quite interesting solutions to big problems in the space.
+[22:50] **armeanio**: Now, unfortunately, I would say that attention and liquidity are kind of their own animals in the crypto space that take away from
+[23:02] **armeanio**: I don't know, the underlying value of kind of like architecture and distribution of power and a lot of these underlying mechanics that ultimately build solid solutions, in my opinion.
+[23:17] **armeanio**: But I think 2026 could be a good year.
+[23:20] **armeanio**: I'm excited to see this idea of, you know, sigma chains merge mining, trying to, you know, kind of move in the direction of some of the Bitcoin proposals, but with a lot stronger systems than Bitcoin is currently capable of.
+[23:38] **armeanio**: We did actually see our first Fiat on and on off-ramp that was integrated into a wallet, which is pretty cool.
+[23:45] **armeanio**: A lot of people were asking for that for some time.
+[23:51] **armeanio**: You know, with Machina, I do think that we're going to have a quite interesting peer-to-peer DEX design that, you know, is something that could potentially support a lot on top of it, right?
+[24:07] **armeanio**: So in the broader focus, I'm pretty happy with what we've got done.
+[24:12] **armeanio**: I can't say that everybody is going to be happy with markets, but the crypto market is in kind of a weird space, to be honest.
+[24:22] **armeanio**: I would say many times I feel like a stranger kind of reading through the latest that people are discussing.
+
+[24:32] **kushti**: Yeah, so, but I think after all markets are right.
+[24:37] **kushti**: So yeah, it can be seen our 2025, right?
+[24:43] **kushti**: So a lot of VC rag pools starting with, oh, I don't know, Mantra DAO probably or any other rag pools.
+[24:55] **kushti**: But yeah, closer to end of the year,
+[24:59] **kushti**: I witnessed some events when VCs just immediately dumped assets they invested in right after unlock, so basically kick-killing projects immediately.
+[25:18] **kushti**: So yeah, that's a little bit surreal, right?
+[25:25] **kushti**: So if you invest into some projects, why to kill it like immediately?
+[25:32] **kushti**: like normal VC industry, general tech, so they wait for like five to 10 years, right, before, well, planning exit and executing it.
+[25:49] **kushti**: VCs are not even VCs if we are talking about traditional VCs from Silicon Valley originally and so on.
+[26:05] **kushti**: They are not investing in
+[26:09] **kushti**: ideas or technologies.
+[26:12] **kushti**: They're just buying tokens with some discounts and then selling immediately.
+[26:21] **kushti**: Well, it seems after all markets are rational, but in the long term only.
+[26:29] **kushti**: It seems many people are now running away from all those projects.
+
+[26:38] **armeanio**: Think about it.
+[26:40] **armeanio**: If we go back to Richie's first challenge, what is better money?
+[26:44] **armeanio**: I don't think better money is something with massive insider seigniorage that are looking for an exit for profit, right?
+[26:52] **armeanio**: That's not a core tenant of money that's going to be sustainable in the long term.
+[27:01] **armeanio**: I don't think that's like a
+[27:03] **armeanio**: I don't know, controversial to say, it just doesn't fit within the framework of what is money.
+[27:08] **armeanio**: Like I'm going to print 80% of the supply and sell it to you and then try to exit.
+
+[27:16] **kushti**: Right, I mean, so if we are talking about money or even assets, right, some more broad things, maybe.
+[27:25] **kushti**: So yeah, it's a very strange beast.
+[27:28] **kushti**: So someone is coming basically to me and saying, well, I've just printed
+[27:35] **kushti**: those assets, well, tokens, basically private money like 80% to my personal pocket.
+[27:47] **kushti**: So buy it.
+[27:49] **kushti**: And well, if I'm asking why should I buy them, I just hear some, I don't know, complete nonsense like Web3 something and so on.
+
+[28:01] **armeanio**: That's where we get into this idea of noise and liquidity.
+
+[28:06] **kushti**: You can fool maybe people once or twice, but after all markets stopped buying this, so it's not possible to extract.
+[28:26] **kushti**: And yeah, I mean, even, yeah, well, those selling pitches like Web3, something.
+[28:34] **kushti**: So when I am starting to ask like this new breed of crypto world,
+[28:42] **kushti**: I mean, what's Web3 is and why do I need it, right?
+[28:47] **kushti**: So, well, with Bitcoin, it was clear, right, from first seconds when I've seen Bitcoin Foundation Twitter back in early 2011.
+[28:58] **kushti**: Well, it was immediately clear, I mean, what is this and what is potential of money without central banks, right?
+[29:10] **kushti**: Like peer-to-peer money.
+[29:12] **kushti**: without trusted parties.
+[29:14] **kushti**: So even if you don't understand any details, right?
+[29:19] **kushti**: So well, that's powerful pitch.
+[29:22] **kushti**: And well, when someone is trying to pitch Web3 something, I just don't know, I mean, how to use it.
+[29:34] **kushti**: Why is it needed at all?
+[29:38] **kushti**: So yeah, and
+[29:42] **kushti**: Joe, so what's Rosen-Lethos projects you are involved with done in 2025?
+
+[29:56] **armeanio**: Well, I would say after, what, two, three years, you know, Lethos launched its first version of Testnet.
+[30:04] **armeanio**: We have had pretty decent participation thus far.
+[30:09] **armeanio**: Right now, we're getting ready to release the third version, which is going to have some additional fraud proofs kind of update and be optimized.
+[30:20] **armeanio**: You know, that's quite an interesting problem to solve, right?
+[30:24] **armeanio**: Pooling in proof of work appeared because people want to minimize variance of payout.
+[30:32] **armeanio**: If you're going to run some sort of business, you want some form of stable return.
+[30:39] **armeanio**: And so it's a predictability problem that's economic at the end of the day.
+[30:45] **armeanio**: Now, the solution for that or the architecture of the solution for that economic problem was just to centralize hashrate, which has terrible secondary consequences.
+[30:56] **armeanio**: First, it affects settlement.
+[30:58] **armeanio**: As hashrate is more concentrated, your assumptions of settlement as blocks are added gets worse.
+[31:07] **armeanio**: If you're interacting with the system, your security assumptions change the more centralized the chain is.
+[31:16] **armeanio**: The secondary toxic side effect is this idea of censorship.
+[31:22] **armeanio**: We've already seen that proposed anyway and partially implemented in Bitcoin in 2020, but that had some kickback.
+[31:33] **armeanio**: We saw it in Ethereum where they had their OFAC compliant block producers.
+[31:38] **armeanio**: And as you look at the market that's kind of shifting towards these public mining companies, I don't see that as that big of a leap.
+[31:48] **armeanio**: to kind of bring these censorship vectors into quote unquote decentralized systems because of where their footprint is.
+[31:59] **armeanio**: And for me, that's concerning because it defeats the entire point, right?
+[32:03] **armeanio**: Like that's an architectural decision that just fails.
+[32:06] **armeanio**: It brings up a bunch of second order effects that are toxic.
+[32:12] **armeanio**: So Lethos is an attempt to kind of democratize mining.
+[32:18] **armeanio**: It does, in a way, I've been thinking about it in some senses like a hardware DAO, right?
+[32:26] **armeanio**: Where you do have kind of like this finite state machine or set of contracts that
+[32:36] **armeanio**: Enforce honesty and in terms of a miner shares their payouts and you're replacing a third party that's anchored in some jurisdiction that could have some attack vector to an actual
+[32:54] **armeanio**: system of smart contracts, which are more self-enforcing, which is powerful if you really think about it.
+[33:01] **armeanio**: I think the architecture decision there is a great improvement over what is generally around.
+
+[33:08] **armeanio**: With ROSEN, one of the things that I really wanted to see in 2025 was open contribution standards.
+[33:20] **armeanio**: Sometimes it's very hard to know how these systems work because the architecture is
+[33:26] **armeanio**: basically a secret.
+[33:28] **armeanio**: So having open contribution standards not only allows external developers to really dig in and understand how does Rosen Bridge operate, why is it designed the way it's designed, but then you open the door for people to participate in that architecture.
+[33:46] **armeanio**: And so we have a couple of chains, Handshake, Fiero,
+[33:54] **armeanio**: that have been actively implementing and kind of building based on those standards.
+[34:02] **armeanio**: We do have Nervos, which is currently kind of in the process of voting for a grant for their developers to build into ROSEN, which I think is great to see.
+[34:14] **armeanio**: We've released some research on the initial implementation of the Monero network, which is a pretty strong privacy network.
+[34:26] **armeanio**: And so having like that architecture in the open and being able to like openly discuss, share, and kind of learn from other projects, I think is incredibly valuable.
+[34:41] **armeanio**: So with Rosen Bridge, I would actually say that was our biggest win.
+[34:45] **armeanio**: I know Binance Smart Chain is, you know, potentially a really good base for liquidity, but it is an exchange environment.
+[34:54] **armeanio**: They say they're not, but okay.
+[34:56] **armeanio**: I don't necessarily see how that's possible given, you know, some of the things that go on there.
+
+[35:05] **armeanio**: I do think that building on Bitcoin as well is quite interesting because you do have, for lack of a better word, the largest pool of censorship resistant capital on the planet, right?
+[35:21] **armeanio**: That is the Bitcoin network.
+[35:24] **armeanio**: And so having additional uses that are kind of brought in that access that liquidity potentially is quite interesting long term.
+[35:37] **armeanio**: In terms of 2026, I think that it would be nice to see Monero.
+[35:43] **armeanio**: They need to upgrade their network.
+[35:47] **armeanio**: There's a lot going on there.
+[35:50] **armeanio**: Base is quite interesting as it's a way to get a footprint into the Coinbase ecosystem.
+[35:57] **armeanio**: I did actually propose two Catalyst proposals.
+[36:03] **armeanio**: There's interest for people in the Cardano ecosystem to potentially back end an exchange environment instead of waiting for somebody else to open the door for them, which doesn't seem to be the trajectory of how the ecosystem is growing more broadly.
+[36:25] **armeanio**: It's interesting to look at how crypto is changing.
+[36:27] **armeanio**: It does seem as though these entities are trying to vertically integrate everything into their own stack, but I guess that's somewhat natural given greater permission.
+
+[36:42] **armeanio**: In 2026, another interesting thing we're going to work on in ROSEN is Raffle v2.
+[36:49] **armeanio**: It's going to be an extension of the first raffle protocol.
+[36:52] **armeanio**: We're going to try to create greater access for cross-chain liquidity to be able to access these contracts.
+[37:02] **armeanio**: You're going to have multi-winner support.
+[37:07] **armeanio**: In my mind, I've always said, okay, if I can go to the gas station here and I can buy the Colorado State Lottery ticket, could I flip it over and you see the payout odds?
+[37:18] **armeanio**: Could I just replicate that and in essence create the exact same game with enforceable honesty that's open and say, okay, here's a cross-chain lottery system that, you know, I wouldn't even have to be creative.
+[37:32] **armeanio**: I could just clone what's already around.
+[37:36] **armeanio**: Interesting thought long term.
+[37:39] **armeanio**: perhaps.
+[37:40] **armeanio**: But I do think that those type of community fundraising tools, gambling tools, etc.
+[37:47] **armeanio**: have some demand.
+[37:48] **armeanio**: So let's see what people use them for.
+[37:51] **armeanio**: I would be happiest if I just saw nonprofits around the world be able to say, hey, we can actually use these as fundraising tools to do some good.
+
+[38:09] **kushti**: Right.
+[38:11] **kushti**: And so, yeah, about the exchange environment.
+[38:14] **kushti**: Actually, it's an environment for different exchanges.
+[38:18] **kushti**: Right now, you already can arbitrage.
+[38:26] **kushti**: But yeah, probably in limited just one way via ERG and
+[38:36] **kushti**: ERG on GATE, for example.
+[38:38] **kushti**: So on GATE, you can find liquidity pool on BSC.
+[38:44] **kushti**: So RS-ERG to USDT, right?
+[38:48] **kushti**: And yeah, you can trade directly from your gate.io balance, spot balance even.
+[38:58] **kushti**: So no need to transfer to a different kind of,
+[39:03] **kushti**: accounts and so on.
+[39:04] **kushti**: So you can just buy from spot accounts, spot balance.
+
+[39:18] **armeanio**: I do think those aggregators will get more interesting as we grow.
+
+[39:22] **kushti**: Yeah, and then maybe it's already available on BitGet, this BSC pool and that would be great because BitGet is popular in some countries such as Indonesia and CIS countries.
+[39:39] **kushti**: So yeah, that would be great to see at least in arbitrage form.
+[39:47] **kushti**: Ergo on different centralized exchanges via liquidity pools on BSC and other chains.
+[39:57] **kushti**: That's quite interesting, because in 2025 many exchanges failed, unfortunately, so we lost Zgex, and then TradeOgre probably was the biggest loss in 2025.
+[40:19] **kushti**: it got shut down by police.
+[40:22] **kushti**: So yeah, huge loss for proof of work assets.
+[40:27] **kushti**: Actually for many of them, it was the only exchange and there is no any replacement seen yet as far as I know, right?
+[40:36] **kushti**: So yeah, big loss.
+[40:38] **kushti**: And well, then naturally a lot of proof of work assets will go already going
+[40:48] **kushti**: centralized rails right like Firo already integrating handshake and so on because for proof of work assets it's quite hard to get on centralized exchanges especially biggest ones these days because well for some of them as we know well there is need to pay not just in
+[41:18] **kushti**: Not just some fixed amount in fiat, but also transfer some percent of supply and this is insane requirements when it's mined.
+[41:33] **kushti**: So someone needs to buy from miners to donate to centralized exchange.
+
+[41:41] **armeanio**: It's a crazy assumption.
+[41:44] **armeanio**: It breaks any notion of what is good or better money.
+[41:48] **armeanio**: Something where you're going to print a bunch of the supply in your own pocket and then you have to go around and bribe intermediaries to interact with it.
+[41:56] **armeanio**: That's insane in terms of base assumptions of good decentralized money.
+[42:04] **armeanio**: But that's where we are.
+[42:06] **armeanio**: I don't know.
+
+[42:08] **kushti**: Right, so yeah, actually, those exchanges are just pushing for worse kinds of money to be created, right?
+[42:17] **kushti**: Yeah.
+[42:20] **kushti**: They're moving the whole industry here.
+[42:24] **kushti**: Well, kind of failed also in 2025, right?
+[42:29] **kushti**: So, well, there was a lot of heat towards
+[42:34] **kushti**: So some biggest exchanges in the space, if you avoid to call names.
+[42:41] **kushti**: But yeah, it's everywhere.
+[42:43] **kushti**: It's in the news and Twitter.
+[42:44] **kushti**: So yeah, you can find a lot of heat around and yeah, well, especially about October 10th, right?
+[42:56] **kushti**: And so on.
+[42:58] **kushti**: So yeah, it was crazy year after all.
+[43:01] **kushti**: But yeah, in Ergo, it was more or less stable, right?
+[43:07] **kushti**: So I mean, from what I've seen, not any big dramas, whatever.
+[43:16] **kushti**: So just development, right?
+[43:20] **kushti**: So 6.0 activation.
+[43:29] **kushti**: Yeah, well, sublogs development, DevNets testing, and yeah, a lot of new products.
+[43:39] **kushti**: Some of them we've discussed already.
+[43:42] **kushti**: More coming.
+[43:45] **kushti**: For example, you mentioned Gluon, so currently we have Gluon Gold only, right, and Gluon USD is coming.
+[43:54] **kushti**: And then there is need for stable pools, stable to stable liquidity pools.
+[44:02] **kushti**: And well, I'm thinking to announce a bounty for that.
+[44:09] **kushti**: Yeah, well, a lot of interesting developments in funding.
+[44:13] **kushti**: So there were a few successful fundraisings for development.
+[44:20] **kushti**: Thanks to ones who donate.
+[44:25] **kushti**: And then, yeah, well, development-wise, I think, yeah, well, things are going quite well, so maybe better than in 2024, probably yes.
+[44:46] **kushti**: Yeah, and going back to BSC.
+[44:51] **kushti**: So, Richard, as far as I know, all your plans for use also BSC centric, right?
+
+[44:59] **richi**: Yeah, just to.
+[45:02] **richi**: elaborate more on the topic.
+[45:04] **richi**: If you know, Coinbase announced that they will be integrating all Solana DEXes into it.
+[45:10] **richi**: So if we breach to Solana, for example, then all our assets on Solana will be available on Coinbase natively, like
+[45:19] **richi**: ERG is available on GATE, like you said, the same thing will be on Coinbase.
+[45:25] **richi**: Now Binance also has Binance chain DEX inside Binance, but they do only selective coins.
+[45:34] **richi**: So at the moment I wanted to see if use will appear on Binance by default, on Binance Alpha by default, but it will not.
+[45:44] **richi**: So Binance has a kind of filter there,
+[45:47] **richi**: But Coinbase apparently will, that's what they announced, they will allow all Solana decentralized, Solana tokens to appear on Coinbase.
+[45:58] **richi**: So if we at some point connect Solana to our bridge, then for example, the pair like rsERG, USDT or use USDT will appear on Coinbase natively.
+[46:14] **richi**: That's quite exciting.
+[46:16] **richi**: At the moment, yes, I plan to start strapping liquidity starting from actually January 1st.
+[46:23] **richi**: So consider this is an announcement.
+[46:27] **richi**: On January 1st, we will have first bridged use and use USDT pair with a concentrated liquidity on Binance chain.
+[46:38] **richi**: And some miners already expressed their excitement that they can mine directly on their Ergo wallet and in a 100% decentralized way transfer with the Rosen Bridge.
+[46:53] **richi**: They might actually sell their ERGs to use and transfer their use to Binance chain.
+[47:01] **richi**: with low fees and completely decentralized way and then cash out on USDT bypassing all centralized exchanges.
+[47:10] **richi**: So we are trying to create a structure that will replace TradeOgre and other exchanges for miners.
+[47:18] **richi**: It's quite exciting to see if people will use it.
+[47:22] **richi**: I hope they will.
+[47:23] **richi**: So that's one thing I'm really excited about.
+[47:27] **richi**: And all the other proof-of-work chains that are currently integrating into ROSEN, also it's very interesting to see if they will also embrace that use framework into their communities.
+[47:41] **richi**: If they will start using use, if some of these chains have DEXes, maybe we can kind of export use to their native blockchain.
+[47:53] **richi**: If they don't have DEXes, then we can integrate their tokens to Ergo and then create a pair with use.
+[47:59] **richi**: So anyway, there are so many options and I think all of that will be beneficial for all the projects that are integrating to Rosen Bridge.
+[48:08] **richi**: So yeah, that's my take on it.
+
+[48:12] **richi**: I can say a couple words about my expectations from 2026.
+[48:17] **richi**: So in terms of core development, obviously I'm waiting for the fast block.
+[48:23] **richi**: Fast block will allow us on the next level, DeFi on Ergo natively.
+[48:29] **richi**: So we don't need to kind of look for the fast trading environment somewhere outside of Ergo to create this liquidity rails.
+[48:39] **richi**: It will be much easier to bring assets into Ergo and then connect different
+[48:44] **richi**: trading frameworks, trading bots to it.
+[48:49] **richi**: And I also want everyone to keep an eye on our security assumptions as we will grow
+[48:58] **richi**: cross-chain liquidity.
+[49:00] **richi**: In 2026, I have no doubts that we will start growing cross-chain liquidity.
+[49:04] **richi**: Now, the main liquidity pool is rsERG with ADA, but I think in 2026, I have big expectations for use and maybe some other assets to grow more liquidity with ROSEN.
+[49:17] **richi**: So, we just need to remember about security assumptions here.
+[49:21] **richi**: And yeah, we actually were talking with Alex discussing some possible enhancements to use protocol.
+[49:30] **richi**: Maybe at some point, if Alex finds time, we will add maybe one or two contracts there if it depends on the complexity, but we'll see.
+[49:39] **richi**: Even right now, it performs very well.
+[49:41] **richi**: It grows reserves, but I think it can be done even better.
+[49:45] **richi**: And yes, and the privacy with use is something that we need also to explore.
+[49:52] **richi**: This is definitely something big, maybe not for 2026, maybe later, but something I'll be definitely looking into, see if we can add any additional privacy to use.
+[50:05] **richi**: This is my expectation for core development.
+[50:07] **richi**: And for ROSEN, what I would like to see from ROSEN is
+[50:12] **richi**: and so connecting Base possibly yeah everything what Joe already mentioned is it's actually very exciting uh Base is definitely there should be not difficult to but will allow us to create a use USDC trading pair for those who prefer USDC
+[50:30] **richi**: And then Midnight, if in 2026, I really doubt that Midnight will be fully launched by the end of 2026.
+[50:39] **richi**: But anyway, we will keep an eye on that.
+[50:42] **richi**: Whenever Midnight becomes available, obviously I would want us to have that connection with Midnight as soon as possible, because use is
+[50:51] **richi**: So it's a perfect fit for Midnight.
+[50:55] **richi**: Obviously, none of the centralized tokens can live on the Midnight and preserve privacy.
+[51:00] **richi**: Maybe they'll be able to go to Midnight and just remain publicly available without the, you know, shielded features.
+[51:08] **richi**: fully traceable.
+[51:11] **richi**: That's not what people who use Midnight would normally want, but use can preserve all the privacy there.
+[51:19] **richi**: So that's something I would expect us also to accomplish in 2026 if Midnight becomes available, right?
+[51:29] **richi**: If they launch their network.
+[51:31] **richi**: So this is kind of my, yeah, my plans and expectations for 2026.
+
+[51:36] **armeanio**: I'm excited for 2026.
+[51:37] **armeanio**: You know, Lethos has been kind of a thought experiment for a couple of years, which really hardens the assumptions around proof of work potentially, which makes the ecosystem a lot stronger from the foundation.
+[51:54] **armeanio**: Rosen Bridge has always been this idea that we should try to control our own destiny when it comes to market access.
+[52:03] **armeanio**: I do think that one of the big accomplishments I would like to see in 2026 is where our SDKs get built out enough to where we actually start integrating into wallets.
+[52:15] **armeanio**: I do think that rosen.tech as a website will inevitably disappear for most people to where perhaps it can be built into applications via a widget or it can be directly supported in some wallets.
+[52:34] **armeanio**: I do think that we can put together the right framework to create incentives.
+[52:38] **armeanio**: that encourage teams to do that.
+[52:40] **armeanio**: Ultimately, incentives will drive outcomes there, so there's a potential to add some small fee that then goes to the wallet provider or the DApp provider, and then it becomes more seamless, which ultimately would be a pretty nice user experience to build on.
+
+[52:58] **richi**: Yeah, that's actually quite a good comment, Joe, and we, during the last two years, we've been chasing these bigger chains,
+[53:08] **richi**: who are not very responsive and even projects on these chains are not very responsive to the opportunities that Rosen provides.
+[53:17] **richi**: But now all of a sudden we see that the vectors change and actually the main growth
+[53:24] **richi**: may come from these smaller genuine projects that we didn't think of let's say two years ago, right?
+[53:33] **richi**: But now all of a sudden, you know, when everyone
+[53:39] **richi**: Everyone finds themselves in the same trouble situation now.
+[53:44] **richi**: They're looking for the solution and apparently Rosen is one of the best solutions available on the market.
+[53:50] **richi**: So I'm very excited how it will develop and I'm very excited if they will want to extend their collaboration with Ergo not only with Rosen but also with the stablecoins that we have now.
+
+[54:08] **armeanio**: I've always thought that long term, it makes more sense to move into smaller ecosystems that are more understanding and appreciative of what Rosen Bridge offers.
+[54:21] **armeanio**: If you're talking about Ethereum, it's a very, very crowded marketplace.
+[54:26] **armeanio**: So your ability to get traction and visibility is naturally hindered by the amount of competitors, versus if you're talking about smaller ecosystems that have kind of encountered the same
+[54:41] **armeanio**: difficulties or challenges that Ergo has historically, there's going to be a much greater understanding and appreciation for what that tool offers.
+[54:50] **armeanio**: And if we can connect enough smaller chains, the collective power of that in terms of visibility and user base and use, I think will ultimately be better than just trying to compete in a crowded environment.
+
+[55:09] **richi**: Yeah, absolutely.
+[55:12] **richi**: Something we haven't touched while waiting for Alex, something we haven't touched, I can speak a little bit about our block reward emission schedule.
+[55:24] **richi**: This is something also very interesting coming in 2026.
+[55:28] **richi**: We have a block reward reduction in four days from the time we are recording this video.
+[55:34] **richi**: So by the time it's released, I don't know, maybe it will be less.
+[55:37] **richi**: and then we have only one more block reward reduction scheduled for April 2026 and after that we will settle at a very comfortable from monetary point of view 0.85 I think per year
+[55:56] **richi**: inflation rate, yearly inflation rate.
+[55:58] **richi**: This is something what Bitcoin has right now.
+[56:01] **richi**: Bitcoin is still very secure.
+[56:03] **richi**: We don't know what will happen after one or two more halvings that's coming.
+[56:09] **richi**: But in Ergo, we will stay at that inflation rate for I think like 14 years or something like very long time, as well as complemented by the demurrage.
+[56:22] **richi**: So it's very exciting times because yeah we've been
+[56:28] **richi**: Under this high inflation and lots of miners, obviously, they need to pay for electricity.
+[56:35] **richi**: They've been selling on the markets and the holders have been feeling that.
+[56:40] **richi**: But now, in four days and in April, finally, in April 2026, we're getting to the point of very steady inflation curve that should play
+[56:53] **richi**: in favor of long-term holders.
+[56:56] **richi**: I don't want to speculate here, but everything suggests that, yeah, we're getting to that sweet spot that will last for quite a long time.
+
+[57:06] **armeanio**: Yeah, and if miners are worried about that, I would say in 2026, very, very, very, very high likelihood that we see our first token with the primary emission being proof-of-work driven, which is going to be Lethos, right?
+[57:21] **armeanio**: And hopefully, we also explore this idea of merged mine sidechains.
+[57:27] **armeanio**: And so then they have additional security subsidies paying for their hardware.
+[57:32] **armeanio**: It's coming online as kind of the Ergo emission curve drops off, which will be interesting because then it's a question of, you kind of get to this multi-token mining, I think probably like the
+[57:46] **armeanio**: Litecoin ecosystem is probably the most developed with that where miners will get paid in Litecoin and Dogecoin and a couple other merged mined projects.
+[58:03] **armeanio**: So there is some, let's say new ideas coming online for miners.
+
+[58:12] **kushti**: Yeah, and actually I've forgotten, but this is very important.
+[58:15] **kushti**: So usually in some proof of work, cryptocurrency is the biggest event, right?
+[58:22] **kushti**: Because they don't have any others.
+[58:27] **kushti**: Basically.
+[58:29] **kushti**: But yeah, here in Ergo, well, it's basically a storm, right, of updates from different projects and so on.
+[58:39] **kushti**: So I've started posting videos from unstoppable, not unstoppable hackathon, but stability workshop.
+[58:51] **kushti**: which was just after the hackathon, so posted a use video, I believe, right?
+[58:58] **kushti**: But there are more videos to post, and we are recording another video, and yeah, well, announcements are coming from use use, Basis Tracker, and so on, so on, so on.
+[59:18] **kushti**: need to check what's going on with Gluon USD, other projects, a lot of updates.
+[59:30] **kushti**: Yeah, so somehow emission reduction is not celebrated as in other communities, maybe, unfortunately, because it's
+[59:42] **kushti**: It's very important, right, for the underlying assets for its properties.
+[59:48] **kushti**: And yeah, well, it's changing a lot outside.
+[59:54] **kushti**: It's changing a lot in the ecosystem and beyond, right, also.
+[60:00] **kushti**: So yeah, it's important and it's quite exciting to see finally, well, tail emission coming.
+[60:08] **kushti**: So let's see.
+[60:10] **kushti**: Hardware.
+
+[60:15] **armeanio**: Yeah, so anything else that anybody would like to kind of drop in terms of the 2026 ideas moving forward?
+
+[60:23] **kushti**: All right, so going back to the beginning, so to better money, so there is urgent need for better money.
+[60:32] **kushti**: So we now have another fiat currency.
+[60:43] **kushti**: Collapsed again.
+[60:45] **kushti**: And again, actually, so it's Iranian rial so.
+[60:51] **kushti**: Back in 2019 it was.
+[60:57] **kushti**: Like 100,000 rials per USD.
+[61:03] **kushti**: Well, official rate was 40k, street rate was 100k.
+[61:09] **kushti**: So now it's 1.5 million.
+[61:13] **kushti**: So 15 times devaluation against USD, which is also devaluating in six years.
+[61:23] **kushti**: So yeah, that's crazy.
+[61:26] **kushti**: And yeah, well, some protests started already and that's not a unique situation, right?
+[61:34] **kushti**: So that's happening like every week, maybe even, right?
+[61:41] **kushti**: So every month at least in some country
+[61:47] **kushti**: around the world so yeah well fiat currencies continue to fail they will continue to fail and well in 2025 there is a lot of disappointment seen about crypto community that it is also failing to deliver what was promised right when I joined for example when
+[62:16] **kushti**: When I bought the idea of peer-to-peer money without central bank
+[62:24] **kushti**: But it seems, yeah, well, here in Ergo, we are standing on the very first principles of the space and we are doing progress.
+[62:38] **kushti**: And it's actually quite exciting.
+[62:40] **kushti**: So there is an article by none else than Joe Armeanio about, yeah, basically taxonomy of monetary expansion
+[62:54] **kushti**: cryptocurrency on top of cryptocurrencies.
+[62:57] **kushti**: So yeah, well, that's quite groundbreaking, I believe.
+[63:04] **kushti**: So that's what I tried to outline for a few years maybe as well, right?
+[63:18] **kushti**: And well,
+[63:22] **kushti**: Now it's, yeah, done by Joe.
+[63:26] **kushti**: So, and yeah, well, unfortunately, right?
+[63:31] **kushti**: So, well, people think that, you know, this cryptocurrency space should be about competition, like horse racing, right?
+[63:40] **kushti**: But yeah, I think, well, actually, there is a lot of room for cooperation and it would be good to see
+[63:52] **kushti**: Well, understanding how to get to peer-to-peer money, also useful for real-worlds, not just toys for some.
+[64:05] **kushti**: nerds, right, doing some artificial experiments, but well, money which may have elastic supply, right, and fulfill needs of digital as well as real world economies.
+[64:24] **kushti**: For real, so yeah, it would be good to connect to such people, but unfortunately I don't see, right?
+[64:32] **kushti**: So here in Ergo, we are in quite unique position.
+[64:37] **kushti**: And yeah, well, even more, somehow the gap is even increasing.
+[64:46] **kushti**: So from my observations, so.
+[64:49] **kushti**: the crypto industry is getting more and more hopeless in general.
+
+[64:58] **armeanio**: I think a lot of people are chasing things based on asking the wrong questions, just honest.
+[65:09] **armeanio**: So I do think that we need to continue to focus on kind of architecture and
+[65:17] **armeanio**: I don't know, control vectors in the system, layers in the system, why they're there, what they're for.
+[65:22] **armeanio**: And you're always going to have this social layer in crypto that's chasing attention and liquidity, artificial or not.
+[65:34] **armeanio**: I don't think that's something that directly we're going to out-compete with.
+[65:40] **armeanio**: But I do think based on architecture, we can build solid solutions that do stick around, they do scale.
+
+[65:46] **kushti**: And ultimately if we answer hard questions the right way, there's a lot of value in that Right, so yeah, well questions are wrong often right then we have Well non-working solutions for non-existing problems and Yeah, well That's
+[66:12] **kushti**: That's quite a sad picture to see actually when you see it year after year.
+[66:23] **kushti**: But here we are in quite a unique position and I'm super optimistic so stay tuned for Basis ChainCash.
+[66:33] **kushti**: Most of
+[66:34] **kushti**: Development done and that's also quite exciting to see how development changed well in 2025 mostly right so before I didn't use AI-based coding and so on but here most of the tracker so I did contracts manually for sure
+[66:59] **kushti**: But then, yeah, off-chain part, the Basis tracker, so it was AI-based coded, so I didn't spend much time on it, just reviewed everything manually, starting from some point.
+[67:16] **kushti**: And that's also interesting, so it seems, well, there is possibility now to make
+[67:29] **kushti**: great things without much developers rights.
+[67:32] **kushti**: Well, but there is need for clear understanding among those developers what they're doing.
+[67:42] **kushti**: And I think then, yeah, well, asking right questions again, helping a lot.
+[67:48] **kushti**: So yeah, well, in regards with technologies in general,
+[67:56] **kushti**: AI and so on.
+[67:57] **kushti**: So, yeah, well, things are changing rapidly.
+[68:00] **kushti**: It's hard to understand.
+[68:03] **kushti**: There was quite a famous tweet from Andrej Karpathy a few days ago that even he, one of the biggest minds in the AI field, doesn't understand, well,
+[68:21] **kushti**: clearly what is development about these days, because it's like old tooling plus new tooling, and this new tooling is changing like every month basically.
+[68:36] **kushti**: And not just evolutionary, but yeah, a whole new concept sometime appearing.
+[68:47] **kushti**: out of thin air.
+[68:48] **kushti**: So yeah, it's very challenging and rapidly changing environment, right,
