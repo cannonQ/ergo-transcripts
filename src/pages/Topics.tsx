@@ -1,13 +1,28 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Hash, TrendingUp, Grid, List } from 'lucide-react';
-import { mockTopics } from '../data/mockData';
+import { Hash, TrendingUp, Grid, List, Loader2 } from 'lucide-react';
+import { useData } from '../contexts/DataContext';
 
 export default function Topics() {
+  const { topics, isLoading } = useData();
   const [viewMode, setViewMode] = useState<'cloud' | 'list' | 'trending'>('cloud');
 
-  const sortedByMentions = [...mockTopics].sort((a, b) => b.mention_count - a.mention_count);
-  const sortedAlphabetically = [...mockTopics].sort((a, b) => a.name.localeCompare(b.name));
+  const sortedByMentions = [...topics].sort((a, b) => b.mention_count - a.mention_count);
+  const sortedAlphabetically = [...topics].sort((a, b) => a.name.localeCompare(b.name));
+
+  // Calculate max mentions for scaling
+  const maxMentions = sortedByMentions[0]?.mention_count || 1;
+
+  if (isLoading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <Loader2 className="w-12 h-12 text-ergo-orange animate-spin mx-auto mb-4" />
+          <p className="font-mono text-ergo-muted">Loading topics...</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -17,7 +32,7 @@ export default function Topics() {
           Topics Browser
         </h1>
         <p className="text-ergo-muted font-mono">
-          Explore {mockTopics.length} topics across all community calls
+          Explore {topics.length} topics across all community calls
         </p>
       </div>
 
@@ -63,17 +78,18 @@ export default function Topics() {
         <div className="bg-ergo-dark border border-ergo-orange/20 rounded-lg p-8">
           <div className="flex flex-wrap gap-4 justify-center">
             {sortedByMentions.map(topic => {
-              const size = topic.mention_count > 50 ? 'text-3xl' :
-                           topic.mention_count > 30 ? 'text-2xl' :
-                           topic.mention_count > 20 ? 'text-xl' : 'text-lg';
-              
+              const ratio = topic.mention_count / maxMentions;
+              const size = ratio > 0.7 ? 'text-3xl' :
+                           ratio > 0.5 ? 'text-2xl' :
+                           ratio > 0.3 ? 'text-xl' : 'text-lg';
+
               return (
                 <Link
                   key={topic.slug}
                   to={`/topics/${topic.slug}`}
                   className={`font-mono hover:text-ergo-orange transition-all ${size}`}
                   style={{
-                    opacity: Math.max(0.5, topic.mention_count / 62)
+                    opacity: Math.max(0.5, ratio)
                   }}
                 >
                   #{topic.name}
@@ -111,10 +127,12 @@ export default function Topics() {
                   <span className="text-ergo-muted">Calls:</span>
                   <span className="text-term-green">{topic.call_count}</span>
                 </div>
-                <div className="flex items-center justify-between">
-                  <span className="text-ergo-muted">Key Speakers:</span>
-                  <span className="text-term-amber">{topic.key_speakers.join(', ')}</span>
-                </div>
+                {topic.key_speakers.length > 0 && (
+                  <div className="flex items-center justify-between">
+                    <span className="text-ergo-muted">Key Speakers:</span>
+                    <span className="text-term-amber">{topic.key_speakers.slice(0, 3).join(', ')}</span>
+                  </div>
+                )}
               </div>
             </div>
           ))}
@@ -144,19 +162,19 @@ export default function Topics() {
                   </p>
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-xs font-mono">
                     <div>
-                      <span className="text-ergo-muted block">📊 Mentions</span>
+                      <span className="text-ergo-muted block">Mentions</span>
                       <span className="text-lg text-term-cyan">{topic.mention_count}</span>
                     </div>
                     <div>
-                      <span className="text-ergo-muted block">📹 Calls</span>
+                      <span className="text-ergo-muted block">Calls</span>
                       <span className="text-lg text-term-green">{topic.call_count}</span>
                     </div>
                     <div>
-                      <span className="text-ergo-muted block">🎤 Speakers</span>
+                      <span className="text-ergo-muted block">Speakers</span>
                       <span className="text-sm">{topic.key_speakers.length}</span>
                     </div>
                     <div>
-                      <span className="text-ergo-muted block">🔗 Related</span>
+                      <span className="text-ergo-muted block">Related</span>
                       <span className="text-sm">{topic.related_topics.length}</span>
                     </div>
                   </div>
@@ -165,25 +183,19 @@ export default function Topics() {
                       to={`/topics/${topic.slug}`}
                       className="px-3 py-1 bg-ergo-orange/20 hover:bg-ergo-orange/30 border border-ergo-orange/50 rounded font-mono text-xs transition-colors"
                     >
-                      View Timeline →
-                    </Link>
-                    <Link
-                      to={`/calls?topic=${topic.slug}`}
-                      className="px-3 py-1 bg-ergo-dark hover:bg-ergo-orange/10 border border-ergo-orange/30 rounded font-mono text-xs transition-colors"
-                    >
-                      All Calls →
-                    </Link>
-                    <Link
-                      to={`/decisions?topic=${topic.slug}`}
-                      className="px-3 py-1 bg-ergo-dark hover:bg-ergo-orange/10 border border-ergo-orange/30 rounded font-mono text-xs transition-colors"
-                    >
-                      Decisions →
+                      View Details
                     </Link>
                   </div>
                 </div>
               </div>
             </div>
           ))}
+        </div>
+      )}
+
+      {topics.length === 0 && (
+        <div className="text-center py-12">
+          <p className="font-mono text-ergo-muted">No topics found.</p>
         </div>
       )}
     </div>

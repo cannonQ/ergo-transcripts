@@ -1,15 +1,18 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { User, Mic, Gavel, Hash, Quote, Search, Grid, List } from 'lucide-react';
-import { mockSpeakers } from '../data/mockData';
+import { User, Mic, Gavel, Hash, Quote, Search, Grid, List, Loader2 } from 'lucide-react';
+import { useData } from '../contexts/DataContext';
 
 export default function Speakers() {
+  const { speakers, isLoading } = useData();
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
   const [searchQuery, setSearchQuery] = useState('');
   const [sortBy, setSortBy] = useState<'calls' | 'decisions' | 'name'>('calls');
 
-  const filteredSpeakers = mockSpeakers
-    .filter(speaker => 
+  const totalCalls = speakers.reduce((acc, s) => acc + s.stats.calls, 0);
+
+  const filteredSpeakers = speakers
+    .filter(speaker =>
       speaker.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
       speaker.role.toLowerCase().includes(searchQuery.toLowerCase())
     )
@@ -24,6 +27,17 @@ export default function Speakers() {
       }
     });
 
+  if (isLoading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <Loader2 className="w-12 h-12 text-ergo-orange animate-spin mx-auto mb-4" />
+          <p className="font-mono text-ergo-muted">Loading speakers...</p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="container mx-auto px-4 py-8">
       {/* Header */}
@@ -32,7 +46,7 @@ export default function Speakers() {
           Speaker Directory
         </h1>
         <p className="text-ergo-muted font-mono">
-          Meet the voices of the Ergo community across {mockSpeakers.reduce((acc, s) => acc + s.stats.calls, 0)}+ call appearances
+          Meet the voices of the Ergo community across {totalCalls}+ call appearances
         </p>
       </div>
 
@@ -136,16 +150,18 @@ export default function Speakers() {
               </div>
 
               {/* Top Topics */}
-              <div className="flex flex-wrap gap-2">
-                {speaker.top_topics.slice(0, 3).map(topic => (
-                  <span
-                    key={topic}
-                    className="text-xs font-mono px-2 py-1 bg-ergo-orange/10 text-ergo-orange rounded"
-                  >
-                    #{topic}
-                  </span>
-                ))}
-              </div>
+              {speaker.top_topics.length > 0 && (
+                <div className="flex flex-wrap gap-2">
+                  {speaker.top_topics.slice(0, 3).map(topic => (
+                    <span
+                      key={topic}
+                      className="text-xs font-mono px-2 py-1 bg-ergo-orange/10 text-ergo-orange rounded"
+                    >
+                      #{topic}
+                    </span>
+                  ))}
+                </div>
+              )}
             </Link>
           ))}
         </div>

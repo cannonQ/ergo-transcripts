@@ -1,14 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, TrendingUp, Activity } from 'lucide-react';
+import { ArrowRight, TrendingUp, Activity, Loader2 } from 'lucide-react';
 import SearchBar from '../components/SearchBar';
 import CallCard from '../components/CallCard';
 import StatCard from '../components/StatCard';
 import TopicTag from '../components/TopicTag';
-import { mockCalls, mockDecisions, mockTopics, mockStats } from '../data/mockData';
+import { useData } from '../contexts/DataContext';
 
 export default function Home() {
+  const { stats, calls, topics, isLoading, isInitialized, loadAllDecisions, allDecisions } = useData();
   const [typedText, setTypedText] = useState('');
+  const [decisionsLoading, setDecisionsLoading] = useState(false);
   const fullText = 'The institutional memory of Ergo';
 
   useEffect(() => {
@@ -24,11 +26,34 @@ export default function Home() {
     return () => clearInterval(timer);
   }, []);
 
+  // Load decisions for the recent decisions section
+  useEffect(() => {
+    if (isInitialized && !allDecisions) {
+      setDecisionsLoading(true);
+      loadAllDecisions().finally(() => setDecisionsLoading(false));
+    }
+  }, [isInitialized, allDecisions, loadAllDecisions]);
+
+  const recentCalls = calls.slice(0, 3);
+  const recentDecisions = allDecisions?.slice(0, 3) || [];
+  const trendingTopics = [...topics].sort((a, b) => b.mention_count - a.mention_count).slice(0, 10);
+
+  if (isLoading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <Loader2 className="w-12 h-12 text-ergo-orange animate-spin mx-auto mb-4" />
+          <p className="font-mono text-ergo-muted">Loading knowledge base...</p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="relative">
       {/* Grid Background */}
       <div className="absolute inset-0 grid-bg opacity-5"></div>
-      
+
       {/* Scan Line Effect */}
       <div className="scan-line"></div>
 
@@ -47,11 +72,11 @@ export default function Home() {
         {/* Stats Dashboard */}
         <div className="bg-ergo-dark/80 backdrop-blur border border-ergo-orange/30 rounded-lg p-6 mb-12 glow-orange">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            <StatCard label="CALLS INDEXED" value={mockStats.total_calls} />
-            <StatCard label="Q&A PAIRS" value={mockStats.total_qa.toLocaleString()} />
-            <StatCard label="DECISIONS TRACKED" value={mockStats.total_decisions} />
-            <StatCard label="SPEAKERS" value={mockStats.total_speakers} />
-            <StatCard label="HOURS OF CONTENT" value={`${mockStats.total_hours}+`} />
+            <StatCard label="CALLS INDEXED" value={stats?.total_calls || 0} />
+            <StatCard label="Q&A PAIRS" value={(stats?.total_qa || 0).toLocaleString()} />
+            <StatCard label="DECISIONS TRACKED" value={stats?.total_decisions || 0} />
+            <StatCard label="SPEAKERS" value={stats?.total_speakers || 0} />
+            <StatCard label="HOURS OF CONTENT" value={`${stats?.total_hours || 0}+`} />
             <StatCard label="LAST SYNC" value="LIVE" />
           </div>
         </div>
@@ -66,8 +91,8 @@ export default function Home() {
           <h2 className="text-2xl font-bold font-mono text-ergo-orange">
             Recent Calls
           </h2>
-          <Link 
-            to="/calls" 
+          <Link
+            to="/calls"
             className="flex items-center gap-2 text-sm font-mono text-ergo-muted hover:text-ergo-orange transition-colors"
           >
             View all <ArrowRight className="w-4 h-4" />
@@ -75,7 +100,7 @@ export default function Home() {
         </div>
 
         <div className="space-y-6">
-          {mockCalls.slice(0, 3).map(call => (
+          {recentCalls.map(call => (
             <CallCard key={call.id} call={call} />
           ))}
         </div>
@@ -87,54 +112,60 @@ export default function Home() {
           <h2 className="text-2xl font-bold font-mono text-ergo-orange">
             Recent Decisions
           </h2>
-          <Link 
-            to="/decisions" 
+          <Link
+            to="/decisions"
             className="flex items-center gap-2 text-sm font-mono text-ergo-muted hover:text-ergo-orange transition-colors"
           >
             View all <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
 
-        <div className="grid gap-4">
-          {mockDecisions.slice(0, 3).map(decision => (
-            <div 
-              key={decision.id}
-              className="bg-ergo-dark border border-ergo-orange/20 rounded-lg p-6 hover:border-ergo-orange/50 transition-all"
-            >
-              <div className="flex items-start justify-between mb-3">
-                <span className={`
-                  text-xs font-mono px-2 py-1 rounded
-                  ${decision.type === 'decision' ? 'bg-blue-500/20 text-blue-400' : ''}
-                  ${decision.type === 'commitment' ? 'bg-green-500/20 text-green-400' : ''}
-                  ${decision.type === 'open_question' ? 'bg-yellow-500/20 text-yellow-400' : ''}
-                `}>
-                  {decision.type.toUpperCase()}
-                </span>
-                <span className="text-xs font-mono text-ergo-muted">{decision.date}</span>
+        {decisionsLoading ? (
+          <div className="flex items-center justify-center py-8">
+            <Loader2 className="w-6 h-6 text-ergo-orange animate-spin" />
+          </div>
+        ) : (
+          <div className="grid gap-4">
+            {recentDecisions.map(decision => (
+              <div
+                key={decision.id}
+                className="bg-ergo-dark border border-ergo-orange/20 rounded-lg p-6 hover:border-ergo-orange/50 transition-all"
+              >
+                <div className="flex items-start justify-between mb-3">
+                  <span className={`
+                    text-xs font-mono px-2 py-1 rounded
+                    ${decision.type === 'decision' ? 'bg-blue-500/20 text-blue-400' : ''}
+                    ${decision.type === 'commitment' ? 'bg-green-500/20 text-green-400' : ''}
+                    ${decision.type === 'open_question' ? 'bg-yellow-500/20 text-yellow-400' : ''}
+                  `}>
+                    {decision.type.toUpperCase().replace('_', ' ')}
+                  </span>
+                  <span className="text-xs font-mono text-ergo-muted">{decision.date}</span>
+                </div>
+
+                <h3 className="font-mono text-lg font-semibold text-ergo-orange mb-2">
+                  {decision.title}
+                </h3>
+
+                <p className="text-sm text-ergo-light/80 mb-3 line-clamp-2">
+                  {decision.content}
+                </p>
+
+                <div className="flex items-center justify-between">
+                  <span className="text-xs font-mono text-ergo-muted">
+                    {decision.speaker} | Topic: {decision.topic}
+                  </span>
+                  <Link
+                    to={`/calls/${decision.call_id}`}
+                    className="text-xs font-mono text-ergo-orange hover:text-orange-400"
+                  >
+                    View source
+                  </Link>
+                </div>
               </div>
-              
-              <h3 className="font-mono text-lg font-semibold text-ergo-orange mb-2">
-                {decision.title}
-              </h3>
-              
-              <p className="text-sm text-ergo-light/80 mb-3">
-                {decision.content}
-              </p>
-              
-              <div className="flex items-center justify-between">
-                <span className="text-xs font-mono text-ergo-muted">
-                  🎤 {decision.speaker} • Topic: {decision.topic}
-                </span>
-                <Link 
-                  to={`/calls/${decision.call_id}`}
-                  className="text-xs font-mono text-ergo-orange hover:text-orange-400"
-                >
-                  View source →
-                </Link>
-              </div>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
+        )}
       </section>
 
       {/* Trending Topics */}
@@ -144,8 +175,8 @@ export default function Home() {
             <TrendingUp className="w-6 h-6" />
             Trending Topics
           </h2>
-          <Link 
-            to="/topics" 
+          <Link
+            to="/topics"
             className="flex items-center gap-2 text-sm font-mono text-ergo-muted hover:text-ergo-orange transition-colors"
           >
             View all <ArrowRight className="w-4 h-4" />
@@ -153,10 +184,10 @@ export default function Home() {
         </div>
 
         <div className="flex flex-wrap gap-3">
-          {mockTopics.map(topic => (
-            <TopicTag 
-              key={topic.slug} 
-              topic={topic.name} 
+          {trendingTopics.map(topic => (
+            <TopicTag
+              key={topic.slug}
+              topic={topic.name}
               count={topic.mention_count}
               size="md"
             />
@@ -175,26 +206,34 @@ export default function Home() {
 
         <div className="bg-ergo-dark/50 border border-ergo-orange/20 rounded-lg p-6 font-mono text-sm">
           <div className="space-y-3">
-            <div className="flex items-center gap-3">
-              <span className="text-term-green">●</span>
-              <span className="text-ergo-muted">2 hours ago</span>
-              <span>New call indexed: "Ergo Community Chat - AI Coding Revolution"</span>
-            </div>
-            <div className="flex items-center gap-3">
-              <span className="text-term-amber">●</span>
-              <span className="text-ergo-muted">5 hours ago</span>
-              <span>12 new Q&A pairs added from recent AMA</span>
-            </div>
-            <div className="flex items-center gap-3">
-              <span className="text-term-cyan">●</span>
-              <span className="text-ergo-muted">1 day ago</span>
-              <span>Major decision: Rosen Bridge V2 architecture approved</span>
-            </div>
-            <div className="flex items-center gap-3">
-              <span className="text-term-green">●</span>
-              <span className="text-ergo-muted">2 days ago</span>
-              <span>Topic "concentrated-liquidity" trending (+15 mentions)</span>
-            </div>
+            {recentCalls[0] && (
+              <div className="flex items-center gap-3">
+                <span className="text-term-green">●</span>
+                <span className="text-ergo-muted">{new Date(recentCalls[0].date).toLocaleDateString()}</span>
+                <span>New call indexed: "{recentCalls[0].title}"</span>
+              </div>
+            )}
+            {stats && (
+              <div className="flex items-center gap-3">
+                <span className="text-term-amber">●</span>
+                <span className="text-ergo-muted">Total</span>
+                <span>{stats.total_qa} Q&A pairs across {stats.total_calls} calls</span>
+              </div>
+            )}
+            {trendingTopics[0] && (
+              <div className="flex items-center gap-3">
+                <span className="text-term-cyan">●</span>
+                <span className="text-ergo-muted">Trending</span>
+                <span>Topic "{trendingTopics[0].name}" ({trendingTopics[0].mention_count} mentions)</span>
+              </div>
+            )}
+            {stats && (
+              <div className="flex items-center gap-3">
+                <span className="text-term-green">●</span>
+                <span className="text-ergo-muted">Archive</span>
+                <span>{stats.total_hours}+ hours of community knowledge indexed</span>
+              </div>
+            )}
           </div>
         </div>
       </section>

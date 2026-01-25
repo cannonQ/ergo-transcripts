@@ -1,34 +1,58 @@
-import React, { useState } from 'react';
-import { Search, ChevronDown, ChevronUp } from 'lucide-react';
-import { mockQA } from '../data/mockData';
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import { Search, ChevronDown, ChevronUp, Loader2 } from 'lucide-react';
+import { useData } from '../contexts/DataContext';
+import type { AggregatedQA } from '../types';
 
 export default function FAQ() {
+  const { loadAllQA, allQA, isLoading } = useData();
+  const [qaList, setQAList] = useState<AggregatedQA[]>([]);
+  const [isLoadingQA, setIsLoadingQA] = useState(true);
+
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [selectedDifficulty, setSelectedDifficulty] = useState<string>('all');
   const [expandedCategories, setExpandedCategories] = useState<string[]>(['technical']);
 
-  const categories = ['all', 'technical', 'beginner', 'governance', 'projects', 'general'];
+  // Load all QA on mount
+  useEffect(() => {
+    if (allQA) {
+      setQAList(allQA);
+      setIsLoadingQA(false);
+    } else {
+      setIsLoadingQA(true);
+      loadAllQA().then(data => {
+        setQAList(data);
+        setIsLoadingQA(false);
+      }).catch(() => {
+        setIsLoadingQA(false);
+      });
+    }
+  }, [allQA, loadAllQA]);
+
+  // Get unique categories from the data
+  const allCategories = ['all', ...Array.from(new Set(qaList.map(qa => qa.category).filter(Boolean)))].sort();
   const difficulties = ['all', 'beginner', 'intermediate', 'advanced'];
 
-  const filteredQA = mockQA.filter(qa => {
-    const matchesSearch = searchQuery === '' || 
+  const filteredQA = qaList.filter(qa => {
+    const matchesSearch = searchQuery === '' ||
       qa.question.toLowerCase().includes(searchQuery.toLowerCase()) ||
       qa.answer.toLowerCase().includes(searchQuery.toLowerCase());
-    
+
     const matchesCategory = selectedCategory === 'all' || qa.category === selectedCategory;
     const matchesDifficulty = selectedDifficulty === 'all' || qa.difficulty === selectedDifficulty;
-    
+
     return matchesSearch && matchesCategory && matchesDifficulty;
   });
 
   const groupedQA = filteredQA.reduce((acc, qa) => {
-    if (!acc[qa.category]) {
-      acc[qa.category] = [];
+    const category = qa.category || 'general';
+    if (!acc[category]) {
+      acc[category] = [];
     }
-    acc[qa.category].push(qa);
+    acc[category].push(qa);
     return acc;
-  }, {} as Record<string, typeof mockQA>);
+  }, {} as Record<string, AggregatedQA[]>);
 
   const toggleCategory = (category: string) => {
     setExpandedCategories(prev =>
@@ -38,6 +62,17 @@ export default function FAQ() {
     );
   };
 
+  if (isLoading || isLoadingQA) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <Loader2 className="w-12 h-12 text-ergo-orange animate-spin mx-auto mb-4" />
+          <p className="font-mono text-ergo-muted">Loading FAQ database...</p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="container mx-auto px-4 py-8">
       {/* Header */}
@@ -46,7 +81,7 @@ export default function FAQ() {
           FAQ Database
         </h1>
         <p className="text-ergo-muted font-mono">
-          {mockQA.length} questions and answers from community calls
+          {qaList.length} questions and answers from community calls
         </p>
       </div>
 
@@ -77,7 +112,7 @@ export default function FAQ() {
               onChange={(e) => setSelectedCategory(e.target.value)}
               className="w-full bg-ergo-darker border border-ergo-orange/30 rounded px-3 py-2 font-mono text-sm focus:outline-none focus:border-ergo-orange"
             >
-              {categories.map(cat => (
+              {allCategories.map(cat => (
                 <option key={cat} value={cat}>
                   {cat.charAt(0).toUpperCase() + cat.slice(1)}
                 </option>
@@ -121,14 +156,14 @@ export default function FAQ() {
                 <span className="text-sm font-mono text-term-cyan">Q:</span>
                 <h3 className="mt-1 text-lg font-semibold">{qa.question}</h3>
               </div>
-              
+
               <div className="mb-4">
                 <span className="text-sm font-mono text-term-green">A:</span>
                 <p className="mt-1 text-ergo-light/90">{qa.answer}</p>
               </div>
-              
+
               <div className="flex items-center justify-between text-xs font-mono text-ergo-muted">
-                <span>🎤 {qa.responder} • {qa.date} @ {qa.timestamp}</span>
+                <span>{qa.responder} | {qa.date} {qa.timestamp && `@ ${qa.timestamp}`}</span>
                 <div className="flex items-center gap-2">
                   <span className="px-2 py-1 bg-ergo-darker rounded">
                     [{qa.category}]
@@ -138,20 +173,23 @@ export default function FAQ() {
                   </span>
                 </div>
               </div>
-              
-              <a
-                href={`/calls/${qa.call_id}`}
+
+              <Link
+                to={`/calls/${qa.call_id}`}
                 className="inline-block mt-3 text-xs font-mono text-ergo-orange hover:text-orange-400"
               >
-                View in context →
-              </a>
+                View in context: {qa.call_title}
+              </Link>
             </div>
           ))}
+          {filteredQA.length === 0 && (
+            <p className="text-center text-ergo-muted font-mono py-8">No Q&A pairs match your filters.</p>
+          )}
         </div>
       ) : (
         /* Browse by Topic */
         <div className="space-y-4">
-          {Object.entries(groupedQA).map(([category, questions]) => (
+          {Object.entries(groupedQA).sort(([a], [b]) => a.localeCompare(b)).map(([category, questions]) => (
             <div key={category} className="bg-ergo-dark border border-ergo-orange/20 rounded-lg overflow-hidden">
               <button
                 onClick={() => toggleCategory(category)}
@@ -171,7 +209,7 @@ export default function FAQ() {
                   <ChevronDown className="w-5 h-5 text-ergo-muted" />
                 )}
               </button>
-              
+
               {expandedCategories.includes(category) && (
                 <div className="border-t border-ergo-orange/20 p-6 space-y-6">
                   {questions.map(qa => (
@@ -180,20 +218,20 @@ export default function FAQ() {
                         <span className="text-sm font-mono text-term-cyan">Q:</span>
                         <p className="mt-1 font-medium">{qa.question}</p>
                       </div>
-                      
+
                       <div className="mb-3">
                         <span className="text-sm font-mono text-term-green">A:</span>
                         <p className="mt-1 text-sm text-ergo-light/90">{qa.answer}</p>
                       </div>
-                      
+
                       <div className="flex items-center justify-between text-xs font-mono text-ergo-muted">
-                        <span>🎤 {qa.responder} • {qa.date}</span>
-                        <a
-                          href={`/calls/${qa.call_id}`}
+                        <span>{qa.responder} | {qa.date}</span>
+                        <Link
+                          to={`/calls/${qa.call_id}`}
                           className="text-ergo-orange hover:text-orange-400"
                         >
-                          View in context →
-                        </a>
+                          View in context
+                        </Link>
                       </div>
                     </div>
                   ))}
