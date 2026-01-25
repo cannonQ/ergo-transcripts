@@ -1,0 +1,359 @@
+[00:00] **anon_BR**: So, hi guys, I'm Alisson.
+
+[00:04] **anon_BR**: I'm here for some years and involved in some major things on Ergo, like Nautilus Wallet and Fleet SDK and so on.
+
+[00:22] **anon_BR**: And before I start, I would like to say hi, glad that I am to be between you guys.
+
+[00:32] **anon_BR**: So it's really nice to finally meet everyone of you personally.
+
+[00:38] **anon_BR**: So thank you for making it happen.
+
+[00:41] **anon_BR**: So let's talk about Machina, right?
+
+[00:46] **anon_BR**: So that's right.
+
+[00:50] **anon_BR**: So, Machina is a P2P decentralized exchange on top of Ergo blockchain.
+
+[01:04] **anon_BR**: We like to think of it as something like a UTXO native application because so far most of applications on the UTXO model try to somehow emulate how EVM contracts works, so we are trying to do something different there, so where each order on the exchange is individual contract, so it's I think it's the best approach for UTXO structure.
+
+[02:00] **anon_BR**: So it's P2P because you open orders directly and somebody buys from you with no intermediaries or no batching, third-party batching mechanism, so it's based on grid orders instead of liquidity pools.
+
+[02:22] **anon_BR**: So it's pretty novel.
+
+[02:28] **anon_BR**: We are taking advantage of kushti's idea on his grid contracts here.
+
+[02:34] **anon_BR**: So this contract is basically you set orders so when somebody buys or sells from you it creates an inverse orders making a profit difference between transactions so it's also self-custodial so you have control and ownership of your assets from end to end no intermediaries here so
+
+[03:09] **anon_BR**: And as I told, no intermediaries and also no proxy contracts.
+
+[03:19] **anon_BR**: I'm not saying that proxy contracts are bad.
+
+[03:23] **anon_BR**: They are good in some points because, for example, it's a good strategy to create some kind of incentive for running infrastructure.
+
+[03:36] **anon_BR**: But it's not so transparent from a user experience perspective.
+
+[03:42] **anon_BR**: Because you are sending assets to a string, basically.
+
+[03:47] **anon_BR**: And you need to hope that assets get back to you.
+
+[03:51] **anon_BR**: So it's kind of not really transparent.
+
+[03:55] **anon_BR**: So yeah, we are trying to do this in the more transparent way.
+
+[03:59] **anon_BR**: So for this to work in a more and having concurrency in mind, we need to do some changes on Nautilus side, because we need batching anyway.
+
+[04:16] **anon_BR**: So what I'm trying to do is to implement a batching mechanism directly on Nautilus.
+
+[04:25] **anon_BR**: So you agree for certain slippage tolerance, so it will resign this transaction as many times as possible so you are your own batcher so and as and in the last point as everything on Ergo it's open source and very favorable and yes as everything should be right
+
+[04:57] **anon_BR**: So we have the structural overview here.
+
+[05:03] **anon_BR**: So as you can see, it's a pretty simple one. But this has a reason to be like this because we believe in true decentralization and decentralization means not only using a blockchain as a settlement layer, you need to run your own transactions.
+
+[05:29] **anon_BR**: You run batching.
+
+[05:30] **anon_BR**: So the entire application logic runs exclusively on the user browser.
+
+[05:38] **anon_BR**: So UI will do most of the job.
+
+[05:41] **anon_BR**: So interpreting UTXOs, parsing, batching, composing transactions, and so on.
+
+[05:51] **anon_BR**: And on the other side, we need some kind of real-time UTXO transaction, UTXO streaming.
+
+[06:05] **anon_BR**: So here's where Hermes comes to play, which is a tool we are building.
+
+[06:13] **anon_BR**: That's a simple one.
+
+[06:15] **anon_BR**: It just takes data from an indexed node and streams it directly for the UI.
+
+[06:21] **anon_BR**: So it's not something really complex.
+
+[06:28] **anon_BR**: Generic enough for any other application to make use of it.
+
+[06:33] **anon_BR**: So it's not our actual backend because anybody can run it even locally and have fun, be your own bank.
+
+[06:47] **anon_BR**: So contracts, we have currently two different trading strategies done, which is auto-compounding, so when you create multiple grid orders, everything, let's say you create an order selling Ergo for SigmaUSD, so everything you sold, you'll be used to buy lower.
+
+[07:22] **anon_BR**: So you are maximizing profits and potentially losses.
+
+[07:32] **anon_BR**: Alternatively, we have a cumulative strategy.
+
+[07:36] **anon_BR**: Which is we use fixed rates for buy and sell.
+
+[07:41] **anon_BR**: So we buy fixed rates and sell and fixed rates.
+
+[07:47] **anon_BR**: So the profits are accumulated separately.
+
+[07:52] **anon_BR**: So it can be a more conservative strategy.
+
+[07:59] **anon_BR**: It's composable.
+
+[08:01] **anon_BR**: All contracts are composable, which means you can, for example, borrow something on SigmaFi or do pools and right away do some trading on Machina in a single transaction.
+
+[08:20] **anon_BR**: And all the protocols can use its liquidity to make wherever they want because it's easily composable.
+
+[08:35] **anon_BR**: Yet on composition, we have some characteristics we wanted to have from the ground up.
+
+[08:46] **anon_BR**: It is highly optimized.
+
+[08:48] **anon_BR**: We spend a lot of time optimizing code on a built-in Ergo tree to fit as much orders in a single transaction as possible.
+
+[09:01] **anon_BR**: So our biggest grid contract has around 300 bytes, which allows us to fit around 219 orders in a single transaction.
+
+[09:16] **anon_BR**: So it's pretty usable right now.
+
+[09:22] **anon_BR**: This is the biggest one.
+
+[09:23] **anon_BR**: We have, for example, single buy-and-sell orders that are like 16 bytes.
+
+[09:32] **anon_BR**: It's ridiculous, yeah.
+
+[09:36] **anon_BR**: And also no built-in protocol fees.
+
+[09:40] **anon_BR**: So it's okay.
+
+[10:46] **anon_BR**: Yes, we are assuming here we are using regular 97 kilobytes transactions, which is the regular transaction that the nodes accepts directly by mempool.
+
+[11:03] **anon_BR**: But mining pools can do transactions as big as they want.
+
+[11:10] **anon_BR**: So it can be even bigger.
+
+[11:32] **anon_BR**: Yeah, this is a concept we are maturing for years.
+
+[11:38] **anon_BR**: So we reached to the decision that protocol level fees are not good for very good growth as a whole.
+
+[11:52] **anon_BR**: So we just gave up on this and let's make a public good, right?
+
+[12:03] **anon_BR**: Yeah, yeah, yeah, absolutely, yes.
+
+[12:05] **anon_BR**: It's like SigmaUSD, right, yeah.
+
+[12:19] **anon_BR**: Okay, thank you.
+
+[12:22] **anon_BR**: So, yeah.
+
+[12:26] **anon_BR**: Thank you.
+
+[12:29] **anon_BR**: So, with no protocol level, any other application on top of Ergo can use Machina's liquidity and do wherever they want.
+
+[12:42] **anon_BR**: So, yeah.
+
+[12:46] **anon_BR**: So now we talk a little bit about Hermes, which is a tool that we use to make real-time price tracking and UTXO streaming possible.
+
+[13:04] **anon_BR**: So it just takes UTXOs from the index and Ergo node and streams to wherever they want.
+
+[13:14] **anon_BR**: So it's also mempool aware.
+
+[13:17] **anon_BR**: So you can chain transactions by default, because currently it's pretty complex to keep track of mempool state.
+
+[13:32] **anon_BR**: So I wanted to take care of it.
+
+[13:36] **anon_BR**: So, yeah.
+
+[14:45] **mgPai**: So I was saying that we can do 290 orders per transaction at the worst case.
+
+[14:58] **mgPai**: So all these orders are using the biggest contracts.
+
+[15:02] **mgPai**: And then, as Alisson mentioned, that we can do chain transactions, right?
+
+[15:08] **mgPai**: So you can submit transactions one after another without having to wait for confirmation.
+
+[15:14] **mgPai**: So if we know the block size limit, I'll check after this, but we can theoretically do like 290 orders times the amount of transactions per block.
+
+[15:24] **mgPai**: So if it's like 100 transactions per block, we can have nearly 30,000 orders per block.
+
+[15:32] **mgPai**: This is huge compared to what exists right now on Ethereum or Cardano.
+
+[15:38] **mgPai**: So I think this is pretty impressive, something to think about, of leveraging UTXO's capabilities.
+
+[15:50] **mgPai**: Yeah, I don't know too much about sub blocks, but with sub blocks too, we can have so much, just really high throughput potential here, so.
+
+[15:59] **anon_BR**: Yeah, I think sub blocks, we have similar capacity that you'll be just fitted on a main block.
+
+[16:10] **anon_BR**: Yeah, I think liquidity must be constructed, but I think we have a natural incentive here because the market can explore arbitrage between, for example, Spectrum DEX and Machina.
+
+[16:32] **anon_BR**: So I'm not too worried about liquidity right now because we are just building things.
+
+[16:41] **anon_BR**: But yeah, I think it's eventually...
+
+[16:52] **anon_BR**: Sorry, can you repeat?
+
+[16:56] **anon_BR**: Yeah, exactly this.
+
+[16:58] **anon_BR**: Yeah, yeah, yeah.
+
+[16:59] **anon_BR**: Yeah exactly because you set up grids you are your own market maker. Yeah, yeah, absolutely and also controlled risks because you are controlling your exposure, so on a certain range, so yeah.
+
+[17:44] **anon_BR**: Yeah.
+
+[17:46] **anon_BR**: Thank you.
+
+[17:49] **anon_BR**: So back to Hermes, it's mempool aware, which means back in Nautilus team, we have a philosophy that every product we build we tried to extract some outcomes of it.
+
+[18:13] **anon_BR**: So, for example, when we built Nautilus, Fleet SDK is an outcome of it.
+
+[18:24] **anon_BR**: It's a positive side effect because we needed a powerful transaction builder tool.
+
+[18:33] **anon_BR**: So I needed to do this from the ground up.
+
+[18:36] **anon_BR**: So I did it as a library so anyone can use it.
+
+[18:40] **anon_BR**: So this is the same for Hermes.
+
+[18:44] **anon_BR**: Because it's app agnostic, anybody can make use of it.
+
+[18:48] **anon_BR**: And you have real-time UTXO streaming and mempool aware transactions so yeah and there's a last point I have to confess something for you guys
+
+[19:13] **anon_BR**: GraphQL was a big, big mistake.
+
+[19:21] **anon_BR**: We built that in a try to make Ergo work properly back in 2021.
+
+[19:30] **anon_BR**: But it's not successful, so I took advantage of that, and as we have at least a caching layer integrated inside Nautilus.
+
+[19:43] **anon_BR**: But yeah, I have to confess it's not perfect.
+
+[19:47] **anon_BR**: So, Hermes, we will replace GraphQL on Nautilus, so hopefully we have a way better user experience there.
+
+[20:04] **anon_BR**: So roadmap, two weeks, right?
+
+[20:13] **anon_BR**: So we already have contracts done and under closed review by some community guys.
+
+[20:24] **anon_BR**: And by the end of this year, I want to have Hermes fully functional.
+
+[20:34] **anon_BR**: And Fleet SDK for Q1 of the next year.
+
+[20:38] **anon_BR**: Oh, sorry, not Fleet SDK, but Machina SDK.
+
+[20:43] **anon_BR**: Because it's important to have an SDK because we empower a community to build stuff even before we have a functional UI.
+
+[20:55] **anon_BR**: So they can use it and integrate it in any way they want.
+
+[21:02] **anon_BR**: Yeah, exactly.
+
+[21:03] **anon_BR**: Yeah, yeah, yeah.
+
+[21:04] **anon_BR**: So they can, for example, build arbitrage bots and something like that.
+
+[21:15] **anon_BR**: They gain some time before release.
+
+[21:19] **anon_BR**: And on Q2, our plan is to have our full end-to-end beta on Mainnet.
+
+[21:29] **anon_BR**: Let's hope for it.
+
+[21:37] **anon_BR**: So thank you and...
+
+[21:45] **anon_BR**: Yeah.
+
+[21:48] **anon_BR**: OK.
+
+[22:06] **mgPai**: Yeah, so I did the calculations.
+
+[22:09] **mgPai**: Yeah, perfect.
+
+[22:10] **mgPai**: So I did the calculations, right?
+
+[22:12] **mgPai**: So the maximum block size is 1.27 million bytes.
+
+[22:18] **mgPai**: So like 1,270 kilobytes is the maximum block size.
+
+[22:25] **mgPai**: And the maximum transaction size is 96 kilobytes.
+
+[22:28] **mgPai**: So that means you can have about 13 max size transactions per block.
+
+[22:35] **mgPai**: So if you're doing what, 290 orders, right?
+
+[22:38] **mgPai**: And that's the max that fills the 96 kilobytes, right?
+
+[22:41] **mgPai**: Yeah, yeah, so we can do about 3750 orders per block.
+
+[22:47] **mgPai**: So that's not as much as I probably claimed, but that's still a lot compared to definitely more than anything Cardano does for sure.
+
+[22:55] **mgPai**: So and again, guys, as Joe mentioned, this is all open parameters.
+
+[22:59] **mgPai**: So miners can vote for a larger block size, right?
+
+[23:03] **mgPai**: So when the demand comes, we can all like vote for much bigger blocks, right?
+
+[23:08] **mgPai**: And we can squeeze in so much more orders per block.
+
+[23:12] **mgPai**: And yeah, just the throughput will be really fast.
+
+[23:15] **mgPai**: So this is really impressive.
+
+[23:20] **mgPai**: About 3750 orders per block.
+
+[23:24] **mgPai**: Holy shit.
+
+[23:27] **mgPai**: Sorry.
+
+[23:30] **mgPai**: Yes, that's in the worst case.
+
+[23:32] **mgPai**: That's the worst case.
+
+[23:33] **mgPai**: Yeah, yeah, yeah.
+
+[23:34] **mgPai**: Worst case, yeah.
+
+[23:35] **mgPai**: Yeah, yeah.
+
+[23:36] **mgPai**: Do we know best case?
+
+[23:37] **mgPai**: How many orders?
+
+[23:38] **mgPai**: Like the smallest orders?
+
+[23:42] **anon_BR**: Not many, but I can check right now.
+
+[23:44] **mgPai**: Okay.
+
+[23:46] **mgPai**: Use your ErgoScript CLI tool?
+
+[26:07] **anon_BR**: I haven't done it yet, but it's... Yeah, but I think the baseline, we usually do like 0.011.
+
+[26:27] **anon_BR**: Yeah, so it's pretty much enough for most of transactions.
+
+[26:40] **anon_BR**: Yeah, because for simple P2P transactions, this baseline is already way overpaid.
+
+[27:31] **anon_BR**: Oh, it will be not backwards compatible because it needs to use web sockets because it's real time.
+
+[27:40] **anon_BR**: I'm sorry.
+
+[27:41] **anon_BR**: Streaming exactly.
+
+[27:42] **anon_BR**: Yeah.
+
+[27:43] **anon_BR**: Yeah.
+
+[27:44] **anon_BR**: Yeah.
+
+[27:51] **anon_BR**: Yes, because currently a lot of times do a real spamming on exploring fractures.
+
+[27:59] **anon_BR**: So if real time streaming, we can lower our maintaining costs while getting real time.
+
+[28:18] **anon_BR**: Anybody else?
+
+[28:23] **anon_BR**: That's it.
+
+[28:24] **anon_BR**: Thank you.
+
+[28:52] **anon_BR**: 3,750 transactions per block.
+
+[29:02] **anon_BR**: Yeah.
+
+[29:03] **anon_BR**: Best case.
+
+[29:04] **anon_BR**: Yes.
+
+[29:10] **anon_BR**: Yeah.
+
+[29:10] **anon_BR**: Yeah.
+
+[29:14] **anon_BR**: Yeah.
+
+[29:17] **anon_BR**: Okay.
+
+[29:21] **anon_BR**: Yeah, best case is like 16,000 transactions per block.
+
+[29:27] **anon_BR**: So pretty much everything.
+
+[29:38] **anon_BR**: OK, so I think we are done.

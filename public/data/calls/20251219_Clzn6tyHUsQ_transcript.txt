@@ -1,0 +1,449 @@
+[00:02] **Qx**: Hello, and welcome to the new setup of the Ergo Community Chat.
+
+[00:09] **Qx**: We started a little early this morning than our normal 1700 time just because I wanted to get through the dev updates and then maybe have people join slowly and chat there and go from there.
+
+[00:21] **Qx**: I managed to snag HQ. HQ, good morning. How are you doing?
+
+[00:28] **HQ3rr**: Good evening from me.
+
+[00:29] **Qx**: What time is it there, sir?
+
+[00:32] **HQ3rr**: It's six o'clock, six p.m. Oh, that's nothing.
+
+[00:36] **Qx**: You were talking like it was like two a.m., man.
+
+[00:40] **HQ3rr**: Yeah, you thought I was Joe, or Joe's alt, right? And you thought I would just show the people that I am.
+
+[00:47] **Qx**: One of Joe's 30 alts, right?
+
+[00:49] **HQ3rr**: Yeah.
+
+[00:51] **Qx**: Nice, nice. All right, so let's dive right into, well, let me start off with something else. Let me start off with something else that I put in the chat the other day, right? And you might have some good words on this, too.
+
+[00:58] **Qx**: So everybody hopefully at this point knows that the Ergo Foundation main goal was to bootstrap the community, right? Essentially get things propped up, get things going, prime the pump, and hopefully the community is up to speed and available enough to continue the ecosystem going.
+
+[01:25] **Qx**: And we're kind of at that point right now. We're kind of at that crossroads. Now, that doesn't mean the EF will go away. The EF could continue to sign exchange listings as that entity. It could continue to maybe try to get grants for their treasury, perhaps support development, support research, any of that type of thing. The EF, as far as I know, is not vanishing.
+
+[01:50] **Qx**: The point is, we have a couple outstanding things that are at the prime and are needed for the community to take over. And some of those things I listed in the Sigma Not Chat the other day were, one, market making. That bill is about $10,000 or $12,000 every quarter, I believe. It's not a small bill, right? And that bill is never going away if we want a market maker.
+
+[02:16] **Qx**: And a lot of other chains will utilize market makers that trade against their community and saying that they'll run the market maker so that they make a profit off the spreads, right? So that when you guys, the community, trade against it on other chains, potentially you are putting money into whoever's running that's pocket, splitting by the market maker and by the people that hired the market maker.
+
+[02:40] **Qx**: So Ergo has never done that, ever. That was a whole stipulation for the market makers that we get. We also have market makers that are friendly in the US, which can't do that kind of thing. So our market makers currently do not make profits off our trades, off our supporting the spreads and debts. And that's painful, right? So it's about $12,000 every three months to the market maker to support that.
+
+[03:12] **Qx**: Now, there are some community members that have come forward that are willing to give it a try with their bots and with the liquidity that we already have there. So that is something that we're going to be testing over the next month or two. We're going to have some people perhaps give that a try, see how that goes, utilize our market maker for advice and tips on what to do, what we're doing wrong, and that kind of thing.
+
+[03:36] **Qx**: And then take market making into the hands of the community, which is kind of scary and cool at the same time. Some of our community members have already been running some market making on other exchanges. So it's not like they're just going to take this from scratch. They have experience with this. So nothing to be worried about there. But that's one of the things.
+
+[03:58] **Qx**: The other things we've spoken about quite a bit are the main explorers, right? So there are some pretty beefy machines running in Hetzner right now that cost, in total, the Hetzner bill is about 760, it's about 680 euro, whatever that is, in freedom dollars, 720 freedom dollars per month. And that's not an easy cost to swallow either.
+
+[04:26] **Qx**: So in the Infra P2P DAO, it's running. And it can take probably 99% of all queries, simply. But it can't do these massive queries that take machines with about 120 gigs of RAM. HQ and AQL have been sending some test queries for me to check out over the past month or so. The main explorers can hit, but not the smaller P2P machines.
+
+[04:53] **Qx**: So the solution around that, just to keep you guys informed, is to run the beefy explorer that I have here with me. And I have another machine that will ship to Jamai. And Jamai will run the other one for now. So essentially, we'll continue the use of the main Ergo platform, the Explorer. We'll redirect to those. We'll encourage everybody to use a P2P nodes, except for large queries. And we'll go from there and see how that works.
+
+[05:21] **Qx**: Hopefully, maybe we'll get older machines with a lot of RAM that we can also add to that. Maybe at some point, something like a Sigma, what is it called? Sigma Explorer HQ?
+
+[05:32] **HQ3rr**: SigmaSpace.
+
+[05:33] **Qx**: Thank you, SigmaSpace, which is built for fast returns on large queries. But it takes a decent amount of hardware to run it. So maybe those will be integrated as well in there. But the main important thing is the big bottleneck on what we see is Cloudflare with these kind of things, right?
+
+[05:49] **Qx**: So the idea is that we publish the main Explorer link. We publish the P2P DNS URLs, which are load balanced in many machines. But also, we encourage developers to go to our list of individual machines, which we'll parse out for the P2P, and we'll also have the two machines from the main Ergo Explorer, so that if Cloudflare goes down, your app automatically rolls over and uses a straight-on DNS or even IP address of one of the Explorers.
+
+[06:18] **Qx**: Or, hey, if you're a developer, why not host your own Explorer? Write HQ.
+
+[06:23] **HQ3rr**: Yeah, it's actually it's not hard. There are a couple of Explorer built on nodes. You can dockerize them and run them for you. You just need maybe a user index node. If you don't have, you can use any exposed index node and run your own Explorer. So yeah.
+
+[06:39] **Qx**: Exactly. And there's even the P2P infrared dial put up. We put up a GitHub that should get you going really quickly, too. Just change a couple of parameters and spin up the Docker, and then wait for the node in the Explorer database to sync. So it's there, ready for you. And don't be shy from it, right?
+
+[07:04] **HQ3rr**: Meanwhile, you're checking that I would like to add some comments to that. Why do we have the market making and why do we need it? So the sad part of the crypto industry is that you're required to have those services if you want to maintain or sustain your tokens on any exchanges.
+
+[07:20] **HQ3rr**: So that it's not that we really want to run those bots or we really want to trade. is that if you want to be part of the ecosystem in which the crypto has become, you need to have those things and you need to have your trading and volumes and all that. So it is understandable that people run those and EF running those and sustaining those and on no profit. It's a good thing.
+
+[07:49] **HQ3rr**: So if we plan to not use them in future, we will be required to have a basic minimum volumes on any exchanges. So that's why there is going to be a community members who are going to run these things for the community. So there are no more delisting or any things like that in the future.
+
+[08:10] **Qx**: Right, exactly. It's if you want to be on the exchange, you got to play the game, you got to pay the piper, essentially. Yep, so it's unfortunately the way the ecosystem is right now, right? The industry, I guess you could say, but it sucks. But hey, why list tokens and exchange coins and blockchains on merit alone when you can literally extract as much value as you can from them via trading?
+
+[08:40] **HQ3rr**: Yeah, I think that's a sad part of crypto, right? All the exchanges which are centralized. So if we go on more decentralized exchanges, if Rosen gets more attention, then we won't be needing that. So if there are more users using Rosen and they are using the DEX on any of the connected chains, then you actually don't need, if you have enough volume and enough trades with your wrapped assets, you don't really need the access to exchanges.
+
+[09:10] **HQ3rr**: So yeah, it's a path which we are on and we have to just keep our heads straight and go towards that. And that's, I think, the only path we have. Seeing all the scams and everything and exploits happening in the exchange and all the shenanigans they do. So I think the best part is to go that pathway.
+
+[09:31] **Qx**: I agree. And then additionally, on top of that, at some point, hopefully that Hummingbot community repo will come out with Ergo integration with DEXes. Is that the Rosen team that was working on that or still kind of slow burning that?
+
+[09:47] **HQ3rr**: I think it was Rosen plus Splash.
+
+[09:51] **Qx**: So just Rosen.
+
+[09:52] **HQ3rr**: I need to check. Yeah.
+
+[09:54] **Qx**: Yeah. So hopefully that comes out at some point. And then community. I mean, even if we're talking like you have a few hundred ERG kicking around with something like Hummingbot, multiply that by a couple hundred users running these themselves, just like Watchers, that'd be amazing.
+
+[10:10] **Qx**: What would be cool, too, HQ, is if Rosen found a way to integrate Hummingbot into their watcher protocol so that running a watcher also means arbitraging and market making via Hummingbot. That'd be neat, but you can't do that because you have to have separate accounts and everything and it gets messy. But yeah, that'd be neat, but cool.
+
+[10:30] **HQ3rr**: Well, another thing they can use is VaultPay, right? Which has no KYC and you can do all the swaps there also. That is also creating volume. So if you don't want to check, if you don't want to touch any exchanges or don't want to KYC, you just swap your assets through any provider and you are just creating the volume there on those exchanges. So you're not touching the exchange.
+
+[10:53] **Qx**: No, we don't want to go there. Is it on your main page?
+
+[10:57] **HQ3rr**: VaultPay.store.
+
+[11:06] **Qx**: There we go. All right, so you buy straight up, right? Gift cards.
+
+[11:14] **HQ3rr**: Yeah. So for example, if you're going to make a trade on, let's say, BTC to ERG. So you just select, I'm changing BTC for ERG. And it will give you like, there are four providers who will give you this and that and that. You choose the provider in the back end. What is happening is you are sending your BTC or BTC to the provider, which is exchanging those on exchanges.
+
+[11:41] **Qx**: I like that you're actually showing the swap providers here as opposed to not knowing which ones it's going through. I actually use this right here. This worked well. Swapping from crypto to a prepaid card, they email you the card, you type it in, you go to the site, you can use a your bogus email address or your private email address. It doesn't matter at that point. And then you can pay services like Lighthouse Storage that we use for ACO and HQs and auction houses.
+
+[12:13] **Qx**: IPFS, of course, yeah. Yeah, IPFS kind of stuff. So prepaid cards was really well. It was really
+
+[12:25] **HQ3rr**: I was worried that... We are in Christmas, right? You have also gift cards. If you want to gift someone gift cards, you can buy them also with Ergo.
+
+[12:34] **Qx**: With Ergo. That's awesome. So what are you using? So VaultPay is your, this is your code right here, but what are you hooking up to and integrating with?
+
+[12:45] **HQ3rr**: I'm working with Trocador, which is actually known in the community from around six to seven years in all the crypto industry. So they have a very good reputation. And then we use a swapper, exotics, and multiple providers in a backend, which basically do the swapping for you.
+
+[13:10] **Qx**: So if I want to, there's no, there's KYC when you buy with currency though, correct? Was that the deal? I think it blocks me in the US, I think, or in New York state. If you're buying with crypto, no? No, if you're buying with cash, I mean with credit card.
+
+[13:30] **HQ3rr**: There is no option to buy with credit card. If you're getting a prepaid card and you are not allowed, there are several countries which are not allowed to get a prepaid card, because they won't work there. But the USA one is working. So you are basically getting a swipe card. And you can use that anywhere.
+
+[13:52] **Qx**: Yeah. Awesome. Cool. Let's go back. Let's put this up while we're chatting some more. Why don't you talk quickly, before we go to the Dev Update, since you did it this week, why don't you talk about what you did last week for your use integration?
+
+[14:12] **HQ3rr**: Well, I was getting sick of seeing people asking the question about when use. So I was like, OK, let's fix this. So we integrated the native pools of use and Dexy Gold in MewDex. So you can now swap inside the DEX, and you can also provide liquidity. And on the other end, there are two functions in the protocol, which is freemint and arbmint. So basically, when there is a price difference, you can free mint it so it can level the price between the LP and the bank.
+
+[14:50] **HQ3rr**: So if you go to bank.MewFinance.com, you will be able to see that on you. If you select use, it will give you that. This is the LP price and this is a bank price and it will give you recommend you what is best for you. So you will be able to directly swap on bank to interact with the DEX LP and also to buy in the bank. So it's all in the same widget. You will be able to do that.
+
+[15:20] **Qx**: Very cool. And you got this out before. We're still waiting for the other interface, right?
+
+[15:28] **HQ3rr**: No, I think they have. Yeah, but they don't let you augment or they don't let you do all those. It shows that it can be augmented, but you cannot mint those tokens from those UIs. Yeah.
+
+[15:41] **Qx**: Awesome. Awesome. Hey, CannonQ, welcome. Is CannonQ here with us? Can you hear us?
+
+[15:51] **CannonQ**: Yeah, can you hear me?
+
+[15:52] **Qx**: We can. Welcome. Good morning, sir. How are you doing?
+
+[15:55] **CannonQ**: Hey, doing all right.
+
+[15:57] **Qx**: Nice, nice. We're looking at use stablecoins right now with a new MewFinance integration of it. Super cool.
+
+[16:05] **Qx**: All right, guys, let's jump to the developer date really quickly. We'll bang through that, and then we'll start chatting some more after that.
+
+[16:15] **Qx**: Great. Let's see. I'll go quickly through here. We've got Game of Prompts finishing up the interface in the contract, likely have it completed before the end of the year. The Wallet UI library received for two or three PRs implementing ErgoPay. Banner received more than 50 PRs. Great. Some of them focused on searching for potential bugs in the contract. All right, so this is Joe Sameh with Game of Prompts.
+
+[16:43] **Qx**: kushti was part of an Unstoppable Hackathon and Stability Workshop, presented chain cache paper for Stability Workshop to help Unstoppable Hackathon teams with mentorship, design, and code reviews. Was that the thing where he was just in India just recently? Yeah, cool, very cool. He's traveling right now, which is why we don't see him.
+
+[17:06] **Qx**: kushti is continuing to test chain cache basis. Krux by Louis Vatra. Let me turn off this so you can actually see names. There we go. Louis Vatra, Krux added DEX LP swapping, extract SOC to NFT on token from Ergotry constants and fee from swap Ergotry constants. So should support all instances using the same template.
+
+[17:26] **Qx**: Who is this guy you know, autogenitor? Right? Yeah. Working on Ergo Power, Launcher Script Power Optimizer, Control Script. You guys know what this is? You guys paying attention to this HQ?
+
+[17:41] **HQ3rr**: If you want to read it and read the complete smart contract, I would be glad. Because I think they just copied and pasted the chat GPT, and that's it.
+
+[17:49] **Qx**: Oh, this is that. OK. I got you. What is this thing they're working on?
+
+[17:56] **HQ3rr**: Actually, I didn't read it because I saw the chat GPT. Would you like to modify this somehow? And I was like, OK, so that's like.
+
+[18:05] **Qx**: Yeah, yeah, yeah. Yeah, interesting. OK. All right. We'll come back to that maybe.
+
+[18:12] **Qx**: Lethos release version 2.2.0. That's cheese. Cheese enthusiast. Upgraded sync process to be multi-threaded. Rollups NISP trees. NISP trees. Say that fast five times. Now sync individually. Change logging for sync process. Most APIs listing data objects are now sorted by height of the mine block as they're associated with fixed LDB errors related to multiple database instances. So Lethos is still going strong.
+
+[18:39] **Qx**: Degen's world. If you guys haven't played around with this, it's a lot of fun. It's pretty darn neat. Launched two new mini dApps, token board, letter board style view for native tokens, and ergo trace. Is this what I think it is? Let's see. Do we have an address? I don't get it.
+
+[18:59] **HQ3rr**: Ergo trace is one of the best things I have seen are OK built.
+
+[19:03] **Qx**: So yeah, yeah, yeah. Let me see if I can get an address, which, yeah, I don't want to use that one. Do I have an address here? One second. We can do this. Let's just get that.
+
+[19:24] **HQ3rr**: I was just telling him to just maybe use heights and balances on different Block height so imagine that if user had Two thousand ERG at one point you check at that one how much he had that that from that till next from to Block height it will give you that he sent this here. He sent that to exchange He sold this much. He has this much yesterday in that night, right?
+
+[19:52] **Qx**: That would be such a nice tool to have all right Let's see what happens for everybody to see I may have grabbed too big of an address. Yeah, I think I got a huge address. We're crashing it.
+
+[20:04] **HQ3rr**: Yeah. Just grab the Spectrum LP pool one. And I think that will burn your computer too.
+
+[20:12] **Qx**: All these addresses are big. Yeah, but you guys check this out. It's a very nice 3D representation of the blockchain showing some really cool animations back and forth. Maybe we'll, yeah, it's too big of an address. Let me see.
+
+[20:29] **Qx**: OK, we'll take tipper bot address and see that go. And I really want people to see this. I haven't seen it yet. OK, we'll let that run. Yeah, there we go. So you can see the Explorer here. Pretty neat. Everything connected to it. So this is my tipper bot wallet that is a very neat token node transaction. How come you didn't build this, HQ?
+
+[20:58] **HQ3rr**: I have this already built for me.
+
+[21:03] **Qx**: Also, Glasgow has a version of this. He has set up for tracing these kind of things, which is neat, too. It's on GitHub. But this is definitely the prettiest that I've seen it happen. Yeah, cool.
+
+[21:17] **Qx**: All right, what else do we have? We have token boards and letter board. He's got Zirgon working on encrypting local database persistence for PONW scores. PONW scores plans to test GPU-based models while mining to determine impact to latency and mining performance. Man. Rob's really cranking it out.
+
+[21:39] **Qx**: Added local files or created several files for use with local LLM models, doing some vibe code testing with context, added contract audit examples. Ultimately, there should be a list of optimizations within ErgoScript that can use this as context for a starting point. Nice, nice, sir.
+
+[21:55] **Qx**: What else do we have? Chris has updated a lot of language things in Nautilus, Aircraft Explorer, WalletApp, SigmaUSD. Always thank you to Chris for adding those things to things like CoinGecko. Whenever you see all those socials added, I think he just added a bunch to that, which is great. Thank you, Chris. Is this a thing? Nope, that's just a discussion.
+
+[22:19] **Qx**: And we have Louis Vatra working ErgoScript, LSP, POC, Vibe. Oh, Louis Vibe coding now? We're in trouble. A lot of trouble.
+
+[22:34] **HQ3rr**: How do you think that you got the swap model on Crux?
+
+[22:39] **Qx**: Oh, he vibrated. Well, I guess if it makes him go faster, right? As opposed to the usual two-part theory.
+
+[22:47] **HQ3rr**: Yeah, the thing is that he knows which cells to touch and which cells not to touch.
+
+[22:53] **Qx**: True, true. Yeah, very true, very true. All right. Where were we here? We'll leave that up for a second. All right. Anything else you're working on, HQ?
+
+[23:04] **HQ3rr**: No, I would like to just shout out to Michael because he's doing some nice PRs and he's learning how to be a dev.
+
+[23:09] **Qx**: Oh, what's he PRing on? What's he doing?
+
+[23:12] **HQ3rr**: He's doing stuff on crux. He added top trading. He is working on front end now. He's working on APIs. So yeah, I just want him to see that how painful it can be sometimes.
+
+[23:26] **Qx**: That's awesome. That's fantastic. Yeah, great.
+
+[23:32] **HQ3rr**: So what else I have been building? I think I, I started working on a wallet.
+
+[23:39] **Qx**: Wait, what kind of like your own wallet? It's, it's best.
+
+[23:42] **HQ3rr**: Yeah.
+
+[23:42] **Qx**: Not like a, not like a, not like a frosty wallet HQ. Remember the frosty wallet?
+
+[23:48] **HQ3rr**: Yeah, I remember that one. No, it is, it is like a dApp. It's a dApp, but which acts like wallet. So you can create an wallet. You can send transactions through it. You can send money to send tokens to others. And it will have the integration of all the mew apps in it. So for example, you have love in your wallet. So you go and click on your balance and you will see all the options under it. So you will see swap, lock, burn. So you will be able to interact with all of those through that wallet and you won't be signing them through anything because you are using already fleet. So you can import your wallet directly into the browser and use it. It will have password protection and everything. So yeah, I think you saw some screenshot I shared in the MUFI dev chat.
+
+[24:39] **Qx**: Yes, perhaps. When's that going to come out?
+
+[24:45] **HQ3rr**: I don't plan to release anything for now. I think I have released a lot. And I want to see some adoption to those things first, because I'm just burning myself here.
+
+[24:58] **Qx**: That's true. You're making a lot of stuff, so I got you. We got a comment in the chat that says, we love the new on-ramp for Nautilus. We need more of that. And for people who haven't seen that, you can see there is the Buy ERG button right there in Nautilus, which takes you to Banksa. Which they're going to yell at me because I'm in New York and we can't do anything fun in New York ever.
+
+[25:23] **Qx**: So yeah, but that's nice. So the good news is too that what's it called stealth swap saw this and we're like, hey, we'd like a button there too. So we're talking to see how deep that integration is and what they want to do with it, if they want to do it themselves or if they're asking for money for that. But I think that'd be neat at least to have another button here. So buy or swap. And then why isn't Vault Pay in here?
+
+[25:53] **HQ3rr**: I think because it is I think I will make a PR, yeah.
+
+[25:57] **Qx**: Yeah, make a PR. So the question is, is Stealth Exchange same as Stealth, whatever did you just say?
+
+[26:04] **Qx**: Stealth X. Stealth X, yeah.
+
+[26:06] **HQ3rr**: I do. I do. VaultPay uses them as one of the providers.
+
+[26:11] **Qx**: Oh, amazing. So just put VaultPay in there. We don't have to put Stealth in there. Yeah. All right, make a PR right now. Don't forget, sir.
+
+[26:20] **HQ3rr**: I think Anand won't like it because it's backed by centralized stuff. So the providers are centralized, so he won't like it.
+
+[26:29] **Qx**: And BankX isn't? Banksa isn't? I bet this is very centralized.
+
+[26:35] **HQ3rr**: Yes, it is not centralized. It is like military protocol. They ask you for how many moles do you have on your left leg and then your right leg also.
+
+[26:43] **Qx**: Oh, gosh damn it. I got you. I think I know someone who even had to send them the photos of their kids to just tell them that they are their kids.
+
+[26:52] **Qx**: Oh boy, what's the world coming to? I think if we're going to stay in this industry and if you want something decentralized, Bankside is not the thing to get into.
+
+[27:06] **CannonQ**: What's that, CannonQ?
+
+[27:07] **CannonQ**: The big issue or the reason why we pushed for Banksa was there was a common refrain in Ergo that there was no U.S. access. And other than you in New York, you now have U.S. access. And people are now complaining there's a 10% fee. Well, do you want to access or not? Everyone knew that was the fee ahead of time. Perhaps that wasn't explicitly stated, but if you've ever used any of these or looked at them, you knew it was going to be a 10% take rate, which is less than any of you guys in the US that are using FanDuel or any of the other crappy betting apps. They're taking more than 10% from you, so shut up and buy your ERG or don't.
+
+[27:52] **Qx**: From the man himself, CannonQ, that's your advice. Shut up and buy your damn ERG. Oh boy.
+
+[27:59] **HQ3rr**: I think we have a quarter of the day. Shut up and buy your own.
+
+[28:02] **Qx**: That's perfect. I'll make an NFT of that one. Perfect.
+
+[28:08] **Qx**: Oh, what's going on here? I got a fake Joe writing me. Awesome. Great. So speaking of that, let me, and I know people want to hear more about probably like, ERG price go up and that kind of thing. But I'd like to just give the audience right now, and at least a recording of what we're integrating here at Cornell to empower and make better function of tools that we already have.
+
+[28:39] **Qx**: So there are a couple of ways that we're integrating our token into the thing, we're trying to create somewhat of an economy for the token. So that means you have to have a distribution method, so ways that people can get a hold of the token, and then ways that people can utilize the token, right? Because if you just dump a token on people, what are they going to do with it, right?
+
+[29:01] **Qx**: So we've got a couple onramps and several offramps now for this token. The onramps are essentially, if you bring in plotting paper to recycle, and we have a lot of kids coming in probably right now while I'm in my office and ignoring everybody, Recycling paper, we give them some of the token. And then also you faculty members would be able to give students tokens, staff members give students tokens for other things as well.
+
+[29:33] **Qx**: There's also another method that if you follow our shop safety protocols and you properly swipe in your badge, then I run a script every once in a while and it takes your check-in and it automatically sends you some brick, some token. So that's our on-ramp to the students, how we currently distribute it to students.
+
+[29:51] **Qx**: Now, for the off-ramp, we have a couple of different methods. You can pay for plots. And let me find that thing right here. You can submit a plot at the plot center right here. I filled in the info already to make it quick. I've told my lab model not to touch this darn test. And I've chosen blockchain as a payment. So when I hit Submit Print Job,
+
+[30:15] **Qx**: And this is what I was talking about the other week where I'm very grateful to Louis Vatra for the tip bot so that we can really make an ease of kind of what's it called? Easy introduction to students who are using this. And I think I've waited too long on my page and it's died. Anyway, so that's three. Oh, there we go. Perfect. So that's been submitted. It says blockchain payment required. And if we look, let's go to here. We can see that in my blockchain payments channel, it's given me all the information with my NetID and everything.
+
+[30:53] **Qx**: All I have to do is copy that. paste it in, and now I've successfully tipped that brick to the system. And in the back end, all we're waiting for is, let's see, we're waiting for it to pop up here after it's confirmed in the blockchain. So that's one way that students can spend their brick at AAP on the blockchain.
+
+[31:18] **Qx**: The other ways are for staff. We have appreciation portals where we can send brick to people. And those appreciation points, the brick can either be passed on to other people. See if we can have a nice built-in connection wallet here. Or we can go to swap brick. And we can actually trade those brick for real Amazon dollar-to-dollar appreciation points. So you can see if I connect my wallet and I put I want to pop in 100 brick to trade right there, we'll get $12 of appreciation points. So that's a way for people to, if they want to exit the system, can off-ramp into real dollars as far as that goes.
+
+[32:00] **Qx**: And then, of course, we have a large system for the students as well. You can see we have a lot of recycling done in the top here that we've been giving out brick for students, massive amount of information of how to set it up. The students can then go also and submit their brick to a 3D printer swap, which means that at the end of every month, when they're ready to be built for the filament that they use in a 3D printing lab,
+
+[32:29] **Qx**: our owner of the 3D Print Lab will go into this system and will upload an export from the 3D Print system. And this system automatically parses it, combines it with the brick that was sent from that student, and removes that price from the student's bill. So if a student was going to be billed for $50 worth of filament for 3D printing, and they submitted $20 worth of brick that month,
+
+[32:54] **Qx**: then they're only going to be billed for $30 worth of filament. So it's a really cool way for kids to be able to take their brick also and spend it there. And since, of course, we're not asking students to buy any ERG at all for that, at least now, I have my admin top up, essentially, that checks all of the balances of the wallets. And if there are wallets with less than a few transaction fee amounts in it, I just hit the build transaction and boom, and it sends them all enough to do that.
+
+[33:26] **Qx**: You'll see this in about five seconds here when we go through that. So the reason I'm showing you this, guys, is because I hope some people that are watching this or watching in the future, that are very speculatively oriented, that are like just into crypto for, let's get some speculative assets. Let's make 200%. Let's, so see, we found six wallets with less than three ERG. We go down, we can see which wallets have less than that. There we go. So all we have to do is connect Nautilus and send the proper amount of ERG.
+
+[34:03] **Qx**: And we have sent it. I just got the tipper bot message. So now these guys are going to be funded with enough for transaction fees that they can go forward with. So back to that. So I'm hoping that I can show you guys that there's no screen share. Oh, yeah. There's no screen share on this zone. Sorry, CannonQ and HQ. Just going to have to trust what I'm saying. Go to YouTube and check it out, CannonQ and HQ.
+
+[34:26] **Qx**: So the idea I'm trying to promote here is that I hope, at least Ergo's mission has always been to try to drive innovation and try to drive use case scenarios with real electronic money, right? That's in your hands. And this is essentially what we're trying to do here. We're trying to make a system that we can give value to the students, right? Give value back to the students, and then not have control of that value once it's in their hands, right?
+
+[34:53] **Qx**: Now saying we can technically stop students from, yeah, when tuition payments and brick-nice We can stop the exit points, right, of brick being spent here at AAP if we want to, but that doesn't stop their possession of their token and what they can do. A student could take my GitHub and pull the stuff off of it and make a swap for themselves kind of thing.
+
+[35:19] **Qx**: Like where is it? Like this site right here. This is the same thing. We have it up for students. They can come and they can swap brick right here. We could hit that and it would bring up our Nautilus wallet and ask us for the 1,200 brick, all built in right here. So it's kind of like what HQ built for physicals. And we can see a student's already posted their Steam Deck for US dollars, actually, not brick, because nobody quite has this much brick yet after the first semester and a half of this. But kids are using it, and it's pretty darn neat.
+
+[35:50] **Qx**: Let's see if this is. Transaction hasn't cleared yet, so we don't have our plot here quite yet. But yeah, so the idea is, If I can reach anybody out here that is just into crypto for speculation, it's a little deeper than that. That burns fast, that burns hot, that goes out fast, right? This kind of stuff is really what we could use it for. Giving value back and power back into the hands of the people who, should have it, right? The decision makers or the non-decision makers or everybody's a decision maker. If you wanna be blunt with that.
+
+[36:27] **Qx**: Yeah, so that's it. Sorry CannonQ and HQ that you couldn't see my screen share.
+
+[36:32] **HQ3rr**: One thing is, which I would like to clarify, is that there are people who think that crypto and blockchain are the same thing. Right. So crypto is one thing and blockchain is another. So there are thousands of things you can do on blockchain which are not crypto related. You can build anything on a blockchain. You can use the blockchain as a database, as a validator, as a verifier, as an amplifier or whatever you want to.
+
+[37:01] **HQ3rr**: So you have to just get the thing that the dollar value is something you have to get out of your mind. So one ERG is going to be one ERG. And every time I say this, people will be like, yeah, but it is 0.47 right now. I was like, that's a dollar price kid. You can do so many transactions with one ERG. Just imagine 0.004, that's the minimum box value you need. So imagine how many boxes you can build with one ERG and imagine how many data you can put in one register or one box. So that's the power of blockchain and that's what Ergo offers.
+
+[37:39] **HQ3rr**: The things built on top of Ergo are what gives it Another perspective, it's the DeFi, it's the DeFi on Ergo you can find. But the main core of Ergo, the one thing which made me love Ergo was the blockchain and not the price or not the crypto aspect of it.
+
+[38:02] **Qx**: And I think we'll get there eventually. I mean, it's definitely a long haul, that's for sure. But I think we'll get there. I think we'll get more and more people weeded out that are just here for the gambling and for the chains that will offer that to them. And we'll filter through that and we'll get people that stick around and actually want to see utility and want to build it and use the blockchain for what it's meant to be used for.
+
+[38:31] **HQ3rr**: Yeah, I don't I don't blame those people because that's what is crypto sold as far as to get is to get rich and people will do whatever they can do to get rich. People scam people will do frauds. People will do anything to get rich. So that's a sad part of crypto.
+
+[38:54] **Qx**: Yeah, I agree. I agree. Let's see how my block is doing. Has it confirmed yet? Can you speed up the chain? HQ, it's still unconfirmed. We got a long block when it's live. That's how it always works, right?
+
+[39:08] **HQ3rr**: Dude, I hate it when I do a long chain. Every time I have to test something in a smart contract, then I will Another good point thing, which I didn't say, is that you can now use socket on MewTech. So what does mean that if you transfer some ERG or anything to another address and you connect it right instantly, you will be able to see that you have that. So you will be able to create stuff when they are not even confirmed.
+
+[39:36] **Qx**: So you're using chain transactions up there.
+
+[39:39] **HQ3rr**: Yeah. So the swaps will be much faster now. The only thing which always happens on the DEX is a slippage. So if there are many people trading in the same LP, so just have that in mind that there will be some stock order because that's how the protocol works. Just change the slippage and try to try again. That's it.
+
+[39:59] **Qx**: Yeah, and for people that don't know, too, that are watching this now or later, the Nautilus also has this feature. If we go to Settings right here, you can turn on zero conf which is exactly what it sounds. So if I'm sending something from one wallet to another wallet, or somebody sent me something, I can see it in my wallet as soon as it hits the mempool, just like HQ was talking about. And then I can send it out while it's still in the mempool, it'll do a chain transaction. So that's a really neat feature that's part of Nautilus now as well, down here in experimental, that works really well.
+
+[40:38] **Qx**: I've never had trouble with it with Ergo and normal sending transactions. It's not like other chains that start with an E where you send a transaction and, oh, I got to add 20 more bucks to it to pop it through. That doesn't really happen on Ergo. So chain transactions are very successful in that manner. Do you use this feature? Do you have this turned on in your Nautilus HQ?
+
+[41:02] **HQ3rr**: Yeah, by default.
+
+[41:04] **Qx**: Nice. Wait, I don't think it's on default now.
+
+[41:08] **HQ3rr**: Well, for me, it is for you. For you, yes, yes, yes. Yeah, but last I checked with it, and it was something, it was not, it was just in testing phase. It was not kind of like polished.
+
+[41:20] **Qx**: Yeah, I don't think so. Yeah. Yeah. Yeah, nice.
+
+[41:24] **Qx**: Let's see, what time is it? 12.26? Well, we've been going for an hour, but people may have just joined us 30 minutes ago. What else we have to talk about? Let me see if there's any hooligans in chat or questions. No.
+
+[41:38] **HQ3rr**: I think we might do we might do Ergo Santa. So what we are looking for are some contributors who would like to drop tokens to the two part. So so we're planning to do a DEX campaign where we will. We will say that trade this that or that in those pairs and that at the end we will be dropping the. No, first we are getting we are collecting all the funds to do the airdrop to all the people who contributed in the campaign. So we already have one million FAKU from CannonQ. Okay, I will add another one million FAKU from me.
+
+[42:16] **Qx**: You guys are FAKU.
+
+[42:20] **CannonQ**: Well, now you're a FAKU whale. You should be doing more than a million. I'm just a minnow here.
+
+[42:28] **HQ3rr**: Okay, I will do two million then. Okay. You do one million, I do two million, my friend. Okay.
+
+[42:34] **CannonQ**: That's like a thousand dollars coming out right there.
+
+[42:36] **HQ3rr**: Wow. What else? I think we have Disco Solaris is also providing some PHP also. And what else? We will see if there are someone who wants to contribute. So please just go to the MewFinance Telegram and just look for me and I will provide you address and you just drop those there. And at the end of the event, we just distribute all those tokens depending on the contribution the people did on the DEX campaigns.
+
+[43:08] **Qx**: Oh, nice. I think I have some FAKU LP, only like a couple hundred bucks. But I might be able to pull that and put that in, because there seems to be a ton of FAKU LP already in there. I don't think it'll hurt it much. I think there's like six grand LP in FAKU right now. Let's look.
+
+[43:25] **HQ3rr**: Eight grand, I think. Yeah.
+
+[43:28] **Qx**: Last I checked, it was eight. Yeah.
+
+[43:30] **HQ3rr**: Well, we got a price dump. So yeah, around 5.5 or 6.
+
+[43:34] **Qx**: You got a price dump on FAKU?
+
+[43:38] **HQ3rr**: Yeah. Not on FAKU, but on ERG. So basically for ERG price drops, then also price LP drops. Yeah. Yeah. So that's why we launched Mew paired meme coins, which were runes from Bitcoin. So they don't suffer that much. And to have more activity on the block, on the DEX also, because people are, people are more emotionally attached with their ERGs and not that much with the Mew.
+
+[44:09] **Qx**: Yeah. What did you do with the Mew? Did you vault that Mew that I sent you, HQ?
+
+[44:15] **HQ3rr**: I think I locked it and I unlocked it. And now I think those 15K Mew will be distributed to all the top in the leaderboard for the runes and DEX campaigns we created. So yeah, we have to just I'm just spreading them. I have too much mu to get.
+
+[44:34] **Qx**: Good. Good. Spread the mu. Spread the joy. Yeah. Let's see. Oh, look at that. The block confirmed. Fantastic. Let's see if it's... There we go. Perfect. So now that the block is cleared, the plot shows up in the back-end lab monitors, and they can actually send it out to a plot. Pretty neat.
+
+[44:58] **HQ3rr**: And another trick for you is you just go to live.ergoexplorer.com and you can see when the block confirms. So it will show you the in-comings of TXs and then when the block is confirmed, it just goes away and then your transactions start coming in. So that's one way you can see.
+
+[45:16] **Qx**: This is Echo? Yeah. You didn't build this for Echo?
+
+[45:22] **HQ3rr**: No, I just gave him the emotional support.
+
+[45:27] **Qx**: Nice. All right. Let's see. We've got any last questions here. Oh, yeah. Graeme wants to ask about Ergo Santa. Is that going to go? Is that not going to go?
+
+[45:38] **HQ3rr**: Yeah. Graeme can send all his shitcoins to us and we will distribute them all to all the contributors.
+
+[45:44] **Qx**: Do you have a live page of the bank? You should have a live page of the bank.
+
+[45:47] **HQ3rr**: I think it is. Yeah, it is ErgoCentra.MewFinance.com. It is live and it is updated and you can already send messages to Ergo Santa. You can write your letters.
+
+[45:57] **Qx**: What is it? Ergo Santa? Yeah. .MewFinance? .com.
+
+[46:04] **Qx**: It doesn't like it. Just say try center. No, it should be ErgoCentra.MewFinance.com. Throw it in chat if you're on desktop.
+
+[46:16] **HQ3rr**: No, I'm on mobile. I'm not on desktop. The last time I touched desktop was two months ago.
+
+[46:23] **Qx**: Is it on here? Is that on your main site? Yeah, if you go to the MewFinance.com, there it is.
+
+[46:30] **Qx**: It's santa.MewFinance.com, sir. You have too many URLs you don't even know.
+
+[46:35] **Qx**: Yeah. No, you said ErgoSanta. Don't listen to me. OK. So do we have contributors? So no, what I was talking about is you should have a list of, I mean, I guess we can go to this wallet and see exactly what's in there, right?
+
+[46:49] **HQ3rr**: Yeah. If that is a contribution wallet, yeah, you can see whatever is in it.
+
+[46:53] **Qx**: All right, everybody, let's see if there's anything in there yet.
+
+[46:57] **HQ3rr**: Just be aware of the Anaconda, please.
+
+[47:00] **Qx**: Of the what?
+
+[47:03] **HQ3rr**: BBC, I think.
+
+[47:04] **Qx**: Oh, don't worry. I won't do the visual. Yeah, we got some MewGarang. Is that real auction house token? I don't know. It's some clown. 3D collection NFT from Comet, Cat with Bat. Oh, look at that. You've got some evotes from Frosty.
+
+[47:24] **HQ3rr**: Damn it.
+
+[47:25] **Qx**: Those things are never going away.
+
+[47:27] **HQ3rr**: Now people will call us scammers now. Got some quacks, some ERG god. Okay. I will add, I will add five NFTs of proof of work girls thingy that.
+
+[47:38] **Qx**: Oh, perfect. Yeah. Yeah. That was a good one. Yep. I will add, I will add five of those also. Okay, I will add 10 of those, okay.
+
+[47:45] **Qx**: Maybe I'll throw in a few Greasy Hex NFTs from season one or two, but I don't know. I don't know if I can. I love those things. If I have a double, I'll throw some of those in.
+
+[47:54] **HQ3rr**: Okay, what else can I drop? Let me think.
+
+[47:58] **Qx**: Do I have my NFT wallet hooked up here? Let me see. Hang on.
+
+[48:02] **HQ3rr**: Okay, I think I can drop some Blitz cards too, because I'm not seeing any future to those.
+
+[48:08] **Qx**: I don't think I have my NFT holder. Yeah, I do. Here we go. Let's see. Yeah, yeah, yeah. Something like Rollerblader number four, Rollerblader three. I can't give those away. Maybe I'll donate this one. I paid a lot of money for this one. You guys remember this one?
+
+[48:32] **HQ3rr**: I think we can't see it.
+
+[48:32] **Qx**: Oh, you can't see it. Sorry. It's the ErgoBass NFT.
+
+[48:36] **HQ3rr**: Oh, damn it.
+
+[48:39] **Qx**: You want that HQ?
+
+[48:41] **HQ3rr**: No, thank you. That dance is very smelly right now. It's been two years, I think.
+
+[48:48] **Qx**: That's very smelly. Yes, yes. Yeah, all right. So it looks like you got a good start. You got some neta in there, 710 neta. You got 20 padilla. You've got some kushtis. You've got some suns. You do have a lot of BBC in there. Woof.
+
+[49:07] **HQ3rr**: We have blun.MewFinance.com now.
+
+[49:10] **CannonQ**: There's a million FAKU coming. It's inbound now.
+
+[49:14] **Qx**: Oh, sweet. Let's see if he's telling the truth.
+
+[49:18] **HQ3rr**: Of course I am.
+
+[49:19] **Qx**: Yeah, just go to live.ERG. There you go, folks. You can see it on screen. CannonQ just donated a million FAKU to the Ergo Santa. Hot damn.
+
+[49:30] **CannonQ**: 340 bucks, by the way. Merry Christmas or whatever you guys celebrate.
+
+[49:36] **HQ3rr**: All right, everybody. You know what is the fun part of all this? CannonQ, how much was it? Three ERG or five ERG? Two. Two ERG. I was just talking to someone the other day. I was like, dude, if we really want to be on top of the charts on any TVL or any volume, this takes us maybe 30 to 50 minutes to release something and pump it because it is so simple.
+
+[50:02] **Qx**: I know. It just shows you how bullshitty it is.
+
+[50:07] **HQ3rr**: Look, if I go and lock all the Mew I have, let's say in the Mew smart contract for the tiers, So that will boost and give me another maybe one million into the TVL. And that puts us in maybe in a second in all the proof of work chains on DeFiLlama. It's just, it's just stupid metrics. I would say.
+
+[50:31] **Qx**: Yeah, I know. It's like, it's literally like, I feel like these kinds of things, like central exchanges, when they do this kind of bull crap and other projects that fake this kind of stuff. I feel like you ever go to Like an amusement park or a winery and they have a pond and they have these carp, there's like a billion carp that are like tripping over each other. I feel like it's sad. It's like just so easy. It's just like, here's some breadcrumbs and there comes a billion fricking carp to it. It's like, it's just so asinine. Now you've ruined my day HQ.
+
+[51:08] **HQ3rr**: I think you are married. You don't have any days in here.
+
+[51:11] **Qx**: That's true. Speaking of that, I got to go pick up my dog and bring him back home and then get back to work. So I think we will chop chop this thing. Sound good? Sound good, boys?
+
+[51:25] **HQ3rr**: Yeah. Have a nice day, guys. I'm going to cut some veggies and make some shawarma.
+
+[51:30] **CannonQ**: All right, guys. Definitely. Everybody contribute to Ergo Santa. It'll be fun. You'll get something back. Hey, real quick. Are you guys splitting that up this time? So if there were, I don't know, 200 keys, you're just taking whatever the token value is dividing by 200 or somebody getting.
+
+[51:53] **HQ3rr**: No, I think, I think we're just, we're not sending any keys this time. It will be a DEX campaign. So we will be set up, set up multiple DEX campaign based on tokens. So for example, if we have a lot of FAKU, so we can create a campaign on FAKU. So you have to trade in this liquidity pair. And as this is one of the rewards, you will gain more on top of that.
+
+[52:17] **CannonQ**: I'm just asking because it says get airdrop. That's what I'm just trying to, you know.
+
+[52:21] **HQ3rr**: Yeah, because you will get the airdrop. So if you contribute in a DEX campaign, you will be part of it. It doesn't matter if you do a single ERG or multiple ERG or whatever you do. It will be depending on your contributions, which you do, but you will get a drop. Maybe you get some gold or who knows whatever you will get.
+
+[52:47] **Qx**: All right, boys. Sounds like a plan. Thanks, everybody, for joining. And next week is another break. So it's Christmas here in the US. I guess in the world, too, right? It's not a US-exclusive holiday. Oh, please help me. In which world do you live? Dude, I live in no sleep and building and all that kind of stuff. So yeah, I know. Tell me about it.
+
+[53:16] **Qx**: And then after that, maybe we'll do, what's it called? A dev update. I'm going to try to record a video with Joe at some point. If I can talk him into it, maybe we'll just pop on late at night and drink and do it. Those are always fun. But other than that, yeah, CannonQ just mentioned in chat, please listen to the, it's right here. Let me show you. It is the chat that he just did, kushti just did with a, now it's too far down. Goodness gracious.
+
+[53:50] **Qx**: What's the name of it, you guys remember? Here we go, right here. Bitcoin Takeover, full episode right there on YouTube. You can go through it right here, right there. Super neat. Really good talk between kushti and this guy. It doesn't say, does it, what its name is?
+
+[54:14] **CannonQ**: Yeah. It's Vlad Kostya.
+
+[54:16] **Qx**: I think you're right, Vlad. So guys, go listen to that. It's really short. It's three hours and 21 minutes.
+
+[54:27] **CannonQ**: Half of it's the hotel kicking kushti off the Wi-Fi.
+
+[54:32] **Qx**: Well, I think I listened to an hour and a half of it, and then I had to hop in the car, so I didn't finish it up. But from what I heard of the hour and a half, it's pretty good. Some good insights from kushti. Some good dig in there. So everybody, enjoy yourselves. If I don't see you before the holidays, have a great holiday, and we'll see you on the flip side of the new year. Thanks, everybody.

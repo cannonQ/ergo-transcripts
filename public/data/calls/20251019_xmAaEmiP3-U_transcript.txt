@@ -1,0 +1,917 @@
+[00:00] **Cheese Enthusiast**: Okay, so I am Cheese Enthusiast and I've been working on Lithos, the future of proof of work mining.
+
+[00:12] **Cheese Enthusiast**: So let's talk about the goal of Lithos.
+
+[00:17] **Cheese Enthusiast**: The Lithos team has a vision of bringing transparency and decentralization to proof of work mining.
+
+[00:28] **Cheese Enthusiast**: Specifically, this is related to mining pools.
+
+[00:31] **Cheese Enthusiast**: Now, mining pools have existed for a while.
+
+[00:36] **Cheese Enthusiast**: They are just a way for miners to essentially come together, take all of their hashrate, and produce blocks in a way that allows them to get consistent payments.
+
+[00:49] **Cheese Enthusiast**: Mining pools are currently quite centralized, but there have been attempts to decentralize pools in the past.
+
+[00:57] **Cheese Enthusiast**: One attempt that I worked on previously was smart pools on Ergo, if you remember getblock.io.
+
+[01:06] **Cheese Enthusiast**: We worked on a way to essentially make the payments of mining pools completely transparent.
+
+[01:15] **Cheese Enthusiast**: Now, smart pools was a novel technology at the time, but we found that there were still many centralized aspects to mining that could not really be solved using the sort of setup that smart pools had.
+
+[01:30] **Cheese Enthusiast**: For example, the pool operator inside the SmartPool system had full control of the backend.
+
+[01:36] **Cheese Enthusiast**: They could change whatever they wanted in terms of what a miner worked on, like their shares, or how much they got paid.
+
+[01:45] **Cheese Enthusiast**: They also had complete control over the block production.
+
+[01:48] **Cheese Enthusiast**: For example, the transactions that go into the block, any storage rent that was claimed from the block, etc.
+
+[01:56] **Cheese Enthusiast**: So the goal of Lithos is really to try and decentralize all aspects of the mining pool and make sure that miners can mine to pools in a way that still allows them to get their consistent payments.
+
+[02:12] **Cheese Enthusiast**: But at the same time, do it in a decentralized manner.
+
+[02:20] **Cheese Enthusiast**: So let's talk about centralization in proof of work mining.
+
+[02:25] **Cheese Enthusiast**: So mining pools in general, obviously they have some benefits in terms of allowing more miners to enter the mining space with less hashrate and then therefore get more consistent payouts.
+
+[02:39] **Cheese Enthusiast**: But proof of work mining pools haven't really been perfectly decentralized and they have a lot of issues associated with them.
+
+[02:52] **Cheese Enthusiast**: So it started as a decentralized process where individual miners competed to solve these complex mathematical problems.
+
+[03:00] **Cheese Enthusiast**: It's turned into a centralized system where the largest mining pools have significant control over the network and can potentially manipulate it for their own benefit.
+
+[03:11] **Cheese Enthusiast**: For example, while it may not necessarily be likely, mining pools could perform 51% attacks on the blockchain.
+
+[03:23] **Cheese Enthusiast**: They could also act in bad ways to get rewards for miners that they deserved.
+
+[03:31] **Cheese Enthusiast**: Or they could even change what transactions go into the blocks that are being mined.
+
+[03:36] **Cheese Enthusiast**: That way they can censor certain transactions.
+
+[03:39] **Cheese Enthusiast**: You may have heard about this happening on Ethereum, for example, where certain mining pools ended up censoring transactions to tornado cash, which was seen as sort of a bad thing because it's about mixing the cryptocurrency and preventing people from figuring out where the cryptocurrency came from.
+
+[04:02] **Cheese Enthusiast**: So in general, mining pools have a lot of power and they're able to do all these things like censorship, potentially steal rewards, etc.
+
+[04:14] **Cheese Enthusiast**: So the concentration of power in the hands of a few large mining pools is a serious problem.
+
+[04:21] **Cheese Enthusiast**: And it kind of goes against the vision that Satoshi Nakamoto had when he originally came up with the idea of proof of work and its application in blockchains.
+
+[04:32] **Cheese Enthusiast**: So proof of work today is still very important.
+
+[04:34] **Cheese Enthusiast**: It's still widely used as a consensus algorithm in the cryptocurrency industry.
+
+[04:40] **Cheese Enthusiast**: But with the introduction of mining pools, it has fundamentally changed.
+
+[04:45] **Cheese Enthusiast**: It is much more about the mining pools and the power that they have rather than the individual miner and what they're able to provide.
+
+[04:56] **Cheese Enthusiast**: And this has introduced significant risks to the security decentralization of various networks.
+
+[05:06] **Cheese Enthusiast**: I'd say the main issue is really that mining pools have complete control of payments and block production.
+
+[05:11] **Cheese Enthusiast**: So payments obviously is about how miners get paid for the work that they produced while they were mining a block.
+
+[05:22] **Cheese Enthusiast**: Mining pools have complete control over this in that they can essentially go into their database, see whatever shares that a miner produced, and they can change it on the fly to whatever they want.
+
+[05:34] **Cheese Enthusiast**: So if let's say a mining pool has some sort of personal vendetta against a miner, they could theoretically give that person less rewards.
+
+[05:44] **Cheese Enthusiast**: Additionally, mining pools have complete control over block production.
+
+[05:50] **Cheese Enthusiast**: Block production is really important in my opinion because it is essentially the way for miners to insert their own transactions or allow whatever transactions they want while they're mining to the chain.
+
+[06:05] **Cheese Enthusiast**: Mining pools have complete control over what goes into the block and what kind of transactions are allowed.
+
+[06:13] **Cheese Enthusiast**: As I referenced earlier, there was a whole tornado cash scandal on Ethereum where certain blocks were censored when they contained transactions from this tornado cash app.
+
+[06:26] **Cheese Enthusiast**: And this kind of really goes against the whole idea of decentralization in the first place.
+
+[06:32] **Cheese Enthusiast**: We want people to be able to essentially submit whatever transactions they want, have them picked up and then put on the blockchain.
+
+[06:40] **Cheese Enthusiast**: Censorship from mining pools goes against this completely.
+
+[06:44] **Cheese Enthusiast**: So the goal of Lithos is really to handle these two problems.
+
+[06:48] **Cheese Enthusiast**: Make sure payments are completely decentralized and make sure block production is in the hands of the miners themselves.
+
+[06:58] **Cheese Enthusiast**: So what are we solving?
+
+[07:01] **Cheese Enthusiast**: So the first problem are mining pools are black boxes that are lacking transparency.
+
+[07:08] **Cheese Enthusiast**: They hurt decentralization in this way, and they have some history of being bad actors within proof of work cryptocurrencies.
+
+[07:20] **Cheese Enthusiast**: So to fully solve this problem, we have to fully decentralize mining pools and place them onto the blockchain using smart contracts.
+
+[07:28] **Cheese Enthusiast**: So by doing this, we ensure transparency, we ensure fair payouts, and we really empower the miners to do more versus the pool operators who may not necessarily have the best interests of the blockchain in mind.
+
+[07:44] **Cheese Enthusiast**: You also ensure like a more efficient flow of capital from the coin emission directly to miners without presence of middlemen who can manipulate the fees without any rules.
+
+[08:01] **Cheese Enthusiast**: Now, our second problem is that mining pools require trustless and fair distribution.
+
+[08:12] **Cheese Enthusiast**: And normal mining pools rewards are distributed to miners by keeping track of partial block solutions, also known as shares.
+
+[08:21] **Cheese Enthusiast**: Mining pools keep track of millions of shares.
+
+[08:24] **Cheese Enthusiast**: They have databases usually that essentially keep track of each miner's shares and how many shares they submitted during the mining process.
+
+[08:33] **Cheese Enthusiast**: When a block is found, mining pools look through the database and decide how much work the miner produced for the mining pool in order to determine how much they got paid.
+
+[08:47] **Cheese Enthusiast**: Now, we want to decentralize mining pools, but on the blockchain, we do not have the storage capacity to store millions of shares.
+
+[08:55] **Cheese Enthusiast**: It's just not viable.
+
+[08:56] **Cheese Enthusiast**: It would cost too much.
+
+[08:59] **Cheese Enthusiast**: So in order to solve that, Lithos came up with this idea of the non-interactive share proof.
+
+[09:08] **Cheese Enthusiast**: So non-interactive share proofs are essentially a way to compress the amount of work that a miner produced into a small handful of shares, and then that handful of shares can be verified on the blockchain using various smart contracts to determine how much work a miner produced over a certain period of time.
+
+[09:35] **Cheese Enthusiast**: Non-interactive shared proofs, or NISPs, are used throughout Lithos.
+
+[09:42] **Cheese Enthusiast**: And they're used to ensure that miners are paid fairly according to the amount of work that they produced while a block solution was being found.
+
+[09:53] **Cheese Enthusiast**: NISPs are computationally very simple to evaluate and determine whether or not a miner is lying about how much work they produced.
+
+[10:05] **Cheese Enthusiast**: Additionally, storage wise, they do not require a lot of space on the blockchain.
+
+[10:11] **Cheese Enthusiast**: And in a place where space is very limited, NISPs are able to compress the amount of data and make sure that costs associated with the mining pool itself are not too high.
+
+[10:26] **Cheese Enthusiast**: NISPs themselves are essentially a collection of around 10 shares with high difficulty that are used to determine how much work a miner produced.
+
+[10:39] **Cheese Enthusiast**: They do this through concepts borrowed from NIPoPoWs, actually.
+
+[10:44] **Cheese Enthusiast**: Specifically the concept of goodness and the idea that when a person is mining over a large period of time, it is almost certain that they will produce a number of large high difficulty shares throughout that mining process.
+
+[11:00] **Cheese Enthusiast**: NISPs use this idea to essentially prove that a miner performed work by checking whether or not they produce those high difficulty shares.
+
+[11:12] **Cheese Enthusiast**: Now, in order to store NISPs on the blockchain, they are very small, but still, we want to be, when we're dealing with smart contracts, we want to be as efficient as possible, space and computation-wise.
+
+[11:25] **Cheese Enthusiast**: So the current idea of Lithos is to use an optimistic rollup to evaluate each NISP and ensure that while computation isn't too high, we can still ensure that people are being provably fair and are being paid according to the actual amount of work that they're producing.
+
+[11:53] **Cheese Enthusiast**: Sorry.
+
+[11:55] **Cheese Enthusiast**: So decentralizing mining pools requires ensuring that there is some amount of censorship resistance.
+
+[12:04] **Cheese Enthusiast**: Now, on Ergo specifically, the Coinbase transaction has been made so that it must go to the public key address of whichever miner mined the block.
+
+[12:18] **Cheese Enthusiast**: So in order for censorship resistance to really be possible on the Ergo blockchain, we need to do what's called collateralizing the Ergo.
+
+[12:27] **Cheese Enthusiast**: And what I really mean by that is to provide an amount of Ergo equal to the block reward before the block is mined.
+
+[12:39] **Cheese Enthusiast**: Now, when the block is mined, that Ergo amount given by the lender is distributed to the miners as the block reward, while the actual block reward, which goes to a certain public key address, is given to the lender's address instead.
+
+[12:57] **Cheese Enthusiast**: So in this way, you essentially allow for miners to create their own block, set the public key reward address of the block to the lender, and then allow the actual payment to instantly go out to all the miners whenever the block is verified.
+
+[13:22] **Cheese Enthusiast**: So this is important for a few reasons.
+
+[13:25] **Cheese Enthusiast**: For one, it does allow censorship resistance in the sense that any miner can mine their own block while still ensuring that the reward of the block goes to all other miners in the pool.
+
+[13:38] **Cheese Enthusiast**: It's also very useful in the sense that when you're normally mining on Ergo, there is a certain 720 block wait that you must do before the block is confirmed.
+
+[13:55] **Cheese Enthusiast**: And during that wait, nobody is able to be paid.
+
+[13:59] **Cheese Enthusiast**: Collateralization essentially cuts through this process and allows miners to be paid almost instantaneously whenever the block is found.
+
+[14:13] **Cheese Enthusiast**: So we want to ensure that we have these collateralized mining pools because we want to ensure censorship resistance.
+
+[14:24] **Cheese Enthusiast**: We want to avoid these problems like I called back to before, like with the tornado cash issue.
+
+[14:30] **Cheese Enthusiast**: We don't want mining pools to censor certain transactions.
+
+[14:33] **Cheese Enthusiast**: That is really one of the core goals of Lithos to ensure that miners have complete control over the blocks.
+
+[14:42] **Cheese Enthusiast**: And giving control to miners over block production, that also allows miners to gain more ERG.
+
+[14:48] **Cheese Enthusiast**: They're able to add storage rent transactions specifically for ERGO.
+
+[14:54] **Cheese Enthusiast**: And are able to produce ERG through MEV.
+
+[14:58] **Cheese Enthusiast**: And MEV was a big part of the reason why Ethereum, while it was proof of work, was able to gain so many miners.
+
+[15:06] **Cheese Enthusiast**: MEV allows miners to gain additional rewards through smart contract interactions, DEXes, stablecoin contracts, etc.
+
+[15:15] **Cheese Enthusiast**: And we want to be able to bring that to ERGO, but give that power of choosing what actually goes into the MEV to the actual miners themselves versus the mining pools.
+
+[15:34] **Cheese Enthusiast**: One important aspect of collateralization is that we don't want to prevent miners from immediately joining our decentralized pool without having ERG.
+
+[15:46] **Cheese Enthusiast**: Now, if we force miners to collateralize themselves, that means, let's say a new miner comes into the ERGO ecosystem, they have zero ERG in their wallet, and they want to join a Lithos pool.
+
+[16:01] **Cheese Enthusiast**: If they have no ERG in their pocket and collateralization requires at least an ERG amount equal to the block reward, then this kind of clashes with the idea of any anonymous new miner being able to come into the system and provide work to the ERG blockchain and then secure it.
+
+[16:24] **Cheese Enthusiast**: So Lithos specifically has focused on third-party collateralization.
+
+[16:30] **Cheese Enthusiast**: And that means that people outside of miners themselves are able to provide ERG to the mining pool to collateralize the block.
+
+[16:39] **Cheese Enthusiast**: And that would allow new miners to join without having any ERG at all and therefore mine on this decentralized pool without having to put up some amount of ERG that they may not already have.
+
+[16:55] **Cheese Enthusiast**: Collateralization also allows people outside of mining to gain ERG by using pool fees in a way that is contractually obligated to not be sort of suspicious.
+
+[17:12] **Cheese Enthusiast**: For example, like a normal centralized mining pool may be able to adjust their fees any way they want.
+
+[17:18] **Cheese Enthusiast**: With Lithos mining pools, the fees will be determined by the smart contracts, determined by the market of collateralization itself, by all of these lenders who want to provide ERG to the blockchain to help secure it.
+
+[17:38] **Cheese Enthusiast**: This also goes into the Lithos token.
+
+[17:41] **Cheese Enthusiast**: Now, Lithos token tokenomics are not particularly set yet, but the general idea is to incentivize miners to mine using Lithos and allow them to gain additional rewards despite the pool fee that they pay to the collateralizers.
+
+[18:07] **Cheese Enthusiast**: So let's go into some of the more technical aspects of Lithos now.
+
+[18:11] **Cheese Enthusiast**: Lithos protocol is an advanced decentralized mining pool protocol.
+
+[18:16] **Cheese Enthusiast**: There have been some mining pool protocols in the past that have been somewhat decentralized.
+
+[18:22] **Cheese Enthusiast**: A few examples that I can name is P2Pool on Monero has been running for a while.
+
+[18:29] **Cheese Enthusiast**: And that is essentially a sidechain on the Monero blockchain that allows miners to mine to the sidechain and then gain rewards of Monero.
+
+[18:41] **Cheese Enthusiast**: Now, it is decentralized.
+
+[18:44] **Cheese Enthusiast**: However, it faces a lot of problems in that block production is still not entirely on the miner's hands, as well as rewards are a little bit obfuscated.
+
+[18:57] **Cheese Enthusiast**: It doesn't help that Monero is a completely private blockchain, but essentially it's not the most ideal solution.
+
+[19:06] **Cheese Enthusiast**: Now, we've had smart pools on Ergo as well.
+
+[19:09] **Cheese Enthusiast**: These were a good idea, I think, but they didn't fully decentralize the entire process of mining.
+
+[19:19] **Cheese Enthusiast**: There was also another smart pool initiative on Ethereum while it was proof of work.
+
+[19:27] **Cheese Enthusiast**: It was also quite decentralized, however, it lacked efficiency.
+
+[19:31] **Cheese Enthusiast**: And that's something that is really important to us at Lithos.
+
+[19:34] **Cheese Enthusiast**: We want Lithos to be scalable.
+
+[19:36] **Cheese Enthusiast**: We want it to be able to potentially handle hundreds of thousands of miners at once.
+
+[19:42] **Cheese Enthusiast**: And past solutions to decentralized mining haven't been able to do that.
+
+[19:51] **Cheese Enthusiast**: So the first technical aspect, and I've talked about it recently, is collateralized mining pools.
+
+[19:57] **Cheese Enthusiast**: And we want collateralization to essentially ensure that block production is in the hands of miners.
+
+[20:04] **Cheese Enthusiast**: We want miners to gain MEV rewards.
+
+[20:06] **Cheese Enthusiast**: We want miners to be able to have control over their storage rent.
+
+[20:10] **Cheese Enthusiast**: We want to avoid censorship of any transactions at all.
+
+[20:18] **Cheese Enthusiast**: And another technical aspect here is the non-interactive share proof, which is really, I think the most important part of Lithos and it completely changes how mining is done.
+
+[20:31] **Cheese Enthusiast**: Mining, traditionally, on a mining pool, you get your mining software, you connect to the stratum, and you produce hundreds of thousands of shares over a period of time.
+
+[20:44] **Cheese Enthusiast**: The mining pool takes these shares, they store in the database, and they determine how much work you did by looking at the amount of shares multiplied by the difficulty that you mined at.
+
+[20:58] **Cheese Enthusiast**: And obviously, this is not good enough for a smart contract.
+
+[21:03] **Cheese Enthusiast**: It just takes too much space and computation.
+
+[21:06] **Cheese Enthusiast**: So NISPs are the alternative.
+
+[21:10] **Cheese Enthusiast**: And they ask sort of a different question of the miner.
+
+[21:14] **Cheese Enthusiast**: Instead of asking how many shares did you produce over a period of time, we're asking, can you produce, say, 10 shares at a high enough difficulty to prove that you did a certain amount of work while the block solution was being generated.
+
+[21:33] **Cheese Enthusiast**: And this kind of change of the question has a big implication in terms of how mining works on Lithos.
+
+[21:42] **Cheese Enthusiast**: You're not going to be mining in the traditional way.
+
+[21:45] **Cheese Enthusiast**: Obviously, you'll still have a mining software, you'll still have a stratum that you connect to, but the way your rewards are calculated are completely different.
+
+[21:52] **Cheese Enthusiast**: You are not simply adding up the number of shares and then dividing it based on the total number of shares produced by the pool.
+
+[22:01] **Cheese Enthusiast**: You are essentially proving that you did a certain amount of work by producing these high value shares.
+
+[22:10] **Cheese Enthusiast**: And then that allows you to store all this data in a small space.
+
+[22:19] **Cheese Enthusiast**: NISPs also are very important because they are computationally efficient and they're efficient storage-wise.
+
+[22:27] **Cheese Enthusiast**: We can use optimistic roll-ups to allow for greater scalability with the smart contracts that we're using.
+
+[22:35] **Cheese Enthusiast**: Now, an optimistic roll-up, you can think of it as a layer two solution that is essentially it's taking all these NISPs and it's assuming that each NISP is going to be completely successful and valid.
+
+[22:53] **Cheese Enthusiast**: Unless it is checked upon.
+
+[22:56] **Cheese Enthusiast**: Now, in Lithos, we plan to have lots of off-chain bots that will be checking each NISP submitted to the blockchain.
+
+[23:04] **Cheese Enthusiast**: And if a NISP is found to be fraudulent, a fraud-proof transaction is submitted, and that NISP is removed from the equation.
+
+[23:16] **Cheese Enthusiast**: This is really important because we're not evaluating each share proof on its own.
+
+[23:22] **Cheese Enthusiast**: We're only evaluating share proofs when we know they're fraudulent.
+
+[23:27] **Cheese Enthusiast**: And what I mean by that is we're not evaluating share proofs on the blockchain.
+
+[23:32] **Cheese Enthusiast**: Obviously, evaluation is happening off-chain, but we're really focused on on-chain evaluation because that is what is costly.
+
+[23:40] **Cheese Enthusiast**: And fraud proofs allow for us to minimize the amount of computation on-chain while allowing the majority of computation to happen off-chain, where computation is easy to do and there are way less limits regarding data and space.
+
+[24:02] **Cheese Enthusiast**: There will be incentive to submit fraud proofs.
+
+[24:06] **Cheese Enthusiast**: Now, usually with roll-ups, we have what are called sequencers.
+
+[24:11] **Cheese Enthusiast**: And sequencers can be kind of thought of as people who are submitting their roll-ups to smart contracts and then getting some kind of reward for that.
+
+[24:22] **Cheese Enthusiast**: In Lithos, we want everybody to potentially be a sequencer.
+
+[24:26] **Cheese Enthusiast**: And a sequencer is kind of equivalent to a pool operator in that they're the ones getting the shares and submitting them.
+
+[24:37] **Cheese Enthusiast**: Now, obviously, we want individual miners to have the power in Lithos.
+
+[24:40] **Cheese Enthusiast**: So anybody can be a sequencer, potentially.
+
+[24:43] **Cheese Enthusiast**: But in general, there will be some limits because obviously if we allow anybody to be a sequencer, then there's a classic problem with blockchains in that people can spam the blockchain.
+
+[25:00] **Cheese Enthusiast**: So there will be some limits in regards to who can be a sequencer, but the general idea is that the limits will be low and that people will be able to become a sequencer with a certain amount of tokens and then submit these transactions to the smart contracts themselves.
+
+[25:18] **Cheese Enthusiast**: All right.
+
+[25:21] **Cheese Enthusiast**: So another important aspect of Lithos is that, oh yeah, yeah, no problem.
+
+[25:58] **Cheese Enthusiast**: Oh, no, absolutely not.
+
+[25:59] **Cheese Enthusiast**: Because the difference is that when I say a high difficulty share, the difficulty or the high difficulty is relative to a difficulty the miner themselves chooses.
+
+[26:13] **Cheese Enthusiast**: So if I have, say, like my laptop right here and I decide to mine on it, obviously I can't produce many high difficulty shares.
+
+[26:22] **Cheese Enthusiast**: I just don't have the computational power to do that.
+
+[26:25] **Cheese Enthusiast**: But on Lithos, you choose your own difficulty.
+
+[26:28] **Cheese Enthusiast**: You choose what difficulty you mine at.
+
+[26:31] **Cheese Enthusiast**: And that means that a high value share for you is different than a high value share for somebody with 20 GPUs in the back, for example.
+
+[26:43] **Cheese Enthusiast**: So when I say a high difficulty share, it's relative to your own computational power.
+
+[26:48] **Cheese Enthusiast**: And this is important.
+
+[26:50] **Cheese Enthusiast**: And I'll get more into it later about how your difficulty is chosen and the kind of effects that has on your payouts, how much you get paid, and how often you get paid.
+
+[27:02] **Cheese Enthusiast**: Now, for Lithos, the usage of non-interactive share proofs means that it is essentially completely blockchain agnostic.
+
+[27:12] **Cheese Enthusiast**: So non-interactive share proofs are really only evaluating the difficulty, which is the value of the share or how high the actual number is compared to the target value that the blockchain wants you to find when you're looking for a block.
+
+[27:31] **Cheese Enthusiast**: Because we're only using math, essentially, to determine whether or not you did work, it's completely blockchain agnostic.
+
+[27:39] **Cheese Enthusiast**: And what that means is that you can use NISPs on something like Bitcoin, something like Litecoin, other proof-of-work currencies, Caspa, Alethium, all of these currencies which are using traditional proof-of-work algorithms, you can use NISPs to evaluate how much work somebody did.
+
+[27:56] **Cheese Enthusiast**: What that means is that we can have smart contracts on the Ergo blockchain, which allow you to mine in a decentralized manner while still mining to Bitcoin.
+
+[28:08] **Cheese Enthusiast**: So you can mine Bitcoin while mining on a decentralized pool.
+
+[28:13] **Cheese Enthusiast**: Same with Litecoin, same with Casper.
+
+[28:17] **Cheese Enthusiast**: So ideally, the collateralization in that case would work using RAP tokens, for example, from Rosen.
+
+[28:24] **Cheese Enthusiast**: So in that case, you would have RAP tokens that are paid to the miner on the Ergo blockchain, while the actual block reward would have to go to somebody on the initial blockchain, for example, Bitcoin.
+
+[28:39] **Cheese Enthusiast**: And that lender would have to be somebody from that blockchain, essentially.
+
+[28:43] **Cheese Enthusiast**: So it would be a little bit more complicated and it would require some support from, for example, a bridge like Rosen to completely successfully do, but it is completely possible.
+
+[29:02] **Cheese Enthusiast**: Now, I mentioned the Lithos token earlier.
+
+[29:06] **Cheese Enthusiast**: Now, lenders who provide collateral will be using the Lithos token to essentially provide that collateral.
+
+[29:15] **Cheese Enthusiast**: And that would allow miners to...it would allow a sort of proof of work economy to occur because miners on Lithos will be mining, just for example, ERG, and they'll be also gaining these Lithos tokens at the same time.
+
+[29:29] **Cheese Enthusiast**: And those Lithos tokens would be used by lenders to essentially lock in their collateral for miners to use.
+
+[29:38] **Cheese Enthusiast**: And the idea behind this is to essentially stimulate a healthy economy between people who mine and people who don't.
+
+[29:44] **Cheese Enthusiast**: And it would allow people to essentially gain money without having any computational power, which is usually not possible on a proof-of-work blockchain.
+
+[29:57] **Cheese Enthusiast**: On a proof-of-work blockchain, you can't secure the blockchain without some computational power, usually.
+
+[30:05] **Cheese Enthusiast**: But the idea of Lithos is to have people who are not associated with the mining world necessarily to still help decentralize the blockchain itself.
+
+[30:17] **Cheese Enthusiast**: Yeah, exactly.
+
+[30:18] **Cheese Enthusiast**: It is similar to staking, but it's a little bit different in the sense that it's not really percentage-based in the sense that having more tokens will necessarily get you more.
+
+[30:32] **Cheese Enthusiast**: But it's still a way for people who are not involved in mining to gain some money while still securing the blockchain.
+
+[30:50] **Cheese Enthusiast**: I mean, I don't think it should be any issue between Rosen and Lithos.
+
+[30:58] **Cheese Enthusiast**: What do you mean by dual miners?
+
+[31:05] **Cheese Enthusiast**: Oh, no, no, no.
+
+[31:08] **Cheese Enthusiast**: No, I don't think so.
+
+[31:10] **Cheese Enthusiast**: I mean, the way Lithos is working is just a normal stratum.
+
+[31:13] **Cheese Enthusiast**: So you can do anything that you do with your normal mining pools as long as it works with a stratum.
+
+[31:19] **Cheese Enthusiast**: So I know some people do dual mining, for example, where they partition part of their hashrate to, say, Bitcoin and some of it to Ergo.
+
+[31:28] **Cheese Enthusiast**: You could do the same thing on Lithos without any real issue.
+
+[31:33] **Cheese Enthusiast**: We're using stratum to allow things to be compatible in a way that doesn't require miners to update too much.
+
+[31:41] **Cheese Enthusiast**: You don't have to upgrade anything.
+
+[31:43] **Cheese Enthusiast**: You don't have to change your general setup.
+
+[31:46] **Cheese Enthusiast**: But you're still able to benefit from the general idea of Lithos itself and the decentralization.
+
+[31:59] **Cheese Enthusiast**: So let me explain it.
+
+[32:04] **Cheese Enthusiast**: When somebody mines or somebody is producing a number of hashes over a period of time, we can mathematically prove that somebody producing a certain amount of hashes over a period of time will almost certainly produce a certain number of high difficulty shares while hashing.
+
+[32:29] **Cheese Enthusiast**: So what that means is that while they're producing all of these random hashes, there's all random numbers.
+
+[32:35] **Cheese Enthusiast**: So for, let's say that person produces these hashes over the course of an hour.
+
+[32:41] **Cheese Enthusiast**: They will mathematically produce a certain number of high number of hashes that will be present inside their set of hashes that they produced.
+
+[32:54] **Cheese Enthusiast**: So Lithos is taking advantage of that fact that they mathematically will produce those number of hashes to prove that somebody actually produced or actually did a certain amount of work.
+
+[33:05] **Cheese Enthusiast**: So if I'm a miner and I want to get paid on Lithos, but I didn't actually do any work, right?
+
+[33:12] **Cheese Enthusiast**: I just want to say that I mined for 12 hours straight and I produced all these hashes, but I actually haven't done the work myself.
+
+[33:24] **Cheese Enthusiast**: To prove that I did the work, I would have to have a certain number of high-value hashes that I could show to a smart contract to show that I actually did the work.
+
+[33:36] **Cheese Enthusiast**: But if I'm lying, I wouldn't have those high-value hashes in the first place.
+
+[33:40] **Cheese Enthusiast**: They wouldn't have existed.
+
+[33:42] **Cheese Enthusiast**: So that's the general idea of a NISP, is to use the fact that high-value hashes will be produced over a certain amount of time, and that they will be produced at a certain ratio relative to the number of hashes that I did throughout the period of time.
+
+[33:59] **Cheese Enthusiast**: If I'm lying, I won't have those high-value hashes to present to the mining pool.
+
+[34:07] **Cheese Enthusiast**: And therefore, it'll be quite easy for somebody to see that I'm being fraudulent.
+
+[34:12] **Cheese Enthusiast**: Yeah, exactly.
+
+[34:14] **Cheese Enthusiast**: And there are obviously other aspects that must be verified.
+
+[34:18] **Cheese Enthusiast**: For example, I don't want to accept high-value hashes that were produced like a year ago.
+
+[34:26] **Cheese Enthusiast**: I need to make sure that the timestamp on these block headers is valid for the block that we're mining.
+
+[34:34] **Cheese Enthusiast**: I don't want to have a hash from two years ago if I'm mining a block from an hour ago.
+
+[34:40] **Cheese Enthusiast**: So there are other sort of qualifications that need to be met for a NISP to be valid.
+
+[34:48] **Cheese Enthusiast**: And these are all checked through these fraud proofs on the roll-up for the Lithos protocol.
+
+[34:58] **Cheese Enthusiast**: Does that answer your question?
+
+[35:07] **Cheese Enthusiast**: Exactly, exactly.
+
+[35:12] **Cheese Enthusiast**: That is all decentralized in smart contracts, yes.
+
+[35:16] **Cheese Enthusiast**: The logic itself is being run off-chain.
+
+[35:21] **Cheese Enthusiast**: We don't want to have that computation of checking each and every share inside the NISP.
+
+[35:25] **Cheese Enthusiast**: That would take a lot of time.
+
+[35:27] **Cheese Enthusiast**: We're doing the logic off-chain.
+
+[35:29] **Cheese Enthusiast**: We're checking each NISP off-chain.
+
+[35:30] **Cheese Enthusiast**: And if we find an issue, we're producing a fraud proof on the blockchain to ensure that fraudulent NISP is taken off of it.
+
+[35:40] **Cheese Enthusiast**: And there's a certain value of incentive to do this.
+
+[35:44] **Cheese Enthusiast**: If I'm a miner, I don't want some other miner to take some portion of my money because they produced a fraudulent share.
+
+[35:53] **Cheese Enthusiast**: If I'm a miner, I am therefore incentivized to make sure that each share on the Lithos protocol is valid and not fraudulent because I want my block reward to be maximized.
+
+[36:07] **Cheese Enthusiast**: Remember, block rewards are being separated between each miner inside the pool.
+
+[36:12] **Cheese Enthusiast**: So if I remove a miner who was fraudulent from the share of the reward, then I get more of a reward proportionally for myself.
+
+[36:20] **Cheese Enthusiast**: So there's a certain incentive to make sure that miners are always checking each and every NISP that is submitted to the Lithos protocol to make sure that they get paid maximally according to their work that they produced.
+
+[36:38] **Cheese Enthusiast**: Makes sense?
+
+[36:39] **Cheese Enthusiast**: All right, cool.
+
+[36:40] **Cheese Enthusiast**: So let's talk about the testnet now.
+
+[36:45] **Cheese Enthusiast**: So after around one and a half years of work and the release of Ergo 6.0, the Lithos testnet is nearing launch.
+
+[36:53] **Cheese Enthusiast**: The testnet serves as a way for miners to try out all the new aspects of Lithos.
+
+[36:58] **Cheese Enthusiast**: And it's also to help me find any bugs that were produced during this process.
+
+[37:03] **Cheese Enthusiast**: Already found a lot of bugs while developing it, so I can't imagine how many bugs will be there.
+
+[37:07] **Cheese Enthusiast**: But really, the goal is to try and iron out all of these issues before anything gets released to the mainnet.
+
+[37:15] **Cheese Enthusiast**: So now, tying back to what you and others were talking about, mining on Lithos is going to be a little bit different to traditional mining.
+
+[37:30] **Cheese Enthusiast**: Now, for one, the Lithos client is providing a local stratum for you to mine towards.
+
+[37:36] **Cheese Enthusiast**: So what that means is that your stratum or the pool that you're connecting to is going to be locally produced.
+
+[37:44] **Cheese Enthusiast**: That means there's never a chance of stale shares.
+
+[37:47] **Cheese Enthusiast**: I don't know if you've mined before, but stale shares happens when the latency is too high and the difficulty that you're mining at is not equivalent to the difficulty that the pool wanted you to mine at.
+
+[37:57] **Cheese Enthusiast**: So when that happens, it's just lost money, lost work for you, right?
+
+[38:02] **Cheese Enthusiast**: So having a local stratum means that stale shares are not going to happen.
+
+[38:06] **Cheese Enthusiast**: Additionally, miners on Lithos are solving a different problem.
+
+[38:14] **Cheese Enthusiast**: And this is going back to NISPs and how they work.
+
+[38:19] **Cheese Enthusiast**: So let's talk about difficulty now.
+
+[38:22] **Cheese Enthusiast**: So normal mining pools are asking the miners to send a certain amount of shares at a set difficulty.
+
+[38:28] **Cheese Enthusiast**: So if I go on, for example, Herominers today, I'll go on their 4G port, and I'll be producing shares at the value 4G.
+
+[38:38] **Cheese Enthusiast**: So 4 times 10 to the 9, I think, is the value that I'm trying to produce shares at, submitting any share above the value 4 times 10 to the 9.
+
+[38:49] **Cheese Enthusiast**: Right?
+
+[38:50] **Cheese Enthusiast**: Now, this is not viable, as I've said, on a blockchain.
+
+[38:55] **Cheese Enthusiast**: So Lithos is instead using NISPs.
+
+[39:00] **Cheese Enthusiast**: And NISPs are really asking a different question.
+
+[39:05] **Cheese Enthusiast**: Can I produce, now for Lithos right now, we're using a value of 10 shares.
+
+[39:11] **Cheese Enthusiast**: So the question that Lithos is asking is, can I produce 10 high value shares relative to the difficulty that I chose.
+
+[39:21] **Cheese Enthusiast**: And if I can produce those 10 shares, then I did produce a certain amount of work at that difficulty.
+
+[39:31] **Cheese Enthusiast**: So using this allows us to make things more efficient, make it more computationally efficient, more storage efficient.
+
+[39:41] **Cheese Enthusiast**: And it also changes how you mine.
+
+[39:48] **Cheese Enthusiast**: So as I said before, on Herominers, I'm mining at a set difficulty of 4G.
+
+[39:53] **Cheese Enthusiast**: Miners with different hash rate than me, they're probably mining at that same difficulty.
+
+[39:57] **Cheese Enthusiast**: I could have 100 megahashes, or I could have, let's say, 10 gigahashes of hash rate.
+
+[40:04] **Cheese Enthusiast**: And I would still be mining on the 4G port.
+
+[40:07] **Cheese Enthusiast**: On Lithos, it's completely different.
+
+[40:10] **Cheese Enthusiast**: The difficulty that I'm mining at is relative to my own hash rate.
+
+[40:15] **Cheese Enthusiast**: So if I'm mining at, say, 100 MHz, I will be mining at a different difficulty compared to the person with a mining farm who's mining at 20 GHz.
+
+[40:26] **Cheese Enthusiast**: And what that means is that between the two of us, we need to produce different value shares to prove that we performed work at our difficulty.
+
+[40:36] **Cheese Enthusiast**: So let's say I'm mining at 1G, for example.
+
+[40:41] **Cheese Enthusiast**: Maybe I need to produce 10 shares at 5G to show that I performed work at 1G.
+
+[40:49] **Cheese Enthusiast**: Now, if I have 20 gigahashes of hashrate power, I might be mining at, say, 20T, I think is the next one.
+
+[41:03] **Cheese Enthusiast**: I'm not sure.
+
+[41:04] **Cheese Enthusiast**: Let's say I'm mining at 20T, then I need to produce 10 shares at like 50T.
+
+[41:09] **Cheese Enthusiast**: So the meaning of this really is that the difficulty that you choose is directly tied to how much you get paid, because the difficulty is your way of showing that you're mining at a certain hash rate.
+
+[41:26] **Cheese Enthusiast**: So this has some effects on how you're getting paid.
+
+[41:31] **Cheese Enthusiast**: So for example, over...
+
+[41:37] **Cheese Enthusiast**: So yeah, that is important.
+
+[41:39] **Cheese Enthusiast**: So the time scale for Lithos is relative to the usually some set period of time before the block was found, because when the block is found, all shares are submitted and then they're evaluated.
+
+[41:52] **Cheese Enthusiast**: So we don't want miners to kind of lie and say, oh, I produced 10 shares like two weeks ago and a block wasn't found until now, but my 10 shares are still valuable.
+
+[42:03] **Cheese Enthusiast**: They're not really as valuable generally.
+
+[42:05] **Cheese Enthusiast**: So we want to take shares that were produced within a certain period of time before the block was found.
+
+[42:12] **Cheese Enthusiast**: For example, let's say 12 hours before the block was found.
+
+[42:14] **Cheese Enthusiast**: You need to find 10 high value shares produced within that 12-hour period and then submit them when the block was found to show that you performed work while the block solution was being generated.
+
+[42:32] **Cheese Enthusiast**: And this essentially prevents people from lying about what work they performed and when.
+
+[42:41] **Cheese Enthusiast**: We don't want people to have fake shares that are coming from the future or shares that are no longer valuable from the past.
+
+[42:51] **Cheese Enthusiast**: We want the shares to be produced while the current block is being mined.
+
+[42:57] **Cheese Enthusiast**: Now, because you're able to choose your own difficulty on Lithos, and you're able to determine what difficulty you want to mine at, there can be some, let's say, funky things that happen if you decide to stray away from whatever the Lithos client gives you.
+
+[43:13] **Cheese Enthusiast**: So the Lithos client will look at your hash rate, and it'll give you sort of a set difficulty relative to your hash rate that you can mine at.
+
+[43:21] **Cheese Enthusiast**: Now, you're free to change that difficulty value to whatever you want.
+
+[43:25] **Cheese Enthusiast**: So let's say I want to be a little bit risky, right?
+
+[43:32] **Cheese Enthusiast**: I want to maybe gain a little bit more money.
+
+[43:35] **Cheese Enthusiast**: So what I can do is I can set my difficulty value higher.
+
+[43:37] **Cheese Enthusiast**: And what that means is that my payments will not be as consistent.
+
+[43:42] **Cheese Enthusiast**: The reason for that is, at my hash rate, I will not be able to reliably produce 10 high value shares for that difficulty.
+
+[43:53] **Cheese Enthusiast**: However, because my difficulty is related to how much I get paid, if I do produce 10 high value shares, I get paid more versus me mining at my normal difficulty.
+
+[44:06] **Cheese Enthusiast**: Exactly.
+
+[44:06] **Cheese Enthusiast**: You're trading your consistency of your payments for the potential reward of how much you get paid.
+
+[44:13] **Cheese Enthusiast**: So that can happen if you increase your difficulty.
+
+[44:17] **Cheese Enthusiast**: Now, lowering your difficulty, in general, it doesn't actually have much value because lowering your difficulty, you're just lowering your reward.
+
+[44:25] **Cheese Enthusiast**: And if you're already getting paid consistently enough, then it's not that useful.
+
+[44:28] **Cheese Enthusiast**: Now, if you're having trouble with payment consistency for some reason, then you can lower your difficulty and get paid consistently more often while sacrificing some amount of reward for that consistency in the first place.
+
+[44:42] **Cheese Enthusiast**: This is, I think, is a little bit foreign to, I guess, most miners, probably.
+
+[44:47] **Cheese Enthusiast**: It's not really the traditional way of mining.
+
+[44:49] **Cheese Enthusiast**: Usually when you mine, you mine at a set difficulty.
+
+[44:51] **Cheese Enthusiast**: The number of shares is sort of proportional to how you get paid.
+
+[44:57] **Cheese Enthusiast**: Here, it's all about the difficulty that you mine at.
+
+[45:01] **Cheese Enthusiast**: And changing that difficulty will change how you get paid.
+
+[45:04] **Cheese Enthusiast**: How much you get paid, how often you get paid.
+
+[45:07] **Cheese Enthusiast**: So you're able to play around with this.
+
+[45:09] **Cheese Enthusiast**: Maybe you're feeling risky one day, want to increase your difficulty, and you get your big payout.
+
+[45:13] **Cheese Enthusiast**: Or you increase your difficulty, you don't get paid for three days, and you go back down because you feel like you didn't get anything out of it.
+
+[45:26] **Cheese Enthusiast**: So the Lithos client will be the main way for miners to interact with the testnet.
+
+[45:33] **Cheese Enthusiast**: I want to put instructions out for the Lithos client, ideally at the end of the month.
+
+[45:40] **Cheese Enthusiast**: Still working on currently the HTML UI for it.
+
+[45:44] **Cheese Enthusiast**: Currently, it's just a terminal UI that you could type in certain commands into.
+
+[45:50] **Cheese Enthusiast**: But I understand that most miners may not necessarily want that.
+
+[45:52] **Cheese Enthusiast**: So I'm working on an HTML UI, sort of akin to how the node works.
+
+[45:56] **Cheese Enthusiast**: If you've ever run your own node, there's an HTML panel that you can connect to where you can put in certain commands.
+
+[46:03] **Cheese Enthusiast**: The Lithos client will be pretty similar to that.
+
+[46:08] **Cheese Enthusiast**: So the current testnet, my goal is to release the testnet week of November 2nd.
+
+[46:14] **Cheese Enthusiast**: Really, the last thing I'm working on is these interfaces, the HTML interface, and some of the off-chain code to tie everything together.
+
+[46:24] **Cheese Enthusiast**: We have a lot of the contracts done, a lot of the code related with the contracts done, as well as a lot of the stratum code done.
+
+[46:33] **Cheese Enthusiast**: Now, the current stratum that is being used in Lithos.
+
+[46:37] **Cheese Enthusiast**: It is a completely new Java-based stratum.
+
+[46:41] **Cheese Enthusiast**: Worst thing I've ever worked on in my life, by the way.
+
+[46:43] **Cheese Enthusiast**: So hard to do for no reason.
+
+[46:46] **Cheese Enthusiast**: But so right now it's only supporting two miners, Riggle Miner and NB Miner.
+
+[46:51] **Cheese Enthusiast**: My goal is to start supporting more miners like Team Red Miner, SRB Miner, et cetera.
+
+[46:56] **Cheese Enthusiast**: But those will happen probably as the test net goes along.
+
+[47:00] **Cheese Enthusiast**: With the initial release of the test net, we're going to be supporting just those two mining softwares.
+
+[47:08] **Cheese Enthusiast**: But yeah, that's really it.
+
+[47:09] **Cheese Enthusiast**: That's the presentation about Lithos.
+
+[47:12] **Cheese Enthusiast**: You guys have any questions?
+
+[47:41] **Cheese Enthusiast**: Right.
+
+[47:41] **Cheese Enthusiast**: So with this client, the current way I have it is that there are a few options.
+
+[47:45] **Cheese Enthusiast**: Right now, it just automatically can build the block for you.
+
+[47:48] **Cheese Enthusiast**: And what that does is it really takes whatever transactions with the highest fees are inside the mempool.
+
+[47:56] **Cheese Enthusiast**: It takes those transactions and it puts those inside of the block.
+
+[48:00] **Cheese Enthusiast**: MEV is obviously possible.
+
+[48:03] **Cheese Enthusiast**: It's not currently supported in the testnet, but it's definitely very easy, I think, to implement.
+
+[48:09] **Cheese Enthusiast**: It would probably require using the HTML UI that I'm creating.
+
+[48:14] **Cheese Enthusiast**: Or there could be certain presets to try and get more value out of, for example, Spectrum DEX transactions.
+
+[48:23] **Cheese Enthusiast**: Additionally, storage rent is automatically claimed by the client.
+
+[48:28] **Cheese Enthusiast**: So any storage rent UTXOs that are available to claim at the time of the block will automatically be claimed and given to the miner of the block.
+
+[48:41] **Cheese Enthusiast**: So in general, that's really how the transaction selection block production works.
+
+[48:50] **Cheese Enthusiast**: Right, right.
+
+[48:52] **Cheese Enthusiast**: Currently, it's prioritizing max fees.
+
+[48:55] **Cheese Enthusiast**: So if you're not putting in transactions with high fees, then get the hell out.
+
+[49:06] **Cheese Enthusiast**: Right.
+
+[49:10] **Cheese Enthusiast**: Exactly, exactly.
+
+[49:11] **Cheese Enthusiast**: And miners can also plug in their own transactions, not necessarily MEV itself, but let's say you want to, I don't know, maybe you want to fund some Ergo raffle contract or something, right?
+
+[49:25] **Cheese Enthusiast**: But you don't want to wait for the mempool to go through.
+
+[49:27] **Cheese Enthusiast**: You can put in your own transaction while you mine your block, and it will be put inside the block without having to pay any transaction fee because you're the one who mined it, right?
+
+[49:37] **Cheese Enthusiast**: So that's also possible as well.
+
+[49:47] **Cheese Enthusiast**: With merge mining, you said?
+
+[49:48] **Cheese Enthusiast**: So merge mining, it should be actually the same because the way merge mining usually works is you have your mining software and it is connecting to various stratum pools and Lithos protocol itself has its own stratum connection that you can connect to.
+
+[50:08] **Cheese Enthusiast**: So if I want to merge mine like Zcash and Ergo, for example, I can mine to both of them have the different stratum addresses inside my mining software config and it'll work normally.
+
+[50:25] **Cheese Enthusiast**: Essentially, there shouldn't be any big difference.
+
+[50:49] **Cheese Enthusiast**: That is probably true, but you can adjust your difficulty to a lower amount so that you can find high value shares according to whatever hash rate you're mining at.
+
+[51:03] **Cheese Enthusiast**: So obviously, yeah, when you're merge mining, you won't have as much computational power, but you can adjust that so you still get paid at a consistent amount and for a fair value according to the amount of power you're putting in towards ERG.
+
+[51:23] **Cheese Enthusiast**: Oh, yeah, absolutely.
+
+[51:24] **Cheese Enthusiast**: It can accept Babel fees.
+
+[51:29] **Cheese Enthusiast**: OK, I kind of get what you're saying.
+
+[51:32] **Cheese Enthusiast**: I guess for chain agnostic things, there will have to be at least one transaction on the opposite chain.
+
+[51:42] **Cheese Enthusiast**: Yeah, yeah.
+
+[51:43] **Cheese Enthusiast**: So I guess that transaction will probably be required to pay some sort of fee.
+
+[51:48] **Cheese Enthusiast**: And that would be by the lender who's collateralizing on the other blockchain.
+
+[51:52] **Cheese Enthusiast**: But for example, the actual payments which are being done on the Ergo blockchain, that can use Babel fees for the payouts going to each miner on the pool.
+
+[52:27] **Cheese Enthusiast**: So the incentive is a pool fee, right?
+
+[52:32] **Cheese Enthusiast**: However, I think the difference is that at least the current idea for collateralization is to have it be an open market.
+
+[52:40] **Cheese Enthusiast**: So because miners in the end are the ones producing the block at their local machine, they're able to choose what public key address the mining reward goes to.
+
+[52:51] **Cheese Enthusiast**: So what that means is they're able to choose what lender they want to receive the reward and therefore the pool fee itself, right?
+
+[53:00] **Cheese Enthusiast**: So essentially you can think of it as an open market and whoever's providing the best fees is, that's who miners are incentivized to choose for their collateral.
+
+[53:11] **Cheese Enthusiast**: And that means like, let's say I'm a lender who is providing 35 ERG as the block reward, right?
+
+[53:19] **Cheese Enthusiast**: And I'm taking a 2% fee.
+
+[53:21] **Cheese Enthusiast**: The miner could look at all the other collateral UTXOs out there on the blockchain, and they can find one that's maybe for 1%.
+
+[53:28] **Cheese Enthusiast**: They'll use that instead.
+
+[53:30] **Cheese Enthusiast**: So in that way, it ends up being most likely standardized at a certain level.
+
+[53:35] **Cheese Enthusiast**: And lenders obviously have some incentive to try and increase the fee.
+
+[53:39] **Cheese Enthusiast**: But at the same time, they're also requiring the Lithos token, which is coming from miners.
+
+[53:44] **Cheese Enthusiast**: And in that sense, the idea is to have a sort of balance and a sort of proof of work economy that allows lenders to provide their ERG and gain additional ERG back, while allowing miners to sell their Lithos token to these collateral providers.
+
+[54:20] **Cheese Enthusiast**: So I think that is theoretically possible.
+
+[54:23] **Cheese Enthusiast**: However, one thing to keep in mind is that as miners gain more ERG, they can collateralize the ERG themselves.
+
+[54:30] **Cheese Enthusiast**: So then they don't have to pay a fee for themselves.
+
+[54:32] **Cheese Enthusiast**: And then at that point, you're almost always incentivized to use your own collateral if you have the ERG for it.
+
+[54:38] **Cheese Enthusiast**: So third party collateralization is mostly for miners who don't have the actual ERG amount to collateralize themselves.
+
+[54:45] **Cheese Enthusiast**: And this is for new miners who have never mined inside the ERGO ecosystem before, et cetera.
+
+[54:49] **Cheese Enthusiast**: So in that sense, that's what third party collateralization is used for.
+
+[55:01] **Cheese Enthusiast**: Right, right.
+
+[55:03] **Cheese Enthusiast**: So, for example, if you've ever solo-mined a block on Ergo, you get the block and then you have to wait 720 blocks to have that block confirmed, and then it goes to this certain address, your mining reward address is what it's called, and then you can spend it from your wallet.
+
+[55:24] **Cheese Enthusiast**: When we're collateralizing what the actual miner of the block is doing, they're changing the reward address to the address of the lender.
+
+[55:33] **Cheese Enthusiast**: They're getting that block reward in 720 blocks now.
+
+[55:36] **Cheese Enthusiast**: But the collateral that they provided is being instantly paid to all the miners.
+
+[55:40] **Cheese Enthusiast**: And the difference is that the collateral they provided is going to be a slightly less amount.
+
+[55:45] **Cheese Enthusiast**: And that slightly less amount that's being missing is the fee that the collateral provider gets at the end after 720 blocks.
+
+[56:09] **Cheese Enthusiast**: Sorry, can you repeat that?
+
+[56:17] **Cheese Enthusiast**: Right, yeah, that's the current idea right now.
+
+[56:20] **Cheese Enthusiast**: Right now, that's actually not implemented in the testnet.
+
+[56:22] **Cheese Enthusiast**: Right now, anybody can provide collateral.
+
+[56:24] **Cheese Enthusiast**: But the idea is that miners who mine on the pool will get Lithos tokens.
+
+[56:30] **Cheese Enthusiast**: And then in order to create a collateral contract that will be used as collateral for any blocks being found, you will have to stake some sort of...
+
+[56:42] **Cheese Enthusiast**: You'll have to lock a certain amount of Lithos tokens inside of that UTXO.
+
+[56:49] **Cheese Enthusiast**: And that sort of ensures that there's sort of a market for collateralizers to get Lithos tokens and for miners to sell those Lithos tokens to those collateralizers.
+
+[56:59] **Cheese Enthusiast**: So collateralizers, they get the Lithos tokens, they get gain on their ERG, and then miners, they're selling those Lithos tokens to those collateralizers.
+
+[57:18] **Cheese Enthusiast**: I'm not gonna lie, I haven't determined the exact amounts yet.
+
+[57:21] **Cheese Enthusiast**: I'm still thinking about the tokenomics of the Lithos token.
+
+[57:25] **Cheese Enthusiast**: It hasn't really been my main focus.
+
+[57:28] **Cheese Enthusiast**: My main focus has been having a usable protocol and then I feel that tokenomics after will be more important.
+
+[57:51] **Cheese Enthusiast**: It doesn't have to be confirmed, does it?
+
+[57:58] **Cheese Enthusiast**: Yeah.
+
+[57:59] **Cheese Enthusiast**: Theoretically, yes, it does not have to be ERG.
+
+[58:02] **Cheese Enthusiast**: However, the lender will be paid in ERG no matter what.
+
+[58:05] **Cheese Enthusiast**: Yeah.
+
+[58:06] **Cheese Enthusiast**: But yes, theoretically, the collateral could be anything that they want.
+
+[58:09] **Cheese Enthusiast**: And if the miners choose, for example, to get paid in SigmaUSD, they could if they wanted to.
+
+[58:16] **Cheese Enthusiast**: Yeah.
+
+[58:25] **Cheese Enthusiast**: Yeah, no, I definitely, I think that's fair, honestly.
+
+[58:29] **Cheese Enthusiast**: I initially did not even think about a token, but I felt like I want to incentivize collateralization and incentivize people to join decentralized mining pools, because honestly, most miners...
+
+[58:42] **Cheese Enthusiast**: They want whatever works, right?
+
+[58:44] **Cheese Enthusiast**: And they see a stratum on Heropool.
+
+[58:47] **Cheese Enthusiast**: They're going to go join that.
+
+[58:47] **Cheese Enthusiast**: They're not going to join Lithos.
+
+[58:49] **Cheese Enthusiast**: So I feel like there should be some sort of incentivization for them as well to be part of a decentralized mining pool.
+
+[58:55] **Cheese Enthusiast**: And in that way, we're enforcing, we're ensuring that more people will join this decentralized mining pool.
+
+[59:03] **Cheese Enthusiast**: Because they're getting paid a little bit extra, right?
+
+[59:06] **Cheese Enthusiast**: And that's not to mention as well MEV and storage rent, which will be additional rewards for them to join a decentralized mining pool as well.
+
+[59:28] **Cheese Enthusiast**: No, I think it's tough because especially these days, a lot of tokens are useless.
+
+[59:32] **Cheese Enthusiast**: In my opinion, there's a lot of things that don't need tokens that have them.
+
+[59:36] **Cheese Enthusiast**: So definitely it's something I thought about with Lithos as well.
+
+[59:40] **Cheese Enthusiast**: Do I need a token?
+
+[59:41] **Cheese Enthusiast**: Do I want a token?
+
+[59:43] **Cheese Enthusiast**: Is it really necessary?
+
+[59:44] **Cheese Enthusiast**: Currently, right now, I feel like a token will be useful in that sense.
+
+[59:49] **Cheese Enthusiast**: But right now, the main focus has been the protocol, making sure that works.
+
+[59:54] **Cheese Enthusiast**: And then tokenomics will be most likely the last thing I work on.
+
+[59:57] **Cheese Enthusiast**: I don't want to prioritize it because it is important.
+
+[60:02] **Cheese Enthusiast**: It's not the main focus of the protocol itself.
+
+[60:06] **Cheese Enthusiast**: The main focus of the protocol is decentralizing mining.
+
+[60:22] **Cheese Enthusiast**: It is kind of similar to that, I believe.
+
+[60:23] **Cheese Enthusiast**: Yeah.
+
+[60:27] **Cheese Enthusiast**: Yeah, I think it's an interesting idea.
+
+[60:29] **Cheese Enthusiast**: And it allows people who aren't mining to gain ERG.
+
+[60:33] **Cheese Enthusiast**: And I feel like that's been a big pain point for some people in the Ergo ecosystem.
+
+[60:36] **Cheese Enthusiast**: I've heard that mentioned before in the past.
+
+[60

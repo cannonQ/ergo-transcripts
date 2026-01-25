@@ -1,0 +1,111 @@
+{
+  "call_date": "2025-10-19",
+  "call_title": "Machina Finance: eUTXO-Native P2P DEX on Ergo \u2014 Alison Robson (Ergo Meetup 2025)",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "11:32",
+      "decision": "No protocol level fees for Machina",
+      "speaker": "anon_BR",
+      "context": "Reached decision after years of maturation that protocol level fees are not good for growth",
+      "topic": "tokenomics",
+      "significance": "major",
+      "quote": "we reached to the decision that protocol level fees are not good for very good growth as a whole. So we just gave up on this and let's make a public good"
+    },
+    {
+      "id": 2,
+      "timestamp": "19:47",
+      "decision": "Hermes will replace GraphQL on Nautilus",
+      "speaker": "anon_BR",
+      "context": "GraphQL was acknowledged as a big mistake, Hermes will provide better user experience",
+      "topic": "technical",
+      "significance": "major",
+      "quote": "Hermes, we will replace GraphQL on Nautilus, so hopefully we have a way better user experience there"
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "20:24",
+      "commitment": "Have Hermes fully functional",
+      "owner": "anon_BR",
+      "timeline": "by the end of this year",
+      "topic": "technical",
+      "quote": "by the end of this year, I want to have Hermes fully functional"
+    },
+    {
+      "id": 2,
+      "timestamp": "20:38",
+      "commitment": "Release Machina SDK",
+      "owner": "anon_BR",
+      "timeline": "Q1 of next year",
+      "topic": "technical",
+      "quote": "And Fleet SDK for Q1 of the next year. Oh, sorry, not Fleet SDK, but Machina SDK"
+    },
+    {
+      "id": 3,
+      "timestamp": "21:19",
+      "commitment": "Have full end-to-end beta on Mainnet",
+      "owner": "anon_BR",
+      "timeline": "Q2",
+      "topic": "technical",
+      "quote": "on Q2, our plan is to have our full end-to-end beta on Mainnet"
+    }
+  ],
+  "open_questions": [],
+  "reversals_or_updates": [
+    {
+      "id": 1,
+      "timestamp": "19:13",
+      "previous": "GraphQL implementation for Ergo",
+      "update": "GraphQL acknowledged as a big mistake",
+      "reason": "It was not successful despite being built to make Ergo work properly",
+      "speaker": "anon_BR",
+      "topic": "technical"
+    }
+  ],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "09:01",
+      "fact": "Biggest grid contract is around 300 bytes, allowing 219 orders in a single transaction",
+      "speaker": "anon_BR",
+      "topic": "technical"
+    },
+    {
+      "id": 2,
+      "timestamp": "09:23",
+      "fact": "Single buy-and-sell orders are 16 bytes",
+      "speaker": "anon_BR",
+      "topic": "technical"
+    },
+    {
+      "id": 3,
+      "timestamp": "22:12",
+      "fact": "Maximum block size is 1.27 million bytes (1,270 kilobytes)",
+      "speaker": "mgPai",
+      "topic": "technical"
+    },
+    {
+      "id": 4,
+      "timestamp": "22:25",
+      "fact": "Maximum transaction size is 96 kilobytes",
+      "speaker": "mgPai",
+      "topic": "technical"
+    },
+    {
+      "id": 5,
+      "timestamp": "22:41",
+      "fact": "Can do about 3750 orders per block (worst case)",
+      "speaker": "mgPai",
+      "topic": "technical"
+    },
+    {
+      "id": 6,
+      "timestamp": "29:21",
+      "fact": "Best case is 16,000 transactions per block",
+      "speaker": "anon_BR",
+      "topic": "technical"
+    }
+  ]
+}

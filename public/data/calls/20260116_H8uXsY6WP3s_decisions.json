@@ -1,0 +1,110 @@
+{
+  "call_date": "2026-01-16",
+  "call_title": "Ergo Call 2026-01-16",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "57:36",
+      "decision": "Next call will be chain cache basis-related spaces",
+      "speaker": "kushti",
+      "context": "Discussing topic for next Thursday's call",
+      "topic": "community",
+      "significance": "minor",
+      "quote": "I don't know. So let's do maybe chain cache basis-related spaces. How about that next Thursday then?"
+    },
+    {
+      "id": 2,
+      "timestamp": "48:07",
+      "decision": "Core repositories now have agents.md file prohibiting AI agents in main code, only allowing them for testing",
+      "speaker": "kushti",
+      "context": "Managing code quality in core repositories",
+      "topic": "technical",
+      "significance": "major",
+      "quote": "Then for core repositories we now have the interpreter and also the node repositories. The code there now contains agents.md file which is prohibiting to use AI agents in main codes, non-testing. So, well, agents may produce tests only according to those rules for agents."
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "55:57",
+      "commitment": "Need to revive work on Ergo book and ping Joe, Greyman, and invite Martin",
+      "owner": "kushti",
+      "timeline": "unspecified",
+      "topic": "documentation",
+      "quote": "I think we need to revive work on Ergo book, right? So well, to outline the path, how to get better money for the real-world needs. From those ideas, people can work with AI agents also, with or without AI agents that they can develop from the, well, ideas from the Ergo book. So I need to ping, guys working on that, so Joe, Greyman, and yeah, I'm also inviting Martin"
+    },
+    {
+      "id": 2,
+      "timestamp": "57:59",
+      "commitment": "Will invite more people to next spaces including Joe",
+      "owner": "kushti",
+      "timeline": "next Thursday",
+      "topic": "community",
+      "quote": "Yeah, we will invite more guys, so Joe maybe, and so on."
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "01:24",
+      "question": "How secure is running the vibe-coded Rust node, especially for miners",
+      "context": "Louis Vatra created an entire node in Rust using AI",
+      "topic": "technical",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "35:52",
+      "question": "Is there any way to have AI agent on-chain which can execute stuff based on logic",
+      "context": "Discussing AI agents executing logic on blockchain",
+      "topic": "technical",
+      "raised_by": "HQ"
+    },
+    {
+      "id": 3,
+      "timestamp": "45:05",
+      "question": "Whether EF will be able to handle any Ergo hack this year because of remaining funds",
+      "context": "Discussing security concerns and foundation resources",
+      "topic": "governance",
+      "raised_by": "HQ"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "01:24",
+      "fact": "There are already divergences between the vibe-coded Rust node and reference clients",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 2,
+      "timestamp": "02:26",
+      "fact": "HQ built an Android mobile dApp in one hour using vibe coding",
+      "speaker": "HQ",
+      "topic": "development"
+    },
+    {
+      "id": 3,
+      "timestamp": "33:39",
+      "fact": "Two new devs joined thanks to vibe coding: Michael and CannonQ",
+      "speaker": "HQ",
+      "topic": "community"
+    },
+    {
+      "id": 4,
+      "timestamp": "47:56",
+      "fact": "About 100 pull requests were created in all repositories during the unstoppable hackathon in Jaipur",
+      "speaker": "kushti",
+      "topic": "development"
+    },
+    {
+      "id": 5,
+      "timestamp": "04:25",
+      "fact": "qx's Site app is about 10,000 lines of code in one HTML file hosted on IPFS",
+      "speaker": "qx",
+      "topic": "development"
+    }
+  ]
+}

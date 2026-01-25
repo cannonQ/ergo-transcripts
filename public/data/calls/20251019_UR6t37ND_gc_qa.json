@@ -1,0 +1,37 @@
+{
+  "call_date": "2025-10-19",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "22:35",
+      "question": "How many max size transactions can fit per block and what's the total orders capacity?",
+      "asker": "mgPai",
+      "answer": "You can have about 13 max size transactions per block since maximum block size is 1.27 million bytes and max transaction size is 96 kilobytes. With 290 orders per transaction, that gives us about 3,750 orders per block in the worst case.",
+      "responder": "mgPai",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "block_size",
+        "transaction_limits",
+        "throughput",
+        "orders"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "23:36",
+      "question": "Do we know best case? How many orders for the smallest orders?",
+      "asker": "mgPai",
+      "answer": "Best case is like 16,000 transactions per block. The smallest orders are around 16 bytes compared to the largest grid contracts at around 300 bytes.",
+      "responder": "anon_BR",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "contract_size",
+        "optimization",
+        "throughput",
+        "orders"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "call_date": "2025-12-05",
+  "call_title": "Ergo PoW Blockchain - AMA - December 4th 17UTC",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "AMA Format Changes and Schedule Announcement",
+      "category": "community",
+      "start_time": "00:13",
+      "end_time": "01:41",
+      "primary_speaker": "qx()",
+      "summary": "Introduction of new monthly AMA format with structured scheduling. First Wednesday/Thursday features guest speakers, third Thursday has community discussions, with flexible programming for other weeks.",
+      "key_terms": [
+        "AMA format",
+        "monthly schedule",
+        "community chat",
+        "guest speakers"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "USE Stablecoin Launch Success and Off-chain Bot Development",
+      "category": "defi",
+      "start_time": "01:41",
+      "end_time": "08:04",
+      "primary_speaker": "kushti",
+      "summary": "USE stablecoin launch achieved 395,000 ERG backing with 129 participants. Off-chain bots going live today with UI expected by weekend. Project aims to activate dormant community liquidity for ecosystem growth.",
+      "key_terms": [
+        "USE stablecoin",
+        "off-chain bots",
+        "community liquidity",
+        "fair launch",
+        "CLB framework"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "USE Stablecoin Technical Design and Dexy Gold Comparison",
+      "category": "technical",
+      "start_time": "08:04",
+      "end_time": "11:45",
+      "primary_speaker": "kushti",
+      "summary": "kushti explains USE contract development and comparison with Dexy Gold experimental launch. Emphasizes fair launch documentation to avoid future mythology like SigmaUSD experienced.",
+      "key_terms": [
+        "algorithmic stablecoin",
+        "Dexy Gold",
+        "fair launch",
+        "smart contracts",
+        "volatility management"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Rosen Bridge Cross-chain Expansion Strategy",
+      "category": "bridges",
+      "start_time": "11:45",
+      "end_time": "17:28",
+      "primary_speaker": "Joe",
+      "summary": "Discussion of using Rosen Bridge to expand USE to new markets including Binance Smart Chain and Base. Bridge designed for censorship resistance with geographically distributed guards and no central control points.",
+      "key_terms": [
+        "Rosen Bridge",
+        "cross-chain",
+        "censorship resistance",
+        "guard set",
+        "distributed infrastructure"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Reserve Assets and Market Volatility Discussion",
+      "category": "defi",
+      "start_time": "17:28",
+      "end_time": "22:28",
+      "primary_speaker": "Joe",
+      "summary": "Analysis of using different reserve assets like precious metals versus USD focus. Discussion of paper markets, rehypothecation issues, and decision to focus on USD first due to market dominance and understanding.",
+      "key_terms": [
+        "reserve assets",
+        "precious metals",
+        "market volatility",
+        "rehypothecation",
+        "USD dominance"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Kachina Protocol and Privacy Technologies",
+      "category": "technical",
+      "start_time": "22:28",
+      "end_time": "28:15",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of Kachina protocol from Midnight blockchain for private contracts. Plans to potentially bring USE to Midnight via Rosen Bridge for private stablecoin functionality, with consideration of post-quantum cryptography challenges.",
+      "key_terms": [
+        "Kachina protocol",
+        "Midnight blockchain",
+        "private contracts",
+        "post-quantum cryptography",
+        "privacy DEX"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Multi-chain USE Deployment and Uniswap V3 Efficiency",
+      "category": "defi",
+      "start_time": "28:15",
+      "end_time": "36:18",
+      "primary_speaker": "richi",
+      "summary": "Richie explains plans for USE expansion using Uniswap V3 concentrated liquidity for 20x efficiency gains. Focus on Binance Smart Chain first, then other chains, with community-crowdsourced liquidity provision.",
+      "key_terms": [
+        "Uniswap V3",
+        "concentrated liquidity",
+        "Binance Smart Chain",
+        "arbitrage trading",
+        "liquidity efficiency"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Off-chain Bot Redundancy and Integration Plans",
+      "category": "technical",
+      "start_time": "36:18",
+      "end_time": "42:49",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of off-chain bot redundancy for USE protocol and potential integration with Machina Finance for enhanced liquidity efficiency. Plans for wallet integration and multiple DEX support.",
+      "key_terms": [
+        "off-chain bots",
+        "Machina Finance",
+        "grid orders",
+        "wallet integration",
+        "DEX integration"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "CLB Token Trading and LP Token Mechanics",
+      "category": "defi",
+      "start_time": "42:49",
+      "end_time": "47:36",
+      "primary_speaker": "richi",
+      "summary": "Explanation of CLB tokens as tradeable liquidity provider tokens with two-year lock period until December 2027. Tokens represent stake in USE liquidity pool and can be traded before redemption period.",
+      "key_terms": [
+        "CLB tokens",
+        "liquidity provider",
+        "time lock",
+        "redemption period",
+        "smart contract"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Rosen Runes Bitcoin Integration and DeFi Development",
+      "category": "bridges",
+      "start_time": "47:36",
+      "end_time": "50:20",
+      "primary_speaker": "Joe",
+      "summary": "Rosen Runes launched enabling Bitcoin asset wrapping. Exploration of interactive transaction construction and partially signed transactions for Bitcoin DeFi, plus integration with Ducat protocol stablecoin.",
+      "key_terms": [
+        "Rosen Runes",
+        "Bitcoin DeFi",
+        "interactive transactions",
+        "Ducat protocol",
+        "atomic swaps"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Lithos Mining Protocol Testnet Success",
+      "category": "technical",
+      "start_time": "50:20",
+      "end_time": "53:50",
+      "primary_speaker": "Joe",
+      "summary": "Lithos testnet showing strong participation with successful fraud proof implementation. First successful slashing occurred, demonstrating the audit mechanism where miners are incentivized to catch and report fraudulent work submissions.",
+      "key_terms": [
+        "Lithos mining",
+        "fraud proofs",
+        "testnet",
+        "slashing mechanism",
+        "work auditing"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Academic Papers and Research Workshop Participation",
+      "category": "technical",
+      "start_time": "54:55",
+      "end_time": "57:32",
+      "primary_speaker": "kushti",
+      "summary": "Multiple papers accepted for stability workshop in Jaipur, India on December 15th. Chain cache, Dexy, and other research papers to be presented by kushti, Luca, and Bruno.",
+      "key_terms": [
+        "academic papers",
+        "stability workshop",
+        "chain cache",
+        "research presentation",
+        "Jaipur conference"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Wallet Updates and Sub-blocks Development",
+      "category": "technical",
+      "start_time": "57:32",
+      "end_time": "59:23",
+      "primary_speaker": "kushti",
+      "summary": "New Minotaur wallet version ready, Ergo Wallet update under testing. Sub-blocks devnet testing completed with mining peers, broader community testing to begin soon with white paper publication planned.",
+      "key_terms": [
+        "Minotaur wallet",
+        "Ergo Wallet",
+        "sub-blocks",
+        "devnet testing",
+        "white paper"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "Community Hub and Development Tools Updates",
+      "category": "ecosystem",
+      "start_time": "59:23",
+      "end_time": "62:01",
+      "primary_speaker": "qx()",
+      "summary": "Recognition of Bez's work on ergoblockchain.org community hub and marketing materials. Discussion of Digin's World development platform and AI-assisted contract coding experiments.",
+      "key_terms": [
+        "community hub",
+        "ergoblockchain.org",
+        "Digin's World",
+        "AI coding",
+        "development tools"
+      ]
+    },
+    {
+      "topic_id": 15,
+      "title": "Mexico Conference and Event Planning",
+      "category": "marketing",
+      "start_time": "62:01",
+      "end_time": "63:37",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of potential Anarcopulco conference participation in Acapulco, Mexico in late February. Plans to showcase mesh networks and peer-to-peer cash systems for community trading.",
+      "key_terms": [
+        "Anarcopulco conference",
+        "Mexico",
+        "mesh networks",
+        "peer-to-peer cash",
+        "community trading"
+      ]
+    },
+    {
+      "topic_id": 16,
+      "title": "BRIC Educational Token Economy Expansion",
+      "category": "community",
+      "start_time": "63:37",
+      "end_time": "69:12",
+      "primary_speaker": "qx()",
+      "summary": "Major BRIC system upgrade moving from Discord Tipperbot to Nautilus integration with automated reward distribution. Students earn BRIC for shop check-ins and can spend it on 3D printing costs, creating circular economy.",
+      "key_terms": [
+        "BRIC token",
+        "educational economy",
+        "Nautilus integration",
+        "automated rewards",
+        "circular economy"
+      ]
+    }
+  ]
+}

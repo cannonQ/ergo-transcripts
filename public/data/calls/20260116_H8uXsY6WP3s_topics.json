@@ -1,0 +1,262 @@
+{
+  "call_date": "2026-01-16",
+  "call_title": "Ergo Community Chat - AI Coding",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Introduction and AI Vibe Coding Discussion",
+      "category": "community",
+      "start_time": "00:00",
+      "end_time": "01:56",
+      "primary_speaker": "qx",
+      "summary": "Welcome to the community chat focused on AI and vibe coding. Kushti mentions using AI for writing tests and working on basis tracker server. Discussion of Louis Vatra creating an entire Rust node using AI coding.",
+      "key_terms": [
+        "vibe coding",
+        "AI",
+        "basis tracker",
+        "Rust node"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "HQ's Android Mobile dApp Development",
+      "category": "technical",
+      "start_time": "01:56",
+      "end_time": "03:33",
+      "primary_speaker": "HQ",
+      "summary": "HQ demonstrates his AI-coded Android mobile dApp that provides in-wallet swapping functionality. The frontend was completed in about one hour using AI, allowing users to swap ERG for other blockchain assets directly in their mobile wallet.",
+      "key_terms": [
+        "Android dApp",
+        "mobile wallet",
+        "WorldPay",
+        "in-wallet swapping"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "QX's Unstoppable IPFS Applications Demo",
+      "category": "technical",
+      "start_time": "03:33",
+      "end_time": "14:32",
+      "primary_speaker": "qx",
+      "summary": "QX demonstrates three AI-coded applications hosted on IPFS: Site (reporting app), Say (Twitter alternative), and Enfermo (messaging). These applications interact with Ergo blockchain and are designed to be unstoppable with no central server dependency.",
+      "key_terms": [
+        "IPFS",
+        "unstoppable apps",
+        "Site",
+        "Say",
+        "Enfermo",
+        "reporting",
+        "messaging"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Encryption and Messaging Security Discussion",
+      "category": "technical",
+      "start_time": "14:32",
+      "end_time": "16:48",
+      "primary_speaker": "HQ",
+      "summary": "HQ suggests using sender private key for message encryption instead of passcodes. QX explains technical limitations with Nautilus wallet exposure and the challenges of implementing public key cryptography for the messaging system.",
+      "key_terms": [
+        "encryption",
+        "private key",
+        "Nautilus wallet",
+        "message security"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "MuMart Shopping Cart AI Development",
+      "category": "nft",
+      "start_time": "16:48",
+      "end_time": "20:37",
+      "primary_speaker": "HQ",
+      "summary": "HQ showcases new MuMart features including bulk listing, bulk buying, and drag-and-drop shopping cart functionality. The frontend was 50% AI-generated while backend blockchain logic was manually coded.",
+      "key_terms": [
+        "MuMart",
+        "NFT marketplace",
+        "bulk buying",
+        "shopping cart",
+        "drag-and-drop"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "AI Coding Challenges and Token Limits",
+      "category": "technical",
+      "start_time": "20:37",
+      "end_time": "23:39",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of managing context windows and token limits when AI coding large applications. Kushti explains using specs and working piece by piece with agents like QuantCode to manage complexity.",
+      "key_terms": [
+        "context window",
+        "token limits",
+        "specs",
+        "QuantCode",
+        "code generation"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Basis Testing and Mining Pool Conversion",
+      "category": "technical",
+      "start_time": "23:39",
+      "end_time": "26:07",
+      "primary_speaker": "Fitz",
+      "summary": "Fitz shares experience with AI-coded basis testing using Alice, Carol, Bob test scenarios. QX demonstrates converting a Perl-based mining pool application to pure HTML/JavaScript for IPFS hosting.",
+      "key_terms": [
+        "basis testing",
+        "mining pool",
+        "SigmaNuts",
+        "HTML conversion",
+        "serverless"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Infrastructure Optimization with AI",
+      "category": "technical",
+      "start_time": "26:07",
+      "end_time": "29:06",
+      "primary_speaker": "qx",
+      "summary": "QX explains using AI to identify and fix database performance issues on peer-to-peer infrastructure. AI helped create PostgreSQL indexes to handle large queries that would have been impossible to solve without expert help.",
+      "key_terms": [
+        "database optimization",
+        "PostgreSQL",
+        "indexes",
+        "peer-to-peer infrastructure",
+        "query performance"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "AI Smart Contract Verification and Auditing",
+      "category": "technical",
+      "start_time": "29:06",
+      "end_time": "32:42",
+      "primary_speaker": "kushti",
+      "summary": "Kushti discusses using LLMs to verify and audit Ergo smart contracts before deployment. Common issues like missing register checks and double-spending vulnerabilities can be efficiently detected by AI.",
+      "key_terms": [
+        "smart contract audit",
+        "ErgoScript",
+        "contract verification",
+        "security testing",
+        "LLM auditing"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "New Developers and Community Growth",
+      "category": "community",
+      "start_time": "32:42",
+      "end_time": "35:27",
+      "primary_speaker": "HQ",
+      "summary": "Recognition of new developers Michael and CannonQ who are contributing through AI-assisted coding. Discussion of CannonQ's Cyberverse Viewer and wallet history tools built with AI assistance.",
+      "key_terms": [
+        "new developers",
+        "CannonQ",
+        "Michael",
+        "Cyberverse Viewer",
+        "wallet history"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "On-chain AI Agents Discussion",
+      "category": "technical",
+      "start_time": "35:27",
+      "end_time": "40:34",
+      "primary_speaker": "HQ",
+      "summary": "HQ asks about implementing AI agents directly on-chain within smart contracts. Kushti explains that AI logic would remain off-chain with trusted gateways, as true on-chain AI execution isn't practical.",
+      "key_terms": [
+        "AI agents",
+        "on-chain AI",
+        "smart contracts",
+        "trusted gateways",
+        "off-chain processing"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Economic Implications of Easier Development",
+      "category": "ecosystem",
+      "start_time": "40:34",
+      "end_time": "43:31",
+      "primary_speaker": "kushti",
+      "summary": "Kushti discusses how AI-assisted development changes blockchain economics. With 100x more developers, differentiation comes from blockchain fundamentals, sound economic principles, and solid monetary foundations rather than just technical capabilities.",
+      "key_terms": [
+        "blockchain economics",
+        "developer accessibility",
+        "fundamentals",
+        "monetary principles",
+        "differentiation"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "AI Hackathon and Template Proposal",
+      "category": "community",
+      "start_time": "44:05",
+      "end_time": "48:07",
+      "primary_speaker": "HQ",
+      "summary": "HQ proposes creating GitHub templates in multiple frameworks with wallet connection examples for AI-based hackathons. This would provide base code for developers to build upon and encourage more blockchain application development.",
+      "key_terms": [
+        "hackathon",
+        "GitHub templates",
+        "wallet connection",
+        "development frameworks",
+        "community building"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "Pull Request Quality and Maintainer Challenges",
+      "category": "technical",
+      "start_time": "48:07",
+      "end_time": "51:50",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of challenges maintainers face with low-quality AI-generated pull requests. Kushti mentions receiving hundreds of vibe-coded PRs, most being low-quality 'slop' that requires significant review time.",
+      "key_terms": [
+        "pull requests",
+        "code quality",
+        "maintainer burden",
+        "code review",
+        "repository management"
+      ]
+    },
+    {
+      "topic_id": 15,
+      "title": "Voice AI and Educational Content",
+      "category": "technical",
+      "start_time": "52:31",
+      "end_time": "56:57",
+      "primary_speaker": "qx",
+      "summary": "QX demonstrates ChatterTTS voice cloning technology and proposes using it to create Deco educational content with familiar community voices. Kushti mentions X10xin's work on a Sigma book analyzing repositories with AI agents.",
+      "key_terms": [
+        "voice AI",
+        "ChatterTTS",
+        "Deco",
+        "educational content",
+        "Sigma book",
+        "multilingual"
+      ]
+    },
+    {
+      "topic_id": 16,
+      "title": "Closing and Next Session Planning",
+      "category": "community",
+      "start_time": "56:57",
+      "end_time": "58:48",
+      "primary_speaker": "qx",
+      "summary": "Wrap-up of the AI coding discussion with plans for next week's session focused on Chain Cache and basis-related topics. Encouragement for developers to participate in the community regardless of experience level.",
+      "key_terms": [
+        "Chain Cache",
+        "basis",
+        "community participation",
+        "developer chat",
+        "next session"
+      ]
+    }
+  ]
+}

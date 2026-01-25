@@ -1,0 +1,639 @@
+[00:00] **qx()**: All right, we are live.
+
+[00:01] **qx()**: Hello and welcome to a late night special episode with everybody's favorite ergonaut Joseph Arminio.
+
+[00:13] **qx()**: Joe, it's a pleasure to be here with you tonight. How you doing?
+
+[00:17] **armeanio**: Pretty good. I think you oversold me there.
+
+[00:19] **qx()**: Did I? No, no, no.
+
+[00:21] **qx()**: We are live. Hell no. I don't think so, sir.
+
+[00:26] **qx()**: I just checked our stream. Our stream's working. That's a good sign, right? I'm going to post it in chat to see who's there.
+
+[00:39] **qx()**: Perfect. All right. I've got my water glass to make sure that I have enough hydration during this chat.
+
+[00:52] **qx()**: You got some apple juice there, Joe?
+
+[00:55] **qx()**: Perfect. Nothing like Colorado apple juice made from the fresh Colorado apple trees.
+
+[01:01] **armeanio**: We have some somewhere.
+
+[01:05] **qx()**: Perfect. All right, Joe, how's it going? How do you feel in this? What's it called?
+
+You know, I was talking to Glasgow today and I was like, if you listen to some people out there in the space, most of the time, I've been so busy lately with Ergo, with the infrastructure now trying to move machines around, trying to get them off centralized like Hetzner servers or unreliable cloud flare load balancing, that kind of thing.
+
+You pick up your head once in a while and you listen to these guys. It's like the freaking world's fallen. It's like, what are you guys looking at? Because I'm seeing these structures that we're building that are absolutely fantastic. What the hell are they seeing, Joe?
+
+[01:55] **armeanio**: Well, most people don't run infrastructure. I don't know how else to say it.
+
+Crypto has moved pretty far beyond this idea of peer-to-peer networks and the space has only gotten dumber and dumber and dumber as people don't localhost anything. And so they care less and less about what they're running and why they're running what they're running. And it just becomes like a leveraged form of speculation.
+
+I can't, I don't really deal with that crowd. I try not to because you look at Rosen, right. Project I work on. You want to be a watcher. If you want to be a watcher, you need to run it, right?
+
+[02:49] **qx()**: Not only do you need to run it, Joe, but you need to run it. You need to pay attention. You need to make sure that you want to make a profit off it. You want to get all those transactions recorded and get that funding from there. You got to pay it. You got to upgrade when the upgrades come.
+
+[03:04] **armeanio**: You got to make sure it's running. You got to run it. You look at Lithos, the same thing, it's software. So if you want to use it, you got to run it, right?
+
+And so if I get a hard time from people that don't really run anything, I don't know what to tell them. At that point, everything is just a ticker, a letter subject to price charts over a five, ten, twenty minute timeframe, I don't know, a week timeframe.
+
+Well, if you're trying to build stuff, you're running infrastructure, your mindset's just a lot longer, right? So there's a certain disconnect between this idea of like being a peer in the network, or a network anyway, versus just being like a user or investor. And it's a different mentality.
+
+I am what I am, right? So I just ignore it. Honestly, I just ignore it and then like, well, what am I building? I know why I'm building what I'm building. And that makes me happy.
+
+Like if you take Lithos, right? It's like, OK, the most interesting property in proof of work is that anyone anywhere can silently compute, submit a block, get a reward. There's no cap. There's no artificial bound set of actors that can build blocks. It's just anyone, anywhere at any time that has the energy and hardware.
+
+You would think that a system like that, in theory, could be quite efficient in terms of having as many block producers as possible. But you run into this economic incentive issue where if you're solo mining, you are in essence playing the lottery where you're going to win every once in a while, but you're not going to win a lot.
+
+[05:16] **qx()**: You play the law of averages there, right?
+
+[05:18] **armeanio**: It just depends on the size of the network, right? Every once in a while there's someone with a BitAxe that throws out a Bitcoin block. That's pretty cool to see.
+
+[05:27] **qx()**: Oh, did you see the article about those? There were these little, some of those little things with LED screens like the lottery miners, right, for Bitcoin. Come to find out all it did was play a basic image on the screen animation and the rest was just bullshit. Just like selling paperweights for people to plug in and burn a tiny bit of electricity and feel like...
+
+[05:49] **armeanio**: It's almost like open source code is important.
+
+[05:52] **qx()**: Almost, right?
+
+[05:57] **armeanio**: Yeah, I think there was even someone that was using like NiceHash, renting some hash rate and decided to play the lottery and hit a Bitcoin block, which is pretty damn cool.
+
+Anyway, so what is Lithos designed to do? It's we're trying to put everything on chain so that everybody can build their own blocks. Simple as that.
+
+And that's something that because you have a huge set of people that they're not peers, they don't run anything, right? What they run is their phone on CoinGecko or CoinMarketCap and rotate, hop around, chase whatever the flavor of the day is.
+
+I can't handle that mentality. I would be too stressed.
+
+[06:43] **qx()**: I get it. I think the separation I have there, Joe, is that's fine. If you want to speculate on tokens and do that kind of thing, that's great. Try to make profit off stuff. Try to make honest profit off stuff. Arbitrage. Use the toolings that we have to do that.
+
+But I really get hot and pissy about value extraction. One of those things, if you come into a project and your number one goal is to extract as much value from it as you can for your own pockets instead of building up and being part of it and growing that, that's when you're going to hear from me and probably not for long because I'm probably not going to talk to you for much longer than that.
+
+[07:27] **armeanio**: You're nicer than me. At the end of the day, you're nicer than me. Whenever I run into that, I just tell people pain is the best teacher.
+
+[07:36] **qx()**: That is true. That is true.
+
+[07:39] **armeanio**: Pain is going to teach you better than I ever could. And whenever in my life, whenever I have a problem, I run into something and I have to hit my head against the wall to figure it out. It's a powerful, powerful teacher.
+
+So there's a lot of people that in crypto they've chased whatever. Whatever cartoon, meme, pump fun stuff is out there. They got burned. Pain is a teacher, right?
+
+[08:09] **qx()**: My hope is, too, that we can at least show them some resemblance of usefulness and what the blockchain is about. So even if they do get burnt, they can at least say, Ergo had something cool. Ergo had something cool. They're actually using it for this. This is what they're doing. Let me just peek into that a little bit.
+
+So maybe there's some hope of light there that we're at least projecting into people's eyes when they come by.
+
+[08:37] **armeanio**: Crypto was a lot better when there were a lot more miners because people were actually running things, right? And we've shifted so far away to like everything is delegated through someone else some other service some other person some other pool and you get further and further and further away from like being a peer that for a lot of things, that's just the marketing, right?
+
+Because it's like, okay, well, if you have information that's flowing between the point of like order execution and the user, and you have the ability to see that as it's moving before it gets there, that is information that has value, right?
+
+So you do see a lot of VCs actually just doing like more infrastructure plays. Hey, maybe we can create a wallet, and they're probably not making money from the fees, I'm gonna assume, right?
+
+It is what it is like that that is why you want to be a peer in these networks is because you have the ability to run your own transactions You have the ability to run your own software.
+
+[09:48] **qx()**: Yeah, I always have this fantasy, not fantasy but I was of this idea of miners as the digital farmers of the world right like you look at I think I use a comparison of like I imagine a futuristic miner of a blockchain that sustains their family perhaps with the transaction fees and and the rewards like you look at like the kind of futuristic outfits like in Star Wars those half underground houses.
+
+They have all this machinery and they're out with their moisture condenser things that they're doing. So same kind of thing. I feel like what other industry can you literally go out and get consumer goods? And when I say consumer goods, I mean definitely with Ergo, right? Because we're ASIC resistant and you can use consumer level video cards.
+
+What other industry can you go out there, build your way up, create something in your own environment here, control it, point it where you want to, do what you want to, run a solo if you want to, and reap the benefits of that and also contribute to the network.
+
+[10:57] **armeanio**: I tend to look at proof of work from the perspective that it's most optimized whenever there's excess capacity, right? We've already seen that in Bitcoin, where you have like flare off gas mining, and they'll try to build their miners close to power infrastructure points, and then load cycle the output.
+
+I do think that as more people get like there's going to be a lot of developers out there. They're going to have their little GPU rig for AI, right? They're going to have a lot of big AI data centers that have cold capacity, right? I think these things naturally plug in really well to GPU proof of work.
+
+[11:48] **qx()**: Even when people realize that AI companies aren't making money right now and they're cooking up books and it's actually good.
+
+[11:56] **armeanio**: The amount of leverage that they're taking on to scale is fucking wild, right? Crazy. It really is wild. And then it's like, okay, well, for in the first order, right, you have capacity, right? Where let's say the popular LLMs, what percentage are they actually running hot in that data center versus what is like cold storage that is in essence waiting to come online when demand peaks?
+
+That's an interesting question. I don't actually know the answer to that across different systems. But then you have kind of the second order effects, which is like this cutthroat competition to always have the best hardware, right? Because that is something that's going to lead to better models is better hardware.
+
+And then it's like okay well realistically you take I don't know the H100 how many years is it going to have before it then passes on to like a secondary market secondary life and at that point you're upgrading these facilities and installing new hardware and at some point those are going to recycle out. And they do trickle down, right?
+
+[13:08] **qx()**: They do trickle. And speaking in more nuance than that, Joe, it's just like ASIC miners, right? It's in the interest of the people creating these chips to flood at least a small sector of the market for a discounted price. So let's say you flood 1% of the market with a discounted price, right? For these chips and also these chips are now beating the pants off every other chip out there in the market, right? Because there are older chips out there in the market. Now everybody's going to buy your chips to catch up and you have that rat race going there too. So it's absolutely corporate driven in these circumstances.
+
+[13:44] **armeanio**: Yeah, and then you have a guy on the mountain that it's like, hey, if I can buy an extra 3060 and plug it into my solar system when I'm running at excess capacity, why not mine a little bit, right? Eventually, that'll pay itself off. And I've already invested all this stuff in power for my house. So why wouldn't I want to just take that excess capacity that I have and do something with it, right?
+
+I actually personally. One of these days, I've always wanted to hook the solar up to a little mining rig, heat a greenhouse, then I get food. Then I'm just passing on that excess and the different outputs that are beneficial to my reality.
+
+[14:26] **qx()**: You have enough panels to run your whole house, Joe?
+
+[14:29] **armeanio**: It's not a ton of power, but yeah.
+
+[14:32] **qx()**: You can run a beer fridge and a grill probably, right? That's enough.
+
+[14:35] **armeanio**: I don't need an electric grill out here. Just start a fire.
+
+I mean, those type of setups I think are the most interesting thing where it's like, OK, you have the ability to capture heat. You have the ability to capture excess power production. You have the ability to like capture cold computational power with GPU mining and that's huge because if you look at the actual hardware on the ground that's scaling right there's going to be probably more.
+
+[15:11] **qx()**: The dollar values in GPU added into our economy then the entire Bitcoin market cap and people are I don't understand I don't understand why there's not why there's not startup companies going around right now to all these facilities saying look we can increase your profit margins by 10% if you do these kind of recapture processes with heat with with extra electricity on mining other things I can't believe nobody's tried that yet.
+
+[15:37] **armeanio**: I honestly believe that that sort of thing will come. It'll just be the natural, when the incentives there and someone realizes it and chases it, there's a lot to do there, right?
+
+Is it something that I think about every once in a while? Yeah, I mean, I've made an article, I don't know, six months ago, like, here's how you would optimize Autolykos and make a sigma chain that's for clusters, right? Is that something I actively want to chase? Not really, but I always come back to it when I look at all the hardware that's coming online and I'm like, wow, this is not running at full capacity.
+
+Now, there are Bitcoiners that are like, hey, you know what you should do is you should buy ASICs and then plug them in and then you can mine Bitcoin and also like balance your power for all this other computer equipment that might have another use, right?
+
+And I'm just waiting. I think it's better to just focus on Lithos because if that type of mining does come online and you do have that type of solution where all of these different centers and users can potentially build their own block template, produce their own blocks, that would be really cool because it would be more decentralized.
+
+I do think mining pools have been terrible for Nakamoto's consensus and proof of work. Absolute shit, right? I get why they exist. But even on Bitcoin, you have things like Ocean showing up that are quite interesting projects.
+
+Now, it's funny that when I build on Bitcoin with Ergo stuff, Rosen, we're validating off-chain. And when we're working on the mining stuff on Ergo, we're validating everything from the mining pool on-chain. But then you can look at Ocean is validating everything off-chain. You can do what you can do.
+
+But I do think that there's a lot of really interesting potential for GPU just because of the net amount of hardware that's going to come online in the next 10 years. It makes no sense to have a data center, right? I mean, let's say you own a business, right? And it's like, okay, you've invested all of this money in developing this data center, buying these cards, setting up the power infrastructure, et cetera. And you probably have pretty damn good power prices. If you have any common sense, that's why you placed your center where you did, right?
+
+And you have a lot of leverage debt that you've taken on to scale. And you're basically burning your cards at some floating rate like it's not that hard to say okay what can you create some sort of like micro controlling software that just balances proof of work with demand right then you're always running hot all the time. and you're getting as much value out of your hardware stack as you can. I think that makes sense. It doesn't take a lot of extra capital expenditure versus Bitcoin mining.
+
+And the truth is, most of the value of Bitcoin has been captured a long time ago by miners. So I think there might be some interesting things with like super cluster mining and that type of proof of work. And I think if we can break the dominance of mining pools, that's where things get interesting. That's where you have a really decentralized global system where you have all of these different actors, potentially building their blocks and submitting it to the chain. So I'm excited.
+
+[19:21] **qx()**: I mean, I do hope. Initially, Autolykos was used for to resist mining pools, right? Initially with Ergo, was that the deal? You didn't want mining pools.
+
+[19:33] **armeanio**: Well, mining pools are pretty toxic in terms of the security assumptions, right? Bitcoin, it's like three entities that control block production and like that's terrible. But nonetheless, you have all of these individual miners that do have like local custody of their hardware. They are running their own power. It's just a matter of where they're pointing it, but they don't necessarily understand how he who controls order flow, like controls everything in markets.
+
+And when you have just a basic payment system, it doesn't really matter, right? Like on Bitcoin, it's like, okay, if I send it to you and it's mined in this block or five blocks from now, it's just going from Alice to Bob and who really cares.
+
+But when you start building markets on these systems, right? where it's like okay well now you have race conditions now you have DeFi like now you have this like competition on top of the blocks where you're constantly trying to arbitrage or race for the better price, the better trade, suddenly this ability to control order flows is massive in terms of the economic power that you're controlling versus just Alice to Bob who gives a fuck, wait 10 minutes. Sit down, go outside, have a cigarette, it'll get there next block.
+
+Versus when it's like, hey, you have to pay back your collateral or you're going to get liquidated, right? Then suddenly it's an entirely different ballgame.
+
+[21:12] **qx()**: So now, but with Lithos, right? The individual miners are going to have to be more in tune to that and pay more attention to stocking blocks and stacking them full of transactions.
+
+[21:24] **armeanio**: Yeah, I think there's some really interesting potential like in terms of building markets, right? Because that's ultimately what you want, is to build free markets on top of these systems. Or it's like, OK, well, can we create channels for me to submit a transaction to you, the miner, through Mixnet for privacy? So I never broadcast my IP address, right? And then pay for a priority fee for you to mine it.
+
+Or can we create these other layers of markets for priority fees in DeFi, et cetera, where you're passing on value to the people building blocks, right? I think there's a lot to build on there. You may even have Demurage potential. Storage rent has come online enough to where it is actually releasing DeFi operators.
+
+[22:21] **qx()**: Yeah, for sure.
+
+[22:25] **qx()**: You think we'll see other chains adopt Demurage after the fact, Joe?
+
+[22:30] **armeanio**: It's really dirty, too, in my opinion. Pretty rough assumptions to throw on a chain. I'll get on like Twitter or X or whatever the fuck people are called these days, and I'll talk about Demurage, because I do think that it's a really clean solution in terms of like UTXO state management, right?
+
+So suddenly you have this live set of UTXOs that just moves forward in time. That's really a beautiful system that Alex came up with. You have supply availability become some things that you can accurately project forward through time versus supply availability. Bitcoin is unknown because it's until you sign your transaction, who knows if you lost your key.
+
+And then you have something like Solana, where they just find a fucking bunch of coins somewhere else. And they're like, oh, yeah, sorry, guys, we forgot about that. Right. What was it?
+
+[23:30] **qx()**: It was a chain that we minted. Was that the chain that we minted like a massive amount?
+
+[23:35] **armeanio**: You always have some weird fuck. Yeah. That was they have a stadium in L.A. It's an exchange out west.
+
+[23:49] **armeanio**: I live in the mountains, man. I don't care.
+
+[23:51] **qx()**: It's closer to you than me, sir.
+
+[23:54] **armeanio**: But no, I honestly think like supply supply integrity, and the ability to predict like the available supply is incredibly important for a monetary system. Right? That seems really, really basic. And you do have crazy fucking projects that are like, oh yeah, we're just gonna fork and change the amount. We're just gonna increase the cap and then maybe we'll increase the cap again.
+
+And you gotta ask like, at that point, do you have a debt ceiling versus a supply cap? Or you randomly find a bunch of coins somewhere else. How the fuck does that work? That seems to not be very sound monetary policy. Let's just say that.
+
+[24:41] **qx()**: It doesn't seem to dissuade some users from still utilizing the product though, Joe.
+
+[24:47] **armeanio**: Well, yeah. Listen, man, some people will take the long bet and then they'll just try to back their money, right? I don't think they actually care. I don't think they're running software. I think they have chips on the table, so at that point, red is better than black, obviously, because their money's on red, right?
+
+[25:12] **qx()**: Yeah, true, true, true. I think Luca wants to come join us. Let's see if he's...
+
+[25:17] **armeanio**: I'd love to see Luca.
+
+[25:18] **qx()**: Yeah, yeah, yeah. Let's see what he says. I accidentally left the old Zoom link at the bottom of the YouTube video. Send him one. Bring him up here. He may have been bluffing. We're calling his bluff.
+
+It's okay. I don't want to intrude. Oh, stop, Luca.
+
+[25:37] **armeanio**: Luca was my DJ when we had the Ergo meetup. I don't know if you knew that but he had like when it was like, at the end, he took over the sound system and was blasting tunes for us.
+
+[25:49] **qx()**: Oh, nice. What am I doing here? In the wrong thing. This is going to really jack our interface. So bear with us, people.
+
+I'm going to set the interface back to just us, the whole window. So hang on one second. Keep talking, Joe. Keep talking.
+
+[26:21] **armeanio**: Well, I'm just here for decentralized money, man. That's it. Peer-to-peer networks with decentralized money, right? Think Napster, where anybody anywhere can connect, right? I think that's the best outcome.
+
+And people get opinionated. I mean, bags have their own. It's no different than red or black, right? They put their money on red and suddenly, if you're not red, you're dead, right? It is what it is in this space. There's no escaping it. It's a weird industry.
+
+But if I look at it as money, I think it's really interesting. Ergo is we have privacy assumptions, but we're not a privacy coin, right? And some people will say, well, that's a terrible idea. But if you ask them, should we audit Fort Knox? Should we understand what the gold supply is? Right. They'll be like, oh, that makes sense. You definitely would want that sort of audibility, especially if you're trying to be commodity backed money. Right.
+
+But even that, like, how do we live in a reality where that doesn't just have like a hundred live cameras, anything happens, everybody will know. Right. instead of just, Oh yeah, we haven't audited it since the seventies.
+
+[27:51] **qx()**: I don't know, Joe. I don't know. It's hard. Every time it gets discouraging, especially.
+
+[28:00] **armeanio**: I know. I think you're good at staying out of that part of it to not let it affect you. But I can, I can...
+
+I've said for years on these videos that it's like, listen, I can go to the casino. I can play poker. The drinks are free. I know the drinks are free, right?
+
+[28:25] **qx()**: I would much rather do that than be like, hey the ladies are nicer looking in person, I don't know all that. Let's see. Here comes Luca He's gonna jump in hot Come on, right? Load Luca load load load He is getting his camera ready You have to turn your camera on Luca so we can see you.
+
+Maybe he doesn't want his camera. We'll put it down there. Look, at least connect to audio buddy. All right. Well, he figures out his Mike smartest programmer around and he's, he's having Mike trouble right now. Isn't that how it goes, Joe?
+
+[29:17] **armeanio**: Listen, that's all right.
+
+[29:22] **qx()**: He's got Luca. Can you hear us? Luca?
+
+I see his little mic icon. Was Luca in, did Luca go to India with kushti? Did he go on that trip?
+
+[29:37] **armeanio**: I don't think so. I think you just made that video.
+
+[29:42] **qx()**: Oh, OK. Oh, for stability, Nexus, right? Yeah, that was a good video. That was a great, that was a, it was fun. I had a lot of FOMO for the Colorado meetup, but you guys look like you had a lot of fun. And you did spend twice the budget you were supposed to, Joe.
+
+[30:02] **qx()**: Yes.
+
+All right, Luke, I can't hear us and we can't hear him. So he's leaving and coming back. That's fine. We'll keep we'll be here looking for you afterwards.
+
+[30:31] **armeanio**: After we went to the Garden of the Gods, I took Luca.
+
+[30:35] **qx()**: Did you do a nice little sunset walk holding hands kind of thing?
+
+[30:38] **armeanio**: No, it was like dark. That's fun. Anyway, nice spot.
+
+[30:44] **qx()**: Nice. Very nice. Does it like darker? The sunset was gone kind of thing. It still looks nice. Oh, the sky's gonna look gorgeous out there by then, right?
+
+[30:53] **armeanio**: Yeah, it was beautiful.
+
+[30:56] **qx()**: All right, let's try this again, Luca. We're trying to... Is he here? Luca, can you hear us yet?
+
+Maybe this is Luca just trolling us, Joe. Maybe Luca's like, I'm going to mess with them and make them look silly.
+
+Well, we'll keep going. All right, what else? What else is there, Joe, going on in this world? This has been... This has been bugging me lately too, Joe.
+
+I have... I've always had a very strong dislike for the standard corporatist MBA type, right? It's just always rubbed me the wrong way. Again, value extraction. Their main goal in life is to come in and suck as much money out of everything as possible.
+
+[31:52] **armeanio**: Make everything cheaper, shittier, and make some money, and then fucking leak.
+
+[31:55] **qx()**: Fucking hate it, right? They got their golden parachute, doesn't matter. They made their money, just move to the next thing.
+
+[32:01] **armeanio**: We see that everywhere in life we see that with the you know oh there was an amazing listen i understand i'm literally waiting to get on an airplane and they charge you to take a shit right that's that's like the peak MBA.
+
+[32:19] **qx()**: It's like they sit around and they think how can we make people's lives miserable enough so just miserable enough so that they want to pay a little extra. It's fucking crazy. That stuff really pisses me off. Like I absolutely can't stand it.
+
+So I've been in a kick lately. So for those of you that don't know, I program in one of the oldest languages known to man. Perl. There's Luca.
+
+Luca, can you hear us?
+
+[32:48] **Luca**: Yeah, we're good.
+
+[32:50] **qx()**: Luca, what's up, buddy?
+
+[32:53] **Luca**: He's drinking water.
+
+[32:54] **qx()**: How you doing, buddy? Water, that's fine. We are all inclusive here. We're drinking water, too. Well, Joe's drinking apple juice. I'm drinking water, of course.
+
+All right, let me finish my rant. So I build in Perl, and that also means that Claude, ChatGPT are absolutely amazing at Perl. They are extremely good at programming in Perl. And the amazing thing about Perl is that you can write it to print HTML, you can write it to print JavaScript, you can pretty much get away with almost not quite as sleek and amazing as some of these apps out there that are slow and sluggish, but like we're talking about, I made a whole printing pickup system and backend system that I showed on the AMA the other day.
+
+And like the script is like a couple thousand lines of code, it's 46 kilobytes, it loads like this. So I've been doing a lot of that. And whenever somebody comes to me at Cornell, we had a lot of money taken from us from the federal government, right? or held back, I should say.
+
+And then there was a deal reached where we kind of got some of it back. The story's online, you can read it. But we've been in a mode of money saving recently. And it adds up. So if you think there's five departments in my college alone, so if you think there's a couple people in every one of those that are using something like doodle poll or those kind of things where it's like you know 20-30 bucks a month for the pro version that you need because the free version just gives you enough stuff to be useful and you just need that one extra feature but it's going to cost you the 10-15-20 bucks yeah you got it.
+
+Yeah, so those things have been pissing me off royally. So anything that's like, I think I can do and I do it. So I've made about four or five, maybe six duplicate apps of these. I've made a polling, like an iClicker polling app. I've made an attendance app. I've made a doodle poll app, a full on schedule. It's even better than that. So I've made a handful, maybe even a dozen. I lost count. I have a huge page of these things.
+
+that are geared at being like, fuck you to these applications that just feel like you can write something and be a billionaire and just nickel and dime everybody. So that leads into my frustration in the blockchain industry with value extraction. I guess that's where my stories connect, but it's just so damn frustrating.
+
+So yeah, Luca, welcome. The amazing Luca, how are you doing?
+
+[35:32] **Luca**: I'm good. I'm okay.
+
+[35:34] **qx()**: I heard you presented a video you sent a video to the hackathon that kushti was at in India or the presentation there that works.
+
+[35:49] **Luca**: No, that was the hackathon and then there was a workshop on the Monday like academic workshop. So I presented live on the Google Meet. So I did one presentation for Dexy, and then another one for the gluon proofs or theorems, and then another one for the theorems in the orb staking protocol.
+
+[36:20] **qx()**: The orb staking?
+
+[36:22] **armeanio**: I've heard rumors that there's copies of this on somebody's computer phone but I haven't seen anything what do you mean the video I've heard either Bruno or Alex has like recording it yeah like I think when I was on the Google meet I could see them and I think Bruno was like recording with his phone
+
+[36:50] **armeanio**: Yeah. So it's on Bruno's phone.
+
+[36:54] **Luca**: I might share the Dexy slides in the Telegram channel.
+
+[37:03] **qx()**: That'd be awesome. Oh, if you guys want to preview, right? You've got a really nice presentation from the Ergo Summit. People can get their chops wet with it before they dive into your Bruno video.
+
+[37:14] **armeanio**: Were you doing any judging on that hackathon that they did?
+
+[37:17] **qx()**: Oh, Luca's very judgey.
+
+[37:21] **Luca**: I wasn't in I was in India for two days. It's a long story.
+
+[37:26] **qx()**: Yeah, we got lots of time. Luca, tell us what are you doing in India?
+
+[37:30] **Luca**: Well, I was, I was going to go to, I was supposed to be in India for like two weeks to go to this hackathon, like to not participate, but like help out and then be in the workshop in person. But I kind of had a bad jet lag and culture shock.
+
+[37:49] **qx()**: Are you talking about you, you drank the hotel water and you shit yourself for two days?
+
+[37:55] **Luca**: No, puked. But I thought I was getting scammed by a travel agency.
+
+[38:02] **qx()**: Oh, come on. Fill us in. Come on. We got time. Come on, Luca. Tell us.
+
+[38:08] **Luca**: So I was supposed to meet up with Bruno at the National Museum in New Delhi. And so I took the metro. There's poverty everywhere. That's rough, yeah. But no, but what's surprising is that if you see like a homeless person in like a city in like North America, it's odd. Or like you feel like, like pain or feeling bad for the person.
+
+[38:37] **qx()**: Luca, you're from Canada, aren't you?
+
+[38:40] **Luca**: Yes.
+
+[38:41] **qx()**: They have homeless people in Canada.
+
+[38:43] **Luca**: In Montreal? Yeah, in the subway. Especially in winter. Because warm.
+
+[38:51] **armeanio**: Yeah, but it's a little bit downhill around here. I went out in Denver. I went out and some dude steal my windshield wiper and I chased him out.
+
+[38:58] **qx()**: Why do you need your windshield wiper? Yeah, somebody. All right. Sorry, Luca. Keep going. So it's homeless people in America. You feel bad for me. You want to help them. But in India, you're not supposed to. Is that is that the idea?
+
+[39:10] **Luca**: Well, because the poverty is like kind of like everywhere. So it's like normal, which is the weird. That's like the weird thing. you're there. And it's like, Oh, it's actually just like normal, every part of everyday life. Which I don't know if I could do that.
+
+[39:26] **qx()**: I don't know if I could go there.
+
+[39:29] **armeanio**: My empathy things are through the charts and that those cases I feel so terrible.
+
+[39:36] **qx()**: Sorry, go on, Luca.
+
+[39:39] **Luca**: And yeah, so I go, I get to the metro station. It brings me I take like three rides to the train station and kind of lost. And this tuk tuk driver, he like talks to me. He's like, Oh, you're, you're lost. Let me bring you to this, government tourism info center. It'll help you find, find your way to the national museum.
+
+So I was like, okay, I didn't, whatever. I'll go in the tuk tuk and that was 30 miles out of town. No, they brought me to the place and it's called like tourism center, but it's not a government agency. It's a travel agency.
+
+And yeah, the guy, I got like pressured into buying something.
+
+[40:23] **qx()**: No, Luca, was it a lot? Did you lose a lot?
+
+[40:27] **Luca**: Well, I might get a 50% refund.
+
+[40:31] **qx()**: Okay. Wait, is it the 50%? Is it like crypto where you have to give 10% to get the 50% back?
+
+[40:38] **Luca**: No. I might get 50%.
+
+[40:41] **qx()**: I'm sorry, Luca Luca got real life. So you never made it to Bruno at the museum ever?
+
+[40:50] **Luca**: No, I met him. And then I got into a driver's car. And the guy brought me to the national museum. So I didn't meet up with Bruno, which was cool, but I never had to buy you a bunch of dinner. No, but yeah, unfortunately I didn't get to meet kushti in person, which would have been nice.
+
+[41:13] **qx()**: I'm so sorry, Luca. It's okay that we're laughing at this after the fact, right?
+
+[41:17] **Luca**: Yeah. Like, so I basically like, I got freaked out and I got upset and left.
+
+[41:23] **qx()**: I'm sorry, dude. That's rough. Would you ever try it again? Would you ever go to India again?
+
+[41:31] **Luca**: Yeah, for sure. It's actually not so bad. Well, New Delhi is really bad pollution. When I came back, my shorts still stank of the pollution. That's how bad it was.
+
+[41:44] **qx()**: Like air pollution?
+
+[41:46] **Luca**: Yes, yes. It's worse than China. There's like a... Forget the site. I think it's AQI or something or air IQ. And it's like a leaderboard of all the cities and their pollution levels.
+
+[42:04] **qx()**: And you tell these like, up five, we should make an oracle out of that and do a stable coin based on New Delhi pollution air pollution. Joe get on that.
+
+[42:13] **armeanio**: I don't know if it's like, it's terrible.
+
+[42:18] **qx()**: I can't believe you, Luca.
+
+[42:26] **armeanio**: How's MG? I know that MG's finally almost out of his.
+
+[42:30] **qx()**: He's almost done. You think he can release our app, Luca?
+
+[42:36] **Luca**: Oh, yeah. Sorry about that.
+
+[42:39] **qx()**: Oh, you chose the wrong time to come under this chair, Luca.
+
+[42:46] **armeanio**: I've got a question for you, Luca. In 2026, what do you do? Should we do the Ergo meetup in Colorado or should we go out to New York?
+
+[42:56] **qx()**: No, no, we're going to Ithaca 2026. I got it. We're going to do a big, we're going to do a big thing. We're going to, we got an auditorium. We're going to do a conference. We're going to invite other people, try to invite the Cornell blockchain club.
+
+But yeah, sorry, Luca. What's your opinion of that?
+
+[43:15] **Luca**: It's cool. I guess you like, I mean, it's cool if it's in different places closer to you, isn't it? Yeah. You could drive here six hours, I think. Right.
+
+[43:27] **Luca**: Yeah, I don't have a car, but it is drivable distance.
+
+[43:31] **qx()**: Take a rickshaw.
+
+[43:38] **armeanio**: Yeah, you should go just to hit him.
+
+[43:41] **qx()**: Come beat me up, Luca.
+
+Sorry, it's been a tough couple of weeks. This is good to laugh. I'm sorry it's at your expense, Luca. I really appreciate it, though.
+
+[43:52] **armeanio**: Well, what are you working on these days, Luca.
+
+[43:55] **qx()**: Yeah, what are you working on, buddy?
+
+[43:57] **Luca**: I'm trying to launch Gluon Dollar. Tell us there.
+
+Well, there's like things I have to update in the contract, but I'm sort of like, I haven't gotten around to it yet. And I found some, I did like an AI audit with Rob from Lithos. Like I sent him the contract and he like put it into the AI and then he sent me back the output like text of what it suggested. And it found one thing that I think I missed or like, but yeah, so I, and I asked Keith, Keith from GoLend from Rosen.
+
+[44:44] **armeanio**: Yeah.
+
+[44:46] **Luca**: Yeah. He's like, I showed him like, is this a mistake? He's like, maybe he probably, so yeah, it relates to Oracle fees.
+
+Yeah. So I might have to, so it's like, I'm not just as simple as like changing the contract because I'm using his Scala backend code, which was set up. He set it up to like, so you can do, you can like launch and you can launch the contract again, but like, and you can change like what it's pegged to and so on. So I might have to also change like the backend code in that application.
+
+[45:29] **armeanio**: I'm still waiting for, for the silver Oracle that we had put together.
+
+[45:34] **Luca**: Oh yeah, that would be cool too.
+
+[45:37] **armeanio**: I'm curious. I want to see Gluon and Dexy live in the wild and just see how they, see what kind of data they print. And that'll give me a good idea in terms of like a silver backed coin. And I don't know, I hope at some point, maybe we can even merge with like Silver Sense.
+
+I have the same jacket from the Ergo Meetup. Greyman gave me a little silver dime.
+
+[46:08] **qx()**: He gave you a dime bag, right? Do you bring dime bags for everybody?
+
+[46:12] **armeanio**: Yeah, it says dime bag on it, right? That's amazing. I had like a breast pocket on my jacket and I was in the restaurant the other day. I pull it out and I'm like, what? Put it on the table and it says dime bag and the waitress is looking at it.
+
+[46:26] **qx()**: It's Colorado. It's Colorado. That's normal. Lots of dime bags.
+
+[46:29] **armeanio**: Yeah, I guess.
+
+But no, I'm really curious to see how Gluon evolves. I really think that will be interesting to to watch. I know that I know there's a couple of different instances now that have been put together. But that's.
+
+[46:47] **qx()**: So are you like, sorry, go on, go on.
+
+[46:51] **Luca**: Yeah, with Gluon Gold, we wanted to update... Yeah, I'm supposed to... I'm confused. I'm confused myself. I'm also supposed to update Gluon Gold. Because... Yeah, we wanted to change the reserve ratio, so it's closer to 1. Like, is it 1.01?
+
+Because we noticed that it would de-peg too fast. when people would like use the protocol. And then also change, one of the equations because when I was working on proving the theorems, well, I mentioned this at the talk in Colorado, but basically like, stuff doesn't work out properly because when you depeg, it makes the reserve ratio constant.
+
+It has to be like, it should actually be like, like version of a line that so it's always decreasing until it reaches one or well the inverse of the reservation should be one when or the normalized reservation when r is there anyway is I don't know like I don't get too technical here but yeah yeah yeah hit it yeah so okay so if you look at the
+
+glue on paper it says like you just see an equation called Q or the called the fusion ratio equals the minimum of two values you have Q star and then this number this fraction that's the oracle price times the circulating supply of the stable coin divided by the reserve
+
+amount. So the fusion ratio, this Q number, is like the minimum of these two values. This Q star is like a protocol, a fixed parameter. And you can think of the Q as just like the inverse of the reserve ratio. So the reserve ratio is defined as your reserve divided by your liabilities.
+
+So if the reserve amount is R, right? So the amount of ergs in the bank, the reserve ratios are divided by your liabilities, which are, which is like the, the, the price of the stable coin times the circulating supply. Because those units will like cancel out and you'll get like erg divided by erg. So it's like a unitless constant.
+
+But the problem is that so that just like you can think of like your raw or reserve ratio value. that you're computing, just like some raw number that's between like zero and infinity, right? But then the value, the number that's actually used by the protocol in the equations to compute like how many stable coins you get when you want to mint some, or like when you want to convert between stable coins and reserve coins, it computes like an auxiliary value called the normalized reserve ratio, which is the number that's a function of this raw reserve ratio.
+
+okay so this normalized reserve ratio that's like the inverse of that okay that's the normalized fusion ratio and that's like this q parameter in the paper which is like equal to the minimum of q star and the raw inverse the raw q okay so the raw inverse of the
+
+the inverse of the raw reserve ratio. And so when it depegs, then the fusion ratio means it becomes less than a Q star, sorry, above Q star. Because it's like inverse, everything's like flipped. So when the reserve ratio becomes too small, that means the inverse rate Q becomes big. So when the raw fusion ratio becomes bigger than Q star, you're depegged.
+
+So the minimum will be Q star. But it's always going to be Q star when you're depegged. And this causes a bunch of problems. So you actually want it to be so that
+
+if you're not thinking of instead of the fusion ratio, but the reserve ratio, when it depegs, instead of it being like a straight line, it like goes down, it always decreases. And so when it's at zero, then the normalized reserve ratio is one, and then this will like, fix the problems. And what that means is, when the reserve ratio is zero, then the price of protons, reserve coins will be zero.
+
+Yeah, anyway. It's like, it's like, it's like, it's actually like simple math, like, so high, like a high school student could understand the math. But it's just like, when you tie it with the concepts, that's what makes it a bit confusing.
+
+[52:15] **qx()**: So what the so this is, this is a concept that Bruno came up with, and then you, you conceptualize with mathematics, or he conceptualized the mathematics and you implemented the code?
+
+[52:27] **Luca**: So, so what was actually cool is like, he's been thinking about stablecoins for a long time. So it's based on a, so Jed, even if you go all the way back, it's like started off from a paper on it from Ethereum called Staticoin. And I remember reading it and it was confusing because I got used to the notation that Bruno came up with for Jed and Gluon. It's much more intuitive. So you're like,
+
+study that Staticoin paper and then like improved upon concepts. And then that was like what that's how Jed came about. And then now gluon is like an improved version of Jed. So yeah, he had the ideas of the papers and then like the theorems. And I just had to prove the theorems. And so we're like similar to Jed.
+
+[53:20] **qx()**: Jed's on Cardano right only Cardano right now.
+
+[53:23] **Luca**: No, I meant Jed as in the paper.
+
+[53:25] **qx()**: Oh, the paper Jed. OK, who implemented Jed on Cardano? Is that somebody? Cody.
+
+[53:31] **armeanio**: Yeah, they did a weird job. Yeah, yeah, yeah.
+
+[53:36] **qx()**: Yeah, they did. Can you extrapolate on that weird job, folks?
+
+[53:41] **armeanio**: I don't want to step in that pile. Come on, Joe. Yeah, I think there's an article.
+
+[53:44] **Luca**: I think there's an article about it from the... I can't remember if I can find it.
+
+[53:51] **armeanio**: Anyway, to be honest, I think if you're going to build JED on a proof of stake network, you need a liquid stake derivative to make sure that you can force protocol returns into the treasury and then you have natural growth. It doesn't make any sense to build it with the native coin. You should create a derivative of that coin and then use whatever staking you have from the base of that derivative to
+
+increase the supply of the treasury and then it grows. And I've never understood that, but that's my own like outside scratching my head looking saying what the fuck are they doing over there? Which I do that all the time in life. And sometimes it's their issue. Sometimes I'm just an idiot, right? That's the beauty of learning.
+
+[54:40] **Luca**: So you would meant you would been shared using the yeah, you need like the tokenized data.
+
+[54:47] **armeanio**: Yeah. Like if you, if you could create a derivative, right. I'm not even, I'm proof of work, but anyway, and proof of stake, if you create a derivative, you should create the treasury of that coin, right. And then direct the inflation into the treasury of that stable coin and it would naturally grow. Right. And that makes it a lot easier to stabilize things when you have like natural, like capturing emissions, right.
+
+Because like a proof of work asset is hard, right? Like gold, if you sit it somewhere, it doesn't grow more gold. And if you put it somewhere else, it doesn't grow more gold. But proof of stake is set up to where if you, in essence, put your stake to work, you get more of the coin, right?
+
+So if you have that natural, like nominal inflation, why wouldn't you put that into the treasury of a stable coin? I don't understand.
+
+[55:47] **qx()**: All I hear is you're promoting proof of stake, Joe. That's wow. That's new.
+
+[55:54] **Luca**: Wait, wait, wait. So, okay. I was confused because if the, so I understand like you, the ADA, so I put, I lock up ADA. I create this like tokenized ADA.
+
+[56:04] **armeanio**: Right? You create Gluon ADA. You lock it one-to-one, but you stake the underlying ADA, right? The underlying ADA. The underlying ADA grows and then what you do is you mint, Gluon ADA into the treasury of the stablecoin and naturally your treasury is absorbing inflation as your monetary policy is inflating, right? You can't do that with proof of work.
+
+because proof of work is more like a commodity where if you take a barrel of oil and you put it in one place, it doesn't create more oil, right? Put it in another place, it doesn't create more oil, but proof of stake is very different because you have the ability to absorb inflation. So why wouldn't you direct that? Why wouldn't you create a mechanism to direct that in the treasury of the coin to either offset the volatility peg, which then makes it more,
+
+like incentivized for people to take the volatility position or use it to create more stablecoins. Like you have a certain like monetary hack there. Like I'm personally not, I'm from Ergo, right? We're proof of work. Because a barrel of oil doesn't naturally create more oil, but in proof of stake, it's more like shared dilution, where you can absorb nominal inflation and then put that to work.
+
+I've never understood it, but that's my own.
+
+[57:34] **qx()**: Where's the ADA growing from in this circumstance, in this scenario?
+
+[57:38] **armeanio**: Just protocol inflation.
+
+[57:40] **qx()**: Oh, wow, okay.
+
+[57:43] **armeanio**: Right? Because you can capture inflation and emission, why not direct that into the treasury? I've never understood that. I've always scratched my head. You have a certain power there that you just can't create with a commodity-based asset. And proof of stake isn't a commodity-based asset anyway, but I don't know. Anyway, sorry to derail the conversation. That's been something I've been wandering, watching for some time.
+
+[58:19] **Luca**: Because in Cardano, you can like delegate ADA in a contract to a stake pool.
+
+[58:27] **armeanio**: Yeah, yeah.
+
+And in theory, in theory, if you were to like create a stable coin on Cardano and you were to do that, it would be really cool to use that to, what is that guy's name? Peyton, I believe. Like Big Pay, he created something to like split stake. If you were to create a like liquid staking derivative that also could like split the stake to underlying small pools, that would be really good for the Nakamoto consensus on Cardano.
+
+But that's my own, like maybe a good idea, maybe hallucination, say.
+
+[59:15] **qx()**: I got a question guys. We got a question from the audience. You know, people actually watching this at two in the morning my time. Look, are you on my time zone? Luca? Are you on Eastern time zone?
+
+[59:24] **Luca**: Yeah.
+
+[59:26] **qx()**: What are you doing up so late? Luca? Do you sleep?
+
+[59:30] **Luca**: Sometimes, sometimes I was watching all in.
+
+[59:35] **qx()**: All in?
+
+[59:38] **Luca**: All in podcast?
+
+[59:39] **qx()**: Oh, gotcha. All right, here's a question. Ready?
+
+If Ergo is successful in three years from now, what will people be using it for on a daily basis?
+
+[59:50] **armeanio**: Well, right now, if you look at what separates Ergo from most other cryptocurrencies is these derivatives that we've created, right? So there's been a lot of work that's been put into censorship resistant DeFi versus just creating the censorship enabled DeFi, which is not really then DeFi because you have an underlying party that can essentially
+
+reverse or freeze or seize everybody's assets. So if you look at the total value that's locked on Ergo in DeFi and how much of it is based on censorship resistant protocols, it's basically everything. versus if you look at most other systems, it's like, oh, well, what we've done is we've allowed another, we've created a contract that allows somebody to potentially rug and freeze everybody's assets.
+
+And if you actually look, and I would recommend everybody that's watching this do this, if you look at USDT, right, the total frozen amount,
+
+relative to the cap of the supply is like 1.8 percent. So that means that one like historically 1.8 percent of the value of their total supply has been frozen which is fucking insane for a currency, right? It means you you almost have a 2% chance of just your money disappearing.
+
+Like, okay, well, like if you were to look at that as a bank, like, okay, there's a 1.8% chance something happens and your money's gone. Some shitty fucking odds. Wow. Good luck.
+
+[61:32] **qx()**: So you say you say, sorry, go for it. Look, what do you say to this to Ergo three years? What are you using it for? What's it going to be used for?
+
+[61:41] **Luca**: Well, like I would like to use crypto. I would like to get to a point where like cryptocurrencies normalized in general and like society in general, like you just pay for things on a regular basis. That would be really cool. I don't know that it's going to happen in three years necessarily.
+
+[62:08] **armeanio**: I don't think it'll happen in three years, but I think there's a demand for it. What does the gig economy represent? It represents people trying to grind to create some value to live their life well.
+
+[62:19] **qx()**: I mean, the bottom line is we've lost cash, guys. We're losing the ability to use cash. We're losing the ability to privately pay somebody without any oversight. It's gone. It's essentially gone, right? You go to the bank and you ask for more than a couple grand and they ask you why and they may say we don't have that much money on us right now.
+
+I went to the bank when I was sending money to Peru for my wedding, trying to get out $10 grand. They're like, nah, sorry, you can't get it out. We don't have enough here. I'm like, what the fuck are you talking about? I hopefully people get sick enough about that. But I don't know.
+
+[62:57] **armeanio**: I think they will, honestly. I think that the best marketing, historically, the best marketing for crypto has always been government overreach, right?
+
+[63:09] **qx()**: It's for your protection, Joe.
+
+[63:11] **armeanio**: I don't think Luca is old enough, but QX is definitely old enough.
+
+[63:15] **qx()**: How old are you, Luca? Are you 27?
+
+[63:16] **Luca**: I'm 29.
+
+[63:20] **armeanio**: Wow. Do you remember the Cyprus bank crisis that they went through?
+
+[63:25] **qx()**: What year, 97?
+
+[63:26] **armeanio**: No, that was about 2012, 2013, I believe.
+
+[63:31] **qx()**: Oh, the recent one.
+
+[63:33] **armeanio**: OK. Yeah, yeah. Where they suddenly absorbed depositors' money above a certain amount. I was not aware of that.
+
+[63:43] **armeanio**: Yeah, don't worry about it. You're too young. But QX is.
+
+[63:49] **qx()**: I'm sure I had my head up my ass or under a rock somewhere.
+
+[63:53] **armeanio**: Yeah, that was the point where Bitcoin really started to take off, right? You can't create that kind of marketing where all of a sudden everyone's looking at a system and saying what the fuck is going on? Like that's outside of the parameters of the rules that I thought I agreed to, right?
+
+[64:09] **Luca**: Well, actually, even even even like even just yesterday, like today, like the European Union, just like $90 billion euros to fund the war in Ukraine. It's like none of them are like elected or whatever, whoever decided or something like.
+
+[64:28] **armeanio**: Well, the Canadian trucker thing was another good example, right? Oh, yeah. Where they're like, hey, suddenly we're just going to, limit your ability to access your bank account that's when that's when the normal people wake up and they're like what the fuck is the user agreement that I just signed up to because most people when they download software all they do is scroll scroll scroll scroll scroll scroll scroll agree right they just try to pass on to the next
+
+like the next instance in the UI in the system, they don't give a fuck. But when suddenly like reality wakes them up where they're like, whoa, what the fuck is happening? Then suddenly like the idea of privacy and censorship resistant and all of that become interesting.
+
+We can't create that. Like we can't fake that as an industry in my opinion. It'll always come from the outside. It'll always be like a bunch of normal people are like, wait a second, what user agreement did I just click I consent to? And why the fuck is that like part of the system that I'm in?
+
+And the more that systems overreach, I think more people will wake up and say, wow, cryptocurrency is potentially powerful because you do have stronger assumptions as a peer rather than just a user that has to click a box in order to get to the next screen.
+
+That's where we win. I don't think it'll ever take over the world. I think it'll just be a counter economy. But if you have 5%, 3%, 2% that actively use that, it's powerful.
+
+[66:11] **qx()**: I think it can be sold also as, or looked at as a hedge, right? And I don't mean hedge as in, let's make a lot of money off this kind of thing. A hedge as even a one-to-one ratio, right? What other system, even cash, right?
+
+Even cash, let's say I have $30 grand, all right? What other system can I put this into and know by memorization, wherever I go, I have access to this. If I have to get the fuck out of Dodge, if I have to go somewhere, if something crashes somewhere, where else can I bring this with me inside my head and still be able to execute systems of trade with other people at some point in time?
+
+That doesn't exist anywhere, right? This is it.
+
+[66:55] **armeanio**: This is kind of magic.
+
+[66:57] **qx()**: Yeah.
+
+[66:57] **armeanio**: I will say that a lot of the time, over the years when I've talked to like Alex, have calls every once in a while talk about what we're working on, what we're thinking about is this idea of a neutral settlement, right?
+
+So I don't know if anybody's paying attention, but in terms of what Luca was talking about with this Ukraine, Russia, NATO fucking drama, I was born into it. That all started before I arrived on this rock and I'm pretty sure both of you as well.
+
+The idea that suddenly countries are going to take other countries' central bank reserves, that's pretty fucking crazy. Because I can see within a system, you can have a lot of control parameters, like reversibility, freezeability. That makes sense in terms of a higher level controlling a lower level, basically.
+
+as in a very simple like hierarchy term, but when you're talking about how does the United States trade with Russia, right? When you create digital money that has freezeability and reversibility built into it, who the fuck would want to accept that? Because they're no longer equals. It's like you have a parent-child relationship or a parent-child relationship, right?
+
+So why the fuck would anyone want to accept anybody else's money if it's a parent-child relationship? You have to have some form of neutral, like medium of exchange where you have parent to parent or peer to peer relationship. And when you have all of these systems that are cropping up that are all parent to child relationship, fuck you, I'm not a child, right?
+
+Country should be saying that to each other. People should be saying that to each other because the bottom line is we need to get past this reality where we just scroll to the end of a user agreement, click agree and fucking move on because we don't know what type of liability we just inherited.
+
+And it's super frustrating to be like, hey, know your assumptions, know your assumptions. But when the assumptions become more complex, you need to be either a fucking lawyer or a software engineer to even understand what the fuck they are.
+
+And I think that when we get into this idea of
+
+simplistic systems like Bitcoin or Ergo, I think there's a ton of value in that long term because you can't create a unified reality across different countries without peer-to-peer, parent-to-parent trade.
+
+And one interesting thing to look at on the market side is since
+
+And since that happened with Russia, a lot of the bonds have been shifting much more towards the short term, right? Which means if you were to freeze US bonds, at least it's on a shorter duration versus long term. Now, obviously we have, fuck knows how much debt today, but I do think those neutral assets
+
+are absolutely critical. Because with gold, there's always been like a human assumption. I don't give a fuck what you think. I don't care what you believe. But you know, I'll take your gold. Right?
+
+That's always been a like a neutral thing that kind of balances human trade is this idea of common money. And when you have parent child money, it's fucked. And so personally, I worry about this idea of parent-child DeFi and parent-child money.
+
+Nobody really cares. No, no, no.
+
+[70:53] **qx()**: I mean, that's the population. Look at all these parent-child relationships with how these corporation-run stable coins are going to be, right?
+
+[71:03] **armeanio**: Oh, even software, man. Like, why the fuck do I need to pay a subscription to run some fucking software?
+
+[71:11] **qx()**: Oh, Joe, don't make me stand up. We just talked for half hour about this.
+
+[71:15] **armeanio**: I remember when you could have a fucking floppy disk or a CD.
+
+[71:20] **qx()**: Money, money, money, money, make more money.
+
+[71:27] **Luca**: My first mobile phone was the Google Nexus

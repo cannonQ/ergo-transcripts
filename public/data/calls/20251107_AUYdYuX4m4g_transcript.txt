@@ -1,0 +1,409 @@
+[00:18] **qx**: Good morning, Ergo community.
+
+[00:22] **qx**: Excuse me, got a frog in my throat over there.
+
+[00:25] **qx**: Welcome to the 10th, 11th consecutive community AMA, hosted by anybody who wants to join and talk.
+
+[00:35] **qx**: Today we have kushti, Richi, and Grayman.
+
+[00:40] **qx**: It's good to see you guys. How you doing?
+
+[00:44] **kushti**: Doing well, doing well. How about you?
+
+[00:46] **qx**: Hanging in there, a little sleepy, but otherwise hanging in there.
+
+[00:51] **qx**: Grayman was about to say hi too, Grayman.
+
+[00:56] **Grayman**: I'm alive.
+
+[00:58] **qx**: We here in the U.S. are suffering from some crazy made-up time scheme called daylight savings time. So it's 8 o'clock for us in the morning as opposed to 9 o'clock, which doesn't seem like it makes a difference, but it makes a big difference on the first couple of days when you're all thrown about.
+
+[01:18] **qx**: It's better than losing an hour honestly. But it is what it is. We fall back and we spring ahead, is the term. Lose an hour in the spring, gain an hour in the fall.
+
+[01:32] **qx**: What new things are happening in the ecosystem, guys?
+
+[01:36] **kushti**: So a lot of, starting from infrastructure, there's going to be more and more talks about AI, right, in different aspects. Quite natural because, well, Ergo is GPU minable, right, so, well, a lot of intersections with AI inference.
+
+[02:11] **kushti**: Here, then, I also believe that currently payments in AI are mostly corporate owned, right? And it's not quite acceptable. And actually, I believe we have a lot of solutions here because, well, after all, the Ergo community is working on programmable money for many years and a lot of useful solutions for the AI space.
+
+[02:49] **kushti**: And, well, having a lot of talks with different developers around the community. Unfortunately, most are not so public, so I believe, well, if we are going to act as an open source money movement, then there is need to communicate publicly, right? Express ideas, get feedback and store all those things in logs because some things are actually revived a few years after, right, and getting implemented.
+
+[03:36] **kushti**: So, well, everything is quite useful here. Well, most of information, I believe.
+
+[03:47] **Grayman**: We even have an AI game coming up this weekend. Tim Erg's AI game Sigma Quest starts this weekend, Sunday morning.
+
+[03:56] **qx**: Oh, what is that? Can you elaborate on what that is, Grayman?
+
+[04:01] **Grayman**: I don't know fully. I wish he were here to explain it because he'd do a better job. But in essence, it's sort of a scavenger hunt type deal where you solve three problems, probably with the help of AI.
+
+[04:17] **Grayman**: And if you manage to solve them for each one, you get a few of the keywords from an ergo wallet that currently contains 200 ERG, but everybody who participates has to kick in 20 ERG, 15 of which goes into the pot.
+
+[04:33] **Grayman**: So if you got 10 people playing, you could stand to win 350 ERG, which is not a small amount of money, so worth it if you're in the mood to have some fun.
+
+[04:46] **Grayman**: Essentially, it's not like Game of Prompts, but it's similar. I think you have to solve these problems in order to win. There was something sort of game theory-ish about how it worked, because if you got one of them and not the others, then you had an advantage. And you could share with other players. You could share your seed phrase in order to leapfrog to the win.
+
+[05:16] **Grayman**: But I have to read the rules again before it starts. It's on Sunday, if anybody's interested.
+
+[05:18] **qx**: I'm looking at it right now. There's a couple of different ones. There's yes-no, oracle version, narrative escape version, sigma-not-guardian version. I see yes-no version is dealing with an AI that is damaged and can only respond yes or no to your questions. That's pretty neat.
+
+[05:36] **qx**: 90% goes to the community pot prize, 10% goes to the project treasury. Each completed guardian rewards players with five seed phrases. Oh, so there's three guardians. So yes, no, oracle, the narrative escape, and the sigma knot guardian.
+
+[05:59] **qx**: This is pretty cool. Did he start this in the last Ergo hack? Was that what this is?
+
+[06:05] **Grayman**: Yes. And unfortunately, he was right about to release it. And it turns out that he discovered that there were some ways to kind of cheat it. And so he called it off and said, let me get my hack together.
+
+[06:20] **Grayman**: And so he regrouped. I think Tim, like everybody else in the Ergo ecosystem, has his own job and his own life, which is, we're a collection of interesting people, not VC funded with a team of five coders and then a bunch of Red Bulls and pizzas and trying to knock out solutions for the VC if they crack a whip.
+
+[06:48] **Grayman**: That's not our go. So he's got his own life. It took him a couple of months to get it back up and running, but here we are.
+
+[06:57] **qx**: He's using Lovable, I think, AI to help him write it. I just put the link to the Ergo website where they have an article on this game in chat if people want to see that. But it looks pretty fun.
+
+[07:08] **qx**: I remember the fun puzzle games that Maverick used to do. Those are really incredible and fun and well thought out. I've seen Maverick pop up in chat recently.
+
+[07:24] **Grayman**: Yeah, I did. Yeah, that guy's cool. He's also somebody who's, his real life sort of interrupted for a while. But he poked his head up again in chat recently, said he's doing great.
+
+[07:44] **qx**: Oh, we got somebody in the waiting room. Let's see if this person's a spammer. We'll give it a try. Yeah, what else happened this week?
+
+[07:54] **qx**: We had a good kind of choke this week about, for those of you who don't know, some of our infrastructure is on Hetzner, and historically it's been paid for by the EF, and there was a billing issue midweek or end of last week. They went down, which shouldn't be a problem because we literally have like eight other backup explorers kicking around.
+
+[08:29] **qx**: And if you saw chats, you saw that I posted all those APIs and GraphQLs and Explorer endpoints in chat in hopes that in the future, dApps will just use a rollover technique if they can't reach one explorer to go to the other.
+
+[08:43] **qx**: But that was interesting to see the choke points, right? Because we witnessed a choke point from Amazon and Microsoft a couple weeks ago as well. But I think we can be completely resilient to that kind of stuff, right?
+
+[08:54] **qx**: Eventually, so the way the infrastructure is going to work, hopefully, is that there will still be a choke point at CloudFlare load balancer, right? The DNS has to point to somewhere to go and then load balance to the 10, 11, 12, exploring instances that are out there across the globe.
+
+[09:14] **qx**: So the way around that as well is create unique IDs for each one of those load balance endpoints. So that while we can't, if we're going to rely on Cloudflare for the load balancer or some other single load point for the load balancer, at least dApps can build in the individual load balance machines as well.
+
+[09:36] **qx**: So if a dApp tries to hit the load balancer first for a user and goes geographically to the right location nearest the person for the best speed, if that doesn't work because Cloudflare is down, then it'll just roll over to one of the load balancers directly and have direct access to it.
+
+[09:53] **qx**: So that's a hope there, that we're completely impervious to that kind of outage, those centralized outages.
+
+[10:03] **qx**: We've got, as I said last week, those three machines shipped out. And I think two of the people got them. Maybe all three did. They'll be syncing their nodes. Once that happens, there is some database optimizations we have to do to them all at once so that there are a couple of queries that are really database intensive and fail if the database hasn't been optimized in a certain way.
+
+[10:29] **qx**: So once that's done and we do those tests and make sure it's good, then either we repoint the Ergo platform explorers through the peer-to-peer network, kind of like we did this week for a little bit to test, and then we burn them down. And we stop that $700 a month drain to pay for those things. And the community takes it over which I think is absolutely amazing and how it should be, right?
+
+[11:03] **qx**: Grayman, you were talking about joining the network as well weren't you at some point?
+
+[11:08] **Grayman**: I can't use one of my customers fiber lines for this purpose. I'd have to get my own and I live out in the county. So it's coming my way. But apparently the company that was going to roll it out here got bought out by T-Mobile. So God knows how long it's going to take.
+
+[11:28] **qx**: You don't want to run a node off a cell connection?
+
+[11:31] **Grayman**: It's cable, but it's asymmetric. So the upload speed is just too slow to support.
+
+[11:37] **Grayman**: I don't want to join and be a worthless limping piece.
+
+[11:41] **qx**: At least the way Cloudflare works, Grayman, is we can weight you a little bit. So if we have a geographic location and you're sharing it in the US with, it's going to be five or six other people, we can actually give you a weighted average of how many times people hit you so that you're not equally hit as many as other people.
+
+[12:05] **qx**: So if I'm on, the three here that I have are on a 10 gigabit connection asymmetrical, so I can give myself more weight as opposed to you. I can give you 10% of the weight of the pool so that you're not hit as much. So to the user, it's going to feel the same, right? Because not being crowded or jumped up.
+
+[12:27] **qx**: So think about it, Grayman, if you want to do it.
+
+[12:30] **Grayman**: I am an old school IT guy. For the last five years, that's mostly about migrating people to the cloud.
+
+[12:37] **qx**: Now you're coming home, Grayman, you're coming home.
+
+[12:42] **Grayman**: I miss the good old days. So maybe I'm helping you.
+
+[12:48] **qx**: All right, sweet. I think in the corporate environment here or the educational environment, there's been a big push, I'd say, in the last, well, I've been here 17, 18 years at Cornell. There's been a big push to make everything easier by going to the cloud, right? And I fought it since the beginning simply because it's used as an excuse to drain the most important thing from the institution and that's institutional knowledge, right?
+
+[13:21] **qx**: If you can pay Microsoft to run your mail, why do you need two mail experts on staff here, right? You can fire them and you can hire somebody at 30, 40, $50,000 that just pushes buttons and calls Microsoft support when they need help, right?
+
+[13:36] **Grayman**: But if they were running an exchange server before, it's not like this is holy knowledge to know how to run Exchange 2013.
+
+[13:46] **Grayman**: I love that that shit's outsourced. God, I hate it. SharePoint was the worst, and now that's somebody else's problem.
+
+[13:55] **qx**: True, but it makes a huge hole in that. And maybe exchange was a bad example for that. But I understand that. But it goes for many other things as well. A lot of expertise has dropped.
+
+[14:09] **qx**: There was an article one day about 15, 16 years ago from somebody in the education training department here at Cornell and the article literally was we do not need IT people on staff anymore at Cornell because we just need IT architects and the way they described that was people who they could bring in that knew how to design and call Dell and something breaks, send it to Dell or get a Dell parts locker here or ship it over here or set this up.
+
+[14:45] **qx**: So sure, it's another method, but again, it's an institutional drain. And actually, I think that person's now CIO of some college somewhere, unfortunately.
+
+[14:57] **qx**: But back to the cloud computing idea. Cloud computing really enables that for corporate and educational institutions. And I don't embrace that for most things. I think if we can build things to an open framework that is shareable and we design things that can be designed well enough to where if somebody from another department says, hey, I like what you're doing there. It's really cool. Can we share it?
+
+[15:23] **qx**: And I click a button because I've already designed it in the framework that's shareable like that. Or I say, yeah, here's my git, go for it, do what you need. And maybe they make something better than me and I come back and I clone their repository and go from that kind of thing.
+
+[15:36] **qx**: So that's my belief that expertise and things like that should stay local. Exactly like we saw when two weeks ago when Amazon went out and Solana and those chains are scrambling and shitting their pants because it's another sample of just in time inventory.
+
+[15:56] **Grayman**: It's just the way that things are done in the modern world. And it is fragile, but it's effective. I mean, and it's a nuisance when something goes wrong because nobody that's in the chain of solution has any idea what they're doing aside from their little part of the chain.
+
+[16:17] **Grayman**: So coming from the old world and having to troubleshoot this stuff, which is what I do all the time, because I'm where the rubber meets the road at the end user at the client level. And so it's solving all these weird problems.
+
+[16:30] **Grayman**: And the tools that I have are not reading the manual or futzing with stuff and trying to fix it on a test server. It's just patience and knowing what to Google and talking nicely to this person in the chain who is part of the solution and all those types of stuff.
+
+[16:48] **Grayman**: It's turned my job into a touchy-feely thing that I hate, which is why I'm here in Ergo. And so maybe it's not coincidental that I'm interested in going back to peer-to-peer and local solutions as opposed to this. Maybe it's my subconscious is telling me that I want to escape my corporate job.
+
+[17:09] **qx**: That could be. Yeah, I mean, think about scaling, right? If you want to spread yourself like with a chain that requires cloud infrastructure, think about the cost of spreading your assets over Amazon, over Microsoft, over some other cloud provider, hoping that there's not some choke point in between that they both use, right?
+
+[17:34] **qx**: So the cost there versus scaling it over a system of peer-to-peer users who built the nodes themselves so they know how they function, they know how to spin things up and down, and they know hopefully why things break, and the redundancy there. I think that speaks for itself in times like a couple weeks ago with the great crash of AWS.
+
+[18:03] **qx**: So it's really excited about that. That'll be really good to be able to boast that kind of thing that all our main infrastructure is held by the peers that are part of the network. So that'll be a good bragging point.
+
+[18:14] **kushti**: Infrastructure-wise, we need to do some maintenance work and bug fix for Explorer. Well, the first pull request just got in the Explorer backend repository.
+
+[18:33] **kushti**: Also, we are looking for maintainers of Ergo Wallet. I believe for now it makes sense to update Android SDK and so on and publish new versions of Ergo Wallet at least.
+
+[18:56] **kushti**: Then we will consider what wallets of future should be like, right, especially in the presence of AI agents which can make with certain things.
+
+[19:11] **kushti**: So, well, for humans, it's not so convenient to have and to operate with hundreds of tokens in your wallet, right? But for AI agents, it's kind of trivial. So, well, money for AI systems could be done very differently from what we have now, and it could lead to more efficient economic interactions.
+
+[19:58] **kushti**: Then I need to think with MHS monitor our team, right? Maybe we can find ways to publish that mobile wallets also. Right, because it's quite amazing. It's supporting multi-sig, right, and so on. So it makes sense maybe to add multi-sig support to ergo wallet as well but we also need to publish monitor, I believe.
+
+[21:00] **qx**: Yeah, that was supposed to come out of the mobile soon, I think.
+
+[21:02] **kushti**: Those are two important infrastructure pieces, right? So I'll explore on the wallets.
+
+[21:11] **kushti**: And, well, I'm also in talks with different, well, guys, teams, circles and so on. Well, with Grayman and Thomas on real-world assets tokenization. Quite specific and not like what most of so-called crypto industry is doing, right?
+
+[21:32] **kushti**: So for chain cache basis, I'm still testing and polishing things with white coding, now small step. But I think, well, some things can be announced in coming days.
+
+[21:54] **kushti**: And for sub blocks. We are going to launch Dev Nets in a few days, now bigger. Now we have some contributors with Raspberry Pis. Well, we have a few people from different continents, so it will be quite funny. And well, from that, we can plan further.
+
+[22:21] **kushti**: What to do after white paper release and welcoming to discussions, right? So a lot of things going on in parallel and it's November and Richi has plans also for the USE DexUSD stablecoin launch.
+
+[22:46] **kushti**: So Richi, what are the current plans?
+
+[22:56] **Richi**: Yeah, hello. Can you hear me? Yeah, thank you. So the current plans are to have a large event called CLB, which was presented in Ergo Hack 9.
+
+[23:13] **Richi**: So as long as we sort out the technical part, and we understand that there will be no basically delays launching the coin or maybe we can even mint some coins but just don't activate the smart contract or don't activate the off-chain part whatever just waiting for the initial bootstrap event.
+
+[23:40] **Richi**: So as soon as we know this we will start probably two weeks marketing campaign. And then we will go into a so-called CLB community liquidity bootstrap event, which will offer people to participate with the ERG on ERGO as well as rsERG on Cardano.
+
+[24:04] **Richi**: And in exchange they will be getting CLB tokens as well as some other airdrops, bonus airdrops, but the main one they will be getting CLB token.
+
+[24:16] **Richi**: In total I plan to have only 100 CLB tokens minted with nine decimals, so it will be 100 CLB tokens minted with nine decimals and it will be distributed proportionally to everyone who contributes their ERGs to the initial bootstrap of liquidity pool.
+
+[24:41] **Richi**: So, as an example, if you contributed 100 ERGs and total overall contribution is 10,000 ERGs, right, to bootstrap the pool. I'm sure there will be more, but just as an example. Then your part is 1% and you will get one CLB token airdropped to you.
+
+[25:07] **Richi**: What CLB token means it will represent your part in the liquidity pool. So after that all liquidity collected will be used to start the USE liquidity pool, initial pool, bank.
+
+[25:28] **Richi**: So half of the ERGs collected will go to bank reserves, and another half will be collected, will be connected with the liquidity of the minted tokens. And that liquidity tokens that will be created will be locked for two years. And instead, you will get the CLB representation.
+
+[25:50] **Richi**: It may sound confusing if you're not familiar with how the system works. But basically the whole idea is to have a big pool of liquidity locked for two years and then reward people who participated in the bootstrap with the so-called representation token.
+
+[26:09] **Richi**: Now that CLB token can be traded on Ergo DEXes. So like I said, there will be only 100 tokens created and each token will represent 1% of the liquidity pool. So these tokens will be traded on Ergo DEXes.
+
+[26:26] **Richi**: So they will have value. And after two years, the smart contract, redeemed smart contract will start working. So if after two years, you own CLB token, you will be able to redeem liquidity from USE ERG liquidity pool.
+
+[26:45] **Richi**: So with this approach, what we're trying to achieve is we're trying to bootstrap liquidity initially. That's very important to have lots of liquidity from the start of that stable coin. And because of that, our free mint and arbitrage mint and all the bank actions will work nicely.
+
+[27:08] **Richi**: So people will launch economics and things like that on top of that. So I don't know if people who are familiar with this might understand what I was trying to describe. People who are hearing this for the first time may be confused.
+
+[27:24] **Richi**: But we will be talking more about it and we'll be talking more about how to launch. And I already started the white paper, so I will publish it about the CLB and the event. And also on Twitter, there will be more announcements.
+
+[27:42] **Richi**: So, but at the moment what we are waiting is for kushti to tell us a go ahead saying that yes, all the technical part is clear and we are basically on a finish line to launch this protocol.
+
+[27:56] **Grayman**: What will be the order of magnitude of the amount of ERG that is required to be part of these liquidity provisions to get one of these tokens?
+
+[28:09] **Richi**: Right, so there will always be 100 tokens. It depends how many are collected.
+
+[28:19] **Grayman**: I'm just saying, what are you shooting for? If there's 100 tokens, are you looking for 100,000 ERG? Do you need 10,000 per person?
+
+[28:32] **Richi**: Everyone will get proportionally to the contribution. There are only 100 tokens, but they have nine decimals. So if your contribution part is very small, you will get 0.0 something of this token, but it will be your representation part.
+
+[28:47] **Richi**: So my goal would be to collect around 300,000 to 400,000. So one token will be worth, so you can just divide it by 100, right? So if we collect 300,000 ERGs, so one token would be worth 3,000, right? So 3,000 ERGs would be one token. And you will get proportionately to your part of that overall contribution.
+
+[29:17] **Richi**: I hope that answers the question.
+
+[29:22] **Grayman**: Yeah, I guess really what I was just asking is, what is the order of magnitude of the initial bootstrap liquidity? So you're saying that you have to part with 3,000 ERGs, and two years later, you can then draw them out of this. So what is my incentive? Do I make additional earnings on these tokens if I get one of these?
+
+[29:44] **Richi**: Yes, that's a good question. So what you will get if you participate? So first of all, you will get CLB token, which will be representing your part of your contribution. Anyway, after that, you'll get some airdrops from our partners additional as a bonus.
+
+[30:06] **Richi**: And then your liquidity pool is bootstrapped with 0.3% fee. So during these two years, all the fees will be accumulated for all the people who will be trading USE tokens with ERGs back and forth, right? And I hope there will be lots of trading going on in that pool.
+
+[30:26] **Richi**: All that fee will be accumulated and then after two years, you will be able to withdraw your part of liquidity with your CLB token with all the collected fees as well as all the airdrop bonuses that you will get in the stock, right?
+
+[30:48] **Richi**: Now, if you don't want to wait two years, you need something early. There will be a secondary market for CLB tokens. I'm sure a lot of people will want to buy those tokens cheap and sell them high because they clearly have the value. So each token has a clear value because it's connected to your liquidity pool.
+
+[31:08] **Richi**: So people will be trading it on the MewFinance Spectrum on all our DEXes. And yes, it will have a value. So if you don't want to wait, you just contribute, you collect your bonus airdrop, and after that, you sell your CLB token on the secondary market. And then there definitely will be people who will want to buy it. You don't need to wait.
+
+[31:34] **Richi**: Or you can hold it. Or if you think there is lots of potential, and then there will be lots of fees accumulated, you can buy it from the secondary market as well, the CLB tokens, as much as possible. And that your part in the liquidity pool will grow with it.
+
+[31:52] **Richi**: I hope that sounds clear.
+
+[31:55] **Grayman**: So after two years, what happens? These tokens still exist and you still get rewards based on them? I'm still not getting it. What's my incentive to be one of the initial liquidity providers if I can just buy these tokens on the secondary market in one and a half years?
+
+[32:15] **Grayman**: What unlocks in that second year if there's a secondary? What am I getting? I still don't get it. What happens after the second year?
+
+[32:24] **Richi**: So after the second year, when you construct liquidity, you get liquidity tokens like LP tokens. These LP tokens will be locked in a redeemed smart contract with CLB tokens for two years.
+
+[32:41] **Richi**: So after two years, the smart contract will unlock the redeem function. So you will be able to exchange your CLB token to liquidity token and after that, conventionally remove liquidity from liquidity pool. Okay? So with all the fees accumulated.
+
+[33:01] **Richi**: Now, if you participate in the initial liquidity bootstrap rather than buying on the secondary market, you will get some bonus airdrops, which at the moment we expect to be about between 5 to 10% of the value of your contribution.
+
+[33:24] **Grayman**: And is that just done by like a database that you have a list of wallets that contributed and ignores the tokens that are in people's wallets that they might have purchased from the secondary market?
+
+[33:37] **Richi**: Well, people can purchase tokens from the secondary market. It means someone sold it. Did they get the air drops?
+
+[33:46] **Richi**: Yes, so if you contribute ERGs during the initial bootstrap, you will get Airdrop and the CLB token. After that, CLB token will be traded on the secondary market.
+
+[34:01] **Richi**: So if you want to buy it on the secondary market, obviously you buy it as usual token, right? Nothing different. Also, if you want to sell, if you can sell your CLB tokens straight away as well as sell all your airdrop tokens, and then possibly you can even make like quick money on it.
+
+[34:22] **Richi**: So possibly there will be like, you will probably make a little bit of money if you just sell CLB tokens straight away on the secondary market as well as all your airdrops, because airdrops are meant to cover between 5% and 10% of your contribution.
+
+[34:38] **Grayman**: So I'm too dumb to chase quick profits. But I do wonder, like, so after the two years are up, then this thing unlocks. And at that point, is there any purpose left to these original tokens? Or does everything just become normal liquidity provisions in the DEX?
+
+[34:55] **Richi**: No, these tokens, so this contract will exist forever, right? The redemption contract. So you can redeem the portion of liquidity pool of liquidity tokens and then redeem liquidity or you just can keep these tokens in your wallet for 10 years and just accumulate fees.
+
+[35:18] **Richi**: Your LP tokens will be locked in the original USE LP liquidity pool and they will stay there until you decide to redeem them. So it's essentially like keeping liquidity tokens in your wallet as long as you want.
+
+[35:34] **Richi**: That's some good questions, Grayman, and I hope people who will be listening to this podcast will start digging into it more.
+
+[35:47] **kushti**: Actually, I think maybe it makes sense to have Twitter spaces next week, and specifically about the USE launch, and so on, the Dexy design, because still, I believe, many people don't quite follow even the basics, right, and so on.
+
+[36:14] **kushti**: And during the week, well, we can promote Dexy Gold, right, so people will have a chance to play with the protocol, then ask questions and so on. How does it sound, Richi?
+
+[36:28] **Richi**: So next week is busy because we have a Cardano Summit and then some traveling.
+
+[36:37] **kushti**: I see, maybe in two weeks then. So closer to launch and next week maybe we can do spaces on basis changes, all that stuff, so there is need to provide updates and some digestible forms.
+
+[37:03] **kushti**: The recent weeks I am mostly just coding and providing short updates. I think after some more polishing and testing it makes sense to provide more details on the protocol, answer questions, and promoted around, well, people interested in, well, local payment systems as well as, well, payment systems for AI.
+
+[37:42] **kushti**: For peer-to-peer payments now, quite big topic and so on, right? So it's quite a big trend now. Let's ride on it.
+
+[37:53] **Richi**: Yeah, sounds good.
+
+[37:58] **qx**: Richi, somebody in the chat says, what's the hardest part of launch right now and how can they help?
+
+[38:04] **Richi**: So, launch will be done with MewFinance. So, we already, actually, since ErgoHack 9, it's almost one year since we did this presentation, ErgoHack 9, I encourage everyone to go and just go to Ergo YouTube channel, and look at the ErgoHack 9. I explain how this launch will work. The video is there.
+
+[38:34] **Richi**: And I'll be publishing more papers on that. So the basis is already done, everything for the launch. So, actually, it's not much needed. How it will look, you will see some UI. I can probably share some UI how it will look, but it will be similar to the other token launch paths that they have.
+
+[39:05] **Richi**: Yes, when you look into MewFinance, you will need, if you are contributing with original ergo on ergo blockchain, you will just need to leave your ergo wallet from which one you will be doing the payment.
+
+[39:22] **Richi**: You will contribute your ERG, you will transfer your ERG and then after that you will immediately see how much ERG you contributed and total ERG contributed so you will know your share.
+
+[39:39] **Richi**: After two days, so I plan to run it for three days, after three days we will basically the final number will be known and you will get your contribution part. So for example 1%, 1.234% and you will get CLB tokens as well as some other sponsored tokens airdropped to your wallet.
+
+[40:02] **Richi**: And after that the secondary market will be created and then you can trade this CLB in a secondary market or hold it as well as just enjoy the small little bonus.
+
+[40:15] **Richi**: How can you help at the moment? Just attend spaces and subscribe to my Twitter, USE Twitter account. So it's there. I'll be posting some updates with my USE account on Twitter, specifically dedicated to this stable coin.
+
+[40:38] **Richi**: And just follow up on the news and you will not miss this event. I think it will be quite interesting. It's very novel to current DeFi.
+
+[40:49] **Richi**: Actually, let me tell you a little bit. Let's spend a couple of minutes talking about USE and it's very novel and it's trying to solve very big problems in the current DeFi.
+
+[41:01] **Richi**: All stable coins that we have are basically centralized, right? There are no decentralized tokens. There are some kind of attempts like Athena, but their resources are also centralized.
+
+[41:13] **Richi**: So USE or Dexy has very unique design and it's a lot of great minds behind it from design perspective, as well as from trying to build the trading experience and launch, et cetera.
+
+[41:31] **Richi**: It will be working with Rosen. We will be working with Rosen to make sure that the distribution of this stablecoin is as wide as possible. And as you could have guessed, the launch itself, the CLB event is also quite unique in DeFi space.
+
+[41:49] **Richi**: So what we're trying to do is not just copy paste something that's going on on Ethereum, but create something really unique and sometimes unique DeFi.
+
+[41:59] **Richi**: If this project succeeds, obviously, there will be so much recognition to Ergo and I'll be doing everything possible to get us there. Because all this technology, we were talking for years about the great technology and all our first principles and P2P finance and things like that.
+
+[42:24] **Richi**: But for most of the world, what do they see? They see us on a coin market cap. And that's all. And they don't know about our products. Maybe some people know about Rosen. But mostly, that's it, right?
+
+[42:39] **Richi**: And we're trying to reach a wide audience. Because for people, having stable coin is very clear. You understand what stable coin is, right? Okay, so you know, okay, this coin is $1. That's all I need to know. I'm not interested if ERG's price goes to 10 or 0.1. I know that this stablecoin is always $1.
+
+[42:59] **Richi**: And I'm interested in it because I use the dollars daily, right? So with that, I am trying to capture a big audience and lots of eyes are looking to Ergo because, like I said, the technology is very unique that we have. We have great minds. We just need a little bit more recognition and then more attention.
+
+[43:29] **qx**: Very interesting, Richi. I'm looking forward to the launch.
+
+[43:33] **kushti**: From what I've heard, I think it makes sense if you are non-dev and willing to help maybe to watch those ErgoHack presentations, right, and make some simpler versions like a one-pager and so on, right, so could be doable with manual recheck by some dev.
+
+[44:04] **kushti**: Well, they I also I don't like that much, but okay. So, well, I think, well, a lot of help could be there, right, and in the space of doing more and more materials.
+
+[44:27] **kushti**: So back in the days of SigmaUSD launch, the community did some amazing job by promoting, doing one-pagers all those things and promoting them.
+
+[44:48] **Richi**: One comment if you allow me on that. So I actually really like Ergo community and I see how they're trying to promote it. I like the initiative that people starting with bootstrapping liquidity on Binance chain, on Ethereum, trying to do something.
+
+[45:17] **Richi**: And how we collected ergs for MC, it was amazing. So what I'm trying to say is ergo has a very nice community and people do participate. Even for free, they just donate.
+
+[45:29] **Richi**: Now, CLB will not be a donation. You will actually make money with it. But people are willing to donate. What we need in their case is a little bit more coordination and more like coordinated effort.
+
+[45:43] **Richi**: And I think we can go a long way with it. So I hope the launch of this stable coin will be like a coordinated effort where all the community can pick it up. And we may see some amazing results with it.
+
+[45:55] **Richi**: There are still lots of plans. I have a very, very long roadmap. I cannot say everything now. Let's go step by step. But let's start with the successful launch, both from technical point of view and the initial bootstrap. But there will be lots of amazing things coming up down the road.
+
+[46:16] **Richi**: So we're here to shake the space. So stay tuned.
+
+[46:30] **kushti**: Pretty much agree. So, well, for coordination, we are discussing this all the time, right? We are trying different things. So, well, with many new faces now joining the community. Well, there is need always, I guess, to reconsider and reshuffle some things, right? Not to be like some old, I don't know, bureaucratic kind of a rotten kind of environment.
+
+[47:17] **Grayman**: There was a question on YouTube about privacy from Mohit Tanwar. He says, as far as privacy coins are concerned, almost every privacy coin is booming. What's wrong with ergo? When will we see the booming price action in ergo? I know we aren't supposed to talk about price, but I do think it makes sense to talk about privacy.
+
+[47:37] **Grayman**: And it's true that privacy coins like Zcash and Ergo, for that matter, yesterday was trending on CoinGecko right along with Zcash. But it does seem like our narrative around privacy is different than the one that is currently capturing the attention of the market.
+
+[47:57] **Grayman**: And you were talking about this a little bit, I think, yesterday on Telegram. So I figured that'd be a good way to prompt you with a question.
+
+[48:18] **Grayman**: I mean, my take on privacy in Ergo is that it's at the app layer. I mean, it is built into the core, into ErgoScript. There's privacy tooling, and you can certainly talk much more in depth about that than I can.
+
+[48:30] **Grayman**: But that it's good that it's optional, because that means that if there's optional privacy, that's optional transparency as well. And so to the extent that we're going to use Ergo for public money systems, that transparency is very important.
+
+[48:55] **Grayman**: But eventually at the business layer, of course, people want privacy. I don't want my competitors to see how I spend my money, where and when. I'm happy to report my taxes to the IRS if that's what we have to do for the last 100 plus years in America, even though I wonder about how that jives with the Fifth Amendment.
+
+[49:21] **Grayman**: Nevertheless, I don't want my taxes that I report to the IRS and all of that transaction to be open on chain for everybody to see. I do want privacy. I appreciate optional privacy.
+
+[49:34] **Grayman**: But at the same time, to even have an IRS or a government money system, you need to have transparency. Otherwise, you end up with the worst examples of the Cantillon effect and all these backroom deals, and you get right back to the system that we have right now.
+
+[49:54] **Grayman**: It's important that Bitcoin was transparent. It's not a flaw. It may be a limitation, but it's not a flaw. It was important. It would not be where it is right now had it been Monero and completely opaque, in my opinion. What do you think?
+
+[50:14] **kushti**: So in many cases it's transparency, right? What does matter? Especially we are talking about blockchain. So all those talks are quite strange. So well, it's at the same time people praise blockchain for transparency, right?
+
+[50:42] **kushti**: Then, well, there is need for privacy for money. So I think, well, if we consider blockchain as kind of a layer for reserves mostly, right, so kind of digital commodities then, well, in most cases probably it should be transparent, right, even then you need to privacy on cash layer so basically something like basis, right, so the privacy maybe even enforced should be considered on the base layer.
+
+[51:26] **kushti**: So we have optional privacy, actually a lot of tooling, so native support for thresholds and ring signatures with zero-knowledge properties being preserved, unlike Bitcoin and so on, multi-sig, so as far as I know, Ergo is the only one with such properties.
+
+[51:49] **kushti**: A lot of applications for privacy protocols that are done as applications such as ErgoMixer, so non-custodial and non-interactive tool to restore fungibility of coins then. Stealth addresses, so a tool to have privacy of recipients and so on.
+
+[52:19] **Grayman**: To be fair to Zcash they are optional privacy.
+
+[52:27] **kushti**: And they are mostly transparent. So I don't know about these days, but a few years after launch, last time when I checked, it was like 2% of total supply was shielded.
+
+[52:44] **Grayman**: So on the other hand, they are mined by ASICs and that might explain their price action, which touches on a whole other topic, but again, price is not what we're supposed to be discussing on the AMA.
+
+[52:57] **kushti**: Some people are now coming and demanding for full privacy in Ergo, mandatory privacy, but then I'm asking those people, are they using ErgoMixer even or whatever, so it seems. Well, there is no real interest in privacy, so people are just chasing the popular trends.
+
+[53:24] **Grayman**: Well, to put a check on that, though, it's not very easy to use Mixer. That might be a really good candidate for a dApp in a browser. In a browser wallet, or even on a cell phone wallet.
+
+[53:42] **Grayman**: But having the Mixer so that it would be easy for an end user to just devote part of their stash, part of their ergo, into the Mixer so they can say, this is sort of my private portion of my of my cash that I can spend because it all spits out into the stealth address and I can use that for stuff that I don't want to be tracked and traced on and having that be so not easy, but.
+
+[54:11] **Grayman**: Because you should never make it too easy. People should think about what they're doing and understand their assumptions. But right now, it feels like for somebody who's non-technical, the mixer is maybe a bridge too far. So they might genuinely be interested in privacy and want that option.
+
+[54:28] **Grayman**: I think what they're expressing is that it's just too hard for them to implement it and understand it. I sort of feel that way. I've used the mixer a little bit, but not really. It's a pain in the ass.
+
+[54:43] **kushti**: But in general, there were some arrests of Monero users because of networking security, right? Well, for the whole stack, it's not easy at all to use all those things. Even maybe if you are using Tor, right, which is kind of red flag for surveillance already.
+
+[55:18] **kushti**: There are a lot of things to consider here, well, in regards with networking security. So maybe we need to do some encryption services and Ergo peer-to-peer network rights to hide the source of transactions with non-interactive and non-custodial mixer. It could be the weakest point here.
+
+[55:50] **kushti**: And then, mixer is not easy to use and you need for counterparty if you mix large enough chunk of liquidity and so on. Then there are certain practices and maybe default settings are suboptimal and so on.
+
+[56:15] **kushti**: So there is a kind of complex science here, right? And not just in Ergo, but here in general. So if you want to have privacy in computer networks, then it's not user friendly at all.
+
+[56:32] **kushti**: I have to say there are certain things which we can do and should do but, well, a lot of work ahead and not just here in Ergo based on what's happening right around and so for a few years also the topic was basically silenced, right, in the Ergo community as well.
+
+[57:03] **kushti**: So, good to see a revival of those talks and, well, let's consider continue from basically 2020 because, well. Regulatory climate in America was very different a year ago. Well, in the US, but then also a lot of exchanges.
+
+[57:30] **kushti**: There were even certain attempts to delist Ergo from some centralized exchanges because they considered Ergo as privacy coins. Well, it did not happen, but there was a risk to get delisted from some biggest exchanges by volume even now.
+
+[57:55] **kushti**: So, well, it was quite tricky even to talk about privacy rights, well, especially in public. I like tweeting anything or whatever so for that you can get ERG delisted rights from centralized exchange or whatever.
+
+[58:20] **kushti**: So happily now it's a different climate and we can continue basically from 2020 from that state and, well, it's good after all. And, well, still it's not outdated stack and so on. So we can continue.
+
+[58:46] **qx**: kushti, let's just give a quick props to the devs before we close out today. I just popped a few things. We're a little late, but we did start a little late. Let me just roll through them really quickly in a minute, just to give a heads up to people.
+
+[59:03] **qx**: Let's see, kushti worked on R&D, reviewed and opened an issue, worked on some sub blocks, re-worked forking logic, continued to work on white paper, and he worked on Sigma SDK polishing and going to publish more examples, and he got a review up there.
+
+[59:19] **qx**: Big update from Rosen Bridge. The final test milestone for Bitcoin Runes release has started. They hope to finish important ones and start Bitcoin Runes development deployment procedure. Awesome, by next week. On chain token map they worked on all supported tokens of the bridge is to find an adjacent structured file very cool. Let's see a UI app summary. They added a new extracted a fetch token map boxes Added callback to Rosen service and added a wrap token map Rosen bridge guard app they updated and they updated the Rosen bridge app as well very cool.
+
+[60:01] **kushti**: So then ergo wallet and so there is need to update ergo wallet and, well, consider maintenance and then development, right? So, well, if you guys know any kotlin java android developers so, well, so try to get them to our...
+
+[60:28] **qx**: I'll talk to kushti. Awesome. We've got Updating I think one of the last ones from cyberverse. They're trucking along still making their in-game battles a thing They've completed their first version of a death system low HP neutral Neural distortion and visual corruption. Yes collapse sequence and hospital response and recovery breathing fogger. So that's pretty cool. Very cool And that's it for the dev updates and we are definitely over time guys
+
+[61:00] **kushti**: And there are also updates from Git circles, Lithos and so on. So we need to push the teams to publish over the dev chat. Not just them. And by the way, so we can also do Twitter space on Lithos, right? Because they have planned to launch a test at mining soon.
+
+[61:24] **qx**: Yeah, we should do that. That should be some afternoon sometime. So Joe and Cheese can be awake and participate and talk about Lithos. That'd be great. I can ping them right now before I forget.
+
+[61:36] **qx**: Alright guys, thanks so much for joining us. We'll see you next week around the same time Thanks for those that popped on for those that come into the waiting room and chat And we bring you in and then you leave I can't tell if you're a spammer or not So if you want to chat and have your video here of your audio here coming before the start of the meeting is always the easiest and Pop on your audio or you video in chat with us for a bit so we can verify you're not a racist spammer drawing bad things on the screen or sharing pornography standard on on just Following the chat or the one that's on youtube Or maybe you do on youtube and then that way people can participate but we just
+
+[62:22] **Grayman**: You know, we copy those because otherwise, I don't know. Oh, I was reading. I've got the questions. I've got a question. You pasted them in chat before I could get before I did. But we put questions up. I think we're following these. I mean people who want to come in person and push in and talk with audio. Great man is what I was referring to.
+
+[62:46] **Grayman**: We hope to have more of them as long as it works.
+
+[62:48] **qx**: It's a proof of work, though. So you actually have to work to show us that you're not going to spam us or scam us on the live stream, that's for sure.
+
+[62:55] **kushti**: In this regard, maybe Twitter space is better, right? So it's immediately seen there, I mean, in some history. Who you are.
+
+[63:02] **qx**: That's true. That is true. Maybe we can try that next week. That's probably a good idea, kushti.
+
+[63:07] **qx**: Okay, great, everybody. Thanks so much everybody have a good day and week ciao

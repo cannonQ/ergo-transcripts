@@ -1,0 +1,240 @@
+{
+  "call_date": "2025-12-19",
+  "call_title": "Ergo PoW Blockchain - Community Chat - December 18th (time: 17 UTC)",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Ergo Foundation Community Transition and Market Making",
+      "category": "governance",
+      "start_time": "00:51",
+      "end_time": "08:40",
+      "primary_speaker": "Qx",
+      "summary": "Discussion of Ergo Foundation transitioning from bootstrap phase to community-led operations. The $10-12k quarterly market making costs will be transferred to community members who will run trading bots without profiting from community spreads, unlike other chains.",
+      "key_terms": [
+        "Ergo Foundation",
+        "market making",
+        "community transition",
+        "trading bots",
+        "quarterly costs"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Explorer Infrastructure Migration to P2P DAO",
+      "category": "technical",
+      "start_time": "03:58",
+      "end_time": "07:04",
+      "primary_speaker": "Qx",
+      "summary": "Migration of main explorers from expensive Hetzner servers (680 euro/month) to P2P DAO infrastructure. The P2P system can handle 99% of queries, with beefy machines reserved for large queries requiring 120GB RAM.",
+      "key_terms": [
+        "explorers",
+        "Hetzner",
+        "P2P DAO",
+        "infrastructure",
+        "large queries",
+        "SigmaSpace"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Market Making Requirements for Exchange Listings",
+      "category": "ecosystem",
+      "start_time": "07:04",
+      "end_time": "09:31",
+      "primary_speaker": "HQ3rr",
+      "summary": "Explanation of why market making is necessary for maintaining exchange listings and minimum volume requirements. Discussion of moving toward decentralized exchanges through Rosen bridge to avoid centralized exchange dependencies.",
+      "key_terms": [
+        "exchange listings",
+        "minimum volumes",
+        "Rosen",
+        "decentralized exchanges",
+        "centralized exchanges"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "VaultPay Non-KYC Payment Platform Demo",
+      "category": "defi",
+      "start_time": "10:30",
+      "end_time": "13:52",
+      "primary_speaker": "HQ3rr",
+      "summary": "Live demonstration of VaultPay platform for crypto-to-gift card purchases using ERG without KYC requirements. The platform integrates with Trocador and multiple swap providers, enabling purchases of gift cards and prepaid services.",
+      "key_terms": [
+        "VaultPay",
+        "no KYC",
+        "gift cards",
+        "Trocador",
+        "swap providers",
+        "prepaid cards"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "USD Stablecoin Integration in MewDex",
+      "category": "defi",
+      "start_time": "14:12",
+      "end_time": "15:41",
+      "primary_speaker": "HQ3rr",
+      "summary": "HQ3rr integrated native USD and Dexy Gold pools into MewDex with liquidity provision capabilities. The integration includes freemint and arbmint functions for price balancing between LP and bank protocols.",
+      "key_terms": [
+        "USD stablecoin",
+        "MewDex",
+        "native pools",
+        "freemint",
+        "arbmint",
+        "liquidity provision"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Developer Updates and Project Progress",
+      "category": "technical",
+      "start_time": "16:15",
+      "end_time": "18:39",
+      "primary_speaker": "Qx",
+      "summary": "Review of recent development work including Game of Prompts interface completion, Banner contract improvements with 50+ PRs, kushti's chain cache testing, and Lethos 2.2.0 release with multi-threaded sync improvements.",
+      "key_terms": [
+        "Game of Prompts",
+        "Banner",
+        "chain cache",
+        "Lethos",
+        "multi-threaded sync",
+        "kushti"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Ergo Trace 3D Blockchain Visualization Tool",
+      "category": "technical",
+      "start_time": "18:39",
+      "end_time": "21:17",
+      "primary_speaker": "Qx",
+      "summary": "Demonstration of new Ergo Trace tool by Degen's World that provides 3D visualization of blockchain transactions and address connections. The tool shows animated representations of transaction flows and wallet relationships.",
+      "key_terms": [
+        "Ergo Trace",
+        "3D visualization",
+        "transaction flows",
+        "Degen's World",
+        "address connections"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "HQ3rr's New Wallet Integration Project",
+      "category": "technical",
+      "start_time": "23:32",
+      "end_time": "25:57",
+      "primary_speaker": "HQ3rr",
+      "summary": "HQ3rr is developing a new dApp wallet with integrated Mew applications, allowing users to import wallets directly into browser with password protection. The wallet will provide swap, lock, and burn functions for tokens without external signing.",
+      "key_terms": [
+        "dApp wallet",
+        "browser wallet",
+        "Mew integration",
+        "password protection",
+        "token functions"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Nautilus Buy ERG Integration and On-ramps",
+      "category": "ecosystem",
+      "start_time": "25:57",
+      "end_time": "28:08",
+      "primary_speaker": "Qx",
+      "summary": "Discussion of the new Buy ERG button in Nautilus wallet connecting to Banksa, with potential integration of VaultPay and Stealth X. Debate over centralized vs decentralized on-ramp options and their KYC requirements.",
+      "key_terms": [
+        "Nautilus",
+        "Buy ERG",
+        "Banksa",
+        "on-ramps",
+        "KYC requirements",
+        "Stealth X"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Cornell University Blockchain Token Economy Implementation",
+      "category": "ecosystem",
+      "start_time": "28:39",
+      "end_time": "36:32",
+      "primary_speaker": "Qx",
+      "summary": "Detailed walkthrough of Cornell's brick token system for students, including recycling rewards, plot payments, 3D printing discounts, and Amazon appreciation points. The system demonstrates real-world blockchain utility beyond speculation.",
+      "key_terms": [
+        "Cornell University",
+        "brick token",
+        "recycling rewards",
+        "plot payments",
+        "3D printing",
+        "appreciation points"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Blockchain vs Crypto Philosophy Discussion",
+      "category": "community",
+      "start_time": "36:32",
+      "end_time": "38:54",
+      "primary_speaker": "HQ3rr",
+      "summary": "HQ3rr emphasizes the distinction between blockchain technology and cryptocurrency speculation, advocating for blockchain as database, validator, and utility tool beyond dollar valuations. Discussion of Ergo's core blockchain strengths over DeFi aspects.",
+      "key_terms": [
+        "blockchain vs crypto",
+        "speculation",
+        "utility",
+        "database",
+        "validator",
+        "dollar price"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "MewDex Socket Integration and Zero Confirmations",
+      "category": "technical",
+      "start_time": "39:36",
+      "end_time": "41:24",
+      "primary_speaker": "HQ3rr",
+      "summary": "MewDex now supports socket connections for instant transaction visibility and chained transactions before confirmation. Discussion of Nautilus zero-conf feature enabling mempool transaction chaining with high success rates on Ergo.",
+      "key_terms": [
+        "socket integration",
+        "zero confirmations",
+        "chained transactions",
+        "mempool",
+        "MewDex",
+        "Nautilus"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Ergo Santa DEX Campaign and Token Contributions",
+      "category": "community",
+      "start_time": "41:38",
+      "end_time": "50:02",
+      "primary_speaker": "HQ3rr",
+      "summary": "Launch of Ergo Santa campaign collecting tokens for DEX trading rewards. CannonQ and HQ3rr contribute millions of FAKU tokens, with airdrops planned based on DEX trading participation rather than simple distribution.",
+      "key_terms": [
+        "Ergo Santa",
+        "DEX campaign",
+        "FAKU tokens",
+        "airdrops",
+        "trading rewards",
+        "token contributions"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "TVL Metrics Manipulation and DeFi Rankings",
+      "category": "defi",
+      "start_time": "49:49",
+      "end_time": "51:08",
+      "primary_speaker": "HQ3rr",
+      "summary": "Discussion of how easily DeFi metrics can be manipulated, with HQ3rr explaining how locking tokens could artificially boost TVL rankings on DeFiLlama within minutes. Criticism of meaningless metrics in the crypto industry.",
+      "key_terms": [
+        "TVL manipulation",
+        "DeFiLlama",
+        "artificial metrics",
+        "token locking",
+        "rankings",
+        "meaningless metrics"
+      ]
+    }
+  ]
+}
