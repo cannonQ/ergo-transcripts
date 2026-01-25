@@ -2,7 +2,7 @@
 **Date:** 2025-12-20
 
 ## Executive Summary
-This was a late-night casual AMA featuring Joseph Arminio (armeanio), qx(), and Luca discussing Ergo development progress, philosophical views on decentralization, and current projects. The conversation covered infrastructure work, Lithos mining protocol, Gluon Dollar stablecoin development, and broader cryptocurrency philosophy around censorship resistance and peer-to-peer systems.
+This was a late-night casual AMA featuring Joseph Armeanio  (armeanio), qx(), and Luca discussing Ergo development progress, philosophical views on decentralization, and current projects. The conversation covered infrastructure work, Lithos mining protocol, Gluon Dollar stablecoin development, and broader cryptocurrency philosophy around censorship resistance and peer-to-peer systems.
 
 ## Key Topics Discussed
 - **Infrastructure Development**: qx() discussed moving Ergo infrastructure away from centralized services like Hetzner and Cloudflare
