@@ -7,7 +7,7 @@ This community call focused on "vibe coding" (AI-assisted development) within th
 ## Key Topics Discussed
 
 • **Unstoppable dApps on IPFS** - QX demonstrated self-contained HTML applications for reporting, messaging, and social media hosted on IPFS
-• **Mobile dApp development** - HQ showcased Android mobile wallet integration and WorldPay frontend development
+• **Mobile dApp development** - HQ showcased Android mobile wallet integration and VoltPay frontend development
 • **NFT marketplace enhancements** - New bulk buying/selling features and drag-and-drop functionality for MewMart
 • **AI-assisted smart contract auditing** - Using LLMs to verify ErgoScript contracts and identify common security vulnerabilities
 • **Testing automation** - Generating test cases and mutation testing for Ergo node and Sigma interpreter
