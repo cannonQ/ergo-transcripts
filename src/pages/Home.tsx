@@ -176,9 +176,11 @@ export default function Home() {
                   <span className="text-xs font-mono text-ergo-muted">{decision.date}</span>
                 </div>
 
-                <h3 className="font-mono text-lg font-semibold text-ergo-orange mb-2">
-                  {decision.title}
-                </h3>
+                <Link to={`/calls/${decision.call_id}`}>
+                  <h3 className="font-mono text-lg font-semibold text-ergo-orange hover:text-orange-400 transition-colors mb-2">
+                    {decision.title}
+                  </h3>
+                </Link>
 
                 <p className="text-sm text-ergo-light/80 mb-3 line-clamp-2">
                   {decision.content}
