@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { Calendar, Clock, Users, Youtube, ExternalLink, Copy, ChevronRight, Loader2 } from 'lucide-react';
 import TabNavigation from '../components/TabNavigation';
 import TopicTag from '../components/TopicTag';
+import CorrectionButton from '../components/CorrectionButton';
 import { useData } from '../contexts/DataContext';
 import type { CallMeta, QAData, DecisionsData } from '../types';
 
@@ -423,6 +424,12 @@ export default function CallDetail() {
                 <Copy className="w-4 h-4" />
                 {copied ? 'Copied!' : 'Copy Citation'}
               </button>
+            </div>
+
+            {/* Suggest Correction */}
+            <div className="bg-ergo-dark border border-ergo-orange/20 rounded-lg p-6">
+              <h3 className="font-mono font-semibold text-ergo-orange mb-3">Community</h3>
+              <CorrectionButton pageType="Call" pageTitle={callMeta.title} />
             </div>
 
             {/* Related Calls */}

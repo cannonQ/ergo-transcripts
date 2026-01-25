@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { User, Mic, Gavel, Hash, Quote, Calendar, ArrowLeft, Loader2 } from 'lucide-react';
+import CorrectionButton from '../components/CorrectionButton';
 import { useData } from '../contexts/DataContext';
 
 export default function SpeakerDetail() {
@@ -71,7 +72,10 @@ export default function SpeakerDetail() {
           {/* Info */}
           <div className="flex-1">
             <h1 className="text-4xl font-bold font-mono text-gradient mb-2">{speaker.name}</h1>
-            <p className="text-xl text-ergo-orange font-mono mb-4">{speaker.role}</p>
+            <div className="flex items-center gap-4 mb-4">
+              <p className="text-xl text-ergo-orange font-mono">{speaker.role}</p>
+              <CorrectionButton pageType="Speaker" pageTitle={speaker.name} />
+            </div>
             {speaker.bio && (
               <p className="text-ergo-light/80 mb-6">{speaker.bio}</p>
             )}

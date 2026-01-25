@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Search, ChevronDown, ChevronUp, Loader2 } from 'lucide-react';
+import CorrectionButton from '../components/CorrectionButton';
 import { useData } from '../contexts/DataContext';
 import type { AggregatedQA } from '../types';
 
@@ -174,12 +175,15 @@ export default function FAQ() {
                 </div>
               </div>
 
-              <Link
-                to={`/calls/${qa.call_id}`}
-                className="inline-block mt-3 text-xs font-mono text-ergo-orange hover:text-orange-400"
-              >
-                View in context: {qa.call_title}
-              </Link>
+              <div className="flex items-center justify-between mt-3">
+                <Link
+                  to={`/calls/${qa.call_id}`}
+                  className="text-xs font-mono text-ergo-orange hover:text-orange-400"
+                >
+                  View in context: {qa.call_title}
+                </Link>
+                <CorrectionButton pageType="Q&A" pageTitle={qa.question} />
+              </div>
             </div>
           ))}
           {filteredQA.length === 0 && (

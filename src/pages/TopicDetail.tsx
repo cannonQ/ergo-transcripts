@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { Hash, Users, GitBranch, Calendar, ChevronRight, Loader2 } from 'lucide-react';
 import CallCard from '../components/CallCard';
 import TopicTag from '../components/TopicTag';
+import CorrectionButton from '../components/CorrectionButton';
 import { useData } from '../contexts/DataContext';
 
 export default function TopicDetail() {
@@ -52,6 +53,7 @@ export default function TopicDetail() {
           <h1 className="text-4xl font-bold font-mono text-gradient">
             {topic.name.toUpperCase()}
           </h1>
+          <CorrectionButton pageType="Topic" pageTitle={topic.name} className="ml-auto" />
         </div>
         <p className="text-lg text-ergo-light/80 mb-6">
           {topic.description}
