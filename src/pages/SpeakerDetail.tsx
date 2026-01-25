@@ -1,14 +1,26 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { User, Mic, Gavel, Hash, Quote, Calendar, ArrowLeft, ExternalLink } from 'lucide-react';
-import { mockSpeakers, mockCalls, mockDecisions, mockQA } from '../data/mockData';
+import { User, Mic, Gavel, Hash, Quote, Calendar, ArrowLeft, Loader2 } from 'lucide-react';
+import { useData } from '../contexts/DataContext';
 
 export default function SpeakerDetail() {
   const { name } = useParams<{ name: string }>();
+  const { speakers, calls, isLoading } = useData();
+
+  if (isLoading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <Loader2 className="w-12 h-12 text-ergo-orange animate-spin mx-auto mb-4" />
+          <p className="font-mono text-ergo-muted">Loading speaker...</p>
+        </div>
+      </div>
+    );
+  }
+
   const decodedName = decodeURIComponent(name || '');
-  
-  const speaker = mockSpeakers.find(s => s.name.toLowerCase() === decodedName.toLowerCase());
-  
+  const speaker = speakers.find(s => s.name.toLowerCase() === decodedName.toLowerCase());
+
   if (!speaker) {
     return (
       <div className="container mx-auto px-4 py-8">
@@ -17,16 +29,17 @@ export default function SpeakerDetail() {
           <h1 className="text-2xl font-mono font-bold mb-2">Speaker Not Found</h1>
           <p className="text-ergo-muted mb-4">Could not find speaker: {decodedName}</p>
           <Link to="/speakers" className="text-ergo-orange hover:underline font-mono">
-            ← Back to Speakers
+            Back to Speakers
           </Link>
         </div>
       </div>
     );
   }
 
-  const speakerCalls = mockCalls.filter(call => call.speakers.includes(speaker.name));
-  const speakerDecisions = mockDecisions.filter(d => d.speaker === speaker.name);
-  const speakerQA = mockQA.filter(qa => qa.responder === speaker.name);
+  // Find calls that include this speaker
+  const speakerCalls = calls.filter(call =>
+    call.speakers.some(s => s.toLowerCase() === speaker.name.toLowerCase())
+  );
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -90,117 +103,53 @@ export default function SpeakerDetail() {
         </div>
 
         {/* Top Topics */}
-        <div className="mt-6 pt-6 border-t border-ergo-orange/20">
-          <h3 className="font-mono text-sm text-ergo-muted mb-3">Top Topics</h3>
-          <div className="flex flex-wrap gap-2">
-            {speaker.top_topics.map(topic => (
-              <Link
-                key={topic}
-                to={`/topics/${topic}`}
-                className="px-3 py-1 bg-ergo-orange/20 hover:bg-ergo-orange/30 text-ergo-orange rounded font-mono text-sm transition-colors"
-              >
-                #{topic}
-              </Link>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-        {/* Recent Calls */}
-        <div>
-          <h2 className="text-2xl font-bold font-mono mb-4 flex items-center gap-2">
-            <Mic className="w-6 h-6 text-term-cyan" />
-            Recent Calls
-          </h2>
-          <div className="space-y-4">
-            {speakerCalls.slice(0, 5).map(call => (
-              <Link
-                key={call.id}
-                to={`/calls/${call.id}`}
-                className="block bg-ergo-dark border border-ergo-orange/20 rounded-lg p-4 hover:border-ergo-orange/50 transition-all"
-              >
-                <h3 className="font-mono font-semibold mb-2 line-clamp-1">{call.title}</h3>
-                <div className="flex items-center gap-4 text-sm text-ergo-muted font-mono">
-                  <span className="flex items-center gap-1">
-                    <Calendar className="w-4 h-4" />
-                    {new Date(call.date).toLocaleDateString()}
-                  </span>
-                  <span>{call.duration_minutes} min</span>
-                </div>
-              </Link>
-            ))}
-            {speakerCalls.length === 0 && (
-              <p className="text-ergo-muted font-mono text-sm">No calls found</p>
-            )}
-          </div>
-        </div>
-
-        {/* Decisions & Commitments */}
-        <div>
-          <h2 className="text-2xl font-bold font-mono mb-4 flex items-center gap-2">
-            <Gavel className="w-6 h-6 text-term-green" />
-            Decisions & Commitments
-          </h2>
-          <div className="space-y-4">
-            {speakerDecisions.slice(0, 5).map(decision => (
-              <div
-                key={decision.id}
-                className="bg-ergo-dark border border-ergo-orange/20 rounded-lg p-4"
-              >
-                <div className="flex items-center gap-2 mb-2">
-                  <span className={`text-xs font-mono px-2 py-0.5 rounded ${
-                    decision.type === 'decision' ? 'bg-term-green/20 text-term-green' :
-                    decision.type === 'commitment' ? 'bg-term-cyan/20 text-term-cyan' :
-                    'bg-term-amber/20 text-term-amber'
-                  }`}>
-                    {decision.type.replace('_', ' ').toUpperCase()}
-                  </span>
-                  <span className="text-xs text-ergo-muted font-mono">
-                    {new Date(decision.date).toLocaleDateString()}
-                  </span>
-                </div>
-                <h3 className="font-mono font-semibold mb-2">{decision.title}</h3>
-                <p className="text-sm text-ergo-light/70 line-clamp-2">{decision.content}</p>
-              </div>
-            ))}
-            {speakerDecisions.length === 0 && (
-              <p className="text-ergo-muted font-mono text-sm">No decisions found</p>
-            )}
-          </div>
-        </div>
-      </div>
-
-      {/* Q&A Responses */}
-      <div className="mt-8">
-        <h2 className="text-2xl font-bold font-mono mb-4 flex items-center gap-2">
-          <Quote className="w-6 h-6 text-term-magenta" />
-          Q&A Responses
-        </h2>
-        <div className="space-y-4">
-          {speakerQA.slice(0, 5).map(qa => (
-            <div
-              key={qa.id}
-              className="bg-ergo-dark border border-ergo-orange/20 rounded-lg p-6"
-            >
-              <div className="mb-4">
-                <span className="text-xs font-mono text-ergo-muted">Question:</span>
-                <p className="font-mono text-ergo-orange">{qa.question}</p>
-              </div>
-              <div className="bg-ergo-darker border-l-2 border-term-green p-4 rounded">
-                <p className="text-ergo-light/90">{qa.answer}</p>
-              </div>
-              <div className="mt-3 flex items-center gap-4 text-xs font-mono text-ergo-muted">
-                <span>{new Date(qa.date).toLocaleDateString()}</span>
-                {qa.timestamp && <span>@ {qa.timestamp}</span>}
-                <Link to={`/calls/${qa.call_id}`} className="text-term-cyan hover:underline">
-                  View Call →
+        {speaker.top_topics.length > 0 && (
+          <div className="mt-6 pt-6 border-t border-ergo-orange/20">
+            <h3 className="font-mono text-sm text-ergo-muted mb-3">Top Topics</h3>
+            <div className="flex flex-wrap gap-2">
+              {speaker.top_topics.map(topic => (
+                <Link
+                  key={topic}
+                  to={`/topics/${topic.toLowerCase().replace(/\s+/g, '-')}`}
+                  className="px-3 py-1 bg-ergo-orange/20 hover:bg-ergo-orange/30 text-ergo-orange rounded font-mono text-sm transition-colors"
+                >
+                  #{topic}
                 </Link>
-              </div>
+              ))}
             </div>
+          </div>
+        )}
+      </div>
+
+      {/* Recent Calls */}
+      <div>
+        <h2 className="text-2xl font-bold font-mono mb-4 flex items-center gap-2">
+          <Mic className="w-6 h-6 text-term-cyan" />
+          Call Appearances ({speakerCalls.length})
+        </h2>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          {speakerCalls.map(call => (
+            <Link
+              key={call.id}
+              to={`/calls/${call.id}`}
+              className="block bg-ergo-dark border border-ergo-orange/20 rounded-lg p-4 hover:border-ergo-orange/50 transition-all"
+            >
+              <h3 className="font-mono font-semibold mb-2 line-clamp-1">{call.title}</h3>
+              <div className="flex items-center gap-4 text-sm text-ergo-muted font-mono">
+                <span className="flex items-center gap-1">
+                  <Calendar className="w-4 h-4" />
+                  {new Date(call.date).toLocaleDateString()}
+                </span>
+                <span>{call.duration_minutes} min</span>
+              </div>
+              <div className="mt-2 flex gap-2 text-xs font-mono">
+                <span className="text-term-cyan">[{call.stats.qa_pairs} Q&A]</span>
+                <span className="text-term-green">[{call.stats.decisions} Decisions]</span>
+              </div>
+            </Link>
           ))}
-          {speakerQA.length === 0 && (
-            <p className="text-ergo-muted font-mono text-sm">No Q&A responses found</p>
+          {speakerCalls.length === 0 && (
+            <p className="text-ergo-muted font-mono text-sm col-span-2 text-center py-8">No calls found for this speaker</p>
           )}
         </div>
       </div>

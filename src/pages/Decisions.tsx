@@ -1,16 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Gavel, GitBranch, HelpCircle, RotateCcw, Filter, Calendar, User } from 'lucide-react';
-import { mockDecisions } from '../data/mockData';
+import { Gavel, GitBranch, HelpCircle, Filter, Calendar, User, Loader2 } from 'lucide-react';
+import { useData } from '../contexts/DataContext';
+import type { AggregatedDecision } from '../types';
 
-const typeConfig = {
+const typeConfig: Record<string, { icon: any; color: string; bg: string; label: string }> = {
   decision: { icon: Gavel, color: 'text-term-green', bg: 'bg-term-green/20', label: 'Decision' },
   commitment: { icon: GitBranch, color: 'text-term-cyan', bg: 'bg-term-cyan/20', label: 'Commitment' },
   open_question: { icon: HelpCircle, color: 'text-term-amber', bg: 'bg-term-amber/20', label: 'Open Question' },
-  reversal: { icon: RotateCcw, color: 'text-term-magenta', bg: 'bg-term-magenta/20', label: 'Reversal' },
 };
 
-const statusConfig = {
+const statusConfig: Record<string, { color: string; bg: string }> = {
   active: { color: 'text-term-green', bg: 'bg-term-green/20' },
   completed: { color: 'text-term-cyan', bg: 'bg-term-cyan/20' },
   pending: { color: 'text-term-amber', bg: 'bg-term-amber/20' },
@@ -19,13 +19,33 @@ const statusConfig = {
 };
 
 export default function Decisions() {
+  const { loadAllDecisions, allDecisions, isLoading } = useData();
+  const [decisionsList, setDecisionsList] = useState<AggregatedDecision[]>([]);
+  const [isLoadingDecisions, setIsLoadingDecisions] = useState(true);
+
   const [filterType, setFilterType] = useState<string>('all');
   const [filterStatus, setFilterStatus] = useState<string>('all');
   const [filterSignificance, setFilterSignificance] = useState<string>('all');
   const [sortBy, setSortBy] = useState<string>('newest');
   const [showFilters, setShowFilters] = useState(false);
 
-  const filteredDecisions = mockDecisions
+  // Load all decisions on mount
+  useEffect(() => {
+    if (allDecisions) {
+      setDecisionsList(allDecisions);
+      setIsLoadingDecisions(false);
+    } else {
+      setIsLoadingDecisions(true);
+      loadAllDecisions().then(data => {
+        setDecisionsList(data);
+        setIsLoadingDecisions(false);
+      }).catch(() => {
+        setIsLoadingDecisions(false);
+      });
+    }
+  }, [allDecisions, loadAllDecisions]);
+
+  const filteredDecisions = decisionsList
     .filter(decision => {
       if (filterType !== 'all' && decision.type !== filterType) return false;
       if (filterStatus !== 'all' && decision.status !== filterStatus) return false;
@@ -46,11 +66,21 @@ export default function Decisions() {
     });
 
   const stats = {
-    decisions: mockDecisions.filter(d => d.type === 'decision').length,
-    commitments: mockDecisions.filter(d => d.type === 'commitment').length,
-    openQuestions: mockDecisions.filter(d => d.type === 'open_question').length,
-    reversals: mockDecisions.filter(d => d.type === 'reversal').length,
+    decisions: decisionsList.filter(d => d.type === 'decision').length,
+    commitments: decisionsList.filter(d => d.type === 'commitment').length,
+    openQuestions: decisionsList.filter(d => d.type === 'open_question').length,
   };
+
+  if (isLoading || isLoadingDecisions) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <Loader2 className="w-12 h-12 text-ergo-orange animate-spin mx-auto mb-4" />
+          <p className="font-mono text-ergo-muted">Loading decisions...</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -65,7 +95,7 @@ export default function Decisions() {
       </div>
 
       {/* Stats Overview */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-8">
         <div className="bg-ergo-dark border border-term-green/30 rounded-lg p-4">
           <div className="flex items-center gap-2 mb-2">
             <Gavel className="w-5 h-5 text-term-green" />
@@ -86,13 +116,6 @@ export default function Decisions() {
             <span className="font-mono text-sm text-ergo-muted">Open Questions</span>
           </div>
           <span className="text-2xl font-bold font-mono text-term-amber">{stats.openQuestions}</span>
-        </div>
-        <div className="bg-ergo-dark border border-term-magenta/30 rounded-lg p-4">
-          <div className="flex items-center gap-2 mb-2">
-            <RotateCcw className="w-5 h-5 text-term-magenta" />
-            <span className="font-mono text-sm text-ergo-muted">Reversals</span>
-          </div>
-          <span className="text-2xl font-bold font-mono text-term-magenta">{stats.reversals}</span>
         </div>
       </div>
 
@@ -117,7 +140,6 @@ export default function Decisions() {
                 <option value="decision">Decisions</option>
                 <option value="commitment">Commitments</option>
                 <option value="open_question">Open Questions</option>
-                <option value="reversal">Reversals</option>
               </select>
             </div>
 
@@ -133,7 +155,6 @@ export default function Decisions() {
                 <option value="active">Active</option>
                 <option value="completed">Completed</option>
                 <option value="pending">Pending</option>
-                <option value="superseded">Superseded</option>
                 <option value="unresolved">Unresolved</option>
               </select>
             </div>
@@ -198,16 +219,17 @@ export default function Decisions() {
           {/* Results Count */}
           <div className="mb-6">
             <p className="font-mono text-sm text-ergo-muted">
-              Showing {filteredDecisions.length} of {mockDecisions.length} items
+              Showing {filteredDecisions.length} of {decisionsList.length} items
             </p>
           </div>
 
           {/* Decision Cards */}
           <div className="space-y-4">
             {filteredDecisions.map(decision => {
-              const TypeIcon = typeConfig[decision.type].icon;
-              const typeStyle = typeConfig[decision.type];
-              const statusStyle = statusConfig[decision.status];
+              const config = typeConfig[decision.type] || typeConfig.decision;
+              const TypeIcon = config.icon;
+              const typeStyle = config;
+              const statusStyle = statusConfig[decision.status] || statusConfig.active;
 
               return (
                 <div
@@ -246,11 +268,17 @@ export default function Decisions() {
                     </div>
                   )}
 
+                  {decision.quote && (
+                    <blockquote className="bg-ergo-darker border-l-2 border-term-green/50 p-3 mb-4">
+                      <p className="text-sm text-ergo-light/80 italic">"{decision.quote}"</p>
+                    </blockquote>
+                  )}
+
                   {/* Meta */}
                   <div className="flex flex-wrap items-center gap-4 text-sm font-mono text-ergo-muted">
                     <div className="flex items-center gap-1">
                       <User className="w-4 h-4" />
-                      <Link 
+                      <Link
                         to={`/speakers/${encodeURIComponent(decision.speaker)}`}
                         className="hover:text-ergo-orange transition-colors"
                       >
@@ -261,17 +289,19 @@ export default function Decisions() {
                       <Calendar className="w-4 h-4" />
                       <span>{new Date(decision.date).toLocaleDateString()}</span>
                     </div>
-                    <Link
-                      to={`/topics/${decision.topic.toLowerCase().replace(/\s+/g, '-')}`}
-                      className="text-ergo-orange hover:underline"
-                    >
-                      #{decision.topic}
-                    </Link>
+                    {decision.topic && (
+                      <Link
+                        to={`/topics/${decision.topic.toLowerCase().replace(/\s+/g, '-')}`}
+                        className="text-ergo-orange hover:underline"
+                      >
+                        #{decision.topic}
+                      </Link>
+                    )}
                     <Link
                       to={`/calls/${decision.call_id}`}
                       className="text-term-cyan hover:underline"
                     >
-                      View Call →
+                      View Call
                     </Link>
                   </div>
 

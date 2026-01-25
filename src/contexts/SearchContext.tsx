@@ -1,9 +1,9 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import React, { createContext, useContext, useState, useEffect, useMemo } from 'react';
 import Fuse from 'fuse.js';
-import { mockCalls, mockQA, mockDecisions, mockTopics } from '../data/mockData';
+import { useData } from './DataContext';
 
 interface SearchResult {
-  type: 'call' | 'qa' | 'decision' | 'topic';
+  type: 'call' | 'topic' | 'speaker';
   item: any;
   score?: number;
 }
@@ -19,28 +19,37 @@ interface SearchContextType {
 const SearchContext = createContext<SearchContextType | undefined>(undefined);
 
 export function SearchProvider({ children }: { children: React.ReactNode }) {
+  const { calls, topics, speakers, isInitialized } = useData();
   const [query, setQuery] = useState('');
   const [results, setResults] = useState<SearchResult[]>([]);
   const [isSearching, setIsSearching] = useState(false);
-  const [fuse, setFuse] = useState<any>(null);
 
-  useEffect(() => {
-    // Initialize Fuse.js with all searchable data
+  // Create Fuse instance when data is ready
+  const fuse = useMemo(() => {
+    if (!isInitialized) return null;
+
     const searchableData = [
-      ...mockCalls.map(item => ({ type: 'call', ...item })),
-      ...mockQA.map(item => ({ type: 'qa', ...item })),
-      ...mockDecisions.map(item => ({ type: 'decision', ...item })),
-      ...mockTopics.map(item => ({ type: 'topic', ...item })),
+      ...calls.map(item => ({ type: 'call' as const, ...item })),
+      ...topics.map(item => ({ type: 'topic' as const, ...item })),
+      ...speakers.map(item => ({ type: 'speaker' as const, ...item })),
     ];
 
-    const fuseInstance = new Fuse(searchableData, {
-      keys: ['title', 'summary', 'question', 'answer', 'description', 'name', 'content'],
+    return new Fuse(searchableData, {
+      keys: [
+        'title',
+        'name',
+        'description',
+        'role',
+        'bio',
+        { name: 'speakers', weight: 0.5 },
+        { name: 'topics', weight: 0.5 },
+        { name: 'top_topics', weight: 0.5 },
+        { name: 'key_speakers', weight: 0.5 },
+      ],
       threshold: 0.3,
       includeScore: true,
     });
-
-    setFuse(fuseInstance);
-  }, []);
+  }, [calls, topics, speakers, isInitialized]);
 
   const search = (searchQuery: string) => {
     if (!fuse || !searchQuery.trim()) {
@@ -50,7 +59,7 @@ export function SearchProvider({ children }: { children: React.ReactNode }) {
 
     setIsSearching(true);
     const searchResults = fuse.search(searchQuery);
-    
+
     setResults(
       searchResults.map((result: any) => ({
         type: result.item.type,

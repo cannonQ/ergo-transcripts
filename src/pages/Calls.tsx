@@ -1,23 +1,24 @@
 import React, { useState } from 'react';
-import { Calendar, Filter, ChevronDown } from 'lucide-react';
+import { Filter, Loader2 } from 'lucide-react';
 import CallCard from '../components/CallCard';
-import { mockCalls } from '../data/mockData';
+import { useData } from '../contexts/DataContext';
 
 export default function Calls() {
+  const { calls, isLoading } = useData();
   const [filterType, setFilterType] = useState<string>('all');
   const [sortBy, setSortBy] = useState<string>('newest');
   const [selectedSpeakers, setSelectedSpeakers] = useState<string[]>([]);
   const [showFilters, setShowFilters] = useState(false);
 
   const allSpeakers = Array.from(
-    new Set(mockCalls.flatMap(call => call.speakers))
-  ).sort();
+    new Set(calls.flatMap(call => call.speakers))
+  ).filter(Boolean).sort();
 
-  const filteredCalls = mockCalls
+  const filteredCalls = calls
     .filter(call => {
       if (filterType !== 'all' && call.type !== filterType) return false;
       if (selectedSpeakers.length > 0) {
-        const hasSelectedSpeaker = call.speakers.some(speaker => 
+        const hasSelectedSpeaker = call.speakers.some(speaker =>
           selectedSpeakers.includes(speaker)
         );
         if (!hasSelectedSpeaker) return false;
@@ -37,6 +38,17 @@ export default function Calls() {
       }
     });
 
+  if (isLoading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <Loader2 className="w-12 h-12 text-ergo-orange animate-spin mx-auto mb-4" />
+          <p className="font-mono text-ergo-muted">Loading calls...</p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="container mx-auto px-4 py-8">
       {/* Header */}
@@ -45,7 +57,7 @@ export default function Calls() {
           Calls Archive
         </h1>
         <p className="text-ergo-muted font-mono">
-          Browse {mockCalls.length} indexed community calls
+          Browse {calls.length} indexed community calls
         </p>
       </div>
 
@@ -144,7 +156,7 @@ export default function Calls() {
           {/* Results Count */}
           <div className="mb-6">
             <p className="font-mono text-sm text-ergo-muted">
-              Showing {filteredCalls.length} of {mockCalls.length} calls
+              Showing {filteredCalls.length} of {calls.length} calls
             </p>
           </div>
 
@@ -155,12 +167,9 @@ export default function Calls() {
             ))}
           </div>
 
-          {/* Load More */}
-          {filteredCalls.length > 0 && (
-            <div className="mt-8 text-center">
-              <button className="px-6 py-3 bg-ergo-dark border border-ergo-orange/30 rounded font-mono text-sm hover:bg-ergo-orange/10 hover:border-ergo-orange transition-all">
-                Load More Calls
-              </button>
+          {filteredCalls.length === 0 && (
+            <div className="text-center py-12">
+              <p className="font-mono text-ergo-muted">No calls match your filters.</p>
             </div>
           )}
         </div>
