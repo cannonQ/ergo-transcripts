@@ -35,7 +35,7 @@ export default function Home() {
   }, [isInitialized, allDecisions, loadAllDecisions]);
 
   const recentCalls = calls.slice(0, 4);
-  const recentDecisions = allDecisions?.slice(0, 3) || [];
+  const recentDecisions = allDecisions?.slice(0, 4) || [];
   const trendingTopics = [...topics].sort((a, b) => b.mention_count - a.mention_count).slice(0, 10);
 
   if (isLoading) {
@@ -140,8 +140,8 @@ export default function Home() {
       </section>
 
       {/* Recent Decisions */}
-      <section className="container mx-auto px-4 py-12">
-        <div className="flex items-center justify-between mb-8">
+      <section className="container mx-auto px-4 pt-4 pb-8">
+        <div className="flex items-center justify-between mb-4">
           <h2 className="text-2xl font-bold font-mono text-ergo-orange">
             Recent Decisions
           </h2>
@@ -158,7 +158,7 @@ export default function Home() {
             <Loader2 className="w-6 h-6 text-ergo-orange animate-spin" />
           </div>
         ) : (
-          <div className="grid gap-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
             {recentDecisions.map(decision => (
               <div
                 key={decision.id}
