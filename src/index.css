@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --ergo-orange: #FF5E18;
+    --ergo-green: #00D57F;
+    --ergo-dark: #1A1A2E;
+    --ergo-darker: #0F0F1A;
+    --ergo-light: #E5E5E5;
+    --ergo-muted: #6B7280;
+    --term-green: #00FF00;
+    --term-amber: #FFB000;
+    --term-cyan: #00FFFF;
+  }
+
+  body {
+    @apply bg-ergo-darker text-ergo-light;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-ergo-darker;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-ergo-orange rounded;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-orange-400;
+  }
+}
+
+@layer components {
+  .terminal-text {
+    @apply font-mono text-term-green;
+    text-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
+  }
+
+  .terminal-prompt::before {
+    content: '> ';
+    @apply text-term-amber;
+  }
+
+  .scan-line {
+    @apply absolute inset-0 pointer-events-none;
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      rgba(0, 255, 0, 0.1) 50%,
+      transparent 100%
+    );
+    height: 100px;
+    animation: scan 8s linear infinite;
+  }
+
+  .grid-bg {
+    background-image: linear-gradient(rgba(255, 94, 24, 0.05) 1px, transparent 1px),
+                      linear-gradient(90deg, rgba(255, 94, 24, 0.05) 1px, transparent 1px);
+    background-size: 50px 50px;
+  }
+
+  .glow-orange {
+    box-shadow: 0 0 20px rgba(255, 94, 24, 0.3);
+  }
+
+  .glow-green {
+    box-shadow: 0 0 20px rgba(0, 213, 127, 0.3);
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-ergo-orange to-ergo-green bg-clip-text text-transparent;
+  }
+
+  .border-gradient {
+    border-image: linear-gradient(45deg, var(--ergo-orange), var(--ergo-green)) 1;
+  }
+}
