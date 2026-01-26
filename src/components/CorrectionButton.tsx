@@ -54,7 +54,7 @@ export default function CorrectionButton({ pageType, pageTitle, className = '' }
     <>
       <button
         onClick={() => setIsOpen(true)}
-        className={`inline-flex items-center gap-1.5 text-xs font-mono text-ergo-muted hover:text-ergo-orange transition-colors ${className}`}
+        className={`inline-flex items-center gap-1.5 text-xs font-mono text-term-cyan hover:text-cyan-300 underline underline-offset-2 transition-colors ${className}`}
         title="Suggest a correction"
       >
         <Flag className="w-3.5 h-3.5" />
