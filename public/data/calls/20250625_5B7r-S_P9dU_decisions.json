@@ -1,0 +1,134 @@
+{
+  "call_date": "2025-06-25",
+  "call_title": "Ergomempool Visualiser | 2ndTL Mining | ErgoHack 10",
+  "decisions": [],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "01:36",
+      "commitment": "Add visual indication around how percentage full a block is based on animation",
+      "owner": "2ndTLMining",
+      "timeline": "future",
+      "topic": "ergomempool-visualizer",
+      "quote": "Some of the stuff that I would love to add in the future is sort of a visual indication around how percentage full a block is based on some animation."
+    },
+    {
+      "id": 2,
+      "timestamp": "04:20",
+      "commitment": "Make the mempool visualizer prettier and more fun",
+      "owner": "2ndTLMining",
+      "timeline": "future",
+      "topic": "ergomempool-visualizer",
+      "quote": "Again, I'd love to make this a little bit better in the future or make it more fun."
+    },
+    {
+      "id": 3,
+      "timestamp": "05:49",
+      "commitment": "Remove the presentation page once Ergo hack is done",
+      "owner": "2ndTLMining",
+      "timeline": "after ergohack completion",
+      "topic": "ergomempool-visualizer",
+      "quote": "I also have this page I'll probably take away once the Ergo hack is done, which is just the presentation section"
+    },
+    {
+      "id": 4,
+      "timestamp": "19:16",
+      "commitment": "Explore other platforms that are not Flask/Python related",
+      "owner": "2ndTLMining",
+      "timeline": "unspecified",
+      "topic": "ergomempool-visualizer",
+      "quote": "But at least for now, I'm going to try and build it out a little bit more and explore at least some other platforms that is maybe not Flask / Python related."
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "03:26",
+      "question": "How sub-blocks will impact the mempool visualizer application",
+      "context": "Sub-blocks are coming in the near future to Ergo",
+      "topic": "ergomempool-visualizer",
+      "raised_by": "2ndTLMining"
+    },
+    {
+      "id": 2,
+      "timestamp": "06:50",
+      "question": "Need to clear cache when disconnecting wallet",
+      "context": "Nautilus wallet connection persists after disconnect",
+      "topic": "ergomempool-visualizer",
+      "raised_by": "2ndTLMining"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "00:51",
+      "fact": "Ergo blocks are mined approximately every two minutes",
+      "speaker": "2ndTLMining",
+      "topic": "ergo-blockchain"
+    },
+    {
+      "id": 2,
+      "timestamp": "01:12",
+      "fact": "Maximum size of an Ergo block is two megabytes",
+      "speaker": "2ndTLMining",
+      "topic": "ergo-blockchain"
+    },
+    {
+      "id": 3,
+      "timestamp": "01:48",
+      "fact": "Block reward at current time is about 15 ERG",
+      "speaker": "2ndTLMining",
+      "topic": "ergo-blockchain"
+    },
+    {
+      "id": 4,
+      "timestamp": "05:04",
+      "fact": "ErgoMempool project is open source on GitHub",
+      "speaker": "2ndTLMining",
+      "topic": "ergomempool-visualizer"
+    },
+    {
+      "id": 5,
+      "timestamp": "11:16",
+      "fact": "2ndTLMining has Bachelor of Science degree in IT with programming major in Java from 20 years ago",
+      "speaker": "2ndTLMining",
+      "topic": "background"
+    },
+    {
+      "id": 6,
+      "timestamp": "12:43",
+      "fact": "Primary AI model used was Qwen 2.5 Coder 14b model via Ollama",
+      "speaker": "2ndTLMining",
+      "topic": "development-tools"
+    },
+    {
+      "id": 7,
+      "timestamp": "13:43",
+      "fact": "Using 7900 XTX GPU with 24GB VRAM for running AI models locally",
+      "speaker": "2ndTLMining",
+      "topic": "development-tools"
+    },
+    {
+      "id": 8,
+      "timestamp": "17:34",
+      "fact": "Application is hosted on Flux network",
+      "speaker": "2ndTLMining",
+      "topic": "hosting"
+    },
+    {
+      "id": 9,
+      "timestamp": "17:57",
+      "fact": "Flux hosting provides minimum of three instances with current setup having four instances",
+      "speaker": "2ndTLMining",
+      "topic": "hosting"
+    },
+    {
+      "id": 10,
+      "timestamp": "18:28",
+      "fact": "Current instances are running three in US and one in Spain",
+      "speaker": "2ndTLMining",
+      "topic": "hosting"
+    }
+  ]
+}

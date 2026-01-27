@@ -1,0 +1,98 @@
+{
+  "call_date": "2025-07-02",
+  "call_title": "Lithos | Cheese Enthusiast | Ergoversary 2025",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Lithos Protocol Overview and Core Features",
+      "category": "technical",
+      "start_time": "00:13",
+      "end_time": "02:11",
+      "primary_speaker": "Cheese Enthusiast",
+      "summary": "Introduction to Lithos as a decentralized mining pool protocol using smart contracts. Covers key benefits including complete miner control over block production, smart contract-based payments, and collateralized mining pools that enable earning ERG through collateralization.",
+      "key_terms": [
+        "Lithos",
+        "decentralized mining pool",
+        "smart contracts",
+        "block production",
+        "storage rent",
+        "collateralization",
+        "MEV",
+        "demurrage"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Difficulty Parameter Control and Local Mining",
+      "category": "technical",
+      "start_time": "02:11",
+      "end_time": "04:07",
+      "primary_speaker": "Cheese Enthusiast",
+      "summary": "Explanation of Lithos client as a locally run program that eliminates latency and stale shares. Introduces the difficulty parameter (D) as a key tool for miners to control reward consistency and ERG earnings per block, contrasting with traditional mining pool systems.",
+      "key_terms": [
+        "Lithos client",
+        "stratum server",
+        "difficulty parameter",
+        "share difficulty",
+        "non-interactive share proofs",
+        "reward consistency",
+        "local mining"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Difficulty Adjustment Impact on Mining Rewards",
+      "category": "technical",
+      "start_time": "04:07",
+      "end_time": "09:54",
+      "primary_speaker": "Cheese Enthusiast",
+      "summary": "Detailed analysis using examples showing how difficulty adjustments affect payment frequency and ERG amounts per payment. Demonstrates that while higher difficulty increases ERG per payment, it reduces payment stability, with long-term earnings balancing out proportionally to hash rate contribution.",
+      "key_terms": [
+        "difficulty adjustment",
+        "hash rate",
+        "payment frequency",
+        "ERG per payment",
+        "max potential",
+        "real potential",
+        "payment stability",
+        "proportional rewards"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Mining Strategy Recommendations and Testing",
+      "category": "technical",
+      "start_time": "09:54",
+      "end_time": "12:55",
+      "primary_speaker": "Cheese Enthusiast",
+      "summary": "Recommendations for miners on difficulty optimization, emphasizing that default values work for most users but encouraging testnet experimentation. Suggests factoring in Autolykos 2 table generation time for hardware-specific optimization to maximize profits.",
+      "key_terms": [
+        "difficulty optimization",
+        "default values",
+        "testnet experimentation",
+        "Autolykos 2",
+        "table generation time",
+        "hardware optimization",
+        "profit maximization"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Lithos Testnet Features and Roadmap",
+      "category": "technical",
+      "start_time": "12:55",
+      "end_time": "14:14",
+      "primary_speaker": "Cheese Enthusiast",
+      "summary": "Overview of upcoming testnet features including difficulty adjustment and automatic demurrage collection. Notes that MEV and transaction selection capabilities exist in the protocol but won't have UI support in the initial testnet release.",
+      "key_terms": [
+        "testnet features",
+        "demurrage collection",
+        "MEV",
+        "transaction selection",
+        "UI support",
+        "protocol capabilities",
+        "manual implementation"
+      ]
+    }
+  ]
+}

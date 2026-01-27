@@ -1,0 +1,156 @@
+{
+  "call_date": "2025-06-27",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - June 26th",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Version 6.0 and 6.1 Release Status",
+      "category": "technical",
+      "start_time": "00:34",
+      "end_time": "02:23",
+      "primary_speaker": "kushti",
+      "summary": "kushti confirms successful 6.0 and 6.1 releases with no downtime. Voting for activation is expected to begin with potential October activation if successful. Sub-blocks feature development is progressing.",
+      "key_terms": [
+        "6.0 release",
+        "6.1 release",
+        "voting",
+        "activation",
+        "sub-blocks",
+        "October"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Soft Fork Voting Mechanics and Timeline",
+      "category": "governance",
+      "start_time": "02:59",
+      "end_time": "07:19",
+      "primary_speaker": "kushti",
+      "summary": "Mining pools voting yes need no parameter changes, while no votes require configuration. Soft forks require 90%+ consensus to avoid chain splits. Voting begins around July 11-12th with backward compatibility for 5.x nodes.",
+      "key_terms": [
+        "mining pools",
+        "voting parameters",
+        "soft fork",
+        "90 percent consensus",
+        "backward compatibility",
+        "July voting"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "SIGS Mining Pool Operations and Storage Rent",
+      "category": "technical",
+      "start_time": "07:19",
+      "end_time": "08:43",
+      "primary_speaker": "qx()",
+      "summary": "SIGS mining pool is testing new storage rent builds on testnet before mainnet deployment. The pool serves as both mining operation and community hub for Ergo experimentation.",
+      "key_terms": [
+        "SIGS mining pool",
+        "storage rent",
+        "testnet",
+        "Chi",
+        "community mining"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Version 6.0 Sidechain and Bitcoin Relay Features",
+      "category": "technical",
+      "start_time": "08:43",
+      "end_time": "10:04",
+      "primary_speaker": "kushti",
+      "summary": "Version 6.0 introduces better sidechain support including trustless two-way pegged merge-mined sidechains and efficient Bitcoin relay capabilities. These features enable experimentation not possible on Bitcoin or Monero.",
+      "key_terms": [
+        "sidechains",
+        "trustless two-way pegged",
+        "merge-mined",
+        "Bitcoin relay",
+        "trustless relays"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "ErgoHack Video Releases and Developer Experience",
+      "category": "community",
+      "start_time": "10:04",
+      "end_time": "11:37",
+      "primary_speaker": "qx()",
+      "summary": "ErgoHack videos are being released showcasing AI-focused projects. qx() emphasizes the intensive nature of hackathon development and encourages community participation to inspire new developers.",
+      "key_terms": [
+        "ErgoHack videos",
+        "AI projects",
+        "hackathon development",
+        "developer participation",
+        "Andy"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Ergoversary Celebration Plans and AMA Schedule",
+      "category": "community",
+      "start_time": "11:37",
+      "end_time": "14:00",
+      "primary_speaker": "qx()",
+      "summary": "July 1st Ergoversary will feature special AMA with kushti, Joe, qx(), and Dan. qx() completed interview with Dan about Winter Protocol's use of Ergo for on-chain assets. Six-year milestone celebration planned.",
+      "key_terms": [
+        "Ergoversary",
+        "July 1st",
+        "special AMA",
+        "Dan the man",
+        "Winter Protocol",
+        "six years"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Ergo's Fair Launch Principles and Market Integrity",
+      "category": "ecosystem",
+      "start_time": "14:00",
+      "end_time": "17:21",
+      "primary_speaker": "qx()",
+      "summary": "Discussion of Ergo's commitment to fair launch principles over six years despite market temptations. Centralized exchanges prefer projects with concentrated token supplies for easier manipulation, while Ergo maintains decentralized distribution.",
+      "key_terms": [
+        "fair launch",
+        "fair start",
+        "centralized exchanges",
+        "token supplies",
+        "market manipulation",
+        "decentralized distribution"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "VC Rugpulls and Project Owner Dumping",
+      "category": "ecosystem",
+      "start_time": "15:35",
+      "end_time": "17:21",
+      "primary_speaker": "kushti",
+      "summary": "kushti discusses recent VC rugpulls including Mantra and RWN projects experiencing 90-95% drops from coordinated selling. Centralized exchanges benefit from these manipulative practices while truly decentralized projects face listing challenges.",
+      "key_terms": [
+        "VC rugpulls",
+        "Mantra",
+        "RWN Rowan",
+        "coordinated dumping",
+        "project owners",
+        "95 percent drop"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Rosen Bridge as Exchange Alternative Solution",
+      "category": "bridges",
+      "start_time": "17:21",
+      "end_time": "21:05",
+      "primary_speaker": "kushti",
+      "summary": "Rosen Bridge provides free blockchain integration alternative to expensive centralized exchange listings. New chains can access multi-blockchain liquidity from day one, unlike Ergo's early experience with poor exchanges like Tidex.",
+      "key_terms": [
+        "Rosen Bridge",
+        "blockchain integration",
+        "multi-blockchain liquidity",
+        "free integration",
+        "Tidex",
+        "GATE.io"
+      ]
+    }
+  ]
+}

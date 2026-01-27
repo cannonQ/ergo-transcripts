@@ -1,0 +1,191 @@
+{
+  "call_date": "2025-06-27",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - June 26th",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Dexy Trading Status and Crystal Pools DEX",
+      "category": "defi",
+      "start_time": "00:21",
+      "end_time": "01:52",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of Dexy as a financial game with arbitrage opportunities and introduction of Crystal Pools by C8 as a DEX aggregator. Crystal Pools allows interaction with multiple liquidity pools and applications like SigmaUSD Bank and Dexy Bank from a single interface.",
+      "key_terms": [
+        "Dexy",
+        "Crystal Pools",
+        "DEX aggregator",
+        "SigmaUSD Bank",
+        "arbitrage",
+        "liquidity pools"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Oracle Pool V2 and DexyUSD Launch Timeline",
+      "category": "defi",
+      "start_time": "02:08",
+      "end_time": "03:43",
+      "primary_speaker": "kushti",
+      "summary": "Plans to update Oracle Pool to version 2 and launch Gluon USD followed by DexyUSD around September. Timeline includes testnet phase and need for liquidity providers, with Rosen bringing USD stablecoins from Ethereum.",
+      "key_terms": [
+        "Oracle Pool",
+        "DexyUSD",
+        "Gluon USD",
+        "Rosen Bridge",
+        "stablecoins",
+        "liquidity providers"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Decentralized Explorer Infrastructure Initiative",
+      "category": "technical",
+      "start_time": "04:07",
+      "end_time": "09:04",
+      "primary_speaker": "qx()",
+      "summary": "QX announces plan to transition from EF-funded hosted infrastructure to community-run decentralized explorer nodes. The initiative involves distributing high-performance machines globally through MewMart to volunteers who will host official explorer infrastructure with load balancing.",
+      "key_terms": [
+        "Explorer",
+        "decentralized hosting",
+        "load balancer",
+        "community nodes",
+        "MewMart",
+        "infrastructure"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Ergo Development Speed and Tooling Quality",
+      "category": "technical",
+      "start_time": "09:11",
+      "end_time": "11:41",
+      "primary_speaker": "qx()",
+      "summary": "Response to question about Ergo's rapid development pace, highlighting excellent developer tooling across multiple languages including Scala SDK, Python, and C#. Discussion of easy API access and database interaction options for developers.",
+      "key_terms": [
+        "developer tooling",
+        "Scala SDK",
+        "Python",
+        "API endpoints",
+        "full index node",
+        "development speed"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Aletheia Protocol Discussion and Anniversary AMA",
+      "category": "technical",
+      "start_time": "12:08",
+      "end_time": "15:07",
+      "primary_speaker": "kushti",
+      "summary": "Kushti mentions discovering the Aletheia protocol on Twitter and adding it to his reading list for review. Plans to provide comments either on the forum or during the upcoming anniversary AMA scheduled for July 1st at 2 PM UTC.",
+      "key_terms": [
+        "Aletheia protocol",
+        "anniversary AMA",
+        "protocol review",
+        "GitHub",
+        "anonymous author"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Privacy Chain Statistics and Gini Coefficient",
+      "category": "technical",
+      "start_time": "15:07",
+      "end_time": "17:11",
+      "primary_speaker": "kushti",
+      "summary": "Technical discussion on the near-impossibility of calculating statistics like Gini coefficient on privacy chains while maintaining transaction and balance privacy. Explains theoretical solutions involving multi-party computation but practical limitations.",
+      "key_terms": [
+        "privacy chain",
+        "Gini coefficient",
+        "multi-party computation",
+        "zero-knowledge proofs",
+        "private balances"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Midnight Partnership and Private Sidechains",
+      "category": "bridges",
+      "start_time": "17:11",
+      "end_time": "22:25",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of upcoming call with Midnight team about potential collaboration. Ergo's interest in private sidechains for smart contracts, while Midnight shows interest in proof-of-work aspects. Exploration of merge-mined sidechains and partner chain concepts with Cardano.",
+      "key_terms": [
+        "Midnight",
+        "private sidechain",
+        "merge mining",
+        "partner chain",
+        "Cardano",
+        "proof of work"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Ergo History and Development Philosophy",
+      "category": "community",
+      "start_time": "22:25",
+      "end_time": "25:17",
+      "primary_speaker": "kushti",
+      "summary": "Reflection on Ergo's history as engineer-driven project similar to early Bitcoin, contrasting with typical crypto projects that start with marketing. Discussion of community growth and the unique bottom-up development approach.",
+      "key_terms": [
+        "Ergo history",
+        "engineer-driven",
+        "early Bitcoin",
+        "community growth",
+        "bottom-up development",
+        "marketing"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Privacy Stablecoin and Zephyr Protocol",
+      "category": "defi",
+      "start_time": "25:17",
+      "end_time": "27:14",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of privacy stablecoins, mentioning Zephyr as a private implementation of Djed protocol that encountered issues. Suggests bringing established stablecoins like SigmaUSD to private sidechains as a more secure approach.",
+      "key_terms": [
+        "privacy stablecoin",
+        "Zephyr",
+        "Djed protocol",
+        "SigmaUSD",
+        "Monero fork",
+        "private sidechain"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Colorado Meetup Schedule and Storage Rent",
+      "category": "community",
+      "start_time": "27:17",
+      "end_time": "31:49",
+      "primary_speaker": "qx()",
+      "summary": "Update on Colorado Springs meetup planning with finalized schedule and speakers. Discussion of integrating Cheese's storage rent modifications into the official node to simplify mining pool operations.",
+      "key_terms": [
+        "Colorado meetup",
+        "storage rent",
+        "mining pools",
+        "node modifications",
+        "official releases",
+        "hackathon"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Twin Coins Protocol Research",
+      "category": "technical",
+      "start_time": "32:13",
+      "end_time": "34:45",
+      "primary_speaker": "kushti",
+      "summary": "Explanation of Twin Coins research paper combining proof-of-work and proof-of-stake for enhanced security against 51% attacks. While theoretically sound, the protocol needs practical modifications and efficiency improvements for real-world implementation.",
+      "key_terms": [
+        "Twin Coins",
+        "proof of work",
+        "proof of stake",
+        "51% attack",
+        "sub-blocks",
+        "security analysis"
+      ]
+    }
+  ]
+}

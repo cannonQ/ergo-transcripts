@@ -1,0 +1,128 @@
+{
+  "call_date": "2025-06-25",
+  "call_title": "Cortex | Arohbe | ErgoHack 10",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "04:48",
+      "decision": "Shifted from mainnet to testnet mining due to impossibility of finding blocks with single GPU",
+      "speaker": "Arohbe",
+      "context": "Finding blocks with single GPU on mainnet would be virtually impossible",
+      "topic": "technical",
+      "significance": "minor",
+      "quote": "So it did make a shift to testnet, had some complications, basically, syncing to testnet node"
+    },
+    {
+      "id": 2,
+      "timestamp": "07:08",
+      "decision": "Pivoted from testnet block mining to pool mining due to complications",
+      "speaker": "Arohbe",
+      "context": "Had complications connecting to testnet node and syncing",
+      "topic": "technical",
+      "significance": "minor",
+      "quote": "Unfortunately, due to some complications, we did have to pivot to pool mining"
+    },
+    {
+      "id": 3,
+      "timestamp": "10:17",
+      "decision": "Hard-coded the miner to connect to Sigmanauts mining pool",
+      "speaker": "Arohbe",
+      "context": "Current pool configuration for the project",
+      "topic": "technical",
+      "significance": "minor",
+      "quote": "Currently the code is basically hard-coded to connect to the Sigmanauts mining pool"
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "03:10",
+      "commitment": "All code will be available on GitHub and open for collaboration or modification",
+      "owner": "Arohbe",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "All the code will be available on GitHub and open for collaboration or modification"
+    },
+    {
+      "id": 2,
+      "timestamp": "07:45",
+      "commitment": "Will revisit testnet node mining once it's more stable",
+      "owner": "Arohbe",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "we can revisit that at a later time"
+    },
+    {
+      "id": 3,
+      "timestamp": "29:12",
+      "commitment": "Will continue to build out the project slowly",
+      "owner": "Arohbe",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "something that personally I think I'll continue to build out slowly"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "11:17",
+      "question": "Job parsing and share submission functionality needs to be resolved",
+      "context": "Successfully connected to pool but having issues with share submission",
+      "topic": "technical",
+      "raised_by": "Arohbe"
+    },
+    {
+      "id": 2,
+      "timestamp": "15:39",
+      "question": "Overclocking automation implementation approach - Linux vs Windows vs BIOS modification",
+      "context": "Linux is not friendly with GPU settings, need alternative approach",
+      "topic": "technical",
+      "raised_by": "Arohbe"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "00:18",
+      "fact": "Previously part of GetBlok team - a decentralized smart contract-based mining pool on Ergo that was closed",
+      "speaker": "Arohbe",
+      "topic": "background"
+    },
+    {
+      "id": 2,
+      "timestamp": "03:31",
+      "fact": "Used AI to generate code, primarily GPT 4.1 with project folder method",
+      "speaker": "Arohbe",
+      "topic": "technical"
+    },
+    {
+      "id": 3,
+      "timestamp": "06:16",
+      "fact": "Used original Ergo CUDA miner developed by MHS as reference",
+      "speaker": "Arohbe",
+      "topic": "technical"
+    },
+    {
+      "id": 4,
+      "timestamp": "08:39",
+      "fact": "Architecture includes backend (Node.js/Express), frontend (React), Fast API, and CUDA miner",
+      "speaker": "Arohbe",
+      "topic": "technical"
+    },
+    {
+      "id": 5,
+      "timestamp": "12:13",
+      "fact": "Uses random forest machine learning model with decision tree method",
+      "speaker": "Arohbe",
+      "topic": "technical"
+    },
+    {
+      "id": 6,
+      "timestamp": "19:38",
+      "fact": "AI model currently uses five data points: temperature, utilization, power, nonce range, and difficulty",
+      "speaker": "Arohbe",
+      "topic": "technical"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "call_date": "2025-07-03",
+  "call_title": "Gluon Update | Bruno | Ergoversary 2025",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Gluon Protocol Introduction and Overview",
+      "category": "defi",
+      "start_time": "00:13",
+      "end_time": "00:47",
+      "primary_speaker": "Bruno",
+      "summary": "Bruno introduces Gluon as a new stablecoin protocol with Gluon Golden Ergo as its first implementation - an autonomous gold-backed stablecoin. He directs users to gluon.gold to try the protocol and references previous Ergo summit talks for detailed explanations.",
+      "key_terms": [
+        "Gluon",
+        "stablecoin protocol",
+        "Gluon Golden Ergo",
+        "autonomous",
+        "gold-backed",
+        "gluon.gold"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Security Audit Results and Protocol Verification",
+      "category": "technical",
+      "start_time": "00:47",
+      "end_time": "01:06",
+      "primary_speaker": "Bruno",
+      "summary": "The Gluon implementation on Ergo was independently audited by Krasavice Blazen with no vulnerabilities found. The audit included both code inspection and protocol simulation using Python.",
+      "key_terms": [
+        "security audit",
+        "Krasavice Blazen",
+        "vulnerabilities",
+        "code inspection",
+        "protocol simulation",
+        "Python"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Mathematical Proofs and Formal Verification Progress",
+      "category": "technical",
+      "start_time": "01:17",
+      "end_time": "02:20",
+      "primary_speaker": "Bruno",
+      "summary": "Five out of six stability theorems have been proven with the last nearly complete. The team is formally verifying proofs in Coq, which is more time-consuming than expected, requiring almost 1000 lines of code for theorem five. Plans include submitting to the first stability workshop.",
+      "key_terms": [
+        "stability theorems",
+        "mathematical proofs",
+        "formal verification",
+        "Coq",
+        "theorem",
+        "stability workshop",
+        "academic paper"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "New Frontend Release and User Experience Improvements",
+      "category": "technical",
+      "start_time": "02:20",
+      "end_time": "03:39",
+      "primary_speaker": "Bruno",
+      "summary": "A new beta frontend has been released replacing the old version with significant improvements including no backend dependency for better decentralization, transparent fee calculations, protocol state dashboard, and swap-style UI/UX. Users can join the Gluon Gold Telegram for more information.",
+      "key_terms": [
+        "frontend",
+        "beta release",
+        "decentralized",
+        "backend dependency",
+        "fee transparency",
+        "dashboard",
+        "reserve ratio",
+        "total value locked",
+        "swap UI",
+        "Telegram"
+      ]
+    }
+  ]
+}

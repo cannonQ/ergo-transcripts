@@ -1,0 +1,75 @@
+{
+  "call_date": "2025-07-03",
+  "call_title": "The Four states of a UTXO transaction | c8 | Ergoversary 2025",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "UTXO Transaction State Model and User Experience",
+      "category": "technical",
+      "start_time": "00:13",
+      "end_time": "00:35",
+      "primary_speaker": "AI",
+      "summary": "Introduction to the four-state transaction model for better user experience in proof-of-work UTXO chains. Traditional two-state approach (unconfirmed/confirmed) is insufficient for seamless UX and requires at least four states.",
+      "key_terms": [
+        "UTXO",
+        "proof-of-work",
+        "transaction states",
+        "user experience",
+        "unconfirmed",
+        "confirmed"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "ERG to Dexy Gold Swap Transaction Flow",
+      "category": "defi",
+      "start_time": "00:31",
+      "end_time": "01:05",
+      "primary_speaker": "AI",
+      "summary": "Demonstration of the transaction lifecycle using an ERG to Dexy Gold swap example. Shows the progression from wallet signing through mempool inclusion to block confirmation, including timing expectations and cancellation possibilities.",
+      "key_terms": [
+        "ERG",
+        "Dexy Gold",
+        "swap",
+        "mempool",
+        "block confirmation",
+        "transaction cancellation"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Three Positive Transaction States and UI Design",
+      "category": "technical",
+      "start_time": "00:58",
+      "end_time": "01:38",
+      "primary_speaker": "AI",
+      "summary": "Detailed explanation of the three successful transaction states: Prepared, In Mempool, and Confirmed. Includes specific UI/UX recommendations like double blink animations, bar loaders, circular loaders, and checkmark icons with green highlighting.",
+      "key_terms": [
+        "prepared state",
+        "mempool state",
+        "confirmed state",
+        "UI design",
+        "loader animations",
+        "status indicators"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Five Transaction Cancellation Scenarios and Error Handling",
+      "category": "technical",
+      "start_time": "01:38",
+      "end_time": "02:22",
+      "primary_speaker": "AI",
+      "summary": "Comprehensive overview of five ways transactions can be cancelled: user cancellation, mempool rejection, fee replacement, input box invalidation, and block reorganization. Emphasizes consistent error UI with shake animations and red highlighting.",
+      "key_terms": [
+        "transaction cancellation",
+        "mempool rejection",
+        "fee replacement",
+        "input box",
+        "block reorganization",
+        "error handling",
+        "shake animation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "call_date": "2025-07-04",
+  "call_title": "Rosen Bridge Update | Joseph Armeano & tmr.erg | Ergoversary 2025",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Rosen Bridge Introduction and Core Philosophy",
+      "category": "bridges",
+      "start_time": "00:22",
+      "end_time": "03:04",
+      "primary_speaker": "Armeanio",
+      "summary": "Armeanio explains Rosen as an interchange protocol that provides community-controlled interoperability without relying on external gatekeepers. He discusses how Ergo's fair launch model created dependency on paid partnerships and how Rosen addresses market access challenges through permissionless infrastructure.",
+      "key_terms": [
+        "interchange protocol",
+        "interoperability",
+        "fair launch",
+        "permissionless",
+        "market access",
+        "gatekeepers"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Technical Architecture: Lock-Unlock vs Mint-Burn",
+      "category": "technical",
+      "start_time": "04:38",
+      "end_time": "09:36",
+      "primary_speaker": "Armeanio",
+      "summary": "Discussion of why bridges fail due to nonlinear scaling assumptions and smart contract dependencies. Armeanio explains Rosen's vault-based lock-unlock system with dual-layer multi-sig architecture using watchers for auditing and pre-truth consensus, inspired by banking clearance and settlement processes.",
+      "key_terms": [
+        "lock-unlock",
+        "mint-burn",
+        "vaults",
+        "watchers",
+        "multi-sig",
+        "pre-truth",
+        "clearance and settlement",
+        "nonlinear scaling"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Decentralized Incentives and Watcher Economics",
+      "category": "bridges",
+      "start_time": "09:36",
+      "end_time": "12:28",
+      "primary_speaker": "Armeanio",
+      "summary": "Explanation of how Rosen creates a community of hundreds of watchers who are incentivized through profit distribution rather than extraction fees. Armeanio contrasts this with traditional exchange listing costs that can reach millions of dollars and create misaligned incentives.",
+      "key_terms": [
+        "watchers",
+        "profit distribution",
+        "incentive alignment",
+        "listing costs",
+        "decentralized community",
+        "mining interchange"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Security Transparency with RS-ERG Naming",
+      "category": "technical",
+      "start_time": "12:39",
+      "end_time": "13:47",
+      "primary_speaker": "Armeanio",
+      "summary": "Armeanio discusses the deliberate choice to name wrapped ERG as RS-ERG to make security complexities transparent to users. This contrasts with other bridges that hide security assumptions until problems occur, emphasizing open source and public facing design principles.",
+      "key_terms": [
+        "RS-ERG",
+        "wrapped tokens",
+        "security transparency",
+        "open source",
+        "security complexity",
+        "obfuscation"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Long-term Vision: Layer 2 Speed Solutions",
+      "category": "bridges",
+      "start_time": "13:57",
+      "end_time": "17:56",
+      "primary_speaker": "Armeanio",
+      "summary": "Discussion of future plans to build faster settlement options around Rosen using liquidity providers who assume risk for premium fees, similar to banking wire transfers. Armeanio emphasizes maintaining core security assumptions while avoiding the pitfalls of bridges that introduce DeFi leverage.",
+      "key_terms": [
+        "layer 2",
+        "liquidity providers",
+        "faster settlement",
+        "premium fees",
+        "security assumptions",
+        "economic complexity",
+        "THORChain",
+        "rehypothecation"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Competitive Strategy: Non-Compatible Chain Focus",
+      "category": "ecosystem",
+      "start_time": "18:07",
+      "end_time": "21:21",
+      "primary_speaker": "Armeanio",
+      "summary": "Armeanio outlines Rosen's competitive advantage in connecting non-EVM compatible chains like Nervos, Alephium, and Kaspa. He criticizes the current crypto market's focus on meme tokens over technical innovation and discusses value misalignment between short-term liquidity and long-term adoption curves.",
+      "key_terms": [
+        "non-compatible environments",
+        "proof of work projects",
+        "technical depth",
+        "adoption curve",
+        "liquidity curve",
+        "value misalignment",
+        "meme tokens"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Building Anti-Fragile Infrastructure",
+      "category": "bridges",
+      "start_time": "21:57",
+      "end_time": "24:23",
+      "primary_speaker": "Armeanio",
+      "summary": "Discussion of designing Rosen to withstand state-level attacks and political changes, following Bitcoin's foundational principles. Armeanio emphasizes building for 5-10 year timelines rather than short-term price movements, creating systems that can survive regulatory attacks and exchange delistings.",
+      "key_terms": [
+        "anti-fragile",
+        "state-level attacks",
+        "regulatory risk",
+        "political environment",
+        "unstoppable access",
+        "hard to kill",
+        "100-year flood"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Rosen Bridge Live Demo and Statistics",
+      "category": "bridges",
+      "start_time": "24:25",
+      "end_time": "30:08",
+      "primary_speaker": "tmr.erg",
+      "summary": "Live walkthrough of the Rosen Bridge interface showing 40+ supported tokens across Ergo, Cardano, Ethereum, and Binance chains. Discussion of 3 million ERG locked on the bridge, making Rosen one of the largest ERG 'exchanges' and demonstrating significant cost savings compared to traditional exchange listings.",
+      "key_terms": [
+        "locked assets",
+        "3 million ERG",
+        "multi-chain support",
+        "bridge interface",
+        "cost savings",
+        "exchange alternative"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "2025 Wallet Integration Roadmap",
+      "category": "ecosystem",
+      "start_time": "25:10",
+      "end_time": "28:18",
+      "primary_speaker": "Armeanio",
+      "summary": "Armeanio discusses plans for wallet SDK integration to simplify the bridging process, including work with Nautilus and Minotaur wallets. He addresses security concerns about fraudulent frontends and the goal of integrating Rosen into consumer-facing wallets like Coinbase wallet and Phantom wallet.",
+      "key_terms": [
+        "wallet integration",
+        "SDK",
+        "Nautilus wallet",
+        "Minotaur wallet",
+        "consumer-facing wallets",
+        "fraudulent frontends",
+        "single UI"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Bridge Usage Transparency and User Experience",
+      "category": "bridges",
+      "start_time": "30:08",
+      "end_time": "33:46",
+      "primary_speaker": "tmr.erg",
+      "summary": "Demonstration of Rosen's live transaction monitoring and fee structure. Discussion of intentional design choices around speed and cost, with Armeanio explaining that fees are comparable to other bridges but distributed to watchers rather than centralized parties. Includes explanation of storage rent benefits for Ergo miners.",
+      "key_terms": [
+        "transaction monitoring",
+        "fee structure",
+        "storage rent",
+        "double miner payment",
+        "profit distribution",
+        "industry alignment"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Community Resources and Future Chain Integration",
+      "category": "community",
+      "start_time": "33:54",
+      "end_time": "37:39",
+      "primary_speaker": "Armeanio",
+      "summary": "Armeanio directs users to Discord and Telegram for community support, highlighting the knowledge of 200+ watchers. He discusses upcoming DogeChain integration, plans for Bitcoin forks, EVM compatibility, and the ambitious goal of integrating Monero as a stress test of the system's resilience.",
+      "key_terms": [
+        "Discord",
+        "Telegram",
+        "DogeChain integration",
+        "Bitcoin forks",
+        "EVM compatibility",
+        "Monero integration",
+        "stress test",
+        "documentation"
+      ]
+    }
+  ]
+}

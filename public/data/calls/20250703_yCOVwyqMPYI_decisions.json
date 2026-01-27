@@ -1,0 +1,66 @@
+{
+  "call_date": "2025-07-03",
+  "call_title": "Gluon Update | Bruno | Ergoversary 2025",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "02:38",
+      "decision": "Replace the old frontend with the new beta frontend despite it still having some issues",
+      "speaker": "Bruno",
+      "context": "The new frontend is already significantly better than the old one",
+      "topic": "gluon",
+      "significance": "minor",
+      "quote": "It's still in beta and it still has some issues, but we decided to already replace the old frontend because it's already significantly better"
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "02:10",
+      "commitment": "Submit the Gluon paper with all the proofs and formal verification to the first stability workshop",
+      "owner": "Bruno",
+      "timeline": "conditional on finishing proofs on time",
+      "topic": "gluon",
+      "quote": "If we finish the proofs on time, we are planning to submit the Gluon paper with all the proofs and formal verification to the first stability workshop"
+    }
+  ],
+  "open_questions": [],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "00:20",
+      "fact": "Gluon Golden Ergo is the first implementation of the Gluon protocol and the first autonomous gold-backed stablecoin",
+      "speaker": "Bruno",
+      "topic": "gluon"
+    },
+    {
+      "id": 2,
+      "timestamp": "00:59",
+      "fact": "Gluon on Ergo was independently audited by Krasavice Blazen and no further vulnerabilities were found",
+      "speaker": "Bruno",
+      "topic": "gluon"
+    },
+    {
+      "id": 3,
+      "timestamp": "01:17",
+      "fact": "Five out of six stability theorems have been proven, with the last theorem almost proven",
+      "speaker": "Bruno",
+      "topic": "gluon"
+    },
+    {
+      "id": 4,
+      "timestamp": "01:52",
+      "fact": "The formal proof of theorem five is almost 1000 lines of Coq code",
+      "speaker": "Bruno",
+      "topic": "gluon"
+    },
+    {
+      "id": 5,
+      "timestamp": "02:48",
+      "fact": "The new frontend has no dependency on a backend anymore, making it more decentralized",
+      "speaker": "Bruno",
+      "topic": "gluon"
+    }
+  ]
+}

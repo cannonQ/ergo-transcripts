@@ -1,0 +1,54 @@
+{
+  "call_date": "2025-07-03",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "00:47",
+      "question": "Has the Gluon implementation been audited for security vulnerabilities?",
+      "asker": "implicit",
+      "answer": "Yes, the implementation of Gluon on Ergo was independently audited by Krasavice Blazen and no further vulnerabilities were found. The audit included not only inspection of the code, but also a simulation of the protocol itself.",
+      "responder": "Bruno",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "gluon",
+        "audit",
+        "security",
+        "stablecoin"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "01:17",
+      "question": "What is the current status of the mathematical proofs for Gluon's stability?",
+      "asker": "implicit",
+      "answer": "We have already proven five out of the six stability theorems that we intend to prove, and the last theorem is almost proven as well. We are also formally verifying these proofs in Coq, which turned out to be much more time consuming than originally anticipated.",
+      "responder": "Bruno",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "gluon",
+        "stability",
+        "theorems",
+        "formal verification",
+        "coq"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "02:20",
+      "question": "What improvements does the new Gluon Gold frontend offer over the previous version?",
+      "asker": "implicit",
+      "answer": "The new frontend has no dependency on a backend anymore making it more decentralized, provides more transparency in fee calculations, displays the protocol's state including reserve ratio and total value locked, and features a more familiar swap-style UI/UX that users had been requesting.",
+      "responder": "Bruno",
+      "category": "defi",
+      "difficulty": "beginner",
+      "related_terms": [
+        "gluon-gold",
+        "frontend",
+        "decentralization",
+        "user-interface"
+      ]
+    }
+  ]
+}

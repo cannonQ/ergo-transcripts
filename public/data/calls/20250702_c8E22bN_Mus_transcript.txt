@@ -1,0 +1,81 @@
+[00:13] **Josemi**: Hi everyone, it's Josemi and in this video I'm going to present Beene, a proof of funding platform designed to support projects in raising funds and fairly rewarding their contributions.
+
+[00:29] **Josemi**: So, Beene enables any project to receive funding from the community and automatically distributes proof of funding tokens to contributors in real time.
+
+[00:41] **Josemi**: These tokens serve as contribution accounting tokens, providing who contributed and how much.
+
+[00:53] **Josemi**: Here's how the platform works.
+
+[00:59] **Josemi**: Project owners create a funding vault and define the funding token, for example, ERG, a minimum funding goal, a deadline, the proof of funding token to distribute and a rate of how many proof tokens are given per funding token.
+
+[01:23] **Josemi**: Once a vault is created, project owners can add or remove reward tokens.
+
+[01:36] **Josemi**: Contributors can deposit any amount of funding tokens and they immediately receive proof of funding token vouchers that represent their proof of funding tokens.
+
+[01:54] **Josemi**: So if the funding goal is reached, the project owner can withdraw the funds and contributors can exchange their funding token vouchers with the same amount of funding tokens.
+
+[02:13] **Josemi**: And if the goal isn't reached by the deadline, contributors can return their proof of funding token vouchers and recover their contributions.
+
+[02:31] **Josemi**: So let's visualize this on a chart where the horizontal axis is time and the vertical axis is the amount of funding token raised.
+
+[02:42] **Josemi**: So you can see the actions that become available depending on whether the goal has been reached or the deadline has passed.
+
+[02:57] **Josemi**: So let's see a real example. We used Beene to raise funds for Gluon Gold.
+
+[03:06] **Josemi**: So the team needed 5,000 ERG to develop an SDK. A vault was created with a goal of 5,000 ERGs at a rate of one Gluon per ERG and a two-week deadline.
+
+[03:29] **Josemi**: Once the goal was met, contributors had already received their Gluons and the project owner could immediately access the funds.
+
+[03:43] **Josemi**: Another example could be a group that wants to write between 5 and 20 articles about Ergo, where each article costs 100 ERG.
+
+[04:04] **Josemi**: So they might call their token the Ergo Articles Token and create a vault with a goal of 500 ERGs, a rate of 1 EAT per ERG, and a deadline of 2 weeks.
+
+[04:33] **Josemi**: And after reaching 500 ERGs, the team starts writing articles. And if the community is happy, more people contribute and more tokens get distributed so they can even increase the vault capacity to support up to 100 articles, for example.
+
+[05:06] **Josemi**: Now a cautionary example. A team promises something revolutionary and asks for 5 million ERGs with a flashy token reward, called SuperDuper Blockchain Token.
+
+[05:30] **Josemi**: And after one week, they raise 3 million ERGs. But the project is exposed as nonsense because it's only a soup of buzzwords.
+
+[05:47] **Josemi**: So thanks to Beene's rules, because the minimum amount of 5 million ERGs was not raised after the deadline, contributors can return their proof of funding tokens, the SuperDuper Blockchain Token, and get their ERG back.
+
+[06:15] **Josemi**: So Beene can be used in many ways. One can be donations, where proof tokens represent your support to a cause.
+
+[06:32] **Josemi**: Another use case can be crowdfunding, where proof tokens can be exchanged for goods later.
+
+[06:42] **Josemi**: Startup funding, selling tokens at a fixed price. Event tickets, where proof of funding tokens act as tickets to an event with a minimum and maximum capacity.
+
+[07:03] **Josemi**: And collaborative projects or benefactions - that is the original use case that made us develop this platform.
+
+[07:19] **Josemi**: So this idea of working together on different projects and where labor and capital to these projects are both rewarded equally with contribution accounting tokens.
+
+[07:42] **Josemi**: Okay, so this is the landing page for the project. We have implementations on Ethereum and on Ergo.
+
+[07:57] **Josemi**: There is some basic information about it, links to social media. Both projects are open source and available on GitHub.
+
+[08:20] **Josemi**: So the Beene on Ergo implementation is a web app. It's only running with observers only in the browser and connecting directly to the Ergo blockchain.
+
+[08:37] **Josemi**: It makes it slower but more fault tolerant too.
+
+[08:45] **Josemi**: There are some projects. This is the Gluon Gold security audit that we realized a few months ago.
+
+[08:58] **Josemi**: Okay, so let's create a project to show it. So for example, this PFT project will be our PFT. Let's put this amount of PFT, the exchange rate of this, the minimum of, for example, half and one day limit, so the deadline will be tomorrow at the same time.
+
+[09:55] **Josemi**: Test project. So for the creation it needs two transactions.
+
+[10:34] **Josemi**: Okay, now we can sign the transaction, the second transaction, and this transaction will create our Beene project.
+
+[10:56] **Josemi**: Okay, so the transaction is confirmed. Now we can check it, reloading the projects.
+
+[11:40] **Josemi**: Demo test project. So it's only 23 hours for the deadline. So we are the owners of this project too.
+
+[11:58] **Josemi**: So we can see these actions. We could add PFT tokens or withdraw them. So for example if we want to block more contributions we could extract the amount that is currently on the contract. But now as users, as contributors, we are going to contribute.
+
+[12:32] **Josemi**: So there are 0.6 PFTs, so we are going to contribute with 1. We are going to get 0.1 contributions, sending this amount of ERGs.
+
+[13:09] **Josemi**: And we will get an auxiliary token, the PFT voucher. This token will serve to us as the voucher to get the PFT token after the deadline if the minimum amount is raised.
+
+[13:30] **Josemi**: Okay, the contribution transaction is confirmed. So we can reload the project.
+
+[14:19] **Josemi**: Perfect, so we can see now that there is some contribution and it's not at minimum. So for now, when the deadline is reached, we should be able to refund our ERGs.
+
+[14:51] **Josemi**: And that's it. So follow us on social media, join our channels and get in touch if you would like to work with us. Thanks for watching.

@@ -1,0 +1,150 @@
+{
+  "call_date": "2025-07-02",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "03:43",
+      "question": "What is the current status of sub-blocks testing on Ergo's DevNet?",
+      "asker": "qx()",
+      "answer": "There is a sub-blocks DevNet update which is doing quite well at the moment. Yesterday I did some load testing and it was quite good after some fixes. We are pretty much on track for starting to inject sub-blocks supporting mining nodes into the public test nets from around July 15th to 25th.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "sub-blocks",
+        "DevNet",
+        "load testing",
+        "mining nodes"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "04:32",
+      "question": "What upcoming voting and protocol changes are planned for Ergo?",
+      "asker": "implicit",
+      "answer": "This week we will have maybe a voting for 6.0 that has been started, as well as emission reduction, another one. This emission reduction would be more aggressive again - like every emission reduction is more aggressive than the previous one.",
+      "responder": "kushti",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "voting",
+        "protocol upgrade",
+        "emission reduction",
+        "6.0"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "05:27",
+      "question": "How can developers join the sub-blocks DevNet testing?",
+      "asker": "qx()",
+      "answer": "You can find details on how to join the network in the developer's chat. It requires some knowledge, like building and running a node against the latest commit in a specific branch. It's doable for many people still, and we can start building current jobs and do more in the coming weeks.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "DevNet",
+        "sub-blocks",
+        "node",
+        "testing",
+        "developer chat"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "17:15",
+      "question": "What is Ergo's approach to protocol upgrades and backwards compatibility?",
+      "asker": "implicit",
+      "answer": "I think it's better to move gradually and always try to do things in a soft-forkable fashion, so not rejecting the old nodes so that they have the right to validate the network. In most cases, it's always worth to have old validators. We can do hundreds of different things in regards with optimizations and building around.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "soft fork",
+        "backwards compatibility",
+        "protocol upgrades",
+        "validators"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "17:27",
+      "question": "What is the status of merge mined sidechains development on Ergo?",
+      "asker": "implicit",
+      "answer": "The work on merge mined sidechains already started, so we'll provide some details in the coming days. The coding already been started, along with some coding design specs and so on.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "merge mining",
+        "sidechains",
+        "layer 2",
+        "design specs"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "18:48",
+      "question": "What is the oldest Ergo node version still running on the network?",
+      "asker": "qx()",
+      "answer": "There was a protocol update in regards with the difficulty recalculation, so it's about 4.0.100x. They're still in the network since 2022, and I think they can stay for a longer time.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "node versions",
+        "backwards compatibility",
+        "difficulty adjustment"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "30:28",
+      "question": "What AI-related developments are being built on Ergo?",
+      "asker": "implicit",
+      "answer": "I made the Ergo MCP (Model Context Protocol) and from there created other MCPs like price Ergo MCP. I'm working on Thin Intelligence, which is an AI agent that can write code and smart contracts. The goal is to create a platform where people can use their own LLMs as providers, making it more decentralized LLM usage instead of relying on anthropic or OpenAI API keys.",
+      "responder": "Mark (SPEAKER_00)",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "AI",
+        "MCP",
+        "smart contracts",
+        "decentralized LLM",
+        "agents"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "31:18",
+      "question": "What is the Aletha White Paper about?",
+      "asker": "kushti",
+      "answer": "It's about autonomous AI on Ergo blockchain. It looked interesting and I think Ergo is a great use case for more super intelligent type of mechanisms, especially with the cheap transaction rates. You could have AI agents running on chain with tokens where they pay themselves to do different tasks - one agent does task A, another does task B, and they can rent each other or have humans hire them.",
+      "responder": "Mark (SPEAKER_00)",
+      "category": "ecosystem",
+      "difficulty": "advanced",
+      "related_terms": [
+        "autonomous AI",
+        "AI agents",
+        "on-chain economy",
+        "transaction costs"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "50:28",
+      "question": "How can stealth addresses be used for anonymous voting on Ergo?",
+      "asker": "kushti",
+      "answer": "You can use simple anonymous voting using stealth addresses. When you send tokens to stealth addresses, you write along with fee for follow-up transaction. The follow-up transactions are basically about sending voting tokens to yes or no addresses like you did with initial voting procedures. You can use stealth addresses and then the link is broken, providing anonymity.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "stealth addresses",
+        "anonymous voting",
+        "privacy",
+        "tokens"
+      ]
+    }
+  ]
+}

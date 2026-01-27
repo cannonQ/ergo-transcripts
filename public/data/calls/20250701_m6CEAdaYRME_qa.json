@@ -1,0 +1,151 @@
+{
+  "call_date": "2025-07-01",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "02:58",
+      "question": "What is the ChainCash and Better Money initiative that Ergo is working on?",
+      "asker": "Armeanio",
+      "answer": "ChainCash is basically a foundation for digital free banking, blockchain-based. We're building trustless derivatives, algorithmic stable coins, and high-level schemes to ensure against risks like non-delivery of physical commodities. The Better Money initiative pushes these theoretical schemes for practical adoption, connecting with private companies and entities like African nations interested in tokenization and project funding for small cooperatives.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "ChainCash",
+        "digital free banking",
+        "algorithmic stablecoins",
+        "better money"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "11:23",
+      "question": "What is the current status of sub-blocks development and the 6.0 release?",
+      "asker": "Armeanio",
+      "answer": "I'm doing final sync for 6.0 to propose it to miners. At the moment of releasing this video, miners would probably update nodes already and set voting configuration in the setting files. Sub-blocks have been discussed since 2023, and now we have an updated DevNet. In July, we can think about injecting sub-block supporting nodes into the public testnet.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "sub-blocks",
+        "6.0 release",
+        "DevNet",
+        "testnet"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "12:15",
+      "question": "How do proof-of-work protocols compare to proof-of-stake in terms of efficiency?",
+      "asker": "Armeanio",
+      "answer": "Since The Merge (Ethereum's transition), it's quite clear that Proof-of-Work protocols are no worse at least than Proof-of-Stake in regards with efficiency. There was a myth that Proof-of-Stake is more performant, which was debunked. Proof-of-work protocols are actually more efficient because there's less overhead for agreements - every miner works on its own with no communication needed for consensus except for propagating new blocks.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "proof-of-work",
+        "proof-of-stake",
+        "consensus",
+        "efficiency"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "18:37",
+      "question": "What are Sigma Chains and how do they relate to drive chains and merge mining?",
+      "asker": "Armeanio",
+      "answer": "Merge mined sidechains could provide significant revenue boost for miners, as clearly seen in Litecoin where Dogecoin (the merge mined sidechain) is promoted first place with Litecoin second. For Ergo, I think it's time to work on such things to provide additional income for miners and create more liquidity. We can create trustless two-way pegs using contracts on Ergo with small additions, and even do double merge mined sidechains with Bitcoin and Ergo.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "sigma chains",
+        "merge mining",
+        "sidechains",
+        "drive chains",
+        "two-way peg"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "24:24",
+      "question": "How would trustless two-way pegs work between Ergo and sidechains?",
+      "asker": "Armeanio",
+      "answer": "As shown in my submission for ErgoHack 8, there is possibility to have trustless two-way peg just using some contracts on Ergo and some actually quite small additions. We can create double merge mined sidechains - Bitcoin and Ergo merge mined - with double commitments on both blockchains. This provides possibility for DeFi for Bitcoin with quite trustless transfers and minimum trust assumptions.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "two-way peg",
+        "trustless",
+        "ErgoHack",
+        "double merge mining"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "27:16",
+      "question": "What are the possibilities for privacy-oriented merge mined sidechains?",
+      "asker": "Armeanio",
+      "answer": "You can have merge mined sidechains with stablecoin protocols and better oracles using oracle pools instead of centralized oracles. You may have private transfers using ErgoMixer or adding private amounts using more complicated cryptography, even FCMP (Full Chain Membership Proofs) from upcoming Monero updates. You can do dark DeFi based sidechains with private contracts for ERGs - move transparent ERGs to the sidechain and use them in dark contracts.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "privacy",
+        "dark DeFi",
+        "ErgoMixer",
+        "FCMP",
+        "oracle pools"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "30:17",
+      "question": "What are dedicated Sigma Chains as opposed to merge mined chains?",
+      "asker": "Armeanio",
+      "answer": "Sigma chains are about chains with dedicated proof of work, with the idea to tame different classes of hardware. Currently there's a lot of untamed computing power in the form of ASICs and GPUs. There will be more GPUs soon to be outdated from AI usage. Instead of launching another fork of Bitcoin or Kaspa, it would be better to launch Ergo-similar sigma chains that get interoperability with Ergo and Rosen Bridge since day one, providing liquidity with all chains.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "sigma chains",
+        "dedicated proof of work",
+        "hardware utilization",
+        "Rosen Bridge"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "33:52",
+      "question": "How would merge mined sidechains benefit the Ergo ecosystem?",
+      "asker": "Armeanio",
+      "answer": "Merge mined sidechains are low-hanging fruit that would provide ways for developers to play with new features and experiment in areas now inaccessible with other blockchains. You can easily play with applications of newer sigma protocols using the sigma contractual layer, which is more straightforward than EVM. They'd have shared liquidity with the main Ergo chain since day one, with Rosen Bridge, and all existing applications available.",
+      "responder": "kushti",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "merge mining",
+        "sigma protocols",
+        "developer tools",
+        "shared liquidity"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "42:59",
+      "question": "How does proof-of-work solve the fair distribution problem in cryptocurrency?",
+      "asker": "Armeanio",
+      "answer": "The problem of fair distribution was solved back in 2009 with Bitcoin and proof of work. This problem existed before Bitcoin with first digital cash schemes like Hal Finney's RPOW, which used proof of work but didn't have difficulty adjustment. Without difficulty recalculation and proper emission schedule, distribution was in hands of developers able to optimize their miners. Bitcoin solved this with difficulty recalculation and emission schedule, but people somehow lost this solution and now have rugpulls and unfair distributions.",
+      "responder": "kushti",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "fair distribution",
+        "proof-of-work",
+        "difficulty adjustment",
+        "emission schedule"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "call_date": "2025-07-01",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "00:28",
+      "question": "How does PandaVee's blockchain-based access control system work?",
+      "asker": "implied",
+      "answer": "PandaVee uses the Ergo blockchain to create a secure access control system where each user's entry rights are verified using a unique token ID. This replaces traditional cards or passwords with a secure on-chain identity, and every access event is immutably recorded on the blockchain for full transparency and tamper-proof security.",
+      "responder": "AI",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "NFT",
+        "access control",
+        "on-chain identity",
+        "token ID"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "01:00",
+      "question": "What Ergo technologies does PandaVee integrate with for its functionality?",
+      "asker": "implied",
+      "answer": "PandaVee integrates with Ergonode and ErgoPay to activate Arduino-based hardware and unlock doors. The system uses ErgoPay for user authentication and signing, while transactions are processed through Ergonode and recorded on the Ergo blockchain.",
+      "responder": "AI",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Ergonode",
+        "ErgoPay",
+        "Arduino",
+        "hardware integration"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "06:05",
+      "question": "How does the PandaVee mobile app authentication process work?",
+      "asker": "implied",
+      "answer": "Users log in using ErgoPay signing, and their session ID is recorded in the PandaVee server. The app displays a list of NFT tokens from the user's Ergo wallet, and clicking a token generates a QR code that binds the session ID with the wallet address for authentication.",
+      "responder": "AI",
+      "category": "wallet",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "ErgoPay",
+        "NFT tokens",
+        "QR code",
+        "session ID",
+        "wallet authentication"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "06:21",
+      "question": "What happens when a user scans their access token QR code?",
+      "asker": "implied",
+      "answer": "When the QR code is scanned, the server determines if the QR is valid, then grants access and opens the gate or door. A transaction is pushed and submitted to the Ergo blockchain, and all transaction IDs can be verified on Ergo Explorer for transparency.",
+      "responder": "AI",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "QR code",
+        "transaction",
+        "Ergo Explorer",
+        "blockchain verification"
+      ]
+    }
+  ]
+}

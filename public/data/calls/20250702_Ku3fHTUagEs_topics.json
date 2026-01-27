@@ -1,0 +1,172 @@
+{
+  "call_date": "2025-07-02",
+  "call_title": "Ergoversary Special - Weekly Update & AMA - July 1st",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Ergo 6th Anniversary Celebration",
+      "category": "community",
+      "start_time": "00:16",
+      "end_time": "02:16",
+      "primary_speaker": "kushti",
+      "summary": "Team celebrates Ergo's 6th anniversary, comparing the blockchain's maturity to Bitcoin at 6 years old in 2015. kushti notes Ergo has less technical issues than Bitcoin had at the same age, particularly with multi-sig support.",
+      "key_terms": [
+        "anniversary",
+        "ergoversary",
+        "Bitcoin comparison",
+        "multi-sig",
+        "maturity"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Node Release Update and Ethereum Dependencies",
+      "category": "technical",
+      "start_time": "02:17",
+      "end_time": "02:44",
+      "primary_speaker": "Armeanio",
+      "summary": "Armeanio discusses preparing a node release, updating packages and testing. Release was delayed due to resolving dependencies related to Ethereum's latest hard fork.",
+      "key_terms": [
+        "node release",
+        "Ethereum hard fork",
+        "dependencies",
+        "testing",
+        "packages"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Sub-blocks DevNet Testing Progress",
+      "category": "technical",
+      "start_time": "03:38",
+      "end_time": "07:05",
+      "primary_speaker": "kushti",
+      "summary": "kushti reports successful sub-blocks DevNet testing with load testing completed. Plans to integrate sub-blocks support into public testnets between July 15-25th for version 6.0, along with upcoming emission reduction voting.",
+      "key_terms": [
+        "sub-blocks",
+        "DevNet",
+        "load testing",
+        "version 6.0",
+        "emission reduction",
+        "faster transactions"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Early Ergo History and Team Origins",
+      "category": "community",
+      "start_time": "07:57",
+      "end_time": "13:50",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Dan Friedman and kushti share memories of Ergo's early development starting in 2016 at IOHK. Discussion includes first meetings in Malta 2017 and the transition from research to business development phases.",
+      "key_terms": [
+        "IOHK",
+        "Malta",
+        "2017",
+        "research videos",
+        "early development",
+        "Charles Hoskinson"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Ergo Development Roadmap and Layer 2 Plans",
+      "category": "technical",
+      "start_time": "14:30",
+      "end_time": "17:41",
+      "primary_speaker": "Armeanio",
+      "summary": "Armeanio outlines Ergo's evolution from ErgoMixer privacy features through native assets, DEXes, and current tooling improvements. kushti announces that merge-mined sidechains development has begun with coding and design specs in progress.",
+      "key_terms": [
+        "ErgoMixer",
+        "native assets",
+        "DEXes",
+        "tooling",
+        "layer 2",
+        "merge-mined sidechains",
+        "backwards compatibility"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Node Version Adoption and Network Stats",
+      "category": "technical",
+      "start_time": "19:40",
+      "end_time": "21:24",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of impressive adoption rates for new node versions, with 30 nodes already running version 6.1 shortly after release. kushti attributes uptake to mining community outreach and oracle pool operator groups.",
+      "key_terms": [
+        "node adoption",
+        "version 6.1",
+        "mining pools",
+        "oracle pools",
+        "SigmaUSD"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Community-Run Explorer Infrastructure Project",
+      "category": "ecosystem",
+      "start_time": "22:06",
+      "end_time": "24:48",
+      "primary_speaker": "qx()",
+      "summary": "qx() announces a decentralized explorer infrastructure project with load-balanced community-run nodes replacing Ergo Foundation hosted services. Plans include geographic distribution and hosting additional frontends like Sigma space.",
+      "key_terms": [
+        "explorer infrastructure",
+        "load balancer",
+        "decentralization",
+        "community nodes",
+        "geographic distribution"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "MCP AI Integration and Smart Contract Development",
+      "category": "technical",
+      "start_time": "29:05",
+      "end_time": "33:31",
+      "primary_speaker": "Mark Leshark",
+      "summary": "Mark demonstrates AI integration with Ergo through MCP (Model Context Protocol), including AI agents that can write smart contracts. Discussion covers potential for autonomous AI economies where agents perform tasks and pay each other.",
+      "key_terms": [
+        "MCP",
+        "AI agents",
+        "smart contracts",
+        "autonomous economy",
+        "LLM",
+        "decentralized AI"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "October Ergo Meetup Planning",
+      "category": "community",
+      "start_time": "34:26",
+      "end_time": "42:46",
+      "primary_speaker": "qx()",
+      "summary": "Planning discussion for October 11th Ergo meetup including presentations on gluon gold, workshop activities, and community gathering logistics. Emphasis on grassroots networking versus expensive conference alternatives.",
+      "key_terms": [
+        "October meetup",
+        "gluon gold",
+        "workshops",
+        "community gathering",
+        "networking"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Educational Blockchain Applications Development",
+      "category": "ecosystem",
+      "start_time": "49:01",
+      "end_time": "51:10",
+      "primary_speaker": "qx()",
+      "summary": "qx() describes developing blockchain-based educational tools including attendance tracking and voting systems to replace expensive proprietary solutions like iClicker. kushti suggests using stealth addresses for anonymous voting implementations.",
+      "key_terms": [
+        "educational apps",
+        "iClicker replacement",
+        "attendance tracking",
+        "blockchain voting",
+        "stealth addresses",
+        "anonymous voting"
+      ]
+    }
+  ]
+}

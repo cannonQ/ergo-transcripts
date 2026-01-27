@@ -1,0 +1,55 @@
+[00:13] **Bruno**: Hi everyone, happy anniversary Ergo.
+
+[00:16] **Bruno**: Today I'm going to give you a few updates about Gluon.
+
+[00:20] **Bruno**: Gluon is a new stablecoin protocol and Gluon Golden Ergo is the first implementation of this protocol.
+
+[00:28] **Bruno**: It's the first autonomous gold-backed stablecoin.
+
+[00:31] **Bruno**: To try it, visit gluon.gold.
+
+[00:34] **Bruno**: To learn more about how the protocol works, check my previous talks in previous Ergo summits.
+
+[00:40] **Bruno**: In this talk, I will just report our recent progress in the research and development of Gluon.
+
+[00:47] **Bruno**: One recent good news is that implementation of Gluon on Ergo was independently audited by Krasavice Blazen and no further vulnerabilities have been found.
+
+[00:59] **Bruno**: The audit included not only inspection of the code, but also a simulation of the protocol itself.
+
+[01:06] **Bruno**: Here in this slide, you can see part of the audit report and also a part of the Python simulation code.
+
+[01:17] **Bruno**: On the research side, we have already proven five out of the six stability theorems that we intend to prove.
+
+[01:24] **Bruno**: And the last theorem is almost proven as well.
+
+[01:28] **Bruno**: Here you can see parts of the paper showing the definition of the protocol, lemma one, and also part of theorem one.
+
+[01:37] **Bruno**: We are also formally verifying these proofs in Coq.
+
+[01:41] **Bruno**: This turned out to be much more time consuming than we originally anticipated.
+
+[01:47] **Bruno**: Here you can see the beginning and the end of the formal proof of theorem five.
+
+[01:52] **Bruno**: As you can see, it's almost 1000 lines of Coq code to prove this theorem.
+
+[02:01] **Bruno**: If we finish the proofs on time, we are planning to submit the Gluon paper with all the proofs and formal verification to the first stability workshop.
+
+[02:10] **Bruno**: This is a new academic workshop that I'm organizing and everyone is welcome to participate and submit a paper.
+
+[02:20] **Bruno**: And the update that is probably most relevant for users of Gluon Gold is the release of the new frontend.
+
+[02:28] **Bruno**: It's still in beta and it still has some issues, but we decided to already replace the old frontend because it's already significantly better.
+
+[02:38] **Bruno**: Notable improvements of this new frontend include the fact that it has no dependency on a backend anymore, so it's more decentralized.
+
+[02:49] **Bruno**: There's more transparency in the calculation of fees, as you can see in some of the screenshots here.
+
+[02:55] **Bruno**: The dashboard also displays now the protocol's state, showing information such as the reserve ratio, the total value locked, and the volume - information that is relevant to decide whether to mint stable coins or to redeem stable coins.
+
+[03:17] **Bruno**: And also, one other thing that this frontend has, which is something that people had been asking, is a more familiar swap style UI/UX.
+
+[03:33] **Bruno**: That's all for today.
+
+[03:34] **Bruno**: And for more, join us in Gluon Gold Telegram.
+
+[03:39] **Bruno**: Thanks.

@@ -1,0 +1,139 @@
+[00:11] **Arohbe**: Hey everyone, R.O.B. here, bringing you Cortex, my Ergo Hack 10 project.
+
+[00:18] **Arohbe**: Before I get into the project, I just want to tell you a little bit about myself. I was originally part of the GetBlok team, which was a decentralized smart contract-based mining pool on the Ergo blockchain. I was launched several years back and unfortunately since then, the pool was closed.
+
+[00:36] **Arohbe**: But that project did lead to some of the concepts and ideas behind Lithos Protocol, which is another project that is currently being developed by qx(). Aside from that, I'm a father of two. I'm a big enthusiast of proof of work mining, specifically decentralized mining, and one of the passions that I've always had was trying to find ways to decentralize mining even further.
+
+[01:04] **Arohbe**: As many of you know, mining software and various points of the proof of work mining process unfortunately still remain centralized and remain either on a pool host server or black box mining software that you really don't know what's happening behind the scenes. So, yeah, always had an interest in that.
+
+[01:33] **Arohbe**: And that kind of led to some of the ideas that were built into Cortex here. Obviously Ergo Hack 10 is an AI-based themed hackathon. And I had some general ideas on how can you integrate AI with GPU mining.
+
+[01:55] **Arohbe**: Some of the ideas were using AI to basically process data, basically train a model to understand stats specifically around temperatures, overclocks, memory clock settings, things of that nature. And monitor that against mining performance to really get an understanding of how those settings may impact mining in general and get a good data set and truly understand how that data set could be utilized to potentially mine more efficiently and lower your power settings or find ways just to find little tweaks and gains here that could make mining a little bit more efficient these days, right?
+
+[02:51] **Arohbe**: So, yeah, that was kind of the original concept behind Cortex. We'll get into how the project evolved a little bit further than that. It became overall an ambitious project here, but yeah, excited to show you what I have.
+
+[03:10] **Arohbe**: So what is Cortex? Cortex is the next generation open source CUDA GPU miner for the Ergo blockchain. And it's focused on a few different points here, but transparency and audibility. So we want to keep this open source. All the code will be available on GitHub and open for collaboration or modification.
+
+[03:31] **Arohbe**: This was AI generated code. I did use several different models to build the code base here, but I found a lot of success using GPT 4.1. I used some of the project folder method where I loaded several files and data points and trained the model on the instructions I wanted it to use to build the code base here.
+
+[03:59] **Arohbe**: Within the project, we have real-time GPU control, so we'll give you visibility to your GPUs in a live monitor format. And ultimately you can make changes or change settings to your GPU. However, this is Linux based code. So there are some restrictions. Some of the lower model GPUs have less restrictions and can be set. So we're looking into that a little bit further just to see if we can optimize that.
+
+[04:30] **Arohbe**: Aside from that, we do have full stratum and node mining support. So there is no deployment built within the code. And the original concept was to have a node and be able to launch a node and mine directly to that node.
+
+[04:48] **Arohbe**: Unfortunately, I've been running this on a single GPU, so finding any blocks with a single GPU on mainnet would be virtually impossible. So it did make a shift to testnet, had some complications, basically, syncing to testnet node. So had to pivot, which we'll get into a little bit here later in the project.
+
+[05:09] **Arohbe**: And then AI powered mining optimization. So as I mentioned earlier, we did find a way to kind of analyze not only the GPU stats, but some of the nonce predictions. And a nonce is basically what you're trying to solve when you're looking for a block in simple terms. So once you solve the nonce or match the nonce, that's solving the equation. And in turn, that's the block solution.
+
+[05:40] **Arohbe**: So yeah, we have some code that's built in here that will kind of analyze that data and it will build a data set. And over time, we will train that model and it will just continue to get smarter.
+
+[05:51] **Arohbe**: So some goals that I've outlined for the project. So again, needed to develop a miner. I'm not a developer by any means, so I can use some reference and there was obviously the original Ergo CUDA miner. And when we say CUDA, CUDA just means Nvidia. It's just basically the dataset that gets processed.
+
+[06:16] **Arohbe**: So I did use the original Ergo CUDA miner as a reference, which was developed by MHS. I trained that into the AM model to use that code set to build a new miner from the ground up, basically.
+
+[06:34] **Arohbe**: Node deployment. So we do have node deployment via backend through a simple UI. The UI would be hosted locally, so it wouldn't be like you would need to connect to a server. And that UI can be adjusted as needed. I just used a very simple format just to more focus on the backend structure.
+
+[06:56] **Arohbe**: And then, as I mentioned, basic dashboard, it does have the node control as well as miner control. And it does give you some visibility of the GPU, which can be expanded on later.
+
+[07:08] **Arohbe**: The original goal test net block mining directly through the UI. Unfortunately, due to some complications, we did have to pivot to pool mining which had its own series of complications that will get into but yeah, well once the test net node is a little bit more stable and fortunately having some challenges connecting to peers and getting up to a full block height so we can revisit that at a later time.
+
+[07:45] **Arohbe**: And then ultimately what we would like to do is as we train the model and it gets smarter and we can set it to do an auto GPU tuning based on the nonce prediction or any further optimization that we may layer into the code base. And that can be, we find more shares if our temperature is at X or we find more blocks if you're a solo miner based on these settings.
+
+[08:06] **Arohbe**: So it'll be interesting to see if people can train models a little bit further than I can, and ultimately those models can be shared and people can use those models and it could be a kind of a community-based tool where people can share different data sets with each other and that may help miners find optimizations within their own mining farm or with their own mining rig, so to speak.
+
+[08:39] **Arohbe**: Current architecture. So try to keep it fairly simple. We do have a backend, we have a front end, within the backend it is there's the node, the stratum GPU manager, and that's all built with node JS and express. We do have a front end. It's react, so that can be expanded on and you can make it beautiful if you want, or keep it very simple.
+
+[09:00] **Arohbe**: And that all does have live controls that are monitored or connected through a fast API. And then again we built within the CUDA miner some challenges connecting to the pool and finding shares that we're working on. We did have a little spike where we were seen on the pool and the hash rate was realized. However, working on just the share control as we ended up spamming the pool and get rejected multiple times.
+
+[09:33] **Arohbe**: All right. So our node manager, so this is just a little preview of the node deployer that we have developed. We'll give you a little live preview of how this works, but in a nutshell, it does allow to launch an Ergo node either on main net or test net. gives you a series of the version and you can do live configuration control as well as have a live preview of the node status.
+
+[10:00] **Arohbe**: Miner manager. So this just gives you a little snippet here of what that looks like. Again, very simple UI. You basically put in your Ergo address, your worker name, and then there's some backend code that would load into a configuration and that would connect to the mining pool.
+
+[10:17] **Arohbe**: Currently the code is basically hard-coded to connect to the Sigmanauts mining pool. You can change that at any time by just looking at the code and changing the IP address of the pool that you want to connect to.
+
+[10:30] **Arohbe**: So just talk a little bit further about the miner control panel. Again, this is connecting directly to the backend code. So it allows you to start and stop the miner, adjust the configuration. And then we will have live log right here in the UI. And that will give you all the status updates of the accepted shares, any of the GPU stats or any of the additional log information that you may want to say.
+
+[10:56] **Arohbe**: Again, we did have the pivot to pool mining. So that was the focus here. We do have some code built that does allow you to mine directly to the node. However, we did kind of pull that out of the backend code for the time being until we can connect to a testnet node.
+
+[11:17] **Arohbe**: We talked about the pool integration. Again, we did successfully connect to the Sigmanauts pool, successfully submitted a couple of shares. Our hash rate was realized on the pool, so we did see a true handshake. But what we're working on is the job parsing and share submission.
+
+[11:35] **Arohbe**: And that's basically what we're working on moving forward is live share submission, getting a true hash validation, and then once that is live and true, we can connect the AI a little bit further and get a little bit better data than what we're seeing today as we had to put that more into what I'll call a demo mode.
+
+[12:00] **Arohbe**: GPU monitoring. So this is very simple. Again, we'll show you what this looks like in the live preview. And then the meat of the project here is the AI integration framework.
+
+[12:13] **Arohbe**: So again, we did successfully complete a model that does analyze real mining information, as well as the GPU data, share information. And then what we do is we would store that in a JSON log. So that information gets stored in the log. We're using a random forest machine learning model.
+
+[12:39] **Arohbe**: And what that is, just to kind of keep it very simple, is it is a decision tree. And it basically takes all the information that gets loaded into the log, and it kind of creates a weighted average based on the decision tree method. And then it provides a prediction based on what it thinks that the most predictable number, and at this point we're using a nonce, but that can be changed to give us visibility or prediction into GPU settings or overclock settings or anything that we may want to load in there and get predictions on.
+
+[13:23] **Arohbe**: In the pipeline, again, we basically collect all the data in the logs. At this point in time, it's basically just stats and share results. What we're doing is we're actually tying that into the miner and also bouncing it off the node just to confirm the block height and the difficulty that bounces it off of the GPU stats.
+
+[13:48] **Arohbe**: And what it's doing is it's telling the miner to work on a nonce within this range. It says 95% confidence. It's again, mock information at this point because we're just spamming multiple shares. However, once we do get true mining, and I have a feeling this will be more reliable on a solo pool versus pool mining, but we'll get it going and learn a little bit more on the data set once we can get some true data to analyze.
+
+[14:22] **Arohbe**: And then progress summary. So these are the items that we have accomplished throughout the project. Again, very ambitious. I think we were hoping to get a little bit further than that. Mining development and mining software is very complicated and as much as AI has improved over the years, I think there are still some room to improve as far as just overall blockchain development.
+
+[14:54] **Arohbe**: All right, so we successfully completed the node manager and true Ergo node deployment. We have a node running right now, so we'll show you that. It's actually stopped for the time being, so we can basically build the code from the ground up.
+
+[15:09] **Arohbe**: Live GPU monitoring. We did get the CUDA mining kernel development active, so we have a true functioning miner, although there is some issues with connecting to the pool and submitting shares successfully. We did successfully complete the data-driven AI optimization, again, built a simple UI dashboard.
+
+[15:39] **Arohbe**: We do have the live feedback loop with live recommendations. And some of the things that we'll still need to work on is, again, the share submission, and then overclocking automation. Unfortunately, Linux is not very friendly with GPU settings. So we'll have to maybe take a different approach and look to offer Windows integration versus looking at modifying the BIOS of the GPU, which could potentially cause issues.
+
+[16:12] **Arohbe**: All right, let's get into the fun stuff. So what we'll go through now is we will build the code from the back end and then we'll show you how it's running on the front end.
+
+[16:26] **Arohbe**: So again, try to keep it very simple here. We have all of our back end code basically in the back end and this is really just for the dashboard specifically. Front end again is just some of the simple pages that we use for the UI. And then everything else is basically our source code, our mining software, some of the stratum code back end for the mining. And even the node generation is built here in the back end. There are just basically a few commands and a few dependencies that you'll need to run, which we have outlined all in the GitHub.
+
+[17:12] **Arohbe**: What we'll do is we're going to run the miner. We'll turn on the AI software or the AI listener. And then we'll turn on the back end for the UI where it will bring everything together. And then we'll launch that on the front end here.
+
+[17:31] **Arohbe**: So what we'll do here is, before we get into that, I'll just kind of show you how the miner works in the back end. So we'll just run that miner command. And then again, you'll see we'll get our stratum connection to the pool. We'll get our subscribe and authorize. We'll understand the difficulty of the pool, but then when we go to look to submit shares, what was happening is we were just spamming shares like crazy.
+
+[18:04] **Arohbe**: So I turned that off just to kind of show a demo of what that looks like. So it will basically freeze here. It does receive the job, but it doesn't work on the job at this point in time.
+
+[18:16] **Arohbe**: All right, so this is the AI listener. So this is built in Python. And basically what this will do is there's a couple things here. So we have two services. We have the AI service, which is basically the API service that will connect to the database and provide information to the UI. And then we have the training model.
+
+[18:46] **Arohbe**: What happens is we will turn on the miner. The miner will take a bunch of information and load it into a log. And then we'll run the train command. The train command will basically calculate the weighted method based on the information that's within the log. And that's where it will provide its prediction.
+
+[19:09] **Arohbe**: So just kind of show how that runs on the back end, simple command here. Again, it takes all the information for this model. Currently, we're just using five data points, temperature, utilization, power, the nonce range, and difficulty. And then it will analyze that and again, do a weighted average and then calculate that, calculate a score, and then that score will kind of predict a range.
+
+[19:38] **Arohbe**: Again, we're using nonce, but we can modify this to one, extend our data out, our data set out further to collect more information, or we can predict different items here, whether it's temperature range that may be more useful for mining, power settings, things of that nature.
+
+[20:04] **Arohbe**: And then the last one's just the API service. And we're just going to turn this on. And again, this just connects the API to the backend.
+
+[20:19] **Arohbe**: And now we're in our backend. So basically what our backend does, this is a, we run a file called server JS. It's just a simple JavaScript file. What that does is basically ties everything together. So within this file, we have our node deployer, which again basically it does a lot of pretty cool things that it downloads the jar file from the Ergo GitHub.
+
+[20:52] **Arohbe**: You can pick the version that you want to use. You can modify the configuration as needed. You can start and stop the node if you want to adjust your configuration, which is part of the setup process. And again, you have the option between toggling between test net and main net.
+
+[21:12] **Arohbe**: There is a feature where you can add a snapshot. However, I was struggling with it. Again, I was using Testnet, so there was just some challenges in general, even when trying to sync from scratch. But there is an option here. You just need to drop your snapshot into the backend folder, the dashboard backend folder. You'll see a folder there for snapshots, and then that will automatically load it into the node, and your snapshot will be live.
+
+[21:45] **Arohbe**: Also within here is the mining software. So we'll just basically turn on and off the miner as noted. And then we have our GPU information tied in here that ties into the front end as well as our AI analyzer. And so we'll turn on the backend and again, just a simple command here in order to warning just cause we're using an experimental module, but it's working well. So no worries there.
+
+[22:20] **Arohbe**: All right. And then it says that we are running the server on the backend now. And then the last thing is just to turn on the react UI. We just use NPM start for that.
+
+[22:36] **Arohbe**: All right. We have built our front end. All right. So again, very simple UI. We have our mining dashboard. our node manager, our GPU monitor and our AI insights.
+
+[22:50] **Arohbe**: So what we'll do is we're going to go ahead and turn on our node. So I was previously running a node. You'll see I have it turned off because we had the backend turned off. So what we'll do is we'll go ahead and pick the version I was using. This is a live download from the GitHub, so it will always give you the latest versions, whether it's a pre-release or a stable version.
+
+[23:19] **Arohbe**: There is a just a generic configuration in here. Obviously, feel free to modify as needed. All right, we're going to go ahead and we're going to paste our configuration in here. sure we're on the right version or on the right network and you can switch to test that if you'd like and then we'll just simply deploy our node.
+
+[23:52] **Arohbe**: Now I just had this running so it will catch up pretty quickly and I'm not fully synced but again, we do have a log here. It's scrollable, which is nice. So if you have errors or issues, it's an issue of node data is very fast and rapid. So sometimes it can be hard to parse through. So this will just give you a little bit of a debugging tool.
+
+[24:17] **Arohbe**: If you're having challenges, setting up your node and then we give you the status there. And we do just have kind of simple checklists here of what you need to do once you get the node running. Again, you could stop the node as needed, edit your configuration, and then you just hit deploy to rerun it.
+
+[24:39] **Arohbe**: And then if you need more help, you can go to the Ergo Platform Official Documentation. All right, we'll flip over, see if our node is running. We are, we're connecting to some peers, getting up to height. So yeah, node is syncing.
+
+[24:58] **Arohbe**: All right, next we'll go to the mining dashboard. So again, in a very simple format. We'll go ahead here and we'll paste in our address, our worker name. And then you can save the configuration. If you look in the back end, this is just a simple configuration file. I think it's named config. Again, you can look in that. And again, if you need to modify it based on pool format, you can go ahead and do so as needed.
+
+[25:29] **Arohbe**: But this is set up again. We're set up hard-coded to connect to the Sigmanauts mining pool. And then what we'll do is we'll start Miner, and you'll see basically what you saw on the back end there. So yeah, that's that. Again, it's not live mining at this point. Again, we did turn off the share submission just so we're not spamming the pool and getting kicked off for the demo purpose.
+
+[25:58] **Arohbe**: More to come as we build this out. We have a live GPU monitor here. We're not utilizing it very much, so you'll see it will kind of just bounce up just based on what I'm displaying here. So not under full load. We did test under full load and it does work accordingly. It does give you live information. Again, I'm in idle mode, so my fans aren't even on. It's nice and cool, so no need to go there.
+
+[26:28] **Arohbe**: Power settings can be adjusted. Fan speed can be adjusted. I did have success with the 1080. I was having some other challenges just because it was an older GPU, so I did pull that out and throw my 3060 in here. But for whatever reason, Linux just has some challenges running it without X display. And that was just a whole other path that I just didn't want to go down and add further complication to the project.
+
+[26:59] **Arohbe**: So we did get the monitor working. We were able to make some setting adjustments to the GPU. And this can be built out further. And we do have access to overclock settings as well. But if we wanted to do anything a little bit deeper with the GPU. There's a whole series of settings available in the NVIDIA settings command as well as NVIDIA SMI.
+
+[27:31] **Arohbe**: And then last but not least our AI insights page. So right now this is just running off of really what's driving the data change is the adjustment and temperature utilization and power. There's a very limited data set right now. So it's just gonna throw a bunch of random numbers out there the more data that gets collected and analyzed the more accurate this may be but again with the variability in nonce just in general with proof-of-work mining and I don't think that that may be a direction to go in.
+
+[28:14] **Arohbe**: I think where the power of this tool could be is really just around some of your GPU settings. And again, going back to the original goal of the project, how can you kind of reduce overall utilization of your GPU and potentially mine a little bit more efficiently, just obviously with inflation. Deflation of proof-of-work mining coins, every little advantage that you can get in mining all the better.
+
+[28:49] **Arohbe**: All right. Well, I wanted to thank you for watching my presentation of Cortex. Something that I do again have a lot of passion behind and something that personally I think I'll continue to build out slowly. It's obviously something that requires resourcing and things of that nature.
+
+[29:12] **Arohbe**: But again, the code is free and open. It can be found on my GitHub, which I have the link here. We'd love any potential collaboration on how we could potentially expand on this project. Again, the purpose was for it to be community-driven and the more people that could get involved and potentially drive some different ideas and concepts and know-how in the mining space could potentially bring this project to life.
+
+[29:49] **Arohbe**: Thanks again. Take care.

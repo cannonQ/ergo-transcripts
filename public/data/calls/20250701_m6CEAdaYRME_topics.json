@@ -1,0 +1,248 @@
+{
+  "call_date": "2025-07-01",
+  "call_title": "Looking to the Future | Armeanio and Kushti | Ergoversary 2025",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Global Economic Problems and Ergo's Mission",
+      "category": "ecosystem",
+      "start_time": "00:14",
+      "end_time": "03:13",
+      "primary_speaker": "Armeanio",
+      "summary": "Discussion of global debt cycles, inflation, and declining economic freedom as motivation for building better money systems. Introduction to Ergo as an open source project exploring solutions for economic freedom and prosperity.",
+      "key_terms": [
+        "better money",
+        "economic freedom",
+        "inflation",
+        "surveillance",
+        "open money",
+        "debt spiral"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "ChainCash and Better Money Initiative Overview",
+      "category": "defi",
+      "start_time": "03:13",
+      "end_time": "10:13",
+      "primary_speaker": "kushti",
+      "summary": "Explanation of the better money initiative focusing on ChainCash as a foundation for blockchain-based digital free banking. Discussion of building trustless derivatives and algorithmic stablecoins to address real-world financial needs in underserved regions.",
+      "key_terms": [
+        "ChainCash",
+        "digital free banking",
+        "algorithmic stablecoins",
+        "trustless derivatives",
+        "real-world assets",
+        "RWA",
+        "tokenization"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Global Adoption and Real-World Use Cases",
+      "category": "ecosystem",
+      "start_time": "08:15",
+      "end_time": "11:17",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of partnerships with African nations, small cooperatives, and regions with hyperinflation or limited traditional finance access. Focus on providing better funding and trading solutions for international commerce.",
+      "key_terms": [
+        "African nations",
+        "cooperatives",
+        "hyperinflation",
+        "international trading",
+        "Lebanon",
+        "funding solutions"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Sub-blocks Implementation and Node 6.0 Release",
+      "category": "technical",
+      "start_time": "11:17",
+      "end_time": "17:08",
+      "primary_speaker": "kushti",
+      "summary": "Update on Node 6.0 release for miner voting and sub-blocks implementation. Discussion of high-performance proof-of-work protocols and how sub-blocks improve efficiency while maintaining backwards compatibility through soft forks.",
+      "key_terms": [
+        "sub-blocks",
+        "Node 6.0",
+        "soft fork",
+        "proof-of-work",
+        "backwards compatibility",
+        "miner voting",
+        "performance"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Community Splits and Hard Fork Risks",
+      "category": "governance",
+      "start_time": "17:08",
+      "end_time": "18:34",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of how hard forks can split communities, citing examples from NXT, Bitcoin block size wars, and potential future Bitcoin controversies. Emphasis on the importance of maintaining community cohesion through gradual updates.",
+      "key_terms": [
+        "hard forks",
+        "community splits",
+        "NXT",
+        "Bitcoin Cash",
+        "block size war",
+        "demurrage"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Merge-Mined Sidechains and Drive Chains Concept",
+      "category": "technical",
+      "start_time": "18:34",
+      "end_time": "26:36",
+      "primary_speaker": "Armeanio",
+      "summary": "Detailed discussion of merge-mined sidechains as a solution for increasing miner revenue and enabling innovation without touching main protocols. Comparison with Bitcoin drive chains and examples from Litecoin/Dogecoin merge mining.",
+      "key_terms": [
+        "merge mining",
+        "sidechains",
+        "drive chains",
+        "miner revenue",
+        "Litecoin",
+        "Dogecoin",
+        "trustless interoperability"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Double Merge-Mined Bitcoin-Ergo Sidechains",
+      "category": "bridges",
+      "start_time": "24:24",
+      "end_time": "29:31",
+      "primary_speaker": "kushti",
+      "summary": "Technical explanation of proposed double merge-mined sidechains between Bitcoin and Ergo, enabling trustless DeFi for Bitcoin with minimal trust assumptions. Discussion of two-way pegs and potential revenue for both Bitcoin and Ergo miners.",
+      "key_terms": [
+        "double merge mining",
+        "Bitcoin DeFi",
+        "two-way peg",
+        "trustless transfers",
+        "BIP 300301",
+        "drive chain"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Privacy-Focused Sidechains and Dark DeFi",
+      "category": "technical",
+      "start_time": "26:48",
+      "end_time": "28:43",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of privacy-oriented merge-mined sidechains inspired by Zephyr protocol, featuring private transfers, oracle pools, and dark DeFi capabilities with improved privacy features like FCMP from Monero.",
+      "key_terms": [
+        "dark DeFi",
+        "Zephyr",
+        "private transfers",
+        "oracle pools",
+        "FCMP",
+        "ErgoMixer",
+        "private contracts"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Cardano Partnership and Multi-Chain Validation",
+      "category": "bridges",
+      "start_time": "29:08",
+      "end_time": "29:52",
+      "primary_speaker": "kushti",
+      "summary": "Brief discussion of potential Ergo-Cardano partner chains where blocks would be validated by both Ergo miners and Cardano validators, enabling trustless interoperability between the two networks.",
+      "key_terms": [
+        "Cardano",
+        "partner chains",
+        "dual validation",
+        "trustless interoperability"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Sigma Chains and Hardware Utilization",
+      "category": "technical",
+      "start_time": "30:17",
+      "end_time": "35:09",
+      "primary_speaker": "kushti",
+      "summary": "Introduction of Sigma Chains concept for dedicated proof-of-work chains targeting different hardware classes. Discussion of utilizing untamed computing power from ASICs, GPUs, and outdated AI hardware while providing immediate liquidity through Rosen Bridge.",
+      "key_terms": [
+        "Sigma Chains",
+        "dedicated proof-of-work",
+        "untamed computing power",
+        "ASICs",
+        "GPUs",
+        "Rosen Bridge",
+        "spec mining"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Advanced Cryptography and Developer Experimentation",
+      "category": "technical",
+      "start_time": "34:13",
+      "end_time": "36:22",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of how sidechains enable experimentation with advanced sigma protocols and cryptographic features that aren't easily accessible through other blockchain platforms like EVM, providing developers new capabilities for innovation.",
+      "key_terms": [
+        "sigma protocols",
+        "contractual layer",
+        "EVM limitations",
+        "cryptographic features",
+        "developer experimentation"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Fair Distribution vs Rugpull Economy",
+      "category": "ecosystem",
+      "start_time": "38:39",
+      "end_time": "44:26",
+      "primary_speaker": "kushti",
+      "summary": "Critique of meme coin rugpulls and VC token dumps, contrasting with proof-of-work's natural fair distribution. Discussion of how merge-mined sidechains provide gradual, organic liquidity creation versus sudden token launches.",
+      "key_terms": [
+        "fair distribution",
+        "rugpulls",
+        "meme coins",
+        "VC tokens",
+        "proof-of-work",
+        "organic liquidity",
+        "gradual unlock"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Bitcoin's Original Ethos and Current State",
+      "category": "ecosystem",
+      "start_time": "44:26",
+      "end_time": "46:19",
+      "primary_speaker": "Armeanio",
+      "summary": "Reflection on how Bitcoin's original ethos of fair distribution and permissionless participation remains powerful, despite narrative-driven projects that don't enhance actual freedom. Discussion of the forgotten principles of early digital cash systems.",
+      "key_terms": [
+        "Bitcoin ethos",
+        "permissionless",
+        "fair distribution",
+        "KYC-free",
+        "Hal Finney",
+        "RPOW",
+        "HashCash"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "Development Timeline and Sub-blocks Deployment",
+      "category": "technical",
+      "start_time": "46:19",
+      "end_time": "49:05",
+      "primary_speaker": "kushti",
+      "summary": "Timeline update on sub-blocks implementation moving from DevNet to public testnet in July, and closing remarks about building better money systems to counter increasing global debt and surveillance.",
+      "key_terms": [
+        "DevNet",
+        "public testnet",
+        "July deployment",
+        "timeline",
+        "better money",
+        "economic surveillance"
+      ]
+    }
+  ]
+}

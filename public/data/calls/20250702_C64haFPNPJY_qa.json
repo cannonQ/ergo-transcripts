@@ -1,0 +1,103 @@
+{
+  "call_date": "2025-07-02",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:38",
+      "question": "What is SigmaFi and how does it work?",
+      "asker": "tmr.erg",
+      "answer": "SigmaFi offers peer-to-peer bonds built on the Ergo blockchain. It lets users create loan requests and somebody else can come along on the other side and fund that loan. All the terms are transparent - you can see what the collateral is, what the APR is going to be, and you can set the APR if you're making a loan request.",
+      "responder": "tmr.erg",
+      "category": "defi",
+      "difficulty": "beginner",
+      "related_terms": [
+        "SigmaFi",
+        "peer-to-peer",
+        "loans",
+        "collateral",
+        "APR"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "06:35",
+      "question": "What happens if a borrower doesn't repay their loan on SigmaFi?",
+      "asker": "tmr.erg",
+      "answer": "If the borrower does not repay their loan by the end of the timeline, it gives them a specific block they have to submit by. If they don't do that, then automatically it liquidates the collateral to make the lender whole again. It's autonomous code that executes automatically without intermediaries.",
+      "responder": "tmr.erg",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "liquidation",
+        "collateral",
+        "smart contracts",
+        "autonomous"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "08:57",
+      "question": "Why would someone pay high interest rates like 20% on SigmaFi?",
+      "asker": "tmr.erg",
+      "answer": "This is a way to get leverage on your ERG. The borrower is borrowing SigmaUSD to buy more ERG, betting that ERG will appreciate more than the 20% interest rate over the loan period. For example, if someone borrows 500 SigmaUSD to buy 600 ERG, they're betting that ERG will be worth enough in 9 months to cover the 20% interest.",
+      "responder": "tmr.erg",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "leverage",
+        "ERG",
+        "SigmaUSD",
+        "appreciation",
+        "speculation"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "09:38",
+      "question": "What are the risks for lenders on SigmaFi?",
+      "asker": "tmr.erg",
+      "answer": "The lender accepts a high rate like 20% which sounds great, but the real risk is that the collateral (like 1,000 ERG) could be worth less than the loan amount (500 SigmaUSD) if ERG price drops significantly. However, this is generally considered a much smaller risk profile compared to the borrower's risk, unless ERG puts in a new low.",
+      "responder": "tmr.erg",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "collateralization",
+        "risk management",
+        "volatility",
+        "liquidation"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "11:08",
+      "question": "How could miners benefit from using SigmaFi?",
+      "asker": "tmr.erg",
+      "answer": "Miners could put their ERG away as collateral instead of selling it immediately for electricity costs. By using SigmaFi, they can capture a 20% increase in their mining profits just by adding that delay, allowing them to hold their ERG longer while still accessing liquidity for operational expenses.",
+      "responder": "tmr.erg",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "mining",
+        "liquidity",
+        "operational costs",
+        "hodling"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "14:08",
+      "question": "What are the fees for using SigmaFi?",
+      "asker": "tmr.erg",
+      "answer": "The fee for loans is around $4 USD (4.5 SigmaUSD), which appears to be about 1% of the loan amount. This is significantly lower than traditional financial intermediaries, and you don't have to give anybody else a cut since it's peer-to-peer.",
+      "responder": "tmr.erg",
+      "category": "defi",
+      "difficulty": "beginner",
+      "related_terms": [
+        "fees",
+        "cost",
+        "peer-to-peer",
+        "SigmaUSD"
+      ]
+    }
+  ]
+}

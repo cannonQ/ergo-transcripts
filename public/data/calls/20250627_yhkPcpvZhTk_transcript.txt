@@ -1,0 +1,149 @@
+[00:00] SPEAKER_03: All right, let me see if I can see us online here.
+[00:02] SPEAKER_03: Test, test, test.
+[00:11] **qx()**: We are going bootleg here.
+[00:14] **qx()**: Yes, I think I see us right here.
+[00:16] **qx()**: Yep, I think we're online.
+[00:19] **qx()**: Yep, let me just post it.
+[00:21] **qx()**: All right, why don't you go back and talk about Dexy while I post these.
+
+[00:28] **kushti**: All right, so are we online?
+[00:30] **qx()**: Yep, we should be.
+[00:33] **kushti**: All right, so yeah, please check Dexy. It should be considered as a funny financial game at this point, like, I don't know, maybe HODL coin. But yeah, well, also sometimes you can get quick profit from arbitrage, right?
+
+[00:58] **qx()**: Who made Crystal Pools? Can you talk about that? What does that exactly do?
+[01:04] **kushti**: C8. So Crystal Pool is a DEX aggregator. So you can work with many liquidity pools, SigmaUSD Bank, Dexy Bank from the single application. And yeah, that's quite a cool idea, I think.
+
+[01:24] SPEAKER_03: So that means, so it's kind of like Dex Hunter, those kinds of things where it finds the best price for you.
+[01:32] **kushti**: But here you also can interact with many applications from one UI. I don't know much about Dex Hunter, so these days I'm using Ergo DeFi. I don't know much about Dex Hunter, all that stuff. Yeah, well, Crystal Pool is quite cool. It's still raw, but it's getting better and better.
+
+[02:08] **kushti**: So, yeah, well, and the plan is to update Oracle Pool to version 2, use the Oracle Pool and then launch Gluon USD, so Bruno. Bruno, Bruno. Such plan. And then DexyUSD, yeah, so probably around September or something like that, because we need for some time to update the Oracle Pool first and the testnet. Then in the mainnet and so on so it takes some time but some weeks even. But then yeah, we can have DexyUSD so it would be good also to find some liquidity providers right now. Yeah, so also going to work on that.
+
+[03:09] **kushti**: And then, yeah, so with all those things, so Rosen is also going to bring some USD stables from Ethereum. Decentralized ones, uncensorable, let's say. So, yeah, would be quite good. And then, yeah, we need stable to stable pools. So if you can do such stuff, it's the right time to do.
+
+[03:43] **qx()**: All right, I think I saved all the questions from before the internet toasting. So should we start hitting those? I'll read them to you since you can't see them. Sound good?
+[03:57] **kushti**: Yep. So, let's, but maybe you have some news from your side.
+[04:03] SPEAKER_03: Some what?
+[04:06] **kushti**: News from your side.
+[04:07] **qx()**: Oh, you're right. I totally forgot. Yeah. Yeah, guys. So there's something cool that we're going to, the info team is going to be doing. And when I say info team, I mean, me and kushti and OnVR in the chat.
+
+[04:25] **qx()**: So the idea is that we have currently, we have a main Ergo platform website, right? That's Ergo docs. We have Sigma verse, but we have the main Ergo platform website where Athena's hosted that kind of stuff. And we have the Explorer, which is ergoplatform.org.
+
+[04:52] **qx()**: So how that works is that goes to a load balancer in Cloudflare. And that actually goes to three separate servers that are running on a hosted platform that is paid for by the EF, right? So in interest of, you know, we all know the EF doesn't have an endless budget. They're not going to be around forever. So in the interest of actually taking that burden off, paying for that infrastructure, we're going to try something different.
+
+[05:21] **qx()**: And what that means is we've already, I've already started building three new nodes on 6.1. I built them on 5.13 the other day, and I just updated them to 6.1, which is the rocks database, which loves SSDs nice and fast. Once that is done, I'm going to overlay Explorer on top of them as well, which is GraphQL API, as well as the web-based Explorer that you're used to seeing. Once that's settled and working well, I am going to add those all to the load balancer. And then slowly, we'll start removing the hosted ones from it.
+
+[06:03] **qx()**: And now you may be saying, okay, QX, what's the difference between you hosting three nodes, you know, an internet place with, you know, same similar uptime as Hetzner or wherever they're hosted, if they're still the same place, still the same provider. Well, that's where this comes into play.
+
+[06:18] **qx()**: So what I'm going to do is I'm going to put two or three of these machines that I'm using to host - they're 16 gigabyte RAM, i7, one terabyte hard drives with about 5,000 megabytes read write speed on the NVMe. So they're really fast. They should be able to be very suitable for this. I'm going to put them on MewMart. If you guys aren't familiar with MewMart, I'm going to talk to HQ if he's listening now. I'm going to only allow a certain token to be able to buy it.
+
+[06:49] **qx()**: And then I'm going to decide who gets those, depending on your interest and your internet availability, your internet connection, your static IP, your somewhat limited amount of dev knowledge. You don't have to be a dev, but you have to be able to be able to jump into Docker and TMUX and run nodes and explorers. And the idea is that we want to spread three or four of these puppies around the globe. And we're going to add those as well to the load balancer so that Cloudflare will see the three machines that I have, and then they will see the three machines or four machines spread around the globe.
+
+[07:25] **qx()**: So then we'll have a load balance of five, six machines spread around the globe. So if all three of mine go down, then we still have those three or four hosting the same Explorer experience for you guys. So that's on top of Nautilus putting direct IPs into these rollovers for the API and the GraphQL and the Explorer.
+
+[07:47] **qx()**: So you'll hit one link, explorer.ergoplatform, which will go to my ones. It'll go to these three or four or five locally hosted by these people who have good internet connections that volunteer to do it. And will be much more of a decentralized kind of central node hosting, if you want to call it. Everybody wants to go to the main Explorer kind of thing. So we're going to be able to do that. Let's do that decentralized manner, and let's not have it rely on funding from the EF. We'll have it rely on volunteers that want to do it themselves, which I think is ethos of Ergo.
+
+[08:20] **qx()**: So we're probably about a month away from maybe a full switch over for that. But keep an eye out. If you're interested in running an explorer slash node that's official and through the load balancer, give me a buzz. We'll talk about it. Maybe I'll hand you a token if I approve and you'll be able to get that swapped out on MewMart for the shipping fee as well added to that depending on where you are. Great, so I think that's cool, kushti. We finally get off that kind of thing and get to fully, even though it's an official explorer.ergoplatform, we can still target community nodes and community load balancers. So I think that'll be cool.
+
+[09:00] **kushti**: Yeah, sounds good. Would be happy to participate.
+[09:04] **qx()**: Oh, great. Right, right, right. You got one too. Fantastic. That'll be great.
+
+[09:11] **qx()**: All right. Let's jump on the questions.
+[09:16] **qx()**: So we've got Mathis Bori. He's saying, I think he's saying, he's still trying to figure out Ergo adds new stuff so quickly. I guess he's trying to figure out how Ergo adds stuff so quickly. Well, I can speak from my own experience that the tooling here on Ergo is absolutely fantastic for the most part to be able to dive in at different levels, whether I want to use a full SDK in Scala, or I want to go into something much easier like Python.
+
+[09:51] **qx()**: Or there's even, if Paul's watching too, he's tried to bring the app kit over to C sharp, I believe it was as well. So there's lots of different options for interacting with chain. And not only that, but the end points are so easy to use. You can spin up a node really fast yourself, do a full index node, and if the API endpoints aren't in that full index node that you need, you can rely on Explorer or you can say, screw it, we're just going to interact directly with a Postgres database that Explorer is keeping on top of the index nodes.
+
+[10:32] **qx()**: So I've done both. It's very easy to interact with that kind of thing. So at least from a dev standpoint, that's a huge turn on for that. But kushti can speak more to how he's so fast at dropping node updates all the time, as well as, you know, sub-block integrations and cool stuff that you announce every so often.
+
+[10:52] **kushti**: Yeah, well, actually, it would be good to have more contributors to move faster because I think it's possible. So, yeah, well, I think it's about community, right? So, well, a lot of developers, a lot of independent efforts. Well, we need FOMO. I think, well, what do we have now? Structure-wise, it's quite friendly to scale it up. So, yeah, let's move faster. Like, hypersonic speed. Why not?
+
+[11:41] **qx()**: Let me see if I can bring up text here, kushti. I think I can put questions on the screen makeshift-wise.
+
+[12:08] **kushti**: Hi, kushti.
+[12:30] SPEAKER_00: Alice project.
+[12:34] **kushti**: So, just the title and, yeah, I've put it into the reading list, so, yeah, I guess I can provide some comments before Monday, yeah, so, yeah, it's in the reading list. But, yeah, well, still need to read it fully, right, but, yeah, well, I think, well, at least from the title, the first page a bit. Yeah, well, why not? So I think it's time to think about starting to build something like that.
+
+[13:31] **kushti**: But yeah, well, I can provide maybe comments on the forum. Let's see, actually. Yeah, we will have anniversary AMA, right? So I can provide some thoughts there, if not on the forum before, because, well, next days are busy. But yeah, well, anniversary AMA is also good.
+
+[14:00] **qx()**: And by the way, what time for AMA is it said, you know, if Joe's coming, maybe it'll be maybe it'll be an hour later. We'll see.
+[14:11] **kushti**: One hour is okay.
+[14:13] **qx()**: One hour is okay for you. So maybe two PM UTC. Let's do two PM UTC for AMA on the 1st of July, the kickoff of the anniversary.
+[14:24] **kushti**: Yeah, sounds good.
+
+[14:25] **kushti**: And this Aletheia protocol, yeah, so I found it over Twitter yesterday. So yeah, well, I didn't have time to check in details, but yeah, well, we'll do in the next few days. Very cool. All right. So yeah, so many. And it seems it's some new author also writes some. I don't know, maybe some anonymous guy, some new account in the GitHub also. I don't know. Let's see. Interesting.
+
+[15:07] **qx()**: All right. Let's see. We got another question, kushti. How can a privacy chain still aggregate statistics like Gini coefficient, allowing users to evaluate the market without sacrificing TX and wallet balance privacy? That's a question from Ursa Minor 2010.
+
+[15:28] **kushti**: Yeah, but this is, I guess, nearly impossible, right? So if you want to have some Gini coefficient for private chain where every balance is private. I know, I mean theoretically there could be solutions for like MPC, but practically not. Really not, because yeah, you don't have participants which are willing to participate in such a procedure, right? Probably. It's not quite realistic to bring them into this MPC protocol, multi-party computation protocol. That's what I can think about.
+
+[16:19] **kushti**: You can also have, I don't know, some centralized party gathering statistics and participants sending some zero-knowledge proofs without revealing all the data. Yeah, it's also probably not very realistic setting, right? Because if you have, for example, the richest wallet in the ecosystem, probably you wouldn't trust all this ZK, blah, blah, blah, and the centralized party gathering statistics anyway, right? So, well, theoretically, it's possible maybe, but practically, I'm pretty sure not quite.
+
+[17:11] **qx()**: All right, let's see what else we have, kushti. We have, this is from our buddy Aco. He wants to say, can you give a little teaser about your call you'll be having with Midnight? What's it about? Ooh, I miss this. What's this talk about?
+
+[17:28] **kushti**: Oh, so it's from some, not so public chat maybe, but yeah. There will be some call in coming days, but yeah, about what is it about? So there is some plan, right, but it's probably quite obvious. Well, there is interest from both sides, right? So for Ergo side, we are quite interested in privacy, right, in regards with maybe kind of private side chain, right, to have some private contracts, right? So the idea is that you can transfer ERGs and then have some private contract. But then, yeah, well, there is some interest from Midnight side in regards with proof of work aspects and so on. So let's see what can we do together.
+
+[18:52] **qx()**: Well, is that like, are you talking about like integrating or like, I remember Charles said on Twitter at one point, when somebody asked him, he's like, oh, Ergo can just become a partner chain. And that's how Ergo can be integrated with Midnight at some point. Is that what you're speaking about?
+
+[19:14] **kushti**: Yeah, well, in regards to the partner chain, so I made a tweet yesterday that, yeah, you can actually do some options like a merge mined side chain of Ergo, which is a partner chain of Cardano, right, and well, another option is double merge mined sidechain, for example, merge mined sidechain of both Bitcoin and Ergo. To, yeah, well, use Ergo as a kind of smart layer of Bitcoin with less trust assumptions, right, if there is support for some Bitcoin.
+
+[19:56] **qx()**: So, how does that work if we are dumping like the full chain from Cardano onto into Ergo blocks on a side chain? Are we just like dumping hashes or proofs that calculate out to whatever the result is on the other chain? How does that kind of work?
+
+[20:15] **kushti**: Yeah, so it's about reusing validators from Cardano, right? And yeah, for this, there is no need to know about the state of the chain, I guess, because they have some protocols for light clients, right? I forgot the name. And yeah, it probably can be reused. I guess that's the plan in the context of Cardano sidechains as well, right? Which is actually quite interesting because for most proof of stake chains, well, there are no such techniques, even to the best of my knowledge. So, yeah, well, then, yeah, it's quite interesting, right? And, well, then, yeah, you can do some interesting things also, right, when you have consensus from both Cardano validators and subset of Cardano validators and subset of Ergo miners.
+
+[21:28] **qx()**: So you say, but that's not going to technically make Cardano any more secure, adding proof of work that way, right? Because we're still relying on the proof-of-stake validation techniques in Cardano. We're just writing it to our chain, no?
+
+[21:42] **kushti**: Yeah, so for sidechain, yeah, it's just for sidechain concerns, right? But yeah, well, you will have somewhat better security budget, right, for both chains, Cardano and Ergo, because of merge mined side chain. Yeah, it would make consensus more secure for both sides.
+
+[22:18] **kushti**: Yeah, this is actually quite interesting direction to discover, I guess.
+
+[22:25] **qx()**: All right, there's another question for you, kushti. kushti, when are we going to see you in a more relaxed podcast, more to hear about the story of Ergo? I think people want to see you. Ace Pickle says, kushti on Rogan. Maybe they want to see you smoking a fat joint, kushti, and just talking with squinty eyes.
+
+[22:49] **kushti**: All right. So yeah, about history of Ergo. I don't know. So maybe I need to write down some things first. Because, well, the history is not quite known, probably, right? Many actors are now quite forgotten. Some are not alive, unfortunately, even, right? Like Alex. Skalakhan.
+
+[23:20] **kushti**: Yeah, so, well, actually, it was mostly about engineers, right? Like, doing something and dreaming about something. So, well, it wasn't probably... So, even Monero, for example, was different, right? So, well, in this regard, it could be comparable with Bitcoin early days, very early days. Bitcoin of 2009, right, when there were only engineers, there were no marketing folks. Like Ergo before 2020. And then, yeah, well, somehow we got, well, some people doing marketing, enthusiasts, and yeah, well, all the community we have now.
+
+[24:43] **kushti**: So yeah, that's quite amazing. Because usually, these days, it's quite opposite, right? So first, you get marketing folks, funding, all the hype. And then somehow, maybe you hire engineers who actually in most cases, hate the jobs they're doing. Quite opposite story.
+
+[25:17] **qx()**: All right, let's see. We got another question, kushti, banging these out. Another one from Ursa Minor trying to get a grasp on things like Midnight. Can privacy stablecoin exist on a Sigma chain with proof of reserves and collateral on Ergo? They're just trying to understand how people trust privacy chains like Midnight.
+
+[25:34] **kushti**: Yeah, so recently discussed with Bruno stuff like that, like privacy stable coin, right? So there is a private instantiation of a djed protocol called Zephyr. I don't know. So I think that they got into some issues at some point because of some bugs. And so on, so yeah, I wouldn't recommend to use it without research and so on, because yeah, I don't actually know much about it.
+
+[26:13] **kushti**: But yeah, so from what I know, so it's some fork of Monero, but with djed, basically SigmaUSD with some modifications implemented in the core of the chain, right, and for stuff like that, definitely it's better to just build, I don't know, some private side chain, right, and bring SigmaUSD, so, well, transparently-ish and already known stablecoin, right, or Dexy, Gluon, whatever to this chain, right, and then enjoy, well, privacy there, right? It would be simpler and more secure option.
+
+[27:14] **qx()**: All right. Let's see what else we got, kushti, we've got...
+[27:17] **kushti**: One more question, maybe. Time to run? Or do you have to run?
+[27:23] **qx()**: I've got a minute or two. Byron says, if kushti smokes, I'll buy another 1,000 ERG next week. Guys, we want a good 6.01 node. We don't want security vulnerabilities in the node next time.
+
+[27:44] **qx()**: All right, let's see, we got, oh yeah, we've got this. Byron also asks, any updates on the meetup plan? It's funny you should say that. The meetup planning for Ergo. It's funny you should say that. We just had a Sunday meeting last week where we kind of mostly finalized the schedule and I threw it in chat. Joe and I went over it pretty hard, and then I threw it in the main segment of the chat and asked for feedback. And I don't think there are many changes.
+
+[28:20] **qx()**: So later today, expect the meetup schedule and speakers and how it's going to stream to everybody on Twitter, as well as the GitHub and the Google signup link. You'll see that if you're interested in coming and doing a meetup with us, then please come out to sunny Colorado Springs. I don't think the hotels are too pricey. I did a lot of looking at Airbnb and it's weird Colorado Springs is the only place I've seen where there's going to be some good speakers and a live hackathon, a good hike at Garden of the Gods, and you'll meet people in person that you just see in chats kind of thing.
+
+[29:42] **qx()**: So great, looking forward to that. kushti, you promised once July rolls around, you're going to go to the consulate and see if you can get here, right?
+[29:49] **kushti**: Yeah, so probably. Yeah, around July 2nd to 10th. Yeah, it will be known.
+
+[30:04] **qx()**: Yeah. Oh, here's a good one from Mark the Shark. I don't think you've ever seen this before, what it looks like, what changes he did. I think there are minimal changes to the node. But what would happen if Cheese started just putting storage rent stuff into the actual official node?
+
+[30:25] **kushti**: Yeah, well, I don't know how I haven't seen.
+[30:29] **qx()**: Yeah, I'll talk to Cheese about that. That's a great idea, Mark. Let's have Cheese see what it's like and maybe he can put some pull requests in the official node, kushti. Is that something you'd be willing to consider?
+
+[30:42] **kushti**: Yeah, let's see. So I need to check modifications.
+[30:48] **qx()**: As long as it doesn't break anything else, right? That'd be nice and easy. Because the way that the SIGs pool are running it is we run a modified node, we run a modified mining core. And we run the storage rent application itself, which is a script.
+
+[31:08] **qx()**: So we run three things at the SIGs mining pool. Most big pools are most likely not running mining core. They're probably just running stratum, so their own version kind of thing. So they'll only need the modified node and the storage rent kind of thing, like Herominers, I doubt runs mining core. Yeah, so putting the node just like turnkey would be amazing if Cheese could integrate his code into the official releases. Then we could just continue to stay up to date with the nodes and mining pools could as well. And there'd be nothing we'd have to really do separately or wait for a sub release of that once like 6.0 or 6.1 came out.
+
+[31:49] **qx()**: Awesome. All right, great. Well, Mark suggest that to Cheese. Ping him. Ping him, Mark. Ping him now. Let's see, one more question we've got here, unless they keep coming. Here we go, kushti. It is from Byron. What were the thoughts behind twin coins, and is that something still in the works down the line? Maybe Armeanio?
+
+[32:13] **kushti**: Twincoin. Twincoin was a paper I've done along with Professor Hong Shengzhou from Virginia Commonwealth University. It's actually a little bit theoretical result, so to make it practical, we need to modify it. Basically, the idea is to have one proof-of-stake block after one proof-of-work block, such a block structure and yeah, to make it practical, I believe we need to do more so it would be like, I don't know, sub-blocks, but proof of stake based sub-blocks, basically, right?
+
+[33:11] **kushti**: So you generate, well, blocks via proof of work and then yeah, via proof of stake, you decide who will generate sub-blocks in between blocks. Something like that, but then, yeah, well, the whole security analysis needs to be redone. And yeah, well, so the main motivation was to show some security against 50 plus percent attack, which is actually achieved. But yeah, well, aside of that, the protocol proposed is not very practical, not very efficient.
+
+[34:12] **kushti**: No, because you're using another resource, right, so you use proof-of-work along with proof-of-stake, so you need to have both, right, not just proof-of-work in order to write a chain suffix. So yeah, then it actually provides better security. But yeah, well, again, to make it practical, there is need for more efficient construction.
+
+[34:45] **kushti**: So yeah, well, maybe there is a need for such a chain, but yeah, I think currently there are more actual requests, rights, demands, options to implement. Well, even, for example, a private stablecoin, right? So, well, it would be more appealing probably because, well, currently, well, in regards with consensus, there are a lot of options implemented, but, yeah, I think, well, for real-world adoption, so you need for a little bit different things maybe in the first place at this point.
+
+[36:15] **qx()**: I said that, what's it called? Thanks for joining everybody. Sorry about the downtime. I said that's a beauty of Ergo and the decentralized nature, even on things like this where Andy's connection, who's the broadcaster all the time, goes down, there's the ability for somebody else. Like I just had to push a couple buttons and set us up in OBS and we're live again. It's hard to kill the voice of Ergo or the Ergo stream or the Ergo blockchain at all. So super, super cool that we can just keep on cranking this stuff out no matter what.
+
+[37:01] **qx()**: All right, kushti, any last words?
+[37:04] **kushti**: All right, all right. So see you, everyone, around Ergoversary. And yeah, busy days, but that's quite ordinary state, right, of things. See you around Ergoversary. So the summer is hot. And yeah, well, after the really hot season...
+
+[37:29] **qx()**: Yeah, put those mining rigs in the basements, guys. Don't have them up on your main floor.
+[37:34] **kushti**: Yeah, well, keep in touch.

@@ -1,0 +1,35 @@
+{
+  "call_date": "2025-07-03",
+  "call_title": "The Four states of a UTXO transaction | c8 | Ergoversary 2025",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "00:25",
+      "decision": "For seamless user experience, we need at least four transaction states instead of two",
+      "speaker": "AI",
+      "context": "Classic approach of only unconfirmed and confirmed states is not enough for good UX",
+      "topic": "technical",
+      "significance": "major",
+      "quote": "For a seamless user experience, this is not enough. We need at least four."
+    }
+  ],
+  "commitments": [],
+  "open_questions": [],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "00:46",
+      "fact": "Transactions are included in blocks two to four minutes after entering the mempool",
+      "speaker": "AI",
+      "topic": "technical"
+    },
+    {
+      "id": 2,
+      "timestamp": "01:05",
+      "fact": "Transactions pass through three stages in positive case: prepared, in mempool, confirmed",
+      "speaker": "AI",
+      "topic": "technical"
+    }
+  ]
+}

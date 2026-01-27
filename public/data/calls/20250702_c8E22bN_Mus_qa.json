@@ -1,0 +1,100 @@
+{
+  "call_date": "2025-07-02",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "00:29",
+      "question": "How does Beene's proof of funding platform work?",
+      "asker": "implicit",
+      "answer": "Beene enables any project to receive funding from the community and automatically distributes proof of funding tokens to contributors in real time. These tokens serve as contribution accounting tokens, providing proof of who contributed and how much to each project.",
+      "responder": "Josemi",
+      "category": "defi",
+      "difficulty": "beginner",
+      "related_terms": [
+        "proof of funding",
+        "tokens",
+        "crowdfunding"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "00:59",
+      "question": "What parameters do project owners need to set when creating a funding vault on Beene?",
+      "asker": "implicit",
+      "answer": "Project owners create a funding vault and define the funding token (for example, ERG), a minimum funding goal, a deadline, the proof of funding token to distribute, and a rate of how many proof tokens are given per funding token. Once created, they can also add or remove reward tokens.",
+      "responder": "Josemi",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "funding vault",
+        "ERG",
+        "tokenomics",
+        "rewards"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "01:54",
+      "question": "What happens when contributors fund a project on Beene?",
+      "asker": "implicit",
+      "answer": "Contributors can deposit any amount of funding tokens and they immediately receive proof of funding token vouchers that represent their proof of funding tokens. If the funding goal is reached, contributors can exchange their vouchers with the same amount of funding tokens, and if the goal isn't reached by the deadline, contributors can return their vouchers and recover their contributions.",
+      "responder": "Josemi",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "vouchers",
+        "funding tokens",
+        "refund mechanism"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "03:06",
+      "question": "Can you provide a real-world example of how Beene was used?",
+      "asker": "implicit",
+      "answer": "Beene was used to raise funds for Gluon Gold where the team needed 5,000 ERG to develop an SDK. A vault was created with a goal of 5,000 ERGs at a rate of one Gluon per ERG and a two-week deadline. Once the goal was met, contributors had already received their Gluons and the project owner could immediately access the funds.",
+      "responder": "Josemi",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Gluon Gold",
+        "SDK",
+        "ERG",
+        "funding goal"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "08:20",
+      "question": "How is the Beene implementation on Ergo architected?",
+      "asker": "implicit",
+      "answer": "The Beene on Ergo implementation is a web app that runs with observers only in the browser and connects directly to the Ergo blockchain. This makes it slower but more fault tolerant. The project is open source and available on GitHub.",
+      "responder": "Josemi",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "web app",
+        "observers",
+        "blockchain",
+        "open source"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "06:15",
+      "question": "What are the different use cases for Beene platform?",
+      "asker": "implicit",
+      "answer": "Beene can be used for donations where proof tokens represent support to a cause, crowdfunding where proof tokens can be exchanged for goods later, startup funding by selling tokens at a fixed price, event tickets where proof tokens act as tickets with minimum/maximum capacity, and collaborative projects or benefactions where labor and capital are both rewarded equally with contribution accounting tokens.",
+      "responder": "Josemi",
+      "category": "defi",
+      "difficulty": "beginner",
+      "related_terms": [
+        "donations",
+        "crowdfunding",
+        "startup funding",
+        "event tickets",
+        "collaborative projects"
+      ]
+    }
+  ]
+}

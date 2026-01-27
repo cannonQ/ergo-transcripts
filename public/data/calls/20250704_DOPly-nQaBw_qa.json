@@ -1,0 +1,197 @@
+{
+  "call_date": "2025-07-04",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "00:34",
+      "question": "What is Rosen Bridge and what makes it different from other bridges?",
+      "asker": "tmr.erg",
+      "answer": "Rosen is an interchange protocol between different blockchain endpoints that provides hardened access controlled by the community rather than external partners. Unlike other bridges, it gives the Ergo community control over interoperability without being subject to third-party terms and conditions that could lead to delisting or access restrictions.",
+      "responder": "Armeanio",
+      "category": "bridges",
+      "difficulty": "beginner",
+      "related_terms": [
+        "interoperability",
+        "permissionless",
+        "community-controlled"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "04:38",
+      "question": "What is technically different about Rosen that makes it more secure than other bridges that frequently get hacked?",
+      "asker": "tmr.erg",
+      "answer": "Rosen was designed with a first principles approach to understand why bridges fail. It avoids nonlinear scaling assumptions where attack vectors grow faster than one-to-one when adding endpoints. Instead of mint/burn mechanisms, Rosen uses lock/unlock with vaults and a dual-layer multi-sig system with watchers who audit and report to smart contracts before execution.",
+      "responder": "Armeanio",
+      "category": "bridges",
+      "difficulty": "advanced",
+      "related_terms": [
+        "security",
+        "vaults",
+        "watchers",
+        "multi-sig"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "07:54",
+      "question": "How does Rosen's dual-layer consensus mechanism work?",
+      "asker": "tmr.erg",
+      "answer": "Rosen has watchers (auditors) who constantly scan endpoints and report events to a smart contract on Ergo that creates the first layer of consensus. This creates 'pre-truth' - knowing what should happen before execution, rather than learning something is wrong after it happens. It's similar to clearance and settlement in traditional banking with separate auditing and execution processes.",
+      "responder": "Armeanio",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "consensus",
+        "watchers",
+        "pre-truth",
+        "clearance",
+        "settlement"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "09:12",
+      "question": "How does Rosen incentivize participation and create a sustainable economic model?",
+      "asker": "tmr.erg",
+      "answer": "Rosen leverages decentralized profit distribution where watchers earn from bridge transactions, creating a community that's incentivized and profits from growth. This is like 'mining interchange' where hundreds of participants are economically motivated to maintain the system, rather than just paying external parties for access.",
+      "responder": "Armeanio",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "profit-distribution",
+        "watchers",
+        "incentives",
+        "community"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "12:46",
+      "question": "Why does Rosen use RS-ERG naming instead of just wrapping as ERG?",
+      "asker": "tmr.erg",
+      "answer": "The RS-ERG naming is intentional to let users know there is additional security complexity. Rather than hiding security complexities until problems occur, Rosen makes everything transparent - it's open source, public facing, and anyone can join if willing to handle economic friction to prevent spam.",
+      "responder": "Armeanio",
+      "category": "bridges",
+      "difficulty": "beginner",
+      "related_terms": [
+        "wrapped-tokens",
+        "transparency",
+        "security",
+        "open-source"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "14:34",
+      "question": "Why is Rosen slow by design and how might speed be addressed in the future?",
+      "asker": "tmr.erg",
+      "answer": "Rosen is slow by design because faster transactions mean less security - finality in proof of work depends on block confirmations. Future speed improvements could be built around (not within) Rosen using liquidity providers who assume risk for premium fees, similar to how banking offers faster transfers for higher costs, while keeping core security assumptions unchanged.",
+      "responder": "Armeanio",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "finality",
+        "security",
+        "liquidity-providers",
+        "layer-two"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "17:15",
+      "question": "What is the core rule in Rosen's bridge design regarding asset management?",
+      "asker": "tmr.erg",
+      "answer": "The base rule is to not rehypothecate assets - keep everything one-to-one in a way that's transparent and auditable where any user can verify holdings. This avoids the economic security complexity seen in bridges like THORChain that introduced DeFi mechanics within the bridge itself.",
+      "responder": "Armeanio",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "rehypothecation",
+        "one-to-one",
+        "transparency",
+        "auditability"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "18:24",
+      "question": "What is Rosen's competitive advantage and long-term strategy for blockchain integrations?",
+      "asker": "tmr.erg",
+      "answer": "Rosen's natural advantage is being designed to work across non-compatible environments, unlike many bridges that focus on EVM compatibility. The strategy is to connect technically rich but underserved proof-of-work projects like Nervos, Alephium, and Kaspa that face similar market access friction points, creating a richer ecosystem with more technical depth.",
+      "responder": "Armeanio",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "non-compatible",
+        "proof-of-work",
+        "market-access",
+        "technical-depth"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "25:20",
+      "question": "What wallet integrations are planned for Rosen in 2025?",
+      "asker": "tmr.erg",
+      "answer": "The goal is to create an SDK allowing wallets to integrate Rosen directly into their interface, making bridging simpler by happening from a single UI rather than bouncing between websites and wallet extensions. This includes Ergo ecosystem wallets first, then expanding to external partners like Cardano wallets and eventually consumer-facing wallets like Coinbase wallet and Phantom wallet.",
+      "responder": "Armeanio",
+      "category": "wallet",
+      "difficulty": "beginner",
+      "related_terms": [
+        "SDK",
+        "wallet-integration",
+        "user-experience",
+        "consumer-wallets"
+      ]
+    },
+    {
+      "qa_id": 10,
+      "timestamp": "28:27",
+      "question": "How much ERG is currently secured by Rosen Bridge?",
+      "asker": "tmr.erg",
+      "answer": "Currently about 3 million ERG is on the bridge, making Rosen one of the largest exchanges in simple terms. This represents a significant cost savings compared to traditional exchange listings and creates a market that's no longer beholden to regulations or third-party risk assumptions, secured by hundreds of community watchers.",
+      "responder": "Armeanio",
+      "category": "bridges",
+      "difficulty": "beginner",
+      "related_terms": [
+        "liquidity",
+        "exchange-alternative",
+        "community-security",
+        "cost-savings"
+      ]
+    },
+    {
+      "qa_id": 11,
+      "timestamp": "32:42",
+      "question": "How does Rosen Bridge benefit Ergo miners through its design?",
+      "asker": "tmr.erg",
+      "answer": "Every Rosen transaction pays Ergo miners twice due to storage rent. When creating the initial threshold report, it pays miners immediately and creates a box with ERG that lives on Ergo for about four years, then gets cleaned up and pays miners again. This leverages Ergo's unique storage rent feature for ongoing miner compensation.",
+      "responder": "Armeanio",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "storage-rent",
+        "miner-compensation",
+        "transaction-fees",
+        "long-term-incentives"
+      ]
+    },
+    {
+      "qa_id": 12,
+      "timestamp": "35:38",
+      "question": "What blockchain integrations are coming next for Rosen Bridge?",
+      "asker": "tmr.erg",
+      "answer": "DogeChain integration is in development stages and should be live in about two weeks after end-to-end testing. This will come with documentation that should make it straightforward for Bitcoin forks like Bitcoin Cash, Litecoin, Flux, and Namecoin to integrate. A personal goal is also to integrate Monero as a stress test of the system's resilience.",
+      "responder": "Armeanio",
+      "category": "bridges",
+      "difficulty": "beginner",
+      "related_terms": [
+        "DogeChain",
+        "Bitcoin-forks",
+        "Monero",
+        "integration-roadmap"
+      ]
+    }
+  ]
+}

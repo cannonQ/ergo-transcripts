@@ -1,0 +1,144 @@
+{
+  "call_date": "2025-06-27",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:04",
+      "question": "What is Crystal Pools and what does it do?",
+      "asker": "qx()",
+      "answer": "Crystal Pool is a DEX aggregator created by C8. You can work with many liquidity pools, SigmaUSD Bank, and Dexy Bank from a single application. It allows you to interact with many applications from one UI, similar to finding best prices but with broader functionality.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "beginner",
+      "related_terms": [
+        "DEX",
+        "aggregator",
+        "liquidity pools",
+        "SigmaUSD",
+        "Dexy"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "02:08",
+      "question": "What's the roadmap for Oracle Pool v2 and DexyUSD launch?",
+      "asker": "implied context",
+      "answer": "The plan is to update Oracle Pool to version 2, use the Oracle Pool and then launch Gluon USD. Then DexyUSD, probably around September, because we need time to update the Oracle Pool first on testnet, then mainnet. It takes some weeks but then we can have DexyUSD.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Oracle Pool",
+        "DexyUSD",
+        "Gluon USD",
+        "testnet",
+        "mainnet"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "05:21",
+      "question": "What is the plan for decentralizing Ergo's Explorer infrastructure?",
+      "asker": "qx() explanation",
+      "answer": "The plan is to move away from EF-funded hosted servers to a decentralized model. QX is building new nodes on 6.1 with Explorer overlay, then distributing physical machines globally through MewMart to qualified volunteers. This creates a load-balanced network of 5-6 machines worldwide, making the Explorer infrastructure community-run rather than EF-dependent.",
+      "responder": "qx()",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Explorer",
+        "decentralization",
+        "load balancer",
+        "GraphQL",
+        "infrastructure"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "15:28",
+      "question": "How can a privacy chain aggregate statistics like Gini coefficient while maintaining transaction and wallet balance privacy?",
+      "asker": "Ursa Minor 2010",
+      "answer": "This is nearly impossible practically. Theoretically there could be solutions using multi-party computation (MPC), but you don't have participants willing to participate in such procedures. You could have a centralized party gathering statistics with zero-knowledge proofs, but that's not realistic - rich wallet holders wouldn't trust the ZK setup and centralized party.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "privacy",
+        "Gini coefficient",
+        "MPC",
+        "zero-knowledge proofs",
+        "statistics"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "17:28",
+      "question": "What can you share about the upcoming call with Midnight?",
+      "asker": "Aco",
+      "answer": "There's interest from both sides. For Ergo, we're interested in privacy aspects - maybe a private sidechain to have private contracts where you can transfer ERGs and have private contracts. From Midnight side, there's interest in proof of work aspects. We'll see what we can do together.",
+      "responder": "kushti",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Midnight",
+        "privacy",
+        "sidechain",
+        "proof of work",
+        "private contracts"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "19:14",
+      "question": "How would Ergo work as a partner chain with Cardano?",
+      "asker": "qx()",
+      "answer": "You can do a merge-mined sidechain of Ergo which is a partner chain of Cardano. Another option is a double merge-mined sidechain of both Bitcoin and Ergo, to use Ergo as a smart layer of Bitcoin with less trust assumptions. This reuses validators from Cardano and their light client protocols.",
+      "responder": "kushti",
+      "category": "bridges",
+      "difficulty": "advanced",
+      "related_terms": [
+        "partner chain",
+        "merge mining",
+        "sidechain",
+        "Cardano",
+        "Bitcoin",
+        "validators"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "25:34",
+      "question": "Can privacy stablecoins exist on Sigma chain with proof of reserves and collateral on Ergo?",
+      "asker": "Ursa Minor 2010",
+      "answer": "There's a private version of djed protocol called Zephyr, but I wouldn't recommend using it without research due to bugs. It's better to build a private sidechain and bring SigmaUSD (a transparently known stablecoin) or Dexy/Gluon to this chain and enjoy privacy there. This would be a simpler and more secure option.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "privacy",
+        "stablecoin",
+        "djed",
+        "SigmaUSD",
+        "sidechain",
+        "collateral"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "32:13",
+      "question": "What were the thoughts behind twin coins protocol and is it still being developed?",
+      "asker": "Byron",
+      "answer": "Twincoin was a paper with Professor Hong Shengzhou showing one proof-of-stake block after one proof-of-work block structure. The idea provides security against 50+ percent attacks by using both PoW and PoS resources. However, the protocol isn't very practical or efficient. To make it practical, we'd need something like PoS-based sub-blocks between PoW blocks, requiring new security analysis.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "twin coins",
+        "proof of work",
+        "proof of stake",
+        "sub-blocks",
+        "consensus",
+        "security"
+      ]
+    }
+  ]
+}

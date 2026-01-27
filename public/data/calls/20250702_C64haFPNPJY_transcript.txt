@@ -1,0 +1,181 @@
+[00:13] **tmr.erg**: Hey everybody, Timur here coming to you solo today.
+
+[00:17] **tmr.erg**: I am making a quick video for you to contribute to this Ergo Summit so that you're going to see a collection of videos that are focusing on some of the prominent applications on Ergo and I get the honor of presenting to you what I think is one of our cornerstone applications.
+
+[00:39] **tmr.erg**: This is something that not only is functional, but it really exemplifies what I think Ergo is all about.
+
+[00:48] **tmr.erg**: It's totally peer to peer, there's no intermediary, it's open source.
+
+[00:55] **tmr.erg**: Yeah, and it's one of these things that just, you can very easily picture yourself using it and needing it in the real world.
+
+[01:05] **tmr.erg**: So picture this, imagine you wanted to borrow some money from somebody right and okay maybe you have some collateral and you want to show this person that you are trustworthy, right?
+
+[01:22] **tmr.erg**: So you're willing to put up some collateral. But how do you do that? Do you need a middleman? Do you need to talk to a bank, like a broker, something like that?
+
+[01:32] **tmr.erg**: No, we're going to do it on the blockchain. And I'm going to show you SigmaFi right now.
+
+[01:38] **tmr.erg**: SigmaFi offers peer-to-peer bonds. So it's built on the Ergo blockchain.
+
+[01:48] **tmr.erg**: And it lets users create loan requests and somebody else can come along on the other side of that and fund that loan.
+
+[01:55] **tmr.erg**: And all the terms are transparent. So you can really see what's going on. And you can see what the collateral is.
+
+[02:03] **tmr.erg**: You can see what the APR is going to be. You can set the APR if you're making a loan request.
+
+[02:11] **tmr.erg**: So let's dig in. I'll share my screen with you. And you can see what SigmaFi is all about.
+
+[02:18] **tmr.erg**: All right, so whenever you open up SigmaFi, this is important. This is not terms and conditions to click accept, right? Because then you're gonna become a human centipede.
+
+[02:33] **tmr.erg**: Read your assumptions, know your assumptions, and you can check. You can look in GitHub and see what all this stuff is. And if you don't understand, you can talk to the people in the community about how it works and how to evaluate this, okay?
+
+[02:46] **tmr.erg**: So every time you see this, don't just click past it, but think about it. OK, yes, I'm taking responsibility for this bearer asset that I have.
+
+[02:55] **tmr.erg**: And so I know that I'm using the product at my own risk, and I'm responsible for what happens.
+
+[03:03] **tmr.erg**: OK, so this is our dashboard here. And these are all the active loan requests.
+
+[03:10] **tmr.erg**: To clean things up, they have hidden the undercollateralized requests. I'll explain what all this means in just a moment.
+
+[03:19] **tmr.erg**: But you can see here there's not a ton. And I think it's because the demand for SigmaUSD is just really high.
+
+[03:29] **tmr.erg**: You have pretty high APR coming from duck pools and things like that.
+
+[03:37] **tmr.erg**: And given the current market, it's a little tough to come across SigmaUSD given the reserve ratio is a little bit low.
+
+[03:43] **tmr.erg**: But, so pretty much, if you want to make a loan request, you can click this button here, and you're going to be able to say, or ask for, you're going to ask for, let's say you want 500 SigmaUSD, and then you're going to put up collateral, what you choose.
+
+[04:09] **tmr.erg**: And so again, that's why some of these are under collateralized, because people are choosing to put up nothing or maybe an NFT that doesn't have a strict market value.
+
+[04:23] **tmr.erg**: So that would be up to you as the potential lender in this case. But this is a borrower created loan request.
+
+[04:30] **tmr.erg**: So they're going to put up 1,000 ERG. And they're asking to borrow this for nine months.
+
+[04:39] **tmr.erg**: They are stating that they're going to pay 20% interest. So this APR is like an annualized rate.
+
+[04:46] **tmr.erg**: So if this were 12 months, it would actually be 27%. So that's way better than your bank, I'll tell you that.
+
+[04:56] **tmr.erg**: You can look at the borrower's address, and you could probably look up their history and see if they have a bunch of successfully repaid loans.
+
+[05:09] **tmr.erg**: All it really is is you looking at these terms and agreeing to fulfill that. So you would send 500 SigmaUSD to this contract.
+
+[05:21] **tmr.erg**: Then you would, in nine months, receive your 500 USD plus 20%. So that's 100. So you would receive 600 SigmaUSD equivalent.
+
+[05:37] **tmr.erg**: I believe that's just coming straight out of his collateral.
+
+[05:42] **tmr.erg**: And so why would somebody want to do this? I think there's a couple of ways of asking that question.
+
+[05:52] **tmr.erg**: Why does somebody want to use SigmaFi? First, that's really because this is like a vending machine.
+
+[06:02] **tmr.erg**: It is autonomous code that's been published, and there's no intermediary. It is like an automatic machine on the internet.
+
+[06:11] **tmr.erg**: And when somebody puts their money in it, it makes this request and somebody else comes and puts their side of the loan.
+
+[06:18] **tmr.erg**: It is handled really clean and it executes automatically.
+
+[06:23] **tmr.erg**: So if this person does not repay their loan by the end of this nine month timeline, it actually gives them a block. Yeah, it actually gives them a block that they have to submit by.
+
+[06:35] **tmr.erg**: If it does not do that, then automatically it liquidates this collateral to make the user whole again.
+
+[06:45] **tmr.erg**: So like, super clean, fair, I think. I think just personally, I've had these interactions and loaned people money you didn't get back, and there was no way to enforce it without ruining your friendship or something like that.
+
+[07:04] **tmr.erg**: And I know I keep using the word clean, but that's how it feels.
+
+[07:07] **tmr.erg**: Okay. I also think the why of this, the borrower creates the request, all right?
+
+[07:19] **tmr.erg**: So it's really, and so that keeps away this attitude of loan sharking. You see these rates, these are high because no one's going to fulfill it.
+
+[07:35] **tmr.erg**: So it's kind of like a natural market for this rate rather than it's like the lenders are the only people who are setting the rate and it would be way higher than this because there's no competition.
+
+[07:51] **tmr.erg**: This way it kind of empowers the person who needs the money to kind of say what they need and put up the collateral that they can put up.
+
+[07:58] **tmr.erg**: So if somebody really needed it, maybe they would put a bunch of collateral, like more, to kind of show like, hey, this is a super secure 200% backed loan, something like that.
+
+[08:13] **tmr.erg**: Otherwise, you have these where it's 106%. I'm not going to do that, because ERG is volatile.
+
+[08:23] **tmr.erg**: If ERG drops another 6%, maybe I'm not getting my SigmaUSD back.
+
+[08:32] **tmr.erg**: So that's why I want to use this program, because everything is so transparent and it's just very, very clear.
+
+[08:39] **tmr.erg**: And then there's also the why about why would a borrower do this? Why is somebody paying 20%? That seems really high. That's like credit card rates, right?
+
+[08:57] **tmr.erg**: Let me tell you what they're doing. So this is a way to get leverage on your ERG.
+
+[09:03] **tmr.erg**: So he is borrowing 500 SigmaUSD. Right now, he's going to be able to buy about 600 ERG with that.
+
+[09:13] **tmr.erg**: And this is a bet that in nine months, that 600 ERG is going to appreciate more than 20%.
+
+[09:21] **tmr.erg**: So he's pretty much saying if ERG is worth a dollar or more in nine months, then he's going to come out ahead.
+
+[09:34] **tmr.erg**: So that is a bet. This guy's making a bet.
+
+[09:38] **tmr.erg**: On the other side, they're kind of also making a bet, but it's much less risky. So the lender in this case is accepting an exceptional rate at 20%.
+
+[09:51] **tmr.erg**: So pretty much no matter what, they're going to earn 20% or 1,000 ERG, which sounds really great.
+
+[10:00] **tmr.erg**: The real risk here for them is that the 1,000 ERG in this collateral is worth less than the 500 SigmaUSD.
+
+[10:12] **tmr.erg**: So that is just a very different risk profile, in my opinion, a much smaller one.
+
+[10:17] **tmr.erg**: Unless ERG puts in a new low, I mean, the last time it was this low was like 2020 or 2021.
+
+[10:28] **tmr.erg**: Unless that happens, they're going to get totally burned. This guy could get more burned.
+
+[10:36] **tmr.erg**: If ERG is kind of in the middle there, he has to make that decision. Am I going to pay back this loan, or am I just going to let it get liquidated?
+
+[10:44] **tmr.erg**: He could not be able to pay back the loan. Depends on how responsible they are.
+
+[10:53] **tmr.erg**: Yeah, so it's really just a risk management tool.
+
+[10:58] **tmr.erg**: And I really think that this is something that will be used at some point, like by miners.
+
+[11:08] **tmr.erg**: Like, okay, you're mining this. If you can get to that point where you can put this away, you can put your ERG away instead of selling for your electricity.
+
+[11:18] **tmr.erg**: You can really capture a 20% increase in your mining profits just by adding that delay.
+
+[11:26] **tmr.erg**: Same goes for duck pools. I would love to see duck pools being used more.
+
+[11:31] **tmr.erg**: Sometimes duck pools is nicer because it's a little more liquid. You can always get in and out.
+
+[11:35] **tmr.erg**: This is a little bit nicer because you have some fixed APR and often high APR. Look at this guy.
+
+[11:48] **tmr.erg**: Okay, yeah, so I just big shout out because I know that this is simple and effective and really kind of elegant.
+
+[12:00] **tmr.erg**: Something that I struggle to understand is why it isn't super popular.
+
+[12:05] **tmr.erg**: Like, okay, there's only six of these loan requests that are over collateralized. There's a ton that are under-collateralized.
+
+[12:14] **tmr.erg**: And that just happens because, again, people use things that don't have price feeds or a price, or they just did some token and they don't accept their dosage or collateral, please.
+
+[12:31] **tmr.erg**: You get it. But we can come over here and look at active bonds.
+
+[12:36] **tmr.erg**: There's actually several, more than several.
+
+[12:42] **tmr.erg**: Yeah, I just appreciate it. I think a lot of these folks were smart.
+
+[12:48] **tmr.erg**: I mean, especially those of you who did it. Six months ago, 18 months ago, when ERG was pretty high, you cashed out, you secured some profit in SigmaUSD, and then you lent it out, and then you're earning an extra 20% or whatever that might have been.
+
+[13:09] **tmr.erg**: The details of your loan are just kind of individualized.
+
+[13:14] **tmr.erg**: So I really encourage people to check this out. It's just a sound financial tool.
+
+[13:20] **tmr.erg**: I remember being really young, my parents were teaching me about CDs, certificate of deposit.
+
+[13:32] **tmr.erg**: And they wanted me to put my money in to an account that would earn, I think it was like 6%.
+
+[13:41] **tmr.erg**: And I just had a job mowing lawns and stuff. And so it was like a couple hundred bucks.
+
+[13:46] **tmr.erg**: And I just thought, I was like, you want me to do this for $6? Like, I'm not gonna do that.
+
+[13:52] **tmr.erg**: Well, this is a different game. And now we have the tools to kind of be independent.
+
+[13:58] **tmr.erg**: And you don't have to give anybody a cut. I already closed it. But I don't know if you saw there. The fee for a bunch of these loans was like $4.
+
+[14:08] **tmr.erg**: OK, like that's really nothing. USD, 4.5 SigmaUSD.
+
+[14:19] **tmr.erg**: I think it's like 1%. Might be 1% of the loan amount. So think about that. It's way less than your realtor, I'll tell you that.
+
+[14:33] **tmr.erg**: So head to sigmafy.app, play around, check it out.
+
+[14:38] **tmr.erg**: Put your loan request in there if you're trying to go long and fulfill some of these open ones if you're trying to secure those profits and just lock in that APR.
+
+[14:47] **tmr.erg**: All right, I'll see you guys around.

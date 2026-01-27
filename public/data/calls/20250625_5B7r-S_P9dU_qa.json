@@ -1,0 +1,101 @@
+{
+  "call_date": "2025-06-25",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "00:51",
+      "question": "How often are blocks mined on Ergo and what is the maximum block size?",
+      "asker": "implicit",
+      "answer": "On Ergo, blocks are mined approximately every two minutes. The maximum size of an Ergo block is two megabytes, which determines how many transactions can fit in each block.",
+      "responder": "2ndTLMining",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "block_mining",
+        "block_size",
+        "transaction_capacity"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "01:45",
+      "question": "What components make up the total block reward for miners on Ergo?",
+      "asker": "implicit",
+      "answer": "The total reward consists of two parts: the block subsidy (which is currently about 15 ERG at this point in time) and transaction fees from all transactions included in the block. Currently, transaction fees don't amount to much for miners, but they're part of the total reward.",
+      "responder": "2ndTLMining",
+      "category": "mining",
+      "difficulty": "beginner",
+      "related_terms": [
+        "block_reward",
+        "mining",
+        "transaction_fees",
+        "subsidy"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "03:09",
+      "question": "What is the mempool and what does it show?",
+      "asker": "implicit",
+      "answer": "The mempool shows transactions that people have submitted that are yet to be put into the blockchain or on the ledger. These transactions are sort of in limbo until they get picked up by miners and included in a block.",
+      "responder": "2ndTLMining",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "mempool",
+        "unconfirmed_transactions",
+        "blockchain",
+        "mining"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "06:33",
+      "question": "How does wallet integration work with Ergo dApps?",
+      "asker": "implicit",
+      "answer": "The application uses Nautilus wallet integration through the dApp connector. You can connect your wallet to interact with the blockchain, create and sign transactions directly from the web application. The integration allows you to send test transactions and donations while visualizing them in the mempool.",
+      "responder": "2ndTLMining",
+      "category": "wallet",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "nautilus",
+        "dapp_connector",
+        "wallet_integration",
+        "transaction_signing"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "15:01",
+      "question": "What tools and resources are available for Ergo dApp development?",
+      "asker": "implicit",
+      "answer": "Key resources include the dApp connector for wallet integration (found in Ergo documentation), the FleetSDK for various blockchain interactions, and practical guides from community developers showing how to build transactions. The Ergo documentation provides APIs for blockchain data, and there are examples showing UTXO handling and transaction building.",
+      "responder": "2ndTLMining",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "dapp_connector",
+        "fleet_sdk",
+        "ergo_documentation",
+        "apis",
+        "utxo"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "16:14",
+      "question": "What's important to understand about building transactions on Ergo?",
+      "asker": "implicit",
+      "answer": "Building transactions on Ergo requires understanding UTXO handling - specifically which boxes you should be using and which not. There are practical guides available that show exactly how to build transactions so they get picked up by the network, which is crucial for successful transaction submission.",
+      "responder": "2ndTLMining",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "utxo",
+        "transaction_building",
+        "boxes",
+        "ergo_transactions"
+      ]
+    }
+  ]
+}

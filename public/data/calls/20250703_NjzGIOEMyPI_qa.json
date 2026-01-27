@@ -1,0 +1,68 @@
+{
+  "call_date": "2025-07-03",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "00:20",
+      "question": "What are the typical transaction states in a proof-of-work UTXO chain and why are they insufficient for good user experience?",
+      "asker": "AI",
+      "answer": "In the classic approach, there are only two transaction states: unconfirmed and confirmed. For a seamless user experience, this is not enough - we need at least four states to properly inform users about what's happening with their transactions.",
+      "responder": "AI",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "UTXO",
+        "proof-of-work",
+        "transaction states",
+        "user experience"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "00:58",
+      "question": "What are the four transaction states needed for optimal user experience in Ergo?",
+      "asker": "AI",
+      "answer": "In the positive case, a transaction passes through three stages: prepared, in mempool, and confirmed. There's also a fourth state - cancelled - which can occur at various points when something goes wrong with the transaction.",
+      "responder": "AI",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "transaction states",
+        "mempool",
+        "user experience",
+        "Ergo"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "01:05",
+      "question": "What happens during the 'prepared' transaction state?",
+      "asker": "AI",
+      "answer": "The 'prepared' status is what the user should see immediately after pressing the swap button, before the transaction is actually sent. This provides immediate feedback with a visual indicator (double blink and bar loader) to show the user that their action was registered.",
+      "responder": "AI",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "transaction states",
+        "user interface",
+        "prepared state"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "01:43",
+      "question": "What are the different scenarios where a transaction can be cancelled?",
+      "asker": "AI",
+      "answer": "There are five scenarios: 1) User cancels in wallet, 2) Transaction rejected by mempool, 3) Transaction replaced by another with higher fee, 4) Input box becomes invalid while in mempool, and 5) Block reorganization occurs after confirmation. All cancellations show a shake animation with red highlighting and cross icon.",
+      "responder": "AI",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "transaction cancellation",
+        "mempool",
+        "block reorganization",
+        "fees"
+      ]
+    }
+  ]
+}

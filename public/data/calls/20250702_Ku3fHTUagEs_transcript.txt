@@ -1,0 +1,657 @@
+[00:16] SPEAKER_06: Happy birthday, Ergo.
+[00:18] SPEAKER_06: Happy birthday, Ergo.
+[00:20] **kushti**: Yeah, cheers to the happy anniversary.
+[00:24] **kushti**: Everyone, happy anniversary.
+[00:26] **qx()**: We've made it to six years old, kushti, Joe.
+[00:29] **qx()**: Six years.
+[00:30] **qx()**: That's quite a feat in this industry.
+[00:34] **Armeanio**: Yeah, still baby.
+[00:37] **qx()**: It sure is.
+[00:37] **qx()**: Still a lot of crawling to do.
+[00:39] **qx()**: Yeah.
+[00:40] **kushti**: Yeah.
+[00:41] **kushti**: So, well, when Bitcoin was six, for example, I worked with it.
+[00:46] **kushti**: So yeah, it was exactly 2015.
+[00:48] **kushti**: And yeah, well, I think it was more raw even in regards with multi-sig support.
+[00:55] **kushti**: Oh, for sure.
+[00:56] **kushti**: Yeah.
+[00:57] **kushti**: So yeah, well, I spent a lot of time trying to do some multi-sig with the script.
+[01:10] **kushti**: So to discover that there is some bug in Bitcoin script, which I need to replicate after all.
+[01:21] **kushti**: So, yeah, well, hopefully it's less messy here, at least from my observations.
+
+[01:31] **qx()**: Oh, nice.
+[01:33] **qx()**: So what's everybody got planned today?
+[01:35] **qx()**: I know we have a cake coming, not on the first, but our lab is going to make us a cake on the fourth.
+[01:41] **qx()**: We've made the payment and he's got to go into, I think he said he goes into the city or something and gets a cake and brings it back.
+[01:51] **qx()**: Takes a picture and then donates it to the homeless or the hungry or the unhoused.
+[01:56] **qx()**: However, you say that word and across the globe.
+[02:00] **qx()**: So we got that picture coming.
+[02:01] **qx()**: You guys gonna drink yourself silly in celebration?
+[02:05] **qx()**: Maybe you can do some drunk coding, kushti.
+[02:07] **kushti**: So I had two coffees today.
+[02:10] **kushti**: How about you, Joe?
+
+[02:17] **Armeanio**: I'll get ready for the release.
+[02:21] **Armeanio**: I'm going to update some packages, test it.
+[02:26] **Armeanio**: Let's see.
+[02:27] **Armeanio**: I was hoping to get it out today, but we had something we needed to chase down in a dependency on Ethereum with their latest hard fork.
+[02:38] **Armeanio**: So that's been coordinating, updating.
+[02:42] **Armeanio**: Looks good now.
+
+[02:44] **qx()**: Joe, it looks like you've spent a lot of time making some promotional videos that are pretty nice.
+[02:48] **Armeanio**: Yeah, I did this weekend.
+[02:50] **Armeanio**: I was messing around with the video LLM with the Doge and you know what I learned is the most important thing for whatever reason was that I needed to be quite clear that the Doge needed to have paws when it did the activities.
+[03:07] **Armeanio**: Otherwise, it grew these weird human-ish hands and earned some credits.
+[03:14] **Armeanio**: But yeah, I played around with that.
+[03:15] **Armeanio**: I got some subscriptions.
+[03:17] **Armeanio**: So I guess I'll be the generative video editor for a little bit.
+[03:24] **Armeanio**: Well, for Ergo.
+
+[03:29] **qx()**: Yeah.
+[03:29] **qx()**: Nice.
+[03:31] **qx()**: Well, let's focus right on what you have for Ergo up your sleeve, kushti.
+[03:38] **qx()**: You have some announcements about sub-blocks testing going on that we can excite the crowd with.
+[03:43] **kushti**: Yeah, so there is sub-blocks DevNet update which is doing quite well at the moment and yesterday I did some load testing even and it was quite good after all, after some fixes.
+[04:01] **kushti**: So yeah, please feel free to join and help with testing so I can provide some load testing.
+[04:10] **kushti**: Scripts as well, which are doing transactions every second from your wallet.
+[04:23] **kushti**: More news in regards with Ergo Network.
+[04:32] **kushti**: Well, this week we will have maybe a voting for 6.0 has been started, as well as emission reduction, another one.
+[04:48] **kushti**: And, yeah, well, this emission reduction would be more aggressive again.
+[04:55] **kushti**: Like, every emission reduction is more aggressive than the previous one.
+[05:00] **kushti**: So, yeah, well, a lot of things going on despite summer.
+[05:06] **kushti**: So, yeah, take a look.
+[05:12] **kushti**: It's always fun to check what's going on around, I guess.
+
+[05:19] **qx()**: kushti, do you have a message in chat where people can spin up DevNet to help out with sub-blocks testing?
+[05:27] **kushti**: You can find some details how to join the network in the developer's chat.
+[05:37] **kushti**: It requires some knowledge, like building and running a node against the latest commit in a specific branch.
+[05:48] **kushti**: It's doable for many people still, I think.
+[05:54] **kushti**: And then, yeah, well, maybe we can start building current jobs and do more in the coming weeks.
+[06:07] **kushti**: So I think, yeah, well, we are pretty much on track in regards with starting injecting sub-blocks, supporting mining nodes into the public test nets from somewhat July, maybe like 15th to 25th, something like that.
+
+[06:32] **qx()**: That's exciting.
+[06:33] **qx()**: I know speedy transactions seem to be the thing that gets people excited.
+[06:47] **qx()**: So it's amazing that Ergo is versatile enough to be like, hey, yeah, let's build this into 6.0 and we'll do some testing.
+[06:55] **qx()**: And sure, you want faster blocks?
+[06:57] **qx()**: We'll make faster blocks in this way and still keep the network secure.
+[07:01] **qx()**: So I think that's amazing.
+
+[07:05] **qx()**: Dan, what do you want, Dan?
+[07:07] **qx()**: What's the deal with the bracelet?
+[07:08] **Dan Friedman**: What is that?
+[07:10] **qx()**: This bracelet?
+[07:11] **qx()**: Or this bracelet?
+[07:12] **qx()**: Or this bracelet?
+[07:13] **Dan Friedman**: You have a little Arts and Crafts name bracelet?
+[07:17] **qx()**: Did you make that in the Arts and Crafts class?
+[07:21] **qx()**: This is Cartier.
+[07:22] **qx()**: This is from my wife.
+[07:24] **qx()**: And these two were made by my child that I wear.
+[07:28] **Dan Friedman**: Are you sure they weren't made by you?
+[07:31] **qx()**: What's that?
+[07:31] **qx()**: Yes, I do.
+[07:34] **qx()**: I sit down cross-legged and I pull out the Taylor Swift bead box and I make the Taylor Swift friendship bracelets.
+[07:41] **Dan Friedman**: Now that sounds more like the truth.
+[07:46] **Dan Friedman**: Is it supposed to be like your own chain stuff?
+[07:50] **qx()**: Yes, you've got it exactly.
+[07:52] **Dan Friedman**: That's so lame.
+[07:53] **Dan Friedman**: That is just so lame.
+[07:54] **qx()**: Happy birthday, Dan.
+[07:55] **qx()**: Happy Ergo birthday.
+
+[07:57] **qx()**: Dan, when did you join Ergo?
+[07:59] **qx()**: When did you hear about it?
+[08:00] **qx()**: Did you know kushti back when he was at IOHK or did you join after that?
+[08:03] **Dan Friedman**: Of course I've known kushti since like what, like 2016?
+[08:09] **Dan Friedman**: Beginning of 2016.
+[08:11] **Dan Friedman**: We have pre Ergo.
+[08:13] **kushti**: Yeah, the first time actually I met was 2017, yes 17 maybe yeah but we've already worked on Ergo back then since autumn 2016, yeah like October, yeah we presented initial ideas so well in some inner circle so yeah basically IOHK folks.
+[08:39] **kushti**: And then I started to invite more people from late 16, early 17, something like that.
+
+[08:52] **Dan Friedman**: Well, so, yeah, so the first time I actually, well, I spoke to Alex in meetings.
+[09:00] **Dan Friedman**: But the first time I actually ran into him, actually became aware of his existence on this planet, this human called Alex, was he was in a series of really, really early IOHK research videos.
+[09:18] **Dan Friedman**: So they made these videos with a handful of researchers working back then and Alex was obviously one of the first ones.
+[09:27] **Dan Friedman**: And so he was in the video and he had like really long hair and yeah, there's some video.
+[09:32] **Dan Friedman**: Yeah, like the first, the first Ergo video is basically the same haircut.
+[09:36] **Dan Friedman**: I think he was talking about RSCoin or something like that.
+[09:42] **Dan Friedman**: Anyway, that was the first time I saw him.
+
+[09:48] **Dan Friedman**: Then we were in meetings, and then the first time I met him was in Malta in 2017, in the spring of 2017.
+[09:56] **Dan Friedman**: Charles gave him his favorite book.
+[10:01] **Dan Friedman**: It was the Good Soldier Schweik.
+[10:04] **kushti**: Yeah, the first English translation, I believe, from Czech.
+[10:13] **kushti**: It's like from 1980, 1928.
+[10:23] **Dan Friedman**: I was there.
+[10:25] **Dan Friedman**: Alex got the first official translation of his favorite book from Charles.
+[10:33] **Dan Friedman**: I was in the room.
+[10:35] **Dan Friedman**: I don't know if I should feel like I was part of history or not, but that's basically when it happened.
+[10:42] **qx()**: By proximity, Dan, by proximity.
+[10:45] **Dan Friedman**: I just, it reminds me of this one time when I was at this like tea place and I was in line with Tony Shalhoub and Matt LeBlanc and they actually met each other in line in front of me.
+[10:57] **Dan Friedman**: And I'm just like, hi, and I am Dan.
+[10:59] **Dan Friedman**: I'm not on TV or in the movies, but I am here.
+[11:02] **Dan Friedman**: And so exactly the same thing.
+[11:05] **Dan Friedman**: I am Dan.
+[11:06] **Dan Friedman**: I'm not in blockchain stuff that you do or blockchain stuff that you do Alex but I'm here and it was nice and that's the story end of story.
+
+[11:32] **qx()**: That is very touching, Dan. What about you Joe, where'd you come along?
+[11:32] **Armeanio**: I've kind of been around. I would say even when Alex was building DenXT, I was at least watching that because programmable money was like super interesting, but I wasn't a fan of Proof of Stake.
+[11:40] **Armeanio**: I was more into mining.
+
+[11:47] **Dan Friedman**: That's cool.
+[11:47] **Dan Friedman**: Yeah, I remember, I think I told you this story when Ergo just launched.
+[11:53] **Dan Friedman**: So I was, in the beginning of all the Cardano IOHK stuff, they were still like, they really were, they were always really focused on development.
+[12:04] **Dan Friedman**: So research and development.
+[12:06] **Dan Friedman**: So that was like the main, like the big thing from the very start, they're really focused on research.
+[12:10] **Dan Friedman**: So that's why Alex was in play.
+[12:14] **Dan Friedman**: That's why Aggelos then came in.
+[12:17] **Dan Friedman**: Mario, all these guys that have been there for a long time, Oleg, all these guys.
+[12:25] **Dan Friedman**: Actually, a lot of them are still there.
+
+[12:30] **Dan Friedman**: After I got done with project managing and before Mainnet, after Mainnet, I switched gears and I started doing more business development.
+[12:38] **Dan Friedman**: I started project management in the company because before that, it was just like clans.
+[12:46] **Dan Friedman**: It wasn't actual project teams.
+[12:51] **Dan Friedman**: After that, I switched over to business development.
+[12:54] **Dan Friedman**: So when we started business development, we're kind of looking for different opportunities to generate income.
+[13:01] **Dan Friedman**: And so one of the first ones that was brought to me, or to us, by Charles actually, was back in 2019 to set up a mining rig for Ergo.
+[13:13] **Dan Friedman**: I think they actually did end up setting it up, but I remember that was like the first, one of the first things that came across my desk in 2019, right after launch.
+[13:27] **Dan Friedman**: But yeah, it was just, they were like, yeah, we have to set up a mining operation for Ergo, it's Alex's blockchain, he just launched it.
+[13:36] **Dan Friedman**: So that was the first time I was directly plugged in into the whole thing.
+[13:45] **Dan Friedman**: It was always from the business side of it.
+
+[13:50] **Dan Friedman**: So, oh, and Joe, nice to see you and your nice couch.
+[13:55] **Dan Friedman**: Once again, it's been a long time.
+[13:57] **Armeanio**: Yeah, it's good to be back.
+[14:01] **Dan Friedman**: Yeah, well, it's good.
+[14:02] **Dan Friedman**: Where's the crock pot?
+[14:03] **Dan Friedman**: You always had that crock pot behind you.
+[14:06] **Armeanio**: I don't know.
+[14:07] **Armeanio**: I think it's outside on the stove.
+[14:09] **Dan Friedman**: Okay, I got worried a little bit but okay if it's there, okay, so like a Dutch oven or a crock pot?
+[14:20] **Armeanio**: No, that's like this stone thing you cook food in.
+[14:20] **Dan Friedman**: Yeah, nice stone that says that that's a technical term for it.
+
+[14:28] **qx()**: All right.
+[14:28] **qx()**: Well, we got the hits, we got a history of Ergo.
+[14:30] **qx()**: All right.
+[14:30] **qx()**: So what are we looking for for the future boys?
+[14:33] **qx()**: What are you guys excited about?
+[14:35] **Armeanio**: Yeah, I look at it as kind of a natural progression.
+[14:38] **Armeanio**: We launched Mainnet.
+[14:40] **Armeanio**: The first step out was the ErgoMixer, which privacy.
+[14:44] **Armeanio**: Then we started playing around with native assets.
+[14:50] **Armeanio**: Auction House came out.
+[14:51] **Armeanio**: Then we started playing with programmability in terms of like SigmaUSD and DEXes and,
+[15:01] **Armeanio**: I think that's matured quite a bit in terms of what's possible to build on top of Ergo.
+[15:07] **Armeanio**: A lot of our tooling has gotten a lot better through time.
+[15:13] **Armeanio**: So I think the best next step is just to get faster, get more decentralized in terms of the hash rate.
+[15:21] **Armeanio**: Hopefully we see some layer twos that pop up.
+[15:25] **Armeanio**: There's a lot of good designs out there in the UTXO space.
+[15:30] **Armeanio**: Just keep chugging along.
+
+[15:33] **Dan Friedman**: Actually, you just reminded me.
+[15:34] **Dan Friedman**: I think that we spoke about this in one of the AMAs a while back, but Alex, didn't you actually at first say that you didn't think it was possible to have auctions on Ergo and then somebody did it and surprised you?
+[15:51] **Dan Friedman**: Am I getting that right?
+[15:52] **kushti**: Right, so yeah, in just like few days, yeah, contracts were presented.
+[15:59] **kushti**: It's reflected on the forum, actually.
+[16:02] **kushti**: There is some old topic from like autumn 2019, so yeah.
+[16:09] **kushti**: So yeah, it's quite surprising what's possible.
+[16:15] **kushti**: So I think, well, at this point, it's better to avoid breaking the protocol.
+[16:26] **kushti**: Well, there are always a lot of proposals to do.
+[16:33] **kushti**: Yes, but yeah, I think it's better to move gradually and always try to do things in a soft-forkable fashion, so not rejecting the old nodes so that they have the right to validate the network.
+[16:55] **kushti**: In most cases, it's always worth to have old validators.
+[17:04] **kushti**: So then, yeah, well, we can do like hundreds of different things in regards with optimizations and building around.
+[17:15] **kushti**: So, well, actually, the work on merge mined sidechains already started, so we'll provide some details in the coming days.
+[17:27] **kushti**: But, yeah, well, the coding already been started.
+[17:36] **kushti**: Some coding design specs and so on.
+
+[17:41] **Armeanio**: Yeah, I think backwards compatibility is underappreciated.
+[17:47] **Armeanio**: Please don't rug the devs.
+[17:50] **qx()**: I mean, it's both good and helpful at the same time.
+[17:54] **qx()**: Look at Microsoft and their legacy code.
+[17:57] **qx()**: They're a huge juggernaut, but they're still providing.
+[18:01] **qx()**: I can spin up a 16-bit app with some compatibility there in the latest Windows from back in the day, and it works just fine.
+[18:11] **qx()**: There's something to be said about that, that's for sure.
+[18:13] **qx()**: And I mean, certainly they're not short of innovations.
+[18:17] **qx()**: I wouldn't say that Windows versus Apple, just because Apple prunes all their devs even.
+[18:24] **qx()**: Apple's famous for rug pulls on devs.
+[18:27] **qx()**: A new OS comes out and, oh, this doesn't work, sorry, kind of thing.
+[18:30] **qx()**: I wouldn't say from using both systems that one's more technologically advanced or superior in that aspect of it.
+[18:37] **qx()**: But yeah, I think that's notable.
+[18:41] **qx()**: 100% that Alex can say that these old, you say 4.0 nodes are running, Alex?
+[18:48] **qx()**: What's the oldest node that's out there pumping along?
+
+[18:57] **kushti**: Yes, some sudden, well, a protocol update in regards with the difficulty recalculation.
+[19:21] **kushti**: So, yeah, well, then it's about 4.0.100x.
+[19:27] **kushti**: And also, yeah, they're still in the network since 2022, and yeah, I think that they can stay for a longer time.
+
+[19:40] **qx()**: Yeah, I see.
+[19:40] **qx()**: I'm looking at the Ergo nodes list and I'm right at the bottom seeing a 4024.
+[19:44] **qx()**: Oh, no, that's the name of it.
+[19:47] **qx()**: Let's see if I can see any old ones in here.
+[19:49] **qx()**: That's quite a few new ones.
+[19:50] **qx()**: I'm impressed at how many people have updated to 6.0 or 6.1.
+[19:53] **qx()**: Wow.
+[19:55] **qx()**: You guys check this out.
+[19:56] **qx()**: There's a lot of people that pumped the upgrade to 6.0, kushti.
+[20:00] **kushti**: Oh, probably miners.
+[20:02] **kushti**: Because he did advertise around mining channels and so on.
+[20:09] **kushti**: But yeah, I think also some guys updated 6.1.
+[20:21] **kushti**: Because there was no 5.1 release corresponding to 5.027.
+[20:29] **kushti**: So yeah, I mean, we got into I've skipped one, 5.1 release actually.
+[20:40] **qx()**: I see 30 nodes on 6.1, kushti.
+[20:43] **qx()**: That's impressive that people are doing the rocks at that point.
+[20:47] **qx()**: Yeah, 30 of them.
+[20:47] **qx()**: That's amazing.
+[20:49] **kushti**: Yeah, that's quite a lot actually.
+[20:51] **kushti**: I don't know, maybe it was advertised by someone in Oracle pools group.
+[20:59] **kushti**: So it was advertised by some guy, I guess, in the SigmaUSD group.
+[21:05] **kushti**: And then maybe in Dexy Gold Oracle pool group as well.
+[21:09] **kushti**: So I don't know.
+[21:09] **kushti**: I mean, yeah, that's quite a surprising number, actually.
+[21:15] **kushti**: Quite big considering that the version is just released like a few days ago.
+
+[21:24] **qx()**: Well, I'm here.
+[21:25] **qx()**: I need to check out something.
+[21:27] **qx()**: Let's see if it's still there.
+[21:29] **qx()**: Oh, no, I guess it's not running anymore.
+[21:32] **qx()**: Those love letters to Joe in the node names.
+[21:36] **qx()**: Remember those?
+[21:40] **qx()**: No, let me find them.
+[21:43] **qx()**: Oh, Armeanio, Armeanio's wet dream.
+[21:46] **qx()**: It's one of them.
+[21:47] **qx()**: Armeanio's bitch.
+[21:50] **qx()**: Is that all you, Joe?
+[21:51] **qx()**: Are you doing this yourself?
+[21:52] **Armeanio**: Oh, that's not me.
+[22:00] **Armeanio**: I'm way too lazy.
+[22:05] **Armeanio**: I'm just going to run it with the standard name.
+
+[22:05] **qx()**: Oh boy.
+[22:06] **qx()**: Well, speaking of nodes, I talked about the interesting project that we dreamed up last week at AMA.
+[22:13] **qx()**: And went ahead took kushti's advice and sunk 5.13, I think it was, because he said, yeah, 6.1 is coming out in a few days.
+[22:23] **qx()**: So sunk that in the node, updated to 6.1, dropped Explorer on top.
+[22:29] **qx()**: Throw it in the load balancer, and three of them, and they are out there.
+[22:35] **qx()**: That's explore-p2p.ergoplatform.com and node-p2p and api-p2p and graphql-p2p.
+[22:45] **qx()**: So the intent is that we're gonna move off the reliance, not just the reliance of the Ergo Foundation providing these nodes at SONIA or other places,
+[22:57] **qx()**: But the payments from the EF coming down to that, to pay for that, because those are paying for servers draining money out of the EF's budget.
+[23:04] **qx()**: That doesn't need to be done, especially on a decentralized peer-to-peer network like Ergo.
+[23:10] **qx()**: So right now I have three nodes running, full explorers ready to go, load balanced, Aco is testing them.
+[23:18] **qx()**: He mentioned that there were a couple tweaks I needed to do to make them match the current ones, so I did that.
+[23:24] **qx()**: They should be identical to the Ergo Foundation's one.
+[23:29] **qx()**: And the idea is that we have about four or five interested parties already.
+[23:34] **qx()**: We'll prep the image on our machine here, unless you want to use your own hardware.
+[23:39] **qx()**: We'll ship you the device, and you run it, and we'll add the load balancer.
+[23:44] **qx()**: And eventually, we'll have 10, 15, 20 community-run and managed explorers
+[23:49] **qx()**: that are all going through one URL load balancer.
+[23:53] **qx()**: And we'll flip on the geolocation so that if you're in China, then it'll use that node.
+[23:58] **qx()**: If you're in the Middle East, it'll use that node.
+[24:02] **qx()**: If you're in West Coast, it'll use a West Coast node or explorer.
+[24:06] **qx()**: So that's the baseline that we're doing.
+[24:07] **qx()**: And then now there's also talk about, hey, we should also have these guys host the front end for Sigma space, have the front end for ErgoExplorer 2.0, and that kind of stuff.
+[24:16] **qx()**: And I love that idea.
+[24:17] **qx()**: That's fantastic.
+[24:18] **qx()**: I know the original Explorer is not everybody's cup of tea, which is fine.
+[24:23] **qx()**: And I think these machines probably have the head space to be able to host those front ends.
+[24:27] **qx()**: So really excited about that project.
+[24:31] **qx()**: I feel like it's like, oh, you're a decentralized peer-to-peer blockchain.
+[24:36] **qx()**: Where are your main nodes that everybody points to?
+[24:39] **qx()**: Oh, they're hosted by the EF?
+[24:41] **qx()**: That to me is like, let's stop that.
+[24:43] **qx()**: Let's fix that.
+[24:44] **qx()**: And let's have them hosted by the entire community and managed by a DAO.
+[24:48] **qx()**: So it'll be nice to shore that up.
+
+[25:16] **qx()**: Hey, hey, HQ, welcome.
+[25:23] **qx()**: Very nice, great to see you.
+[25:26] SPEAKER_01: Hey.
+[25:29] SPEAKER_01: Hey, everybody.
+[25:30] SPEAKER_01: Hope you guys are having a nice day and happy birthday.
+[25:34] **kushti**: Hey, buddy, how are you?
+[25:37] **qx()**: Can you turn on your camera, HQ, but block it if you don't want to, so at least your square shows up on the main page.
+[25:44] **qx()**: Just put a sticky over it and turn on your camera.
+[25:46] SPEAKER_01: I'm just using my mobile, so I won't just keep it like my desk on that side.
+[25:52] **qx()**: All right.
+[25:52] **qx()**: So that voice that you guys hear is HQ talking without a picture.
+[25:56] **qx()**: So HQ is, for those of you that don't know, is a code dev of things like MewFinance, MewDex, Mew everything.
+[26:06] **qx()**: Mew, mew, mew.
+[26:09] **qx()**: What's the new stuff now?
+[26:10] **qx()**: It doesn't really look like a red square.
+[26:13] **qx()**: That's actually his face.
+[26:15] **qx()**: He's very square and red.
+
+[26:18] **Dan Friedman**: All right.
+[26:18] **Dan Friedman**: Well, I know one red square in Russia.
+[26:23] **Dan Friedman**: I'm just, I'm not saying I'm not connecting the two, I'm just saying I've seen red squares before. They used to be one in Kiev and then they changed it back to something else and anyway. Look okay, we're not going to go there but nice to see, well not nice to not see you HQ.
+
+[26:51] **qx()**: And then we have, is it Shaya or she?
+[26:54] **qx()**: I never can pronounce things right in my head.
+[27:00] **kushti**: So, so, so, so you have a lot of people here.
+[27:03] **qx()**: Your voice isn't coming through, Shaya.
+[27:08] **qx()**: Maybe just sorry.
+[27:10] SPEAKER_05: My name is Shaya.
+[27:11] SPEAKER_05: I just joined in as a cloud.
+[27:15] SPEAKER_05: I didn't know it's going to be such a small forum.
+[27:19] **qx()**: This is our intent to trick you into coming on an AMA, Shaya.
+[27:22] **qx()**: It worked.
+[27:23] **qx()**: Yes.
+
+[27:26] **kushti**: Yeah, so probably other people.
+[27:31] **kushti**: Let's invite for more.
+[27:35] **kushti**: Let me ping the chat.
+[27:36] **kushti**: So Shaya, how are you doing?
+[27:41] **kushti**: Do you need some documentation and so on, maybe at this point?
+[27:46] SPEAKER_05: I started reading the document you sent me about the sub-blocks and sub-blocks.
+[27:54] SPEAKER_05: Right.
+[27:55] SPEAKER_05: And I'm organizing my thought about it.
+[27:58] SPEAKER_05: I thought I'd just write down all the questions I have and then come and seek you out in the Telegram group.
+[28:07] **kushti**: Oh, nice, nice, nice.
+[28:08] **kushti**: So yeah, well, I will improve documentation in coming weeks.
+[28:14] **kushti**: So yeah, well, questions and so on would be appreciated.
+[28:17] **kushti**: It would help to improve.
+
+[28:21] **Dan Friedman**: There is Mark the shark.
+[28:22] **Dan Friedman**: And there should be a disclaimer.
+[28:24] **Dan Friedman**: He's not an actual shark.
+[28:27] **kushti**: He's an AI shark, actually.
+[28:30] SPEAKER_02: Yeah.
+[28:31] SPEAKER_02: Right.
+[28:31] **Dan Friedman**: That's fine, guys.
+[28:34] **Dan Friedman**: He might be a shark in a proverbial sense, but not a literal one.
+[28:40] **Dan Friedman**: I met him.
+[28:41] **Dan Friedman**: I met him.
+[28:43] **Dan Friedman**: He's definitely a land creature.
+[28:46] **Dan Friedman**: He is, for sure.
+[28:48] **qx()**: For those that don't know, Mark Leshark is a community dev and runs the Sigmanauts mining pool, which is the best mining pool in Ergo.
+[29:01] **qx()**: It is a DAO, and it is fantastic.
+
+[29:05] SPEAKER_00: Yeah, absolutely.
+[29:06] SPEAKER_00: Got a lot of things cooking, for sure.
+[29:10] **kushti**: Yeah.
+[29:11] **kushti**: Also, Mark brought viper coding to ecosystem for better or for worse.
+[29:19] **kushti**: And yeah, they did a lot of work on MCP.
+[29:25] **kushti**: So on the doing connections between the blockchain and AI based analysis and construction of different things.
+
+[29:40] **qx()**: Yeah, MCP is amazing.
+[29:42] **qx()**: Mark inspired me to bring MCP service to my work, to actually do real things with AI.
+[29:49] **qx()**: So absolutely amazing to see it working against the Ergo blockchain.
+[29:55] SPEAKER_00: Yeah, for sure.
+[29:55] SPEAKER_00: I think a lot of the stuff, once you have the base foundation, relative to AI, it's pretty easy to branch off and extend it, especially with MCPs.
+[30:05] SPEAKER_00: I was able to take the Ergo MCP and tell an LLM, hey, let's make this for price.
+[30:12] SPEAKER_00: And then within a few hours, made the price Ergo MCP.
+[30:18] SPEAKER_00: And I think, too, kind of from there, it'll be interesting.
+[30:21] SPEAKER_00: I'm not sure if you guys have seen the Thin Intelligence stuff that I've made.
+[30:24] SPEAKER_00: Basically, it's AI agent that can write some code.
+[30:28] SPEAKER_00: And so I wrote some smart contracts for that.
+[30:32] SPEAKER_00: I haven't tested them or anything like that.
+[30:33] SPEAKER_00: Still needs to do some work.
+[30:34] SPEAKER_00: But the hope would be to kind of create this platform to where people can throw up their own their own LLMs be their own LLM provider.
+[30:45] SPEAKER_00: And then from there, people can use like the Ergo MCP and things like that.
+[30:49] SPEAKER_00: And instead of using like anthropic API keys or OpenAI API keys, kind of like how we're doing on CodeUTXO.
+[30:55] SPEAKER_00: So it's a more decentralized LLM usage.
+[30:59] SPEAKER_00: So that'd be kind of interesting.
+
+[31:04] **qx()**: Exciting, sir.
+[31:06] **kushti**: By the way, have you checked Aletha White Paper?
+[31:12] **kushti**: Your thoughts on that?
+[31:16] SPEAKER_00: I have not.
+[31:17] **kushti**: Which one is that?
+[31:18] **kushti**: So it's about autonomous AI on Ergo blockchain.
+[31:25] **kushti**: Oh, okay.
+[31:27] SPEAKER_00: I think somebody posted on X recently.
+[31:31] **kushti**: I think it's going to be about that.
+[31:33] **kushti**: AA Shannon, yeah.
+[31:35] **kushti**: So some new GitHub account.
+[31:40] SPEAKER_00: Yeah, I couldn't tell if it was AI generated or not because I know Stanford actually just came up with a mechanism to generate papers kind of around the same time.
+[31:50] SPEAKER_00: So I'd be curious.
+[31:51] SPEAKER_00: But in any case, it looked interesting.
+[31:54] SPEAKER_00: I think Ergo is a great use case for more super intelligent type of mechanisms, especially with the cheap transaction rates.
+[32:03] SPEAKER_00: And then from that sort of perspective, having AI agents running on chain and maybe having a token where they pay themselves to do different tasks.
+[32:13] SPEAKER_00: So you have an agent that does task A, another agent that does task B, and they can sort of rent each other to kind of do specific tasks or have a human do that.
+[32:24] SPEAKER_00: But we need the tools, I guess, from a MCP potentially perspective to facilitate all that.
+[32:31] SPEAKER_00: But like it would be nice.
+[32:32] **qx()**: You're talking about an AI run local economy.
+[32:37] **qx()**: That's interesting, Mark.
+
+[32:41] SPEAKER_07: You come back in a year and there's poor AI and there's rich AI and they're starving each other out.
+[32:48] SPEAKER_00: Yeah, totally.
+[32:49] SPEAKER_00: You could have an AI that generates images for you, another one that will put them into NFTs for you.
+[32:57] SPEAKER_00: You can have a trading AI and they can all be working together.
+[33:01] SPEAKER_00: Or maybe there's like a manager level AI that somebody makes and hey, let's make an NFT collection.
+[33:07] SPEAKER_00: Let's try to make the most amount of money if that's like what it's trained on or whatever.
+[33:12] SPEAKER_00: It would be interesting.
+[33:14] SPEAKER_00: Obviously, it would be nice to kind of use AI outside of just like, hey, let's just try to make the most money possible.
+[33:21] SPEAKER_00: So that's where I'm not trying to do things like that, but how can we grow?
+[33:26] SPEAKER_00: I suppose what's the best use case for that?
+
+[33:31] **qx()**: Yeah.
+[33:31] **qx()**: We've got another one that joined us, Luca from the Ecosystem.
+[33:35] **qx()**: Fantastic.
+[33:37] **Dan Friedman**: Great to see you.
+[33:39] **Dan Friedman**: He's just here to show Canada Day.
+[33:42] **Dan Friedman**: Oh, wait.
+[33:43] SPEAKER_06: That's what he's here for.
+[33:44] **Dan Friedman**: He's here to show Canada Day.
+[33:46] SPEAKER_06: Is Dan allowing you to talk, Luca?
+[33:49] **Dan Friedman**: I am not.
+[33:53] **Dan Friedman**: Are you guys in the same office right now?
+[33:56] **Dan Friedman**: No, no, no.
+[33:56] **Dan Friedman**: He's back in Canada.
+[33:58] **Dan Friedman**: I am in my home office.
+[34:01] **Dan Friedman**: But I got to send him a message on Slack though, cause I get it.
+[34:08] **Dan Friedman**: Oh, look, it's like, okay.
+[34:13] SPEAKER_01: It's payment for not working on something and being here, right?
+[34:17] SPEAKER_01: Yeah, exactly.
+[34:18] **Dan Friedman**: Same with Shashir.
+[34:20] **Dan Friedman**: Same with Shashir.
+[34:21] **Dan Friedman**: I'm like, I'm on vacation.
+[34:23] **Dan Friedman**: No, you're not.
+
+[34:26] **qx()**: So Luca, you're going to give, I hear you're going to give a presentation with MiGoreng on gluon gold at the Ergo meetup in October.
+[34:36] SPEAKER_04: Oh yeah.
+[34:36] SPEAKER_04: Well, he sure was going to do the, he was talking about like, I'm mistaken how that works.
+[34:42] SPEAKER_04: This is pretty different.
+[34:44] **Dan Friedman**: Yeah, it's pretty cool.
+[34:45] **Dan Friedman**: Now, listen, guys, I'm going to be in the U.S. in what?
+[34:51] **Dan Friedman**: In August for Rare Evo.
+[34:54] **Dan Friedman**: And then for this thing, when is it like October?
+[34:57] **Dan Friedman**: You said October, something like that.
+[34:59] **qx()**: When was it?
+[35:00] **qx()**: October 11th, sir.
+[35:01] **qx()**: October 11th.
+[35:05] **Dan Friedman**: It better not be like this many guys at Joe's house where he invites a soul.
+[35:13] **Dan Friedman**: I told you this already.
+[35:14] **Dan Friedman**: Okay.
+[35:15] **qx()**: I told you that's not a conference.
+[35:16] **Dan Friedman**: It better not be like Surviving the Game with Ice-T where he's just going to invite us to his like retreat and he just ends up hunting us for sport.
+[35:28] **Dan Friedman**: Like I don't want that to happen.
+[35:29] **qx()**: Okay, he's gonna, we're gonna get to Joe's house. He's gonna have an array of 20 guns ranging from very deadly to a BB gun and whoever, again, he's gonna say go and you have to just run to the gun you want and then be, it's all fair game after that.
+
+[35:48] **Dan Friedman**: One of the first conversations I had with Joe, he sent me, like, either photos of stuff he has chainsawed or his chainsaw.
+[35:56] **Dan Friedman**: Like, I forgot, what was it, Joe?
+[35:57] **Dan Friedman**: It was either, like, something.
+[35:59] **Armeanio**: I was working outside.
+[36:01] **Dan Friedman**: Yeah, yeah.
+[36:01] **Dan Friedman**: He just built these random structures with the chainsaw.
+[36:06] **Dan Friedman**: And I don't know.
+[36:08] **qx()**: That's art, Dan.
+[36:09] **qx()**: That is art.
+[36:09] **Dan Friedman**: Yeah yeah he might have summoned the aliens with it I don't know what he did with that but that was it so I don't know I mean Joe is a friend, I like Joe, we hung out together a bunch of times but never at his like in his kingdom, never in Joe kingdom. You see like that's, that very selective about his invites.
+
+[36:32] **Dan Friedman**: Like that's another reason why I'm kind of cautious to ever go to Charles's ranch.
+[36:36] **Dan Friedman**: He's rich, rich people get into weird sports.
+[36:41] **Dan Friedman**: Okay, you never know. He might just be like really hospitable and be like a nice time or he might end up hunting you like like a buffalo or something. You never know these things. Okay, so I'm just saying Joe.
+[36:55] **Dan Friedman**: I'm gonna probably most likely like 95% I'm gonna be there.
+[36:58] **Dan Friedman**: I mean 5% leaving for like Ian does.
+[37:22] **Dan Friedman**: But yeah, I'm planning on being there but like I said number one it better be more than like me QX and like Luca and Shashir because I've been there done that okay and better be more than that and I am, look, just give me a rifle at least, all right?
+
+[37:30] **qx()**: You get a boomerang, Dan, you get a freaking boomerang.
+[37:33] **Dan Friedman**: You get a boomerang, okay?
+[37:35] **Dan Friedman**: Maybe a slingshot if you're lucky.
+[37:38] **Dan Friedman**: You get a plastic IKEA spoon, that's what you get, QX.
+
+[37:45] SPEAKER_00: I sell a lot of rocks in the spring, so you can grab some there.
+[37:48] **qx()**: Yeah.
+[37:50] **qx()**: Mark's going to be there too.
+[37:52] **qx()**: We've got Allison coming as well.
+[37:55] **qx()**: We've got CannonQ coming.
+[37:56] **qx()**: It's going to be a nice, it's going to be a nice meetup.
+[37:59] **qx()**: Yeah, maybe Timur.
+[38:01] **qx()**: Timur is fantastic.
+[38:03] **qx()**: Timur can teach us some BJJ.
+[38:14] **qx()**: BJJ.
+[38:14] **qx()**: Right.
+[38:15] **qx()**: Yeah.
+[38:16] **qx()**: Yeah, we can have wrestling competitions during the hackathon.
+
+[38:33] SPEAKER_01: Did I just listen that you guys are going to have wrestling matches with BJJ?
+[38:38] **qx()**: Only if you show up HQ.
+[38:42] **qx()**: That's inappropriate.
+[38:45] **Dan Friedman**: That is very inappropriate.
+[38:51] **Dan Friedman**: Anyway, like I said, better be more than like a quartet over there, okay?
+[38:58] **qx()**: It just means more beer for everybody else.
+[39:00] **qx()**: So the Sigs are, we're voting on Sigs providing a couple kegs of beer.
+[39:04] **qx()**: Unfortunately, Joe wants red beer, so maybe we'll give him a six pack of red beer to keep him happy.
+[39:10] **qx()**: And then we'll do real beer on the other two kegs.
+[39:12] **qx()**: Oh, wait, quick, quick.
+[39:14] **Dan Friedman**: Where's the nearest IHOP to your place?
+[39:17] **Armeanio**: It's very close.
+[39:19] **Armeanio**: 10 minutes tops.
+[39:21] **Dan Friedman**: Okay good good good okay okay we're good we're good we're good okay no that's breakfast on Saturday Dan you're hosting breakfast on Saturday. I have, yeah you're paying but I'll host it sure. No no you can get Jamai to pay again just like you did in Vegas. No it's Ergo breakfast sponsored by qx yeah let me sell all my Rosen.
+[39:46] **Dan Friedman**: Oh, Joe, I think it was a direct threat right there.
+[39:49] **Dan Friedman**: He's gonna dump on retail.
+[39:55] **qx()**: Just a small pebble in an ocean, Dan.
+[39:57] **qx()**: That's all it'd be, don't worry.
+
+[39:59] **Armeanio**: All right.
+[40:00] **Armeanio**: I'm looking forward.
+[40:01] **Armeanio**: It'll be like the first, I guess, Ergo meetup.
+[40:04] **Armeanio**: A lot of crypto conferences, they're, I don't know.
+[40:09] **Armeanio**: Oh my God, Joe, they're awful.
+[40:11] **Armeanio**: Let's just say the barrier of entry is really high.
+[40:16] **Armeanio**: And then so I don't know if that's, I mean, I think it's good for like business networking and people connecting within the industry.
+[40:24] **Armeanio**: But sometimes I would say it's probably just out of range for smaller actors.
+[40:33] **Armeanio**: And I've never really liked that because I don't know.
+[40:35] **Armeanio**: I've always wondered like, hey, what if we just did a I don't know, like a meetup thing where it's like, okay, do you run a node?
+[40:44] **Armeanio**: Right?
+[40:44] **Armeanio**: Great.
+[40:45] **Armeanio**: You're part of the network.
+
+[40:46] **Dan Friedman**: Well, like the thing, the thing about most conferences is that I used to do all the conference circuits.
+[40:55] **Dan Friedman**: And then you eventually figure out that most of these conferences are either a chance to get shit-faced and not have to pay for food, but then you end up paying for an insanely expensive ticket, which basically you see the same exact people you see in every other conference.
+[41:17] **Dan Friedman**: It's literally the same people.
+[41:19] **Armeanio**: Yeah, I've always thought it was interesting like, hey, if you throw a couple hundred down, like maybe we could supply some entry level Raspberry Pi or something and say, okay, let's take a minute and teach people.
+[41:32] **Armeanio**: Oh, workshop.
+[41:33] SPEAKER_06: Hell yeah.
+[41:34] **Armeanio**: Something like that.
+[41:35] **Armeanio**: But.
+[41:36] **Armeanio**: That'd be great.
+[41:38] **Armeanio**: I don't know.
+[41:39] **Armeanio**: Sometimes I think people forget these are peer-to-peer networks, I guess.
+
+[41:44] **qx()**: Well, I feel as somebody who's been in a booth in a conference and somebody who's walked around a conference, I feel as somebody behind the booth, it's really hard to have super long, meaningful engagement with the people popping by.
+[41:59] **qx()**: It's more like, hey, here's what we do.
+[42:01] **qx()**: Yep.
+[42:01] **qx()**: Oh, that's cool.
+[42:02] **qx()**: That sounds good.
+[42:02] **qx()**: Here's this stuff.
+[42:03] **qx()**: We'll never hear from them again kind of thing.
+[42:05] **qx()**: I think these kind of meetups really give the opportunity to really bind with people like Dan.
+[42:13] **qx()**: I don't need you to do that.
+[42:16] **Dan Friedman**: That is the worst advertisement for the Ergo meetup.
+[42:19] **Dan Friedman**: Come on, man.
+[42:20] **Dan Friedman**: It is inappropriate, okay?
+[42:23] **Dan Friedman**: I don't want to associate it with the Ergo meetup or the Ergo conference.
+[42:27] **Dan Friedman**: QX.
+[42:29] **Dan Friedman**: You just had to do that.
+[42:32] **qx()**: It's going to be fun.
+[42:33] **qx()**: If you guys can't tell, the Ergo Meetup is going to be fun, regardless if there's 100 people or 30, 40 people.
+[42:37] **qx()**: Not that kind of fun.
+[42:38] **Dan Friedman**: That's your kind of fun, all right?
+[42:40] **Dan Friedman**: QX, you keep that over in New York.
+[42:42] **Dan Friedman**: Don't bring that to Colorado.
+[42:44] SPEAKER_07: Is there any illegal in Colorado or something?
+[42:46] **Dan Friedman**: I don't know.
+
+[42:46] **Dan Friedman**: So look, the thing about conferences is that like what I do, and I only do like a couple a year now. I'll do Rare because that's like our, the Cardano and Ergo communities there.
+[43:00] **Dan Friedman**: So that's very specific.
+[43:03] **Dan Friedman**: But if I do something that's more broad industry,
+[43:06] **Dan Friedman**: Maybe do a Consensus if it's close in Hong Kong or Singapore or whatever.
+[43:12] **Dan Friedman**: I try not to go out to Dubai for Token 2049 because it's the same shit, but you keep paying $1,000 to see the same people five times a year for some reason.
+[43:26] **Dan Friedman**: I never figured that out because that's literally what it is.
+[43:29] **kushti**: Yeah, but usually you can skip the main conference and speak with the best people on the side events.
+[43:38] **Dan Friedman**: Exactly, I literally have done that for the past several times.
+[43:42] **Dan Friedman**: Is that why you disappear and make me man your booth the whole damn time?
+[43:47] **Dan Friedman**: I went to Dubai, what was it, last year, and Alex and Moa, MHS Sam were there,
+[43:55] **Dan Friedman**: And I was like, okay, I wanted to, well, with my luck, it was when there was a flood for the first time in like 100 years in Dubai, the sky opened up and it was just like a wall of rain, it got dark at three o'clock in the afternoon.
+[44:16] **Dan Friedman**: But later on a few days later, we think, and it opened up, we were able to go over to the Palm and hang out there.
+[44:23] **Dan Friedman**: It was literally I literally did all of my networking, all of my meetings without going to the conference.
+[44:29] **Dan Friedman**: I went to the conference literally for two hours and probably just got some t-shirts and well, but you know what I did actually MHS Sam was there and he was kind enough to give me his pass.
+[44:46] **Dan Friedman**: And so I just went to the conference, he gave me the bracelet and the pass.
+[44:49] **Dan Friedman**: I mean, I'm confessing to a crime here.
+[44:52] **Dan Friedman**: So I hope you guys don't, but I was just like, I don't want to pay a thousand bucks for this fricking thing.
+[44:56] **Dan Friedman**: But he's like, Oh, it's okay.
+[44:57] **Dan Friedman**: You take this and then gives it to me.
+[45:00] **Dan Friedman**: And I go in there and people are trying to talk to me because I had like the name thing turned around, the name thing turned around and then like, I forgot to turn it around.
+[45:10] **Dan Friedman**: And then, and they're looking, Hey, how are you doing?
+[45:13] **Dan Friedman**: Mohammed Hassan?
+[45:15] **Dan Friedman**: Oh.
+[45:18] **Dan Friedman**: You don't look like a Mohammed.
+[45:21] **Dan Friedman**: I don't know.
+[45:22] **Dan Friedman**: Yeah, I got a couple of really strange looks.
+[45:26] **Dan Friedman**: Like, how are you doing?
+[45:28] **Dan Friedman**: Mohammed Hassan.
+[45:30] **Dan Friedman**: Okay, well, yeah, yeah.
+[45:32] **Dan Friedman**: So, but anyway long story short, it's most of the time just a waste of money.
+[45:40] **Dan Friedman**: Look, I even been to the ones with Charles where he get I get like all the VIP access and it was still complete bullshit.
+[45:46] **Dan Friedman**: Like, you got VIP access, but it was the thing is like the VIP access doesn't really matter at all unless you're an actual VIP.
+[45:56] **Dan Friedman**: Like if you're a VIP or with a VIP, that's where all the cool stuff happens.
+[46:02] **Dan Friedman**: Because that's basically where everybody flocks to.
+[46:04] **Dan Friedman**: But if you're actually buying access to the VIP stuff, you're still stumbling around there trying to get into like another thing that nobody wants you at because they know you paid to get in there.
+
+[46:16] **Armeanio**: Yeah, I'm not the biggest fan of the booth life.
+[46:20] **Armeanio**: Every year here, Denver is a couple hours north, so I always go to ETHDenver every year.
+[46:27] **Armeanio**: And I always have had the best time either at side events or just talking with people outside or eating next to people.
+[46:35] **Armeanio**: That's oftentimes where I've met some of the more interesting characters in the space.
+[46:40] **Armeanio**: I guess like the hackers and the hippies versus like the people that are trying to, I don't know.
+[46:45] **Dan Friedman**: I did the same thing in Turkey.
+[46:48] **Dan Friedman**: I was there for, what was it, ETHGunU, which was their ETH conference, and literally all the cool events were actually not there.
+[47:01] **Dan Friedman**: They were literally other side events that you could get in for free that were just packed, and the main event was actually kind of lame.
+
+[47:12] **Armeanio**: So yeah, it's I love that there's a lot of common like I don't know I would say generally it seems as though on one path we have this idea of like unstoppable decentralized money and then this other path it's more like we have techno dystopian money.
+[47:35] **Armeanio**: And you kind of see increasingly a mix where, I would say, at least in the United States, we've got stablecoin regulation.
+[47:46] **Armeanio**: And it's like, OK, well, we can put, I guess, traditional banks on these systems.
+[47:54] **Armeanio**: And I'm not going to say that's a negative thing.
+[47:56] **Armeanio**: I don't like seeing it directly tied to the L1, just because then it creates some contradictory assumptions long-term, it seems.
+[48:08] **Armeanio**: I've always liked the idea of more unstoppable money.
+[48:15] **Armeanio**: Privacy-oriented and better assumptions for users than our current system.
+[48:20] **Armeanio**: But I see that split more and more obvious going to those events.
+[48:28] **Armeanio**: It'll be weird when I go to ETHDenver and it's Bank of America, stablecoin.
+[48:34] **Armeanio**: And then right next to it, you have NIM, Bitcoin for layer zero.
+[48:43] **Armeanio**: It's like they're totally opposite ends of the spectrum, which maybe is a good thing because it's an open ecosystem.
+[48:49] **Armeanio**: These are open networks.
+[48:50] **Armeanio**: And so you can't really censor that.
+[48:53] **Armeanio**: But I think it is good to try to separate assumptions into different layers so they don't conflict.
+
+[49:01] **qx()**: I think the next round of conference, once we're ready, and I think we have some things that are ready, I'm going to be developing another app at work that's going to be relevant to this.
+[49:11] **qx()**: But not like spending the time to send Sigs to Rare, but sending the Sigs to something like Educause, where we can promote some apps that would be beneficial to the educational sector.
+[49:23] **qx()**: Like the integration I have into our lab management center.
+[49:29] **qx()**: The next app I'm developing is to try to do a blockchain version of that stupid iClicker tool that they charge students like $100 for the damn iClicker.
+[49:38] **qx()**: And it's all proprietary.
+[49:39] **qx()**: So imagine doing like iClicker voting and attendance on the blockchain with your free crypto wallet on Ergo.
+[49:47] **qx()**: When you walk into class, you just scan a QR code with Ergo Mobile.
+[49:50] **qx()**: It marks you as absent in the class.
+[49:52] **qx()**: You're doing the voting, you scan a QR code under the vote you want, it puts that vote in kind of stuff.
+[49:58] **qx()**: So that kind of stuff, I think, is where Ergo can really break out and show that we have some tools that are beneficial to other industries and just show up to those conferences and advertise it.
+[50:08] **qx()**: Oh, how much does this cost?
+[50:10] **qx()**: Well, iClicker costs this much, this is just cost the server and a little bit and that kind of thing and it's open source.
+[50:16] **qx()**: You want to run it yourself fine or just use our front end service and pay us a small amount for the front end service.
+[50:21] **qx()**: So I don't think those big things can compete with what blockchain infrastructure can bring.
+
+[50:28] **kushti**: And have you seen the idea of simple anonymous voting using stealth addresses?
+[50:36] **kushti**: So when you send tokens to stealth addresses, just write along with fee for follow-up transaction.
+[50:46] **kushti**: And follow-up transactions are basically about sending voting tokens to yes or no address like you did with initial voting procedures.
+[50:58] **kushti**: So, yeah, well, you can just use stealth addresses and then, yeah, the link is broken.
+[51:05] SPEAKER_04: That's awesome.
+[51:08] SPEAKER_04: Yeah.
+[51:10] SPEAKER_04: Yeah.
+[51:10] SPEAKER_04:

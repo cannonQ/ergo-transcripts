@@ -1,0 +1,733 @@
+[00:13] **tmr.erg**: All right.
+
+[00:14] **tmr.erg**: Good morning, Joe.
+
+[00:15] **tmr.erg**: How are you doing, sir?
+
+[00:17] **tmr.erg**: Doing pretty well.
+
+[00:18] **tmr.erg**: No complaints.
+
+[00:20] **tmr.erg**: Well, thanks for joining me.
+
+[00:22] **tmr.erg**: So this video is a part of a set of content coming out for the summit.
+
+[00:28] **tmr.erg**: And I was hoping to just do a little deep dive into what Rosen Bridge is.
+
+[00:34] **tmr.erg**: I would say right now, that's like one of the most popular dApps on Ergo.
+
+[00:40] **tmr.erg**: And in my eyes, like one of the things that also expresses like the values of the community and kind of executes really well on a philosophy that's like not always the easiest road, you know, and so I just wanted to talk to you about that and get your opinion, you know, maybe first tell me like what is Rosen?
+
+[01:00] **tmr.erg**: What makes it different and special as opposed to other bridges?
+
+[01:04] **Armeanio**: All right, so Rosen itself is kind of an interchange protocol, is a good way to look at it.
+
+[01:11] **Armeanio**: It's a transfer protocol between different endpoints, okay?
+
+[01:17] **Armeanio**: And part of what that gives the Ergo community is an element of interoperability, which is always nice, but it's hardened access.
+
+[01:26] **Armeanio**: Access that basically we control right as a community and that's powerful in this space because there are certain terms and conditions that
+
+[01:39] **Armeanio**: we kind of have to comply to or potentially risk delisting, right?
+
+[01:45] **Armeanio**: So you can use the example of privacy.
+
+[01:49] **Armeanio**: There's only so far you can take that before you run into a problem where it's like the liability of your partners becomes an issue.
+
+[01:57] **Armeanio**: And, you know, they have too much control over your ability to access markets, right?
+
+[02:04] **Armeanio**: Aside from the cost
+
+[02:06] **Armeanio**: of access itself, it's also a permissioned environment.
+
+[02:11] **Armeanio**: So the general idea is saying, OK, well, you have these different markets where liquidity is concentrated, and you also have these consumer-facing wallets, as an example, that we have the ability to back in without permission.
+
+[02:29] **Armeanio**: And so that puts us in a much stronger position long term, where we're no longer subject to the
+
+[02:36] **Armeanio**: grace of external partners right and that's something that Ergo kind of suffered with because it was a fair launch system so you know our
+
+[02:49] **Armeanio**: market access for a long time was largely dependent on, you know, who we could pay and what their terms and conditions were.
+
+[02:57] **Armeanio**: Right.
+
+[02:58] **Armeanio**: And so I think having freer access that we control as a community is powerful.
+
+[03:04] **Armeanio**: It's something that's new.
+
+[03:05] **Armeanio**: You know, I'd like to continue building it out to where we're available on a lot of consumer facing entry points, you know, Coinbase wallet, Phantom wallet, things that people are familiar with.
+
+[03:19] **Armeanio**: without needing the grace and permission of a gatekeeper in between those endpoints.
+
+[03:29] **tmr.erg**: Yeah, okay, so you just told me the why of Rosen, sick.
+
+[03:33] **tmr.erg**: So just to restate, you built Rosen because access to crypto was permissioned and dependent on all sorts of factors that were not in your control, and most of those factors were not aligned with your values.
+
+[03:48] **tmr.erg**: Yeah, okay.
+
+[03:50] **tmr.erg**: All right, sick.
+
+[03:52] **tmr.erg**: So that's kind of what I was getting at when I was saying like, yeah, Rosen is like a good representative of the ecosystem and just like, executes our values very well.
+
+[04:02] **tmr.erg**: But like, a lot of times, doing things from a principal position makes them more difficult.
+
+[04:08] **tmr.erg**: Right.
+
+[04:10] **tmr.erg**: You're having to do all this stuff.
+
+[04:12] **tmr.erg**: How does that get accomplished?
+
+[04:13] **tmr.erg**: How is Rosen actually different on an implementation level?
+
+[04:20] **tmr.erg**: One of my favorite things to do is look from time to time at rekt.news.
+
+[04:24] **tmr.erg**: Have you ever seen rekt?
+
+[04:26] **tmr.erg**: It's just like this list of all the hacks and two-thirds of them are bridges.
+
+[04:33] **tmr.erg**: What is technically different about Rosen that allows you to do this?
+
+[04:38] **Armeanio**: So we dove into the security assumptions of bridging before we designed it, right?
+
+[04:44] **Armeanio**: So we kind of had like a first principles approach.
+
+[04:47] **Armeanio**: If we're going to design a bridge, the first thing we need to really understand is why do bridges fail?
+
+[04:53] **Armeanio**: right?
+
+[04:53] **Armeanio**: And, you know, then take that knowledge and try to implement a solution that, you know, avoids the pitfalls that we've seen in the space.
+
+[05:03] **Armeanio**: And a large part of kind of this failure process
+
+[05:10] **Armeanio**: In my opinion, it's what I would call nonlinear scaling assumptions, where it's like every time you add an endpoint, you move into a new environment, you get new logic if you're going the smart contract way, which means you have new dependencies.
+
+[05:28] **Armeanio**: And so it's like your attack vector is growing faster than just one to one.
+
+[05:35] **Armeanio**: And that's incredibly hard to manage in moving environments, which blockchains are, you know, living, moving environments that go through updates.
+
+[05:43] **Armeanio**: You know, every once in a while we'll have new standards, new logic.
+
+[05:47] **Armeanio**: And so it becomes something that's very hard to defend.
+
+[05:53] **Armeanio**: Right.
+
+[05:54] **tmr.erg**: Yeah.
+
+[05:54] **tmr.erg**: So, so maybe in simple terms, if one blockchain upgrades, the other one doesn't.
+
+[06:00] **tmr.erg**: your system now has to be reconfigured.
+
+[06:03] **Armeanio**: Yeah, we have to update and keep things in sync in real time.
+
+[06:08] **Armeanio**: And that's just on the chain itself.
+
+[06:10] **Armeanio**: Then you have all of the standards, the logic of each particular chain, the dependencies that you need to program the logic.
+
+[06:20] **Armeanio**: So you kind of have this chain of risk whenever you get into
+
+[06:25] **Armeanio**: Like smart contracts right where it's not just the contract itself.
+
+[06:29] **Armeanio**: It's also like the dependencies That you're using to interact with the chain could be broken and then that can be exploited and then you have like a downhill risk, right
+
+[06:40] **Armeanio**: So instead of this mint and burn, which is how most smart contract based blockchains are configured, we have this idea of lock and unlock, right?
+
+[06:53] **Armeanio**: We use vaults.
+
+[06:54] **Armeanio**: And actually, you see that in Ergo itself, where
+
+[06:59] **Armeanio**: You know one of the complaints that sometimes we run into is we don't have like a smart token standard where you have this ability to just create a contract and mint and burn from it and part of the reason why is you have like infinite.
+
+[07:14] **Armeanio**: Mint risk right if somebody can exploit that they can essentially mint infinite tokens and so you know the first thing that we do when we set up these vaults.
+
+[07:25] **Armeanio**: Is we will mint large supply of coins or tokens will put them in a cold wallet and then from that point is constantly audited right and.
+
+[07:37] **Armeanio**: We rely on this idea of kind of a dual-layer multi-sig would be the simplest way to describe it, where how Rosen functions as a protocol is first you have this reporting layer, and their job is to scan.
+
+[07:54] **Armeanio**: They're auditors, right?
+
+[07:55] **Armeanio**: Those are the watchers.
+
+[07:57] **Armeanio**: The watchers, yeah, they're auditors essentially.
+
+[07:59] **Armeanio**: So they are constantly watching an endpoint.
+
+[08:04] **Armeanio**: If something happens, they report it to a smart contract on Ergo that creates the first layer of consensus.
+
+[08:11] **Armeanio**: And the nice thing about that is we get this idea of pre-truth.
+
+[08:16] **Armeanio**: It's like prior to execution, what is supposed to happen?
+
+[08:20] **Armeanio**: Which is kind of a failure point for a lot of bridges because
+
+[08:24] **Armeanio**: They learn something is wrong after it happens.
+
+[08:28] **Armeanio**: So having this idea of saying, OK, well, this is what should happen, and then we execute what should happen.
+
+[08:34] **Armeanio**: In my opinion, initially, I was thinking clearance and settlement in the banking system, where there are two distinct processes where you receive something, you have to go through an auditing process, clear the transaction, and then it moves to another stage where it executes settlement and funds are moved.
+
+[08:54] **Armeanio**: It works.
+
+[08:55] **Armeanio**: So you don't really need to reintroduce new things.
+
+[09:00] **Armeanio**: It's just modernize it.
+
+[09:02] **Armeanio**: And being that it's decentralized, then we get into this idea of decentralized incentives, which is profit distribution.
+
+[09:12] **Armeanio**: That's one of the most powerful things we see with blockchain is this ability to
+
+[09:16] **Armeanio**: distribute profit.
+
+[09:18] **Armeanio**: So Rosen leverages that to try to create like a community and people that are incentivized and earn from bridge transactions.
+
+[09:30] **Armeanio**: So in a way, it's kind of like your mining interchange, if that makes sense.
+
+[09:36] **tmr.erg**: Yeah, it does.
+
+[09:37] **tmr.erg**: It does.
+
+[09:38] **tmr.erg**: I think I really appreciate the approach where it's like, okay, we recognize the limitations that we're dealing with.
+
+[09:46] **tmr.erg**: in terms of people's intentions and also just like, oh, like, why can't this just be automated entirely?
+
+[09:53] **tmr.erg**: You know, it's like, so we've come up with a solution that aligns people's incentives.
+
+[09:58] **tmr.erg**: So as you said, it's like a community of watchers.
+
+[10:01] **tmr.erg**: I mean, there's hundreds of watchers.
+
+[10:05] **Armeanio**: Yep.
+
+[10:05] **Armeanio**: At this point, there's a couple hundred.
+
+[10:08] **Armeanio**: It's something like we could have built a system that didn't include profit distribution, right?
+
+[10:16] **Armeanio**: But then it's like, okay, you no longer have a check on the system and you no longer have an incentive for participation, right?
+
+[10:25] **Armeanio**: And I really hope, I know Rosen is kind of new and we're still working into new environments and we're still in the process of figuring out like the
+
+[10:35] **Armeanio**: politics on top of chains of how to get added into different applications, infrastructure, etc.
+
+[10:44] **Armeanio**: But my hope is that, longer term, we now have this layer of people that are incentivized and profit from growth.
+
+[10:53] **Armeanio**: And that becomes powerful because then you have a community that can push the adoption of Rosen itself versus just a team building stuff.
+
+[11:07] **tmr.erg**: Yeah, and it's also a functional machine that grows over time.
+
+[11:14] **tmr.erg**: Not like a burn, as you were mentioning, having to pay people to access their thing, you know, it's not you're not just like subtracting funds out of the Treasury until it hits zero.
+
+[11:23] **tmr.erg**: It's an actual it's an actual working machine that
+
+[11:27] **tmr.erg**: powers itself through this profit incentive.
+
+[11:31] **tmr.erg**: Super cool.
+
+[11:32] **Armeanio**: And a lot of the times when you see market listing, it comes with this friction cost up front and there's a certain incentive that the team's going to recoup that.
+
+[11:42] **Armeanio**: And that creates a weird alignment of incentives itself because now you have a team potentially trading against their own ecosystem to recoup the cost of working with a third party.
+
+[11:55] **Armeanio**: And that's unfortunately quite common, it seems, with listings because in many cases, when you're talking larger exchanges, you can get into the millions.
+
+[12:08] **Armeanio**: There was an article, as an example, somebody
+
+[12:12] **Armeanio**: listing on a Korean exchange and paying $10 million.
+
+[12:15] **Armeanio**: That's more than the entire history of development, funds, exchanges, everything we've done on Ergo just to work with the third party, which is insane.
+
+[12:25] **Armeanio**: The incentives don't line up.
+
+[12:28] **tmr.erg**: Wow.
+
+[12:31] **tmr.erg**: Is there anything else about the implementation of Rosen that you wanted to talk about before the next topic?
+
+[12:39] **Armeanio**: Sure, I think that we've made a couple of choices that are probably, I don't know, non-standard in the space.
+
+[12:46] **Armeanio**: An example would be we call ERG that's wrapped RS-ERG.
+
+[12:50] **Armeanio**: And it's because we want to let people know that there is additional security complexity.
+
+[12:56] **Armeanio**: A lot of the times, security complexities in crypto is very buried.
+
+[13:01] **Armeanio**: to where it's obfuscated until we find out there's a problem and then post-mortem we figure out what the problem was.
+
+[13:10] **Armeanio**: And that's kind of a terrible design.
+
+[13:12] **Armeanio**: So my hope with the overall design and having everything open source public facing, anybody can join if they're willing to stomach some economic friction to make sure that the bridge doesn't get spammed.
+
+[13:31] **Armeanio**: less that's hidden from end users.
+
+[13:33] **Armeanio**: And I think that that's a big part of the strength of Rosen itself.
+
+[13:38] **tmr.erg**: Just not ending up on rekt.news.
+
+[13:40] **tmr.erg**: Yeah.
+
+[13:40] **Armeanio**: Yeah, exactly.
+
+[13:41] **Armeanio**: That's the goal.
+
+[13:43] **tmr.erg**: I would be rekt if that happens.
+
+[13:45] **tmr.erg**: Yeah.
+
+[13:46] **tmr.erg**: Yeah.
+
+[13:47] **tmr.erg**: OK.
+
+[13:48] **tmr.erg**: I think I agree with all of that, man.
+
+[13:50] **tmr.erg**: And I think you've explained it pretty simply.
+
+[13:54] **tmr.erg**: Maybe one more open ended question.
+
+[13:57] **tmr.erg**: Just kind of like long term, what's your vision for Rosen?
+
+[14:02] **Armeanio**: Well, I think that we have a couple of verticals that we can really build on.
+
+[14:09] **Armeanio**: So in the blockchain space, we have this idea of layer twos.
+
+[14:16] **Armeanio**: And essentially what a layer two is, is it's the idea of pre-confirmation with the assumption things are going to settle later.
+
+[14:28] **Armeanio**: And so like one thing we will run into periodically is Rosen is slow.
+
+[14:34] **Armeanio**: It's slow by design, right?
+
+[14:37] **Armeanio**: But you want additional checks on your funds.
+
+[14:40] **Armeanio**: So when you get faster transactions between systems that like finality and proof of work is based on how many blocks have been added, right?
+
+[14:51] **Armeanio**: So the sooner it's final, the less secure it is.
+
+[14:56] **Armeanio**: You know the same is potentially true in proof of stake where you have like the historical rollback You know or you know you can say okay on this chain the longest rollback has been 60 blocks So if we shoot lower than 60 blocks, you know, we're assuming that that's never gonna happen again and it could right Yeah, so you're inheriting a lot of
+
+[15:21] **Armeanio**: security complexities in different environments that are not always straightforward to understand.
+
+[15:27] **Armeanio**: And so we said, okay, let's build this slow, let's make it secure.
+
+[15:32] **Armeanio**: And most users do want speed, right?
+
+[15:36] **Armeanio**: And it's something we have the capacity to do, essentially what that would, again, let's just take from what exists that works.
+
+[15:44] **Armeanio**: In the banking world, if you want a faster transfer, you pay a premium, right?
+
+[15:49] **Armeanio**: And so we potentially can build a system around Rosen, not within it, but around it, which is an important distinction to make, where you have liquidity providers on either endpoint.
+
+[16:03] **Armeanio**: Somebody sends and they say, I want to pay extra to have this settle faster.
+
+[16:09] **Armeanio**: The liquidity provider will basically assume the risk of faster settlement for premium.
+
+[16:17] **Armeanio**: and then the bridge transaction will pay them on a delay.
+
+[16:21] **Armeanio**: Users get their funds faster, the liquidity provider gets a premium markup, and the core assumption itself doesn't change.
+
+[16:33] **Armeanio**: In building around Rosen, that's something that we need to be very mindful to protect, because as soon as you start to introduce leverage into bridges, you get economic security complexity, which is its own crazy vertical.
+
+[16:50] **Armeanio**: We saw that with THORChain as an example, where they said, hey, we're going to have
+
+[16:54] **Armeanio**: where we're going to create DeFi inside of the bridge and that's a terrible idea.
+
+[16:59] **tmr.erg**: Yeah, the whole thing was like a short on Bitcoin and like, oh, it went up so everything fell apart.
+
+[17:05] **Armeanio**: Yeah, it's potentially really, really profitable, but it introduces just assumptions that are breaking.
+
+[17:15] **Armeanio**: My base rule in bridge design is, okay, we want to not rehypothecate assets.
+
+[17:24] **Armeanio**: Just that simple.
+
+[17:25] **Armeanio**: We want to keep everything one-to-one in a way that's transparent, auditable.
+
+[17:28] **Armeanio**: Any user can check that.
+
+[17:31] **Armeanio**: And it's strange because we even see custodial solutions on Coinbase, right?
+
+[17:36] **Armeanio**: And the auditability there is a little foggy.
+
+[17:39] **Armeanio**: Somehow we've created a better custodial solution than most of the exchanges that are working with Fortune 500 companies, which is kind of insane to think about, but that's, I don't know, state of the space.
+
+[17:54] **Armeanio**: Yeah.
+
+[17:56] **tmr.erg**: Yeah, man.
+
+[17:58] **tmr.erg**: OK.
+
+[17:59] **tmr.erg**: So long term, you're imagining Rosen connecting all the major layer ones.
+
+[18:07] **tmr.erg**: Is that the goal?
+
+[18:08] **tmr.erg**: Both.
+
+[18:10] **Armeanio**: If you look at product differentiation, there are a ton of bridges that work with ETH because you have parallel logic via the EVM.
+
+[18:24] **Armeanio**: And so I think that if you're going to compete, you need some sort of competitive advantage.
+
+[18:29] **Armeanio**: And one thing that Rosen
+
+[18:32] **Armeanio**: The natural advantage of Rosen itself is that it was designed to work across non-compatible environments Right, so I look across at other projects that you know are similar to Ergo and in terms of You know, they don't have this I'm gonna call it an insider advantage in terms of working with a lot of partners in the space but they're technically rich right and
+
+[19:02] **Armeanio**: You can look at proof of work projects, Nervos, Alephium, Kaspa, they're real projects.
+
+[19:10] **Armeanio**: There's a lot of research, a ton of engineering that's just disrespected.
+
+[19:16] **Armeanio**: That's not what the space respects at this point.
+
+[19:19] **Armeanio**: And so I'm saying, okay, well, if I look across at different projects and I see that they have these same friction points in terms of market access, building into them creates a richer ecosystem with a lot more technical depth.
+
+[19:35] **Armeanio**: you know, versus, you know, you look at Binance and, you know, it's a combination of food and animal items, you know, that they're listing today.
+
+[19:44] **Armeanio**: It's like, well, where, where is like the technical depth and engineering and like development mind share there?
+
+[19:50] **Armeanio**: There's none.
+
+[19:51] **Armeanio**: There, there really is none.
+
+[19:52] **Armeanio**: And it kind of creates its own like idiocracy in crypto.
+
+[19:57] **tmr.erg**: So I do think that using
+
+[20:01] **tmr.erg**: So, Rosen is like, you're looking at the problem that you experienced as an individual, recognize that everyone who is not operating under these perverse incentives
+
+[20:14] **tmr.erg**: also experiences that.
+
+[20:15] **tmr.erg**: And so you're trying to really be a boon for the blockchain industry and for the principles that you really agree with and saying, like, you don't have to jump through all these hoops to take part in this revolution that's happening right now.
+
+[20:29] **tmr.erg**: That's really cool.
+
+[20:30] **Armeanio**: Yeah, I mean, like long-term, if we have the ability to backdoor where liquidity is concentrated, we're no longer beholden to that aspect of the industry.
+
+[20:41] **Armeanio**: And I don't like to deal with them, you know, like I've had years of meetings with teams where it's like they're, I don't know, they're focused on flashy metrics that usually- They look like Mr. Burns like trying to take your money.
+
+[20:55] **Armeanio**: Yeah, kind of.
+
+[20:56] **Armeanio**: I mean, they're focused on flashy metrics that don't necessarily translate into anything valuable other than like this ability to pseudo and honestly extract value.
+
+[21:08] **Armeanio**: That's what I would say.
+
+[21:09] **Armeanio**: So, you know, it's hard to have a technical conversation, you know, versus, I don't know, there's a value misalignment in crypto, in my opinion.
+
+[21:21] **Armeanio**: This is structural where it's like, if you look at how traditional finance operates in like the VC world, they'll have like a five to 10 year window where it's like, okay, you're gonna build this and then we're going to slowly push for the adoption of, you know, whatever you're building.
+
+[21:38] **Armeanio**: And that adoption curve is not instantaneous.
+
+[21:44] **Armeanio**: And so a lot of VCs in crypto, because crypto has this amazing ability to create liquidity right out of the gate, they're looking at the liquidity risk curve and not the adoption curve.
+
+[21:55] **Armeanio**: So their focus is backwards.
+
+[21:57] **Armeanio**: And so then you have a lot of things that are introduced to market that have a lot of marketing hype.
+
+[22:03] **Armeanio**: And they're very liquidity curve driven.
+
+[22:07] **Armeanio**: but they're not adoption focused.
+
+[22:11] **tmr.erg**: Axie Infinity was like the biggest thing, you know, it's like, oh, like, cool, didn't really do anything, made some people a ton of money.
+
+[22:19] **Armeanio**: Yeah, it doesn't relate to adoption.
+
+[22:22] **Armeanio**: And if like if you're focused on like the development side and you're looking at the adoption curve, you have to realize, you know, okay, where is Rosen going to be in five years?
+
+[22:31] **Armeanio**: That's, that's kind of the goal.
+
+[22:33] **Armeanio**: Where can Rosen be in 10 years?
+
+[22:35] **Armeanio**: That's the goal.
+
+[22:36] **Armeanio**: It's not like where is Rosen going to be on the five minute chart against Bitcoin?
+
+[22:40] **Armeanio**: You can't think like that.
+
+[22:41] **Armeanio**: Never build anything.
+
+[22:43] **tmr.erg**: And your whole approach has been like, how do we build to withstand that 100-year flood?
+
+[22:51] **tmr.erg**: Not like what happened this past year.
+
+[22:54] **tmr.erg**: And then think you're good.
+
+[22:57] **Armeanio**: I love it.
+
+[22:58] **Armeanio**: The crypto space is increasingly fragile, in my opinion.
+
+[23:01] **Armeanio**: As things become more mainstream and more subject to the whims and
+
+[23:07] **Armeanio**: like choices of like the political environment you know things are going to potentially be more fragile right and so our goal is as like an industry at least when i started was how do we create non-fragile systems to where
+
+[23:26] **tmr.erg**: something that's not going to fall apart when the other team gets elected or whatever.
+
+[23:30] **Armeanio**: Exactly.
+
+[23:31] **Armeanio**: Exactly.
+
+[23:32] **Armeanio**: We need to be able to withstand ideally state level attacks.
+
+[23:37] **Armeanio**: That's kind of the idea Bitcoin was founded on.
+
+[23:39] **Armeanio**: And so we've tried to follow design principles that will
+
+[23:44] **Armeanio**: support that in really harsh environments.
+
+[23:48] **Armeanio**: That was the goal of Rosen's.
+
+[23:50] **Armeanio**: How do we make unstoppable access that way if KuCoin gets their access to work with Americans pulled and exchanges say, hey, you have this mixer on your chain that we don't agree with, so we're going to delist you.
+
+[24:05] **Armeanio**: How can we navigate those type of attacks without losing our tether to larger markets?
+
+[24:14] **Armeanio**: So, Rosen is kind of an ongoing attempt to harden, you know, make Ergo hard to kill, basically.
+
+[24:23] **tmr.erg**: Yeah, I love it, man.
+
+[24:25] **tmr.erg**: That's good.
+
+[24:25] **tmr.erg**: Okay, so I just wanted to jump into the Rosen site real quick and just kind of show people what this is and maybe how to use it.
+
+[24:37] **tmr.erg**: So, can you see that all right?
+
+[24:41] **tmr.erg**: All right, so this is the list of locked assets.
+
+[24:45] **tmr.erg**: So just to give people an idea, there are like over 40 different tokens that can be sent and couple of coins.
+
+[24:53] **tmr.erg**: And these are across Ergo, Cardano and Ethereum right now, is that correct?
+
+[25:00] **tmr.erg**: And Binance is just now, yeah, Binance just now started.
+
+[25:07] **tmr.erg**: What else is like coming down the pike?
+
+[25:10] **Armeanio**: So I think one of the most exciting things that we have been working towards is been wallet integrations, right?
+
+[25:20] **Armeanio**: So right now we have this application that the user needs to go to find and it kind of creates additional friction and complexity in terms of like the bridging process.
+
+[25:32] **Armeanio**: You know, I've been like,
+
+[25:35] **Armeanio**: I don't know, on the Nautilus wallet team since that came out, and MHS, who's my co-founder, has his own wallet actually, Minotaur, that he was working on in parallel.
+
+[25:46] **Armeanio**: And so our goal long-term was to say, okay, let's get the Ergo ecosystem wallet game kind of leveled up, and then we need to create an SDK to allow wallets to actually integrate Rosen into the interface.
+
+[26:02] **Armeanio**: which hopefully will make the bridging process itself a lot simpler because it's happening from a single UI rather than bouncing across the website and the web extension or the node wallet or wherever you're coming in from.
+
+[26:17] **Armeanio**: I do think in terms of the front-facing aspect of Rosen, that's going to be a big development in 2025.
+
+[26:27] **Armeanio**: You know, part of the reason why, you know, we were, I don't know, maybe a little bit slow out of the gate with that is when you create an open SDK, you, I don't know, you kind of create this parallel incentive to where
+
+[26:40] **Armeanio**: There's an opportunity for somebody to integrate a thing that looks like Rosen wallet.
+
+[26:46] **Armeanio**: That's not right.
+
+[26:49] **Armeanio**: That's like the downside to open source code sometimes is it's like, okay, you've just given this recipe that somebody can tweak with and say, okay, well now you're using Rosen bridge, but actually you're bridging to my wallet.
+
+[27:00] **Armeanio**: Yeah, so you got to have enough there to like make it super obvious that yeah, we need we need awareness in that because that does happen sometimes where you have like fraudulent front ends and that type of that type of nonsense in the crypto space.
+
+[27:16] **Armeanio**: But I think we finally matured enough, at least on the wallet side, where we have a pretty good foundation to start plugging that into.
+
+[27:24] **Armeanio**: And then we can start working with external partners, right?
+
+[27:27] **Armeanio**: We can say, OK, some of the Cardano wallets that could potentially support Rosen in the interface and long term.
+
+[27:37] **Armeanio**: My hope is that we can take a lot of these assets, you know, let's say Ergo as an example that is traditionally seen some friction in terms of how to access Ergo, how to buy it.
+
+[27:49] **Armeanio**: and put it in consumer facing, wallets that are very, you know, they, that have adoption, you know, and when Ergo or RS ERG can be bought in Coinbase wallet and phantom wallet and that it's like, okay, suddenly we can not only leverage the liquidity of other environments, but we also have like this ability to use all the tooling built around them, which is exciting.
+
+[28:18] **tmr.erg**: Yeah, man.
+
+[28:19] **tmr.erg**: And just like to that point, I was looking at this chart and I see is that 3 million ERG, 3 million ERG are currently on the bridge.
+
+[28:27] **Armeanio**: So one of my personal goals when we were designing Rosen is it was like, okay, at some point I'm hoping that the liquidity in Rosen is equal or greater to the amount that's held on exchanges, right?
+
+[28:48] **Armeanio**: Because I know the cost of those listings.
+
+[28:52] **Armeanio**: Right, so I can't just say hey, this is how much it was openly I'm sure people can audit it because everything the Ergo Foundation did was transparent But it's like that that gives me a real Like numerical value in terms of the market that I've created and how much it would cost and pair work with a third party and so right now You know Rosen is one of the largest
+
+[29:16] **Armeanio**: exchanges in simple terms.
+
+[29:19] **Armeanio**: So that kind of makes me look back and say, okay, well, the cost savings was definitely worth it and market that no longer is beholden to regulations or a company's internal risk assumptions.
+
+[29:35] **Armeanio**: Because at any point, any one of these exchanges could, in theory, pull an FTX and blow up.
+
+[29:43] **Armeanio**: You know, not only do we have the regulatory risk, but you have their own like internal risk in terms of how they manage assets and leverage and hacks and all this.
+
+[29:52] **tmr.erg**: Yeah.
+
+[29:53] **tmr.erg**: And now you have this system that includes hundreds of people and is open to including more people if they wish that is securing this portion of the supply.
+
+[30:05] **tmr.erg**: That's really amazing.
+
+[30:06] **tmr.erg**: Good work, man.
+
+[30:07] **tmr.erg**: Thank you.
+
+[30:08] **tmr.erg**: I thought this page was really interesting as well.
+
+[30:11] **tmr.erg**: You can just like a live view of everything that's going on.
+
+[30:15] **tmr.erg**: And you can see kind of what's getting sent from where to where.
+
+[30:20] **tmr.erg**: You can check yours.
+
+[30:21] **tmr.erg**: You send yours.
+
+[30:22] **tmr.erg**: It's like, oh, it's been like 30 minutes.
+
+[30:23] **tmr.erg**: What happened?
+
+[30:24] **tmr.erg**: And you can see, OK, I'm good.
+
+[30:27] **tmr.erg**: I'm good.
+
+[30:28] **tmr.erg**: Just be patient.
+
+[30:30] **tmr.erg**: And the whole thing is just really easy to use.
+
+[30:33] **tmr.erg**: So when I look at this, it's really just picking, where am I going from?
+
+[30:38] **tmr.erg**: Where am I going?
+
+[30:39] **tmr.erg**: And then you plug your address in and then you select the token that you're sending and the amount.
+
+[30:47] **tmr.erg**: Then you get a depiction of your fees and the cost of transfer.
+
+[30:51] **tmr.erg**: I know some people kind of, they didn't like the time.
+
+[30:58] **tmr.erg**: They wanted it to be faster and then they also wanted it to be cheaper, of course.
+
+[31:03] **tmr.erg**: But really this was really intentional and I think I understand why
+
+[31:08] **tmr.erg**: things are the way they are and you know it's like you're paying for, you get what you pay for.
+
+[31:14] **Armeanio**: Well you know even if you were to like spin up a phantom wallet right now and build a bridge from say like Solana to Ethereum right in that inner wallet bridge it's actually the exact same cost and the difference is instead of being distributed to like a
+
+[31:31] **Armeanio**: open group of watchers, that just goes to one party.
+
+[31:35] **Armeanio**: So like on a fee footing, we're actually, you know, pretty much in alignment with where the industry is, you know, in terms of like bridging.
+
+[31:46] **Armeanio**: The difference is where the payment goes.
+
+[31:48] **tmr.erg**: Yeah, yeah, that's really good, man.
+
+[31:52] **tmr.erg**: That's really good.
+
+[31:53] **tmr.erg**: I get it.
+
+[31:54] **tmr.erg**: I think what you're doing is important.
+
+[31:57] **tmr.erg**: And and I hope that that people from the other ecosystems can
+
+[32:02] **tmr.erg**: you know, watch this video, see other content and kind of recognize that it's not just like us fighting them for like the 400th rank in market cap total or whatever.
+
+[32:15] **tmr.erg**: Like, like, like, no, man, we're trying to make, build some value and and really like change what the whole top 100 top 50 projects looks like.
+
+[32:26] **tmr.erg**: Yeah.
+
+[32:26] **Armeanio**: And there's one little hidden bonus in Rosen that I really like.
+
+[32:31] **Armeanio**: That's just kind of a function of using the Ergo blockchain is and that's like when we create the initial like threshold based report on Ergo.
+
+[32:42] **Armeanio**: we create a transaction that pays miners downstream.
+
+[32:46] **Armeanio**: But we also create a box that lives on Ergo for about four years and it does have some ERG in it.
+
+[32:52] **Armeanio**: And then four years later, it's cleaned up and it pays miners again.
+
+[32:57] **Armeanio**: So every Rosen transaction technically will pay Ergo miners twice.
+
+[33:02] **Armeanio**: Wow.
+
+[33:03] **tmr.erg**: Yeah, that's cool.
+
+[33:04] **tmr.erg**: Storage rent strikes again.
+
+[33:06] **Armeanio**: Yeah, so long term, you know, it's like if we can connect to enough ecosystems and get enough transactions through, we're actually paying miners twice for every transaction, plus we're paying this, you know, set of watchers on top of Ergo.
+
+[33:21] **Armeanio**: And ultimately, I do think that profit distribution is the greatest power of blockchain, right?
+
+[33:30] **Armeanio**: That's its superpower and unfortunately, I think more and more we're seeing profit extraction being used as the superpower of blockchain, which is backwards.
+
+[33:42] **Armeanio**: Yeah.
+
+[33:43] **tmr.erg**: Yeah.
+
+[33:46] **tmr.erg**: So is there anything, any place we should send people who want to learn more about Rosen, maybe how do you participate as a watcher or
+
+[33:54] **tmr.erg**: How do you connect your chain, those types of things?
+
+[33:58] **Armeanio**: Sure.
+
+[33:59] **Armeanio**: I would say that in terms of the general public, if they want to learn about it, I think one of the best places would be the Discord or Telegram for Rosen Bridge.
+
+[34:11] **Armeanio**: And part of the reason why is because we have all of these infrastructure providers that are constantly checking and updating and actively providing system services to Rosen.
+
+[34:23] **Armeanio**: And so you have like a depth of knowledge that is me plus 200.
+
+[34:27] **Armeanio**: And I would say collectively, the 200 are better than me actually at troubleshooting and figuring out exactly what's going on with
+
+[34:36] **Armeanio**: you know, different problems, tweaks, aspects of the system because they're, you know, like actively incentivized to participate.
+
+[34:45] **Armeanio**: You know, we do have Twitter where we try to keep like the news feed rolling.
+
+[34:50] **Armeanio**: You know, we have Discord.
+
+[34:51] **Armeanio**: So it's something to, you know, kind of dig into in terms of like if a ecosystem
+
+[34:59] **Armeanio**: wants to join one of the things I've kind of done in parallel and again it's just based on like our own history at some point we were looking at bridges right and so you had a variety of
+
+[35:14] **Armeanio**: Let's say documentation, sometimes coming from an external system that's unique into something that's standardized is not really very straightforward.
+
+[35:25] **Armeanio**: And so we started really trying to cook documentation and onboarding stuff with DogeChain, which is in the kind of integration stages of development.
+
+[35:38] **Armeanio**: We'll probably see that live.
+
+[35:41] **Armeanio**: I don't know.
+
+[35:41] **Armeanio**: I say two weeks just because we always need end-to-end tests and everything.
+
+[35:48] **Armeanio**: I'm hoping that that comes with sufficient documentation to where, especially anything that's a Bitcoin fork, it should be relatively straightforward to follow and say, okay, you know, that's potentially just that's a lot of value.
+
+[36:02] **Armeanio**: You have Bitcoin Cash Litecoin.
+
+[36:05] **Armeanio**: You know, I think Flux is a fork of Bitcoin, Namecoin, you know, a lot of different stuff out there that use kind of the Bitcoin
+
+[36:16] **Armeanio**: model and extended it in some way and the same is true with the EVM right having Ethereum integrated really opens us up to the potential to move across like EVM compatible environments which I think will happen naturally but
+
+[36:36] **Armeanio**: Again, one of the greatest benefits of Ergo itself and, you know, Rosen is non-compatible environment.
+
+[36:44] **Armeanio**: So how do we work with these systems that are, you know, really unique?
+
+[36:48] **Armeanio**: You know, one of my personal goals just for
+
+[36:52] **Armeanio**: I don't know, funsies, let's call it, is going to be to create thresholds on top of Monero and relist Monero on different exchange environments.
+
+[37:05] **Armeanio**: Because that is ultimately going to be a great test of, OK, we tried to build the system to be resilient.
+
+[37:11] **Armeanio**: So let's break a rule and see what happens, right?
+
+[37:14] **Armeanio**: Yep.
+
+[37:15] **Armeanio**: You've got to stress test it at some point.
+
+[37:17] **Armeanio**: And I think that's a great way to do it.
+
+[37:19] **Armeanio**: And also potentially say, hey, this is why we built the system.
+
+[37:24] **Armeanio**: Because Monero is famous for crossing the line and getting delisted from markets, which has been kind of painful for them.
+
+[37:35] **Armeanio**: But their community has adapted really well.
+
+[37:38] **tmr.erg**: Yeah.
+
+[37:39] **tmr.erg**: Yeah.
+
+[37:40] **tmr.erg**: Right on.
+
+[37:40] **tmr.erg**: Hey, well, I think this was a lot of really good information, Joe.
+
+[37:43] **tmr.erg**: I appreciate you taking the time to meet with me and explain all this stuff.
+
+[37:47] **tmr.erg**: And also just like thanks.
+
+[37:49] **tmr.erg**: Thanks for being a good representative of a lot of the same values that I try to put out into the world and for doing just good work all around.
+
+[37:58] **tmr.erg**: So good on you, man.
+
+[37:59] **tmr.erg**: Appreciate it.
+
+[38:00] **tmr.erg**: Yeah.
+
+[38:00] **tmr.erg**: All right.
+
+[38:01] **tmr.erg**: Have a good day, sir.
+
+[38:02] **tmr.erg**: You too.

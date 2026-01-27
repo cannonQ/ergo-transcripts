@@ -1,0 +1,55 @@
+[00:13] **AI**: Let's talk about user experience and transaction states in a proof-of-work UTXO chain.
+
+[00:20] **AI**: In the classic approach, there are only two transaction states, unconfirmed and confirmed.
+
+[00:25] **AI**: For a seamless user experience, this is not enough.
+
+[00:29] **AI**: We need at least four.
+
+[00:31] **AI**: Let's look at an ERG to Dexy Gold swap as an example.
+
+[00:35] **AI**: We exchange ERG for one Dexy Gold.
+
+[00:38] **AI**: On the left, our transaction appears immediately.
+
+[00:41] **AI**: At the same time the wallet opens, we sign and send the transaction.
+
+[00:46] **AI**: The transaction enters the mempool, and two to four minutes later it is included in a new block.
+
+[00:52] **AI**: A transaction can also be cancelled at any moment, either by the user or by the network.
+
+[00:58] **AI**: In the positive case, the transaction passes through three stages: prepared, in mempool, confirmed.
+
+[01:05] **AI**: Everything starts with the status prepared.
+
+[01:08] **AI**: This is what the user should see immediately after pressing the swap button.
+
+[01:12] **AI**: A short double blink draws attention to the change, and the status icon remains visible as a bar loader.
+
+[01:18] **AI**: After the user sends the transaction, it moves to the In Mempool status.
+
+[01:22] **AI**: The status icon switches to a circular loader.
+
+[01:25] **AI**: When the transaction is successfully included in a block, its status changes to Confirmed.
+
+[01:31] **AI**: The transition is accompanied by a double blink with green highlighting, and the icon turns into a checkmark.
+
+[01:38] **AI**: Now let's examine all the cases where a transaction changes to the cancelled status.
+
+[01:43] **AI**: First, the user cancels the transaction in the wallet.
+
+[01:46] **AI**: Second, the user signs and sends it, but it is rejected by the mempool.
+
+[01:52] **AI**: Third, the user sends the transaction.
+
+[01:55] **AI**: It appears in the mempool, but is later replaced by another one through a higher fee.
+
+[02:00] **AI**: Fourth, the transaction is in the mempool, but its input box becomes invalid.
+
+[02:06] **AI**: Fifth, after the transaction enters a new block and receives the confirmed status, a block reorganization occurs.
+
+[02:13] **AI**: Any transition to the cancelled status is accompanied by a shake animation with red highlighting and the icon switches to a cross.
+
+[02:21] **AI**: Thank you for watching.
+
+[02:22] **AI**: Always remember to provide real-time feedback to your users.

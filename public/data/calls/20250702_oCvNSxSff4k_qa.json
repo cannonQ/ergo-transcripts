@@ -1,0 +1,134 @@
+{
+  "call_date": "2025-07-02",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "00:40",
+      "question": "What is Lithos and how does it work?",
+      "asker": "implicit",
+      "answer": "Lithos is a decentralized mining pool protocol that allows miners to connect to smart contract-based mining pools. These smart contracts ensure fairness, give complete control of block production to individual miners, and miners using Lithos can select storage rent, select transactions, and earn ERG through collateralization.",
+      "responder": "Cheese Enthusiast",
+      "category": "mining",
+      "difficulty": "beginner",
+      "related_terms": [
+        "decentralized mining",
+        "smart contracts",
+        "storage rent",
+        "collateralization"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "01:10",
+      "question": "What are the main benefits of using Lithos for mining?",
+      "asker": "implicit",
+      "answer": "Lithos gives miners complete control of block production, allowing them to select transactions, gain ERG through MEV, and choose UTXOs for demurrage or storage rent. Payments are controlled by smart contracts ensuring transparency and fairness, and miners can earn ERG through collateralizing mining pools.",
+      "responder": "Cheese Enthusiast",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "MEV",
+        "UTXOs",
+        "demurrage",
+        "smart contracts",
+        "collateralization"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "02:11",
+      "question": "Why is the difficulty parameter important in Lithos mining?",
+      "asker": "implicit",
+      "answer": "The Lithos client is locally run, giving miners full control over the difficulty parameter. Unlike other mining pools where share difficulty mainly affects network load, in Lithos the difficulty parameter can tweak your profit levels by manipulating reward consistency and the amount of ERG you get per block.",
+      "responder": "Cheese Enthusiast",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "difficulty parameter",
+        "stratum server",
+        "reward consistency",
+        "share difficulty"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "03:24",
+      "question": "How does Lithos' payment system differ from traditional mining pools?",
+      "asker": "implicit",
+      "answer": "Lithos doesn't use traditional payment systems like pay per share or pay per last end shares. Instead, it uses a new system based on non-interactive share proofs, where changing the difficulty parameter within this system changes how you are paid and how much you're paid.",
+      "responder": "Cheese Enthusiast",
+      "category": "mining",
+      "difficulty": "advanced",
+      "related_terms": [
+        "non-interactive share proofs",
+        "pay per share",
+        "PPLS",
+        "payment systems"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "04:07",
+      "question": "How is the initial difficulty parameter set in Lithos?",
+      "asker": "implicit",
+      "answer": "When you first start mining with the Lithos client, your difficulty parameter is automatically set based on your hash rate. For example, if you have 500 mega hashes, your difficulty parameter in the configuration file will be set to 500M. Once set, you're free to adjust it up or down according to your preferences.",
+      "responder": "Cheese Enthusiast",
+      "category": "mining",
+      "difficulty": "beginner",
+      "related_terms": [
+        "hash rate",
+        "configuration file",
+        "difficulty adjustment"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "06:06",
+      "question": "What happens when you adjust the difficulty parameter in Lithos?",
+      "asker": "implicit",
+      "answer": "Adjusting difficulty proportionally increases the ERG per payment while being inversely proportional to payment frequency. Increasing difficulty means more ERG per payment but fewer payments, while decreasing difficulty means less ERG per payment but more frequent payments.",
+      "responder": "Cheese Enthusiast",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "difficulty adjustment",
+        "payment frequency",
+        "ERG rewards",
+        "proportional rewards"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "08:42",
+      "question": "Does increasing difficulty guarantee more earnings in Lithos?",
+      "asker": "implicit",
+      "answer": "No, increasing difficulty doesn't guarantee more ERG over time. While it increases ERG per payment, the instability of payments with high difficulty balances out the increase. Over long periods, earnings balance out to be proportional to your share of the pool's hash rate regardless of difficulty setting.",
+      "responder": "Cheese Enthusiast",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "earnings stability",
+        "hash rate proportion",
+        "payment instability",
+        "long-term earnings"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "12:55",
+      "question": "What mining features will be available in the Lithos testnet?",
+      "asker": "implicit",
+      "answer": "The Lithos testnet will include difficulty adjustment and automatic demurrage collection by the client. MEV and transaction selection features won't be integrated into the UI initially but can theoretically be manually implemented since they're supported by the protocol.",
+      "responder": "Cheese Enthusiast",
+      "category": "mining",
+      "difficulty": "beginner",
+      "related_terms": [
+        "testnet",
+        "demurrage",
+        "MEV",
+        "transaction selection",
+        "UI features"
+      ]
+    }
+  ]
+}
