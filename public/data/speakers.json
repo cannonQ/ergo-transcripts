@@ -5,17 +5,17 @@
     "bio": "",
     "avatar": "",
     "stats": {
-      "calls": 17,
-      "decisions": 10,
-      "topics": 140,
-      "quotes": 101
+      "calls": 21,
+      "decisions": 19,
+      "topics": 173,
+      "quotes": 194
     },
     "top_topics": [
-      "Sigmanauts",
+      "peer-to-peer-networks",
       "Rosen-guards",
       "miners",
-      "peer-to-peer-networks",
-      "Infrastructure DAO"
+      "community-dinner",
+      "dark-tokens"
     ],
     "typical_topics": [
       "community",
@@ -31,17 +31,17 @@
     "bio": "",
     "avatar": "",
     "stats": {
-      "calls": 14,
-      "decisions": 8,
-      "topics": 117,
-      "quotes": 41
+      "calls": 18,
+      "decisions": 18,
+      "topics": 152,
+      "quotes": 92
     },
     "top_topics": [
-      "dexy protocol",
-      "ergo technical details",
+      "packages",
+      "bitcoin-comparison",
       "miners",
-      "bounties",
-      "oracles"
+      "community-dinner",
+      "ergo technical details"
     ],
     "full_name": "Alexander Chepurnoy",
     "accent": "Russian",
@@ -52,43 +52,21 @@
     ]
   },
   {
-    "name": "Grayman",
-    "role": "Community Member",
-    "bio": "",
-    "avatar": "",
-    "stats": {
-      "calls": 9,
-      "decisions": 3,
-      "topics": 75,
-      "quotes": 9
-    },
-    "top_topics": [
-      "SilverCents",
-      "participation",
-      "voting",
-      "sigmanauts"
-    ],
-    "accent": "American",
-    "typical_topics": [
-      "silver cents"
-    ]
-  },
-  {
     "name": "armeanio",
     "role": "co-founder Rosen Bridge, former Ergo Foundation Member",
     "bio": "",
     "avatar": "",
     "stats": {
-      "calls": 7,
-      "decisions": 4,
-      "topics": 66,
-      "quotes": 64
+      "calls": 10,
+      "decisions": 6,
+      "topics": 94,
+      "quotes": 121
     },
     "top_topics": [
-      "credit-expansion",
+      "packages",
       "fair-launch",
       "Machina Finance",
-      "participation",
+      "bitcoin-comparison",
       "peer-to-peer-networks"
     ],
     "full_name": "Joseph Armeanio",
@@ -103,22 +81,45 @@
     ]
   },
   {
+    "name": "Grayman",
+    "role": "Community Member",
+    "bio": "",
+    "avatar": "",
+    "stats": {
+      "calls": 9,
+      "decisions": 6,
+      "topics": 75,
+      "quotes": 18
+    },
+    "top_topics": [
+      "community-dinner",
+      "participation",
+      "dark-tokens",
+      "SilverCents",
+      "testnet"
+    ],
+    "accent": "American",
+    "typical_topics": [
+      "silver cents"
+    ]
+  },
+  {
     "name": "HQ3rr",
     "role": "Developer",
     "bio": "",
     "avatar": "",
     "stats": {
-      "calls": 6,
-      "decisions": 4,
-      "topics": 58,
-      "quotes": 44
+      "calls": 7,
+      "decisions": 6,
+      "topics": 68,
+      "quotes": 66
     },
     "top_topics": [
-      "Development",
-      "MewFinance",
       "sigmanauts",
+      "VoltPay",
+      "dark-tokens",
       "community-transition",
-      "VoltPay"
+      "testnet"
     ],
     "accent": "Pakistani",
     "typical_topics": [
@@ -137,19 +138,63 @@
     "bio": "",
     "avatar": "",
     "stats": {
-      "calls": 6,
+      "calls": 7,
       "decisions": 0,
-      "topics": 59,
-      "quotes": 9
+      "topics": 69,
+      "quotes": 18
     },
     "top_topics": [
-      "quarterly-costs",
-      "large-queries",
+      "community-dinner",
+      "explorers",
+      "developers-chat",
       "colorado-meetup",
-      "deleveraging",
-      "voting"
+      "deleveraging"
     ],
     "accent": "American"
+  },
+  {
+    "name": "AI",
+    "full_name": "",
+    "role": "Community Member",
+    "accent": "",
+    "bio": "",
+    "avatar": "",
+    "typical_topics": [],
+    "stats": {
+      "calls": 6,
+      "decisions": 1,
+      "topics": 58,
+      "quotes": 31
+    },
+    "top_topics": [
+      "dark-tokens",
+      "on-chain-identity",
+      "utxo-model",
+      "bitcoin",
+      "arduino"
+    ]
+  },
+  {
+    "name": "tmr.erg",
+    "full_name": "",
+    "role": "Community Member",
+    "accent": "",
+    "bio": "",
+    "avatar": "",
+    "typical_topics": [],
+    "stats": {
+      "calls": 5,
+      "decisions": 2,
+      "topics": 49,
+      "quotes": 11
+    },
+    "top_topics": [
+      "colorado-springs",
+      "market-access",
+      "conference",
+      "community-dinner",
+      "participation"
+    ]
   },
   {
     "name": "benzel",
@@ -164,10 +209,10 @@
     },
     "top_topics": [
       "colorado-springs",
-      "colorado-meetup",
-      "privacy",
-      "voting",
-      "testnet"
+      "community-dinner",
+      "dark-tokens",
+      "developers-chat",
+      "community-event"
     ],
     "accent": "American"
   },
@@ -183,10 +228,11 @@
       "quotes": 0
     },
     "top_topics": [
-      "credit-expansion",
+      "use-stablecoin",
+      "white-paper",
+      "basis",
       "arbitrage",
-      "$USE Stable Coin",
-      "dexy protocol"
+      "$USE Stable Coin"
     ],
     "accent": "Russian",
     "typical_topics": [
@@ -198,25 +244,29 @@
     ]
   },
   {
-    "name": "AI",
+    "name": "Marc the Shark",
     "full_name": "",
     "role": "Community Member",
-    "accent": "",
+    "accent": "American",
     "bio": "",
     "avatar": "",
-    "typical_topics": [],
+    "typical_topics": [
+      "Sigmanaut Mining DAO",
+      "Mining",
+      "Vibe Coding"
+    ],
     "stats": {
       "calls": 3,
-      "decisions": 0,
+      "decisions": 2,
       "topics": 30,
-      "quotes": 8
+      "quotes": 30
     },
     "top_topics": [
-      "native-token-staking",
-      "utxo-model",
-      "utxo",
-      "deleveraging",
-      "bitcoin"
+      "no-pre-mine",
+      "memory-hard",
+      "ergo-learning-curve",
+      "bitcoin",
+      "trust"
     ]
   },
   {
@@ -231,11 +281,11 @@
       "quotes": 2
     },
     "top_topics": [
-      "eutxo-native",
-      "p2p-dex",
+      "leverage",
       "risk-management",
-      "fleet-sdk",
-      "peer-to-peer-networks"
+      "peer-to-peer-networks",
+      "social-systems",
+      "fleet-sdk"
     ],
     "full_name": "Alison Robson",
     "accent": "Portuguese",
@@ -260,64 +310,16 @@
       "quotes": 0
     },
     "top_topics": [
-      "bitaxe",
-      "digital-farming",
       "peer-to-peer-networks",
-      "lithos",
+      "risk-management",
+      "digital-farming",
+      "bitaxe",
       "SC Audits"
     ],
     "accent": "Canadian",
     "typical_topics": [
       "Gluon",
       "Palmyra"
-    ]
-  },
-  {
-    "name": "Marc the Shark",
-    "full_name": "",
-    "role": "Community Member",
-    "accent": "American",
-    "bio": "",
-    "avatar": "",
-    "typical_topics": [
-      "Sigmanaut Mining DAO",
-      "Mining",
-      "Vibe Coding"
-    ],
-    "stats": {
-      "calls": 2,
-      "decisions": 0,
-      "topics": 20,
-      "quotes": 10
-    },
-    "top_topics": [
-      "no-pre-mine",
-      "deleveraging",
-      "bitcoin",
-      "memory-hard",
-      "trust"
-    ]
-  },
-  {
-    "name": "tmr.erg",
-    "full_name": "",
-    "role": "Community Member",
-    "accent": "",
-    "bio": "",
-    "avatar": "",
-    "typical_topics": [],
-    "stats": {
-      "calls": 2,
-      "decisions": 0,
-      "topics": 19,
-      "quotes": 0
-    },
-    "top_topics": [
-      "participation",
-      "colorado-meetup",
-      "colorado-springs",
-      "garden-of-the-gods",
-      "inv-messages"
     ]
   },
   {
@@ -337,8 +339,10 @@
       "quotes": 0
     },
     "top_topics": [
-      "MindHealer",
       "testing",
+      "cost-reduction",
+      "sigma-sdk",
+      "MindHealer",
       "block-timing"
     ]
   },
@@ -358,10 +362,10 @@
     },
     "top_topics": [
       "hosting-migration",
-      "sigmanauts",
-      "twitter",
       "testing",
-      "block-timing"
+      "cost-reduction",
+      "community-hosting",
+      "sigma-sdk"
     ]
   },
   {
@@ -384,11 +388,88 @@
       "quotes": 0
     },
     "top_topics": [
-      "sigmanauts",
-      "mewfinance",
+      "ecosystem-circulation",
+      "on-chain-voting",
       "miners",
-      "vanity-address",
-      "ecosystem-circulation"
+      "bounties",
+      "testnet"
+    ]
+  },
+  {
+    "name": "Cheese Enthusiast",
+    "role": "Lithos Lead Developer",
+    "bio": "",
+    "avatar": "",
+    "stats": {
+      "calls": 2,
+      "decisions": 0,
+      "topics": 20,
+      "quotes": 17
+    },
+    "top_topics": [
+      "getblock.io",
+      "peer-to-peer-networks",
+      "risk-management",
+      "bitcoin",
+      "stratum-server"
+    ],
+    "full_name": "Kirat Singh",
+    "accent": "American",
+    "typical_topics": [
+      "lithos protocol",
+      "AVL Trees",
+      "Mining",
+      "GPU"
+    ]
+  },
+  {
+    "name": "Dan Friedman",
+    "full_name": "Dan Friedman",
+    "role": "Community Member, Ergo Foundation Advisor",
+    "accent": "American",
+    "bio": "",
+    "avatar": "",
+    "typical_topics": [
+      "Palmyra",
+      "development",
+      "business"
+    ],
+    "stats": {
+      "calls": 2,
+      "decisions": 0,
+      "topics": 18,
+      "quotes": 0
+    },
+    "top_topics": [
+      "zengate",
+      "opportunity-inclusion",
+      "node-release",
+      "dan-friedman",
+      "dependencies"
+    ]
+  },
+  {
+    "name": "Josemi",
+    "full_name": "",
+    "role": "Community Member",
+    "accent": "",
+    "bio": "",
+    "avatar": "",
+    "typical_topics": [
+      "Bene"
+    ],
+    "stats": {
+      "calls": 2,
+      "decisions": 0,
+      "topics": 20,
+      "quotes": 14
+    },
+    "top_topics": [
+      "gluon-gold",
+      "immutable-services",
+      "gopweb-portal",
+      "goal-achievement",
+      "ai-challenges"
     ]
   },
   {
@@ -410,33 +491,6 @@
     ]
   },
   {
-    "name": "Cheese Enthusiast",
-    "role": "Lithos Lead Developer",
-    "bio": "",
-    "avatar": "",
-    "stats": {
-      "calls": 1,
-      "decisions": 0,
-      "topics": 10,
-      "quotes": 9
-    },
-    "top_topics": [
-      "getblock.io",
-      "smart-pools",
-      "risk-management",
-      "peer-to-peer-networks",
-      "decentralization"
-    ],
-    "full_name": "Kirat Singh",
-    "accent": "American",
-    "typical_topics": [
-      "lithos protocol",
-      "AVL Trees",
-      "Mining",
-      "GPU"
-    ]
-  },
-  {
     "name": "Aberg",
     "full_name": "",
     "role": "Community Member, Marketing",
@@ -451,10 +505,10 @@
       "quotes": 0
     },
     "top_topics": [
-      "voting",
-      "paid-marketing",
       "skin-in-the-game",
-      "community-marketing",
+      "sub-blocks",
+      "paid-marketing",
+      "block-parameters",
       "ergo-6.0"
     ]
   },
@@ -473,11 +527,133 @@
       "quotes": 0
     },
     "top_topics": [
-      "sigma-chains",
-      "horizontal-scaling",
       "mining-sustainability",
+      "dark-tokens",
       "layer-2",
-      "dark-tokens"
+      "horizontal-scaling",
+      "privacy"
+    ]
+  },
+  {
+    "name": "Bruno",
+    "full_name": "Dr. Bruno Woltzenlogel Paleo",
+    "role": "Community Member",
+    "accent": "German",
+    "bio": "",
+    "avatar": "",
+    "typical_topics": [
+      "Gluon",
+      "Gluon Gold",
+      "SigUSD",
+      "Stability Nexus",
+      "Bene",
+      "Unstoppable Hackathon"
+    ],
+    "stats": {
+      "calls": 1,
+      "decisions": 1,
+      "topics": 10,
+      "quotes": 3
+    },
+    "top_topics": [
+      "vulnerabilities",
+      "security-audit",
+      "krasavice-blazen",
+      "gold-backed",
+      "gluon-golden-ergo"
+    ]
+  },
+  {
+    "name": "Mick",
+    "full_name": "",
+    "role": "Community Member",
+    "accent": "",
+    "bio": "",
+    "avatar": "",
+    "typical_topics": [],
+    "stats": {
+      "calls": 1,
+      "decisions": 0,
+      "topics": 10,
+      "quotes": 0
+    },
+    "top_topics": [
+      "deck-builder",
+      "api-integrations",
+      "passion-project",
+      "team-collaboration",
+      "development-delays"
+    ]
+  },
+  {
+    "name": "Mehrdad",
+    "full_name": "",
+    "role": "Community Member",
+    "accent": "",
+    "bio": "",
+    "avatar": "",
+    "typical_topics": [],
+    "stats": {
+      "calls": 1,
+      "decisions": 0,
+      "topics": 10,
+      "quotes": 0
+    },
+    "top_topics": [
+      "transaction-history",
+      "pattern",
+      "data-connectors",
+      "real-time-data",
+      "blockchain-integration"
+    ]
+  },
+  {
+    "name": "Arohbe",
+    "full_name": "",
+    "role": "Community Member",
+    "accent": "American",
+    "bio": "",
+    "avatar": "",
+    "typical_topics": [
+      "GPU",
+      "Mining",
+      "lithos protocol",
+      "Degens.world"
+    ],
+    "stats": {
+      "calls": 1,
+      "decisions": 3,
+      "topics": 10,
+      "quotes": 8
+    },
+    "top_topics": [
+      "proof-of-work-mining",
+      "overclock-settings",
+      "lithos-protocol",
+      "mining-efficiency",
+      "temperature-monitoring"
+    ]
+  },
+  {
+    "name": "2ndTLMining",
+    "full_name": "",
+    "role": "Community Member",
+    "accent": "Australian",
+    "bio": "",
+    "avatar": "",
+    "typical_topics": [],
+    "stats": {
+      "calls": 1,
+      "decisions": 0,
+      "topics": 10,
+      "quotes": 6
+    },
+    "top_topics": [
+      "block-visualization",
+      "mining-pools",
+      "mempool",
+      "transaction-fees",
+      "pending-transactions"
     ]
   }
 ]
