@@ -1,0 +1,134 @@
+{
+  "call_date": "2025-09-11",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "06:29",
+      "question": "How does geographic distance affect node synchronization with faster sub-blocks?",
+      "asker": "qx()",
+      "answer": "The devnet testing spans good geographic distance with Sydney nodes in German data centers and Potato likely in America. This creates a good test environment, though the devnet is quite extreme with blocks every 30 seconds and 60 sub-blocks per block, meaning two sub-blocks per second.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "sub-blocks",
+        "node synchronization",
+        "devnet",
+        "P2P"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "07:47",
+      "question": "What is GitCircles and how does it work?",
+      "asker": "qx()",
+      "answer": "GitCircles is a project to create community currencies for digital development communities where you get tokens for committing to repositories. It has a Git bot and persistence layer already done, with the next steps being a GitHub application and Ergo blockchain integration. The plan is to test it manually first, then do airdrops to existing developer communities.",
+      "responder": "kushti",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "GitCircles",
+        "community currencies",
+        "developer tokens",
+        "GitHub integration"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "09:44",
+      "question": "Could GitCircles integrate with DAOs to automatically execute GitHub pull requests based on DAO votes?",
+      "asker": "qx()",
+      "answer": "Open source communities already act as DAOs off-chain with maintainers and rules for merging code. While technically possible, governance in open source is complex - even projects like Linux still depend heavily on single leaders like Linus Torvalds after 30 years. Off-chain governance structures may actually be more flexible than on-chain DAOs.",
+      "responder": "kushti",
+      "category": "governance",
+      "difficulty": "advanced",
+      "related_terms": [
+        "DAO",
+        "governance",
+        "open source",
+        "GitHub automation"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "14:26",
+      "question": "How would Bitcoin implement substantial changes like NIPoPoWs given their current governance model?",
+      "asker": "Grayman",
+      "answer": "Probably no chance. Bitcoin has been discussing UTXO commitments since 2012 which would enable blockchain pruning and lite client support, but they can't implement changes due to governance paralysis. In contrast, Ergo had NIPoPoWs support from day one, enabling light clients with full security.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "NIPoPoWs",
+        "Bitcoin governance",
+        "UTXO commitments",
+        "light clients"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "36:49",
+      "question": "Why is it so difficult to become an Ergo user, especially for donations and participation?",
+      "asker": "Ben",
+      "answer": "The onboarding process is complex - users must go to Coinbase, buy a coin, transfer to another exchange like KuCoin, swap for ERG, then send to an Ergo wallet. This creates significant friction compared to simple Apple Pay donations. The accessibility issue makes Ergo feel like a scarce resource rather than an accessible tool.",
+      "responder": "Ben",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "user experience",
+        "accessibility",
+        "onboarding",
+        "fiat integration"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "39:09",
+      "question": "How could Ergo raffles support fiat payments like Apple Pay to improve accessibility?",
+      "asker": "Ben",
+      "answer": "For Raffle version 2, the plan includes stable coin support and potentially bridges where you can get Ergo-supported stable coins in exchange for Apple Pay payments. This is achievable but requires development. Currently HodlCoin has VoltPay but doesn't support Apple Pay yet, and Banxa is the best option for US users.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Ergo raffles",
+        "fiat integration",
+        "stable coins",
+        "Banxa",
+        "VoltPay"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "52:47",
+      "question": "How does Ergo protect users from spam tokens and scam addresses?",
+      "asker": "qx()",
+      "answer": "Nautilus wallet has built-in options to ignore spam and NSFW tokens, which are marked by the Sigmanauts and Ergo Explorer communities and automatically hidden. Users can burn spam tokens using Terminus wallet or HodlCoin. Nautilus is also integrating community lists of known scammer addresses that will warn users before sending funds to flagged addresses.",
+      "responder": "qx()",
+      "category": "wallet",
+      "difficulty": "beginner",
+      "related_terms": [
+        "spam tokens",
+        "Nautilus wallet",
+        "Terminus wallet",
+        "community protection"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "50:37",
+      "question": "What is the Autolykos DAO and Venture Capital Collective?",
+      "asker": "Grayman",
+      "answer": "It's an experiment in on-chain governance on Ergo in a standard corporate form, led by LifeOfIFA. There's a token called Lykos representing shares in the enterprise. It's gone through a seed round, with a sow round coming up, followed by project funding rounds. The first project will be a payment gateway that accepts fiat payments and processes them into other currencies, with mixing capabilities involved.",
+      "responder": "Grayman",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Autolykos DAO",
+        "Lykos token",
+        "payment gateway",
+        "on-chain governance"
+      ]
+    }
+  ]
+}

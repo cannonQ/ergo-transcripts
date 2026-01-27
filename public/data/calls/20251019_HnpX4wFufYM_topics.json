@@ -1,0 +1,191 @@
+{
+  "call_date": "2025-10-19",
+  "call_title": "Staking w/UTXO Model - MGPai - Implementing Native Token Staking on Ergo | Ergo Meetup 2025",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Introduction and Background on Staking",
+      "category": "defi",
+      "start_time": "00:00",
+      "end_time": "02:33",
+      "primary_speaker": "MGPai",
+      "summary": "MGPai introduces the presentation on Palm staking using UTXO model, sharing experience from implementing native token staking on Cardano. He provides historical context about DeFi summer staking implementations like SushiSwap and PancakeSwap, explaining how staking incentivizes token holding to stabilize price movements.",
+      "key_terms": [
+        "Palm staking",
+        "UTXO model",
+        "native token staking",
+        "SushiSwap",
+        "PancakeSwap",
+        "DeFi summer",
+        "meme coins"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "UTXO vs Account Model Fundamentals",
+      "category": "technical",
+      "start_time": "02:38",
+      "end_time": "06:51",
+      "primary_speaker": "MGPai",
+      "summary": "Detailed explanation of UTXO model using cash and piggy bank analogies, comparing it to the account model used by Ethereum. UTXO model treats each transaction output as unique entities that must be fully spent, while account model maintains running balances like traditional bank accounts requiring global state.",
+      "key_terms": [
+        "UTXO",
+        "unspent transaction outputs",
+        "account model",
+        "Bitcoin",
+        "Ethereum",
+        "global state",
+        "cash analogy",
+        "piggy bank"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Staking Challenges on UTXO Model",
+      "category": "technical",
+      "start_time": "06:51",
+      "end_time": "10:45",
+      "primary_speaker": "MGPai",
+      "summary": "Explains why staking is naturally suited for account model's client-server interaction pattern with global state management. UTXO model faces significant bottlenecks including UTXO size limits, transaction size limits, and block size limits that prevent scaling to thousands of users.",
+      "key_terms": [
+        "client-server interaction",
+        "Solidity",
+        "contract storage",
+        "map data structure",
+        "bottlenecks",
+        "size limits",
+        "scalability"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Rethinking Staking for UTXO Architecture",
+      "category": "technical",
+      "start_time": "10:45",
+      "end_time": "13:21",
+      "primary_speaker": "MGPai",
+      "summary": "Discusses the need for constant-size data storage regardless of user count and examines existing solutions using position tokens or NFTs. Explains why derivative markets created by tradeable position tokens posed legal conflicts for ZenGate's specific use case.",
+      "key_terms": [
+        "constant size limit",
+        "position tokens",
+        "NFTs",
+        "derivative markets",
+        "legal conflicts",
+        "Crux Finance",
+        "ZenGate"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Merkle Tree Data Structure Overview",
+      "category": "technical",
+      "start_time": "13:15",
+      "end_time": "19:52",
+      "primary_speaker": "MGPai",
+      "summary": "Comprehensive introduction to Merkle trees as tree-based data structures using hashing. Demonstrates how Merkle trees enable efficient difference detection between states through root hash comparisons, using file system examples to show how changes propagate through the tree structure.",
+      "key_terms": [
+        "Merkle tree",
+        "AVL tree",
+        "hashing",
+        "root hash",
+        "nodes",
+        "branches",
+        "leaves",
+        "ErgoScript",
+        "native data structure"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Merkle Patricia Trie Implementation",
+      "category": "technical",
+      "start_time": "19:52",
+      "end_time": "22:23",
+      "primary_speaker": "MGPai",
+      "summary": "Explains Merkle Patricia Trie as an optimized version of Merkle Tree for key-value storage. Details the proving process involving known root hash, proof path, and claimed values, with verification through recomputing root hashes from traversal.",
+      "key_terms": [
+        "Merkle Patricia Trie",
+        "trie",
+        "key-value map",
+        "Patricia optimization",
+        "proof",
+        "traversal",
+        "membership proving"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Merkle Tree Integration with Staking",
+      "category": "defi",
+      "start_time": "22:23",
+      "end_time": "25:28",
+      "primary_speaker": "MGPai",
+      "summary": "Shows how client balances are stored in trie structure while only root hash (32 bytes) is stored on-chain, solving the constant size requirement. Contracts only perform verification rather than data storage, with all state mutations updating just the root hash while maintaining constant size.",
+      "key_terms": [
+        "client balances",
+        "root hash",
+        "32 bytes",
+        "constant size",
+        "on-chain storage",
+        "verification",
+        "state mutations"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Data Recovery and Security Model",
+      "category": "technical",
+      "start_time": "25:28",
+      "end_time": "31:40",
+      "primary_speaker": "MGPai",
+      "summary": "Addresses concerns about platform shutdown and data recovery by explaining how blockchain transaction history enables complete data reconstruction. Clarifies that raw data is provided through redeemers/context variables during transactions, with contracts performing verification rather than storage, maintaining security equivalent to contract security.",
+      "key_terms": [
+        "data recovery",
+        "blockchain traversal",
+        "redeemer",
+        "context variables",
+        "historical transactions",
+        "verification",
+        "contract security",
+        "node sizes"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Dynamic Emission Rate Improvements",
+      "category": "defi",
+      "start_time": "31:40",
+      "end_time": "33:50",
+      "primary_speaker": "MGPai",
+      "summary": "Describes enhancements to original static staking protocols by implementing dynamic emission rates that can adjust weekly without contract redeployment. This allows fine-grained control to respond to economic conditions and market volatility, such as incentivizing holding during price drops.",
+      "key_terms": [
+        "dynamic emissions",
+        "static emissions",
+        "epoch",
+        "weekly claims",
+        "inflation control",
+        "price movements",
+        "fine-grained control"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "AVL Tree Advantages and Q&A",
+      "category": "technical",
+      "start_time": "33:50",
+      "end_time": "45:49",
+      "primary_speaker": "MGPai",
+      "summary": "Explains AVL tree efficiency advantages over Merkle Patricia Trie including smaller proof sizes and cheaper transactions. Discussion covers decentralization concerns, permissioned protocols on Cardano, integration possibilities with Nautilus wallet, and current Palm staking deployment status on Cardano with potential future Ergo implementation.",
+      "key_terms": [
+        "AVL tree efficiency",
+        "proof sizes",
+        "transaction costs",
+        "Nautilus wallet",
+        "permissioned protocols",
+        "palm-economy.io",
+        "Palmyra RWA",
+        "code translation"
+      ]
+    }
+  ]
+}

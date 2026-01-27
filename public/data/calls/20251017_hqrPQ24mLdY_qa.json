@@ -1,0 +1,117 @@
+{
+  "call_date": "2025-10-17",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "05:08",
+      "question": "What projects are coming to fruition in Ergo this fall?",
+      "asker": "general discussion",
+      "answer": "Lithos is on the threshold of coming to fruition this fall. The presentation showed it's not even Ergo-specific - it can be applied to any mining chain, demonstrating the broad applicability of solutions being built on Ergo.",
+      "responder": "Grayman",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Lithos",
+        "mining",
+        "multi-chain"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "24:48",
+      "question": "What is Machina Finance and how does it solve liquidity issues?",
+      "asker": "general discussion",
+      "answer": "Machina Finance is a non-custodial trading system where you can assign assets to a bot within your wallet that trades within a grid against other traders doing the same thing. You can tell it to maximize your ERG stack or SigmaUSD stack without assets ever leaving the ecosystem. This creates passive liquidity without investors having to actively make trades, and assets never leave your wallet unlike centralized exchanges.",
+      "responder": "Grayman",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Machina Finance",
+        "liquidity",
+        "non-custodial",
+        "trading bots"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "27:50",
+      "question": "What advantages do AVL trees provide in Ergo compared to other platforms?",
+      "asker": "general discussion",
+      "answer": "AVL trees are built into Ergo's base layer, unlike other platforms where similar functionality is bolted on as an L2 solution creating an air gap. Developers like Karat and Luca initially didn't know what AVL trees were when Kushti suggested using them, but now they use them all the time for their projects. This demonstrates the foresight in Ergo's protocol design.",
+      "responder": "CannonQ",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "AVL trees",
+        "base layer",
+        "protocol design",
+        "Merkle trees"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "30:26",
+      "question": "What is the SilverCents concept and how would it work?",
+      "asker": "general discussion",
+      "answer": "SilverCents is a concept for local trade using pre-existing distributed silver coins (dimes, quarters) as tokenized currency. Vendors would act as a distributed banking system, issuing and redeeming silver-backed tokens. It leverages about $15 billion worth of silver coins already distributed across America as an uncensorable currency for local commerce.",
+      "responder": "Grayman",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "SilverCents",
+        "Chain Cash",
+        "local trade",
+        "silver coins",
+        "distributed banking"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "32:51",
+      "question": "What's needed to implement Dexy Silver or similar silver-backed stablecoins?",
+      "asker": "general discussion",
+      "answer": "The Gold Oracle Group discussed merging silver oracle code into the oracle pool implementation, making it possible to run a silver oracle pool. After that, it's mainly a question of liquidity bootstrapping to launch Dexy Silver or similar silver-backed tokens. There's also work on insurance schemes using digital commodities for physical commodity non-delivery risks.",
+      "responder": "Kushti",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Dexy Silver",
+        "oracle pools",
+        "liquidity bootstrapping",
+        "commodity insurance"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "39:47",
+      "question": "How would SilverCents differ from centralized approaches using credit unions or coin shops?",
+      "asker": "TMas",
+      "answer": "SilverCents is designed to be less centralized than using credit unions or coin shops. Vendors themselves act as the banks, and the most valuable thing on the network is the goods and services being traded, not the silver tokens. By using small denomination silver (junk silver), you can't accumulate enough to become a target for organized crime or tax authorities, and vendors maintain small portions of the banking function rather than centralizing it.",
+      "responder": "Grayman",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "SilverCents",
+        "decentralization",
+        "vendor banking",
+        "junk silver"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "24:15",
+      "question": "What transaction throughput numbers were demonstrated at the meetup?",
+      "asker": "general discussion",
+      "answer": "The presentation showed 3,601 transactions minimum and 16,000 maximum throughput capabilities, and this was without sub-blocks implementation. The numbers were described as 'mind blowing' by attendees.",
+      "responder": "qx()",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "throughput",
+        "transactions per second",
+        "sub-blocks",
+        "scalability"
+      ]
+    }
+  ]
+}

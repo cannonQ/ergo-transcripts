@@ -1,0 +1,149 @@
+{
+  "call_date": "2025-07-11",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - July 10th",
+  "decisions": [],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "13:36",
+      "commitment": "Will have another seed node update and inject sub-blocks supporting mining nodes into public testnet",
+      "owner": "kushti",
+      "timeline": "around next week, late July maybe",
+      "topic": "technical",
+      "quote": "probably around the next week yeah there will be another seed node update and yeah, we can start thinking about injecting sub-blocks, supporting mining nodes into public testnet from... late July maybe"
+    },
+    {
+      "id": 2,
+      "timestamp": "18:50",
+      "commitment": "Will publish Git Circle spec",
+      "owner": "kushti's friend",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "a friend of mine just finished Git Circle spec, for example, so it will be published"
+    },
+    {
+      "id": 3,
+      "timestamp": "19:18",
+      "commitment": "Will update Oracle pool SigmaUSD1 to version 2 and deploy",
+      "owner": "kushti",
+      "timeline": "unspecified",
+      "topic": "defi",
+      "quote": "we may think now about updating Oracle pool, the SigmaUSD1 to version 2, and then, yeah, deploy"
+    },
+    {
+      "id": 4,
+      "timestamp": "29:11",
+      "commitment": "Will publish white paper for Braid",
+      "owner": "kushti",
+      "timeline": "coming days maybe",
+      "topic": "sidechains",
+      "quote": "so still while writing white paper so yeah we will be published in coming days maybe"
+    },
+    {
+      "id": 5,
+      "timestamp": "32:44",
+      "commitment": "Will build machines and ship them to people who want to run P2P infrastructure",
+      "owner": "qx()",
+      "timeline": "next month or so",
+      "topic": "infrastructure",
+      "quote": "So that's on my task list for the next month or so. I'll build these machines up and then run and sync"
+    },
+    {
+      "id": 6,
+      "timestamp": "35:42",
+      "commitment": "Will write more about private chains and investigate them over weekends",
+      "owner": "kushti",
+      "timeline": "coming days and weekends",
+      "topic": "privacy",
+      "quote": "And yeah, over the weekend, some weekends, hopefully we'll investigate those private chains coming... So, yeah, well, we'll write more coming days"
+    },
+    {
+      "id": 7,
+      "timestamp": "36:56",
+      "commitment": "Will write something about sub-blocks",
+      "owner": "kushti",
+      "timeline": "August maybe",
+      "topic": "technical",
+      "quote": "and for sub-blocks i think to write something in august maybe"
+    },
+    {
+      "id": 8,
+      "timestamp": "47:09",
+      "commitment": "Will make more videos on sub-blocks this month",
+      "owner": "kushti",
+      "timeline": "this month",
+      "topic": "technical",
+      "quote": "And I have made more videos, for example, on sub-blocks this month"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "23:41",
+      "question": "What to incentivize precisely when incentivizing node running, especially with different modes of operation",
+      "context": "Discussion about incentivizing node operation",
+      "topic": "technical",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "26:33",
+      "question": "How to incentivize developers for merge mined sidechains development",
+      "context": "Planning for merge mined sidechains development in Rust",
+      "topic": "development",
+      "raised_by": "kushti"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "00:46",
+      "fact": "97% of miners have put the node in and are voting yes for 6.0",
+      "speaker": "qx()",
+      "topic": "governance"
+    },
+    {
+      "id": 2,
+      "timestamp": "21:21",
+      "fact": "6.1 has been running flawlessly on three peer-to-peer explorers",
+      "speaker": "qx()",
+      "topic": "technical"
+    },
+    {
+      "id": 3,
+      "timestamp": "21:39",
+      "fact": "Testnet has been down for 15 hours",
+      "speaker": "qx()",
+      "topic": "technical"
+    },
+    {
+      "id": 4,
+      "timestamp": "26:12",
+      "fact": "Merge mined sidechains will be done in Rust",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 5,
+      "timestamp": "32:44",
+      "fact": "Four or five people signed up for P2P infrastructure machines",
+      "speaker": "qx()",
+      "topic": "infrastructure"
+    },
+    {
+      "id": 6,
+      "timestamp": "34:41",
+      "fact": "Temperature is plus 41 Celsius in Dubai, closer to 50 probably in the city",
+      "speaker": "kushti",
+      "topic": "general"
+    },
+    {
+      "id": 7,
+      "timestamp": "36:06",
+      "fact": "BitVM 3 was announced three weeks ago and is already broken according to critical analysis two days ago",
+      "speaker": "kushti",
+      "topic": "technical"
+    }
+  ]
+}

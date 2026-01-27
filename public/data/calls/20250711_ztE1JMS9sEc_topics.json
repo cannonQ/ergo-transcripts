@@ -1,0 +1,222 @@
+{
+  "call_date": "2025-07-11",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - July 10th",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "6.0 Node Update Voting Progress",
+      "category": "governance",
+      "start_time": "00:39",
+      "end_time": "01:16",
+      "primary_speaker": "kushti",
+      "summary": "97% of miners are voting yes for the 6.0 node update. SigmaUSD team is still waiting to compile a modified node to participate in voting due to storage rent requirements.",
+      "key_terms": [
+        "6.0 voting",
+        "miners",
+        "SigmaUSD",
+        "storage rent"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Dubai Trip and Conference Plans",
+      "category": "marketing",
+      "start_time": "01:22",
+      "end_time": "04:11",
+      "primary_speaker": "kushti",
+      "summary": "Kushti is in Dubai for private meetings and planning to attend BTC Asia in Hong Kong and Korean Blockchain Week. He expresses skepticism about many blockchain conferences being filled with marketing people and scammers.",
+      "key_terms": [
+        "Dubai",
+        "BTC Asia",
+        "Korean blockchain week",
+        "conferences",
+        "marketing"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Building Useful Blockchain Applications",
+      "category": "ecosystem",
+      "start_time": "04:12",
+      "end_time": "11:20",
+      "primary_speaker": "qx()",
+      "summary": "Discussion about focusing on practical applications like Bricks, MewMart, and DAO tooling that people can actually use. QX proposes a pet tracking app as an example of how blockchain can provide cheaper alternatives to traditional services like pet chip tracking.",
+      "key_terms": [
+        "useful applications",
+        "Bricks",
+        "MewMart",
+        "DAO tooling",
+        "pet tracking",
+        "competitive capitalism"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Competitive Capitalism and Open Source Benefits",
+      "category": "ecosystem",
+      "start_time": "11:20",
+      "end_time": "12:56",
+      "primary_speaker": "kushti",
+      "summary": "Ergo promotes competitive capitalism without VCs or free money sponsoring parasitic activities. AI can help modify contracts even when source code isn't available, using ErgoTree descriptions on the blockchain.",
+      "key_terms": [
+        "competitive capitalism",
+        "VCs",
+        "AI",
+        "ErgoTree",
+        "open source"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Sub-blocks Development and Testing Progress",
+      "category": "technical",
+      "start_time": "12:56",
+      "end_time": "18:25",
+      "primary_speaker": "kushti",
+      "summary": "Sub-blocks implementation is progressing with updated DevNet seed nodes. Sub-blocks will be temporary entities for faster confirmation and higher TPS, while regular blocks serve as archival mechanism. Plans to inject sub-block support into public testnet by late July.",
+      "key_terms": [
+        "sub-blocks",
+        "DevNet",
+        "TPS",
+        "archival mechanism",
+        "testnet",
+        "pruning",
+        "NIPoPoWs"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Oracle Pool V2 and SigmaUSD Upgrade",
+      "category": "defi",
+      "start_time": "18:36",
+      "end_time": "21:11",
+      "primary_speaker": "kushti",
+      "summary": "With Dexy testing going well and bank reserves growing, it's time to update Oracle pool to version 2 and deploy SigmaUSD v2. Plans to expand to 15 working oracles and launch GleomUSD and DexyUSD as crypto-backed stablecoins.",
+      "key_terms": [
+        "Oracle pool",
+        "SigmaUSD v2",
+        "Dexy",
+        "GleomUSD",
+        "DexyUSD",
+        "crypto-backed stablecoins"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Testnet Mining Infrastructure Needs",
+      "category": "technical",
+      "start_time": "21:12",
+      "end_time": "25:28",
+      "primary_speaker": "kushti",
+      "summary": "Testnet mining is down and needs more miners for testing sub-blocks. Discussion about potentially rewarding testnet mining through side-chaining TestNet ERG to mainnet. Debate about incentivizing node running and what exactly should be incentivized.",
+      "key_terms": [
+        "testnet mining",
+        "side-chaining",
+        "node incentivization",
+        "proof-of-stake",
+        "mining pools"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Merge Mined Sidechains and Braid Project",
+      "category": "technical",
+      "start_time": "25:28",
+      "end_time": "29:22",
+      "primary_speaker": "kushti",
+      "summary": "Development starting on merge mined sidechains in Rust. Braid is announced as a double merge mined Bitcoin plus Ergo sidechain, with discussions ongoing with big Bitcoin mining pools for support. Plans for privacy-focused sidechains using Midnight technology.",
+      "key_terms": [
+        "merge mined sidechains",
+        "Braid",
+        "Bitcoin",
+        "Rust",
+        "Midnight",
+        "privacy",
+        "mining pools"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Colorado Meetup Planning Update",
+      "category": "community",
+      "start_time": "29:22",
+      "end_time": "32:30",
+      "primary_speaker": "qx()",
+      "summary": "October Colorado meetup planning progresses with building owner assistance. Hackathon topic will be decided by community vote and revealed during event. Streaming setup planned to show live coding with commentary.",
+      "key_terms": [
+        "Colorado meetup",
+        "hackathon",
+        "streaming",
+        "community vote",
+        "live coding"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "P2P Infrastructure Expansion Plans",
+      "category": "technical",
+      "start_time": "32:32",
+      "end_time": "34:14",
+      "primary_speaker": "qx()",
+      "summary": "Four to five people signed up for ready-to-go machines for P2P infrastructure. Plan to build secure network of known machines globally, then expand to community-run nodes with load balancing based on bandwidth capacity.",
+      "key_terms": [
+        "P2P infrastructure",
+        "load balancer",
+        "decentralized hosting",
+        "bandwidth",
+        "global network"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Private Chains Research and BitVM Analysis",
+      "category": "technical",
+      "start_time": "34:56",
+      "end_time": "36:56",
+      "primary_speaker": "kushti",
+      "summary": "Research ongoing into private chains including Aleo, Dark DeFi, and Midnight for potential sidechain implementation. BitVM 3 appears to be broken according to recent analysis, but BitVM 2 remains viable for trustless transfers.",
+      "key_terms": [
+        "private chains",
+        "Aleo",
+        "Dark DeFi",
+        "BitVM",
+        "trustless transfers",
+        "sidechain"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Pet Tracking App Technical Details",
+      "category": "ecosystem",
+      "start_time": "37:56",
+      "end_time": "40:16",
+      "primary_speaker": "qx()",
+      "summary": "Detailed explanation of proposed pet tracking app: encrypted information stored in smart contract, QR code contains decryption key, owners can update by spending UTXO. Demonstrates how blockchain can provide cheaper alternatives to traditional services.",
+      "key_terms": [
+        "pet tracking",
+        "smart contract",
+        "QR code",
+        "encryption",
+        "UTXO",
+        "cost reduction"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Bitcoin Wallet Movements and Privacy Discussion",
+      "category": "technical",
+      "start_time": "41:55",
+      "end_time": "46:06",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of 80k Bitcoin movement from 2011 wallets. Kushti explains this was common in early Bitcoin days when people had thousands of coins. Emphasizes need for privacy but notes it comes with efficiency trade-offs, especially for TPS.",
+      "key_terms": [
+        "Bitcoin",
+        "wallet movements",
+        "privacy",
+        "efficiency",
+        "TPS",
+        "shielded amounts"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "call_date": "2025-08-08",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA (COMMUNITY EDITION) - August 7th",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "14:56",
+      "decision": "InfraDAO has been built and is ready for initial members",
+      "speaker": "qx()",
+      "context": "The vote passed last week and qx() was given 50,000 Paideia tokens to build it",
+      "topic": "governance",
+      "significance": "major",
+      "quote": "So I built the InfraDAO. I have tokens. I minted 1,000 tokens a month ago or so."
+    },
+    {
+      "id": 2,
+      "timestamp": "06:51",
+      "decision": "SigmaLock contracts have been approved for deployment",
+      "speaker": "kushti",
+      "context": "kushti reviewed the contracts and sent notes to Luca",
+      "topic": "technical",
+      "significance": "major",
+      "quote": "Yeah, you guys can go ahead, I believe, with that."
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "03:16",
+      "commitment": "Node 6.1 release will be available",
+      "owner": "kushti",
+      "timeline": "later today, maybe tomorrow",
+      "topic": "technical",
+      "quote": "6.1 will be released later today, maybe tomorrow."
+    },
+    {
+      "id": 2,
+      "timestamp": "30:57",
+      "commitment": "Pay out MEW tutorial submission reward",
+      "owner": "kushti",
+      "timeline": "later today",
+      "topic": "community",
+      "quote": "Yeah, pay out reward. Later today, hopefully."
+    },
+    {
+      "id": 3,
+      "timestamp": "44:28",
+      "commitment": "Create notification service for Banxa withdrawals",
+      "owner": "Allison",
+      "timeline": "a week or two",
+      "topic": "technical",
+      "quote": "Allison's working with Banxa to create a notification service, so that will be a week or two, he said."
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "05:17",
+      "question": "Need to take a closer look at sub-blocks activation details",
+      "context": "Determining whether sub-blocks requires a soft fork for activation",
+      "topic": "technical",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "22:26",
+      "question": "Are new exchange listing options needed considering they're not really free and marketing campaigns probably won't work",
+      "context": "Received free listing offers that require paying for marketing campaigns",
+      "topic": "business",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 3,
+      "timestamp": "42:20",
+      "question": "Which protocol to plug the oracle into - Gluon or Dexy",
+      "context": "Both protocols are available for Silver Dexy implementation",
+      "topic": "rosen-bridge",
+      "raised_by": "Armeanio"
+    }
+  ],
+  "reversals_or_updates": [
+    {
+      "id": 1,
+      "timestamp": "34:32",
+      "previous": "Spectrum Network was an active project",
+      "update": "Spectrum Network is winding down",
+      "reason": "Not explicitly stated",
+      "speaker": "qx()",
+      "topic": "ecosystem"
+    }
+  ],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "14:43",
+      "fact": "InfraDAO has 1,000 tokens minted",
+      "speaker": "qx()",
+      "topic": "governance"
+    },
+    {
+      "id": 2,
+      "timestamp": "14:35",
+      "fact": "50,000 Paideia tokens were allocated for building InfraDAO",
+      "speaker": "qx()",
+      "topic": "governance"
+    },
+    {
+      "id": 3,
+      "timestamp": "19:49",
+      "fact": "Nautilus wallet now has a buy ERG button that connects to Banxa",
+      "speaker": "qx()",
+      "topic": "infrastructure"
+    },
+    {
+      "id": 4,
+      "timestamp": "04:45",
+      "fact": "Sub-blocks testing needs miners in a hybrid setting with different miners",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 5,
+      "timestamp": "39:36",
+      "fact": "Spectrum vault contracts support up to 1024 signers off-chain controlled by single public key on-chain",
+      "speaker": "kushti",
+      "topic": "technical"
+    }
+  ]
+}

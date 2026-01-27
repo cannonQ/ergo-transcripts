@@ -1,0 +1,731 @@
+[00:00] **qx()**: I think the third consecutive Community AMA, starting off with a few people today.
+[00:08] **qx()**: Hopefully we get more people to join in throughout the hour.
+[00:13] **qx()**: We've got with us Joseph Armeanio, who is enjoying his fake background at Rare Evil Vegas.
+[00:21] **qx()**: Looks good there, Joe.
+[00:22] **qx()**: We've got kushti, who is coming live from his kitchen, and we've got HQ.
+[00:29] **qx()**: Who knows where HQ is?
+[00:30] **qx()**: I don't know where HQ is.
+[00:31] **qx()**: Probably in a closet somewhere hiding from his sleeping bride, I'm assuming.
+[00:37] **qx()**: How you doing, HQ?
+[00:38] **qx()**: How you doing, guys?
+
+[00:40] **kushti**: Yeah, my work space.
+[00:42] **kushti**: So yeah, a lot of traffic in August, right?
+[00:47] **kushti**: Early August.
+[00:48] **kushti**: So yeah, it seems like most people are on vacations.
+[00:52] **kushti**: But yeah, we are here.
+[00:54] **kushti**: We're active.
+[00:55] **kushti**: So yeah, HQ, how are you doing?
+
+[01:03] **HQ3rr**: I thought I was living in all Ergonauts' hearts.
+[01:06] **HQ3rr**: But OK, I will just say that I live where I live.
+[01:10] **HQ3rr**: So yeah, good evening, everyone, and glad to be here.
+
+[01:15] **qx()**: Great, good night.
+[01:16] **qx()**: HQ, I heard you just came out with something new.
+[01:19] **qx()**: You woke up and you decided to write another thing.
+[01:21] **qx()**: What did you do, like a simple DAO or something it's called?
+
+[01:27] **HQ3rr**: What did I do?
+[01:28] **HQ3rr**: So that's the question.
+[01:29] **HQ3rr**: So I just finished paper wallet creations, paper wallet top-ups, and aid drops, and vanity address.
+[01:39] **HQ3rr**: And on the other side, I did some on-chain voting into the Alephium side.
+[01:45] **HQ3rr**: So yeah, I think I've done multiple stuff in the last three, yesterday.
+
+[01:51] **qx()**: Oh, nice.
+[01:52] **qx()**: So your simple voting is fully on Alephium.
+[01:55] **HQ3rr**: Yep.
+[01:56] **HQ3rr**: That's what they needed for that now.
+[01:58] **qx()**: Oh, cool.
+[01:59] **qx()**: Do they care about governance?
+
+[02:02] **HQ3rr**: Well, I told them to use Paideia, but I think it's not supported.
+[02:06] **qx()**: So no, I know.
+[02:07] **qx()**: It was a joke.
+[02:08] **qx()**: Okay.
+[02:09] **qx()**: Awesome.
+[02:10] **qx()**: Fantastic.
+[02:11] **qx()**: What else is up guys?
+[02:12] **qx()**: Before we dive into some topics that were suggested, what else is new guys?
+[02:16] **qx()**: Who wants to go next?
+
+[02:18] **kushti**: What's new?
+[02:20] **kushti**: So a lot of things.
+[02:24] **kushti**: We published something on the forum and we currently have super active discussions in the ChainCash group about the different stuff which I love like peer-to-peer currencies, ChainCash based monetary systems and so on.
+[02:45] **kushti**: Then preparing nodes 6.1 release and here after that we can start testing sub-blocks supporting mining nodes in the public testnet, I guess.
+
+[03:06] **kushti**: So, yeah, well, things are going quite well and 6.1 will be released later today, maybe tomorrow.
+[03:17] **kushti**: Moin is willing to do some additional tests.
+[03:21] **kushti**: So, yeah, let's see how it's going.
+
+[03:25] **kushti**: Then, yeah well for our sub-blocks some good progress but yeah the writing is at the beginning yeah going quite slowly but yeah maybe the weekend next week there will be a speed up here but yeah well in recent days mostly polished.
+[03:49] **kushti**: The implementation did commence and so on.
+[03:55] **kushti**: We will start to use LLM again to do more tests and so on.
+[04:06] **kushti**: Yeah, a lot of things.
+[04:08] **kushti**: Yeah, also published some forum posts on, well, better money labs and so on.
+[04:19] **kushti**: And we'll publish more different things in coming days.
+
+[04:26] **qx()**: What's your need look like for helping with sub-blocks testing?
+[04:30] **qx()**: Is it just going to roll out on the current testnet when we update that?
+
+[04:34] **kushti**: Yeah, so ideally we need miners, right?
+[04:38] **kushti**: So we have currently a miner which is not generating sub-blocks, right?
+[04:45] **kushti**: So it would be good to test a hybrid setting where there are different miners, right?
+[04:52] **kushti**: Because well, many deployment will look like that.
+[04:56] **kushti**: So it's not mandatory protocol update, right?
+[05:01] **kushti**: It's not a soft fork even.
+[05:03] **kushti**: No, it would be a soft fork at some point because you need to... 
+[05:12] **kushti**: You actually need to take a closer look to activation details.
+[05:17] **kushti**: But yeah, for public testnet, we just need for starters an additional miner.
+[05:26] **kushti**: So, well, we need to leave the current miner intact, right, and add another one with sub-blocks generation going on.
+[05:43] **kushti**: And then yeah, check inject maybe also some clients and then test how things are going.
+[05:56] **kushti**: Then, yeah, based on that starts planning mainnet activation, but yeah, we also need writing, right, and well, for some security audit.
+[06:12] **kushti**: So currently write some things in the codes, marking some places for like close security audits needed.
+
+[06:27] **qx()**: Speaking of security audits, I heard that you took a look over the SigmaLock contracts.
+[06:35] **qx()**: How did those look, kushti?
+
+[06:37] **kushti**: Yeah, so I sent some notes to Luca.
+[06:42] **kushti**: But yeah, well, in general, it looks good here.
+[06:51] **kushti**: Yeah, you guys can go ahead, I believe, with that.
+
+[06:56] **qx()**: Fantastic.
+[06:57] **qx()**: Fantastic.
+[06:58] **qx()**: Yeah, I think we're waiting on one of the pieces in the front end or something like that.
+[07:03] **qx()**: So we should hopefully... As I said last week, we'll test on testnet, I think, for now.
+[07:08] **qx()**: And then MGPi and I will move it over to our own infrastructure, Sigmanauts, and we'll open it up to the public.
+[07:16] **qx()**: So, excited about that.
+[07:18] **qx()**: That'll be fun.
+
+[07:19] **kushti**: All right, so what's the idea?
+[07:22] **qx()**: Did you post another kushti token on Mew?
+[07:27] **qx()**: Did you replenish that token or you haven't posted it yet?
+
+[07:33] **kushti**: Not yet.
+[07:33] **kushti**: So yeah, I actually thought to check some, well, Mew tutorial submissions today and send out Mew I received.
+[07:45] **kushti**: And yeah, for the rest, I can just put Mew along with ERG into a liquidity pool probably.
+[07:57] **kushti**: But yeah, well, we will do more token sales.
+
+[08:09] **kushti**: So yeah, it's actually quite, I think, exciting to do more like community work organized in such a form where you receive something and then put it in the rewards for other parties.
+
+[08:36] **kushti**: So yeah actually I think it could be a good time to start some raffle also for like two to three months maybe for another ergo devs fundraising ergo devs now because we always spending on something like we now need to pay for Keystone integration, right?
+[09:01] **kushti**: It's close.
+[09:05] **kushti**: Then, yeah, we paid for Sigma Rust 6.0 support and so on.
+[09:11] **kushti**: Yeah, so I don't know, maybe we can do fundraising for sub-blocks, security audit, or what else could be needed.
+[09:23] **kushti**: It's a merge-mined sidechains framework.
+[09:26] **kushti**: So hopefully, there will be some more serious funding for that.
+[09:32] **kushti**: But yeah, we can start with a raffle.
+[09:36] **kushti**: Or just for sub-blocks, maybe.
+[09:38] **kushti**: It's already quite good, right?
+
+[09:42] **qx()**: Cool.
+[09:43] **qx()**: What were you asking?
+[09:44] **qx()**: You were asking what we're going to do with SigmaLock?
+
+[09:48] **kushti**: Yeah, so from my observations, yeah, you guys had like few different use cases in mind, right?
+
+[10:03] **qx()**: Right.
+[10:04] **qx()**: The first most obvious one is a batching of assets to somebody else based on a time lock or a price, essentially.
+[10:12] **qx()**: So a simple contract that allows you to pass your tokens on to a child or a spouse or something like that, depending on a time that has passed or else a price.
+[10:26] **qx()**: And the beautiful thing about these contracts are that you know, because somebody actually mentioned, I was talking to somebody the other day who actually sold life insurance in the past and they're like, okay, what happens if the person dies?
+[10:40] **qx()**: I was like, well, you know, they still have to wait for the price to appreciate to the strike mark or the time to evolve to the past to the expiry there.
+[10:50] **qx()**: And I was like, but the contract is flexible enough to where you could set up for one year each time essentially.
+[10:58] **qx()**: So you could continuously update it and feed it into another contract every year for that as well.
+[11:05] **qx()**: And you could do it before.
+[11:07] **qx()**: So let's say I have tokens and I've given them away already.
+[11:12] **qx()**: You wouldn't want to wait till after the contract expires to do that because your child could cash out your assets if that's who you're giving them to.
+[11:20] **qx()**: So you essentially check the box that says, I, as the creator of that have power to change the contract at any time.
+[11:26] **qx()**: So once a year or once every 2 years, whatever you think that span of time is, you could just, you know, at day 363, you could just push a new contract right out for another year kind of thing.
+[11:38] **qx()**: So there is that option.
+[11:39] **qx()**: With that, which is neat, it gives you that flexibility.
+
+[11:43] **qx()**: The other thought is, you know, the idea was for vested tokens, essentially, if you're working with a developer and they want to know that they're definitely going to get paid, but you don't want to give them the tokens at the time.
+[11:58] **qx()**: Let's say I'm starting a widget project and I have a widget token and I want to pay the developer in widget tokens, but you know, there's a liquidity pool in the communities, you know, using it and the project is kind of going and I don't want the developer that I've hired to just dump on it, right?
+[12:16] **qx()**: So I could essentially stage my payments to that developer with tokens.
+[12:21] **qx()**: I could make a pocket of six months, give him the unlock token.
+[12:24] **qx()**: I could make him a pocket of eight months, give him the unlock token.
+[12:27] **qx()**: Make a pocket of a year and give him the unlock token.
+[12:30] **qx()**: So then that developer could then sell tokens throughout that time as the work is done.
+[12:36] **qx()**: So there are those two options right up the back that I think you can use for.
+[12:40] **qx()**: And then, of course, the diamond hand option where you just put it in to hold for yourself to protect you against yourself, so you don't spend it yourself.
+[12:51] **qx()**: Either way, or send your token to cold wallet.
+
+[12:57] **qx()**: Alright.
+[12:58] **qx()**: So a couple options.
+
+[13:00] **kushti**: Yeah, that's interesting.
+[13:01] **kushti**: So you can then use those tokens for funding projects, right?
+[13:08] **kushti**: So they can get vesting basically.
+
+[13:12] **qx()**: Kind of like a ChainCash note almost, but on chain, right?
+[13:17] **qx()**: A promissory note, I guess, or a redemption note.
+
+[13:20] **kushti**: But it's more like vesting, right?
+[13:26] **kushti**: It could be based on time, but also on price, right?
+[13:31] **kushti**: So it's kind of like an option.
+[13:36] **kushti**: No, not really.
+[13:41] **kushti**: And then, yeah, it's quite interesting, right?
+[13:46] **kushti**: So it could be used.
+[13:48] **kushti**: So you can use vesting along with price-based conditions, right?
+[13:56] **kushti**: To lock tokens, project tokens, for example.
+[14:00] **kushti**: But yeah, I mean, it's probably... needed to cover all those use cases with a few articles, right?
+[14:11] **kushti**: Because it's quite vast functionality, I believe.
+
+[14:21] **qx()**: Great, great.
+[14:21] **qx()**: What else is new?
+[14:22] **qx()**: Oh, so last night, nice and tired, I pushed the Paideia DAO.
+[14:29] **qx()**: The vote passed last week, and I was given 50,000 Paideia in my wallet so that I could build the InfraDAO.
+[14:36] **qx()**: So I built the InfraDAO.
+[14:38] **qx()**: I have tokens.
+[14:40] **qx()**: I minted 1,000 tokens a month ago or so.
+[14:43] **qx()**: So those people who are interested in initially joining the InfraDAO, please reach out to me again, or I'll reach out to you.
+[14:49] **qx()**: I have my notes somewhere with four or five people listed that would like to join.
+[14:54] **qx()**: So reach out again and we'll start that DAO up.
+[14:56] **qx()**: Once we have a handful of people in there, we'll dump the rest of the tokens into the DAO.
+
+[15:01] **qx()**: On top of that, I also uploaded and made a repository on GitHub for the Explorer versions that I'm using currently.
+[15:10] **qx()**: It's Dockerized.
+[15:11] **qx()**: It's based off this, I can't remember who originally built it, but it's based off essentially that with some tweaks.
+[15:20] **qx()**: And that's what we're running here, so there's a full list of instructions on what you need, how to set up the, what to set up beforehand, you need NGINX, you need the full sync node, you need Git, and then how to set it up and run it.
+[15:35] **qx()**: If you're going to be part of the InfraDAO, there's actually nothing you need to change.
+[15:39] **qx()**: You simply just clone the repository, download it, and run it, and then you join the DAO and you get the SSL certs from Cloudflare from us and you insert those into your system.
+[15:53] **qx()**: And at that point, we point the load balances to you, do some testing and make sure everything works.
+[16:00] **qx()**: And then you're part of the load balance for that.
+
+[16:02] **qx()**: So, that's how we're starting off small with the Explorer infrastructure.
+[16:08] **qx()**: And we're going to move to hosting things, hopefully, like ErgoExplorer, like SigmaSpace, like ErgoDocs, eventually the Ergo Platform website, as well as SigmaSpace and Sigmaverse, all those kind of things.
+[16:24] **qx()**: And then beyond that, most likely we'll move to something like anybody who touches Ergo from a maintenance side, right?
+[16:34] **qx()**: Updating side can also be part of the DAO and work on that kind of stuff.
+[16:41] **qx()**: So, yeah, starting off small slowly building.
+[16:45] **qx()**: We don't want anything to crash.
+[16:46] **qx()**: So being conservative in our steps.
+
+[16:54] **qx()**: All right, all right.
+[16:59] **qx()**: Who'd we lose?
+[16:59] **qx()**: We lost Joe.
+[17:00] **qx()**: Joe must have gotten a calling over at Vegas.
+
+[17:06] **kushti**: And yeah, at the time when I wanted to ask about Rosen updates.
+
+[17:13] **qx()**: He can sense it coming.
+
+[17:15] **kushti**: Yeah, they made some more catalyst proposals in particular about base.
+[17:22] **kushti**: And yeah, there was a tweet from base recently that they will allow any assets on base to be tradable on the centralized exchange Coinbase.
+[17:42] **kushti**: That's we can actually get on Coinbase, right?
+
+[17:49] **qx()**: So any assets tradable?
+
+[17:51] **kushti**: Yeah, yeah, yeah.
+[17:52] **kushti**: Like any of 8 million assets they have on base would be tradable on Coinbase.
+
+[18:02] **qx()**: So we need to get a wrap token over there kind of thing, or is it ERG on another chain?
+
+[18:07] **kushti**: Rosen ERG, yeah, and well, there is also a need to find liquidity, right?
+[18:13] **kushti**: Some liquidity providers, but then, yeah, it would be quite good for liquidity providers.
+
+[18:20] **qx()**: So that means that's for trading, kushti.
+[18:23] **qx()**: So that means we would still enter through another token on Coinbase and then directly swap on Coinbase and hold Rosen ERG on Coinbase.
+
+[18:31] **kushti**: Yeah, but that's not different, for example, from listing Cardano assets on Kraken, right?
+
+[18:41] **qx()**: No, right, correct, yeah.
+
+[18:43] **kushti**: So it's basically the same, model liquidity, right?
+[18:47] **kushti**: So well, for base, they will be needed to find liquidity, but for liquidity providers, it should be quite attractive, I believe, right?
+[18:57] **kushti**: Because probably as an onramp option and offramp also.
+[19:04] **kushti**: Yeah, it could be quite popular.
+
+[19:09] **kushti**: So then, yeah, I mean, in a few months, we can get another option for the US for onramp and offramp, right, and to trade.
+[19:25] **kushti**: So yeah, that would be great.
+
+[19:30] **qx()**: Nautilus has been pushed to production.
+[19:36] **qx()**: So if you guys opened up Nautilus in the last day or so, I'm not sure when it happened.
+[19:41] **qx()**: You will notice that it has been updated and there is a buy ERG button in it now and the production version.
+[19:49] **qx()**: So yeah, you click on it and it takes you right to Banxa.
+[19:54] **qx()**: I don't know.
+[19:54] **qx()**: How do you say that?
+[19:55] **qx()**: Banxa where you can buy ERGs directly with fiat in the USA.
+
+[20:05] **kushti**: It's almost like a Bankster, right?
+
+[20:14] **qx()**: So that's great.
+[20:16] **qx()**: That's the first step in integration, I'd say.
+[20:18] **qx()**: Maybe at some point in the future, we'll see it fully baked into Nautilus wallet to make it even easier.
+[20:24] **qx()**: And we all know that yeah, that seems to be the thing of choice, right?
+[20:30] **qx()**: People don't like leaving their walled gardens in those instances.
+[20:34] **qx()**: So yeah, super excited to see that.
+[20:36] **qx()**: I am yet to test out that on-ramp.
+[20:39] **qx()**: Has anybody here tested out Banxa?
+
+[20:44] **glasgowm**: Cool.
+[20:45] **glasgowm**: It's blocked in the UK, unfortunately.
+[20:49] **glasgowm**: I think it's blocked for you as well.
+[20:50] **glasgowm**: I think it's blocked in New York.
+[20:52] **glasgowm**: It's one of the states that's not supported.
+
+[20:53] **qx()**: Oh, that's right.
+[20:53] **glasgowm**: I can't test it.
+[20:55] **qx()**: I should be able to test it from South America, my account in South America.
+[21:00] **qx()**: So we'll see.
+[21:02] **qx()**: I can try that.
+[21:04] **qx()**: Good point.
+[21:04] **qx()**: New York.
+[21:05] **qx()**: Damn it.
+[21:05] **qx()**: It's New York and California, is it?
+[21:07] **qx()**: What are the two states?
+[21:08] **qx()**: It's like two states.
+
+[21:10] **glasgowm**: Yes, a couple.
+[21:11] **glasgowm**: It's a couple of weird ones like Alabama or something in New York.
+[21:17] **glasgowm**: Yeah, I need to go look again, but yeah, it's a few weird ones.
+[21:20] **glasgowm**: Maybe Illinois?
+
+[21:22] **qx()**: Illinois, okay.
+[21:23] **qx()**: Okay, interesting.
+
+[21:25] **kushti**: And yeah, some questions.
+[21:27] **kushti**: So yeah, I think it's KYC.
+[21:30] **kushti**: Yeah, it's KYC.
+[21:33] **kushti**: But can we get non-KYC options for the US?
+[21:37] **kushti**: Probably not at all, right?
+[21:40] **kushti**: I mean, these days it's not quite possible.
+
+[21:43] **glasgowm**: Yeah, not legit ones.
+
+[21:48] **kushti**: So and then yeah there is also question when a new exchange so yeah I don't know I've received a few listing offers which are free, but you have to pay for marketing campaign.
+[22:14] **kushti**: There are some MM requirements, but not strict.
+[22:22] **kushti**: Yeah, the question are those options needed, right?
+[22:26] **kushti**: Considering that they're not really free and marketing campaigns probably won't work.
+
+[22:35] **qx()**: kushti, maybe we should just ask the Cardano treasury for listing fees to pay those.
+
+[22:44] **kushti**: Yeah, that's actually quite fine.
+[22:47] **kushti**: But for this SNEK, right?
+
+[22:51] **qx()**: Yeah, I couldn't believe that.
+[22:52] **qx()**: It's fine.
+[22:53] **kushti**: Drama.
+[22:54] **qx()**: It's just funny to see that argument online.
+[22:56] **qx()**: It's funny that people are masquerading the potential to pump something by listing it with the idea that it's going to be better for the economy.
+[23:07] **qx()**: I don't know.
+[23:08] **qx()**: It's funny arguments, seeing these crazy hollow arguments that are very transparent to use community treasury money to list an individual project.
+[23:18] **qx()**: Absolutely nuts.
+
+[23:21] **kushti**: Right.
+[23:23] **kushti**: But yeah, I mean, so for Cardano community, I believe it would be better to support base proposal from Rosen, right, and then yet trade SNEK on base, right, a Coinbase centralized exchange, as well as other Cardano assets than Ergo, then what else?
+[23:52] **kushti**: Handshake probably, right?
+[23:53] **kushti**: And other blockchains which are joining Rosen.
+
+[23:58] **qx()**: The beauty about Rosen on base is that you're essentially rug-proof, right?
+[24:03] **qx()**: Once Rosen is on base or once Rosen can connect certain chains that are on base, if something's rugged or pulled from base, then just make another pair somewhere with some other token that's already on base that Rosen can reach, right?
+[24:18] **qx()**: So there's a level of protection you get when you're using Rosen and ability to traverse to another backdoor if one door is shut on you.
+[24:27] **qx()**: Unlike when exchanges write you and say, oh, I'm sorry, your fake washing and fake volume is not up par with what we need you to stay listed on this exchange.
+[24:39] **qx()**: That million dollars you paid us for your marketing fee?
+[24:42] **qx()**: No, that's gone.
+[24:43] **qx()**: You're off.
+
+[24:47] **qx()**: Spicy today, kushti, sorry.
+
+[24:50] **kushti**: That's insane, but we need more centralized exchanges maybe, but the question is which ones, right?
+[25:01] **kushti**: So those exchanges which can list for some marketing campaign amounts, let's say, just they're like CoinDCX, which I can give a pair with the Indian Rupiah then, what else?
+[25:32] **kushti**: So there are some other exchanges, like a few ones.
+[25:36] **kushti**: But yeah, the question is, will they provide any value?
+[25:44] **kushti**: It's not clear.
+[25:45] **kushti**: And from exchanges which can provide value, I think it would be good to get maybe on some regional exchanges, right?
+
+[25:52] **qx()**: Well, what happened?
+[25:53] **qx()**: Is TradeOgre still down?
+[25:54] **qx()**: Has that gone for good?
+[25:55] **qx()**: Did you hear any news on that?
+
+[25:56] **kushti**: Any additional news?
+[25:59] **kushti**: I don't know so there are no any news and yeah I mean people are saying that back in 2023 they went offline for 12 days in a row but yeah I mean this time probably people are nervous after ZGex right well there are expectations of a new incident let's say but yeah it's not quite clear what's going on because yeah it's it's fully anonymous exchange there are a lot of questions but no one knows what's going on there
+[26:53] **kushti**: Yeah, but let's hope it will be up soon.
+
+[27:03] **qx()**: What was that, Mark?
+[27:04] **qx()**: You're going to say something?
+
+[27:06] **glasgowm**: I was just saying it's still there and I just checked.
+
+[27:08] **qx()**: Yeah, I'm looking at connection time down for Cloudflare.
+[27:13] **qx()**: I think I've got 50 cents still there from when I was trading USDT and ERG with.
+[27:20] **qx()**: I think it was a bot that... Can't remember who made it.
+[27:24] **qx()**: Somebody in the Ergo mining made a nice little trade bot that works with TradeOgre that did pretty well, honestly.
+[27:35] **qx()**: It was just keeping the spread.
+[27:36] **qx()**: It was just trying to keep a spread there between the two.
+[27:39] **qx()**: So yeah.
+
+[27:44] **qx()**: Mb says, from Kuwait, new, how can we help?
+[27:52] **qx()**: Welcome and be new.
+[27:54] **qx()**: Fantastic.
+[27:56] **qx()**: There's a lot of things you can do here in the ecosystem.
+[27:59] **qx()**: There's several DAOs to join.
+[28:01] **qx()**: There's a Sigmanauts, which is a community DAO, which essentially tries to oversee and help and bolster anything that's related to Ergo from a community standpoint.
+[28:12] **qx()**: They've branched off and created the Ergo SIG mining DAO, which is based on a mining pool, one of the first to collect storage rent.
+[28:22] **qx()**: So there's that to join if you have a GPU and you want to point that, even if you don't want to mine, it's a fun group to join.
+[28:28] **qx()**: We just launched, as I said, the Ergo InfraDAO, which is working on hosting infrastructure based on the community input, as opposed to essentially funded model.
+[28:41] **qx()**: This would be a more of a community funded model to host all the Ergo infrastructure.
+[28:46] **qx()**: But yeah, hop in there, roll up your sleeves.
+[28:48] **qx()**: If you do any program, the core devs have a lot of, the EF has a lot of bounties out there that are ripe for the picking that you can make some money off of and Other than that the easiest way to help out Ergo is to spread the word whether it be in telegram Facebook Instagram Twitter or x.com Or anything like that.
+[29:15] **qx()**: That's the easiest way to way to give it a go and of course if you have any questions about how it works or why Ergo or anything like that and hop in chat and somebody will be bound to correct you or encourage you or give you the details on why they think Ergo is important in this place, this time, moment in time.
+
+[29:40] **qx()**: Yeah.
+[29:41] **kushti**: Yeah, and actually we have some new generation coming, right?
+[29:47] **kushti**: So recently a lot of new faces in the chats, actually, as well as our Twitter.
+[29:54] **kushti**: So probably there is need to repost tutorials from 2021, 2022.
+[30:01] **kushti**: on how to use applications, what applications are available, along with new tutorials for Mew and so on.
+[30:12] **kushti**: So how to trade, what are security assumptions, how it goes different in regards with open source, know your assumptions, minimizing trust, enabling peer-to-peer interactions and so on.
+
+[30:30] **qx()**: Did you get any of your submissions?
+
+[30:35] **kushti**: At least one, but yeah, I need to check the chat because I've been busy with other matters in recent days.
+[30:48] **kushti**: But yeah, there is at least one submission from Michael, so yeah, we'll check.
+[30:57] **kushti**: Yeah, pay out reward.
+[31:02] **kushti**: Later today, hopefully.
+[31:04] **kushti**: Still a lot of things, other things, but yeah, hope to find time for that.
+
+[31:12] **kushti**: Then, yeah, well, We, I believe, made a ton of materials, right, over the last few years.
+
+[31:25] **qx()**: Historically, we have so much.
+[31:27] **qx()**: It's insane how much materials we have, kushti, absolutely crazy.
+
+[31:29] **kushti**: Yeah, most of them are still relevant, so here we can just repost them for newcomers.
+[31:37] **kushti**: I mean, you know, it could be a big mistake to consider, you know, Ergo community as something static, right?
+[31:47] **kushti**: Like people who came when even, right?
+[31:50] **kushti**: I mean, most of people high C rounds came in 21, right?
+[31:56] **kushti**: 22.
+[31:58] **kushti**: But yeah, well, most of my conversations, you know, happened around 2019-20, right?
+[32:12] **kushti**: Because, yeah, after that, it got quite hard to communicate with so many people, to be honest.
+[32:24] **kushti**: So, yeah, well, there is need to limit communications channels.
+[32:30] **kushti**: Mostly.
+[32:32] **kushti**: But yeah, well, it's not static, right?
+[32:36] **kushti**: It's not formed in 21, right?
+[32:39] **kushti**: Well, in static scene, so.
+[32:42] **kushti**: Yeah, well, people are always coming and some going, right?
+[32:49] **kushti**: But yeah, most of people around, well, periodically appearing.
+[32:56] **kushti**: But yeah, new face always appearing, and there is need to basically remind, right, about what Ergo is, what tooling available, what are basic principles.
+[33:11] **kushti**: manifestos and so on, so on, so on.
+
+[33:19] **kushti**: Yeah, we actually need to prepare for like new big wave of Ergonauts.
+[33:27] **kushti**: I think it's time, right?
+[33:31] **kushti**: Because, well, it's 2025 and yeah, well, there is a new wave of interest, I believe, in proof-of-work assets, right?
+[33:47] **kushti**: It's, well, uncontrollable major assets.
+[33:52] **kushti**: Well, even legally, right?
+[33:59] **kushti**: So in the US, there could be recognition in the form of the Clarity Act.
+[34:06] **kushti**: Maybe, you know, more.
+[34:08] **kushti**: Yeah, well, it seems it's the time, right, for major uncontrolled performance.
+
+[34:19] **qx()**: Oh, a big notice here, kushti.
+[34:26] **qx()**: Spectrum's winding down.
+
+[34:29] **kushti**: Ah, okay.
+
+[34:31] **qx()**: Yep, it looks like this.
+[34:32] **qx()**: So for those of you that are new here, Spectrum started out as ErgoDEX back in the day.
+[34:38] **qx()**: And then they moved to Spectrum Network, they're branded and they pushed to Cardano mainly, so they're very focused on Cardano.
+[34:46] **qx()**: They still ran ErgoDEX for Ergo side, but they've been off Ergo for quite a while, I'd say.
+
+[34:53] **kushti**: But it's about Spectrum Network.
+[34:58] **kushti**: Yeah, so I think ErgoDEX will remain, right?
+[35:03] **kushti**: But yeah, I mean, it's not being developed.
+
+[35:07] **qx()**: Yeah, it hasn't been.
+[35:08] **qx()**: Mew uses the ErgoDEX front-end modification, or Crooks did, I think.
+[35:13] **qx()**: I don't know if Mew uses specifically that, but yeah, right?
+[35:16] **qx()**: Mew uses it, HQ.
+
+[35:20] **HQ3rr**: Yeah, I think we are, we're using the front-end modified version, but we need to check with the team about the backend, so if it's going to run, it's still good, because last time we tried to run it, it told us that it was, like, thick to run it.
+[35:33] **HQ3rr**: So I guess if they're going down, we would just set everything with them and get the backup.
+[35:39] **HQ3rr**: The backend also, so far the backend is working, so yeah.
+
+[35:44] **qx()**: Do you run your own batcher bots because you have Mew HQ?
+
+[35:49] **HQ3rr**: Yeah.
+[35:50] **HQ3rr**: We have custom bots, which we have.
+[35:52] **HQ3rr**: Other community members were also running those, so there's no issue with those bots.
+
+[35:58] **qx()**: Very cool.
+
+[36:00] **kushti**: But ErgoDEX, it seems untouched, right?
+[36:04] **kushti**: So it's about Spectrum Network, which has a white paper, basically.
+
+[36:10] **qx()**: Who hosts?
+[36:12] **qx()**: Yasha doesn't host.
+[36:13] **qx()**: I mean, Ilya doesn't host ErgoDEX as well on their infrastructure?
+
+[36:21] **kushti**: Sorry.
+
+[36:22] **qx()**: I thought that, posted ErgoDEX on their infrastructure along with spectrum.
+[36:27] **qx()**: No, isn't that their infrastructure?
+
+[36:31] **kushti**: Yeah.
+[36:32] **kushti**: So it's, they front end, yeah, they're hosting, but they're profiting from it, right?
+[36:39] **kushti**: It's they're getting, that's true.
+
+[36:41] **qx()**: That is true.
+[36:42] **qx()**: Yeah.
+
+[36:43] **kushti**: But contracts on chain and contracts, it's the same, basically, decentralized exchange with different frontends, right?
+[36:53] **kushti**: So Mew and ErgoDEX.
+
+[36:59] **kushti**: But ErgoDEX seems to be intact and Spectrum Network is a white paper they published back in 21, right?
+
+[37:17] **kushti**: And yeah, well, not sure about implementation.
+[37:25] **kushti**: So initially, they they stated that there are some issues in Plutus, right, and they awaited for Plutus version 3.
+[37:44] **kushti**: But then, yeah, well, probably the whole concept of layer 2, right, as mentioned in the white paper, became irrelevant.
+[37:59] **kushti**: So we have some layer 2s coming, right, but of a different kind.
+
+[38:07] **HQ3rr**: Well, I think the good part about this is they are paying back people if they're still holding SPF, right?
+[38:14] **HQ3rr**: Because if you go down in the series refreshment method, so people just need to have their SPF in their wallets and they will be paid back.
+[38:23] **HQ3rr**: Once we return the provider to all the SPF folders, it's on chain reserves.
+
+[38:33] **kushti**: All right, yeah.
+[38:36] **kushti**: But yeah, well, those SPF tokens intended to be utility tokens of the network, right?
+[38:45] **kushti**: Spectrum network.
+[38:51] **kushti**: But yeah, well, this network has white paper.
+[38:59] **kushti**: I haven't seen any.
+[39:03] **kushti**: Oh, they had some vault contracts, actually.
+[39:12] **kushti**: Would be quite useful to reuse them maybe.
+[39:18] **kushti**: So it's it's left unnoticed, but yeah, vault contract is actually quite cool.
+[39:26] **kushti**: So it has just single public key, I believe, on chain, right?
+[39:36] **kushti**: So just like ordinary address.
+[39:38] **kushti**: the Ergo blockchain but actually off-chain it's controlled by up to 1024 signers right and that they made some prototype some demo of signing so yeah could be reused I believe for some large scale DAOs and so on right so in spectrum network there was idea to have validators controlled
+[40:06] **kushti**: Spectrum network validators control vaults.
+
+[40:20] **kushti**: But, yeah, it's open source, so, yeah, well, it can be reused in other contexts.
+[40:29] **kushti**: And, yeah, so for layer 2s, well, what we have is kind of specific layer 2s, right?
+[40:37] **kushti**: Like, Lithos coming and in the ChainCash group, we are discussing like multiple trackers based off-chain cache, like bit torrent trackers kind of model, but for tracking state of ChainCash systems.
+
+[41:22] **kushti**: Any news on Silver Dexy?
+[41:25] **kushti**: But we don't have Joe.
+
+[41:28] **qx()**: He's coming back.
+[41:29] **qx()**: His phone, his battery died.
+[41:31] **qx()**: He's coming right now.
+[41:33] **qx()**: Look at this.
+
+[41:34] **kushti**: All right.
+[41:34] **qx()**: So Joe, you've got a question, Joe.
+
+[41:38] **Armeanio**: What did I miss?
+
+[41:40] **kushti**: You missed Silver, so the question is when Silver Dexy?
+
+[41:49] **Armeanio**: That's a good question.
+[41:50] **Armeanio**: We do have the Oracle put together.
+[41:52] **Armeanio**: I would say Dexy's been out for a bit, so we should have some information in terms of how it's operating.
+[42:00] **Armeanio**: So all the pieces are there to put it together anyway.
+[42:03] **Armeanio**: I don't think we've had a firm date towards launching it.
+[42:09] **Armeanio**: It's been interesting.
+[42:11] **Armeanio**: I know that Gluon was working on trying to fully verify their protocol.
+[42:18] **Armeanio**: And then we have Dexy in parallel.
+[42:20] **Armeanio**: So that's a big choice that the Rosen community can make, which protocol to plug in that oracle to.
+
+[42:36] **qx()**: Joe, you sharing a booth, Joe, with Zen Gate this year?
+[42:40] **qx()**: Or are you by your own booth?
+[42:41] **qx()**: Or are you just going to float with the t-shirts and just cannon them into people?
+
+[42:45] **Armeanio**: No, no.
+[42:45] **Armeanio**: I'm going to be around Zen Gate.
+
+[42:50] **Armeanio**: Very nice.
+
+[42:53] **qx()**: Is CKB joining you guys as well this year?
+
+[43:00] **Armeanio**: Yeah, I was actually talking with Jordan yesterday.
+[43:06] **Armeanio**: about what they're working on over there and, you know, potential collaborations.
+
+[43:11] **qx()**: Watch out for Jordan and Dan.
+[43:14] **qx()**: They have sticky fingers when it comes to t-shirts and merch, Joe.
+
+[43:19] **Armeanio**: Oh, yeah.
+[43:20] **qx()**: Oh, yeah.
+[43:21] **Armeanio**: I'll be ready.
+[43:22] **Armeanio**: I'll be ready.
+
+[43:23] **qx()**: What were you saying?
+[43:24] **qx()**: Sorry.
+
+[43:26] **Armeanio**: Oh, no, I spent some time with them yesterday.
+[43:28] **Armeanio**: I had lunch, was talking about what they're doing, working on in their ecosystem, what we're working on, potential for collaboration.
+
+[43:36] **qx()**: Are you guys thinking of bridging to CKB in the future?
+
+[43:39] **Armeanio**: Yeah, I would love to.
+[43:41] **Armeanio**: It fits a lot of the parameters that I find attractive with Rosen, where it's proof of work chain, oftentimes underappreciated, and I would say undervalued relative to, I don't know, sometimes a crypto space can be weird.
+[44:02] **Armeanio**: People will look you straight in the eye and sell you a cartoon.
+[44:05] **Armeanio**: What can you do?
+
+[44:10] **qx()**: Yep.
+[44:12] **qx()**: Yep, what's new on the EF side, Mark?
+[44:15] **qx()**: Any updates?
+
+[44:18] **glasgowm**: Yeah, we've got Allison's working with Banxa to create a notification service, so that will be a week or two, he said.
+[44:28] **glasgowm**: After that, we can get Banxa Withdrawals live.
+[44:32] **glasgowm**: And finally, we've fully finished Horn Loft Ramp.
+[44:36] **glasgowm**: So that'll be good.
+[44:38] **glasgowm**: I've just been working on lots of articles, so I've got my 10 articles in the go.
+[44:43] **glasgowm**: I'm just trying to flood them over the next few weeks.
+[44:46] **glasgowm**: I'm also going to update the roadmap on the docs, because that's been updated to 2024.
+[44:54] **glasgowm**: So I need to update that, and it will be in the pitch deck as well, because there's a bunch of post-launch investors.
+[45:02] **glasgowm**: So I figure it's worth it, I'll just spam in the pitch tech out there, out to them, try and get some more eyes on Ergo.
+[45:09] **glasgowm**: Because it's an easy investment, easy win, if somebody's got the other side, the marketing organization, if they want to come in and just build that on top.
+[45:21] **glasgowm**: So keep blasting them out and try and get some baits.
+[45:26] **glasgowm**: And then just doing a lot of things, updating docs and stuff.
+[45:28] **glasgowm**: I've created a partnership guide page for all these kind of requests we get.
+[45:32] **glasgowm**: It takes ages to kind of evaluate if they're legit or not.
+[45:36] **glasgowm**: So I'm just trying to account for all the things and put them to that page so we don't miss anybody.
+[45:42] **glasgowm**: We always get loads of weird Twitter DMs and emails and stuff.
+[45:45] **glasgowm**: We've got Baby Doge trying to buy Ergo.
+[45:48] **glasgowm**: They offered to buy Ergo.
+[45:51] **glasgowm**: and so it's not them but just anything that comes in we're just having a boilerplate and so don't miss anybody and yeah so just do me things that last week
+
+[46:15] **qx()**: yeah Mark I'll sell them the GitHub links for a few million dollars if they want it's a good deal oh boy nice what else guys
+[46:15] **qx()**: Anything else?
+[46:15] **qx()**: We had some topics, but as usual, we don't stick to any topics whatsoever, but it's at least good to have them there to start.
+
+[46:23] **Grayman**: I have a question.
+
+[46:24] **qx()**: Hit it Grayman.
+
+[46:25] **Grayman**: And that's for like any other devs that's been here recently or for a while is how do you guys stay sane seeing the entire space try to like pivot towards layer one ZK?
+[46:37] **Grayman**: In this been here, like from the beginning, like, how does everybody stay sane?
+[46:42] **Grayman**: Cause I'm seeing it like quietly be advertised in a lot of spaces.
+[46:45] **Grayman**: And it's like, I feel like it's going to take a lot of years and it's been here since 2019, I guess.
+[46:50] **Grayman**: And it's like, nobody talks about it.
+
+[46:57] **Armeanio**: I think the best way to stay sane is just not pay attention to be honest.
+
+[47:04] **kushti**: Yeah, I mean, it's a bit hard to stay sane in this space at all.
+[47:11] **kushti**: But yeah, it's better to just stay in some circle, right, which is not as insane as the whole space.
+[47:24] **kushti**: That's how.
+
+[47:27] **glasgowm**: I mean, there's worse ways they could be pivoting.
+[47:29] **glasgowm**: At least it seems to be going a bit back towards our favor.
+[47:32] **glasgowm**: Sure.
+[47:33] **glasgowm**: And not just pure nonsense and meme coins and logs.
+[47:37] **glasgowm**: And so I kind of see it as an expected pathway space would take.
+[47:42] **glasgowm**: So I'm just glad it's happened.
+
+[47:45] **qx()**: I try to think of it like a swimmer, right?
+[47:47] **qx()**: When a professional swimmer is swimming, they're not picking their head up every second to look at the wall or anything like that.
+[47:54] **qx()**: They kind of know where they are.
+[47:56] **qx()**: and they know their goal is every time they pick up the head and breathe and then put their head back down and swim.
+[48:02] **qx()**: I think of it that way.
+[48:06] **qx()**: globally with the stuff that I keep myself busy with, at least locally here with what we're trying to do here with Ergo and with the blockchain and with integrating it into everyday things.
+[48:16] **qx()**: So I look at that goal and think that goal is going to serve a wider purpose.
+[48:20] **qx()**: So let me focus on that and push that through and make sure that works smoothly here and show examples and show real live working things.
+[48:29] **qx()**: So that's essentially putting your head down, taking a big breath and pushing through and then picking your head up again, looking around, being like, why is the audience smoking crack and humping dogs?
+[48:40] **qx()**: I'm going to put my head down and work some more kind of thing.
+[48:43] **qx()**: So that's how I get through it, at least.
+[48:45] **qx()**: But it is frustrating to look at these things and be like, what the hell is going on?
+
+[48:52] **Grayman**: Because they advertise it like it's new, like they just found some new thing.
+[48:56] **Grayman**: And it's like, what?
+[48:58] **Grayman**: Yeah.
+[48:58] **Grayman**: I like the swimming analogy, though.
+
+[49:05] **Armeanio**: Yeah, I would just say, try to find entertainment in the madness and focus on building neat things that we find interesting, right?
+[49:15] **Armeanio**: So it's like, once you have your own vision of what you want to do, just follow that and let the noise be the noise.
+
+[49:31] **qx()**: I mean, most of the people that I talk to, at least I'm like x.com or see people posting.
+[49:38] **qx()**: 90% of those people, it's a speculative tool, right?
+[49:43] **qx()**: So it's really hard to have serious conversations with those people.
+[49:47] **qx()**: But once you get into communities like Ergo where people are focused on building and making a difference and actually making tools that will outlast them and not just, you know, buff their wallet so they can exit and pay for their house or their car or their truck or that kind of thing, which I get, but, you know, to me there's more to it than that, that's for sure.
+
+[50:12] **kushti**: Yeah, and I think actually there is a big request from developers to build in such an environment.
+[50:23] **kushti**: I think there is a need to do another marketing campaign for developers like we did back in 2020.
+[50:39] **kushti**: This time probably it should be more ideological.
+[50:46] **kushti**: Well, there are a lot of developers willing to change the status quo with their work, right?
+[50:55] **kushti**: But the crypto industry is not allowing for that these days.
+[51:00] **kushti**: There are just very few harbors, right?
+[51:09] **kushti**: Rebel developers can unite and develop like Ergo.
+[51:15] **kushti**: So yeah, it would be good to make another marketing campaign like that.
+
+[51:29] **qx()**: Oh, Grayman's got a question.
+[51:30] **qx()**: Hit it, Grayman.
+[51:31] **qx()**: Welcome.
+
+[51:34] **Grayman**: Thanks.
+[51:34] **Grayman**: Yeah, I just finished my smoking some crack.
+[51:40] **Grayman**: So my question is a little bit out of left field.
+[51:46] **Grayman**: It's about what's happening to Monero right now in their battle with, what is it, Qubit or this come from behind dudes network.
+[51:57] **Grayman**: And my question is, are they going to move on from, you know, one proof of work chain to the next, trying to take over their mining or is that even possible with a GPU based proof of work chain, much less an ASIC-mined one.
+[52:17] **Grayman**: Is Monero just an especially soft target because it's CPU-mined, is my question.
+
+[52:27] **kushti**: It's hard to say.
+[52:29] **kushti**: It's hard to say how successful this CFB's attack with Monero is.
+[52:40] **kushti**: They claimed they were going to do a 51% attack, but they haven't succeeded.
+[52:51] **kushti**: to say maybe even the sponsor so that they're sponsoring miners definitely with their tokens but maybe it wasn't profitable for them right maybe they donated basically some tokens after all in the exchange for marketing because now well it's quite buzzing this.
+[53:21] **kushti**: I don't know.
+[53:25] **kushti**: Yeah, it's crazy.
+
+[53:26] **Grayman**: What they're doing is they're having their miners theoretically are supposed to be contributing to some proof of useful work AI thing.
+[53:36] **Grayman**: But actually, they're just mining Monero, which they get compensated in Qubit or whatever.
+[53:44] **Grayman**: And then they send the Monero to a chain, change it for USDT.
+[53:49] **Grayman**: and buy Qubit with it, and then they burn that.
+[53:52] **Grayman**: So it's just a straight up insanity, if you ask me.
+[53:55] **Grayman**: But that is their business model.
+[53:58] **Grayman**: And evidently, they had a huge chunk of the Monero hash rate.
+[54:02] **Grayman**: So I just thought it was that just because it's CPU-mined, and therefore, everybody can have it.
+[54:10] **Grayman**: Would this even be possible if it were Ergo, and they had to get people to contribute with their GPUs?
+[54:18] **Grayman**: It just seems like maybe the weakness of Monero.
+[54:21] **Grayman**: I don't know.
+
+[54:23] **kushti**: Probably economically it's disaster, right?
+[54:26] **kushti**: I mean, probably they're paying more tokens than they're burning, right?
+[54:33] **kushti**: Basically, so it's just, so they just basically paying for the attack, right?
+[54:42] **kushti**: Like you can just rent GPUs, CPUs, and you can rent a botnet probably, right?
+[54:49] **kushti**: And attack Monero blockchain.
+[54:51] **kushti**: and probably it would be even more efficient but here you also have a lot of marketing coming from Monero community and not only rights as we are discussing it right now so yeah well I don't know so I think it's mostly about marketing, right?
+[55:19] **kushti**: So economically, probably this attack is complete disaster.
+[55:24] **kushti**: But yeah, I mean, but that's typical CFB's show.
+
+[55:30] **Grayman**: I'm trying to have patience, but I have to think this is going to end in disaster, like you say.
+[55:37] **Grayman**: And it's pretty amusing.
+
+[55:39] **kushti**: Yeah, but after all, it would be disastrous for this Qubit, right?
+[55:46] **kushti**: So if... So the only hope is that supply would be increased, not supply, sorry, demand would be increased, right?
+[56:01] **kushti**: Because they're increasing supply probably by inefficiency of this attack, right?
+[56:08] **kushti**: But then they need to increase demand.
+[56:13] **kushti**: They are trying to do that via this marketing, right?
+[56:18] **kushti**: But if CFB is failing with that then yeah i mean it's it's it's a bit disastrous probably but also yeah i mean for for for the whole Qubit and its reputation right if it's proof of useful work for AI but instead used as kind of botnet
+[56:52] **kushti**: It's in the long term probably not so good play even.
+
+[57:02] **Armeanio**: Yeah, it's just trying to create some kind of flywheel effect and make a lot of noise.
+[57:10] **Armeanio**: You know, it's strange or it's like, okay, let's say that in theory they did succeed.
+[57:15] **Armeanio**: And taking over Monero, right?
+[57:19] **Armeanio**: They may just destroy the value that's underpinning their flywheel, and it would be worse than when they started.
+
+[57:29] **Grayman**: Well, they dumped the Monero.
+[57:31] **Grayman**: They dumped the XMR as soon as they can to get Qubit.
+[57:37] **Grayman**: So it theoretically would drive that price down.
+[57:39] **Grayman**: But I think the price has been pretty static for the last few months they've been doing this.
+[57:44] **Grayman**: So, I guess the answer to my question is, regardless of whether GPU would make it easier or harder, we probably shouldn't regard this as a threat because it's just so stupid.
+
+[57:57] **Armeanio**: I find it entertaining.
+[57:59] **Armeanio**: It's one of those things.
+[58:00] **Armeanio**: It's kind of strange.
+[58:03] **Armeanio**: I don't know what it has to do with the AI or what the usefulness is of the AI.
+[58:08] **Armeanio**: Does anybody?
+
+[58:12] **qx()**: Maybe AI came up with a marketing plan, Joe.
+
+[58:17] **kushti**: Probably it would be more efficient to rent a nice hash just, or rent some big farm, something like that.
+[58:30] **kushti**: But yeah, for efficiency of this emulated mining so you know it's it seems so if I understand right so that they have some computational task embedded into proof of useful work then you're basically losing efficiency right for for this emulation basically but
+[59:01] **kushti**: I mean, in comparison with just running Monero mining function or Ergo mining function on hardware, right, on physical GPU.
+[59:11] **kushti**: So here you have this level of abstraction, so this Qubit proof of work, proof of useful work function.
+[59:22] **kushti**: So yeah, you're inevitably losing a lot of efficiency in mining.
+[59:29] **kushti**: would be better to just rent hardware, right, bare metal and deploy miners there.
+[59:45] **kushti**: So I don't know.
+[59:46] **kushti**: So probably just crazy CFB style story.
+
+[59:54] **Grayman**: Artificial stupidity.
+
+[59:57] **kushti**: Right.
+
+[60:04] **qx()**: Well, it's five minutes past the hour almost another successful community AMA.
+[60:09] **qx()**: Thanks for joining everybody.
+[60:10] **qx()**: I think Andy's back next week.
+[60:14] **qx()**: So perhaps we'll take a change and go back to the original format.
+[60:19

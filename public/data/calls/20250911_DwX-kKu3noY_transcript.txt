@@ -1,0 +1,291 @@
+[00:15] **qx()**: Welcome, welcome to the second weekly Community Ergo AMA.
+
+[00:22] **qx()**: The new format that we're hosting involves everybody here, which means if you show up, be prepared to either ask questions or listen or be asked questions.
+
+[00:32] **qx()**: Because it's an AMA for everybody and it's a community and that's how it works.
+
+[00:37] **qx()**: We've got a nice crowd today with Dimitri, kushti, Byron, and our next Anthony, Grayman, Blake, Starkenberg, Faku, and Odi Bocha.
+
+[00:47] **qx()**: So this is gonna be great that everybody's here. Thanks so much for coming.
+
+[00:52] **qx()**: What's new, guys? Anybody?
+
+[00:57] **qx()**: kushti, you're muted.
+
+[00:58] **kushti**: A nice company here, yeah. A lot of new face also.
+
+[01:04] **qx()**: It is great to see. We've got, Odi actually just took over, if you can see, where is he in this chart? He's over there, way over there. There, my finger's pointing.
+
+[01:16] **qx()**: He just took over the Sigmanauts Twitter. So hopefully we see some activity back out of that Twitter. It's been dormant for a little bit. So very excited to see what he's going to bring to the table there. Hopefully some spiciness.
+
+[01:31] **qx()**: Some people don't like spiciness, but I think that's the purpose. I think that account can handle some things like that that the main account potentially can't. So looking forward to seeing what's coming out of there.
+
+[01:44] **qx()**: How's your week been, guys?
+
+[01:46] **kushti**: Yeah, also nothing bad in spiciness, right? So it's actually attractive. Yeah, that's at some point creating dramas, but the dramas unavoidable anyway, probably, right?
+
+[02:01] **qx()**: It is, it is.
+
+[02:03] **kushti**: Why to have boring dramas if you can have spicy dramas.
+
+[02:10] **qx()**: Oh boy. We'll see what Odi does later today. He's just going to delete the account like Joe does, just done.
+
+[02:20] **qx()**: Oh, boy. Yeah, no, that account could use some dusting off, that's for sure. It's always been through the hands of several people. And everybody that's touched it has done a great job and brought something different and new. And I think everybody, last I checked, everybody that's used it still has access to it. So there's about five people that can post at once and have different voices. And it's a community account. It perfectly fits that bill, so looking forward to that, Odie. See what you bring to the table.
+
+[02:50] **qx()**: What else? What's new on my part? It's been a busy week here around. We've had my Ergo bots actually went offline for a week or two. And I had to bring those back up. There was some NGINX issue. But infra machines are in the back of my car, all boxed up that I showed you last week, and ready to be shipped out. I just have to swing by USPS on the way home today, tomorrow, Friday. So those guys should see that. And we'll get an increase to the P2P infrastructure.
+
+[03:24] **qx()**: I spoke with Mark Glasgow over the week and I think the next target is to infra the ergoplatform.org website completely, ergoplatform.com, simply because Google charges us right up the ass for hosting. It's pretty bad. So if we can infra that and get that off that, that'll save a cost to the EF and move it to the community, which is fantastic. Slowly moving in that direction.
+
+[03:54] **qx()**: And on a side note as well for the educational stuff that we were talking about last week, I've further integrated more LLMs into at least my school side here. So getting more practice to what it's going to be like in automation when we finally move on to doing that with Ergo platform content and videos and all that kind of stuff. So really looking forward to that. But I'm pacing myself. I don't want to start another task before we finish up and get the infrastructure down fully stabilized. So yeah, trying to pace that up.
+
+[04:29] **qx()**: What about you guys? kushti, what's new?
+
+[04:34] **kushti**: So busy, as usual, composing some text also will post in the main Telegram chat just after the call. So other than that, yeah, so busy developing and managing developers in different ways, different projects. So yeah, that's more or less it.
+
+[05:02] **qx()**: Let's bang through the dev updates that were yesterday real quick. I'll read them off and maybe there's something to chat about there. All right. Incoming screen share, folks. There we go.
+
+[05:15] **qx()**: All right. So kushti yesterday, 9.06 AM, Ergo protocol and reference client R&D. We reviewed 6.0 changes in Node, made PR with some minor improvements, polished and proposed for review second PR. Towards sub-blocks now in Sigma SDK, will be merged after design doc discussion and approval. Next for Sigma, plan refactoring and extensible context to reuse our programmable money engine and side chain, off-chain environments, et cetera. And testing along with Potato and improving P2P layer for sub-blocks.
+
+[05:49] **qx()**: Is Potato running a DevNet, kushti, is that what it is?
+
+[05:53] **kushti**: So I'm running seed nodes and he is joining and then reporting. Yes, some issues. Yeah, well, the last one. So I'm also joining with my notes. So sometimes it's about three notes, sometimes two. And yeah, well, so issues he has sometimes not reproducible on my site.
+
+[06:20] **qx()**: kushti, how far away geologically is he from you? I'm wondering how that affects node synchronization with faster sub-blocks.
+
+[06:29] **kushti**: Yeah, but I don't know. Oh, wait. So Sydney is in Hetzner, the German data center, probably. And then Potato, I don't know, probably late in America.
+
+[06:46] **kushti**: But yeah that's a good span that's a good test. That's my guess. So but also our devnet is kind of extreme so it has blocks every 30 seconds and 60 sub-blocks per block so yeah it means two sub-blocks a second even so it's quite intense.
+
+[07:15] **qx()**: Oh wow so you kept the 30 second devnet when you moved to devnet and applied sub-blocks there that's pretty extreme.
+
+[07:25] **kushti**: Yeah. Yeah. So, yeah, but that's good for testing also.
+
+[07:33] **qx()**: Yeah. All right. Then you got GitCircles. You reviewed and merged a poll. You've agreed to use Ergo addresses instead of secp256k1 and WishYouBalance is improving implementation. Who's WishYouBalance?
+
+[07:47] **kushti**: Yeah, so a couple of new developers, so yeah, BroEtiquette and WishYouBalance. Yeah, so WishYouBalance is actually a good cycles idea author, and yeah, BroEtiquette is, well, some contributor. So yeah, I'm actually just reporting what they are doing, mostly. So yeah, it's the project after all.
+
+[08:19] **kushti**: And so GitCircles is a project to create kind of community currencies, but for digital development communities where you get tokens for committing to some repositories. And yeah, so we will start testing, creating well, talking manually and doing some testing transactions manually also, just like few days. And then yeah, the development is going on. So there is Git bot already done as well as persistence layer. So the next step is some GitHub application and the Ergo half chain site.
+
+[09:11] **qx()**: And you think this would ever be able to implement something like a DAO integration into GitCircles to where if something is approved on a DAO, if a merge request from a GitHub repository is approved on the DAO vote, then an off-chain bot executes a push or a pull for that GitHub PR request automatically kind of thing. Yeah, so PRs are then voted on in the DAO, and then the off-chain bot executes that push, that change.
+
+[09:44] **kushti**: So actually, open source communities already acting as DAOs, right, just off-chain. Usually some rules, some maintainers, which are accepting what's going to be merged into the main code base, right? And then everyone can come and propose a pull request, but not every pull request would be merged and so on. Then, yeah, well, it's kind of like hard topic rights, governance and open source communities.
+
+[10:25] **kushti**: For example, Linux rights, it's hard to imagine still 30 years after its development without the single leader. So it's a big question how Linux would be developed without Linus Torvalds. And so on. So yeah, the same dependency is typical for many open source communities. Yeah, sometimes even programming languages and so on. But yeah, well, in some cases, it's more or less polycentric like Bitcoin rights where there are like five developers yeah maybe the different number now which can merge.
+
+[11:21] **kushti**: And yeah, there is no single leader officially, right? But yeah, in practice, it's about one or two guys, after all, who are making the most major decisions. That's typical for DAOs, on-chain DAOs also, right? So when you have DAOs usually, yeah, there are some opinion leaders, right? So it's actually a quite interesting topic. So would it make sense to bring already existing kind of DAO structures like open source communities on chain, right? And to try to build on-chain DAOs or not? Maybe off-chain options are more flexible actually.
+
+[12:21] **qx()**: What was that, Grayman? Grayman was saying something.
+
+[12:25] **Grayman**: I was just saying they barely get anything done. I mean, look at all this debate over the OP_RETURN issue. It's not like they're significantly changing the structure of the thing. When is Bitcoin going to get to 1.0?
+
+[12:39] **kushti**: Yeah, but sometimes I think people are dramatic there just to get a feeling of importance right and also get recognized for more and then charge for consultancy and appearances at conferences and so on. So yeah, well, I witnessed the first OP_RETURN drama a little bit back in 2014-15. And yeah, it also was more or less the same, so a lot of unnecessary dramatic talks and yeah, so some guys heating the discussions on purpose, I guess, in order to get more recognition.
+
+[13:42] **Grayman**: There's also just the drama of the big blocks and the schism, right? And it's all just over one little parameter. It's not like it's substantially changing the nature of the technology. Before NIPoPoWs, Ergo was different than it is now. That changed things in a very substantial way because it enables light clients that have full security. So now my phone can be used without the same assumptions that come from spooling up a lightning channel. And so how is that going to, how would anything like that be implemented in Bitcoin given their current governance and way of developing things?
+
+[14:26] **kushti**: Yeah, probably no chance. So in Ergo, yeah, so we have NIPoPoWs support from day one, right? So just, well, support and clients was lagging for some time but yeah the core structure was there but yeah well for Bitcoin there are talks since like 2012 about doing UTXO commitments right which are allowing for actually a lot of protocols and yeah well blockchain pruning and support for lite clients right even if they still have to download all the headers in the absence of NIPoPoWs but yeah still because all the interest spent on some constants.
+
+[15:26] **Grayman**: It feels like we're still in our age of heroes part of development and that it's very hard to put that into a box of governance. And you know, eventually you've got to get there. I hear what you're saying. Ultimately, the goal is to write yourself out of a job so that you're no longer necessary, but.
+
+[15:55] **Grayman**: There are a number of people in this community that are really carrying a lot of water up the hill. And that kind is the way it has to be. It sort of self forms a government and people ask each other for help because we don't have VC funding. So we don't have daddy that we go to and ask to keep handing out dollar bills for us to go and buy some new machine or do some new approach. We just have each other. And so the governance kind of self-forms.
+
+[16:26] **Grayman**: But in the long run, if you end up like Bitcoin, it's just ossified. It's controlled by a group of people that everybody agrees are sufficiently undemanding and unchallenging that you can just argue about things like OP_RETURN and not have the thing grow or change. And they'll say that that's because they just want to be conservative. But Bitcoin is unfinished and getting pretty old.
+
+[16:55] **kushti**: In early years, 2009, 2010, they actually were quite radical even, right, about changes. But then, yeah, well, endless wars started and they ended up with the current state where it's not possible to change anything in the protocol, basically. Especially if not proposed by certain developers like one or two of them. So yeah, so it's quite interesting.
+
+[17:47] **kushti**: But yeah, in case of VCs, I think it's simple, right? So I mean, there is some organization, which is paying developers and making all the decisions. But then, yeah, it's not about community, right? So if such term is used, so it's a little bit fake community, I think, right? And yeah, it's always controlled by who is signing checks.
+
+[18:20] **Dmitriy**: Hey, guys. I wanted to add something a bit about community. First of all, it's super great to talk to you all because I have been following for a very long time. And now it's super great to speak and at least to be a little bit more in person with you than usually on Twitter or somewhere else.
+
+[18:45] **Dmitriy**: The project that I've been building is MindHealer. And what I wanted to point out is that building was one thing, and now the most important part is marketing and community. And it's a whole different story, and it has its own challenges. And the challenges are pretty unexpected, not what I was thinking it would be. Provided that I'm also a therapist and I have lots of connections and friends, and I thought it would have been much easier.
+
+[19:14] **Dmitriy**: But people are very reluctant because of this impression, because of this, you know, what people usually think about cryptocurrencies, like scam or something else. And those who don't have any experience, they are very reluctant to join and to try.
+
+[19:36] **Dmitriy**: And so what I'm currently thinking of is that we have one-to-one calls at MindHealer. So people can have one-to-one consultations. And what I'm doing right now is there would be group calls as well. So they could have like seminars or something like that. And my goal is to make maybe some three educational classes about Ergo for specialists who would come so they will have understanding how it works etc etc and over time they will start using it more and more.
+
+[20:17] **Dmitriy**: But something that the community could be really interested in is that I was thinking, since there is such huge demand on money that is decentralized, that is not attached to this or that country, maybe we should try and accelerate some adoption because, for instance, I'm currently in Brazil, but I've lived in several countries.
+
+[20:44] **Dmitriy**: And it's super hard when you move to a different country because you have to buy a different SIM card. Work with banks. In Brazil, banks can close your account anytime without any without anything, they just close the accounts. Maybe you didn't pay your taxes. Maybe something else. So we close your account. Why? Well, I don't know. Just go to the bank and ask them.
+
+[21:06] **Dmitriy**: And that's the way things are. And when you move from country to country over time, it's a really huge, huge difficulty. So what I thought, maybe we could try and again, with the community, try to increase the community. So there are some bloggers who could potentially be very helpful, who could work for us the way, who could do the same job for us that Roger Ver did in 2012 for Bitcoin. So they could be ambassadors filming how they onboard people into Ergo, something like that. Again, it's for community to think about it. But I really like the idea, and I suggest that in the Russian Telegram group. And people are kind of interesting, not sure. So currently I'm asking, and let's see how it goes with the bloggers, I mean.
+
+[22:02] **qx()**: You're suggesting hiring bloggers and that kind of thing?
+
+[22:08] **Dmitriy**: Maybe hiring, maybe inviting them to join the community so they would promote Ergo, kind of like reality shows.
+
+[22:19] **qx()**: So things that I found that those people have zero interest unless you feed them funds and money. That's what I've run across with actually every outreach. There are a few, like when we started the, when dev updates a couple of years ago, I started trying to just get influencers as interviewers. It was kind of a tactic to be like, hey, come talk about crypto in your sphere and what it's like, and also try to educate them on Ergo in the meantime. And it was interesting talking to some of these people.
+
+[22:52] **qx()**: And most of the people, or actually all of the people I talked to, were more on the up and coming kind of thing. You know, from the Cardano side at least, to try to get that kind of exposure. Even, what can I say? There's very little time or interest that they have unless there's something in it for them. I guess there's a kind way to say it, right? So it's hard to convince somebody like that to be altruistic and come to a project that is altruistic and open source, right? And peer to peer, where there's no upside for them in the future to potentially make a ton of money off it. That's what I've found. So it's a tough balance.
+
+[23:34] **qx()**: Like look at how much Cardano paid SNEK or whoever on Cardano paid, SNEK paid, what's that guy's name, that influencer with the long hair that he cut short recently. Like they paid him, I think the number is 40 grand, I think I heard secretly that the number was $40,000. Yeah, exactly. They paid him 40, 50 grand to start promoting SNEK and probably gave him a bunch of SNEK as well. So is it worth it? I don't know.
+
+[24:04] **kushti**: But that's about so-called crypto bloggers, crypto KOLs, right? And usually those are totally retarded and greedy bastards. They are not creating valuable content even, right? But if I understand Dmitry's idea, right? So the idea is to have some, I don't know, like borderless enthusiasts, also bloggers, right? And do some videos like how I make my money with just GPU, right? Then how I can bring it to Africa, right, Latin America without any control and then use there.
+
+[24:51] **kushti**: And yeah, well, I can mine my digital gold, but yeah, I can also convert it to stable value, right? Using stable coins, well, gold packs, SigmaUSD. And yeah, well, also it's possible to do crowdfunding, right? For a blogger. Because, yeah, well, many of them are actually doing something like day trips. I mean, they're like travel bloggers.
+
+[25:25] **qx()**: The issue isn't necessarily all with KOLs, it's that the popularity for KOLs exists, right? So the issue is 90% of the communities in crypto, and I don't know, maybe even more, they're of the mindset of we're playing with casinos, right? I mean, look at this. It's so disgusting that look at the incident that happened yesterday in the US with the assassination. There were gosh darn meme coins that were tripping off at $1.5 million in volume with this guy's name on it that just got assassinated. That's what these KOLs are targeting. They're targeting get rich casinos.
+
+[26:09] **kushti**: But the point is that there is no need to spend energy, time and money on those so-called crypto people. The idea is to get ordinary people to trust some decentralized money. Because the issue is that those KOLs, well, aside of some, well, Bitcoin maximalists, right, with like big experience, right, some of this. So usually they are getting checks from VCs rights to promote some, well, not so decentralized, let's say politely, kinds of assets, right?
+
+[27:15] **kushti**: So, yeah, the idea is to avoid this at all and yeah, attach to like ordinary people. Because, well, we cannot fight, right, with so-called crypto. We can just build some alternative or original, actually, vision, right?
+
+[27:37] **qx()**: Right, right. So that's a thought, kushti. When you get a baseline with what Dmitry is talking about, you have to try to understand right from the get-go who we're trying to attract. Are we trying to attract more like buying people like us who are in crypto for the decentralized peer-to-peer nature of what Ergo is and what crypto should be. Or are we trying to attract people to pump the price of Ergo, right? So if that's established at the beginning, then you can target who you want speaking for it.
+
+[28:08] **Dmitriy**: I wanted to tell you about the audience that I was keeping in mind. So I dropped a link to one of the guys that I got in touch with and why I got in touch with that guy. Because there is a huge, I mean, I just was thinking about one community. I'm Russian, so I was thinking about Russian community, Russian speaking community. What's very particular about it is that there is a huge, several hundred thousand people who want money that is not attached to any particular government. They just want money.
+
+[28:42] **Dmitriy**: They sometimes want to sell an apartment here and buy it there. So their needs are very basic. And all they know is they know about Binance and how to use it. That's the best case scenario. Sometimes they know even less. They don't know anything about decentralization. They don't know anything about this. So they basically want money. And I was thinking about the audience and those travel bloggers, they really don't know the difference between centralized and decentralized.
+
+[29:12] **Dmitriy**: We can basically showcase Ergo to a new audience. And to show that it is cheap, people can make money transfers. They can use it. And then little by little, we can educate them through those bloggers. Again, we can do it differently. We should target bloggers that are not exposed to crypto at all. So they might have a wallet for donations, but nothing more than that. And we can make competition for bloggers, because people who travel, they are not usually very. So their prices are not very high, let's put it like that. And we can make a competition, for instance, best explanatory video of how to install an Ergo Wallet app and how to pay for something on the road or something like that.
+
+[30:06] **qx()**: Yeah, that stuff works well, I think. And kushti also spoke a little bit about the other method, too. And you were touching on this, too, Dimitri, where you're not necessarily getting an influencer, but you're finding a leader of a project somewhere in another country that could utilize decentralized finance and then maybe make them a mouthpiece for it online, not just for Ergo, but for utilizing decentralized peer-to-peer finance to accomplish what they're doing and using Ergo in the meantime to do it. So I think, yeah. Those are great. Those are great ideas.
+
+[30:38] **kushti**: Yeah, but also, so, yeah, had a talk with, wish you balance, again, GitCircles, guys in the, so yeah, what's the plan, right is to, yeah, first to test it and then, to do kind of airdrop to existing developer communities, right? So in the first place to some Rust framework building communities for frameworks used in GitCircles and so on.
+
+[31:21] **kushti**: All right, so the idea is to issue token, right, and to invite people to get them for at least a contribution accounting kind of tool, right? But then, yeah, it's not that hard to start to attach economies, right? Well, invite sponsors, draw some sponsors and so on. I'm willing to put some money maybe into liquidity pools just, right? Well, you can just reuse existing tooling. And so on. But yeah, the idea is to target developers, right? Not crypto people because, well, what's the point in dealing with so-called crypto? I mean, it's just.
+
+[32:19] **kushti**: You know, when you are dealing with people in crypto, it's mostly like a competition who is louder, who is shouting a marketing buzz at the most noisy level. And yeah, it's better to grab people from outside, right? And bring to build, especially developers, right? Bring to build new economies.
+
+[32:55] **qx()**: Ben, you don't have to raise your hand. Just jump in, man. It's community.
+
+[32:57] **Ben**: Well, so I don't necessarily want to change the subject, but I want to shift the focus a little bit. When I'm on X and I see an Ergo raffle for trying to do a Maxi listing, which I think was one of the ones that was up there the last couple of months, there's something in maybe this is because I'm not crypto enough. But I think being here is something. But if I was able to Apple pay $10 from my bank account to an Ergo raffle, I would participate in 10 times the Ergo raffles that I already participate in right and it's also like if I could just apple pay to an Ergo raffle it kind of turns into more of a go fund me thing rather than hey I need to see this raffle I need to remember this raffle then I need to go to Coinbase I need to buy some sort of coin and then I need to go to another exchange to swap that from whatever coin I chose to ERG and then finally I need to shift that from the from the exchange platform to my Ergo wallet and then get that money to the Ergo raffle, you know, so if like.
+
+[34:32] **Ben**: In one, this is a, it's more of a, hey, I want to support the Ergo community, but I don't want to go through 30 minutes of problems to be able to donate $10 to this raffle. So is there a way that you can. And once again, I'm not a super dev or anything. I can't do this, right? But is there a way that we can make it so that you could kind of turn Ergo raffle into a GoFundMe type platform, but also have it have Ergo branding to increase brand awareness?
+
+[35:14] **Ben**: Because the problem in crypto and particularly with Ergo, is nobody knows what it is. I mean, there's a few of us who, I mean, for me, it was in 2021, I heard the Charles Hoskinson Lex Friedman podcast. He mentioned Ergo. In about 2022, I started really getting into Ergo and believed in the mission. So I got my first set of Ergo I've been a part of the community in the last few months i've kind of fallen off because you know sometimes real life gets in the way of you know my crypto journey but it's like the issue isn't with.
+
+[36:06] **Ben**: The community size, it's too complicated to be an Ergo user, simply put. Back in the day, I was buying ADA on Coinbase sending it to KuCoin, swapping my ADA for Ergo on KuCoin, sending it to my wallet. And then it's like, am I really going to go through all that effort and then donate my Ergo? Maybe I'm just speaking in circles. I don't know if anyone has anything to add off of that, but it's simply put, it's too difficult to be an Ergo user.
+
+[36:49] **qx()**: So you're in the US, I assume Ben?
+
+[36:51] **Ben**: Yeah.
+
+[36:53] **qx()**: Yeah. So when I first got into Ergo as well, Ergo felt like a scarce resource, right? Because it was a pain to get in the US. And I'm from New York, which is even more restrictive, right? I had to use a Florida address from my wife's account to purchase Ergo from Coinbase early on, or ADA, and then do the same path you did until they cut us off KuCoin. So there's an accessibility issue right there. I agree. But my question is to you, what do we. How are we framing that?
+
+[37:22] **qx()**: So there's no accountability in raffles where there's something like Apple Pay link with cash, right? So let's say, let's take, for example, that Ergo raffle set up where you could donate ERGs or here's an Apple Pay link to a cash account, right? On Ergo piece, we can see exactly what happens to the Ergo after the raffle finishes. It goes to a wallet, it's used, it's locked, whatever, who's using it kind of thing. And with raffle two, we'll see tokens be able to do that as well. But with the Fiat, there's no trail accountability or anything, right? I guess you could demand that you see it appear on chain after that, or what it's used for, some accounting piece.
+
+[38:04] **Ben**: And I appreciate your sentiment towards transparency. But at a certain point, it's like, we trust that GoFundMe is going to send the funds that we send to GoFundMe to the user. And I know this is a big thing. You shouldn't trust. You should verify. But at a certain point, when does verification become an inhibitor towards growth of a product.
+
+[38:32] **qx()**: Right, so I can see immediately when you were speaking, ideas came to mind, like, if we want to reach the broader community as a Sigmanauts and we're fundraising for something like the Ergo Meetup, I agree. There could be, you know, here's a raffle to fundraise this and here's a GoFundMe as well for people who want to donate fiat. So I think that's a great idea, for sure. But here's the problem. The base of your idea is accessibility, which, you know, it's always been a strain, a rough thing for Ergo, for sure.
+
+[39:05] **kushti**: Yeah, I also think. Yeah, sorry. Go ahead, man.
+
+[39:09] **kushti**: No, go ahead. Go ahead. So I think this is the perfect example, actually. And yeah, it makes sense to maybe make a list, right, of such like tests, right, for accessibility. And then, yeah, so for Raffle, in particular, also, what's doable? So I think, well, not sure when but this is achievable so first we need for raffle version 2 right to have stable coins and then yeah some bridge where you can get stable coins supported on Ergo in exchange of Apple Pay payments, right? But as Grayman said in comments, so yeah, that there is HodlCoin already with the VoltPay. So maybe is it supporting Apple Pay? Probably not, right?
+
+[40:10] **Grayman**: No, it does not. Yeah, well, and you can get gift cards out. But yeah, it's to go from the conventional financial world and into Ergo. then Banxa is our best bet in the United States currently. It's not outrageous the way that they operate, but setting up something so that you could just click a button and have your $10 Apple Pay go into a raffle.
+
+[40:44] **Grayman**: I mean, it's just UI, UX development. The fact that the backend is a raffle is good for traceability. That doesn't need to be in conflict. In fact, it could just be a value add, but it's not being added to anything right now because in order to participate in an Ergo raffle, you have to be an Ergonaut. You have to hold Ergo in a wallet and understand how to use it. I think Ben's making some good points.
+
+[41:13] **Grayman**: And I applaud you for going out on a limb and doing that, Ben, on video, because we need somebody to stand up from that perspective and say, hey, look, this is not about the latest technical nuance so much as it is about making it super easy to get people involved. Also, like what Dimitri was saying earlier, at first I was sort of dismissing it, but then I got his point. Let's talk to communities outside of Ergo and get those people to be interested for a variety of reasons and that'll you know any any way that you can connect the real world and other communities into it that's great but then Ben said hey look that's all well and good but then they're going to have to go through this process of setting up a wallet and all these other things it's a friction that we need to overcome and the only way to overcome it is to.
+
+[42:15] **Grayman**: Apply lubricant, right? And that's a UI UX dev issue, and that's hard to do. You know, kushti's given me the thumbs up here because you can't push a rope. I mean, he's developing, you know, the next innovations in the core and the node. It's hard for him to switch from that into being somebody that writes a bot that works with X to press a button and then suddenly you get an Apple pay that goes to a particular, oh, you have to do a sign it, right? That would be nice, but it has to be done.
+
+[42:51] SPEAKER_00: Sounds like a skill issue for kushti.
+
+[42:57] **Grayman**: We need to get HQ on this call. Where has he been? He's probably with his little one.
+
+[43:02] **kushti**: He's in Pakistan probably still.
+
+[43:05] **Grayman**: Interesting.
+
+[43:06] **kushti**: Yeah, helping some victims of floods.
+
+[43:11] **Grayman**: The floods there are outrageous. Yeah, outrageous, crazy. Himalayas are some of the newest mountains in the world, and boy are they unstable. When it rains hard, it is hell to pay.
+
+[43:22] **qx()**: So I'm interested to do a test, really. I think there's probably some fundraising opportunities and the things we can do.
+
+[43:30] **kushti**: Oh, sorry.
+
+[43:33] **qx()**: No, no, I think it'd be neat. I think, Ben, I think we're gonna, I think I'll integrate that into at least the tech side of the Next Ergo Raffle that the SIGs do is do a side GoFundMe for it for fiat users. And we'll see what happens. I think it's a good idea. See what happens. I mean, I'm ready to take criticism by like, oh, you're a crypto group and you're still using fiat to direct fiat payments kind of thing. So that's fine, I think, but yeah.
+
+[43:59] **Ben**: Well, it's also like, the fact of the matter is crypto is great, and I love the idea in the community, but God is it a pain in the ass to use. If I could, I'd go to the local pizza shop and pay with my ERG. That'd be great. But that's so many steps. That's why when.
+
+[44:28] **Ben**: I haven't kept up with this, but Tabi POS, that was super interesting to me. It was like the first real, and I don't know what the deal with Tabi POS is currently, but it was the first real blockchain product that I saw that was like, oh, this is actually useful in real life. It's like, you know, dexes are cool, kind of useless to a regular person. A lot of these things are really, and I understand that DEXes are important on the backend to make a lot of things work. I get that. But to a regular user, to a regular person, no one cares about a DEX.
+
+[45:22] **Ben**: Like, my dad, for example, isn't going to be like, oh my God, look at all these features that this really cool DEX on Ergo has, right? That's not taking away from the quality of these things, right? But it's just a fact that 60-something-year-old people who see Bitcoin and they're like, oh my God, Bitcoin's a way for me to preserve my wealth over time. Great, but then you get like, that's like layer one, and then like, Ergo's down here at like layer seven. And I appreciate Ergo for being at layer seven, but the layman is just like money Bitcoin, money Bitcoin, money Bitcoin. And they're never going to use their Bitcoin in real life.
+
+[46:18] **qx()**: Right, Ben. So, Ergo's had that agreements and good reality check. I think Ergo's slightly aware of that and Devs are, and you'll see that in some of the products that come out, is that they are transparent to the user, right? So, like, Machina's team was originally working on a ticketing system that allows concert tickets and things. So that you could have on-chain governance of your ticket system and the normal user wouldn't know. They just download an app that had an integrated wallet that passed the tokens back and forth kind of thing.
+
+[46:52] **qx()**: So I agree. I think when developers develop, they should keep that in mind, especially in Ergo, that people might not want to know that they're holding Ergo per se, but they want to know that they're holding a product. They're using a product that uses some crazy stable security and peer-to-peer network. that their data and their value is safe.
+
+[47:15] **Ben**: Yeah. And once again, I'm speaking out of hand because I don't have the experience to implement any of this. So if any of this is bullshit, I'm sure some of it can be. But it's, hey, you get them in with the Apple Pay GoFundMe type thing. And then that gives you the opportunity to educate people, meeting them where they are, rather than trying to, it's like if I'm in New York City and you're in, I don't know, Woodstock, New York, it's like, how am I going to get you from Woodstock to New York City? It's, I don't even know you, right? Like, I'm not gonna be like, hey, come to New York City and you're gonna come to New York City. That's not gonna happen.
+
+[48:08] SPEAKER_00: Well, you brought up some really good points, Ben. Likewise, Grayman about the stuff he was saying. But I think it's more or less a product of the time, because if you rewind time, older people kind of had a distaste for the internet. Now, if you log on to Facebook, that's where they hang out. So I think it's more of a UI thing, like what Grayman would say is the ease of access, and then also to what QX was saying about the criticism from going from fiat real to dual purpose. I don't see that as a valid criticism at all, because for us to even get into Ergo, you have to go from your bank account to dual purpose, right? So it's like, using Ben's point, which is a good point. That's not a criticism because people are They already if you're donating to a GoFundMe. It's a purpose.
+
+[49:07] **qx()**: All right, so we got our first plot scanner of the Of the show luckily we have his face. We can post it somewhere and shame him. What an asshole anyway moving on that might also just be some video that he put up there.
+
+[49:18] **qx()**: Oh yeah, yeah, it's not his asshole, I'm sure. I know. He was white. He was white. The person in the video was not white.
+
+[49:26] SPEAKER_00: Why is there a video on his phone?
+
+[49:29] **Grayman**: I think maybe we ought to cut the feed for YouTube before we get in trouble.
+
+[49:33] **Grayman**: I don't know.
+
+[49:33] **qx()**: It's already there. Andy can clip it. Andy can clip it. It's not a big deal. All right. So before I was distracted, I even forgot what the hell I was going to say. Demetri, what were you saying?
+
+[49:45] **kushti**: Oh, yes. So some, yeah, so cross-chain.
+
+[49:49] **qx()**: Yeah, so as long as the liquidity is available on both sides, Dmitriy, so let's say you want to do a raffle and broadcast Ethereum, Binance, all those things, but you want to use the funds on Ergo. As long as those liquidity pools exist, then Rosen could develop, essentially, except tokens in Ethereum. It goes into a wallet and then automatically transfers across the bridge at the end of the raffle once it knows that it's a certain amount. So yeah, development-wise, it's totally possible and would be totally neat. Or you could, yeah, yeah, that would be really neat. Yeah. I'm still a little shell-shocked from that. It's 10 o'clock.
+
+[50:29] **Grayman**: Maybe we should end on a good point. No, don't end it yet. I want to do an advertisement that will tie it all together.
+
+[50:35] **qx()**: All right, go for it, Grayman.
+
+[50:37] **Grayman**: It's for the Autolykos DAO and Venture Capital Collective, which is formed recently on Ergo. It's a project being led by LifeOfIFA. And it's an experiment in doing governance on chain in Ergo in a sort of standard corporate form. And it's a situation where there's a token, which is called Lykos, which essentially represents a share in this enterprise. And it's been through the seed round. The next round is the sow round. And then the round after that is where we start funding projects. And the first project is a payment gateway.
+
+[51:27] **Grayman**: And I think there have been a number of things that we need to take into account when we end up developing a spec for that, one of them being that mixing would be involved. But I think another would be that it would actually be a way to accept and process payment from Fiat into any other currency, I guess, again, assuming that you've got the liquidity to support that. So that's my little advertisement for Autolykos. It's permissionless, so you don't need my permission to join, but maybe some encouragement. The Sow Round's coming up soon, so keep an eye out for it.
+
+[52:14] **Grayman**: Awesome.
+
+[52:15] **qx()**: Very cool. And I think we missed those two things I just want to mention as well that we missed on the dev update. Nautilus wallet has some stuff that came out. FleetSDK upgrades. Nautilus is investigating ledger connection issue. Machina Finance is finishing limit orders on unit tests. Also, with speaking of spam, like we just had spam troll just now. Ergo's had a couple airdrops recently of fake tokens or tokens that lead you to a fake site that want to try to get you to connect your wallet to.
+
+[52:47] **qx()**: So just a reminder to everybody that Nautilus has those baked in, ignore spam tokens, ignore NSFW tokens because those come as well. So if you have those clicked and I think they're clicked by default, the Sigmanauts and Ergo Explorer communities mark tokens as spam as they come in and they're automatically hidden from your wallet so you'll never even see them if you utilize Nautilus for that and then you can use Terminus wallet a mobile wallet to burn them if you want to as well which is great and I think HodlCoin has a burn option on their site as well if i'm not mistaken so just keep in mind that too that.
+
+[53:26] **qx()**: Nautilus is also going to integrate on that community list, we're going to start putting addresses there that are known scammers so that when you send, when you try to send funds to a known scammer address that the community's marked as a known scanner, Nautilus won't stop you per se, but the idea is to pop up a little message that says, hey buddy. This address has been marked by the community as a known asshole or known scammer or whatever. Are you sure you want to do this? And maybe a default check to no and then you have to yes and confirm it kind of thing. So that's a new thing coming out of Nautilus at some point in the future with these community lists.
+
+[54:03] **qx()**: If you are up at 3 a.m. and you recognize that a spam token went out and nobody else is awake, go ahead and submit a PR to our GitHub or go to ErgoExplorer and find that token and mark it as a scam as well or pop it in chat. Someone will take care of it this morning. We're a community and it's up to us to keep each other safe for that kind of thing.
+
+[54:27] **kushti**: All right, everybody.
+
+[54:32] **kushti**: Actually, there are more updates. There is also a reworked basis contract and we have some new developers contributing there as well. Yeah, well, let's discuss during the next call maybe.
+
+[54:45] **qx()**: Yeah, yeah, there's basis right there. There's a Cyberverse update report as well came in.
+
+[54:51] **kushti**: Cyberverse and maybe. So yeah, let's discuss during the next call.
+
+[54:57] **kushti**: Yeah, sounds good.
+
+[54:59] **qx()**: So we'll just talk about it. Every week, Ben. I hope to see you every week, man. Come in. It's awesome to have your opinion.
+
+[55:06] **Grayman**: And join Autolykos, Ben.
+
+[55:09] **Ben**: Come talk to us about the idea. Dude, I have to find my Ergo seed phrase first.
+
+[55:14] **Ben**: Uh-oh.
+
+[55:16] **Ben**: Create a new wallet and send your shit to it. Well, that requires me finding my seed phrase first. I think I got logged out of Nautilus. I think I got logged out of Nautilus.
+
+[55:26] **Grayman**: Oh, okay.
+
+[55:26] **Ben**: No, I'm not logged out of Nautilus.
+
+[55:29] **qx()**: Great. So make a new wallet and send it ASAP. Yeah. Yep. Yep.
+
+[55:33] **Grayman**: And everybody go to Colorado if you can.
+
+[55:36] **qx()**: Yes, I'm going to announce the first two speakers. I'll announce maybe today or tomorrow, the third speaker, three out of three out of the six speakers or seven speakers we have. Please come. It's going to be a lot of fun. We're going to live stream everything, but we'd love to have you guys here in person.
+
+[55:52] **Grayman**: The Twitter stuff.
+
+[55:55] **qx()**: Yes, thank you, Adi. October 11th then. So people are showing up Friday, October 11th is Saturday, and then there's a breakfast, community breakfast thing on Sunday as well if people are still around. Yeah, it's gonna be fun. Later.
+
+[56:13] **qx()**: And everybody check out Dimitri. Oh, he just left. He was developed. Oh, he's right there. Your picture. I'm here. MindHealer as well. I've poked around it kind of thing. But super, super interesting idea.
+
+[56:30] **kushti**: Thanks, thanks. Yeah, so let's discuss MindHealer maybe also.
+
+[56:34] **qx()**: Yeah, pop into that chat, Dmitri, and talk about it as well. Yeah, Grayman. Grayman will bring it down. There's not enough ERG in the world for Grayman sessions.
+
+[56:47] **qx()**: All right, everybody, it's been awesome. I love these community talks. I think they're a step up in what Ergo is, so fantastic. kushti, any closing words?
+
+[56:55] **kushti**: So awesome atmosphere. Yeah, very pleasant talk. So yeah, let's continue next week.
+
+[57:02] SPEAKER_00: Great. Ciao. Thanks, everyone.

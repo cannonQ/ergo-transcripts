@@ -1,0 +1,84 @@
+{
+  "call_date": "2025-10-12",
+  "call_title": "Ergo Meetup 2025 LIVE!",
+  "decisions": [],
+  "commitments": [],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "66:01",
+      "question": "What if the staking platform goes down or disappears, everyone's screwed?",
+      "context": "Concerns about data availability and platform reliability for UTXO staking",
+      "topic": "staking",
+      "raised_by": "Grayman"
+    },
+    {
+      "id": 2,
+      "timestamp": "67:54",
+      "question": "How can you recover if the data is just all hashes since hashes are non-reversible?",
+      "context": "Understanding data recovery mechanisms in Merkle tree staking implementation",
+      "topic": "staking",
+      "raised_by": "audience member"
+    },
+    {
+      "id": 3,
+      "timestamp": "80:50",
+      "question": "Can we have a HODLerg natively within the Nautilus wallet itself?",
+      "context": "Suggestion for integrating apps directly into wallet to avoid frontend dependencies",
+      "topic": "wallet-integration",
+      "raised_by": "Grayman"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "29:02",
+      "fact": "Major upgrade with Sigma 6, new node version completed",
+      "speaker": "Armeanio",
+      "topic": "technical"
+    },
+    {
+      "id": 2,
+      "timestamp": "54:23",
+      "fact": "AVL tree is a native data structure within ErgoScript language, implemented by kushti in the compiler itself",
+      "speaker": "MGPai",
+      "topic": "technical"
+    },
+    {
+      "id": 3,
+      "timestamp": "71:44",
+      "fact": "Ergo node size is 20-30 gigs compared to Ethereum's 3 terabytes",
+      "speaker": "MGPai",
+      "topic": "technical"
+    },
+    {
+      "id": 4,
+      "timestamp": "72:04",
+      "fact": "Cardano node size is 160 gigabytes",
+      "speaker": "MGPai",
+      "topic": "technical"
+    },
+    {
+      "id": 5,
+      "timestamp": "77:03",
+      "fact": "Cardano went from 80 cents to 27 cents in a flash due to mass liquidations",
+      "speaker": "MGPai",
+      "topic": "market"
+    },
+    {
+      "id": 6,
+      "timestamp": "83:07",
+      "fact": "Palm staking is live on Cardano at palm-economy.io for Palm Token",
+      "speaker": "MGPai",
+      "topic": "staking"
+    },
+    {
+      "id": 7,
+      "timestamp": "83:31",
+      "fact": "EVM has been available since 2015",
+      "speaker": "MGPai",
+      "topic": "technical"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "call_date": "2025-07-25",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:15",
+      "question": "How are sub-blocks and sigma chains progressing, and what's the vision for horizontal scaling with proof of work?",
+      "asker": "qx()",
+      "answer": "The goal for two years has been taking proof of work energy and scaling horizontally. There's a sustainability concern with traditional models where layer two solutions create value leakage from miners, as transaction volume moves off layer one while mining rewards decrease. We're exploring ways to let miners absorb more transaction value through side chains while maintaining the security umbrella, creating a miner-centric future rather than a dev-centric layer two approach.",
+      "responder": "Armeanio",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "sub-blocks",
+        "sigma chains",
+        "horizontal scaling",
+        "proof of work",
+        "layer two"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "11:00",
+      "question": "Can you hide amounts in liquidity pools to enable completely obfuscated trading?",
+      "asker": "qx()",
+      "answer": "It's problematic for public liquidity pools because everyone needs to know amounts to trade efficiently. You can't set limit orders if you can't read other orders, or determine slippage if you don't know pool liquidity. You could do dark pools with limited functionality or pools controlled by trusted parties, but that defeats the purpose of decentralization.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "dark tokens",
+        "liquidity pools",
+        "privacy",
+        "slippage"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "17:22",
+      "question": "What is SigmaLock and what are its key features?",
+      "asker": "qx()",
+      "answer": "SigmaLock is a locking mechanism similar to life insurance or inheritance planning. You can lock funds with unlock conditions based on time or price strikes, create multiple unlock keys for beneficiaries, and optionally retain creator permissions to modify contracts later. It's built with a custom Go indexing framework for instant transaction visibility and mempool support for real-time updates.",
+      "responder": "MGpai",
+      "category": "defi",
+      "difficulty": "beginner",
+      "related_terms": [
+        "locking",
+        "inheritance",
+        "smart contracts",
+        "time locks"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "34:32",
+      "question": "What's the latest update on Keystone Wallet integration?",
+      "asker": "qx()",
+      "answer": "As of July 21st, Keystone can connect to Nautilus, generate and sign transactions. What remains is bug fixing in transaction serialization, finishing the Nautilus-Keystone UI design, and full integration tests. The team estimates 4-6 weeks for Ergo to be ready.",
+      "responder": "kushti",
+      "category": "wallet",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Keystone",
+        "Nautilus",
+        "hardware wallet",
+        "integration"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "38:29",
+      "question": "How will Rosen Bridge transition from federated guards to a more decentralized system?",
+      "asker": "Grayman",
+      "answer": "The vision is to allow multiple guard sets to use the same infrastructure, creating competitive federations. Different guard sets could form with their own collateral treasuries, offering various levels of backing, settlement speeds, and fees. Users could choose between multiple intermediaries, fostering competition rather than trying to make it fully non-federated.",
+      "responder": "Armeanio",
+      "category": "bridges",
+      "difficulty": "advanced",
+      "related_terms": [
+        "Rosen Bridge",
+        "federation",
+        "decentralization",
+        "guards",
+        "collateral"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "47:21",
+      "question": "Is it possible to add Bitcoin as a native asset in Nautilus wallet?",
+      "asker": "Grayman",
+      "answer": "Nautilus was designed with a backend that can support multiple environments long-term. To add BTC, you'd need Bitcoin blockchain information and an SDK to integrate Rosen directly into the wallet. This would enable users to manage assets in a unified environment instead of fragmented experiences across different apps.",
+      "responder": "Armeanio",
+      "category": "wallet",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Nautilus",
+        "Bitcoin",
+        "multi-chain",
+        "Rosen integration"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "59:18",
+      "question": "Are intents the same as weakly confirmed transactions in Ergo?",
+      "asker": "Byron",
+      "answer": "Ergo is intents-oriented by design since day one. UTXO spending conditions are essentially intents - you specify only conditions that matter and leave the rest to others. Intents and account abstraction are products of account-based blockchains trying to relax their strict contractual descriptions, but these concepts already exist natively in UTXO models.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "intents",
+        "UTXO",
+        "spending conditions",
+        "account abstraction"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "67:09",
+      "question": "Is Machina Finance an order book DEX or will it use existing AMM pools?",
+      "asker": "qx()",
+      "answer": "It's an order-based DEX where users create their own local smart contracts offering buy/sell limits. A backend matching engine aggregates these individual UTXO contracts across the chain. It's not a traditional order book or AMM - it's peer-to-peer where individuals create local orders that get matched, removing the need for central contracts or bookmakers.",
+      "responder": "Armeanio",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Machina Finance",
+        "order-based DEX",
+        "local contracts",
+        "peer-to-peer"
+      ]
+    }
+  ]
+}

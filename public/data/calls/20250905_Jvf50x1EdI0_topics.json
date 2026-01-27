@@ -1,0 +1,199 @@
+{
+  "call_date": "2025-09-05",
+  "call_title": "Ergo PoW Blockchain - Community Chat - September 4th",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Community AMA Format Introduction",
+      "category": "community",
+      "start_time": "00:22",
+      "end_time": "01:23",
+      "primary_speaker": "qx()",
+      "summary": "Introduction to the first official community AMA format where participants can ask questions, observe, or be asked questions. Emphasis on the open, free-for-all approach in the Ergo spirit.",
+      "key_terms": [
+        "community AMA",
+        "open format",
+        "participation"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Korean Blockchain Week Conference Plans",
+      "category": "marketing",
+      "start_time": "01:25",
+      "end_time": "02:47",
+      "primary_speaker": "kushti",
+      "summary": "Kushti discusses upcoming presentation at Korean Blockchain Week, described as one of the biggest blockchain events globally. Expresses skepticism about large conferences being mostly commercial rather than technical.",
+      "key_terms": [
+        "Korean Blockchain Week",
+        "conference",
+        "presentation",
+        "Token 2049"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Sub-blocks Peer-to-Peer Layer Development",
+      "category": "technical",
+      "start_time": "03:24",
+      "end_time": "06:07",
+      "primary_speaker": "kushti",
+      "summary": "Kushti reports on sub-blocks development with heavily reworked peer-to-peer layer using INV messages and improved mempool handling. Currently testing with three peers and addressing messaging penalties and spam protection.",
+      "key_terms": [
+        "sub-blocks",
+        "peer-to-peer",
+        "INV messages",
+        "mempool",
+        "spam protection"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Git Circles Community Currency Project",
+      "category": "ecosystem",
+      "start_time": "06:16",
+      "end_time": "09:41",
+      "primary_speaker": "kushti",
+      "summary": "Introduction of Git Circles project for creating community currencies that reward developers with tokens for code contributions. Discussion about when tokens are needed versus when they're not in digital economies.",
+      "key_terms": [
+        "Git Circles",
+        "community currencies",
+        "developer rewards",
+        "GitHub integration",
+        "open source"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "ChainCash Basis Rework and Off-chain Payments",
+      "category": "defi",
+      "start_time": "09:55",
+      "end_time": "31:08",
+      "primary_speaker": "kushti",
+      "summary": "Detailed discussion of ChainCash rework to support off-chain payments without on-chain creation first. Covers tracker-based system, silver-backed community currencies, and comparison to free banking systems with transparent collateralization.",
+      "key_terms": [
+        "ChainCash",
+        "off-chain payments",
+        "free banking",
+        "trackers",
+        "silver backing",
+        "IOU records",
+        "collateralization"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "DIY Hardware Wallet Development",
+      "category": "technical",
+      "start_time": "32:43",
+      "end_time": "34:26",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of Neetram's open source DIY hardware wallet project that can be assembled at home for security and cost benefits. Addresses privacy concerns with commercial hardware wallets like Ledger.",
+      "key_terms": [
+        "DIY hardware wallet",
+        "open source",
+        "home assembly",
+        "privacy",
+        "Ledger alternative"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "MCP Servers and AI Development Tools",
+      "category": "technical",
+      "start_time": "34:32",
+      "end_time": "36:38",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of MCP (Model Context Protocol) servers for AI-assisted development on Ergo. Kushti notes limitations for core development but sees potential for contract testing and application building.",
+      "key_terms": [
+        "MCP servers",
+        "AI development",
+        "LLM tools",
+        "contract testing",
+        "CodeUTXO"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Infrastructure Expansion and Global Coverage",
+      "category": "technical",
+      "start_time": "36:38",
+      "end_time": "37:50",
+      "primary_speaker": "qx()",
+      "summary": "Announcement of three new infrastructure peers joining with machines shipping for Jemai, Satoshi, and Lucas. Request for more European, Middle Eastern, and Asian coverage for the Ergo InfraDAO.",
+      "key_terms": [
+        "infrastructure peers",
+        "InfraDAO",
+        "load balancer",
+        "global coverage",
+        "node deployment"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Rosen Bridge Runes Integration and Testing",
+      "category": "bridges",
+      "start_time": "38:02",
+      "end_time": "45:07",
+      "primary_speaker": "Armeanio",
+      "summary": "Update on Rosen bridge development including runes integration, extensive testing phases, and potential Bitcoin color coins standard. Discussion of wrapping ERG and other assets as runes for Bitcoin Lightning compatibility.",
+      "key_terms": [
+        "Rosen bridge",
+        "runes integration",
+        "color coins",
+        "Lightning Network",
+        "wrapped assets",
+        "metadata standards"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Colorado Meetup Planning and Project Demos",
+      "category": "community",
+      "start_time": "44:24",
+      "end_time": "47:58",
+      "primary_speaker": "Armeanio",
+      "summary": "Discussion of upcoming Colorado meetup with planned MVP demonstrations and testnet launches. Coordination with speakers and logistics including potential Korean barbecue dinner.",
+      "key_terms": [
+        "Colorado meetup",
+        "MVP demos",
+        "testnet",
+        "community dinner",
+        "event planning"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Developer Onboarding and Full-Stack Development",
+      "category": "community",
+      "start_time": "48:16",
+      "end_time": "56:45",
+      "primary_speaker": "Tyler",
+      "summary": "Community member Tyler discusses challenges connecting frontend to blockchain and plans for creating educational content. Discussion of DECO program, AI-assisted learning tools, and developer documentation needs.",
+      "key_terms": [
+        "developer onboarding",
+        "full-stack development",
+        "DECO",
+        "educational content",
+        "frontend-backend connection",
+        "knowledge base"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Cyberverse Game Shutdown and Rebuild",
+      "category": "ecosystem",
+      "start_time": "56:59",
+      "end_time": "57:47",
+      "primary_speaker": "qx()",
+      "summary": "Announcement that Cyberverse game will shut down for 30 days for major rebuild by Hero and Pixel. Players advised to withdraw cyber tokens before shutdown.",
+      "key_terms": [
+        "Cyberverse",
+        "game rebuild",
+        "cyber tokens",
+        "shutdown",
+        "re-release"
+      ]
+    }
+  ]
+}

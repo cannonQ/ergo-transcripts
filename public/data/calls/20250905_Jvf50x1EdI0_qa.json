@@ -1,0 +1,138 @@
+{
+  "call_date": "2025-09-05",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "03:54",
+      "question": "What are INV messages in the context of Ergo's sub-blocks implementation?",
+      "asker": "qx()",
+      "answer": "INV messages are part of the heavily reworked peer-to-peer layer for sub-blocks. Announcements are now done via INV messages, and transactions stored in mempool are not redownloaded. The peer-to-peer messaging system includes penalization for too aggressive messaging while balancing efficiency and protection against spam attacks.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "sub-blocks",
+        "peer-to-peer",
+        "mempool",
+        "networking"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "06:24",
+      "question": "What is Git Circles and how does it work?",
+      "asker": "qx()",
+      "answer": "Git Circles is a project to create community currencies for digital communities and developing communities. The idea is that you write code and get tokens for lines of code or pull requests. It already has functionality to grab pull request data from GitHub, and they can start testing with tokens, rewarding contributors manually at first, then invite different open source communities to have economies on Ergo.",
+      "responder": "kushti",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "community currencies",
+        "GitHub",
+        "open source",
+        "tokenization"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "10:00",
+      "question": "How does the new ChainCash basis design work for off-chain payments?",
+      "asker": "qx()",
+      "answer": "The reworked basis design allows off-chain payments with no need to create anything on chain first. It's now based on IOU records tracked by minimally trusted tracking agents (trackers), similar to a BitTorrent-like design but for money. You choose a tracker, reserve holders can create off-chain cash that may not be fully backed, enabling credit systems, micropayments, and peer-to-peer network rewards.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "advanced",
+      "related_terms": [
+        "ChainCash",
+        "off-chain payments",
+        "IOU",
+        "trackers",
+        "fractional reserve"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "15:06",
+      "question": "How does the transparent collateralization work in ChainCash compared to traditional free banking?",
+      "asker": "Grayman",
+      "answer": "Unlike traditional free banking where you had to trust the banker or have inside knowledge about reserves, ChainCash makes fractional reserves transparent to everyone. All participants can see the collateralization level, so there's no information asymmetry. People can either increase collateralization or discount the value of notes from under-collateralized banks based on transparent, broadcast information about reserve levels.",
+      "responder": "Grayman and kushti",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "free banking",
+        "collateralization",
+        "fractional reserve",
+        "transparency"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "17:47",
+      "question": "Why might silver be preferable to gold as a unit of account for ChainCash?",
+      "asker": "Grayman",
+      "answer": "Silver is the currency of the people and historically used for localized economies and services trading, while gold is more for central banks and large-scale transactions. For community-based ChainCash systems, silver is more practical because you can redeem it in person without relying on the chain, and Americans have about 1-2 billion ounces of recognizable silver coinage from pre-1964 already in circulation in local economies.",
+      "responder": "Grayman",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "silver",
+        "gold",
+        "unit of account",
+        "local economies",
+        "redemption"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "32:55",
+      "question": "What is the poor man's wallet project about?",
+      "asker": "qx()",
+      "answer": "It's a DIY hardware wallet that you can assemble at home. It's super cheap and offers security advantages - if you order components and assemble at home, you're not subject to data leaks like Ledger users experience. Also, thieves cannot easily recognize it as a hardware wallet unlike Ledger devices, and you can 3D print any case to make it look like a calculator or other innocuous device.",
+      "responder": "kushti",
+      "category": "wallet",
+      "difficulty": "beginner",
+      "related_terms": [
+        "hardware wallet",
+        "DIY",
+        "security",
+        "3D printing",
+        "Ledger"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "38:25",
+      "question": "What is the current status of Rosen Bridge development, particularly for Bitcoin runes?",
+      "asker": "qx()",
+      "answer": "They're integrating the runes build into the watcher and guard modules and setting up test environments for extensive unit and end-to-end testing. They're exploring how to embed metadata on Bitcoin to support the Rosen bridge standard and potentially create their own standard for colored coins on Bitcoin, allowing assets like ERG or Dexy Gold to be wrapped as runes and potentially access Bitcoin infrastructure like Lightning.",
+      "responder": "Armeanio",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Rosen Bridge",
+        "Bitcoin runes",
+        "metadata",
+        "colored coins",
+        "Lightning Network"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "50:15",
+      "question": "How can developers learn to connect frontend applications to the Ergo blockchain?",
+      "asker": "Tyler",
+      "answer": "There are many open source applications available as examples, and the plan is to create an MCP (Model Context Protocol) system specifically for Ergo development that can be fed with these examples. Most of the code in blockchain applications is actually off-chain (about 20 times more code), with only small parts needed to connect to the chain for transactions. An AI system trained on Ergo documentation and video tutorials could help bridge these knowledge gaps.",
+      "responder": "kushti and qx()",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "frontend",
+        "backend",
+        "off-chain",
+        "MCP",
+        "development tools"
+      ]
+    }
+  ]
+}

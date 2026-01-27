@@ -1,0 +1,137 @@
+{
+  "call_date": "2025-07-11",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "00:39",
+      "question": "What's the current status of Ergo 6.0 voting?",
+      "asker": "qx()",
+      "answer": "The 6.0 voting is going well with 97% of miners having put the node in and voting yes. SigmaUSD is still waiting to compile a 6.0 modified node so they can run it and vote yes as well, but there's an additional step involved since they're running storage rent.",
+      "responder": "kushti",
+      "category": "governance",
+      "difficulty": "beginner",
+      "related_terms": [
+        "voting",
+        "miners",
+        "node upgrade",
+        "storage rent"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "13:45",
+      "question": "How will sub-blocks work in normal Ergo blocks and what happens to them after creation?",
+      "asker": "qx()",
+      "answer": "Sub-blocks are temporary entities propagated over the peer-to-peer network for quicker confirmation and higher TPS. After a few blocks, sub-blocks get erased and you have just the full blocks for bootstrapping new nodes and efficient storage on disk. It's a kind of fractal design where sub-blocks provide faster confirmation but full blocks serve as the archival mechanism.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "sub-blocks",
+        "TPS",
+        "pruning",
+        "archival"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "15:16",
+      "question": "How does Ergo's pruning mechanism work with NIPoPoWs and what security guarantees does it provide?",
+      "asker": "implied from context",
+      "answer": "Ergo uses a fractal design where sub-blocks get pruned after a few blocks, then blocks themselves can be pruned using NIPoPoWs and snapshots while maintaining the same security guarantees. The cryptographic security assumptions are the same as Bitcoin, based on hash function properties, but with totally different and superior pruning capabilities for secure pruning.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "NIPoPoWs",
+        "pruning",
+        "snapshots",
+        "security",
+        "cryptographic assumptions"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "18:50",
+      "question": "What's the current status of updating SigmaUSD to Oracle pool version 2?",
+      "asker": "implied from context",
+      "answer": "A friend just finished the Git Circle spec which will be published for developers to contribute. Dexy testing is doing well with bank reserves growing nicely, so they're now thinking about updating the Oracle pool for SigmaUSD to version 2 and then deploying it. The version 2 Oracle has proven to be more robust in design compared to the current version which has some incentivization issues.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "SigmaUSD",
+        "Oracle pool",
+        "Dexy",
+        "bank reserves"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "19:54",
+      "question": "Will the Oracle set expand when SigmaUSD moves to Oracle 2.0?",
+      "asker": "qx()",
+      "answer": "Yes, they can have like 15 working oracles similar to what they have in gold. This would also enable launching additional stable coins like GleomUSD and DexyUSD. There's expected to be revived interest in algorithmic stable coins, specifically crypto-backed ones, after the failure of non-backed stable coins like Terra.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Oracle",
+        "stable coins",
+        "GleomUSD",
+        "DexyUSD",
+        "crypto-backed"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "25:41",
+      "question": "What are the plans for merge mined sidechains on Ergo?",
+      "asker": "implied from context",
+      "answer": "Development has started on merge mined sidechains, with empty repositories created and planning underway. This will be developed in Rust, likely by other developers since kushti isn't strong in Rust. There are many ideas including private sidechains, compliant ones, double merge mined sidechains (Bitcoin and Ergo simultaneously for trustless Bitcoin DeFi), and even Cardano partner chains that are also Ergo merge mined.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "merge mining",
+        "sidechains",
+        "Rust",
+        "Bitcoin DeFi",
+        "Cardano partner chains"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "28:01",
+      "question": "What is the Braid project that Better Money Labs posted about?",
+      "asker": "qx()",
+      "answer": "Braid is a double merge mined Bitcoin plus Ergo sidechain. They're writing a white paper that will be published in coming days and discussing with partners including big Bitcoin mining pools for support. The goal is to avoid developing something with no outside interest and to bundle development efforts effectively.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "Braid",
+        "double merge mining",
+        "Bitcoin",
+        "mining pools",
+        "sidechain"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "24:00",
+      "question": "What are the challenges with incentivizing node running on Ergo?",
+      "asker": "qx()",
+      "answer": "The main challenge is defining what exactly to incentivize, since Ergo has many modes of operation - nodes can take snapshots, store all full blocks, or just some suffix. It's unclear which particular option should be incentivized and why. Some incentivization schemes are possible without touching the core protocol, like running proof-of-stake rewarding mechanisms on top of Ergo as a contract, but this requires having wallets unlocked which may not be secure.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "node incentivization",
+        "storage modes",
+        "proof-of-stake",
+        "wallet security"
+      ]
+    }
+  ]
+}

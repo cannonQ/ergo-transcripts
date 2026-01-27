@@ -1,0 +1,606 @@
+[00:22] **qx()**: Music's going, right, kushti?
+[00:23] **qx()**: I mean, Andy?
+[00:26] **qx()**: Perfect.
+[00:26] **qx()**: Welcome, everybody, to the first official community AMA by the Ergo Proof of Work blockchain.
+[00:36] **qx()**: We have quite a showing already.
+[00:38] **qx()**: This is fantastic.
+[00:39] **qx()**: We have Grayman, kushti, Blake Starkenberg, and Nex, Armeanio.
+[00:44] **qx()**: Some people are still waking up, so it might be a minute before they turn on their cameras, but that's perfectly fine.
+
+[00:50] **qx()**: As promised, in the last AMA, we are going to move this format to what you're seeing now, which is a community chat.
+[00:57] **qx()**: Community AMA, which means you show up, you ask questions, or you observe, or you get asked questions.
+[01:04] **qx()**: So be prepared for anything if you show up.
+[01:06] **qx()**: And people asking questions, be prepared for people not to answer if they don't want to talk.
+[01:11] **qx()**: So, it's a free-for-all, it's an open-economy system, and this is how we do it, right?
+[01:15] **qx()**: Just in the Ergo spirit.
+
+[01:17] **qx()**: So, as promised, hey, kushti, got your video on.
+[01:21] **qx()**: So, as promised, how you doing, kushti?
+[01:23] **qx()**: How's your week been?
+
+[01:25] **kushti**: It's busy, busy.
+[01:27] **kushti**: But everything is well.
+[01:30] **kushti**: So preparing a lot of things in parallel.
+[01:34] **kushti**: Well, from sub-blocks to some slides.
+[01:41] **kushti**: I'm going to visit Korean Blockchain Week and already presenting something to Piers there.
+[01:49] **kushti**: And it seems it will be a big event like one of the biggest blockchain events globally.
+[01:58] **kushti**: I don't like those big conferences like 80% commerce rights, 90% like just ordinary crypto web 3 scam somewhat but yeah well anyway.
+
+[02:15] **qx()**: kushti was, I was asking kushti for a meeting time with Mark trying to organize something.
+[02:21] **qx()**: He's like, I'll be in Korea.
+[02:22] **qx()**: I was like, oh, you're going to North Korea?
+[02:24] **qx()**: And he's like, no idiot.
+[02:25] **qx()**: There's a blockchain in South Korea.
+[02:28] **qx()**: Just the biggest one in the world.
+
+[02:31] **kushti**: One of the biggest, yeah, and immediately after it will be Token 2049 in Singapore, but yeah, I'm missing it because yeah, probably already would be too much.
+[02:44] **kushti**: And basically the same people, I guess.
+
+[02:47] **qx()**: Yeah, yeah, yeah.
+[02:48] **qx()**: All right.
+[02:49] **qx()**: So as promised, guys, as a conversation starter and to pay respect to the developers and the fact that I don't do developer update anymore, we're going to bang through a couple of the developer updates right here.
+[03:04] **qx()**: And kushti, I'd love if you read your own updates.
+[03:08] **qx()**: That would encourage maybe Anand Vihar to come on next time and read his updates or other people to come on and read their updates.
+[03:15] **qx()**: So I'm going to share my screen.
+[03:17] **qx()**: And we will do this, let's see if it looks okay.
+[03:22] **qx()**: It does look okay, perfect.
+
+[03:24] **qx()**: All right, so kushti says, yesterday at 9 a.m., let's chat, please share your updates.
+[03:29] **qx()**: kushti, you want to take your update there?
+
+[03:32] **kushti**: Yeah, so yeah, it's a kind of small font.
+[03:37] **kushti**: Yeah, can you read it?
+[03:39] **kushti**: Oh yeah, yeah.
+
+[03:42] **qx()**: Sub-blocks.
+[03:43] **qx()**: Peer-to-peer layer heavily reworked.
+[03:45] **qx()**: Announcements are now done via INV messages.
+[03:48] **qx()**: Transactions stored in mempool are not redownloaded.
+[03:50] **qx()**: Only diff testing and polishing things now.
+[03:54] **qx()**: What's INV messages, kushti?
+
+[03:56] **kushti**: Yeah, so we are currently testing it with Potato.
+[04:00] **kushti**: So there is a network with three peers and yeah, I'm checking logs all the time and improving things.
+[04:08] **kushti**: Often it is stuck, one node or another, because of banning another node, because messaging to be improved.
+[04:23] **kushti**: Yeah, there is a penalization for too aggressive messaging, but yeah, well, at the same time.
+[04:31] **kushti**: Well, so some parts are not aggressive enough.
+[04:36] **kushti**: So yeah, I'm tuning and fixing.
+[04:42] **kushti**: reworking between the maximum efficiency but also while working on the enemy spam attacks.
+[04:52] **kushti**: Well, usually it's the parts of the protocol which developers are not touching at all, they don't love to touch.
+[05:04] **kushti**: So it's
+[05:08] **kushti**: It's especially true for other blockchains, especially true for Ethereum.
+[05:16] **kushti**: In Bitcoin there are some updates, but I think there are a couple of developers that are just working on peer-to-peer stuff, so it's quite complicated.
+[05:31] **kushti**: But yeah, so after that, after peer-to-peer, so there will be a review.
+[05:38] **kushti**: And yeah, I'm going to propose already one toy pull request proposed in the node repository.
+[05:48] **kushti**: And this week, I'm going to propose a second pull request for review, sub-blocks related, I mean, now in the Sigma SDK repository.
+[06:01] **kushti**: So, yeah, we are moving forward, yeah.
+
+[06:07] **qx()**: All right, very cool.
+[06:08] **qx()**: And then you've got an update on ChainCash basis.
+[06:11] **qx()**: You rework the basis design, off-chain payments with no need to create anything on chain first.
+
+[06:16] **kushti**: Yeah, but wait, also Git Circles.
+
+[06:22] **qx()**: All right, go, go, go, Git Circles.
+
+[06:24] **kushti**: Yeah, so Git Circles is a project to create community currencies for digital communities, developing communities, right?
+[06:34] **kushti**: So the idea is that you write codes and getting tokens for lines of code or pull requests.
+[06:44] **kushti**: And yeah, well, we already have, so there are a couple of contributors there.
+[06:51] **kushti**: And, yeah, well, there is already functionality to grab pull request data from GitHub.
+[07:01] **kushti**: And, yeah, after the dev chat, one of contributors reported also on persistence.
+[07:09] **kushti**: They're more or less done.
+[07:11] **kushti**: So we can start testing it in a few days, hopefully.
+[07:18] **kushti**: I mean, do some testing tokens.
+[07:22] **kushti**: rewarding with it manually for starters.
+[07:26] **kushti**: And then, yeah, we can start to invite different open source communities to have the economies on Ergo.
+[07:39] **kushti**: So, well, we will start with some repositories contributors are working on.
+[07:49] **kushti**: Those are some fully homomorphic encryption related repositories, some state of art.
+[07:58] **kushti**: cutting-edge cryptography stuff.
+[08:01] **kushti**: But then, yeah, we will probably invite some infra framework developers in Rust and then more.
+
+[08:20] **kushti**: So kind of cool and we had some heated discussions yesterday when tokens are needed, when not.
+[08:31] **kushti**: So I think in this case for open source communities it makes a lot of sense to have like contribution tokens.
+[08:44] **kushti**: Even before there is some sponsorship for open source project, right?
+[08:50] **kushti**: There is some economy and actually it would help with sponsorship as well.
+[08:57] **kushti**: And so on with providing services to open source projects by volunteers, well, promotional efforts.
+[09:09] **kushti**: All right, but then also,
+[09:13] **kushti**: Yeah, well, let's talk further when tokens are not needed.
+[09:22] **kushti**: So yeah, I think that the current crypto industry, let's say, so yeah, it's creating tokens, means money, where it's not needed usually, right, but not creating where it's needed.
+[09:38] **kushti**: So it's kind of reversed.
+[09:41] **kushti**: to the needs of digital and real-world economies.
+
+[09:51] **qx()**: Are you sure?
+[09:55] **qx()**: You got a long one for ChainCash, kushti, what did you do there?
+
+[10:00] **kushti**: Right, so I need to provide some high-level writing on what's
+[10:10] **kushti**: what's going on with recent reworks so currently it's probably technical but what's happening so well you know there is on-chain like free banking with multiple backers called ChainCash so it's a kind of on-chain havala maybe right in certain regards
+[10:41] **kushti**: But also a kind of generic solution to build different kinds of monetary systems, backed and trust-based.
+[10:53] **kushti**: But then, yeah, some time ago I proposed a lightweight off-chain cache version based on a little bit similar reserve contract called Basis, where the idea is to have the ability to create IOU nodes off-chain.
+[11:22] **kushti**: maybe even not backed initially but then yeah it's possible to create on-chain reserve and have redemption right of those nodes against the reserve and yeah there could be multiple reserves and so on but yeah well
+[11:48] **kushti**: After considering use cases such as micropayments and so on, I've discovered that the original design is probably not quite suitable, so I reworked it and now it's not about some
+[12:03] **kushti**: Now, but IOU records which are tracked by minimally trusted tracking agents.
+[12:14] **kushti**: Trackers, right, so it's kind of, I don't know, like off-channel BitTorrent-like design, but for money.
+[12:27] **kushti**: So you choose tracker.
+[12:31] **kushti**: a reserve holder choosing a tracker, right, then it's possible to create an off-chain cache there and maybe not fully backed in.
+[12:44] **kushti**: So, yeah, credit is over.
+[12:48] **kushti**: And so on, and yeah, well, after all this design, I think things like micro payments, rewarding peer-to-peer networks, agent payments are possible.
+[13:00] **kushti**: And yeah, well, I hear some technical details, but I'm going to write some...
+[13:08] **kushti**: high-level description, maybe later today, because I came to this design only yesterday.
+[13:15] **kushti**: But yeah, well, it looks okay, and the contract is done.
+[13:21] **kushti**: And now...
+[13:24] **kushti**: Yeah, a high-level description.
+[13:27] **kushti**: Well, there are some initial contributors already, so we can do off-chain functionalities and then some wallets.
+[13:35] **kushti**: And also integrate these off-chain cache with some credits and credit LETS.
+[13:46] **kushti**: We can inject those functionalities in some peer-to-peer networks.
+[13:50] **kushti**: So we can start with Celaut, which is
+[13:54] **kushti**: closely related to Ergo already, but then we can go for other peer-to-peer networks and replace, well, DP tokens used there for unclear reasons.
+[14:10] **kushti**: with just uniform kind of money, right, created and not via some strict rules, well, pretty fine schedule, which is even worse.
+[14:25] **kushti**: So, yeah.
+
+[14:30] **Grayman**: I have a question about that, about the track.
+[14:33] **Grayman**: Perfect.
+[14:35] **Grayman**: Yeah.
+[14:35] **Grayman**: Right, right, right.
+[14:38] **Grayman**: You're proposing to create a system of, like you said, free banking.
+[14:46] **Grayman**: So cash systems that are based on banks, but in this case, unlike the old system, where you just had to trust the banker that they had a certain amount of gold, you're talking about a system where you could even have fractional reserve lending or cash issuance.
+[15:06] **Grayman**: but that those fractional reserves would be transparent, not just to the person who's taking the loan or the cash, but also the vendor that's accepting it in trade.
+[15:20] **Grayman**: And then going back to the bank, is this basically like free banking except you have to wear a pin on your lapel that says how much your reserve is and whether you're fully collateralized?
+[15:33] **Grayman**: Is that what you're aiming for?
+
+[15:35] **kushti**: So the idea of tracker is to be like a ledger keeper, right?
+[15:44] **kushti**: But no more so off-chain ledger records keeper.
+[15:50] **kushti**: So all the records are signed, right?
+[15:55] **kushti**: So for example, if you are sending me money,
+[15:58] **kushti**: you are signing an IOU statement, then you need to hold it.
+[16:07] **kushti**: If a tracker is disappearing, for example, then still all the records are redeemable on-chain, and the tracker cannot still move, well, he cannot forge your signature.
+[16:25] **kushti**: Right, so then, yeah, well, if it's, if tracker is disappearing, right, then yeah, well, the latest snapshot of its state committed on the blockchain can be used for redemptions, right, so you can use, you can lose money
+[16:50] **kushti**: So since the last update, right, maybe a few minutes, I don't know, one hour.
+[16:58] **kushti**: But yeah, well, you can use records from the latest snapshot still, right.
+[17:06] **kushti**: And then it can be improved in many ways, like you can have federated tracker.
+[17:12] **kushti**: you can replace it with some sidechain even and so on.
+[17:19] **kushti**: It's more or less like BitTorrent in this regard because for BitTorrent also a lot of more secure options were proposed but usually just centralized gatekeepers have been used.
+
+[17:38] **kushti**: Is there going to be a standard note?
+
+[17:47] **Grayman**: I heard you a while back or maybe it was in one of the chats talking about having
+[17:55] **Grayman**: pegged to silver, potentially, a small amount of silver.
+
+[18:01] **kushti**: Yeah, well, the idea is, but so pegging is the question of a unit of account, right?
+[18:10] **kushti**: So I think I can change cash to use gold here.
+[18:13] **kushti**: I don't know, maybe silver, but why silver?
+[18:17] **kushti**: So I think gold is kind of more universal, right, in this regard as a unit of account.
+[18:22] **kushti**: I mean, maybe it's a bit exotic in comparison with, well, USD or Euro, but yeah, well, it's most stable.
+
+[18:37] **Grayman**: I can tell you why I think the answer should be silver.
+[18:40] **Grayman**: Because gold is the unit of account for central banks.
+[18:44] **Grayman**: And that's appropriate for really large scale transactions.
+[18:49] **Grayman**: But the beauty of ChainCash is that it's more about localized economies and currencies.
+[18:55] **Grayman**: And historically, that's been tied to silver.
+[18:59] **Grayman**: And it's true, silver is also part of a global market.
+[19:02] **Grayman**: And that's part of the reason why it fluctuates in value so much.
+[19:06] **Grayman**: But if you're talking about going back to sort of a free banking approach, which it sounds like you are, then silver is usually the currency of the people, especially if you're trading services.
+[19:20] **Grayman**: Goods is another matter because the inputs are fairly fixed in cost and there's the question of how many middlemen between
+[19:31] **Grayman**: you the buyer and how it got to you, but services are directly provided by the person.
+[19:36] **Grayman**: So when you're trading services, having the fundamental unit be something like silver is useful because it's, you could easily redeem it in person without relying on the chain.
+[19:53] **Grayman**: So let's say you have an under collateralized bank and people are still trading it because it's useful.
+[19:59] **Grayman**: but then there's some sort of a run on that bank, you could still redeem the uncovered ones in physical silver if you have that around.
+[20:10] **Grayman**: And Americans have a lot of physical silver around.
+
+[20:14] **kushti**: That's interesting.
+[20:14] **kushti**: So yeah, in the community setting, yeah, you may have even tokenized silver, right, of some trusted local provider.
+[20:25] **kushti**: And yeah, well, pay with digital
+[20:29] **kushti**: IOU records which are backed by that silver.
+[20:34] **kushti**: So yeah in this regard it's the same yeah for free banking kind of system like ChainCash but yeah with no multiple reserves for now but yeah well like in ChainCash you can do mutual credit clearing well even fully off-chain
+[20:57] **kushti**: right but yeah also between different reserves yeah I think this would be possible but yeah I need to write down details but yeah it's interesting I mean but how popular can it be to have like I know so small communities trading digitally
+[21:20] **kushti**: against, tokenized, silver, reserves, some local reserves.
+[21:29] **kushti**: And that's, that's, that's a question.
+[21:31] **kushti**: Do you think it could be popular?
+
+[21:34] **Grayman**: It already happens with farmers markets and all sorts of other local economies.
+[21:39] **Grayman**: Oh, that's interesting.
+[21:41] **Grayman**: Yeah.
+[21:43] **Grayman**: So America had silver coinage up until 1964 was the last year.
+[21:49] **Grayman**: So, there's just an enormous amount of it sitting around around, 2 billion ounces worth, one to two.
+[21:59] **Grayman**: So, and already denominated, I mean, they're a little bit worn, but they're still tradable and recognizable.
+[22:07] **Grayman**: So it's just sitting around.
+[22:09] **Grayman**: There's an enormous amount of,
+[22:11] **Grayman**: a latent capital that is in motion.
+[22:15] **Grayman**: It is liquid, not very liquid.
+[22:18] **Grayman**: Not everybody knows about this, but certainly people that give a shit do.
+[22:25] **Grayman**: Usually it's used for tax evasion if we're being real about it.
+[22:29] **Grayman**: So people are, instead of horse trading goods and services, they're pricing them in silver coinage.
+[22:37] **Grayman**: There was even a guy out in Arizona that tried to pay his employees in gold and silver, but that was a bridge too far for the IRS and they nailed him because he started screwing around with employment taxes.
+
+[22:50] **SPEAKER_02**: All right.
+[22:51] **SPEAKER_02**: Is he even concerned though, gray man, with silver or even gold with too many paper claims?
+[22:59] **SPEAKER_02**: on the underlying asset isn't that the main issue in the validity of it now is what ChainCash provides is like, Oh, we can verify the underlying claims on asset.
+
+[23:10] **Grayman**: Yeah.
+[23:10] **Grayman**: Transparent to everyone.
+[23:12] **SPEAKER_02**: Yeah.
+[23:13] **SPEAKER_02**: Yeah.
+
+[23:14] **Grayman**: Yeah.
+[23:14] **Grayman**: So if you golf with your banker, right in the old days, you could be sure that if they were under collateralized, that you would be one of the ones doing the bank run happened that could get your silver or gold out.
+[23:27] **Grayman**: and somebody else would be left holding the sorry, we're bankrupt note.
+[23:35] **Grayman**: But in this case, everybody knows and there's no, right?
+[23:39] **Grayman**: It's sort of broadcast what the level of collateralization and that's done, I guess, through these trackers and people can either bump that up or people can discount the value of the notes that are sold based on under collateralized banks.
+[23:53] **Grayman**: That's what happened a lot in the free banking era.
+[23:56] **Grayman**: That was based mostly on the difficulty of redemption.
+[24:00] **Grayman**: The further away you got from the bank that was issuing the notes that were theoretically backed by the gold, the less valuable they were for the vendor that was accepting them in the market, because they'd ultimately either have to cart them back to that bank themselves and get the gold for it, or they'd have to pass them off to somebody else, and that person's also going to discount it.
+[24:23] **Grayman**: So in this case, you don't have that problem, but you do have the issue that suddenly everybody gets to know which bank, no matter where it is, is collateralized to what extent.
+[24:34] **Grayman**: And if you really want to be safe, I guess you're going to stick with SigmaUSD or Blue On or what have you, because they're over-collateralized.
+[24:43] **Grayman**: But the advantage of this type of system is that it allows you to have a lot more money on the end, a lot more liquidity.
+[24:53] **Grayman**: because it's based on the trust of the local people that are involved in it.
+[24:57] **Grayman**: And so we notice, I really think it's the only way out of the over collateralized stable coin and still have it be algorithmic.
+[25:05] **Grayman**: Otherwise you have to rely on these, on people, right?
+[25:10] **Grayman**: On Tether.
+[25:11] **Grayman**: Tether tells you that they have a certain amount of bonds and Bitcoin and everything else to back up the Tether node, but effectively they're just a bank
+[25:19] **Grayman**: And this new act that came out recently effectively tells them that they have to be fully collateralized banks.
+[25:26] **Grayman**: But you still just have to trust that that's the case.
+[25:29] **Grayman**: And theoretically, the regulators are now going to go and investigate and make sure that's the case.
+[25:34] **Grayman**: But that's not very capital efficient.
+[25:37] **Grayman**: And all of the banks are creating their own stablecoins because of this new approach.
+[25:44] **Grayman**: But that's not going to stop them from trying to issue dollars the normal way because that's how they'd rather do it.
+[25:49] **Grayman**: And that's much more lucrative for them because they get to print money out of thin air and collect interest on it.
+[25:56] **Grayman**: So they're going to want to do that and not use the stable coins.
+[26:00] **Grayman**: But if we want to do something that's on chain and has that same level of power, the power to print money out of thin air confidence, that comes from credit.
+[26:10] **Grayman**: And that's essentially what
+[26:12] **Grayman**: ChainCash is, it gives you the possibility to have under collateralized credit arrangements on chain and have people be able to ascertain what level of trust they should provide that.
+[26:26] **Grayman**: So I think it's the most exciting thing going on, not just in Ergo, but in crypto in general.
+[26:33] **Grayman**: I don't know if anybody else is even contemplating this type of thing.
+[26:37] **Grayman**: They're all worried about trying to get USDC or USDT on their chain.
+[26:41] **Grayman**: And I'm just sort of like, why pollute your chain with a censored centralized crap?
+[26:49] **Grayman**: Are we trying to get away from that?
+[26:51] **Grayman**: If that's the goal, why not just do it all on a centralized exchange anyway?
+[26:55] **Grayman**: You can get USDT on Coinbase, no problem.
+[26:58] **Grayman**: So if you've already given up on the idea of crypto, just go with Coinbase.
+[27:02] **Grayman**: Kind of pointless, but that's what a lot of people do.
+
+[27:07] **kushti**: Yeah, so ChainCash is fully on-chain, right?
+[27:10] **kushti**: So you see the collateralization level on-chain.
+[27:14] **kushti**: So here with off-chain scheme basis, right?
+[27:18] **kushti**: So the concern is that with using ChainCash, so in the first place, it's not quite convenient for micro payments, but yeah, you need to pay on-chain fees, right?
+[27:32] **kushti**: that people need to get to blockchain Ergo Zone.
+[27:37] **kushti**: So here with off-chain, so people can be onboarded immediately, right?
+[27:44] **kushti**: As well, especially for credit, for example.
+[27:48] **kushti**: if you are joining some services, like Celaut, for example, so it's kind of like Docker on a peer-to-peer, right?
+[27:59] **kushti**: So it's a peer-to-peer computing network where you can get some computing resources, right?
+[28:06] **kushti**: And you can get credit like in BitTorrent, you are getting
+[28:10] **kushti**: some data to download like I don't know one gigabyte right before the need to share in return then yeah here you can get like 10 minutes worth of CPU hour
+[28:32] **kushti**: writes for for your tasks without so they need to know about their go blockchain and so on.
+[28:37] **kushti**: Right.
+[28:38] **kushti**: So for for digital economies, that would be better.
+[28:41] **kushti**: And that would be how can we get a lot of
+[28:51] **kushti**: People actually are onboarded, right?
+[28:53] **kushti**: So just via seamless experience with using something, creating credit and then, yeah, they need to pay after.
+[29:01] **kushti**: Then, yeah, in the same way you can use off-chain cash for agent-to-agent economies, right?
+[29:11] **kushti**: Now quite popular topic because of, yeah, and so on.
+[29:15] **kushti**: But yeah, you can use it also for like retail payments, community consists and so on.
+[29:21] **kushti**: And, yeah, well, this silver case is interesting, so I can maybe write a document how such system can be implemented.
+[29:32] **kushti**: And then, yeah, so with off-chain cache, you need to trust
+[29:40] **kushti**: tracker right to get collateralization level.
+[29:43] **kushti**: So you have reserves on chain, right?
+[29:45] **kushti**: So here the bank functionality split, right?
+[29:49] **kushti**: So you have reserves, one party and ledger keeping, IOU records keeping by another party, right?
+[29:59] **kushti**: Doing it off chain.
+[30:01] **kushti**: But yeah, well, there are a lot of things you can do here, like doing a federated trick, right?
+[30:10] **kushti**: So having multiple people tracking a collateralization level, like Oracle pools are done, for example.
+[30:25] **kushti**: You can, or wasn't even right, then you can do merged mine sidechain even, maybe some roll-up constructions, right?
+[30:35] **kushti**: So you can get some on-chain guarantees even, but such constructions would be a little complicated.
+[30:42] **kushti**: for tests to start with just simple designs so it's just a component in the system the tracking channel and then for silver we can write some doc for community how to tokenize silver and you do community trading against it.
+
+[31:08] **kushti**: What do you think about that, Grayman?
+
+[31:14] **kushti**: I mean, we can talk about different things like security, well, attack vectors and so on for a long time.
+[31:27] **kushti**: But I think if there is some more or less good solution, it's better to try to do some small scale experiments with that and then see how to improve things that makes a lot of sense.
+[31:44] **kushti**: Instead of building enormously complex from day one, it gets feedback maybe not so positive after a few years.
+[32:05] **kushti**: Maybe, yeah, well, also some complexities are not really needed in many cases.
+[32:12] **kushti**: Right, so yeah, it all depends on use case, so yeah, but it's better to get on them as soon as possible, I guess.
+[32:23] **kushti**: So, what do you think, guys?
+
+[32:27] **Grayman**: I think it's a very interesting work in progress, but there's probably other stuff on the on the dev
+[32:33] **Grayman**: update list.
+
+[32:36] **kushti**: Right, right, right.
+[32:37] **kushti**: So yeah, QX, can we get back to the dev updates?
+
+[32:43] **qx()**: Yeah, they've got one or two more, I think.
+[32:45] **qx()**: This one's really cool.
+[32:47] **qx()**: Right here, Neetram is working back on their open source hardware wallet, right?
+[32:55] **qx()**: Is that what I'm seeing, the poor man's wallet?
+
+[32:57] **kushti**: Yes, so it's DIY hardware wallets which you can assemble at home and yeah, well, it's super cheap and also if you order components and assemble at home you
+[33:15] **kushti**: are not a possible subject to data leak, right?
+[33:21] **kushti**: Ledger is coming periodically.
+[33:23] **kushti**: And also, if you have such device somewhere at your home, then a thief, for example, cannot easily recognize that this is hardware wallet, right, unlike Ledger.
+[33:40] **kushti**: So the problem with Ledger
+[33:43] **kushti**: From some big holders, the problem that I've heard is that it is easily recognizable, right, that you have a Bitcoin wallet and then thieves can target it specifically.
+
+[33:57] **qx()**: But you can 3D print any case for this, because you make it look like a calculator or something.
+
+[34:02] **kushti**: Yeah, or maybe, I don't know, Sega Mega Drive cartridge, something like that.
+
+[34:07] **qx()**: That might be valuable, kushti.
+
+[34:11] **kushti**: Yeah, these days probably, yeah.
+
+[34:16] **qx()**: Well, that's awesome.
+[34:17] **qx()**: This is great.
+[34:20] **qx()**: Let's see.
+[34:20] **qx()**: Yeah, because he entered the hackathon with his original idea, I believe, right?
+[34:25] **qx()**: Yeah.
+
+[34:26] **kushti**: Yeah, some Ergo hack three or four, something like that.
+[34:32] **kushti**: Then, yeah, we discussed MCP.
+
+[34:37] **qx()**: You were talking about MCP servers, right, and AI.
+
+[34:40] **kushti**: Yeah, so currently I'm trying all those things for different tasks.
+[34:46] **kushti**: So for core development, yeah, well, results are not satisfiable at all.
+[34:52] **kushti**: So, yeah, even tests are hard to generate.
+[34:58] **kushti**: For non-testing codes I'm not allowing for anything but comments to be generated by LLMs because it's always tricky to check the hallucinations when it's a kind of complex thing.
+[35:28] **kushti**: in regards with this base implementation and so what we can get tests for contracts right maybe off-chain bots quite quickly and so on so yeah the idea is to get some specialized MCP for building applications on Ergo right with LMs quicker
+
+[36:03] **qx()**: Yeah, speaking of that, the thing we set up for CodeUTXO for ErgoHack with MCP servers, I'm starting to at least develop half of that for our work here.
+[36:21] **qx()**: We got some pretty cool things, a couple of models out already that are seemingly helping students.
+[36:26] **qx()**: So no use for an MCP server yet in that AI that we're using, but we'll see.
+[36:32] **qx()**: how it would apply with non-blockchain things would be interesting for sure.
+
+[36:38] **qx()**: What else?
+[36:39] **qx()**: I didn't write in the update but we've got three more infrastructure peers that have signed up and we've got the three machines.
+[36:53] **qx()**: That's one for Jemai.
+[36:57] **qx()**: There's one for Satoshi.
+[37:00] **qx()**: And Lucas is going to run in for it as well.
+[37:02] **qx()**: So these machines will ship out for those three guys today or tomorrow.
+[37:06] **qx()**: They've got a base installed with Ubuntu and then they go through the schooling of setting up the Ergo Explorer node and all that good stuff.
+[37:15] **qx()**: And then we'll hook them on to the load balancer and we'll spread our reach even further.
+[37:21] **qx()**: We're going to have really good USA coverage, guys, where we need some more Europe or Middle Eastern or Asian coverage.
+[37:29] **qx()**: It would be nice to have those load balancers in there.
+[37:32] **qx()**: So if you're in those parts and you want to join the Ergo InfraDAO, please hop on.
+[37:37] **qx()**: Depending on what hardware you have, work with us.
+[37:39] **qx()**: And if we have some more extras of these things, we can send them out to you as well.
+[37:44] **qx()**: But ping us and chat.
+[37:46] **qx()**: Talk to us.
+[37:47] **qx()**: More than Merrier for this kind of project.
+
+[37:50] **qx()**: What else we got?
+[37:51] **qx()**: Joe, I see you're nodding with your camera on, your coffee's full.
+[37:56] **qx()**: Hopefully your bladder's empty and you're ready to chat.
+
+[38:02] **Armeanio**: Let's see, with Rosen, we've been going through the process of integrating the runes build into the watcher and guard modules, setting up a test environment to where then we'll spend a while running unit tests and end tests, try to break what we build before we release it.
+[38:25] **Armeanio**: That's always the most important
+[38:29] **Armeanio**: like round of building something, but it's also like the least appreciated in the crypto space where, you know, everyone says when, when, when, when, when.
+[38:37] **Armeanio**: And it's like, no, you just need full coverage and testing.
+[38:41] **Armeanio**: So we'll go through that, playing around in terms of how to potentially take kind of how we're embedding metadata on Bitcoin to support the Rosen bridge standard.
+[38:56] **Armeanio**: and seeing what the capacity is to kind of extend that, right?
+[39:03] **Armeanio**: And it's kind of unique to think about, you know, potentially we could create kind of our own standard for color coins on Bitcoin, which I don't know, maybe that's kind of old fashioned in terms of like,
+[39:20] **Armeanio**: I guess we're cryptos today, generally, but an example would be you could potentially wrap ERG as a rune or wrap Dexy Gold as a rune and potentially get some access to some of the infrastructure on Bitcoin, such as Lightning, depending on what other builds come up with.
+
+[39:44] **qx()**: Not one-to-one, you could wrap any amount of ERG into a single rune essentially, right?
+
+[39:50] **Armeanio**: Yeah, I think it'd probably be smart to handle it the same as how we currently handle wrapping assets, right?
+[39:58] **Armeanio**: Because that's something we already do.
+[40:01] **Armeanio**: To where it would be more like Rosen supported for external assets.
+[40:07] **Armeanio**: And then there's the potential to try to create some sort of generalized tool.
+[40:12] **Armeanio**: Maybe two of them, one for general purpose use and one of them more for specialized.
+[40:18] **Armeanio**: use that says, okay, if we can create a unit of account and then we can attach metadata to that unit of account, how can we potentially see unique assets coming onto the Bitcoin network?
+[40:32] **Armeanio**: I do think long-term, there's probably a certain use case for the infrastructure that's being built on top of Bitcoin.
+[40:42] **Armeanio**: I'd say right now, Lightning is probably ahead in terms of adoption.
+[40:46] **Armeanio**: I do believe, at least at first pass, Lightning would be able to support that.
+[40:52] **Armeanio**: Then it's like you have these payment channels on top of Bitcoin and you kind of create...
+[41:00] **Armeanio**: let's say a wrapped asset or some sort of synthetic, or let's say I wrote an article a while ago where it's like, could you have gold in a vault and say, OK, we're going to tokenize this and have metadata attached to where's the vault, how much is in it, et cetera, et cetera, perhaps even how do I audit this, and then throw it into a payment channel and make it more
+[41:27] **Armeanio**: fungible was like a form of payment.
+[41:29] **Armeanio**: So thinking about that, you know, the question is like, okay, standardized input fields, you know, there's certain metadata standards, depending on where you are in the world, or like regulated assets, anyways, and then it's question how big would that be?
+[41:44] **Armeanio**: How do you
+[41:46] **Armeanio**: and I'll create the right input fields and then basically translate it, hexify it, chunk it across UTXOs.
+[41:55] **Armeanio**: It meant something that is kind of unique for Bitcoin, where you have some sort of token standard.
+[42:01] **Armeanio**: It's been like a thought journey still.
+[42:07] **Armeanio**: Feasibility costs, et cetera, is not really locked in yet, but interesting nonetheless.
+
+[42:15] **Armeanio**: We also have gone through the application process for this round of catalyst funding.
+[42:23] **Armeanio**: I think right now they're in community reviews.
+[42:27] **Armeanio**: To be honest, the Rosen submissions are actually a little bit boring because we've already built an open standard.
+[42:38] **Armeanio**: which is to some degree like I think a big advantage because it's like okay well here's the cookbook or standards that we're gonna you know build with right so there's there's a certain like I don't know transparency and expectation of delivery but it's also a little bit less sexy because it's like you know it's a known known right versus sometimes there's the ability to like upsell and market things versus just have like
+[43:06] **Armeanio**: This is our technical documentation and we're going to go through that and add this and then add that and then add that.
+[43:13] **Armeanio**: Let's see with.
+[43:16] **Armeanio**: Rosen, we're also working on updating kind of to the Pandora testnet.
+[43:25] **Armeanio**: It's been some work there, working on creating an updated version of Ergo Multi-Sig.
+[43:31] **Armeanio**: That's hopefully a little bit more performant.
+[43:35] **Armeanio**: Yeah, Lithos is just in the same test, test, test, test, test, test, test, test, test, test, which is like the least
+[43:44] **Armeanio**: I don't know, least sexy marketing time for building a product probably, right?
+[43:49] **Armeanio**: But also practically the most important in terms of security coverage.
+[43:54] **Armeanio**: You know, understanding what can break and where and how and trying to mitigate that.
+[44:00] **Armeanio**: Also, I know that there's some work being done for Machina Finance, which is kind of a P2P grid trading framework.
+[44:14] **Armeanio**: A lot of these were kind of
+[44:18] **Armeanio**: I don't know, lined up to deliver hopefully October, maybe November.
+[44:24] **Armeanio**: I say that and then I regret saying that because when you're in testing, what matters is what's in front of you, right?
+[44:34] **Armeanio**: But we, at least have some sort of a goal that we're going to do a meetup in Colorado.
+[44:41] **Armeanio**: I need to like sync with, Andre coming up here, to make sure that everything's smooth, right?
+[44:50] **Armeanio**: Looking forward to that, but hopefully when we get to the point, you know, we can show some MVPs, try to throw up some test nets,
+[45:00] **Armeanio**: kind of have some practical example of, you know, what we've been building and talking about for a while.
+[45:07] **Armeanio**: So that'd be fun.
+
+[45:09] **qx()**: That would be fun.
+[45:09] **qx()**: I have this for the next every, every week for the next four or five weeks, I'm announcing the speakers, even though I already announced them, but doing a feature read on them.
+[45:21] **qx()**: So Joe was already announced last week as the welcoming opener.
+[45:25] **qx()**: Yeah.
+[45:27] **qx()**: Yeah, so I think next one's going to be AdonBR that we'll post today or tomorrow to promote that as well.
+[45:34] **qx()**: But if you guys haven't bought tickets to, I mean, there's no tickets to buy.
+[45:37] **qx()**: If you guys haven't bought your plane ticket or your Airbnb or your hotel, you know, they only get more expensive, that's for sure.
+[45:43] **qx()**: So, and also pop chat if there are other people going.
+[45:48] **qx()**: There's ways to save as well by joining hotels or
+[45:52] **qx()**: Sharing your Airbnb's.
+[45:54] **qx()**: I mean you might wake up in a ice bath with a scar over your kidney, but But hey, you know, it might be worth the same a few bucks to room with somebody Yeah What's that You can't camp outside.
+[46:12] **qx()**: I don't know Colorado Springs other tent fortresses there Joe Yeah, I'm sure
+
+[46:17] **Armeanio**: Well, I'm sure it depends on what you mean by camp.
+[46:21] **Armeanio**: The space is in downtown, so there are people camping around there, but I don't know if they're good bedfellows, so to speak.
+[46:30] **Armeanio**: You know, but I'm sure I'm sure there are there are places to camp in and around the general area The question is just like how close and I don't know infrastructure, right?
+[46:40] **Armeanio**: Yeah, I've also been I've also been talking to Chris Ray at one point he proposed You know just trying to put together like dinner like that's more
+
+[46:50] **qx()**: We're holding them to that, Joe.
+[46:52] **qx()**: We are holding them to that.
+
+[46:53] **Armeanio**: Yeah, yeah.
+[46:55] **Armeanio**: We do have at least some facilities there to where if you wanted to push out some food, it's possible.
+
+[47:03] **qx()**: When will they kick us out of the hall, Joe?
+
+[47:06] **Armeanio**: Oh, I have the keys, buddy.
+
+[47:08] **Armeanio**: Perfect.
+[47:09] **qx()**: I don't know.
+
+[47:11] **Armeanio**: At one point he wanted to try to do like Korean barbecue, but then the question there is like basically electricity logistics.
+[47:24] **Armeanio**: And I don't know what kind of efforts, you know, he's talking about.
+[47:28] **Armeanio**: Using with all that we do.
+[47:30] **Armeanio**: I mean we do have there is like a dedicated kitchen there that that's fairly large so you know, it might be better to go more old-fashioned than like Korean barbecue skillet, but I Need to talk to him to be honest But anyway, but I think that it's nice to break bread with people, you know, I have things a little bit more p2p like and sharing that'd be cool
+
+[47:58] **qx()**: No, it's gonna be a lot of fun.
+[48:00] **qx()**: Yeah.
+[48:02] **qx()**: Tyler, you just spoke about something in a comment in Zoom right here that I talked a little bit about last week that I want to try to.
+[48:11] **qx()**: So Tyler, if you want to say it in person, go for it, Tyler.
+[48:14] **qx()**: You want me to read your question?
+
+[48:16] **Tyler**: Yeah, hey guys.
+[48:18] **Tyler**: So I've been with Ergo and Crypto since like 2021, January or so.
+[48:27] **Tyler**: and i've always been interested in building something but I get like I hit a wall and I can't understand how to like connect the front end with the back end to the to the blockchain and all that stuff so I recently started going back to college at community college to do some software development and hopefully like bridge some gaps with apis and the databases and how it all works and stuff
+[48:56] **Tyler**: and i was just thinking of if somebody else is already working on something or eventually as i like bridge my gaps i can start building dApps and like give more examples of how it all connects and like make videos maybe just to get more people building on the on train oh that's awesome that's a great idea and you mentioned DECO in there as well i i miss DECO DECO was fantastic
+
+[49:27] **Tyler**: I was there for DECO for a little bit.
+[49:29] **Tyler**: My instructor was Key and I haven't heard from him since that was over.
+[49:36] **Tyler**: So I'm not sure.
+[49:40] **Tyler**: But I hope you still are.
+[49:42] **Tyler**: He's around.
+
+[49:44] **kushti**: Yeah, so last time I've seen him like a few days ago, probably, so he's appearing in the chats regularly.
+[49:55] **kushti**: The main chat, usually for some reason.
+[49:58] **kushti**: Not the dev chat.
+[50:00] **kushti**: But yeah, he's around.
+[50:02] **kushti**: And so what are you looking for?
+[50:05] **kushti**: So do you want to develop some front end?
+[50:10] **kushti**: Or do you want to understand how to connect?
+
+[50:15] **Tyler**: I'm really interested in full stack.
+[50:18] **Tyler**: Trying to understand.
+
+[50:21] **kushti**: Yeah, yeah, so I think maybe there is need to remind about different tools and approach.
+[50:27] **kushti**: But yeah, we have a lot of open source applications also, right, where it can be seen.
+[50:35] **kushti**: So, well, my idea, well, was maybe Mark have done that to feed LLM with different open source applications.
+[50:47] **kushti**: We already have examples, right?
+[50:50] **kushti**: And then, yeah, well, such things can be shown by LM, even.
+[50:59] **kushti**: QX, do you know the state of the MCP there?
+
+[51:05] **qx()**: So the MCPs that we set up on CodeUTXO are just essentially targeting the APIs for...
+[51:16] **kushti**: Some trading stuff, right?
+
+[51:18] **qx()**: Blockchain, yeah, you got it.
+[51:19] **qx()**: So you can say, give me the historical price for the last 30 days, graph it in a little graph for me, that kind of thing.
+[51:26] **qx()**: Who's a wallet holder here this so it's really good tooling for like let's say a project owner Who doesn't know code and they want to airdrop to their people?
+[51:35] **qx()**: They can get a list of all their holders of the token and that kind of thing So that's the way the MCP works right there, but that being said Tyler about DECO Something that I'm doing here on campus already that students really like and I think would be amazing with the amount of content we have on Ergo that is we take the videos and
+[51:54] **qx()**: And we ingest them into AI so that they create really nice subtitle files, right?
+[52:01] **qx()**: And then I run it through a script to timestamp YouTube bookmarks in those subtitle files.
+[52:05] **qx()**: We add all that data to a knowledge base on WebUI.
+[52:10] **qx()**: You don't even have to use MCP for this, kushti.
+[52:13] **qx()**: And then you ingest in the knowledge base as well.
+[52:17] **qx()**: You can hard code it, but you can link to specific projects already in Ergo.
+[52:22] **qx()**: So then, Tyler, you ask the question, you say, hey, I'm having trouble connecting this to this.
+[52:28] **qx()**: How do I fix this?
+[52:31] **qx()**: So the AI will automatically look through the knowledge base.
+[52:35] **qx()**: It'll look through every single DECO video that we put on there.
+[52:38] **qx()**: And it can read the subtitle file.
+[52:40] **qx()**: So it'll look through it and it'll say, OK, here's how you do this.
+[52:43] **qx()**: And oh, here is minute 75 in DECO lesson number five.
+[52:48] **qx()**: Click it, and it takes you right
+[52:49] **qx()**: bookmark that YouTube.
+[52:51] **qx()**: So that's my project after we get up and going is to ingest all those video SRT files, timestamps into a knowledge base and then make it available to all of Ergo because I'll run it on a local 3090 with like llama or deep seek or something like that which can run on our own GPU, not chat GPT.
+[53:11] **qx()**: That's it.
+[53:12] **qx()**: So if you want to help out with that, Tyler, where we're adjusting and you're finding videos that are relevant and you're adding video as well.
+[53:18] **qx()**: And also, you know, being the gatekeeper for that all.
+[53:21] **qx()**: Yeah, that'd be that'd be great if you want to join in that kind of thing.
+[53:24] **qx()**: But not until after the infra.
+[53:26] **qx()**: I got it.
+[53:26] **qx()**: We got to push that.
+[53:27] **qx()**: If you want to start it now, that's fine, too.
+
+[53:29] **Tyler**: Yeah, because I I do pretty good at I do like reading documentation, but I definitely learn faster And I like the videos like watching your Rosen watcher helped me a lot like get that set up and then using AI to like kind of ask questions like hey, I tried this but it's like not working How do I get it to what did I do wrong?
+[53:52] **Tyler**: And then it'll like see my errors or something
+
+[53:54] **qx()**: Now imagine watching, pinging an AI bot that specific task in mind was knowing that you're developing on Ergo and knowing all the documentation of Ergo.
+[54:08] **qx()**: So its questions are not searching the whole web essentially and knows that it's focused just on Ergo to help you solve those problems on Ergo.
+[54:15] **qx()**: So it makes a world of difference to context does.
+
+[54:18] **kushti**: Yeah, that's why we need for specific MCP, right, for Ergo development.
+[54:25] **kushti**: And yeah, well, maybe some tutorials as well, like what are typical parts of the app, right, like off-chain backend.
+
+[54:40] **Tyler**: A little while ago, maybe a few months ago, kushti said,
+[54:47] **Tyler**: like most of the code is off-chain anyways and you just need a little bit to connect the chain when there's a transaction.
+[54:55] **Tyler**: That part having difficulty connecting.
+
+[54:59] **kushti**: Yeah, so from my experience, yeah, by number of codes, so yeah, off-chain is like 20 times.
+[55:09] **kushti**: well more code so even more right so yeah that's that's an interesting topic i'm also thinking a lot these days like how to organize development because we have
+[55:27] **kushti**: done over the last six years like tens of different frameworks right on different levels so yeah now it's it's time to manage all that stuff right so to organize some map of all those tooling and how to use it and yeah well
+[55:50] **kushti**: to employ artificial intelligence, LLM tools, right?
+[55:59] **kushti**: So, yeah, let's continue.
+[56:03] **kushti**: The developers group, are you there?
+[56:09] **kushti**: Tyler, are you in the development chat?
+[56:11] **kushti**: Telegram or Discord?
+[56:13] **kushti**: Development channel in Discord?
+[56:15] **kushti**: Ergo-developers group in Telegram, are you there?
+[56:19] **kushti**: Yeah.
+[56:20] **kushti**: Yeah.
+[56:20] **kushti**: Yeah.
+[56:20] **kushti**: So, so please ping me and let's continue.
+[56:23] **kushti**: Yeah.
+[56:25] **kushti**: Okay.
+[56:25] **kushti**: So yeah, let's do something in this space because yeah, well, it's, it's, it's much needed.
+[56:33] **kushti**: So yeah, if, if you can provide feedback to other CIT, it would be awesome.
+[56:37] **kushti**: Right.
+[56:37] **kushti**: So we can use this guidance to improve things.
+[56:41] **kushti**: All the way.
+
+[56:45] **qx()**: All right, guys.
+[56:46] **qx()**: Well, it's 10 o'clock.
+[56:49] **qx()**: We got, let's end it so we have more to talk about next week.
+[56:52] **qx()**: We can't blow it all in one shot, boys.
+[56:54] **SPEAKER_05**: All right.
+[56:55] **qx()**: Then maybe Mark will be back next week, too.
+[56:57] **qx()**: But one quick announcement before we go.
+[56:59] **qx()**: In two days, Cyberverse is shutting down for a huge rebuild.
+[57:07] **qx()**: And it's going to take 30 days, it sounds like, to do the rebuild.
+[57:11] **qx()**: Yeah, 30 days.
+[57:12] **qx()**: So Hero and Pixel are going to be doing a lot of late nights to revamp a lot of the game, it looks like, and bring some big things further.
+[57:22] **qx()**: I don't know if it'll be a re-release or not, but it'll definitely be a new opening and new things in 30 days.
+[57:29] **qx()**: So excited to see that.
+[57:31] **qx()**: So play your little hearts out for two more days.
+[57:34] **qx()**: If you want to get your cyber tokens out of the game, they say pull it out because you won't have access to the game to pull them out of your in-game wallet.
+[57:43] **qx()**: But other than that, it'll be looking forward to what they're coming up with.
+
+[57:47] **qx()**: But that being said,
+[57:48] **qx()**: Thanks everybody for joining this first official community AMA.
+[57:52] **qx()**: It was great, fantastic.
+[57:55] **kushti**: Yeah, it was awesome actually.
+[57:56] **kushti**: It's good to have free participation and hear different voices and different needs and different opinions.
+
+[58:06] **Armeanio**: Beats making videos in the basement, let me tell you.
+
+[58:11] **qx()**: Wait, you're in your basement already, Joe.
+[58:13] **qx()**: You're still in your basement.
+
+[58:14] **Armeanio**: Yeah, so what color is your lightsaber over there?
+
+[58:17] **qx()**: This is purple.
+
+[58:19] **Armeanio**: Purple.
+[58:21] **Armeanio**: I don't know what that means, but I was impressed.
+
+[58:26] **qx()**: I did the Disney tour thing where they take you into the dark room and you build your own lightsaber kind of thing.
+[58:32] **qx()**: It was fun.
+[58:32] **qx()**: It's good to pretend sometimes, you know?
+
+[58:37] **qx()**: All right, with that, everybody, thanks so much for joining.
+[58:40] **qx()**: Ciao, everybody.
+
+[58:41] **Armeanio**: Alright everyone, bye.
+[58:43] **Armeanio**: Have a good one.

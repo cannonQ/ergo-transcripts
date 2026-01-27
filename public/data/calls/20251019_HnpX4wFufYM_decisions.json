@@ -1,0 +1,105 @@
+{
+  "call_date": "2025-10-19",
+  "call_title": "Staking w/UTXO Model - MGPai - Implementing Native Token Staking on Ergo | Ergo Meetup 2025",
+  "decisions": [],
+  "commitments": [],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "25:28",
+      "question": "What if the staking platform goes down?",
+      "context": "Concern about data availability and security if the platform operator disappears",
+      "topic": "technical",
+      "raised_by": "Grayman"
+    },
+    {
+      "id": 2,
+      "timestamp": "27:22",
+      "question": "How can you recover if the data is just all hashes?",
+      "context": "Follow-up question about data recovery when hashes are non-reversible",
+      "topic": "technical",
+      "raised_by": "audience member"
+    },
+    {
+      "id": 3,
+      "timestamp": "40:19",
+      "question": "Can we have a HODLerg natively within the Nautilus wallet itself?",
+      "context": "Suggestion to integrate HODLerg as a native app within Nautilus wallet",
+      "topic": "technical",
+      "raised_by": "Grayman"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "00:21",
+      "fact": "MGPai worked on implementing a native token staking platform on Cardano over the last year",
+      "speaker": "MGPai",
+      "topic": "technical"
+    },
+    {
+      "id": 2,
+      "timestamp": "03:07",
+      "fact": "UTXOs stand for unspent transaction outputs",
+      "speaker": "MGPai",
+      "topic": "technical"
+    },
+    {
+      "id": 3,
+      "timestamp": "13:43",
+      "fact": "On Ergo, ErgoScript has AVL tree as a native data structure within the language",
+      "speaker": "MGPai",
+      "topic": "technical"
+    },
+    {
+      "id": 4,
+      "timestamp": "22:48",
+      "fact": "The root hash is a fixed size string of 32 bytes",
+      "speaker": "MGPai",
+      "topic": "technical"
+    },
+    {
+      "id": 5,
+      "timestamp": "31:18",
+      "fact": "Ergo node has 20-30 gigs storage compared to Ethereum's 2-3 terabytes",
+      "speaker": "MGPai",
+      "topic": "technical"
+    },
+    {
+      "id": 6,
+      "timestamp": "31:26",
+      "fact": "Cardano node was like 160 gigabytes",
+      "speaker": "MGPai",
+      "topic": "technical"
+    },
+    {
+      "id": 7,
+      "timestamp": "32:30",
+      "fact": "On Palm staking every week, people can claim their rewards",
+      "speaker": "MGPai",
+      "topic": "tokenomics"
+    },
+    {
+      "id": 8,
+      "timestamp": "36:36",
+      "fact": "Cardano went from 80 cents to 27 cents in a flash due to mass liquidations",
+      "speaker": "MGPai",
+      "topic": "market"
+    },
+    {
+      "id": 9,
+      "timestamp": "42:14",
+      "fact": "The staking platform is live on Cardano at palm-economy.io",
+      "speaker": "MGPai",
+      "topic": "technical"
+    },
+    {
+      "id": 10,
+      "timestamp": "42:34",
+      "fact": "Currently, there are no plans to do it on Ergo",
+      "speaker": "MGPai",
+      "topic": "technical"
+    }
+  ]
+}

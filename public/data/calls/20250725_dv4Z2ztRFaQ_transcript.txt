@@ -1,0 +1,365 @@
+[00:00] **qx()**: Community AMA with the Ergo proof of work blockchain cryptocurrency freedom financial self sovereign I don't know come on keep giving buzzwords guys keep going what else
+
+[00:15] **qx()**: Nothing?
+
+[00:16] **qx()**: You guys just wake up?
+
+[00:17] **Armeanio**: Peer to peer.
+
+[00:18] **Armeanio**: Yeah, there we go.
+
+[00:19] **Armeanio**: Yeah, it's a peer to peer network.
+
+[00:20] **qx()**: There we go.
+
+[00:22] **qx()**: Welcome, welcome. We've got a couple people with us today to start off. We hope that this is a community Zoom. If you look in the YouTube description, you will see that there is a passcode and ID. Please feel free to join in. There's a waiting room. We've got somebody joining in. Perfect. Don't be afraid to join and chat with us.
+
+[00:46] **qx()**: Meanwhile, we'll just start off with a normal AMA, I guess. We've got Nir coming in, too. Let's bring them in. Hopefully, we don't have any bad things happen in these kind of circumstances, but my finger is on the ban trigger, that's for sure. We'll see how that goes.
+
+[01:04] **qx()**: All right, what's new guys? How's sub-blocks going? How's that Joe? You're talking a lot about side chains. How's that going? Sigma chains, all that good stuff?
+
+[01:15] **Armeanio**: Well, it's been kind of a goal for like two years to look at this idea of taking kind of the energy we have in proof of work and start scaling horizontally, right? That's something that's kind of been a dream around Bitcoin actually for a long time, where it's like you have all of these people that are mining the chain and essentially they're investing in SHA-256 machines, right? And it creates this security wall that secures Bitcoin.
+
+Long term, there's kind of a question in terms of the economic sustainability of that model, right? You know, after we see a couple of halvings, the miner reward from the blocks is on its own cascade downward. And you kind of see this pattern that I think Ethereum actually started, which is where you get a lot of value leakage into other layers of the network, right?
+
+So when you have all of these layer two solutions, what happens is people end up essentially locking assets on the main chain and the transactions move to another layer. And the downside is that kind of acts as this parasitic form of value leakage from miners to, whatever set is securing the layer two. So it kind of represents this net loss and rewards, right? And to some degree that actually makes the sustainability more questionable because not only are the security subsidies of the blocks dropping, but the transaction demand on the layer one itself is dropping simultaneously, right? And that's problematic.
+
+I don't know if people have fully figured that out yet long term, but that is the trend. And you can kind of clearly see that with Ethereum where a lot of the transaction volume is no longer on the layer one. That's bad for miners, right? And I know that many people kind of dismissed mining, right? But ultimately, that is the security mechanism for Bitcoin itself. So there's like an incentive misalignment that's occurring. And I don't think it's fully shown up to where it's popular enough to broadly talk about, but it's starting.
+
+There's starting to be questions like, okay, well, what happens as an example, what happens if we need to update some of the old address structure? Well, you're going to end up changing a lot of the assumptions on the base layer. If you say, okay, well, we're just going to try to force this upgrade and how many people lost their keys, how many people have zoned out to where if there was some sort of threat they're at risk, right? We're already starting to see mainstream talks about that. We're starting to see discussions about drive chains on Bitcoin.
+
+You know, with Rosen, we kind of both with the bridge and allowing Bitcoin to access other L1s as this smart layer and also playing around with runes and OP_RETURNs and stuff. You know, we're hacking around on Bitcoin for things that it wasn't necessarily intended for, right? So there's a question long-term in terms of the path. If it's a miner-driven path, what we'll see is that security umbrella moves sideways, right? That way you get this mechanism of pegging to a side chain and you get greater programmability, but you also get miners absorbing more transaction value.
+
+You get, many of them are already mining Namecoin and other SHA-256 driven rewards. So it's not as though that's outside of the scope of where miners are already focused, which is extend your profitability. But there's a programmability issue, right? In a dev-centric future, they will move to other layers because ultimately what happens is usually developers control and create a lot of value on layer twos.
+
+If we see a mining-centric future, we're going to see more of a horizontal scale towards the drive chain idea. And then the question is just how to securely do that. How do you update to where there's like this ability to trustlessly peg and move sideways into different environments. It's going to be a really interesting thing to watch. I don't think it will fully, my personal estimate is going to be like 2032. That halving is probably going to be rough and it's going to put miners in a position where they need to monetize their value, right?
+
+And so with Ergo, we have a greater programmability. So we have kind of this ability to be in front of that problem and create kind of a framework design in UTXO that I would hope kind of gets miners aware of this potential issue because the layer two thing, well, yes, it does potentially open up a lot of scale. It's also relatively parasitic and it's hard to align value there. If that makes sense.
+
+So it's something that kushti and I have been talking about for like two years on and off. I know that initially I wanted to try to create a merged mining framework for super clusters, right? Which, I think that's an interesting path. kushti came up with a much more interesting path and as usual, I lose the argument and my idea, however valid it is, is less interesting to me now than what he's come up with. But that's the benefit of smart friends right there.
+
+[08:06] **kushti**: Yeah, but I think, well, different directions to explore, right? So, well, different consensus algorithms are still, well, interesting topic, right? So, we have still some demand for proof of work. And then, yeah, well, we have a lot of AI GPUs becoming obsolete in coming years. Then, yeah, well, a lot of I6 underutilized because, yeah, well, changed. They were created for not doing quite well. So, yeah, a lot of possible directions for sigma chains for consensus.
+
+But for programmability also, well, there are a lot of interesting ideas to explore. So I've published global transfer policies recently, right? Which is kind of a solar punk mode to extreme, right? So well, you can create basically your own money and well, precisely define these rules. That's it. But yeah, I think we also can do more interesting experiments.
+
+So well in recent few days I probably got an idea how to do well pretty efficiently also kind of dark tokens right on well maybe Ergo even in the future but probably better to start with sidechains right before doing some hard fork to do some evolutionary development on the main chain.
+
+So the idea for dark tokens is to use not just numbers as amounts but possibly arbitrary bytes including encrypted amounts and then you can use global transfer policies which are checking that encrypted amounts are correct, like done in Monero, for example, with bulletproofs, right? Hiding amounts as well as requiring for anonymized transfers, for example, to stealth addresses.
+
+[11:00] **qx()**: Could you hide amounts in liquidity pools as well in that manner? Like if you had, any time you exchange, right, you're going to expose the amounts that you're changing. But if you could hide the amounts in the liquidity pool as well, you could potentially completely obfuscate the transfer process right there with a swap.
+
+[11:16] **kushti**: It's hard to do well. Yeah, so if a pool is public, right, then you need to show its amounts properly, right? Well, to make interaction possible. So you can do somewhat pooling, but more limited than public liquidity pools, right? So you can use kind of a dark pool, but yeah, well, hidden amounts, but maybe with possible opening of chain, something like that. But yeah, well, in general, if you have just Liquidity Pool, which is public, so accessible to everyone, then everyone is needed for some efficient on-chain method to get amounts there. Otherwise, how can you trade with it? Yeah, it's problematic.
+
+[12:30] **Armeanio**: Imagine like trying to set a limit order, but you can't read other limit orders, right? Or you're trying to move into it. You're trying to move into a pool, but you have no idea what the liquidity and the slippage is. So there are some areas where it's like you need some mechanism to understand data to make a decision. And so if everything is totally private and you have no ability to read it, the DeFi kind of breaks down and that's been an interesting problem to watch in this space.
+
+I've seen some people kind of like, I call it ZK spoofing where it's like, maybe there's a central server that can read everything, but users can't, and then your trust assumptions in terms of who can read and manipulate order flows, just moves to a single party.
+
+[13:21] **kushti**: Right. So yeah, if it's controlled by a single few party, then yeah, it's can be done in zero knowledge, right? Proofs generated by those trusted parties, but that doesn't make sense. Basically. Yeah. It's zero knowledge proof. But that's how people are usually trying to solve it. Trying to sell solutions, let's say.
+
+[13:57] **Armeanio**: We got quite a few in here. Why don't we open up guys.
+
+[14:00] **qx()**: Don't be shy. Don't be shy at all. Grayman's texting.
+
+[14:07] **kushti**: Hi, hi, Grayman. So yeah, well, I think, well, it's Grayman and Joe here. So I think there is need to revive efforts for completing the Ergo book. So let's add Martin, maybe some of the guys willing to contribute. And yeah, well, now some writings are done. So I made like a few writings in recent months are not public yet. So well, now I can jump again on the Ergo book and well, do some stuff there.
+
+[14:57] **qx()**: We've got MGPai. MGPai, why don't you give us... Oh, no, Grayman, go for it. You're going to talk. Perfect camera on. Let's hear it.
+
+[15:01] **Grayman**: I was just going to say I'm sorry, I've kind of fallen off on that. I've been pulled in a lot of different directions recently, but where I was sort of stuck and going to try and I got halfway there and the other half you had requested that I review the free banking era in America. And I've been reading up on that in a number of sort of weird contexts on a state by state basis instead of the federal basis. It's interesting.
+
+And I really have to delve in and understand ChainCash and practically how it's going to work before I write that part because I think that's the analogy that makes the most sense. So I've been looking at that a bit, but then I've got two new clients and crazy stuff going on with my family. So it is what it is. Life moves on, but I'll get back to it soon.
+
+[16:00] **kushti**: Oh, yeah, that would be amazing. So yeah, for ChainCash, we now have even some new contributors, right? And well, yeah, well, still the blocker is the same. So yeah, we need to define who will use it, right, and how to do UI then. So then, yeah, like foundational aspects do matter a lot here in this definition.
+
+[16:38] **qx()**: MGPai, you there? You with us, sir? He's there. Perfect. Hey. Nice. Where are you? Are you in Japan?
+
+[16:47] **MGpai**: Yeah, I'm just leaving the office right now.
+
+[16:52] **qx()**: Safest city in the world, right?
+
+[16:54] **MGpai**: Yeah.
+
+[16:56] **qx()**: Awesome. Tell us about your release of your... So for those who don't know, MGPai is, when he's not being slaved by Dan and forced to work for zero pay for Palmyra and Zengate, he runs a consulting and dev firm called Four Eyes. So the Sigmanauts have hired Four Eyes a bit back to create SigmaLock. And why don't you give us an update on that, MG, if you've got a sec.
+
+[17:22] **MGpai**: Yeah, yeah, for sure. So, we're quite excited for this release. You know, we've been working on it for quite some time. Actually, well, unfortunately, it's been like a year since start, but I couldn't work on it until like last month.
+
+[17:38] **qx()**: Oh, we don't want to hear excuses, MGPai. Just dive right into it.
+
+[17:42] **MGpai**: Yeah, yeah. Well, I'm very excited. You know, a lot of work's been put into it. I rewritten, I mean, I written from scratch like an entire indexing framework in Go lang, which is like a language which very few Ergo apps, if any at all, are written in. So it's completely done from scratch. And this will allow like really, really good performance for the users on the user end.
+
+So people will see any transaction they do for a specific contract, instantly, right? Because we're not querying the blockchain or anything, right. We're parsing a transaction, you're querying a backend directly, which stores the exact data that you need. So it's really fast. So it's a good user experience.
+
+I've included indexing with mempool, which is like big, it was like so much extra work because you know, there's so many edge cases you've got to handle, like transactions dropping or being replaced and so on. But with this indexer, it considers all that. And as soon as a user makes a transaction, it's going to show up in your UI, like you'll see it. And then you can see it confirmed in real time. And so on. So, you know, we're really focusing on the user experience and making it as good as possible because the idea is that this project is going to be completely open source.
+
+So anyone in the community can take a look and fork it, use it however they want. But for me, the main goal is to have like a foundation to just continuously build on, right? You get it right the first time. Then you just copy paste, like the boilerplate framework for all your other projects. And furthermore, you know, I spent a good amount of time on it to be ready for sub-blocks and all. So if I ever want to integrate that, you know, it's ready to go.
+
+[19:39] **qx()**: That's awesome. Yeah.
+
+[19:43] **qx()**: You want to go ahead and explain what SigmaLock is, what the project is about?
+
+[19:47] **qx()**: Yeah, so the idea was, you know, we have locking things on, we have things like HODLERG, and HQ just came up with a locking mechanism like an hour ago, just announced it, congrats HQ. But we wanted something that was more of a, something I could sell to my grandpa or somebody like that.
+
+And the idea was, could we create a product that competes or is similar to kind of like a life insurance passover or some sort of inheritance kind of thing to where we could lock something up and we have choices of whether it's still in our control or not in our control and somebody else's.
+
+So the idea was that let's have a system that somebody can go to. They can choose how long they want to lock it up for. They can even actually set, this is an addition, they can even set a price strike as well that lets it unlock at a price strike if it gets crazy. So you can go there, you can choose some options right at the beginning that say, look, I want to create, let's say two unlock keys, and that's it. And these unlock keys can only unlock it if the price of ERG goes to $1,000 or 20 years have passed kind of thing.
+
+So then you can give those unlock keys to your children or your grandchildren or your lawyer or some sort of digital lockbox or something that keeps things for legal reasons. And that's option A, essentially, where everything's you can't do anything once it's set. Right. But we all know that things change in the future. Maybe your kid joins Zengate and he betrays you and pisses you off and you never see him again kind of thing. And you want to cut them out of the will.
+
+So instead, you can check a little box that says the creator of this contract still has permissions to completely modify the contract. So at that point, you check that box. And then in five years, when MGPai leaves us for somebody else, I can sever him, I can rewrite the contract and sever that from, pull my funds out, redo the contract and make new keys and send them to my other favorite children or something like that.
+
+So giving some flexibility in that kind of thing, like they exist outside in the real world, as well as the ability to really lock it in and be immutable with a smart contract. That's the idea. We're trying to create things that make sense on chain, not just bash blockchain over the head of things out there that might not make sense. This kind of stuff makes sense. You have a lot of wealth in the blockchain system right now, and we're not at that stage where people are dying too fast and holding on to their ERGs because it's such a young system that this is going to be something I think that people might be interested in in the future, near future.
+
+Yeah, and Four Eyes has been great.
+
+[22:54] **Grayman**: What's that, Grayman?
+
+[22:56] **Grayman**: What happened to Dan?
+
+[22:57] **qx()**: I think he fell asleep on the keyboard, passed out.
+
+[23:01] **MGpai**: Yeah, it's quite late in Japan right now.
+
+[23:04] **qx()**: It's like 11 o'clock, 11:30? 10:30. Oh my gosh. What are you, like, a high schooler?
+
+[23:11] **MGpai**: Yes, yes. Getting to my bedtime soon.
+
+[23:14] **Grayman**: They've got good whiskey in Japan. He should be awake.
+
+[23:17] **MGpai**: Oh, yeah. That's true. No, Dan's been working hard. I think he had some early morning meetings at like 6 a.m. or something and 2 a.m. stuff. Unfortunately, the Japan time zone isn't favorable for business meetings.
+
+[23:36] **qx()**: Well, let's hear from HQ. HQ, you want to unmute and tell us about your new release an hour ago about your lock program. Maybe HQ is asleep too.
+
+[23:52] **HQ3rr**: Hey, good evening, everyone. Hey, basically more simple way of doing this, right? It is not backed by any backend. It is already done on Explorer uses the Explorer APIs to fetch the boxes. It is simple and just go and do I want to lock this much till this height and the person who creates the box has the only right to unlock it. You can lock tokens, you can lock ERG, you can lock NFTs and you can lock everything which is on chain. So that's simple and I think that was the requirement from some of the community members. So we just kept it simple that way.
+
+[24:34] **qx()**: Nice. So you're protecting yourself against yourself. It's a good way to force yourself to hold, I guess, right?
+
+[24:43] **qx()**: Yep. Maybe you can put that new Mew you got in that lockbox, HQ.
+
+[24:50] **HQ3rr**: I think I will add option to add names to the boxes. So I will maybe add name of my son. and we can name the boxes with the name, or we can add description to the boxes.
+
+[25:03] **qx()**: Yeah, that would be nice. That would be cool. That is cool. Very cool. Nice. How long you been working on that HQ? You do it in secret and just popping it out? Or did you bang it out with some coffee in a late night?
+
+[25:14] **HQ3rr**: Yeah. I think some people take one year to build it. I just take one day.
+
+[25:18] **qx()**: Oh, shots fired, MGPai. You're going to let that happen?
+
+[25:25] **qx()**: Oh, he's not going to answer that.
+
+[25:27] **Grayman**: That's only cause Dan hasn't got a hold of you yet.
+
+[25:30] **qx()**: Yeah, yeah, yeah. Poor MGPai. He's got point two percent of his time that he can devote to anything other than Dan. So that's what happens.
+
+Oh boy. Well, what else is new guys? Chris? What's it any anything in the pipeline any theories or philosophies you've been working on that you want to implement?
+
+[25:53] **Haskell_plus**: Yeah, I guess so. It's going to take a while. It's heavy on the front end, so you know how we are with UIs and Ergo. Always a long stretch of development there. Seems like we're getting there. I like what HQ's got going on though. You know and everything over at MewFinance. That's pretty cool. I use that a lot probably going to be looking at some of that front-end code for the swapping and exchanges for what I'm working on.
+
+But it is, it's just really an idea stage right now, so we're thinking about how to develop an application for coupons basically fundraisers, and this is a US project so it's quite complicated where you know everybody with rewards might be able to trade their rewards for rewards that somebody else might have and use those in different areas of their communities. It'll be community focused in a sense.
+
+So these coupons that you know you have for shopping at your supermarket, you can trade off for rewards that somebody has earned at the car wash, let's say. In a free market kind of place. And you know that the intention there is to provide our communities with a free trading platform and kind of goes along with our ideology of providing peer to peer access on different levels where you have Joe and kushti working on these high level projects.
+
+And I think a little bit down on the ground where how can we build something that can be replicated for normal user in peer-to-peer fashion. If that doesn't make any sense there on the coupon side of things, I think that it's a good benefit for communities. In my vision, I see where high school fundraisers and church fundraisers might pull up our application, put their donors or contributors, business contributors that are in their community, put their coupons on this application and allow their community to trade back and forth.
+
+And I think it's kind of a LETS idea without having all the equipment and technology, try to make it user friendly. So that's why I say it's heavy on the front end. And tax ramifications.
+
+[29:05] **Grayman**: LETS without tax ramifications. Yes, nobody is going to tax me when I buy my coupon book.
+
+[29:13] **HQ3rr**: Just list coupons on MewFinance and that's it right? You can just list coupons on MewFinance and it is P2P so someone wanted they can buy it and you can use another source to just provide them with the codes and that's it. So you have front end for it and you have back end for it too. And it is all on chain.
+
+[29:32] **qx()**: But isn't this, isn't what Chris is explaining more of a, Hey, I've got, you know, this many points at BJ's. I want this many points at Walmart. Can we do a swap from BJ's to Walmart for these kinds of things? Is that where you're explaining Chris, as opposed to I want to buy with ERG your points?
+
+[29:50] **Haskell_plus**: No, so the ideal application for this would be you and I attend the same school, QX, and we're a part of our fundraiser for our football team. And we go out and in my part of the country, we were always creating fundraisers for our kids. And it's sourced from community businesses, mostly where a business says, yeah, they'll contribute and they'll give these offers and they create a coupon booklet, usually a physical item.
+
+And then these kids can go out and sell these coupon booklets for $20, $50, different prices. And then the community can have a coupon booklet to go out buy different things from the community. Well what I find is that I don't use half that booklet when I buy one, okay, so these coupons still have value and I might end up giving them away giving them to one of my sisters one of my brothers or grandma.
+
+And the idea would be that QX, you like a particular item in that coupon book, and I like a particular item in that coupon book, and we create a market that allows us to trade back and forth. This is on a very, like I say, on a very small scale in a community. And so your points of value where you have 20% off on a frozen custard. Hey, I want in on that. You know, let me give you 20% off on what, what do you like a hamburger? What is it? You know? And so creating a very small trading platform for each individual community.
+
+And HQ putting these kind of things on MewFinance is it's a great idea. You know, but with what I'm looking at doing, it's also going to take a marketing campaign. So very much going to be like, not a MewFinance, not really centered on Ergo exactly on how to market this to fundraisers people that want to raise funds for their football team people that want to raise funds for their church or for their local golf course, you know. It's the marketing is another big push on the front side of things.
+
+But it's very specific to how to distribute this free marketplace for communities. And it's going to be very little on the marketing side about blockchain and how to use peer-to-peer finance. But the underlying message of peer-to-peer for communities is the fundamental foundation that I'm going to be standing on to do it. So that's kind of what's in the pipeline. It'll probably be a year or two before something like that really rolls out just with all the work that goes into it, but definitely going to be running on Ergo.
+
+[33:28] **Grayman**: So if you want to market it to the fundraising people, then you got to make it easy for them to reach out to the sponsor people. That's going to be the trick is making a nice interface for that. But don't tell us how you're going to do it because pretty soon it'll end up on MewFinance too.
+
+[33:46] **qx()**: You guys keep using this M word. I'm not familiar with it. Can you explain what this marketing? What word is that? I don't know.
+
+[34:00] **qx()**: Oh boy. That's awesome, Chris. Anybody got an update on Keystone Wallet? We got a question. Didn't PGR456 give a good update? He just did something last week recently, kushti?
+
+[34:29] **qx()**: Just looking for an update on Keystone.
+
+[34:32] **kushti**: Oh, so the latest is from July 21st and it was tweeted by the Keystone. So yeah, the latest is about connecting Keystone to Nautilus, generating transactions, signing requests for Keystones, can sign transactions from Keystone, done. What's remaining? Bug fixing in transaction serialization. Finish Nautilus-Keystone interaction UI design, full integration tests. So yeah, it's signing with Nautilus, so quite close. It seems. And yeah, well, there was some video published on July 21 as well. I guess it's on the Twitter also. So you can find it in the Keystone wallet Twitter. But yeah, I think it was posted around. Yeah, we retweeted it too.
+
+I talked with the team yesterday. Yeah, they said that it would be like four weeks to six weeks to have Ergo ready. So that's what the estimate time they gave me.
+
+[36:04] **HQ3rr**: Yeah. They want me to build a custom page for them on VoltPay so they can accept multi-chain payments and sell keystones. So that's what the estimate time they gave me.
+
+[36:08] **qx()**: Are those Rosen weeks or are those Keystone?
+
+[36:12] **HQ3rr**: I'm sure they're not Ergo developers, so they don't understand the four weeks thing.
+
+[36:18] **qx()**: HQ, when are you going to put more stuff up for sale on MewFinance for Mew? I was hunting through there to spend some Mew.
+
+[36:26] **qx()**: You have merch already on sale on MewFinance for Mew? On proof of merch.
+
+[36:31] **qx()**: No, I mean for Mew. I want to buy stuff with Mew.
+
+[36:35] **HQ3rr**: Okay, I will talk to the guy who makes mugs.
+
+[36:41] **qx()**: I want to buy a mug. I want to buy one of those beautiful mugs for Mew instead of SigUSD. Put a bunch of stuff up with Mew. I'd love to spend some Mew.
+
+[36:50] **HQ3rr**: I will see if I can convince Echo to add maybe Mew to proof of merch so it will have its own Mew delete there too.
+
+[36:58] **qx()**: Oh, that'd be awesome. I also mean the handmade mugs too, the guy in Europe that makes them. That's beautiful.
+
+[37:05] **HQ3rr**: That depends on him. If he wants to get paid in Mew or not.
+
+[37:10] **kushti**: What's that kushti, by the way, do you hear me guys? Yeah. Yeah. So parcel sent by proof of merch, reached Dubai recently. And yeah, a pal of mine is quite excited. Yeah, about it. Let me what did you order? kushti messages. So it was some merch and a few t-shirts. Maybe a couple of mugs. I forgot. That's awesome. But but yeah, the guy is very excited about it. And yeah, we'll promote around now with some merch. So, yeah guys, please order proof of merch and spread around.
+
+[38:07] **qx()**: Yeah, as soon as you add Mew to that HQ, I'll order a bunch of stuff. I couldn't imagine spending my Mew any other way.
+
+[38:20] **qx()**: All right, Grayman, you threw a question in chat. You want to use your pretty voice to ask a question?
+
+[38:29] **Grayman**: Sure. Actually, I got two now. And they might be related to each other. So the first one is about Rosen and the guards. And it makes sense to me that it started out as a federated system because on some level you have to start with trust to build a trustless system, right? You have to start with people that you know are, I mean, it should have some slashing and other tools to make it so that you can punish people that act poorly.
+
+But if you go right out of the gate, and that's all there is, is a whole bunch of people attacking the thing that would not be good. But eventually, to get to the stage where it's sort of living in the wild, and if Joe gets hit by a bus, and so do all the other devs, it still lives. Carried off by an eagle, whatever it is.
+
+[39:25] **qx()**: A bear. A bear's more appropriate for Joe.
+
+[39:28] **Grayman**: Fells a tree on himself. Then we need it to keep going. So you got to have a way for these guards to be permissionless, right? What is the how do you do that? How do you transition from one approach to the next?
+
+[39:45] **qx()**: Joe, let me fix this real quick. Let me fix one thing real quick before you jump in. So my understanding of federation is federation is the ability to remove access currently at any time. Right? So while the guards, I guess you could throw around the word federation where the guards were hand selected, right? I would call that more of a startup ceremony perhaps. Selected. Once they're selected, essentially slashing can begin. And there's no federation in that Rosen can say, oh, Sigmanaut, you're out, bye. We're just selecting you and removing you. It would still take the other guards to perform a new ceremony to include, you know, some new signing keys and all that kind of stuff. There's no federation currently, I believe, with the Rosen guard set. There's a selection process, yes. I would be hesitant to say that the guards set become like the watchers set where it's permissionless, and Joe can correct me if the vision of Rosen is different than this, but as far as I understand it, the guards are always going to have a choice whether they perform a ceremony to include people or not at some point. So that's always going to be somewhat of a selection process in that manner, different from the watchers as far as I understand. So I don't believe it's federated at this point because there's no way for people to be removed without the full guard set being able to be involved with that. Joe, go for it.
+
+[41:19] **Armeanio**: Sure. So in starting Rosen, the ideal would be that you have some sort of collateral in order to set up that set, some economic treasury that backs the value being transferred. And I think that if you're trying to bootstrap a peer to peer community locally, one thing that I think is very valuable collateral is actually a history of proof of work, right? So it's like, okay, this person has a skill set and they've demonstrated the ability to create value, right? More than just credit as collateral. So that was a big part of how the initial set was established.
+
+Now, longer term, in my mind, the thing that makes the most sense is to always try to build yourself out of importance, right? And I think that there is a powerful way to potentially do that where you actually create an avenue to where you allow multiple various guard sets to use the same second layer, right? So let's say that Grayman and Byron and Chris get together and say, hey, we're going to form our own guard set with our own collateral treasury, and we're going to actually start settling transactions for people.
+
+I think that having the ability to scale the guard set sideways beyond just a singular party is probably the best way to foster competition right and then it's like as a user you know you may actually get to the point longer term where it's like okay you want to transfer asset from here to here well you have multiple intermediaries you can go through that have various levels of let's say treasury backing so then you kind of get this idea where a user may be able to go through different intermediaries depending on their level of collateral they hold their history in terms of how quickly they settle transactions and actually create a competitive framework around it.
+
+It's kind of hard to make it fully, I would say non-federated. So the best way to foster competition is then to create open competition between federations, if that makes sense. But yeah, I think that should always be the goal is it's not necessarily to build solely to capture value, but to build innovation is then to create open competition between federations, if that makes sense. on that, then it's like they have this avenue to come in and potentially out-compete the original guard set.
+
+Potentially they could adjust how quickly things settle, but that comes with trade-offs. You may want, if something moves faster, you have less confirmations and especially in proof of work. There's always this idea that energy added to the chain enhances the assumption of settlement, right? So sometimes if you have cross-chain mechanisms that are optimistic and they're faster than the chains assumptions I'm not sure how long we can go with that until something breaks but that's more of an you also adjust fees and
+
+[45:10] **Armeanio**: We made Rosen super modular and we haven't really flexed that to where it is possible to not just adjust the fee in terms of the bridge basis, it's actually token by token by token on the map. So we could potentially say, hey, perhaps we create a marketing campaign around this one token, or perhaps we make that a fee service where if somebody locks Rosen or pays some sort of fee for that service, we could actually individually raise and drop the fees.
+
+Long term that's powerful. Short term governance can be like herding cats and unfortunately sometimes I'm like the hardest cat to herd. So it's like the blind leading the blind. But I do think that like as a long term path of creating a competitive federation of guards actually makes the most sense from a free market approach and an open source approach. Otherwise, we just keep building to where my relevance increases and that's not really the position I want to be in long term is more and more responsible. Ideally, if you build something that's open and has decent security assumptions, you become less and less responsible as it proliferates and this organic growth takes over. And that would be the optimal outcome.
+
+[46:50] **Grayman**: So then the other question was about Nautilus. and is it possible to just sort of gank some other wallets, open source code, I don't know, like Electrum or whatever, and add BTC as a native and then build some sort of a structure so that I never have to leave my wallet. I don't go to a rosen.tech app, but I just put my wallet, you know, switch between BTC and RSBTC or other Rosen, you know.
+
+[47:21] **Armeanio**: Yeah, so when we designed Nautilus, we did actually make, we re-engineered the backend to where long-term we have the ability to support multiple environments. And that's important if you wanted BTC in Nautilus, you'd actually need information from the Bitcoin blockchain. And the other let's say component there that would be needed is going to be SDK to integrate Rosen directly into the wallet. And that's kind of been our.
+
+I don't want to say bastard child, but let's just say it's something that we've been working on as we have the bandwidth, which long term. We've kind of been in this position with Rosen where the ability to connect environments is, let's say, a powerful base, but you actually need something on top to where liquidity providers can manage assets. It's one thing to be able to move assets into different environments, but you need some sort of middleware on top to be able to manage them in a uniform environment, right, instead of a fractioned environment.
+
+And so we've been in this process of working with Hummingbot for quite a while We actually were next in the queue to get support and then they said hey we're going to refactor a lot of our code and you know move towards kind of like a I think a lot of it had to do with actually following liquidity, which is kind of natural where they wanted to say okay Well, we need to optimize this to support Solana because a lot of liquidity is moving to Solana so we're going to refactor our code base to work more with that environment versus being more Ethereum centric and then that kind of put us on a holding pattern for a while as they updated their code base.
+
+And they should be open to new connectors in version 2.8, which I think right now they just released 2.7. So hopefully we actually can get that kind of unified experience. And that makes Rosen a lot more powerful, in my opinion, because then you not only get quick arbitrages in different environments, but you also have a lot of central exchange connectors. A lot of market making outfits will use Hummingbot and then they'll just write their own parameters for trading. They do kind of come with the default settings and usually people will throw up some Python scripts with whatever the let's say parameters of the project they're trading with are.
+
+So it's a really powerful tool that is coming online, not just market access, but market making those two need to go together. And so far they haven't. So I haven't worried too much about the liquidity and activity and Rosen because it's an incomplete product in my opinion. until that second layer is there, it's like, yes, we have this ability to move from Ergo to Cardano or from Bitcoin to Ergo, but when you see the price slipping to where RSBTC is worth $31,000 and then Bitcoin's worth $67,000 and there's no ability to quickly balance that liquidity differential. And the price differential is something isn't fully complete yet. So we're getting there. I wish it was faster, but when you're working with third parties, I don't know. Sometimes you just have to wait for your woman to get ready, right? Pushing it just makes more problems.
+
+[51:27] **Grayman**: So you have a pretty comprehensive and, let's say, old school understanding of the whole crypto space. Can you tell me, are there any other multi-chain wallets that are open source? I mean, of course, a lot of hardware wallets are multi-chain. We already talked about Keystone.
+
+[51:44] **Armeanio**: Oh, I would say Cake is probably one of the better open source wallets around. It creates a, I don't know, a weird assumption where sometimes it's like they're fully open source. Sometimes there's partial ability to view. But the most important thing is how are the keys stored and managed, right? And what are the terms of agreement? And you know, the devil is usually in those details, in my opinion, because there are a lot of products that I'm just going to call them spyware.
+
+You know, there's no other way to really put it. They're spyware. They're scraping your IP address. If you're submitting some sort of swap, they have the ability to kind of see your order coming in and act, you know, in front of you, which is somewhat manipulative. But Robinhood is a good example where, you know, like as an application to some degree, it's spyware and it's selling your information to Citadel, which is then front running you, right? That's not an ideal assumption. For markets, right?
+
+But you know having the ability I've said this many times he who controls order flow is king and I don't think people fully understand how When you have the ability to get in between the market participant in the market you have an asymmetrical advantage that you can make profitable pretty much every time and that's moving into the crypto space, which is why, you know, I would say for best assumptions in a peer network, stay low, build your own transaction, right? Don't allow that order flow information to be passed around before it hits the network.
+
+[53:39] **Grayman**: It just feels like we're here to promote Ergo, but if Nautilus was available for BTC users and became in some ways uniquely good because it enables them to engage in DeFi. Yeah. then that draws in new customers that don't necessarily initially even need to care about Ergo. All they care about is, hey, look, this Nautilus wallet has a sort of trading tool built right into it. That's cool. And it's open source. And we can sort of figure out that these guys aren't spyware, right? And then they can be promoted like that. And then suddenly you have access to a huge customer base that doesn't immediately have to think, oh, this is Ergo, let's learn about Ergo, but then once they're on board, then they realize, oh, this is all powered by Ergo. Let's learn more about Ergo and buy some ERG.
+
+[54:34] **Armeanio**: I think long term, in order to put more resources into wallet development, we need to put some form of transaction fee into that type of wallet. Right. And I think there should be a pretty clear disclaimer like, hey, you're choosing to be a user rather than a peer. If you want to not pay this, you know, here's how you spin up a node and here's how you become a lower level in the network. But I think having that mechanism to incentivize development would be big. We haven't done that yet just because there wasn't many options. And I think that, again, it kind of doesn't really make sense if you're the only game in town and it's open source and you're trying to just bootstrap community to fee gate it right out of the gate. But I do think that long term that probably has value there. in terms of scaling into new environments and having kind of the incentive structure for constant support.
+
+[55:46] **kushti**: All right. And by the way, about wallets, so if you have some feature requests, some ideas in regards with Ergo wallets, yeah, please create a GitHub issue, so send ideas to me. Yeah, well, it's possible to add something in the coming months, but we need to consider roadmap.
+
+[56:16] **qx()**: HQ, maybe you should make a telegram bot that posts directly to different repositories for issues. So very normal people aren't afraid to post comments on GitHub. If you don't do it, I'll do it. But you have more time than me.
+
+[56:34] **HQ3rr**: Now we can have a bot which can maybe register people issues. But the thing is you will have more nonsense in that than the real issues. Then you have to sort out the real issues.
+
+[56:46] **qx()**: Well, that's where you come in. You can just sort that out in your free time.
+
+[56:52] **HQ3rr**: Who says that I have free time?
+
+[56:55] **qx()**: I mean, you're building all this stuff. Obviously you have a lot of free time.
+
+[56:59] **HQ3rr**: It's not that I have free time. I have free will. That's a different thing.
+
+[57:03] **qx()**: Oh boy. Oh, we're at 57:05. We got another question. Oh, Byron says, who chose a meetup outside of snowboard season? Mission reduction over gliding? He's right, Joe. Why are we going to Colorado? Not when there's a lot of snow.
+
+[57:18] **Armeanio**: Probably because people will be cold. It's funny, whenever East Denver happens, which is a pretty big conference in Colorado, every year you have people that fly in and then bitch moan and complain that, oh my God, it's so cold. But it was funny, I was there, I think it was two years ago, where it's like the second day. In the mountains, usually you'll feel this instability in the air, where it's like you get these bursts of winds, which means the pressure is changing. Right. And, you know, being from the mountains, you feel that and you're like, oh, it's going to snow. And you look at all of these, you know, script kiddies from that are wearing shorts and flops and you're like, oh, they have no idea what's coming. And then two hours later, it's snowing and everybody's, you know, freezing. And then, you know, afterwards, you're like, oh, it's the worst experience ever because I went to the mountains and I forgot to bring a coat.
+
+So hopefully hopefully we hit the season where the leaves start to change, which in Colorado is its own magic. And it's still crisp, but warm enough that you can go enjoy that.
+
+[58:26] **qx()**: You have trees with leaves in Colorado, not just conifers, evergreens.
+
+[58:31] **Armeanio**: Oh yeah. The Aspens. If they're hitting the point where they're turning gold, that's its own magic.
+
+[58:40] **qx()**: Very nice. Oh, Byron, you're still in chat. You want to ask your next question live? You're still up here if you want to pop up. That's great.
+
+[58:50] **Byron**: Oh, put the pressure on me. Okay. Let me go back to the question. You're talking about are intents the same as weakly confirmed transactions. Because I've been seeing intents a lot lately and I also reviewed the Ergo hack with CBK. So I want to know if that's similar to how you're doing it. Armeanio with the OP_RETURN and RGB, I don't know what the plus plus is.
+
+[59:18] **Armeanio**: Are you talking about RGB plus plus and intents?
+
+[59:21] **Armeanio**: Yeah, yeah, yeah, RGB plus plus. Why don't you answer that kushti? I wasn't following.
+
+[59:28] **kushti**: hackathon CBK yeah so i need ideas towards intents but so actually i think Ergo by design so well it's it's not just intents friendly it's intents oriented right so well you are specifying well, for following good design patterns, right, so you are specifying only conditions which do matter, right, and leave the rest to others so that's how swap contracts are done right and others so that's why they're composable by the way and so on so i think intents is kind of products of accounts based blockchains like NEAR and so on.
+
+So when they tried to relax what kind of strict contractual descriptions they have. They come base approach right so that that's kind of relaxation they're doing and actually it's quite funny so recently I've checked some dark tokens proposals for Ethereum and here it seems they all are implementing UTXO model actually and
+
+Yeah, I think, well, intents and also that thing from Ethereum, account abstraction. So they're simply not needed here because they're here since day one.
+
+[61:23] **Armeanio**: It's kind of, yeah, there's considered overlap between terminology, right? I think a good way to look at UTXO is it's like you have spending conditions, right? And spending conditions are in a way an intent, if that makes sense. versus when you get into the account model, there's just a larger program path you have to follow that they're somewhat trying to simplify and get away from in order for things to move faster and not execute. So I think perhaps in UTXO, we should just call them spending conditions, which is kind of an intent of the transaction.
+
+[62:07] **kushti**: Yeah, spending conditions, guarding propositions. So yeah, intents is basically a way to write them where you can write, well, some minimum rites of spending. But that's what you're usually doing right here in UTXO programmability. So that's how you are doing things in Ergo and before in Bitcoin even with more limits. So, yeah, but basically intents I hear since day one, just under different terminology. Naming, right. Yeah. Well, we're just following Bitcoin basically. And yeah, well, account abstractions also. Yeah, since day one because everything is a contract. We don't have any special kind of accounts, contracts, whatever. So, well, it's just one type, right?
+
+[63:22] **qx()**: To some contract and you take it. Is that still going to be the same when we convert to proof of stake guys in the future?
+
+[63:31] **Armeanio**: Someone ban this.
+
+[63:35] **Armeanio**: But to some degree you could call you could call every register on Ergo declaring an intent. If that makes sense. And then, you know how the registers interact is like a contractual basis of intents. I guess.
+
+[63:55] **kushti**: Right. So yeah, well, it's also the question of terminology, right? So what are we doing as a community? So are we pushing our own or are we following Bitcoins, right? So are we adopting and somehow modifying EVMs? So yeah, well, it's... I have a feeling that we are quite doing all the three things right in discussions, which also does make some sense. It's hard to get.
+
+[64:38] **Byron**: Can we start using outputs per transaction versus TPS?
+
+[64:45] **Armeanio**: Yeah, it's hard to find concise consensus about terminology, even, which is kind of crazy. But sometimes, like, I don't know. Sometimes when marketing leads the space, words don't mean anything.
+
+[65:02] **qx()**: I mean, that's everywhere. Even in blockchain.
+
+[65:05] **Armeanio**: That's everywhere. It's not just in blockchain, even. It's five companies out of the same thing, and it's just named differently. Yeah. So it's, it's, I don't know, unique terms can dilute the value of language to some degree. Cause there's a, there's, it just lacks concise boundaries of what it even means. And I don't know, different language from different projects sometimes just pretzels my brain. Cause I don't know, what does this concisely mean even? And then I have no idea what anyone's talking about.
+
+[65:45] **qx()**: We got more questions, guys. Let's bang them out while we can. We've got a few more minutes. Thanks so much for turning on your video, Byron, and asking the question.
+
+[65:51] **kushti**: Yeah. Do we have time? And by the way, hello, Byron. Happy to see you. We're here as well as other new guys. Guldis, Zed, Nir, Odi, Karim.
+
+[66:07] **Byron**: For the viewers of 2021, maybe 2020.
+
+[66:12] **qx()**: He means new on zoom Byron he means new on the zoom.
+
+[66:16] **kushti**: Oh, okay. Yeah. Yeah, wish he remembers everybody on your system. Don't worry. You're new on the blog, but yeah, well, please join some calls for more We will have more right in coming weeks. Maybe especially
+
+[66:30] **qx()**: Yeah, next week we're going to have the same thing, so that'll be great. Andy's in the woods camping for two weeks, so we are doing this instead of the AMAs. Yep, just for two, just for the AMAs.
+
+[66:39] **kushti**: Yeah, so actually, yeah, but I think it's a good initiative, right, to have more voices for them. Yeah, yeah.
+
+[66:47] **qx()**: 100%. You want to answer a few more questions, guys, or you want to call it?
+
+[66:56] **qx()**: Joe's like, I could go back to sleep. Now we got three more questions. Let's bang them out. This one's for Joe specifically. Is Machina Finance an order book DEX or will it utilize the existing AMM pools also?
+
+[67:09] **Armeanio**: Either. Neither. It's kind of a design that it's again it's an old idea that it's like finally we have some bandwidth for I would say it's called an order based DEX and so the cool thing about what we're trying to build is that let's say that Chris wants to sell an asset right and he has the ability to create his own local contract that's offering the limit of the asset, right?
+
+And so then you have this backend that's able to match all of these local smart contracts and kind of create unification of just these UTXOs around the chain that are offering different, you know, buy and sell limits, right? So it's not a book. It's like everybody creates their own pages and then there's a matching engine in the background. And kind of the cool thing about that is longer term, it allows this idea for automation of trading, where it's like, okay, if I want to buy within this range and sell within this range, I can create local smart contracts to facilitate that.
+
+So it's not really a order book, because usually order books are unified, right, in terms of there's usually one party that's more or less writing all of the buy and sell orders in a book. It's order based and it's peer based. And one of the cool things about having a peer based setup like that is again, you're operating from this low local level where if I create the sell order and Chris buys from me, you get a peer-to-peer contract interaction rather than having the bookmaker in the middle.
+
+So it's not AMM, it's not order book, it's kind of this specialized UTXO order base DEX that then you have this ability to aggregate. And if we open source the aggregator, then everybody can essentially run the book. if they want to, right? So again, you're kind of removing the central contract or the central bookmaker, whether it's AMM or the order book, and you're creating just this ability to create local orders and then match them.
+
+[69:41] **Grayman**: It's more decentralized than a DEX.
+
+[69:43] **HQ3rr**: Do you mind if I ask a question? So how are we validating those? So let's suppose that I want to sell one ERG and I want to sell it for 1.2 USD, right? So I want to swap. For example, I am actually working on something like this on MewFinance already because I'm utilizing the same smart contract, which lets me sell for it and lets me sell token for anything. So what I really do is I create order. I tell that I want to sell this for this much. And the other party, if they like it, they can accept it. So what I'm trying to understand is what is the difference here? Is this off-chain bot which is running and matching those orders and publishing them, executing them, or it has to be manually done by the other party to accept the offer?
+
+[70:31] **Armeanio**: Right now we're working on the backend, putting together a Rust-based backend to aggregate orders and be essentially the matching engine. If you want best assumptions, you're going to want to run that. And how many people are willing to do that? Well, that's always kind of the problem with local hosting and decentralization anyway, but having the path to be able to create orders and then run your own matching engine is pretty unique. I don't know if I've seen an application that does that.
+
+And it's kind of neat because at least in UTXO, you know, long-term, it's like, if we could get that right, it creates this ability to where the entire chain itself is the book.
+
+[71:31] **HQ3rr**: Yeah, exactly. That's why, because if we look at the MewMart main contract, it's basically that. So yeah, I just wanted to create a new interface on top of it to show it like a DEX.
+
+[71:42] **Armeanio**: Yeah, I think long term, that's a really nice design pattern for UTXO. It's just a question of saying, okay, well, how many people are actually going to run their aggregator and be their own matching engine to where they are the bookmaker in a way? I don't know. That's always hard. Sometimes it's hard to get people to even get off exchanges. But having that path towards pure, peer-to-peer finance that's just smarter, more performant is always a good path to try to conceptualize, play with, and then make reality.
+
+[72:31] **HQ3rr**: I guess we will check it out how many people will actually use that. So I think I can run an instance and see if people are even interested in that.
+
+[72:39] **Armeanio**: Yeah, I think long term. I don't know. I keep coming back to this idea that I've talked about over the years where it's like, I think probably for users anyway, you need just light wallet that's more comprehensive. And maybe long-term, we need some sort of node package. We kind of saw that to consider, but that's also hard to build because then you need standards and contributions and it can be its own centralizing I don't know.

@@ -1,0 +1,220 @@
+{
+  "call_date": "2025-08-08",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA (COMMUNITY EDITION) - August 7th",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "HQ3rr Development Updates and Alephium Work",
+      "category": "technical",
+      "start_time": "01:16",
+      "end_time": "02:18",
+      "primary_speaker": "HQ3rr",
+      "summary": "HQ3rr reports completing paper wallet creation, top-ups, airdrops, vanity addresses, and on-chain voting implementation for Alephium blockchain. The voting system was developed after Alephium requested governance tools but couldn't use Paideia.",
+      "key_terms": [
+        "paper wallet",
+        "vanity address",
+        "on-chain voting",
+        "Alephium",
+        "Paideia"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Node 6.1 Release and Sub-blocks Implementation Progress",
+      "category": "technical",
+      "start_time": "02:18",
+      "end_time": "06:27",
+      "primary_speaker": "kushti",
+      "summary": "Kushti announces Node 6.1 release preparation and discusses sub-blocks implementation progress. The update will enable testing sub-blocks on public testnet, requiring additional miners for hybrid testing scenarios before mainnet activation and security audit.",
+      "key_terms": [
+        "Node 6.1",
+        "sub-blocks",
+        "testnet",
+        "miners",
+        "soft fork",
+        "security audit"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "SigmaLock Contract Security Review and Use Cases",
+      "category": "technical",
+      "start_time": "06:27",
+      "end_time": "14:21",
+      "primary_speaker": "qx()",
+      "summary": "Kushti completed security review of SigmaLock contracts and approved them for deployment. QX explains the various use cases including time/price-locked asset transfers, vested developer payments, and self-custody protection mechanisms.",
+      "key_terms": [
+        "SigmaLock",
+        "time lock",
+        "price lock",
+        "vesting",
+        "smart contracts",
+        "asset transfer"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "InfraDAO Launch and Explorer Infrastructure Plans",
+      "category": "governance",
+      "start_time": "14:21",
+      "end_time": "16:54",
+      "primary_speaker": "qx()",
+      "summary": "QX announces the successful creation of InfraDAO with 50,000 Paideia tokens and releases Dockerized Explorer repository on GitHub. The DAO aims to provide decentralized hosting for Ergo infrastructure including websites and services.",
+      "key_terms": [
+        "InfraDAO",
+        "Paideia tokens",
+        "Explorer",
+        "Docker",
+        "infrastructure hosting",
+        "load balancing"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Rosen Bridge Base Integration and Coinbase Listing Opportunity",
+      "category": "bridges",
+      "start_time": "17:15",
+      "end_time": "19:30",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of Rosen bridge expansion to Base network and Coinbase's announcement that all Base assets will be tradable on their exchange. This could provide new onramp/offramp opportunities for wrapped ERG in the US market.",
+      "key_terms": [
+        "Rosen bridge",
+        "Base network",
+        "Coinbase",
+        "wrapped ERG",
+        "liquidity providers",
+        "onramp"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Nautilus Wallet Banxa Integration Live",
+      "category": "ecosystem",
+      "start_time": "19:30",
+      "end_time": "21:25",
+      "primary_speaker": "qx()",
+      "summary": "Nautilus wallet now includes a 'Buy ERG' button that connects to Banxa for direct fiat-to-ERG purchases. The service has geographic restrictions including UK, New York, and several other states.",
+      "key_terms": [
+        "Nautilus wallet",
+        "Banxa",
+        "fiat onramp",
+        "KYC",
+        "geographic restrictions"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Exchange Listings Strategy and TradeOgre Status",
+      "category": "ecosystem",
+      "start_time": "21:25",
+      "end_time": "27:44",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of potential new exchange listings with marketing campaign requirements and TradeOgre's extended downtime. Team evaluates whether smaller regional exchanges would provide meaningful value versus cost.",
+      "key_terms": [
+        "exchange listings",
+        "TradeOgre downtime",
+        "marketing campaigns",
+        "regional exchanges",
+        "liquidity"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Community Growth and Educational Content Strategy",
+      "category": "community",
+      "start_time": "27:44",
+      "end_time": "33:19",
+      "primary_speaker": "kushti",
+      "summary": "Kushti observes influx of new community members and emphasizes need to repost educational materials from 2021-2022. Discussion of preparing for potential larger wave of interest in proof-of-work assets.",
+      "key_terms": [
+        "new users",
+        "educational content",
+        "tutorials",
+        "proof-of-work assets",
+        "community growth"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Spectrum Network Shutdown and ErgoDEX Future",
+      "category": "defi",
+      "start_time": "34:19",
+      "end_time": "41:34",
+      "primary_speaker": "kushti",
+      "summary": "Spectrum Network is winding down and will refund SPF token holders, but ErgoDEX contracts remain operational on-chain. Discussion of reusable vault contracts from Spectrum that support up to 1024 signers for large-scale DAOs.",
+      "key_terms": [
+        "Spectrum Network",
+        "ErgoDEX",
+        "SPF tokens",
+        "vault contracts",
+        "multi-signature",
+        "DAO governance"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Silver Dexy Development and Oracle Integration",
+      "category": "defi",
+      "start_time": "41:34",
+      "end_time": "43:36",
+      "primary_speaker": "Armeanio",
+      "summary": "Armeanio reports Silver oracle is ready and all components are available for Silver Dexy launch. The Rosen community will need to choose between Gluon and Dexy protocols for oracle integration.",
+      "key_terms": [
+        "Silver Dexy",
+        "oracle",
+        "Gluon protocol",
+        "Dexy protocol",
+        "Rosen community"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Ergo Foundation Updates and Partnership Outreach",
+      "category": "ecosystem",
+      "start_time": "44:12",
+      "end_time": "46:15",
+      "primary_speaker": "glasgowm",
+      "summary": "Glasgow reports on Banxa withdrawal integration progress, 10 new articles in development, roadmap updates, and investor pitch deck distribution. Also mentions creating partnership evaluation guidelines for incoming requests.",
+      "key_terms": [
+        "Banxa withdrawals",
+        "roadmap update",
+        "investor pitch deck",
+        "partnership guide",
+        "documentation"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Staying Focused Amid Market Noise and ZK Trends",
+      "category": "community",
+      "start_time": "46:23",
+      "end_time": "51:29",
+      "primary_speaker": "Grayman",
+      "summary": "Community discussion on maintaining focus while the broader crypto space pivots toward Layer 1 ZK solutions. Contributors share strategies for staying productive despite market distractions and emphasize building meaningful technology.",
+      "key_terms": [
+        "Layer 1 ZK",
+        "market noise",
+        "developer focus",
+        "building strategy",
+        "crypto trends"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Monero Mining Attack Analysis and Security Discussion",
+      "category": "technical",
+      "start_time": "51:34",
+      "end_time": "59:54",
+      "primary_speaker": "Grayman",
+      "summary": "Analysis of the Qubit network's attempted attack on Monero through subsidized mining. Discussion covers whether GPU-based chains like Ergo would be more resistant to such attacks compared to CPU-mined networks.",
+      "key_terms": [
+        "Monero attack",
+        "Qubit network",
+        "CPU mining",
+        "GPU mining",
+        "51% attack",
+        "proof of useful work"
+      ]
+    }
+  ]
+}

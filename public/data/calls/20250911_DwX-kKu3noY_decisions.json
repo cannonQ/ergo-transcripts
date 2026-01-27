@@ -1,0 +1,133 @@
+{
+  "call_date": "2025-09-11",
+  "call_title": "Ergo PoW Blockchain (EDIT) - Community Chat - September 11th",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "00:47",
+      "decision": "Odi took over the Sigmanauts Twitter account",
+      "speaker": "qx()",
+      "context": "The account had been dormant and needed new management",
+      "topic": "community",
+      "significance": "minor",
+      "quote": "He just took over the Sigmanauts Twitter. So hopefully we see some activity back out of that Twitter. It's been dormant for a little bit."
+    },
+    {
+      "id": 2,
+      "timestamp": "07:47",
+      "decision": "GitCircles agreed to use Ergo addresses instead of secp256k1",
+      "speaker": "kushti",
+      "context": "Technical implementation decision for GitCircles project",
+      "topic": "technical",
+      "significance": "minor",
+      "quote": "You've agreed to use Ergo addresses instead of secp256k1 and WishYouBalance is improving implementation."
+    },
+    {
+      "id": 3,
+      "timestamp": "03:24",
+      "decision": "Next target is to infra the ergoplatform.org website completely",
+      "speaker": "qx()",
+      "context": "To save costs from Google hosting charges to the EF",
+      "topic": "infrastructure",
+      "significance": "major",
+      "quote": "I think the next target is to infra the ergoplatform.org website completely, ergoplatform.com, simply because Google charges us right up the ass for hosting."
+    },
+    {
+      "id": 4,
+      "timestamp": "43:59",
+      "decision": "Will integrate GoFundMe side payments into next Ergo Raffle",
+      "speaker": "qx()",
+      "context": "To improve accessibility for fiat users wanting to participate",
+      "topic": "community",
+      "significance": "minor",
+      "quote": "I think I'll integrate that into at least the tech side of the Next Ergo Raffle that the SIGs do is do a side GoFundMe for it for fiat users."
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "03:24",
+      "commitment": "Ship infra machines that are boxed up in car",
+      "owner": "qx()",
+      "timeline": "Friday",
+      "topic": "infrastructure",
+      "quote": "But infra machines are in the back of my car, all boxed up that I showed you last week, and ready to be shipped out. I just have to swing by USPS on the way home today, tomorrow, Friday."
+    },
+    {
+      "id": 2,
+      "timestamp": "04:34",
+      "commitment": "Post text in main Telegram chat after the call",
+      "owner": "kushti",
+      "timeline": "just after the call",
+      "topic": "community",
+      "quote": "composing some text also will post in the main Telegram chat just after the call"
+    },
+    {
+      "id": 3,
+      "timestamp": "08:19",
+      "commitment": "Start testing and creating tokens manually in few days for GitCircles",
+      "owner": "kushti",
+      "timeline": "few days",
+      "topic": "technical",
+      "quote": "And yeah, so we will start testing, creating well, talking manually and doing some testing transactions manually also, just like few days."
+    },
+    {
+      "id": 4,
+      "timestamp": "55:52",
+      "commitment": "Announce first two speakers for Colorado meetup today or tomorrow",
+      "owner": "qx()",
+      "timeline": "today or tomorrow",
+      "topic": "community",
+      "quote": "I'm going to announce the first two speakers. I'll announce maybe today or tomorrow, the third speaker"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "09:44",
+      "question": "Whether GitCircles could implement DAO integration for automated GitHub PR execution",
+      "context": "Discussion about governance in open source communities",
+      "topic": "governance",
+      "raised_by": "qx()"
+    },
+    {
+      "id": 2,
+      "timestamp": "40:10",
+      "question": "Whether HodlCoin VoltPay supports Apple Pay",
+      "context": "Discussion about payment accessibility for raffles",
+      "topic": "technical",
+      "raised_by": "kushti"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "06:53",
+      "fact": "DevNet has blocks every 30 seconds and 60 sub-blocks per block, meaning two sub-blocks a second",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 2,
+      "timestamp": "05:49",
+      "fact": "Ergo protocol 6.0 changes reviewed in Node, PR made with minor improvements",
+      "speaker": "kushti (via qx() reading dev update)",
+      "topic": "technical"
+    },
+    {
+      "id": 3,
+      "timestamp": "55:52",
+      "fact": "Colorado meetup is October 11th (Saturday) with Friday arrivals and Sunday breakfast",
+      "speaker": "qx()",
+      "topic": "community"
+    },
+    {
+      "id": 4,
+      "timestamp": "23:34",
+      "fact": "Cardano paid an influencer $40,000 to promote SNEK",
+      "speaker": "qx()",
+      "topic": "marketing"
+    }
+  ]
+}

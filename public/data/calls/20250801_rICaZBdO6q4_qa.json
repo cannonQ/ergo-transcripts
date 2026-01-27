@@ -1,0 +1,157 @@
+{
+  "call_date": "2025-08-01",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:12",
+      "question": "What is SigmaLock and when will it be available?",
+      "asker": "Context/qx()",
+      "answer": "SigmaLock is a platform being developed by the Sigmanauts DAO. They are currently pushing it to reversal for sigma testing at the domain sigmalock.sigmanauts.com. The contracts will be officially reviewed by kushti himself using time purchased through MewFinance, which should provide confidence in the platform's security.",
+      "responder": "qx()",
+      "category": "defi",
+      "difficulty": "beginner",
+      "related_terms": [
+        "SigmaLock",
+        "Sigmanauts",
+        "MewFinance",
+        "smart contracts"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "13:53",
+      "question": "What are the key features and benefits of the Minotaur wallet?",
+      "asker": "Context/qx()",
+      "answer": "Minotaur wallet version 3.0.1 was released for desktop and Android (iOS not yet built). It's described as a fantastic personal standalone wallet that works well on Android with an attractive interface. Version 3 includes new Multi-Sig integration changes that make life easier for users.",
+      "responder": "qx()",
+      "category": "wallet",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Minotaur",
+        "Multi-Sig",
+        "wallet",
+        "Android"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "18:32",
+      "question": "What are the benefits for miners when other chains merge mine with Ergo?",
+      "asker": "qx()",
+      "answer": "Merge mining provides additional security budget for both chains - miners receive extra rewards beyond just ERG, including storage rent and merge mined rewards (a 'triple' benefit). This is similar to how Bitcoin miners get additional rewards from sidechains like Rootstock and Namecoin, and how Dogecoin provides the biggest security budget for Litecoin through merge mining.",
+      "responder": "kushti",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "merge mining",
+        "security budget",
+        "storage rent",
+        "miners",
+        "sidechains"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "23:18",
+      "question": "How could Ergo's merge mining help Bitcoin's long-term security budget issues?",
+      "asker": "Grayman",
+      "answer": "Merge mined sidechains help the base chain with security budget issues by providing miners additional rewards. For example, Dogecoin (merge mined with Litecoin) is now the biggest provider of Litecoin's security budget, and scrypt ASIC advertisements now promote Dogecoin mining first. This helps prevent attacks and grows hash rate, which would similarly benefit Bitcoin long-term.",
+      "responder": "kushti",
+      "category": "mining",
+      "difficulty": "advanced",
+      "related_terms": [
+        "Bitcoin",
+        "security budget",
+        "hash rate",
+        "merge mining",
+        "Dogecoin",
+        "Litecoin"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "26:17",
+      "question": "Are there plans to make Ergo quantum-proof?",
+      "asker": "Ella",
+      "answer": "Quantum-proof cryptographic protocols are still too exotic and there's no immediate rush since quantum computers aren't an active threat yet. The best approach would be to fork to quantum-proof protocols once they're mature and quantum computing becomes a real threat. Ergo is less at risk than Bitcoin because it doesn't use the weaker cryptography found in old Bitcoin wallets.",
+      "responder": "glasgowm",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "quantum computing",
+        "cryptography",
+        "security",
+        "fork"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "31:03",
+      "question": "What is the cross-chain messaging system HQ is building?",
+      "asker": "qx()",
+      "answer": "HQ is building decentralized on-chain messaging between chains like Ergo and Alephium. Users send messages to smart contracts on their respective chains, and a front-end compiles and parses these messages, allowing cross-chain communication. Users can showcase products and potentially use VoltPay to swap between ecosystems, creating opportunities for global economic interaction.",
+      "responder": "HQ3rr",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "cross-chain",
+        "messaging",
+        "Alephium",
+        "VoltPay",
+        "smart contracts"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "41:23",
+      "question": "What's the current status of the InfraDAO?",
+      "asker": "Jumei",
+      "answer": "The InfraDAO vote has passed and QX received 50,000 Paideia tokens to form the official InfraDAO on Paideia. The next steps include setting up the DAO with 4-5 founding members, distributing tokens, and then opening membership via votes. The DAO will provide decentralized infrastructure for Ergo services like explorer, nodes, documentation, and hosting - operating like a community IPFS with web servers.",
+      "responder": "qx()",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "InfraDAO",
+        "Paideia",
+        "infrastructure",
+        "explorer",
+        "nodes",
+        "hosting"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "14:01",
+      "question": "What's the current progress on sub-blocks development?",
+      "asker": "qx()",
+      "answer": "Sub-blocks development is going well. Kushti is working on a white paper for accessible documentation and adding API methods. He has figured out how to commit merge-mined sidechain state efficiently using current APIs and P2P messages. A specification for merge-mined sidechains in Rust is being prepared for developers, with plans for a call for contributors once ready.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "sub-blocks",
+        "sidechains",
+        "merge mining",
+        "API",
+        "Rust"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "10:52",
+      "question": "Has the Banxa integration with Nautilus wallet been tested?",
+      "asker": "qx()",
+      "answer": "The integration hasn't been fully tested yet. The UK has restrictive new laws requiring FCA approval for fiat ramps, making it one of the most restrictive places globally apart from sanctioned countries. Banxa integration requires credentials and partnerships, likely going through the Ergo Foundation, with potential for integration into other services like VoltPay.",
+      "responder": "glasgowm/HQ3rr",
+      "category": "wallet",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Banxa",
+        "Nautilus",
+        "fiat ramp",
+        "KYC",
+        "VoltPay"
+      ]
+    }
+  ]
+}

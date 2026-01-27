@@ -1,0 +1,173 @@
+{
+  "call_date": "2025-07-18",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - July 17th",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "02:26",
+      "decision": "6.0 activation will occur around October based on 90+ percent support",
+      "speaker": "kushti",
+      "context": "Voting results showing strong community support",
+      "topic": "technical",
+      "significance": "major",
+      "quote": "So it seems there is 90 plus percent support. So then we will see 6.0 activation around October."
+    },
+    {
+      "id": 2,
+      "timestamp": "02:26",
+      "decision": "Sub-blocks testing will happen after 6.0 activation",
+      "speaker": "kushti",
+      "context": "Sequencing of technical upgrades",
+      "topic": "technical",
+      "significance": "major",
+      "quote": "And yeah, we can think about sub-blocks after. So yeah well let's try public testnet first and then consider mainnet activation time frame."
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "02:26",
+      "commitment": "Public testnet mining sub-blocks supporting nodes in July",
+      "owner": "kushti",
+      "timeline": "July",
+      "topic": "technical",
+      "quote": "I think we can do public testnet mining sub-blocks supporting nodes in July."
+    },
+    {
+      "id": 2,
+      "timestamp": "02:26",
+      "commitment": "Writing a white paper for first merge mined sidechain",
+      "owner": "kushti",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "Then writing a white paper for first merge mined sidechain."
+    },
+    {
+      "id": 3,
+      "timestamp": "08:47",
+      "commitment": "Share first updates on sidechains development in coming weeks",
+      "owner": "kushti",
+      "timeline": "coming weeks",
+      "topic": "technical",
+      "quote": "So for sidechains development, yeah, well, I will share first updates. Well, in the coming weeks, probably, we can start to do such things."
+    },
+    {
+      "id": 4,
+      "timestamp": "19:10",
+      "commitment": "Explain sub-blocks design in coming weeks, maybe with videos",
+      "owner": "kushti",
+      "timeline": "coming weeks",
+      "topic": "technical",
+      "quote": "So for sub-blocks I think, well, there is need to explain how it is designed and done for more, right? So we will do it in coming weeks, maybe with some videos."
+    },
+    {
+      "id": 5,
+      "timestamp": "17:14",
+      "commitment": "Ship hard-baked machines to initial InfraDAO participants",
+      "owner": "qx()",
+      "timeline": "unspecified",
+      "topic": "infrastructure",
+      "quote": "So for those people, I'm hard baking a machine, cloning it from the three machines that are running right now in the InfraDAO, and we'll ship them out."
+    },
+    {
+      "id": 6,
+      "timestamp": "25:25",
+      "commitment": "GitCircles project specification will be published in coming days",
+      "owner": "kushti's friend",
+      "timeline": "coming days",
+      "topic": "technical",
+      "quote": "Actually, he has a specification done and it will be published in the coming days. He sent me a specification a few days ago."
+    },
+    {
+      "id": 7,
+      "timestamp": "46:15",
+      "commitment": "Create easy tool for mining pools to pick merge mined sidechains",
+      "owner": "kushti",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "Then there is need for some easy tool for mining puzzles, right? And we will do that. So it should be like UI, right? Where they just, pick chains they like and mine them along with them."
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "20:20",
+      "question": "What concrete real world use case should ChainCash focus on",
+      "context": "ChainCash is a low-level financial primitive that needs practical application",
+      "topic": "technical",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "17:03",
+      "question": "How InfraDAO proposal is progressing after initial machine deployment",
+      "context": "Follow-up needed on broader DAO implementation",
+      "topic": "infrastructure",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 3,
+      "timestamp": "11:50",
+      "question": "Status of Ergo Raffle 2.0 release",
+      "context": "Community asking about raffle platform updates",
+      "topic": "applications",
+      "raised_by": "qx()"
+    },
+    {
+      "id": 4,
+      "timestamp": "42:27",
+      "question": "Are there existing double merge mining implementations",
+      "context": "Technical feasibility question from community member Richie",
+      "topic": "technical",
+      "raised_by": "Richie"
+    }
+  ],
+  "reversals_or_updates": [
+    {
+      "id": 1,
+      "timestamp": "11:25",
+      "previous": "Joe had Twitter access",
+      "update": "Joe's personal Twitter account got banned",
+      "reason": "Unspecified Twitter policy violation",
+      "speaker": "qx()",
+      "topic": "community"
+    }
+  ],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "02:26",
+      "fact": "6.0 upgrade has 90+ percent support from voting",
+      "speaker": "kushti",
+      "topic": "governance"
+    },
+    {
+      "id": 2,
+      "timestamp": "17:14",
+      "fact": "InfraDAO has 4-5 people interested in initial machine deployment",
+      "speaker": "qx()",
+      "topic": "infrastructure"
+    },
+    {
+      "id": 3,
+      "timestamp": "47:18",
+      "fact": "Dogecoin is a merge mined sidechain of Litecoin and is bigger by market cap than Litecoin",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 4,
+      "timestamp": "48:01",
+      "fact": "Before Dogecoin there were other meme merge mined sidechains: bells, then cats, then Dogecoin",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 5,
+      "timestamp": "19:46",
+      "fact": "ChainCash had pull requests submitted today for review",
+      "speaker": "kushti",
+      "topic": "technical"
+    }
+  ]
+}

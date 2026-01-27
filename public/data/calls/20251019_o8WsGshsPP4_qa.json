@@ -1,0 +1,165 @@
+{
+  "call_date": "2025-10-19",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "02:27",
+      "question": "What makes Ergo's Autolykos algorithm special for mining?",
+      "asker": "Marc the Shark",
+      "answer": "Autolykos is ASIC resistant, memory hard, and very GPU friendly. It runs cooler on GPUs compared to other algorithms, making it easier on the cards. ASIC companies aren't going to come into Ergo and rug miners because the algorithm prevents ASICs from being effective.",
+      "responder": "Marc the Shark",
+      "category": "mining",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Autolykos",
+        "ASIC resistance",
+        "GPU mining",
+        "memory hard"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "03:14",
+      "question": "How does Ergo's emission schedule work and when does it change?",
+      "asker": "Marc the Shark",
+      "answer": "Ergo's emission reduces every three months by 3 ERG. Currently at 12 ERG per block, it will go to 9, then 6, then 3 ERG forever. Block time remains static at 2 minutes. This decreasing supply creates scarcity as fewer ERG are emitted daily into the ecosystem.",
+      "responder": "Marc the Shark",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "emission schedule",
+        "block reward",
+        "scarcity",
+        "tokenomics"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "05:46",
+      "question": "How do you calculate the cost to mine one ERG?",
+      "asker": "Marc the Shark",
+      "answer": "Calculate your daily ERG mined using: (hash rate / network hash) \u00d7 block reward \u00d7 blocks per day. Then divide your daily electrical cost by daily ERG mined. If it costs $1.50 to mine ERG but ERG is worth $0.60, you're at a loss. If ERG is $2, you're making 100% profit.",
+      "responder": "Marc the Shark",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "mining profitability",
+        "electricity cost",
+        "hash rate",
+        "ROI"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "14:32",
+      "question": "How does Autolykos algorithm utilize GPU memory and what are the requirements?",
+      "asker": "Marc the Shark",
+      "answer": "Autolykos uses memory intensive mining where the GPU core sits relatively idle but focuses on VRAM. Minimum requirement is 6 gigabytes of VRAM, with 8+ gigabytes being optimal. You should underclock the GPU, overclock the memory, and reduce voltage for efficiency.",
+      "responder": "Marc the Shark",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "VRAM",
+        "memory mining",
+        "GPU tuning",
+        "underclocking"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "18:40",
+      "question": "What are the privacy benefits of mining compared to buying ERG?",
+      "asker": "Marc the Shark",
+      "answer": "Mining creates virgin coins in a virgin wallet - it's literally only ERG coming in that's mined. Nobody knows where you're at except the mining pool, and there are no other transactions tied to that wallet. It's a very anonymous way to dollar cost average into ERG without anyone being able to tie it to you.",
+      "responder": "Marc the Shark",
+      "category": "mining",
+      "difficulty": "beginner",
+      "related_terms": [
+        "privacy",
+        "virgin coins",
+        "anonymity",
+        "dollar cost averaging"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "21:08",
+      "question": "How does Ergo maintain ASIC resistance and fair mining?",
+      "asker": "Marc the Shark",
+      "answer": "Ergo maintains ASIC resistance through dynamic protection with scheduled memory increases that brick any ASIC attempts. This keeps mining power distributed globally with individual miners, ensures fair competition where GPUs compete on equal footing, and maintains true decentralization rather than centralized ASIC farms.",
+      "responder": "Marc the Shark",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "ASIC resistance",
+        "decentralization",
+        "fair mining",
+        "memory increases"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "40:20",
+      "question": "How does PPLNS (Pay Per Last N Shares) work in mining pools?",
+      "asker": "Marc the Shark",
+      "answer": "PPLNS creates a window of recent shares - for Sigmonauts it's 0.5x difficulty, roughly 12 hours. When you start mining, you have no shares in that window so you're penalized initially. After 12 hours you reach maximum participation. If you turn off your miners, you lose shares from that window proportionally based on downtime.",
+      "responder": "Marc the Shark",
+      "category": "mining",
+      "difficulty": "advanced",
+      "related_terms": [
+        "PPLNS",
+        "mining pool",
+        "shares",
+        "participation window"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "47:28",
+      "question": "What is storage rent (demurrage) and how do miners benefit from it?",
+      "asker": "Marc the Shark",
+      "answer": "Storage rent is Ergo's unique feature that collects fees from unspent boxes older than four years. It prevents blockchain bloat and provides additional revenue for miners. Sigmonauts mining pool distributes this proportionally to miners based on their participation, effectively increasing earnings beyond block rewards.",
+      "responder": "Marc the Shark",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "storage rent",
+        "demurrage",
+        "unspent boxes",
+        "blockchain bloat"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "43:31",
+      "question": "How does the Sigmonauts mining pool operate as a DAO?",
+      "asker": "Marc the Shark",
+      "answer": "Sigmonauts is a DAO run on Paideia where every miner has a say in pool decisions. The pool has 10,000 ERG in treasury, variable fees that can be voted on (currently 1%), and all major decisions are voted on by the community. Any miner can get a DAO token to participate in governance.",
+      "responder": "Marc the Shark",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "DAO",
+        "Paideia",
+        "mining pool governance",
+        "community voting"
+      ]
+    },
+    {
+      "qa_id": 10,
+      "timestamp": "32:58",
+      "question": "What are the main challenges with heat management in GPU mining operations?",
+      "asker": "Marc the Shark",
+      "answer": "Each GPU generates 100-200 watts of heat, so 6 GPUs produce 1200 watts equivalent to a space heater. Key solutions include proper room positioning away from walls, understanding heat transfer principles, basement mining (warm air rises), garage ventilation, and in hot climates, AC costs can kill profits so consider mining during cooler night hours.",
+      "responder": "Marc the Shark",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "heat management",
+        "ventilation",
+        "GPU cooling",
+        "mining setup"
+      ]
+    }
+  ]
+}

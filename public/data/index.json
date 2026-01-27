@@ -1,12 +1,12 @@
 {
-  "generated": "2026-01-25T12:52:17.154635",
+  "generated": "2026-01-26T22:51:18.402388",
   "stats": {
-    "total_calls": 10,
-    "total_qa": 105,
-    "total_decisions": 9,
-    "total_speakers": 17,
-    "total_topics": 94,
-    "total_hours": 8
+    "total_calls": 27,
+    "total_qa": 246,
+    "total_decisions": 28,
+    "total_speakers": 21,
+    "total_topics": 100,
+    "total_hours": 23
   },
   "calls": [
     {
@@ -15,7 +15,12 @@
       "date": "2026-01-16",
       "title": "Ergo Call 2026-01-16",
       "type": "community_chat",
-      "speakers": [],
+      "speakers": [
+        "qx()",
+        "kushti",
+        "HQ3rr",
+        "Fitz"
+      ],
       "duration_minutes": 57,
       "thumbnail": "https://img.youtube.com/vi/H8uXsY6WP3s/maxresdefault.jpg",
       "stats": {
@@ -41,7 +46,7 @@
       "title": "Ergo PoW Blockchain 2025: A Year of Real Progress | What Comes Next",
       "type": "community_chat",
       "speakers": [
-        "armeanio",
+        "Armeanio",
         "richi",
         "kushti"
       ],
@@ -70,7 +75,7 @@
       "title": "Ergo PoW Blockchain - LATE NIGHT AMA - HAPPY HOLIDAYS!",
       "type": "ama",
       "speakers": [
-        "armeanio",
+        "Armeanio",
         "qx()",
         "Luca"
       ],
@@ -100,7 +105,7 @@
       "type": "community_chat",
       "speakers": [
         "HQ3rr",
-        "Qx",
+        "qx()",
         "CannonQ"
       ],
       "duration_minutes": 61,
@@ -131,7 +136,7 @@
         "qx()",
         "richi",
         "kushti",
-        "Joe"
+        "Armeanio"
       ],
       "duration_minutes": 60,
       "thumbnail": "https://img.youtube.com/vi/R_K8FcLDDSs/maxresdefault.jpg",
@@ -155,13 +160,13 @@
       "id": "AUYdYuX4m4g",
       "file_prefix": "20251107_AUYdYuX4m4g",
       "date": "2025-11-07",
-      "title": "Ergo PoW Blockchain - Community Chat - November 6th",
+      "title": "Ergo Call 2025-11-07",
       "type": "community_chat",
       "speakers": [
-        "kushti",
-        "qx",
+        "qx()",
         "Grayman",
-        "Richi"
+        "kushti",
+        "richi"
       ],
       "duration_minutes": 55,
       "thumbnail": "https://img.youtube.com/vi/AUYdYuX4m4g/maxresdefault.jpg",
@@ -185,14 +190,14 @@
       "id": "V1-Dcx9e56g",
       "file_prefix": "20251024_V1-Dcx9e56g",
       "date": "2025-10-24",
-      "title": "Ergo PoW Blockchain - Community Chat - October 23rd",
+      "title": "Ergo Call 2025-10-24",
       "type": "community_chat",
       "speakers": [
-        "qx",
+        "qx()",
         "kushti",
-        "benzel",
         "Grayman",
-        "hq3rr"
+        "benzel",
+        "HQ3rr"
       ],
       "duration_minutes": 51,
       "thumbnail": "https://img.youtube.com/vi/V1-Dcx9e56g/maxresdefault.jpg",
@@ -216,7 +221,7 @@
       "id": "UR6t37ND_gc",
       "file_prefix": "20251019_UR6t37ND_gc",
       "date": "2025-10-19",
-      "title": "Machina Finance: eUTXO-Native P2P DEX on Ergo \u2014 Alison Robson (Ergo Meetup 2025)",
+      "title": "Ergo Call 2025-10-19",
       "type": "community_chat",
       "speakers": [
         "anon_BR",
@@ -244,7 +249,7 @@
       "id": "xmAaEmiP3-U",
       "file_prefix": "20251019_xmAaEmiP3-U",
       "date": "2025-10-19",
-      "title": "Lithos: The Future of Proof-of-Work Mining \u2014 Cheese Enthusiast (Ergo Meetup 2025)",
+      "title": "Ergo Call 2025-10-19",
       "type": "community_chat",
       "speakers": [
         "Cheese Enthusiast"
@@ -271,10 +276,10 @@
       "id": "vYvxas5mTcA",
       "file_prefix": "20251019_vYvxas5mTcA",
       "date": "2025-10-19",
-      "title": "Faith, Trust, Proof of Work - Armeanio on the Social Layer of Decentralization | Ergo Meetup 2025",
+      "title": "Ergo Call 2025-10-19",
       "type": "community_chat",
       "speakers": [
-        "armeanio"
+        "Armeanio"
       ],
       "duration_minutes": 27,
       "thumbnail": "https://img.youtube.com/vi/vYvxas5mTcA/maxresdefault.jpg",
@@ -292,6 +297,502 @@
         "20251019_vYvxas5mTcA_qa.json",
         "20251019_vYvxas5mTcA_decisions.json",
         "20251019_vYvxas5mTcA_marketing.md"
+      ]
+    },
+    {
+      "id": "kqxFXFdNvkk",
+      "file_prefix": "20251019_kqxFXFdNvkk",
+      "date": "2025-10-19",
+      "title": "Commercial Barter Meets Permissionless Infrastructure \u2014 Cannon (Ergo Meetup 2025)",
+      "type": "community_chat",
+      "speakers": [
+        "CannonQ"
+      ],
+      "duration_minutes": 59,
+      "thumbnail": "https://img.youtube.com/vi/kqxFXFdNvkk/maxresdefault.jpg",
+      "stats": {
+        "topics": 16,
+        "qa_pairs": 9,
+        "decisions": 0,
+        "commitments": 0
+      },
+      "files": [
+        "20251019_kqxFXFdNvkk_meta.json",
+        "20251019_kqxFXFdNvkk_summary.md",
+        "20251019_kqxFXFdNvkk_transcript.txt",
+        "20251019_kqxFXFdNvkk_topics.json",
+        "20251019_kqxFXFdNvkk_qa.json",
+        "20251019_kqxFXFdNvkk_decisions.json"
+      ]
+    },
+    {
+      "id": "HnpX4wFufYM",
+      "file_prefix": "20251019_HnpX4wFufYM",
+      "date": "2025-10-19",
+      "title": "Staking w/UTXO Model - MGPai - Implementing Native Token Staking on Ergo | Ergo Meetup 2025",
+      "type": "community_chat",
+      "speakers": [
+        "AI"
+      ],
+      "duration_minutes": 46,
+      "thumbnail": "https://img.youtube.com/vi/HnpX4wFufYM/maxresdefault.jpg",
+      "stats": {
+        "topics": 10,
+        "qa_pairs": 8,
+        "decisions": 0,
+        "commitments": 0
+      },
+      "files": [
+        "20251019_HnpX4wFufYM_meta.json",
+        "20251019_HnpX4wFufYM_summary.md",
+        "20251019_HnpX4wFufYM_transcript.txt",
+        "20251019_HnpX4wFufYM_topics.json",
+        "20251019_HnpX4wFufYM_qa.json",
+        "20251019_HnpX4wFufYM_decisions.json"
+      ]
+    },
+    {
+      "id": "o8WsGshsPP4",
+      "file_prefix": "20251019_o8WsGshsPP4",
+      "date": "2025-10-19",
+      "title": "Why Mine Ergo: Profitability, Sustainability & the Sigmanauts Mining Pool \u2014 Ergo Meetup 2025",
+      "type": "community_chat",
+      "speakers": [
+        "Marc the Shark"
+      ],
+      "duration_minutes": 53,
+      "thumbnail": "https://img.youtube.com/vi/o8WsGshsPP4/maxresdefault.jpg",
+      "stats": {
+        "topics": 15,
+        "qa_pairs": 10,
+        "decisions": 0,
+        "commitments": 1
+      },
+      "files": [
+        "20251019_o8WsGshsPP4_meta.json",
+        "20251019_o8WsGshsPP4_summary.md",
+        "20251019_o8WsGshsPP4_transcript.txt",
+        "20251019_o8WsGshsPP4_topics.json",
+        "20251019_o8WsGshsPP4_qa.json",
+        "20251019_o8WsGshsPP4_decisions.json"
+      ]
+    },
+    {
+      "id": "hqrPQ24mLdY",
+      "file_prefix": "20251017_hqrPQ24mLdY",
+      "date": "2025-10-17",
+      "title": "Ergo PoW Blockchain - Community Chat - October 16th",
+      "type": "community_chat",
+      "speakers": [
+        "qx()",
+        "CannonQ",
+        "Grayman",
+        "kushti",
+        "benzel",
+        "tmr.erg"
+      ],
+      "duration_minutes": 57,
+      "thumbnail": "https://img.youtube.com/vi/hqrPQ24mLdY/maxresdefault.jpg",
+      "stats": {
+        "topics": 11,
+        "qa_pairs": 7,
+        "decisions": 1,
+        "commitments": 3
+      },
+      "files": [
+        "20251017_hqrPQ24mLdY_meta.json",
+        "20251017_hqrPQ24mLdY_summary.md",
+        "20251017_hqrPQ24mLdY_transcript.txt",
+        "20251017_hqrPQ24mLdY_topics.json",
+        "20251017_hqrPQ24mLdY_qa.json",
+        "20251017_hqrPQ24mLdY_decisions.json"
+      ]
+    },
+    {
+      "id": "FlSTE7PVDik",
+      "file_prefix": "20251012_FlSTE7PVDik",
+      "date": "2025-10-12",
+      "title": "Ergo Meetup 2025 LIVE!",
+      "type": "community_chat",
+      "speakers": [
+        "Armeanio",
+        "AI",
+        "Luca",
+        "Cheese Enthusiast",
+        "qx()",
+        "CannonQ",
+        "Marc the Shark",
+        "anon_BR"
+      ],
+      "duration_minutes": 71,
+      "thumbnail": "https://img.youtube.com/vi/FlSTE7PVDik/maxresdefault.jpg",
+      "stats": {
+        "topics": 18,
+        "qa_pairs": 8,
+        "decisions": 0,
+        "commitments": 0
+      },
+      "files": [
+        "20251012_FlSTE7PVDik_meta.json",
+        "20251012_FlSTE7PVDik_summary.md",
+        "20251012_FlSTE7PVDik_transcript.txt",
+        "20251012_FlSTE7PVDik_topics.json",
+        "20251012_FlSTE7PVDik_qa.json",
+        "20251012_FlSTE7PVDik_decisions.json"
+      ]
+    },
+    {
+      "id": "IKhesMqpNR8",
+      "file_prefix": "20251010_IKhesMqpNR8",
+      "date": "2025-10-10",
+      "title": "Ergo PoW Blockchain - Community Chat - October 9th",
+      "type": "community_chat",
+      "speakers": [
+        "qx()",
+        "kushti",
+        "Aberg",
+        "CannonQ",
+        "benzel",
+        "Grayman"
+      ],
+      "duration_minutes": 46,
+      "thumbnail": "https://img.youtube.com/vi/IKhesMqpNR8/maxresdefault.jpg",
+      "stats": {
+        "topics": 10,
+        "qa_pairs": 8,
+        "decisions": 1,
+        "commitments": 4
+      },
+      "files": [
+        "20251010_IKhesMqpNR8_meta.json",
+        "20251010_IKhesMqpNR8_summary.md",
+        "20251010_IKhesMqpNR8_transcript.txt",
+        "20251010_IKhesMqpNR8_topics.json",
+        "20251010_IKhesMqpNR8_qa.json",
+        "20251010_IKhesMqpNR8_decisions.json"
+      ]
+    },
+    {
+      "id": "thVAsxgUo-Q",
+      "file_prefix": "20251003_thVAsxgUo-Q",
+      "date": "2025-10-03",
+      "title": "Ergo PoW Blockchain - Community Chat - October 2nd",
+      "type": "community_chat",
+      "speakers": [
+        "qx()",
+        "kushti",
+        "CannonQ",
+        "HQ3rr",
+        "benzel"
+      ],
+      "duration_minutes": 52,
+      "thumbnail": "https://img.youtube.com/vi/thVAsxgUo-Q/maxresdefault.jpg",
+      "stats": {
+        "topics": 16,
+        "qa_pairs": 8,
+        "decisions": 0,
+        "commitments": 3
+      },
+      "files": [
+        "20251003_thVAsxgUo-Q_meta.json",
+        "20251003_thVAsxgUo-Q_summary.md",
+        "20251003_thVAsxgUo-Q_transcript.txt",
+        "20251003_thVAsxgUo-Q_topics.json",
+        "20251003_thVAsxgUo-Q_qa.json",
+        "20251003_thVAsxgUo-Q_decisions.json"
+      ]
+    },
+    {
+      "id": "H6MvJSM72R4",
+      "file_prefix": "20250926_H6MvJSM72R4",
+      "date": "2025-09-26",
+      "title": "Ergo PoW Blockchain - Community Chat - September 25th",
+      "type": "community_chat",
+      "speakers": [
+        "qx()",
+        "kushti",
+        "HQ3rr",
+        "Grayman"
+      ],
+      "duration_minutes": 48,
+      "thumbnail": "https://img.youtube.com/vi/H6MvJSM72R4/maxresdefault.jpg",
+      "stats": {
+        "topics": 22,
+        "qa_pairs": 8,
+        "decisions": 1,
+        "commitments": 7
+      },
+      "files": [
+        "20250926_H6MvJSM72R4_meta.json",
+        "20250926_H6MvJSM72R4_summary.md",
+        "20250926_H6MvJSM72R4_transcript.txt",
+        "20250926_H6MvJSM72R4_topics.json",
+        "20250926_H6MvJSM72R4_qa.json",
+        "20250926_H6MvJSM72R4_decisions.json"
+      ]
+    },
+    {
+      "id": "c9qP-_tC0X0",
+      "file_prefix": "20250914_c9qP-_tC0X0",
+      "date": "2025-09-14",
+      "title": "Ergo PoW Blockchain - Community Chat - September 11th",
+      "type": "community_chat",
+      "speakers": [
+        "kushti",
+        "qx()",
+        "Grayman",
+        "Dmitriy",
+        "Ben"
+      ],
+      "duration_minutes": 60,
+      "thumbnail": "https://img.youtube.com/vi/c9qP-_tC0X0/maxresdefault.jpg",
+      "stats": {
+        "topics": 10,
+        "qa_pairs": 8,
+        "decisions": 2,
+        "commitments": 4
+      },
+      "files": [
+        "20250914_c9qP-_tC0X0_meta.json",
+        "20250914_c9qP-_tC0X0_summary.md",
+        "20250914_c9qP-_tC0X0_transcript.txt",
+        "20250914_c9qP-_tC0X0_topics.json",
+        "20250914_c9qP-_tC0X0_qa.json",
+        "20250914_c9qP-_tC0X0_decisions.json"
+      ]
+    },
+    {
+      "id": "DwX-kKu3noY",
+      "file_prefix": "20250911_DwX-kKu3noY",
+      "date": "2025-09-11",
+      "title": "Ergo PoW Blockchain (EDIT) - Community Chat - September 11th",
+      "type": "community_chat",
+      "speakers": [
+        "kushti",
+        "qx()",
+        "Grayman",
+        "Dmitriy",
+        "Ben"
+      ],
+      "duration_minutes": 53,
+      "thumbnail": "https://img.youtube.com/vi/DwX-kKu3noY/maxresdefault.jpg",
+      "stats": {
+        "topics": 10,
+        "qa_pairs": 8,
+        "decisions": 4,
+        "commitments": 4
+      },
+      "files": [
+        "20250911_DwX-kKu3noY_meta.json",
+        "20250911_DwX-kKu3noY_summary.md",
+        "20250911_DwX-kKu3noY_transcript.txt",
+        "20250911_DwX-kKu3noY_topics.json",
+        "20250911_DwX-kKu3noY_qa.json",
+        "20250911_DwX-kKu3noY_decisions.json"
+      ]
+    },
+    {
+      "id": "Jvf50x1EdI0",
+      "file_prefix": "20250905_Jvf50x1EdI0",
+      "date": "2025-09-05",
+      "title": "Ergo PoW Blockchain - Community Chat - September 4th",
+      "type": "community_chat",
+      "speakers": [
+        "qx()",
+        "kushti",
+        "Grayman",
+        "Armeanio",
+        "tmr.erg"
+      ],
+      "duration_minutes": 56,
+      "thumbnail": "https://img.youtube.com/vi/Jvf50x1EdI0/maxresdefault.jpg",
+      "stats": {
+        "topics": 12,
+        "qa_pairs": 8,
+        "decisions": 1,
+        "commitments": 5
+      },
+      "files": [
+        "20250905_Jvf50x1EdI0_meta.json",
+        "20250905_Jvf50x1EdI0_summary.md",
+        "20250905_Jvf50x1EdI0_transcript.txt",
+        "20250905_Jvf50x1EdI0_topics.json",
+        "20250905_Jvf50x1EdI0_qa.json",
+        "20250905_Jvf50x1EdI0_decisions.json"
+      ]
+    },
+    {
+      "id": "fNPoCSHWZgs",
+      "file_prefix": "20250828_fNPoCSHWZgs",
+      "date": "2025-08-28",
+      "title": "Ergo PoW Blockchain - Weekly Update & AMA - August 28th",
+      "type": "ama",
+      "speakers": [
+        "qx()"
+      ],
+      "duration_minutes": 21,
+      "thumbnail": "https://img.youtube.com/vi/fNPoCSHWZgs/maxresdefault.jpg",
+      "stats": {
+        "topics": 8,
+        "qa_pairs": 6,
+        "decisions": 2,
+        "commitments": 4
+      },
+      "files": [
+        "20250828_fNPoCSHWZgs_meta.json",
+        "20250828_fNPoCSHWZgs_summary.md",
+        "20250828_fNPoCSHWZgs_transcript.txt",
+        "20250828_fNPoCSHWZgs_topics.json",
+        "20250828_fNPoCSHWZgs_qa.json",
+        "20250828_fNPoCSHWZgs_decisions.json"
+      ]
+    },
+    {
+      "id": "x-gTulAcJOE",
+      "file_prefix": "20250808_x-gTulAcJOE",
+      "date": "2025-08-08",
+      "title": "Ergo PoW Blockchain - Weekly Update & AMA (COMMUNITY EDITION) - August 7th",
+      "type": "ama",
+      "speakers": [
+        "kushti",
+        "HQ3rr",
+        "qx()",
+        "glasgowm",
+        "Armeanio",
+        "Grayman"
+      ],
+      "duration_minutes": 55,
+      "thumbnail": "https://img.youtube.com/vi/x-gTulAcJOE/maxresdefault.jpg",
+      "stats": {
+        "topics": 13,
+        "qa_pairs": 12,
+        "decisions": 2,
+        "commitments": 3
+      },
+      "files": [
+        "20250808_x-gTulAcJOE_meta.json",
+        "20250808_x-gTulAcJOE_summary.md",
+        "20250808_x-gTulAcJOE_transcript.txt",
+        "20250808_x-gTulAcJOE_topics.json",
+        "20250808_x-gTulAcJOE_qa.json",
+        "20250808_x-gTulAcJOE_decisions.json"
+      ]
+    },
+    {
+      "id": "rICaZBdO6q4",
+      "file_prefix": "20250801_rICaZBdO6q4",
+      "date": "2025-08-01",
+      "title": "Ergo PoW Blockchain - Weekly Update & AMA (COMMUNITY EDITION) - July 31st",
+      "type": "ama",
+      "speakers": [
+        "Grayman",
+        "qx()",
+        "kushti",
+        "glasgowm",
+        "HQ3rr"
+      ],
+      "duration_minutes": 43,
+      "thumbnail": "https://img.youtube.com/vi/rICaZBdO6q4/maxresdefault.jpg",
+      "stats": {
+        "topics": 15,
+        "qa_pairs": 9,
+        "decisions": 3,
+        "commitments": 7
+      },
+      "files": [
+        "20250801_rICaZBdO6q4_meta.json",
+        "20250801_rICaZBdO6q4_summary.md",
+        "20250801_rICaZBdO6q4_transcript.txt",
+        "20250801_rICaZBdO6q4_topics.json",
+        "20250801_rICaZBdO6q4_qa.json",
+        "20250801_rICaZBdO6q4_decisions.json"
+      ]
+    },
+    {
+      "id": "dv4Z2ztRFaQ",
+      "file_prefix": "20250725_dv4Z2ztRFaQ",
+      "date": "2025-07-25",
+      "title": "Ergo PoW Blockchain - Weekly Update & AMA (COMMUNITY EDITION) - July 24th",
+      "type": "ama",
+      "speakers": [
+        "qx()",
+        "Armeanio",
+        "kushti",
+        "Grayman",
+        "AI",
+        "HQ3rr",
+        "Haskell_plus",
+        "benzel"
+      ],
+      "duration_minutes": 67,
+      "thumbnail": "https://img.youtube.com/vi/dv4Z2ztRFaQ/maxresdefault.jpg",
+      "stats": {
+        "topics": 13,
+        "qa_pairs": 8,
+        "decisions": 0,
+        "commitments": 5
+      },
+      "files": [
+        "20250725_dv4Z2ztRFaQ_meta.json",
+        "20250725_dv4Z2ztRFaQ_summary.md",
+        "20250725_dv4Z2ztRFaQ_transcript.txt",
+        "20250725_dv4Z2ztRFaQ_topics.json",
+        "20250725_dv4Z2ztRFaQ_qa.json",
+        "20250725_dv4Z2ztRFaQ_decisions.json"
+      ]
+    },
+    {
+      "id": "KldESqqDQgs",
+      "file_prefix": "20250718_KldESqqDQgs",
+      "date": "2025-07-18",
+      "title": "Ergo PoW Blockchain - Weekly Update & AMA - July 17th",
+      "type": "ama",
+      "speakers": [
+        "qx()",
+        "kushti"
+      ],
+      "duration_minutes": 46,
+      "thumbnail": "https://img.youtube.com/vi/KldESqqDQgs/maxresdefault.jpg",
+      "stats": {
+        "topics": 14,
+        "qa_pairs": 8,
+        "decisions": 2,
+        "commitments": 7
+      },
+      "files": [
+        "20250718_KldESqqDQgs_meta.json",
+        "20250718_KldESqqDQgs_summary.md",
+        "20250718_KldESqqDQgs_transcript.txt",
+        "20250718_KldESqqDQgs_topics.json",
+        "20250718_KldESqqDQgs_qa.json",
+        "20250718_KldESqqDQgs_decisions.json"
+      ]
+    },
+    {
+      "id": "ztE1JMS9sEc",
+      "file_prefix": "20250711_ztE1JMS9sEc",
+      "date": "2025-07-11",
+      "title": "Ergo PoW Blockchain - Weekly Update & AMA - July 10th",
+      "type": "ama",
+      "speakers": [
+        "qx()",
+        "kushti"
+      ],
+      "duration_minutes": 43,
+      "thumbnail": "https://img.youtube.com/vi/ztE1JMS9sEc/maxresdefault.jpg",
+      "stats": {
+        "topics": 13,
+        "qa_pairs": 8,
+        "decisions": 0,
+        "commitments": 8
+      },
+      "files": [
+        "20250711_ztE1JMS9sEc_meta.json",
+        "20250711_ztE1JMS9sEc_summary.md",
+        "20250711_ztE1JMS9sEc_transcript.txt",
+        "20250711_ztE1JMS9sEc_topics.json",
+        "20250711_ztE1JMS9sEc_qa.json",
+        "20250711_ztE1JMS9sEc_decisions.json"
       ]
     }
   ]

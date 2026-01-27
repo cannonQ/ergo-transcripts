@@ -1,0 +1,248 @@
+{
+  "call_date": "2025-08-01",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA (COMMUNITY EDITION) - July 31st",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "SigmaLock Testing and Kushti Code Review",
+      "category": "technical",
+      "start_time": "01:12",
+      "end_time": "03:09",
+      "primary_speaker": "qx()",
+      "summary": "No progress this week on SigmaLock, but it will be pushed to reversal testing at sigmanauts.com. The Sigmanauts DAO voted to spend 70,000 Mew (~$500) to purchase 2 hours of kushti's time for official code review through MewFinance platform.",
+      "key_terms": [
+        "SigmaLock",
+        "sigmanauts",
+        "DAO vote",
+        "MewFinance",
+        "code review"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "MewFinance Tutorial Bounties and Content Creation",
+      "category": "marketing",
+      "start_time": "03:50",
+      "end_time": "06:55",
+      "primary_speaker": "Kushti",
+      "summary": "Kushti announced three 20k Mew prizes for creating tutorials on MewFinance, MewPhysicals, and swap applications. The goal is to increase circulation and velocity of ERG and tokens in the ecosystem through better documentation and guides.",
+      "key_terms": [
+        "MewFinance",
+        "MewPhysicals",
+        "tutorials",
+        "bounties",
+        "ecosystem circulation"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "MewPhysicals Physical Goods Trading Experience",
+      "category": "ecosystem",
+      "start_time": "07:17",
+      "end_time": "08:13",
+      "primary_speaker": "qx()",
+      "summary": "QX reported successful sales of Mac Pros and MacBooks through MewPhysicals. The discussion highlighted how Ergo has physical goods trading capabilities that other blockchains are just beginning to recognize as needed.",
+      "key_terms": [
+        "MewPhysicals",
+        "physical goods",
+        "Mac Pros",
+        "blockchain trading"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "LETS Trading System Development",
+      "category": "defi",
+      "start_time": "08:13",
+      "end_time": "09:47",
+      "primary_speaker": "Kushti",
+      "summary": "More contributors are joining the LETS group for brainstorming monetary systems. Plans include creating Ergo-based applications for trading IOUs with blockchain guarantees, potentially demonstrating at Ergo meetups or events.",
+      "key_terms": [
+        "LETS",
+        "trading systems",
+        "IOUs",
+        "blockchain guarantees",
+        "monetary systems"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Ergo Foundation Budget and Editorial Updates",
+      "category": "governance",
+      "start_time": "09:47",
+      "end_time": "10:52",
+      "primary_speaker": "glasgowm",
+      "summary": "ErgoHack is complete with winners announced. The Ergo Foundation is stretching budget to maintain development and infrastructure. Mark has been handling editorial duties after their editor left, focusing on articles about Lithos and ChainCash.",
+      "key_terms": [
+        "Ergo Foundation",
+        "ErgoHack",
+        "budget",
+        "editorial",
+        "Lithos",
+        "ChainCash"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Banxa Fiat Integration and UK Regulations",
+      "category": "bridges",
+      "start_time": "10:52",
+      "end_time": "13:02",
+      "primary_speaker": "glasgowm",
+      "summary": "Banxa integration into Nautilus wallet is being developed through Ergo Foundation credentials. UK has restrictive new FCA regulations making it difficult to provide fiat ramps. Discussion of potentially integrating Banxa into other services like VoltPay.",
+      "key_terms": [
+        "Banxa",
+        "Nautilus wallet",
+        "fiat ramp",
+        "FCA regulations",
+        "VoltPay"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Minotaur Wallet 3.0.1 Release",
+      "category": "technical",
+      "start_time": "13:02",
+      "end_time": "13:53",
+      "primary_speaker": "qx()",
+      "summary": "Minotaur wallet version 3.0.1 released for desktop and Android with improved Multi-Sig features. QX recommended it as a fantastic standalone wallet option with good Android support and attractive interface.",
+      "key_terms": [
+        "Minotaur wallet",
+        "Multi-Sig",
+        "Android",
+        "desktop wallet"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Sub-blocks and Merge Mining Development",
+      "category": "technical",
+      "start_time": "13:53",
+      "end_time": "22:31",
+      "primary_speaker": "Kushti",
+      "summary": "Kushti is working on sub-blocks white paper and API methods. Discovered efficient way to commit merge-mined sidechain state using current API. Working on Rust-based merge-mined sidechain specification and seeking contributors from Rust community.",
+      "key_terms": [
+        "sub-blocks",
+        "merge mining",
+        "sidechain",
+        "Rust",
+        "white paper",
+        "API"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Merge Mining Benefits for Miners and Security",
+      "category": "technical",
+      "start_time": "18:32",
+      "end_time": "25:25",
+      "primary_speaker": "Kushti",
+      "summary": "Merge mining provides additional rewards for miners beyond ERG and storage rent. Kushti expects hundreds of merge-mined chains eventually. Benefits include security budget for new chains, trustless transfers, and more liquidity locked in sidechain tokens.",
+      "key_terms": [
+        "merge mining",
+        "miner rewards",
+        "security budget",
+        "trustless transfers",
+        "liquidity pools"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Quantum Resistance and Cryptographic Security",
+      "category": "technical",
+      "start_time": "25:25",
+      "end_time": "29:49",
+      "primary_speaker": "glasgowm",
+      "summary": "Discussion of quantum-proof protocols being too exotic currently. Ergo could fork to quantum-resistant cryptography when needed. Recent Bitcoin wallet compromises likely due to poor entropy or nonce reuse rather than quantum attacks, which Ergo avoids.",
+      "key_terms": [
+        "quantum resistance",
+        "cryptographic protocols",
+        "Bitcoin wallets",
+        "nonce reuse",
+        "entropy"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Cross-Chain Messaging System Development",
+      "category": "technical",
+      "start_time": "31:03",
+      "end_time": "37:05",
+      "primary_speaker": "HQ3rr",
+      "summary": "HQ is building decentralized on-chain messaging between Ergo and Alephium chains. Users can interact across chains by signing transactions, with front-end parsing and compiling messages. Plan includes showcasing products and enabling cross-chain DeFi participation.",
+      "key_terms": [
+        "cross-chain messaging",
+        "Alephium",
+        "on-chain messaging",
+        "DeFi",
+        "chain interoperability"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Non-KYC Bitcoin Purchasing Methods",
+      "category": "ecosystem",
+      "start_time": "37:35",
+      "end_time": "39:38",
+      "primary_speaker": "HQ3rr",
+      "summary": "HQ discussed method of buying Bitcoin gift cards with cash in European stores, then swapping BTC for ERG. Also mentioned potential for buying prepaid cards with BTC and using them with Banxa or payment systems like Google Pay and Apple Pay.",
+      "key_terms": [
+        "gift cards",
+        "non-KYC",
+        "Bitcoin",
+        "cash purchase",
+        "prepaid cards",
+        "Banxa"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "MindHealer Cloud and Medical Services",
+      "category": "ecosystem",
+      "start_time": "39:38",
+      "end_time": "40:36",
+      "primary_speaker": "Grayman",
+      "summary": "Canon's MindHealer Cloud app is active at mindhealer.cloud, providing therapy and dietary advice payments using Ergo blockchain. This offers an alternative to big tech medical record tracking being launched by the Trump administration.",
+      "key_terms": [
+        "MindHealer Cloud",
+        "medical services",
+        "therapy",
+        "blockchain payments",
+        "medical records"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "Domain Hosting Services and Infrastructure",
+      "category": "technical",
+      "start_time": "41:13",
+      "end_time": "42:05",
+      "primary_speaker": "HQ3rr",
+      "summary": "HQ received .erg and .mew subdomains on FAKU and plans to provide hosting services with Jumei. They will offer hosting solutions and domain registration for .org and .mew domains to community members.",
+      "key_terms": [
+        "FAKU",
+        "domain hosting",
+        ".erg domains",
+        ".mew domains",
+        "hosting services"
+      ]
+    },
+    {
+      "topic_id": 15,
+      "title": "InfraDAO Launch and Community Infrastructure",
+      "category": "governance",
+      "start_time": "42:05",
+      "end_time": "46:42",
+      "primary_speaker": "qx()",
+      "summary": "Sigmanauts DAO vote passed to allocate 50,000 Paideia tokens for InfraDAO formation. QX will establish the DAO with 4-5 founding members, then distribute tokens. Plans include hosting Ergo explorers, nodes, docs, and other infrastructure as a community IPFS-like service.",
+      "key_terms": [
+        "InfraDAO",
+        "Paideia",
+        "Sigmanauts DAO",
+        "infrastructure",
+        "explorer hosting",
+        "community IPFS"
+      ]
+    }
+  ]
+}

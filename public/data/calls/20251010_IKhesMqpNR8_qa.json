@@ -1,0 +1,132 @@
+{
+  "call_date": "2025-10-10",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "05:58",
+      "question": "What percentage of miner votes is needed to change the number of sub-blocks parameter in Ergo 6.0?",
+      "asker": "qx()",
+      "answer": "Just 50%, so it's pretty much like block size or block cost limits. It's an ordinary parameter that miners can change by one sub-block up or down each epoch. So if it's 30 sub-blocks per block on average this epoch and miners want to raise it, then next epoch it would be 31, then 32. It's an absolute change of one sub-block per epoch.",
+      "responder": "Kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "sub-blocks",
+        "mining",
+        "governance",
+        "ergo-6.0"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "13:05",
+      "question": "Does Chain Cash require batchers or agents running off-chain, or does it work fully on-chain?",
+      "asker": "qx()",
+      "answer": "For Chain Cash, it's fully on-chain. But currently we're working on Basis, which is off-chain cache using trackers. You need parties which track state of debt nodes issued off-chain. It's an open source solution, kind of like BitTorrent where you can connect to different trackers and choose freely. Trust can be minimized through federation like Oracle Pool or Rosen Bridge.",
+      "responder": "Kushti",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "chain-cash",
+        "basis",
+        "off-chain",
+        "trackers"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "16:39",
+      "question": "What's needed to update the current Oracle to the new Oracle version?",
+      "asker": "qx()",
+      "answer": "The plan is to update the bank towards using the new Oracle, but they're compatible - it's just about the ID to be updated. There are some different parameters like delay in Oracle version 1, and the epoch is the same but with delay. For new applications, it's better to use the new oracles.",
+      "responder": "Kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "oracle",
+        "oracle-pools",
+        "update",
+        "compatibility"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "19:12",
+      "question": "What is the Raiders group and how does it work for Ergo marketing?",
+      "asker": "qx()",
+      "answer": "The Raiders group is a Telegram group where we post links and set targets for likes, reposts, and replies. A raid lasts 15 minutes where members click the link, like it, and help achieve the targets. We're growing with 20 members now. Only admins can post links to ensure we promote good content, not trash tweets. Members get notifications and real-time updates on progress.",
+      "responder": "Aberg",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "marketing",
+        "community",
+        "twitter",
+        "social-media"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "24:45",
+      "question": "Does the Raiders system include leaderboards or rewards for the most active members?",
+      "asker": "qx()",
+      "answer": "Currently there are no leaderboards, but I could find a way to keep track and somehow reward the most active members. That would be nicer and I'll look into implementing that feature.",
+      "responder": "Aberg",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "marketing",
+        "rewards",
+        "community-engagement"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "38:45",
+      "question": "Have you found success marketing Ergo to Bitcoin OGs and maximalists?",
+      "asker": "qx()",
+      "answer": "Yes, I think it's quite easy to sell Ergo to Bitcoin OGs, especially when describing ideas around Chain Cash and how we can realistically separate money from the state - that's the very original idea of Bitcoin. When you talk with real OGs in person, it's quite a different experience than public Bitcoin maximalists. If you're not about separating money from states, then you're not quite a Bitcoin OG.",
+      "responder": "Kushti",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "marketing",
+        "bitcoin",
+        "chain-cash",
+        "decentralization"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "11:12",
+      "question": "What are some examples of the new Sigma SDK contracts published and how can they be combined?",
+      "asker": "implicit",
+      "answer": "Examples include whitelist transfers for global transfer policy, stealth addresses used in wallets like Desktop ErgoMixer, and wallet with daily withdrawal limit useful for cold wallet implementation by centralized exchanges. You can combine these - like cold wallets with withdrawal limits and whitelisted transfers, creating complex financial machinery as building blocks.",
+      "responder": "Kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "sigma-sdk",
+        "ergoscript",
+        "smart-contracts",
+        "cold-storage"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "45:35",
+      "question": "What marketing approach should Ergo take regarding different target audiences?",
+      "asker": "Grayman",
+      "answer": "We need multiple messages targeting developers, miners, and non-technical people. A progressive approach with KPIs - posting a set amount per day consistently. The algorithm rewards consistency with more exposure. We can create memes, controversial tweets (approved first), and push our vision and values. It's about assessing who you're talking to and narrowing your message for different venues.",
+      "responder": "Aberg",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "marketing",
+        "content-strategy",
+        "target-audience",
+        "social-media"
+      ]
+    }
+  ]
+}

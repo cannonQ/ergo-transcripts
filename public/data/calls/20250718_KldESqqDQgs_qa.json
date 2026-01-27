@@ -1,0 +1,140 @@
+{
+  "call_date": "2025-07-18",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "02:26",
+      "question": "When is the Ergo 6.0 voting completed and when will it activate?",
+      "asker": "qx()",
+      "answer": "There is 90+ percent support for Ergo 6.0, so we will see activation around October. After that we can think about sub-blocks. We'll try public testnet first and then consider mainnet activation timeframe.",
+      "responder": "kushti",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "ergo 6.0",
+        "voting",
+        "sub-blocks",
+        "testnet",
+        "activation"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "19:10",
+      "question": "Can you explain how sub-blocks are designed and how they will work?",
+      "asker": "qx()",
+      "answer": "There is a need to explain how sub-blocks are designed and implemented in more detail. We will do this in coming weeks, maybe with some videos. The main benefit is for DEXes and applications that are completely virtual - you can do operations in like two seconds instead of two minutes.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "sub-blocks",
+        "dex",
+        "block-time",
+        "user-experience"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "38:29",
+      "question": "How would co-mining with Bitcoin work for Ergo sidechains?",
+      "asker": "Alex T",
+      "answer": "The idea is to have a double merge mined sidechain with design like Ergo. Bitcoin miners work on Bitcoin mining along with Bitcoin merged blocks, while Ergo miners work on Ergo mining along with Ergo merged blocks on that sidechain. Every block is proof-of-work backed and state from both blockchains are brought to the sidechain for use in DeFi.",
+      "responder": "kushti",
+      "category": "mining",
+      "difficulty": "advanced",
+      "related_terms": [
+        "merge-mining",
+        "bitcoin",
+        "sidechain",
+        "proof-of-work",
+        "defi"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "42:27",
+      "question": "How can you solve a block for both Autolykos and SHA-256 with a single hash calculation in double merge mining?",
+      "asker": "Richie",
+      "answer": "Bitcoin miners work on Bitcoin mining along with Bitcoin merged blocks, while Ergo miners work on Ergo mining along with Ergo merged blocks on that sidechain. They just need to read data from other blocks to refer to them. It's not a single hash calculation - each blockchain uses its own mining algorithm.",
+      "responder": "kushti",
+      "category": "mining",
+      "difficulty": "advanced",
+      "related_terms": [
+        "autolykos",
+        "sha-256",
+        "merge-mining",
+        "hash-calculation"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "43:26",
+      "question": "Can you explain Lithos like I'm a dummy?",
+      "asker": "Hermes",
+      "answer": "Lithos is a decentralized mining protocol - it's kind of a decentralized pool which is backed by contracts on Ergo blockchain. It's done efficiently in a rollup-like way. Instead of reporting to a local server on a pool, individual miners put their effort proof on chain itself.",
+      "responder": "kushti",
+      "category": "mining",
+      "difficulty": "beginner",
+      "related_terms": [
+        "lithos",
+        "decentralized-mining",
+        "mining-pool",
+        "contracts",
+        "rollup"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "45:47",
+      "question": "How easy will it be to build with sigma chain? Will there be modular templates like pump fun for sidechains?",
+      "asker": "community member",
+      "answer": "There will be some library available to easily build merge mined sidechains. The question is also how to make miners and mining pools pick them easily. We will create easy tools for mining pools - it should be like a UI where they just pick chains they like and mine them.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "sigma-chain",
+        "sidechain",
+        "merge-mining",
+        "templates",
+        "mining-pools"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "53:47",
+      "question": "I'm an embedded software engineer wanting to get into blockchain development. What's the best place to start learning Ergo development?",
+      "asker": "Hermes",
+      "answer": "Jump on the main chat to discuss possibilities. If you know Rust, there are opportunities with Git circles, ChainCash, and merge mined sidechains framework. You can contribute to core development with Rust, touching Ergo Rust, improving bindings like Python bindings. Say hi in the main Telegram group ergo-space-platform or Discord general channel.",
+      "responder": "kushti",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "rust",
+        "development",
+        "ergo-rust",
+        "bindings",
+        "telegram",
+        "discord"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "19:46",
+      "question": "How's the progress on ChainCash development?",
+      "asker": "qx()",
+      "answer": "There is some contributor operating the chat and I'm going to review some pull requests. Currently the biggest obstacle is to consider real world use cases and do UIs accordingly. It's a low-level financial meta-primitive, like assembly language for different financial monetary systems. We need concrete instantiations from real world needs rather than abstract work.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "chaincash",
+        "financial-primitives",
+        "use-cases",
+        "ui",
+        "real-world"
+      ]
+    }
+  ]
+}

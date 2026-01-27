@@ -1,0 +1,949 @@
+[00:00] **MGPai**: Hey guys, so that was a great speech from Joe and thank you to Joe and the Sigma Knots for sponsoring and hosting this event.
+
+[00:10] **MGPai**: It's wonderful to finally see some faces.
+
+[00:14] **MGPai**: So today we're going to be talking about Palm staking on the UTXO model.
+
+[00:21] **MGPai**: So over the last year or so, I worked on implementing a native token staking platform on Cardano.
+
+[00:32] **MGPai**: And as you know, Cardano and Ergo are very similar in terms of how their contracts work.
+
+[00:37] **MGPai**: And they all share the UTXO model.
+
+[00:41] **MGPai**: So I'll try to keep this as easy to understand as possible so everyone can understand.
+
+[00:53] **MGPai**: So we have some existing implementations of staking already.
+
+[00:59] **MGPai**: So if you guys don't know, over the last cycle DeFi summer, we had sushi swap and pancake swap.
+
+[01:09] **MGPai**: And for really anyone new here, pancake swap was like how Solana is today.
+
+[01:16] **MGPai**: They had all the memes and they were going crazy with all the meme coins, all the launches, and staking with those meme coins.
+
+[01:25] **MGPai**: And before PancakeSwap, we had SushiSwap, which really was a Uniswap clone, but they actually did some research and they were the first ones to implement this modern native token staking or ERC20 staking. So SushiSwap had this staking which really is to incentivize people, right? Because staking makes people hold their tokens, so it kind of stabilizes price movements. And SushiSwap pioneered this and then we got PancakeSwap which basically copied it and made some improvements and really brought it to the mass users, right?
+
+[02:13] **MGPai**: Tons of people were just making meme coins and having staking with it.
+
+[02:17] **MGPai**: So you don't sell those meme coins and it's kind of like inflation and Ponzi scheme and so on.
+
+[02:33] **MGPai**: All right, let's try to get to the next slide.
+
+[02:38] **MGPai**: So let's have a refresher.
+
+[02:41] **MGPai**: So what is the account model? And what is the UTXO model?
+
+[02:46] **MGPai**: So the account model is, all right, let's start with UTXO.
+
+[02:52] **MGPai**: So what are UTXOs?
+
+[02:54] **MGPai**: UTXOs were pioneered by Bitcoin.
+
+[02:57] **MGPai**: That's how they started their entire system.
+
+[03:02] **MGPai**: So UTXOs stand for unspent transaction outputs.
+
+[03:07] **MGPai**: And it's basically the outputs of the previous transaction you did.
+
+[03:12] **MGPai**: So when you submit a transaction, you have a bunch of metadata. You have what went into the transaction and what came out of the transaction.
+
+[03:21] **MGPai**: And the outputs of this transaction are referred to as UTXOs.
+
+[03:28] **MGPai**: And the transaction model really is an exact digital analogy to cash.
+
+[03:35] **MGPai**: So let's say I have a $10 bill, and I want to pay for $6 coffee.
+
+[03:41] **MGPai**: It's probably $8 now, inflation.
+
+[03:45] **MGPai**: And if I want to pay for $6 of coffee with my $10 bill, I can't just rip the bill in half.
+
+[03:52] **MGPai**: I have to spend the entire $10 bill.
+
+[03:55] **MGPai**: So what do I do?
+
+[03:56] **MGPai**: I give the cashier my entire bill, and that's it.
+
+[03:59] **MGPai**: They have the bill.
+
+[04:00] **MGPai**: They're not going to rip it in half or anything.
+
+[04:03] **MGPai**: It's just gone.
+
+[04:04] **MGPai**: But they're going to give me back $4.
+
+[04:07] **MGPai**: And this $4 is completely new.
+
+[04:10] **MGPai**: It's not the original bill, it's just completely new.
+
+[04:13] **MGPai**: The $10 I had, it's gone.
+
+[04:16] **MGPai**: So this is how you can think of the UTXO model.
+
+[04:19] **MGPai**: When you have an input, it always must be spent.
+
+[04:23] **MGPai**: It's always unique.
+
+[04:24] **MGPai**: You cannot spend an input more than once.
+
+[04:26] **MGPai**: Unlike cash, I guess the cashier could spend it in other places.
+
+[04:30] **MGPai**: But in the UTXO model, it can be only spent once.
+
+[04:36] **MGPai**: And another analogy that I like is with the old fashioned piggy banks.
+
+[04:43] **MGPai**: So you would have savings in a piggy bank.
+
+[04:46] **MGPai**: And if you ever wanted to spend it, you would have to smash it open.
+
+[04:50] **MGPai**: It's like a one time thing.
+
+[04:52] **MGPai**: So you can also think of that. I have $10 in my piggy bank, the piggy bank is the UTXO.
+
+[04:58] **MGPai**: And that's like the input.
+
+[05:00] **MGPai**: And then if I want to actually spend it, I would smash the piggy bank open.
+
+[05:04] **MGPai**: And it's gone. Just one time.
+
+[05:06] **MGPai**: So that's really a brief overview of the UTXO model and Cardano and Ergo both make use of this.
+
+[05:19] **MGPai**: So what's the account model?
+
+[05:21] **MGPai**: Account model is really the newer model and it was pioneered by Ethereum.
+
+[05:28] **MGPai**: And account model really is analogous to your bank account where you just have a list of transactions saying that maybe $10 was deposited and you're spending $1 and you have a list of transaction history.
+
+[05:45] **MGPai**: So addresses are seen as accounts, and you just have a direct tally of balance.
+
+[05:52] **MGPai**: And the thing with this, and I think of it as a problem, is that you need global state.
+
+[05:59] **MGPai**: So you need to know the history of everything from the start, when the account got funded, to how much you have now, to know how much you have at this moment.
+
+[06:08] **MGPai**: You have to do some calculations, some balance add, balance deductions, and so on.
+
+[06:15] **MGPai**: So but this is overall how the account model works and it is also quite popular. All the Ethereum forks use that and Solana uses that and all the newer blockchains also use that. For those of you following Cardano there have a new blockchain called Midnight that they're probably going to launch next quarter or so and Midnight uses a hybrid of account model and UTXO, so it's quite popular.
+
+[06:51] **MGPai**: Let's talk about the advantage of account model in the context of this staking.
+
+[06:59] **MGPai**: Staking is more analogous to a client-server interaction.
+
+[07:04] **MGPai**: What that means is that a server is really just a computer that never turns off.
+
+[07:10] **MGPai**: It's always running in the background.
+
+[07:11] **MGPai**: Client is really the people who hit that server.
+
+[07:17] **MGPai**: You need to talk to that server to do something.
+
+[07:19] **MGPai**: For example, if you're logging into your email account, you're accessing a server which holds all your emails.
+
+[07:29] **MGPai**: You're the client.
+
+[07:30] **MGPai**: You're trying to log in from your laptop.
+
+[07:32] **MGPai**: That's a client-server interaction.
+
+[07:35] **MGPai**: So staking is similar to this interaction, where the stakers are the clients.
+
+[07:43] **MGPai**: And they deposit their tokens to a contract.
+
+[07:47] **MGPai**: And this contract, you can think of it as a server, in the sense that the contract has to manage all the global state.
+
+[07:55] **MGPai**: It has to track the balance so it knows how much rewards that you get, because rewards are a function of how much tokens you deposit and how long you have deposited them for.
+
+[08:10] **MGPai**: Solidity is a very popular smart contract language that runs on this account model.
+
+[08:18] **MGPai**: Solidity is perfect.
+
+[08:21] **MGPai**: It has a single authoritative contract storage.
+
+[08:25] **MGPai**: You have something called a map.
+
+[08:28] **MGPai**: And a map is a very basic data structure that you have a key.
+
+[08:32] **MGPai**: So a key is like the user, like your user, your wallet address.
+
+[08:38] **MGPai**: So if you access the data within that wallet address, you have a bunch of data, like how much they have deposited in the contract and how long they had the tokens on and all sorts of useful information, perfect for this.
+
+[08:52] **MGPai**: And then this doesn't translate well to something in the UTXO model.
+
+[08:58] **MGPai**: So for UTXO contracts, you have a single UTXO.
+
+[09:03] **MGPai**: And each UTXO, you can think of it as its own entity.
+
+[09:07] **MGPai**: So each UTXO can have its own contract.
+
+[09:11] **MGPai**: So a contract's state really is with respect to the UTXO it's inside of.
+
+[09:18] **MGPai**: So a UTXO has this bottleneck.
+
+[09:21] **MGPai**: You can't just store infinite data in it.
+
+[09:24] **MGPai**: The UTXO, you have a size limit.
+
+[09:27] **MGPai**: And you also have a broader transaction size limit, because you can argue that, hey, why don't you have a bunch of UTXOs, this single UTXOs interact with?
+
+[09:37] **MGPai**: So you can have a bunch of data.
+
+[09:40] **MGPai**: So if a UTXO data size limit is like 4 kilobytes, you can be like, OK, why don't we just do 1,000 UTXOs?
+
+[09:48] **MGPai**: Why not make it like 4 gigabytes or something?
+
+[09:53] **MGPai**: No, that's not possible because you're bottlenecked by transaction size limits.
+
+[09:59] **MGPai**: You can only deal with a specific amount of UTXOs per transaction.
+
+[10:04] **MGPai**: And then on top of that, you also got the block size limit.
+
+[10:08] **MGPai**: So you can only have a certain amount of transactions per block.
+
+[10:12] **MGPai**: So a lot of bottlenecks here.
+
+[10:14] **MGPai**: So how can we move on with this?
+
+[10:18] **MGPai**: It almost seems impossible to bring something that needs such a large global state.
+
+[10:23] **MGPai**: Because remember, this might work for 10 users, 100 users.
+
+[10:30] **MGPai**: But how are we going to scale to 10,000 users?
+
+[10:34] **MGPai**: Because each user are going to have some size of data that's not going to scale.
+
+[10:39] **MGPai**: So how do we do this?
+
+[10:45] **MGPai**: So I had to rethink staking on the UTXO model.
+
+[10:50] **MGPai**: So data stored for the global variables, so for all sorts of staking calculations, they need to be bound to a constant size limit.
+
+[11:01] **MGPai**: You can't have it scale with the amount of users.
+
+[11:04] **MGPai**: So you can't be like, OK, one user is like one gigabyte of data.
+
+[11:09] **MGPai**: 10,000 users is 10,000 gigabytes.
+
+[11:11] **MGPai**: We can't scale like that.
+
+[11:13] **MGPai**: It has to be one user is like one gigabyte of data.
+
+[11:16] **MGPai**: A million users is still one gigabyte of data.
+
+[11:20] **MGPai**: How can we make that happen?
+
+[11:21] **MGPai**: It has to be constant.
+
+[11:23] **MGPai**: So a clear solution, which several projects on Cardano and Ergo follow.
+
+[11:29] **MGPai**: So I think, what was it? The people behind Crux Finance, I'm forgetting their name.
+
+[11:39] **MGPai**: I think they're shut down now, but they pioneered a staking model.
+
+[11:43] **MGPai**: And then a bunch of Cardano projects have their own staking.
+
+[11:48] **MGPai**: So what do they do?
+
+[11:49] **MGPai**: So they have some sort of position or UTXO or NFT that you can think of which indicates a share of how much they have staked.
+
+[12:00] **MGPai**: So let's say you stake a certain amount of tokens, you'll get back like a unique token saying that, hey, this person staked like 100 tokens on the platform at this time.
+
+[12:12] **MGPai**: So if you ever want to claim that stake back, make an update, you have to deposit that unique token you got back into the contract.
+
+[12:21] **MGPai**: And this is a pretty straightforward and well-known solution to this problem.
+
+[12:27] **MGPai**: However, this was not ideal for ZenGate's purpose because of legal conflicts.
+
+[12:34] **MGPai**: The problem is that you can have derivative markets of something like a position token because I can take my position token and I can be like okay I don't want to be in this anymore but I don't want to lose that accumulation of rewards. Like maybe the longer you stake the faster you earn rewards or something, it keeps compounding so maybe I sell it to someone else or just give it to someone else.
+
+[13:03] **MGPai**: So you create these derivative markets, and it's a conflict from a legal standpoint.
+
+[13:08] **MGPai**: I don't know why, but it is what it is.
+
+[13:11] **MGPai**: It's a very gray area in general, unfortunately.
+
+[13:15] **MGPai**: So I thought of this data structure called a Merkle tree.
+
+[13:21] **MGPai**: And this was absolutely perfect.
+
+[13:23] **MGPai**: So on Ergo, you have the AVL tree.
+
+[13:27] **MGPai**: And it's quite similar, so it can just translate to Ergo.
+
+[13:33] **MGPai**: Also, what's actually really interesting is that the Merkle Tree data structure is something that was just implemented at a contract level on Cardano.
+
+[13:43] **MGPai**: However, on Ergo, ErgoScript, you have AVL tree as a native data structure within the language.
+
+[13:50] **MGPai**: So what that means is that basically you can trust the data structure on Ergo more because the core team, so basically kushti, made the implementation in the compiler itself.
+
+[14:04] **MGPai**: So it's not like a third-party code that you're trusting to be correct, which is the case on Cardano.
+
+[14:13] **MGPai**: So let's see what is a Merkle tree, because I honestly barely knew about it until I did this.
+
+[14:31] **MGPai**: All right, so a Merkle tree is a tree-based data structure.
+
+[14:36] **MGPai**: And a tree-based data structure, you can really think of it having a root at the top.
+
+[14:43] **MGPai**: And it has branches pointing to more roots.
+
+[14:45] **MGPai**: So you can kind of see that data structure in the diagram behind me.
+
+[14:49] **MGPai**: And the boxes, they're called nodes.
+
+[14:52] **MGPai**: So you have one root node.
+
+[14:54] **MGPai**: It's the main node on top.
+
+[14:56] **MGPai**: Then you have those lines are called branches.
+
+[14:59] **MGPai**: And then you have another node that's connected by branches.
+
+[15:02] **MGPai**: They're like intermediary nodes.
+
+[15:05] **MGPai**: And all the way at the bottom, you can see a bunch of nodes, like the final nodes.
+
+[15:10] **MGPai**: Those are called the leaves.
+
+[15:12] **MGPai**: That's just a very well-known data structure in computer science.
+
+[15:16] **MGPai**: So a Merkle tree is a variant of this data structure.
+
+[15:20] **MGPai**: And it's made by hashing hashes of data.
+
+[15:24] **MGPai**: So I know that's confusing.
+
+[15:25] **MGPai**: So let's break that down.
+
+[15:28] **MGPai**: So behind me, you can see that you have a block of data, like a block of files.
+
+[15:33] **MGPai**: So A.txt, B.txt, C.txt, D.txt.
+
+[15:38] **MGPai**: And you hash this block of data.
+
+[15:41] **MGPai**: And hashing really means is that you take data of any size and you convert it into a fixed-sized string of a certain data size.
+
+[15:52] **MGPai**: So in this, or in most cases, it's always 32 bytes of data.
+
+[15:58] **MGPai**: So it's like a string of 64 characters.
+
+[16:01] **MGPai**: And the cool part about this, which is really important in security context, is that it's irreversible.
+
+[16:08] **MGPai**: So if you have this fixed size string, you can't get the data back.
+
+[16:12] **MGPai**: It's impossible.
+
+[16:13] **MGPai**: But that's beyond the scope of this presentation.
+
+[16:17] **MGPai**: So again, you have a data, and you transform it into a fixed size, unique string.
+
+[16:23] **MGPai**: So you can see A.txt has a hash H1, B.txt has its own hash, and so on.
+
+[16:31] **MGPai**: So how does this translate to a Merkle tree?
+
+[16:34] **MGPai**: So look at the tree behind me.
+
+[16:37] **MGPai**: All the way at the bottom, the leaf nodes, you can see that we brought those hashes over.
+
+[16:42] **MGPai**: The H1Z2Y77A and so on.
+
+[16:47] **MGPai**: So those are the hashes brought to the node, and they're at the bottom.
+
+[16:51] **MGPai**: So now you look at the left side, the bottom left side of the tree.
+
+[16:57] **MGPai**: So we take the hashes. Those are the hashes for A.txt, B.txt.
+
+[17:08] **MGPai**: So we take those hashes and we concatenate them.
+
+[17:11] **MGPai**: We put them together.
+
+[17:12] **MGPai**: And we take the hash of that.
+
+[17:15] **MGPai**: So the hash of that, you can see, is right above those two.
+
+[17:19] **MGPai**: So it's U67R on the left side.
+
+[17:23] **MGPai**: And again, we do this exact thing on the right side.
+
+[17:27] **MGPai**: So for C.txt and D.txt, and we get a hash.
+
+[17:32] **MGPai**: Now those hashes in the middle, again, we take them, we concatenate them, and we get the hash.
+
+[17:38] **MGPai**: And that final hash is called the root hash.
+
+[17:44] **MGPai**: So why this is really cool is because you can find differences between two states, so meaning like two different trees.
+
+[17:53] **MGPai**: So if you made any modifications, you can find the difference between them really fast because think of it logically. If you have two pieces of data, what do you have to do? You have to iterate through them, like one bit at a time, like the smallest unit of difference. You have to iterate through them so if there's like a million pieces of data you have to make at least at most a million iterations. It doesn't scale so with this it's a lot faster. It's like the log of a million maybe that's like a thousand or ten thousand. I don't know, but it's significantly faster.
+
+[18:33] **MGPai**: So let me explain this further. So you can see that we had the text files, and we changed the contents of C.txt.
+
+[18:44] **MGPai**: And what does that do?
+
+[18:45] **MGPai**: We got a new hash.
+
+[18:47] **MGPai**: So you can see A4W12.
+
+[18:51] **MGPai**: So on the right side of the Merkle tree, you can see that all the way at the bottom, that changed.
+
+[18:57] **MGPai**: It's in yellow.
+
+[18:59] **MGPai**: And now, since that changed, the hash above it, which is, remember, made by concatenating the hash of C.txt and D.txt, that also changed.
+
+[19:09] **MGPai**: And since that changed, the root hash also changed.
+
+[19:13] **MGPai**: So you can see here that when you traverse the tree, you first check the left side.
+
+[19:19] **MGPai**: And you're like, oh, the left side's exactly the same.
+
+[19:21] **MGPai**: So you know that A.txt and B.txt is clearly unchanged.
+
+[19:26] **MGPai**: But then you go to the right side and you can see that, okay, D.txt isn't changed.
+
+[19:31] **MGPai**: At the bottom, it's still the same.
+
+[19:33] **MGPai**: So then you know really quickly that C.txt is changed.
+
+[19:38] **MGPai**: So it's a really clever data structure.
+
+[19:41] **MGPai**: It actually powers so much of the modern infrastructure.
+
+[19:44] **MGPai**: You just don't know it.
+
+[19:45] **MGPai**: But that's a quick introduction to a Merkle tree.
+
+[19:52] **MGPai**: So you can see here the comparisons made.
+
+[19:55] **MGPai**: So on the left side was the original tree, and the right side is the tree with the C.txt changed.
+
+[20:02] **MGPai**: So you can see we just make three comparisons.
+
+[20:05] **MGPai**: So this scales really well.
+
+[20:13] **MGPai**: All right, so now what we actually use for the staking is something called the Merkle Patricia Trie.
+
+[20:21] **MGPai**: And what this is is basically an optimized version of the Merkle Tree.
+
+[20:29] **MGPai**: So a trie really is a, you can think of it as like a key value map, indexed by the key's nibble.
+
+[20:39] **MGPai**: So it's just like a bunch of characters, like ASCII characters.
+
+[20:42] **MGPai**: And that's what a trie is.
+
+[20:45] **MGPai**: And Patricia is just an optimization of the path.
+
+[20:49] **MGPai**: So it's a very optimized structure.
+
+[20:53] **MGPai**: So you make even less. So in the previous slide, we made like three traversals.
+
+[20:59] **MGPai**: So this makes it even smaller, like maybe like one or two.
+
+[21:03] **MGPai**: And then Merkle is from what we discussed before.
+
+[21:08] **MGPai**: And then the proof is the path of nodes that you traversed.
+
+[21:13] **MGPai**: So in the previous slide, we traversed through like three nodes.
+
+[21:17] **MGPai**: So that's like the proof, you can think of it as that.
+
+[21:20] **MGPai**: And then proving.
+
+[21:22] **MGPai**: What is the action of proving?
+
+[21:24] **MGPai**: So you have the inputs of the known root hash.
+
+[21:27] **MGPai**: So the hash all the way at the top, you have that.
+
+[21:30] **MGPai**: And then you provide the proof, so you provide that path.
+
+[21:33] **MGPai**: And then you provide the key and the claimed value.
+
+[21:38] **MGPai**: So you walk through from the root node to until you get to the key.
+
+[21:44] **MGPai**: You walk through the tree.
+
+[21:46] **MGPai**: And then once you reach to the value, you stop.
+
+[21:50] **MGPai**: And then you compute the root hashes from that traversal.
+
+[21:55] **MGPai**: You can do that same hashing from the scratch.
+
+[21:58] **MGPai**: And then you compare it.
+
+[21:59] **MGPai**: Hey, is the thing I computed, does it match what I already know?
+
+[22:04] **MGPai**: And if yes, then you know that everything's correct, like no one's messing with anything.
+
+[22:10] **MGPai**: And yeah, so membership is proven when the computed root equals the known root.
+
+[22:16] **MGPai**: And the known root is what you passed in.
+
+[22:23] **MGPai**: So let's talk about how this integrates into staking.
+
+[22:27] **MGPai**: So client balances are stored in this trie-based data structure.
+
+[22:34] **MGPai**: And on-chain, so in the contracts itself, only the root hash is stored.
+
+[22:42] **MGPai**: And remember, the root hash is a fixed size string of 32 bytes, because it's a hash.
+
+[22:48] **MGPai**: And that answers the problem we saw a couple slides back where we want one user to be, say, one gigabyte of data, and we want a million users to still be that one gigabyte of data.
+
+[23:02] **MGPai**: So it's constant.
+
+[23:04] **MGPai**: So in this case, it's always a constant 32 bytes, which is incredibly tiny.
+
+[23:11] **MGPai**: So it's always this number, even if we have a million clients, which is really cool.
+
+[23:17] **MGPai**: And thanks to that Merkle tree diagram I explained, it's hashes of hashes of hashes and so on.
+
+[23:23] **MGPai**: So any time any insertions or updates done, the contract does verification.
+
+[23:29] **MGPai**: So as I explained in the previous slide, you have a proof and you have the known root hash.
+
+[23:35] **MGPai**: So you provide the proof and the known root hash.
+
+[23:38] **MGPai**: And what does the contract do?
+
+[23:39] **MGPai**: The contract only does computing.
+
+[23:42] **MGPai**: It only does verification.
+
+[23:43] **MGPai**: It doesn't need to do all the data storage or anything.
+
+[23:49] **MGPai**: You provide the exact data that it needs, the least amount of data it needs to actually prove what you're doing is correct, and you're not providing false information.
+
+[24:00] **MGPai**: And remember, after all of this is done, so if there's any mutations sent to the state, meaning if you added more stake, or you did a claim, or you did a withdrawal, that's a mutation.
+
+[24:14] **MGPai**: The only thing that changes is the root hash.
+
+[24:17] **MGPai**: So it's always that constant size length.
+
+[24:21] **MGPai**: And when these updates and claims happen, you're providing the proof.
+
+[24:28] **MGPai**: So I guess the downside of this is that you have to store this data somewhere.
+
+[24:36] **MGPai**: It's not magic.
+
+[24:37] **MGPai**: So you have to store the data in your own server.
+
+[24:41] **MGPai**: It's called the off-chain.
+
+[24:43] **MGPai**: So you have to store the data.
+
+[24:45] **MGPai**: You're responsible for storing the data in Solidity.
+
+[24:48] **MGPai**: You can just throw it on the blockchain and just make sure, like the EVM nodes.
+
+[24:54] **MGPai**: The Ethereum nodes, the heavy 2, 3 terabytes, 6 terabytes nodes.
+
+[24:59] **MGPai**: That stores all of that.
+
+[25:00] **MGPai**: So you just worry about that.
+
+[25:03] **MGPai**: But on the Ergo sense, you are storing the data.
+
+[25:07] **MGPai**: Did you have a question?
+
+[25:28] **MGPai**: Great.
+
+[25:28] **MGPai**: No, that's an excellent question.
+
+[25:30] **MGPai**: So we got Grayman asking, what if the staking platform goes down?
+
+[25:36] **MGPai**: Or what if I just disappear, everyone's screwed?
+
+[25:40] **MGPai**: What if I just take down all my servers?
+
+[25:42] **MGPai**: Well, that's actually not going to be an issue, because like I said, you're not trusting me with the data.
+
+[25:50] **MGPai**: Like, I can't just magically change the data, because all the mutations, they're done by putting them through the contract. So if you have like some initial state you have to put it through the contract to get the next state. So the contract's always the intermediary between state changes so it's as secure as the contract is secure because this contract does all the checks it needs to do.
+
+[26:16] **MGPai**: Regarding the data, it's really cool because you can actually walk through the blockchain.
+
+[26:22] **MGPai**: Walk through all the blocks and you can always recalculate it.
+
+[26:27] **MGPai**: It's not magic.
+
+[26:28] **MGPai**: The blockchain doesn't store the data, but it has you can think of it as snapshots in time.
+
+[26:34] **MGPai**: So you can traverse through all the original snapshots and get back the current data, the most recent current state.
+
+[26:42] **MGPai**: So no, you're not trusting me, and you have as much security as the contract provides.
+
+[26:50] **MGPai**: Is that clear?
+
+[27:21] **MGPai**: Right.
+
+[27:22] **MGPai**: And so the question is, how can you recover if the data is just all hashes?
+
+[27:27] **MGPai**: Then what you can recover, because hashes are non-reversible.
+
+[27:31] **MGPai**: No, that's a great question.
+
+[27:32] **MGPai**: So off-chain obviously doesn't store the hashes.
+
+[27:37] **MGPai**: So whenever you actually interact with the transaction, you're providing the actual data, not the hash, the actual data into the transaction when you build it and you submit the transaction.
+
+[27:52] **MGPai**: And the contract is actually what hashes the data.
+
+[27:56] **MGPai**: So you provide the complete open data.
+
+[27:58] **MGPai**: You're not hiding the data.
+
+[28:00] **MGPai**: And then the contract does the hashing and the checking.
+
+[28:05] **MGPai**: So like I said, it does computation.
+
+[28:07] **MGPai**: The contract only does computation.
+
+[28:09] **MGPai**: So you provide the raw data, and the contract just does hashing of the data.
+
+[28:14] **MGPai**: And this is possible because of, yeah, so I have it in this slide here, that whenever you do any staking, you provide the actual raw data.
+
+[28:26] **MGPai**: And it's done through something called the Redeemer on Cardano.
+
+[28:31] **MGPai**: Or on Ergo, it's called context variables.
+
+[28:35] **MGPai**: And it's the same thing.
+
+[28:36] **MGPai**: It's just data that anyone can provide into a transaction when you build it and submit it.
+
+[28:42] **MGPai**: There's some limit of data that you can provide into this.
+
+[28:50] **MGPai**: We provide the actual data within this constraint.
+
+[28:54] **MGPai**: When you do this, that data is actually published on the blockchain.
+
+[29:02] **MGPai**: But this is a really special type of data where it's not actually in the context of the node.
+
+[29:09] **MGPai**: So the node doesn't know about the redeemer.
+
+[29:13] **MGPai**: It doesn't save it for long term, but it does save it from historical transactions.
+
+[29:19] **MGPai**: Just in the same way that you know the transactions an address did.
+
+[29:24] **MGPai**: The address had an initial balance of one ERG, and then a year later, it has like a hundred.
+
+[29:30] **MGPai**: You can track that.
+
+[29:32] **MGPai**: So in the same sense, you can track this data in the Redeemer context variable.
+
+[29:38] **MGPai**: So really, to summarize, you can get back the data by traversing historical transactions.
+
+[29:45] **MGPai**: So you're not trusting me at all.
+
+[29:47] **MGPai**: Did you have a question?
+
+[30:02] **MGPai**: All right.
+
+[30:02] **MGPai**: Yeah, great.
+
+[30:03] **MGPai**: So yeah, no, just to summarize, really, the contract is something that just verifies the integrity of the provided data.
+
+[30:10] **MGPai**: And that's really the general theme of contracts on the UTXO model contracts.
+
+[30:17] **MGPai**: It's positioned really just to verify all the data.
+
+[30:20] **MGPai**: It doesn't make new data.
+
+[30:22] **MGPai**: It doesn't do anything special.
+
+[30:23] **MGPai**: It just verifies.
+
+[30:25] **MGPai**: Hey is what the transaction builder provided? Is that correct?
+
+[30:30] **MGPai**: Are they lying about something?
+
+[30:31] **MGPai**: Because checking something is always far cheaper than actually making it from scratch.
+
+[30:39] **MGPai**: And I think that's really where UTXO shines because account model has to store all this data.
+
+[30:45] **MGPai**: I mean, sure, it's easier for developers, but these node sizes are ridiculous.
+
+[30:49] **MGPai**: I can't like run a three terabyte node in my basement just for Ethereum.
+
+[30:54] **MGPai**: And that's just Ethereum.
+
+[30:55] **MGPai**: You have all these forks.
+
+[30:57] **MGPai**: If I want to expand to multi-chain, I have to spin up like an Ethereum node, a Binance node, Polygon node, and so on.
+
+[31:04] **MGPai**: If I want to do the things the right way and not buy like a subscription to an RPC.
+
+[31:11] **MGPai**: And it's not scalable, but in my basement, I can run an Ergo node, which has what, like 20 gigs, 30 gigs?
+
+[31:18] **MGPai**: It's nothing.
+
+[31:19] **MGPai**: Flash Drive has more storage than that.
+
+[31:22] **MGPai**: And a Cardano node was like 160 gigabytes.
+
+[31:26] **MGPai**: I can run plenty of these compared to just one Ethereum node.
+
+[31:31] **MGPai**: So you can see the trade-offs here.
+
+[31:33] **MGPai**: They really shine in the long run.
+
+[31:40] **MGPai**: So really the final slide here is improvements made to the original protocol.
+
+[31:48] **MGPai**: So the original contract was short-lived and static.
+
+[31:52] **MGPai**: So like I said, it was originally meant for things like meme coins.
+
+[31:57] **MGPai**: So where you just don't want people to sell.
+
+[31:59] **MGPai**: You don't really think about long-term.
+
+[32:02] **MGPai**: And the problem with this was it was very static.
+
+[32:06] **MGPai**: So you have one emission rate for the whole program.
+
+[32:10] **MGPai**: So what I also added to the protocol itself, not the UTXO implementation, is I made the emissions very dynamic.
+
+[32:23] **MGPai**: So like every epoch, for example, on Palm staking every week, people can claim their rewards.
+
+[32:30] **MGPai**: This emission amount can fluctuate without having to redeploy the contract or get people to migrate.
+
+[32:38] **MGPai**: And this is really cool because a dynamic protocol allows us to easily curb any excess inflation or incentivizes staking during steep price movements.
+
+[32:50] **MGPai**: So it allows us for more of a fine-grained control rather than, so we actually react to how the economy is doing.
+
+[32:59] **MGPai**: I mean, you saw yesterday that things went crazy.
+
+[33:03] **MGPai**: So maybe during a time like that, you want to incentivize people to hold.
+
+[33:07] **MGPai**: So maybe we'll tell them, okay, we can increase inflation so that people hold onto their Palm instead of selling it on the market.
+
+[33:15] **MGPai**: Just for no reason when everything's going crazy.
+
+[33:18] **MGPai**: So then people might not sell because they'll say hey like I can just put in the contract I believe in Palm I believe in this token's future.
+
+[33:27] **MGPai**: I believe in crypto.
+
+[33:28] **MGPai**: So like maybe in the next week the tariffs are going to be reversed and we won't have an issue.
+
+[33:37] **MGPai**: So maybe I want to hold my Palm and make some more Palm and money instead of selling.
+
+[33:43] **MGPai**: So the dynamic protocol really allows for this.
+
+[33:48] **MGPai**: Yeah, that's it for staking.
+
+[33:50] **MGPai**: So hopefully that was some presentation that you could understand.
+
+[33:55] **MGPai**: I tried to make it as least technical as possible so everyone can enjoy.
+
+[34:00] **MGPai**: So any other questions?
+
+[34:08] **MGPai**: Yeah, so it's quite technical, but you can think of, well, really on the actual usage-wise, rather than the data structure implementation-wise, kushti mentioned that the AVL tree is actually a lot more efficient compared to the Merkle Patricia Trie that you have on Cardano.
+
+[34:32] **MGPai**: Meaning like the proof sizes, the really efficient means that you can do more operations in a given transaction.
+
+[34:41] **MGPai**: So the proof sizes are smaller.
+
+[34:44] **MGPai**: The data that you provide during transaction building, it's a lot smaller.
+
+[34:49] **MGPai**: So what does it mean for the end user?
+
+[34:52] **MGPai**: It means that transactions really will be cheaper.
+
+[34:55] **MGPai**: But there is a significant implementation difference, how it works internally, but I don't really know that from the top of my head and I can't speak for it that much.
+
+[35:06] **MGPai**: But in the context of this though, you can think of it as interchangeable.
+
+[35:14] **MGPai**: Yeah, Grayman.
+
+[36:12] **MGPai**: Correct, correct.
+
+[36:12] **MGPai**: So, Grayman brought up a great point.
+
+[36:15] **MGPai**: So yesterday, again, I don't think everyone's quite active on Twitter, but Liqwid, so there's a protocol on Cardano called Liqwid Finance and it's a lending protocol.
+
+[36:27] **MGPai**: And what they did yesterday was because of the extreme movement.
+
+[36:30] **MGPai**: So I think Cardano literally went from like 80 cents to like 27 cents in like a flash because of like mass liquidations.
+
+[36:37] **MGPai**: So Liqwid Finance is a decentralized lending platform.
+
+[36:41] **MGPai**: So you provide some collateral in ADA and you get back an asset.
+
+[36:45] **MGPai**: So since the price moved down so steeply, you're going to have some liquidations due to that.
+
+[36:51] **MGPai**: So Liqwid Finance completely shut off their front-end interface and you can't manage your liquidations now. No one can liquidate you or anything and you can't make new collateral requests and so on I don't know why they did this I mean obviously to protect people from being hurt but like I don't know I think everyone's like a grown man here and can handle their finances so I think that's kind of silly but it is what it is.
+
+[37:23] **MGPai**: So yes, they disabled the front end.
+
+[37:26] **MGPai**: And maybe that I can make a custom transaction using code to interact with the contracts.
+
+[37:33] **MGPai**: But I actually found Cardano's very funny.
+
+[37:36] **MGPai**: A lot of these off-chain runners, so basically what processes your transactions with the main contract, they're actually permissioned.
+
+[37:47] **MGPai**: So for people to run the off-chain bots, you need to have like, maybe you have to own, you have to be the owner of a certain address.
+
+[37:57] **MGPai**: So only your private key can actually run the transactions.
+
+[38:00] **MGPai**: But what's more common is like, it's like a special NFT.
+
+[38:04] **MGPai**: So all NFT holders are the ones that can run these off-chain.
+
+[38:09] **MGPai**: And that's a very, it's not decentralized at all.
+
+[38:11] **MGPai**: It's just made on a decentralized platform.
+
+[38:17] **MGPai**: So really, this is a very simple check.
+
+[38:19] **MGPai**: Like you have a contract, and you're like, okay, all these calculations happen.
+
+[38:23] **MGPai**: It's decentralized.
+
+[38:24] **MGPai**: But you add just one tiny check.
+
+[38:27] **MGPai**: Only the owner, only the holder of this NFT can run the transaction.
+
+[38:33] **MGPai**: So technically, no.
+
+[38:35] **MGPai**: For a lot of protocols on Cardano, no.
+
+[38:38] **MGPai**: You can't just bypass everything and build your own transactions with code.
+
+[38:41] **MGPai**: I can't do that.
+
+[38:42] **MGPai**: Because I don't own that special NFT that you need to actually process the transactions.
+
+[38:50] **MGPai**: And no, no, this is actually really bad.
+
+[38:52] **MGPai**: I don't know why.
+
+[38:53] **MGPai**: It's like a very common on Cardano.
+
+[38:55] **MGPai**: But yeah, no, it's not really decentralized is the answer.
+
+[39:12] **MGPai**: Again, as Joe kept mentioning, know your assumptions.
+
+[39:20] **MGPai**: Is something permissioned?
+
+[39:21] **MGPai**: For example, we have the HODLerg game.
+
+[39:26] **MGPai**: It's all open source.
+
+[39:28] **MGPai**: So if the front end shut off, first of all, you can just spin up your own front end because the code's all there.
+
+[39:33] **MGPai**: Second, you can build your own custom transaction and you can run your own off-chain because all that code is open source.
+
+[39:40] **MGPai**: It's not hiding anything and you don't need any special NFT.
+
+[39:45] **MGPai**: Even on Cardano, if these projects are all open source, even if the off-chain is all open source, the website is all open source, it doesn't matter because you need the NFT to actually run the off-chain.
+
+[39:54] **MGPai**: It's literally not going to work.
+
+[39:56] **MGPai**: So it's decentralized, it's open source, but you can't do anything.
+
+[40:01] **MGPai**: Yeah, Grayman.
+
+[40:17] **MGPai**: Oh, no, that's a great question.
+
+[40:19] **MGPai**: Maybe we can talk to Allison, who's in the back.
+
+[40:23] **MGPai**: He's the Nautilus developer.
+
+[40:25] **MGPai**: But what Grayman said is, hey, can we have a HODLerg natively within the Nautilus wallet itself?
+
+[40:34] **MGPai**: And I think that's really cool.
+
+[40:35] **MGPai**: Maybe we can have a dedicated apps section on Nautilus wallet.
+
+[40:39] **MGPai**: I think it's already there with SigmaUSD.
+
+[40:42] **MGPai**: But I think a bunch of apps within Nautilus, so you don't have to go to any website.
+
+[40:46] **MGPai**: You're actually technically running your own front-end because it's a wallet extension so you're not even relying on me hosting the website.
+
+[40:53] **MGPai**: So I think that's a great idea and we can have a bunch of apps on Nautilus where you just click two buttons and you interact with the protocol.
+
+[41:03] **MGPai**: I really like this idea because again, you're not worried about any front-end.
+
+[41:07] **MGPai**: Or a front-end, if a front-end gets hacked, what a front-end being hacked means is that someone takes ownership of the domain that it's on and injects custom code.
+
+[41:18] **MGPai**: So maybe they made an exact replica of my front-end.
+
+[41:22] **MGPai**: And then they're like, hey, when you click this mint button, instead of minting, you're transferring all your ERG to an address.
+
+[41:30] **MGPai**: That's what a hack really means.
+
+[41:32] **MGPai**: So this isn't really possible if you have something running on your own instance, like on Nautilus itself.
+
+[41:40] **MGPai**: I mean, it's only possible if you literally physically download a virus, and maybe the virus does some magic where it has control of Nautilus.
+
+[41:48] **MGPai**: But in general hacks, if my website gets hacked, that's not going to affect your Nautilus, which is running its own app instance of HODLerg.
+
+[41:56] **MGPai**: So that's a wonderful idea.
+
+[41:57] **MGPai**: We should definitely get that going.
+
+[42:01] **MGPai**: All right, any other questions, comments?
+
+[42:11] **MGPai**: Yes, yes, it's live on Cardano.
+
+[42:14] **MGPai**: And yeah, it's called palm-economy.io.
+
+[42:19] **MGPai**: And you can find information about it.
+
+[42:21] **MGPai**: And it's specifically staking for Palm Token, which is the token for ZenGate's Palmyra RWA platform.
+
+[42:34] **MGPai**: So currently, there is no plans to do it on Ergo, and it's not up to me.
+
+[42:39] **MGPai**: But in the future, the point is that it's pretty straightforward.
+
+[42:43] **MGPai**: Because now that it's done on Cardano, everything maps directly to Ergo.
+
+[42:48] **MGPai**: So since all the theory, that's what takes a long time.
+
+[42:52] **MGPai**: Getting it done right.
+
+[42:53] **MGPai**: Planning it out implementation is pretty straightforward once you have this theory.
+
+[42:58] **MGPai**: So that's why EVM is so successful because you already it's been there since what 2015 and you have so many contracts so guess what a new fork a new L2 Base has their own blockchain you take the contracts and you copy paste it always literally copy paste.
+
+[43:15] **MGPai**: So in a similar sense, since we already have everything ready on Cardano, when we're ready for Ergo, we can just take that code and translate it over to Ergo.
+
+[43:25] **MGPai**: So it's much more trivial compared to making it from scratch.
+
+[43:35] **MGPai**: Yes, it's all very similar.
+
+[43:36] **MGPai**: It's not exactly copy-paste, because on Ethereum, it's literally a fork of the node.
+
+[43:42] **MGPai**: It's the exact same thing.
+
+[43:43] **MGPai**: So you can actually copy-paste the exact code and deploy it on L2s and so on.
+
+[43:50] **MGPai**: So that's not the case for UTXO.
+
+[43:51] **MGPai**: So you can't copy-paste it.
+
+[43:53] **MGPai**: But the overall idea maps directly.
+
+[43:55] **MGPai**: So you're just translating whatever Cardano smart contract language to ErgoScript exactly.
+
+[44:02] **MGPai**: There's less friction.
+
+[44:03] **MGPai**: There's more friction than going from like Ethereum to like an Ethereum fork, but conceptually, it's like the same because the architecture is the same.
+
+[44:25] **MGPai**: Yeah, I would definitely use AVL because it's built into the contract.
+
+[44:32] **MGPai**: They both serve that same abstract need of storing data off-chain and then verification on-chain.
+
+[44:40] **MGPai**: That's really the important part.
+
+[44:43] **MGPai**: That's the only thing that really makes this work.
+
+[44:45] **MGPai**: So AVL tree serves the same purpose.
+
+[44:48] **MGPai**: So there's no reason to have to use a Merkle Patricia trie on Ergo.
+
+[45:04] **MGPai**: So actually, no, it's already decentralized in the sense that you can traverse through Ergo Explorer and you can get back that original data, the non-hashed data, and it's actually even better than IPFS because you don't have to do any pinning or anything.
+
+[45:22] **MGPai**: So it's actually all there on Ergo already.
+
+[45:25] **MGPai**: But the actual raw data that you probably were thinking about is the tree data and the balance data.
+
+[45:32] **MGPai**: And that cannot be stored on IPFS or something, because it's something that requires a database.
+
+[45:39] **MGPai**: Because you're doing database operations.
+
+[45:46] **MGPai**: All right, any other questions?
+
+[45:49] **MGPai**: All right, thanks for tuning in, guys.

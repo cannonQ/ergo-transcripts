@@ -1,0 +1,133 @@
+{
+  "call_date": "2025-09-14",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "06:29",
+      "question": "How far away geographically is Potato from kushti's nodes, and how does this affect sub-block synchronization testing?",
+      "asker": "qx()",
+      "answer": "kushti's nodes are in Hetzner Germany data center while Potato is probably in Latin America, creating a good geographical span for testing. The devnet runs with extreme parameters - blocks every 30 seconds with 60 sub-blocks per block, meaning 2 sub-blocks per second, making it quite intense for testing P2P synchronization.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "sub-blocks",
+        "P2P",
+        "devnet",
+        "synchronization"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "07:47",
+      "question": "What is GitCircles and how does it work?",
+      "asker": "qx()",
+      "answer": "GitCircles is a project to create community currencies for digital development communities where developers get tokens for committing to repositories. It has a Git bot and persistence layer already done, with the next steps being a GitHub application and Ergo blockchain integration. The plan is to test manually first, then do airdrops to existing developer communities like Rust framework builders.",
+      "responder": "kushti",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "GitCircles",
+        "community currencies",
+        "developer tokens",
+        "GitHub integration"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "09:44",
+      "question": "Could GitCircles integrate DAO voting for GitHub pull requests, where approved DAO votes automatically execute merges?",
+      "asker": "qx()",
+      "answer": "Open source communities already act as DAOs off-chain with maintainers and rules for merging code. The challenge is governance - most successful projects still depend on key leaders despite attempts at decentralization. Even projects like Bitcoin with multiple developers still have 1-2 people making major decisions in practice, which is typical for both off-chain and on-chain DAOs.",
+      "responder": "kushti",
+      "category": "governance",
+      "difficulty": "advanced",
+      "related_terms": [
+        "DAO",
+        "governance",
+        "open source",
+        "decentralization"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "14:26",
+      "question": "How would substantial protocol changes like NIPoPoWs be implemented in Bitcoin given their current governance model?",
+      "asker": "Grayman",
+      "answer": "Probably no chance. Bitcoin has had talks since 2012 about UTXO commitments which would enable many protocols and blockchain pruning, but all energy gets spent on debates over constants like block size. Bitcoin was quite radical with changes in 2009-2010 but endless wars led to the current state where it's basically impossible to change anything in the protocol unless proposed by certain key developers.",
+      "responder": "kushti",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "NIPoPoWs",
+        "Bitcoin governance",
+        "UTXO commitments",
+        "protocol changes"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "33:25",
+      "question": "Why is it so complicated to participate in Ergo raffles and how could this be simplified?",
+      "asker": "Ben",
+      "answer": "The current process requires going to Coinbase, buying a coin, swapping to ERG on another exchange, transferring to an Ergo wallet, then participating. If users could Apple Pay $10 directly to an Ergo raffle, participation would increase significantly. The solution involves supporting stable coins in Raffle v2 and creating bridges to get from Apple Pay to stable coins on Ergo, making it more like a GoFundMe experience.",
+      "responder": "Multiple (Ben, kushti, qx())",
+      "category": "defi",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Ergo raffle",
+        "accessibility",
+        "fiat on-ramp",
+        "stable coins"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "49:42",
+      "question": "What steps are needed to make fiat-to-Ergo accessibility easier for applications like raffles?",
+      "asker": "qx()",
+      "answer": "Multiple steps are needed: first, Raffle version 2 with stable coin support, then more bridges to get from Apple Pay to stable coins on Ergo. The ultimate goal is reducing friction one step at a time. Currently users need to navigate multiple exchanges and wallet transfers, but with proper infrastructure, direct fiat payments could flow into Ergo-based applications.",
+      "responder": "kushti",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "fiat on-ramp",
+        "stable coins",
+        "bridges",
+        "accessibility"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "54:47",
+      "question": "Could Rosen Bridge enable cross-chain participation in Ergo raffles, allowing people to pay with Bitcoin or other assets?",
+      "asker": "Dmitriy",
+      "answer": "Yes, if liquidity pools existed on both sides, you could have a raffle that accepts Bitcoin, Ethereum, or other assets through Rosen Bridge, with all funds ultimately ending up on Ergo. The system could accept tokens on Ethereum, put them in a wallet, then automatically transfer across the bridge at the end of the raffle. Development-wise, this is totally possible and would be very useful.",
+      "responder": "qx()",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Rosen Bridge",
+        "cross-chain",
+        "liquidity pools",
+        "interoperability"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "59:02",
+      "question": "How does Nautilus wallet protect users from spam tokens and scammer addresses?",
+      "asker": "qx()",
+      "answer": "Nautilus has built-in options to ignore spam and NSFW tokens, which are enabled by default. The Sigmanauts and Ergo Explorer communities mark spam tokens as they appear, and they're automatically hidden from wallets. Additionally, Nautilus will integrate community-maintained lists of known scammer addresses, showing warnings when users try to send funds to flagged addresses, with confirmation required to proceed.",
+      "responder": "qx()",
+      "category": "wallet",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Nautilus wallet",
+        "spam protection",
+        "community lists",
+        "security"
+      ]
+    }
+  ]
+}

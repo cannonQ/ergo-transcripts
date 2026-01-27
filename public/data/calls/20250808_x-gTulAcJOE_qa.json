@@ -1,0 +1,194 @@
+{
+  "call_date": "2025-08-08",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "02:40",
+      "question": "What's new with Ergo node 6.1 release and sub-blocks development?",
+      "asker": "qx()",
+      "answer": "Node 6.1 will be released later today or tomorrow after additional testing. After that release, we can start testing sub-blocks supporting mining nodes in the public testnet. There's been good progress on sub-blocks implementation with mostly polishing work being done recently.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "node",
+        "sub-blocks",
+        "testnet",
+        "mining"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "04:26",
+      "question": "What's needed for sub-blocks testing on testnet?",
+      "asker": "qx()",
+      "answer": "We need miners for testing, ideally a hybrid setting with different miners since it's not a mandatory protocol update. We need to keep the current miner intact and add another one with sub-blocks generation to test how things work. Based on testing results, we'll plan mainnet activation along with needed security audits.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "sub-blocks",
+        "mining",
+        "testnet",
+        "security audit"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "06:27",
+      "question": "How did the SigmaLock contract security audit look?",
+      "asker": "qx()",
+      "answer": "I sent some notes to Luca, but in general it looks good. You guys can go ahead with that project.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "SigmaLock",
+        "security audit",
+        "contracts"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "09:48",
+      "question": "What are the main use cases for SigmaLock contracts?",
+      "asker": "kushti",
+      "answer": "Three main use cases: 1) Batching assets to someone else based on time lock or price (like inheritance contracts), 2) Vested token payments for developers to prevent dumping - you can stage payments over months with unlock tokens, 3) Diamond hands option to protect yourself from spending your own tokens. The contracts are flexible enough to be updated annually or as needed.",
+      "responder": "qx()",
+      "category": "defi",
+      "difficulty": "beginner",
+      "related_terms": [
+        "SigmaLock",
+        "vesting",
+        "timelock",
+        "inheritance"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "14:24",
+      "question": "What infrastructure is being set up with the new InfraDAO?",
+      "asker": "implied",
+      "answer": "I built the InfraDAO with 50,000 Paideia tokens and created a Dockerized Explorer repository on GitHub. The DAO will start with Explorer infrastructure using load balancing, then expand to host ErgoExplorer, SigmaSpace, ErgoDocs, and eventually the Ergo Platform website. Members get SSL certs from Cloudflare and join the load balancer after testing.",
+      "responder": "qx()",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "InfraDAO",
+        "Explorer",
+        "infrastructure",
+        "load balancer"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "17:17",
+      "question": "What's the significance of Base allowing any assets to be tradable on Coinbase?",
+      "asker": "kushti",
+      "answer": "Any of the 8 million assets on Base would be tradable on Coinbase. This means we could get Rosen ERG listed there, though we'd need to find liquidity providers. It's similar to listing Cardano assets on Kraken - it could provide attractive onramp/offramp options and trading for liquidity providers, potentially giving us another US trading option in a few months.",
+      "responder": "kushti",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Rosen",
+        "Base",
+        "Coinbase",
+        "liquidity"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "19:30",
+      "question": "What's new with Nautilus wallet integration?",
+      "asker": "implied",
+      "answer": "Nautilus has been updated to production with a 'buy ERG' button that takes you directly to Banxa for fiat purchases. This is the first step in integration - potentially leading to fully baked-in functionality in the future since people prefer not leaving their wallet applications.",
+      "responder": "qx()",
+      "category": "wallet",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Nautilus",
+        "Banxa",
+        "fiat onramp"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "21:25",
+      "question": "Are there non-KYC fiat onramp options available for the US?",
+      "asker": "kushti",
+      "answer": "Probably not at all these days - it's not quite possible to get legitimate non-KYC options in the current regulatory environment.",
+      "responder": "kushti",
+      "category": "tokenomics",
+      "difficulty": "beginner",
+      "related_terms": [
+        "KYC",
+        "fiat onramp",
+        "regulation"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "24:27",
+      "question": "How does Rosen provide protection against exchange delistings?",
+      "asker": "implied",
+      "answer": "With Rosen on Base, you're essentially rug-proof. If something's pulled from Base, you can just make another pair with some other token that's already on Base that Rosen can reach. There's protection and ability to traverse to another backdoor if one door is shut, unlike centralized exchanges where you lose your listing fees if delisted.",
+      "responder": "qx()",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Rosen",
+        "Base",
+        "delistings",
+        "liquidity"
+      ]
+    },
+    {
+      "qa_id": 10,
+      "timestamp": "34:53",
+      "question": "What's happening with Spectrum/ErgoDEX?",
+      "asker": "qx()",
+      "answer": "Spectrum Network is winding down, but ErgoDEX contracts remain intact on-chain. It's the same decentralized exchange with different frontends like Mew and ErgoDEX. The Spectrum Network was a Layer 2 concept from their 2021 whitepaper that became irrelevant, but the core DEX functionality continues to operate.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Spectrum",
+        "ErgoDEX",
+        "DEX",
+        "Layer 2"
+      ]
+    },
+    {
+      "qa_id": 11,
+      "timestamp": "41:40",
+      "question": "When will Silver Dexy be launched?",
+      "asker": "kushti",
+      "answer": "We have the Oracle put together and all the pieces are there. We don't have a firm date yet. It's interesting because Gluon is working on fully verifying their protocol while we have Dexy in parallel, so the Rosen community can choose which protocol to plug the oracle into.",
+      "responder": "Armeanio",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Silver Dexy",
+        "Oracle",
+        "Gluon",
+        "Rosen"
+      ]
+    },
+    {
+      "qa_id": 12,
+      "timestamp": "44:30",
+      "question": "What's the roadmap update from the Ergo Foundation?",
+      "asker": "qx()",
+      "answer": "We're working with Banxa on a notification service for withdrawals (1-2 weeks), updating the roadmap documentation from 2024, creating a partnership guide page for evaluation requests, and preparing pitch decks for post-launch investors. We're also working on 10 new articles and trying to get more exposure for potential investors.",
+      "responder": "glasgowm",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Ergo Foundation",
+        "Banxa",
+        "roadmap",
+        "partnerships"
+      ]
+    }
+  ]
+}

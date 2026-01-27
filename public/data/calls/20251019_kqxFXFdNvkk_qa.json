@@ -1,0 +1,141 @@
+{
+  "call_date": "2025-10-19",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:14",
+      "question": "What is the size of the global barter market and how does it differ from traditional crypto use cases?",
+      "asker": "CannonQ (presentation)",
+      "answer": "Bartering worldwide is about a 12 to 14 billion dollar market in North America. This focuses on non-governmental, non-big corporate business-to-business networks that are tax compliant and already use their own barter currency. Unlike most crypto which focuses on speculation, these businesses don't need to be convinced about not using fiat - they already use alternative currencies.",
+      "responder": "CannonQ",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "barter",
+        "B2B",
+        "alternative currency"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "06:56",
+      "question": "How does the variable cost arbitrage model work in barter exchanges?",
+      "asker": "CannonQ (presentation)",
+      "answer": "Alice builds a deck for $5,000 in credits with only $3,000 in variable costs (materials, labor). Later she uses $4,500 credits for dental work. She effectively turned $3,000 into $4,500 worth of services, achieving a 50% ROI. This works because she's monetizing idle capacity - crew and equipment that would otherwise be unused - while her fixed costs remain the same.",
+      "responder": "CannonQ",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "arbitrage",
+        "variable costs",
+        "idle capacity"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "13:25",
+      "question": "What are the main problems with current barter exchange systems?",
+      "asker": "CannonQ (presentation)",
+      "answer": "Current systems suffer from fragmentation and opacity. There's no interoperability across different exchanges, no transparent reserves, no capital efficiency, and no neutral settlement layer. For example, if Alice has $50,000 in credits in the Ozarks and moves to New York, those credits become stranded value - unusable in the new location because the networks don't connect.",
+      "responder": "CannonQ",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "fragmentation",
+        "interoperability",
+        "stranded value"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "17:07",
+      "question": "What would be Ergo's value proposition for barter exchange networks?",
+      "asker": "CannonQ (presentation)",
+      "answer": "Ergo offers significant advantages: much lower transaction costs (1% vs current systems), permissionless access, transparency with privacy through Sigma protocols and zero-knowledge proofs, and allows networks to focus on what they do best - local relationships - while handling settlement and moving value across networks. One million in volume would cost only a couple hundred dollars versus much higher fees on other chains.",
+      "responder": "CannonQ",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Sigma protocols",
+        "zero-knowledge",
+        "settlement layer"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "20:24",
+      "question": "Why is Ergo better suited for this use case than other blockchains?",
+      "asker": "CannonQ (presentation)",
+      "answer": "Bitcoin has limited programmability, Ethereum has high fees that make small transactions impractical, and many chains have pre-mined foundation control making them less neutral. Permissioned chains still have gatekeepers and network politics. Ergo is expressive on top of UTXO, has low fees, uses sustainable proof-of-work, and boxes can reference other boxes - perfect for moving credits between networks.",
+      "responder": "CannonQ",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "UTXO",
+        "programmability",
+        "proof-of-work"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "27:31",
+      "question": "How would cross-network settlement work between different barter exchanges?",
+      "asker": "CannonQ (presentation)",
+      "answer": "Similar to existing protocols like SigmaLock, Alice could initiate a request to get specialty wood from Bob in Colorado using her Ozark credits. The system would use conditional logic and escrow - if Bob doesn't accept or an oracle doesn't attest to delivery, funds auto-refund. This enables business deals across previously incompatible networks using smart contracts for settlement.",
+      "responder": "CannonQ",
+      "category": "defi",
+      "difficulty": "advanced",
+      "related_terms": [
+        "cross-network",
+        "escrow",
+        "conditional logic",
+        "SigmaLock"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "28:01",
+      "question": "What lending and borrowing opportunities exist in barter networks?",
+      "asker": "CannonQ (presentation)",
+      "answer": "Currently, no barter exchange out of $2.5 billion in annual volume allows lending of barter credits. Alice could lend her idle 40,000 summer credits at 3-4% base rate with utilization curves like duck pools, then borrow in winter when she needs equipment. This creates new revenue streams for participants and allows businesses to become partially their own bank.",
+      "responder": "CannonQ",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "lending pools",
+        "utilization curves",
+        "duck pools"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "35:39",
+      "question": "Would using blockchain for barter credits create additional tax complications?",
+      "asker": "Audience member",
+      "answer": "The tax treatment should remain largely the same since vendors already receive 1099-B forms for barter income. The main addition would be 1099-INT for interest earned on lending credits, similar to bank interest reporting. The blockchain serves as a settlement layer rather than changing the fundamental tax structure - vendors still report barter income as regular business income.",
+      "responder": "CannonQ",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "tax compliance",
+        "1099-B",
+        "1099-INT"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "58:03",
+      "question": "How does this concept relate to proof-of-work and excess capacity monetization?",
+      "asker": "SPEAKER_00",
+      "answer": "It's similar to how proof-of-work is most profitable with excess capacity of energy or computational power. These barter networks allow people to redirect excess capacity in their skill sets and tokenize it into credits. Like mining rigs with excess electricity or paid-off cards, businesses can monetize idle resources - hotel rooms, restaurant tables, equipment downtime - through the barter system.",
+      "responder": "SPEAKER_00",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "proof-of-work",
+        "excess capacity",
+        "tokenization"
+      ]
+    }
+  ]
+}

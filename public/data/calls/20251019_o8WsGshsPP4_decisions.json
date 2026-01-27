@@ -1,0 +1,126 @@
+{
+  "call_date": "2025-10-19",
+  "call_title": "Why Mine Ergo: Profitability, Sustainability & the Sigmanauts Mining Pool \u2014 Ergo Meetup 2025",
+  "decisions": [],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "48:44",
+      "commitment": "Put transparency information about Demarage distribution on the pool",
+      "owner": "Marc the Shark",
+      "timeline": "unspecified",
+      "topic": "mining-pool",
+      "quote": "It would be good on us to put a, from a transparency perspective, be like, hey, this is exactly how we're doing this, all the FAQs and stuff. I'll have to take a note of that."
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "52:25",
+      "question": "Whether to have both current Sigmonauts mining pool and a second option",
+      "context": "Discussion about potentially running two separate mining pool options",
+      "topic": "mining-pool",
+      "raised_by": "Marc the Shark"
+    },
+    {
+      "id": 2,
+      "timestamp": "53:33",
+      "question": "Whether mining core allows transaction stuffing",
+      "context": "Discussion about potentially overstuffing transactions in mining pools",
+      "topic": "mining-technical",
+      "raised_by": "Marc the Shark"
+    }
+  ],
+  "reversals_or_updates": [
+    {
+      "id": 1,
+      "timestamp": "43:31",
+      "previous": "Sigmonauts mining pool fee was 1%",
+      "update": "Fee is now variable and can be voted on",
+      "reason": "Community governance implementation",
+      "speaker": "Marc the Shark",
+      "topic": "mining-pool"
+    },
+    {
+      "id": 2,
+      "timestamp": "48:44",
+      "previous": "Only pool distributing storage rent",
+      "update": "Herominers is also collecting/distributing Demarage",
+      "reason": "Correction of previous statement",
+      "speaker": "Marc the Shark",
+      "topic": "mining-pool"
+    }
+  ],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "01:31",
+      "fact": "Ergo launched in 2019 with no pre-mine, no ICO, no VC funding and max supply of 97.7 million",
+      "speaker": "Marc the Shark",
+      "topic": "ergo-basics"
+    },
+    {
+      "id": 2,
+      "timestamp": "03:14",
+      "fact": "Block reward started at 75 or 60 ERG and is now down to 12 ERG with 2-minute block time",
+      "speaker": "Marc the Shark",
+      "topic": "tokenomics"
+    },
+    {
+      "id": 3,
+      "timestamp": "03:40",
+      "fact": "Emission reduces every three months by 3 ERG: 9 to 6 to 3 ERG forever",
+      "speaker": "Marc the Shark",
+      "topic": "tokenomics"
+    },
+    {
+      "id": 4,
+      "timestamp": "11:20",
+      "fact": "Current emission: 12 ERG = 8,640 ERG/day, 9 ERG = 6,400/day, 6 ERG = 4,300/day, 3 ERG = 2,160/day",
+      "speaker": "Marc the Shark",
+      "topic": "tokenomics"
+    },
+    {
+      "id": 5,
+      "timestamp": "14:32",
+      "fact": "Autolykos requires 6 gigabyte VRAM minimum, 8 gigabyte plus optimal",
+      "speaker": "Marc the Shark",
+      "topic": "mining-technical"
+    },
+    {
+      "id": 6,
+      "timestamp": "40:20",
+      "fact": "Most mining pools use PPLNS (pay per last N shares), Sigmonauts uses N = 0.5",
+      "speaker": "Marc the Shark",
+      "topic": "mining-pool"
+    },
+    {
+      "id": 7,
+      "timestamp": "46:03",
+      "fact": "Sigmonauts mining pool has 10,000 ERG in treasury",
+      "speaker": "Marc the Shark",
+      "topic": "mining-pool"
+    },
+    {
+      "id": 8,
+      "timestamp": "47:52",
+      "fact": "Storage rent is collected from unspent boxes older than 4 years",
+      "speaker": "Marc the Shark",
+      "topic": "ergo-technical"
+    },
+    {
+      "id": 9,
+      "timestamp": "48:44",
+      "fact": "Sigmonauts minimum payout threshold is 0.5 ERG",
+      "speaker": "Marc the Shark",
+      "topic": "mining-pool"
+    },
+    {
+      "id": 10,
+      "timestamp": "51:25",
+      "fact": "Ergo mining continues until 2045",
+      "speaker": "Marc the Shark",
+      "topic": "tokenomics"
+    }
+  ]
+}

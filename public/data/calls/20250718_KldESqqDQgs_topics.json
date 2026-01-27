@@ -1,0 +1,234 @@
+{
+  "call_date": "2025-07-18",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - July 17th",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Ergo 6.0 Update & Sub-blocks Development",
+      "category": "technical",
+      "start_time": "01:23",
+      "end_time": "03:04",
+      "primary_speaker": "kushti",
+      "summary": "Ergo 6.0 has 90+ percent support and will activate around October. Public testnet for mining sub-blocks supporting nodes planned for July, with white paper development for first merge mined sidechain underway.",
+      "key_terms": [
+        "Ergo 6.0",
+        "sub-blocks",
+        "voting",
+        "testnet",
+        "merge mining",
+        "sidechain"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Sub-blocks Impact on DeFi & User Experience",
+      "category": "defi",
+      "start_time": "03:04",
+      "end_time": "07:27",
+      "primary_speaker": "qx()",
+      "summary": "Discussion on how sub-blocks will improve DEX performance and user experience through faster transaction confirmation. Chain transactions with zero-config in Nautilus already provide instantaneous-feeling transfers.",
+      "key_terms": [
+        "sub-blocks",
+        "DEX",
+        "user experience",
+        "chain transactions",
+        "Nautilus",
+        "zero-config"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Sidechain Development & Fair Distribution Focus",
+      "category": "technical",
+      "start_time": "08:47",
+      "end_time": "11:02",
+      "primary_speaker": "kushti",
+      "summary": "Sidechain repository and white paper are progressing with potential for acceleration with more developers. 2025 crypto environment showing increased attention to fair distribution and miner rights principles.",
+      "key_terms": [
+        "sidechains",
+        "white paper",
+        "fair distribution",
+        "miner rights",
+        "open source"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Ergo Raffle 2.0 & DAO Infrastructure",
+      "category": "ecosystem",
+      "start_time": "11:50",
+      "end_time": "13:48",
+      "primary_speaker": "kushti",
+      "summary": "DAO breach implementation complete, focus now on liquidity providers. Hummingbot development for community-run liquidity pools expected to provide more stable and distributed liquidity than large finance operations.",
+      "key_terms": [
+        "Ergo Raffle",
+        "DAO",
+        "Hummingbot",
+        "liquidity pools",
+        "community liquidity"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Rosen Bridge Governance Proposals",
+      "category": "governance",
+      "start_time": "14:00",
+      "end_time": "17:03",
+      "primary_speaker": "qx()",
+      "summary": "Five governance initiatives live on Paideia discussion forum, including Rosen-ERG airdrops on Cardano to meet Kraken listing requirements. Community encouraged to actively engage with proposals and provide feedback.",
+      "key_terms": [
+        "Rosen Bridge",
+        "Paideia",
+        "governance",
+        "airdrops",
+        "Cardano",
+        "Kraken listing"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "InfraDAO Node Distribution Progress",
+      "category": "infrastructure",
+      "start_time": "17:03",
+      "end_time": "18:49",
+      "primary_speaker": "qx()",
+      "summary": "InfraDAO has 4-5 people ready for initial machine handout. Goal is global node distribution for improved performance and reduced Ergo Foundation hosting costs. Will expand to more participants after initial deployment succeeds.",
+      "key_terms": [
+        "InfraDAO",
+        "nodes",
+        "infrastructure",
+        "global distribution",
+        "Ergo Foundation"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "ChainCash Development & Real-World Use Cases",
+      "category": "technical",
+      "start_time": "19:34",
+      "end_time": "23:11",
+      "primary_speaker": "kushti",
+      "summary": "ChainCash development needs concrete real-world use cases rather than abstract work. Potential applications include community currencies, international trade currencies, and backing instruments for various monetary systems.",
+      "key_terms": [
+        "ChainCash",
+        "community currencies",
+        "international trade",
+        "monetary systems",
+        "financial primitives"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Physical-to-Digital Asset Conversion Discussion",
+      "category": "ecosystem",
+      "start_time": "23:11",
+      "end_time": "26:52",
+      "primary_speaker": "qx()",
+      "summary": "Exploration of physical goods conversion to digital money through trusted storefronts. GitCircles project mentioned for creating community currencies for Git project contributions, with specification to be published soon.",
+      "key_terms": [
+        "physical assets",
+        "digital conversion",
+        "GitCircles",
+        "community currencies",
+        "open source"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Cryptocurrency Adoption & Banking Comparison",
+      "category": "ecosystem",
+      "start_time": "26:52",
+      "end_time": "35:29",
+      "primary_speaker": "qx()",
+      "summary": "Discussion on explaining crypto benefits to newcomers, particularly highlighting permissionless lending compared to traditional banking restrictions. Emphasis on unstoppable, private, yet transparent financial systems under user control.",
+      "key_terms": [
+        "cryptocurrency adoption",
+        "permissionless lending",
+        "traditional banking",
+        "SigmaFi",
+        "unstoppable finance"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Bitcoin Co-mining & Double Merge Mining",
+      "category": "technical",
+      "start_time": "38:08",
+      "end_time": "43:26",
+      "primary_speaker": "kushti",
+      "summary": "Explanation of double merge mined sidechain concept where Bitcoin miners work on Bitcoin blocks while Ergo miners work on Ergo blocks, creating trustless bridges between both chains for enhanced DeFi capabilities.",
+      "key_terms": [
+        "Bitcoin co-mining",
+        "double merge mining",
+        "sidechain",
+        "trustless bridge",
+        "ASIC miners"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Lithos Decentralized Mining Protocol",
+      "category": "technical",
+      "start_time": "43:26",
+      "end_time": "45:34",
+      "primary_speaker": "kushti",
+      "summary": "Lithos is a decentralized mining protocol functioning as a contract-based decentralized pool on Ergo blockchain. Designed to be efficient using rollup-like methods, unlike previous theoretical attempts on other chains.",
+      "key_terms": [
+        "Lithos",
+        "decentralized mining",
+        "mining pool",
+        "rollup",
+        "proof-of-work"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Sidechain Development Tools & Mining Pool Integration",
+      "category": "technical",
+      "start_time": "45:34",
+      "end_time": "48:44",
+      "primary_speaker": "kushti",
+      "summary": "Plans for library and UI tools to easily build merge mined sidechains and enable mining pools to support them. Comparison made to Dogecoin as successful merge mined sidechain that became larger than Litecoin.",
+      "key_terms": [
+        "sidechain templates",
+        "mining pools",
+        "merge mining",
+        "Dogecoin",
+        "meme coins"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Nautilus Multi-chain & Minotaur MultiSig Updates",
+      "category": "ecosystem",
+      "start_time": "48:44",
+      "end_time": "52:32",
+      "primary_speaker": "qx()",
+      "summary": "Discussion on Nautilus potentially following Rosen Bridge supported chains. Praise for Minotaur 2.0 MultiSig functionality enabling fast DAO operations. Creative use case shared of roommates using custom tokens for expense tracking.",
+      "key_terms": [
+        "Nautilus",
+        "multi-chain",
+        "Minotaur",
+        "MultiSig",
+        "DAO",
+        "expense tracking"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "Developer Onboarding & Contribution Opportunities",
+      "category": "community",
+      "start_time": "53:27",
+      "end_time": "58:33",
+      "primary_speaker": "kushti",
+      "summary": "Guidance for embedded software engineers entering blockchain development, with emphasis on Rust development opportunities in GitCircles, ChainCash, and merge mined sidechains. Encouragement to join main Telegram group for collaboration.",
+      "key_terms": [
+        "developer onboarding",
+        "Rust development",
+        "embedded software",
+        "GitCircles",
+        "Telegram group"
+      ]
+    }
+  ]
+}

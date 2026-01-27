@@ -1,0 +1,133 @@
+{
+  "call_date": "2025-09-26",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "04:29",
+      "question": "What's the current status of sub-blocks development?",
+      "asker": "qx()",
+      "answer": "Sub-blocks DevNet is progressing well and should be ready for community testing in a few days. There are some issues to fix but not many. Initial support for sub-blocks in mempool and the node's wallet is mostly done, and they're testing by bombing the devnet with transactions.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "sub-blocks",
+        "devnet",
+        "mempool",
+        "scaling"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "15:05",
+      "question": "What is Hermes in the context of Ergo development?",
+      "asker": "qx()",
+      "answer": "Hermes is a real-time and mempool-aware box streamer built on top of the index node. It was initially designed for Machina Finance but is generic enough to be used for any dApp and could potentially replace GraphQL on Nautilus.",
+      "responder": "HQ3rr",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "mempool",
+        "box-streamer",
+        "GraphQL",
+        "dApp-infrastructure"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "21:07",
+      "question": "Is there concern about similar delisting demands from other exchanges like HTX's marketing fee extortion?",
+      "asker": "T-Rog",
+      "answer": "HTX appears to be an outlier that has started aggressively demanding extortion fees over the past month, likely due to cash flow issues. Other exchanges haven't shown similar patterns of threatening delisting for arbitrary marketing fees without proper notification or communication.",
+      "responder": "qx()",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "exchanges",
+        "delisting",
+        "HTX",
+        "marketing-fees"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "23:41",
+      "question": "How can Ergo get listed on major exchanges without paying large listing fees?",
+      "asker": "implicit",
+      "answer": "Some exchanges like BitGet now automatically show tokens that have sufficient liquidity on Ethereum or Binance Smart Chain pools through AI filters. By providing liquidity on these chains via Rosen Bridge, Ergo could get exposure on major centralized exchanges for free, and potentially get native integration if trading becomes active.",
+      "responder": "kushti",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "BitGet",
+        "liquidity-pools",
+        "Rosen-Bridge",
+        "wrapped-tokens"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "40:24",
+      "question": "Can ChainCash protocol be limited to only accept certain types of collateralization and note standards?",
+      "asker": "Grayman",
+      "answer": "Yes, it's left to each party to decide what ChainCash notes they accept. You can accept only notes backed by particular assets and specific collateralization levels. Every party has an individual risk profile, so the system doesn't fail entirely like in 2008 - some circles could fail during crisis while more conservative actors would survive.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "advanced",
+      "related_terms": [
+        "ChainCash",
+        "collateralization",
+        "risk-management",
+        "monetary-policy"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "45:29",
+      "question": "How would reputation systems work with ChainCash to prevent bad actors from defaulting?",
+      "asker": "Grayman",
+      "answer": "Reputation would be built based on trading history, which is essentially a summary of transaction history. Since we don't have state control, reputation systems could include incentivized agents to probe and challenge reputations, with on-chain challenges and defenses with deadlines to prevent spam.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "advanced",
+      "related_terms": [
+        "reputation-systems",
+        "ChainCash",
+        "credit-risk",
+        "on-chain-governance"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "51:02",
+      "question": "Will ChainCash be a separate project with its own marketing budget and token?",
+      "asker": "qx()",
+      "answer": "There will be no token for ChainCash because kushti doesn't like issuing tokens when they're not needed. However, there will be a need for some marketing. ChainCash serves as a monetary expansion tool built on top of Ergo as the reserve asset.",
+      "responder": "kushti",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "ChainCash",
+        "tokenomics",
+        "reserve-asset",
+        "monetary-expansion"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "51:35",
+      "question": "What's the relationship between Ergo as a platform and ChainCash as a protocol?",
+      "asker": "Grayman",
+      "answer": "Ergo serves as a smart reserve asset that allows different protocols to be built on top of it. ChainCash functions as a monetary expansion tool because real economies need some kind of monetary expansion to be useful, which differs from the fixed-supply crypto approach.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "platform-architecture",
+        "reserve-asset",
+        "monetary-expansion",
+        "protocol-design"
+      ]
+    }
+  ]
+}

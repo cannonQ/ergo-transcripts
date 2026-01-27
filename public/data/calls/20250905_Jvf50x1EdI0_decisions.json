@@ -1,0 +1,144 @@
+{
+  "call_date": "2025-09-05",
+  "call_title": "Ergo PoW Blockchain - Community Chat - September 4th",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "00:50",
+      "decision": "Moving AMA format to community chat where anyone can show up, ask questions, or observe",
+      "speaker": "qx()",
+      "context": "As promised in the last AMA, changing to more open format",
+      "topic": "governance",
+      "significance": "minor",
+      "quote": "As promised, in the last AMA, we are going to move this format to what you're seeing now, which is a community chat."
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "05:38",
+      "commitment": "Will propose second pull request for sub-blocks review in Sigma SDK repository",
+      "owner": "kushti",
+      "timeline": "this week",
+      "topic": "technical",
+      "quote": "And this week, I'm going to propose a second pull request for review, sub-blocks related, I mean, now in the Sigma SDK repository."
+    },
+    {
+      "id": 2,
+      "timestamp": "07:18",
+      "commitment": "Start testing Git Circles with test tokens and manual rewarding",
+      "owner": "kushti",
+      "timeline": "in a few days",
+      "topic": "technical",
+      "quote": "So we can start testing it in a few days, hopefully. I mean, do some testing tokens. rewarding with it manually for starters."
+    },
+    {
+      "id": 3,
+      "timestamp": "13:08",
+      "commitment": "Write high-level description of ChainCash basis design",
+      "owner": "kushti",
+      "timeline": "maybe later today",
+      "topic": "technical",
+      "quote": "I'm going to write some high-level description, maybe later today, because I came to this design only yesterday."
+    },
+    {
+      "id": 4,
+      "timestamp": "31:43",
+      "commitment": "Write document on how silver-based ChainCash system can be implemented",
+      "owner": "kushti",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "so I can maybe write a document how such system can be implemented."
+    },
+    {
+      "id": 5,
+      "timestamp": "37:02",
+      "commitment": "Ship three infrastructure machines to Jemai, Satoshi, and Lucas",
+      "owner": "qx()",
+      "timeline": "today or tomorrow",
+      "topic": "infrastructure",
+      "quote": "So these machines will ship out for those three guys today or tomorrow."
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "21:29",
+      "question": "How popular can it be to have small communities trading digitally against tokenized silver reserves",
+      "context": "Discussing ChainCash implementation with silver backing",
+      "topic": "adoption",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "44:24",
+      "question": "Timeline uncertainty for October/November deliverables due to testing phase",
+      "context": "Multiple projects in testing phase including Rosen, Lithos, Machina Finance",
+      "topic": "project-timeline",
+      "raised_by": "Armeanio"
+    },
+    {
+      "id": 3,
+      "timestamp": "51:05",
+      "question": "State of MCP development for Ergo",
+      "context": "Discussion about tools for connecting frontend/backend to blockchain",
+      "topic": "development-tools",
+      "raised_by": "kushti"
+    }
+  ],
+  "reversals_or_updates": [
+    {
+      "id": 1,
+      "timestamp": "10:00",
+      "previous": "Original ChainCash basis design for off-chain payments",
+      "update": "Reworked to use IOU records tracked by minimally trusted tracking agents",
+      "reason": "Original design not suitable for use cases like micropayments",
+      "speaker": "kushti",
+      "topic": "technical"
+    }
+  ],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "01:41",
+      "fact": "kushti will visit Korean Blockchain Week, described as one of the biggest blockchain events globally",
+      "speaker": "kushti",
+      "topic": "events"
+    },
+    {
+      "id": 2,
+      "timestamp": "07:11",
+      "fact": "Git Circles persistence functionality is more or less done",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 3,
+      "timestamp": "21:49",
+      "fact": "America had silver coinage up until 1964, with 1-2 billion ounces worth still sitting around",
+      "speaker": "Grayman",
+      "topic": "economics"
+    },
+    {
+      "id": 4,
+      "timestamp": "36:53",
+      "fact": "Three more infrastructure peers signed up: Jemai, Satoshi, and Lucas",
+      "speaker": "qx()",
+      "topic": "infrastructure"
+    },
+    {
+      "id": 5,
+      "timestamp": "42:23",
+      "fact": "Rosen has gone through Catalyst funding application process, currently in community reviews",
+      "speaker": "Armeanio",
+      "topic": "funding"
+    },
+    {
+      "id": 6,
+      "timestamp": "57:07",
+      "fact": "Cyberverse is shutting down for 30 days for a huge rebuild starting in two days",
+      "speaker": "qx()",
+      "topic": "gaming"
+    }
+  ]
+}

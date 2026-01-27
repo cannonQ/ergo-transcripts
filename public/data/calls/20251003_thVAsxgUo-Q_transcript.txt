@@ -1,0 +1,841 @@
+[00:14] **qx()**: Good morning, everybody.
+
+[00:15] **qx()**: Welcome to the weekly community Ergo AMA, where if you're brave enough to join, you can ask live questions or be tested with questions from us of why you're an Ergo member and what you want out of this space.
+
+[00:31] **qx()**: So please, we encourage you to join on the link down there in the YouTube channel.
+
+[00:37] **qx()**: You'll see it down below in the comments.
+
+[00:39] **qx()**: And hit us up and join the community.
+
+[00:43] **qx()**: This week we're wrapping up getting ready to, well, let me say first hi to CQ, Byron, Aberg, HQ3rr and kushti are all in the chat with us today. Maybe one of them will turn on their video at some point.
+
+[00:56] **qx()**: We'll see, takes a little bit to warm up. But good morning everybody that's here.
+
+[01:01] **qx()**: Thanks for joining us in person. You guys there anybody? Yeah, we're still here. All right.
+
+[01:13] **qx()**: Good morning, kushti.
+
+[01:14] **qx()**: And then we got some chat people saying, hey, great.
+
+[01:18] **qx()**: So we are wrapping up. I'm packing a box up this weekend and shipping it out to the Meetup event space in Colorado, sunny Colorado Springs.
+
+[01:30] **qx()**: Shipping out projectors, shipping out swag for people that are coming, given our video streaming equipment.
+
+[01:37] **qx()**: So I hope that box doesn't get stolen actually.
+
+[01:40] **qx()**: And we're going to stream the talks that are there to you guys that can't make it in person.
+
+[01:45] **qx()**: We're looking on some couple kegs to drink during the party.
+
+[01:49] **qx()**: And we've got Chris on the hook for making us Korean barbecue for dinner on Saturday night. Kind of all hands on deck.
+
+[01:58] **qx()**: It's going to be a great time. Good meetup in the fashion of community and sharing so super excited about that.
+
+[02:06] **qx()**: So yeah. What's new with you guys kushti? What's new?
+
+[02:11] **Kushti**: A lot of things so yeah, you can actually make all the participants co-hosts.
+
+[02:17] **Kushti**: So yeah, all of them know.
+
+[02:21] **Kushti**: You trust them?
+
+[02:23] **Kushti**: Yeah. So Aberg is quite well known on Twitter from three. Byron participated in the last call, right? And EHQ also quite known.
+
+[02:40] **qx()**: Great.
+
+[02:41] **qx()**: They are co-hosts. Kushti is forced to be co-hosts, guys, so feel free to turn on your cameras if you want to.
+
+[02:47] **qx()**: No pressure.
+
+[02:49] **qx()**: What's new, Kushti? What's new this week?
+
+[02:52] **Kushti**: A lot of things so yeah, well quite good developers chat yesterday and well published also some thoughts on the main telegram group right, not thoughts but observation what's going on so that is good progress which I see from the USC stablecoin. Unfortunately Richie can't join us right now because he has some real life.
+
+[03:22] **Kushti**: But yeah, from November, he's promising to start spending in the community calls.
+
+[03:31] **Kushti**: That's great.
+
+[03:33] **Kushti**: To participate more. So he joined one call, right? Not only one.
+
+[03:39] **Kushti**: Then yeah what else, then yeah Git circles, there is quite good progress and the guys are quite preparing for initial tests in coming weeks of this month and then starting to reach developing communities right and get developers to build the digital economies on Ergo.
+
+[04:09] **Kushti**: So, well, community, but digital also.
+
+[04:16] **Kushti**: Native digital financial circles and solutions, right? Around probably the most natural environment for community counts approach to be applied.
+
+[04:29] **Kushti**: Rights of open source development circles.
+
+[04:34] **Kushti**: Then yeah, there is good progress with basis Chain Cash.
+
+[04:39] **Kushti**: So this month we can start some demos and one developer started to develop wallets.
+
+[04:49] **Kushti**: So there will be like two phases, right, of basis.
+
+[04:59] **Kushti**: Well, at least it is how it's seen from now.
+
+[05:03] **Kushti**: So, there will be some solution for community trading, right, with off-chain cash backed by Ergo reserves.
+
+[05:12] **Kushti**: And then, yeah, another solution would be for agents, robots, right.
+
+[05:19] **Kushti**: So, no wallet needed here, but we need to do some plugins for existing protocols like A2P, or just existing solutions such as peer-to-peer networks and agentic networks.
+
+[05:40] **Kushti**: Then what else? There is now finally a fix in Nautilus for ledger as well as some more news from Nautilus, right, covering the dev update.
+
+[05:55] **Kushti**: And yeah.
+
+[06:01] **qx()**: If you're reading the dev updates, let me hit that right now.
+
+[06:10] **qx()**: We'll pop it on screen.
+
+[06:12] **Kushti**: If that's what you're hitting through. One second, I need to charge my device also.
+
+[06:17] **qx()**: Yeah, so you were talking about Git circles on the dev update.
+
+[06:29] **Kushti**: I made another pull request for a smile since three left and yeah, so we need actually for Joe to participate more, right?
+
+[06:40] **Kushti**: Because a lot of like a storm of tweets, having regularly, about rooms.
+
+[06:50] **Kushti**: So, yeah, it seems a lot of insights and yeah the guys doing a lot here and yeah actually I'm now in touch it's not covered in dev chats yeah HQ will answer a bit later so.
+
+[07:22] **Kushti**: It's not covered in the dev chat, but yeah, I'm also talking with the other guys on Monero. right?
+
+[07:30] **Kushti**: So we are doing some, that'd be great.
+
+[07:32] **qx()**: What's the big challenge with that kushti, with bridging to Monero compared to other chains?
+
+[07:37] **Kushti**: Yeah. So, there is no much fields to write data we need for rights.
+
+[07:47] **Kushti**: So, and if there are possibilities, there is need for some well, support for it and the users, right?
+
+[07:56] **Kushti**: So there are some protocol possibilities which are not covered in wallets, right?
+
+[08:01] **Kushti**: And then they're not quite usable anyway.
+
+[08:05] **Kushti**: So yeah, it's quite challenging, but well, if this is possible, even in some ugly ways, then yeah, we are looking for better ways to do it.
+
+[08:20] **qx()**: You can't fragment it and spread the data across several different entries, like several different tokens?
+
+[08:30] **Kushti**: So you can put data in the whole transaction, right?
+
+[08:34] **Kushti**: So not just you take the whole transaction, test some fields.
+
+[08:40] **Kushti**: But yeah, the question is also about world supports and so on.
+
+[08:46] **Kushti**: So it's not that easy, to be honest.
+
+[08:50] **Kushti**: But yeah, we continue to explore different options.
+
+[08:54] **Kushti**: So at least there are some options, which is already good.
+
+[08:59] **Kushti**: But yeah, we need to find some solution which is also quite comfortable for end users, right?
+
+[09:08] **Kushti**: Right, right, right. I mean, no, not some command line scripts.
+
+[09:16] **Kushti**: I don't know, like two hundreds of notes around the world. Just.
+
+[09:23] **qx()**: Yeah, makes sense.
+
+[09:25] **Kushti**: Okay. So let's see. And then, yeah, about keystone.
+
+[09:30] **Kushti**: So, actually, there was updates recently, there was our group from, not from AnonBR, it's not from TGR.
+
+[09:43] **Kushti**: Let me check.
+
+[09:49] **HQ3rr**: Last I see, I remember that he said that they were waiting on AnonBR to do some stuff for Nautilus and he will be maybe launching an event, a competition for custom keystone.
+
+[10:01] **Kushti**: Oh, yeah. All right.
+
+[10:04] **Kushti**: So then we need to ping AnonBR indeed.
+
+[10:10] **Kushti**: Yeah. So waiting for Keystone. So Keystone will let you buy a wallet with an Ergo engraving or an Ergo sticker on the back.
+
+[10:29] **Kushti**: Yeah, but the community needs to do something for that. So yeah, that's awesome.
+
+[10:32] **Kushti**: Anyone has information?
+
+[10:38] **Kushti**: So, yeah, PGR told, I'm looking into launching a small design competition for the Ergo branded Keystone device they proposed.
+
+[10:59] **qx()**: All right. Well, let's see. Let's hit through the rest of the dev updates that we may have missed real quick, and then we can keep chatting.
+
+[11:07] **qx()**: So we've got your Git circles there you already spoke about, Nautilus, fixed web hit, ledger-to-ledger interactions, researching on Bitcoin runes integration.
+
+[11:17] **qx()**: That'll be awesome.
+
+[11:19] **qx()**: Machina and Hermes, still working on it towards an MVP, but nothing relevant to report.
+
+[11:25] **qx()**: Let's see. Bro Etiquette is working on LLM commands.
+
+[11:31] **qx()**: Comrades, he's working on Comrades. LLM, what's he doing with LLMs?
+
+[11:36] **Kushti**: So he is currently writing persistence layer for Git circles.
+
+[11:42] **Kushti**: Oh, nice.
+
+[11:44] **Kushti**: Okay. Yeah, quite okay to do this with LLM comrades.
+
+[11:49] **Kushti**: So actually it's not on the chart, but yeah. Actually, like two weeks ago, I've pushed agents MD rules for the nodes and the sigma SDK.
+
+[12:05] **Kushti**: So it's going to be a quite important topic in 2025, right?
+
+[12:10] **Kushti**: And I'm just current different possibilities to utilize AI agents by myself.
+
+[12:18] **Kushti**: And yeah, it seems they quite great in analyzing the code, right?
+
+[12:24] **Kushti**: So you know, before we just had a white paper and then the code, right?
+
+[12:31] **Kushti**: But you need to be a developer to get through the code and extract what's there, right, in details.
+
+[12:43] **Kushti**: But now you can just launch an agent and ask it to analyze the code, right?
+
+[12:54] **Kushti**: Or even write some tests, some simulations and so on.
+
+[13:07] **Kushti**: Who is that?
+
+[13:09] **qx()**: Just another spammer. I removed him.
+
+[13:11] **qx()**: No biggie. Keep going, sir.
+
+[13:13] **Kushti**: Oh, that's Brandon.
+
+[13:16] **Kushti**: Yeah. It seems so trolls, which is quite great.
+
+[13:23] **Kushti**: That's funny.
+
+[13:27] **Kushti**: All right. So, yeah. So, you know, now, yeah.
+
+[13:32] **Kushti**: So talking about trolls. So, a lot of weird trolls, trying to spread lies even about some very basic things, right?
+
+[13:44] **Kushti**: But you can now analyze the code with an AI agent, right?
+
+[13:50] **Kushti**: And yeah, it will tell you about the detailed properties of distributions, well, supply and so on.
+
+[14:00] **Kushti**: So you can ask it to write simulations tests, write some showcase programs and so on.
+
+[14:10] **Kushti**: So yeah, well, it's understandable why trolls are going mad.
+
+[14:16] **Kushti**: So now it's quite easy to get code concepts, right? Even without coding skills, kind of.
+
+[14:27] **Kushti**: So you just need to well, tech savvy, right? To install an agent or an IDE with a built engine.
+
+[14:38] **Kushti**: Then, yeah, import the project from GitHub, but it's not about coding skills, right? So just tech stuff.
+
+[14:46] **Kushti**: But then, yeah, two weeks ago, I proposed rules for agents to limit them to just working on the testing code, not to touch the main code, because it's security-critical, so it should be done by humans only, totally reviewed by other humans, I believe, because it's security-critical and yeah, it should be developed like an open source project.
+
+[15:25] **Kushti**: But for tests, AI is actually working great.
+
+[15:30] **Kushti**: It's now helping to cover the behavior of the tests.
+
+[15:39] **Kushti**: Yeah, it actually can help just tech savvy people to understand what's the rights on the two or combats, wise, they've been spread around sometimes.
+
+[16:02] **qx()**: Okay.
+
+[16:04] **qx()**: Yeah. I see you vibe coded a rough prototype for basis Chain Cash.
+
+[16:10] **qx()**: That's pretty funny.
+
+[16:13] **Kushti**: Yeah, but it's actually sometimes useful or sometimes absolutely useless.
+
+[16:20] **Kushti**: So yeah, I spent a lot of time to get it doing well-correct Schnorr signature implementation.
+
+[16:32] **Kushti**: So yeah, it's made everything wrong again and again for multiple times.
+
+[16:39] **Kushti**: Yeah. Before I've provided, well, concrete code from another project, right?
+
+[16:49] **qx()**: What are you using for, what tool are you using? Deep Seek.
+
+[16:55] **Kushti**: So it's Cursor and Deep Seek behind.
+
+[16:59] **Kushti**: Yes. So, so the main part is Cursor, which is iterative for kind of agent right so it can run tests then write code then run tests again right it can download materials and code from internet so it's yeah like it's not just chat right chat bot it's like comprehensive toolset.
+
+[17:34] **Kushti**: Which is also, it's not just composing codes, right? So chatting with you. So it's, yeah.
+
+[17:44] **Kushti**: So, or you need to provide permissions, right? To to write on this or download from internet.
+
+[17:51] **Kushti**: And still I'm using clean laptop for it just in case, to avoid, you know, the whole disk to be wiped out or, I don't know, being uploaded to somewhere.
+
+[18:07] **Kushti**: But yeah, so it's working great at the same time.
+
+[18:12] **qx()**: Yeah, I find it rough prototyping those initial things on the stuff I do here, which as some of you know is in Perl joke, right?
+
+[18:22] **qx()**: HG loves Perl.
+
+[18:24] **qx()**: It's so fast. It's extremely fast.
+
+[18:26] **HQ3rr**: I just puked here, man.
+
+[18:31] **qx()**: It's crazy fast. It gets through that whole spot of the, you know, I mean, because most of the time when I'm writing stuff for school, at least recycling a lot of stuff, right?
+
+[18:41] **qx()**: So this essentially lets me get past that stage immediately into some sort of testing phase to see what works.
+
+[18:47] **qx()**: So, yeah, I hear you.
+
+[18:51] **qx()**: HQ never uses AI. He just speaks code. It just comes right out of the fingertips, right HQ?
+
+[18:57] **qx()**: You said fingertip, right?
+
+[19:01] **qx()**: Oh, you don't have any fingertips?
+
+[19:03] **HQ3rr**: No, I was just referencing to something else, but I will stop doing that.
+
+[19:07] **qx()**: Oh.
+
+[19:10] **qx()**: All right, taking silver so it's idea by Grayman and others cool idea by Grayman here if you guys haven't heard it.
+
+[19:17] **qx()**: Maybe we'll get him to talk more about it at the meetup and he can stream some of that stuff. He's gonna bring a couple Grayman says yeah I'm gonna bring some dime bags to the meetup and I was like you're gonna bring pot to the meetup? And he's like no, no, no I'm gonna bring silver dimes in little bags and hand them out. It's like well, that's a lot different than a dime bag.
+
+[19:39] **qx()**: Engrain them.
+
+[19:42] **qx()**: So that'll be neat to have. He's got some early century, 52 or maybe earlier, silver dimes that he's going to hand out.
+
+[19:50] **qx()**: Math Spectator started a wallet. kushti talked about that already.
+
+[19:55] **qx()**: We've got Glasgow on the Docs Ergo Platform improvements.
+
+[19:59] **qx()**: He's done some nav tidying up. Start here overhaul, which is great.
+
+[20:04] **qx()**: Developer and wallet docs. New developer guides and wallet area now uses clear language and updated links throughout.
+
+[20:09] **qx()**: New content, added a page for how to use a Rosen Ergo on BNB chain.
+
+[20:13] **qx()**: Oh, nice. And fixes and polishes, corrected URLs, text, removed typos, and cleared MK docs for him.
+
+[20:19] **qx()**: Thank you, Sir Glasgow.
+
+[20:22] **qx()**: Let's see, kushti's got node, protocol and reference client R&D, mempool and wallet support for input box done, writing a white paper on input ordering blocks, generated more tests with an agent on 6.0, and generated global transfer policy contract example, fully in ErgoScript.
+
+[20:43] **qx()**: Braid version of native support would be much simpler.
+
+[20:46] **qx()**: Let's see we got anything else here. We've got USC stable coin more info about that the USC oracle pool version 2 launched by 4 or 5 6.
+
+[20:59] **qx()**: Oh, when did that happen?
+
+[21:01] **Kushti**: Yeah, so just few days ago. So now we have four running USC oracle pool.
+
+[21:09] **qx()**: Amazing. How many oracles did you make 30?
+
+[21:12] **Kushti**: Oh, actually, I don't know. So it was done solely by PGR, which is quite great.
+
+[21:19] **Kushti**: The time not involved in just another venture.
+
+[21:23] **Kushti**: Yeah.
+
+[21:24] **qx()**: So HQ says 12 oracles already in that pool.
+
+[21:28] **Kushti**: But, yeah, I think it's, yeah, 30 tokens from what we discussed before the launch.
+
+[21:36] **Kushti**: And, yeah. So now we are discussing with Richie and the group that is telegram group some launch parameters for the bank and the LP.
+
+[21:54] **qx()**: Nice.
+
+[21:55] **qx()**: All right. Well, let's see if that is all right. Good. That's that we got a couple of questions.
+
+[21:59] **qx()**: We can bang out real quick. Let's see.
+
+[22:01] **qx()**: Oh, here's a tough one. Maybe a little spicy. Let's see.
+
+[22:05] **qx()**: Oh, Byron, where are you talking?
+
+[22:11] **qx()**: Somebody was CQ CQ.
+
+[22:13] **CannonQ**: Yeah, I was just going to say before you jump in on the AI agent stuff or model, LLMs, DeepWiki works really good for looking at the various projects repos.
+
+[22:30] **CannonQ**: It can, I mean, break it down and give you a high level summary and ask a question.
+
+[22:36] **CannonQ**: So anyway, it's just DeepWiki.com or .ai.
+
+[22:43] **CannonQ**: It does a great job. I've used it for Rosen to send information on how Rosen Bridge works to people and whatnot.
+
+[22:50] **CannonQ**: Anyone.
+
+[22:52] **qx()**: Nice.
+
+[22:53] **qx()**: Okay. Thanks. It's funny how these.
+
+[22:58] **Kushti**: I think we can do a more exciting thing. So, my hope to find some time, maybe to prototype some whole application like dApp, right. It's an agent just.
+
+[23:19] **Kushti**: Yeah, and another idea we discussed briefly about the dev chat I proposed. So we have a lot of ideas from 2020 and now, yeah, it seems it's possible to white-code them into the tests, right, for Sigma SDK, like we did back in 2019 when I designed the interpreter on the high level of ErgoScript language.
+
+[23:48] **Kushti**: So, yeah, we did examples like DEX orders, well, the mixing contract, right, which then was evolved into the Ergo Mixer ICO example, because it was time of ICOs back then and so on.
+
+[24:09] **Kushti**: And yeah, well, it's quite useful content right and well as we have for much more on the format to make sense to make more examples now maybe assign small bounties for people to do such stuff with agent and I can just manually review contracts right and the testing preppers that there is no need for humans to bother with it mostly.
+
+[24:34] **Kushti**: So if test is passing, then everything is okay.
+
+[24:43] **Kushti**: And the replica could be just generated automatically.
+
+[24:49] **Kushti**: And then, yeah, with that, we can go further.
+
+[24:56] **Kushti**: So I think as Ergo contracts are templatizable, actually, they also are friendly to AI.
+
+[25:09] **qx()**: HQ says, fun fact, it will take him 10 seconds to create a complete marketplace with USC token utility trade swap.
+
+[25:16] **qx()**: I think if I'm not mistaken, that's the same amount of time it took him to make his child.
+
+[25:21] **qx()**: So he's pretty good at that. 10 seconds.
+
+[25:27] **HQ3rr**: I'm the only one laughing at that. All right.
+
+[25:28] **HQ3rr**: Ten seconds, right? Because we just need a front end to allow the selection of it.
+
+[25:33] **HQ3rr**: And that's it because it is already supported in my, in MewMart.
+
+[25:37] **qx()**: Oh, nice. Nice. Very cool. Very cool.
+
+[25:39] **qx()**: All right. Let's see this question. Here we go.
+
+[25:42] **qx()**: Sigmanaut says, it would be cool if someone were to clarify who is still an active member of the EF, Ergo Foundation.
+
+[25:50] **qx()**: Who is responsible for what? Or are they all afraid of bearing any responsibility, thanks in advance?
+
+[25:56] **qx()**: Kushti, don't answer this one, please.
+
+[25:59] **qx()**: So...
+
+[26:01] **Kushti**: But I have no idea, to be honest. I would be interested to see an answer.
+
+[26:10] **qx()**: So we've got Justin, we've got AnonBR, we've got Allison, we've got Glasgow.
+
+[26:18] **qx()**: Joe is I think off by now, yeah. I think that he talked about it a while ago about leaving and I think he somewhat made it official unofficially.
+
+[26:28] **qx()**: I don't know.
+
+[26:31] **qx()**: So yeah, you got the core members right there. During the EF, Glasgow, as you know, is structure that you see online.
+
+[26:39] **qx()**: That would be the website, the docs, working with those, all the discords and telegrams as well.
+
+[26:47] **qx()**: That's his shtick. You have also Andy, who's running the video show, right?
+
+[26:52] **qx()**: The EF has Andy involved for that. The EF also hires Angie as well to do some promotions, like some of the Twitter, what's it called?
+
+[27:06] **qx()**: You'll see it for the ErgoHack, those kind of things as well.
+
+[27:10] **qx()**: Finds writers to help write articles. Pretty much it as far as that goes.
+
+[27:17] **qx()**: You know, we're trying to move everything as community oriented as possible.
+
+[27:21] **qx()**: So there used to be a person they paid for infrastructure and we're trying to migrate that to the community infrastructure.
+
+[27:30] **qx()**: I know that's taken a little while and that's on my fault. Oh, MGPi, thanks HQ. MGPi joined as well, the EF.
+
+[27:38] **qx()**: So that's something that I'm trying to take in on mine, but you know, with the meetup front and center it's kind of slowed down.
+
+[27:44] **qx()**: I've got some machines I have to take to Colorado I think to give to yeah I don't think yeah there's a payroll person as well says HQ.
+
+[27:54] **qx()**: I don't think people know our name I'm not saying our name people can see it in chat but yep so there's that person as well.
+
+[28:00] **qx()**: But a couple machines that take the Colorado handout and another one to ship, but I just have to drive by the place to do that.
+
+[28:07] **qx()**: So yeah, that's the idea that we're trying to offload those kind of responsibilities to the community so that the chain can truly be community organizing community run as opposed to a centralized entity doing things and it's possible just slow, right?
+
+[28:23] **qx()**: So eventually. Hopefully, I think at some point they spoke about the EF being some sort of research wing or something like that.
+
+[28:32] **qx()**: But even at this point, I don't know what the possibilities are considering kushti's offshot is developer DAO, which could turn into research and development as well.
+
+[28:42] **qx()**: So yeah, I mean, when community have the power to do anything they want with a chain, then anything can happen.
+
+[28:49] **qx()**: And that's great. So yes, that's hopefully that was a cloudy enough answer for you Sigmanaut on that.
+
+[28:55] **Kushti**: Yeah, so on the ErgoDevs DAO site, we have quite a lot of bounties proposed for different issues, and thanks to our recent crowdfunding campaigns done by some community members, I don't know.
+
+[29:18] **Kushti**: But yeah, we now have a bigger budget, so we can do some more aggressive promotion among developers.
+
+[29:31] **Kushti**: And then yeah, I'm also investigating possibilities to do a commercial company, so vibrate and so on.
+
+[29:44] **Kushti**: is about that, so I think it could be a good time.
+
+[29:52] **Kushti**: Bitcoin, for example, had a Blockstream back in 2015, so I think it could be the same.
+
+[30:00] **Kushti**: They also had a Bitcoin foundation at some point.
+
+[30:05] **Kushti**: Then, yeah, Blockstream and now from what I see, so the core developers are sponsored by a few, actually not many, like three or four commercial companies, right?
+
+[30:23] **Kushti**: It's important to have different entities to avoid protocol development to be taken by one party just.
+
+[30:34] **Kushti**: It also would be great to see more commercial entities around Ergo.
+
+[30:52] **Kushti**: Yeah, well, it would be good in a way to start with one, even like Monero, because Tari loves, right?
+
+[31:03] **Kushti**: And Bitcoin had a Blockstream, aside of mining businesses back in 2015, maybe.
+
+[31:15] **Kushti**: So yeah, it was a Blockstream only, I believe.
+
+[31:20] **Kushti**: Right, and yeah and then with time.
+
+[31:24] **Kushti**: So what do we need is to have like a stable foundation and I believe we have it right like foundational documents like manifesto and so on white paper.
+
+[31:35] **Kushti**: Then yeah maybe there is need to compose more but what do we need is to develop Ergo itself as well open source kind of project and yeah, the goal is to get the protocol to provide a global neutral settlement layer for programmable money, right, of different kinds.
+
+[32:07] **Kushti**: Where the native cryptocurrency, the proof-of-work cryptocurrency ERG is just the lowest common denominator, so the collateral of the best quality, because of it's been native, right, in the first place.
+
+[32:32] **Kushti**: So, yeah, well, we had a lot of talks, a lot of things written here and there over the years, so maybe it makes sense to compile all this.
+
+[32:45] **Kushti**: Yeah, we need to strengthen the foundation and to grow.
+
+[32:52] **Kushti**: So that doesn't make sense to rely on some entity, right, to do everything.
+
+[33:04] **Kushti**: So it's the time for that is over. And he actually over like a couple of years ago.
+
+[33:14] **Kushti**: I think so. Now it's time to to grow in all the directions.
+
+[33:26] **qx()**: So Sigmanaut has a follow-up. He says, thanks for the answer.
+
+[33:29] **qx()**: It's just a bit weird as a long-term community member not to be informed about major changes in the EF.
+
+[33:33] **qx()**: Community approach is great, but not without officially informing the community.
+
+[33:36] **qx()**: Yeah, Sigmanaut, I would say that we've been very clear about this in AMAs and Telegram chats and Twitters about people leaving, about people joining the foundation.
+
+[33:48] **qx()**: Many, many times during AMAs, we've discussed about what the idea of the EF is and what their goal was and what it is.
+
+[33:57] **qx()**: And the goal was to have a foundation that could help bootstrap the community, right?
+
+[34:02] **qx()**: And then slowly fade out into whatever. either non-existence or a research foundation or something else that just helps with maintaining things.
+
+[34:12] **qx()**: So that's been, ever since I've joined, that's been what I've spoken about it in public, as well as what has been spoken about in the channel.
+
+[34:21] **qx()**: So I think we've been, probably not recently been clear about it, but it has definitely been a topic many times throughout the last several years about what that is going to look like.
+
+[34:32] **qx()**: So I hear you, but yeah.
+
+[34:34] **qx()**: Okay.
+
+[34:35] **Kushti**: And yeah, and according to the white paper, so the original plan was to have this bootstrapping entity for two years and a half, right?
+
+[34:46] **Kushti**: And now it's a year past, so yeah, it's actually well, long overview, but it is what it is.
+
+[34:57] **Kushti**: So still, yeah, it's doing some needed things, right? The sanctity, but yeah, well, we need to act towards growth and well, I think, and yeah, it's going from the white paper, right?
+
+[35:18] **Kushti**: And the white paper was published back in 2019, a few months before the mainnet launch.
+
+[35:26] **Kushti**: And that's, yeah, well, there was no plan ever to have this bootstrapping entity to to control the growth forever.
+
+[35:47] **Kushti**: It's limited simply by the white paper.
+
+[35:53] **qx()**: Yep, yep, yep.
+
+[35:55] **qx()**: Okay, we've got another question from, let's see, from Willem Jan Vandenberg.
+
+[36:03] **qx()**: Is there a cooperation between Ergo and Palmyra? Are they building Palmyra platform on Ergo and Cardano?
+
+[36:08] **qx()**: Perhaps one of you could provide clarity on this, thanks in advance.
+
+[36:10] **qx()**: The best person to answer that probably is Luca or Dan I think MGPi is not necessarily involved in that specific part of it in Palmyra last time I asked him but the bottom line you have to remember yes we've seen Winter Protocol being ported to Cardano and running on there but the bottom line you have to remember and the best I can answer right now without being involved with Palmyra is that one Ergo's an open chain people are going to use it right two.
+
+[36:39] **qx()**: nothing compared to Cardano. Scalability of fees, network fees, to create all these tokens and tracking is I don't think feasible on Cardano necessarily compared to how feasible it is on Ergo.
+
+[36:58] **qx()**: So as a company when you look at two things and you're saying okay I can run my Winter Protocol on this chain but it's going to cost my clients this much and I'm going to have to pass that cost on to them or I can run on this chain and the cost is less from a straight business decision.
+
+[37:14] **qx()**: It's obvious which chain is going to be utilized for that.
+
+[37:18] **qx()**: So that's just where I think in my mind. And I think that's probably what you'll see in the future once Dan's business gets in full swing with that kind of stuff.
+
+[37:27] **Kushti**: Yeah, so I cannot probably because we had a lot of talks with Dan and Sam, but not in recent months.
+
+[37:40] **Kushti**: Back in February, we were around consensus conference and before in Dubai, we had a lot of talks.
+
+[37:48] **Kushti**: So, you know, Palmyra is a real-world assets company and then, yeah, it all depends on their real-world partners.
+
+[37:56] **Kushti**: So, almost one year ago, we discussed to use Dexy or Dexy lithium stable coin to do insurance for lithium in Argentina but now for many months I haven't heard anything about lithium in Argentina.
+
+[38:23] **Kushti**: Do you guys know anything about it?
+
+[38:29] **Kushti**: Yeah. I mean, it, it heavily depends on, the needs of real world partners of Palmyra as well. Right. So we discussed some things and yeah, well, there are certain contracts implemented, I've removed them and so on.
+
+[38:51] **Kushti**: But then, yeah, it all depends on concrete things on the ground, after all, right, because it's a real world assets company.
+
+[39:03] **Kushti**: So the best thing we can do is to invite then or look and ask them, right?
+
+[39:13] **Kushti**: Because so here we don't have, anyone, deeply connected with Palmyra, right?
+
+[39:21] **Kushti**: So yeah, the the the best think we can.
+
+[39:26] **Kushti**: Yeah.
+
+[39:26] **qx()**: Maybe we should invite Sam next time. I think he's expressed interest in these kinds of AMA.
+
+[39:30] **Kushti**: Yeah. So Sam is quite devoted to Ergonauts actually.
+
+[39:35] **Kushti**: But, yeah, well, the thing is, you know, it's still a super early startup and yeah they are changing playing plans regularly which is quite normal and yeah it all depends on external actors as well right because.
+
+[40:02] **Kushti**: Yeah, well, a lot of instability in jurisdictions they're working with and yeah, a lot of instability in the development of this space, real world assets.
+
+[40:19] **Kushti**: It depends on many factors such as legal and so on, right?
+
+[40:27] **Kushti**: It would be good to invite them and have a detailed chat instead of trying to invent something on our site.
+
+[40:40] **qx()**: Yeah, agreed. Yeah, I'll ping Sam. We'll see what he says.
+
+[40:43] **qx()**: OK, let's see what else we have here.
+
+[40:47] **qx()**: We have in Zoom chat, HQ has asked, how optimistic do you feel if we invited all mining pool operators in creative mining DAO and move the important chain votes on Paideia instead of doing with changing node settings as we do it now?
+
+[41:03] **qx()**: So HQ, I would say that I would say the de facto final change is always going to be on the node config, right?
+
+[41:10] **qx()**: So that's always the change period. So no matter what you do in a DAO, on chain on the DAO, no matter what you do, things will not take effect unless miners tag along and update their node configs to do that, right?
+
+[41:25] **qx()**: So what's that?
+
+[41:28] **Kushti**: So, actually, you can build some logic on top of the node to read, well, voting decisions from DAO and change config automatically.
+
+[41:41] **Kushti**: But in reality, it wouldn't change anything really, right? Because, well, you can just tweak the settings instead of using web interface still.
+
+[41:54] **qx()**: You can always get around it. Yes, correct. Yeah, exactly.
+
+[41:56] **qx()**: So that's HQ. That's the idea of what the SIGS mining DAO was at some point, right?
+
+[42:03] **qx()**: To educate and to get people together to group them up and have them interested in tracking these changes and pushing these changes and even proposing things, right?
+
+[42:14] **qx()**: And then pushing from there. But yeah, I mean, it'd be neat.
+
+[42:19] **Kushti**: Actually, GitBlock used this, right, for some software.
+
+[42:26] **qx()**: Right, right. Yeah, they did the wallet voting for the software. Exactly. Yep, yep, yep.
+
+[42:30] **qx()**: So these things have that in the dial right there, but it's not tied to a direct change on the node, that's for sure.
+
+[42:37] **qx()**: But yeah, I think my thought would be that if it could be iron clad, if there was some sort of soft fork that changed it so that this is exactly where we're getting all details to, you could undo that at some point.
+
+[42:55] **qx()**: So it's not de facto in the end. The only de facto thing and the only fact is that miners can run a config and have a chain.
+
+[43:04] **qx()**: So while we can't police that essentially, at least you can have a group organization like a DAO, like the SIGS mining DAO. to at least gather people in and have discussions before those things are even tried to push to GitHub for changes.
+
+[43:20] **HQ3rr**: That's one of the things which I was talking, at least you have a ledger of on-chain voting and what we discussed, what was put up on vote, who talked on that.
+
+[43:30] **HQ3rr**: We can at least have that. There are many people who are trying to bring the innovation and they're trying it.
+
+[43:37] **HQ3rr**: But I think the thing is that we have tools which are not getting used.
+
+[43:41] **HQ3rr**: So what we have to do is adapt the people to use those.
+
+[43:45] **qx()**: So how do we get, so the great idea would be to create a mining DAO or modify the SIGS mining DAO and invite all the pools out there.
+
+[43:55] **qx()**: Invite every single pool out there as well as any individual miners we have and see if they'll participate.
+
+[44:01] **qx()**: My guess is that we're probably not going to see much participation in a mining DAO from big pools, right?
+
+[44:07] **qx()**: Ergo is just one facet of this massive amount of other chains that they do.
+
+[44:13] **qx()**: Maybe you will, I don't know, like Herominers is really good to us, right?
+
+[44:18] **qx()**: What's the other one?
+
+[44:19] **HQ3rr**: Unless there is an incentive for them, right? You can always mint a DAO token and you can have an LP there for it.
+
+[44:26] **HQ3rr**: So people are seeing that it is a DAO which is working DAO and people are doing stuff.
+
+[44:31] **HQ3rr**: So there might be price change in them. The only source of getting those tokens would be by participating in the DAO because they are staking, they will be staking and they will be getting using the DAO emission.
+
+[44:42] **Byron**: That's it. Yeah. Yeah. Yeah. Yeah. Yeah. True. True.
+
+[44:46] **Byron**: It's like pre-confirmation votes before the electoral votes. You got it. Yeah. Yep.
+
+[44:52] **Byron**: But yeah, it can act as campaigns.
+
+[44:54] **qx()**: Like constitutional conventions. Yeah.
+
+[44:57] **Byron**: Yeah. But it still separates it from, so you can say this is the vote, but this is the actual votes.
+
+[45:02] **Byron**: It's like pre-voting.
+
+[45:04] **qx()**: Yep.
+
+[45:07] **qx()**: Yeah. Yeah, and the idea would be, right, if you got everybody on board that's part of the DAO, then you could be pretty sure that the node config changes and people would change their node configs and follow through kind of thing.
+
+[45:18] **Byron**: And your votes actually ensure that the pool operators actually show up because the nodes that are pointing to them voted for them to show up.
+
+[45:27] **Byron**: So you can de-stake, I suppose, or whatever.
+
+[45:31] **qx()**: Yeah, that'd be interesting. If Mark, maybe Mark, when Mark watches this later from the SIGS DAO, maybe he could start thinking about getting other mining pools involved in the DAO.
+
+[45:43] **qx()**: Just because it's called Sigmanauts mining, my DAO doesn't mean it has to be just for the Sigmanauts mining pool.
+
+[45:48] **qx()**: It's just labeled Sigmanauts, I guess, at that point.
+
+[45:50] **qx()**: So yeah, Mark, if you're watching this, what are your thoughts on that?
+
+[45:55] **qx()**: When you wake up, probably sleeping, because your baby's been awake all night, right?
+
+[45:59] **qx()**: So, cool.
+
+[46:01] **qx()**: All right, what else we got? What time is it? 9.52.
+
+[46:04] **qx()**: We got another question. Here we go. From Zoom Chat.
+
+[46:08] **qx()**: That would be from Aberg. Says, does Ergo have the capabilities of launching an XMR-like privacy coin?
+
+[46:15] **qx()**: kushti, on the sub chain?
+
+[46:19] **Kushti**: Yeah for sidechain it's possible and actually one of the earliest ideas for sidechains.
+
+[46:31] **Kushti**: There is no any white paper or written proposal but yeah possible.
+
+[46:38] **Kushti**: So one option we discussed in the charts is to do DarkFi based sidechain, but DarkFi is not around yet.
+
+[46:49] **Kushti**: So DarkFi is an merged mine sidechain of Monero, which is bringing capability to execute private contracts.
+
+[47:00] **Kushti**: But yeah, it's in development yet. There is only some early testnet and yeah. Well, it makes sense to wait till launch or a moment when it will be stabilized at least. Right.
+
+[47:23] **qx()**: And would there be, would there be a need for a mixer besides saving money on bridging, when you have a privacy chain, a side chain like that?
+
+[47:35] **qx()**: Sorry. Would there be a need for ErgoMixer at that point besides the fact that you'd save money running ErgoMixer if you just bridged to the side chain and then slowly came out on other endpoints kind of thing utilizing the privacy side chain as a mixer?
+
+[47:53] **Kushti**: I don't know, so you can actually exit from the side chain to the mixer on the main chain, right? Or stealth address.
+
+[48:03] **Kushti**: Yeah, I think it still would be useful. Just for different tasks, maybe. Subtasks.
+
+[48:13] **Kushti**: Gotcha.
+
+[48:15] **qx()**: Cool.
+
+[48:17] **qx()**: Well, anything else, guys?
+
+[48:19] **Byron**: We have a reduction coming up. I thought we'd bring that up.
+
+[48:22] **qx()**: Oh, nice. Byron. What's it going to?
+
+[48:24] **Byron**: I think is what sub double digits now. Is it nine?
+
+[48:30] **qx()**: Is it the first single digit?
+
+[48:35] **qx()**: Wow. That's crazy.
+
+[48:37] **Kushti**: Yeah.
+
+[48:40] **Kushti**: Yeah. Yeah, so QX, I think there is need to tweet and yeah, I think maybe next time let's discuss Twitter strategy X strategy.
+
+[48:54] **qx()**: Let me use these few seconds to again invite people up to trial on the Sigmanauts account and then jump up to Ergo or show experience that you've had and jump right up to the Ergo platform.
+
+[49:04] **qx()**: We would love more contributors to Twitter. I tweet when I can, and that's about it.
+
+[49:10] **qx()**: And then Glasgow tweets sometimes as well.
+
+[49:13] **qx()**: But yeah, if you're interested, please let us know.
+
+[49:16] **qx()**: And we'll either look at the previous tweets you've done and take you right to the Ergo Platform one, or you can trial run on the Sigmanauts Twitter and then jump up to the Ergo Platform Twitter.
+
+[49:27] **qx()**: So please, please help.
+
+[49:32] **Byron**: I think someone asked when sub-blocks and I think it's what mid November ish or end of the year. It's time for it.
+
+[49:38] **Byron**: I think he's joking, but when sub-blocks.
+
+[49:44] **qx()**: Oh no, he means the voting. Oh yeah. Yeah. Right. When's that, when's that come into effect, kushti?
+
+[49:52] **Kushti**: 6.0 or what do you mean?
+
+[49:56] **qx()**: The vote's happening, right? Or when does that actually switch?
+
+[50:00] **Kushti**: So 6.0 will be activated in a few days, like five days.
+
+[50:05] **qx()**: Five days?
+
+[50:07] **Kushti**: Yeah, it's like 3,000 or 3,500 blocks, something like that.
+
+[50:13] **Kushti**: So, yeah, just like, five days.
+
+[50:18] **qx()**: I guess we need to tweet that too.
+
+[50:21] **qx()**: Yeah. That's two things I have to tweet. kushti. That's going to, that's going to send me back a week or two.
+
+[50:27] **Kushti**: Yeah. So there is a lot of materials for tweeting, right?
+
+[50:32] **Kushti**: So, we have a lot of things are discussed in the Telegram chats, unfortunately, and not going beyond that, right?
+
+[50:46] **Kushti**: So there is need to tweet for more, to use forum for more.
+
+[50:53] **Kushti**: Because forum is good for archival purposes and yeah, to have more articles and so on.
+
+[50:59] **qx()**: You know, I think I can point an agent at the Telegram chat and just come up with daily tweets from those discussions and the dev chat.
+
+[51:06] **qx()**: Maybe I'll try that. That might help out a little bit in the meantime.
+
+[51:09] **Kushti**: Yeah, and yeah, even things which are announced to our telegram groups. Such as main even and dev updates and so on.
+
+[51:24] **Kushti**: So yeah, makes sense to to tweets at least great idea kushti great idea.
+
+[51:32] **Kushti**: Yeah, we also need for like, catchy tweets, more like I don't know revolutionary tweets because drama kushti.
+
+[51:41] **qx()**: We had done with drama for the week or the month or we have enough drama. I guess it's a new month.
+
+[51:47] **Kushti**: I don't know about drama, but I think we always need to remind about principles and so on while the manifest, when it was tweeted for the last time like years ago.
+
+[52:01] **Kushti**: New people are coming all the time and well, my impression is that many Ergonauts are considered a community as something stable, right?
+
+[52:14] **Kushti**: It's like a small circle of their friends they're chatting with and so on.
+
+[52:19] **Kushti**: But in reality, new people are coming all the time and that there is need to introduce them things which are very known to the old members, right?
+
+[52:31] **Kushti**: But still newcomers need to get into them. To remind about principles and yeah, to build everything for growth, not for staying in the small circles.
+
+[52:47] **Kushti**: in some charts. I mean, that's not the way to get any adoption.
+
+[52:54] **qx()**: Yeah, I agree. It's manpower, too, though. So, yeah.
+
+[52:58] **qx()**: So, please, anybody who wants to help out with Twitter, that'd be great.
+
+[53:00] **qx()**: HQ just reminded us that Mark, sorry, Glasgow used to do weekly summaries in chat.
+
+[53:06] **qx()**: And I don't think I've seen those lately. But those are AI runs. So, there's no reason that we can't then extract from that already agent that he's doing that with to bring out tweets for the next week kind of thing as well.
+
+[53:20] **qx()**: So let me work with Mark or Glasgow and we'll see if we can get those back up and see if we can extract tweets from these to do from all the channels.
+
+[53:31] **qx()**: So yeah.
+
+[53:32] **Kushti**: Yeah, and another point is don't forget about national groups.
+
+[53:37] **Kushti**: So back in 2020, we built a network of national groups, Chinese, Indonesian, Russian, French, Spanish, and so on, right?
+
+[53:49] **Kushti**: So it makes sense to even auto-translate and publish, well, automatic translation or ping moderators of national groups, right?
+
+[54:02] **Kushti**: Yeah, so from our observations many of them are disconnected from the news stream and that's quite unfortunate because we basically have maybe more people there in total than in English groups.
+
+[54:22] **Kushti**: Right. So the, the main and, what else we have mining concern. So, the, there are national groups about mine concern.
+
+[54:30] **Kushti**: Yeah. And then in total, more people stay, but, they have forgotten often.
+
+[54:40] **qx()**: All right. We'll do better with that. We'll try to, are you a miner?
+
+[54:49] **Byron**: Is my mic up? Oh, I have my monitor in my living room, but it's not set up.
+
+[54:54] **Byron**: I need to set it up. I need to set it up.
+
+[54:58] **Byron**: But I was going to ask if the ERG-1 could serve as like also using the DAO framework as well to pick a community member like the usual ones that we see that do a great job on their own promoting to like help you cold produce tweets and then they can show that they are who they are that's producing it.
+
+[55:22] **Byron**: Obviously their main account and tweet from the account to help you out as like winning the whatever the ERG-1 reward is a week or a month or whatever it is or something like that and rotate it.
+
+[55:33] **Byron**: So it's like community active actions.
+
+[55:38] **qx()**: So you're talking about getting those people from ERG-1 involved and helping send tweets and write tweets and pull good tweets from their database of what's been leaderboard that week?
+
+[55:50] **Byron**: Basically, approved members that's been in the community for a while that already support Ergo could help you produce tweets on the main chat since you have other things in real life and things to do as well as work on Ergo that could help you out, especially since they pick a winner for something.
+
+[56:09] **Byron**: I forget the frequency and it'll rotate. So it's like an active community involved, like even membership.
+
+[56:17] **qx()**: Right, right. Yeah, so people write their tweets and then they submit them to the site and then depending on how many retweets or likes they get or views, I think that's how they're ranked, right?
+
+[56:28] **qx()**: So yeah, I mean that's a treasure trove of probably really good Ergo tweets that are promoting Ergo that could be used.
+
+[56:34] **qx()**: So yeah, all right. All right. So let's see what Glasgow and let's see what Guifa, Guifa, Guifa, Guifa.
+
+[56:39] **qx()**: I'm saying I'm butchering the name from ERG-1. Have to say HQ knows what it is.
+
+[56:44] **qx()**: Good friend of HQ's.
+
+[56:46] **qx()**: All right. Sounds good, guys. It's 10.03. I'm already three minutes late for my next meeting.
+
+[56:50] **qx()**: Guifa.
+
+[56:52] **qx()**: G-I-U-F-A. Thank you, HQ.
+
+[56:55] **qx()**: Great. All right. Everybody, any closing words?
+
+[56:58] **qx()**: Byron, you want to close it out? kushti, you got any closing words?
+
+[57:05] **qx()**: Oh, kushti had to go. kushti was like, okay, goodbye.
+
+[57:09] **qx()**: kushti Irish goodbye. Byron, close it out. Go for it.
+
+[57:14] **Byron**: We're going to be in the clouds in Colorado. Enjoy your weekend, guys.
+
+[57:18] **qx()**: That's right. Thanks everybody for joining. Ciao.

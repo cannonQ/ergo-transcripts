@@ -1,0 +1,306 @@
+{
+  "call_date": "2025-10-12",
+  "call_title": "Ergo Meetup 2025 LIVE!",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Opening Remarks on Decentralized Social Systems",
+      "category": "community",
+      "start_time": "00:00",
+      "end_time": "02:05",
+      "primary_speaker": "Armeanio",
+      "summary": "Armeanio opens the meetup discussing how peer-to-peer networks mirror real-life communities, emphasizing the balance between technical parameters and social systems in decentralized networks. He highlights both the benefits and attack vectors of trust-based systems.",
+      "key_terms": [
+        "peer-to-peer networks",
+        "social systems",
+        "trust",
+        "attack vectors"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Market Volatility and Risk Management",
+      "category": "defi",
+      "start_time": "02:05",
+      "end_time": "05:57",
+      "primary_speaker": "Armeanio",
+      "summary": "Discussion of recent market deleveraging events and the importance of risk management in crypto. Armeanio criticizes the crypto industry's reluctance to discuss risk and draws parallels to traditional monetary policy control systems.",
+      "key_terms": [
+        "deleveraging",
+        "risk management",
+        "leverage",
+        "monetary policy",
+        "control system"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Bitcoin's Fixed Parameters vs Traditional Systems",
+      "category": "ecosystem",
+      "start_time": "05:57",
+      "end_time": "09:12",
+      "primary_speaker": "Armeanio",
+      "summary": "Comparison between Bitcoin's predictable monetary policy and traditional systems where parameters change arbitrarily. Armeanio discusses how proximity to power distribution affects inflation impact and advocates for building systems with set expectations.",
+      "key_terms": [
+        "Bitcoin",
+        "monetary policy",
+        "set parameters",
+        "inflation",
+        "power distribution"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Building Public Goods and Open Source",
+      "category": "technical",
+      "start_time": "09:12",
+      "end_time": "14:22",
+      "primary_speaker": "Armeanio",
+      "summary": "Armeanio emphasizes building in public with open, auditable code using SigmaUSD as an example. He introduces the Extended UTXO trilemma concept and discusses creating sustainable flywheels through reusable public goods rather than financial games.",
+      "key_terms": [
+        "SigmaUSD",
+        "public goods",
+        "Extended UTXO",
+        "trilemma",
+        "open source",
+        "flywheel effect"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Proof of Work and Leaderless Coordination",
+      "category": "technical",
+      "start_time": "14:22",
+      "end_time": "16:29",
+      "primary_speaker": "Armeanio",
+      "summary": "Explanation of proof of work as a leaderless, apolitical coordination mechanism. Armeanio discusses the distribution of power and skills in decentralized networks, rejecting the concept of singular leadership in favor of specialized contributions.",
+      "key_terms": [
+        "proof of work",
+        "leaderless",
+        "coordination mechanism",
+        "distribution of power",
+        "specialized skills"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Security Through Time-Tested Research",
+      "category": "technical",
+      "start_time": "16:29",
+      "end_time": "19:33",
+      "primary_speaker": "Armeanio",
+      "summary": "Armeanio outlines how security forms through research, implementation, and the test of time. He advocates for conservative approaches over constant reinvention, emphasizing that iteration can be innovation and that time is the ultimate test for security.",
+      "key_terms": [
+        "security",
+        "research",
+        "implementation",
+        "test of time",
+        "conservative approach",
+        "iteration"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Privacy as Fundamental Right and Future Threat",
+      "category": "technical",
+      "start_time": "19:33",
+      "end_time": "22:23",
+      "primary_speaker": "Armeanio",
+      "summary": "Discussion of privacy as a critical protection against total economic surveillance. Armeanio warns about potential futures where every transaction is monitored and criticizes 'toy privacy' solutions that create stronger control systems rather than true privacy.",
+      "key_terms": [
+        "privacy",
+        "economic surveillance",
+        "zero-knowledge proofs",
+        "censorship resistance",
+        "anonymity"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Inclusion and Asset Type Classifications",
+      "category": "governance",
+      "start_time": "22:23",
+      "end_time": "25:01",
+      "primary_speaker": "Armeanio",
+      "summary": "Armeanio addresses the complexity of different asset types in crypto and mentions kushti's work on whitelist mechanisms. He discusses the emergence of regulated assets and the importance of clear assumptions about custodial vs non-custodial, bearer vs non-bearer assets.",
+      "key_terms": [
+        "bearer assets",
+        "custodial",
+        "non-custodial",
+        "whitelist mechanism",
+        "regulated assets",
+        "stablecoins"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "State Resistance as Core Value",
+      "category": "ecosystem",
+      "start_time": "25:01",
+      "end_time": "32:04",
+      "primary_speaker": "Armeanio",
+      "summary": "Armeanio argues that state resistance is the only long-term value in cryptocurrency, as everything else trends toward centralization for efficiency. He discusses the Sigma 6 upgrade and emphasizes the importance of clear intent and purpose in crypto development to avoid toxic social systems.",
+      "key_terms": [
+        "state resistance",
+        "centralization",
+        "Sigma 6 upgrade",
+        "clear intent",
+        "toxic social systems"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Introduction to UTXO Staking Challenges",
+      "category": "technical",
+      "start_time": "40:33",
+      "end_time": "51:18",
+      "primary_speaker": "MGPai",
+      "summary": "MGPai introduces Palm staking on UTXO model, explaining existing account model implementations like SushiSwap and PancakeSwap. He details the fundamental differences between UTXO and account models, highlighting UTXO's bottlenecks in storing global state for staking applications.",
+      "key_terms": [
+        "Palm staking",
+        "UTXO model",
+        "account model",
+        "SushiSwap",
+        "PancakeSwap",
+        "global state",
+        "transaction limits"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "UTXO Staking Solution with Constant Size Data",
+      "category": "technical",
+      "start_time": "51:18",
+      "end_time": "54:46",
+      "primary_speaker": "MGPai",
+      "summary": "MGPai explains the solution to UTXO staking limitations using constant-size data storage. He discusses existing position token approaches and why Merkle trees were chosen over derivative markets due to legal conflicts with position tokens.",
+      "key_terms": [
+        "constant size data",
+        "position tokens",
+        "derivative markets",
+        "Merkle tree",
+        "AVL tree",
+        "legal conflicts"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Merkle Tree Data Structure Explanation",
+      "category": "technical",
+      "start_time": "54:46",
+      "end_time": "60:46",
+      "primary_speaker": "MGPai",
+      "summary": "Detailed explanation of Merkle tree data structure, including hashing, tree traversal, and how changes propagate through the tree. MGPai demonstrates how Merkle trees enable efficient difference detection between states with logarithmic complexity.",
+      "key_terms": [
+        "Merkle tree",
+        "hashing",
+        "root hash",
+        "tree traversal",
+        "nodes",
+        "branches",
+        "leaves",
+        "logarithmic complexity"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Merkle Patricia Trie and Proof Verification",
+      "category": "technical",
+      "start_time": "60:46",
+      "end_time": "70:36",
+      "primary_speaker": "MGPai",
+      "summary": "MGPai explains the optimized Merkle Patricia trie structure and the proof verification process. He details how membership is proven by comparing computed root hashes with known roots, and addresses questions about data recovery and security assumptions.",
+      "key_terms": [
+        "Merkle Patricia trie",
+        "proof verification",
+        "key-value map",
+        "membership proof",
+        "computed root",
+        "data recovery"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "Contract Integration and Off-chain Data Storage",
+      "category": "technical",
+      "start_time": "70:36",
+      "end_time": "82:44",
+      "primary_speaker": "MGPai",
+      "summary": "Discussion of how contracts integrate with the trie structure for verification-only operations and off-chain data storage requirements. MGPai addresses concerns about platform reliability and explains how data can be recovered from blockchain history through redeemer/context data.",
+      "key_terms": [
+        "contract verification",
+        "off-chain storage",
+        "redeemer",
+        "context data",
+        "historical transactions",
+        "node sizes"
+      ]
+    },
+    {
+      "topic_id": 15,
+      "title": "Dynamic Emission Protocol Improvements",
+      "category": "defi",
+      "start_time": "82:44",
+      "end_time": "84:58",
+      "primary_speaker": "MGPai",
+      "summary": "MGPai describes improvements made to the original staking protocol, particularly the implementation of dynamic emission rates that can adjust weekly without contract redeployment. This allows for fine-grained control during market volatility and economic changes.",
+      "key_terms": [
+        "dynamic emissions",
+        "epoch",
+        "fine-grained control",
+        "inflation control",
+        "market volatility",
+        "protocol flexibility"
+      ]
+    },
+    {
+      "topic_id": 16,
+      "title": "Centralization Issues in DeFi Protocols",
+      "category": "governance",
+      "start_time": "84:58",
+      "end_time": "85:37",
+      "primary_speaker": "MGPai",
+      "summary": "MGPai discusses centralization problems in DeFi, using Liquid Finance's front-end shutdown as an example. He explains how many Cardano protocols use permissioned off-chain runners requiring special NFTs, creating centralized control points despite running on decentralized platforms.",
+      "key_terms": [
+        "Liquid Finance",
+        "front-end shutdown",
+        "permissioned",
+        "off-chain runners",
+        "special NFT",
+        "centralized control"
+      ]
+    },
+    {
+      "topic_id": 17,
+      "title": "Nautilus Wallet Integration Proposal",
+      "category": "ecosystem",
+      "start_time": "85:37",
+      "end_time": "86:22",
+      "primary_speaker": "MGPai",
+      "summary": "Discussion of integrating HODLerg and other applications directly into Nautilus wallet to eliminate front-end dependencies. This would provide users with their own app instances, reducing risks from website hacks and domain takeovers while maintaining full functionality.",
+      "key_terms": [
+        "Nautilus wallet",
+        "HODLerg",
+        "front-end independence",
+        "app instances",
+        "website hacks",
+        "domain security"
+      ]
+    },
+    {
+      "topic_id": 18,
+      "title": "GluonW Stablecoin Protocol Introduction",
+      "category": "defi",
+      "start_time": "116:58",
+      "end_time": "116:58",
+      "primary_speaker": "Luca",
+      "summary": "Luca begins presentation on GluonW, a cryptocurrency stablecoin protocol, acknowledging co-author Bruno's contributions to the research paper.",
+      "key_terms": [
+        "GluonW",
+        "stablecoin protocol",
+        "cryptocurrency",
+        "research paper"
+      ]
+    }
+  ]
+}

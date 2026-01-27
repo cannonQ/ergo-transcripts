@@ -1,0 +1,106 @@
+{
+  "call_date": "2025-08-28",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "08:44",
+      "question": "Can you explain what the InfraDAO is?",
+      "asker": "Augustine",
+      "answer": "The InfraDAO's goal is to remove reliance on centralized EF servers since Ergo is a peer-to-peer protocol. It brings in members who have their own hardware and decent internet connection to run nodes and explorers. We've made packages for Explorer and Node that people can run, and once they're synced, we add them to a Cloudflare load balancer with geolocation distribution. Currently there are 3 active members with a 4th coming online soon.",
+      "responder": "qx()",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "InfraDAO",
+        "decentralization",
+        "nodes",
+        "explorers",
+        "load balancer"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "05:53",
+      "question": "What's the current status of Ergo being listed on Kraken?",
+      "asker": "Bevis",
+      "answer": "Ergo is still on the short list for Kraken. The easiest path they suggested for immediate listing would be native ERG on the native chain long-term, but short-term they suggested listing Rosen-ERG from Cardano. There's currently a proposal in Paideia for Rosen Bridge to airdrop Rosen-ERG to Cardano wallets to increase wallet count and meet Kraken's requirements.",
+      "responder": "qx()",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Kraken",
+        "Rosen Bridge",
+        "Cardano",
+        "exchange listing",
+        "Paideia"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "11:03",
+      "question": "Who runs the Sigmanauts Twitter account and why hasn't it posted in a week?",
+      "asker": "Sigmanauts",
+      "answer": "The Sigmanauts account needs volunteers to help with posting. These are community-run organizations that don't run themselves. Anyone interested in helping can DM to start as a delegate on the Sigmanauts account, and if they prove themselves, they can be promoted to post on the main Ergo platform account.",
+      "responder": "qx()",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Sigmanauts",
+        "social media",
+        "community management",
+        "volunteers"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "12:19",
+      "question": "What is the AI-powered video knowledge base project you're working on?",
+      "asker": "implicit demonstration",
+      "answer": "The project involves creating subtitle files with timestamps and bookmarks for Ergo tutorial videos, then ingesting them into an AI knowledge base. Users can ask questions and the AI provides step-by-step answers with exact video timestamps for reference. This would work with all Ergo tutorials, AMAs, and educational content, making it much easier for newcomers to find specific information without scanning through hours of video content.",
+      "responder": "qx()",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "AI",
+        "knowledge base",
+        "tutorials",
+        "video indexing",
+        "CodeUTXO"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "04:37",
+      "question": "How does the InfraDAO's load balancing work for users?",
+      "asker": "implicit explanation",
+      "answer": "The InfraDAO uses geo load balancing, meaning users can point their Nautilus wallet, ErgoMobile wallet, or other clients to peer-to-peer nodes that are automatically routed based on geographic location. Currently there are nodes on the East Coast US, Australia, and Singapore, and the load balancer automatically sends users to whichever node is closest to them for optimal performance.",
+      "responder": "qx()",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "load balancing",
+        "geographic routing",
+        "wallets",
+        "nodes",
+        "performance"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "17:20",
+      "question": "Would you trust an AI agent with your key phrase?",
+      "asker": "community member",
+      "answer": "No, not with a main key phrase. For a trading bot with a couple hundred dollars of ERG, maybe, but you should always assume you might lose those funds. The risk isn't just compromise, but the agent could make mistakes and dump your position or have other failures. Only use amounts you can afford to lose.",
+      "responder": "qx()",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "AI agents",
+        "private keys",
+        "security",
+        "trading bots",
+        "risk management"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+[00:17] **qx()**: Hello and welcome to the fourth Ergo Community AMA.
+
+[00:25] **qx()**: What a morning, what a morning. I rushed to get here so we could be four minutes late. How's that sound?
+
+[00:31] **qx()**: We've got with us today, for starters, from E3, we've got Grayman, kushti, Byron, and anybody else that wants to join in the chat for the Ergo Affinity.
+
+[00:43] **qx()**: So lots of stuff happened this week, right? We threw stones at Goliath with our slingshot, I guess, again, with the HTX saga going on. We printed some receipts for the conversation we had with them, which was, if people are not recalling, it was asking for, it was plainly and clearly taking their marketing fee and revealing that it wasn't really a marketing fee because 30,000 would buy us 14 days with no delisting and 100k would delay the delisting.
+
+[01:25] **qx()**: So it's very obvious in their own work. These are extortion fees, and it's got nothing to do with marketing. So it's nice to have those receipts and publish them out there. That tweet didn't get quite as much coverage as the first tweet. I think we're probably only like 15,000, 16,000 for that compared to the original tweet, which has got to be over 200,000 views now. So not quite as much, but it is what it is.
+
+[01:56] **qx()**: So to build off that and back off that, we created a GitHub repo where we posted the receipts as well as some chat logs of that and asked the community to, not just the Ergo community, but the crypto community to post their receipts. Kind of like a WikiLeaks or something like that. And let me let somebody in the room here. So we're hoping that people stand up for themselves and the space and expose these people that are just trying to extract value from any project that comes along, right?
+
+[02:34] **qx()**: That's the awful part of it. We saw one tweet reply, I forget which project it was, but same thing happened. They actually announced that they paid $500,000 for a listing with HTX Global. And same thing, they were not sent a notice about being marked for special treatment, ST. And then they got the delisting notice and, of course, were stonewalled and blocked and not really communicated well by their person.
+
+[03:05] **qx()**: So it seems like there's a systemic method. It's quid pro quo at those places where this is what happens. We put you in a corner without letting you know really not giving you a chance to meet whatever demands that they can come up with at any time they want to by the way and force them that's on the contract and then put you in a corner to where you have no communication back to remedy anything because you didn't even know you're on special treatment list and then meet you in the back room with hey here's $100,000 and you can stay delisted kind of thing, you know, so it's disgusting. None of that happened. Don't worry boss.
+
+[03:52] **qx()**: Yeah, it's absolutely crazy. So hopefully if we get more people to join up and do that, that'd be great just to have those receipts there so we can at least have a repository if not in the current history to have a repository in the future history looking back of how dirty these things were in the infancy of the industry, right? So I'm really glad we have that.
+
+[04:22] **qx()**: What else is new? kushti, year-round? What's new on the developer front? What's new in your corner?
+
+[04:29] **kushti**: Yeah, a lot of things. Well, sub-blocks, DevNet progression. Feel free to join maybe in a few days. Some issues to be fixed, but not so many.
+
+[04:45] **kushti**: Actually already left and yeah testing bombing the devnet with transactions and yeah well initial supports of input blocks in mempool and the nodes wallet mostly done, so yeah, proper progression there.
+
+[05:12] **kushti**: So yeah, also doing some more demos of ErgoScript possibilities with coding engines in form of example tests. We are now working on global transfer policies kind of scripts. And then also iterating slowly our full-fledged bulletproofs verification, which would be another nice example of capabilities of the core protocol in regards to providing a platform for cryptographic applications.
+
+[06:10] **kushti**: Doing also with coding agents, mostly a demo of basis trackers of ChainCash. So tomorrow we'll meet the developer of Telegram wallet. So then, yeah, I think in a few weeks we will have demo to be used. Well, around different communities, like human communities, as well as AI agents and peer-to-peer networks.
+
+[06:48] **kushti**: So possibly, I think in the long term to replace many so-called DeFi cryptocurrencies tokens because yeah well in most cases they are not needed simply I believe.
+
+[07:07] **kushti**: Then yeah also we checked recently with Git circles guys maybe they will provide updates in developers' chats on their own. So yeah, it's progressing well there as well. So in like a few weeks also they will start promoting for more once the initial prototype is done around reddit and other developer communities.
+
+[07:45] **kushti**: Developing circles, different framework, focused communities and so on. So, yeah, it looks good. I think, well, we need to get people from outside crypto, right, because, well, this crypto space is now mostly about some weirdest kinds of speculation. So it's better to get developers right and people willing to build digital economies for you as well as real worlds like local economies and so on.
+
+[08:28] **kushti**: Then also there were two fundraising campaigns done. I don't quite know by whom even but yeah well now it seems well there are like 7000 ERG in my wallet. So 2k already there and 5k will be released in a few days. So like that, need to check. So that's quite great. So I've assigned the first bounty and Sigma Rust repository to have full-fledged implementation of Ergo-3 interpreter in Rust after all, with the help of that bounty in particular.
+
+[09:26] **kushti**: And yeah, so we'll publish a plan on spanning this key. Then what else we have is Dexy-based USD stablecoin. Still discussions mostly, but here we have a clear plan how to deliver and all the technical parts there, so it's mostly about discussions, politics, holding update keys, deciding rules about when to burn those keys, what are the rules, and so on.
+
+[10:17] **kushti**: So yeah, it's mostly about humans, not technicalities. So, yeah, I think, well, that also would be a good problem. I think, right, to bring people from outside, but now from crypto, so Rich's idea is to use it outside of their ecosystem, mostly, right, and he uses it mostly because of efficient arbitrage possibilities with Dexy design.
+
+[11:01] **kushti**: And then what else? So yeah, well, if I go around, there are a lot of exciting things on his side in regards with rules.
+
+[11:13] **kushti**: So, yeah, it seems a lot of things have been there, right?
+
+[11:19] **qx()**: Yeah, yeah, really exciting. I know, it's amazing. They've got a technique to bridge it the other way too. When Rosen first started out, some of you may not know that typical Rosen swap from chain to chain is you can bring coins or tokens from either chain to either chain. But with Bitcoin, it was a one-way bus, right? You could bring Bitcoin to Ergo or Cardano or Ethereum or Binance, and it would be Rosen BTC, but nothing could go back.
+
+[11:50] **qx()**: So they developed a technique to be able to bring back tokens and coins onto Bitcoin itself by using the RUNE protocol. So yeah, super, super cool, super exciting to have that there.
+
+[12:06] **Grayman**: Does that facilitate atomic swaps?
+
+[12:11] **qx()**: Can you atomic swap? I think you can atomic swap runes, can't you? kushti?
+
+[12:19] **kushti**: You mean are atomic swaps available for our runes? I think so. There are actually multiple atomic swaps before Bitcoin and other e-tanks of cryptocurrency. So, tomorrow I will join Komodo folks and they have some atomic swap based DEXes.
+
+[12:45] **kushti**: The only thing is, well, still those things are not quite popular, unfortunately, right? Well, regardless of sovereignty and so on. Yeah, it is what it is. So, well, I personally would be happy to provide even some liquidity, right, and so on. But yeah, well, it seems it's quite complex, right, still, to do all these things. It's not quite what we want, unfortunately.
+
+[13:21] **kushti**: For Atomic Swaps, we had a demo of a private Atomic Swap made with Bitcoin Cash even before Bitcoin supported Schnorr signatures. Jason Davis made a demo back in 2020. I saw lightning swaps and so on, but only demos. Nothing popular.
+
+[13:55] **kushti**: Our guy Death Ergripsson made something for atomic swaps. Yeah, I'm not sure if it's finished even, but yeah, well, in general, well, a lot of such to link around, but yeah, mostly in prototype form. And yeah, even if it's quite finished, polished, it's still not that good.
+
+[14:28] **qx()**: Yeah. Well, guys, let's hit a couple of Dev updates real quick before we continue on with the discussion.
+
+[14:37] **qx()**: Let's see what we have here. Let me just arrange my screen a little better. Perfect. So first up, we have Nautilus, that's add-on BR, adding configurable ledger transport method supports, and Hermes, added Ergo node client, now working on mempool tracking. kushti, what's Hermes?
+
+[15:05] **HQ3rr**: I think if you go a little bit down, if you go a little bit lower, there is explanation about it.
+
+[15:10] **qx()**: That's an explanation. Let's see.
+
+[15:14] **kushti**: Yeah, sorry. My was off. So, what's, what's heard me by a Nautilus. What's, what, what's sorry.
+
+[15:24] **qx()**: Hermes right here. H E R M E S added error client. Now working on mempool tracking.
+
+[15:36] **kushti**: Oh, yeah, maybe there is some discussion.
+
+[15:42] **qx()**: Yeah, I don't see anything. I'll have to reach out to him. Yeah, I don't see anything, it's you either.
+
+[15:49] **HQ3rr**: It's a real time and mempool aware box streamer on top of the index node. It was initially designed for Machina Finance, but it will be generic enough to be used for any dApp and even to replace GraphQL on Nautilus.
+
+[16:04] **qx()**: So it's a Mempool streamer, is that what you said? Nice. You know, I think MGPi and Luca built something somewhat similar. They had to do that for SigmaLock because they wanted instant responses from the chain for the locking and unlocking mechanisms. So they built some sort of cache streamer as well for their backend. So it seems to be a need for that. That's really awesome. Very cool.
+
+[16:29] **qx()**: All right, ErgoProtica R&D, the rest he says, he's reviewing PR contract, made code coverage for the PRD to test it, made PR with rules for a crush coding agent, and he's asking for reviewing 6.0 tests for Sigma. Trying to finish bullet proofs, verification tests, still a lot of things ahead.
+
+[16:50] **qx()**: The cool thing about this update, kushti, I think I saw you notify some nodes, some mining nodes is no update needed, of course, but it is helpful to update to support the new protocol on the network, which is neat. Classic Ergo, where we have serious amazing backwards compatibility with older nodes.
+
+[17:13] **qx()**: Basis ChainCash made raw demo, basis tracker server demo, improving it. He's discussing contract and possible extensions for it. And USC Stablecoin, still planning deployment, will start issuing first needed tokens this week.
+
+[17:27] **qx()**: We've got Rosen Bridge. They've created a root ESLint configuration for the app to ensure consistent coding standards. The app, they've put that configuration for the app to ensure consistent coding, same thing. They've improved the UI kit and for the watch app, they had to put the ESLint in as well.
+
+[17:47] **qx()**: So, Rosen Bridge, we've, as you saw, besides just the Cardano, they have other runes, of course. We're not just focusing on that aspect of it, but full rune integration to Rosen, which is going to be very interesting to bring runes back and forth, not just mimicking tokens when they go over to Bitcoin, but bringing them on to other chains and actually having a marketplace and liquidity and those kind of things. It's going to be very interesting to see those break out.
+
+[18:21] **qx()**: Chris, our trusty friend Chris, has added Javanese support and Malaysian support to the Nautilus wallet. It's always great to have those in many languages for the global thing that Ergo is.
+
+[18:36] **qx()**: Joe Samai is making Game of Prompts, Judge system done, he's been seeing some issues if the judges have a lot of opinions, so he's updating the rep system again. The current implementation asks for 20 to 50 participants, which is great, but should be able to be unlimited, so they're going to try to improve this.
+
+[18:54] **qx()**: We've got IOSPOR with Netcoats Engine. They're working on async stream parsing. This is for storing bundled sensitive information like transaction history. Let's see. Here's an explanation. The way it works is that you request a file from the factory with a wallet ID as the initial string. The factory then makes sure it looks in the bucket that is associated with a calling application, for example, the wallet application, and then all the wallet addresses above the wallet application, and that wallet ID would share the same root.
+
+[19:27] **qx()**: Oh, very, very neat. So if you want to delete the root wallet and the child wallets, it could also be deleted. You know, this is neat. So we talked about, you know, a year or so ago, I talked with our identity advisor here at Cornell about this kind of, I call them vampire strings, all right?
+
+[19:43] **qx()**: So the idea is if we're providing identity for people, right? And somebody up the chain is a bad actor. How can you guarantee that the identities provided by that actor, bad actor, are good, right? So you cannot trust the identity bestowed down lower in the chain of that bad actor. So you have to seize those identities, right? In current AD structure, that's difficult to do, right? Because there's one identity for private provider, it's federated, right?
+
+[20:15] **qx()**: But in this vampire logic, right? If you kill the head vampire, everything after the vampire should vanish. So I think that's a way that crypto can really help out with identity, right? So if multiple actors are deploying identity and granting access, you find a bad actor, boom, you blow it up everything underneath is on hold until it's rebuilt, right? So really neat concept for that. Let's see. And that's it for dev updates. Very cool. Very cool.
+
+[20:48] **qx()**: So we got a quick question in chat. Let's jump right on to that. T-Rog says, is there any concern for similar delistings for other exchanges, or has HTX been an outlier for demanding this marketing fee, marketing fee, $1 million.
+
+[21:07] **qx()**: In my mind, that never crossed my mind. I think HTX is probably, from what I've heard from the backroom chats, from people dealing with HTX, is over the past month, they've started really twisting the knife. They've set these unfair changes in liquidity and volume, and pushed them on people without notifying them, and then threatened delisting.
+
+[21:38] **qx()**: And I honestly think it's too, yeah. Chat in the comments is because Justin Sun is cash poor. It does almost seem like there's a directive from the top that says, we need to make money fast. Let's make it quick. So I think that's what HTX is doing, and they're only going to burn themselves and hurt themselves.
+
+[21:56] **qx()**: So no, I don't think there's a concern for smaller delistings for that kind of thing. HTX seems to not care at all. Even our contact in the chat just has stopped replying at HTX. They're brazen. They know what they're doing, and they're just hoping that you guys forget about it. And that's it. And they'll continue to do that. That's typically what they do. So the idea is don't forget about it. We'll keep the repository up. And we'll make them remember every single time, just like Pepperidge Farm, right? So no trolling.
+
+[22:33] **kushti**: Yeah, I will start to reach journalists today. We need to get maximum exposure, right? They're doing our own business. I still think it's not extortion, like push for bribery, right? It's not about liquidity or volume, so based on who's got the list, it's Ergo, Komodo and Firo. Firo was totally fine and yeah so it's not about liquidity or volume so it's something different but yeah I don't know principle but yeah well let journalists maybe do their business now right and we need to get exposure we need to get interest rates, traffic and so on. This is the best thing we can do at the moment.
+
+[23:41] **kushti**: Yeah, about liquidity exchanges. So I had a talk and also discovered recently that, well, for some exchanges, we already can get some big centralized exchanges, for example, Bit.Get. We can get exposure basically for free just by providing liquidity whether on Ethereum LP or Binance Smart Chain, right?
+
+[24:15] **kushti**: So then I think Binance will catch up, right? So just there is need to afford to provide liquidity on BSC pool, right and at some point they will catch up and the coinbase already showing Base LP some centralized exchange interface, right? So then base will be supported by Rosen soon, but yeah, well, there is no need to wait for anything right now.
+
+[24:51] **kushti**: So let's consider whether to feel pool on Ethereum and Binance Smart Chain, so I can put a little bit as well, right? And with that, so with some funds in the pool, so AI, the AI filter, you know, so they using some AI filter to filter out some I don't know, fake LPs and all that stuff, right?
+
+[25:28] **kushti**: So yeah, it will be shown in the centralized exchange interface and yeah, maybe it gets much bigger than HTX like 10 times now because HTX is in decline, right since 2022 and yeah BitGet is on the rise and yeah especially for last one year and a half so it's probably number three now globally so after Binance and Bybit BitGet is number three yeah I'm not sure about the US but yeah well globally it's well recognized now and we can get there without any well listing fees right just via Binance for example Binance Smart Chain or Ethereum so yeah well we need to decide something and put it into just then, yeah, the same probably will work for Binance at some point.
+
+[26:40] **kushti**: So all the centralized exchanges are now going to syndicate centralized exchange and decentralized exchanges to community rights under the same interface. So BitGet and Coinbase already done with that, and yeah, I think others Bybit and Binance, who else, OKX will catch up, right?
+
+[27:15] **kushti**: So yeah, that's the way we can get everywhere for free basically, right? In form of rep tests, but then in case of some active trading we can get on a centralized exchange, right? So we can get native integration as well.
+
+[27:44] **kushti**: All right, so yeah, let's discuss that after the call maybe in Ergo trading, but yeah, I had a talk with BitGet lady and yesterday basically and yeah it seems it's the best way to move forward right so we need to choose some pool filled with liquidity so I can put some. We can ask some known whales and so on, right?
+
+[28:19] **kushti**: And once we got through AI filters and once we get some traction interests, right? So we can get native integration as well, right? But yeah, well, wrapped version would be good. And yeah, the same talk with Kraken, right? So it was about listing wrapped token, but Kraken is still using some own centralized solution, right? So they're not automatically pulling all the tokens from decentralized exchanges like BitGets and Coinbase are already doing.
+
+[29:10] **qx()**: You know, correct. Correct. And Kraken also has, you know, we know a brief outline of what Kraken wants from us. So we just have to hit that. That's all, I think, and then re-approach them. I think we've announced that several times. So Kraken is in a black box at least that they would like to see holders in liquidity on the token they want to list.
+
+[29:30] **qx()**: I think ERG itself is probably a bit away from that. But as you guys may know that ERG on another chain with Rosen is, yeah, Grayman bought us Rosen-ERG, he says in chat, is a better possibility in the immediate. So yeah, Kraken would be amazing for ERG, I think.
+
+[29:53] **qx()**: You know, there wasn't too much traction on the votes up at for Rosen Bridge. I think that's an issue with, I think every chain has that issue, right? You have a lot of participants that are passive bystanders, right? Passive investors, we call them. So that's something that really, really needs to change for these kinds of things to succeed.
+
+[30:18] **qx()**: So if you guys are just tuning in, you're unaware of that vote, go to Paideia and look up the Rosen GARDs and you'll see a vote to spread Rosen-ERG liquidity over Ergo, over Cardano, so that we can reach their requirement for Kraken listing on Rosen-ERG.
+
+[30:35] **qx()**: Yeah, because holding Rosen ERG, right? If you're just holding, you know, theoretically there's not much difference of holding Rosen ERG or holding ERG. If you actually want to utilize the ecosystem and participate, you know, that's when you hold ERG and use it actually. But for silent partners, as Grayman says, that should be an entry point at Kraken that's perfectly suitable.
+
+[30:57] **qx()**: One thing I forgot to mention is I saw heroes joined us from Twitter, but hero is the dev on Cyberverse an update last week that we missed because we were all chatting too long about drama. So let me just hit this for those of you who don't know Cyberverse.
+
+[31:14] **qx()**: Down for the month. They're doing a massive upgrade with P2P combat, that kind of stuff. So it's really, really exciting when this comes back. They've worked on the stat system back in in combat testing. They've synced stats with the server. Example 50, EGI boost speed instantly. Oh, that's awesome. Combat testing, fighting high level enemies now clearly shows stat differences. Stronger enemies equals harder fights. Core system, they've leveled up resets, HP and gives plus one plus one skill point, stats window, spend points, build your citizen, nice. Inventory, equip, quick use, manage items and skills window, learn from books, level skills and points.
+
+[31:55] **qx()**: I think the treat that we have in Ergo here is that... Well, maybe, I don't know if it happens in other ecosystems, but you can get close to these projects, right? We can get in the dev update, we can see these projects go, we can talk to Pixel, Mr. Pixel, we can talk to Hero, and you get to, it's almost like a child, right? You can see this infant from what Cyberverse started on back in the day when it was just Ergo integration, and you see it grow into something like this, and it's, it's interesting to look back and remember what it was like playing this game back in the day and where it's come and where it's going. And so it's amazing to be part of that and see those kind of things grow.
+
+[32:39] **qx()**: Okay, where are we next? Let's see, do we have any questions in chat? There was chat in the chat about a ERG who's right below us in the zoom was interested in what's it called? Working on some sort of academy buildup again. We used to have something called DECO, which was... Do we remember what that stood for? Decentralized college or something like that? Right? Was that it, kushti? Grayman? Anybody remember? Deco-decentralized coordination.
+
+[33:15] **qx()**: Coordination, okay. All right, thank you. So that was fantastic. There's a lot of videos there on that, kind of like basic beginner ERG devs and that kind of thing. So yeah. It would be very awesome to get that started again. There's a lot of videos, and happy to help with the AI method that I said before about integrating those videos as well. So whenever you're bringing up ERG, we can hit it with all the past searchable and linkable bookmarks in the AI model. So students can hit the ground running with that. So yeah, that's going to be amazing. That is.
+
+[33:58] **qx()**: What else? Anybody got anything else? I've been talking a lot. So kushti, Grayman?
+
+[34:05] **kushti**: Yeah, a lot of things going on. So, yeah, well, there are some guys looking for developers. So we need for more developers guys. So if you know some, please bring. So, well, I brought a few in recent months but there is need for more all the time so if anyone is willing to promote Ergo around development circles so yeah let's consider some campaign I would be happy to participate also and yeah so I think, well, that there is need to promote Ergo differently, right?
+
+[34:55] **kushti**: So not as crypto, or whatever it's called these days, crypto. These days it's quite confusing to me, right, but yes, platform, foundation, global, neutral, settlement layer for building digital economies, rights for humans, human communities, developing communities, as well as AI agents, right, and incentivizing peer-to-peer networks.
+
+[35:31] **kushti**: So yeah, well, a lot of use cases which are handled by others in quite cozy ways.
+
+[35:49] **Grayman**: I think amongst the economist community, most people that are not already involved in crypto are somewhat disinterested or maybe standoffish towards crypto in general just because it's the way it's been presented, you know, with the idea that Bitcoin is going to replace the dollar and hyper Bitcoin ization and all this other shit. It just sounds cartoonish to them.
+
+[36:15] **Grayman**: I mean, economists don't have a very firm a soapbox to stand on when it comes to being credible academics. They wouldn't want to have anybody challenge that in the press, but the truth is most economists at the top of the food chain don't really think of their field as being entirely pure and hasn't been for a long time since computers came around and made it possible for the application of statistical methods instead of actual thinking.
+
+[36:58] **Grayman**: But now we have cryptocurrency, which makes it so that instead of just having statistical methods, you actually would have a way to track the money as it's being spent. And if they really want to turn economics into a science and they should embrace it, but there's a long road between here and there. And most of the people that are in that field are going to visualize using some computer. So they think world computer like Ethereum. So they're all trapped in bullshit land over there.
+
+[37:26] **Grayman**: But really what it's about is redefining money and then building that from the ground up. And I don't see any project that's doing a better job of that in general than Ergo. I mean, in some specific ways, like for example, Casper is just sort of hyper focused on speed. But until they win the race and get global adoption, that's a whole lot of speed going nowhere. There's barely any transactions.
+
+[37:56] **Grayman**: Whereas in Ergo, we have a much more broadly focused concept of of what money is and how it can be exploited using a deterministic approach rather than this kind of open-ended world computer approach of the Ethereum world. Economists eventually will understand that and embrace it, but it's going to take a long time for that to become apparent and a whole lot of soldiering on our part before they'll take any real interest.
+
+[38:29] **Grayman**: So you just have to keep chipping away. There are a few people like Rubini or, you know, Steve Keene is the one that I keep trying to plant seeds in his mind because in my opinion, he's the guy who has sort of the best understanding of how the current system works and how we should go forward.
+
+[38:50] **Grayman**: But he's also somebody who earlier in his career, was academically interested in cryptocurrency and posited several interesting ideas that, at this point, he would probably look back and say we're young and naive on his part. Instead of having a carbon tax, having a separate currency for purchasing gasoline or other rationed products, which would then trade on its own market, and it would give you a way to create an economy that would reduce the consumption of certain commodities that were used like that.
+
+[39:28] **Grayman**: This is something that he wrote about 15 years ago, maybe 12 years ago, and you could actually contemplate making currency systems for nations based on Ergo. That's why it fascinates me, but there's very few people that are in that academic community that are just going to immediately leap to that because it's so far outside of their realm of thinking, and because most of the people that are coming from the crypto world are yelling at them that inflation is stupid and why wouldn't you have a fixed number of atoms of gold as the basis for your currency and all this other stuff, and they just laugh and walk away.
+
+[40:05] **Grayman**: But with something like ChainCash and derivatives that can be built on top of it, that's a whole new ballgame. And eventually, they're going to have to get on the field because we're going to make them. Oh, and I had a question about ChainCash for kushti in the chat.
+
+[40:24] **Grayman**: The question was, can ChainCash protocol be instantiated in a limited form where only a certain type and collateralization of notes can be issued on an accepted standard. Instead of having a more generalized free banking type system, can you implement it in a way that it would only work with certain types of collateralization ratios and denominations?
+
+[40:56] **kushti**: Oh, so that's left to the party which is accepting, right, so you can accept only ChainCash notes which are backed by particular assets, right, and also sets on collateralization level. So that's, I think, the whole point, right, so every party is having individual risk profile and then yeah well it's not enforced around the system and then yeah that the system is not hopefully failing fully, right, like in 2008, the whole financial system with pretty much the same parameters everywhere failed, right?
+
+[41:51] **kushti**: So some circles could fail, right, in times of crisis, but yeah, well, more conservative actors would stay at the same time.
+
+[42:01] **Grayman**: I'm specifically thinking about this idea of this silver sense, this currency based on and tied to the existing United States constitutional silver currency that's all around this country and having it so that the ChainCash implementation of the on-chain version of that would only be acceptable from vendor to vendor and customer to vendor and customer to customer even. If it followed a certain protocol, so you couldn't just start issuing things that that people, I guess that you already answered the question. You have to create an interface that makes it so that the customer understands that they're getting silver sets. You have to have a specific token ID for the silver sets.
+
+[42:59] **kushti**: In this particular case, if you want to build some monetary circuit rights within the whole so you can just make some default config right for ChainCash servers and spread right around that silver circle and that's a default config would set right particular token ID and collateralization level maybe, then yeah, it's possible to change collateralization level individually also, but probably most of users would just use default value as usually happen.
+
+[43:46] **Grayman**: Yeah, I mean, ultimately there would be a for-profit part of it. There were rollout apps on iOS and on Android, because there's no peer-to-peer on-chain activity without mobile phones. Let's be real. Especially if you're trying to go for some sort of a LETS, a local exchange trading system, you need to have people be able to just pull out their phones and get a transaction done.
+
+[44:12] **Grayman**: So, and that's not going to happen without some company structure and whatnot. So there'd have to be sort of, I don't know, sorry, I'm thinking out loud about this whole thing. I'm trying to write it up.
+
+[44:24] **kushti**: Yeah, that's much needed. Well, for now, the idea is to get some working demo as quickly as possible and then maybe try to use it over some, I don't know, like fairs. How is it so cold? Like for free trading events.
+
+[44:50] **Grayman**: Yeah, like a festival, I understand. You have a flea market, swap meet, that type of thing.
+
+[44:57] **kushti**: Yeah, so try to do some flea markets kind of events, right?
+
+[45:03] **Grayman**: The other thing, while I have you on the subject, just if you could quickly comment, it seems to me when you were initially proposing this idea that there would be a reputation system involved for people that are writing these notes? And I don't know, is that true and has progress been made in other projects like Joe Sammy's work on reputation system that could be applied there?
+
+[45:29] **Grayman**: Because it strikes me that in the way I envision it, you'll have these vendors who are accepting silver in payment, and then they can also accept this on chain version. And so these vendors effectively act as a distributed bank because they are the ones with the pools of silver change and they're safe and then taking it home and eventually turning it into dollars or ERG or whatever they want.
+
+[45:55] **Grayman**: But they are the ones who are essentially holding the larger pools of capital. And so it's a distributed form of banking, sort of old school way, except with standardized notes. And they're standardized based on these physical tokens that already exist and already widespread. So the question is, if you have only partially collateralized notes, and it comes to a situation where somebody decides to skip town and head to Mexico with their US coins and melt them down, and the people who are holding their notes are left holding the bag, and so they want to redeem them.
+
+[46:35] **Grayman**: And they get part of their collateralization back, presumably, but they're still out some and they're pissed. So how do we make it so that guy can never come back? I guess that's impossible because they're going to be anonymous. I don't know. Reputation system seems important for this because if you're going to have a bunch of distributed competing vendors and banks that are not just selling banking services, but are also restaurants or farmers or, you know, barbers or whatever. They're all going to have multiple incentives and whatnot. You need to have a way to keep track of how well they handle the banking part. Do they redeem their notes when asked for coinage?
+
+[47:19] **kushti**: Right, so then, yeah, I think it's the next step, right, so you can build reputation only based on some trading history. So then, yeah, so the idea is to launch something, right, and then see how to build some, yeah, kind of reputation system, which is basically some summary, right, of transactions history. Right. That's all what we have here without, I don't know, like control from state, you know, like standards.
+
+[47:58] **Grayman**: I think there needs to be a way to challenge their reputation and a way for them to defend it and for those actions to be taken on chain with deadlines and whatnot in order to prevent it from being spammed.
+
+[48:14] **kushti**: Yeah, so there could be some agents, maybe, which are incentivized to do such probing, right? That's quite interesting. So, yeah, well, let's think on this shortly, hopefully.
+
+[48:28] **Grayman**: I'm going to go and research what Joe Sammy's been up to because I haven't really paid him.
+
+[48:33] **kushti**: Joe Sammy did some reputation system for payments for his peer-to-peer network Celaut. But actually, I think it's quite, I don't know, like parallel effort, right? So instead of using some reputation system to provide credit, you can just use this ChainCash, right? To provide credit. So it's also kind of reputation system process. But yeah, need to take a look, maybe some combinations possible. You need to take with just me also about that.
+
+[49:16] **kushti**: He is quite active and around and yeah well actually we discussed to bring yeah those basis payments into basis this kind of off-chain cash in to Celaut particular network. Because yeah, I think it's quite interesting. So currently, there are a lot of so-called DeFi projects, right, with total market cap of 20 to 25 billion USD and most of them do have some broken economies, well, releasing tokens in a way that they are just going down because of our supply.
+
+[50:16] **kushti**: So the idea is that now we can tie supply with demand by using just some off-chain cash found by Ergo Reserve. So there is no need for additional tokens, just Ergo and Ergo tokens would be enough.
+
+[50:39] **kushti**: So, let's, let's, continue discussion. Yeah.
+
+[50:49] **qx()**: Just a couple of questions, kushti. So, in regards to ChainCash, would it have a separate, it would be a separate project with its own marketing budget and marketing team? Would you be focusing on this or?
+
+[51:02] **kushti**: Yeah, so there will be no token, right, for sure, because I don't like to issue tokens at all when they are not needed. But yeah, there is need to do some marketing, right?
+
+[51:21] **Grayman**: Is it reasonable to say that if Ergo is a platform, that ChainCash is a protocol? And that it is a protocol that will be used by people to create applications and that those are what need the marketing.
+
+[51:35] **kushti**: Ergo is a kind of reserve asset and smart reserve asset, so it's allowing for different protocols to be built on top of. And then we have ChainCash as a monetary expansion tool, because for being useful for real economies, you need some kind of monetary expansion.
+
+[52:03] **kushti**: And yeah that's quite different as you say it's right from all the crypto and I think that's quite a fork of Bitcoin community idea space let's say of 2010 basically right 2011. So initially, they had a lot of discussions, right? How can you build electronic cash, right? When emission is strictly set into the protocol. And yeah that they had some discussions but later somehow the focus shifted to some secondary issues such as TPS right whatever now that they are having hot debates our there are some parameters in the protocol clients, but the original talk is forgotten and revived here.
+
+[53:22] **kushti**: And those talks, I believe, are the most important, right? So how to use high-quality base assets, Ergo-right proof-of-work assets to build better money, right, for digital and real-world economies.
+
+[53:46] **Grayman**: So there was one other question that was mentioned on the YouTube stream from EAOK asking any thoughts on the infinite pitch deck that he shared or they shared in the Dev Telegram?
+
+[54:05] **kushti**: I need to check.
+
+[54:08] **Grayman**: Sounds like we need to follow up on the Dev Telegram.
+
+[54:13] **kushti**: Yeah, so actually, yesterday I was occupied with quite a lot of talks with BitGet lady and we had a nice talk with Bruno and so on, but yeah, from Yehokai. Yeah, it's from yesterday. It was a good time of mine. So yeah, I was occupied with a lot of talks yesterday. So, we'll provide some feedback today after coding session. Right. We will do the, do you guys, anyone, read it?
+
+[55:01] **Grayman**: I did not.
+
+[55:05] **Grayman**: Do we have any other questions? We're coming up on the hour here. There was one other question I had actually earlier in chat, which was about the upcoming meeting in Colorado Springs, which I guess there might be somebody who's listening to this that could still get tickets or figure out a way to drive there in time.
+
+[55:30] **Grayman**: You're welcome to come. If you can get there, then there's going to be a lot of fun. One question that I had earlier, but I see that HQ has gone, was what facilities were doing to make it so that that is going to be broadcast to the greater internet. But we'll figure that out. Tickets are not necessary. You're just welcome to come. We're going to open it up to the general public. We're going to try and put some flyers up in the local universities. Anybody who's interested and wants to come and listen and talk is welcome to come. It's permissionless, no tickets. It's Ergo.
+
+[56:11] **kushti**: So okay, just making sure you set tickets. You made me a little nervous. I was like, I thought I signed.
+
+[56:16] **Grayman**: I mean, plane tickets. There's definitely one form of permission, which is just geographical permission. Yeah, I was thinking about what you say. I've got, I got room for somebody to sleep on a couch and an Airbnb if somebody needs to crash. But there's hotels and everything around.
+
+[56:38] **kushti**: We're not recording them. Are we?
+
+[56:41] **Grayman**: I think we are. I think we're live. We should talk about it on the six chat.
+
+[56:48] **Grayman**: Are there any other questions for this week's AMA or should we wrap it up? Sounds like we should probably wrap it up. It was great talking to y'all in another week. We'll do it again.
+
+[57:07] **kushti**: All right. Yeah. Good chat. And, so, we have, Colorado events, in two weeks. Right. So quite soon.
+
+[57:18] **qx()**: Yeah. Coming up quick. It's going to be fun. I'm going to get to meet Ed. Bye.
+
+[57:26] **kushti**: Nice. Nice. Before you drop off, Grayman. I had a question for you before you drop off.
+
+[57:32] **Grayman**: Okay. Sure. Hit me.
+
+[57:38] **kushti**: Oh no, you guys can end the chat. I want to ask.
+
+[57:41] **Grayman**: Oh, gotcha. I think Andy is currently the, the owner, so I can't control it, but, it's probably going to. Thanks guys. We got to roll it out with the music. Goodbye everyone. We'll see you next time.

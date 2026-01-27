@@ -1,0 +1,136 @@
+{
+  "call_date": "2025-10-03",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "07:32",
+      "question": "What's the big challenge with bridging to Monero compared to other chains?",
+      "asker": "qx()",
+      "answer": "There are not many fields to write the data we need for bridging operations. Even if there are possibilities, there's need for wallet support and user adoption. Some protocol possibilities exist but are not covered in wallets, making them not quite usable. It's quite challenging, but we continue to explore different options that are also comfortable for end users.",
+      "responder": "Kushti",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Monero",
+        "cross-chain",
+        "bridge",
+        "wallet support"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "21:01",
+      "question": "How many oracles are running in the USC oracle pool version 2?",
+      "asker": "qx()",
+      "answer": "The USC oracle pool version 2 launched just a few days ago and now has four running USC oracle pools. HQ mentions there are already 12 oracles in the pool, and the plan discussed before launch was to have 30 tokens total.",
+      "responder": "Kushti",
+      "category": "defi",
+      "difficulty": "beginner",
+      "related_terms": [
+        "USC",
+        "oracle",
+        "stablecoin",
+        "pool"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "25:42",
+      "question": "Who is still an active member of the Ergo Foundation and what are they responsible for?",
+      "asker": "Sigmanaut",
+      "answer": "Active EF members include Justin, AnonBR, Allison, Glasgow, and MGPi. Glasgow handles website structure, docs, Discord and Telegram management. The EF hires Andy for video production and Angie for promotions like ErgoHack marketing. The goal is to move everything as community-oriented as possible, with the EF eventually transitioning to a research wing or similar role.",
+      "responder": "qx()",
+      "category": "governance",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Ergo Foundation",
+        "governance",
+        "community",
+        "decentralization"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "34:39",
+      "question": "What was the original plan for the Ergo Foundation's duration according to the whitepaper?",
+      "asker": "follow-up discussion",
+      "answer": "According to the whitepaper, the original plan was to have this bootstrapping entity for two and a half years. Now it's a year past that timeline. The whitepaper was published in 2019, a few months before mainnet launch, and there was never a plan to have this bootstrapping entity control growth forever - it's limited by the whitepaper.",
+      "responder": "Kushti",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Ergo Foundation",
+        "whitepaper",
+        "bootstrapping",
+        "decentralization"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "36:03",
+      "question": "Is there cooperation between Ergo and Palmyra? Are they building on both Ergo and Cardano?",
+      "asker": "Willem Jan Vandenberg",
+      "answer": "While Winter Protocol has been ported to Cardano, from a business perspective Ergo offers much better scalability and lower network fees for creating tokens and tracking compared to Cardano. The cost difference makes Ergo more feasible for client operations. However, Palmyra's decisions depend heavily on their real-world partners and external factors like legal jurisdictions.",
+      "responder": "qx() and Kushti",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Palmyra",
+        "real-world assets",
+        "Cardano",
+        "scalability",
+        "fees"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "46:15",
+      "question": "Does Ergo have the capabilities of launching an XMR-like privacy coin?",
+      "asker": "Aberg",
+      "answer": "Yes, for a sidechain it's possible and was actually one of the earliest ideas for sidechains. One option discussed is to do a DarkFi-based sidechain, but DarkFi is still in development with only early testnets available. It makes sense to wait until DarkFi launches or becomes stabilized before proceeding.",
+      "responder": "Kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "privacy",
+        "sidechain",
+        "DarkFi",
+        "XMR",
+        "Monero"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "50:00",
+      "question": "When will Ergo 6.0 be activated?",
+      "asker": "Byron",
+      "answer": "Ergo 6.0 will be activated in about five days from the call date, which is approximately 3,000 to 3,500 blocks away. This represents a significant protocol upgrade for the network.",
+      "responder": "Kushti",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Ergo 6.0",
+        "protocol upgrade",
+        "activation",
+        "blocks"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "41:03",
+      "question": "How feasible would it be to create a mining DAO where pool operators vote on chain governance decisions through Paideia instead of changing node settings?",
+      "asker": "HQ3rr",
+      "answer": "While you could build logic to read voting decisions from a DAO and change configs automatically, the de facto final change will always be on the node config. Miners can always get around automated systems by tweaking settings manually. However, a DAO could provide an on-chain ledger of voting discussions and create incentives through DAO tokens and staking rewards to encourage participation.",
+      "responder": "qx() and Kushti",
+      "category": "governance",
+      "difficulty": "advanced",
+      "related_terms": [
+        "mining DAO",
+        "Paideia",
+        "governance",
+        "node configuration",
+        "voting"
+      ]
+    }
+  ]
+}

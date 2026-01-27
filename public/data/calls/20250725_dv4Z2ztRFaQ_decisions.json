@@ -1,0 +1,116 @@
+{
+  "call_date": "2025-07-25",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA (COMMUNITY EDITION) - July 24th",
+  "decisions": [],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "14:57",
+      "commitment": "Jump on the Ergo book and do some writing",
+      "owner": "kushti",
+      "timeline": "unspecified",
+      "topic": "documentation",
+      "quote": "now I can jump again on the Ergo book and well, do some stuff there"
+    },
+    {
+      "id": 2,
+      "timestamp": "36:08",
+      "commitment": "Build a custom page on VoltPay for Keystone to accept multi-chain payments",
+      "owner": "HQ3rr",
+      "timeline": "unspecified",
+      "topic": "payments",
+      "quote": "They want me to build a custom page for them on VoltPay so they can accept multi-chain payments and sell keystones"
+    },
+    {
+      "id": 3,
+      "timestamp": "36:50",
+      "commitment": "Talk to the mug maker about accepting Mew payments",
+      "owner": "HQ3rr",
+      "timeline": "unspecified",
+      "topic": "merch",
+      "quote": "I will talk to the guy who makes mugs"
+    },
+    {
+      "id": 4,
+      "timestamp": "36:58",
+      "commitment": "See if Echo can be convinced to add Mew to proof of merch",
+      "owner": "HQ3rr",
+      "timeline": "unspecified",
+      "topic": "merch",
+      "quote": "I will see if I can convince Echo to add maybe Mew to proof of merch"
+    },
+    {
+      "id": 5,
+      "timestamp": "71:42",
+      "commitment": "Create a new interface on top of MewMart to show it like a DEX",
+      "owner": "HQ3rr",
+      "timeline": "unspecified",
+      "topic": "dex",
+      "quote": "I just wanted to create a new interface on top of it to show it like a DEX"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "16:38",
+      "question": "Who will use ChainCash and how to do UI",
+      "context": "ChainCash development is blocked on defining users and UI",
+      "topic": "chaincash",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "39:45",
+      "question": "How to transition from selected guards to permissionless guards in Rosen",
+      "context": "Question about moving from federated system to trustless system",
+      "topic": "rosen-bridge",
+      "raised_by": "Grayman"
+    },
+    {
+      "id": 3,
+      "timestamp": "72:39",
+      "question": "How many people will actually use order-based DEX aggregator",
+      "context": "Uncertainty about adoption of running own matching engine",
+      "topic": "dex",
+      "raised_by": "Armeanio"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "35:09",
+      "fact": "Keystone wallet integration with Nautilus estimated 4-6 weeks to completion",
+      "speaker": "kushti",
+      "topic": "keystone"
+    },
+    {
+      "id": 2,
+      "timestamp": "34:32",
+      "fact": "Latest Keystone update from July 21st shows signing with Nautilus working, remaining items are bug fixing, UI design, and integration tests",
+      "speaker": "kushti",
+      "topic": "keystone"
+    },
+    {
+      "id": 3,
+      "timestamp": "17:42",
+      "fact": "SigmaLock project has been worked on for about a year, with most work done in the last month",
+      "speaker": "MGpai",
+      "topic": "sigmalock"
+    },
+    {
+      "id": 4,
+      "timestamp": "17:42",
+      "fact": "SigmaLock indexing framework written from scratch in Go language with mempool support",
+      "speaker": "MGpai",
+      "topic": "sigmalock"
+    },
+    {
+      "id": 5,
+      "timestamp": "51:27",
+      "fact": "Hummingbot should be open to new connectors in version 2.8, currently released version 2.7",
+      "speaker": "Armeanio",
+      "topic": "hummingbot"
+    }
+  ]
+}

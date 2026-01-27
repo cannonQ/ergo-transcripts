@@ -1,0 +1,261 @@
+[00:12] **qx()**: Welcome to the Ergo Proof of Work Community AMA, today hosted from Sunny.
+
+[00:21] **qx()**: Ithaca, my house.
+
+[00:23] **qx()**: I decided to come in late to work today so we can host it from the house with us today.
+
+[00:27] **qx()**: We've got a couple people joining us right off the bat.
+
+[00:29] **qx()**: We've got Kushti, we've got Aberg, which reminds me of that Hamilton song, A.burr, right?
+
+[00:36] **qx()**: Aaron.burr.
+
+[00:37] **qx()**: Then we've got Byron as well joining us.
+
+[00:40] **qx()**: Good morning, everybody.
+
+[00:41] **qx()**: And Kushti, how are you guys doing today?
+
+[00:44] **Kushti**: Doing perfect so 6.0 activated successfully so it was totally a flawless experience so yeah I had the chance to sleep well and so on so yeah it's very well around them and so yeah well we are discussing talks on what to do next so sub-blocks development and so on maybe we will share some thoughts and yeah a lot of talks around now is about marketing community marketing efforts so let's have the call maybe focused on that specifically if there is demand to discuss that specifically because about that
+
+[01:34] **qx()**: Yeah, I mean, that's always needed. It's always hard to kick start something in the community from the grassroots with marketing when you don't throw thousands and thousands of dollars at it, right?
+
+[01:42] **Kushti**: I think it's actually maybe easier because when you throw money, then yes, some marketing agencies creating some ordinary crap, right? Like, I don't know, Super Booper Web3 project. AI slot kind of stuff doing not known what's but super cool by talking and Yeah, I agree.
+
+[02:09] **qx()**: It's not lasting.
+
+[02:10] **Kushti**: That's kind of a short that's like throwing That's not creative, right because there is no skin in the game. So yeah, I think Well, community efforts can easily help perform that especially in 2025 because well
+
+[02:27] **Kushti**: Paid marketing did work well. I think, I don't know, maybe my personal fantasy is just, but it did work well back in 2017, 18, something like that, right? When even some paid slope in coin telegraph, coin desk. It worked quite well, but these days, I don't know, so we have like thousands of different blockchain projects, let's say, claiming somewhat decentralization, but yeah, usually having concentrated distribution and so possibility to throw printed money.
+
+[03:14] **Kushti**: basically right on paid marketing but then yeah I mean it's just Totally tasteless flow of low quality content basically, right? So it doesn't make sense to read cryptocurrency media in 2025, right? Because of that, you just can check buzzwords density in headlines just to... well get the idea what's popular now and that's it so yeah well I think community marketing can do much better just because of skin in the game and yeah it's more creative by nature right
+
+[04:11] **qx()**: Yeah, yeah, I'd say so. I think what I was trying to say is, while community marketing and grassroots marketing is difficult compared to throwing $1,000, $2,000, $5,000, $100,000 at a marketing firm, it is definitely more sustainable. It's harder to kickstart that right off the bat, whereas the big marketing firms are, you just throw money at it, you're done. But those are not sustaining. Burn bright for a second catch some fireflies even burn the fireflies with your project and then go away, you know, so community marketing I think it's for sure the way to go and what Ergo has been doing forever now people that believe in the project come in do their part pitch in and It spreads naturally. So yeah.
+
+[04:54] **qx()**: Yeah hundred percent Well, let's jump right to let's get over the couple dev updates that you have today And then we can go into more talking more about marketing after that sound good
+
+[05:08] **qx()**: All right, no objections. Here we go. Let's see if this works.
+
+[05:16] **Kushti**: The main thing is 6.0 got activated. Check your notes if you are running. So both 6.0 and 5.0 should be in agreement. So I'm running a few notes of both versions and yes everything seems fine. So yeah it's working as expected and yeah now we have a new parameter which is workable by miners. So number of sub-blocks per block to be used In upcoming sub-blocks protocol protocol Right.
+
+[05:58] **qx()**: And so yeah, currently i'm working on sub-blocks white paper What's that take to what's that take to change how many votes how many what percentage does that take to change the number of sub-blocks?
+
+[06:09] **Kushti**: So just 50 so it's pretty much like block size so block cost limits, right? So it's just like ordinary parameter so you can change a little bit so by one maybe even right so if it's 30 sub-blocks per block on average this epoch and miners are wanting to raise it then next epoch it would be 31 right and then 32 so yeah it's pretty much like block size or block cost limits.
+
+[06:45] **Kushti**: But yeah it's relative so one percent and here it's absolute if my memory serves me well yeah so it's absolute one sub-block you can change so up or down so it could be 29 or 31 next epoch going from 30.
+
+[07:14] **qx()**: Cool. Cool. It looks like you got Sigma SDK examples recently done. You want to talk about that and GitCircles as well?
+
+[07:22] **Kushti**: Yeah. So, but basically it's what was discussed one or two weeks ago. So, well, as we have kind of treasury of different designs, ideas, and so on, expressed on the Ergo form back in 2019. 2020. So now I'm basically using AI agents to generate codes right along with tests. So sometimes it's like pure garbage. So AI is generating just some nonsense especially when it comes to cryptography. But yeah when it's possible to generate something useful so I'm rechecking contracts. Manually, then yeah I'm publishing and sometimes it's working well so then yeah I'm publishing and well I'm also checking that tests generated are actually testing useful for testing and testing real properties of contracts and that contracts are not flawed at least trivially so
+
+[08:41] **Kushti**: Yeah, then they would be useful, right? So there are a few examples already published, such as whitelist transfers, right? So global transfer policy example, made in Pure ErgoScript. So in a sidechain implementation, could be more efficient, like in proposed braid design, but it's possible even with ErgoScript, and the example is now published. Then Stealth Address, which is already used in some wallets, such as Desktop ErgoMixer, probably the only one, not sure if Minotaur or any other wallet. is using it but yeah now there is also contract published along with tests. Then wallet with daily withdrawal limit which could be quite cool for cold wallet implementation right if you for example having centralized exchange then yeah you can put funds in this kind of
+
+[09:54] **Kushti**: a contract-protected cold wallet and then have max spending at like 1% a day, for example. So yeah, it could be quite useful for centralized exchanges to use such techniques in a transparent way instead of what they are doing Perpetual token is a token which can be earned. I don't know how useful this idea is these days, but back in 2020 there were some applications which had need for this perpetual token pattern.
+
+[10:40] **Kushti**: You can use a combination of those things, so you can combine Cold wallets with withdrawal limits, I don't know, with maybe even white listed transfers, right? So you can have cold wallets with only white listed exit options and so on. So yeah, those contracts can be considered as building blocks also, right? So more complex. financial machinery.
+
+[11:12] **Kushti**: Then GitCircles, maybe the guys will starting to provide updates by their own soon, but currently there is just some small telegram group and I'm taking updates from that. So yeah, well, we wish you balance is now working on the website. started today even and, yeah, he made the last issue before deployment and, well, Brough Etiquette is working on implementation of state issues towards deployment and testing. So after this issue number 11, so the plan is to start onboard different developing communities. maybe for dependencies heavily used in the Ergo ecosystem, such as Rust libraries and so on. And yeah, that would be quite an interesting experiment to onboard different developers, developing communities on Ergo.
+
+[12:25] **Kushti**: Alright, then I made some progress with basis Chain Cash. Some actions like issuing debt nodes, working, but other things are buggy, so I'm polishing things now. Another developer started to work on wallets, so soon probably we may show some prototype transfers.
+
+[13:05] **qx()**: Did you say that Chain Cash is going to need some agents running, I mean some batchers running, or is that just interacts fully with smart contracts on Chain, no need for any batching machines running?
+
+[13:17] **Kushti**: So for Chain Cash, it's fully on chain. But yeah, currently we are working on basis, which is off chain cache, right? Using some trackers. Yeah, you need to use some Parties which track state of debt nodes issued off chain, right? But Yeah, it's open source solution. So it's kind of like a BitTorrent, right, so you may connect to different trackers, right, you may choose tracker freely, you can run a tracker and yeah, to trust in them can be minimized, so it can be federation like Oracle Pool or Rosen Bridge, right, so it can be maybe done as an
+
+[14:12] **Kushti**: something like Rollup maybe even but yeah it's still quite an early idea to be researched further. So yeah a lot of options to reduce trust there but we are starting with the simplest option right so the idea currently is to show well working financial systems where Money can be created using a combination of trust and blockchain assets. So the same idea as Chain Cash. And yeah, so there is also updates maybe not published even towards USE stable coins. Well, I've published the proposed parameters in the Telegram group today and we are discussing them. So the Oracle pool is running smoothly, the new USD Oracle pool. So yeah, there is a chance to see
+
+[15:20] **Kushti**: deployments of the new stable coin quite quickly. Let's see, so it's not well about technical issues at this point mostly, but yeah, rather discussions, politics, all that stuff. And once done, yeah, so we will have a new USD stable coin and the idea of reaching and other whales around is to use it for bringing efficient unstoppable algorithmic stable coin liquidity towards other ecosystems, such as Binance Smart Chain, Cardano and so on.
+
+[16:17] **Kushti**: But yeah, also we can use those things in combination, right? So once you have algorithmic unstoppable dollar, you can use it in basis, right? So for off-chain payments for local trading, AI to AI payments and so on.
+
+[16:39] **qx()**: Kushti, what's it going to take to get the current Oracle updated to the new one? Just a little priority kind of thing at the moment?
+
+[16:51] **Kushti**: Yeah, so I think, well, so the plan is to update the bank, right, towards using the new Oracle, but they're compatible, so it's just about ID to be updated. But then there are some different parameters, such as, yeah, we are doing some delay in the Oracle version 1, right? And yeah, it's also about, yeah, epoch is the same. But yeah, there is delay.
+
+[17:27] **qx()**: Do you have a first time decision coming up in a year or was that already done?
+
+[17:31] **Kushti**: No, not quite. But by the way, for new applications, yeah, it's better to use new oracles, new application touches, Sigma lock. So I haven't heard about Sigma lock for a while.
+
+[17:46] **qx()**: Maybe I'll have to, I think they're waiting. I think they wrote me last week to set up the infrastructure for it, which yeah. So it's probably on me at this point. So yeah, hopefully soon.
+
+[17:57] **qx()**: Cool. All right. All right. We got one more update that snuck in after last week's update that I want to talk about too. Cyberverse update report. Cyber Citizen NFTs generate CYPX rewards in the bank. That's cool. Multiplayer combat's a big thing they're working on. The first build has been tested. Two players run, move, dash, attack in real time. Early Foundation but already feels alive. Sets the stage for larger battles. Environment Siberia city gets animated trees and plants. Oh, wow. Awesome Really gonna push the video card there adds life in motion to the world environment is improving with each update I wonder if this will play for you guys.
+
+[18:37] **qx()**: Let's see Will it play? It will not play for some reason. I think it's my OBS choking out. So very cool. Very cool. Well, short update. So let's go on to the, we were hearing some things about marketing approaches and we just got a new member to join hopefully the Ergo Twitter. And I'm wondering if Aberg can chat about his approach to community marketing.
+
+[19:12] **Aberg**: Hey. Hey, everyone. Hi. Welcome. Thank you. Thank you. So we started with the Raiders group on Telegram. And we're growing, I would say, reasonably fast. We've got 20 members now. So just for starting, that's pretty decent. I'm going to create a Google Drive link, which is going to be public, where we can upload promotional content for Ergo. And anyone can use it. We can post it in the Ergo group chat on Telegram and Discord. Also on the Raiders group on Twitter.
+
+[19:54] **qx()**: Can you mind explaining what Raiders is to people who might not know?
+
+[19:59] **Aberg**: Great, sure. So the Raiders group is a telegram group where we can post a link and we can set targets for how many likes we want to achieve, reposts, and replies. And the raid is basically where you could click the link in the telegram group, you'd like it, and it would go on for 15 minutes. So we can set targets, track the targets and try to get more exposure on Twitter. So it's specifically for X.
+
+[20:43] **Aberg**: And then I'm going to work on simplifying some content for non-technical people as well, such as myself. And I'm going to be posting that onto the Google Drive link. And then we can also get some stuff done for technical people to onboard some more developers to the Ergo ecosystem as well.
+
+[21:04] **qx()**: So you could, you could technically work hand in hand with the main Ergo platform account, post things to that raid, that kind of thing. Is that how, is that how that would work together?
+
+[21:15] **Aberg**: Yes, so any admin on Telegram, on the Raiders group, I think I've made you an admin as well, can post a link to any tweets. So we don't want to promote trash tweets. We want to promote good tweets. So that's why the admins can only post the links. And then you can set targets. Everyone will get a notification. It will update every time someone likes. OK, let's say we set 15 likes. We've achieved 10. So it will say 10 likes, 11 likes, 10 retweets, so on and so on and so on until that raid is either achieved or it's past the time limit. It's got to the time limit of 15 minutes and then the raid ends.
+
+[22:03] **qx()**: Very cool. Anyway, this can work hand in hand or somehow work together with Erg1?
+
+[22:11] **qx()**: Yeah, of course.
+
+[22:13] **Aberg**: Of course. We could promote any tweet in the Raiders group in the algorithm system.
+
+[22:28] **qx()**: Nice. So in general, it's a group of community members that, by joining the group, have volunteered to participate in raids when they're present and do those actions of the raids when they're active kind of thing.
+
+[22:42] **qx()**: Yeah.
+
+[22:47] **qx()**: Cool. Okay.
+
+[22:49] **Aberg**: Yeah, and it gives notifications all the time. So they'll get notifications on their phone and updates on how many likes it's achieved. So it's consistently pinging all the community members.
+
+[23:01] **qx()**: Oh, very cool.
+
+[23:03] **Kushti**: Oh, that's nice. So yeah, let me put a promotion of this group into more groups around, including national ones. So we have actually quite active National groups, especially Russian, Indonesian. Indonesian folks in particular are quite active in marketing, right? Uleos, Qi, so they're doing a lot. Uleos is bombing CoinGecko all the time and so on, doing translations. So yeah, it would be good to get people. on promoting. I think from 20 we need to get to 200.
+
+[24:03] **qx()**: What I find is that sometimes the most effective thing, at least for Twitter, is it's the initial hit right after the post. From the things that we've seen go big, if we have an initial hit of quite a few people, that seems to get it in front of more people's eyes and then it multiplies beyond that kind of thing. The ones that are slow burn, they just continue to slow burn as they go. But like the big ones, we get a couple hundred likes right out of the gate within, within like 20, 30 minutes. It usually goes pretty big after that. So, so this can be, you know, really big to help out those kinds of things. This is great.
+
+[24:45] **qx()**: Awesome. Does this come with leaderboards or anything like that, Aberg? Or is this just, this is just community kind of stuff with no leaderboards?
+
+[24:56] **Aberg**: Yeah, there's no leaderboards.
+
+[24:59] **qx()**: Good, I hate leaderboards, but somebody might like it.
+
+[25:06] **Aberg**: Maybe I could find a way to keep track, to somehow, I don't know, reward the most active members. That would be nicer. Let me try looking to that.
+
+[25:15] **qx()**: Gotcha, cool, cool, cool. I think we can, you can probably, if you have something reporting back to Telegram, then a bot could read that and then keep track of stuff perhaps. Otherwise, I think you're pretty limited on the API access to Twitter from what I remember. I think they nuked it right when Elon took over. Yeah. I'm not sure. Yeah. Cool. That's awesome. Look forward to it. Yeah. I mean, that's, that's kind of an easy thing, right? You're sitting there with your phone and you get a ping on telegram that a raid started and you just click a button and hit like and retweet and you're done or quote tweet. So. I think it's a pretty effortless thing to do there. Yeah, and Grayman's saying, don't forget Erg-1. And I think, Grayman, I think this sounds like it has an opportunity to work with Erg-1, right? So if you're doing Erg-1 and you want to retweet one of your Erg-1 tweets, you can bring it right in and do a raid on it kind of thing.
+
+[26:10] **qx()**: Yeah, neat. Should I let should I let iPhone into the into the chat from the waiting room? I'm a little a little gun shy from the last couple zoom bombs.
+
+[26:21] **Kushti**: Can the guy be muted just and then present in text chat for status?
+
+[26:29] **qx()**: I can force let me let me change the settings here that people enter mute. Yeah
+
+[26:36] **qx()**: Okay, yeah, he's muted. Yep. Okay. Good.
+
+[26:41] **Kushti**: Yeah, then we need for proof of telegram accounts. So basically, the telegram or Twitter.
+
+[26:49] **qx()**: Yeah, there he goes. That's funny. I'm glad I muted him. And he's changing his name. That's funny. Hang on one sec, let me get him. Okay, he's done. It's really funny. Good thing I, what's it called? I brought him in muted. Did he make you his stuff? Oh, that's funny. Wow, in there. These people are creative. Somebody really hates us, I guess.
+
+[27:23] **Kushti**: Actually, yeah, that's funny. So, I mean, some guys, yeah, actually quite nice. So there are lots of trolls in chats. Yeah, they're actually quite helping because Yeah, well, because of them, now, well, we are providing some instructions, right? Like how to find truth, basically, right? How to do own research without having trust. And that's actually quite awesome because, well, it's about absence of trust, right? It should be. So then, yeah, well, trials, which are, trying to, feed, feed lies, is basically a reminder of that. Yeah. There, there should be no trust, right? Right. Right. Yeah. Exactly. So yeah.
+
+[28:33] **qx()**: No, I think we've got a good setup here right now for for at least verifying people coming into the thing so the worst that he just did is he spammed our chat inside here that nobody can see and called us some pretty bad names and then did some emojis to try to lock up the screen and then he apparently is running a script too that changes his name to sweep him up and down the participants list, but
+
+[29:03] **qx()**: I guess that doesn't work on mine because I was able to pin him easily and get rid of him So for sure an idiot, but what can you do, you know? Hey Great. All right. Well, that's always fun to try to circumvent that every every week challenge accepted, buddy But yeah, like I, like Kushti was saying, I think these help, these kinds of things help develop systems of trust, right? Of somewhat trust of initially having to prove yourself. So right now the chats are muted and people have to come in and, and actually, you know, engage and then they'll be elevated to able to unmute and chat kind of thing.
+
+[29:41] **qx()**: Yeah. So neat. All right. What else is new guys? We got the, we've got the, Event in Colorado coming up. It sounds like there's going to be a bunch of beer there after lunch. So when you guys are listening to the chats, whether you're at home listening to the stream or you're in person in sunny Colorado Springs, there'll be a wide selection of local brews for you guys to sip from, courtesy of the Sigmanauts. So that'll be fun.
+
+[30:15] **qx()**: as well as the speaker list. Let me go through the speaker list again. Hang on guys, I'll let you, I'll allow you guys to unmute. All right, you guys in the chat can now unmute if you want to chat. So the list right now is, and let me get to it. Okay, so we have 9 a.m. come for coffee and tea donuts provided by the SIGS. Joe's going to pick him up. He knows a special donut shop, so that'll be good. 945, you're going to hear a welcome from the one, the only Joseph Armeanio. So that starts at 945. I gave him 15 minutes, but we all know Joe. This could probably take five hours. This might take the whole day, actually, if we can't stop him. So we've got to stop him after 15 minutes. And then after that, our first speaker is LGD, also known as MGPi. He is going to talk about gluon theorems and maybe a little bit about his staking that he custom wrote, but gluon. 11 a.m., I think that's probably, I know it's before noon, but that's when people break off to grab their lunches and bring them back. And we'll have the beer open by then and alcohol. And that's when Perfect Timing 1130 Cheese starts talking about Lithos Protocol Deep Dive. After that, you can refill your beers and there'll be a small break. And that's when Cannon comes and talks about something really cool that he wants to show the community. I'm looking forward to that chat too. I'm looking forward to all the chats. It's going to be great. After that, there's going to be a small mining workshop with Mark that's going to be streamed as well. All this is going to be streamed. And then our final speaker of the day is Ann on BR. That's Allison. And they're going to talk about Machina Finance, which is going to be in maybe something else. Maybe there might be a secret thing that he's going to talk about. So you got to stay tuned. Depends if Joe can convince him. And then 3 p.m. There's going to be a live roundtable AMA, depending on how everybody feels, if they're not too saturated with the beer and they're not going to make sillies of themselves. Live table AMA, we'll stream in as well. Everybody can chat about the day as well as the future of Ergo holds, that kind of stuff, whatever you fancy. And then we break off and go help Chris shop and Chris is going to make everybody Korean barbecue. At dinner right at the facility. So that's gonna be good. I really hope there's enough beer. I think there will be There's a big budget for that. So everybody should have a good time with that at least Looking forward to that CannonQ Grayman. You guys are going right?
+
+[33:11] **Byron**: Oh We're unmuted. Yes.
+
+[33:13] **qx()**: Okay. Yeah, you guys can unmute now. Yeah, I I'll be there. Very nice. I'm looking forward to your talk, CannonQ. It should be interesting.
+
+[33:21] **Byron**: Yeah, it will be. For sure will be. I will be here. You're going to be that fantastic, Grayman. But this is the first of many, I think. It always has to start somewhere, and these kind of meetups are great. I was talking to CannonQ and Joe Armeanio yesterday night, and I was thinking that maybe next year I could host it up here in New York.
+
+[33:46] **qx()**: stuff's fairly cheap around here hotels that kind of thing and it's beautiful during certain times of the year and we can try to integrate some sort of cause Cornell blockchain thing inside it as well and and host it on campus hopefully if we can start a group like that so so there's a lot of potential for that as well to gather more people as well interested in that kind of thing so yeah looking really forward to the beginnings of this kind of stuff and continuing the tradition
+
+[34:15] **CannonQ**: Moving on year after year What one quick programming note LGD is Luca So I think he's doing gluon and I think MG pie is talking about something about Palm Staking or something like that or Machina maybe
+
+[34:37] **qx()**: Right, right, sorry, I read them as one, didn't I? Yeah, Luca and MGPi, they're dual-talking. I forgot about that, right. Yep, so I think... Did we get the location of the venue? Yes, sir.
+
+[34:49] **Grayman**: I was laughing at you because in the first draft of all that stuff, It had all these details and there was no location for the venue. She's like, what is wrong with you guys?
+
+[35:00] **qx()**: It's on the blockchain, sir. It's in the meetup chat. Go to the meetup chat, Grayman. It's right there posted. There's a link to a website for the venue. It's Colorado Springs. You just show up and ask somebody. I'm sure they'll tell you where it is. Just yell very loudly. Joe will hear you.
+
+[35:16] **Grayman**: Ask the homeless people?
+
+[35:18] **qx()**: The unhomed, sir. I haven't offended.
+
+[35:24] **qx()**: Awesome. All right, what else, guys? We've got a couple minutes left.
+
+[35:28] **Byron**: I applied to get Kushti a H1B.
+
+[35:32] **qx()**: I know, right? Somebody hire Kushti.
+
+[35:33] **Byron**: We're going to get that handled here, guys.
+
+[35:35] **qx()**: Let's get 100 grand. We'll get Kushti an H1B visa, and we'll get him here for the event. Anybody got 100 grand?
+
+[35:43] **Kushti**: Oh, but yeah, well, I need to spend some time also, so it's not that. Easy. So yeah, let's see. Maybe next time. But we discussed actually also maybe something around Anarkapulko in February. So it, it will be, late, late probably February, 2026.
+
+[36:11] **qx()**: What's the weather there then? Is it nice?
+
+[36:14] **Kushti**: What's the location? So it's the Acapulco of Mexico. Oh, and, yeah, it should be nice.
+
+[36:23] **Grayman**: Hell yeah.
+
+[36:25] **Byron**: I can hear the tequila agreement.
+
+[36:32] **qx()**: I'm looking up the weather right now there in February. It says it is, on average, 86 to 74 degrees Fahrenheit. I don't know what that is in non-freedom units. Somebody can do the calculation for me. That's pretty nice. That's great. Sounds like a good temperature. We have venues down there. We got connections. Kushti?
+
+[36:58] **Kushti**: Let me check. So, Yeah, well, our friends Lutz and so on, so they proposed a booth a few years ago. I don't know what they're doing this year. So yeah, let's think with them. So it will be an AnarkoPulko conference. organized by Vigilante group and others. So, yeah, let's see, let's see. And yeah, Vigilante also, yeah, so they know Ergo, so they've written something back in 2021. So it would be good to get in touch again.
+
+[37:51] **Kushti**: Talking about marketing, I think it's quite easy to sell Ergo to Bitcoin OGs. At least Bitcoin OGs, I know personally. They're quite fond of, especially recently, when I started to describe all the ideas around Chain Cash and so on. How can we realistically separate money from the state? That's the very original idea of Bitcoin. Yeah, well, it's a resume with Bitcoin OG mentality. So yeah, we need to do this for more. Definitely.
+
+[38:45] **qx()**: You've had success with that, you think, Kushti? Sorry, you've had success with diehard Bitcoin OGs?
+
+[38:55] **Kushti**: Yeah, I know personally Wow, I mean so public Bitcoiners OG Maybe not so OG even probably quite different, right? So they're playing maximalism all that stuff But I know so when you talk with some real OGs in person, yeah, that's that's quite different experience actually I mean, well, anyway, if you are not buying separating money from states, then yeah, well, you are not quite a Bitcoin OG, right?
+
+[39:34] **qx()**: True, true. Nice. All right, well we got 10 minutes left unless you guys have something to say we can wrap it up and save some more stuff for the AMA the the extra AMA on Saturday afternoon Where everybody's half sloshed would be nice and loose
+
+[39:50] **Byron**: I'm going to say I would love to see Kushti and Joe on that Vlad podcast, the Bitcoin podcast. Like I would love to see that because he has long like detailed, like they go through the technicals. I was actually impressed by some of the things by Casper because I never really dove into their project until I saw the clip of what he said about Kushti. So I thought, OK, a little more interesting than I thought.
+
+[40:18] **Kushti**: All right, so Vlad's podcast, right? So yeah, Vlad is there. So yeah, he's following me after that Casper episode. So yeah, let's try to reach the guy. Yeah, well, we also need to organize finally an episode with Mark right from Kraken, Kraken now.
+
+[40:44] **qx()**: Yeah, the schedules just need to align. That's all I think I think the balls in his let me check the Twitter I think the balls in his court right now or it's in our court. Hang on No, it's not every day The balls in our court Kushti, he said I think we were trying to decide if you're gonna go to 2049 or not Marks at 2049 token 2040. Wait, that's over. Isn't it? When's token 2049 Kushti
+
+[41:11] **Kushti**: It's over. Yeah.
+
+[41:12] **qx()**: Yeah. All right. So let's think of a new time. Kushti, just DM me your schedule.
+
+[41:16] **Kushti**: Oh, so I'm flexible. Yeah. So this month I'm flexible till 26. Yeah.
+
+[41:23] **qx()**: Okay. Just give me your time ranges. I'll send it to him and we'll facilitate something.
+
+[41:27] **Kushti**: All right. All right. So yeah, that's all.
+
+[41:27] **qx()**: Yeah. That'll probably just be you and Mark. I don't think Joe can, Meeting with somebody that works in an exchange is not a good recipe for Joe's behavior, the meaner to stay settled. So Joe is opting out of that conversation. So it'll mostly just be Kushti and Mark. Maybe I'll facilitate, perhaps, but we'll see. So yeah, that'll be great. Yep. All right, everybody. That's great.
+
+[41:55] **Kushti**: Thanks for joining. Maybe a CannonQ. We have a lot of webinars. We do? Yeah. We need to have more voices.
+
+[42:06] **qx()**: Let's have a roundtable with that. That's fine. So anybody that's interested, please pop in your interest in a DM or something, and we'll keep track of it. And then we'll invite you all to that talk if you're interested in having a conversation like that. Fantastic. Yep. Great. All right. We will see everybody and the stream at least at the AMA if you're not in person or the whole day I mean with streaming the talks Bring a glass. I don't have a glass and Sip away while you enjoy the events of the day folks Great. All right
+
+[42:46] **CannonQ**: Thanks everybody set up a yeah, we set up a telegram group We probably could have glass link it on somewhere on discord as well So people will ask questions or you know, if they have feedback during the presentations Right, right. That's a good that'll be a good place to do that.
+
+[43:01] **CannonQ**: Yeah, great I'll try to monitor those during the presentations if people have questions, you know remotely. Yep.
+
+[43:10] **qx()**: Awesome. So yeah, the presentations will go for maybe 30, 35, 40 minutes, and then there'll be time for questions afterwards from either the Zoom audience or the in-person group. So yeah, of course. Great. Who wants to close it out today? Kushti, Byron?
+
+[43:29] **qx()**: Sorry? Who wants to close it out today? We got to switch around, Rob, in closings.
+
+[43:33] **Kushti**: But maybe anyone has thoughts on marketing, like proposals and so on? Because, yeah, I mean, there are a lot of talks that more marketing is needed, but, yeah, well, what's... Yeah, usually those are... What's doable? What can someone propose?
+
+[43:53] **qx()**: Yeah, Kushti, it's easier to shout into the wind than walk into the wind, you know. So I find until somebody starts walking into it like Aberg is, then there's not much you can do, right? Except for invite them to walk towards you into it and actually do something. So I'm so happy that Aberg is taking those reins and doing it and going to work on Twitter as well.
+
+[44:16] **Kushti**: Yeah, but on this call, I believe we have active people, right? So not just talking for years, the chats without doing anything.
+
+[44:30] **Grayman**: Marketing is all about assessing the market. Who are you talking to? And CannonQ was sort of orchestrating some pretty good work in that direction, but really focused on miners. Which I think is interesting, however, GPU mining is ever since the merge in Ethereum has kind of fallen off. But it's an interesting pool of people that you could potentially draw in because, I mean, what other coins are strong in GPU mining? There's Ravencoin and whatnot, Progpow, whatever. But I think Ergo is pretty near the top. So that's a pretty good place to go and look for people. But if you're going to reach out in general on X or Twitter, then you're talking to the whole world. And the question is, who does it get spread to? You've got to really narrow your message or have multiple messages and use different venues for those or different approaches, maybe different people.
+
+[45:35] **Aberg**: Yeah, I totally agree, Grayman. In regards to multiple messages, we could try target developers, miners, non-technical people. I think a progressive approach is to set some KPIs for myself, for example, and post x amount per day and try to meet them KPIs regardless and stay consistent. Because I'm sure you know how the algorithm works, the more consistent you are, the more exposure you'll get. And it only takes one or two accounts to really recognize the tech and the community behind Ergo. So I think a progressive approach will be KPIs and consistently push content out there. and we can create some memes, not meme tokens of course, but some funny old school memes about Ergo, some kind of controversial tweets, we'll get it approved before putting it out there, as well as pushing for the vision and our values and what we actually stand for.
+
+[46:56] **Grayman**: Sounds good to me. But yeah, it feels like X is unfortunately, you know, it's hard to break out of the bubble of crypto Twitter and get into the other places in the in the glory days of Twitter before Elon bought it. It was, I mean, there were so many different communities. I don't really see a whole lot of that on my feed ever since I switched to be, you know, I guess I get primarily crypto people now. So I don't really have a feel for it, but maybe a different venue. QX was talking about Facebook, I think. Byron. I am not on Facebook and I will never be on it, but that's another way to go. But I really feel like the other thing that we're kind of missing long run is trying to reach out in the academic world, not just towards students, but that would be a good way to go.
+
+[47:54] **Grayman**: but also towards researchers and in other fields like economics and what have you. We have some contacts already. Well, I mean, one of them is right here. He actually works at Cornell. We have people who, like for example, Shai, I think he's some professor at Harvard. We already have some contacts in that realm, but it would be good to expand it. Just because even though that doesn't lead to an enormous amount of people coming in, it leads to a very high quality of person coming in and then from there you can leverage that to go get the more people.
+
+[48:40] **Byron**: I think that's a great idea, Grayman. Could we do, because I know Scala has conferences, could we do booths at Scala conferences? Because I'm not sure if there's other projects with Scala, like syntax or code, unless I'm mistaken. Could ERG do something like that, like physical conferences, like do booths and things like that?
+
+[49:03] **Kushti**: Yeah, we can try. So Scala and Rust maybe. So Rust community is super active now in regards with contributions to open source. So yeah, may make sense to reach all the circles. So developers in Scala and Rust and yeah, academics. So initially Ergo was well, quite well known right in certain circles but yeah but back then I think cryptocurrency research was more foundational and probably more profound as well so yeah well make sense to
+
+[49:50] **Kushti**: to get more recognition there. Probably, well, upcoming stable coin workshop organized by Bruno will be helpful, right? And then, yeah, let's think for more.
+
+[50:09] **qx()**: I'm still a really firm believer in that people are lazy, right? And I see this all the time at school, right? These kids who There may be an event or workshop or something that literally will help what they do tenfold, right? Or literally is exactly what they're interested in, what they're doing, but they don't go and it's not well attended. And you're like, what the hell? And I think the same thing happens with marketing, that kind of thing, right? It's really hard to get people involved, especially even more so hard because they're not even using your product, right? So I'm always a firm believer as well as marketing and grassroots outreach as just making a gosh-darn product and getting them on board kind of thing. Getting them using it because at least they're using it at that point and maybe they'll come to a conference because they like it or want to make it better or whatnot. But yeah, I find that stuff tough at least outside of the blockchain circle to get people interested in stuff that they're already interested in and actually using even. Just my two cents.
+
+[51:17] **Kushti**: Yeah, and hopefully with GitCircles and other tooling for real-world needs of open source developers, hopefully, yeah, it would be a viral, right? And hopefully, yeah, that's how we would get more developers around. All right, let's see. So hopefully, yeah, in like a few weeks, yeah, well, promotion of GitCircles can be started. Well, initially with just a few communities to be onboard, but then more.
+
+[52:04] **qx()**: Great. Aberg, I'm going to give you some delegate access later today. After I look at your profile, make sure you're not a crazy. And we'll see some new posts on the main Ergo Twitter. That'll be great, combined with the Twitter raids. And maybe we can get Ergo One involved as well to have them promote to send stuff to us as well, so we can help pump them to their project. So yeah, awesome. Why don't we let Byron close it today? Byron, any words of wise?
+
+[52:35] **Byron**: Bloody hell. Everyone be safe this weekend. Tune into the stream. Let's have some fun.
+
+[52:44] **qx()**: Thanks everybody. Have a great day. Ciao ciao.
+
+[52:47] **Kushti**: Thank you, Byron. Thank you, everyone. Bye.

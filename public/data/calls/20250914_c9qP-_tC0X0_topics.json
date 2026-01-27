@@ -1,0 +1,166 @@
+{
+  "call_date": "2025-09-14",
+  "call_title": "Ergo PoW Blockchain - Community Chat - September 11th",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Community AMA Format and Infrastructure Updates",
+      "category": "community",
+      "start_time": "00:15",
+      "end_time": "04:29",
+      "primary_speaker": "qx()",
+      "summary": "Introduction to the weekly community AMA format with participant introductions. qx() provides updates on airport bots going offline, infrastructure machines ready for shipping to improve P2P network, and plans to migrate ergoplatform.org hosting to community infrastructure to reduce costs.",
+      "key_terms": [
+        "community AMA",
+        "infrastructure",
+        "P2P network",
+        "hosting migration",
+        "cost reduction"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Node 6.0 and Sub-blocks Development Progress",
+      "category": "technical",
+      "start_time": "05:02",
+      "end_time": "07:32",
+      "primary_speaker": "kushti",
+      "summary": "Development update on Node 6.0 changes, sub-blocks implementation in Sigma SDK, and DevNet testing with Potato. The DevNet runs with extreme parameters of 30-second blocks and 60 sub-blocks per block, creating 2 sub-blocks per second for intensive testing.",
+      "key_terms": [
+        "Node 6.0",
+        "sub-blocks",
+        "Sigma SDK",
+        "DevNet",
+        "block timing"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "GitCircles Project for Developer Communities",
+      "category": "ecosystem",
+      "start_time": "07:32",
+      "end_time": "12:21",
+      "primary_speaker": "kushti",
+      "summary": "Overview of GitCircles project to create community currencies for development communities, where developers receive tokens for repository commits. The project includes a Git bot, persistence layer, and plans for GitHub application integration with Ergo blockchain functionality.",
+      "key_terms": [
+        "GitCircles",
+        "community currencies",
+        "developer tokens",
+        "Git bot",
+        "GitHub integration"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "DAO Governance vs Traditional Open Source",
+      "category": "governance",
+      "start_time": "09:11",
+      "end_time": "17:38",
+      "primary_speaker": "kushti",
+      "summary": "Discussion on whether on-chain DAOs improve upon traditional open source governance structures. Comparison of Bitcoin's development challenges with centralized leadership models, and the trade-offs between flexibility and decentralization in project governance.",
+      "key_terms": [
+        "DAO governance",
+        "open source",
+        "Bitcoin development",
+        "decentralization",
+        "project leadership"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "MindHealer Platform and Community Adoption Challenges",
+      "category": "ecosystem",
+      "start_time": "18:45",
+      "end_time": "22:02",
+      "primary_speaker": "Dmitriy",
+      "summary": "Dmitriy discusses his MindHealer therapy platform built on Ergo and challenges with user adoption due to crypto complexity. He proposes educational classes for specialists and suggests targeting bloggers as ambassadors to increase community adoption, similar to Roger Ver's early Bitcoin promotion.",
+      "key_terms": [
+        "MindHealer",
+        "therapy platform",
+        "user adoption",
+        "crypto complexity",
+        "ambassador program"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Influencer Marketing Strategy Discussion",
+      "category": "marketing",
+      "start_time": "22:02",
+      "end_time": "32:55",
+      "primary_speaker": "qx()",
+      "summary": "Debate on hiring crypto influencers versus targeting ordinary people and travel bloggers. Discussion reveals most crypto KOLs require significant payment (like $40k+ for major promoters) and focus on casino-like speculation rather than decentralized finance principles.",
+      "key_terms": [
+        "influencer marketing",
+        "KOLs",
+        "travel bloggers",
+        "crypto speculation",
+        "decentralized finance"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "User Accessibility and Fiat Integration Challenges",
+      "category": "community",
+      "start_time": "32:57",
+      "end_time": "51:25",
+      "primary_speaker": "Ben",
+      "summary": "Ben highlights major accessibility barriers for Ergo users, particularly the complex process of acquiring ERG through multiple exchanges. Discussion of integrating Apple Pay and fiat payments into Ergo raffles to reduce friction, with ideas for GoFundMe-style interfaces and DCA mechanisms.",
+      "key_terms": [
+        "user accessibility",
+        "fiat integration",
+        "Apple Pay",
+        "Ergo raffles",
+        "on-ramp solutions"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Cross-chain Payments via Rosen Bridge",
+      "category": "bridges",
+      "start_time": "54:26",
+      "end_time": "56:29",
+      "primary_speaker": "Dmitriy",
+      "summary": "Discussion of using Rosen Bridge to enable cross-chain participation in Ergo raffles and crowdfunding. With sufficient liquidity pools, users could pay with Bitcoin or other assets while funds ultimately settle on Ergo.",
+      "key_terms": [
+        "Rosen Bridge",
+        "cross-chain payments",
+        "liquidity pools",
+        "Bitcoin integration",
+        "raffles"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Autolykos DAO Venture Capital Announcement",
+      "category": "defi",
+      "start_time": "56:35",
+      "end_time": "58:12",
+      "primary_speaker": "Grayman",
+      "summary": "Grayman announces the Autolykos DAO and Venture Capital Collective, featuring on-chain governance with Lykos tokens representing shares. The project is moving from seed to sow round, with plans to fund projects including a payment gateway with mixing capabilities.",
+      "key_terms": [
+        "Autolykos DAO",
+        "Lykos tokens",
+        "venture capital",
+        "payment gateway",
+        "mixing"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Security Updates and Spam Token Protection",
+      "category": "technical",
+      "start_time": "58:13",
+      "end_time": "60:25",
+      "primary_speaker": "qx()",
+      "summary": "Updates on Nautilus wallet improvements including FleetSDK upgrades and spam token protection. Community-maintained lists automatically hide scam tokens, with plans to add known scammer address warnings to protect users from fraudulent transactions.",
+      "key_terms": [
+        "Nautilus wallet",
+        "spam tokens",
+        "scammer addresses",
+        "FleetSDK",
+        "community protection"
+      ]
+    }
+  ]
+}

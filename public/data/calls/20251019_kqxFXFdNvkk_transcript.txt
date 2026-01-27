@@ -1,0 +1,899 @@
+[00:00] **CannonQ**: All right. Hey everybody, my name is CannonQ.
+
+[00:02] **CannonQ**: Thank you all for allowing a non-dev to talk to you today.
+
+[00:08] **CannonQ**: This says, I actually think pretty decent implications are a vector for devs to put their head around.
+
+[00:17] **CannonQ**: It's getting out from behind the keyboard a bit, but there's a lot of protocol that would need to be developed.
+
+[00:26] **CannonQ**: So anyway, long and short of it, I talked to this a little bit over the last year, mentioned it to Joe a couple of times, and he asked me to give a presentation on it.
+
+[00:38] **CannonQ**: I think it'll be interesting, and so I did. So here we are.
+
+[00:42] **CannonQ**: Commercial barter meets permissionless infrastructure.
+
+[00:47] **CannonQ**: I will try not to read the slides. That'll be the only one, so let's get going.
+
+[00:53] **CannonQ**: A hidden B2B economy, but we're here for peer-to-peer.
+
+[01:01] **CannonQ**: Most crypto is looking at speculation, right? Look at yesterday, big crash, people on DEXes, sort of playing lotto.
+
+[01:14] **CannonQ**: Bartering worldwide is or in North America is about a 12 to 14 billion dollar market.
+
+[01:22] **CannonQ**: What we're focusing on is a smaller subset that is like, non governmental, non big, huge corporate kind of moves.
+
+[01:37] **CannonQ**: So anyway, they're tax compliant. That's one of the things that people often get confused by.
+
+[01:41] **CannonQ**: And you don't really need to convince these guys about not using fiat. They use their own barter currency.
+
+[01:52] **CannonQ**: So what is a barter exchange? It's not eggs for tomatoes. Sorry, Jemai.
+
+[02:01] **CannonQ**: Not getting chickens from the Russians down the street or selling them.
+
+[02:06] **CannonQ**: It is not skirting tax laws, doing something for cash to try to get a little bit more juice in your pocket.
+
+[02:15] **CannonQ**: And it's not government counter trade deals. Now, that is a larger barter thing where like a city might give somebody like advertising or something at a big fair and they, you know, you reciprocate, that's part of the bigger number.
+
+[02:34] **CannonQ**: It's a formal B2B exchange network. This is probably one of the only few slides I'll read, but they do real accounting and tax reporting.
+
+[02:42] **CannonQ**: So you actually get a 1099B. So those of you in the U.S. that have been a contractor before, you get a 1099.
+
+[02:51] **CannonQ**: You usually don't look at the letter, but B is for barter, C is for whatever. There's several of them.
+
+[02:59] **CannonQ**: There are large networks, 140 million annually. iTex is the biggest.
+
+[03:05] **CannonQ**: IMS is independent. They have franchises.
+
+[03:08] **CannonQ**: And then you have regional networks, like the local trade partners, which is in my area. They're a couple hours away from me.
+
+[03:15] **CannonQ**: They're doing about 10 million a year. And we'll talk about them a little bit more specifically.
+
+[03:19] **CannonQ**: And then Rocky Mountain Barter, I found one that's actually here. I think they're out of Colorado Springs.
+
+[03:23] **CannonQ**: They do about half a million a year. And again, this is not using cash.
+
+[03:28] **CannonQ**: It's using, I mean, you're bartering and then receiving credits in a barter currency.
+
+[03:36] **CannonQ**: So what about regional currencies? It is not Berkshires, Ithaca Hours, Petite Monet.
+
+[03:42] **CannonQ**: I think I showed that to Luca. It's outside of Montreal in sort of a little enclave.
+
+[03:48] **CannonQ**: They've printed their own currency. I mean, it's sweet looking.
+
+[03:53] **CannonQ**: A lot of those are geographic based their time based and they get a big bump and then they fall apart and most of them don't scale beyond a million dollars.
+
+[04:03] **CannonQ**: So it's really it's not that they don't fail, but from a dev standpoint or a protocol standpoint, it's hard to create a business around something that doesn't scale beyond a million dollars.
+
+[04:15] **CannonQ**: I mean, it's a pretty small fish.
+
+[04:18] **CannonQ**: These are business to business networks. They have their own ledger systems. We'll get in that just briefly.
+
+[04:28] **CannonQ**: The network operator actually provides a ton of value. They will mediate.
+
+[04:32] **CannonQ**: They will help make push deals across the table.
+
+[04:36] **CannonQ**: And their scale, I mean, it's two and a half billion conservatively a year for the last, I mean, growing, but I mean, it's a big number.
+
+[04:49] **CannonQ**: Here's an example, local trade partner in my area in the Ozarks in sort of central, mid, south central in the U.S. Alice builds a deck for somebody, gets paid 50,000 or 50, 5,000 in credits.
+
+[05:07] **CannonQ**: Those credits are LTP credits, so local trade partner currency credits.
+
+[05:13] **CannonQ**: You get a statement every month from them like a bank saying, hey, here's how many credits you have.
+
+[05:19] **CannonQ**: She gets that full value. It's pretty small up there, but her variable cost is $3,000.
+
+[05:28] **CannonQ**: Come to find out a couple months later that year, whatever, she needs to get a couple crowns in her head for teeth.
+
+[05:34] **CannonQ**: There's a lot of dentists on these things, honestly.
+
+[05:37] **CannonQ**: And so, she pays that dentist $4,500 in credits. That dentist gets the full $4,500.
+
+[05:43] **CannonQ**: What she has to do in our local trade partner exchange is she has to pay 10% to the local trade partner like organization.
+
+[05:53] **CannonQ**: So she pays 49.50 out of pocket or using her credits.
+
+[06:00] **CannonQ**: And so you're sort of thinking, well, that's just a swap, right? Like you're swapping horses, nothing really happened for you there.
+
+[06:06] **CannonQ**: Well, if her variable cost was three grand and she just got $4,500 worth of new teeth in her head, she actually made a 50% ROI.
+
+[06:16] **CannonQ**: And so we're gonna hammer that home a little bit in this. It's pretty common in business.
+
+[06:22] **CannonQ**: Not a lot of people do it well, but it's variable costing.
+
+[06:26] **CannonQ**: You can have fixed costs. You always got to pay me. I always got to pay rent.
+
+[06:31] **CannonQ**: You always got to pay payroll unless you got guys on a really flexible schedule.
+
+[06:36] **CannonQ**: You got cars, you got equipment, but what was your actual variable costs?
+
+[06:41] **CannonQ**: So for her building a deck, she had a little bit of lumber, a little bit of labor, and that's it.
+
+[06:49] **CannonQ**: So she was able to turn that $3,000 into $4,500 worth of teeth.
+
+[06:56] **CannonQ**: Do you have a question? Yeah.
+
+[07:01] **CannonQ**: Okay, yeah, variable. I use this Alice example sort of throughout and there's a few others, but I try to carry this one throughout the thing.
+
+[07:10] **CannonQ**: And so, it's idle capacity arbitrage, right? So, Dev, perk up your ears. You heard arbitrage.
+
+[07:16] **CannonQ**: How do I make money on this?
+
+[07:19] **CannonQ**: So, without barter, she has an idle crew and equipment that day that they were building that deck. She didn't get the business.
+
+[07:26] **CannonQ**: You will once you're in these networks and you're established and you've sort of like put your name out there you start getting business that you wouldn't normally get because people have this sort of fake ROI you can create from you know your own value.
+
+[07:41] **CannonQ**: So basically the dental work would cost her 4500 bucks out of pocket.
+
+[07:47] **CannonQ**: Like we said with barter 3000 variable cost she makes about 1500 bucks the difference between the 3000 she spent to build that deck for somebody and what she receives in value from the dentist.
+
+[08:02] **CannonQ**: So sort of think about like Airbnb with an empty room or a hotel with an empty room, right?
+
+[08:06] **CannonQ**: Like what's that variable cost for them to book you one night? It's not a lot.
+
+[08:11] **CannonQ**: Or think about your mining rig with excess electricity, right?
+
+[08:15] **CannonQ**: Or you've paid off the cards so you're not worried about depreciating those cards into the cost of the coin you're mining.
+
+[08:21] **CannonQ**: So this is, we talked about it a bit, about two and a half billion in the retail barter exchange sector.
+
+[08:31] **CannonQ**: That's mainly, I'm looking at North America. There are definitely some in Europe as well and Asia, about 400 across the globe.
+
+[08:46] **CannonQ**: This is, again, only about a 20% of the subset, and this is really the only one that I would think anyone would focus on.
+
+[08:53] **CannonQ**: Geographic industry, we'll get to that.
+
+[08:56] **CannonQ**: What makes an ideal business for bartering high fixed costs or no fixed costs? low marginal costs, perishable capacities.
+
+[09:05] **CannonQ**: I think a time constraint. Think of your hotel rooms, restaurant, your tables.
+
+[09:11] **CannonQ**: You can only have people eat that night and then it's gone till the next day.
+
+[09:16] **CannonQ**: Having excess capacity and being an independent owner.
+
+[09:21] **CannonQ**: So there's some ratios I put on here and whatnot. People can look at the slides later.
+
+[09:26] **CannonQ**: A few of the things
+
+[09:31] **CannonQ**: This will be a little hard to see. Maybe it shows up pretty good.
+
+[09:36] **CannonQ**: Really your best options. I sort of went through these and sort of scored them out.
+
+[09:39] **CannonQ**: Your best ones are hotels, advertising media. I'd put programming in there as well with advertising media.
+
+[09:46] **CannonQ**: Pet boarding, because if anyone's boarded their dog, right? No one's doing anything.
+
+[09:52] **CannonQ**: They're checking up like once a day or twice a day. Like, I mean, they're already there checking other dogs.
+
+[09:59] **CannonQ**: Chiropractic, a lot of them are, they're already doing a lot of cash business.
+
+[10:04] **CannonQ**: So this is another way for them to sort of enhance it.
+
+[10:07] **CannonQ**: Legal services usually have to be solo. It's hard to do it as part of a bigger, like, legal practice because billable hours and all that kind of crap.
+
+[10:16] **CannonQ**: Accounting if you're tax focused.
+
+[10:20] **CannonQ**: And then dental is a little harder. If you're an independent standalone, that's great.
+
+[10:25] **CannonQ**: Like my cousin, he has his own dental practice for less like 25, 30 years.
+
+[10:30] **CannonQ**: If you're newer coming out of dental school, typically you start working for somebody or a corporation that owns like multiple dental offices.
+
+[10:38] **CannonQ**: It's harder to break into it because the debt coming out of school and the equipment cost same thing for veterinarians.
+
+[10:45] **CannonQ**: If they're independent, that's a good one.
+
+[10:48] **CannonQ**: So real world economics hotel. You have 300 hotel rooms here in downtown Colorado Springs.
+
+[10:55] **CannonQ**: federal government shut down so you're at least a third behind if you charge a hundred bucks a night on those rooms you'd make fifteen thousand bucks actual causes some cleaning supplies, maybe have to bring in one extra person to clean them, two extra people.
+
+[11:17] **CannonQ**: And so that's, you can start looking at what your effective return is.
+
+[11:20] **CannonQ**: Again, that's another example, the sort of variable cost versus fixed costs.
+
+[11:25] **CannonQ**: They already had to pay electricity for the day, water bill, everything else to maintain the hotel property.
+
+[11:30] **CannonQ**: But your variable cost in the hotel is truly only your cleaning staff and the supplies they use to clean the room.
+
+[11:39] **CannonQ**: Deep dives. So the network operators, the people who run these barter exchanges, they are a trusted intermediary.
+
+[11:55] **CannonQ**: So think of maybe like Rosen Bridge even, like in between a transaction, like you're submitting it, you know, sort of you can see it.
+
+[12:03] **CannonQ**: They're a little bizarre. They're all over the map.
+
+[12:06] **CannonQ**: Some charge a sign up fee, the one I'm in is free, like no fees other than that 10%.
+
+[12:14] **CannonQ**: Some charge you a monthly fee in cash and currency.
+
+[12:18] **CannonQ**: Some charge anywhere from six to 15% on your spending.
+
+[12:24] **CannonQ**: Some charge you when you receive as well.
+
+[12:26] **CannonQ**: So I mean, it's like, they're all over the map on where they're taking your money or taking the credits.
+
+[12:33] **CannonQ**: This one doesn't really matter.
+
+[12:40] **CannonQ**: So they have a dollar peg mechanism in theory. And I say in theory, ITEX, they were a public company.
+
+[12:48] **CannonQ**: Again, they're the biggest one. They had a SEC fraud case right around the dot-com bubble where they were inflating their revenues and sales to get everyone on there.
+
+[12:57] **CannonQ**: And there was basically a flash crash. People went out of business, turned the dot-coms, and there weren't enough credits to go around.
+
+[13:07] **CannonQ**: make it work. So they actually had SEC fine. They're no longer public.
+
+[13:12] **CannonQ**: They sort of took it private after that.
+
+[13:16] **CannonQ**: But it sort of goes to show you like, you know, danger of opacity, like we talked about several times today already.
+
+[13:25] **CannonQ**: In fragmentation, so this sort of made me think of Rosen Bridge a bit, right? Talking about your stranded value.
+
+[13:31] **CannonQ**: Alice is in the Ozarks. She has 50,000 worth of credits built up over several years.
+
+[13:36] **CannonQ**: She semi-retires and just shuts down the business, which not everyone always sells their business.
+
+[13:41] **CannonQ**: It may just be her and one of the two other people and she just shuts it down.
+
+[13:44] **CannonQ**: She moves to New York, gets an itch, starts up a business there.
+
+[13:48] **CannonQ**: She can't really use any of those credits because you can't take a trade currency dollar in the Ozarks.
+
+[13:56] **CannonQ**: No one in New York City gives a shit, right? Like they're not gonna give you any money for it.
+
+[14:02] **CannonQ**: So you get stranded.
+
+[14:06] **CannonQ**: They will facilitate a little bit at this point, but that's a huge missing layer.
+
+[14:11] **CannonQ**: So these guys do a great job vetting members, bringing them on board, tax reporting, dealing with issues between vendors on the exchange.
+
+[14:22] **CannonQ**: They're not interoperable across the different exchanges.
+
+[14:25] **CannonQ**: There is no transparent reserves, no capital efficiency, they won't lend you money, you can't borrow credits, you can't lend your credits, and there's no neutral settlement layer across the different exchanges.
+
+[14:48] **CannonQ**: Which is why I think this is a very good opportunity for the right people.
+
+[14:57] **CannonQ**: So there are two actual federated, if you want to call them bridges.
+
+[15:02] **CannonQ**: Barter Association National Currency. NAIT is the National Association of Trade Exchanges.
+
+[15:14] **CannonQ**: You as a vendor on an exchange cannot use it. Your local exchange that you're part of has to pay a fee.
+
+[15:23] **CannonQ**: Then they take some cut of your money going across to a new exchange.
+
+[15:29] **CannonQ**: They have to approve everything. There's a lot of horse swapping and a lot of phone calls to get this thing done.
+
+[15:37] **CannonQ**: That one, they have to approve your exchange. Only 40 exchanges are in there.
+
+[15:42] **CannonQ**: There's over 200 exchanges across the US, so it's not that big.
+
+[15:46] **CannonQ**: They're basically the bigger ones working together, keeping the small guys out.
+
+[15:50] **CannonQ**: And then you have universal currency, which is bigger, the international, shoot, I'm not going to remember, something in Trading Association, Retail Trading Association, I think.
+
+[16:04] **CannonQ**: They have a hundred of the exchanges globally. They're a little bit larger.
+
+[16:09] **CannonQ**: They charge a quarter point on every dollar that flows through them across these different networks, which isn't too bad.
+
+[16:21] **CannonQ**: To be a member of that trade organization is not hard. It's not like it's more of an open option.
+
+[16:29] **CannonQ**: But there's several hundred that basically aren't connected anyway, shape or form.
+
+[16:34] **CannonQ**: And they might be, but when I talked to my guys and said, hey, I'm coming out to Colorado as an example, what if I had credits and I wanted to use them at a hotel here, Airbnb, restaurant, whatever, book a restaurant for everybody, you know, with some free credits I had.
+
+[16:48] **CannonQ**: And he was like, well, I'd have to make a lot of call, you know, like, it's always like, yeah, it can be done, but it's not probably doable.
+
+[16:59] **CannonQ**: or very possible.
+
+[17:01] **CannonQ**: Ergo's value proposition or a project protocol on Ergo.
+
+[17:07] **CannonQ**: Economics, one million a volume cost 1% probably on the other exchanges on Ergo, you know, it's a couple hundred bucks.
+
+[17:17] **CannonQ**: Access, you can make it permissionless. You could also make it permissioned, you know, just to vet the exchanges that are coming on board.
+
+[17:26] **CannonQ**: Transparency would be there, privacy, we can use Sigma protocols, zero-knowledge proofs, etc.
+
+[17:34] **CannonQ**: We'll get into that a little bit.
+
+[17:36] **CannonQ**: And you allow the networks to do what they do, what they're good at, right?
+
+[17:41] **CannonQ**: They're good at being the local person, holding everybody's hand and shaking hands and kissing babies locally, and we can handle the actual settlement, moving things around.
+
+[17:50] **CannonQ**: Being that kind of layer Again addressable market. I'm hitting this again.
+
+[17:56] **CannonQ**: Just so you guys see it two point five billion And that's a that's globally but probably 80% of that's North America Current exchange volume, it's not really And I mean inner exchange volume it's not really published anywhere but in total.
+
+[18:20] **CannonQ**: So it's probably about 20 million. So maybe 20, 30 million out of 2.5 billion is moving across these exchanges.
+
+[18:29] **CannonQ**: I'd say if you only got 10% of adoption, you're looking at a quarter billion moving annually on Ergo.
+
+[18:37] **CannonQ**: And again, you don't have a lot of gatekeepers to overcome, and it's not about replacing these exchanges.
+
+[18:43] **CannonQ**: I've sort of gone down that route. in real world assets.
+
+[18:56] **CannonQ**: Total volume on Ergo, I have no clue. I'm sorry.
+
+[19:04] **CannonQ**: Like, I mean, maybe half a million a day before the price is lower now.
+
+[19:09] **CannonQ**: So maybe like three, 400,000. Yeah, probably.
+
+[19:15] **CannonQ**: And it's not about replacing these exchanges, right? It's about connecting them.
+
+[19:19] **CannonQ**: They're good at what they do. They are a value add for their members.
+
+[19:22] **CannonQ**: It's not like they're doing a shitty job necessarily.
+
+[19:25] **CannonQ**: It's that they don't really have the tooling to do what would even make it a better tool for their members.
+
+[19:37] **CannonQ**: Programmability, privacy, you know, blockchain in general, efficiency, sustainability, permissionless, you have security.
+
+[19:50] **CannonQ**: So multi-party settlement, escrow, I mean, Luca, MGPi, and NZ, who was the other?
+
+[20:03] **CannonQ**: Yeah, it helped us with SigmaLock. We'll show you guys that a little bit later on today.
+
+[20:08] **CannonQ**: But I mean, that's a pretty sweet little escrow or conditional logic that we have.
+
+[20:13] **CannonQ**: Be applicable here or something similar to that would be applicable here.
+
+[20:17] **CannonQ**: Why not other chains? And, you know, you'd see this if anybody else gave this from Polkadot or Cardano or anything else.
+
+[20:24] **CannonQ**: But Bitcoin limited programmability, Ethereum, high fees.
+
+[20:28] **CannonQ**: How are you going to do small transactions? Unless you got a layer 2, and then you got other issues there, possibly pre mind foundation control.
+
+[20:37] **CannonQ**: It's not really as neutral as you want it to be.
+
+[20:39] **CannonQ**: I think earlier we're talking about privacy and proofs on some of those networks and are they really private.
+
+[20:47] **CannonQ**: If that's what they're pushing you towards.
+
+[20:51] **CannonQ**: permissioned chains that sort of put, like, proof of stake pretty much right there.
+
+[20:58] **CannonQ**: You still have gatekeepers, network politics, and then most other L1s, I mean, it's centralized, expensive, or their tokenomics aren't really sustainable.
+
+[21:09] **CannonQ**: Ergo, we know we're expressive on top of UTXO.
+
+[21:17] **CannonQ**: Perfect fit for if you're trying to move a thousand credits from this network to that network.
+
+[21:22] **CannonQ**: And boxes can reference other boxes. I mean, I'm talking to devs, you guys know this stuff.
+
+[21:28] **CannonQ**: It's not really, I'm giving you guys a whole lot of info here.
+
+[21:30] **CannonQ**: Sigma protocols have been noodling around with the opportunity of if you brought on one of these exchanges, say the local trade partners in the Ozarks, their software has API access.
+
+[21:48] **CannonQ**: You could prove credit history. You could prove collateral.
+
+[21:51] **CannonQ**: You could prove borrowing requirements for the actual individual vendors, right?
+
+[21:55] **CannonQ**: Some of that data can be fed in to a protocol. And we'll get to that in a little bit.
+
+[22:01] **CannonQ**: I mean, there's some cool things you can do.
+
+[22:05] **CannonQ**: Storage rent, it sounds hokey, but I think demurrage is pretty cool.
+
+[22:10] **CannonQ**: Some of the more successful local currencies have had a attrition, like it expires at some point in time, so you could just tell the exchange as part of the deal.
+
+[22:22] **CannonQ**: This stuff's only going to be there for four years. Use it or lose it.
+
+[22:25] **CannonQ**: And that should actually be a motivating thing for the exchange because the vendors will then use their exchange more.
+
+[22:33] **CannonQ**: They make more fees, et cetera, et cetera.
+
+[22:39] **CannonQ**: Transaction finality, two minutes for block time. It's a day for full lockdown confirmation, but two minutes isn't a big deal.
+
+[22:48] **CannonQ**: Sub blocks is coming up, so it wouldn't even be a deal. Low fees, developer tools.
+
+[22:56] **CannonQ**: We have some of the existing frameworks or concepts that could be applied to this.
+
+[23:05] **CannonQ**: current isolated islands. So you got the ITEX network, the one that committed fraud 25 years ago, the one with mine in the Ozarks and the one here in Rocky Mountain.
+
+[23:16] **CannonQ**: If they're going to connect, they got to make phone calls, faxes, emails.
+
+[23:20] **CannonQ**: I mean, just old school crap, right, to get it done. I don't even know.
+
+[23:22] **CannonQ**: They might even be using mail still.
+
+[23:27] **CannonQ**: There's no liquidity moving across. And again, it's the whole stranded value, dead capital.
+
+[23:33] **CannonQ**: Say you build up a lot of business, but you haven't been able to spend it yet.
+
+[23:36] **CannonQ**: You might have $30,000 worth of credits like Alice.
+
+[23:39] **CannonQ**: She has built a bunch of decks for people. Now she needs to wait till the winter when she can actually do the maintenance on her equipment, buy new equipment, whatever.
+
+[23:47] **CannonQ**: Future shared infrastructure. ITEX has 5,000 members, the Ozarks have 500, the one here locally has 100.
+
+[23:58] **CannonQ**: So now you've combined this and made it 5,600 members with a settlement layer that works and sort of feeds what they need.
+
+[24:11] **CannonQ**: Yeah, the real innovation is not technical. It is, don't get me wrong, devs, but it's recognizing that the network is the value creator, not us.
+
+[24:21] **CannonQ**: They're not just rent-seeking shitty middlemen like Coinbase.
+
+[24:27] **CannonQ**: The blockchain is an infrastructure layer, right? It can be their account ledger that's open, transparent,
+
+[24:35] **CannonQ**: Simple contracts are better than a complex bridge.
+
+[24:40] **CannonQ**: Not looking to build a replacement or some kind of super complex bridge.
+
+[24:50] **CannonQ**: It would all be settled on Ergo. You wouldn't have to like move across to theorem and different stuff.
+
+[24:55] **CannonQ**: We could, because Rosen Bridge exists, but there would really be no need to do that.
+
+[25:00] **CannonQ**: One of the discussions today about AVL trees and things like that, I mean you can do some pretty neat stuff with their ledgers and just like keep augmenting them.
+
+[25:08] **CannonQ**: Let me just unchain. Let me have an easily viewable what's happening.
+
+[25:16] **CannonQ**: So yeah, potential core innovations, cross network settlement bridge for them, it would be a big thing.
+
+[25:24] **CannonQ**: So let's talk about Alice again. She needs some specialty wood for this deck.
+
+[25:31] **CannonQ**: She's building something for one of my clients and has like a $20 million house that looks like an art museum.
+
+[25:40] **CannonQ**: He has really nice teak wood and he wants it Aspen. He wants to be able to tell all his friends about it.
+
+[25:49] **CannonQ**: she could call Bob, and he's like, hey, I'm in a barter network.
+
+[25:52] **CannonQ**: She asks him, and then, you know, how do we make that happen?
+
+[25:57] **CannonQ**: And Bob's like, well, hell, I'm coming to those arcs. I'm going to Crystal Bridges.
+
+[26:00] **CannonQ**: It's the nicest art museum in the U.S. outside of New York or D.C. and has the largest
+
+[26:10] **CannonQ**: Just for a little plug, the most American art in the world at one location.
+
+[26:16] **CannonQ**: In fact, that's what it's dedicated to and it has a Frank Lloyd Wright house that they deconstructed reconstructed there.
+
+[26:22] **CannonQ**: It's pretty sweet. So he's going to go there. He's already planning on it.
+
+[26:25] **CannonQ**: So he's like, sweet. Yeah, I'll give you the wood, you give me the credits.
+
+[26:30] **CannonQ**: But how do we make that happen? Different networks, they're not operable.
+
+[26:37] **CannonQ**: That's where we come in or innovation would come in.
+
+[26:43] **CannonQ**: Same kind of things that we've talked about with SigmaLock or some of the other staking locking protocols.
+
+[26:53] **CannonQ**: You know, if you don't accept, it's auto-refunded. If an oracle doesn't attest to it, etc.
+
+[26:58] **CannonQ**: I mean, there's, you know, different things to fail safe this.
+
+[27:05] **CannonQ**: So Alice would initiate the request. It goes to Bob.
+
+[27:09] **CannonQ**: I mean, this looks like any, you know, cross network swap, nothing fancy to us, but to them, it would allow them to actually do a business deal and get what they wanted.
+
+[27:23] **CannonQ**: So it's pretty neat to me as more of a business guy, not a dev guy.
+
+[27:31] **CannonQ**: Lending and borrowing pools, think duck pools, think something similar.
+
+[27:37] **CannonQ**: Some of the staking you guys were talking about that sort of comes into this as well.
+
+[27:45] **CannonQ**: right now I have not found a barter exchange out of the 2.5 billion of annual volume.
+
+[27:52] **CannonQ**: I haven't found one that allows people to lend their barter credits to others.
+
+[27:57] **CannonQ**: Might happen, I don't know, but I haven't found it yet.
+
+[28:01] **CannonQ**: So I think that's a pretty, you know, neat, easy thing for Ergo to be able to accomplish for these people.
+
+[28:07] **CannonQ**: Even if it's within your own network, I'm not talking about using Ozark credits to get Rocky Mountain.
+
+[28:12] **CannonQ**: I'm just talking about, I got a bunch of credits I don't need right now, let someone else get them for cheap or borrow them.
+
+[28:21] **CannonQ**: There's a scenario here, it's not really that important really, but it's Alice's seasonal rights.
+
+[28:27] **CannonQ**: She builds up a lot of credits in the spring, summer, fall.
+
+[28:31] **CannonQ**: Then in the winter, she needs to spend credits because she's going to buy a new vehicle or some new equipment, whatnot.
+
+[28:37] **CannonQ**: So in the summer, she has 40,000 idle credits just sitting there till the winter when she can actually upgrade her equipment.
+
+[28:43] **CannonQ**: And that's sort of when she has time to work on the new equipment, get it all set up ready for the next year.
+
+[28:50] **CannonQ**: With lending pools, she can put that out, let other people borrow it.
+
+[28:56] **CannonQ**: You can do something. I mean, similar duck pools just say, hey, it's a 3% or 4% base.
+
+[29:02] **CannonQ**: And then it's based on utilization, right? Just put a utilization curve on it.
+
+[29:08] **CannonQ**: Nothing exotic. These are regular business people that have a bank account.
+
+[29:11] **CannonQ**: 3% is nice.
+
+[29:13] **CannonQ**: There's a way for the protocol to capture value here because they're allowing that to occur.
+
+[29:23] **CannonQ**: Then in the winter, she needs to get $25,000, $35,000 worth of stuff.
+
+[29:29] **CannonQ**: Then she can either borrow and just have like a two or three percent spread against her borrowing costs versus her lending costs or cash in her credits.
+
+[29:39] **CannonQ**: I mean she may want a bigger truck next year so she's going to keep the credits and just pay that marginal spread.
+
+[29:45] **CannonQ**: There's a lot of ways to look at it.
+
+[29:48] **CannonQ**: You can do some on-chain credit scoring. It seems like it's possible.
+
+[29:52] **CannonQ**: these exchanges. The one in central Arkansas where I'm at is, it's on AS400 and grain bar paper.
+
+[30:04] **CannonQ**: Like, I mean, you ain't getting nothing out of them.
+
+[30:08] **CannonQ**: The one up in the Ozarks, there is one platform. He continues to buy out other platforms.
+
+[30:14] **CannonQ**: That is the software platform that powers these networks. He's good at what he does.
+
+[30:22] **CannonQ**: There's API access, things like that. So they have all the transaction volumes.
+
+[30:26] **CannonQ**: They know reliability of vendors, grading of the vendors.
+
+[30:31] **CannonQ**: Yeah, one guy. He's out in Boston. MGPi may need to go meet with him.
+
+[30:39] **CannonQ**: But yeah, I mean you could create a credit scoring, right?
+
+[30:41] **CannonQ**: Like off of the data that the network already has.
+
+[30:45] **CannonQ**: And think about if you're Alice trying to get wood from Bob and maybe you didn't have enough credits, you could say, hey, let me give you an IOU, right?
+
+[30:52] **CannonQ**: Like, and he would accept your network IOU because he sees you have great credit score and you're not welching on your bets, right?
+
+[30:59] **CannonQ**: Like you're a real person.
+
+[31:03] **CannonQ**: So yeah, a little bit about like the interest rate discovery.
+
+[31:06] **CannonQ**: This isn't new to anybody who's used duck pools or a lot of the other lending protocols that exist now, but just a utilization based.
+
+[31:17] **CannonQ**: For example, my line of credit at my bank is 7.75%.
+
+[31:21] **CannonQ**: So I mean, 8%, hell, I'd borrow all day on that. Like that wouldn't bother me at all.
+
+[31:26] **CannonQ**: If I could get credits and I knew I was going to earn some more that year and pay them off, that's no big deal.
+
+[31:31] **CannonQ**: 14%, 20% might be a little iffy, but what it does is as those rates get higher, people add more to the pool like you guys have seen with duck pools, and then it starts pushing the interest rate down until borrowers go back up.
+
+[31:43] **CannonQ**: You just hit that equilibrium.
+
+[31:46] **CannonQ**: Decentralize lending pool mechanics. You guys know the drill if you've used duck pools.
+
+[31:55] **CannonQ**: But think if you're the hotel. I mean, you can just start making extra money on this, right?
+
+[32:01] **CannonQ**: If you're an independent hotel or independent franchise is allowed to do it.
+
+[32:04] **CannonQ**: Say you're the landscape guy that's starting up your own company and you don't have all the equipment you need, you can go out and now borrow money in the network and then go to the Toro dealer that's in the network and get your equipment.
+
+[32:17] **CannonQ**: And again, the local barter exchange is happy about this because you just created more volume for them to pocket 10% or 15% or whatever it is, and they have more members.
+
+[32:31] **CannonQ**: Provable reserves, like a centralized exchange, you don't know.
+
+[32:38] **CannonQ**: And some of these have gone under. So you could build up credits in one of these.
+
+[32:44] **CannonQ**: And again, you don't get paid cash, right? So if I do work under this exchange, I get no cash.
+
+[32:53] **CannonQ**: It's all in these trade credits. But this trade organization goes out of business.
+
+[32:59] **CannonQ**: I effectively just did work for worse than free. I paid materials into it too, right?
+
+[33:04] **CannonQ**: Like not just time and effort, like not just the variable cost, but everything's gone.
+
+[33:08] **CannonQ**: So, you could do, you know, again, provable reserves, you know, that everything balances out in these things.
+
+[33:19] **CannonQ**: You'd have a dashboard, pretty simple. I mean, in theory, right? Some UX issues there, but.
+
+[33:26] **CannonQ**: There's a fraud case. It's impossible to inflate reserves if it's actually there on chain.
+
+[33:35] **CannonQ**: This would help people if they want to join the network or trade with the network.
+
+[33:39] **CannonQ**: You may not want to send your credits to the Rocky Mountain Network because it looks a little dodgy or they're not that well collateralized.
+
+[33:45] **CannonQ**: There's more on one side than the other just because of the imbalance that's occurring.
+
+[33:53] **CannonQ**: Oracle problems, like always, right? Reputation, time delay, et cetera.
+
+[34:00] **CannonQ**: Scalability, user experience. I mean, all these things, I think, are pretty simple to do, but with the right tools and the right people.
+
+[34:12] **CannonQ**: Regulatory. I haven't looked into this all the way. I don't think that.
+
+[34:20] **CannonQ**: They already do this, right? So like my exchange and the Ozarks will send money to another one.
+
+[34:27] **CannonQ**: I don't think that there's a money transmission license to deal with or anything like that, or they already have that sorted out themselves.
+
+[34:34] **CannonQ**: I don't think it really adds a whole lot of tax reporting complexity.
+
+[34:38] **CannonQ**: The only thing it would add is 1099 INT for interest earned on the old lending.
+
+[34:48] **CannonQ**: Yeah, and it's in the order of getting a 1099 B.
+
+[34:50] **CannonQ**: So, I mean, you're just giving them one more data point to give to these people to show that you earned interest on your credits.
+
+[34:58] **CannonQ**: Yeah, the bigger issue is adoption, right? It's always a chicken and egg thing.
+
+[35:03] **CannonQ**: And so I think it would be starting with a couple smaller ones that are accessible and progressive and then going from there.
+
+[35:10] **CannonQ**: Yes.
+
+[35:39] **CannonQ**: Yeah, so the question was about algorithmic stablecoins and if it's pegging to that, I'm not saying peg it to the algorithmic stablecoin.
+
+[35:49] **CannonQ**: Yeah, if you had local trade partner credits or dollars and then you had one from New York or one from wherever, it's still in that currency.
+
+[35:57] **CannonQ**: You're not co-mingling those pools per se, right? So like you would set up a lending pool for each of those networks.
+
+[36:07] **CannonQ**: And then you would give them the ability to borrow in that network because you want to buy Aspen wood from the guy right down the street or from Joe and tell him to go log a couple off his property.
+
+[36:20] **CannonQ**: You know, I mean, it's that's sort of the way it would go.
+
+[36:43] **CannonQ**: Yeah. Yeah. So that's why everyone should want to do it.
+
+[36:48] **CannonQ**: Because you can, as the vendor, you can become your own bank or at least partially your own bank, right?
+
+[36:54] **CannonQ**: So like you can now pay. I had this concept in grad school.
+
+[36:59] **CannonQ**: So I used to audit a couple companies that were small. like they did fishing lures.
+
+[37:06] **CannonQ**: And then another one that was in Walmart, right? And they blew up and Walmart blows you up to a certain size, like 20, 30 million in sales.
+
+[37:13] **CannonQ**: And you're like, woo. And then you have to go out and get a $20 million loan to sustain that.
+
+[37:20] **CannonQ**: And then once they know you got that loan, three months later, they come to you and go, you know, I think I'm gonna have to pay about 50 cents on the dollar, what I used to pay you.
+
+[37:28] **CannonQ**: And like, they just sort of get you squeezed in. And then on top of that, they pay you at 120 days.
+
+[37:34] **CannonQ**: So it's like they're screwing you every different way.
+
+[37:37] **CannonQ**: But now you can add a concept in grad school that if Walmart actually became a lender to their vendors, they'd make more money than what they're doing now by squeezing everyone for 120 day terms.
+
+[37:52] **CannonQ**: No, it would work like economically it should work.
+
+[37:55] **CannonQ**: So I think this could actually create a bigger alternative economy when the business can become partially their own line of credit, right?
+
+[38:04] **CannonQ**: Like you have free credits or you've earned credits that now you can lend out.
+
+[38:10] **CannonQ**: So anyway,
+
+[38:14] **CannonQ**: You know, struggling business most eager to borrow that gets back to the vetting on the front end from the network and the transaction history they already have on these people and sort of bringing that on chain so that I talked about the equilibrium, but you can also put penalties, right?
+
+[38:33] **CannonQ**: Like give them a credit score. And if your credit score is bad or you're new, you have a bad credit score, right?
+
+[38:38] **CannonQ**: When you're 17, 18, 19, you don't have a good credit score because you haven't built up credit, right?
+
+[38:43] **CannonQ**: In theory. And so they could have to pay an extra 5% or 10% or whatever, right?
+
+[38:48] **CannonQ**: To get the credits.
+
+[38:54] **CannonQ**: That's sort of the presentation. So yeah, they're already operating peer to peer.
+
+[39:00] **CannonQ**: So yeah, any other questions? I have a bunch of just random stuff back here.
+
+[39:23] **CannonQ**: Well, no. Yes. So the question is, do you need a credit score? Yeah.
+
+[39:39] **CannonQ**: Well, so what I looked at was collateralized, right? Because we're familiar with duck pools.
+
+[39:43] **CannonQ**: If it's more traditional, like bank-based on credit scores, then you could hybrid it, right?
+
+[39:50] **CannonQ**: And they might even be able to onboard more businesses to the network because now you can borrow at a better rate to get equipment from the Toro dealer or the Ford truck dealer, whatever, right?
+
+[40:02] **CannonQ**: Like it sort of makes that network even more powerful in my opinion.
+
+[40:09] **CannonQ**: But yeah, that's the whole thing. Go ahead, Chris.
+
+[40:42] **CannonQ**: So, yeah, so the question is, like, does tokenizing the credits, like, add a new tax layer for the vendor like Alice or Bob that we were talking about?
+
+[40:57] **CannonQ**: So, I would look at it more like one, I could be wrong, and I'm wrong every day very often, but I think if you're providing this service, right, if Alice builds up 40,000 credits,
+
+[41:21] **CannonQ**: she's getting like say she gets paid 40 000 that year for building decks she's getting a 1099b from the local trade partners that you file that 1099b on your tax return business tax return or personal just however you're set up as a corporation that flows through is 40 000 of income
+
+[41:39] **CannonQ**: Because you have your normal expenses, you're paying out and Fiat, right?
+
+[41:43] **CannonQ**: So, like, it's already there. It's just like a receipt.
+
+[41:47] **CannonQ**: And so the only thing I'm looking at is the interest you would be earning would then generate a 1099.
+
+[41:55] **CannonQ**: Right? Like, you get from a bank showing. we paid you 0.02% interest this year on your cash.
+
+[42:01] **CannonQ**: Thanks for parking all your money with Bank of America."
+
+[42:05] **CannonQ**: So it would be that kind of thing. I'm not looking at it where Alice necessarily has, and this is going to sound funny, I'm not looking at it per se where Alice has an Ergo wallet and she has these local trade partner credit tokens in her wallet.
+
+[42:24] **CannonQ**: were the settlement layer for it.
+
+[42:28] **CannonQ**: I'm not sure if you wouldn't just reskin Nautilus to where that's all they see is like their one thing.
+
+[42:33] **CannonQ**: Like I mean just make it its own silo or even maybe do a side chain for all this. I don't know per se.
+
+[42:43] **CannonQ**: Well and you would also send out a what's the one we would also need to send out or we would provide the information to the local exchange network so that they could.
+
+[43:01] **CannonQ**: Give you. The 1099 and maybe 1098 like on like your home loan.
+
+[43:09] **CannonQ**: This shows the interest you paid, but it'd be like a interest expense, right?
+
+[43:12] **CannonQ**: Like they need to be able to put that on their tax return. Like, hey, I borrowed money and I paid a thousand dollars, right?
+
+[43:19] **CannonQ**: Like they need to be able to put that on their return.
+
+[43:39] **CannonQ**: This one. Yeah, we're like, she profits. So yeah, so it's sort of convoluted.
+
+[43:46] **CannonQ**: It's a good example and it's not right because you're trying to show business and I showed her get like teeth.
+
+[43:52] **CannonQ**: Let's say she bought a, I don't know, auger attachment for a skid steer, you know, so she can put in deck poles, right?
+
+[44:04] **CannonQ**: Like, I mean, so she can drive them.
+
+[44:09] **CannonQ**: Yeah, well, in the auger bit, you know, I mean, it's several grand, but it depends on if you got it new or used.
+
+[44:14] **CannonQ**: But so that five grand, she gets something that is reported to the IRS, and then she reports the IRS on her business tax form that she made $5,000 in income.
+
+[44:27] **CannonQ**: It's just like normal income.
+
+[44:30] **CannonQ**: The expense would then be, she keeps record, like she's getting an invoice, you're still getting an invoice showing payment, right?
+
+[44:38] **CannonQ**: It's just that it got settled in this non-fiat currency.
+
+[44:43] **CannonQ**: And then the extra 10% that she pays the network, they report something to her showing that she paid that fee as well.
+
+[44:50] **CannonQ**: So that's also a business deduction.
+
+[45:02] **CannonQ**: No, she built a deck, right? So, she went out and built a deck for someone, got $5,000.
+
+[45:08] **CannonQ**: She gives them an invoice. They pay her $5,000 in credits.
+
+[45:11] **CannonQ**: They have the invoice to show that they paid that expense, right?
+
+[45:57] **CannonQ**: So the question is, if banks are already getting affected by it, does it... How do I say this? Clearly.
+
+[46:06] **CannonQ**: Are they going to take notice and, you know, is anything we're doing affecting a bank?
+
+[46:15] **CannonQ**: Yeah. If this thing grows because of this, like, because it becomes more attractive to businesses, small and medium businesses to do this,
+
+[46:23] **CannonQ**: Does it affect banks? Possibly. I don't know. I mean, my family friend that owns it, I mean, I don't know, it's like a 50 branch bank.
+
+[46:32] **CannonQ**: He doesn't give a shit about $2 billion. I mean, like it's not all in his network.
+
+[46:36] **CannonQ**: Like it's spread across so many banks, they don't know they're not getting it right now.
+
+[46:41] **CannonQ**: I mean, honestly, $2 billion is nothing to banking system. Like it's nothing.
+
+[46:52] **CannonQ**: Yeah, and you said, so what's holding back this concept?
+
+[46:55] **CannonQ**: A lot of people, I think Joe may have said it, someone else may have said it as well, people are sort of inherently lazy, right?
+
+[47:05] **CannonQ**: This takes a little bit extra hustle, right?
+
+[47:08] **CannonQ**: One, it takes you, if you're a barter member to say, hey, can I pay you in barter bucks, right?
+
+[47:13] **CannonQ**: And most people feel uncomfortable trying to do something like that or hustle or
+
+[47:18] **CannonQ**: You know, whatever it's something else to have to deal with.
+
+[47:23] **CannonQ**: And and yeah, so if I do a project and make like. 810 grand and some guys backyard doing this project for them.
+
+[47:32] **CannonQ**: How long am I going to sit on that 10 grand? Like, I better have very low fixed costs and very low variable costs because I might be sitting on that 10 grand for a while before I can use it all.
+
+[47:44] **CannonQ**: And that's what I think this, to me, it's a fungibility, like you said, and I think it's also a network effect issue.
+
+[47:53] **CannonQ**: I mean, none of them have scale, right? So, I mean, there's always that network effect they've done really good so like.
+
+[48:01] **CannonQ**: Colorado Springs you guys have been around here a bit, but it's like 750 like MSA, maybe a million like it's a good size population.
+
+[48:08] **CannonQ**: Northwest Arkansas fastest growing. MSA in the country for multiple years now in a row.
+
+[48:15] **CannonQ**: Yeah, it's about 750 K now when I was, you know, like 20 30 years ago, there's maybe like 250 people.
+
+[48:23] **CannonQ**: Yeah, 250,000 people. So it's
+
+[48:30] **CannonQ**: If they have about 750,000 in their MSA, Metropolitan Statistic Association, or area, and they're doing 10 million a year, those guys are hustling.
+
+[48:47] **CannonQ**: But they're hustling because you saw they're making 10 percent, right?
+
+[48:50] **CannonQ**: So that's like three people. One of them's the secretary, one of them's the owner, one of them's this business dev guy splitting a million bucks a year.
+
+[48:57] **CannonQ**: That's pretty good coin, right?
+
+[48:59] **CannonQ**: And I'm not saying replace those guys. They should be getting paid that if they're hustling that hard.
+
+[49:04] **CannonQ**: The guys in Rocky Mountain are doing half a million a year. Good.
+
+[49:11] **CannonQ**: I mean, I think the lending pools is a big thing. I think there's a, you know, the cross network thing is pretty huge.
+
+[49:18] **CannonQ**: Making that available, but that's a chicken egg thing. I think the end network lending, I think, is the biggest.
+
+[49:26] **CannonQ**: And I believe why it's also a hurdle is the software that exists could easily do this as well, right?
+
+[49:37] **CannonQ**: This isn't hard, it's a ledger. I mean, not being nasty to blockchain or Ergo, but it's a ledger, right?
+
+[49:43] **CannonQ**: The software is already keeping a ledger, doing their 1099s.
+
+[49:48] **CannonQ**: it's not it's not it's not clear and transparent right so like why would I lend my bucks out of my account on this network when I can't see where they're going or anything else right so I mean I think that's where blockchain trumps the federated or you know closed system yeah
+
+[50:48] **CannonQ**: I haven't I haven't right like this sort of been the back of my head for a while and I sort of spit it out the last couple of days.
+
+[50:54] **CannonQ**: What are you guys raising your hands here in the front row? No? Okay.
+
+[51:01] **CannonQ**: We'll pay in FAKU. That'll get every dev running.
+
+[51:06] **CannonQ**: Yeah, so the question from Chris was like, you know, what would it take to attract a dev to do this?
+
+[51:13] **CannonQ**: I honestly, I don't know. I don't truly know how complex this is.
+
+[51:20] **CannonQ**: At the end of the day, I think it is more, and that's why I said it's a non-dev dev thing.
+
+[51:27] **CannonQ**: I think it's more getting the first couple exchanges on board with giving you the data, right?
+
+[51:34] **CannonQ**: Giving you the API access to the data or whatever the output from their system to get that data.
+
+[51:42] **CannonQ**: And then what can you do with it?
+
+[51:46] **CannonQ**: With the lending pools, I think, one, two, three, four, five, six, Seven I think there's seven devs in here that whole side of the room actually I think any of them could take duck pools and modify it for this.
+
+[52:05] **CannonQ**: I mean or find a way to modify it for this And so, you know, I mean if you started with that as a proof of concept right just the lending pool
+
+[52:19] **CannonQ**: So, I mean, I think, again, to Joe's earlier point today of we strive for open protocols for a reason.
+
+[52:26] **CannonQ**: I think this is a good bolt-on reason. I mean, it's sort of segued into what I was talking about.
+
+[52:30] **CannonQ**: But, I mean, I think anybody in here that I'm looking at that's devs on this side, they're all way more talented than anything I would come up with or even want to teach someone, you know.
+
+[52:42] **CannonQ**: I mean, they can modify that stuff. It's there.
+
+[52:46] **CannonQ**: I mean, some of the back end maybe isn't or, you know, some of the front end stuff we'd have to develop.
+
+[52:51] **CannonQ**: But I mean, some of it's sort of there in a way.
+
+[53:54] **CannonQ**: Yeah, so that's a good question. So what is the what piece of the pie is for the dev?
+
+[54:00] **CannonQ**: The existing software that I said, like several the more modern exchanges or ones that have decent websites and whatnot.
+
+[54:08] **CannonQ**: I mean, it's sort of like a, if you want to think of Zoho or, or, like Salesforce, like CRM, like it's a CRM basically with this bolted onto it, but a guy's built it from scratch.
+
+[54:21] **CannonQ**: Like it's not, I've sort of looked at it enough to see that at least I believe it's not like a existing CRM package.
+
+[54:28] **CannonQ**: It's what he's built from scratch.
+
+[54:34] **CannonQ**: I don't know what he charges for that software. I've tried to find out. It's obviously not published.
+
+[54:39] **CannonQ**: There's not a lot of customers for it, right?
+
+[54:44] **CannonQ**: So if it's one dev and he's charging five grand a year to, you know, I don't know, 40, 50 customers.
+
+[54:53] **CannonQ**: I mean, that's a pretty good nut and he can do other stuff because now he just has a spinning top, right, without a whole lot of, you know, moving parts going forward.
+
+[55:01] **CannonQ**: So what this would earn or yield, I mean, to me, it's more, it's going to have to be built at cost to figure out how to monetize it.
+
+[55:14] **CannonQ**: Like, I don't know if it's earning off the lending pool. I don't know if it's a fee to the networks.
+
+[55:18] **CannonQ**: They're already paying a fee to this guy. Does he try to replicate it?
+
+[55:22] **CannonQ**: You know, like, I mean, there's a couple moving parts, so I don't have a good answer for that because I really haven't taken that step in my head because I was still just, you know, noodling around with the research.
+
+[55:38] **CannonQ**: Yeah, Luke.
+
+[56:15] **CannonQ**: Yeah, so the question is, can you chicken an egg?
+
+[56:20] **CannonQ**: And do you do you try to replicate the software for one and get others to join, you know, for interoperability across the networks?
+
+[56:30] **CannonQ**: I really don't think so. I think it's a can of worms.
+
+[56:34] **CannonQ**: I mean, right now it's a one guy show owns the somebody built a new one out of Detroit like a couple years ago, he bought them out and just here's your money.
+
+[56:44] **CannonQ**: Let's combo it up, right? Like let's I don't want competition.
+
+[56:49] **CannonQ**: It's an oligopoly or a complete monopoly.
+
+[57:05] **CannonQ**: Yeah, maybe. I mean, there's a lot of ways to skin it, but
+
+[57:08] **CannonQ**: Yeah, no, this was just more just to get people thinking about. I mean, to me, the biggest thing is it is a group that's already organized, already licensed.
+
+[57:21] **CannonQ**: They're not doing anything shady, and they're not using Fiat to the tune of 2.5 billion a year.
+
+[57:31] **CannonQ**: Is it a sales problem, dev problem? I think for them scaling, it's always going to be a network effect problem.
+
+[57:53] **SPEAKER_00**: It's a super interesting because it's like proof of work itself is most profitable when you have excess capacity, whether of energy or of computational power, right?
+
+[58:05] **SPEAKER_00**: And so networks like this potentially allow people to redirect excess capacity in whatever skill set they have and in essence tokenize it.
+
+[58:17] **SPEAKER_00**: Turn it into credit. Now, there's always like the human element where it's like, okay, if I'm a restaurant and my excess capacity is my old shit, is it lower quality?
+
+[58:30] **SPEAKER_00**: Right? And then it's like, okay, how do you create the right enforcement mechanisms?
+
+[58:36] **SPEAKER_00**: You know, some systems I would say probably are a little bit aggressive in terms of like, maybe they have credit limits in terms of how much you can spend or where or fees or whatever.
+
+[58:49] **SPEAKER_00**: But, you know, we do see a lot of the quote unquote gig economy that is basically people trying to take excess capacity and turn it into credit.
+
+[59:03] **SPEAKER_00**: So it's a super interesting idea, you know, in terms of how to coordinate like on the organic side, I have no idea.
+
+[59:12] **SPEAKER_00**: I'm the wrong person, but as, as a net idea, it's quite fascinating.
+
+[59:20] **CannonQ**: Yeah. And I would, the only thing I would add to that is it is that excess capacity in the gig economy is growing.
+
+[59:26] **CannonQ**: So, I mean, I would say that was, A lot of

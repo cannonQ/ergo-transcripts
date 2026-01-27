@@ -1,0 +1,133 @@
+{
+  "call_date": "2025-10-19",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "25:36",
+      "question": "What if the staking platform goes down? What if the operator disappears - is everyone screwed?",
+      "asker": "Grayman",
+      "answer": "You're not trusting the platform operator with the data. All mutations must go through the contract, so it's as secure as the contract itself. You can walk through the blockchain and recalculate all the data by traversing through historical transactions - the blockchain stores snapshots in time that allow you to reconstruct the current state.",
+      "responder": "MGPai",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "staking",
+        "security",
+        "decentralization",
+        "smart contracts"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "27:27",
+      "question": "How can you recover the data if it's all hashes, since hashes are non-reversible?",
+      "asker": "Audience member",
+      "answer": "The off-chain doesn't store hashes - when you interact with transactions, you provide the actual raw data through context variables (or redeemers on Cardano). The contract does the hashing and verification. This raw data gets published on the blockchain in historical transactions, so you can recover it by traversing the transaction history.",
+      "responder": "MGPai",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "merkle trees",
+        "hashing",
+        "context variables",
+        "data recovery"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "34:08",
+      "question": "What's the difference between AVL trees on Ergo versus Merkle Patricia Tries on Cardano for staking?",
+      "asker": "Audience member",
+      "answer": "AVL trees on Ergo are more efficient than Merkle Patricia Tries on Cardano. The proof sizes are smaller, meaning you can do more operations in a given transaction with less data provided during transaction building. This results in cheaper transactions for end users. AVL trees are also native to ErgoScript, implemented by the core team in the compiler itself, versus third-party implementations on Cardano.",
+      "responder": "MGPai",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "AVL trees",
+        "merkle patricia trie",
+        "ErgoScript",
+        "proof sizes"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "40:25",
+      "question": "Can HODLerg be integrated natively within the Nautilus wallet itself?",
+      "asker": "Grayman",
+      "answer": "That's a great idea. We could have a dedicated apps section in Nautilus wallet, similar to how SigmaUSD is already integrated. This would mean users run their own front-end through the wallet extension, eliminating reliance on hosted websites and protecting against front-end hacks where someone takes control of a domain and injects malicious code.",
+      "responder": "MGPai",
+      "category": "wallet",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Nautilus wallet",
+        "HODLerg",
+        "front-end security",
+        "wallet integration"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "42:34",
+      "question": "Are there plans to implement this staking system on Ergo?",
+      "asker": "Audience member",
+      "answer": "Currently there are no plans as it's not up to the presenter, but it would be straightforward to implement. Since the theory and architecture are already worked out on Cardano, everything maps directly to Ergo. The implementation would involve translating the Cardano smart contract language to ErgoScript, with much less friction than starting from scratch.",
+      "responder": "MGPai",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "staking",
+        "palm staking",
+        "cross-chain development",
+        "ErgoScript"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "36:41",
+      "question": "Can you bypass centralized front-ends by building custom transactions with code on Cardano protocols?",
+      "asker": "Grayman",
+      "answer": "For many protocols on Cardano, no - you can't bypass them even with code. Many off-chain runners are permissioned, requiring ownership of special NFTs to process transactions. Even if the protocol is open source, without that special NFT, your transactions won't work. This makes them not truly decentralized despite being built on decentralized platforms.",
+      "responder": "MGPai",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "decentralization",
+        "permissioned protocols",
+        "off-chain runners",
+        "Cardano"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "09:21",
+      "question": "Why can't traditional staking approaches scale on UTXO blockchains like Ergo?",
+      "asker": "Presentation topic",
+      "answer": "UTXO contracts have size limits - each UTXO has a 4KB limit, and transactions have size limits preventing you from using thousands of UTXOs. You're also bottlenecked by block size limits. For staking to work with thousands of users, data stored for global variables must be bound to a constant size limit, not scaling with the number of users.",
+      "responder": "MGPai",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "UTXO model",
+        "scalability",
+        "size limits",
+        "staking"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "23:02",
+      "question": "How does the Merkle tree approach solve the constant size requirement for UTXO staking?",
+      "asker": "Presentation topic",
+      "answer": "Client balances are stored in a Merkle tree data structure, but on-chain only the root hash is stored. The root hash is always a fixed 32 bytes regardless of whether you have 1 user or a million users. Any insertions or updates provide proofs that the contract verifies, and after mutations, only the root hash changes while maintaining constant size.",
+      "responder": "MGPai",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "merkle trees",
+        "constant size",
+        "root hash",
+        "scalability"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "call_date": "2025-09-26",
+  "call_title": "Ergo PoW Blockchain - Community Chat - September 25th",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "HTX Exchange Extortion Scandal and Community Response",
+      "category": "community",
+      "start_time": "00:43",
+      "end_time": "04:22",
+      "primary_speaker": "qx()",
+      "summary": "Discussion of HTX exchange demanding $100k to prevent delisting, publishing evidence of extortion practices, and creating a GitHub repository for other projects to share similar experiences. The community response gained over 200,000 views on social media and exposed systematic extortion tactics.",
+      "key_terms": [
+        "HTX Global",
+        "delisting threats",
+        "extortion fees",
+        "marketing fees",
+        "GitHub repository",
+        "receipts"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Sub-blocks DevNet Testing and Protocol Updates",
+      "category": "technical",
+      "start_time": "04:22",
+      "end_time": "06:10",
+      "primary_speaker": "kushti",
+      "summary": "Sub-blocks DevNet is progressing well with mempool and node wallet support mostly complete. The system is being stress-tested with transaction bombing and shows good advancement toward full implementation.",
+      "key_terms": [
+        "sub-blocks",
+        "DevNet",
+        "mempool tracking",
+        "transaction bombing",
+        "node wallet",
+        "protocol upgrade"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "ErgoScript Capabilities and Bulletproofs Implementation",
+      "category": "technical",
+      "start_time": "05:12",
+      "end_time": "06:10",
+      "primary_speaker": "kushti",
+      "summary": "Development of ErgoScript examples including global transfer policies and bulletproofs verification. These demonstrate the core protocol's capabilities for cryptographic applications and smart contract functionality.",
+      "key_terms": [
+        "ErgoScript",
+        "bulletproofs verification",
+        "cryptographic applications",
+        "global transfer policies",
+        "smart contracts"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "ChainCash Development and AI Agent Integration",
+      "category": "defi",
+      "start_time": "06:10",
+      "end_time": "07:07",
+      "primary_speaker": "kushti",
+      "summary": "ChainCash basis tracker demo is in development with planned Telegram wallet integration. The system aims to serve human communities and AI agents in peer-to-peer networks, potentially replacing many existing DeFi tokens.",
+      "key_terms": [
+        "ChainCash",
+        "basis tracker",
+        "Telegram wallet",
+        "AI agents",
+        "peer-to-peer networks",
+        "DeFi replacement"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Community Fundraising and Development Bounties",
+      "category": "governance",
+      "start_time": "08:28",
+      "end_time": "09:26",
+      "primary_speaker": "kushti",
+      "summary": "Two successful fundraising campaigns raised 7,000 ERG for development. The first bounty was assigned to implement a full Ergo-3 interpreter in Rust within the Sigma Rust repository.",
+      "key_terms": [
+        "fundraising campaigns",
+        "development bounties",
+        "Ergo-3 interpreter",
+        "Sigma Rust",
+        "community funding"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Dexy-based USD Stablecoin Planning",
+      "category": "defi",
+      "start_time": "09:26",
+      "end_time": "11:01",
+      "primary_speaker": "kushti",
+      "summary": "Technical implementation of Dexy-based stablecoin is ready, with discussions focused on governance aspects like update key management and burning protocols. The project aims to attract users from outside the crypto ecosystem through efficient arbitrage possibilities.",
+      "key_terms": [
+        "Dexy stablecoin",
+        "USD stablecoin",
+        "update keys",
+        "arbitrage",
+        "governance",
+        "key burning"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Rosen Bridge Bitcoin Integration via RUNE Protocol",
+      "category": "bridges",
+      "start_time": "11:19",
+      "end_time": "12:06",
+      "primary_speaker": "qx()",
+      "summary": "Rosen Bridge developed a technique to enable bidirectional Bitcoin swaps using the RUNE protocol. Previously, Bitcoin integration was one-way only, but now tokens and coins can be brought back onto Bitcoin itself.",
+      "key_terms": [
+        "Rosen Bridge",
+        "RUNE protocol",
+        "bidirectional swaps",
+        "Bitcoin integration",
+        "cross-chain"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Atomic Swaps Development and Limitations",
+      "category": "technical",
+      "start_time": "12:06",
+      "end_time": "14:28",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of atomic swap capabilities with various projects including Komodo DEX integration. While multiple atomic swap implementations exist as demos, adoption remains limited due to complexity and user experience challenges.",
+      "key_terms": [
+        "atomic swaps",
+        "Komodo DEX",
+        "cross-chain swaps",
+        "liquidity provision",
+        "decentralized exchange"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Development Updates: Nautilus, Hermes, and ErgoProtica",
+      "category": "technical",
+      "start_time": "14:28",
+      "end_time": "17:27",
+      "primary_speaker": "qx()",
+      "summary": "Multiple project updates including Nautilus wallet improvements, Hermes mempool streaming service, ErgoProtica R&D progress with PR contracts and bullet proofs testing, and ChainCash demo development.",
+      "key_terms": [
+        "Nautilus wallet",
+        "Hermes mempool",
+        "ErgoProtica",
+        "mempool streaming",
+        "bullet proofs",
+        "code coverage"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Rosen Bridge UI and Runes Integration",
+      "category": "bridges",
+      "start_time": "17:27",
+      "end_time": "18:21",
+      "primary_speaker": "qx()",
+      "summary": "Rosen Bridge team improved UI kit and implemented ESLint configuration for code consistency. Full rune integration allows bringing runes to other chains for marketplace activity and liquidity provision beyond simple token mimicking.",
+      "key_terms": [
+        "Rosen Bridge",
+        "UI improvements",
+        "runes integration",
+        "cross-chain marketplace",
+        "liquidity"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Wallet Localization and Gaming Updates",
+      "category": "ecosystem",
+      "start_time": "18:21",
+      "end_time": "19:27",
+      "primary_speaker": "qx()",
+      "summary": "Nautilus wallet added Javanese and Malaysian language support. Game of Prompts updated judge system to handle unlimited participants instead of 20-50 limit. IOSPOR developed async stream parsing for sensitive transaction data storage.",
+      "key_terms": [
+        "wallet localization",
+        "Game of Prompts",
+        "judge system",
+        "IOSPOR",
+        "async streaming",
+        "transaction history"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Vampire Strings Identity Architecture Concept",
+      "category": "technical",
+      "start_time": "19:27",
+      "end_time": "20:48",
+      "primary_speaker": "qx()",
+      "summary": "Discussion of vampire strings concept for identity management where bad actors in identity chains can be eliminated along with all downstream identities they granted. This provides a decentralized solution to identity trust and revocation.",
+      "key_terms": [
+        "vampire strings",
+        "identity management",
+        "bad actor elimination",
+        "decentralized identity",
+        "trust chains"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Exchange Strategy: BitGet and DEX Integration",
+      "category": "marketing",
+      "start_time": "23:41",
+      "end_time": "29:10",
+      "primary_speaker": "kushti",
+      "summary": "Strategy to access major exchanges like BitGet for free by providing liquidity on Ethereum or BSC pools. BitGet and Coinbase now integrate DEX tokens automatically through AI filters, eliminating traditional listing fees.",
+      "key_terms": [
+        "BitGet exchange",
+        "DEX integration",
+        "liquidity pools",
+        "AI filters",
+        "listing fees",
+        "wrapped tokens"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "Kraken Listing Strategy and Rosen-ERG",
+      "category": "marketing",
+      "start_time": "29:10",
+      "end_time": "30:57",
+      "primary_speaker": "qx()",
+      "summary": "Kraken requires holders and liquidity metrics for listing consideration. Rosen-ERG presents a viable path forward with a Paideia vote to spread liquidity across Cardano for meeting Kraken's requirements.",
+      "key_terms": [
+        "Kraken listing",
+        "Rosen-ERG",
+        "liquidity requirements",
+        "Paideia vote",
+        "holder metrics"
+      ]
+    },
+    {
+      "topic_id": 15,
+      "title": "Cyberverse Game Massive Upgrade",
+      "category": "nft",
+      "start_time": "30:57",
+      "end_time": "32:39",
+      "primary_speaker": "qx()",
+      "summary": "Cyberverse is down for major upgrade featuring P2P combat, stat systems, leveling mechanics, inventory management, and skill systems. The upgrade represents significant evolution from the original Ergo integration game.",
+      "key_terms": [
+        "Cyberverse",
+        "P2P combat",
+        "stat systems",
+        "leveling mechanics",
+        "inventory management",
+        "skill points"
+      ]
+    },
+    {
+      "topic_id": 16,
+      "title": "Developer Recruitment and Platform Positioning",
+      "category": "community",
+      "start_time": "33:58",
+      "end_time": "35:31",
+      "primary_speaker": "kushti",
+      "summary": "Need for more developers and different marketing approach positioning Ergo as a neutral settlement layer for digital economies rather than typical crypto marketing. Focus on human communities, AI agents, and peer-to-peer networks.",
+      "key_terms": [
+        "developer recruitment",
+        "settlement layer",
+        "digital economies",
+        "platform positioning",
+        "AI agents"
+      ]
+    },
+    {
+      "topic_id": 17,
+      "title": "Economics Community Outreach Strategy",
+      "category": "marketing",
+      "start_time": "35:31",
+      "end_time": "40:05",
+      "primary_speaker": "Grayman",
+      "summary": "Strategy for engaging academic economists who are skeptical of crypto due to cartoonish Bitcoin maximalist messaging. Ergo's deterministic approach to money could appeal to economists seeking scientific rigor in monetary systems.",
+      "key_terms": [
+        "academic economists",
+        "deterministic approach",
+        "monetary systems",
+        "economic outreach",
+        "Steve Keene",
+        "carbon tax currency"
+      ]
+    },
+    {
+      "topic_id": 18,
+      "title": "ChainCash Collateralization and Risk Management",
+      "category": "defi",
+      "start_time": "40:05",
+      "end_time": "43:46",
+      "primary_speaker": "Grayman",
+      "summary": "Discussion of ChainCash's flexible collateralization system where individual parties can set their own risk profiles and acceptance criteria. This prevents system-wide failures by allowing diverse risk management approaches.",
+      "key_terms": [
+        "ChainCash collateralization",
+        "risk profiles",
+        "acceptance criteria",
+        "system resilience",
+        "financial crisis prevention"
+      ]
+    },
+    {
+      "topic_id": 19,
+      "title": "Silver-backed Currency Implementation",
+      "category": "defi",
+      "start_time": "42:01",
+      "end_time": "44:24",
+      "primary_speaker": "Grayman",
+      "summary": "Concept for implementing US constitutional silver currency using ChainCash with specific token IDs and collateralization ratios. Mobile apps would be essential for peer-to-peer transactions in local exchange trading systems.",
+      "key_terms": [
+        "silver currency",
+        "constitutional silver",
+        "mobile apps",
+        "LETS",
+        "local exchange",
+        "peer-to-peer transactions"
+      ]
+    },
+    {
+      "topic_id": 20,
+      "title": "ChainCash Reputation System and Distributed Banking",
+      "category": "defi",
+      "start_time": "45:03",
+      "end_time": "49:16",
+      "primary_speaker": "Grayman",
+      "summary": "Discussion of reputation systems for ChainCash note issuers and the concept of vendors acting as distributed banks. Need for on-chain reputation challenges and defense mechanisms to prevent fraud and maintain trust.",
+      "key_terms": [
+        "reputation system",
+        "distributed banking",
+        "note issuers",
+        "fraud prevention",
+        "on-chain challenges",
+        "vendor networks"
+      ]
+    },
+    {
+      "topic_id": 21,
+      "title": "ChainCash vs Traditional DeFi Tokens",
+      "category": "defi",
+      "start_time": "49:16",
+      "end_time": "50:49",
+      "primary_speaker": "kushti",
+      "summary": "ChainCash can replace broken DeFi token economics by tying supply to demand using off-chain cash backed by Ergo reserves. This eliminates the need for additional tokens while solving supply inflation problems.",
+      "key_terms": [
+        "DeFi token economics",
+        "supply and demand",
+        "off-chain cash",
+        "Ergo reserves",
+        "token inflation",
+        "monetary expansion"
+      ]
+    },
+    {
+      "topic_id": 22,
+      "title": "Colorado Springs Meetup Announcement",
+      "category": "community",
+      "start_time": "55:05",
+      "end_time": "57:07",
+      "primary_speaker": "Grayman",
+      "summary": "Upcoming Ergo meetup in Colorado Springs is open to the public with no tickets required. Plans to promote at local universities and provide accommodations for attendees. Event will be permissionless and welcoming.",
+      "key_terms": [
+        "Colorado Springs meetup",
+        "permissionless event",
+        "university outreach",
+        "public access",
+        "community gathering"
+      ]
+    }
+  ]
+}

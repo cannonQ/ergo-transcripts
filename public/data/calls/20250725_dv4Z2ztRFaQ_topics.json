@@ -1,0 +1,222 @@
+{
+  "call_date": "2025-07-25",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA (COMMUNITY EDITION) - July 24th",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Sub-blocks and Sigma Chains Development",
+      "category": "technical",
+      "start_time": "01:04",
+      "end_time": "08:06",
+      "primary_speaker": "Armeanio",
+      "summary": "Discussion of horizontal scaling solutions for proof-of-work networks to address mining sustainability issues. Armeanio explains the economic challenges facing miners as block rewards decrease and transaction volume moves to layer-2 solutions, proposing sigma chains as a mining-centric alternative to developer-controlled layer-2s.",
+      "key_terms": [
+        "sub-blocks",
+        "sigma chains",
+        "horizontal scaling",
+        "mining sustainability",
+        "layer-2",
+        "proof-of-work"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Global Transfer Policies and Dark Tokens",
+      "category": "technical",
+      "start_time": "08:06",
+      "end_time": "13:57",
+      "primary_speaker": "kushti",
+      "summary": "Kushti presents new programmability concepts including global transfer policies for custom money creation and dark tokens using encrypted amounts. The discussion covers privacy challenges in DeFi applications and the limitations of hidden amounts in public liquidity pools.",
+      "key_terms": [
+        "global transfer policies",
+        "dark tokens",
+        "encrypted amounts",
+        "privacy",
+        "stealth addresses",
+        "bulletproofs"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Ergo Book Revival and Documentation",
+      "category": "community",
+      "start_time": "14:57",
+      "end_time": "16:38",
+      "primary_speaker": "kushti",
+      "summary": "Plans to restart work on the Ergo book with contributions from Grayman and others. Discussion includes research into historical free banking systems and the need to better define ChainCash implementation details.",
+      "key_terms": [
+        "Ergo book",
+        "documentation",
+        "ChainCash",
+        "free banking",
+        "historical research"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "SigmaLock Development by Four Eyes",
+      "category": "defi",
+      "start_time": "16:52",
+      "end_time": "22:54",
+      "primary_speaker": "MGpai",
+      "summary": "MGpai presents SigmaLock, an inheritance and time-lock system built with custom Go indexing framework. The system allows users to create unlock keys for heirs with optional creator control for contract modifications, targeting mainstream adoption for crypto inheritance.",
+      "key_terms": [
+        "SigmaLock",
+        "inheritance",
+        "time-lock",
+        "unlock keys",
+        "smart contracts",
+        "Go indexing"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "HQ's Simple Lock Application",
+      "category": "defi",
+      "start_time": "23:36",
+      "end_time": "25:53",
+      "primary_speaker": "HQ3rr",
+      "summary": "HQ announces a new simple locking application built in one day using Explorer APIs. The tool allows users to lock ERG, tokens, or NFTs until a specified block height with only the creator having unlock rights.",
+      "key_terms": [
+        "lock application",
+        "Explorer API",
+        "time-lock",
+        "self-custody",
+        "forced holding"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Community Coupon Trading Platform",
+      "category": "ecosystem",
+      "start_time": "25:53",
+      "end_time": "34:00",
+      "primary_speaker": "Haskell_plus",
+      "summary": "Chris outlines a peer-to-peer coupon trading platform for local communities and fundraisers. The system would allow trading of fundraising coupons between community members, focusing on marketing to non-crypto users while running on Ergo infrastructure.",
+      "key_terms": [
+        "coupon trading",
+        "community platform",
+        "fundraising",
+        "peer-to-peer",
+        "local economy",
+        "LETS system"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Keystone Wallet Integration Progress",
+      "category": "ecosystem",
+      "start_time": "34:29",
+      "end_time": "36:58",
+      "primary_speaker": "kushti",
+      "summary": "Update on Keystone hardware wallet integration with Nautilus wallet. Recent progress includes transaction signing capabilities with 4-6 weeks estimated for completion. HQ is building custom payment page for Keystone sales.",
+      "key_terms": [
+        "Keystone wallet",
+        "hardware wallet",
+        "Nautilus integration",
+        "transaction signing",
+        "multi-chain support"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Proof of Merch and Mew Token Commerce",
+      "category": "community",
+      "start_time": "36:58",
+      "end_time": "38:20",
+      "primary_speaker": "qx()",
+      "summary": "Discussion about expanding merchandise sales to accept Mew tokens and promoting Ergo through physical merchandise distribution. Recent international shipment to Dubai mentioned as successful case study.",
+      "key_terms": [
+        "Proof of Merch",
+        "Mew token",
+        "merchandise",
+        "international shipping",
+        "community promotion"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Rosen Bridge Guard Set Evolution",
+      "category": "bridges",
+      "start_time": "38:29",
+      "end_time": "46:50",
+      "primary_speaker": "Armeanio",
+      "summary": "Detailed explanation of Rosen bridge guard system evolution from startup ceremony to competitive federations. Discussion covers collateral requirements, proof-of-work history as collateral, and plans for multiple competing guard sets to foster decentralization.",
+      "key_terms": [
+        "Rosen bridge",
+        "guard sets",
+        "federation",
+        "collateral",
+        "competitive framework",
+        "decentralization"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Multi-chain Wallet Development Strategy",
+      "category": "ecosystem",
+      "start_time": "46:50",
+      "end_time": "55:46",
+      "primary_speaker": "Armeanio",
+      "summary": "Discussion of adding Bitcoin support to Nautilus wallet and creating integrated DeFi experiences. Covers technical requirements, the need for sustainable development funding through fees, and comparison with existing multi-chain wallets like Cake wallet.",
+      "key_terms": [
+        "Nautilus wallet",
+        "multi-chain",
+        "Bitcoin integration",
+        "DeFi integration",
+        "wallet development",
+        "sustainable funding"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Colorado Meetup and Community Engagement",
+      "category": "community",
+      "start_time": "57:05",
+      "end_time": "58:50",
+      "primary_speaker": "Armeanio",
+      "summary": "Brief discussion about upcoming Colorado meetup timing and seasonal considerations. Armeanio explains the benefits of fall timing for mountain weather and aspen leaf changes.",
+      "key_terms": [
+        "Colorado meetup",
+        "community events",
+        "seasonal planning",
+        "aspen trees",
+        "mountain weather"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Intents vs UTXO Spending Conditions",
+      "category": "technical",
+      "start_time": "58:50",
+      "end_time": "65:45",
+      "primary_speaker": "kushti",
+      "summary": "Technical comparison between blockchain intents and Ergo's UTXO model. Kushti explains that Ergo has been intent-oriented since day one through spending conditions, while account-based blockchains are trying to implement similar functionality through intents and account abstraction.",
+      "key_terms": [
+        "intents",
+        "UTXO model",
+        "spending conditions",
+        "account abstraction",
+        "guarding propositions",
+        "weakly confirmed transactions"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Machina Finance Order-Based DEX Design",
+      "category": "defi",
+      "start_time": "67:09",
+      "end_time": "72:39",
+      "primary_speaker": "Armeanio",
+      "summary": "Armeanio explains Machina Finance's unique order-based DEX architecture where users create individual smart contracts as orders, with a Rust backend providing matching services. The design aims for pure peer-to-peer trading without central order books or AMM pools.",
+      "key_terms": [
+        "Machina Finance",
+        "order-based DEX",
+        "peer-to-peer contracts",
+        "matching engine",
+        "local smart contracts",
+        "Rust backend"
+      ]
+    }
+  ]
+}

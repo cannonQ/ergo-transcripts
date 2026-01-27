@@ -1,0 +1,134 @@
+{
+  "call_date": "2025-10-12",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "40:54",
+      "question": "What is the UTXO model and how does it differ from the account model?",
+      "asker": "MGPai",
+      "answer": "UTXOs (unspent transaction outputs) are like digital cash - when you spend a $10 bill for $6 coffee, you must spend the entire bill and get $4 change back. The UTXO model works the same way - inputs must be completely spent and create new outputs. The account model used by Ethereum is like a bank account with a running balance and transaction history, requiring global state to track all balances.",
+      "responder": "MGPai",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "UTXO",
+        "account model",
+        "Bitcoin",
+        "Ethereum"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "48:33",
+      "question": "Why is staking more challenging to implement on UTXO networks compared to account-based networks?",
+      "asker": "MGPai",
+      "answer": "Staking requires tracking global state like user balances and reward calculations, which works well with Solidity's account model that has authoritative contract storage. UTXO contracts have size limits per UTXO and transaction size limits, creating bottlenecks. You can't scale linearly with users because each UTXO has bounded storage capacity.",
+      "responder": "MGPai",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "staking",
+        "UTXO",
+        "Solidity",
+        "global state"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "54:06",
+      "question": "What is a Merkle tree and why is it useful for UTXO staking?",
+      "asker": "MGPai",
+      "answer": "A Merkle tree is a tree-based data structure made by hashing data into fixed 32-byte strings, then hashing combinations of those hashes up to a single root hash. It allows you to store unlimited user data off-chain while keeping only the constant-size root hash on-chain. You can prove data integrity by providing a proof path from leaf to root, making it perfect for scaling staking to millions of users with constant on-chain storage.",
+      "responder": "MGPai",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "Merkle tree",
+        "hashing",
+        "off-chain",
+        "proof",
+        "scaling"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "66:01",
+      "question": "What happens if the staking platform goes down or disappears - are users' funds at risk?",
+      "asker": "Grayman",
+      "answer": "Users are not trusting the platform with data security. All state mutations must go through the smart contract which does verification. You can recover all data by traversing the blockchain and recalculating from historical transactions, since the actual raw data is published in transaction redeemers. The contract only does computation and verification - it doesn't create or store the data.",
+      "responder": "MGPai",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "decentralization",
+        "data recovery",
+        "smart contracts",
+        "redeemer"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "54:23",
+      "question": "How does Ergo's AVL tree implementation compare to Cardano's Merkle Patricia trie for staking?",
+      "asker": "audience member",
+      "answer": "Ergo's AVL tree is implemented natively in ErgoScript by the core team, making it more trustworthy than third-party implementations. AVL trees are more efficient than Merkle Patricia tries, with smaller proof sizes and lower transaction costs. While both serve the same purpose of off-chain data storage with on-chain verification, AVL trees provide better performance for users.",
+      "responder": "MGPai",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "AVL tree",
+        "ErgoScript",
+        "Merkle Patricia trie",
+        "proof size"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "78:20",
+      "question": "Why can't users bypass centralized frontends on many Cardano protocols?",
+      "asker": "audience member",
+      "answer": "Many Cardano protocols use permissioned off-chain runners that require holding a special NFT to process transactions. Even if the code is open source, you cannot run the off-chain components without owning that NFT. This creates a centralization point where projects can shut down functionality, unlike truly decentralized protocols where anyone can run the off-chain code.",
+      "responder": "MGPai",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "decentralization",
+        "permissioned",
+        "off-chain",
+        "NFT"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "80:50",
+      "question": "Could HODLerg be integrated natively into the Nautilus wallet?",
+      "asker": "Grayman",
+      "answer": "Yes, having apps like HODLerg built into Nautilus would eliminate reliance on hosted websites and reduce hack risks. If a website gets hacked, attackers can inject malicious code to steal funds, but apps running in your own wallet instance are protected. This would be similar to how SigUSD is already integrated, creating a dedicated apps section in Nautilus.",
+      "responder": "MGPai",
+      "category": "wallet",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Nautilus",
+        "HODLerg",
+        "wallet integration",
+        "security"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "71:12",
+      "question": "What are the node size advantages of UTXO networks over account-based networks?",
+      "asker": "MGPai",
+      "answer": "UTXO networks have much smaller node sizes - Ergo nodes are about 20-30GB, Cardano around 160GB, while Ethereum nodes require 3+ terabytes. This is because UTXO contracts only verify data rather than store global state. You can run multiple UTXO nodes in your basement compared to just one resource-intensive Ethereum node, making the network more decentralized.",
+      "responder": "MGPai",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "node size",
+        "storage",
+        "decentralization",
+        "verification"
+      ]
+    }
+  ]
+}
