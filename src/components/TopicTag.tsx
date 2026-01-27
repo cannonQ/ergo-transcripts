@@ -15,9 +15,11 @@ export default function TopicTag({ topic, count, size = 'sm' }: TopicTagProps) {
     lg: 'text-base px-4 py-2',
   };
 
+  const slug = topic.toLowerCase().replace(/\s+/g, '-');
+
   return (
     <Link
-      to={`/topics/${topic}`}
+      to={`/topics/${slug}`}
       className={`inline-flex items-center gap-1 bg-ergo-dark/50 border border-ergo-orange/30 rounded font-mono hover:border-ergo-orange hover:bg-ergo-orange/10 transition-all ${sizeClasses[size]}`}
     >
       <Hash className="w-3 h-3 text-ergo-orange" />

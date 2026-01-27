@@ -23,6 +23,7 @@ export default function CallCard({ call }: CallCardProps) {
           <img
             src={call.thumbnail}
             alt={call.title}
+            loading="lazy"
             className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
             onError={(e) => {
               (e.target as HTMLImageElement).src = `https://img.youtube.com/vi/${call.id}/mqdefault.jpg`;
@@ -66,7 +67,7 @@ export default function CallCard({ call }: CallCardProps) {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-1.5 bg-ergo-darker rounded hover:bg-ergo-orange/20 transition-colors"
-                title="Watch on YouTube"
+                aria-label="Watch on YouTube"
               >
                 <Youtube className="w-4 h-4" />
               </a>

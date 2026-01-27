@@ -20,7 +20,8 @@ export default function Footer() {
               href="https://github.com/cannonQ/ergo-transcripts"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-ergo-muted hover:text-ergo-orange transition-colors"
+              aria-label="GitHub repository"
+              className="text-ergo-muted hover:text-ergo-orange transition-colors p-1"
             >
               <Github className="w-5 h-5" />
             </a>
@@ -28,7 +29,8 @@ export default function Footer() {
               href="https://ergoblockchain.org/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-ergo-muted hover:text-ergo-orange transition-colors"
+              aria-label="Ergo website"
+              className="text-ergo-muted hover:text-ergo-orange transition-colors p-1"
             >
               <Globe className="w-5 h-5" />
             </a>
@@ -36,7 +38,8 @@ export default function Footer() {
               href="https://discord.gg/mAd6bMAjsR"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-ergo-muted hover:text-ergo-orange transition-colors"
+              aria-label="Discord community"
+              className="text-ergo-muted hover:text-ergo-orange transition-colors p-1"
             >
               <MessageCircle className="w-5 h-5" />
             </a>
@@ -44,7 +47,8 @@ export default function Footer() {
               href="https://t.me/ergoplatform"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-ergo-muted hover:text-ergo-orange transition-colors"
+              aria-label="Telegram channel"
+              className="text-ergo-muted hover:text-ergo-orange transition-colors p-1"
             >
               <Send className="w-5 h-5" />
             </a>

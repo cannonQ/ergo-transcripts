@@ -2,9 +2,15 @@ import React, { createContext, useContext, useState, useEffect, useMemo } from '
 import Fuse from 'fuse.js';
 import { useData } from './DataContext';
 
-interface SearchResult {
-  type: 'call' | 'topic' | 'speaker';
-  item: any;
+import type { CallSummary, Topic, Speaker } from '../types';
+
+type SearchableItem =
+  | (CallSummary & { searchType: 'call' })
+  | (Topic & { searchType: 'topic' })
+  | (Speaker & { searchType: 'speaker' });
+
+interface SearchResult extends Record<string, unknown> {
+  searchType: 'call' | 'topic' | 'speaker';
   score?: number;
 }
 
@@ -61,10 +67,10 @@ export function SearchProvider({ children }: { children: React.ReactNode }) {
     const searchResults = fuse.search(searchQuery);
 
     setResults(
-      searchResults.map((result: any) => ({
+      searchResults.map((result) => ({
         ...result.item,
         score: result.score,
-      }))
+      } as SearchResult))
     );
     setIsSearching(false);
   };

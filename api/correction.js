@@ -1,6 +1,23 @@
 const REPO_OWNER = 'cannonQ';
 const REPO_NAME = 'ergo-transcripts';
 
+// Max character limits for input fields
+const MAX_FIELD_LENGTH = 2000;
+const MAX_TITLE_LENGTH = 200;
+
+// Strip HTML tags and control characters from user input
+function sanitize(str) {
+  if (typeof str !== 'string') return '';
+  return str
+    .replace(/<[^>]*>/g, '')           // strip HTML tags
+    .replace(/[\x00-\x08\x0B\x0C\x0E-\x1F]/g, '') // strip control chars
+    .trim();
+}
+
+function truncate(str, max) {
+  return str.length > max ? str.slice(0, max) + '...' : str;
+}
+
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method not allowed' });
@@ -11,27 +28,36 @@ export default async function handler(req, res) {
     return res.status(500).json({ error: 'Server configuration error' });
   }
 
-  const { pageType, pageTitle, pageUrl, currentText, correctedText, notes } = req.body;
+  const { pageType, pageTitle, pageUrl, currentText, correctedText, notes } = req.body || {};
 
+  // Validate required fields
   if (!pageType || !pageTitle || !currentText) {
     return res.status(400).json({ error: 'Missing required fields' });
   }
 
-  const title = `[Correction] ${pageType}: ${pageTitle}`;
+  // Sanitize and truncate all user inputs
+  const cleanPageType = truncate(sanitize(pageType), MAX_TITLE_LENGTH);
+  const cleanPageTitle = truncate(sanitize(pageTitle), MAX_TITLE_LENGTH);
+  const cleanPageUrl = truncate(sanitize(pageUrl || ''), MAX_FIELD_LENGTH);
+  const cleanCurrentText = truncate(sanitize(currentText), MAX_FIELD_LENGTH);
+  const cleanCorrectedText = truncate(sanitize(correctedText || ''), MAX_FIELD_LENGTH);
+  const cleanNotes = truncate(sanitize(notes || ''), MAX_FIELD_LENGTH);
+
+  const title = `[Correction] ${cleanPageType}: ${cleanPageTitle}`;
   const body = [
     `## Correction Request`,
     ``,
-    `**Page:** ${pageUrl}`,
-    `**Section:** ${pageType}`,
-    `**Item:** ${pageTitle}`,
+    `**Page:** ${cleanPageUrl}`,
+    `**Section:** ${cleanPageType}`,
+    `**Item:** ${cleanPageTitle}`,
     ``,
     `### Current Text`,
-    `> ${currentText}`,
+    `> ${cleanCurrentText}`,
     ``,
     `### Suggested Correction`,
-    correctedText ? `> ${correctedText}` : '_No replacement provided_',
+    cleanCorrectedText ? `> ${cleanCorrectedText}` : '_No replacement provided_',
     ``,
-    notes ? `### Additional Notes\n${notes}` : '',
+    cleanNotes ? `### Additional Notes\n${cleanNotes}` : '',
   ].filter(Boolean).join('\n');
 
   try {
@@ -53,15 +79,14 @@ export default async function handler(req, res) {
     );
 
     if (!response.ok) {
-      const error = await response.text();
-      console.error('GitHub API error:', error);
+      console.error('GitHub API error:', response.status);
       return res.status(502).json({ error: 'Failed to create issue' });
     }
 
     const issue = await response.json();
     return res.status(201).json({ success: true, issueUrl: issue.html_url });
   } catch (err) {
-    console.error('Error creating issue:', err);
+    console.error('Error creating issue:', err.message);
     return res.status(500).json({ error: 'Internal server error' });
   }
 }

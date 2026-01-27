@@ -69,13 +69,14 @@ export default function Navbar() {
                       className="bg-transparent px-4 py-2 w-64 font-mono text-sm focus:outline-none"
                       autoFocus
                     />
-                    <button type="submit" className="px-3">
+                    <button type="submit" className="px-3" aria-label="Submit search">
                       <Search className="w-4 h-4" />
                     </button>
                     <button
                       type="button"
                       onClick={() => setIsSearchOpen(false)}
                       className="px-3"
+                      aria-label="Close search"
                     >
                       <X className="w-4 h-4" />
                     </button>
@@ -85,6 +86,7 @@ export default function Navbar() {
                 <button
                   onClick={() => setIsSearchOpen(true)}
                   className="p-2 hover:text-ergo-orange transition-colors"
+                  aria-label="Open search"
                 >
                   <Search className="w-5 h-5" />
                 </button>
@@ -95,6 +97,7 @@ export default function Navbar() {
             <button
               onClick={toggleTheme}
               className="p-2 hover:text-ergo-orange transition-colors"
+              aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
             >
               {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
             </button>
@@ -103,6 +106,8 @@ export default function Navbar() {
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="lg:hidden p-2 hover:text-ergo-orange transition-colors"
+              aria-label={isMobileMenuOpen ? 'Close menu' : 'Open menu'}
+              aria-expanded={isMobileMenuOpen}
             >
               {isMobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
             </button>

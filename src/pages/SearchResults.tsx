@@ -24,18 +24,18 @@ export default function SearchResults() {
     }
   };
 
-  const getLink = (result: any) => {
+  const getLink = (result: Record<string, unknown>) => {
     switch (result.searchType) {
       case 'call': return `/calls/${result.id}`;
       case 'topic': return `/topics/${result.slug || result.id}`;
-      case 'speaker': return `/speakers/${encodeURIComponent(result.name || result.id)}`;
+      case 'speaker': return `/speakers/${encodeURIComponent(String(result.name || result.id))}`;
       default: return '#';
     }
   };
 
-  const getLabel = (result: any) => {
-    if (result.searchType === 'call') return result.type?.replace(/_/g, ' ') || 'call';
-    return result.searchType;
+  const getLabel = (result: Record<string, unknown>) => {
+    if (result.searchType === 'call') return String(result.type || 'call').replace(/_/g, ' ');
+    return String(result.searchType);
   };
 
   return (
@@ -80,40 +80,44 @@ export default function SearchResults() {
       {/* Results - 4 column grid */}
       {!isSearching && query && results.length > 0 && (
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
-          {results.map((result: any, index: number) => (
-            <Link
-              key={`${result.searchType}-${result.id || result.slug || result.name}-${index}`}
-              to={getLink(result)}
-              className="block bg-ergo-dark border border-ergo-orange/20 rounded-lg p-4 hover:border-ergo-orange/50 transition-all"
-            >
-              <div className="flex items-center gap-2 mb-2">
-                <div className="p-1.5 bg-ergo-darker rounded">
-                  {getIcon(result.searchType)}
-                </div>
-                <span className="text-xs font-mono text-ergo-muted uppercase">
-                  {getLabel(result)}
-                </span>
-                {result.date && (
-                  <span className="text-xs font-mono text-ergo-muted ml-auto">
-                    {result.date}
+          {results.map((result, index) => {
+            const r = result as Record<string, unknown>;
+            const speakers = r.speakers as string[] | undefined;
+            return (
+              <Link
+                key={`${result.searchType}-${r.id || r.slug || r.name}-${index}`}
+                to={getLink(result)}
+                className="block bg-ergo-dark border border-ergo-orange/20 rounded-lg p-4 hover:border-ergo-orange/50 transition-all"
+              >
+                <div className="flex items-center gap-2 mb-2">
+                  <div className="p-1.5 bg-ergo-darker rounded">
+                    {getIcon(result.searchType)}
+                  </div>
+                  <span className="text-xs font-mono text-ergo-muted uppercase">
+                    {getLabel(result)}
                   </span>
+                  {r.date && (
+                    <span className="text-xs font-mono text-ergo-muted ml-auto">
+                      {String(r.date)}
+                    </span>
+                  )}
+                </div>
+                <h3 className="font-mono text-sm font-semibold text-ergo-orange mb-2 line-clamp-2">
+                  {String(r.title || r.name || r.question || '')}
+                </h3>
+                {(r.description || r.role || r.bio) && (
+                  <p className="text-ergo-light/60 text-xs line-clamp-2">
+                    {String(r.description || r.role || r.bio)}
+                  </p>
                 )}
-              </div>
-              <h3 className="font-mono text-sm font-semibold text-ergo-orange mb-2 line-clamp-2">
-                {result.title || result.name || result.question}
-              </h3>
-              {(result.description || result.role || result.bio) && (
-                <p className="text-ergo-light/60 text-xs line-clamp-2">
-                  {result.description || result.role || result.bio}
-                </p>
-              )}
-              {result.speakers && result.speakers.length > 0 && (
-                <p className="text-xs font-mono text-ergo-muted mt-2 line-clamp-1">
-                  {result.speakers.filter(Boolean).join(', ')}
-                </p>
-              )}
-            </Link>
-          ))}
+                {speakers && speakers.length > 0 && (
+                  <p className="text-xs font-mono text-ergo-muted mt-2 line-clamp-1">
+                    {speakers.filter(Boolean).join(', ')}
+                  </p>
+                )}
+              </Link>
+            );
+          })}
         </div>
       )}
 
