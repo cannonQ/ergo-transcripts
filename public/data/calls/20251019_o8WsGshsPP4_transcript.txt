@@ -1,0 +1,295 @@
+[00:00] **Marc the Shark**: Cool, cool.
+
+[00:01] **Marc the Shark**: Hey, welcome, everybody. We're just going to be going over Why Mine Ergo? A guide to profitability, sustainability. Probably a lot of this stuff you're very familiar with, but we're just going to go through it at a high level, as well as talk about Sigmonauts mining pool.
+
+[00:21] **Marc the Shark**: Cool. And so what we're going to cover today is understanding Ergo, why it matters, the basics of mining, the Autolykos algorithm, the technical setups - so setting up the rig, the design of the rig, heat and power - as well as the economics, so costs, breaking even, various analysis, emission schedule impacts, and then as well as the Sigmonauts mining pool.
+
+[00:49] **Marc the Shark**: So who is this for? We have whoever's new to crypto, experienced miners, maybe post-ETH merge. I think generally if you're interested in crypto, it's probably worth looking into proof of work and then at a minimum maybe potentially even mining it.
+
+[01:10] **Marc the Shark**: And so what is Ergo? As I'm sure most people know, but in case you don't, it's a truly fair blockchain launched in 2019. No pre-mine, no ICO, no VC funding. Built by experts, so former Chainlink and Cardano developers. We have the max supply around 97.7 million. Strictly capped. Mission is decentralized finance accessible to everyone. Philosophy is fair launch, community driven, and proof of work secured.
+
+[01:43] **Marc the Shark**: So Ergo is a blockchain done right, by the people for the people.
+
+[01:49] **Marc the Shark**: And so what is mining? The basics: Mining is securing the blockchain network. You provide computational power, hash rate, and the network rewards you with ERG tokens. Think of it as getting paid to run security for a digital bank. Your GPU solves complex mathematical puzzles. The more puzzles you solve, the more you earn. Without miners, the blockchain can't function.
+
+[02:13] **Marc the Shark**: So we've got to secure the transactions, validate the transactions, secure the network. And so you're not just earning rewards, you're supporting a revolutionary financial system that is Ergo.
+
+[02:27] **Marc the Shark**: And so what makes this so special? So it's ASIC resistant, memory hard, proof of work. It's very GPU friendly. It's very cool. And so a lot of those factors, for me at least, as to why mine Ergo make it a lot easier on the cards. I know ASIC companies aren't necessarily going to come into Ergo and sort of rug us.
+
+[02:50] **Marc the Shark**: So no ASICs, like we say, right? Maybe potentially true decentralization because essentially anybody can go off and buy a GPU. Anybody that generally has probably a desktop computer potentially with a GPU, maybe a gaming computer.
+
+[03:09] **Marc the Shark**: So it's more accessible than potentially mining Bitcoin.
+
+[03:14] **Marc the Shark**: And so a critical factor here is the emission schedule. I believe when I first started mining, it was probably about, I think, 75 or 60 ERG was the emission per block all the way down to 12, I believe. The block time is still static, two minutes. Going to be changing here soon, I believe. And then our reduction schedule is going to be next.
+
+[03:40] **Marc the Shark**: So every three months it reduces by three. So nine to six to three should be interesting as things sort of move in that direction.
+
+[03:50] **Marc the Shark**: So decreasing supply is going to enable scarcity. And so as miners start to mine more and more of this asset, there'll be less and less from a daily perspective being emitted into the ecosystem.
+
+[04:05] **Marc the Shark**: Understanding mining costs: you have your initial investment, but then you have operating costs. Your initial investment is going to be your GPUs, your motherboards, your CPUs, your power supply, the frame, everything that you need for the complete compute unit. Then your operating costs are going to be something to the effect of your electricity, which is going to be your biggest operating cost. Your internet connection, cooling - I think ventilation is definitely underexplored here, at least from my experience when I first started mining. Maintenance and then of course pool fees, which generally is around 1% depending upon which mining pools you go to.
+
+[04:45] **Marc the Shark**: So yeah, as we say here, electricity is the key determining factor for profitability. A secondary, I suppose, might be price itself, right? Because if the price is like, for ERG at like $100, that's going to be a little bit different. But of course, the difficulty kind of changes.
+
+[05:05] **Marc the Shark**: So what you need to know about mining: your hash rate - so how fast your GPU mines, that's going to be relative to how much ERG you actually earn. Your electricity rate, the network difficulty - so how hard it is to find these specific blocks. GPU power draw - so how much electricity you're actually going to be physically using.
+
+[05:24] **Marc the Shark**: And there's differences whether you measure it from the actual device or is it from the software? Obviously, you want to measure it from the device, so that's the most sound measurement. Then, of course, current ERG price and then the block reward. And again, the block reward is going to change every three months or so.
+
+[05:46] **Marc the Shark**: And so here is calculating cost to mine one ERG. And so why do you want to even calculate the cost to mine one ERG? So the idea here is, say it costs $1.50 to mine ERG, and the current cost is, I think, like 70 cents or even 60 cents, you are at a loss. Cost to mine ERG is say a dollar, but ERG is $2. Well, then now you're making 100% more.
+
+[06:12] **Marc the Shark**: And so this is what this formula is going to be calculating. And I think as miners, we need to sort of look at it as like a business perspective and potentially even at a minimum pay off your electricity costs. But I think additionally, miners are also looking at a speculative bet. So, hey, maybe one day ERG is going to go up to this mythical price. And if that's the case, then sell everything and go down and move to the islands or something, right? Whatever other people's dreams are.
+
+[06:41] **Marc the Shark**: And so here it is. So it's your hash rate divided by the network hash, multiplied by the block reward and then the blocks per day. So that's how much actual ERG you're going to be getting. And then your daily electrical cost. And then once we have those two specific numbers, right? So your daily electrical costs and then the daily ERGs mined.
+
+[07:03] **Marc the Shark**: And so, for example, we have here 150 mega hash consuming 150 watts. I think in this example, we're just using kind of nice numbers. I think 150 watts at 150 mega hash is quite high. So with the - and I haven't validated these numbers, so - but in any case, network hash rate 50 tera hash, the electricity is 12 cents per kilowatt hour, block reward is 12. And so your daily ERG is about a quarter of an ERG. Your daily cost is going to be 43 cents. So then your cost per ERG is going to be $1.67. So you're instantly paying more for your ERG.
+
+[07:47] **Marc the Shark**: That is that calculation. But again, this could be more of the speculative play. And so, hey, maybe in 10 years ERG is going to be, $100, $1000. And I'm just going to sit on this kind of like the idea of Bitcoin and miners back then.
+
+[08:31] **Marc the Shark**: Yeah, you're good to go. Pay a little premium.
+
+[08:43] **Marc the Shark**: Yeah, exactly. And that's the key takeaway, right? And so then if your ERG price is greater than your cost to mine, like we were just saying, it's profitable. Otherwise, you're at a loss. And then breakeven is also nice.
+
+[09:00] **Marc the Shark**: So yeah, variables change. So the price is going to fluctuate. That's why a lot of miners, like Son of a Tech, he's always saying to pay off your electricity first, because that first and foremost, it's a business. And then if there's any extra, then just hold on to that. But everybody's game plan, I would say, is sort of different.
+
+[09:18] **Marc the Shark**: You can certainly gamble by mining. You could say, forget it. I'm just going to pay the electricity bill because I can pay that electricity bill and just gather as much as I want and just kind of see what happens.
+
+[09:30] **Marc the Shark**: So yeah, other variables, right? The network difficulty increases, block rewards. And then, of course, the electricity rate. They may come knock on your door and say, hey, you're using way too much electricity. You're going to start paying more prices, which I've heard is a thing.
+
+[09:49] **Marc the Shark**: So yeah, so we have long term considerations. Beyond daily profit, we have hardware depreciation over time. These things are running 24/7. They're going to be collecting dust, inherent entropy within the system. ERG appreciation potential hopefully. Resale value of the mining GPUs - that certainly has been the case.
+
+[10:12] **Marc the Shark**: I have seen that maybe less and less in the future. Like for example, I bought these AMD cards and they were about $750 in 2021 and now they're like $100. And so maybe the resale value of mining GPUs, that could be the case, but currently I don't believe it's the case.
+
+[10:34] **Marc the Shark**: Tax implications, of course, in the United States. So yeah, hodl strategy - really just mine at the low prices. Forget your electricity costs, just pay that. And then you have potential 10x returns, hopefully, we'll see. And then mining is in a sense, right, dollar cost averaging into ERG.
+
+[10:55] **Marc the Shark**: And so, but I think there's certain byproducts potentially as a result of that. So if you live in a colder climate, you could recapture a lot of this energy that is the heat. You could then put that back into your house. I know a lot of people do that. I used to do that when I lived in Colorado, kept my garage very nice and toasty when it was close to zero degrees or 20 degrees.
+
+[11:20] **Marc the Shark**: And that's just kind of moving into here. Emission reduction impacts, so right now we have 12 ERGs as the block reward, so 8,640 ERGs a day. Then we move into nine ERGs, so 6,400 ERGs a day, six ERGs, 4,300, and then three ERGs forever is going to be 2,160 ERGs.
+
+[11:43] **Marc the Shark**: And so there will most likely be some sort of squeeze in the amounts of just scarcity, right? So early miners, we're saying here, have a massive advantage, especially when we were mining at really high rates like 70 ERGs or 65 ERGs for the block reward.
+
+[12:21] **Marc the Shark**: And so talking about the algorithm, it's a cool algorithm. So it's very good on your specific hardware, which is great for longevity, because again, talking about buying equipment, you potentially want to just buy this equipment and never have to buy equipment again, but most likely you're going to be buying secondary used GPUs that have been running for a very long time anyhow.
+
+[12:45] **Marc the Shark**: And so you want to run it on something that's going to be running 24/7, running that's not really stress testing these GPUs who have already been most likely abused.
+
+[12:57] **Marc the Shark**: Power efficiency, I think, again, is very critical. I used to mine, and I used to say, oh, I just want the highest hash power. But in reality, especially with economies of scale, you can start to get at maybe one or two GPUs, no big deal. But you get 5, 10, 15, 30 GPUs. This economy of scale with the specific rigs and all that electricity cost, it doesn't really make too much sense.
+
+[13:25] **Marc the Shark**: And so running cooler means your GPUs last maybe two to three years longer, 10 to 20% less power. You might have some less rewards within Ergo, but I think, again, it's like we want to be able to - mining is like a game that you want to - it's not like to win, you want to just like play the game. And so like, that's like the goal here, not necessarily winners or losers - just want to keep staying in business.
+
+[13:48] **Marc the Shark**: And so right, so that talks about longevity - thermal stress, fan longevity. So if there's any inherent noise that you don't necessarily notice, that's inherent entropy within the system. And so maybe something's off kilter. And so maybe every six months it's good to have a plan and just take off the rigs apart, clean them all off, put some isopropyl alcohol, get all the dust out of that, especially for the fans, right?
+
+[14:19] **Marc the Shark**: Because if you have more mass, that is the dust spinning, they're going to have to work harder, those motors are going to have to work harder, and that's just going to put more inherent stress on the system. Not good for longevity.
+
+[14:32] **Marc the Shark**: So the, we have memory intensive mining. So how Autolykos works is a memory hard computation, GPU core sits relatively idle, but we focus on VRAM - 6 gigabyte minimum. 8 gigabyte plus optimal. Of course, different tuning. So underclock the GPU, overclock the memory, reduce voltage. Again, highly recommend. Efficiency is key here.
+
+[15:02] **Marc the Shark**: And so yeah, you want to find that optimization sweet spot. So you can get 80 to 90% of that max hash rate. So you can get 60 to 70% power. And that even kind of talks about too, again, the longevity of things.
+
+[15:21] **Marc the Shark**: So if you've got a really nice electric rate and you're using less power, you can actually put more cards on top of the entire electrical network that you have. Because then in theory, instead of using the total capacity, you can maybe fit one or two extra cards on there to make up for the lowered hash rate because of the clocks.
+
+[16:11] **Marc the Shark**: Totally. Yeah, Ken was just talking about the efficiency of the cards compared to something like Kapow and you really just want to take care of them. But you do have a good point to where it's like, you want to maximize for this three month period, because in the next three months, you're going to be getting arguably less. So then you could even think about it as of like right now hey I'm just going to mine until it hits the three. So then your electrical rate is essentially fluctuating because now you're actually getting more. Like a year from now you're going to be getting less and so you can recalculate what the actual cost would be to mine in the future and do some weird accounting I'm sure.
+
+[17:42] **Marc the Shark**: Yeah, I don't know, maybe I'd push back on that, because NVIDIA came out with a card solely for mining, and when they first came out with it - so it's the CMP-170HX. It was five grand for that card. Now you were just showing me today, it's like $300. So it's like, and that was maybe two or three years ago, and that's like 400 mega hash for that one card versus I don't know what the newest cards are pumping out, but...
+
+[18:27] SPEAKER_03: Right. Yeah, it could be.
+
+[18:40] **Marc the Shark**: Right. But what's really nice about mining is we were kind of talking about it a little bit yesterday in one of the side discussions - virgin coins, a virgin wallet, where it's like, it's literally only ERG coming in here that's mined. So there's no sense of - nobody knows where you're at. You're on your own island except the mining pool, but there's no other transactions tied to that.
+
+[19:04] **Marc the Shark**: I kind of like that idea to where you build up a nice stack and then nobody can tie that to me. I mean, you can use a mixer, I'm sure, but people can then see you use the mixer. It's a very anonymous way to just dollar cost average into ERG.
+
+[19:21] **Marc the Shark**: You can even move to - they have hosting farms where they make deals with you and you just send your stuff to them and they're like, oh, we'll give you this electrical rate and then in return. But I'm seeing less and less GPUs do that - more and more ASICs for sure.
+
+[19:39] **Marc the Shark**: So, but there's an opportunity, I think, with solar renewables. Great opportunity. I think they're relatively cheap. You could build a nice solar farm, and the next thing you know, you have free printing of ERG because then say all the equipment's all paid off. And then if you've got all the other equipment for the solar paid off. And then you're also routing that heat to heat your house - you have this really nice efficient energy making machine where it's just printing ERG, everything else is paid off, and then the heat is going back into it.
+
+[20:13] **Marc the Shark**: Definitely.
+
+[20:19] **Marc the Shark**: So ASIC resistance - fair mining, and I think that's a huge aspect because I came into certain cryptocurrencies and then it's like, come to find out, you need to buy so much to sort of be able to - in Cardano, if you want to create a stake pool, you really kind of need so much ADA to create them and mine blocks.
+
+[20:43] **Marc the Shark**: Versus Ergo, you can just say, hey, I'm going to buy this GPU setup, just point to the pool, and you're making money ready to go. And it could be even used as a burning mechanism. You could be like, OK, hey, this guy needs some ERG, and just turn on a rig, and then anonymously fund them, or something like that.
+
+[21:08] **Marc the Shark**: So fair competition - your GPU competes on an equal footing. True decentralization - so mining power stays distributed globally, ideally. Dynamic protection - so scheduled memory increase, brick any ASIC attempts. And then community focus - so mining rewards stay with individual miners.
+
+[21:32] **Marc the Shark**: And I think that's a huge one. I think with the whole ASIC thing we really want to - I think we've seen the rise and the fall of various chains that have then said, okay, hey, we'll allow ASICs to come in. Here we have a hard...
+
+[21:56] **Marc the Shark**: Well, I think it's the algorithm, right? So it's like, we decided to use this algorithm and then we'd have to fork it, I guess, to change the consensus layer that is the algorithm.
+
+[23:53] **Marc the Shark**: Yeah. Only time will tell, I suppose. Hopefully. Yeah. Right. Yeah, absolutely. Yeah, we can see all these things, but we'll see what comes out in the wash, I suppose.
+
+[24:08] **Marc the Shark**: And so here's some of the hardware requirements at a minimum. I think we were at four gigs for the VRAM, maybe a few years ago, and then it went up to six. And so I had a couple of four gig cards that obviously wouldn't be able to support this anymore. But I think that's an opportunity for some sort of side chains that's been talked about.
+
+[24:35] **Marc the Shark**: So then we have single GPU and multi GPU. So yeah, your single GPU really is going to be like your gaming PC, maybe your workstation, testing the waters, low barrier to entry, ROI potentially 12 to 18 months - we say typically, but who knows in this market.
+
+[24:53] **Marc the Shark**: So it's sort of a smaller investment, depending on what sort of setup you have. It could be zero because you could have already potentially have it.
+
+[25:04] **Marc the Shark**: Now your multi-GPU setup. This can be somebody - it's like, all right, I really want to get into this. You have the electricity cost. That's one thing. It's one thing to be like, hey, I'm going to do all this. I'm going to run five giga hash. But then it's like, well, do you have the electricity to do it? Do you have a 30 amp outlet? Can you pay for somebody to install the 30 amp? Do you need 50 amps? What's the safe wattage to run on 30 amps? Knowing all that stuff.
+
+[25:34] **Marc the Shark**: Even the cords is extremely important because if you say, hey, I want this specific card to run at 300 watts, but the cord is only good for 250, you're going to start a good fire. Or even you're using a specific 3D printed hanger. So one time I 3D printed and created my own hangers and so they'd hang and you have an open airframe kind of going through it.
+
+[25:55] **Marc the Shark**: And I was actually just at breakfast with my wife and I was looking at the camera and then as I was looking at it one of the GPUs fell because after a couple months and I was using PETG but after a couple months of just being warmed up, warmed up, warmed up, the screws started to sort of create the hole a little bit bigger and bigger and then eventually just would fall out.
+
+[26:27] **Marc the Shark**: So it's always good to have those sort of backups and cameras and things because it would suck to put three to ten thousand dollars down into this, get it all set up, brick a machine, brick a motherboard, create a fire for all of this sorts of stuff. So definitely do the single GPU setup first. Get your feet wet.
+
+[27:02] **Marc the Shark**: Typically, right, yeah. Probably a lot longer now as of yesterday. These were made a few days ago.
+
+[27:09] **Marc the Shark**: But yeah, I mean, I think that it's a good point. So Graham had mentioned college students, they don't have to pay for their electricity. So that's a great vector or even Airbnbs. I've heard people get Airbnbs. They see that they have a 30 amp outlet over their entire setup, get free electricity. It's a way to do it for sure.
+
+[27:29] **Marc the Shark**: And so let's break down the different mining components. So we have open air, which is nice, but it has a lot of different moving parts. And so I think again, kind of going back to that idea of entropy, if you have a lot of components moving within the system, something is bound to break and you're sort of as strong as your weakest link.
+
+[27:52] **Marc the Shark**: So if a PCIe board riser goes out, well then that's down, but then you've got to move everything. And if you've got - I've had at most 13 cards in there, and you have the cords managed very nicely, it's kind of a pain in the butt to take one card out, switch that out.
+
+[28:10] **Marc the Shark**: I prefer the server cases. On Amazon, you can get them, I think, for like $500. You can put eight cards in there. It comes with fans. It runs Windows, but you can put in, of course, HiveOS or anything like that. Highly recommended. And those are stackable, then you can move them anywhere. Versus the open airframes, definitely not the case.
+
+[28:51] **Marc the Shark**: Right. Yeah, a lot of aftermarket parts out there right now, probably for cheap, you could just put something. Right. Yeah.
+
+[29:15] **Marc the Shark**: Definitely. The thing I think you'd need to worry about potentially with mining, with that sort of approach, is there's a lot of move to LLMs being moved to local. So I think before the video game group was getting upset with crypto people because they're buying all the GPUs.
+
+[29:34] **Marc the Shark**: But now I think there's going to be a move to where now all the crypto guys are going to be upset with the AI guys trying to buy all the GPUs, because I think there really will be more of a privacy sort of thing with LLMs and being like, hey, I want to run it on my stuff. I don't want people knowing what my prompts are and things like that.
+
+[29:52] **Marc the Shark**: And I think the tools are generally moving more towards open source and being able to run them sort of locally. And it's kind of pretty easy to do. We've done it with a couple of websites. So just some sort of food for thought there.
+
+[30:08] **Marc the Shark**: And then I think that even kind of goes into the idea of like, hey, I could create my own LLM setup. And then when my family's not using it, maybe from 10 PM to 6 AM, it's just mining Ergo. And it just has that script that's running. Okay, cool. Turning off into offline mode. Now I'm just going to mine Ergo, turn it back on. Now back to the home LLM or whatever the case.
+
+[30:35] **Marc the Shark**: Yeah, right. Yeah. Yeah. Yeah, home LLM or whatever LLM you want to call it.
+
+[30:45] **Marc the Shark**: Yeah, yeah, yeah, exactly. Because I think as we move further down with LLMs and I know kind of varying off a little bit, but like, you could have your camera set up with different MCP servers and your cameras in your house, you maybe want to access that LLM to have that. But then now maybe Google or OpenAI or all these people sort of have this data that is your kids or your family.
+
+[31:10] **Marc the Shark**: And so I think that's where the privacy is going to maybe potentially come in or listening to you. And you just want to be able to say, Hey, home LLM XYZ, you don't want it to...
+
+[31:31] **Marc the Shark**: Right. Yeah. Totally. And then it's like, cool, we have our own little LM setup. It does whatever that needs to do. But that same infrastructure can then be flipped on its head when we're not using it to then run at night and mine Ergo. And then plus they're both are going to generate heat. So I think there's opportunity there to create heat, especially for things like hot yoga - makes no sense to just have a heater when you're just constantly going to be purposely heating something.
+
+[31:59] **Marc the Shark**: So it kind of maybe makes sense to have a bunch of miners running, even if you are... And that's where I think the heat perspective, you could even flip the electricity cost on its head because then it's like, well, I don't really care. We're going to burn this electricity anyways. But now we get another asset to go inside of it and we just get that and then we just actually get a discount now.
+
+[32:22] **Marc the Shark**: So it's I think a lot of the mining stuff is really kind of how you look at it. So maybe one way it looks like a circle and then the other way it looks like a square - sort of that kind of famous example, right? Just depends on how you're looking at it.
+
+[32:38] **Marc the Shark**: So yeah, understanding the problem. So each GPU generates 100 to 200 watts of heat. Six GPUs could produce 1200 watts of heat, equivalent to a space heater. And of course, we're not even talking about noise. Noise is also a big problem.
+
+[32:58] **Marc the Shark**: So, I'll just continue here. So, single rig heat management, we're just talking room positioning. So, keeping away from walls. I think one of the big things with mining, people don't really think about is this concept called heat transfer.
+
+[33:15] **Marc the Shark**: And so really, it's the idea of you have something generating heat, but we're not really thinking about how are we going to actively move that out of this system. And you can think of this room as a closed system, I suppose. And if you have heat, how is it going to generate and eventually assimilate to the main temperature?
+
+[33:34] **Marc the Shark**: So if you think of it like water, so if you have water that is room temperature but then I pour a little bit of hot water, eventually it'll take some amount of time for this whole water to be the same temperature. And so that's sort of what heat transfer is. And you want to be able to effectively - especially if you're trying to minimize the effect of the heat, you want to be able to understand - so some people will create a rig room and then they'll create heat isolation and then they'll create their exhaust. So they're kind of creating some insulation sort of to help slow or help this translate the heat in some manner.
+
+[34:24] **Marc the Shark**: So yeah, multiple rigs, definitely a lot of heat. The challenge scales up. So 10 GPUs, almost close to 2,000 watts of heat. It is very hot, very loud. The infrastructure needs, I mean, and that's a serious setup. Even 30 GPUs, it's like sometimes they go down, you gotta turn them back on.
+
+[34:50] **Marc the Shark**: Some months they can run like no big deal. And then other months it's like, dude, every week I gotta, all right, I'm messing with it. And it's like, hey, honey, I'll be right back. I gotta do something to the rigs. And it'll be like a few hours later. And it's like, okay, I'm finally done. There's a lot of problem solving, but for me, I really enjoy that because it could be a bunch of different things.
+
+[35:15] **Marc the Shark**: So yes, we have smart solutions. So yeah, maybe you got basement mining. So warm air rises. So if you're gonna mine, put it into the lowest point that you can. So eventually the heat will actually rise. Garage with ventilation. So I was mining in my garage and so the warmer months I was actually able to open up both garages. And so I was able to just draft that heat super fast, which was really, really nice.
+
+[35:43] **Marc the Shark**: But the problem with that is inherently that's a warm area. So bugs are going to naturally attract to that spot. So for the open air sort of cases, I'd have to go in there and get some air in a can and just clean that all up because otherwise that organic matter will just collect up, create dust and eventually could catch fire. No good.
+
+[36:09] **Marc the Shark**: It's one thing to get involved with mining and tell your wife, hey, we're going to put 10K into mining, do all that stuff. It's another to cause a fire. How stupid would you look, I guess?
+
+[36:27] **Marc the Shark**: So in hot climates, AC costs are going to probably kill a lot of profits. But I think that is kind of where you need to put your engineering hat on and sort of see how can you - so the idea here is you got to keep the actual cards cool, not necessarily the exhaust.
+
+[36:44] **Marc the Shark**: And so if you can keep that airflow, what's called laminar, but also over the card at that same temperature, whether it's 80 or 90 degrees Celsius, then that's fine, as long as it doesn't skyrocket up. But it's definitely a hard problem to do, so maybe mine at night.
+
+[37:13] **Marc the Shark**: Again, it's all about your specific where you are, where you're located. Maybe there's an opportunity to build some sites on land. Maybe you can dig down in the ground. You can actually build up vents and off gas that heat to some sort of greenhouse, things like that.
+
+[37:31] **Marc the Shark**: There might be an opportunity, especially out here in Colorado. They grow a lot of cannabis from my understanding. They probably spent a lot of money on heat. So what if they had a bunch of Ergo miners underneath somewhere then off gassing that heat and back into the grow house? And so that would be a huge net positive.
+
+[37:54] **Marc the Shark**: There was actually - I went on a tour to one of the dispensaries and they actually built the heating mechanism outside of the property, which makes no sense because now it's not even insulated. So now you have hot air leaving the building, going outside to where it's cold, and then going back in. It's like, no, you should have kept that inside. So again, it's all about efficiency, efficiency for the cards, but then also efficiency from an environmental perspective.
+
+[38:27] **Marc the Shark**: Yeah, right. When we do Chain Cash, we'll buy a bunch of property and then maybe a barter system to be like, okay, who's going to build the deck? Okay, Mark's going to build the mining setup, and so on and so forth. We need a senior design project or something, right?
+
+[38:51] **Marc the Shark**: So, electricity rates definitely matter the most, right? So, 5 cents to 10 cents. I got 11 cents. I was okay with that at the time. And so I was running like five giga hash, probably about a year ago. And I was probably about like three to 400 bucks a month. I don't remember how much ERG it was, but which is irrelevant, I suppose now just because of the scheduling.
+
+[39:24] **Marc the Shark**: I don't know if that's a typo. So what are the rates? Many utilities charge... oh, I see, right. So different rates. And so off peak times versus peak hours.
+
+[39:36] **Marc the Shark**: And so again, going back to that sort of LLM sort of concept, maybe it makes sense to run it cheaper at night, the weekends, when not using it. So it's going to be a lot cheaper versus peak hours. And then additionally, it's like a note about peak hours. Peak hours are also correlated most likely with peak temperature hours.
+
+[39:58] **Marc the Shark**: So it's like, if I'm in a hot environment anyways, and then I'm also getting charged a lot for electricity, probably doesn't make a lot of sense to be mining during that time anyways. And I think it's okay to turn your rigs off. Sometimes maybe you've had a bad month.
+
+[40:20] **Marc the Shark**: Yeah, so for most mining pools on Ergo, it's PPLNS, so it's pay per last N shares. And so N is set by the mining pool, and ours right now is one half. And so you could just think of this as a window. And so say the last 12 hours are all the shares you're going to get calculated for.
+
+[40:41] **Marc the Shark**: So if you just started, you're not going to have a lot of shares within the last 12 hours. And so you get penalized for that. But if you get onboard to the pool after those 12 hours, you now have the maximum full amount of shares that you could possibly have.
+
+[40:55] **Marc the Shark**: But then if you onboard another giga hash, your shares amount potential then increase because now you have more potential shares to be able to submit within that 12-hour window. So if you turn it off, and it really depends, on Sigmonauts mining pool, it just depends on when we find blocks.
+
+[41:12] **Marc the Shark**: So say for example, you're maxed out on your 12-hour window. We find a block and that was high difficulty. Then we have high effort. Then we find another block within an hour. Then we find another block - you're going to have a high participation because you have the maximum amount of shares.
+
+[41:35] **Marc the Shark**: Let's say between the second and third block, you are turning off for the night, you're still going to have, say, 90 percent of that window covered because you have one hour less, call it, or wherever the math works out to. But then it goes from one hour to six hours. Well, now you have six hours left of those last shares.
+
+[41:57] **Marc the Shark**: And it really just depends on what the N is. And so again, ours is one half, but you could put like four, which could be weeks. You could do months. So then, but those are obviously really old shares. And it's like, we don't really care about that. We just care about these more recent shares. So that's a way to do that.
+
+[42:21] **Marc the Shark**: So then we have solo mining versus pool mining. So you mine alone. If you get a block, you get all the rewards. Very unpredictable, but really it's only unpredictable in the sense of if you have a small amount - I mean, I'd say it is predictable, but it's just, you're not going to get paid soon, because if you have 100 giga hash, it's going to take 30 days, but you could have luck within the first hour.
+
+[42:46] **Marc the Shark**: That happened to me. I was like 500 giga hash and I found two blocks. And I was doing a test pool and it was just me on there. It's just like, oh, well, that works out.
+
+[42:58] **Marc the Shark**: And then pool mining, depending on the fee, you sort of split your hashrate and then whenever anybody on the pool finds a block, then we all split that with respect to our participation, which is calculated by the PPLNS calculation. And then we also have the small fee.
+
+[43:19] **Marc the Shark**: So then we take that ERG reward. We calculate that fee. The pool keeps the fee. And then from there, the PPLNS gets added to the shares of the database.
+
+[43:31] **Marc the Shark**: I thought I'd fix this, but at one point, the Sigmonauts mining pool was 1%. It's variable. So if you want to vote it to 2, and it passes, we'll vote it to 2. If you want to vote it to 0, we can vote it to 0. Any miner on our pool, if they want a DAO token, we'll give it to you.
+
+[43:50] **Marc the Shark**: So we're distributing storage rent. We have bonus tokens, doing a bunch of other different things. But then we also, of course, have Herominers, which I believe they're also distributing or I know they're collecting Demarage. I don't know how exactly they're distributing it.
+
+[44:14] **Marc the Shark**: Right, okay. Well, the way we do Demarage distribution is we do it one for one participation. So, for that block, we'll calculate your participation. We'll then take that same - we back calculate it, but we grab that value and then we multiply that by whatever the ERG amount we got from Demarage.
+
+[44:37] **Marc the Shark**: So, if it's 10 ERG, and your participation was 10%, then you'll get one. And then that's paid, traditionally that'll be paid every Tuesday, but there's some sniping wars sort of happening.
+
+[44:53] **Marc the Shark**: Sorry, say that again?
+
+[44:58] **Marc the Shark**: Yeah, for sure. There was an opportunity a few months ago where there was this, CannonQ can correct me, but I think there was like 1000 SigmaUSD in Demarage. Wasn't it something like that? Or there was like a thousand in token value. Yeah, yeah, yeah. So definitely the incentive is there. Okay, that's what it was, yeah, SigRSV.
+
+[45:27] SPEAKER_03: Okay, yeah.
+
+[45:39] **Marc the Shark**: Yeah. So let's see, it says Herominers, it's 2%. I think they do - does anybody know what their payout is? It's not PPLNS, right? It's like Bitcoin. Isn't it like Bitcoin pools do it? No? Okay. Fair enough.
+
+[46:03] **Marc the Shark**: Okay. So yeah, talking about the Sigmonauts. So we have a DAO run on Paideia. Everybody has a say in the pool. We actually have 10,000 ERGs in our treasury, which is awesome. Only pool right now distributing - well, that's not true. Sorry, I thought I fixed the storage rent. But the only pool distributing bonus tokens to our miners.
+
+[46:26] **Marc the Shark**: I think at one point we had 60 tokens that we'd airdrop all at once to, I think at most we had 60 people. So that's kind of cool. We're supporting the ecosystem, so fees fund Ergo development and community projects. All decisions voted on by the community are all open, active, Discord and Telegram.
+
+[46:47] **Marc the Shark**: We have a bunch of different alerts. So every time we find a block. Really good group of guys, if you're interested in mining, people are there from all over the world. So if you have a question, generally somebody's on there to answer, whether it be about mining. And something I really like about our mining community is I like to think that all the miners are devs in hiding.
+
+[47:09] **Marc the Shark**: They just don't know it yet. They have the technical ability to be able to spin up a miner, put up the OS, that takes some noodling within the terminal and things like that. And so we were actually able to get two of our miners to join the last hackathon. So that was pretty neat.
+
+[47:28] **Marc the Shark**: And so storage rent is Ergo's unique feature. So rent, this is also Demarage. It's collected from unspent boxes older than four years. Prevents the blockchain bloat and provides additional revenue for the miners. And so here's just some sample current revenue. This is free money for the most part.
+
+[47:52] **Marc the Shark**: It's just there. It blows my mind that people don't consolidate their boxes that are more than four years old, but maybe they left the community. And so yeah, on Sigmonauts mining pool, I wrote a script that will distribute it all proportionally to the Sigmonauts miners based upon our participation in the database.
+
+[48:14] **Marc the Shark**: It increases your effective earnings. I guess we're the only – well, I guess Grayman said they're distributing it, but equally. I'd be curious to see how exactly.
+
+[48:29] **Marc the Shark**: Right. It would be good on us to put a, from a transparency perspective, be like, hey, this is exactly how we're doing this, all the FAQs and stuff. I'll have to take a note of that.
+
+[48:44] **Marc the Shark**: But yeah, our fee is 1%. So sorry for all the spam of the 0.9. Our minimum threshold is 0.5. We did create this protocol. I don't know if it's really a protocol, but essentially you could mint an NFT. You could then inscribe in this NFT your minimum or your payout threshold.
+
+[49:03] **Marc the Shark**: And then our system would then pick that up based off our collection ID. And then from there it would automatically change your payout threshold without having to message me or anything like that. So a little bit more permissionless sort of payout thresholds.
+
+[49:19] **Marc the Shark**: Because we have some miners, right? They might have 50 giga hash and they might be making 10, 20, 30 ERGs a day. And if it's 0.5, they're just getting a lot of spam. And so from maybe even a tax perspective, it's nicer to have it in one transaction as opposed to five transactions a day.
+
+[49:39] **Marc the Shark**: Plus from the mining pool perspective, I'd say we don't want to make five transactions a day if we can just make the one to save on the TX cost, I suppose.
+
+[49:51] **Marc the Shark**: So, yeah, if you need to get help, we're pretty active on Telegram and Discord. Let's see. Mining with Sigmonauts isn't just about profit. It's about supporting the true decentralization and being part of the community that believes in Ergo's vision. Mining fees fund ecosystem development, not just corporate profits.
+
+[50:12] **Marc the Shark**: And then, of course, we can vote on those specific developments. Something like, hey, I want to do this and we're going to spend this, it needs to be voted on by everybody.
+
+[50:23] **Marc the Shark**: So if you want to get started with mining Ergo, you need a mining wallet. So Nautilus is what I would recommend. Get a mining software. Really kind of depends if it's NVIDIA or AMD. Mine to the Sigmonauts mining pool. Check out, I think it's ergo-miners.com is our dashboard.
+
+[50:43] **Marc the Shark**: Configure the miner within your wallet, start mining and monitoring the pool dashboard. Again, join our socials.
+
+[50:52] **Marc the Shark**: So here's a couple of different mining options. Just kind of for the sake of time, kind of get through these. So yeah, optimize again for efficiency here.
+
+[51:06] **Marc the Shark**: So yeah, why Ergo? So we've got the cooler algorithm, better for GPUs, declining emissions, so scarcity. So I think that's been a big thing for a while. And so now we're actually like in the next year, we're going to see that play out. And is that sort of narrative true? I don't know. We'll find out.
+
+[51:25] **Marc the Shark**: ASIC resistance, storage rent income, an active ecosystem, no pre-mine or ICO. We're gonna be mining until 2045. And expert developers.
+
+[51:43] **Marc the Shark**: So resource and links. Start your mining journey today. Comments, questions, concerns.
+
+[52:03] **Marc the Shark**: What is my - yeah, I think it's pretty cool. I think, Sigmonauts. I think we probably have - I'm thinking about it. We'd have two separate options and I'm still sort of fuzzy on the entirety, aspects, but I think we could probably have Sigmonauts mining pool is how we run it today. But then also...
+
+[52:25] **Marc the Shark**: Yeah, I think we could do that, irrespective, but we could probably have to do a DAO vote if we want to do one or the other or do both. I'm completely open with what the DAO wants to do. So, kind of open to. So, absolutely.
+
+[53:33] **Marc the Shark**: Yeah. Yeah. I mean, that'd be a really - I'm not sure if mining core does that. I mean, Geez, do you know? Like is this...
+
+[53:44] SPEAKER_01: Okay. Sick. Right.
+
+[54:01] SPEAKER_01: Totally.
+
+[54:25] **Marc the Shark**: Yeah, some guy named Oliver.
+
+[54:35] **Marc the Shark**: Yeah, that'd be a really cool idea. Can you overstuff the transaction? So if I'm in the pool and you're saying, hey, I want to make the transaction, could I put as much as I want in there? And then that would essentially push out...
+
+[55:00] **Marc the Shark**: Right, right, right. Yeah, that'd be a cool idea because right now for our bonus tokens, we're doing that once a week and...
+
+[55:12] **Marc the Shark**: Okay. Yeah, that's definitely a good - I'll be relying on Geez there to help us out.
+
+[55:22] **Marc the Shark**: Sweet. Alright, cool. Any questions online? I don't think so.
+
+[55:34] **Marc the Shark**: Alright, cool.
