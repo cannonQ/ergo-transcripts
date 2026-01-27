@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Globe, MessageCircle } from 'lucide-react';
+import { Github, Globe, MessageCircle, Send } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -39,6 +39,14 @@ export default function Footer() {
               className="text-ergo-muted hover:text-ergo-orange transition-colors"
             >
               <MessageCircle className="w-5 h-5" />
+            </a>
+            <a
+              href="https://t.me/ergoplatform"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-ergo-muted hover:text-ergo-orange transition-colors"
+            >
+              <Send className="w-5 h-5" />
             </a>
           </div>
         </div>

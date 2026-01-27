@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, TrendingUp, Activity, Loader2 } from 'lucide-react';
+import { ArrowRight, TrendingUp, Activity, Loader2, ChevronDown } from 'lucide-react';
 import CallCard from '../components/CallCard';
 import StatCard from '../components/StatCard';
 import TopicTag from '../components/TopicTag';
@@ -10,6 +10,8 @@ export default function Home() {
   const { stats, calls, topics, isLoading, isInitialized, loadAllDecisions, allDecisions } = useData();
   const [typedText, setTypedText] = useState('');
   const [decisionsLoading, setDecisionsLoading] = useState(false);
+  const [statsOpen, setStatsOpen] = useState(false);
+  const [trendingOpen, setTrendingOpen] = useState(false);
   const fullText = 'The public meetings of Ergo';
 
   useEffect(() => {
@@ -69,22 +71,45 @@ export default function Home() {
         </div>
 
         {/* Stats + Trending Topics Row */}
-        <div className="grid grid-cols-1 lg:grid-cols-5 gap-4">
-          {/* Stats - 60% */}
-          <div className="lg:col-span-3 bg-ergo-dark/80 backdrop-blur border border-ergo-orange/30 rounded-lg p-6 glow-orange">
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-              <StatCard label="CALLS INDEXED" value={stats?.total_calls || 0} />
-              <StatCard label="Q&A PAIRS" value={(stats?.total_qa || 0).toLocaleString()} />
-              <StatCard label="DECISIONS TRACKED" value={stats?.total_decisions || 0} />
-              <StatCard label="SPEAKERS" value={stats?.total_speakers || 0} />
-              <StatCard label="HOURS OF CONTENT" value={`${stats?.total_hours || 0}+`} />
-              <StatCard label="LAST SYNC" value="LIVE" />
+        <div className="grid grid-cols-2 lg:grid-cols-5 gap-3 lg:gap-4">
+          {/* Stats - 50% mobile, 60% desktop */}
+          <div className="col-span-1 lg:col-span-3 bg-ergo-dark/80 backdrop-blur border border-ergo-orange/30 rounded-lg p-3 lg:p-6 glow-orange">
+            {/* Mobile toggle header */}
+            <button
+              onClick={() => setStatsOpen(!statsOpen)}
+              className="lg:hidden flex items-center justify-between w-full"
+            >
+              <span className="text-xs font-bold font-mono text-ergo-orange">System Stats</span>
+              <ChevronDown className={`w-4 h-4 text-ergo-orange transition-transform ${statsOpen ? 'rotate-180' : ''}`} />
+            </button>
+            {/* Content: toggled on mobile, always visible on desktop */}
+            <div className={`${statsOpen ? 'mt-3' : 'hidden'} lg:block`}>
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <StatCard label="CALLS INDEXED" value={stats?.total_calls || 0} />
+                <StatCard label="Q&A PAIRS" value={(stats?.total_qa || 0).toLocaleString()} />
+                <StatCard label="DECISIONS TRACKED" value={stats?.total_decisions || 0} />
+                <StatCard label="SPEAKERS" value={stats?.total_speakers || 0} />
+                <StatCard label="HOURS OF CONTENT" value={`${stats?.total_hours || 0}+`} />
+                <StatCard label="LAST SYNC" value="LIVE" />
+              </div>
             </div>
           </div>
 
-          {/* Trending Topics - 40% */}
-          <div className="lg:col-span-2 bg-ergo-dark/50 border border-ergo-orange/20 rounded-lg p-4">
-            <div className="flex items-center justify-between mb-3">
+          {/* Trending Topics - 50% mobile, 40% desktop */}
+          <div className="col-span-1 lg:col-span-2 bg-ergo-dark/50 border border-ergo-orange/20 rounded-lg p-3 lg:p-4">
+            {/* Mobile toggle header */}
+            <button
+              onClick={() => setTrendingOpen(!trendingOpen)}
+              className="lg:hidden flex items-center justify-between w-full"
+            >
+              <span className="text-xs font-bold font-mono text-ergo-orange flex items-center gap-1">
+                <TrendingUp className="w-3 h-3" />
+                Trending
+              </span>
+              <ChevronDown className={`w-4 h-4 text-ergo-orange transition-transform ${trendingOpen ? 'rotate-180' : ''}`} />
+            </button>
+            {/* Desktop header (always visible) */}
+            <div className="hidden lg:flex items-center justify-between mb-3">
               <h3 className="text-sm font-bold font-mono text-ergo-orange flex items-center gap-2">
                 <TrendingUp className="w-4 h-4" />
                 Trending Topics
@@ -96,15 +121,24 @@ export default function Home() {
                 View all
               </Link>
             </div>
-            <div className="flex flex-wrap gap-2">
-              {trendingTopics.slice(0, 8).map(topic => (
-                <TopicTag
-                  key={topic.slug}
-                  topic={topic.name}
-                  count={topic.mention_count}
-                  size="sm"
-                />
-              ))}
+            {/* Content: toggled on mobile, always visible on desktop */}
+            <div className={`${trendingOpen ? 'mt-3' : 'hidden'} lg:block`}>
+              <div className="flex flex-wrap gap-2">
+                {trendingTopics.slice(0, 8).map(topic => (
+                  <TopicTag
+                    key={topic.slug}
+                    topic={topic.name}
+                    count={topic.mention_count}
+                    size="sm"
+                  />
+                ))}
+              </div>
+              <Link
+                to="/topics"
+                className="lg:hidden block text-xs font-mono text-ergo-muted hover:text-ergo-orange transition-colors mt-2"
+              >
+                View all →
+              </Link>
             </div>
           </div>
         </div>
