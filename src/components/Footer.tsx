@@ -17,7 +17,7 @@ export default function Footer() {
 
           <div className="flex items-center space-x-6">
             <a
-              href="https://github.com/ergoplatform"
+              href="https://github.com/cannonQ/ergo-transcripts"
               target="_blank"
               rel="noopener noreferrer"
               className="text-ergo-muted hover:text-ergo-orange transition-colors"
@@ -25,7 +25,7 @@ export default function Footer() {
               <Github className="w-5 h-5" />
             </a>
             <a
-              href="https://ergoplatform.org"
+              href="https://ergoblockchain.org/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-ergo-muted hover:text-ergo-orange transition-colors"
@@ -33,7 +33,7 @@ export default function Footer() {
               <Globe className="w-5 h-5" />
             </a>
             <a
-              href="https://discord.gg/ergo"
+              href="https://discord.gg/mAd6bMAjsR"
               target="_blank"
               rel="noopener noreferrer"
               className="text-ergo-muted hover:text-ergo-orange transition-colors"
