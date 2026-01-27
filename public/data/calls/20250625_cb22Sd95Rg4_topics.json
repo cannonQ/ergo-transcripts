@@ -1,0 +1,189 @@
+{
+  "call_date": "2025-06-25",
+  "call_title": "CodeUTXO | Marc the Shark & cannon_q | ErgoHack 10",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "CodeUTXO Project Introduction and Vision",
+      "category": "technical",
+      "start_time": "00:15",
+      "end_time": "02:58",
+      "primary_speaker": "Marc the Shark",
+      "summary": "Introduction of CodeUTXO project aimed at revolutionizing blockchain development with AI, making Ergo development accessible through natural language interfaces. The team addresses the steep learning curve in Ergo development by creating AI-powered tools to simplify interaction with blockchain data and documentation.",
+      "key_terms": [
+        "CodeUTXO",
+        "AI development tools",
+        "natural language interface",
+        "Ergo learning curve",
+        "blockchain development"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Technical Architecture and MCP Servers",
+      "category": "technical",
+      "start_time": "02:58",
+      "end_time": "07:55",
+      "primary_speaker": "CannonQ",
+      "summary": "Detailed explanation of the technical stack including OpenWebUI, LiteLLM for managing AI models, and Model Context Protocol (MCP) servers. The architecture features blockchain query MCP for Ergo node interaction and price data MCP for real-time market data from Crux Finance.",
+      "key_terms": [
+        "OpenWebUI",
+        "LiteLLM",
+        "MCP servers",
+        "Model Context Protocol",
+        "Ergo node APIs",
+        "GPT 4.0"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "MCP Server Capabilities and Use Cases",
+      "category": "technical",
+      "start_time": "07:55",
+      "end_time": "09:46",
+      "primary_speaker": "Marc the Shark",
+      "summary": "Overview of MCP server functionality including natural language queries for blockchain data, token holder analysis, price tracking, and historical data. The system empowers traders, developers, and newcomers with curated knowledge base from community documentation and code repositories.",
+      "key_terms": [
+        "token holder analysis",
+        "price tracking",
+        "historical data",
+        "blockchain queries",
+        "community knowledge base"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Pay-Per-Use Credit System with ERG",
+      "category": "ecosystem",
+      "start_time": "10:07",
+      "end_time": "12:38",
+      "primary_speaker": "CannonQ",
+      "summary": "Explanation of the fair pricing model using ERG and native tokens for purchasing credits instead of monthly subscriptions. Users can buy credits starting from 1-2 ERG worth, with transparent real-time usage tracking and credits that don't expire.",
+      "key_terms": [
+        "ERG payments",
+        "credit system",
+        "token usage tracking",
+        "pay-per-use",
+        "subscription alternative",
+        "Nautilus wallet"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "AI Agent Trading and Future Roadmap",
+      "category": "defi",
+      "start_time": "12:38",
+      "end_time": "16:29",
+      "primary_speaker": "Marc the Shark",
+      "summary": "Discussion of future plans for AI trading agents and DeFi integration, with the main challenge being smart contract interaction with DEXs. The roadmap includes community-driven MCP server development, UI improvements, and advanced analytics for trading automation.",
+      "key_terms": [
+        "AI trading agents",
+        "DEX integration",
+        "smart contract interaction",
+        "DeFi automation",
+        "community MCP servers"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Open Source Development and Community Impact",
+      "category": "community",
+      "start_time": "16:29",
+      "end_time": "19:34",
+      "primary_speaker": "Marc the Shark",
+      "summary": "Emphasis on open source approach with MCP servers available for community contribution and modification. The team expects 10x faster development and encourages community members to build their own MCP servers, with examples of rapid development timelines.",
+      "key_terms": [
+        "open source",
+        "community contribution",
+        "faster development",
+        "GitHub repositories",
+        "development acceleration"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Platform Demo and Token Payment Options",
+      "category": "technical",
+      "start_time": "20:09",
+      "end_time": "24:42",
+      "primary_speaker": "Marc the Shark",
+      "summary": "Live demonstration of the platform interface showing account setup, credit purchasing with various tokens including ERG, SigmaUSD, and community tokens. The system includes markup pricing for different tokens due to slippage and conversion costs.",
+      "key_terms": [
+        "platform demo",
+        "token payments",
+        "SigmaUSD",
+        "SigmaRSV",
+        "Quacks",
+        "Comet",
+        "markup pricing"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "SigmaBot Knowledge Base Demonstration",
+      "category": "technical",
+      "start_time": "24:42",
+      "end_time": "28:33",
+      "primary_speaker": "Marc the Shark",
+      "summary": "Demonstration of SigmaBot querying curated Ergo documentation and codebase, showing ErgoScript pros/cons analysis with relevancy scoring. The bot explains complex concepts like demurrage in simple terms accessible to newcomers.",
+      "key_terms": [
+        "SigmaBot",
+        "ErgoScript",
+        "demurrage",
+        "storage rent",
+        "documentation search",
+        "relevancy scoring"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Live Price Data Analysis and Visualization",
+      "category": "technical",
+      "start_time": "28:33",
+      "end_time": "32:59",
+      "primary_speaker": "Marc the Shark",
+      "summary": "Live demonstration of price data MCP showing Ergo price trends over 10 days with code interpreter creating charts and moving averages. The system can analyze multiple tokens simultaneously and create comparative visualizations.",
+      "key_terms": [
+        "price data MCP",
+        "code interpreter",
+        "moving averages",
+        "bar charts",
+        "Rosen token",
+        "comparative analysis"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Token Holder Analysis and Research Tools",
+      "category": "technical",
+      "start_time": "32:59",
+      "end_time": "40:33",
+      "primary_speaker": "CannonQ",
+      "summary": "Demonstration of token holder analysis capabilities including wallet distribution, DEX identification, and liquidity analysis. The tool enables economic flow analysis and tokenomics research that would be difficult to perform manually through blockchain explorers.",
+      "key_terms": [
+        "token holder analysis",
+        "wallet distribution",
+        "DEX contracts",
+        "liquidity pools",
+        "tokenomics research",
+        "economic flow"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Multi-Chain Vision and Project Conclusion",
+      "category": "ecosystem",
+      "start_time": "40:33",
+      "end_time": "43:11",
+      "primary_speaker": "CannonQ",
+      "summary": "Discussion of plans to expand CodeUTXO to other UTXO chains beyond Ergo, acknowledging challenges with different node implementations. The team emphasizes community collaboration and open feedback, with recognition of qx()'s backend contributions.",
+      "key_terms": [
+        "multi-chain expansion",
+        "UTXO chains",
+        "node implementation",
+        "community collaboration",
+        "backend development"
+      ]
+    }
+  ]
+}

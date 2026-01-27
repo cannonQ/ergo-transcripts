@@ -1,0 +1,171 @@
+{
+  "call_date": "2025-06-25",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "00:40",
+      "question": "What is CodeUTXO and how does it address Ergo's development challenges?",
+      "asker": "implicit",
+      "answer": "CodeUTXO is revolutionizing blockchain development with AI, making Ergo development accessible to everyone through AI power tools and natural language interfaces. From experience within Ergo, there's definitely a steep learning curve - you maybe think you know the ins and outs, but when actually developing and how to actually do something on chain or using data from the chain, it's more of a user issue. There's a bunch of different documentation from here to there, most of it really good, but there's just a lot of data and we wanted to eliminate that barrier.",
+      "responder": "Marc the Shark",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "AI",
+        "development",
+        "documentation",
+        "natural language"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "02:58",
+      "question": "What are the main components of CodeUTXO's solution?",
+      "asker": "implicit",
+      "answer": "The platform has an AI chat interface with a native payment system where you can pay with ERG or native tokens. The two main tools developed are the Ergo MCP (blockchain query MCP) and the price data MCP. The blockchain query utilizes the Ergo node through a natural language interface - you don't really have to understand what the APIs are or what they do, you just need to tailor your prompt and ask the question. The price data MCP grabs price data from Crux Finance and we're looking at other ways to grab live price data from DEXs.",
+      "responder": "Marc the Shark",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "MCP",
+        "API",
+        "natural language",
+        "price data",
+        "Crux Finance"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "04:30",
+      "question": "How is CodeUTXO's technical architecture structured?",
+      "asker": "implicit",
+      "answer": "We're using OpenWebUI which looks and feels like Anthropic, Grok, or ChatGPT where you ask questions and get responses. LiteLLM is a great toolset for managing AI models - currently using GPT 4.0 but will have access to various levels of LLMs from Gemini 2 or Claude 3.7 up to Claude Opus. The MCP servers sit there and when you ask a question, GPT 4 determines what it needs to do, passes info to the MCP server which does queries of the Ergo node or research from Ergo docs, then sends it back to you.",
+      "responder": "CannonQ",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "OpenWebUI",
+        "LiteLLM",
+        "MCP servers",
+        "GPT",
+        "Claude"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "07:25",
+      "question": "What makes MCP servers flexible for different use cases?",
+      "asker": "implicit",
+      "answer": "The cool thing about MCP servers is you can make a tool for anything you want. Someone made a code repo for validating smart contracts - you can create an MCP, put it into our service or download it and put it into cursor. All you have to do is paste in or point to your smart contract, then it runs in the backend and says whether it works or not. We're streamlining the whole process with the context of Ergo.",
+      "responder": "Marc the Shark",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "MCP servers",
+        "smart contracts",
+        "validation",
+        "cursor"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "08:35",
+      "question": "What specific queries can the blockchain MCP handle?",
+      "asker": "implicit",
+      "answer": "The MCP directly connects to your node with natural language queries. For example, you can ask 'give me the top 10 holders of this specific token ID' and it returns formatted token holder addresses and balances. The price MCP provides real-time price feeds, native token tracking, and historical data - like 'what's the price of ERG from the last 10 days?'",
+      "responder": "Marc the Shark",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "node",
+        "token holders",
+        "price feeds",
+        "historical data"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "10:29",
+      "question": "How does CodeUTXO's pricing model work?",
+      "asker": "implicit",
+      "answer": "There's no way to give this away for free - someone has to pay for the models and servers. We've set it up so you can buy credits as little as one or two ERG worth. You can see your usage real-time when doing queries, and after responses you see how many tokens were used and volume usage. Your credits don't die, so it's fair and transparent without monthly subscriptions. You can buy what you need, which is good for new ecosystem users or casual users.",
+      "responder": "CannonQ",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "credits",
+        "ERG",
+        "tokens",
+        "subscriptions",
+        "pricing"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "25:02",
+      "question": "What is demurrage in the context of Ergo?",
+      "asker": "CannonQ",
+      "answer": "Demurrage is storage rent - a small fee you pay if you're holding onto your box of money on the Ergo blockchain for a very long time, specifically after it sits untouched for four years. Think of it like having a piggy bank where after four years you need to put a little bit of money to keep it. In Ergo, this fee is usually about 0.14 ERG for a simple box every four years. This helps keep people from putting their money on the blockchain and never touching it again, making sure the network stays healthy.",
+      "responder": "Sigma Bot (AI)",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "demurrage",
+        "storage rent",
+        "boxes",
+        "network health"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "13:14",
+      "question": "What are the future plans for AI agents and trading functionality?",
+      "asker": "implicit",
+      "answer": "A lot of the MCP servers are built for users but also with AI agents in mind - they'll need to pull stuff from the chain like block heights and Ergo prices for trading bots. These are foundational layers we can build upon. Once we have all these MCP servers, you can make an AI agent with a specific workflow, maybe rent that out where people can run that workflow and get a cut, or buy it in a marketplace fashion. The biggest hurdle is getting code set up to interact with smart contracts on DEXs, but once we have that, coding them up and giving them logic to run autonomously is the easier part.",
+      "responder": "Marc the Shark",
+      "category": "defi",
+      "difficulty": "advanced",
+      "related_terms": [
+        "AI agents",
+        "trading bots",
+        "smart contracts",
+        "DEX",
+        "marketplace"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "21:28",
+      "question": "What token payment options are available and why do they have different markups?",
+      "asker": "implicit",
+      "answer": "We apply a 10% markup for SigmaRSV and SigmaUSD tokens, and 20% markup for Quacks and Comet. The reason there's a cost lift between paying in ERG versus other tokens is we're swapping them back to ERG, taking best practices from other projects like Quacks. When they do arrays, they swap back to SigmaUSD right then. Some tokens have higher slippage and we're trying to make it available if you have a bag of those tokens and don't want to use your precious ERG, but there's more volatility with smaller community tokens.",
+      "responder": "CannonQ",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "SigmaRSV",
+        "SigmaUSD",
+        "Quacks",
+        "Comet",
+        "slippage",
+        "markup"
+      ]
+    },
+    {
+      "qa_id": 10,
+      "timestamp": "40:33",
+      "question": "What are the plans for expanding CodeUTXO to other UTXO chains?",
+      "asker": "implicit",
+      "answer": "It's called CodeUTXO because we hid the eUTXO in there at the end of 'code'. We're hoping to apply this to other UTXO chains and would love someone from outside the Ergo community or involved in other UTXO chains to see this. From our research we've already started, not everyone's nodes are as easy as Ergo's to run - there are space and operational challenges with other chains.",
+      "responder": "CannonQ",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "eUTXO",
+        "UTXO chains",
+        "nodes",
+        "cross-chain"
+      ]
+    }
+  ]
+}

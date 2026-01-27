@@ -1,0 +1,113 @@
+[00:15] **qx()**: Good morning, everyone.
+
+[00:18] **qx()**: How are you doing?
+
+[00:22] **kushti**: Doing well. How about you?
+
+[00:24] **qx()**: I'm doing good. It's a good day to be an Ergonaut.
+
+[00:27] **kushti**: Yeah, like every day.
+
+[00:30] **qx()**: Every day. Every day is a good day to be an Ergonaut.
+
+[00:34] **qx()**: kushti, congratulations on 6.0 release and 6.1 release. That's fantastic. Amazing feat.
+
+[00:43] **kushti**: Right, so everything released. I'm working with miners and yeah, everything is good at the moment.
+
+[00:52] **qx()**: Yeah, I mean it only brought the chain down for what? Two hours, right?
+
+[00:57] **kushti**: Sorry?
+
+[00:58] **qx()**: It only brought the chain down for about two hours with that new release. It's a joke, kushti, Ergo doesn't go down, come on!
+
+[01:06] **kushti**: Yeah, I mean, no any downtime, so yeah, we are good with everything, and yeah, let's see how our voting will go. So in case of success, we will have activation of 6.0 around October and well we can actually have hopefully sub-blocks more or less ready by the time, right? That would be awesome.
+
+[01:45] **kushti**: Mid-October, late October, let's see, but we start... We can start injecting nodes in the internet. Someone here hired some spots here. I think in somewhat stats into the public.
+
+[02:23] **qx()**: All right. You should be able to, you're glitching a little bit, kushti. You got some bots running.
+
+[02:41] **kushti**: Shut down the mixer shut down the other stuff I think seconds
+
+[02:59] **qx()**: Yep, yep, yep. So with 6.0, with the mining pools, they do not need to change any parameters if they vote yes, right? That's how you wrote this one. So if they want to vote no on it, they have to have a parameter into the node. If they want to vote yes, then they just run 6.0, and they're good to go. And voting should be done on, what is it, October? Is that October? No, sorry, not October. July 12th or July 11th, something like that?
+
+[03:28] **kushti**: Yeah, beginning of the warning and then, yeah, well, if there will be enough votes in one month and a half, right, like 90 plus percent, then, yeah, we will have then delay for activation for another one month and a half for everyone to better update, but it's not necessary for this update. So it's really soft. So if you run 5.x nodes or even 4.0.100 something, then yeah, well, everything will be fine. So for 5.x nodes, yeah, your nodes will just skip validation of new scripts and that's it. So it will validate all the current scripts even.
+
+[04:22] **qx()**: So no, no sub-blocks on 5.0 nodes at all. They will just ignore them.
+
+[04:29] **kushti**: Yeah, and they also ignore the new parameter, the voting for changing number of sub-blocks per block on every chair, so this is the new voteable parameter injected into 6.0 logic, consensus logic, but yeah, well, thanks to the art of soft fork ability, 5.x nodes will just keep this parameter and watching for changing.
+
+[05:06] **qx()**: Have you ever had a soft fork that was close? Or has it always pretty much been a landslide? Like, you know, something where it was going to be close whether something would pass or not?
+
+[05:21] **kushti**: So we had a couple of soft forks before, right, so EIP-27. which yeah was quite soft like this one so it's nothing controversial where where 50% of the miners had it one way 50% the other or close to that oh but so it was about 90 plus percent as well so soft forks require for 90 plus percent oh 90 percent for soft forks. Yeah. So, 50% just to change non-critical parameters like size and so on. But yeah, for soft forks, you need for 90 plus percent to avoid appearance of Ergo classic, something like that, you know, so Ergo classic.
+
+[06:16] **kushti**: Even if you have like 20% disagreements, 15% initially it was for Ethereum Classic. No, it's better to avoid. And yeah, so for Bitcoin Cash, I believe it was also something like that. So yeah, we require for 90 plus percent agreements for soft forks, not just one half, because then you may have, I don't know, even 60 versus 40 split, right? And such split is still kind of annoying, probably, right?
+
+[07:01] **qx()**: Yeah, 40% is quite a few better people, yeah, for sure.
+
+[07:05] **kushti**: Very divisive, but yeah, well, if you require for 90-plus percent, then yeah. There is a little chance, well, another fork will survive.
+
+[07:19] **qx()**: Well, if Mark's listening from the SIGS mining pool, we've got a double job there. We've got to do a Paideia vote first, and then you can implement the 6.0 node on the thing. So it's a double vote, essentially. First and then to implement.
+
+[07:37] **kushti**: So, what's going on with Sigmanauts mining pool? Is it open to more experiments like FIMO and so on? Yeah, FIMO, right.
+
+[07:52] **qx()**: Yeah, yeah, 100% fair, a fair initial mining offer. Yeah, that'd be amazing. Right now we are working on, Chi's got us a new build of storage rent, and Mark's spinning that up on testnet just to make sure everything's going to go okay. Just be, you know, storage rent tool is, you know, sometimes it takes a little nudging to get it going great, but we don't want to put that on the main pool until we're sure. So he's firing that up on the testnet. We have to ask Chi to build us a 6.0 node for storage rent as well. So we're going to work on that. But yeah.
+
+[08:30] **qx()**: It's going well, going very well. I love the SIGS pool. If anybody's mining out there, join the SIGS pool. It's more than a pool, kushti, it's a community, I should say.
+
+[08:43] **kushti**: Well, it's truly Ergo-oriented, so we can try some new things with Sigmanauts in the first place. Well, with 6.0 there will be better support for sidechains, including trustless two-way pegged merge mined sidechains. A lot of words, but yeah, it's a really cool thing. Not quite possible in the world of Bitcoin or Monero, but possible here. Then there will be support for efficient trustless relays for Bitcoin and Bitcoin-like blockchains and so on.
+
+[09:36] **kushti**: As Ergoversary is coming. Yeah, some announcements also coming in regards to that and yeah, well here I think sigma mining pool also can help with experimentation right and getting the ecosystem to the new frontiers
+
+[10:04] **qx()**: Andy wanted us to remind people, speaking of that kind of stuff, that the Ergo hack videos are being released today, yesterday, tomorrow, throughout the day. So make sure you check up on those. You watch everybody's hard work on the Ergo hack. If anybody's ever done an ergo hack before, it's a lot more difficult than it sounds. You have a limited time to do something and so basically you ignore your family and your life for how many ever days it takes just to get something done. You know, typically in a normal coding experience, you run into always something that sticks you, right? That you can't figure out or it's just not working like you think it's going to work. So in a normal environment, I just set that aside and go into something else. But in an Ergo hack, you're like,
+
+[10:54] **qx()**: Nope, got to finish this to make deadline or else it's just not going to work kind of thing. So it's a lot of work that all these developers put in to ErgoHacks to get things rolling. So go ahead, watch their videos and see what they're doing. And hopefully, since this one is based on AI, you might get some ideas that says, hey, you know, if people that aren't devs or they're hobbyist devs can do these complex apps that interact with the Ergo blockchain, maybe you can too. Kind of thing so don't shy away from that and check out those videos, but Ergoversary I just got done recording a video with our own Dan the man from Japan How he praised Ergo blockchain for enabling
+
+[11:37] **qx()**: You know his winter protocol which can do on chain... What are they called? Oh W... Something assets. I can't remember. I was a plate last night And how Ergo enabled something like that And why they chose Ergo. So that was a lot of fun to interview him a quick 30 minute interview.
+
+[12:02] **qx()**: So please check that out. On July 1st is the Ergoversary. We are going to do a special AMA two days early on July 1st. It's going to be myself, kushti, Joe, and... Who was the fourth? I've forgotten who the fourth was, Andy. Maybe Andy can text me. But I'm pretty sure there were four of us. So that's going to be a lot of fun. Who was the fourth, kushti?
+
+[12:30] **kushti**: Maybe Dan? I don't know.
+
+[12:31] **qx()**: No, what's her name? I can't remember. It was Dan. It was Dan, yep.
+
+[12:37] **kushti**: Okay, so it's me, Dan, Joe, and qx().
+
+[12:41] **qx()**: I think we reached out to CW. CW, reaching out to CW as well, but he's in Australia, so poor guy needs some sleep, I guess.
+
+[12:49] **kushti**: It would be funny to have five or more people on the table, but I'm not sure about connection issues. We can try at some point. Yeah, Ergoversary is coming, so yeah, well, be ready to spend some time on July 1st to watch videos, watch AMA. I guess we will have some community chat also, our Telegram Discord.
+
+[13:24] **kushti**: Oh, that's a good idea, yeah. So, yeah, prepare your drink, like tea, I don't know, coffee or coffee.
+
+[13:35] **qx()**: Call in to work that day just so he can watch all the things. Focus on Ergo only.
+
+[13:43] **kushti**: Yeah, and be ready to have fun around July 1st, like we had a lot of fun, actually not really, six years ago.
+
+[13:56] **qx()**: Six years, that's crazy, kushti, six years old.
+
+[14:00] **kushti**: Yeah, yeah. But yeah, it's actually quite amazing. I mean, living through all those six years, and I will think that's, yeah, I mean, new people are coming all the time, right? Proposing some things you haven't thought about even, and yeah, they're doing something.
+
+[14:23] **qx()**: I just, I think it's commendable that Ergo has stayed true to her thesis for six years amongst all the crap that's come down the pipe and all the temptations, I would say. I mean, how tempting is it to do back-end deals with you know token supplies and those kind of things and I know it's hard for Ergo just because you know, we were a fair start and the only good place to get stuff is exchanges right or from directly from miners So it's a little harder for that kind of thing to happen But I think it is commendable and it speaks to Ergo how in six years It's only gotten stronger and it's resolved of what it is and how it functions and what it's supposed to be
+
+[15:05] **kushti**: Yeah, and how well basically all the issues got resolved somehow, right? For example, if there are some issues with centralized exchanges, basically hate fairly distributed assets these days, right? Well, they simply prefer some, well, straight rugpulls, memes, scams, fart coins.
+
+[15:35] **qx()**: Well, it's hard for... It's hard for central exchanges to extract value and liquidate shorts and longs if they don't have a big chunk of the supply themselves, right?
+
+[15:50] **kushti**: I think, well, they will get into issues, right, because of that, especially, well, when we have more and more, well, straight rugpulls, even, not from, like, small scammers, but, yeah, I mean, pretty big so-called blockchain projects now going through VC rugpulls, like Mantra and recently RWN Rowan somewhat, I don't know, so it's got minus 90% because kind of owner of the project, I mean, which is already, that sounds pretty horrible, right? I mean, among all the marketing gimmicks in regards to decentralization and so on, yeah, so we have some owner.
+
+[16:48] **kushti**: which is dumping straight like minus 90% in a day. And yeah, before there was another VC rugpull when it was like 95% in one hour because of coordinated VC rugpulling. So, yes, centralized exchanges love that and getting back to the initial point.
+
+[17:21] **kushti**: Well, the Ergo community then went to the road of bridging rights to blockchains with some liquidity already there are like Cardano, Ethereum, Binance Smart Chain, and they will be more and more. And then, yeah, well, Rosen Bridge is going to be, I believe, its own vault, right, with multiple blockchains connected. It would be kind of a saver for many blockchains, actually, right? So these days if you are... for many blockchains, actually, right? So these days if you are...
+
+[18:15] **kushti**: We had to be mostly paid to centralized exchanges in case of a fair launch. We had to do with Ergo because back in 2019, it was quite obvious that you cannot get listed for free. You need to pay all those. So, yeah, I guess most of the treasury actually was paid to centralized exchanges. It wasn't avoidable, right? But yeah, nowadays you can launch a blockchain and the only thing you need is to
+
+[19:03] **kushti**: Basically, the Rosen Bridge integration rights, and you can do it for free.
+
+[19:11] **qx()**: That's what I was going to say. That should be a clear indicator to projects, right? When they look at how to spread themselves over other ecosystems or access via exchanges, look at an exchange, right? Even a project like Ergo, who says, look, not Coinbase, Kraken, look, we will we have devs community devs core devs that are willing to do all the work, right? The exchange is like yeah. No, thanks. No, thanks Whereas somebody like Rosen Bridge has released documentation that says oh, hey You want a bridge to all other ecosystems that were connected to you want back doors to exchanges? Here you go. Here's how to do it. So, I mean, I think once, you know, that hooks on to people and they see that, at least devs seeing that, or chain creators, I think that's going to be the obvious pathway to adoption there.
+
+[20:08] **qx()**: Yeah. And then, especially when Rosen starts doing vaults and fast lane and direct on ramps, I think that's a game changer for sure.
+
+[20:21] **kushti**: Right, so for new chain you may have cross-chain and liquidity pools everywhere since day one and it would be good for first month at least, quite enough, so it is definitely better than what we had. In the first one year, actually like 14 months before GATE.io, what we had is just terrible exchanges with drunk support like Tidex.
+
+[21:03] **qx()**: Drunk? Did you say drunk support?
+
+[21:05] **kushti**: Yeah, so I mean the the the support in the force Just drunk I mean, I don't know if it's good

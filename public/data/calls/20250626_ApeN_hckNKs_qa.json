@@ -1,0 +1,134 @@
+{
+  "call_date": "2025-06-26",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "00:31",
+      "question": "What is Game of Proms (GOP) and what problem does it solve?",
+      "asker": "Implicit presentation topic",
+      "answer": "GOP is a platform designed to help AI development become more open and collaborative, addressing the centralization problem in AI development. It's built on Celaut (ensuring immutable services in isolated spaces) and Ergo blockchain (providing transparent rewards and result verification). The main idea is summarized as 'AI challenges, blockchain solutions' - making AI development more like an open competitive sport where global participants can contribute to solving complex AI problems.",
+      "responder": "Josemi",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "AI",
+        "blockchain",
+        "Celaut",
+        "decentralization"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "02:08",
+      "question": "How does the Game of Proms system work?",
+      "asker": "Implicit presentation flow",
+      "answer": "The system works in three steps: First, creators define AI problems as game services (like an AI challenge for Snake game with rules and scoring). Second, a global community creates and submits solver services (their AI solutions). Third, scores and prize distributions are managed transparently on the Ergo blockchain. Celaut ensures safe and isolated execution of both game and solver services.",
+      "responder": "Josemi",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "game services",
+        "solver services",
+        "Ergo blockchain",
+        "AI challenges"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "04:18",
+      "question": "What are the key components of the Game of Proms platform?",
+      "asker": "Implicit presentation structure",
+      "answer": "There are four key components: Game service (the AI benchmark/test environment that's immutable and isolated via Celaut), Solver service (the participant's AI model/algorithm, also immutable and isolated), GopWeb portal (central hub for publishing challenges and submitting results), and Ergo blockchain (secure ledger for registering challenges, tracking participation, validating performance, and distributing rewards).",
+      "responder": "Josemi",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "game service",
+        "solver service",
+        "GopWeb",
+        "Ergo blockchain",
+        "Celaut"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "07:15",
+      "question": "What does a creator need to do to set up an AI challenge?",
+      "asker": "Implicit workflow question",
+      "answer": "A creator must: design a measurable game/test with variety to prevent fixed answers, generate a unique secret code for secure score verification, package the game as an unchangeable Celaut service with the secret inside, and publish it by creating a game box on Ergo blockchain containing the secret's hash, competition deadline, participation fee, and service hash.",
+      "responder": "Josemi",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "game creation",
+        "secret code",
+        "game box",
+        "Celaut service"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "08:53",
+      "question": "What is the process for players to participate in a Game of Proms challenge?",
+      "asker": "Implicit workflow question",
+      "answer": "Players must: find and download a game service from GOP web portal, design and package their AI solver as a Celaut service, run the game service with their solver locally in isolated spaces, receive performance data and cryptographic commitments when finished, and if satisfied with performance, submit their entry to the blockchain by creating a participation box and paying the entry fee.",
+      "responder": "Josemi",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "solver service",
+        "participation box",
+        "cryptographic commitments",
+        "entry fee"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "10:44",
+      "question": "How are scores kept secret during competition but proven correct at the end?",
+      "asker": "Implicit technical mechanism",
+      "answer": "This uses cryptographic commitments on Ergo. The game service generates a commitment (hash) from solver ID, real score, log hash, and secret game code. Players submit this commitment plus a score list (real score plus decoys) to hide the actual performance. After deadline, the creator reveals the secret, and Ergo smart contracts verify each participant by recalculating commitments to find the true validated scores.",
+      "responder": "Josemi",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "cryptographic commitments",
+        "score validation",
+        "smart contracts",
+        "hash verification"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "39:26",
+      "question": "Why is Game of Proms beneficial for AI development?",
+      "asker": "Implicit value proposition",
+      "answer": "GOP ensures fair and trustworthy AI tests through code-based rules and blockchain validation, rewards innovation with prizes for best models, fosters decentralized collaboration breaking down traditional silos, opens new challenge types (trading, scientific discovery, resource management), and empowers both creators to monetize challenges and developers to gain recognition while earning rewards.",
+      "responder": "Josemi",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "AI development",
+        "decentralized collaboration",
+        "innovation rewards",
+        "trustworthy testing"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "42:24",
+      "question": "What types of AI applications can Game of Proms support beyond simple games?",
+      "asker": "Implicit scope question",
+      "answer": "GOP can support navigation and control (robots in complex environments), algorithmic trading bots in simulated markets, scientific discovery (protein folding, novel materials), strategic planning and resource optimization, AI for code generation/optimization, and natural language processing tasks. Any AI task that can be quantifiably scored and built as a third-party game service can become a GOP challenge.",
+      "responder": "Josemi",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "algorithmic trading",
+        "scientific discovery",
+        "NLP",
+        "quantifiable scoring"
+      ]
+    }
+  ]
+}

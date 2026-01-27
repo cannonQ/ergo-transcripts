@@ -1,0 +1,75 @@
+{
+  "call_date": "2025-06-26",
+  "call_title": "Pattern | Mehrdad | ErgoHack 10",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Pattern AI Agent Introduction and Architecture",
+      "category": "technical",
+      "start_time": "00:11",
+      "end_time": "00:44",
+      "primary_speaker": "Mehrdad",
+      "summary": "Mehrdad introduces Pattern, an AI-powered agent designed to connect to multiple data sources for real-time blockchain insights. The system is built as a modular, extensible AI agent with connectors to various live data streams including public APIs and on-chain data providers.",
+      "key_terms": [
+        "Pattern",
+        "AI agent",
+        "blockchain insights",
+        "modular architecture",
+        "data connectors",
+        "real-time data"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Pattern Blockchain Integration and Ergo Support",
+      "category": "technical",
+      "start_time": "00:44",
+      "end_time": "01:27",
+      "primary_speaker": "Mehrdad",
+      "summary": "Pattern's blockchain integration capabilities are explained, including support for fetching smart contract source code, invoking contract functions, and performing on-chain analytics. The announcement that Pattern now includes Ergo ecosystem support for ErgoHack 10 is made, enabling queries about Ergo smart contracts, transactions, and token data.",
+      "key_terms": [
+        "blockchain integration",
+        "smart contracts",
+        "ABI",
+        "transaction history",
+        "on-chain analytics",
+        "Ergo ecosystem",
+        "ErgoHack"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Pattern Demo: ErgoTree Script Analysis",
+      "category": "technical",
+      "start_time": "01:27",
+      "end_time": "02:59",
+      "primary_speaker": "Mehrdad",
+      "summary": "Live demonstration of Pattern's capabilities using the demo site at mvp.pattern.global. Mehrdad shows how to query for contract information by asking about a specific box address, retrieving its ErgoTree script, and getting an explanation of what the script does.",
+      "key_terms": [
+        "Pattern demo",
+        "mvp.pattern.global",
+        "ErgoTree script",
+        "box address",
+        "contract analysis",
+        "AI explanation"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Pattern Demo: Wallet Transaction Analysis",
+      "category": "technical",
+      "start_time": "02:59",
+      "end_time": "04:01",
+      "primary_speaker": "Mehrdad",
+      "summary": "Second demonstration showing Pattern's ability to analyze wallet transactions by querying the last transaction of a specific wallet address and calculating ERG transfers. The demo concludes with an invitation for community feedback and suggestions on the tool's functionality.",
+      "key_terms": [
+        "wallet analysis",
+        "transaction history",
+        "ERG transfers",
+        "box owner",
+        "community feedback",
+        "demo exploration"
+      ]
+    }
+  ]
+}

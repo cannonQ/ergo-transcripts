@@ -1,0 +1,431 @@
+[00:18] **Josemi**: Hi, everyone.
+[00:19] **Josemi**: Thanks for joining.
+[00:20] **Josemi**: Today we will explore Game of Proms, or GOP.
+[00:25] **Josemi**: The main idea is summarized by our slogan, AI challenges, blockchain solutions.
+
+[00:31] **Josemi**: GOP is a new platform designed to help AI development become more open and collaborative.
+[00:36] **Josemi**: It's built on top of two technologies, Celaut, that is a system ensuring that services are unchangeable, immutable, and run in a safe, separate, isolated spaces, which is vital for fair and trustworthy competitions.
+[00:55] **Josemi**: and the Ergo blockchain, which provides a transparent system for rewards and verifying results when training and testing AI models.
+
+[01:06] **Josemi**: Celaut can also be used to execute services in a distributed manner, where the interaction of processes is occurring in Ergo, but this property is not relevant here in GOP.
+
+[01:23] **Josemi**: So today we use AI more and more, but its development is often centralized.
+[01:31] **Josemi**: This can limit broad participation, make it hard to see how things work, and hinder collaborative efforts.
+[01:39] **Josemi**: How can this be improved?
+[01:42] **Josemi**: How can more people globally contribute to solving complex AI problems and building better AI?
+[01:52] **Josemi**: These are the motivations behind Game of Proms.
+
+[01:58] **Josemi**: So the main idea is to make AI development more like an open competitive sport.
+[02:06] **Josemi**: The system runs as follows.
+[02:08] **Josemi**: First, creators can define specific AI problems or challenges as game services.
+[02:16] **Josemi**: For example, a creator could design an AI challenge for the game Snake.
+[02:23] **Josemi**: And the game's service will be the snake game itself, its rules, and how it measures the AI's score, like the snake length.
+
+[02:38] **Josemi**: These game services provide the environment, any necessary data, and clear, objective ways to measure AI performance.
+[02:51] **Josemi**: Then a global community of developers and AI enthusiasts can then create and submit their solver services for the Snake example.
+[03:06] **Josemi**: This would be their AI designed to play Snake.
+
+[03:12] **Josemi**: So these solver services run inside the game service.
+[03:20] **Josemi**: Celaut ensures that this happens in a way that is safe and isolated, protecting both the game and the solver.
+[03:30] **Josemi**: We will see this later in the demo.
+
+[03:34] **Josemi**: And finally, the scores, performance data, and prize distributions are all managed transparently and fairly on the Ergo blockchain.
+[03:44] **Josemi**: So GOP aims to get more diverse solutions by opening up challenges to everyone.
+[03:51] **Josemi**: It makes building and testing AI models more distributed, transparent and accessible.
+
+[04:00] **Josemi**: So this platform isn't just about simple games.
+[04:03] **Josemi**: It's about building a framework to improve AI collaboratively with incentives for innovation.
+
+[04:14] **Josemi**: Let's look at the key components.
+
+[04:18] **Josemi**: So first, the game service.
+[04:21] **Josemi**: Think of this as the AI benchmark or the controller test environment.
+[04:29] **Josemi**: It's a Celaut service.
+[04:31] **Josemi**: This means it's packaged so it cannot be changed.
+[04:37] **Josemi**: It's immutable once it's defined by the creator.
+[04:42] **Josemi**: and it runs in its own safe, separate space, so it's isolated.
+[04:49] **Josemi**: This is vital so everyone can trust the test environment and its fate exactly how the creator specified it.
+[04:58] **Josemi**: And it defines the problem that provides the context and includes the logic to evaluate any submitted AI model, any solution.
+[05:11] **Josemi**: Probably it will be executed by the participants on its own local nodes.
+[05:20] **Josemi**: And it's capable to do that.
+
+[05:24] **Josemi**: Second, the solver service.
+[05:28] **Josemi**: This is the model or algorithm created by a participant.
+[05:32] **Josemi**: It's also a service.
+[05:34] **Josemi**: So it's also immutable and runs in isolation.
+[05:38] **Josemi**: This ensures the game service can trust the solver hasn't been tampered with.
+[05:49] **Josemi**: And the solver is protected from excessive interference during the execution.
+[05:57] **Josemi**: It's their proposed solution ready for evaluation.
+
+[06:03] **Josemi**: Then the GopWeb portal.
+[06:06] **Josemi**: This acts as the central hub.
+[06:08] **Josemi**: Creators can publish their AI challenges here, and developers can find these challenges to download game services and later submit their results for on-chain validation.
+[06:24] **Josemi**: And it can be as a local service or not.
+
+[06:33] **Josemi**: And finally, the Ergo blockchain.
+[06:35] **Josemi**: This serves as the highly secure and transparent ledger.
+[06:40] **Josemi**: It's used for registering AI challenges, tracking participation, cryptographically validating AI model performance, and distributing the rewards fairly.
+
+[06:52] **Josemi**: This structure, particularly with Celaut immutability and isolation, ensures a trusted execution environment, allowing complex AI tasks to be broken down into verifiable and competitive challenges.
+
+[07:11] **Josemi**: OK, so let's see what creators and players do.
+
+[07:15] **Josemi**: A creator who designs an AI challenge.
+[07:21] **Josemi**: First, they design the game or a test.
+[07:24] **Josemi**: It needs a score that can be measured.
+[07:28] **Josemi**: It's also very important that the game has a variety or changes each time it's played.
+[07:37] **Josemi**: This stops players from just finding one fixed answer for a game that never changes.
+
+[07:46] **Josemi**: Then they generate a unique secret code for their game.
+[07:52] **Josemi**: This code is a key for securely verifying scores on the blockchain later.
+
+[08:00] **Josemi**: Then they package their game as a service with the inside, with the secret inside, make the service unchangeable.
+
+[08:14] **Josemi**: And finally, they publish it, they publish the service.
+[08:20] **Josemi**: This involves creating a game box on the Ergo blockchain, which stores hash of their secret code, the competition deadline, the participation fee, and the game service hash and other parameters.
+
+[08:41] **Josemi**: And on the player side, the player is who builds an AI solution for that challenge, for that game.
+[08:53] **Josemi**: So the player first finds a game or challenge on the GOP web portal and downloads the selected game service.
+[09:05] **Josemi**: The download can be done across the Celaut node if it's available in some peers or in a centralized repository like Mega or Google Drive or something.
+
+[09:25] **Josemi**: Then they can design their solver service
+[09:33] **Josemi**: their AI model or strategy.
+[09:38] **Josemi**: package the solution as an unchangeable Celaut service.
+
+[09:49] **Josemi**: Then they run the game service with a solver on their own Celaut node.
+[09:57] **Josemi**: Because they are Celaut services, they run in their own separate safe spaces, ensuring a fair test.
+
+[10:06] **Josemi**: When it finishes, they get their performance data, a cryptographic commitment, a list of scores, the real score is hidden among these, and a hash of the game logs.
+
+[10:22] **Josemi**: And if they are satisfied with their AI's performance, with the score, they submit their entry to compete into the blockchain.
+[10:36] **Josemi**: They do this by creating a participation box on the Ergo blockchain and paying the entry fee.
+
+[10:44] **Josemi**: Now how are scores kept secret during the competition but still proven to be correct and fair at the end.
+[10:54] **Josemi**: This is done using these commitments on Ergo.
+[10:59] **Josemi**: So let's explain it.
+
+[11:05] **Josemi**: First, when a player tests
+[11:08] **Josemi**: the game locally, the game service, which knows the game secret, the game secret is inside of the game service, generates a commitment.
+[11:21] **Josemi**: This commitment is a special hash code, like a digital fingerprint.
+[11:29] **Josemi**: It's made from the solver ID, the real score, the log hash,
+[11:35] **Josemi**: the game record code and a secret game.
+
+[11:47] **Josemi**: The player submits this commitment and a score list, the real score plus some decoys.
+[11:58] **Josemi**: to the blockchain, we use a list of scores because publishing the exact score directly could discourage later players from submitting their own items unless they were certain they could beat all the current scores on the blockchain.
+
+[12:23] **Josemi**: With this way, their actual score isn't public yet, but it's on the blockchain.
+[12:28] **Josemi**: So after the game's deadline, the creator reveals the secret code.
+
+[12:37] **Josemi**: And then the Ergo smart contract, the script on the game box, does the verification for every participant.
+[12:50] **Josemi**: It uses a valid secret, their solver ID, their log hash, and tries each score in their score list to calculate the commitment.
+[13:06] **Josemi**: If this commitment matches the real committed commitment in the participation box, the player originally submitted, that score is confirmed as the true and validated score for that AI model, for that solver.
+
+[13:32] **Josemi**: Then the contract automatically identifies the participation with the highest validated score and that player wins.
+[13:41] **Josemi**: This entire process is transparent, verifiable by anyone and enforced by the blockchain code.
+
+[13:50] **Josemi**: Okay, enough talk.
+[13:52] **Josemi**: Let's see how the system works.
+[13:56] **Josemi**: So first of all, we need to install the Celaut node.
+[14:01] **Josemi**: So let's go to the node github page.
+[14:07] **Josemi**: It's an alpha version, so this is important.
+[14:09] **Josemi**: It's actually an alpha version, it's recommended to use a virtual machine.
+[14:15] **Josemi**: I'm not going to use a virtual machine, but it's recommended.
+[14:18] **Josemi**: So first we install this.
+
+[14:37] **Josemi**: OK, so the node is installed.
+[14:42] **Josemi**: Let's check info.
+[14:47] **Josemi**: OK, the key up.
+[14:49] **Josemi**: Yes.
+[14:51] **Josemi**: And we can see this is the address of this node, the conversion.
+[14:58] **Josemi**: And it's connected to an Ergo node.
+
+[15:06] **Josemi**: was created two wallets, two Ergo wallets.
+[15:11] **Josemi**: You can check how it works on the node documentation, but actually it's data doesn't have ERGs.
+[15:18] **Josemi**: But this is not important for Game of Proms.
+
+[15:21] **Josemi**: So first of all, we need to implement our game service.
+[15:29] **Josemi**: We have implemented it, but it's
+[15:34] **Josemi**: It's in games.
+[15:38] **Josemi**: This is our folder with the game service.
+[15:43] **Josemi**: So it contains all the logic to make the score, commits, and all of this to manage the solvers.
+
+[15:55] **Josemi**: So inside of the code, this is the secret that we should previously generate
+[16:05] **Josemi**: So we are going to use this secret to submit the game service.
+
+[16:14] **Josemi**: First of all, we need to pack it into a service.
+[16:17] **Josemi**: So for that, we need to do node pack.
+[16:27] **Josemi**: And wait, because this could take like 20 minutes maybe.
+[16:33] **Josemi**: So I'm going to break the video here.
+
+[16:40] **Josemi**: Okay, so the service game package process is finished.
+[16:45] **Josemi**: So we have the service on our Celaut node.
+[16:52] **Josemi**: We can check it with this command or we can inspect it.
+
+[17:01] **Josemi**: this other command.
+[17:02] **Josemi**: Here we see all the information about this service, the metadata that these hashes, the hash of the service, the hash of all of this content, and the reputation proofs of the service that are
+[17:17] **Josemi**: on Ergo, but this currently doesn't have anyone.
+[17:22] **Josemi**: And here we see that the service can't connect to outside sources.
+[17:30] **Josemi**: So it can't submit information to other servers or something.
+[17:40] **Josemi**: So it's for privacy or things like that.
+
+[17:44] **Josemi**: So now let's, as game creators, we are going to... We are going to submit our game to the Ergo blockchain.
+
+[18:04] **Josemi**: So we will need...
+[18:18] **Josemi**: Okay, well, this is not the browser, is this?
+[18:26] **Josemi**: Perfect.
+
+[18:34] **Josemi**: Okay, so here we see the games and we are going to create a new game.
+[18:43] **Josemi**: Snake demo video.
+[18:46] **Josemi**: The game service is this.
+[18:53] **Josemi**: We should add the type of the hash, maybe here.
+[18:57] **Josemi**: And our game secret that is in the code, internally in the game service.
+[19:04] **Josemi**: So the participants can't see it because it's obfuscated.
+[19:09] **Josemi**: Actually, it's not obfuscated, but it should be.
+
+[19:15] **Josemi**: participation fee, we are going to put the minimum and two hours maybe.
+[19:28] **Josemi**: The game creator will receive 20% of the total amount that is accumulated in the contract.
+[19:38] **Josemi**: We can put a link and snake
+[19:48] **Josemi**: and use an image and this should be like the URL where the user can download the service game if his Celaut node can't take it from other peers.
+
+[20:07] **Josemi**: So create a game.
+[20:08] **Josemi**: Okay, sign the transaction.
+
+[20:18] **Josemi**: OK, so the transaction is done.
+[20:22] **Josemi**: So here we have the game.
+[20:29] **Josemi**: This is the time to the deadline.
+[20:33] **Josemi**: And I can submit my score.
+[20:38] **Josemi**: This is the same wallet that created the game, but could work too.
+
+[20:44] **Josemi**: So here we have the NFT of the game, the token that identifies the game, me, the creator.
+[20:53] **Josemi**: This is the service game, the game service.
+[20:57] **Josemi**: A link with more information, the participation fee, the creator commission, the stake that the creator puts on the contract to ensure that he will resolve it at the end after the deadline.
+
+[21:14] **Josemi**: And some URLs, a list of URLs that a participant could use.
+[21:22] **Josemi**: to get a game service if the Celaut network can't provide it.
+[21:28] **Josemi**: Because maybe it doesn't have any peers with this service.
+[21:34] **Josemi**: This could be a centralized service provider or like Mega or Google Drive or something, or IPFS or other centralized solution.
+
+[21:46] **Josemi**: So let's play now the role of
+[21:51] **Josemi**: the role of developers.
+[21:54] **Josemi**: So now, as developers, we want to participate in this game.
+[22:00] **Josemi**: So we need to implement our solution that is here.
+
+[22:16] **Josemi**: There are two solvers, but actually we are going to use the basic solver that is a very basic AI algorithm with A-star.
+[22:26] **Josemi**: It's very short.
+[22:28] **Josemi**: So the other one, it's a language model solver that creates a prompt to control the snake.
+[22:36] **Josemi**: But we are going to pack this.
+
+[22:41] **Josemi**: So for this, we need to do the same.
+[22:49] **Josemi**: And this could take 20 minutes too, maybe less, but we need to wait.
+
+[22:59] **Josemi**: Well, our basic AI snake, our robot to play snake, it's packed, actually.
+[23:06] **Josemi**: here, you can see.
+[23:08] **Josemi**: So pack means that we transform from the source code to a service, OK, specifying the Dockerfile to create all the file system, specifying the interface of the service,
+[23:29] **Josemi**: and these things.
+[23:31] **Josemi**: You can read more about it on the Celaut Project repositories.
+
+[23:37] **Josemi**: So now we need to play the Snake game.
+[23:49] **Josemi**: we need to execute locally or in one of our peers, the snake game.
+[23:59] **Josemi**: We have it actually on our node, but if we downloaded it from a mirror URLs, we should make this command import, like for example, snake game, that would be,
+[24:18] **Josemi**: and it should be imported to the node repository.
+[24:27] **Josemi**: Well, the node registry of service.
+
+[24:30] **Josemi**: So actually we have one peer, I think, that it's running in another computer of my local network.
+[24:40] **Josemi**: So we don't have ads.
+[24:44] **Josemi**: This is the information of this node.
+[24:45] **Josemi**: I'm talking very much about this, but each node has its own Ergo wallet.
+[24:55] **Josemi**: So they transfer ERG one to each other for rent gas, where gas is the representation of resources of a node.
+[25:09] **Josemi**: But yes, actually, they give to each peer a default amount of gas free.
+[25:18] **Josemi**: So they don't need to transfer ERG.
+
+[25:26] **Josemi**: Okay, so let's execute the service game.
+[25:38] **Josemi**: So here, the node has decided to run the
+[25:52] **Josemi**: execute the snake's game on the other peer, but if this peer doesn't have the snake game service, so it will take from this node then, but it's running on our computer.
+
+[26:15] **Josemi**: We can read it here.
+[26:16] **Josemi**: This is the instance ID.
+[26:20] **Josemi**: The service is the snake game.
+[26:23] **Josemi**: And the parent is the client that represents all the execution from the terminal.
+[26:30] **Josemi**: And the gas that has this instance.
+
+[26:34] **Josemi**: So we can access to this.
+[26:37] **Josemi**: So the Snake game, it's hosting a simple webpage to control it.
+[26:44] **Josemi**: That allows you to play games, to play participations with your solvers, and to reproduce
+[26:51] **Josemi**: solvers from other participants.
+[26:56] **Josemi**: If they share their solver logs of the game and seed, game seed to allow deterministic reproduction.
+
+[27:05] **Josemi**: So we need to get our solver with a Celaut service extension.
+[27:12] **Josemi**: So we need to, for that, we need to export it.
+[27:15] **Josemi**: Export, what's the name?
+
+[27:28] **Josemi**: Sorry.
+[27:31] **Josemi**: So we export the basic AI snake.
+[27:33] **Josemi**: Actually, we have this on the desktop, so we can run the game.
+
+[27:50] **Josemi**: We load it on the game service and start the game.
+[27:57] **Josemi**: So actually, the game service is receiving the solver in a file using a library that allows the service to interact with its node.
+[28:12] **Josemi**: The game service will be able to request the execution of the solver to the node that is executing it.
+
+[28:28] **Josemi**: If you are interested in how Celaut works or how Celaut manages services or things like that, you can check the demo videos that are on the Celaut repository.
+
+[28:43] **Josemi**: It has the repository.
+[28:50] **Josemi**: Okay, so we can see actually that the game service has sent the solver to the node.
+[29:05] **Josemi**: The node is building it.
+[29:08] **Josemi**: Building it means that it's taking all the file system and creating a virtual machine for that service.
+[29:16] **Josemi**: But this is only needed at the first execution of a service in a node.
+
+[29:28] **Josemi**: Okay, so actually the node, it's running actually the solver.
+[29:36] **Josemi**: So we can check these.
+[29:41] **Josemi**: Checking other instances.
+[29:44] **Josemi**: So actually, both services, the game service and the solver, are running on the local node.
+[29:52] **Josemi**: This can be seen here in location.
+
+[29:59] **Josemi**: But if the other peer of my network takes the execution here, where my node says, okay, where I should execute this.
+[30:15] **Josemi**: And it's only considering itself because the other peer doesn't have the service.
+
+[30:24] **Josemi**: And as we can see here,
+[30:26] **Josemi**: The game, the snake game, the game service loses some gas, spent some gas to execute.
+[30:35] **Josemi**: Our solver has dependency.
+[30:40] **Josemi**: And yes, so this game snake game, the game service, it's controlling, it's executing the solver service.
+
+[30:52] **Josemi**: So here we can see the progress.
+[30:55] **Josemi**: So for each time, the game service sends the state of the snake,
+[31:07] **Josemi**: and the environment to the solver and the solver returns a position like up, down, and so on.
+
+[31:17] **Josemi**: This time was only length three.
+[31:23] **Josemi**: It's a low score, but it's valid.
+[31:28] **Josemi**: And this is the seed of this game.
+[31:30] **Josemi**: We need these two.
+[31:33] **Josemi**: to allow reproduction for other participants to check our solver if they want.
+
+[31:43] **Josemi**: Here, now we need to download this participation data.
+[31:49] **Josemi**: We could replay it more times.
+[31:53] **Josemi**: This solver can get to a 50 score or things like that, but we are going to participate with this.
+
+[32:01] **Josemi**: So here we need to...
+[32:04] **Josemi**: to download the data packet so this contains all the information that we need to add to the Ergo blockchain it contains the solver ID our solver ID that is this the hash logs that basically add all the logs this log file that is here this contains all the information about the
+
+[32:34] **Josemi**: The game?
+
+[32:40] **Josemi**: This is the commitment that contains internally the secret, just the game secret that only the game creator knows.
+[32:50] **Josemi**: And this is a score list where this is one of them, it's all real one.
+[32:58] **Josemi**: And these other, actually, these parameters are not going to be loaded to the Ergo blockchain.
+[33:04] **Josemi**: They should be in other versions of the protocol.
+
+[33:10] **Josemi**: this is the seed that reproduces the game and determinism index says to the others how many times you need to reproduce the solver
+[33:28] **Josemi**: to get the same logs.
+[33:30] **Josemi**: So for this example, for this solver, it's very deterministic.
+[33:34] **Josemi**: But if it's a language model, for example, solver, probably it needs a more high index.
+[33:45] **Josemi**: Maybe.
+
+[33:49] **Josemi**: modify these scores if we want, but it must contain the real score because if not contain the real score, the contract will not add our participation on the code.
+
+[34:13] **Josemi**: So, okay, we can download this and we are ready to participate, to submit a participation with this data.
+
+[34:20] **Josemi**: so okay 30 minutes only i have made i have repeated some parts of the video so
+
+[34:51] **Josemi**: Okay, submit my score, so I can put all the input forms manually or submit a JSON file.
+[35:02] **Josemi**: Downloads, yes, this.
+[35:04] **Josemi**: So here is the commitment code that contains the service, the service secret, the hash logs, the hash of the logs, the service ID, the real score.
+[35:21] **Josemi**: This is the solver ID, hash logs, yes, hash logs, and scores, where this is all real, but other participants will not know.
+
+[35:34] **Josemi**: Confirm.
+[35:43] **Josemi**: And we need to wait now to this.
+[35:57] **Josemi**: So we can reproduce if we want the logs.
+[36:07] **Josemi**: Here, yes, this.
+[36:11] **Josemi**: Play, and we can reproduce our game, for example.
+[36:18] **Josemi**: Or we can play another time, if we want.
+
+[36:29] **Josemi**: OK, so the transaction is confirmed.
+[36:31] **Josemi**: So participation was submitted.
+
+[36:42] **Josemi**: OK, there's one participation and there are 22 minutes left.
+[36:50] **Josemi**: OK, so this is our participation.
+[36:52] **Josemi**: We can see the score list, but the reality is encrypted.
+[36:58] **Josemi**: And there are this amount of ERGs to the prize.
+
+[37:09] **Josemi**: So we are going to stop the video and resolve the game after the deadline.
+
+[37:18] **Josemi**: Well, so after the deadline, the participation is closed.
+[37:21] **Josemi**: So now the participants need to wait that the game creator resolve the game.
+[37:33] **Josemi**: Because for resolve the game, the game secret is needed into an output of the transaction.
+[37:43] **Josemi**: of the transaction that will spend the game box and all the participation boxes.
+[37:49] **Josemi**: So, as the role of game developers, the game creators, are going to take the secret that is inside of the game service, we are going to resolve the game.
+
+[38:04] **Josemi**: So this transaction, the script of this transaction will loop all the participations and all the scores of each participation and select the correct score for each participation and will allow send the prize to the participant with the highest score.
+
+[38:35] **Josemi**: The transaction is done.
+[38:46] **Josemi**: It's completed.
+[38:48] **Josemi**: We can see now that the game was resolved.
+[38:55] **Josemi**: This wallet is the unique participation.
+[39:01] **Josemi**: is the winner.
+[39:02] **Josemi**: So we received the transaction with the ERG.
+
+[39:13] **Josemi**: And yes, and we can see here the real scores of each participant.
+[39:19] **Josemi**: And that's it.
+[39:21] **Josemi**: That's it.
+
+[39:24] **Josemi**: So why
+[39:26] **Josemi**: Why is Game of Proms good for making AI better in the future?
+[39:30] **Josemi**: Well, it ensures fair and trustworthy AI tests.
+[39:34] **Josemi**: The rules are code.
+[39:36] **Josemi**: A model performance is only openly validated and prizes are given out by smart contracts on Ergo.
+[39:44] **Josemi**: Unchangeable and isolated services are
+[39:47] **Josemi**: are okay for this trust, so everyone knows the game and the AI players are running exactly as intended without hidden modifications.
+
+[39:59] **Josemi**: It rewards innovation when prizes are given for the best AI models.
+[40:04] **Josemi**: It encourages people to try new approaches and find breakthrough solutions to AI problems.
+
+[40:12] **Josemi**: It fosters decentralized collaborations and provides the trust layer for results on payments.
+[40:19] **Josemi**: So GOP can help break down traditional silos where AI work might be stuck with one group or in one place.
+
+[40:31] **Josemi**: It opens new kinds of challenges.
+[40:35] **Josemi**: The platform can host competitions for AI models in many advanced areas like algorithmic trading in simulated markets or scientific discovery like
+[40:46] **Josemi**: like protein folding, for example, or complex resource management problems, like, for example, energy optimization on installations.
+[41:02] **Josemi**: There are a lot of challenges that can be done.
+
+[41:09] **Josemi**: It empowers both creators and developers.
+[41:14] **Josemi**: Creators can design and monetize unique challenges, and developers get a platform to test their skills, gain recognition, and potentially earn rewards from their innovative AI models.
+
+[41:28] **Josemi**: Then the AI models that are
+[41:33] **Josemi**: shared between the community are open not not source open maybe could be but not necessarily but they are on
+[41:44] **Josemi**: are isolated pieces of software so anyone can use in its own local computers or other computers but without the censorship resistant of other AI solutions where are hosted only on the developers' servers.
+
+[42:08] **Josemi**: So as we say in the last slide, the snake demo is just the start, because Game of Proms is designed for a much wider range of AI applications.
+[42:21] **Josemi**: I'm going to mention some of them.
+
+[42:24] **Josemi**: learning to navigate and control things like a more advanced version of Snake Game or Pac-Man or other retro games or that can be to a simulated robots in complex environments, complex and simulated environments.
+[42:43] **Josemi**: And then these same solvers can be executed in real robots in the real world, for example, and algorithmic trading bots where AI agents compete to achieve the best returns in simulated financial markets.
+[42:58] **Josemi**: There is an example of trading game implementation on the code base too.
+
+[43:07] **Josemi**: We could have scientific discovery, AI challenges for tasks like protein folding or discovering novel material properties.
+[43:15] **Josemi**: AI for strategic planning or resources optimization, games that test an AI's long-term decision-making.
+[43:25] **Josemi**: AI for making or fixing computer code, where AI writes or optimizes software, if the rules of these challenges are well specified.
+[43:36] **Josemi**: And natural language processing task, where AI are scored on their ability to understand, interpret or generate human language.
+[43:46] **Josemi**: That is the trending topic, actually, in AI.
+
+[43:53] **Josemi**: So if an AI's performance on a task can be quantifiably scored, and if its environment can be built as a third-party game service, it can be a Game of Proms challenge.
+
+[44:07] **Josemi**: OK, so vision and future plans.
+[44:11] **Josemi**: So the first version was built for ErgoHack.
+[44:15] **Josemi**: The first version was built for ErgoHack, showcasing the main idea.
+[44:23] **Josemi**: Looking ahead, the vision of GOP is to make it a significant platform for advancing in AI in a new open and trustworthy way.
+[44:34] **Josemi**: So for that, I'm going to enumerate some points.
+[44:40] **Josemi**: that could be necessary or important.
+
+[44:44] **Josemi**: With the community, the aim is to attract AI researchers, developers, and organizations to both create compelling challenges and zoom into innovative AI solutions.
+[44:55] **Josemi**: Develop advanced game mechanisms and AI evaluation metrics so the platform can support increasingly complex AI tasks.
+[45:06] **Josemi**: provide better tools to simplify the creation, testing, and deployment of game and solver instances.
+[45:12] **Josemi**: This is more a task for the Celaut part, so the Celaut layer, maybe.
+
+[45:21] **Josemi**: and explore possibilities like multi-chain support and integrations with other AI platforms to expand reach and impact.
+[45:32] **Josemi**: Particularly the multi-chain support can be, it's more detailed on the documentation of the ErgoHack proposal.
+[45:42] **Josemi**: You can read it if you want.
+
+[45:45] **Josemi**: So basically, this opens a big opportunity for a worldwide incentivized and transparent platform for finally making and testing AI models.
+[45:59] **Josemi**: So that's Game of Proms, AI challenges, blockchain solutions.
+[46:03] **Josemi**: It's a platform designed for people to compete, collaborate, and advance AI in an open, distributed, and trustworthy manner.
+
+[46:12] **Josemi**: So thank you for listening, and I'm happy to answer
+[46:15] **Josemi**: Any questions on Discord, Telegram or the YouTube comments of this video?
+[46:21] **Josemi**: So, thanks.

@@ -1,0 +1,437 @@
+[00:11] **2ndTLMining**: Okay, so here we are on the computer.
+
+[00:13] **2ndTLMining**: Now, I've got my Ergo Mempool website open, and this is really what it looks like.
+
+[00:19] **2ndTLMining**: Now, let me talk you through some of the things.
+
+[00:21] **2ndTLMining**: Here at the top, I just put a temporary logo here at the top left.
+
+[00:24] **2ndTLMining**: I can probably do a better job at making it pretty, not really my strong suit.
+
+[00:28] **2ndTLMining**: I've got some buttons. I'm quite keen to show you guys how these buttons work.
+
+[00:32] **2ndTLMining**: There's a test transaction, so that's basically if you want to send a test transaction, see it pop up in the mempool.
+
+[00:37] **2ndTLMining**: You can also connect your wallet. So again, I'll show you guys how that functionality works.
+
+[00:42] **2ndTLMining**: Again, pretty cool. I'm super stoked that I managed to get it working.
+
+[00:47] **2ndTLMining**: So here at the bottom or just below that is the block section.
+
+[00:51] **2ndTLMining**: So these are the mining blocks. So on Ergo, more or less every two minutes, there is a block.
+
+[00:56] **2ndTLMining**: So on the left-hand side here is the block that is yet to be mined.
+
+[01:00] **2ndTLMining**: The next to it is in purple here, all the four blocks that have been mined.
+
+[01:05] **2ndTLMining**: So you can see the block numbers associated to them.
+
+[01:09] **2ndTLMining**: Underneath it, it's showing you the actual size of the block.
+
+[01:12] **2ndTLMining**: So what you would see here is a typical, I think the max size of an Ergo block is two megabytes.
+
+[01:18] **2ndTLMining**: So you can see that you just saw the animation as a block got mined.
+
+[01:23] **2ndTLMining**: So anyway, so if I come back, the size, I think an Ergo block can hold two megabytes.
+
+[01:31] **2ndTLMining**: So you can sort of get a feel for how it is utilized or how full the blocks are.
+
+[01:36] **2ndTLMining**: Some of the stuff that I would love to add in the future is sort of a visual indication around how percentage full a block is based on some animation.
+
+[01:43] **2ndTLMining**: So that's some stuff that I would like to do.
+
+[01:45] **2ndTLMining**: Underneath that is the total reward.
+
+[01:48] **2ndTLMining**: Now, what I'm showing there at the moment is a combination of let's call it the subsidy or the block rewards which at least at this specific point in time is about 15 ERG and then at the bottom is all of the transaction fees so it's not an awful lot transaction fees for the miners at the moment, but that's sort of what it is underneath that I'm showing the amount of transactions within the block and then sort of the time since that block and then the mining pool and associated or that found that block.
+
+[02:19] **2ndTLMining**: So I've got sort of addresses around what the mining pools are and then I've got the little logo next to it.
+
+[02:26] **2ndTLMining**: Again on these blocks you can actually go click on them and it should show you the transactions that make up that specific block.
+
+[02:33] **2ndTLMining**: The total fees as you probably saw from my screen. I'm a big fan of the Sigma Spaces website so I've got most of my links pointing to this at the moment until I further build out my own type of view of this information.
+
+[02:50] **2ndTLMining**: So that's sort of what this top section shows.
+
+[02:54] **2ndTLMining**: Again, some of the cool stuff here is a little animation. As soon as a block is mined, you can see it sort of shifting across.
+
+[03:01] **2ndTLMining**: Now, underneath that is the mempool visualizer.
+
+[03:05] **2ndTLMining**: So this is again, at the moment, it's showing you the mempool on Ergo.
+
+[03:09] **2ndTLMining**: So for those that don't know, these are transactions that people have submitted that is yet to be put into the blockchain or on the ledger.
+
+[03:22] **2ndTLMining**: So they're sort of in limbo here at the moment until it gets picked up.
+
+[03:26] **2ndTLMining**: Hopefully with sub-blocks in the near future, I'm not exactly sure how this is going to impact this application but I'm sure I'll figure it out now so some of the stuff that you see in the mempool visualizer and again I've played around with a lot of things here I actually want to make it a lot prettier than what it is at the moment I was thinking of tetris game or some building happening here with the blocks just to give you a little bit more information, but you can get a view of how many transactions are waiting at the moment.
+
+[03:53] **2ndTLMining**: You can see that is sort of correlating to what is in the block.
+
+[03:56] **2ndTLMining**: I've got two types of formats here based on the size of the block.
+
+[04:00] **2ndTLMining**: So you can see this one is bigger, so 629 bytes versus 630.
+
+[04:05] **2ndTLMining**: You can also do it on value.
+
+[04:07] **2ndTLMining**: So it gives you an idea of how big these transactions are or how small they are.
+
+[04:12] **2ndTLMining**: So this is the mempool visualizer.
+
+[04:15] **2ndTLMining**: Again, I'd love to make this a little bit better in the future or make it more fun.
+
+[04:20] **2ndTLMining**: There's another block that literally just got mined.
+
+[04:23] **2ndTLMining**: Now, what you see at the bottom here, again, is just these transaction IDs at the bottom.
+
+[04:29] **2ndTLMining**: These are the transactions that relate to this.
+
+[04:32] **2ndTLMining**: Again, I can click on any one of these, then it should open up, again, the Sigma Spaces view of that transaction.
+
+[04:41] **2ndTLMining**: That's what that does for me at the moment.
+
+[04:45] **2ndTLMining**: This is the main aim of the website or at least the minimal viable product that I developed in the last couple of days to get it up, but it literally just shows this button.
+
+[04:55] **2ndTLMining**: At the bottom here is the link to the GitHub.
+
+[04:59] **2ndTLMining**: This is obviously open source. Anybody can go ahead and see how bad this is.
+
+[05:04] **2ndTLMining**: Again, I'm not really a developer.
+
+[05:06] **2ndTLMining**: The real developers probably looking at this thing and saying, oh, this is the worst thing ever, but I'm super proud of it, created it.
+
+[05:14] **2ndTLMining**: But again, it's not the end, it's really the start.
+
+[05:18] **2ndTLMining**: But this is the GitHub, this is open source, the last bit of code I committed earlier today to sort out that block transition that you see at the top, so make it a little bit smoother.
+
+[05:27] **2ndTLMining**: I also have this page I'll probably take away once the Ergo hack is done, which is just the presentation section, which I got AI to go and create this for me.
+
+[05:41] **2ndTLMining**: So it just literally just shows some of the features and all sorts of fluff associated to the website.
+
+[05:49] **2ndTLMining**: Again, I probably don't need this much longer.
+
+[05:52] **2ndTLMining**: And then there's a donation button.
+
+[05:54] **2ndTLMining**: So again, that talks to you some of the functionality of the tool, which I will show you guys next.
+
+[06:00] **2ndTLMining**: Okay, so let's test some of these features.
+
+[06:03] **2ndTLMining**: So as I mentioned this is the mempool visualizer.
+
+[06:07] **2ndTLMining**: So there is a couple of websites available on Ergo where you can have a look at the mempool.
+
+[06:11] **2ndTLMining**: And they basically just show the section here that I've got at the bottom.
+
+[06:15] **2ndTLMining**: So at least now you get them in a block format.
+
+[06:18] **2ndTLMining**: But some of the other cool stuff is what I wanted to show you guys.
+
+[06:22] **2ndTLMining**: So what I'm going to try and do is click on the test transaction here.
+
+[06:25] **2ndTLMining**: It's going to say, oh, I need to go and select the wallet.
+
+[06:28] **2ndTLMining**: So I've built this at least with the Nautilus integration.
+
+[06:33] **2ndTLMining**: I'll talk about some of the tools that I used.
+
+[06:35] **2ndTLMining**: But I first need to connect the wallet, so I'm just going to hit Connect here.
+
+[06:38] **2ndTLMining**: Unfortunately, I've already connected one of my Nautilus wallets, so it remembers that.
+
+[06:42] **2ndTLMining**: So it's probably something that I need to go and look at or file under bugs that I need to clear the cache as soon as you disconnect from it.
+
+[06:50] **2ndTLMining**: But yes, this is one of my testing Nautilus wallets.
+
+[06:53] **2ndTLMining**: I'm going to click on the test transaction now.
+
+[06:56] **2ndTLMining**: It's going to come up with a small amount of ERG and then a wallet.
+
+[06:59] **2ndTLMining**: So you can actually change this wallet address in case you wanted to send it to some different wallet.
+
+[07:04] **2ndTLMining**: I'm just defaulting a wallet. I don't even think this one is mine, but either way, we're going to send a small amount.
+
+[07:11] **2ndTLMining**: So I'm going to hit Send Transaction.
+
+[07:14] **2ndTLMining**: It's going to build a transaction at the top. It's going to ask me to sign.
+
+[07:17] **2ndTLMining**: So it shows you the details. So you can sort of see exactly how much you're sending.
+
+[07:20] **2ndTLMining**: I'm going to go and put in a password.
+
+[07:23] **2ndTLMining**: And then I am going to sign it.
+
+[07:26] **2ndTLMining**: So what that does, you can see there it's now created a test transaction.
+
+[07:31] **2ndTLMining**: So if we give it a couple of seconds, hopefully soon we should see at the back end I've got a couple of APIs.
+
+[07:39] **2ndTLMining**: So most of the APIs is built in Python.
+
+[07:41] **2ndTLMining**: So it's going to go and hit the main explorer and go and try and find all these unconfirmed transactions.
+
+[07:48] **2ndTLMining**: So basically everything that's within the mempool.
+
+[07:51] **2ndTLMining**: At the moment, I'm just pointing it to the main explorer, I guess.
+
+[07:57] **2ndTLMining**: If I did point it to my own node, it probably would be a lot faster.
+
+[08:02] **2ndTLMining**: What I do expect here is in the next second or two, it should go ahead and create a transaction, and I should actually see it in here.
+
+[08:10] **2ndTLMining**: Every couple of seconds, that API is going to go and have a look and see if it finds any new transactions.
+
+[08:19] **2ndTLMining**: I can force the fact here. So I can go ahead and refresh.
+
+[08:23] **2ndTLMining**: Again, I'm going to go ahead and do that.
+
+[08:26] **2ndTLMining**: At the moment, it's not picked up my transaction just yet.
+
+[08:30] **2ndTLMining**: So we'll give it a second. And I guess I'll talk to the other function here.
+
+[08:34] **2ndTLMining**: So what I'm going to do is also donate. They work very similar.
+
+[08:40] **2ndTLMining**: So I'm just going to go click on this Donate button here just to show you that while we wait for that transaction to pop up in here.
+
+[08:45] **2ndTLMining**: See if I hit Donate. Again, same type of thing.
+
+[08:48] **2ndTLMining**: This is actually definitely one of my addresses that I know for sure.
+
+[08:53] **2ndTLMining**: So I'm just going to go and put in. I'll just hit Cancel for a second.
+
+[08:57] **2ndTLMining**: So as you can see, at least that test transaction is now popping up in the mempool.
+
+[09:03] **2ndTLMining**: So what you can see here is it is highlighted here as a gold color within the blocks here.
+
+[09:09] **2ndTLMining**: If I hover my mouse, you would see there is my test transaction.
+
+[09:13] **2ndTLMining**: You can see it's also labeled it as a test transaction.
+
+[09:16] **2ndTLMining**: So it's pretty cool. So it highlights. It does two things in this visualizer.
+
+[09:20] **2ndTLMining**: Number one, if it finds a transaction that you have created, it's going to highlight it.
+
+[09:25] **2ndTLMining**: It will just be this gold color, what you're seeing here at the moment, or that's what it is.
+
+[09:29] **2ndTLMining**: And it will highlight the transaction in the list.
+
+[09:31] **2ndTLMining**: If it is the test transaction that you've created, it puts that little, I don't even know what the English word is, that little probe thing inside of it.
+
+[09:39] **2ndTLMining**: Now, the donation works basically the same.
+
+[09:42] **2ndTLMining**: I'm just going to go back and donate myself.
+
+[09:45] **2ndTLMining**: Also, a small amount, I'm going to hit Donate.
+
+[09:49] **2ndTLMining**: It's going to build the transaction. It's going to ask me again to sign that transaction.
+
+[09:54] **2ndTLMining**: I'm going to do exactly that.
+
+[09:58] **2ndTLMining**: Then it's going to submit the transaction starting with 2E3733 or whatever.
+
+[10:04] **2ndTLMining**: Again, similar thing is we just need to be a little patient, but that should also pop up within the mempool.
+
+[10:13] **2ndTLMining**: So it's pretty cool.
+
+[10:15] **2ndTLMining**: At least I am super excited, I know, for real developers. And I'm not a real developer.
+
+[10:21] **2ndTLMining**: By nature, I don't develop in my day job.
+
+[10:24] **2ndTLMining**: I did study a little bit of development in the past.
+
+[10:28] **2ndTLMining**: So you can see our previous transaction got confirmed. Our transaction is gone.
+
+[10:32] **2ndTLMining**: It is now within this block.
+
+[10:35] **2ndTLMining**: But what you can see is the donation transaction has popped up in here.
+
+[10:40] **2ndTLMining**: So it's pretty cool. So it's got a heart here.
+
+[10:43] **2ndTLMining**: So again, this is just sort of visualizing that type of thing.
+
+[10:46] **2ndTLMining**: So again, I think it's super cool that you can create the app that connects with the Ergo blockchain actually create and submit transactions.
+
+[10:57] **2ndTLMining**: So it is pretty cool.
+
+[10:59] **2ndTLMining**: And that's really what the functionality is looking like at the moment.
+
+[11:02] **2ndTLMining**: So again, I'm not a real developer on a daily basis.
+
+[11:07] **2ndTLMining**: I did study a little bit of programming.
+
+[11:09] **2ndTLMining**: I've got a Bachelor of Science degree in IT, which had a major in programming in Java, but it's been 20 years.
+
+[11:16] **2ndTLMining**: I haven't touched a code at least for work related stuff so I don't code for work but anyway so that's sort of what it looks like there's a lot of things that I'm hoping that I can improve but at least for this week's project this is sort of at least what the functionality looks like and again to recap basically just looks at the mempool gives you some information around what was the latest blocks who's mined how much transactions was in there what was the fees that's sort of the visual cues again if it detects your wallet if you've connected your wallet that is it's going to highlight at least some of the transactions here associated to your wallet okay so next up let's talk about tooling so how did I come up with this so no surprise I have used I mean I just use VS Code.
+
+[12:05] **2ndTLMining**: So it's within here, I publish it from GitHub or to GitHub from here.
+
+[12:10] **2ndTLMining**: In terms of AI, what AI have I used to help me create this?
+
+[12:14] **2ndTLMining**: I definitely use some AI, as I mentioned before.
+
+[12:16] **2ndTLMining**: I'm not really a developer in day to day, so I'm definitely rusty, but I get the general idea.
+
+[12:22] **2ndTLMining**: Most of the AI, let's call it 90% of the AI, I've used via continue.
+
+[12:27] **2ndTLMining**: So I've got Ollama installed on my computer and I host all my own models.
+
+[12:35] **2ndTLMining**: So as you can see here, if I go to the model section, the main models that I've used is Qwen 2.5 Coder, the 14b model.
+
+[12:43] **2ndTLMining**: One of the other ones, I guess it's not in here, and then let me just drop down so you can actually see it, is the DeepSeek one.
+
+[12:52] **2ndTLMining**: I think the DeepSeek one, at least from an open model perspective, is probably the best one, or at least in my opinion, is definitely better than Qwen 2.5, but it's hard for me to run that.
+
+[13:04] **2ndTLMining**: Now, how it works, it's really cool, super interesting.
+
+[13:08] **2ndTLMining**: So if I go back and go to last session or just close this model and just go back to chat and then ask it a question.
+
+[13:19] **2ndTLMining**: So if I just start a new question and say something like, I don't know, how do you start a Flask app as an example.
+
+[13:32] **2ndTLMining**: So it's going to use that now.
+
+[13:35] **2ndTLMining**: And if I open up my task manager, you will see it hit my computer pretty hard.
+
+[13:39] **2ndTLMining**: First up, you can see it hits my GPU memory.
+
+[13:42] **2ndTLMining**: So I've got a 7900 XTX.
+
+[13:43] **2ndTLMining**: So it's going to load that up.
+
+[13:45] **2ndTLMining**: All 24 gigs of VRAM is going to load up most of that and you can see also my system RAM gets used.
+
+[13:52] **2ndTLMining**: So running these models locally, it's pretty cool like that.
+
+[13:56] **2ndTLMining**: It gives you an answer. It's pretty quick as well responding.
+
+[13:59] **2ndTLMining**: So I'm a big fan of this.
+
+[14:01] **2ndTLMining**: So 90% of what I've developed, I basically used Qwen 2.5 for majority of the stuff.
+
+[14:07] **2ndTLMining**: DeepSeek again, I can run, but it maxes out my PC.
+
+[14:12] **2ndTLMining**: So I can't ask it more than four questions on the same topic without having to restart.
+
+[14:18] **2ndTLMining**: So this computer was obviously not built for AI related stuff It's more of a gaming PC and it's getting old a little bit at least on the CPU side on the RAM side But this is what I've used for the majority of my AI stuff I also used at least the guys in the Sigmanauts mining pool.
+
+[14:35] **2ndTLMining**: They were raving about how good Claude is and I don't really want to pay for something if I've got a computer and I can actually use some of these AI features.
+
+[14:44] **2ndTLMining**: But I did use the free version of Claude a little bit, but probably 90 percent I used these self-hosted models via Ollama.
+
+[14:54] **2ndTLMining**: Some other tools that I used on the Ergo side, I used this dApp connector.
+
+[15:01] **2ndTLMining**: So this is awesome.
+
+[15:03] **2ndTLMining**: This Nautilus share that is also within the Ergo documentation.
+
+[15:07] **2ndTLMining**: So this is fantastic.
+
+[15:08] **2ndTLMining**: Obviously, I use the Ergo documentation for the APIs.
+
+[15:11] **2ndTLMining**: So that's why I've got majority APIs.
+
+[15:13] **2ndTLMining**: But in terms of getting the wallet connected in the app, this is what I've used.
+
+[15:19] **2ndTLMining**: I spent a lot of time trying to figure out how to make that work in Python.
+
+[15:24] **2ndTLMining**: That's probably where I wasted a lot of time, but this works.
+
+[15:28] **2ndTLMining**: I did try and use the FleetSDK a little bit.
+
+[15:32] **2ndTLMining**: There's a lot of things in here, probably a lot of things that I don't need to use.
+
+[15:38] **2ndTLMining**: I mainly use the dApp connector.
+
+[15:41] **2ndTLMining**: And the other thing that I did use, which I think is fantastic, some of the again, another miner, he's creating also a different application around ciphers and securing your passwords and seed phrases and stuff like that.
+
+[15:54] **2ndTLMining**: So he has a guide.
+
+[15:57] **2ndTLMining**: So he helped me get the transaction to actually build a transaction.
+
+[16:01] **2ndTLMining**: So I got stuck.
+
+[16:03] **2ndTLMining**: I should probably know the UTXO stuff a little better, but in this example here, it's got code of exactly how do you go about building a transaction so that it actually gets picked up.
+
+[16:14] **2ndTLMining**: So this saved me a ton of work.
+
+[16:16] **2ndTLMining**: I don't know how long I spent, probably a couple of hours trying to get this transaction to build or getting it to build blindly.
+
+[16:22] **2ndTLMining**: I don't know what I needed to do necessarily.
+
+[16:24] **2ndTLMining**: So this helped me a ton because it shows you practically around which boxes you should be using and which not.
+
+[16:31] **2ndTLMining**: So this was super cool.
+
+[16:32] **2ndTLMining**: So that's again in terms of the some of the tools on the Ergo site that I use in order to make this work.
+
+[16:38] **2ndTLMining**: So again, big thanks to all the guys that create some of these things.
+
+[16:41] **2ndTLMining**: It's easy then for a novice like me just to go and pick up this dApp connector, let's say, and just hook it up to the site.
+
+[16:48] **2ndTLMining**: So it's awesome like that.
+
+[16:50] **2ndTLMining**: In terms of, again, the application, I mean, it's mainly Python, not for any real reason.
+
+[16:56] **2ndTLMining**: As I mentioned, I'm not a programmer by day, so I'm sure there's better for these type of website apps, there's way better stuff to use.
+
+[17:04] **2ndTLMining**: Again, I'm not in the know of what is the best thing out there and what I should be using and what's the most efficient and all of those type of stuff.
+
+[17:12] **2ndTLMining**: This is just easy for me to understand.
+
+[17:13] **2ndTLMining**: I can follow it.
+
+[17:15] **2ndTLMining**: I can do it a little bit by myself without having to ask AI to create some dumb stuff for me.
+
+[17:21] **2ndTLMining**: I can do a lot of this myself.
+
+[17:23] **2ndTLMining**: That's really what it is.
+
+[17:24] **2ndTLMining**: But again, probably longer term, I need to go and try and use at least what the cool kids are using.
+
+[17:30] **2ndTLMining**: In terms of hosting, I'm hosting this on the Flux network.
+
+[17:34] **2ndTLMining**: It's pretty cool.
+
+[17:35] **2ndTLMining**: If I just jump to the dashboard here, I host some of the other apps that I've created also on here.
+
+[17:39] **2ndTLMining**: I've got the ErgoMempool on here as well.
+
+[17:42] **2ndTLMining**: If I just show you guys what that looks like, I've got it deployed at the moment.
+
+[17:48] **2ndTLMining**: With Flux, I mean, you can get a lot of instances.
+
+[17:51] **2ndTLMining**: I think you can get like 100, but at least for now, the lowest option that you can have is three instances.
+
+[17:57] **2ndTLMining**: Again, it's pretty cool from a decentralization point of view.
+
+[18:00] **2ndTLMining**: You can also go ahead and manage it here, so it's sort of what your details are, how long are you going to be running it, what your hardware requirements are.
+
+[18:10] **2ndTLMining**: I didn't give it restrictions, you can give it geolocking and all sorts of funky stuff like that.
+
+[18:14] **2ndTLMining**: Again, this is not really a flux video, but that's where I've got it hosted at the moment.
+
+[18:21] **2ndTLMining**: In terms of running instances, as I mentioned, there's there's four at the moment.
+
+[18:25] **2ndTLMining**: There's three in the US and one in Spain at the moment.
+
+[18:29] **2ndTLMining**: So again, I'm hosting it via Flux.
+
+[18:31] **2ndTLMining**: I've got some Flux. It's pretty cheap.
+
+[18:34] **2ndTLMining**: So that's what I'm using in terms of hosting.
+
+[18:37] **2ndTLMining**: So that's really what my application looks like.
+
+[18:40] **2ndTLMining**: So as I mentioned, I'm not really a developer.
+
+[18:43] **2ndTLMining**: So if any of the developers are watching this, again, thanks for open-sourcing a lot of your stuff so that people like me can pick it up.
+
+[18:50] **2ndTLMining**: Again, if you're a developer and you think I'm doing a bad job, please give me some pointers, make comments, or give me a couple of tips.
+
+[18:58] **2ndTLMining**: If you want to help me with some of this stuff, please reach out and help.
+
+[19:02] **2ndTLMining**: I'm definitely not going to say no for any help.
+
+[19:06] **2ndTLMining**: But at least for now, I'm going to try and build it out a little bit more and explore at least some other platforms that is maybe not Flask / Python related.
+
+[19:16] **2ndTLMining**: But that's really what my app looks like.
+
+[19:18] **2ndTLMining**: It was super fun for the last couple of days to work with some of the Ergo tooling and create something that, at least for me, I think is super cool.
+
+[19:27] **2ndTLMining**: It visualizes the Ergo mempool and I can also send an interact and send transactions on the Ergo blockchain, which again, I think is super cool.
+
+[19:37] **2ndTLMining**: But that's really what the Ergo Mempool project or entry within the Ergo hack does.

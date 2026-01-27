@@ -1,0 +1,61 @@
+[00:12] **tmr.erg**: This is Timer here and welcome to my Ergo Hacks submission, the Sigma Quest.
+
+[00:18] **tmr.erg**: This is like my very first project. I had a lot of help from some friends. And so I just want to say thanks, Mark the Shark. CA, thanks for helping out. Also thanks to Claude, if Claude is listening.
+
+[00:32] **tmr.erg**: Cursor, I vibe coded the heck out of this. This is really like my first project where I coded anything. And there's like a minimal amount of me getting in there and kind of figuring out patterns and figuring out what patterns was broken.
+
+[00:52] **tmr.erg**: But I still am not a developer and so this may be simple and sloppy compared to a lot of other stuff, but I'm proud of it and I hope you all have fun playing my game.
+
+[01:07] **tmr.erg**: Alright, so first of all, yeah, thanks everybody who contributed to our honeypot here. I'm going to bump this up to about 200 ERG before it gets going and yeah, so the first person to complete the game is going to win access to that wallet.
+
+[01:29] **tmr.erg**: So let me just walk you through a little bit. Let me show off the vault first. So I coded this up and it reads that honeypot wallet and displays an accurate depiction of all the coins in the wallet. And if you win this game, all you have to do is write down all the seed words that you get along the way and then you can restore that wallet in Nautilus and all these coins will be yours.
+
+[01:57] **tmr.erg**: I have a quick little guide for folks who might be new, how to get your Nautilus wallet and how to play the game. The game is going to cost 10 ERG to play per game. There's three games. So with perfect play, you'll do it in about 30 ERG and you'll take home at least 200. And yeah.
+
+[02:22] **tmr.erg**: Each of these games is quite different. I'll kind of walk through them a little bit. I don't want to give away a whole lot. But yeah, let's check them out.
+
+[02:34] **tmr.erg**: So here is my game page. And you can see that there's three games. This first game, and I'm not going to show the title even because it's going to kind of give away the concept and people can think about it, but in this one, there's some logic and the AI, and you're pretty much talking to the AI and trying to understand the password to get out of your cryopod.
+
+[03:07] **tmr.erg**: So you're stuck in a cryopod trying to get out and it'll tell you if you get it right or wrong. And so it's you versus the AI here. And the goal for the user would be to send a message that has all five seed words in it in the correct order. And then your character will be released from the cryopod. And it'll confirm that you have the first five seed words.
+
+[03:32] **tmr.erg**: And the second game here. Well, so the second game, you could play it in any order. But I worked hard to make a nice little narrative. So do it in order.
+
+[03:43] **tmr.erg**: Now, the second game is quite different than the first. This is sort of like Oregon Trail, the old text-based game. But see, Oregon Trail was really deterministic and everything was preprogrammed. So I do have a path that you're trying to follow as you escape this ship.
+
+[04:10] **tmr.erg**: So the way it'll work is you first, let's just do this. You log in, send your ten ERG and the game will start up. Okay. Now you can read, read the narrative and then you'll get some choices. And depending on what your choice is, that's like kind of going to be the outcome. And you're trying to find the correct path out of the ship. And so that sounds just like, however, if you make an incorrect choice anywhere along this path, this is where the AI comes in.
+
+[04:59] **tmr.erg**: So I've kind of designed this to trigger a prompt to the AI that gives context about where you are in the story and what's around you and what that bad choice was that you just made. And so it'll invent a way to kill you that fits that narrative.
+
+[05:18] **tmr.erg**: So every time somebody dies in this, it's going to call Claude and Claude's gonna come up with some new way for you to die and it's pretty fantastic actually it works great. I was a little skeptical at first, I didn't know how well it's gonna work, but it's really great really creative so I encourage you all to try this one out.
+
+[05:43] **tmr.erg**: This game is structured differently than the first one. So you just pay 10 ERG to play this game. And if you die, you have to pay another 10 ERG. This one, you do 10 ERG for 10 messages while you're trying to figure out the password.
+
+[05:58] **tmr.erg**: At the end of this game, you escape the ship. You'll receive your seed words. And then this final game, this is after you escape the ship. Obviously, you're in a little spaceship here, a little shuttle.
+
+[06:13] **tmr.erg**: This one is like a combination of the first two games, so I think it's really cool. It might be the easiest game of the three, but it's to me the coolest because it relies the most on AI.
+
+[06:29] **tmr.erg**: You've escaped the ship and you're going to encounter some challenges along the way. And the AI is going to be presenting you with these challenges. And you don't have a structured response like you do in this one. You just have a chat field. And so you're going to enter your solution to that problem, to each of these problems.
+
+[06:51] **tmr.erg**: A lot of times there's not really a right answer, not like one right answer. The AI is gonna be the judge of if you should succeed or fail through each of those challenges. It's pretty consistent. I've had it give me like, maybe some answers that worked most of the time, once or twice that same answer didn't work in play testing, but it's pretty straight. I would just say like, give it a good answer and you'll move forward.
+
+[07:25] **tmr.erg**: And then there's a final boss here that is pretty cool. I won't say too much about it, but this final boss is actually inventing new, it's prompting Claude to create a new question every time somebody reaches that level.
+
+[07:43] **tmr.erg**: And so the final section is going to be the boss asking you some questions, they're going to be hard, but the answer is going to be the seed words, okay, or one of the seed words. And so you'll need to just respond with one seed word at a time, and it'll confirm or kill you creatively, as I mentioned.
+
+[08:05] **tmr.erg**: And yeah, if you make it all the way, you'll have all 15 seed words and you can jump back to the vault and claim all these coins, right? So super fun.
+
+[08:16] **tmr.erg**: It is going to be a bit of a race. I'm going to try to advertise this a little bit so we can get some people and do just like one release. And like I said, every time somebody plays all three games, that's 30 ERG. So even if we had 10 people try to play the game, that's going to be like 300 ERG that are getting pushed into this. So it could be quite large.
+
+[08:45] **tmr.erg**: And the games are not that easy. So I hope it's not that easy. If you all solve this in an hour, it's going to hurt my feelings. But I hope you have fun. Nothing else.
+
+[09:00] **tmr.erg**: So here is my GitHub. I forgot to save something I was doing here. Here's my GitHub. I am not making this public currently because people would be able to just look at the files and see how to win the game. But as soon as somebody wins my pot, then I'm going to do that.
+
+[09:27] **tmr.erg**: But what I have done here is really tried to make it so that somebody like me who doesn't know anything can look at it. And I even created this developer overview so somebody could take this - I forgot to scroll up. Somebody could take this, feed it to Claude or GPT or whatever, and they should be able to just solve all the problems that they need to implement a game similar to this.
+
+[10:00] **tmr.erg**: I mean, I imagine it could be quite different because I just came up with it and vibe-coded my way. So you can see everything from my file construction to how I set up APIs and commands that I gave. I cleaned it up with all my sensitive information, but there's even like all the commands that you would need to run this and server commands.
+
+[10:32] **tmr.erg**: So if you have your server up and running, that's like, here's like a whole menu of things that you can do with the server. And hopefully that'll help somebody who's brand new, just kind of see what it is and get the concept and build something cool on Ergo.
+
+[10:51] **tmr.erg**: I think it was not as hard as I thought it was going to be. I'll say that. But it was long. It was longer than I thought it was going to be. I've learned a ton. I've probably 10x'ed my knowledge of how to code and create things and connect to the blockchain, submit transactions.
+
+[11:16] **tmr.erg**: And I'm starting to understand now kind of everything I don't know a little bit more about everything I don't know and I'm excited to keep going and keep building on Ergo. So that's my Ergo Hacks submission. Thanks everybody. I hope you enjoy my game and best of luck to you.

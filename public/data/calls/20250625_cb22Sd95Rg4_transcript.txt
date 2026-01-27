@@ -1,0 +1,333 @@
+[00:15] **CannonQ**: And I'm CannonQ.
+
+[00:17] **CannonQ**: We worked on a project with qx() who's busy on a lake somewhere.
+
+[00:24] **Marc the Shark**: In Georgia.
+
+[00:26] **CannonQ**: Yeah.
+
+[00:27] **Marc the Shark**: So yeah, so this is CodeUTXO. We're revolutionizing blockchain development with AI, making Ergo development accessible to everyone through AI power tools and natural language interfaces.
+
+[00:40] **Marc the Shark**: And so basically we wanted to package something that would address all of this. Because, from my experience within Ergo, there's definitely a steep learning curve.
+
+[00:52] **Marc the Shark**: And so you maybe think you know the ins and outs, but then when actually developing and how to actually do something on chain or using the data from the chain, it's more of a user issue.
+
+[01:05] **Marc the Shark**: And so we wanted to alleviate that. There's a bunch of different documentation from here to there. Most of it really good, but again, there's just a lot of data and, trying to eliminate... I don't know, what do you think, CannonQ?
+
+[01:31] **CannonQ**: Well, yeah, I mean, end of the day, we were trying to find a way to basically compile a lot of what's out there but make it to where you can ask questions of AI. I mean, Marc's been big on trying to spearhead different AI things in the Ergo community and this Ergo hack was a nice fit for this project we'd been talking about.
+
+[02:02] **CannonQ**: And so, yeah, it's making the chain accessible, making it accessible for programmers based on other GitHub repos and things like that where you can query those or try to get examples from those, get examples from the chain or get information from the chain. So yeah, it's trying to make it all accessible.
+
+[02:34] **Marc the Shark**: Yeah, and then I think there are the documents, right, but there's just a lot, it would just be easier if we could just have AI talk to it. And then specifically with developing, you have to have the right context to do a lot of different things.
+
+[02:48] **Marc the Shark**: And so hopefully with this tool, we're providing the right context, creating tools that allow you to just grab things and move on from there.
+
+[02:58] **Marc the Shark**: So moving into that, our solution, we have an AI chat interface. The platform itself will have a native payment system. So you can pay with ERG, pay with native tokens. And then the two tools that we've developed is what's called the Ergo MCP or the blockchain query MCP, and then the price data MCP.
+
+[03:19] **Marc the Shark**: And so the blockchain query basically allows and utilizes the Ergo node through a natural language interface. You don't really have to understand what the APIs are, what they do. Really what you need to do is tailor your prompt and then ask that question if, of course, the tool is available.
+
+[03:37] **Marc the Shark**: And I mean that in the sense of just like if we have that tool. So for example, if you were gonna hammer a piece of wood together, you need a nail. And so we just make sure, if there isn't a tool, definitely reach out. We'd probably most likely be happy to create that.
+
+[03:52] **Marc the Shark**: Price data MCP, very similar. Grabs that price data from Crux Finance. And we're looking at other ways to be able to grab live price data from DEXs.
+
+[04:06] **Marc the Shark**: So if you wanna cover the technical architecture.
+
+[04:10] **CannonQ**: Yeah, I'm the right guy to cover this. So actually, it's sort of funny. I hacked this together. Marc had sent me sort of a how-to guide, and so I put this up on a server currently. qx() has this now, like we're self-hosting this.
+
+[04:30] **CannonQ**: But basically, OpenWebUI, it looks and feels like if you're on Anthropic or Grok or ChatGPT, ask it questions, it gives you responses or it goes through the responses.
+
+[04:47] **CannonQ**: LiteLLM, basically it's a great tool set for managing AI models or LLMs. So currently for the Ergo hack we really truncated everything and just put it into small buckets. We're using GPT 4.0 but in the coming weeks to month there will be access to various levels of LLMs from something simple like Gemini 2 or Claude 3.7, all the way up to Claude Opus, like the latest one.
+
+[05:30] **CannonQ**: So it allows us to route the API, everything else, back to those LLMs and then bring the data back to you.
+
+[05:38] **CannonQ**: The MCP servers that Marc has created, they sit there, you ask the question of the, right now, ChatGPT 4, you ask the question. It then goes, okay, what do I need to do, right? And so it passes that info to the MCP server.
+
+[06:03] **CannonQ**: It actually is doing the queries of the Ergo node or doing the research from the Ergo docs we've already provided it, sends it back to you.
+
+[06:13] **CannonQ**: And so, what's nice about the way this is all set up is you can do standard queries LLM like hey help me with some code do some other things like just to build a project or to sharpen your own tool set and then you can plug in on the Ergo side and these MCPs Marc's more adept at explaining this but what I like is they're almost like little silos of data that we can create.
+
+[06:44] **CannonQ**: So what he showed earlier is we have the one that talks to the node or to the node APIs, and then we also have a separate one that's working on pricing, but there's other things. So we can work with other sets of data that we want them to basically connect with or help coders on, developers on their code and connecting to the API sources themselves.
+
+[07:12] **Marc the Shark**: Yeah, absolutely. And the cool thing about MCP servers is really, you can make a tool for anything that you want. So I saw somebody made a code repo for validating smart contracts.
+
+[07:25] **Marc the Shark**: So what's to say someone creates an MCP or I can create one, put that into our service here or even download it and put it into cursor or something like that. All you have to do is paste in or point to your smart contract. Then it runs that in the back end and says, hey, it doesn't work or hey, it does work.
+
+[07:43] **Marc the Shark**: So really what we're working on doing with the MCP service is really streamlining the whole process in some sense with the context of Ergo.
+
+[07:55] **CannonQ**: Right. And then so the Ergo payments, that's the last thing on this slide, but it's connect to Nautilus, make the payment so you're buying the credits or the tokens to be able to feed the LLM or your interaction with the servers.
+
+[08:16] **Marc the Shark**: Sweet, so yeah, so our MCP or model context protocols, again, we already touched this, but directly connects to your node, natural language queries, so for example, give me the top 10 holders of this specific token ID, and then it returns a formatted token holder address and balance.
+
+[08:35] **Marc the Shark**: So price MCPs, real-time price feeds, native token tracking, historical data, so right, what's the price of ERG from the last 10 days?
+
+[08:47] **Marc the Shark**: And then again, talking about why we're doing this, so we're really empowering the community, the ecosystem. So traders, this might be a good thing to take a look at. We could have further MCPs that are more trading focused, where you're looking at specific metrics tied to some sort of historical perspective.
+
+[09:07] **Marc the Shark**: Developers, so now it's probably, even with AI in and of itself, without our tools, it's a lot easier to stand up something, but now inject our tools into that. It's definitely a lot easier to interact and build stuff on top of Ergo.
+
+[09:21] **Marc the Shark**: And then for newcomers, like we wrote here, a gentle introduction to blockchain concepts. You can really explain it, say, hey, how did we come to this conclusion?
+
+[09:31] **Marc the Shark**: And then our knowledge base is curated from the community. So all the various Ergo docs, code bases, smart contracts, etc., it's all loaded up into that for your usage.
+
+[09:46] **Marc the Shark**: And so here's sort of an example of what, right? So what's the current block height? And then it's like 1.1 million, two, three, four, five, six. And then again, show me the price of our trends in the last three days. Here we go. But of course, we'll actually give you guys a live demo.
+
+[10:07] **Marc the Shark**: Yeah, CannonQ, you wanna cover this one?
+
+[10:08] **CannonQ**: Yeah, sure. So the tooling, we've stood this stuff up, put it together during the Ergo hack. The payments, so there's no way to give this stuff away for free, right? Someone has to pay for the models, someone has to pay for the servers, all these kinds of things.
+
+[10:29] **CannonQ**: So what we've tried to do is, I always wanted to get like a subscription Anthropic, but I'm cheap, right? Because I didn't want to pay 20 bucks a month.
+
+[10:42] **CannonQ**: The way we've set this up, what it allows us to do is basically you can buy credits as little as like basically one ERG or two ERG worth of credits. You can see what your usage is after you do the question on the query like literally real-time you'll see it ticking down also when you're doing the query after it's responded to you you can see how many tokens to use, what was the volume usage there so again right now we just have 4o that we're presenting to you guys but you'd be able to use something less expensive to start and then if you're really digging in go to a Claude Opus or something more expensive, Gemini 2.5, something like that.
+
+[11:31] **CannonQ**: But the cool thing about it is basically your credits don't die. So it's fair, it's transparent, and you don't have to pay out like a monthly subscription. You can buy what you need, which I think for people that are new to the ecosystem or casual users, I think it's cool.
+
+[11:50] **CannonQ**: You can say, hey, show me, give me some research on Cypex. Give me some research on the Rosen token. I mean, you can start messing around and saying stuff that you can't easily see in Explorer or just by looking at the chain. Because most normal folks aren't coders, even though there's a ton in the Ergo ecosystem.
+
+[12:15] **CannonQ**: So, and there's a lot of opportunities obviously that we're looking at how to people make their own MCP servers, plug it in here, get a cut. I mean, there's just all kinds of different things. We're trying to figure out how to make it a community effort, not us driving the ship the whole time.
+
+[12:38] **Marc the Shark**: Yeah, absolutely. And then even goes to say for say you have like a beefy setup, you want to host your own LLM, plug that into our system and somehow, and then you can, we can call your LLM, serve that to people, figure that out.
+
+[12:57] **Marc the Shark**: And then the MCP servers, a lot of these tools are really built for users, but I'm sort of building them in the mindset as well as for AI agents. So they're going to need to be able to pull stuff from the chain like block heights, the price of Ergo for like a trading bot and things like that.
+
+[13:14] **Marc the Shark**: So a lot of this is very foundational layers and hopefully continue to build upon and say, once we have all these MCP servers, you can make an AI agent that has a specific workflow and maybe you rent that out and then people can run that workflow and you can rent it, they get a cut, something like that, or just straight up buy in sort of a marketplace fashion. So a lot of possibilities here.
+
+[13:37] **Marc the Shark**: And so for our roadmap, we have the core foundation here. So the core platform, be able to buy credits, the LiteLLM running in the background to manage our users, OpenWebUI, serving everything together, the MCP servers.
+
+[13:52] **Marc the Shark**: We want to make some future enhancements, so again, more MCP servers, UI improvements on our front end. Community features even as well. And then I'd really like to have some sort of trading agents.
+
+[14:04] **Marc the Shark**: The biggest hurdle right now is just getting some code set up to interact with the smart contracts on the DEXs. And then once we have that, it's just a matter of just coding them up and then giving them the logic to run on their own. And that part I feel like is the easiest. Ironically, the AI part's easiest.
+
+[14:23] **Marc the Shark**: So again, DeFi integration, advanced analytics relative to the trading agents.
+
+[14:29] **CannonQ**: Yeah, and go back for one second. I think the other thing that's sort of crazy is the more MCP servers. So the more that the community interacts with us, gives ideas, or builds on their own, things can get plugged in.
+
+[14:46] **CannonQ**: So it's not a, again, like we're trying to, as much as we can decentralize this, right, make it a community effort, not a top down. We had joked, hey, it'd be cool if there's price stuff, and Marc hacked that thing together in a couple days. Maybe he'd been thinking about it for a long time, but it was like, I mean, it was a couple days, and it's like, hey, check this out. This is pretty cool.
+
+[15:11] **CannonQ**: You can do a lot of amazing stuff once you have the base tooling set up. And that's what excites me about this project is creating the platform or a base layer for everything to stack upon.
+
+[15:34] **CannonQ**: I sort of, throughout this whole thing, we sort of said, oh yeah, the web UI, the LiteLLM, there's a lot of heavy lifting that qx() did that's like, let me think about it, and it's, there's a lot of stubbed toes and busted knuckles on getting this thing to where it's at right now.
+
+[15:56] **CannonQ**: And I'm just really excited to see how we can grow on top of this, right? Grow the community on top of this and give people access to better modeling, better data sets.
+
+[16:10] **Marc the Shark**: Yeah, for sure. And I think too, like we've been in the weeds for a little while, so it'd be kind of cool to come out of that for a little bit and then see what other people sort of think in terms of tooling like MCP servers and whether they make them their own or give us the ideas, that's gonna be pretty exciting.
+
+[16:29] **Marc the Shark**: And yeah, like the MCP servers, I feel like were the easiest part of this project, ironically, for the whole AI thing.
+
+[16:36] **CannonQ**: They're easy for you, dude.
+
+[16:38] **Marc the Shark**: True, yeah.
+
+[16:40] **CannonQ**: They're not easy for me and that's part of it though, right? Like the MCP server and you sort of hammered it home for me, but why they're great for what we're doing is they're really good at like hitting APIs, right? And like getting data, taking the request, getting the data and massaging it. I mean, that's sort of what's nice about them, right?
+
+[17:06] **CannonQ**: Versus doing a big, I think we started five months ago talking about let's build a huge RAG, right? And that's sort of shifted to this a bit. So yeah, it's exciting.
+
+[17:22] **Marc the Shark**: Absolutely. So I mean, yeah, our expected impact, I mean, I think some of this is ambitious, right? But go home.
+
+[17:32] **Marc the Shark**: So, 10x faster development. I mean, honestly, for me, using the MCP servers, especially with the Ergo MCP, when I've been using it, that definitely makes things a lot easier for when I'm trying to develop something.
+
+[17:45] **Marc the Shark**: There's something that I've been wanting to make some time. It was sort of like a token ID look up for users for total tokens or collections and things like that. So that's connected with MCP, but now it'll be a lot easier to code. And so probably can use a lot of the same code as well.
+
+[18:02] **Marc the Shark**: So really want to showcase that over maybe the next couple of months, how easy it is to set that up.
+
+[18:08] **Marc the Shark**: And even from the documentation perspective, the tools are now open source, so if you want to clone the Ergo MCP, the price MCP, feel free to do so and build upon it, contribute, that would be fantastic.
+
+[18:23] **Marc the Shark**: And there's some other ideas that we have, from like, actually instead of just trading with AI agents, more or less using AI agents to curate sort of a knowledge library. And so instead of creating content for humans, we're gonna create content for AI.
+
+[18:39] **Marc the Shark**: And so then that would make our knowledge base more robust. And then when your humans are interacting with that, it makes it a lot more easier to get to what you want.
+
+[18:51] **CannonQ**: I mean, yeah. Look at his MCP servers. If you're that kind of guy or gal, tackle it, figure it out and say, Hey, in a week, let's see who gives us one. I'd love someone so we can plug in another one and just keep growing this thing.
+
+[19:10] **Marc the Shark**: Yeah, absolutely. And like, once you have the API, this is really easy. I think when I first made the Ergo MCP, the initial version that took me like an hour to do, and then the Ergo Price MCP to the state where it's at now took me like four to six hours, so it really wasn't that long a time, and plus I'm like vibe coding it the entire time, so that definitely was helpful.
+
+[19:34] **Marc the Shark**: So, with that, supportive vision, with what we're building, we have some various advantages that we sort of talked about, right? The first mover advantage, I suppose, in AI, Ergo AI tooling, sustainable pricing model. We do charge a little bit more just in terms of the token usage out of the box, but I think most AI providers do that. And then we have a clear path to trading AI agents.
+
+[20:09] **Marc the Shark**: I don't have any questions, do you?
+
+[20:12] **CannonQ**: No, man. I'll go ask CodeUTXO.
+
+[20:17] **Marc the Shark**: Okay, perfect. Yeah, good idea.
+
+[20:20] **Marc the Shark**: Sweet. So here's our actual front page to get started. So just the gist, we can get started through here, put in an address, you can buy some credits, it'll take you to our credits page. You can view your usage into the accounts. Of course you need to sign in.
+
+[20:41] **Marc the Shark**: And so just run through, there's our website. Just like CannonQ talked about, we have GPT 4.0. Here's the pricing. And then here's some sample usage costs. And then here's our token packs. So we can do the small pack.
+
+[21:00] **Marc the Shark**: So we can see it's about 1.1 ERGs, and then we apply a 10% markup for tokens. So SigmaRSV, SigmaUSD, and then we do a 20% markup for Quacks, Comet, and if you don't see a token that we have on here and you'd like it, just let us know, we can think about it.
+
+[21:28] **Marc the Shark**: Click these buttons, we can see, so pretty much 100 to 1,000 and then 3,000. And then this will change live. And so basically you wanna, yeah, go ahead.
+
+[21:44] **CannonQ**: Yeah, so the tokens, the reason why there is a cost lift between just paying in ERG and paying in anything else is basically we're swapping it back to ERG. We're taking best practices we've seen from other projects, namely, honestly, Quacks, right?
+
+[22:01] **CannonQ**: When they do arrays, they're swapping it back to SigmaUSD right then. They're raising ERG or they're raising ADA and they're swapping it. And so that's basically so that we have costs on the backend that we got to cover.
+
+[22:16] **CannonQ**: So some of those other tokens have higher slippage, things like that. We're just trying to make it available if you have a bag of it and that's what you want to use and not use your precious ERG. That's great. But there's a little bit more volatility with some of those smaller community tokens.
+
+[22:37] **Marc the Shark**: Absolutely. So we'll go walk through getting started. We're going to sign up, put in your Ergo address, demo user, create an account and so we see you have 0.25 credits so we give everybody this amount.
+
+[23:08] **Marc the Shark**: Please don't go overboard in using a bunch of different wallets for free credits, otherwise we might have to replace that.
+
+[23:15] **CannonQ**: Daygens are gonna daygen, man.
+
+[23:17] **Marc the Shark**: Yeah, right, right.
+
+[23:19] **Marc the Shark**: Sweet, so here's our token page, or I'm sorry, our account page, so you can know your user, your wallet address that's connected, how many credits you spent, how many credits you actually have.
+
+[23:30] **Marc the Shark**: Then we can actually go to the buy credits page, we'll connect the wallet. Now my wallet's actually connected to a different one at the moment. Let me refresh here. Sweet, we're connected.
+
+[23:46] **Marc the Shark**: And then from here we can just pick whatever asset you'd like to use. So ERG, SigmaRSV, etc. We'll click ERG. I'm going to buy a hundred credits and I don't think it'll pop up on here. It'll be off screen, probably on the recording.
+
+[24:04] **Marc the Shark**: Okay, so here we go. So as you can see, 1.1 is leaving the wallet. This is going to our wallet, the network fee, sign it and go from there. So it'll pop back.
+
+[24:18] **Marc the Shark**: And so basically what happens once you sign it, it'll run in the server will wait to see that's confirmed. And then once it confirms, we'll pop back here, you can sync with that. And then it'll say, Hey, you just bought 100 credits, you'll have 100 credits, and then how we translate that back into our system. We'll do that.
+
+[24:42] **Marc the Shark**: And then from here, we can then navigate to the OpenWebUI portal. And you should just have the GPT 4.0. But I'm gonna actually show off the Sigma bot real quick. I don't think we have this native to our general users, but this is what I was talking about with the code base.
+
+[25:02] **Marc the Shark**: And so we can say, what is the pros and cons of ErgoScript? I haven't asked this question before, so we'll see.
+
+[25:19] **Marc the Shark**: And so we can see it's searching the knowledge base. So all those documents that I have, I'll have to make a GitHub repo or something like that and come up with like sub modules so then it just pulls them. But basically what I did was I grabbed all the different, and I spelled this wrong, but it knows what we're talking about here.
+
+[25:36] **Marc the Shark**: I got rid of all the different files that we don't really need. So like build files and things like that.
+
+[25:44] **Marc the Shark**: Sweet. So we can see here's the summary. So that's pretty nice, advanced scripting language and we can actually see what file it came back with 88% relevancy. So from an AI perspective, obviously that is important.
+
+[25:59] **Marc the Shark**: And this is actually where it got it from. It got to 88%, so efficient consensus, low fees. As we know, if you build or trade or send TXs right, we know our fees are pretty low.
+
+[26:14] **Marc the Shark**: Scalable, fast transactions, well, sort of. Two minutes is sometimes can extend, yeah, so.
+
+[26:23] **CannonQ**: That's why we didn't do the payments. No shade to anybody, but if we do the payments while we're recording, we know we'll hit that 12 minute block.
+
+[26:31] **Marc the Shark**: Right, exactly, exactly. So smaller ecosystems, certainly true. Ongoing development, yeah, obviously, but I think that's not necessarily a con here.
+
+[26:42] **Marc the Shark**: I don't know, what's a question that you have for the Sigma Bot CannonQ?
+
+[26:48] **CannonQ**: Is this the one where we can actually ask it, like show an example of code and things of that nature, or is this more the ecosystem, different that we have?
+
+[26:57] **Marc the Shark**: It's got all of that in it.
+
+[26:59] **CannonQ**: How about ask it about demurrage?
+
+[27:24] **Marc the Shark**: So searching through, and then while that's loading, you can see here. So we have 985 for completion tokens. The prompt token is 1306. So completion tokens, I believe, are output tokens. 1306 is the input tokens, and then total tokens is 2291.
+
+[27:43] **Marc the Shark**: So demurrage is storage rent. It is like a small fee you pay if you're holding onto your box of money on the Ergo blockchain for a very long time, specifically after it sits there untouched for four years. Think of it like having a piggy bank where after four years you need to put a little bit money to keep it.
+
+[27:59] **Marc the Shark**: In Ergo, this fee is usually about 0.14 for a simple box of money every four years. This helps keep people from putting their money on the blockchain and never touching again and making sure the network stays healthy.
+
+[28:11] **CannonQ**: Nice.
+
+[28:14] **Marc the Shark**: And then, yeah, here we go. rent.md. And then if you wanted to, right, you can just open this up and open up, well, you can't see it, but open up the markdown file. And so that's the SigmaBot. And that's coming.
+
+[28:27] **CannonQ**: You will not see that today, but you'll see that hopefully in the next week or two.
+
+[28:33] **Marc the Shark**: Yes, sir. Let me go. So now we'll do... We got a bunch of different for us in here.
+
+[28:40] **Marc the Shark**: Okay, cool, so we got, so we can see Ergo Explorer, so that's the Ergo MCP, and then we have the Ergo Price MCP. So we'll start with Ergo MCP, or the Price MCP.
+
+[28:50] **Marc the Shark**: So let's say, what is the price of Ergo from the last 10 days, and can you, okay, that's fine. And then I'm gonna click this code interpreter.
+
+[29:06] **Marc the Shark**: So the code interpreter basically allows to take that input and this will rather the MCP grabs that input for the LLM it processes it and then it allows it to output relative to that context and then from there with the code interpreter it can then take that data and then plot it for us like we see here.
+
+[29:26] **Marc the Shark**: So now we see this price data. It looks pretty accurate from what I can tell.
+
+[29:34] **Marc the Shark**: So let's do, can you make this plot bar chart and add a moving average? I'm not sure if it can do this. I was trying this the other day with trying to add Heiken Ashi candles and it didn't have a library. So I think there's probably something on our end. We just need to install that library and then it can be able to have that functionality.
+
+[29:58] **Marc the Shark**: But looks like it's analyzing it, so it shouldn't be a problem. Sweet. So there you go. There's your moving average. And so we could probably extend this to look at it for the last year, add some various moving averages.
+
+[30:14] **Marc the Shark**: And so now you can sort of, instead of looking through TradingView or something like that, you could easily just use our tool, query it, grab the data that you're looking for, try to see if you're bullish or bearish relative to Ergo, but also we can look at specific tokens.
+
+[30:27] **Marc the Shark**: So let's grab our Rosen. Let's start with something simple. And so for right now, we have to use token IDs for this. It doesn't natively know token name to token ID.
+
+[31:03] **CannonQ**: Price of Rosen, it's been quite stable. Well, thank you for the last 10 days.
+
+[31:20] **Marc the Shark**: I think there might be some nuances with this, just in how crux does it, but let's see. And then while that's cooking, I'm going to do, okay, cool, fantastic.
+
+[31:33] **Marc the Shark**: Now let's do two things. Let's...
+
+[32:04] **Marc the Shark**: So basically what I'm asking him to do is plot those two tokens, Ergo and Rosen, and then basically have the lines sort of match up. So you have a y-axis for Ergo, you have a y-axis for Rosen.
+
+[32:17] **CannonQ**: Yeah, and this is a good time to say this is... Oh, okay, so... Yeah.
+
+[32:26] **Marc the Shark**: Well, that's good to tease out. So it looks like, right. And this makes sense.
+
+[32:32] **CannonQ**: Yeah. But relative, it's like, yeah, this kind of do be expected.
+
+[32:40] **Marc the Shark**: But again, so this is something that like, hey, if this is really something you guys want, we can add more tools and functionality to more, I like to think of like an MCP is sort of like, in data in particular, like a cloth and the more you squeeze it, the more data comes out and stretch it and move it in different directions. And so that's what we need to do here.
+
+[32:59] **Marc the Shark**: Sorry, I cut you off. What were you gonna say, CannonQ?
+
+[33:01] **CannonQ**: No, I was just going to say it's the prompts, right? So like when we were testing this, I asked it, I forget what the question was, but it gave me like a real cheeky response. Like the first 10 wallets and it gave me all the details and I said, well, give me all 50.
+
+[33:18] **CannonQ**: And it's like, well, here's the first 10 and the next one, yada, yada, yada, basically. And then qx() asked it the same question, but just changed it slightly and it gave them all the details.
+
+[33:30] **CannonQ**: So, anyone who's used LLMs, I mean, you get that. What would be great is here, if you let us know or let the community know, here's the best prompt for me trying to get this information. It took me a little bit, but here's how I did it. Here's the best way to do it because his and mine looked identical but for a few words and it made all the difference.
+
+[33:58] **Marc the Shark**: Yeah, and that's actually a feature with OpenWebUI. We can create prompts, and then all you have to do is like this, and then plot, and then run the variables and stuff. We just haven't done that, obviously.
+
+[34:17] **Marc the Shark**: So here I'm asking it, I'm not sure, we haven't done this type of one before, but plot the holders of the token. So I'm asking it like two separate things. So grab all the holders of Rosen and then plot those. So testing it, see what it can do.
+
+[34:35] **Marc the Shark**: And really a lot of these use cases are really, certainly not developer focused at the moment, but really just sort of like a learning sort of get the ideas pumping
+
+[34:47] **CannonQ**: Yeah. And I mean, that's the, I mean, it's a hack, right? We had a week, and I think people are going to see just from this the power of it. We have great tools in the community, but sometimes you have to be a power user to get them to work or to massage it further. And that's what we're hoping this will do for you.
+
+[35:15] **Marc the Shark**: That's fine, didn't give it to me. Here, let me try this.
+
+[35:33] **CannonQ**: Yeah, I was doing some cool analysis like this the other day. And then I was identifying myself like, hey, here's, that's a DEX. Number two is a DEX contract. Number three is a team wallet. Now reanalyze this without those two. Like what percent are those and what's leftover for general holders, that kind of thing.
+
+[35:59] **CannonQ**: There's some good, I don't know if you want to call it money flow, but economic flow through tokens that you can do with this that I can't figure out how to do it anywhere else.
+
+[36:11] **Marc the Shark**: Yeah, I mean you can scour the Ergo Explorer and just go from one to one to one, but it just takes a long time. And so if you have this process that you can define, right, then that's what the MCP server is. And then it's just a matter of flowing the data into it.
+
+[36:40] **Marc the Shark**: I believe this is Rosen.
+
+[36:42] **CannonQ**: Yeah, so I did that one. It's a funny one because there's the various team wallets and hot wallets and cold wallets, all the different spots that it is.
+
+[36:54] **Marc the Shark**: Yeah, so this is a great research tool. It's like, hey, should I buy this token? All right, well, let me look at the tokenomics. Let me, of what the team says. All right, well, actually, let me see what actually on chain says.
+
+[37:03] **Marc the Shark**: CannonQ, you said, you would really like a tool for liquidity, inflow and outflow, how many transactions per day. And there are some tools that do that, like, I think, like, I think Crux shows that or something like that, or, but in any case, or maybe MewFinance has that now.
+
+[37:22] **CannonQ**: Well, one of the things I was curious about, we launched the trading, I'm sorry, the trading, the mining DAO released PFT, right, the recycled token. It'd be cool to look at the LP in there and understand what's happening.
+
+[37:39] **CannonQ**: There's a big unlock coming in another month, what's not locked, how many holders don't own the locked portion, that kind of thing. And that's sort of hard to see anywhere without a ton of know-how.
+
+[38:00] **CannonQ**: Like a normal person can't just walk up and go, oh, I can trade it on a DEX, but how many people are making up this liquidity pool that I'm trading with? You may want to know. It may be five wallets. It may be the same five wallets are on every token. You can do some cool stuff.
+
+[38:18] **Marc the Shark**: All right. Well, while that's loading, let me load up something else. I'm going to get the latest big transaction. This plotting is really taking its time.
+
+[38:47] **CannonQ**: Again, I'm going to have to cut this short here in about five or three.
+
+[38:53] **Marc the Shark**: All right, cool. So here's this transaction. It's got the inputs. It's got the outputs.
+
+[39:00] **CannonQ**: Oh, nice.
+
+[39:01] **Marc the Shark**: Got a lot of ERG 33,000. And then we can come here real quick. This is the actual, and then we see 33,000, the various box IDs. And you can do the same for box IDs. You can do address balances.
+
+[39:17] **Marc the Shark**: So let me just do one last thing.
+
+[39:35] **Marc the Shark**: Now, I probably wouldn't suggest this because you just look at an explorer, right? Pay to look this information up. But in any case, here you go. This is my Tipper wallet. So you get to see 14 ERG, all these different tokens. So yeah.
+
+[39:51] **Marc the Shark**: So yeah, I mean, again, if you want an MCP server, let us know. Happy to make it probably. Or if you want to join up, let us know. That would be fantastic.
+
+[40:02] **Marc the Shark**: And I think a lot of these tools are very curated for a lot of specific tasks. And so we can have a lot of different agents doing specific things, because a lot of this is very complex. And so we can then functionalize it, put it into an MCP server, and then abstract that and put that into the hands of something more autonomous and then run in the background for us doing whatever you'd like, maybe forensic analysis, trading, grabbing information, etc.
+
+[40:33] **CannonQ**: Right. And just the last thing I'll close with is it's called CodeUTXO. We hid the eUTXO in there, right, at the end of the code. But we're hoping to apply this to other UTXO chains.
+
+[40:53] **CannonQ**: So, I mean, it's... Hopefully someone sees this presentation that's not part of the Ergo community or they're involved in other UTXO chains. We'd love to start figuring out how to apply those, but we have, from some of our research we've already started, not everyone's nodes are as easy as Ergo's to run, I'll tell you that right there.
+
+[41:15] **Marc the Shark**: Yeah, or just space-wise.
+
+[41:18] **CannonQ**: Yeah, for sure. We've been having to kick some bricks trying to get them to reboot.
+
+[41:27] **CannonQ**: But yeah, it's Marc, me, qx(). qx() is the unsung hero here since he's not here. And he's done a yeoman's job here, just an amazing amount of work on the back end, getting everything to talk and chatter with each other.
+
+[41:44] **CannonQ**: But hope you guys liked the presentation. We really enjoyed building this. Me watching it more than building it and throwing grenades. Hey, can we do this? Can we do it that way? And Marc going, yeah, qx() going.
+
+[42:01] **Marc the Shark**: Damn it. Finding good edge cases, that's for sure.
+
+[42:04] **CannonQ**: Yeah. Good feedback. It's been a fun project. And I think you guys can tell from our querying, probably less in the presentation, more in the querying and just talking about it when we're getting to use it. I mean, it's an awesome tool and we're looking really forward to everyone jumping in, getting a few credits and making this better.
+
+[42:27] **CannonQ**: We're open for feedback. We're not an ivory tower on this one. We want everyone to be on the ground floor with it.
+
+[42:36] **Marc the Shark**: So absolutely. And with that, I will say again, the MCP servers are open source. So if you have a cloud subscription, you just need to take that into your cloud desktop and port that over and then you're off to the races.
+
+[42:48] **Marc the Shark**: Same thing with cursor. So obviously, maybe use our platform. But again, if you don't want to, you can look, hook it up with OpenWebUI yourself, hook up your own MCP servers in there, and there's so many different platforms you can use this, so.
+
+[43:06] **CannonQ**: Yeah, thanks guys so much. Alright, cool. Alright, see you everybody. Thanks.
+
+[43:11] **Marc the Shark**: Alright, peace.

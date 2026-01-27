@@ -1,0 +1,121 @@
+{
+  "call_date": "2025-06-25",
+  "call_title": "CodeUTXO | Marc the Shark & cannon_q | ErgoHack 10",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "21:00",
+      "decision": "Apply a 10% markup for SigmaRSV and SigmaUSD tokens, and 20% markup for Quacks and Comet tokens",
+      "speaker": "Marc the Shark",
+      "context": "Pricing structure for token payments due to swapping costs and volatility",
+      "topic": "tokenomics",
+      "significance": "minor",
+      "quote": "we apply a 10% markup for tokens. So SigmaRSV, SigmaUSD, and then we do a 20% markup for Quacks, Comet"
+    },
+    {
+      "id": 2,
+      "timestamp": "22:01",
+      "decision": "Swap all token payments back to ERG following best practices from other projects",
+      "speaker": "CannonQ",
+      "context": "Need to cover backend costs and manage volatility",
+      "topic": "tokenomics",
+      "significance": "minor",
+      "quote": "we're swapping it back to ERG. We're taking best practices we've seen from other projects, namely, honestly, Quacks"
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "28:33",
+      "commitment": "Release SigmaBot with documentation knowledge base to users",
+      "owner": "CodeUTXO team",
+      "timeline": "next week or two",
+      "topic": "technical",
+      "quote": "You will not see that today, but you'll see that hopefully in the next week or two"
+    },
+    {
+      "id": 2,
+      "timestamp": "18:22",
+      "commitment": "Make MCP server tools open source",
+      "owner": "Marc the Shark",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "the tools are now open source, so if you want to clone the Ergo MCP, the price MCP, feel free to do so"
+    },
+    {
+      "id": 3,
+      "timestamp": "18:02",
+      "commitment": "Showcase token ID lookup tool development over the next couple of months",
+      "owner": "Marc the Shark",
+      "timeline": "next couple of months",
+      "topic": "technical",
+      "quote": "So really want to showcase that over maybe the next couple of months, how easy it is to set that up"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "14:21",
+      "question": "How to set up code to interact with smart contracts on DEXs for trading agents",
+      "context": "Biggest hurdle for implementing trading agents functionality",
+      "topic": "technical",
+      "raised_by": "Marc the Shark"
+    },
+    {
+      "id": 2,
+      "timestamp": "12:38",
+      "question": "How to enable community members to make their own MCP servers and get a revenue cut",
+      "context": "Making the platform a community effort rather than centrally driven",
+      "topic": "governance",
+      "raised_by": "CannonQ"
+    }
+  ],
+  "reversals_or_updates": [
+    {
+      "id": 1,
+      "timestamp": "17:06",
+      "previous": "Build a huge RAG system",
+      "update": "Shifted to MCP server architecture",
+      "reason": "MCP servers are better at hitting APIs and getting data",
+      "speaker": "CannonQ",
+      "topic": "technical"
+    }
+  ],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "23:08",
+      "fact": "All users get 0.25 free credits when signing up",
+      "speaker": "Marc the Shark",
+      "topic": "technical"
+    },
+    {
+      "id": 2,
+      "timestamp": "19:34",
+      "fact": "Initial Ergo MCP took about 1 hour to build, Price MCP took 4-6 hours",
+      "speaker": "Marc the Shark",
+      "topic": "technical"
+    },
+    {
+      "id": 3,
+      "timestamp": "26:59",
+      "fact": "Demurrage fee is about 0.14 ERG for a simple box every four years after sitting untouched",
+      "speaker": "Marc the Shark",
+      "topic": "technical"
+    },
+    {
+      "id": 4,
+      "timestamp": "21:00",
+      "fact": "Small token pack costs about 1.1 ERG",
+      "speaker": "Marc the Shark",
+      "topic": "tokenomics"
+    },
+    {
+      "id": 5,
+      "timestamp": "40:53",
+      "fact": "CodeUTXO plans to apply to other UTXO chains beyond Ergo",
+      "speaker": "CannonQ",
+      "topic": "technical"
+    }
+  ]
+}

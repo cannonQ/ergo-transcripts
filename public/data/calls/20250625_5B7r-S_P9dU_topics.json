@@ -1,0 +1,104 @@
+{
+  "call_date": "2025-06-25",
+  "call_title": "Ergomempool Visualiser | 2ndTL Mining | ErgoHack 10",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Ergo Mempool Visualizer Interface Overview",
+      "category": "technical",
+      "start_time": "00:11",
+      "end_time": "03:01",
+      "primary_speaker": "2ndTLMining",
+      "summary": "Demonstration of the Ergo Mempool website interface, including block visualization showing mining blocks, transaction fees, and mining pool information. Features animated transitions when new blocks are mined and integration with Sigma Spaces for transaction details.",
+      "key_terms": [
+        "mempool",
+        "block visualization",
+        "mining pools",
+        "transaction fees",
+        "Sigma Spaces"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Mempool Transaction Visualization and Display Features",
+      "category": "technical",
+      "start_time": "03:01",
+      "end_time": "06:00",
+      "primary_speaker": "2ndTLMining",
+      "summary": "Detailed walkthrough of the mempool visualizer showing pending transactions in different formats based on size and value. Includes plans for future improvements like Tetris-style animations and building blocks visualization.",
+      "key_terms": [
+        "mempool visualizer",
+        "pending transactions",
+        "transaction size",
+        "unconfirmed transactions",
+        "blockchain ledger"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Wallet Connection and Test Transaction Functionality",
+      "category": "technical",
+      "start_time": "06:00",
+      "end_time": "11:02",
+      "primary_speaker": "2ndTLMining",
+      "summary": "Live demonstration of connecting Nautilus wallet and creating test transactions that appear highlighted in the mempool visualizer. Shows real-time transaction tracking with special visual indicators for user-created transactions including test and donation functions.",
+      "key_terms": [
+        "Nautilus wallet",
+        "test transactions",
+        "wallet integration",
+        "transaction highlighting",
+        "donation functionality"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Development Tools and AI-Assisted Coding Setup",
+      "category": "technical",
+      "start_time": "11:02",
+      "end_time": "14:54",
+      "primary_speaker": "2ndTLMining",
+      "summary": "Overview of development environment using VS Code, local AI models via Ollama (Qwen 2.5 Coder and DeepSeek), and self-hosted AI assistance. Demonstrates how local AI models run on gaming hardware with GPU acceleration for coding assistance.",
+      "key_terms": [
+        "VS Code",
+        "AI-assisted development",
+        "Ollama",
+        "Qwen 2.5 Coder",
+        "DeepSeek",
+        "local AI models"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Ergo Development Resources and Transaction Building",
+      "category": "technical",
+      "start_time": "14:54",
+      "end_time": "16:50",
+      "primary_speaker": "2ndTLMining",
+      "summary": "Discussion of Ergo-specific development tools including dApp connector for Nautilus integration, Fleet SDK, and community resources for transaction building. Highlights the importance of UTXO understanding and community documentation.",
+      "key_terms": [
+        "dApp connector",
+        "Fleet SDK",
+        "UTXO",
+        "transaction building",
+        "Ergo documentation",
+        "Nautilus integration"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Technology Stack and Flux Network Hosting",
+      "category": "technical",
+      "start_time": "16:50",
+      "end_time": "19:37",
+      "primary_speaker": "2ndTLMining",
+      "summary": "Explanation of using Python/Flask for the application despite not being optimal, and hosting on Flux network for decentralization. Shows Flux dashboard with multiple global instances and discusses the accessibility of Ergo development tools for non-professional developers.",
+      "key_terms": [
+        "Python Flask",
+        "Flux network",
+        "decentralized hosting",
+        "application deployment",
+        "ErgoHack submission"
+      ]
+    }
+  ]
+}

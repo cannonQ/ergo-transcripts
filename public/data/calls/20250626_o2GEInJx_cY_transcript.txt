@@ -1,0 +1,55 @@
+[00:11] **Mehrdad**: Hello everyone, and welcome to the Pattern demo.
+
+[00:15] **Mehrdad**: And today, I'm thrilled to introduce you to Pattern, our AI-powered agent that connects to multiple data sources to deliver real-time blockchain insights.
+
+[00:25] **Mehrdad**: Pattern has been architected from the ground up as a modular, extensible AI agent.
+
+[00:31] **Mehrdad**: At its core, Pattern maintains connectors to a variety of live data streams, everything from public APIs to on-chain data providers.
+
+[00:40] **Mehrdad**: Today, we'll focus on Pattern's blockchain integration capabilities.
+
+[00:44] **Mehrdad**: By leveraging common blockchain APIs, Pattern can fetch smart contract source code and ABI, invoke contract functions directly, pull transaction histories, and even perform on-chain analytics on the fly.
+
+[00:59] **Mehrdad**: To get started, let's look at how Pattern interfaces with blockchains.
+
+[01:03] **Mehrdad**: We've built connectors for many of the most widely used chains, Ethereum, Binance Smart Chain, Polygon, Arbitrum, and more.
+
+[01:12] **Mehrdad**: For this hackathon, we're excited to announce that we've extended Pattern's reach to include the Ergo ecosystem.
+
+[01:18] **Mehrdad**: That means you can now ask Pattern about Ergo smart contracts, transactions, token data, and other on-chain details in real time.
+
+[01:27] **Mehrdad**: Let me show you a quick example.
+
+[01:30] **Mehrdad**: Let's go to the Pattern demo site at mvp.pattern.global.
+
+[01:35] **Mehrdad**: There, you can sign in with your Gmail account or wallet and begin typing your query.
+
+[01:40] **Mehrdad**: For example, I'll ask, to which contract does the box, provide the address, belong?
+
+[01:47] **Mehrdad**: What is that contract's ErgoTree script?
+
+[01:50] **Mehrdad**: Then, simply wait for the pattern agent to scan the available Ergo tools, pick the most relevant ones, and retrieve the data.
+
+[02:28] **Mehrdad**: Now you can see the agent's response to this query, including the extracted ErgoTree script.
+
+[02:35] **Mehrdad**: Next, I'll ask, what is that ErgoTree script about?
+
+[02:39] **Mehrdad**: And then wait for the answer.
+
+[02:46] **Mehrdad**: Here, you can see the pattern agent's response to the explanation of this ErgoTree script.
+
+[02:59] **Mehrdad**: Here's another example.
+
+[03:02] **Mehrdad**: First, start a new chat so the previous history won't affect your new query.
+
+[03:07] **Mehrdad**: Then ask, when was the last transaction of the wallet at address, giving the address, and how much ERG was transferred to the owner of the first box?
+
+[03:18] **Mehrdad**: And hit Enter.
+
+[03:23] **Mehrdad**: As shown in the model's response, it first retrieves the wallet's most recent transaction, then identifies the owner of the first box linked to that wallet from the transaction data to calculate how much ERG was sent to them.
+
+[03:37] **Mehrdad**: Below, you can see the details of the last transaction, including the amount transferred to the wallet owner.
+
+[03:47] **Mehrdad**: Whether you want to fetch on-chain data, analyze contracts, or track wallet activity, the agent is ready to help.
+
+[03:55] **Mehrdad**: We'd love to hear how it works for you, so please share any thoughts or suggestions you have after exploring the demo.

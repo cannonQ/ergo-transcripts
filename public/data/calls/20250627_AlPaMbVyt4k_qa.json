@@ -1,0 +1,85 @@
+{
+  "call_date": "2025-06-27",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:07",
+      "question": "How much does it cost to play the Sigma Quest game and what are the potential rewards?",
+      "asker": "tmr.erg",
+      "answer": "The game costs 10 ERG to play per game, and there are three games total. With perfect play, you'll spend about 30 ERG and can win at least 200 ERG from the honeypot wallet. The first person to complete all three games wins access to the entire wallet by collecting all 15 seed words.",
+      "responder": "tmr.erg",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "gaming",
+        "dapp",
+        "wallet",
+        "rewards"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "02:34",
+      "question": "How does the first game in Sigma Quest work?",
+      "asker": "tmr.erg",
+      "answer": "The first game involves being stuck in a cryopod and talking to an AI to figure out the password to escape. You send messages trying to include all five seed words in the correct order. The AI tells you if you get it right or wrong, and once successful, you receive the first five seed words of the wallet.",
+      "responder": "tmr.erg",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "AI",
+        "gaming",
+        "seed words",
+        "puzzle"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "04:10",
+      "question": "What makes the second game different from traditional text-based games like Oregon Trail?",
+      "asker": "tmr.erg",
+      "answer": "While Oregon Trail was deterministic and preprogrammed, this game uses AI integration. You follow a path trying to escape a ship, but if you make an incorrect choice, the AI (Claude) dynamically creates new and creative ways for your character to die that fit the narrative context. Each death is unique and contextual rather than predetermined.",
+      "responder": "tmr.erg",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "AI integration",
+        "dynamic content",
+        "gaming",
+        "Claude API"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "06:29",
+      "question": "How does the third and final game utilize AI differently from the previous games?",
+      "asker": "tmr.erg",
+      "answer": "The third game relies most heavily on AI and combines elements from the first two games. The AI presents you with challenges that don't have structured responses - you use a chat field to enter solutions. The AI judges whether you succeed or fail, and there often isn't just one right answer. It also features a final boss that prompts Claude to create new questions every time someone reaches that level.",
+      "responder": "tmr.erg",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "AI integration",
+        "dynamic gameplay",
+        "final boss",
+        "open-ended responses"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "10:51",
+      "question": "What was the development experience like for building on Ergo as a new developer?",
+      "asker": "tmr.erg",
+      "answer": "It wasn't as hard as expected but took longer than anticipated. The developer learned significantly about coding, connecting to the blockchain, and submitting transactions - estimating a 10x increase in knowledge. They created comprehensive documentation including a developer overview with API setups, server commands, and implementation guides to help other new developers build similar projects on Ergo.",
+      "responder": "tmr.erg",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "developer experience",
+        "blockchain integration",
+        "documentation",
+        "learning curve"
+      ]
+    }
+  ]
+}

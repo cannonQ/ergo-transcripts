@@ -1,0 +1,98 @@
+{
+  "call_date": "2025-06-27",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - June 26th",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "14:13",
+      "decision": "Anniversary AMA will be held at 2 PM UTC on July 1st",
+      "speaker": "qx()",
+      "context": "Setting time for anniversary AMA, considering Joe's potential participation",
+      "topic": "governance",
+      "significance": "minor",
+      "quote": "Let's do two PM UTC for AMA on the 1st of July, the kickoff of the anniversary"
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "02:08",
+      "commitment": "Update Oracle Pool to version 2, then launch Gluon USD and DexyUSD",
+      "owner": "kushti",
+      "timeline": "around September",
+      "topic": "defi",
+      "quote": "And the plan is to update Oracle Pool to version 2, use the Oracle Pool and then launch Gluon USD, so Bruno. Bruno, Bruno. Such plan. And then DexyUSD, yeah, so probably around September or something like that"
+    },
+    {
+      "id": 2,
+      "timestamp": "08:20",
+      "commitment": "Build decentralized explorer infrastructure using community nodes with load balancer",
+      "owner": "qx()",
+      "timeline": "about a month away from full switchover",
+      "topic": "technical",
+      "quote": "So we're probably about a month away from maybe a full switch over for that"
+    },
+    {
+      "id": 3,
+      "timestamp": "13:31",
+      "commitment": "Provide comments on Aletheia protocol paper before Monday or at anniversary AMA",
+      "owner": "kushti",
+      "timeline": "before Monday or at anniversary AMA",
+      "topic": "technical",
+      "quote": "I can provide some comments before Monday, yeah, so, yeah, it's in the reading list"
+    },
+    {
+      "id": 4,
+      "timestamp": "28:20",
+      "commitment": "Release meetup schedule, speakers, and signup information",
+      "owner": "qx()",
+      "timeline": "later today",
+      "topic": "governance",
+      "quote": "So later today, expect the meetup schedule and speakers and how it's going to stream to everybody on Twitter, as well as the GitHub and the Google signup link"
+    },
+    {
+      "id": 5,
+      "timestamp": "29:49",
+      "commitment": "Go to consulate to see about travel arrangements",
+      "owner": "kushti",
+      "timeline": "around July 2nd to 10th",
+      "topic": "governance",
+      "quote": "Yeah, so probably. Yeah, around July 2nd to 10th. Yeah, it will be known"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "15:07",
+      "question": "How can a privacy chain still aggregate statistics like Gini coefficient while maintaining privacy",
+      "context": "Understanding how to evaluate markets on privacy chains without sacrificing transaction and wallet balance privacy",
+      "topic": "privacy",
+      "raised_by": "Ursa Minor 2010"
+    },
+    {
+      "id": 2,
+      "timestamp": "30:25",
+      "question": "What modifications would be needed to integrate Cheese's storage rent implementation into official node",
+      "context": "Considering integrating community storage rent modifications into main node codebase",
+      "topic": "technical",
+      "raised_by": "Mark the Shark"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "06:18",
+      "fact": "New explorer nodes will use 16 gigabyte RAM, i7 processors, one terabyte NVMe drives with 5,000 megabytes read/write speed",
+      "speaker": "qx()",
+      "topic": "technical"
+    },
+    {
+      "id": 2,
+      "timestamp": "05:21",
+      "fact": "Built three new nodes on version 6.1 with rocks database",
+      "speaker": "qx()",
+      "topic": "technical"
+    }
+  ]
+}

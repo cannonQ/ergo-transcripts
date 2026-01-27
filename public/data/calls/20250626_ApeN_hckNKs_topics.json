@@ -1,0 +1,203 @@
+{
+  "call_date": "2025-06-26",
+  "call_title": "Game of Prompts | Josemi | ErgoHack 10",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Game of Prompts Platform Introduction",
+      "category": "technical",
+      "start_time": "00:18",
+      "end_time": "04:14",
+      "primary_speaker": "Josemi",
+      "summary": "Introduction to Game of Prompts (GOP), a platform combining AI challenges with blockchain solutions. Built on Celaut for immutable services and Ergo blockchain for transparent rewards, aiming to make AI development more open and collaborative through competitive challenges.",
+      "key_terms": [
+        "Game of Prompts",
+        "GOP",
+        "AI challenges",
+        "blockchain solutions",
+        "Celaut",
+        "immutable services",
+        "collaborative AI"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "GOP Architecture and Key Components",
+      "category": "technical",
+      "start_time": "04:14",
+      "end_time": "07:11",
+      "primary_speaker": "Josemi",
+      "summary": "Detailed explanation of GOP's four key components: game services (AI benchmarks), solver services (participant solutions), GopWeb portal (central hub), and Ergo blockchain (secure ledger). Emphasizes how Celaut's immutability and isolation ensure trusted execution environments.",
+      "key_terms": [
+        "game service",
+        "solver service",
+        "GopWeb portal",
+        "Ergo blockchain",
+        "immutable",
+        "isolation",
+        "trusted execution"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Creator and Player Workflow Process",
+      "category": "technical",
+      "start_time": "07:11",
+      "end_time": "10:44",
+      "primary_speaker": "Josemi",
+      "summary": "Explanation of how creators design challenges, generate secret codes, and publish game boxes on Ergo blockchain. Players find challenges, develop AI solutions, package them as Celaut services, and test locally before submitting entries with participation fees.",
+      "key_terms": [
+        "game creator",
+        "secret code",
+        "game box",
+        "solver service",
+        "participation fee",
+        "Celaut node",
+        "AI solution"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Cryptographic Score Verification System",
+      "category": "technical",
+      "start_time": "10:44",
+      "end_time": "13:50",
+      "primary_speaker": "Josemi",
+      "summary": "Detailed explanation of how scores remain secret during competition but are cryptographically verified. Uses commitment schemes with hash codes, score lists with decoys, and smart contract verification after deadline revelation of game secrets.",
+      "key_terms": [
+        "commitment",
+        "cryptographic hash",
+        "score list",
+        "decoy scores",
+        "smart contract verification",
+        "game secret",
+        "digital fingerprint"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Celaut Node Installation and Setup Demo",
+      "category": "technical",
+      "start_time": "13:50",
+      "end_time": "18:04",
+      "primary_speaker": "Josemi",
+      "summary": "Live demonstration of installing Celaut node from GitHub, checking node status, and preparing the environment for GOP. Shows node address, Ergo wallet connection, and emphasizes alpha version requirements including virtual machine recommendation.",
+      "key_terms": [
+        "Celaut node",
+        "alpha version",
+        "virtual machine",
+        "Ergo wallet",
+        "node installation",
+        "GitHub"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Game Service Creation and Blockchain Submission",
+      "category": "technical",
+      "start_time": "18:04",
+      "end_time": "21:46",
+      "primary_speaker": "Josemi",
+      "summary": "Live demo showing game service packaging process, creating Snake demo game on GOP web portal, and submitting to Ergo blockchain. Covers participation fees, creator commissions, deadlines, and game NFT creation with service hashes.",
+      "key_terms": [
+        "game service packaging",
+        "Snake demo",
+        "participation fee",
+        "creator commission",
+        "game NFT",
+        "service hash",
+        "blockchain submission"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "AI Solver Development and Testing Process",
+      "category": "technical",
+      "start_time": "21:46",
+      "end_time": "32:01",
+      "primary_speaker": "Josemi",
+      "summary": "Demonstration of creating AI solver services, including basic A-star algorithm and language model approaches. Shows service packaging, local execution with game service interaction, and the isolated execution environment ensuring fair testing.",
+      "key_terms": [
+        "AI solver",
+        "A-star algorithm",
+        "language model solver",
+        "service packaging",
+        "isolated execution",
+        "fair testing",
+        "deterministic reproduction"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Game Execution and Score Submission Demo",
+      "category": "technical",
+      "start_time": "32:01",
+      "end_time": "39:24",
+      "primary_speaker": "Josemi",
+      "summary": "Live gameplay demonstration showing AI solver playing Snake, generating participation data with commitments and score lists. Shows submission process to blockchain, deadline waiting, and final game resolution with winner determination and prize distribution.",
+      "key_terms": [
+        "gameplay demo",
+        "participation data",
+        "score commitment",
+        "blockchain submission",
+        "deadline resolution",
+        "winner determination",
+        "prize distribution"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "GOP Benefits for AI Development",
+      "category": "technical",
+      "start_time": "39:24",
+      "end_time": "42:08",
+      "primary_speaker": "Josemi",
+      "summary": "Explanation of GOP's advantages including fair AI testing through code-based rules, innovation rewards, decentralized collaboration, and censorship-resistant AI model sharing. Emphasizes how it breaks down traditional AI development silos.",
+      "key_terms": [
+        "fair AI testing",
+        "innovation rewards",
+        "decentralized collaboration",
+        "censorship-resistant",
+        "AI silos",
+        "smart contracts",
+        "breakthrough solutions"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Future AI Challenge Applications",
+      "category": "ecosystem",
+      "start_time": "42:08",
+      "end_time": "44:07",
+      "primary_speaker": "Josemi",
+      "summary": "Overview of potential GOP applications beyond Snake game including robot navigation, algorithmic trading, scientific discovery, strategic planning, code optimization, and natural language processing. Emphasizes any quantifiably scorable AI task can become a challenge.",
+      "key_terms": [
+        "robot navigation",
+        "algorithmic trading",
+        "scientific discovery",
+        "protein folding",
+        "code optimization",
+        "natural language processing",
+        "quantifiable scoring"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Platform Vision and Development Roadmap",
+      "category": "ecosystem",
+      "start_time": "44:07",
+      "end_time": "46:21",
+      "primary_speaker": "Josemi",
+      "summary": "Discussion of GOP's future plans including community building, advanced evaluation metrics, better development tools, and multi-chain support. Positions GOP as a worldwide platform for incentivized and transparent AI model development and testing.",
+      "key_terms": [
+        "community building",
+        "evaluation metrics",
+        "development tools",
+        "multi-chain support",
+        "worldwide platform",
+        "incentivized AI",
+        "transparent testing"
+      ]
+    }
+  ]
+}

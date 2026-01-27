@@ -1,0 +1,101 @@
+{
+  "call_date": "2025-06-27",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "02:59",
+      "question": "Do mining pools need to change parameters to vote yes on the 6.0 soft fork?",
+      "asker": "qx()",
+      "answer": "No, mining pools don't need to change any parameters to vote yes on 6.0. If they want to vote yes, they just run the 6.0 node and they're good to go. Only if they want to vote no do they need to set a parameter in the node.",
+      "responder": "qx() (confirming understanding)",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "soft fork",
+        "mining pools",
+        "voting",
+        "6.0 upgrade"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "03:28",
+      "question": "Are older Ergo nodes compatible with the 6.0 upgrade?",
+      "asker": "qx() (implied)",
+      "answer": "Yes, it's a soft fork so older nodes remain compatible. 5.x nodes will skip validation of new scripts and ignore the new voting parameter for sub-blocks, but will validate all current scripts. Even 4.0.100+ nodes will work fine - they just won't process the new features.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "soft fork",
+        "backward compatibility",
+        "node versions",
+        "sub-blocks"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "05:06",
+      "question": "What percentage of miners is required for Ergo soft forks to pass?",
+      "asker": "qx() (implied)",
+      "answer": "Soft forks require 90+ percent miner agreement, not just 50%. This high threshold prevents chain splits like Ethereum Classic or Bitcoin Cash. Even a 60% vs 40% split would be divisive, so requiring 90+ percent ensures there's little chance another fork will survive.",
+      "responder": "kushti",
+      "category": "governance",
+      "difficulty": "beginner",
+      "related_terms": [
+        "soft fork",
+        "consensus",
+        "mining",
+        "chain splits"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "08:43",
+      "question": "What new capabilities will Ergo 6.0 enable for sidechains and interoperability?",
+      "asker": "qx() (implied)",
+      "answer": "6.0 will provide better support for sidechains, including trustless two-way pegged merge mined sidechains - something not possible with Bitcoin or Monero. It will also support efficient trustless relays for Bitcoin and Bitcoin-like blockchains, opening new frontiers for experimentation.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "sidechains",
+        "merge mining",
+        "trustless relays",
+        "interoperability"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "15:05",
+      "question": "Why do centralized exchanges prefer certain types of cryptocurrency projects over fairly distributed ones like Ergo?",
+      "asker": "qx() (implied context)",
+      "answer": "Centralized exchanges hate fairly distributed assets because it's harder for them to extract value and manipulate prices through shorts and longs when they don't control a big chunk of the supply. They prefer projects where they can have more control, even if those turn out to be rugpulls or scams.",
+      "responder": "kushti and qx()",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "fair distribution",
+        "centralized exchanges",
+        "tokenomics",
+        "market manipulation"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "17:21",
+      "question": "How does Rosen Bridge solve the liquidity and exchange listing challenges for new blockchain projects?",
+      "asker": "qx() (implied context)",
+      "answer": "Rosen Bridge allows new blockchains to launch with cross-chain connectivity and liquidity pools everywhere since day one, for free. This is much better than having to pay centralized exchanges for listings. New projects just need Rosen Bridge integration and can access multiple ecosystems without the traditional exchange listing fees.",
+      "responder": "kushti",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Rosen Bridge",
+        "cross-chain",
+        "liquidity",
+        "exchange listings"
+      ]
+    }
+  ]
+}

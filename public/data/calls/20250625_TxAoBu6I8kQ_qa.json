@@ -1,0 +1,135 @@
+{
+  "call_date": "2025-06-25",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:33",
+      "question": "What is Cortex and what problem does it solve in Ergo mining?",
+      "asker": "implicit",
+      "answer": "Cortex is the next generation open source CUDA GPU miner for the Ergo blockchain focused on transparency and audibility. It addresses the centralization problem in mining where mining software and various points of the proof of work mining process remain centralized on pool host servers or in black box mining software. The project aims to decentralize mining further by providing open source code available on GitHub for collaboration or modification.",
+      "responder": "Arohbe",
+      "category": "mining",
+      "difficulty": "beginner",
+      "related_terms": [
+        "CUDA",
+        "GPU mining",
+        "decentralized mining",
+        "open source"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "01:55",
+      "question": "How does Cortex use AI to optimize mining performance?",
+      "asker": "implicit",
+      "answer": "Cortex uses AI to process data and train a model to understand stats around temperatures, overclocks, memory clock settings, and monitors that against mining performance. This creates a good data set to understand how those settings impact mining efficiency, potentially allowing miners to mine more efficiently with lower power settings or find tweaks and gains that make mining more efficient.",
+      "responder": "Arohbe",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "AI optimization",
+        "GPU overclocking",
+        "mining efficiency",
+        "power optimization"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "05:09",
+      "question": "What is a nonce in the context of blockchain mining?",
+      "asker": "implicit",
+      "answer": "A nonce is basically what you're trying to solve when you're looking for a block in simple terms. Once you solve the nonce or match the nonce, that's solving the equation, and in turn, that's the block solution. Cortex analyzes nonce predictions as part of its AI-powered mining optimization.",
+      "responder": "Arohbe",
+      "category": "mining",
+      "difficulty": "beginner",
+      "related_terms": [
+        "nonce",
+        "proof of work",
+        "block solving",
+        "mining algorithm"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "12:13",
+      "question": "What machine learning model does Cortex use for mining optimization?",
+      "asker": "implicit",
+      "answer": "Cortex uses a random forest machine learning model, which is a decision tree approach. It takes all the information loaded into the log and creates a weighted average based on the decision tree method. Then it provides a prediction based on what it thinks is the most predictable number, currently using nonce prediction, but this can be changed to provide visibility into GPU settings or overclock settings.",
+      "responder": "Arohbe",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "random forest",
+        "machine learning",
+        "decision tree",
+        "nonce prediction"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "13:23",
+      "question": "What data does Cortex collect and analyze for AI optimization?",
+      "asker": "implicit",
+      "answer": "Cortex collects data in logs including stats and share results. The system ties this into the miner and bounces it off the node to confirm block height and difficulty, then bounces it off GPU stats. Currently, the model uses five data points: temperature, utilization, power, the nonce range, and difficulty. This data set can be extended to collect more information or predict different items like temperature ranges or power settings.",
+      "responder": "Arohbe",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "data collection",
+        "GPU stats",
+        "block height",
+        "difficulty",
+        "share results"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "20:52",
+      "question": "How does Cortex's node deployment feature work?",
+      "asker": "implicit",
+      "answer": "Cortex's node deployer downloads the jar file from the Ergo GitHub, allows you to pick the version you want to use, modify configuration as needed, and start/stop the node for configuration adjustments. You have the option to toggle between testnet and mainnet. There's also a snapshot feature where you can drop your snapshot into the backend dashboard folder, and it will automatically load into the node.",
+      "responder": "Arohbe",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "node deployment",
+        "Ergo node",
+        "testnet",
+        "mainnet",
+        "snapshots"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "26:28",
+      "question": "What are the limitations of GPU control in Linux for mining applications?",
+      "asker": "implicit",
+      "answer": "Linux is not very friendly with GPU settings, particularly for overclocking automation. Some lower model GPUs have fewer restrictions and can be set more easily. There are challenges running GPUs without X display, and deeper GPU modifications might require looking at modifying the BIOS, which could potentially cause issues. The project may need to consider Windows integration as an alternative approach.",
+      "responder": "Arohbe",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "Linux GPU control",
+        "overclocking",
+        "NVIDIA settings",
+        "BIOS modification"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "28:14",
+      "question": "What is the main value proposition of AI-optimized mining in the current market?",
+      "asker": "implicit",
+      "answer": "The power of AI-optimized mining tools is really around GPU settings optimization - reducing overall utilization of your GPU and potentially mining more efficiently. With inflation and deflation of proof-of-work mining coins, every little advantage that you can get in mining helps, making efficiency improvements valuable for miners' profitability.",
+      "responder": "Arohbe",
+      "category": "mining",
+      "difficulty": "beginner",
+      "related_terms": [
+        "mining efficiency",
+        "GPU optimization",
+        "proof of work",
+        "mining profitability"
+      ]
+    }
+  ]
+}

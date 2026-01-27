@@ -1,0 +1,190 @@
+{
+  "call_date": "2025-06-25",
+  "call_title": "Cortex | Arohbe | ErgoHack 10",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Personal Introduction and Mining Background",
+      "category": "community",
+      "start_time": "00:11",
+      "end_time": "01:33",
+      "primary_speaker": "Arohbe",
+      "summary": "Arohbe introduces himself as former GetBlok team member and mining enthusiast. He explains his passion for decentralized mining and concerns about centralized mining software and pool servers.",
+      "key_terms": [
+        "GetBlok",
+        "decentralized mining pool",
+        "Lithos Protocol",
+        "proof of work mining",
+        "centralized mining software"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Cortex Project Concept and AI Integration Goals",
+      "category": "technical",
+      "start_time": "01:33",
+      "end_time": "03:10",
+      "primary_speaker": "Arohbe",
+      "summary": "Arohbe explains the original concept for Cortex, focusing on using AI to analyze GPU mining parameters. The goal is to train models on temperature, overclock settings, and performance data to optimize mining efficiency.",
+      "key_terms": [
+        "AI integration",
+        "GPU mining optimization",
+        "temperature monitoring",
+        "overclock settings",
+        "mining efficiency"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Cortex Overview and Core Features",
+      "category": "technical",
+      "start_time": "03:10",
+      "end_time": "05:51",
+      "primary_speaker": "Arohbe",
+      "summary": "Cortex is introduced as an open-source CUDA GPU miner for Ergo with AI-generated code. Key features include real-time GPU control, stratum and node mining support, and AI-powered nonce prediction for mining optimization.",
+      "key_terms": [
+        "CUDA GPU miner",
+        "open source",
+        "GPT 4.1",
+        "stratum mining",
+        "nonce prediction",
+        "mining optimization"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Project Goals and Technical Architecture",
+      "category": "technical",
+      "start_time": "05:51",
+      "end_time": "09:33",
+      "primary_speaker": "Arohbe",
+      "summary": "Arohbe outlines project goals including node deployment, testnet block mining, and auto GPU tuning. He describes the architecture using Node.js, Express, React frontend, and discusses challenges with pool mining implementation.",
+      "key_terms": [
+        "testnet mining",
+        "auto GPU tuning",
+        "Node.js",
+        "Express",
+        "React frontend",
+        "Fast API",
+        "share submission"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Node Manager and Miner UI Demo",
+      "category": "technical",
+      "start_time": "09:33",
+      "end_time": "12:00",
+      "primary_speaker": "Arohbe",
+      "summary": "Demo of the node manager interface for deploying Ergo nodes on mainnet or testnet with live configuration control. Shows miner manager UI for connecting to mining pools, specifically Sigmanauts pool integration.",
+      "key_terms": [
+        "node deployer",
+        "mainnet",
+        "testnet",
+        "Sigmanauts pool",
+        "miner control panel",
+        "live logs"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "AI Integration Framework and Machine Learning Model",
+      "category": "technical",
+      "start_time": "12:00",
+      "end_time": "14:22",
+      "primary_speaker": "Arohbe",
+      "summary": "Details the AI framework using random forest machine learning model to analyze mining and GPU data. The system creates decision trees from JSON logs to predict nonce ranges with confidence scores for mining optimization.",
+      "key_terms": [
+        "random forest",
+        "machine learning model",
+        "decision tree",
+        "JSON logs",
+        "nonce prediction",
+        "confidence scores"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Project Progress Summary and Technical Challenges",
+      "category": "technical",
+      "start_time": "14:22",
+      "end_time": "16:12",
+      "primary_speaker": "Arohbe",
+      "summary": "Reviews completed features including node manager, GPU monitoring, and CUDA kernel development. Discusses ongoing challenges with share submission to pools and Linux GPU overclocking limitations.",
+      "key_terms": [
+        "CUDA mining kernel",
+        "share submission",
+        "overclocking automation",
+        "Linux GPU settings",
+        "Windows integration"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Live Code Demo and Backend Architecture",
+      "category": "technical",
+      "start_time": "16:12",
+      "end_time": "22:36",
+      "primary_speaker": "Arohbe",
+      "summary": "Live demonstration of building and running the Cortex codebase from backend to frontend. Shows miner connection to stratum pool, AI listener in Python, and training model execution with data analysis.",
+      "key_terms": [
+        "backend code",
+        "stratum connection",
+        "AI listener",
+        "Python",
+        "training model",
+        "weighted average"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Frontend UI Demo and Node Deployment",
+      "category": "technical",
+      "start_time": "22:36",
+      "end_time": "25:58",
+      "primary_speaker": "Arohbe",
+      "summary": "Live demo of the React frontend interface showing node manager deployment with version selection and configuration. Demonstrates mining dashboard setup with Ergo address and worker configuration for pool mining.",
+      "key_terms": [
+        "React UI",
+        "node manager",
+        "version selection",
+        "mining dashboard",
+        "worker configuration",
+        "pool connection"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "GPU Monitoring and AI Insights Demo",
+      "category": "technical",
+      "start_time": "25:58",
+      "end_time": "28:49",
+      "primary_speaker": "Arohbe",
+      "summary": "Shows GPU monitoring interface with live temperature, utilization, and power data. Demonstrates AI insights page with limited dataset and discusses potential for GPU setting optimization rather than nonce prediction.",
+      "key_terms": [
+        "GPU monitoring",
+        "temperature monitoring",
+        "power settings",
+        "AI insights",
+        "GPU optimization",
+        "mining efficiency"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Project Conclusion and Community Collaboration",
+      "category": "community",
+      "start_time": "28:49",
+      "end_time": "29:49",
+      "primary_speaker": "Arohbe",
+      "summary": "Arohbe concludes by thanking viewers and emphasizing the open-source nature of Cortex. He invites community collaboration and contributions to expand the project, highlighting its community-driven purpose.",
+      "key_terms": [
+        "open source",
+        "GitHub",
+        "community collaboration",
+        "community-driven",
+        "mining space"
+      ]
+    }
+  ]
+}

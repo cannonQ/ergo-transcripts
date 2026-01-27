@@ -1,0 +1,117 @@
+{
+  "call_date": "2025-06-27",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "02:28",
+      "question": "What is the concept behind Rust Chain's proof of antiquity consensus mechanism?",
+      "asker": "implicit",
+      "answer": "Rust Chain challenges traditional proof of work by creating a system that governs crypto by age of hardware rather than raw computational power. The system validates the age of hardware and determines how long the hardware has been on the network to give better bonuses for rewards. This creates a sustainable ecosystem that keeps old hardware out of landfills and uses low wattage because it's not actually computing intensive operations.",
+      "responder": "SPEAKER_02",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "proof-of-antiquity",
+        "consensus",
+        "sustainability",
+        "hardware-age"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "02:42",
+      "question": "How does Rust Chain mining work alongside other blockchain mining?",
+      "asker": "implicit",
+      "answer": "Rust Chain can be attached to other miners or mined alongside existing operations without taking away from hashrate. It uses low wattage because it's not actually computing - the only thing it's doing is validating the age of hardware and determining how long the hardware's been on the network to give better bonuses for rewards.",
+      "responder": "SPEAKER_02",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "hashrate",
+        "mining",
+        "validation",
+        "hardware-age"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "03:06",
+      "question": "How will NFTs be integrated into Rust Chain's mining system?",
+      "asker": "implicit",
+      "answer": "In the future, NFTs will be allowed to boost mining rates. If you do amazing things to build new products on Ergo or on the Rust Chain or both ecosystems, you can get NFTs that have cool downs, but they can be equipped to mine better. This creates incentives for ecosystem development and contribution.",
+      "responder": "SPEAKER_02",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "NFTs",
+        "mining-rewards",
+        "ecosystem-incentives",
+        "cooldowns"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "04:47",
+      "question": "What is the relationship between Rust Chain and Ergo blockchain?",
+      "asker": "implicit",
+      "answer": "The Rust Chain ecosystem is based on Ergo and designed to work with Ergo. It could possibly be a sidechain connected to Ergo for hashing. The goal includes cross-chain interoperability, enabling seamless asset transfers and data sharing between the two networks, though this requires approval from the Ergo community.",
+      "responder": "SPEAKER_02",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "sidechain",
+        "interoperability",
+        "cross-chain",
+        "asset-transfers"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "06:12",
+      "question": "What consensus mechanism does Rust Chain use beyond proof of antiquity?",
+      "asker": "implicit",
+      "answer": "Rust Chain uses a novel consensus mechanism that combines proof of stake and Byzantine fault tolerance alongside proof of antiquity. This combination allows for fast transactions while maintaining a high degree of decentralization, creating a sustainable decentralized system of governing.",
+      "responder": "SPEAKER_02",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "proof-of-stake",
+        "byzantine-fault-tolerance",
+        "decentralization",
+        "consensus"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "15:36",
+      "question": "How does the AI governance system work with human oversight?",
+      "asker": "implicit",
+      "answer": "The AI governing agent (Sophia) can make educated decisions about proposals, but the protocol uses human-in-the-loop interaction. If Sophia makes a mistake or the will of the people outvote her, the proposal can still be implemented. However, safety considerations are built in - for example, if Sophia vetoes something as unsafe, that veto can override popular vote for safety reasons.",
+      "responder": "SPEAKER_02",
+      "category": "governance",
+      "difficulty": "advanced",
+      "related_terms": [
+        "AI-governance",
+        "human-in-the-loop",
+        "safety-mechanisms",
+        "proposal-voting"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "16:39",
+      "question": "How does Rust Chain's proof of antiquity technically validate hardware age?",
+      "asker": "implicit",
+      "answer": "Unlike traditional proof of work systems that rely on raw hash power and energy intensive operations, Rust Chain's proof of antiquity rewards the longevity and resilience of hardware itself. The system leverages BIOS or open firmware time stamps and system clock speeds to recognize and value the age and stability of machines, creating a sustainable and inclusive environment for all devices.",
+      "responder": "AI",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "BIOS-timestamps",
+        "firmware",
+        "hardware-validation",
+        "system-clock"
+      ]
+    }
+  ]
+}
