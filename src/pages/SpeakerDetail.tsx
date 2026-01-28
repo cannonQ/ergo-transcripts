@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { useParams, Link } from 'react-router-dom';
 import { User, Mic, Gavel, Hash, Quote, Calendar, ArrowLeft, Loader2 } from 'lucide-react';
 import CorrectionButton from '../components/CorrectionButton';
@@ -44,6 +45,7 @@ export default function SpeakerDetail() {
 
   return (
     <div className="container mx-auto px-4 py-8">
+      <Helmet><title>{speaker.name} — Ergo Knowledge Base</title></Helmet>
       {/* Back Link */}
       <Link
         to="/speakers"

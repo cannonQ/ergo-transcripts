@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Link, useSearchParams } from 'react-router-dom';
 import { Search, Mic, User, Hash, ArrowLeft } from 'lucide-react';
 import { useSearch } from '../contexts/SearchContext';
@@ -40,6 +41,7 @@ export default function SearchResults() {
 
   return (
     <div className="container mx-auto px-4 py-8">
+      <Helmet><title>{query ? `"${query}" — Search` : 'Search'} — Ergo Knowledge Base</title></Helmet>
       {/* Back Link */}
       <Link
         to="/"

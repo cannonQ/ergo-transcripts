@@ -1,5 +1,6 @@
 import React, { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
 import { ThemeProvider } from './contexts/ThemeContext';
 import { DataProvider } from './contexts/DataContext';
 import { SearchProvider } from './contexts/SearchContext';
@@ -33,6 +34,7 @@ function PageLoader() {
 
 function App() {
   return (
+    <HelmetProvider>
     <ThemeProvider>
       <DataProvider>
         <SearchProvider>
@@ -61,6 +63,7 @@ function App() {
         </SearchProvider>
       </DataProvider>
     </ThemeProvider>
+    </HelmetProvider>
   );
 }
 

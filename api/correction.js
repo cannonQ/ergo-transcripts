@@ -28,7 +28,12 @@ export default async function handler(req, res) {
     return res.status(500).json({ error: 'Server configuration error' });
   }
 
-  const { pageType, pageTitle, pageUrl, currentText, correctedText, notes } = req.body || {};
+  const { pageType, pageTitle, pageUrl, currentText, correctedText, notes, website } = req.body || {};
+
+  // Honeypot — if the hidden field is filled, silently discard
+  if (website) {
+    return res.status(201).json({ success: true });
+  }
 
   // Validate required fields
   if (!pageType || !pageTitle || !currentText) {

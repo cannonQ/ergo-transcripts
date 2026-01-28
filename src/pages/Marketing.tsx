@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import { 
-  Megaphone, 
-  Quote, 
+import {
+  Megaphone,
+  Quote,
   TrendingUp, 
   Copy, 
   Check, 
@@ -86,6 +87,7 @@ export default function Marketing() {
 
   return (
     <div className="container mx-auto px-4 py-8">
+      <Helmet><title>Marketing — Ergo Knowledge Base</title></Helmet>
       {/* Header */}
       <div className="mb-8">
         <h1 className="text-4xl font-bold font-mono text-gradient mb-2">

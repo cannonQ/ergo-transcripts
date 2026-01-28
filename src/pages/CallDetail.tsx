@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { useParams, Link } from 'react-router-dom';
 import { Calendar, Clock, Users, Youtube, ExternalLink, Copy, ChevronRight, Loader2 } from 'lucide-react';
 import TabNavigation from '../components/TabNavigation';
@@ -354,6 +355,7 @@ export default function CallDetail() {
 
   return (
     <div className="container mx-auto px-4 py-8">
+      <Helmet><title>{callMeta.title} — Ergo Knowledge Base</title></Helmet>
       {/* Breadcrumb */}
       <div className="flex items-center gap-2 text-sm font-mono text-ergo-muted mb-6">
         <Link to="/calls" className="hover:text-ergo-orange">Calls</Link>

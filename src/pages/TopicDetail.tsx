@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { useParams, Link } from 'react-router-dom';
 import { Hash, Users, GitBranch, Calendar, ChevronRight, Loader2 } from 'lucide-react';
 import CallCard from '../components/CallCard';
@@ -39,6 +40,7 @@ export default function TopicDetail() {
 
   return (
     <div className="container mx-auto px-4 py-8">
+      <Helmet><title>{topic.name} — Ergo Knowledge Base</title></Helmet>
       {/* Breadcrumb */}
       <div className="flex items-center gap-2 text-sm font-mono text-ergo-muted mb-6">
         <Link to="/topics" className="hover:text-ergo-orange">Topics</Link>

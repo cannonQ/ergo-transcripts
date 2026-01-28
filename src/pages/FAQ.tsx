@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { Search, ChevronDown, ChevronUp, Loader2 } from 'lucide-react';
 import CorrectionButton from '../components/CorrectionButton';
@@ -76,6 +77,7 @@ export default function FAQ() {
 
   return (
     <div className="container mx-auto px-4 py-8">
+      <Helmet><title>FAQ — Ergo Knowledge Base</title></Helmet>
       {/* Header */}
       <div className="mb-8">
         <h1 className="text-4xl font-bold font-mono text-gradient mb-2">

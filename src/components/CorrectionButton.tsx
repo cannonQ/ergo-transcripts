@@ -12,6 +12,7 @@ export default function CorrectionButton({ pageType, pageTitle, className = '' }
   const [currentText, setCurrentText] = useState('');
   const [correctedText, setCorrectedText] = useState('');
   const [notes, setNotes] = useState('');
+  const [honeypot, setHoneypot] = useState('');
   const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
   const modalRef = useRef<HTMLDivElement>(null);
 
@@ -31,6 +32,16 @@ export default function CorrectionButton({ pageType, pageTitle, className = '' }
     e.preventDefault();
     if (!currentText.trim()) return;
 
+    // Honeypot check — bots fill this hidden field, humans don't
+    if (honeypot) {
+      setStatus('success');
+      setTimeout(() => {
+        setIsOpen(false);
+        setStatus('idle');
+      }, 2000);
+      return;
+    }
+
     setStatus('submitting');
     try {
       const res = await fetch('/api/correction', {
@@ -43,6 +54,7 @@ export default function CorrectionButton({ pageType, pageTitle, className = '' }
           currentText: currentText.trim(),
           correctedText: correctedText.trim(),
           notes: notes.trim(),
+          website: honeypot,
         }),
       });
 
@@ -107,6 +119,20 @@ export default function CorrectionButton({ pageType, pageTitle, className = '' }
                 {/* Context */}
                 <div className="bg-ergo-darker rounded p-3 text-xs font-mono text-ergo-muted">
                   <span className="text-ergo-orange">{pageType}</span> &mdash; {pageTitle}
+                </div>
+
+                {/* Honeypot — hidden from humans, bots auto-fill it */}
+                <div aria-hidden="true" className="absolute -left-[9999px]">
+                  <label htmlFor="website">Website</label>
+                  <input
+                    id="website"
+                    name="website"
+                    type="text"
+                    tabIndex={-1}
+                    autoComplete="off"
+                    value={honeypot}
+                    onChange={e => setHoneypot(e.target.value)}
+                  />
                 </div>
 
                 {/* What's wrong */}

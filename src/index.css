@@ -9,7 +9,7 @@
     --ergo-dark: #1A1A2E;
     --ergo-darker: #0F0F1A;
     --ergo-light: #E5E5E5;
-    --ergo-muted: #6B7280;
+    --ergo-muted: #9CA3AF;
     --term-green: #00FF00;
     --term-amber: #FFB000;
     --term-cyan: #00FFFF;
@@ -17,6 +17,11 @@
 
   body {
     @apply bg-ergo-darker text-ergo-light;
+  }
+
+  /* Visible focus rings for keyboard navigation */
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-ergo-orange;
   }
 
   /* Custom scrollbar */

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { ArrowRight, TrendingUp, Activity, Loader2, ChevronDown } from 'lucide-react';
 import CallCard from '../components/CallCard';
@@ -52,6 +53,7 @@ export default function Home() {
 
   return (
     <div className="relative">
+      <Helmet><title>Ergo Knowledge Base</title></Helmet>
       {/* Grid Background */}
       <div className="absolute inset-0 grid-bg opacity-5 pointer-events-none"></div>
 

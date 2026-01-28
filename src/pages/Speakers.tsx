@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { User, Mic, Gavel, Hash, Quote, Search, Grid, List, Loader2 } from 'lucide-react';
 import { useData } from '../contexts/DataContext';
@@ -40,6 +41,7 @@ export default function Speakers() {
 
   return (
     <div className="container mx-auto px-4 py-8">
+      <Helmet><title>Speakers — Ergo Knowledge Base</title></Helmet>
       {/* Header */}
       <div className="mb-8">
         <h1 className="text-4xl font-bold font-mono text-gradient mb-2">
