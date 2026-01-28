@@ -172,7 +172,7 @@ export default function CorrectionButton({ pageType, pageTitle, className = '' }
                   <textarea
                     value={notes}
                     onChange={e => setNotes(e.target.value)}
-                    placeholder="Any extra context (optional)"
+                    placeholder="Additional corrections: WorldPay=VoltPay, Silver sense=SilverCents"
                     className="w-full bg-ergo-darker border border-ergo-orange/30 rounded px-3 py-2 font-mono text-sm placeholder-ergo-muted/50 focus:outline-none focus:border-ergo-orange resize-none"
                     rows={2}
                   />
