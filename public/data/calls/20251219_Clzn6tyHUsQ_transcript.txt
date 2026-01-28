@@ -78,11 +78,11 @@
 
 [10:10] **Qx**: What would be cool, too, HQ, is if Rosen found a way to integrate Hummingbot into their watcher protocol so that running a watcher also means arbitraging and market making via Hummingbot. That'd be neat, but you can't do that because you have to have separate accounts and everything and it gets messy. But yeah, that'd be neat, but cool.
 
-[10:30] **HQ3rr**: Well, another thing they can use is VaultPay, right? Which has no KYC and you can do all the swaps there also. That is also creating volume. So if you don't want to check, if you don't want to touch any exchanges or don't want to KYC, you just swap your assets through any provider and you are just creating the volume there on those exchanges. So you're not touching the exchange.
+[10:30] **HQ3rr**: Well, another thing they can use is VoltPay.Store, right? Which has no KYC and you can do all the swaps there also. That is also creating volume. So if you don't want to check, if you don't want to touch any exchanges or don't want to KYC, you just swap your assets through any provider and you are just creating the volume there on those exchanges. So you're not touching the exchange.
 
 [10:53] **Qx**: No, we don't want to go there. Is it on your main page?
 
-[10:57] **HQ3rr**: VaultPay.store.
+[10:57] **HQ3rr**: VoltPay.Store.store.
 
 [11:06] **Qx**: There we go. All right, so you buy straight up, right? Gift cards.
 
@@ -94,7 +94,7 @@
 
 [12:25] **HQ3rr**: I was worried that... We are in Christmas, right? You have also gift cards. If you want to gift someone gift cards, you can buy them also with Ergo.
 
-[12:34] **Qx**: With Ergo. That's awesome. So what are you using? So VaultPay is your, this is your code right here, but what are you hooking up to and integrating with?
+[12:34] **Qx**: With Ergo. That's awesome. So what are you using? So VoltPay.Store is your, this is your code right here, but what are you hooking up to and integrating with?
 
 [12:45] **HQ3rr**: I'm working with Trocador, which is actually known in the community from around six to seven years in all the crypto industry. So they have a very good reputation. And then we use a swapper, exotics, and multiple providers in a backend, which basically do the swapping for you.
 
@@ -140,7 +140,7 @@
 
 [18:05] **Qx**: Yeah, yeah, yeah. Yeah, interesting. OK. All right. We'll come back to that maybe.
 
-[18:12] **Qx**: Lethos release version 2.2.0. That's cheese. Cheese enthusiast. Upgraded sync process to be multi-threaded. Rollups NISP trees. NISP trees. Say that fast five times. Now sync individually. Change logging for sync process. Most APIs listing data objects are now sorted by height of the mine block as they're associated with fixed LDB errors related to multiple database instances. So Lethos is still going strong.
+[18:12] **Qx**: Lithos release version 2.2.0. That's cheese. Cheese enthusiast. Upgraded sync process to be multi-threaded. Rollups NISP trees. NISP trees. Say that fast five times. Now sync individually. Change logging for sync process. Most APIs listing data objects are now sorted by height of the mine block as they're associated with fixed LDB errors related to multiple database instances. So Lithos is still going strong.
 
 [18:39] **Qx**: Degen's world. If you guys haven't played around with this, it's a lot of fun. It's pretty darn neat. Launched two new mini dApps, token board, letter board style view for native tokens, and ergo trace. Is this what I think it is? Let's see. Do we have an address? I don't get it.
 
@@ -210,9 +210,9 @@
 
 [26:04] **Qx**: Stealth X. Stealth X, yeah.
 
-[26:06] **HQ3rr**: I do. I do. VaultPay uses them as one of the providers.
+[26:06] **HQ3rr**: I do. I do. VoltPay.Store uses them as one of the providers.
 
-[26:11] **Qx**: Oh, amazing. So just put VaultPay in there. We don't have to put Stealth in there. Yeah. All right, make a PR right now. Don't forget, sir.
+[26:11] **Qx**: Oh, amazing. So just put VoltPay.Store in there. We don't have to put Stealth in there. Yeah. All right, make a PR right now. Don't forget, sir.
 
 [26:20] **HQ3rr**: I think Anand won't like it because it's backed by centralized stuff. So the providers are centralized, so he won't like it.
 

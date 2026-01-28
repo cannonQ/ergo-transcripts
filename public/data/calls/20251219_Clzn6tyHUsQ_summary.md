@@ -6,16 +6,16 @@ This community call covered Ergo Foundation's transition to community ownership,
 ## Key Topics Discussed
 • **EF transition to community ownership** - Discussion of ongoing costs like market making ($12K/quarter) and explorer infrastructure (~$720/month)
 • **SigmaUSD integration on MewDEX** - HQ demonstrated native pools for SigUSD and DexyGold with freemint/arbmint functionality
-• **VaultPay integration** - HQ showcased crypto-to-gift card service with multiple swap providers including Trocador
+• **VoltPay.Store integration** - HQ showcased crypto-to-gift card service with multiple swap providers including Trocador
 • **Cornell University blockchain implementation** - Qx demoed campus "brick" token system for recycling, plotting, and student services
-• **Developer updates** - Progress on Game of Prompts, Lethos 2.2.0, Degen's World ErgoTrace tool, and various wallet improvements
+• **Developer updates** - Progress on Game of Prompts, Lithos 2.2.0, Degen's World ErgoTrace tool, and various wallet improvements
 • **Ergo Santa campaign** - Community airdrop campaign being organized with DEX trading incentives
 
 ## Notable Announcements or Decisions
 • Market making transitioning from professional service to community-run bots with existing MM providing guidance
 • Explorer infrastructure moving to P2P DAO nodes plus two main explorers (one with Qx, one shipping to Jamai)
 • SigmaUSD now available for swapping and liquidity provision on MewDEX
-• Lethos release 2.2.0 with multi-threaded sync and improved APIs
+• Lithos release 2.2.0 with multi-threaded sync and improved APIs
 • Ergo Santa campaign collecting token donations for DEX trading rewards
 
 ## Technical Concepts Explained
@@ -25,7 +25,7 @@ This community call covered Ergo Foundation's transition to community ownership,
 • **SigmaUSD mechanics** - Freemint and arbmint functions for price balancing between LP pools and bank contracts
 
 ## Action Items or Follow-ups Mentioned
-• HQ to create PR adding VaultPay integration to Nautilus wallet buy options
+• HQ to create PR adding VoltPay.Store integration to Nautilus wallet buy options
 • Community members testing market making bots over next 1-2 months with professional MM guidance
 • Explorer infrastructure transition to distributed P2P model with fallback to main explorers
 • Ergo Santa campaign seeking more token contributions for community airdrops
