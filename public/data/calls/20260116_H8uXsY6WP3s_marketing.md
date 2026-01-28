@@ -89,7 +89,7 @@ Full details: [transcript link]
 ### 5. Content Calendar Notes
 
 **Upcoming Events to Track:**
-- Chain Cache Spaces featuring Fitz and kushti (next Thursday)
+- ChainCash Spaces featuring Fitz and kushti (next Thursday)
 - Potential AI-focused hackathon (HQ's proposal)
 - Sigma book completion by x10zyn
 

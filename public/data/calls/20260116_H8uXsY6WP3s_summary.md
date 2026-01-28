@@ -18,7 +18,7 @@ This community call focused on "vibe coding" (AI-assisted development) within th
 ## Notable Announcements or Decisions
 
 • **New developers joining** - Michael and CannonQ mentioned as new vibe-coding contributors to the ecosystem
-• **Upcoming community call** - Next Thursday will feature a Chain Cache and Basis-focused spaces discussion with kushti and Fitz
+• **Upcoming community call** - Next Thursday will feature a ChainCash and Basis-focused spaces discussion with kushti and Fitz
 • **Core repository AI policies** - Node and interpreter repositories now include agents.md files restricting AI use to testing code only
 • **Sigma book project** - x10zyn is creating a comprehensive book on ErgoScript internals using AI analysis of repositories
 
