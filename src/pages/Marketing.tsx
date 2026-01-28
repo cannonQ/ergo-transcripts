@@ -267,7 +267,7 @@ export default function Marketing() {
               </div>
               <div className="bg-ergo-darker p-4 rounded">
                 <TrendingUp className="w-8 h-8 text-term-green mb-3" />
-                <h4 className="font-mono font-semibold mb-2">Institutional Memory</h4>
+                <h4 className="font-mono font-semibold mb-2">Public Record</h4>
                 <p className="text-sm text-ergo-light/70">
                   Complete history of project evolution, decisions, and rationale.
                 </p>
