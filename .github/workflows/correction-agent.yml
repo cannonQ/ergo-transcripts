@@ -6,7 +6,9 @@ on:
 
 jobs:
   process-correction:
-    if: github.event.label.name == 'correction'
+    if: >-
+      github.event.label.name == 'correction' ||
+      github.event.label.name == 'approved'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -32,3 +34,4 @@ jobs:
           ISSUE_NUMBER: ${{ github.event.issue.number }}
           ISSUE_BODY: ${{ github.event.issue.body }}
           ISSUE_TITLE: ${{ github.event.issue.title }}
+          TRIGGER_LABEL: ${{ github.event.label.name }}

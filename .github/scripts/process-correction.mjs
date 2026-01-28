@@ -13,6 +13,8 @@ const ISSUE_BODY = process.env.ISSUE_BODY || '';
 const ISSUE_TITLE = process.env.ISSUE_TITLE || '';
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
+const TRIGGER_LABEL = process.env.TRIGGER_LABEL || 'correction';
+const MAINTAINER_APPROVED = TRIGGER_LABEL === 'approved';
 
 // ---------------------------------------------------------------------------
 // Helpers
@@ -306,31 +308,37 @@ async function main() {
     return;
   }
 
-  // Claude validation
-  console.log('Validating with Claude...');
-  const validation = await validateWithClaude(parsed, allCorrections.slice(1), contextSnippets);
-  console.log('Claude verdict:', validation.verdict);
-  console.log('Claude reasoning:', validation.reasoning);
+  // Claude validation (skipped when maintainer adds "approved" label)
+  let validation;
+  if (MAINTAINER_APPROVED) {
+    console.log('Maintainer approved — skipping Claude validation');
+    validation = { verdict: 'APPROVE', reasoning: 'Maintainer manually approved via "approved" label.' };
+  } else {
+    console.log('Validating with Claude...');
+    validation = await validateWithClaude(parsed, allCorrections.slice(1), contextSnippets);
+    console.log('Claude verdict:', validation.verdict);
+    console.log('Claude reasoning:', validation.reasoning);
 
-  if (validation.verdict === 'REJECT') {
-    await commentOnIssue(
-      `🚫 **Correction Bot**: This correction was flagged for review.\n\n` +
-      `> ${validation.reasoning}\n\n` +
-      `A maintainer will review this issue manually.`
-    );
-    await addLabel('needs-review');
-    return;
-  }
+    if (validation.verdict === 'REJECT') {
+      await commentOnIssue(
+        `🚫 **Correction Bot**: This correction was flagged for review.\n\n` +
+        `> ${validation.reasoning}\n\n` +
+        `A maintainer will review this issue manually. To override, add the \`approved\` label.`
+      );
+      await addLabel('needs-review');
+      return;
+    }
 
-  if (validation.verdict === 'NEEDS_REVIEW') {
-    await commentOnIssue(
-      `🔍 **Correction Bot**: This correction needs human review before processing.\n\n` +
-      `> ${validation.reasoning}\n\n` +
-      `Found ${totalOccurrences} occurrence(s) across ${files.length} files. ` +
-      `A maintainer can apply this manually or approve automated processing.`
-    );
-    await addLabel('needs-review');
-    return;
+    if (validation.verdict === 'NEEDS_REVIEW') {
+      await commentOnIssue(
+        `🔍 **Correction Bot**: This correction needs human review before processing.\n\n` +
+        `> ${validation.reasoning}\n\n` +
+        `Found ${totalOccurrences} occurrence(s) across ${files.length} files. ` +
+        `To process anyway, add the \`approved\` label.`
+      );
+      await addLabel('needs-review');
+      return;
+    }
   }
 
   // APPROVED — apply corrections
