@@ -89,4 +89,13 @@
   .border-gradient {
     border-image: linear-gradient(45deg, var(--ergo-orange), var(--ergo-green)) 1;
   }
+
+  /* Hide scrollbar but keep scroll functionality */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
 }
