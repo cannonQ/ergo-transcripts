@@ -1,0 +1,149 @@
+{
+  "call_date": "2025-06-06",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:00",
+      "question": "What's new with Ergo 6.0 and when will it be final?",
+      "asker": "qx()",
+      "answer": "RC6 was just released, which is hopefully the final release candidate. The only difference from the final release is the maintenance warning height. We're doing additional testing now, but it should be the final version.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "release",
+        "maintenance",
+        "testing"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "05:56",
+      "question": "How effective is AI for writing blockchain code, particularly for Ergo development?",
+      "asker": "qx()",
+      "answer": "AI has dangerous hallucinations when writing complex blockchain code. I tried to implement sub-blocks related algorithms with AI, but found it more productive to write code manually than to review AI-generated code with subtle but critical issues. However, AI is great for trivial tasks like writing test variations.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "AI",
+        "development",
+        "testing",
+        "code quality"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "07:28",
+      "question": "How easy is it to integrate with Ergo's blockchain infrastructure?",
+      "asker": "implicit",
+      "answer": "Interfacing with Ergo platform is extremely easy - the tooling, blockchain, node, explorer, and all API endpoints are very straightforward to work with. The hard part is always the actual app itself, not the blockchain integration. You can wrap up endpoints and chain interactions super quickly.",
+      "responder": "qx()",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "API",
+        "integration",
+        "development",
+        "tooling"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "08:52",
+      "question": "What are the prospects for AI helping with ErgoScript and smart contract development?",
+      "asker": "implicit",
+      "answer": "It would be interesting to use AI for high-level definition of financial contracts using Ergo's contract templates. This could limit AI's freedom to hallucinate and produce more reliable results. There are some MCP efforts for getting LLMs working with ErgoScript that need testing.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "ErgoScript",
+        "smart contracts",
+        "AI",
+        "templates"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "13:25",
+      "question": "What's the status of new integrations with Rosen Bridge?",
+      "asker": "kushti",
+      "answer": "There was buzz about Kaspa integration into Rosen Bridge and also Tari. Both projects are now communicating with the Rosen team about potential integration.",
+      "responder": "kushti",
+      "category": "bridges",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Rosen Bridge",
+        "Kaspa",
+        "Tari",
+        "integration"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "41:56",
+      "question": "Where can someone get help setting up Ergo mining in Argentina?",
+      "asker": "Kufurums",
+      "answer": "Join the Sigmanauts mining group. Even if you don't mine to that pool, there are tons of channels where you can talk about mining, card tuning, and what rigs to use. The community is very non-competitive, accepting, and welcoming.",
+      "responder": "qx()",
+      "category": "mining",
+      "difficulty": "beginner",
+      "related_terms": [
+        "mining",
+        "Sigmanauts",
+        "setup",
+        "community"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "46:00",
+      "question": "How do you think ChainCash and Dexy will attract new users to Ergo?",
+      "asker": "community",
+      "answer": "ChainCash is like an assembly language layer for monetary systems that can be used from small communities to international corporate trade. For attracting users, we're discussing combining tokenized real-world assets with cryptocurrency forecasts using ChainCash, particularly for African international trades.",
+      "responder": "kushti",
+      "category": "tokenomics",
+      "difficulty": "advanced",
+      "related_terms": [
+        "ChainCash",
+        "Dexy",
+        "tokenization",
+        "international trade"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "47:36",
+      "question": "What are the practical applications for Dexy algorithmic stablecoins?",
+      "asker": "implicit",
+      "answer": "Dexy stablecoins (Gold, Silver, Lithium) can be used for portfolio hedging, insurance for physical assets, and trading non-produced tokenized assets. They're capital-efficient when used as buffers for insurance against non-delivery risks and can enable settlements even with algorithmic designs.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "advanced",
+      "related_terms": [
+        "Dexy",
+        "stablecoins",
+        "insurance",
+        "algorithmic"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "53:04",
+      "question": "How would a lithium-backed stablecoin help smaller mining operations?",
+      "asker": "implicit",
+      "answer": "Smaller lithium miners face logistics delays and price manipulation from bigger players. A hybrid lithium-backed stablecoin with insurance features would let them get payment and sustain operations during delivery delays. When they can't deliver physical lithium, it becomes algorithmic, then converts back to backed when delivery is made.",
+      "responder": "SPEAKER_02",
+      "category": "tokenomics",
+      "difficulty": "advanced",
+      "related_terms": [
+        "lithium",
+        "stablecoin",
+        "mining",
+        "logistics",
+        "insurance"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "call_date": "2025-02-28",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "00:26",
+      "question": "Why is it being renamed from 'Ergo AMA' to 'Ergo Ecosystem Weekly AMA'?",
+      "asker": "qx()",
+      "answer": "The term 'Ergo AMA' sounds strange because Ergo is a protocol where assets are not controlled by any single party. There is no party that can represent itself as 'Ergo', so the question is what does Ergo mean in that context. 'Ergo ecosystem' is better because it acknowledges that we have various players like commercial entities, non-profit organizations, and community groups that collectively represent the ecosystem rather than claiming to be the official voice of Ergo.",
+      "responder": "kushti",
+      "category": "governance",
+      "difficulty": "beginner",
+      "related_terms": [
+        "ergo foundation",
+        "ecosystem",
+        "governance",
+        "decentralization"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "02:26",
+      "question": "What is the role and status of the Ergo Foundation - is it an official entity?",
+      "asker": "implied",
+      "answer": "The Ergo Foundation was never designed to be official or to control the protocol. When you talk about something being 'official', that implies compliance, responsibility, and control, but the Ergo Foundation doesn't have control over the protocol by design. The term 'official' doesn't make sense in this context because what makes something official, and who can give such status to code or entities in a decentralized protocol?",
+      "responder": "kushti",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "ergo foundation",
+        "decentralization",
+        "governance",
+        "protocol control"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "22:57",
+      "question": "How can Ergo serve as programmable digital gold compared to Bitcoin?",
+      "asker": "implied",
+      "answer": "Bitcoin serves as digital gold but fails when you need trustless derivatives. With Ergo, you can have trustless derivatives and combine collateral with systems like ChainCash. This allows you to create derivative instruments for real-world needs like international trade, where you need trustless systems rather than relying on asset sheets that remote parties thousands of kilometers away might not trust. Programmable gold allows for much more sophisticated financial applications.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "advanced",
+      "related_terms": [
+        "digital gold",
+        "derivatives",
+        "chaincash",
+        "bitcoin",
+        "trustless"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "52:46",
+      "question": "Are there any plans to do joint eUTXO hackathons with Cardano or Bitcoin ecosystems to increase visibility?",
+      "asker": "Bobcat",
+      "answer": "That would be nice, especially with Rosen Bridge since it's interoperable and you can have a common token between chains. It's possible, but the question is whether others would be willing to participate. We're part of the UTXO alliance, so we could start discussions there and bring awareness to UTXO alliance calls. We could also discuss with Cardano peers about joint hackathons focusing on things like DLC contracts, atomic swaps, and other common functionality.",
+      "responder": "kushti",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "hackathon",
+        "cardano",
+        "bitcoin",
+        "utxo alliance",
+        "rosen bridge"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "61:04",
+      "question": "Are 2-minute block times causing slowness and hindering Ergo adoption, and will sub-blocks solve this?",
+      "asker": "Misfit toy",
+      "answer": "I never heard that 10-minute blocks are a problem for Bitcoin adoption. Block time depends on what kind of adoption you're talking about. If adoption means meme coin casinos like pump.fun, then Ergo's peer-to-peer nature isn't suited for that - not because of block time, but because hundreds of laptops running Ergo nodes wouldn't be happy being overloaded by casino activity. For things like programmable digital gold assets for reserves, 2-minute blocks are perfectly fine. Sub-blocks would help with payments, but most transactions would eventually be off-chain anyway.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "sub-blocks",
+        "block time",
+        "adoption",
+        "peer-to-peer",
+        "scalability"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "71:33",
+      "question": "What happens if Rosen guards make a mistake like the Bybit multisig incident - are funds exposed forever?",
+      "asker": "CLS90ZZZ",
+      "answer": "To fake out Rosen, you'd need to socially attack the watchers and hack the guards - compromise both systems. Even then, guards use cold devices for transactions and can see exactly what address funds are going to, unlike Ethereum where multisig contracts can be changed without detection. On Ergo, everything is viewable before signing cold transactions - the originating wallet, the boxes, the transferring funds, and the destination wallet. Ergo's multisig is immutable, natively supported, has no re-entrancy attacks, and is much simpler and safer than Ethereum implementations.",
+      "responder": "qx() and kushti",
+      "category": "bridges",
+      "difficulty": "advanced",
+      "related_terms": [
+        "rosen bridge",
+        "multisig",
+        "security",
+        "guards",
+        "watchers"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "35:21",
+      "question": "What new DeFi tools are coming to Ergo?",
+      "asker": "implied",
+      "answer": "Index funds are coming, which will be useful building blocks for financial infrastructure. For ChainCash, you could put multiple assets in reserve using index funds tokens as collateral for multi-asset reserves. Another interesting development is collateralized off-chain cash with off-chain clearing and redemption to layer 2. Most transactions in small communities would be cleared before redemption, so you could have 20x economic activity versus your collateral - much better than simple donations.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "advanced",
+      "related_terms": [
+        "index funds",
+        "chaincash",
+        "collateral",
+        "off-chain",
+        "layer 2"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "77:51",
+      "question": "What advice would you give to Ergo whales to utilize their investment for returns and help adoption?",
+      "asker": "implied",
+      "answer": "Whales should provide liquidity everywhere as it's quite profitable and good for price stability since people need to buy ERG when there's demand for liquidity. There are arbitrage opportunities across Rosen Bridge, lending on DuckPools and SigmaFi, supporting early projects, and yield farming on DEXes like Spectrum and MewDex. Many pairs can be created for arbitrage opportunities like Gluon Gold to SigmaUSD, and deeper liquidity creates more possibilities across the ecosystem.",
+      "responder": "qx() and kushti",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "liquidity",
+        "arbitrage",
+        "duckpools",
+        "sigmaFi",
+        "yield farming",
+        "spectrum"
+      ]
+    }
+  ]
+}

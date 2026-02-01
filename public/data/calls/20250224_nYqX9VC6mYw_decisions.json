@@ -1,0 +1,85 @@
+{
+  "call_date": "2025-02-24",
+  "call_title": "Ergo PoW Dev Update Feb 24th 2025 |  Wallet, Node, Reputation, Mining, Rosen Bridge, and more!",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "08:40",
+      "decision": "Oracle reward tokens will be DORT (Dollar Oracle Reward Tokens) instead of GORT",
+      "speaker": "qx()",
+      "context": "Clarification on SigmaUSD Oracle pool version 2 reward tokens",
+      "topic": "sigmausd",
+      "significance": "minor",
+      "quote": "I said last week that won't be GORT as in Gold Oracle Reward Tokens, it's going to be Dollar Oracle Reward Tokens, which is DORT"
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "07:47",
+      "commitment": "Beta release of Nautilus wallet with new design system",
+      "owner": "AnonBR",
+      "timeline": "next week",
+      "topic": "nautilus-wallet",
+      "quote": "If all goes well, we can have a beta release next week"
+    },
+    {
+      "id": 2,
+      "timestamp": "09:10",
+      "commitment": "Dexy Gold alpha UI completion",
+      "owner": "C8",
+      "timeline": "end of next week",
+      "topic": "dexy",
+      "quote": "ETA Dexy Gold alpha UI end of next week"
+    }
+  ],
+  "open_questions": [],
+  "reversals_or_updates": [
+    {
+      "id": 1,
+      "timestamp": "13:12",
+      "previous": "Rosen Bridge website was in testing phase",
+      "update": "Website is now open publicly",
+      "reason": "Testing completed successfully",
+      "speaker": "qx()",
+      "topic": "rosen-bridge"
+    }
+  ],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "10:40",
+      "fact": "Sigmanauts mining pool hash rate at 103 terahash",
+      "speaker": "NoRoYogi",
+      "topic": "mining"
+    },
+    {
+      "id": 2,
+      "timestamp": "10:47",
+      "fact": "Largest weekly collection of ERG from Storage Rent was 29.7 ERG",
+      "speaker": "NoRoYogi",
+      "topic": "mining"
+    },
+    {
+      "id": 3,
+      "timestamp": "11:20",
+      "fact": "Sharknet funded with 190 ERGs from community for LLM smart contract auditor project",
+      "speaker": "NoRoYogi",
+      "topic": "sharknet"
+    },
+    {
+      "id": 4,
+      "timestamp": "07:57",
+      "fact": "Nautilus wallet now supports 10, 15, 18, 21, and 24 word recovery phrases",
+      "speaker": "AnonBR",
+      "topic": "nautilus-wallet"
+    },
+    {
+      "id": 5,
+      "timestamp": "10:14",
+      "fact": "Added 100 gigabytes storage volume to Sigmanauts mining pool server",
+      "speaker": "NoRoYogi",
+      "topic": "mining"
+    }
+  ]
+}

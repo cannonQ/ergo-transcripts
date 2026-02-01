@@ -1,0 +1,166 @@
+{
+  "call_date": "2025-04-18",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - April 17th",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Palm Token Multi-Chain Launch via Rosen Bridge",
+      "category": "bridges",
+      "start_time": "02:06",
+      "end_time": "06:24",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Palm token successfully launched multi-chain using Rosen Bridge, supporting both Binance Smart Chain and Cardano with working arbitrage between chains. Staking is operational on both sides with ISPO continuing on Cardano side.",
+      "key_terms": [
+        "Palm token",
+        "Rosen Bridge",
+        "multi-chain",
+        "arbitrage",
+        "ISPO",
+        "staking"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Dynamic Staking System Architecture and Features",
+      "category": "defi",
+      "start_time": "07:22",
+      "end_time": "11:09",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Palm implements dynamic unlocked staking with 7-day epochs where tokens can be unstaked instantly without waiting periods. System includes APY/APR calculator and has already attracted 250 million palms staked worth approximately $300,000.",
+      "key_terms": [
+        "dynamic staking",
+        "unlocked staking",
+        "epochs",
+        "APY calculator",
+        "liquidity"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Market Making and Liquidity Management Strategy",
+      "category": "defi",
+      "start_time": "11:09",
+      "end_time": "15:08",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Token launch included proper market making with $350,000 liquidity on Cardano and $150,000 on Binance side, generating $150,000 daily volume. Professional approach differs from typical Ergo/Cardano project launches that don't implement market making.",
+      "key_terms": [
+        "market making",
+        "liquidity",
+        "volume",
+        "token launch",
+        "price stability"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Palm DAO Cross-Chain Governance Architecture",
+      "category": "governance",
+      "start_time": "15:08",
+      "end_time": "22:51",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Palm DAO will enable cross-chain governance using Rosen Bridge to aggregate votes from multiple chains into single execution layer, potentially on Ergo. Plans include legal incorporation in Japan for enforceable on-chain contracts with regulatory compliance.",
+      "key_terms": [
+        "Palm DAO",
+        "cross-chain governance",
+        "legal incorporation",
+        "regulatory compliance",
+        "enforceable contracts"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Ergo Miners Dashboard Launch and Features",
+      "category": "technical",
+      "start_time": "23:05",
+      "end_time": "23:52",
+      "primary_speaker": "qx()",
+      "summary": "Mark developed a new professional dashboard at ergominers.com for the Sigmanauts mining pool with significantly upgraded UI/UX. The dashboard rivals major mining pool interfaces and supports various mining scenarios including casual gaming setups.",
+      "key_terms": [
+        "mining pool",
+        "dashboard",
+        "Sigmanauts",
+        "ergominers.com",
+        "UI upgrade"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Colorado Springs 2025 Conference Planning",
+      "category": "community",
+      "start_time": "23:52",
+      "end_time": "25:11",
+      "primary_speaker": "qx()",
+      "summary": "Ergo conference scheduled for October 10-12, 2025 in Colorado Springs with open-source planning via GitHub. Community members can contribute suggestions, sign up, and submit pull requests for collaborative event organization.",
+      "key_terms": [
+        "Colorado Springs",
+        "conference 2025",
+        "open-source planning",
+        "GitHub",
+        "community collaboration"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Node 6.0 Development and RocksDB Performance",
+      "category": "technical",
+      "start_time": "27:10",
+      "end_time": "28:34",
+      "primary_speaker": "qx()",
+      "summary": "Kushti has Node 6.0 RC3 successfully syncing with mainnet and continues sub-blocks development. Node 5.125 with RocksDB shows significant performance improvements for mining wallets and smart contracts, reducing load times from seconds to near-instant.",
+      "key_terms": [
+        "Node 6.0",
+        "RocksDB",
+        "sub-blocks",
+        "performance improvement",
+        "full sync"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Ergo Integration Requirements for Palm Token",
+      "category": "ecosystem",
+      "start_time": "29:01",
+      "end_time": "32:12",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Palm tokens cannot be bridged to Ergo until equivalent staking functionality is built to maintain regulatory compliance across all supported chains. The team is expanding development resources and may publish technical requirements for community development.",
+      "key_terms": [
+        "regulatory compliance",
+        "equivalent functionality",
+        "staking requirements",
+        "multi-chain parity"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Kraken Listing Pathways and Requirements",
+      "category": "marketing",
+      "start_time": "36:41",
+      "end_time": "40:41",
+      "primary_speaker": "qx()",
+      "summary": "Two potential Kraken listing paths identified: official route requiring increased wallet holders (currently 500 vs needed 10,000) for Rosen-ERG on Cardano, and unofficial $50,000 finder's fee option. Sigmanauts developing wallet holder growth strategies including faucets and promotions.",
+      "key_terms": [
+        "Kraken listing",
+        "wallet holders",
+        "Rosen-ERG",
+        "finder's fee",
+        "growth strategies"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Gaming Community Mining Outreach Strategy",
+      "category": "community",
+      "start_time": "44:33",
+      "end_time": "49:37",
+      "primary_speaker": "Matus Bor",
+      "summary": "Discussion on targeting gamers for mining during non-gaming hours using intermittent mining approaches. Proposal for gamifying mining through idle game mechanics where characters evolve based on mining contributions, with community artists ready to support development.",
+      "key_terms": [
+        "gaming community",
+        "idle mining",
+        "gamification",
+        "HashMons",
+        "intermittent mining"
+      ]
+    }
+  ]
+}

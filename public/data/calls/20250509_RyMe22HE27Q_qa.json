@@ -1,0 +1,150 @@
+{
+  "call_date": "2025-05-09",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:54",
+      "question": "How does the voting process work for miners when upgrading to version 6.0?",
+      "asker": "qx()",
+      "answer": "Miners need to specify voting parameters in their config files. For some soft forks, developers provide two versions - one with the voting option set to 'on' and another set to 'off'. The voting period lasts for three months, and if most miners indicate support (like they did for the 5.0 soft fork), it eventually becomes the default option.",
+      "responder": "kushti",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "soft fork",
+        "mining",
+        "consensus",
+        "node upgrade"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "05:03",
+      "question": "Are you still looking for people to run public devnet for sub-blocks testing?",
+      "asker": "qx()",
+      "answer": "Yes, ideally we need a few miners to see competition between miners and test realistic scenarios. It would be good to test a mixed option where some miners are on sub-block supporting clients and other miners are not, as this would be quite realistic for mainnet deployment.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "sub-blocks",
+        "devnet",
+        "mining",
+        "testing"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "14:01",
+      "question": "Should we start naming node files differently for LevelDB vs RocksDB so users know which to choose?",
+      "asker": "qx()",
+      "answer": "It would be good to compile a table showing which platforms are supported. RocksDB supports fewer platforms but has better overall stability. RocksDB is generally much better for SSD storage, while if you're using HDD, LevelDB might be more efficient.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "database",
+        "node",
+        "storage",
+        "performance"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "20:18",
+      "question": "What are the plans for extending Ergo's contractual layer after version 6.0?",
+      "asker": "implicit",
+      "answer": "There's value in extending capabilities to support different execution environments. Currently only Ergo chain is supported, but it would be good to easily extend to other blockchains and off-chain execution environments. ErgoTree makes it possible to do contracts that execute off-chain and then submit to blockchain, which isn't possible with EVM.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "smart contracts",
+        "ErgoTree",
+        "cross-chain",
+        "off-chain execution"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "22:14",
+      "question": "How would off-chain contract execution work with collateral and trust?",
+      "asker": "qx()",
+      "answer": "In a minimal case, you need a trusted context to do execution, similar to using oracles on-chain but more efficient and private. On blockchain you're just finalizing financial agreements and outcomes, while off-chain you need a trusted context provider, but that's not different from oracle usage.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "off-chain",
+        "oracles",
+        "smart contracts",
+        "trust model"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "34:34",
+      "question": "What is BASIS and how does it relate to ChainCash?",
+      "asker": "Ursa Minor",
+      "answer": "BASIS is similar to ChainCash and uses modified ChainCash reserve contracts. It supports on-chain notes with minimal requirements - just being signed by a reserve provider and optionally a tracker entity. The main idea is to use it in environments where there's some off-chain trust, like community currencies or developer communities.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "advanced",
+      "related_terms": [
+        "ChainCash",
+        "reserve contracts",
+        "community currencies",
+        "off-chain payments"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "45:41",
+      "question": "When can we expect two-second transactions from sub-blocks to go live on testnet?",
+      "asker": "big 3D",
+      "answer": "Maybe next week even. The changes aren't quite predictable in ETA, but they shouldn't be too big. We could deploy today if it's a public devnet with agreement it could be shut down in 2-3 weeks. For backwards compatibility, it's better to finalize things before deployment, but for testing without compatibility needs, we can do deployments sooner.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "sub-blocks",
+        "testnet",
+        "two-second transactions",
+        "deployment"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "56:33",
+      "question": "What are your thoughts on Rosen using SNARKs versus Bitcoin OS's approach with contracts?",
+      "asker": "Bobcat",
+      "answer": "Rosen's approach is probably simpler. Recent protocols like BitVM and Bitcoin OS don't consider mass exit scenarios - if multiple fraud proofs are posted on blockchain, the main network would be congested. With Rosen Bridge, watchers would pick up fraud before it happens, and if not, guards would catch it. These new trustless solutions have attack vectors that aren't even considered yet.",
+      "responder": "kushti",
+      "category": "bridges",
+      "difficulty": "advanced",
+      "related_terms": [
+        "SNARKs",
+        "BitVM",
+        "fraud proofs",
+        "mass exit",
+        "Rosen Bridge"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "66:19",
+      "question": "What happens if Ergo hash rate stays low while rewards decrease? Is the blockchain security under threat?",
+      "asker": "community member",
+      "answer": "You can't really compare current hash rates to early Ergo because we switched from Autolykos version 1 to version 2, and the comparison isn't straightforward. Even after the switch to version 2, demands on RAM are growing with time, which affects mining dynamics. There's always an equilibrium between profit and how many people mine.",
+      "responder": "kushti",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "hash rate",
+        "Autolykos",
+        "mining rewards",
+        "blockchain security"
+      ]
+    }
+  ]
+}

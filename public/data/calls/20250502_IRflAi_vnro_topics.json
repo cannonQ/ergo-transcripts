@@ -1,0 +1,246 @@
+{
+  "call_date": "2025-05-02",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - May 1st",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "African Government Tokenization Discussion and Real-World Asset Use Cases",
+      "category": "ecosystem",
+      "start_time": "00:28",
+      "end_time": "01:58",
+      "primary_speaker": "kushti",
+      "summary": "kushti discusses ongoing talks with African government officials about tokenizing real-world assets like minerals to create funding models for local mining cooperatives. He mentions having numerous business discussions despite skipping Token 2049 Dubai.",
+      "key_terms": [
+        "tokenization",
+        "real-world assets",
+        "minerals",
+        "cooperatives",
+        "funding model"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Ergo 5.0.26 and 6.0 Development Progress",
+      "category": "technical",
+      "start_time": "01:58",
+      "end_time": "04:02",
+      "primary_speaker": "kushti",
+      "summary": "kushti provides updates on Ergo versions 5.0.26 (supporting block candidate regeneration) and 6.0 (17,000 lines of code under review). He explains the voting process requiring 90% miner support for activation in three months.",
+      "key_terms": [
+        "version 5.0.26",
+        "version 6.0",
+        "block candidate regeneration",
+        "voting",
+        "super majority"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Sub-blocks Implementation and Peer-to-Peer Layer Development",
+      "category": "technical",
+      "start_time": "04:02",
+      "end_time": "07:53",
+      "primary_speaker": "kushti",
+      "summary": "kushti details sub-blocks development including new P2P layer messages, transaction validation rules, and backward compatibility. He explains that 99.9% of transactions can be included in sub-blocks and older clients will remain supported.",
+      "key_terms": [
+        "sub-blocks",
+        "peer-to-peer layer",
+        "transaction validation",
+        "backward compatibility",
+        "soft fork"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Post-Sub-blocks Development Focus and Real-World Adoption Strategy",
+      "category": "technical",
+      "start_time": "07:53",
+      "end_time": "11:25",
+      "primary_speaker": "kushti",
+      "summary": "kushti discusses developer community feedback on priorities after sub-blocks, emphasizing the need to improve developer experience and target real-world applications. He notes the shift from sandbox experimentation to practical financial tooling at scale.",
+      "key_terms": [
+        "developer experience",
+        "real-world adoption",
+        "financial tooling",
+        "proof of work",
+        "corporate reserves"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "BRIC Token Recycling System Student Success",
+      "category": "community",
+      "start_time": "11:25",
+      "end_time": "16:49",
+      "primary_speaker": "qx()",
+      "summary": "qx() reports on the successful BRIC token system for student plot recycling, saving students $1,000 so far with 60-70 active wallets. Students are finding creative ways to maximize rewards and appear to be trading BRIC among themselves.",
+      "key_terms": [
+        "BRIC token",
+        "recycling",
+        "TipperBot",
+        "student wallets",
+        "peer trading"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Mesh Networks and Off-chain Payment Systems Design",
+      "category": "technical",
+      "start_time": "17:18",
+      "end_time": "23:43",
+      "primary_speaker": "kushti",
+      "summary": "kushti explores concepts for off-chain currency systems backed by on-chain reserves, similar to ChainCash but using mesh networks or trusted servers. He discusses possibilities for offline transactions using NIPoPoWs proofs and SMS-based services.",
+      "key_terms": [
+        "mesh networks",
+        "off-chain currency",
+        "ChainCash",
+        "NIPoPoWs",
+        "SMS payments"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Physical Device Security for Offline Payments",
+      "category": "technical",
+      "start_time": "23:43",
+      "end_time": "24:55",
+      "primary_speaker": "qx()",
+      "summary": "qx() and kushti discuss the possibility of physical devices containing stablecoins that never reveal seed phrases, exploring physically unclonable functions (PUF) technology for secure offline payments.",
+      "key_terms": [
+        "physical devices",
+        "seed phrase",
+        "PUF",
+        "physically unclonable function",
+        "offline payments"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Cardano vs Ergo Development Experience Comparison",
+      "category": "technical",
+      "start_time": "25:03",
+      "end_time": "30:27",
+      "primary_speaker": "MGPai",
+      "summary": "MGPai shares his experience developing staking contracts on Cardano, highlighting Ergo's superior tooling and libraries despite being much smaller. He praises FleetSDK and AppKit while criticizing Cardano's overcomplicated development process.",
+      "key_terms": [
+        "Cardano development",
+        "FleetSDK",
+        "AppKit",
+        "UTXO complexity",
+        "developer tooling"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "EVM Development Speed vs Security Trade-offs",
+      "category": "technical",
+      "start_time": "30:27",
+      "end_time": "37:09",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of EVM's faster development time versus security concerns including re-entrancy attacks and audit requirements. kushti criticizes EVM as a fundamentally broken model despite apparent ease of use.",
+      "key_terms": [
+        "EVM",
+        "re-entrancy",
+        "security audits",
+        "DAO hack",
+        "decentralized computer"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Open Source vs Closed Source DeFi Projects",
+      "category": "ecosystem",
+      "start_time": "37:09",
+      "end_time": "39:18",
+      "primary_speaker": "MGPai",
+      "summary": "MGPai discusses the importance of open source contracts in DeFi, noting that Cardano has too many closed source projects while Ergo maintains better open source practices. The conversation touches on business models around open source software.",
+      "key_terms": [
+        "open source",
+        "closed source",
+        "DeFi",
+        "business models",
+        "community standards"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Ergo Storage Rent and Block Size Management",
+      "category": "technical",
+      "start_time": "39:18",
+      "end_time": "42:55",
+      "primary_speaker": "kushti",
+      "summary": "kushti explains Ergo's flexible block size limits that miners can adjust and storage rent mechanism that prevents garbage data accumulation. He notes Ergo is unique in having storage rent while other chains lack this feature.",
+      "key_terms": [
+        "storage rent",
+        "block size limit",
+        "garbage data",
+        "miners",
+        "UTXO set"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Bitcoin OP_RETURN Controversy and Data Storage",
+      "category": "technical",
+      "start_time": "42:55",
+      "end_time": "43:48",
+      "primary_speaker": "kushti",
+      "summary": "kushti reflects on historical Bitcoin OP_RETURN debates from 2015, arguing that simple data writing mechanisms with anti-spam measures are better than trying to prevent data encoding entirely.",
+      "key_terms": [
+        "OP_RETURN",
+        "Bitcoin",
+        "data encoding",
+        "anti-spam",
+        "UTXO dust"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Palmyra Real-World Asset Tokenization Cost Advantages",
+      "category": "defi",
+      "start_time": "44:17",
+      "end_time": "46:53",
+      "primary_speaker": "MGPai",
+      "summary": "MGPai explains how Ergo's low MinUTXO costs make it ideal for bulk tokenization compared to Cardano's expensive 1.2 ADA requirement per token. He discusses demurrage handling strategies for long-term asset storage.",
+      "key_terms": [
+        "Palmyra",
+        "MinUTXO",
+        "bulk tokenization",
+        "demurrage",
+        "asset storage"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "Grassroots Marketing Philosophy and EF Grant Process",
+      "category": "marketing",
+      "start_time": "48:42",
+      "end_time": "55:28",
+      "primary_speaker": "qx()",
+      "summary": "Discussion of Ergo Foundation's grassroots marketing approach and available grants for community projects. qx() emphasizes that community members contribute voluntarily and encourages proposal submissions for funding.",
+      "key_terms": [
+        "grassroots marketing",
+        "EF grants",
+        "community contribution",
+        "proposal process",
+        "Sigmanauts"
+      ]
+    },
+    {
+      "topic_id": 15,
+      "title": "Blockchain Password Storage Security Discussion",
+      "category": "technical",
+      "start_time": "56:01",
+      "end_time": "60:20",
+      "primary_speaker": "kushti",
+      "summary": "Community question about storing encrypted passwords on-chain leads to discussion of 4KB storage limits, stealth addresses for privacy, and trade-offs between accessibility and security layers.",
+      "key_terms": [
+        "password storage",
+        "encryption",
+        "stealth addresses",
+        "data chunks",
+        "storage limits"
+      ]
+    }
+  ]
+}

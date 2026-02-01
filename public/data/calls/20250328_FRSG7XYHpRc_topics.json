@@ -1,0 +1,176 @@
+{
+  "call_date": "2025-03-28",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - March 27th",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "New Community Format Introduction",
+      "category": "community",
+      "start_time": "00:00",
+      "end_time": "01:19",
+      "primary_speaker": "qx()",
+      "summary": "qx() introduces a new community-focused format where anyone can join the Zoom call to participate directly. Community members including Grayman (Sigmanauts), Mark the Shark (at Mining Disrupt), and HQ3rr (MewFinance dev) are featured as speakers.",
+      "key_terms": [
+        "community format",
+        "Zoom participation",
+        "Sigmanauts",
+        "Mining Disrupt",
+        "MewFinance"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Mining Disrupt Conference Report and Pool Insights",
+      "category": "ecosystem",
+      "start_time": "01:19",
+      "end_time": "06:46",
+      "primary_speaker": "Marc the Shark",
+      "summary": "Marc the Shark reports from Mining Disrupt, a Bitcoin mining conference in Florida. He discusses different pool payout strategies including full pay per share (FPPS), decentralized pools like Ocean, and feedback on the Sigmanauts mining pool's competitiveness and user experience needs.",
+      "key_terms": [
+        "Mining Disrupt",
+        "full pay per share",
+        "FPPS",
+        "PPLNS",
+        "Ocean pool",
+        "Bitcoin mining",
+        "pool operators"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Sigmanauts Mining Pool Strategy and Dashboard Improvements",
+      "category": "ecosystem",
+      "start_time": "06:46",
+      "end_time": "10:20",
+      "primary_speaker": "Marc the Shark",
+      "summary": "Discussion of improving the Sigmanauts mining pool's dashboard and website to compete better with other pools. Marc built a prototype dashboard and collected feedback on monetization strategies, reliability concerns, and the need for better marketing materials explaining demurrage and bonus tokens.",
+      "key_terms": [
+        "Sigmanauts mining pool",
+        "dashboard prototype",
+        "demurrage",
+        "bonus tokens",
+        "pool reliability",
+        "uptime"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Mining Pool Profit Comparison Tool Proposal",
+      "category": "ecosystem",
+      "start_time": "10:48",
+      "end_time": "14:41",
+      "primary_speaker": "HQ3rr",
+      "summary": "HQ3rr proposes creating a tool to compare mining profitability across pools by showing dollar value earnings per gigahash. The tool would demonstrate how Sigmanauts pool miners earn more through demurrage and bonus tokens compared to other pools over the past 30 days.",
+      "key_terms": [
+        "profit comparison tool",
+        "gigahash earnings",
+        "dollar value comparison",
+        "demurrage rewards",
+        "mining profitability"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Ergo 6.0 Mainnet Activation Timeline",
+      "category": "technical",
+      "start_time": "15:20",
+      "end_time": "19:04",
+      "primary_speaker": "Kushti",
+      "summary": "Kushti announces that Ergo 6.0 is ready for mainnet activation with voting potentially starting in early May. The update enables trustless Bitcoin relay, bullet proof verification, and other advanced features. A Sigmanauts DAO group is coordinating with mining pools and exchanges for the transition.",
+      "key_terms": [
+        "Ergo 6.0",
+        "mainnet activation",
+        "trustless Bitcoin relay",
+        "bullet proofs",
+        "zero-knowledge proofs",
+        "sub-blocks"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Testnet Node Updates and Community Participation",
+      "category": "technical",
+      "start_time": "19:04",
+      "end_time": "21:25",
+      "primary_speaker": "qx()",
+      "summary": "Discussion of required updates to RC4 for mining nodes and encouragement for community members to run testnet nodes. More testnet nodes help developers test without relying on mainnet, improving the development process.",
+      "key_terms": [
+        "testnet nodes",
+        "RC4 update",
+        "node synchronization",
+        "development testing",
+        "mining nodes"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Ergo Book Monetary Theory Chapter",
+      "category": "community",
+      "start_time": "21:25",
+      "end_time": "25:51",
+      "primary_speaker": "Grayman",
+      "summary": "Grayman discusses his contribution to the Ergo Book focusing on monetary theory rather than technical aspects. He's writing about the historical development of fiat currency, how it replaced gold and silver, and how cryptocurrencies can restore decentralized monetary properties.",
+      "key_terms": [
+        "Ergo Book",
+        "monetary theory",
+        "fiat currency history",
+        "gold standard",
+        "silver coinage",
+        "Bretton Woods",
+        "decentralized money"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "AI Mining vs Cryptocurrency Mining Resource Competition",
+      "category": "ecosystem",
+      "start_time": "25:51",
+      "end_time": "32:06",
+      "primary_speaker": "Marc the Shark",
+      "summary": "Discussion of competition between AI and cryptocurrency mining for electrical capacity and hardware resources. Marc reports that AI farms claim to run at nearly 100% capacity, while Grayman suggests there may be significant idle time that GPU mining could utilize.",
+      "key_terms": [
+        "AI mining competition",
+        "electrical capacity",
+        "GPU mining",
+        "data center uptime",
+        "idle computing time",
+        "tier three data centers"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Cryptocurrency as Money vs Technology Philosophy",
+      "category": "governance",
+      "start_time": "32:06",
+      "end_time": "38:40",
+      "primary_speaker": "Kushti",
+      "summary": "Kushti and Grayman discuss the philosophical foundation that cryptocurrency should focus on creating better money rather than just technology. They emphasize the importance of open source, permissionless, and peer-to-peer architecture over high TPS systems that compromise decentralization.",
+      "key_terms": [
+        "money vs technology",
+        "open source",
+        "permissionless systems",
+        "peer-to-peer architecture",
+        "decentralization",
+        "TPS compromises"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Sub-blocks Implementation in Bitcoin Forks",
+      "category": "technical",
+      "start_time": "38:40",
+      "end_time": "41:34",
+      "primary_speaker": "Kushti",
+      "summary": "Kushti responds to a question about implementing sub-blocks in Bitcoin forks like Litecoin. He mentions collaboration with Bitcoin Cash developers on similar concepts called Tailstorm and discusses the technical feasibility through compact blocks protocol improvements.",
+      "key_terms": [
+        "sub-blocks",
+        "Bitcoin forks",
+        "Litecoin",
+        "Bitcoin Cash",
+        "Tailstorm",
+        "compact blocks",
+        "soft fork"
+      ]
+    }
+  ]
+}

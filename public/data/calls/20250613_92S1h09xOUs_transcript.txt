@@ -1,0 +1,511 @@
+[00:13] **Armeanio**: Good morning!
+[00:16] **Armeanio**: Good morning, everybody.
+[00:19] **qx()**: We've got a surprise guest today.
+[00:21] **qx()**: We need to thank Joe's dog for waking him up early this morning and getting him onto his couch.
+[00:28] **Armeanio**: Yeah.
+[00:31] **qx()**: That's a good boy right there.
+[00:35] **kushti**: Yeah, so it seems Joe's dog is truly a good dog.
+[00:40] **qx()**: He works for the community, that's for sure.
+[00:44] **qx()**: Joe, it's good to have you here.
+[00:45] **qx()**: What's new?
+[00:46] **qx()**: We haven't seen you in forever.
+[00:47] **Armeanio**: Oh, yeah, these are kind of early in my time, so I've been a little lazy, focused elsewhere.
+[00:55] **Armeanio**: Let's see where to start.
+[00:58] **Armeanio**: Well, let's start talking about the Ergo event that we're putting together.
+[01:03] **Armeanio**: So qx() and I have been talking for like a year.
+[01:08] **Armeanio**: Get the Ergo community together, have a meetup.
+[01:13] **Armeanio**: And so slowly we've been lining up speakers.
+[01:17] **Armeanio**: We've got event space right now in the process of getting a liquor license, and so I'm hoping that we can put together a nice day where we kind of cover some of the development that's going on in the ecosystems, the security assumption, the idea behind the project, why it matters, etc.
+[01:36] **Armeanio**: You know, crypto conferences, they can be pretty nice, right?
+[01:41] **Armeanio**: But they also can be kind of heavy on the wallet.
+[01:46] **qx()**: That is true, especially if you're an event host, right?
+[01:50] **qx()**: Especially if you're a booth holder.
+[01:53] **Armeanio**: Yeah, I get it.
+[01:54] **Armeanio**: I mean, for a lot of them, it's their business.
+[01:56] **Armeanio**: And I think a lot of events, you know, they do a good job putting together a good show.
+[02:00] **Armeanio**: But barrier of entry is something where, I don't know, sometimes you see the same people, which, you know, I guess is nice in terms of like networking, marketing, etc.
+[02:13] **Armeanio**: But I don't know, I think opening it up, making the barrier to entry lower, we'll try to get broadcast online and it looks like we're going to get a nice lineup of people that we don't always hear from in the Ergo community.
+[02:31] **Armeanio**: MiGoreng is going to make it, sounds like qx() is going to try to make it, Allison is going to try to make it and I'm hoping that when the time rolls around, we can highlight some MVPs that people are working on in the ecosystem, cover some projects, the what, the why, get into why this matters for a peer-to-peer network.
+[02:56] **Armeanio**: It would also be great to get some content from other applications of people that are further away.
+[03:04] **Armeanio**: DuckPools is a good example.
+[03:06] **Armeanio**: Australia to Colorado is not exactly quick, but it would be awesome to see more content from at least that team.
+[03:20] **Armeanio**: I think others as well.
+[03:22] **Armeanio**: With Rosen, let's see, you know, right now we're working on Runes and Doge.
+[03:27] **Armeanio**: Sadly, Doge has kind of been kicking our ass because the nodes and, you know, the explorers are pretty tight.
+[03:35] **Armeanio**: It's got some crappy infrastructure, but nobody cares because it's a meme.
+[03:41] **qx()**: It doesn't matter.
+[03:43] **qx()**: Yeah.
+[03:44] **kushti**: How are discussions with new chains going on?
+[03:49] **kushti**: Zano, Kaspa and so on.
+[03:51] **Armeanio**: Sure, there's been discussions between our team.
+[03:55] **Armeanio**: We're trying to get them to understand what Rosen is, why it matters.
+[03:58] **Armeanio**: I think one unique, let's say, feature set that Rosen offers is this ability to have unilateral access for both the network coin and then tokens on top of the network with relatively clear security assumptions.
+[04:17] **Armeanio**: You know, I've always thought the structure of like markets and let's say the crypto space was a little bit weird.
+[04:28] **Armeanio**: You know, it's kind of a gatekept thing where, you know, you have people that will, I don't know.
+[04:35] **Armeanio**: It's like, let's delist Zcash, which has really done some great work in terms of research and cryptography and kind of like the execution side.
+[04:45] **Armeanio**: And then it's like, hey, let's list fart coin.
+[04:49] **Armeanio**: And that kind of tells you the incentives and the alignment are screwy as hell.
+[04:55] **Armeanio**: But I do think that one thing that kind of interests me with this idea of scaling Rosen into new environments is you do kind of get this situation where you have non-linear maintenance.
+[05:12] **Armeanio**: So as a single team, as we add chains, chains will update periodically the hard fork infrastructure.
+[05:21] **Armeanio**: Every once in a while, we'll get upgrades, etc.
+[05:26] **Armeanio**: And so the question has been, how do we create the right incentives to where we create external support for maintenance?
+[05:36] **Armeanio**: That's actually an interesting question even with centralized exchanges a lot of the times. Something we've ran into over the years, I'm sure you know kushti has some good stories about that where you know suddenly something's in maintenance mode and we're saying hey why is this in maintenance mode and then we got to chase down the engineers and you know what node are you running and you know it's kind of figure out what's going on.
+[06:04] **Armeanio**: So one thing I've been discussing with MHS as well as MiGoreng and kind of our own dev team is the idea of creating the right incentive alignment, right, to where it's like if, let's say, three, four years ago, Ergo heard about this framework that created cross-chain access.
+[06:28] **Armeanio**: What would it take for us to have the right incentive to build it and maintain it?
+[06:36] **Armeanio**: Personally, I'm a fan of this idea of taking a percentage of outbound transactions from new chains and having them set up some sort of, you know let's say a Paideia structure on Ergo something like that where you know if things are properly maintained and functioning they can potentially earn a percentage right you know and that kind of creates like this, I don't know, let's call it like a future dividend based on their work based on you know keeping everything live versus the traditional access is, you know, you have a series of meetings with, you know, marketing and, managers that probably even, I don't know.
+[07:26] **qx()**: I'm going to say, don't know which end of the hammer to use, but, how do you scale that Joe without putting too much of burden on the Rosen team or the guards, you know, to keep it, are they keeping up to date?
+[07:46] **qx()**: Are we managing individual people?
+[07:48] **qx()**: It's a, it's better to maybe create like dead DAOs on each chain and then have the DAOs themselves.
+[07:53] **qx()**: And then you withhold money if the DAOs aren't doing a good job.
+[07:57] **Armeanio**: I think that, I think the simplest way to streamline it would be to keep it on Ergo.
+[08:01] **Armeanio**: We have a lot of the tooling and also the distribution cost is low, right?
+[08:06] **Armeanio**: So, you know, if you're talking about paying people a regular transaction.
+[08:12] **Armeanio**: We have low transaction fees.
+[08:14] **Armeanio**: Paideia is a nice structure in terms of having something that's transparent and community oriented.
+[08:22] **Armeanio**: So I think that's a good structure for that.
+[08:27] **Armeanio**: If you create proper open standards, which I think started, I do think that we could improve the Rosen contribution document.
+[08:38] **Armeanio**: But having that public kind of allows open specifications that if people can meet, then it's just a matter of review test, which is its own friction point, right?
+[08:54] **Armeanio**: It certainly makes the barrier of entry a lot lower than the standard listing, which is you sign a contract that says we can delist you at any time for any reason, and you need to meet these market metrics.
+[09:11] **Armeanio**: Whether that's reality or not, you can figure out how to plug that gap, which is scammy as hell.
+[09:17] **Armeanio**: And then, you know, you also have this idea that then you pass it to engineers that you have no idea what you're actually buying in terms of security, right?
+[09:27] **Armeanio**: The only time I've been able to understand kind of the full exchange stack and what's securing assets is after they get hacked, right?
+[09:36] **Armeanio**: There's always a postmortem and say, well, you know, our two or three multisig failed and, you know, sorry, we've suspended the thing and I don't know.
+[09:47] **Armeanio**: It's a weird thing.
+[09:49] **Armeanio**: You don't actually know what you're getting into from a security perspective, which is a terrible assumption, right?
+[09:57] **Armeanio**: You're signing a contract that says you don't really get to see the security of what you're buying, and we can delist you at any time.
+[10:05] **Armeanio**: Yeah.
+[10:06] **kushti**: Also forget about privacy, about, yeah, about everything basically.
+[10:12] **Armeanio**: Yeah, really anything, anything that's like valuable or disruptive, you know, we're going to delist you and you know, here's a, you know, after fart coin comes fuck coin, right?
+[10:23] **kushti**: Yeah, that's why I think fart coins are very pleasant for them, right?
+[10:31] **kushti**: So they're not about any risks about privacy.
+[10:38] **kushti**: So absolutely harmless farts basically.
+[10:43] **Armeanio**: Yeah.
+[10:45] **Armeanio**: So, so I've, I've always like wished there was some mechanism to say, okay, well, you know, there's, there's a lot of like, if you're a fair launch project, right, you automatically launch in a market that has a ton of friction where you're basically not going to get listing until you, you know, can pay whatever you need to pay, right?
+[11:09] **Armeanio**: And, you know, there are some exchanges that I've talked to that are like, Hey, are you post a token generation event?
+[11:15] **Armeanio**: And I said, well, you know, we're, we're a coin, not really a token.
+[11:23] **qx()**: What's your contract address, Joe?
+[11:25] **Armeanio**: Yeah, and you know, well, we don't really want to do that unless you're going to give us like an internal allocation of, you know, your supply.
+[11:35] **Armeanio**: It's like, oh, do you know how proof of work works?
+[11:41] **Armeanio**: This idea of, you know, fair launched cryptocurrencies.
+[11:47] **Armeanio**: We're in a weird space.
+[11:49] **Armeanio**: There's a lot of language, you know, I don't know of any commodity in reality where it's like, we had multiple seed rounds, but we're, we're actually, you know, the commodity, right?
+[12:01] **Armeanio**: It is what it is.
+[12:05] **qx()**: So how does that work with, I mean, let's say, let's take Doge from that, right?
+[12:11] **qx()**: So let's say, you know, you're saying the tooling isn't great, or the infrastructure isn't great for Doge nodes and those kind of things.
+[12:19] **qx()**: So that burden is going to go to the guards, right?
+[12:22] **qx()**: Every guard is going to have to figure out what node they want to run, how they're going to set it up, if they're going to use a public one, if there's a public one, or run their private.
+[12:31] **qx()**: But the question is, so when chains like, let's say Doge, oh, yeah, yeah.
+[12:36] **Armeanio**: So, so with Doge, Doge is just kicking our ass, right?
+[12:40] **Armeanio**: There's no other way to say it.
+[12:42] **Armeanio**: Just cause you know, right?
+[12:43] **Armeanio**: Rate limits are super strict.
+[12:44] **Armeanio**: So we actually had to design a new module for a multi-resource backend.
+[12:52] **Armeanio**: Right?
+[12:53] **Armeanio**: Like Doge became like an engineering challenge to say, okay, well, if we want this, you know, to, to meet like the specifications and expectations of all of our other implementations, we're actually going to have to do some special engineering.
+[13:06] **Armeanio**: So we're all Doge devs now at the end of the day.
+[13:12] **qx()**: Is there a Doge DAO already, Joe?
+[13:15] **Armeanio**: No.
+[13:17] **qx()**: No, so my question, my question is, so, you know, we're talking, you're talking about exchanges delisting things and I can understand.
+[13:25] **qx()**: You can see it both ways, right?
+[13:27] **qx()**: The cost effectiveness of keeping the infrastructure and the security risks for a chain that has very little movement anymore is a risk for the exchange in there.
+[13:37] **qx()**: But also you can see it as a money-making endeavor, as the more the threat of delisting is, the more the chain is going to be used, the more money maybe the chain will fork over to the CEX.
+[13:47] **qx()**: So I get both ways there.
+[13:48] **Armeanio**: I look at it a little bit differently, to be honest.
+[13:51] **Armeanio**: I think that what's been happening in the space is since the emergence of DeFi, transaction volume has moved away from the central exchanges and onto DEXes.
+[14:04] **Armeanio**: What happens is, if you look at the DEX volume, five years ago versus today, the growth curve on that is a magnitude higher than the actual internal volume of exchanges.
+[14:17] **Armeanio**: And so rather than saying, OK, well, we can be entry points into these different networks and they said, no, we're going to try to directly compete.
+[14:31] **Armeanio**: And so then they start listing whatever is popular for the day on DEXes.
+[14:38] **Armeanio**: And that's a losing proposition.
+[14:41] **Armeanio**: But the real interesting thing is going to be just how rails change in the next five years in our industry.
+[14:49] **Armeanio**: We're already starting to slowly see this ability for people to move from their bank to chains directly.
+[14:58] **Armeanio**: And at that point, I don't see much use or utility for exchanges beyond representing a mechanism to hold assets for users.
+[15:10] **Armeanio**: They become a custodial venture rather than more of an active trade engine market, which even then, I don't know how other than let's say liquidity that they've already collected, I don't see why they're any different than any other type of OTC desk that people could potentially go to.
+[15:35] **Armeanio**: I think it's an old idea that hopefully, at some point, is just less popular, and things are turning that way.
+[15:45] **qx()**: Well, yeah, I mean, you see these exchanges going to more like their aim is to keep the funds on the exchange.
+[15:51] **qx()**: So like making creating casino type of things.
+[15:56] **qx()**: Creating their own kind of side chains and sub-chains to keep people on their system.
+[16:03] **qx()**: So, yeah.
+[16:04] **qx()**: But my question I was trying to get to is I feel like with the guards, you know, if we're going to take a different approach than central exchanges where we're looking at each project individually, we're not looking at the interoperability, we're not looking about connecting everybody like Rosen Bridge.
+[16:22] **qx()**: So I feel the guards in order to not say, okay, if we onboard a chain and in two years that chain starts having very little transaction going through Rosen Bridge or the chain itself is lower, do we look at it as, okay, as a guard, this node is quite a burden to run now considering there's no money coming in to support running that node.
+[16:46] **qx()**: And we're going to prune it, or do we look at it as, OK, the collective of the interoperability and the network we're creating with Rosen balances out?
+[16:55] **qx()**: Because we may have Ethereum, we may have Cardano that's giving a lot of volume to Rosen to fund Rosen, to fund the guards, to fund the watchers.
+[17:03] **qx()**: And that would take care of smaller chains perhaps at the cost of losing that balance of money there between the two.
+[17:12] **qx()**: But the benefit is that we're keeping this network alive between all chains and giving a fair shot.
+[17:18] **qx()**: So I'm wondering how that discussion is going to go or how that mindset is going to go among the guards or the watchers for that kind of thing.
+[17:27] **Armeanio**: Well, I think one thing that is a constant disappointment in the crypto space is that words don't really mean anything, right?
+[17:38] **Armeanio**: I've even been in meetings where they're like, oh, you know, coins and tokens, they're basically the same thing.
+[17:45] **Armeanio**: And it's like, yeah, they're just letters for people to speculate on, which is terrible for a peer-to-peer network.
+[17:53] **Armeanio**: I do think that there's a lot of benefit in trying to create an alignment for, I'm not even going to say marketing, I'm just going to say education, right?
+[18:06] **Armeanio**: Because marketing, I don't know, talk is cheap and execution is priceless on chain, right?
+[18:14] **Armeanio**: So I do think there's a lot of things out there that oftentimes people don't really explore beyond the five-minute chart.
+[18:24] **Armeanio**: There's a mentality in the space that you just look at the letters and they're all kind of the same thing.
+[18:31] **Armeanio**: There's a variety of different assets.
+[18:32] **Armeanio**: I would love to see more education, more content, etc., long term, not just like from within the Rosen team, but from kind of the infrastructure around.
+[18:43] **Armeanio**: Like if you're going to be a watcher on a network, it's kind of value alignment for you to talk about the what, the why, etc.
+[18:54] **Armeanio**: Right?
+[18:55] **Armeanio**: And I do think that if you look at one of the, I don't know, biggest failures of education in the crypto industry, I would say a lot of it is exchange, right?
+[19:06] **Armeanio**: They're the first point of like public access.
+[19:10] **Armeanio**: And, you know, usually it's just garbage.
+[19:24] **kushti**: Yeah, it's very interesting and to the best of my knowledge quite unique thing, right, to have those kind of deep in products like Oracle pools, like Gold Oracle and Rosen Bridge network, right, where people can, like everyone, right, can earn some tokens just by letting some software run on a computer.
+[20:00] **kushti**: And that's, I think, still super undervalued.
+[20:08] **qx()**: Yeah, you know, kushti and Joe, we have a ton of watchers, right?
+[20:12] **qx()**: We have hundreds of watchers out there between the two chains or something like that.
+[20:17] **qx()**: You'd think with that kind of amount of people actively running machinery to benefit a network, these people would be the loudest mouthpieces out there, you know, promoting cross-chain interoperability, you know, preaching Ergo to everybody, preaching Rosen Bridge.
+[20:34] **qx()**: But it's interesting, at what point can we convince these people that the more that they, you know, it's not just set and forget with these kind of things.
+[20:42] **qx()**: You're running a tool that is directly dependent on your participation and your promotion of it.
+[20:49] **qx()**: So I hope to see that.
+[20:51] **qx()**: I feel like it's somebody like baking bread and selling it and never putting a sign out of their shop that they're selling bread kind of thing.
+[21:01] **Armeanio**: A lot of bridges in the crypto space are designed to be optimistic to basically offset computational cost.
+[21:11] **Armeanio**: And the idea with Rosen is let's move computational costs to another layer, spread it out across a set of actors, and then create an incentive for them to run that part of our system.
+[21:27] **Armeanio**: So yeah, I kind of look at it in my own weird way as like your verification mining, right?
+[21:37] **Armeanio**: And I would hope that as things take off, that kind of grows in popularity because it is something that as Rosen sees more activity, hopefully those verification miners earn more.
+[21:56] **Armeanio**: I do know that one thing that we've done that is not popular so far is we have avoided stable coins.
+[22:04] **Armeanio**: And the reasoning behind that is if you have a foundation that can be frozen, seized, etc., you cannot really honestly claim that it's backed one to one, right?
+[22:21] **Armeanio**: Because that's subject to change at any time based on, you know, the whims of a central actor that you don't control.
+[22:32] **Armeanio**: That's something that, you know, people do get pretty excited about this idea of freeze and seize stables.
+[22:43] **Armeanio**: But I see that as one of the most like underappreciated risks that's not really priced in.
+[22:50] **Armeanio**: And I don't know.
+[22:51] **Armeanio**: Let's see how that evolves as regulations evolve.
+[22:55] **Armeanio**: But that's certainly a weird stack.
+[23:01] **kushti**: But then you can bring something like USDM, right?
+[23:08] **kushti**: Well, Zano has freedom USD, but yeah, it's quite new.
+[23:14] **kushti**: It's a little weird.
+[23:15] **kushti**: So it could be risky, per se, because most of such private stable coins failed.
+[23:25] **kushti**: There's a few problems on, yeah, just because you have some boxes and so on.
+[23:35] **kushti**: Yeah.
+[23:35] **Armeanio**: And you know, I would love to see Dexy USD at some point.
+[23:39] **Armeanio**: You mean private version of it?
+[23:43] **Armeanio**: No, I mean, we're, we're going to launch Dexy Gold, right?
+[23:46] **Armeanio**: And I think at some point we could update the Oracle and.
+[23:49] **Armeanio**: Let's see.
+[23:54] **kushti**: So tomorrow we'll have a call with Dan.
+[24:02] **kushti**: So yeah, let's see.
+[24:03] **kushti**: So what's our plans there in regards with Dexy lithium and so on.
+[24:09] **kushti**: Then, yeah, Dexy silver, need to get some clarity here.
+[24:15] **kushti**: And then, yeah, Dexy USD, we can launch.
+[24:22] **kushti**: We need a little bit of inputs here.
+[24:27] **Armeanio**: It'd be good to see Dexy Gold in the wild anyway, to be honest.
+[24:31] **kushti**: Some managing efforts for the updated Oracle pool and then launching Dexy USD.
+[24:38] **kushti**: It's quite straightforward, I believe.
+[24:43] **qx()**: Just a different oracle and, yeah well the contracts are the same basically. What are the what are the chances of running multiple data points on oracle 2.0 so that the Dexy Gold people could also report USD or no it's, it literally it has to be or more security wise should be separate oracle?
+[25:10] **kushti**: I don't know, it's actually hard to say about security, but also if it will be a gold pool also delivering USD, then yes, USD bank to be updated.
+[25:25] **kushti**: But yeah, if we are going to update the current USD pool to version two, then yeah, well, that the bank can continue to work with this.
+[25:42] **kushti**: So, yeah, it's probably better to update the pool, right, to version two.
+[25:56] **kushti**: Just that.
+[25:58] **kushti**: We'll update in the first place.
+[26:00] **kushti**: So yeah, please reach me if interested.
+[26:04] **kushti**: Yeah, there is a telegram group on that where we can now revive efforts to get Dexy USD and some.
+[26:20] **qx()**: All right.
+[26:23] **qx()**: So Joe, back to the meetup real quick.
+[26:26] **qx()**: We're almost we ran over everything again in the Sigmanauts group, Joe kushti and We've got mostly a finalized schedule, but not quite to release it.
+[26:37] **qx()**: We might take one more stab at it on Sunday And then put it out into the wild along with the booth signups again as a reminder But I'm excited.
+[26:47] **qx()**: It's gonna be fun.
+[26:48] **qx()**: I will try to, we're going to try to stream as much as we can enjoy like what you said about getting people like DuckPools involved even though they're not coming.
+[27:00] **qx()**: I think we create create a hybrid event to where in between so for online people there will be you know 12 hours of pure conversation and pure presentations to the people in person it'll be just the four or five presentations that we do and in between the spaces like when we do the hike do the dinner do the lunch we can have people like Kras come in and jump in and do the online part presentation about
+[27:27] **qx()**: So I think that brings a good point that we can probably try to do that.
+[27:31] **qx()**: So to the outside, if you are not at the event, they'll have a good five, six, seven hours of straight talking from Ergo from those kinds of people.
+[27:40] **qx()**: So yeah, great point, Joe.
+[27:41] **qx()**: We'll try to get that to happen.
+[27:43] **Armeanio**: I would love to give open source developers a platform to speak and address the problem.
+[27:50] **Armeanio**: You know, it's, it's honest when you go to a crypto event and it's like, okay, well, what do you do?
+[27:53] **Armeanio**: I've, you know, basically build open code and then it's like, okay, well, you can pay, you know, 10, 20, sometimes 30,000 for a booth.
+[28:02] **Armeanio**: That's not like the most exchange, but it is what it is.
+[28:10] **qx()**: Any luck you're still thinking about coming?
+[28:16] **kushti**: We'll check in July.
+[28:18] **qx()**: July.
+[28:19] **qx()**: Okay.
+[28:22] **qx()**: All right.
+[28:22] **qx()**: That'd be, that'd be amazing.
+[28:23] **qx()**: That'd be really cool.
+[28:25] **kushti**: Yeah.
+[28:25] **kushti**: So, can not, check your, what's, what's possible.
+[28:29] **kushti**: Let's see.
+[28:31] **kushti**: Then, yeah.
+[28:35] **qx()**: What's happened in the dev down, what's happened in the Ergo development ecosystem?
+[28:41] **kushti**: A lot of things.
+[28:42] **kushti**: So, there is a need to, release 6.0 finally.
+[28:47] **kushti**: So, yeah, there is a new code for 5.0.27 and so 5.1 somewhat new release also, right?
+[29:03] **kushti**: So hopefully it can be done around Monday, right?
+[29:08] **kushti**: So it's finalized and yeah, please help with testing.
+[29:15] **kushti**: So yeah, I will test on 102 nodes.
+[29:20] **kushti**: And then, yeah, well, 6.0 hopefully will be released next week, maybe closer to the end of the week if no more issues will be found.
+[29:35] **kushti**: So, last week Dusick found some consensus, possibly critical vector to split the 5.0 and 6.0 nodes, but yeah, it's hardly exploitable probably.
+[29:58] **kushti**: You need to do proof of work on two different blocks basically.
+[30:04] **kushti**: But yeah well anyway better to fix all those vectors so oh yeah it's done now so hopefully it's the last issue and yeah so we are good to go and then yeah well
+[30:28] **kushti**: We need still to set activation dates.
+[30:32] **kushti**: Currently I'm thinking about something like June 25th to July 1st.
+[30:38] **kushti**: And then in July we can start to deploy sub-blocks supporting nodes into the public testnet as well.
+[30:53] **kushti**: So yeah, it would be good to mix nodes, not updated like yours, maybe mining nodes and also new nodes with sub-blocks support.
+[31:06] **kushti**: To see how it would take place in the mainnet as well.
+[31:15] **kushti**: All right, so yeah, well, I'm currently doing some fixes and optimizations with sub-blocks.
+[31:27] **kushti**: And well, hopefully in the next few days, there will be another DevNet update.
+[31:35] **kushti**: And then, yeah, well, we can start releasing maybe versions since the public testnet, right?
+[31:48] **kushti**: Like 6.5 maybe.
+[31:51] **kushti**: Let's see.
+[31:53] **kushti**: Still I'm not sure about versioning here.
+[31:56] **kushti**: And then, yeah, there will be a need to formalize security, right?
+[32:03] **kushti**: And so we'll discuss designs with people around.
+[32:12] **kushti**: And yeah, then let's see what could be a mainnet activation date about.
+[32:21] **kushti**: Then also published sigma chains refactoring plan.
+[32:29] **kushti**: So it seems it's actually not so much work to do to start at least some merge mined sidechains, right?
+[32:45] **kushti**: The simplest option, actually.
+[32:48] **kushti**: And then, yeah, well, think about support for dedicated sigma chains.
+[32:54] **kushti**: So, yeah, it seems there is some interest here, right?
+[32:59] **kushti**: And then, yeah, it's also worth to think how to scale it and how to organize development.
+[33:13] **kushti**: So we'll publish some thoughts on that.
+[33:16] **kushti**: Hopefully in coming days, but let's see.
+[33:16] **kushti**: So also thinking which videos to do for the anniversary.
+[33:22] **kushti**: So probably there will be two videos, one about sub-blocks and so on.
+[33:29] **kushti**: And another one is about the end game, the end game for crypto and crypto.
+[33:40] **kushti**: And yeah, I think that the progress is good in regards with development.
+[33:48] **kushti**: Probably the bigger issue now is to find something for this, right?
+[34:00] **kushti**: Tech for real, like, I don't know, like BRICK.
+[34:06] **kushti**: BRICK.
+[34:07] **qx()**: Hell yeah, BRICK.
+[34:09] **qx()**: I tell you, we had to cut those kids off.
+[34:11] **qx()**: We had to stop it because kids were we had to just freeze BRICK collection or distribution because kids were going out during cleanup on the on the milestone plate behind me and just taking everybody's scrap papers and trying to turn them in for more BRICK even though they weren't their plots so we had to be like yeah it's done for the it's done for the semester guys oh that was funny
+[34:39] **qx()**: Let's see, we got, oh yeah, let me mention too, guys.
+[34:42] **qx()**: I put it in chat.
+[34:43] **qx()**: 15,000 ERGs have been collected so far for the raffle for the Fiat Unwrap, the US Fiat Unwrap.
+[34:51] **qx()**: 67.99 ERG to go.
+[34:54] **qx()**: Now, I'm not calling out all you people that keep asking when US access, when US access, but it has to be, I'm looking at the numbers here, there are, 1400 tickets, 94 backers in my whole lifetime here at Ergo.
+[35:15] **qx()**: I think there are way more than 94 people that have bitched about not having us access.
+[35:21] **qx()**: So what are you guys doing?
+[35:23] **qx()**: Put your money where your mouth is.
+[35:25] **qx()**: Donate to this damn raffle and let's get it taken care of.
+[35:28] **qx()**: All right.
+[35:29] **qx()**: Get it done.
+[35:33] **qx()**: I'm sure you've heard thousands of users bitch about us access guys, right?
+[35:38] **qx()**: You've been here longer.
+[35:39] **Armeanio**: Yeah.
+[35:40] **Armeanio**: You got to use HQx's new chat.
+[35:42] **Armeanio**: That way there's a cost of whining.
+[35:45] **qx()**: Yeah, that's good idea.
+[35:48] **qx()**: He should, HQx should run it through AI before it pops up the wallet.
+[35:53] **qx()**: And if he notices it's a whining post, then he should charge triple for the transaction.
+[36:00] **qx()**: That'd be ideal.
+[36:03] **qx()**: Marketing, but that's us.
+[36:05] **qx()**: I just talked about watchers and how they should be promoting the chain and how they should be engaging more.
+[36:15] **qx()**: Great.
+[36:15] **qx()**: All right.
+[36:15] **qx()**: We got some questions, guys.
+[36:16] **qx()**: You want to see if we got some questions?
+[36:18] **Armeanio**: Yeah, let's go through.
+[36:19] **Armeanio**: That's why we're here.
+[36:27] **qx()**: Let's see some chats not really Paul starts asking for time frame for Banxa, Banxa I guess on ramp integrations, I do not know that'd be a question for Glasgow pop it in the chat. Joe's no longer paying attention to EOP's shenanigans yeah
+[36:52] **qx()**: Ask anybody on the EF that MiGoreng or Glasgow.
+[36:58] **qx()**: They'd be able to get back on that kind of thing.
+[37:01] **qx()**: Let's see.
+[37:08] **qx()**: Mark's asking more about Doge.
+[37:09] **qx()**: He's saying, since Doge is a fork of BTC, why was development different?
+[37:13] **qx()**: Or has Doge implemented different tooling that Rosen has to interact with that's different from BTC?
+[37:18] **Armeanio**: No, it has to do with data collection, scraping the chain.
+[37:23] **Armeanio**: So you have the blockchain, then you have infrastructure that's wrapped around the chain that's constantly calling it and reading the chain, putting it in a better format.
+[37:35] **Armeanio**: So a lot of that infrastructure around Doge itself It's pretty strict, right?
+[37:42] **Armeanio**: They have pretty tight rate limits.
+[37:44] **Armeanio**: And so then it becomes hard to extract a lot of data from Doge because the infrastructure doesn't really support that.
+[37:57] **qx()**: All right.
+[38:01] **qx()**: Zurich says that sometimes they hallucinate that Doge becomes an Ergo sidechain.
+[38:08] **qx()**: Let's see.
+[38:14] **qx()**: You got anybody else?
+[38:18] **qx()**: They're asking about Keystone implementation.
+[38:20] **qx()**: That would be through...
+[38:22] **qx()**: I haven't heard anything.
+[38:23] **qx()**: You hear anything through that, Joe, for the finals of that?
+[38:26] **qx()**: kushti, anything from the DevDAO?
+[38:28] **kushti**: Yeah, let me check the chats.
+[38:32] **kushti**: Some fresh messages there.
+[38:36] **kushti**: One second.
+[38:37] **kushti**: Keystone.
+[38:41] **qx()**: Joe Byron says you've abandoned us.
+[38:44] **qx()**: I don't think Joe's abandoned us, guys.
+[38:46] **qx()**: Joe's one of those that are still in chat, still hanging around, still answering questions.
+[38:51] **qx()**: It's just a time thing.
+[38:52] **qx()**: He likes to sleep in past 6 a.m. Colorado time.
+[38:57] **Armeanio**: Yeah, when the AMAs are at 6 a.m., there's a certain incentive where I just kind of don't want to look at the screen like an idiot, you know?
+[39:05] **Armeanio**: I need some time to warm up.
+[39:10] **qx()**: Here we go, Joe.
+[39:11] **qx()**: This is for you from Ursa Minor.
+[39:13] **qx()**: Can a token like Rosen have a... Oh, sorry.
+[39:16] **qx()**: Go for it.
+[39:17] **qx()**: Go for it, kushti.
+[39:18] **kushti**: You got it up there.
+[39:18] **kushti**: So, yeah, for Keystone, yeah, seems there is some chats.
+[39:30] **kushti**: Yeah, something about USB feature, key stock connection entry.
+[39:37] **kushti**: So yeah, it seems, yeah, well, some parts still under implementation.
+[39:45] **kushti**: But yeah, most of it done, I believe.
+[39:49] **qx()**: Nice.
+[39:52] **qx()**: All right, let's see.
+[39:54] **qx()**: Ursa Minor is saying, can a token like Rosen have a bigger market cap than ERG?
+[39:59] **qx()**: It's a good question for both of you.
+[40:01] **Armeanio**: I don't know.
+[40:02] **Armeanio**: I think that relative to what it offers, ERG is very mismatched based on the rest of the crypto market.
+[40:13] **Armeanio**: That's my opinion, especially someone who's dug through different stacks and kind of working with interoperability between chains.
+[40:23] **Armeanio**: I think a lot of it is more, maybe as an open community, we're not as good at talk and hype and marketing, but I don't know, like off-chain, like promises and talk is cheap and honor is priceless, right?
+[40:42] **Armeanio**: And I would say on-chain, you know, marketing is cheap as hell, but execution is priceless.
+[40:49] **Armeanio**: And I think we do a pretty damn good job in terms of execution.
+[40:54] **Armeanio**: Execution research implementation.
+[40:57] **Armeanio**: I think we punch way above our weight.
+[40:59] **Armeanio**: So I would say that the mismatch there is probably Ergo itself.
+[41:05] **Armeanio**: And that is what it is.
+[41:06] **Armeanio**: Maybe it's a function of awareness.
+[41:10] **Armeanio**: I think that's probably the largest.
+[41:13] **Armeanio**: Access is definitely something as well.
+[41:16] **Armeanio**: That's a struggle.
+[41:18] **Armeanio**: But, when you have something that's some, you know, vibe coded white paper with some vibe coded shit, that's for a billion dollars, that's not even real.
+[41:31] **Armeanio**: You know, the markets, you know, there, there, there's a certain, I don't know, belief that, you know, the market is always, you know, right.
+[41:40] **Armeanio**: But then it's also always changing.
+[41:41] **Armeanio**: So I don't know.
+[41:44] **Armeanio**: To be honest, I, for most of the time so far with Rosen, I haven't really been tracking the token too much.
+[41:53] **Armeanio**: I've been focusing on execution, right?
+[41:57] **Armeanio**: Just because I would rather there be like software.
+[42:03] **Armeanio**: I don't know, when I joined the crypto space, it was about like, okay, we're going to have this distributed network and then we're going to have distributed software on top of a distributed network.
+[42:14] **Armeanio**: And so that's really been more my focus than, I don't know.
+[42:20] **Armeanio**: Number go up.
+[42:22] **Armeanio**: Yeah, like I feel like an idiot if I talk too much about something that doesn't exist, right?
+[42:29] **Armeanio**: Maybe that's me, but you know.
+[42:33] **Armeanio**: I think that the execution side is the most important thing I can contribute.
+[42:39] **Armeanio**: We do have some open discussions and proposals in the Paideia DAO, and I'm hoping that the community is paying attention and is going to give feedback.
+[42:55] **Armeanio**: I sometimes I drop ideas and it's like the best thing I hope for is just feedback.
+[43:01] **Armeanio**: Like I'd love to hear like, Hey, Armeanio, this is a very stupid idea.
+[43:04] **Armeanio**: Oh, you know, and this is how to make it better.
+[43:06] **Armeanio**: I'd love that.
+[43:08] **Armeanio**: So feel free to like, no, refine it.
+[43:17] **qx()**: And the first part of that question, Joe, he was targeting essentially if Rosen gets bigger than ERG what's that say for the security of ERG like Ergo will that in my personal opinion i think those things go hand in hand i don't really see rosen getting out of hand compared to ergo where the where what's it called where the hash of ergo is so far down yeah i don't i personally think they go hand in hand
+[43:48] **Armeanio**: I don't think long term that makes too much practical sense, but maybe in crypto sense, I mean, weird shit happens every day.
+[43:56] **Armeanio**: But I do think that one thing that we haven't really discussed long term with Rosen is this potential to take a lot of the stable coins that we've been playing with for years on Ergo and putting them into new environments.
+[44:15] **Armeanio**: Right.
+[44:15] **Armeanio**: And I think that once you know, as we continue to iterate, you know, perhaps Gluon scales well, perhaps Dexy scales well, etc., that we have the ability to, you know, offer some unique value propositions into other ecosystems, especially as kind of the centralized stables become more regulated, more monitored, more AML KYC, more, you know, of the kind of old banking system coming into play, which I think is probably inevitable looking at how bills or legislation is advancing.
+[44:58] **Armeanio**: So I think one unique thing about Ergo is we are kind of gray.
+[45:04] **Armeanio**: Nobody's heard of us, which is a certain advantage, right?
+[45:07] **Armeanio**: We have a lot of things that just people aren't tracking.
+[45:12] **Armeanio**: And I think that kind of gives us some room to play around.
+[45:17] **kushti**: Yeah, and that's how you can actually play and try what can scale.
+[45:29] **kushti**: Like Bitcoin was in shadows also before the Wikileaks blockade moment, right?
+[45:39] **kushti**: So when Wikileaks got cut from Visa, MasterCard and so on.
+[45:45] **kushti**: And then, yeah, it was the first probably big marketing campaign for Bitcoin, actually.
+[45:55] **kushti**: So, yeah, well, with tech stack, maybe it's about time, right, to get also some big marketing campaign of that kind.
+[46:19] **qx()**: All right, let's see what else we have.
+[46:23] **qx()**: CannonQ posts, for people, there's a free play sponsored by the Sigmanauts today at 5 p.m. UTC in Cyberverse.
+[46:31] **qx()**: If you guys haven't played Cyberverse for a while, hop back in.
+[46:34] **qx()**: I mean, they're still doing update after update after update.
+[46:38] **qx()**: Very, very cool game.
+[46:40] **qx()**: Multi-Chain, Cardano, Ronin, Ergo.
+[46:44] **qx()**: But you don't really notice when you go in the game.
+[46:47] **qx()**: That's the cool thing about it.
+[46:48] **qx()**: So hop on their free play sponsor for the Sigmanauts.
+[46:52] **qx()**: What else?
+[46:58] **qx()**: JayL says, I hope Joe still loves us.
+[47:05] **qx()**: Zo says, Joe, can you guys speak about liquidity and a hole on Rosen Bridge?
+[47:12] **qx()**: Before you do, let me just remind people that the idea discussions are up.
+[47:17] **qx()**: I'm going to post it in chat right now.
+[47:19] **qx()**: Please, please go, please chat and look at the discussions.
+[47:27] **qx()**: Engage the people.
+[47:28] **qx()**: I see, oh, there's two comments on Treasury proposal number one.
+[47:32] **qx()**: So that's good.
+[47:33] **qx()**: At least somebody's kind of chatting it.
+[47:35] **qx()**: I just put it in chat.
+[47:36] **qx()**: Please go there, talk about it.
+[47:39] **qx()**: But yeah, sorry, go for it, Joe.
+[47:40] **qx()**: Can you speak about liquidity and a hole on Rosen Bridge?
+[47:44] **Armeanio**: Sure.
+[47:45] **Armeanio**: You know, a large part of our focus thus far has just been base scaling across chains, right?
+[47:53] **Armeanio**: And one thing that we definitely need to play catch up on in terms of like access, which Rosen at the end of the day is infrastructure, right?
+[48:03] **Armeanio**: I think it would be great to see Rosen integrated into more wallets in different ecosystems.
+[48:09] **Armeanio**: That way, you know, the like user barrier to use it is lower.
+[48:14] **Armeanio**: I do think that continued dApp partnerships is really important, but one thing that I think sometimes is overlooked is Capital flows to where it's respected.
+[48:28] **Armeanio**: I think that's a good starting point.
+[48:31] **Armeanio**: And let's say we have access to Bitcoin.
+[48:35] **Armeanio**: That is a great starting point.
+[48:38] **Armeanio**: And it's a question of saying, OK, it's ease of access plus incentive.
+[48:44] **Armeanio**: And I do think that having more incentives across applications for liquidity is going to be quite an important part of how Rosen scales now as like the team. One thing that we see in a lot of infrastructure is you know you say okay well we built this and then we go find you know one or two entities that basically hold ninety five percent of the value of the bridge. You know there's a lot of bridges around that like like more or less it's couple large funds I'm gonna say kind of farming everybody right and you know that is
+[49:26] **Armeanio**: I guess good for really rapid growth and TVL and bridges, but it also is something where it's dependent on select few.
+[49:36] **Armeanio**: I've always hoped that with Rosen, we create something unique in terms of open specs and we scale first more laterally into different ecosystems, different chains.
+[49:50] **Armeanio**: And as we do that, gains in a certain popularity and marketing, etc., comes once there's something to execute on.
+[50:02] **Armeanio**: And sometimes crypto is very backwards, where you have massive liquidity for a promise.
+[50:12] **Armeanio**: They have massive liquidity in a project that's like, hey, we might build something.
+[50:17] **Armeanio**: It's closed source and hopefully we deliver it to main net.
+[50:23] **Armeanio**: And there have been times where it's like they quote unquote run out of money or quit and they don't even open source what they did do.
+[50:33] **Armeanio**: So how do you know there's even work there?
+[50:37] **Armeanio**: I don't know.
+[50:37] **Armeanio**: Again, I've always thought that if you want to look at organic growth, execution has to come first for long-term sustainability.
+[50:49] **Armeanio**: That's not popular in the crypto space, but I do think that it opens us up to this potential where, you know, at any moment, you know, Rosen could get marketing and then we have like the foundation, to actually make that scale.
+[51:07] **Armeanio**: And I do want to play around with things, right?
+[51:09] **Armeanio**: It's like, okay, well, if we, support Monero, I think that would be pretty cool.
+[51:13] **Armeanio**: If we, you know, back into a lot of the exchange layer twos, it'd be a little funny to relist Monero.
+[51:20] **Armeanio**: But from a marketing perspective, that's, It's not my strong suit.
+[51:27] **Armeanio**: I think that the most important thing is just to have solid execution and then you have something to market.
+[51:40] **Armeanio**: Because how many crypto narratives have people heard where it's just like drum beats, oh, this is so sexy, this is amazing, da da da.
+[51:47] **Armeanio**: And then at the end of the day, the narrative changes, right?
+[51:50] **Armeanio**: It's like, well, what actually got delivered?
+[51:52] **Armeanio**: What can we execute here?
+[51:54] **Armeanio**: And I get tired of that.
+[51:56] **Armeanio**: I've been, I don't know, maybe I've been in crypto too long where it's like your white paper and your marketing is cheap, execute.
+[52:04] **Armeanio**: You know, and then you have something that, you know, if it's done well, you know, it'll last.
+[52:10] **Armeanio**: And if it's open source, people can make it better.
+[52:12] **qx()**: Yeah.
+[52:25] **qx()**: Grayman wants some clarity.
+[52:27] **qx()**: Some more clarity.
+[52:28] **qx()**: He wants to hear from kushti real quick.
+[52:30] **qx()**: Maybe that's the last one about the security hash.
+[52:33] **qx()**: If Rosen gets above Ergo, essentially he's saying, can the market cap of all tokens in Ergo exceed the market cap of ERG?
+[52:39] **qx()**: And if so, does that compromise security?
+[52:42] **qx()**: Is he answered different in proof of stake networks?
+[52:45] **qx()**: kushti?
+[52:47] **kushti**: No.
+[52:49] **kushti**: But how?
+[52:50] **kushti**: I don't think so.
+[52:51] **kushti**: So even more in the long term, a big market cap of tokens also does mean a big amount of storage rent, which is increasing security actually.
+[53:08] **kushti**: So here is dynamics may be different from other blockchains because of storage rent.
+[53:16] **kushti**: But here, so well, tokens do contribute in the long term.
+[53:24] **kushti**: Well, actually already contributing to the security budget, right, of mining.
+[53:33] **kushti**: So just in recent weeks, so there were like meets of SigmaUSD and meets of SigmaRSV collected and so on, like all the NFTs, right, which can be sold on auctions and so on.
+[53:54] **kushti**: So, yeah, well, with time, well, a big total market cap of tokens is actually good and adding to the security, I think.
+[54:11] **kushti**: So yeah, well, here Ergo is quite unique, right?
+[54:15] **kushti**: So it's, it's different from, I don't know, from like every other blockchain, because of demurrage components, which is adding a new variable in the mining security budget equation.
+[54:38] **Armeanio**: And I, you know, it's weird.
+[54:40] **Armeanio**: I was reading through the, I think they call it the clarity bill, which is some legislative bullshit in the United States that they're talking about.
+[54:49] **Armeanio**: But it seemed as though it shifted the incentives, you know, It's basically how are we going to distribute regulatory oversight of these new digital assets.
+[55:00] **Armeanio**: And it did seem to create an incentive for app chains, which maybe people are around in 2017 when there was Like, I don't know, let's just say a lot of great looking white papers and a lot of promises sold and then shit execution.
+[55:19] **Armeanio**: And then it kind of created this fear of like, oh, well, you know, maybe everything needs to be in L1.
+[55:25] **Armeanio**: And so, you know, You know, this idea of like application specific chains kind of popped up.
+[55:32] **Armeanio**: And I do think that, you know, having proof of work is like a base is a great thing to point to in terms of like, you know, it's an actual like fair launch commodity versus, you know, in the crypto space.
+[55:47] **Armeanio**: I don't really know how you spend the narrative that it's like, oh yeah, we see around 80% of supply, but it's a commodity, right?
+[55:55] **Armeanio**: Some mental gymnastics, but it is what it is.
+[56:00] **Armeanio**: I do think that there's probably going to be a growing use case for application-specific merge mined chains, and if we can create a package to where that's easily deployable, we just add to the security budget of Ergo and we create some cover for people in certain jurisdictions that want to play around with Ergo itself.
+[56:28] **kushti**: Yeah, not that hard to do that even.
+[56:34] **kushti**: I mean, from what we do have at the moment, it's not a long path even.
+[56:40] **kushti**: So, well, it's possible to run some merge mined sidechains somewhat like weeks.
+[56:52] **Armeanio**: Yeah, I would say, you know, as the mice, we need to be aware of the cat, have new tactics to deploy, right?
+[57:00] **Armeanio**: And I think that increasingly that'll be a powerful tactic.
+[57:04] **kushti**: If there are a couple of developers and so on.
+[57:07] **kushti**: So, yeah, well, even one maybe in a few weeks.
+[57:13] **kushti**: Yeah, but well, with knowledge, right, of Sigma Rust and so on.
+[57:20] **kushti**: Sigma and then yeah Sigma Rust baby. So yeah yeah quite quite doable i think and yeah it's it's like a good direction right to to explore well guys it's 10 o'clock my time
+[57:46] **qx()**: Two o'clock UTC.
+[57:48] **qx()**: It's quitting time.
+[57:49] **kushti**: Do you need to go to some meeting?
+[57:53] **qx()**: Every time, kushti.
+[57:55] **qx()**: I don't know how it works out.
+[57:56] **qx()**: Every freaking time.
+[57:57] **kushti**: All right.
+[57:59] **kushti**: Okay.
+[58:01] **qx()**: We'll have more reports next week on a finalized schedule for the event meetup.
+[58:07] **qx()**: And guys, again, fill these in the damn raffle.
+[58:11] **kushti**: Yeah, and also we will have our anniversary on July 1st, it seems, so yeah.
+[58:16] **qx()**: Yes, yes.
+[58:17] **kushti**: We got that coming up.
+[58:19] **qx()**: Andy just shared a big list of videos that we went through to try to figure out what videos can be put out there.
+[58:26] **qx()**: So that's going to be exciting.
+[58:28] **qx()**: I'm going to meet up with Dan and try to meet up with Allison as well and get some Machina Finance and as well as some Winter Protocol and why Ergo was amazing and make something like Palmer possible.
+[58:43] **qx()**: So those are just two of the many videos that we'll see on Ergoversary that are new.
+[58:48] **kushti**: Awesome.
+[58:49] **qx()**: Including yours, kushti.
+[58:51] **kushti**: All right.
+[58:52] **kushti**: All right.
+[58:52] **kushti**: Nice.
+[58:52] **kushti**: Yeah.
+[58:55] **kushti**: Okay.
+[58:56] **kushti**: So, yeah, stay tuned.
+[59:00] **kushti**: Have a good one.
+[59:02] **qx()**: Ciao.

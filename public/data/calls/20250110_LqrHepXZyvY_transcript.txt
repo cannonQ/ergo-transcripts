@@ -1,0 +1,591 @@
+[00:12] **Dan Friedman**: Hey, hey, hey, hey, hey, everybody.
+[00:16] **Dan Friedman**: Long time no talk.
+[00:17] **Dan Friedman**: Seems like I haven't spoken to you guys since last year.
+[00:22] **Dan Friedman**: And that's probably because I haven't.
+[00:25] **Dan Friedman**: So it's the first AMA that I am on for this year.
+[00:31] **Dan Friedman**: Glad to be here.
+[00:32] **Dan Friedman**: And so with me, of course, I have kushti.
+[00:35] **Dan Friedman**: Say hi to everybody, kushti.
+[00:37] **kushti**: Hey, everyone.
+[00:38] **kushti**: How's it going?
+
+[00:40] **Dan Friedman**: All right, so what's been happening?
+[00:43] **Dan Friedman**: Tell me what's been happening.
+[00:45] **Dan Friedman**: I've been away, I feel like I've been away forever.
+
+[00:47] **kushti**: Yeah, so Happy New Year, Happy Orthodox Christmas.
+[00:52] **kushti**: And before it was, how's it called?
+[00:56] **kushti**: Protestants, Catholic Christmas, I don't know.
+[01:00] **kushti**: Probably both, right?
+[01:03] **kushti**: And yeah, so soon in three weeks, we will have Chinese New Year.
+[01:08] **kushti**: So a long holiday season.
+[01:13] **kushti**: All right, so a lot of things going on.
+[01:18] **kushti**: I believe on your side as well, right?
+[01:20] **kushti**: So how is Lithos flowing?
+
+[01:24] **Dan Friedman**: Right, right.
+[01:25] **Dan Friedman**: So we have quite a lot of smart contract dissection and the auditing and things like that happening right now.
+[01:38] **Dan Friedman**: So this is with Palmyra and we've been going over our, well we're getting all the smart contracts audited right now. We have several utilities going on live. We're gonna have the full traceability suite also being basically going online and going live and we're introducing a new product that is going to be utilizing it heavily.
+[02:06] **Dan Friedman**: So we have to make sure that everything is working right.
+[02:12] **Dan Friedman**: And it is, there's no big issues or anything like that.
+[02:17] **Dan Friedman**: But it's going to be really exciting because we're going to have a new product, part of the Palmyra platform that is going to utilize the blockchain for traceability on a more regular basis.
+
+[02:33] **Dan Friedman**: So that's exciting.
+[02:34] **Dan Friedman**: Now from the lithium side, so that's also very interesting thing that we've been doing right now.
+[02:42] **Dan Friedman**: So the first thing that we started working on, well, I think the first of many vectors, of many vertices that we've been pursuing in Argentina is the decentralized lithium pricing index.
+[02:58] **Dan Friedman**: And so this is actually going to be an opportunity to utilize Ergo oracles because there's going to be a need for many different types of oracles.
+[03:10] **Dan Friedman**: And it's basically going to be kind of almost a fee market type of system.
+[03:15] **Dan Friedman**: And the oracles, various different oracles are just going to have a chance to participate and to utilize a reward system.
+
+[03:26] **Dan Friedman**: And so to kind of give the basic breakdown of what it is.
+[03:35] **Dan Friedman**: With commodity trading, there's a lot of times, most of the time, in fact, pretty much all the time, with major commodities out there like gold, silver, copper, there's an index.
+[03:47] **Dan Friedman**: There's a unified pricing index that basically says that the price of gold today is this much.
+[03:55] **Dan Friedman**: LBMA gold, for example, and this is where everybody goes and checks and trades and kind of knows what's going on.
+[04:04] **Dan Friedman**: This does not exist for lithium, and as weird as it is, as big as lithium is, this does not exist for lithium.
+[04:15] **Dan Friedman**: There are many separate pricing indexes, but they're fragmented.
+[04:21] **Dan Friedman**: There's one for the LME and the CME, the London Mercantile Exchange and the Chicago Mercantile Exchange.
+[04:29] **Dan Friedman**: There are some that are being tracked by the S&P.
+[04:34] **Dan Friedman**: In fact, our partners, Atómico Tres, they are actually the ones that report to the S&P.
+[04:42] **Dan Friedman**: They're the pricing providers for the S&P.
+[04:46] **Dan Friedman**: And so it's pretty fragmented.
+
+[04:50] **Dan Friedman**: And so what happens is, because it's so fragmented, it gives a lot of room for price manipulation.
+[04:57] **Dan Friedman**: And so there's regions out there that are less than honest about their price reporting.
+[05:07] **Dan Friedman**: And so they try to manipulate the price to make the price go up to get things going along more so they can make more money.
+[05:17] **Dan Friedman**: And so this screws it up for everybody.
+[05:21] **Dan Friedman**: And that's why there's no unified price index because you don't really know who to trust.
+[05:25] **Dan Friedman**: And so you only can go to only a select few parties that you can trust.
+
+[05:32] **Dan Friedman**: And so this presents an opportunity to create a unified price index that is going to be utilizing a reputational scoring system, and also utilize a specific algorithm that was designed by Atómico Tres that will actually basically compensate for expected price manipulation and kind of balance things out.
+[06:07] **Dan Friedman**: And so we're going to be putting that into effect.
+[06:09] **Dan Friedman**: And so for this, we need oracles.
+[06:11] **Dan Friedman**: These different oracles, they need to basically, they're going to be getting all these price feeds from all over the world, and they're going to need to bring those price feeds on chain.
+[06:20] **Dan Friedman**: for the protocol to be able to average it out.
+[06:22] **Dan Friedman**: And so there's going to be a lot of opportunity out there for this.
+
+[06:25] **Dan Friedman**: And so for the price oracles, so how is this going to make money?
+[06:30] **Dan Friedman**: The way it's going to make money is it's actually going to be like a Bloomberg terminal, which is a subscription service.
+[06:38] **Dan Friedman**: And so there's many different parties that are looking for this.
+[06:41] **Dan Friedman**: They're looking for a clear, unified price index.
+[06:44] **Dan Friedman**: And this one is going to be decentralized.
+[06:46] **Dan Friedman**: It's going to be on chain.
+[06:47] **Dan Friedman**: It's going to be auditable.
+[06:50] **Dan Friedman**: Very transparent, and this will attract players into this ecosystem to utilize this.
+[07:01] **Dan Friedman**: Because like I said, this is a big problem in the industry.
+[07:04] **Dan Friedman**: So decentralization is going to be a big aspect of it.
+[07:08] **Dan Friedman**: And so the fees are going to be coming in from people utilizing this.
+[07:13] **Dan Friedman**: And then these fees are going to be partially distributed to the various different oracles that are in the ecosystem.
+[07:21] **Dan Friedman**: So hence, you will have this really healthy Oracle ecosystem that is going to be supplying information and bringing it on chain.
+
+[07:33] **Dan Friedman**: So it's a very exciting project.
+[07:36] **Dan Friedman**: So we're at the end of the preliminary planning stages right now.
+[07:39] **Dan Friedman**: We're going to start banging out some code and some prototypes really soon.
+[07:43] **Dan Friedman**: And yeah, I'm really excited, like I said, because it gives us the ability to utilize various different types of Oracles, including our Ergo Oracles.
+[07:53] **Dan Friedman**: And it'll also give incentives for people to spin up more oracles.
+[08:00] **Dan Friedman**: So yeah, just a really exciting project to be able to spin up.
+[08:05] **Dan Friedman**: And that's not all.
+[08:05] **Dan Friedman**: That's only the beginning.
+[08:06] **Dan Friedman**: I can go on about all this other stuff.
+[08:09] **Dan Friedman**: But that is really the first thing on our plate right now.
+[08:13] **Dan Friedman**: So yeah, that's what's been going on in the world of lithium and whatnot.
+
+[08:21] **Dan Friedman**: So, yeah, how about you, kushti?
+[08:22] **Dan Friedman**: I mean, what's been going on in the ecosystem?
+
+[08:25] **kushti**: Yeah, first of all, that's quite exciting.
+[08:28] **kushti**: So I think, yeah, Oracle pools is quite natural design for multiple oracles, right?
+[08:37] **kushti**: So submitting lithium prices.
+[08:39] **kushti**: And then, yeah, it would be good to have lithium-based stable coins, right, for different purposes.
+[08:47] **kushti**: So for clearing physical lithium and so on.
+[08:51] **kushti**: So yeah, that's quite exciting.
+
+[08:54] **Dan Friedman**: So this will actually give us a base.
+[09:00] **Dan Friedman**: It's actually really neat. A tool to create then the lithium stable coin that we've been talking about, because we'll be able to then get these unified price feeds, so we're not going to have to kind of guess who's giving us the right information, who's not.
+[09:13] **Dan Friedman**: So yeah, it's a big, big value add I think and that's why we're starting with this and not with the stable coin.
+[09:20] **Dan Friedman**: We're starting with the lithium index because there's going to be an immediate impact with it.
+
+[09:26] **kushti**: Right so yeah actually that makes a lot of sense that's how we started with Ergo actually so we started with oracles right oracle pool design and then yes stablecoin followed so that's yeah understandable especially if there is no well established price feed right as you told I mean if there are multiple sources of truth then yeah the first question is which one to project on the blockchain right right yeah that's yeah very interesting so in regards with Ergo ecosystem so
+
+[10:13] **kushti**: Yeah, well, it's like, you know, there are no holidays, so a lot of updates.
+[10:22] **kushti**: So, yeah, well, in the first place, I've published, well, a near final draft of sub-blocks CIP, right, and doing some prototyping codes now.
+[10:41] **kushti**: So that would bring maximum performance possible for proof of work peer-to-peer network right real peer-to-peer network and real proof of work so the design is based on distinction between input blocks and ordering blocks and I believe for other networks also going this direction, right, like Cardano.
+[11:09] **kushti**: So I've heard that they also are planning to use similar structure, but also well in touch with Bitcoin Cash folks, developers and so on.
+[11:32] **kushti**: They even have guys well somehow associated with Bitcoin Cash, even have some papers published on quite similar design called Tailstorm.
+[11:49] **kushti**: And so on.
+[11:51] **kushti**: So, yeah, it seems different.
+[11:53] **kushti**: Ideas are converging, which is not surprising considering that we are in mid 2020s, right?
+[12:01] **kushti**: So, well, this field is established quite well now if we are talking about peer-to-peer networking and consensus.
+
+[12:11] **kushti**: Well, still a lot of things going on in regards with cryptography.
+[12:17] **kushti**: So we had extensive chat before New Year.
+[12:21] **kushti**: So that's for you then, probably not for community.
+[12:24] **kushti**: So, well, we had a community chat on post-quantum options, right, which was quite hot topic in December because of some new quantum hardware appeared.
+[12:42] **kushti**: Then there are actually a lot of new cryptographic schemes appearing like every day.
+[12:51] **kushti**: So just yesterday there was a new announcement of well-efficient zero knowledge scheme for incremental verifiable computation called Micronova.
+[13:10] **kushti**: It's quite efficient even for validating proofs in Ethereum contracts.
+[13:19] **kushti**: It could be adopted for verifying something on Ergo as well.
+
+[13:29] **kushti**: So checking stuff like that and then yeah so for our 6.0 well there is a security audit ongoing right now so well Dusek found a few issues to the moment, so I'm finishing working on fixes and then we will have public testnet deployments.
+[13:59] **kushti**: So, well, protocol client version for public testnet 6.0 client, I mean, will be published around the beginning of the next week, if no more issues will be found.
+
+[14:22] **kushti**: Then, preparing also new minor releases for Sigma interpreter and the protocol client.
+[14:36] **kushti**: So Sigma interpreter will contain a new ErgoScript function, basically a form of macros for, well, deserializing well, typed scripts, which is useful to do kind of P2SH contracts even in ErgoScript, so before they were made in ErgoTree, so kind of low-level language.
+[15:12] **kushti**: Now it's possible to use, well, all that stuff.
+[15:17] **kushti**: like P2SH contracts in a higher level.
+[15:22] **kushti**: Language also, Merkle trees, finance state machines and so on.
+[15:28] **kushti**: So actually a lot of exciting stuff.
+
+[15:32] **kushti**: Then, yeah, a lot of things going on in the community as usually.
+[15:39] **kushti**: So, just few days ago, liquidity pool was launched for the first storage rent meme coin, PHP, so someone minted PHP coin back in 2020 and four years after miners collected the whole supply of it and then it was relaunched as a meme coin which is quite interesting that you can recycle tokens being lost and may make them meme coins even.
+
+[16:26] **kushti**: Then a lot of things going on in MewFinance land.
+[16:33] **kushti**: Check the vibrant community, the groups.
+[16:40] **kushti**: A lot of things going on there.
+[16:43] **kushti**: Then, well, there is community attempt to launch Oracle Pool version 2.0 based oracle pool for USD so yeah well there is a group for that please join also if you want to participate and
+
+[17:17] **kushti**: Yes, so in Dexy developers group we are now talking how to deliver UI that there is need for contributors to finish, publish UI and to launch Dexy Gold.
+[17:37] **kushti**: Finally, then hopefully Dexy USD and Dexy lithium and so on Dexy silver so for silver well connectors done so well now it's time to launch an oracle pool
+
+[18:00] **kushti**: There is some progress with Nautilus mobile.
+[18:09] **kushti**: Finally, a contract is signed with a counterparty.
+[18:24] **kushti**: Audits of ledger code, so hopefully in a few weeks then Ergo will be in Ledger Live.
+[18:37] **kushti**: Keystone integration also going quite well.
+[18:43] **kushti**: There is initial draft of PR in the repository and IgniFox is working on completing that.
+[18:52] **kushti**: There are some positive news about Binance Smart Chain Bridge testing.
+[19:04] **kushti**: And so on.
+[19:05] **kushti**: So a lot of news, well, getting on my radar.
+[19:12] **kushti**: So probably much more is happening.
+[19:18] **kushti**: So check the updates published weekly and check community groups and so on.
+[19:27] **kushti**: So yeah, well, it's quite busy time despite holidays.
+
+[19:33] **Dan Friedman**: Yeah, it seems like I'm not as active as I was a few months ago actually in the ecosystem, although we're obviously still working on Ergo tech.
+[19:46] **Dan Friedman**: So we're obviously active, I'm just not as hands-on as I used to be.
+[19:52] **Dan Friedman**: Which is unfortunate, but I hope that in this new year, I will have more time to really kind of be hands on again, especially with this bull market coming.
+[20:02] **Dan Friedman**: I think there's going to be a lot more excitement coming in.
+[20:05] **Dan Friedman**: We can participate in some ErgoHack plus of course, mgPai is now in the EF.
+[20:14] **Dan Friedman**: So we have our own part of being part of the EF.
+[20:20] **Dan Friedman**: which is cool.
+
+[20:23] **Dan Friedman**: Yeah, yeah, it's very exciting to see.
+[20:26] **Dan Friedman**: Actually, I was approached by a Argentinian firm that is looking to mine Ergo, and so we're trying to figure out how we can make it work.
+[20:41] **Dan Friedman**: It's a Bitcoin mining operation, and they actually have a huge like a huge operation, huge hash rate, but a lot of it is ASIC.
+[20:52] **Dan Friedman**: And so they can't use ASICs for Ergo, so they do have non-ASIC mining rigs, not as many, but some.
+[21:04] **Dan Friedman**: They're still very interested in mining it, especially since we're building on Ergo.
+[21:12] **Dan Friedman**: That's something that I'm really looking forward to bringing into our ecosystem once that progresses more, but we need to talk a little bit more about me and you, kushti, and I'm also talking to I was talking to qx() about it.
+[21:28] **Dan Friedman**: Who else was I talking to about it?
+[21:29] **Dan Friedman**: A couple of people.
+[21:33] **Dan Friedman**: Yeah, so we'll figure it out and we'll get them to participate in the ecosystem.
+[21:40] **Dan Friedman**: So it's super exciting.
+
+[21:43] **Dan Friedman**: So we got some questions here.
+[21:46] **Dan Friedman**: Let's get to them, I guess.
+[21:48] **Dan Friedman**: Well, I mean, we got this.
+
+[21:51] **kushti**: Yeah.
+[21:51] **kushti**: And so for miners and so on, yeah, it would be good.
+[21:57] **kushti**: So currently a lot of discussions how to get more players in the ecosystem because, well, it's what's making it actually decentralized, right?
+[22:08] **kushti**: So, well, decentralization is not about, like centralized team consisting of devs cable connected with, I don't know, VCs, maybe even producer.
+[22:26] **kushti**: talking about decentralization.
+[22:29] **kushti**: But yeah, well, it's about many players, right?
+[22:34] **kushti**: Well, it's good to have many big players, right, in the ecosystem.
+[22:40] **kushti**: And then the question is how to onboard them and how to make them...
+
+[22:47] **Dan Friedman**: It's a bit challenging because so many are just set up for ASIC mining.
+[22:54] **Dan Friedman**: Even though they want to come to Ergo, a lot of times it's a bit challenging.
+[23:04] **Dan Friedman**: These particular guys actually, they said that they actually see a lot of potential in Ergo and they don't mind that they're not going to be making a killing doing it right now because they know that it's going to increase and there's going to be a lot of opportunity there for miners going into this market right now.
+[23:30] **Dan Friedman**: So yeah, like I said, we'll figure it out.
+[23:36] **Dan Friedman**: I guess the will is there.
+[23:38] **Dan Friedman**: We'll find a way.
+
+[23:42] **kushti**: So, yeah, good.
+[23:45] **kushti**: So, yeah, well, we need to get more and more big players in the ecosystem, right?
+
+[23:52] **Dan Friedman**: Yeah, and these guys are big, like I said.
+[23:54] **Dan Friedman**: Like these guys are actually pretty big.
+[23:57] **Dan Friedman**: Like I said, the problem is that they just don't have that many non-ASICs machines.
+[24:05] **Dan Friedman**: Like most of their mining operation is ASICs, so it's...
+[24:11] **Dan Friedman**: Yeah, but they do have some, we'll make those work and then we'll see maybe what we can do with the ASIC machines later on down the line, figure something out.
+[24:20] **Dan Friedman**: But yeah, yeah, the hashrate there with ASICs is humongous, it was like some crazy number.
+[24:28] **Dan Friedman**: Before I found out that about like 90% of those machines were ASIC machines, I was looking at this, I'm like, holy crap, like, these guys are gonna be making a killing.
+
+[24:40] **Dan Friedman**: Do they have hydro in Argentina I believe a lot of hydro they're right I mean I'm sure they do you know one thing about Argentina and I guess that was kind of like me well I mean it's like no duh but you just don't really realize it how big it is until you get there and it's huge you know Argentina is a damn large country.
+[25:05] **Dan Friedman**: And so you get all sorts of climates out there.
+[25:09] **Dan Friedman**: You have Buenos Aires, which is actually a lot like Los Angeles, climate-wise.
+[25:18] **Dan Friedman**: Really sunny a lot of times.
+[25:21] **Dan Friedman**: The weather is really good.
+[25:24] **Dan Friedman**: But then you go to other regions, and it could get really hot or really cold, because the South is so close to the South Pole, that there's a lot of places that are snow on the ground all year long, mostly.
+[25:42] **Dan Friedman**: But yeah, there are places with hydroelectric.
+[25:48] **Dan Friedman**: There's also places with hydroelectric, I believe, in Paraguay.
+[25:56] **Dan Friedman**: So there's quite a bit of opportunity there.
+[26:00] **Dan Friedman**: Plus, they're also really into sustainable power generation, so low carbon footprint stuff, carbon credits, and so they have all these other means like wind and solar.
+[26:22] **Dan Friedman**: There's solar farms out there because there's a lot of sun.
+[26:27] **Dan Friedman**: in Argentina.
+[26:28] **Dan Friedman**: I mean, there's really large patches of desert.
+[26:33] **Dan Friedman**: Like Catamarca, Catamarca is, a lot of it is desert.
+[26:39] **Dan Friedman**: Like a lot of it is like, I would say Eastern California going into Nevada, Arizona and Nevada, it really reminds you of that.
+[26:51] **Dan Friedman**: There's high elevations too that are not as hot, but a lot like where we were in Catamarca and then in Jujuy and Salta, that was just straight desert, no doubt about it.
+[27:07] **Dan Friedman**: It was high desert, but it was desert.
+[27:10] **Dan Friedman**: And so there's a lot of solar farms out there.
+[27:16] **Dan Friedman**: And obviously wind, there's quite a bit of wind over there.
+[27:21] **Dan Friedman**: So yeah, a lot of opportunities, I think, and I think they're really hungry for new opportunities out there.
+[27:27] **Dan Friedman**: That whole economy is just really booming right now.
+[27:31] **Dan Friedman**: There's a lot of people kind of waking up and saying, hey, we got all these things that we can offer to the world and all these things that the world can offer to us.
+[27:43] **Dan Friedman**: And let's see what we can do.
+[27:44] **Dan Friedman**: So, so yeah, very exciting, good stuff.
+[27:48] **Dan Friedman**: And a lot of opportunity for Ergo.
+
+[27:51] **Dan Friedman**: Oh, we got, we got Jume.
+[27:55] **Dan Friedman**: I think he used to work for the CIA.
+[27:58] **Dan Friedman**: I'm not sure.
+[28:00] **Dan Friedman**: Yeah, this guy, I don't know about this guy.
+[28:05] **Dan Friedman**: Anyway, let's get into some questions.
+[28:10] **Dan Friedman**: We don't have a huge amount of people here, but we do have some really good questions.
+[28:16] **Dan Friedman**: So let's go to Augustus Kent here.
+[28:18] **Dan Friedman**: So block rewards reduced to 18.
+[28:21] **Dan Friedman**: What effect does it have on the hash rate and sell pressure?
+[28:25] **Dan Friedman**: So what do you think, kushti?
+
+[28:27] **kushti**: All right, so around the past weekend, well, emission dropped to 18 per block from 21.
+[28:39] **kushti**: And we are going to have a party in coming days.
+[28:43] **kushti**: It was proposed by Chris Ray because, yeah, for him, it's kind of a psychologically important level, right, I mean, to have emission falling below 20 and well if it's important for him then why not to have party I mean it sounds like a good reason to have party after all right if it makes at least some community members happy then why not.
+[29:14] **kushti**: So yeah we will have a party in coming days in form of I don't know maybe Twitter spaces or zoom call so please join maybe with your favorite beverage like carrot juice I don't know maybe tea with lemon something like that so
+
+[29:41] **kushti**: Yeah, then, sorry, what was the question about?
+[29:46] **kushti**: It wasn't a pear juice, but yeah.
+[29:50] **kushti**: Yeah, so it's wonderful.
+[29:53] **kushti**: It's wonderful.
+[29:55] **kushti**: Yeah, refreshing and healthy beverage.
+[29:58] **kushti**: Yeah, also helping to have parties, for funny parties after all.
+[30:06] **kushti**: All right, so the question about the hash rate.
+[30:09] **kushti**: Actually, well, the hash rate was quite stable, even increasing, because there was a price increase around the same day.
+[30:23] **kushti**: So, yeah, it was very okay, the transition to lower emission.
+[30:30] **kushti**: Then, yeah, the question is also about sell pressure, right?
+[30:36] **kushti**: So, well, effects are not visible.
+[30:43] **kushti**: maybe about this particular drop in emission but yeah I think overall so you know like three years ago we had 67.5 ERG per block going to miners and now just 18 and well yeah well effects are quite visible if you are tracking deposits to exchanges right so well it's now definitely much much more rare event, right, when you see like, I don't know, 50k ERG transfer to centralized exchange, right, from a miner address.
+[31:40] **kushti**: So three years ago that happened like daily, right, because the emission was about 50k a day.
+[31:49] **kushti**: So now well, there were a lot of small deposits, but for big miners there were big deposits happening regularly.
+[32:03] **kushti**: So now, well, the emission is just about 13k a day and definitely much less deposits.
+[32:11] **kushti**: And so if you if you visit ergo.watch website, then a chart which is about total amount of deposit addresses.
+[32:38] **kushti**: on centralized exchanges.
+[32:39] **kushti**: So, you see that currently, well, number there is about early minimum value, right?
+[32:51] **kushti**: So, well, emission is going on, but yeah, well, more ERG actually extracted from centralized exchanges.
+[33:00] **kushti**: So, then, yeah, well, definitely, there is a factor of reduced emission, so that's quite visible.
+[33:11] **kushti**: Well, centralized exchanges' balances are going down and reaching minimum values, breaking early lows.
+[33:31] **kushti**: Well, week after week, basically.
+[33:35] **kushti**: Which is quite exciting because, well, centralized exchanges are not good, right, and, well, if miners are using them, then, yeah, well, reduced emission is helping to extract, right, ERG from centralized exchanges, because, well, having millions in centralized exchanges is creating certain risks, right, for possible redistribution of ERG towards hackers and so on because, well, centralized exchanges are being hacked regularly, right, or being shut down or whatever, so yeah, folks better to avoid holding on centralized exchanges.
+[34:25] **kushti**: So yeah, better to pull your ERG out of centralized exchanges.
+[34:30] **kushti**: So yeah, well, in short, effects are visible for emission reduction and well, hash rate is doing well.
+
+[34:45] **Dan Friedman**: All right.
+[34:46] **Dan Friedman**: All right.
+[34:47] **Dan Friedman**: We actually got another one here.
+[34:49] **Dan Friedman**: Let's see from Alex C. So any plans to update the SigmaUSD protocol to mitigate future bear whale attacks?
+
+[34:57] **kushti**: Yeah, so there are discussions happening in the developers' community.
+[35:05] **kushti**: There are five update key holders, so it depends on the decision.
+[35:14] **kushti**: There are some proposals.
+[35:22] **kushti**: about introducing limits just for minting both SigmaUSD and SigmaRSV.
+[35:31] **kushti**: There is probably better but also more complicated and still not formalized proposal about introducing dynamic fee rights then making SigmaUSD closer to Dynamic Djed, right, Gluon to some extent.
+[35:57] **kushti**: So yeah, well, I joined Ergo developers group and SigmaUSD group.
+[36:03] **kushti**: So for some reason, talks while migrating from one group to another and then back.
+[36:10] **kushti**: So yeah, well, it's better to follow both groups to follow all the discussions.
+
+[36:23] **kushti**: Yeah, then next question.
+[36:26] **kushti**: What is the feasibility of a private blockchain messaging on Ergo?
+[36:31] **kushti**: So, yeah, that's possible.
+[36:35] **kushti**: And there is, I believe, I reviewed once an EIP draft about that, so how to get shared secret key from, well, your key and just public key of another party.
+[37:02] **kushti**: Right, and then how to derive encryption key from that, and then how to encrypt messages.
+[37:11] **kushti**: So, yeah, I forgot an EIP number, but you can find it.
+[37:17] **kushti**: Well, about concrete implementations, I don't know.
+[37:21] **kushti**: Well, maybe there was some implementation done, or some hackathon, but I'm not sure about that.
+
+[37:38] **kushti**: Oh, next question to Dan, finally.
+[37:41] **kushti**: I'm talking too much probably.
+
+[37:47] **Dan Friedman**: Dan, you're muted.
+[37:51] **Dan Friedman**: I'm not muted, I'm speaking to you telepathically.
+[37:54] **Dan Friedman**: This is common knowledge.
+[37:59] **Dan Friedman**: Fine, I was muted.
+[38:00] **Dan Friedman**: Well, actually I wasn't, but I'm trying to make you feel better.
+[38:04] **Dan Friedman**: Let's see, yeah, finally one for me, although I think I like questions for kushti more because it's much more fun listening to him explain.
+[38:16] **Dan Friedman**: All right.
+[38:17] **Dan Friedman**: How many languages do you speak?
+[38:18] **Dan Friedman**: Which one do you speak most eloquently?
+[38:21] **Dan Friedman**: So let's see.
+[38:23] **Dan Friedman**: I speak fluently.
+[38:25] **Dan Friedman**: I speak Russian, English, and Japanese.
+[38:30] **Dan Friedman**: I speak Ukrainian or used to speak Ukrainian.
+[38:35] **Dan Friedman**: But I'm really rusty, because I just don't have anybody to speak Ukrainian to.
+[38:41] **Dan Friedman**: But it's like one of those things.
+[38:42] **Dan Friedman**: It's like riding a bicycle.
+[38:46] **Dan Friedman**: Anytime I'm in that environment, it comes back.
+[38:53] **Dan Friedman**: But again, it goes away again.
+[38:56] **Dan Friedman**: So it's a weird thing.
+[38:58] **Dan Friedman**: But mainly, those three and a half.
+[39:03] **Dan Friedman**: Ukrainian if I had more if I had more opportunity to just speak it would be four But yeah, the ones that I use every day is three English Russian and and the Japanese Which one am I most eloquent in I Mean it depends
+
+[39:29] **Dan Friedman**: I guess equally English and Russian, I would say it's about the same.
+[39:41] **Dan Friedman**: I can be eloquent in Japanese, but sometimes I have my brain farts and then I say something and it just sounds kind of dumb.
+[39:52] **Dan Friedman**: And then I later on, I think about it and I say, what the hell?
+[39:55] **Dan Friedman**: Wait a second.
+[39:55] **Dan Friedman**: I know how to say that.
+[39:56] **Dan Friedman**: Like, why did I say it like that?
+[39:58] **Dan Friedman**: I know how to say this stuff, right?
+[40:00] **Dan Friedman**: So it's a never ending battle to not sound stupid.
+[40:06] **Dan Friedman**: Yeah.
+[40:07] **Dan Friedman**: So I think that takes care of that question.
+
+[40:13] **Dan Friedman**: Alright, let's...
+[40:16] **Dan Friedman**: Okay.
+[40:17] **Dan Friedman**: Well, let's take this question.
+[40:19] **Dan Friedman**: I know we get these, but let's maybe address it.
+[40:21] **Dan Friedman**: So yeah, Nabil's right.
+[40:25] **Dan Friedman**: Yeah.
+[40:25] **Dan Friedman**: Yeah.
+[40:26] **Dan Friedman**: So, what do you think about the current marketing efforts in the community?
+[40:30] **Dan Friedman**: And would you have any suggestions for improvement?
+[40:34] **Dan Friedman**: Okay.
+[40:34] **Dan Friedman**: So, I mean, again, what has been, I actually, this would be a really good qx() question.
+[40:40] **Dan Friedman**: Unfortunately, he's not here because there's something about him and I don't know.
+[40:45] **Dan Friedman**: He caught Ebola or something.
+[40:48] **Dan Friedman**: I don't know what the hell is wrong with that guy.
+[40:50] **Dan Friedman**: But anyway, yeah.
+[40:53] **Dan Friedman**: So what's been going on with marketing, kushti?
+[40:55] **Dan Friedman**: Have we had any kind of new marketing pushes or what's been happening?
+
+[41:01] **kushti**: Yeah, so about suggestions for improvements.
+[41:06] **kushti**: I actually can talk a lot about suggestions for improvements.
+[41:14] **kushti**: But then we had a community town hall call on marketing back in November.
+[41:24] **kushti**: I guess, yeah, it was November probably.
+[41:28] **kushti**: And then, yeah, well, I tried to suggest some things, but, yeah, it seems, well, a lot of other people also have a lot of suggestions and then, yeah, well.
+[41:44] **kushti**: quickly I've got lost in the talk so it was about one hour and a half so well it changed well topics and well a lot of things were discussed and so on so yeah that's how well things should be maybe right if we are talking about well community which is not controlled by a certain party right which is well decentralized so well you may have a lot of suggestions right the question is who is going to hear them right and consider
+
+[42:39] **kushti**: Still, I think there is need to improve some things.
+[42:51] **kushti**: I am working on some improvements personally.
+[42:56] **kushti**: My main focus at the moment is about, well, promoting Ergo from a developer's perspective to developers right.
+[43:07] **kushti**: So as we are now having some positive, well, pricing right and, well, some buzzes going around.
+[43:25] **kushti**: Time to get more developers and well if some people in the community are talking about well very strange kind of talk so which fiat price is possible for ERG token rights
+[43:50] **kushti**: Which is, I don't know, quite strange to me because any fiat number is just a mental trap, I guess, right?
+[43:59] **kushti**: So I mean, you can call any number and it will be reached at some point, but what's the point in any concrete number even?
+[44:12] **kushti**: That's quite strange to me at least.
+[44:15] **kushti**: But yeah, so what I'm thinking about is how to get 10x developers right in 2025 for core and ecosystem development.
+[44:32] **kushti**: That would be much more solid right so talking about well recognition and so on and then so what's needed I think is some strong messaging right so I'm looking at some successful communities around, such as Bitcoin to some degree, and now Monero.
+[45:05] **kushti**: So what they are good at is about sending strong messaging about pushing the memetic warfare around, so that they're filling Twitter now acts with memes that they're filling other social networks that they have.
+[45:33] **kushti**: Well, strong supporters about pretty simple and powerful messages, right?
+[45:41] **kushti**: Well, Bitcoin maybe not so much these days, but yet 10 years ago it was the case.
+[45:46] **kushti**: Bitcoin was very strong memetically.
+[45:51] **kushti**: That's why people did stick with it, like me, right?
+[45:57] **kushti**: Because, well, their community was pretty small back then.
+[46:04] **kushti**: Actually, it was quite strong, right, in their messaging.
+[46:09] **kushti**: The same, well, I see now.
+[46:13] **kushti**: to a certain degree in Monero community and well I think how to achieve the same right and I'm pushing people around well about achieving the same so about well forming some strong messaging and creating memetic warfare and spread it around.
+[46:40] **kushti**: It could be on different levels, so you can attract developers.
+[46:45] **kushti**: with a certain kind of, well, memetic push even, right?
+[46:53] **kushti**: And then, yeah, well, just ordinary users like, I don't know, traders, enthusiasts, hackers, and so on.
+[47:03] **kushti**: There are different audiences, right, with different requests.
+[47:10] **kushti**: the different needs, new needs for messaging, including.
+[47:16] **kushti**: And yeah, well, we have already some brilliant people.
+[47:27] **kushti**: messages around, like Demurrage Louise, for example.
+[47:33] **kushti**: I'm trying to do some things, but we need some more, right?
+[47:38] **kushti**: So, well, unlike privacy coins, Ergo, maybe it's quite complex, right?
+[47:46] **kushti**: Like, well, financial and monetary systems are, well, very complex as well, but you can just, well, push some aspects of it, right?
+[48:03] **kushti**: So like Demurrage Louise is pushing demurrage narrative to Bitcoiners and so on.
+[48:12] **kushti**: Because Ergo is quite unique here.
+[48:16] **kushti**: Joy is pushing quite successfully peer-to-peer finance.
+[48:21] **kushti**: narrative and so on.
+[48:23] **kushti**: So, well, there are many levels here, right?
+[48:29] **kushti**: And many, many angles.
+[48:33] **kushti**: You can take a look at Ergo tech and not just tech ads.
+[48:42] **kushti**: So, yeah, those are my thoughts.
+[48:45] **kushti**: So, what do you think about the question?
+
+[48:52] **kushti**: You have mutes again.
+
+[48:59] **Dan Friedman**: It's only 15 clicks to unmute myself, sorry.
+[49:04] **Dan Friedman**: I mean, I think that, and what's actually, this is actually, there's actually really good comment from Wendy Moon on this.
+[49:14] **Dan Friedman**: And so this is actually the very bottom, sorry guys, I'm gonna go to the very bottom of the comments here.
+[49:21] **Dan Friedman**: She says, when it comes to strong messaging, Bitcoin has a simple message, digital gold, money, Monero is privacy, but Ergo has more complicated message because it can do so many things.
+[49:36] **Dan Friedman**: How do we convey Ergo's message?
+
+[49:40] **Dan Friedman**: I kind of thought about that quite a bit.
+[49:49] **Dan Friedman**: And this kind of has to be improved.
+[50:01] **Dan Friedman**: But to me, Bitcoin is digital gold.
+[50:07] **Dan Friedman**: Ergo is digital clay.
+[50:09] **Dan Friedman**: That's what it is to me.
+[50:13] **Dan Friedman**: You can, it's ready to create and mold so many different things and you can make it in so many different shapes and things that to me is digital clay.
+[50:24] **Dan Friedman**: And I know that might not be the best kind of marketing phrase, might want to come up with something a little bit more eloquent or a little bit more.
+[50:36] **Dan Friedman**: I don't know.
+[50:37] **Dan Friedman**: I don't know a little something that something that sounds a little bit more.
+[50:43] **Dan Friedman**: But just like I said to me, it's digital clay because it's Bitcoin, it's Monero, it's all these things put together.
+[50:56] **Dan Friedman**: And it's our thing has always been Ergo was launched ready to go right out of the box.
+[51:04] **Dan Friedman**: We had all these different things that other blockchains took time to deploy.
+[51:09] **Dan Friedman**: They already deployed on Ergo from the get-go.
+[51:14] **Dan Friedman**: Just like clay.
+[51:15] **Dan Friedman**: You can take a piece of clay and build a house with it.
+[51:19] **Dan Friedman**: You can take a piece of clay and build a pot out of it.
+[51:26] **Dan Friedman**: It's so versatile.
+[51:29] **Dan Friedman**: And that's really the message of Ergo to me is versatility.
+[51:36] **Dan Friedman**: And I think that we are the community kind of what you were talking about, the what some call tyranny of the majority or herding cats, which is basically centralization, trying to come up with any kind of unified decision and decentralized communities like herding cats.
+[52:02] **Dan Friedman**: But from that also comes a very, really clear diversity message.
+[52:07] **Dan Friedman**: So that thing that I said where it's so, there's so much that can be built in it.
+[52:14] **Dan Friedman**: That's why there's all these voices here.
+[52:15] **Dan Friedman**: It's not just one voice for this one thing that everybody's obsessed over like TVL or something.
+[52:23] **Dan Friedman**: or I don't know something else that the other guys are all obsessed about transactions on chain that's all they care about Solana's like all Solana made a gazillion transactions on chain who gives a shit did the garbage
+
+[52:39] **kushti**: It's the most disgusting messages from the messaging probably, right?
+
+[52:46] **Dan Friedman**: Well, that's the thing, and but that is really the narrative of today's blockchain field.
+[52:52] **Dan Friedman**: Unfortunately, at least, the popular the popular kids, that's what they keep talking about.
+[53:02] **Dan Friedman**: And I see this stuff, like the Solana Foundation out there was, I think we were just talking about that, right?
+[53:09] **Dan Friedman**: Just a little bit ago about how, like Solana has crossed Ethereum in transactional volumes.
+[53:21] **Dan Friedman**: Like, okay, who gives a crap?
+[53:22] **Dan Friedman**: A bunch of those transactions fail.
+[53:25] **Dan Friedman**: most of them are bots, and they're shit to begin with.
+[53:28] **Dan Friedman**: And it's just like, okay?
+[53:31] **Dan Friedman**: It's, I mean, like, just because a city is filled with people doesn't mean it's a good city.
+[53:39] **Dan Friedman**: So, yeah, it's, with Ergo, it's definitely different.
+[53:45] **Dan Friedman**: With Ergo, Ergo attracts a different type of contingent.
+[53:50] **Dan Friedman**: And so this is why, like I said, the message is this, a message of versatility.
+[53:59] **Dan Friedman**: And I think that's what's gonna work for us.
+[54:01] **Dan Friedman**: It's a longer, it's a tougher message to get across.
+[54:05] **Dan Friedman**: But I think that in the end, it will be a message that works for us.
+[54:10] **Dan Friedman**: I mean, that's what my thoughts are.
+
+[54:13] **kushti**: And so for Bitcoin, there were many messages, actually.
+[54:18] **kushti**: So digital gold, maybe not the first one, historically.
+[54:23] **kushti**: So I've heard about magic internet money, right?
+[54:27] **kushti**: So that was back in 2011, 2012, something like that.
+[54:32] **kushti**: Then, yeah, well, money without central bank, that's what I bought.
+[54:39] **kushti**: So to me, it was mind-blowing to have money with emission not dependent on any trusted party.
+[54:50] **kushti**: Somehow, this is not surprising people these days.
+[54:58] **kushti**: This is, I don't know, quite like a normal thing, but back in 2011, that was quite revolutionary to me to have emission without any trusted party for real.
+[55:16] **kushti**: So we don't have any illusion here.
+[55:23] **kushti**: without any trusted party which is not so quite visible so maybe influential or maybe replaced with federation or whatever so no just no trusted party at all right and algorithmic emission you have and you have working kind of monetary system around that then yeah digital gold
+
+[55:52] **kushti**: Then, yeah, there was a push about, I'm not sure about timing, about, yeah, just 21 million, right, so usually it works well during high inflation period for fiat currencies.
+[56:18] **kushti**: Yeah, and for Ergo, we also have a lot of messaging rights, like Demurrage Louise is pushing for money with fixed supply.
+[56:27] **kushti**: The only one kind of money with fixed supply, unlike Bitcoin, which supply is going to zero.
+[56:34] **kushti**: My initial presentations back in 2019 were about digital gold with contracts.
+[56:51] **kushti**: Right, so when you have digital gold but also with possibility to have contracts or to build trustless derivatives and so on, so to have a high-level money systems.
+[57:08] **kushti**: Then yeah, a platform for money right for monetary systems maybe it's quite complex but yeah also working for some people then yeah i mean a platform for peer-to-peer finance platform for peer-to-peer financial interactions and so on so well there are different messages here right and when you know some blockchain is if the community is just saying I don't know we are web 3 layer 1 project with bazillion TPS I mean
+
+[57:51] **kushti**: This is just nothing, right?
+[57:53] **kushti**: I mean, you guys are just, I don't know, trumping the air with unnecessary words, right?
+[58:03] **kushti**: They're not telling anything, really.
+
+[58:06] **Dan Friedman**: It's smoke and mirrors, that's all it is.
+[58:08] **Dan Friedman**: It's smoke and mirrors, it's just, it's things that people that are perceived as smart because they're smarter than other people, they're just kind of hijacking this narrative and the narrative itself is really dumb.
+[58:27] **Dan Friedman**: But because some people are just too intimidated by, oh, this guy's so-and-so, he did so-and-so, they buy into this shit.
+[58:37] **Dan Friedman**: And then in the end, I mean, in the end, it does nothing.
+[58:40] **Dan Friedman**: In the end, it's moot.
+[58:43] **Dan Friedman**: And you are right, the messaging does change.
+[58:47] **Dan Friedman**: It's not always the same messaging.
+[58:49] **Dan Friedman**: It's not always the same thing that is being said.
+[58:51] **Dan Friedman**: And it changes throughout the years.
+[58:53] **Dan Friedman**: And so, like I said, it is...
+[59:01] **Dan Friedman**: Look, like I said, it's all about the versatility of the ecosystem, and that is our strongest suit.
+[59:13] **Dan Friedman**: However we choose to describe that, to me, is digital clay.
+[59:17] **Dan Friedman**: To others, it's Bitcoin with contracts, digital gold with contracts.
+[59:26] **Dan Friedman**: It doesn't have to be all the same.
+[59:28] **Dan Friedman**: It can be several different ones and it can be targeted for different groups.
+[59:32] **Dan Friedman**: But one thing is certain is that the versatility is our strong point of versatility is what we should be pushing.
+
+[59:39] **Dan Friedman**: All right.
+[59:40] **Dan Friedman**: Yeah, I think it's about a good time to wrap it up.
+[59:43] **Dan Friedman**: And oh, here's a nice message from White Cat.
+[59:49] **Dan Friedman**: So thank you.
+[59:50] **Dan Friedman**: Thank you, White Cat.
+[59:51] **Dan Friedman**: It's great to be back.
+[59:53] **Dan Friedman**: And yeah, thank you for watching the documentary.
+[59:56] **Dan Friedman**: Part two is coming.
+[59:58] **Dan Friedman**: Part two is going to be we're going to be filming that when we go back to Argentina.
+[60:02] **Dan Friedman**: And this is also one of the reasons why it's so important for us to start working.
+[60:08] **Dan Friedman**: And we are working on the lithium index and all of this.
+[60:15] **Dan Friedman**: all this stuff, because when we go back to Argentina in late March, early April, we're actually going, we're already going to deploy this so that we can then expand on our efforts for that sustainable lithium mining, because we're going to have this index, most likely going to have the stable coin launched, we're going to have different projects coming on in endeavor to utilize the STO and the ETO platform.
+[60:41] **Dan Friedman**: Gonna have other projects utilizing Palmyra Pro, so it's gonna be very exciting and it's gonna be really cool to be able to go back there and to really continue the work because it is super exciting and you're making a difference.
+[60:55] **Dan Friedman**: You just see that you're making a difference.
+[60:58] **Dan Friedman**: Anyway, guys, thanks a lot.
+[61:00] **Dan Friedman**: I will do all I can to be and go ahead.
+
+[61:05] **kushti**: Then maybe last question for you.
+[61:09] **kushti**: Do we have one minute?
+[61:11] **kushti**: So it's from FC.
+[61:13] **kushti**: Then when token launch for Palm, how much has been raised from a stake pool, funding crowns, grants, etc.
+[61:22] **kushti**: How many miles you racked up in 2024.
+[61:27] **kushti**: So three questions, so you may cut me.
+
+[61:29] **Dan Friedman**: Right, right, right.
+[61:30] **Dan Friedman**: So the Palm Token launch, so it's coming up really soon.
+[61:38] **Dan Friedman**: In fact, we're actually going to drop the dates, I think, later on.
+[61:43] **Dan Friedman**: Well, I guess it's whoever you are in the world.
+[61:46] **Dan Friedman**: In the next few hours, we're actually going to drop the dates for TGE.
+[61:51] **Dan Friedman**: And so that's coming up real soon.
+[61:56] **Dan Friedman**: So just watch out for that on Palm economy.
+[62:00] **Dan Friedman**: But like I said, I'd love to say right now, but I'm going to mess up our entire marketing comms.
+[62:07] **Dan Friedman**: And they're going to be really pissed off at me if I just drop it right now.
+[62:10] **Dan Friedman**: So I'll give them the chance to do their jobs, wait a few hours.
+[62:13] **Dan Friedman**: It's going to be announced.
+[62:14] **Dan Friedman**: But it's very soon.
+[62:15] **Dan Friedman**: We're basically kind of like the finish line right now.
+[62:20] **Dan Friedman**: There's a lot of stuff in the pipeline.
+[62:24] **Dan Friedman**: We got the centralized exchanges, although we don't like them much, but we have to work with them.
+[62:30] **Dan Friedman**: We got some nice ones for people to trade on.
+[62:32] **Dan Friedman**: We got also DEXs that we are going to be launching on.
+[62:36] **Dan Friedman**: There's going to be liquidity that we're going to be providing for this.
+[62:40] **Dan Friedman**: So there's going to be quite a lot of action.
+[62:42] **Dan Friedman**: for the Palm Token.
+[62:44] **Dan Friedman**: Staking is going to go live soon.
+[62:46] **Dan Friedman**: There's going to be a new product that I was talking about that's going to be utilizing Palm that is going to also utilize a lot of traceability, that is going to also be a big value add for the Palm Holders.
+
+[63:03] **Dan Friedman**: So how much has been raised?
+[63:06] **Dan Friedman**: So through everything, I believe it was I have to look at the numbers, but I believe it was somewhere in the neighborhood of, 1.5 million ADA, I believe, because we had several different rounds.
+[63:29] **Dan Friedman**: But yeah, altogether, I think it's about 1.5.
+[63:32] **Dan Friedman**: And yeah, and so there's gonna be one last tranche for the public sale that we're gonna be doing right now.
+[63:40] **Dan Friedman**: This is gonna be part of the announcement as well.
+[63:44] **Dan Friedman**: That's gonna be happening in a few hours.
+[63:48] **Dan Friedman**: Yeah, and so that will lead us into TGE.
+[63:51] **Dan Friedman**: And so yeah, TGE is happening, whether you like it or not.
+[63:55] **Dan Friedman**: It's happening real soon.
+[63:57] **Dan Friedman**: It's happening.
+[63:58] **Dan Friedman**: Well, you'll know when it's happening, but it's all lined up.
+[64:03] **Dan Friedman**: So just like I said, just wait for that announcement and I think you'll be very happy.
+[64:07] **Dan Friedman**: And again, thank you for hanging with us, it hasn't been easy going getting through the bear market right now.
+[64:18] **Dan Friedman**: One of the main reasons we kind of made sure that we launch in the right time is because, like I said on our discord, I just.
+[64:28] **Dan Friedman**: could not, it would be irresponsible for me to launch into the depths of the bear market.
+[64:37] **Dan Friedman**: And I think that the Palm holders appreciate that.
+[64:41] **Dan Friedman**: And I think they will appreciate it even more because, but once we actually pulled the trigger and a lot of these things that are ready to go.
+[64:48] **Dan Friedman**: So yeah.
+[64:50] **Dan Friedman**: I'm really happy that we are doing it now and that we have a lot more opportunity for everybody to have a really, really happy TGE.
+
+[65:01] **Dan Friedman**: And how many miles have you racked up in 2024?
+[65:06] **Dan Friedman**: So, okay, so I have been racking up a lot of Emirates miles.
+[65:12] **Dan Friedman**: But the problem is that only six months ago that I discovered that I could actually earn Emirates, because Emirates are the most difficult miles to get.
+[65:23] **Dan Friedman**: But I was able to understand that there's actually a way to get Emirates miles from like booking hotels and stuff.
+[65:33] **Dan Friedman**: If you go through booking.com, you can actually earn Emirates miles if you go through their app.
+[65:39] **Dan Friedman**: So I just started earning like a lot of Emirates miles.
+[65:43] **Dan Friedman**: So you would think I have a lot, but they're all scattered all over the place.
+[65:48] **Dan Friedman**: Yeah.
+[65:48] **Dan Friedman**: I got KLM, I got Emirates, I got Argentinian Airlines, I got like everybody in Air Canada, but they're all just like little by little by little.
+[65:58] **Dan Friedman**: I got Alaska Airlines.
+[66:02] **Dan Friedman**: So now the mission for this year is to have like one unified place where I have my miles.
+[66:09] **Dan Friedman**: It's most likely going to be my Emirates miles.
+[66:12] **Dan Friedman**: And yeah, we're going to finally going to be able to, I'm going to finally going to be able to utilize that for if I take 50 flights, I'll probably be able to get an ice cream or something.
+
+[66:23] **Dan Friedman**: Anyway, all right, guys.
+[66:25] **Dan Friedman**: Well, I think this is a good place to leave it off for this week.
+[66:28] **Dan Friedman**: Thanks for all the questions and thanks for all of your for all your input for participating because that's what it's all about.
+[66:40] **Dan Friedman**: All right, and so yeah, thanks for joining kushti.
+[66:42] **Dan Friedman**: Like I said, I will be at many more of these this year.
+[66:47] **Dan Friedman**: I will make sure that I make the time.
+[66:50] **Dan Friedman**: And yeah, and so until then, so I guess what?
+[66:53] **Dan Friedman**: Next week, same place, same channel, possibly slightly different time?
+[66:59] **Dan Friedman**: Possibly?
+[67:00] **Dan Friedman**: I don't know.
+[67:00] **Dan Friedman**: We'll see.
+[67:02] **Dan Friedman**: Because it is kind of late for me.
+[67:03] **Dan Friedman**: It's already 12, 10 a.m.
+[67:06] **Dan Friedman**: So yeah, hopefully we can do it a little earlier next time.
+[67:11] **Dan Friedman**: But anyway, guys, thanks a lot.
+[67:14] **Dan Friedman**: And yeah, this is Dan coming to you Barely Alive from Japan, but still kicking, signing off.
+
+[67:28] **kushti**: Everyone.

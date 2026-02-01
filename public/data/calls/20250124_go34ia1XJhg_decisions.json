@@ -1,0 +1,119 @@
+{
+  "call_date": "2025-01-24",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - January 23rd 2025 PART 2",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "09:23",
+      "decision": "Rework the DAO and make PID based DAO with temporary DAOs or Ergodevs 2025",
+      "speaker": "kushti",
+      "context": "To have very concrete specific goals for 2025 and specific funding goals",
+      "topic": "governance",
+      "significance": "major",
+      "quote": "What I'm proposing is to have just temporary DAOs or Ergodevs 2025, to have very concrete specific goals for 2025 and then also pretty specific funding goals to be met to reach the goals"
+    },
+    {
+      "id": 2,
+      "timestamp": "10:38",
+      "decision": "Fire up the temporary organization totally at the end of 2025 and start from scratch next year",
+      "speaker": "kushti",
+      "context": "Part of the temporary DAO structure",
+      "topic": "governance",
+      "significance": "major",
+      "quote": "The idea is to have just a temporary organization and then fire it up totally at the end of 2025 and start from scratch next year"
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "07:12",
+      "commitment": "Adding APIs for applications for sub-blocks",
+      "owner": "kushti",
+      "timeline": "in just a few days",
+      "topic": "technical",
+      "quote": "some early version may be available in just a few days"
+    },
+    {
+      "id": 2,
+      "timestamp": "07:43",
+      "commitment": "Application developers will have possibility to play with single nodes, local miner-based testing environments",
+      "owner": "kushti",
+      "timeline": "very soon, TM",
+      "topic": "technical",
+      "quote": "application developers at least will have a possibility starting from, yeah, very soon, TM, to play with single nodes, local miner-based testing environments"
+    },
+    {
+      "id": 3,
+      "timestamp": "44:40",
+      "commitment": "Will message Dan after the call about coordination",
+      "owner": "kushti",
+      "timeline": "maybe tomorrow",
+      "topic": "coordination",
+      "quote": "I will message you after, but maybe tomorrow because it's late, right? On your side, sir"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "09:23",
+      "question": "Tokenomics questions for the PID based DAO rework",
+      "context": "kushti tried to rework the DAO yesterday but got into tokenomics questions",
+      "topic": "governance",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "11:50",
+      "question": "How to manage the treasury with a temporary DAO",
+      "context": "Discussion about transferring treasury to new DAO",
+      "topic": "governance",
+      "raised_by": "qx()"
+    },
+    {
+      "id": 3,
+      "timestamp": "22:02",
+      "question": "How off-chain exchange of ChainCash notes would work",
+      "context": "qx() still can't wrap his head around the off-chain exchange mechanism",
+      "topic": "technical",
+      "raised_by": "qx()"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "06:08",
+      "fact": "Sub-blocks development has good progress with local miner-based DevNet generating input blocks correctly",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 2,
+      "timestamp": "08:40",
+      "fact": "6.0 audit is ongoing with one small issue left unfixed",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 3,
+      "timestamp": "35:04",
+      "fact": "More than 27,000 ERG in bounties are available for developers",
+      "speaker": "kushti",
+      "topic": "development"
+    },
+    {
+      "id": 4,
+      "timestamp": "45:28",
+      "fact": "Cornell BRICK was introduced to 300-400 students in architecture classes",
+      "speaker": "qx()",
+      "topic": "adoption"
+    },
+    {
+      "id": 5,
+      "timestamp": "46:02",
+      "fact": "Tipperbot and front/back end for plot submission system accepting Ergo payments for BRICK is set up and tested",
+      "speaker": "qx()",
+      "topic": "technical"
+    }
+  ]
+}

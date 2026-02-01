@@ -1,0 +1,213 @@
+[00:03] **kushti**: Good day everyone, I am Alexander Chepurnoy, also known as kushti, co-developer of Ergo, proof-of-work cryptocurrency, realizing the concept of programmable money, and my talk would be about property rights in the age of programmable money.
+
+[00:19] **kushti**: And the talk will connect some dots.
+
+[00:26] **kushti**: In particular, it will connect previously US-sanctioned smart contract, so autonomous code on blockchain which got sanctioned.
+
+[00:37] **kushti**: Money of the future, so programmable money, tokenized real world and blockchain assets such as art objects and property rights.
+
+[00:46] **kushti**: And if you are talking about property rights of the future, so programmable property rights as well.
+
+[00:53] **kushti**: OK, so let's start.
+
+[00:56] **kushti**: So what could be a property when we are talking about digital world, blockchain world, where we can have autonomous code while handling some money, some tokens?
+
+[01:12] **kushti**: So there was a very interesting case recently, a case of Tornado Cash.
+
+[01:19] **kushti**: Tornado Cash is a service that is mixing potentially identifiable cryptocurrency funds with others to obscure the trail back to the funds original source.
+
+[01:34] **kushti**: This is a privacy tool used in Ethereum and
+
+[01:38] **kushti**: Ethereum-like networks where all the transactions are public by default.
+
+[01:44] **kushti**: And at some point the US Department of the Treasury blacklisted the protocol.
+
+[01:51] **kushti**: And then, very recently, on November 26, 2024, a U.S. federal appeals court overturned an earlier ruling stating that the law could not sanction a protocol.
+
+[02:09] **kushti**: Well, if we are talking about details, so exact words are that Tornado Cash's immutable smart contracts.
+
+[02:19] **kushti**: The lines of privacy enabling software codes are not the property of a foreign national entity, meaning that they cannot be blocked under different regulations.
+
+[02:36] **kushti**: Alright, so here we have that if some code is not associated, some code along with its assets, right, such as assets been mixed by Tornado Cash.
+
+[02:56] **kushti**: Autonomous smart contract so both the code and the assets it's owning in the process of mixing not recognized as someone's - so individual or company property.
+
+[03:18] **kushti**: At least according to current US laws, but probably in other jurisdictions it would be the same, but yeah, it's the very new thing. It's just a few days basically, like two weeks in just one jurisdiction.
+
+[03:40] **kushti**: And the same results we got.
+
+[03:46] **kushti**: The same results maybe in a bit more technical form, because we are not lawyers, we are developers.
+
+[03:58] **kushti**: Developing the concept of programmable money.
+
+[04:01] **kushti**: So in our physical real world every bank note is not protecting itself, right?
+
+[04:11] **kushti**: So it's passive.
+
+[04:12] **kushti**: And in the digital world, so in the setting of programmable money, every digital bank note is protected by a public key or many keys and also potentially programmable logic.
+
+[04:28] **kushti**: Every digital bank note is protecting itself with some program and execution of that program possibly with signature check after decides whether a note may be spent or not.
+
+[04:45] **kushti**: And this is actually already quite old concepts going from Bitcoin, early days of Bitcoin, even Bitcoin script, but developed in the Ergo community.
+
+[05:03] **kushti**: And so in case of blockchain based programmable money like Ergo or Bitcoin we have programmable logic expressed against the state of the blockchain right because on the blockchain everything is just the state of the blockchain. To be connected to the external world you need for trusted entities and the whole point of the blockchain is to avoid trust.
+
+[05:33] **kushti**: But we can imagine non blockchain based programmable money also where logic is expressed against state.
+
+[05:43] **kushti**: Every user of a money system agreed or enforced to be agreed on.
+
+[05:49] **kushti**: Example of that could be CBDC central bank digital currency but I'm not aware of any using such programmability at the moment but in the future that would be the case probably.
+
+[06:04] **kushti**: And then in the age of programmable money the talk about ownership is becoming more complex so we have individual
+
+[06:16] **kushti**: ownership when a digital banknote belongs to just one key, always right, depends on time and other things which are happening on the blockchain.
+
+[06:32] **kushti**: We also may have cooperative property when a node belongs to multiple keys, for example, with quorum voting needed to spend a node.
+
+[06:46] **kushti**: And also we may have contractual property, right, so autonomous property, property which belongs to autonomous contracts such as Tornado Cash in
+
+[07:01] **kushti**: the example I've provided before.
+
+[07:07] **kushti**: So we can define contractual ownership when an owner could not be defined, right?
+
+[07:18] **kushti**: When there is no owner, for example, right?
+
+[07:21] **kushti**: So owner could be pseudo randomly chosen.
+
+[07:25] **kushti**: Maybe in future or maybe we have rotating
+
+[07:30] **kushti**: right to do some things based on randomness pseudo randomness if we are talking about blockchain or maybe an owner will be decided based on
+
+[07:46] **kushti**: the state of blockchain right in future.
+
+[07:51] **kushti**: So maybe it will go to a miner of particular block on the blockchain or whatever.
+
+[08:02] **kushti**: There could be very different options here.
+
+[08:06] **kushti**: And yeah in this case when we cannot identify owner because it will be decided by a program at certain point there is no any owner at all.
+
+[08:22] **kushti**: Then we are talking about contractual property.
+
+[08:27] **kushti**: Right those things maybe a bit abstract for you guys so let's talk about art now let's talk about things which are closer to you guys let's talk about tokenized art so what's people are now doing
+
+[08:53] **kushti**: with art and blockchain so there are two options so first you may tokenize physical art ownership usually by dividing ownership rights and pieces right and issuing tokens where one token is corresponding to one piece
+
+[09:20] **kushti**: of an art object and then we have tokenized ownership with for example 1000 tokens representing the full ownership of our art object.
+
+[09:38] **kushti**: Another option is to create digital art and put it on the blockchain.
+
+[09:46] **kushti**: You can
+
+[09:49] **kushti**: break it into pieces as well, but in this case it's more popular to make an NFT, so a single token which is associated with, for example, this black swan picture.
+
+[10:06] **kushti**: All right.
+
+[10:09] **kushti**: And this is just one dimension of ownership, right?
+
+[10:14] **kushti**: Let's call it quantization dimension.
+
+[10:17] **kushti**: So you can have a single token representing the whole art object, or you may have multiple tokens each representing part of a digital or physical art object.
+
+[10:30] **kushti**: OK, but then, going back to programmable money,
+
+[10:38] **kushti**: there is another dimension, so every token, whether it's NFT or one token out of 1000, can be protected by a public key or many keys or even programmable logic.
+
+[10:58] **kushti**: Right and similar to programmable money program execution with possible signature check after decides whether a token may be transferred from existing owner to a new one or not.
+
+[11:19] **kushti**: And
+
+[11:23] **kushti**: here we have options we already defined, so individual, collective and contractual ownership.
+
+[11:32] **kushti**: But in case of multiple tokens representing an art object, for example, there could be different options for different pieces, right?
+
+[11:42] **kushti**: Of an art object means different tokens.
+
+[11:46] **kushti**: For example, we can imagine 200 tokens out of 1,000 to be owned by an art gallery, 100 tokens by a painter's cooperative, for example, with 9 out of 15 signatures needed for transfer rights, or we have 15
+
+[12:10] **kushti**: signatories in the cooperative and then nine is enough for transfer, nine signatures.
+
+[12:23] **kushti**: And then we can lock 700 remaining tokens to a contract which puts one token every week, for example, on a decentralized blockchain-based auction, right?
+
+[12:38] **kushti**: And for those 700 tokens at the beginning we have contractual ownership, right?
+
+[12:45] **kushti**: But then, yeah, after auctions those 700 tokens would be possessed by other entities, right, and they could be individual, collective or contractual again.
+
+[13:05] **kushti**: Right, so this world is going to be quite complicated, right, and also exciting because with contractual ownership we also have contractual possibilities.
+
+[13:24] **kushti**: We may do a lot of experiments around sales of art objects, right?
+
+[13:32] **kushti**: I think even from this simple example this is becoming quite obvious.
+
+[13:40] **kushti**: And so we may discover a lot of new sales models.
+
+[13:47] **kushti**: We can have trading boosting by liquidity provision.
+
+[13:54] **kushti**: Right, which can be made a part of emission contract, for example.
+
+[13:59] **kushti**: So in this example where we are selling 700 tokens one by one, every week on a decentralized blockchain based auction.
+
+[14:15] **kushti**: We may require proceedings from auction to be going to liquidity pool.
+
+[14:23] **kushti**: Right, so then those tokens would have good liquidity.
+
+[14:36] **kushti**: Right, in a liquidity pool where we have tokens representing art objects along with
+
+[14:47] **kushti**: tokens representing Euro, for example, right, or USD or gold or cryptocurrency tokens such as ERG or whatever.
+
+[15:00] **kushti**: OK, then we can have time logs, for example, to prevent immediate sales where it's needed, where it makes sense contractually and so on.
+
+[15:13] **kushti**: And by
+
+[15:15] **kushti**: doing all those new things and by combining them differently.
+
+[15:22] **kushti**: We are bringing our financialization of art to completely new level, making financial schemes around such financialization also a kind of art.
+
+[15:38] **kushti**: All right.
+
+[15:41] **kushti**: And there are a lot of tools already available in the Ergo ecosystem, such as airdrop tools to reward some community with tokens.
+
+[15:53] **kushti**: Auction coin framework to emit tokens via auctions periodically.
+
+[15:59] **kushti**: As in our example, and possibly inject funds raised into liquidity pools.
+
+[16:07] **kushti**: Then there are a lot of fundraising tools such as MewFinance where you can fundraise.
+
+[16:16] **kushti**: You can raise funds to do a new art object, right, and after tokenizing it you can reward
+
+[16:27] **kushti**: contributors with tokens.
+
+[16:34] **kushti**: There are auctions where you can put NFTs.
+
+[16:37] **kushti**: There are already a lot of NFTs there.
+
+[16:40] **kushti**: There is some tooling - decentralized autonomous organization it's called, but we can call it just digital cooperatives.
+
+[16:53] **kushti**: And this tooling is for token based decision making.
+
+[16:57] **kushti**: There is such tool Paideia on Ergo and you can use it, for example, to have some kind of cooperative rights associated with some art object, for example.
+
+[17:16] **kushti**: Or you can tokenize maybe some collection or even some movement art movement and so on.
+
+[17:26] **kushti**: You may have liquidity pools, order book based decentralized exchanges and so on, so on.
+
+[17:33] **kushti**: You may have NFT collections, so combine different
+
+[17:41] **kushti**: unique pieces like this black swan along with white swan for example and maybe pink flamingo and so on into a single collection with some common properties.
+
+[17:57] **kushti**: And so on, so on, so on.
+
+[17:59] **kushti**: So there are a lot of tools already and a lot of possibilities outlined in this talk and not only.
+
+[18:10] **kushti**: So let's discover the new age of finance together.
+
+[18:18] **kushti**: And I hope, with all those new schemes there would be a lot of experiments on how to tokenize or to build also sustainable finance right for artists at least, but not only.
+
+[18:41] **kushti**: OK, so please check the links where you can find tooling mentioned.
+
+[18:50] **kushti**: And here is Ergo's Telegram group and my personal Twitter.
+
+[18:59] **kushti**: Thank you for your attention.
+
+[19:01] **kushti**: Have a great event.
+
+[19:03] **kushti**: Bye.

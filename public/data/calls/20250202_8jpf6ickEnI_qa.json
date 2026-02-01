@@ -1,0 +1,158 @@
+{
+  "call_date": "2025-02-02",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "04:10",
+      "question": "What are centralized stablecoins like USDC and USDT holding as reserves, and why is this significant?",
+      "asker": "qx()",
+      "answer": "Centralized stablecoins like USDC and USDT are holding government bonds as reserves. This is interesting because it creates a new way of sinking liquidity into the bond market, which could be useful for governments that have a lot of debt to roll over - having these new mechanisms to offset demand based on the amount of debt needing to be rolled over.",
+      "responder": "Armeanio",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "stablecoins",
+        "USDC",
+        "USDT",
+        "government bonds",
+        "liquidity"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "17:50",
+      "question": "DuckPools shows 28.9% APY for Sigmanauts pool - how should users evaluate yield in crypto?",
+      "asker": "qx()",
+      "answer": "You need to understand where yield comes from first and foremost. 28% real yield is pretty impressive, but when you look at it side by side with money printing yield from some token that just gives you more tokens for staking, you have to know where your yield comes from. Otherwise you might be the yield.",
+      "responder": "Armeanio",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "yield",
+        "APY",
+        "DuckPools",
+        "Sigmanauts",
+        "real yield"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "21:45",
+      "question": "How can blockchain technology be made transparent to end users while still providing benefits?",
+      "asker": "qx()",
+      "answer": "There's a huge use case for stateless clients or ultra light clients where abstraction usually means putting additional layers of trust between users and the blockchain. Ergo's ability to build low-trust, potentially one-click applications where people don't need to know they're operating with the assumptions of a full node is pretty magic. Sub-blocks will be a driver of this because you're no longer waiting for block time.",
+      "responder": "Armeanio",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "stateless clients",
+        "ultra light clients",
+        "sub-blocks",
+        "block time",
+        "full node"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "26:02",
+      "question": "What's the current status of Rosen Bridge development?",
+      "asker": "qx()",
+      "answer": "Rosen requires a lot of testing - it's build, test, fix cycles repeatedly. We had a bug show up in Binance Smart Chain testing, took a week to figure out why and patch it, then run end-to-end tests. Open source software is not sexy business, but the capabilities are awesome. Binance Smart Chain support is coming soon.",
+      "responder": "Armeanio",
+      "category": "bridges",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Rosen Bridge",
+        "Binance Smart Chain",
+        "testing",
+        "open source"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "28:29",
+      "question": "How should the Ergo community view exchange listings?",
+      "asker": "qx()",
+      "answer": "The core people in Ergo now understand that listings are about access, not price pumps. It's about access to US customers and getting people a way onto the Ergo blockchain. Even Rosen has had pretty decent ERG depth on Cardano, which becomes an easier on-ramp. We have as much liquidity on the Cardano chain as we do on Gate and other exchanges combined.",
+      "responder": "qx()",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "exchange listings",
+        "liquidity",
+        "Cardano",
+        "Rosen",
+        "on-ramp"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "36:43",
+      "question": "What advantage does Ergo have in Layer 2 development?",
+      "asker": "qx()",
+      "answer": "One of the big benefits of Ergo is that we have a footprint in the Bitcoin design space. There's huge mind share in terms of potential ways to build on top of Bitcoin or improve Bitcoin. Generally these never go anywhere, but it creates a huge research and mind share space that we can potentially draw from. Cardano is probably ahead of us with Midgard and Hydra, so it gives us a nice knowledge base to build from.",
+      "responder": "Armeanio",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Layer 2",
+        "Bitcoin",
+        "Cardano",
+        "Midgard",
+        "Hydra",
+        "ChainCash"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "42:00",
+      "question": "What is the goal for Ergo's Layer 1 user experience this year?",
+      "asker": "qx()",
+      "answer": "C8 is championing the layer 1 UX goal - deliver people this low layer one user experience where things don't need to be abstracted across multiple environments. Mempool chaining and sub-blocks really enable the idea of a stateless or ultra light client that can get that type of snappy UX, which is huge for the ecosystem. The goal is 'number one UX or shut your website down and don't frustrate people.'",
+      "responder": "Armeanio",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Layer 1",
+        "UX",
+        "mempool chaining",
+        "sub-blocks",
+        "stateless client"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "47:23",
+      "question": "Why is proof-of-work mining a good method for token distribution compared to other launch methods?",
+      "asker": "qx()",
+      "answer": "Mining is an amazing way to token launch and distribute. Compared to something like pump.fun where there's huge incentive for supply dominance, proof of work emission lets you create a contract that admits tokens through time where distribution is more controlled. Miners have to pay their bills, so they provide a slower distribution - they're actually working for it by converting electricity to secure the chain.",
+      "responder": "Armeanio/qx()",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "proof of work",
+        "token distribution",
+        "mining",
+        "supply dominance",
+        "emission"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "53:22",
+      "question": "What's the recommendation for Ergo miners regarding pool selection?",
+      "asker": "qx()",
+      "answer": "Until community pools like Mark's Sigmanauts pool are hash rate dominant, miners should point to them instead of other pools. The other pools are not contributing to the ecosystem - they just make rewards and earn money, maybe periodically market something. Community pools are active, bring value, and build things for Ergo. We need to put services in a position where they actually need to do something to compete.",
+      "responder": "Armeanio",
+      "category": "mining",
+      "difficulty": "beginner",
+      "related_terms": [
+        "mining pools",
+        "Sigmanauts",
+        "hash rate",
+        "community pools",
+        "ecosystem"
+      ]
+    }
+  ]
+}

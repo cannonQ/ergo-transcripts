@@ -1,0 +1,509 @@
+[00:09] **tmr.erg**: Alright, here we go, guys.
+
+[00:12] **tmr.erg**: Welcome.
+
+[00:14] **tmr.erg**: Mark, how's it going, dude?
+
+[00:16] **Marc the Shark**: Hey, I'm doing good. Doing good. How about yourself, Tim?
+
+[00:20] **tmr.erg**: I'm good, dude. A little cold. It's still cold but I got my coffee now.
+
+[00:25] **tmr.erg**: I'm good.
+
+[00:27] **tmr.erg**: I had a little coffee incident this morning and I forgot to close the lid and so all the water just evaporated instead of making me coffee.
+
+[00:34] **Marc the Shark**: Oh no.
+
+[00:36] **tmr.erg**: I had to correct that.
+
+[00:38] **tmr.erg**: So we got a guest today, Pepper, the anonymous. What's going on Pepper? How's it going dude?
+
+[00:46] **PepERG**: Hey, hi Tim. Hi Mark. Thanks for inviting me on today.
+
+[00:51] **PepERG**: Yeah, I'm really good. Mark, it's obviously taking a little bit of a dump this time of recording at the moment, but Ergo overall has been doing really well.
+
+[01:01] **PepERG**: The ecosystem seems to be flourishing. So yeah, I'm just keen to sort of kick some things around with you, discuss Pepper, discuss meme coins, discuss Ergo, and go from there, really.
+
+[01:12] **tmr.erg**: Yeah, for sure. Well, thanks. Thanks for joining. It's really cool to have another guest on.
+
+[01:18] **tmr.erg**: I know Mark's probably tired of talking to me, listening to me talk.
+
+[01:23] **Marc the Shark**: Oh, stop. No way.
+
+[01:25] **tmr.erg**: I was thinking about vice versa.
+
+[01:29] **Marc the Shark**: No, but it's still so.
+
+[01:32] **tmr.erg**: Some cool stuff happened recently, like the quantum computing benchmark was surpassed or whatever. Do you all have any thoughts about the quantum computing and how that might impact blockchain or not?
+
+[01:49] **PepERG**: Yeah, I always see AI and obviously fast computing speeds as being something that humans can work with, I don't necessarily think that it's going to affect the security of Bitcoin because just around the difficulty adjustment with SHA256.
+
+[02:11] **PepERG**: However, in terms of helping people produce better code or better blockchains, then yeah, sure. I think this is a great thing to have in our arsenal.
+
+[02:24] **Marc the Shark**: Yeah. And I'd say for me, I'm not really too sure. I haven't really looked too much into it. I think isn't there the notion, like the biggest thing that would be worried about right from a quantum computing perspective is just the quantum computers being able to essentially generate your keys. And then it's like your pass phrase.
+
+[02:46] **tmr.erg**: Yeah. Right. Yeah. I, you're more technical than me, Mark, but just like, I really enjoyed watching Christian kind of talk about it.
+
+[02:57] **tmr.erg**: And he was just like, nah, you know, all we have to do is make the hash function just a little bit more difficult. And then it gets exponentially more difficult to solve. And there's still like several steps away from even approaching where Bitcoin is currently.
+
+[03:14] **tmr.erg**: So it's just not something to worry about. And then I actually saw another post today where dude was like, Satoshi was talking about what you need to do in 2009. And it's the same thing. Like you just increase the difficulty a little bit and it's fine.
+
+[03:31] **tmr.erg**: Okay. Yeah, seems overblown.
+
+[03:34] **Marc the Shark**: Yeah, okay. Interesting. How does the difficulty correlate, I guess, with the brute force of the keys? You know, because isn't that like, I guess the concern?
+
+[03:45] **tmr.erg**: I don't think it means like not like mining difficulty, like not like the number of hashes required to find it, but actually the length of the hash function maybe is a little bit longer. And so the more digits you would add to that, the more difficult it would be to solve.
+
+[04:05] **Marc the Shark**: Okay, right. Now that makes sense. So yeah, then it's because it probably gets very, hopefully, right logarithmic in some sense where it's just like, or I don't know if that's the right one.
+
+[04:15] **tmr.erg**: Exponential, yes.
+
+[04:16] **Marc the Shark**: Yeah, exponential, yeah, absolutely. Yeah, interesting. I saw a kushti tweet about it, and he was like, oh, we're not, like you were saying, it's like, yeah, we don't really need to worry about this. So I was like, okay, cool, I'll just go back into my cave, so to speak, and continue doing my thing.
+
+[04:31] **tmr.erg**: Yeah, if any big brain listeners have some more details, let us know. I'm super interested to learn and I don't know.
+
+[04:44] **tmr.erg**: All right, so can I just call you Pepe because PepERG is a little bit difficult to say.
+
+[04:52] **tmr.erg**: Yeah. Can you tell me about yourself? What's up, man?
+
+[04:56] **PepERG**: Yeah, absolutely. So yeah, thanks again for inviting me on, especially just to give you just a brief precis of my background.
+
+[05:07] **PepERG**: So I've come from a business background myself. I own a couple of companies, a development company as well. And I suppose that's one of the reasons why I'm not really keen to dox is that in terms of employees and partners that work with me, I've seen come back.
+
+[05:24] **tmr.erg**: I think you don't want your parents to see.
+
+[05:27] **tmr.erg**: Yeah, yeah.
+
+[05:29] **PepERG**: It's the online backlash that you get from, yeah, we had it early days in one of our competitions around somebody didn't quite follow the rules. We're always really prescriptive on the rules of games and, you know, rage dumping off the competitions is fine, but any kind of sort of backlash from anybody else affects people's daily lives.
+
+[05:51] **PepERG**: Yeah, it's not worth it. So in terms of, I suppose in terms of myself, I've been in crypto actively since around about mid 2017.
+
+[06:03] **PepERG**: Initial exposure to Bitcoin was, you know, six, seven years before that. But like many people, I didn't immediately engage. Obviously, I wish I did, but I didn't at the time. It was, you know, funny internet money. So I kind of dismissed it.
+
+[06:18] **PepERG**: It was really in that run of 2017 when Ethereum really came to life. And I suppose I started really picking up on major podcasters like Andreas Antonopoulos and some of his lectures that I really kind of understood, wow, this is going to change the world.
+
+[06:38] **PepERG**: For me, really, it was actually executing a smart contract. I don't know if you guys were around at the time, but EOS were doing an ICO, and you basically had to knit a couple of ERC20 contracts together.
+
+[06:52] **PepERG**: I can remember executing that, obviously self-taught. I'm not a technical background myself. I thought, yeah, this is going to take off.
+
+[06:59] **PepERG**: I think one of the most important things in crypto, and I think Sigmanauts, especially guys like this and people who have been within our community for months, will know that you stay engaged in the market during busts.
+
+[07:16] **PepERG**: When it's dead, that's when you build. That seems central to our philosophy.
+
+[07:21] **PepERG**: I stayed very much within that bear market, discovered Cardano, following Charles quite deeply, seeing obviously the boom of Cardano, seeing the boom of decentralized exchanges, Uniswap Pancakes, Sushi were doing well, and going down the Cardano native token route and found Spectrum DEX.
+
+[07:44] **PepERG**: I thought, what is this? And then I looked into, obviously, I found Ergo, and I immediately thought, okay, so this is fair launch. There's that amazing graph that you see on X sometimes, which has got the distributions of early tokens to founders and pre-seed, and you've got Ergo with this thin slice.
+
+[08:03] **PepERG**: and the rest for mining. And I just thought, okay, I'll buy into that.
+
+[08:08] **PepERG**: I'll buy into proof of work for reasons that Joe Armeanio has spoken about in terms of market entry without KYC. I personally massively believe in that. I've got a network in West Africa and I see these guys that they don't have bank accounts, they don't have IDs, but they do have sunshine.
+
+[08:28] **PepERG**: They do potentially have and all bits of hardware so entering into that ecosystem cryptocurrency is really for is for micro tipping it's for giving people access to financial services so that piece obviously the proof of work element around grid management and power balancing I can also see huge legs in so
+
+[08:47] **PepERG**: Seeing proof of work and then seeing what Ergo was about the ethos and then some of the principles that they had around decentralized fairness and the open source development piece.
+
+[08:59] **PepERG**: I just thought was really strong and I was like, this is one I can, I understand why it's not been marketed, why it's not been pushed. Because it's about a huge group of people coming together, dedicating their time, just like you guys are today, dedicating their time and building something.
+
+[09:15] **PepERG**: So, you know, pre-PepERG, I was very much active on Twitter, evangelizing Ergo. I went under RedDragon the Sigmanauts, probably had 300, 400 organic followers.
+
+[09:29] **PepERG**: You can look back in the Twitter history around that, and then essentially launched PepERG back in what July 20, 2023. And yeah, and here we are today.
+
+[09:42] **tmr.erg**: Okay, man. Yeah, thanks. Thanks for the rundown. Sounds like you're on the team, you know, you have a lot of the same opinions as many of us do.
+
+[09:54] **tmr.erg**: So yeah, right on. And it's a pleasure to meet you really.
+
+[09:58] **PepERG**: Yeah, absolutely. I think today it's going to be interesting to talk about obviously meme tokens and meme coins and because I think the interesting thing that I found about Ergo is that why I don't actually think that meme tokens have been hugely pervasive on our chain is because people seem to be more interested in actually building real
+
+[10:22] **PepERG**: real life stuff and useful applications, mostly. So I think we will see a huge growth of meme coins and meme tokens on Ergo though. So I think there is going to be that to come.
+
+[10:35] **tmr.erg**: So alright, so I'm going to do a couple of things right now. First is the KYA, you know, if anybody listening has not noticed. I don't know, Pepper, this person we're interviewing, glad to have you on.
+
+[10:51] **tmr.erg**: But I think it's a healthy thing to just like be a little bit skeptical of things in the crypto space.
+
+[10:59] **tmr.erg**: And I want to start at the bottom, like, what is a meme token? Like, what does meme token? Let's start there. Because, you know, we talk about coins, you know, ERG is a coin that gets mined.
+
+[11:14] **tmr.erg**: It's the utility token of Ergo, like the main thing. And then there's native tokens where, you know, we have some governance tokens or project tokens that may or may not be useful.
+
+[11:30] **tmr.erg**: But what is a meme token? What does that mean?
+
+[11:36] **PepERG**: If we talk about the history of meme tokens and meme coins, and I use the phrase interchangeably because I think there is a difference. And so I think most people would agree that Dogecoin was probably the first original meme coin.
+
+[11:54] **PepERG**: OK. And what maybe people aren't too aware of is that Dogecoin fork of Bitcoin in 2013 less energy intensive consensus algorithm. It has implemented a lot of the upgrades that Bitcoin has been through, specifically Taproot in 2021.
+
+[12:12] **PepERG**: That has now actually sprouted its own native ecosystems around DRC20 tokens, runes, you get NFTs now based on that platform.
+
+[12:22] **PepERG**: You've got, whilst people think of Dogecoin as a meme, it's actually a pretty powerful legacy blockchain protocol which can be used for various different applications.
+
+[12:34] **PepERG**: It's an incredibly strong referencing system and everything really that Bitcoin is in a way obviously, albeit having an inflationary supply,
+
+[12:43] **PepERG**: Meme tokens, I think are probably, they came in a bit later. I think really when we saw the real growth of meme tokens was probably in Shiba Inu.
+
+[12:55] **PepERG**: That was an ERC-20 token that was essentially pre-printed, not mined, pre-printed, put into circulation. We had some pools of liquidity and then the hype was just created and then it obviously grew exponentially.
+
+[13:11] **PepERG**: So I think meme tokens really are more synonymous with a speculative token, something that doesn't actually have a specific use case other than hoping to buy it and sell it at a higher price.
+
+[13:27] **PepERG**: I think what we're seeing as well is that we've gone from this kind of animal meta over the last sort of four or five years and we seem to be edging into this like food meta and even like a clothing and I think there'll be places and people and politicians exactly and we've seen a massive overproduction of meme coins so there's around about I say meme coins meme tokens around about 10,000 new meme tokens daily across the entirety of crypto so
+
+[13:59] **PepERG**: They have developed though, I think, in terms of some of their primary use cases. I mentioned there about price speculation, obviously, tippings and payments. People within Ergo, we use it as a tipping method.
+
+[14:19] **PepERG**: You've got things like community engagement. We tend to run a lot of competitions. I know that Comet does a similar thing and has been involved in decentralized app testing.
+
+[14:34] **PepERG**: And also I think that, specifically in Ergo actually, because we are a relatively small and tight-knit ecosystem, it has allowed people to create and sort of develop their own brands or capitalize on existing popular culture brands as well.
+
+[14:48] **PepERG**: So there is a lot to unpack there, to be honest with you, because you could also talk about Yeah, the dearth of religion. And this goes on to some of the things that have been publicized more recently around, you know, people are thinking, you know, I need something I want a cult to attach some sort of belief and interest in.
+
+[15:07] **PepERG**: And that's where people are looking at meme tokens as something to serve that purpose.
+
+[15:15] **Marc the Shark**: Yeah, would you? Would you say, you know, kind of comparing meme tokens, meme coins, right? Just playing devil's advocate here.
+
+[15:27] **Marc the Shark**: But, you know, wouldn't you say meme tokens are sort of like the antithesis of like cryptocurrency just because it's kind of like in some sense, right? Right. There is a fixed supply, but also it's in some sense, it's easy money if in comparison to Bitcoin or even Dogecoin, because it's
+
+[15:48] **Marc the Shark**: Like, because you can mine it there's assets that you have to then emit this token, whereas meme tokens, there, it's all emitted. And then from there, it's based upon the founder and things like that to distribute it to lock it and then you got to inherently sort of have to trust the other person on the other end.
+
+[16:07] **Marc the Shark**: versus, you know, trusting the consensus algorithm. So it's more of like a social consensus mechanism compared to sort of a trustless thing. So it's inherently permissioned, right? So I don't know, what are your thoughts kind of on that?
+
+[16:23] **PepERG**: Yeah, I think that traditional ERC 20 meme coins were like that. And I think that presents some problems and some opportunities, I think,
+
+[16:36] **PepERG**: From a problem perspective, it's about distribution. Yeah, when I started Pepper, it was a joke, right? I wanted to show my friend how to use it off the back of an Ergoversary video.
+
+[16:48] **PepERG**: And I thought, why not bring Pepe to Ergo? Like, I love Pepe. I love Ergo. Let's create this.
+
+[16:55] **PepERG**: And then suddenly, immediately, you're hit by, okay, I've got 100% of these tokens in my wallet. How do we then distribute it? Okay, I've got to put money into a liquidity pool. Okay, right, now people are starting to ask about tokenomics. And you kind of do it on the fly. Obviously, a lot of other people are much more planned about it in terms of how they go about it.
+
+[17:15] **PepERG**: I think you are seeing though, in terms of, And maybe they sit somewhere between meme tokens and meme coins. But when you're talking about Bitcoin native meme coins or Dogecoin native ones, they've got methods of essentially effectively minting them.
+
+[17:36] **PepERG**: So you would have 100% of the supply that you're able to mint. You essentially pay a production cost to send a mint, a transaction. I'll execute a transaction, then you get a certain amount of tokens. That way essentially enables you to better distribute the token amongst holders, which is much more organic.
+
+[18:00] **PepERG**: But what I've seen, and I think Ergo can also relate to this really, is that without having a central treasury or having somebody who is pushing and making decisions specifically, because a lot of people rely on that, to be honest with you, and they want that.
+
+[18:14] **PepERG**: That's why leadership is a thing. Then they can struggle to grow sometimes because if you've got 100% minted out to your holders, then how are you going to get bounties for competitions? How are you going to afford listing fees? You say, well, let's all contribute together, but it rarely happens.
+
+[18:33] **tmr.erg**: Yeah, I agree with everything both of you just said. I guess first I'd say, I think there is a little bit of a divide between the ethos of meme tokens and I would say authentic crypto projects where it's like, you know, we've said this before, Mark, like the purpose of crypto is not to make you rich, it's to make people free.
+
+[18:58] **tmr.erg**: And, you know, the first thing we said here was like, yeah, you know, we're hoping to buy this token and then sell it for more. And so in that regard, it's much more PVP than it is people working together to make the pie bigger for everyone.
+
+[19:17] **tmr.erg**: And so, that's my first opinion. And it's not that I'm against gambling. But I like gambling. I like gambling on things like UFC fights that I where I have like knowledge and I can make an informed decision and when it comes to me gambling about like whether People are gonna buy Joe Biden or not I have no idea, you know, I just have no idea and so that is my hesitance, but I think as long as people are actually
+
+[19:58] **tmr.erg**: acknowledging what they're doing and not just like, oh, yeah, well, Shiba Inu is going to go to a dollar. Like, probably not. They can be responsible and have fun with the memes.
+
+[20:12] **tmr.erg**: And that's kind of where it all starts, especially on Ergo. That's really where it started. Do you know the very first meme token on Ergo?
+
+[20:21] **PepERG**: I'm pretty sure, correct me if I'm wrong, I thought it was Erdoge, but it may be Erdoge.
+
+[20:27] **tmr.erg**: No, it's Erdos. And the whole point of that was that one of the developers asked a community member to try out the token minting utility.
+
+[20:38] **tmr.erg**: And so he tried it out, you know, just made a token and put no thought into any of it and Now there's a 500,000 supply token called Erdos and the founder just literally gave it all away as like this educational thing.
+
+[20:55] **tmr.erg**: Like, like, Hey, here's how you make transactions. Do test transactions with this instead of your ERGs, because this is not valuable. And if you screw it up, like who cares?
+
+[21:05] **tmr.erg**: And so I actually love the Erdos. You know, it's like the whole thing, like just don't buy it. Don't spend any money on it. Send it around. Try to collect them, you know, I got a few and I've had some fun doing that.
+
+[21:19] **tmr.erg**: And it's nice to see some other things come up and there are other schemes, you know, like there was one called Bass, were you around for the Bass token?
+
+[21:31] **PepERG**: Yeah, sure. That came out literally just before I launched Pepper and there was speculation that I was the Bass guy, but just in a different form, which I was like, whoa,
+
+[21:43] **PepERG**: To be honest with you guys, I was not part of, I was on Twitter. I was, and I followed the YouTube videos and the weekly updates, but I was not across Telegram, I was not across Discord. So I was unaware completely of these things before obviously launching Pepper.
+
+[21:59] **tmr.erg**: Don't worry about it. I just thought it was fun. It's like, oh yeah, you get a random amount of tokens for your deposit. That's a fun thing. And it ended up being kind of cool, got big. What always happens, you know.
+
+[22:16] **tmr.erg**: Yeah.
+
+[22:17] **PepERG**: Well, I think that was a slow rug. If that's the thing. But I completely agree with your sentiment about And this is my experience as well with blockchains is that people join them.
+
+[22:32] **PepERG**: And this can be even noobs. They learn about Bitcoin and then they go, no, no, no. And then they actually then they look at it further, they engage in it, and then they suddenly get into an ecosystem and then they suddenly want to use their tokens and test out the ecosystem.
+
+[22:46] **PepERG**: It literally happens across every single layer one ever. And meme coins are brilliant for, meme tokens are brilliant for like Comet's done a great job in terms of that testing.
+
+[22:58] **PepERG**: They've been involved in loads of different projects, Rosen Bridge, specifically. They've worked on things like decentralized lotteries. They've worked on the token locking, refundable ICOs. They've been like a test guinea pig case because you're right, people don't care so much about losing it.
+
+[23:16] **PepERG**: I think also from an educational point of view, we've got something coming up this Thursday, Friday. We call it a snipe competition, where you have to buy a very specific amount of PepERG from MewFinance or any other DEX alternative, and it's got to be exactly 30,000 PepERG on the nose.
+
+[23:39] **PepERG**: People are actually trying to do that, and they're noticing things like slippage. And to play that game, you're thinking, oh, I missed that. Well, why did I miss that? Oh, well, actually, maybe you need to look at the things or slippage, like reduce your thing down to 1%.
+
+[23:53] **PepERG**: And so these kinds of things, learning about blockchain, learning about how markets work, they can be good. But like you say, it should be about it really should be about the educational piece rather than just solely making money.
+
+[24:07] **PepERG**: But yeah, the way that this world works is that, you know, people want to make money and they want to emulate the early gains of Bitcoin and Dogecoin.
+
+[24:14] **tmr.erg**: Yeah, it's like memes are some emergent property of blockchain. It's kind of fun. That's cool. I like it. You know, another one that was cool.
+
+[24:25] **tmr.erg**: And also, like, I learned about game theory and just how our DEXs work was Heisenberg. Did you see those? Oh, yeah. Yeah, I've seen them.
+
+[24:37] **tmr.erg**: So they locked, you know, it was like, oh, we put in $5,000 worth of or 5,000 ERG worth of liquidity. But the way it was set up, like the founder would never lose those ERG. You know, it's just like he's just locking 5000 ERG and is going to collect transaction fees because he has all the LP and other people can gamble on on, you know, whether or not this is going to go up or down.
+
+[25:01] **tmr.erg**: And he can't rug because it's locked, you know, up to a point. You know, if everyone sells their tokens back into the LP, it's fine. Nobody's really losing a meaningful amount of money. And the guy is going to collect whatever the LP fee is going to be.
+
+[25:18] **tmr.erg**: I thought it was cool and kind of a fun discovery for me.
+
+[25:25] **PepERG**: I think that kind of leads on to things around about what you're talking about, knowing your assumptions, actually. So there are, I'd say, first of all, there are lots of different ways to launch token.
+
+[25:37] **PepERG**: There are, like we talked about in terms of Bitcoin minting mechanisms or like kind of like a faucet mechanism. or there was this distribution mechanism.
+
+[25:49] **PepERG**: One that I've seen do it really well, I've been really impressed with and shout out to Mav. He was really supportive when I started Pepper back a year and a half ago, and then he started Boba.
+
+[26:03] **PepERG**: in March 2024. He has meticulously planned and thought out those tokenomics. He has got a great use case around the utilities and competitions he puts together and it's a small market cap, yeah.
+
+[26:17] **PepERG**: But in terms of how he's actually making money from it, it's just not his primary motive. He just wants a good token that's well structured.
+
+[26:29] **PepERG**: So that, for me, looking at things like tokenomics and launch strategy is a key part of it as well.
+
+[26:37] **tmr.erg**: Yeah, absolutely. Are there any other things you guys would recommend to people who are like, I'm considering buying this meme token? What kind of categories of things would they look at?
+
+[26:49] **tmr.erg**: So we said, tokenomics, distribution. What else would somebody want to look at to make sure that they're, I don't know, giving themselves a fighting chance in this gamble that they're taking?
+
+[27:03] **PepERG**: Yeah, sure. I suppose I would look at the, I would look at the history and the actions of the developer or the leader of the particular meme token.
+
+[27:18] **PepERG**: I think I've had experience of rug pulls, sketchy launches, they're often small, they're inactive. and they usually end up being a case of getting in a little bit of liquidity and then they just dump the whole supply on you.
+
+[27:35] **PepERG**: So when things aren't laid out clearly, then that would be a big flag for me. If the Twitter accounts and the X accounts and there's no website, then again, that's a little bit of a flag to me.
+
+[27:53] **PepERG**: I think one of the reasons why Pepper was so successful so quickly was I was already embedded in the community. I had hundreds of followers on X.
+
+[28:03] **PepERG**: So when I started to airdrop the token, I got lots of replies. People were involved. People reached out to me and had conversations. And I was always open, transparent, wanting to cooperate with those individuals right from the very start, asking for advice, et cetera.
+
+[28:18] **PepERG**: So when you see that and you hear about that, then you can probably think, OK, this one's a little bit more legit. I think you touched on it, Tim, around locked liquidity.
+
+[28:31] **PepERG**: So for instance, I've locked 6,000 ERG into a liquidity pool for four or five years. There's decent commitment there. in terms of wanting the project to obviously succeed and be there for the longer term.
+
+[28:48] **PepERG**: So no locked liquidity, big problem. I think when people said, oh, you should throw away the keys to that ERG, I think in, well, I don't want to do that, man. This is good ERG. This is money here for the future.
+
+[29:03] **PepERG**: Why would I do that? The whole point is really is that it grows to a point, and we've seen this with so many of the meme coins, is that it grows to a point where there's so much new interest and money coming in that essentially it supports itself.
+
+[29:18] **PepERG**: It's no longer reliant on one single individual. So those are probably a couple of things that I would look for personally.
+
+[29:29] **Marc the Shark**: Yeah, I would say kind of some of the similar things would be like, yeah, the community, right, go in the chat, see how active there are people are, you know, is it one person or is like multiple people, like, for example, right, you know, hopefully this never happens.
+
+[29:44] **Marc the Shark**: But what happens if you get hit by a bus tomorrow, you know, is everything still going to be running on kind of full steam ahead, so to speak. But I guess from an investment perspective, I agree kind of with Tim, this is more of a gamble.
+
+[30:00] **Marc the Shark**: And, and that's just my sort of look on things. And so I'm not really willing to, I'll buy some, you know, here and there, but I'm not really willing to kind of put a bunch of ERGs, I guess, into some of these tokens, just because of the whole, just, you know, there's gonna be human manipulation involved inherently.
+
+[30:22] **Marc the Shark**: And so you know, like, what if you lost your keys, for example, or, you know, or there's some maybe alternative motives that we don't know. And, you know, after five years, maybe you rug it, you know what I mean? I don't know, right? Not to say you will not trying to, you know, that inherently is like, is out there.
+
+[30:40] **Marc the Shark**: There's an attack vector, right? So I mean, whereas if you were to maybe put it through, like, some sort of emission protocol.
+
+[30:49] **Marc the Shark**: So like I developed the minor rights protocol and we're working on that. And so maybe starting a meme token through that. So then we can kind of bootstrap the Ergo blockchain with the distribution of the token.
+
+[31:02] **Marc the Shark**: And then that way the tokens are in a proxy contract. They get distributed through the miners and then it's sort of a proxy, I guess, in some sense to how Doge was without actually having to start a whole new chain. and things like that.
+
+[31:14] **Marc the Shark**: But yeah, I think it's like kind of a gamble. And so for me, you know, I make decent money and I don't really gamble in general. And so yeah, in general is almost kind of a gamble. And so putting any more money into that.
+
+[31:31] **Marc the Shark**: So it's all speculation. But of course, you know, to each their own, you know, no judgments by any means.
+
+[31:39] **PepERG**: Yeah, I think the re-emission contracts or the emission contracts type mechanism with a meme coin, I think that is going to be a major trend actually going forward.
+
+[31:51] **PepERG**: So I work across a couple of different ecosystems, the Bitcoin ecosystem I'm pretty heavily into, and you've got innovations around, it's called DMT-NAP, so digital matter theory, where they're essentially looking at the bits in a certain block
+
+[32:08] **PepERG**: that will essentially get mined and there's generally between sort of 2 to 400 bits per block on a decreasing scale and essentially the miner that explodes that block
+
+[32:20] **PepERG**: wins those bits, which is essentially, it's called NAT token, is a corresponding. So that is a way that miners can further profit from mining. They can sell this into the open market.
+
+[32:34] **PepERG**: And that, quote unquote, meme token has a fairer distribution and emission. So I think that is going to be a subsector of meme coins and meme tokens.
+
+[32:48] **PepERG**: I think in terms of the gambling aspect, then yeah, sure. It's gambling to a certain extent. I think pretty much everything in life is gambling. You have to take a risk. You always have to do something like that.
+
+[33:04] **tmr.erg**: That's what I tell my students. Literally everything is a risk. Everything is a trade-off, including doing nothing.
+
+[33:12] **PepERG**: Yeah, massive. Opportunity cost is absolutely massive. I personally, being close to memes generally across several different ecosystems and developing a sense for it, I know what I'm looking for.
+
+[33:28] **PepERG**: I know what I'm looking at. And therefore, I believe that I have an edge in terms of actually picking these ones. And sometimes you'll pick ones and you're thinking, well, look, my expected return is like 100 to 1000X.
+
+[33:40] **PepERG**: That's pretty good. That's better than a roulette table for sure. And I feel like I've got an edge to sometimes knowing your assumptions totally can actually just reduce risk.
+
+[33:51] **PepERG**: So it's just about what you're comfortable with. I would put to answer a question of something around, you know, why should people care about I would say you shouldn't care about them necessarily.
+
+[34:03] **PepERG**: They serve entirely as an optional part of cryptocurrency. You're better focused spending your time on products that actually add a tangible value.
+
+[34:13] **PepERG**: However, the market is massively expanding for memes. We're looking at around about 150 to 170 billion dollar market capitalization within a 3.8 trillion dollar crypto market.
+
+[34:27] **PepERG**: That's three, four percent. I can see it hitting a trillion that you're looking around about maybe 10% market capitalization. And if you look at Big Pepe, which I managed to get into pretty early and really enjoyed sharing some of those memes and jokes with my friends, and it was a great laugh.
+
+[34:45] **PepERG**: They can do really, really well. So I think it's a bit of a... Sometimes it can be a mistake to ignore them. I wish that I bought way more Dogecoin back in 2017. God damn it.
+
+[34:55] **Marc the Shark**: Yeah, no, that's interesting.
+
+[34:59] **Marc the Shark**: Yeah, go ahead, Tom.
+
+[35:01] **tmr.erg**: To your point, you know, there's all these things coming out and we enjoy the memes. And I think everybody probably has a favorite meme that they send. Yeah, I know it's fun.
+
+[35:13] **tmr.erg**: So I'm wondering, like, how do you how do you judge which meme is going to do better than the other? Is it like How clever is the graphic? Is it the name? Is it timing? Is it all of those things?
+
+[35:31] **tmr.erg**: How do you pick up on these social cues that indicate a successful meme token? Or is that just a little bit on the top, and the rest of it is the tokenomics? Or is it all of that? How do you think about it?
+
+[35:47] **PepERG**: I think I look at meme coins in different camps. Yeah, it's disgusting now, right? That meme coin that comes out, that's a flash in the pan.
+
+[36:12] **PepERG**: This feels like an orchestrated team. That's a cash grab. Like if you didn't see that coming, then you just haven't been around in the space long enough.
+
+[36:22] **PepERG**: Something like some other ones that have done relatively well. Fart coin I saw a few weeks ago. seem to be doing pretty well. That for me is obscene.
+
+[36:35] **PepERG**: It's not that funny. It's not that meme-able. I want good meme-ability. I want to be able to open my phone and there'd be a huge collection of variety of memes adapted by people that I can share with my friends that are people in different circumstances.
+
+[36:54] **PepERG**: That's why I think Pepe was so strong. and I think, I've said this, I think this will be the major meme token of this cycle because Pepe's hilarious.
+
+[37:04] **PepERG**: You've got so many different, you've got literally, open your phone, you put Pepe farmer, you put Pepe fishing, you put Pepe shooting, you put Pepe anything, and you have many, many, many, many, many, many memes that you can send.
+
+[37:17] **PepERG**: I look at the cultural significance in terms of, okay, what have these done? And then I think about those ones, I suppose I'm more interested in.
+
+[37:26] **PepERG**: And then to be honest with you, I'm looking at things like liquidity. So which chain is this on? And if it's a new chain, or if it's something coming.
+
+[37:37] **PepERG**: So a matter that I'll share with you guys, and I've spoken about it already, but I'm really excited about Dogecoin meme coins, because you've got Dogecoin is the absolute number one meme coin in the world.
+
+[37:49] **PepERG**: It's undisputed. You have a whole fleet, Dogecoin being the number one. I think it's about a 25 million dollar market cap. It's sat there as number one. It's about to get integrated into MyDoge wallet.
+
+[38:05] **PepERG**: which is essentially the largest Dogecoin wallet. Every noob that you know has bought Dogecoin back in 2017, 2018, 2019, whatever.
+
+[38:15] **PepERG**: So that is going to be a case of the easy access to on-ramps liquidity into the space. Those are the big winners. I'm not necessarily, I'm not a meme coin trader. I'm not on pump.fun.
+
+[38:28] **PepERG**: I'm not interested in flash in the pan. I'm looking at the big movers that are gonna have cultural significance and are gonna bring in liquidity and bring community.
+
+[38:39] **PepERG**: And I monitor things like X. I'm looking at the number of hashtags and tweets that these coins are getting, how long they've been around for, looking at good distribution. I'm looking at, okay, have they even got listings yet? What are the on-ramps for that?
+
+[38:54] **PepERG**: There's a few things that go in there, but I'd always say in investing generally is that you just want to pick the big winners and sit. That's my strategy with meme coins tokens.
+
+[39:07] **Marc the Shark**: Yeah, it's interesting. It's like meme coins have this emergent property where it's like, You know, like you're saying these cultural aspects and now there's this new emerging capability with like blockchain and now tying value to the specific meme itself.
+
+[39:24] **Marc the Shark**: And then, you know, and that's just kind of fascinating. And then I love the idea with respect to meme tokens and things like that with the educational things to where, you know, like you were just talking about a little bit ago with like the slippage and kind of understanding that and,
+
+[39:38] **Marc the Shark**: You know, kind of bringing in as like an on ramp to people to kind of facilitate maybe a little bit of hopium right that it's going to go up, but but also kind of again, teaching them sort of the fundamentals of like how to use a decentralized exchange and then also specifics of like kind of you were saying like well.
+
+[39:55] **Marc the Shark**: you know, whether it's a token in general, whether it's a meme token or just generally, you know, well, what is the market cap? What does liquidity look like? Because it might not be a meme token, it could just be a regular utility token.
+
+[40:06] **Marc the Shark**: But you know, somebody might rug pull, you know, and that's happened before. So it's like, you know, in some aspects, it's, it's a great, what's the word, like, you know, just to kind of throw, not into the fire, but crucible, right?
+
+[40:21] **Marc the Shark**: Just put people into the arena, kind of let them learn. Hopefully they make some money out of it and don't, you know, get too greedy in some aspects where they put in like a bunch of money and then they could just get, you know, extremely rugged.
+
+[40:35] **Marc the Shark**: But I think it's a great way to kind of, from an educational perspective, to kind of facilitate and get more users within you know the main chain Ergo in particular and then as to why you know Ergo is kind of cool you know compared to the other
+
+[40:55] **PepERG**: yeah yeah yeah definitely i think more and more people As they spend longer in crypto, they look at altcoin token distributions and they go, wait a minute.
+
+[41:01] **PepERG**: So you've got all of these tokens for founders, for teams, for all this sort of stuff. And they become less enthusiastic about it, I think, because you do have these inevitable dumps and these inevitable unlocks.
+
+[41:14] **PepERG**: And there's a huge amount of access and pre-seed rounds to early investors and all these kinds of elements. And realistically, you want something that's a bit more open and sometimes and some specific meme tokens and categories of meme coins.
+
+[41:29] **PepERG**: They are allowing and I think what you said, Mark around that the emission contract thesis would be a really great idea as a great equalizer. I would also say as well that if and when you do make any money on meme coins, it's the funnest money you've ever made in your life.
+
+[41:45] **PepERG**: You know, you go out, you buy yourself a watch. You're like, this is my frog watch. This is my this, you know, like it's it's funny, it's light-hearted, so I wouldn't say it's a career choice, but it should just be something on the side.
+
+[41:57] **Marc the Shark**: Totally. And then I would say just, if you don't mind sharing, you know, from like a transparency perspective, you know, the reason why I guess you do want to kind of hide your identity, you know, is it kind of the idea that's shrouded behind like meme tokens and like, you know, you don't want, you know, your business to be associated with that per se, or is it maybe more of like the blockchain type of nature where people, you know, what, like, why are you anonymous in that sense?
+
+[42:25] **Marc the Shark**: Like, is it because of like, What do you think?
+
+[42:29] **PepERG**: Well, to be pretty plain, I run a professional services company and it's a pretty serious business to be in with serious clients and I am that person to them and I've got guys that work with me who rely on me to be like that.
+
+[42:46] **PepERG**: This has always been an absolute passion of mine but because that is my main breadwinner, I can't overlap. I potentially might lose credibility or whatever. And then like I said about people sort of dumping on, it takes two minutes to write a negative Google review.
+
+[43:06] **PepERG**: And again, it shouldn't be impacting people. So that's part of the reason. I also think that that there is, you know, I'm Pepper to people on X and on Telegram and nobody seems to have an issue with that.
+
+[43:20] **PepERG**: I think, you know, you bind to that mystique essentially around it as well. And it's just part of the narrative that we have.
+
+[43:29] **tmr.erg**: Yeah, right. Well, if if you end up getting fired over this, then you could just you could just put all your money in Pepper and it'll double for sure.
+
+[43:38] **PepERG**: Yeah, literally. I don't think I'll be able to get it out, though.
+
+[43:44] **tmr.erg**: Yeah, right.
+
+[43:49] **tmr.erg**: Is there anything else you wanted to talk about the project before we get to our grand finale for this episode?
+
+[43:57] **PepERG**: Raffle, yeah, sure. Look, I think we've covered quite a lot of ground. People who've been following Pepper since the start know that we
+
+[44:09] **PepERG**: We started off, like I said, I was lying on the sofa and I made this and people from the community have reached out, helped me devise economics, helped me devise activities, competitions during a 30-day promo period.
+
+[44:23] **PepERG**: More recently, we've got a yield farm, so around about $30,000 large yield farm on on Ergo we've got a really nice deep pool around about fifty thousand dollars of liquidity i've always said liquidity liquidity liquidity it's all about liquidity we want to make it nice and deep for people to be able to come in and trade and and not have these slippage problems
+
+[44:46] **PepERG**: So that's been our ethos in terms of what we're, I suppose what we're looking to do is, you know, it's ultimately, I've been an evangelist of Ergo, you'll see some of the content that we put out on X and Telegram.
+
+[45:00] **PepERG**: We're always trying to educate people about Ergo as much as we can do. and ultimately our strategic positioning piece as well is to reach out to Pepe, other Pepe community members in other chains, bring them into Ergo, which we think is a very good bulletproof blockchain and get them excited about these concepts that we've talked about, about the good things about Ergo.
+
+[45:23] **PepERG**: So we want to be ultimately here, right front and center. So when we get a US exchange listing, when we bring more liquidity in through Rosen Bridge, then we are amongst things like Comet and some of the other main meme tokens to benefit from it and make sure our earlier Ergo holders benefit from it as well.
+
+[45:44] **PepERG**: That's been our goal and that's what we'll continue to do.
+
+[45:51] **tmr.erg**: All right. Right on, brother. Thank you. Any info about this raffle? I'm going to share my screen and if you want to talk about the raffle, what's it for? What are you raffling?
+
+[46:02] **PepERG**: Yeah, sure. So we had a competition around about the end of about a week ago. Oh, no, not a week, a couple of days ago, might be a week from filming.
+
+[46:12] **PepERG**: Essentially, what this was, was this was a snipe competition. To enter you had to go on to MewFinance or any other DEX, though I think MewFinance is great, so shout out to Aco and HQx.
+
+[46:29] **PepERG**: In terms of this raffle to qualify and to win a lot, so there are eight groups of lots. There is obviously 10 lots per group. To qualify, you need to buy between 9,700 and 9,800 PepERG.
+
+[46:48] **PepERG**: It drove some really great volume. People were missing the pain in the game, as I call it, because of slippage. But people were essentially hitting some of those.
+
+[46:59] **PepERG**: When they're hitting that margin, they were winning that place. In terms of the prizes, so for the first three lots for early competitors, we said we're going to give you a 40x your stake.
+
+[47:13] **PepERG**: So everybody has effectively staked $9,750 PepERG. and the winner of a raffle will receive 40x for the first three groups, and then 20x for the remaining five groups.
+
+[47:26] **PepERG**: That PepERG has come from our community fund. We enjoy putting it back in the community. People have been obviously staying with PepERG and stuff like that.
+
+[47:40] **PepERG**: It'd be great to get you guys to run the raffle. Thanks so much for this. We can talk through some of the winners.
+
+[47:46] **tmr.erg**: Yeah, no problem. Okay, so I'm just going to run the number one through 10 for each of these lots and I'll go through and highlight the winning number.
+
+[47:56] **tmr.erg**: Yeah, slot.
+
+[47:59] **tmr.erg**: Alright, so here we go. First, first.
+
+[48:01] **PepERG**: Oh, just for context, people. So the winner will receive 195. So for these 40x slots, it's 390,000 PepERG, which I believe is around about, I need to check actually because of the exchange, but it's a few hundred dollars, you know, this isn't, it's maybe even a thousand dollars actually.
+
+[48:22] **PepERG**: Should we just check what that is? Should we just, let me just check. Because it's not a small amount. And I think, We run competitions with really good prizes. We've got a 400 ERG prize pool for our next comp, which is in ERG.
+
+[48:40] **PepERG**: It's already there. And I think because we've managed to boost our marketing and treasury, just after my treasury management, we've managed to get some of these good funds.
+
+[48:51] **PepERG**: So I'm looking forward to distributing it. Let's just see how much it is. I'll just work it out. So we've got at current rates, obviously, everyone might have changed.
+
+[49:00] **PepERG**: Now you're watching this. inevitably. So we're looking at for the winners. We're looking at for the winners of the first three lots. It's about $760. So just over 400 ERG per winner and then around about $380 for the remaining ones, which is pretty cool.
+
+[49:23] **PepERG**: Sick. Yeah, nice. Decent price pools.
+
+[49:27] **tmr.erg**: Let's go. Let's let it rip.
+
+[49:30] **PepERG**: Yeah.
+
+[49:33] **Marc the Shark**: Five.
+
+[49:50] **PepERG**: Number five.
+
+[50:21] **Marc the Shark**: Four. Four. Nice.
+
+[50:24] **PepERG**: Nine FD. Yeah. Number four.
+
+[50:28] **Marc the Shark**: That'd be cool with some of your guys's community funds. Maybe think about doing a hackathon, you know, that's all based on memes. You know what I mean?
+
+[50:38] **PepERG**: And that's a great idea. Yeah. I would love to do that. And I'd love to support your idea about the emission piece because I think that's brilliant.
+
+[50:45] **tmr.erg**: That's why we pay you the big bucks, Mark. Great idea.
+
+[50:49] **PepERG**: So these three winners from the 40X stake, it's great, they're all different addresses, which I'm pleased about. So thanks for committing everybody in those first three.
+
+[51:01] **Marc the Shark**: Yeah, Tim actually made random.org and these are all his addresses.
+
+[51:07] **Marc the Shark**: Number one.
+
+[51:10] **PepERG**: Okay, great guys. So we've got HGPZZ. Okay, winner of last one with a 40x stake. Okay, so you won again two lots in a row. Pretty impressive. That's a total that you know you've managed to he's managed to net 600 equivalent PepERG.
+
+[51:29] **PepERG**: Number one, nine FAD. So look at that guy. Did he win the first lot?
+
+[51:39] **tmr.erg**: He won this one here.
+
+[51:41] **PepERG**: Okay. So we got We've got some big winners there.
+
+[51:47] **Marc the Shark**: OK. And what's the origin of Pepe? Kind of just like it's an entirety. Like, I'm not too familiar with like, I mean, obviously, I know the meme and, you know, I'll go on like Instagram and things like that and, you know, see the frog guys and stuff. But like, where did it originate?
+
+[52:07] **PepERG**: Yeah, sure. So we It originated around about in the mid-2000s. I think Matt Fury was a comic developer and author. He created it and then kind of hit mainstream attention and then it kind of then became a little bit controversial, I believe.
+
+[52:31] **PepERG**: It got used by some right groups. It just gained kind of internet notoriety specifically through Reddit. It came into crypto actually. So there are rare Pepe trading cards. They're like, they go for about a thousand bucks, a hundred thousand bucks each on Ethereum.
+
+[53:07] **PepERG**: Cool.
+
+[53:24] **PepERG**: And people were missing it by like one or they'll go a bit early. And it was great. Someone netted it and they won 420,000 PepERG. And they haven't dumped it.
+
+[53:36] **PepERG**: I think that just shows to be honest with you that people realize what is coming and they're enjoying it and they want to get positioned well. So, you know, if we can help people do that, then let's do it.
+
+[53:47] **tmr.erg**: Yeah. All right. Well, congrats to all the winners. PepERG, thanks for joining and dropping some knowledge about your project and just shooting the breeze with us generally. So appreciate it, man.
+
+[53:58] **PepERG**: Yeah, absolutely, guys. Yeah, definitely. And let's keep in touch. Absolutely. And let's see where all this goes. And I think the ErgoHack is a great idea. So let's pick up on that in the future, too.
+
+[54:11] **Marc the Shark**: Yeah, do some digging, come up with some ideas on how you wanna do that and maybe you can come on the podcast and announce it if that's what you guys end up wanting to do.
+
+[54:21] **PepERG**: Yeah, it could be interesting for sure. Yeah, thanks for that. Cool.
+
+[54:25] **PepERG**: All right, have a good day everybody. Thanks for watching.
+
+[54:27] **tmr.erg**: All right, cheers.

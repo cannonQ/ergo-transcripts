@@ -1,0 +1,277 @@
+[00:17] **Dan Friedman**: Hello and welcome to the Ergo AMA, weekly AMA.
+
+[00:23] **Dan Friedman**: It is Wednesday, February 12th in sunny New York and dark Japan. You can see it's very dark in Japan because Dan is, it's dark there in this picture and he's very frozen. Dan had to do a reboot of his machine like 10 minutes ago, but I think he's still on one of those IBM or HP Intel 486s so it's taking him at least 30 minutes to reboot so we're gonna kick this off without him today and you may be wondering why is this on Wednesday and that's because our amazing AV person is traveling tomorrow. So we decided to move this a little earlier.
+
+[01:07] **Dan Friedman**: So it's my job to start this for you before Dan gets here. That's great. Maybe we can cover everything. And then by the time Dan gets here, he won't even have to talk and he can just go. So start popping your questions in the side there to give me something to chat about as well, but as far as Ergo goes everything's going great everybody right we have Binance some progress on Binance for Rosen Bridge and I love how Rosen Bridge is getting more I don't want to say balls here, but they're getting more obvious with their major goal here, right? And that's to backdoor all these central exchanges.
+
+[01:51] **Dan Friedman**: And a lot of you may have been following a couple weeks ago, maybe a month ago, where we are trying to backdoor Kraken, right, with Rosen-ERG. So we applied for both. We threw both in a couple weeks ago when Peter asked us to and I mean we'll take what we can get we have enough liquidity on Cardano I think as much or more than some of the exchanges on the Ergo side So I think any idea there will be would be great either way. So looking forward to that. We should see the guard code coming soon. We'll apply that to the guards. Make sure that's all hunky-dory and then you should see a watcher update there as well.
+
+[02:32] **Dan Friedman**: One thing I want to tell you, I think I said it in the dev update the other day, the way the Watcher and Guard software work is it's through Docker, right? So there are repositories that are registered on Docker. And part of those repositories aren't Rosen Bridge repositories, right? They are like the PostgreSQL program, which actually stores a database. So what happened is the main official repository for that SQL software I think was pulled. So if you're restarting a watcher or getting ready to spin up a watcher for Binance or just anything like that or moving your watchers, you're going to get an error there unless you follow the instructions, the new instructions in the list. So if you're trying to use the same software, the same folder that you did before and you're trying to pull it, you need to do a little bit of research just to read the instructions again. There's just another SQL, PostgreSQL repository that we're using now that works just fine. And it's no different there. In the guards, we had to migrate our database over to do it. When I did it for my watcher first, I just bombed it through without a migration. So it just had to pull new stuff down. But yeah, so be aware of that when you're prepping for that kind of stuff, if you're going to run a binance or you're moving your watchers around.
+
+[03:54] **Dan Friedman**: Well, I had more to say, Dan, and you showed up. I was expecting it to be like 30 minutes late.
+
+[04:00] **Dan Friedman**: Oh, it's okay.
+
+[04:03] **Dan Friedman**: It just seems that I'm 30 minutes early because you're talking about watchers and stalking and whatever you're talking about right now.
+
+[04:13] **Dan Friedman**: How's it going, Dan? Big stuff in Cardano, right? In Cardano land with your token, right? No?
+
+[04:19] **Dan Friedman**: Well, soon, yeah, it's going to be launching. So we're planning to do for probably later this month. So that is on the horizon. And yes, we're going to be using the Rosen Bridge heavily to, you were just talking about Rosen Bridge, right? You weren't really talking about, you know, watchers and stocking and things like that. Yep. I hope not. No, no, no. Any more weirdness from you qx().
+
+[04:54] **Dan Friedman**: Anything's expected, I guess. Right.
+
+[04:57] **Dan Friedman**: Yeah, exactly. Yeah, so we're going to be using Rosen Bridge pretty heavily. So yeah, right now we're actually planning to use it. Well, of course, Cardano and Ergo, we have assets that are going to be moved to Ergo from Cardano. We also have assets that are going to be moved to EVM. So we're going to do the multi-chain launch to have a situation and it's going to be really interesting how that pans out. Our market makers are going to have a lot of fun with that.
+
+[05:34] **Dan Friedman**: What's this? Can you fit me in then? You know, I'm on Twitter. It's a guy who go through breaks on Twitter sometimes. But you're having a CEX listing. Is that what I saw? A CEX and a DEX listing?
+
+[05:46] **Dan Friedman**: Yeah. So we actually got several in the oven right now. Yeah. And so we're going to be, of course, going into the biggest DEXes. And we also have a couple of CEXes already in the pipeline. And we're going to be signing with more. We're just kind of trying to, I guess, plan it out well strategically so that we have deep liquidity versus just thinning it out over a bunch of different exchanges. Because actually, there's quite a few exchanges that you can just sign with and get listed if you have the money. And I mean, they have kind of have volume, you know, some of them is a little it's kind of fake. Some of them, it's organic. Some of them, it's a mix of organic and fake. But in the end is just kind of like, okay, so where do you want to concentrate your liquidity, you know, because we're like, for example, we had well, I still have the opportunity to sign with a pretty major one, but it costs a bunch of money. And so the choice that I made was, well, instead of spending hundreds of thousands of dollars to list on this thing right now, I'll spend that $100,000 or $200,000 to bring liquidity and to bring support to the actual token. They just made more sense like that have more control over where it goes and you know, that's just seems like a better plan. Yeah, so that's going to be later this month. Yeah, applying that we're going to that pretty soon.
+
+[07:35] **Dan Friedman**: Yeah, yeah, I agree. I think I think strategically distributing your liquidity is wise, you know, as long as you're not suffering for access, right? Because there's a trade off. Do you do you spread liquidity over several different places so that there's more access to more people? Or do you maybe take a hit on access and make your liquidity quite deeper so that the people that want to buy can really invest in your token without too much damage to their price impact or slippage kind of thing? So yeah, that's got to be a tough thing to work out.
+
+[08:10] **Dan Friedman**: That's really the bottom line here, is to say you want to have really stable trading when you just launch. because there's going to be quite a few people coming in there for the trading side of it, and there's going to be some unlocks happening. So you want it to be really smooth. You don't want it to have really low volume and then have these ridiculous spikes and then really I mean, even if it spikes up, you still can't really do anything with that if you're a trader, right? Because there's no volume. And if there's no volume, well, then it's like, well, as soon as you try to do anything with that, it's going to dump the price. So that's basically the plan here is that we're going to strategically use only a couple of sectors at first to bring pretty deep volume in or significant volume in. have it stabilize, and then we can branch out from there. We signed with a very good market maker, a really prominent one. One of the things is they actually you know, have a strategy for us to, you know, it's like, okay, so we should do this and this and this and for your pathway to, you know, if you want to get it on a tier one exchange. Oh, and so we, I got a question here actually from, from big 3D asking is, will RSPalm be listed on a CEX at launch? So I'd like to, but the thing is that I need support for RSPalm at a CEX. We're going to try to get that on the ones we have one, actually we have a couple that are very flexible about what they can do. They're not huge exchanges, but they're flexible so we can potentially integrate RSPalm there. So that's something that will come a little further down the line, but not at launch. Yeah, that's been my world in the past few weeks.
+
+[10:17] **Dan Friedman**: Oh, and yeah, so if anybody is going to Hong Kong, what is it? I guess next week. I'm not going to be there, unfortunately. I have some family things to attend to, but Sam is going to be there. Nice yeah, you're gonna be hanging out with with kushti because kushti is gonna be there. So, if you guys, anybody's there, you know, and you see Sam, you know, ask him like the tough questions, like, for example, why did he wear those short shorts? The first time I represented Palmyra at that, you know, whatever it was, the consensus in Austin, he did that, you know, and the first time my company was represented and he wore these super short shorts that I forbid him to ever wear again.
+
+[11:09] **Dan Friedman**: Were they jean shorts like from?
+
+[11:12] **Dan Friedman**: no no they weren't jean shorts they were like they had this like like no no they were like some some like design on them or something like it was like fishes or something i forgot it was just really awkward and yeah and they were like a little too short like they call them i i think in australia they were like like budgie smugglers
+
+[11:37] **Dan Friedman**: They're not like Tobias's little jean shorts from Arrested Development.
+
+[11:43] **Dan Friedman**: No. Okay, darn it. I can see that because I was picturing that and I was getting, you know, that was, I may have had to shut off the camera at that point thinking about that. Yeah, yeah, yeah.
+
+[11:54] **Dan Friedman**: That's great. Sam's going to be with kushti.
+
+[11:57] **Dan Friedman**: Yeah, yeah, he's going to be with kushti.
+
+[12:00] **Dan Friedman**: Is this a booth event? Do you have booths to just kind of just hang out, walk around, shake hands, kiss puppies?
+
+[12:06] **Dan Friedman**: Yeah, kiss puppies, kiss children that look like puppies and whatnot. They're actually going to be doing some combined Palmyra Ergo work over there, talking to some potential funds and some exchanges that could potentially, again, do listings for Ergo and Ergo assets. Yes, they're going to have a pretty full pretty full schedule over there. Well, you catch them at the at the event And we're actually been really working really fleshing out the Lithos index as well Right. So that's also been yeah actually Sam's been doing a lot of the a lot of the work over there and the he's been working with kushti and on really kind of try to flesh out exactly how the thing works. So I mean, you know Oracle two up and that kind of stuff, right?
+
+[13:10] **Dan Friedman**: Do you gotta Push the input, you know kushti is actually very proactive on it He's actually trying to get more and more input, which is of course, you know, very very welcome I mean, it's great
+
+[13:22] **Dan Friedman**: Does Sam ever get a vacation, Dan? How often do you let him out?
+
+[13:27] **Dan Friedman**: I don't. He's not old enough to have a vacation yet. No, sorry. It has to be at least in his mid-30s and losing much more hair. Then he gets a vacation, maybe, maybe. Poor Sam. Yeah, we'll see. We'll see. We'll see how much hair he loses in a couple of years and then we'll weigh against PTO and whatnot.
+
+[13:53] **Dan Friedman**: You're at least putting him on a flight to Hong Kong, not a boat, right?
+
+[13:57] **Dan Friedman**: Well, so, you know, this is actually, he's not going on a boat, but he might as well be because, you know, like I tell him, you know, just get yourself a nice flight. Yeah. I mean, it's like a four hour flight, but still it's four hours, you know, four hours of sitting. And, you know, and I tell them, you know, Cathay Pacific, it's not expensive, but it's nice, you know, and it's not, you know, it's not cheap, but it's not expensive and it's nice. And they get good location at the airport and, you know, it's a Hong Kong airline and everything's like, so he sends me a list of these like super cheap, like budget airlines out of which I only know one. You know, it's like, you know, we fly, you know, the like an airline is that it's like, it's called like we fly you and don't crash air or something. It's just some really like, I don't know. I don't know. He likes that kind of stuff.
+
+[14:49] **Dan Friedman**: I try to Dan, that's what you want for a CEO. You want somebody that is price conscious and sacrificing themselves.
+
+[14:55] **Dan Friedman**: Look, we're price conscious enough. All right. I mean, my, the last hotel I stayed in in Singapore was in the middle of the red light district.
+
+[15:03] **Dan Friedman**: I'm sure that was an accident, Dan.
+
+[15:06] **Dan Friedman**: Yeah, it was definitely an accident. It was actually in the tranny part, apparently in the tranny part of the Red Light District. So that was even a bigger accident. Yeah, because I was telling you, I was driving down in a taxi back to the hotel from the conference. And, you know, I had one of those like, you know, see the sights, my friend type of taxi drivers where he was just telling me, he's like, well, over here to the left, they have this and you have over here to the right, you have this. And he's just like, oh yeah, well, so. None of these are like and he just points out you see all those like yeah, none of them are girls. I'm like, oh great You know, so like anyways And then my my hotel room had no windows zero no windows And the sacrifices you make for this company, Den
+
+[15:52] **Dan Friedman**: Well, sacrifices that I make for our investors as well, because we'll bathe in luxury when we're bathing in massive profits. Well, you don't want to bathe in lithium. It's toxic.
+
+[16:07] **Dan Friedman**: Well, on-chain lithium, I guess. Lithos peg stablecoin.
+
+[16:14] **Dan Friedman**: That's nice. Yeah, so it's, yeah, it's not the most pleasant thing, but you know, like some things, I mean, like I got that hotel because it was actually the cheapest hotel I could find that was not like, you know, like a hostel or, you know, like an hour away from the conference, you know, and it was still, you know, relatively good rating because, yeah usually you know usually try not to be super cheap hotels you know i usually like to kind of look for something that's comfortable comfortable and conveniently located so that i can you know i can just Got to do the business and not worry about it. I mean, I don't mean lap of luxury, but I don't know. I don't want to be sleeping in a shack either. So Sam likes that. You know, Sam, Sam was like, you know, he was, he was trying to get me to share a room with him the other, like, in Tokyo. I'm like, no, man, you're getting your own room.
+
+[17:13] **Dan Friedman**: Maybe he's just scared of being alone then.
+
+[17:15] **Dan Friedman**: Look, I've seen him in his underwear enough, okay, in the past several years. We shared enough rooms. I'm like, look, man, we're somewhat funded now. We can afford another room. We can afford to pay another 150 bucks for you to have your own room and for me to have my freaking privacy, man. I'm 47 years old. I need my privacy. I'm cranky.
+
+[17:36] **Dan Friedman**: That's very sweet. Dan, I'm looking through the Hong Kong. There's a lot of speakers here. I'm wondering if, Dan, if you're sending Sam with a bunch of Ergo stickers that you stole from us, you should send them with them so they can reach them all over.
+
+[17:55] **Dan Friedman**: Yeah, we have Ergo stickers in the office. I'll make sure I'll load them up with Ergo stickers so they can be represented over there.
+
+[18:04] **Dan Friedman**: This is a huge conference. I'm still I'm still scrolling the whole time. You're talking about you sleeping habits. I've been scrolling through the speaker list.
+
+[18:13] **Dan Friedman**: Yes It's a shame I can't go but yeah, it's you know, I am You know, my mom is in town. So I I can't go. Yeah Yeah, so but yes He's gonna go to all these parties, he's gonna have all this fun. To me, you know, most of these parties, I go in there, I'm like, all right, where's the food and why is it so fricking loud? Yeah, I am. You know, cause some of these, like you have to know which ones to go to, because there's gonna be a bunch of parties, there's gonna be literally just clubs. You know, just people go clubbing from these things. And I'm just like, no, man, I don't wanna go clubbing. I wanna talk to some people and do some networking.
+
+[18:56] **Dan Friedman**: All right, Dan, I'm scanning here. I got a guy here. I wanted to ask you a question here. What? And maybe that'll lead into something else. We got Edgy and Yago from BitcoinOS. Is that the same BitcoinOS that was a big hype in Cardano a couple months ago?
+
+[19:11] **Dan Friedman**: Yeah, yeah. Yago.
+
+[19:13] **Dan Friedman**: Yeah, you know him? You know the guy? Best friend?
+
+[19:15] **Dan Friedman**: Not personally, but I know.
+
+[19:17] **Dan Friedman**: What happened to that? What happened to that hype and the blow down and the blow up?
+
+[19:22] **Dan Friedman**: I know an evil parod that was named that, but anyway. You know, let's keep on that.
+
+[19:29] **Dan Friedman**: Well, so I look at these products and people say oh these competing with Rosen Bridge is this competing with this, you know, is you know Why you judge one? Well, so I look at these things and I'm like, okay Rosen Bridge is so far from Any centralized thing that these that anybody creates like this that it's not even the same I mean sure it gets a similar thing done, right? Well, not Bitcoin OS, but let's say other bridges gets a similar thing done, but it's just such a different I mean Like I explain it to people even at conferences and they're like wait what you know you have like 200 watchers you have you know this many guards and there's gonna be a hundred guards doing this it's not like some dude and five of his friends with a bunch of keys that they're they're doing kind of thing so it's like just a totally different animal so
+
+[20:13] **Dan Friedman**: Well, some of these products are competing. I don't feel that Rosen Bridge is in competition with Bitcoin OS at all. I mean, it's just a different approach. It solves many different issues. It handles data transfers differently. It's a different animal. I just don't feel that it's like a direct competition. And the same with But with CKB, CKB has got a similar product and it's RGB++, and that's not really...I don't think it's competing with it. I think it's actually a really good complement to RGB. what Rosen Bridge does. I think people who say that, they don't really understand the real use cases for this thing. I just think that because like Rosen Bridge is actually pretty damn unique in the way it does things. That's why we use it so much and that's why we decided to incubate it when it needed to get that boost. And that's why we're going to keep using it. And of course, it doesn't mean that we're not going to use other ones. But again, for example, I have these other ones that were offered to me, and they were just centralized. Like, oh, we have a centralized bridge that can do this for you. I'm like, well, I don't want a centralized bridge. I don't want that. To me, it feels dirty.
+
+[21:57] **Dan Friedman**: I mean, it's like it's with those kind of things. It's like it's not if it's like when right when's that?
+
+[22:04] **Dan Friedman**: I Mean I I can't afford that like, you know for One of my main jobs is to minimize risk, you know to minimize the risk.
+
+[22:15] **Dan Friedman**: Sorry Dan 10% of your supply is now, you know wash because
+
+[22:21] **Dan Friedman**: And yeah, I can't have that. I can't have that. That's irresponsible for me to do and for the people that are in my ecosystem. So I try to decentralize as much as possible. And whenever we actually are looking for other solutions with the different products that we have, we also try to do as much decentralization as possible. Because number one, it is obviously a safer and more robust ecosystem, and it's also financially viable for us because it eliminates pain points like security issues that we would have to deal with if it was centralized, amongst other things like auditing, for example. If you've got a centralized ecosystem with open source, you can talk about this before you have community auditing of the source code. So again, you're You're reducing risk like that as a company, so it just makes sense to me. So yeah, like I said, I don't feel like it's any kind of real competition, like head-butt competition, just different flavors and whatever works for you for your particular use case is what you use.
+
+[23:38] **Dan Friedman**: Yeah. I feel like Rosen's a Swiss army knife that you can download from the internet and 3D print and have a fully functional backdoor to everything. Oh, look at that.
+
+[23:50] **Dan Friedman**: Yeah, actually, I got this at the Swiss Army store in Zurich.
+
+[23:56] **Dan Friedman**: Wow. Was it like 50 bucks?
+
+[24:00] **Dan Friedman**: I forgot how much it was because you know who bought this for me?
+
+[24:04] **Dan Friedman**: Sam.
+
+[24:08] **Dan Friedman**: No, Charles Hoskinson.
+
+[24:11] **Dan Friedman**: Wow Yeah Actually, this is not the only one he bought for me and I actually don't have it here I should I'll bring it to the next day. I may be trying to send you a message then He was trying to send me a message. It's like do more shit And he actually actually I have it downstairs and is this like Like just like just this big bulky thing, but he bought me the largest Like well accessory wise Swiss Army knife they make I'm one of those big fat guys.
+
+[24:49] **Dan Friedman**: It's like this wide.
+
+[24:50] **Dan Friedman**: It's like this wide has got you know, it's got like a 12 piece socket set on it and ironing board Yeah ironing board and you know French seasoning Like it's just, yeah, this crazy thing. I have it downstairs. I, I, I don't think I ever used it. I'm just like, like, cause the thing is like weird to hold, you know, because the blade is about this big, but the handle is like this wide. But you know, it was, it was, it was a good thought and it was a nice memory. This was back in, uh,
+
+[25:21] **Dan Friedman**: Back in the old days, Dan.
+
+[25:23] **Dan Friedman**: Yeah, like back in the old days, yeah.
+
+[25:25] **Dan Friedman**: So I'm looking at Testnet right now, and kushti had me push. He just had a new jar up for 6.0 RC2. I think there was a little tweak to RC2 we had to do. And we put it in, and I recognize why. If anybody's watching the Dev Update, You'd have seen kushti say, why the hell is testnet so irregular qx()? And it was because I was mining from a rig down in my basement that obviously needed a reboot. So I put on a temporary thing after I updated and we're getting, let's see. The last 32 blocks were 16.77 seconds each. So testnet's burning through until it gets up to the good difficulty where it'll slow down a little bit, but we've got faster than sub-blocks testnet going on right now for kushti to test sub-blocks on and Unreal to test his front-ends on that he's working on. So that's good. That's up. If anybody wants to join testnet, please do. Reach out to me, I'll give you the config file, I'll give you the jar file. The more people we have running it, the better. That means I can reduce my GPU pointing to it.
+
+[26:42] **Dan Friedman**: The rough thing about Testnet, Dan, is that in one person, let's say I'm mining it and I'm mining it with a 3090, you know, and that's getting 250, 300 mega hash at it. If I do that for a couple days, the difficulty is going to be pretty high. And if somebody comes in to help out in mines with their CPU, they're going to be hard luck finding a block for a while until the difficulty goes down. So the more people we have on testnet, the better. So if you're up for it and you want to run a little machine, you have like an old 1050 or something like that that you want to do GPU-based mining. I'll feel for you. Even if you don't want to set up Mining core anything like that Spreading the hash is still good. I have a mining core test that you can point to that that does that as well So just offering out there to everybody Dan It's very sweet of you
+
+[27:33] **Dan Friedman**: What else is there to talk about? You following US at all? US crypto, that kind of stuff? There's so much speculation going on. It's like hard to keep track, Dan. I feel like there's like shock things thrown out there on the wall to see what's going to stick and see what people are going to freak out about and not freak out about. So I don't know if it's all a test or whatnot.
+
+[28:00] **Dan Friedman**: But the thing about it is that, you know, I think actually we talked about this maybe on the last AMA. I remember having this conversation, but actually, no, it was actually another AMA that wasn't Ergo. But, you know, I've been doing so many of these that it just looks a blur in my mind.
+
+[28:08] **Dan Friedman**: It's just so famous.
+
+[28:09] **Dan Friedman**: Yeah, I hear you, Dan.
+
+[28:10] **Dan Friedman**: I'm so famous. I'm infamous.
+
+[28:14] **Dan Friedman**: Yeah.
+
+[28:14] **Dan Friedman**: You know, nobody gets that reference. Do you get the reference?
+
+[28:18] **Dan Friedman**: I'm infamous.
+
+[28:19] **Dan Friedman**: Yeah. He's so famous. He's infamous.
+
+[28:22] **Dan Friedman**: Steve Martin Yeah, I know that one.
+
+[28:28] **Dan Friedman**: Yeah. Yeah. See I got I still got it damn Well, yeah, you still have that was a good movie That's great Yeah
+
+[28:44] **Dan Friedman**: Yes.
+
+[28:45] **Dan Friedman**: So hold on. So basically, what are we looking at? What are we experiencing right now in the U.S.? We're basically experiencing this like thing that happens to Google Meet when your connection slows down and then it catches up and then like it, you know, so it has like, you know what it does? Like when like everybody starts talking super fast because your connection is trying to catch up to the present. The same thing is happening in the US. This was supposed to start in 2016. It was 2015-2016 is when it was supposed to start, really, in reality. It didn't because Trump was elected and instead of focusing on legislation and regulations, everybody started focusing on Trump. and from all sides. And so, you know, and that's what happened. It was just kind of left to be the wild, wild west because everybody was just so obsessed with Trump. And so now what we have is a delayed reaction. And that's why it's so intense. That's why it's so like archaic, because now they know that they're already late, They know that they had four years of Gensler just toppling his way through it, and that pissed off a lot of people and drove a lot of business out. They're desperately trying to get the business back and the momentum back because so much crypto is American, because people are dissing Trump's like, oh, American cryptos, how do you say it? kind of you know he's a he's a character but he doesn't just like with like with business i just don't feel i feel pretty much everything that he blurs out even as as like as crazy as it always sounds, it's always part of some plan, right?
+
+[30:53] **Dan Friedman**: Well, that's what worries me, Dan.
+
+[30:55] **Dan Friedman**: That's what worries me. The thing about American Crypto is, and again, this is speculation, but what I think he's doing is he understands that a lot of this business was driven out of the US. It was just driven out. It was pushed out. ICOs were pushed out. Crypto companies are pushed out. Everybody went to Singapore, Seychelles, parts of Europe, Estonia. Everybody just kind of scattered out of the US because of this, like I said, of the Gary Gensler Gestapo, because nobody wanted to go to prison for this kind of stuff, because the government can't decide how much money they want to keep of yours. So, but now what he says, okay, look, you know, we want you back. We want you back because what it also does, it has thinned out the pool that is needed to create sensible regulation. because they pushed out so much business right now, they look at it like, okay, so how do we make it happen? Because we don't really have a good like sandbox for these regulations because there's just not enough proper businesses operating out of the US because everybody avoids is like the plague. because it's just because of all these regulations. So he says, okay, American crypto, blah, blah, blah. Yeah, I mean, yeah, it sounds crazy from the outside to some people, but to me, it sounds like he's trying to get these people back and settle down so that they can actually have a calm business audience, crypto and blockchain-based business audience that are not gonna be scared of going to prison to sandbox with. you know they're gonna bring all the stuff back again like i said you know it's it's it's the of course it's like a slogan you know like yeah we want american you know american crypto what's american crypto but in the end is just he just wanted back in the u.s. so they can make proper regulations of the can make sense out of it And I think that that's smart if that's what's happening indeed, in fact. Indeed, if that's what's happening. Yeah, and again, going back to what you said about things getting a little archaic, well, then like I said, that's what it gets like. It's like that volatility. If there's not enough volume, there's going to be crazy volatility. They need more volume in there. They need more stuff happening there for there to be less volatility and more stability to create proper regulation. That's my thought on it.
+
+[33:16] **Dan Friedman**: I'm a little more skeptical than you there, Dan. That's very positive thinking.
+
+[33:20] **Dan Friedman**: Yeah, but you're in New York and you work in academia. Of course you are.
+
+[33:25] **Dan Friedman**: Well, my thought is, I mean, Occam's Razor explains a lot of Trump's behavior, I think, personally. And that is that the simplest thing is at play here, and the simplest thing is that he's Really looking out for his own interests. So there's always as you said, he always kind of sometimes blurts out his plans beforehand, right? I'm just saying I'm gonna let you finish.
+
+[33:52] **Dan Friedman**: I'm gonna let you finish Thanks, Kanye
+
+[33:59] **Dan Friedman**: I think that Occam's razor only works with what the quote is, right? With all things considered, with all things being equal, the simplest explanation tends to be the most correct one. You not all things are equal because there's too many question marks here about exactly what is on the table here. So it's not being objective. It's kind of being subjective to what you're and again, that's why I said I am speculating as well.
+
+[34:35] **Dan Friedman**: Correct.
+
+[34:36] **Dan Friedman**: You can't use Occam's razor here. At least to me can't use that because not all is equal.
+
+[34:41] **Dan Friedman**: Fair enough.
+
+[34:42] **Dan Friedman**: Go ahead. You finish. You finish.
+
+[34:43] **Dan Friedman**: You finish. We'll go with the simplest solution here is usually what I've seen work with him. And this is, so my thought is that most of the stuff that he does is in line with some sort of idea that he has to benefit himself. And most of the things I've seen as well while they may appear to benefit larger groups as a whole, are still benefiting himself, and perhaps that was the main reason to do it, or perhaps the idea was presented to him and he goes along with it because it would also benefit himself. So, I mean, if that's his personality or whatever, that he's a businessman, of course, you're going to want to do things to benefit yourself. I don't know if that should be done from the office of the presidency, but whatever. My worry is that if you listen to him...
+
+[35:36] **Dan Friedman**: Your worry is that Doge is going to go after your budget. That's your worry, OK, qx()? I know, I know.
+
+[35:41] **Dan Friedman**: We're private. We're a land-grant institution. We do have some funds, but it's mainly a private institution. Anyway, so if you remember when he was talking about when people were asking him questions about the Trump coin, right? When it spiked to like $34 or $43 billion, whatever the hell it was. Now, there are two ways you can interpret what he said, right? He looked at them, or he didn't even look. I think he was signing stuff at the desk at the Oval Office. And he said, 34 billion, 43 billion? Oh, that's nothing compared to, I don't know if he stopped a sentence or he made it indicate that that's nothing yet kind of thing. Either he's being, you know, being what he's been before where he's, you know, pompous and was like, Oh, that's nothing. That's barely anything, you know, kind of thing. Or he's, there's some serious plans in his head to make a decent amount of money. Right.
+
+[36:46] **Dan Friedman**: And why Greenland it's, I mean, it's, it's how much is the GDP of Greenland?
+
+[36:53] **Dan Friedman**: I don't know. What is it? Let's look. 3.2 billion.
+
+[37:01] **Dan Friedman**: Exactly. Exactly. Listen, I think we're running pretty short on time. Let's get 3.2 billion.
+
+[37:08] **Dan Friedman**: Yeah. Yeah.
+
+[37:09] **Dan Friedman**: But I didn't buy like 15 Greenlands.
+
+[37:11] **Dan Friedman**: Yeah. So all I'm all I'm saying, all I'm saying is that something like something like Ergo exists outside of these walls, right? Something like Ergo. Well, Ergo would benefit, of course, like all other cryptos. If Trump had some deregulation or even, you know, It'd be fantastic if at least some more clarity and more defined guidelines and boundaries and rules would come out on the US for crypto instead of what we've had for the last x years where who knows if you're breaking the rules, right? Who knows if you're doing this? So that's a positive step, right? Let's get some clear things in place of how things are done and what we do. Ergo will benefit from that stuff as well as even if Trump starts a Bitcoin reserve and starts pumping into that, Ergo is going to benefit from that. All ships are going to rise in crypto. Yeah, gotcha. But the point I'm trying to make, Dan, is that Ergo can survive without that, right? Ergo can survive in a state of privacy because it's optional. We're deregulated, essentially decentralized, because anybody can run a node in any country with just a small computer. We have amazing open source tooling that anybody can jump onto and use. So when I see these storms out there that are rip roaring and people like Trump are ripping up, not ripping up, but moving around and getting hyped up for the crypto markets and that kind of thing, Yeah, that's great, but I feel like here we are in our Ergo Juggernaut and any of these storms, while it may rock the boat a little bit, it's, you know, it's just a Thursday night storm for Ergo. You know, no big deal. We can, you know, we'll persevere through everything. That's what it's built for, I guess is my ending point there, Dan.
+
+[38:52] **Dan Friedman**: Well, and that's a good point And i'm sorry that happened or i'm very happy for you All right.
+
+[39:04] **Dan Friedman**: Let's get a question. What do we have? And oh we got here we go. This is a good one Mohammed esmer Our favorite non-favorite person who likes to trash who guys has gotten banned from main chat like 300 times He says qx() and daniel argue alive about who is a better pronokia. So he's calling us a liar So I don't know about what maybe about the positivity i go, but I want to take this chance to remind people that while Ergo is an open ecosystem and it's free to use anybody can use it you know do what they want with it take as much control as they want to federated social platforms are not Discord is not Telegram is not so if somebody like Mohammed's going to come on there and not provide proper discourse, not have conversations, but have agendas to fud or do anything like this, you bet your ass the owner of those federated systems is going to hold them accountable for the guidelines of the chats and they're going to be kicked out. be prepared for that folks we had a prominent member of the ecosystem that was kicked out for their behavior a couple weeks ago and it still does not ring well with them and they just cannot understand the difference between open systems and federated systems which is really funny because of what they were working on so if you if you don't like the Ergo chats if you don't like You know, being held to community rules, which I will say are so much looser than any other crypto chats I've been in ever. Ergo allows so much fud as a form of discourse going in there, right? I mean, you've been in there, Dan, right? Like people are allowed to speak their mind and we chat about it and we like challenges. So you're already at a very loose space in a federated chat with community guidelines.
+
+[40:54] **Dan Friedman**: Just be aware of that, guys. Was that prominent community member you, qx()?
+
+[40:59] **Dan Friedman**: No, I won't mention a name. The Sigmanauts know we were discussing it the other day.
+
+[41:03] **Dan Friedman**: Okay. Well, it's probably you. Yes. But anyway, let's get to maybe one or two real questions before we sign off for the evening. Let's see. Oh, and sub-blocks, you know?
+
+[41:18] **Dan Friedman**: Oh, is that Pulsar? Pulsar, it's so good to see you. Pulsar's been busy in real life, so it's nice to have him pop in here. Soon, Pulsar. So the epics are out of the way. The voting has been done, I think, on testnet to get that node there. So that was a holdup with what they're testing on. So more testing there. I guess we're at that stage from what we were waiting on a while ago. So soon. It's moving, Pulsar. It's moving. Maybe you should help kushti Pulsar. Pulsar is an expert in, I think it's C sharp, is it? I can't remember, but he rewrote He rewrote FleetSDK to FleetSharp so that there's more options of programming against Ergo libraries, which is fantastic. Pulsar, you're my hero. All right, next question.
+
+[42:14] **Dan Friedman**: Okay, we got one from Wendy Moon. Do you think it would make sense to promote Ergo platforms to non-crypto folks using terminology other than crypto? because every person is losing trust in crypto thanks to meme scams. So, okay, well, let me just throw kind of like my 25 cents of thing in here, and then you can follow up on the qx(), because-
+
+[42:45] **Dan Friedman**: Oh, I will. I'll follow up, Dan.
+
+[42:46] **Dan Friedman**: Yeah, you just keep talking and talking. Anyway, so my feeling and this is not just for Ergo I think you know the same thing comes up in Cardano as well and others like when marketing when marketing when you know when mainstream marketing and it's like well okay okay so who and i think i actually spoke about this before who knows who underwriter laboratories are you will Now, if you're an electronics person, you know exactly what I'm talking about, but the average consumer, you guys who are the average consumer of electronics, do you know who underwriter laboratories are? You will.
+
+[43:29] **Dan Friedman**: Another global safety science company with more than a century of expertise innovating safety solutions.
+
+[43:33] **Dan Friedman**: They are, but that's the thing. The average electronic consumer does not know what UL is, but UL is like one of the backbones of electronic safety in the US, and possibly the world, and have been for over a century. And why do you not hear about the UL? Because the UL provides a very, very needed and robust function that other products can be built on or built against or be benchmarked against. And so while you don't, as a, I mean, they try to like promote them like back in the day, I think. And in fact, if you look on your electronics somewhere, you're gonna see the UL logo. But for the main part, you're not gonna be buying like a Sony TV and somebody's gonna say, oh, well, this is UL approved. But Sony is not going to ask UL to market their TV for them. They're going to use UL technology to create a better TV and then market it themselves. So that's what I think personally and as a business owner and as somebody who's building on Ergo and Cardano, I think that it's actually the project responsibility to promote their product versus the ecosystem kind of trying to push them as a project in the ecosystem. Of course, The support is greatly appreciated and is needed to sometimes kind of invigorate the ecosystem or prop it up. But I really think that... it should be up to the project. You know, the project, individual projects building on Ergo should be out there promoting and talking to the non-crypto people because those are going to be their users. Just like what we're doing with Palmyra, you know, I mean, we don't really talk too much about Winter Protocol, which runs on Ergo. We talk about the utility, you know, and when Theodore, our head of business development went to Greece a couple of months ago, He had zero conversations about Ergo there. Zero. He had zero conversations about technology there. He just, well, I mean, he had, but I mean, what's under the hood type of technology conversations. What he spoke about is the solution. You know, the solution that will help these guys be able to export their olive oil and get a better profit on their olive oil. And yeah, under the hood, it uses blockchain, it uses Ergo. But in the end, the solution is what we offered them. And nobody had any questions. Nobody was asking. Oh, well, wait a second. How does the blockchain do stuff here? It's like, well, they don't care. They just know that they can use this thing is going to make their lives easier. They're going to make more money. That's it. So, yes, I mean, that's what I think. And like I said, I'm not saying that the ecosystem should not be doing some sort of a advertising type of thing if there are funds and if that ecosystem is actually designed for that because some are not. Some are just designed to be kind of like the tool chest to build on. but, yeah, but I think, I think if I think that like mainly it's just basically, projects responsibility to promote the solution that they created. So that's, that's what I think. What do you, what do you think qx()?
+
+[47:30] **Dan Friedman**: You are muted.
+
+[47:34] **Dan Friedman**: How did that happen?
+
+[47:36] **Dan Friedman**: That happened when you press the mute button.
+
+[47:38] **Dan Friedman**: Oh, is that what that does? Oh my goodness. So what I was lip syncing earlier is that the Ergo Foundation has been doing this for a long time, right? They've been promoting a grassroots approach of here's a tool, here's how it works, here's what you can use it for, here's how you can also build, here's some code you can learn, all that kind of stuff. So when I parse this out with current times, I'm thinking that when a lot of people say marketing and getting Ergo out there, Who do they mean that we're trying to get it to? Are we trying to get it to people that are going to buy and sell, buy low, sell high, and just price speculate? Or are you talking about, let's get it out there like things like Dan's doing, things like I'm doing with my students, things like other people are doing where you're using utility to make something and have people use that thing. And yeah, they may know that it's Ergo, they may not, but you're using the product. We specifically went with Tipperbot at Cornell because I'm not going to sit there and try to explain to people what a wallet is, how to use it. You know, a thousand students, I'm not going to sit there and say, here's how you do this, here's how you do that. Instead, it's just like, Here's what we're doing. If you want a free plot then sign up for this and you'll get tipped and you'll go from there. So building systems around Ergo that people don't necessarily have to know. So I think Ergo Foundation's been doing that and that's what a lot of people don't like because they want the other type of marketing which is let's get people in here to just buy and not utilize. So it's I don't know, Dan. It's tough. You definitely need a... Those are two different teams, right? There's a team for that and then there's a team for what the EF has been doing as far as promoting utility and usage of the chain. So I don't really have a better answer than what I just spouted.
+
+[49:32] **Dan Friedman**: I think that's fair. That's a fair answer. Like I said, some ecosystems are not... They're not VC ecosystems where it's just basically, it's really not about the tooling as much as it is about pumping the price and having the Silicon Valley approach to marketing that we're trying to get away in a way. And so yeah, so these guys are gonna pump the price and they're gonna they're gonna fill their ecosystem with bullshit and but it's gonna be big, you know Yeah, a lot of these guys are pumping first utility later, right?
+
+[50:10] **Dan Friedman**: That's like let's let's get the money in and we'll figure out how to fix issues Ergo wasn't born like that.
+
+[50:16] **Dan Friedman**: Ergo was born with the utility, you know, so we can't expect it to become that now, like I said, I'm not diminishing the need for exposure. Correct. But we have to understand.
+
+[50:30] **Dan Friedman**: We just need to be conscious of what we're looking for, how we go about it.
+
+[50:33] **Dan Friedman**: That's exactly it. Who are we advertising it to? Now, Wendy Moon was talking about not crypto people. Okay, that's good. But like I said, that, I feel, is more of a project responsibility than, say, the foundation. but yeah, if you're talking about tooling, then yeah, that's, that's something that you want to market to maybe developers, you know, obviously, or somebody's, you know, somebody's designing a project. And again, that's a different type of marketing.
+
+[51:08] **Dan Friedman**: Well, my 17 year old child wrote me two days ago when they were at school and said, hey dad, thanks for being terrible. Well, they didn't say that, just kidding. They said, they've been speaking to me off and on about their economics teacher who is very anti-crypto, right? So the the economics teacher is giving the same old tired arguments of oh It's money from nothing and there's no value and it's a bunch of scams Okay, I get it. You know, those are the things that we get from those kind of uninformed people So they're asking a question they send a bunch of texts from an email right up that the person economics professor did about their latest chapter and about crypto, so I gave it a nice rebuttal and just you know with those kind of things it's simple it's like you talk about what putting a value what it means to create a financial system right and how how's gold or dollar you know any different in value putting in besides it's propping up markets right now right that's the only thing they have but initially we people put value on objects or things or or or monies right same with crypto and then explaining to them that The proof of work crypto actually takes a conversion of energy to create a store of value as well. And then I got into a brief discussion with them about inflationary measures, right? And how if there's an issue in the US, we just turn on the printing machine and print more dollars to pay for it. thus increasing prices across the board for everything. And not just naturally increase. When large corporations see inflation going right, they jack their prices up before it even happens. It's like this preemptive thing of an excuse to jack up your prices. So it's all like some snowball avalanche effect. So spoke about that, and my child was actually ill. That kind of makes sense. So I forgot to write, but I was going to say, hey, if you want somebody to come in and and debate with him in class about it and chat about what they might be happy to. I think that'd be a lot of fun. But so that brings me hope that the young generation at least can be like, oh, you know, that does kind of seem stupid that we just continue to print our own money, you know, out of thin air. And then people say that crypto has no real value.
+
+[53:27] **Dan Friedman**: You're like, OK, you're well, it's basically like you said, it's basically people don't understand the core concept of why money has value. You know why yeah, I'd have value any kind of perceived value So that's that's definitely You know, that's definitely a big deal because it's just not that's it comes from lack of understanding of their own, you know field of expertise but anyway, Speaking to Wendy one last time then I I think with Ergo and with any chain that has utility, you're going to see adoption by everyday people, by things like Dan. Maybe there are even services that are centralized that are using decentralized tools. You could create a service that Is it like right we have like last pass right it stores all of your freaking passwords all in their security enclave? And you just know your one big password things like that could exist for Ergo for multiple wallets and exchanges and things like that or any crypto You know nothing I would use the hell that I'm gonna put my seed phrase on some server the only place my seed phrase is public is Luis Vatra's tipper bot right that's the only place that my seed phrase exists online for the Tipperbot wallet. But other people may be comfortable doing that. They might want that security. And with that cost comes an extra cost, perhaps. And then with that comes like insurance for, you know, scams that they go through. So all this kind of stuff can be built on top of what we have already on Ergo or any other chain that takes utility and actually building seriously. So we'll get there, Wendy. I think we'll get there. Yeah.
+
+[55:11] **Dan Friedman**: We will we will all right well, I need to wrap it up for today cuz actually I got another it's only like 11 o'clock Dan Yeah, but I got I get a I get a space Coming up time how long?
+
+[55:25] **Dan Friedman**: Pretty soon and before that I have to do stuff.
+
+[55:29] **Dan Friedman**: Oh Honey, do this all right. What else do we have any other questions in here real quick?
+
+[55:37] **Dan Friedman**: Let's see
+
+[55:43] **Dan Friedman**: Nothing that can't be asked in chat. Oh, we got a brand new segment. Oh, here we go. Hi, brand new segment out here. Welcome Rich. What is my best way to, what is my best bet? Present my ideas, but protect my IP. I'm looking to meet and safely give my team ideas slash work. Do you mean an Ergo Rich? So it's,
+
+[56:05] **Dan Friedman**: Yeah, that's a tough question. So, you know, Ergo embraces open source, but we also have a mix of open source and closed source. You'll find a lot like people will write smart contracts that are open source, right? So like Spectrum, like MewFinance, like DuckPools, right? Contracts are open source. But then they closed source their UI, which is their unique blend of that kind of thing. So I would say if that's what you're asking, you can do, and you still want to be as open source as you can in the Ergo ecosystem, You if you're closing anything off you need to provide innovation in that closeness, right? So let's say you create a tool or tooling the open source of contracts and you have some whiz bang UI that you're hosting it costs resources to host and You're doing that but then perhaps you can also offer some you know open source version of that earlier version beta UI that can be on on GitHub that somebody could download and run your app themselves without having to rely on your web server. So there's blends of that kind of thing. But it is a tough question, Dan, right? How do you protect your IP when we're in a fully open source place where anybody could take your stuff and run with it and do better than you at it? It's a tough one. Overall, it makes the space better. It does. But there are ways, Rich, that you can still, I mean, closed stuff in Ergo isn't shunned. You know, people, it's just about expectations. And what's the word I'm looking for? Trade-offs.
+
+[57:45] **Dan Friedman**: Trade-offs. It's all about trade-offs.
+
+[57:46] **Dan Friedman**: Yeah, trade-offs. But be transparent about it, Rich. If you're building something and you publish some of it and you don't publish the other stuff, don't hide it. Say this is what we're doing. We feel this early on if we release our UI to everybody, somebody can easily take over and blow all the hard work we've done. So we're going to keep our UI private until version 3 then maybe open source version 1 UI on top of the open source smart contracts that we've done in two years or something like that so there's definitely options out there and like I say before With Ergo, at least, with things like Nautilus, I can interact with closed source systems like closed source UIs. And I can still see everything that's going on. I can look at that information in the advanced mode in Nautilus. And I can see, OK, here are all my outputs. Here are all my inputs. And I'll see what's going on. So even when interacting with those kind of things, still as the user, I have other tools that allow me to exactly see if I'm going to be scammed or messed with or anything like that. All right, Dan.
+
+[58:48] **Dan Friedman**: Agreed. All right. Well. Are we good?
+
+[58:54] **Dan Friedman**: We're good, Dan. We're good. I mean, you came 15 minutes late, and we're leaving five minutes early from that. So you owe us five minutes in some other time. So you got to make it up.
+
+[59:02] **Dan Friedman**: I'll do it in some other time. I'll do it at IHOP.
+
+[59:06] **Dan Friedman**: That sounds good, Dan. I'll give you an extra five minutes at IHOP.
+
+[59:09] **Dan Friedman**: Speaking of IHOP, their competitor, Waffle House, is charging $0.30 extra an egg. Or is it $0.50 extra an egg? Would IHOP ever do that, Dan?
+
+[59:20] **Dan Friedman**: IHOP not.
+
+[59:22] **Dan Friedman**: That's clever. Good way to end it. Everybody, have a great week. Thanks for joining us.
+
+[59:26] **Dan Friedman**: Thanks a lot, everyone. See you next week.

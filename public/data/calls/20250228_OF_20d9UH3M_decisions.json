@@ -1,0 +1,95 @@
+{
+  "call_date": "2025-02-28",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - February 27th",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "00:26",
+      "decision": "Changed the call name from 'Ergo AMA' to 'Ergo ecosystem weekly AMA'",
+      "speaker": "kushti",
+      "context": "Feedback from Sigmanauts in Hong Kong that 'Ergo AMA' sounds strange since it's a protocol with no controlling party",
+      "topic": "governance",
+      "significance": "minor",
+      "quote": "Ergo ecosystem is then quite better, right, in this regard"
+    },
+    {
+      "id": 2,
+      "timestamp": "03:19",
+      "decision": "Removed the words 'official repository' from the GitHub repository",
+      "speaker": "kushti",
+      "context": "The term 'official' is unclear and confusing when anyone can fork the code",
+      "topic": "governance",
+      "significance": "minor",
+      "quote": "At some point I also removed the words official repository, because it's the same problem"
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "35:24",
+      "commitment": "Launch Dexy Gold UI in coming days or weeks after resolving storage rent issue",
+      "owner": "kushti",
+      "timeline": "coming days, weeks",
+      "topic": "dexy-gold",
+      "quote": "Hopefully we can launch well in coming days, weeks"
+    },
+    {
+      "id": 2,
+      "timestamp": "36:24",
+      "commitment": "Resolve storage rent issue for SigmaUSD bank box, take last look and generate more tests for Dexy Gold",
+      "owner": "kushti",
+      "timeline": "one day, one and a half",
+      "topic": "dexy-gold",
+      "quote": "the plan, you know, is to, well, resolve storage rent issue for SigmaUSD bank box and then yeah well I can issue take last look and generate with AI some more tests for Dexy Gold but yeah that's just I don't know like one day one and a half"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "08:17",
+      "question": "How to get different ecosystem entities in sync and represent Ergo collectively",
+      "context": "Need to coordinate between commercial players like Zengate, non-profits like Sigmanauts and Ergo Foundation, and community organizations",
+      "topic": "governance",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "45:36",
+      "question": "Issues with kushti's voting in the developers DAO",
+      "context": "First voting is active but kushti is having some issues with his voting",
+      "topic": "governance",
+      "raised_by": "kushti"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "46:41",
+      "fact": "Security audit of 6.0 by Dusek found quite a lot of issues, especially around versioning, including non-trivial DOS possibilities",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 2,
+      "timestamp": "45:36",
+      "fact": "First voting is active in the developers DAO with distributed keys",
+      "speaker": "kushti",
+      "topic": "governance"
+    },
+    {
+      "id": 3,
+      "timestamp": "48:56",
+      "fact": "Talks with MEXC started in 2019 with 5 Bitcoin, finally resulted in community fundraiser for 40k-60k total",
+      "speaker": "kushti",
+      "topic": "exchange-listing"
+    },
+    {
+      "id": 4,
+      "timestamp": "30:27",
+      "fact": "Ergo is now under radar of many entities including Bitcoin OG whales, big Middle East funds, and Chinese funds since second half of 2024",
+      "speaker": "kushti",
+      "topic": "adoption"
+    }
+  ]
+}

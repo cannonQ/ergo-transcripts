@@ -1,0 +1,464 @@
+[00:00] **qx()**: You'll notice the format's a little different today.
+[00:02] **qx()**: We were hoping to do more of a community structure.
+[00:06] **qx()**: Anybody can join the Zoom.
+[00:07] **qx()**: If you look in the lower right-hand corner over there of the stream, you'll notice a Zoom info.
+[00:13] **qx()**: So if you want to chat in person, you want to come up and join the community and give your point of view, ask questions in person, that kind of stuff, then just join that Zoom info in there.
+[00:24] **qx()**: Come in with your camera off.
+[00:25] **qx()**: As you can see, HQ and kushti's camera are off.
+[00:29] **qx()**: Feel free to ask voice questions.
+[00:30] **qx()**: It doesn't matter.
+[00:32] **qx()**: Hop in.
+[00:33] **qx()**: So today we've got a couple community members.
+[00:35] **qx()**: We've got Grayman, who's a Sigmanauts.
+[00:37] **qx()**: We've got Mark the Shark, who is at the Mining Disrupt in Florida, sent by the Sigmanauts.
+[00:45] **qx()**: For those of you who don't know, Mining Disrupt is a big kind of ASICS mining conference.
+[00:49] **qx()**: And Mark is going there punching GPUs into everybody as he walks.
+[00:54] **qx()**: And then we've got HQ3rr, which is the main core dev of MewFinance.
+[01:02] **qx()**: And then, of course, we've got kushti in the upper left-hand corner.
+[01:05] **qx()**: So feel free to join and ask questions, or pop them in the chat, or whatever you like, or just shout them into a dark closet or something.
+[01:13] **qx()**: I'm sure we'll hear them.
+[01:15] **qx()**: Why don't we start with Mark?
+[01:16] **qx()**: Mark, tell us about Disrupt.
+[01:17] **qx()**: What you found?
+[01:18] **qx()**: How are the people?
+[01:19] **qx()**: Any tips or ideas you have for the Sigmanauts Mining Pool or anything like that?
+
+[01:24] **Marc the Shark**: Yeah, I mean, obviously, so mining disrupt it's a huge Bitcoin mining conference.
+[01:31] **Marc the Shark**: So, you know, everything and anything Bitcoin, I talked to some people, okay, I'm here with Ergo, you know, GPU mining chain, they're like, Ergo, didn't that go to like, six, like years ago, it's like, no, you know, some people kind of snobby towards me, I asked him like some questions about their pool, they're like, you know, acting as it's like, Hey man, I'm just trying to pick your brain here.
+[01:52] **Marc the Shark**: It's like, you don't have to be like, you know, any type of way.
+[01:56] **Marc the Shark**: It's kind of funny.
+[01:57] **Marc the Shark**: But some other people have been very nice, you know, so I was asking, you know, what's their pay pullout strategy.
+[02:04] **Marc the Shark**: So a lot of people are using full pay per share.
+[02:07] **Marc the Shark**: So regardless of we find a block, people get paid upfront.
+[02:12] **Marc the Shark**: So that's what a lot of miners in the Bitcoin space, specifically the pools are doing.
+[02:18] **Marc the Shark**: There's another pool.
+[02:21] **Marc the Shark**: It's very similar to Lithos it seems but they're more of a decentralized pool.
+[02:26] **Marc the Shark**: I think it's called Ocean and basically allows their - and I'm not really sure I guess how it maybe works on Bitcoin, but the guy was suggesting the pool makes the blocks on.
+[02:41] **Marc the Shark**: And so instead of the miners, well, the miners make the that allows them to put their name in the coinbase.
+[02:45] **Marc the Shark**: And so now they can install you know, the name on the.
+[02:54] **Marc the Shark**: I lose you guys.
+[02:55] **qx()**: No, we're still here.
+[02:56] **qx()**: We heard most of it.
+[02:57] **qx()**: So you're saying the mining pools will just pay out regardless?
+[03:03] **qx()**: Are they taking a hit there?
+[03:05] **qx()**: Like, what if they don't find a block for days?
+[03:07] **qx()**: They're going to have to pull from the bank?
+[03:09] **qx()**: I guess it all evens out in the end kind of thing?
+[03:11] **qx()**: Or miners mining to a pool with guaranteed payout, accepting less of a payout so more profit goes to the pool kind of thing?
+
+[03:20] **Marc the Shark**: Yeah, I think there's probably, I didn't get to ask the fee.
+[03:24] **Marc the Shark**: I think the fee is probably a little bit higher.
+[03:26] **Marc the Shark**: But it reminds me of the idea that qx() had that he wanted to implement area rather he did, but it's sort of like a call option for the miners, right?
+[03:37] **Marc the Shark**: So if you want to take your money now, it's like, well, we can still do PPLNS, but if you want to do say pay per share, you know, you have the ability to do that with qx()'s sort of tool.
+[03:50] **Marc the Shark**: But I think technically the mining pools would be taking a hit.
+[03:54] **Marc the Shark**: But it's really so the miners get paid all the time.
+[03:59] **Marc the Shark**: And we had one miner was like, hey, how come I haven't got paid yet?
+[04:02] **Marc the Shark**: And it's like, well, we're PPLNS.
+[04:04] **Marc the Shark**: So you don't get paid until we find a block.
+[04:06] **Marc the Shark**: And he was kind of like disgruntled about it a little bit maybe.
+
+[04:11] **Marc the Shark**: So something we should take a look at, I guess, DX pool, I talked to the pool operator there.
+[04:17] **Marc the Shark**: Pretty much same story relative to the payout scheme.
+[04:20] **Marc the Shark**: And he said, you know, hey, I reached out, I told the people to check out the Sigmanauts mining pool and the reason why there he said there's kind of like no incentive there and so maybe there's not enough information like what we're doing with demurrage what we're doing with the bonus tokens and then he even was suggesting like well how can I tell how can I trust that it's like reliable you know if I put it there it's not going to be you know my mining rigs are always going to be up you know and we have a pretty good up time we do I would say yeah so no really concern there but I was looking at other people's dashboards that they have like on the screen and stuff and you know, that's really like the first thing that people see for our pool is like our dashboards and our websites and stuff.
+[05:04] **Marc the Shark**: So I'm making it a point now to make it think definitely is it needs it'll be a lot quicker and faster.
+[05:13] **Marc the Shark**: And so I made a prototype yesterday.
+[05:24] **Marc the Shark**: I did it like a live stream.
+[05:24] **Marc the Shark**: I'm not sure how many people were watching but it was fun I think like 50 people I saw this morning.
+[05:28] **qx()**: Yeah, nice.
+
+[05:33] **Marc the Shark**: And then there's another pool.
+[05:35] **Marc the Shark**: It's called Brains pool and they're essentially made sort of this like Bitcoin OS and I didn't really understand it, whether it's like actually the miner running where it's like that's what mines it, or if it's more of like a Hive OS, it seemed like it was like sort of both in some sense.
+[05:53] **Marc the Shark**: But in any case, I was like, well, what are your guys' monetization strategies?
+[05:56] **Marc the Shark**: He's like, well, it's the pool fee and then this OS.
+[06:00] **Marc the Shark**: So you get like two and a half percent from this OS.
+[06:02] **Marc the Shark**: And then, of course, the pool's fee.
+[06:04] **Marc the Shark**: And that pretty much pays for everything.
+[06:06] **Marc the Shark**: And they have they had like like five people at their booth.
+[06:09] **Marc the Shark**: So I was like, OK, interesting.
+[06:13] **Marc the Shark**: So from the Sigmanauts perspective for the mining pool, I know we can maybe take a look at making some sort of system like that, but I'm not really sure where to start.
+[06:23] **Marc the Shark**: But just trying to think of different monetization strategies, right?
+[06:26] **Marc the Shark**: Different marketing strategies sort of.
+[06:29] **Marc the Shark**: But I think I definitely got a lot of feedback as to where we are in our ecosystem relative to our pool and the hash rate and then maybe how we can sort of grab more hash rate.
+[06:38] **Marc the Shark**: You know, so from a security perspective within the pool, you know, marketability and then just reliability, I think.
+
+[06:46] **qx()**: My question is, how do we make them as exciting as the Cardano people are bound to their stake pool operators, right?
+[06:55] **qx()**: They'd wear shirts with their stake pool operators face on it, for God's sake.
+[06:59] **qx()**: Why can't that be the same with mining pools, right?
+[07:04] **qx()**: Allegiance, but I imagine it comes down to miners are geeks. Well that too plus but I think there's a lot more hopping going on and mining than there is. Then there is in the stake pool operation outfit right because you may have miners may hop from one coin to the next to the next to the next whatever is profitable and pay for their rigs and so there might not be that kind of specific attachment to those pools or those coins in that aspect.
+
+[07:35] **Marc the Shark**: Oh, we don't see that in our pool, though. You know, we have a consistent hundred gigs.
+[07:40] **Marc the Shark**: We did have 150 gigs like a week ago for like a day. Somebody popped in with 50, 40 to 50 gigahash.
+[07:47] **Marc the Shark**: So that was really sick.
+[07:48] **Marc the Shark**: I'm not sure where they went but you know and then even in the website, maybe we need to have like a little like hey what kind of feedback would you like to see and then that's of space so we can be like hey I like this or you know, some space, you know, aside from Telegram for people to reach out to, just less friction, I guess.
+
+[08:06] **qx()**: I think you were challenged last week, Mark, to open up a Signal link, right?
+[08:12] **qx()**: What's that signal?
+[08:14] **Marc the Shark**: Yeah.
+[08:14] **qx()**: You can be right there with Donald Trump and the secretary of defense.
+[08:20] **Marc the Shark**: Oh my gosh.
+[08:20] **Marc the Shark**: Yeah.
+[08:21] **Marc the Shark**: Our war plans will get leaked from the Sigmanauts mining pool.
+[08:24] **Marc the Shark**: Yeah.
+
+[08:26] **qx()**: Oh boy, but you found a connector, right?
+[08:27] **qx()**: So anybody who has time can work with us to make that connection happen if you want to as well.
+[08:33] **qx()**: Or one of us will do it in our free time.
+[08:35] **qx()**: But yeah, super cool.
+[08:36] **qx()**: Did you say you met up with the DX pool?
+[08:42] **qx()**: What's his, did you mention demurrage at all?
+
+[08:45] **Marc the Shark**: Yeah, I did.
+[08:46] **Marc the Shark**: Yeah, he actually is not really sure what it is.
+[08:48] **Marc the Shark**: He actually requested some information and materials about it.
+[08:51] **Marc the Shark**: So I was like, okay, yeah, I'll totally like when I get a moment, I'll send some of that information over.
+[08:56] **Marc the Shark**: But of course, we don't want. Selfishly speaking, we don't want DX pool to have demurrage because then it's like, well, you guys are going to find all of our blocks, all of our blocks of demurrage, you know.
+
+[09:08] **qx()**: But I mean, I don't like that we're in kind of, what's it called, what's the word, purgatory right now with demurrage, right?
+[09:18] **qx()**: Demurrage was made so that, well in mind, it was thought of so that there'd be a nice jump from when it was turned on to actually pools utilizing it, right?
+[09:29] **qx()**: So now we're in a spot right now where not just pools are utilizing it, but we'll see a rogue person come on and just snipe blocks from demurrage as well.
+[09:40] **qx()**: So non-miners are actually getting it.
+[09:42] **qx()**: So I feel that's a shame that non-miners are losing some of that stuff.
+[09:47] **qx()**: So it'd be nice if more pools engaged so that that wouldn't be possible and the miners who originally intended to get that are scooping up that demurrage.
+
+[09:58] **Marc the Shark**: Yeah, absolutely.
+[09:59] **Marc the Shark**: But it's only for a few blocks, I've noticed.
+[10:01] **qx()**: Yeah, here and there.
+[10:03] **qx()**: Yeah.
+[10:03] **Marc the Shark**: Yeah.
+[10:04] **Marc the Shark**: It's like, I skipped a week and I came back to the wallet and we had like 170 ERG, you know, over two weeks of collection.
+[10:11] **Marc the Shark**: Yeah.
+[10:13] **qx()**: That is nice.
+[10:14] **Marc the Shark**: So I mean, that's incentive right there, you know, get extra ERG or mining tool, you know.
+
+[10:20] **qx()**: And it's not that difficult to run.
+[10:21] **qx()**: It's a modified node.
+[10:23] **qx()**: It's a modified, you don't even have to modify mining core.
+[10:28] **qx()**: I think that runs on its own.
+[10:29] **qx()**: And then you put a config into mining core or something.
+[10:32] **qx()**: And then you run a little storage rent app.
+[10:36] **qx()**: And that's it.
+[10:37] **qx()**: It just does its thing.
+[10:38] **qx()**: Tell what wallet for it to collect to and watch that wallet and see the stuff come in.
+[10:43] **qx()**: Yeah, that's really a no brainer.
+[10:45] **qx()**: Oh, HQ is going to talk.
+[10:46] **qx()**: Let's hear HQ.
+[10:47] **qx()**: Go for it.
+[10:48] **qx()**: HQ, what's up with you?
+[10:49] **HQ3rr**: How's MewFinance doing?
+
+[10:52] **HQ3rr**: MewFinance is doing great.
+[10:53] **HQ3rr**: I just wanted to share some idea which I just got about ready to mining.
+[10:58] **HQ3rr**: So as we know that we can see how many blocks were mined by all the pools.
+[11:04] **HQ3rr**: So how about we create a simple tool where people can compare in dollar value of how much they are getting for mining and that's how we can show them.
+[11:15] **HQ3rr**: We can show them that the extra bonus they get, they are getting more profit on mining with Sigmanauts pools.
+
+[11:21] **qx()**: Right, but actually the only thing we don't know is how many people are mining to that pool, right?
+[11:27] **qx()**: So we can't do that individual division, unfortunately.
+[11:30] **qx()**: So we know that X amount of people are mining to our pool, but we have no idea how many people are mining to DX pool.
+[11:35] **qx()**: So while we would know the totals coming in, we wouldn't be able to divide that by a number to say, OK, the individual person gets this much in this person's.
+[11:45] **qx()**: This pool's 1% higher.
+[11:46] **qx()**: This pool's 2% higher in payouts with the bonus tokens of the thing.
+[11:50] **qx()**: But that's a good divide.
+[11:51] **qx()**: You can just divide the hash rate, and that's it.
+[11:54] **HQ3rr**: Oh, divide it by the gigahash.
+[11:57] **qx()**: So saying for each gigahash, it gets this.
+[12:01] **qx()**: Oh, great idea, guys.
+[12:02] **qx()**: Fantastic.
+
+[12:03] **Marc the Shark**: Yeah, totally.
+[12:03] **Grayman**: That's where the individual miners might help you if you were trying to make this into more of a social thing. One of the problems is that you know who knows like what was the blockchain that told Herominers that if they didn't get some of their people off line. I mean, are there 800 people mining there? And then all of a sudden, like two or three are the vast majority of the hash rate. So it doesn't matter if 700 of the 800 people leave. I mean, that's the problem with mining. It goes with being permissionless and pseudonymous.
+
+[12:48] **qx()**: Well, I understand that in other chains, right?
+[12:51] **qx()**: Miners might not care and point their rigs to wherever the profit is, which is fine.
+[12:57] **qx()**: But on Ergo, at least miners need to understand that they have a lot more control over the network.
+[13:02] **qx()**: So it's in their best interest not to saturate hash on one pool in those instances.
+[13:08] **qx()**: So, I mean, that's a hope in the future, right?
+[13:10] **qx()**: But I think we're in a long, not a long, but I think we're a ways away from that, where miners are going to start recognizing that they can make those parameter changes.
+[13:20] **qx()**: But HQ, I love that idea.
+[13:22] **qx()**: That's great.
+[13:22] **qx()**: That shouldn't be too hard to do either.
+
+[13:25] **Marc the Shark**: Yeah, for sure.
+[13:25] **Marc the Shark**: We could say, hey, our block reward is like, I mean, what is it right now?
+[13:29] **Marc the Shark**: I think is it 15 or is it 18 right now?
+[13:32] **qx()**: I think we're about to hit 15, I think, right?
+[13:35] **Marc the Shark**: Okay.
+[13:36] **Marc the Shark**: So yeah, we could be like, it's 18 plus three, you know, or whatever on average for the demurrage for the week, you know, for our block rewards or, you know, bonus tokens, that kind of thing.
+[13:45] **qx()**: Yeah.
+[13:45] **Marc the Shark**: Right.
+[13:45] **Marc the Shark**: Yeah.
+
+[13:46] **HQ3rr**: Yeah.
+[13:47] **HQ3rr**: Actually, I was, I was not doing it like, like a future.
+[13:51] **HQ3rr**: So we can do like a past in past 30 days to have mined with one GB on Sigmanauts pool, you could have made this much.
+[13:57] **qx()**: Yep.
+[13:58] **HQ3rr**: And you have, you have made this much on another pool.
+[14:01] **HQ3rr**: So you will be showing the profit you have made.
+[14:03] **HQ3rr**: You could have made.
+[14:04] **HQ3rr**: So people like to see those kind of numbers.
+[14:06] **HQ3rr**: So yeah, so we already have the price feed for all the tokens we have in the as supported tokens.
+[14:12] **HQ3rr**: We did with the extra tokens we do.
+[14:14] **HQ3rr**: So yeah, you just have to do the sum up of all the plus all the all the tokens and just show the dollar value of it.
+[14:23] **HQ3rr**: You don't even need to show the value because nowadays I think miners don't even care about how many they're getting.
+[14:29] **HQ3rr**: They will only care about how many dollars they are getting.
+[14:32] **HQ3rr**: So if you are showing them that you are getting more revenue for mining with us, then you will have more incentivization for people to move to the pool.
+
+[14:41] **qx()**: Awesome.
+[14:42] **qx()**: You think you're going to have that built tomorrow morning, HQ?
+[14:44] **qx()**: You've got enough time.
+[14:45] **qx()**: It's not too late for you over there.
+[14:47] **HQ3rr**: Just a reminder, I'm a father now.
+[14:50] **qx()**: We're all fathers here.
+[14:52] **qx()**: Yeah, right.
+[14:54] **HQ3rr**: But my kid is three months old, so not like yours.
+
+[14:57] **Marc the Shark**: Ergo dad NFTs. That's no big deal. Wait till they can crawl or walk. Yeah, you're in for it then. Tell you that that's where I'm in right now, dude. My little one. Oh my gosh. She's all over the place dude running around. Dad dad pick me up.
+[15:20] **qx()**: Nice. Very nice.
+
+[15:20] **qx()**: All right, let's hear about let's hear about 6.0 from kushti kushti are there. We put him to sleep.
+[15:31] **Kushti**: Yeah, yeah, yeah.
+[15:32] **Kushti**: Yeah, I'm here.
+[15:33] **Kushti**: Sorry.
+[15:34] **Kushti**: Mic was off.
+[15:34] **Kushti**: So, yeah.
+
+[15:39] **Kushti**: Finally, it's time to activate it in the mainnet.
+[15:42] **Kushti**: So still, there are some things to check, some things to consider, like mainnet activation parameters, and we'll also use a client suitable for the mainnet and do some final audit.
+[15:59] **Kushti**: And so on, but yeah, well, I think we can think about proposing a voting starting from early May, something like that.
+[16:14] **Kushti**: So yeah, and with 6.0 done, we can actually promote, well, different things which are possible now with 6.0 such as trustless Bitcoin.
+[16:30] **Kushti**: Relay, not Bitcoin only, right?
+[16:33] **Kushti**: And well, schemes based on that.
+[16:38] **Kushti**: Then support for bullet proofs, right?
+[16:44] **Kushti**: For verification of some zero-knowledge proofs on the blockchain and so on.
+[16:51] **Kushti**: And yeah, we can think about sub-blocks.
+[16:57] **Kushti**: Well, consider some roadmap with public testnet activation and so on after 6.0.
+[17:11] **Kushti**: So yeah, well, it's been polished.
+[17:18] **Kushti**: Time to release it finally.
+[17:24] **Kushti**: And yeah, well, this week I will do another release candidate, version release.
+[17:35] **Kushti**: Well, now with rules and so on, and yeah, it should be close to the final version.
+[17:50] **Kushti**: It should be more or less. So yeah, well, and in Sigmanauts DAO, we also formed a group to work with mining pools and exchanges to inform them about 6.0 release, so to check that everyone Well, for exchanges, it would still be better to update the nodes.
+[18:22] **Kushti**: Maybe not, because they actually will be made from the transactions, deposits and withdrawals, with 5.0 and 6.0 network after the activation.
+[18:36] **Kushti**: But yeah, well, anyway, there is needs to inform and to track.
+[18:43] **Kushti**: So yeah, well, it's going on.
+[18:52] **Kushti**: And yeah, well, a lot of updates after 6.0 to be planned.
+
+[19:04] **qx()**: How many steps along the way will we need to update Testnet?
+[19:09] **qx()**: I think I'm on 6.0 R2 and you have 6.0 R3 out.
+[19:15] **qx()**: What are the breaking changes that are going to need to update along the way there for your testing?
+
+[19:23] **Kushti**: You mean for the mining nodes?
+[19:27] **Kushti**: Yeah, so you would need to update to RC4, which is coming soon.
+[19:33] **qx()**: OK.
+[19:34] **qx()**: So RC3, which was a little update?
+[19:39] **Kushti**: Yeah, so it was just a little bit different from RC2.
+[19:45] **Kushti**: But yeah, RC4 would be different, actually.
+[19:49] **Kushti**: Quite different from RC3.
+[19:52] **Kushti**: And yeah, well, there is need to update on the mining nodes because for other nodes there are 5.0 and they will be there.
+[20:05] **Kushti**: We will do some testing, well, how 5.0 nodes would survive under 6.0 transactions.
+
+[20:19] **qx()**: And if anybody's running a node right now on mainnet, you can run a testnet node on the same network.
+[20:26] **qx()**: The more testnet nodes we have, the better, because it gets a little tough to sync if only a few devs are running testnet nodes.
+[20:34] **qx()**: So any community members want to run testnet node, instructions are up there.
+[20:38] **qx()**: Use a 6.0 R3 candidate that's there.
+[20:42] **qx()**: and spin it up, try to sync it up, and join in and allow devs to successfully test things so they're not continuously using mainnet to test stuff.
+[20:55] **qx()**: Right?
+
+[20:57] **Marc the Shark**: Have you reached out to qx() at maybe to see what we need to do to update our node for demurrage relative to this new update?
+[21:07] **qx()**: No, I haven't. He's got an update coming down the pipe that he was gonna I thought he was gonna give us soon so I'll reach out to him. I know he's busy on Lithos as well so we'll ping him see what's up.
+[21:22] **qx()**: Yeah.
+[21:24] **qx()**: Awesome.
+[21:24] **qx()**: Nice.
+
+[21:25] **qx()**: What about, so for those of you that don't pay attention to the forum or miss some stuff in chats, one of the big things that kushti and community members are working on is the Ergo Book.
+[21:39] **qx()**: And one of the guys that's here is going to be a contributor to it, Grayman.
+[21:44] **qx()**: You there?
+[21:45] **qx()**: You mind chatting about what your contribution to the book's going to be?
+
+[21:49] **Grayman**: Well, it's work in progress, so who knows what it'll end up being, but what I'm working on is more about the monetary side of things rather than the technical side of things.
+[22:00] **Grayman**: And I'm sort of writing about the development of King dollar as it came out of the pre fed era entered the Fed.
+[22:12] **Grayman**: And then post World War two and trying to explain how a paper currency and then eventually a digital currency overtook and then replaced gold and silver and other metals.
+[22:28] **Grayman**: And then I'm trying to tie that back to, you know, how did that happen and what is the magic that they undid and how can we bring that magic back with cryptocurrencies as a way to sort of defeat the king?
+[22:46] **Grayman**: And I'm trying to frame it all around a discussion of silver, because silver coinage was very important to the development of America's money system, all the way from the beginning until around 1965, which was after Bretton Woods.
+[23:08] **Grayman**: So after the dollar was established as the unit of international trade, but before Bretton Woods too, where we officially reneged on the gold standard and told people that they could no longer convert their dollars into gold.
+[23:27] **Grayman**: And so silver, all through this entire process, was always sort of sitting in the background, always sort of the second thought of what is money, and yet there the whole time.
+[23:39] **Grayman**: And the other reason why both gold and silver interests me is just because they are way more decentralized and distributed than any cryptocurrency, including Bitcoin.
+[23:53] **Grayman**: And both of them have larger market caps than Bitcoin.
+[23:57] **Grayman**: So if you talk to a Bitcoin maxi, they will assure you that everything else is going to zero because Bitcoin's first and that's what the network effect does.
+[24:08] **Grayman**: And my counter to that would be, I mean, you haven't even beaten silver yet.
+[24:12] **Grayman**: So and in terms of centralization, you guys have a real problem.
+[24:18] **Grayman**: And in terms of utility, you have enormous problems.
+[24:22] **Grayman**: So we are still in the infancy of the digital money era.
+[24:27] **Grayman**: And it's at this time that the developments, the work that you guys are doing make more difference than anything else.
+[24:36] **Grayman**: So you can go and go on Twitter or X and listen to all the noise of people saying this or that.
+[24:42] **Grayman**: You know, listen to what's that guy, Justin Bonds talking about how Solana is cypherpunk and all that's nonsense.
+[24:49] **Grayman**: And if you put it in context, this is all just noise.
+[24:57] **Grayman**: This is the stuff that a hundred years from now, nobody's going to remember any of that.
+[25:02] **Grayman**: And what they're going to remember is what are the concrete steps that were taken by devs that changed the way that money works and that eventually get adopted because it becomes inevitable.
+[25:16] **Grayman**: It's not about rooting for your team or network effects or any of this or that.
+[25:21] **Grayman**: It is about if you want to be able to achieve this goal, then you have to do these things.
+[25:27] **Grayman**: And Bitcoin did the first two or three steps.
+[25:30] **Grayman**: I mean, it's remarkable and it's come a long way, but there's a lot more than two or three steps that need to happen for it to become money.
+[25:40] **Grayman**: And honestly, it's walking in the wrong direction right now.
+[25:43] **Grayman**: It's following gold.
+[25:45] **Grayman**: And the dollar already beat gold.
+
+[25:51] **Marc the Shark**: It'd be interesting to get your take between the gold and silver battle, so to speak, relative to Bitcoin and AI.
+[25:58] **Marc the Shark**: At the conference, a lot of people are worried about AI, but only in the sense of taking up the electrical capacity of what Bitcoin miners could be turning on.
+[26:08] **Marc the Shark**: Instead, they're making more money with AI.
+[26:10] **Marc the Shark**: In terms of competing for, you know, the resources and things like that, and like, say, machinery, like, should we point our machinery to gold or silver, you know, AI or Bitcoin?
+[26:20] **Marc the Shark**: That'd be kind of an interesting, I suppose, comparison, maybe.
+
+[26:25] **Grayman**: Well, so Warren Buffett's famous for saying that gold is just a shiny rock.
+[26:33] **Grayman**: If I buy it and put it in my safe, at best, it's held its value, but it doesn't do anything.
+[26:41] **Grayman**: And I think it was was it Margaret Mead who said that, you know, people wonder, like, whether or not a group of a small group of people can get together and change the world.
+[26:53] **Grayman**: In fact, that's the only thing that ever does.
+[26:56] **Grayman**: So Warren Buffett and Margaret Mead and most of modern Western society believe that money is not just a chip that you use to trade back and forth between a zero sum game.
+[27:10] **Grayman**: It is a tool that is used to create new things, including new money.
+[27:15] **Grayman**: And so AI corresponds to, it's more like investing in a stock or in something that actually produces changes to the world and then generates income.
+[27:29] **Grayman**: Whereas mining Bitcoin is just getting your diminishing return on a system that is I mean, theoretically gonna go for another hundred years before the emissions are completely zero, but I mean, that's sort of dependent on the concept that the price is gonna keep going up as much as it has, and then eventually having a ludicrous fee market, the so-called security budget problem.
+[27:58] **Grayman**: So you need the money to be flexible, programmable, and to be useful for the creation of new work, of new companies, of new commerce.
+[28:17] **Grayman**: And Bitcoin arguably is going in the wrong direction, but GPU mined coins, which can soak up the extra cycles from AI farms that are idle due to lack of users at the moment, could be quite useful because it would give them a way to still spend their energy that they've already paid for in these giant, I mean, a lot of these data centers are now getting their own power stations to go along with them.
+[28:47] **Grayman**: And so that's a cost and they need to, they need that energy to keep flowing.
+[28:51] **Grayman**: They need to spend that energy and turn it into something.
+[28:55] **Grayman**: Hopefully they're getting paid for changing people's profile pictures to anime, which apparently is the latest excitement.
+[29:04] **Grayman**: But whatever it is, when they're idle for some reason, then it would be cool for them to be able to not only secure a currency network, but also to run the security that's necessary to make that currency network valid.
+[29:22] **Grayman**: To rely on yeah, that's interesting.
+
+[29:30] **Marc the Shark**: I wonder how much idle time there are in these farms that are dedicated AI. They said at the conference not a lot like they're they're always running pretty much. And I was like I was kind of shocked to hear that like they don't have enough capacity. They're suggesting demand is that high that it's always on. Wow.
+
+[29:52] **Grayman**: I'm not sure I believe that, but it wouldn't be buyer's remorse.
+[29:58] **Grayman**: They spent like some ridiculous amount of their pile of cash, like 80, $90 billion, setting up this stuff in Michigan or Wisconsin.
+[30:08] **Grayman**: And it's just an, I mean, it might be true for the guys that you're talking to at this conference running relatively small data centers, but you know, some right now you've got, the competition at the top levels of AI, at the corporate levels of the people that are trying to sell, not to you, not to somebody that's going to tune their own LLM, but to people like my clients that just want to run their law firm or whatever it is and run it more efficiently.
+[30:42] **Grayman**: Microsoft's, whatever it is, Copilot versus Google's Gemini, those are the systems that are going to that are trying to sell to those people and I bet you that there's a huge amount of idle time on all.
+[30:57] **Marc the Shark**: Sure.
+[30:57] **Marc the Shark**: Yeah, totally.
+[30:59] **Marc the Shark**: Yeah.
+
+[31:00] **Grayman**: And that is the vast majority of the GPUs or I guess let's just say AI chips, whatever they're used.
+[31:09] **Grayman**: I guess these are not really GPUs, but not ASICs.
+[31:16] **Marc the Shark**: Right.
+[31:17] **Marc the Shark**: Yeah, they were suggesting like it has to be like a tier three data center has to have 99% uptime because I guess like some of these quant firms people I guess are training their own LLMs and they'll run a new model every morning or at a specific time or they're training and fine tuning as a model for like six to nine months.
+[31:39] **Marc the Shark**: And obviously if you have any interruption in like that six to nine month case, obviously that's devastating.
+[31:45] **Marc the Shark**: We'll probably get sued.
+[31:46] **Marc the Shark**: It's kind of what they're suggesting.
+[31:47] **Marc the Shark**: So it's kind of interesting.
+
+[31:51] **Grayman**: I'm ready for the lawsuits when an AI design bridge or building collapses.
+[31:56] **Grayman**: All the finger pointing is going to go to building, right?
+[32:00] **Grayman**: Oh, jeez.
+[32:02] **Marc the Shark**: I won't be doing that.
+[32:04] **qx()**: Oh, boy.
+
+[32:06] **qx()**: Oh, well, that's pretty cool, Grayman.
+[32:08] **qx()**: We got a quick question in the chat.
+[32:10] **kushti**, do you see the question in the chat?
+[32:12] **Kushti**: Yeah.
+[32:12] **Kushti**: Just to add some notes, I think it's actually quite awesome to write non-technical, but monetary things, monetary theory and practice related.
+[32:33] **Kushti**: Because, well, I think we should be in the space not for tech, but for money, right?
+[32:40] **Kushti**: But not in the sense of this retarded crypto industry.
+[32:50] **Kushti**: So, yeah, it should be about reworking money, right?
+[32:54] **Kushti**: And tech is just tooling after all.
+[32:56] **Kushti**: So, well, if you are here for some tech, then the question is, what this tech is, what for?
+[33:09] **Kushti**: What are you going to do with this tech?
+[33:12] **Kushti**: You cannot just be tech for tech.
+[33:16] **Kushti**: It's just like, I know, maybe be in a hammer for hammer.
+
+[33:25] **Grayman**: Yeah, but it's got to be solid and reliable.
+[33:28] **Grayman**: And in my opinion, open source at the core level.
+[33:35] **Grayman**: Right.
+[33:35] **Grayman**: If not, it won't be money, right?
+[33:37] **Grayman**: Nobody is going to the idea that people trust Solana or any of these other closed source systems.
+[33:43] **Grayman**: The system is insane to me.
+[33:46] **Grayman**: Like, how could they?
+
+[33:49] **Kushti**: Yeah, so yeah, it should be open source for sure.
+[33:52] **Kushti**: But also it should be permissionless, right?
+[33:55] **Kushti**: Because well, it's truly permissionless.
+[34:05] **Kushti**: Right.
+
+[34:06] **qx()**: No payment gateways as far as that goes.
+[34:09] **qx()**: Somebody wants to run something themselves, they can spin up their own node, mine it, and send their own transactions through it.
+[34:17] **qx()**: And nobody can stop you.
+
+[34:21] **Kushti**: Right.
+[34:21] **Kushti**: Yeah.
+[34:21] **Kushti**: And also, yeah, peer-to-peer.
+[34:22] **Kushti**: So it's also doesn't matter a lot because that's a guy that's a cypherpunk.
+[34:31] **Kushti**: fake cypherpunk troll Justin Bond so he's praising Solana and so on.
+[34:39] **Kushti**: Scalable layer one and so on but in fact so all those systems just threw away peer-to-peer architecture, right?
+[34:51] **Kushti**: It's very different story so it's not a big deal to do a system which is operating in a federated way, so peer-to-peer, while a system which has some super nodes, some parts will be peer-to-peer.
+[35:18] **Kushti**: It would have crazy TPS and whatever, but what's the meaning here, right?
+[35:25] **Kushti**: There is no meaning, there is no value.
+
+[35:27] **Grayman**: It calls into question the value of the ledger that is created from such a system.
+[35:33] **Grayman**: Same deal with DAGs.
+[35:35] **Grayman**: I mean, or really any system that allows pruning on the fly or these kind of, well, the compromises that you make by trying to shoehorn high TPS into something because you think that you're going to compete with Visa that way.
+[35:54] **Grayman**: MasterCard, it doesn't work that way.
+[35:57] **Grayman**: What we're trying to do is we're trying to create a global ledger as a baseline and then build on top of that ledger.
+[36:06] **Grayman**: And that's, I mean, how do you do that with a DAG?
+[36:09] **Grayman**: You know, a chain of chains or a mesh or any of these other architectures just seem very, I mean, they would say innovative and certainly they can lead to a lot of speed.
+[36:21] **Grayman**: But I really wonder in the long run whether this, let's just say the security assumptions are not clear to me in those systems.
+
+[36:31] **Kushti**: Oh, yeah, true, true.
+[36:34] **Kushti**: And yeah, so well, I think it's worth to do first some monetary design, some monetary a kind of architecture, and then yeah, tech would follow because we already have well, like cameras and such.
+[36:56] **Kushti**: It's not a problem to use them or to use the solution.
+[37:03] **Kushti**: Yeah, that's the problem.
+[37:05] **Kushti**: should be quite clear what the space is doing.
+[37:10] **Kushti**: It's hiding the problematics of money creating, good money and so on.
+[37:21] **Kushti**: It's going to complete nonsense sometimes.
+
+[37:27] **qx()**: I mean, are there any other chains out there that are focusing on monetary tooling and a new form of peer-to-peer money and finance?
+
+[37:35] **Kushti**: I don't know.
+[37:38] **Kushti**: So, well, there are some quite exciting private cryptocurrencies, right?
+[37:46] **Kushti**: But they're just trying to do cash, right?
+[37:50] **Kushti**: But the question is how how do you produce that cash, right?
+[37:57] **Kushti**: Privacy of payments does matter a lot, but first you need to solve quality of money problem, then privacy of payments.
+[38:10] **Kushti**: It would follow.
+[38:12] **Kushti**: So, yeah, well, it's a different story, still very different.
+[38:16] **Kushti**: And aside of that, yeah, I don't see, unfortunately.
+[38:24] **Kushti**: Well, there are some efforts, but yeah, they are small scale and usually, yeah, well, not complete.
+[38:33] **Kushti**: Right.
+[38:35] **Kushti**: Also, very important.
+
+[38:40] **qx()**: Yes.
+[38:40] **Kushti**: All right.
+[38:41] **qx()**: Someday it'll become sexy.
+[38:42] **qx()**: Yeah, we got a question in chat from Richie.
+[38:47] **qx()**: He says, kushti, can Bitcoin forks like Litecoin and others introduce sub-blocks via a soft fork?
+
+[38:55] **Kushti**: Yeah, actually, I'm in touch a little bit with one Bitcoin Cash developer.
+[39:03] **Kushti**: So we're actually thinking about a little bit similar concept.
+[39:10] **Kushti**: They have even a paper on that.
+[39:12] **Kushti**: It's called Tailstorm.
+[39:15] **Kushti**: And actually, he visited Ergo Platform chat once.
+[39:19] **Kushti**: That's a guy, Bitcoin Cash autist.
+[39:23] **Kushti**: So, yeah, well, sometimes, so yeah, well, it's kind of, I believe very generic solution and it's also similar in some aspects to layers, which is going to be released for Cardano.
+[39:52] **Kushti**: It's some Cardano network upgrade plan.
+[40:00] **Kushti**: And yeah, so for Bitcoin, cash, Litecoin, I believe even for Bitcoin itself, maybe it's possible.
+[40:12] **Kushti**: Something like that.
+[40:15] **Kushti**: Let me think, because they already have somewhat different from early days transactions, block transactions, but to say, propagation mechanism, called compact blocks, right?
+[40:39] **Kushti**: Block is generated they are not selling all the transactions because well they are using some protocol already and it's not that hard to introduce different more efficient there are actually a bunch of papers on how to improve compact blocks for Bitcoin and that's where I've got some ideas for sub-blocks actually, so yeah. The only question is yeah, well rewards I guess how to reward miners?
+[41:24] **Kushti**: It's even harder than a Bitcoin, but maybe solvable.
+[41:28] **Kushti**: I don't know. We need to check carefully.
+
+[41:34] **qx()**: All right, well it's hitting the top of the hour and I have to go to a in real life meeting.
+[41:40] **qx()**: I just want to say that, you know, we've been trying different formats.
+[41:44] **qx()**: I love this format.
+[41:46] **qx()**: I love the fact that community members, Sigmanauts, Grayman, HQ, Mark the Shark come on and chat and give updates.
+[41:54] **qx()**: That's exactly what Ergo is and I think that's ideal.
+[41:59] **qx()**: But I understand people also like the other format, the more straightforward people chatting at you with AMA style formats.
+[42:11] **qx()**: So we'll see.
+[42:12] **qx()**: Keep tuned to the chats and we'll figure out what's going on next week.
+
+[42:16] **Kushti**: Yes.
+[42:18] **Kushti**: So yeah, if there is a demand for some classic format, then next week, maybe there could be four of us again.
+[42:27] **Kushti**: So Joe, you, and me.
+[42:31] **Kushti**: Well, however, the classic may.
+
+[42:37] **qx()**: Why not?
+[42:37] **qx()**: All right, everybody.
+[42:38] **qx()**: Thanks so much for joining HQ, Grayman, and Mark, kushti.
+[42:41] **qx()**: You guys all have a great rest of the day.
+[42:44] **Kushti**: Yeah, see you, gentlemen.
+[42:45] **Kushti**: Yeah, thank you, guys.

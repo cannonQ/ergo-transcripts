@@ -1,0 +1,156 @@
+{
+  "call_date": "2025-02-16",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:45",
+      "question": "Why doesn't Ergo need sub-blocks when other chains are implementing them?",
+      "asker": "community discussion",
+      "answer": "According to kushti, Ergo doesn't need sub-blocks because it already has many financial tools available for experimentation. The existing infrastructure provides sufficient functionality for developers to build and experiment with various financial applications without requiring sub-block implementation.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "sub-blocks",
+        "financial tools",
+        "blockchain architecture"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "04:52",
+      "question": "What new features were added to Nautilus wallet?",
+      "asker": "dev update",
+      "answer": "AnonBR from Team Nautilus added 24-word mnemonic generation support, refactored multiple view components (Add Wallet Index, Create Wallet View, Ledger Connect View), added a new Mnemonic component, and implemented several minor UI fixes and code quality improvements. They're also working on a mobile version.",
+      "responder": "qx()",
+      "category": "wallet",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Nautilus",
+        "mnemonic",
+        "Chrome extension",
+        "wallet"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "06:02",
+      "question": "What's included in the new Ergo client 5.0.25 release?",
+      "asker": "dev update",
+      "answer": "Client 5.0.25 is a recommended update for nodes with extra indices, providing more indexing capabilities. It includes Sigma SDK 5.0.15 with Execute from VAR functionality, BigInt functions, contract template parsing from JSON, box deserialization, and compatibility fixes for sub-blocks implementation.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "node",
+        "indices",
+        "Sigma SDK",
+        "Execute from VAR",
+        "sub-blocks"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "06:55",
+      "question": "What's the current status of Ergo 6.0 and sub-blocks?",
+      "asker": "dev update",
+      "answer": "Ergo 6.0 RC2 is now running on public testnet with voting completed. Sub-blocks implementation is in active development, with first AI tests completed and work ongoing for properly processing sub-blocks coming out of order, delayed transactions, and resolving sub-block forks.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "Ergo 6.0",
+        "sub-blocks",
+        "testnet",
+        "consensus",
+        "forks"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "07:22",
+      "question": "Why do blockchain networks need to balance block times for transaction propagation?",
+      "asker": "implied",
+      "answer": "Ergo core developers chose two-minute average block times as a safety net between being too slow (like Bitcoin) and too fast for proper propagation across nodes. Every transaction needs to propagate to all nodes for consensus and be written into a block for finality, so nodes that are delayed or can't propagate fast enough can cause issues.",
+      "responder": "qx()",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "block times",
+        "propagation",
+        "consensus",
+        "finality",
+        "nodes"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "08:55",
+      "question": "What are GORT and DORT tokens in the Ergo oracle system?",
+      "asker": "dev update",
+      "answer": "GORT (Gold Oracle Reward Token) is the reward token for running Dexy Gold oracle servers, while DORT (Dollar Oracle Reward Token) will be the reward token for running SigmaUSD oracle servers. This creates a pattern where different oracle reward tokens can exist for different assets like oil (ORT) or other commodities.",
+      "responder": "qx()",
+      "category": "tokenomics",
+      "difficulty": "beginner",
+      "related_terms": [
+        "oracle",
+        "reward tokens",
+        "GORT",
+        "DORT",
+        "SigmaUSD",
+        "Dexy"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "11:12",
+      "question": "What special features does NodeView XYZ provide for Ergo ecosystem monitoring?",
+      "asker": "dev update",
+      "answer": "NodeView XYZ added special address and transaction detection for major Ergo protocols including Spectrum DEX, Rosen Bridge, SigmaUSD, and mining pools. It optimized load times with caching ErgoTree to address conversions and is planning pop-ups to display parameters for swaps and cross-chain transfers.",
+      "responder": "qx()",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "NodeView",
+        "transaction detection",
+        "Spectrum DEX",
+        "Rosen Bridge",
+        "monitoring"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "12:51",
+      "question": "What's the difference between Ergo client 5.0.25 and 5.1.2?",
+      "asker": "dev update",
+      "answer": "Client 5.1.2 has identical changes to 5.0.25 but uses RocksDB instead of the default database. RocksDB is more stable and less prone to corruption issues (like when running out of disk space), though it's less compatible with different architectures compared to the standard database.",
+      "responder": "kushti/qx()",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "RocksDB",
+        "database",
+        "node stability",
+        "corruption",
+        "architecture"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "14:19",
+      "question": "How did the recent SigmaUSD oracle update process work?",
+      "asker": "dev update",
+      "answer": "The Oracle operators successfully completed an update ceremony that took about 20 minutes with minimal disruption. The update was minimal but now allows the script to support oracle version 2. The process involved a vote configuration that passed, and operators updated their clients to version 2.",
+      "responder": "kushti",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "oracle",
+        "SigmaUSD",
+        "update ceremony",
+        "voting",
+        "oracle version 2"
+      ]
+    }
+  ]
+}

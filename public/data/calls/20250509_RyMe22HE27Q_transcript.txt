@@ -1,0 +1,1143 @@
+[00:18] **qx()**: Hello and welcome to the Weekly Ergo Proof of Work AMA.
+
+[00:25] **qx()**: With me today, we have the infamous, the famous, the desirable, kushti.
+
+[00:31] **qx()**: How you doing, kushti?
+
+[00:33] **kushti**: I don't know about you.
+
+[00:35] **qx()**: Hang in there.
+
+[00:37] **qx()**: We've just been critiqued here at work.
+
+[00:41] **qx()**: So there's like no students around.
+
+[00:43] **qx()**: Final reviews are pretty much done.
+
+[00:45] **qx()**: We had to turn people away yesterday for a recycling plot and getting bricks because it was too busy.
+
+[00:50] **qx()**: We said, come back some other time.
+
+[00:52] **qx()**: We don't have time to deal with this right now.
+
+[00:56] **qx()**: So I expect some people coming in around noon today to swap some plots for bricks.
+
+[01:01] **qx()**: But yeah, everything is going pretty well.
+
+[01:04] **qx()**: How was your week?
+
+[01:07] **kushti**: Quite busy.
+
+[01:09] **kushti**: There were a couple of releases, 5.0.26 and 5.1.3, so reviewing again 6.0, doing some cleanup and so on, so hopefully we'll be done by the end of the week.
+
+[01:29] **kushti**: And then, yeah, we can propose watching to the polls, maybe from, I don't know, like end of May, June 1st, then, yeah, well, in three months we will. Whether I have 6.0 activated or not.
+
+[01:53] **qx()**: kushti, how does that work?
+
+[01:54] **qx()**: How does that voting work for the miners?
+
+[01:57] **qx()**: The miner pools have to change a config upgrade to that node and then that's it?
+
+[02:04] **kushti**: Yeah, so they need to specify the words, yeah, we have a special parameter in config.
+
+[02:15] **kushti**: So for some soft fork, well, miners asked for some simplified versions, so we delivered like two versions during release, one with the option is set to on and another is set to off.
+
+[02:39] **kushti**: But I don't really know.
+
+[02:43] **kushti**: So that was around 5.0 voting probably.
+
+[02:47] **kushti**: So we had that.
+
+[02:48] **kushti**: And then, yeah, well, most of miners indicated the vote for 5.0 soft fork.
+
+[03:00] **kushti**: It was made a default option in some release because, yeah, well, the voting is going on for three months.
+
+[03:09] **kushti**: But, yeah, well, currently it would be quite messy, so probably there will be just one version.
+
+[03:18] **kushti**: Well, anyway, there will be two versions, right, so with the level DB and the RocksDB.
+
+[03:24] **kushti**: So 6.0, 6.0.
+
+[03:28] **kushti**: one and then yeah well at some point there will be a version with sub-block support six points I don't know maybe five but yeah I mean it's a lot of things in the pipeline so about sub-blocks well working on efficient propagation of a new block
+
+[03:56] **kushti**: because currently peer-to-peer logic is about using the same mechanism so well input blocks sub-blocks are propagated when found but when a full block is generated found then yeah it's propagated fully like it's the case now right with the current client so well
+
+[04:25] **kushti**: There is need to switch to announcing just transactions not broadcasted before, just few transactions usually.
+
+[04:38] **kushti**: Two in most cases transactions along with header and that will be like super efficient announcement of a new block.
+
+[04:51] **kushti**: Then we can start testing maybe even in the public testnet at some point.
+
+[04:59] **kushti**: So first probably some devnet, maybe public devnet.
+
+[05:03] **qx()**: Are you still looking for people to run public devnet?
+
+[05:09] **kushti**: Let's see, so there is need ideally for a few miners, right, to see competition between miners.
+
+[05:19] **kushti**: But even in the public test, we have one miner, right?
+
+[05:23] **kushti**: Who could be that guy?
+
+[05:29] **kushti**: Yeah, it would be good to have a few miners in the public testnet around the rollout.
+
+[05:38] **kushti**: Maybe even trying a mixed option when some miners are on a sub-block.
+
+[05:46] **kushti**: Well, also sub-blocks supporting clients and other miners.
+
+[05:56] **kushti**: It would be good to test that mixed option because probably, well, it would be quite realistic for the mainnet deployment, quite realistic scenario.
+
+[06:09] **kushti**: Then, yeah, so for Dexy here, well, I'm rechecking contracts and deploying one by one in the mainnet.
+
+[06:21] **kushti**: Then what do we have else?
+
+[06:25] **kushti**: Also, a lot of talks are continuing, well, different talks with entities interested in tokenization for real-world assets, right, and building, then insurance schemes,
+
+[06:49] **kushti**: And like one design forum and I'm a monitor the tools rights.
+
+[06:54] **kushti**: Well, I'm not even some governance in Africa with the idea to provide funding for small and medium sized cooperatives because well in many cases.
+
+[07:13] **kushti**: So the land is owned by some family, right, or small cooperatives.
+
+[07:23] **kushti**: Well, they simply don't have funding for many corporations.
+
+[07:28] **kushti**: So, yeah, well, it would be interesting to apply, well, the tool we have for such setting.
+
+[07:38] **kushti**: Also, well, talking about, well, mesh networks, right, and well, having digital cash available right even when there is no internet let's say for some time right so when you may have some local payment group and then yeah well those settlements if needed using the blockchain
+
+[08:18] **kushti**: Maybe something like that would be useful for the brick, right?
+
+[08:23] **kushti**: But, I mean, some time is needed for, well, implementation and even considering the proper architecture.
+
+[08:33] **kushti**: Then, yeah, well, also, so we published a contract for on-chain reserves supporting a lot of off-chain options.
+
+[08:50] **kushti**: on the forum, and well, one friend of mine is interested in using that to develop a system rewarding developers, right?
+
+[09:03] **kushti**: So the developing communities, well, in open source setting.
+
+[09:13] **kushti**: So you first may contribute, right, to get maybe some just, I don't know, reward points, right, but then, yeah, this community may find some sponsor to do settlements to contributors or just choosing contributors or, well, et cetera, using, well, the blockchain.
+
+[09:42] **kushti**: So something like that.
+
+[09:45] **kushti**: So yeah, it's quite interesting to find, well, the use cases for blockchain.
+
+[09:54] **kushti**: So I believe it should be about Web3, but not that Web3, which is considered now in the blockchain industry.
+
+[10:05] **kushti**: When some use case and then issue token and then hype and then run.
+
+[10:17] **kushti**: Yeah.
+
+[10:17] **kushti**: And yeah, claim that it's web three and it's revolutionary because, I don't know.
+
+[10:27] **kushti**: So I spoke to many people asking what does that mean of Web3.
+
+[10:32] **kushti**: So even the initial article by Gavin Wood was quite fuzzy, right?
+
+[10:38] **kushti**: And well, what people have in mind now is totally incomprehensible.
+
+[10:45] **kushti**: Then, yes, to me, proper web3 is about, I believe, 99% of use cases.
+
+[11:00] **kushti**: There is no need for tokens, right, in the first place, also well.
+
+[11:05] **kushti**: Mostly, there is no need for blockchain, so it should be about mesh networks, Nostr services, IPFS services, distributed decentralized peer-to-peer systems.
+
+[11:27] **kushti**: Well, mostly off-chain payment systems.
+
+[11:34] **kushti**: Well, using blockchain is just a global settlement layer, which is quite close to the original ideas, I believe, of Hal Finny, for example, from 2010.
+
+[11:52] **kushti**: But yeah, I mean, these days, it's mostly something different and it's hard to understand what the people are doing most of the time.
+
+[12:06] **kushti**: All right.
+
+[12:09] **kushti**: So, but yeah, so I think, well, where tokens are needed is, well, real-world assets tokenization, right?
+
+[12:24] **kushti**: And, well, algorithmic stable coins, for example, for insurance schemes and so on, right?
+
+[12:35] **kushti**: And so on.
+
+[12:39] **kushti**: So, yeah, well, busy, as you know, and yeah, so.
+
+[12:48] **qx()**: Hal Finny's birthday was on the fourth, I think, kushti?
+
+[12:50] **qx()**: We just had Hal Finny's birthday on the fourth, it would have turned. How old would he have been? 60 something.
+
+[12:58] **qx()**: Let's see.
+
+[13:01] **qx()**: He's 59.
+
+[13:01] **qx()**: Hal Finny's birthday was on May 4th.
+
+[13:04] **qx()**: 60.
+
+[13:06] **qx()**: You mentioned health, and I just remembered that it's his birthday.
+
+[13:09] **qx()**: We just passed his birthday.
+
+[13:11] **kushti**: Oh, really?
+
+[13:13] **kushti**: Yeah.
+
+[13:15] **kushti**: I didn't know even, to be honest.
+
+[13:20] **kushti**: Yeah, then some talks are going on in regards with blockchain development after 6.0, right?
+
+[13:35] **kushti**: One week ago, we started discussions about Sigma chains and so on.
+
+[13:40] **kushti**: So yeah, we'll discuss these things.
+
+[13:45] **qx()**: kushti, I'm wondering about the nodes, right?
+
+[13:49] **qx()**: Should we start, at least on GitHub, should we start referencing the rock database and what's the other database that the original node used?
+
+[14:01] **kushti**: Level, levelDB.
+
+[14:03] **qx()**: So should we start at least naming the files for the node so that people know that the level DB is more compatible with like maybe older devices or Raspberry Pis and the rock database should be the node of choice considering it's love of SSDs and it's a bit snappier kind of thing?
+
+[14:25] **qx()**: Is that a possible thing we can do?
+
+[14:31] **kushti**: It would be good to compile a table.
+
+[14:34] **kushti**: Maybe we did that even at some point, like which platform supported.
+
+[14:40] **kushti**: So for RocksDB, the issue is that less platforms supported.
+
+[14:48] **kushti**: But yeah, the overall stability is better, it seems right.
+
+[14:55] **qx()**: Yeah, I was running RocksDB on a side project that I'm doing.
+
+[15:00] **qx()**: And it's crashed.
+
+[15:03] **qx()**: The computer has crashed on me many, many times over the past couple of weeks as I increased the RAM load on it.
+
+[15:11] **qx()**: And zero issues with RocksDB.
+
+[15:13] **qx()**: The database comes right back up, continues finding blocks and good.
+
+[15:17] **qx()**: If this were LevelDB, it probably would have required a resync of the node already.
+
+[15:22] **qx()**: but it's been fantastic with RocksDB and getting this machine stable.
+
+[15:28] **kushti**: Yeah so it's more stable and yeah I think it's also generally much better probably for SSD.
+
+[15:46] **kushti**: storage and so if you're using HDD maybe level DB is more efficient even right so well level DB is quite popular database and yeah it's used in Bitcoin core right and well the funny story is that we even tried to do our own database
+
+[16:16] **kushti**: We did one back in IOG, so it was called IODB.
+
+[16:25] **kushti**: So it was a quite specialized database for blockchains.
+
+[16:33] **kushti**: So after that, there were several other efforts, but that was the first one.
+
+[16:38] **qx()**: Why build from scratch, kushti?
+
+[16:40] **qx()**: Why not just optimize and fork something already out there that's open source?
+
+[16:45] **kushti**: Yeah, but the guy who worked on that, he built some quite well-known databases in the Java world, right, so first he worked for H2 and yeah, they also have some key value database and then yeah, he worked on some kind of low-level database, MapDB.
+
+[17:17] **kushti**: Jan Kotik was the guy and so yeah, well, it was his own choice, right?
+
+[17:26] **kushti**: Because he is very proficient in that database engines and so on.
+
+[17:34] **kushti**: But yeah, it wasn't quite finished, right?
+
+[17:43] **kushti**: And yeah, unfortunately, the guy wasn't stable also.
+
+[17:49] **kushti**: He didn't deliver major MapDB releases.
+
+[17:57] **kushti**: He didn't finish IODB as well.
+
+[18:00] **qx()**: So at some point we switched to... Did he go on to work at Ethereum or Solana, kushti?
+
+[18:06] **kushti**: I don't know what he's doing.
+
+[18:10] **kushti**: But yeah, so he's a highly professional guy.
+
+[18:16] **kushti**: working on database engines, so I'm not sure about Solana or whatever.
+
+[18:23] **qx()**: That was a joke, kushti.
+
+[18:25] **kushti**: All right.
+
+[18:28] **kushti**: Then we switched to LevelDB, which is used in Bitcoin Core.
+
+[18:36] **kushti**: And RocksDB is basically some fork of LevelDB, which was quite abandoned at some point.
+
+[18:47] **qx()**: It'd be nice if there was some sort of conversion tool, kushti, that somebody wanting to switch over to RocksDB wouldn't have to resync an entire node.
+
+[18:55] **qx()**: Granted, it doesn't take too long, a day or so, depending on your connection, I guess.
+
+[19:03] **qx()**: But still, it'd be nice to push a button, do a conversion, and be up and running on rocks from level database.
+
+[19:09] **qx()**: But I understand it's probably not a high-trafficked request.
+
+[19:16] **kushti**: Yeah, I mean, would be good, but yeah, well, there is no bandwidth for that for developers.
+
+[19:26] **kushti**: And yeah, well, we need, for all more developers, well, in regards with sigma chains and so on right well even for sub-blocks related development and well other things so after 6.0 I think well there is value in extending
+
+[19:51] **kushti**: capabilities of contractual layer to support different execution environments.
+
+[20:02] **kushti**: Currently the Ergo chain is supported so that would be good to make possibility to extend easily to other blockchains as well as off-chain execution environments.
+
+[20:18] **kushti**: So that was an idea which we discussed a lot back in smartcontract.com days along with Sergey Nazarov and Steve Ellis right so to do some well tooling to execute off-chain contracts right well
+
+[20:49] **kushti**: maybe in some case it makes sense.
+
+[20:53] **kushti**: And well, with the ErgoTree, it's even possible to do contracts which can be executed off-chain only at a certain point and then, yeah, they can be submitted to blockchain as well.
+
+[21:14] **kushti**: Probably, well, it would be quite interesting, right?
+
+[21:20] **kushti**: It's not possible with EVM and other...
+
+[21:25] **qx()**: So in the UTXO set, kushti, those kind of things would work where the collateral would be essentially, or the value would be locked into a contract that could not be removed until you brought forward whatever happened off-chain essentially so right before or year participants satisfy some condition in off-chain environments right so the collateral can't go anywhere until the off-chain code is brought back on and checked and signed online essentially to show proof that either it transferred or some was taken from it or that kind of thing so that's pretty damn cool but then so then the question kushti is how do
+
+[22:12] **qx()**: So you need some sort of trusted application, right?
+
+[22:14] **qx()**: Offline.
+
+[22:15] **qx()**: So that if you and I are exchanging some sort of offline contract, how do I know?
+
+[22:19] **qx()**: How do I verify that it's happening and I'm really getting what I'm getting.
+
+[22:26] **kushti**: Yeah.
+
+[22:27] **kushti**: So, but what do you need to... In a minimal case, it's a trusted context to do execution again.
+
+[22:38] **kushti**: So you can do execution in peer-to-peer setting even, but you need for some trusted context, which is actually not different from using oracles on chain.
+
+[22:50] **kushti**: Just more efficient and private probably.
+
+[22:58] **kushti**: more efficient private so on on blockchain you are just finalizing right financial agreements for financial outcomes right you fix them and yeah off-chain you need for some trusted context provider basically right but that's not different from oracle
+
+[23:21] **kushti**: So something like that, but yeah, well, there is need to find time and finalize all those thoughts.
+
+[23:29] **kushti**: And yeah, well, currently quite busy with other things.
+
+[23:37] **kushti**: But yeah, well, I think it would be quite interesting.
+
+[23:42] **kushti**: And by the way, well, chain link 2.0 papers.
+
+[23:49] **kushti**: Quite about that, right.
+
+[23:52] **kushti**: Actually, it's mostly about, well, ideas we discussed back in smartcontract.com days back in 2014, 2015.
+
+[24:08] **kushti**: So, yeah, because there was no factors, right, unfortunate factors like Ethereum network.
+
+[24:18] **kushti**: So, well, there was possibility to be concentrated on some real things.
+
+[24:30] **kushti**: and demands, but yeah, well, it's probably oriented towards the needs of big corporations and so on.
+
+[24:39] **kushti**: And well, I think, well, you can find well source of trusted context in much smaller environments, right?
+
+[24:54] **qx()**: Right, so you could see community organizations offering a bank of trusted authorizations of these contracts or holders of this, correct?
+
+[25:05] **kushti**: Right, yeah, so it could be a small-scale environment.
+
+[25:13] **kushti**: Well, trust maybe is not so big question, right?
+
+[25:20] **kushti**: Because, well, in small community, well, big trust is usually not an issue, right?
+
+[25:28] **kushti**: And in opposite, so when it's some big system, well, it's hard to get trust, right, to anybody.
+
+[25:42] **kushti**: All right.
+
+[25:43] **qx()**: Speaking of devs, kushti, are you going to join on the AI, ErgoHack 10?
+
+[25:52] **kushti**: I need to check, actually.
+
+[25:54] **kushti**: It depends on, yeah, sub-blocks, developments, and 6.0.
+
+[26:04] **kushti**: So, well, if certain milestones will be met, then probably, yeah.
+
+[26:14] **kushti**: Let's see.
+
+[26:19] **kushti**: So it's starting on the May 20th, right?
+
+[26:23] **qx()**: I believe so. Yep. You got it.
+
+[26:27] **qx()**: Yep, they've got the Ergo, just go to ErgoHack.io for people watching and interested and they've got the apply here button as well as an explanation of AI on the Ergo blockchain.
+
+[26:40] **qx()**: So yeah, I don't know, I don't know if I have time to join, but it's definitely ways that I've seen, what's it called?
+
+[26:52] **qx()**: There's some stuff in the background happening that one of the developers is working on that you guys haven't seen in a while that uses AI, and I think they're going to join.
+
+[27:01] **qx()**: But there's so much opportunity even for simple stuff, like using AI for auto-generation of artwork.
+
+[27:11] **qx()**: and things like that as simple as that, baking that into some sort of front-end NFT development that I've seen being worked on.
+
+[27:20] **qx()**: That's pretty cool.
+
+[27:21] **qx()**: So I'm looking forward to what's coming up with here.
+
+[27:24] **qx()**: I know Mark the Shark does a lot with MCPs and AI to help you do coding as well as ping things on the blockchain.
+
+[27:34] **qx()**: So hopefully we'll see some of that stuff show up in ErgoHack.
+
+[27:38] **qx()**: Because I mean, one of the big pain points that I run into here for casual developers, or not even developers, project leaders, right?
+
+[27:47] **qx()**: People running things like Bulvar, GreasyCex, they need ways of airdropping and pulling the chain that, sure, airdrop tools are helpful, but what if they want to know exactly who's holding what and how long they've been holding it for and those kind of things.
+
+[28:06] **qx()**: So there's a lot of opportunity for those kind of AI toolings that can query the blockchain with zero dev knowledge and really give you back what you want.
+
+[28:16] **qx()**: So yeah, looking forward to that.
+
+[28:19] **qx()**: But kushti, I wanted to talk about Rosen's treasury proposals.
+
+[28:26] **qx()**: Have you seen those come across the line?
+
+[28:29] **kushti**: Yeah, but yeah, so what's...
+
+[28:34] **qx()**: So Joe snuck out four treasury proposals.
+
+[28:39] **kushti**: Yeah, so what are you finding interesting here?
+
+[28:42] **qx()**: Yeah, so I was looking at treasury proposal three.
+
+[28:44] **qx()**: So one of the things I talked about a couple of weeks ago was, what's it called? getting listed on Kraken right we were dealing with talking directly to Dave then there was an opportunity I spoke about of a kind of a back door entrance I'll let Mark I'll let Glasgow talk more on the back door entrance as he's gotten some more info on that I'm not very
+
+[29:13] **qx()**: I don't think it's a great option, but we'll see what he says on that.
+
+[29:20] **qx()**: But anyway, Rosen Proposal 3 deals with this kind of thing by supporting SPOs.
+
+[29:28] **qx()**: A lot of funds came from, what's it called, catalysts on Cardano.
+
+[29:34] **qx()**: And the idea is that let's, Rosen can kind of give it back, but at the same time, and more importantly, really bolster ERG, Rosen ERG adoption on Cardano.
+
+[29:44] **qx()**: So what that does is twofold, right?
+
+[29:46] **qx()**: If Rosen is allowing some sort of HODL game or SPO rewards in Rosen ERG based on transactions in Rosen,
+
+[29:57] **qx()**: as well as Rosen proposal one which bolsters liquidity quite a bit in all the pools to encourage what's it called arbitrage across and moving across a bridge.
+
+[30:11] **qx()**: So think of proposal one, we're going to bolster liquidity so that we encourage swapping and nobody experiences losses or very much when they do that.
+
+[30:21] **qx()**: Proposal number three, we skip to where that actually rewards people for holding that Rosen ERG.
+
+[30:26] **qx()**: And what that does is if you remember from a couple of weeks ago, one of the requirements, soft requirements that Kraken was giving us was thousands of holders, 10,000 holders to be exact around that target, as well as a decent amount of volume on the chain, which I think we already have on Cardano.
+
+[30:47] **qx()**: So what Rosen Treasury Proposal 3 does essentially is gets Rosen ERG into a lot of people's wallets, so that'll take care of the first issue there, as well as encourages swapping across the bridge.
+
+[31:01] **qx()**: So I think they're really cool proposals.
+
+[31:03] **qx()**: They're out on, again, they're the GARD proposals.
+
+[31:07] **qx()**: But I know a lot of you are Sigmanauts.
+
+[31:09] **qx()**: And since Sigmanauts own one of the guards, it'll be a Sigmanaut votes first to see what the Sigmanaut guard will actually vote for.
+
+[31:19] **qx()**: So a lot of you are involved in Sigmanauts and have that power to make that decision on what the Sigmanaut guard does.
+
+[31:27] **qx()**: I encourage you to read proposals one through four.
+
+[31:29] **qx()**: I think they're all pretty good proposals brought forth by Armeanio.
+
+[31:34] **qx()**: And think of it, don't think of it as in a way as, oh, you know, we're giving away, you know, treasury money that the Sigmanauts earned essentially, or any of the guards earned.
+
+[31:44] **qx()**: Think of it as we're utilizing funds we didn't have before.
+
+[31:48] **qx()**: essentially given to us by running a guard service which which i've been running so no skin off your backs guys and then we can take these funds and actually do something good to either give us help us get us listed on kraken
+
+[32:06] **qx()**: get adoption of Rosen ERG, bolster the liquidity pool so we can see more larger $50,000, $60,000 transfers between pools without the worry of slippage.
+
+[32:17] **qx()**: And that, in fact, will eventually bolster the watcher.
+
+[32:22] **qx()**: payouts.
+
+[32:23] **qx()**: So then we'll get more watchers and we'll get more interest.
+
+[32:25] **qx()**: We'll get more people holding Rosen.
+
+[32:26] **qx()**: We'll get more people locking up ERGs, locking up Rosen.
+
+[32:30] **qx()**: It all is a well-thought-out strategic cascading effect to get funds locked, to get funds to create more wallets for people in other ecosystems.
+
+[32:41] **qx()**: So read them carefully with that lens on and I think you might be swayed by Joe's writings and musings and proposals.
+
+[32:52] **qx()**: That's the short of that, kushti.
+
+[32:54] **kushti**: All right, yeah, so I've checked the proposals for all of them.
+
+[33:01] **qx()**: You read them right now in three minutes.
+
+[33:02] **qx()**: Perfect, kushti.
+
+[33:03] **kushti**: No, no, no.
+
+[33:04] **kushti**: So yeah, read the first three on the second day probably, and yeah, the fourth one just immediately.
+
+[33:13] **kushti**: So yeah, I think it's much needed.
+
+[33:16] **kushti**: Right, right.
+
+[33:17] **kushti**: Develop liquidity around rights.
+
+[33:19] **qx()**: Not only, but the fourth one, kushti, is specifically injecting funds for development, right?
+
+[33:24] **qx()**: Sigma Chains, Rosen Bridge, and contract enhancements for Ergo Dex.
+
+[33:31] **qx()**: So, I mean, they're literally diverting right back into the development of Ergo for that.
+
+[33:36] **qx()**: So, it's like a win-win across the entire ecosystem, I feel.
+
+[33:41] **kushti**: Yeah, yeah.
+
+[33:43] **kushti**: Well, it's, it's needed to increase liquidity rights.
+
+[33:50] **kushti**: Yeah.
+
+[33:50] **qx()**: Yeah.
+
+[33:51] **qx()**: Yep.
+
+[33:51] **qx()**: A hundred percent.
+
+[33:53] **kushti**: The question is how to do that.
+
+[33:55] **kushti**: Right.
+
+[33:56] **kushti**: And in the environments where, well, no one is controlling, the, the ecosystem, right.
+
+[34:06] **kushti**: It's.
+
+[34:11] **kushti**: But then, yeah, well, it's, I think, quite reasonable step forward.
+
+[34:22] **qx()**: All right.
+
+[34:22] **qx()**: Let's do some questions, kushti.
+
+[34:25] **qx()**: Sound all right.
+
+[34:26] **kushti**: Yeah.
+
+[34:27] **qx()**: All right.
+
+[34:28] **qx()**: Let's see.
+
+[34:31] **qx()**: All right, we've got a question from Ursa Minor, kushti.
+
+[34:34] **qx()**: Is BASIS an extension of ChainCash to encourage centralized systems to provide standard notes, blockchain banking?
+
+[34:42] **qx()**: Is this the beginning of double entry accounting methods using blockchain?
+
+[34:47] **kushti**: Yeah, so it's similar to ChainCash.
+
+[34:51] **kushti**: And basically, the contract is a modification of ChainCash reserve contracts.
+
+[35:00] **kushti**: Maybe, yeah, that could be done more in future, right?
+
+[35:09] **kushti**: So, for example, to have on-chain cash node, which is backed by a few parties and then, well, also used as a reserve even for off-chain payments, right?
+
+[35:29] **kushti**: But yeah, currently, well, the approach is to use modified reserve contract support of chain notes with no any requirements basically to the notes aside of being assigned.
+
+[35:47] **kushti**: by a reserve provider as well as some entity also, which is tracking of chain payments, to simplify the issues of tracking.
+
+[36:01] **kushti**: Even that part could be missed, so maybe in some environments there is no need for this tracker.
+
+[36:12] **kushti**: Signature, but yeah, I think in most cases it would be needed, right?
+
+[36:24] **kushti**: Yeah, well, it's true, it's a similar approach to ChainCash, but yeah, well, now just one reserve provider, but then yeah, well, off-chain, you can build maybe a system with, well, backing from multiple reserves, right?
+
+[36:49] **kushti**: For example, having some trusted tracker.
+
+[36:53] **kushti**: which is collecting signatures from multiple reserves, but provides only a single signature during redemption, then discarding other requests.
+
+[37:07] **kushti**: And so on.
+
+[37:09] **kushti**: So, yeah, well, the main idea is to use it in environments where there are some trust rights off-chain, like community currencies.
+
+[37:28] **kushti**: Yeah, maybe these developer communities, right, and so on.
+
+[37:34] **kushti**: So, well, it's still to be analyzed, right, for different security threats, attacks, and so on.
+
+[37:48] **kushti**: But, well, with some trust in off-chain, I think it could be used right now.
+
+[37:57] **qx()**: What happens if I guess with a ChainCash, let's say, you know, cause you can stack collateral into ChainCash, right?
+
+[38:04] **qx()**: As it moves along, you can add and subtract different collaterals into ChainCash.
+
+[38:10] **qx()**: So what happens if, you know, there's... What happens in the market if you find out that one of these trusted entities is not trusted anymore?
+
+[38:21] **qx()**: These ChainCash notes all of a sudden lose quite a bit of value in collateral, no?
+
+[38:26] **qx()**: Almost like a subprime mortgage backing crash?
+
+[38:30] **qx()**: where all of a sudden all these ChainCash notes that have been at least touched or tainted or included with perhaps a bad, a malicious actor, a backer, would lose value pretty quickly, right?
+
+[38:42] **kushti**: Yes.
+
+[38:43] **kushti**: So, you know, in ChainCash, you can issue notes without any backing, right?
+
+[38:48] **kushti**: So then it's...
+
+[38:49] **qx()**: Right, right.
+
+[38:49] **kushti**: purely trust-based.
+
+[38:52] **kushti**: And then, yeah, well, it's up to you whether to accept such notes or not.
+
+[38:57] **kushti**: But yeah, if you accept them, then yeah, well, you are getting all the trust issues.
+
+[39:02] **qx()**: Right, right, right.
+
+[39:03] **kushti**: Well, it's just your responsibility.
+
+[39:06] **kushti**: But what's good here, I think, is that no one is enforced to trust.
+
+[39:13] **kushti**: So there are very simple protocol rules and that's the only thing you have to trust.
+
+[39:25] **kushti**: Well, unlike, for example, complex stable coins, algorithmic stable coins protocols, to the best of my observations, people just trust, right?
+
+[39:41] **kushti**: That's, I mean, they are safe, but they have no idea how it works either.
+
+[39:45] **kushti**: So yeah, no, I, no idea.
+
+[39:47] **kushti**: How does it work actually?
+
+[39:50] **kushti**: So, here, rules are simple and, then, yeah, it's up to you, but you are not enforced, right?
+
+[39:57] **kushti**: Unlike, the stable coin protocols.
+
+[40:02] **kushti**: Yeah, well, every participant has freedom to accept or not.
+
+[40:09] **kushti**: And then, yeah, well, certain... issues are possible and maybe even collapse of certain contours rights and ChainCash powered economies.
+
+[40:26] **kushti**: But the whole economy I believe still would be okay, right?
+
+[40:34] **kushti**: So in some sense, it's fragile.
+
+[40:39] **kushti**: Designs, well, unlike, you know, well, economies where it isn't forced to accept, well, instruments.
+
+[40:52] **kushti**: You may not like, well, for example, government issued debt instruments such as fiat currency rights.
+
+[41:03] **kushti**: So for conservative players it's always possible to stay on the ground to avoid failures.
+
+[41:22] **qx()**: kushti, I wonder if there's a subversion of collateral you could enter into the ChainCash contract that would act as an insurance, essentially.
+
+[41:34] **qx()**: So I know all collateral is an insurance, right, in this instance.
+
+[41:38] **qx()**: But specifically, an entity that could be tracked as a single entity that would be providing insurance to ChainCash notes that would also include liquidity or, sorry, collateral.
+
+[41:52] **qx()**: And then you essentially could track defaults on chain.
+
+[41:57] **qx()**: So you could track every time that this insurance policy was actually spent.
+
+[42:03] **qx()**: And then you could track and judge and have a metric for trust of collateralizing institutions that were defaulting or failing to provide the trusted collateralization.
+
+[42:16] **qx()**: So let's say you and I enter a contract and there's no collateral, right?
+
+[42:20] **qx()**: So I trust that you're giving me a note and I trust the value that you've verbally or contractually attached to it, but there's no collateral.
+
+[42:28] **qx()**: We could insert some collateral from an insurance company, per se, and then If you failed to deliver, if I wanted to cash out, you failed to deliver, that insurance company would pay that.
+
+[42:40] **qx()**: And then on Shane, it would be shown that you were in default, essentially.
+
+[42:43] **qx()**: So now we know that the trusted bank of kushti has defaulted X amount of times and insurance collateral has been redeemed this many of times.
+
+[42:52] **qx()**: So there would be a metric online to be able to measure that kind of thing.
+
+[42:56] **kushti**: I think that's possible.
+
+[42:59] **kushti**: The issue is that, you know, what constitutes default, right?
+
+[43:04] **kushti**: So, well, the default is when, so your default, for example, right, is when all the notes issued by you are not accepted by all the, well, agents, right, in the economy.
+
+[43:22] **kushti**: But you cannot probably say with confidence that notes are not acceptable because, well, historically, there were examples when currencies of failed central banks continued to be used.
+
+[43:46] **kushti**: For example, even 30 years after failure of central bank of Somali.
+
+[43:57] **kushti**: So the notes of non-existing central bank still being used, right?
+
+[44:10] **kushti**: Because, well, it's still the best option, right?
+
+[44:22] **kushti**: So yeah, I mean, it's hard to say what does default mean.
+
+[44:26] **qx()**: I gotcha.
+
+[44:27] **kushti**: Especially if there are no reserves, right?
+
+[44:31] **kushti**: So if it's truly...
+
+[44:32] **qx()**: Right, right.
+
+[44:33] **kushti**: So, and, well, even in the world of DeFi and so on, so, some people are still trading, these, classic, Terra Luna, right?
+
+[44:45] **kushti**: So they rename the original coins to classic.
+
+[44:51] **qx()**: You know, I love that.
+
+[44:52] **qx()**: I love that mentality.
+
+[44:53] **qx()**: They're like, they're like, it's only a hundred bucks.
+
+[44:55] **qx()**: I'll just throw a hundred bucks in and it might make me a millionaire.
+
+[44:58] **qx()**: It's like,
+
+[45:01] **kushti**: Right.
+
+[45:02] **kushti**: So do we have defaults there or not?
+
+[45:07] **kushti**: Really?
+
+[45:08] **kushti**: So it's hard to say, right?
+
+[45:09] **qx()**: Yeah, that's a good point.
+
+[45:11] **kushti**: People are still trading failed stable coins, right?
+
+[45:15] **kushti**: Buying and selling them like one dollar for two cents.
+
+[45:25] **qx()**: Oh, boy.
+
+[45:26] **qx()**: All right.
+
+[45:26] **qx()**: We got another question.
+
+[45:27] **qx()**: It looks like the big 3D is in a good mood today because the markets are green, I guess.
+
+[45:34] **qx()**: So he's got a question, kushti.
+
+[45:37] **qx()**: It says, can you please provide a breakdown of next steps for sub-blocks?
+
+[45:41] **qx()**: I guess you already kind of answered that.
+
+[45:44] **qx()**: Is there an ETA when they can expect two-second transactions to go live?
+
+[45:48] **qx()**: Maybe on testnet.
+
+[45:49] **qx()**: When on testnet, you think we can start seeing two-second transactions?
+
+[45:55] **kushti**: oh so i don't know maybe next week even so it's just like some some changes right which are not quite predictable i mean what's ETA there but yeah they're not
+
+[46:21] **kushti**: They should be so big, right?
+
+[46:24] **kushti**: So, well, let's try to roll out something maybe next week.
+
+[46:32] **kushti**: So, yeah, it was possible to roll out things even a few days before, but, you know, the point is when you're deploying peer to peer protocol, which is a subject to change.
+
+[46:56] **kushti**: So those changes would be painful, right?
+
+[46:59] **kushti**: So it's, it's better to deliver some finalized more or less version.
+
+[47:04] **kushti**: But, yeah, I don't know.
+
+[47:06] **kushti**: So if, that's not a big issue.
+
+[47:10] **kushti**: So for example, if we are going to launch some public devnet with an agreement that it could be shut down, like in two, three weeks, then yeah, I mean, we can do that today even.
+
+[47:27] **kushti**: Why not?
+
+[47:29] **kushti**: So that depends on deployment scenario.
+
+[47:33] **qx()**: All right.
+
+[47:34] **kushti**: So yes, still a lot of changes are possible.
+
+[47:38] **kushti**: And well, those which are planned for peer-to-peer layer, so it's better to finalize things before deployment.
+
+[47:52] **kushti**: If we are talking about backwards compatibility, So some need for it, but if there is no any need for backwards compatibility, we can do deployments.
+
+[48:08] **qx()**: Well, it's a little bit about the fast and loose or, or slower and correct essentially method.
+
+[48:15] **qx()**: So that's understood.
+
+[48:17] **kushti**: Yeah.
+
+[48:18] **kushti**: But, so usually, it's, somewhere in between, right?
+
+[48:23] **kushti**: So it's about testnet.
+
+[48:25] **kushti**: So yeah, we, we, had 6.0 deployments when it was more or less finalized, but well, Even after the initial deployment, there were some breaking changes, actually.
+
+[48:41] **kushti**: And, well, it was okay for the network just because, well, it's not trivial to break the network, right, but still possible with the changes done.
+
+[48:54] **kushti**: And yeah, so in regards with peer-to-peer layer, it's quite complicated, but yeah, well, if it's about some public devnet to be alive for two or three weeks,
+
+[49:11] **kushti**: Then, yeah, we can do deployment just today.
+
+[49:17] **kushti**: So let's see.
+
+[49:19] **kushti**: We can set some day, right, and deploy whatever possible by the day.
+
+[49:32] **kushti**: So it would be whether devnet for two weeks or maybe something more stable.
+
+[49:38] **kushti**: That also could be an option if people are willing to test something.
+
+[49:45] **qx()**: We can just CPU mine this public devnet anyway, right?
+
+[49:49] **qx()**: No need to point GPUs to it.
+
+[49:52] **qx()**: Keep the difficulty low.
+
+[49:53] **kushti**: Yeah.
+
+[49:54] **kushti**: Anyone can do that actually right now, probably using the branch.
+
+[49:58] **kushti**: So I didn't test the latest commits, but should be okay.
+
+[50:03] **kushti**: So can test today.
+
+[50:08] **kushti**: I can roll out maybe, so I can use some server of mine to deploy.
+
+[50:21] **qx()**: That's OK.
+
+[50:21] **qx()**: I've got plenty, kushti.
+
+[50:23] **qx()**: Don't waste any of your machines.
+
+[50:26] **qx()**: OK, we've got another.
+
+[50:29] **qx()**: Let's keep going, kushti.
+
+[50:32] **qx()**: Let's see, where is it?
+
+[50:34] **qx()**: Here we go.
+
+[50:35] **qx()**: Another one for the big 3D.
+
+[50:36] **qx()**: qx(), when can we expect push for more holders of Rosen ERG on Cardano?
+
+[50:40] **qx()**: We need that Kraken listing.
+
+[50:41] **qx()**: So, big 3D, if you rewind a little bit, I talked about proposal number three from Rosen Bridge.
+
+[50:48] **qx()**: That's exactly what this is.
+
+[50:49] **qx()**: So, right.
+
+[50:51] **qx()**: If I told you guys a couple weeks ago, I can't remember, the little secret was we were going to develop a bot that does airdrops to Cardano to get the token holders up because it's crypto baby it's just a bunch of bullshit you know Kraken's looking to push a box on his little sheet that says yeah they have 10,000 holders it's just a line of bullshit but anyway so
+
+[51:12] **qx()**: Armeanio has proposed a really nice legit version of that with SPO and HODL-Rosen techniques across chains.
+
+[51:24] **qx()**: So please read those proposals, big 3D, and hound the Sigmanauts.
+
+[51:29] **qx()**: Look up the Sigmanauts member and say, hey, I like this proposal.
+
+[51:32] **qx()**: You guys should vote for this.
+
+[51:33] **qx()**: Or become a Sigmanaut and push it.
+
+[51:35] **qx()**: That's how it works.
+
+[51:38] **qx()**: Let's see.
+
+[51:42] **qx()**: This is always a tough one.
+
+[51:43] **qx()**: This is from a buddy, Aco.
+
+[51:45] **qx()**: By the way, Aco has a direct access to Postgres database now.
+
+[51:52] **qx()**: So let's get on Aco for doing some cool stuff with ErgoExplorer so that we can see a lot of different things, kind of like Cardano scan, where you can see the amount of transactions, the amount of not holders, but the amount of lots.
+
+[52:07] **qx()**: Direct access gives you much more flexibility when looking up things.
+
+[52:13] **qx()**: We expect to see great things from Aco.
+
+[52:15] **qx()**: Anyway, it says, continue on kushti's call for action regarding marketing.
+
+[52:18] **qx()**: Can you talk about any plans for marketing from the EF or anyone?
+
+[52:22] **qx()**: Sub-blocks should have a big spotlight.
+
+[52:24] **qx()**: Unfortunately, neither kushti nor I are members of the EF.
+
+[52:27] **qx()**: So we can't really comment on what the EF is planning to do from there.
+
+[52:33] **qx()**: I know that I am always looking for help on Ergo Twitter, the main Ergo Twitter account.
+
+[52:40] **qx()**: So Rustin helps out a lot, but Rustin has real life things to get in the way sometimes, so he'll be gone for a few weeks at a time.
+
+[52:49] **qx()**: So we definitely need coverage.
+
+[52:51] **qx()**: So any of you who are in love with Ergo and know enough about Ergo to put some posts out, I will make you a delegate on the main Ergo Twitter account and you can help out, right?
+
+[53:04] **qx()**: So please help out with that effort, at least on Twitter.
+
+[53:07] **qx()**: Advertise things like Mark and Tim, Tim Erg's broadcast for the peer-to-peer podcast, those kind of things.
+
+[53:17] **qx()**: Create your own podcast about that kind of stuff.
+
+[53:20] **qx()**: Put them out there.
+
+[53:21] **qx()**: All those things that you see that community members make, it makes a huge difference when you guys rebroadcast, when you watch them, when you talk about them, and put them out there.
+
+[53:29] **qx()**: That's the kind of marketing we can do as community members.
+
+[53:33] **qx()**: But yeah, and don't be shy to talk to Mark and ask him, sorry, Glasgow.
+
+[53:38] **qx()**: or AMG or anybody else on the EF.
+
+[53:41] **qx()**: mgPai, right?
+
+[53:42] **qx()**: He's probably done with finals this Friday.
+
+[53:46] **qx()**: So feel free to hound mgPai about what the EF is looking for for marketing.
+
+[53:50] **qx()**: So I encourage you guys to talk about that.
+
+[53:53] **qx()**: Yeah.
+
+[53:55] **kushti**: Right.
+
+[53:55] **kushti**: So, yeah, well, I have some ideas about marketing of sub-blocks, right, in regards with high performance proof of work.
+
+[54:09] **kushti**: And, yeah, even, getting, some funding for that, but, it's, quite early, turn ons.
+
+[54:20] **kushti**: Let's see.
+
+[54:21] **kushti**: So we will have, Twitter spaces with, the coin Republic and, crypto reach on Saturday now.
+
+[54:33] **qx()**: Right.
+
+[54:34] **qx()**: What happened that, that just had to be postponed for a little bit.
+
+[54:37] **kushti**: Yeah, so yesterday there were some issues on the coin republic sites.
+
+[54:45] **kushti**: All right, so well, crypto reach had to cancel.
+
+[54:49] **kushti**: So we considered different options like moving to his channel.
+
+[54:54] **kushti**: or well, just postponing kids while recording zoom.
+
+[55:04] **kushti**: like we did a couple of times back in 2020.
+
+[55:09] **kushti**: So yeah, yeah, finally, we've decided to move it to Saturday and well, but maybe it's still quite an announcement, I think.
+
+[55:25] **kushti**: So yeah, let's see.
+
+[55:28] **kushti**: But, well, anyway, I think, well, it will be quite modern and still quite unique results, right?
+
+[55:42] **kushti**: And, well, high performance network networks.
+
+[55:48] **kushti**: And, well, there is needs definitely to promote it and get attention from, yeah.
+
+[55:57] **kushti**: people interested in consensus and well, proof of work rights along with sigma chains and so on and so on, a lot of things.
+
+[56:11] **kushti**: We are discussing how to organize wealth efforts within that space.
+
+[56:23] **qx()**: All right, we've got one.
+
+[56:24] **qx()**: Actually, I've got a question onto this, too.
+
+[56:27] **qx()**: We've got Bobcat here.
+
+[56:29] **qx()**: What are your thoughts on Rosen using Snarks to strengthen the watcher guard model?
+
+[56:33] **qx()**: So that also brings me to the question of we see the recent release of Bitcoin OS for Cardano, right?
+
+[56:42] **qx()**: And they're using fully non-custodial.
+
+[56:44] **qx()**: They're using contracts to lock up stuff as opposed to kind of a watcher guard set.
+
+[56:51] **qx()**: What's the advantage of that, kushti?
+
+[56:55] **qx()**: You see something like Bitcoin OS using Snarks fully without a watcher guard set compared to something like Rosen Bridge.
+
+[57:04] **qx()**: And is it fair to not call Bitcoin OS a bridge?
+
+[57:07] **qx()**: I mean, they're technically bridging.
+
+[57:10] **qx()**: They're just doing it differently.
+
+[57:12] **qx()**: Plus, I hate the burn and mint method.
+
+[57:15] **qx()**: I think that's the dumbest thing ever.
+
+[57:17] **qx()**: Maybe that's just me.
+
+[57:18] **qx()**: I think it's much more realistic that Rosen is creating and locking all tokens all at once.
+
+[57:24] **qx()**: And there's no burn.
+
+[57:25] **qx()**: There's no mint.
+
+[57:27] **qx()**: It's all done right off the bat.
+
+[57:29] **qx()**: But anyway, what are your thoughts, kushti?
+
+[57:32] **kushti**: Oh, you know, so there are many dimensions here, right?
+
+[57:37] **kushti**: So well, Rosen approach also probably simpler, right?
+
+[57:43] **kushti**: hard to say in in regards with all all those recent things like bit vm bitcoin os and so on so there are certain scenarios which are not considered like mass exit right and in all those protocols so the same is true for ark
+
+[58:12] **kushti**: And then BitVM, I believe all those BitVM protocols.
+
+[58:21] **qx()**: So what happens in a mass exit on something like Bitcoin OS with Snarks?
+
+[58:26] **kushti**: So just the main network would be congested because exit transactions.
+
+[58:33] **qx()**: So mints and burns can happen kind of thing and it just pile up?
+
+[58:38] **kushti**: Yeah.
+
+[58:38] **kushti**: So in case of multiple fraud proofs posted on the blockchain, it would be quite congested.
+
+[58:50] **qx()**: Right.
+
+[58:50] **qx()**: And with the, with the Rosen Bridge, at least the watchers would probably pick up the fraud before.
+
+[58:55] **qx()**: And if they didn't pick it up, then the guard would pick it up.
+
+[58:57] **qx()**: So they wouldn't even get past that point.
+
+[59:00] **kushti**: Right.
+
+[59:01] **kushti**: And, yeah.
+
+[59:03] **kushti**: So.
+
+[59:06] **kushti**: hard to say I mean so technically you know well yeah it's it's trustless but yeah well there are some new vectors which are not even considered so I have attended some Bitcoin lightning events back in February
+
+[59:28] **kushti**: around Hong Kong and it was some panel with Blockstream CEO and other folks, some developers of Lightning Network.
+
+[59:47] **kushti**: So some BitVM solutions were discussed as well.
+
+[59:52] **kushti**: And so, and so, and yeah, you even asked directly questions about mass exit scenarios, right?
+
+[60:00] **kushti**: In some Bitcoin power protocols, I even forgotten which ones actually.
+
+[60:05] **kushti**: And yeah, well, it seems that there is no clear answer.
+
+[60:10] **kushti**: I mean, it's just not considered.
+
+[60:15] **kushti**: But then, yeah, well, there are also more trivial issues, well, tied with complexity, right?
+
+[60:27] **kushti**: So if it's complex, then it's better to wait for some time before using it, right, usually?
+
+[60:35] **kushti**: Because, well, usually the problems are in implementations, like Zcash, for example.
+
+[60:42] **kushti**: had some issue in its circuits, right?
+
+[60:54] **kushti**: Unnoticed.
+
+[60:54] **kushti**: So it was a typo even in the paper.
+
+[61:01] **kushti**: So developers just implemented paper as is.
+
+[61:05] **qx()**: Oh, with the typo?
+
+[61:07] **qx()**: Oh, shit.
+
+[61:10] **kushti**: That's rough.
+
+[61:12] **kushti**: Yeah, and because of that, even a hidden emission of Zcash was possible if my memory serves me well.
+
+[61:23] **kushti**: It was possible to mint Zcash.
+
+[61:27] **kushti**: It was a second problem.
+
+[61:32] **kushti**: So, yeah, I mean, it's often, you know, I mean, quite good, but you have details.
+
+[61:43] **kushti**: So, yeah, well, let's see.
+
+[61:46] **kushti**: So I'm watching a little bit all those things in the Bitcoin space, like Bitcoin, Bitcoin OS, ARK, Cashew, Fedemint, and so on.
+
+[62:01] **kushti**: And yeah, I mean, it's quite exciting, especially considering that you can replicate it in simpler ways on Ergo right.
+
+[62:13] **kushti**: because ergo is kind of hyper bitcoin but yeah well also new trade-offs and issues so yeah it's not quite clear what's worth to replicate right as soon as possible probably maybe not
+
+[62:41] **kushti**: Anything, nothing at the moment, right?
+
+[62:44] **kushti**: Because, like, every, every tech has, it's, uncertainty at the moment.
+
+[63:00] **qx()**: All right.
+
+[63:00] **qx()**: Let's see.
+
+[63:01] **qx()**: We've got a quick thing from Bevis.
+
+[63:04] **qx()**: Is there anything we can do to increase volume in Ergo?
+
+[63:07] **qx()**: They want to sink some of their meme profits into Ergo, but CEX volumes are super low.
+
+[63:11] **qx()**: Yeah.
+
+[63:12] **qx()**: So read those proposals that I was talking about.
+
+[63:15] **qx()**: There's some good proposals in Joe's Treasury proposals that instead of into CEXes, but it pumps it into DEXes, which offsets that kind of thing.
+
+[63:28] **qx()**: So read those up, push people to pass them, push the guards to pass them.
+
+[63:31] **qx()**: If you know the guards, you do know the guards because they're posted on the Rosen website.
+
+[63:36] **qx()**: And push those that you'd like to see those kind of adoptions if that's what you're thinking.
+
+[63:40] **qx()**: Let's see.
+
+[63:41] **qx()**: Why isn't Joe attending AMAs?
+
+[63:43] **qx()**: He will.
+
+[63:44] **qx()**: He does.
+
+[63:44] **qx()**: It's early for him.
+
+[63:45] **qx()**: Remember, he's in the Midwest.
+
+[63:47] **qx()**: So it's very early for him and he's got a bunch of family things he's working on right now.
+
+[63:52] **qx()**: So yeah, he'll be around.
+
+[63:53] **qx()**: He's not going anywhere.
+
+[63:54] **kushti**: Maybe we can do a later one later time.
+
+[64:01] **kushti**: So when it was once I made later time, it was quite great.
+
+[64:08] **qx()**: Yeah.
+
+[64:09] **qx()**: Let's see.
+
+[64:11] **qx()**: Are you going to token 2049 in Singapore?
+
+[64:14] **qx()**: kushti?
+
+[64:16] **kushti**: Not sure.
+
+[64:17] **kushti**: So I'm thinking actually about attending Korea, Korean Blockchain Week in September.
+
+[64:28] **kushti**: Yeah, about token, I'm not sure.
+
+[64:32] **kushti**: It's, it's, quite big conference and so on, but yeah, I don't know.
+
+[64:37] **kushti**: Probably, the, the, the right connections already to, work with.
+
+[64:44] **kushti**: And, yeah, that does a big conference, usually good, about side events to get connections and, that's it.
+
+[64:53] **kushti**: Right.
+
+[64:53] **kushti**: So the conference itself is quite useless usually.
+
+[64:59] **qx()**: Yeah.
+
+[65:00] **qx()**: Yeah.
+
+[65:01] **qx()**: Agreed.
+
+[65:02] **qx()**: I don't know much about the Korean blockchain world.
+
+[65:13] **kushti**: I've been twice to Seoul.
+
+[65:19] **kushti**: The first time it was Songdo back in 2018 it was some academic conference and then yeah we made ergo presentation in seoul gangnam around september late september 2019 so yeah well after six years it's definitely worth to visit again and now to well get deeper
+
+[65:50] **kushti**: into what's going on there.
+
+[65:53] **kushti**: So, well, it seems Korea is always hot about blockchain.
+
+[66:04] **qx()**: All right, we're eight minutes over, but let's see if we have a killer question coming in here.
+
+[66:09] **qx()**: This is actually a good question because I think a lot of people, this is on their minds.
+
+[66:14] **qx()**: What happens if Ergo hash rate stays low while rewards decrease?
+
+[66:19] **qx()**: Is Ergo under threat as a blockchain not being secured?
+
+[66:24] **qx()**: Didn't we have a decent hash back when Ergo was 5 cents, 3 cents, 2 cents back in the start?
+
+[66:38] **qx()**: It's always going to have an equilibrium of what the profit is and how many people are mining it.
+
+[66:43] **kushti**: Yeah, but it was Autolykos version 1, right?
+
+[66:47] **kushti**: So you cannot really compare hashes because well, then there was switch to version 2, and yeah, well, I don't quite know even how to compare hashes.
+
+[67:01] **kushti**: But even after the switch, so with Autolykos version 2, well, as Well, demands to RAM is growing with time.
+
+[67:21] **kushti**:

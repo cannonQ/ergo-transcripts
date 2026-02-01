@@ -1,0 +1,138 @@
+{
+  "call_date": "2025-01-13",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:10",
+      "question": "What are sub-blocks and how will they improve Ergo's network performance?",
+      "asker": "Armeanio",
+      "answer": "Sub-blocks spread network load over time instead of having big loads every two minutes when blocks are generated. Currently the network is idle most of the time, but sub-blocks will keep the network busy continuously, moving the bottleneck to network bandwidth. This resource becomes more available over time, so we'll get better performance each year even with a flat peer-to-peer network.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "sub-blocks",
+        "bandwidth",
+        "network performance",
+        "peer-to-peer"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "03:05",
+      "question": "How does Ergo's scaling approach differ from other cryptocurrencies?",
+      "asker": "Armeanio",
+      "answer": "Most blockchains aren't even trying to scale properly - they're making networks less peer-to-peer and more centralized by relying on powerful validators in data centers. This increases centralization of validation, decision-making, and asset ownership, creating digital oligarchies. Ergo takes a multi-level approach preserving the peer-to-peer nature - implementing stateless clients, lock-space mining, and bandwidth utilization while maintaining decentralization.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "scaling",
+        "decentralization",
+        "peer-to-peer",
+        "stateless clients"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "16:02",
+      "question": "Why might proof-of-work assets become more valuable as more proof-of-stake assets emerge?",
+      "asker": "Armeanio",
+      "answer": "Proof-of-stake gives holders free money through staking rewards, and people often buy hard money (proof-of-work currencies) with those free rewards. This is likely one reason Ethereum is performing poorly after the merge - stakeholders get free ETH from staking and probably buy Bitcoin with it. As more proof-of-stake assets distribute free money, more of that flows into proof-of-work assets, making them more valuable over time.",
+      "responder": "kushti",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "proof-of-work",
+        "proof-of-stake",
+        "staking",
+        "value accrual"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "21:58",
+      "question": "Why focus on algorithmic stablecoins like Dexy instead of traditional stablecoins like USDC?",
+      "asker": "Armeanio",
+      "answer": "Traditional stablecoins require trust in centralized entities like Tether team or government bonds, which creates trust issues. Algorithmic stablecoins provide a trustless building block for more complex systems. Even if you're issuing your own backed tokens, having algorithmic stablecoin backing with unconditional redemption solves trust issues better than relying on centralized issuers and their audits.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "beginner",
+      "related_terms": [
+        "stablecoins",
+        "Dexy",
+        "algorithmic",
+        "trustless",
+        "USDC"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "30:28",
+      "question": "What cross-chain interoperability features will Ergo 6.0 enable?",
+      "asker": "Armeanio",
+      "answer": "Ergo 6.0 will enable Bitcoin relays and two-way relays with Autolykos, SHA-256, or other algorithms for Sigma sidechains. You can have a relay on Ergo mainchain and a relay on the sidechain, enabling trustless bridges and other cross-chain trustless applications. There's also Rosen Bridge for connecting with chains that are harder to connect trustlessly like Bitcoin and Ethereum.",
+      "responder": "kushti",
+      "category": "bridges",
+      "difficulty": "advanced",
+      "related_terms": [
+        "relays",
+        "sidechains",
+        "cross-chain",
+        "trustless bridges",
+        "Rosen Bridge"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "41:59",
+      "question": "Why are physical assets like gold and silver better foundations for stablecoins than fiat currencies?",
+      "asker": "Armeanio",
+      "answer": "Gold and silver have very impressive decentralized mining networks that are much more decentralized than Bitcoin or Ergo. Mining ranges from medieval tools used by individuals and families to sophisticated corporate operations with players of very different scales using different tooling. Unlike fiat currencies, you cannot create gold or silver out of thin air, and they have well-established distribution built over centuries.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "beginner",
+      "related_terms": [
+        "gold",
+        "silver",
+        "stablecoins",
+        "decentralized mining",
+        "fiat"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "48:04",
+      "question": "What is ChainCash and how does it work as a monetary system?",
+      "asker": "Armeanio",
+      "answer": "ChainCash is a spender-signed currency system that creates a global financial system allowing conditional acceptance like local exchange trading systems. It's essentially a peer-to-peer free banking system where different agents are free to issue their money, but it's up to you which money to accept. It combines trust and collateral in various ways to expand the monetary base of blockchain assets to real-world usage, similar to how monetary systems work with M0 aggregates and derivative layers.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "advanced",
+      "related_terms": [
+        "ChainCash",
+        "free banking",
+        "monetary expansion",
+        "peer-to-peer",
+        "conditional acceptance"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "58:59",
+      "question": "What is the long-term vision for Ergo's ecosystem development?",
+      "asker": "Armeanio",
+      "answer": "The vision includes more stablecoins, tools for monetary expansion, cross-chaining to bring more assets and applications to other blockchains, decentralized onramps, decentralized marketplaces, and layer-2 networks for cheap and fast transactions. All these components combined represent the end game for crypto envisioned by Bitcoin's founders. We need more developers, enthusiasts, monetary hackers, and people running experiments to achieve the peer-to-peer digital cash dreams from the 2000s.",
+      "responder": "kushti",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "roadmap",
+        "layer-2",
+        "decentralized onramps",
+        "cross-chaining",
+        "peer-to-peer cash"
+      ]
+    }
+  ]
+}

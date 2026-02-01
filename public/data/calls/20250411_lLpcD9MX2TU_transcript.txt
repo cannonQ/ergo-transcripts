@@ -1,0 +1,253 @@
+[00:14] **Dan Friedman**: Hey, hey, hey, hey, hey, hey, hey, and a hey, hey ho. And yeah, this, you know, do not adjust your television. We are controlling the transmission on this YouTube channel, because that's how YouTube works.
+
+But anyway, yeah, so this is your weekly AMA with me and, wait a second. OK, so we got kushti here. We all know him. And so the other guy without the hat kind of looks like the guy with the hat they usually hear. But anyway, say hi to everybody. Guys with and without hats.
+
+[01:00] **qx()**: Good morning, everybody.
+
+[01:02] **kushti**: Hi, everyone. My pleasure to be here again.
+
+[01:05] **Dan Friedman**: Morning? It's not morning, it's evening. What the hell, what are you talking about? Quality extreme, yeah yeah. So there's a lot of exciting stuff happening in the Ergoverse. I'm actually pretty excited about the Disco Solaris crossover. That's really cool. I always really like the art and Disco Solaris. That's kind of like my cup of tea, you know, that kind of stuff like new futuristic stuff or whatever you call it. I always liked it so I'm glad that they bridged over to ERG and looks like they're actually already moving some NFTs. Do you have, do you guys have a Disco Solaris Ergo NFT yet?
+
+I don't, not yet but yeah I'll try to buy some.
+
+[02:02] **qx()**: Yeah, that's MewFinance is doing it automated, right? So they'll read the metadata on Cardano and dump it into register over on Ergo and remint a token. And they don't burn it all the way back.
+
+[02:16] **Dan Friedman**: They throw it in a lock contract. Yeah. What's that? The Dark Lord or Dark Knight. Darko, Danny Darko, he told me that they're mewing it over there.
+
+Like I said, I'm just happy to see that because I've always been an admirer of Disco Solaris when it was even just on Cardano. The community has always been really cool. I know the people that made that project. You know, they always kind of try to just kind of be really community focused. So, yeah, I'm glad that they're on Ergo, because I know they've always actually been fans. So I'm glad that they finally kind of decided to move to Ergo.
+
+So what else do we have? Some emission reduction? We emit less now?
+
+[03:11] **Dan Friedman**: We do. Yeah, yeah, yeah.
+
+[03:13] **qx()**: Yeah, that happened the other day. We're down to, what is it, 15, kushti?
+
+[03:17] **kushti**: Yeah, so 15 now. And yeah, it's quite an amazing house. Well, somewhat it was.
+
+[03:26] **qx()**: I think it's a good opportunity to mention that Sigmanauts Mining Pool remind people that they're collecting storage rent and that hopefully at this point can do a little bit of offsetting compared to, you know, taking into account the emission reduction. So for those of you not in a pool or in a pool and want bonus tokens and storage rent, join up with the Sigmanauts Pool, please.
+
+[03:54] **Dan Friedman**: Wow, you sound really excited about that QX.
+
+[03:58] **qx()**: Was that too formulaic? That was too, like, monotone, wasn't it? Yeah, that was a little bit like... Hey guys, join up with the Sigmanauts pool. Is that better?
+
+[04:11] **Dan Friedman**: Now you're getting all choppy and robotic. I mean, you know, you kind of are, but still, though, you shouldn't be as choppy and robotic as usual.
+
+Yeah, yeah, so that's cool. What else has been going on?
+
+[04:26] **qx()**: Well, we're talking about an Ergo meetup in Colorado Springs this September, early October.
+
+[04:37] **Dan Friedman**: I saw Joe talk about that. That would be really cool. Yeah, actually, what did he say that he was going to, he's thinking of doing it?
+
+[04:46] **qx()**: It's either the first weekend in September, which is like the third, or else like the 10th, whatever the first two weekends are. We're going to put out a vote to see which one is more attractive to the most people.
+
+[05:00] **Dan Friedman**: Well, you know what would actually be really cool would actually be to make it around the time where Evo is happening in Vegas, because you're going to have a bunch of people like, I mean, Vegas is not super close, but it's not super far either from Colorado. I'll be there, so I'd love to make it out. I don't know if I'll be able to come out to the US just for that, but if I'm already in the US, I could make an effort to come out, and I'm sure others would as well, since they're all in the same. But anyway, that's something to talk to Joe about, I think. But I think that might make sense. I don't know.
+
+[05:39] **qx()**: So Rare Evo 2025 is when?
+
+[05:42] **Dan Friedman**: It's the beginning of August, I think.
+
+[05:45] **qx()**: Oh, that's pretty close.
+
+[05:49] **Dan Friedman**: Pretty close. It's April.
+
+[05:51] **qx()**: I know, but planning, Dan, planning, organizing. We got to get the band. We got to get the strippers, that kind of stuff, you know.
+
+[06:01] **Dan Friedman**: Well, I already got those tokenized, so it's good to go.
+
+[06:07] **qx()**: I will put out a community vote and see what people want to do.
+
+[06:11] **Dan Friedman**: This is not a democracy. This is like a little bit of a democracy. It's controlled by a select group of secret individuals.
+
+[06:22] **qx()**: Joe's got a location that he's got to check dates on that's not always available, so we've got to work around that. Hotel prices weren't terrible in the area. I think around September it was like 120 bucks a night or something like that. Or you just pitch a tent on one of Joe's 2000 acres kind of thing. Doesn't Joe like own a mountain or something or parts of mountains?
+
+[06:49] **Dan Friedman**: Yeah, just there's caves we can we can you know, we can just go in a cave or something and just you know Airbnb that. Yeah, 100.
+
+[07:00] **qx()**: What else is happening? Was it last week or this week? We had some GraphQL issues if people were noticing. Two of the three load balancers went down. Load balance machines were not performing well, I guess. So they just needed to bounce with NGINX and they worked fine after that.
+
+But that brought us to how Nautilus works. Right now Nautilus defaults to Sigma space GraphQL. But hidden there's a hidden list of rollover servers for GraphQL and right now in the Ergo ecosystem we have at least four or five maybe six public ones so we're getting Captain Nemo a list just to make sure he's got them all so that if something like this happens again then it'll keep rolling over to all the available GraphQL servers kind of thing so that was interesting to see those.
+
+It's good to see where the choke points are that we've overlooked before before things go crazy, right? So that was good and bad at the same time to see, I think.
+
+Dan, what about, we get a lot of questions about Palmyra and all that kind of stuff lately, how's Palmyra going?
+
+[08:26] **Dan Friedman**: Who?
+
+[08:27] **qx()**: Palm Myra.
+
+[08:29] **Dan Friedman**: Who's that? Do I know her?
+
+Oh, yeah, yeah, yeah. So, you know, we got the launch on the 14th of August. And this is going to be the very, very first cross-chain launch using Rosen Bridge. So we're going to be utilizing Rosen Bridge to launch on both Cardano and Binance on BNB. So that's going to be really cool.
+
+So we're using DEXs on both Cardano and Binance. We're going to be launching on MintSwap on the Cardano side and on PancakeSwap on the EVM side. We're already talking to Mo and Joe and making sure that everything is kosher. We have staking on both.
+
+The thing about it is, I was talking to Mew about potentially doing something over there. The problem is that so one of the things that we ran into when we were finalizing everything for TGE is we had to get approval from the Seychelles FSA. So the company that actually is minting the tokens is a Seychelles company. It's not from Palmyra. It's from a partner company.
+
+And that company had to get a license from the Seychelles FSA, which was the first actually ever utility token license issued over there, which is pretty cool, I think, and that was issued for Palm. And that took quite a bit of time, well, not quite, but more time than we thought it was going to take or hoped that it was going to take because it was literally, we're literally the first ones to go through the regulatory process.
+
+And so we finally did get it. The thing about it is that to keep it classified as a utility token and not a security, there has to be clear utility in every chain. And so essentially what we need to have is staking support for every chain. So right now we have Cardano, we have EVM because that's where our main token supply is on. We still haven't built it out for Ergo. So once we build it out for Ergo, which is obviously in the pipeline, then we're also going to be able to start a liquidity pool on Ergo, as in us doing it. Without that, we can't officially do it because then that would violate regulations and basically screw up the utility token classification.
+
+But that's obviously doable. You can bridge the tokens through Rosen Bridge and use them on Ergo as well. So if you want RS-POM on Ergo, you have the ability to do that.
+
+All right, but so what do you need sort of like staking context? So for basically we need to have staking support, so we have dynamic staking. MGPi and Luca developed it for Cardano and for EVM because that's our two main token holder groups are mostly Cardano and some EVM on BNB.
+
+And so, like I said, that's what we're using Rosen Bridge for is to be able to move back and forth between these two ecosystems. Like I said, for us to be able to support Ergo officially, we would need to have staking on Ergo or else it could actually be classified as security on Ergo. So that's what we need. We need to have staking support for staking on Ergo before we can spin up any kind of liquidity pools on Ergo.
+
+I was researching this today because like I said, Mew, I was talking to Mew about this and I talked to Sam about this. And yeah, that looks like for us to be able to do that, that's what we need to do. And like I said, it's in a pipeline, but it's not gonna be available at launch on the 14th, unfortunately, but we'll get it going.
+
+Oh, I see.
+
+[13:14] **kushti**: But staking, so before Ergopad guys and Paideia, well, did staking contracts, so maybe you can talk with Louis about it.
+
+[13:25] **Dan Friedman**: There is something that we can potentially do. I'm not sure because also, yeah, we, Louis Wattray is also working with us. You know, we're kind of like the, we take all your best Ergo peeps and get them to work for us. Haha.
+
+So Louis Wattray is also working on smart contracts with us. So maybe potentially it's something that he can look into because he also worked on Paideia, right? He, or he still is working on Paideia. I know that qx() knows all about that.
+
+Is he working on Paideia QX? What happened to you? You sound really distant.
+
+[14:20] **qx()**: Louie.
+
+[14:21] **qx()**: Louie, yeah, yeah. We need Marty to work on the front end of Paideia as well. Marty, if you're watching this at some point, fix the front end of Paideia, please. Thank you.
+
+[14:31] **Dan Friedman**: Well, okay. But I'm saying, you know, just right now, thinking about my own project, I need to have staking support on Ergo for me to do that.
+
+[14:43] **qx()**: Yeah, you got it. You got it with Paideia. You've got the tech there with the Ergopad. It's all there. You just got to put it together, Dan.
+
+[14:49] **Dan Friedman**: Yeah, so yes, it's not, like I said, it's on the roadmap. It's just like I said, it's not going to be available on the 14th. So you would have to, if you want to be able to do stuff with Palm, if you want to stake with Palm, use Rosen to either go to Cardano or to EVM depending on what you want to play with. If you want to play with both, play with both.
+
+I'm actually really excited about this because I think this is going to be... Well, I know it is going to be the first official launch, a multi-chain launch using Rosen, and I would really like to see what it looks like in action because that's actually going to bring...
+
+We are lining everything up to make sure that there is going to be a bunch of trading arbitrage between the two chains. And so it would be really interesting to see how Rosen stands up to real-time arbitrage. I think it'll do well. we're betting on it. We're invested in that decision, but I think it'll actually do well, and I think that'll actually kind of give other projects a nice preview, I don't know why I said it weird, preview of how you can do a cross-chain launch using Ergo tech. It's pretty exciting to me. And like I said, I would really like to see how it all works out next week.
+
+[16:27] **qx()**: Yeah. Well, we've seen in practice or in examples, arbitrage happening between Cardano and Ergo simply with, Rosen, Rosen ERG. So, and, and, and Rosen Bridge. So yeah, it seems to work well, at least, you know, you'll, you'll notice that during times of pumps, a lot of arbitrage is happening back and forth between the two. So yeah, cool. That'll be neat.
+
+[16:54] **Dan Friedman**: Yeah. Oh, actually I got a, I got a question, from, Luke, a Gray Smith. So then if you buy a bunch of Palm tokens on Cardano using Ada, do you lose my, do I lose my Cardano voting power?
+
+I mean, yeah, because I think Cardano, you can only vote with, with, with Cardano. I don't think they have like, what, what is it? I mean, actually, I talked to Charles about this a while back, but I don't think there's anything like Babel voting support or anything on Cardano just yet. It would be interesting if there was. It would be pretty cool if there was. But I don't think there is Babel. I guess that what you would call it, what would you call something like that if you're voting with native assets? Proxy tokens, I guess. Proxy, OK, yeah.
+
+I don't think they have anything like that on Cardano yet, but hopefully that's something that's going to be in the pipeline. And like I said, actually, I talked to Charles about this. Couple of years ago, I think. It's been a few years since I talked to him, and he did think that that's actually something that's been really interesting, but I think it's just a matter of priorities of what they want to deploy now versus down the line.
+
+Yeah, so the answer is yes, you would. I would imagine lose voting power, but you would gain voting power and participation power in the Palm economy in a Palmyra ecosystem where you can actually use those tokens for the Palm DAO, which is going to be its own ecosystem. And that's also something that we're going to be launching. And actually, potentially, once we bridge it, we'll also bridge it over to Ergo. We're most likely going to be using the Paideia infrastructure for that for the DAO.
+
+[19:06] **qx()**: The ADA that you sell Palm for, it goes into some sort of treasury, regardless of whether you spend it or save it. You could do some sort of percentage voting power there because if, let's say, you poll daily the amount of Palm holders on Cardano that have purchased with ADA and directly into the treasury or the liquidity pool. You could then, use that ADA. Oh, well, this is, I guess this is only for ICOs, right? If you actually hold the ADA anymore, but if you hold the ADA, you could offer a percentage of voting to Rosen Palm holders and Palm holders and you guys vote yourselves according to their plans, depending if you have that DAO infrastructure.
+
+[19:55] **Dan Friedman**: Now we kind of make us see, I mean, that essentially would make a DRAP on us.
+
+[19:59] **Dan Friedman**: Yeah, exactly. Yep. I mean, that's, yeah, but the thing is, DRAPs are delegating their ADA. So, like, I don't actually, you know, the DRAP, or people are delegating their ADA to DRAPs like they do with staking. So, you don't actually let the DRAP custody the ADA. But if we're custodying the ADA, then we, like, I mean, theoretically, we can be our own DRAP, but that's kind of, you know, well, first of all, it's a bit moot because you know, you got de-reps with that, you know, have way, way more voting power than, you know, than we would if we custody or if we did de-repping with the ADA that we hold. And also, you know, that ADA is being used for other things. So it's like, you know, it's kind of a...
+
+[20:54] **qx()**: Yeah, I'm just saying it could be an attractive alternative to saying, hey, you buy Palm, you can still vote. You can still have some voting power on the Cardano ecosystem.
+
+[21:03] **Dan Friedman**: It is possible, but I would actually would like to see some sort of like proxy token support for that, because I think that would actually make it a lot more interesting for people who are investing in native assets in both Cardano and Ergo, because with Ergo, if you have native asset support for voting, then you could potentially use Rosen to bridge some assets back and forth between Cardano and Ergo. So you can use like Ergo tokens and make them into RS whatever on the other side. You can use RS ERG on the Cardano side for voting. That would be kind of cool, I think.
+
+[21:41] **qx()**: Yeah. I mean, the tricky part is locking up the ADA that you purchase that proxy token with, right? Otherwise, it's double voting rights at some point and you're diluting the voting pool.
+
+[21:51] **Dan Friedman**: Yeah, yeah. And, and, and, and you may, it tells me to, whatever that means.
+
+[22:00] **qx()**: I think you, I think you know what it means then.
+
+[22:03] **Dan Friedman**: I, well, that that's actually, you know, our head of business development in Argentina, his name is Facundo Ramirez, and his nickname is Kufa, but sometimes it's FAKU. So he might be talking about Facundo. I don't know. That's a possibility. So maybe he's just saying shout out to Kufa. So yeah, Jume, if it is a shout out to Kufa, then shout out to Kufa. If not, then I'm going to talk to the CIA about this and you know what I mean.
+
+[22:41] **qx()**: Oh, he knows what you mean. kushti, you got node 6.0 RC4 out successfully on mainnet, no errors, fully synced. And you were saying something like, you had a tweet the other day that said that you know of none of these infrastructure upgrades have ever broken the chain, unlike other.
+
+[23:02] **kushti**: Yeah, but for RC4, you need to understand that probably this version would be broken after RC5, and RC5 would be identical to the final release. There are some fixes still needed to be included. So two pull requests now under review, so once approved and merged, RC5 will be released and yeah, that's basically the final version of 6.0.
+
+So, yeah, RC4 is not stable release, still, right, but you can sync the mainnet with it, at least. And, yeah, well... To the best of my knowledge, no any applications were broken due to protocol upgrades. That's kind of philosophy here, I guess, the non-breaking development process. Application developers may be confident that what they're building will stay. The ecosystem could be built as a kind of I don't know, like a medieval cathedral, right? So people built them for centuries and well, still they're around us and yeah, well, very solid constructions after all.
+
+So, yeah, well, the idea here is to have a good foundation for building digital financial cathedrals, like solid constructions. And non-breaking protocol, core protocol development is absolutely crucial here.
+
+[25:20] **qx()**: Yeah, I'm looking at the node list, kushti, and I still see there's nodes on stuff as old as 5.0.9, for goodness sake, back there in the active node list, 5.0.8. And they're still trucking along, no problem.
+
+[25:35] **kushti**: Oh, that's okay. So you can use even 4.0.100, right? Something like that. But what I was talking about is applications, so if you have some application done in ErgoScript back in 2019, right deployed on the blockchain around that time you can use well it's right now so all the boxes are spendable and exactly in the same way as six years ago.
+
+And yeah, well, there are more exciting things. So now we have finally, Merkleized Sub-Syntax trees and Merkleized Finite State Machines, examples done in ErgoScript. And they're allowing for a lot of cool things, like you may have a wallet which is controlled by one of, let's say, 100 policies, right? So you may specify well, 10 or 100 different spending conditions and instead of some huge script, so you are just including hash, Merkle tree root hash, right, and well, policies are written under this tree and then you present script, you're executing during spending and while proving execution of it so yeah that would be helpful for some complex wallet scenarios like Bybit, for example, right, that's a recent scenario when hackers are able to drain the wallets, right, so you may have like different spending policies protecting a big wallet like Bybit, right, and well, to avoid, well, big scripts and to avoid showing all the logic actually also, so to have somewhat privacy, you may use this Merkleized solution for storing a lot of policies in a compact way.
+
+Well, with Merkleized Finite State Machine, you may have multi-stage contract execution with states, well, been progressing right from one state to another and when the contract is reaching final state, well, the UTXO is becoming spendable so yeah it's even more powerful construction so yeah may be useful in different contexts and also to have some privacy so for example if you have some disputes in your contract some dispute path then yeah you need to show it only during the dispute right otherwise if some escrow for example is used in a dispute process so well the identity of an escrow agent is hidden right before the dispute starts and so on so yeah a lot of possibilities and well contracts were done back in 2018 but yeah now are they available in ErgoScript form so yeah you may check so a lot so of new possibilities for ErgoScript developers, which were available on a low level before.
+
+And also for sub-blocks, so I'm already doing initial tests of multi-peer network. Well, actually I have two peers, one on my laptop, another is on server. So, well, I'm also doing debugging of both.
+
+[30:37] **qx()**: Is this what you called for the other day where you want somebody to help you run a DevNet, kushti?
+
+[30:42] **kushti**: Yeah, so for now, well, it's better for me to have, well, just two nodes of mine, both in debug session, right? So I'm doing debugging of both nodes in parallel to see how the peer layer is working. And then, yeah, well, after some time it would be good to have more peers with mining. So, well, I'm doing CPU mining on both peers. So, yeah, well, CPU mining is enough.
+
+Well, also for Dexy we have found people willing to hold update keys for the initial periods and also we considered bootstrapping. So, yeah, well, everything is set for launch. May not launch. Then we may proceed.
+
+[32:02] **qx()**: Dan, can you click on Ursa Miner's question? It's a good segue into this.
+
+[32:06] **Dan Friedman**: Let's see.
+
+[32:07] **qx()**: Ursa Miner says, please explain how oracles are safe from hacks or gaming of price feeds like LBMA or Shanghai index.
+
+[32:20] **Dan Friedman**: Do you want to take that one or you want me to take it or what do you want to do?
+
+[32:24] **qx()**: Well, I'm sorry, kushti can take it or I can take it. That's fine. Either one.
+
+[32:28] **Dan Friedman**: Well, I mean, I can talk about this because actually this is something also that we're going to be building out for Lithos. I can chime in on this because Ursa Miner is talking about LBMA. LBMA is a commodities gold standard. LBMA gold is the standard for commodity trading for gold. It has specific purity. It's 99.8, I think. That's basically what makes it uniform. If you have LBMA gold, then it doesn't matter where the gold comes from.
+
+Now, the problem here is that with gold, it happens with, you know, with others like lithium, it also happens where there is price manipulation happening, right? And so you have, well, so with gold, you actually have more even price reporting because there's a lot of places that report the price. But with something like lithium, you don't have enough places that you have a uniform reporting standard. What you have is you have these disparities in price, which can then be manipulated by producers that want to make the price go up.
+
+Say there's some producers in some Latam countries that will stop producing lithium to make the price go up. Even though they can't produce it, they feel like they want to make more money, so they just stop producing it and increase demand. It's not easy to do that with gold because there are just too many, right? But essentially what happens is even if you have a bunch of reporting places, most of the time it's actually, it's not a lot of small companies that are doing it, right? It's a lot, you know, most of it is just like a handful of large companies and large producers that are doing the reporting and that are setting the prices.
+
+And even if you have smaller producers for gold, like for example in Thailand, they have their own standard. But in Thailand, even though you have a bunch of small producers, they all are part of this like gold consortium that will then set the price for that day. And so again, even though you have, you know, not decentralization, but distribution, like a distributed consensus for price discovery, you essentially only have one central entity that will decide what the price is, and then it will report it up to the oracle or report it up to the index.
+
+So that can be manipulated, because even though you have distribution, you always have the centralized points that end up reporting, because not everybody can report it. With the decentralized oracle ecosystem, basically the more oracles you spin up, number one, oracles can be run without specific vetted interests in keeping the price up or down. Because if it's an effective oracle system, it'll have its own incentive structure that will incentivize the oracle to produce proper data, right? So you don't have data manipulation. That's number one.
+
+So it's not reliant on the incentive of the price going up or down. It's reliant on doing your job because there's an incentive structure built into the oracle network of rewards and slashing or whatever, however your network is built. That's number one. Number two, anybody can spin it up if it is decentralized oracle network. So you don't have to be like a gold consortium to spin up a gold oracle, a gold price oracle. You just have to have the hardware, and you have to be able to participate within the financial structure that extrudes these rewards.
+
+And so that's a lot harder to manipulate, just like any decentralized consensus is, because it's a decentralized consensus, right? So you always will have a minimum, like a minimum consensus for something, you know, for price or whatever, right? So even if like, say, I wanna manipulate it and I start up my own oracle and I start giving out shit data, it's still, you know, you still can't convince everybody to give out shit data. It's really difficult.
+
+Like it is with these distributed consensus, with the centralized consensus or, you know, public ledgers. So, I mean, that's essentially like, that's what the I think that's what makes it makes it different, right? Because even with the big indexes, the information still comes from centralized sources that have a vetted interest in the price doing whatever it's doing versus an oracle network as interest in channeling proper data because their incentive is to get rewards and not get slashed by the oracle incentives.
+
+And if you do have some adversarial players in the network, chances are really good that you can get enough non-adversarial players in the network that would just want to participate in the network and not try to manipulate the price. And so that you can then mitigate price manipulation or data manipulation from adversarial parties. So I mean, that's how I see it working. I don't know what you guys think about that.
+
+[38:30] **qx()**: Yeah, not bad, Dan. I'm impressed. Good job. Yeah, so like you said, it's only, I mean, the data we're bringing on chain with oracles is only as good as the data that's out there, right? So there could be manipulation probably sooner on the outside world than there is coming into the chain. With Dexy, we have, what is it, 15 kushti right now with gold oracle.
+
+[38:58] **kushti**: Yeah, yeah, yeah. Something like that. Yeah, hotline.
+
+[39:02] **qx()**: Yeah, so right now, the only thing you can slash on that is your participation token. There's not a vested interest in that, not a vested amount of money that can slash, kind of like the Rosen guards would be. But there is the incentive that if I screw up or start reporting falsely or get a bribe from somebody on the outside, I'm going to cut off any sort of income that I'd be getting from the gold oracle token for the forever, you know what I mean? It'd be done. I'd be an untouchable, don't touch, blacklisted kind of thing.
+
+So yeah, there's that incentive to be a good actor there. And I do think you're right, Dan. I think in these circumstances, especially in the Ergo ecosystem, you're going to have a larger group of actors naturally that want to do well and do good and continue a good service. Yeah.
+
+[39:57] **kushti**: Well, in oracle pools, if you're providing outlier data, then your data point is just excluded, right? And for the rest, which is calculated, posted on the chain. Then you need to convince the majority of oracles, right? to post some invalid data but yeah well as HQ said and some other comment about that so yeah well after all oracles well just passing data, right? Pulling data right from outside and yeah, there is not much you can do with outside. Well, so you may pull from different source and do everything. Average it out, yeah. Yeah, you can do your own data provider.
+
+So for USD, well, it's CoinGecko by default. And here, well, I made my own provider once and here posted data from a different source and so on but yeah after all so well in most cases oracles are well not not forming data right so they're just pulling the data from some source.
+
+And then, yeah, well, it's interesting in regards with lithium to use actual producers or market participants as data providers. That would be quite interesting.
+
+[42:01] **Dan Friedman**: Yeah, that's actually something that I started working with my business development team on right now is actually contacting market participants and producers to work with us in delivering this data so that there could actually be arbitrage opportunities for different regions for lithium, because right now a lot of it is actually kind of fragmented, right? So you've got different prices coming out of different regions.
+
+You also have another problem, which is logistics, right? This is actually not just for lithium. One of the biggest issues commodities face is a problem with logistics. For example, in the case of Argentinian lithium, one of the main problems that Argentinian companies have right now that have access to the lithium.
+
+Even if they have land that has lithium deposits and they want to spin up an operation, it's not just about spinning up an operation that will then process the lithium brine and then extract lithium out of it, but it's also about getting it out of there. The customer's not going to come to you. You have to ship it to them. What you have to remember is that most of this stuff happens in high elevations. Some of you saw the, yeah, a lot higher than that QX. Yeah, way higher than that, way higher.
+
+If maybe some of you saw that the documentary we came up with, The Lithium Must Flow, we're at, I forgot what it was, but it was like 10,000 or 15,000 meters up or something. It was basically where if you are not a fit person, don't run, because your lungs will burn. And I mean, I am semi-fit-ish. I do exercise. And even I made the mistake of thinking that I was more fit than I am. And I forgot that I'm middle-aged. And I try to climb up a dune. And then my lungs said, no, fuck off. and then just burned a long time. So don't do that.
+
+So point is that when you get up to these elevations, you get logistics problems. So just in the case of lithium, lithium deposits are at high elevations and they're in these remote areas. And so you have to be able to get it out of there. And so what happens is some companies, like say the Chinese companies, they'll come in there and actually ship all of their logistics providers as well. They'll take all their trucks over there. They'll take all the drivers and everybody. So they'll ship the entire kit, not just start the facility in the higher locally, but ship everything over there. Everybody's gonna be Chinese, right? Everybody down to the drivers is gonna be Chinese. The trucks are gonna be Chinese, like all this stuff.
+
+And so, yeah, so basically what you get is a problem in logistics, which then has a, which then creates a problem for delivery, which then creates a problem for equal price sustainability. And so, and so that's what happens, you know, with, and then it can also happen with gold as well. You know, there's some areas, say like in Africa, for example, that are gold rich, but you can actually cannot get the gold out easily. And that is why, you know, they'll be sitting on gold deposits, but like getting those gold deposits out of there might be a problem. And therefore they can't really do much with it. And they have to, you know, have to rely on outside means or lowering the price or whatever else.
+
+So, yes, so basically, actually, to get back to the original question here, right, so the question here is the question that was asked here is, are we relying on centralized sources like CoinGecko? Yeah, and in the case of commodities, a lot of times you have to do the same thing because there are just not enough sources out there that, I mean, like, say, for example, what Alex said, you have to create his own pricing index to be able to pull data so you wouldn't have to use CoinGecko.
+
+So most of these oracles will just pull stuff out of CoinGecko, they'll pull stuff out of CoinMarketCap or a couple of other ones. So it kind of defeats the purpose. Well, it's like, well, yes, basically just kind of like a proxy for an API at that point. You're not really a pricing oracle. But in a real pricing oracle scenario, what you actually want to have is that variety. And it could also be part of the protocol.
+
+Like, for example, only a certain amount of oracles can report prices from these particular places. You know, there should be, there should be oracles that report prices from like, you should see, you can set your, your, your minimum threshold for, oracles reporting prices outside of these, you know, the CoinGeckos and the more CoinMarketCaps, you know, just all depends on that. But, but really, yeah, just all about kind of getting a variety of data and in commodities as well.
+
+You want to have producers reporting because you will get a variety of data out. And of course, there's going to be some data bullshit going on there, but you can have number one, an incentive structure to mitigate that, and number two, a mitigation protocol to an algorithm that will counteract that kind of behavior. So there's several different things you can do if you get enough data. Because if you don't have enough data variety, then there's only so much you can do.
+
+[48:27] **qx()**: Yeah, that's going to be interesting, Dan, because people need to remember that these oracles don't just exist for Palmyra or Palmyra, right? These are going to be on chain in public to everybody. So there could be competing oracles, right? Your oracles, Dan, that you've helped perhaps set up with lithium could be more of an average pricing than somebody setting up oracles pulling on-chain data from other lithium price providers that maybe is a little faster to adjust price or rides a little higher.
+
+So then it's up to the dApps to decide which oracles they're going to price from from there. So there's actually a competition among oracle providers, even though they're decentralized and open source at that point, which is interesting thought. Cool. We got another question here before we go. Yeah, sorry, go for it.
+
+[49:19] **kushti**: Yeah, so there is more here. So for USD, for example, well, if you are not using CoinGecko or CoinMarketCap, then you are using some exchange probably directly, right? And then you need for enough volume. So what CoinGecko is doing, for example, already is averaging data, doing weighted average from different exchanges, it's already improving quality of data, three to five at least.
+
+And then yeah well for the lithium use case well if producers are going to put data on chain it would be quite interesting actually case where we can create some alternative price index right maybe also secured with some on-chain protocols and so well transparency which would be quite interesting because well for existing price it's not quite clear right well how they formed and what manipulations there probably it's not even possible to
+
+[50:36] **Dan Friedman**: Well, there is manipulation. It mostly comes from certain Asian countries. And it's a problem because it literally... First of all, it creates an opportunity for more manipulation. It basically feeds itself. It also stifles real business because some of these guys just can't really do honest business because there's manipulation. Yeah, it's a problem.
+
+[51:15] **qx()**: Yeah, looking at CoinGecko, guys, there's at least a top 15 are considered somewhat trustworthy of their combined score or their combined price for Ergo. Spectrum Finance or ErgoDEX is 16, and it looks like they're getting prices from that as well. Yeah, so it's getting from DEX, it's getting from CEXs for the CoinGecko price. But yeah, I would say that is an issue that for the oracle 2 is not going to do is that we're getting it from one source that aggregates other sources. It'd be nice to aggregate the sources ourselves inside the oracle protocol so that if one thing goes down, it doesn't matter. We still have 16 other sources that we're pulling an average again and weighting and kind of thing. So yeah.
+
+Cool. Well, it's 10 o'clock, boys. I've got in real life meetings. I got a hit.
+
+[52:05] **Dan Friedman**: You don't have any meetings. You just have to... I'm not important. I'm not important at all. You have to go and stare at the wall again. Come on, you're working for them. What do you guys do there anyway?
+
+[52:14] **kushti**: All right. All right. And Sigmanauts, I will be around, I don't know, on Saturday or Sunday, my evening. So let's have some community chats over the Telegram, just text chat maybe about high-performance proof-of-work protocols, sub-blocks, all that stuff. So yeah, I'll see you around. Awesome. Yeah, bye.
+
+[52:41] **Dan Friedman**: All right, everybody. Thanks for tuning in. And yeah, next week, same time, same place, same channel on YouTube. And until then, this is Dan coming to you live from Japan. Still have a bunch of work to do, by the way. It's only 11 p.m. All right. And to the sides here, I got, well, I got QX and I got kushti. It looks all just all wrong. Anyway, thanks. Thanks for leaving us off on that QX. All right, we're gonna sign off. See everybody. See you later buddy.

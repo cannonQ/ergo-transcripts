@@ -1,0 +1,197 @@
+{
+  "call_date": "2025-01-31",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - January 30th",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Cornell BRICK Token Recycling Economy",
+      "category": "community",
+      "start_time": "00:56",
+      "end_time": "06:46",
+      "primary_speaker": "qx()",
+      "summary": "QX discusses expanding the Cornell BRICK token system to incentivize students to recycle large architectural plots by rewarding them with BRICK tokens. The system creates a circular economy where recycled plots earn tokens that can be used to pay for new printing services.",
+      "key_terms": [
+        "BRICK token",
+        "Cornell",
+        "recycling incentives",
+        "circular economy",
+        "student rewards"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Monetary Innovation and Storage Rent Discussion",
+      "category": "technical",
+      "start_time": "06:46",
+      "end_time": "16:09",
+      "primary_speaker": "kushti",
+      "summary": "Kushti compares the BRICK recycling model to traditional crypto airdrops and discusses how storage rent creates value from digital waste recycling. They highlight a recent $20,000 ERG/PHP token collection through storage rent as an example of blockchain waste monetization.",
+      "key_terms": [
+        "storage rent",
+        "digital waste recycling",
+        "monetary innovation",
+        "ERG/PHP token",
+        "blockchain economics"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Storage Rent Mechanics and Mining Pool Implementation",
+      "category": "technical",
+      "start_time": "09:56",
+      "end_time": "14:27",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of how storage rent collection works, clarifying that anyone can collect storage rent transactions but miners can replace them with their own. Currently only Sigmanauts pool actively collects storage rent, with individual developers also participating through sniping.",
+      "key_terms": [
+        "storage rent collection",
+        "transaction replacement",
+        "mining pools",
+        "Sigmanauts pool",
+        "dev snipers"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Argentina Mining Operations and Lithium Index",
+      "category": "ecosystem",
+      "start_time": "17:56",
+      "end_time": "24:40",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Dan reports on Palmyra's lithium index development and potential mining secretary appointment in Argentina. He discusses a large Bitcoin ASIC mining operation that could potentially support Ergo if converted to GPU mining.",
+      "key_terms": [
+        "lithium index",
+        "Argentina mining",
+        "ASIC miners",
+        "GPU conversion",
+        "hydroelectric power"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Palmyra Team Expansion with Ergo Developers",
+      "category": "ecosystem",
+      "start_time": "26:45",
+      "end_time": "29:53",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Dan announces that Palmyra has hired multiple Ergo ecosystem developers including Pyro and Luivatra, creating an 'Ergo All-Stars' team. This provides financial support for developers during the bear market while leveraging trusted talent from the Ergo community.",
+      "key_terms": [
+        "Palmyra team",
+        "Ergo developers",
+        "Pyro",
+        "Luivatra",
+        "developer funding"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Ergo 6.0 Development and Testnet Progress",
+      "category": "technical",
+      "start_time": "29:53",
+      "end_time": "32:33",
+      "primary_speaker": "kushti",
+      "summary": "Kushti provides updates on Ergo 6.0 development including sub-blocks implementation and API methods. All issues from 6.0 have been fixed and they're preparing for public testnet release, with QX confirmed as the current testnet miner.",
+      "key_terms": [
+        "Ergo 6.0",
+        "sub-blocks",
+        "public testnet",
+        "API methods",
+        "testnet mining"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "DEX Development Synchronization Challenges",
+      "category": "defi",
+      "start_time": "32:33",
+      "end_time": "34:03",
+      "primary_speaker": "kushti",
+      "summary": "Kushti discusses ongoing challenges with synchronizing DEX front-end and back-end development teams to complete UI and deployment. He's working to get developers in sync for final delivery.",
+      "key_terms": [
+        "DEX development",
+        "front-end synchronization",
+        "UI deployment",
+        "back-end integration"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "DAO Proposals and Oracle Pool Governance",
+      "category": "governance",
+      "start_time": "33:01",
+      "end_time": "35:57",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of various DAO initiatives including Palmyra's business development DAO and proposed specialized DAOs for gold and lithium oracle pool operators. These would provide more transparent governance for reward distribution and decision-making in specific niches.",
+      "key_terms": [
+        "DAO governance",
+        "oracle pool operators",
+        "gold oracle",
+        "lithium oracle",
+        "reward distribution"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Hong Kong Conference and Ecosystem Vision",
+      "category": "marketing",
+      "start_time": "35:57",
+      "end_time": "40:29",
+      "primary_speaker": "kushti",
+      "summary": "Plans for Hong Kong visit in February to meet with major Asian VCs and check market temperature. Discussion of organizing a Palmyra-Ergo event to attract fresh participants and connect with existing Hong Kong Ergonauts from 2019.",
+      "key_terms": [
+        "Hong Kong conference",
+        "Asian VCs",
+        "ecosystem expansion",
+        "market temperature",
+        "community meetup"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Rosen Bridge and Hydra Layer 2 Integration",
+      "category": "bridges",
+      "start_time": "44:50",
+      "end_time": "47:56",
+      "primary_speaker": "kushti",
+      "summary": "Charles Hoskinson's positive views on Rosen Bridge and potential integration with Cardano's Hydra layer 2 solution. Hydra could significantly reduce on-chain load for federated protocols like Rosen Bridge and Oracle pools by 20x in optimistic scenarios.",
+      "key_terms": [
+        "Rosen Bridge",
+        "Hydra layer 2",
+        "federated protocols",
+        "on-chain load reduction",
+        "Cardano integration"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Miners Rights Protocol and Privacy Features",
+      "category": "technical",
+      "start_time": "48:08",
+      "end_time": "51:36",
+      "primary_speaker": "qx()",
+      "summary": "Explanation of Mark the Shark's Miners Rights Protocol which uses tokens to designate mining rights to pools and enable rewards distribution. The protocol offers privacy benefits and could enable NFT-based mining configuration management instead of centralized websites.",
+      "key_terms": [
+        "Miners Rights Protocol",
+        "mining privacy",
+        "NFT configurations",
+        "pool designation",
+        "Mark the Shark"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "SigmaUSD Oracle Pool Participation and Upgrades",
+      "category": "defi",
+      "start_time": "52:45",
+      "end_time": "56:56",
+      "primary_speaker": "kushti",
+      "summary": "Current SigmaUSD Oracle pool has only 4-5 participants due to lack of incentivization. Plans for version 2 upgrade with reward tokens and discussion of dust consolidation issues in version 1. Gold Oracle pool operates more successfully with 14-18 active operators out of 20 maximum.",
+      "key_terms": [
+        "SigmaUSD Oracle",
+        "oracle participation",
+        "incentivization",
+        "version 2 upgrade",
+        "dust consolidation"
+      ]
+    }
+  ]
+}

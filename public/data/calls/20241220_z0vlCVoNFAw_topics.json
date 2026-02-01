@@ -1,0 +1,286 @@
+{
+  "call_date": "2024-12-20",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - December 19th 2024",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Cornell BRICK Token LETS System Implementation",
+      "category": "ecosystem",
+      "start_time": "00:44",
+      "end_time": "04:42",
+      "primary_speaker": "qx()",
+      "summary": "QX deployed a blockchain-based payment system for Cornell's large format printing service, creating BRICK token as a Local Exchange Trading System (LETS). Students can pay for printing services using either ERG or BRICK tokens through Discord tipper bot integration with Nautilus wallet.",
+      "key_terms": [
+        "BRICK token",
+        "LETS",
+        "Cornell",
+        "Nautilus wallet",
+        "tipper bot",
+        "large format printing"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Mac Pro Sales on MewFinance Marketplace",
+      "category": "ecosystem",
+      "start_time": "04:44",
+      "end_time": "06:02",
+      "primary_speaker": "qx()",
+      "summary": "Cornell sold four Mac Pro computers on MewFinance for 65 ERG each, with high demand causing transaction competition. Proceeds will fund the Cornell DAO Treasury for BRICK token airdrops to students.",
+      "key_terms": [
+        "MewFinance",
+        "Mac Pro",
+        "Cornell DAO Treasury",
+        "physical goods marketplace"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Sigmanauts Multisig Migration and Pool Updates",
+      "category": "governance",
+      "start_time": "06:04",
+      "end_time": "06:37",
+      "primary_speaker": "qx()",
+      "summary": "Sigmanauts completed migration from old multisig to new multisig and Paideia platform. The mining pool is now distributing storage rent payments based on PPLNS block ratios.",
+      "key_terms": [
+        "Sigmanauts",
+        "multisig",
+        "Paideia",
+        "storage rent",
+        "PPLNS"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Quantum Resistance Analysis and Future Planning",
+      "category": "technical",
+      "start_time": "06:43",
+      "end_time": "21:00",
+      "primary_speaker": "kushti",
+      "summary": "Kushti analyzed Ergo's quantum resistance, noting that proof-of-work consensus is already quantum-resistant due to hash functions, while signatures need future upgrades. Post-quantum cryptography would reduce TPS by 10-100x, but quantum computers capable of breaking cryptography are still decades away.",
+      "key_terms": [
+        "quantum resistance",
+        "proof-of-work",
+        "hash functions",
+        "post-quantum cryptography",
+        "STARKs",
+        "qubits"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Art Events and Property Rights Talk",
+      "category": "marketing",
+      "start_time": "21:54",
+      "end_time": "27:18",
+      "primary_speaker": "kushti",
+      "summary": "Kushti recorded a talk for upcoming art events about property rights in programmable money, covering tokenization of art, fractional ownership, and combining artist work with mining through on-chain contracts. The talk connects Tornado Cash decisions to real-world asset tokenization.",
+      "key_terms": [
+        "property rights",
+        "programmable money",
+        "art tokenization",
+        "fractional ownership",
+        "NFT",
+        "ChainCash"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Local Developer Meetup and Outreach",
+      "category": "marketing",
+      "start_time": "27:44",
+      "end_time": "28:27",
+      "primary_speaker": "kushti",
+      "summary": "Kushti attended a local developers meetup where he explained blockchain developments in 2024, with one attendee being Netam, a Sigmanauts pool miner.",
+      "key_terms": [
+        "developer meetup",
+        "Netam",
+        "Sigmanauts pool",
+        "blockchain education"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Storage Rent Collection and Oracle Pools Testing",
+      "category": "technical",
+      "start_time": "28:54",
+      "end_time": "30:14",
+      "primary_speaker": "kushti",
+      "summary": "The mining pool collected significant storage rent payments from large boxes, likely related to Oracle Pools initial testing. Miners are discovering various tokens including test tokens and historical artifacts from the blockchain.",
+      "key_terms": [
+        "storage rent",
+        "Oracle Pools",
+        "large boxes",
+        "test tokens",
+        "blockchain archaeology"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Cyberverse Multi-Chain Integration Success",
+      "category": "ecosystem",
+      "start_time": "31:06",
+      "end_time": "32:52",
+      "primary_speaker": "qx()",
+      "summary": "Cyberverse won their poll on Ronin and now supports Ronin, Ergo, and Cardano wallet connectors. Players can buy items with CYPX from any chain and receive NFTs on their origin chain, incentivizing Ergo usage while expanding to other ecosystems.",
+      "key_terms": [
+        "Cyberverse",
+        "CYPX",
+        "Ronin",
+        "Cardano",
+        "multi-chain",
+        "gaming"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Development Updates and Upcoming Releases",
+      "category": "technical",
+      "start_time": "34:14",
+      "end_time": "37:22",
+      "primary_speaker": "kushti",
+      "summary": "Node 6.0 release candidate expected this week after testing, Sigma interpreter release next week, and sub-blocks discussions resuming. Ledger integration in final audit stages with third-party company. Oracle Pools development completed and Kestrel now supports deterministic signatures.",
+      "key_terms": [
+        "Node 6.0",
+        "Sigma interpreter",
+        "sub-blocks",
+        "Ledger",
+        "Oracle Pools",
+        "Kestrel",
+        "deterministic signatures"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "UTXO Alliance Events and Travel Plans",
+      "category": "marketing",
+      "start_time": "33:04",
+      "end_time": "34:06",
+      "primary_speaker": "kushti",
+      "summary": "UTXO Alliance Twitter spaces coming soon, consensus conference in Hong Kong planned, and potential meetups in Thailand or Vietnam being considered.",
+      "key_terms": [
+        "UTXO Alliance",
+        "Twitter spaces",
+        "Hong Kong",
+        "consensus conference",
+        "meetups"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Real World Adoption Book Project",
+      "category": "marketing",
+      "start_time": "39:15",
+      "end_time": "40:13",
+      "primary_speaker": "kushti",
+      "summary": "Kushti is working on a book about real-world adoption with invited contributors including Luivatra for storage rent and Joe for grassroots manifests. Current drafts will be open-sourced and combined writings published.",
+      "key_terms": [
+        "book project",
+        "real-world adoption",
+        "Luivatra",
+        "storage rent",
+        "grassroots manifests"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Digital Identity and PKI Infrastructure Discussion",
+      "category": "technical",
+      "start_time": "40:19",
+      "end_time": "45:27",
+      "primary_speaker": "kushti",
+      "summary": "Kushti discussed the longstanding challenge of connecting digital identities to real-world identities, explaining public key infrastructure, web of trust models, and why this remains a hard problem after 30 years of cryptographic research.",
+      "key_terms": [
+        "digital identity",
+        "PKI",
+        "public key infrastructure",
+        "web of trust",
+        "seed phrase",
+        "soul bound"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "DuckPools Lending Protocol and IDO",
+      "category": "defi",
+      "start_time": "45:33",
+      "end_time": "47:04",
+      "primary_speaker": "qx()",
+      "summary": "DuckPools lending protocol IDO is ending soon, allowing users to lend SigmaUSD for yield. Sigmanauts earned $500 profit lending $2,500 SigmaUSD while waiting to pay Rare Evo. The protocol includes its own DAO separate from Paideia.",
+      "key_terms": [
+        "DuckPools",
+        "lending protocol",
+        "IDO",
+        "SigmaUSD",
+        "yield farming",
+        "DAO",
+        "Kaspa"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "BRICK Token Legal Considerations",
+      "category": "ecosystem",
+      "start_time": "47:08",
+      "end_time": "48:00",
+      "primary_speaker": "qx()",
+      "summary": "QX addressed concerns about creating BRICK token at Cornell, comparing it to existing Big Red Bucks system. No plans to add monetary value or DEX listing, though students might create their own liquidity pools.",
+      "key_terms": [
+        "BRICK token",
+        "Big Red Bucks",
+        "Cornell",
+        "legal considerations",
+        "liquidity pools"
+      ]
+    },
+    {
+      "topic_id": 15,
+      "title": "Rosen Bridge Awareness in Cardano Ecosystem",
+      "category": "bridges",
+      "start_time": "48:04",
+      "end_time": "49:11",
+      "primary_speaker": "qx()",
+      "summary": "Rosen Bridge is well-known in the Cardano ecosystem based on Rare Evo conference experience. The bridge is gaining recognition through proof-of-work marketing approach, building trust slowly across ecosystems.",
+      "key_terms": [
+        "Rosen Bridge",
+        "Cardano",
+        "Rare Evo",
+        "cross-chain bridges",
+        "ecosystem awareness"
+      ]
+    },
+    {
+      "topic_id": 16,
+      "title": "Programmable Money Developer Education",
+      "category": "technical",
+      "start_time": "49:19",
+      "end_time": "52:10",
+      "primary_speaker": "kushti",
+      "summary": "Kushti explained programmable money concept to local developers, which resonated better than smart contracts terminology. Developers showed interest in contributing to compilers and interpreters, understanding the engineering approach better than the 2014 decentralized computer concept.",
+      "key_terms": [
+        "programmable money",
+        "smart contracts",
+        "compilers",
+        "interpreters",
+        "developer education"
+      ]
+    },
+    {
+      "topic_id": 17,
+      "title": "Umbrella Tokens and ChainCash Design Pattern",
+      "category": "technical",
+      "start_time": "52:12",
+      "end_time": "54:33",
+      "primary_speaker": "kushti",
+      "summary": "Kushti explained umbrella tokens pattern where parent tokens enable issuing certified child tokens through contracts. ChainCash example involves reserve tokens that can be issued with contract-based certification, creating a reusable design pattern.",
+      "key_terms": [
+        "umbrella tokens",
+        "ChainCash",
+        "parent tokens",
+        "certification",
+        "design pattern",
+        "reserve tokens"
+      ]
+    }
+  ]
+}

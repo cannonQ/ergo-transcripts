@@ -1,0 +1,112 @@
+{
+  "call_date": "2025-02-10",
+  "call_title": "Ergo Dev Update Feb 9th 2025 |  SigmaUSD, Ledger, Minotaur, Nautilus, Rosen, ergfi, and more!",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "09:50",
+      "decision": "Considering changing or coming up with alternative to ErgoHack like a spring or summer of code targeting a theme with much more time",
+      "speaker": "qx()",
+      "context": "Discussion about improving developer engagement and preparation",
+      "topic": "governance",
+      "significance": "major",
+      "quote": "We spoke briefly about changing or at least coming up with some sort of alternative to an ErgoHack, like a spring or summer of code where essentially you target a theme and you get people on board, you give them much more time."
+    },
+    {
+      "id": 2,
+      "timestamp": "16:32",
+      "decision": "Decided to proceed with Bitcoin Ruins integration implementation despite rate limit concerns",
+      "speaker": "qx() (reporting for Rosen team)",
+      "context": "Research phase completed for Bitcoin Ruins integration",
+      "topic": "rosen-bridge",
+      "significance": "major",
+      "quote": "Despite encountering some concerns and regarding rate limits associated with certain APIs, we have decided to proceed with the implementation phase."
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "09:00",
+      "commitment": "Dexy Gold integration for ErgFi",
+      "owner": "C8",
+      "timeline": "a few weeks",
+      "topic": "ergfi",
+      "quote": "C8 with ErgFi, Dexy Gold integration, ETA a few weeks."
+    },
+    {
+      "id": 2,
+      "timestamp": "11:16",
+      "commitment": "Voting should be started soon in the testnet next 120 blocks epic epoch",
+      "owner": "kushti",
+      "timeline": "soon",
+      "topic": "technical",
+      "quote": "voting should be started soon in the testnet next 120 blocks epic epoch"
+    },
+    {
+      "id": 3,
+      "timestamp": "16:49",
+      "commitment": "Starting development phase for Bitcoin Ruins integration in near future",
+      "owner": "Rosen Bridge team",
+      "timeline": "near future",
+      "topic": "rosen-bridge",
+      "quote": "we are looking forward to starting to develop that development phase in the near future"
+    },
+    {
+      "id": 4,
+      "timestamp": "20:52",
+      "commitment": "Video AMA on Thursday",
+      "owner": "qx()",
+      "timeline": "Thursday",
+      "topic": "governance",
+      "quote": "we'll see you on Thursday for a video AMA"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "15:46",
+      "question": "Why do we only have 176 blocks a day in the testnet with min difficulty?",
+      "context": "Kushti asking about testnet mining performance",
+      "topic": "technical",
+      "raised_by": "kushti"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "05:23",
+      "fact": "Current reserve ratio at 374%",
+      "speaker": "qx()",
+      "topic": "sigmausd"
+    },
+    {
+      "id": 2,
+      "timestamp": "08:05",
+      "fact": "Nautilus released version 0.2.0 of Ergo Ledger JS",
+      "speaker": "qx() (reporting for Anand Bihar)",
+      "topic": "nautilus"
+    },
+    {
+      "id": 3,
+      "timestamp": "11:11",
+      "fact": "6.0.0 RC released with support for public testnet voting and activation",
+      "speaker": "qx() (reporting for kushti)",
+      "topic": "technical"
+    },
+    {
+      "id": 4,
+      "timestamp": "21:59",
+      "fact": "30 or so interested wallets distributed for Cornell BRICK token out of 800 total students",
+      "speaker": "qx()",
+      "topic": "adoption"
+    },
+    {
+      "id": 5,
+      "timestamp": "15:58",
+      "fact": "Mining testnet at like two megahash",
+      "speaker": "qx()",
+      "topic": "technical"
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "call_date": "2025-05-09",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - May 8th",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Node 6.0 Release Progress and Voting",
+      "category": "technical",
+      "start_time": "01:07",
+      "end_time": "03:28",
+      "primary_speaker": "kushti",
+      "summary": "kushti discusses recent releases 5.0.26 and 5.1.3, cleanup work for 6.0, and plans for miner voting to begin end of May/June 1st. Explains the three-month voting process and how miners need to configure their nodes with voting parameters.",
+      "key_terms": [
+        "node 6.0",
+        "miner voting",
+        "soft fork",
+        "config parameters"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Sub-blocks Development and P2P Protocol",
+      "category": "technical",
+      "start_time": "03:28",
+      "end_time": "05:38",
+      "primary_speaker": "kushti",
+      "summary": "kushti explains sub-blocks implementation work, focusing on efficient propagation of new blocks and peer-to-peer logic improvements. Discusses the need to switch to announcing only new transactions rather than full blocks for efficiency.",
+      "key_terms": [
+        "sub-blocks",
+        "peer-to-peer",
+        "block propagation",
+        "transaction broadcasting"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Public Testnet and Devnet Plans",
+      "category": "technical",
+      "start_time": "05:03",
+      "end_time": "06:09",
+      "primary_speaker": "kushti",
+      "summary": "Discussion about need for multiple miners on public testnet and devnet for testing competition scenarios. Plans to test mixed environments with some miners on sub-block supporting clients and others on standard clients.",
+      "key_terms": [
+        "public testnet",
+        "devnet",
+        "miner competition",
+        "mixed deployment"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Dexy Contracts and Real-World Applications",
+      "category": "defi",
+      "start_time": "06:09",
+      "end_time": "09:45",
+      "primary_speaker": "kushti",
+      "summary": "kushti updates on Dexy contract deployment and discusses ongoing talks with entities interested in real-world asset tokenization, insurance schemes, and governance systems for African cooperatives. Mentions mesh networks for offline digital cash payments.",
+      "key_terms": [
+        "Dexy",
+        "real-world assets",
+        "tokenization",
+        "insurance schemes",
+        "mesh networks"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Web3 Philosophy and Use Cases",
+      "category": "ecosystem",
+      "start_time": "09:45",
+      "end_time": "12:48",
+      "primary_speaker": "kushti",
+      "summary": "kushti critiques current Web3 implementation, arguing that 99% of use cases don't need tokens or blockchain. Advocates for proper Web3 being about mesh networks, Nostr, IPFS, and using blockchain as global settlement layer, referencing Hal Finney's 2010 ideas.",
+      "key_terms": [
+        "Web3",
+        "mesh networks",
+        "Hal Finney",
+        "settlement layer",
+        "algorithmic stablecoins"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Database Options: LevelDB vs RocksDB",
+      "category": "technical",
+      "start_time": "13:45",
+      "end_time": "19:26",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of node database options, with RocksDB being more stable and better for SSDs, while LevelDB supports more platforms and may be better for HDDs. kushti shares history of IODB database development at IOG and why they switched to standard options.",
+      "key_terms": [
+        "LevelDB",
+        "RocksDB",
+        "database stability",
+        "IODB",
+        "platform support"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Sigma Chains and Developer Expansion",
+      "category": "technical",
+      "start_time": "19:26",
+      "end_time": "24:39",
+      "primary_speaker": "kushti",
+      "summary": "kushti discusses plans to extend Ergo's contractual layer to support different execution environments and other blockchains. Mentions off-chain contract execution possibilities and references early ideas from smartcontract.com days with Chainlink founders.",
+      "key_terms": [
+        "Sigma chains",
+        "execution environments",
+        "off-chain contracts",
+        "ErgoTree",
+        "Chainlink"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Off-chain Execution and Trust Models",
+      "category": "technical",
+      "start_time": "21:14",
+      "end_time": "25:42",
+      "primary_speaker": "kushti",
+      "summary": "Explanation of how off-chain contract execution could work with collateral locked until conditions are satisfied. Discusses trust requirements and comparison to oracle systems, emphasizing suitability for small community environments where trust is less problematic.",
+      "key_terms": [
+        "off-chain execution",
+        "collateral",
+        "trusted context",
+        "oracles",
+        "community currencies"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "ErgoHack 10 AI Focus",
+      "category": "community",
+      "start_time": "25:43",
+      "end_time": "28:19",
+      "primary_speaker": "qx()",
+      "summary": "Discussion of upcoming ErgoHack 10 with AI theme starting May 20th. qx() highlights opportunities for AI integration including auto-generation of artwork, blockchain querying tools, and development assistance for project leaders with zero coding knowledge.",
+      "key_terms": [
+        "ErgoHack 10",
+        "AI integration",
+        "NFT generation",
+        "blockchain queries",
+        "developer tools"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Rosen Treasury Proposals Analysis",
+      "category": "governance",
+      "start_time": "28:19",
+      "end_time": "33:53",
+      "primary_speaker": "qx()",
+      "summary": "Detailed discussion of four Rosen treasury proposals aimed at increasing liquidity, SPO rewards, and getting more ERG holders on Cardano to meet Kraken listing requirements. Emphasizes strategic benefits for ecosystem growth and exchange listings.",
+      "key_terms": [
+        "Rosen treasury proposals",
+        "SPO rewards",
+        "Kraken listing",
+        "liquidity pools",
+        "holder requirements"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "BASIS and ChainCash Explanation",
+      "category": "defi",
+      "start_time": "34:34",
+      "end_time": "41:22",
+      "primary_speaker": "kushti",
+      "summary": "kushti explains BASIS as an extension of ChainCash for encouraging blockchain banking with standard notes. Discusses trust models, reserve backing, and how participants have freedom to accept or reject notes, unlike enforced government currencies.",
+      "key_terms": [
+        "BASIS",
+        "ChainCash",
+        "reserve contracts",
+        "community currencies",
+        "trust models"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "ChainCash Risk and Default Scenarios",
+      "category": "defi",
+      "start_time": "38:04",
+      "end_time": "45:25",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of what happens when trusted ChainCash entities fail, comparing to subprime mortgage crashes. kushti explains difficulty in defining defaults, citing examples of failed currencies still being used (Somalia central bank, Terra Luna Classic).",
+      "key_terms": [
+        "ChainCash defaults",
+        "trust failure",
+        "currency collapse",
+        "Terra Luna Classic",
+        "market dynamics"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Sub-blocks Timeline and Deployment",
+      "category": "technical",
+      "start_time": "45:41",
+      "end_time": "50:08",
+      "primary_speaker": "kushti",
+      "summary": "kushti provides timeline for sub-blocks testing, suggesting possible deployment next week for public devnet. Emphasizes trade-off between fast deployment and stability, with willingness to deploy experimental versions for short-term testing.",
+      "key_terms": [
+        "sub-blocks timeline",
+        "two-second transactions",
+        "public devnet",
+        "deployment strategy",
+        "backwards compatibility"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "Marketing Plans and Community Efforts",
+      "category": "marketing",
+      "start_time": "51:52",
+      "end_time": "56:23",
+      "primary_speaker": "qx()",
+      "summary": "Discussion of marketing needs for Ergo, especially around sub-blocks. qx() calls for Twitter volunteers and community content creation, while kushti mentions upcoming Twitter spaces and ideas for promoting high-performance proof of work.",
+      "key_terms": [
+        "marketing strategy",
+        "Twitter volunteers",
+        "community content",
+        "Twitter spaces",
+        "high-performance PoW"
+      ]
+    },
+    {
+      "topic_id": 15,
+      "title": "Rosen vs Bitcoin OS Bridge Comparison",
+      "category": "bridges",
+      "start_time": "56:29",
+      "end_time": "63:00",
+      "primary_speaker": "kushti",
+      "summary": "Analysis of different bridge approaches, comparing Rosen's watcher-guard model to Bitcoin OS's SNARK-based system. kushti discusses mass exit scenarios, complexity trade-offs, and implementation risks, referencing past Zcash circuit bugs.",
+      "key_terms": [
+        "Rosen Bridge",
+        "Bitcoin OS",
+        "SNARKs",
+        "mass exit scenarios",
+        "bridge security",
+        "implementation complexity"
+      ]
+    },
+    {
+      "topic_id": 16,
+      "title": "Ergo Hash Rate and Security Concerns",
+      "category": "technical",
+      "start_time": "66:09",
+      "end_time": "67:21",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of Ergo's hash rate sustainability as rewards decrease. kushti explains difficulty comparing current hash rates to early Ergo due to Autolykos v1 vs v2 switch and increasing RAM requirements over time affecting mining dynamics.",
+      "key_terms": [
+        "hash rate",
+        "mining rewards",
+        "Autolykos v2",
+        "RAM requirements",
+        "network security"
+      ]
+    }
+  ]
+}

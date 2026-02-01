@@ -1,0 +1,837 @@
+1
+00:00:03,000 --> 00:00:07,000
+Good day everyone, I am Alexander
+Chepurnoy, also known as kushti,
+
+2
+00:00:07,000 --> 00:00:11,000
+co-developer of Ergo, proof-of-work
+cryptocurrency, realizing the concept of
+
+3
+00:00:11,000 --> 00:00:15,000
+programmable money, and my talk would be
+about property rights in the age of
+
+4
+00:00:15,000 --> 00:00:19,000
+programmable money.
+
+5
+00:00:19,000 --> 00:00:26,000
+And the talk will connect some dots.
+
+6
+00:00:26,000 --> 00:00:31,000
+In particular, it will connect previously
+US-sanctioned smart contract, so
+
+7
+00:00:31,000 --> 00:00:36,000
+autonomous code on blockchain which got
+sanctioned.
+
+8
+00:00:37,000 --> 00:00:41,000
+Money of the future, so programmable
+money, tokenized real world and blockchain
+
+9
+00:00:41,000 --> 00:00:45,000
+assets such as art objects and property
+rights.
+
+10
+00:00:46,000 --> 00:00:49,000
+And if you are talking about property
+rights of the future, so programmable
+
+11
+00:00:49,000 --> 00:00:52,000
+property rights as well.
+
+12
+00:00:53,000 --> 00:00:56,000
+OK, so let's start.
+
+13
+00:00:56,000 --> 00:01:04,000
+So what could be a property when we are
+talking about digital world, blockchain
+
+14
+00:01:04,000 --> 00:01:12,000
+world, where we can have autonomous code
+while handling some money, some tokens?
+
+15
+00:01:12,000 --> 00:01:19,000
+So there was a very interesting case
+recently, a case of Tornado Cash.
+
+16
+00:01:19,000 --> 00:01:26,000
+Tornado Cash is a service that is mixing
+potentially identifiable cryptocurrency
+
+17
+00:01:26,000 --> 00:01:33,000
+funds with others to obscure the trail
+back to the funds original source.
+
+18
+00:01:34,000 --> 00:01:38,000
+This is a privacy tool used in Ethereum
+and
+
+19
+00:01:38,000 --> 00:01:44,000
+Ethereum-like networks where all the
+transactions are public by default.
+
+20
+00:01:44,000 --> 00:01:51,000
+And at some point the US Department of
+the Treasury blacklisted the protocol.
+
+21
+00:01:51,000 --> 00:02:00,000
+And then, very recently, on November 26,
+2024, a U.S. federal appeals court
+
+22
+00:02:00,000 --> 00:02:09,000
+overturned an earlier ruling stating that
+the law could not sanction a protocol.
+
+23
+00:02:09,000 --> 00:02:14,000
+Well, if we are talking about details, so
+exact words are that Tornado Cash's
+
+24
+00:02:14,000 --> 00:02:19,000
+immutable smart contracts.
+
+25
+00:02:19,000 --> 00:02:27,000
+The lines of privacy enabling software
+codes are not the property of a foreign
+
+26
+00:02:27,000 --> 00:02:35,000
+national entity, meaning that they cannot
+be blocked under different regulations.
+
+27
+00:02:36,000 --> 00:02:46,000
+Alright, so here we have that if some
+code is not associated, some code along
+
+28
+00:02:46,000 --> 00:02:56,000
+with its assets, right, such as assets
+been mixed by Tornado Cash.
+
+29
+00:02:56,000 --> 00:03:03,000
+Autonomous smart contract so both the
+code and the assets it's owning in the
+
+30
+00:03:03,000 --> 00:03:10,000
+process of mixing not recognized as
+someone's - so individual or company
+
+31
+00:03:10,000 --> 00:03:17,000
+property.
+
+32
+00:03:18,000 --> 00:03:25,000
+At least according to current US laws,
+but probably in other jurisdictions it
+
+33
+00:03:25,000 --> 00:03:32,000
+would be the same, but yeah, it's the very
+new thing. It's just a few days basically,
+
+34
+00:03:32,000 --> 00:03:39,000
+like two weeks in just one jurisdiction.
+
+35
+00:03:40,000 --> 00:03:46,000
+And the same results we got.
+
+36
+00:03:46,000 --> 00:03:52,000
+The same results maybe in a bit more
+technical form, because we are not
+
+37
+00:03:52,000 --> 00:03:58,000
+lawyers, we are developers.
+
+38
+00:03:58,000 --> 00:04:01,000
+Developing the concept of programmable
+money.
+
+39
+00:04:01,000 --> 00:04:11,000
+So in our physical real world every bank
+note is not protecting itself, right?
+
+40
+00:04:11,000 --> 00:04:12,000
+So it's passive.
+
+41
+00:04:12,000 --> 00:04:17,000
+And in the digital world, so in the
+setting of programmable money, every
+
+42
+00:04:17,000 --> 00:04:22,000
+digital bank note is protected by a public
+key or many keys and also potentially
+
+43
+00:04:22,000 --> 00:04:27,000
+programmable logic.
+
+44
+00:04:28,000 --> 00:04:33,000
+Every digital bank note is protecting
+itself with some program and execution of
+
+45
+00:04:33,000 --> 00:04:38,000
+that program possibly with signature check
+after decides whether a note may be spent
+
+46
+00:04:38,000 --> 00:04:43,000
+or not.
+
+47
+00:04:45,000 --> 00:04:54,000
+And this is actually already quite old
+concepts going from Bitcoin, early days of
+
+48
+00:04:54,000 --> 00:05:03,000
+Bitcoin, even Bitcoin script, but
+developed in the Ergo community.
+
+49
+00:05:03,000 --> 00:05:09,000
+And so in case of blockchain based
+programmable money like Ergo or Bitcoin we
+
+50
+00:05:09,000 --> 00:05:15,000
+have programmable logic expressed against
+the state of the blockchain right because
+
+51
+00:05:15,000 --> 00:05:21,000
+on the blockchain everything is just the
+state of the blockchain. To be connected
+
+52
+00:05:21,000 --> 00:05:27,000
+to the external world you need for trusted
+entities and the whole point of the
+
+53
+00:05:27,000 --> 00:05:33,000
+blockchain is to avoid trust.
+
+54
+00:05:33,000 --> 00:05:38,000
+But we can imagine non blockchain based
+programmable money also where logic is
+
+55
+00:05:38,000 --> 00:05:43,000
+expressed against state.
+
+56
+00:05:43,000 --> 00:05:49,000
+Every user of a money system agreed or
+enforced to be agreed on.
+
+57
+00:05:49,000 --> 00:05:54,000
+Example of that could be CBDC central
+bank digital currency but I'm not aware of
+
+58
+00:05:54,000 --> 00:05:59,000
+any using such programmability at the
+moment but in the future that would be the
+
+59
+00:05:59,000 --> 00:06:04,000
+case probably.
+
+60
+00:06:04,000 --> 00:06:10,000
+And then in the age of programmable money
+the talk about ownership is becoming more
+
+61
+00:06:10,000 --> 00:06:16,000
+complex so we have individual
+
+62
+00:06:16,000 --> 00:06:24,000
+ownership when a digital banknote belongs
+to just one key, always right, depends on
+
+63
+00:06:24,000 --> 00:06:32,000
+time and other things which are happening
+on the blockchain.
+
+64
+00:06:32,000 --> 00:06:39,000
+We also may have cooperative property
+when a node belongs to multiple keys, for
+
+65
+00:06:39,000 --> 00:06:46,000
+example, with quorum voting needed to
+spend a node.
+
+66
+00:06:46,000 --> 00:06:53,000
+And also we may have contractual
+property, right, so autonomous property,
+
+67
+00:06:53,000 --> 00:07:00,000
+property which belongs to autonomous
+contracts such as Tornado Cash in
+
+68
+00:07:01,000 --> 00:07:07,000
+the example I've provided before.
+
+69
+00:07:07,000 --> 00:07:18,000
+So we can define contractual ownership
+when an owner could not be defined, right?
+
+70
+00:07:18,000 --> 00:07:21,000
+When there is no owner, for example,
+right?
+
+71
+00:07:21,000 --> 00:07:25,000
+So owner could be pseudo randomly chosen.
+
+72
+00:07:25,000 --> 00:07:30,000
+Maybe in future or maybe we have rotating
+
+73
+00:07:30,000 --> 00:07:38,000
+right to do some things based on
+randomness pseudo randomness if we are
+
+74
+00:07:38,000 --> 00:07:46,000
+talking about blockchain or maybe an owner
+will be decided based on
+
+75
+00:07:46,000 --> 00:07:51,000
+the state of blockchain right in future.
+
+76
+00:07:51,000 --> 00:07:56,000
+So maybe it will go to a miner of
+particular block on the blockchain or
+
+77
+00:07:56,000 --> 00:08:01,000
+whatever.
+
+78
+00:08:02,000 --> 00:08:06,000
+There could be very different options
+here.
+
+79
+00:08:06,000 --> 00:08:14,000
+And yeah in this case when we cannot
+identify owner because it will be decided
+
+80
+00:08:14,000 --> 00:08:22,000
+by a program at certain point there is no
+any owner at all.
+
+81
+00:08:22,000 --> 00:08:27,000
+Then we are talking about contractual
+property.
+
+82
+00:08:27,000 --> 00:08:35,000
+Right those things maybe a bit abstract
+for you guys so let's talk about art now
+
+83
+00:08:35,000 --> 00:08:43,000
+let's talk about things which are closer
+to you guys let's talk about tokenized art
+
+84
+00:08:43,000 --> 00:08:51,000
+so what's people are now doing
+
+85
+00:08:53,000 --> 00:09:02,000
+with art and blockchain so there are two
+options so first you may tokenize physical
+
+86
+00:09:02,000 --> 00:09:11,000
+art ownership usually by dividing
+ownership rights and pieces right and
+
+87
+00:09:11,000 --> 00:09:20,000
+issuing tokens where one token is
+corresponding to one piece
+
+88
+00:09:20,000 --> 00:09:29,000
+of an art object and then we have
+tokenized ownership with for example 1000
+
+89
+00:09:29,000 --> 00:09:38,000
+tokens representing the full ownership of
+our art object.
+
+90
+00:09:38,000 --> 00:09:46,000
+Another option is to create digital art
+and put it on the blockchain.
+
+91
+00:09:46,000 --> 00:09:49,000
+You can
+
+92
+00:09:49,000 --> 00:09:57,000
+break it into pieces as well, but in this
+case it's more popular to make an NFT, so
+
+93
+00:09:57,000 --> 00:10:05,000
+a single token which is associated with,
+for example, this black swan picture.
+
+94
+00:10:06,000 --> 00:10:09,000
+All right.
+
+95
+00:10:09,000 --> 00:10:14,000
+And this is just one dimension of
+ownership, right?
+
+96
+00:10:14,000 --> 00:10:17,000
+Let's call it quantization dimension.
+
+97
+00:10:17,000 --> 00:10:23,000
+So you can have a single token
+representing the whole art object, or you
+
+98
+00:10:23,000 --> 00:10:29,000
+may have multiple tokens each representing
+part of a digital or physical art object.
+
+99
+00:10:30,000 --> 00:10:38,000
+OK, but then, going back to programmable
+money,
+
+100
+00:10:38,000 --> 00:10:48,000
+there is another dimension, so every
+token, whether it's NFT or one token out
+
+101
+00:10:48,000 --> 00:10:58,000
+of 1000, can be protected by a public key
+or many keys or even programmable logic.
+
+102
+00:10:58,000 --> 00:11:05,000
+Right and similar to programmable money
+program execution with possible signature
+
+103
+00:11:05,000 --> 00:11:12,000
+check after decides whether a token may be
+transferred from existing owner to a new
+
+104
+00:11:12,000 --> 00:11:19,000
+one or not.
+
+105
+00:11:19,000 --> 00:11:23,000
+And
+
+106
+00:11:23,000 --> 00:11:27,000
+here we have options we already defined,
+so individual, collective and contractual
+
+107
+00:11:27,000 --> 00:11:31,000
+ownership.
+
+108
+00:11:32,000 --> 00:11:37,000
+But in case of multiple tokens
+representing an art object, for example,
+
+109
+00:11:37,000 --> 00:11:42,000
+there could be different options for
+different pieces, right?
+
+110
+00:11:42,000 --> 00:11:46,000
+Of an art object means different tokens.
+
+111
+00:11:46,000 --> 00:11:54,000
+For example, we can imagine 200 tokens
+out of 1,000 to be owned by an art
+
+112
+00:11:54,000 --> 00:12:02,000
+gallery, 100 tokens by a painter's
+cooperative, for example, with 9 out of 15
+
+113
+00:12:02,000 --> 00:12:10,000
+signatures needed for transfer rights, or
+we have 15
+
+114
+00:12:10,000 --> 00:12:16,000
+signatories in the cooperative and then
+nine is enough for transfer, nine
+
+115
+00:12:16,000 --> 00:12:22,000
+signatures.
+
+116
+00:12:23,000 --> 00:12:30,000
+And then we can lock 700 remaining tokens
+to a contract which puts one token every
+
+117
+00:12:30,000 --> 00:12:37,000
+week, for example, on a decentralized
+blockchain-based auction, right?
+
+118
+00:12:38,000 --> 00:12:45,000
+And for those 700 tokens at the beginning
+we have contractual ownership, right?
+
+119
+00:12:45,000 --> 00:12:51,000
+But then, yeah, after auctions those 700
+tokens would be possessed by other
+
+120
+00:12:51,000 --> 00:12:57,000
+entities, right, and they could be
+individual, collective or contractual
+
+121
+00:12:57,000 --> 00:13:03,000
+again.
+
+122
+00:13:05,000 --> 00:13:14,000
+Right, so this world is going to be quite
+complicated, right, and also exciting
+
+123
+00:13:14,000 --> 00:13:23,000
+because with contractual ownership we also
+have contractual possibilities.
+
+124
+00:13:24,000 --> 00:13:32,000
+We may do a lot of experiments around
+sales of art objects, right?
+
+125
+00:13:32,000 --> 00:13:40,000
+I think even from this simple example
+this is becoming quite obvious.
+
+126
+00:13:40,000 --> 00:13:47,000
+And so we may discover a lot of new sales
+models.
+
+127
+00:13:47,000 --> 00:13:54,000
+We can have trading boosting by liquidity
+provision.
+
+128
+00:13:54,000 --> 00:13:59,000
+Right, which can be made a part of
+emission contract, for example.
+
+129
+00:13:59,000 --> 00:14:07,000
+So in this example where we are selling
+700 tokens one by one, every week on a
+
+130
+00:14:07,000 --> 00:14:15,000
+decentralized blockchain based auction.
+
+131
+00:14:15,000 --> 00:14:23,000
+We may require proceedings from auction
+to be going to liquidity pool.
+
+132
+00:14:23,000 --> 00:14:36,000
+Right, so then those tokens would have
+good liquidity.
+
+133
+00:14:36,000 --> 00:14:47,000
+Right, in a liquidity pool where we have
+tokens representing art objects along with
+
+134
+00:14:47,000 --> 00:14:53,000
+tokens representing Euro, for example,
+right, or USD or gold or cryptocurrency
+
+135
+00:14:53,000 --> 00:14:59,000
+tokens such as ERG or whatever.
+
+136
+00:15:00,000 --> 00:15:06,000
+OK, then we can have time logs, for
+example, to prevent immediate sales where
+
+137
+00:15:06,000 --> 00:15:12,000
+it's needed, where it makes sense
+contractually and so on.
+
+138
+00:15:13,000 --> 00:15:15,000
+And by
+
+139
+00:15:15,000 --> 00:15:22,000
+doing all those new things and by
+combining them differently.
+
+140
+00:15:22,000 --> 00:15:30,000
+We are bringing our financialization of
+art to completely new level, making
+
+141
+00:15:30,000 --> 00:15:38,000
+financial schemes around such
+financialization also a kind of art.
+
+142
+00:15:38,000 --> 00:15:41,000
+All right.
+
+143
+00:15:41,000 --> 00:15:47,000
+And there are a lot of tools already
+available in the Ergo ecosystem, such as
+
+144
+00:15:47,000 --> 00:15:53,000
+airdrop tools to reward some community
+with tokens.
+
+145
+00:15:53,000 --> 00:15:59,000
+Auction coin framework to emit tokens via
+auctions periodically.
+
+146
+00:15:59,000 --> 00:16:07,000
+As in our example, and possibly inject
+funds raised into liquidity pools.
+
+147
+00:16:07,000 --> 00:16:11,000
+Then there are a lot of fundraising tools
+such as MewFinance where you can
+
+148
+00:16:11,000 --> 00:16:15,000
+fundraise.
+
+149
+00:16:16,000 --> 00:16:21,000
+You can raise funds to do a new art
+object, right, and after tokenizing it you
+
+150
+00:16:21,000 --> 00:16:26,000
+can reward
+
+151
+00:16:27,000 --> 00:16:34,000
+contributors with tokens.
+
+152
+00:16:34,000 --> 00:16:37,000
+There are auctions where you can put
+NFTs.
+
+153
+00:16:37,000 --> 00:16:40,000
+There are already a lot of NFTs there.
+
+154
+00:16:40,000 --> 00:16:46,000
+There is some tooling - decentralized
+autonomous organization it's called, but
+
+155
+00:16:46,000 --> 00:16:52,000
+we can call it just digital cooperatives.
+
+156
+00:16:53,000 --> 00:16:57,000
+And this tooling is for token based
+decision making.
+
+157
+00:16:57,000 --> 00:17:06,000
+There is such tool Paideia on Ergo and
+you can use it, for example, to have some
+
+158
+00:17:06,000 --> 00:17:15,000
+kind of cooperative rights associated with
+some art object, for example.
+
+159
+00:17:16,000 --> 00:17:21,000
+Or you can tokenize maybe some collection
+or even some movement art movement and so
+
+160
+00:17:21,000 --> 00:17:26,000
+on.
+
+161
+00:17:26,000 --> 00:17:29,000
+You may have liquidity pools, order book
+based decentralized exchanges and so on,
+
+162
+00:17:29,000 --> 00:17:32,000
+so on.
+
+163
+00:17:33,000 --> 00:17:41,000
+You may have NFT collections, so combine
+different
+
+164
+00:17:41,000 --> 00:17:49,000
+unique pieces like this black swan along
+with white swan for example and maybe pink
+
+165
+00:17:49,000 --> 00:17:57,000
+flamingo and so on into a single
+collection with some common properties.
+
+166
+00:17:57,000 --> 00:17:59,000
+And so on, so on, so on.
+
+167
+00:17:59,000 --> 00:18:04,000
+So there are a lot of tools already and a
+lot of possibilities outlined in this talk
+
+168
+00:18:04,000 --> 00:18:09,000
+and not only.
+
+169
+00:18:10,000 --> 00:18:18,000
+So let's discover the new age of finance
+together.
+
+170
+00:18:18,000 --> 00:18:25,000
+And I hope, with all those new schemes
+there would be a lot of experiments on how
+
+171
+00:18:25,000 --> 00:18:32,000
+to tokenize or to build also sustainable
+finance right for artists at least, but
+
+172
+00:18:32,000 --> 00:18:39,000
+not only.
+
+173
+00:18:41,000 --> 00:18:50,000
+OK, so please check the links where you
+can find tooling mentioned.
+
+174
+00:18:50,000 --> 00:18:59,000
+And here is Ergo's Telegram group and my
+personal Twitter.
+
+175
+00:18:59,000 --> 00:19:01,000
+Thank you for your attention.
+
+176
+00:19:01,000 --> 00:19:03,000
+Have a great event.
+
+177
+00:19:03,000 --> 00:19:06,000
+Bye.
+

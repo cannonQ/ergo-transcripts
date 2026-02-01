@@ -1,0 +1,138 @@
+{
+  "call_date": "2025-06-20",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:08",
+      "question": "What is the timeline for the 6.0 release and what makes it significant?",
+      "asker": "qx()",
+      "answer": "The final 6.0 release should happen today along with instructions for mining pools. This is significant because the latest soft fork was in 2022, and many mining pools have likely forgotten the process. The 6.0 update is a soft fork that has been in development since 2024, followed by work on sub-blocks.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "soft fork",
+        "mining pools",
+        "6.0 release",
+        "sub-blocks"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "03:02",
+      "question": "How do we distinguish between LevelDB and RocksDB releases?",
+      "asker": "qx()",
+      "answer": "The 5.0.x releases use LevelDB (the original database), while 5.1.x releases use RocksDB. The 6.0 release will be for LevelDB first. Ergo has been gradually switching from LevelDB to RocksDB because LevelDB support isn't very good - they're still using drivers from 2018.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "LevelDB",
+        "RocksDB",
+        "database",
+        "node versions"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "07:26",
+      "question": "What improvement does version 5.0.26 provide for mining pools?",
+      "asker": "qx()",
+      "answer": "Version 5.0.26 introduces periodic regeneration of block candidates, which provides quicker confirmations. Some mining pools have already updated to this version.",
+      "responder": "kushti",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "mining pools",
+        "block candidates",
+        "confirmations",
+        "5.0.26"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "08:42",
+      "question": "What are merge mined sidechains and how do they fit into Ergo's roadmap?",
+      "asker": "qx()",
+      "answer": "Merge mined sidechains are likely a low-hanging fruit according to the SigmaChain refactoring plan. They allow for more interesting designs than projects like Zephyr (a Djed-based private stablecoin). Ergo can propose various designs to different teams, with potential funding options for implementation by the Ergo community.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "merge mining",
+        "sidechains",
+        "SigmaChain",
+        "Djed",
+        "Zephyr"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "38:24",
+      "question": "Can we expect sub-blocks to be fully deployed by the end of this year?",
+      "asker": "Bevis",
+      "answer": "Probably yes. Sub-blocks supporting nodes can start being injected to public testnet around July. If voting starts on July 1st, 6.0 activation would be October 1st, and mainnet activation for sub-blocks could happen around October as well.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "sub-blocks",
+        "testnet",
+        "mainnet",
+        "activation timeline"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "43:30",
+      "question": "How can a private DEX help avoid sandwich bots and snipers?",
+      "asker": "community member",
+      "answer": "It depends on how you define 'private'. You could whitelist off-chain batchers and use encrypted requests. However, the devil is in the details - centralized quasi-private solutions might give a central entity control over MEV without being traced. The most efficient designs involve batchers with encrypted requests and commitments.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "advanced",
+      "related_terms": [
+        "private DEX",
+        "sandwich bots",
+        "MEV",
+        "batchers",
+        "encrypted requests"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "45:15",
+      "question": "How do sandwich bots work on UTXO chains with 2-minute block times?",
+      "asker": "qx()",
+      "answer": "If slippage is large, bots can do separate transactions with slightly higher fees. It's not quite different from account-based chains with AMMs. However, you can avoid sandwich attacks by using direct execution instead of proxy contracts, like Spectrum DEX does with Dexy, making it impossible to insert orders before yours.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "advanced",
+      "related_terms": [
+        "sandwich bots",
+        "UTXO",
+        "slippage",
+        "AMM",
+        "proxy contracts",
+        "direct execution"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "50:05",
+      "question": "Is there an EIP for creating merge mined sidechains that others can follow?",
+      "asker": "Mark",
+      "answer": "There's a document on how to do merge mined sidechains from ErgoHack 8 (autumn 2023) that covers merge mined sidechains and trustless pegging. More detailed documents could be created, and kushti is happy to cooperate with anyone who has ideas for merge mined sidechains. This approach enables two-way trustless pegging, which isn't possible with Bitcoin.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "EIP",
+        "merge mining",
+        "sidechains",
+        "ErgoHack",
+        "trustless pegging"
+      ]
+    }
+  ]
+}

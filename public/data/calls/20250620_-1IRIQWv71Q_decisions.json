@@ -1,0 +1,154 @@
+{
+  "call_date": "2025-06-20",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - June 19th",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "03:10",
+      "decision": "There will be two 6.0 releases: 6.0 for LevelDB and 6.1 for RocksDB",
+      "speaker": "kushti",
+      "context": "To differentiate between database versions",
+      "topic": "technical",
+      "significance": "major",
+      "quote": "Yeah, so there will be two 6.0 releases, 6.0, 6.1 probably."
+    },
+    {
+      "id": 2,
+      "timestamp": "06:29",
+      "decision": "6.0 will be released for LevelDB first since all mining pools are on LevelDB version",
+      "speaker": "kushti",
+      "context": "Mining pool compatibility",
+      "topic": "technical",
+      "significance": "major",
+      "quote": "So to the best of my knowledge, all the mining pools on LevelDB version, at least mining pools I will touch with. So yeah, we are going to release 6.0 in the first place."
+    },
+    {
+      "id": 3,
+      "timestamp": "11:27",
+      "decision": "Possible to move the AMA to July 1st for the anniversary",
+      "speaker": "kushti",
+      "context": "Anniversary celebration timing",
+      "topic": "governance",
+      "significance": "minor",
+      "quote": "Possible. Yeah."
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "01:08",
+      "commitment": "Final 6.0 release will be today along with instructions for mining pools",
+      "owner": "kushti",
+      "timeline": "today",
+      "topic": "technical",
+      "quote": "I think there will be final 6.0 release today, finally... along with instructions for the mining pools on how to work"
+    },
+    {
+      "id": 2,
+      "timestamp": "02:29",
+      "commitment": "Sub-blocks DevNet release call for testing probably next week",
+      "owner": "kushti",
+      "timeline": "probably next week",
+      "topic": "technical",
+      "quote": "sub-blocks, there will be another DevNet release call for testing DevNet probably next week"
+    },
+    {
+      "id": 3,
+      "timestamp": "10:05",
+      "commitment": "Video content will be created for the anniversary",
+      "owner": "Dan, qx(), and potentially pixel",
+      "timeline": "unspecified",
+      "topic": "marketing",
+      "quote": "We've got Dan and at least Dan and I reached out to pixel as well to do some videos"
+    },
+    {
+      "id": 4,
+      "timestamp": "13:06",
+      "commitment": "SIGS meetup schedule will be finalized this Sunday",
+      "owner": "qx()",
+      "timeline": "this Sunday",
+      "topic": "events",
+      "quote": "that should be done this Sunday. We'll finalize that puppy"
+    },
+    {
+      "id": 5,
+      "timestamp": "38:42",
+      "commitment": "Can start injecting sub-blocks supporting nodes to public testnet around July",
+      "owner": "kushti",
+      "timeline": "around somewhat July even",
+      "topic": "technical",
+      "quote": "So I think we can start injecting sub-blocks, supporting nodes to the public testnet around somewhat July even"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "03:37",
+      "question": "Whether to roll back RocksDB to version 8 or update to version 10",
+      "context": "There were complaints about the update from RocksDB version 8 to 9",
+      "topic": "technical",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "09:21",
+      "question": "Different funding options for implementing merge mined sidechains",
+      "context": "Discussion about implementing designs from SigmaChain's refactoring plan",
+      "topic": "funding",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 3,
+      "timestamp": "34:27",
+      "question": "What's the demand for an RMB stablecoin",
+      "context": "Community question about creating Chinese stablecoin",
+      "topic": "tokenomics",
+      "raised_by": "Luca"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "01:46",
+      "fact": "Latest soft fork was in 2022",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 2,
+      "timestamp": "07:43",
+      "fact": "6.0 is based on 5.0.26",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 3,
+      "timestamp": "11:14",
+      "fact": "Anniversary is July 1st",
+      "speaker": "kushti",
+      "topic": "general"
+    },
+    {
+      "id": 4,
+      "timestamp": "12:14",
+      "fact": "Glasgow listing contract takes a few weeks to be finalized",
+      "speaker": "qx()",
+      "topic": "exchanges"
+    },
+    {
+      "id": 5,
+      "timestamp": "39:32",
+      "fact": "If voting starts July 1st, activation will take place October 1st",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 6,
+      "timestamp": "51:02",
+      "fact": "Merge mined sidechain document from ErgoHack 8 in autumn 2023",
+      "speaker": "kushti",
+      "topic": "technical"
+    }
+  ]
+}

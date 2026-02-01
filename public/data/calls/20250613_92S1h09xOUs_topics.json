@@ -1,0 +1,286 @@
+{
+  "call_date": "2025-06-13",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - June 12th",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Ergo Community Meetup Event Planning",
+      "category": "community",
+      "start_time": "00:58",
+      "end_time": "03:20",
+      "primary_speaker": "Armeanio",
+      "summary": "Discussion of organizing an Ergo community meetup with speakers including MiGoreng, qx(), and Allison. The event aims to cover development in the ecosystem, security assumptions, and project fundamentals with lower barriers to entry than typical crypto conferences.",
+      "key_terms": [
+        "community meetup",
+        "event planning",
+        "speakers",
+        "barrier to entry",
+        "ecosystem development"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Rosen Bridge Expansion to New Chains",
+      "category": "bridges",
+      "start_time": "03:22",
+      "end_time": "07:26",
+      "primary_speaker": "Armeanio",
+      "summary": "Updates on Rosen Bridge integration with Runes and Dogecoin, facing infrastructure challenges with Doge nodes and explorers. Discussion of expanding to other chains like Zano and Kaspa, emphasizing Rosen's unique feature of providing unilateral access to both network coins and tokens.",
+      "key_terms": [
+        "Rosen Bridge",
+        "Dogecoin integration",
+        "Runes",
+        "cross-chain",
+        "infrastructure challenges",
+        "Zano",
+        "Kaspa"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Rosen Bridge Incentive Structure and Scaling",
+      "category": "bridges",
+      "start_time": "07:26",
+      "end_time": "11:09",
+      "primary_speaker": "Armeanio",
+      "summary": "Proposal for creating incentive alignment for Rosen Bridge maintenance through percentage-based fees on outbound transactions and Paideia DAO structures. Discussion of scaling challenges and creating external support for maintenance as more chains are added.",
+      "key_terms": [
+        "incentive alignment",
+        "Paideia DAO",
+        "transaction fees",
+        "maintenance",
+        "scaling",
+        "external support"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Centralized Exchange Listing Challenges",
+      "category": "ecosystem",
+      "start_time": "11:09",
+      "end_time": "15:45",
+      "primary_speaker": "Armeanio",
+      "summary": "Critique of centralized exchange listing practices, highlighting challenges for fair-launch proof-of-work projects. Discussion of how exchanges prioritize meme coins over legitimate projects and the opaque security assumptions of centralized platforms.",
+      "key_terms": [
+        "centralized exchanges",
+        "listing fees",
+        "fair launch",
+        "proof of work",
+        "meme coins",
+        "security assumptions"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "DeFi Growth vs Centralized Exchange Volume",
+      "category": "defi",
+      "start_time": "15:45",
+      "end_time": "16:55",
+      "primary_speaker": "Armeanio",
+      "summary": "Analysis of how transaction volume has shifted from centralized exchanges to DEXes over the past five years, with DEX growth significantly outpacing centralized exchange internal volume.",
+      "key_terms": [
+        "DeFi",
+        "DEX volume",
+        "centralized exchanges",
+        "transaction volume",
+        "growth trends"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Oracle Pools and Watcher Participation",
+      "category": "technical",
+      "start_time": "19:24",
+      "end_time": "21:56",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of Ergo's unique infrastructure products like Oracle pools and Rosen Bridge where community members can earn tokens by running software. Emphasis on the undervalued nature of this participation model and the need for more promotion from watchers.",
+      "key_terms": [
+        "Oracle pools",
+        "watchers",
+        "verification mining",
+        "community participation",
+        "token rewards"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Stable Coin Strategy and Risks",
+      "category": "defi",
+      "start_time": "21:56",
+      "end_time": "24:43",
+      "primary_speaker": "Armeanio",
+      "summary": "Explanation of why Rosen Bridge avoids centralized stable coins due to freeze/seize risks. Discussion of the contradiction in claiming 1:1 backing when foundations can freeze assets at any time based on external pressures.",
+      "key_terms": [
+        "stable coins",
+        "centralized stable coins",
+        "freeze risk",
+        "seize risk",
+        "1:1 backing",
+        "regulatory risk"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Dexy USD and Oracle Pool Updates",
+      "category": "defi",
+      "start_time": "24:43",
+      "end_time": "26:04",
+      "primary_speaker": "kushti",
+      "summary": "Plans for launching Dexy Gold and potentially Dexy USD, with upcoming calls about Dexy lithium and silver. Discussion of Oracle 2.0 implementation and whether to update existing pools or create new ones.",
+      "key_terms": [
+        "Dexy USD",
+        "Dexy Gold",
+        "Oracle 2.0",
+        "oracle pools",
+        "commodity tokens"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Meetup Hybrid Event Planning Details",
+      "category": "community",
+      "start_time": "26:23",
+      "end_time": "28:10",
+      "primary_speaker": "qx()",
+      "summary": "Detailed planning for hybrid event structure with streaming capabilities for remote participants. Plans to include developers like DuckPools through online presentations between in-person activities like hikes and meals.",
+      "key_terms": [
+        "hybrid event",
+        "streaming",
+        "remote participation",
+        "DuckPools",
+        "event structure"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Ergo Node 6.0 Release Progress",
+      "category": "technical",
+      "start_time": "28:35",
+      "end_time": "32:21",
+      "primary_speaker": "kushti",
+      "summary": "Status update on Ergo node version 6.0 release, including recent consensus bug fixes and planned activation dates around June 25th to July 1st. Discussion of sub-blocks deployment to public testnet and security formalization needs.",
+      "key_terms": [
+        "node 6.0",
+        "consensus bugs",
+        "activation dates",
+        "sub-blocks",
+        "public testnet",
+        "security formalization"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Sigma Chains Refactoring and Sidechains",
+      "category": "technical",
+      "start_time": "32:21",
+      "end_time": "34:06",
+      "primary_speaker": "kushti",
+      "summary": "Publication of sigma chains refactoring plan showing relatively simple path to merge-mined sidechains. Discussion of scaling considerations and development organization for application-specific chains.",
+      "key_terms": [
+        "sigma chains",
+        "merge mining",
+        "sidechains",
+        "refactoring",
+        "application-specific chains"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Ergoversary Anniversary Plans and US Access",
+      "category": "community",
+      "start_time": "34:06",
+      "end_time": "36:03",
+      "primary_speaker": "qx()",
+      "summary": "Announcement of Ergoversary on July 1st with planned videos. Update on US Fiat Unwrap raffle progress with 15,000 ERG collected and call for more community participation from those requesting US access.",
+      "key_terms": [
+        "Ergoversary",
+        "July 1st",
+        "anniversary videos",
+        "US Fiat Unwrap",
+        "raffle",
+        "community participation"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Dogecoin Technical Integration Challenges",
+      "category": "bridges",
+      "start_time": "37:18",
+      "end_time": "38:01",
+      "primary_speaker": "Armeanio",
+      "summary": "Technical explanation of Dogecoin integration difficulties related to data collection and blockchain scraping rather than the underlying protocol. The infrastructure around Doge has strict rate limits making data extraction challenging.",
+      "key_terms": [
+        "Dogecoin",
+        "data collection",
+        "blockchain scraping",
+        "rate limits",
+        "infrastructure"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "ERG vs Rosen Token Market Cap Discussion",
+      "category": "ecosystem",
+      "start_time": "39:59",
+      "end_time": "46:19",
+      "primary_speaker": "Armeanio",
+      "summary": "Analysis of ERG being undervalued relative to execution quality and research. Discussion of focus on execution over marketing and the potential for Ergo's stablecoins to expand into other ecosystems as centralized stables become more regulated.",
+      "key_terms": [
+        "market cap",
+        "ERG valuation",
+        "execution vs marketing",
+        "stablecoin expansion",
+        "regulation"
+      ]
+    },
+    {
+      "topic_id": 15,
+      "title": "Rosen Bridge Liquidity Strategy",
+      "category": "bridges",
+      "start_time": "47:40",
+      "end_time": "52:12",
+      "primary_speaker": "Armeanio",
+      "summary": "Discussion of Rosen Bridge liquidity development focusing on wallet integrations and dApp partnerships. Emphasis on execution-first approach rather than seeking large fund liquidity, with potential for supporting privacy coins like Monero.",
+      "key_terms": [
+        "liquidity",
+        "wallet integration",
+        "dApp partnerships",
+        "execution-first",
+        "Monero support"
+      ]
+    },
+    {
+      "topic_id": 16,
+      "title": "Token Security and Storage Rent Economics",
+      "category": "technical",
+      "start_time": "52:25",
+      "end_time": "54:38",
+      "primary_speaker": "kushti",
+      "summary": "Explanation of how high token market caps actually enhance Ergo security through storage rent mechanisms. Discussion of how Ergo's unique demurrage component differentiates it from other blockchains in security budget calculations.",
+      "key_terms": [
+        "storage rent",
+        "security budget",
+        "demurrage",
+        "token market cap",
+        "mining security"
+      ]
+    },
+    {
+      "topic_id": 17,
+      "title": "Application-Specific Chains and Regulation",
+      "category": "governance",
+      "start_time": "54:38",
+      "end_time": "59:02",
+      "primary_speaker": "Armeanio",
+      "summary": "Discussion of US regulatory changes potentially incentivizing app-specific chains and the advantages of proof-of-work fair launch models. Plans for easily deployable merge-mined sidechains that could add to Ergo's security budget.",
+      "key_terms": [
+        "application chains",
+        "regulation",
+        "fair launch",
+        "merge mining",
+        "security budget",
+        "sidechains"
+      ]
+    }
+  ]
+}

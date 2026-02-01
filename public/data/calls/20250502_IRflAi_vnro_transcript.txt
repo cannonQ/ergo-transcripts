@@ -1,0 +1,297 @@
+[00:15] **qx()**: Hey.
+
+[00:16] **qx()**: Good morning, kushti.
+
+[00:17] **qx()**: How are you doing?
+
+[00:18] **qx()**: Doing well, doing well.
+
+[00:19] **qx()**: How about you?
+
+[00:21] **qx()**: Good, good, good.
+
+[00:21] **qx()**: A little sleepy, a little sleepy, but hanging in there.
+
+[00:26] **qx()**: How's your week been?
+
+[00:28] **kushti**: So it's busy, super busy.
+
+[00:32] **kushti**: So yeah, just today had a call actually with some guys from African government about tokenizing real world assets like minerals they're producing with the main idea to find also funding model for local small and medium-sized cooperatives, well entities doing mining right. So well it's a huge problem it seems so yeah well let's see how it goes but having a lot of talks these days about well possibility to build this and that.
+
+[01:30] **kushti**: So a lot of folks are currently in Dubai. It's Token 2049, but yeah, I have enough connections. So there is no need to waste time on those big events. So yeah, busy with, well, talking a lot despite skipping those events.
+
+[01:58] **kushti**: So, yeah, well, maybe we'll provide more details, but then you need to finalize some talks and well also started talking developers community. We had quite good developers chat yesterday so the talk is about what to do after sub-blocks right. So well what do we have currently right so we have five - no five - oh 5.0.26 which is under review and well it will be released first I believe and it will help with user experience little bit by supporting block candidate regeneration finally.
+
+[02:46] **kushti**: Then yeah well 6.0 is finalized, well it's quite huge update so it's about 16-17 thousand lines of code. Yeah so well it's under review right for some time and yet it is still under review right so that there were some issues found, fixed, so now it's hopefully finalized but yeah well still hope that there is some audit going on.
+
+[03:34] **kushti**: But, yeah, well, we can start reaching pool, mining pools anyways, and fix voting height, right, to start voting. And then, well, in case of successful voting, in case of super majority, 90% actually support, well, we will have activation in three months.
+
+[04:02] **kushti**: Right, and then for sub-blocks, well, I've done recently peer-to-peer layer, so new peer-to-peer layer messages. Well, proper validation of sub-blocks, right, because, well, certain transactions cannot be included in sub-blocks, for example, emission, right, transaction and other transactions which depend on block timestamp and miners public key.
+
+[04:45] **kushti**: Right because well they are changing from one sub-block to another so then yeah well if for soft fork, right, then such transactions cannot be included into a sub-block because, well, all the clients would receive just full blocks, so they are doing now, right, and, well, the transaction could become invalid, right, in well-filled clients, but being valid for new clients. Otherwise, I mean, if we're allowed for inclusion of such transactions.
+
+[05:36] **kushti**: So, well, this is fixed now, right? So there is proper validation of sub-block transactions. And well, like 99.9% transactions can be included and will be included in sub-blocks. Right, so well, now I'm...
+
+[06:01] **kushti**: I believe block candidate generation is also done, so what's needed now is to rework peer-to-peer layer a little bit to send full blocks to old clients on generating a block. Not a sub-block, right. And, well, to send only, well, basically difference to new clients, right? Supporting sub-blocks to avoid setting, well, full blocks on their mind.
+
+[06:39] **qx()**: How old can you go there, kushti? How old can a client be?
+
+[06:44] **kushti**: So all the clients before sub-blocks would be supported, right? Everything. Yeah, so after sub-blocks deployment, yeah, even 4.0 would be supported.
+
+[07:02] **qx()**: Wow, that's impressive.
+
+[07:04] **kushti**: We are quite extreme here, right, about support. So, well, in next version 7.0 right if it will be released there will be probably some breaking changes for clients before 5.0.23 or 24 so it's documented in the release notes so but this is about the next update right so 7.0 so it will be I don't know in one or two years if it would be needed at all in the first place.
+
+[07:53] **kushti**: Currently, what was the point of the developer's chat in particular, I started with that, is to discuss what would be in focus in regards with core development after sub-blocks, right? But yeah, well if there is no any concrete needs then maybe in the first place and it seems well for developers, ecosystem developers it's the same based on feedback so it seems the main thing needed is well improving developing experience right and targeting well real world needs I believe right because well it's the time we are living in when it's not a toy in a sandbox right anymore so well it should be time right now for beginning of transformation of financial tooling well on scale right.
+
+[09:30] **qx()**: We've got MGPai joining us. He'll be patched in in one minute. There he is. Welcome MGPai.
+
+[09:36] **MGPai**: Hey guys.
+
+[09:38] **qx()**: Good to see you sir.
+
+[09:40] **MGPai**: Nice to be here.
+
+[09:42] **kushti**: So it's the moment when we have cryptocurrencies going into corporate and national reserves. At the same time, tokenization of real-world assets. Well, I see a new wave of demands for privacy, all right and so on so and well that there is even a particular interest in proof of work again I believe right well in certain circles it's a little bit strange because yeah it's not about retail even often, right? Well, it's the strange time where most of retail is simply retarded, right?
+
+[10:48] **kushti**: Well, an interesting proof of work, for example, is coming from corporate entities. Right, it's quite of reverse what we had a few years ago, but well, well, depending on the environment, our principles are still the same, right? Yeah. Okay, so, and yeah, talking about real-world adoption, so what's on your side, what's new with the BRIC experiment?
+
+[11:25] **qx()**: Also, it's really funny to watch people are, as they recognize the way these kids work is they always put, I don't want to say they put everything off for the last minute, but they prioritize, right? And their priority is usually their work. So if they don't have time to read instructions or do anything, that's usually the last minute. But the incentive has been there long enough now for students to recognize that their peers are getting free things from handing and recycle plots.
+
+[11:52] **qx()**: So if you do the equivalence, we've had a ton of recycling and we've saved students about $1,000 so far with utilizing Ergo and the BRIC token. So the way it works is students will bring in their plots after they're done with them, stuff them in a basket, and we say, OK, that's worth 40 BRIC or 50 BRIC or 60 BRIC. And we tip it to them with Luivatra TipperBot.
+
+[12:17] **qx()**: And then the way my system works, I've explained it before. When you send through the interface to plot, it triggers a pop-up in Discord channel that they just copy the code to tip. They tip it. The off-chain bot reads the wallet and then marks the plot to be plotted kind of thing. So it's a really simple setup using the TipperBot and Ergo. And it's working fantastically well. I don't think I've had to bounce anything in the last four or five months that I've been running it.
+
+[12:48] **qx()**: So it's been fantastic, except when Luivatra's plot went down once. So students now, some of the students are trying to circumvent the rules a little bit. Initially, I was like, okay, one plot you bring back, it's 40 brick. But these plots vary from 32 inches long to 160 inches wide. So what these kids, some of these kids are doing is they're slicing the plots into short pieces and rolling them up and taping them to bring them to recycle. So it looks like they have 10 plots, but in reality it's like three or four.
+
+[13:19] **qx()**: So I've switched to the method of just saying, yeah, the mass of that paper looks like X amount of plots. So here's X amount of bricks. So it's really funny how they're trying to squeeze as much as they can out of this kind of stuff. So the next step as this gets more and more popular is I'm going to approach the departments themselves the architecture department and say hey you know to show the students that you're serious about recycling and reusing why don't you sponsor some brick and give us an injection of five thousand or ten thousand dollars worth of brick and then we will inject that into the students and they will have free plotting from the architecture department to encourage recycling.
+
+[14:05] **qx()**: Or it's a bonus thing. You bring your plot back this week and then the architecture department tacks on double the amount of brick that you get for your plots that you're bringing back this week. So not only we're giving the word that the architecture department is serious about students recycling and reusing, but they're also injecting funds in to help out with this kind of thing. So it's really fun. It's looking good.
+
+[14:27] **qx()**: And the students, we've got about 60, 70, I believe, students that have set up wallets and have been currently doing those transactions. So that's about, what do we have, about 350 architecture students. So as I said, it's a slow burn, but it rolls. And then it catches up and it explodes. So it's cool. And especially next semester, when we get more funds in there, it'll be really fun.
+
+[14:54] **qx()**: But it's so cool to watch. I'm asking kids like, some kids just show up with like, I know they haven't recycled as much and they're plotting like bam, bam, bam. And I'm like, they must be trading in the back. I didn't look, but they must be trading in the background, something. So I need to study the chain to see how that's happening and how some people are ending up with more brick than the other people. Cause they're not getting it from me. That's for sure. So.
+
+[15:22] **kushti**: Yeah, so maybe they're using brick as a kind of currency.
+
+[15:27] **qx()**: Yeah, exactly.
+
+[15:28] **kushti**: Yeah, but that's when the real fun starts, right? When people are starting to use it to trade. And I think that that's natural, especially when you are dealing with students, right? So well, you, then, may naturally expect attempts to cheat, right?
+
+[15:54] **qx()**: And also, test the cage, you know, test the wires if they're going to zap them or not.
+
+[16:01] **kushti**: Yeah. But also a lot of unplanned activities, right? Including exciting ones.
+
+[16:08] **qx()**: Yeah. And it's nice to also use as, so we hire about 20 student workers here to run the center over there. And brick is really like, typically at Cornell, you can't be like, hey, good job. Here's 50 bucks extra for your student work. That never happens. But with Brick, we can say, hey, that was awesome. Thanks for doing that. Here's 50 bricks towards your plotting. So it's this bonus incentive structure that not only we give to students, but we can give to our student workers as a bonus for work well done or extra things that they've done or that kind of stuff. So that's a really, really good tool to have in the tool chest when you're doing that.
+
+[16:49] **kushti**: All right, and yeah, it would be interesting to get information, right? And, well, trading, I mean, if it happens, but probably it does, right? If you see, well, some secondary transactions, so not generating from you. Then, yeah, it means that there is some, well, economic activity, right, exchange in this brick.
+
+[17:18] **kushti**: And well in regards with all those things currently well I had a talk with HQx just yesterday, so he was hit by this incident in Spain, blackout, right? when there was no electricity. So, yeah, well, the idea he has is to do something with mesh networks like, well, at least some catalog of services, right, which you can access when you don't have electricity for some time.
+
+[18:12] **kushti**: But, yeah, well, then it's also possible, so what I'm thinking about now is some sort of off-chain currency, right, and we also discussed that, backed by on-chain reserves, right, so it's like ChainCash, but with notes being created and transferred our off-chain networks, such as mesh networks or just, I don't know, maybe the trusted server may track.
+
+[18:52] **kushti**: But then you have reserves on blockchain and the same reserve could be reused in multiple networks. So it's kind of like BitTorrent but for payments. So you have some global layer with reserves which serve the blockchain right and then yeah very different currency systems off-chain on top of it such as community currencies well those mesh networks. Well, temporary or not so payment solutions, maybe some social media means of payments, right?
+
+[19:40] **kushti**: So, well, I'm also thinking about such possibilities. So it's basically like a tipper bot, right? We have a telegram. But you can tip for content and not necessarily with, well, money which do exist, right, so you can first, I don't know, give a star, right, to some content or the internet and then pay, well, enough debt to others collected, right, once a month, maybe even, and then, yeah, well, it's a good selfless payment to some degree.
+
+[20:33] **qx()**: kushti, what about... What's the possibility of... You're talking about ChainCash and mesh networks with low bandwidth. What's the possibility... I know it's risky, right? What's the possibility of integrating into a wallet some sort of offline exchange so that if I come to you and we meet up someplace without any kind of internet wireless signal, but you transfer me from wallet to wallet and you sign a transaction essentially to my wallet, I guess you could spend it beforehand from another wallet.
+
+[21:10] **qx()**: The thought is, if you can pre-sign something and transfer it to my wallet, then when I get internet, I can send it out. But with UTXO, I guess you could spend it from another wallet before that transaction hits the pool. I guess there's no way to do that without protecting the asset offline?
+
+[21:31] **kushti**: So, if there is some trust, right? It had to be trust, yeah, right. Yeah, you can do some on-ramp. So, for example, you can get state of on-chain reserve without even having a network, well, without having it right at the moment of a deal by just checking NIPoPoWs proof corresponding to the latest time of synchronization with the network.
+
+[22:02] **kushti**: And then, yeah, well, you can see reserve rights of a seller and during exchange you are getting assigned notes and then, yeah, you can present this note to a smart contract when going online, right? But then, yeah, well, if the seller is going, so if you're buying, well, on-chain assets this way, right? So then the seller may appear before you on the chain and redeem, right? So the reserve, so yeah, but then, yeah, well, you may have some trust.
+
+[22:50] **qx()**: That's when you bring out the wrench remedy on the seller.
+
+[22:55] **kushti**: Right. So, well, if there is some, even a low bandwidth access, right, then you can have... Right. It doesn't take much. Yeah, true. ...transactions. So, yeah, there are lots of possibilities here. I mean, even if there is some super limited access to mobile network, like SMS access, right, then yeah, it's possible to do a service which is not relying on trust to the seller, right? So you may have a trust infrastructure provider, right? Which is, well, providing SMS service basically, but no more than that. Something like that.
+
+[23:43] **qx()**: If we need to have devices like really real Ergo gold bricks where you put stablecoin onto a ledger device that never reveals its seed phrase to anybody, right? So there's no way to extract the seed phrase. So when you deliver these physical devices, they know that there's no extraction that could have been done to it, and it can be redeemed without somebody coming in behind you to the internet first. I guess that'd be a little risky, right, though, if it broke or anything like that?
+
+[24:16] **kushti**: Yeah, yeah, yeah. And it's also quite experimental. It's called, in cryptography, PUF, so physically unclonable function. But yeah, so a device which cannot be cloned. But yeah, I actually don't know the current state of this field. We need to check even.
+
+[24:46] **qx()**: Cool. All right. Well, MGPai, how's, how's your neck of the woods?
+
+[24:55] **MGPai**: Hey guys. I just been really busy on the Cardano side of things, building over there or, I'm sorry.
+
+[25:03] **qx()**: You're cutting out. We can't hear you at all.
+
+[25:06] **qx()**: I'm just kidding. MGPai. He said Cardano. So I said you were cutting out.
+
+[25:13] **MGPai**: Yeah, it's been very busy. We have implemented staking for Zengi. I mean, it's not just staking, it's very dynamic, right? Because the rewards need to adjust due to real world factors. So there's several contracts working in conjunction with each other to determine how much rewards and how they get changed weekly. So I've been working on that for a while.
+
+[25:46] **MGPai**: So it's done. It's deployed to Cardano and yet it's going quite well and a lot of I think the contract hit like 1300 transactions and there's like 600 million Palm tokens which are like our Palm's Palm economies tokens right it's locked so I think that's worth like almost close to a million dollars I don't know what the math is but you know it's going quite well.
+
+[26:16] **MGPai**: And I think it really showed me doing the development on how things are in the state of Cardano. And I frankly think it's not that good compared to Ergo. The development is just too over complicated. It's UTXO already, right? So that of course adds some layer of complexity that most of Ergo developers are familiar with. But then Cardano just goes the extra mile to make it more difficult for you.
+
+[26:50] **MGPai**: So the tooling is not really there. I constantly need to go into libraries. Libraries are basically you borrow code from other developers because you don't want to reinvent the wheel. On Cardano, so the assumption is, right, whatever you borrow works when you use a library, when you're coding. So on Cardano, you've got to throw that assumption out of the window.
+
+[27:19] **MGPai**: And I constantly find issues in libraries, and I have to go in them, and I have to understand the library and fix them. And whereas Ergo, you know, being like what, like almost 100 times smaller, or maybe like 10, 20 times smaller than Cardano has much better libraries. I don't have to do that too often. I might need to look into a library due to a lack of documentation. But there's no really big issue.
+
+[27:46] **MGPai**: with the library and if there is an issue it's quite easy to get the contact of the contributors right on the developer discord because you know everyone's just so like close together right easy to reach and you know they'll fix it like I think Anon_BR or yeah yeah he wrote the FleetSDK library for Ergo. It's really, really well done. He's an amazing, talented developer. He's basically a solo developer who worked on FleetSDK entirely.
+
+[28:27] **MGPai**: and then Morphic who worked on AppKit. They're really really robust libraries and it's quite impressive what Ergo has managed to do while being a fraction of the size of Cardano. It's honestly quite ridiculous Cardano being a multi-billion dollar blockchain and then tooling just you know being all over the place. Like everyone has their own thing. Like there's no unified Cardano entity.
+
+[29:08] **qx()**: There's no like a large library bank from the Cardano foundation or IOHK or anything like that that you have full access to, kind of thing like that.
+
+[29:08] **MGPai**: Yeah, nothing like quite robust. I think now Cardano, I'm not too sure, but Cardano has like a serialization library that's written, but you're written in Rust and C and or C, I don't remember. I mean, you don't use this because this is a really low level tooling. So it's kind of like SigmaRust on Ergo or how SigmaRust should be on Ergo in the sense that it's a library that other libraries use rather than developers using it directly because it's really low-level primitives.
+
+[29:43] **MGPai**: But yeah, it's quite bad, but hopefully they fix it. But I think the biggest thing anyway for Ergo and Cardano both is to improve this developer experience because I also had to do stuff for EVM on Binance Smart Chain. I implemented the same staking stuff and it took me a fraction of the day. It literally took me like six times less time and work doing Binance because, you know, I mean, of course, this account model makes things easier, but the tooling is just, you know, all there. It's just everything works. Everything's fast.
+
+[30:27] **kushti**: Yeah, but the EVM is disaster, right? So it's happening every day and it's shit. And yeah, I mean, it's because of it's well, a broken model, right? So I mean, definitely, I mean, we should stay away from that because I mean, it's complete nonsense. Even those guys, well, thinking, understanding that it's broken, right? Even Vitalik is now proposing some new nonsense, like replacing EVM with RISC-V, but it's basically the same mistake, right?
+
+[31:06] **kushti**: Because, I mean, those guys are hopeless in the first place. They don't understand that the what they are doing in the first place, right? So, well, it started as programmable money, but then those guys started to do decentralized computer for something, but still no one has clear idea, no one can explain why do you need decentralized computer even, right? I mean, it's nonsensical idea, also, well, non-scalable by definition, done very badly in EVM with all those hacks.
+
+[31:41] **kushti**: Well, including DAO hack when Vitalik and friends rolled back the chain and so on. So, yeah, it's a complete disaster. And it's, I mean, talking about billions, well, billions are even making things worse, right, for all those chains. I mean, it's not just nonsensical disaster, but also involving big money in the process of those disastrous effects of building a replicated programmable calculator for unknown purposes.
+
+[32:20] **qx()**: I think big money, at least in my experience, can help with innovation, but it also can stifle it. Years ago, I was at a conference at Stanford for the stuff that I do here. And the director of the group, the director of IT there at the time, said, or the CIO, I guess, whatever the hell CI is called, CTO, Chief Technical Officer.
+
+[32:53] **qx()**: Said, one of Stanford's biggest problem with innovation is that we have too much money. If there's a problem, we just throw money at it. So where's the pain and growth of innovation when you can just say, let's just buy. Let's just pay for it kind of thing. So that does have quite of an effect on that. When you're backed in a corner and you can just pay your way out, that's definitely stifling for any sort of innovation that would have come for that. So yeah.
+
+[33:24] **MGPai**: That's quite an interesting point, but I think, you know, of course there's good and bad things from anything, right? So we should take the good from EVM in terms of like, you know, developer experience.
+
+[33:40] **kushti**: Yeah, but the problem is that there is no good things anywhere. So it's developer experiences about doing broken contracts which has re-entrancy and all that stuff and then spends months on auditing things right, properly. I mean, spend also a lot of money because there are just few entities in the world able to do proper audits of this mess. Right. So, I mean, it's, it's, well, honestly, I mean, I, I'm looking, at, this EVM, from, 2014, right. When, we, we had, well competing approach, NXT 2.0 in, in the NXT community, which was rejected and then was implemented in a quarter. And, yeah, I mean, it, it, from the start, it was quite clear that it's not a good approach, but I mean, well, fake simplicity, right, of development also will edit issues like this DAO hack, for example, and hundreds of hacks after.
+
+[34:56] **qx()**: Like, do you feel, MGPai, I think when I was talking to you before, you were happy with the short amount of time it took you to build contracts over in Binance when you were doing the staking, right? So my question to you is, do you feel as secure about the contracts you've written over on Binance in the amount of time it took compared to if you were able to write those same contracts over here on Ergo?
+
+[35:19] **MGPai**: What do you feel more secure about? I think my security, so I am quite secure about the, I mean, all contracts, of course, but I'm secure about the Binance contracts because it comes from an open source, well, it comes from PancakeSwap, right? Which is the leading DEX on Binance, right? So it's time tested, it's a time tested contract, right? It's been around for like, I think three, four years now with no issues and it's open source, right? So I think that also contributes a lot to something right you know if it's been tested if others have used it and if it's open source you know and people can already attack it and if there's no attacks done like you know there's pretty good chance of it being secure.
+
+[36:08] **MGPai**: I think a good really good thing about EVM is about the contracts is that a lot of their things are open source contracts and you know and that's missing in Cardano actually a lot of things are closed source and it's really weird I don't like it like all their off-chain and all it's all closed source on Ergo at least Ergo is much better in that sense where the contracts are open source for the most part so is off-chain and generally the UIs are closed source on Ergo but I don't really find that to be much of an issue.
+
+[36:45] **qx()**: I mean, it was lovable. You can write a UI in a couple of minutes, right? So that's not really, yeah. I think the community pushes for that too. I think it's good to still see, not violently though. Sometimes community gets a little rabid, but it's good that the community still considers the default. Are you going to open source the contracts? Are you going to at least open source the UI or whatnot kind of thing?
+
+[37:09] **qx()**: Because that boils down to, it is hard to run a business on open source things. You have to pivot to the point of providing something more than, you know, if you and I are going to run the same thing, MGPai, you would have to provide something better than I could do it. So that would result in your skill of running the business, of the offerings that you do, the connections that you do. So it's a whole different facet of business running when you're trying to compete like that.
+
+[37:30] **kushti**: But if it's not open source, I mean, who will use it? In this DeFi space, it's not quite clear. I mean, how can it be called DeFi if it's not open sourced? I mean, how can you claim that it's DeFi decentralized?
+
+[37:51] **qx()**: That doesn't stop Solana or any of those companies or Avalanche or whoever those guys are. Yeah, I'm claiming that. While we're talking about other chains, guys, can I ask a quick question? Bitcoin, trying to squeeze a ton of things into blocks, right? So they can essentially become a cloud storage at this point. What would that look like on Ergo? Didn't we not have a block limit at one point and it just clogged the shit out of people's nodes and you had to crank down the block limit, size limit?
+
+[38:22] **kushti**: Yeah, so we have a block size limit, but it can be repurposed by miners, right? So they can lift the limits and already did that, actually. So the current limit is like 2x of initial. And well, miners can always raise for more. In Ergo we have a storage rent which is providing business from collecting the garbage data after four years. Here I don't see a big problem. It's much more flexible, right?
+
+[39:18] **qx()**: Compared to at least Bitcoin for that kind of...
+
+[39:18] **kushti**: Comparing with everything. So to the best of my knowledge, there is no storage rent anywhere, right? So Ethereum community tried to do that tried to push for that. Vitalik, even I believe back in 2015-16, but yeah, well, now it's forgotten. But there is some EIP about that Ethereum. To the best of my knowledge, that's quite natural, I believe. Incentive model and anti-garbage measurement is done in the Ergo only.
+
+[40:09] **qx()**: All right, we got 13 minutes. Let's hit some questions. All right, all right. Matta says, kushti doing tremendous work. I thought we'd put that kudos up there. White Cat wants to know, nice to see everybody back. Question for today, what have you guys done for Ergo in the last seven days? I think we just went on for that for 47 minutes. But White Cat has not sold, so. All right.
+
+[40:35] **qx()**: Let's see. We just commented on the Bitcoin OP_RETURNs controversy, I guess, right? From Luke. I already had that question. Let's see. Oh. Anything you guys see you want to answer? Shout it out while I look.
+
+[40:50] **kushti**: I don't see a chat. Where is that? So on mobile, I don't see it even.
+
+[41:00] **qx()**: Well, here we go.
+
+[41:02] **kushti**: Please comment on the Bitcoin OP_RETURNs. But it's all this hell, actually. I spent a lot of time around Bitcoin developers back in 2015, beginning of 2015 when I visited different events around San Francisco and there were a lot of Bitcoin developers around as well and well one of the most topics was yeah OP_RETURNs so there were some hot debates about making it 40 bytes or 80 bytes or something like that.
+
+[41:48] **kushti**: But yeah, I mean, it's always possible to encode data, right? It seems well in different ways. So, well, instead of preventing that, it's better to provide some simple way, I believe, to write data. And then, yeah, some simple mechanisms for preventing spam attacks and dust, garbage in the UTXO set.
+
+[42:25] **kushti**: Yeah, well, I believe Ergo is doing quite well here, right? Well, OP_RETURNs is also quite a simple mechanism. There is need for some anti-dust measurements and it's missing Bitcoin and there is a lot of dust in the UTXO set which is slowing down transaction validation and so on.
+
+[42:55] **kushti**: But yeah, well, we have what we have. So Bitcoin protocol is quite stable now, right? So we cannot expect any big changes. Only some, well, some soft fork-ish, right? Like taproot and before segwit. But well, there are some talks actually about demurrage in the Bitcoin community as well. Right? So well, I see a lot of talks about telemission or demurrage. But yeah, well, I can't imagine a deployment of that. But let's see. Let's see.
+
+[43:48] **qx()**: All right, let's see what else we have. We have, I think it's for MGPai. Let me find it. Where'd it go? It is from UrsaMina. MGPai, here you go. MGPai, please comment on Ergo utilization in Palmyra. Could it be done without Ergo? And if it could, why Ergo?
+
+[44:17] **MGPai**: Yeah, I think one place where Ergo shines compared to Cardano is with our transaction fees. It's much more affordable to do bulk tokenization on Ergo compared to Cardano because the MinUTXO for creating a token is like 1.2 ADA. So this means that you basically got to pay like a dollar, a dollar 50, depending on the price, just to make like one token, right?
+
+[44:50] **MGPai**: And that of course, you know, is not affordable if you have like something in large quantities you want to tokenize or like, for example, like beehives from various farmers, it'll all be a unique, unique asset. So, you know, if you want to do like a thousand, you'll need thousand unique mints on Cardano, which gets really expensive. It's not scalable, but compared to Ergo, you can do it for a fraction of the cost because the main UTXO on Ergo is like worth a fraction of a penny. And even if Ergo does like a 10X or a 100X, it's still going to be much cheaper than Cardano.
+
+[45:32] **qx()**: So are you, are you worried, do you have plans in place for demurrage? I mean, if these RWAs sit in a box, or are you going to have like requirements where when an RWA is put inside some sort of box and it's going to sit there for a while, you always, you always have to include with some ERGs or something like that. Yeah. The last thing you want is like something pulled from the chain that's supposed to be tracked forever, right?
+
+[45:57] **MGPai**: Yeah, the idea is that you have a bunch of tokens in a contract, right? Or if there is a contract, you let the contract be recreated on its own without doing anything extra. So we would have that along with an off-chain bot seeing if it's close to expiry, it can just recreate that and prevent the need for demurrage being collected at all, right? But adding ERG to an asset itself is a form of deferring the demurrage if you don't do anything about it. But if you do something about it, you don't really need to worry. So you could have some ERG as a buffer. Then on top of that, you can have an off-chain that constantly recreates the UTXO so demurrage doesn't need to be collected.
+
+[46:53] **qx()**: Cool, cool.
+
+[46:55] **qx()**: Let's see what else we have here.
+
+[47:04] **qx()**: What is the state of your platform of tokenization?
+
+[47:09] **kushti**: So yesterday I was on a call with some African government, as I told in the beginning. So the interest in having some platform for real-world test tokenization, right? And then, yeah, with Ergo to build some, well, financial to link around for funding small and medium scale miners. So what's the current status of tokenization platform? What's doable there? Is it open sourced and available to test?
+
+[47:51] **MGPai**: Yeah, so we have the Palmyra protocol as an original prototype. But personally, I don't have any involvement at the moment. But I have Luca, LDG, who's been on Ergo the last month or two, working on updating the Palmyra contracts beyond MVP. He's working on implementation of that and I'll probably be on it in the next month or two While I wrap up some Cardano things And you wrap up SigmaLock front end bots.
+
+[48:30] **qx()**: Yeah Don't forget about that MGPai All right, we've got the cook reminded everybody that the NH roads and he's very correct and
+
+[48:42] **qx()**: And maybe MGPai can speak to this since he is an EF member, right, MGPai? He said, they were talking about marketing. And Ayanesh says, to me, it seems like EF wants marketing to come from users and the ecosystem. It's not bad, necessarily. But most users, myself included, just want the number to go up and don't want to have to work for it. I mean, that is what it is. Some people join the ecosystem and you'll see, I mean, look at a lot of us up here at front of the camera, people in the Sigmanauts, they join the ecosystem and they recognize that Ergo's focused on kind of a grassroots movement as far as marketing goes. That was the original intent of mine.
+
+[49:14] **qx()**: My understanding of the intent of the EF was that. And we're doing our parts, not being paid just for the good of what Ergo is and what it represents compared to all the other projects out there. But that being said, the EF has given out grants, guys. So I know that it's work sometimes, but if somebody has an idea that says, hey, we want to do this kind of outreach, like take Mark the Shark. He wrote a proposal that said, look, we want to do outreach via mining. We're going to develop a mining tool that's easy and plug and play kind of thing with a dashboard and these kind of NFTs to get people excited about it.
+
+[49:52] **qx()**: And he got a grant for it, and he's working on it as we speak. So that stuff is possible. Write up a nice proposal, send it to the EF. And if you don't want to do the work, maybe you'd like to write the proposal and then find other people to do the work. But here, at least, the people I'm looking at right now all pick up pick up a wrench and start tightening stuff and loosening stuff and playing with stuff with no idea of being rewarded other than the fact that we're creating something unlike anything else.
+
+[50:25] **kushti**: Yeah. Yeah. I also don't understand what users mean here. So how are they using? Because, well, I'm here currently in Ergo because I'm also a user, right? Otherwise, what's the reason I'm not getting paid by, well, EF or, well, users or any other entity, right? So, well, the interest is to use the Ergo, right? And, well, the reason why I'm using it because, well, for, well, things I'm interested in simply there is no alternative, right?
+
+[51:06] **kushti**: So, well, still there are a lot of pros of UTXO. Well, I think from what I'm doing as a user, the guy who is also doing contracts on Ergo and so on, and I hope to see that being used in the real world, right, because, well, I'm a little bit tired, to be honest, to be in the space for like 15 years to the moment, and, well, here, well, on this, nonsense about, I don't know, it's always in the different form, but about the same after all, right?
+
+[52:05] **kushti**: So, I mean, some projects are claiming something, some hype, a number go up, number go down, then yeah, I mean, it repeats with some new narrative. It's a little bit insane, to be honest, right? Well, to continue to be saying in this space, you need for some hope to see that being used in the real world. what I feel right by developing contracts and well now now thinking about off-chain systems and so on well and well reviewing contracts right in peer-to-peer finance and so on so well I think it's very natural.
+
+[53:00] **kushti**: Well, and now, well, in this space, there are a lot of strange talks about products market fit, right? I mean, even for blockchains, right? Good occurrence. So it's, it's hard to say what, what, what, what, what, what is a product here, right? I mean, naturally, if there is product, then what's the decentralization here? I mean, the blockchain. So it's hard to understand all the stalls but yeah I think that Ergo is pretty good and well fulfilling all the requirements when you are building tools for our grassroots finance right for well sovereign finance peer-to-peer economic interactions.
+
+[53:52] **kushti**: And, yeah, it has perfect lifestyle, market fit, right, so, well, if you are, well, thinking about, well, building stronger communities and, well, sovereignty of those communities and self-individual sovereignty, then, yeah, well, it's probably the best toolset I'm personally having now, right? So, well, as a user, well, I don't see a real alternative.
+
+[54:29] **qx()**: No, I agree. I think it's the best tool set that I've experienced. I can't imagine building what I built here in this system for students with Ethereum or even Cardano. It would be impossible. I can do an initial airdrop of brick to students and give them 0.1 ERG, and they're set for 10, 15 transactions done each. What's done and done is forgotten. The code out there, I know the tool set, it wouldn't work anywhere else.
+
+[55:03] **qx()**: So that's testament to me that as more and more people start recognizing this and building things on their own for their own use cases and recycling code using other people's, it's going to become very apparent that when it comes to real-world use cases, Ergo is really above everybody else in that sense.
+
+[55:28] **qx()**: It's 10.02, guys. MGPai, you're going to turn into a pumpkin. Are you skipping class for this?
+
+[55:35] **MGPai**: No, no, I have a later class today, so.
+
+[55:38] **qx()**: When's your first final?
+
+[55:41] **MGPai**: It's in a week and a half.
+
+[55:44] **qx()**: Oh, not bad. Oh, one last question, guys. This is from UrsaMina. This is a neat question. Small amount of data, but they want to know if they can use blocks to store an encrypted password list, immutable storage. Like how secure would you trust encrypting your passwords into a file and dumping it on chain?
+
+[56:01] **MGPai**: I mean, just the encryption algorithm, right? That you've got to trust. Yeah, right. Exactly. Not really the blockchain.
+
+[56:13] **qx()**: How many bytes is it that you can store in the register?
+
+[56:23] **kushti**: There is only a box limit, which is about 4 kilobytes. But you can spread our many UTXOs from it.
+
+[56:37] **qx()**: All right, that's a good point. You could. So just develop an app that breaks it in half, breaks it in parts.
+
+[56:42] **kushti**: Yeah, that's a great point. Yes, so you can save in chunks. And yeah, well, four years after, you will pay for storage rent. Then for four kilobytes, it would be about like five ERG even, right? Something like that, four or five ERG. So a few dollars, which is quite reasonable, I believe, amount considering that you're storing your four kilobytes of data on hundreds of machines, right?
+
+[57:24] **qx()**: That'd be interesting to set up a password vault system on the blockchain, right? Where everything's put there and you're just... Right? I mean, but what's the risk, right? You have LastPass just had a huge nuke thing a year or two ago right I think they had a big scare where the keys were in charge of one person essentially whereas you know something like this each person would have access to their own keys only I mean LastPass probably had some bullshit about like recovering if you forgot your password or something like that right that's probably how right exactly yeah safety net yep yep yep so there's a master key but
+
+[58:09] **qx()**: Yeah, that'd be interesting. Yeah, that would make me nervous, MGPai, because you're really trusting whatever encryption algorithm that you're using at the time.
+
+[58:18] **MGPai**: I mean, I would trust them, right? Because it's been time tested, right? Like, no one's been breaking RSA encryption. But it's like you kind of lose a layer of protection, right? Because if you have something, I know, like encrypted in your own machine, like someone has to get to your own machine to get that encrypted. Yeah. You're taking that gate away from them. Exactly. You take that layer of protection away by directly putting it on the blockchain. But after that data is taken, then it's just figuring out the password or brute forcing it.
+
+[58:51] **MGPai**: In that sense, those layers are the same, just attacking something that's already...
+
+[58:57] **qx()**: UrsaMina wrote again, and he's saying, how would anyone know its passwords? And he's right. I mean, you can, like, protection through obscurity, right, kind of thing. But I guess if it got to follow certain patterns, and UTXOs were created around a certain amount of times, like if it always spanned through UTXOs, and it always was made at the same time, and it was always made by certain wallets, you could probably do some lookups and figure it out.
+
+[59:19] **MGPai**: If you break it into like chunks though, I'm sure like, no, like how would someone even know that there's encrypted data on chain?
+
+[59:26] **qx()**: Send it through the mixer.
+
+[59:30] **MGPai**: Yeah, that won't work. If the data is like in multiple like chunks UTXO, it's kind of messed up.
+
+[59:39] **kushti**: Yeah, but you also can store data in UTXO protected with a stealth address, right? So then recipient is not known. Right. Right. Right. I mean, it's, it's, non, only that's, yeah, well, it's, it's a stealth.
+
+[60:01] **qx()**: You could store usernames and passwords and separate UTXOs as well. Right. And somehow find a way to link them just known to the user based on some sort of hash or something that they would do. So if somebody, if somebody got a hold of the usernames, that wouldn't matter. Somebody got a hold of the passwords alone, that wouldn't matter. But only the user knows how to bring them back together.
+
+[60:20] **kushti**: Well, the next step in those off-chain systems I'm thinking about, like off-chain cash would be adding some privacy, right? So, well, when you may have a private transfer before on-chain redemption then yeah it would be quite cool right so then you have some private half-chain cash with yeah well transparent on-chain reserves right and redemption against them but yeah that's quite different topic all right boys let's wrap it up but yeah so what we are doing next week ma spaces what
+
+[61:14] **kushti**: AMAs are easier, that's for sure. Yeah, by the way, I will do spaces next Wednesday with some media. So some industry media. So I will share an announcement in coming days.
+
+[61:40] **qx()**: Is it in English, kushti?
+
+[61:41] **kushti**: Yeah, yeah. So yeah, it's quite known industry media. So there will be a Twitter spaces event on Wednesday. So yeah, then next Thursday, let's have AMA maybe.
+
+[62:01] **qx()**: All right. Sounds good. Send us a link so we can push it.
+
+[62:05] **kushti**: Yeah, maybe we can have some occasional community chats on Friday, Saturday, Sunday, because, well, still there are some topics to discuss, especially, well, in regards what to do after sub-blocks, right, and, well, how to get to the, well, adoption.
+
+[62:36] **qx()**: All righty. Well, thanks for joining us MGPai. kushti, it's been fun.
+
+[62:43] **MGPai**: Yeah. Thank you guys.
+
+[62:45] **kushti**: Thank you.
+
+[62:46] **qx()**: Bye guys.
+
+[62:48] **kushti**: Thank you everyone.
+
+[62:49] **qx()**: Thank you for your questions.
+
+[62:50] **qx()**: Bye.

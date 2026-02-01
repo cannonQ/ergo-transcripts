@@ -1,0 +1,240 @@
+{
+  "call_date": "2025-02-16",
+  "call_title": "Ergo PoW Dev Update Feb 16th 2025 |  Wallets, Stable Coin, SubBlocks, Bounties, Nodes, and more!",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Call Introduction and Ecosystem Overview",
+      "category": "ecosystem",
+      "start_time": "00:13",
+      "end_time": "03:44",
+      "primary_speaker": "qx()",
+      "summary": "Welcome to dev update #130 with discussion of Ergo's resilient ecosystem during market downturns. Host highlights the 30-40 active projects on Ergo and emphasizes the platform's strong fundamentals and tooling capabilities compared to other chains dependent on large money inflows.",
+      "key_terms": [
+        "dev update",
+        "ecosystem",
+        "sigmaverse",
+        "financial tools",
+        "market resilience"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Nautilus Wallet Development Updates",
+      "category": "technical",
+      "start_time": "04:15",
+      "end_time": "05:07",
+      "primary_speaker": "qx()",
+      "summary": "AnonBR from Team Nautilus reports significant wallet improvements including refactored components, 24-word mnemonic support, and UI fixes. The Chrome extension wallet is also working on a mobile version.",
+      "key_terms": [
+        "Nautilus wallet",
+        "Chrome extension",
+        "24-word mnemonic",
+        "mobile version",
+        "UI improvements"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Paideia DAO Platform Progress",
+      "category": "governance",
+      "start_time": "05:07",
+      "end_time": "05:32",
+      "primary_speaker": "qx()",
+      "summary": "Luivatra mentions being busy and looks forward to the new execute from VAR function for Paideia contracts. Host encourages users to try spinning up DAOs on the platform.",
+      "key_terms": [
+        "Paideia",
+        "DAO",
+        "execute from VAR",
+        "contracts",
+        "governance"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "ErgFi Dexy Development Status",
+      "category": "defi",
+      "start_time": "05:32",
+      "end_time": "05:53",
+      "primary_speaker": "qx()",
+      "summary": "Progress on Dexy Gold swap widget completion, Bank LP widget in progress, and ErgoPay integration work. Testing conducted with fake tokens by end of week.",
+      "key_terms": [
+        "ErgFi",
+        "Dexy Gold",
+        "swap widget",
+        "Bank LP",
+        "ErgoPay",
+        "stable coin"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Core Protocol and Node Updates",
+      "category": "technical",
+      "start_time": "05:53",
+      "end_time": "07:07",
+      "primary_speaker": "qx()",
+      "summary": "Kushti releases client 5.0.25 with extra node indices and Sigma SDK 5.0.15 featuring Execute from VAR and BigInt functions. Version 6.0.0 RC2 supports activation on public testnet with voting completed.",
+      "key_terms": [
+        "client 5.0.25",
+        "extra indices",
+        "Sigma SDK",
+        "Execute from VAR",
+        "BigInt functions",
+        "6.0 activation",
+        "public testnet"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Sub-blocks Implementation and Testing",
+      "category": "technical",
+      "start_time": "07:07",
+      "end_time": "08:07",
+      "primary_speaker": "qx()",
+      "summary": "First sub-blocks tests with AI implementation to improve transaction confirmation times. Development focuses on handling out-of-order sub-blocks, delayed transactions, and fork resolution while maintaining node consensus.",
+      "key_terms": [
+        "sub-blocks",
+        "faster confirmation",
+        "out-of-order processing",
+        "delayed transactions",
+        "forks",
+        "node consensus"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Oracle V2 and Reward Tokens",
+      "category": "defi",
+      "start_time": "08:21",
+      "end_time": "09:44",
+      "primary_speaker": "qx()",
+      "summary": "SigmaUSD Oracle group vote passed for client version 2 update. Introduction of DORT (Dollar Oracle Reward Token) for SigmaUSD alongside existing GORT for Dexy Gold, with potential for additional oracle reward tokens.",
+      "key_terms": [
+        "Oracle V2",
+        "SigmaUSD",
+        "DORT",
+        "GORT",
+        "oracle reward tokens",
+        "client version 2"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Rosen Bridge Development Progress",
+      "category": "bridges",
+      "start_time": "09:44",
+      "end_time": "10:27",
+      "primary_speaker": "qx()",
+      "summary": "Binance integration planned for release in coming days. Watcher version 2 adds observation status service, startup/stop functions, and DB service dependencies. RosenSoon app implements aggregation method for public event status.",
+      "key_terms": [
+        "Rosen Bridge",
+        "Binance integration",
+        "watcher version 2",
+        "observation status",
+        "aggregation method",
+        "cross-chain"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "NodeView Interface Enhancements",
+      "category": "technical",
+      "start_time": "10:59",
+      "end_time": "11:43",
+      "primary_speaker": "qx()",
+      "summary": "NodeView XYZ adds special detection for major Ergo protocols including Spectrum DEX, Rosen Bridge, and SigmaUSD. Performance optimizations through caching and migration to Cloudflare hosting with planned pop-ups for swap parameters.",
+      "key_terms": [
+        "NodeView XYZ",
+        "Spectrum DEX",
+        "caching optimization",
+        "Cloudflare",
+        "swap parameters",
+        "node interface"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Development Bounties and Opportunities",
+      "category": "community",
+      "start_time": "11:46",
+      "end_time": "12:35",
+      "primary_speaker": "qx()",
+      "summary": "Active bounties include Keystone Wallet Integration (3,000 ERG) and Fleet SDK tutorials (775 SigmaUSD). Host strongly encourages developers to participate, emphasizing the learning opportunity and financial rewards available.",
+      "key_terms": [
+        "bounties",
+        "Keystone Wallet",
+        "3000 ERG",
+        "Fleet SDK",
+        "775 SigmaUSD",
+        "developer incentives"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "RocksDB Node Client Release",
+      "category": "technical",
+      "start_time": "12:42",
+      "end_time": "14:07",
+      "primary_speaker": "qx()",
+      "summary": "Ergo Protocol Reference Client 5.1.2 released with RocksDB for improved database stability. Discussion of node maintenance challenges and database corruption issues, particularly on resource-constrained devices like Raspberry Pi.",
+      "key_terms": [
+        "RocksDB",
+        "client 5.1.2",
+        "database stability",
+        "Raspberry Pi",
+        "node maintenance",
+        "corruption prevention"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Oracle Update Completion",
+      "category": "technical",
+      "start_time": "14:10",
+      "end_time": "14:30",
+      "primary_speaker": "qx()",
+      "summary": "Oracle operators successfully completed the update ceremony in about 20 minutes. The minimal script update now allows for Oracle version 2 upgrades.",
+      "key_terms": [
+        "oracle operators",
+        "update ceremony",
+        "20 minutes",
+        "script update",
+        "oracle version 2"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Ecosystem Project Highlights",
+      "category": "ecosystem",
+      "start_time": "14:30",
+      "end_time": "16:26",
+      "primary_speaker": "qx()",
+      "summary": "Updates on Cyberverse game nights and multiplayer games, MewFinance supporting Sigmanauts mining DAO liquidity, and mining pool community growth. Encouragement for small miners to join regardless of hardware capabilities.",
+      "key_terms": [
+        "Cyberverse",
+        "game nights",
+        "MewFinance",
+        "Sigmanauts mining DAO",
+        "small miners",
+        "community mining"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "Call Wrap-up and Community Events",
+      "category": "community",
+      "start_time": "16:26",
+      "end_time": "17:09",
+      "primary_speaker": "qx()",
+      "summary": "Host seeks feedback on new call format and promotes upcoming Thursday AMA and Sunday Sigmanauts meeting. Invitation extended for community members to join and listen to public discussions.",
+      "key_terms": [
+        "new format",
+        "Thursday AMA",
+        "Sigmanauts meeting",
+        "community participation",
+        "public discussions"
+      ]
+    }
+  ]
+}

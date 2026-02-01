@@ -1,0 +1,120 @@
+{
+  "call_date": "2025-01-31",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - January 30th",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "08:16",
+      "decision": "Community town hall scheduled for February 4th at 4 p.m. UTC",
+      "speaker": "kushti",
+      "context": "To discuss monetary innovation aspects in Ergo Core protocol and ecosystem",
+      "topic": "governance",
+      "significance": "minor",
+      "quote": "All right, so next Tuesday will be February 4th. Yeah, so let's meet our community town hall and discuss different well, monetary innovation aspects we have in the Ergo Core protocol and the ecosystem."
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "31:43",
+      "commitment": "Release public testnet for 6.0 after fixing all found issues",
+      "owner": "kushti",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "Then, yeah, well, all the issues found in 6.0 are fixed. So I'm going for public testnet release."
+    },
+    {
+      "id": 2,
+      "timestamp": "31:43",
+      "commitment": "Final audit and mainnet warning and activation for 6.0",
+      "owner": "kushti",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "And then, yeah, well, final audit and we are good for mainnet warning and activation."
+    },
+    {
+      "id": 3,
+      "timestamp": "44:42",
+      "commitment": "Provide 6.0 jar file and config instructions for testnet",
+      "owner": "kushti",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "All right. So yeah, I will just provide you a 6.0 jar. And yeah, you will need to put, well, one value in a config file."
+    },
+    {
+      "id": 4,
+      "timestamp": "08:02",
+      "commitment": "Announce the community town hall on Twitter",
+      "owner": "qx()",
+      "timeline": "today",
+      "topic": "governance",
+      "quote": "No, let me do that today. Why don't you announce it in person right here and then we'll announce it on Twitter later."
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "30:48",
+      "question": "Identity of current testnet miner",
+      "context": "kushti trying to find who is currently mining the testnet",
+      "topic": "technical",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "32:33",
+      "question": "Synchronization between DEX front-end and back-end developers",
+      "context": "Difficulty getting UI and main deployments done due to lack of sync",
+      "topic": "technical",
+      "raised_by": "kushti"
+    }
+  ],
+  "reversals_or_updates": [
+    {
+      "id": 1,
+      "timestamp": "43:55",
+      "previous": "Unknown testnet miner",
+      "update": "qx() confirmed as the single testnet miner",
+      "reason": "qx() checked his testnet miner during the call",
+      "speaker": "qx()",
+      "topic": "technical"
+    }
+  ],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "09:56",
+      "fact": "Sigmanauts recently collected 14 ERGs from storage rent",
+      "speaker": "kushti",
+      "topic": "storage-rent"
+    },
+    {
+      "id": 2,
+      "timestamp": "15:15",
+      "fact": "$20,000 worth of liquidity in ERG/PHP token picked up by storage rent",
+      "speaker": "qx()",
+      "topic": "storage-rent"
+    },
+    {
+      "id": 3,
+      "timestamp": "16:37",
+      "fact": "Ergo launched in 2019 and is still the only blockchain with storage rent",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 4,
+      "timestamp": "53:45",
+      "fact": "SigmaUSD Oracle pool has 4 or 5 participants with maximum possible of 12",
+      "speaker": "kushti",
+      "topic": "oracle-pools"
+    },
+    {
+      "id": 5,
+      "timestamp": "55:43",
+      "fact": "Gold Oracle pools have exactly 20 operators maximum with 14-18 currently online",
+      "speaker": "kushti",
+      "topic": "oracle-pools"
+    }
+  ]
+}

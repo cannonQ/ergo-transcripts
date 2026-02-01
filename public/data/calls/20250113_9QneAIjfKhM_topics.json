@@ -1,0 +1,176 @@
+{
+  "call_date": "2025-01-13",
+  "call_title": "Ergo in 2025 | Predictions and Possibilities",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Sub-blocks Implementation and Network Load Distribution",
+      "category": "technical",
+      "start_time": "01:10",
+      "end_time": "07:27",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of sub-blocks inspired by Prism and Parallel Proof of Work, designed to spread network load continuously rather than having bottlenecks every 2 minutes. This approach moves bottlenecks to network bandwidth while maintaining peer-to-peer nature, contrasting with centralized scaling solutions.",
+      "key_terms": [
+        "sub-blocks",
+        "Prism",
+        "Parallel Proof of Work",
+        "network bandwidth",
+        "peer-to-peer",
+        "load distribution"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Peer-to-Peer Networks vs Centralized Scaling Approaches",
+      "category": "technical",
+      "start_time": "07:27",
+      "end_time": "11:56",
+      "primary_speaker": "kushti",
+      "summary": "Critique of industry trends toward centralization through powerful validators and data centers, versus Ergo's commitment to preserving peer-to-peer nature. Discussion covers problems with proof of stake, sharding, and other scaling solutions that sacrifice decentralization.",
+      "key_terms": [
+        "centralization",
+        "validators",
+        "proof of stake",
+        "sharding",
+        "digital oligarchy",
+        "stateless clients"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Web3 Mission Drift and Regulatory Compliance",
+      "category": "ecosystem",
+      "start_time": "11:56",
+      "end_time": "16:02",
+      "primary_speaker": "Armeanio",
+      "summary": "Analysis of how the crypto space has drifted from peer-to-peer networks to compliance-focused systems with layers of trust. Discussion of Web3 term misuse and potential schism between compliant and censorship-resistant systems in 2025.",
+      "key_terms": [
+        "Web3",
+        "mission drift",
+        "compliance",
+        "censorship resistance",
+        "trust layers",
+        "regulation"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Proof of Work vs Proof of Stake Economics",
+      "category": "technical",
+      "start_time": "16:02",
+      "end_time": "21:06",
+      "primary_speaker": "kushti",
+      "summary": "Theory that proof-of-stake creates 'free money' through staking rewards, which holders then use to buy proof-of-work assets like Bitcoin. This dynamic may explain Ethereum's poor performance after the merge and could make proof-of-work assets more valuable over time.",
+      "key_terms": [
+        "proof of work",
+        "proof of stake",
+        "staking rewards",
+        "free money",
+        "hard money",
+        "MEV distribution"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Algorithmic Stablecoins vs Traditional Stablecoins",
+      "category": "defi",
+      "start_time": "21:06",
+      "end_time": "29:54",
+      "primary_speaker": "kushti",
+      "summary": "Explanation of why algorithmic stablecoins like Dexy are preferable to trusted stablecoins like Tether. Algorithmic stablecoins provide trustless backing for more complex financial systems and eliminate reliance on centralized issuers and government bonds.",
+      "key_terms": [
+        "algorithmic stablecoins",
+        "Dexy",
+        "Tether",
+        "trustless backing",
+        "government bonds",
+        "unconditional redemption"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Cross-Chain Interoperability and Sigma Sidechains",
+      "category": "bridges",
+      "start_time": "29:54",
+      "end_time": "34:29",
+      "primary_speaker": "kushti",
+      "summary": "Overview of Ergo 6.0 cross-chain capabilities including Bitcoin relays, two-way relays with various consensus mechanisms, and Sigma sidechains. Discussion of trustless bridges and integration with Rosen Bridge for connecting to popular chains like Bitcoin and Ethereum.",
+      "key_terms": [
+        "cross-chain",
+        "Bitcoin relays",
+        "Sigma sidechains",
+        "trustless bridges",
+        "Rosen Bridge",
+        "two-way relays"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Metal-Backed Stablecoins vs Fiat Pegs",
+      "category": "defi",
+      "start_time": "34:29",
+      "end_time": "42:39",
+      "primary_speaker": "Armeanio",
+      "summary": "Argument that the crypto industry chose the wrong monetary foundation by pegging to centralized fiat rather than decentralized metals like gold and silver. Metal mining networks are more decentralized than cryptocurrency mining and provide better censorship resistance.",
+      "key_terms": [
+        "metal stablecoins",
+        "gold",
+        "silver",
+        "fiat pegs",
+        "decentralized mining",
+        "monetary foundation"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Lithos Development and Mining Decentralization",
+      "category": "technical",
+      "start_time": "42:39",
+      "end_time": "48:04",
+      "primary_speaker": "Armeanio",
+      "summary": "Discussion of Lithos project's potential to return block production to individual miners rather than pools, improving network resilience. Comparison to non-outsourceable puzzles and the need for proper incentives to encourage local block production.",
+      "key_terms": [
+        "Lithos",
+        "individual miners",
+        "mining pools",
+        "non-outsourceable puzzles",
+        "block production",
+        "censorship resistance"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "ChainCash Free Banking System Vision",
+      "category": "defi",
+      "start_time": "48:04",
+      "end_time": "58:32",
+      "primary_speaker": "kushti",
+      "summary": "Detailed explanation of ChainCash concept for creating free banking systems on blockchain. Evolution from local exchange trading systems to global spender-signed currency system allowing individual choice of security parameters and asset acceptance.",
+      "key_terms": [
+        "ChainCash",
+        "free banking",
+        "LETS",
+        "spender-signed currency",
+        "mutual credit clearing",
+        "monetary expansion"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Ergo Long-term Vision and Developer Growth",
+      "category": "ecosystem",
+      "start_time": "58:32",
+      "end_time": "67:56",
+      "primary_speaker": "kushti",
+      "summary": "Summary of Ergo's comprehensive vision including stablecoins, cross-chaining, decentralized onramps, and layer-2 solutions as the 'end game for crypto' envisioned by Bitcoin's creators. Emphasis on need for more developers, researchers, and educators to grow the Sigmanaut community.",
+      "key_terms": [
+        "end game for crypto",
+        "Sigmanauts",
+        "decentralized onramps",
+        "layer-2",
+        "monetary hackers",
+        "peer-to-peer finance"
+      ]
+    }
+  ]
+}

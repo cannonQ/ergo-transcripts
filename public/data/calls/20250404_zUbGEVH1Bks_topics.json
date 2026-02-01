@@ -1,0 +1,246 @@
+{
+  "call_date": "2025-04-04",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - April 3rd",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "AI Blockchain Analysis and Smart Contract Generation",
+      "category": "technical",
+      "start_time": "00:00",
+      "end_time": "05:35",
+      "primary_speaker": "Marc the Shark",
+      "summary": "Discussion of creating AI agents for blockchain analysis and automated trading bots using Open Web UI. Plans include developing grid trading bots that can analyze data and execute transactions on Spectrum Finance based on prompts.",
+      "key_terms": [
+        "AI agents",
+        "grid trading bot",
+        "Open Web UI",
+        "LLM",
+        "blockchain analysis"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Oracle Pool Configuration and DeFi Applications",
+      "category": "defi",
+      "start_time": "01:22",
+      "end_time": "04:27",
+      "primary_speaker": "kushti",
+      "summary": "Plans to use LLM for generating Oracle Pool configurations and creating stable coins. Discussion of automating options contracts for farmers to bypass traditional banking intermediaries.",
+      "key_terms": [
+        "Oracle Pool",
+        "USD Oracle Pool",
+        "stable coins",
+        "options contracts",
+        "farmers"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Sigmanauts Mining Pool Status and Updates",
+      "category": "community",
+      "start_time": "06:12",
+      "end_time": "08:06",
+      "primary_speaker": "Marc the Shark",
+      "summary": "Mining pool operating at 90 GHz with website redesign in progress using AI tools. Distributed over 150 ERGs in demurrage rewards last week, positioning as the last refuge for GPU miners.",
+      "key_terms": [
+        "Sigmanauts mining pool",
+        "demurrage rewards",
+        "GPU miners",
+        "90 GHz",
+        "bonus tokens"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Ergo 6.0 Release and Sub-blocks Development",
+      "category": "technical",
+      "start_time": "08:06",
+      "end_time": "12:37",
+      "primary_speaker": "kushti",
+      "summary": "Ergo 6.0 release in progress with mainnet syncing and bug fixes. Sub-blocks peer-to-peer logic completed with testing beginning soon. Version 5026 to include Candidate Regeneration for faster transaction confirmations.",
+      "key_terms": [
+        "Ergo 6.0",
+        "sub-blocks",
+        "peer-to-peer",
+        "Candidate Regeneration",
+        "soft fork"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Sub-blocks Mempool and API Architecture",
+      "category": "technical",
+      "start_time": "12:37",
+      "end_time": "17:10",
+      "primary_speaker": "kushti",
+      "summary": "Technical discussion of how mempool will function with sub-blocks, expecting higher orphan rates and rollbacks. New APIs being developed with initial implementation focusing on peer-to-peer functionality.",
+      "key_terms": [
+        "mempool",
+        "sub-blocks",
+        "orphan rates",
+        "rollbacks",
+        "APIs"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Economic Outlook and Crypto Market Analysis",
+      "category": "ecosystem",
+      "start_time": "17:21",
+      "end_time": "22:15",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of crypto's role during economic turbulence, positioning Ergo as digital gold with smart contracts. Challenges with crypto perception and the need for Ergo recognition in the broader market.",
+      "key_terms": [
+        "digital gold",
+        "economic turbulence",
+        "smart contracts",
+        "Bitcoin",
+        "Monero"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Sub-blocks Use Cases and Settlement Speed",
+      "category": "technical",
+      "start_time": "22:15",
+      "end_time": "27:46",
+      "primary_speaker": "kushti",
+      "summary": "Applications benefiting from sub-blocks include DEXs and on-ramp services. Discussion of faster settlement times for face-to-face transactions and potential revival of blockchain games.",
+      "key_terms": [
+        "DEX",
+        "on-ramp",
+        "settlement",
+        "face-to-face transactions",
+        "blockchain games"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "AI-Powered Development Tools and ErgoScript",
+      "category": "technical",
+      "start_time": "28:31",
+      "end_time": "37:01",
+      "primary_speaker": "Marc the Shark",
+      "summary": "Guidance on using AI tools like Claude, Cursor, and lovable.dev for React and ErgoScript development. Discussion of creating context for LLMs to generate smart contracts with 50-75% accuracy.",
+      "key_terms": [
+        "vibe coding",
+        "ErgoScript",
+        "React",
+        "Claude Sonnet",
+        "smart contracts"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "AI Development Experience and Testing",
+      "category": "technical",
+      "start_time": "31:57",
+      "end_time": "37:01",
+      "primary_speaker": "kushti",
+      "summary": "Experience using Sonnet 3.5 for core development, particularly successful for generating tests but challenging for complex algorithms. AI proves most effective for standard coding tasks.",
+      "key_terms": [
+        "Sonnet 3.5",
+        "test generation",
+        "ChainCash",
+        "subtle bugs",
+        "complex algorithms"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Blockchain Stress Testing and Network Topology",
+      "category": "technical",
+      "start_time": "39:07",
+      "end_time": "43:45",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of stress testing requirements for sub-blocks, need for realistic testnet topology. Historical stress tests from Aneta airdrop in 2021 that caused node issues.",
+      "key_terms": [
+        "stress testing",
+        "testnet topology",
+        "Aneta airdrop",
+        "node failures",
+        "TPS"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Scalability Philosophy and Layer 2 Solutions",
+      "category": "technical",
+      "start_time": "44:28",
+      "end_time": "48:15",
+      "primary_speaker": "kushti",
+      "summary": "Vision for local vs global consensus, comparing to Hawala system where local transactions don't require global consensus. Layer 2 solutions needed for billion-user scale rather than just increasing TPS.",
+      "key_terms": [
+        "layer 2",
+        "global consensus",
+        "Hawala system",
+        "local segments",
+        "scalability"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Ergo-Cardano Multi-chain Collaboration",
+      "category": "bridges",
+      "start_time": "48:45",
+      "end_time": "51:08",
+      "primary_speaker": "kushti",
+      "summary": "Exploration of multi-chain Hydra implementation between Ergo and Cardano using shared elliptic curve support. Potential for cross-chain collateralized off-chain transactions.",
+      "key_terms": [
+        "multi-chain Hydra",
+        "Cardano",
+        "secp256k1",
+        "cross-chain",
+        "off-chain transactions"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Off-chain Systems and Layer 2 Design",
+      "category": "technical",
+      "start_time": "52:02",
+      "end_time": "56:00",
+      "primary_speaker": "kushti",
+      "summary": "Detailed discussion of various off-chain systems including reverse IOU schemes, Fedimint, Cashew, Lightning Network limitations, and ARK protocol. Plans for classifying and auto-generating off-chain systems.",
+      "key_terms": [
+        "off-chain IOUs",
+        "Fedimint",
+        "Cashew",
+        "Lightning Network",
+        "ARK protocol"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "Testnet Incentives and Mainnet Bridge",
+      "category": "community",
+      "start_time": "56:00",
+      "end_time": "57:29",
+      "primary_speaker": "Marc the Shark",
+      "summary": "Proposal for incentivizing testnet mining through bonus tokens for dual mainnet/testnet miners. kushti suggests building trustless bridge between Ergo mainnet and testnet for experimental liquidity pools.",
+      "key_terms": [
+        "testnet mining",
+        "bonus tokens",
+        "trustless bridge",
+        "testnet ERG",
+        "liquidity pools"
+      ]
+    },
+    {
+      "topic_id": 15,
+      "title": "Storage Rent Token Distribution Strategy",
+      "category": "community",
+      "start_time": "57:29",
+      "end_time": "62:40",
+      "primary_speaker": "Marc the Shark",
+      "summary": "Update on PHP token launch and distribution from storage rent collection. Weekly distribution of 150+ ERGs to miners, with plans to potentially open-source the process while maintaining competitive advantages.",
+      "key_terms": [
+        "storage rent",
+        "PHP token",
+        "token distribution",
+        "UTXO cleanup",
+        "open source"
+      ]
+    }
+  ]
+}

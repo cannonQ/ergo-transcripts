@@ -1,0 +1,313 @@
+[00:14] **Dan Friedman**: Hey, everybody.
+
+[00:16] **Dan Friedman**: My name is qx().
+
+[00:18] **Dan Friedman**: I'm a Sigmanauts.
+
+[00:21] **Dan Friedman**: And with me, I have Dan Friedman and he's a Sigma.
+
+[00:27] **Dan Friedman**: It is.
+
+[00:30] **Dan Friedman**: Oh, Dan Friedman.
+
+[00:32] **Dan Friedman**: Oh, he switched us.
+
+[00:33] **Dan Friedman**: That was really trippy.
+
+[00:35] **Dan Friedman**: That was super trippy.
+
+[00:36] **Dan Friedman**: Wow.
+
+[00:37] **qx()**: You missed that one to be Dan Friedman for a minute.
+
+[00:39] **qx()**: Darn it.
+
+[00:40] **Dan Friedman**: Yeah, sorry, you're not handsome enough to be, I'm not. I had a good, I had a couple good lines too I was gonna spout out that like I am Dan Friedman and I'm here to bring you just an amazing, amazing AMA of stuff for Ergo. So with me I got, well, I got qx() and his three favorite boxes to his right.
+
+[01:07] **qx()**: Oh, yeah, those are great. That's a classic example of project managers being awful.
+
+[01:14] **Dan Friedman**: Yeah, it's a classic example of you not putting your shit away.
+
+[01:17] **qx()**: No, no, no. That's out on purpose to remind me to take it to New York City when I go there. Huge project that we did. A lot of stuff. And whoever was... I don't want to blame the architect designer. Maybe the builders. I don't know.
+
+[01:34] **Dan Friedman**: Yeah, you blame the architect designer.
+
+[01:35] **qx()**: Whoever was putting the floor box plates into the boxes that are showing behind the stage didn't make sure they were going to fit. So it's easier for me to just buy them and install them myself. But classic kind of little punchlist stuff that is $3,000 a fix or $200 for me to buy it and take it down there and fix it kind of thing.
+
+[02:03] **Dan Friedman**: I have no idea what you're talking about, but... Well, it's okay.
+
+[02:06] **qx()**: How's your week been, Dan? You had a successful Zengate liquidity launch, right?
+
+[02:12] **Dan Friedman**: We did a thing. Yeah, we did a thing. We launched a token for those of you who have been living under a rock. Yeah, Palm is out and it is live. And yes, sir, it used none other than Rosen Bridge to go multi-chain at launch. That's amazing, sir. Which was really cool. It worked fantastically.
+
+[02:39] **Dan Friedman**: So the thing that I was wondering about is how would arbitrage work between the two chains. And it actually worked really well. The price is pretty much the same on both sides, on the Binance side as well as the Cardano side. Staking is working really well on both sides. Yeah, just everything really worked out well. I mean, Rosen worked fantastically. And so like I said, I'm very happy to be the first official multi-chain token launch using Rosen. So kudos to the Rosen team. And yeah, it was no complaints yet.
+
+[03:27] **qx()**: Give it time, right?
+
+[03:29] **Dan Friedman**: Yeah. Give it time. We'll find something. 
+
+[03:31] **qx()**: So it currently, can you do more stuff? Like let's say people only really... Let's say people enter from the Binance side. Is there a benefit for them to move over to the Cardano side to have more utility with your token at this point or vice versa?
+
+[03:48] **Dan Friedman**: At this point, well, first of all, there's more support on the Cardano side. So we just have more support for more wallets. So on the Binance side, I think we got Metamask support. But, you know, it works weird because you would think that Binance works with Binance, but it actually works with Ethereum. And it always confused the shit out of me, like, why is that? You know, I mean, I know why that is, but I'm just saying it's kind of like a really, really weird UX, qx().
+
+[04:22] **qx()**: I thought Binance Chain was based off Ethereum, no?
+
+[04:28] **Dan Friedman**: It's based off Ethereum, but for example, if you're using a ledger with Binance, you have to turn on the Ethereum app. Yeah. Not the Binance app, although they have a Binance app, but that's just for holding tokens. For you to do any kind of smart contract stuff, you have to turn on the Ethereum app.
+
+[04:48] **qx()**: Oh, interesting.
+
+[04:49] **Dan Friedman**: It's just weird UX. It's just really weird UX. So yeah, so on the Cardano side, you have a lot more... Well, we also have the community that's mostly on the Cardano side. So there's that. But, but really we try to kind of, you know, spread utility evenly. So you do, you can, and you're supposed to be able to do the same stuff on both chains.
+
+[05:17] **Dan Friedman**: And so this is what I was talking about in the previous AMA, which, why we can't just kind of like, you know, flip a switch and get Ergo support is because it has to be the exact same stuff on Ergo. And we will eventually, we'll put assets on Ergo, but we can't just, you know, we can't just like move it over. It's not as simple as that. If we move it over and it doesn't have the same support, the same utility, then it's a problem. It's a problem for regulators.
+
+[05:50] **Dan Friedman**: But on the Cardano side, you've got more wallet support. You have more community support.
+
+[05:58] **qx()**: Are you still giving it away for a stake pool rewards as well?
+
+[06:02] **Dan Friedman**: Yeah. Yeah. And, and, and exactly. Yeah. So, so on the Cardano side, you still have the ISPO, which is still happening. Right. So, we don't have that on the Binance side, because there's no stake pools in them. Well, there are stake pools, but they don't work the same way as, as they do on the Cardano side. So, yeah.
+
+[06:24] **qx()**: On the Ergo side, would you use the code from ErgoPad eventually and refactor that or start from scratch for staking?
+
+[06:32] **Dan Friedman**: I mean, the thing is that I actually talked to Luca about that and I've talked to Luca about the smart contracts on Paideia or Paideia or whatever but do we however you say it in a really weird you know upstate New York accent Paideia yeah Paideia whatever papa papa papa deal papaya. Their smart contracts for staking don't do the same stuff. So it's different type of staking. We have liquid staking, which works differently, or I'm sorry, not liquid, dynamic staking, which works differently. And so for us to actually utilize those contracts, I mean, it was really, we'd probably just have to do our own thing over.
+
+[07:22] **qx()**: So explain the dynamic staking. I miss that.
+
+[07:26] **Dan Friedman**: Yeah, so basically, it's dynamic. It's unlocked staking, but it is divided by, I think, what is it, every seven days. And so it's not delegated staking. where your tokens are locked into staking, but it can be unlocked at any time. So there is no wait like you would on an exchange or something. Sometimes if you stake on, say, Coinbase, they call it staking, but they actually lock your tokens up if you stake Cardano tokens. With our staking, although the tokens are locked up for staking, you can unlock them at any time instantly. And the only thing is, if you are before the end of that epoch, or the staking epoch, you just don't get those rewards. You have to stay to the end of the epoch. But other than that, it's dynamic staking.
+
+[08:35] **qx()**: So it's like ErgoPad, but you'd have to refactor in the epoch.
+
+[08:41] **Dan Friedman**: There's actually more to it. That's a super simple way of explaining it, but there's more to it. Actually, you can check it out. If you go on the Palm Economy socials, there are links and also the Discord as well. Actually, Discord is probably better because I think Palm Economy would have to find the tweets where we put in the links for the portals. But on the Discord, you have links readily available, and you can check it out.
+
+[09:14] **Dan Friedman**: We have a staking calculator tool that shows you APY and APR with a little sliding tool to show you if you stake this much, how much it would come out as, and so on and so forth. And so we already have something like, I think, like 250 million palms staked. So at current prices, that's about a quarter of a million dollars already staked in the first couple of days. A little more, more like $300,000 worth of palms staked. And more and more is growing.
+
+[10:03] **Dan Friedman**: What actually I spoke to one of our in fact our first. Token holder from way back. You know, and he came in at the angel round. So these guys are, you know, like these guys are the whales that came in at the angel round. And he's basically saying that I'm not touching this stuff. Well, he's got really long vesting, but also the stuff that he does have right now, it's still, you know, the stuff that unlocked on TGE is also, you know, considering what they got into, at what price point they get into is pretty considerable. But he says he's not touching it. You know, he's just staking it. And everybody just loves it. Everybody loves the staking. And it's really good. It's a great design. The UI is really good. UX is great. We're supporting, I think, all the major wallets right now. They just enabled support for Eternal. So, yeah, the rollout has been actually pretty smooth.
+
+[11:09] **Dan Friedman**: It's considering what we had to do. Yeah, I'm really happy with everything. And of course, it wasn't just like a flip of a switch type of thing. We had to make sure that market making is done properly. we have to make sure that liquidity is supplied properly, just to make sure that everything is stable, because a lot of times Cardano projects, as well as Ergo projects, they'll launch a token, which is fine, and they just launch it into the wild, and bam, there you go, and they don't really do anything to it.
+
+[11:43] **Dan Friedman**: And of course, on the Ergo side, it's not as crucial, I guess, to have a market maker because you just don't have that huge amount of volume that they can do anything with. On Cardano, you still don't have volumes like you would on the Ethereum's of the world when you're launching an asset. But it's still, obviously, I think we're getting something like about $150,000 worth of volume a day. There is probably about $350,000 worth of liquidity backing the token on the Cardano side, I think maybe like 150 on the Binance side.
+
+[12:32] **Dan Friedman**: You have to make sure that all these things are really worked out to make sure that nothing crazy happens to it. like, you know, that there's support for people that, you know, they want to do what they want to do. You know, they get your token, you do what you want to do with it, but it doesn't, you know, it doesn't like, doesn't beat the system up too much. You don't have too much, too many huge swings that really kind of freak people out.
+
+[12:54] **Dan Friedman**: So yeah, it's, it's, it's been, I mean, we're still in the middle of it. You know, everybody's probably had like four hours of sleep at the most. the past few days, including me. And you see I am wearing my Palm T-shirt today. And yeah, I actually, I was so tired today that, and pretending that I'm not, that when I was at the office, I was wearing this T-shirt. And so I have two types of these T-shirts. One is just got the Palm logo right here. And the other one's got the Palm logo and it's got a thing on the back says, keep Palm and tokenize RWAs.
+
+[13:39] **Dan Friedman**: And so Maureen and Luca were at a dev meeting today. They have these daily dev stand-ups. And so we have this, we have a conference room at the office, which is, it's like a big glass wall, but it's its own room. And so they're in the room and I'm about to leave the office to go and take care of some errands. And I'm just walking out and they're all at the at the big TV talking to our head of development and I'm just, I'm kind of standing there and I'm saying bye to everybody and I pointed the back of the shirt and I'm like, check it out, check it out.
+
+[14:14] **Dan Friedman**: Yeah, see? Everybody's looking at me weird and then I want to walk outside, I realized that I wasn't wearing the shirt with the stuff on the back. So I was just basically pointing at the blank blackness of my t-shirt. And people thinking like, what the fuck is the deal with this guy? And of course he played it off like, oh, it's okay, Dan, it's okay. And I'm like, aw. Like here you are 11 o'clock at night Japan time Coming out for the video Dan for the AMA look at you Sacrificing I'm not probably gonna sleep till about 2 a.m. Because there's a million million other things to do but yes That was fun pointing at a blank t-shirt And yeah, the That's you know That's that that's the kitten caboodle right there
+
+[15:08] **qx()**: Well, that sounds like I'm excited for the opportunity to see Palm come to Ergo and utilize Paideia. That's, you know, I think that's going to be really cool. Are there any other? What's it called? What's governance look like on the other chains? With Paideia, you can essentially do things with the treasury collectively as you stake. Is that something that is beneficial to Palm in the future?
+
+[15:41] **Dan Friedman**: Yeah, absolutely, because what we have is called the Palm DAO that we're actually going to be rolling out really soon. And yeah, I mean, we'd like to utilize tooling for that on all chains on Ergo as well. But we still need to kind of work it out. We haven't really done tooling for it on the Cardano side either. We have kind of, we have things standing by, so it's not going to be a big, like a big lift, a heavy lift to get this thing going. And, but really it's not just about the tooling, it's about setting up the ecosystem that supports this, you know, and, and, and really setting up the processes that, that, for, for proposals and for voting and for, you know, all the different iterations of it.
+
+[16:28] **Dan Friedman**: So, yes, so that's going to take a bit of time. So first of all, the Palm DAO is going to have the funding rounds. It's sort of like catalyst, but it's going to be a little bit more spontaneous. Basically, people are going to be able to submit a proposal eventually from the Ergo side as well, right now from the Cardano side and from the Binance side when we build it out on there as well, and then get it voted on by palm holders that are part of the DAO. Just to that that if they feel that this proposal is in line with expanding of the ecosystem because basically what it is is decentralized business development. Right So that's what it's saying for So how are you gonna manage?
+
+[17:24] **qx()**: I mean, how many how are you gonna manage three different governance or how many ever chains you expand to? How are you gonna manage those kind of? governance stroll ups from different things.
+
+[17:34] **Dan Friedman**: It's the same as it is with staking. We're just going to have to build it out the same on all the chains. You know, it's going to have to be able to do the same exact thing on all the chains. It's, it's, it's not easy, but I mean that that's what it is going multi-chain, you know? I mean, you have to go multi-chain. If you want to reach a wider audience, you have to be able to do all this stuff.
+
+[17:54] **qx()**: You feel it's too, the UX would be too difficult or not too difficult, undesirable if you just force them to one set of governance on a chain using Rosen. Like if you want to participate in governance for Palm, then hop on Rosen and stake in Paideia or something like that. That'd be too much of a UX hassle for some of these people.
+
+[18:13] **Dan Friedman**: I think that we can actually do it the other way. They can do it natively on the chains that they're on and then we can use a Rosen to kind of put it all into one place when the time comes to utilize things. You know, so maybe like the heart of it can be on one chain. It could, for example, be on Ergo and then all the all the votes. They can come from all the different chains, but they go through Rosen and they end up on Ergo. It doesn't have to be, I mean, what I mean is the UX has to be the same, right? But the technology, I don't, well, at that point, I don't know because it's gonna be, yeah, we have to kind of flesh that out a little bit better because the DAO would actually have to be incorporated, right? It would have to actually be like an entity.
+
+[19:04] **Dan Friedman**: For it to work properly for it to work properly on, you know, in, in, in, in real life as well. So like these things that are, like the contracts that are, that go through the DAO were actually enforceable by law, you know, because, you can't, you know, you can't just like, trust me, bro, this kind of stuff.
+
+[19:21] **qx()**: Yeah.
+
+[19:23] **Dan Friedman**: Classic. Trust me. I mean, yeah, these are on-chain contracts, right? But you have to be able to actually have a tool in the real world to say that the on-chain contract is enforceable, legally enforceable. And actually, interestingly enough, in Japan, they've developed regulatory tooling like this. So we're actually thinking about establishing the DAO in Japan.
+
+[19:52] **Dan Friedman**: And so like I said, what we need to do is we need to understand, it's not really centralizing it, but keeping the heart of the DAO on one chain, but then having people from other chains coming in and voting on the DAO through the bridge, what do we have to have on other chains for it to actually be compliant with regulations? I don't think we're going to have to build it out on every single chain fully, but there's going to be a minimum requirement of what needs to happen in each chain for it to work in a legal manner.
+
+[20:39] **qx()**: I could see you using ROSEN somewhat transparently in the background so that the user interacts with some sort of contract on the chain and their token is transferred to a lock in ROSEN and actually staked in. And then send back with a batch of bots eventually Yeah, you could yeah do that fairly transparently not gonna be fast fast, but it would have to be fast fast, you know, right?
+
+[21:07] **Dan Friedman**: Right with Rosen right now, you know like arbitrage takes like what did we do? We we sent through the first batch of liquidity going to pancake swap and That took a couple of hours. It took a couple of hours to go through, and so what if it did? For the applications that we're utilizing them for, that's fine. Finality, in this particular case, is not that big of a deal. For example, if you're using a DAO, and say we build the DAO on Ergo, And then you have Cardano, Ergo, and Binance and whatever other chains we decided to add support for vote in the DAO, right? I mean, that vote doesn't have to happen like this, right? It could take a little bit of time for this whole thing to propagate through Rosen. end up on Ergo and then execute the smart contract on Ergo, which will then basically tally up and fix the votes and then execute whatever conditions that contract has. Yeah, so it should be fine. I mean, as far as tech goes, it's just all about compliance-wise, like I said. It's a real thing, right? It's not just like, well, it's kind of cool. It's not just cool tech. It's actually like a real entity. It's going to be a real DAO. It's going to be an incorporated entity. that is compliant with regulation, that creates contracts, on-chain contracts, that are illegally enforceable. It's the big-pants DAO of the deal right here.
+
+[22:51] **qx()**: All right. Well, that's exciting. Very exciting, Dan, for so late at night.
+
+[22:55] **Dan Friedman**: You look really excited right now, qx().
+
+[22:58] **qx()**: I am. It's my early morning, so I'm still waking up. The crack of noon.
+
+[23:04] **Dan Friedman**: Yeah. I know.
+
+[23:05] **qx()**: Well, we got some big announcements so far. We got... For the Sigmanauts mining pool mark developed a really sexy dashboard. It's called ergo miners.com And it's very newish kind of looking so it it really blends in even above and beyond some of the other major players out there with dashboards so if you're a miner or if you're you know, somebody that just wants to dabble in it, even if you're just a gamer and you want to tune your computer over at night time while you're not playing a game or during the day while you're working, check out the Dash. It's pretty damn cool. It's quite the upgrade from the old Dash and a huge upgrade from the simple Dash that we started out with. So yeah, bravo to Kudos to Mark for doing that.
+
+[23:52] **qx()**: The other big news Dan is we have launched the official date for the 2025 Colorado Springs.
+
+[24:02] **Dan Friedman**: Oh, yeah, I saw that I saw it.
+
+[24:05] **qx()**: Yeah October 10th 11th and 12th. So the main thing is the 11th people get there the 10th We'll do something and then maybe breakfast on the 12th when everybody goes home but we crowds we're open sourcing it just like the rest of Ergo so if you are in the Ergo chats head to look for I guess I'll pin it in a second but look for the pin and there's a GitHub where the information is for now and anybody can fork and do pull requests on that sign up page as well as the MD file explaining everything to offer suggestions about what to do, help with planning, all that kind of stuff. So I encourage you to go over to that on the GitHub and participate, sign up, throw in some suggestions of what to do if you know the area and that kind of stuff. So I thought that was, Jemai had the actual idea to put it on GitHub. So that's what I did. I don't think there's any other event or community that works like that, so it's really fun to see.
+
+[25:11] **qx()**: Let me see what we have already. We have... Do I have any pull and over pull requests yet? We have Just one pull request I did last night for some suggestions as well as a sign-up So head over there and do it if you don't know how to do a pull request You're welcome to send me the data and I'll put it up there for you to sign yourself up To pull up your pants qx() that I'm not where I'm not wearing any pants.
+
+[25:39] **Dan Friedman**: Well, exactly. So just you know, like fix that I
+
+[25:44] **Dan Friedman**: Yeah, yeah. Oh, and by the way, by the way, I mean, the, I see the question up there from- What do we see?
+
+[25:56] **Dan Friedman**: From, where is it? High quality Ergo. Uncle Dan, when six 50k worth of Palmarinos. We still haven't forgotten about that. That is gonna come. What soon, like I said, as soon as the Ergo support is added- Checks in the mail.
+
+[26:15] **Dan Friedman**: Yeah, the check's in the mail, except it's like Pony Express. No, but seriously, we're doing that. It has not been forgotten.
+
+[26:27] **qx()**: We've talked about doing a roundtable on Cardano, Dan, so we may come to you knocking.
+
+[26:35] **Dan Friedman**: yeah well yeah make sure it's like really a round table because people say it's a round table but sometimes they're triangular and it just really really fucks with me it screws with my OCD so just make sure it's like round round table
+
+[26:51] **qx()**: Cute Dan cute.
+
+[26:54] **Dan Friedman**: I know it's adorable adorable.
+
+[26:56] **qx()**: All right, what else we have for questions? Actually, we have let me see. I think kushti had a sub-blocks update Let's see
+
+[27:10] **qx()**: He's got some rough protocol working, tested with two peers, still out of work towards improving efficiency. So he's still cranking away on sub-blocks, which is great. And he's working on node 6.0. I think he said last week, I don't know if I made the AMA, that we have a full sync of node 6 RC3, I believe, with mainnet. and I think some others are starting to hop on and test it. So that's looking great.
+
+[27:31] **qx()**: For anybody who's running a node right now and you're running it on an SSD and not some old platter drive or a small like Raspberry Pi with an SSD, I encourage you to go to 5.125 I think it is, the RocksDB version. It's going to require a full node resync but Wow, it's quite a bit faster. I updated the secondary Ergo Explorer that I run to that, and it's a big difference in fetch times for mining wallets for smart contracts and that kind of thing. They usually take a second to load. So I encourage you node runners, if you're doing that, hop over to that. I don't know if Satergo switched to rocks as a default, but if he didn't, maybe it'd be great to encourage him to give that option when you spin up a database to see which one you can use the same to. So yeah, that's really cool.
+
+[28:34] **qx()**: What else? What do we got for questions, Dan, the man?
+
+[28:37] **Dan Friedman**: all right what do we got for questions we got we got we got we got we got a lot of shit we got a lot of shit given us in the channel so maybe yeah but i think it's i think it's the same is the same guy you know you are it's a big 3d yeah yeah because he wants some attention here's here's one maybe Sigmanauts will help with the LP on the Ergo side just saying so
+
+[29:01] **Dan Friedman**: They wanted to make it clear that, you know, it's really not that we are trying to neglect Ergo. It's really not at all. I mean, obviously we are bullish on Ergo, but we build a bunch of the stuff on Ergo. You know, it's still on Ergo. When the protocol is on Ergo.
+
+[29:18] **qx()**: That's what you say, Dan.
+
+[29:21] **Dan Friedman**: We launched Ergo technology. So the only thing, like I said, is we need to add staking support, the same type of staking support, on Ergo before we can actually bridge the tokens and bring them to Ergo through Rosen so that's the only thing and at this point we just have quite a bit of stuff that is being built out we're actually expanding our our dev team to to give us more support
+
+[29:50] **qx()**: Oh, who are you stealing now? You already have Louis Vatra. You stole the Louis Vatra.
+
+[29:55] **Dan Friedman**: We're done poaching. We're done poaching you guys. Maybe. Maybe. I mean, if somebody else comes around, we'll poach them too. And they're going to be, you know.
+
+[30:03] **qx()**: And now Crux is never going to get finished, Louis Vatra.
+
+[30:08] **Dan Friedman**: Yeah. Oh, wait.
+
+[30:10] **qx()**: I got to do my weekly shout out. Hey, Marty, please fix the UI on the front of Paideia. You got some updates to do, buddy. Hopefully he watches this week and not last week. I don't know.
+
+[30:20] **Dan Friedman**: But already wherever you are, you know, it's like an anchorman, you know, when he like blows the horn and it just like, it's hurt across the mountains. And then his little dog is like bathing in like runs out of the little, little creek in the woods. Well, Marty is somewhere in like in, in, in Canada bathing, you know, steam hot ice bath. Yeah. Yeah. It's an ice bath. And he, and he hears,
+
+[30:47] **Dan Friedman**: Paideia Crew, assemble! Assemble! You know, qx() saying that, you know, and he's like, what? Oh my God, I have to fix the tooling. Darn it. Eh? Because he's Canadian. Eh. A.
+
+[31:02] **Dan Friedman**: Anyway, so they just, I know it's a bit of a tangent, but yeah, that's how I saw it in my mind when you gave the shout out.
+
+[31:10] **Dan Friedman**: Yeah, so to get back to high quality Ergo, yeah, like I said, we fully intend to add, it's not a problem of the actual liquidity being added to Ergo, right? It's not a problem. It's like, oh, we just don't have the money to put there. It's really all about making sure that it's compliant with regulation. That's all. It's just for the protection of the ecosystem.
+
+[31:36] **qx()**: Well, maybe you can publish the requirements, Dan, and then maybe some developer would give a basic.
+
+[31:44] **Dan Friedman**: I'll have that conversation with Sam and with Luca, well, Luca at the office tomorrow. He's in Japan right now, hanging out. Did you know that?
+
+[31:56] **qx()**: Luca's in Japan?
+
+[31:58] **Dan Friedman**: Yeah, Luca's been in Japan for weeks now. He's going to be here for quite a while. He's staying at the Zengate corporate apartment right near the office and having a time of his life. Very nice.
+
+[32:11] **qx()**: Nice.
+
+[32:12] **Dan Friedman**: Is mgPai joining you this summer as well?
+
+[32:15] **Dan Friedman**: So, yeah, we're going to try to get him out as well. We're going to see. But yeah, mgPai, well, he was out here for a couple of months last year. Or I don't know. Well, it was quite a quite a while. I forgot if it was a couple of months, but it was quite a while.
+
+[32:29] **qx()**: It's probably got to come back and see his kids. I mean, I'm sure they should be born by now, right?
+
+[32:35] **Dan Friedman**: mgPai.
+
+[32:36] **qx()**: Yeah.
+
+[32:38] **qx()**: All right. Well, some more questions, Dan. It was a failed joke. It was a failed joke that mgPai is living it up when he's in Japan and then he's got to come back and face his consequences.
+
+[32:53] **Dan Friedman**: Oh,
+
+[32:54] **Dan Friedman**: All right.
+
+[32:58] **qx()**: Let's, let's answer some of these insults. I feel like I get an insult. So this is great. We've got, all right, you go first. I'll go the one after you. Palm was promised four CEXes and a few days later can't even get listed on coin gecko. You take that. I'll take the next one.
+
+[33:17] **Dan Friedman**: Yeah. So you know, it's like when, when girls, you go out with girls and then, no, you can't make that enough.
+
+[33:26] **qx()**: You can't make that analogy to the big 3d. He has no idea.
+
+[33:30] **Dan Friedman**: Oh yeah. He does. I forgot. He, he, he doesn't. Yeah. He, he, he, yeah. Yeah. Yeah. Yeah. Yeah. Yeah. I forgot. Okay.
+
+[33:40] **Dan Friedman**: We already did, but it's a secret and it is a game like Magic the Gathering and then you have to find the four CEXes and collect them like the four rings of power in Lord of the Rings. That might do it down. Okay. Okay. There we go. There we go. On a serious note, coin gecko should be up any day now. We actually submitted the application a couple of weeks ago, but it takes a couple of weeks for them to get it going. So that should be like, literally I'm checking coin gecko to see if they, you know, and I can't stay on those listings just because
+
+[34:25] **qx()**: As soon as it happens, the bots come into all the chats, they look for all the admins, and you get about 50,000 DMs saying, hey, I'm Billy Bob, but yes, let me help you out.
+
+[34:38] **Dan Friedman**: Let me help you. I am professional administrator. I like administrating. I am very impressed with your project.
+
+[34:46] **qx()**: I'm impressed with your project. They don't even name the project.
+
+[34:50] **Dan Friedman**: They can't even get their bot to scrape the name of the chat. I do get the bots on Telegram sometimes. They're like, wow, Dan, I'm really impressed with the performance on Ergo. I would like to help you. I'm like, oh, thanks. That's really, really nice of you, whoever you are.
+
+[35:09] **Dan Friedman**: And then sometimes they'll be like, because I'm in Japan, so they'll just send the Japan bots to me. But they're going to be like really crappy Japan bots that speak Japanese, not like the Japanese. It's like broken shitty Japanese, but they have a Japanese name. Like, yeah, yeah, you're real, sure. Like, you know, the first thing they always do is like, I am blah, blah, blah, right? But in Japanese, you hardly ever say like, I am blah, blah, blah, because it's actually rude to keep saying I am, right? Well, it's rude, but it's also just like colloquially incorrect. So the way you speak, you don't, you seldom say I. I am, right? Like that's actually, it's kind of like a joke with the Japanese because like foreigners, when they start just speaking Japanese, I am in Japanese, watashiwa, you know, and then like, like they always make like behind, you know, like in, if you get them, like in the right moment, they'll make fun of foreigners speaking Japanese, like watashiwa American desu, because that's how the, that's how the foreigners, you know, like Americans, American sound to them.
+
+[36:22] **Dan Friedman**: But, Yeah, so they always come in and they they start with watashi wa i'm like, yep, you're Japanese definitely That's why you start with I am which the Japanese hardly ever start with or even ever start with in that kind of conversation But anyway, all right that fun fact for you qx() next time you want to speak Japanese I will do that.
+
+[36:41] **qx()**: All right next question big 3d qx() where when Kraken wear Kraken cracking We're Kraken. All right, here we go. You ready? Hopefully nobody from Kraken is watching this. I'll give it to you guys straight. All right. We have two pathways into Kraken.
+
+[37:00] **qx()**: potentially. The first pathway was a chat joined by myself, Armeanio, kushti, I think Cannon was there, with Dave. I think it's Dave. Yeah, Dave Brumfield from Kraken. All right. It took a while to get Dave to recognize that we didn't have a Ethereum contract ID, that we wanted token on Ethereum, essentially. And once that was established, there was some back and forth about what would be best to list. And that would be Rosen-ERG on Ethereum, Rosen-ERG on Cardano, or ERG layer one. It's obvious ERG layer one is a long ways out because it's a lot of work for them and there's not a lot of monetary reward for them to do that work. So that is on the very low end of the totem pole for layer one. Rosen token though, Rosen ERG on Cardano Ethereum is going to be much much easier to list. Rosen-ERG on Cardano is probably the best option because we have quite a bit of liquidity on the Cardano side and we have, what's it called, more wallets. And compared to some tokens they've listed recently, they listed a wrap token, the flux wrap token, we have more volume than they do on the Cardano. Our Cardano volume on Rosen-ERG is more than the Ethereum volume of Flux. So we match that. But the thing that we don't match is we don't match wallet holders. And that's it, I guess. We don't match wallet holders. Flux has 10,000 wallet holders on Ethereum. We have about 500 on Cardano.
+
+[38:51] **qx()**: The Sigmanauts are working on a promotion, a faucet, and things like that to get our wallet count up. Once we get our wallet count way up, we will develop a market-making plan and then approach Dan again in that same chat, not Dan, Dave, and let them know that we're here at what they suggested our requirements should be. And by then, too, they should be done refactoring the Cardano update that happened a couple weeks ago, or maybe a month ago, Dan, whatever that big update was that they were fumbling around with on the Kraken side to get native tokens ready. So that's one pathway.
+
+[39:30] **qx()**: The second pathway, and I have no NDA signed, so I don't give a shit right now, is a bribe. Literally, literally somebody on the outside that has a connection with the inside that would like a finder's fee for getting us into a suggestion. And that is around $50,000. And that doesn't guarantee that we get in. We could be exactly at the same place we are in the chat with Dave and kushti where they're saying, oh, we need your wallet count up to this and that kind of thing. So that's something that I'm not even looking to pursue at this time because it could be a huge waste of money at that point. And it's so shitty too.
+
+[40:14] **qx()**: So there you go, there you have it. Those are the plans. Sigmanauts are going to come up with a way to engage the Cardano community to get our wallet count up, whether it means a lot of Ergonauts porting over some ERGs to Cardano with us helping pay fees maybe or some incentive for that, as well as some other things that I won't say on the recording. So there you go, big 3D. All right, what else we got, Dan?
+
+[40:41] **Dan Friedman**: Oh, this is actually interesting. We were just talking about this. Can Palm overtake Ergo in market cap soon? I think I was talking to Luca about that today, maybe. I don't know how I'd feel about that. I'm so conflicted. I mean, yeah, it would be great if Palm has the market cap or the size, the ecosystem size that Ergo has. but I want Ergo to be bigger. I don't know which one is, which one like, you know what I mean? Like there is no, they just both feel kind of like I, yeah, I want it to be as big as Ergo, or it would be really cool if it was actually bigger than Ergo, but it wouldn't be also at the same time. Because then why is Ergo not, you know, like why?
+
+[41:37] **qx()**: It's like that scene in Total Recall, and you're missing a third hand, Dan.
+
+[41:41] **Dan Friedman**: I totally get what you mean.
+
+[41:43] **Dan Friedman**: Yeah, exactly. Exactly. Yeah. Anyway, that's actually a trend on TikTok right now.
+
+[41:52] **qx()**: Wait, really? What's the total recall? Third hand? Like the three-breasted woman.
+
+[41:58] **Dan Friedman**: Stop. It totally is. My wife would show me, she's like, is this real? I'm like, there's zero chance it's real. It's AI. But I think it's on TikTok or Instagram or something where they got these like three breasted models that are just popping up everywhere. And it's just odd. And actually, a lot of people don't know where that's from because they're not old enough. Yeah, so some because I told my told my wife she's like look at this like oh You mean like like what is that? What are they trying to like make it look at the girl from total recall? He's like she's like what? Oh my god.
+
+[42:33] **qx()**: Did they not put that on the new the re-release the new version?
+
+[42:37] **Dan Friedman**: Yeah, but they didn't though, because that's not the new version, right? Okay. The new version doesn't, I don't think, no, actually, no, they do have one. I think they, I think they do. I think they have one. Yeah. I think they do have it, but you know, Colin Farrell, right? Yeah. Yeah. But, the new total recall doesn't go to Mars, you know, get you asked the Mars, like, Oh, right.
+
+[42:58] **qx()**: It's all like through the center of the planet or something to the other side of the planet.
+
+[43:02] **Dan Friedman**: At first, I actually didn't like that movie, but it grew on me. Like, cause I'm a huge fan of the original. of Paul Verhoeven, original. But when I saw the new Total Recall, I'm like, what is this shit? This is bullshit. He doesn't even go to Mars. But then it just grew on me. It's actually a pretty OK movie. It's interesting. Yeah, but anyway.
+
+[43:28] **Dan Friedman**: So right now, Palm is at what? We haven't calculated the market cap yet, actually. FDV right now is at about 80 million. So I think that makes Palm Like, maybe 10 something like that like 10 millions. I I I honestly I I would have to calculate it But I think it's like 10 maybe a little bit more. So you got six times to get the Ergo That's 62k right 62 million right now six and Ergo doesn't do anything then yeah, It could do that. But like I said, I don't know how I'd feel about that like on one side would be like, oh, yeah this is great on the other side of like Damn it, like, why, come on, Ergo. You know, do something, do something. Move it, man, come on, come on. The Palm is catching up to you, come on, man. Anyway, yeah, so, like, that's, that's, that's, that's something, like, literally a conversation that I had today.
+
+[44:33] **qx()**: We got another question from Matus Bor. Yeah, you got it. Hello fellow Ergonauts. I was wondering if anyone is actively targeting the gaming community. It would be interesting to onboard people who can mine while they are not playing games.
+
+[44:46] **qx()**: Yeah, Mark the shark. I think that's a good approach to target those gamers. I'm looking at Mark's dashboard and he's got a nice little bar graph. a progress bar that essentially says, hey, in order to get bonus tokens, you need to mine for four out of seven days or something like that of the epoch of the week. So that's something that can easily be done by a gamer who, when they go to bed, they just double click on the executable and walk away. And when they come back to the machine to game, they stop the executable, they game, they do what they need to do, and then they double click on them. so those mining doesn't have to be persistent right it can be done just on the spare time so yeah mark the shark i think that's a i think that's a great idea that actually you know i actually saw something that could be really interesting for for this and i don't think
+
+[45:46] **Dan Friedman**: I don't know if this game is still around or has been developed or whatever, and if it's actually worldwide or maybe it's just in Japan. But there was a game that they kept advertising on the phone when you use the free apps that have the commercials in them. And it was called, I think, Idle Heroes. something like that. And basically the thing about it was, was that it didn't have any like, like active gameplay. A lot of the gameplay was passive gameplay. So you would set it up, right? And then it would actually like, when you turn off your phone, the gameplay would happen and like the battles would happen and stuff like that. And then like you'd have to turn off your phone and turn the game off for the, for your characters to, to, to evolve. right because they have these like characters that would evolve when when your phone it's like sort of like pokemon you know like pokemons when they like evolve to become like i don't know more scary pokemons right right it was kind of the same concept i actually always thought that that would be really interesting for for gamifying mining
+
+[47:01] **qx()**: No, I think you're right. So you'd feed your characters with hash points that you've earned, essentially, or shares that you've collected.
+
+[47:08] **Dan Friedman**: You basically, you tell them what to do, and then you put it into some passive mode where it still mines. And you just kind of, whatever you do, you can, you know, through gamification, you can select the type of mining or the Yeah, the rate of whatever right and then it'll grow the character and then you get rewards through the game I always thought that that was actually a really interesting way to to gamify and incentivize Mining through different devices to game through like through game through through gameplay So it might be a best idea yet dan better than palm
+
+[47:47] **Dan Friedman**: Then nothing is better than Palm.
+
+[47:49] **qx()**: No, so that's like the games I used to play, the tech space web games I used to play in the early 90s where you just go to a website and you'd build up your army slowly and then you'd choose to attack somebody. And then when you came back, you'd learn the results of the battle or else while you were away from the computer, somebody attacked you kind of thing. It's all just database stats hitting against stats like that. Yeah, that's a really cool idea. Feed them with your bonus points or the shares that you pull from your mining pools and that kind of thing. I mean, the big farms would be able to murder you, so you'd have to have some sort of equalizer out there or some sort of diminishing return for the huge, huge farms that are playing. But yeah, that's a really cool idea. Mark can probably vibe code that in a couple days, so maybe he'll do it.
+
+[48:39] **Dan Friedman**: I think it's actually not that hard to code. It's just the actual graphics. It just has to be aesthetically pleasing. It just has to look cool, right? But that's just art, and we've got artists in the community, so they could actually do that. It shouldn't be a difficult thing to do. But yeah, I just always thought that that would actually be a really good way to incentivize mining, and especially with Ergo, where you can actually use all these different devices for mining. You know, you could do that. I think actually they used to do something similar with Bitcoin way back in the day, where there's like an app that I forgot exactly what it did, but it was basically like an app where you would watch advertisements and the more advertisements you'd watch, they'd pay you in Bitcoin for watching advertisements.
+
+[49:37] **qx()**: Awesome. Oh, I got five, I got six more minutes before I have to go. Let's bang these questions out, Dan. Mark says that that's what he's kind of working on with HashMons and CA has the art ready to go, go, go. So it'll be more of a tech space stat kind of. initial thing, which I think is a great way to start it. Awesome. All right. Wendy moon says, do you think Ergo will get more attention when the emission reaching almost zero as the only proof of work change to not rely on emission? You said it in the end, Wendy, you said it on the last part of your sentence. I think Ergo was going to get even more attention. When people realize that Ergo is actually thought of the end game, they thought of sustaining a chain after emission, tails, you know, so I think that's a big, a big plus for Ergo. And you see it now, if you hide over the Sigmanauts mining pool, you'll see, I think Mark said he distributed 98 ERGs or this, close to that in the wallet, the other week, from storage rent alone plus bonus tokens as well and things like hopefully in the future where you'll be able to do token releases through minor protocols right so somebody like Dan could give you know a couple hundred thousand tokens to to Mark and people that would be mining would then be released those tokens to it so yeah
+
+[50:55] **qx()**: ICOs via mining. I mean, what more fair ways are coin releases and offerings initially for people actually putting in the raw labor to keep the chain secure? So I don't know why there's not more of that. Honestly, I don't know why token launches are at least on proof of work chains. Why token launches are done through these token launching platforms as opposed to, you know, feeding it out to the miners and then the miners are welcome to sell it. And then the community can buy it from the DEXes kind of thing. So yeah, but yeah, Wendy, I think, I think that's a huge thing that's going to put Ergo above everybody else eventually when they look at it.
+
+[51:35] **qx()**: All right, we got a bunch of things. You see anything else?
+
+[51:46] **Dan Friedman**: Yeah. Okay. I mean, there's a couple of Palm questions, I don't know. But let's say, do we have any Ergo questions? I mean, I'd be more than happy to answer Palm questions, but I want to answer Ergo questions.
+
+[52:01] **qx()**: Luke Grasmith says, will we protect foreigners and Canadian people from ICE if they attend Colorado meetings? And Mark says, at best, Colorado is open carry. Perfect.
+
+[52:18] **Dan Friedman**: Yep. There you go. So yeah, don't, don't, don't fuck with Colorado, Colorado.
+
+[52:24] **qx()**: Let's see. Oh, here we go. A personal question. BodyMax Fitness, who I think is a big 3D, maybe. qx(), would you ever leave Ergo? At what point do you say enough? I'm moving on. There's nothing to move on to, guys. There's nothing else in the ecosystem or in the space that does what Ergo does. I see Ergo in my own use as a utility here on campus. Right now, it's integrated into our charging system for plot billing. And I just saw two students pay for plots with ERG while we were in this meeting. You can see it on the chain if you're looking. It's going to be integrated into a DAO eventually as well. I can't do that with anything else, I don't feel. No, I don't think there's a point in my immediate future where I think of Ergo as a failure ever.
+
+[53:25] **qx()**: Let's take a hypothetical. Let's say the crypto market goes through a really cold winter, a lot of things disappear, Ergo goes down to an all-time low like everything else. I'm still going to be using Ergo to do my stuff here. I'm still going to be building on it. So that's the resilience of Ergo compared to other chains where you have somebody with a big fat wallet holding a lot of tokens that all of a sudden decides it's not worth it and move on. So no. The answer is no. There's nothing in my immediate there or my future that says I'm done. All right, we got one minute.
+
+[54:08] **Dan Friedman**: One minute and then ignition. All right, let's see. All right, so what should we answer here, the last thing that we should answer?
+
+[54:25] **qx()**: Lord Black gave a shout out to ERGs awesome anybody else mining with AI cards no i think from what i heard lord black i think mark was mark and Cannon were talking to somebody about it i can't remember but the problem with the ai farms right now because i thought was right hey let's Let's advertise to these AI farms that they can also mine cryptocurrency on their downtime when they're not being fully utilized. But as of yet, from what I understand, the AI farms are getting pounded just relentlessly. There's no space that they can actually do that yet. So maybe in the future, when AI gets more optimized, I think OpenAI just came out with something that said that was the case with one of the new models. You'll have some space that maybe we can start pinging these guys and saying, hey, you guys should mine some cryptocurrency while you're not doing AI.
+
+[55:28] **qx()**: What is it? Armeanio is working on some idea where he's got something on the back, back, back burner in his head about utilizing AI and a side chain specifically for that kind of thing. For all these cards that are no longer useful for AI, might still be useful for mining, and are still very, very much powerful, can mine a side chain. Yeah. And Lord Black, yeah, I'm running like 20 nodes. No, more like probably 10, but yeah. And just a shout out again to Satergo for anybody who wants to get into the node market. Super easy desktop wallet. One click node install. Really, really nice and easy.
+
+[56:10] **Dan Friedman**: All right. Well, I think we heard enough about your node there, qx().
+
+[56:16] **qx()**: Yes.
+
+[56:17] **Dan Friedman**: Well, where do you got to go? I got to go. I got to go, guys. Alright, well, I guess great to see everybody qx() needs to run Probably to the boys room No meeting. Yeah, so I guess we'll wrap it up from here for now All right. Well, so next next week same time same place same channel and until then this is Dan Barely alive, but still kicking from Japan With qx(), who you can almost call a man. Forget that. When you can. Signing off. Ciao, everybody.

@@ -1,0 +1,195 @@
+[00:15] **kushti**: Hey.
+
+[00:17] **kushti**: Hello everyone.
+
+[00:18] **kushti**: My pleasure to be here again.
+
+[00:20] **kushti**: And today, well, there are three of us.
+
+[00:26] **kushti**: So we have mgPai again.
+
+[00:28] **kushti**: Hey, everyone.
+
+[00:31] **mgPai**: Nice to be on again.
+
+[00:34] **qx()**: It's great to be here with you, mgPai.
+
+[00:38] **qx()**: I've missed you a lot.
+
+[00:40] **mgPai**: Oh, is that the case?
+
+[00:43] **mgPai**: All right.
+
+[00:45] **qx()**: Where's your TMG pie?
+
+[00:47] **mgPai**: Oh, I mean, I just we all have nothing in my hands.
+
+[00:52] **qx()**: You just woke up at nine o'clock, sir.
+
+[00:54] **qx()**: Are you OK?
+
+[00:58] **mgPai**: I'm not OK. Nice.
+
+[01:00] **qx()**: All right.
+
+[01:00] **qx()**: So what's new, kushti?
+
+[01:02] **qx()**: You've been busy, real busy.
+
+[01:05] **kushti**: You know you will be safe let's say. All right so yeah a lot of things going on so well fixing some issues with 6.0 as yeah Dusek is doing well quite awesome audit so finally some good quality audit is coming.
+
+[01:33] **kushti**: So, yeah, well, fixing issues being found.
+
+[01:39] **kushti**: Then, yeah, so for sub-blocks, yeah, working on, well, prototype implementation of, well, blocks generation, so, well, spreading transactions.
+
+[01:52] **kushti**: Input blocks and so on.
+
+[01:54] **kushti**: So maybe next week even I will have some demo for local DevNets, well local miner based I mean because yes stratum is not ready stratum proxy and so on.
+
+[02:10] **kushti**: So well that's just initial prototype local miner based.
+
+[02:17] **kushti**: Then what else?
+
+[02:19] **kushti**: So, yeah, well, and gentlemen, as you are probably both mining in the testnet and only you, right, then, yeah, let's consider a 6.0 activation date in the testnet.
+
+[02:35] **kushti**: So, yeah, maybe by tomorrow so that there is one issue how to be fixed and then yeah we can do another release candidate 6.0 release candidate with public testnet activation details and well yeah testnet has some custom soft fork activation parameters so that means we can have activation quite soon then and then yeah well audit to be continued so I've started a raffle actually well to raise some funds for rewarding Dusek and then yeah well with audits done, and I also will recheck everything a few more times, and then we can think about watching mainnet activation, maybe starting from March, something like that.
+
+[03:46] **kushti**: So, yeah, a lot of things going on.
+
+[03:49] **kushti**: Also, well, Dexy Gold audit is done, so all the 18 contracts reviewed.
+
+[03:57] **kushti**: And, yeah, so currently, well, the issue is too, well, Polish backend.
+
+[04:09] **kushti**: And then, yeah, well, consider how front-end would like and who will work on that.
+
+[04:18] **kushti**: So, well, maybe and hopefully and already pre-confirmed that C8 will do UI.
+
+[04:28] **kushti**: Yeah, well, other options are not so viable at the moment.
+
+[04:38] **kushti**: I'm also pushing guys to start a new SigmaUSD Oracle Pool version 2 based.
+
+[04:55] **kushti**: For Oracle Pool updates, I finished the code to produce needed transactions.
+
+[05:05] **kushti**: I'm going to test in the testnet and then we can consider how to update the mainnet pool.
+
+[05:16] **kushti**: So yeah, a lot of things going on in parallel.
+
+[05:20] **kushti**: Also, there are some talks going on within I think to propose actually some things in regards with reworking things based on experience I've got from ErgoDevs as well as other organizations we have in the community such as Sigmanauts, Ergo Foundation and so on.
+
+[05:57] **kushti**: And yeah, well, posted recently, well, Core Track roadmap based on my own observations and also feedback got from other developers.
+
+[06:15] **kushti**: And yeah, thinking to do that for other tracks, well, we need to consider what to do with pools, so trying to get from Palmyra what they're planning to do with Lithos Protocol and so on.
+
+[06:29] **kushti**: Then yeah there is need to get well information from Oracle Pools so I'm pushing guys to do there so yeah well a lot of mess there yeah big because it's not so you know centralized shitcoin with team I mean all that's bizarre.
+
+[06:51] **kushti**: Yeah, we have different scams basically.
+
+[06:59] **kushti**: But yeah, you know if you want to coordinate and well, even get a picture from what's going on, that's complicated.
+
+[07:10] **kushti**: And that should be complicated, I guess.
+
+[07:13] **kushti**: That's the point of having a normal community, not stimulated one like shitcoins are doing with, well, sponsoring mercenaries and so on.
+
+[07:31] **kushti**: All right. What's on your end, guys?
+
+[07:37] **qx()**: I think mgPai should go next.
+
+[07:41] **mgPai**: Yeah, sure.
+
+[07:42] **mgPai**: So let's see.
+
+[07:44] **mgPai**: So over the last, I think, few months or so since I've been on here, I haven't had too many updates.
+
+[07:52] **mgPai**: But one thing I've been discussing with a few members in the development community is the standardization of off-chain bots and framework.
+
+[08:06] **mgPai**: I think that's quite important, because for those of you who don't know, off-chain bots are needed to process transactions that go through more complex smart contracts, such as your DEX transactions, NFT marketplace transactions, or certain ones, and then DuckPools.
+
+[08:31] **mgPai**: They all use these off-chain bot executors, and the problem with them and they're more specific.
+
+[08:36] **mgPai**: They're all specific to UTXO blockchains.
+
+[08:39] **mgPai**: And the problem with them development wise is that it takes a lot of time, effort, research and work to actually have one running.
+
+[08:48] **mgPai**: That's why development on these chains just takes so long compared to something like EVM, where you don't need any of it.
+
+[08:57] **mgPai**: Of course, the downsides of not having an EVM, right?
+
+[09:02] **mgPai**: It might make development experience better, but it makes the blockchain much heavier and have a lot of bloat and all, and you can't run a node as easily.
+
+[09:12] **mgPai**: So the problem on Ergo, and frankly on Cardano as well, is that there's no standardization of this.
+
+[09:20] **mgPai**: As a developer, you just got to do everything from scratch, build everything.
+
+[09:25] **mgPai**: And everyone has their own way.
+
+[09:27] **mgPai**: I looked at DuckPools' code.
+
+[09:29] **mgPai**: It's in Python.
+
+[09:30] **mgPai**: And they're using some node API to write everything.
+
+[09:33] **mgPai**: Then Spectrum is on the other end, where it's a very complex and heavy code base.
+
+[09:40] **mgPai**: Then my own framework is also different compared to how both of them do it.
+
+[09:48] **mgPai**: I would like to think it's in the middle between the complexity of DuckPools and Spectrum.
+
+[09:55] **mgPai**: And then everyone just has their own way.
+
+[09:58] **mgPai**: And we kind of got to fix this.
+
+[10:00] **mgPai**: And recently, Fleet SDK, the JavaScript framework for building Ergo, has been getting really good.
+
+[10:08] **mgPai**: It's supporting a lot of things that were needed from the Java and the Ergo AppKit.
+
+[10:17] **mgPai**: So recently I've been playing around with that and experimenting with writing my own off-chain in a different language, in TypeScript, and it's going pretty well.
+
+[10:27] **mgPai**: There's not many bottlenecks left.
+
+[10:29] **mgPai**: So I think that's the next step for developers or the DevDAO is to create a standardized framework for off-chain, maybe record a few videos and have some good documentation on how to go about it.
+
+[10:45] **mgPai**: Like maybe kushti was mentioning that Dexy Gold is coming up, the audit is going well, the UI is in progress by C8.
+
+[10:55] **mgPai**: So maybe it'd be a good framework or a good opportunity to demonstrate how off-chain works by maybe writing it in Fleet SDK using or to execute Dexy Gold transactions.
+
+[11:08] **mgPai**: And another thing is that I've been doing over the past almost year is learning a new language called Go.
+
+[11:18] **mgPai**: And the benefits of this language is that it's very good for concurrent applications.
+
+[11:23] **mgPai**: So it just processes things more efficiently, or it's easier for developers to process things more efficiently.
+
+[11:31] **mgPai**: So, you know, we have another community member, the guy who's doing the Keystone integration, PG, and he's working on a Go library for Ergo, right?
+
+[11:41] **mgPai**: So the development and it's like almost like it's almost good, you know, just a few more issues.
+
+[11:47] **mgPai**: But the development of this would be also nice because Go is a really good language to do this in, to do off-chain.
+
+[11:54] **mgPai**: And so we're really looking forward to that.
+
+[11:56] **mgPai**: So, you know, as time goes on, the development experience is looking really good for Ergo.
+
+[12:04] **mgPai**: We're getting more and more tools at hand to attract a diverse set of skills.
+
+[12:10] **mgPai**: So I think that's also the next frontier, along with kushti doing his own updates on the node.
+
+[12:22] **qx()**: That's just fantastic, mgPai.
+
+[12:25] **qx()**: I love your hat.
+
+[12:25] **qx()**: Where'd you get your hat from?
+
+[12:27] **mgPai**: Yeah, this is actually some new merch I got from Crypto Chips.
+
+[12:33] **mgPai**: I was talking to the founder of Crypto Chips.
+
+[12:36] **mgPai**: I'm like, hey, we need some Ergo hats and all going.
+
+[12:39] **mgPai**: So he sent me a good nice prototype of what he can achieve so the community might see this drop in the future.
+
+[12:48] **qx()**: You're extorting free swag from suppliers.
+
+[12:54] **mgPai**: I'm prototyping here.
+
+[12:58] **qx()**: That's awesome.
+
+[12:59] **qx()**: Well, speaking of swag, I put up an announcement last week.

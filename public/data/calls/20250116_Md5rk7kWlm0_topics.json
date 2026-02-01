@@ -1,0 +1,147 @@
+{
+  "call_date": "2025-01-16",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - January 16th 2025",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Ergo 6.0 Release Audit and Fixes",
+      "category": "technical",
+      "start_time": "01:05",
+      "end_time": "02:17",
+      "primary_speaker": "kushti",
+      "summary": "Kushti reports on fixing issues found during Dusek's audit of Ergo 6.0. He's also working on sub-blocks prototype implementation with transaction spreading and input blocks, expecting a local DevNet demo next week.",
+      "key_terms": [
+        "Ergo 6.0",
+        "audit",
+        "Dusek",
+        "sub-blocks",
+        "prototype",
+        "DevNet",
+        "transaction spreading"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Testnet 6.0 Activation Timeline",
+      "category": "technical",
+      "start_time": "02:19",
+      "end_time": "03:46",
+      "primary_speaker": "kushti",
+      "summary": "Plans for Ergo 6.0 testnet activation by tomorrow after fixing one remaining issue. Kushti started a raffle to raise funds for Dusek's audit reward, with mainnet activation potentially starting in March after audit completion.",
+      "key_terms": [
+        "testnet activation",
+        "6.0 release candidate",
+        "soft fork",
+        "mainnet activation",
+        "March timeline",
+        "raffle",
+        "audit funding"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Dexy Gold Audit Completion and Development",
+      "category": "defi",
+      "start_time": "03:49",
+      "end_time": "04:38",
+      "primary_speaker": "kushti",
+      "summary": "Dexy Gold audit is complete with all 18 contracts reviewed. Currently working on backend polish with C8 confirmed to handle the UI development work.",
+      "key_terms": [
+        "Dexy Gold",
+        "audit complete",
+        "18 contracts",
+        "backend",
+        "C8",
+        "UI development"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "SigmaUSD Oracle Pool Version 2 Update",
+      "category": "defi",
+      "start_time": "04:38",
+      "end_time": "05:20",
+      "primary_speaker": "kushti",
+      "summary": "Kushti finished code for Oracle Pool v2 transaction production and plans to test in testnet before updating the mainnet pool. This is part of the SigmaUSD infrastructure improvements.",
+      "key_terms": [
+        "SigmaUSD",
+        "Oracle Pool",
+        "version 2",
+        "transaction production",
+        "testnet",
+        "mainnet pool"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Core Development Roadmap and Community Coordination",
+      "category": "governance",
+      "start_time": "05:20",
+      "end_time": "07:31",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of reworking organizational structure based on ErgoDevs experience and other community organizations. Kushti posted Core Track roadmap and is seeking information from various teams like Palmyra about Lithos Protocol plans.",
+      "key_terms": [
+        "Core Track roadmap",
+        "ErgoDevs",
+        "Sigmanauts",
+        "Ergo Foundation",
+        "Palmyra",
+        "Lithos Protocol",
+        "community coordination"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Off-Chain Bot Framework Standardization Initiative",
+      "category": "technical",
+      "start_time": "07:44",
+      "end_time": "11:08",
+      "primary_speaker": "mgPai",
+      "summary": "MgPai discusses the need for standardizing off-chain bot frameworks used by DEXs, NFT marketplaces, and DuckPools. He's experimenting with Fleet SDK in TypeScript and proposes using Dexy Gold as a demonstration case for standardized off-chain development.",
+      "key_terms": [
+        "off-chain bots",
+        "framework standardization",
+        "Fleet SDK",
+        "TypeScript",
+        "DEX transactions",
+        "DuckPools",
+        "Spectrum",
+        "UTXO blockchain"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Go Language Library Development for Ergo",
+      "category": "technical",
+      "start_time": "11:08",
+      "end_time": "12:22",
+      "primary_speaker": "mgPai",
+      "summary": "MgPai has been learning Go language for concurrent applications and mentions community member PG's work on a Go library for Ergo with Keystone integration. This would provide better development tools and attract diverse developer skills.",
+      "key_terms": [
+        "Go language",
+        "concurrent applications",
+        "PG",
+        "Keystone integration",
+        "Go library",
+        "development experience",
+        "diverse skills"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Ergo Community Merchandise from Crypto Chips",
+      "category": "community",
+      "start_time": "12:22",
+      "end_time": "12:59",
+      "primary_speaker": "mgPai",
+      "summary": "MgPai shows off a prototype Ergo hat from Crypto Chips and discusses potential future merchandise drops for the community.",
+      "key_terms": [
+        "merchandise",
+        "Crypto Chips",
+        "Ergo hat",
+        "prototype",
+        "community swag"
+      ]
+    }
+  ]
+}

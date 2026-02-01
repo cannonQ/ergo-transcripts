@@ -1,0 +1,162 @@
+{
+  "call_date": "2025-04-04",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - April 3rd",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "60:37",
+      "decision": "Sigmanauts mining pool will not open source the demurrage collection steps immediately and will keep it as competitive advantage",
+      "speaker": "Marc the Shark",
+      "context": "To maintain marketable advantage over other pools",
+      "topic": "mining-pool",
+      "significance": "minor",
+      "quote": "we're not going to explicitly give you guys the steps, I suppose, at least for the time being. So we're going to continue to build what they call the moat between us and other pools"
+    },
+    {
+      "id": 2,
+      "timestamp": "60:37",
+      "decision": "The demurrage open sourcing decision will be put to a vote among mining pool participants",
+      "speaker": "Marc the Shark",
+      "context": "To get community input on whether to keep the competitive advantage",
+      "topic": "mining-pool",
+      "significance": "minor",
+      "quote": "We are going to put it to a vote"
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "07:14",
+      "commitment": "Update Sigmanauts mining pool website with new polished UI/UX",
+      "owner": "Marc the Shark",
+      "timeline": "within a couple weeks",
+      "topic": "mining-pool",
+      "quote": "So hopefully within a couple weeks we'll have that up and running and ready to go"
+    },
+    {
+      "id": 2,
+      "timestamp": "07:14",
+      "commitment": "Reach out to YouTube miners for peer-to-peer podcast appearances",
+      "owner": "Marc the Shark",
+      "timeline": "unspecified",
+      "topic": "marketing",
+      "quote": "Going to reach out to a couple other YouTube miners, see if we can get them on the peer-to-peer podcast"
+    },
+    {
+      "id": 3,
+      "timestamp": "08:06",
+      "commitment": "Start working with mining pools on getting activation and setting activation date for 6.0",
+      "owner": "kushti",
+      "timeline": "after 6.0 mainnet release",
+      "topic": "technical",
+      "quote": "we will start working with the mining pools on getting activation, setting activation date and informing mining pools about the upcoming votes for protocol update"
+    },
+    {
+      "id": 4,
+      "timestamp": "09:18",
+      "commitment": "Invite one or two people to participate in testing devnet with peer-to-peer layer for sub-blocks",
+      "owner": "kushti",
+      "timeline": "in a few days",
+      "topic": "technical",
+      "quote": "in a few days we'll invite maybe one or two folks to participate testing devnet now with some peer-to-peer layer"
+    },
+    {
+      "id": 5,
+      "timestamp": "10:50",
+      "commitment": "Release 5.0.26 with Candidate Regeneration feature",
+      "owner": "kushti",
+      "timeline": "next week",
+      "topic": "technical",
+      "quote": "So hopefully it will be released next week"
+    },
+    {
+      "id": 6,
+      "timestamp": "51:27",
+      "commitment": "Record next P2P podcast episode",
+      "owner": "Marc the Shark and Tim",
+      "timeline": "within this next week",
+      "topic": "marketing",
+      "quote": "hopefully within this next week, we'll get something out to you guys"
+    },
+    {
+      "id": 7,
+      "timestamp": "52:02",
+      "commitment": "kushti will check the Hydra paper for potential podcast discussion on off-chain systems",
+      "owner": "kushti",
+      "timeline": "by April 18th or 19th",
+      "topic": "technical",
+      "quote": "So I can check the Hydra paper and we can have a talk about different off-chain systems"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "08:06",
+      "question": "When will 6.0 mainnet release be ready",
+      "context": "Currently syncing with mainnet and fixing obscure issues",
+      "topic": "technical",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "16:01",
+      "question": "What new APIs and extra indices will be implemented for sub-blocks",
+      "context": "Only initial API methods implemented so far",
+      "topic": "technical",
+      "raised_by": "Marc the Shark"
+    },
+    {
+      "id": 3,
+      "timestamp": "35:24",
+      "question": "Whether to fine-tune a specific model for ErgoScript development",
+      "context": "LLMs lack sufficient ErgoScript context for complex contracts",
+      "topic": "ai-tooling",
+      "raised_by": "Marc the Shark"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "06:20",
+      "fact": "Sigmanauts mining pool is at about 90 GHz hashrate",
+      "speaker": "Marc the Shark",
+      "topic": "mining-pool"
+    },
+    {
+      "id": 2,
+      "timestamp": "08:06",
+      "fact": "Sigmanauts mining pool distributed over 150 ERGs in demurrage rewards last week",
+      "speaker": "Marc the Shark",
+      "topic": "mining-pool"
+    },
+    {
+      "id": 3,
+      "timestamp": "10:50",
+      "fact": "5.0.26 will include Candidate Regeneration feature for faster transaction confirmation",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 4,
+      "timestamp": "35:24",
+      "fact": "190 ERGs allocated for testing and generating smart contracts with auditor payments",
+      "speaker": "Marc the Shark",
+      "topic": "ai-tooling"
+    },
+    {
+      "id": 5,
+      "timestamp": "59:15",
+      "fact": "PHP token liquidity pool is around 20,000",
+      "speaker": "Marc the Shark",
+      "topic": "tokenomics"
+    },
+    {
+      "id": 6,
+      "timestamp": "60:32",
+      "fact": "Sigmanauts mining pool has distributed probably over 500 ERGs in demurrage since starting",
+      "speaker": "Marc the Shark",
+      "topic": "mining-pool"
+    }
+  ]
+}

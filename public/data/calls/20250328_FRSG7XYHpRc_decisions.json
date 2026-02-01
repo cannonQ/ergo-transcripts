@@ -1,0 +1,130 @@
+{
+  "call_date": "2025-03-28",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - March 27th",
+  "decisions": [],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "16:05",
+      "commitment": "Propose voting for 6.0 starting from early May",
+      "owner": "kushti",
+      "timeline": "early May",
+      "topic": "technical",
+      "quote": "I think we can think about proposing a voting starting from early May"
+    },
+    {
+      "id": 2,
+      "timestamp": "17:24",
+      "commitment": "Do another release candidate version release this week",
+      "owner": "kushti",
+      "timeline": "this week",
+      "topic": "technical",
+      "quote": "this week I will do another release candidate, version release"
+    },
+    {
+      "id": 3,
+      "timestamp": "08:51",
+      "commitment": "Send demurrage information and materials to DX pool operator",
+      "owner": "Marc the Shark",
+      "timeline": "unspecified",
+      "topic": "mining",
+      "quote": "I'll totally like when I get a moment, I'll send some of that information over"
+    },
+    {
+      "id": 4,
+      "timestamp": "05:04",
+      "commitment": "Make mining pool dashboard quicker and faster",
+      "owner": "Marc the Shark",
+      "timeline": "unspecified",
+      "topic": "mining",
+      "quote": "I'm making it a point now to make it think definitely is it needs it'll be a lot quicker and faster"
+    },
+    {
+      "id": 5,
+      "timestamp": "21:07",
+      "commitment": "Reach out to qx() about node update for demurrage relative to 6.0",
+      "owner": "qx()",
+      "timeline": "unspecified",
+      "topic": "mining",
+      "quote": "I'll reach out to him"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "15:58",
+      "question": "Final mainnet activation parameters for 6.0",
+      "context": "Preparing for 6.0 mainnet activation",
+      "topic": "technical",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "06:13",
+      "question": "Different monetization strategies for Sigmanauts mining pool",
+      "context": "Learning from other pools' approaches",
+      "topic": "mining",
+      "raised_by": "Marc the Shark"
+    },
+    {
+      "id": 3,
+      "timestamp": "41:24",
+      "question": "How to reward miners in sub-blocks implementation for Bitcoin forks",
+      "context": "Discussion about implementing sub-blocks in other chains",
+      "topic": "technical",
+      "raised_by": "kushti"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "07:35",
+      "fact": "Sigmanauts mining pool has consistent 100 gigahash",
+      "speaker": "Marc the Shark",
+      "topic": "mining"
+    },
+    {
+      "id": 2,
+      "timestamp": "07:40",
+      "fact": "Pool had 150 gigahash for one day with someone adding 40-50 gigahash",
+      "speaker": "Marc the Shark",
+      "topic": "mining"
+    },
+    {
+      "id": 3,
+      "timestamp": "10:04",
+      "fact": "Demurrage collection was 170 ERG over two weeks",
+      "speaker": "Marc the Shark",
+      "topic": "mining"
+    },
+    {
+      "id": 4,
+      "timestamp": "12:29",
+      "fact": "Block reward is currently around 15 ERG (about to hit 15)",
+      "speaker": "qx()",
+      "topic": "mining"
+    },
+    {
+      "id": 5,
+      "timestamp": "14:47",
+      "fact": "HQ3rr's child is three months old",
+      "speaker": "HQ3rr",
+      "topic": "personal"
+    },
+    {
+      "id": 6,
+      "timestamp": "19:09",
+      "fact": "Current testnet version is 6.0 R2, with 6.0 R3 available",
+      "speaker": "qx()",
+      "topic": "technical"
+    },
+    {
+      "id": 7,
+      "timestamp": "19:29",
+      "fact": "RC4 will be quite different from RC3",
+      "speaker": "kushti",
+      "topic": "technical"
+    }
+  ]
+}

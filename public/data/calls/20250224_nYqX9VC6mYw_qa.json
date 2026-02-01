@@ -1,0 +1,104 @@
+{
+  "call_date": "2025-02-24",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "04:33",
+      "question": "What is unique about the Sigmanauts mining DAO and how does it differ from other mining pools?",
+      "asker": "implied from presentation",
+      "answer": "The Sigmanauts mining DAO is the only pool that collects storage rent and operates as a DAO-based mining pool. When you join, you get a token that lets you use Paideia to create votes that can change miner payout methods for bonus tokens. It gives miners voting power on how to run the mining pool, recognizing that on Ergo, miners have control to change some parameters in the entire chain.",
+      "responder": "qx()",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "storage_rent",
+        "DAO",
+        "mining",
+        "Paideia",
+        "governance"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "08:30",
+      "question": "What are DORT tokens and how are they related to the SigmaUSD Oracle pool?",
+      "asker": "implied from update",
+      "answer": "DORT stands for Dollar Oracle Reward Tokens, which are rewards for running Oracle version 2 of SigmaUSD. The SigmaUSD Oracle pool has been updated and the script now allows updating the pool to version 2. If you're privileged enough to run the Oracle version 2 of SigmaUSD, you will receive DORT tokens as a reward.",
+      "responder": "qx()",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "SigmaUSD",
+        "Oracle",
+        "DORT",
+        "rewards"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "11:48",
+      "question": "What is the goal of the LLM smart contract generation project being developed by Sharknet?",
+      "asker": "implied from update",
+      "answer": "The goal is to create an LLM where you can type in a prompt describing what smart contract you want, and it outputs a smart contract that has gone through numerous training sessions. For example, you could request a simple locking smart contract or time release contract, and the system would generate it for you. There's also consideration for another fine-tuned LLM to double-check the generated smart contracts.",
+      "responder": "qx()",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "LLM",
+        "smart_contracts",
+        "AI",
+        "automation",
+        "Sharknet"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "07:47",
+      "question": "When will the Nautilus wallet beta release be available?",
+      "asker": "implied from update",
+      "answer": "According to AnonBR's update, the entire main interface has been ported to the new design system with only four medium complexity components on the dApp connector left to be ported. If all goes well, there can be a beta release next week. The update also includes support for storing wallets from 10, 15, 18, 21, and 24 word recovery phrases.",
+      "responder": "qx()",
+      "category": "wallet",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Nautilus",
+        "wallet",
+        "beta",
+        "dApp_connector",
+        "recovery_phrase"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "13:55",
+      "question": "Why is it important for Rosen Bridge watchers to update to the latest version?",
+      "asker": "implied from update",
+      "answer": "It's very important to have all watchers up and updated because if you don't update, you're just burning electricity and the watcher won't watch any events. There was a database migration in a recent update where Docker had pulled a different version of the Postgres database, which required following specific instructions to avoid permission denied errors.",
+      "responder": "qx()",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Rosen_Bridge",
+        "watchers",
+        "database_migration",
+        "updates"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "10:48",
+      "question": "How much storage rent is the Sigmanauts mining pool collecting?",
+      "asker": "implied from update",
+      "answer": "The Sigmanauts mining pool distributed the largest weekly collection of ERG from Demurrage Storage Rent at 29.7 ERG. This demonstrates that they are the only major pool currently implementing storage rent collection, while other major pools running multiple chains haven't implemented this feature yet.",
+      "responder": "qx()",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "storage_rent",
+        "demurrage",
+        "mining_pool",
+        "ERG"
+      ]
+    }
+  ]
+}

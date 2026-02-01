@@ -1,0 +1,150 @@
+{
+  "call_date": "2025-01-16",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:05",
+      "question": "What's the current status of Ergo node version 6.0?",
+      "asker": "qx()",
+      "answer": "We're fixing issues found during Dusek's audit, which is providing good quality review. There's one more issue to fix, then we can release another 6.0 release candidate with testnet activation details. Testnet activation could happen soon due to custom soft fork parameters, with mainnet activation potentially starting around March after audit completion.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "node",
+        "audit",
+        "testnet",
+        "mainnet",
+        "soft fork"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "01:39",
+      "question": "What's the progress on sub-blocks implementation?",
+      "asker": "implicit",
+      "answer": "Working on prototype implementation of blocks generation, spreading transactions across input blocks. Next week there might be a demo for local DevNets using local miner (stratum proxy isn't ready yet). This is just the initial prototype phase focused on local miner implementation.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "sub-blocks",
+        "DevNet",
+        "mining",
+        "stratum"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "03:49",
+      "question": "What's the status of the Dexy Gold audit and development?",
+      "asker": "implicit",
+      "answer": "The Dexy Gold audit is complete with all 18 contracts reviewed. Currently working on polishing the backend, and C8 has been confirmed to work on the UI development. Other UI options aren't viable at the moment.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Dexy Gold",
+        "audit",
+        "smart contracts",
+        "UI"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "04:38",
+      "question": "What updates are planned for SigmaUSD Oracle Pool?",
+      "asker": "implicit",
+      "answer": "Working on a new SigmaUSD Oracle Pool version 2. The code to produce needed transactions is finished and will be tested in testnet first, then we can consider how to update the mainnet pool based on Oracle Pool updates.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "SigmaUSD",
+        "Oracle Pool",
+        "testnet",
+        "mainnet"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "07:52",
+      "question": "What are off-chain bots and why are they important for Ergo development?",
+      "asker": "implicit",
+      "answer": "Off-chain bots are needed to process transactions through complex smart contracts like DEX transactions, NFT marketplace transactions, and DuckPools. They're specific to UTXO blockchains and require significant time, effort, and research to develop, which makes development slower compared to EVM chains that don't need them.",
+      "responder": "mgPai",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "off-chain bots",
+        "UTXO",
+        "smart contracts",
+        "DEX"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "09:12",
+      "question": "What's the main problem with off-chain bot development on Ergo?",
+      "asker": "implicit",
+      "answer": "There's no standardization of off-chain bots on Ergo (and Cardano). Developers have to build everything from scratch with everyone using different approaches - DuckPools uses Python with node API, Spectrum has complex heavy codebase, and each project implements their own way, creating inefficiency.",
+      "responder": "mgPai",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "standardization",
+        "development",
+        "Python",
+        "node API"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "10:00",
+      "question": "How is Fleet SDK improving Ergo development?",
+      "asker": "implicit",
+      "answer": "Fleet SDK, the JavaScript framework for building on Ergo, has been getting really good and now supports many things that were previously only available in Java and Ergo AppKit. It's become viable for writing off-chain bots in TypeScript with few remaining bottlenecks.",
+      "responder": "mgPai",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Fleet SDK",
+        "JavaScript",
+        "TypeScript",
+        "Ergo AppKit"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "10:29",
+      "question": "What's the proposed solution for standardizing off-chain development?",
+      "asker": "implicit",
+      "answer": "The next step is for developers or DevDAO to create a standardized framework for off-chain bots, including recorded videos and good documentation. Dexy Gold could serve as a good demonstration by writing its off-chain execution using Fleet SDK.",
+      "responder": "mgPai",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "DevDAO",
+        "standardized framework",
+        "documentation",
+        "Fleet SDK"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "11:18",
+      "question": "What advantages does Go language offer for Ergo development?",
+      "asker": "implicit",
+      "answer": "Go is very good for concurrent applications and processes things more efficiently, making it easier for developers to build efficient off-chain bots. A community member (PG) is working on a Go library for Ergo that's almost ready, which would provide another good option for off-chain development.",
+      "responder": "mgPai",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Go language",
+        "concurrent applications",
+        "off-chain bots",
+        "library"
+      ]
+    }
+  ]
+}

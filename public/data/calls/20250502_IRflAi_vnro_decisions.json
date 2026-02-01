@@ -1,0 +1,118 @@
+{
+  "call_date": "2025-05-02",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - May 1st",
+  "decisions": [],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "03:34",
+      "commitment": "Start reaching mining pools and fix voting height to start voting for 6.0",
+      "owner": "kushti",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "But, yeah, well, we can start reaching pool, mining pools anyways, and fix voting height, right, to start voting."
+    },
+    {
+      "id": 2,
+      "timestamp": "61:40",
+      "commitment": "Do spaces next Wednesday with industry media",
+      "owner": "kushti",
+      "timeline": "next Wednesday",
+      "topic": "marketing",
+      "quote": "by the way, I will do spaces next Wednesday with some media. So some industry media. So I will share an announcement in coming days."
+    },
+    {
+      "id": 3,
+      "timestamp": "62:01",
+      "commitment": "Have AMA next Thursday",
+      "owner": "kushti",
+      "timeline": "next Thursday",
+      "topic": "community",
+      "quote": "Then next Thursday, let's have AMA maybe."
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "07:53",
+      "question": "What would be in focus in regards with core development after sub-blocks",
+      "context": "Developer community discussion about post sub-blocks roadmap",
+      "topic": "technical",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "06:01",
+      "question": "Need to rework peer-to-peer layer to send full blocks to old clients and only differences to new clients",
+      "context": "Sub-blocks implementation compatibility requirements",
+      "topic": "technical",
+      "raised_by": "kushti"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "01:58",
+      "fact": "5.0.26 is under review and will help with user experience by supporting block candidate regeneration",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 2,
+      "timestamp": "02:46",
+      "fact": "6.0 is finalized, it's about 16-17 thousand lines of code and is under review",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 3,
+      "timestamp": "04:02",
+      "fact": "In case of successful voting with 90% super majority support, activation will be in three months",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 4,
+      "timestamp": "06:44",
+      "fact": "All clients before sub-blocks would be supported, even 4.0 would be supported after sub-blocks deployment",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 5,
+      "timestamp": "12:48",
+      "fact": "Students saved about $1,000 so far with utilizing Ergo and the BRIC token",
+      "speaker": "qx()",
+      "topic": "adoption"
+    },
+    {
+      "id": 6,
+      "timestamp": "14:27",
+      "fact": "About 60-70 students have set up wallets and have been doing transactions out of about 350 architecture students",
+      "speaker": "qx()",
+      "topic": "adoption"
+    },
+    {
+      "id": 7,
+      "timestamp": "25:46",
+      "fact": "Staking contract hit like 1300 transactions with 600 million Palm tokens locked worth almost close to a million dollars",
+      "speaker": "MGPai",
+      "topic": "defi"
+    },
+    {
+      "id": 8,
+      "timestamp": "56:23",
+      "fact": "Box limit is about 4 kilobytes but you can spread across many UTXOs",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 9,
+      "timestamp": "57:24",
+      "fact": "Storage rent for four kilobytes would be about four or five ERG after four years",
+      "speaker": "kushti",
+      "topic": "technical"
+    }
+  ]
+}

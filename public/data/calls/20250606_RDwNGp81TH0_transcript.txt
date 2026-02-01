@@ -1,0 +1,369 @@
+[00:16] **kushti**: Hey, everyone, how's it going?
+
+[00:20] **qx()**: Good morning, everybody.
+
+[00:21] **qx()**: How you doing, kushti?
+
+[00:24] **kushti**: Doing well, busy days despite summer but yeah it's going really well so delivering a lot and just like two minutes ago 6.0 RC6 released hopefully the latest release candidate version, which is different from the final release in regards with maintenance warning height.
+
+[01:00] **kushti**: But yeah, so we are doing some additional testing. So let's see. But yeah, well, it's hopefully final.
+
+[01:07] **qx()**: Should we push that and test that?
+
+[01:10] **kushti**: Yeah, yeah, yeah.
+
+[01:14] **kushti**: Then what else? So yeah, well, Sigma 6.0 released and well, I've published some texts, I believe. I don't know whether I made anything public, but yeah, we've written a lot of stuff also recently. If it's not public yet, then yeah, it will be made so in coming days.
+
+[01:42] **kushti**: So, yeah, then there are some things I'm preparing under the hood. Yes, some will be announced soon and some probably close to September, so finalizing conference schedule. So, yeah, well, in September, I will visit Korean Blockchain Week. So, yeah, currently making some arrangements with Korean peers.
+
+[02:22] **kushti**: And yeah, also, I will be in Dubai in July, surprisingly. Yeah, I hope I'll survive. So if everyone will be around in July, not sure about that. So yeah, let's meet maybe.
+
+[02:43] **kushti**: So yeah, a lot of updates and yeah, it seems community is quite buzzing these days again, right? So a lot of conversations and so on. Some new faces in the developer's chats and yeah, actually, there are some new faces in the developers chat, some brought by Bruno because he has a couple of Google Summer of Code projects bringing new contributors to existing and new projects.
+
+[03:29] **kushti**: And yeah, well, aside of that, there are some new faces as well. And yeah, well, a lot of interesting things going on.
+
+[03:43] **qx()**: Yeah, we have some, the hackathon brought on some people that aren't even really normal developers, you know, everyday developers. So with the AI themed, it's not just, remember, it's not just AI themed, as in let's work with AI in the blockchain. It's also let's utilize AI tools to help create and build something for Ergo, for the hackathon.
+
+[04:09] **qx()**: So you'll notice that I think Mark got two Sigmanauts mining pool miners to build some apps as well in the hackathon. So those are completely new people testing the DevWaters with the augmentation of AI. So that was really, really good to see.
+
+[04:26] **qx()**: And I'm scanning through the entries in the Discord. If you guys have the time, swing into the Discord and Glasgow's got them all listed there right under, right near the general chat. You'll see everybody's hackathon project and you'll see the submissions and there's a lot of working examples that you can click on and actually use their product.
+
+[04:46] **qx()**: So if you want to participate in, we're working on doing a community vote as well, like we do every time. So there'll be, we just have to vote on that in the Sigmanauts. So there'll be a reward for community voted projects on the hackathon.
+
+[05:01] **qx()**: That's neat because, you know, you have the hackathon requirements which are awarded by the EF and then you have community projects where we can use different metrics and standards to rank and grade and have you vote on. So it gives everybody more of a chance at the uniqueness of their project to perhaps receive a reward for their efforts.
+
+[05:20] **qx()**: But there's a lot of cool stuff. kushti, did you take a peek at some of the hackathon final projects that came out?
+
+[05:31] **kushti**: Yeah, well, watched probably, so all of them published over the Ergo platform Twitter. So, yeah, well, it's quite interesting what people are doing with AI and Ergo. So I'm also trying to use AI, but... For testing, right?
+
+[05:54] **qx()**: You use it for running test examples?
+
+[05:56] **kushti**: To write tests, so some trivial code, but yeah, so I tried to write down some sub-blocks related algorithms implementation. Yeah, it seems, well, it's about, you know, some pretty dangerous hallucinations. So yeah, I found, well, it's probably more productive to write codes manually, right, than to get through reviewing AI-generated code with some subtle issues, but they're actually quite critical ones.
+
+[06:37] **qx()**: Right, right. It gets very difficult. I find that if I write something from scratch and something goes wrong, it's so much easier to debug it as opposed to having AI spit out an entire app, and then you're literally going through the app as if somebody else wrote it because they did and you're kind of learning and figuring it out. It takes much, much longer to bug, debug and troubleshoot an AI app as opposed to writing your own code.
+
+[06:59] **qx()**: But that being said, I think I said this last week, I can't remember if I said it in a Sigmanauts meeting or an AMA, but I'll say it again. The interfacing with Ergo platform, kushti, when I use AI to code, or even when I don't, it's the easy part. It's insane how easy it is to interface with the tooling and the blockchain, the node, the explorer, all the API endpoints. So easy. The hard part is the actual app itself.
+
+[07:28] **qx()**: So I always find myself wrapping up the endpoints and how I'm going to interact with the chain, and that's done super quick. And then the rest of the time is spent trying to get the damn front end to work properly or the back end and that kind of stuff. So it's really nice to be on a chain where integrating with a blockchain is not the issue ever, usually.
+
+[07:50] **kushti**: It would be interesting to get into some high-level definition of financial contracts using templates, contract templates we have in Ergo. AI, so probably then not so much, you know, freedom for AI to get here into its hallucination, so it would be quite interesting, and yeah, well, results should be solved, but yeah, well, we need to do some things, but yeah, well, there are some MCP efforts for getting LLMs working with ErgoScript and yeah, I haven't tried them yet, to be honest, I need to do.
+
+[08:52] **kushti**: But yeah, so what's great about AI, you can do some trivial things like tests, right? So when you have like five tests already and I need to do like five new ones with just different conditions for inputs and outputs, then yeah, well, it's saving hours, right, easily.
+
+[09:22] **kushti**: So, well, you can do copy-paste, right, and then going through hundreds of lines of code to find those conditions and save them, and it's quite boring, and AI is reducing efforts heavily there. So yeah, that's great, and also using AI for now, well, writing some proposals, right, but it's not I think quite useful to use its output right to just hide in our code space and send like some people are doing but yeah yeah yeah well you can prompt and then get some structured ideas right and then just fill your document but actually with your own wording because well AI is too kind of lengthy and
+
+[10:23] **qx()**: Double explains things, double reasons things. It's fairly somewhat obvious at this point still, especially if you're in correspondence with a person already. I got an email the other day from somebody. They were requesting something. It was a couple of paragraphs long. And I wrote them back on Teams. And I was like, did you put this through AI to make this request? And they're like, yeah. I was like, ugh. So it can be pretty obvious sometimes.
+
+[10:48] **kushti**: Yeah, yeah, yeah. It's too wordy usually, right? Too much water and sometimes also some hallucinations there.
+
+[11:05] **qx()**: What's your tool you go to when you do use AI? Is it ChatGPT or Claude or something else?
+
+[11:15] **kushti**: So for text, it's just DeepSeek. So, yeah, it's free and it's... You want me to click? No, just the websites. They have this quite interesting reasoning mode, which is quite funny sometimes. But yeah, I'm not using it heavily, so it's just, I don't know, maybe once a week, once a month, something like that.
+
+[11:46] **kushti**: And for all codes I'm using, yeah, Claude Sonnet and Cursor IDE. Also tried IntelliJ IDEA with its own AI assistant, so it's front-end. So many back-ends, I believe, such as Sonnet, DeepSeek and so on, but yeah, it's not working so well for me at least. It's quite interesting but also quite limited.
+
+[12:24] **kushti**: You need to be inventive to bypass the limitations, to boost your productivity and not to have it downgraded.
+
+[12:34] **qx()**: Yeah, no, no, exactly. When I was coding with Mark and Kenan for the hackathon, the tools were using OpenWebUI and LiteLLM. There's a certain way you can get them to kind of talk to each other. And the AI platforms I was using really thought it knew how it worked, and it did not. And I find myself arguing with it at 2 a.m. and I was like, what am I doing? Just stop wasting your time and just write the damn thing yourself.
+
+[13:05] **qx()**: So that's what you end up doing, but you get to that threshold and you're like, okay, this thing obviously thinks it knows what it's talking about, but it obviously doesn't. So I think that can be dangerous to somebody who doesn't know what they're doing and it's gonna waste a lot of their time.
+
+[13:25] **kushti**: All right, and yeah, so a lot of things going on around, right? There was some buzz on Twitter in regards with Kaspa integration into Rosen Bridge and Tari.
+
+[13:38] **qx()**: Right, that'll be great, yeah.
+
+[13:41] **kushti**: Well, as far as I know, both are now communicating with the Rosen team.
+
+[13:46] **qx()**: I just hope that people can really get over this siloed approach of tribalism, right? I think we see that again. I saw that on Twitter the other day when Kaspa was posting about somebody's posting about Kaspa joining Rosen Bridge and something and somebody posted from Kaspa about how much better Kaspa is and that kind of thing. And I had to switch off the main account, switch to my own account and make kind of a not terrible comment to them, but just a reminder that there's no need to beat your chest about this kind of stuff. Like, come on, bud.
+
+[14:19] **qx()**: It's just such a waste of effort to see that happen. There's no need for tribalism in that sense. Especially when Ergo is better than everybody else, kushti, you know?
+
+[14:30] **kushti**: Right, but also, I mean, so you know, if there is news about, you know, integration with some centralized exchange, so no one would say that, I don't know, like Kaspa is better than Binance. I mean, it's similar. Yeah, true, true. I mean, Rosen Bridge is just application. So yeah, so it's in the same field as centralized exchanges, right? Not chains. So I mean, what's the point to start a holy war here?
+
+[15:11] **kushti**: Talking about centralized exchanges, they're disgusting. I'm not sure what's bad they did in the last days since the last AMA, but I'm pretty sure they've committed to a lot of nasty things as usually. Like, I don't know, launched 100 meme scams from their own department labs and so on. Just every day they're doing some pretty disgusting stuff.
+
+[15:51] **kushti**: All right, so do we have Dan now?
+
+[15:54] **qx()**: We have Dan the Man Freed Man.
+
+[15:57] **qx()**: Wow.
+
+[15:59] SPEAKER_02: Wow. And you're talking about doing disgusting stuff. What did you do QX? What was that? What happened? We talked about this already. We talked about the stuff.
+
+[16:12] **qx()**: It's great to see you, Dan. I've missed you since last week. What's new in Palm Economy, Dan? How's it going there?
+
+[16:20] SPEAKER_02: You know, it's going all right. There's a lot of palms. A lot of palms. Yeah. A lot of palms.
+
+Actually, Theo just came back from Africa, from Nigeria. And so we are going to be onboarding cocoa and pineapples.
+
+[16:41] **qx()**: Nice.
+
+[16:42] SPEAKER_02: Two of my favorite things. Yeah, yeah. Cocoa and pineapples. I said cocoa, not coke. But unlike when you see these are pineapples, not pinecones, which is probably, you know, what some people call you.
+
+Now, pineapples over there, they apparently have a problem with... Well, so the supply chain has a problem with standardization, so they don't have agreed on standards and QA for these pineapples.
+
+[17:23] SPEAKER_02: There's actually a photo that Theo took, that he took in, I'm not sure if it was Benin or Nigeria, it was either Nigeria or Benin. I think it was Benin, actually, where they literally throw away like some ridiculous amount, like 30% or something like that, just because they can't standardize it.
+
+[17:50] SPEAKER_02: So this is actually one of the reasons why they're so interested in Palmer Pro is because it'll help them track the entire process so that they can do QA a lot better, as well as other things that are needed for soft commodities operations to keep track of stocks, keep track of growth, processing, and all these different things.
+
+[18:15] SPEAKER_02: So, yeah, there's a lot of interest there. And also, in Nigeria, the cacao trade. I don't know if people know about this, but cacao is chocolate, and people know chocolate.
+
+Well, chocolate is actually, there's quite a lot of shady shit happening with cacao because of the various different regions and middlemen between, say, the west where a lot of this is used and a lot of the African countries that produce this cacao, some are actually government-controlled monopolies. Some of them are actually suppressed.
+
+[19:18] SPEAKER_02: There's a lot of well, not a lot, but in some regions, there's a lot of manipulation going on. And so what that does is it actually creates real inequality about the cacao farmer, what they get versus what this stuff is sold for. And actually, the prices of cacao, are you paying attention, QX? What are you looking at? Somebody giving you a treat? You look like a Doberman that's about to get a treat.
+
+[19:50] **qx()**: I put you up on this big screen over here, Dan. I have like three huge screens in front of me. I have like a whole console.
+
+[19:55] SPEAKER_02: Don't put me up on a pedestal, okay? You're already like 5'3". You don't have to. Keep going about like a cow.
+
+Yeah, the cacao, the cocoa. Yeah, and so the international prices of cacao actually are going up. It's getting more and more expensive. But that really does not translate to the producer. And a lot of it is because lack of market access, gatekeeping, and also lack of quality control and assurance mechanisms.
+
+[20:30] SPEAKER_02: And so again, that's something that we're going to be providing for them through Palmyra is those mechanisms through Palmyra Pro using tokenization and basically track and trace using Lithos Protocol to standardize these things and to give them a better chance of just a more equitable, because I don't like to use fairness because it's like who decides what's fair, right?
+
+[21:04] SPEAKER_02: But if you actually create a more equitable situation, right? So where you have the opportunity for people to participate at their capacity, not at like what some middleman says or government says they can and how much, you know, like, okay, so how much is the government gonna rob us today? Cause they're the only ones they can get the stuff out of the country.
+
+[21:29] SPEAKER_02: You know, once this kind of stuff is kind of mitigated by the technology that we have, and I think, you know, I mean, that's kind of the ethos of what Ergo is about. I know Alex is really passionate about Africa, and I mean, I think that's kind of like the, some of our core values are about that, right? So you kind of give them the tooling, create an equitable, opportunity-inclusive environment and give people the opportunity to kind of take advantage of it.
+
+[21:59] SPEAKER_02: Did they take advantage of it? And, you know, just kind of leave it up to their initiative, right? It's the same with Ergo, because, you know, we actually have these conversations at the office. I talked to Luca about this quite a bit, you know. And that's just about Ergo. It's not really specifically about Ergo. It's just about just in general ethos of the blockchain space.
+
+[22:22] SPEAKER_02: You know, there is this sometimes, not all the time, but sometimes in some ecosystems, what you get is this like sense of entitlement. Like we deserve to be here. You know, we're, you know, like why did these guys get to have all the fun? We deserve this space. We, you know, we're getting, we're oppressed, we're suppressed.
+
+[22:46] SPEAKER_02: And to a degree that might be true, you know, with various different micro or maybe some macro environmental, you know, I guess, whatever you want to call them causalities. But for the most part, you know, it's about providing the, a blockchain is supposed to provide the tooling and the environment for innovation to thrive. What happens after that is not up to the blockchain.
+
+[23:14] SPEAKER_02: It's not up to Alex to go out and tell people to use Ergo. It's about people using Ergo and then doing business on Ergo and then getting that business out there, right? And this is why I chose to start a business on Ergo and this is why I chose to, instead of going out there and evangelizing or whatever the word is, Ergo to the masses and saying use Ergo, I'm using Ergo.
+
+[23:43] SPEAKER_02: You know, I thought that that's the best way to lead is to I create an enterprise, a real enterprise, the kind that I keep talking about, and I've been talking about for years, on Ergo, and I do it myself. You know, this company was built, was started around Ergo technology.
+
+[24:01] SPEAKER_02: And this is actually what I hope others would do is take the initiative to start their own business using this technology. And so like to get back to what I was saying, you know, we have to kind of stop with this feeling of entitlement. You know, nobody owes us anything. You know, we owe it to ourselves. We owe it to ourselves to use technology to build stuff.
+
+[24:20] SPEAKER_02: This is why I'm such a big supporter of something like ErgoHack, you know, because that's the community taking initiative and building something and building something and then then kind of deciding, you know, if it has legs, if it doesn't have legs, right? And a lot of really cool innovation came out of that. I mean, they're building things like, say, Rosen Bridge, for example, you know, and that came out of, I mean, and that's, you know, that's an innovative new technology that is really pretty much one of a kind.
+
+[24:53] SPEAKER_02: So yeah, it's like we should all not have that kind of feeling of bitterness and saying, well, these guys are bigger than us, they don't deserve to be there. It's like, no, fuck that. It is what it is. If you think that this blockchain is so good, and it is, Ergo is that good, build on Ergo. Go for it. Do it.
+
+[25:15] SPEAKER_02: And even if, you know, maybe Ergo is not gonna be number one on the price charts right above Bitcoin, but you're gonna get enough business through Ergo for Ergo to stay relevant and stay strong and evolve for a long, long time. I think that's the best way that you can assure that this ecosystem stays relevant and blossoms and the rent.
+
+[25:49] **qx()**: Good rent then.
+
+[25:52] **kushti**: Right, so yeah, it's about giving the same access, right, to free markets to everyone, well, regardless of color, right, and other factors.
+
+[26:08] **qx()**: It's transparency as well, right? Same access transfer. So the thing that I think humans in nature, especially when you get up into the level of middleman as Dan is talking about, there's ultimate like temptation for corruption, right? Look at the olive oil business, right? Look how fucked up that is, right? You know, just opportunities to keep on shortchanging people.
+
+[26:30] **qx()**: And whatever, if you want to do that stuff, great. But make it transparent to the user. Whereas, you know, the blockchain hopefully can do that, especially with what Dan's doing. So if you want to sell shitty olive oil, great. But let the consumer know that they can trace it back and see which part is actual real olive oil and which part is, you know, pine oil or whatever the heck they're using as a substitute.
+
+[26:49] **qx()**: And then let the user choose if they want to buy a cheaper version of that as opposed to the real thing. Same with cacao, same with pineapples, all that kind of stuff, whatever. Corruption will be visible at least in that aspect. And if it works out and that's what people want, then so be it.
+
+[27:06] SPEAKER_02: And that's actually a really good point. If we are going to be in this kind of decentralized new way of community-driven, non-communist type of community-driven stuff, right? If we're actually gonna do it like, you know... in a sustainable way. You can't on one hand, you know, not want, you know, or want minimal government interference or minimum regulations or minimal like control.
+
+[27:44] SPEAKER_02: And on the other hand, wait for somebody to come and wipe your ass because it's like, those guys are doing bad stuff. You should really, you know, you should really like, like that's not, you know, somebody should tell like, Mom that they're selling fake olive oil is like, well, you tell people that are selling fake olive oil because you're going to use the technology that is at your disposal to show that you have real olive oil.
+
+[28:07] SPEAKER_02: And this is what we're doing in Greece because we're working with the producers over there. We're helping them do that because there is actually a huge problem with Greek olive oil, just like there's a problem with Italian olive oil as well. Just a lot of fakes out there, a lot of, you know, it's kind of like the Egyptian, some of it is like, kind of like the Egyptian, what is it, the Egyptian linen or the Egyptian silk, whatever it was, that effect.
+
+[28:36] SPEAKER_02: The Egyptian cotton, yeah, yeah, it's like, if somebody Egyptian touches it, it already becomes Egyptian cotton. Doesn't matter. It's like kosher, kosherizing things. Like the rabbi winked at it, it's now kosher.
+
+Anyway, but I mean, actually, actually, that's actually something else that I've been really considering getting into is kosher certified kosher certification, because I mean, that that's like, that that's like a given thing. And you know what, actually, you know, us Jews are actually pretty industrious and that kind of stuff, where like, we don't fight against technology.
+
+[29:17] SPEAKER_02: So I think actually, and I haven't really kind of, you know, put my feelers out, but I think that potentially could also be a really interesting field to get into and to kind of like kosher certification halal certification you know you could track your favorite rabbi and only buy goods that he certified like baseball cards for rabbis yeah that'd be awesome you know it's you can like track them like an uber
+
+You know, there's a rabbi within five minutes away from you. They can certify your stuff kosher.
+
+Anyway, yeah, there's a lot of opportunity out there. But like I said, we just can't expect on one hand to be free and on the other hand to expect somebody to come and wipe our asses. I mean, yeah, like you said, going back to what you said, they can sell shitty olive oil all they want, but it's up to you to say, well, you know what? They're selling shitty olive oil. I'm selling the good stuff. I can prove it. They can't.
+
+[30:16] SPEAKER_02: And then the consumer decides maybe they still want to buy shitty olive oil. You're not going to force them. You're not going to guilt them into it. But sooner or later, if it is a competitive product, then they, you know, they will switch to it. They will start using it the same, like say the same thing with like electric cars, right?
+
+[30:35] SPEAKER_02: Just think about, look at the electric cars, look at the Tesla, right? Electric cars have been around since like the beginning of the 20th century, literally from like the teens. I think the first electric car was something like in the, like literally right after the first Ford started to come out, there was actually an electric car already that was already advertised.
+
+[30:58] SPEAKER_02: And some said, oh, well, the technology was suppressed by the petroleum industry and the internal combustion engine manufacturers and blah, blah, blah, blah. But bottom line is that technology was just not mainstream consumer viable. These things had really short range. There was not enough infrastructure set up for them. They were too expensive. They were too toxic. They were too impractical.
+
+[31:24] SPEAKER_02: And for years, they were like that. They were electric cars in the 70s, in the 80s, in the 90s. And why did Teslas actually become, and even before that, you know, they were like the Honda Insight or whatever I think it was called before the Teslas came out, you know, that was kind of a thing thing, but not really a thing. But why did the Teslas really blow up? Because it's a mainstream viable product that makes sense to people versus an existing competitor like internal combustion.
+
+[32:07] SPEAKER_02: A Tesla makes sense because I can actually use a Tesla the same way I can use a car, you know, whatever around town. Because there is a network, I can fuel the thing up with, you know, I can charge the thing up. It's got range, it's got power. It's affordable. There is a support network that makes sense.
+
+[32:22] SPEAKER_02: And, you know, it's kind of like the same thing with this, you know, it's when you bring a mainstream viable product to the market, even if that product is nouveau, it can still penetrate the market really well and become an actual real competitor to the you know, to what's already out there, if that is, like the support system is there for people to say, okay, you know what, like I said, going back to olive oil, yes, there are all of these different things, but if I get the good olive oil, number one, it doesn't really cost that much more. It doesn't really cost much at all. There's like, you know, the price difference is laughable, number one.
+
+[33:08] SPEAKER_02: Number two, it's better for me. Number three, I'm actually getting real olive oil, not getting like bullshit with olive oil flavor. So that's just like, it's free market competitive viable products that are utilizing the technology that will win this fight.
+
+[33:31] **qx()**: Yeah. Yeah, I agree with Ergo as a backbone for sure.
+
+All right, so we've got, let me jump in to say that we've got some preliminary things for the Ergo Meetup 2025 in Colorado. Dan, are you going to be able to make it?
+
+[33:49] SPEAKER_02: I yes, potentially I can actually October September something like that September. It's like October 11th or something like that October 11th now. I just want to confirm. I just want to confirm so there was the What was that movie with with with ice with iced tea?
+
+Surviving the Game
+
+[34:13] **qx()**: Is that like a Disney movie?
+
+[34:15] SPEAKER_02: No, it's not a Disney movie. It's about like he's this this like homeless guy that gets a job and he thinks he's a guide in like, like a camping place. But he actually is like hunted by a bunch of rich people. He actually is like, yeah, because because he's like, you know,
+
+[34:34] **qx()**: But Joe's got a bunch of rifles, so we might be able to do that if that's what you want.
+
+[34:38] SPEAKER_02: That's what I'm saying. I just want to make sure that it's actually not a way for Joe to trap us on his mountain and to, what was it, the deadliest game? The Most Dangerous Game or deadliest game?
+
+[34:52] **qx()**: Yeah, something like that.
+
+[34:54] SPEAKER_02: The Most Dangerous Game, yeah. I just hope it's not that. Or I hope it's not like... what... Hunger Games. It's not Hunger Games either.
+
+[35:08] **qx()**: It could be.
+
+[35:10] **qx()**: Alright, awesome, awesome. So we have preliminary, we have, I'll just bank through it really quickly, but we have Friday. When people arrive, we'll set a time where we can kind of group up at either a local bar or a local pub just to say hi and meet and greet the people that have showed up on Friday.
+
+Saturday morning breakfast. That'd be on your own. We're just going to start the thing at 10 a.m. for kind of a meet and greet, and then the first speakers will come on. First speakers are LGD, LDG, and MiGoreng. They're going to talk about the uniqueness of palm staking and perhaps gluon theorems as well, so that'll be a cool talk.
+
+[35:52] **qx()**: 11 a.m., a little after 11, we're going to try to get a food truck on site. and that's when the beer can start flowing as well. Joe is working or he obtained the liquor license for the event, for the venue. There's going to be a speaker at lunch and that's going to be qx(), if you guys are familiar with qx(). He's going to talk about Lithos. He's going to do a protocol deep dive on Lithos.
+
+[36:16] **qx()**: At 12:30 p.m., we're going to do something unique. We're going to try potentially a hackathon kickoff, a short one that's an hour and a half. It's going to be called AI Hobby Devs vs. Old Timer Devs. And the rules are that it's going to be a sealed envelope with a dApp that nobody knows about that's going to be doable by hand coding devs in an hour and a half.
+
+[36:41] **qx()**: And it's going to be unsealed there and read to the two teams. And the stipulations are that AI devs, when they create the app, they need to try to mimic what a front-end would look like if a dev was hand-coding it, and I'll get to that later. Non-AI devs are allowed to pillage Stack Overflow or their own code from a project to make it faster, of course.
+
+[37:04] **qx()**: Judging will be done by three selected members of the community who will do so blindly, meaning they cannot watch the hackathon. They have to go get a beer somewhere or get a cigarette for the hour and a half or whatever. Just don't look at the screens when the hackathon's going on. I know, right?
+
+[37:20] **qx()**: So the team goals are build the best app with the least amount of UX bugs and try to fool the judges into thinking your build is actually the opposite team's build. So judging is based on best app with the least UI bugs. That's one point per judge per team. And number two, the judge has to name the team who designed the dApp. And if the team fools the judge, then they get that point.
+
+[37:44] **qx()**: So the winning team will get a donation from the Sigmanauts, an award from the Sigmanauts. We have to vote on how much that is. So I think that'd be kind of a neat comparison hackathon. Let the core devs and the hand coding devs do their thing. Let the AI kind of hobbyist devs crank some stuff out. See if they can fool the judges to see who wrote what. And also create a neat little dApp that will actually function well.
+
+[38:10] **qx()**: So that'll be a fun little thing to watch while we're all drinking a lot of beer. 2:15 will be an afternoon speaker. That'll be Aaron on VR. He's going to talk about Machina Finance, which would be very nice to hear in person and ask questions about because we don't know a ton of that. We just know what Joe's posted on Twitter and all that kind of stuff.
+
+[38:29] **qx()**: 4 p.m. will be a group hike. We're going to go to the Paul Intamin Nature Trail, suggested by Mark the Shark. I hope that dinners at 7 We can do IHOP on Saturday morning, Dan. Saturday morning will be IHOP. I'll put that in there.
+
+[38:49] SPEAKER_02: I like where it's going.
+
+[38:50] **qx()**: 7 PM will be dinner. We're still taking suggestions for where that is. And Sunday's breakfast at Urban Egg. We have to do a group reservation there, so we need to know counts. But I was going to say, kushti, are you able during this time to zoom in and give an afternoon welcome or something like that?
+
+[39:11] **kushti**: Oh, let's see. So I'll try to get a visa in the first place in July and then, yeah, let's see. I mean, the chance is probably minimal, but let's see.
+
+[39:23] **qx()**: That's amazing. If you can't get a visa, then that'd be great if you could zoom in and we'll have you up on the screen. We'll also live stream. We'll live stream all the talks to the community. We'll also live stream the hackathon. I'm going to bring my gear so we can extract the people's monitors, essentially. And we'll live stream all their code monitors on the screen so you can see the two different teams.
+
+[39:44] **qx()**: So it'll be quite the watchable event from off the in-person event part of it too. But super excited to see people that are coming and see everybody there and to execute this thing. So that'll be fun. Great. I'm glad you two are going to try to come. That's fantastic.
+
+[40:02] SPEAKER_02: It's in October, I think, because I'm going to be in the US in August for Rare. Actually, I might have to be there in September because there's a tea thing. Anyway, yeah, I'll do my best to make it. I think I can work it out.
+
+Yeah, just like I said, make sure that Joe is not going to hunt us. Just make sure, okay, QX, you left now, but then, you know what?
+
+[40:43] **qx()**: If he invites you back up to his mountain resort, he probably should be worried.
+
+[40:47] SPEAKER_02: Okay, so I'm not going to brag, but I do cardio. And I tested it. I don't really exert myself in just running through the station or whatever. But I have put it to the test before, and I'm just like, holy shit, I'm not dead. So I don't know if you're there yet or not. I don't know how far you can sprint away from the men hunting you, QX.
+
+[41:18] **qx()**: You just have to be faster than the slowest guy, Dan. That's it. That's the only requirement. So I think we'll be fine. So that's what I'm saying. Are you the slowest guy? I'm pretty fast. We'll see. We'll have to do a foot race. Let's drink a lot of beers and do a foot race.
+
+[41:31] SPEAKER_02: You're pretty fast at IHOP. That's about it.
+
+[41:34] **qx()**: All right. We got a question from Kufurums. He wants to put some Ergo miners in Argentina. Is there any source where I can read like a step by step? That's awesome. I would say Kufa, you should join the Sigmanauts mining group. And even if you don't mine to that pool, there's a ton of channels in there where you can talk about mining, you can talk about card tuning, you can talk about what rigs to do.
+
+[41:56] **qx()**: Mark the shark's in chat here. He runs the mining pool. So yeah, jump in the Sigmanauts mining pool. I think you'll get a lot of community response there and help you out. It's very non-competitive, very accepting, very, very welcoming.
+
+What else? We got any other questions, Dan?
+
+[42:15] **kushti**: All right. And that time, so just now, Ergo Foundation, it seems, announced a raffle for Banxa integration. QX, maybe, you know, more details about that?
+
+[42:29] **qx()**: I don't.
+
+[42:31] **kushti**: All right. So guys, please check the news channel. Let's see.
+
+[42:36] **qx()**: That is Banxa, OnRamper and Banxa integration. Oh, interesting. This may have been what's been in the works for a while. Yeah. I didn't think this had US. This is fantastic. Oh, yeah. I don't think it has New York. This is fantastic. Yeah, it doesn't have New York or Hawaii or LA. So there were a few. Yeah, I remember Glasgow talking about this. There's just a few US restrictions, but that's OK.
+
+[43:10] **qx()**: I have my Peruvian passport to buy this stuff anyway.
+
+[43:14] **kushti**: But they're everywhere, right? This New York. But can you actually go from New York to some upstate town by there? That doesn't work.
+
+[43:28] **qx()**: You could know you need to put in your driver license on this site, unfortunately. So it gets you. Yeah, unfortunately. But it's OK. You know, I still have my path, at least. I can either buy it with my wife's Peruvian passport. She buys it or else I buy it through Coinbase. I do the ADA. Well, actually, smarter, I buy stable coin and then convert it over to after it gets out of Coinbase. I'm not going to say why I do that, but I think people can understand why someone would do that.
+
+[43:58] SPEAKER_02: Why do you do that?
+
+[44:02] **qx()**: I think you know, Dan.
+
+That's awesome. That's fantastic. Great. Yeah. So everybody go to ergoraffle.com. I'll actually post a link right in chat right here. There we go. If it'll let me post a chat. There we go. I just posted it in chat. Go ahead. Let's, let's community race for this puppy. 20K is a drop in the bucket to give direct on-ramp access.
+
+[44:27] **qx()**: And what would be awesome too. So Joe and I were both looking separately as well for kind of like MoonPay US on-ramp options. And the option that I found, of course, a while ago did not have US yet. They were planning to do it but you know that was a year ago and they still haven't executed that plan so and Joe found one as well that was fairly around this price as well but I can't remember what the deal with those is but this would be awesome could you guys imagine something like this directly integrated into Rosen Bridge you go to Rosen Bridge you click what you want on whatever chain you want you type in you hook up your credit card you make the payment boom you exit
+
+from Rosen to whatever chain that is connected to that you want. No more like Coinbase to SimplePay or whatever the hell that stuff is, you know, off, you're just boom boom. Fantastic.
+
+[45:16] **qx()**: Now, guys, don't get your hopes up too much. The fee on this is probably gonna be a little bit more expensive than like going through a centralized exchange, but that's very attractive to a lot of people, especially in a market as it is now when the token prices are supposedly going to be much higher in years from now. So yeah, awesome. This is fantastic. Great job, EF. This is great.
+
+[45:45] SPEAKER_02: All right. Good job. Good job.
+
+[45:48] **qx()**: We got any other questions, Dan, kushti, that you want to answer?
+
+[45:51] **kushti**: Yeah, yeah. Do we have, so, yeah, we have 10 more minutes, so let's take two or three questions, because... All right, let's see.
+
+[46:00] **qx()**: This one's for you, kushti. How do you think ChainCash and Dexy will play in the market? Any chance at attracting users that weren't here before, essentially, new users? Getting new people because of it?
+
+[46:11] **kushti**: Yeah, so, well, for ChainCash there is need, right, to find end users because, well, it's kind of like assembly language layer for monetary systems, I believe. So, yeah, you can use it on very different levels from small communities to, well, international trade between corporations and so on.
+
+[46:45] **qx()**: You think there'd be like an opportunity with ZenGate or Palm Economy? You know, they're already in those kind of places with suppliers?
+
+[46:54] **kushti**: That's what we're actually discussing and that's what I'm also talking about with some parties, but I cannot announce anything. Yeah, well, you know, we have a variety of assets, good assets now, well, available. For example, if we take Africa for international trades, like tokenized real world assets, right, and well, cryptocurrency for forecasts. And then, yeah, they can be combined using ChainCash.
+
+[47:36] **kushti**: There are some other schemes on Ergo, which are of interest. In particular, well, insurance with stable coins, that's where I think Dexy Gold, and then Dexy Silver, Dexy Lithium, and so on. Stable coins would be useful, right, so not just to be used in DeFi, right, just as a hedge, for example, if you hold some portfolio, so you may have some, well, ERGs there, right, and also some gold, right, to hedge.
+
+[48:20] **kushti**: Stable coin based gold algorithmic stable coin based but I think another good option is to have a buffer rights and trading physical assets by using stable coin digital twins so for example using Dexy Gold to do insurance for physical gold non-delivery, right, non-delivery risks.
+
+[48:57] **kushti**: And yeah, to also sell, for example, non-produced tokenized lithium, right, so you may use, well, Dexy Lithium buffer for insurance. That would be quite capital-efficient, right, even considering capital-inefficient designs such as, well, Djed, Gluon, right, for security, but basically in most of algorithmic stablecoins, right, for security of pegging, you are paying with capital inefficiency, but then there are some hot talks, I mean, how to use them in real world applications.
+
+[49:50] **kushti**: And I think this is not an issue, right? If you are using algorithmic stablecoins as a buffer, right? So you just need for some are not so big amounts, right, to provide insurance for non-delivery, right, and like that, right, you can also use them for settlements on the right. So, yeah, well, there are lots of different possible applications here.
+
+[50:38] **kushti**: So, I'm discussing and there are also some simplified designs such as basis, which is mostly off-chain simplified variant of ChainCash proposed recently over the forum. And currently, some pals of mine are working on Gitcircles, which is kind of framework to create community currencies for developers of open source projects, right, using similar ideas, but actually they think to start even with simpler options, so with just on-chain tokens and on-chain DeFi, such as using LP pool, just right to sponsor an open source project, for example, but
+
+yeah, I think, well, off-chain option would be quite appealing in the future, right? And yeah, so for ChainCash itself, so yeah, well, we are doing different talks under the hood, and then probably it would be better to consider some concrete applications, right, and make initial UIs towards that.
+
+[51:57] **qx()**: Awesome.
+
+All right, we've got a couple more.
+
+[52:02] **kushti**: But maybe Dan also can have some opinion on the Dexy Gold and the other algorithmic stable coin assets in the presence of physical twins.
+
+[52:18] SPEAKER_02: Yeah, so this is actually something that I spoke about before. This is kind of like the continuation of what I spoke about when I mentioned this months ago on socials that we would be working on a hybrid lithium, pegged lithium backed stablecoin.
+
+And so this is actually what kushti's talking about right now. So we actually, you know, I spoke with kushti about this several times, spoke with Sam about it several times. It took a little bit of time to flesh it out. And really, I mean, that's what, you know, that's essentially what we're talking about here.
+
+[53:04] SPEAKER_02: Yeah, and so I think that this is actually, this would be very big player in regions where you have restricted movement. In the case of lithium, for example, if you have, for example, market manipulation, and so you have restricted logistics, for example, you have a smaller lithium mining facility and you are being thrown, you know, monkey wrenches in your plans because the logistics corridors are controlled by somebody, right? That happens.
+
+[53:52] SPEAKER_02: One of the biggest issues with lithium mining is actually logistics. And in fact, the big companies, you know, the Chinese companies and whatnot, they actually bring in their own logistics. They literally just bring the whole thing in. They don't even bother trying to put it together locally. They bring it all in just with them.
+
+[54:13] SPEAKER_02: So if you're a smaller organization, that's actually a big major thing for you to consider is logistics or lack of logistics. And so again, what that creates is a delay in delivery. So it's not a complete inability to deliver, but it's a delay in delivery. Another one is potential price manipulation by some adversarial actors.
+
+[54:36] SPEAKER_02: So you have some of these bigger producers or lithium producers, they will manipulate the price because they control a good chunk of a certain region's lithium production. And if the lithium price is too low, they'll stop producing the lithium. Right, and since they actually have the logistics network and the smaller places don't, the smaller places won't be able to take their lithium to the buyer.
+
+[55:10] SPEAKER_02: And so they're going to have to wait. And so even if they have a buyer for the lithium, they won't be able to make delivery. So what do you do in that case? Well, in that case, you still want to keep your operation going, right? You can't afford, if you're a smaller operation, to shut down like the big ones do. And if you're a multi-billion dollar operation, yeah, you can shut down and whatever, you know, you, you, you'll be okay. It's all kind of balanced out, but a smaller guys is going to kill them.
+
+[55:41] SPEAKER_02: So what do you do? Well, if you have this, lithium peg, lithium backed stable coin they're using, and you have this kind of this, you know, insurance feature built into it where you can actually still get, still get payment and utilize the stablecoin based on promised reserves.
+
+[56:09] SPEAKER_02: But for the coin to keep stability, it has to then accommodate with pegged assets and with algorithmic assets, then that way you can basically have a chance to sustain your business until you can actually fulfill that. And so it becomes algorithmic at that point. You can still pay for new things. You can still utilize the asset. And then when you make delivery, then it goes back into the reserves.
+
+[56:42] SPEAKER_02: So that particular part of the lithium can go back into the reserve. We can basically fulfill a lithium delivery so that it becomes backed again instead of pegged.
+
+I think there's quite a lot of real-world practical applications for this. Of course, it needs to be fleshed out, logistics of it and everything needs to be fleshed out. I think this is a big deal and it could potentially really create that opportunity inclusion that I keep talking about. I'm just really excited to be able to work on this with kushti.
+
+[57:25] **qx()**: Wow, he just spilled the beans.
+
+Alright, it's 10 of 2. Let's see, we got anything quick that we can do? It's like 3am for Dan there. He's got to be tired.
+
+[57:40] SPEAKER_02: Yeah, I got I got a I got a Palm Discord AMA right now that I'm Oh for so All right.
+
+[57:49] **qx()**: Sounds good. We'll wrap it up. Just reminded everybody to please I spoke with Joe this week after the AMA last week. We are going to put his medium votes for Rosen up on Paideia for votes. So if you're a Sigmanauts we have to vote on our decision there.
+
+[58:05] **qx()**: And just in short, that's part of those proposals is to provide liquidity to the DEXs, as well as do some air drops to Cardano side with Rosen ERG so that we can buff up our wallets for potential centralized exchange listings. So if you're not a Sigmanauts and you don't have power to vote, you can still rally the Sigmanauts. You can still rally all the GARD's that are also voting.
+
+[58:26] **qx()**: You know, think of them not as your representative necessarily, but if you can give them a compelling reason to vote for why you think they should vote for that, then don't be afraid to talk to them. Get out there and campaign, essentially. But yes, great.
+
+[58:38] **qx()**: And I'll post something on the web with a tentative schedule, as well as the GitHub sign up and the little document sign up for the Ergo Meetup. So please sign up and join if you're going to make it. Great. Close it out, kushti, please.
+
+[58:56] **kushti**: Yeah, so have a good day, Ergonauts, and yeah, well, have a busy time, and yeah, well, let's get the wider adoption together.
+
+[59:12] SPEAKER_02: I'm all for that. Let's do it. Great.
+
+[59:16] **qx()**: Great to see everybody.
+
+[59:17] SPEAKER_02: Yeah. Thanks a lot, everybody. Yeah. So I guess what? Next week, same time, same place, same channel. You got it. Sounds about right, yeah. Probably the same people.
+
+[59:26] **kushti**: Maybe, probably, would be good to see Joe again.
+
+[59:31] **qx()**: Yeah, let's see Joe. Let's get Joe here as well. We got MiGoreng can warm up as well for his speech at the meetup. Yeah. Get them all tuned up.
+
+[59:40] SPEAKER_02: Why are you going to let this guy on?
+
+[59:42] **qx()**: Yeah, he sees all right.
+
+[59:43] SPEAKER_02: He's all right sometimes. All right guys.
+
+[59:47] **qx()**: Ciao.
+
+[59:48] SPEAKER_02: All right guys. Thanks a lot. Good day. Bye. Yeah. Barely alive from Japan signing off.

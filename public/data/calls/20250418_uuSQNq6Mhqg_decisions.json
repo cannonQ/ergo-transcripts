@@ -1,0 +1,149 @@
+{
+  "call_date": "2025-04-18",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - April 17th",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "19:52",
+      "decision": "Establishing the Palm DAO in Japan using their regulatory tooling for legally enforceable on-chain contracts",
+      "speaker": "Dan Friedman",
+      "context": "Japan has developed regulatory tooling for DAOs that makes on-chain contracts legally enforceable",
+      "topic": "governance",
+      "significance": "major",
+      "quote": "interestingly enough, in Japan, they've developed regulatory tooling like this. So we're actually thinking about establishing the DAO in Japan."
+    },
+    {
+      "id": 2,
+      "timestamp": "23:52",
+      "decision": "2025 Colorado Springs event will be October 10th, 11th and 12th",
+      "speaker": "qx()",
+      "context": "Announcing the official dates for the Colorado Springs event",
+      "topic": "community",
+      "significance": "major",
+      "quote": "October 10th 11th and 12th. So the main thing is the 11th people get there the 10th We'll do something and then maybe breakfast on the 12th when everybody goes home"
+    },
+    {
+      "id": 3,
+      "timestamp": "24:05",
+      "decision": "Open sourcing the Colorado Springs event planning through GitHub",
+      "speaker": "qx()",
+      "context": "Making the event planning process collaborative like the rest of Ergo",
+      "topic": "community",
+      "significance": "minor",
+      "quote": "we're open sourcing it just like the rest of Ergo so if you are in the Ergo chats head to look for I guess I'll pin it in a second but look for the pin and there's a GitHub"
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "25:56",
+      "commitment": "50k worth of Palm tokens will be distributed to Ergo community",
+      "owner": "Dan Friedman",
+      "timeline": "As soon as Ergo support is added",
+      "topic": "tokenomics",
+      "quote": "Uncle Dan, when six 50k worth of Palmarinos. We still haven't forgotten about that. That is gonna come. What soon, like I said, as soon as the Ergo support is added"
+    },
+    {
+      "id": 2,
+      "timestamp": "31:36",
+      "commitment": "Will have conversation with Sam and Luca about publishing staking requirements for Ergo",
+      "owner": "Dan Friedman",
+      "timeline": "Tomorrow (Luca is in office)",
+      "topic": "technical",
+      "quote": "I'll have that conversation with Sam and with Luca, well, Luca at the office tomorrow."
+    },
+    {
+      "id": 3,
+      "timestamp": "29:49",
+      "commitment": "Expanding Palm dev team to add more support",
+      "owner": "Dan Friedman",
+      "timeline": "unspecified",
+      "topic": "development",
+      "quote": "we're actually expanding our our dev team to to give us more support"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "18:13",
+      "question": "Whether to force governance to one chain using Rosen or build natively on all chains",
+      "context": "Discussion about multi-chain governance UX vs technical complexity",
+      "topic": "governance",
+      "raised_by": "qx()"
+    },
+    {
+      "id": 2,
+      "timestamp": "19:04",
+      "question": "What minimum requirements need to be on each chain for legally compliant multi-chain DAO",
+      "context": "Understanding regulatory compliance for multi-chain governance",
+      "topic": "governance",
+      "raised_by": "Dan Friedman"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "02:12",
+      "fact": "Palm token launched multi-chain using Rosen Bridge at launch",
+      "speaker": "Dan Friedman",
+      "topic": "rosen-bridge"
+    },
+    {
+      "id": 2,
+      "timestamp": "09:14",
+      "fact": "250 million palms staked, worth about $300,000 in first couple days",
+      "speaker": "Dan Friedman",
+      "topic": "tokenomics"
+    },
+    {
+      "id": 3,
+      "timestamp": "12:32",
+      "fact": "$150,000 worth of daily volume, $350,000 liquidity on Cardano side, $150,000 on Binance side",
+      "speaker": "Dan Friedman",
+      "topic": "tokenomics"
+    },
+    {
+      "id": 4,
+      "timestamp": "27:10",
+      "fact": "Kushti has rough protocol working for sub-blocks, tested with two peers",
+      "speaker": "qx()",
+      "topic": "technical"
+    },
+    {
+      "id": 5,
+      "timestamp": "27:31",
+      "fact": "Node 6.0 RC3 has full sync with mainnet and others are starting to test it",
+      "speaker": "qx()",
+      "topic": "technical"
+    },
+    {
+      "id": 6,
+      "timestamp": "38:51",
+      "fact": "Flux has 10,000 wallet holders on Ethereum, Rosen-ERG has about 500 on Cardano",
+      "speaker": "qx()",
+      "topic": "rosen-bridge"
+    },
+    {
+      "id": 7,
+      "timestamp": "40:14",
+      "fact": "Kraken listing finder's fee is around $50,000 with no guarantee",
+      "speaker": "qx()",
+      "topic": "exchange-listings"
+    },
+    {
+      "id": 8,
+      "timestamp": "44:33",
+      "fact": "Palm FDV is at about 80 million, making market cap around 10 million",
+      "speaker": "Dan Friedman",
+      "topic": "tokenomics"
+    },
+    {
+      "id": 9,
+      "timestamp": "50:55",
+      "fact": "Mark distributed 98 ERGs from storage rent alone plus bonus tokens in mining pool",
+      "speaker": "qx()",
+      "topic": "mining"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "call_date": "2025-04-18",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "02:12",
+      "question": "How did the Palm token launch work with Rosen Bridge for multi-chain deployment?",
+      "asker": "qx()",
+      "answer": "Palm launched multi-chain at launch using Rosen Bridge to deploy on both Binance Smart Chain and Cardano simultaneously. The arbitrage worked really well between the two chains, with prices staying nearly the same on both sides. This made Palm the first official multi-chain token launch using Rosen Bridge, and the technology worked fantastically.",
+      "responder": "Dan Friedman",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Rosen Bridge",
+        "multi-chain",
+        "arbitrage",
+        "token launch"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "05:17",
+      "question": "Why can't Palm simply flip a switch to add Ergo support?",
+      "asker": "qx()",
+      "answer": "Palm can't just move to Ergo because it has to have the exact same utility and support across all chains for regulatory compliance. If they move to Ergo without the same support and utility as other chains, it creates problems with regulators. They need to build out equivalent staking, community support, and functionality on Ergo before bridging the tokens over.",
+      "responder": "Dan Friedman",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "regulatory compliance",
+        "multi-chain",
+        "utility",
+        "staking"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "07:26",
+      "question": "What is dynamic staking and how does it work?",
+      "asker": "qx()",
+      "answer": "Dynamic staking is unlocked staking divided into epochs (every seven days). Unlike delegated staking where tokens are locked, users can unlock their tokens instantly at any time. However, if you unlock before the end of an epoch, you don't get rewards for that epoch. You have to stay until the end of the epoch to receive rewards, but there's no waiting period to unlock.",
+      "responder": "Dan Friedman",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "staking",
+        "epochs",
+        "liquidity",
+        "rewards"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "15:41",
+      "question": "How will Palm DAO governance work across multiple chains?",
+      "asker": "qx()",
+      "answer": "Palm DAO will function like decentralized business development where users can submit proposals and get them voted on by Palm holders. The challenge is building the same governance functionality across all chains for regulatory compliance. They're considering having the heart of the DAO on one chain (possibly Ergo) with votes from other chains coming through Rosen Bridge, but they need to ensure legal enforceability.",
+      "responder": "Dan Friedman",
+      "category": "governance",
+      "difficulty": "advanced",
+      "related_terms": [
+        "DAO",
+        "governance",
+        "proposals",
+        "multi-chain",
+        "Rosen Bridge"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "19:23",
+      "question": "Where will the Palm DAO be legally incorporated?",
+      "asker": "qx()",
+      "answer": "They're thinking about establishing the DAO in Japan because Japan has developed regulatory tooling for DAOs. The DAO needs to be an actual incorporated entity that's compliant with regulations to create on-chain contracts that are legally enforceable, not just 'trust me bro' arrangements.",
+      "responder": "Dan Friedman",
+      "category": "governance",
+      "difficulty": "advanced",
+      "related_terms": [
+        "DAO",
+        "legal compliance",
+        "Japan",
+        "incorporation",
+        "regulatory"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "27:31",
+      "question": "What's the performance improvement with RocksDB in Ergo node 5.125?",
+      "asker": "Community",
+      "answer": "The RocksDB version shows significant performance improvements, especially for fetch times in mining wallets and smart contracts that usually take a second to load. However, it requires a full node resync and should be run on SSDs, not old platter drives or small Raspberry Pi setups. The secondary Ergo Explorer showed a big difference in performance after the update.",
+      "responder": "qx()",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "RocksDB",
+        "node",
+        "performance",
+        "mining",
+        "smart contracts"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "37:00",
+      "question": "What are the current pathways for getting Ergo listed on Kraken?",
+      "asker": "big 3d",
+      "answer": "There are two pathways: First, through official channels with Dave Brumfield from Kraken, focusing on Rosen-ERG tokens (Cardano or Ethereum versions) rather than layer one ERG. The main barrier is wallet holder count - Flux has 10,000 wallet holders on Ethereum while Rosen-ERG has only 500 on Cardano. Second pathway involves a $50,000 finder's fee with no guarantee of listing. Sigmanauts are working on promotions and faucets to increase wallet count.",
+      "responder": "qx()",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Kraken",
+        "Rosen-ERG",
+        "wallet holders",
+        "exchange listing"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "44:46",
+      "question": "How can the gaming community be targeted for Ergo mining?",
+      "asker": "Matus Bor",
+      "answer": "Gamers can mine while not playing games by simply double-clicking an executable when going to bed and stopping it when they return to game. Mark's mining dashboard has a progress bar showing bonus token requirements (like mining 4 out of 7 days per epoch), making it easy for casual miners. Mining doesn't need to be persistent - it can be done just during spare time when the gaming rig isn't being used.",
+      "responder": "qx()",
+      "category": "mining",
+      "difficulty": "beginner",
+      "related_terms": [
+        "gaming",
+        "mining",
+        "bonus tokens",
+        "casual mining"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "50:55",
+      "question": "Why will Ergo get more attention when emission reaches almost zero?",
+      "asker": "Wendy moon",
+      "answer": "Ergo will get more attention because it's the only proof-of-work chain that actually planned for the end game after emission through features like storage rent and tail emission. The Sigmanauts mining pool already distributed 98 ERGs from storage rent alone plus bonus tokens, showing the sustainability model works. This positions Ergo above other chains when people realize it thought through long-term chain sustainability.",
+      "responder": "qx()",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "emission",
+        "storage rent",
+        "tail emission",
+        "sustainability"
+      ]
+    }
+  ]
+}

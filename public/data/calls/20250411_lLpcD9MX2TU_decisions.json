@@ -1,0 +1,118 @@
+{
+  "call_date": "2025-04-11",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - April 10th",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "06:07",
+      "decision": "Will put out a community vote to determine Ergo meetup date in Colorado Springs",
+      "speaker": "qx()",
+      "context": "Need to decide between first weekend in September or the 10th for Colorado Springs meetup",
+      "topic": "governance",
+      "significance": "minor",
+      "quote": "I will put out a community vote and see what people want to do"
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "25:20",
+      "commitment": "RC5 release after two pull requests are approved and merged, which will be identical to final 6.0 release",
+      "owner": "kushti",
+      "timeline": "after PR approval",
+      "topic": "technical",
+      "quote": "once approved and merged, RC5 will be released and yeah, that's basically the final version of 6.0"
+    },
+    {
+      "id": 2,
+      "timestamp": "08:26",
+      "commitment": "Palmyra launch on August 14th using Rosen Bridge for cross-chain launch on Cardano and BNB",
+      "owner": "Dan Friedman",
+      "timeline": "August 14th",
+      "topic": "rosen-bridge",
+      "quote": "So, you know, we got the launch on the 14th of August"
+    },
+    {
+      "id": 3,
+      "timestamp": "52:41",
+      "commitment": "Community chat about high-performance proof-of-work protocols and sub-blocks",
+      "owner": "kushti",
+      "timeline": "Saturday or Sunday evening",
+      "topic": "technical",
+      "quote": "I will be around, I don't know, on Saturday or Sunday, my evening. So let's have some community chats over the Telegram, just text chat maybe about high-performance proof-of-work protocols, sub-blocks, all that stuff"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "08:07",
+      "question": "Need to get Captain Nemo complete list of GraphQL rollover servers for Nautilus",
+      "context": "Two of three load balancers went down, exposed choke points in infrastructure",
+      "topic": "technical",
+      "raised_by": "qx()"
+    },
+    {
+      "id": 2,
+      "timestamp": "14:31",
+      "question": "Need Marty to work on Paideia front end",
+      "context": "Front end development needed for Paideia",
+      "topic": "technical",
+      "raised_by": "qx()"
+    }
+  ],
+  "reversals_or_updates": [
+    {
+      "id": 1,
+      "timestamp": "12:00",
+      "previous": "Expected to support Ergo officially at Palmyra launch",
+      "update": "Cannot officially support Ergo liquidity pools at launch without staking support",
+      "reason": "Regulatory requirement - need staking support on every chain to maintain utility token classification",
+      "speaker": "Dan Friedman",
+      "topic": "tokenomics"
+    }
+  ],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "03:13",
+      "fact": "Emission reduction occurred, now down to 15 ERG per block",
+      "speaker": "qx()",
+      "topic": "tokenomics"
+    },
+    {
+      "id": 2,
+      "timestamp": "25:20",
+      "fact": "Node 6.0 RC4 successfully synced on mainnet with no errors",
+      "speaker": "qx()",
+      "topic": "technical"
+    },
+    {
+      "id": 3,
+      "timestamp": "25:35",
+      "fact": "Nodes as old as 5.0.8 and 5.0.9 still active and working",
+      "speaker": "qx()",
+      "topic": "technical"
+    },
+    {
+      "id": 4,
+      "timestamp": "10:00",
+      "fact": "Seychelles FSA issued first ever utility token license for Palmyra partner company",
+      "speaker": "Dan Friedman",
+      "topic": "regulatory"
+    },
+    {
+      "id": 5,
+      "timestamp": "38:58",
+      "fact": "Dexy has 15 oracles for gold oracle",
+      "speaker": "qx()",
+      "topic": "oracle"
+    },
+    {
+      "id": 6,
+      "timestamp": "27:00",
+      "fact": "Merkleized Sub-Syntax trees and Merkleized Finite State Machines examples now available in ErgoScript",
+      "speaker": "kushti",
+      "topic": "technical"
+    }
+  ]
+}

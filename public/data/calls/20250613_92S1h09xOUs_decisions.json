@@ -1,0 +1,178 @@
+{
+  "call_date": "2025-06-13",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - June 12th",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "29:32",
+      "decision": "Activation dates for version 6.0 set to June 25th to July 1st",
+      "speaker": "kushti",
+      "context": "Need to finalize activation timeline for node version 6.0",
+      "topic": "technical",
+      "significance": "major",
+      "quote": "Currently I'm thinking about something like June 25th to July 1st"
+    },
+    {
+      "id": 2,
+      "timestamp": "22:04",
+      "decision": "Avoided stable coins in Rosen Bridge due to freeze/seizure risks",
+      "speaker": "Armeanio",
+      "context": "Security considerations for bridge assets",
+      "topic": "rosen-bridge",
+      "significance": "major",
+      "quote": "one thing that we've done that is not popular so far is we have avoided stable coins"
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "29:03",
+      "commitment": "Release 5.0.27 and 5.1 around Monday",
+      "owner": "kushti",
+      "timeline": "Monday",
+      "topic": "technical",
+      "quote": "So hopefully it can be done around Monday"
+    },
+    {
+      "id": 2,
+      "timestamp": "29:29",
+      "commitment": "Release version 6.0 next week",
+      "owner": "kushti",
+      "timeline": "next week",
+      "topic": "technical",
+      "quote": "6.0 hopefully will be released next week, maybe closer to the end of the week if no more issues will be found"
+    },
+    {
+      "id": 3,
+      "timestamp": "30:47",
+      "commitment": "Deploy sub-blocks supporting nodes into public testnet in July",
+      "owner": "kushti",
+      "timeline": "July",
+      "topic": "technical",
+      "quote": "in July we can start to deploy sub-blocks supporting nodes into the public testnet as well"
+    },
+    {
+      "id": 4,
+      "timestamp": "31:31",
+      "commitment": "Another DevNet update in the next few days",
+      "owner": "kushti",
+      "timeline": "next few days",
+      "topic": "technical",
+      "quote": "hopefully in the next few days, there will be another DevNet update"
+    },
+    {
+      "id": 5,
+      "timestamp": "33:16",
+      "commitment": "Publish thoughts on scaling and organizing sigma chains development in coming days",
+      "owner": "kushti",
+      "timeline": "coming days",
+      "topic": "technical",
+      "quote": "We'll publish some thoughts on that. Hopefully in coming days"
+    },
+    {
+      "id": 6,
+      "timestamp": "33:22",
+      "commitment": "Create two videos for anniversary - one about sub-blocks and one about crypto endgame",
+      "owner": "kushti",
+      "timeline": "unspecified",
+      "topic": "marketing",
+      "quote": "probably there will be two videos, one about sub-blocks and so on. And another one is about the end game"
+    },
+    {
+      "id": 7,
+      "timestamp": "23:54",
+      "commitment": "Call with Dan tomorrow about Dexy development",
+      "owner": "kushti",
+      "timeline": "tomorrow",
+      "topic": "tokenomics",
+      "quote": "So tomorrow we'll have a call with Dan"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "05:26",
+      "question": "How to create right incentive alignment for external support and maintenance of Rosen chains",
+      "context": "Scaling Rosen to new chains requires ongoing maintenance support",
+      "topic": "rosen-bridge",
+      "raised_by": "Armeanio"
+    },
+    {
+      "id": 2,
+      "timestamp": "30:28",
+      "question": "Need to set activation dates for version 6.0",
+      "context": "Version 6.0 release timeline needs finalization",
+      "topic": "technical",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 3,
+      "timestamp": "31:56",
+      "question": "Still not sure about versioning for sub-blocks releases",
+      "context": "Version numbering scheme for upcoming releases unclear",
+      "topic": "technical",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 4,
+      "timestamp": "32:03",
+      "question": "Need to formalize security for sub-blocks",
+      "context": "Security model needs documentation and discussion",
+      "topic": "technical",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 5,
+      "timestamp": "33:59",
+      "question": "Need to find tech for real world applications like BRICK",
+      "context": "Looking for practical applications of Ergo technology",
+      "topic": "technical",
+      "raised_by": "kushti"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "34:48",
+      "fact": "15,000 ERGs collected for US Fiat Unwrap raffle, 67.99 ERG to go",
+      "speaker": "qx()",
+      "topic": "governance"
+    },
+    {
+      "id": 2,
+      "timestamp": "35:13",
+      "fact": "1400 tickets, 94 backers for the raffle",
+      "speaker": "qx()",
+      "topic": "governance"
+    },
+    {
+      "id": 3,
+      "timestamp": "29:58",
+      "fact": "Dusick found consensus vector that could split 5.0 and 6.0 nodes but is hardly exploitable",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 4,
+      "timestamp": "58:16",
+      "fact": "Anniversary date is July 1st",
+      "speaker": "kushti",
+      "topic": "governance"
+    },
+    {
+      "id": 5,
+      "timestamp": "03:27",
+      "fact": "Working on Runes and Doge integration for Rosen Bridge",
+      "speaker": "Armeanio",
+      "topic": "rosen-bridge"
+    },
+    {
+      "id": 6,
+      "timestamp": "12:44",
+      "fact": "Had to design new module for multi-resource backend specifically for Doge",
+      "speaker": "Armeanio",
+      "topic": "rosen-bridge"
+    }
+  ]
+}

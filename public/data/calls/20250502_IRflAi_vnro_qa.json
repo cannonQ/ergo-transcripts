@@ -1,0 +1,157 @@
+{
+  "call_date": "2025-05-02",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "06:39",
+      "question": "How backward compatible will sub-blocks be with older Ergo clients?",
+      "asker": "qx()",
+      "answer": "All clients before sub-blocks deployment will be supported, including even version 4.0. The peer-to-peer layer will be reworked to send full blocks to old clients when generating a block, while sending only the difference to new clients supporting sub-blocks to avoid sending full blocks unnecessarily.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "sub-blocks",
+        "backward-compatibility",
+        "peer-to-peer"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "04:02",
+      "question": "What types of transactions cannot be included in sub-blocks?",
+      "asker": "implicit",
+      "answer": "Certain transactions cannot be included in sub-blocks, such as emission transactions and other transactions which depend on block timestamp and miners' public keys. This is because these values change from one sub-block to another, and if such transactions were allowed, they could become invalid in old clients while being valid for new clients supporting sub-blocks.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "sub-blocks",
+        "emission",
+        "transaction-validation"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "26:16",
+      "question": "How does the development experience on Cardano compare to Ergo?",
+      "asker": "implicit",
+      "answer": "Cardano development is overly complicated compared to Ergo. The tooling is not really there - you constantly need to go into libraries and fix issues yourself, whereas Ergo has much better libraries despite being much smaller. Libraries like FleetSDK and AppKit on Ergo are really robust and well-done, while Cardano lacks unified tooling from the foundation.",
+      "responder": "MGPai",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "development-experience",
+        "libraries",
+        "tooling"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "21:10",
+      "question": "Is it possible to do offline transactions on Ergo without internet connectivity?",
+      "asker": "qx()",
+      "answer": "If there is some trust involved, you can do offline transactions. You can check the state of on-chain reserves without network access using NIPoPoWs proofs, get signed notes during exchange, and present these notes to smart contracts when going online. However, the seller could potentially redeem the reserve before you if they go online first, so there's a trust element involved.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "offline-transactions",
+        "NIPoPoWs",
+        "trust"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "38:22",
+      "question": "How does Ergo handle potential blockchain bloat from data storage compared to Bitcoin?",
+      "asker": "qx()",
+      "answer": "Ergo has a flexible block size limit that miners can adjust (already raised from initial to 2x), and most importantly, Ergo has storage rent which provides protection from garbage data after four years. This storage rent mechanism is unique - to the best of my knowledge, no other blockchain has this anti-garbage measure, making Ergo much more flexible than Bitcoin for data storage.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "storage-rent",
+        "block-size",
+        "data-storage"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "44:17",
+      "question": "Why choose Ergo over Cardano for real-world asset tokenization?",
+      "asker": "UrsaMina",
+      "answer": "Ergo shines with much more affordable transaction fees. On Cardano, the MinUTXO for creating a token is like 1.2 ADA (around $1-1.50), making bulk tokenization expensive. If you want to tokenize thousands of unique assets like beehives from various farmers, it gets really expensive on Cardano. On Ergo, the main UTXO is worth a fraction of a penny, and even if Ergo does a 10x or 100x price increase, it will still be much cheaper than Cardano.",
+      "responder": "MGPai",
+      "category": "tokenomics",
+      "difficulty": "beginner",
+      "related_terms": [
+        "tokenization",
+        "transaction-fees",
+        "MinUTXO"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "45:57",
+      "question": "How do you handle storage rent for long-term real-world asset tokens?",
+      "asker": "qx()",
+      "answer": "The idea is to have tokens in a contract that can recreate itself, along with an off-chain bot that monitors if it's close to expiry and recreates the UTXO to prevent demurrage collection. You can add ERG as a buffer, and with proper off-chain monitoring that constantly recreates the UTXO, demurrage doesn't need to be collected at all.",
+      "responder": "MGPai",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "storage-rent",
+        "demurrage",
+        "off-chain-bots"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "56:01",
+      "question": "Can Ergo blockchain be used to store encrypted password lists as immutable storage?",
+      "asker": "UrsaMina",
+      "answer": "Yes, you can store encrypted data on Ergo. There's a box limit of about 4 kilobytes, but you can spread data across many UTXOs. After four years, you'll pay storage rent - for 4 kilobytes it would be about 4-5 ERG, which is quite reasonable considering you're storing data on hundreds of machines. You can also use stealth addresses to hide the recipient, making it even more private.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "data-storage",
+        "encryption",
+        "storage-rent",
+        "stealth-addresses"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "01:58",
+      "question": "What's the current status of Ergo's development roadmap after sub-blocks?",
+      "asker": "implicit",
+      "answer": "Version 5.0.26 is under review and will help user experience with block candidate regeneration. Version 6.0 is finalized with 16-17 thousand lines of code and is under audit. After successful voting with 90% support, activation will happen in three months. The main focus after sub-blocks will be improving developer experience and targeting real-world needs rather than sandbox applications.",
+      "responder": "kushti",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "roadmap",
+        "sub-blocks",
+        "developer-experience"
+      ]
+    },
+    {
+      "qa_id": 10,
+      "timestamp": "11:52",
+      "question": "How does the BRIC token recycling system work in practice at Cornell?",
+      "asker": "kushti",
+      "answer": "Students bring recycled plots, get BRIC tokens via TipperBot based on the mass/amount of material. When they need new plots, they use the interface which triggers a Discord popup, they copy the tip code, tip the BRIC, and an off-chain bot reads the wallet and marks the plot for plotting. The system has saved students about $1,000 so far and runs on about 60-70 student wallets out of 350 architecture students.",
+      "responder": "qx()",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "BRIC-token",
+        "recycling",
+        "TipperBot",
+        "real-world-adoption"
+      ]
+    }
+  ]
+}

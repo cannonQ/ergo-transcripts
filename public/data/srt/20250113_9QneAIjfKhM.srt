@@ -1,0 +1,2665 @@
+1
+00:00:05,000 --> 00:00:09,000
+Welcome, everybody. We wanted to put
+together a 2025 video. We've done that in
+
+2
+00:00:09,000 --> 00:00:13,000
+previous years, so I thought it'd be good
+to spend some time with Alex and catch up
+
+3
+00:00:13,000 --> 00:00:17,000
+with Ergo, how things are going and where
+we're going, I guess, most importantly. So
+
+4
+00:00:17,000 --> 00:00:21,000
+how are you doing today, Alex?
+
+5
+00:00:23,000 --> 00:00:30,000
+Hello everyone, yeah, doing well. So it's
+weekend but busy with Ergo development, so
+
+6
+00:00:30,000 --> 00:00:37,000
+just published sub-blocks, so inputs and
+ordering blocks. EAP draft initial one,
+
+7
+00:00:37,000 --> 00:00:44,000
+but yeah, we'll improve it in the coming
+days. And yeah, we're also working on
+
+8
+00:00:44,000 --> 00:00:51,000
+prototyping codes. There is some already
+done, but more will be done. And yeah,
+
+9
+00:00:51,000 --> 00:00:58,000
+well, a lot of other things going on at
+the same time. So with 6.0 development,
+
+10
+00:00:58,000 --> 00:01:05,000
+6.0 audits, and so on. So yeah, well, it's
+a busy, busy time.
+
+11
+00:01:10,000 --> 00:01:15,000
+So why don't we start with the
+sub-blocks, since that's kind of in your
+
+12
+00:01:15,000 --> 00:01:20,000
+mind already. Where do you see kind of the
+use of sub-blocks. Those of you that don't
+
+13
+00:01:20,000 --> 00:01:25,000
+know, it's been inspired by Prism and as
+well as Parallel Proof of Work, which I
+
+14
+00:01:25,000 --> 00:01:30,000
+believe Agolos came out with that paper.
+So what do you see that doing to the
+
+15
+00:01:30,000 --> 00:01:35,000
+network and how do you see that changing
+not only transactions and user experience,
+
+16
+00:01:35,000 --> 00:01:40,000
+but mining in general?
+
+17
+00:01:41,000 --> 00:01:50,000
+Yeah, also bottlenecks. So currently,
+well, it's, you know, well, on average,
+
+18
+00:01:50,000 --> 00:01:59,000
+every two minutes on average. Yeah, a new
+block is being generated, propagated over
+
+19
+00:01:59,000 --> 00:02:08,000
+the network, right, and well, the network
+has a big load, right, every two minutes,
+
+20
+00:02:08,000 --> 00:02:17,000
+but other than that, well, the load is
+minimal, right, so the network is idle.
+
+21
+00:02:17,000 --> 00:02:26,000
+The sub-blocks, well, the loads will
+become spread, right? So, well, the
+
+22
+00:02:26,000 --> 00:02:35,000
+network would be busy all the time and
+yes, well, the bottleneck is moving to
+
+23
+00:02:35,000 --> 00:02:44,000
+network bandwidth, right? And well, this
+resource network bandwidth is hopefully
+
+24
+00:02:44,000 --> 00:02:53,000
+will become more and more available with
+time, right? So even with well flat
+
+25
+00:02:53,000 --> 00:03:02,000
+peer-to-peer network, we will get better
+performance every year basically.
+
+26
+00:03:05,000 --> 00:03:10,000
+Awesome. So how do you see that differing
+from how many other cryptocurrencies are
+
+27
+00:03:10,000 --> 00:03:15,000
+attempting to kind of scale their
+bandwidth?
+
+28
+00:03:16,000 --> 00:03:24,000
+Yeah, but most are not even trying,
+right? So, well, the general approach
+
+29
+00:03:24,000 --> 00:03:32,000
+unfortunately seen now is just to make
+networks less peer-to-peer, more
+
+30
+00:03:32,000 --> 00:03:40,000
+centralized, right? So, well, to rely on
+just, well, powerful validators in data
+
+31
+00:03:40,000 --> 00:03:48,000
+centers, so powerful machines with a lot
+of well, memory and bandwidth. But then,
+
+32
+00:03:48,000 --> 00:03:56,000
+yeah, well, it's also about, well,
+increasing centralization, right, in
+
+33
+00:03:56,000 --> 00:04:04,000
+regards to many aspects like validation.
+So most of our network clients just have
+
+34
+00:04:04,000 --> 00:04:12,000
+to trust those powerful validators. And
+yeah, well, it's also about centralization
+
+35
+00:04:12,000 --> 00:04:20,000
+of power, decision-making in the community
+to some degree, and also centralization of
+
+36
+00:04:20,000 --> 00:04:28,000
+assets ownership, because usually those
+validators also have big stake, right? And
+
+37
+00:04:28,000 --> 00:04:36,000
+they are going to have a bigger stake.
+That's why they are willing to block,
+
+38
+00:04:36,000 --> 00:04:44,000
+right? So, well, it's kind of a digital
+oligarchy, right? After all.
+
+39
+00:04:48,000 --> 00:04:52,000
+Yeah, there's a lot of systems where you
+have stake dominance and then you have
+
+40
+00:04:52,000 --> 00:04:56,000
+order flow dominance. And then, you know,
+you kind of just have these kings in the
+
+41
+00:04:56,000 --> 00:05:00,000
+system, right?
+
+42
+00:05:00,000 --> 00:05:08,000
+Right, but also they're becoming more and
+more powerful, right? And, well, with that
+
+43
+00:05:08,000 --> 00:05:16,000
+validation, centralization, there are also
+ones which don't know what's going on in
+
+44
+00:05:16,000 --> 00:05:24,000
+the network even, right? Yeah, the massive
+gap, it seems. Yeah, but then also, well,
+
+45
+00:05:24,000 --> 00:05:32,000
+a lot of blockchains just doing something,
+just one specific step, right? And not
+
+46
+00:05:32,000 --> 00:05:40,000
+always correct. So many are switching to
+proof of stake with claim that it is
+
+47
+00:05:40,000 --> 00:05:48,000
+improving network performance, which is
+not the case already quite seen from my
+
+48
+00:05:48,000 --> 00:05:56,000
+Ethereum experience, for example, right?
+Many are introducing very weird concepts
+
+49
+00:05:56,000 --> 00:06:04,000
+such as sharding, so fragmenting liquidity
+in DeFi. This also having quite weird and
+
+50
+00:06:04,000 --> 00:06:12,000
+inconvenient consequences in the real
+world. So even sharding author Vitalik is
+
+51
+00:06:12,000 --> 00:06:20,000
+now not talking about this anymore. And so
+on and so on. Many just changing constants
+
+52
+00:06:20,000 --> 00:06:28,000
+that was popular in Bitcoin forks. just
+well-increasing block size, for example,
+
+53
+00:06:28,000 --> 00:06:36,000
+and claiming that this is somehow related
+to scaling, right, and so on. So, well, in
+
+54
+00:06:36,000 --> 00:06:44,000
+Ergo, well, it was multi-level approach
+since day one, right, so it was the first
+
+55
+00:06:44,000 --> 00:06:52,000
+network implementing stateless clients, as
+well as so-called lock-space mining.
+
+56
+00:06:52,000 --> 00:07:00,000
+Right, and now bandwidth utilization,
+right. And well, doing all this preserving
+
+57
+00:07:00,000 --> 00:07:08,000
+peer-to-peer nature of the network. which
+is always sometimes tricky, but yeah,
+
+58
+00:07:08,000 --> 00:07:16,000
+well, it's the goal after to have a real
+peer-to-peer network.
+
+59
+00:07:27,000 --> 00:07:31,000
+Yeah, it's foundational. I think that
+ultimately without that foundation
+
+60
+00:07:31,000 --> 00:07:35,000
+everything else you build, you know, just
+as a different animal. And it's
+
+61
+00:07:35,000 --> 00:07:39,000
+interesting to see how, I don't know, it's
+like everything is being abstracted
+
+62
+00:07:39,000 --> 00:07:43,000
+further and further and further away from
+the notion of a peer-to-peer network,
+
+63
+00:07:43,000 --> 00:07:47,000
+right?
+
+64
+00:07:50,000 --> 00:07:58,000
+Right, and also, yeah, peer-to-peer
+exchange after all, right? So, well, with
+
+65
+00:07:58,000 --> 00:08:06,000
+peer-to-peer network, naturally, you have
+also peer-to-peer exchange, right? So,
+
+66
+00:08:06,000 --> 00:08:14,000
+well, even if we are doing some smart
+contract, right, it's just between you and
+
+67
+00:08:14,000 --> 00:08:22,000
+me, right? It should be. We shouldn't have
+some contracts backed by VCs with, I don't
+
+68
+00:08:22,000 --> 00:08:30,000
+know, admin keys belong to developers and
+VCs and, I don't know, them deciding to
+
+69
+00:08:30,000 --> 00:08:38,000
+follow some regulations, I don't know.
+Which probably, well, you don't care
+
+70
+00:08:38,000 --> 00:08:46,000
+about, right? Because, well, it's not even
+about your jurisdiction, maybe, right? But
+
+71
+00:08:46,000 --> 00:08:54,000
+still it's enforced. Yeah, and also there
+could be, I don't know, different
+
+72
+00:08:54,000 --> 00:09:02,000
+adversarial actions, right, from those
+owners and also hackers and so on and the
+
+73
+00:09:02,000 --> 00:09:10,000
+question is why do we need to accept all
+these rights when it's about peer-to-peer
+
+74
+00:09:10,000 --> 00:09:18,000
+interaction.
+
+75
+00:09:20,000 --> 00:09:26,000
+I think that's mostly lost, sadly, in the
+crypto space, right? Where, you know, it's
+
+76
+00:09:26,000 --> 00:09:32,000
+no longer about like my ability to I don't
+know, interact directly with you with no
+
+77
+00:09:32,000 --> 00:09:38,000
+intermediary or no point of control in the
+middle. Right. And things have been, I
+
+78
+00:09:38,000 --> 00:09:44,000
+don't know, shifting for a long time in
+the crypto industry space to where now
+
+79
+00:09:44,000 --> 00:09:50,000
+it's quote unquote web three, whatever
+that means. versus peer-to-peer.
+
+80
+00:09:53,000 --> 00:10:01,000
+Yeah, and so yeah, this web3 usually
+means nothing, right? So there was a
+
+81
+00:10:01,000 --> 00:10:09,000
+foundational article by Gavin Wood but
+yeah well initially the term was used for
+
+82
+00:10:09,000 --> 00:10:17,000
+actually very different things right so
+initially it was introduced by Tim
+
+83
+00:10:17,000 --> 00:10:25,000
+Berners-Lee and Web3 by Tim Berners-Lee
+was about making a web machine-friendly,
+
+84
+00:10:25,000 --> 00:10:33,000
+right, by using semantic web tools and so
+on. But then, yeah, well... Gavin Wood
+
+85
+00:10:33,000 --> 00:10:41,000
+maybe because of not being very literate
+about, I don't know, works of other
+
+86
+00:10:41,000 --> 00:10:49,000
+people, foundational works, by the way,
+and well, already quite established. So
+
+87
+00:10:49,000 --> 00:10:57,000
+well, I visited Web3 conferences back in
+2008, 2009, right? So before all those
+
+88
+00:10:57,000 --> 00:11:05,000
+blockchains and yeah, I mean, people
+discussed all that stuff by Tim
+
+89
+00:11:05,000 --> 00:11:13,000
+Berners-Lee. But okay, so yeah, we heard
+maybe not very literate guy from Ethereum
+
+90
+00:11:13,000 --> 00:11:21,000
+will reintroduce the term, but what we
+have now is not corresponding even to
+
+91
+00:11:21,000 --> 00:11:29,000
+that, right? And currently Web3 is mostly
+just some web term used to introduce
+
+92
+00:11:29,000 --> 00:11:37,000
+tokens mostly, right? And yeah, the token
+game with VCs, right? Backing your
+
+93
+00:11:37,000 --> 00:11:45,000
+tokenomics, let's say. So yeah, well,
+aside of that, well, most of Web3 projects
+
+94
+00:11:45,000 --> 00:11:53,000
+don't make any sense, to be honest.
+
+95
+00:11:56,000 --> 00:12:02,000
+No, I think 2025 is definitely going to
+be an interesting year to watch like
+
+96
+00:12:02,000 --> 00:12:08,000
+general mission drift in the
+cryptocurrency space where it started with
+
+97
+00:12:08,000 --> 00:12:14,000
+this idea of peer to peer networks and
+censorship resistant exchange between
+
+98
+00:12:14,000 --> 00:12:20,000
+anyone anywhere in the world to, yeah,
+more. I don't know. I think as you see
+
+99
+00:12:20,000 --> 00:12:26,000
+regulation and friendlier potential,
+there's going to be a lot of honeypotting
+
+100
+00:12:26,000 --> 00:12:32,000
+where people try to position for control
+in essence, right? Like the magic of
+
+101
+00:12:32,000 --> 00:12:38,000
+Bitcoin initially was like if under these
+certain set of assumptions, you can assume
+
+102
+00:12:38,000 --> 00:12:44,000
+that the network is honest and operating
+trustlessly, right? And things have kind
+
+103
+00:12:44,000 --> 00:12:50,000
+of been re-engineered to where there's all
+these different layers or wrappers of
+
+104
+00:12:50,000 --> 00:12:56,000
+trust, you know, up and down different
+stacks to where it's hard to call certain
+
+105
+00:12:56,000 --> 00:13:02,000
+things like DeFi when, you know, at the
+end of the day, you're talking about
+
+106
+00:13:02,000 --> 00:13:08,000
+things with potentially a lot of legal
+entanglement and backing by government
+
+107
+00:13:08,000 --> 00:13:14,000
+bonds and, you know, all kinds of strange
+beasts coming into the space. So I don't
+
+108
+00:13:14,000 --> 00:13:20,000
+know. I think that long term, that's going
+to be an interesting differentiator is the
+
+109
+00:13:20,000 --> 00:13:26,000
+idea of like compliance and the potential
+reward trade off on that side versus
+
+110
+00:13:26,000 --> 00:13:32,000
+trying to remain open and neutral and
+censorship resistant. You know, in a world
+
+111
+00:13:32,000 --> 00:13:38,000
+where I think that schism is going to just
+increase from where we are today.
+
+112
+00:13:38,000 --> 00:13:44,000
+Interesting. Yeah.
+
+113
+00:13:44,000 --> 00:13:51,000
+Yeah. So, well, going back to sub-blocks.
+So, oh, yeah, well, that would bring
+
+114
+00:13:51,000 --> 00:13:58,000
+network performance to theoretical
+maximum, right? It's possible for
+
+115
+00:13:58,000 --> 00:14:05,000
+peer-to-peer network. But then, yeah,
+well, always possible to make
+
+116
+00:14:05,000 --> 00:14:12,000
+optimizations, right? For, well, message
+exchange and peer-to-peer networks. And
+
+117
+00:14:12,000 --> 00:14:19,000
+also networking is making progress from
+year to year and well with that there will
+
+118
+00:14:19,000 --> 00:14:26,000
+be a natural performance increase and well
+in Ergo well it's. It was chosen to have
+
+119
+00:14:26,000 --> 00:14:33,000
+flexible approach, right? So to avoid any
+magic constants here like block size and
+
+120
+00:14:33,000 --> 00:14:40,000
+so on. So to give miners possibility to
+readjust parameters because well, we have
+
+121
+00:14:40,000 --> 00:14:47,000
+progress in the hardware, right? And not
+just hardware with time.
+
+122
+00:14:53,000 --> 00:14:58,000
+Yeah, yeah, I do hope that, you know, we
+see a lot more miner involvement. Seeing
+
+123
+00:14:58,000 --> 00:15:03,000
+the Sigmanauts pool starting to implement
+demurrage is pretty awesome. I saw that
+
+124
+00:15:03,000 --> 00:15:08,000
+they had thrown up a mining and ecosystem
+development grant from the EF, which I
+
+125
+00:15:08,000 --> 00:15:13,000
+know that you and I are no longer directly
+a part of, but I certainly I hope that
+
+126
+00:15:13,000 --> 00:15:18,000
+those that are looking at the EF take a
+long look and see kind of the value of
+
+127
+00:15:18,000 --> 00:15:23,000
+mining because that's, you know, proof of
+work is, I don't know, becoming less
+
+128
+00:15:23,000 --> 00:15:28,000
+common, I guess, in terms of how people
+are thinking. But I don't know, maybe that
+
+129
+00:15:28,000 --> 00:15:33,000
+has to do with like just education, right?
+So having some initiative to demonstrate
+
+130
+00:15:33,000 --> 00:15:38,000
+the value of mining and decentralization
+and, you know, kind of what Ergo is
+
+131
+00:15:38,000 --> 00:15:43,000
+working towards with GPU mining, I think
+would be really valuable. especially
+
+132
+00:15:43,000 --> 00:15:48,000
+given, I don't know, crypto is a crazy
+space, my friend. I read things all the
+
+133
+00:15:48,000 --> 00:15:53,000
+time where I just kind of scratch my head.
+
+134
+00:16:02,000 --> 00:16:10,000
+Yeah, I actually think proof-of-work
+assets are getting appreciation and the
+
+135
+00:16:10,000 --> 00:16:18,000
+more proof-of-stake assets we have, the
+more valuable perspective proof-of-work
+
+136
+00:16:18,000 --> 00:16:26,000
+assets may become. Because well,
+proof-of-stake is giving holders free
+
+137
+00:16:26,000 --> 00:16:34,000
+money basically, right? We are staking.
+And well, with those free money, people
+
+138
+00:16:34,000 --> 00:16:42,000
+are often buying hard money, right? So
+proof of work currencies. So I think this
+
+139
+00:16:42,000 --> 00:16:50,000
+is one of the reasons why Ethereum is
+doing poorly after the merge, right? So
+
+140
+00:16:50,000 --> 00:16:58,000
+well, now, well, Ethereum stakeholders are
+getting free money via staking, right? And
+
+141
+00:16:58,000 --> 00:17:06,000
+well, what I'm thinking about, probably
+they are buying Bitcoin mostly, right,
+
+142
+00:17:06,000 --> 00:17:14,000
+with those staking. And that's also
+probably happening with Ergo and Cardano
+
+143
+00:17:14,000 --> 00:17:22,000
+maybe, right? And well, I think with time,
+so with more and more proof of stake
+
+144
+00:17:22,000 --> 00:17:30,000
+assets, right? Means more and more free
+money have been distributed. So well,
+
+145
+00:17:30,000 --> 00:17:38,000
+money you can get for nothing just for
+having proof of stake assets, right? And
+
+146
+00:17:38,000 --> 00:17:46,000
+well, holding them. Basically, so people
+would put those assets, proof-of-stake
+
+147
+00:17:46,000 --> 00:17:54,000
+free assets into proof-of-work, right?
+This would make proof-of-work assets more
+
+148
+00:17:54,000 --> 00:18:02,000
+valuable with time. I don't see well
+recognition of this pattern, but yeah, I
+
+149
+00:18:02,000 --> 00:18:10,000
+think it's emerging actually.
+
+150
+00:18:15,000 --> 00:18:20,000
+It could be. It could be. I think, like,
+with Ethereum, there was a period of time
+
+151
+00:18:20,000 --> 00:18:25,000
+where they had this, you know, distributed
+proof of work security wall that was
+
+152
+00:18:25,000 --> 00:18:30,000
+pretty amazing. And in my opinion, they
+actually had the right incentives in terms
+
+153
+00:18:30,000 --> 00:18:35,000
+of MEV distribution, where because, you
+know, MEV itself was kind of being
+
+154
+00:18:35,000 --> 00:18:40,000
+democratized through mining pools and
+adding to mining rewards, it created the
+
+155
+00:18:40,000 --> 00:18:45,000
+right incentive for mining growth, right?
+Meaning it's like that value is being
+
+156
+00:18:45,000 --> 00:18:50,000
+distributed to support the security
+budget. And it's shifted a lot in a lot of
+
+157
+00:18:50,000 --> 00:18:55,000
+proof of stake systems to where that value
+is, it goes to internal entities, it goes
+
+158
+00:18:55,000 --> 00:19:00,000
+to, you know, like, you know, entrenched
+parties, which doesn't create an economic
+
+159
+00:19:00,000 --> 00:19:05,000
+incentive, you know, for people to join
+versus having fee distribution. So I think
+
+160
+00:19:05,000 --> 00:19:10,000
+that's a powerful vertical that, you know,
+hopefully, you know, I know, qx() has been
+
+161
+00:19:10,000 --> 00:19:15,000
+looking at MEV and various potential cases
+for Lithos, which I guess we'll get to
+
+162
+00:19:15,000 --> 00:19:20,000
+later. But I really believe that, you
+know, demurrage and MEV distribution, it's
+
+163
+00:19:20,000 --> 00:19:25,000
+creating the right incentives for a
+growing act set of security actors, I
+
+164
+00:19:25,000 --> 00:19:30,000
+guess.
+
+165
+00:19:41,000 --> 00:19:50,000
+Yeah, but also with proof of work, well,
+new Ethereum tokens were not for free,
+
+166
+00:19:50,000 --> 00:19:59,000
+right? So, well, miners actually put a lot
+of work into the mining distributed
+
+167
+00:19:59,000 --> 00:20:08,000
+supercomputer to get them, right? via work
+lottery. But now, yeah, well, new, well,
+
+168
+00:20:08,000 --> 00:20:17,000
+Ethereum tokens are basically for free,
+right? So you just need to hold assets,
+
+169
+00:20:17,000 --> 00:20:26,000
+right? And well, then, yeah, well, you,
+you can basically, well, exchange them to
+
+170
+00:20:26,000 --> 00:20:35,000
+Bitcoin, right, depending on pricing,
+because you don't value, right, those free
+
+171
+00:20:35,000 --> 00:20:44,000
+assets. Because the intrinsic value for
+those tokens is well about zero. Just a
+
+172
+00:20:44,000 --> 00:20:53,000
+little bit of computational efforts to
+validate and propagate blocks around the
+
+173
+00:20:53,000 --> 00:21:02,000
+network.
+
+174
+00:21:06,000 --> 00:21:12,000
+So speaking of kind of financial
+products, you know, sometimes I get a lot
+
+175
+00:21:12,000 --> 00:21:18,000
+of questions, you know, why Ergo is
+focusing on introducing, you know,
+
+176
+00:21:18,000 --> 00:21:24,000
+different stable coins, stable coins
+design, different backings or pegs to
+
+177
+00:21:24,000 --> 00:21:30,000
+algorithmic stable coins. So, you know,
+what in your mind kind of drew you to
+
+178
+00:21:30,000 --> 00:21:36,000
+explore the Dexy implementation? versus, I
+guess, their traditional mindset is just
+
+179
+00:21:36,000 --> 00:21:42,000
+going to be, let's, you know, deal with
+these freezancies, assets, you know, USDC,
+
+180
+00:21:42,000 --> 00:21:48,000
+whatever, you know, fill in the letter.
+What made you more attracted to something
+
+181
+00:21:48,000 --> 00:21:54,000
+like Dexy versus, I guess, the traditional
+stablecoin?
+
+182
+00:21:58,000 --> 00:22:06,000
+Oh, but traditional are trusted, right?
+So, well, you trust Tether team. I don't
+
+183
+00:22:06,000 --> 00:22:14,000
+know. I mean, I don't know who's there and
+why should they be trusted and probably
+
+184
+00:22:14,000 --> 00:22:22,000
+they shouldn't, right? And even more, I
+don't know, probably no one really has
+
+185
+00:22:22,000 --> 00:22:30,000
+trust, right? Tether folks, but still
+people are using tether, which is quite
+
+186
+00:22:30,000 --> 00:22:38,000
+absurd. So yeah, well, then there are
+different options, right? So you may have
+
+187
+00:22:38,000 --> 00:22:46,000
+I don't know, like peer-to-peer trusted
+currencies. So well, maybe you can try to
+
+188
+00:22:46,000 --> 00:22:54,000
+recreate a web of trust, right? So like
+traditional solutions from public key
+
+189
+00:22:54,000 --> 00:23:02,000
+infrastructure, traditional decentralized
+approaches. But yeah, I mean, you still
+
+190
+00:23:02,000 --> 00:23:10,000
+need for some buffer at least, right, for
+some least common denominator, which is
+
+191
+00:23:10,000 --> 00:23:18,000
+about algorithmic stablecoins, I believe.
+Right, so even if you, for example,
+
+192
+00:23:18,000 --> 00:23:26,000
+issuing your own dollars, I don't know, or
+gold-backed tokens like Harmony or gold,
+
+193
+00:23:26,000 --> 00:23:34,000
+for example, right, and I'm accepting
+them, but then I'm trying to pay with
+
+194
+00:23:34,000 --> 00:23:42,000
+them, right? So, well, who will trust,
+right? And why people should trust? But
+
+195
+00:23:42,000 --> 00:23:50,000
+if, well, your tokens are backed at least
+partially, right? Or maybe fully with
+
+196
+00:23:50,000 --> 00:23:58,000
+algorithmic stablecoin at the moment. I
+mean, if there is backing at the moment,
+
+197
+00:23:58,000 --> 00:24:06,000
+right? Then, yeah, it's more or less
+trustless, right? So trust issues are
+
+198
+00:24:06,000 --> 00:24:14,000
+solved here. If there is, well,
+unconditional redemption possible, right?
+
+199
+00:24:14,000 --> 00:24:22,000
+Well, redemption without your control at
+least. So then, yeah, well, even if there
+
+200
+00:24:22,000 --> 00:24:30,000
+is, you know, these trusted issuance, like
+if you're issuing your Armeanio tokens,
+
+201
+00:24:30,000 --> 00:24:38,000
+then yeah, it's better to back them with
+algorithmic stable coins, right? And maybe
+
+202
+00:24:38,000 --> 00:24:46,000
+then work on eliminating or reducing need
+for algorithmic stablecoin liquidity with
+
+203
+00:24:46,000 --> 00:24:54,000
+clearing, and so on. Or maybe have
+fractional reserve, maybe like free
+
+204
+00:24:54,000 --> 00:25:02,000
+banking system, so eventually they went
+into fractional reserve state anyway. But
+
+205
+00:25:02,000 --> 00:25:10,000
+yeah, well, for starters, you need for
+backing, right? To get trust and so on.
+
+206
+00:25:10,000 --> 00:25:18,000
+And well, it would be much better than,
+well, having a trust to Tether team and
+
+207
+00:25:18,000 --> 00:25:26,000
+well, government bonds they could have,
+but I mean, that's also a question of
+
+208
+00:25:26,000 --> 00:25:34,000
+trust, right? Whether such an issue to
+have, right? So they're trying to do
+
+209
+00:25:34,000 --> 00:25:42,000
+audits and so on, but yes, still, you
+know, it's always a question of trust to
+
+210
+00:25:42,000 --> 00:25:50,000
+some degree, at least. What do you think?
+But then, yeah, you also have trust in
+
+211
+00:25:50,000 --> 00:25:58,000
+government bonds, right? Transitional
+trust and yeah, there are a lot of new
+
+212
+00:25:58,000 --> 00:26:06,000
+issues arising.
+
+213
+00:26:28,000 --> 00:26:34,000
+No, I think it breaks down to this idea
+that as kind of, I don't know, you started
+
+214
+00:26:34,000 --> 00:26:40,000
+with Bitcoin, it was more or less a kind
+of simple straightforward system. And as
+
+215
+00:26:40,000 --> 00:26:46,000
+things have become more complicated, you
+know, you get new layers, new layers of
+
+216
+00:26:46,000 --> 00:26:52,000
+trust to where I think that in many cases
+that's not a concern anymore for people.
+
+217
+00:26:52,000 --> 00:26:58,000
+Ultimately, what leads the general person
+to reevaluate trust is when it's misused
+
+218
+00:26:58,000 --> 00:27:04,000
+or abused against them, right? And, you
+know, that's never an optimal way to learn
+
+219
+00:27:04,000 --> 00:27:10,000
+but I guess in a way that is going to kind
+of be the path where let's see what the
+
+220
+00:27:10,000 --> 00:27:16,000
+friction points are. I don't know. It's
+gonna be an interesting year. There's I
+
+221
+00:27:16,000 --> 00:27:22,000
+think there's gonna be a lot of like
+entanglements as some systems push for
+
+222
+00:27:22,000 --> 00:27:28,000
+broader adoption and whatever compliance
+or schism away from this idea of open and
+
+223
+00:27:28,000 --> 00:27:34,000
+censorship resistant trustless networks is
+going to be. That's going to be the most
+
+224
+00:27:34,000 --> 00:27:40,000
+fascinating, let's say, vertical to watch
+in probably the next couple of years in
+
+225
+00:27:40,000 --> 00:27:46,000
+the crypto space, I believe. But I agree.
+I think that having algorithmic
+
+226
+00:27:46,000 --> 00:27:52,000
+stablecoins or some notion of an asset
+that addresses volatility. You know,
+
+227
+00:27:52,000 --> 00:27:58,000
+because again, if somebody is going to use
+cryptocurrencies as a form of payment, you
+
+228
+00:27:58,000 --> 00:28:04,000
+know, when you get in line at the store,
+you want the same purchasing power when
+
+229
+00:28:04,000 --> 00:28:10,000
+you, you know, finish checking out as when
+you got in line and sometimes like the
+
+230
+00:28:10,000 --> 00:28:16,000
+volatile nature of these assets doesn't
+really do many favors in terms of kind of
+
+231
+00:28:16,000 --> 00:28:22,000
+creating the adoption for kind of stable
+goods and services and exchange, et
+
+232
+00:28:22,000 --> 00:28:28,000
+cetera. So I really do believe that stable
+coins in some sense have been and will be
+
+233
+00:28:28,000 --> 00:28:34,000
+kind of like the first killer use case for
+programmable money where, you know, people
+
+234
+00:28:34,000 --> 00:28:40,000
+are experiencing inflation or simply want
+to be more free from control systems and
+
+235
+00:28:40,000 --> 00:28:46,000
+you know it's a nice option to have.
+
+236
+00:29:03,000 --> 00:29:13,000
+Right and yeah so well algorithmic stable
+coins do have own cons right but still you
+
+237
+00:29:13,000 --> 00:29:23,000
+know well it's useful building block for
+well more complex systems. So yeah, I
+
+238
+00:29:23,000 --> 00:29:33,000
+mean, even for, as I explained, trusted,
+right? Stable coins like Armeanio gold in
+
+239
+00:29:33,000 --> 00:29:43,000
+my example. So, well, it makes sense to
+have some trustless backing, right? So
+
+240
+00:29:43,000 --> 00:29:53,000
+yeah, algorithmic stable coins
+essentially.
+
+241
+00:29:54,000 --> 00:30:00,000
+So another big vertical I think that's
+quite interesting for the Ergo ecosystem
+
+242
+00:30:00,000 --> 00:30:06,000
+is cross-chaining, merge mining, just
+interoperability in general. So with 6.0,
+
+243
+00:30:06,000 --> 00:30:12,000
+what are we opening the door to support in
+terms of cross-chain interoperability on
+
+244
+00:30:12,000 --> 00:30:18,000
+Ergo or side chains, double-merge mined
+side chains, all of that kind of space
+
+245
+00:30:18,000 --> 00:30:24,000
+that we're growing into?
+
+246
+00:30:28,000 --> 00:30:37,000
+Right, so it would be possible to have,
+well, Bitcoin relays, right? Well, already
+
+247
+00:30:37,000 --> 00:30:46,000
+there is a prototype and then, well,
+two-way relays with Autolykos or maybe
+
+248
+00:30:46,000 --> 00:30:55,000
+SHA-256 or whatever. Sigma side chains,
+right? So you may have a relay on Ergo
+
+249
+00:30:55,000 --> 00:31:04,000
+chain and a relay on side chain. So
+sidechain relay on Ergo mainchain and
+
+250
+00:31:04,000 --> 00:31:13,000
+mainchain relay on Sigma sidechain. And
+with that, you may have even trustless
+
+251
+00:31:13,000 --> 00:31:22,000
+bridge, right, and other cross-chain
+trustless applications. But yeah, there
+
+252
+00:31:22,000 --> 00:31:31,000
+are more options, right? Like we have
+Rosen Bridge, right? To connect with,
+
+253
+00:31:31,000 --> 00:31:40,000
+well, chains which are not so easy to
+connect in a trustless way, fully
+
+254
+00:31:40,000 --> 00:31:49,000
+trustless, such as Bitcoin, well, Ethereum
+and so on, right? Most of popular chains.
+
+255
+00:31:53,000 --> 00:31:59,000
+Yeah, I'm hoping that with Rosen, we
+continue to expand across the various
+
+256
+00:31:59,000 --> 00:32:05,000
+ecosystems and points out there. And I
+think 2025 is going to be interesting in
+
+257
+00:32:05,000 --> 00:32:11,000
+terms of plugging in market making bots on
+top. Right. I really do believe that a
+
+258
+00:32:11,000 --> 00:32:17,000
+bridge has a just base transfer protocol
+is well, interesting. It allows you to
+
+259
+00:32:17,000 --> 00:32:23,000
+create markets and open the door to
+arbitrage across different environments
+
+260
+00:32:23,000 --> 00:32:29,000
+based on demand. But having the ability to
+manage liquidity more seamlessly and
+
+261
+00:32:29,000 --> 00:32:35,000
+accelerate that, I really think is one of
+the keys to growth long term you know as
+
+262
+00:32:35,000 --> 00:32:41,000
+well as potential solutions to kind of
+intermix faster bridging and DeFi which
+
+263
+00:32:41,000 --> 00:32:47,000
+you know again accelerates kind of the
+arbitrage potential but you know even
+
+264
+00:32:47,000 --> 00:32:53,000
+right Even beyond, I think, having kind of
+relays and greater interoperability
+
+265
+00:32:53,000 --> 00:32:59,000
+between ecosystems is certainly something
+I'm always going to encourage us to
+
+266
+00:32:59,000 --> 00:33:05,000
+support and grow into. I think there's a
+lot of opportunity in that space that is
+
+267
+00:33:05,000 --> 00:33:11,000
+still mostly unrealized.
+
+268
+00:33:18,000 --> 00:33:28,000
+Yeah, so I think applications are needed,
+right? Well, in addition to bridges such
+
+269
+00:33:28,000 --> 00:33:38,000
+as, well, onramp, right? And DEX access
+and so on. So, well, it would be good
+
+270
+00:33:38,000 --> 00:33:48,000
+maybe for a Bitcoiner, right? Somewhere to
+use escrow contracts for, well, better
+
+271
+00:33:48,000 --> 00:33:58,000
+onramp, right? So to get from fiat to
+Bitcoin. And then, yeah, maybe even to use
+
+272
+00:33:58,000 --> 00:34:08,000
+Spectrum DEX to exchange a bit of Bitcoin
+immediately to gold, for example, to have
+
+273
+00:34:08,000 --> 00:34:18,000
+exposure to both Bitcoin and gold.
+Spending fiat on that and using Ergo
+
+274
+00:34:18,000 --> 00:34:28,000
+blockchain, right?
+
+275
+00:34:29,000 --> 00:34:35,000
+Yeah, I think it's going to be an
+interesting year for metal stable coins.
+
+276
+00:34:35,000 --> 00:34:41,000
+You know, if I put on my tinfoil hat and
+say, OK, well, like if I could change the
+
+277
+00:34:41,000 --> 00:34:47,000
+trajectory of the crypto industry in one
+way for me, I think that like I don't
+
+278
+00:34:47,000 --> 00:34:53,000
+know, we have these peer-to-peer networks
+that are kind of, they're a wrapper of the
+
+279
+00:34:53,000 --> 00:34:59,000
+internet, right? And the internet itself
+is its own kind of animal that's
+
+280
+00:34:59,000 --> 00:35:05,000
+decentralized. You have, you know,
+endpoints all over the world. And I don't
+
+281
+00:35:05,000 --> 00:35:11,000
+know, I think that using fiat as like the
+primary peg or wrapper for cryptocurrency
+
+282
+00:35:11,000 --> 00:35:17,000
+is just the wrong choice because it's
+centralized. If the internet itself was
+
+283
+00:35:17,000 --> 00:35:23,000
+centralized and we tried to build
+cryptocurrencies on top of a centralized
+
+284
+00:35:23,000 --> 00:35:29,000
+network, it would be doomed to fail. And I
+think everyone can say like, yeah, that's
+
+285
+00:35:29,000 --> 00:35:35,000
+a terrible idea. We need like a
+decentralized foundation to build off if
+
+286
+00:35:35,000 --> 00:35:41,000
+we want resilience. And the same thing is
+true in terms of like the base monetary
+
+287
+00:35:41,000 --> 00:35:47,000
+network that we build off. We chose the
+wrong one as an industry, in my opinion.
+
+288
+00:35:47,000 --> 00:35:53,000
+Like, you know, gold and silver is every
+country you can pretty much find some
+
+289
+00:35:53,000 --> 00:35:59,000
+fungibility dealer you know it's pretty
+universally accepted there's friction
+
+290
+00:35:59,000 --> 00:36:05,000
+there but it is a decentralized base
+monetary network versus fiat is its own
+
+291
+00:36:05,000 --> 00:36:11,000
+walled garden and so whenever you're going
+to deal with like these walled
+
+292
+00:36:11,000 --> 00:36:17,000
+environments there's going to be a lot of
+entanglements it's going to inevitably,
+
+293
+00:36:17,000 --> 00:36:23,000
+like control is going to creep up from
+that foundation. So I think that at least
+
+294
+00:36:23,000 --> 00:36:29,000
+having, you know, algorithmic, you know,
+gold and silver pegged assets, hopefully
+
+295
+00:36:29,000 --> 00:36:35,000
+open the doors to where we can start
+building that foundation where metal
+
+296
+00:36:35,000 --> 00:36:41,000
+becomes a I don't know, potential rail in
+certain areas. And in a way that's
+
+297
+00:36:41,000 --> 00:36:47,000
+backwards, right? It should, probably
+should have been built the other way, but
+
+298
+00:36:47,000 --> 00:36:53,000
+it wasn't. And I think a lot of the
+conflicts we're gonna run into as an
+
+299
+00:36:53,000 --> 00:36:59,000
+industry is because we built off the wrong
+network. Like we didn't, again, go back to
+
+300
+00:36:59,000 --> 00:37:05,000
+the internet. If we use some central
+system, how could we expect to be
+
+301
+00:37:05,000 --> 00:37:11,000
+resilient through time?
+
+302
+00:37:21,000 --> 00:37:30,000
+Yeah, so I agree. So yeah, gold, silver,
+maybe lithium even, right? So those assets
+
+303
+00:37:30,000 --> 00:37:39,000
+actually do have very impressive
+decentralized mining networks, right? Much
+
+304
+00:37:39,000 --> 00:37:48,000
+more decentralized than Ergo or Bitcoin,
+to be honest, right? So well, you can mine
+
+305
+00:37:48,000 --> 00:37:57,000
+gold with variety of tools right starting
+with pretty medieval ones still used in
+
+306
+00:37:57,000 --> 00:38:06,000
+many areas around the globe to very
+sophisticated chemistry based right more
+
+307
+00:38:06,000 --> 00:38:15,000
+modern chemistry based tech well and There
+are players of very different scale,
+
+308
+00:38:15,000 --> 00:38:24,000
+right, from individuals and families in
+Africa, for example, to huge corporations,
+
+309
+00:38:24,000 --> 00:38:33,000
+right, big nationwide corporations. So
+yeah, well, players of very different
+
+310
+00:38:33,000 --> 00:38:42,000
+scale with very different tooling. And
+yeah, to be honest, unlike proof of work
+
+311
+00:38:42,000 --> 00:38:51,000
+mining, so yeah, tooling is more
+decentralized. Yeah, right. So well, let's
+
+312
+00:38:51,000 --> 00:39:00,000
+be clear because there is no Well, economy
+of scale we do have in hardware and well,
+
+313
+00:39:00,000 --> 00:39:09,000
+yeah, many attempts to... have more
+decentralized production of hardware
+
+314
+00:39:09,000 --> 00:39:18,000
+actually failed, right? Because, well,
+it's a hard field for competition. It's
+
+315
+00:39:18,000 --> 00:39:27,000
+very, very hard to compete with hardware
+manufacturers, existing ones, right? If
+
+316
+00:39:27,000 --> 00:39:36,000
+you are starting to produce tools for
+mining, digital mining. But yes, digital
+
+317
+00:39:36,000 --> 00:39:45,000
+mining is better than other ways to
+produce digital assets.
+
+318
+00:39:55,000 --> 00:40:01,000
+I think GPU mining is in a very
+interesting place, to be honest. You know,
+
+319
+00:40:01,000 --> 00:40:07,000
+in some sense, it's like Bitcoin has
+created this market where, I don't know,
+
+320
+00:40:07,000 --> 00:40:13,000
+it's mostly about energy arbitrage, right?
+Like, miners are naturally, like, going to
+
+321
+00:40:13,000 --> 00:40:19,000
+go to where there's excess energy and then
+try to, you know, plug in and profit from
+
+322
+00:40:19,000 --> 00:40:25,000
+excess capacity, right? And it seems as
+though, at least on the GPU side, we're
+
+323
+00:40:25,000 --> 00:40:31,000
+seeing massive scaling of infrastructure
+around AI and, you know, LLMs. And it's
+
+324
+00:40:31,000 --> 00:40:37,000
+going to be interesting to see if long
+term there's excess compute that then
+
+325
+00:40:37,000 --> 00:40:43,000
+becomes like this driver for where it's,
+you know, most profitable to mine. It does
+
+326
+00:40:43,000 --> 00:40:49,000
+kind of make sense. If you look at like
+proof of work is this mechanism of seeking
+
+327
+00:40:49,000 --> 00:40:55,000
+over capacity, right? And that's always
+where it's more profitable is when you
+
+328
+00:40:55,000 --> 00:41:01,000
+have over capacity, cheaper energy,
+cheaper, you know, hardware, et cetera. So
+
+329
+00:41:01,000 --> 00:41:07,000
+I think GPU mining is an interesting place
+to be long-term actually.
+
+330
+00:41:13,000 --> 00:41:20,000
+Right. But yeah, going back to physical
+assets, so yeah, well, they have very well
+
+331
+00:41:20,000 --> 00:41:27,000
+established mining networks, right? And
+well, pretty understandable distribution,
+
+332
+00:41:27,000 --> 00:41:34,000
+right? Made over centuries, if you're
+talking about gold and silver, especially.
+
+333
+00:41:34,000 --> 00:41:41,000
+And so, yeah, well, also, well, you cannot
+create gold or silver out of thin air,
+
+334
+00:41:41,000 --> 00:41:48,000
+right, unlike fiat currencies. So, well,
+it's, yeah, I mean, it should be naturally
+
+335
+00:41:48,000 --> 00:41:55,000
+the basis, right, for stable coins or
+peer-to-peer networks.
+
+336
+00:41:59,000 --> 00:42:04,000
+Well, originally, you know, metal was the
+peg for fiat, you know.
+
+337
+00:42:04,000 --> 00:42:06,000
+Right, yeah.
+
+338
+00:42:06,000 --> 00:42:12,000
+Like fiat was just a wrapper for, you
+know, metal itself. So I guess in some
+
+339
+00:42:12,000 --> 00:42:18,000
+sense, having metal is like the base and
+some digital wrapper of metal. This is an
+
+340
+00:42:18,000 --> 00:42:24,000
+interesting concept. Speaking of mining,
+are you tracking the Lithos development at
+
+341
+00:42:24,000 --> 00:42:30,000
+all in terms of how that could potentially
+shift the centralized or decentralized
+
+342
+00:42:30,000 --> 00:42:36,000
+nature of proof of work mining?
+
+343
+00:42:39,000 --> 00:42:45,000
+So, yeah, trying to get details, but
+yeah, fairly general picture still, to be
+
+344
+00:42:45,000 --> 00:42:51,000
+honest. Well, trying to get details from
+qx(), but yeah, well, it seems that there
+
+345
+00:42:51,000 --> 00:42:57,000
+will be a lot of interesting things there,
+right? Even some, well, specific
+
+346
+00:42:57,000 --> 00:43:03,000
+applications, specific rollups. which is
+quite interesting. And well, yeah, it's
+
+347
+00:43:03,000 --> 00:43:09,000
+quite ambitious, right? And yeah, well,
+quite exciting, well, approach to
+
+348
+00:43:09,000 --> 00:43:15,000
+reworking mining. What do you think about
+Lithos? Maybe you have more talks with
+
+349
+00:43:15,000 --> 00:43:21,000
+qx().
+
+350
+00:43:25,000 --> 00:43:31,000
+Well, I think that ultimately if we can
+get block production back towards the
+
+351
+00:43:31,000 --> 00:43:37,000
+individual miner away from pools, you
+know, the network resilience of proof of
+
+352
+00:43:37,000 --> 00:43:43,000
+work and kind of like this ability to, I
+don't know, censor validators is going to
+
+353
+00:43:43,000 --> 00:43:49,000
+make it a lot more resilient, right? You
+know, we saw that in Bitcoin already. You
+
+354
+00:43:49,000 --> 00:43:55,000
+know, that's kind of been an ongoing
+struggle with Ethereum as soon as they
+
+355
+00:43:55,000 --> 00:44:01,000
+went to proof of stake, where it's like,
+you no longer have a fair network, in my
+
+356
+00:44:01,000 --> 00:44:07,000
+opinion, like, okay, in Bitcoin, Because
+Bitcoin is a bit dumb by nature it's more
+
+357
+00:44:07,000 --> 00:44:13,000
+of like you get your payment later right
+now and that's not so terrible I guess
+
+358
+00:44:13,000 --> 00:44:19,000
+depending on market conditions maybe at
+that at the wrong time some you know if
+
+359
+00:44:19,000 --> 00:44:25,000
+you have block producers that are saying
+hey you're not gonna be in our block and
+
+360
+00:44:25,000 --> 00:44:31,000
+you get kicked down the chain enough you
+know you could definitely encounter some
+
+361
+00:44:31,000 --> 00:44:37,000
+like severe price impacts or something but
+it'll get there eventually right when you
+
+362
+00:44:37,000 --> 00:44:43,000
+talk about like a network like Ethereum
+where race conditions are a lot more
+
+363
+00:44:43,000 --> 00:44:49,000
+complicated because you have other assets.
+Then things get really sketchy, right?
+
+364
+00:44:49,000 --> 00:44:55,000
+Like you have DeFi and you have collateral
+that you're trying to like cover based on
+
+365
+00:44:55,000 --> 00:45:01,000
+market conditions or you have an
+opportunity that's based on race
+
+366
+00:45:01,000 --> 00:45:07,000
+conditions. You simply broke the network.
+You have you can't have like multi-tier
+
+367
+00:45:07,000 --> 00:45:13,000
+user base where you know one person can
+come into a block half the time and
+
+368
+00:45:13,000 --> 00:45:19,000
+economically compete with somebody that
+can always be included in a block like
+
+369
+00:45:19,000 --> 00:45:25,000
+that's that's a breaking assumption and in
+my opinion for any like, yeah, neutral
+
+370
+00:45:25,000 --> 00:45:31,000
+economy. So I think if we like,
+ultimately, the way around that has to be
+
+371
+00:45:31,000 --> 00:45:37,000
+like become uncensorable. And it makes
+sense in my framework that the only way to
+
+372
+00:45:37,000 --> 00:45:43,000
+do that is to empower the individual
+miners. So there's not some like pool
+
+373
+00:45:43,000 --> 00:45:49,000
+that, you know, inherits that liability.
+Does that make sense? Right, right. Which
+
+374
+00:45:49,000 --> 00:45:55,000
+I guess gets you back to non-outsourceable
+puzzles. Why was that valuable when Ergo
+
+375
+00:45:55,000 --> 00:46:01,000
+first launched? Kind of the same concept,
+right? Right. So I do think that long term
+
+376
+00:46:01,000 --> 00:46:07,000
+that's still probably going like from an
+outside attack perspective. I think going
+
+377
+00:46:07,000 --> 00:46:13,000
+after how blocks are built and like the
+choke points around fiat rails are the two
+
+378
+00:46:13,000 --> 00:46:19,000
+primary like regulatory vectors. So
+hopefully, you know, we can be a bit
+
+379
+00:46:19,000 --> 00:46:25,000
+hardened.
+
+380
+00:46:29,000 --> 00:46:36,000
+Yeah, so I think, yeah, well, talking
+about non-outsourceable puzzles and
+
+381
+00:46:36,000 --> 00:46:43,000
+Lithos. So I think for, well, every proof
+of work currency, it should be in
+
+382
+00:46:43,000 --> 00:46:50,000
+desiderata rights to, well, have
+protection against pooling, right? But
+
+383
+00:46:50,000 --> 00:46:57,000
+then, yeah, yeah, you have a lot of real
+world rights.
+
+384
+00:46:58,000 --> 00:47:04,000
+Forces yeah you have you have incentives
+and I think that if you could create the
+
+385
+00:47:04,000 --> 00:47:10,000
+right incentives to encourage local block
+production, then it's feasible. Because
+
+386
+00:47:10,000 --> 00:47:16,000
+that's ultimately why people pool their
+hashrate anyway, is more predictable
+
+387
+00:47:16,000 --> 00:47:22,000
+revenue flows or mining flows. There's an
+incentive to do so, and it's hard to say,
+
+388
+00:47:22,000 --> 00:47:28,000
+okay, we're going to operate on principle
+and not incentives. That's a failed...
+
+389
+00:47:28,000 --> 00:47:34,000
+that's gonna be a failed system real
+quick. Altruism is a terrible security
+
+390
+00:47:34,000 --> 00:47:40,000
+assumption in the wild, I guess. So yeah,
+I think we're in for an interesting time.
+
+391
+00:47:40,000 --> 00:47:46,000
+Why don't we get into ChainCash? I know
+that's kind of been something that's been
+
+392
+00:47:46,000 --> 00:47:52,000
+of in and out of your mind for years, you
+know, building free banking or alternative
+
+393
+00:47:52,000 --> 00:47:58,000
+economies on top of Ergo.
+
+394
+00:48:04,000 --> 00:48:12,000
+Oh, actually, yeah, I mean, initial
+thoughts appeared before the mainnet
+
+395
+00:48:12,000 --> 00:48:20,000
+launch even, so back in 2018 probably.
+Right, something like that, but yeah, so
+
+396
+00:48:20,000 --> 00:48:28,000
+the original idea was, so it had a
+different name even. Yeah, and the idea
+
+397
+00:48:28,000 --> 00:48:36,000
+was to have a circle of circles, basically
+to have different local exchange trading
+
+398
+00:48:36,000 --> 00:48:44,000
+systems, right, because that was
+primitive, known to me back then. So I
+
+399
+00:48:44,000 --> 00:48:52,000
+started with that so that the idea was to
+have well collateralized local exchange
+
+400
+00:48:52,000 --> 00:49:00,000
+trading systems and non-collateralized and
+then to have some exchange right between
+
+401
+00:49:00,000 --> 00:49:08,000
+different circles between different LETS
+systems and having gateways some economy,
+
+402
+00:49:08,000 --> 00:49:16,000
+right, well for actors willing to project
+liquidity from one kind of financial
+
+403
+00:49:16,000 --> 00:49:24,000
+system to another, right, and so on. But
+yeah, then, yeah, so somehow I realized
+
+404
+00:49:24,000 --> 00:49:32,000
+that, well, ChainCash so well spender
+signed currency based system could be
+
+405
+00:49:32,000 --> 00:49:40,000
+actually a more general right so with that
+you may include local exchange trading
+
+406
+00:49:40,000 --> 00:49:48,000
+systems as well as I don't know very
+different systems right you know in a
+
+407
+00:49:48,000 --> 00:49:56,000
+single financial system global one and
+having basically the same right and well
+
+408
+00:49:56,000 --> 00:50:04,000
+anyway you would have conditional
+acceptance right like in LETS of LETS
+
+409
+00:50:04,000 --> 00:50:12,000
+circle of circles right but yeah also more
+flexibility and so on so that was quite
+
+410
+00:50:12,000 --> 00:50:20,000
+evolutionary process But yeah, so I think,
+well, it's the natural next step talking
+
+411
+00:50:20,000 --> 00:50:28,000
+about ChainCash. So well, you have
+blockchain assets, right? So talking about
+
+412
+00:50:28,000 --> 00:50:36,000
+proof of work assets or proof of work
+derived assets like ones with emission
+
+413
+00:50:36,000 --> 00:50:44,000
+contracts tied to proof of work. blocks
+production such as I don't know auction
+
+414
+00:50:44,000 --> 00:50:52,000
+coin maybe even rights or well maybe
+currencies with emission contracts with
+
+415
+00:50:52,000 --> 00:51:00,000
+the emission going to miners, right, like
+some projects did, but only for part of
+
+416
+00:51:00,000 --> 00:51:08,000
+tokens. But if we are talking about whole
+supply going to miners, then yeah, it's
+
+417
+00:51:08,000 --> 00:51:16,000
+not that different from ERG, even maybe
+from native token, right, in regards with
+
+418
+00:51:16,000 --> 00:51:24,000
+money production. So yeah, we have those
+hard assets, Ergo, other proof of work
+
+419
+00:51:24,000 --> 00:51:32,000
+cryptocurrencies. Well, if they do have
+good distribution like Bitcoin. Right,
+
+420
+00:51:32,000 --> 00:51:40,000
+then, yeah, maybe we have assets of, I
+don't know, the different quality, let's
+
+421
+00:51:40,000 --> 00:51:48,000
+say, right? But then, yeah, still for the
+real world, you need for some expansion,
+
+422
+00:51:48,000 --> 00:51:56,000
+right? You need to introduce trust
+sometimes. You need to combine trust and
+
+423
+00:51:56,000 --> 00:52:04,000
+collateral and so on. So a variety of
+options to expand trust. monetary base or
+
+424
+00:52:04,000 --> 00:52:12,000
+blockchain assets to, well, money being
+used in the real world. So that's more or
+
+425
+00:52:12,000 --> 00:52:20,000
+less like monetary systems are working in
+the real world, right? Where you have
+
+426
+00:52:20,000 --> 00:52:28,000
+some, well, monetary base, like M0
+aggregates, right? And well, on top of
+
+427
+00:52:28,000 --> 00:52:36,000
+that, you are creating more and more
+derivative layers but here yeah it's still
+
+428
+00:52:36,000 --> 00:52:44,000
+peer-to-peer right so well it's based on
+individual choice of security parameters
+
+429
+00:52:44,000 --> 00:52:52,000
+and so on and yeah so it's it's it's a non
+It's non-enforceable, right? Also, no
+
+430
+00:52:52,000 --> 00:53:00,000
+actor should force you to accept assets
+you don't like, right? Like happening with
+
+431
+00:53:00,000 --> 00:53:08,000
+fiat currency, for example, which you have
+to accept if you run a business in some
+
+432
+00:53:08,000 --> 00:53:16,000
+jurisdiction, for example, right? Yeah,
+you almost always saw in almost all the
+
+433
+00:53:16,000 --> 00:53:24,000
+jurisdictions, you have to accept fiat
+currency rights of all that jurisdiction.
+
+434
+00:53:24,000 --> 00:53:32,000
+And yeah, in ChainCash, so yeah, it's kind
+of free. And yeah, free banking system
+
+435
+00:53:32,000 --> 00:53:40,000
+basically, right? So the different agents
+are free to issue their money, but then
+
+436
+00:53:40,000 --> 00:53:48,000
+yeah, it's up to you which money to
+accept. So it's more or less like, well,
+
+437
+00:53:48,000 --> 00:53:56,000
+free banking systems existed in many
+countries before central banks, well, to
+
+438
+00:53:56,000 --> 00:54:04,000
+power our money issues.
+
+439
+00:54:40,000 --> 00:54:45,000
+It's going to be interesting to see.
+ChainCash, I don't know, could grow a lot
+
+440
+00:54:45,000 --> 00:54:50,000
+of different ways. Like the circle within
+circles idea is interesting. Looking at
+
+441
+00:54:50,000 --> 00:54:55,000
+how like the shadow banking system will
+have to retool itself based on like
+
+442
+00:54:55,000 --> 00:55:00,000
+potential changes. And, you know, let's
+say we do get central bank digital
+
+443
+00:55:00,000 --> 00:55:05,000
+currencies, that's going to be interesting
+to see how like, you know, shadow banking
+
+444
+00:55:05,000 --> 00:55:10,000
+sides of economy and gray markets, black
+markets coexist. within the centralized
+
+445
+00:55:10,000 --> 00:55:15,000
+beast that's coming. It's gonna be an
+interesting world, my friend. I think you
+
+446
+00:55:15,000 --> 00:55:20,000
+and I will be alive the day that cash
+disappears, right? And it's quite
+
+447
+00:55:20,000 --> 00:55:25,000
+interesting to game theory out. What comes
+next? Right. And I think that at some
+
+448
+00:55:25,000 --> 00:55:30,000
+point, like a reversion back to metals
+makes sense, because what else are you
+
+449
+00:55:30,000 --> 00:55:35,000
+going to have that you can have custody of
+and you have strong trust assumptions
+
+450
+00:55:35,000 --> 00:55:40,000
+with? I don't know. We're in for an
+interesting time, I guess.
+
+451
+00:55:50,000 --> 00:55:58,000
+Right, but you can combine blockchains
+with metals, right? So you may have, I
+
+452
+00:55:58,000 --> 00:56:06,000
+don't know, physical gold, which is
+secured with algorithmic rights, like what
+
+453
+00:56:06,000 --> 00:56:14,000
+Palmyra is planning to do with lithium
+rights or to secure lithium which is not
+
+454
+00:56:14,000 --> 00:56:22,000
+produced yet with algorithmic stable coins
+and similarly you can secure brick of gold
+
+455
+00:56:22,000 --> 00:56:30,000
+which is not delivered yet to your control
+party with algorithmic stable coin rights
+
+456
+00:56:30,000 --> 00:56:38,000
+and then yeah you use also some escrow
+contract for security right for for kind
+
+457
+00:56:38,000 --> 00:56:46,000
+of insurance And then, yeah, so this way
+you can use metals, right, but with also
+
+458
+00:56:46,000 --> 00:56:54,000
+some additional security provided by
+blockchain, but also well in a
+
+459
+00:56:54,000 --> 00:57:02,000
+capital-efficient way, right. And then you
+also can actually issue I don't know, more
+
+460
+00:57:02,000 --> 00:57:10,000
+relaxed money like ChainCash, right? On
+top of metals secured by stable coins, for
+
+461
+00:57:10,000 --> 00:57:18,000
+example, and so on. You can just issue
+ChainCash notes on top of algorithmic
+
+462
+00:57:18,000 --> 00:57:26,000
+stable coins and so on. So yeah, a variety
+of options. And yeah, you can have things
+
+463
+00:57:26,000 --> 00:57:34,000
+done in a pretty capital-efficient way
+here, right, using clearing, mutual credit
+
+464
+00:57:34,000 --> 00:57:42,000
+clearing and so on. So not so much backing
+would be needed even because that's also,
+
+465
+00:57:42,000 --> 00:57:50,000
+well, a hard problem, right? So you may
+have trustless assets like over
+
+466
+00:57:50,000 --> 00:57:58,000
+collateralized algorithmic stable coins,
+but they're not capital efficient, right?
+
+467
+00:57:58,000 --> 00:58:06,000
+So you need to do something right to not
+to use so much of those assets. So to use
+
+468
+00:58:06,000 --> 00:58:14,000
+clearing as much as possible, right? So to
+minimize amount of stable coins, used
+
+469
+00:58:14,000 --> 00:58:22,000
+over-collateralized stable coins.
+
+470
+00:58:32,000 --> 00:58:38,000
+That's an interesting, interesting
+thought. Going back to the future of Ergo,
+
+471
+00:58:38,000 --> 00:58:44,000
+what would you say is the long-term vision
+goal plan for the ecosystem community,
+
+472
+00:58:44,000 --> 00:58:50,000
+development community, and how best to
+engage users and developers to get
+
+473
+00:58:50,000 --> 00:58:56,000
+involved in the vision and the future of
+building Ergo?
+
+474
+00:58:59,000 --> 00:59:09,000
+Yeah, so I think we actually have
+discussed, right, different aspects of
+
+475
+00:59:09,000 --> 00:59:19,000
+future of Ergo, such as well, more stable
+coins, well, tools for monetary expansion,
+
+476
+00:59:19,000 --> 00:59:29,000
+then cross-chaining to bring more assets
+and also to bring applications to other
+
+477
+00:59:29,000 --> 00:59:39,000
+blockchains. Decentralized onramp, which
+is getting more and more critically
+
+478
+00:59:39,000 --> 00:59:49,000
+needed, right? Especially, well, with
+degradation of centralized exchanges we
+
+479
+00:59:49,000 --> 00:59:59,000
+are witnessing. And then, yeah, well,
+decentralized marketplaces. What else?
+
+480
+00:59:59,000 --> 01:00:09,000
+There would be needs probably in many
+areas for off-chain solutions, layer-2
+
+481
+01:00:09,000 --> 01:00:19,000
+networks, right, for, well, cheap. maybe
+almost free transactions here also, maybe,
+
+482
+01:00:19,000 --> 01:00:29,000
+well, very fast, right? Well, maybe even
+sub-blocks would be not fast enough. You
+
+483
+01:00:29,000 --> 01:00:39,000
+may use Lithos and so on. And yeah, so I
+think, well, all those things combined and
+
+484
+01:00:39,000 --> 01:00:49,000
+those things are not imaginary, right?
+prototypes at least for almost all of
+
+485
+01:00:49,000 --> 01:00:59,000
+them. Sometimes we have tooling already
+available, but just maybe not tested and
+
+486
+01:00:59,000 --> 01:01:09,000
+used much. With all those things we may
+say that Ergo is actually a kind of end
+
+487
+01:01:09,000 --> 01:01:19,000
+game for crypto. envisioned by godfathers
+of Bitcoin. Maybe not in detailed way
+
+488
+01:01:19,000 --> 01:01:29,000
+because they were not capable to figure
+out details back in 2009, 2008, 2009.
+
+489
+01:01:29,000 --> 01:01:39,000
+Sometimes it's quite funny actually to
+read the writings as well as, I don't
+
+490
+01:01:39,000 --> 01:01:49,000
+know, even earlier writings from 2000s
+like different Cypherpunk writings on
+
+491
+01:01:49,000 --> 01:01:59,000
+future of peer-to-peer digital cash. But
+yeah, now I think we have a pretty
+
+492
+01:01:59,000 --> 01:02:09,000
+well-established and detailed approach,
+which is finally allowing to achieve
+
+493
+01:02:09,000 --> 01:02:19,000
+dreams from 2000s. And yeah, that's what
+we need for more developers, enthusiasts,
+
+494
+01:02:19,000 --> 01:02:29,000
+monetary hackers, jazz hackers. So well,
+enthusiasts, running experience and so on.
+
+495
+01:02:38,000 --> 01:02:44,000
+No, I think at some point, you know, life
+is a circle. Right. So I think at some
+
+496
+01:02:44,000 --> 01:02:50,000
+point, you know, this idea of like, I
+don't know, wrappers with a lot of
+
+497
+01:02:50,000 --> 01:02:56,000
+different control points on top of
+wrappers with a lot of different control
+
+498
+01:02:56,000 --> 01:03:02,000
+points will be problematic. Right. And
+when it becomes problematic, then this
+
+499
+01:03:02,000 --> 01:03:08,000
+idea of, you know, peer to peer finance
+between you and me with nobody else in the
+
+500
+01:03:08,000 --> 01:03:14,000
+middle will become more attractive. I
+guess, I don't know, there's always a lot
+
+501
+01:03:14,000 --> 01:03:20,000
+of hype and marketing and I don't know,
+salesmanship, guruing in the crypto space.
+
+502
+01:03:20,000 --> 01:03:26,000
+But I think at the end of the day, that's
+ultimately the kind of first principles
+
+503
+01:03:26,000 --> 01:03:32,000
+approach is to stay low and peer to peer.
+system. And, you know, I do hope that, you
+
+504
+01:03:32,000 --> 01:03:38,000
+know, perhaps 2025, perhaps 2026, we start
+to explore, you know, perhaps enhancements
+
+505
+01:03:38,000 --> 01:03:44,000
+in privacy, new Sigma protocols being
+supported, etc. I don't know for there
+
+506
+01:03:44,000 --> 01:03:50,000
+yet. But, you know, it seems like we have
+a foundation where, you know, that very
+
+507
+01:03:50,000 --> 01:03:56,000
+well could be 7.0 or 8.0 or whatever.
+Let's see.
+
+508
+01:04:03,000 --> 01:04:12,000
+Yeah, so I guess sigma chains or layer 2s
+could be useful for privacy, right?
+
+509
+01:04:12,000 --> 01:04:21,000
+Especially if it's possible to break link
+between well, entering and exiting layer
+
+510
+01:04:21,000 --> 01:04:30,000
+2, which should be possible in Ergo, by
+the way. For example, you may enter layer
+
+511
+01:04:30,000 --> 01:04:39,000
+2. with the condition to exit to stealth
+address, which is what I'm thinking about
+
+512
+01:04:39,000 --> 01:04:48,000
+a little bit. But yeah, I need to write
+down all those things. But yeah, well, it
+
+513
+01:04:48,000 --> 01:04:57,000
+would be good to get more researchers'
+rights, also hacking around all that
+
+514
+01:04:57,000 --> 01:05:06,000
+stuff. Absolutely. So yeah, well, going
+back. So yeah, I think in 2025 it is
+
+515
+01:05:06,000 --> 01:05:15,000
+critically needed to get more actors, more
+organizations, maybe even in the Ergo
+
+516
+01:05:15,000 --> 01:05:24,000
+ecosystem. And it is critically needed to
+get some more researchers and yeah, more
+
+517
+01:05:24,000 --> 01:05:33,000
+developers, core developers, application
+developers. and, yeah, well, more users,
+
+518
+01:05:33,000 --> 01:05:42,000
+right, more, well, enthusiasts, more
+teachers, right, explaining, well,
+
+519
+01:05:42,000 --> 01:05:51,000
+technology, right, to the masses.
+
+520
+01:05:52,000 --> 01:05:58,000
+I think ultimately that might be the
+starting point, right? If I look back at
+
+521
+01:05:58,000 --> 01:06:04,000
+the history of Ergo so far, it seems as
+though DECO was actually one of the
+
+522
+01:06:04,000 --> 01:06:10,000
+biggest like aggravators and motivators
+for growth and development expansion. Just
+
+523
+01:06:10,000 --> 01:06:16,000
+kind of that free YouTube course where,
+you know, covered the like base
+
+524
+01:06:16,000 --> 01:06:22,000
+foundations of Ergo UTXO building on Ergo
+sigma etc so i i think that's always going
+
+525
+01:06:22,000 --> 01:06:28,000
+to be something we should be really
+mindful of is kind of that intro ramp and
+
+526
+01:06:28,000 --> 01:06:34,000
+education for people out there that you
+know are interested because i don't know
+
+527
+01:06:34,000 --> 01:06:40,000
+it's I don't want to say crypto has a lot
+of foolish teachers around but it's a
+
+528
+01:06:40,000 --> 01:06:46,000
+crazy goddamn space my friend.
+
+529
+01:06:52,000 --> 01:06:59,000
+So I think there should be focus in 2025
+on, well, growing a new generation of
+
+530
+01:06:59,000 --> 01:07:06,000
+Sigmanauts, right? So it's always needed.
+And yeah, well, I think that's, yes,
+
+531
+01:07:06,000 --> 01:07:13,000
+sometimes it's missed, right? So that's,
+yeah, well, for a Sigmanaut, yeah, the
+
+532
+01:07:13,000 --> 01:07:20,000
+first goal should be to I don't know, grow
+replacements, right? Well, expand the
+
+533
+01:07:20,000 --> 01:07:27,000
+movement.
+
+534
+01:07:30,000 --> 01:07:34,000
+Yeah, I really hope that through time we
+become less important. That would be
+
+535
+01:07:34,000 --> 01:07:38,000
+awesome to see.
+
+536
+01:07:39,000 --> 01:07:45,000
+All right, so yeah, well, let's have
+exciting 2025. I'm pretty sure it will be
+
+537
+01:07:45,000 --> 01:07:51,000
+pretty crazy, but hopefully exciting here.
+
+538
+01:07:52,000 --> 01:07:56,000
+Buckle up, wear a helmet, let's have some
+fun.
+
+539
+01:07:56,000 --> 01:07:59,000
+All right, bye everybody.
+

@@ -1,0 +1,187 @@
+{
+  "call_date": "2025-04-04",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "00:15",
+      "question": "What are the main use cases for the current blockchain indexes?",
+      "asker": "kushti",
+      "answer": "The indexes are intended for creating AI agents that can analyze blockchain data and operate on-chain. For example, agents could set up grid trading bots, analyze their performance over time, and automatically adjust parameters or allocate more funds based on market conditions. They could also directly interact with DeFi protocols like Spectrum Finance to execute trades based on prompts.",
+      "responder": "Marc the Shark",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "indexing",
+        "AI agents",
+        "grid trading",
+        "DeFi",
+        "automation"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "02:30",
+      "question": "How could LLMs help generate Oracle pools and other DeFi applications?",
+      "asker": "Marc the Shark",
+      "answer": "LLMs could generate Oracle pool configurations with just one or two prompts, including setting the number of participants and other parameters. This could simplify creating new stable coins by generating Oracle configs and tweaking parameters. LLMs could also help farmers generate options contracts directly instead of dealing with traditional financial intermediaries, making complex financial instruments more accessible.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Oracle pools",
+        "stable coins",
+        "options contracts",
+        "LLM",
+        "DeFi automation"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "06:12",
+      "question": "What's the current status of the Sigmanauts mining pool?",
+      "asker": "kushti",
+      "answer": "The pool is operating at around 90 GHz hashrate and is being updated with a more polished website. They're distributing over 150 ERGs weekly through demurrage rewards plus bonus tokens. The pool is positioning itself as attractive to GPU miners since Ergo is becoming 'the last refuge for GPU miners' as other chains move away from GPU mining.",
+      "responder": "Marc the Shark",
+      "category": "mining",
+      "difficulty": "beginner",
+      "related_terms": [
+        "mining pool",
+        "demurrage",
+        "GPU mining",
+        "rewards"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "08:06",
+      "question": "What's the status of Ergo node version 6.0?",
+      "asker": "Marc the Shark",
+      "answer": "Version 6.0 is currently syncing with mainnet and fixing issues. The release timing is hard to predict due to some obscure issues being resolved. Once released, they'll work with mining pools to set an activation date and inform them about upcoming votes for the protocol update soft fork.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "node update",
+        "soft fork",
+        "protocol upgrade",
+        "mining pools"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "09:18",
+      "question": "What's the development status of sub-blocks?",
+      "asker": "Marc the Shark",
+      "answer": "The peer-to-peer logic initial version for sub-blocks is complete. Testing will begin soon with 2-3 participants on devnet, requiring constant node updates since it's still very early stage. Additionally, version 5026 will include Candidate Regeneration feature for faster transaction confirmations, expected to release next week.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "sub-blocks",
+        "peer-to-peer",
+        "devnet",
+        "candidate regeneration"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "12:37",
+      "question": "How would the mempool work with sub-blocks and faster confirmation times?",
+      "asker": "Marc the Shark",
+      "answer": "Sub-blocks provide confirmations but with higher orphan rates and more rollbacks. The mempool would buffer transactions when switching between sub-blocks, with transactions from orphaned forks returning to the pool. The mempool would need bigger memory usage but would generally be smaller since transactions move to sub-blocks faster.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "sub-blocks",
+        "mempool",
+        "orphan blocks",
+        "rollbacks",
+        "confirmation times"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "22:15",
+      "question": "What applications would benefit most from sub-blocks?",
+      "asker": "Marc the Shark",
+      "answer": "Decentralized exchanges would benefit significantly from faster confirmations. On-ramp services would improve since users wouldn't need to wait minutes for confirmations during face-to-face transactions. Sub-blocks could also enable faster peer-to-peer cash exchanges and revival of certain games that require quick confirmation times.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "sub-blocks",
+        "DEX",
+        "on-ramp",
+        "confirmation times",
+        "gaming"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "29:30",
+      "question": "How can someone get started with AI-assisted coding for ErgoScript and React development?",
+      "asker": "community",
+      "answer": "Use tools like Cursor, Claude Sonnet, or Grok for different coding tasks. For React frontends, try lovable.dev to generate UI/UX, then use Cursor for backend integration. For ErgoScript, provide context through GitHub repos with legitimate smart contracts as examples. The goal isn't one-shot contract generation but getting 50-75% of the work done to speed up development timelines.",
+      "responder": "Marc the Shark",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "AI coding",
+        "ErgoScript",
+        "React",
+        "smart contracts",
+        "development tools"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "44:28",
+      "question": "Can sub-block transactions be chained within a single block, and how do sub-blocks affect scalability for billions of users?",
+      "asker": "community",
+      "answer": "Yes, transactions can be chained within a single sub-block or block. However, for billions of users, Layer 2 solutions are still necessary. The natural design involves local segments for most transactions (like buying coffee) that don't require global consensus, with the main chain handling settlements between segments and truly global events.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "sub-blocks",
+        "scalability",
+        "Layer 2",
+        "local consensus",
+        "global consensus"
+      ]
+    },
+    {
+      "qa_id": 10,
+      "timestamp": "49:10",
+      "question": "How can Ergo and Cardano collaborate beyond simple cross-chain transactions?",
+      "asker": "community",
+      "answer": "Multi-chain Hydra implementations could be possible since Cardano supports the same elliptic curve (secp256k1) used by Ergo. This could create off-chain high-speed rails for financial transactions powered by both chains simultaneously, with collateralization and outcomes happening on both chains rather than just bridge-based transfers.",
+      "responder": "kushti",
+      "category": "bridges",
+      "difficulty": "advanced",
+      "related_terms": [
+        "Cardano collaboration",
+        "multi-chain Hydra",
+        "secp256k1",
+        "off-chain scaling"
+      ]
+    },
+    {
+      "qa_id": 11,
+      "timestamp": "56:44",
+      "question": "How can testnet mining be incentivized?",
+      "asker": "community",
+      "answer": "One proposed solution is creating a trustless bridge between Ergo mainnet and testnet, allowing testnet ERG to be brought to mainnet. This could enable people to create liquidity pools pairing mainnet ERG with testnet ERG, providing market-based incentives for testnet participation and interesting experimental opportunities.",
+      "responder": "kushti",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "testnet",
+        "mining incentives",
+        "trustless bridge",
+        "liquidity pools"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "call_date": "2025-04-11",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - April 10th",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Disco Solaris NFT Bridge to Ergo",
+      "category": "bridges",
+      "start_time": "01:05",
+      "end_time": "02:55",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Discussion of Disco Solaris NFT project bridging from Cardano to Ergo using MewFinance's automated bridging system. The system reads Cardano metadata and remints tokens on Ergo while keeping originals in lock contracts.",
+      "key_terms": [
+        "Disco Solaris",
+        "NFT bridge",
+        "MewFinance",
+        "Cardano",
+        "metadata",
+        "lock contract"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Mining Emission Reduction to 15 ERG",
+      "category": "technical",
+      "start_time": "02:55",
+      "end_time": "04:26",
+      "primary_speaker": "kushti",
+      "summary": "Ergo's block reward emission has been reduced to 15 ERG per block. Discussion of Sigmanauts Mining Pool collecting storage rent to help offset the emission reduction for miners.",
+      "key_terms": [
+        "emission reduction",
+        "15 ERG",
+        "block reward",
+        "Sigmanauts Mining Pool",
+        "storage rent"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Colorado Springs Ergo Meetup Planning",
+      "category": "community",
+      "start_time": "04:26",
+      "end_time": "07:00",
+      "primary_speaker": "qx()",
+      "summary": "Plans for an Ergo community meetup in Colorado Springs for September or early October. Discussion of timing coordination with other events like Evo 2025 and logistics including venue availability and hotel costs.",
+      "key_terms": [
+        "Colorado Springs",
+        "meetup",
+        "September",
+        "Evo 2025",
+        "community event"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "GraphQL Infrastructure Issues and Redundancy",
+      "category": "technical",
+      "start_time": "07:00",
+      "end_time": "08:26",
+      "primary_speaker": "qx()",
+      "summary": "Two of three GraphQL load balancers went down, exposing infrastructure vulnerabilities. Plans to implement rollover servers in Nautilus wallet to use multiple public GraphQL endpoints for better redundancy.",
+      "key_terms": [
+        "GraphQL",
+        "load balancers",
+        "Nautilus wallet",
+        "infrastructure",
+        "rollover servers",
+        "Sigma space"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Palmyra Cross-Chain Token Launch Details",
+      "category": "defi",
+      "start_time": "08:26",
+      "end_time": "16:27",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Palmyra token launching August 14th as first cross-chain launch using Rosen Bridge on Cardano and BNB. Regulatory compliance requires staking support on each chain before official liquidity pools. Seychelles FSA issued first utility token license for the project.",
+      "key_terms": [
+        "Palmyra",
+        "cross-chain launch",
+        "Rosen Bridge",
+        "MintSwap",
+        "PancakeSwap",
+        "Seychelles FSA",
+        "utility token",
+        "staking support"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Rosen Bridge Arbitrage and Performance",
+      "category": "bridges",
+      "start_time": "16:27",
+      "end_time": "19:06",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Discussion of real-time arbitrage opportunities with Palmyra's multi-chain launch testing Rosen Bridge performance. Examples of existing ERG arbitrage between Cardano and Ergo chains demonstrate the bridge's effectiveness.",
+      "key_terms": [
+        "arbitrage",
+        "multi-chain launch",
+        "Rosen ERG",
+        "trading",
+        "cross-chain"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Cardano Voting Power and Proxy Tokens",
+      "category": "governance",
+      "start_time": "19:06",
+      "end_time": "22:03",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Discussion of losing Cardano voting power when purchasing tokens with ADA, and potential solutions using proxy tokens or DRAP delegation. Exploration of cross-chain voting mechanisms between Cardano and Ergo ecosystems.",
+      "key_terms": [
+        "Cardano voting",
+        "proxy tokens",
+        "DRAP",
+        "delegation",
+        "cross-chain voting",
+        "Babel voting"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Node 6.0 RC4 Release and Stability",
+      "category": "technical",
+      "start_time": "22:41",
+      "end_time": "26:03",
+      "primary_speaker": "kushti",
+      "summary": "Node 6.0 RC4 successfully deployed on mainnet with full sync capability. RC5 will be the final release after pending fixes. Emphasis on Ergo's non-breaking development philosophy maintaining application compatibility across years.",
+      "key_terms": [
+        "Node 6.0",
+        "RC4",
+        "RC5",
+        "mainnet sync",
+        "non-breaking development",
+        "application compatibility"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Merkleized Syntax Trees and Finite State Machines",
+      "category": "technical",
+      "start_time": "26:03",
+      "end_time": "30:37",
+      "primary_speaker": "kushti",
+      "summary": "Introduction of Merkleized Sub-Syntax Trees and Finite State Machines in ErgoScript, enabling complex wallet policies and multi-stage contracts with privacy features. Examples include enterprise wallet security and dispute resolution systems.",
+      "key_terms": [
+        "Merkleized Sub-Syntax Trees",
+        "Finite State Machines",
+        "ErgoScript",
+        "wallet policies",
+        "privacy",
+        "dispute resolution"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Sub-blocks Multi-Peer Network Testing",
+      "category": "technical",
+      "start_time": "30:37",
+      "end_time": "32:02",
+      "primary_speaker": "kushti",
+      "summary": "Initial testing of multi-peer network for sub-blocks implementation using two nodes with CPU mining. Plans for expanded testing with more peers and eventual DevNet deployment.",
+      "key_terms": [
+        "sub-blocks",
+        "multi-peer network",
+        "DevNet",
+        "CPU mining",
+        "peer layer"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Dexy Oracle Security and Data Integrity",
+      "category": "defi",
+      "start_time": "32:02",
+      "end_time": "51:15",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Comprehensive discussion of oracle security against price manipulation, comparing centralized commodity indexes with decentralized oracle networks. Focus on commodities like gold and lithium, incentive structures, and data source diversification strategies.",
+      "key_terms": [
+        "oracles",
+        "price manipulation",
+        "LBMA",
+        "commodities",
+        "lithium",
+        "gold",
+        "decentralized consensus",
+        "data integrity",
+        "Dexy"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Community Chat and Closing Remarks",
+      "category": "community",
+      "start_time": "51:15",
+      "end_time": "52:41",
+      "primary_speaker": "kushti",
+      "summary": "Plans for weekend community chat on Telegram about high-performance proof-of-work protocols and sub-blocks. Meeting wrap-up with standard weekly AMA scheduling announcement.",
+      "key_terms": [
+        "community chat",
+        "Telegram",
+        "proof-of-work protocols",
+        "sub-blocks",
+        "weekly AMA"
+      ]
+    }
+  ]
+}

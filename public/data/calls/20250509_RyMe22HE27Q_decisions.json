@@ -1,0 +1,147 @@
+{
+  "call_date": "2025-05-09",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - May 8th",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "03:09",
+      "decision": "6.0 soft fork voting will be made a default option due to messiness of current approach",
+      "speaker": "kushti",
+      "context": "Most miners indicated vote for 5.0 soft fork, but current voting approach would be quite messy",
+      "topic": "technical",
+      "significance": "major",
+      "quote": "But, yeah, well, currently it would be quite messy, so probably there will be just one version."
+    },
+    {
+      "id": 2,
+      "timestamp": "54:21",
+      "decision": "Twitter spaces with coin Republic and crypto reach moved to Saturday",
+      "speaker": "kushti",
+      "context": "Issues on coin republic site yesterday caused postponement",
+      "topic": "marketing",
+      "significance": "minor",
+      "quote": "So we will have, Twitter spaces with, the coin Republic and, crypto reach on Saturday now."
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "01:29",
+      "commitment": "6.0 cleanup will be done and ready for voting proposal",
+      "owner": "kushti",
+      "timeline": "end of the week",
+      "topic": "technical",
+      "quote": "reviewing again 6.0, doing some cleanup and so on, so hopefully we'll be done by the end of the week"
+    },
+    {
+      "id": 2,
+      "timestamp": "01:29",
+      "commitment": "Propose 6.0 voting to the pools",
+      "owner": "kushti",
+      "timeline": "end of May, June 1st",
+      "topic": "technical",
+      "quote": "And then, yeah, we can propose watching to the polls, maybe from, I don't know, like end of May, June 1st"
+    },
+    {
+      "id": 3,
+      "timestamp": "06:21",
+      "commitment": "Deploy Dexy contracts one by one in mainnet",
+      "owner": "kushti",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "Then, yeah, so for Dexy here, well, I'm rechecking contracts and deploying one by one in the mainnet."
+    },
+    {
+      "id": 4,
+      "timestamp": "46:32",
+      "commitment": "Roll out sub-blocks testing version",
+      "owner": "kushti",
+      "timeline": "maybe next week",
+      "topic": "technical",
+      "quote": "So, well, let's try to roll out something maybe next week."
+    },
+    {
+      "id": 5,
+      "timestamp": "50:21",
+      "commitment": "Deploy public devnet server for sub-blocks testing",
+      "owner": "kushti",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "I can roll out maybe, so I can use some server of mine to deploy."
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "05:19",
+      "question": "Need for multiple miners in public testnet for sub-blocks competition testing",
+      "context": "Testing sub-blocks requires competition between miners but currently only one miner in public test",
+      "topic": "technical",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "05:56",
+      "question": "Testing mixed scenario with some miners on sub-block supporting clients and others not",
+      "context": "Realistic scenario for mainnet deployment needs testing",
+      "topic": "technical",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 3,
+      "timestamp": "64:28",
+      "question": "Whether to attend Token 2049 in Singapore",
+      "context": "Conference attendance consideration",
+      "topic": "marketing",
+      "raised_by": "community member"
+    }
+  ],
+  "reversals_or_updates": [
+    {
+      "id": 1,
+      "timestamp": "54:45",
+      "previous": "Twitter spaces scheduled for yesterday",
+      "update": "Moved to Saturday",
+      "reason": "Issues on coin republic site and crypto reach had to cancel",
+      "speaker": "kushti",
+      "topic": "marketing"
+    }
+  ],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "01:09",
+      "fact": "Released versions 5.0.26 and 5.1.3",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 2,
+      "timestamp": "03:24",
+      "fact": "6.0 will have two versions: with LevelDB and RocksDB",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 3,
+      "timestamp": "12:48",
+      "fact": "Hal Finny's birthday was May 4th, would have turned 60",
+      "speaker": "qx()",
+      "topic": "general"
+    },
+    {
+      "id": 4,
+      "timestamp": "14:48",
+      "fact": "RocksDB supports fewer platforms than LevelDB but has better overall stability",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 5,
+      "timestamp": "18:36",
+      "fact": "LevelDB is used in Bitcoin Core, RocksDB is a fork of LevelDB",
+      "speaker": "kushti",
+      "topic": "technical"
+    }
+  ]
+}

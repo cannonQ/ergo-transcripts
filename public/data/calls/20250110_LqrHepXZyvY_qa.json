@@ -1,0 +1,134 @@
+{
+  "call_date": "2025-01-10",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "28:25",
+      "question": "What effect does the block reward reduction to 18 ERG have on hash rate and sell pressure?",
+      "asker": "Augustus Kent",
+      "answer": "The hash rate remained stable and even increased due to a price increase around the same time. The emission reduction effects are quite visible - three years ago we had 67.5 ERG per block, now just 18. Large miner deposits to exchanges (like 50k ERG transfers) used to happen daily but are now much rarer. Exchange balances are reaching minimum values and breaking early lows, with more ERG being extracted from centralized exchanges than deposited.",
+      "responder": "kushti",
+      "category": "tokenomics",
+      "difficulty": "beginner",
+      "related_terms": [
+        "emission",
+        "mining",
+        "hash_rate",
+        "exchange_balances"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "34:49",
+      "question": "Are there any plans to update the SigmaUSD protocol to mitigate future bear whale attacks?",
+      "asker": "Alex C",
+      "answer": "There are discussions happening in the developers' community with five update key holders who will make the decision. Some proposals include introducing limits for minting both SigmaUSD and SigmaRSV. There's also a more complicated proposal about introducing dynamic fee rates to make SigmaUSD closer to Dynamic Djed or Gluon. Discussions are happening in both the Ergo developers group and SigmaUSD group.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "SigmaUSD",
+        "whale_attacks",
+        "Dynamic_Djed",
+        "minting_limits"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "36:26",
+      "question": "What is the feasibility of private blockchain messaging on Ergo?",
+      "asker": "community member",
+      "answer": "Private messaging is possible on Ergo. There's an EIP draft that covers how to get a shared secret key from your key and the public key of another party, how to derive an encryption key from that, and how to encrypt messages. The implementation details exist but specific working implementations may have been done in hackathons though the current status is unclear.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "EIP",
+        "encryption",
+        "private_messaging",
+        "shared_secrets"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "10:13",
+      "question": "What is the current status of Ergo 6.0 development?",
+      "asker": "implied from kushti's update",
+      "answer": "There is a security audit ongoing with Dusek, who has found a few issues that are being fixed. A public testnet deployment is planned, and the protocol client version for public testnet 6.0 will be published around the beginning of next week if no more issues are found. The update includes sub-blocks CIP implementation for maximum performance in proof-of-work peer-to-peer networks.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "Ergo_6.0",
+        "sub-blocks",
+        "security_audit",
+        "testnet"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "14:22",
+      "question": "What new features are coming to Sigma interpreter?",
+      "asker": "implied from kushti's update",
+      "answer": "Sigma interpreter will contain a new ErgoScript function, basically a form of macros for deserializing typed scripts. This is useful for doing P2SH contracts in ErgoScript - previously these were only possible in ErgoTree (low-level language), but now it's possible to use P2SH contracts, Merkle trees, and finite state machines in the higher-level ErgoScript language.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "Sigma_interpreter",
+        "ErgoScript",
+        "P2SH",
+        "ErgoTree",
+        "Merkle_trees"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "02:42",
+      "question": "What is the decentralized lithium pricing index project and how does it use Ergo oracles?",
+      "asker": "implied from Dan's explanation",
+      "answer": "Unlike commodities like gold which have unified pricing indexes, lithium has fragmented pricing across different exchanges, creating opportunities for price manipulation. The project creates a unified, decentralized pricing index using Ergo oracles to bring price feeds on-chain from around the world. It operates like a Bloomberg terminal subscription service, with fees distributed to participating oracles, creating a healthy oracle ecosystem with economic incentives.",
+      "responder": "Dan Friedman",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "oracles",
+        "lithium",
+        "pricing_index",
+        "oracle_pools"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "40:30",
+      "question": "What are your suggestions for improving Ergo's marketing efforts?",
+      "asker": "Nabil",
+      "answer": "The focus should be on attracting 10x more developers in 2025 for core and ecosystem development. Successful communities like Bitcoin and Monero use strong messaging and memetic warfare. Ergo needs strong messaging targeting different audiences - developers, traders, enthusiasts. Unlike Bitcoin (digital gold) or Monero (privacy), Ergo is more complex but can push different aspects like demurrage, peer-to-peer finance, or 'digital gold with contracts'. The key is Ergo's versatility - it can do many things that other blockchains took time to deploy.",
+      "responder": "kushti and Dan Friedman",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "marketing",
+        "messaging",
+        "developer_adoption",
+        "versatility"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "61:13",
+      "question": "When is the Palm token launch and how much has been raised?",
+      "asker": "FC",
+      "answer": "The Palm Token TGE (Token Generation Event) is happening very soon, with dates to be announced within hours of the call. About 1.5 million ADA has been raised through several different funding rounds. There will be one last tranche for the public sale, followed by launches on both centralized exchanges and DEXs with provided liquidity. Staking will go live soon, and a new product utilizing Palm and traceability features will add value for token holders.",
+      "responder": "Dan Friedman",
+      "category": "tokenomics",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Palm_token",
+        "TGE",
+        "fundraising",
+        "staking"
+      ]
+    }
+  ]
+}

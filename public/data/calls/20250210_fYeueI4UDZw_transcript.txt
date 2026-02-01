@@ -1,0 +1,323 @@
+[00:12] **qx()**: Hello and welcome to a late night solo dev update.
+
+[00:21] **qx()**: I'm qx() and I will guide you through the ASMR developer update on the Ergo platform.
+
+[00:30] **qx()**: We'll tone it down more once we get to the actual updates.
+
+[00:34] **qx()**: And excuse my voice, still recovering after a full month of being sick from before, so working on that.
+
+[00:41] **qx()**: OK, so you'll notice what I have up on screen here first is before the Dev Update started, kushti and Unreal and on 2020's mgPai, Luivatra are discussing the SigmaUSD bank update.
+
+[00:58] **qx()**: So currently in the stages, Unreal, I believe, is testing against testnet some UI updates for it.
+
+[01:07] **qx()**: I wanted to jump in here because I see in chat sometimes people are trying to convert the SigmaUSD, a SigmaRSV, convert back when they're confused about why the price is different, perhaps, on MewFinance or MewDex or Spectrum DEX compared to the SigmaUSD bank or even TokenJ, which some people don't even know about and how that works.
+
+[01:33] **qx()**: So there's an amazing video that I spoke with cafe and he explains that I'll put that in the chat below.
+
+[01:44] **qx()**: If I remember, if it's not too late, if not just Google it, it's on the Ergo platform channel or the Sigmanauts channel, I believe it was a dev update.
+
+[01:51] **qx()**: So it should be the Ergo YouTube channel, but let's kick off here, right here.
+
+[01:59] **qx()**: So we have two different kinds. The first kind.
+
+[02:05] **qx()**: The first way we can do it is we can go to sigmausd.io.
+
+[02:10] **qx()**: Now the difference between sigmausd.io, the difference between tokenj and the difference between doing an exchange is very simple, all right?
+
+[02:20] **qx()**: If you're trying to convert ERGs to SigmaUSD or SigmaUSD or SigmaRSV to ERGs, back the other way, you can at any time go to something like MewFinance, choose ERGs,
+
+[02:36] **qx()**: Choose SigmaUSD.
+
+[02:42] **qx()**: And we can convert it anytime. We'll have some slippage, of course.
+
+[02:45] **qx()**: We'll have a price impact because this is an actual pool that people have created and created liquidity for it.
+
+[02:52] **qx()**: So we're limited by the depth of the liquidity. We're limited by the trades that are going on in it right then as well.
+
+[02:58] **qx()**: So you'll notice that the DEX price of SigmaUSD slash ERG, that conversion rate, will sometimes lag behind and be different than the actual price of what ERG is.
+
+[03:08] **qx()**: So there's arbitrage opportunities between here if you have SigmaUSD or you have ERG because you can slide into one and slide in the other.
+
+[03:16] **qx()**: If the DEX gets too far up ahead of what the bank is, you can bring it back down. If it gets too far below, you can buy it back up.
+
+[03:23] **qx()**: Exactly like that.
+
+[03:25] **qx()**: Super, super easy beginner method of arbitrage you can start with the SigmaUSD bank versus the DEX to level those out.
+
+[03:35] **qx()**: OK, that being said, that's the DEX side of things. We also have, back to these two dashboards, we have a difference between these two actual processes as well.
+
+[03:47] **qx()**: TokenJ, I'm not sure which one was around first. Actually, I think it was SigmaUSD.
+
+[03:52] **qx()**: Right here, the SigmaUSD.io, perhaps. Somebody can correct me if I'm wrong.
+
+[03:57] **qx()**: This uses proxy contracts. That means your funds are sent into a proxy contract first, and then it is pushed against the bank itself, the bank contract, and you are given your tokens.
+
+[04:13] **qx()**: If something happens, there is a refund button that you can do.
+
+[04:18] **qx()**: So let's say we go to a stable coin. We choose to go from ERG to SigmaUSD or SigmaUSD to ERG.
+
+[04:24] **qx()**: Or we want to do the reserve coin, ERG to SigmaRSV, SigmaRSV to ERG.
+
+[04:30] **qx()**: We purchase, we redeem.
+
+[04:33] **qx()**: goes into the proxy if the price of ERG hasn't changed your funds will be in that proxy and then you can refund them if it hasn't gone through otherwise you'll get your conversion tokenj on the other hand does it a little differently
+
+[04:48] **qx()**: they directly go right to the bank.
+
+[04:50] **qx()**: So there's no delay, there's no extra slippage or anything like that.
+
+[04:55] **qx()**: If your bid matches it, then it's going to execute. If it doesn't, then it doesn't and you get it back automatically, essentially.
+
+[05:04] **qx()**: So that's kind of the difference between these two products right here.
+
+[05:09] **qx()**: They both interact directly with the contract, the SigmaUSD contract.
+
+[05:17] **qx()**: Now you may say, we can see reserve ratio at 374%. What does that mean?
+
+[05:23] **qx()**: If we go over to here from the Ergo platform website, we can see a cute little infographic about when you can purchase or redeem.
+
+[05:33] **qx()**: So if it's below 400%, we can only redeem the USD or we can only purchase SigmaRSV.
+
+[05:41] **qx()**: If it's above 800%, we can only redeem SigmaRSV. We can purchase and redeem both SigmaUSD.
+
+[05:48] **qx()**: So that is like the logic built in to the process of the protocol that keeps that thing pegged where it's supposed to be.
+
+[05:55] **qx()**: If you want to get deeper on this part and go into more arbitrage opportunities and potentially gain opportunities with minting and unminting SigmaRSV, SigmaUSD, please watch that video I spoke about earlier.
+
+[06:09] **qx()**: Cafe does a fantastic job of explaining it. It's tricky. It's tricky. I don't touch this anymore.
+
+[06:16] **qx()**: But there's a lot of people who do. And there's a lot of misconceptions about RSV being a long or that kind of thing.
+
+[06:23] **qx()**: watch that video that'll hopefully explain a lot.
+
+[06:25] **qx()**: So if we test this, right, a reserve ratio below 400, we should not be able to purchase SigmaUSD at anywhere, right?
+
+[06:35] **qx()**: So let's see if I want one. Let's see.
+
+[06:42] **qx()**: See, unable, if you can read this, you can barely read this. Unable to mint more than zero SigmaUSD based on the current reserve status.
+
+[06:50] **qx()**: It won't let us if you want to redeem. Sure enough, it lets us redeem and that matches exactly what this chart says.
+
+[06:56] **qx()**: So both of these are codified to match the contract and the contract won't. So somebody tries to bypass these UIs and interact with the bank directly.
+
+[07:06] **qx()**: Won't do it. Won't do it at all. It's all based on the smart contract code.
+
+[07:11] **qx()**: I'll put that video below, but watch it. I know this is asked a lot in chat sometimes when people are struggling with what this is.
+
+[07:18] **qx()**: Sometimes people click on version one of SigmaUSD, which you don't want to use. You want to use the main link from the SigmaUSD page or tokenj of course.
+
+[07:26] **qx()**: And I know a lot of you people already know this already, but I think it's good to have out there once again, because it is a question asked very often.
+
+[07:34] **qx()**: All right, we've got a very, very short dev update this week. We're gonna try to keep this under 15 minutes. I think we can do it.
+
+[07:50] **qx()**: Let's see if I have any voice left.
+
+[07:55] **qx()**: We have Anand Bihar from the Nautilus team. And they have released version 0.2.0 of Ergo Ledger JS, added device close app, device open app, and device get current app info, OS level methods, improved APDU logging.
+
+[08:13] **qx()**: Nautilus, refactored ledger device component, moving all generic and state management logic into it, refactored transaction sign component, refactored confirm address dialogue component, added several minor UI fixes and code quality improvements.
+
+[08:28] **qx()**: This is good. I haven't been paying attention to this in chats or what they were saying, but I imagine this comes from the latest ask to fix some things perhaps review they were doing so that's great.
+
+[08:41] **qx()**: Awesome. It'll be nice to have both ledger and keystone options again, so people have choice. That's always best.
+
+[08:49] **qx()**: All right, we have C8 with ErgFi, Dexy Gold integration, ETA a few weeks. I see it's usually pretty good with the deadlines. So yeah, I believe that.
+
+[09:00] **qx()**: He's done five to five lib level actions, LP swap, ERG-Dexy Gold, bank freemint, bank redeem, LP mint liquidity tokens, LP redeem liquidity tokens, in-progress UI integration, ErgoPay, other things required for release, mempool server integration.
+
+[09:17] **qx()**: Very nice.
+
+[09:22] **qx()**: We have kushti with sub-blocks, which people love to pass around as the next big thing, which I think it is. It's going to be amazing.
+
+[09:32] **qx()**: We spoke briefly about changing or at least coming up with some sort of alternative to an ErgoHack, like a spring or summer of code where essentially you target a theme and you get people on board, you give them much more time.
+
+[09:50] **qx()**: So for example, HQx mentioned, why don't we do a spring of code or summer of code that is focused on prepping dApps for sub-blocks.
+
+[10:01] **qx()**: So by the time sub-blocks come out, if you've done this spring of code and you've rewarded people that are participating in that and learning ErgoScript and learning how to code, and also people that come and knowing how to do front ends and work with code anyway,
+
+[10:13] **qx()**: A lot of these dApps that we have in here will already be set for sub-blocks when it comes online.
+
+[10:18] **qx()**: So that's the idea of that kind of spring of code versus an ErgoHack where you give a theme and people do it and you reward based on that.
+
+[10:26] **qx()**: I feel in kind of these code sessions where it's extended, you target college groups, you target other ecosystem developers as well as our own.
+
+[10:35] **qx()**: Everybody comes together for kind of a goal and they're rewarded based on the stages. Might get a little more progress with these kinds of things.
+
+[10:43] **qx()**: Okay, great. So sub-blocks work and DAG representation of input and ordering blocks and RAM after completing first API methods, best input block, best input chain with just one local miner chain representation is okay for initial testing, et cetera.
+
+[10:58] **qx()**: But for P2P network, DAG storage is needed.
+
+[11:02] **qx()**: 6.0.0 RC to released with support for public testnet or voting and activation voting should be started soon in the testnet next 120 blocks epic epoch.
+
+[11:16] **qx()**: So yeah, so he gave me a couple of days after that released, I popped it on the testnet I'm running the testnet and change the code and immediately popped up that said, 120 blocks for epic.
+
+[11:31] **qx()**: So should be soon. Super cool. It's running, I believe, as I said earlier, and Unreal was testing some UI things for, what was it? SigmaUSD.
+
+[11:45] **qx()**: So that's great that that's working. Waiting for 6.0 fix PRs review.
+
+[11:51] **qx()**: But Paideia. Oh, nice. But Paideia. This is Luivatra worked with CannonQ to debug some issues in the create DAO process.
+
+[11:59] **qx()**: I tell you guys if you haven't used Paideia. I mean, even if you just have groups online of people that you work with for fun, like D&D groups or record groups or music groups or anything like that, where there are decisions that need to be made that are based around user consensus, and you could potentially have funds hooked to that too, it's the way to go.
+
+[12:22] **qx()**: It's worked amazingly well. We used the hell out of it during the beta. For Sigmanauts, the mining pool just jumped over there as well, from the beta to the final version that we're on as well for the Sigmanauts.
+
+[12:34] **qx()**: It's an amazing tool. Hats off to Luivatra, Marty, and the team that worked on that. Fantastic.
+
+[12:42] **qx()**: We've got kushti with SigmaUSD pool. Prepare data for mainnet pool update to refresh update box and open possibility to update the pool to V2 and next voting, ChainCash, updating the paper.
+
+[12:55] **qx()**: We've got Voryu Jack with Minotaur. Select addresses from the address book. Allow to archive some wallets. These wallets are not displayed in wallet select page by default.
+
+[13:07] **qx()**: Favorite wallets are displayed in start of wallets list. Great, great. Toggle display archive wallet.
+
+[13:13] **qx()**: If you guys are interested in running desktop versions of wallet, Ergo has too many good choices. It's absolutely fantastic.
+
+[13:20] **qx()**: You have Minotaur, you have Satergo, but give them a try. I have many computers that I use and I have Satergo on one.
+
+[13:28] **qx()**: I have Minotaur on another. I have Minotaur Mobile on my, where is it? I love showing this thing off.
+
+[13:35] **qx()**: Show it off every other AMA on my cold wallet, which is just one of these little palms.
+
+[13:45] **qx()**: When I bought it, it was like a hundred and, I think I got it for 70 bucks. Now it's a lot more where it was last time I checked a little tiny guy running Android.
+
+[13:53] **qx()**: It's my cold wallet. Got Minotaur on it. I push things to it via ADB cable as a text file to sign things on the cold wallet and push them back.
+
+[14:04] **qx()**: Super, super cool.
+
+[14:07] **qx()**: We've got an update from Rosen Bridge. This is very exciting.
+
+[14:12] **qx()**: Rosen Bridge-RosenApp. Enhance the logical structure of networks within their specific packages to improve efficiency and increase maintainability.
+
+[14:20] **qx()**: Implementing public event status or services.
+
+[14:24] **qx()**: Rosen Bridge watcher version two. Write observation-related queries and write unit tests.
+
+[14:29] **qx()**: Write a job function and txpot and callback of it.
+
+[14:33] **qx()**: Rosen Bridge Scanner added callback support to extractors, added abstract database entity in action to ease the new extractors development.
+
+[14:41] **qx()**: Rosen Bridge Utils added callback logger package to be used in log level health parameter.
+
+[14:48] **qx()**: If any of you are being a watcher on the Rosen Bridge, I had to do some sort of database wipe on mine. I had to kill the containers and redo it.
+
+[15:02] **qx()**: There's an issue with one of the packages when you restart it. They're working on fixing the instructions to include an official repository to one of those packages, because it's a third party package.
+
+[15:14] **qx()**: I found one built into Docker that works. I've been using it for three or four days now. It works fine.
+
+[15:20] **qx()**: But there'll be an official announcement that soon if they haven't already based on this. So if you do find yourself in trouble spinning up a watcher from scratch right now, or rebuilding your container, so then you're going to run into that unless you do that fix.
+
+[15:34] **qx()**: Feel free to ping me or somebody in the chats.
+
+[15:38] **qx()**: Oh, kushti is calling me out. I didn't even answer that. Goodness, why we only have 176 blocks a day in the testnet with min difficulty. Any idea?
+
+[15:46] **qx()**: Probably because I'm only mining it at like two megahash. Maybe I'll hit it with a better card that's more consistent or something like that.
+
+[15:58] **qx()**: Whoopsie. We'll answer him later. Sorry, kushti.
+
+[16:05] **qx()**: Rosen Bridge continued. Rosen Bitcoin ruins R&D. The research on integration Bitcoin ruins with the Rosen Bridge is now complete.
+
+[16:12] **qx()**: Over the past few weeks, we explored various APIs and libraries to assess the feasibility of this integration and how to align the implementation with our overall design detailed in a dedicated medium post.
+
+[16:25] **qx()**: Despite encountering some concerns and regarding rate limits associated with certain APIs, we have decided to proceed with the implementation phase.
+
+[16:32] **qx()**: As we develop the integration, we will gather more accurate estimations, allowing us to make informed decisions for potential improvements along the way.
+
+[16:41] **qx()**: Currently, we are finalizing the documentation and proof of concepts, and we are looking forward to starting to develop that development phase in the near future.
+
+[16:49] **qx()**: This, I mean, this is awesome. Anytime you can, not just in Bitcoin, but anytime you can bring a store value over to another chain like Ergo and get some functionality of it, out of it, that's more Cardano or to Ethereum or to where's the next one, Binance, and get some more utility or usage out of it.
+
+[17:11] **qx()**: It's a no brainer.
+
+[17:14] **qx()**: I think once people cross the bridge once and they're like, oh, this is how it works. I can see it all along the process.
+
+[17:21] **qx()**: I don't see a spot where it ever gets lost or anything like that. I can see exactly what's happening, if it's processing, if it's in payment.
+
+[17:28] **qx()**: I think they get a little more comfortable with it. So we just got to get people out of that initial hump.
+
+[17:34] **qx()**: OK, kushti's talking about merging and releasing some things.
+
+[17:40] **qx()**: Anything else?
+
+[17:44] **qx()**: They're updating an Ergo node interface for us there.
+
+[17:46] **qx()**: Oh, Fanta created a new front end for index nodes.
+
+[17:54] **qx()**: This stuff is exciting. OK, so right now, we have the Ergo Explorer, the main one.
+
+[18:00] **qx()**: That's this one.
+
+[18:13] **qx()**: This is what I'm looking for. The main Ergo Explorer right here.
+
+[18:17] **qx()**: This is not fun to set up.
+
+[18:24] **qx()**: It's not fun to set up at all. I created a package for myself, and it's zipped up.
+
+[18:29] **qx()**: Essentially, you just put it onto the server, update some DNS and nginx things and you're good to go.
+
+[18:36] **qx()**: But it's not for the everyday person, right? It's got some clunky overhead, and it just keeps eating and eating and eating space on your computer.
+
+[18:45] **qx()**: Well, I mean, so does a node, but not not as much.
+
+[18:49] **qx()**: So you have things like erg explore, which is an alternative, you have sigma space as well, which is an alternative, a fantastic, all fantastic, great, but
+
+[19:00] **qx()**: To be able to create a front end for an index node, we all know how easy nodes are to install, right?
+
+[19:08] **qx()**: With Satergo, it's like one click. Even with a Java file, if you're not familiar, you can barge your way through it, making a config file and running the jar.
+
+[19:16] **qx()**: That's fantastic. But imagine just running a UI just by a Docker container, probably.
+
+[19:20] **qx()**: And all of a sudden you have a front end that you can kind of understand and learn. And it's yourself. It's hosted by yourself. It's easy to set up.
+
+[19:30] **qx()**: These kind of things are like, this is what makes a difference, right? For usability for these kind of things. So absolutely fantastic.
+
+[19:39] **qx()**: And let's see. Anything else?
+
+[19:49] **qx()**: I think that's it, folks.
+
+[19:54] **qx()**: There's some tech support chat in here.
+
+[19:56] **qx()**: Oh, Mark's looking for, this is a day or two later, but he's looking for some Ergo developers for building Sharknet. It's on the Sigmanauts mining DAO.
+
+[20:07] **qx()**: If you're mining, if you have one GPU, you want to point it, please, please support it. Hop in there.
+
+[20:15] **qx()**: I think that's about it.
+
+[20:20] **qx()**: Yeah, we're several days ahead. They definitely missed. Perfect.
+
+[20:25] **qx()**: All right, everybody. I hope you had a good week. If you were in the United States of America, you had your big Super Bowl game a few hours ago.
+
+[20:36] **qx()**: I hope the team that you enjoy won or you're not too sad that the other one lost.
+
+[20:42] **qx()**: I watch some commercials. It's OK. The game's somewhat all right. I didn't even know the Super Bowl was happening until a couple days ago.
+
+[20:49] **qx()**: That's how out of it I've been.
+
+[20:52] **qx()**: So we'll see you on Thursday for a video AMA.
+
+[20:58] **qx()**: I've been thinking about putting together a pool so that we could vote and bet on who's going to show up to host the AMA.
+
+[21:07] **qx()**: So we'll give like five or six people and what's it called?
+
+[21:12] **qx()**: And you send, you can send like a token, a specific tokens to the wallet that's worth some sort of value.
+
+[21:18] **qx()**: And whoever is right, that wallet, the percentage of people that gave that you gave,
+
+[21:23] **qx()**: You take all the other wallets and you combine them and your percentage gets a pull out of everything.
+
+[21:29] **qx()**: So essentially, if you win, you get from all the other wallets that people voted on a percentage that you donated to the winning wallet.
+
+[21:35] **qx()**: So I think that'd be kind of fun, something like that. Those are easier to do with wallet voting and a transaction builder.
+
+[21:44] **qx()**: Oh, almost forgot during the Town Hall last week, I spoke about the Cornell BRICK token.
+
+[21:52] **qx()**: That's doing great. We've distributed maybe 30 or so interested wallets so far.
+
+[21:59] **qx()**: There's about 350, 400 architecture kids ago. There's 800 students in total.
+
+[22:03] **qx()**: So slow burn, but that's fine. Once it spreads, you can get free printing from these initial tokens.
+
+[22:11] **qx()**: I think it's going to start slowly catching more fire.
+
+[22:15] **qx()**: But we had several students use the system already to actually redeem free prints. So that was super exciting to see.
+
+[22:22] **qx()**: OK, everybody, thanks for bearing with my chunky voice. This week, hopefully, after my meds, next week will be a little clearer.
+
+[22:32] **qx()**: Thanks, everybody, for watching. Have a great night.

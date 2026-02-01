@@ -1,0 +1,624 @@
+[00:13] **kushti**: Hey, everyone.
+[00:14] **kushti**: How's it going?
+[00:16] **qx()**: Good morning, everybody.
+[00:18] **qx()**: It's good to be here.
+[00:19] **qx()**: How are you doing, kushti?
+[00:21] **kushti**: Doing well, doing well.
+[00:22] **kushti**: How about you?
+[00:23] **qx()**: Doing all right.
+[00:25] **qx()**: No work today.
+[00:25] **qx()**: Today's Juneteenth in the United States.
+[00:28] **qx()**: So my place shuts down.
+[00:31] **qx()**: Federal holiday.
+[00:32] **qx()**: I think a lot of places do.
+[00:34] **kushti**: Oh, is it some holiday today?
+[00:36] **qx()**: Yeah, it's the emancipation of recognition of the emancipation of slaves in Galveston, Texas in 1865.
+[00:44] **qx()**: So, yeah, so they recognize that here in the U.S. as a federal holiday and everybody gets the 19th off for recognition of it.
+[00:58] **kushti**: All right, all right.
+[00:59] **kushti**: So, yeah.
+[01:04] **qx()**: How's it been, kushti?
+[01:05] **qx()**: How's your week been?
+[01:06] **qx()**: You been busy?
+
+[01:08] **kushti**: Yeah, busy and today is also busy and I think there will be final 6.0 release today, finally.
+[01:19] **kushti**: So, yeah, just checking some things and yeah, I think it will be released today along with instructions for the mining pools on how to work because, yeah, I guess since
+[01:37] **kushti**: 2022, probably every mining pool has forgotten, right?
+[01:46] **kushti**: The latest soft fork was in 2022.
+[01:51] **kushti**: In 2023, they were only, well, very major, but client-side only updates such as support for
+[02:07] **kushti**: NIPoPoWs bootstrapping and bootstrapping with UTXO set snapshots right and then yeah well since 2024 there was work on 6.0 and then yeah on sub-blocks slowly so now we are going to roll out 6.0 soft fork
+[02:29] **kushti**: update, waiting for it, and then yeah, well, sub-blocks, there will be another DevNet release call for testing DevNet probably next week, but let's see.
+[02:45] **kushti**: So I'm currently even doing some load testing locally and yeah, there are some inefficiencies found.
+[02:55] **kushti**: as well as some probably bugs to discover and so on.
+
+[03:02] **qx()**: How do we know the difference in releases between one running on RocksDB and one running on the other database so that we don't mess it up?
+[03:10] **kushti**: Yeah, so there will be two 6.0 releases, 6.0, 6.1 probably.
+[03:22] **kushti**: But yeah, well there was 5.0.27 release yesterday as well and well 5.1.4 I believe is postponed a bit so I need to get
+[03:37] **kushti**: So in the latest RocksDB release there was an update from RocksDB dependency version 8 to version 9 and there were some complaints so now it would be good to discuss whether we roll back to version 8 or we'll update it further to version 10.
+[04:00] **qx()**: So your 0.1 releases are the RocksDB database?
+[04:05] **qx()**: Your 0.0 releases are the old database?
+[04:07] **kushti**: LevelDB, yes.
+[04:08] **kushti**: So yeah, the original DB.
+[04:11] **kushti**: Actually, not the original, but yeah, well, the very original database was on key-value database called IODB made in IO.
+[04:28] **kushti**: Then, yeah, we switched to LevelDB because, well, that guy was not very stable in maintaining IODB.
+[04:42] **kushti**: Quite a famous guy, but yeah, also quite unstable in regards with maintaining his product such as MapDB, IODB.
+[04:59] **kushti**: then yeah so our LevelDB and yeah so still we are on LevelDB since 2019 and yeah well as support for LevelDB is also not so quite good right so we are still using drivers from 2018 so yeah well how after all yeah we started
+[05:29] **kushti**: Gradual switch to RocksDB, which is at least well maintained at the moment.
+[05:41] **kushti**: Well, 5.0 is about LevelDB, 5.1 is about RocksDB, but then, yeah, well, unfortunately, less platforms supported at the moment.
+[05:54] **kushti**: And, yeah, well, there are also some complaints about the latest version, introduced an update to a newer version of RocksDB, but we have even newer version.
+[06:08] **kushti**: So, yeah, well, some testing is needed.
+[06:12] **kushti**: in regards to that.
+[06:13] **kushti**: But yes, 6.0 will be released for LevelDB.
+[06:19] **kushti**: So to the best of my knowledge, all the mining pools on LevelDB version, at least mining pools I will touch with.
+[06:29] **kushti**: So yeah, we are going to release 6.0 in the first place.
+[06:34] **kushti**: Something like that, so yeah, it's the whole zoo of different versions, so hopefully after 6.0 we can do something with that.
+[06:48] **kushti**: Let's see.
+
+[06:51] **qx()**: Cool.
+[06:52] **qx()**: Looking forward to it.
+[06:52] **qx()**: We have a modified node for SIG's mining pool, so we'll have to be on top of that to make sure that that gets modified, the new one.
+[07:01] **kushti**: Oh, so is it 5.1?
+[07:03] **kushti**: no no we're on 50 something 50 5018 or 5019 something like that oh maybe even 5020 yeah in the first place it would be good to update to 5026 like some mining pools already did which is introducing
+[07:26] **kushti**: periodic regeneration of can block candidate which is providing quicker confirmations.
+[07:35] **qx()**: Oh, great.
+[07:36] **qx()**: It's a good point.
+[07:37] **qx()**: Yeah.
+[07:37] **qx()**: Oh, we're going to see if you can update the 6.0 to
+[07:43] **kushti**: So 6.0 is five or 26 based after all.
+[07:49] **kushti**: So, yeah, a lot of things like that.
+
+[07:52] **kushti**: Then, yeah, well, about one week ago, well, SigmaChain's refactoring plan was published and, yeah, it's also on the table.
+[08:04] **kushti**: So, currently investigating and discussing with people
+[08:10] **kushti**: Well, I had a talk with Bruno, for example, just one hour ago about Zephyr and so on.
+[08:19] **kushti**: Zephyr is a Djed-based, somewhat private stablecoin, actually just fork of Monero with a Djed implemented in client code.
+[08:33] **kushti**: But yeah, so we discussed and yeah, it seems it's possible to do more interesting things and so on.
+[08:42] **kushti**: But yeah, well, from following that plan published, I think, well, merge mined sidechains probably is a low-hanging fruit, right?
+[08:53] **kushti**: And well, we can propose actually a lot of designs more interesting than Zephyr and so on.
+[09:02] **kushti**: to to the different to to the world right to the different teams and then yeah well maybe some will be implemented by
+[09:21] **kushti**: how to call it the developers we know right like in inner circle well community Ergo community let's say and then yeah well also discussing yeah then different funding options right for implementing such things and so on
+[09:45] **kushti**: So let's see, there is also an anniversary coming.
+[09:50] **kushti**: Are you going to do any video for it?
+
+[09:53] **qx()**: Yep.
+[09:53] **qx()**: Yep.
+[09:54] **qx()**: We've got Dan and at least Dan and I reached out to pixel as well to do some videos.
+[10:02] **qx()**: So, so Andy's got a big list that he went through.
+[10:05] **qx()**: I believe Angie and him curated it.
+[10:09] **qx()**: And we were looking through it last week to figure out what we could do and what we could refresh.
+[10:15] **qx()**: So, yep, there'll be some things coming out soon.
+[10:18] **qx()**: That'll be good.
+[10:19] **qx()**: Some new content, I guess you could say.
+[10:23] **qx()**: Yeah, don't we need to give Yuri some ERGs for a cake, kushti, isn't that tradition?
+[10:32] **kushti**: Sorry, cake?
+[10:33] **qx()**: Don't we need to give Yuri some ERGs for cake?
+[10:37] **qx()**: No, it's not Yuri, it's who's the guy that we give money to for a cake?
+[10:42] **qx()**: In Gulag.
+[10:44] **kushti**: Oh, that's Raro.
+[10:46] **qx()**: Yeah, Raro.
+[10:47] **qx()**: Don't we need to give Raro money for cake?
+[10:49] **qx()**: He usually gets a cake if we give him some ERGs and then sends us pictures.
+[10:53] **qx()**: We've got to remember to do that.
+[10:54] **qx()**: He celebrates it every year that I remember with a cake.
+[10:57] **qx()**: So we'll make sure to do maybe a hop and gulag in a little bit and send him some ERGs.
+[11:03] **qx()**: Nice.
+[11:03] **qx()**: Yeah.
+[11:03] **qx()**: So that's, that's going to be great.
+[11:05] **qx()**: A lot of video content that you should be seeing up on YouTube.
+[11:09] **qx()**: I don't think, when's the anniversary exactly, kushti?
+[11:13] **qx()**: What day?
+[11:14] **kushti**: July 1st.
+[11:15] **qx()**: Yeah.
+[11:15] **qx()**: July 1st.
+[11:16] **qx()**: So that is June, July.
+[11:18] **qx()**: That's two days before our AMA.
+[11:20] **qx()**: So maybe, maybe we move the AMA to the first and kick it off, kushti.
+[11:27] **kushti**: Possible.
+[11:27] **kushti**: Yeah.
+[11:28] **qx()**: That'd be interesting.
+[11:28] **qx()**: Yeah, kick off the video sequences with a live AMA on the first, and then let the videos run the rest of the day on release.
+[11:36] **qx()**: That might be a good idea.
+[11:37] **qx()**: Cool.
+[11:37] **qx()**: Great.
+
+[11:39] **qx()**: Yeah.
+[11:40] **qx()**: What else?
+[11:41] **qx()**: We've been talking to Glasgow.
+[11:45] **qx()**: All the details have been sent to the listing.
+[11:48] **qx()**: So congratulations on everybody for fundraising at the raffle for the US on-ramp.
+[11:57] **qx()**: That's going to be great, except for three states.
+[12:00] **qx()**: Unfortunately, New York, I'll have to enter someplace else, but that's fine.
+[12:05] **qx()**: So all the details have been sent there.
+[12:07] **qx()**: The agent that they're working with has said it takes a few weeks to bring back the finalized contract.
+[12:14] **qx()**: From there, so we should be seeing it soon.
+[12:18] **qx()**: I'm hoping hoping maybe near the end of July We'll see that on ramp fully functional where people can hop in and not only I'm excited about that on ramp.
+[12:27] **qx()**: I'm excited that There's potential to integrate that puppy into things.
+[12:31] **qx()**: So how cool would it be to?
+[12:34] **qx()**: On ramp right from Nautilus or on ramp right from Rosen Bridge in there That's really what I'm excited about, you know ease of use for people
+[12:43] **qx()**: as opposed to going to their interface.
+
+[12:46] **qx()**: What else we have?
+[12:48] **qx()**: Last weekend was Father's Day.
+[12:49] **qx()**: Happy Father's Day to everybody that is a father.
+[12:52] **qx()**: So I didn't show up to the SIGS meeting.
+[12:55] **qx()**: I was spending time with the family.
+[12:58] **qx()**: So we did not finalize the schedule for the Ergo meetup, but that should be done this Sunday.
+[13:06] **qx()**: We'll finalize that puppy, and we'll pump it out there along with the two more sign-up links, the GitHub sign-up link and the Google Form sign-up link.
+[13:13] **qx()**: So you guys can sign up and come but as I said the weeks before
+[13:18] **qx()**: we are doing a we're going to try to live stream as much as we can to involve the people that can't be there right so we're going to live stream all the talks we're going to live stream the hackathon we're going to try to involve the people allow groups outside of the place to that are streaming to participate in the hackathon as well so we'll have two groups in person one of the AI coders one of the core dev coders or the original coders
+[13:43] **qx()**: And then we'll have two groups online, which are the AI coders and another group of manual, original coders.
+[13:51] **qx()**: So that'll be good to involve that.
+[13:53] **qx()**: It'll be a whole production.
+[13:55] **qx()**: We can't live stream you dinner, so we're really sorry about that.
+[13:58] **qx()**: I guess we could, but it wouldn't be too tasty.
+[14:02] **qx()**: So stay tuned for that.
+[14:04] **qx()**: That'll be a good event as well that everybody can watch from the comforts of your couch if you're not going to make the way over to sunny Colorado.
+[14:11] **qx()**: Always sunny, sometimes Colorado.
+[14:13] **qx()**: Isn't that what Charles says all the time?
+[14:14] **qx()**: Something like that.
+
+[14:16] **qx()**: Yeah, so that'll be fun.
+[14:18] **qx()**: What else?
+[14:19] **qx()**: Rosen Bridge is nearing their Doge integration.
+[14:23] **qx()**: They got through some tough stuff that was taking them a while to figure out.
+[14:27] **qx()**: So that should be imminent for those of you watching that.
+[14:31] **qx()**: Guards are locked and ready, ready to update and push that through.
+[14:35] **qx()**: So if you're a watcher, please stay tuned to that.
+[14:39] **qx()**: Any updates that are needed, please do that periodically.
+[14:42] **qx()**: And let me remind everybody running watchers or guards, it's not
+[14:47] **qx()**: It's a good idea to check in on it once in a while.
+[14:50] **qx()**: I try to check in once a week when I fix my USD Oracle.
+[14:56] **qx()**: I try to check on my watch or my guard to make sure that it's running and as a safety I usually bounce it.
+[15:02] **qx()**: because there have been some times when I'm running the watch or running the guard where the health looks okay, the health looks fine, but then I bounce it and all of a sudden one of my chains is, you know, 100 or 200 or 300 blocks, maybe even a thousand blocks out of sync, you know, way more blocks than it took to bounce the thing.
+[15:21] **qx()**: It's perfectly healthy.
+[15:22] **qx()**: Just bounce your guard once in a while.
+[15:23] **qx()**: Bounce your watcher once in a while, just on the safe side.
+[15:27] **qx()**: Set your alarm.
+[15:28] **qx()**: If you're going to, if you plant something outside to grow, you don't just leave it and forget it, right?
+[15:32] **qx()**: You've got to put a little water on it, that kind of stuff.
+[15:34] **qx()**: So give us some TLC and you'll make sure to get all the transactions you can instead of missing them with an out of sync watcher.
+[15:43] **qx()**: What else we got, kushti?
+
+[15:45] **kushti**: Actually, just some thoughts.
+[15:47] **kushti**: It's quite amazing how AI coding on Ergo is being developed, right?
+[15:53] **kushti**: So it seems like crazy, quick progress.
+[15:58] **kushti**: So I'm not quite following all the
+[16:04] **kushti**: possibilities here but yeah it's quite amazing so I think Ergo is actually quite friendly right to AI extremely friendly the endpoints make it so easy and the tools like even with the Python integration just you know writing a quick AI thing to integrate with that it's it's easy
+[16:27] **kushti**: Yeah, and also ErgoScript, I think, well, and the approach, right, so yeah, it should be very AI-friendly.
+[16:39] **kushti**: Then, yeah, so for Rosen, yeah, well, I asked Joe directly, like yesterday, maybe even two days ago,
+[16:51] **kushti**: About Zano and Kaspa, so yeah, it seems they're in touch, right?
+[16:59] **kushti**: But yeah, well, it depends on the teams how quickly integrations will be done, but yeah, let's see.
+
+[17:10] **qx()**: Kaspa just launched a mixer last week.
+[17:12] **qx()**: Did you see that, kushti?
+[17:14] **kushti**: No, not quite but yeah, it seems it's it's like bitcoin bitcoin like like coinjoin rights approach the mixer the the mixer, right?
+[17:29] **qx()**: So yeah, it's not really Kaspa.
+[17:31] **qx()**: It's it's it's hosted essentially Yeah, it's hosted on their end.
+[17:34] **qx()**: So I wonder how that's going to work and they have
+[17:37] **qx()**: And they had what I read while I was reading through the thing you have to agree to before you mix.
+[17:44] **qx()**: And one of the lines was, we cannot guarantee privacy or tracking of that kind of thing.
+[17:53] **qx()**: So we can guarantee anonymity.
+[17:56] **qx()**: So I was like, oh, that's interesting.
+[17:58] **qx()**: Maybe they'll work on it and figure it out and figure out how to make a non-custodial self-download one like Ergo has.
+[18:05] **qx()**: That kind of stuff is, you know, given, but it's a good start.
+[18:09] **kushti**: But actually, yeah, so they cannot, I think, in the first place because for coinjoin, like mixers, so... Well, the biggest issue is networking layer, right?
+[18:24] **kushti**: So that there is some service you need to work with, right, in order to coordinate mixing efforts with other platforms.
+[18:35] **qx()**: I gotcha.
+[18:36] **kushti**: and yeah usually yeah what surveillance
+[18:43] **kushti**: is doing like specific agencies and so on, so they're tracking interactions with those services specifically, right?
+[18:53] **kushti**: And it's not something which could be avoided by the services, right?
+[19:00] **kushti**: They don't control networking layer.
+[19:03] **kushti**: So yeah, well, in case of
+[19:09] **kushti**: working with our Ergo node, Monero node, right?
+[19:17] **kushti**: It's quite different.
+[19:18] **kushti**: So, yeah, well, in Ergo, it's service, but you're working with some nodes, right?
+[19:26] **kushti**: But your own node, and then, yeah, it's more controllable at least.
+[19:33] **kushti**: Could be made better, but yeah, I mean,
+[19:35] **kushti**: In Monero, actually, it seems based on available information, it's also kind of the weakest part of the security chain.
+[19:54] **kushti**: Well, the networking layer, so if you're working with, so especially if you're using Tor along with Monero, right, so well, it seems certain agencies are trying to connect interactions with Tor with transactions on Monero based on some incidents.
+[20:20] **kushti**: which took place in EU, for example.
+[20:25] **kushti**: So, yeah, then maybe it's better to avoid using Tor even, right?
+[20:36] **kushti**: But then, yeah, you are going to somehow
+[20:42] **kushti**: Make private communication on your own.
+[20:48] **kushti**: It's very tricky, especially without knowledge.
+[20:58] **kushti**: So, yeah, well, privacy guarantees is a very tricky point, actually.
+[21:08] **kushti**: Even if there are some on-chain guarantees, then, yeah, well, it's not just about that.
+
+[21:16] **qx()**: True, very true.
+[21:18] **kushti**: And yeah, about those services.
+[21:22] **kushti**: So yeah, well, I don't have any information about Kaspa, but for Bitcoin, those services were under close surveillance even back in early 2020.
+[21:38] **kushti**: So yeah, I had some talks about that with some
+[21:45] **kushti**: Well, research labs doing this, actually.
+[21:54] **qx()**: Yeah, I mean, they're always...
+[21:55] **qx()**: Sorry, go for it.
+[21:56] **kushti**: So yeah, tracking activities and yeah, well, doing
+[22:05] **kushti**: Well, on-chain transactions with off-chain activities like communication with state service.
+[22:23] **qx()**: Oh boy.
+[22:24] **qx()**: It sounds like it's always...
+[22:31] **qx()**: It's always a struggle to attain that perfectly.
+[22:34] **qx()**: I mean, even with a perfectly designed system, with a knowledgeable user, you're still at risk of exposing yourself if you're not careful, even no matter how perfect something like ErgoMixer is or other things.
+[22:49] **qx()**: but if you're working with your own notes and mixer and yeah for sure for sure but i'm talking about the simple things as far as like cross-pollinating a clean wallet or something stupid like that like how the bridge chain guy was caught with the nfts mixing his funds he just made a stupid mistake pollinating a wallet the wrong way and then it's over you know just
+[23:15] **qx()**: user error, nothing to do with the mixer really just screwed it up.
+[23:19] **qx()**: So I think there's plenty of ways to expose yourself even with a pretty solid system.
+[23:27] **kushti**: I mean, using your code, then, yeah, well, it's two connections.
+[23:36] **kushti**: Like, one or two connections.
+[23:43] **kushti**: Something, but, yeah.
+[23:47] **kushti**: I mean, the point is, if you're having collections, then it's supposed to
+[23:56] **kushti**: the opt-in info, which started a certain well, according to some.
+[24:09] **kushti**: So that's better to avoid thing just by transaction.
+[24:17] **kushti**: So then they will start in case of
+
+[24:28] **qx()**: kushti, you're breaking up a little bit.
+[24:29] **qx()**: You want to switch internet connections?
+[24:34] **qx()**: You hear me?
+[24:38] **qx()**: Let's see.
+[24:38] **qx()**: Yep.
+[24:40] **qx()**: Hopefully he switches internet connections.
+[24:43] **qx()**: Andy, you're still there?
+[24:44] **qx()**: We're still live?
+[24:46] **qx()**: Yeah.
+[24:48] **qx()**: Okay.
+[24:48] **qx()**: All right.
+[24:49] **qx()**: So what kushti gets his internet connection fixed.
+[24:52] **qx()**: Let's see if we can hit some questions in the meantime.
+[24:56] **qx()**: Let's see if there are non-kushti questions here.
+[25:00] **qx()**: Oh, yeah, well what kushti was saying as well when I was breaking up and what we were talking about is No matter how fit the protocol is There's still user methods that can expose you on mixers, right?
+[25:15] **qx()**: And he was speaking of the type of mixers that Oh, there is gone.
+[25:20] **qx()**: See if Andy fixes me.
+[25:21] **qx()**: There we go.
+[25:22] **qx()**: We'll go we'll bend down like this
+[25:24] **qx()**: And even if there are, you know, pretty fit mixers, like the ErgoMixer, where it hosts on your own machine, you send the stuff out through your own node, there are still ways, not protocol-based, that can, you know, expose you.
+[25:38] **qx()**: And there have been examples that are already on the chain of people trying to hide themselves and messing up, not mixer-based, not mixer-related.
+[25:45] **qx()**: Based on that they just were sloppy in doing it and didn't really understand what the function of a mixer works or how it works So so there's that kind of stuff you got to be careful with as well Let's see we have Somebody asked about the
+[26:06] **qx()**: Most body max fitness
+[26:11] **qx()**: We talked about this earlier when we started BodyMax, talked to Glasgow.
+[26:16] **qx()**: It should be about a few weeks.
+[26:21] **qx()**: They have all the information and they're sending back the contract soon and that should be signed and good.
+[26:29] **qx()**: So I'd give it, I can set up again.
+[26:31] **qx()**: Great.
+[26:32] **qx()**: I'd give it a few weeks.
+[26:34] **qx()**: So it's open probably the end of July.
+[26:35] **qx()**: We should see something like that come forward.
+[26:38] **qx()**: So looking forward to that What else do we have?
+[26:42] **qx()**: You guys like my visualizer in the back.
+[26:45] **qx()**: This was a quick AI coding thing It shows the mempool you can click on you can click on a thing and it shows you the actual transaction orange or peer-to-peer transactions yellow are
+[27:00] **qx()**: Gold oracle transactions.
+[27:01] **qx()**: You can see all the gold there It's just something cool that I have up During the day so I can see how busy the Ergo chain is And the matrix out the green supposed to represent hash And I hope to actually connect it to the SIGS mining pool so we can actually get a reading of those outputs And do that.
+[27:20] **qx()**: All right, move it on.
+[27:21] **qx()**: Let's see.
+[27:21] **qx()**: What else we have We have
+[27:30] **qx()**: A body max fitness looks like he's upset.
+[27:32] **qx()**: We'll come back to that stuff.
+[27:34] **qx()**: And he needs on the launch of sigma quest.
+[27:38] **qx()**: I believe that is another thing to Timur the game.
+[27:42] **qx()**: I don't have any update on that.
+[27:43] **qx()**: I think he was working on patching a hole before release, so last time I knew he was still working on that to patch it.
+[27:52] **qx()**: You know, that is one of the issues with, I will say, I notice with AI coding, when you're doing pure AI coding, it takes a lot longer to fix something that AI codes than it does if you wrote it yourself.
+[28:05] **qx()**: I use AI a bit at work to program my Perl scripts to build some and I know it takes time to build it from scratch, but if I go back to something that I didn't build and I'm looking at it and trying to fix it for an error or a bug or anything like that,
+[28:22] **qx()**: it takes me a considerable amount of time to figure out exactly what the hell is going on.
+[28:26] **qx()**: So I imagine that's something similar that Timur is going through right now, depending on his coding skill, with looking at that and trying to fix something that somebody else built, especially when it was AI-coded, that kind of stuff.
+[28:40] **qx()**: So, yeah.
+[28:42] **qx()**: kushti, welcome back.
+[28:43] **qx()**: You switching internet connections?
+[28:46] **kushti**: Yeah, not yet.
+[28:48] **qx()**: You seem to be pretty good right now, but I see your eyes Maybe I'll switch over my eyes to until Andy fixes us.
+[28:55] **qx()**: Let's see kushti here.
+[28:56] **qx()**: Let me let me join you in the in the broadcast Here we go There we go kushti now we're twinsies now it looks intentional Perfect.
+[29:11] **qx()**: I kushti we got some questions.
+[29:12] **qx()**: You ready?
+[29:14] **kushti**: Yep.
+[29:14] **kushti**: Yep.
+[29:14] **qx()**: All right.
+[29:15] **qx()**: Here's the one from Luke Gratesmith.
+[29:17] **qx()**: It's getting very, very out of the blockchain.
+[29:21] **qx()**: Ready?
+[29:22] **qx()**: What subject did you all like best when you were in school and what subject do you like best to do with your free time now if you want to learn something?
+[29:28] **qx()**: You first, kushti.
+[29:31] **kushti**: Oh, but I don't have free time, so usually, yeah, I mean, when having free time, would be happy to actually catch with some stuff in cryptography, so a lot of things going on.
+[29:47] **kushti**: And yeah, well, for some topics, I'm well out of state of arts.
+[29:55] **qx()**: What about when you went to school?
+[29:56] **qx()**: Back in the day, kushti, when you were a youngin?
+[29:59] **kushti**: Well, mathematics, physics, something like that.
+[30:03] **qx()**: All right.
+[30:08] **qx()**: Oh, there we go.
+[30:09] **qx()**: Andy's awake.
+[30:09] **qx()**: Andy's fixing us.
+[30:10] **qx()**: Thank you, Andy.
+[30:12] **qx()**: Let me fix me as well.
+[30:19] **qx()**: Sorry, one second.
+[30:23] **qx()**: Center me up here.
+[30:26] **qx()**: There we go.
+[30:27] **qx()**: OK, perfect.
+[30:28] **qx()**: All right, my favorite subject in school?
+[30:33] **qx()**: You know, I was a music student in school, so that always came naturally.
+[30:38] **qx()**: That was my favorite subject.
+[30:40] **qx()**: And then I started dabbling in Java programming, which also came easily.
+[30:46] **qx()**: So that was a lot of fun.
+[30:48] **qx()**: Just able to kind of hyper-focus on that stuff.
+[30:51] **qx()**: So I'd say those two.
+[30:53] **qx()**: And music history was fun as well.
+[30:56] **qx()**: We used to do fun drop needle tests on every single piece of music that's ever been written, all the way from Gregorian chants up to, you know, the Renaissance or even probably the 1800s, early 1900s.
+[31:12] **qx()**: So those are fun drop needle tests where you just sit there and you drop a needle on a random record and you get points Whoever guessed the composer or the era of it.
+[31:22] **qx()**: I think you had to guess both at the same time Well, I guess if you see the composer, you know the era but but yeah, so so that was a lot of fun
+[31:29] **qx()**: Now, in my free time, how do I like to learn?
+[31:32] **qx()**: I come from the school of bash your head against it until you get it, right?
+[31:38] **qx()**: I have a small patience for reading things thoroughly.
+[31:42] **qx()**: So if there's documentation on something, I'll try my best to skim through it before my attention just starts going off to the wayside and just losing interest.
+[31:54] **qx()**: So I'll do my best to try to read up it to get a general idea of it, and then I'll try to utilize it and beat my head against it until I figure it out.
+[32:02] **qx()**: So that seems to be my method of learning throughout life, and it seems to be alright.
+[32:06] **qx()**: I notice that it does leave holes in my knowledge, so while I will be able to do something and seem somewhat masterful in something that I do,
+[32:16] **qx()**: It still leaves pretty big holes in there kind of thing.
+[32:20] **qx()**: So that is one of the weaknesses of it But it's a method that seems to work so far for for what I'm doing Yeah, good question Luke non blockchain related.
+[32:29] **qx()**: I like it All right.
+[32:31] **qx()**: Let's see what else we have
+
+[32:36] **qx()**: Bevis asks, any updates on Kraken listing for Rosen-ERG?
+[32:41] **qx()**: Has voting finished?
+[32:43] **qx()**: Yeah, let me tell you about this, buddy.
+[32:46] **qx()**: I have, what's it called?
+[32:49] **qx()**: Let me see, can I bring this up on the screen?
+[32:51] **qx()**: I think I can.
+[32:52] **qx()**: Let's see.
+[32:54] **qx()**: Can you guys see?
+[32:56] **qx()**: Let me move myself for one second.
+[32:59] **qx()**: I can remove myself for this fancy stuff.
+[33:01] **qx()**: There you go.
+[33:02] **qx()**: Look at that, folks.
+[33:04] **qx()**: Zero comments.
+[33:05] **qx()**: I invited the community last week to come comment on this stuff.
+[33:09] **qx()**: Right now, the only person that's commented is in the lower left right here.
+[33:14] **qx()**: right there, it's been CannonQ, who's a Sigmanaut, right?
+[33:18] **qx()**: So he has vested interest because he's part of the, you know, he's Sigmanaut in the Sigmanauts type of guard set.
+[33:23] **qx()**: But my goodness, people, I invited the community to comment on that stuff and nobody's commented it.
+[33:29] **qx()**: So it's interesting where I see people show interest in chats and show interest right now in, you know, the AMA.
+[33:35] **qx()**: I'm not dissing you, Bevis, not at all, you know, I'm just saying in general.
+[33:40] **qx()**: Please take that interest and take it off chats and take it to the actual Paideia and comment on the thing.
+[33:46] **qx()**: Even if it's like, this looks great, let's go.
+[33:48] **qx()**: You know, that's much better than seeing zero comments on the thing.
+[33:52] **qx()**: Then we know, okay, we've got 30 people that said, great, let's go.
+[33:56] **qx()**: Then we'll turn it into a vote and we'll push it.
+[33:58] **qx()**: You know what I mean?
+[33:59] **qx()**: Engage, please guys.
+[34:01] **qx()**: We can't rely on other people to engage for us.
+[34:03] **qx()**: Even if something looks good and you agree to it Don't rely on that Don't be passive be active, please.
+[34:10] **qx()**: Great.
+[34:11] **qx()**: Thanks for bringing that up Bevis All right.
+[34:14] **qx()**: Oh, here's a good one from Luca Chinese stablecoin.
+[34:18] **qx()**: Do you think it'd be worth creating an RMB stablecoin?
+[34:22] **kushti**: Maybe, I don't know.
+[34:27] **kushti**: What's the demand?
+[34:29] **kushti**: But yeah, I guess it could be some, right?
+[34:33] **qx()**: I mean, there's some nationalistic aspect there, right?
+[34:36] **qx()**: Where Chinese citizens might be more apt to convert to your Chinese stablecoin as opposed to a US dollar stablecoin, no?
+[34:45] **kushti**: I don't know, but usually RMB, to the best of my knowledge, is tied to USD anyway, but sometimes the rate is changed.
+[35:04] **kushti**: But over the years, from my observations, it's anywhere around 6 or 7 CNY to USD.
+[35:18] **kushti**: 6, 6.28 probably.
+[35:21] **kushti**: But yeah, I don't know.
+[35:26] **kushti**: So maybe it makes sense if it will be more independent, right?
+
+[35:34] **qx()**: Well, how do you feel about the latest craze, kushti?
+[35:36] **qx()**: It seems like the latest craze is corporations creating their own stablecoins lately, and I imagine that's going to either fizzle out or go full steam ahead for the remainder of this
+[35:48] **qx()**: This market kind of thing.
+[35:50] **qx()**: What are your thoughts about having an Amazon stablecoin or a Walmart stablecoin or something like that?
+[35:57] **kushti**: So, that's a bit expected, right, to me at least.
+[36:03] **kushti**: So, well, as I say, it's in regards with ChainCash, not once even.
+[36:11] **kushti**: Well, we are back to free banking era, right, in one way or another.
+[36:20] **kushti**: So, this also quite following the trend.
+[36:27] **qx()**: I don't know, I guess free banking in the sense that anybody can do it, but I think engaging in something like the Walmart stablecoin or the Amazon stablecoin, I don't think there's anything free about that, man.
+[36:37] **qx()**: I imagine there will be some serious guardrails and restrictions on some of that stuff.
+[36:45] **kushti**: Yeah, but that's the first step, right?
+[36:49] **kushti**: So, well, it was started by Tether, right?
+[36:52] **kushti**: But if Tether is doing billions on stablecoins, then yeah, you can expect... That's true, that is true.
+[37:01] **qx()**: It's a tasty fruit hanging there.
+[37:04] **kushti**: Literally every corporation is chasing billions as well, right?
+[37:09] **kushti**: Because that's how it works.
+[37:14] **kushti**: Then, yeah, well, in regards with Chinese stablecoins, yeah, I think, well, Chinese corporations also will jump on the board, especially considering, well,
+[37:28] **kushti**: how developed fintech they are right with Alipay and other companies so yeah actually a lot of big fintech corporations are now there and yeah well they also expanding I believe to Southeast Asia at least and so on so
+[37:54] **kushti**: Africa also.
+[37:57] **kushti**: So then, yeah, probably makes a lot of sense.
+[38:02] **kushti**: And yeah, especially when they see Tether doing billions, then yeah, well, it's quite natural to chase this path.
+
+[38:13] **qx()**: That's true.
+[38:14] **qx()**: All right, we've got Bevis again with a good question.
+[38:17] **qx()**: kushti, giving you a good runway here.
+[38:21] **qx()**: Can we expect sub-blocks to be fully deployed by the end of this year?
+[38:24] **qx()**: That's six months away, kushti.
+[38:26] **qx()**: What's your thought?
+[38:28] **kushti**: Probably.
+[38:29] **qx()**: That's good.
+[38:31] **qx()**: Probably.
+[38:32] **qx()**: That's a good answer.
+[38:33] **qx()**: Good enough, kushti.
+[38:33] **qx()**: Let's move on.
+[38:34] **kushti**: Yes.
+[38:35] **kushti**: So I think we can start injecting
+[38:42] **kushti**: sub-blocks, supporting nodes to the public testnet around somewhat July even.
+[38:51] **kushti**: But then, yeah, a lot of things to take care about.
+[38:57] **kushti**: And yeah, so some weeks and months it will take.
+[39:02] **kushti**: And yeah, actually, it makes sense to activate
+[39:09] **kushti**: sub-blocks after 6.0 activation right but yeah can be done before maybe even with but
+[39:20] **kushti**: No, I'm not sure about that.
+[39:22] **kushti**: So, yeah, probably after 6.0 activation.
+[39:25] **kushti**: So, yeah, if we will start voting on July 1st, for example, then activation will take place on October 1st.
+[39:32] **kushti**: But then, yeah, well, in somewhat October even, we can do Mainnet activation.
+[39:39] **kushti**: Let's see.
+[39:40] **qx()**: Awesome.
+[39:41] **qx()**: All right.
+[39:42] **qx()**: Follow-up question.
+[39:44] **qx()**: Any updates on Rosen going live with Doge?
+[39:46] **qx()**: I think I spoke with that earlier when we first started.
+[39:49] **qx()**: Update from Joe is a work in progress.
+[39:52] **qx()**: It should be soon, hopefully.
+[39:53] **qx()**: So we're getting there.
+[39:55] **qx()**: We are getting there.
+[39:57] **qx()**: What else do we have?
+
+[40:03] **qx()**: We got some semi-spam here, frustrations being expressed.
+[40:09] **qx()**: How are BRIC going from Earth to Miner?
+[40:17] **qx()**: Kids are gone.
+[40:18] **qx()**: Students are gone for the summer.
+[40:20] **qx()**: We have high school students here.
+[40:21] **qx()**: So we have a program where there's high school students that come here, about 80 of them.
+[40:28] **qx()**: In our program and they spend time on Like a 10 week 12 week architecture program.
+[40:36] **qx()**: There are also some other small classes that take place in the summer Like the master students come to a facility in New York City.
+[40:42] **qx()**: So those guys will be getting BRIC soon But I'm not gonna give the high school students BRIC.
+[40:48] **qx()**: I mean, I guess
+[40:49] **qx()**: That'd be interesting, but they don't plot, unfortunately, so there'd be no real point to giving them BRIC.
+[40:55] **qx()**: But we'll see.
+[40:56] **qx()**: Every year they kind of enhance what the...
+[41:02] **qx()**: what's it called, what the high school students are doing.
+[41:04] **qx()**: So when the first year they came, first time they came like years ago, they never even used computers.
+[41:08] **qx()**: It was all like hand drawing and that kind of thing.
+[41:10] **qx()**: Now they're using laptops and they're using Rhinoceros and AutoCAD and those kinds of things and printing some things, usually tiling.
+[41:17] **qx()**: So it wouldn't be out of the world to have them start plotting big time.
+[41:22] **qx()**: So if that happens, potentially we will hand them BRIC and ask for the department to pay for it essentially.
+[41:28] **qx()**: So give us funds.
+[41:29] **qx()**: Here's the BRIC.
+[41:30] **qx()**: Students can print via the blockchain since they don't have a Bursar account.
+[41:33] **qx()**: So actually, BRIC's a perfect thing for that kind of transaction.
+[41:36] **qx()**: So we'll see.
+[41:37] **qx()**: We'll see in the summertime.
+[41:38] **qx()**: But yeah, we're gearing up.
+[41:39] **qx()**: We've changed our rules a little bit for next semester for how BRIC are handed out.
+[41:43] **qx()**: And we'll hit it full force when it comes in.
+[41:47] **qx()**: Mark the shark says qx doesn't read my messages.
+[41:50] **qx()**: Oh, did he send me a message?
+[41:53] **qx()**: Let me see.
+[41:53] **qx()**: I wonder what I I am bad at reading messages How many unread messages you have are so many kushti?
+[42:01] **kushti**: Yeah, so Sometimes yeah, i'm finding some messages from like weeks ago.
+[42:08] **qx()**: Yeah, whoops Sorry, sorry Mark.
+[42:11] **qx()**: I'm not sure what you're commenting.
+[42:12] **qx()**: Maybe you're commenting on
+[42:15] **qx()**: Maybe you're commenting on the AI coding stuff.
+[42:19] **qx()**: Maybe you're that Mark.
+[42:20] **qx()**: Mark's big thing with AI coding is context, context, context.
+[42:25] **qx()**: You have to give the AI code, you have to give the LLM context about what you're doing, how to do it.
+[42:30] **qx()**: And he says it does worlds, worlds better, right?
+[42:33] **qx()**: It's night and day difference between AI coding with no context and AI coding with context.
+[42:38] **qx()**: take be like Mark give your LLM context and You'll be very happy.
+[42:45] **qx()**: Oh, yeah, he's commenting that I don't read documentation.
+[42:47] **qx()**: Yeah, I don't sorry.
+[42:48] **qx()**: Sorry, buddy QX show is the mempool visualizer sir show us I did didn't I show you guys it's right here kushti did I show you here?
+[42:58] **qx()**: I'll show it again for people that joined late real quick.
+[43:01] **qx()**: Let me hide myself one sec
+[43:05] **qx()**: Let me take a screen capture.
+[43:07] **qx()**: Let me make it smaller so it can actually be seen fully on screen.
+[43:11] **qx()**: There we go.
+[43:11] **qx()**: So, let's see.
+[43:14] **qx()**: Oh, as soon as I do it, the mempool clears up.
+[43:19] **qx()**: We'll put, we'll put it back on until the, until we get some hits with some mempools coming up.
+[43:24] **qx()**: But, let me know when that happens.
+[43:26] **qx()**: All right.
+[43:27] **qx()**: What else do we have?
+
+[43:30] **qx()**: Oh, here we go.
+[43:30] **qx()**: Yeah.
+[43:31] **qx()**: First of all, this is a topic that was that was had in chat the other day.
+[43:34] **qx()**: Can you talk about the concept of a private DEX?
+[43:38] **qx()**: Can this help with avoiding something like a sandwich bot or snipers?
+[43:48] **kushti**: But I mean it depends on how you define private here.
+[43:53] **kushti**: So how would you do that?
+[43:55] **qx()**: Would you whitelist addresses to work with a smart contract essentially?
+[43:59] **kushti**: So you can whitelist, for example, off-chain batchers, right?
+[44:04] **kushti**: And encrypted requests, for example, right?
+[44:12] **kushti**: that they can do something.
+[44:14] **kushti**: There was some design of private perpetual DEX proposed recently, but this is about actually some centralized server providing some proof of something, but this server is actually controlling
+[44:35] **kushti**: So, actually doing sniping and MEV and whatever, right?
+[44:41] **kushti**: So, well, at least now such things are transparent, but so trackable.
+[44:48] **kushti**: But yeah, it's easy to introduce something centralized, but yeah, quasi-private.
+[44:54] **kushti**: And then, yeah, well, a certain entity will do that, right, without even being traced.
+[45:03] **kushti**: So, the devil is in detail, how privacy is defined exactly, right?
+[45:10] **kushti**: Well, definitions are quite subtle.
+[45:15] **qx()**: So, kushti, how is a sandwich bot successful on a UTXO chain, and especially with a block time of two minutes on Ergo?
+[45:23] **qx()**: So I guess you hit the slippage or, I mean, it's not like you can pack something before and in the same transaction, right?
+[45:28] **qx()**: Like how do you, how does sandwich bots work successfully?
+[45:32] **qx()**: I thought they were much more difficult to do.
+[45:34] **kushti**: Not the same, but yeah, you can do, so if slippage is long, you can do separate transactions, right?
+[45:45] **kushti**: And your pool puts a little bit higher fee.
+[45:48] **kushti**: So it's not quite different here, right, with AMM.
+[45:55] **kushti**: Then, yeah, well.
+[45:58] **kushti**: There are different things you can do, but yeah, they also probably are not quite different here, right?
+[46:08] **kushti**: But yeah, so for private DEX, well, for most of efficient designs, right, so you adjust
+[46:20] **kushti**: tying to some batchers and sending them encrypted requests.
+[46:27] **kushti**: But then what?
+[46:32] **kushti**: So then they can do some commitments, right?
+[46:41] **kushti**: So I need to think actually how it could work.
+[46:45] **kushti**: But yes, something is possible when you fix batchers.
+[46:48] **kushti**: But then the question is, do you really want such a design?
+[46:55] **kushti**: Okay.
+[46:56] **kushti**: Hard to say.
+[46:57] **kushti**: I mean, it's about different trade-offs.
+[47:01] **kushti**: So if it's about, I don't know, the truly decentralized setting, then the question is, well, what kind of privacy are you trying to achieve here?
+[47:12] **kushti**: I mean, public privacy from home and privacy.
+[47:17] **kushti**: So if it's about privacy of your actions, then yeah.
+[47:23] **kushti**: How are they clear?
+[47:25] **kushti**: How are they executed?
+[47:28] **qx()**: Okay, so currently the way for the community to avoid these sandwich attacks, if they're being happening, is to set your slippage just to a low amount and that'll just, your transaction will fail, but is that the key?
+[47:45] **kushti**: Right, but actually you can avoid proxy contracts, like Spectrum DEX is doing, for example.
+[48:00] **kushti**: So in Dexy, for example, the current DEX interface for Dexy,
+[48:10] **kushti**: which is a part of Spectrum DEX.
+[48:15] **kushti**: So there is no proxy, right?
+[48:17] **kushti**: And then, well, there is no sandwiching possible, right?
+[48:24] **kushti**: It's not possible to insert any order before.
+[48:30] **kushti**: But then, yeah, you can have transactions failed, but without on-chain footprint, unlike EVM blockchains.
+[48:40] **qx()**: Right, right.
+[48:40] **qx()**: We're not losing any funds.
+[48:42] **kushti**: So yeah, well, the current design with proxies is maybe not very Ergo-oriented, right?
+[48:51] **kushti**: So maybe direct execution is better.
+[48:54] **kushti**: There are some discussions in the chats about that.
+[48:57] **kushti**: But even if you are doing
+[49:00] **kushti**: Proxy, for example, you can set, software can set slippage to avoid any order appearing before you, right, going in the same direction.
+[49:15] **kushti**: So you can allow only four orders going in opposite direction.
+[49:22] **kushti**: For example, then, yeah, I mean, still there is chance of failure.
+[49:28] **kushti**: But maybe direct execution is better.
+[49:36] **kushti**: Just so, and even so you can have more sophisticated software, maybe which can retry right attempts, but use direct execution.
+[49:54] **kushti**: And then for sandwiches, it would be quite hard environment.
+[50:00] **kushti**: Still, I believe.
+
+[50:04] **qx()**: All right, what else we got?
+[50:05] **qx()**: Mark wants to know if we have an EIP for creating side merge mined chains.
+[50:12] **qx()**: Would that be a good way to codify the process for others to follow?
+[50:20] **qx()**: Sorry?
+[50:21] **qx()**: Is there an EIP for sidechains, for merge mined chains?
+[50:26] **qx()**: And if not, is that something that can be done so other people can try to follow this and help?
+[50:33] **kushti**: Yeah, so there is only a document on how to do a merge mined sidechain from ErgoHack 8, maybe.
+[50:47] **kushti**: Yeah, it was 8, I believe.
+[50:50] **kushti**: So yeah, from autumn... autumn 2023.
+[51:02] **kushti**: So, yeah, well, but you can do some more detailed documents and, yeah, if there are some guys with ideas on, well, merge mined sidechains would be happy to cooperate with and, yeah, well, expand the documents.
+[51:28] **kushti**: But yeah, please refer to ErgoHack 8 submission in the first place.
+[51:39] **kushti**: And yeah, it was about merge mined sidechains and also trustless pegging for such.
+[51:48] **kushti**: Okay, so in this case, it's possible to do two-way trustless peg.
+[51:56] **kushti**: It seems so, which is quite, quite great, right?
+[51:59] **kushti**: So something which is not possible in Bitcoin still.
+
+[52:06] **qx()**: All right, we got one maybe that Bruno Could answer How the stablecoins fit into the ecosystem with the major fiat back stablecoins would be BRICS be interested in Gluon Gold Dexy the BRICS group, which is what that's the BRICS is a group of nations exploring stablecoin development.
+[52:32] **qx()**: So has has has
+[52:35] **qx()**: Bruno ever thought to not just develop protocols, but actually to do outreaches and try to engage those kind of things at that level.
+[52:44] **qx()**: Bruno I know he said the other day that you know somebody asked him how come you're not making a front end for this and he says my forte is just designing this and and doing that the base of it and somebody else can make the front end of it so I imagine perhaps outreach and front-facing and engagement might not be his real house either for this kind of stuff
+[53:07] **kushti**: Right, but usually, anyway, so big players are interested in centralized stablecoins, right?
+[53:18] **kushti**: Maybe it makes sense, but also due to capital inefficiency, right, of solid algorithmic stablecoins, which survived over time, right?
+[53:33] **kushti**: But then you can use such stablecoins in conjunction with centralized stablecoins.
+[53:40] **kushti**: So do something like ChainCash, right?
+[53:42] **kushti**: So have multiple issuers backed in different ways, even together along with Amazon and Google, right?
+[53:51] **kushti**: You can imagine them as well, just different issuers in ChainCash along with smaller players, right?
+[54:00] **kushti**: Even individuals.
+[54:01] **kushti**: So in this regard, yeah, well, ChainCash is kind of a great equalizer.
+[54:08] **kushti**: And then, yeah, well, algorithmic stablecoins also can be used for some, well,
+[54:17] **kushti**: Settlements, right, some buffer, right, which you maybe don't need for usually, so you need for smaller amounts, but yeah, it's better to have less trust also, more guarantees basically.
+
+[54:47] **qx()**: Yeah.
+[54:48] **qx()**: All right.
+[54:48] **qx()**: We got one more kushti This is a very difficult question might take you a while to answer What's your favorite fruit?
+[54:57] **qx()**: Favorite fruit What really yeah, Ursa wants to know your favorite fruit Maybe wants to send you a basket a fruit basket kushti Do you eat kushti?
+[55:11] **qx()**: How often do you eat once a week?
+[55:14] **kushti**: No like you have time to eat
+[55:17] **kushti**: Yeah, yeah, but about fruits, I don't know.
+[55:23] **kushti**: Maybe mango, but... Oh, nice.
+[55:26] **qx()**: Good call.
+[55:27] **qx()**: Yeah, yeah, mango's great.
+[55:29] **qx()**: Peach, peach, yeah.
+[55:31] **qx()**: Similar, similar.
+[55:33] **qx()**: I'm a fan of the... Something like that.
+[55:36] **qx()**: In the U.S. we call them limes, but in South America they're just lemons.
+[55:39] **qx()**: The green, the green lemon, those are... Oh, yeah.
+[55:43] **qx()**: Limes.
+[55:43] **qx()**: Oh, so good.
+[55:46] **qx()**: Well, that's a good way

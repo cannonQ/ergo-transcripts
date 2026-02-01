@@ -1,0 +1,165 @@
+{
+  "call_date": "2025-03-26",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:31",
+      "question": "When will people using blockchain for its intended purpose outnumber those using it for get-rich-quick schemes?",
+      "asker": "qx()",
+      "answer": "We're going to see a split in the crypto space. Institutional adoption with stablecoins and regulatory frameworks will create public-private partnership digital money with surveillance capabilities. However, this increased surveillance will create the best narrative privacy projects and resilient neutral money has ever seen, as there's always an equal opposite polarity.",
+      "responder": "Armeanio",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "institutional adoption",
+        "stablecoins",
+        "privacy",
+        "surveillance"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "23:44",
+      "question": "Is Ergo kushti's main focus or does he have other income sources? Where does money come from to finance Ergo development?",
+      "asker": "Dejan",
+      "answer": "kushti hasn't been paid by anybody since about 2021. He develops because he enjoys it and believes in free banking principles. His motivation comes from seeing how technology could change systems and improve lives. Many Ergo developers work unpaid because they believe in the cause - they add value to enhance the system's value.",
+      "responder": "Armeanio",
+      "category": "governance",
+      "difficulty": "beginner",
+      "related_terms": [
+        "kushti",
+        "free banking",
+        "development funding",
+        "open source"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "20:19",
+      "question": "Can you build a DEX into Rosen Bridge?",
+      "asker": "qx()",
+      "answer": "It's better to build around Rosen Bridge rather than into it. Building swaps internally would create a messier situation for auditing that there's no rehypothecation, since the system holds collateral one-to-one. Cross-chain swaps are doable but shouldn't change the bridge protocol itself.",
+      "responder": "Armeanio",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Rosen Bridge",
+        "DEX",
+        "rehypothecation",
+        "cross-chain swaps"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "21:11",
+      "question": "How could Rosen Bridge be made faster?",
+      "asker": "qx()",
+      "answer": "You could create a premium fee system where users pay extra for speed. Liquidity providers would front funds with weaker assumptions and release them quickly, then get paid as the original transaction goes through the bridge protocol in the background. It's similar to how the banking system works for faster transfers.",
+      "responder": "Armeanio",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Rosen Bridge",
+        "liquidity providers",
+        "premium fees",
+        "faster settlement"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "22:22",
+      "question": "Can the same collateral be used for multiple chains in Rosen Bridge watchers?",
+      "asker": "qx()",
+      "answer": "No, you need completely separate collateral for each chain - you can't use the same 30,000 RSN and 800 ERG for both Cardano and Ergo watchers. This forces distributed decentralization even among individuals running multiple watchers, as they'll likely run them on different machines and networks for reliability.",
+      "responder": "qx()",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Rosen Bridge",
+        "watchers",
+        "collateral",
+        "decentralization"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "43:05",
+      "question": "How will sub-blocks impact transaction finality and speed for different use cases?",
+      "asker": "Mark the shark",
+      "answer": "Sub-blocks won't change finality requirements for dApps or exchanges - they'll still want 10+ main blocks for large transactions. But sub-blocks will be excellent for peer-to-peer transactions, allowing transfers between individuals within seconds with soft finality, similar to competing with apps like Zelle.",
+      "responder": "qx()",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "sub-blocks",
+        "finality",
+        "peer-to-peer",
+        "settlement"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "51:15",
+      "question": "What is ChainCash and why is it significant?",
+      "asker": "qx()",
+      "answer": "ChainCash allows entities to mint their own currency notes backed by reserves from their treasury or physical goods. This is different from just minting tokens - these are actual notes backed by reserves that people can use as payment. It essentially gives entities the power to create their own currency, which feels like taking power away from traditional government-controlled money systems.",
+      "responder": "qx()",
+      "category": "tokenomics",
+      "difficulty": "advanced",
+      "related_terms": [
+        "ChainCash",
+        "reserve-backed",
+        "currency",
+        "treasury"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "57:38",
+      "question": "What chains are planned for Rosen Bridge after Dogecoin?",
+      "asker": "qx()",
+      "answer": "The roadmap includes focusing on the Nervos bridge, possibly expanding to EVM environments like Base or Ink for exchange liquidity access, and Bitcoin Cash which has a big community and is more aligned with UTXO principles with good development happening.",
+      "responder": "Armeanio",
+      "category": "bridges",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Rosen Bridge",
+        "Nervos",
+        "Bitcoin Cash",
+        "EVM"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "60:47",
+      "question": "What's the current status of Lithos development?",
+      "asker": "qx()",
+      "answer": "Currently refactoring the rollup contracts, which is the hardest part. After this milestone, everything is downhill - just tweaking and performance testing. There will be a public testnet after this next milestone, and users will be able to play around with the LETS token.",
+      "responder": "Armeanio",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Lithos",
+        "rollup contracts",
+        "LETS token",
+        "testnet"
+      ]
+    },
+    {
+      "qa_id": 10,
+      "timestamp": "62:12",
+      "question": "How does Lithos work for miners?",
+      "asker": "qx()",
+      "answer": "Lithos allows you to essentially solo mine while still participating in a pool. You can join a decentralized mining pool where you as the miner build blocks and still get shares, but how that's calculated isn't secret like traditional pools. It's designed to be modular and work across Bitcoin and other proof-of-work chains.",
+      "responder": "Armeanio",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Lithos",
+        "solo mining",
+        "decentralized pool",
+        "proof-of-work"
+      ]
+    }
+  ]
+}

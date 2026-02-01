@@ -1,0 +1,185 @@
+[00:13] **qx()**: Hey guys, welcome to the dev update, something like number, I've lost count, 130.
+
+[00:20] **qx()**: Tell myself I gotta check.
+
+[00:22] **qx()**: Well, I'm on the mend, and here we are. We're landing on vacation, so we've decided to poke our fingers into the interface a little bit to kind of change the look for the week.
+
+[00:34] **qx()**: Let's see how it lands, guys.
+
+[00:36] **qx()**: Very short dev update for you this week. A lot of stuff always happened in Ergo, but sometimes the devs forget to post to the weekly dev update chat because they're very busy.
+
+[00:50] **qx()**: But that's okay. Fear not, because if you hang around in the ecosystem, you know that things are bustlin.
+
+[00:57] **qx()**: One thing that was interesting today in chat that we saw is, you know, community is a big way to measure crypto, influence crypto, uptick projects like that.
+
+[01:13] **qx()**: And once in a while, you know, usually chats have their downtime. Ergo has theirs at about 9 p.m. Eastern Time, which is like 1 p.m., 1 a.m. UTC.
+
+[01:26] **qx()**: Gets a little soft, gets a little quiet. And so you've got the normal fudsters coming in around that time saying, where's the community, when community, that kind of thing.
+
+[01:36] **qx()**: And people started posting some things and they were talking about future finance, other things. People are pushing sub-blocks and those kind of things.
+
+[01:45] **qx()**: And kushti said something interesting that was simple and said, you know, we don't need sub-blocks. You know, we have at the moment, you don't have to wait for sub-blocks. We have many financial tools for experimentation.
+
+[02:01] **qx()**: And he's right. And it makes you think in these times when, you know, let's not diss other chains, but when a lot of other chains are based on large money influxes, money inflows, and large holders making ripples in spaces, and then followed by meme crazes and things like that.
+
+[02:23] **qx()**: You know times like these where the market's down when it's supposed to be waiting to go up and those kind of things in flux, it makes me really happy to be in Ergo if you take a peek down below me right here you'll see I don't know what's the first 30 or 40 projects that are active on Ergo that were easy to pluck right off the website or sigmaverse.
+
+[02:48] **qx()**: We have the meat, you know, we have the fuel. We have the parts of the recipe for anybody to come on and do this stuff and by looking at the ticket below you can see the amazing things that have been accomplished so far.
+
+[03:02] **qx()**: So when the market fluctuates, when CoinGecko makes my portfolio bleed and cry a little bit, it doesn't bother me because I know that I know why we're here. I know what we've built and I know what we can build.
+
+[03:20] **qx()**: You know, the snap of our fingers with the tooling that we have. So that always brings me a different perspective on that kind of thing.
+
+[03:27] **qx()**: When I see people hurting in other ecosystems, it sucks for them, I think, you know, but Ergo keeps trucking, being resilient and we keep doing what we're doing and people keep catching on.
+
+[03:40] **qx()**: So it's an exciting, exciting place to be, an exciting thing to be in.
+
+[03:44] **qx()**: All right, let's hit the dev update real quick. It's short, as I said, and we won't take up too much of your time. We'll hit the cool change scene button.
+
+[03:54] **qx()**: Here we go. Ready?
+
+[04:01] **qx()**: All right, I hope you enjoyed that change scene feature. Andy's going to probably kill me, but you know, whatever.
+
+[04:06] **qx()**: All right, here we go. New format for Dev Update Display. We've got kushti kicking off the chat every Wednesday morning.
+
+[04:15] **qx()**: I think he's missed it once. And that's only because I hit it at 8.02 and he came in at 8.03 or something like that. So it's not really a miss.
+
+[04:24] **qx()**: Alright, first up we have AnonBR with Team Nautilus. For those of you not familiar with Nautilus, it's like a really good Chrome extension wallet. They're working on a mobile version of course, so stay tuned for that.
+
+[04:40] **qx()**: So AnonBR refactored Add Wallet Index View component, refactored Create Wallet View component, refactored Ledger Connect View component, added Mnemonic component, added 24-word mnemonic generation support.
+
+[04:52] **qx()**: Oh, very nice. Added several minor UI fixes and code quality improvements. And you can see a little graphic of some things that he's done here.
+
+[05:04] **qx()**: Let's give him all the buttons.
+
+[05:07] **qx()**: Luivatra claims he's been busy. I think that's up for debate in the ecosystem. I don't know, you know, the European busy is different than the busy I know about, so we're not going to harp on them too much.
+
+[05:21] **qx()**: He says, I'm looking forward to trying out the new execute from VAR function. Plenty of Paideia contracts could benefit from that.
+
+[05:26] **qx()**: If you haven't tried Paideia, do it. Spin up a DAO. I mentioned this last week as I did. Fantastic app.
+
+[05:32] **qx()**: All right, we've got qx() with ErgFi Dexy Gold swap widget done. Bank LP widget work in progress. ErgoPay in progress. Dexy Gold swap test with fake tokens. End of week. Awesome. Thanks, qx().
+
+[05:48] **qx()**: kushti is asking how he compiles contracts. Let's see what else we have.
+
+[05:53] **qx()**: We've got kushti with Ergo protocol and reference client R&D. Client 5.0.25 released. Recommended update nodes with extra indices.
+
+[06:02] **qx()**: Yay, more indexing on your node. Love it.
+
+[06:05] **qx()**: Sigma SDK 5.0.15 released with Execute from VAR. That's what Luivatra was excited about in BigInt functions to deserialize a script from context extension variable and create BigInt from a script, respectively, parsing contract template from JSON string, box deserialization, W.js, along with many other features.
+
+[06:26] **qx()**: So it looks like they've been busy on Sigma SDK. That's awesome.
+
+[06:31] **qx()**: Fixed compatibility issues related with new sub-blocks per block perimeter injection and with that release 6.0.0 RC2 supporting 6.0 activation in public testnet which as I said last week it's in and votes are the voting is done to the voting epic so it's live you've got 6.0 running on public testnet.
+
+[06:55] **qx()**: Anybody want to test that? It's required for kushti's sub-blocks, which as we know are looking forward to be much faster confirmation times.
+
+[07:05] **qx()**: So yeah, that's really cool.
+
+[07:07] **qx()**: And here we go for sub-blocks implementation. Made first test with AI for sub-blocks application to fix behavior of this functionality.
+
+[07:14] **qx()**: And working on properly processing sub-blocks coming out of order with delayed transactions, resolving sub-blocks, forks, etc.
+
+[07:22] **qx()**: Once you get into speed and you get into transferring TXs across nodes, it gets a little hairy. I mean, that's one of the reasons that kushti and the other core developers settled on two minute block average times, you know, it's kind of the safety net between, you know, too slow, which Bitcoin essentially, and too fast to propagate to the node.
+
+[07:46] **qx()**: So every TX, you know, for the finality of it needs to propagate to all the nodes out there for consensus written into a block.
+
+[07:55] **qx()**: But when you have nodes that are delayed or can't propagate fast enough, you're going to possibly run into issues there. So that's one thing that kushti's figuring out with sub-blocks, essentially.
+
+[08:07] **qx()**: All right, ChainCash started negative tests with AI doing new paper, merge PR with refund actions and registers. And he removed this ChainCash pull 10. I'm not going to click it, but I'm sure he had good reason.
+
+[08:21] **qx()**: Dexy trying to figure out updated mainnet deployment plan. And I don't know if he mentioned it here. Let's read down below. He didn't. I think on Thursday. Oh, after the dev update. Yeah, Thursday, the SigmaUSD Oracle group got together.
+
+[08:39] **qx()**: And we pushed a vote to the vote configuration to the process. And it passed, essentially. And everything is good. Next up is we just have to update our clients to version 2.
+
+[08:55] **qx()**: And as you've heard people say with Dexy Gold, the reward token for client runners, for server runners, for the protocol is called GORT. But for SigmaUSD, US dollar essentially ERG is going to be called DORT.
+
+[09:12] **qx()**: So dollar oracle reward token. I like it. GORT, DORT. Hopefully we see ORT, like oil oracle reward token. LORT, lithium oracle reward token. I don't know, it's endless, right?
+
+[09:27] **qx()**: BORT, banana oracle reward token. I can't really do a stable card. I mean, you could, but you get the idea.
+
+[09:33] **qx()**: So you have all these reward tokens that are possible by running version two of the oracle, depending on what you're actually announcing on chain for a price. So super cool with that.
+
+[09:44] **qx()**: We've got the Rosen Bridge planning to release Binance in the coming days. We should see that anytime. We've been hearing about it in chats. We've got a warning in the guard chats about this. So really, really looking forward to this.
+
+[09:59] **qx()**: Rosen Bridge watcher version two, add observation status service in our services, write startup and stop functions in service, add dependency to my service like TXPOT, DB service and scanner.
+
+[10:12] **qx()**: Add function for calls or queries in DB service. The Rosen Bridge Rosen app. Implementing the aggregation method for public event status.
+
+[10:22] **qx()**: The RosenSoon, classic.
+
+[10:27] **qx()**: All right, let's see. kushti's giving some advice. There's a suggestion for Nautilus wallet. Easy to run out of node with an empty wallet. I want the node to be fully automatic without any revision in computer startup. Getting some ideas for that.
+
+[10:41] **qx()**: Would be nice to have an option to launch automatically without having to type in password. You know, I think there's a way to do that from all the times that Nautilus spoken out in support, so that should be an easy fix, hopefully.
+
+[10:52] **qx()**: All right.
+
+[10:59] **qx()**: NodeView XYZ, I spoke about this last week. It'd be amazing to have a node that you could just have a interface on and hop on. Much easier to install, even if it was in the default package.
+
+[11:12] **qx()**: Added special address and transaction detection for Spectrum DEX, Rosen Bridge, SigmaUSD, and mining pools. Optimized load times with caching ErgoTree to address conversions.
+
+[11:21] **qx()**: Switch deployment and hosting of NodeView XYZ for GitHub pages to Cloudflare because of HTTPS issues.
+
+[11:28] **qx()**: Planning to make pop-ups to see parameters or swaps in cross-chain transfers. That's awesome.
+
+[11:36] **qx()**: If that's what parameters are swaps and cross-chain transfers. That means what I think it means. Let's see. Cool.
+
+[11:43] **qx()**: All right. What else do we have here?
+
+[11:46] **qx()**: We have CannonQ giving a little update on bounties. There's Keystone Wallet Integration, 3,000 ERG reward, there's Fleet SDK tutorials, 775 SigmaUSD, and this week, one bounty cleared, one bounty added.
+
+[12:03] **qx()**: So guys, any of you devs out there, anybody watching this on YouTube not familiar with Ergo or anything, there's a meat load of bounty updates just ripe for the plucking.
+
+[12:13] **qx()**: Go and update some things. There's tutorials for Sigma Rust or those kind of things depending on what the update requires. I mean it's just sitting there guys. It's literally like money sitting there for you to grab.
+
+[12:23] **qx()**: I can't encourage you enough to do this. Heck even if it takes you two months to learn some stuff, just hop on there, learn it in two months. You'll definitely make up your payday from that kind of stuff.
+
+[12:35] **qx()**: Let's see.
+
+[12:42] **qx()**: kushti released Ergo Protocol Reference Client 5.1.2. They're identical to the 5.0.25 changes, but on RocksDB.
+
+[12:51] **qx()**: So that is a much more stable, I'd say, database. Less compatible with many different architectures, but a little bit more stable than the current 5.0.25 database usage.
+
+[13:04] **qx()**: If anybody have run nodes, you may have run into where you've run out of space or something happens to your network connection. It's mainly, I usually only run into it when I run out of space on my hard drive because I'm not paying attention on like a little Raspberry Pi.
+
+[13:18] **qx()**: You know, that's a funny thing. You run a node on another chain, right? You probably spend a ton of money. You have a massive hard drive. You probably have monitoring tools.
+
+[13:28] **qx()**: Okay. You run a node on a Raspberry Pi with like a SD card even if it will run on the fast 10x or 20x ones. And then you forget it, right?
+
+[13:42] **qx()**: And you forget it for too long and you realize that you run out of space. So it's a funny problem that an easy system like Ergo nodes can run on anything. You still got to kind of pay attention once in a while.
+
+[13:53] **qx()**: So anyway, my original point is I would run out of space, get corrupt databases, have to resync. But RocksDB hopefully should be a little bit better at either fixing itself there or not corrupting at all.
+
+[14:07] **qx()**: So that's great.
+
+[14:10] **qx()**: Oh, and kushti is announcing the good news that the Oracle operators made the update. It was not noticed as the ceremony took about 20 minutes. And the update transaction was right there.
+
+[14:19] **qx()**: Update is minimal but the script now allowing for update to oracle version 2 and I think we're into a couple days here now so that's it guys thanks for listening.
+
+[14:30] **qx()**: We've got some things that are always missed right? I mentioned Cyberverse, don't forget to check out Cyberverse. They had like a game night I think on Thursday night UTC time where they played like the bow and arrow game, they played other multiplayer games.
+
+[14:45] **qx()**: Still a nice high watermark sustaining through on Cyberverse, they're doing great. It's good to see that, those guys deserve the best.
+
+[14:52] **qx()**: MewFinance as well, they didn't do an update this week but check those guys out. They just supported a liquidity builder or donation I forget which one it is for the Sigmanauts mining DAO.
+
+[15:08] **qx()**: So it's really nice to be able to do those kind of launch pads off there to raise some funds for shared liquidity.
+
+[15:17] **qx()**: Sigmanauts Mining DAO is trucking along. Mark's just upgraded the server to an extra hard drive because you can bet that those logs take up a lot of space when you're running something like that with that much hash.
+
+[15:30] **qx()**: So he's doing that. He's diving into his Sharknet stuff where he's making these branded packages based on that theme, which is really, really cool.
+
+[15:39] **qx()**: So let me stress, even if you have just like a 2070 or I don't know, a 3050, a 4050, 4060, 4060, something. But hop into the mining pool, give it a low enough hash to where you're not going to be burning through electricity at this time, and join the community.
+
+[16:00] **qx()**: Even if you don't have a card, join the community. You don't have to be a miner to join the Sigmanauts mining DAO, essentially. I don't think Mark can correct me there, but the community is there and even if you have a small card, point it towards a pool and together it'll make a big difference than any big farm.
+
+[16:18] **qx()**: A majority of small users compared to one big user always makes that big difference. So yeah, feel free to dive in there.
+
+[16:26] **qx()**: I hope you like the new test format. Let me know in the comments what you think. I just whipped together a little bit before. I can add some more fancy stuff.
+
+[16:37] **qx()**: Maybe make the background a little faster moving. Maybe make my head less big. I don't know if that's possible or not. But you know, maybe we're shrinkage tools.
+
+[16:46] **qx()**: Thanks, everybody, for joining. We'll see you in the AMA on Thursday. And if you're up for it, join the Sigmanauts meeting later today, later Sunday.
+
+[16:59] **qx()**: Check in the Sigmanauts chat or ask on main chat if you can pop in. We're happy to have people come in and listen since the text is public anyway.
+
+[17:09] **qx()**: Ciao, everybody. Bye-bye.

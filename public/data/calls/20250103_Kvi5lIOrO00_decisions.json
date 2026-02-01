@@ -1,0 +1,126 @@
+{
+  "call_date": "2025-01-03",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - January 2nd 2025",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "31:37",
+      "decision": "ErgoSanta random numbers drawn: 13 and 48",
+      "speaker": "qx() and kushti",
+      "context": "Needed to pick random numbers for ErgoSanta MewFinance drawing",
+      "topic": "community",
+      "significance": "minor",
+      "quote": "All right, 13 and 48, there you go, HQx"
+    },
+    {
+      "id": 2,
+      "timestamp": "49:57",
+      "decision": "Corrected ErgoSanta random numbers to 27 and 48 due to 61 entries",
+      "speaker": "qx() and kushti",
+      "context": "HQx reported there were 61 entries instead of 50, requiring new calculation",
+      "topic": "community",
+      "significance": "minor",
+      "quote": "So 27 and 48. There you go. HQx. We've done it legitimately"
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "00:56",
+      "commitment": "Planning to present sub-blocks CEP tonight or tomorrow",
+      "owner": "kushti",
+      "timeline": "tonight or tomorrow",
+      "topic": "technical",
+      "quote": "so I'm actually working on sub-blocks CEP, so planning to present it, I don't know, like tonight or tomorrow"
+    },
+    {
+      "id": 2,
+      "timestamp": "07:38",
+      "commitment": "Mark will distribute 50 ERG worth of project tokens to current miners",
+      "owner": "Mark",
+      "timeline": "soon",
+      "topic": "mining",
+      "quote": "So Mark should be sending those out soon to current miners of the Sigmanauts mining pool"
+    },
+    {
+      "id": 3,
+      "timestamp": "10:33",
+      "commitment": "Help organize Rosen Bridge guards better and get automations",
+      "owner": "qx()",
+      "timeline": "2025 quarter one",
+      "topic": "rosen-bridge",
+      "quote": "one of them is to help organize the Rosen Bridge guards a little better see if we can get some automations there"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "01:37",
+      "question": "How to pack transactions into input blocks sub-blocks and update state",
+      "context": "Working on sub-blocks implementation",
+      "topic": "technical",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "02:49",
+      "question": "How to update state and form candidates for sub-blocks",
+      "context": "Sub-blocks development challenges",
+      "topic": "technical",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 3,
+      "timestamp": "12:45",
+      "question": "What are desirable properties and what concrete layer 2s would be beneficial",
+      "context": "Discussion about layer 2 solutions even with sub-blocks",
+      "topic": "technical",
+      "raised_by": "kushti"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "04:06",
+      "fact": "Storage rent collection occurs after boxes reach 4 years of age without enough ERG to cover rent",
+      "speaker": "qx()",
+      "topic": "tokenomics"
+    },
+    {
+      "id": 2,
+      "timestamp": "09:45",
+      "fact": "Almost 100 players live on Cyberverse, which is a high watermark",
+      "speaker": "qx()",
+      "topic": "ecosystem"
+    },
+    {
+      "id": 3,
+      "timestamp": "09:10",
+      "fact": "Cyberverse Ronin Mint scheduled for January 6th",
+      "speaker": "qx()",
+      "topic": "ecosystem"
+    },
+    {
+      "id": 4,
+      "timestamp": "07:21",
+      "fact": "Mining pool found a token within first 69 minutes of 2025 with 4 minutes to spare",
+      "speaker": "qx()",
+      "topic": "mining"
+    },
+    {
+      "id": 5,
+      "timestamp": "02:24",
+      "fact": "99% of transactions can be confirmed immediately in sub-blocks, with ordering blocks every two minutes",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 6,
+      "timestamp": "57:05",
+      "fact": "Keystone integration SDK part is mostly done, PR opened, in final push of displaying transactions and testing",
+      "speaker": "kushti",
+      "topic": "technical"
+    }
+  ]
+}

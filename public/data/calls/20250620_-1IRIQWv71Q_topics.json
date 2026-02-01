@@ -1,0 +1,243 @@
+{
+  "call_date": "2025-06-20",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - June 19th",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Node 6.0 Release and Mining Pool Updates",
+      "category": "technical",
+      "start_time": "01:08",
+      "end_time": "07:49",
+      "primary_speaker": "kushti",
+      "summary": "kushti announces the final 6.0 release scheduled for today, along with mining pool instructions. Discussion covers the difference between LevelDB (5.0 versions) and RocksDB (5.1 versions) releases, with 6.0 being LevelDB-based for mining pool compatibility.",
+      "key_terms": [
+        "Node 6.0",
+        "soft fork",
+        "LevelDB",
+        "RocksDB",
+        "mining pools",
+        "NIPoPoWs",
+        "UTXO snapshots"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "SigmaChain Refactoring and Merge-Mined Sidechains",
+      "category": "technical",
+      "start_time": "07:52",
+      "end_time": "09:50",
+      "primary_speaker": "kushti",
+      "summary": "kushti discusses the published SigmaChain refactoring plan and identifies merge-mined sidechains as low-hanging fruit. Mentions conversation with Bruno about Zephyr, a Djed-based private stablecoin that's essentially a Monero fork with Djed implementation.",
+      "key_terms": [
+        "SigmaChain",
+        "merge-mined sidechains",
+        "Zephyr",
+        "Djed",
+        "trustless pegging",
+        "Bruno"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "5th Anniversary Celebration and Video Content",
+      "category": "marketing",
+      "start_time": "09:50",
+      "end_time": "11:37",
+      "primary_speaker": "qx()",
+      "summary": "Discussion of upcoming July 1st anniversary plans including video content creation by Dan, pixel, Andy and Angie. Community tradition of sending ERGs to Raro for anniversary cake celebration is mentioned.",
+      "key_terms": [
+        "5th anniversary",
+        "July 1st",
+        "video content",
+        "Raro",
+        "cake tradition",
+        "YouTube"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Glasgow On-Ramp Integration Progress",
+      "category": "ecosystem",
+      "start_time": "11:39",
+      "end_time": "12:43",
+      "primary_speaker": "qx()",
+      "summary": "Update on US on-ramp fundraising success and Glasgow integration. All details have been submitted, contract finalization expected in a few weeks with potential end-July launch. Excitement about potential integration into Nautilus wallet and Rosen Bridge.",
+      "key_terms": [
+        "Glasgow",
+        "US on-ramp",
+        "raffle fundraising",
+        "Nautilus integration",
+        "Rosen Bridge",
+        "fiat on-ramp"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Ergo Meetup and Hackathon Planning",
+      "category": "community",
+      "start_time": "12:46",
+      "end_time": "14:16",
+      "primary_speaker": "qx()",
+      "summary": "Colorado meetup schedule to be finalized this Sunday with both in-person and live-streamed components. Hackathon will include AI coding and traditional coding groups both on-site and online to maximize participation.",
+      "key_terms": [
+        "Colorado meetup",
+        "hackathon",
+        "live stream",
+        "AI coding",
+        "SIGS meeting",
+        "GitHub signup"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Rosen Bridge Doge Integration and Maintenance",
+      "category": "bridges",
+      "start_time": "14:16",
+      "end_time": "15:43",
+      "primary_speaker": "qx()",
+      "summary": "Rosen Bridge Dogecoin integration is nearing completion after resolving technical challenges. Emphasis on regular maintenance of watchers and guards, recommending weekly bounces to prevent synchronization issues.",
+      "key_terms": [
+        "Rosen Bridge",
+        "Dogecoin integration",
+        "watchers",
+        "guards",
+        "synchronization",
+        "maintenance"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "AI Coding Development and Ergo Compatibility",
+      "category": "technical",
+      "start_time": "15:45",
+      "end_time": "17:09",
+      "primary_speaker": "kushti",
+      "summary": "kushti expresses amazement at rapid AI coding progress on Ergo. Discussion of Ergo's AI-friendly nature due to endpoints, Python integration, and ErgoScript approach making development accessible for AI tools.",
+      "key_terms": [
+        "AI coding",
+        "Python integration",
+        "ErgoScript",
+        "endpoints",
+        "AI-friendly",
+        "development tools"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Kaspa Mixer Analysis and Privacy Concerns",
+      "category": "technical",
+      "start_time": "17:10",
+      "end_time": "24:28",
+      "primary_speaker": "kushti",
+      "summary": "Analysis of Kaspa's new custodial mixer and comparison to Ergo's non-custodial approach. Discussion of privacy limitations in coinjoin mixers due to networking layer vulnerabilities and coordination service tracking risks.",
+      "key_terms": [
+        "Kaspa mixer",
+        "coinjoin",
+        "custodial mixer",
+        "ErgoMixer",
+        "privacy guarantees",
+        "networking layer",
+        "surveillance"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Mempool Visualizer Demo and Tools",
+      "category": "technical",
+      "start_time": "26:42",
+      "end_time": "27:20",
+      "primary_speaker": "qx()",
+      "summary": "Demonstration of AI-coded mempool visualizer showing real-time Ergo transactions with color coding for different transaction types including peer-to-peer and oracle transactions. Plans to integrate with SIGS mining pool for hash rate display.",
+      "key_terms": [
+        "mempool visualizer",
+        "AI coding",
+        "transaction monitoring",
+        "oracle transactions",
+        "SIGS mining pool"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Sub-blocks Deployment Timeline",
+      "category": "technical",
+      "start_time": "38:17",
+      "end_time": "39:42",
+      "primary_speaker": "kushti",
+      "summary": "kushti estimates sub-blocks could be fully deployed by end of year, with public testnet injection possible around July. Timeline dependent on 6.0 activation, which could happen October 1st if voting starts July 1st.",
+      "key_terms": [
+        "sub-blocks",
+        "deployment timeline",
+        "public testnet",
+        "6.0 activation",
+        "October timeline"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Paideia Governance Engagement Issues",
+      "category": "governance",
+      "start_time": "32:36",
+      "end_time": "34:14",
+      "primary_speaker": "qx()",
+      "summary": "qx() expresses frustration about lack of community engagement on Paideia governance proposals, specifically the Kraken listing proposal having zero comments despite community interest in chats. Calls for active participation rather than passive interest.",
+      "key_terms": [
+        "Paideia",
+        "Kraken listing",
+        "governance engagement",
+        "community participation",
+        "voting process"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Private DEX and Sandwich Attack Prevention",
+      "category": "defi",
+      "start_time": "43:30",
+      "end_time": "50:04",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of private DEX concepts and sandwich attack mitigation strategies. kushti explains how direct execution without proxy contracts (like in Dexy) can prevent sandwiching, and how slippage settings and order batching could provide privacy and MEV protection.",
+      "key_terms": [
+        "private DEX",
+        "sandwich attacks",
+        "slippage protection",
+        "proxy contracts",
+        "Dexy",
+        "direct execution",
+        "MEV protection"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Merge-Mined Sidechains Documentation",
+      "category": "technical",
+      "start_time": "50:05",
+      "end_time": "52:06",
+      "primary_speaker": "kushti",
+      "summary": "kushti references ErgoHack 8 documentation for merge-mined sidechains and mentions possibility of two-way trustless pegging, which isn't possible on Bitcoin. Offers to collaborate with developers interested in expanding sidechain documentation.",
+      "key_terms": [
+        "merge-mined sidechains",
+        "ErgoHack 8",
+        "trustless pegging",
+        "two-way peg",
+        "sidechain documentation"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "Stablecoin Ecosystem and ChainCash Integration",
+      "category": "defi",
+      "start_time": "52:06",
+      "end_time": "54:47",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of how algorithmic stablecoins like those from Bruno's work could integrate with centralized stablecoins through ChainCash. kushti describes ChainCash as a \"great equalizer\" allowing multiple issuers from major corporations to individuals.",
+      "key_terms": [
+        "algorithmic stablecoins",
+        "ChainCash",
+        "multiple issuers",
+        "centralized stablecoins",
+        "Bruno",
+        "BRICS nations"
+      ]
+    }
+  ]
+}

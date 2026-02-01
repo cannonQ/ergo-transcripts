@@ -1,0 +1,417 @@
+[00:13] **qx()**: Hello and welcome to the Ergo Developer Update.
+
+[00:19] **qx()**: A lot of things happening out there this week.
+
+[00:22] **qx()**: I know we're a little late today by one day, but the impact should be just as much.
+
+[00:28] **qx()**: I'm not going to go into those current events about the $1.4 billion hack.
+
+[00:33] **qx()**: We covered some of that in the spaces that we did with the Rosen Bridge team, Joe and one of his developers that joined.
+
+[00:41] **qx()**: So if you want to hear about that kind of stuff, then tune into that.
+
+[00:45] **qx()**: It's still on our Twitter main Twitter account.
+
+[00:48] **qx()**: It's about an hour listen, but always good talks when you're talking to Joe.
+
+[00:52] **qx()**: Oh, it's good stuff to talk about.
+
+[00:53] **qx()**: So quickly, not a big dev update today.
+
+[00:56] **qx()**: But one thing I want to stress very hard to you is that these events that happen, these hacks, these things that could be prevented, right? If there was due diligence, if there was forethought and actual research done before implementing these fast and loose things or these fast and loose protocols that, you know, you surprise Pikachu look when something gets hacked, right?
+
+[01:18] **qx()**: I think this is a good case to add some, not hope, but add some justification to why you're in Ergo, why you're actually sticking around with Ergo, and why something that's built for resilience, it's built for mindfulness, it's built from the beginning with things like storage rent, demurrage, and other things are, you know, these things are resilient.
+
+[01:41] **qx()**: These things are going to last through these crazy hacks where a smart contract can be changed, you know, just by the multi-sig signatures.
+
+[01:48] **qx()**: It's like kind of stuff that you hear outside of the ecosystem and you're like, wow, you know, how was it this many funds put into something like that when something like that could have happened?
+
+[01:59] **qx()**: So moments like that make me very happy that we're in Ergo and we're in it for the long haul, you know, especially through these turbulent times of, you know, VC value extraction and all that, we can sit back and think, you know, we're building something that's resilient, we're building P2P finance for essentially anyone.
+
+[02:20] **qx()**: So moments like that is, while they're awful and you feel terrible for the people that suffer those losses, it does hopefully make you recognize why we're in this space and why we're doing what we're doing and why we're not catering to this kind of pump and dump kind of stuff.
+
+[02:36] **qx()**: All right, that being said, let's switch over to a quick little topic I want to cover before we dive into the dev update.
+
+[02:49] **qx()**: OK, if you don't notice, I have Telegram up to my, there we go, right there to my right.
+
+[02:56] **qx()**: It looks like on the screen.
+
+[02:58] **qx()**: The Telegram channel I have open is something very unique that I don't think you find anywhere else in any mining community out there, right?
+
+[03:06] **qx()**: In any major mining community.
+
+[03:08] **qx()**: Miners are unique, right?
+
+[03:10] **qx()**: Miners will point their rigs to something and, you know, it's a business.
+
+[03:13] **qx()**: They'll point their rigs.
+
+[03:14] **qx()**: They'll cash out their token or they'll speculate and hold that token and cash it out another time.
+
+[03:19] **qx()**: That's a business.
+
+[03:20] **qx()**: That's great.
+
+[03:21] **qx()**: Nothing wrong with that.
+
+[03:22] **qx()**: But there's more that can be done with this, right?
+
+[03:24] **qx()**: There's more involvement.
+
+[03:26] **qx()**: There's more control that these miners have over especially our ecosystem.
+
+[03:30] **qx()**: You know, they're maybe used to pointing towards a chain to mine where they have no control, right?
+
+[03:36] **qx()**: We saw in the news the other day that a chain was threatening Herominers, right? Saying that you have too much of the hash.
+
+[03:43] **qx()**: If you don't back down or warn your users or put a limit on there, we're going to stop you from mining it.
+
+[03:48] **qx()**: Now, that should come in your mind as like absolutely bonkers, right?
+
+[03:53] **qx()**: So props to Herominers for being like, you know, screw you, you know, this is permissionless.
+
+[03:58] **qx()**: This is supposed to be permissionless.
+
+[04:00] **qx()**: You know, we the miners should self regulate here.
+
+[04:03] **qx()**: Right.
+
+[04:03] **qx()**: And that's our thought on that.
+
+[04:05] **qx()**: Miners should in their best interest be self regulating.
+
+[04:08] **qx()**: Right.
+
+[04:08] **qx()**: It is not in their interest to get to a point where the chain could be attacked and the value that they've accumulated is completely toast, right?
+
+[04:17] **qx()**: So in theory, miners should be able to self-regulate.
+
+[04:20] **qx()**: And this is exactly what Sigmanauts' mining DAO does.
+
+[04:24] **qx()**: Now, if you haven't heard about Sigmanauts' mining DAO, or maybe you have, so far that we know is the only pool essentially that is collecting storage rent, right?
+
+[04:33] **qx()**: It's a DAO-based mining pool.
+
+[04:34] **qx()**: That means once you come in, you get a token that lets you use Paideia and create votes that maybe change miner payout methods for bonus tokens.
+
+[04:43] **qx()**: They have a ton of bonus tokens that projects have donated to them.
+
+[04:47] **qx()**: So those go out every so often.
+
+[04:49] **qx()**: They have an amazing telegram here with tons of chats, a general chat, a hash bot that tells you the connected miners and the current hash of the pool, block notification bots.
+
+[04:59] **qx()**: Oh, you see how I haven't kept up with that.
+
+[05:01] **qx()**: A storage rent monitor, it shows you how much storage rent we're actually collecting.
+
+[05:05] **qx()**: Announcements, payments blocks, the PHP meme token that was started from one of the first full package meme tokens that we pulled from the chain with storage rent.
+
+[05:16] **qx()**: I think the entire circulation was pulled, it was all in one box with not enough ERGs, so really got lucky there.
+
+[05:21] **qx()**: And then they turned it around and added quite a bit of liquidity to the PHP pool.
+
+[05:26] **qx()**: a fun show off your rigs pool overclocking help bonus token distribution so it shows every time that bonus tokens go out and it looks like let's see 17th and then before that was the 10th so it looks like every week all these bonus tokens are dropped to these wallets the PHP, RSV, Dis, Ergonaut, little Puppy token, GIF Fox, Ergo One, Wooden Nickels, Clown, Sigma that's mining pool token, Dark Erdoge
+
+[05:54] **qx()**: Terahertz, EGO, Bunz, CRPX, Troll, RSV Hoskey, is that a Melty Smiley? I can't see.
+
+[06:02] **qx()**: Comet, MiGoreng, Alien Rocket, Bulls, Alien, Love, and GreasyCex.
+
+[06:09] **qx()**: So tons of bonus tokens that are there for fun and also for speculation and for cashing out.
+
+[06:15] **qx()**: A lot of these tokens have liquidity pools.
+
+[06:17] **qx()**: Mining with the Sigmanauts gets you several things.
+
+[06:19] **qx()**: One, it gets you voting power on how to run the mining pool, right?
+
+[06:25] **qx()**: Because on Ergo, people seem to forget that miners have control to change some parameters in the entire chain, right?
+
+[06:32] **qx()**: That's often forgotten.
+
+[06:34] **qx()**: So Sigmanauts mining now takes that to heart and says if you can change the chain, miners should be able to manage their DAO themselves.
+
+[06:40] **qx()**: All that kind of stuff is votable.
+
+[06:43] **qx()**: People put up proposals on Paideia, vote on them.
+
+[06:46] **qx()**: I think the latest one was probably with a PHP token distribution, or Mark actually may have put one up today, I can't remember.
+
+[06:53] **qx()**: But fantastic place to be, fantastic place to take ownership and take control of the ecosystem as kushti says.
+
+[07:00] **qx()**: I cannot, until hash gets too high on this pool, I cannot stress to use this pool.
+
+[07:07] **qx()**: They're the only ones doing that stuff that I know of.
+
+[07:11] **qx()**: And, you know, why not get a little extra bang for your buck when you mine into it?
+
+[07:15] **qx()**: All right?
+
+[07:17] **qx()**: Fantastic.
+
+[07:18] **qx()**: Let's jump into, oh, and you can get there from sigmanauts.com slash mining.
+
+[07:23] **qx()**: You can see how to join the pool, how to join the telegram and get started there.
+
+[07:29] **qx()**: Great, let's dive right into the developer update.
+
+[07:34] **qx()**: All right, we have AnonBR with Nautilus.
+
+[07:37] **qx()**: The entire main interface is ported to the new design system.
+
+[07:40] **qx()**: Now there are only four medium complexity components on the dApp connector left to be ported.
+
+[07:45] **qx()**: If all goes well, we can have a beta release next week.
+
+[07:48] **qx()**: Refracted and merge add read-only WalletView and restore WalletView and to import WalletView.
+
+[07:52] **qx()**: Added recovery phrase backup verification flow and create wallet view.
+
+[07:57] **qx()**: Added support for view storing wallets from 10, 15, 18, 21, and 24 word recovery phrase.
+
+[08:02] **qx()**: That's great.
+
+[08:02] **qx()**: That's great.
+
+[08:03] **qx()**: Added several minor UI fixes and code quality improvements.
+
+[08:09] **qx()**: All right, kushti with Ergo Protocol and Reference Client R&D doing final audit and code cleaning for 6.0 codebase for input blocks working on input blocks coming out to border and forks resolution.
+
+[08:22] **qx()**: Somebody put fast, very clever there.
+
+[08:24] **qx()**: SigmaUSD Oracle pool has been updated, FII now update script is allowing to update the pool to version 2.
+
+[08:30] **qx()**: And I think I said last week that won't be GORT as in Gold Oracle Reward Tokens, it's going to be Dollar Oracle Reward Tokens, which is DORT.
+
+[08:40] **qx()**: So if you're privileged enough to run the Oracle version 2 of SigmaUSD, it will be DORT tokens as a reward.
+
+[08:48] **qx()**: OK, Celaut project, implementing simple services to try to have some examples of potentially interesting architectures.
+
+[08:54] **qx()**: At the same time, I'm fixing bugs I find in the node and improving the usability of the terminal.
+
+[08:59] **qx()**: Awesome.
+
+[09:01] **qx()**: C8 was talking about ZeroConf.
+
+[09:04] **qx()**: Let's see.
+
+[09:05] **qx()**: We have C8 here with Ergify.
+
+[09:08] **qx()**: ETA Dexy Gold alpha UI end of next week.
+
+[09:11] **qx()**: That's awesome.
+
+[09:12] **qx()**: Swap UI done.
+
+[09:13] **qx()**: History work in progress.
+
+[09:14] **qx()**: Mempool server integration work in progress.
+
+[09:16] **qx()**: Design work in progress.
+
+[09:18] **qx()**: ErgoPay work in progress.
+
+[09:19] **qx()**: And you can see his work right there.
+
+[09:23] **qx()**: Did I forget the thumbs up now?
+
+[09:24] **qx()**: Good.
+
+[09:26] **qx()**: All right, we have Anand Bihar here again.
+
+[09:27] **qx()**: I think he's just answering somebody.
+
+[09:31] **qx()**: Yeah, he's answering C8.
+
+[09:32] **qx()**: Is that it?
+
+[09:41] **qx()**: That may be a short one.
+
+[09:47] **qx()**: We have NoRoYogi.
+
+[09:50] **qx()**: This is Mark the Shark, the leader of the Sigmanauts mining DAO, who we were just speaking about.
+
+[09:57] **qx()**: Sigmanauts mining pool, ergo-miners.com is back online.
+
+[10:01] **qx()**: Reviving miner, do you work specifically for miners, changing payout for miner?
+
+[10:05] **qx()**: Reworked UI and embedded into dash, just need to glance over database code for this and should be there soon.
+
+[10:10] **qx()**: qx() deleted some massive files on the server, and we added another volume to our server, 100 gigabytes.
+
+[10:15] **qx()**: Yeah, we've had a few, in the beginning, we had a few hangups of the logs just going crazy and bringing the server down for a few minutes.
+
+[10:22] **qx()**: So we turned off logging on one of the apps, which made a big difference, deleted some weird caching that was happening in Docker for the database, and it freed up like 20, 30 gigs.
+
+[10:35] **qx()**: So we don't even need to migrate to the new drive yet, but super cool.
+
+[10:39] **qx()**: Pool hash at 103.
+
+[10:40] **qx()**: I think we saw it was 105 in the thing I just had up at the time.
+
+[10:45] **qx()**: Distributed largest weekly collection of ERG from Demurrage Storage Rent.
+
+[10:48] **qx()**: 29.7 ERG.
+
+[10:50] **qx()**: So this is like, come on guys, like, look at these other pools.
+
+[10:53] **qx()**: I get it.
+
+[10:53] **qx()**: You know, a lot of other major pools, they're running ERG, they're running tons of other chains, right?
+
+[11:00] **qx()**: So it's not on their main list to implement Storage Rent.
+
+[11:03] **qx()**: It's going to be soon though, I guarantee it.
+
+[11:06] **qx()**: But for now, Sigmanauts, hit it up guys.
+
+[11:10] **qx()**: Sharknet, funded 190 ERGs from community and refinance for paying auditors for the LLM generated smart contracts, successfully built and trained LLM using DR Pro on a small set of data provided by Lotto, created simple UI for users to load model to run locally.
+
+[11:24] **qx()**: So guys, this is very cool.
+
+[11:26] **qx()**: Let me explain where this is going, right?
+
+[11:29] **qx()**: So imagine either going to a site, paying a few tokens, or else, of course, the ability to pull it down from GitHub yourself if you have that ability.
+
+[11:38] **qx()**: Those options can always be available and are encouraged in Ergo, right?
+
+[11:42] **qx()**: But let's say Sigmanauts are hosting an LLM for a smart contract building.
+
+[11:48] **qx()**: Go there, put in a few tokens worth of whatever your prompt is.
+
+[11:54] **qx()**: You're looking for a simple locking smart contract.
+
+[11:56] **qx()**: You're looking for, I don't know, some sort of time release or some other thing, even more complex things.
+
+[12:02] **qx()**: That's the goal is you type in your prompt, tell it what you want, and boom, it outputs a smart contract that has gone through numerous amounts of training times.
+
+[12:11] **qx()**: to give you a smart contract that's pretty good.
+
+[12:14] **qx()**: And then, of course, perhaps another very specifically fine-tuned LLM to double-check that smart contract for you.
+
+[12:21] **qx()**: Maybe they're built together, maybe they're not.
+
+[12:23] **qx()**: Who knows?
+
+[12:23] **qx()**: We're not at quite at that stage yet, but that's what this, that's what NoRoYogi is working towards.
+
+[12:28] **qx()**: So super, super cool sharknet.
+
+[12:33] **qx()**: Okay, what else do we have node view x, y, z, added pop-ups for Spectrum DEX swaps, SigmaUSD swaps, bitcoin, Rosen Bridge, sorry, SigmaUSD swaps and Rosen Bridge events, decreased number of requested boxes for index page price chart, added timeout for node change dialogue when loading node connections.
+
+[12:52] **qx()**: That's super neat.
+
+[12:53] **qx()**: Can we see it here?
+
+[12:56] **qx()**: Nice.
+
+[12:58] **qx()**: All right, we've got Rosen Bridge.
+
+[13:01] **qx()**: We are in step-by-step testing of Wallace before opening the website.
+
+[13:04] **qx()**: Reform manual transaction, create four to five test events between Binance and other networks.
+
+[13:08] **qx()**: Once everything is verified, open the website publicly.
+
+[13:11] **qx()**: They did.
+
+[13:12] **qx()**: It's open as of maybe last night or this morning, or maybe it was yesterday.
+
+[13:15] **qx()**: Time kind of blends together, right?
+
+[13:17] **qx()**: Rosen Bridge Watcher version 2 completed the observation status service to update and change the status of operations.
+
+[13:25] **qx()**: Added the permit check service, which registers as a permit check into the health check service.
+
+[13:30] **qx()**: The Rosen Bridge app.
+
+[13:31] **qx()**: They've implemented a disconnect feature to properly disconnect wallets.
+
+[13:35] **qx()**: Oh, good.
+
+[13:35] **qx()**: Ensure responsive design for tablet-sized screens.
+
+[13:38] **qx()**: Apply the new design for monetary values.
+
+[13:41] **qx()**: The Watcher app.
+
+[13:42] **qx()**: Apply the new design for monetary values.
+
+[13:44] **qx()**: Guard app.
+
+[13:44] **qx()**: Apply the same thing.
+
+[13:45] **qx()**: Add a TX status to public event status.
+
+[13:49] **qx()**: So Rosen Bridge is alive, guys, if you're running a watcher, please let me take a minute to tell you, please do this update.
+
+[13:55] **qx()**: Right.
+
+[13:55] **qx()**: That's very important.
+
+[13:56] **qx()**: I know some of you may be a little nervous about the update from two or three weeks ago where there's a database migration.
+
+[14:02] **qx()**: Right.
+
+[14:03] **qx()**: Docker had pulled a version of the Postgres database that was being used as the in the pull commands to populate that.
+
+[14:11] **qx()**: So it had to be changed.
+
+[14:12] **qx()**: You were probably getting a permission denied error when you tried to run it for an update if you didn't follow the instructions.
+
+[14:18] **qx()**: So please follow that.
+
+[14:18] **qx()**: It's 10 minutes max.
+
+[14:20] **qx()**: It does not take long to copy the database, back it up, make your little switches, and then push the old database to restore to the new database container.
+
+[14:30] **qx()**: I did it on my watchers, didn't take too much time at all, and I spun back up.
+
+[14:34] **qx()**: So if you're worried about that, give that a try.
+
+[14:36] **qx()**: Feel free to reach out in a DM if you like if you're running into trouble.
+
+[14:40] **qx()**: We can certainly help you and walk you through that because it's very important to have all those watchers up and updated.
+
+[14:45] **qx()**: Otherwise, you're just burning electricity and it's not going to watch any events, right?
+
+[14:52] **qx()**: Okay, what else do we have here?
+
+[14:57] **qx()**: Okay.
+
+[15:00] **qx()**: That is it, folks.
+
+[15:04] **qx()**: All right.
+
+[15:05] **qx()**: Thanks for joining us.
+
+[15:07] **qx()**: Make sure, again, watchers, update your watchers.
+
+[15:10] **qx()**: Guards are all updated.
+
+[15:12] **qx()**: See if you can provide some liquidity.
+
+[15:14] **qx()**: I know MewFinance just created a fund to provide some liquidity for Rosen BNB and ERG on this side.
+
+[15:22] **qx()**: I think it's only 500 or so ERGs.
+
+[15:25] **qx()**: in total maybe a thousand so we can capture the BNB.
+
+[15:28] **qx()**: I need to look at that but check out MewFinance, check out that page where you can contribute to that kind of stuff and you'll automatically get those liquidity tokens having a share in the liquidity of that.
+
+[15:40] **qx()**: And don't forget to check out Sigmanauts' mining pool.
+
+[15:44] **qx()**: Again, only pool that I know of that's collecting storage rent for the time being.
+
+[15:48] **qx()**: And you get all those bonus tokens and a very cool, very unique community that's always open to helping.
+
+[15:55] **qx()**: And you get to essentially run it as well as part of the DAO.
+
+[16:00] **qx()**: All right.
+
+[16:00] **qx()**: Thanks, everybody.
+
+[16:02] **qx()**: Enjoy your week, I guess.
+
+[16:05] **qx()**: It's early.
+
+[16:05] **qx()**: Ciao.

@@ -1,0 +1,148 @@
+{
+  "call_date": "2025-06-13",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "03:22",
+      "question": "What is the unique feature that Rosen Bridge offers compared to other cross-chain bridges?",
+      "asker": "kushti",
+      "answer": "Rosen offers the ability to have unilateral access for both the network coin and tokens on top of the network with relatively clear security assumptions. Unlike optimistic bridges that offset computational cost, Rosen moves computational costs to another layer, spreads it out across a set of actors (watchers), and creates incentives for them to run that part of the system.",
+      "responder": "Armeanio",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Rosen Bridge",
+        "cross-chain",
+        "watchers",
+        "security assumptions"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "12:36",
+      "question": "Why has Doge integration been challenging for Rosen Bridge development?",
+      "asker": "qx()",
+      "answer": "Doge has been kicking our ass because the nodes and explorers are pretty tight with crappy infrastructure. The rate limits are super strict, so we had to design a new module for a multi-resource backend. Doge became an engineering challenge requiring special engineering to meet the specifications and expectations of other implementations.",
+      "responder": "Armeanio",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Doge",
+        "rate limits",
+        "infrastructure",
+        "multi-resource backend"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "21:56",
+      "question": "Why has Rosen Bridge avoided supporting stablecoins so far?",
+      "asker": "implied",
+      "answer": "We have avoided stable coins because if you have a foundation that can be frozen, seized, etc., you cannot really honestly claim that it's backed one to one. That's subject to change at any time based on the whims of a central actor that you don't control. This is one of the most underappreciated risks that's not really priced in.",
+      "responder": "Armeanio",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "stablecoins",
+        "centralization risk",
+        "freeze",
+        "seize"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "28:47",
+      "question": "What is the current status of Ergo node version 6.0 release?",
+      "asker": "qx()",
+      "answer": "There is a new code for 5.0.27 and 5.1 release that should hopefully be finalized around Monday. Version 6.0 will hopefully be released next week, maybe closer to the end of the week if no more issues are found. Last week Dusick found some consensus issues between 5.0 and 6.0 nodes, but those have been fixed.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "node version",
+        "consensus",
+        "release timeline"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "30:32",
+      "question": "When will the 6.0 hard fork activation occur?",
+      "asker": "implied",
+      "answer": "We need to set activation dates, currently thinking about something like June 25th to July 1st. Then in July we can start to deploy sub-blocks supporting nodes into the public testnet to see how it would work with mixed nodes in the mainnet.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "hard fork",
+        "activation date",
+        "sub-blocks",
+        "testnet"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "32:29",
+      "question": "What is the plan for sigma chains development?",
+      "asker": "implied",
+      "answer": "The sigma chains refactoring plan has been published. It's actually not so much work to start at least some merge mined sidechains - the simplest option. From what we have at the moment, it's possible to run some merge mined sidechains in somewhat like weeks, maybe with a couple of developers or even one with knowledge of Sigma Rust.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "sigma chains",
+        "merge mining",
+        "sidechains",
+        "Sigma Rust"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "37:13",
+      "question": "Why was Doge development different from Bitcoin for Rosen Bridge integration?",
+      "asker": "Mark",
+      "answer": "It has to do with data collection and scraping the chain. You have the blockchain, then you have infrastructure wrapped around the chain that's constantly calling it and reading the chain, putting it in a better format. A lot of that infrastructure around Doge itself is pretty strict with tight rate limits, making it hard to extract data.",
+      "responder": "Armeanio",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "data collection",
+        "blockchain scraping",
+        "infrastructure",
+        "rate limits"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "40:01",
+      "question": "Can a token like Rosen have a bigger market cap than ERG, and what would that mean for security?",
+      "asker": "Ursa Minor",
+      "answer": "Relative to what it offers, ERG is very mismatched based on the rest of the crypto market. The mismatch is probably a function of awareness and access struggles. However, long term it doesn't make practical sense for tokens to exceed ERG's value, and they likely go hand in hand in terms of growth.",
+      "responder": "Armeanio",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "market cap",
+        "token economics",
+        "security",
+        "ERG value"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "52:47",
+      "question": "Does having token market caps exceed ERG's market cap compromise security, and how is this different from proof of stake networks?",
+      "asker": "Grayman",
+      "answer": "No, it doesn't compromise security. In the long term, a big market cap of tokens means a big amount of storage rent, which actually increases security. Tokens contribute to the security budget of mining through storage rent. With time, a big total market cap of tokens is actually good and adds to security. Ergo is quite unique because of the demurrage components adding a new variable to the mining security budget equation.",
+      "responder": "kushti",
+      "category": "tokenomics",
+      "difficulty": "advanced",
+      "related_terms": [
+        "storage rent",
+        "security budget",
+        "demurrage",
+        "mining economics"
+      ]
+    }
+  ]
+}

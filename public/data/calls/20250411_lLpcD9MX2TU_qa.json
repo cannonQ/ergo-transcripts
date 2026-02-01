@@ -1,0 +1,158 @@
+{
+  "call_date": "2025-04-11",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "02:02",
+      "question": "How does MewFinance handle the Disco Solaris bridge from Cardano to Ergo?",
+      "asker": "Dan Friedman",
+      "answer": "MewFinance automates the bridging by reading the metadata on Cardano and dumping it into a register on Ergo to remint the token. They don't burn the original token completely - instead they throw it into a lock contract for safekeeping.",
+      "responder": "qx()",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "MewFinance",
+        "Disco Solaris",
+        "Cardano",
+        "metadata",
+        "lock contract"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "03:11",
+      "question": "What happened with Ergo's emission reduction?",
+      "asker": "Dan Friedman",
+      "answer": "Ergo's block emission has been reduced to 15 ERG per block. The Sigmanauts Mining Pool is collecting storage rent which can help offset some of the emission reduction impact for miners who join their pool.",
+      "responder": "qx() and kushti",
+      "category": "tokenomics",
+      "difficulty": "beginner",
+      "related_terms": [
+        "emission",
+        "mining",
+        "storage rent",
+        "Sigmanauts Pool"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "07:00",
+      "question": "What caused the recent GraphQL issues and how is Nautilus being improved to handle them?",
+      "asker": "qx()",
+      "answer": "Two of the three load balancers went down, causing GraphQL issues. Currently Nautilus defaults to Sigma space GraphQL, but they're giving Captain Nemo a list of rollover servers. The Ergo ecosystem has 4-6 public GraphQL servers, so Nautilus will be updated to roll over to all available GraphQL servers if one goes down.",
+      "responder": "qx()",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "GraphQL",
+        "Nautilus",
+        "load balancers",
+        "infrastructure",
+        "rollover servers"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "08:29",
+      "question": "When will Palmyra launch and what chains will it support?",
+      "asker": "qx()",
+      "answer": "Palmyra launches on August 14th as the first cross-chain launch using Rosen Bridge. It will launch on both Cardano (via MintSwap) and Binance Smart Chain (via PancakeSwap). The company received the first-ever utility token license from Seychelles FSA for this launch.",
+      "responder": "Dan Friedman",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Palmyra",
+        "Rosen Bridge",
+        "cross-chain",
+        "MintSwap",
+        "PancakeSwap",
+        "Seychelles FSA"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "11:25",
+      "question": "Why can't Palmyra officially launch liquidity pools on Ergo at launch?",
+      "asker": "Dan Friedman",
+      "answer": "To maintain utility token classification and avoid security classification, there must be clear utility on every chain. They need staking support on Ergo before they can officially create liquidity pools. Without staking, launching pools could violate regulations and change the token's classification from utility to security.",
+      "responder": "Dan Friedman",
+      "category": "governance",
+      "difficulty": "advanced",
+      "related_terms": [
+        "utility token",
+        "security classification",
+        "staking",
+        "regulatory compliance",
+        "liquidity pools"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "23:02",
+      "question": "What's the philosophy behind Ergo's non-breaking development approach?",
+      "asker": "qx()",
+      "answer": "Kushti explains that no applications have been broken due to protocol upgrades. The philosophy is non-breaking development so application developers can be confident their builds will stay functional. The ecosystem can be built like a medieval cathedral - solid constructions built over time that last centuries. ErgoScript applications from 2019 still work exactly the same way today.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "non-breaking development",
+        "protocol upgrades",
+        "ErgoScript",
+        "backward compatibility"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "26:45",
+      "question": "What new ErgoScript capabilities are now available with Merkleized constructions?",
+      "asker": "Dan Friedman",
+      "answer": "Merkleized Sub-Syntax trees and Merkleized Finite State Machines are now available in ErgoScript. You can have wallets controlled by one of 100 policies using a Merkle tree root hash instead of huge scripts. This provides privacy and compact storage for complex wallet scenarios. Finite State Machines allow multi-stage contract execution with state progression, useful for disputes and escrow scenarios.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "Merkleized",
+        "Sub-Syntax trees",
+        "Finite State Machines",
+        "ErgoScript",
+        "privacy",
+        "multi-stage contracts"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "32:07",
+      "question": "How are decentralized oracles safer from price manipulation than traditional price feeds like LBMA?",
+      "asker": "Ursa Miner",
+      "answer": "Traditional indexes rely on centralized sources with vested interests in price direction. Decentralized oracles have incentive structures focused on providing accurate data rather than manipulating prices. Anyone can spin up oracles without being part of exclusive consortiums. The decentralized consensus makes manipulation much harder since you'd need to convince the majority of oracles to provide false data, similar to attacking any blockchain consensus.",
+      "responder": "Dan Friedman",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "oracles",
+        "price manipulation",
+        "LBMA",
+        "decentralized consensus",
+        "incentive structures"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "38:30",
+      "question": "How does Ergo's oracle system prevent bad actors from manipulating data?",
+      "asker": "Dan Friedman",
+      "answer": "In oracle pools, outlier data gets excluded and only the calculated average from the majority gets posted on-chain. You'd need to convince the majority of oracles to post invalid data. Bad actors lose their participation tokens and future income from the oracle system, creating strong incentives to be honest. The larger group of naturally good actors in the Ergo ecosystem helps maintain integrity.",
+      "responder": "qx() and kushti",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "oracle pools",
+        "outlier data",
+        "participation tokens",
+        "slashing",
+        "data integrity"
+      ]
+    }
+  ]
+}

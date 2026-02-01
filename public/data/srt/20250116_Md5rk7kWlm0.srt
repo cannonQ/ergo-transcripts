@@ -1,0 +1,686 @@
+1
+00:00:15,000 --> 00:00:17,000
+Hey.
+
+2
+00:00:17,000 --> 00:00:18,000
+Hello everyone.
+
+3
+00:00:18,000 --> 00:00:20,000
+My pleasure to be here again.
+
+4
+00:00:20,000 --> 00:00:26,000
+And today, well, there are three of us.
+
+5
+00:00:26,000 --> 00:00:28,000
+So we have mgPai again.
+
+6
+00:00:28,000 --> 00:00:31,000
+Hey, everyone.
+
+7
+00:00:31,000 --> 00:00:34,000
+Nice to be on again.
+
+8
+00:00:34,000 --> 00:00:38,000
+It's great to be here with you, mgPai.
+
+9
+00:00:38,000 --> 00:00:40,000
+I've missed you a lot.
+
+10
+00:00:40,000 --> 00:00:43,000
+Oh, is that the case?
+
+11
+00:00:43,000 --> 00:00:45,000
+All right.
+
+12
+00:00:45,000 --> 00:00:47,000
+Where's your TMG pie?
+
+13
+00:00:47,000 --> 00:00:52,000
+Oh, I mean, I just we all have nothing in
+my hands.
+
+14
+00:00:52,000 --> 00:00:54,000
+You just woke up at nine o'clock, sir.
+
+15
+00:00:54,000 --> 00:00:58,000
+Are you OK?
+
+16
+00:00:58,000 --> 00:01:00,000
+I'm not OK. Nice.
+
+17
+00:01:00,000 --> 00:01:03,000
+All right.
+
+18
+00:01:00,000 --> 00:01:02,000
+So what's new, kushti?
+
+19
+00:01:02,000 --> 00:01:05,000
+You've been busy, real busy.
+
+20
+00:01:05,000 --> 00:01:14,000
+You know you will be safe let's say. All
+right so yeah a lot of things going on so
+
+21
+00:01:14,000 --> 00:01:23,000
+well fixing some issues with 6.0 as yeah
+Dusek is doing well quite awesome audit so
+
+22
+00:01:23,000 --> 00:01:32,000
+finally some good quality audit is coming.
+
+23
+00:01:33,000 --> 00:01:39,000
+So, yeah, well, fixing issues being
+found.
+
+24
+00:01:39,000 --> 00:01:45,000
+Then, yeah, so for sub-blocks, yeah,
+working on, well, prototype implementation
+
+25
+00:01:45,000 --> 00:01:51,000
+of, well, blocks generation, so, well,
+spreading transactions.
+
+26
+00:01:52,000 --> 00:01:54,000
+Input blocks and so on.
+
+27
+00:01:54,000 --> 00:02:02,000
+So maybe next week even I will have some
+demo for local DevNets, well local miner
+
+28
+00:02:02,000 --> 00:02:10,000
+based I mean because yes stratum is not
+ready stratum proxy and so on.
+
+29
+00:02:10,000 --> 00:02:17,000
+So well that's just initial prototype
+local miner based.
+
+30
+00:02:17,000 --> 00:02:19,000
+Then what else?
+
+31
+00:02:19,000 --> 00:02:24,000
+So, yeah, well, and gentlemen, as you are
+probably both mining in the testnet and
+
+32
+00:02:24,000 --> 00:02:29,000
+only you, right, then, yeah, let's
+consider a 6.0 activation date in the
+
+33
+00:02:29,000 --> 00:02:34,000
+testnet.
+
+34
+00:02:35,000 --> 00:02:43,000
+So, yeah, maybe by tomorrow so that there
+is one issue how to be fixed and then yeah
+
+35
+00:02:43,000 --> 00:02:51,000
+we can do another release candidate 6.0
+release candidate with public testnet
+
+36
+00:02:51,000 --> 00:02:59,000
+activation details and well yeah testnet
+has some custom soft fork activation
+
+37
+00:02:59,000 --> 00:03:07,000
+parameters so that means we can have
+activation quite soon then and then yeah
+
+38
+00:03:07,000 --> 00:03:15,000
+well audit to be continued so I've started
+a raffle actually well to raise some funds
+
+39
+00:03:15,000 --> 00:03:23,000
+for rewarding Dusek and then yeah well
+with audits done, and I also will recheck
+
+40
+00:03:23,000 --> 00:03:31,000
+everything a few more times, and then we
+can think about watching mainnet
+
+41
+00:03:31,000 --> 00:03:39,000
+activation, maybe starting from March,
+something like that.
+
+42
+00:03:46,000 --> 00:03:49,000
+So, yeah, a lot of things going on.
+
+43
+00:03:49,000 --> 00:03:57,000
+Also, well, Dexy Gold audit is done, so
+all the 18 contracts reviewed.
+
+44
+00:03:57,000 --> 00:04:09,000
+And, yeah, so currently, well, the issue
+is too, well, Polish backend.
+
+45
+00:04:09,000 --> 00:04:13,000
+And then, yeah, well, consider how
+front-end would like and who will work on
+
+46
+00:04:13,000 --> 00:04:17,000
+that.
+
+47
+00:04:18,000 --> 00:04:28,000
+So, well, maybe and hopefully and already
+pre-confirmed that C8 will do UI.
+
+48
+00:04:28,000 --> 00:04:38,000
+Yeah, well, other options are not so
+viable at the moment.
+
+49
+00:04:38,000 --> 00:04:55,000
+I'm also pushing guys to start a new
+SigmaUSD Oracle Pool version 2 based.
+
+50
+00:04:55,000 --> 00:05:05,000
+For Oracle Pool updates, I finished the
+code to produce needed transactions.
+
+51
+00:05:05,000 --> 00:05:10,000
+I'm going to test in the testnet and then
+we can consider how to update the mainnet
+
+52
+00:05:10,000 --> 00:05:15,000
+pool.
+
+53
+00:05:16,000 --> 00:05:20,000
+So yeah, a lot of things going on in
+parallel.
+
+54
+00:05:20,000 --> 00:05:29,000
+Also, there are some talks going on
+within I think to propose actually some
+
+55
+00:05:29,000 --> 00:05:38,000
+things in regards with reworking things
+based on experience I've got from ErgoDevs
+
+56
+00:05:38,000 --> 00:05:47,000
+as well as other organizations we have in
+the community such as Sigmanauts, Ergo
+
+57
+00:05:47,000 --> 00:05:56,000
+Foundation and so on.
+
+58
+00:05:57,000 --> 00:06:06,000
+And yeah, well, posted recently, well,
+Core Track roadmap based on my own
+
+59
+00:06:06,000 --> 00:06:15,000
+observations and also feedback got from
+other developers.
+
+60
+00:06:15,000 --> 00:06:19,000
+And yeah, thinking to do that for other
+tracks, well, we need to consider what to
+
+61
+00:06:19,000 --> 00:06:23,000
+do with pools, so trying to get from
+Palmyra what they're planning to do with
+
+62
+00:06:23,000 --> 00:06:27,000
+Lithos Protocol and so on.
+
+63
+00:06:29,000 --> 00:06:36,000
+Then yeah there is need to get well
+information from Oracle Pools so I'm
+
+64
+00:06:36,000 --> 00:06:43,000
+pushing guys to do there so yeah well a
+lot of mess there yeah big because it's
+
+65
+00:06:43,000 --> 00:06:50,000
+not so you know centralized shitcoin with
+team I mean all that's bizarre.
+
+66
+00:06:51,000 --> 00:06:59,000
+Yeah, we have different scams basically.
+
+67
+00:06:59,000 --> 00:07:04,000
+But yeah, you know if you want to
+coordinate and well, even get a picture
+
+68
+00:07:04,000 --> 00:07:09,000
+from what's going on, that's complicated.
+
+69
+00:07:10,000 --> 00:07:13,000
+And that should be complicated, I guess.
+
+70
+00:07:13,000 --> 00:07:22,000
+That's the point of having a normal
+community, not stimulated one like
+
+71
+00:07:22,000 --> 00:07:31,000
+shitcoins are doing with, well, sponsoring
+mercenaries and so on.
+
+72
+00:07:31,000 --> 00:07:37,000
+All right. What's on your end, guys?
+
+73
+00:07:37,000 --> 00:07:41,000
+I think mgPai should go next.
+
+74
+00:07:41,000 --> 00:07:42,000
+Yeah, sure.
+
+75
+00:07:42,000 --> 00:07:44,000
+So let's see.
+
+76
+00:07:44,000 --> 00:07:48,000
+So over the last, I think, few months or
+so since I've been on here, I haven't had
+
+77
+00:07:48,000 --> 00:07:52,000
+too many updates.
+
+78
+00:07:52,000 --> 00:07:59,000
+But one thing I've been discussing with a
+few members in the development community
+
+79
+00:07:59,000 --> 00:08:06,000
+is the standardization of off-chain bots
+and framework.
+
+80
+00:08:06,000 --> 00:08:12,000
+I think that's quite important, because
+for those of you who don't know, off-chain
+
+81
+00:08:12,000 --> 00:08:18,000
+bots are needed to process transactions
+that go through more complex smart
+
+82
+00:08:18,000 --> 00:08:24,000
+contracts, such as your DEX transactions,
+NFT marketplace transactions, or certain
+
+83
+00:08:24,000 --> 00:08:30,000
+ones, and then DuckPools.
+
+84
+00:08:31,000 --> 00:08:33,000
+They all use these off-chain bot
+executors, and the problem with them and
+
+85
+00:08:33,000 --> 00:08:35,000
+they're more specific.
+
+86
+00:08:36,000 --> 00:08:39,000
+They're all specific to UTXO blockchains.
+
+87
+00:08:39,000 --> 00:08:43,000
+And the problem with them development
+wise is that it takes a lot of time,
+
+88
+00:08:43,000 --> 00:08:47,000
+effort, research and work to actually have
+one running.
+
+89
+00:08:48,000 --> 00:08:52,000
+That's why development on these chains
+just takes so long compared to something
+
+90
+00:08:52,000 --> 00:08:56,000
+like EVM, where you don't need any of it.
+
+91
+00:08:57,000 --> 00:09:02,000
+Of course, the downsides of not having an
+EVM, right?
+
+92
+00:09:02,000 --> 00:09:07,000
+It might make development experience
+better, but it makes the blockchain much
+
+93
+00:09:07,000 --> 00:09:12,000
+heavier and have a lot of bloat and all,
+and you can't run a node as easily.
+
+94
+00:09:12,000 --> 00:09:16,000
+So the problem on Ergo, and frankly on
+Cardano as well, is that there's no
+
+95
+00:09:16,000 --> 00:09:20,000
+standardization of this.
+
+96
+00:09:20,000 --> 00:09:25,000
+As a developer, you just got to do
+everything from scratch, build everything.
+
+97
+00:09:25,000 --> 00:09:27,000
+And everyone has their own way.
+
+98
+00:09:27,000 --> 00:09:29,000
+I looked at DuckPools' code.
+
+99
+00:09:29,000 --> 00:09:30,000
+It's in Python.
+
+100
+00:09:30,000 --> 00:09:33,000
+And they're using some node API to write
+everything.
+
+101
+00:09:33,000 --> 00:09:40,000
+Then Spectrum is on the other end, where
+it's a very complex and heavy code base.
+
+102
+00:09:40,000 --> 00:09:48,000
+Then my own framework is also different
+compared to how both of them do it.
+
+103
+00:09:48,000 --> 00:09:51,000
+I would like to think it's in the middle
+between the complexity of DuckPools and
+
+104
+00:09:51,000 --> 00:09:54,000
+Spectrum.
+
+105
+00:09:55,000 --> 00:09:58,000
+And then everyone just has their own way.
+
+106
+00:09:58,000 --> 00:10:00,000
+And we kind of got to fix this.
+
+107
+00:10:00,000 --> 00:10:04,000
+And recently, Fleet SDK, the JavaScript
+framework for building Ergo, has been
+
+108
+00:10:04,000 --> 00:10:08,000
+getting really good.
+
+109
+00:10:08,000 --> 00:10:17,000
+It's supporting a lot of things that were
+needed from the Java and the Ergo AppKit.
+
+110
+00:10:17,000 --> 00:10:22,000
+So recently I've been playing around with
+that and experimenting with writing my own
+
+111
+00:10:22,000 --> 00:10:27,000
+off-chain in a different language, in
+TypeScript, and it's going pretty well.
+
+112
+00:10:27,000 --> 00:10:29,000
+There's not many bottlenecks left.
+
+113
+00:10:29,000 --> 00:10:34,000
+So I think that's the next step for
+developers or the DevDAO is to create a
+
+114
+00:10:34,000 --> 00:10:39,000
+standardized framework for off-chain,
+maybe record a few videos and have some
+
+115
+00:10:39,000 --> 00:10:44,000
+good documentation on how to go about it.
+
+116
+00:10:45,000 --> 00:10:50,000
+Like maybe kushti was mentioning that
+Dexy Gold is coming up, the audit is going
+
+117
+00:10:50,000 --> 00:10:55,000
+well, the UI is in progress by C8.
+
+118
+00:10:55,000 --> 00:10:59,000
+So maybe it'd be a good framework or a
+good opportunity to demonstrate how
+
+119
+00:10:59,000 --> 00:11:03,000
+off-chain works by maybe writing it in
+Fleet SDK using or to execute Dexy Gold
+
+120
+00:11:03,000 --> 00:11:07,000
+transactions.
+
+121
+00:11:08,000 --> 00:11:13,000
+And another thing is that I've been doing
+over the past almost year is learning a
+
+122
+00:11:13,000 --> 00:11:18,000
+new language called Go.
+
+123
+00:11:18,000 --> 00:11:20,000
+And the benefits of this language is that
+it's very good for concurrent
+
+124
+00:11:20,000 --> 00:11:22,000
+applications.
+
+125
+00:11:23,000 --> 00:11:27,000
+So it just processes things more
+efficiently, or it's easier for developers
+
+126
+00:11:27,000 --> 00:11:31,000
+to process things more efficiently.
+
+127
+00:11:31,000 --> 00:11:36,000
+So, you know, we have another community
+member, the guy who's doing the Keystone
+
+128
+00:11:36,000 --> 00:11:41,000
+integration, PG, and he's working on a Go
+library for Ergo, right?
+
+129
+00:11:41,000 --> 00:11:44,000
+So the development and it's like almost
+like it's almost good, you know, just a
+
+130
+00:11:44,000 --> 00:11:47,000
+few more issues.
+
+131
+00:11:47,000 --> 00:11:50,000
+But the development of this would be also
+nice because Go is a really good language
+
+132
+00:11:50,000 --> 00:11:53,000
+to do this in, to do off-chain.
+
+133
+00:11:54,000 --> 00:11:56,000
+And so we're really looking forward to
+that.
+
+134
+00:11:56,000 --> 00:12:00,000
+So, you know, as time goes on, the
+development experience is looking really
+
+135
+00:12:00,000 --> 00:12:04,000
+good for Ergo.
+
+136
+00:12:04,000 --> 00:12:10,000
+We're getting more and more tools at hand
+to attract a diverse set of skills.
+
+137
+00:12:10,000 --> 00:12:16,000
+So I think that's also the next frontier,
+along with kushti doing his own updates on
+
+138
+00:12:16,000 --> 00:12:22,000
+the node.
+
+139
+00:12:22,000 --> 00:12:25,000
+That's just fantastic, mgPai.
+
+140
+00:12:25,000 --> 00:12:28,000
+I love your hat.
+
+141
+00:12:25,000 --> 00:12:27,000
+Where'd you get your hat from?
+
+142
+00:12:27,000 --> 00:12:33,000
+Yeah, this is actually some new merch I
+got from Crypto Chips.
+
+143
+00:12:33,000 --> 00:12:36,000
+I was talking to the founder of Crypto
+Chips.
+
+144
+00:12:36,000 --> 00:12:39,000
+I'm like, hey, we need some Ergo hats and
+all going.
+
+145
+00:12:39,000 --> 00:12:43,000
+So he sent me a good nice prototype of
+what he can achieve so the community might
+
+146
+00:12:43,000 --> 00:12:47,000
+see this drop in the future.
+
+147
+00:12:48,000 --> 00:12:54,000
+You're extorting free swag from
+suppliers.
+
+148
+00:12:54,000 --> 00:12:58,000
+I'm prototyping here.
+
+149
+00:12:58,000 --> 00:12:59,000
+That's awesome.
+
+150
+00:12:59,000 --> 00:13:03,000
+Well, speaking of swag, I put up an
+announcement last week.
+

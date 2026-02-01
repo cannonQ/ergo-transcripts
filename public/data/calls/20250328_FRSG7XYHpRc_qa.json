@@ -1,0 +1,135 @@
+{
+  "call_date": "2025-03-28",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "02:04",
+      "question": "What payout strategies are Bitcoin mining pools using that could be applied to Ergo mining?",
+      "asker": "qx()",
+      "answer": "A lot of Bitcoin pools are using full pay per share (FPPS), where miners get paid upfront regardless of whether the pool finds a block. The pool takes on the risk and variance, though this typically comes with higher fees. There's also Ocean, which is more of a decentralized pool that allows miners to put their name in the coinbase and have more control over block construction.",
+      "responder": "Marc the Shark",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "mining pools",
+        "PPLNS",
+        "pay per share",
+        "mining rewards"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "08:45",
+      "question": "Did you explain demurrage to the DX pool operator and what was their response?",
+      "asker": "qx()",
+      "answer": "Yes, I mentioned demurrage to the DX pool operator but he wasn't really sure what it is. He actually requested some information and materials about it, so I'll send that over. Though selfishly speaking, we don't want DX pool to have demurrage because then they'd find all our demurrage blocks.",
+      "responder": "Marc the Shark",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "demurrage",
+        "storage rent",
+        "mining pools",
+        "DX pool"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "11:04",
+      "question": "How can we create a tool to show miners they get more profit with Sigmanauts pool?",
+      "asker": "HQ3rr",
+      "answer": "We can create a comparison tool showing dollar value of earnings. We know how many blocks each pool has mined, and we can divide by their hash rate to calculate earnings per gigahash. For the past 30 days, we can show: 'If you mined with 1GB on Sigmanauts pool, you could have made this much versus this much on another pool.' We already have price feeds for all the bonus tokens, so we just sum up all tokens and show the dollar value.",
+      "responder": "HQ3rr and qx()",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "mining profitability",
+        "bonus tokens",
+        "hash rate",
+        "mining pools"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "15:39",
+      "question": "What's the timeline for Ergo 6.0 mainnet activation?",
+      "asker": "qx()",
+      "answer": "We can think about proposing voting starting from early May. There are still some things to check like mainnet activation parameters, and we need a client suitable for mainnet plus some final audit. This week I'll do another release candidate (RC4) which should be close to the final version. We've also formed a group in Sigmanauts DAO to work with mining pools and exchanges to inform them about the 6.0 release.",
+      "responder": "Kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Ergo 6.0",
+        "hard fork",
+        "activation",
+        "mining pools",
+        "exchanges"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "16:14",
+      "question": "What new capabilities will Ergo 6.0 enable?",
+      "asker": "Implied",
+      "answer": "With 6.0 we can promote trustless Bitcoin relay (not Bitcoin only), and schemes based on that. We'll have support for bulletproofs for verification of zero-knowledge proofs on the blockchain. After 6.0, we can also consider sub-blocks with a public testnet activation and roadmap.",
+      "responder": "Kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "Bitcoin relay",
+        "bulletproofs",
+        "zero-knowledge proofs",
+        "sub-blocks"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "19:04",
+      "question": "How many more updates will be needed for testnet nodes before 6.0 mainnet?",
+      "asker": "qx()",
+      "answer": "You'll need to update to RC4, which is coming soon and will be quite different from RC3. Mining nodes specifically need to update because other nodes can stay on 5.0. We'll do testing to see how 5.0 nodes survive under 6.0 transactions. The more testnet nodes we have from the community, the better for testing.",
+      "responder": "Kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "testnet",
+        "node updates",
+        "release candidates",
+        "backward compatibility"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "37:27",
+      "question": "Are there any other blockchain projects focusing on monetary tooling and peer-to-peer money?",
+      "asker": "qx()",
+      "answer": "There are some exciting private cryptocurrencies, but they're just trying to do cash. The question is how do you produce that cash? Privacy of payments matters a lot, but first you need to solve the quality of money problem, then privacy of payments will follow. I don't see complete solutions elsewhere - there are some efforts but they are small scale and usually not complete.",
+      "responder": "Kushti",
+      "category": "tokenomics",
+      "difficulty": "advanced",
+      "related_terms": [
+        "monetary design",
+        "privacy",
+        "quality of money",
+        "peer-to-peer"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "38:47",
+      "question": "Can Bitcoin forks like Litecoin introduce sub-blocks via a soft fork?",
+      "asker": "Richie (chat)",
+      "answer": "I'm in touch with a Bitcoin Cash developer working on a similar concept called Tailstorm. It's a very generic solution, similar to layers planned for Cardano. For Bitcoin, Bitcoin Cash, and Litecoin, it might be possible since they already have compact blocks for transaction propagation. The main question is how to reward miners - it's harder than on Bitcoin but maybe solvable.",
+      "responder": "Kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "sub-blocks",
+        "Bitcoin forks",
+        "Tailstorm",
+        "compact blocks",
+        "mining rewards"
+      ]
+    }
+  ]
+}
