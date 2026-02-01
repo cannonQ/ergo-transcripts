@@ -1,0 +1,103 @@
+{
+  "call_date": "2025-01-24",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "06:08",
+      "question": "What is the current status of sub-blocks development?",
+      "asker": "implied community interest",
+      "answer": "There is good progress with sub-blocks. I've got my own local miner-based DevNet just today, correctly generating input blocks, sub-blocks with transactions and creating proper commitments. As a next step I'm thinking about adding APIs for applications immediately, so some early version may be available in just a few days. Application developers will have a possibility to play with single nodes, local miner-based testing environments to check how to speed applications up with input blocks, sub-blocks.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "sub-blocks",
+        "input blocks",
+        "DevNet",
+        "APIs"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "08:40",
+      "question": "What is the status of the 6.0 audit and when will it be ready for testnet?",
+      "asker": "implied community interest",
+      "answer": "For 6.0 audit is going on. I think there is one small issue left now. We are discussing different issues and aspects of design but currently there is one small issue left unfixed and then we are good with doing public testnet deployment and also then it's a good time to reach mining pools in regards with all possible activation dates.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "6.0",
+        "audit",
+        "testnet",
+        "mining pools"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "11:59",
+      "question": "How do you manage the treasury with a temporary DAO structure?",
+      "asker": "qx()",
+      "answer": "The idea is to send remaining treasury if there will be remaining ERG at the end of 2025 to the new DAO, having totally new members, maybe, even. The idea is that every organization should have some limited time frame. If there is something persistent, such as treasury, maybe it's better just to pass to the new organization. It should work if there are not many DAO members profiting from treasury.",
+      "responder": "kushti",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "DAO",
+        "treasury",
+        "ErgoDevs",
+        "governance"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "22:11",
+      "question": "How would off-chain exchange of ChainCash notes work?",
+      "asker": "qx()",
+      "answer": "You can have completely simplified protocol if you assume payment servers like in ARK on Bitcoin. You may have a federation instead, like maybe Rosen watchers even, to track the state of off-chain. You may use those guardians of off-chain states in on-chain protocols. After fixing some issues in ChainCash contracts, I think to do another attempt and it seems doable to do kind of ARK on top of Ergo.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "ChainCash",
+        "off-chain",
+        "ARK",
+        "payment servers",
+        "federation"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "48:37",
+      "question": "What is the basic difference between Ergo and Bitcoin, and why are smart contracts possible on Ergo and not on Bitcoin?",
+      "asker": "community member",
+      "answer": "Everything possible on Bitcoin is also possible on Ergo - multi signatures, discrete lock contracts, atomic swaps, Lightning Network channels. But Ergo allows for a lot more because more blockchain context is available during transaction validation and more opcodes and sophisticated cryptography using Sigma protocols. For example, Ergo Mixer is non-interactive non-custodial, while Bitcoin's CoinJoin proposal was interactive and still has no implementation after 6 years.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Bitcoin",
+        "smart contracts",
+        "eUTXO",
+        "Sigma protocols",
+        "ErgoMixer"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "57:41",
+      "question": "How do Ethereum smart contracts compare to Ergo smart contracts?",
+      "asker": "Luke",
+      "answer": "Ethereum is totally different from Ergo. Bitcoin follows a programmable money paradigm, and Ethereum is like a replicated programmable calculator that everyone has access to. They tried to sell it as a decentralized computer for all applications, but with time, all applications on Ethereum are financial anyway. The question is why build a general purpose world computer which only works on financial applications when you could build something specifically designed for financial use cases like Ergo.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Ethereum",
+        "smart contracts",
+        "programmable money",
+        "eUTXO"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "call_date": "2025-01-24",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - January 23rd 2025 PART 2",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Community Positioning and Coordination Discussions",
+      "category": "governance",
+      "start_time": "04:54",
+      "end_time": "06:08",
+      "primary_speaker": "kushti",
+      "summary": "Discussion about positioning the Ergo movement and need for better coordination in the community. kushti mentions this is a pivot point for cryptocurrencies and proposes organizing town hall meetings soon.",
+      "key_terms": [
+        "positioning",
+        "coordination",
+        "town halls",
+        "pivot point",
+        "cryptocurrency movement"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Sub-blocks Development Progress Update",
+      "category": "technical",
+      "start_time": "06:08",
+      "end_time": "07:43",
+      "primary_speaker": "kushti",
+      "summary": "kushti reports good progress with sub-blocks implementation, having a local miner-based DevNet generating sub-blocks with transactions. APIs for applications will be available soon, with peer-to-peer optimizations coming later.",
+      "key_terms": [
+        "sub-blocks",
+        "DevNet",
+        "local miner",
+        "APIs",
+        "peer-to-peer network",
+        "application developers"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Ergo 6.0 Audit Status and Timeline",
+      "category": "technical",
+      "start_time": "07:43",
+      "end_time": "08:40",
+      "primary_speaker": "kushti",
+      "summary": "The 6.0 audit is nearly complete with one small issue remaining. After resolution, public testnet deployment and mining pool coordination for activation dates will begin.",
+      "key_terms": [
+        "6.0 audit",
+        "testnet deployment",
+        "mining pools",
+        "activation dates",
+        "protocol upgrade"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "ErgodevDAO Restructuring to PID-based Temporary Organization",
+      "category": "governance",
+      "start_time": "08:40",
+      "end_time": "11:50",
+      "primary_speaker": "kushti",
+      "summary": "kushti proposes reworking ErgodevDAO into a temporary PID-based organization for 2025 with specific goals and funding targets. The DAO would dissolve at year-end and restart fresh in 2026.",
+      "key_terms": [
+        "ErgodevDAO",
+        "PID-based DAO",
+        "temporary organization",
+        "2025 goals",
+        "treasury management",
+        "Ergo Winter of Codes"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Treasury Management in Temporary DAO Structure",
+      "category": "governance",
+      "start_time": "11:50",
+      "end_time": "13:24",
+      "primary_speaker": "kushti",
+      "summary": "Discussion on how to handle treasury transfers between temporary DAOs, with kushti explaining the plan to transfer remaining ERG to new organizations each year. qx shares experience from Sigmanauts DAO transition.",
+      "key_terms": [
+        "treasury management",
+        "DAO transition",
+        "Sigmanauts DAO",
+        "token transfers",
+        "organizational restructuring"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Ergo Protocol Stability and Bitcoin-like Evolution Path",
+      "category": "technical",
+      "start_time": "13:51",
+      "end_time": "18:44",
+      "primary_speaker": "kushti",
+      "summary": "kushti explains Ergo's protocol is largely complete and will follow Bitcoin's conservative update approach. Version 6.0 will be like SegWit activation, and sub-blocks are backwards compatible soft forks.",
+      "key_terms": [
+        "protocol stability",
+        "Bitcoin evolution",
+        "SegWit",
+        "soft fork",
+        "backwards compatibility",
+        "established protocol"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Global Neutral Money Vision and Monetary Expansion",
+      "category": "defi",
+      "start_time": "18:44",
+      "end_time": "22:02",
+      "primary_speaker": "kushti",
+      "summary": "kushti outlines vision for Ergo as global neutral money platform supporting various forms of monetary expansion including stablecoins, tokenized assets, and ChainCash. Discusses building different types of money on top of the base protocol.",
+      "key_terms": [
+        "global neutral money",
+        "ultra-fixed money",
+        "monetary expansion",
+        "ChainCash",
+        "stablecoins",
+        "tokenized assets"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "ChainCash Off-chain Exchange Mechanisms",
+      "category": "technical",
+      "start_time": "22:02",
+      "end_time": "25:55",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of challenges in implementing off-chain exchange of ChainCash notes. kushti mentions exploring ARK-like payment servers and federation-based approaches to simplify the protocol while maintaining security.",
+      "key_terms": [
+        "ChainCash",
+        "off-chain exchange",
+        "ARK payment server",
+        "federation",
+        "payment servers",
+        "trustless protocol"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Peer-to-peer Banking and Free Banking Network Vision",
+      "category": "defi",
+      "start_time": "25:55",
+      "end_time": "28:01",
+      "primary_speaker": "kushti",
+      "summary": "kushti explains vision for peer-to-peer banking network where everyone can become a bank, backed by collateral or trust. Contrasts this with current crypto industry's problematic relationship with Tether.",
+      "key_terms": [
+        "peer-to-peer banking",
+        "free banking",
+        "Hal Finney",
+        "settlement layer",
+        "collateral",
+        "Tether",
+        "USDT"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Peer-to-peer Trading Platforms and LocalBitcoins History",
+      "category": "ecosystem",
+      "start_time": "28:30",
+      "end_time": "35:04",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of reputation-based P2P trading platforms, LocalBitcoins history and shutdown, and current alternatives like HODL HODL. Explores potential for building similar systems on Ergo using existing tools like MewFinance escrow contracts.",
+      "key_terms": [
+        "LocalBitcoins",
+        "HODL HODL",
+        "P2P trading",
+        "reputation system",
+        "MewFinance",
+        "escrow contracts",
+        "on-ramp"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Developer Bounties Across Ergo Ecosystem Projects",
+      "category": "ecosystem",
+      "start_time": "35:04",
+      "end_time": "37:01",
+      "primary_speaker": "kushti",
+      "summary": "Over 27,000 ERG in bounties are available across various Ergo projects including ChainCash, Rosen, Oracle repositories. Bounties are denominated in different tokens including ERG, Gluon, RSN, and GORT.",
+      "key_terms": [
+        "developer bounties",
+        "27000 ERG",
+        "ChainCash",
+        "Rosen",
+        "Gluon",
+        "RSN",
+        "GORT",
+        "Oracle rewards"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Lithium-backed Stablecoin Development Partnership",
+      "category": "defi",
+      "start_time": "37:01",
+      "end_time": "43:28",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Dan discusses development of lithium-backed stablecoin with tokenomics team that worked on World Mobile. Plans to bring existing token from Polygon to Ergo ecosystem and importance of commodity-backed assets for DeFi.",
+      "key_terms": [
+        "lithium stablecoin",
+        "tokenomics",
+        "World Mobile",
+        "commodity-backed",
+        "Polygon",
+        "DeFi",
+        "legacy markets"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Index Funds and Algorithmic-Physical Asset Hybrids",
+      "category": "defi",
+      "start_time": "43:28",
+      "end_time": "44:09",
+      "primary_speaker": "kushti",
+      "summary": "kushti mentions Anon Real's work on index funds that could combine algorithmic and physical backing, such as lithium funds that are 20% algorithmic and 80% physical or other ratios.",
+      "key_terms": [
+        "index funds",
+        "Anon Real",
+        "algorithmic backing",
+        "physical backing",
+        "hybrid assets",
+        "lithium funds"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "Cornell BRICK Token Integration for Architecture Students",
+      "category": "community",
+      "start_time": "44:56",
+      "end_time": "47:26",
+      "primary_speaker": "qx()",
+      "summary": "qx reports on introducing Cornell BRICK token to 300-400 architecture students for peer-to-peer value exchange. System allows students to earn tokens for free plotting and printing services, with Tipperbot integration ready.",
+      "key_terms": [
+        "Cornell BRICK",
+        "architecture students",
+        "peer-to-peer value",
+        "LETS system",
+        "Tipperbot",
+        "plotting services"
+      ]
+    },
+    {
+      "topic_id": 15,
+      "title": "Ergo vs Bitcoin Transaction Model and Smart Contracts",
+      "category": "technical",
+      "start_time": "48:12",
+      "end_time": "54:03",
+      "primary_speaker": "kushti",
+      "summary": "kushti explains UTXO transaction model where there's no send/receive distinction, just destroying and creating boxes. Discusses how Ergo supports all Bitcoin contracts plus much more due to richer context and opcodes.",
+      "key_terms": [
+        "UTXO model",
+        "programmable digital notes",
+        "multi-signatures",
+        "Ergo Mixer",
+        "Lightning Network",
+        "CoinJoin",
+        "extended UTXO"
+      ]
+    },
+    {
+      "topic_id": 16,
+      "title": "Ergo as Complete Bitcoin 1.0 Since Launch",
+      "category": "technical",
+      "start_time": "54:03",
+      "end_time": "56:46",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of Ergo being designed as complete 'Bitcoin 1.0' from day one, flexible enough for non-breaking updates. Contrasts with Bitcoin's ongoing debates about tail emissions and demurrage that could take years to resolve.",
+      "key_terms": [
+        "Bitcoin 1.0",
+        "complete design",
+        "non-breaking updates",
+        "tail emissions",
+        "demurrage",
+        "protocol flexibility"
+      ]
+    },
+    {
+      "topic_id": 17,
+      "title": "Ethereum vs Ergo Smart Contract Philosophy",
+      "category": "technical",
+      "start_time": "57:41",
+      "end_time": "61:14",
+      "primary_speaker": "kushti",
+      "summary": "kushti contrasts Ethereum's 'world computer' approach with Ergo's programmable money paradigm. Criticizes Web3 projects as meaningless while noting that Ethereum applications are ultimately financial despite the general-purpose design.",
+      "key_terms": [
+        "world computer",
+        "programmable money",
+        "decentralized applications",
+        "Web3",
+        "financial applications",
+        "blockchain efficiency"
+      ]
+    }
+  ]
+}

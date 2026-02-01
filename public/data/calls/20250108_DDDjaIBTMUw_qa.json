@@ -1,0 +1,105 @@
+{
+  "call_date": "2025-01-08",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:12",
+      "question": "What is Tornado Cash and why was it significant for understanding property rights in programmable money?",
+      "asker": "implicit",
+      "answer": "Tornado Cash is a service that mixes potentially identifiable cryptocurrency funds with others to obscure the trail back to the funds original source. It's a privacy tool used in Ethereum networks where all transactions are public by default. The US Treasury blacklisted the protocol, but in November 2024, a federal appeals court ruled that Tornado Cash's immutable smart contracts cannot be sanctioned because they are not the property of a foreign national entity.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "smart contracts",
+        "privacy",
+        "property rights",
+        "autonomous code"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "04:01",
+      "question": "How does programmable money differ from traditional physical money in terms of protection?",
+      "asker": "implicit",
+      "answer": "In our physical real world every bank note is not protecting itself - it's passive. But in the digital world of programmable money, every digital bank note is protected by a public key or many keys and also potentially programmable logic. Every digital bank note protects itself with some program, and execution of that program possibly with signature check decides whether a note may be spent or not.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "programmable money",
+        "digital currency",
+        "public key",
+        "smart contracts"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "06:16",
+      "question": "What are the different types of ownership possible in programmable money systems?",
+      "asker": "implicit",
+      "answer": "There are three types: individual ownership when a digital banknote belongs to just one key, cooperative property when a note belongs to multiple keys with quorum voting needed to spend, and contractual property which belongs to autonomous contracts where an owner cannot be defined or will be decided by a program at a certain point in the future.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "ownership",
+        "multisig",
+        "autonomous contracts",
+        "programmable money"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "08:53",
+      "question": "What are the two main approaches to tokenizing art on blockchain?",
+      "asker": "implicit",
+      "answer": "First, you may tokenize physical art ownership by dividing ownership rights into pieces and issuing tokens where one token corresponds to one piece - for example 1000 tokens representing full ownership of an art object. Another option is to create digital art and put it on the blockchain, which is more commonly done as an NFT - a single token associated with the digital artwork.",
+      "responder": "kushti",
+      "category": "tokenomics",
+      "difficulty": "beginner",
+      "related_terms": [
+        "NFT",
+        "tokenization",
+        "art",
+        "ownership",
+        "digital assets"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "12:23",
+      "question": "Can you provide an example of how complex ownership structures work with tokenized art?",
+      "asker": "implicit",
+      "answer": "You can have 200 tokens out of 1,000 owned by an art gallery, 100 tokens by a painter's cooperative requiring 9 out of 15 signatures for transfer, and lock 700 remaining tokens to a contract that puts one token every week on a decentralized blockchain-based auction. This creates different ownership types for different pieces of the same art object - individual, collective, and contractual ownership respectively.",
+      "responder": "kushti",
+      "category": "tokenomics",
+      "difficulty": "advanced",
+      "related_terms": [
+        "fractional ownership",
+        "multisig",
+        "auctions",
+        "smart contracts",
+        "tokenized art"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "15:41",
+      "question": "What tools are available in the Ergo ecosystem for art tokenization and financialization?",
+      "asker": "implicit",
+      "answer": "Ergo has airdrop tools to reward communities with tokens, auction coin framework to emit tokens via auctions periodically, fundraising tools like MewFinance, NFT auctions, Paideia for token-based decision making and digital cooperatives, liquidity pools, order book based decentralized exchanges, and NFT collection tools. These enable complex financial schemes around art tokenization and sustainable finance for artists.",
+      "responder": "kushti",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Ergo ecosystem",
+        "Paideia",
+        "MewFinance",
+        "NFT",
+        "DeFi",
+        "liquidity pools"
+      ]
+    }
+  ]
+}

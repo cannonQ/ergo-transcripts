@@ -1,0 +1,276 @@
+{
+  "call_date": "2025-02-02",
+  "call_title": "Dev Update Feb 2nd 2025 |  Cornell AAP Brick, ChainCash, Miners Rights Protocol, Minotaur, and more!",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Crypto Market Commentary and Meme Token Criticism",
+      "category": "ecosystem",
+      "start_time": "00:11",
+      "end_time": "13:38",
+      "primary_speaker": "qx()",
+      "summary": "Discussion of current crypto market conditions, criticism of meme tokens and political tokens like Trump coin, and emphasis on building meaningful blockchain applications. The speakers express frustration with speculative trading overshadowing legitimate development work.",
+      "key_terms": [
+        "meme tokens",
+        "Trump token",
+        "financial nihilism",
+        "meaningful usage",
+        "speculation",
+        "value extraction"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Cornell BRICK Token Payment System Demo",
+      "category": "ecosystem",
+      "start_time": "13:38",
+      "end_time": "21:45",
+      "primary_speaker": "qx()",
+      "summary": "Live demonstration of the BRICK token payment system for 3D printing at Cornell. Shows how students can pay for prints using either ERG or BRICK tokens through Discord integration, with automatic confirmation after blockchain settlement.",
+      "key_terms": [
+        "BRICK token",
+        "Cornell",
+        "3D printing",
+        "Tipperbot",
+        "Discord integration",
+        "blockchain payments",
+        "user experience"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Rosen Bridge Testing and BSC Integration",
+      "category": "bridges",
+      "start_time": "25:52",
+      "end_time": "32:06",
+      "primary_speaker": "Armeanio",
+      "summary": "Update on Rosen Bridge development including bug fixes for Binance Smart Chain integration. Armeanio emphasizes the extensive testing required for open source bridge software and mentions upcoming BSC support.",
+      "key_terms": [
+        "Rosen Bridge",
+        "Binance Smart Chain",
+        "BSC",
+        "testing",
+        "bug fixes",
+        "cross-chain",
+        "open source security"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Exchange Listings and Market Access Strategy",
+      "category": "ecosystem",
+      "start_time": "28:29",
+      "end_time": "32:06",
+      "primary_speaker": "qx()",
+      "summary": "Discussion of exchange listings as access points rather than price pumps, with updates on Gate.io applications and Kraken conversations. Emphasis on liquidity through Rosen Bridge providing alternative access routes.",
+      "key_terms": [
+        "exchange listings",
+        "Gate.io",
+        "Kraken",
+        "market access",
+        "liquidity",
+        "Peter Dimitrakos",
+        "regulatory environment"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Sigma 6.0 and Sub-blocks Development Progress",
+      "category": "technical",
+      "start_time": "32:59",
+      "end_time": "35:34",
+      "primary_speaker": "qx()",
+      "summary": "Updates on Sigma 6.0 testing and sub-blocks implementation. All issues have been fixed and public testnet activation is proceeding, with plans for simplified mining setup to facilitate testing.",
+      "key_terms": [
+        "Sigma 6.0",
+        "sub-blocks",
+        "testnet",
+        "input blocks",
+        "transaction ordering",
+        "mining",
+        "block time"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Developer Tool Updates: Fleet SDK and Nautilus",
+      "category": "technical",
+      "start_time": "35:34",
+      "end_time": "36:26",
+      "primary_speaker": "qx()",
+      "summary": "Updates from Anon BR on Fleet SDK improvements including zigzag encoding fixes and fuzzing tests, plus Nautilus wallet UI improvements with mobile experience enhancements.",
+      "key_terms": [
+        "Fleet SDK",
+        "Nautilus",
+        "zigzag encoding",
+        "fuzzing tests",
+        "mobile experience",
+        "transaction signing",
+        "UI improvements"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "ChainCash and Layer 2 Development",
+      "category": "technical",
+      "start_time": "36:26",
+      "end_time": "37:51",
+      "primary_speaker": "Armeanio",
+      "summary": "Update on ChainCash development with removal of refund mechanisms in favor of note redemption. Discussion of Ergo's advantages in drawing from Bitcoin research and other Layer 2 solutions.",
+      "key_terms": [
+        "ChainCash",
+        "Layer 2",
+        "note redemption",
+        "Bitcoin research",
+        "Midgard",
+        "Hydra",
+        "scaling solutions"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "SigmaUSD Oracle Pool Mainnet Update",
+      "category": "defi",
+      "start_time": "37:51",
+      "end_time": "38:16",
+      "primary_speaker": "qx()",
+      "summary": "Progress on updating SigmaUSD Oracle Pool to version 2, with successful testnet deployment and plans for coordinated mainnet update with reduced oracle members.",
+      "key_terms": [
+        "SigmaUSD",
+        "Oracle Pool",
+        "mainnet update",
+        "coordination",
+        "oracle members",
+        "version 2"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Wallet Development: Satergo and Minotaur Updates",
+      "category": "technical",
+      "start_time": "38:25",
+      "end_time": "41:28",
+      "primary_speaker": "qx()",
+      "summary": "Updates on Satergo wallet format changes and Android signer app, plus Minotaur 2.4.0 release featuring token burning capabilities, animated QR codes, and improved transaction displays.",
+      "key_terms": [
+        "Satergo",
+        "Minotaur",
+        "Android signer",
+        "token burning",
+        "animated QR codes",
+        "transaction display",
+        "wallet format"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Layer 1 UX Improvements and Dexy Gold",
+      "category": "technical",
+      "start_time": "41:28",
+      "end_time": "43:18",
+      "primary_speaker": "Armeanio",
+      "summary": "Discussion of C8's work on improving Layer 1 user experience through Dexy Gold integration and SigmaUSD bank UI. Emphasis on achieving responsive UX without abstraction layers through mempool chaining and sub-blocks.",
+      "key_terms": [
+        "Layer 1 UX",
+        "Dexy Gold",
+        "C8",
+        "mempool chaining",
+        "sub-blocks",
+        "stateless clients",
+        "user experience"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Keystone Hardware Wallet Integration",
+      "category": "technical",
+      "start_time": "43:18",
+      "end_time": "45:11",
+      "primary_speaker": "qx()",
+      "summary": "Progress update on Keystone hardware wallet integration including completed Rust SDK, JavaScript SDK, and form development. WebUSB SDK and wallet software integration with Nautilus and Satergo remaining.",
+      "key_terms": [
+        "Keystone",
+        "hardware wallet",
+        "Rust SDK",
+        "JavaScript SDK",
+        "WebUSB",
+        "Nautilus",
+        "Satergo",
+        "integration"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Miner Rights Protocol and Token Distribution",
+      "category": "ecosystem",
+      "start_time": "45:19",
+      "end_time": "48:52",
+      "primary_speaker": "qx()",
+      "summary": "Mark the Shark's development of Miner Rights Protocol for automated token distribution to miners, including IgniFox tokens and Flame Shards. Discussion of mining as superior token distribution method compared to pump-fun style launches.",
+      "key_terms": [
+        "Miner Rights Protocol",
+        "Mark the Shark",
+        "IgniFox",
+        "Flame Shards",
+        "token distribution",
+        "proof of work emission",
+        "Sigmanauts pool"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Gaming and AI Projects: Hashmon and Trading Bots",
+      "category": "ecosystem",
+      "start_time": "48:52",
+      "end_time": "51:18",
+      "primary_speaker": "qx()",
+      "summary": "Updates on Mark the Shark's gaming project Hashmon with monster evolution mechanics, and Thresher reinforcement learning trading bot using LLMs and GPU training for DEX trading strategies.",
+      "key_terms": [
+        "Hashmon",
+        "gaming",
+        "monster evolution",
+        "Thresher",
+        "reinforcement learning",
+        "LLM",
+        "DEX trading",
+        "GPU training"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "Ecosystem Highlights: Cyberverse and MewMart",
+      "category": "ecosystem",
+      "start_time": "51:18",
+      "end_time": "52:50",
+      "primary_speaker": "qx()",
+      "summary": "Recognition of Cyberverse gaming platform growth to 100 average users and new archery game, plus MewMart/MewFinance rapid development including fundraising tools and plans for KYC-free Keystone wallet sales.",
+      "key_terms": [
+        "Cyberverse",
+        "gaming platform",
+        "archery game",
+        "MewMart",
+        "MewFinance",
+        "fundraising",
+        "KYC-free",
+        "rapid development"
+      ]
+    },
+    {
+      "topic_id": 15,
+      "title": "Mining Pool Advocacy and Community Support",
+      "category": "community",
+      "start_time": "52:50",
+      "end_time": "54:46",
+      "primary_speaker": "Armeanio",
+      "summary": "Strong advocacy for miners to support community-driven pools like Sigmanauts that contribute to ecosystem development rather than profit-only pools. Call for community pools to become hash rate dominant.",
+      "key_terms": [
+        "mining pools",
+        "Sigmanauts pool",
+        "hash rate dominance",
+        "community contribution",
+        "ecosystem development",
+        "miner advocacy"
+      ]
+    }
+  ]
+}

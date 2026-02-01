@@ -1,0 +1,163 @@
+{
+  "call_date": "2025-02-13",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - February 12th",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Rosen Bridge Binance Integration Progress",
+      "category": "bridges",
+      "start_time": "01:07",
+      "end_time": "03:54",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Discussion of Rosen Bridge progress on Binance integration and Kraken applications. Technical update on Docker repository changes affecting Watcher and Guard software deployment, requiring new PostgreSQL repository configuration.",
+      "key_terms": [
+        "Rosen Bridge",
+        "Binance",
+        "Kraken",
+        "Watcher",
+        "Guard",
+        "Docker",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Palmyra Multi-Chain Token Launch Strategy",
+      "category": "ecosystem",
+      "start_time": "04:19",
+      "end_time": "10:17",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Dan announces Palmyra's upcoming token launch later this month across multiple chains including Cardano, Ergo, and EVM networks. Strategy focuses on concentrated liquidity over broad distribution, with market maker support and selective exchange listings.",
+      "key_terms": [
+        "Palmyra",
+        "multi-chain",
+        "market makers",
+        "CEX listing",
+        "DEX listing",
+        "liquidity",
+        "RSPalm"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Hong Kong Conference and Business Development",
+      "category": "ecosystem",
+      "start_time": "10:17",
+      "end_time": "13:53",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Sam will represent Palmyra at Hong Kong conference with kushti, focusing on potential fund discussions and exchange listings. Combined Palmyra-Ergo business development efforts including Lithos index development work.",
+      "key_terms": [
+        "Hong Kong conference",
+        "kushti",
+        "Sam",
+        "funds",
+        "exchanges",
+        "Lithos index",
+        "Oracle"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Ergo Testnet 6.0 RC2 Status",
+      "category": "technical",
+      "start_time": "25:25",
+      "end_time": "26:42",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Update on Ergo 6.0 RC2 testnet deployment with improved block times of 16.77 seconds. Call for more testnet participants to distribute mining hash and improve testing conditions for sub-blocks functionality.",
+      "key_terms": [
+        "testnet",
+        "6.0 RC2",
+        "sub-blocks",
+        "block times",
+        "mining",
+        "kushti"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "US Crypto Regulation and Trump Administration",
+      "category": "governance",
+      "start_time": "27:33",
+      "end_time": "39:04",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Extended discussion on US crypto policy changes under Trump administration, analyzing potential motivations behind 'American Crypto' initiatives. Dan suggests strategy to bring crypto businesses back to US for better regulatory framework development.",
+      "key_terms": [
+        "US crypto policy",
+        "Trump administration",
+        "American Crypto",
+        "Gary Gensler",
+        "regulation",
+        "business exodus"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Ergo's Resilience and Decentralization Philosophy",
+      "category": "technical",
+      "start_time": "37:09",
+      "end_time": "38:52",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Discussion of Ergo's ability to survive regulatory storms due to its decentralized nature, optional privacy features, and robust open-source tooling. Emphasis on Ergo's independence from external market pressures.",
+      "key_terms": [
+        "decentralization",
+        "optional privacy",
+        "open source",
+        "node operation",
+        "regulatory independence"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Sub-blocks Development Timeline",
+      "category": "technical",
+      "start_time": "41:18",
+      "end_time": "42:14",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Brief update on sub-blocks development progress, with epics completed and voting done on testnet. Development is moving forward with kushti leading the implementation.",
+      "key_terms": [
+        "sub-blocks",
+        "epics",
+        "voting",
+        "testnet",
+        "kushti",
+        "FleetSDK",
+        "FleetSharp"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Marketing Strategy for Non-Crypto Audiences",
+      "category": "marketing",
+      "start_time": "42:14",
+      "end_time": "55:11",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Discussion on promoting Ergo to non-crypto audiences, with emphasis on utility-first approach rather than speculation. Both speakers advocate for projects building on Ergo to handle their own marketing while foundation focuses on developer tools and grassroots adoption.",
+      "key_terms": [
+        "non-crypto marketing",
+        "utility-first",
+        "grassroots adoption",
+        "Tipperbot",
+        "developer tools",
+        "solution marketing"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Intellectual Property Protection in Open Source",
+      "category": "ecosystem",
+      "start_time": "55:37",
+      "end_time": "58:48",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Advice for developers on protecting IP while participating in Ergo's open-source ecosystem. Discussion of hybrid approaches using open-source smart contracts with closed-source UIs, emphasizing transparency and trade-offs.",
+      "key_terms": [
+        "intellectual property",
+        "open source",
+        "closed source",
+        "smart contracts",
+        "UI protection",
+        "transparency",
+        "trade-offs"
+      ]
+    }
+  ]
+}

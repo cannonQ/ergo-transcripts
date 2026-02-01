@@ -1,0 +1,121 @@
+{
+  "call_date": "2025-01-16",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - January 16th 2025",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "02:19",
+      "decision": "Consider 6.0 activation date in the testnet by tomorrow",
+      "speaker": "kushti",
+      "context": "There is one issue to be fixed and then a new release candidate can be made",
+      "topic": "technical",
+      "significance": "major",
+      "quote": "let's consider a 6.0 activation date in the testnet. So, yeah, maybe by tomorrow"
+    },
+    {
+      "id": 2,
+      "timestamp": "04:18",
+      "decision": "C8 will do UI for Dexy Gold",
+      "speaker": "kushti",
+      "context": "Other options are not so viable at the moment",
+      "topic": "technical",
+      "significance": "minor",
+      "quote": "maybe and hopefully and already pre-confirmed that C8 will do UI"
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "01:52",
+      "commitment": "Have demo for local DevNets for sub-blocks prototype",
+      "owner": "kushti",
+      "timeline": "next week",
+      "topic": "technical",
+      "quote": "maybe next week even I will have some demo for local DevNets"
+    },
+    {
+      "id": 2,
+      "timestamp": "02:35",
+      "commitment": "Do another 6.0 release candidate with public testnet activation details",
+      "owner": "kushti",
+      "timeline": "after fixing one issue",
+      "topic": "technical",
+      "quote": "we can do another release candidate 6.0 release candidate with public testnet activation details"
+    },
+    {
+      "id": 3,
+      "timestamp": "03:20",
+      "commitment": "Think about mainnet activation starting from March",
+      "owner": "kushti",
+      "timeline": "March",
+      "topic": "technical",
+      "quote": "we can think about watching mainnet activation, maybe starting from March"
+    },
+    {
+      "id": 4,
+      "timestamp": "05:05",
+      "commitment": "Test Oracle Pool transaction code in testnet",
+      "owner": "kushti",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "I'm going to test in the testnet"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "04:09",
+      "question": "Who will work on the front-end for Dexy Gold",
+      "context": "Backend needs to be polished and front-end developer needs to be determined",
+      "topic": "technical",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "05:16",
+      "question": "How to update the mainnet Oracle Pool",
+      "context": "After testing in testnet, need to consider mainnet pool updates",
+      "topic": "technical",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 3,
+      "timestamp": "06:26",
+      "question": "What Palmyra is planning to do with Lithos Protocol",
+      "context": "Need to consider what to do with pools and get information from various teams",
+      "topic": "technical",
+      "raised_by": "kushti"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "01:05",
+      "fact": "Dusek is doing audit on 6.0, finding and fixing issues",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 2,
+      "timestamp": "03:49",
+      "fact": "Dexy Gold audit is done with all 18 contracts reviewed",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 3,
+      "timestamp": "04:55",
+      "fact": "Finished code to produce needed transactions for Oracle Pool updates",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 4,
+      "timestamp": "06:15",
+      "fact": "Posted Core Track roadmap based on observations and developer feedback",
+      "speaker": "kushti",
+      "topic": "technical"
+    }
+  ]
+}

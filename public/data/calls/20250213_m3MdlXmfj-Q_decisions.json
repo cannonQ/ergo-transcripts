@@ -1,0 +1,97 @@
+{
+  "call_date": "2025-02-13",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - February 12th",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "00:23",
+      "decision": "Moved the AMA to Wednesday because the AV person is traveling Thursday",
+      "speaker": "Dan Friedman",
+      "context": "Scheduling conflict with regular AV support",
+      "topic": "scheduling",
+      "significance": "minor",
+      "quote": "we decided to move this a little earlier"
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "01:51",
+      "commitment": "Guard code coming soon, will be applied to guards and followed by watcher update",
+      "owner": "Rosen Bridge team",
+      "timeline": "soon",
+      "topic": "rosen-bridge",
+      "quote": "We should see the guard code coming soon. We'll apply that to the guards. Make sure that's all hunky-dory and then you should see a watcher update there as well"
+    },
+    {
+      "id": 2,
+      "timestamp": "04:54",
+      "commitment": "Token launching later this month",
+      "owner": "Dan Friedman/Palmyra",
+      "timeline": "later this month",
+      "topic": "tokenomics",
+      "quote": "we're planning to do for probably later this month"
+    },
+    {
+      "id": 3,
+      "timestamp": "18:04",
+      "commitment": "Will load Sam up with Ergo stickers for Hong Kong conference",
+      "owner": "Dan Friedman",
+      "timeline": "unspecified",
+      "topic": "marketing",
+      "quote": "I'll make sure I'll load them up with Ergo stickers so they can be represented over there"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "09:17",
+      "question": "Will RSPalm be listed on a CEX at launch",
+      "context": "Community question about centralized exchange listing",
+      "topic": "tokenomics",
+      "raised_by": "big 3D"
+    },
+    {
+      "id": 2,
+      "timestamp": "56:05",
+      "question": "Best way to present ideas while protecting IP in Ergo ecosystem",
+      "context": "New community member asking about intellectual property protection",
+      "topic": "development",
+      "raised_by": "Rich"
+    }
+  ],
+  "reversals_or_updates": [
+    {
+      "id": 1,
+      "timestamp": "02:32",
+      "previous": "Using original PostgreSQL repository",
+      "update": "Migrated to different PostgreSQL repository for Docker setup",
+      "reason": "Main official repository was pulled",
+      "speaker": "Dan Friedman",
+      "topic": "technical"
+    }
+  ],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "25:25",
+      "fact": "Testnet last 32 blocks were 16.77 seconds each with kushti's 6.0 RC2 jar update",
+      "speaker": "Dan Friedman",
+      "topic": "technical"
+    },
+    {
+      "id": 2,
+      "timestamp": "36:53",
+      "fact": "GDP of Greenland is 3.2 billion",
+      "speaker": "Dan Friedman",
+      "topic": "economics"
+    },
+    {
+      "id": 3,
+      "timestamp": "12:00",
+      "fact": "Sam and kushti will be doing combined Palmyra Ergo work at Hong Kong conference talking to potential funds and exchanges",
+      "speaker": "Dan Friedman",
+      "topic": "business-development"
+    }
+  ]
+}

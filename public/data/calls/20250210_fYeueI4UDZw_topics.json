@@ -1,0 +1,183 @@
+{
+  "call_date": "2025-02-10",
+  "call_title": "Ergo Dev Update Feb 9th 2025 |  SigmaUSD, Ledger, Minotaur, Nautilus, Rosen, ergfi, and more!",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "SigmaUSD Bank Update and Price Arbitrage",
+      "category": "defi",
+      "start_time": "00:41",
+      "end_time": "07:34",
+      "primary_speaker": "qx()",
+      "summary": "Discussion of SigmaUSD bank testing by Unreal and explanation of arbitrage opportunities between DEX prices and bank prices. Detailed walkthrough of proxy contracts vs direct bank interaction methods.",
+      "key_terms": [
+        "SigmaUSD",
+        "SigmaRSV",
+        "arbitrage",
+        "proxy contracts",
+        "reserve ratio",
+        "TokenJ",
+        "DEX",
+        "liquidity pools"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Nautilus Wallet Ledger Integration Updates",
+      "category": "technical",
+      "start_time": "07:55",
+      "end_time": "08:49",
+      "primary_speaker": "qx()",
+      "summary": "Anand Bihar released Nautilus v0.2.0 with Ergo Ledger JS improvements including device management methods and UI fixes. Refactored transaction signing and address confirmation components.",
+      "key_terms": [
+        "Nautilus",
+        "Ledger",
+        "hardware wallet",
+        "APDU logging",
+        "transaction signing",
+        "device management"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "ErgFi Dexy Gold Integration Progress",
+      "category": "defi",
+      "start_time": "08:49",
+      "end_time": "09:22",
+      "primary_speaker": "qx()",
+      "summary": "C8 reports Dexy Gold integration ETA in a few weeks with completed LP actions and bank operations. UI integration and ErgoPay features are in progress along with mempool server integration.",
+      "key_terms": [
+        "ErgFi",
+        "Dexy Gold",
+        "liquidity pools",
+        "LP tokens",
+        "ErgoPay",
+        "mempool",
+        "bank freemint"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Sub-blocks Development and Spring of Code",
+      "category": "technical",
+      "start_time": "09:22",
+      "end_time": "11:02",
+      "primary_speaker": "qx()",
+      "summary": "Kushti's progress on sub-blocks with DAG representation and API methods completed. Discussion of replacing ErgoHack with a spring/summer of code focused on preparing dApps for sub-blocks implementation.",
+      "key_terms": [
+        "sub-blocks",
+        "DAG",
+        "ErgoHack",
+        "spring of code",
+        "P2P network",
+        "input ordering",
+        "dApp preparation"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Node Version 6.0.0 RC and Testnet Voting",
+      "category": "technical",
+      "start_time": "11:02",
+      "end_time": "11:51",
+      "primary_speaker": "qx()",
+      "summary": "Version 6.0.0 RC released with testnet voting support and activation voting starting soon in next 120 block epoch. Testnet is running with UI testing for SigmaUSD updates.",
+      "key_terms": [
+        "node version",
+        "testnet",
+        "voting activation",
+        "epoch",
+        "120 blocks",
+        "release candidate"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Paideia DAO Platform Debugging",
+      "category": "governance",
+      "start_time": "11:51",
+      "end_time": "12:42",
+      "primary_speaker": "qx()",
+      "summary": "Luivatra worked with CannonQ to debug DAO creation issues. QX() praises Paideia as excellent tool for group decision-making with funds management capabilities.",
+      "key_terms": [
+        "Paideia",
+        "DAO creation",
+        "user consensus",
+        "governance",
+        "Sigmanauts",
+        "group decisions"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Minotaur Wallet Feature Updates",
+      "category": "technical",
+      "start_time": "13:07",
+      "end_time": "14:07",
+      "primary_speaker": "qx()",
+      "summary": "Voryu Jack added address book selection, wallet archiving, and favorites display features. QX() demonstrates cold wallet setup using Android device with Minotaur for offline transaction signing.",
+      "key_terms": [
+        "Minotaur",
+        "address book",
+        "wallet archiving",
+        "cold wallet",
+        "Android",
+        "offline signing",
+        "ADB"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Rosen Bridge Architecture and Bitcoin Integration",
+      "category": "bridges",
+      "start_time": "14:07",
+      "end_time": "17:34",
+      "primary_speaker": "qx()",
+      "summary": "Major Rosen Bridge updates including network structure improvements and watcher v2 development. Bitcoin runes R&D completed with implementation phase starting despite API rate limit concerns.",
+      "key_terms": [
+        "Rosen Bridge",
+        "watcher",
+        "Bitcoin runes",
+        "API rate limits",
+        "network structure",
+        "cross-chain",
+        "store of value"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Fanta's Index Node Frontend Development",
+      "category": "technical",
+      "start_time": "17:46",
+      "end_time": "19:39",
+      "primary_speaker": "qx()",
+      "summary": "Fanta created new frontend for index nodes offering easier setup compared to full Ergo Explorer. This provides simpler alternative for users wanting self-hosted blockchain exploration tools.",
+      "key_terms": [
+        "index nodes",
+        "frontend",
+        "Ergo Explorer",
+        "self-hosted",
+        "Docker container",
+        "blockchain exploration",
+        "usability"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Cornell BRICK Token Distribution Update",
+      "category": "community",
+      "start_time": "21:44",
+      "end_time": "22:22",
+      "primary_speaker": "qx()",
+      "summary": "Cornell BRICK token pilot progressing with 30 wallets distributed to architecture students out of 800 total. Several students have successfully redeemed free prints using the token system.",
+      "key_terms": [
+        "Cornell BRICK",
+        "token distribution",
+        "architecture students",
+        "free printing",
+        "redemption system",
+        "pilot program"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "call_date": "2025-02-02",
+  "call_title": "Dev Update Feb 2nd 2025 |  Cornell AAP Brick, ChainCash, Miners Rights Protocol, Minotaur, and more!",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "35:12",
+      "decision": "Proceed with Sigma 6.0 public testnet activation",
+      "speaker": "Armeanio",
+      "context": "All issues found in Sigma 6.0 have been fixed",
+      "topic": "technical",
+      "significance": "major",
+      "quote": "with Sigma, it looks like all issues found in Sigma 6.0 have been fixed. So we're going to proceed with the public test net activation."
+    },
+    {
+      "id": 2,
+      "timestamp": "35:34",
+      "decision": "Down to one miner on testnet to make testing easy",
+      "speaker": "qx()",
+      "context": "To facilitate Sigma 6.0 testing",
+      "topic": "technical",
+      "significance": "minor",
+      "quote": "And we're down to one miner on test net, just to make it easy."
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "33:15",
+      "commitment": "C8 Dexy Gold integration ETA a few weeks",
+      "owner": "C8",
+      "timeline": "a few weeks",
+      "topic": "dexy",
+      "quote": "C8 with Dexy Gold integration, ETA, a few weeks."
+    },
+    {
+      "id": 2,
+      "timestamp": "35:33",
+      "commitment": "Kushti will send Sigma 6.0 file today or tomorrow",
+      "owner": "kushti",
+      "timeline": "today or tomorrow",
+      "topic": "technical",
+      "quote": "he's going to send me that file today or tomorrow, I think."
+    },
+    {
+      "id": 3,
+      "timestamp": "35:34",
+      "commitment": "qx() will spin up Sigma 6.0 and mine to it for kushti's tests",
+      "owner": "qx()",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "And I'm going to spin that 6.0 up and mine to it. And then he's going to do some tests."
+    },
+    {
+      "id": 4,
+      "timestamp": "37:51",
+      "commitment": "Next is mainnet update for SigmaUSD Oracle Pool",
+      "owner": "kushti",
+      "timeline": "unspecified",
+      "topic": "sigmausd",
+      "quote": "Next is mainnet update."
+    },
+    {
+      "id": 5,
+      "timestamp": "50:21",
+      "commitment": "Hashmon project launch end of February, beginning of March",
+      "owner": "Mark the Shark",
+      "timeline": "end of February, beginning of March",
+      "topic": "hashmon",
+      "quote": "Looking to launch project end of February, beginning of March."
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "37:51",
+      "question": "Continue discussions about limits for SigmaUSD",
+      "context": "Part of SigmaUSD Oracle Pool mainnet update process",
+      "topic": "sigmausd",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "50:20",
+      "question": "Need to finalize tokenomics with C8 for Hashmon",
+      "context": "Preparing for Hashmon project launch",
+      "topic": "hashmon",
+      "raised_by": "Mark the Shark"
+    }
+  ],
+  "reversals_or_updates": [
+    {
+      "id": 1,
+      "timestamp": "36:42",
+      "previous": "Refund-related registers and actions in ChainCash",
+      "update": "Removed refund-related registers and actions",
+      "reason": "Refund can be replaced with note redemption",
+      "speaker": "qx()",
+      "topic": "chaincash"
+    }
+  ],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "17:50",
+      "fact": "Sigmanauts pool and DuckPools has an APY of 28.9%",
+      "speaker": "qx()",
+      "topic": "mining"
+    },
+    {
+      "id": 2,
+      "timestamp": "27:23",
+      "fact": "Bug showed up in Binance Smart Chain during Rosen testing",
+      "speaker": "Armeanio",
+      "topic": "rosen-bridge"
+    },
+    {
+      "id": 3,
+      "timestamp": "27:23",
+      "fact": "Bug fix took a week to figure out, patch, and run end-to-end tests",
+      "speaker": "Armeanio",
+      "topic": "rosen-bridge"
+    },
+    {
+      "id": 4,
+      "timestamp": "38:00",
+      "fact": "SigmaUSD Oracle Pool coordinated test will drop down to four or maybe three Oracle members",
+      "speaker": "qx()",
+      "topic": "sigmausd"
+    },
+    {
+      "id": 5,
+      "timestamp": "39:01",
+      "fact": "Minotaur 2.4.0 released",
+      "speaker": "qx()",
+      "topic": "minotaur"
+    },
+    {
+      "id": 6,
+      "timestamp": "52:00",
+      "fact": "Cyberverse jumped from average of 40 users to about 100, now averaging 90-100 users at any given time",
+      "speaker": "qx()",
+      "topic": "cyberverse"
+    }
+  ]
+}

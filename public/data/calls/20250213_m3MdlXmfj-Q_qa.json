@@ -1,0 +1,140 @@
+{
+  "call_date": "2025-02-13",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "03:54",
+      "question": "What should watchers know about the PostgreSQL repository change in Rosen Bridge?",
+      "asker": "Dan Friedman",
+      "answer": "The main official PostgreSQL repository that Rosen Bridge uses through Docker was pulled, so if you're restarting a watcher or spinning up a new one for Binance, you'll get an error unless you follow the new instructions. There's now a different PostgreSQL repository we're using that works just fine. For guards, you need to migrate your database, but for watchers you can just pull new stuff down without migration.",
+      "responder": "Dan Friedman",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Rosen Bridge",
+        "watchers",
+        "guards",
+        "Docker",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "04:57",
+      "question": "How will Palmyra use Rosen Bridge for their multi-chain token launch?",
+      "asker": "Dan Friedman",
+      "answer": "Palmyra is planning a multi-chain launch later this month using Rosen Bridge heavily. They'll have assets moving from Cardano to Ergo, and also assets moving to EVM chains. They're strategically concentrating liquidity on fewer exchanges rather than spreading thin across many exchanges to ensure stable trading with deep volume.",
+      "responder": "Dan Friedman",
+      "category": "bridges",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Palmyra",
+        "Rosen Bridge",
+        "multi-chain",
+        "liquidity",
+        "token launch"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "12:00",
+      "question": "What work is being done on the Lithos index?",
+      "asker": "Dan Friedman",
+      "answer": "Sam has been doing a lot of work fleshing out the Lithos index, working with kushti on how the system works. This includes Oracle integration and other technical components. Kushti is being very proactive and trying to get more input on the project.",
+      "responder": "Dan Friedman",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Lithos",
+        "Oracle",
+        "index",
+        "kushti"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "19:11",
+      "question": "How does Rosen Bridge compare to other bridging solutions like Bitcoin OS?",
+      "asker": "Dan Friedman",
+      "answer": "Rosen Bridge is fundamentally different from centralized bridges - it has around 200 watchers and will have 100 guards, making it a totally different animal from 'some dude and five of his friends with a bunch of keys.' It's not direct competition with products like Bitcoin OS because they solve different issues and handle data transfers differently. Rosen Bridge is pretty unique in its decentralized approach.",
+      "responder": "Dan Friedman",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Rosen Bridge",
+        "Bitcoin OS",
+        "decentralized",
+        "watchers",
+        "guards",
+        "centralized bridges"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "25:25",
+      "question": "What's the current status of Ergo 6.0 RC2 testnet?",
+      "asker": "Dan Friedman",
+      "answer": "Kushti released a new jar for 6.0 RC2 with some tweaks. Testnet is running fast with the last 32 blocks averaging 16.77 seconds each, which is faster than sub-blocks, until difficulty adjusts. More people are needed to join testnet to spread the hash rate - anyone can reach out for the config file and jar file.",
+      "responder": "Dan Friedman",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Ergo 6.0",
+        "testnet",
+        "sub-blocks",
+        "difficulty",
+        "mining"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "41:18",
+      "question": "What's the status of sub-blocks development?",
+      "asker": "Pulsar",
+      "answer": "The epics are out of the way and voting has been completed on testnet to get the node ready, which was a previous holdup. More testing is happening now and the development is moving forward. Kushti is actively working on testing sub-blocks functionality.",
+      "responder": "Dan Friedman",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "sub-blocks",
+        "testnet",
+        "voting",
+        "kushti"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "42:45",
+      "question": "Should Ergo platforms be promoted to non-crypto people using different terminology to avoid crypto stigma?",
+      "asker": "Wendy Moon",
+      "answer": "Individual projects should promote their solutions rather than the underlying technology. Like UL (Underwriter Laboratories) in electronics - users don't need to know the underlying safety standard, just that the product works. Projects should focus on the utility and benefits to users, not necessarily highlight that it's blockchain-based. The Ergo Foundation promotes grassroots utility and tooling, while individual projects should handle user-facing marketing.",
+      "responder": "Dan Friedman and Dan Friedman",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "marketing",
+        "utility",
+        "non-crypto users",
+        "projects",
+        "Ergo Foundation"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "56:05",
+      "question": "What's the best way to present ideas while protecting intellectual property in the Ergo ecosystem?",
+      "asker": "Rich",
+      "answer": "Ergo embraces open source but allows a mix of open and closed source. You can open source smart contracts while keeping UI closed source, like Spectrum and MewFinance do. If closing anything off, provide innovation in that closeness and be transparent about your approach. You could open source earlier versions while keeping current UI private, or offer both hosted and self-hosted options.",
+      "responder": "Dan Friedman",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "intellectual property",
+        "open source",
+        "smart contracts",
+        "UI",
+        "transparency"
+      ]
+    }
+  ]
+}

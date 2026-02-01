@@ -1,0 +1,108 @@
+{
+  "call_date": "2025-01-17",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - January 16th 2025 PART 2",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "19:51",
+      "decision": "The next node release will be a dedicated release with only the PR that fixes regenerating block candidates, requiring mining pool updates",
+      "speaker": "kushti",
+      "context": "To address transaction inclusion delays where transactions don't get included in current block but N+1 or N+2",
+      "topic": "technical",
+      "significance": "major",
+      "quote": "The plan for the next one is to include fixes for indexer. There are, I believe, a couple of other PRs for next miner releases. And then we can do that release with only PR, which is about regenerating block candidates."
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "05:00",
+      "commitment": "Cornell BRICK system will be introduced to students when they return on Tuesday",
+      "owner": "qx()",
+      "timeline": "Tuesday (after MLK Day)",
+      "topic": "cornell-brick",
+      "quote": "Students at Cornell come back come back on Tuesday because we have Martin Luther King down I believe but the good news is that's when That's when they'll be introduced to the Cornell BRICK."
+    },
+    {
+      "id": 2,
+      "timestamp": "26:46",
+      "commitment": "Will hopefully have local DevNet with transactions properly going into input blocks",
+      "owner": "kushti",
+      "timeline": "maybe next week",
+      "topic": "sub-blocks",
+      "quote": "In case of luck, maybe next week there will be a local DevNet on my machine with all those things done with transactions properly going into input blocks."
+    },
+    {
+      "id": 3,
+      "timestamp": "20:29",
+      "commitment": "Will prioritize reviewing node PRs that are blocking releases",
+      "owner": "SPEAKER_00",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "Yeah. So we should say, yeah, we should, I should certainly prioritize reviewing that I think, and whatever is sequential."
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "14:02",
+      "question": "What are public block producer calls and whether they should exist",
+      "context": "Community member asking about organizing block producer/mining pool coordination",
+      "topic": "mining",
+      "raised_by": "community question"
+    },
+    {
+      "id": 2,
+      "timestamp": "27:28",
+      "question": "How to handle pruning with more transactions in sub-blocks and what application developers' plans are for using rollups",
+      "context": "Technical considerations for sub-blocks implementation",
+      "topic": "sub-blocks",
+      "raised_by": "kushti"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "02:15",
+      "fact": "Cyberverse has 132 players live at 9:26 Eastern time since cross-chain launch",
+      "speaker": "qx()",
+      "topic": "cyberverse"
+    },
+    {
+      "id": 2,
+      "timestamp": "03:40",
+      "fact": "Sigmanauts mining pool is at 72 gigahash, usually runs around 94-95 gigahash",
+      "speaker": "qx()",
+      "topic": "mining"
+    },
+    {
+      "id": 3,
+      "timestamp": "08:33",
+      "fact": "Since 2020, 64,000 plots have been printed for Cornell architecture students",
+      "speaker": "qx()",
+      "topic": "cornell-brick"
+    },
+    {
+      "id": 4,
+      "timestamp": "31:15",
+      "fact": "qx() makes 12-15 ERG per week running Ergo Rosen watchers with 10 permits",
+      "speaker": "qx()",
+      "topic": "rosen-bridge"
+    },
+    {
+      "id": 5,
+      "timestamp": "13:41",
+      "fact": "Palm token public sale is happening next week, should be available to trade within a month",
+      "speaker": "SPEAKER_00",
+      "topic": "palm-token"
+    },
+    {
+      "id": 6,
+      "timestamp": "43:03",
+      "fact": "C8's ergify.xyz mint competition site is on alpha version 10",
+      "speaker": "qx()",
+      "topic": "development"
+    }
+  ]
+}

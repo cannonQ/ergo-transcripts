@@ -1,0 +1,132 @@
+{
+  "call_date": "2025-02-10",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:07",
+      "question": "What's the difference between converting SigmaUSD/RSV on DEXes versus the SigmaUSD bank?",
+      "asker": "implied community question",
+      "answer": "DEX conversions use liquidity pools with slippage and price impact, where prices can lag behind actual ERG price creating arbitrage opportunities. The bank conversion uses the official protocol rate based on current ERG price, but has restrictions based on reserve ratio.",
+      "responder": "qx()",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "SigmaUSD",
+        "DEX",
+        "arbitrage",
+        "slippage"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "03:47",
+      "question": "What's the difference between SigmaUSD.io and TokenJ for bank interactions?",
+      "asker": "implied community question",
+      "answer": "SigmaUSD.io uses proxy contracts where funds are sent to a proxy first, then pushed to the bank, with a refund option if price changes. TokenJ interacts directly with the bank - if your bid matches it executes immediately, if not you get funds back automatically.",
+      "responder": "qx()",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "SigmaUSD",
+        "proxy contracts",
+        "TokenJ"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "05:17",
+      "question": "How does the reserve ratio affect SigmaUSD and SigmaRSV minting/redeeming?",
+      "asker": "implied community question",
+      "answer": "Below 400% reserve ratio, you can only redeem SigmaUSD or purchase SigmaRSV. Above 800%, you can only redeem SigmaRSV and can purchase/redeem SigmaUSD. This logic is built into the protocol to maintain the peg.",
+      "responder": "qx()",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "reserve ratio",
+        "SigmaUSD",
+        "SigmaRSV",
+        "peg"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "09:32",
+      "question": "What is the proposed alternative to ErgoHack for preparing dApps for sub-blocks?",
+      "asker": "HQx",
+      "answer": "A spring or summer of code focused on prepping dApps for sub-blocks, giving participants much more time than ErgoHack. This would target college groups and ecosystem developers, rewarding based on stages so dApps are ready when sub-blocks launch.",
+      "responder": "qx()",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "sub-blocks",
+        "ErgoHack",
+        "dApps",
+        "development"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "10:43",
+      "question": "What's the current status of sub-blocks development?",
+      "asker": "implied community interest",
+      "answer": "Sub-blocks work includes DAG representation of input and ordering blocks. RAM work is progressing with first API methods completed. Local miner chain representation works for testing, but DAG storage is needed for P2P network implementation.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "sub-blocks",
+        "DAG",
+        "P2P",
+        "mining"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "11:02",
+      "question": "What's the status of the 6.0.0 release candidate for testnet voting?",
+      "asker": "implied community interest",
+      "answer": "6.0.0 RC was released with support for public testnet voting and activation. Voting should start soon in the next 120 blocks epic epoch, with the testnet already running and showing the countdown.",
+      "responder": "kushti",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "testnet",
+        "voting",
+        "activation",
+        "epoch"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "16:05",
+      "question": "What's the current status of Bitcoin Runes integration with Rosen Bridge?",
+      "asker": "implied community interest",
+      "answer": "Research on Bitcoin Runes integration is complete after exploring various APIs and libraries. Despite rate limit concerns with certain APIs, they've decided to proceed with implementation phase and are finalizing documentation and proof of concepts.",
+      "responder": "Rosen Bridge team",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Bitcoin Runes",
+        "Rosen Bridge",
+        "API",
+        "integration"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "17:54",
+      "question": "What's the advantage of Fanta's new front end for index nodes over the main Ergo Explorer?",
+      "asker": "implied community interest",
+      "answer": "The main Ergo Explorer is difficult to set up with clunky overhead and high storage requirements. A front end for index nodes would be as easy to install as running a node (one-click with Satergo) or simple Docker container, making self-hosted blockchain exploration much more accessible.",
+      "responder": "qx()",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "index nodes",
+        "explorer",
+        "Docker",
+        "self-hosted"
+      ]
+    }
+  ]
+}

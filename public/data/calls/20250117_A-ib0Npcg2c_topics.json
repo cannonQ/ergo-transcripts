@@ -1,0 +1,227 @@
+{
+  "call_date": "2025-01-17",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - January 16th 2025 PART 2",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Merchandise Store and Community Consignment Program",
+      "category": "community",
+      "start_time": "00:00",
+      "end_time": "01:31",
+      "primary_speaker": "qx()",
+      "summary": "Discussion of Ergo merchandise including Make Mining Great Again hats, sweatshirts, and Ergonaut t-shirts. Plans to recruit community members to help distribute merchandise through consignment.",
+      "key_terms": [
+        "merchandise",
+        "Ergonaut",
+        "community distribution",
+        "consignment"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Cyberverse Cross-Chain Success and User Growth",
+      "category": "ecosystem",
+      "start_time": "01:31",
+      "end_time": "03:40",
+      "primary_speaker": "qx()",
+      "summary": "Cyberverse game showing strong adoption with 132 live players after cross-chain launch. Discussion of the game's steady growth and success as an example of patient development paying off.",
+      "key_terms": [
+        "Cyberverse",
+        "cross-chain",
+        "gaming",
+        "user adoption",
+        "NPCs"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Sigmanauts Mining Pool Operations and Maintenance",
+      "category": "technical",
+      "start_time": "03:40",
+      "end_time": "05:00",
+      "primary_speaker": "qx()",
+      "summary": "Mining pool running at 72 gigahash with automated log cleanup script implemented. Pool maintains around 94-95 gigahash normally with fluctuations based on electricity costs.",
+      "key_terms": [
+        "mining pool",
+        "gigahash",
+        "server maintenance",
+        "storage logs"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Cornell BRICK Local Economy Token Integration",
+      "category": "ecosystem",
+      "start_time": "05:00",
+      "end_time": "09:19",
+      "primary_speaker": "qx()",
+      "summary": "Detailed explanation of Cornell BRICK token integration into university plot printing system. Students can pay for architectural plots using either ERG or Cornell BRICK tokens through Discord tipper bot, creating local economy use case.",
+      "key_terms": [
+        "Cornell BRICK",
+        "local economy",
+        "plot printing",
+        "tipper bot",
+        "university integration",
+        "architectural plots"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Real-World Adoption and MewFinance Seller Protection",
+      "category": "defi",
+      "start_time": "09:19",
+      "end_time": "12:24",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of Ergo's real-world applications beyond DeFi, including honey sales and university currency. MewFinance provides better seller protection than traditional platforms like eBay through reputation systems and direct wallet payments.",
+      "key_terms": [
+        "real-world adoption",
+        "MewFinance",
+        "seller protection",
+        "reputation system",
+        "consignment"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Palm Token Public Sale Timeline",
+      "category": "defi",
+      "start_time": "12:24",
+      "end_time": "13:41",
+      "primary_speaker": "mgPai",
+      "summary": "Palm token public sale scheduled for next week with DEX trading expected within a month. Information available through Palm's regular Twitter Spaces.",
+      "key_terms": [
+        "Palm token",
+        "public sale",
+        "DEX trading",
+        "Twitter Spaces"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Block Producer Communication Challenges",
+      "category": "governance",
+      "start_time": "13:41",
+      "end_time": "16:09",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of difficulty in organizing block producer calls due to miner anonymity. Last coordinated contact with mining pools was in 2022 for various protocol updates.",
+      "key_terms": [
+        "block producers",
+        "mining pools",
+        "protocol updates",
+        "miner anonymity"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Transaction Inclusion Delay Fix Development Status",
+      "category": "technical",
+      "start_time": "17:28",
+      "end_time": "20:53",
+      "primary_speaker": "mgPai",
+      "summary": "Node issue causing transactions to be included in N+1 or N+2 blocks has been fixed but awaits code review. This quality-of-life improvement will make transactions appear to confirm faster.",
+      "key_terms": [
+        "transaction inclusion",
+        "block confirmation",
+        "code review",
+        "node updates"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Kraken Exchange Listing Progress Update",
+      "category": "marketing",
+      "start_time": "20:53",
+      "end_time": "22:46",
+      "primary_speaker": "qx()",
+      "summary": "Ongoing efforts to connect with Kraken through Mark Greenberg and Dave Brumfield contacts. Focus on improving US customer access rather than expecting price speculation.",
+      "key_terms": [
+        "Kraken exchange",
+        "listing progress",
+        "liquidity",
+        "US customers"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Sub-blocks Development Progress and Technical Details",
+      "category": "technical",
+      "start_time": "22:46",
+      "end_time": "30:15",
+      "primary_speaker": "kushti",
+      "summary": "Comprehensive update on sub-blocks development including EIP security arguments, local miner implementation progress, and complex technical considerations. Discussion of state transformation proofs, stateless clients, and future rollup integration.",
+      "key_terms": [
+        "sub-blocks",
+        "EIP",
+        "state transformation proofs",
+        "stateless clients",
+        "rollups",
+        "NIPoPoWs",
+        "devnet"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Rosen Bridge Watcher Profitability Report",
+      "category": "bridges",
+      "start_time": "30:15",
+      "end_time": "32:10",
+      "primary_speaker": "qx()",
+      "summary": "Personal experience running Rosen watchers generating 12-15 ERG per week from 150-250 Rosen tokens. Encouraging others to participate in bridge security while earning rewards.",
+      "key_terms": [
+        "Rosen watchers",
+        "bridge security",
+        "ERG rewards",
+        "passive income",
+        "permits"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Future Node Incentivization Through Zero-Knowledge Proofs",
+      "category": "technical",
+      "start_time": "32:10",
+      "end_time": "38:19",
+      "primary_speaker": "kushti",
+      "summary": "Theoretical discussion of future system where anyone could generate input blocks with zero-knowledge proofs for miner inclusion. Potential for earning from proof generation and paying node operators.",
+      "key_terms": [
+        "zero-knowledge proofs",
+        "input blocks",
+        "node incentivization",
+        "proof-of-work",
+        "fruits chain"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Bitcoin Protocol Update Limitations Discussion",
+      "category": "technical",
+      "start_time": "38:19",
+      "end_time": "42:31",
+      "primary_speaker": "kushti",
+      "summary": "Analysis of Bitcoin's inability to adopt features like storage rent or UTXO set commitments despite community discussions since 2011. Bitcoin protocol updates extremely difficult due to governance challenges.",
+      "key_terms": [
+        "Bitcoin limitations",
+        "storage rent",
+        "UTXO commitments",
+        "soft forks",
+        "protocol governance"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "C8's Ergify Minting Competition Platform",
+      "category": "defi",
+      "start_time": "42:31",
+      "end_time": "44:50",
+      "primary_speaker": "qx()",
+      "summary": "Introduction to C8's new ergify.xyz platform for SigmaRSV/SigmaUSD conversion with minting competition. Platform already at alpha version 10 with rapid development iterations.",
+      "key_terms": [
+        "ergify.xyz",
+        "SigmaRSV",
+        "SigmaUSD",
+        "minting competition",
+        "Nautilus wallet"
+      ]
+    }
+  ]
+}

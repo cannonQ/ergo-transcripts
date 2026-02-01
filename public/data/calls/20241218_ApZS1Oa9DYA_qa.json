@@ -1,0 +1,105 @@
+{
+  "call_date": "2024-12-18",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:32",
+      "question": "How might quantum computing impact blockchain security?",
+      "asker": "tmr.erg",
+      "answer": "Quantum computing isn't a major threat to Bitcoin's security due to the difficulty adjustment with SHA256. The biggest concern would be quantum computers generating private keys, but this can be addressed by increasing the hash function difficulty slightly, which makes it exponentially more difficult to solve. Satoshi discussed this same solution back in 2009.",
+      "responder": "PepERG, tmr.erg, Marc the Shark",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "quantum computing",
+        "hash function",
+        "difficulty adjustment",
+        "private keys"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "11:14",
+      "question": "What is a meme token and how does it differ from a meme coin?",
+      "asker": "tmr.erg",
+      "answer": "Dogecoin was the first original meme coin - a fork of Bitcoin in 2013 with its own blockchain and mining. Meme tokens like Shiba Inu are pre-printed tokens (like ERC-20) that don't require mining. Meme tokens are more speculative with no specific use case other than hoping to buy and sell at higher prices, whereas meme coins have their own blockchain infrastructure.",
+      "responder": "PepERG",
+      "category": "tokenomics",
+      "difficulty": "beginner",
+      "related_terms": [
+        "meme coin",
+        "meme token",
+        "Dogecoin",
+        "ERC-20",
+        "mining"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "26:49",
+      "question": "What should someone look for when evaluating a meme token investment?",
+      "asker": "tmr.erg",
+      "answer": "Key factors include: tokenomics and distribution strategy, history and actions of the developer/leader, presence of proper documentation and websites, locked liquidity (showing long-term commitment), community engagement and activity level, and whether the project has real utility beyond speculation. Locked liquidity is particularly important as it shows the founder's commitment to the project's long-term success.",
+      "responder": "PepERG, Marc the Shark",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "tokenomics",
+        "liquidity",
+        "distribution",
+        "rug pull",
+        "community"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "30:49",
+      "question": "How could emission protocols improve meme token distribution?",
+      "asker": "Marc the Shark",
+      "answer": "Emission protocols like the minor rights protocol could bootstrap meme token distribution through the Ergo blockchain. Tokens would be held in proxy contracts and distributed through miners, creating a fairer distribution similar to how Dogecoin works without requiring a whole new chain. This is becoming a major trend, with innovations like Bitcoin's DMT-NAP allowing miners to earn additional tokens from mining blocks.",
+      "responder": "Marc the Shark, PepERG",
+      "category": "mining",
+      "difficulty": "advanced",
+      "related_terms": [
+        "emission protocol",
+        "mining",
+        "distribution",
+        "proxy contract",
+        "DMT-NAP"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "35:13",
+      "question": "How do you evaluate which meme tokens will be successful?",
+      "asker": "tmr.erg",
+      "answer": "Look for cultural significance and meme-ability - tokens that generate lots of shareable memes and have cultural relevance. Avoid flash-in-the-pan tokens that feel orchestrated or are obvious cash grabs. Focus on established memes with good liquidity, proper distribution, and potential for exchange listings. Monitor social metrics like hashtags, tweets, and community engagement rather than just trading on speculation.",
+      "responder": "PepERG",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "meme-ability",
+        "cultural significance",
+        "liquidity",
+        "social metrics"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "22:58",
+      "question": "How do meme tokens help people learn about blockchain technology?",
+      "asker": "implicit discussion",
+      "answer": "Meme tokens serve as educational tools where people learn about DEX mechanics, slippage, market dynamics, and transaction processes without risking significant money. They're used for testing DeFi applications like Rosen Bridge, decentralized lotteries, and token locking mechanisms. Since people care less about losing small amounts, they're more willing to experiment and learn the fundamentals of blockchain interactions.",
+      "responder": "PepERG, tmr.erg",
+      "category": "defi",
+      "difficulty": "beginner",
+      "related_terms": [
+        "slippage",
+        "DEX",
+        "testing",
+        "education",
+        "DeFi"
+      ]
+    }
+  ]
+}

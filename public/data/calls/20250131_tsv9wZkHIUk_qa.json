@@ -1,0 +1,152 @@
+{
+  "call_date": "2025-01-31",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "12:09",
+      "question": "Can anyone collect storage rent, or is it limited to miners?",
+      "asker": "qx()",
+      "answer": "Storage rent was designed since day one to be collectible by anyone - you don't need to be logged to minerspubkey. Anyone can try to include a storage rent collection transaction in a block, and it's up to miners whether to include it or replace it with their own. In theory, rational profit-maximizing miners would replace sniper transactions with their own storage rent collections, but in practice many miners aren't doing this optimization yet.",
+      "responder": "kushti",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "storage_rent",
+        "mining",
+        "transaction_inclusion",
+        "miners"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "14:27",
+      "question": "When will mining pools prioritize storage rent collection over individual snipers?",
+      "asker": "qx()",
+      "answer": "Eventually when emission drops to around 3 ERG per block, there will be much stronger incentive for pools to collect storage rent as an additional income source rather than being lazy about it. The current transition state allows dev snipers because not all pools are actively collecting storage rent yet.",
+      "responder": "kushti",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "storage_rent",
+        "emission_schedule",
+        "mining_pools",
+        "block_rewards"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "15:15",
+      "question": "How much value has been recovered through Ergo's storage rent mechanism?",
+      "asker": "kushti",
+      "answer": "There was recently $20,000 worth of liquidity in an ERG/PHP token pair that was collected through storage rent - representing the first big recovery for that token. Sigmanauts pool has also collected significant amounts, including 14 ERG in a single collection, with individual collections sometimes reaching 2-5 ERG.",
+      "responder": "qx()",
+      "category": "tokenomics",
+      "difficulty": "beginner",
+      "related_terms": [
+        "storage_rent",
+        "digital_waste_recycling",
+        "abandoned_tokens"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "16:09",
+      "question": "Why hasn't any other blockchain implemented storage rent like Ergo?",
+      "asker": "qx()",
+      "answer": "It's strange that Ergo launched in 2019 and is still the only blockchain with storage rent, along with generic sigma protocols and the ability to create various cryptographic protocols as applications. The current market seems focused on creating similar BFT protocols presented as proof-of-stake with EVM on top, rather than innovating with features like storage rent.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "storage_rent",
+        "sigma_protocols",
+        "blockchain_innovation",
+        "market_differentiation"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "30:22",
+      "question": "What's the current status of Ergo 6.0 development and testing?",
+      "asker": "qx()",
+      "answer": "Sub-blocks implementation is progressing well with API methods being developed. All issues found in 6.0 have been fixed and kushti is preparing for public testnet release. The current testnet has one active miner, and once 6.0 testing is complete on testnet, there will be a final audit before mainnet activation.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "ergo_6.0",
+        "sub_blocks",
+        "testnet",
+        "development_roadmap"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "46:22",
+      "question": "How could Cardano's Hydra technology benefit Ergo protocols?",
+      "asker": "Dan Friedman",
+      "answer": "Hydra would be extremely beneficial for federated protocols like Rosen Bridge and Oracle pools. For Oracle pools, instead of 20 on-chain transactions per epoch, you could have just one transaction, reducing on-chain load by 20x in optimistic scenarios. The same applies to Rosen Bridge - you can greatly reduce blockchain loads and fees while maintaining security since these are federated protocols.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "hydra",
+        "layer2",
+        "oracle_pools",
+        "rosen_bridge",
+        "scalability"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "48:32",
+      "question": "What is the Miners Rights Protocol and how does it work?",
+      "asker": "Dan Friedman",
+      "answer": "The Miners Rights Protocol was developed by Mark the Shark for the Sigmanauts mining pool. It involves minting a token to designate yourself to a pool, giving you mining rights which allows for rewards and bonus token distributions. It also enables setting mining permissions and configs via NFTs instead of centralized websites, improving privacy and preventing config loss like what happened with HiveOS.",
+      "responder": "qx()",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "miners_rights_protocol",
+        "mining_pools",
+        "nft_configs",
+        "privacy",
+        "sigmanauts_pool"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "52:53",
+      "question": "How many participants are currently in the SigmaUSD Oracle pool?",
+      "asker": "Dan Friedman",
+      "answer": "The SigmaUSD Oracle pool currently has only 4-5 participants out of a maximum possible 12, due to lack of incentivization. This is why there's community effort to launch version 2 pools with proper token incentivization. The gold oracle pool has better participation with exactly 20 operators maximum and typically 14-18 online at any time.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "sigmausd",
+        "oracle_pools",
+        "participation",
+        "incentivization",
+        "oracle_v2"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "54:30",
+      "question": "What improvements does Oracle pool version 2 offer over version 1?",
+      "asker": "qx()",
+      "answer": "Version 2 fixes the dust problem that exists in version 1, eliminating the need for operators to constantly consolidate their wallets when dust accumulates and stops oracle reporting. Version 2 is described as 'bulletproof' from a technical perspective and requires checking only every couple of months rather than constant maintenance.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "oracle_pools",
+        "version_2",
+        "dust_problem",
+        "maintenance",
+        "reliability"
+      ]
+    }
+  ]
+}

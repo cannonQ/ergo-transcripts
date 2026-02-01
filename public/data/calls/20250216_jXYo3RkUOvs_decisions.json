@@ -1,0 +1,116 @@
+{
+  "call_date": "2025-02-16",
+  "call_title": "Ergo PoW Dev Update Feb 16th 2025 |  Wallets, Stable Coin, SubBlocks, Bounties, Nodes, and more!",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "08:39",
+      "decision": "SigmaUSD Oracle group pushed a vote to the vote configuration to the process and it passed",
+      "speaker": "qx()",
+      "context": "Update process for SigmaUSD Oracle",
+      "topic": "oracle",
+      "significance": "major",
+      "quote": "Thursday, the SigmaUSD Oracle group got together. And we pushed a vote to the vote configuration to the process. And it passed, essentially."
+    },
+    {
+      "id": 2,
+      "timestamp": "11:21",
+      "decision": "Switched deployment and hosting of NodeView XYZ from GitHub pages to Cloudflare because of HTTPS issues",
+      "speaker": "qx()",
+      "context": "Technical hosting issues needed resolution",
+      "topic": "technical",
+      "significance": "minor",
+      "quote": "Switch deployment and hosting of NodeView XYZ for GitHub pages to Cloudflare because of HTTPS issues."
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "09:44",
+      "commitment": "Rosen Bridge planning to release Binance in the coming days",
+      "owner": "Rosen Bridge team",
+      "timeline": "coming days",
+      "topic": "rosen-bridge",
+      "quote": "We've got the Rosen Bridge planning to release Binance in the coming days. We should see that anytime."
+    },
+    {
+      "id": 2,
+      "timestamp": "11:36",
+      "commitment": "Planning to make pop-ups to see parameters or swaps in cross-chain transfers",
+      "owner": "NodeView XYZ team",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "Planning to make pop-ups to see parameters or swaps in cross-chain transfers."
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "05:48",
+      "question": "How he compiles contracts",
+      "context": "kushti asking for technical guidance",
+      "topic": "technical",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "08:39",
+      "question": "Trying to figure out updated mainnet deployment plan",
+      "context": "Dexy mainnet deployment process",
+      "topic": "dexy",
+      "raised_by": "Dexy team"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "06:02",
+      "fact": "Client 5.0.25 released. Recommended update nodes with extra indices.",
+      "speaker": "qx()",
+      "topic": "technical"
+    },
+    {
+      "id": 2,
+      "timestamp": "06:05",
+      "fact": "Sigma SDK 5.0.15 released with Execute from VAR",
+      "speaker": "qx()",
+      "topic": "technical"
+    },
+    {
+      "id": 3,
+      "timestamp": "06:31",
+      "fact": "Release 6.0.0 RC2 supporting 6.0 activation in public testnet",
+      "speaker": "qx()",
+      "topic": "technical"
+    },
+    {
+      "id": 4,
+      "timestamp": "09:12",
+      "fact": "For SigmaUSD, reward token is going to be called DORT - dollar oracle reward token",
+      "speaker": "qx()",
+      "topic": "tokenomics"
+    },
+    {
+      "id": 5,
+      "timestamp": "12:03",
+      "fact": "Keystone Wallet Integration, 3,000 ERG reward, Fleet SDK tutorials, 775 SigmaUSD bounties available",
+      "speaker": "qx()",
+      "topic": "bounties"
+    },
+    {
+      "id": 6,
+      "timestamp": "12:51",
+      "fact": "kushti released Ergo Protocol Reference Client 5.1.2. They're identical to the 5.0.25 changes, but on RocksDB.",
+      "speaker": "qx()",
+      "topic": "technical"
+    },
+    {
+      "id": 7,
+      "timestamp": "14:19",
+      "fact": "Oracle operators made the update. Update transaction was completed. Ceremony took about 20 minutes.",
+      "speaker": "qx()",
+      "topic": "oracle"
+    }
+  ]
+}

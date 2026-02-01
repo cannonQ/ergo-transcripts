@@ -1,0 +1,129 @@
+{
+  "call_date": "2025-01-17",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "07:53",
+      "question": "What is a plot in the context of the Cornell BRICK project?",
+      "asker": "SPEAKER_00",
+      "answer": "A plot is a 42-inch wide piece of paper by seven feet, like architecture plans or blueprints. Architecture students use these several times a month for critiques where they lay out boards of their projects with different views of their building or design and cross-sections. They put it up on boards and faculty review their work as part of the learning process.",
+      "responder": "qx()",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Cornell BRICK",
+        "real-world adoption",
+        "academic use case"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "09:19",
+      "question": "Why is the Cornell BRICK project significant for Ergo's real-world adoption?",
+      "asker": "kushti",
+      "answer": "This represents Ergo finally going to the real world, which is more important than just games and DeFi applications disconnected from reality. We now have honey being sold on Ergo, Macbooks, and now students' currency. This is a very important step forward for practical blockchain adoption.",
+      "responder": "kushti",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "real-world adoption",
+        "Cornell BRICK",
+        "practical use cases"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "12:50",
+      "question": "When will Palm Token be available to trade on DEX?",
+      "asker": "community member",
+      "answer": "There is a public sale happening next week. Within a month or so, Palm should be available to freely trade. For the most up-to-date information, you need to join the spaces that Palm hosts on X, as they announce details there frequently.",
+      "responder": "SPEAKER_00",
+      "category": "tokenomics",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Palm Token",
+        "DEX",
+        "public sale"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "17:28",
+      "question": "What is the current issue with transaction inclusion in blocks and when will it be fixed?",
+      "asker": "SPEAKER_00",
+      "answer": "Currently, when you submit a transaction, it doesn't get included in the current block but always gets included in block N plus one or N plus two. There's a fix ready that will allow transactions to be immediately included in the current block or next block, making transactions appear to confirm much faster. However, the release is waiting on code reviews before it can be deployed to mining pools.",
+      "responder": "kushti and SPEAKER_00",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "transaction inclusion",
+        "block generation",
+        "mining pools"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "22:46",
+      "question": "What is the current progress on sub-blocks development?",
+      "asker": "community member",
+      "answer": "The EIP is being polished and needs to include proper security arguments, unlike most protocol updates that just get marketed without proper security analysis. Local miners are already generating sub-blocks and input blocks, but the contents are not valid yet - just empty. The next step is to properly spread transactions according to the EIP draft and form needed fields. If luck permits, maybe next week there will be a local DevNet with transactions properly going into input blocks.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "sub-blocks",
+        "EIP",
+        "DevNet",
+        "input blocks"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "31:20",
+      "question": "What are the earnings from running an Ergo Rosen watcher?",
+      "asker": "implied question from qx() sharing experience",
+      "answer": "Running an Ergo watcher on Rosen Bridge generates between 150-250 Rosen tokens weekly, which equals about 12-15 ERG per week. This is achieved by running 10 permits on the Ergo side, and the watcher hasn't even maxed out capacity yet. The work involves minimal maintenance - just ensuring the watcher and connected node are running properly.",
+      "responder": "qx()",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Rosen Bridge",
+        "watcher",
+        "passive income",
+        "permits"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "32:10",
+      "question": "Could sub-blocks enable earning income from generating zero-knowledge proofs in the future?",
+      "asker": "implied from kushti's explanation",
+      "answer": "In the future, everyone could potentially generate input blocks with zero-knowledge proofs of validity and send them to miners for inclusion. Miners would just need to check the proof and include everything. This could allow people to earn from generating zero-knowledge proofs, but there are many tricky details and it may still be too early given current ZK proof generation capabilities for retail users.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "sub-blocks",
+        "zero-knowledge proofs",
+        "input blocks",
+        "mining"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "38:34",
+      "question": "How easy would it be for Bitcoin to copy Ergo's unique features like storage rent?",
+      "asker": "Augustus Kent",
+      "answer": "The chance is about zero. Bitcoin community has discussed simple improvements like including UTXO set confirmations since 2011-2012, which would benefit hundreds of protocols like SPV wallets and cross-chains, but it's still not implemented. Updating anything in Bitcoin protocol since 2011 is nearly impossible. They're currently spending years just discussing whether to reintroduce one opcode that was switched off in 2010.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Bitcoin",
+        "storage rent",
+        "UTXO set",
+        "protocol updates"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "call_date": "2025-01-10",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - January 9th 2025",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Opening and Holiday Greetings",
+      "category": "community",
+      "start_time": "00:12",
+      "end_time": "01:24",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Dan opens the first AMA of 2025 after being away during the holidays. kushti joins and exchanges New Year and Christmas greetings with the community.",
+      "key_terms": [
+        "New Year",
+        "AMA",
+        "community call",
+        "holidays"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Palmyra Smart Contract Audits and Product Development",
+      "category": "ecosystem",
+      "start_time": "01:24",
+      "end_time": "02:33",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Dan discusses ongoing smart contract auditing by Palmyra team and development of traceability suite. A new product utilizing blockchain traceability is being introduced to the platform.",
+      "key_terms": [
+        "Palmyra",
+        "smart contracts",
+        "audits",
+        "traceability suite",
+        "blockchain traceability"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Decentralized Lithium Pricing Index Development",
+      "category": "ecosystem",
+      "start_time": "02:34",
+      "end_time": "09:20",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Dan explains the development of a decentralized lithium pricing index using Ergo oracles. The system addresses fragmentation and price manipulation in lithium markets by creating a unified, transparent pricing mechanism with reputational scoring.",
+      "key_terms": [
+        "lithium pricing index",
+        "Ergo oracles",
+        "At\u00f3mico Tres",
+        "price manipulation",
+        "commodity trading",
+        "S&P",
+        "LME",
+        "CME",
+        "Bloomberg terminal",
+        "subscription service"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Lithium Stable Coin Foundation Strategy",
+      "category": "defi",
+      "start_time": "08:54",
+      "end_time": "09:26",
+      "primary_speaker": "kushti",
+      "summary": "kushti suggests using the lithium pricing index as foundation for lithium-based stable coins. Dan confirms this approach provides reliable price feeds before developing the stable coin.",
+      "key_terms": [
+        "lithium stable coin",
+        "stable coins",
+        "price feeds",
+        "oracle pools"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Sub-blocks CIP Draft and Network Performance",
+      "category": "technical",
+      "start_time": "10:13",
+      "end_time": "12:11",
+      "primary_speaker": "kushti",
+      "summary": "kushti announces near-final draft of sub-blocks CIP with prototyping underway. The design uses input blocks and ordering blocks to maximize proof-of-work network performance, with similar approaches being considered by Cardano and Bitcoin Cash.",
+      "key_terms": [
+        "sub-blocks CIP",
+        "input blocks",
+        "ordering blocks",
+        "proof of work",
+        "peer-to-peer network",
+        "Tailstorm",
+        "Bitcoin Cash",
+        "Cardano"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Cryptography Developments and Post-Quantum Discussion",
+      "category": "technical",
+      "start_time": "12:11",
+      "end_time": "13:29",
+      "primary_speaker": "kushti",
+      "summary": "kushti discusses recent community chat on post-quantum options triggered by new quantum hardware announcements. He mentions new cryptographic schemes like Micronova for incremental verifiable computation.",
+      "key_terms": [
+        "post-quantum",
+        "quantum hardware",
+        "cryptographic schemes",
+        "Micronova",
+        "zero knowledge",
+        "incremental verifiable computation"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Ergo 6.0 Security Audit and Release Timeline",
+      "category": "technical",
+      "start_time": "13:29",
+      "end_time": "14:22",
+      "primary_speaker": "kushti",
+      "summary": "Security audit for Ergo 6.0 is ongoing with Dusek finding some issues that are being fixed. Public testnet deployment is planned for early next week if no additional issues are found.",
+      "key_terms": [
+        "Ergo 6.0",
+        "security audit",
+        "Dusek",
+        "public testnet",
+        "protocol client"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Sigma Interpreter Updates and P2SH Contracts",
+      "category": "technical",
+      "start_time": "14:22",
+      "end_time": "15:32",
+      "primary_speaker": "kushti",
+      "summary": "New ErgoScript function added to Sigma interpreter enabling P2SH contracts in higher-level language instead of low-level ErgoTree. This enables more sophisticated contract development including Merkle trees and state machines.",
+      "key_terms": [
+        "Sigma interpreter",
+        "ErgoScript",
+        "P2SH contracts",
+        "ErgoTree",
+        "macros",
+        "Merkle trees",
+        "state machines"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "PHP Meme Coin and Storage Rent Recycling",
+      "category": "ecosystem",
+      "start_time": "15:32",
+      "end_time": "16:26",
+      "primary_speaker": "kushti",
+      "summary": "A liquidity pool launched for PHP, the first storage rent meme coin. Originally minted in 2020, miners collected the supply after four years due to storage rent, and it was relaunched as a meme coin.",
+      "key_terms": [
+        "PHP coin",
+        "storage rent",
+        "meme coin",
+        "liquidity pool",
+        "token recycling"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "MewFinance, Oracle Pool 2.0, and Dexy Development",
+      "category": "defi",
+      "start_time": "16:26",
+      "end_time": "18:00",
+      "primary_speaker": "kushti",
+      "summary": "kushti mentions active MewFinance community and community attempt to launch Oracle Pool 2.0 for USD. Dexy developers are working on UI completion to launch Dexy Gold, followed by USD and lithium variants.",
+      "key_terms": [
+        "MewFinance",
+        "Oracle Pool 2.0",
+        "Dexy Gold",
+        "Dexy USD",
+        "Dexy lithium",
+        "Dexy silver",
+        "UI development"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Wallet and Hardware Integration Updates",
+      "category": "technical",
+      "start_time": "18:00",
+      "end_time": "19:05",
+      "primary_speaker": "kushti",
+      "summary": "Progress on Nautilus mobile with signed contract, Ledger code audits near completion for Ledger Live integration, and Keystone integration progressing with initial PR draft by IgniFox.",
+      "key_terms": [
+        "Nautilus mobile",
+        "Ledger Live",
+        "Keystone integration",
+        "IgniFox",
+        "hardware wallets"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Bridge Development and Team Updates",
+      "category": "bridges",
+      "start_time": "19:05",
+      "end_time": "20:23",
+      "primary_speaker": "kushti",
+      "summary": "Positive news about Binance Smart Chain Bridge testing. Dan mentions reduced personal activity in ecosystem but continued work on Ergo tech, with mgPai now part of Ergo Foundation.",
+      "key_terms": [
+        "Binance Smart Chain Bridge",
+        "mgPai",
+        "Ergo Foundation",
+        "EF"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Argentine Mining Operation Partnership Opportunity",
+      "category": "ecosystem",
+      "start_time": "20:23",
+      "end_time": "27:48",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Dan discusses potential partnership with large Argentine Bitcoin mining operation interested in Ergo mining. Most of their equipment is ASIC-based, but they have some GPU capacity and see long-term potential in Ergo.",
+      "key_terms": [
+        "Argentina mining",
+        "ASIC mining",
+        "GPU mining",
+        "hash rate",
+        "mining operation",
+        "qx()"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "Block Reward Reduction Impact Analysis",
+      "category": "technical",
+      "start_time": "28:10",
+      "end_time": "34:45",
+      "primary_speaker": "kushti",
+      "summary": "Block rewards dropped from 21 to 18 ERG with stable hash rate due to price increase. kushti explains significant reduction in miner sell pressure compared to three years ago when emission was 67.5 ERG per block, with exchange balances reaching minimum levels.",
+      "key_terms": [
+        "block rewards",
+        "emission reduction",
+        "hash rate",
+        "sell pressure",
+        "exchange balances",
+        "ergo.watch",
+        "centralized exchanges"
+      ]
+    },
+    {
+      "topic_id": 15,
+      "title": "SigmaUSD Protocol Updates Discussion",
+      "category": "defi",
+      "start_time": "34:45",
+      "end_time": "36:23",
+      "primary_speaker": "kushti",
+      "summary": "Discussions among five update key holders about mitigating bear whale attacks on SigmaUSD. Proposals include minting limits and dynamic fee structure to make it closer to Dynamic Djed/Gluon.",
+      "key_terms": [
+        "SigmaUSD",
+        "bear whale attacks",
+        "update key holders",
+        "minting limits",
+        "dynamic fees",
+        "Dynamic Djed",
+        "Gluon"
+      ]
+    },
+    {
+      "topic_id": 16,
+      "title": "Private Blockchain Messaging Feasibility",
+      "category": "technical",
+      "start_time": "36:23",
+      "end_time": "37:38",
+      "primary_speaker": "kushti",
+      "summary": "kushti confirms private blockchain messaging is feasible on Ergo, mentioning an EIP draft for deriving shared secret keys and encryption. Implementation status unclear but concept has been explored.",
+      "key_terms": [
+        "private messaging",
+        "blockchain messaging",
+        "EIP draft",
+        "shared secret key",
+        "encryption"
+      ]
+    },
+    {
+      "topic_id": 17,
+      "title": "Dan's Language Skills Discussion",
+      "category": "community",
+      "start_time": "37:38",
+      "end_time": "40:13",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Dan explains he speaks Russian, English, and Japanese fluently, with rusty Ukrainian that returns in proper environment. He considers English and Russian equally eloquent, while Japanese sometimes has moments of uncertainty.",
+      "key_terms": [
+        "multilingual",
+        "Russian",
+        "English",
+        "Japanese",
+        "Ukrainian",
+        "language fluency"
+      ]
+    },
+    {
+      "topic_id": 18,
+      "title": "Marketing Strategy and Community Messaging",
+      "category": "marketing",
+      "start_time": "40:13",
+      "end_time": "59:39",
+      "primary_speaker": "kushti",
+      "summary": "Extensive discussion on marketing improvements, with kushti focusing on developer recruitment and strong messaging. Compares successful Bitcoin and Monero communities' memetic warfare. Dan proposes 'digital clay' concept emphasizing Ergo's versatility versus simple messages like Bitcoin's 'digital gold'.",
+      "key_terms": [
+        "marketing",
+        "developer recruitment",
+        "memetic warfare",
+        "digital clay",
+        "digital gold",
+        "versatility",
+        "messaging",
+        "Bitcoin community",
+        "Monero community",
+        "peer-to-peer finance"
+      ]
+    },
+    {
+      "topic_id": 19,
+      "title": "Palm Token Launch and Funding Details",
+      "category": "ecosystem",
+      "start_time": "61:05",
+      "end_time": "65:01",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Dan announces imminent Palm Token TGE with dates to be revealed within hours. Total funding reached approximately 1.5 million ADA across multiple rounds, with final public sale tranche before launch. Multiple exchange listings and DEX liquidity planned.",
+      "key_terms": [
+        "Palm Token",
+        "TGE",
+        "token generation event",
+        "1.5 million ADA",
+        "public sale",
+        "centralized exchanges",
+        "DEXs",
+        "liquidity",
+        "staking"
+      ]
+    },
+    {
+      "topic_id": 20,
+      "title": "Travel Miles and Closing Remarks",
+      "category": "community",
+      "start_time": "65:01",
+      "end_time": "67:28",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Light-hearted discussion about Dan's scattered airline miles across multiple carriers, with plan to consolidate into Emirates. Dan commits to more regular AMA participation in 2025 and thanks the community.",
+      "key_terms": [
+        "airline miles",
+        "Emirates",
+        "travel",
+        "AMA participation",
+        "2025 commitment"
+      ]
+    }
+  ]
+}

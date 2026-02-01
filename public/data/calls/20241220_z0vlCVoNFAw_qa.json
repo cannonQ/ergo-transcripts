@@ -1,0 +1,158 @@
+{
+  "call_date": "2024-12-20",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "06:43",
+      "question": "How is Ergo's quantum resistance compared to other blockchains, and what are the current threats from quantum computing?",
+      "asker": "qx()",
+      "answer": "We are still decades away from quantum computers capable of breaking modern cryptography, with very different opinions among experts about when or if this is even possible. Ergo's proof-of-work consensus is already quantum resistant because it's based on hash functions, unlike most proof-of-stake algorithms that rely on signature schemes vulnerable to quantum computers. The main vulnerability is in digital signatures and Sigma protocols, but we have time to consider post-quantum alternatives, though they would reduce TPS by 10x to 100x.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "quantum resistance",
+        "proof of work",
+        "Autolykos",
+        "cryptography",
+        "consensus"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "13:34",
+      "question": "If quantum computing breaks cryptography, wouldn't a quantum-resistant side chain just become the main chain while the original Ergo becomes worthless?",
+      "asker": "qx()",
+      "answer": "Not necessarily. The original blockchain can have post-quantum contracts that would be as secure as the consensus. For example, Spectrum DEX and other signatureless contracts are already quantum resistant because they don't rely on signatures, unlike most DEXs on other chains that have vulnerable admin keys. We could also develop post-quantum wallet contracts using hash-based signatures or STARK-based roll-ups.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "quantum resistance",
+        "side chains",
+        "smart contracts",
+        "Spectrum DEX",
+        "STARKs"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "17:34",
+      "question": "Could quantum machines be used to dominate mining hash rate instead of breaking cryptography?",
+      "asker": "qx()",
+      "answer": "Ergo's proof of work based on hash functions is quantum resistant to the best of modern knowledge. While there is some speed up from quantum computers for hash problems, it's not significant - still about exponential time with just a slightly better coefficient. The hash functions used in mining remain hard problems for quantum computers, so proof of work mining stays secure.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "mining",
+        "hash rate",
+        "quantum computing",
+        "Autolykos",
+        "proof of work"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "24:15",
+      "question": "How can blockchain technology be used for property rights and art tokenization?",
+      "asker": "qx()",
+      "answer": "You can tokenize both physical and digital art with NFTs that belong to you but are minted by contracts with transfer rules defined by smart contracts. For physical art, you can use multiple tokens where 20% belongs to the painter and 80% goes to auction contracts for periodic sales. You can also combine art with mining work, where painters create art and miners earn shares through their work, creating unique art performances combining human and hardware work via on-chain contracts.",
+      "responder": "kushti",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "NFTs",
+        "tokenization",
+        "smart contracts",
+        "art",
+        "property rights"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "29:50",
+      "question": "What are the big storage rent payments that Sigmanauts mining pool has been collecting recently?",
+      "asker": "qx()",
+      "answer": "There's currently a collection going on for initial tests for Oracle Pools, which could be creating some big boxes that generate significant storage rent payments. The pool has been getting payments of a couple ERG in one payment and almost an ERG in several others, along with various test tokens and no-name tokens from the blockchain's history.",
+      "responder": "kushti",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "storage rent",
+        "Oracle Pools",
+        "mining pool",
+        "Sigmanauts"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "34:14",
+      "question": "What major development updates are coming for Ergo in the near term?",
+      "asker": "qx()",
+      "answer": "Node development 6.0 release candidate comes this week after rework and versioning, with final release expected around Saturday after testing. The 5.0 release is approved and Sigma interpreter releases next week. Sub-blocks discussions restart next week, Oracle Pools are finally done, Ledger is in final audit talks with a third-party company authorized by Ledger, and Kestrel now has deterministic signature support solving randomness issues for limited hardware.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "node development",
+        "Sigma interpreter",
+        "sub-blocks",
+        "Oracle Pools",
+        "Ledger",
+        "Kestrel"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "40:19",
+      "question": "How can identity be made soul-bound in blockchain systems rather than just protecting seed phrases?",
+      "asker": "Luis Grayman",
+      "answer": "This is a decades-old problem from the 90s about connecting real-world IDs with digital secret keys. You have secret numbers (private keys from seeds) in the digital world, but the challenge is connecting these to real-world identity in decentralized settings. Various attempts exist like web of trust, trusted certificate authorities, and federated approaches, but after 30 years the progress is limited because the problem is fundamentally hard. Blockchain may help in some settings, but the core challenge remains.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "identity",
+        "soul-bound",
+        "seed phrases",
+        "public key infrastructure",
+        "web of trust"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "48:11",
+      "question": "Is Rosen Bridge well-known among users of other blockchain ecosystems like Cardano?",
+      "asker": "Kent",
+      "answer": "From experience at Rare Evo, Rosen Bridge is very well-known throughout the Cardano ecosystem. People would see Ergo and recognize Rosen Bridge, asking if we were associated with it. They're doing a great job with slow-burn marketing through proof of work, showing a system that works well and is trusted, which helps them spread credibility as they expand from ecosystem to ecosystem.",
+      "responder": "qx()",
+      "category": "bridges",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Rosen Bridge",
+        "Cardano",
+        "cross-chain",
+        "adoption",
+        "marketing"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "52:18",
+      "question": "Can you explain umbrella tokens and how they might be used with ChainCash?",
+      "asker": "Wombo",
+      "answer": "Umbrella tokens involve having a parent token with contracts that allow issuing new tokens as certificates under that parent token. This creates a certification system that can be used in contracts. For ChainCash, the idea is to have a reserve token that can be put into issuing contracts with contract-based certification, proving the token was actually issued by calling the proper contract. This design pattern can be used in other cases as well for token certification and validation.",
+      "responder": "kushti",
+      "category": "tokenomics",
+      "difficulty": "advanced",
+      "related_terms": [
+        "umbrella tokens",
+        "ChainCash",
+        "parent tokens",
+        "certification",
+        "smart contracts"
+      ]
+    }
+  ]
+}

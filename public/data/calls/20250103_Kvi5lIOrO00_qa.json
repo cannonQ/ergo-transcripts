@@ -1,0 +1,151 @@
+{
+  "call_date": "2025-01-03",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "00:56",
+      "question": "What is the current status of sub-blocks development and how do they work?",
+      "asker": "qx()",
+      "answer": "I'm working on sub-blocks CEP, focusing on how to pack transactions into input blocks sub-blocks and how to update state. Some transactions depend on block header contents, so validity can change from one input block to another. The current proposal is to allow them in ordering blocks only (full blocks every two minutes), but 99% of transactions could be confirmed immediately. Still working on transaction forming and state updating, which is the hardest part.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "sub-blocks",
+        "CEP",
+        "transaction confirmation",
+        "state updates"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "04:06",
+      "question": "How does storage rent work in Ergo and what happens to tokens in expired boxes?",
+      "asker": "qx()",
+      "answer": "If there's a box that's reached its age of four years and doesn't have enough ERG to cover storage rent, the whole box is destroyed and claimable by miners. If that box contains any tokens, those tokens also go to the miners. This allows for recycling of old, abandoned tokens back into circulation.",
+      "responder": "qx()",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "storage rent",
+        "box expiration",
+        "token recovery",
+        "mining rewards"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "11:03",
+      "question": "What are Ergo's development priorities for 2025?",
+      "asker": "qx()",
+      "answer": "The focus is on peer-to-peer digital free banking, including peer-to-peer smart contracts, powered on-ramp for Ergo, and cross-chain tests. This would be especially valuable for assets being ignored or censored by centralized exchanges like privacy coins and proof of work assets. We also need to consider what layer 2 solutions would be beneficial and work on uncensorable, decentralized on-ramps.",
+      "responder": "kushti",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "peer-to-peer banking",
+        "on-ramp",
+        "cross-chain",
+        "layer 2",
+        "decentralization"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "14:32",
+      "question": "How do peer-to-peer fiat on-ramps work?",
+      "asker": "qx()",
+      "answer": "It's similar to Bisq with on-chain escrows, using multi-sig escrow from participants in the exchange and maybe some arbiter party. This is how hodl-hodl works for Bitcoin. We need to experiment with proper UI and concrete schemes, but the basic concept involves smart contract escrows to facilitate peer-to-peer fiat-to-crypto trades.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "fiat on-ramp",
+        "multi-sig escrow",
+        "Bisq",
+        "peer-to-peer trading"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "33:30",
+      "question": "Do we have multi-sig wallets on Ergo?",
+      "asker": "Jonas",
+      "answer": "Yes, we have Minotaur multi-sig wallet which is on version two - a huge upgrade from version one. We also have Moria by MGPi, which is a web-based multi-sig where you connect Nautilus and the server handles coordination. There's also Zero Knowledge Treasury, a desktop application for simple DAO tooling with multi-signature support.",
+      "responder": "qx()",
+      "category": "wallet",
+      "difficulty": "beginner",
+      "related_terms": [
+        "multi-sig",
+        "Minotaur",
+        "Moria",
+        "Zero Knowledge Treasury",
+        "Nautilus"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "38:25",
+      "question": "What makes Ergo's multi-sig unique compared to other blockchains?",
+      "asker": "qx()",
+      "answer": "Ergo uses real cryptographic threshold signatures that preserve zero knowledge. For example, in a 2-of-3 multi-sig, external observers cannot tell which specific parties actually signed the transaction. Only the participants themselves know who the real signers were, and this privacy is preserved in the ring. This is unique compared to most other blockchain multi-sig implementations.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "threshold signatures",
+        "zero knowledge",
+        "privacy",
+        "cryptographic signatures"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "41:30",
+      "question": "Can you change the number of hops in the ErgoMixer after submitting a mix?",
+      "asker": "qx()",
+      "answer": "You need to wait for the current mix to finish and then start a new mix with different parameters. You cannot modify the hop count while a mix is already in progress.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "ErgoMixer",
+        "privacy",
+        "mixing",
+        "hops"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "50:00",
+      "question": "What's the high level mission statement of Ergo?",
+      "asker": "NFT wizard",
+      "answer": "The mission is to provide grassroots-based counter-cyclical tools in the form of peer-to-peer digital free banking. This includes uncensorable interactions, features that banks usually have and more, and passing money emission rights to peer-to-peer free banking rather than commercial banks. It encompasses hundreds of different aspects but centers on decentralized financial sovereignty.",
+      "responder": "kushti",
+      "category": "governance",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Ergo Manifesto",
+        "peer-to-peer banking",
+        "decentralization",
+        "financial sovereignty"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "56:28",
+      "question": "What's the current status of Keystone hardware wallet integration?",
+      "asker": "qx()",
+      "answer": "Making good progress with the Keystone integration. The SDK part is mostly done and a PR is opened against Keystone. Currently in the final push of displaying transactions, signing data and testing. The deterministic signatures issue has been solved for the consistent environment.",
+      "responder": "kushti",
+      "category": "wallet",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Keystone",
+        "hardware wallet",
+        "integration",
+        "deterministic signatures"
+      ]
+    }
+  ]
+}

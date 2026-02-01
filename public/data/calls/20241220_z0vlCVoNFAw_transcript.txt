@@ -1,0 +1,498 @@
+[00:11] **qx()**: Hello and welcome to the Ergo AMA.
+[00:14] **qx()**: How are you doing, kushti?
+[00:15] **qx()**: Good morning.
+[00:16] **kushti**: Yeah, hello everyone.
+[00:17] **kushti**: Yeah, I'm good.
+[00:17] **kushti**: I'm drinking some tea with a cookie.
+[00:21] **kushti**: So yeah, actually a lot of things to talk about.
+[00:26] **kushti**: So maybe let's start with you.
+[00:33] **kushti**: And then I will take a lot of time.
+[00:37] **kushti**: So yeah, let's start with smaller.
+[00:40] **qx()**: No problem.
+[00:41] **qx()**: So what do we do?
+[00:44] **qx()**: Let's see, on a personal front, I've successfully deployed our blockchain to one of our main systems here at Cornell.
+[00:56] **qx()**: So I think I've talked about it before.
+[00:58] **qx()**: We have a fairly large system that I built that allows students to submit files for large format printing.
+[01:05] **qx()**: And we do about
+[01:07] **qx()**: It's been going around for about four or five years now.
+[01:10] **qx()**: We have about 65,000 rows in the database.
+[01:13] **qx()**: So that's a lot of like, you know, 60 inch by 42 inch large format plots that go through the system.
+[01:18] **qx()**: So the idea would be in the past, they used to have the ability to leave for the students to pay in cash, but that got taken away when Cornell went to a new system.
+[01:28] **qx()**: And so that's when we branched off on our own and built our own system.
+[01:32] **qx()**: And so right now, they're only allowed to be billed through the bursar.
+[01:35] **qx()**: They're only available for that.
+[01:37] **qx()**: So the idea was to give them a different avenue of billing methods, because you have a lot of professional students that come in that are like, I don't want to use a bursar system, as well as create some sort of LETS system.
+[01:50] **qx()**: That's a double thing.
+[01:52] **qx()**: Some sort of LETS ability for people to develop some sort of local economy, right?
+[01:58] **qx()**: So last week I built into the BRICK token.
+[02:02] **qx()**: We had a discussion about it around the IT table here about what would be the best name to name this token for an architecture, city planning and art department combined and the idea I guess was BRICK, you know, it's a building block for everything there so
+[02:19] **qx()**: We called it BRICK and it's a Cornell BRICK and that's going to be our LETS token essentially.
+[02:25] **qx()**: So the idea is that I tried to think of a way that would possibly allow students to interact with the blockchain with the least barrier of entry.
+[02:37] **qx()**: And what better way to do that than Luivatra's tipper bot, right?
+[02:42] **qx()**: Because we're already running a huge discord where most of our students are already in it and it's how they communicate with IT.
+[02:47] **qx()**: It's how they communicate with the desk when they're using our systems and that kind of thing.
+[02:52] **qx()**: So what we did, what I did over the last couple of days and a little bit last week is I integrated a Nautilus wallet integration on the front end portal where you submit your large format prints.
+[03:02] **qx()**: You can click a button that says blockchain payment.
+[03:05] **qx()**: and it then automatically pings you in Discord, our Discord server.
+[03:12] **qx()**: And it says, Hey, qx(), it looks like you sent out plot 5,728.
+[03:17] **qx()**: It's 32 inches by 48 inches.
+[03:21] **qx()**: It's $7.80 in US dollars.
+[03:25] **qx()**: If you need to pay this much and it lists, it has a code copy block for all the tipper code for ERGs.
+[03:32] **qx()**: So it'd be like 2.2 or 3.3 ERGs.
+[03:36] **qx()**: And then underneath that, there's another code block that says, if you want to pay in BRICK,
+[03:40] **qx()**: It's going to be, we're giving like, we're rounding down for BRICK payments, so it's cheaper.
+[03:45] **qx()**: So it'd be seven BRICK.
+[03:47] **qx()**: So you just hit the copy block, you paste, you enter.
+[03:49] **qx()**: And in the backend system, my system is watching the wallet.
+[03:53] **qx()**: And when it sees that exact payment, then it releases your print to our backend portal, where then it can be printed in the large format print.
+[04:01] **qx()**: So the idea was to let's get these kids involved in
+[04:05] **qx()**: They're, you know, try to jump their own economy.
+[04:07] **qx()**: There's so many like tools that are passed around between the semester.
+[04:11] **qx()**: There's so many books and other things.
+[04:12] **qx()**: Why not create some sort of system of value where these kids can have something that's valuable to them?
+[04:17] **qx()**: I mean, a lot of these guys are spending two, $300 a semester on plots and that's quite a bit for a student.
+[04:23] **qx()**: So if there's this kind of incentive to utilize this token that can help them out in the future for selling their old tools or handing off their stuff to freshmen, then we're hoping to hit that.
+[04:38] **qx()**: And that will eventually trickle into the DAO as well and work from there.
+[04:42] **qx()**: So that's one thing.
+[04:44] **qx()**: The other thing, if you guys are watching MewFinance, you'll notice that we
+[04:50] **qx()**: We sold four Mac Pros on MewFinance the other day.
+[04:55] **qx()**: These are 2000, I think they're 2013 through 2019.
+[04:59] **qx()**: Those trash can Mac Pros, you know, they're little round circles kind of thing.
+[05:05] **qx()**: We put them up for 65 ERGs on MewFinance and one day before that sold pretty quick.
+[05:11] **qx()**: And then three the next day, and those sold really, really fast, fast enough to where people had to resubmit their transactions because they were competing with other people.
+[05:22] **qx()**: So that was a lot of fun to see that.
+[05:24] **qx()**: That money will go right into the Cornell DAO Treasury to help fund airdropping BRICK to student wallets and tipping to student wallets and that kind of thing as well.
+[05:36] **qx()**: So that's another cool thing that we're doing.
+[05:38] **qx()**: We may have some other stuff up in there as we clear out our IT closet of old stuff.
+[05:42] **qx()**: We have a stack of like Mac minis that are i5s and i7s that maybe we'll put up.
+[05:46] **qx()**: There's an iMac back there too, that kind of thing.
+[05:49] **qx()**: So we'll see how that goes.
+[05:50] **qx()**: But that's a lot of fun to use something like MewFinance, the physical side of the store to sell actual goods, just like eBay.
+[05:59] **qx()**: It's super, super neat.
+[06:02] **qx()**: What else?
+[06:04] **qx()**: In the community, we got our multisig transaction from the old multisig for the Sigmanauts to the new multisig for the Sigmanauts.
+[06:13] **qx()**: That took a while, but it showed up.
+[06:16] **qx()**: That was great.
+[06:16] **qx()**: So we have all our ERGs in the new multisig.
+[06:19] **qx()**: We're working on getting the community tokens from the old multisig to the new one.
+[06:23] **qx()**: As most of you know, we're on the new Paideia as well.
+[06:27] **qx()**: So eventually those funds will hopefully go into Paideia where we can fully manage them there.
+[06:33] **qx()**: Let's see, I'll think of it as I'm talking, kushti, but why don't you jump in too?
+[06:37] **qx()**: What's new for you?
+[06:43] **kushti**: All right, so yeah, in the first place, I promised to talk about quantum resistance.
+[06:50] **kushti**: Quantum resistance, yeah.
+[06:51] **kushti**: Yeah, so that's why it's a popular topic these days.
+[06:59] **qx()**: Right.
+[06:59] **qx()**: So I've heard.
+[06:59] **qx()**: So with the hype with the Google's machine, right there, the problem solving looks very impressive, but it's essentially a useless solution, right?
+[07:08] **qx()**: A problem to solve.
+[07:10] **qx()**: And these qubit machines are quite a bit far away from where we think of, you know, full blockchain breaking encryption.
+[07:20] **kushti**: Yeah.
+[07:21] **kushti**: So still we are decades away from quantum computers capable to break cryptography, right, modern cryptography.
+[07:33] **kushti**: Well, at least, right, so there are very different opinions here, actually.
+[07:39] **kushti**: So there are opinions even that it's not possible to build such quantum computers.
+[07:50] **kushti**: And yeah, I'm talking about folks working in the space, so not just amateurs, well, cryptographers even.
+[08:06] **kushti**: folks actually working in quantum hardware engineering.
+[08:11] **kushti**: So yeah, there are very different opinions.
+[08:16] **kushti**: right and so it's not quite clear when we will see such quantum computers but yeah at least decades away it seems but yeah well it's important to address those issues anyway right because we are kind of building a cathedral here right so we are trying to build something which will last for generations to come right because
+[08:44] **kushti**: Otherwise, it's not that interesting, right?
+[08:50] **kushti**: I mean, to build just something for one day.
+[08:54] **kushti**: And so, yeah, then what do we have?
+[09:00] **kushti**: So here we have Ergo proof of work consensus right which is secure against quantum computers because well it's based on hash functions and yeah well it's secure unlike most of proof-of-stake consensus algorithms right which are relying on signature schemes and some other primitives based on well
+[09:31] **kushti**: problems which are hard for classical computers, but not for quantum computers.
+[09:36] **kushti**: All right, then yeah, it's possible to update proof of stake algorithms and so on to
+[09:45] **kushti**: post-quantum options, but it's not efficient.
+[09:51] **kushti**: Proof-of-work is already the most efficient consensus algorithm.
+[09:55] **kushti**: Every miner is working on its own.
+[10:00] **kushti**: When you are mining using Sigmanauts mining pool, right?
+[10:06] **kushti**: Or doing solo mining.
+[10:07] **kushti**: So you are not talking with other miners, right?
+[10:10] **kushti**: So you are just doing your work asynchronously.
+[10:13] **kushti**: So you just need to know tip of the blockchain and that's it.
+[10:18] **kushti**: So that's the only shared medium.
+[10:21] **kushti**: So you are not exchanging messages like in BFT algorithms and so on.
+[10:29] **kushti**: And yeah, so proof of work is not just the most efficient consensus algorithm, right?
+[10:36] **kushti**: But it's also, well, post-quantum already, because yeah, hash functions are secure in the presence of quantum computers.
+[10:50] **kushti**: I mean, all the hard problems in hash functions.
+[10:56] **kushti**: Then, yeah, we have digital signatures right here and also we have Sigma protocols and here we don't have quantum resistance, right?
+[11:15] **kushti**: So like for every blockchain, there is no quantum resistance.
+[11:22] **kushti**: So, there is need to consider alternatives, right?
+[11:28] **kushti**: But the issue is that there are not so many standardized post-quantum schemes to start with, right?
+[11:38] **kushti**: And all of them are inefficient.
+[11:41] **kushti**: So we will lose like 10x to 100x in TPS immediately, right?
+[11:53] **kushti**: By switching to post-quantum cryptography.
+[11:55] **kushti**: But still we need to consider alternatives, right?
+[11:58] **kushti**: So there are some post-quantum sigma protocols that exist, but yeah, it's hard to predict when they will be standardized.
+[12:11] **kushti**: Then, we have what? We have post-quantum signatures, but yeah, just a few options, right?
+[12:24] **kushti**: And yeah, they're inefficient.
+[12:27] **kushti**: So, yeah, it's time to consider alternatives, right?
+[12:34] **kushti**: But slowly and yeah, well, watching the space and also considering, well, the possible options for upgrade, right?
+[12:44] **kushti**: So, I don't know, maybe it could be a side chain, right?
+[12:52] **kushti**: It's kind of a flexible side chain.
+[12:55] **kushti**: maybe other options, maybe starting from some version of the protocol.
+[13:03] **kushti**: Yeah, we may, for example, allow for, but we need to consider some options.
+[13:20] **qx()**: So about the side chain idea, so, I mean, that's, that sounds great for like slow development of it and testing, you know, before we hit that mark where perhaps quantum computing can crack cryptography.
+[13:34] **qx()**: But doesn't that mean that.
+[13:37] **qx()**: I mean, I think of that as more of an insurance chain in the meantime, right?
+[13:41] **qx()**: So if you're worried about the Ergo security or any other chain breaking down, you have the side chain, perhaps you move most of your stored value over to that quantum resistant side chain.
+[13:53] **qx()**: But doesn't that mean as soon as something's broken, then the value of the original chain is toast.
+[14:02] **qx()**: So essentially the side chain becomes the only real store of value at that point.
+[14:07] **qx()**: And anything that was on the old chain is toast.
+[14:13] **kushti**: Not necessarily.
+[14:16] **kushti**: I mean, for original blockchain, you can have some post-quantum contracts as well.
+[14:25] **kushti**: For example, signatureless contracts like DEX contracts and so on, so that they would be secure, as secure as consensus, I mean post-quantum also.
+[14:40] **kushti**: It means Spectrum DEX and so on.
+[14:44] **kushti**: Already quantum resistant, right?
+[14:47] **kushti**: Because they're not relying on signatures.
+[14:53] **kushti**: Unlike actually most of DEXs, right?
+[14:56] **kushti**: On other chains which do have admin keys and so on.
+[14:59] **kushti**: So those admin keys are not quantum resistant for starters.
+[15:07] **qx()**: What if you utilize the quantum side chain, quantum resistant side chain to roll up and provide verifications to smart contracts on the current Ergo side, on the current Ergo chain?
+[15:18] **qx()**: So a smart contract couldn't execute unless it got a verification from something on the quantum resistant side chain.
+[15:25] **qx()**: So your store value still sits on the main Ergo layer one, but it's waiting for some sort of confirmation or proofs from the quantum side chain before it can fully act.
+[15:34] **qx()**: So even if something was cracked on the Ergo chain it couldn't act until the proof was sent over from the quantum side so no real store of value on the quantum side just for signatures in computing or security is that something that's possible
+[15:53] **kushti**: We also may develop some post-quantum wallet contracts.
+[16:00] **kushti**: There are actually some works in this direction, but usually they rely on some well, exotic cryptographic schemes such as witness encryption.
+[16:16] **kushti**: So there is a paper from our friends Dionysia on some lightweight post-quantum wallet contract but yeah it relies on witness encryption so kind of cryptography which is not around yet basically which is very exotic yet but yeah in future i believe there could be such options
+[16:51] **kushti**: We may have post-quantum contracts, like hash-based signatures may be done in contracts.
+[17:02] **kushti**: There are some roll-up options, like STARKs, so they are quantum resistant.
+[17:10] **kushti**: STARKs, they're not efficient, not very efficient, but yeah, quantum resistant.
+[17:18] **kushti**: So, yeah, well, you can use, for example, STARK-based roll-up, right?
+[17:26] **kushti**: Quantum-resistant roll-up.
+[17:29] **qx()**: What about, and this may be a stupid question, but what about the mining side of this?
+[17:34] **qx()**: So why not develop a qubit machine to mine the hell out of Autolykos too and steal the hash rate, get 99% of the hash rate?
+[17:47] **qx()**: Is that something that we were worried about at all?
+[17:50] **qx()**: If in the future, those quantum machines can be cloned to deliver that kind of power?
+[17:58] **kushti**: So sorry, what exact attack?
+[18:01] **qx()**: Well, let's say you're right, because quantum machines, from what I understand, they don't need the CPU can be used for both memory and for processing or something like that.
+[18:14] **qx()**: The bits can be an on, off, and a substate, essentially.
+[18:19] **qx()**: So it makes it super, super efficient there.
+[18:22] **qx()**: The question was, what are the possibilities of quantum machines being honed or developed to, instead of breaking cryptography, do some crazy hash rate, like go against ASIC miners and replace those or, you know, be honed towards Autolykos too and just take over the hash.
+[18:43] **qx()**: Like, you don't need to break cryptography if you can build a machine that can just immediately, you know, dominate the hash rate of any chain.
+[18:52] **kushti**: But yeah, so we are talking about Ergo proof of work, right?
+[18:56] **kushti**: So it's based on hash problem and it's
+[19:01] **kushti**: So it's quantum resistant, right, to the best of modern knowledge.
+[19:08] **kushti**: So it's still a hard problem for quantum computers.
+[19:12] **kushti**: And then, yeah, it's also based on a hash function, but yeah, it's also hard for quantum computers, right?
+[19:19] **kushti**: So you cannot find a collision.
+[19:23] **kushti**: And so on.
+[19:27] **kushti**: So, I mean, there is some speed up, but it's not significant, right?
+[19:35] **kushti**: So still, and yes, okay, some problem.
+[19:40] **kushti**: Well, I've checked recently, actually.
+[19:42] **kushti**: And yeah, so there is some speed up, but yeah, it's not negligible.
+[19:49] **kushti**: So yeah, it's still yeah, well, about the exponential time, right, just with a bit better coefficient.
+[20:01] **kushti**: So yeah, I mean, proof of work is secure, right?
+[20:05] **kushti**: So then the only issue is about signatures, but there are many options right here to consider.
+[20:13] **kushti**: There is no rush.
+[20:14] **kushti**: So yeah, well, then we could be quite optimistic, I guess, still, yeah, about all those things.
+[20:26] **kushti**: There is a need to slowly consider alternatives and discuss them, but there is no rush talking about implementation.
+[20:40] **kushti**: Still, we have many years to come.
+[20:45] **qx()**: Yeah, I think every five years, kushti, there's some announcement about some huge breakthrough in quantum computing and it still has been, mediocre announcements, you know, way hyped up for what it actually is or does.
+[20:57] **qx()**: So this is a cycle.
+[21:00] **kushti**: Yeah.
+[21:00] **kushti**: Every breakthrough is about adding like five qubits and yeah, we need thousands here, right?
+[21:09] **kushti**: Still.
+[21:11] **kushti**: And so this Google's new chip, so it's still very tiny, right, its capabilities.
+[21:24] **kushti**: And yeah, it's not quite clear even if it's possible to build systems with a certain number of qubits because of some issues with quantum physics.
+[21:40] **kushti**: But yeah, it's better to talk with guys proficient in all that stuff.
+[21:53] **qx()**: What else is new, kushti?
+[21:54] **qx()**: What have you been working on?
+[21:57] **kushti**: Yeah, so then I recorded also talk for the upcoming art events, upcoming modern art events, which will show in particular, which will be Ergo-centric rights to some degree.
+[22:21] **kushti**: And then it will be about using Ergo tooling for different things, so artists will get to use Ergo tooling right for their needs.
+[22:41] **kushti**: And yeah, I recorded the talk so it will be released after 21st on property rights in the age of programmable money, right?
+[22:50] **kushti**: So well, the talk is connecting different dots within the space, right?
+[23:00] **kushti**: Starting from Tornado Cash decision, recent one, to programmable money and then tokenization of real world assets of art and so on.
+[23:23] **kushti**: So, let's see.
+[23:29] **kushti**: So, yeah, well, there is a forum post, right, made recently on that money ownership in the age of programmable money.
+[23:40] **kushti**: Yeah, but yeah, this talk for artists, so it's about property rights and therefore art objects, some thoughts about art objects specifically, right, the tokenization and so on.
+[23:58] **kushti**: And then, yeah, it's also about how Ergo tooling rights could be useful for, well, for doing different experiments.
+[24:15] **qx()**: So with property rights, at least, are we talking about like, with a physical art piece, right?
+[24:23] **qx()**: Something on-chain verifying, minted by the artist.
+[24:25] **qx()**: You can trace it back to the artist and see that the new owner of it has the actual certification or that traces back to the original minting wallet of the artist, verifying ownership and that kind of thing.
+[24:38] **qx()**: Is that what we're talking about?
+[24:39] **kushti**: Yeah, so it could be physical, right?
+[24:41] **kushti**: It could be digital.
+[24:43] **kushti**: So we can have NFT rights and that NFT could belong to you, for example, but yeah, it could be minted by contract, right?
+[24:56] **kushti**: So its transfer sheet could be defined by contract and so on.
+[25:00] **kushti**: If we are talking about physical art,
+[25:04] **kushti**: Then, yeah, it also can be tokenized with NFT or with multiple tokens, right?
+[25:11] **kushti**: And then, yeah, for the latter option, you may have very different options, like 20% of picture can belong to its author, right?
+[25:29] **kushti**: Painter.
+[25:30] **kushti**: And then 80%, for example, can be sent to auction contract, right?
+[25:38] **kushti**: To create auctions periodically, like one token a week, one percent a week, for example.
+[25:47] **qx()**: You can also bundle it in ChainCash too, right?
+[25:51] **kushti**: Yeah, so you can actually airdrop to miners or whatever, right?
+[25:58] **kushti**: So you may have digitized arts being distributed to Sigmanauts and so on.
+[26:07] **kushti**: I think there could be a lot of very unique things here, right?
+[26:13] **kushti**: When we are talking about, well, work of artists combined with work of hardware, for example, right?
+[26:19] **kushti**: So you may have, for example, painter doing picture first, right?
+[26:29] **kushti**: And then, yeah, well, miners, they were doing their work to get the right shares of it.
+[26:38] **kushti**: So that's kind of art and hardware work, right, combined and so on.
+[26:48] **kushti**: And yeah, I mean, so such events already per se, I mean, like art events, right, could be considered like that, like performance, maybe art performance, right, where you have mining along with the work of humans done all together and combined via on-chain contracts and so on.
+[27:14] **kushti**: So there are very different options here.
+[27:18] **kushti**: And yeah, so that's maybe a small piece, but I think it's very important to work through this piece and then jump on other chapters talking about real-world adoption.
+[27:44] **qx()**: kushti, you met with some developers, was it last week?
+[27:50] **qx()**: One of our Sigmanauts pool miners as well was there.
+[27:54] **qx()**: What was that chat about?
+[27:56] **kushti**: Yeah, so that was a local developers meetup, so there was a talk about, I don't know, 2024, right?
+[28:09] **kushti**: And I was kind of a blockchain expert, right?
+[28:14] **kushti**: So, well, I did my best to explain what happened in the space to the general public.
+[28:27] **qx()**: So one of the guys there was Netam who's an avid miner in our pool and speaking of the Sigmanauts pool before I forget I believe Mark is now fully pushing the bonus tokens and I think a storage rent payment went out as well they decided to
+[28:54] **qx()**: do storage rent payments based on the block that they were found in since the pool is already doing PPLNS based on that block all you have to do is find the ratio of payment for that specific block and then distribute the storage rent based on that and It works out perfectly.
+[29:13] **qx()**: Super super easy to do that But it's neat the last I think the week before last we got some big storage rent payments I think we got
+[29:22] **qx()**: a couple ERG in one payment, almost an ERG in several more.
+[29:27] **qx()**: So we're doing pretty well in the storage rent payments.
+[29:31] **qx()**: But why?
+[29:32] **kushti**: So have you collected some big boxes maybe?
+[29:35] **qx()**: Yeah, we got some, it must have been some big boxes exactly.
+[29:38] **qx()**: Yep.
+[29:39] **qx()**: All right.
+[29:40] **kushti**: So yeah, I've checked recently and yeah, it seems now a collection going on for some initial tests for Oracle Pools.
+[29:50] **kushti**: So yeah, that could be some big boxes there.
+[29:54] **qx()**: Yep.
+[29:55] **qx()**: We got, we've gotten some funky tokens that we have no idea what they are and some no name tokens and then some Oracle test tokens as well, that we scoop up.
+[30:06] **qx()**: You know, it's fun to see.
+[30:07] **qx()**: It's fun to see the history.
+[30:08] **qx()**: It's like you're an archeologist and you're kind of just digging up the chain and seeing what pops up.
+[30:14] **kushti**: Yeah, so you are basically digging dinosaur bones, right?
+[30:18] **kushti**: Yeah, that's really cool.
+[30:22] **kushti**: And actually, so you can put such tokens on auctions, right?
+[30:28] **qx()**: Exactly.
+[30:28] **qx()**: I think CannonQ put out a vote on the Sigmanauts mining thing for the PHP token that they found and I believe he's going to do something with that airdrop it or some sort of thing or put it out as bonus.
+[30:43] **qx()**: But that vote was up in the Sigmanauts mining pool now.
+[30:46] **qx()**: Super neat.
+[30:50] **kushti**: All right.
+[30:51] **kushti**: So anything else to discuss?
+[30:55] **qx()**: Well, we have, I don't know if I mentioned this before, maybe I did, but Cyberverse was in the top of the polling.
+[31:06] **qx()**: So they won their poll over at Ronin.
+[31:09] **qx()**: And if people didn't notice, there's now a wallet connector for Ronin on the login screen of Cyberverse.
+[31:14] **qx()**: So there's Ronin, Ergo, and Cardano.
+[31:17] **qx()**: And they just made it so that most or all of the goods like the skins or the crate boxes you buy with CYPX now no matter what chain you're coming in on.
+[31:28] **qx()**: So I bought a Cardano skin with CYPX that's only on Ergo and it went to my Cardano wallet even though I paid for it in Ergo CYPX.
+[31:39] **qx()**: So it's really cool.
+[31:41] **qx()**: So it incentivized coming to Ergo, getting CYPX, and then spending it in game to have your NFT go to whatever wallet your chain of origin is.
+[31:54] **qx()**: So if it's on that chain.
+[31:56] **qx()**: They're minting Ronin NFT.
+[31:58] **qx()**: Did you see the kushti NFT in the Ronin suit?
+[32:02] **qx()**: I think it's like a Ronin suit that I posted in chat yesterday.
+[32:08] **kushti**: Yeah, I've no idea what Ronin is even.
+[32:12] **kushti**: So what's that?
+[32:15] **qx()**: Ronin is like a gaming chain, essentially.
+[32:18] **qx()**: It's gamer focused for that.
+[32:21] **qx()**: So yeah, so they were branching into that.
+[32:23] **kushti**: Is it some roll up layer 2 or what?
+[32:27] **qx()**: I imagine, I don't know.
+[32:32] **qx()**: I pay a little bit of attention to that kind of thing, but yeah.
+[32:35] **qx()**: So that's great to see CYPX branching out there.
+[32:38] **qx()**: And yes, Maverick, I did mint a Bobber emote crate.
+[32:42] **qx()**: I got the crying Bobber with the tears coming out.
+[32:46] **qx()**: You have the laughing Bobber.
+[32:47] **qx()**: I'm not sure which one that is.
+[32:49] **qx()**: I already mentioned MewFinance, which is great.
+[32:52] **qx()**: And yeah, let's see a few questions.
+[32:58] **kushti**: Yeah, so also some Twitter spaces coming from UTXO Alliance details will be shared soon.
+[33:10] **kushti**: So it's with, yeah, UTXO Alliance members, some Twitter spaces to join.
+[33:19] **kushti**: Then, yeah, so, probably after New Year, we'll do new videos.
+[33:27] **kushti**: And yeah, I think we'll visit consensus conference in Hong Kong also.
+[33:36] **kushti**: But yeah, let's see.
+[33:41] **kushti**: Then, yeah, so we are actually thinking about doing maybe some meetups and so on.
+[33:50] **qx()**: In Hong Kong?
+[33:53] **kushti**: We'll check possibilities, maybe Thailand, Vietnam, something like that, but let's see.
+[34:06] **kushti**: There is a lot of development, so it's a bit...
+[34:14] **kushti**: For node development, we just finished the rework and versioning in 6.0, so there will be a new release candidate this week.
+[34:29] **kushti**: Hopefully, we are already quite close to the release, so yeah, well, after some testing, so it will be under testing for like a few days and then, yeah, we will be released maybe around Saturday, right?
+[34:52] **kushti**: So if I will start testing today.
+[34:55] **kushti**: Then, yeah, well, 5.0 release is coming as now it's approved.
+[35:03] **kushti**: And yeah, so Sigma interpreter release next week, probably.
+[35:13] **kushti**: So yeah, a lot of things are going on development wise.
+[35:17] **kushti**: And yeah, well, starting from, I don't know, maybe next week even.
+[35:25] **kushti**: So we can have regular discussions on sub-blocks, right?
+[35:29] **kushti**: Because well, I'm back on this and yeah I'm doing already some stuff and yeah we can start this actually a lot of things to get done there right for sure so yeah well contributors are welcomed well for like from formalizing security writing tests
+[36:00] **kushti**: updating exploiters and so on.
+[36:07] **kushti**: Then for Ledger, well, there are final conditions about audits, so it should be studied.
+[36:17] **kushti**: I don't know.
+[36:19] **kushti**: But yes, not sure about next week because it's Christmas, right?
+[36:25] **kushti**: But let's see.
+[36:27] **kushti**: But final talks already with third party company authorized by Ledger.
+[36:40] **kushti**: Yeah, well, there are a lot of developments, Oracle Pools, finally done, and so on.
+[36:58] **kushti**: Yeah.
+[36:59] **kushti**: Well, probably please check developers chats.
+[37:05] **kushti**: Yeah.
+[37:06] **kushti**: A lot of things there like, interesting updates from Nautilus, right?
+[37:12] **kushti**: Then Oracle Pools.
+[37:14] **kushti**: What else?
+[37:17] **kushti**: That's great.
+[37:22] **kushti**: Finally, yeah, there is progress with Kestrel, also deterministic signature support done.
+[37:32] **kushti**: Yes, so there is no issue with randomness anymore for the limited hardware.
+[37:43] **kushti**: Then what else, what else?
+[37:49] **kushti**: Yeah, well, a lot of updates as usual, right?
+[37:57] **kushti**: And yeah, so for community discussion, do you have any plans like Twitter space, community calls, anything?
+[38:09] **qx()**: With them?
+[38:12] **qx()**: Yeah.
+[38:13] **qx()**: You take so alive.
+[38:18] **kushti**: It would be with...
+[38:39] **qx()**: Yeah.
+[38:40] **qx()**: I'm for community chats and the start of the new year, right?
+[38:44] **qx()**: Let's do it.
+[38:45] **qx()**: Let's do it after the new year at some point, maybe mid January.
+[38:52] **qx()**: That was fun.
+[38:52] **qx()**: Either a zoom or, I prefer the zoom to the spaces, but but yeah, either one.
+[38:59] **kushti**: No, we can also comment about, well, as usual, real world adoption value proposition.
+[39:15] **kushti**: There are books, so I can open source, the current drafts, right.
+[39:21] **kushti**: Which is mostly about structure still, but yeah.
+[39:25] **qx()**: Have you found a couple of people, I see you've invited a few people to write for you from the book already.
+[39:31] **qx()**: You invited Luivatra to talk about storage rent.
+[39:36] **kushti**: Yeah, Joe or Luis Grayman.
+[39:39] **kushti**: Yeah.
+[39:39] **kushti**: So we have already a few folks willing to talk.
+[39:42] **kushti**: So well, Joe will put some manifests.
+[39:46] **kushti**: the rights of grassroots manifests, the new one.
+[39:54] **kushti**: And yeah, so some other writing.
+[39:57] **kushti**: So yeah, we can reuse some old writing.
+[40:01] **kushti**: And then that there is need to combine all writings and publish them.
+[40:09] **kushti**: All right, so let's jump on the questions.
+[40:13] **kushti**: All right, let's see what we have.
+[40:15] **qx()**: Well, some more things about property rights from Luis Grayman.
+[40:19] **qx()**: He says, kushti, most important property right is to our own identity.
+[40:24] **qx()**: But now that is just about protecting a seed phrase.
+[40:27] **qx()**: Please comment on how to make this soul bound.
+[40:35] **kushti**: But it's like what a problem from the 90s, right?
+[40:49] **kushti**: It's not even an issue, right?
+[40:52] **kushti**: In the digital world, what do you have?
+[40:57] **kushti**: Well, numbers, right?
+[40:59] **kushti**: Well, you may have a secret number.
+[41:03] **kushti**: secret key some very big number right and yeah well when you use seed so actually you are using a big number in this seed, right?
+[41:19] **kushti**: So it's a secret key from your seed.
+[41:24] **kushti**: And then, yeah, so that's what you do have in the digital world.
+[41:29] **kushti**: And then is the whole big issue of how to connect IDs in the real world, right, with those numbers in the digital world.
+[41:42] **kushti**: So that's public key infrastructure, right?
+[41:47] **kushti**: So, well, in addition to a secret, so you have some public image of a public key, right?
+[41:54] **kushti**: And then you may declare the public key is yours, but then that's how to verify that, right?
+[42:02] **kushti**: Especially if we are talking about decentralized settings.
+[42:05] **kushti**: So that's actually how, well, the Cypherpunk period, right?
+[42:16] **kushti**: So initially it was about different attempts to develop infrastructure for public keys, right?
+[42:24] **kushti**: Decentralized infrastructure.
+[42:26] **kushti**: So some trust and so on.
+[42:30] **kushti**: So there are just like web of trust, right?
+[42:34] **kushti**: And it's also as well as many other.
+[42:43] **kushti**: Well, the initial setting was to do some key exchange rights, then exchange emails.
+[42:53] **kushti**: For example, there is some person you have to exchange emails with.
+[42:59] **kushti**: Yeah, so you are using public key writing.
+[43:09] **kushti**: The problem is how can you be sure that some public published on the web is all right?
+[43:18] **kushti**: So, well, it could be a fake website or whatever, then you end up with sending email to some fake person.
+[43:28] **kushti**: possibly revealing some secret sensitive data.
+[43:32] **kushti**: And then, yeah, there are a lot of attempts to overcome this, well, by using trusted parties, like you're using certificates on the internet, right, with trusted issuers.
+[43:48] **kushti**: There is somewhat federated approach web of trust, right, when you trust Joe, right, which is authorized my key, for example, right, so first Joe needs to meet me, gets
+[44:06] **kushti**: some certification of my public key and then tell you that this public key is trusted by Joe and then you trust Joe, right?
+[44:17] **kushti**: And you are using my public key because of that and so on.
+[44:25] **kushti**: You know, if after 30 years, it's the same issue, basically, that means the issue is hard, right?
+[44:34] **kushti**: Well, it will remain hard, I believe, because brightest minds, well, in cryptography, practical cryptography, and not only, well, are working on that for like 30 years to the moment.
+[44:50] **kushti**: Still, you know, the progress is very limited.
+[44:55] **kushti**: And yeah, well, blockchain in some settings may help, right?
+[45:12] **kushti**: But still, the problem remains.
+[45:27] **qx()**: All right, let's see.
+[45:28] **qx()**: We've got, CannonQ wanted to mention Cyberverse and DuckPools, and I forgot to mention DuckPools.
+[45:33] **qx()**: He says, they're two different projects.
+[45:35] **qx()**: Both are attractive to the outside chains if marketed and supported by the ecosystem.
+[45:39] **qx()**: So yeah, guys, DuckPools is, I think their sale is almost up, or a couple more days for their round.
+[45:48] **qx()**: DuckPools is, as many know, or many not know watching this,
+[45:53] **qx()**: a lending pool protocol.
+[45:56] **qx()**: So for example, the Sigmanauts had about 2,500 SigmaUSD that we were lending, that we were paying to Rare Evo earmarked for that.
+[46:06] **qx()**: So we put it in DuckPools while we waited and into the SigmaUSD lending pool.
+[46:13] **qx()**: And when we pulled it out, it was $3,000.
+[46:15] **qx()**: So the thought is, you know, these protocols exist.
+[46:19] **qx()**: If you have SigmaUSD, if that's your thing, if that's your jam to mitigate risk by having some of your portfolio on that, then why not put it in a lending program like DuckPools and make some yield off it while it just sits there for other people that want to take a bigger risk by maybe shorting or longing ERG at that point.
+[46:39] **qx()**: So yeah, DuckPools is great.
+[46:40] **qx()**: Check out their IDO.
+[46:41] **qx()**: it's essentially you get a staking token and the quacks are airdropped to you every month or every week or something like that, depending on how much you bought, in that percentage.
+[46:55] **qx()**: So super, super cool.
+[46:56] **qx()**: They have their own DAO built in separate, completely separate of Paideia, Kaspa built that.
+[47:02] **qx()**: So yeah, check that out.
+[47:04] **qx()**: Let's see what else we have here.
+[47:06] **qx()**: We have.
+[47:08] **qx()**: Wombo says, qx(), any worries on creating BRICK?
+[47:14] **qx()**: Is there any possibility of problems in trying to create a currency for the school?
+[47:18] **qx()**: Cornell already has something called Big Red Bucks, which is actually digitized.
+[47:24] **qx()**: It's on the Cornell student cards.
+[47:28] **qx()**: Students get paid in it, I think, for some of the work they do, and then they can spend it at different places on campus.
+[47:34] **qx()**: So they already have a system of value like that.
+[47:36] **qx()**: I don't see how this is any different.
+[47:39] **qx()**: We're not putting it on a DEX, so we're not putting any monetary value on it as far as physical real things.
+[47:45] **qx()**: Now that being said, I'm sure, you know, smart savvy kids might, you know, try to create liquidity pool on Spectrum DEX.
+[47:52] **qx()**: It's doubtful, but it's possible.
+[47:54] **qx()**: Yeah, no, I'm not worried about that Wombo.
+[48:00] **qx()**: All right.
+[48:04] **qx()**: Our guest Kent says, do we have any way of measuring awareness or engagement with Rosen Bridge among users of other chains, i.e.
+[48:11] **qx()**: Cardano?
+[48:11] **qx()**: Does anyone outside of the Ergo community know about it?
+[48:14] **qx()**: I would say that from my experience at Rare Evo, Rosen Bridge is a very well-known name throughout Cardano, at least.
+[48:25] **qx()**: I can't speak to Ethereum, Bitcoin, or CKB, where they may go next.
+[48:31] **qx()**: But yes, I'd say it's very well known.
+[48:35] **qx()**: They'd come to us and they'd see Ergo and then they'd see Rosen Bridge over in the corner and they'd be like, oh, you guys are with Rosen Bridge or you guys are with, you know, and we're like, oh, no, we're Sigmanauts with Ergo, Rosen Bridge is on Ergo and that kind of thing.
+[48:49] **qx()**: So yeah, I'd say in Cardano it's well known.
+[48:51] **qx()**: I think they're doing a great job of slow burning their marketing system through, you know, proof of work exactly, you know,
+[49:00] **qx()**: proof of work, they're showing a system that works well and is trusted.
+[49:04] **qx()**: And I think that's working well for them to spread across as they go from ecosystem to ecosystem.
+[49:11] **qx()**: The people you talked to, the dev people you talked to last week, the local dev meetup, they're familiar with Rosen Bridge.
+[49:19] **kushti**: So, they're not very familiar with blockchains even, right?
+[49:27] **kushti**: Well, I even didn't talk much about the panel.
+[49:43] **kushti**: 2024 in blockchain insights and so on.
+[49:48] **kushti**: Well, after I had a talk with developers in a coffee shop nearby, well, mostly I presented just the idea of programmable money.
+[50:04] **kushti**: Because for developers it's even more understandable, like what to do.
+[50:10] **kushti**: and where do you inject program, what's execution context and so on.
+[50:15] **kushti**: And so yeah, got some folks excited, some want more talks just on that, so the idea of programmable money.
+[50:24] **kushti**: And well, there are folks now who are interested in, well, how to contribute, but well, I need to provide more details.
+[50:41] **kushti**: Because for developers interested in compilers, right, interpreters and so on, well, the idea to make, well, money, right, programmable it's more understandable than smart contracts, engineering wise, as well.
+[51:07] **kushti**: Yeah, so that concept wasn't made by engineers back then, back in 2014.
+[51:20] **kushti**: All the engineers kept writing about all that stuff, so it was predictable.
+[51:28] **kushti**: like them, that's decentralized computer, but to say a fully replicated programmable computer would be overloaded, right, even with some trivial load, like we have Ethereum blockchain.
+[51:44] **kushti**: So, well, the world talked about that back in 2014.
+[51:47] **kushti**: Right, but well, here, well, the idea, do some work, well, they do that to engineers at least.
+[52:10] **qx()**: All right.
+[52:10] **qx()**: Let's see.
+[52:11] **qx()**: We're getting near time.
+[52:12] **qx()**: We have a question from Wombo for you, kushti.
+[52:18] **qx()**: Can you speak about umbrella tokens and explain the pattern a bit?
+[52:21] **qx()**: How you plan to use ChainCash?
+[52:26] **kushti**: So, yeah, well, let's see whether it will be used, right?
+[52:32] **kushti**: But the basic idea that you have some parent token, right?
+[52:39] **kushti**: And you have contracts, which is allowing you to issue, well, new token, right?
+[52:50] **kushti**: Some certificate issued, right?
+[52:52] **kushti**: Well, in that case, parent's tokens, right?
+[53:02] **kushti**: And by using that, so you can, well, different tokens, you may issue under some parent token, right?
+[53:14] **kushti**: You can certify basically, and that certification can be later used in contracts.
+[53:22] **kushti**: I mean well ChainCash example so what I'm thinking about is to have a well a reserve track which is issuing well which is having reserve tokens right and well those reserve tokens can be put on issuing note to some reserve right with
+[53:51] **kushti**: It was due to a contract-based certification that the token was actually issued by calling the contract, right.
+[54:12] **kushti**: And, yeah, well, it seems a similar design pattern, well, can be used in other cases as well.
+[54:33] **qx()**: Well, I got a hard stop.
+[54:34] **qx()**: I got to run across campus to another meeting.
+[54:37] **qx()**: So this seems like a good place to end.
+[54:39] **kushti**: All right.
+[54:41] **kushti**: Already.
+[54:43] **kushti**: So do we have any questions from previous AMA?
+[54:47] **kushti**: Because yeah, we promised to answer, me and Joe.
+[54:51] **qx()**: What was the previous questions?
+[54:55] **kushti**: Do we have any other, maybe any sign about this?
+[55:01] **qx()**: I don't see any, no, I don't see anything commenting about last week.
+[55:08] **kushti**: All right.
+[55:09] **kushti**: So folks, well, if you want questions from last week, answered.
+[55:16] **kushti**: So send them next week.
+[55:20] **qx()**: Did you guys chat too long last week and forgot to answer questions, kushti?
+[55:24] **qx()**: Is that what happened?
+[55:27] **kushti**: Oh, there are a lot of questions.
+[55:29] **kushti**: So yeah, we didn't answer them all.
+[55:32] **kushti**: So yeah, we suggested folks resubmit.
+[55:37] **kushti**: And yeah, well folks, you can resubmit them next week then.
+[55:45] **kushti**: Nice.
+[55:48] **kushti**: Well, there is nothing to hide, so every question will be answered.
+[55:55] **kushti**: Maybe just time is the most important.
+[56:03] **kushti**: All right.
+[56:04] **kushti**: Yeah, let's wrap up with this.
+[56:09] **kushti**: All right.
+[56:09] **qx()**: We'll see you around the ecosystem.
+[56:12] **qx()**: Yeah.
+[56:13] **kushti**: Yeah, let's continue our text chat.
+[56:19] **qx()**: Sounds good.
+[56:19] **qx()**: Thanks so much, everybody.
+[56:20] **qx()**: Have a great weekend.
+[56:24] **qx()**: Bye, everyone.
