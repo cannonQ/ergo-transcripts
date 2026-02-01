@@ -1,0 +1,1373 @@
+1
+00:00:13,000 --> 00:00:19,000
+Hello and welcome to the Ergo Developer
+Update.
+
+2
+00:00:19,000 --> 00:00:22,000
+A lot of things happening out there this
+week.
+
+3
+00:00:22,000 --> 00:00:25,000
+I know we're a little late today by one
+day, but the impact should be just as
+
+4
+00:00:25,000 --> 00:00:28,000
+much.
+
+5
+00:00:28,000 --> 00:00:33,000
+I'm not going to go into those current
+events about the $1.4 billion hack.
+
+6
+00:00:33,000 --> 00:00:37,000
+We covered some of that in the spaces
+that we did with the Rosen Bridge team,
+
+7
+00:00:37,000 --> 00:00:41,000
+Joe and one of his developers that joined.
+
+8
+00:00:41,000 --> 00:00:45,000
+So if you want to hear about that kind of
+stuff, then tune into that.
+
+9
+00:00:45,000 --> 00:00:48,000
+It's still on our Twitter main Twitter
+account.
+
+10
+00:00:48,000 --> 00:00:52,000
+It's about an hour listen, but always
+good talks when you're talking to Joe.
+
+11
+00:00:52,000 --> 00:00:53,000
+Oh, it's good stuff to talk about.
+
+12
+00:00:53,000 --> 00:00:56,000
+So quickly, not a big dev update today.
+
+13
+00:00:56,000 --> 00:01:00,000
+But one thing I want to stress very hard
+to you is that these events that happen,
+
+14
+00:01:00,000 --> 00:01:04,000
+these hacks, these things that could be
+prevented, right? If there was due
+
+15
+00:01:04,000 --> 00:01:08,000
+diligence, if there was forethought and
+actual research done before implementing
+
+16
+00:01:08,000 --> 00:01:12,000
+these fast and loose things or these fast
+and loose protocols that, you know, you
+
+17
+00:01:12,000 --> 00:01:16,000
+surprise Pikachu look when something gets
+hacked, right?
+
+18
+00:01:18,000 --> 00:01:22,000
+I think this is a good case to add some,
+not hope, but add some justification to
+
+19
+00:01:22,000 --> 00:01:26,000
+why you're in Ergo, why you're actually
+sticking around with Ergo, and why
+
+20
+00:01:26,000 --> 00:01:30,000
+something that's built for resilience,
+it's built for mindfulness, it's built
+
+21
+00:01:30,000 --> 00:01:34,000
+from the beginning with things like
+storage rent, demurrage, and other things
+
+22
+00:01:34,000 --> 00:01:38,000
+are, you know, these things are resilient.
+
+23
+00:01:41,000 --> 00:01:44,000
+These things are going to last through
+these crazy hacks where a smart contract
+
+24
+00:01:44,000 --> 00:01:47,000
+can be changed, you know, just by the
+multi-sig signatures.
+
+25
+00:01:48,000 --> 00:01:51,000
+It's like kind of stuff that you hear
+outside of the ecosystem and you're like,
+
+26
+00:01:51,000 --> 00:01:54,000
+wow, you know, how was it this many funds
+put into something like that when
+
+27
+00:01:54,000 --> 00:01:57,000
+something like that could have happened?
+
+28
+00:01:59,000 --> 00:02:04,000
+So moments like that make me very happy
+that we're in Ergo and we're in it for the
+
+29
+00:02:04,000 --> 00:02:09,000
+long haul, you know, especially through
+these turbulent times of, you know, VC
+
+30
+00:02:09,000 --> 00:02:14,000
+value extraction and all that, we can sit
+back and think, you know, we're building
+
+31
+00:02:14,000 --> 00:02:19,000
+something that's resilient, we're building
+P2P finance for essentially anyone.
+
+32
+00:02:20,000 --> 00:02:24,000
+So moments like that is, while they're
+awful and you feel terrible for the people
+
+33
+00:02:24,000 --> 00:02:28,000
+that suffer those losses, it does
+hopefully make you recognize why we're in
+
+34
+00:02:28,000 --> 00:02:32,000
+this space and why we're doing what we're
+doing and why we're not catering to this
+
+35
+00:02:32,000 --> 00:02:36,000
+kind of pump and dump kind of stuff.
+
+36
+00:02:36,000 --> 00:02:42,000
+All right, that being said, let's switch
+over to a quick little topic I want to
+
+37
+00:02:42,000 --> 00:02:48,000
+cover before we dive into the dev update.
+
+38
+00:02:49,000 --> 00:02:52,000
+OK, if you don't notice, I have Telegram
+up to my, there we go, right there to my
+
+39
+00:02:52,000 --> 00:02:55,000
+right.
+
+40
+00:02:56,000 --> 00:02:58,000
+It looks like on the screen.
+
+41
+00:02:58,000 --> 00:03:02,000
+The Telegram channel I have open is
+something very unique that I don't think
+
+42
+00:03:02,000 --> 00:03:06,000
+you find anywhere else in any mining
+community out there, right?
+
+43
+00:03:06,000 --> 00:03:08,000
+In any major mining community.
+
+44
+00:03:08,000 --> 00:03:10,000
+Miners are unique, right?
+
+45
+00:03:10,000 --> 00:03:13,000
+Miners will point their rigs to something
+and, you know, it's a business.
+
+46
+00:03:13,000 --> 00:03:14,000
+They'll point their rigs.
+
+47
+00:03:14,000 --> 00:03:16,000
+They'll cash out their token or they'll
+speculate and hold that token and cash it
+
+48
+00:03:16,000 --> 00:03:18,000
+out another time.
+
+49
+00:03:19,000 --> 00:03:20,000
+That's a business.
+
+50
+00:03:20,000 --> 00:03:21,000
+That's great.
+
+51
+00:03:21,000 --> 00:03:22,000
+Nothing wrong with that.
+
+52
+00:03:22,000 --> 00:03:24,000
+But there's more that can be done with
+this, right?
+
+53
+00:03:24,000 --> 00:03:26,000
+There's more involvement.
+
+54
+00:03:26,000 --> 00:03:30,000
+There's more control that these miners
+have over especially our ecosystem.
+
+55
+00:03:30,000 --> 00:03:33,000
+You know, they're maybe used to pointing
+towards a chain to mine where they have no
+
+56
+00:03:33,000 --> 00:03:36,000
+control, right?
+
+57
+00:03:36,000 --> 00:03:39,000
+We saw in the news the other day that a
+chain was threatening Herominers, right?
+
+58
+00:03:39,000 --> 00:03:42,000
+Saying that you have too much of the hash.
+
+59
+00:03:43,000 --> 00:03:45,000
+If you don't back down or warn your users
+or put a limit on there, we're going to
+
+60
+00:03:45,000 --> 00:03:47,000
+stop you from mining it.
+
+61
+00:03:48,000 --> 00:03:53,000
+Now, that should come in your mind as
+like absolutely bonkers, right?
+
+62
+00:03:53,000 --> 00:03:55,000
+So props to Herominers for being like,
+you know, screw you, you know, this is
+
+63
+00:03:55,000 --> 00:03:57,000
+permissionless.
+
+64
+00:03:58,000 --> 00:04:00,000
+This is supposed to be permissionless.
+
+65
+00:04:00,000 --> 00:04:03,000
+You know, we the miners should self
+regulate here.
+
+66
+00:04:03,000 --> 00:04:06,000
+Right.
+
+67
+00:04:03,000 --> 00:04:05,000
+And that's our thought on that.
+
+68
+00:04:05,000 --> 00:04:08,000
+Miners should in their best interest be
+self regulating.
+
+69
+00:04:08,000 --> 00:04:11,000
+Right.
+
+70
+00:04:08,000 --> 00:04:12,000
+It is not in their interest to get to a
+point where the chain could be attacked
+
+71
+00:04:12,000 --> 00:04:16,000
+and the value that they've accumulated is
+completely toast, right?
+
+72
+00:04:17,000 --> 00:04:20,000
+So in theory, miners should be able to
+self-regulate.
+
+73
+00:04:20,000 --> 00:04:24,000
+And this is exactly what Sigmanauts'
+mining DAO does.
+
+74
+00:04:24,000 --> 00:04:27,000
+Now, if you haven't heard about
+Sigmanauts' mining DAO, or maybe you have,
+
+75
+00:04:27,000 --> 00:04:30,000
+so far that we know is the only pool
+essentially that is collecting storage
+
+76
+00:04:30,000 --> 00:04:33,000
+rent, right?
+
+77
+00:04:33,000 --> 00:04:34,000
+It's a DAO-based mining pool.
+
+78
+00:04:34,000 --> 00:04:38,000
+That means once you come in, you get a
+token that lets you use Paideia and create
+
+79
+00:04:38,000 --> 00:04:42,000
+votes that maybe change miner payout
+methods for bonus tokens.
+
+80
+00:04:43,000 --> 00:04:47,000
+They have a ton of bonus tokens that
+projects have donated to them.
+
+81
+00:04:47,000 --> 00:04:49,000
+So those go out every so often.
+
+82
+00:04:49,000 --> 00:04:52,000
+They have an amazing telegram here with
+tons of chats, a general chat, a hash bot
+
+83
+00:04:52,000 --> 00:04:55,000
+that tells you the connected miners and
+the current hash of the pool, block
+
+84
+00:04:55,000 --> 00:04:58,000
+notification bots.
+
+85
+00:04:59,000 --> 00:05:01,000
+Oh, you see how I haven't kept up with
+that.
+
+86
+00:05:01,000 --> 00:05:03,000
+A storage rent monitor, it shows you how
+much storage rent we're actually
+
+87
+00:05:03,000 --> 00:05:05,000
+collecting.
+
+88
+00:05:05,000 --> 00:05:10,000
+Announcements, payments blocks, the PHP
+meme token that was started from one of
+
+89
+00:05:10,000 --> 00:05:15,000
+the first full package meme tokens that we
+pulled from the chain with storage rent.
+
+90
+00:05:16,000 --> 00:05:18,000
+I think the entire circulation was
+pulled, it was all in one box with not
+
+91
+00:05:18,000 --> 00:05:20,000
+enough ERGs, so really got lucky there.
+
+92
+00:05:21,000 --> 00:05:26,000
+And then they turned it around and added
+quite a bit of liquidity to the PHP pool.
+
+93
+00:05:26,000 --> 00:05:30,000
+a fun show off your rigs pool
+overclocking help bonus token distribution
+
+94
+00:05:30,000 --> 00:05:34,000
+so it shows every time that bonus tokens
+go out and it looks like let's see 17th
+
+95
+00:05:34,000 --> 00:05:38,000
+and then before that was the 10th so it
+looks like every week all these bonus
+
+96
+00:05:38,000 --> 00:05:42,000
+tokens are dropped to these wallets the
+PHP, RSV, Dis, Ergonaut, little Puppy
+
+97
+00:05:42,000 --> 00:05:46,000
+token, GIF Fox, Ergo One, Wooden Nickels,
+Clown, Sigma that's mining pool token,
+
+98
+00:05:46,000 --> 00:05:50,000
+Dark Erdoge
+
+99
+00:05:54,000 --> 00:05:58,000
+Terahertz, EGO, Bunz, CRPX, Troll, RSV
+Hoskey, is that a Melty Smiley? I can't
+
+100
+00:05:58,000 --> 00:06:02,000
+see.
+
+101
+00:06:02,000 --> 00:06:09,000
+Comet, MiGoreng, Alien Rocket, Bulls,
+Alien, Love, and GreasyCex.
+
+102
+00:06:09,000 --> 00:06:12,000
+So tons of bonus tokens that are there
+for fun and also for speculation and for
+
+103
+00:06:12,000 --> 00:06:15,000
+cashing out.
+
+104
+00:06:15,000 --> 00:06:17,000
+A lot of these tokens have liquidity
+pools.
+
+105
+00:06:17,000 --> 00:06:19,000
+Mining with the Sigmanauts gets you
+several things.
+
+106
+00:06:19,000 --> 00:06:25,000
+One, it gets you voting power on how to
+run the mining pool, right?
+
+107
+00:06:25,000 --> 00:06:28,000
+Because on Ergo, people seem to forget
+that miners have control to change some
+
+108
+00:06:28,000 --> 00:06:31,000
+parameters in the entire chain, right?
+
+109
+00:06:32,000 --> 00:06:34,000
+That's often forgotten.
+
+110
+00:06:34,000 --> 00:06:37,000
+So Sigmanauts mining now takes that to
+heart and says if you can change the
+
+111
+00:06:37,000 --> 00:06:40,000
+chain, miners should be able to manage
+their DAO themselves.
+
+112
+00:06:40,000 --> 00:06:43,000
+All that kind of stuff is votable.
+
+113
+00:06:43,000 --> 00:06:46,000
+People put up proposals on Paideia, vote
+on them.
+
+114
+00:06:46,000 --> 00:06:49,000
+I think the latest one was probably with
+a PHP token distribution, or Mark actually
+
+115
+00:06:49,000 --> 00:06:52,000
+may have put one up today, I can't
+remember.
+
+116
+00:06:53,000 --> 00:06:56,000
+But fantastic place to be, fantastic
+place to take ownership and take control
+
+117
+00:06:56,000 --> 00:06:59,000
+of the ecosystem as kushti says.
+
+118
+00:07:00,000 --> 00:07:03,000
+I cannot, until hash gets too high on
+this pool, I cannot stress to use this
+
+119
+00:07:03,000 --> 00:07:06,000
+pool.
+
+120
+00:07:07,000 --> 00:07:11,000
+They're the only ones doing that stuff
+that I know of.
+
+121
+00:07:11,000 --> 00:07:15,000
+And, you know, why not get a little extra
+bang for your buck when you mine into it?
+
+122
+00:07:15,000 --> 00:07:17,000
+All right?
+
+123
+00:07:17,000 --> 00:07:18,000
+Fantastic.
+
+124
+00:07:18,000 --> 00:07:23,000
+Let's jump into, oh, and you can get
+there from sigmanauts.com slash mining.
+
+125
+00:07:23,000 --> 00:07:29,000
+You can see how to join the pool, how to
+join the telegram and get started there.
+
+126
+00:07:29,000 --> 00:07:34,000
+Great, let's dive right into the
+developer update.
+
+127
+00:07:34,000 --> 00:07:37,000
+All right, we have AnonBR with Nautilus.
+
+128
+00:07:37,000 --> 00:07:40,000
+The entire main interface is ported to
+the new design system.
+
+129
+00:07:40,000 --> 00:07:42,000
+Now there are only four medium complexity
+components on the dApp connector left to
+
+130
+00:07:42,000 --> 00:07:44,000
+be ported.
+
+131
+00:07:45,000 --> 00:07:48,000
+If all goes well, we can have a beta
+release next week.
+
+132
+00:07:48,000 --> 00:07:50,000
+Refracted and merge add read-only
+WalletView and restore WalletView and to
+
+133
+00:07:50,000 --> 00:07:52,000
+import WalletView.
+
+134
+00:07:52,000 --> 00:07:57,000
+Added recovery phrase backup verification
+flow and create wallet view.
+
+135
+00:07:57,000 --> 00:07:59,000
+Added support for view storing wallets
+from 10, 15, 18, 21, and 24 word recovery
+
+136
+00:07:59,000 --> 00:08:01,000
+phrase.
+
+137
+00:08:02,000 --> 00:08:05,000
+That's great.
+
+138
+00:08:02,000 --> 00:08:03,000
+That's great.
+
+139
+00:08:03,000 --> 00:08:09,000
+Added several minor UI fixes and code
+quality improvements.
+
+140
+00:08:09,000 --> 00:08:13,000
+All right, kushti with Ergo Protocol and
+Reference Client R&D doing final audit and
+
+141
+00:08:13,000 --> 00:08:17,000
+code cleaning for 6.0 codebase for input
+blocks working on input blocks coming out
+
+142
+00:08:17,000 --> 00:08:21,000
+to border and forks resolution.
+
+143
+00:08:22,000 --> 00:08:24,000
+Somebody put fast, very clever there.
+
+144
+00:08:24,000 --> 00:08:27,000
+SigmaUSD Oracle pool has been updated,
+FII now update script is allowing to
+
+145
+00:08:27,000 --> 00:08:30,000
+update the pool to version 2.
+
+146
+00:08:30,000 --> 00:08:35,000
+And I think I said last week that won't
+be GORT as in Gold Oracle Reward Tokens,
+
+147
+00:08:35,000 --> 00:08:40,000
+it's going to be Dollar Oracle Reward
+Tokens, which is DORT.
+
+148
+00:08:40,000 --> 00:08:44,000
+So if you're privileged enough to run the
+Oracle version 2 of SigmaUSD, it will be
+
+149
+00:08:44,000 --> 00:08:48,000
+DORT tokens as a reward.
+
+150
+00:08:48,000 --> 00:08:51,000
+OK, Celaut project, implementing simple
+services to try to have some examples of
+
+151
+00:08:51,000 --> 00:08:54,000
+potentially interesting architectures.
+
+152
+00:08:54,000 --> 00:08:56,000
+At the same time, I'm fixing bugs I find
+in the node and improving the usability of
+
+153
+00:08:56,000 --> 00:08:58,000
+the terminal.
+
+154
+00:08:59,000 --> 00:09:01,000
+Awesome.
+
+155
+00:09:01,000 --> 00:09:04,000
+C8 was talking about ZeroConf.
+
+156
+00:09:04,000 --> 00:09:05,000
+Let's see.
+
+157
+00:09:05,000 --> 00:09:08,000
+We have C8 here with Ergify.
+
+158
+00:09:08,000 --> 00:09:11,000
+ETA Dexy Gold alpha UI end of next week.
+
+159
+00:09:11,000 --> 00:09:12,000
+That's awesome.
+
+160
+00:09:12,000 --> 00:09:13,000
+Swap UI done.
+
+161
+00:09:13,000 --> 00:09:14,000
+History work in progress.
+
+162
+00:09:14,000 --> 00:09:16,000
+Mempool server integration work in
+progress.
+
+163
+00:09:16,000 --> 00:09:18,000
+Design work in progress.
+
+164
+00:09:18,000 --> 00:09:19,000
+ErgoPay work in progress.
+
+165
+00:09:19,000 --> 00:09:23,000
+And you can see his work right there.
+
+166
+00:09:23,000 --> 00:09:24,000
+Did I forget the thumbs up now?
+
+167
+00:09:24,000 --> 00:09:26,000
+Good.
+
+168
+00:09:26,000 --> 00:09:27,000
+All right, we have Anand Bihar here
+again.
+
+169
+00:09:27,000 --> 00:09:31,000
+I think he's just answering somebody.
+
+170
+00:09:31,000 --> 00:09:32,000
+Yeah, he's answering C8.
+
+171
+00:09:32,000 --> 00:09:41,000
+Is that it?
+
+172
+00:09:41,000 --> 00:09:47,000
+That may be a short one.
+
+173
+00:09:47,000 --> 00:09:50,000
+We have NoRoYogi.
+
+174
+00:09:50,000 --> 00:09:53,000
+This is Mark the Shark, the leader of the
+Sigmanauts mining DAO, who we were just
+
+175
+00:09:53,000 --> 00:09:56,000
+speaking about.
+
+176
+00:09:57,000 --> 00:10:01,000
+Sigmanauts mining pool, ergo-miners.com
+is back online.
+
+177
+00:10:01,000 --> 00:10:05,000
+Reviving miner, do you work specifically
+for miners, changing payout for miner?
+
+178
+00:10:05,000 --> 00:10:07,000
+Reworked UI and embedded into dash, just
+need to glance over database code for this
+
+179
+00:10:07,000 --> 00:10:09,000
+and should be there soon.
+
+180
+00:10:10,000 --> 00:10:12,000
+qx() deleted some massive files on the
+server, and we added another volume to our
+
+181
+00:10:12,000 --> 00:10:14,000
+server, 100 gigabytes.
+
+182
+00:10:15,000 --> 00:10:18,000
+Yeah, we've had a few, in the beginning,
+we had a few hangups of the logs just
+
+183
+00:10:18,000 --> 00:10:21,000
+going crazy and bringing the server down
+for a few minutes.
+
+184
+00:10:22,000 --> 00:10:26,000
+So we turned off logging on one of the
+apps, which made a big difference, deleted
+
+185
+00:10:26,000 --> 00:10:30,000
+some weird caching that was happening in
+Docker for the database, and it freed up
+
+186
+00:10:30,000 --> 00:10:34,000
+like 20, 30 gigs.
+
+187
+00:10:35,000 --> 00:10:39,000
+So we don't even need to migrate to the
+new drive yet, but super cool.
+
+188
+00:10:39,000 --> 00:10:40,000
+Pool hash at 103.
+
+189
+00:10:40,000 --> 00:10:45,000
+I think we saw it was 105 in the thing I
+just had up at the time.
+
+190
+00:10:45,000 --> 00:10:48,000
+Distributed largest weekly collection of
+ERG from Demurrage Storage Rent.
+
+191
+00:10:48,000 --> 00:10:50,000
+29.7 ERG.
+
+192
+00:10:50,000 --> 00:10:53,000
+So this is like, come on guys, like, look
+at these other pools.
+
+193
+00:10:53,000 --> 00:10:56,000
+I get it.
+
+194
+00:10:53,000 --> 00:10:56,000
+You know, a lot of other major pools,
+they're running ERG, they're running tons
+
+195
+00:10:56,000 --> 00:10:59,000
+of other chains, right?
+
+196
+00:11:00,000 --> 00:11:03,000
+So it's not on their main list to
+implement Storage Rent.
+
+197
+00:11:03,000 --> 00:11:06,000
+It's going to be soon though, I guarantee
+it.
+
+198
+00:11:06,000 --> 00:11:10,000
+But for now, Sigmanauts, hit it up guys.
+
+199
+00:11:10,000 --> 00:11:13,000
+Sharknet, funded 190 ERGs from community
+and refinance for paying auditors for the
+
+200
+00:11:13,000 --> 00:11:16,000
+LLM generated smart contracts,
+successfully built and trained LLM using
+
+201
+00:11:16,000 --> 00:11:19,000
+DR Pro on a small set of data provided by
+Lotto, created simple UI for users to load
+
+202
+00:11:19,000 --> 00:11:22,000
+model to run locally.
+
+203
+00:11:24,000 --> 00:11:26,000
+So guys, this is very cool.
+
+204
+00:11:26,000 --> 00:11:29,000
+Let me explain where this is going,
+right?
+
+205
+00:11:29,000 --> 00:11:33,000
+So imagine either going to a site, paying
+a few tokens, or else, of course, the
+
+206
+00:11:33,000 --> 00:11:37,000
+ability to pull it down from GitHub
+yourself if you have that ability.
+
+207
+00:11:38,000 --> 00:11:42,000
+Those options can always be available and
+are encouraged in Ergo, right?
+
+208
+00:11:42,000 --> 00:11:48,000
+But let's say Sigmanauts are hosting an
+LLM for a smart contract building.
+
+209
+00:11:48,000 --> 00:11:54,000
+Go there, put in a few tokens worth of
+whatever your prompt is.
+
+210
+00:11:54,000 --> 00:11:56,000
+You're looking for a simple locking smart
+contract.
+
+211
+00:11:56,000 --> 00:11:59,000
+You're looking for, I don't know, some
+sort of time release or some other thing,
+
+212
+00:11:59,000 --> 00:12:02,000
+even more complex things.
+
+213
+00:12:02,000 --> 00:12:05,000
+That's the goal is you type in your
+prompt, tell it what you want, and boom,
+
+214
+00:12:05,000 --> 00:12:08,000
+it outputs a smart contract that has gone
+through numerous amounts of training
+
+215
+00:12:08,000 --> 00:12:11,000
+times.
+
+216
+00:12:11,000 --> 00:12:14,000
+to give you a smart contract that's
+pretty good.
+
+217
+00:12:14,000 --> 00:12:17,000
+And then, of course, perhaps another very
+specifically fine-tuned LLM to
+
+218
+00:12:17,000 --> 00:12:20,000
+double-check that smart contract for you.
+
+219
+00:12:21,000 --> 00:12:23,000
+Maybe they're built together, maybe
+they're not.
+
+220
+00:12:23,000 --> 00:12:26,000
+Who knows?
+
+221
+00:12:23,000 --> 00:12:25,000
+We're not at quite at that stage yet, but
+that's what this, that's what NoRoYogi is
+
+222
+00:12:25,000 --> 00:12:27,000
+working towards.
+
+223
+00:12:28,000 --> 00:12:33,000
+So super, super cool sharknet.
+
+224
+00:12:33,000 --> 00:12:37,000
+Okay, what else do we have node view x,
+y, z, added pop-ups for Spectrum DEX
+
+225
+00:12:37,000 --> 00:12:41,000
+swaps, SigmaUSD swaps, bitcoin, Rosen
+Bridge, sorry, SigmaUSD swaps and Rosen
+
+226
+00:12:41,000 --> 00:12:45,000
+Bridge events, decreased number of
+requested boxes for index page price
+
+227
+00:12:45,000 --> 00:12:49,000
+chart, added timeout for node change
+dialogue when loading node connections.
+
+228
+00:12:52,000 --> 00:12:53,000
+That's super neat.
+
+229
+00:12:53,000 --> 00:12:56,000
+Can we see it here?
+
+230
+00:12:56,000 --> 00:12:58,000
+Nice.
+
+231
+00:12:58,000 --> 00:13:01,000
+All right, we've got Rosen Bridge.
+
+232
+00:13:01,000 --> 00:13:04,000
+We are in step-by-step testing of Wallace
+before opening the website.
+
+233
+00:13:04,000 --> 00:13:06,000
+Reform manual transaction, create four to
+five test events between Binance and other
+
+234
+00:13:06,000 --> 00:13:08,000
+networks.
+
+235
+00:13:08,000 --> 00:13:11,000
+Once everything is verified, open the
+website publicly.
+
+236
+00:13:11,000 --> 00:13:12,000
+They did.
+
+237
+00:13:12,000 --> 00:13:15,000
+It's open as of maybe last night or this
+morning, or maybe it was yesterday.
+
+238
+00:13:15,000 --> 00:13:17,000
+Time kind of blends together, right?
+
+239
+00:13:17,000 --> 00:13:21,000
+Rosen Bridge Watcher version 2 completed
+the observation status service to update
+
+240
+00:13:21,000 --> 00:13:25,000
+and change the status of operations.
+
+241
+00:13:25,000 --> 00:13:27,000
+Added the permit check service, which
+registers as a permit check into the
+
+242
+00:13:27,000 --> 00:13:29,000
+health check service.
+
+243
+00:13:30,000 --> 00:13:31,000
+The Rosen Bridge app.
+
+244
+00:13:31,000 --> 00:13:35,000
+They've implemented a disconnect feature
+to properly disconnect wallets.
+
+245
+00:13:35,000 --> 00:13:38,000
+Oh, good.
+
+246
+00:13:35,000 --> 00:13:38,000
+Ensure responsive design for tablet-sized
+screens.
+
+247
+00:13:38,000 --> 00:13:41,000
+Apply the new design for monetary values.
+
+248
+00:13:41,000 --> 00:13:42,000
+The Watcher app.
+
+249
+00:13:42,000 --> 00:13:44,000
+Apply the new design for monetary values.
+
+250
+00:13:44,000 --> 00:13:47,000
+Guard app.
+
+251
+00:13:44,000 --> 00:13:45,000
+Apply the same thing.
+
+252
+00:13:45,000 --> 00:13:49,000
+Add a TX status to public event status.
+
+253
+00:13:49,000 --> 00:13:52,000
+So Rosen Bridge is alive, guys, if you're
+running a watcher, please let me take a
+
+254
+00:13:52,000 --> 00:13:55,000
+minute to tell you, please do this update.
+
+255
+00:13:55,000 --> 00:13:58,000
+Right.
+
+256
+00:13:55,000 --> 00:13:56,000
+That's very important.
+
+257
+00:13:56,000 --> 00:13:59,000
+I know some of you may be a little
+nervous about the update from two or three
+
+258
+00:13:59,000 --> 00:14:02,000
+weeks ago where there's a database
+migration.
+
+259
+00:14:02,000 --> 00:14:03,000
+Right.
+
+260
+00:14:03,000 --> 00:14:07,000
+Docker had pulled a version of the
+Postgres database that was being used as
+
+261
+00:14:07,000 --> 00:14:11,000
+the in the pull commands to populate that.
+
+262
+00:14:11,000 --> 00:14:12,000
+So it had to be changed.
+
+263
+00:14:12,000 --> 00:14:15,000
+You were probably getting a permission
+denied error when you tried to run it for
+
+264
+00:14:15,000 --> 00:14:18,000
+an update if you didn't follow the
+instructions.
+
+265
+00:14:18,000 --> 00:14:21,000
+So please follow that.
+
+266
+00:14:18,000 --> 00:14:20,000
+It's 10 minutes max.
+
+267
+00:14:20,000 --> 00:14:25,000
+It does not take long to copy the
+database, back it up, make your little
+
+268
+00:14:25,000 --> 00:14:30,000
+switches, and then push the old database
+to restore to the new database container.
+
+269
+00:14:30,000 --> 00:14:34,000
+I did it on my watchers, didn't take too
+much time at all, and I spun back up.
+
+270
+00:14:34,000 --> 00:14:36,000
+So if you're worried about that, give
+that a try.
+
+271
+00:14:36,000 --> 00:14:40,000
+Feel free to reach out in a DM if you
+like if you're running into trouble.
+
+272
+00:14:40,000 --> 00:14:42,000
+We can certainly help you and walk you
+through that because it's very important
+
+273
+00:14:42,000 --> 00:14:44,000
+to have all those watchers up and updated.
+
+274
+00:14:45,000 --> 00:14:48,000
+Otherwise, you're just burning
+electricity and it's not going to watch
+
+275
+00:14:48,000 --> 00:14:51,000
+any events, right?
+
+276
+00:14:52,000 --> 00:14:57,000
+Okay, what else do we have here?
+
+277
+00:14:57,000 --> 00:15:00,000
+Okay.
+
+278
+00:15:00,000 --> 00:15:04,000
+That is it, folks.
+
+279
+00:15:04,000 --> 00:15:05,000
+All right.
+
+280
+00:15:05,000 --> 00:15:07,000
+Thanks for joining us.
+
+281
+00:15:07,000 --> 00:15:10,000
+Make sure, again, watchers, update your
+watchers.
+
+282
+00:15:10,000 --> 00:15:12,000
+Guards are all updated.
+
+283
+00:15:12,000 --> 00:15:14,000
+See if you can provide some liquidity.
+
+284
+00:15:14,000 --> 00:15:18,000
+I know MewFinance just created a fund to
+provide some liquidity for Rosen BNB and
+
+285
+00:15:18,000 --> 00:15:22,000
+ERG on this side.
+
+286
+00:15:22,000 --> 00:15:25,000
+I think it's only 500 or so ERGs.
+
+287
+00:15:25,000 --> 00:15:28,000
+in total maybe a thousand so we can
+capture the BNB.
+
+288
+00:15:28,000 --> 00:15:32,000
+I need to look at that but check out
+MewFinance, check out that page where you
+
+289
+00:15:32,000 --> 00:15:36,000
+can contribute to that kind of stuff and
+you'll automatically get those liquidity
+
+290
+00:15:36,000 --> 00:15:40,000
+tokens having a share in the liquidity of
+that.
+
+291
+00:15:40,000 --> 00:15:44,000
+And don't forget to check out Sigmanauts'
+mining pool.
+
+292
+00:15:44,000 --> 00:15:46,000
+Again, only pool that I know of that's
+collecting storage rent for the time
+
+293
+00:15:46,000 --> 00:15:48,000
+being.
+
+294
+00:15:48,000 --> 00:15:51,000
+And you get all those bonus tokens and a
+very cool, very unique community that's
+
+295
+00:15:51,000 --> 00:15:54,000
+always open to helping.
+
+296
+00:15:55,000 --> 00:16:00,000
+And you get to essentially run it as well
+as part of the DAO.
+
+297
+00:16:00,000 --> 00:16:03,000
+All right.
+
+298
+00:16:00,000 --> 00:16:02,000
+Thanks, everybody.
+
+299
+00:16:02,000 --> 00:16:05,000
+Enjoy your week, I guess.
+
+300
+00:16:05,000 --> 00:16:08,000
+It's early.
+
+301
+00:16:05,000 --> 00:16:08,000
+Ciao.
+

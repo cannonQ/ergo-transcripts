@@ -1,0 +1,1088 @@
+1
+00:00:13,000 --> 00:00:16,000
+Hey guys, welcome to the dev update,
+something like number, I've lost count,
+
+2
+00:00:16,000 --> 00:00:19,000
+130.
+
+3
+00:00:20,000 --> 00:00:22,000
+Tell myself I gotta check.
+
+4
+00:00:22,000 --> 00:00:26,000
+Well, I'm on the mend, and here we are.
+We're landing on vacation, so we've
+
+5
+00:00:26,000 --> 00:00:30,000
+decided to poke our fingers into the
+interface a little bit to kind of change
+
+6
+00:00:30,000 --> 00:00:34,000
+the look for the week.
+
+7
+00:00:34,000 --> 00:00:36,000
+Let's see how it lands, guys.
+
+8
+00:00:36,000 --> 00:00:40,000
+Very short dev update for you this week.
+A lot of stuff always happened in Ergo,
+
+9
+00:00:40,000 --> 00:00:44,000
+but sometimes the devs forget to post to
+the weekly dev update chat because they're
+
+10
+00:00:44,000 --> 00:00:48,000
+very busy.
+
+11
+00:00:50,000 --> 00:00:53,000
+But that's okay. Fear not, because if you
+hang around in the ecosystem, you know
+
+12
+00:00:53,000 --> 00:00:56,000
+that things are bustlin.
+
+13
+00:00:57,000 --> 00:01:05,000
+One thing that was interesting today in
+chat that we saw is, you know, community
+
+14
+00:01:05,000 --> 00:01:13,000
+is a big way to measure crypto, influence
+crypto, uptick projects like that.
+
+15
+00:01:13,000 --> 00:01:19,000
+And once in a while, you know, usually
+chats have their downtime. Ergo has theirs
+
+16
+00:01:19,000 --> 00:01:25,000
+at about 9 p.m. Eastern Time, which is
+like 1 p.m., 1 a.m. UTC.
+
+17
+00:01:26,000 --> 00:01:29,000
+Gets a little soft, gets a little quiet.
+And so you've got the normal fudsters
+
+18
+00:01:29,000 --> 00:01:32,000
+coming in around that time saying, where's
+the community, when community, that kind
+
+19
+00:01:32,000 --> 00:01:35,000
+of thing.
+
+20
+00:01:36,000 --> 00:01:40,000
+And people started posting some things
+and they were talking about future
+
+21
+00:01:40,000 --> 00:01:44,000
+finance, other things. People are pushing
+sub-blocks and those kind of things.
+
+22
+00:01:45,000 --> 00:01:50,000
+And kushti said something interesting
+that was simple and said, you know, we
+
+23
+00:01:50,000 --> 00:01:55,000
+don't need sub-blocks. You know, we have
+at the moment, you don't have to wait for
+
+24
+00:01:55,000 --> 00:02:00,000
+sub-blocks. We have many financial tools
+for experimentation.
+
+25
+00:02:01,000 --> 00:02:06,000
+And he's right. And it makes you think in
+these times when, you know, let's not diss
+
+26
+00:02:06,000 --> 00:02:11,000
+other chains, but when a lot of other
+chains are based on large money influxes,
+
+27
+00:02:11,000 --> 00:02:16,000
+money inflows, and large holders making
+ripples in spaces, and then followed by
+
+28
+00:02:16,000 --> 00:02:21,000
+meme crazes and things like that.
+
+29
+00:02:23,000 --> 00:02:28,000
+You know times like these where the
+market's down when it's supposed to be
+
+30
+00:02:28,000 --> 00:02:33,000
+waiting to go up and those kind of things
+in flux, it makes me really happy to be in
+
+31
+00:02:33,000 --> 00:02:38,000
+Ergo if you take a peek down below me
+right here you'll see I don't know what's
+
+32
+00:02:38,000 --> 00:02:43,000
+the first 30 or 40 projects that are
+active on Ergo that were easy to pluck
+
+33
+00:02:43,000 --> 00:02:48,000
+right off the website or sigmaverse.
+
+34
+00:02:48,000 --> 00:02:52,000
+We have the meat, you know, we have the
+fuel. We have the parts of the recipe for
+
+35
+00:02:52,000 --> 00:02:56,000
+anybody to come on and do this stuff and
+by looking at the ticket below you can see
+
+36
+00:02:56,000 --> 00:03:00,000
+the amazing things that have been
+accomplished so far.
+
+37
+00:03:02,000 --> 00:03:08,000
+So when the market fluctuates, when
+CoinGecko makes my portfolio bleed and cry
+
+38
+00:03:08,000 --> 00:03:14,000
+a little bit, it doesn't bother me because
+I know that I know why we're here. I know
+
+39
+00:03:14,000 --> 00:03:20,000
+what we've built and I know what we can
+build.
+
+40
+00:03:20,000 --> 00:03:23,000
+You know, the snap of our fingers with
+the tooling that we have. So that always
+
+41
+00:03:23,000 --> 00:03:26,000
+brings me a different perspective on that
+kind of thing.
+
+42
+00:03:27,000 --> 00:03:31,000
+When I see people hurting in other
+ecosystems, it sucks for them, I think,
+
+43
+00:03:31,000 --> 00:03:35,000
+you know, but Ergo keeps trucking, being
+resilient and we keep doing what we're
+
+44
+00:03:35,000 --> 00:03:39,000
+doing and people keep catching on.
+
+45
+00:03:40,000 --> 00:03:44,000
+So it's an exciting, exciting place to
+be, an exciting thing to be in.
+
+46
+00:03:44,000 --> 00:03:49,000
+All right, let's hit the dev update real
+quick. It's short, as I said, and we won't
+
+47
+00:03:49,000 --> 00:03:54,000
+take up too much of your time. We'll hit
+the cool change scene button.
+
+48
+00:03:54,000 --> 00:04:01,000
+Here we go. Ready?
+
+49
+00:04:01,000 --> 00:04:03,000
+All right, I hope you enjoyed that change
+scene feature. Andy's going to probably
+
+50
+00:04:03,000 --> 00:04:05,000
+kill me, but you know, whatever.
+
+51
+00:04:06,000 --> 00:04:10,000
+All right, here we go. New format for Dev
+Update Display. We've got kushti kicking
+
+52
+00:04:10,000 --> 00:04:14,000
+off the chat every Wednesday morning.
+
+53
+00:04:15,000 --> 00:04:19,000
+I think he's missed it once. And that's
+only because I hit it at 8.02 and he came
+
+54
+00:04:19,000 --> 00:04:23,000
+in at 8.03 or something like that. So it's
+not really a miss.
+
+55
+00:04:24,000 --> 00:04:29,000
+Alright, first up we have AnonBR with
+Team Nautilus. For those of you not
+
+56
+00:04:29,000 --> 00:04:34,000
+familiar with Nautilus, it's like a really
+good Chrome extension wallet. They're
+
+57
+00:04:34,000 --> 00:04:39,000
+working on a mobile version of course, so
+stay tuned for that.
+
+58
+00:04:40,000 --> 00:04:44,000
+So AnonBR refactored Add Wallet Index
+View component, refactored Create Wallet
+
+59
+00:04:44,000 --> 00:04:48,000
+View component, refactored Ledger Connect
+View component, added Mnemonic component,
+
+60
+00:04:48,000 --> 00:04:52,000
+added 24-word mnemonic generation support.
+
+61
+00:04:52,000 --> 00:04:58,000
+Oh, very nice. Added several minor UI
+fixes and code quality improvements. And
+
+62
+00:04:58,000 --> 00:05:04,000
+you can see a little graphic of some
+things that he's done here.
+
+63
+00:05:04,000 --> 00:05:07,000
+Let's give him all the buttons.
+
+64
+00:05:07,000 --> 00:05:11,000
+Luivatra claims he's been busy. I think
+that's up for debate in the ecosystem. I
+
+65
+00:05:11,000 --> 00:05:15,000
+don't know, you know, the European busy is
+different than the busy I know about, so
+
+66
+00:05:15,000 --> 00:05:19,000
+we're not going to harp on them too much.
+
+67
+00:05:21,000 --> 00:05:23,000
+He says, I'm looking forward to trying
+out the new execute from VAR function.
+
+68
+00:05:23,000 --> 00:05:25,000
+Plenty of Paideia contracts could benefit
+from that.
+
+69
+00:05:26,000 --> 00:05:29,000
+If you haven't tried Paideia, do it. Spin
+up a DAO. I mentioned this last week as I
+
+70
+00:05:29,000 --> 00:05:32,000
+did. Fantastic app.
+
+71
+00:05:32,000 --> 00:05:37,000
+All right, we've got qx() with ErgFi Dexy
+Gold swap widget done. Bank LP widget work
+
+72
+00:05:37,000 --> 00:05:42,000
+in progress. ErgoPay in progress. Dexy
+Gold swap test with fake tokens. End of
+
+73
+00:05:42,000 --> 00:05:47,000
+week. Awesome. Thanks, qx().
+
+74
+00:05:48,000 --> 00:05:53,000
+kushti is asking how he compiles
+contracts. Let's see what else we have.
+
+75
+00:05:53,000 --> 00:05:57,000
+We've got kushti with Ergo protocol and
+reference client R&D. Client 5.0.25
+
+76
+00:05:57,000 --> 00:06:01,000
+released. Recommended update nodes with
+extra indices.
+
+77
+00:06:02,000 --> 00:06:05,000
+Yay, more indexing on your node. Love it.
+
+78
+00:06:05,000 --> 00:06:10,000
+Sigma SDK 5.0.15 released with Execute
+from VAR. That's what Luivatra was excited
+
+79
+00:06:10,000 --> 00:06:15,000
+about in BigInt functions to deserialize a
+script from context extension variable and
+
+80
+00:06:15,000 --> 00:06:20,000
+create BigInt from a script, respectively,
+parsing contract template from JSON
+
+81
+00:06:20,000 --> 00:06:25,000
+string, box deserialization, W.js, along
+with many other features.
+
+82
+00:06:26,000 --> 00:06:31,000
+So it looks like they've been busy on
+Sigma SDK. That's awesome.
+
+83
+00:06:31,000 --> 00:06:37,000
+Fixed compatibility issues related with
+new sub-blocks per block perimeter
+
+84
+00:06:37,000 --> 00:06:43,000
+injection and with that release 6.0.0 RC2
+supporting 6.0 activation in public
+
+85
+00:06:43,000 --> 00:06:49,000
+testnet which as I said last week it's in
+and votes are the voting is done to the
+
+86
+00:06:49,000 --> 00:06:55,000
+voting epic so it's live you've got 6.0
+running on public testnet.
+
+87
+00:06:55,000 --> 00:07:00,000
+Anybody want to test that? It's required
+for kushti's sub-blocks, which as we know
+
+88
+00:07:00,000 --> 00:07:05,000
+are looking forward to be much faster
+confirmation times.
+
+89
+00:07:05,000 --> 00:07:07,000
+So yeah, that's really cool.
+
+90
+00:07:07,000 --> 00:07:10,000
+And here we go for sub-blocks
+implementation. Made first test with AI
+
+91
+00:07:10,000 --> 00:07:13,000
+for sub-blocks application to fix behavior
+of this functionality.
+
+92
+00:07:14,000 --> 00:07:18,000
+And working on properly processing
+sub-blocks coming out of order with
+
+93
+00:07:18,000 --> 00:07:22,000
+delayed transactions, resolving
+sub-blocks, forks, etc.
+
+94
+00:07:22,000 --> 00:07:26,000
+Once you get into speed and you get into
+transferring TXs across nodes, it gets a
+
+95
+00:07:26,000 --> 00:07:30,000
+little hairy. I mean, that's one of the
+reasons that kushti and the other core
+
+96
+00:07:30,000 --> 00:07:34,000
+developers settled on two minute block
+average times, you know, it's kind of the
+
+97
+00:07:34,000 --> 00:07:38,000
+safety net between, you know, too slow,
+which Bitcoin essentially, and too fast to
+
+98
+00:07:38,000 --> 00:07:42,000
+propagate to the node.
+
+99
+00:07:46,000 --> 00:07:50,000
+So every TX, you know, for the finality
+of it needs to propagate to all the nodes
+
+100
+00:07:50,000 --> 00:07:54,000
+out there for consensus written into a
+block.
+
+101
+00:07:55,000 --> 00:07:59,000
+But when you have nodes that are delayed
+or can't propagate fast enough, you're
+
+102
+00:07:59,000 --> 00:08:03,000
+going to possibly run into issues there.
+So that's one thing that kushti's figuring
+
+103
+00:08:03,000 --> 00:08:07,000
+out with sub-blocks, essentially.
+
+104
+00:08:07,000 --> 00:08:11,000
+All right, ChainCash started negative
+tests with AI doing new paper, merge PR
+
+105
+00:08:11,000 --> 00:08:15,000
+with refund actions and registers. And he
+removed this ChainCash pull 10. I'm not
+
+106
+00:08:15,000 --> 00:08:19,000
+going to click it, but I'm sure he had
+good reason.
+
+107
+00:08:21,000 --> 00:08:27,000
+Dexy trying to figure out updated mainnet
+deployment plan. And I don't know if he
+
+108
+00:08:27,000 --> 00:08:33,000
+mentioned it here. Let's read down below.
+He didn't. I think on Thursday. Oh, after
+
+109
+00:08:33,000 --> 00:08:39,000
+the dev update. Yeah, Thursday, the
+SigmaUSD Oracle group got together.
+
+110
+00:08:39,000 --> 00:08:44,000
+And we pushed a vote to the vote
+configuration to the process. And it
+
+111
+00:08:44,000 --> 00:08:49,000
+passed, essentially. And everything is
+good. Next up is we just have to update
+
+112
+00:08:49,000 --> 00:08:54,000
+our clients to version 2.
+
+113
+00:08:55,000 --> 00:09:00,000
+And as you've heard people say with Dexy
+Gold, the reward token for client runners,
+
+114
+00:09:00,000 --> 00:09:05,000
+for server runners, for the protocol is
+called GORT. But for SigmaUSD, US dollar
+
+115
+00:09:05,000 --> 00:09:10,000
+essentially ERG is going to be called
+DORT.
+
+116
+00:09:12,000 --> 00:09:17,000
+So dollar oracle reward token. I like it.
+GORT, DORT. Hopefully we see ORT, like oil
+
+117
+00:09:17,000 --> 00:09:22,000
+oracle reward token. LORT, lithium oracle
+reward token. I don't know, it's endless,
+
+118
+00:09:22,000 --> 00:09:27,000
+right?
+
+119
+00:09:27,000 --> 00:09:30,000
+BORT, banana oracle reward token. I can't
+really do a stable card. I mean, you
+
+120
+00:09:30,000 --> 00:09:33,000
+could, but you get the idea.
+
+121
+00:09:33,000 --> 00:09:36,000
+So you have all these reward tokens that
+are possible by running version two of the
+
+122
+00:09:36,000 --> 00:09:39,000
+oracle, depending on what you're actually
+announcing on chain for a price. So super
+
+123
+00:09:39,000 --> 00:09:42,000
+cool with that.
+
+124
+00:09:44,000 --> 00:09:49,000
+We've got the Rosen Bridge planning to
+release Binance in the coming days. We
+
+125
+00:09:49,000 --> 00:09:54,000
+should see that anytime. We've been
+hearing about it in chats. We've got a
+
+126
+00:09:54,000 --> 00:09:59,000
+warning in the guard chats about this. So
+really, really looking forward to this.
+
+127
+00:09:59,000 --> 00:10:03,000
+Rosen Bridge watcher version two, add
+observation status service in our
+
+128
+00:10:03,000 --> 00:10:07,000
+services, write startup and stop functions
+in service, add dependency to my service
+
+129
+00:10:07,000 --> 00:10:11,000
+like TXPOT, DB service and scanner.
+
+130
+00:10:12,000 --> 00:10:17,000
+Add function for calls or queries in DB
+service. The Rosen Bridge Rosen app.
+
+131
+00:10:17,000 --> 00:10:22,000
+Implementing the aggregation method for
+public event status.
+
+132
+00:10:22,000 --> 00:10:27,000
+The RosenSoon, classic.
+
+133
+00:10:27,000 --> 00:10:30,000
+All right, let's see. kushti's giving
+some advice. There's a suggestion for
+
+134
+00:10:30,000 --> 00:10:33,000
+Nautilus wallet. Easy to run out of node
+with an empty wallet. I want the node to
+
+135
+00:10:33,000 --> 00:10:36,000
+be fully automatic without any revision in
+computer startup. Getting some ideas for
+
+136
+00:10:36,000 --> 00:10:39,000
+that.
+
+137
+00:10:41,000 --> 00:10:44,000
+Would be nice to have an option to launch
+automatically without having to type in
+
+138
+00:10:44,000 --> 00:10:47,000
+password. You know, I think there's a way
+to do that from all the times that
+
+139
+00:10:47,000 --> 00:10:50,000
+Nautilus spoken out in support, so that
+should be an easy fix, hopefully.
+
+140
+00:10:52,000 --> 00:10:59,000
+All right.
+
+141
+00:10:59,000 --> 00:11:03,000
+NodeView XYZ, I spoke about this last
+week. It'd be amazing to have a node that
+
+142
+00:11:03,000 --> 00:11:07,000
+you could just have a interface on and hop
+on. Much easier to install, even if it was
+
+143
+00:11:07,000 --> 00:11:11,000
+in the default package.
+
+144
+00:11:12,000 --> 00:11:15,000
+Added special address and transaction
+detection for Spectrum DEX, Rosen Bridge,
+
+145
+00:11:15,000 --> 00:11:18,000
+SigmaUSD, and mining pools. Optimized load
+times with caching ErgoTree to address
+
+146
+00:11:18,000 --> 00:11:21,000
+conversions.
+
+147
+00:11:21,000 --> 00:11:24,000
+Switch deployment and hosting of NodeView
+XYZ for GitHub pages to Cloudflare because
+
+148
+00:11:24,000 --> 00:11:27,000
+of HTTPS issues.
+
+149
+00:11:28,000 --> 00:11:32,000
+Planning to make pop-ups to see
+parameters or swaps in cross-chain
+
+150
+00:11:32,000 --> 00:11:36,000
+transfers. That's awesome.
+
+151
+00:11:36,000 --> 00:11:39,000
+If that's what parameters are swaps and
+cross-chain transfers. That means what I
+
+152
+00:11:39,000 --> 00:11:42,000
+think it means. Let's see. Cool.
+
+153
+00:11:43,000 --> 00:11:46,000
+All right. What else do we have here?
+
+154
+00:11:46,000 --> 00:11:51,000
+We have CannonQ giving a little update on
+bounties. There's Keystone Wallet
+
+155
+00:11:51,000 --> 00:11:56,000
+Integration, 3,000 ERG reward, there's
+Fleet SDK tutorials, 775 SigmaUSD, and
+
+156
+00:11:56,000 --> 00:12:01,000
+this week, one bounty cleared, one bounty
+added.
+
+157
+00:12:03,000 --> 00:12:06,000
+So guys, any of you devs out there,
+anybody watching this on YouTube not
+
+158
+00:12:06,000 --> 00:12:09,000
+familiar with Ergo or anything, there's a
+meat load of bounty updates just ripe for
+
+159
+00:12:09,000 --> 00:12:12,000
+the plucking.
+
+160
+00:12:13,000 --> 00:12:16,000
+Go and update some things. There's
+tutorials for Sigma Rust or those kind of
+
+161
+00:12:16,000 --> 00:12:19,000
+things depending on what the update
+requires. I mean it's just sitting there
+
+162
+00:12:19,000 --> 00:12:22,000
+guys. It's literally like money sitting
+there for you to grab.
+
+163
+00:12:23,000 --> 00:12:27,000
+I can't encourage you enough to do this.
+Heck even if it takes you two months to
+
+164
+00:12:27,000 --> 00:12:31,000
+learn some stuff, just hop on there, learn
+it in two months. You'll definitely make
+
+165
+00:12:31,000 --> 00:12:35,000
+up your payday from that kind of stuff.
+
+166
+00:12:35,000 --> 00:12:42,000
+Let's see.
+
+167
+00:12:42,000 --> 00:12:46,000
+kushti released Ergo Protocol Reference
+Client 5.1.2. They're identical to the
+
+168
+00:12:46,000 --> 00:12:50,000
+5.0.25 changes, but on RocksDB.
+
+169
+00:12:51,000 --> 00:12:55,000
+So that is a much more stable, I'd say,
+database. Less compatible with many
+
+170
+00:12:55,000 --> 00:12:59,000
+different architectures, but a little bit
+more stable than the current 5.0.25
+
+171
+00:12:59,000 --> 00:13:03,000
+database usage.
+
+172
+00:13:04,000 --> 00:13:07,000
+If anybody have run nodes, you may have
+run into where you've run out of space or
+
+173
+00:13:07,000 --> 00:13:10,000
+something happens to your network
+connection. It's mainly, I usually only
+
+174
+00:13:10,000 --> 00:13:13,000
+run into it when I run out of space on my
+hard drive because I'm not paying
+
+175
+00:13:13,000 --> 00:13:16,000
+attention on like a little Raspberry Pi.
+
+176
+00:13:18,000 --> 00:13:21,000
+You know, that's a funny thing. You run a
+node on another chain, right? You probably
+
+177
+00:13:21,000 --> 00:13:24,000
+spend a ton of money. You have a massive
+hard drive. You probably have monitoring
+
+178
+00:13:24,000 --> 00:13:27,000
+tools.
+
+179
+00:13:28,000 --> 00:13:35,000
+Okay. You run a node on a Raspberry Pi
+with like a SD card even if it will run on
+
+180
+00:13:35,000 --> 00:13:42,000
+the fast 10x or 20x ones. And then you
+forget it, right?
+
+181
+00:13:42,000 --> 00:13:45,000
+And you forget it for too long and you
+realize that you run out of space. So it's
+
+182
+00:13:45,000 --> 00:13:48,000
+a funny problem that an easy system like
+Ergo nodes can run on anything. You still
+
+183
+00:13:48,000 --> 00:13:51,000
+got to kind of pay attention once in a
+while.
+
+184
+00:13:53,000 --> 00:13:57,000
+So anyway, my original point is I would
+run out of space, get corrupt databases,
+
+185
+00:13:57,000 --> 00:14:01,000
+have to resync. But RocksDB hopefully
+should be a little bit better at either
+
+186
+00:14:01,000 --> 00:14:05,000
+fixing itself there or not corrupting at
+all.
+
+187
+00:14:07,000 --> 00:14:10,000
+So that's great.
+
+188
+00:14:10,000 --> 00:14:13,000
+Oh, and kushti is announcing the good
+news that the Oracle operators made the
+
+189
+00:14:13,000 --> 00:14:16,000
+update. It was not noticed as the ceremony
+took about 20 minutes. And the update
+
+190
+00:14:16,000 --> 00:14:19,000
+transaction was right there.
+
+191
+00:14:19,000 --> 00:14:22,000
+Update is minimal but the script now
+allowing for update to oracle version 2
+
+192
+00:14:22,000 --> 00:14:25,000
+and I think we're into a couple days here
+now so that's it guys thanks for
+
+193
+00:14:25,000 --> 00:14:28,000
+listening.
+
+194
+00:14:30,000 --> 00:14:33,000
+We've got some things that are always
+missed right? I mentioned Cyberverse,
+
+195
+00:14:33,000 --> 00:14:36,000
+don't forget to check out Cyberverse. They
+had like a game night I think on Thursday
+
+196
+00:14:36,000 --> 00:14:39,000
+night UTC time where they played like the
+bow and arrow game, they played other
+
+197
+00:14:39,000 --> 00:14:42,000
+multiplayer games.
+
+198
+00:14:45,000 --> 00:14:48,000
+Still a nice high watermark sustaining
+through on Cyberverse, they're doing
+
+199
+00:14:48,000 --> 00:14:51,000
+great. It's good to see that, those guys
+deserve the best.
+
+200
+00:14:52,000 --> 00:14:57,000
+MewFinance as well, they didn't do an
+update this week but check those guys out.
+
+201
+00:14:57,000 --> 00:15:02,000
+They just supported a liquidity builder or
+donation I forget which one it is for the
+
+202
+00:15:02,000 --> 00:15:07,000
+Sigmanauts mining DAO.
+
+203
+00:15:08,000 --> 00:15:12,000
+So it's really nice to be able to do
+those kind of launch pads off there to
+
+204
+00:15:12,000 --> 00:15:16,000
+raise some funds for shared liquidity.
+
+205
+00:15:17,000 --> 00:15:21,000
+Sigmanauts Mining DAO is trucking along.
+Mark's just upgraded the server to an
+
+206
+00:15:21,000 --> 00:15:25,000
+extra hard drive because you can bet that
+those logs take up a lot of space when
+
+207
+00:15:25,000 --> 00:15:29,000
+you're running something like that with
+that much hash.
+
+208
+00:15:30,000 --> 00:15:34,000
+So he's doing that. He's diving into his
+Sharknet stuff where he's making these
+
+209
+00:15:34,000 --> 00:15:38,000
+branded packages based on that theme,
+which is really, really cool.
+
+210
+00:15:39,000 --> 00:15:44,000
+So let me stress, even if you have just
+like a 2070 or I don't know, a 3050, a
+
+211
+00:15:44,000 --> 00:15:49,000
+4050, 4060, 4060, something. But hop into
+the mining pool, give it a low enough hash
+
+212
+00:15:49,000 --> 00:15:54,000
+to where you're not going to be burning
+through electricity at this time, and join
+
+213
+00:15:54,000 --> 00:15:59,000
+the community.
+
+214
+00:16:00,000 --> 00:16:04,000
+Even if you don't have a card, join the
+community. You don't have to be a miner to
+
+215
+00:16:04,000 --> 00:16:08,000
+join the Sigmanauts mining DAO,
+essentially. I don't think Mark can
+
+216
+00:16:08,000 --> 00:16:12,000
+correct me there, but the community is
+there and even if you have a small card,
+
+217
+00:16:12,000 --> 00:16:16,000
+point it towards a pool and together it'll
+make a big difference than any big farm.
+
+218
+00:16:18,000 --> 00:16:22,000
+A majority of small users compared to one
+big user always makes that big difference.
+
+219
+00:16:22,000 --> 00:16:26,000
+So yeah, feel free to dive in there.
+
+220
+00:16:26,000 --> 00:16:31,000
+I hope you like the new test format. Let
+me know in the comments what you think. I
+
+221
+00:16:31,000 --> 00:16:36,000
+just whipped together a little bit before.
+I can add some more fancy stuff.
+
+222
+00:16:37,000 --> 00:16:41,000
+Maybe make the background a little faster
+moving. Maybe make my head less big. I
+
+223
+00:16:41,000 --> 00:16:45,000
+don't know if that's possible or not. But
+you know, maybe we're shrinkage tools.
+
+224
+00:16:46,000 --> 00:16:52,000
+Thanks, everybody, for joining. We'll see
+you in the AMA on Thursday. And if you're
+
+225
+00:16:52,000 --> 00:16:58,000
+up for it, join the Sigmanauts meeting
+later today, later Sunday.
+
+226
+00:16:59,000 --> 00:17:04,000
+Check in the Sigmanauts chat or ask on
+main chat if you can pop in. We're happy
+
+227
+00:17:04,000 --> 00:17:09,000
+to have people come in and listen since
+the text is public anyway.
+
+228
+00:17:09,000 --> 00:17:12,000
+Ciao, everybody. Bye-bye.
+

@@ -1,0 +1,1436 @@
+1
+00:00:12,000 --> 00:00:21,000
+Hello and welcome to a late night solo
+dev update.
+
+2
+00:00:21,000 --> 00:00:25,000
+I'm qx() and I will guide you through the
+ASMR developer update on the Ergo
+
+3
+00:00:25,000 --> 00:00:29,000
+platform.
+
+4
+00:00:30,000 --> 00:00:34,000
+We'll tone it down more once we get to
+the actual updates.
+
+5
+00:00:34,000 --> 00:00:37,000
+And excuse my voice, still recovering
+after a full month of being sick from
+
+6
+00:00:37,000 --> 00:00:40,000
+before, so working on that.
+
+7
+00:00:41,000 --> 00:00:46,000
+OK, so you'll notice what I have up on
+screen here first is before the Dev Update
+
+8
+00:00:46,000 --> 00:00:51,000
+started, kushti and Unreal and on 2020's
+mgPai, Luivatra are discussing the
+
+9
+00:00:51,000 --> 00:00:56,000
+SigmaUSD bank update.
+
+10
+00:00:58,000 --> 00:01:02,000
+So currently in the stages, Unreal, I
+believe, is testing against testnet some
+
+11
+00:01:02,000 --> 00:01:06,000
+UI updates for it.
+
+12
+00:01:07,000 --> 00:01:12,000
+I wanted to jump in here because I see in
+chat sometimes people are trying to
+
+13
+00:01:12,000 --> 00:01:17,000
+convert the SigmaUSD, a SigmaRSV, convert
+back when they're confused about why the
+
+14
+00:01:17,000 --> 00:01:22,000
+price is different, perhaps, on MewFinance
+or MewDex or Spectrum DEX compared to the
+
+15
+00:01:22,000 --> 00:01:27,000
+SigmaUSD bank or even TokenJ, which some
+people don't even know about and how that
+
+16
+00:01:27,000 --> 00:01:32,000
+works.
+
+17
+00:01:33,000 --> 00:01:38,000
+So there's an amazing video that I spoke
+with cafe and he explains that I'll put
+
+18
+00:01:38,000 --> 00:01:43,000
+that in the chat below.
+
+19
+00:01:44,000 --> 00:01:47,000
+If I remember, if it's not too late, if
+not just Google it, it's on the Ergo
+
+20
+00:01:47,000 --> 00:01:50,000
+platform channel or the Sigmanauts
+channel, I believe it was a dev update.
+
+21
+00:01:51,000 --> 00:01:59,000
+So it should be the Ergo YouTube channel,
+but let's kick off here, right here.
+
+22
+00:01:59,000 --> 00:02:05,000
+So we have two different kinds. The first
+kind.
+
+23
+00:02:05,000 --> 00:02:10,000
+The first way we can do it is we can go
+to sigmausd.io.
+
+24
+00:02:10,000 --> 00:02:15,000
+Now the difference between sigmausd.io,
+the difference between tokenj and the
+
+25
+00:02:15,000 --> 00:02:20,000
+difference between doing an exchange is
+very simple, all right?
+
+26
+00:02:20,000 --> 00:02:28,000
+If you're trying to convert ERGs to
+SigmaUSD or SigmaUSD or SigmaRSV to ERGs,
+
+27
+00:02:28,000 --> 00:02:36,000
+back the other way, you can at any time go
+to something like MewFinance, choose ERGs,
+
+28
+00:02:36,000 --> 00:02:42,000
+Choose SigmaUSD.
+
+29
+00:02:42,000 --> 00:02:45,000
+And we can convert it anytime. We'll have
+some slippage, of course.
+
+30
+00:02:45,000 --> 00:02:48,000
+We'll have a price impact because this is
+an actual pool that people have created
+
+31
+00:02:48,000 --> 00:02:51,000
+and created liquidity for it.
+
+32
+00:02:52,000 --> 00:02:55,000
+So we're limited by the depth of the
+liquidity. We're limited by the trades
+
+33
+00:02:55,000 --> 00:02:58,000
+that are going on in it right then as
+well.
+
+34
+00:02:58,000 --> 00:03:03,000
+So you'll notice that the DEX price of
+SigmaUSD slash ERG, that conversion rate,
+
+35
+00:03:03,000 --> 00:03:08,000
+will sometimes lag behind and be different
+than the actual price of what ERG is.
+
+36
+00:03:08,000 --> 00:03:12,000
+So there's arbitrage opportunities
+between here if you have SigmaUSD or you
+
+37
+00:03:12,000 --> 00:03:16,000
+have ERG because you can slide into one
+and slide in the other.
+
+38
+00:03:16,000 --> 00:03:19,000
+If the DEX gets too far up ahead of what
+the bank is, you can bring it back down.
+
+39
+00:03:19,000 --> 00:03:22,000
+If it gets too far below, you can buy it
+back up.
+
+40
+00:03:23,000 --> 00:03:25,000
+Exactly like that.
+
+41
+00:03:25,000 --> 00:03:30,000
+Super, super easy beginner method of
+arbitrage you can start with the SigmaUSD
+
+42
+00:03:30,000 --> 00:03:35,000
+bank versus the DEX to level those out.
+
+43
+00:03:35,000 --> 00:03:41,000
+OK, that being said, that's the DEX side
+of things. We also have, back to these two
+
+44
+00:03:41,000 --> 00:03:47,000
+dashboards, we have a difference between
+these two actual processes as well.
+
+45
+00:03:47,000 --> 00:03:52,000
+TokenJ, I'm not sure which one was around
+first. Actually, I think it was SigmaUSD.
+
+46
+00:03:52,000 --> 00:03:57,000
+Right here, the SigmaUSD.io, perhaps.
+Somebody can correct me if I'm wrong.
+
+47
+00:03:57,000 --> 00:04:02,000
+This uses proxy contracts. That means
+your funds are sent into a proxy contract
+
+48
+00:04:02,000 --> 00:04:07,000
+first, and then it is pushed against the
+bank itself, the bank contract, and you
+
+49
+00:04:07,000 --> 00:04:12,000
+are given your tokens.
+
+50
+00:04:13,000 --> 00:04:18,000
+If something happens, there is a refund
+button that you can do.
+
+51
+00:04:18,000 --> 00:04:21,000
+So let's say we go to a stable coin. We
+choose to go from ERG to SigmaUSD or
+
+52
+00:04:21,000 --> 00:04:24,000
+SigmaUSD to ERG.
+
+53
+00:04:24,000 --> 00:04:30,000
+Or we want to do the reserve coin, ERG to
+SigmaRSV, SigmaRSV to ERG.
+
+54
+00:04:30,000 --> 00:04:33,000
+We purchase, we redeem.
+
+55
+00:04:33,000 --> 00:04:38,000
+goes into the proxy if the price of ERG
+hasn't changed your funds will be in that
+
+56
+00:04:38,000 --> 00:04:43,000
+proxy and then you can refund them if it
+hasn't gone through otherwise you'll get
+
+57
+00:04:43,000 --> 00:04:48,000
+your conversion tokenj on the other hand
+does it a little differently
+
+58
+00:04:48,000 --> 00:04:50,000
+they directly go right to the bank.
+
+59
+00:04:50,000 --> 00:04:55,000
+So there's no delay, there's no extra
+slippage or anything like that.
+
+60
+00:04:55,000 --> 00:04:59,000
+If your bid matches it, then it's going
+to execute. If it doesn't, then it doesn't
+
+61
+00:04:59,000 --> 00:05:03,000
+and you get it back automatically,
+essentially.
+
+62
+00:05:04,000 --> 00:05:09,000
+So that's kind of the difference between
+these two products right here.
+
+63
+00:05:09,000 --> 00:05:17,000
+They both interact directly with the
+contract, the SigmaUSD contract.
+
+64
+00:05:17,000 --> 00:05:23,000
+Now you may say, we can see reserve ratio
+at 374%. What does that mean?
+
+65
+00:05:23,000 --> 00:05:28,000
+If we go over to here from the Ergo
+platform website, we can see a cute little
+
+66
+00:05:28,000 --> 00:05:33,000
+infographic about when you can purchase or
+redeem.
+
+67
+00:05:33,000 --> 00:05:41,000
+So if it's below 400%, we can only redeem
+the USD or we can only purchase SigmaRSV.
+
+68
+00:05:41,000 --> 00:05:44,000
+If it's above 800%, we can only redeem
+SigmaRSV. We can purchase and redeem both
+
+69
+00:05:44,000 --> 00:05:47,000
+SigmaUSD.
+
+70
+00:05:48,000 --> 00:05:51,000
+So that is like the logic built in to the
+process of the protocol that keeps that
+
+71
+00:05:51,000 --> 00:05:54,000
+thing pegged where it's supposed to be.
+
+72
+00:05:55,000 --> 00:05:59,000
+If you want to get deeper on this part
+and go into more arbitrage opportunities
+
+73
+00:05:59,000 --> 00:06:03,000
+and potentially gain opportunities with
+minting and unminting SigmaRSV, SigmaUSD,
+
+74
+00:06:03,000 --> 00:06:07,000
+please watch that video I spoke about
+earlier.
+
+75
+00:06:09,000 --> 00:06:12,000
+Cafe does a fantastic job of explaining
+it. It's tricky. It's tricky. I don't
+
+76
+00:06:12,000 --> 00:06:15,000
+touch this anymore.
+
+77
+00:06:16,000 --> 00:06:19,000
+But there's a lot of people who do. And
+there's a lot of misconceptions about RSV
+
+78
+00:06:19,000 --> 00:06:22,000
+being a long or that kind of thing.
+
+79
+00:06:23,000 --> 00:06:25,000
+watch that video that'll hopefully
+explain a lot.
+
+80
+00:06:25,000 --> 00:06:30,000
+So if we test this, right, a reserve
+ratio below 400, we should not be able to
+
+81
+00:06:30,000 --> 00:06:35,000
+purchase SigmaUSD at anywhere, right?
+
+82
+00:06:35,000 --> 00:06:42,000
+So let's see if I want one. Let's see.
+
+83
+00:06:42,000 --> 00:06:46,000
+See, unable, if you can read this, you
+can barely read this. Unable to mint more
+
+84
+00:06:46,000 --> 00:06:50,000
+than zero SigmaUSD based on the current
+reserve status.
+
+85
+00:06:50,000 --> 00:06:53,000
+It won't let us if you want to redeem.
+Sure enough, it lets us redeem and that
+
+86
+00:06:53,000 --> 00:06:56,000
+matches exactly what this chart says.
+
+87
+00:06:56,000 --> 00:07:01,000
+So both of these are codified to match
+the contract and the contract won't. So
+
+88
+00:07:01,000 --> 00:07:06,000
+somebody tries to bypass these UIs and
+interact with the bank directly.
+
+89
+00:07:06,000 --> 00:07:11,000
+Won't do it. Won't do it at all. It's all
+based on the smart contract code.
+
+90
+00:07:11,000 --> 00:07:14,000
+I'll put that video below, but watch it.
+I know this is asked a lot in chat
+
+91
+00:07:14,000 --> 00:07:17,000
+sometimes when people are struggling with
+what this is.
+
+92
+00:07:18,000 --> 00:07:22,000
+Sometimes people click on version one of
+SigmaUSD, which you don't want to use. You
+
+93
+00:07:22,000 --> 00:07:26,000
+want to use the main link from the
+SigmaUSD page or tokenj of course.
+
+94
+00:07:26,000 --> 00:07:30,000
+And I know a lot of you people already
+know this already, but I think it's good
+
+95
+00:07:30,000 --> 00:07:34,000
+to have out there once again, because it
+is a question asked very often.
+
+96
+00:07:34,000 --> 00:07:42,000
+All right, we've got a very, very short
+dev update this week. We're gonna try to
+
+97
+00:07:42,000 --> 00:07:50,000
+keep this under 15 minutes. I think we can
+do it.
+
+98
+00:07:50,000 --> 00:07:55,000
+Let's see if I have any voice left.
+
+99
+00:07:55,000 --> 00:08:01,000
+We have Anand Bihar from the Nautilus
+team. And they have released version 0.2.0
+
+100
+00:08:01,000 --> 00:08:07,000
+of Ergo Ledger JS, added device close app,
+device open app, and device get current
+
+101
+00:08:07,000 --> 00:08:13,000
+app info, OS level methods, improved APDU
+logging.
+
+102
+00:08:13,000 --> 00:08:16,000
+Nautilus, refactored ledger device
+component, moving all generic and state
+
+103
+00:08:16,000 --> 00:08:19,000
+management logic into it, refactored
+transaction sign component, refactored
+
+104
+00:08:19,000 --> 00:08:22,000
+confirm address dialogue component, added
+several minor UI fixes and code quality
+
+105
+00:08:22,000 --> 00:08:25,000
+improvements.
+
+106
+00:08:28,000 --> 00:08:32,000
+This is good. I haven't been paying
+attention to this in chats or what they
+
+107
+00:08:32,000 --> 00:08:36,000
+were saying, but I imagine this comes from
+the latest ask to fix some things perhaps
+
+108
+00:08:36,000 --> 00:08:40,000
+review they were doing so that's great.
+
+109
+00:08:41,000 --> 00:08:45,000
+Awesome. It'll be nice to have both
+ledger and keystone options again, so
+
+110
+00:08:45,000 --> 00:08:49,000
+people have choice. That's always best.
+
+111
+00:08:49,000 --> 00:08:54,000
+All right, we have C8 with ErgFi, Dexy
+Gold integration, ETA a few weeks. I see
+
+112
+00:08:54,000 --> 00:08:59,000
+it's usually pretty good with the
+deadlines. So yeah, I believe that.
+
+113
+00:09:00,000 --> 00:09:04,000
+He's done five to five lib level actions,
+LP swap, ERG-Dexy Gold, bank freemint,
+
+114
+00:09:04,000 --> 00:09:08,000
+bank redeem, LP mint liquidity tokens, LP
+redeem liquidity tokens, in-progress UI
+
+115
+00:09:08,000 --> 00:09:12,000
+integration, ErgoPay, other things
+required for release, mempool server
+
+116
+00:09:12,000 --> 00:09:16,000
+integration.
+
+117
+00:09:17,000 --> 00:09:22,000
+Very nice.
+
+118
+00:09:22,000 --> 00:09:27,000
+We have kushti with sub-blocks, which
+people love to pass around as the next big
+
+119
+00:09:27,000 --> 00:09:32,000
+thing, which I think it is. It's going to
+be amazing.
+
+120
+00:09:32,000 --> 00:09:38,000
+We spoke briefly about changing or at
+least coming up with some sort of
+
+121
+00:09:38,000 --> 00:09:44,000
+alternative to an ErgoHack, like a spring
+or summer of code where essentially you
+
+122
+00:09:44,000 --> 00:09:50,000
+target a theme and you get people on
+board, you give them much more time.
+
+123
+00:09:50,000 --> 00:09:55,000
+So for example, HQx mentioned, why don't
+we do a spring of code or summer of code
+
+124
+00:09:55,000 --> 00:10:00,000
+that is focused on prepping dApps for
+sub-blocks.
+
+125
+00:10:01,000 --> 00:10:04,000
+So by the time sub-blocks come out, if
+you've done this spring of code and you've
+
+126
+00:10:04,000 --> 00:10:07,000
+rewarded people that are participating in
+that and learning ErgoScript and learning
+
+127
+00:10:07,000 --> 00:10:10,000
+how to code, and also people that come and
+knowing how to do front ends and work with
+
+128
+00:10:10,000 --> 00:10:13,000
+code anyway,
+
+129
+00:10:13,000 --> 00:10:15,000
+A lot of these dApps that we have in here
+will already be set for sub-blocks when it
+
+130
+00:10:15,000 --> 00:10:17,000
+comes online.
+
+131
+00:10:18,000 --> 00:10:22,000
+So that's the idea of that kind of spring
+of code versus an ErgoHack where you give
+
+132
+00:10:22,000 --> 00:10:26,000
+a theme and people do it and you reward
+based on that.
+
+133
+00:10:26,000 --> 00:10:30,000
+I feel in kind of these code sessions
+where it's extended, you target college
+
+134
+00:10:30,000 --> 00:10:34,000
+groups, you target other ecosystem
+developers as well as our own.
+
+135
+00:10:35,000 --> 00:10:39,000
+Everybody comes together for kind of a
+goal and they're rewarded based on the
+
+136
+00:10:39,000 --> 00:10:43,000
+stages. Might get a little more progress
+with these kinds of things.
+
+137
+00:10:43,000 --> 00:10:46,000
+Okay, great. So sub-blocks work and DAG
+representation of input and ordering
+
+138
+00:10:46,000 --> 00:10:49,000
+blocks and RAM after completing first API
+methods, best input block, best input
+
+139
+00:10:49,000 --> 00:10:52,000
+chain with just one local miner chain
+representation is okay for initial
+
+140
+00:10:52,000 --> 00:10:55,000
+testing, et cetera.
+
+141
+00:10:58,000 --> 00:11:02,000
+But for P2P network, DAG storage is
+needed.
+
+142
+00:11:02,000 --> 00:11:09,000
+6.0.0 RC to released with support for
+public testnet or voting and activation
+
+143
+00:11:09,000 --> 00:11:16,000
+voting should be started soon in the
+testnet next 120 blocks epic epoch.
+
+144
+00:11:16,000 --> 00:11:21,000
+So yeah, so he gave me a couple of days
+after that released, I popped it on the
+
+145
+00:11:21,000 --> 00:11:26,000
+testnet I'm running the testnet and change
+the code and immediately popped up that
+
+146
+00:11:26,000 --> 00:11:31,000
+said, 120 blocks for epic.
+
+147
+00:11:31,000 --> 00:11:38,000
+So should be soon. Super cool. It's
+running, I believe, as I said earlier, and
+
+148
+00:11:38,000 --> 00:11:45,000
+Unreal was testing some UI things for,
+what was it? SigmaUSD.
+
+149
+00:11:45,000 --> 00:11:51,000
+So that's great that that's working.
+Waiting for 6.0 fix PRs review.
+
+150
+00:11:51,000 --> 00:11:55,000
+But Paideia. Oh, nice. But Paideia. This
+is Luivatra worked with CannonQ to debug
+
+151
+00:11:55,000 --> 00:11:59,000
+some issues in the create DAO process.
+
+152
+00:11:59,000 --> 00:12:03,000
+I tell you guys if you haven't used
+Paideia. I mean, even if you just have
+
+153
+00:12:03,000 --> 00:12:07,000
+groups online of people that you work with
+for fun, like D&D groups or record groups
+
+154
+00:12:07,000 --> 00:12:11,000
+or music groups or anything like that,
+where there are decisions that need to be
+
+155
+00:12:11,000 --> 00:12:15,000
+made that are based around user consensus,
+and you could potentially have funds
+
+156
+00:12:15,000 --> 00:12:19,000
+hooked to that too, it's the way to go.
+
+157
+00:12:22,000 --> 00:12:26,000
+It's worked amazingly well. We used the
+hell out of it during the beta. For
+
+158
+00:12:26,000 --> 00:12:30,000
+Sigmanauts, the mining pool just jumped
+over there as well, from the beta to the
+
+159
+00:12:30,000 --> 00:12:34,000
+final version that we're on as well for
+the Sigmanauts.
+
+160
+00:12:34,000 --> 00:12:38,000
+It's an amazing tool. Hats off to
+Luivatra, Marty, and the team that worked
+
+161
+00:12:38,000 --> 00:12:42,000
+on that. Fantastic.
+
+162
+00:12:42,000 --> 00:12:46,000
+We've got kushti with SigmaUSD pool.
+Prepare data for mainnet pool update to
+
+163
+00:12:46,000 --> 00:12:50,000
+refresh update box and open possibility to
+update the pool to V2 and next voting,
+
+164
+00:12:50,000 --> 00:12:54,000
+ChainCash, updating the paper.
+
+165
+00:12:55,000 --> 00:12:59,000
+We've got Voryu Jack with Minotaur.
+Select addresses from the address book.
+
+166
+00:12:59,000 --> 00:13:03,000
+Allow to archive some wallets. These
+wallets are not displayed in wallet select
+
+167
+00:13:03,000 --> 00:13:07,000
+page by default.
+
+168
+00:13:07,000 --> 00:13:10,000
+Favorite wallets are displayed in start
+of wallets list. Great, great. Toggle
+
+169
+00:13:10,000 --> 00:13:13,000
+display archive wallet.
+
+170
+00:13:13,000 --> 00:13:16,000
+If you guys are interested in running
+desktop versions of wallet, Ergo has too
+
+171
+00:13:16,000 --> 00:13:19,000
+many good choices. It's absolutely
+fantastic.
+
+172
+00:13:20,000 --> 00:13:24,000
+You have Minotaur, you have Satergo, but
+give them a try. I have many computers
+
+173
+00:13:24,000 --> 00:13:28,000
+that I use and I have Satergo on one.
+
+174
+00:13:28,000 --> 00:13:31,000
+I have Minotaur on another. I have
+Minotaur Mobile on my, where is it? I love
+
+175
+00:13:31,000 --> 00:13:34,000
+showing this thing off.
+
+176
+00:13:35,000 --> 00:13:40,000
+Show it off every other AMA on my cold
+wallet, which is just one of these little
+
+177
+00:13:40,000 --> 00:13:45,000
+palms.
+
+178
+00:13:45,000 --> 00:13:49,000
+When I bought it, it was like a hundred
+and, I think I got it for 70 bucks. Now
+
+179
+00:13:49,000 --> 00:13:53,000
+it's a lot more where it was last time I
+checked a little tiny guy running Android.
+
+180
+00:13:53,000 --> 00:13:58,000
+It's my cold wallet. Got Minotaur on it.
+I push things to it via ADB cable as a
+
+181
+00:13:58,000 --> 00:14:03,000
+text file to sign things on the cold
+wallet and push them back.
+
+182
+00:14:04,000 --> 00:14:07,000
+Super, super cool.
+
+183
+00:14:07,000 --> 00:14:12,000
+We've got an update from Rosen Bridge.
+This is very exciting.
+
+184
+00:14:12,000 --> 00:14:16,000
+Rosen Bridge-RosenApp. Enhance the
+logical structure of networks within their
+
+185
+00:14:16,000 --> 00:14:20,000
+specific packages to improve efficiency
+and increase maintainability.
+
+186
+00:14:20,000 --> 00:14:24,000
+Implementing public event status or
+services.
+
+187
+00:14:24,000 --> 00:14:26,000
+Rosen Bridge watcher version two. Write
+observation-related queries and write unit
+
+188
+00:14:26,000 --> 00:14:28,000
+tests.
+
+189
+00:14:29,000 --> 00:14:33,000
+Write a job function and txpot and
+callback of it.
+
+190
+00:14:33,000 --> 00:14:37,000
+Rosen Bridge Scanner added callback
+support to extractors, added abstract
+
+191
+00:14:37,000 --> 00:14:41,000
+database entity in action to ease the new
+extractors development.
+
+192
+00:14:41,000 --> 00:14:44,000
+Rosen Bridge Utils added callback logger
+package to be used in log level health
+
+193
+00:14:44,000 --> 00:14:47,000
+parameter.
+
+194
+00:14:48,000 --> 00:14:55,000
+If any of you are being a watcher on the
+Rosen Bridge, I had to do some sort of
+
+195
+00:14:55,000 --> 00:15:02,000
+database wipe on mine. I had to kill the
+containers and redo it.
+
+196
+00:15:02,000 --> 00:15:06,000
+There's an issue with one of the packages
+when you restart it. They're working on
+
+197
+00:15:06,000 --> 00:15:10,000
+fixing the instructions to include an
+official repository to one of those
+
+198
+00:15:10,000 --> 00:15:14,000
+packages, because it's a third party
+package.
+
+199
+00:15:14,000 --> 00:15:17,000
+I found one built into Docker that works.
+I've been using it for three or four days
+
+200
+00:15:17,000 --> 00:15:20,000
+now. It works fine.
+
+201
+00:15:20,000 --> 00:15:23,000
+But there'll be an official announcement
+that soon if they haven't already based on
+
+202
+00:15:23,000 --> 00:15:26,000
+this. So if you do find yourself in
+trouble spinning up a watcher from scratch
+
+203
+00:15:26,000 --> 00:15:29,000
+right now, or rebuilding your container,
+so then you're going to run into that
+
+204
+00:15:29,000 --> 00:15:32,000
+unless you do that fix.
+
+205
+00:15:34,000 --> 00:15:38,000
+Feel free to ping me or somebody in the
+chats.
+
+206
+00:15:38,000 --> 00:15:42,000
+Oh, kushti is calling me out. I didn't
+even answer that. Goodness, why we only
+
+207
+00:15:42,000 --> 00:15:46,000
+have 176 blocks a day in the testnet with
+min difficulty. Any idea?
+
+208
+00:15:46,000 --> 00:15:52,000
+Probably because I'm only mining it at
+like two megahash. Maybe I'll hit it with
+
+209
+00:15:52,000 --> 00:15:58,000
+a better card that's more consistent or
+something like that.
+
+210
+00:15:58,000 --> 00:16:05,000
+Whoopsie. We'll answer him later. Sorry,
+kushti.
+
+211
+00:16:05,000 --> 00:16:08,000
+Rosen Bridge continued. Rosen Bitcoin
+ruins R&D. The research on integration
+
+212
+00:16:08,000 --> 00:16:11,000
+Bitcoin ruins with the Rosen Bridge is now
+complete.
+
+213
+00:16:12,000 --> 00:16:16,000
+Over the past few weeks, we explored
+various APIs and libraries to assess the
+
+214
+00:16:16,000 --> 00:16:20,000
+feasibility of this integration and how to
+align the implementation with our overall
+
+215
+00:16:20,000 --> 00:16:24,000
+design detailed in a dedicated medium
+post.
+
+216
+00:16:25,000 --> 00:16:28,000
+Despite encountering some concerns and
+regarding rate limits associated with
+
+217
+00:16:28,000 --> 00:16:31,000
+certain APIs, we have decided to proceed
+with the implementation phase.
+
+218
+00:16:32,000 --> 00:16:36,000
+As we develop the integration, we will
+gather more accurate estimations, allowing
+
+219
+00:16:36,000 --> 00:16:40,000
+us to make informed decisions for
+potential improvements along the way.
+
+220
+00:16:41,000 --> 00:16:43,000
+Currently, we are finalizing the
+documentation and proof of concepts, and
+
+221
+00:16:43,000 --> 00:16:45,000
+we are looking forward to starting to
+develop that development phase in the near
+
+222
+00:16:45,000 --> 00:16:47,000
+future.
+
+223
+00:16:49,000 --> 00:16:54,000
+This, I mean, this is awesome. Anytime
+you can, not just in Bitcoin, but anytime
+
+224
+00:16:54,000 --> 00:16:59,000
+you can bring a store value over to
+another chain like Ergo and get some
+
+225
+00:16:59,000 --> 00:17:04,000
+functionality of it, out of it, that's
+more Cardano or to Ethereum or to where's
+
+226
+00:17:04,000 --> 00:17:09,000
+the next one, Binance, and get some more
+utility or usage out of it.
+
+227
+00:17:11,000 --> 00:17:14,000
+It's a no brainer.
+
+228
+00:17:14,000 --> 00:17:17,000
+I think once people cross the bridge once
+and they're like, oh, this is how it
+
+229
+00:17:17,000 --> 00:17:20,000
+works. I can see it all along the process.
+
+230
+00:17:21,000 --> 00:17:24,000
+I don't see a spot where it ever gets
+lost or anything like that. I can see
+
+231
+00:17:24,000 --> 00:17:27,000
+exactly what's happening, if it's
+processing, if it's in payment.
+
+232
+00:17:28,000 --> 00:17:31,000
+I think they get a little more
+comfortable with it. So we just got to get
+
+233
+00:17:31,000 --> 00:17:34,000
+people out of that initial hump.
+
+234
+00:17:34,000 --> 00:17:40,000
+OK, kushti's talking about merging and
+releasing some things.
+
+235
+00:17:40,000 --> 00:17:44,000
+Anything else?
+
+236
+00:17:44,000 --> 00:17:46,000
+They're updating an Ergo node interface
+for us there.
+
+237
+00:17:46,000 --> 00:17:54,000
+Oh, Fanta created a new front end for
+index nodes.
+
+238
+00:17:54,000 --> 00:18:00,000
+This stuff is exciting. OK, so right now,
+we have the Ergo Explorer, the main one.
+
+239
+00:18:00,000 --> 00:18:13,000
+That's this one.
+
+240
+00:18:13,000 --> 00:18:17,000
+This is what I'm looking for. The main
+Ergo Explorer right here.
+
+241
+00:18:17,000 --> 00:18:24,000
+This is not fun to set up.
+
+242
+00:18:24,000 --> 00:18:29,000
+It's not fun to set up at all. I created
+a package for myself, and it's zipped up.
+
+243
+00:18:29,000 --> 00:18:32,000
+Essentially, you just put it onto the
+server, update some DNS and nginx things
+
+244
+00:18:32,000 --> 00:18:35,000
+and you're good to go.
+
+245
+00:18:36,000 --> 00:18:40,000
+But it's not for the everyday person,
+right? It's got some clunky overhead, and
+
+246
+00:18:40,000 --> 00:18:44,000
+it just keeps eating and eating and eating
+space on your computer.
+
+247
+00:18:45,000 --> 00:18:49,000
+Well, I mean, so does a node, but not not
+as much.
+
+248
+00:18:49,000 --> 00:18:54,000
+So you have things like erg explore,
+which is an alternative, you have sigma
+
+249
+00:18:54,000 --> 00:18:59,000
+space as well, which is an alternative, a
+fantastic, all fantastic, great, but
+
+250
+00:19:00,000 --> 00:19:04,000
+To be able to create a front end for an
+index node, we all know how easy nodes are
+
+251
+00:19:04,000 --> 00:19:08,000
+to install, right?
+
+252
+00:19:08,000 --> 00:19:12,000
+With Satergo, it's like one click. Even
+with a Java file, if you're not familiar,
+
+253
+00:19:12,000 --> 00:19:16,000
+you can barge your way through it, making
+a config file and running the jar.
+
+254
+00:19:16,000 --> 00:19:18,000
+That's fantastic. But imagine just
+running a UI just by a Docker container,
+
+255
+00:19:18,000 --> 00:19:20,000
+probably.
+
+256
+00:19:20,000 --> 00:19:25,000
+And all of a sudden you have a front end
+that you can kind of understand and learn.
+
+257
+00:19:25,000 --> 00:19:30,000
+And it's yourself. It's hosted by
+yourself. It's easy to set up.
+
+258
+00:19:30,000 --> 00:19:34,000
+These kind of things are like, this is
+what makes a difference, right? For
+
+259
+00:19:34,000 --> 00:19:38,000
+usability for these kind of things. So
+absolutely fantastic.
+
+260
+00:19:39,000 --> 00:19:49,000
+And let's see. Anything else?
+
+261
+00:19:49,000 --> 00:19:54,000
+I think that's it, folks.
+
+262
+00:19:54,000 --> 00:19:56,000
+There's some tech support chat in here.
+
+263
+00:19:56,000 --> 00:20:01,000
+Oh, Mark's looking for, this is a day or
+two later, but he's looking for some Ergo
+
+264
+00:20:01,000 --> 00:20:06,000
+developers for building Sharknet. It's on
+the Sigmanauts mining DAO.
+
+265
+00:20:07,000 --> 00:20:11,000
+If you're mining, if you have one GPU,
+you want to point it, please, please
+
+266
+00:20:11,000 --> 00:20:15,000
+support it. Hop in there.
+
+267
+00:20:15,000 --> 00:20:20,000
+I think that's about it.
+
+268
+00:20:20,000 --> 00:20:25,000
+Yeah, we're several days ahead. They
+definitely missed. Perfect.
+
+269
+00:20:25,000 --> 00:20:30,000
+All right, everybody. I hope you had a
+good week. If you were in the United
+
+270
+00:20:30,000 --> 00:20:35,000
+States of America, you had your big Super
+Bowl game a few hours ago.
+
+271
+00:20:36,000 --> 00:20:39,000
+I hope the team that you enjoy won or
+you're not too sad that the other one
+
+272
+00:20:39,000 --> 00:20:42,000
+lost.
+
+273
+00:20:42,000 --> 00:20:45,000
+I watch some commercials. It's OK. The
+game's somewhat all right. I didn't even
+
+274
+00:20:45,000 --> 00:20:48,000
+know the Super Bowl was happening until a
+couple days ago.
+
+275
+00:20:49,000 --> 00:20:52,000
+That's how out of it I've been.
+
+276
+00:20:52,000 --> 00:20:58,000
+So we'll see you on Thursday for a video
+AMA.
+
+277
+00:20:58,000 --> 00:21:02,000
+I've been thinking about putting together
+a pool so that we could vote and bet on
+
+278
+00:21:02,000 --> 00:21:06,000
+who's going to show up to host the AMA.
+
+279
+00:21:07,000 --> 00:21:12,000
+So we'll give like five or six people and
+what's it called?
+
+280
+00:21:12,000 --> 00:21:15,000
+And you send, you can send like a token,
+a specific tokens to the wallet that's
+
+281
+00:21:15,000 --> 00:21:18,000
+worth some sort of value.
+
+282
+00:21:18,000 --> 00:21:20,000
+And whoever is right, that wallet, the
+percentage of people that gave that you
+
+283
+00:21:20,000 --> 00:21:22,000
+gave,
+
+284
+00:21:23,000 --> 00:21:26,000
+You take all the other wallets and you
+combine them and your percentage gets a
+
+285
+00:21:26,000 --> 00:21:29,000
+pull out of everything.
+
+286
+00:21:29,000 --> 00:21:32,000
+So essentially, if you win, you get from
+all the other wallets that people voted on
+
+287
+00:21:32,000 --> 00:21:35,000
+a percentage that you donated to the
+winning wallet.
+
+288
+00:21:35,000 --> 00:21:39,000
+So I think that'd be kind of fun,
+something like that. Those are easier to
+
+289
+00:21:39,000 --> 00:21:43,000
+do with wallet voting and a transaction
+builder.
+
+290
+00:21:44,000 --> 00:21:48,000
+Oh, almost forgot during the Town Hall
+last week, I spoke about the Cornell BRICK
+
+291
+00:21:48,000 --> 00:21:52,000
+token.
+
+292
+00:21:52,000 --> 00:21:59,000
+That's doing great. We've distributed
+maybe 30 or so interested wallets so far.
+
+293
+00:21:59,000 --> 00:22:03,000
+There's about 350, 400 architecture kids
+ago. There's 800 students in total.
+
+294
+00:22:03,000 --> 00:22:07,000
+So slow burn, but that's fine. Once it
+spreads, you can get free printing from
+
+295
+00:22:07,000 --> 00:22:11,000
+these initial tokens.
+
+296
+00:22:11,000 --> 00:22:15,000
+I think it's going to start slowly
+catching more fire.
+
+297
+00:22:15,000 --> 00:22:18,000
+But we had several students use the
+system already to actually redeem free
+
+298
+00:22:18,000 --> 00:22:21,000
+prints. So that was super exciting to see.
+
+299
+00:22:22,000 --> 00:22:27,000
+OK, everybody, thanks for bearing with my
+chunky voice. This week, hopefully, after
+
+300
+00:22:27,000 --> 00:22:32,000
+my meds, next week will be a little
+clearer.
+
+301
+00:22:32,000 --> 00:22:35,000
+Thanks, everybody, for watching. Have a
+great night.
+
