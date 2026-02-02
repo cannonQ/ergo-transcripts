@@ -1,0 +1,113 @@
+{
+  "call_date": "2024-12-11",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "00:17",
+      "question": "What is Beene and what is its primary purpose?",
+      "asker": "implicit",
+      "answer": "Beene is a proof of funding platform that enables projects to raise funds while rewarding contributors with tokens. Contributors who provide funds to projects receive contribution accounting tokens (also called proof of funding tokens) as rewards for their participation.",
+      "responder": "Bruno",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "proof of funding",
+        "contribution accounting tokens",
+        "fundraising"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "00:48",
+      "question": "What parameters are required when deploying a funds vault on Beene?",
+      "asker": "implicit",
+      "answer": "Project owners must set: the funding token to be provided, a minimum funding amount needed for success, a deadline, the proof of funding token for rewarding contributors, and the rate of proof of funding tokens given per funding token provided.",
+      "responder": "Bruno",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "funds vault",
+        "funding token",
+        "minimum amount",
+        "deadline"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "01:39",
+      "question": "How does the contribution and reward mechanism work in Beene?",
+      "asker": "implicit",
+      "answer": "Contributors can provide any amount of funding tokens to the contract and immediately receive a proportional amount of proof of funding tokens. This works as long as there are proof of funding tokens available in the contract, serving as both accounting and proof of their contribution.",
+      "responder": "Bruno",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "contribution mechanism",
+        "proportional rewards",
+        "immediate distribution"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "02:01",
+      "question": "When can project owners withdraw funds from the vault?",
+      "asker": "implicit",
+      "answer": "Project owners may withdraw any amount of funding tokens from the vault at any time after the minimum funding amount has been reached. There's no need to wait for the deadline once the minimum threshold is met.",
+      "responder": "Bruno",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "withdrawal rules",
+        "minimum amount",
+        "project owners"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "02:11",
+      "question": "What happens if a project fails to reach its minimum funding goal?",
+      "asker": "implicit",
+      "answer": "If the minimum amount has not been reached after the deadline, contributors can return their proof of funding tokens to the vault and withdraw the corresponding amount of funding tokens they had originally provided, essentially getting a full refund.",
+      "responder": "Bruno",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "refund mechanism",
+        "failed funding",
+        "deadline"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "07:23",
+      "question": "What are the different use cases that Beene can support?",
+      "asker": "implicit",
+      "answer": "Beene supports various use cases including donations (where tokens serve as proof of donation), crowdfunding (tokens exchanged for goods), traditional startup funding, token sales at fixed prices, event ticket sales, and benefactions where both labor and capital contributions receive equal token accounting.",
+      "responder": "Bruno",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "donations",
+        "crowdfunding",
+        "startup funding",
+        "benefactions"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "12:19",
+      "question": "How is project progress and timing displayed in the Beene interface?",
+      "asker": "implicit",
+      "answer": "The interface shows project details including time left (displayed in block numbers but translated to actual time), a progress bar showing current token amounts versus maximum and minimum amounts, and refund availability status based on whether deadlines and minimums have been met.",
+      "responder": "Jossemii",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "user interface",
+        "progress tracking",
+        "block time",
+        "refund status"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "call_date": "2024-12-16",
+  "call_title": "P2Podcast | Episode 5",
+  "decisions": [],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "21:40",
+      "commitment": "Will throw up the MiGoreng drop block visualization next episode",
+      "owner": "tmr.erg and Marc the Shark",
+      "timeline": "next episode",
+      "topic": "technical",
+      "quote": "Well, we'll come back to it. We'll throw that up next episode."
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "32:45",
+      "question": "How do you propose an EIP and how does that get approved",
+      "context": "Discussion about Ergo Improvement Proposals process",
+      "topic": "governance",
+      "raised_by": "tmr.erg"
+    },
+    {
+      "id": 2,
+      "timestamp": "34:46",
+      "question": "What's the scope of an EIP - if some things are voted on and others aren't, or does everything need to be voted on by miners",
+      "context": "Understanding EIP approval mechanisms",
+      "topic": "governance",
+      "raised_by": "tmr.erg"
+    },
+    {
+      "id": 3,
+      "timestamp": "36:18",
+      "question": "What's the consensus mechanism for accepting the social layer changes",
+      "context": "Discussion about non-fork EIP approval process",
+      "topic": "governance",
+      "raised_by": "Marc the Shark"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "09:52",
+      "fact": "Ergo market cap is at 100 million right now, all time high was at like 800 million",
+      "speaker": "tmr.erg",
+      "topic": "tokenomics"
+    },
+    {
+      "id": 2,
+      "timestamp": "10:48",
+      "fact": "Ergo price is $19 to $1 compared to all time high",
+      "speaker": "tmr.erg",
+      "topic": "tokenomics"
+    },
+    {
+      "id": 3,
+      "timestamp": "12:07",
+      "fact": "ErgoHack 9 judging started either yesterday or today, theme is about UI and mining",
+      "speaker": "Marc the Shark",
+      "topic": "development"
+    },
+    {
+      "id": 4,
+      "timestamp": "13:26",
+      "fact": "ErgoPad just shut down",
+      "speaker": "tmr.erg",
+      "topic": "ecosystem"
+    },
+    {
+      "id": 5,
+      "timestamp": "34:46",
+      "fact": "There's 26 pull requests right now in the EIP repo",
+      "speaker": "Marc the Shark",
+      "topic": "development"
+    },
+    {
+      "id": 6,
+      "timestamp": "34:46",
+      "fact": "EIP-27 is the soft fork, emission retargeting soft fork",
+      "speaker": "Marc the Shark",
+      "topic": "technical"
+    }
+  ]
+}

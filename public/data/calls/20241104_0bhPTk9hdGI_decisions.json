@@ -1,0 +1,130 @@
+{
+  "call_date": "2024-11-04",
+  "call_title": "P2Podcast | Episode 2",
+  "decisions": [],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "18:28",
+      "commitment": "Get a guest on who has something to contribute about Lithos and Node 6.0",
+      "owner": "tmr.erg and Marc the Shark",
+      "timeline": "unspecified",
+      "topic": "podcast-planning",
+      "quote": "I think that's a sign for us to get a guest on here who has something to contribute there."
+    },
+    {
+      "id": 2,
+      "timestamp": "18:32",
+      "commitment": "Get kushti to come and tell about 6.0",
+      "owner": "tmr.erg and Marc the Shark",
+      "timeline": "unspecified",
+      "topic": "podcast-planning",
+      "quote": "I think, I bet kushti would come and tell us about 6.0."
+    },
+    {
+      "id": 3,
+      "timestamp": "22:17",
+      "commitment": "Need to get somebody smarter to teach about side chains and 6.0",
+      "owner": "tmr.erg and Marc the Shark",
+      "timeline": "unspecified",
+      "topic": "podcast-planning",
+      "quote": "So I think this means we need to get somebody smarter than the two of us to teach us about side chains, about 6.0, all that."
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "10:33",
+      "question": "Would fair initial mining offering make sense for just one pool to support it or do all pools need to support it",
+      "context": "Discussion about fair distribution and mining pool support",
+      "topic": "mining",
+      "raised_by": "Marc the Shark"
+    },
+    {
+      "id": 2,
+      "timestamp": "34:25",
+      "question": "Questions about reserve mechanics - who makes the reserve, initial funding requirements",
+      "context": "Discussion about differences between Dexy and Gluon stablecoin designs",
+      "topic": "stablecoins",
+      "raised_by": "Marc the Shark"
+    }
+  ],
+  "reversals_or_updates": [
+    {
+      "id": 1,
+      "timestamp": "03:07",
+      "previous": "Initial emission curve had all ERG being emitted in like eight years before 2030",
+      "update": "Emission changed via mining vote with re-emission contract extending to 2045",
+      "reason": "90% consensus vote by miners to extend emission timeline",
+      "speaker": "tmr.erg",
+      "topic": "tokenomics"
+    },
+    {
+      "id": 2,
+      "timestamp": "26:48",
+      "previous": "SigmaUSD version one had Oracle speed vulnerability",
+      "update": "Limited Oracle update to 0.5% every 30 minutes up or down",
+      "reason": "Bear whale attack exploiting Oracle speed",
+      "speaker": "tmr.erg",
+      "topic": "stablecoins"
+    }
+  ],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "00:53",
+      "fact": "Current block reward is 21 ERG",
+      "speaker": "Marc the Shark",
+      "topic": "tokenomics"
+    },
+    {
+      "id": 2,
+      "timestamp": "01:03",
+      "fact": "Six more steps from decrease of three to get to three ERG block reward, sometime in 2026",
+      "speaker": "Marc the Shark",
+      "topic": "tokenomics"
+    },
+    {
+      "id": 3,
+      "timestamp": "03:25",
+      "fact": "Mining vote achieved 90% consensus for emission change",
+      "speaker": "tmr.erg",
+      "topic": "governance"
+    },
+    {
+      "id": 4,
+      "timestamp": "05:07",
+      "fact": "Emission will go to zero on November 27th, 2044",
+      "speaker": "Marc the Shark",
+      "topic": "tokenomics"
+    },
+    {
+      "id": 5,
+      "timestamp": "14:25",
+      "fact": "New law requires LLCs to be associated with legal name starting 2025",
+      "speaker": "tmr.erg",
+      "topic": "regulation"
+    },
+    {
+      "id": 6,
+      "timestamp": "18:17",
+      "fact": "Lithos is coming online as Node 6.0 gets finished",
+      "speaker": "tmr.erg",
+      "topic": "technical"
+    },
+    {
+      "id": 7,
+      "timestamp": "24:26",
+      "fact": "SigmaUSD requires 400% of value in reserve to mint USD",
+      "speaker": "tmr.erg",
+      "topic": "stablecoins"
+    },
+    {
+      "id": 8,
+      "timestamp": "27:28",
+      "fact": "Bear whale lost 170,000 ERG trying to continue attack after protocol patch",
+      "speaker": "tmr.erg",
+      "topic": "stablecoins"
+    }
+  ]
+}

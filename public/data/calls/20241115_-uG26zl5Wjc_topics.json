@@ -1,0 +1,398 @@
+{
+  "call_date": "2024-11-15",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - November 14th 2024",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Ergo Names Service Development Progress",
+      "category": "technical",
+      "start_time": "00:32",
+      "end_time": "01:36",
+      "primary_speaker": "MGpai",
+      "summary": "MGpai provides update on Ergo Names project development, citing school commitments as the main delay. Smart contracts are complete, with only off-chain infrastructure remaining, targeting Christmas release.",
+      "key_terms": [
+        "Ergo Names",
+        "smart contracts",
+        "off-chain",
+        "domain names"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Palmyra and ZenGate RWA Development",
+      "category": "defi",
+      "start_time": "01:36",
+      "end_time": "02:35",
+      "primary_speaker": "MGpai",
+      "summary": "Discussion of progress on Palmyra's real-world asset trading platform and ZenGate cross-chain functionality. Team is scaling up with new developers to capitalize on RWA opportunities in the current market cycle.",
+      "key_terms": [
+        "Palmyra",
+        "ZenGate",
+        "RWA",
+        "real-world assets",
+        "cross-chain",
+        "commodities"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Bull Market Analysis and Bitcoin Performance",
+      "category": "ecosystem",
+      "start_time": "02:59",
+      "end_time": "04:21",
+      "primary_speaker": "MGpai",
+      "summary": "Analysis of current market conditions with Bitcoin crossing 90k, noting limited altcoin participation compared to previous cycles. Ergo showing better performance than average altcoins with 10-20% gains.",
+      "key_terms": [
+        "bull market",
+        "Bitcoin",
+        "altcoins",
+        "price action",
+        "market cycle"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Rosen Bridge Expansion and DOGE Integration",
+      "category": "bridges",
+      "start_time": "04:21",
+      "end_time": "06:45",
+      "primary_speaker": "MGpai",
+      "summary": "Updates on Rosen Bridge adding Dogecoin support, leveraging Trump's DOGE department announcement. Binance Smart Chain integration coming to reduce fees compared to Ethereum, with potential Alephium interoperability.",
+      "key_terms": [
+        "Rosen Bridge",
+        "Dogecoin",
+        "DOGE",
+        "Binance Smart Chain",
+        "BSC",
+        "Alephium",
+        "bridge fees"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Decentralized vs Centralized Exchange Philosophy",
+      "category": "defi",
+      "start_time": "06:45",
+      "end_time": "09:00",
+      "primary_speaker": "qx()",
+      "summary": "Discussion on the importance of decentralized exchanges for crypto's sustainability and unstoppable nature. Addresses geographic restrictions and censorship concerns with centralized platforms.",
+      "key_terms": [
+        "decentralized exchanges",
+        "DEX",
+        "centralized exchanges",
+        "censorship",
+        "liquidity",
+        "custody"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Cyberverse Gaming Support Campaign",
+      "category": "ecosystem",
+      "start_time": "08:57",
+      "end_time": "09:46",
+      "primary_speaker": "qx()",
+      "summary": "Call to action for community to support Cyberverse's application to join Ronin gaming chain. Instructions provided for voting process using Ronin wallet and Discord integration.",
+      "key_terms": [
+        "Cyberverse",
+        "Ronin",
+        "gaming chain",
+        "voting",
+        "community support",
+        "Simple Swap"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Sigmanauts Twitter Management and New Multisig",
+      "category": "community",
+      "start_time": "09:57",
+      "end_time": "15:36",
+      "primary_speaker": "qx()",
+      "summary": "SuperGeometry now managing Sigmanauts Twitter with daily posts and giveaways. New multisig being established with active community members to replace inactive early members, improving transaction efficiency.",
+      "key_terms": [
+        "Sigmanauts",
+        "SuperGeometry",
+        "Twitter management",
+        "multisig",
+        "Paideia",
+        "governance"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Paideia DAO Platform Development Status",
+      "category": "governance",
+      "start_time": "15:36",
+      "end_time": "16:16",
+      "primary_speaker": "qx()",
+      "summary": "Paideia moving out of beta after 2-3 years of development. Sigmanauts cautiously managing funds between manual multisig and Paideia platform while building confidence in the system.",
+      "key_terms": [
+        "Paideia",
+        "DAO",
+        "beta",
+        "governance platform",
+        "multisig",
+        "treasury management"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "ErgoPad and Coinecta Platform Challenges",
+      "category": "defi",
+      "start_time": "16:16",
+      "end_time": "18:01",
+      "primary_speaker": "qx()",
+      "summary": "Marty winding down oversight of ErgoPad and Coinecta IDO platforms due to competition from non-KYC alternatives like Paideia and SigmaLock. Code remains available for community takeover.",
+      "key_terms": [
+        "ErgoPad",
+        "Coinecta",
+        "IDO",
+        "token launch",
+        "KYC",
+        "SigmaLock",
+        "competition"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Ergo Foundation Development Funding Overview",
+      "category": "governance",
+      "start_time": "19:41",
+      "end_time": "22:28",
+      "primary_speaker": "MGpai",
+      "summary": "MGpai explains EF's role in evaluating development proposals, highlighting support for Sigma Explorer, Stability Nexus, and Cyberverse. Discusses ongoing consideration of Sigmanauts mining proposal for ecosystem growth.",
+      "key_terms": [
+        "Ergo Foundation",
+        "EF",
+        "development proposals",
+        "Sigma Explorer",
+        "Stability Nexus",
+        "mining proposal",
+        "funding"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Mining Pool Token Payment Innovation",
+      "category": "technical",
+      "start_time": "22:28",
+      "end_time": "26:09",
+      "primary_speaker": "qx()",
+      "summary": "Mark the Shark's mining pool now supports payments in various Rosen tokens and ecosystem tokens. Miners can customize payout percentages and thresholds using NFT-based configuration system.",
+      "key_terms": [
+        "mining pool",
+        "Mark the Shark",
+        "Rosen tokens",
+        "payout customization",
+        "NFT configuration",
+        "ecosystem tokens"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Ergo Mining Profitability and GPU Interest",
+      "category": "ecosystem",
+      "start_time": "26:09",
+      "end_time": "27:26",
+      "primary_speaker": "qx()",
+      "summary": "Ergo achieving top mining profitability rankings on social media, attracting miners to reactivate GPUs. Price around $1.24 making it competitive for GPU mining operations.",
+      "key_terms": [
+        "mining profitability",
+        "GPU mining",
+        "mining revival",
+        "proof of work",
+        "profitability rankings"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Keystone Hardware Wallet Integration Status",
+      "category": "technical",
+      "start_time": "27:26",
+      "end_time": "29:37",
+      "primary_speaker": "MGpai",
+      "summary": "PGR456 working on Keystone wallet integration with end-of-year target. Currently blocked by Sigma Rust library issues being addressed by developer Dusek.",
+      "key_terms": [
+        "Keystone wallet",
+        "PGR456",
+        "hardware wallet",
+        "Sigma Rust",
+        "cryptography",
+        "wallet integration"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "Kraken Exchange Listing Speculation",
+      "category": "ecosystem",
+      "start_time": "29:37",
+      "end_time": "32:30",
+      "primary_speaker": "qx()",
+      "summary": "Discussion of Kraken listing possibility following earlier leak. Ergo confirmed on shortlist but timeline uncertain. Critique of exchanges prioritizing meme tokens over sustainable projects.",
+      "key_terms": [
+        "Kraken",
+        "exchange listing",
+        "shortlist",
+        "meme tokens",
+        "sustainable projects",
+        "trading pairs"
+      ]
+    },
+    {
+      "topic_id": 15,
+      "title": "Cardano Bitcoin Layer 2 Partnership Discussion",
+      "category": "bridges",
+      "start_time": "33:08",
+      "end_time": "36:04",
+      "primary_speaker": "MGpai",
+      "summary": "Community question about Ergo joining Cardano's Bitcoin layer 2 effort. MGpai explains existing Bitcoin bridge functionality and notes Cardano's ZK proof approach versus Ergo's multisig method.",
+      "key_terms": [
+        "Cardano",
+        "Bitcoin OS",
+        "layer 2",
+        "ZK proofs",
+        "multisig bridge",
+        "partner chain"
+      ]
+    },
+    {
+      "topic_id": 16,
+      "title": "MewFinance Platform Assessment",
+      "category": "defi",
+      "start_time": "37:08",
+      "end_time": "38:50",
+      "primary_speaker": "MGpai",
+      "summary": "Positive assessment of MewFinance filling gap left by Spectrum DEX maintenance reduction. Community members actively using marketplace for physical goods including organic honey sales.",
+      "key_terms": [
+        "MewFinance",
+        "MewMart",
+        "Spectrum DEX",
+        "marketplace",
+        "physical goods",
+        "staking tiers",
+        "escrow"
+      ]
+    },
+    {
+      "topic_id": 17,
+      "title": "Meme Strategy and Social Media Content",
+      "category": "marketing",
+      "start_time": "39:11",
+      "end_time": "41:15",
+      "primary_speaker": "qx()",
+      "summary": "Discussion of meme content strategy with Joe's viral videos getting 10k views. SuperGeometry handling meme content for Sigmanauts account while main account considering more appropriate meme integration.",
+      "key_terms": [
+        "memes",
+        "viral content",
+        "social media strategy",
+        "engagement",
+        "Twitter content",
+        "community outreach"
+      ]
+    },
+    {
+      "topic_id": 18,
+      "title": "Non-KYC Bitcoin-Ergo Swapping Options",
+      "category": "defi",
+      "start_time": "41:15",
+      "end_time": "44:13",
+      "primary_speaker": "qx()",
+      "summary": "Explanation of decentralized Bitcoin-Ergo swapping through Rosen Bridge and ErgoDEX. Low liquidity causing 7.8% slippage on large swaps, recommending bridge usage for better rates.",
+      "key_terms": [
+        "Bitcoin swapping",
+        "Rosen Bridge",
+        "ErgoDEX",
+        "slippage",
+        "liquidity",
+        "wrapped BTC",
+        "non-KYC"
+      ]
+    },
+    {
+      "topic_id": 19,
+      "title": "Top 20 Market Cap Predictions",
+      "category": "ecosystem",
+      "start_time": "44:13",
+      "end_time": "46:22",
+      "primary_speaker": "MGpai",
+      "summary": "Discussion of Ergo's potential to reach top 20 market cap. MGpai notes Ergo's price correlation with Cardano and expresses optimism about ecosystem readiness with sub-blocks coming.",
+      "key_terms": [
+        "top 20",
+        "market cap",
+        "price correlation",
+        "Cardano",
+        "sub-blocks",
+        "ecosystem readiness"
+      ]
+    },
+    {
+      "topic_id": 20,
+      "title": "Trump Administration Crypto Impact Assessment",
+      "category": "ecosystem",
+      "start_time": "47:43",
+      "end_time": "50:38",
+      "primary_speaker": "qx()",
+      "summary": "Analysis of potential Trump administration impact on crypto, particularly mining. Skeptical about utility focus versus speculation, noting Trump's own token performance as concerning indicator.",
+      "key_terms": [
+        "Trump administration",
+        "crypto policy",
+        "mining resurgence",
+        "speculation",
+        "regulatory impact",
+        "proof of work"
+      ]
+    },
+    {
+      "topic_id": 21,
+      "title": "Palmyra Token Launch Timeline",
+      "category": "defi",
+      "start_time": "51:07",
+      "end_time": "51:55",
+      "primary_speaker": "MGpai",
+      "summary": "MGpai unable to provide specific timeline for Palmyra token launch due to confidentiality. Confirms additional pre-sale rounds coming but restricted to non-US citizens.",
+      "key_terms": [
+        "Palmyra",
+        "token launch",
+        "pre-sale",
+        "geographic restrictions",
+        "US citizens",
+        "confidentiality"
+      ]
+    },
+    {
+      "topic_id": 22,
+      "title": "Sky Harbor Marketplace Development Update",
+      "category": "nft",
+      "start_time": "51:55",
+      "end_time": "53:04",
+      "primary_speaker": "qx()",
+      "summary": "Quokka reports Sky Harbor frontend v2 completed and in testing, with backend nearly finished. Plans for Sigmanauts to potentially manage open-source version as revenue stream.",
+      "key_terms": [
+        "Sky Harbor",
+        "NFT marketplace",
+        "Quokka",
+        "frontend v2",
+        "open source",
+        "revenue stream"
+      ]
+    },
+    {
+      "topic_id": 23,
+      "title": "TradeHouse Liquidity Provision Campaign",
+      "category": "defi",
+      "start_time": "53:22",
+      "end_time": "58:43",
+      "primary_speaker": "qx()",
+      "summary": "Extended call for community liquidity provision on TradeHouse order book system. Detailed explanation of pricing mechanics and strategy for small individual contributions creating significant collective impact.",
+      "key_terms": [
+        "TradeHouse",
+        "liquidity provision",
+        "order book",
+        "community effort",
+        "pricing mechanics",
+        "trading depth"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "call_date": "2024-12-11",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "00:20",
+      "question": "What is Mining Rights Protocol (MRP)?",
+      "asker": "implicit",
+      "answer": "MRP is a mineral rights inspired system for blockchain mining that serves as a rights-based token distribution mechanism with NFT enhanced mining privileges. It allows for sustainable token emission as a protocol where users buy rights tokens that give them the right to run a block and emit tokens, similar to how miners purchase GPUs to mine cryptocurrencies.",
+      "responder": "Marc the Shark",
+      "category": "mining",
+      "difficulty": "beginner",
+      "related_terms": [
+        "mining",
+        "token_distribution",
+        "NFT",
+        "emission"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "01:36",
+      "question": "How does the Mining Rights Protocol work technically?",
+      "asker": "implicit",
+      "answer": "You buy rights tokens which gives you the right to emit MRP tokens as long as you're mining. The system proves that the miner found a given block by checking on-chain which miner found it through an explorer, and then they can claim the token. It's essentially a mining protocol on top of the Ergo blockchain that allows for dual rewards.",
+      "responder": "Marc the Shark",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "mining",
+        "blockchain",
+        "token_emission",
+        "dual_rewards"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "02:07",
+      "question": "What are the technical components of the Mining Rights Protocol?",
+      "asker": "implicit",
+      "answer": "The protocol uses two proxy contracts: the rights token and the MRP token (or NFT token to emit from). It includes TX fees and protocol fees, and can be gamified where protocols can pay people who run bots (even non-miners) to keep the emissions running, providing more incentives for participation.",
+      "responder": "Marc the Shark",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "smart_contracts",
+        "proxy_contracts",
+        "bots",
+        "gamification"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "03:27",
+      "question": "What is the validation process for Mining Rights Protocol claims?",
+      "asker": "implicit",
+      "answer": "The system checks if the miner has the rights, then verifies if they found a block. If both conditions are met, they can make a claim. The system validates the claim and then dispenses the MRP token or generates an NFT based on parameters like block height and block size at that given time.",
+      "responder": "Marc the Shark",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "validation",
+        "block_discovery",
+        "NFT_generation",
+        "claims"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "04:04",
+      "question": "What technical requirements are needed to set up Mining Rights Protocol?",
+      "asker": "implicit",
+      "answer": "Users need a user interface for protocol owners to set up tokens with specific details and criteria, distribution bots that use Ergo nodes to facilitate the smart contract layer, and a dashboard for users to access and request status. The entire system is built in Python and is designed to be easy to run.",
+      "responder": "Marc the Shark",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "user_interface",
+        "distribution_bots",
+        "ergo_nodes",
+        "python"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "08:12",
+      "question": "How does Mining Rights Protocol compare to traditional GPU mining?",
+      "asker": "implicit",
+      "answer": "Instead of mining with GPUs, users run distribution bots, and instead of buying GPUs, users buy and sell rights tokens. It's like a synthetic GPU mining system where the distribution system of emission tokens replaces traditional mining, but maintains similar economic incentives and reward structures.",
+      "responder": "Marc the Shark",
+      "category": "mining",
+      "difficulty": "beginner",
+      "related_terms": [
+        "GPU_mining",
+        "synthetic_mining",
+        "distribution_bots",
+        "rights_tokens"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "10:19",
+      "question": "How can Mining Rights Protocol be used for NFT minting?",
+      "asker": "implicit",
+      "answer": "The protocol can be used as an alternative to traditional NFT minting by putting NFT creation into the hands of miners and pool operators. Users buy rights tokens to get the rights to mint NFTs (with limits like 10k, 5k, or 1k), and NFTs are only minted when a given miner finds a block, using mining randomness to determine when NFTs are created.",
+      "responder": "Marc the Shark",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "NFT_minting",
+        "mining_randomness",
+        "pool_operators",
+        "marketplace"
+      ]
+    }
+  ]
+}

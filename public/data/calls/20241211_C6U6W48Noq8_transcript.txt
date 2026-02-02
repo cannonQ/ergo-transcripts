@@ -1,0 +1,143 @@
+[00:15] **Marc the Shark**: presentation.
+[00:16] **Marc the Shark**: I'm pretty excited about it.
+[00:18] **Marc the Shark**: This is Mining Rights Protocol.
+[00:20] **Marc the Shark**: And so what is MRP or Mining Rights Protocol?
+[00:23] **Marc the Shark**: It's a mineral rights inspired system for blockchain mining.
+[00:27] **Marc the Shark**: It's a rights-based token distribution mechanism, has an NFT enhanced mining privileges, and allows for sustainable token emission as a protocol.
+
+[00:39] **Marc the Shark**: And so it kind of in short is essentially what we're doing, we are minting tokens.
+[00:46] **Marc the Shark**: And these set of tokens are going to be our rights tokens.
+[00:49] **Marc the Shark**: And so we can have five of these rights tokens.
+[00:53] **Marc the Shark**: We can have 10, have 20, we have 10 million.
+[00:56] **Marc the Shark**: These would be sort of, I guess, akin to specific GPUs.
+[01:01] **Marc the Shark**: And then we have the actual admission token, which would be akin to ERG.
+[01:06] **Marc the Shark**: And so basically what we're doing is you buy the rights tokens and then that gives you the right to then run a block and to be able to emit the given token.
+
+[01:19] **Marc the Shark**: So we can say maybe the token here is MRP.
+[01:22] **Marc the Shark**: So say, for example, we have 10,000 rights tokens.
+[01:26] **Marc the Shark**: and you buy one, you can then buy or rather emit the MRP token as long as you're mining.
+[01:36] **Marc the Shark**: And so again, you have to be mining.
+[01:38] **Marc the Shark**: This is essentially a mining protocol kind of on top of the Ergo blockchain and allows for sort of dual rewards.
+[01:48] **Marc the Shark**: And so what we're doing there specifically is going to be proving that the miner did find the given block.
+[01:56] **Marc the Shark**: We can take a look on the chain, like which miner found it, look at an explorer.
+[02:00] **Marc the Shark**: Oh, they did find it.
+[02:01] **Marc the Shark**: Great.
+[02:03] **Marc the Shark**: And then from there, they can claim that token.
+
+[02:07] **Marc the Shark**: And so kind of looking at the specifics more closely, we'll have two proxy contracts.
+[02:14] **Marc the Shark**: We'll have the rights token and then the MRP token or an NFT token to be able to emit it from.
+[02:24] **Marc the Shark**: And so we'll put in all of the TX fees that we need or even protocol fees.
+[02:32] **Marc the Shark**: Because this whole thing can be sort of gamified like traditional other things.
+[02:37] **Marc the Shark**: But it might make sense for a given protocol to pay people who run bots that maybe just aren't miners.
+[02:48] **Marc the Shark**: So then they get a little bit of reward.
+[02:50] **Marc the Shark**: That's awesome from them, but they're also keeping the protocol.
+[02:53] **Marc the Shark**: The emissions essentially running.
+[02:54] **Marc the Shark**: Aside from like you or a couple other people.
+[02:57] **Marc the Shark**: So more incentives.
+
+[03:00] **Marc the Shark**: So just like with GPU purchases, you want to say, hey, can I buy this GPU?
+[03:06] **Marc the Shark**: Can I buy the rights?
+[03:07] **Marc the Shark**: Fantastic, you do buy the rights and then from here we can have an NFT bonus that's maybe a commemorative bonus or maybe they buy so much or within the first 100 XYZ they get a lifetime of 1.2X rewards. Again, could be gamified, could just be a receipt.
+
+[03:27] **Marc the Shark**: From there, we want to check, does the miner have the rights?
+[03:31] **Marc the Shark**: Oh, look, they do have the rights.
+[03:33] **Marc the Shark**: Fantastic.
+[03:34] **Marc the Shark**: Did they find a block?
+[03:35] **Marc the Shark**: They did find a block.
+[03:37] **Marc the Shark**: Fantastic.
+[03:37] **Marc the Shark**: Let's make a claim.
+[03:41] **Marc the Shark**: Now that we made a claim, is it a valid claim?
+[03:44] **Marc the Shark**: It is a valid claim.
+[03:46] **Marc the Shark**: We can then dispense the MRP token or we can generate an NFT based upon parameters at that given time.
+[03:53] **Marc the Shark**: So like block height, the size of the block, things like that.
+[03:58] **Marc the Shark**: And then this is the entire sort of action flow from this perspective.
+
+[04:04] **Marc the Shark**: And then quickly moving along, we're looking at our technical requirements.
+[04:07] **Marc the Shark**: So what is this, what was, what is it gonna take for users to set this up?
+[04:12] **Marc the Shark**: So we'll have a user interface for the protocol owner to set these tokens up with the specific details and that sort of criteria.
+[04:26] **Marc the Shark**: From there, we are going to also have distribution bots.
+[04:30] **Marc the Shark**: Those distribution bots will use Ergo nodes to facilitate the smart contract layer that we're facilitating here.
+[04:40] **Marc the Shark**: And then that's essentially it.
+[04:41] **Marc the Shark**: So the user is going to access the dashboard.
+[04:44] **Marc the Shark**: They're going to request status and say, hey, what's going on?
+
+[04:54] **Marc the Shark**: All right, we're back.
+[04:56] **Marc the Shark**: And so just to kind of wrap up this section, we'll have various GitHub repos to sort of show how to do this, maybe even some sites that are running this, and it'll be really, really easy.
+[05:08] **Marc the Shark**: I have prototypes of this specific setup right here, and it works great.
+[05:14] **Marc the Shark**: Super easy to run, and all in Python.
+
+[05:18] **Marc the Shark**: So here's our protocol owner UI sample we have right here.
+[05:23] **Marc the Shark**: And so we can kind of see, from top to bottom, total number of NFTs, tokens, the distribution pattern, rights token price per ERG.
+[05:38] **Marc the Shark**: Everything will probably add some more here, because this is sort of a prototype.
+[05:43] **Marc the Shark**: We have some details right here.
+[05:46] **Marc the Shark**: How much it's going to cost to fund all this.
+[05:48] **Marc the Shark**: And so thank goodness it only cost 0.001 ERG per TX and so we're going to need that by the total number of tokens divided by the distribution amount.
+[06:05] **Marc the Shark**: And so we need to have enough inside the boxes to be able to emit.
+
+[06:14] **Marc the Shark**: And so the owner, they're going to create the token.
+[06:16] **Marc the Shark**: They're going to set up the initial sale.
+[06:21] **Marc the Shark**: They have the rights distribution next, and then the protocol management.
+[06:25] **Marc the Shark**: And so that's just collecting the fees.
+[06:28] **Marc the Shark**: The reserve management in this case so they're going to reserve for some reason 2500 but again the gamification you don't have to do that you can do whatever you want.
+[06:38] **Marc the Shark**: Adjust the parameters.
+[06:41] **Marc the Shark**: Not actively.
+[06:42] **Marc the Shark**: But set the parameters and kind of go more of a thing.
+[06:48] **Marc the Shark**: Because once it's in the emission contract, you can't change it.
+[06:52] **Marc the Shark**: Initially, on testnet, we do have some things to be built in that whoever owns the protocol can spend the boxes.
+[07:00] **Marc the Shark**: That's getting your money back.
+[07:02] **Marc the Shark**: But obviously, we'll take that out on mainnet.
+[07:05] **Marc the Shark**: So people don't rug.
+
+[07:08] **Marc the Shark**: And so then we have the rights holder experience.
+[07:11] **Marc the Shark**: So they can purchase rights.
+[07:14] **Marc the Shark**: They can have a minimum of one token, say max.
+[07:17] **Marc the Shark**: Again, max.
+[07:18] **Marc the Shark**: You don't have to.
+[07:20] **Marc the Shark**: You can do NFT bonuses.
+[07:22] **Marc the Shark**: The mining operation will have the block discovery, the reward claims, and then the collection of the token or NFT.
+[07:32] **Marc the Shark**: And then we can even do staking, things like that.
+[07:36] **Marc the Shark**: Again, a bunch of different options.
+
+[07:38] **Marc the Shark**: From here, we have the bot infrastructure.
+[07:42] **Marc the Shark**: So it's gonna do the real-time block scanning.
+[07:45] **Marc the Shark**: And then users can set this up to be like every minute, every... And so there is incentive to say, to have really good software to be, if you're gonna be the one say collecting most of these.
+[07:56] **Marc the Shark**: Or have multiple bots set up because there's baked in the protocol for you to get say the MRP token.
+[08:04] **Marc the Shark**: But they're going to do the rights verification and then calculate the rewards.
+[08:09] **Marc the Shark**: This is the distribution system effectively of the emission tokens.
+[08:12] **Marc the Shark**: Instead of mining, we're running these bots.
+[08:15] **Marc the Shark**: Instead of GPUs, we're buying and selling rights tokens.
+[08:20] **Marc the Shark**: It's like a synthetic GPU mining system.
+
+[08:24] **Marc the Shark**: So this could be an initial release.
+[08:27] **Marc the Shark**: I am playing around with the idea of launching one of these, but this is a sample for 10 years.
+[08:33] **Marc the Shark**: And so we can see how much of the token supply is emitted over 10 years.
+[08:38] **Marc the Shark**: We can see the yearly emission rate on both plots here.
+[08:43] **Marc the Shark**: It's pretty easy to see.
+[08:45] **Marc the Shark**: Because we have the halving sort of happen.
+[08:47] **Marc the Shark**: So we have 100 and 50 to 25, the half of 25.
+
+[08:56] **Marc the Shark**: And then here kind of wrapping up again this is more of a white paper, but we do have some prototypes.
+[09:03] **Marc the Shark**: I've been moving across the country so didn't have a lot of time to code as one would imagine, but kind of a roadmap here is to start and build and continue to build on this foundation that we have.
+[09:13] **Marc the Shark**: And that foundation is a system that generates tokens very similarly to our emission token, say MRP.
+[09:23] **Marc the Shark**: And then from there, it is dispensed to a set of users, hard-coded at this point, but distributed at those users, like, say, one every block, or every other block, rather.
+[09:37] **Marc the Shark**: And then does that until the box is empty.
+[09:39] **Marc the Shark**: And then again, I'm running various bots to facilitate this.
+[09:42] **Marc the Shark**: So we do have prototypes, that stuff does work.
+[09:45] **Marc the Shark**: And then we can start to slowly transition over to this sort of core protocol we're calling.
+[09:51] **Marc the Shark**: And then once you hit that core protocol, continue testing on testnet, validate sort of the boxes, try to attack it, see if I can spend these boxes and make sure that the Sigma prop is accurate for what we're actually trying to launch here.
+[10:08] **Marc the Shark**: And then maybe we're gonna launch the actual tool set, sort of an SDK, so to speak, and then we can actually launch a specific token.
+
+[10:19] **Marc the Shark**: And then from there, I want to move into this NFT system to where this could be utilized, for example, for token minting.
+[10:27] **Marc the Shark**: This is an alternative to token minting and then puts the tokens, I'm sorry, NFT minting, NFT minting into the hands of the miners and miners can do whatever they want or even the pool operators.
+[10:40] **Marc the Shark**: Maybe we would do something for this for the Sigmanauts mining pool.
+[10:43] **Marc the Shark**: But the idea would be to buy a rights token or essentially the rights to buy an NFT or however many NFTs and maybe there's like say a limit like 10k there's 5k there's a thousand.
+[10:55] **Marc the Shark**: And then per one, you'll get a specific NFT, but only when a given miner finds the block.
+[11:03] **Marc the Shark**: So then we're using this sort of mining randomness whenever they're going to find a block to then mint a NFT.
+[11:10] **Marc the Shark**: And then that could go to some sort of marketplace like MewMart.
+
+[11:14] **Marc the Shark**: And then the last sort of step I would like to do.
+[11:17] **Marc the Shark**: And maybe we'll wait to launch a token once we have all of this but some sort of staking opportunity because it would be really interesting to be able to have rights to these tokens and then be able to stake these tokens for other rewards in sort of a synthetic sort of GPU mining environment but maybe it doesn't make sense and I'd be curious what the feedback we get for this because maybe there's something that I'm not really thinking about and might not be a good idea.
+
+[11:45] **Marc the Shark**: And then, of course, partnership with the communities and then governance, if this continues to take off, especially if we launch a given token, we'll probably have a Paideia kind of DAO and use that.
+[11:59] **Marc the Shark**: So let me know what everybody thinks.
+[12:03] **Marc the Shark**: We're excited to submit this and see what happens.

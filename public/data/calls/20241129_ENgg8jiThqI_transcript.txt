@@ -1,0 +1,487 @@
+[00:11] **kushti**: Hello, happy Thanksgiving to all the USA Sigmanauts.
+
+[00:18] **qx()**: How you doing, kushti?
+
+[00:18] **kushti**: Good morning.
+
+[00:20] **kushti**: Doing well.
+
+[00:21] **kushti**: Hi, everyone.
+
+[00:23] **kushti**: Good time to share some updates, I guess, and discuss some things in the AMA format.
+
+[00:33] **qx()**: It sure is, kushti.
+
+[00:36] **kushti**: Yeah, so we are trying different formats. That was a good community call.
+
+[00:43] **qx()**: That was fun, yeah, the Zoom call, yep.
+
+[00:46] **kushti**: Yeah, a bit chaotic maybe, but yeah, because for the first time I believe, there were a lot of opinions and people willing to speak, so it lasted for one hour and a half instead of one hour, or maybe not really planned, but I don't know. I had in mind something like that.
+
+And then, yeah, well, there will be Twitter spaces tomorrow.
+
+[01:15] **kushti**: Do you know about that?
+
+[01:16] **qx()**: Which one's that, kushti?
+
+[01:20] **kushti**: One with House of Chimera, so it will be announced later today.
+
+[01:27] **qx()**: Oh, it's the other one you invited me to.
+
+[01:29] **kushti**: Yeah, so you will be there, supposedly.
+
+[01:36] **qx()**: Awesome.
+
+[01:37] **kushti**: Yeah, and Joe also will be there. So, yeah, three of us will represent and uncover Ergo to House of Chimera community and also Ergo community is welcomed to jump.
+
+[01:54] **qx()**: Awesome. I'll look for that announcement. We'll retweet it, get it out there too.
+
+[01:59] **kushti**: All right. Yeah. So we'll ask for an announcement actually after the AMA.
+
+So yeah, we are exploring different formats with different entities around such as House of Chimera, and there is one proof-of-work merge mined Bitcoin sidechain. We may have Twitter spaces. Then, yeah, maybe some Ergo-only Twitter space again, and then community calls. So even the side of AMA, well, it's about very tight schedule.
+
+[02:43] **kushti**: It seems before the new year if we are targeting to have all of that, that's about pretty tight schedule actually.
+
+[02:51] **qx()**: I heard some feedback online that CKB wants to do another hosted space with us as well kind of that space so we'll do that at some point in the future this year.
+
+[03:08] **kushti**: Maybe not this year, qx().
+
+[03:10] **kushti**: Yeah, because for this year, everything is set probably already.
+
+[03:17] **qx()**: Yes. Well, maybe January then.
+
+[03:25] **qx()**: Yeah, cool beans. Well, what's new, kushti?
+
+[03:30] **kushti**: That's a lot of new things, so finally EIP-50 for 6.0 soft fork proposal published, and the most, let's see, understandable parts which are for general public are also cross-published on the forum.
+
+And then yeah so there's currently just one pull request left and the first round of reviewing already done so I'm working on tests and I'm going to ping miners to get good dates for start of voting.
+
+[04:21] **kushti**: As a reminder, Ergo is not centralized cryptocurrency if such term makes sense at all, controlled by dev team so every change is to be voted by miners with 90 percent, 90 plus percent of hash rate voting for is needed for approval.
+
+[05:00] **qx()**: kushti, can you explain briefly how that works? Like you publish a new kind of change code for the node and how specifically do miners vote on that, just for the people watching?
+
+[05:12] **kushti**: Yeah, so basically they need to install the latest version or a version of the node which is supporting a new version of the protocol. But then the voting is still explicit. So they need to put concrete value in settings, so they need to find the voting section in the config file and put certain value there because there is no implicit voting.
+
+Before, there were some pools which were asked for versions of the node with implicit voting. When it was 5.0, if my memory serves me well. They did pre-voting, they didn't make a choice until individually the miners voted on their pool.
+
+[06:10] **qx()**: Was it GetBlock that did that?
+
+[06:12] **kushti**: So, GetBlock had the individual voting for designers. Other pools just decided whether to vote yes or no, and some asked for a version with specific config, but maybe after it was voted already to have lock-in done. So I've forgotten actually something like that.
+
+Well, in general, a miner needs to put a vote for soft fork explicitly.
+
+[06:57] **qx()**: For sure. And if some of the big pools or the other pools, even small pools, don't update their node to that, it's essentially a totally different chain if the soft fork goes through?
+
+[07:13] **kushti**: It's soft fork, so actually they will continue to recognize blocks. They even can mine blocks if we are talking about upcoming soft forks. But there is a chance that they can include invalid transactions. So, well, 5.0 and actually previous nodes will skip validations of transactions with new features, 6.0 features.
+
+And then if 6.0 transaction is invalid, for example, then there is a chance that a miner not updated will mine this invalid transaction and gets the block rejected by 90% of the hash rate.
+
+[08:06] **kushti**: That's why voting is needed. You need to be sure that even if all nodes are in the network, they cannot mine invalid transactions so that they cannot produce long enough forks. That's why such big numbers here in the wording for critical things.
+
+Yeah, so there is forum posts which is uncovering changes proposed such as new features, opening possibilities for actually a lot of applications, some already shown such as trustless Bitcoin bridge.
+
+[08:56] **kushti**: Then Lithos, then yes, certain roll-up constructions are shown to be feasible. Hash rate coin, so hash rate derivatives would be feasible with 6.0. Yeah, well, efficient at least, right, with 6.0.
+
+[09:23] **kushti**: Cryptographic applications. There is an unfinished example of a range proof validation. I've assigned a bounty for that issue. If you want to play with cryptography, ErgoScript and also get some bounty, consider to finish this example.
+
+It's a bit tricky, but definitely from what I've checked, I've made half of it and we found that the rest is using basically the same operations which are added along with a new unsigned big integer type needed for cryptographic applications along with modular arithmetics.
+
+[10:16] **kushti**: Well, another thing aside of new features and so on is the possibility in the node to vote for new parameters without breaking previous versions of the nodes or maybe versions of the nodes not recognizing such voting, so you can do maybe some velvet forking kind of voting from 6.0.
+
+And in particular, 6.0 nodes also do recognize a new parameter, which is number of sub-blocks per block. So, yeah, well, with it, this parameter can be used further in the sub-blocks protocol to have miners having possibility to readjust a number of sub-blocks per block, which is quite interesting, I believe, when miners would be capable to change frequency of sub-blocks' pulsation, let's say.
+
+[11:34] **qx()**: When should we start pushing this out on socials to get at least the miners aware and the pool operators aware?
+
+[11:42] **kushti**: Right now, so I mean, it's finalized and so what's not finalized is activation details for mainnet. And yeah, so for public testnet, I think we can do activation like two weeks, literally two weeks.
+
+So the testnet is currently not that stable. So yeah, but when it will become... Oh, we've got it there. We're just waiting for your note, I think. It's mgPai myself. It's also Explorer, so I need to check with them what's going on with the Explorer notes.
+
+[12:31] **qx()**: Right, you have to point testnet explorer to the new testnet.
+
+[12:36] **kushti**: Yeah, but the testnet explorer is looking at mine's not. And then there is need to fix things. Maybe your peers are burning the notes. Let's see. But yeah, I guess it's about one to two days anyway. And then I need to do some more tests in the form of codes and also manual tests in DevNets.
+
+[13:16] **kushti**: I'm running regularly 6.0 DevNets. Then we'll propose public testnet activation and then at the same time we can talk with miners about mainnet activation details.
+
+And as a reminder, after beginning of voting at least three months would be needed for activation. So first it would be 32 epochs of 1024 blocks each for voting and in case of supermajority achieved not just supermajority and 90 plus percent - so supermajority is usually associated with 66 percent plus and in case of 90 plus percent support.
+
+[14:19] **kushti**: There is also a 32 epochs delay for activation to give a possibility for everyone to update. In total it's 64 epochs, 1024 blocks each, so about 3 months.
+
+Yeah and then we will have 6.0 activated and at the same time so during those three months actually we can work on sub-blocks because sub-blocks probably would be deployed in a few steps and some soft forkish update for miners would be needed only at the last step, and they can be deployed in kind of velvet fork way before.
+
+[15:23] **kushti**: So yeah, and it would be good to consider what to do after, so basically from mid 2025 and so on. So already a lot of talks. A lot of proposals were pushed, but there is need to consider what to do and in what form.
+
+So I think the general vector could be to decentralize development more. Definitely as communities also definitely becoming more and more decentralized in regards with every aspect we can think of.
+
+[16:20] **kushti**: And then, yeah, so also, well, started, so as I discussed, started Ergo book, and now Joe is going also to contribute, so hopefully some parts but I'm actually thinking to publish like article by article on the forums maybe the first piece likely will be published this week so just a few days after 6.0 proposal and with Ergo book the idea is to get material from different members of Ergo movement, Ergo community, will become leader, conceptualizing what we do know about cryptocurrencies as a form of money, peer-to-peer networks and so on.
+
+[17:33] **kushti**: And then how those concepts are realized in Ergo, from philosophical aspects going to technical. And then going maybe deeper. And then to get some picture of what Ergo protocol and ecosystem around is about and maybe trying to achieve.
+
+[18:18] **qx()**: It looks like we got a sneaky guest when you were talking, kushti.
+
+[18:24] **Dan Friedman**: Yeah, it's actually the spider that's sitting on the wall there for the past hour and a half. I don't like killing spiders, so that guy's taking advantage of the situation.
+
+So nice to see you, Charlie Rose. AKA, qx().
+
+[18:47] **qx()**: It's great to see you too.
+
+[18:49] **Dan Friedman**: Yeah. For those of you who are too young to know this, so Charlie Rose is a journalist and old school journalist. And he would conduct all of his interviews with a black background like this. It was very, it was very much like his brand to always interviews with this black background. So that's why I keep calling qx() Charlie Rose and he's just like looking to be like, what?
+
+[19:19] **qx()**: No, I know Charlie Rose. Of course.
+
+[19:25] **Dan Friedman**: Good. Because you make, give me this blank face. Like I don't even know what the hell anyway.
+
+Yeah. So, so, I mean, I walked into this really interesting conversation here. Now, you know, another interesting conversation, actually you mentioned Joe. And it just kind of, it's kind of funny, you know, how narratives and how people just kind of jump into these, like, I mean, I don't want to say just pure hype because it is quite a bit of interesting tech behind BitcoinOS.
+
+[20:04] **Dan Friedman**: But, you know, the community and, you know, our community as well as the Cardano community, and of course, you know, the communities are mixed, really jumped on this, like BitcoinOS is going to bring so much liquidity and it's just going to, you know, just going to bring, it's going to bring all of Bitcoin onto Cardano and Ergo, and it's just going to be awesome, you know, we're just going to be swimming in liquidity.
+
+It's going to be so liquid out here. It's going to be like, you know, like Solaris, like the ocean planet.
+
+[20:30] **Dan Friedman**: Yeah, and it could but, you know, Ergo already made something like this that works really, really well. It's called Rosen Bridge. And I keep talking about it on socials. And it's just interesting that, you know, like, I mean, we do get quite a bit of recognition for Rosen, I think.
+
+Rosen is one of the more popular Ergo projects, I think, in the Ergo Cardano ecosystem. You know, on Cardano, many people know about Rosen versus, I guess, you know, other projects that came out of Ergo.
+
+[21:07] **Dan Friedman**: Maybe, you know, Splash, you know, is one that rivals the popularity of Rosen. But Rosen is this, you know, it's like pure Ergo tech. And yeah, you know, I actually, I see this question down here.
+
+I don't know if you guys are, yeah, well, Jumeis telling us to better learn how to swim. Yeah, it's good.
+
+[21:39] **Dan Friedman**: Let's see. So Bobcat, and I think actually Bobcat likes to ask this question on every single AMA, at least that I've been on, or maybe it's not Bobcat, maybe it's somebody else, but we get this question quite a bit, is actually I selected it. I don't know. Can you guys see it? I don't think you can see the questions I selected. Can you see them?
+
+[21:58] **kushti**: I got you.
+
+[22:00] **Dan Friedman**: I put it there. Yeah, I don't know why I can't see it. Okay, anyway. Yeah, no, actually, I probably because I'm not signed in. But anyway, select the one. Okay, well, actually, this one as well. This one is interesting. But I was actually going to go to the one that just what are you looking towards in 2025? Bobcat asked that one.
+
+[22:25] **Dan Friedman**: Yeah. Well, so, but then we can go to the BitcoinOS one because I actually, I'd like to hear kushti's input on this and yours too qx(). Okay. Don't feel like, you know, in the conversation here. Okay. Yeah. You're important too qx(). Okay. Don't cry. Don't cry.
+
+Yeah, you know, what I'm looking towards in 2025 is, you know, big projects really realizing that it's already here, it's already built. You know, the tech is here. You know, there's no new sensational type of thing. There's like, oh my God, you know, this is going to solve everything.
+
+[23:06] **Dan Friedman**: It's already here, but you have to start utilizing. There has to be traffic. And I think one of the big plays for 2025 would be for some really nice, successful, and successful dApps and platforms that have a wide customer range, utilizing Rosen, bringing Rosen just onto their stack and utilizing it to serve between all these different ecosystems.
+
+And now they got runes, going to be bridging to Solana, they're going to be bridging to everywhere, bridging to the moon.
+
+[23:46] **Dan Friedman**: What was the newest one? I forgot, what was the newest one for Rosen? What are they going to be bridging to?
+
+[23:51] **qx()**: What's it called?
+
+[23:56] **kushti**: Binance, BNB, or Dogecoin.
+
+[23:59] **qx()**: Dogecoin and Binance, yeah, are the two new ones.
+
+[24:02] **Dan Friedman**: Doge, yeah, Doge and Binance. Anyway, it's here. You know, the tech is here. It's time to utilize it. And I think our focus is, and I think what's going to happen in 2025 is more and more projects will realize that, well, wait a second. I need to do this now. Who has the tech now? Rosen has the tech now.
+
+Right now you can do it right now. I can move assets between Cardano and Ergo and I can move assets between Bitcoin and Cardano and so on. I can do it right now.
+
+[24:30] **Dan Friedman**: And so that's why we're going to be utilizing, with Paul Meyer, with Paul McConaughey, we're going to be utilizing Rosen, because we can do all this stuff. We have the necessity to make it cross-chain. We need to be able to move these assets between Cardano, Ergo, Bitcoin, EVM, because we actually have some commitments to move some of this stuff to EVM.
+
+And the tech is here, and the tech is the most practical for it. So it's all about really not just kind of ringing the bell, look, here it is, but actually getting these projects, the big projects to look at it and say, hey, this solution exists, we should utilize it, we will utilize it, and getting to utilize it.
+
+[25:13] **Dan Friedman**: And that's what I see what is happening in 2025. More and more projects really kind of getting it.
+
+So, yeah, I just wanted to go to that question because that was really on my mind after all this stuff, BitcoinOS, because, you know, I mean, I guess, yeah, I mean, people want to see liquidity, and you want to see liquidity, you want to see, you know, life on chain.
+
+[25:39] **Dan Friedman**: And they think that, you know, Bitcoin will bring that more of that life on chain. Whether it will or won't remains to be seen, but, you know, they think it will, you know.
+
+Actually, I would like to get kushti's, well, and yours qx(). Okay, yours qx() and kushti's input on the difference because I'm sure that people have asked, how is it different? Is it the same tech or is it different tech?
+
+[26:11] **Dan Friedman**: So I don't know which one he wants to go first, but maybe he should answer that.
+
+[26:18] **qx()**: Right maybe. Sure, well first of all in the social scene my tribute I attribute that BitcoinOS hype and then pretty quick what's the opposite of hype? I don't know but that happened all in it like a week drama drama on Twitter I attribute that to you know, everything's experience of pump Cardano and Ergo both recently and experience quite a quite a pump in there in their sex and their sex value at least.
+
+Everybody's frothing in the mouth and then along comes this other promise of you know the promise of more liquidity flowing in and higher values there so people immediately jump on the train for that without even thinking or looking or reading into it or anything and then they come out with a they come up with, oh yeah, we're going to fundraise here as a token, and everybody's like, oh, that's awful.
+
+[27:16] **qx()**: You know, you guys are awful, that kind of thing. So that was funny to watch with popcorn from the sidelines, that's for sure.
+
+But from what I understand, here, I'll give my stupid explanation, and kushti can correct everything that I'm wrong. So, Rosen's a bridge, essentially. You lock tokens on one side, you release them on the other side. And Rosen's unique and special because it uses this two-layer approach with watchers and guards.
+
+[27:42] **qx()**: Watchers first see the transaction, report it, guards verify that transaction, then do a consensus and release it on the other side. There's never any minting of tokens. It's not like a live mint. The tokens, the supply is minted and locked right off the bat. So there's no way you can continuously leak and mint more tokens on Rosen like that.
+
+Whereas BitcoinOS, I believe, is more like a programmable layer. I mean, it's its own thing where you can have kind of trustless relays like, I think kushti, you made one recently as a proof of concept back in a couple months ago to be able to report transactions on another chain from Bitcoin.
+
+[28:24] **qx()**: But that's my understanding of it. kushti, please correct me.
+
+[28:27] **kushti**: Yeah, so you can use trustless relay to bring Bitcoin to Ergo. But the other way, it doesn't work because you cannot build Ergo relay on Bitcoin. Bitcoin is too limited for that so then you can do different tricks such as BitcoinOS way to verify ZK snarks.
+
+But, yeah, it's complicated. And, yeah, it's not audited, it's not well tested and so on. And it's also not even quite new. So Bitcoin community is considering using snarks in Bitcoin along with Bitcoin scripts in form of contingent payments, for example, since 2015, so the first presentation was done at Financial Cryptography 2015.
+
+[29:46] **kushti**: But then it's stuff quite complicated, so the original scheme presented at Financial Cryptography 2015 was shown to be insecure in some paper from 2017. That paper proposed a fix, a paper by Alexander Chiesa and others. I've forgotten its name. But then the proposed fix even was corrected in another follow-up paper.
+
+So, yeah, and about this BitcoinOS, they wait to optimistically verify snarks. Yeah, I personally would wait for I don't know, another five years to have dust settle down around all that.
+
+[30:44] **kushti**: I mean just from my observation of previous attempts to build stuff like that. Yes, so contingent payments were used even in simpler context like, so the original showcase was paid for Sudoku solution, so payment for proving, for a proof of some computationally hard challenge solution.
+
+But, yeah, even in that simple setting, things are quite complicated and BitcoinOS is more complicated and the white paper is not that detailed, let's say. So it's just very briefly touching details and efficiency is not quite clear and then execution in the presence of network congestion and so on.
+
+[32:08] **kushti**: And then about how all those things are implemented from snarks to scripts, Bitcoin and what are possible attacks and so on. So yeah, it's still not quite clear to start with.
+
+And yeah, in the Rosen, it's just a multisig on Bitcoin side. And it's maybe not that fancy, but it's quite clear how it's working, at least, on the Bitcoin side. And then on the Ergo side, there is another layer of protection, which is about watchers.
+
+[32:44] **kushti**: And guards.
+
+[32:46] **qx()**: Guards, but guards are co-signing on Bitcoin?
+
+[32:52] **kushti**: And in case of anything happening there, so you have second layer on Ergo, second layer.
+
+[32:58] **qx()**: Oh, I see what you mean. Yeah.
+
+[33:01] **kushti**: So, yeah, I mean, it's simple and working at least.
+
+[33:14] **qx()**: Speaking of Rosen Bridge, Armeanio and the Rosen team are getting near their Hummingbot implementations, and they're putting out a channel soon on Telegram and they're going to use it as an educational kind of thing where people come in, they learn about it, they run it, they test it, and they get very knowledgeable about how to run your own hummingbot.
+
+I mean, that's one of the things that I mean, everybody wishes for some big angel to come in and dump liquidity everywhere and trade everywhere and hold our hands and make us feel good like some savior or messiah. But when it comes down to it, guys, it's us.
+
+[34:00] **qx()**: Like we have the power to take, even if you have like 200 ERGs, it doesn't matter. grab this hummingbot, jump in the channel when it's made, learn how to use it, arbitrage across the ecosystems, across exchanges, and make a couple ERGs along the way, you know, just from running something easily on your computer.
+
+And that will provide liquidity, that'll help provide liquidity across different pockets, different enclaves, whether it be Ethereum, Binance, Doge, Cardano, Bitcoin anything like that, so it's up to us guys.
+
+[34:33] **qx()**: I mean I feel like we're sitting Sometimes I feel like we're sitting in this advanced cathedral with all these amazing scientific tools in front of us in the year 4000. And we're sitting there looking at these tools and being like, oh, that's cool. Let's poke it. That's neat. But when's somebody going to come along and build this for us and do this for us?
+
+It's like, the tools are there, guys. We have everything we need. And there's plenty of us. There's 12-some thousand people in the Telegram chat alone. There's plenty of us to be able to pick up something and use it and make a difference.
+
+[35:15] **qx()**: So, I mean, we're talking hundreds of people run these hummingbots for Rosen Bridge with their implementation of it, and you're going to see a big difference in liquidity across exchanges and DEXs.
+
+Yeah, so watch out for that guys. Please join the telegram chat when Rosen Bridge sets it up Don't be afraid to jump in there and use hummingbot Ask questions. I'm available for I'll be running one I just got some loose ERGs from a reimbursement for running some servers. So I have those I can put in and We can provide liquidity across the spectrum guys. So don't be afraid We're here to hold each other's hands.
+
+[35:56] **Dan Friedman**: You're that liquidity provider that's going to just come and provide liquidity everywhere.
+
+[36:01] **qx()**: No, I just... I only have like 300 ERGs.
+
+[36:06] **Dan Friedman**: Just go around and liquidity everything.
+
+[36:08] **qx()**: I only have like 300 ERGs, but I'll put it all towards HummingBot. No problem.
+
+[36:12] **Dan Friedman**: Yeah, 300 ERGs times 300.
+
+[36:14] **qx()**: No, no, everything else is in ecosystem projects.
+
+[36:19] **kushti**: I also think to provide some more liquidity. Yeah, it seems there are some options which are not realized yet. Even SigmaUSD to Dexy Gold liquidity pool. But yeah, it's very natural, I guess, liquidity pool to profit from arbitrage. Because, depending on crypto market conditions, you have independent movements of gold price against USD.
+
+[36:56] **kushti**: It's kind of crypto-independent way to profit from arbitrage. And yeah, it's still not there, surprisingly. So yeah, well, I will do that. So I even tried, but got some errors before because of something with Spectrum DEX chainbots. There was something when trying to create liquidity pools on certain clients, but yeah, well now it's probably resolved. So yeah, need to try again.
+
+[37:45] **Dan Friedman**: All right, what else we got here? All right. Well, yeah, we actually got a so this is a actually a term that's been floating around We would love we love to say demurrage The mirage. The mirage. Yeah. Yeah. So we'd love to use the word the mirage, but I think a lot of people are missing context here. So why don't you qx() explain this like you would to a five year old.
+
+[38:30] **qx()**: Awesome. Demurrage to a five-year-old. Let's see. Demurrage, well, first of all, demurrage is one of the coolest things about Ergo. Super, super cool. It's also one of the most misunderstood things about Ergo when people come in.
+
+So explaining like a five-year-old. Okay. Let's see. Okay, let's say that the five-year-old has a bunch of toys. And you like to play with your toys. You have your trains, you have your Legos, you have everything. All right.
+
+[39:02] **qx()**: So, you put those toys in, every time you put it away, you put it in a little baggie, and you throw it in your little protective coating, and you throw it in your chest, your box outside. All right, every time you want to play with it or do it, you have to get it out of that little baggie, play with it, put it back in the little baggie and set it there.
+
+But let's say you don't play with toys for quite a while. They take up space in that chest and it's hard for your dad to move that chest around and put it in the basement or put it upstairs for you and do that. So it gets heavier and heavier and heavier.
+
+[39:40] **qx()**: So, what you can do to help prevent that, there are two things. You can either take all the toys out and put them in one bag and maybe store that bag in an easier place. And then there's more room in the chest. Or you can, your dad can get really pissed at you for having so many toys. And he can take a few of those toys in the small bags that you haven't touched in a long, long time and essentially throw them out.
+
+So that's maybe a five-year-old could understand that. I don't know. That may have been too simply and missing a little bit of the point. But here's a 12-year-old's explanation.
+
+[40:21] **qx()**: So blockchains get bloat. We know that from watching other chains who lost their history and struggling to find it and chains that get massively bloated. And bloat leads to centralization. You have Solana nodes that are so massive and require so much throughput that people are running them in centralized clusters like in Amazon or Azure.
+
+So that is not decentralized. That's not somebody like Dan or kushti or myself who could just spin up a node in our basement or on our spare computer. So keeping a node pruned and small is going to encourage decentralization on small devices.
+
+[40:57] **qx()**: OK, so in order to do that, Ergo in the base code says that, hey, if you have these boxes, where UTXO, so every transaction into your wallet goes in its own little box, you can never add to that box. If you want to use the tokens in that box, you have to spend the box, which then takes money and puts it in somebody else's wallet in a box and brings a change back to your little another new box in your thing all right so in order to make sure the blockchain is small excuse me anything after four years of just sitting there not doing anything and when i say four years i mean four years in block time
+
+Just sitting there not doing anything will be able to allow to be collected a small amount of rent from it all right and what this does is if not necessarily it's two factor right you're collecting rent from people who aren't doing anything who are just storing things on chain and not moving it around so it could be a miner that has 10 000 boxes of one ERG that they've been mining for a long you know and just sitting there for four years.
+
+[42:15] **qx()**: Or it could be dust from something, airdrop, or tokens that were distributed, or even a miner that just has too much of a too small ERG sitting around. Okay, so that takes a bloat on the blockchain. So demurrage, at that point, if the amount of ERG in the box is too small for the rent cost, the whole box is taken and destroyed.
+
+So now we've cleaned up the chain of all this dust that's just out there. That amount is called storage rent. It goes to the people mining it. They can wrap it in a transaction and spend it and bring it to the mining pool or the person mining it.
+
+[42:42] **qx()**: If there's enough ERG to cover that rent, then the box is just recreated with a change with the storage rent taken out of it and it's put back there. But overall goal. ELI 12 is that It's meant to prevent bloat on a blockchain which helps with decentralization essentially My wife just brought me a sandwich Look at that homemade bacon egg sandwich guys Are you gonna storage rent that sandwich?
+
+[43:10] **qx()**: It's gonna take some storage rent off it right now guys Yeah, you're gonna take storage rent.
+
+[43:17] **Dan Friedman**: Oh, you're actually going to eat while you're doing an AMA. You, you college student.
+
+[43:27] **qx()**: People get afraid, people get afraid of demurrage or storage rent because they're like somebody's taking stuff from my wallet. I hear a lot of FUD sometimes from like two specific people on Twitter. That's like, Oh, I don't like Ergo because the devs can just take all my money.
+
+What they don't understand is that you need a 90% consensus to do any sort of that kind of change in that consensus mechanism there to do that absolutely insane thought. I mean, why would miners vote against their own interests to be able to rape everybody's wallet that way? It makes no sense.
+
+[44:01] **qx()**: FUD in misunderstandings. It's one of the best tools out there for a chain to reduce bloat. I know, kushti, you said Ethereum had thought about it for a while or somebody other chains have thought about implementing in a while, but...
+
+[44:25] **kushti**: Yeah, so actually Ethereum community started to discuss storage rent and actually the term was taken from the Ethereum community, not demurrage, which is well known in the theory of money and economics, but storage rent, so it was taken from the Ethereum community and they've been discussing it since 2015 actually.
+
+Because it's quite clear that, you know, it's not fair and quite a broken economy in Ethereum. Yeah, also Bitcoin and basically every blockchain when you can create some object on the blockchain such as unspent outputs or smart contract in case of Ethereum and so on and then it lives forever so it lives on thousands of computers in peer-to-peer network but it's been paid once and then living forever, which is totally unrealistic and also unfair.
+
+[45:38] **kushti**: There is no example, I believe, where you can pay once for storage and then occupy it forever. It's simply contra-economical. And yeah, also, when we are talking about real-world assets such as gold, any commodity, so you are paying for storage, it's basically the same. There is some cost to hold your gold.
+
+A brick of gold in a gold vault. To store any commodity you have in a warehouse, such as, I don't know, wheat, coffee, whatever. So you need to pay for storage. The same in the digital world. So you're occupying bytes on the thousands of machines, bytes of their memory, then you are not paying anything.
+
+[46:40] **kushti**: Yeah, in Ethereum it's even worse because that smart contract is living forever, it's occupying memory, some critical indices and so on. Then they will ask for using suicide command. There is such instruction when contract is not needed. You can free. You can mark that it's not used anymore and free memory basically.
+
+But as you need to pay a gas for such command, it's not being used. So it's like a nice command in Linux. So it's nice, but no one is using it.
+
+[47:32] **kushti**: And then, yeah, that nonsense about devs capable to charge, I don't know, that's completely nonsensical. So in comparison with all the proof-of-work cryptocurrencies, but Bitcoin actually, it's harder in Ergo, because, well, again, 90% voting is... Well, it's not even possible with soft fork. So you need to do hard fork, because I don't see any way to do this soft fork.
+
+Well, as we are not doing, we are avoiding hard forks, especially such controversial. I mean, it's the least issue in Ergo in comparison with other proof-of-work currencies, but Bitcoin, because I'm not aware about changing protocol by avoiding anywhere, but Bitcoin and Ergo.
+
+[48:35] **kushti**: Because in Ethereum, it always was about dev's team setting something in the code and then just ordering miners to update the nodes and participate in that. Or else. Yeah, so in that way they even fired miners after all. But the same is all other proof-of-work blockchains. So it's usually about developers just providing a new version and telling miners to install it.
+
+And that's why it actually was quite hard to work with miners on all that stuff voting and so on to ask them to provide the information and then wait for the action because usually you know what they do expect is basically the same as happening everywhere so developers just coming and providing a new version and they're just running a new version of node software for another shitcoin you know without thinking much for what's going on there.
+
+[50:00] **kushti**: I mean, who cares about some shitcoin, you know, and what's happening there. I mean, the only reason for them, for miners, for mining pool to be there is just to mine and then dump and then jump on another ASIC, mining Bitmain controlled shitcoin.
+
+And so, yeah, I mean, because of that attitude, it's quite hard to push miners to make decisions about what stuff they're working on so that's quite weird so when you push people around to get more power, usually people are grabbing power. And here is the opposite situation.
+
+[51:21] **qx()**: I think anybody looking on from the outside to the in would see demurrage storage rent as proof that Ergo has been created and thought of for the long term and sustainability. So that's my number one thought when I think of storage rent and when I talk to other people about it.
+
+If you're serious into crypto and you see it as a financial power tool for the individual, and you look at how these things were built and thought of, you look at Ethereum and you're like, how the fuck is this supposed to sustain for this thing, or Solana even? My goodness, they're going to have countries running these nodes kind of thing.
+
+[51:48] **qx()**: And you look at Ergo and you're like, this was really thought out, and this was thought out for sustainability, this was thought out for decentralization, and storage rent just proves that right there, right off the bat, that that was the case.
+
+[52:01] **kushti**: Yeah, actually, I love that cathedral analogy very much, and also, well, thoughts about writing a text on that, because cathedrals considered as example of something, well, thoughts. I believe Linux community maybe is using the same analogy, but need to check actually.
+
+So it's something when you can build for centuries and you are not breaking what was built before. You are just building new parts nearby and connecting with existing parts and with centuries it's becoming even more solid and even more beautiful.
+
+[52:57] **kushti**: So yeah, that's what should be the goal here. So building a cathedral, not speculative spec mining or whatever speculative one-day story. So that was the goal always implicitly. But yeah, maybe there is need to also somehow explicitly state it at some point, I believe.
+
+[53:38] **qx()**: All right, Dan, what else we have? Is there any other questions that pique your interest?
+
+[53:41] **Dan Friedman**: Yeah, let's do one more. So this is actually, you know, I think this kind of aligns well with what you were saying about, you know, the 90% of the time it works every time with the devs.
+
+So here's a question. Bitcoin is not set in stone for max supply. Do you think Ergo max supply will ever get voted to change? Well, so let's start with can it be voted to change? Can it?
+
+[54:10] **kushti**: Not quite, actually, because it's not part of the protocol even. It's not a token. Ergo emission is set in the form of contract. Other cryptocurrencies, you cannot just change some constant in the code, like, for example, Ravencoin did, Ethereum did.
+
+And many cryptocurrencies actually did. So here you need to somehow change how contracts are executed and change, I don't know, in a very deep way. So it would be harder than in Bitcoin, definitely.
+
+[55:12] **kushti**: But even in Bitcoin, as far as I know, they are considering very tricky ways to bypass emissions. There are different proposals, but all of them are doing some tricky things to avoid breaking everything.
+
+So, and in Ergo, yeah, the first question is whether it's needed at all, considering that there is storage rent. So maybe, yeah, if storage rents in like 20 years wouldn't play out that well to provide enough rewards, or if there will be problem with smoothness of rewards and so on, maybe it would be better to tweak storage rent like was already proposed by a community member to put storage rent to some pool and then pay from that pool, like from emission contracts, so just pay certain fixed amounts of per block.
+
+[56:39] **kushti**: There are also proposals to have automatic auctions for tokens collected. And then, yeah, well, put ERGs raised from auctions to the same pool, for example. There are different DeFi tools for financial schemes, which can be used to provide smooth rewards to miners when emission is out.
+
+Storage rent probably would provide enough, especially considering tokens and so on, in like 20 years when the emission will be finished.
+
+[57:44] **kushti**: But, yeah, in case of any issues here, because it's hard to plan such things in the first place. You don't know what will happen with UTXO state in 20 years. And, yeah, in this case, there are many tools, like repurposing storage rent so instead of miners just charging it send it to some pool which is paying miners a fixed amount of ERG per block doing those auctions well storage rent parameters can be changed but only within some range so miners cannot raise storage rent significantly, the maximum rate is just 2x of default current value.
+
+And so on. So there is enough tooling to avoid doomsday scenario which is about changing emission I believe but there are different opinions here for sure so Ethereum guys changed emission I don't know two or three times already and probably will do for more but to me it's you know, a very critical thing which shouldn't be changed because when you change such things as total supply, then you're kind of breaking markets around, which are already operating on well known public information about emission.
+
+[59:42] **kushti**: And that's what makes cryptocurrency is beautiful. So you have perfectly known public information about total emission, emission schedule and so on. And so when you're breaking such things, it's not that good story.
+
+It could be needed maybe in some cases and some communities decided to change emission. Monero, for example, introduced tail emission, and then Ethereum changed the reward per block a few times. But yeah, it's better to avoid such things at all costs.
+
+[60:29] **qx()**: Right. I mean, it's changing the assumptions of a chain. I look at it the same way as other chains who are talking about implementing storage rent. You're changing the assumptions and agreements when miners started mining your chain and started, or users started utilizing your chain.
+
+You're changing all the agreements on the smart contracts written that don't take into account any sort of future storage rent or anything like that. So it's a huge, huge like rug pull, I would say, on those members.
+
+[61:13] **kushti**: Yeah, so in Ergo, it's there since day one, so if you ever used Ergo, you've agreed to storage rent already. And yeah, it's not changed. Even parameters are still the same as five years ago. But yeah, if you are going to introduce storage rent to a blockchain which doesn't have it, then it's also a huge deal. It's breaking a lot of things on many levels.
+
+But yeah, so in the Bitcoin community, there are discussions about the possibility to introduce storage rent now. Maybe the next civil war in the Bitcoin community would be about that. So what would be about? So like previous one was about just one constant block size. Whether to set it to 2 megabyte, 4 megabyte, 8 megabyte, unlimited size, do what's Bitcoin core. Did some magic with Segwit and so on.
+
+[62:16] **kushti**: So yeah, then the next civil war could be about what to do with emission or storage rent or tail emission. Introducing changing emission schedule basically by introducing tail emission. Or just leave things intact. Yeah, there are maybe other options. So yeah, the next civil war probably could be about that.
+
+[62:57] **qx()**: No, we don't need no civil war.
+
+[62:58] **kushti**: Yeah, but in Ergo, actually, one of the motivation to have for all those warnings for parameter block size for that sort of for capability was to avoid civil wars in the Ergo community. So, well, if you don't like block size, then just reach miners and tell them towards maybe they will listen to you.
+
+Maybe not, but there is no need for drama in the community, so just work with miners and try to change the protocol in the way you like. I mean, it's always possible and no one is preventing that. But also there is no need to push others to do changes you would like to have.
+
+[63:53] **kushti**: So just work on your own or find friends and work with them.
+
+[64:01] **qx()**: Dan, you've been very quiet and Wombo's noticed that. I think you have a question right here. Wombo's got a question. Dan, could you speak a bit about your video on Catamarca Lithium Facility?
+
+[64:17] **Dan Friedman**: Yeah. Well, I can speak a lot about it. And I think he said a little bit, a little bit, Danny said, yeah, a little, a lot of, a little, I'll speak a lot about it in the coming days.
+
+I'm actually going to Argentina on Sunday again for two weeks this time. And so there's actually going to be a continuation of this work. But, it was an interesting experience, very interesting. It's one of those things where you talk about all these things that we can do with blockchain, especially in an RWA sector and IoT, RWA and traceability and all this stuff.
+
+[65:03] **Dan Friedman**: And then you go there and you see that they need it. I mean, bad. It's a huge facility and You know, it makes, I mean, the thing, I think they put like a billion dollars into it or something like that. It's some obscene amount of money. And there are such inefficiencies and not just there.
+
+I mean, it's just in general, there's such inefficiency, such opaqueness. And it hurts, it hurts the production. I mean, it hurts profits because opaqueness is bad for efficiency. And when you don't have efficiency, you get bad ROI. You can get more ROI.
+
+[65:49] **Dan Friedman**: And yeah, just seeing all this really can open my eyes even more to the fact that this could all be, like Winter Protocol, for example, again, built on Ergo, for those of you who still don't know, because every couple of weeks I'll get one of those questions where people will ask me, so are you building anything on Ergo?
+
+Like we literally built everything on Ergo so far, like literally the whole platform is on Ergo so far. So yeah, kushti knows because kushti has seen it, you know.
+
+[66:25] **kushti**: Yeah, I mean, I'm reviewing contracts currently and yeah, they're definitely on Ergo. I mean, my eyes, yeah, I mean, the work more or less. So, yeah, it's definitely about Ergo.
+
+[66:45] **Dan Friedman**: So, you know, and going there and seeing how we can really help the real world with Ergo tech, I mean, that is, I mean, to me, that is actually just really cool and validating, you know, it's kind of validates the whole thing that we are on the right track.
+
+So yeah, there's going to be a lot more actually coming out from there in the next week or so. You'll see we got a big unveiling happening next week. So again, this is another asset that can be potentially that will be utilizing Ergo for tokenization.
+
+[67:26] **Dan Friedman**: So yeah, yeah, it's just it was a very interesting experience and I hope to And I know we will have an impact over there with the technology and with what we have to offer.
+
+[67:44] **qx()**: So that was a little bit. That was a good ELI response.
+
+[67:47] **Dan Friedman**: Yeah, I hope that was a little enough of bit.
+
+[67:53] **qx()**: Perfect. Oh, we got another question. I want to answer this one. What would you guys do when Ergo hits $50? Happy Thanksgiving.
+
+So personally, you'd see no change for me. I'd still be doing everything that I'm doing here. All my Ergo and project tokens would still be sitting in my wallet. It would make no difference to me.
+
+What it would make a difference to is the Sigmanauts Treasury, allowing us to have more reach, have more function, have more, be able to hire more people, be able to do more promotions. It would turn our, you know, literally what, 50 times our treasury.
+
+[68:25] **qx()**: So that'd be amazing for the Sigmanauts Treasury, the decentralized DAO there in our outreach and our ability to function. Personally, it'd make no difference in my daily function here at all. So I don't know about you guys If you're bringing you bring you sandwiches during during AMAs My wife brings me sandwiches at a dollar 50 or a dollar 70 dollar 85 My wife will bring me sandwiches at 50 dollars, correct?
+
+[68:58] **kushti**: All right, so for me probably, well, just remembering when it was about 20, so probably my ass would be grilled a lot around those days because yeah, I mean during price appreciation. Yeah, you just have more issues to resolve and also communication channels are getting busier and busier, you know, so like...
+
+[69:28] **qx()**: Oh, the social, yeah.
+
+[69:28] **kushti**: Yeah, well, not social, I mean, a lot of people are reaching to DMs, so, well, yeah, I don't know, so, back in 2020. Yeah, it was kind of a disaster, but yeah, I mean, just recently I found some messages, not from $20 a day, but later during the Ethereum merge.
+
+You know, Ergo is invited to get listed on some exchange, but yeah, there is need to discuss some, I don't know. And yeah, it's for free, but there is need for some marketing budget, you know.
+
+[70:16] **Dan Friedman**: It's free, but... Yeah.
+
+[70:22] **kushti**: Central machines are the Rumpelstiltskins of the world.
+
+[70:26] **kushti**: Yeah, I just discovered that, I don't know, weeks ago, so two years after, so yeah, and I guess if it would be 50, then yeah, Telegram would be not quite usable because of such wonderful offers to discuss anything with 100 exchanges and marketing agencies and whoever.
+
+Then a lot of new developers willing to come and just sending you DMs for some reason, instead of, I don't know, reading documentation around and so on. Maybe reach public chat. So yeah, I mean, I'm pretty sure that, yeah, the ass will be grilled a lot. Simply.
+
+[71:17] **kushti**: But yeah, I mean, that's part of life.
+
+[71:25] **Dan Friedman**: Yeah. I you know, I mean nothing would would change except for You know have some gold chains i'd be sitting in my own jet You know, of course a couple more wives a couple more wives I hope your wife's asleep right now
+
+Yeah, she's not I would be sending question pizzas with questionable topics to qx()'s house COD Yeah, I mean that's that's about it Yeah, I get I get kushti a wireless version of those headphones.
+
+[72:09] **qx()**: Oh That's nice. Yeah. Yeah, that's Everybody knows why it is better than why it is much better
+
+[72:21] **Dan Friedman**: If you say so grandpa, anyway, yeah. Well, anyway, I think this is a good place to leave it off. So everybody's, you know, we're, we're, we're, we're full answering, you know, bull, bull questioning. So yeah.
+
+Um, good AMA guys. Um, well, good AMA kushti. Okay. I'll take them. Okay. Yeah, you know, it's like, it's like if you share that sandwich, it would have been better, but you can't and you won't.
+
+Don't forget guys anyway guys everybody who celebrates happy happy thanksgiving out here we don't celebrate so they but but they did in the in recent in in recent years they have assimilated the commercial side of thanksgiving black friday so now we actually have black friday in japan but no thanksgiving just black friday people die like they do in the u.s black fridays
+
+[73:14] **kushti**: Not like that, but you know, they do.
+
+[73:22] **Dan Friedman**: But actually, we have this. So Black Friday is kind of like, you know, the Japanese retailers. Oh, Black Friday. Oh, people are buying lots of stuff. We make two.
+
+You know, it's like, it was like, but actually out here we have a, so on January 1st, they're always, it's called Fukubukuro. So it's basically like a gift bag and all these stores have these special fukubukuro which is basically like something that's I don't know, like limited edition or super cheap or something like that.
+
+[74:12] **Dan Friedman**: So you have that in the U.S. with Black Friday where people line up at like 2 a.m. to get like $100, 50 inch TV or something like that. Out here, they have the same thing. They line up for these fukubukuro from all these stores and they'll spend like 200 bucks on fukubukuro and supposedly it's like all this stuff that's worth like a thousand bucks or something and it's always limited.
+
+So we already have that, but now we have Black Friday, but we don't have Turkey. Except for Costco and then the problem with Costco turkeys is that most Japanese houses don't have ovens and you can't fit a turkey in a conventional oven.
+
+[74:48] **Dan Friedman**: So like I always, I always see them and they're expensive as shit too. They're about like 60, 70 bucks.
+
+[74:55] **qx()**: That's why you deep that deep fry that stuff out on your front yard or the sidewalk.
+
+[75:00] **Dan Friedman**: Yeah, well, you know, I think my neighbors would have something to say about that but Yeah, it's yeah, it's an interesting experience. So like I said Everybody happy Thanksgiving for those who celebrate for those who don't celebrate happy whatever Yeah, and so until next time same place same channel same people Friday is coming, right?
+
+[75:26] **kushti**: Tomorrow Friday.
+
+[75:27] **qx()**: Yeah. Yeah, that's that tomorrow. Yeah tomorrow
+
+[75:29] **kushti**: Yeah, so Black Friday is everywhere here as well. But yeah, I mean, now it's going to be quite strange because it seems that the whole November is now going to be Black Friday because some sellers are starting sales.
+
+[75:49] **Dan Friedman**: This is something they do. This is something that you can get on black friday actually I was digging the reason why I got the blur background on here is because my sugar gliders, Went loose in my room and just like trashed it So but wait, how does a five ounce?
+
+[76:06] **qx()**: How does a five ounce animal trash your room dan?
+
+[76:10] **Dan Friedman**: indeed indeed i mean the thing is as big as a hamster four of them like and i came in here i'm like what the hell happened like what happened in here it looks like a freaking cheetah went loose in here it just it was crazy so i haven't had a chance to clean it up that's why but in the process for some reason i now remember that i have it i found this so this is the soviet medal of labor
+
+It was given to only the finest factory workers of the Soviet Union.
+
+[76:49] **qx()**: Wow. Where'd you get it from? Okay.
+
+[76:53] **Dan Friedman**: So I got it from Georgia, actually. I was thinking about it. It's randomly in a bag with a little booklet, with a little Soviet booklet. Yeah. Oh, wait. Yeah, there it is. Yeah. It says veteran of labor on it. And so this is from the 80s, actually. I bought it in Georgia, in Tbilisi, years ago.
+
+And so I found this. So if you work hard enough, maybe someday you'll have this. But for the time being, I am keeping this medal.
+
+[77:34] **qx()**: You should put it up on the, you should put it up on the MewFinance physical NFT site and sell it.
+
+[77:40] **Dan Friedman**: There we go.
+
+[77:41] **qx()**: You know what? Speaking of that, maybe, maybe if you guys are lucky and you check out MewFinance tomorrow, maybe you'll see some black Friday deals on a few token packs. Maybe if I remember from Sigmanauts, my own thing, I'll put some up there. Let me, let me shake my loose wallets and we'll see what's in there. Maybe I can sell some discounted project tokens.
+
+[78:04] **Dan Friedman**: Right. All right. All right. Well, maybe I think maybe it's time to go. So I guess, yeah, same time, same place, same channel.
+
+[78:10] **qx()**: Don't forget the spaces tomorrow with House of Chimera. And we'll announce that on Twitter in a bit as soon as we see it. Yeah. Going to get details. Yeah. It will be announced once I've got them.
+
+[78:28] **Dan Friedman**: Great. All right. Happy Thanksgiving everybody. This is Dan from Japan signing off.

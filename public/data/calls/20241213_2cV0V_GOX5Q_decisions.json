@@ -1,0 +1,125 @@
+{
+  "call_date": "2024-12-13",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - December 12th 2024",
+  "decisions": [],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "01:28",
+      "commitment": "Publish reworked EAP proposal based on forum text this month",
+      "owner": "kushti",
+      "timeline": "this month if no surprises",
+      "topic": "technical",
+      "quote": "hopefully this month if no surprises, but they always happen. So yeah, hope to publish EAP reworked EAP proposal based on the forum text"
+    },
+    {
+      "id": 2,
+      "timestamp": "03:04",
+      "commitment": "Make issues with bounty for sub-blocks development",
+      "owner": "kushti",
+      "timeline": "today",
+      "topic": "technical",
+      "quote": "we'll check developers group today, so if there are guys willing to contribute, I will make issues with bounty and so on"
+    },
+    {
+      "id": 3,
+      "timestamp": "05:49",
+      "commitment": "Give a talk at local developer event",
+      "owner": "kushti",
+      "timeline": "Saturday",
+      "topic": "community",
+      "quote": "on Saturday I'm giving a talk at some local events"
+    },
+    {
+      "id": 4,
+      "timestamp": "07:37",
+      "commitment": "Record video talk about property rights in programmable money for Italy event",
+      "owner": "kushti",
+      "timeline": "December 21st",
+      "topic": "community",
+      "quote": "it will take place in Italy on December 21st and I'm recording video"
+    },
+    {
+      "id": 5,
+      "timestamp": "69:26",
+      "commitment": "Take rest for half a day on January 7th",
+      "owner": "kushti",
+      "timeline": "January 7th",
+      "topic": "personal",
+      "quote": "taking rest for half a day on 7th"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "02:21",
+      "question": "Need for more developers, particularly UI maintainer for Dexy",
+      "context": "Spectrum DEX pull request merged but need UI maintenance",
+      "topic": "dexy",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "24:34",
+      "question": "When to make spaces and zoom calls",
+      "context": "Need to decide scheduling",
+      "topic": "governance",
+      "raised_by": "kushti"
+    }
+  ],
+  "reversals_or_updates": [
+    {
+      "id": 1,
+      "timestamp": "04:22",
+      "previous": "Peer was expected to be approved by Ledger for integration",
+      "update": "Peer wasn't approved by Ledger despite being former Kudelsky security employee",
+      "reason": "Ledger team didn't get Kudelsky quality from former employees",
+      "speaker": "kushti",
+      "topic": "ledger-integration"
+    }
+  ],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "00:49",
+      "fact": "Still finalizing version 6.0 with some issues discovered that need fixing",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 2,
+      "timestamp": "03:21",
+      "fact": "Sigma Rust now supports deterministic signatures needed for Keystone integration",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 3,
+      "timestamp": "05:22",
+      "fact": "Kudelsky did audits for Sigmanauts in 2019 for inbuilt wallets, cryptography, and proof of work aspects",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 4,
+      "timestamp": "44:16",
+      "fact": "Hackathon results: Satergo came first place, Bruno got second, The Shark and Sigmanauts came third",
+      "speaker": "Armeanio",
+      "topic": "hackathon"
+    },
+    {
+      "id": 5,
+      "timestamp": "17:01",
+      "fact": "Sigmanauts mining pool hitting big boxes in terms of storage rent from four years in the past",
+      "speaker": "Armeanio",
+      "topic": "mining"
+    },
+    {
+      "id": 6,
+      "timestamp": "19:24",
+      "fact": "PGR submitted pull request for silver Oracle",
+      "speaker": "Armeanio",
+      "topic": "dexy"
+    }
+  ]
+}

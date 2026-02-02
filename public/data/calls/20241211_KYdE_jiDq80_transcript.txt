@@ -1,0 +1,83 @@
+[00:11] **Bruno**: Everyone, my name is Bruno and I'm going to present Beene, a proof of funding platform.
+
+[00:17] **Bruno**: The goal of this platform is very simple. It's to enable projects that want to raise funds to do so and to allow contributors who are providing funds to those projects to be rewarded with tokens.
+
+[00:33] **Bruno**: These tokens, we call them contribution accounting tokens or proof of funding tokens.
+
+[00:41] **Bruno**: So what are the rules of this protocol of this platform?
+
+[00:48] **Bruno**: So it works like this. Project owners deploy a funds vault with the following parameters: The funding token that should be provided as funds into the project. A minimum amount of funding tokens that need to be raised for the fundraising to be considered successful and for the project to start.
+
+[01:10] **Bruno**: A deadline, the proof of funding token that will be used to reward the contributors, and the rate of proof of funding tokens that will be given to the contributors per funding token provided.
+
+[01:27] **Bruno**: So after this funding vault is deployed, project owners may add or remove proof of funding tokens from the vault at any time.
+
+[01:39] **Bruno**: For as long as there are proof of funding tokens available in the contract, contributors can provide any amount of funding tokens to the contract and they immediately receive a proportional amount of proof of funding tokens to account for their contribution and serve as proof of funding.
+
+[02:01] **Bruno**: At any time after the minimum amount has been reached, project owners may withdraw any amount of funding tokens from the vault.
+
+[02:11] **Bruno**: And at any time after the deadline, if the minimum amount has not been reached, contributors may return any amount of proof of funding tokens to the vault and withdraw the corresponding amount of funding tokens that they had provided to the vault before.
+
+[02:31] **Bruno**: These rules can also be displayed in this more graphical form.
+
+[02:37] **Bruno**: So in this chart, we have the time in the horizontal axis and the amount raised in the vertical axis. And as you can see, at any time, if you have raised more than a minimum amount, those are the actions that project owners may perform and that contributors may perform.
+
+[03:01] **Bruno**: And if the amount raised has not reached the minimum and the time has passed beyond the deadline, then contributors may give back their proof of funding tokens and withdraw the funding tokens that they had provided.
+
+[03:25] **Bruno**: Okay, so let's have a look at some examples.
+
+[03:29] **Bruno**: So this is an actual example that we had and that we used Ergo Raffle for this. But with Ergo Raffle, then we had to manually distribute the proof of funding tokens, the contribution accounting tokens afterwards. And with this platform that we have built, this distribution will be done automatically.
+
+[03:50] **Bruno**: So this Stable Order needed 5000 ERG to develop an SDK for Gluon Gold. And with this funding platform, a vault with 5000 Gluon is created with a rate of one Gluon per ERG and a deadline in two weeks. And yeah, 5000 Gluon are added to the vault.
+
+[04:19] **Bruno**: Then let's suppose that after 1.5 weeks, the goal of raising 5,000 ERG is achieved. The contributors will have received their Gluon as soon as they have contributed and this Stable Order will be able to withdraw 5,000 ERG immediately after the goal has been achieved.
+
+[04:41] **Bruno**: Here's another example. Let's suppose that a group of Ergo community members wishes to produce from five to 20 articles about Ergo at a cost of 100 ERG per article. They create a new token, let's say EAT, Ergo Articles Token, and they create a vault with 2000 of those tokens and a rate of one EAT per ERG.
+
+[05:09] **Bruno**: The minimum amount is set to 500 ERG and the deadline is set to two weeks from now.
+
+[05:18] **Bruno**: So then let's suppose that after one week the minimum goal of raising 500 ERG is achieved. So at that point the group can already withdraw the 500 ERG and start producing the minimum number of articles, like five articles.
+
+[05:34] **Bruno**: Then as time passes and the community sees that the group is delivering the articles, more contributors may provide more ERG and be rewarded with the remaining EAT that are there in the vault, up to 2000 EAT.
+
+[05:55] **Bruno**: Now, if this initiative happens to be working really well, the group may decide to increase the number of EAT in the contract to 10,000 and to allow the community to continue contributing to the production of up to 100 articles in total now.
+
+[06:15] **Bruno**: Now let's have a look at another example.
+
+[06:17] **Bruno**: So let's suppose that the dev team promises to use the latest technologies to do something extremely amazing and they're asking for five million ERG with a deadline in two weeks and those who contribute will be rewarded with a proof of funding token that is now called Super Duper Blockchain Tokens at a very preferential rate.
+
+[06:42] **Bruno**: So it's a very great bargain and nobody should miss out.
+
+[06:48] **Bruno**: And let's suppose that after one week, things are looking really good, right? And the team manages to raise 3 million ERG. But then their too good to be true promises get exposed as just a huge soup of buzzwords and the community stops funding.
+
+[07:08] **Bruno**: So after the deadline, those who had been lured into providing funding for this scam can safely give back their SDBT to get their ERG back.
+
+[07:23] **Bruno**: So, with these very simple set of rules, we can cover a wide variety of use cases, such as, for example, donations. These proof of funding tokens, they can serve as proof of donation tokens, right? Something that doesn't have like a monetary value, but they are still valuable as a proof that you have made something good, right? That you have donated to a certain cause, to a certain project.
+
+[07:56] **Bruno**: They can also be used for crowdfunding. So in this case, the contribution accounting tokens or the proof of funding tokens could later be exchanged for goods produced by the crowdfunded project.
+
+[08:14] **Bruno**: This platform can even be used for traditional startup funding, you know, traditional sale of tokens for a fixed price. It could be used, for example, for sales of event tickets, where the tokens represent tickets to an event with a minimum and a maximum capacity.
+
+[08:41] **Bruno**: And the original use case that made us develop this platform is this use case of benefactions that we have in Stable Order. This idea that we are working together and contributing to our projects and these contributions may be both in the form of labor and capital and both of these types of contributions are treated equally and they both receive tokens to account for their contributions.
+
+[09:12] **Bruno**: So yeah, I hope you enjoyed the platform and I hope everyone will have lots of success raising funds for interesting projects. And yeah, thank you. Please get in touch and contribute to our projects.
+
+[09:31] **Bruno**: These are our social media links. Follow us, join us in our channels. Yeah, thank you.
+
+[09:46] **Jossemii**: Hey, it's Jossemii. I'm going to show a demo of the Beene Foundation platform.
+
+[09:52] **Jossemii**: So this is the available projects list. All of these projects can be funded by any user. Contributions page is the project where the user has contributed, my projects is a list with all the projects that the user owns and there is a formulary to submit a new project.
+
+[10:36] **Jossemii**: So the idea is to select a token, but actually for the demo we are going to mint a new token. So, for example, set the token amount to 1,000, 1 ERG per token, this will be max 10 ERG token and a minimum of 1 ERG token and let's say 9 days until the user funding deadline.
+
+[11:30] **Jossemii**: You might, for example, add this project link. So this is the content of the project. And this is a description, description, description.
+
+[11:50] **Jossemii**: So this will execute a transaction and we'll mint these tokens so then we can see the transaction was submitted and we need to wait but now I'm going to contribute to another project so for example to this project.
+
+[12:19] **Jossemii**: In the detail page we can see all the info of the project how much time left - the time left is in block number of blocks but it's translated to time - and this is a progress bar of the current amount of tokens, the maximum amount of tokens and the minimum amount of tokens to make the refund if it's not reached.
+
+[13:04] **Jossemii**: So let's contribute. Well currently I'm the owner with this wallet so this is another page with the other browser with other wallet and if I - yes, I only see the user actions.
+
+[13:35] **Jossemii**: So I can contribute. I can't refund because the deadline is not reached yet. So I will contribute with one token, for example. Eight tokens was sold for now. So I will submit it. That's the transaction ID.
+
+[14:09] **Jossemii**: And that's it. So, well, that's it. This is the demo.

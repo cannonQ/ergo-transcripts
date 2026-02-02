@@ -1,0 +1,168 @@
+{
+  "call_date": "2024-11-25",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "00:54",
+      "question": "What is ErgoHack 9 focused on and who should participate?",
+      "asker": "tim.erg",
+      "answer": "ErgoHack 9 focuses on enhancing user experience innovations in UI, UX and mining. Whether you are a UI/UX designer, front end developer, blockchain enthusiast or mining expert, this event offers the chance to collaborate, learn and create. This time there will be workshops on multiple days and Q&A sessions, which is new compared to previous hackathons.",
+      "responder": "Marc the Shark",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "ErgoHack",
+        "UI/UX",
+        "development",
+        "workshops"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "04:18",
+      "question": "What specific UI/UX improvements could Ergo dApps benefit from?",
+      "asker": "Marc the Shark",
+      "answer": "Clearer indication of liquidation risks, better information dashboards like Balancer on Ethereum where you could create multi-asset pools with custom proportions, filtering capabilities for loans in apps like SigmaFi, and bidirectional proposals (both loan requests and lend requests). The goal is having all the information needed to make decisions readily available in a polished dashboard.",
+      "responder": "tim.erg",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "DuckPools",
+        "SigmaFi",
+        "liquidation",
+        "dashboard",
+        "user experience"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "07:31",
+      "question": "What's the ideal user experience benchmark for blockchain applications?",
+      "asker": "tim.erg",
+      "answer": "We need to get to the point where people don't realize they're using the blockchain. Users should feel like they're just doing banking or using a business application they need, not feeling like a hacker. The interface should be trustworthy and reputable without excessive crypto theming.",
+      "responder": "tim.erg",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "user experience",
+        "mainstream adoption",
+        "interface design"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "09:47",
+      "question": "What is MewFinance and how does it work?",
+      "asker": "tim.erg",
+      "answer": "MewFinance is a new dApp that allows users to buy real-world items with crypto. It functions as a peer-to-peer marketplace where you can purchase items like honey or cyberverse emotes. The interface is user-friendly and doesn't feel janky, representing a step toward real-world asset ecosystems on-chain.",
+      "responder": "Marc the Shark and tim.erg",
+      "category": "defi",
+      "difficulty": "beginner",
+      "related_terms": [
+        "MewFinance",
+        "real-world assets",
+        "peer-to-peer",
+        "marketplace"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "14:25",
+      "question": "What's the current status of Rosen Bridge to Ethereum?",
+      "asker": "tim.erg",
+      "answer": "Rosen Bridge has successfully crossed to Ethereum and is operational. There's been trading activity with ERG being picked up on the Ethereum side, though liquidity pools are still building up. The bridge enables users to move assets between Ergo and Ethereum networks.",
+      "responder": "Marc the Shark",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Rosen Bridge",
+        "Ethereum",
+        "cross-chain",
+        "liquidity"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "15:54",
+      "question": "What advantages might Ergo offer to Ethereum users through Rosen Bridge?",
+      "asker": "Marc the Shark",
+      "answer": "Users interacting with both chains will realize it costs about 1% on Ergo compared to Ethereum fees. On Ethereum, you have to be very sure of your actions because it costs $17 per transaction, making it only worthwhile for large positions. On Ergo, you can easily adjust positions, try different strategies, and experiment due to much lower transaction costs.",
+      "responder": "tim.erg",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "transaction fees",
+        "Ethereum",
+        "cost efficiency",
+        "DeFi"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "19:57",
+      "question": "How does Ergo's privacy approach differ from Monero's?",
+      "asker": "Marc the Shark",
+      "answer": "Privacy is optional on Ergo, which is probably the most widely usable approach for building something for everyone. Monero is private by design in the core protocol, which is simpler for users but mandatory. On Ergo, you have to download a mixer frontend and follow specific steps, creating a barrier. Both approaches serve different needs - optional privacy for general use, mandatory privacy for those who specifically need it.",
+      "responder": "tim.erg",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "privacy",
+        "Monero",
+        "mixer",
+        "optional privacy",
+        "mandatory privacy"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "21:30",
+      "question": "How could Monero users benefit from Ergo's DeFi ecosystem?",
+      "asker": "tim.erg",
+      "answer": "Monero holders could bridge their Monero to Ergo to access proper DeFi services like borrowing against their Monero holdings. This capability isn't quite possible on Monero itself, so Ergo could serve as a DeFi hub for privacy-focused assets through cross-chain bridges.",
+      "responder": "tim.erg",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Monero",
+        "DeFi",
+        "borrowing",
+        "collateral",
+        "cross-chain"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "31:08",
+      "question": "How is Ergo being used for financial inclusion in developing regions?",
+      "asker": "tim.erg",
+      "answer": "Through apps like Ergo Lend (EXLE), people in Kenya regularly take out 0% loans, pay them back, and take new ones, creating a cycle of financial access. This demonstrates the power of blockchain to provide financial services to underserved populations. There are also users like Riro in Mumbai who represent the human side of this global financial inclusion.",
+      "responder": "tim.erg",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "EXLE",
+        "financial inclusion",
+        "Kenya",
+        "zero interest loans"
+      ]
+    },
+    {
+      "qa_id": 10,
+      "timestamp": "31:54",
+      "question": "What is the Local Exchange Trading System (LETS) concept for Ergo?",
+      "asker": "tim.erg",
+      "answer": "LETS is like a circular economy dApp for small communities, similar to ChainCash but more localized. It could serve a village or small group that needs an accounting system, where tokens could be backed by something and used for local transactions. It's an old concept but now implementable with blockchain technology, requiring just minimal internet access.",
+      "responder": "tim.erg",
+      "category": "defi",
+      "difficulty": "advanced",
+      "related_terms": [
+        "LETS",
+        "ChainCash",
+        "local economy",
+        "circular economy",
+        "collateral"
+      ]
+    }
+  ]
+}

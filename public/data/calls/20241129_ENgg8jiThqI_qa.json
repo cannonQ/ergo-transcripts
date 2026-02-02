@@ -1,0 +1,153 @@
+{
+  "call_date": "2024-11-29",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "05:00",
+      "question": "How does the mining voting process work for Ergo protocol changes?",
+      "asker": "qx()",
+      "answer": "Miners need to install the latest version of the node that supports the new protocol version, then explicitly vote by putting a concrete value in the config file's voting section. There is no implicit voting - miners must find the voting section and put certain values there. Every change requires 90+ percent of hash rate voting for approval, making Ergo a decentralized cryptocurrency where protocol changes must be voted on by miners rather than controlled by the dev team.",
+      "responder": "kushti",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "mining",
+        "voting",
+        "soft fork",
+        "decentralization"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "07:13",
+      "question": "What happens to miners who don't update their nodes when a soft fork activates?",
+      "asker": "qx()",
+      "answer": "Since it's a soft fork, non-updated miners will continue to recognize blocks and can even mine blocks. However, they risk including invalid transactions because 5.0 nodes will skip validations of transactions with new 6.0 features. If a non-updated miner mines an invalid 6.0 transaction, their block gets rejected by the 90% of hash rate that has updated, which is why such high voting thresholds are needed.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "soft fork",
+        "mining",
+        "protocol upgrade",
+        "validation"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "08:56",
+      "question": "What new capabilities will Ergo 6.0 enable?",
+      "asker": "implicit",
+      "answer": "EIP-50 for the 6.0 soft fork opens possibilities for many applications including trustless Bitcoin bridge, Lithos, certain roll-up constructions, and hash rate derivatives. It also enables cryptographic applications with new unsigned big integer type and modular arithmetic operations. The update includes the ability to vote for new parameters without breaking previous node versions and introduces a parameter for number of sub-blocks per block.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "EIP-50",
+        "soft fork",
+        "bridges",
+        "rollups",
+        "cryptography"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "14:19",
+      "question": "How long does the Ergo soft fork activation process take?",
+      "asker": "implicit",
+      "answer": "After voting begins, at least three months are needed for activation. First there are 32 epochs of 1024 blocks each for voting, and if 90+ percent supermajority is achieved, there's another 32 epochs delay for activation to give everyone time to update. In total it's 64 epochs of 1024 blocks each, which is about 3 months.",
+      "responder": "kushti",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "soft fork",
+        "activation",
+        "voting",
+        "epochs"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "26:18",
+      "question": "What's the difference between Rosen Bridge and BitcoinOS?",
+      "asker": "Dan Friedman",
+      "answer": "Rosen Bridge is a working bridge that uses a two-layer approach with watchers and guards - watchers see transactions and report them, guards verify and reach consensus to release tokens on the other side. It uses multisig on Bitcoin side with additional protection layers on Ergo. BitcoinOS uses ZK-SNARKs for verification but is more complicated, unaudited, not well tested, and the white paper lacks detail. You can use trustless relay to bring Bitcoin to Ergo, but the reverse doesn't work because Bitcoin is too limited to build Ergo relays.",
+      "responder": "kushti and qx()",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Rosen Bridge",
+        "BitcoinOS",
+        "ZK-SNARKs",
+        "multisig",
+        "trustless relay"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "38:30",
+      "question": "What is demurrage/storage rent in Ergo and why does it exist?",
+      "asker": "Dan Friedman",
+      "answer": "Storage rent prevents blockchain bloat by charging a small fee on UTXOs that sit unused for 4 years. If a box has enough ERG to cover the rent, it's recreated with rent deducted. If not, the whole box is destroyed, cleaning up dust. This goes to miners and helps maintain decentralization by keeping the blockchain small so anyone can run a node. It's been in Ergo since day one and prevents the unfair economics where you pay once but occupy storage on thousands of computers forever.",
+      "responder": "qx() and kushti",
+      "category": "tokenomics",
+      "difficulty": "beginner",
+      "related_terms": [
+        "storage rent",
+        "demurrage",
+        "UTXO",
+        "decentralization",
+        "blockchain bloat"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "45:38",
+      "question": "Have other blockchains considered implementing storage rent?",
+      "asker": "implicit",
+      "answer": "Yes, the Ethereum community has been discussing storage rent since 2015 because it's unfair that you can pay once to create an object on the blockchain and it lives forever on thousands of computers. The term 'storage rent' actually came from the Ethereum community. In the real world, you always pay for storage - whether it's gold in a vault or commodities in a warehouse - so digital storage should work the same way.",
+      "responder": "kushti",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "storage rent",
+        "Ethereum",
+        "economics",
+        "blockchain storage"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "54:10",
+      "question": "Can Ergo's maximum supply be changed through voting?",
+      "asker": "Dan Friedman",
+      "answer": "It would be much harder to change than in other cryptocurrencies because Ergo emission is set in the form of contracts, not just a constant in code like Bitcoin or Ethereum. You'd need to change how contracts are executed in a very deep way. However, storage rent provides an alternative solution - there are proposals to put storage rent into a pool and pay fixed amounts per block, or have automatic auctions for collected tokens, which could provide smooth miner rewards without changing emission.",
+      "responder": "kushti",
+      "category": "tokenomics",
+      "difficulty": "advanced",
+      "related_terms": [
+        "maximum supply",
+        "emission",
+        "smart contracts",
+        "storage rent",
+        "mining rewards"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "59:42",
+      "question": "Why is changing a blockchain's total supply problematic?",
+      "asker": "implicit",
+      "answer": "When you change fundamental parameters like total supply, you break markets that are already operating on well-known public information about emission. It makes cryptocurrency less beautiful because you lose the perfectly known public information about total emission and emission schedule. Some communities like Monero and Ethereum have changed emission, but it's better to avoid such changes at all costs as they break the foundational assumptions of the system.",
+      "responder": "kushti",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "total supply",
+        "emission",
+        "market economics",
+        "cryptocurrency fundamentals"
+      ]
+    }
+  ]
+}

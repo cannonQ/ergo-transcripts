@@ -1,0 +1,201 @@
+{
+  "call_date": "2024-11-29",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - November 28th 2024",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Community Call Formats and Upcoming Events",
+      "category": "community",
+      "start_time": "00:11",
+      "end_time": "03:25",
+      "primary_speaker": "kushti",
+      "summary": "Discussion about experimenting with different community call formats including Zoom calls and upcoming Twitter spaces. House of Chimera Twitter space scheduled for tomorrow with kushti, qx(), and Joe participating.",
+      "key_terms": [
+        "community calls",
+        "Twitter spaces",
+        "House of Chimera",
+        "formats"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "EIP-50 6.0 Soft Fork Proposal Status",
+      "category": "technical",
+      "start_time": "03:25",
+      "end_time": "09:23",
+      "primary_speaker": "kushti",
+      "summary": "EIP-50 for 6.0 soft fork proposal has been published with one pull request remaining. Requires 90%+ miner voting for approval, with explicit voting needed in config files rather than implicit voting.",
+      "key_terms": [
+        "EIP-50",
+        "soft fork",
+        "miner voting",
+        "90 percent consensus",
+        "config file"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "6.0 New Features and Applications Overview",
+      "category": "technical",
+      "start_time": "08:56",
+      "end_time": "15:23",
+      "primary_speaker": "kushti",
+      "summary": "6.0 enables new applications including trustless Bitcoin bridge, Lithos, roll-up constructions, hash rate derivatives, and cryptographic applications. Introduces new unsigned big integer type and modular arithmetic for cryptographic use cases.",
+      "key_terms": [
+        "trustless Bitcoin bridge",
+        "Lithos",
+        "roll-ups",
+        "hash rate derivatives",
+        "unsigned big integer",
+        "modular arithmetic"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "6.0 Activation Timeline and Sub-blocks Protocol",
+      "category": "governance",
+      "start_time": "11:34",
+      "end_time": "16:20",
+      "primary_speaker": "kushti",
+      "summary": "6.0 testnet activation expected in two weeks, mainnet requires 3 months minimum (64 epochs total). Sub-blocks protocol development can proceed during the activation period with velvet fork deployment approach.",
+      "key_terms": [
+        "testnet activation",
+        "64 epochs",
+        "3 months",
+        "sub-blocks",
+        "velvet fork"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Ergo Book Project and Development Decentralization",
+      "category": "community",
+      "start_time": "16:20",
+      "end_time": "18:18",
+      "primary_speaker": "kushti",
+      "summary": "Started Ergo book project with Joe contributing, planning article-by-article forum publication. Focus on conceptualizing cryptocurrency concepts and how they're realized in Ergo, moving toward more decentralized development.",
+      "key_terms": [
+        "Ergo book",
+        "decentralized development",
+        "forum publication",
+        "cryptocurrency concepts"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "BitcoinOS vs Rosen Bridge Comparison",
+      "category": "bridges",
+      "start_time": "18:18",
+      "end_time": "33:14",
+      "primary_speaker": "kushti",
+      "summary": "Discussion comparing BitcoinOS approach using ZK-SNARKs verification with Rosen Bridge's multi-sig approach. BitcoinOS is complex, unaudited, and based on contingent payments concepts from 2015, while Rosen uses simpler, proven multisig with watchers and guards.",
+      "key_terms": [
+        "BitcoinOS",
+        "Rosen Bridge",
+        "ZK-SNARKs",
+        "multisig",
+        "watchers",
+        "guards",
+        "contingent payments"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Rosen Bridge HummingBot Integration for Liquidity",
+      "category": "defi",
+      "start_time": "33:14",
+      "end_time": "36:56",
+      "primary_speaker": "qx()",
+      "summary": "Rosen team implementing HummingBot for automated market making and arbitrage. Educational Telegram channel planned to help community members run their own bots and provide liquidity across exchanges and DEXs.",
+      "key_terms": [
+        "HummingBot",
+        "automated market making",
+        "arbitrage",
+        "liquidity provision",
+        "Telegram channel"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "SigmaUSD-Dexy Gold Liquidity Opportunities",
+      "category": "defi",
+      "start_time": "36:19",
+      "end_time": "38:30",
+      "primary_speaker": "kushti",
+      "summary": "Discussion about untapped arbitrage opportunities between SigmaUSD and Dexy Gold, offering crypto-independent profit potential due to independent gold price movements against USD.",
+      "key_terms": [
+        "SigmaUSD",
+        "Dexy Gold",
+        "arbitrage",
+        "liquidity pool",
+        "Spectrum DEX"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Demurrage Storage Rent Explanation",
+      "category": "technical",
+      "start_time": "38:30",
+      "end_time": "53:38",
+      "primary_speaker": "qx()",
+      "summary": "Detailed explanation of Ergo's storage rent mechanism for preventing blockchain bloat and maintaining decentralization. After 4 years, unused UTXOs pay small rent to miners or get destroyed if too small, compared to Ethereum's permanent storage model.",
+      "key_terms": [
+        "demurrage",
+        "storage rent",
+        "blockchain bloat",
+        "UTXO",
+        "4 years",
+        "decentralization"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Max Supply Change Feasibility Discussion",
+      "category": "governance",
+      "start_time": "53:41",
+      "end_time": "64:01",
+      "primary_speaker": "kushti",
+      "summary": "Ergo's emission is contract-based making max supply changes harder than other blockchains. Storage rent and various DeFi tools could provide miner rewards after emission ends, avoiding need for supply changes while maintaining known emission schedule.",
+      "key_terms": [
+        "max supply",
+        "emission contract",
+        "storage rent",
+        "miner rewards",
+        "tail emission"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Argentina Lithium Facility RWA Implementation",
+      "category": "ecosystem",
+      "start_time": "64:17",
+      "end_time": "67:44",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Dan's experience at Catamarca Lithium Facility in Argentina revealed significant inefficiencies that blockchain can address. Winter Protocol built on Ergo can provide traceability and transparency for real-world assets, with major unveiling planned next week.",
+      "key_terms": [
+        "Argentina",
+        "lithium facility",
+        "Winter Protocol",
+        "RWA",
+        "real-world assets",
+        "traceability"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Community Response to $50 ERG Price Scenario",
+      "category": "community",
+      "start_time": "67:53",
+      "end_time": "73:14",
+      "primary_speaker": "qx()",
+      "summary": "Discussion about personal and ecosystem responses to potential $50 ERG price. Focus on increased Sigmanauts Treasury capabilities for hiring and promotions, while core contributors would continue normal operations despite increased communication demands.",
+      "key_terms": [
+        "$50 ERG",
+        "Sigmanauts Treasury",
+        "price appreciation",
+        "DMs",
+        "exchange listings"
+      ]
+    }
+  ]
+}

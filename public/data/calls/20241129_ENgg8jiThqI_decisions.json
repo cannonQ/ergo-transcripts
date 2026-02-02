@@ -1,0 +1,133 @@
+{
+  "call_date": "2024-11-29",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - November 28th 2024",
+  "decisions": [],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "01:20",
+      "commitment": "Twitter spaces with House of Chimera tomorrow with kushti, qx(), and Joe representing Ergo",
+      "owner": "kushti, qx(), Joe",
+      "timeline": "tomorrow (November 30th)",
+      "topic": "community-outreach",
+      "quote": "One with House of Chimera, so it will be announced later today... Yeah, so you will be there, supposedly... Yeah, and Joe also will be there."
+    },
+    {
+      "id": 2,
+      "timestamp": "11:42",
+      "commitment": "Public testnet activation in two weeks for EIP-50",
+      "owner": "kushti",
+      "timeline": "two weeks",
+      "topic": "technical",
+      "quote": "So for public testnet, I think we can do activation like two weeks, literally two weeks."
+    },
+    {
+      "id": 3,
+      "timestamp": "13:16",
+      "commitment": "Will propose public testnet activation and talk with miners about mainnet activation details",
+      "owner": "kushti",
+      "timeline": "after DevNet tests complete",
+      "topic": "governance",
+      "quote": "Then we'll propose public testnet activation and then at the same time we can talk with miners about mainnet activation details."
+    },
+    {
+      "id": 4,
+      "timestamp": "16:50",
+      "commitment": "First piece of Ergo book likely to be published this week",
+      "owner": "kushti",
+      "timeline": "this week",
+      "topic": "documentation",
+      "quote": "the first piece likely will be published this week so just a few days after 6.0 proposal"
+    },
+    {
+      "id": 5,
+      "timestamp": "36:56",
+      "commitment": "Will create SigmaUSD to Dexy Gold liquidity pool",
+      "owner": "kushti",
+      "timeline": "unspecified",
+      "topic": "defi",
+      "quote": "So yeah, well, I will do that. So I even tried, but got some errors before because of something with Spectrum DEX chainbots... So yeah, need to try again."
+    },
+    {
+      "id": 6,
+      "timestamp": "64:17",
+      "commitment": "Going to Argentina on Sunday for two weeks continuation of work",
+      "owner": "Dan Friedman",
+      "timeline": "Sunday for two weeks",
+      "topic": "rwa",
+      "quote": "I'm actually going to Argentina on Sunday again for two weeks this time."
+    },
+    {
+      "id": 7,
+      "timestamp": "67:26",
+      "commitment": "Big unveiling happening next week",
+      "owner": "Dan Friedman",
+      "timeline": "next week",
+      "topic": "rwa",
+      "quote": "You'll see we got a big unveiling happening next week."
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "12:31",
+      "question": "Need to check with Explorer team about testnet explorer status",
+      "context": "Testnet explorer needs to point to new testnet for EIP-50 testing",
+      "topic": "technical",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "15:23",
+      "question": "Need to consider what to do after 6.0 from mid 2025 onwards",
+      "context": "Planning development roadmap beyond current soft fork",
+      "topic": "roadmap",
+      "raised_by": "kushti"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "03:30",
+      "fact": "EIP-50 for 6.0 soft fork proposal published with one pull request left and first round of reviewing done",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 2,
+      "timestamp": "04:21",
+      "fact": "90 plus percent of hash rate voting needed for approval in Ergo",
+      "speaker": "kushti",
+      "topic": "governance"
+    },
+    {
+      "id": 3,
+      "timestamp": "14:19",
+      "fact": "After voting begins, at least three months needed for activation: 32 epochs for voting plus 32 epochs delay, totaling 64 epochs of 1024 blocks each",
+      "speaker": "kushti",
+      "topic": "governance"
+    },
+    {
+      "id": 4,
+      "timestamp": "09:23",
+      "fact": "Bounty assigned for range proof validation example completion",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 5,
+      "timestamp": "57:44",
+      "fact": "Storage rent maximum rate is 2x of default current value that miners can set",
+      "speaker": "kushti",
+      "topic": "tokenomics"
+    },
+    {
+      "id": 6,
+      "timestamp": "42:15",
+      "fact": "Storage rent activates after four years in block time for unused UTXOs",
+      "speaker": "qx()",
+      "topic": "tokenomics"
+    }
+  ]
+}

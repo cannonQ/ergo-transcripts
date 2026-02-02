@@ -1,0 +1,133 @@
+{
+  "call_date": "2024-12-13",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:00",
+      "question": "What are the current development priorities for Ergo 6.0 and sub-blocks?",
+      "asker": "Armeanio",
+      "answer": "Finalizing 6.0 with some versioned issues being fixed. Working on sub-blocks implementation with local code that generates blocks and processes them, filling in real logic of prototype quality. Planning to publish a reworked EAP proposal based on forum text along with code, hopefully this month if no surprises occur.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "6.0",
+        "sub-blocks",
+        "EAP",
+        "protocol"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "02:21",
+      "question": "What is blocking Dexy development and what contributions are needed?",
+      "asker": "Armeanio",
+      "answer": "Spectrum DEX pull request has been merged. The main limiting factor is need for more developers, particularly a UI maintainer. Considering introducing UI fees like done in SigmaUSD interface. Looking for developers willing to contribute, with plans to create issues with bounties.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Dexy",
+        "Spectrum",
+        "UI",
+        "developers"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "03:21",
+      "question": "What is the status of hardware wallet integrations like Keystone and Ledger?",
+      "asker": "Armeanio",
+      "answer": "Sigma Rust now supports deterministic signatures needed for Keystone integration, unblocking development since hardware doesn't provide random generation API. For Ledger, the initial security review partner wasn't approved, so now talking with other approved entities including Kudelsky (who did Ergo audits in 2019) and another company.",
+      "responder": "kushti",
+      "category": "wallet",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Keystone",
+        "Ledger",
+        "Sigma Rust",
+        "deterministic signatures"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "25:43",
+      "question": "What are the standards for controlling physical assets in tokenization, and what are the fraud risks?",
+      "asker": "FC",
+      "answer": "Tokenization faces complex regulatory layers and physical reality constraints. Issues include determining actual ownership rights when assets are fractionalized, achieving consensus for major decisions like selling, and dealing with jurisdictional requirements. Works better for bearer assets like gold versus location-specific assets like houses or cars that require regulatory compliance in specific jurisdictions.",
+      "responder": "Armeanio",
+      "category": "tokenomics",
+      "difficulty": "advanced",
+      "related_terms": [
+        "tokenization",
+        "RWA",
+        "regulatory",
+        "fractionalization"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "34:04",
+      "question": "How can algorithmic stablecoins work with physical commodity tokenization?",
+      "asker": "Armeanio",
+      "answer": "Algorithmic stablecoins can serve as buffers for physical assets, providing insurance against delivery risks. For example, combining physical lithium tokens with algorithmic lithium stablecoins - you can get the stablecoin immediately when buying lithium, but exchange it for physical lithium tokens when actually produced. This addresses over-collateralization issues in current stablecoins while securing against production or delivery failures.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "advanced",
+      "related_terms": [
+        "stablecoins",
+        "algorithmic",
+        "commodities",
+        "Lithos"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "39:46",
+      "question": "What was your experience with the Cardano Catalyst governance drama this week?",
+      "asker": "Wombo",
+      "answer": "It's not drama, it's how the system is designed. Catalyst has always had an open attack vector for whales - any large ADA holder can influence outcomes. The Cardano Foundation used their voting power within the protocol parameters, which is fair game. Rather than complaining about philosophical issues, you need to understand the system parameters and navigate accordingly, forming partnerships with entities that have large voting power.",
+      "responder": "Armeanio",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Catalyst",
+        "governance",
+        "whales",
+        "voting"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "47:48",
+      "question": "Can government be separated from money, and can money be separated from government?",
+      "asker": "Luke Graysmith",
+      "answer": "Historically, private money existed alongside or instead of government money through 'free banking' systems (like US 1830s-1864). Government-issued money is relatively new. With blockchain transparency, free banking could return since the main historical issues were fractional reserves and improper reporting - problems governments used to justify taking control but then repeated themselves.",
+      "responder": "kushti",
+      "category": "tokenomics",
+      "difficulty": "advanced",
+      "related_terms": [
+        "free banking",
+        "private money",
+        "government",
+        "transparency"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "61:28",
+      "question": "How can Ergo network interact with other blockchain networks that use different consensus algorithms?",
+      "asker": "Community",
+      "answer": "For simple proof-of-work blockchains like Bitcoin, you can build trustless relays from Bitcoin to Ergo using techniques like proof-of-burn. However, the reverse direction doesn't work due to Bitcoin limitations. For other consensus mechanisms, you need multi-signature based solutions like Rosen Bridge, which creates an intermediary layer with scanners reading and posting data between networks.",
+      "responder": "kushti & Armeanio",
+      "category": "bridges",
+      "difficulty": "advanced",
+      "related_terms": [
+        "consensus",
+        "trustless relay",
+        "proof-of-burn",
+        "Rosen Bridge"
+      ]
+    }
+  ]
+}

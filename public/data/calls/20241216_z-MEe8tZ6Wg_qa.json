@@ -1,0 +1,134 @@
+{
+  "call_date": "2024-12-16",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "10:48",
+      "question": "Why does Ergo's price look worse than its market cap performance compared to all-time highs?",
+      "asker": "tmr.erg",
+      "answer": "If you look at the price per coin, it looks bad - we're at $1 now versus $19 all-time high. But if you look at market cap, we're only one-eighth of the way down - currently at $100 million versus $800 million all-time high. This is because of the heavy emission that occurred in 2021-2022, but now emissions are pretty low. Per market cap, we're positioned okay to participate in the bull market.",
+      "responder": "tmr.erg",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "emission",
+        "market_cap",
+        "tokenomics",
+        "supply"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "13:26",
+      "question": "What happens to code and contracts when Ergo projects shut down?",
+      "asker": "implicit",
+      "answer": "Even if a project doesn't work out or dies, all that stuff is still there to get reused since it's open source. For example, when ErgoPad shut down, all the vesting contracts are still available and super useful - somebody will take that and use it. Same applies to all ErgoHack projects, even if they don't succeed individually.",
+      "responder": "tmr.erg",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "open_source",
+        "contracts",
+        "ergopad",
+        "ergohack"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "14:44",
+      "question": "How does the Minotaur multi-sig wallet work?",
+      "asker": "Marc the Shark",
+      "answer": "The video showed several wallets being open at the same time. When one wallet submitted a transaction, it appeared on all the wallets showing 'you need to sign this transaction.' Then all the required people would be able to fulfill that obligation and the transaction would go through. This takes all the work and sketchiness out of manual multi-sig setups.",
+      "responder": "tmr.erg",
+      "category": "wallet",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "multi-sig",
+        "minotaur",
+        "security",
+        "wallet"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "22:11",
+      "question": "What is the Miner Rights Protocol (MRP) and how does it work?",
+      "asker": "tmr.erg",
+      "answer": "It's similar to mining rights for land - miners buy rights tokens to be eligible for token emissions. The protocol owner sets emission mechanisms tied to Ergo blocks. When a miner with rights tokens finds an Ergo block, they can earn the protocol's tokens. This bootstraps token distribution through mining instead of ICOs, and helps prevent rug pulls since it only works if miners actually run it.",
+      "responder": "Marc the Shark",
+      "category": "mining",
+      "difficulty": "advanced",
+      "related_terms": [
+        "mining",
+        "tokens",
+        "emission",
+        "bootstrap"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "31:54",
+      "question": "What are Ergo Improvement Proposals (EIPs) and what do they cover?",
+      "asker": "tmr.erg",
+      "answer": "An EIP is like an agreement among Ergo users on how to do something specific. It shows the topology of the chain and why we do certain things like proxy contracts, Babel fees, or NFT collection standards. They're like the Bill of Rights of the chain, explaining why we're doing certain things a certain way. There are standards for artwork, collections, contract templates, and protocol changes.",
+      "responder": "Marc the Shark",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "EIP",
+        "governance",
+        "standards",
+        "protocol"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "35:22",
+      "question": "How are EIPs approved - what's the consensus mechanism?",
+      "asker": "tmr.erg",
+      "answer": "It depends on the type of EIP. If it requires a soft fork (like protocol changes), miners need to vote on it. If there's no fork required (like contract templates or standards), it seems core devs from the Ergo Foundation review it, and if it makes sense as an improvement, it gets accepted. EIPs are always subject to change.",
+      "responder": "Marc the Shark",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "EIP",
+        "soft_fork",
+        "miners",
+        "voting",
+        "consensus"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "20:38",
+      "question": "How could the 3D Ergo block explorer be used for privacy analysis?",
+      "asker": "tmr.erg",
+      "answer": "You could use it to see if your privacy was broken by putting your wallets in and checking if they connect. If they don't connect visually, your privacy is intact. If they do connect, you'd know you made a mistake and might need to mix your coins again. It's a visual way to trace connections between wallets and transactions.",
+      "responder": "tmr.erg",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "privacy",
+        "mixer",
+        "explorer",
+        "analysis"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "42:17",
+      "question": "Why hasn't Ergo had any hard forks despite protocol changes?",
+      "asker": "Marc the Shark",
+      "answer": "It's a good indicator of the community's ethos - people are true to the core values rather than chasing money. Ergo is committed to soft forks only because we recognize the value of a coherent social layer where everyone stays on the same team. If the majority doesn't agree to something, we don't do it. This contrasts with other chains that forked for financial reasons.",
+      "responder": "tmr.erg",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "hard_fork",
+        "soft_fork",
+        "community",
+        "consensus"
+      ]
+    }
+  ]
+}

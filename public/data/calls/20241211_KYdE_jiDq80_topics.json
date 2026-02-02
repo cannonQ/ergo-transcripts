@@ -1,0 +1,120 @@
+{
+  "call_date": "2024-12-11",
+  "call_title": "Bene | Bruno Woltzenlogel Paleo & Jossemii | ErgoHack 9",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Beene Platform Introduction and Core Mechanics",
+      "category": "defi",
+      "start_time": "00:11",
+      "end_time": "02:31",
+      "primary_speaker": "Bruno",
+      "summary": "Bruno introduces Beene, a proof of funding platform that enables projects to raise funds while rewarding contributors with tokens. He explains the core mechanics including funding vaults, minimum amounts, deadlines, and the distribution of proof of funding tokens to contributors.",
+      "key_terms": [
+        "Beene",
+        "proof of funding",
+        "contribution accounting tokens",
+        "funding vault",
+        "crowdfunding"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Platform Rules and Visual Framework",
+      "category": "technical",
+      "start_time": "02:31",
+      "end_time": "03:25",
+      "primary_speaker": "Bruno",
+      "summary": "Bruno presents a graphical representation of the platform rules showing how project owners and contributors can interact based on time and funding thresholds. The chart illustrates when withdrawals and refunds are possible.",
+      "key_terms": [
+        "minimum amount",
+        "deadline",
+        "withdrawal rules",
+        "refund mechanism",
+        "time-based actions"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Stable Order SDK Funding Example",
+      "category": "ecosystem",
+      "start_time": "03:25",
+      "end_time": "04:41",
+      "primary_speaker": "Bruno",
+      "summary": "Bruno provides a real-world example of using the platform for Stable Order's SDK development, requiring 5000 ERG to develop an SDK for Gluon Gold. He contrasts this with their previous manual process using Ergo Raffle.",
+      "key_terms": [
+        "Stable Order",
+        "SDK development",
+        "Gluon Gold",
+        "Ergo Raffle",
+        "5000 ERG"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Ergo Articles Production Funding Scenario",
+      "category": "community",
+      "start_time": "04:41",
+      "end_time": "06:15",
+      "primary_speaker": "Bruno",
+      "summary": "Bruno demonstrates a flexible funding scenario where community members can produce 5-20 articles about Ergo at 100 ERG per article. The example shows how the project can scale from minimum to maximum goals and even expand further based on success.",
+      "key_terms": [
+        "Ergo Articles Token",
+        "EAT",
+        "100 ERG per article",
+        "scalable funding",
+        "community content"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Scam Protection and Refund Mechanism",
+      "category": "technical",
+      "start_time": "06:15",
+      "end_time": "07:23",
+      "primary_speaker": "Bruno",
+      "summary": "Bruno illustrates how the platform protects contributors from scams through a hypothetical example of a fraudulent project promising amazing results. Contributors can safely retrieve their funds after the deadline if minimum goals aren't met.",
+      "key_terms": [
+        "Super Duper Blockchain Tokens",
+        "SDBT",
+        "scam protection",
+        "refund safety",
+        "5 million ERG"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Platform Use Cases and Applications",
+      "category": "ecosystem",
+      "start_time": "07:23",
+      "end_time": "09:31",
+      "primary_speaker": "Bruno",
+      "summary": "Bruno outlines various use cases for the platform including donations, crowdfunding, startup funding, event tickets, and benefactions. He emphasizes the platform's versatility and mentions Stable Order's collaborative contribution model.",
+      "key_terms": [
+        "donations",
+        "crowdfunding",
+        "startup funding",
+        "event tickets",
+        "benefactions",
+        "labor and capital contributions"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Beene Platform Demo Walkthrough",
+      "category": "technical",
+      "start_time": "09:46",
+      "end_time": "14:09",
+      "primary_speaker": "Jossemii",
+      "summary": "Jossemii demonstrates the Beene platform interface, showing project listings, contribution pages, and the process of creating new projects and making contributions. The demo includes minting tokens, setting project parameters, and executing transactions.",
+      "key_terms": [
+        "project list",
+        "contributions page",
+        "token minting",
+        "project creation",
+        "transaction execution",
+        "progress bar"
+      ]
+    }
+  ]
+}

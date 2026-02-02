@@ -1,0 +1,294 @@
+{
+  "call_date": "2024-12-13",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - December 12th 2024",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Ergo Node 6.0 Release and Sub-blocks Development",
+      "category": "technical",
+      "start_time": "00:43",
+      "end_time": "02:05",
+      "primary_speaker": "kushti",
+      "summary": "Kushti provides updates on finalizing Ergo node version 6.0, fixing versioned issues, and working on sub-blocks implementation. He plans to publish a reworked EAP proposal this month with prototype code for sub-blocks generation and processing.",
+      "key_terms": [
+        "node 6.0",
+        "sub-blocks",
+        "EAP proposal",
+        "local miner",
+        "prototype"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Dexy DEX Development and UI Maintainer Needs",
+      "category": "defi",
+      "start_time": "02:05",
+      "end_time": "03:15",
+      "primary_speaker": "kushti",
+      "summary": "Spectrum DEX pull request has been merged for Dexy, but the project needs more developers, particularly a UI maintainer. Kushti suggests introducing UI fees similar to SigmaUSD and plans to create bounty issues for developers.",
+      "key_terms": [
+        "Dexy",
+        "Spectrum DEX",
+        "UI maintainer",
+        "UI fee",
+        "SigmaUSD",
+        "bounty"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Hardware Wallet Integration Progress",
+      "category": "technical",
+      "start_time": "03:15",
+      "end_time": "05:33",
+      "primary_speaker": "kushti",
+      "summary": "Sigma Rust now supports deterministic signatures needed for Keystone integration, unblocking pgr456's development. For Ledger integration, the peer wasn't approved but discussions are ongoing with approved entities including Kudelsky Security.",
+      "key_terms": [
+        "Sigma Rust",
+        "deterministic signatures",
+        "Keystone integration",
+        "Ledger",
+        "Kudelsky Security",
+        "hardware wallet"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Developer Recruitment and Educational Outreach",
+      "category": "community",
+      "start_time": "05:33",
+      "end_time": "06:56",
+      "primary_speaker": "kushti",
+      "summary": "Kushti is giving talks at local developer events and planning an Asian tour around the Hong Kong consensus conference. He emphasizes the need for more developers and mentions Bruno's multiple new project ideas.",
+      "key_terms": [
+        "developer recruitment",
+        "local events",
+        "Asian tour",
+        "Hong Kong",
+        "consensus conference",
+        "Bruno"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Programmable Money and Property Rights Research",
+      "category": "governance",
+      "start_time": "06:56",
+      "end_time": "09:25",
+      "primary_speaker": "kushti",
+      "summary": "Kushti published an article on money ownership in the age of programmable money and is preparing talks about property rights and digital art. He references the Tornado Cash court decision regarding smart contracts not being considered property.",
+      "key_terms": [
+        "programmable money",
+        "property rights",
+        "Tornado Cash",
+        "OFAC sanctions",
+        "digital art",
+        "smart contracts"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "New Developer Tools and Open Source Evolution",
+      "category": "ecosystem",
+      "start_time": "10:38",
+      "end_time": "16:18",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of new developers joining the ecosystem, including tools for encrypting seed phrases and various projects. Kushti emphasizes the power of open source development allowing modifications and evolutionary development processes.",
+      "key_terms": [
+        "BEP-39",
+        "seed phrase encryption",
+        "AI scripts",
+        "qx()",
+        "MewFinance",
+        "open source",
+        "free software"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Lithos Development and Mining Pool Updates",
+      "category": "technical",
+      "start_time": "16:36",
+      "end_time": "17:31",
+      "primary_speaker": "Armeanio",
+      "summary": "Armeanio discusses Lithos development progress with NIPoPoWs contracts and DevNets work. The Sigmanauts mining pool is successfully collecting storage rent from boxes that are four years old, providing additional miner rewards.",
+      "key_terms": [
+        "Lithos",
+        "NIPoPoWs",
+        "DevNets",
+        "Sigmanauts mining pool",
+        "storage rent",
+        "miner rewards"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "DuckPools Fundraising and Paideia DAO Launch",
+      "category": "ecosystem",
+      "start_time": "17:31",
+      "end_time": "19:18",
+      "primary_speaker": "Armeanio",
+      "summary": "DuckPools is going through their next fundraising round with clear roadmap documentation. Paideia DAO is launching as a powerful software suite for real-world governance tools beyond speculative use cases.",
+      "key_terms": [
+        "DuckPools",
+        "fundraising",
+        "roadmap",
+        "Paideia DAO",
+        "governance tools",
+        "documentation"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Dexy Oracle Integration and Gluon Evolution",
+      "category": "defi",
+      "start_time": "19:18",
+      "end_time": "20:09",
+      "primary_speaker": "Armeanio",
+      "summary": "PGR submitted a pull request for silver oracle integration as Dexy moves toward mainnet. The team is considering improvements to existing protocols based on experience with Gluon Gold.",
+      "key_terms": [
+        "silver oracle",
+        "Dexy mainnet",
+        "Gluon Gold",
+        "protocol evolution",
+        "oracle integration"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Hummingbot Integration for KYC-Free Trading",
+      "category": "bridges",
+      "start_time": "20:09",
+      "end_time": "22:30",
+      "primary_speaker": "Armeanio",
+      "summary": "Request submitted to Hummingbot Foundation for integration with Rosen Bridge, enabling KYC-free bot trading across multiple environments. Ergo's low fees provide advantages for active trading compared to high-gas EVM chains.",
+      "key_terms": [
+        "Hummingbot",
+        "Rosen Bridge",
+        "KYC-free trading",
+        "bot trading",
+        "low fees",
+        "gas costs"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Rosen Bridge Infrastructure Improvements",
+      "category": "bridges",
+      "start_time": "22:30",
+      "end_time": "23:52",
+      "primary_speaker": "Armeanio",
+      "summary": "Updates on Dogecoin integration, dynamic mobile UI improvements, Binance Smart Chain testing, and new watcher build development for better performance and efficiency across the Rosen Bridge stack.",
+      "key_terms": [
+        "Dogecoin integration",
+        "mobile UI",
+        "Binance Smart Chain",
+        "watcher build",
+        "performance",
+        "testing"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Real World Asset Tokenization Challenges",
+      "category": "defi",
+      "start_time": "25:33",
+      "end_time": "39:32",
+      "primary_speaker": "Armeanio",
+      "summary": "Extensive discussion on tokenization complexities including regulatory footprint, jurisdictional issues, and physical asset control. Bearer assets like gold are easier to tokenize than jurisdiction-bound assets like real estate or cars.",
+      "key_terms": [
+        "tokenization",
+        "bearer assets",
+        "regulatory footprint",
+        "jurisdictional issues",
+        "fractionalized ownership",
+        "physical assets"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Catalyst Governance Drama Analysis",
+      "category": "governance",
+      "start_time": "39:32",
+      "end_time": "43:50",
+      "primary_speaker": "Armeanio",
+      "summary": "Armeanio discusses Cardano Catalyst governance issues, explaining how whale voting power creates predictable attack vectors. He emphasizes understanding system parameters rather than emotional reactions to governance outcomes.",
+      "key_terms": [
+        "Catalyst",
+        "whale voting",
+        "governance attack",
+        "Cardano Foundation",
+        "DeFi protocol parameters",
+        "fair game"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "ErgoHack Winners and Project Reviews",
+      "category": "community",
+      "start_time": "43:50",
+      "end_time": "47:24",
+      "primary_speaker": "kushti",
+      "summary": "ErgoHack results discussed: Satergo Offline World won first place for security solutions, Bruno's benefactory platform second, and Sigmanauts mining pool third. Other projects included community liquidity bootstrapping initiatives.",
+      "key_terms": [
+        "ErgoHack",
+        "Satergo Offline World",
+        "benefactory platform",
+        "Sigmanauts mining pool",
+        "liquidity bootstrapping",
+        "security"
+      ]
+    },
+    {
+      "topic_id": 15,
+      "title": "Government Separation from Money Discussion",
+      "category": "governance",
+      "start_time": "47:46",
+      "end_time": "55:55",
+      "primary_speaker": "kushti",
+      "summary": "Historical discussion of free banking systems where private banks issued money without government regulations, particularly in the US from 1830s-1864. Blockchain transparency could enable modern free banking revival through projects like ChainCash.",
+      "key_terms": [
+        "free banking",
+        "private money",
+        "fractional reserve",
+        "ChainCash",
+        "transparency",
+        "central banks"
+      ]
+    },
+    {
+      "topic_id": 16,
+      "title": "Stablecoins as Private Money Evolution",
+      "category": "defi",
+      "start_time": "55:55",
+      "end_time": "59:49",
+      "primary_speaker": "Armeanio",
+      "summary": "Discussion of stablecoins as modern private money, comparing them to historical free banking. Issues around backing, auditability, and regulatory challenges with fiat-pegged stablecoins creating jurisdictional attack surfaces.",
+      "key_terms": [
+        "stablecoins",
+        "private money",
+        "backing assets",
+        "USDC",
+        "regulatory support",
+        "jurisdictional complexity"
+      ]
+    },
+    {
+      "topic_id": 17,
+      "title": "Cross-Chain Interaction Mechanisms",
+      "category": "bridges",
+      "start_time": "61:11",
+      "end_time": "65:57",
+      "primary_speaker": "kushti",
+      "summary": "Explanation of different blockchain interoperability methods including trustless relays for proof-of-work chains like Bitcoin to Ergo, proof-of-burn concepts, and multi-signature solutions. Rosen Bridge approach treats assets as assets rather than just information.",
+      "key_terms": [
+        "trustless relay",
+        "proof-of-burn",
+        "multi-signature",
+        "consensus mechanisms",
+        "asset treatment",
+        "information relaying"
+      ]
+    }
+  ]
+}

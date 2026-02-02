@@ -1,0 +1,162 @@
+{
+  "call_date": "2024-11-15",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "00:49",
+      "question": "What's the current status of Ergo Names project?",
+      "asker": "qx()",
+      "answer": "All smart contracts are done, it's just off-chain work remaining to get the contracts to run. There's already progress on this off-chain component. The goal is to finish it during Thanksgiving and Christmas break when there's more time available from school commitments.",
+      "responder": "MGpai",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "ergo-names",
+        "smart-contracts",
+        "off-chain"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "04:21",
+      "question": "What new blockchain integrations are coming to Rosen Bridge?",
+      "asker": "MGpai",
+      "answer": "Dogecoin integration is coming up, which is timely given Trump's new Department of Government Efficiency (DOGE) announcement. Binance Smart Chain is also being added, which will provide a similar environment to Ethereum with high liquidity but much cheaper fees for users.",
+      "responder": "MGpai",
+      "category": "bridges",
+      "difficulty": "beginner",
+      "related_terms": [
+        "rosen-bridge",
+        "dogecoin",
+        "binance-smart-chain",
+        "cross-chain"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "05:49",
+      "question": "Could Ergo potentially bridge to Alephium through shared infrastructure?",
+      "asker": "MGpai",
+      "answer": "Yes, it might be possible since Alephium is also building a Binance Smart Chain bridge. Since both Rosen and Alephium's bridge can handle native assets and both connect to Binance Smart Chain, it could be possible to interact with Alephium without using Rosen directly, using whatever bridge infrastructure they have.",
+      "responder": "MGpai",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "alephium",
+        "binance-smart-chain",
+        "native-assets",
+        "utxo-chains"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "19:41",
+      "question": "What's it like being in the Ergo Foundation and what projects does EF support?",
+      "asker": "Wombo22",
+      "answer": "EF provides oversight of operations and reviews development proposals for ecosystem improvements. They support projects like Sigma Explorer (a new explorer built from scratch with better performance), Stability Nexus protocols like Gluon, and Cyberverse. The Sigmanauts mining proposal is currently under consideration for funding.",
+      "responder": "MGpai",
+      "category": "governance",
+      "difficulty": "beginner",
+      "related_terms": [
+        "ergo-foundation",
+        "sigma-explorer",
+        "gluon",
+        "sigmanauts"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "23:47",
+      "question": "How does the new mining pool ecosystem token payment system work?",
+      "asker": "qx()",
+      "answer": "You point to the pool, go to the payout dashboard, and use a mint button to choose what tokens you want (Rosen tokens, Bitcoin, ADA, CYPX, ERGs). You can set payout thresholds and percentages - like 10% CYPX, 50% ERG, 20% Gluon Gold. An NFT mints in your wallet and Mark's software scans it to do payouts based on your preferences.",
+      "responder": "qx()",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "mining-pool",
+        "ecosystem-tokens",
+        "payout-system",
+        "nft"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "27:26",
+      "question": "When will Keystone wallet support be ready?",
+      "asker": "Jonas",
+      "answer": "Currently blocked by a Sigma Rust library issue. Developer Dusek is working on fixing the cryptography-heavy rust code. Once that's resolved, PGR can continue the Keystone integration work. Target is end of year.",
+      "responder": "MGpai",
+      "category": "wallet",
+      "difficulty": "beginner",
+      "related_terms": [
+        "keystone-wallet",
+        "sigma-rust",
+        "pgr",
+        "nautilus"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "30:29",
+      "question": "Is Kraken listing imminent?",
+      "asker": "Ahmet",
+      "answer": "After the leak on Sigmanauts Twitter, we know Ergo is on Kraken's shortlist. They have a backlog of shortlisted projects, so timing depends on when they decide to do the work to list us. No definitive timeline beyond being on the shortlist.",
+      "responder": "qx()",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "kraken",
+        "exchange-listing",
+        "shortlist"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "34:05",
+      "question": "Should Ergo join Cardano's Bitcoin layer 2 partner chain effort?",
+      "asker": "Odi Boja",
+      "answer": "Ergo already has that functionality through Rosen Bridge - you can bring Bitcoin to Ergo and do whatever you want with it. While Cardano's ZK proof technology is interesting and uses less trust than multisig bridges, whatever layer 2 they create, Rosen will be able to bridge to that as well.",
+      "responder": "MGpai",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "bitcoin-layer2",
+        "cardano",
+        "zk-proofs",
+        "multisig-bridge"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "41:44",
+      "question": "Is there a way to swap between Ergo and BTC while keeping it off exchanges?",
+      "asker": "Wendy",
+      "answer": "Yes, you can use Rosen Bridge to get wrapped BTC directly in your Ergo wallet, or swap on DEXs. However, current DEX liquidity shows about 7.8% slippage for 1000 ERG swaps, so for larger amounts it's better to use the Rosen Bridge directly and hold Rosen BTC in your Ergo wallet.",
+      "responder": "qx()",
+      "category": "defi",
+      "difficulty": "beginner",
+      "related_terms": [
+        "rosen-bridge",
+        "wrapped-btc",
+        "ergodex",
+        "liquidity"
+      ]
+    },
+    {
+      "qa_id": 10,
+      "timestamp": "51:07",
+      "question": "Is Palmyra going to launch a coin or project, and what's the timing?",
+      "asker": "CannonQ",
+      "answer": "Can't say much due to confidentiality, but there will definitely be more pre-sale rounds available. Past rounds were not open to US citizens, and this restriction will likely continue. Specific timing cannot be disclosed.",
+      "responder": "MGpai",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "palmyra",
+        "pre-sale",
+        "tokenomics"
+      ]
+    }
+  ]
+}

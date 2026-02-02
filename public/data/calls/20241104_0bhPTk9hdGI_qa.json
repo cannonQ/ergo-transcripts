@@ -1,0 +1,150 @@
+{
+  "call_date": "2024-11-04",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "00:47",
+      "question": "Where are we currently with Ergo's emission reduction and where are we heading?",
+      "asker": "tmr.erg",
+      "answer": "We're currently at 21 ERG as the block reward. There are six more steps of decreasing by 3 ERG each to get down to 3 ERG, which should happen sometime in 2026. This represents a significant reduction from earlier this year when we were at around 30-33 ERG per block.",
+      "responder": "Marc the Shark",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "emission",
+        "block_reward",
+        "mining",
+        "tokenomics"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "02:49",
+      "question": "What was the original emission curve change that happened via mining vote?",
+      "asker": "Marc the Shark",
+      "answer": "Initially, there was an aggressive emission curve that would have had all ERG emitted by around 2030, in about 8 years. Miners voted on this via a setting in their config file and achieved 90% consensus to change it. Now some ERG goes to miners and some goes to a re-emission contract, creating a longer tail emission that extends to around 2045.",
+      "responder": "tmr.erg",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "emission",
+        "mining_vote",
+        "re-emission_contract",
+        "governance"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "05:18",
+      "question": "How will storage rent work to incentivize miners in the low emission environment?",
+      "asker": "tmr.erg",
+      "answer": "Storage rent will become quite valuable once we get to 3 ERG block rewards. Miners will need to pay attention to storage rent and what can be scavenged and collected by their mining pools. If mining pools don't collect storage rent, they probably won't be profitable, which will incentivize innovation in finding new ways to identify and collect these rewards.",
+      "responder": "tmr.erg",
+      "category": "mining",
+      "difficulty": "advanced",
+      "related_terms": [
+        "storage_rent",
+        "mining",
+        "low_emission",
+        "utxo"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "08:03",
+      "question": "What is a fair initial mining offering and how would it work?",
+      "asker": "Marc the Shark",
+      "answer": "A fair initial mining offering would allow new protocols to distribute their governance tokens through mining rewards. For example, a lending protocol could offer 10 tokens every block to be mined, either through a script mimicking the re-emission contract or by setting specific block heights. This creates a fair distribution method that avoids securities regulations since miners aren't paying the protocol directly.",
+      "responder": "tmr.erg",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "fair_mining",
+        "token_distribution",
+        "governance_tokens",
+        "mining_rewards"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "17:50",
+      "question": "What is Lithos and how does it relate to permissionless mining?",
+      "asker": "tmr.erg",
+      "answer": "Lithos is a distributed permissionless mining pool that runs on the blockchain rather than being centralized like NiceHash. You don't need someone to be responsible for all your mining setup - it's actually run on the blockchain itself. This is coming online as Node 6.0 gets finished and provides an alternative to centralized mining pools that require KYC.",
+      "responder": "tmr.erg",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Lithos",
+        "permissionless_mining",
+        "decentralized_pool",
+        "node_6.0"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "18:45",
+      "question": "What new capabilities come with Ergo Node 6.0?",
+      "asker": "tmr.erg",
+      "answer": "Node 6.0 brings several major features including Lithos (distributed mining pool), Sigma protocols, and side chains support. These represent significant doors opening from an ecosystem perspective, enabling more applications and real-world use cases to be built on Ergo.",
+      "responder": "Marc the Shark",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "node_6.0",
+        "sigma_protocols",
+        "side_chains",
+        "Lithos"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "24:54",
+      "question": "How did the bear whale attack work against SigmaUSD?",
+      "asker": "tmr.erg",
+      "answer": "The bear whale exploited Oracle speed by buying SigmaUSD, then selling enough ERG to crash the price. The Oracle would read this crashed price, making his SigmaUSD redeemable for more ERG than he originally paid. He would then buy back his ERG position to raise the price again, slowly accumulating ERG through this manipulation of the Oracle timing.",
+      "responder": "tmr.erg",
+      "category": "defi",
+      "difficulty": "advanced",
+      "related_terms": [
+        "bear_whale",
+        "SigmaUSD",
+        "oracle_manipulation",
+        "arbitrage"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "26:48",
+      "question": "How was the bear whale attack fixed?",
+      "asker": "Marc the Shark",
+      "answer": "The team limited the Oracle update rate to 0.5% every 30 minutes, up or down. This meant the bear whale would have to hold the price down for much longer than 30 minutes to achieve meaningful price changes, making the attack much more risky and potentially unprofitable. The attacker actually lost 170,000 ERG trying to continue the attack after this patch.",
+      "responder": "tmr.erg",
+      "category": "defi",
+      "difficulty": "advanced",
+      "related_terms": [
+        "oracle_rate_limiting",
+        "SigmaUSD_v2",
+        "bear_whale",
+        "protocol_security"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "31:07",
+      "question": "What is the key difference between Gluon and Dexy stablecoin designs?",
+      "asker": "Marc the Shark",
+      "answer": "Gluon requires you to mint both tokens (the stable token and reserve token) simultaneously, then sell one if you only want exposure to the other. Dexy doesn't have a reserve token - it's one token (gold-pegged) with two protocols: a bank that does autonomous arbitrage and an AMM that users interact with. Gluon is 'two tokens with one protocol' while Dexy is 'one token with two protocols.'",
+      "responder": "tmr.erg",
+      "category": "defi",
+      "difficulty": "advanced",
+      "related_terms": [
+        "Gluon",
+        "Dexy",
+        "stablecoin",
+        "reserve_token",
+        "AMM"
+      ]
+    }
+  ]
+}

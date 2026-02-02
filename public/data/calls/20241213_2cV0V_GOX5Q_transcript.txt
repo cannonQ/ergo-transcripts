@@ -1,0 +1,593 @@
+[00:10] **Armeanio**: Good morning, everybody.
+[00:12] **Armeanio**: Or good afternoon, I guess, in your case, kushti.
+[00:17] **Armeanio**: Hey, man.
+[00:18] **kushti**: Hello, everyone.
+[00:19] **kushti**: My pleasure to be here again.
+[00:20] **kushti**: And yeah, it's good to see you here again.
+[00:28] **kushti**: And it is good that we are starting on time after so many attempts.
+[00:37] **kushti**: Finally, everything is working smoothly.
+[00:40] **kushti**: from the first minute.
+[00:42] **kushti**: All right.
+
+[00:43] **Armeanio**: So what's new on your end, my friend?
+[00:46] **Armeanio**: What have you been working on?
+[00:48] **kushti**: A lot of things.
+[00:49] **kushti**: So finalizing 6.0.
+[00:53] **kushti**: Yeah, well, still there is need to check, review something.
+[01:00] **kushti**: So yeah.
+[01:04] **kushti**: discovered some issues, well, versioned issues, so I'm fixing them now.
+[01:13] **kushti**: Then, yeah, back to sub-blocks, so doing some codes now, and yeah, hopefully this
+[01:23] **kushti**: month if no surprises, but they always happen.
+[01:28] **kushti**: So yeah, hope to publish EAP reworked EAP proposal based on the forum text which is messy and now needs for polishing along with some codes.
+[01:43] **kushti**: Currently I have just some stupid stuff so some blocks being generated.
+[01:47] **kushti**: by local miner and then processing stops here and there.
+[01:54] **kushti**: So now I'm filling this with real logic, maybe of prototype quality, but still.
+[02:00] **kushti**: And then, yeah, we'll polish things.
+
+[02:05] **kushti**: Then what else?
+[02:08] **kushti**: So, yeah, so for Dexy, we have
+[02:14] **kushti**: Spectrum DEX pull request merged and yeah, checking what to do next.
+[02:21] **kushti**: There is need for more developers, in particular we need for UI maintainer.
+[02:30] **kushti**: It's a good idea probably to introduce UI fee like done in SigmaUSD interface.
+[02:41] **kushti**: So, yeah, please reach, please join us.
+[02:46] **kushti**: So, yeah, that's the main limiting factor for now.
+[02:50] **kushti**: Probably then, yeah, also would be happy to see contributions with sub-blocks.
+[02:59] **kushti**: So, yeah, we'll check developers.
+[03:04] **kushti**: group today, so if there are guys willing to contribute, I will make issues with bounty and so on.
+
+[03:15] **kushti**: Then reviewing Sigma Rust.
+[03:21] **kushti**: features so just today reviewed and yeah it seems to be done now support for deterministic signatures which is needed for keystone integration so yeah it seems pgr456 now unblocked
+[03:40] **kushti**: So he was blocked with the need for deterministic signatures since there is no random generation API provided by hardware.
+[03:55] **kushti**: on Keystone, unlike, let's say, big operating systems like Linux, Windows, and so on, right?
+[04:04] **kushti**: So there is need to work with randomness differently, in short, and, yeah, so now it's supported by Sigma Rust, so, well, Keystone integration is going further, then.
+
+[04:18] **kushti**: Then for ledger integration,
+[04:22] **kushti**: Unfortunately, my peer wasn't approved by Ledger, so he is a former Kudelsky security employee, but we were not lucky in getting a Ledger team to get Kudelsky quality from the former.
+[04:45] **kushti**: employees.
+[04:46] **kushti**: So yeah, I mean, currently, well, other folks are, well, looking, actually talking with approved entities.
+[05:00] **kushti**: So it's about Kudelsky and yeah, another company, which name I've forgotten.
+[05:08] **kushti**: So Kudelsky is well known to me.
+[05:12] **kushti**: since they did some audits for some parts of the Sigmanauts before, back in 2019.
+[05:22] **kushti**: So they did audit for inbuilt wallets, for cryptography, for proof of work, certain aspects of it.
+
+[05:33] **kushti**: So, yeah, what else?
+[05:36] **kushti**: So, yeah, also,
+[05:39] **kushti**: thinking about how to get more developers on board, so on Saturday I'm giving a talk at some local events.
+[05:49] **kushti**: I mean, it's mostly a developer's event, just like maybe 50 or 60 folks attending.
+[05:58] **kushti**: But yeah, I mean, it's good still, right?
+[06:01] **kushti**: So maybe with just a few developers, we can do more.
+[06:08] **kushti**: So I mean, there are a lot of ideas.
+[06:11] **kushti**: So just Bruno only has like, I don't know.
+[06:18] **kushti**: like five or six new different ideas and then yeah I also well published some things on forum recently such as hashrate coin random coin and so on and yeah there is needs to improve infrastructure
+[06:44] **kushti**: still write a bit, then in core there is need for some development, for reviews, for documentation and so on.
+
+[06:56] **kushti**: Then published very recently an article about, well, it's called Money Ownership in the age of programmable money, right?
+[07:08] **kushti**: And based on that now doing a talk for some events which is about art actually and it will be it will take place in Italy on December 21st and I'm recording video and it will be about property rights in the age of program money right because well
+[07:37] **kushti**: It seems with tokenized real-world assets and so on, with smart contracts in particular, right, so this topic is more broad, especially if we are talking about such, well, blockchain.
+[07:55] **kushti**: let's say, friendly to, well, grasping such ownership issues as Ergo, right?
+[08:04] **kushti**: But even if you are talking about Ethereum, so I made a tweet recently about another cash court decision, and yeah, it's also about property rights recently, right?
+[08:16] **kushti**: So the court actually decided
+[08:21] **kushti**: That Tornado Cash smart contract is not a property, right, and then it cannot be OFAC sanctioned, right, because of that.
+[08:33] **kushti**: So it's just an autonomous piece of software and then, yeah, it's not quite legal to sanction a piece of code.
+[08:44] **kushti**: Which is actually quite interesting development and I think it also does sound similar, but Yeah, well, so I'm doing a talk for some events about art Digital art in particular then.
+[09:03] **kushti**: Yeah, we have
+[09:06] **kushti**: A lot of interesting possibilities here talking about property rights and programmable property rights sometimes maybe and so on for tokenized assets, tokenized art and so on.
+
+[09:25] **kushti**: So preparing a talk about that, then also planning another Asian tour and this time hopefully it will not be Dubai because too much Dubai probably for me.
+[09:45] **kushti**: So, yeah, thinking about visiting Hong Kong around consensus conference and, yeah, well, maybe some place around.
+[09:57] **kushti**: So, I know we have Sigmanauts in Vietnam, South Korea, and so on.
+[10:05] **kushti**: So, yeah, well, we'll check with peers there.
+[10:11] **kushti**: What's the possibility?
+[10:14] **kushti**: But yeah, it would be good to make something in Hong Kong also.
+[10:20] **kushti**: So we had quite good meet-up there back in 2019, which is available on YouTube, by the way.
+[10:33] **kushti**: Let's talk from there.
+[10:35] **kushti**: Then, what else?
+
+[10:38] **Armeanio**: What else?
+[10:39] **Armeanio**: Now, what's new in terms of the dev update this week?
+[10:42] **Armeanio**: I saw a lot of things from qx().
+[10:46] **kushti**: Yeah, well, it was quite an amazing dev update.
+[10:51] **kushti**: So we have a new developer which made a tool, actually quite an interesting tool to encrypt and decrypt seed phrase.
+[11:02] **kushti**: to produce BEP-39 seed phrase and encrypt it.
+[11:10] **kushti**: He claims that he is not a developer but willing to do something on Ergo, so he used AI mostly on that, but the seed quality is checked with some Python
+[11:25] **kushti**: statistical analysis scripts and so on so yeah that sounds interesting so well please feel free to check the chat and to check the tool and use it so I don't know I mean it's getting more and more interesting because well
+[11:46] **kushti**: I'm going to check developers which joined recently or started to develop something not so trivial recently, such as HQx, right, with MewTooling, and then Mark the Shark, this new guy with AI script.
+[12:10] **kushti**: I made a script and yeah, who else?
+[12:15] **kushti**: There are two or three other folks.
+[12:20] **kushti**: Yeah, Beene, some guy with a Discord account, Beene somewhat.
+[12:28] **kushti**: And, yeah, so, my impression, is that, these days, because, we have a lot of open source, tooling available, open source contracts, UI and so on.
+[12:42] **kushti**: So developers, mostly well combining,
+[12:49] **kushti**: taking existing functionality, right, and, well, reworking it into something new, right, some modifications for starters, then deeper modifications, then something maybe totally new.
+[13:08] **kushti**: So that was the path of MewFinance, I believe.
+[13:12] **kushti**: Right, and that's actually
+[13:14] **kushti**: quite exciting to me so that's the power of open source right so not just open source but free software right so you can take it you can modify you can run modified version freely right and then yeah the only thing is that yeah well do your modification free as well right and then people will develop
+[13:43] **kushti**: on foundations provided by you and then yeah because of that we may have well evolutionary development process right with stable and solid contracts and yeah also streamlined and easy development cycle so
+
+[14:11] **kushti**: Quite good, but also talking about qx() and so on.
+[14:23] **kushti**: I think still the Ergo potential is uncovered by like 1% maybe.
+[14:33] **kushti**: roll-up schemes and so on.
+[14:37] **kushti**: So I'm thinking about some layer 2 constructions discussing some these days even with very old folks.
+[14:46] **kushti**: Some with Cardano even since he has some experience with Bitcoin layer 2.
+[14:58] **kushti**: The idea is that, yeah, well, it's fine to, well, building on the existing ground, but yeah, well, it's 99% of potential still uncovered, so there is time to, well...
+[15:20] **kushti**: open new horizons, right, for the different developments possible to do more writings, forum posts and so on.
+[15:32] **kushti**: And Luivatra, for example, Luivatra made an excellent post recently about how to use EAP5, so contract templates, which is quite powerful to link.
+[15:48] **kushti**: actually which is allowing for using well contracts within contracts so to to reason about contracts within contracts right in some not so hard and yeah pretty streamlined way so yeah quite powerful feature and i'm not sure any other blockchain has it actually
+
+[16:18] **Armeanio**: Yeah, so that was also starting to play with the mempool and voting, which is awesome to see.
+[16:26] **kushti**: Yeah, that's probably all and probably enough from me.
+[16:33] **kushti**: So what's on your side?
+
+[16:36] **Armeanio**: I was pretty excited to see Lithos development, where I know that qx() is starting to finish the NIPoPoWs contracts and work on DevNets.
+[16:51] **Armeanio**: So I was trying to create more contracts for kind of optimistic evaluations of NIPoPoWs and working on kind of share proofs.
+[17:01] **Armeanio**: The Sigmanauts mining pool this week was hitting some big boxes in terms of storage rent.
+[17:08] **Armeanio**: That was really nice to see.
+[17:13] **Armeanio**: I guess just based on like four years in the past, they're starting to pick up more kind of activity in terms of boxes available that are, kind of stale.
+[17:26] **Armeanio**: So seeing those extra miner rewards is pretty awesome.
+[17:31] **Armeanio**: I also saw that DuckPools is going to go through their next round of kind of raising.
+[17:35] **Armeanio**: If you look at how their roadmap is
+[17:39] **Armeanio**: laid out.
+[17:40] **Armeanio**: They said, okay, well, we're going to go through periodic fundraising efforts and have pretty clear
+[17:50] **Armeanio**: roadmap in terms of what they're going to do for each particular phase.
+[17:54] **Armeanio**: I always support that.
+[17:56] **Armeanio**: I always throw my money at it because, it's one of those things that I guess, where your attention goes, you tend to get more of, right?
+[18:04] **Armeanio**: Well, you pay for what you want to see.
+[18:06] **Armeanio**: So that's one of my favorite projects in Ergo that, they do a lot of really good documentation.
+[18:14] **Armeanio**: If you go through,
+[18:15] **Armeanio**: Everything that they do, which, circling back to, kind of this idea of like a natural evolution of, kind of the development around open source software, having that type of, not only complexity, but like documentation detail is, is really foundational.
+[18:36] **Armeanio**: So, I always have to kind of tip my hat to, what crass is doing over there and, encourage people to look into it, support it, use it.
+[18:45] **Armeanio**: Paideia DAO is kicking off and I think that's going to be really powerful software suite long-term.
+[18:54] **Armeanio**: I think that, yeah, you do need like direct management and engagement, which is sometimes hard when people's mindset is more like, I don't know, just speculative,
+[19:08] **Armeanio**: the main pointing or whatever in the crypto space, but having like real world tools that are useful is, is, fascinating to me.
+
+[19:18] **Armeanio**: What else?
+[19:18] **Armeanio**: PGR, it looks like he submitted the whole request for the, silver Oracle.
+[19:24] **Armeanio**: So, as Dexy moves towards, main net,
+[19:31] **Armeanio**: I've got to rethink with Bruno and the team and see what options are available in terms of kind of the natural evolution of protocols where I guess we have enough time now watching Gluon.
+[19:47] **Armeanio**: that we could potentially say, okay, well, what have we learned based on experience and what are the observations and potentially improve or alter the existing Gluon Gold a little bit, which I think is a pretty neat step forward.
+
+[20:09] **Armeanio**: What else?
+[20:10] **Armeanio**: We submitted the Hummingbot requests to the Hummingbot Foundation.
+[20:17] **Armeanio**: Which is going to lead to really kind of a unique framework where, with Rosen Bridge, we kind of unified trading environments across, central exchanges.
+[20:29] **Armeanio**: But, one of the neat things about, hummingbot for, trading on top of Rosen Bridge or managing liquidity is, you now have access to multiple,
+[20:41] **Armeanio**: environments to bot trade on KYC free.
+[20:46] **Armeanio**: So that's always a nice assumption for users.
+[20:52] **Armeanio**: I don't know exactly how long that's going to take for them to go through like a review process, but that's kind of the next order of operations in that kind of development path.
+[21:07] **Armeanio**: And it's going to be interesting to see what
+[21:13] **Armeanio**: evolves there because Ergo is kind of a nice environment due to low fees, right?
+[21:20] **Armeanio**: So you always have like this, friction in terms of the market costs of trading.
+[21:27] **Armeanio**: if you're talking like an AMM, you can look at the pool fee, which is always some balance between,
+[21:35] **Armeanio**: what liquidity providers, are incentivized by as well as what, the people buying and selling are willing to, inherit, I guess in terms of costs.
+[21:49] **Armeanio**: And then you also have this execution, cost, which, in some systems, if you look at like EVM with gas, when, Bitcoin goes through down or up,
+[22:01] **Armeanio**: there's always a race, and DeFi protocols and gas goes through the roof.
+[22:05] **Armeanio**: And it'll be interesting to see how, I don't know, kind of the efficiency of, order execution, and Ergo makes it an attractive, market for more active trading because lower that friction a little bit in terms of costs.
+[22:25] **Armeanio**: And then it's just a matter of liquidity and opportunity, I guess.
+
+[22:30] **Armeanio**: Let's see with Rosen Bridge, yeah, working on a Dogecoin integration.
+[22:38] **Armeanio**: We finally, pushed a more dynamic mobile build, which is nice to see.
+[22:45] **Armeanio**: I'm not always the biggest mobile user to be honest, just cause yeah, phone is small.
+[22:49] **Armeanio**: It's easy to lose that kind of thing.
+[22:52] **Armeanio**: But, having a dynamic UI is pretty nice to see.
+[22:57] **Armeanio**: And I hope people out there appreciate that.
+[23:01] **Armeanio**: Also working with, Binance Smart Chain, going through rounds of testing in terms of integration, we're working on creating a new watcher build that hopefully is a little bit more, performant efficient, a lot of upgrades in the background and up and down the stack, and Rosen Bridge, I hope that,
+[23:26] **Armeanio**: Yeah.
+[23:26] **Armeanio**: My goal is, we see, we see that live as we roll through the end of the year, but we always need to test and check and then repeat.
+[23:36] **Armeanio**: So we're kind of in that phase.
+[23:40] **Armeanio**: Yeah, that's pretty much it for me.
+[23:42] **Armeanio**: You want to get into the questions?
+
+[23:52] **kushti**: My bad, was muted.
+[23:54] **kushti**: So, yeah, let's jump on the questions.
+[24:00] **kushti**: There is some topic to discuss, but qx() is not here.
+[24:08] **kushti**: After a year spending a week with students and getting probably totally exhausted.
+[24:16] **kushti**: I don't understand him.
+[24:19] **kushti**: All right, so...
+[24:24] **kushti**: Yeah, well, we need to decide when to make spaces and zoom calls.
+[24:34] **kushti**: But yeah, let's do that our telegram.
+[24:39] **kushti**: group which is bridged with Discord.
+[24:42] **kushti**: I mean the main Telegram group which is bridged with a general channel in Discord and yeah we can discuss such things after the AMA.
+[24:54] **kushti**: So yeah let's jump on the questions.
+[24:56] **kushti**: All right so let's start maybe with Mr. Whitecat.
+[25:02] **kushti**: Hello guys where is your PPJs?
+[25:09] **kushti**: Yeah, the most serious question probably.
+[25:14] **Armeanio**: I just woke up.
+[25:15] **Armeanio**: It's one of those things, I keep the video above the chest.
+[25:19] **kushti**: Yeah, the same reason.
+[25:22] **kushti**: So yeah, you have to guess what PPJs are.
+
+[25:33] **Armeanio**: Let's see.
+[25:35] **Armeanio**: I'll go.
+[25:37] **Armeanio**: I think FC has a good question.
+[25:40] **Armeanio**: Tokenization is easy in theory, right?
+[25:43] **Armeanio**: Chop something up into small bits via a good smart contract.
+[25:48] **Armeanio**: What are the standards for controlling physical assets?
+[25:51] **Armeanio**: Seems right with fraud and mismanagement.
+[25:54] **Armeanio**: Yeah, there's a lot of hyperfinancialization schemes around tokenization that may or may not make sense, right?
+[26:02] **Armeanio**: I'll drop some of my perspective, okay?
+[26:06] **Armeanio**: So like in Colorado, we have this area in the middle of the state called the San Luis Valley, right?
+[26:13] **Armeanio**: It's a kind of beautiful area, but it is like this high desert, okay?
+[26:18] **Armeanio**: And so the infrastructure and the utility of land there is not so great actually.
+[26:24] **Armeanio**: It's kind of interesting because there's like some geographical like qualities in terms of like deep water and stuff but it's pretty popular for people to say like okay somebody bought this huge track of land and then they split it up into these tiny little chunks
+[26:40] **Armeanio**: And they fractionalize it and then they try to say okay.
+[26:44] **Armeanio**: Well, now we're going to sell these little fractions of land that are absent infrastructure and give them to people as some sort of like speculative asset or I don't know I guess sometimes people will go up there in camp or whatever So I guess there's some utility there but it kind of
+[27:03] **Armeanio**: can create a more of a financial scheme than like a utility driven development.
+[27:12] **Armeanio**: OK. And it's really interesting if you if you start to say, OK, well, let's take like, I don't know, my car and you fractionalize ownership of it across people who gets to use it.
+[27:23] **Armeanio**: Is it something that's like being
+[27:26] **Armeanio**: driven for a utilitarian commercial purpose that has profit distribution.
+[27:32] **Armeanio**: Who is in charge is always an interesting question in there.
+[27:37] **Armeanio**: Who gets to use whatever the utility is.
+[27:40] **Armeanio**: You take a house and chop it into millimeter by millimeter squares and say, okay, well,
+[27:47] **Armeanio**: I'm going to sell these shares of the house.
+[27:49] **Armeanio**: And what does that represent in reality?
+[27:52] **Armeanio**: Right.
+[27:53] **Armeanio**: does it just represent like some fractional ownership of like an asset?
+[27:59] **Armeanio**: And it's interesting because maybe that,
+[28:02] **Armeanio**: is useful if there's like revenue and profit distribution, but it also creates some weird questions like who controls the title.
+[28:11] **Armeanio**: Right.
+[28:12] **Armeanio**: Because when you're talking about physical assets, you usually have some regulatory layers that you have to deal with.
+[28:19] **Armeanio**: And when you have centralized counterparties, you generally need some legal entity or a mechanism to deal with those like friction points.
+[28:32] **Armeanio**: Right.
+[28:32] **Armeanio**: And then it's abstracted a little further.
+[28:36] **Armeanio**: Let's say that you have a house that has been put in millimeter by millimeter squares and sold.
+[28:43] **Armeanio**: How do you come to consensus to actually sell the house?
+[28:46] **Armeanio**: Or are you permanently stuck in this weird notion of fractionalized ownership that has no consensus to actually move the asset?
+[28:58] **Armeanio**: And then, when that happens where it's like you're stuck, there's usually some party or entity that's taking fees from moving around these little fractions.
+[29:12] **Armeanio**: And, it kind of creates, I don't know, just weird schemes.
+[29:16] **Armeanio**: Right.
+[29:17] **Armeanio**: Do I think that having like.
+[29:20] **Armeanio**: physical real world assets on chain is valuable.
+[29:23] **Armeanio**: Yeah, I think it can be super valuable in terms of how money is raised and perhaps how profits are distributed.
+[29:29] **Armeanio**: But you have to always remember those layers of like regulatory footprint in some jurisdiction and physical reality.
+[29:43] **Armeanio**: And that adds extreme complexity off chain that makes like clean logic
+[29:50] **Armeanio**: hard.
+[29:51] **Armeanio**: I think it makes a lot more sense when you have like, say gold, it's a bearer asset, right?
+[29:56] **Armeanio**: It doesn't have a footprint in a jurisdiction and a lot of those layers,
+[30:03] **Armeanio**: are less influential versus if you have a house or I don't know, mineral rights or a car or, something that is more grounded in a single jurisdictions and laws, like the level of complexity goes through the roof completely.
+[30:22] **Armeanio**: So it's tokenization easy in theory.
+[30:25] **Armeanio**: Yeah.
+[30:26] **Armeanio**: But then when you look at like off chain reality is messy and you kind of are forced more or less to comply within existing jurisdictions.
+[30:39] **Armeanio**: And that is not always easy to do in a distributed or decentralized or trustless way.
+[30:48] **Armeanio**: I guess.
+[30:50] **Armeanio**: what do you think?
+[30:52] **Armeanio**: kushti?
+
+[30:53] **kushti**: yeah so mostly but will continue actually so yeah well it's quite complex when you're talking nice something like a house or a picture right so I mean if you have some picture at some art gallery and you will digitize
+[31:22] **kushti**: Well, so sell digital piece of it, right?
+[31:27] **kushti**: So like 1,000 pieces, then what does it mean to own one piece out of 1,000, right?
+[31:34] **kushti**: So what are your property rights here?
+[31:37] **kushti**: But it's even more complex if you think programmability, right?
+[31:44] **kushti**: If you're adding more complex cryptography and if you're adding scripts,
+[31:48] **kushti**: So, for example, we have till 1,000 pieces, but one piece is owned by you, another by me, third piece is owned by...
+[32:04] **kushti**: well, two out, two signature of yours and mine and then fourth well, possessed by a ring signature, so one key out of those two keys here, so oh my and then let's say 500
+[32:28] **kushti**: tokens are possessed by some contract, blocking one token a month and maybe sending it to the last block miner.
+[32:41] **kushti**: At the moment, if this emission contract has five
+[32:50] **kushti**: 100 tokens, let's take maybe a more clear example, 600, right?
+[33:00] **kushti**: Then yeah, at this point, well, majority of tokens
+[33:05] **kushti**: if that makes sense, talk about majority of tokens representing a picture.
+[33:11] **kushti**: So possessed by some contracts, but it's hard to associate those tokens with some ease, without this in the real deal, right?
+[33:22] **kushti**: So, I mean, this session will be made, right?
+[33:27] **kushti**: gradually, token by token, by the emission process.
+[33:34] **kushti**: So yeah, that is at this point when it's still locked in the contract.
+[33:40] **kushti**: Well, who owns this picture, right?
+[33:45] **kushti**: It's quite complicated.
+[33:49] **kushti**: Yeah, it seems commodities is the lowest hanging fruit, so I'm talking with Dan about his Lithos project, right?
+[34:04] **kushti**: And then, well, in commodities,
+[34:08] **kushti**: settings so it makes sense to combine physical and digital
+[34:20] **kushti**: like it's right.
+[34:20] **kushti**: So tokens representing physical lithium, for example, with well, algorithmic lithium stable coin, for example, which would be used to secure which is not produced yet.
+[34:38] **kushti**: Right.
+[34:38] **kushti**: So if you're buying lithium, then you can get stable coin immediately.
+[34:42] **kushti**: Right.
+[34:43] **kushti**: Then, yeah, well, you're sick.
+[34:47] **kushti**: by that stable coin, but when physical lithium is produced, you can exchange algorithmic lithium to physical lithium.
+[35:01] **kushti**: to digital tokens representing physical lithium for starters and then to physical lithium, right, which you can hold in your hands if you want to hold lithium in your hands.
+[35:16] **kushti**: It could be toxic, I'm not sure.
+[35:21] **kushti**: Well, in regards with this, it's not an issue, right?
+[35:28] **kushti**: Currently we have an issue with solid stable coins such as SigmaUSD, Gluon also probably, right?
+[35:39] **kushti**: Because of, well, over-collateralization means you cannot mint a lot of tokens, right, because you need a lot of capital, right, reserves and so on.
+[35:55] **kushti**: But when you use algorithmic stablecoins as a buffer, right, for physical assets, then it makes sense that you are using
+[36:07] **kushti**: algorithmic stable coins to secure risks, right?
+[36:12] **kushti**: You may have, for example, lithium may not be produced, right?
+[36:19] **kushti**: There is a chance of that.
+[36:21] **kushti**: Or you can buy a brick of gold in
+[36:28] **kushti**: some vault in Dubai, for example, when you're outside, but then you have a chance of another COVID pandemic, right?
+[36:37] **kushti**: And then no flights, so you cannot reach the vault.
+[36:40] **kushti**: And in this case, you can have, well, your stablecoin-based insurance, basically.
+[36:50] **kushti**: I made a forum post on that.
+[36:53] **kushti**: many months ago on well contracts which is securing physical assets with digital algorithmic twins so physical gold for example with algorithmic gold
+
+[37:18] **Armeanio**: Yeah, there's a lot of financial products that exist based on like the time friction of delivery, right?
+[37:27] **Armeanio**: So it's like, you have, I guess, a lot of paper financial products that first started with that friction where it's like, okay,
+[37:37] **Armeanio**: You own something that is in transit to you or to somewhere else.
+[37:42] **Armeanio**: And so it represents a claim rather than like a possession.
+[37:48] **Armeanio**: Like it's not really a bearer asset because you don't have it.
+[37:51] **Armeanio**: Someone else has it, but you have that friction in terms of settlement and physical reality.
+[37:56] **Armeanio**: Right?
+[37:57] **Armeanio**: So it's like you have a producer that fills a ship with oil.
+[38:00] **Armeanio**: And as that oil is moving across the ocean contracts are constantly being switching hands, every turn of the propeller until it gets to the final destination.
+[38:12] **Armeanio**: And then usually there's some notion of like settlements.
+[38:15] **Armeanio**: and possession of the commodity once it's physically arrived.
+[38:19] **Armeanio**: And that friction is never going to go away in physical reality, right?
+[38:23] **Armeanio**: We're talking about things that do not settle instantly because they have to move in the real world.
+[38:29] **Armeanio**: And so having some
+[38:32] **Armeanio**: I guess abstraction of ownership that I guess in some sense, there's like a layer two where it's like a notion of like pre confirmation and settlement that will later happen once reality catches up.
+[38:51] **Armeanio**: That's constantly happening with commodities.
+[38:54] **Armeanio**: And I think that is one of the more interesting use cases of those type of stable coins.
+[39:03] **kushti**: Right.
+[39:05] **kushti**: So yeah, well, a lot of interesting possibilities here, right?
+[39:10] **kushti**: And a lot of complexities, especially if we are talking about property rights.
+[39:18] **kushti**: In this age, we are already living in the age of programmable assets, right?
+[39:29] **kushti**: Programmable ownership.
+
+[39:32] **Armeanio**: Probably good to answer this question from Wombo.
+[39:38] **Armeanio**: Arm, can you speak a bit about your experience over the week with catalyst drama, what you heard and your thoughts on it?
+[39:46] **Armeanio**: I don't know.
+[39:49] **Armeanio**: I don't, I don't really see it as drama.
+[39:51] **Armeanio**: So, the catalyst is built with, certain parameters.
+[39:57] **Armeanio**: Okay.
+[39:58] **Armeanio**: And, and whenever you're going to deal with things on chain, it's a good idea to get some like notion of what the parameters are and how things operate.
+[40:06] **Armeanio**: So like from my framework, I don't know.
+[40:10] **Armeanio**: It's essentially like a DeFi protocol, right?
+[40:18] **Armeanio**: And so as a DeFi protocol, I guess if you look at how it functions, it is something that has an open attack vector for whales.
+[40:29] **Armeanio**: It always has, right?
+[40:31] **Armeanio**: So, we can look back in the Ergo experience of like, SigmaUSD, for a while had, had a, a certain whale that was moving things around just based on the weight of value that that whale could push around, right?
+[40:49] **Armeanio**: That's always been a open vector for catalyst drama.
+[40:55] **Armeanio**: And so, I've always kind of watched catalysts and say, okay, this is interesting.
+[41:01] **Armeanio**: Like if I were to go talk to Binance or a bit, or, party that, has a dominant amount of power in, Let's say ADA, they have the ability to influence outcomes.
+[41:19] **Armeanio**: That's how the system is designed.
+[41:22] **Armeanio**: So then it's like, okay, there's some logical path where unless that changes, the most logical outcome is that a large party can vote for themselves.
+[41:33] **Armeanio**: Right.
+[41:35] **Armeanio**: And, that is kind of a shitty form of governance, maybe, but I don't know.
+[41:41] **Armeanio**: I didn't create the parameters.
+[41:43] **Armeanio**: It's not my game, but I went to the table with that knowledge.
+[41:47] **Armeanio**: Right.
+[41:48] **Armeanio**: And so you had an entity that's actually not that large of an entity and it was the Cardano foundation, which I'm going to say probably has more.
+[41:58] **Armeanio**: I don't know alignment of intent than other potential whales right if we if we look at the SigmaUSD and like how the bear whale has his own incentive right and that's profit I think probably the cardano foundation has less of a profit incentive maybe they're making a statement or trying to get something I don't know exactly what their intent was and to be honest I don't need to care because
+[42:25] **Armeanio**: That's how the game is, right?
+[42:27] **Armeanio**: So if something happens in an open.
+[42:31] **Armeanio**: system within the parameters of how protocol functions, that's called fair game.
+[42:35] **Armeanio**: So I'm not going to sit around and cry about it.
+[42:37] **Armeanio**: And, I know some people will talk about philosophy and social theory and what is good and what is, bad and what is right and what is wrong.
+[42:47] **Armeanio**: And those are terrible security incentives for DeFi.
+[42:51] **Armeanio**: And essentially that's how this system operates.
+[42:54] **Armeanio**: So no crying.
+[42:56] **Armeanio**: understand your assumptions in the system and try to do your best to navigate within that.
+[43:02] **Armeanio**: And, like for Rosen Bridge, we've tried to create partnerships with, when MensSwap supported us in the past, Liquid has supported us and they have, pretty large power in terms of allocating votes.
+[43:16] **Armeanio**: That's just the game, right?
+[43:18] **Armeanio**: So it is what it is.
+[43:20] **Armeanio**: Things happen.
+[43:20] **Armeanio**: No crying.
+[43:21] **Armeanio**: You just, adapt, figure it out, move forward.
+[43:25] **Armeanio**: I think that sometimes when you're looking like DeFi, you just need to be cold and look at the parameters of a system.
+[43:31] **Armeanio**: This is how it functions and, operate from that perspective rather than like an emotional level.
+[43:39] **Armeanio**: Because, yeah, crying is not the type of liquidity we need, folks.
+[43:44] **Armeanio**: why don't we go to the next question?
+
+[43:50] **kushti**: what did you pick?
+[43:51] **kushti**: Actually a lot of questions.
+[43:54] **kushti**: some comments.
+[43:55] **kushti**: Nice coffee cup, Joe.
+[44:00] **kushti**: anything to share about hack participants, winners.
+[44:05] **kushti**: You want to take this?
+[44:07] **Armeanio**: I was not a judge this time.
+[44:09] **Armeanio**: I've been a little bit busy off-chain.
+[44:11] **Armeanio**: I do know that it looks like Satergo came in first place.
+[44:16] **Armeanio**: I think Bruno got second.
+[44:19] **Armeanio**: The Shark and the Sigmanauts came in third.
+[44:22] **Armeanio**: I haven't really dived into the projects to be honest.
+[44:26] **kushti**: what are those things where you get busy and then just external like bandwidth yes so yeah the first place is not just satergo but satergo offline world so yes some solution for well increased security
+[44:44] **kushti**: Especially when we are talking about sensitive amounts, right?
+[44:50] **kushti**: You shouldn't use mobile for sure, right?
+[44:53] **kushti**: I mean, that's quite a terrible choice talking about security.
+[44:57] **kushti**: So, I mean, mobile wallet is just for small amounts to play with, yeah, to have some fun, maybe to buy a pizza with ERGs and so on, but yeah, not for serious holding.
+[45:11] **kushti**: One of the options for serious holding would be better after certain reviews.
+[45:24] **kushti**: I would be happy to find time to take a look at Satergo Offline World.
+[45:31] **kushti**: Then, yeah, well, the second place is Bruno's, yeah, benefactory platform.
+[45:43] **kushti**: And, yeah, I'm in the middle of watching the video, actually, so, yeah, well, I'm posting them to ergochats.
+[45:54] **kushti**: When I'm starting watching, I've posted Satergo and Brunos and I'm in the middle of listening to it in the background.
+[46:06] **kushti**: Then the third place is Sigmanauts mining pool somewhat project-wide.
+[46:13] **kushti**: And then there are other interesting projects such as community, liquidity.
+[46:18] **kushti**: bootstrapping initiative so how well people who don't know about Ethereum and so on can participate in liquidity provision on Ethereum so provide liquidity for
+[46:42] **kushti**: Ethereum to ERG and USDT to ERG pools on Uniswap.
+[46:49] **kushti**: So very interesting project, I think.
+[46:54] **kushti**: Yeah, well, we need to check other projects, so I didn't participate this time because of traveling.
+[47:04] **kushti**: Yeah, well, I didn't have time to take a close look to all the submissions, to be honest.
+[47:11] **kushti**: So, yeah, well, maybe next time we can provide more extensive reviews.
+
+[47:24] **kushti**: A lot of things happening.
+[47:36] **kushti**: Yeah, then any question?
+[47:40] **kushti**: No, let me.
+[47:41] **kushti**: You want to prioritize a lot of questions.
+[47:43] **kushti**: That's good.
+[47:44] **Armeanio**: A lot of good questions.
+[47:46] **Armeanio**: Let's take this one from Luke Graysmith.
+[47:48] **Armeanio**: Can government be separated from money?
+[47:50] **Armeanio**: Can money be separated from government?
+[47:53] **Armeanio**: For most of human history, the peg, the least that fiat has been around the peg.
+[47:59] **Armeanio**: that kind of was the underlying base layer of money was not necessarily controlled by government then that would be like gold and silver now to some degree it's like okay was that physical asset like controlled and through force yeah so i guess i guess
+[48:17] **Armeanio**: Like on some level, even though like gold and silver being like the underlying peg for most fiat, still was connected to this idea of like, I don't know, keep what you kill.
+[48:32] **Armeanio**: And usually, governments and, groups have always kind of been fighting for ownership rights of various resources on this planet.
+[48:42] **Armeanio**: So it's hard to say like, full separation.
+[48:45] **Armeanio**: because government is just some like abstraction of collective human power and it's kind of hard to have like money which is a human phenomenon separate from
+[49:00] **Armeanio**: like humanity is a collective.
+[49:02] **Armeanio**: But one interesting thing about something like, proof of work assets or gold is it's like it is globally distributed.
+[49:11] **Armeanio**: It just takes, work and energy to, in essence, refine or extract these assets.
+[49:19] **Armeanio**: And there's a separation from the, let's say,
+[49:28] **Armeanio**: And there's like hard, the ability to hard code amounts in terms of money, which I guess maybe like on some level, the universe did that in terms of like precious metals that are available in our little biosphere or in like the case of Bitcoin or Ergo, they launched from Genesis with some finite amount.
+[49:48] **Armeanio**: So like, is it, can it be separated?
+[49:52] **Armeanio**: I think that the,
+[49:56] **Armeanio**: It's not exactly a clear-cut question because, government is just like an abstraction of collective human consciousness that, creates some consensus or order and, usually has some notion of like projecting power.
+[50:13] **Armeanio**: So not fully, but you can certainly restrict some of the parameters around like money and how that operates.
+[50:21] **Armeanio**: And I think that as
+[50:23] **Armeanio**: Like you get away from centralization, you generally get better assumptions.
+[50:27] **Armeanio**: What's your thought, kushti?
+
+[50:30] **kushti**: Yeah, so historically also, well, many countries now also called free banking when banks issued money without special regulations.
+[50:44] **kushti**: So that was in the U.S.
+[50:47] **kushti**: Mostly from 1830s to 1864.
+[50:54] **kushti**: Then later it took place in Canada, Hong Kong.
+[51:05] **kushti**: Yeah, I'm not sure about regulations, but yeah, currency there is well issued by private banks.
+[51:15] **kushti**: But yeah, I guess there are regulations now, right?
+[51:19] **kushti**: So well, currently, I'm not sure any free banking systems remain.
+[51:27] **kushti**: And so there are talks about getting back to free banking, right?
+[51:32] **kushti**: And I think with blockchain it actually makes sense because of transparency, right?
+[51:39] **kushti**: So the usual issue was
+[51:42] **kushti**: well fractional reserve rights and well improper reporting of reserves by private banks then yeah in all the cases basically governments use that to intervene right so to take control but then they did basically the same so well improper reporting of reserves and so on
+[52:09] **kushti**: Well, playing with fractional reserve, so it was back in 19th century even, right, so a long time before abandoning gold standard.
+[52:25] **kushti**: So back in 19th century there was no government fully backing paper money despite the claims.
+[52:36] **kushti**: Already right, but still some governments used the same issues on the private bank side to take control from private banks.
+[52:48] **kushti**: rather than to do the same, basically.
+[52:52] **kushti**: So yeah, now with blockchains, right, with transparency.
+[52:58] **kushti**: possible transparency of reserves and operations.
+[53:03] **kushti**: Yeah, it's possible, right, to get back to free banking and actually I saw ChainCash is some attempts, right, to model the revival of free banking on top of blockchain assets.
+[53:23] **kushti**: So the second presentation
+[53:26] **kushti**: of ChainCash is about that.
+[53:33] **kushti**: Actually, so the first one was more technical, right?
+[53:37] **kushti**: And yeah, it was ErgoHack report.
+[53:39] **kushti**: But yeah, the second presentation is for a general audience familiar with free banking ideas.
+[53:47] **kushti**: But the idea is simple as that.
+[53:49] **kushti**: So it's when private banks can issue
+[53:55] **kushti**: money rights under the same units of accounts.
+[54:01] **kushti**: Well, hey, if you're talking about the US, for example, back in 19th century, so it was dollar right, but issued by different banks.
+[54:12] **kushti**: And well, on blockchain, now everyone can be the bank rights.
+[54:21] **kushti**: Yeah, well and also Everyone well in case of ChainCash is free to use full coverage or fractional reserve And then yeah, it's it's up to well agents accepting Not see issued in this free banking kind of system and
+[54:48] **kushti**: Yeah, going back to the question, right?
+[54:50] **kushti**: So yeah, I mean, it's a pretty well-known environment, I guess.
+[54:55] **kushti**: And yeah, well, before 20th century, actually, that was quite normal to have private money, right?
+[55:07] **kushti**: Along with government's money.
+[55:12] **kushti**: Well, there were many countries, actually.
+[55:19] **kushti**: not not having central banks and government issued money at all.
+[55:25] **kushti**: So yeah, I mean, it's government's own money is relatively a new phenomenon, actually, historically.
+[55:34] **kushti**: Okay,
+[55:41] **kushti**: Hopefully enough.
+[55:45] **kushti**: I mean, we can talk more about when it comes to such topics.
+[55:52] **kushti**: We can talk for a long time, but yeah, probably enough.
+
+[55:55] **Armeanio**: I was thinking about that in relation to stable coins, actually, as you were talking.
+[56:05] **kushti**: Well, stablecoins are also a form of private money, issued by Tether, for example.
+[56:15] **Armeanio**: Yeah.
+[56:15] **Armeanio**: And there's always questions like what's the backing or audit ability of it.
+[56:19] **Armeanio**: And like, on some abstract level, it's like, okay, well let's say you have backing and it's like, okay, I'm sitting on this couch and this couch can be denominated in dollars.
+[56:32] **Armeanio**: So then can I create my own, Joe's couch dollars that's backed by this couch and then say, Hey everybody, we're going to spend, Joe couch dollars.
+[56:43] **Armeanio**: And it has,
+[56:45] **kushti**: Actually, why not?
+[56:49] **kushti**: It would still be better than most of meme coins, right?
+[56:55] **kushti**: Because in case of meme coins, it's not even claimed that they're backed by anything, right?
+[57:05] **kushti**: I don't know.
+[57:07] **kushti**: Social energy.
+[57:07] **kushti**: Yeah, social energy, some information phenomenon.
+[57:12] **kushti**: Yeah.
+[57:14] **kushti**: How to call it?
+[57:15] **kushti**: I don't know.
+[57:15] **kushti**: So some meme actually, right?
+[57:18] **Armeanio**: I think you just say that like there's this weird
+[57:22] **Armeanio**: Phenomenon that's like where attention goes I don't know energy flows and money goes there, too So it's like memes are constantly trying to be like give me attention.
+[57:33] **Armeanio**: Give me attention and the more attention they get then People throw money at it.
+[57:37] **Armeanio**: So I guess in some sense, maybe Joe's couch dollars are a little bit more durable but it's weird because like from
+[57:46] **Armeanio**: If you talk to somebody that's not familiar with blockchain or free banking, they'll be like, hey, isn't that counterfeiting?
+[57:53] **Armeanio**: Like you're creating some abstract dollar that's not quote unquote a dollar.
+[58:01] **Armeanio**: And so I think that's ultimately where you get a lot of friction from government anyway, is there's probably people that have this mindset like you're creating artificial dollars
+[58:14] **Armeanio**: That we don't have the same level of oversight and control Versus like the the original dollar so I think that is one of the biggest pain points probably in terms of stable coins peg to the fiat specifically in the US like you're inheriting their jurisdiction in their mindset and that's dangerous and So I even think we're gonna see like a more
+[58:43] **Armeanio**: more of a split than we've already seen.
+[58:45] **Armeanio**: It's like, okay, you have, USDC and they have some, regulatory support and then, ripple is coming and they're going to have, better licensing.
+[58:55] **Armeanio**: So like, again, if you go back to what we were talking about with real world assets, it's like, you have to deal with these off chain layers and different jurisdictions.
+[59:06] **Armeanio**: And
+[59:06] **Armeanio**: like at some point it unlocks potential utility, but it also creates a single attack surface.
+[59:14] **Armeanio**: And it's like, well, maybe there's value in that utility, but your resilience maybe doesn't, so much exist anymore.
+[59:25] **Armeanio**: And that's going to be an interesting trade off to see how people deal with that or, approach it or don't deal with it, I guess.
+[59:34] **Armeanio**: I've always thought that dealing with that layer of like jurisdictional complexity probably makes the most sense on another layer and the base, but that's, that's my thought anyway.
+[59:47] **Armeanio**: See any good questions, kushti?
+
+[59:49] **kushti**: a lot of, so,
+[59:53] **kushti**: Let's start with some shilling maybe.
+[59:56] **kushti**: Where can we buy Ergo hats like yours worldwide?
+[60:00] **kushti**: So you wanna show some store?
+[60:05] **Armeanio**: I'm not really, I have no idea.
+[60:07] **Armeanio**: The internet, somebody in the chat or did a link at some point and I bought a hat.
+[60:14] **Armeanio**: So hopefully you can join like, I don't know, telegram discord, Twix, whatever they call it now.
+[60:23] **Armeanio**: and ask, what's the latest and greatest place to buy Ergo physical merchandise.
+[60:29] **kushti**: And yeah, MewFinance is an option, but I think MewMart has some steel, but they have made mining great again, right?
+[60:44] **kushti**: But the question is about yours.
+[60:47] **kushti**: No, I have no idea.
+[60:50] **kushti**: Do you want to sell it maybe on you?
+[60:54] **kushti**: Well, do you have maybe some extra to sell?
+[60:57] **Armeanio**: I don't know.
+[60:58] **Armeanio**: I bought a better one.
+[61:00] **Armeanio**: Wanna show your supplier maybe?
+[61:02] **Armeanio**: Oh yeah, I bought a better one like three years ago, but I gave it to mgPai.
+[61:07] **Armeanio**: All right.
+
+[61:11] **kushti**: Yeah, then let me answer a question.
+[61:18] **kushti**: How can this Ergo network interact with other blockchain networks that use different consensus algorithms?
+[61:28] **kushti**: So there are many different options here.
+[61:32] **kushti**: So if we are talking about, well, proof-of-work blockchains with, let's say, simple consensus, such as Bitcoin with its just SHA-256 hash function being used as proof-of-work function, then you can build even a trustless relay from Bitcoin to Ergo.
+[61:56] **kushti**: And actually, the prototype was built by me at some ErgoHack back in June, I believe.
+[62:12] **kushti**: So yeah, you can check it and by using that trustless relay so you can trustlessly bring Bitcoin to Ergo maybe, right?
+[62:26] **kushti**: You just need to consider locking condition on Bitcoin.
+[62:32] **kushti**: You can use, for example, well, you can burn
+[62:36] **kushti**: bitcoin on bitcoin blockchain and presents a proof to get some tokens on ergo blockchain that's a proof of born idea maybe not popular now but back in 2014 there were some
+[62:54] **kushti**: kind of ICOs or token generation events based on proof of burn, right?
+[63:02] **kushti**: And yeah, I guess a lot of Bitcoins were burned, so they are proof of burn.
+[63:08] **kushti**: events.
+[63:10] **kushti**: Then you can also bring information from Bitcoin blockchain messages and metadata written in OP_RETURNs outputs.
+[63:24] **kushti**: The problem is that the opposite way doesn't work, right?
+[63:29] **kushti**: So from Ergo to Bitcoin you cannot build trustless relay really
+[63:36] **kushti**: Well, at least it's not known how to build one because of Bitcoin limitations.
+[63:46] **kushti**: So, well, in this case, you can use multi-signature-based solutions and here, well, maybe Joe can tell us about Rosen Bridge.
+[64:02] **kushti**: how it works with different blockchains based on different consensus mechanisms.
+[64:09] **kushti**: Sure.
+[64:10] **Armeanio**: Well, you basically are kind of abstracting that off the chain, at least with Rosen Bridge.
+[64:18] **Armeanio**: So you're creating, scanners that are reading and posting data between two networks.
+[64:25] **Armeanio**: So you kind of have an intermediary layer
+[64:28] **Armeanio**: Yeah, there's a lot of different potential ways to
+[64:33] **Armeanio**: Connect in different environments.
+[64:37] **Armeanio**: I would recommend that, if you want to look at how Rosen Bridge works, we have a lot of documentation on the website.
+[64:42] **Armeanio**: You can also join the channel and kind of dive in to kind of the different chains that we connect to and, how they operate, what their assumptions are, because we always have to have a footprint in like whatever their consensus or finality process looks like.
+[65:03] **Armeanio**: So it's it's a little bit different in a way if you're looking at like the assumptions of settlement from system to system to system.
+[65:12] **Armeanio**: But there's a lot of different ways these can connect.
+[65:16] **Armeanio**: I like Rosen Bridge's design because like from my perspective, it treats assets more like assets versus just information.
+[65:25] **Armeanio**: Like there's a lot of bridges that more or less pass information or
+[65:29] **Armeanio**: proofs of something versus go through like a redundant auditing process like you would expect with money itself versus kind of like information relaying any other questions on there that that makes sense to you kushti oh a lot of questions oh we are out of time so
+
+[65:57] **kushti**: you think one question, one more question.
+[66:02] **Armeanio**: Yeah.
+[66:02] **Armeanio**: Pick whatever's random.
+[66:13] **kushti**: Oh, there is one awesome question about identity.
+[66:18] **kushti**: But yeah, it's about 20 minutes probably to answer.
+[66:23] **kushti**: So ask next time.
+[66:27] **kushti**: Just copy paste this question.
+[66:30] **kushti**: Currently we are out of time.
+[66:37] **kushti**: Some questions about Rosen Bridge or maybe let's pick something for both of us.
+[66:44] **kushti**: Yeah.
+[66:45] **kushti**: So yeah, please copy paste.
+[66:50] **kushti**: Well, paste during the next time, please.
+[66:59] **kushti**: Wait, wait, wait.
+[67:02] **kushti**: What's the answer?
+[67:10] **kushti**: How can we tokenize consumable commodities?
+[67:14] **kushti**: Probably also quite involved, right?
+[67:18] **kushti**: How much Kraken is asking for Ergo listing?
+[67:27] **kushti**: I don't know about any ask.
+[67:35] **kushti**: thoughts on aliens oh we don't have time for serious questions even sorry ask the hard questions yeah that's good hard questions yeah we had some great questions today
+
+[68:00] **Armeanio**: It's things that if you just kept talking about it.
+[68:03] **kushti**: Oh, yeah, yeah, yeah.
+[68:04] **kushti**: So government and money.
+[68:06] **kushti**: Yeah.
+[68:06] **kushti**: So it was really hard question among others, but we don't have time for hard questions as well.
+[68:12] **kushti**: So what to do?
+[68:15] **kushti**: Maybe, yeah, let's, let's talk if that's time.
+[68:29] **kushti**: What's the answer?
+[68:35] **kushti**: kushti.
+[68:35] **kushti**: Will you be taken a well earned break over Christmas?
+[68:39] **kushti**: How's about that?
+[68:42] **kushti**: I don't know.
+[68:42] **Armeanio**: Yeah, that's a good one from just a little bit better.
+[68:48] **Armeanio**: Probably not.
+[68:51] **Armeanio**: I'll cook some food.
+[68:52] **Armeanio**: It's not that hard at least.
+[68:56] **kushti**: yeah do i take a break over christmas no i'll i'll take a day cook some food have family you're you're on the orthodox you get to january christmas right january 7th and yeah then also night of six but yeah it's it's pretty much the same plan so usually yeah i'm i'm going to church on
+[69:26] **kushti**: January 6th night and then yeah well taking rest for half a day on 7th and yeah that's it basically then you continue to work yeah nice food day though hopefully you got good stuff cooking over there yeah so yeah
+[69:54] **kushti**: It's usually about, yeah, you can have something like duck or turkey, so maybe not very different even.
+[70:07] **kushti**: I'm going to smoke beef rib roast.
+[70:12] **kushti**: Yeah, sounds good.
+[70:14] **kushti**: So yeah, a lot of questions, but we need for time to answer them.
+[70:21] **kushti**: So please repeat the next time and yeah, well,

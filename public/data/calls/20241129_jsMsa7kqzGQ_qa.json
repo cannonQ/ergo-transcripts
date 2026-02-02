@@ -1,0 +1,150 @@
+{
+  "call_date": "2024-11-29",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "10:56",
+      "question": "How would you explain Bitcoin in simple terms?",
+      "asker": "tmr.erg",
+      "answer": "Bitcoin is written on a program that creates a blockchain ledger, which is mined at intervals based on difficulty and rewards bitcoins after processing power input from GPUs. It has a finite resource meant to be mined over time, uses a traceable blockchain, was created by an anonymous source, is decentralized (not controlled by government), and is stored in digital wallets with encrypted keys that can be exchanged worldwide for fees.",
+      "responder": "Wade",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "blockchain",
+        "mining",
+        "decentralized",
+        "digital wallets"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "15:05",
+      "question": "How do cryptocurrency wallets and private keys work?",
+      "asker": "tmr.erg",
+      "answer": "The wallet has the private key which gives you the ability to spend a given box, and within that box is your specific asset. To spend that box and create a new box with UTXO (unspent transaction output), you have to burn the boxes signed by your private key and send them to another address. The wallet is a view within the blockchain of the subset of boxes that are only spendable by you with your specific private key.",
+      "responder": "Marc the Shark",
+      "category": "wallet",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "private key",
+        "UTXO",
+        "boxes",
+        "digital signatures"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "16:54",
+      "question": "What are smart contracts and how do they work?",
+      "asker": "tmr.erg",
+      "answer": "Smart contracts add another layer to regular transactions. Instead of tokens only being spendable if you sign the transaction, you can add conditions like 'send this to Tim in 10 minutes, or I can send it right now, but otherwise Tim can spend it.' You can run off-chain bots to collect those boxes automatically and send them to the recipient, enabling programmatic financial applications.",
+      "responder": "Marc the Shark",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "smart contracts",
+        "conditional transactions",
+        "off-chain bots",
+        "programmable money"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "18:59",
+      "question": "How does smart contract security differ between blockchains?",
+      "asker": "tmr.erg",
+      "answer": "On Ergo, smart contracts use Sigma propositions - if the Sigma prop is true, that box gets to be spendable. On Ethereum, people can write 'or' statements that if they become true, allow spending, but this has led to millions of dollars being hacked because of flaws within smart contracts that create unexpected fund leaks from proxy contracts.",
+      "responder": "Marc the Shark",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "Sigma propositions",
+        "smart contract security",
+        "Ethereum vulnerabilities",
+        "proxy contracts"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "36:21",
+      "question": "Why do we need other blockchains beyond Bitcoin?",
+      "asker": "Wade",
+      "answer": "Originally Bitcoin was just for transacting and sending/receiving coins manually without smart contract functionality. Ethereum came out in 2015-2016 as the first smart contract platform, but being first, it had flaws. This led to blockchains like Ergo that do things more efficiently and securely, using only proven cryptographic principles from Bitcoin while adding smart contract capabilities without technological risks.",
+      "responder": "tmr.erg",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "smart contracts",
+        "blockchain evolution",
+        "proven cryptography",
+        "technological risks"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "40:12",
+      "question": "What makes Ergo different from other cryptocurrencies in terms of accessibility?",
+      "asker": "Wade",
+      "answer": "Unlike Bitcoin which moved to expensive $10K ASIC miners, Ergo can be mined with GPUs costing a few hundred dollars, and someone even connected an AMD GPU to a Raspberry Pi to mine. From a transaction perspective, Ethereum has gas fees of $20-100 that can fail and you lose the money, while Ergo transactions cost 0.001 ERG (about $0.0014) and if they don't send, they simply don't send - no loss of funds.",
+      "responder": "Marc the Shark",
+      "category": "mining",
+      "difficulty": "beginner",
+      "related_terms": [
+        "GPU mining",
+        "accessibility",
+        "transaction fees",
+        "ASIC resistance"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "44:53",
+      "question": "What's the difference between Proof of Work and Proof of Stake consensus mechanisms?",
+      "asker": "Wade",
+      "answer": "Proof of Work uses mining equipment and energy to secure the network - anyone can set up a mining pool just by running code. Proof of Stake requires you to buy and hold a specific asset to run stake pools - to be a Cardano stake pool operator you need millions of ADA. Proof of Work is more accessible because new entrants always have advantages with better technology, while Proof of Stake favors those who already have large holdings.",
+      "responder": "Marc the Shark",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "proof of work",
+        "proof of stake",
+        "mining pools",
+        "stake pools",
+        "accessibility"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "46:09",
+      "question": "Why is Proof of Stake criticized compared to Proof of Work?",
+      "asker": "tmr.erg",
+      "answer": "In Proof of Stake, if you have 10% of all coins and stake them, you'll always have 10% because you earn interest for staking. It's not a level playing field for new entrants. In Proof of Work, difficulty and technology increase over time, so new entrants get advantages with better solar panels, graphics cards, and equipment, giving them production advantages over older miners even if those miners have more coins.",
+      "responder": "tmr.erg",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "proof of stake criticism",
+        "wealth concentration",
+        "technological advancement",
+        "fair distribution"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "52:36",
+      "question": "Can you use different currencies seamlessly in crypto transactions?",
+      "asker": "Wade",
+      "answer": "Yes, through something called 'Babel fees' - you can choose to spend whatever currency you want and it'll make the transaction on the back end automatically. You don't even know that the conversion happened, it just tells you how much it cost, similar to using an American credit card in Europe with automatic currency conversion.",
+      "responder": "tmr.erg",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Babel fees",
+        "currency conversion",
+        "seamless transactions",
+        "user experience"
+      ]
+    }
+  ]
+}

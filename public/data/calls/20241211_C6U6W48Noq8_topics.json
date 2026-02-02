@@ -1,0 +1,146 @@
+{
+  "call_date": "2024-12-11",
+  "call_title": "Last Byte Bar | Marc The Shark | ErgoHack 9",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Mining Rights Protocol Introduction and Core Concept",
+      "category": "technical",
+      "start_time": "00:15",
+      "end_time": "01:48",
+      "primary_speaker": "Marc the Shark",
+      "summary": "Marc introduces the Mining Rights Protocol (MRP), a mineral rights inspired system for blockchain mining that uses NFT-enhanced mining privileges and rights-based token distribution. The system allows miners to buy rights tokens that grant them the ability to emit specific tokens when they find blocks, creating a dual reward system on top of Ergo.",
+      "key_terms": [
+        "Mining Rights Protocol",
+        "MRP",
+        "rights tokens",
+        "mineral rights",
+        "dual rewards",
+        "emission tokens",
+        "NFT enhanced mining"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Technical Architecture and Smart Contract Flow",
+      "category": "technical",
+      "start_time": "02:07",
+      "end_time": "04:04",
+      "primary_speaker": "Marc the Shark",
+      "summary": "Marc explains the technical implementation using two proxy contracts for rights tokens and MRP tokens, with a verification flow that checks miner rights, block discovery, and claim validation. The system includes gamification features like NFT bonuses and can generate rewards based on block parameters like height and size.",
+      "key_terms": [
+        "proxy contracts",
+        "smart contracts",
+        "block validation",
+        "claim verification",
+        "gamification",
+        "NFT bonuses",
+        "protocol fees"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "User Interface and Distribution Bot Requirements",
+      "category": "technical",
+      "start_time": "04:04",
+      "end_time": "05:18",
+      "primary_speaker": "Marc the Shark",
+      "summary": "Marc outlines the technical requirements including a user interface for protocol owners to configure tokens and distribution bots that use Ergo nodes to facilitate smart contract interactions. He mentions having working prototypes built in Python and plans for GitHub repositories and documentation.",
+      "key_terms": [
+        "user interface",
+        "distribution bots",
+        "Ergo nodes",
+        "Python prototypes",
+        "GitHub repos",
+        "protocol configuration"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Protocol Owner Dashboard and Token Management",
+      "category": "technical",
+      "start_time": "05:18",
+      "end_time": "07:08",
+      "primary_speaker": "Marc the Shark",
+      "summary": "Marc demonstrates a prototype UI showing how protocol owners can configure NFT quantities, distribution patterns, rights token pricing, and funding requirements. He explains the owner's responsibilities for token creation, initial sales, rights distribution, and parameter management, with safeguards against rug pulls planned for mainnet.",
+      "key_terms": [
+        "protocol owner",
+        "dashboard",
+        "token configuration",
+        "rights distribution",
+        "parameter management",
+        "funding requirements",
+        "rug pull protection"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Rights Holder Experience and Bot Infrastructure",
+      "category": "technical",
+      "start_time": "07:08",
+      "end_time": "08:24",
+      "primary_speaker": "Marc the Shark",
+      "summary": "Marc describes the user experience for rights holders who can purchase tokens, claim mining rewards, and collect NFTs, along with potential staking opportunities. He explains the bot infrastructure that performs real-time block scanning, rights verification, and reward calculations, comparing it to a synthetic GPU mining system.",
+      "key_terms": [
+        "rights holder",
+        "mining rewards",
+        "bot infrastructure",
+        "block scanning",
+        "rights verification",
+        "synthetic GPU mining",
+        "reward calculation"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Emission Schedule and Development Roadmap",
+      "category": "technical",
+      "start_time": "08:24",
+      "end_time": "10:19",
+      "primary_speaker": "Marc the Shark",
+      "summary": "Marc presents a 10-year emission schedule with halving mechanics and outlines the development roadmap from current prototypes to core protocol testing on testnet. The plan includes building an SDK toolkit and launching specific tokens after thorough validation and security testing.",
+      "key_terms": [
+        "emission schedule",
+        "halving mechanics",
+        "development roadmap",
+        "testnet",
+        "core protocol",
+        "SDK",
+        "security validation"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "NFT Minting Integration and Future Features",
+      "category": "nft",
+      "start_time": "10:19",
+      "end_time": "11:45",
+      "primary_speaker": "Marc the Shark",
+      "summary": "Marc explains plans to integrate NFT minting where miners can purchase rights to mint limited NFT collections, using mining randomness to determine when NFTs are created. He also discusses potential staking opportunities for rights tokens and partnerships with marketplaces like MewMart.",
+      "key_terms": [
+        "NFT minting",
+        "limited collections",
+        "mining randomness",
+        "MewMart marketplace",
+        "staking opportunities",
+        "synthetic mining environment"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Community Partnerships and Governance Plans",
+      "category": "governance",
+      "start_time": "11:45",
+      "end_time": "12:03",
+      "primary_speaker": "Marc the Shark",
+      "summary": "Marc concludes by outlining plans for community partnerships and potential governance through a Paideia DAO if the protocol gains traction. He seeks community feedback on the concept and expresses excitement about submitting the project.",
+      "key_terms": [
+        "community partnerships",
+        "Paideia DAO",
+        "governance",
+        "community feedback",
+        "project submission"
+      ]
+    }
+  ]
+}

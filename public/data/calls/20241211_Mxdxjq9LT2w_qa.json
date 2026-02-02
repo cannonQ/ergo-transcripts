@@ -1,0 +1,21 @@
+{
+  "call_date": "2024-12-11",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "00:12",
+      "question": "How do you set up a multisig wallet registration process with multiple clients?",
+      "asker": "vourjack",
+      "answer": "First, clients must register on the server. For a four-wallet setup with three out of four signature requirements, registration is only needed for three wallets. Each client goes to multisig communication, selects the server tab, hits the register button, enters the server URL and password, then hits register again. This process is repeated on the second and third wallets.",
+      "responder": "vourjack",
+      "category": "wallet",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "multisig",
+        "wallet",
+        "registration",
+        "server"
+      ]
+    }
+  ]
+}

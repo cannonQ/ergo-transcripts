@@ -1,0 +1,166 @@
+{
+  "call_date": "2024-11-15",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - November 14th 2024",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "10:55",
+      "decision": "New multisig members will be Luivatra, CW, Mark the Shark, Jake the Snake, and CannonQ",
+      "speaker": "qx()",
+      "context": "Current multisig members are not always active in the ecosystem",
+      "topic": "governance",
+      "significance": "minor",
+      "quote": "I believe it's Luivatra, CW, Mark the Shark, Jake the Snake, and CannonQ"
+    },
+    {
+      "id": 2,
+      "timestamp": "23:35",
+      "decision": "Mark temporarily turned off Rosen token mining payments and returned to mine core payments",
+      "speaker": "qx()",
+      "context": "Needed a couple more tweaks after testing revealed issues",
+      "topic": "mining",
+      "significance": "minor",
+      "quote": "He had it on for, I think, two days and then pulled it back and turned on mine core payments again"
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "00:49",
+      "commitment": "Finish Ergo names project during Thanksgiving and Christmas break",
+      "owner": "MGpai",
+      "timeline": "Thanksgiving and Christmas 2024",
+      "topic": "development",
+      "quote": "So hoping to use that time to get more involved again in Ergo names, but we have Thanksgiving and Christmas. So I'm pretty confident I can finish it then"
+    },
+    {
+      "id": 2,
+      "timestamp": "11:59",
+      "commitment": "Complete Moria Finance (multisig web interface) after Nautilus updates",
+      "owner": "MGpai",
+      "timeline": "Easter or Christmas",
+      "topic": "development",
+      "quote": "I would definitely maybe that'll be Easter or something. I think possible work or Christmas"
+    },
+    {
+      "id": 3,
+      "timestamp": "26:47",
+      "commitment": "Keystone wallet integration to be completed",
+      "owner": "PGR456",
+      "timeline": "end of the year",
+      "topic": "development",
+      "quote": "I think he said the end of the year recently. He said for sure"
+    },
+    {
+      "id": 4,
+      "timestamp": "14:19",
+      "commitment": "Create new multisig in a ceremony and send one big transaction from old to new",
+      "owner": "qx()",
+      "timeline": "after the vote passes",
+      "topic": "governance",
+      "quote": "we'll create the multisig in a little ceremony with wine and cheese, maybe some sausage. And then we'll send one big transaction from the old multisig to the new one"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "05:01",
+      "question": "When will Dogecoin integration with Rosen Bridge be available",
+      "context": "Discussion about Trump's DOGE department and potential Dogecoin price movement",
+      "topic": "rosen-bridge",
+      "raised_by": "MGpai"
+    },
+    {
+      "id": 2,
+      "timestamp": "30:29",
+      "question": "When will Kraken listing happen",
+      "context": "Ergo is on Kraken's shortlist but timing is uncertain",
+      "topic": "exchange-listing",
+      "raised_by": "Ahmet"
+    },
+    {
+      "id": 3,
+      "timestamp": "51:07",
+      "question": "When will Palmyra launch their coin/token",
+      "context": "Community asking about timing for Palmyra project token launch",
+      "topic": "palmyra",
+      "raised_by": "FC CannonQ"
+    }
+  ],
+  "reversals_or_updates": [
+    {
+      "id": 1,
+      "timestamp": "10:55",
+      "previous": "Old multisig with early members who are not always active",
+      "update": "New multisig with active Sigmanauts members",
+      "reason": "Current multisig members are not always in the ecosystem, transactions take too long",
+      "speaker": "qx()",
+      "topic": "governance"
+    }
+  ],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "00:49",
+      "fact": "Ergo names smart contracts are completed, only off-chain work remains",
+      "speaker": "MGpai",
+      "topic": "development"
+    },
+    {
+      "id": 2,
+      "timestamp": "05:01",
+      "fact": "Bitcoin crossed 90k price level",
+      "speaker": "MGpai",
+      "topic": "market"
+    },
+    {
+      "id": 3,
+      "timestamp": "05:01",
+      "fact": "Dogecoin went from 11 cents to 30+ cents (3x increase)",
+      "speaker": "qx()",
+      "topic": "market"
+    },
+    {
+      "id": 4,
+      "timestamp": "18:19",
+      "fact": "11,435 people in the Ergo Telegram chat",
+      "speaker": "qx()",
+      "topic": "community"
+    },
+    {
+      "id": 5,
+      "timestamp": "20:56",
+      "fact": "Sigma Explorer has completely different backend built from ground up, fastest and most scalable Explorer",
+      "speaker": "MGpai",
+      "topic": "development"
+    },
+    {
+      "id": 6,
+      "timestamp": "26:09",
+      "fact": "Ergo was number one or two most profitable coin to mine when price was around 130",
+      "speaker": "qx()",
+      "topic": "mining"
+    },
+    {
+      "id": 7,
+      "timestamp": "27:56",
+      "fact": "Keystone wallet integration is blocked by a rust library issue in Sigma rust",
+      "speaker": "MGpai",
+      "topic": "development"
+    },
+    {
+      "id": 8,
+      "timestamp": "41:51",
+      "fact": "7.8% slippage hit for swapping 1000 ERG to Rosen BTC on ErgoDEX",
+      "speaker": "qx()",
+      "topic": "defi"
+    },
+    {
+      "id": 9,
+      "timestamp": "53:04",
+      "fact": "Sky Harbor marketplace frontend UI version 2 finished and in testing, backend has not much work left",
+      "speaker": "qx()",
+      "topic": "development"
+    }
+  ]
+}

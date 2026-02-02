@@ -1,0 +1,172 @@
+{
+  "call_date": "2024-11-04",
+  "call_title": "P2Podcast | Episode 2",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "ERG Emission Reduction and Mining Impact",
+      "category": "technical",
+      "start_time": "00:44",
+      "end_time": "04:22",
+      "primary_speaker": "Marc the Shark",
+      "summary": "Discussion of the recent emission reduction from higher block rewards to current 21 ERG per block, with six more reductions planned until reaching 3 ERG in 2026. The reduction creates pressure on miners due to decreased rewards while electricity costs remain constant.",
+      "key_terms": [
+        "emission reduction",
+        "block reward",
+        "mining",
+        "halving",
+        "ERG supply"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Re-emission Contract and Extended Mining Timeline",
+      "category": "technical",
+      "start_time": "02:36",
+      "end_time": "06:22",
+      "primary_speaker": "tmr.erg",
+      "summary": "Explanation of how the original aggressive emission schedule was changed through 90% miner consensus, creating a re-emission contract that extends mining until 2044-2045. The change splits initial emissions between miners and a delayed contract to create a longer tail distribution.",
+      "key_terms": [
+        "re-emission contract",
+        "miner consensus",
+        "emission curve",
+        "storage rent",
+        "mining incentives"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Storage Rent and Future Mining Innovation",
+      "category": "technical",
+      "start_time": "06:27",
+      "end_time": "09:13",
+      "primary_speaker": "tmr.erg",
+      "summary": "Discussion of how storage rent, adjustable fees, and fair initial mining offerings (FIMO) will support mining in low emission environments. Mining pools will need to innovate to collect storage rent and offer new reward mechanisms to remain profitable.",
+      "key_terms": [
+        "storage rent",
+        "adjustable fees",
+        "fair initial mining offerings",
+        "FIMO",
+        "mining pools"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Fair Initial Mining Offerings and Sidechains",
+      "category": "technical",
+      "start_time": "08:03",
+      "end_time": "11:42",
+      "primary_speaker": "tmr.erg",
+      "summary": "Exploration of how protocols could distribute governance tokens through mining rewards and the potential for application-specific sidechains. Discussion includes how sidechains could leverage Ergo's security while having specific purposes and token distribution mechanisms.",
+      "key_terms": [
+        "governance tokens",
+        "sidechains",
+        "application specific",
+        "token distribution",
+        "security model"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "NiceHash KYC Requirements and Privacy Concerns",
+      "category": "community",
+      "start_time": "11:44",
+      "end_time": "17:26",
+      "primary_speaker": "tmr.erg",
+      "summary": "Discussion of NiceHash implementing KYC requirements and broader privacy concerns in crypto mining. Speakers emphasize the importance of permissionless systems and how regulations often miss the point of blockchain technology's privacy and freedom benefits.",
+      "key_terms": [
+        "NiceHash",
+        "KYC",
+        "privacy",
+        "permissionless",
+        "regulation",
+        "data breaches"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Lithos Decentralized Mining Pool and Node 6.0",
+      "category": "technical",
+      "start_time": "17:39",
+      "end_time": "19:19",
+      "primary_speaker": "tmr.erg",
+      "summary": "Introduction to Lithos, a distributed permissionless mining pool running on-chain, coming with Node 6.0. This represents a decentralized alternative to centralized mining services like NiceHash, addressing KYC and centralization concerns.",
+      "key_terms": [
+        "Lithos",
+        "decentralized mining pool",
+        "Node 6.0",
+        "permissionless",
+        "on-chain mining"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Sidechains and Monero Integration Possibilities",
+      "category": "technical",
+      "start_time": "19:12",
+      "end_time": "22:17",
+      "primary_speaker": "tmr.erg",
+      "summary": "Discussion of sidechain development possibilities, including the concept of building Monero-like privacy features on top of Ergo. Speakers explore how sidechains could provide privacy tools while adding DeFi capabilities that Monero lacks.",
+      "key_terms": [
+        "sidechains",
+        "Monero",
+        "privacy",
+        "DeFi",
+        "ergo.meta",
+        "sidechain cookbook"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Bear Whale Attack on SigmaUSD",
+      "category": "defi",
+      "start_time": "22:31",
+      "end_time": "31:44",
+      "primary_speaker": "tmr.erg",
+      "summary": "Detailed explanation of the 2021 bear whale attack on SigmaUSD version 1, where an attacker exploited oracle speed to manipulate prices and drain reserves. The attack led to protocol improvements including oracle update rate limits and eventually the attacker lost 170,000 ERG.",
+      "key_terms": [
+        "bear whale",
+        "SigmaUSD",
+        "oracle manipulation",
+        "RSV",
+        "reserve ratio",
+        "protocol attack"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Gluon and Dexy Stablecoin Innovations",
+      "category": "defi",
+      "start_time": "30:54",
+      "end_time": "37:52",
+      "primary_speaker": "tmr.erg",
+      "summary": "Explanation of new stablecoin designs Gluon and Dexy that emerged from lessons learned in the bear whale attack. Gluon requires minting both stable and reserve tokens simultaneously, while Dexy uses automated arbitrage mechanisms without reserve tokens.",
+      "key_terms": [
+        "Gluon",
+        "Dexy",
+        "stablecoin",
+        "gold peg",
+        "AMM",
+        "synthetic assets",
+        "protocol owned liquidity"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Real-World Asset Tokenization Potential",
+      "category": "ecosystem",
+      "start_time": "37:53",
+      "end_time": "40:56",
+      "primary_speaker": "Marc the Shark",
+      "summary": "Discussion of tokenizing real-world assets like gold, houses, and other commodities using Ergo's stablecoin mechanisms. Includes humorous mention of trying to convince gold advocate Peter Schiff to tokenize gold on Ergo blockchain.",
+      "key_terms": [
+        "tokenization",
+        "real world assets",
+        "Peter Schiff",
+        "gold tokenization",
+        "ETF comparison",
+        "ChainCash"
+      ]
+    }
+  ]
+}
