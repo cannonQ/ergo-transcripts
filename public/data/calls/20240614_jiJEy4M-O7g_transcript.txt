@@ -1,0 +1,395 @@
+[00:17] **Armeanio**: What's up, everybody? Thanks for tuning in to this week's AMA slash weekly update.
+
+[00:23] **Armeanio**: Got a bit to cover. We just came out of the hackathon, had a lot of nice projects submitted. One thing that qx() wanted me to mention is that you as a community member actually have the ability to vote and control some hackathon rewards. So those of you that are interested in following, digging into perhaps what different people have built, you have the ability to join a community DAO, Paideia, where they have tokens in a faucet that you claim.
+
+[00:55] **Armeanio**: The instructions are embedded in the tokens, and I'm sure that we can get some kind of social media coverage on that from the Sigmanauts account to try to get people that are out there involved that want to look at some of the cool stuff that people have built.
+
+[01:12] **Armeanio**: I know that the judges right now are in review. I'm going to release my own prizes for the hackathon. So I'm in the process of digging through what people have built. There's a lot there. So those of you that want to join, please. It is a flat network, so people's input is always a benefit, right? It is a peer-to-peer system at the end of the day.
+
+[01:40] **Armeanio**: Another big news that we have this week is that Rosen is going to be launching the bridge Friday, based on current test trajectories. We've updated the GARD layer. Watchers are in the process of updating their instance. And that's actually pretty important because we're going through a major upgrade to where people that are not on top of being a service operator in the network are potentially at risk of being slashed.
+
+[02:15] **Armeanio**: So everybody out there, please keep your head over your toes. Pay attention. Update your instance. I don't want to see anybody suffer the consequence of potentially getting slashed. But that is something where if you're going to be a network service operator, you've got to keep your operation live, right? That requires some type of maintenance or focus. Hopefully nobody out there is going to get caught in that.
+
+[02:39] **Armeanio**: But please keep your eyes open and pay attention if that's something that you're running locally. With us today, we have a special guest, new to the AMA at least. He's been around in the community for a while. I've met up with him quite a few times in offline events. So I've talked with him quite a few times, Sam from Palmyra. So I'd like to call Sam sometimes Dan's business wife, where if you really need to get things done, that's the guy to go to because he always is on top of things. So how are you doing today, Sam?
+
+[03:13] **Sam Lambert**: Yeah, great. I was just talking to Joe just before this thing, the live stream went on. I've been watching this for a number of years and it's quite nostalgic.
+
+[03:25] **Sam Lambert**: Dan will be joining soon as well and I actually entered the blockchain space a number of years back. I got interested in blockchain mainly out of the insurance sector. My first startup that I ever tried building was in the insurance space trying to automate claims.
+
+[03:45] **Sam Lambert**: And this was like pre-ChatGPT days where we're trying to basically automate these legal documents so that there were claims workflows in place so you can make things faster. And I got fascinated about the idea of parametric insurance. And I still am to this day.
+
+[04:00] **Sam Lambert**: And I attended a Cardano summit, I saw Dan speak, and over the course of those months, I tuned in, was listening to the Ergo AMAs, Dan was speaking, and here we are today. I'm on it for the first time, and it's a pleasure to be here.
+
+[04:17] **Armeanio**: Yeah, it's great to have you. So, what's the latest on the Palmyra side? I know that there's quite a few people that watch due to Dan's exposure in the Ergo ecosystem, so what are you working on?
+
+[04:29] **Sam Lambert**: Yeah, so a lot of announcements, we're just going through an announcements campaign. A lot of partnerships have been in the work for a while. Like, one of the big ones that was just announced was with World Mobile.
+
+[04:47] **Sam Lambert**: We have a go-to-market strategy that we've been working on with them to effectively focus on connectivity, starting off with internet access followed by trade access and some of the solutions we're working on. They're extremely excited just from a values and mission point of view, extremely aligned and their team is incredibly experienced and focused and yeah, excited to be working with them.
+
+[05:11] **Sam Lambert**: There's a few other ones coming out. We just announced one with USDM, which is the, I think the first reserve backed stablecoin on Cardano. It's just surpassed, I think, 3 million US dollars minted on chain.
+
+[05:30] **Sam Lambert**: They're a great team as well, a strong focus on compliance. And we're going to need some of these solutions when we've got transactions happening on chain, as opposed to through the fiat payment rails that we're currently having to rely on. And then also later down the line for trade financing solutions, which is effectively allowing DeFi participants to lend money to producers and to buyers and traders who are looking to access capital at more favorable rates.
+
+[06:02] **Sam Lambert**: Yeah, really excited about that. On the product side, we've just started working on implementing the actual user interface for the traceability applications. We ran a series of pilots before, one with one of the largest gold wholesalers out of Thailand. That was about a year ago. And we've been working on the Winter Protocol for a while now, which is our open source traceability and tokenization standard.
+
+[06:28] **Sam Lambert**: But it's been worked on by two famous Ergo devs, Luca and mgPai. And I think they're in the process now of doing the smart contract upgrade. So this is our V2 and yeah, hoping to just get something out live. So yeah, really just a lot of movement on the partnership side, but the product side as well, it's just on fire.
+
+[06:49] **Sam Lambert**: The whole team's pumped up and the Winter Protocol's powered by Ergo's tokenization technology and it's just incredible. The fees are favorable, the UTXO structure is favorable and yeah, we're really excited to showcase this to the public.
+
+[07:08] **Armeanio**: Awesome. Another big project that has a big update or event that people should be paying attention to would be DuckPools. I don't know how many people out there are familiar with DuckPools, but it's an open source lending protocol. I think Krass has really done an amazing job.
+
+[07:26] **Armeanio**: And he's in the process of working through the 2.0 milestones where the first thing was this idea of continuous yield, updating some of the smart contracts in the backend and they have quite a nice roadmap in terms of the later stages of 2.0 where they go through upgrading the UI and prepare.
+
+[07:52] **Armeanio**: I do hope that as Rosen scales across new ecosystems, we bring in some liquidity that can leverage, perhaps Bitcoin, and try to really build TVL in their ecosystem.
+
+[08:09] **Armeanio**: We've done a good job of building, I would say, credit system there with the clear assumptions so those of you that are not aware I do believe they're approaching another funding round where so far relative to the capital input they've been able to out deliver I would say pretty much most DeFi products in the space and they've done so in an open source manner with good documentation.
+
+[08:34] **Armeanio**: So I'm always about trying to support DuckPools and what Krass is building because I think you build it the right way so those of you that are not familiar with that application, strong foundations are something that you can really build on long term, right?
+
+[08:59] **Armeanio**: And I do think that having this open source interoperable solution that they're working on is powerful. I know that they did have a hackathon project with option pools that starts to deliver more advanced financial products in DeFi and Ergo, which is great to see. So those of you that are out there, pay attention. It looks like Dan finally joined us. How you doing, Dan?
+
+[09:26] **Armeanio**: It's not Dan, it's Dan's AI. Dan's AI.
+
+[09:32] **Dan Friedman**: Hey, so Joe, I see you're still outdoors. Have you remained outdoors since yesterday or are you like, did you go inside at all?
+
+[09:42] **Armeanio**: It finally melted around here. It finally melted around here, man. You got to be outside and get the sun while it's there.
+
+[09:48] **Dan Friedman**: Well, it's only the middle of June. Yeah, of course. It's blast snow just melted on the ground where it's sweater weather now, right? You guys are ready for the summer? Getting there. Getting there.
+
+[10:03] **Dan Friedman**: So what's new on your end, dad?
+
+[10:05] **Dan Friedman**: All right, what's new on my end? Oh, God, a lot of stuff. So, yeah, so of course, we're still planning for the RareEvo, Ergo chill spot, right? So we got Rosen there. We got Sigmanauts. We're going to be there.
+
+[10:35] **Dan Friedman**: So it's going to be a lot of fun. I know you keep mentioning it every single AMA, but I think it's really a good opportunity for Sigmanauts that are also the Cardano ecosystem or even not, I mean, it doesn't have to be in the Cardano ecosystem because the cross-chain event just come down. Hang out with us. It's a good way to spend a few days with the team. So that's really good.
+
+[10:55] **Dan Friedman**: Also, I'm still working on attracting new funding sources for ErgoHack. So maybe for the next ErgoHack from other ecosystems that I'm speaking to, there's potentially going to be some more prize pools for open source. So that's going to be really good because I think the Ergo open source culture is a really great thing.
+
+[11:27] **Dan Friedman**: And it's very synergistic with the first principles of just what crypto is, blockchain is supposed to be about. And I think that other places are really starting to pick up on that because not just because it's the right thing to do, but because the right thing to do business wise.
+
+[11:41] **Dan Friedman**: We were just talking about that on the livestream yesterday. It's not just about, yeah, man, we all got to share in this, man, peace and love and all that. It's not about that. It's about, okay, so why do you want to create open source over closed source? Because open source, it decentralizes your collaborative community.
+
+[12:06] **Dan Friedman**: So you essentially, you create open source. Yeah, okay, yeah. So you do spend money to create that, right? That's fine. But if you don't open source it, you still have to spend money on the stuff that open source will provide for you with community engagement. People don't really think about that.
+
+[12:24] **Dan Friedman**: And when they think about, well, why would I make something open source if I spend a million dollars on it? I'm like, well, do you want to spend $2 million on it, because you still have to take it through testing, through load testing, through all these things that you still have, even after you wrote the code, you still have to take it through all these different things that cost money.
+
+[12:50] **Dan Friedman**: And actually, those parts actually sometimes cost more money than the actual development. Decentralizing that part, at least, is a great thing. Beyond that, you get innovation, right?
+
+[13:03] **Dan Friedman**: So yeah, people will take your code and they'll add some stuff to it and they'll make new code out of it, but then you can use that, too, to expand on yours. So your updates are not going to cost as much because chances are somebody out there is going to figure out some of these problems that you're dealing with.
+
+[13:19] **Dan Friedman**: So you don't have to spend another million dollars figuring out these problems, right? And that's why it's very important to us at Palmyra to do as many things open source as possible because it gives us the opportunity to have much more equilibrium in our bandwidth, which is great.
+
+[13:42] **Dan Friedman**: And of course the other thing is auditing, right? So you get all these independent auditors on the code that are not influenced by getting paid, right? So that's something else.
+
+[13:57] **Dan Friedman**: Distributed system, decentralized systems, or distributed systems, because distributed systems don't necessarily mean that you're going to have a decentralized attack vector field. You still, in the distributed system, you still have, I mean, it can be a distributed system, but still be acting under the same umbrella of a hosting provider.
+
+[14:25] **Dan Friedman**: So basically what you got to do is hit that hosting provider, and then the distributed system is still going to screw up. Decentralized systems, on the other hand, are fragmenting all that, right? So you got all these different parts working in different providers, different places.
+
+[14:43] **Dan Friedman**: And so your network integrity and your network redundancy is a lot more sustainable like that. So that's just kind of like the spiel that everybody gets here, because if you're at Ergo, you obviously get that part.
+
+[14:57] **Dan Friedman**: Other ecosystems are really starting to get that part. And that's why they want to invest in Ergo, because in Ergo, we have this culture that we have developed this culture over several years. So that's what we started with. That's what we kept going with.
+
+[15:13] **Dan Friedman**: And that's why now more than ever, now that people are starting to really get into the utility of blockchain versus pump my bags, bro. Ergo is becoming a lot more, the Ergo ecosystem is becoming a lot more interesting to them and exciting to them to get into because you already have that developed, right?
+
+[15:35] **Dan Friedman**: We might not have a huge market cap, but we have that part developed over many other ecosystems with much bigger market caps. So that's why I always say measuring success in market caps is stupid because we are way ahead of many other ecosystems in that part.
+
+[15:51] **Dan Friedman**: And that is a needed part, right? That is a necessary component. So yeah, so I'm very excited to be able to finally have these conversations with people and to finally be able to bring people in.
+
+[16:03] **Dan Friedman**: Yeah, yeah. And of course, as Palmyra is going to be participating in future ErgoHack, we're going to be putting out more open source out there. What's your protocol?
+
+[16:14] **Sam Lambert**: At this point, Luca and mgPai on our end have been joining all these ErgoHack and I feel a bit left out to be honest and I hope they watch this.
+
+[16:26] **Dan Friedman**: These guys, you're not supposed to have a life outside of your job. What do you mean?
+
+[16:32] **Sam Lambert**: Well, I take a bit of a different approach and I messaged them and maybe Dan will get upset with me, but I said, hey, do we need to shuffle the days around? Do you want to work a little bit more this week so you can make some time for the ErgoHack?
+
+[16:47] **Sam Lambert**: And they were quite strict about it. They said, no, Palmyra is where we put our full-time work, and we find the time around it. So I was always impressed in terms of what they deliver. I actually got to test out the multisig solution that Nemo and that team built, and it's great.
+
+[17:06] **Sam Lambert**: I've been waiting for an easy interface solution like that. So if they were able to build that out in a matter of days, yeah, I can't wait to see what everyone else has built out. And so have a look.
+
+[17:17] **Sam Lambert**: Just on another note, I just want to mention, Dan did, some of the stuff that Dan and I've been doing over the last few months, with our work with Palmyra and the building of our different solutions is we have actually been approached by several other ecosystems and many of which are actually UTXO based ecosystems.
+
+[17:36] **Sam Lambert**: And it's been quite an interesting insight to see their level of engagement around Ergo and the tooling that already exists. And I just wanted to say some of these ecosystems are already bigger than Ergo and there's still gaps in terms of the way they do DeFi or certain gaps around infrastructure or different types of technology solutions and I just urge you to reach out to Dan and I or even Joe as well to get in touch just to learn a bit more.
+
+[18:06] **Sam Lambert**: We can share our experience with you over a call or over telegram or whatever it is, because these ecosystems are different to Ergo in the sense that they have bigger treasuries, they have different community funds to actually help bootstrap and bring projects over.
+
+[18:25] **Sam Lambert**: And one of the things I've loved about what Rosen's doing is it's agnostic. It's powered by Ergo, but agnostic in terms of the strategy of how it can connect different ecosystems. And there's an awesome strategy in place where as Rosen connects into other ecosystems, other Ergo projects can benefit from this stuff as well.
+
+[18:46] **Sam Lambert**: And the most interesting conversations we actually were having around UTXO blockchains and their search for strong development talent. And one of the first things they ask is, do you guys open source? Yes. Great. They love that. The second question they ask is, can you deliver? Do you have experience building on UTXO blockchains? Yes. Tick. They love all of this stuff.
+
+[19:08] **Sam Lambert**: And it not only just helps your project, but provides more attention and eyes and focus on all the great stuff that Ergo has. I know a lot of projects out there use open source on the Ergo side. You definitely have a look and it'd be awesome to see more expansion.
+
+[19:28] **Sam Lambert**: I know our own guys working on the MewFinance side, they entered Alephium hackathon, did really well there. I think they're even flying mgPai out to Greece for some stuff before he comes to Japan to work with me for the next month or two.
+
+[19:45] **Dan Friedman**: Yeah, before you give them more time to work on ErgoHack versus our core tech. Thanks, Sam. That's all right. The core tech is out and it's delivering. That's fucked up, Sam. We're going to have to have a talk, Sam. That's why you're smaller than me right now, Sam. You're much smaller than me. The aspect ratio is much smaller because of that.
+
+[20:08] **Sam Lambert**: I hold ERG and I have a responsibility to the ecosystem at the end of the day. So I do my part where I can.
+
+[20:17] **Dan Friedman**: We're going to have to have a talk about this, Sam. Let's get to some questions here. So there is actually a question from FP.
+
+[20:33] **Dan Friedman**: OK, so here is the question. So Flying Pig says that Ergo has somewhat a confused identity. How do we explain to the masses in a language they understand you're not allowed to use technical words like NIPoPoWs, zero-knowledge-proof, Sigma protocol?
+
+[20:51] **Dan Friedman**: So this has come up several times. And I guess I'll let Sam and Joe answer this one as well. Look, I think the problem that we have in Ergo is we think that we need something that we need to be like the cool kids.
+
+[21:14] **Dan Friedman**: And the cool kids are the ones that have bigger traffic, bigger market caps and bigger pump my bags. I know people are going to be like, no, no, no, Dan, that's not it. But really, I mean, come on, we want to have the traffic of Solana or something, right? Or even Cardano or something like that, right?
+
+[21:35] **Dan Friedman**: So Ergo data, the traffic of Cardano would be like, yeah, okay. We were getting the recognition that we need now. The thing about it is and why I've never actually had an issue with working in both ecosystems is that they're completely different.
+
+[21:51] **Dan Friedman**: It's like working with trains and planes. It's both transportation to get me from what I need to get done to getting it done, but they do it in different ways and they have different attractive features to them that complement each other and so look to me I look at Ergo as US Steel, right?
+
+[22:17] **Dan Friedman**: What does US Steel do? You ask the average person. What does US Steel do? It's like they make steel. I don't know. But you know the name, right. They provide, I mean, if you think about it, yeah, okay, yeah, they make steel and they provide all these different metallurgical services and whatnot.
+
+[22:36] **Dan Friedman**: But essentially you understand that they provide, you know what steel is, right? It's infrastructure. And I think that it's time really that we embrace what we already have in the ecosystem. And that is, we build infrastructure, right?
+
+[22:54] **Dan Friedman**: You're not going to see US Steel bumper stickers on every car and US Steel products in your supermarket, but you damn well know that US Steel is supporting infrastructure of America and whatever else, right? The same with Ergo. I mean, I think Ergo's real strength and power is what's already there, right?
+
+[23:16] **Dan Friedman**: We started with a decentralized ecosystem. We started with base for open source. We're strong on our first principles and we're building out infrastructure. These things that what Sam just said right now that bigger ecosystems do not have and they want.
+
+[23:35] **Dan Friedman**: And Rosen is just one example of that. You see what's happening with Rosen. You see how much interest Rosen is getting. And that's just one piece of technology. Now think about when we get these other pieces of technology adopted into other ecosystems that want this technology.
+
+[23:52] **Dan Friedman**: There's ecosystems that want our open source. That is our identity. To me, that is our identity. We are infrastructure builders and now we might not be the DJ capital of the world. We don't need to be.
+
+[24:08] **Dan Friedman**: And I think that this is a much more sustainable path for growth because we can still do what we want to do. We can still create what we want to create, but not have to really, we can be focused.
+
+[24:20] **Dan Friedman**: So, to me, that's the identity. Now, I don't know what you guys think about that. Maybe I'll give Joe a go at this one.
+
+[24:29] **Armeanio**: Sure. So I can't use any, what are the words?
+
+[24:33] **Dan Friedman**: You can't use any technical terms.
+
+[24:36] **Armeanio**: Okay. Well, I would say I've been involved in Ergo for three reasons that are actually relatively simple, but they're super complex issues. Okay.
+
+[24:47] **Armeanio**: So the first one has to do with this idea of fair money. Cryptocurrencies started to create an alternative to the fiat money printers that exist in the world, right? And it's important to understand that everybody is still, I guess, valuing crypto relative to fiat, but that's more or less on its own printing journey.
+
+[25:15] **Armeanio**: You can look at a dollar and the unfunded liabilities and how money supply has expanded and how that's, in essence, devaluing the currency itself in terms of purchasing power.
+
+[25:28] **Armeanio**: So this idea of fair money has always been important to me in the cryptocurrency space. And I think proof of work really offers the best mechanism of fair distribution, right? Where in some systems, I would say like proof of stake to me is more social money, right?
+
+[25:51] **Armeanio**: Where you have a monetary supply that's set up and you usually have a massive allocation that's then distributed to early participants that have just a natural advantage. Right. So every block in proof of work is based on a fair competition where people have to throw real world resources and every proof of work coin is bought by those resources.
+
+[26:22] **Armeanio**: It's bought by electricity. It's bought by hardware. There's a continual input cost, right? And so if you look at like the life cycle of hardware, even if I were to, let's say, optimize my mining operation today, I have to come with the assumption that hardware is going to get better.
+
+[26:40] **Armeanio**: And so whatever investment I make is, even if today I'm perfectly optimized, in three years, five years, you may have better GPUs at a better cost. And so it's a continual external competition to buy proof of work coins with resources.
+
+[26:58] **Armeanio**: So that fair money aspect is really important. Right. And I do think that crypto has shifted massively towards this idea of social money, right? Where it's like you have some, I don't know, flash in the pan that comes about and it's like, oh, this is the new thing.
+
+[27:18] **Armeanio**: And the token itself doesn't really coordinate hardware, right? It's just like this social phenomenon that happens and it's popular. You get the right influencers and backend connections and whatnot.
+
+[27:34] **Armeanio**: They have tremendous ability to, let's say attract liquidity and also tremendous ability to destroy liquidity, I guess. But that fair money aspect has always been one of the central points of why I find cryptocurrencies interesting. Right.
+
+[27:56] **Armeanio**: The second has to do with like the network structure itself. Okay. So, a lot of people like to talk about metrics, right? But if you get into like, what is a cryptocurrency, right? In a way, on the hardware side, it's just like a distributed machine that's global, right?
+
+[28:19] **Armeanio**: And so if you look at the concept of peer-to-peer money, being a peer is not being a user. It's being a part of that machine or a part of that network, right? And when you approach it from that perspective, you start to look at some of the massive trade-offs that these systems will get to have optimized metrics, right?
+
+[28:42] **Armeanio**: So every since, I don't know, 2017, 2018, people are like, oh, this has a jillion billion TPS, right? That's data. And so if you're going to be, let's say, storing the state of a network, you may not necessarily want to scale that data so fast because you as an operator in the network have to store that.
+
+[29:05] **Armeanio**: And so what happens is, a lot of things either don't have history or they outsource history. And then if we get into this idea of finality, which is another sex machine in the cryptocurrency industry. If you want fast finality, you can't really have a flat network.
+
+[29:22] **Armeanio**: Proof of work is designed for finality based on energy input, right? The further down the chain, the more probabilistically secure it is versus this idea of we're going to have a couple of select actors in the system that are able to essentially force settlement at a rapid pace that creates an uneven distribution of power in the network itself.
+
+[29:46] **Armeanio**: And so for me, this idea of a flat network that I can come into and I can equally compete. Whenever I join the network, I can throw hash rate at a block. I have like an equal footing. Or if I'm going to submit a transaction, I have the ability to do that locally.
+
+[30:03] **Armeanio**: I have like my own local agency and power in these networks. I think that's an incredibly important assumption to promote and protect because if you look at a lot of how people interact with these systems, usually they come in on top of someone else's infrastructure, right?
+
+[30:25] **Armeanio**: So we can say, okay, well, if somebody has, let's say the ability to interact with a network closer than I do, oftentimes, they have a certain advantage, whether it's, they can potentially look at my IP address in terms of like the wallet that I'm submitting from.
+
+[30:43] **Armeanio**: They can potentially see my incoming transaction and front run it, sandwich it. They have power over me, basically. And so having that distributed power within a network, I actually think is critically important.
+
+[30:59] **Armeanio**: Now, it's true when you look at the fancy words here, NIPoPoWs, right? If you want to understand that from a simple level, it's basically compression. Why is compression important? Because you are going to need to store data if you're going to operate a part of this machine.
+
+[31:20] **Armeanio**: And you don't necessarily want the state of that machine to be something that requires too many resources because then you get this idea where your barrier of entry is higher.
+
+[31:35] **Armeanio**: Like I was reading on Twitter the other day, there's an argument between the Solana community and the Ethereum community and one of them's like oh you need 32 ETH to run your own independent validator and that's a lot of money for a lot of people in the world that's like house level investment.
+
+[31:55] **Armeanio**: And then you can look at the carry costs of being a Solana validator with the requirements for throughput and data. And what you see is that the barrier of entry is getting higher in these systems.
+
+[32:12] **Armeanio**: And I know that like on the user side, they're like, oh, look at this metric. It's so sexy. They can throw a jillion TPS and they have very fast finality, et cetera, but they don't really look at the machine and how the trade-offs to create that type of environment raise the barrier of entries for you to actually be a peer.
+
+[32:33] **Armeanio**: You don't necessarily want a peer-to-peer system where you need a god-awful amount of capital to join because in any other peer-to-peer network, if we look at something like file sharing or Napster back in the day, if it required 100K to participate, nobody would participate.
+
+[32:54] **Armeanio**: Right? You just have like a massive trade-off in terms of the distribution and resilience of your peer-to-peer system, the heavier the requirements are.
+
+[33:05] **Armeanio**: So for me, in terms of like the identity of Ergo, it's those three simple things, fair money, a flat network, and then trying to push this idea of local control and local agency, which is a part of why open source is critical to have that.
+
+[33:22] **Armeanio**: I want everybody that's up here to be able to potentially run infrastructure locally so they don't have to trust anybody.
+
+[33:32] **Dan Friedman**: Yeah, yeah, that's, I mean, that's, that is a good, I mean, you covered quite a bit of that, right? Quite a bit of what it is and what it's all about. Do you have anything to add to that, Sam?
+
+[33:47] **Sam Lambert**: Yeah, I agree with all of your points. I have my own as well. I think it's natural that everyone has their own reasons why they enter the ecosystem. The more important thing is that regardless of Joe's explanation or Dan's explanation, I think it's important to figure out a little bit more clearer what these themes look like.
+
+[34:15] **Sam Lambert**: For example, I have been deeply upset with the way the industry has moved away from focus around proof of work. I think Joe and I share very similar concerns around this. One of the great things about proof of work is your ability actually interact and join the on-chain movement is not limited by your ability to go through a centralized exchange and buy that particular token.
+
+[34:41] **Sam Lambert**: You can run something simply by your laptop or a mining rig, internet access, electricity, and all of a sudden you can be part of the network. There are certain reasons why I care, but at the end of the day, if you actually have a look at what other ecosystems have done well is that they have picked a few themes.
+
+[35:04] **Sam Lambert**: And I think we probably overstate the fact that it's been manufactured, but they've picked a few themes and they've played out really well. One of my favorite ecosystems that I got introduced to through Mick from Blitz is the Nervos ecosystem.
+
+[35:21] **Sam Lambert**: And they've done a really excellent job focusing around the Bitcoin layer 2 narrative, and they've focused their attention and efforts around that. And they, as a community, have done really well. And the token price has also reflected that.
+
+[35:35] **Sam Lambert**: I know we probably don't like to talk about that, but other ecosystems have done that. Solana is now the meme coin machine is where social money exists. People aren't there to make money. They're there to have fun.
+
+[35:48] **Sam Lambert**: But it brings people in at the end of the day. And there's no point building really good solutions if you can't bring people in. So I actually think the fact that Ergo has so many good qualities makes it more confusing.
+
+[36:02] **Sam Lambert**: It's like having 10 job options that you can pick from, you graduate from high school, you graduate from university or college or whatever you guys call it around the world and you have 10 offers. It's way harder to pick which one unless you just had one offer, right, or three offers.
+
+[36:19] **Sam Lambert**: So I think in order for this message to go out, we just have to pick a few themes and some might be cyclical, some might make sense this round, some might feel like it doesn't make sense right now, like some of the stuff that Joe and I have talked about before around proof of work, and we just pick that and stick by it.
+
+[36:40] **Sam Lambert**: And if it catches and it brings the right people into the ecosystem, this isn't a BS ecosystem where we've just talked and talked and talked about how we're going to build stuff. There are solutions here already. So people will stay, but you have to actually focus on that funnel.
+
+[36:57] **Sam Lambert**: And I actually do agree. I think Ergo does have a bit of a confused identity. And I think as a community, we just have to pick a few themes that we can get excited by and onboard more people?
+
+[37:09] **Sam Lambert**: Because at the end of the day, what's the point of having sound money, having the ability to interact in the infrastructure yourself, if you don't bring people in? So I'm a big, yeah, I think we have to have a deeper think about that because we want to bring people in.
+
+[37:30] **Sam Lambert**: We want people to benefit from these tools. We want people to actually have access to sound money. That's the reason why I'm here. I like all the things that Joe talked about, what Dan talked about, but I think we have to, there's some better ways of bringing people in and there needs to be some work done and the whole community has to get around it.
+
+[37:49] **Armeanio**: Absolutely. I think it's an important question. Why Ergo? Like offline. I talked to people about cryptocurrencies. That's usually where I start is those three things, which it makes a little bit more sense, I would say to the non native crypto, because a lot of them look at it.
+
+[38:06] **Armeanio**: I was talking to a guy yesterday and he's just like, well, it seems like its own roulette wheel with cartoons and offensive shit. In order to like bridge the barrier between the crypto native, which I don't know. It's very. It's like highly reactive, right?
+
+[38:27] **Armeanio**: You look at, let's say the social side of cryptocurrencies, people are plugged in and they're always chasing things. And then so there's like this idea, hey, we need to model our marketing around whatever the sex machine of the moment is that's holding people's attention.
+
+[38:46] **Armeanio**: But that usually rotates and flips around and it doesn't have a lot of staying power. in my opinion, the narrative or theme or shift or whatever. And there's a lot of stupid people out there that I think just like, I don't know, they use their social influence to try to direct that narrative to create exit liquidity.
+
+[39:08] **Armeanio**: That's the simplest way to put it. And I don't respect a lot of those people because they're here to more or less grift on everyone else, right?
+
+[39:17] **Armeanio**: I tend to think that if we look at like sound resilient solutions long term, we need to be more serious. And that's not necessarily the short term hype or sex machine that a lot of people are attracted to in crypto but I do think that if we're going to build resilient value that takes time by the way.
+
+[39:34] **Armeanio**: You can look at the Ergo ecosystem we've been plugging away building kind of open source network a ton of open source applications that I think offer better local agency and assumptions than most things in the space. And that didn't happen overnight. That's not something I can just sell.
+
+[40:01] **Armeanio**: I'll use the example of Rosen. I'm excited to try to disrupt the flow of funds to third parties. The exchanges and market makers in the crypto space are too damn powerful. basically created their own little fiefdoms that they gatekeep and they potentially have the ability to list assets that just dump on people.
+
+[40:24] **Armeanio**: You can look like today, I saw a tweet where it's like, hey, we listed this meme coin beer and the team immediately extracted 10 to $15 million from their users. And it's like, well, why does the industry promote that kind of stuff? Because it's profitable for somebody.
+
+[40:42] **Armeanio**: And I do think that we can offer better assumptions. Now, long term, I think that's a better option than trying to chase attention. Like, there's a lot of stupid shit in the crypto space that's just based on, I need attention now.
+
+[41:00] **Armeanio**: And I don't know, maybe we do live in a world where people have like, I don't know, 15 second attention span, and they tend to not think critically long-term. But if we're going to build resilient money, we have to think critically long-term. That has to be the most important aspect is to say, OK, well, it's true.
+
+[41:25] **Armeanio**: We may not have the social adoption that we want, but we have the platform that can facilitate something real versus selling something with no back end to actually run that type of infrastructure.
+
+[41:41] **Armeanio**: Now, I do think that even though people look in the short-term chart, I'm excited for the future. Gold stablecoins, I think, are going to be sweet. In terms of the Rosen Bridge, it is true that from the user side, it's not necessarily Ergo-centric, but there are going to be properties that drive TVL to Ergo.
+
+[42:06] **Armeanio**: I'm going to ask projects that list to put liquidity on Ergo because they need to pay watchers they need to pay the security mechanism of that network so there's going to be some requirement there to say okay well this system operates based on people that are submitting transactions to the Ergo blockchain and so you need liquidity that gives them access to your project which then acts as a funnel to start to build liquidity in Ergo and potentially it will filter to DuckPools and other applications out there that will offer products that offer return and seed the ecosystem.
+
+[42:54] **Armeanio**: I think that's a lot more natural coordination than a lot of the things that happen in the crypto space where, right now, a lot of liquidity is driven by VCs. Usually VCs will have a one to three year trajectory in terms of we're going to throw liquidity into this ecosystem.
+
+[43:06] **Armeanio**: We're going to profit from fees, growth, et cetera, and then we're going to exit. The best way to say it, in my opinion, is something that's fair launched naturally has a coordination problem.
+
+[43:24] **Armeanio**: Because you have this organic community of people with competing interests, competing ideals, competing visions that have to coordinate. It's messy versus when you have something that's seeded from a central source, usually they have a central player, central business plan, a central liquidity mechanism, and then it's like, okay, well, we're going to try to decentralize this, right?
+
+[43:46] **Armeanio**: And I actually think that's way harder than to have coordination problems solved over time, because these systems naturally have some incentive to coordinate, right?
+
+[43:59] **Armeanio**: And so I do think that even though taking the coordination friction long term is painful because it requires growth and kind of like a organic community to grow and then coordinate and create this interconnected web of systems.
+
+[44:18] **Armeanio**: It's actually better long term than having one person with, or one major fund with all the liquidity that's driving all of the development, that's driving the roadmap, that's driving the narrative. And you get these extremely well polished pitches.
+
+[44:34] **Armeanio**: You usually get extremely well polished marketing and I think the user experience tends to be very well, let's say, designed. But a lot of that back-end coordination just isn't there. So it's a different approach.
+
+[44:50] **Armeanio**: And I can't say that if people expect us to like immediately compete with a centralized system like that. It's just not how coordination evolves. But the thing is, when you have a decentralized ecosystem that does coordinate, yeah, you'll get competing messages.
+
+[45:15] **Armeanio**: You can look at Bitcoin over the years. They've had a lot of different narratives that they've rotated into. It's peer-to-peer money. It's resilience money. It's, store of value. It's this. It's that. Now it's ETF bank money. I have no idea. And all of them have been somewhat true and somewhat false, right?
+
+[45:32] **Armeanio**: And I think that sometimes in crypto people look at the narrative and they don't actually look at what's delivered. There's been, I've been around crypto long enough that it's like, you see these really well laid out marketing pitches.
+
+[45:48] **Armeanio**: And then it's like, okay, but does the backend actually have a platform to deliver that? Or is this just another one of these things where you get clout for a little bit and then nothing ever gets delivered. I mean, we have a long and dirty history of that in the crypto space, in my opinion.
+
+[46:05] **Dan Friedman**: That's like 80% of the crypto space. Yeah, it's wild. Just promises, promises, wild promises. So you make these wild promises, get people to be like, yeah, that's awesome. Okay, now buy my token so that I can build it.
+
+[46:21] **Dan Friedman**: And then they buy your token and then you dump 10 million of it on launch, and then you say, no, no, no, I'm not dumping. I'm monetizing so that I could build whatever I said I was going to build and just never build it.
+
+[46:39] **Dan Friedman**: Or you say, well, once we started building it, it was harder. Or once we started building it, it actually was something different. Really, crypto and that's a really, really bad part of crypto is that you can actually raise money before you have any kind of like anything.
+
+[47:01] **Dan Friedman**: Yeah, yeah, anything. And it has become a standard practice because in the real world, nobody's going to give you money just because you say so unless you're like Bill Gates or something, nobody's really going to give you money just because you say so.
+
+[47:17] **Dan Friedman**: Oh, I'm going to build this stuff, give me money. That's not how it works. You need to have a business plan. A lot of VCs that actually invest in tech right now will need to have a prototype. You need to have your product market fit outlined. You need to have your budgeting outlined. You need to explain to them what you're going to do with the money.
+
+[47:38] **Dan Friedman**: With crypto, it's not like, yeah, OK, look, we're going to build this really cool thing. And it's going to be awesome. OK.
+
+[47:44] **Sam Lambert**: And I think the reason is it's just like the trade-off of digital assets. One of the things that everyone talks about with real-world asset tokenization, for example, is you can now make illiquid markets more liquid and global. And that's such a great thing.
+
+[48:02] **Sam Lambert**: The ability to fractionalize bonds on chain, the ability to fractionalize real estate or diamonds or commodities and give access to people from other markets, let them speculate, let them hedge. That is so difficult to do in traditional markets.
+
+[48:24] **Sam Lambert**: And when you think about the way startups raise money, typically, you go to friends and family, and you say, hey, we're doing a friends and family round. Can I borrow $100,000 or $50,000 or $10,000, depending on where you are? I'm going to build this.
+
+[48:41] **Sam Lambert**: And they go, OK. And they'll help you out. Maybe it's just an idea then. And then you go to the next round, the next round. And venture capital firms in the venture capital market for private equity, so this is in the equity markets, they have to wait years until they actually get a return.
+
+[49:02] **Sam Lambert**: They have to actually wait for liquidation events where it only happens in three ways, either sell the business, you sell your equity in the private market by a secondary sale, so you might sell your stake to another venture capital fund or private equity fund, but you have to wait until you IPO.
+
+[49:21] **Sam Lambert**: How many businesses IPO? Not that many, I can tell you that. IPO markets also haven't been that hot. You have other mechanisms like SPACs and whatnot that were around a few years ago to list. But in normal markets, it's hard. It's hard. And I think it's actually hard to get your money out.
+
+[49:44] **Sam Lambert**: In crypto, it's reversed. That whole seed to series F, the IPO structure that you would get in traditional markets is condensed into the matter of maybe two years, if you're lucky. In some cases, six months, some people raise, raise, raise, raise, raise, raise, and they won't raise again.
+
+[50:05] **Sam Lambert**: The incentives are completely flipped, and I think it's a trade-off. That's what you get with digital assets. because you're not relying on other funding grounds that are down the line with crypto, you're not really held to account.
+
+[50:23] **Sam Lambert**: In the private equity markets, you raise a bit of money, you then have to do what you have to do to get to that next stage, and then you can go and ask for more investors again and say, hey, I got to this level. I want to get to this next stage of growth. This is how much I need to get there.
+
+[50:38] **Sam Lambert**: But you don't have that. And what makes it worse is the time required to get your money out is so small now in the crypto space, and it doesn't help because these assets are liquid.
+
+[50:53] **Sam Lambert**: And if you coordinate this stuff like what Joe was saying earlier with market makers and central exchanges, and this is the way the game is played, you have access to these markets in a liquid way. It's designed in a way to allow you to be able to sell your positions without disrupting the price. And that's the system that we're in right now. And I can't say I'm a fan of it.
+
+[51:19] **Armeanio**: It's insane.
+
+[51:20] **Sam Lambert**: That's the truth. No one talks about it, but that's the truth. You put money in, you can get it out in six months. That's absurd. That's absurd. The only time you can ever do that is if you lend money to someone and you know they'll pay you back or you buy public equity that you know you can trade.
+
+[51:39] **Sam Lambert**: How often does that actually ever happen where you put money in and you can get it out straight away? That's uncommon in non-public markets. That's the trade-off that we get.
+
+[51:52] **Sam Lambert**: Yeah, like no one talks about this, but this is the way it's done.
+
+[52:02] **Armeanio**: It's insane to think like I started a meme coin and I dumped in three days. Like, yeah, that's functionally insane in my opinion. I understand like that's possible, but the attack surface of that is just wild. And that's a part of why sometimes things just don't get built. Right. They just don't get built in the crypto space.
+
+[52:26] **Armeanio**: So, we've been through the ICO thing of Ethereum. How many of those actually converted into like something that was technically feasible that had a back end to support the narrative that they essentially used to sell the company or the application? Very, very, very few.
+
+[52:43] **Dan Friedman**: Why do you need to build if you can just print more money? That's the problem. That's what it is. They just printed more money. And that's what happened. They printed money. They sold you a dream. You said, OK, yeah, this is real money. You bought the dream. They're like, yeah, if it's real money, I'll take some of that and convert it to other realer money, and then you're left with a bag of worthless shit, and they're left with a bunch of money that goes back into fiat, which is ironic.
+
+[53:17] **Sam Lambert**: I think the market mechanism that consolidates and puts a little bit of a lid on it are these market cycles, right? So most, the economy has been weird the last 15 years because of the excessive money printing, like that we can all agree on, I think.
+
+[53:37] **Sam Lambert**: But most of the time you get like pretty standard business cycles. It's normal for economies to tank a bit to consolidate, fix some policies, get rid of the bad. There's a terminology in economics called zombie firms, and there's a bunch of research that's been done on it.
+
+[53:55] **Sam Lambert**: And it's basically these firms that have been able to survive because the rate of buying capital was so low. The good thing about these crypto cycles is yes, like when the market's hot, every other person loves crypto, your grandma loves crypto, it's so easy to raise money, to print money, to extract value out of these ecosystems and basically literally steal money from the community as what is literally happening.
+
+[54:27] **Sam Lambert**: The trade-off and the mechanism to put a lid on it are these two, three bear market periods. And that's really the most exciting stuff, because all of a sudden, it does get hard to raise money. During the bear market, you can't just print money. You can't just launch a project out of the blue. It becomes really hard.
+
+[54:49] **Sam Lambert**: You're forced to go back to the way you would typically do it in the traditional markets. And I think that's the way that crypto put a lid in terms of the craziness at times.
+
+[55:01] **Sam Lambert**: But yeah, like I say, every time, like on different AMAs I'm on, it's the community's job to do the audit to make sure that we control as a community where capital flows into, and we call people out where we have to. But it's crazy, the incentives in this space just blow my mind, and it's unfortunate.
+
+[55:27] **Sam Lambert**: And as a caveat to end this spiel on is that we are entering a period of upwards consolidation, right? And there's a lot of macro indicators to indicate that, whether you're looking at the US election coming up, the way the CPI numbers are tracking, at some point, these things do get hot and it does crash, but we just have to be careful not to get too hot and stay humble because during this period, it does get a bit crazy.
+
+[56:03] **Sam Lambert**: We have to be careful, I think, as a community.
+
+[56:06] **Armeanio**: I think for me, the grounding thing is like in the traditional sense, you always have to have long term objectives, right? Like, oftentimes those long term objectives are just sacrificed for whatever the narrative of the day is that capital moves faster in the digital asset space.
+
+[56:28] **Armeanio**: So, I'm curious, you sit down with like some projects and you say, okay, well, three years, five years, what are you doing? Why? And I can say at least in what I'm involved in, I know that's why I'm here. So what happens today is somewhat ephemeral if I can deliver the long term objective or utility that I want to.
+
+[56:55] **Armeanio**: I think that the best product market fit for crypto at this point is probably stablecoins. But I think that a lot of the back end of how stablecoins are actually structured, who controls them, how their non bearer assets are not well designed.
+
+[57:15] **Armeanio**: I think that having exposure to like fiat and the regulatory attack vector of that where, essentially you're creating a digital counterfeit of a fiat currency. Like if you were to do that physically and say, hey, I created my own dollar stablecoin, people call that counterfeiting.
+
+[57:34] **Armeanio**: Right. But we do it in the digital assets.
+
+[57:39] **Sam Lambert**: And the thing that people don't talk about openly is that the people holding these stablecoins don't earn any yield, like actual yield. Like these reserve back stablecoins, all you have to do is go, if you're allowed to legally, you go buy some T bills and earn five to 6%. Right. It's just, it's crazy how these systems exist sometimes. I understand why, but when you think about the business mechanics, it's incredible. If you are a stablecoin issuer, hats off to you. It's an incredible business to be in. Yeah, anyway.
+
+[58:19] **Dan Friedman**: Well, guys, I think it's a good place to wrap it up with one last question here from Wendy Moon, who says that Wendy says that she can't wait. Well, you never know. It's anon. So it could be he, it could be they. They say that Wendy says that they can't wait to see all the ErgoHack videos.
+
+[58:45] **Dan Friedman**: When will they be available to watch? Do you have any idea, Joe? When are they going to be available to watch? Oh, the exact time.
+
+[58:53] **Armeanio**: I don't know. I know that there's been quite a few of them put together. I definitely hope the community engages with them because there's a lot of effort and energy that was put into ErgoHack. There's a lot of cool ideas out there that I think, again, if we take more of the long-term perspective, there's some powerful things that came about.
+
+[59:15] **Armeanio**: Lending pools is potentially very powerful long term. Easier multisig is huge for users, for projects, for a lot of different things. So, I would recommend everybody tune in and try to say, okay well, these are ideas and if you play them out over a year, two years, five years, what is possible if we build this or build on top of it?
+
+[59:36] **Armeanio**: I do think that that ultimately is why I'm here is like long term, not the short. And they'll be dropping this week. I know that Glasgow's probably has a few of them in the queue whenever you have actual distributed system you get coordination problems, right?
+
+[60:01] **Armeanio**: So hopefully everybody out there has submitted their video and then you also That's the thing.
+
+[60:07] **Dan Friedman**: That's the thing about distributed systems.
+
+[60:09] **Armeanio**: Somehow, it's great, but sometimes it's like herding cats Yeah, yeah, if you have everybody in your office, you can give them the beat down and say hey This is you'd better deliver you're not going home, right or something But when you have an anon developer that's like hey, I don't want to be on video with that I don't want any of my information or my voice out there. It's a little harder.
+
+[60:32] **Dan Friedman**: Everybody gets sensitive about that. Well, not many people do. Anyway, guys, I think it's a good place to leave it out for this week. Yeah. So everybody, thanks for tuning in.
+
+[60:43] **Dan Friedman**: Next week, same time, same place, same channel. The Ergo Foundation YouTube channel, that is. And so yeah, thanks for stopping by Sam Lambert from Palmyra Global. Joe Armeanio from, oh, the Ergo Foundation and, oh, I'm also, oh, okay. Hey, hey, hey, we're all connected. I say it's a good thing that we got these subtitles down here. It helps. It helps.
+
+[61:11] **Dan Friedman**: Anyway, guys, thanks for tuning in. Thanks for joining and thanks for all the questions. And until next week, this is Dan coming to you alive from Japan, signing off.
+
+[61:24] **Armeanio**: Yeah, a good one. Everybody.
+
+[61:26] **Dan Friedman**: Yeah.
+
+[61:27] **Sam Lambert**: Thanks for having me.

@@ -1,0 +1,264 @@
+{
+  "call_date": "2024-06-14",
+  "call_title": "Weekly Update & AMA - June 13th 2024",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "ErgoHack Community Voting and Prize Distribution",
+      "category": "community",
+      "start_time": "00:17",
+      "end_time": "01:40",
+      "primary_speaker": "Armeanio",
+      "summary": "Community members can vote on hackathon rewards through Paideia DAO using faucet tokens. Judges are currently reviewing submissions, and additional prizes will be released for the numerous projects built during the hackathon.",
+      "key_terms": [
+        "ErgoHack",
+        "Paideia DAO",
+        "community voting",
+        "hackathon rewards",
+        "peer-to-peer system"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Rosen Bridge Friday Launch and Watcher Updates",
+      "category": "bridges",
+      "start_time": "01:40",
+      "end_time": "02:39",
+      "primary_speaker": "Armeanio",
+      "summary": "Rosen bridge is launching Friday based on current test trajectories. GARD layer has been updated and watchers must update their instances to avoid being slashed in the major upgrade.",
+      "key_terms": [
+        "Rosen bridge",
+        "GARD layer",
+        "watchers",
+        "slashing",
+        "network service operator"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Sam Lambert Introduction and Palmyra Background",
+      "category": "ecosystem",
+      "start_time": "02:39",
+      "end_time": "04:17",
+      "primary_speaker": "Sam Lambert",
+      "summary": "Sam Lambert from Palmyra introduces himself, discussing his background in insurance automation and parametric insurance. He discovered Ergo through Dan's presentations at Cardano summits and has been following the ecosystem development.",
+      "key_terms": [
+        "Palmyra",
+        "parametric insurance",
+        "claims automation",
+        "Cardano summit"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Palmyra Partnership Announcements and Product Development",
+      "category": "ecosystem",
+      "start_time": "04:17",
+      "end_time": "07:08",
+      "primary_speaker": "Sam Lambert",
+      "summary": "Palmyra announced partnerships with World Mobile for connectivity and trade access, and USDM stablecoin for on-chain transactions. They're implementing UI for traceability applications and upgrading Winter Protocol V2 with Ergo developers Luca and mgPai.",
+      "key_terms": [
+        "World Mobile",
+        "USDM stablecoin",
+        "Winter Protocol",
+        "traceability",
+        "tokenization",
+        "trade financing"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "DuckPools 2.0 Upgrade and Lending Protocol Development",
+      "category": "defi",
+      "start_time": "07:08",
+      "end_time": "09:26",
+      "primary_speaker": "Armeanio",
+      "summary": "DuckPools is progressing through 2.0 milestones with continuous yield implementation and smart contract updates. The open-source lending protocol is approaching another funding round and developing option pools for advanced DeFi products.",
+      "key_terms": [
+        "DuckPools",
+        "lending protocol",
+        "continuous yield",
+        "TVL",
+        "option pools",
+        "open source"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "RareEvo Event Planning and Cross-Ecosystem Funding",
+      "category": "community",
+      "start_time": "09:26",
+      "end_time": "11:27",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Planning continues for RareEvo with Ergo, Rosen, and Sigmanauts participation. Dan is working to attract funding from other ecosystems for future ErgoHacks, emphasizing the value of Ergo's open-source culture to cross-chain development.",
+      "key_terms": [
+        "RareEvo",
+        "Sigmanauts",
+        "ErgoHack funding",
+        "cross-chain",
+        "open source culture"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Open Source Business Model and Development Benefits",
+      "category": "technical",
+      "start_time": "11:27",
+      "end_time": "16:03",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Dan explains the business case for open source development, including reduced testing costs, community innovation, independent auditing, and improved network redundancy. He emphasizes how decentralized systems provide better attack resistance than distributed but centralized systems.",
+      "key_terms": [
+        "open source",
+        "decentralized systems",
+        "distributed systems",
+        "network redundancy",
+        "community auditing"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Palmyra Developer Participation and Ecosystem Expansion",
+      "category": "ecosystem",
+      "start_time": "16:03",
+      "end_time": "19:28",
+      "primary_speaker": "Sam Lambert",
+      "summary": "Palmyra developers Luca and mgPai participate in ErgoHacks while maintaining full-time Palmyra work. Sam discusses approaches from other UTXO ecosystems seeking Ergo's development talent and open-source solutions, highlighting opportunities for ecosystem expansion.",
+      "key_terms": [
+        "UTXO ecosystems",
+        "development talent",
+        "Alephium hackathon",
+        "ecosystem expansion",
+        "cross-chain development"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Ergo Identity Crisis and Marketing Challenges",
+      "category": "marketing",
+      "start_time": "19:28",
+      "end_time": "24:29",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Discussion of Ergo's confused identity problem and how to explain it without technical jargon. Dan positions Ergo as infrastructure builder like US Steel, focusing on decentralized ecosystem foundation and first principles rather than competing for mainstream attention.",
+      "key_terms": [
+        "confused identity",
+        "infrastructure builder",
+        "decentralized ecosystem",
+        "first principles",
+        "sustainable growth"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Fair Money and Proof of Work Philosophy",
+      "category": "technical",
+      "start_time": "24:29",
+      "end_time": "33:05",
+      "primary_speaker": "Armeanio",
+      "summary": "Armeanio explains Ergo's three core principles: fair money through proof-of-work competition, flat network structure with equal participation, and local control/agency. He contrasts proof-of-work's resource-based distribution with proof-of-stake's social money characteristics.",
+      "key_terms": [
+        "fair money",
+        "proof of work",
+        "flat network",
+        "local agency",
+        "social money",
+        "barrier of entry"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Narrative Focus and Community Messaging Strategy",
+      "category": "marketing",
+      "start_time": "33:05",
+      "end_time": "37:30",
+      "primary_speaker": "Sam Lambert",
+      "summary": "Sam argues that Ergo's many good qualities create confusion and suggests picking focused themes like other successful ecosystems. He emphasizes the need for clear messaging to bring people into the ecosystem despite having strong technical foundations.",
+      "key_terms": [
+        "narrative focus",
+        "ecosystem themes",
+        "community messaging",
+        "user onboarding",
+        "cyclical themes"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Long-term Value vs Short-term Hype Cycles",
+      "category": "marketing",
+      "start_time": "37:30",
+      "end_time": "46:05",
+      "primary_speaker": "Armeanio",
+      "summary": "Armeanio discusses the challenge of building resilient long-term solutions versus chasing short-term crypto hype cycles. He emphasizes the importance of focusing on sound technical foundations rather than reactive social media trends and grifting behavior.",
+      "key_terms": [
+        "long-term value",
+        "hype cycles",
+        "resilient solutions",
+        "coordination problems",
+        "organic community"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Crypto Fundraising Problems and Market Manipulation",
+      "category": "governance",
+      "start_time": "46:05",
+      "end_time": "52:02",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Discussion of crypto's problematic fundraising model where projects raise money before building anything, contrasting with traditional VC requirements. Sam explains how digital asset liquidity creates perverse incentives compared to traditional private equity timelines.",
+      "key_terms": [
+        "fundraising model",
+        "market manipulation",
+        "digital asset liquidity",
+        "venture capital",
+        "private equity"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "Bear Markets as Market Correction Mechanism",
+      "category": "governance",
+      "start_time": "52:02",
+      "end_time": "58:19",
+      "primary_speaker": "Sam Lambert",
+      "summary": "Sam explains how crypto bear markets serve as correction mechanisms similar to traditional business cycles, eliminating zombie projects and forcing legitimate development practices. He warns about upcoming market consolidation and the need for community vigilance.",
+      "key_terms": [
+        "bear markets",
+        "market cycles",
+        "zombie firms",
+        "market consolidation",
+        "community audit"
+      ]
+    },
+    {
+      "topic_id": 15,
+      "title": "Stablecoin Design and Regulatory Concerns",
+      "category": "defi",
+      "start_time": "58:19",
+      "end_time": "60:01",
+      "primary_speaker": "Armeanio",
+      "summary": "Discussion of stablecoins as crypto's best product-market fit while critiquing current designs as non-bearer assets with regulatory vulnerabilities. Armeanio compares digital stablecoins to physical counterfeiting and questions the yield distribution model.",
+      "key_terms": [
+        "stablecoins",
+        "product-market fit",
+        "regulatory attack vector",
+        "counterfeiting",
+        "yield distribution"
+      ]
+    },
+    {
+      "topic_id": 16,
+      "title": "ErgoHack Video Release and Closing Remarks",
+      "category": "community",
+      "start_time": "60:01",
+      "end_time": "61:27",
+      "primary_speaker": "Armeanio",
+      "summary": "ErgoHack videos will be released this week showcasing projects like lending pools and multisig solutions. The discussion concludes with emphasis on long-term perspective and the coordination challenges of distributed development teams.",
+      "key_terms": [
+        "ErgoHack videos",
+        "lending pools",
+        "multisig solutions",
+        "distributed coordination",
+        "anonymous developers"
+      ]
+    }
+  ]
+}
