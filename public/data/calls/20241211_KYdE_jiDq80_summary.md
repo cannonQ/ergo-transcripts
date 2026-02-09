@@ -1,11 +1,11 @@
 # Ergo Community Call Summary - December 11, 2024
-## Bene | Bruno Woltzenlogel Paleo & Jossemii | ErgoHack 9
+## Bene | Bruno Woltzenlogel Paleo & Josemi | ErgoHack 9
 
 ## Executive Summary
 
 Bruno Woltzenlogel Paleo presented Bene, a comprehensive proof-of-funding platform built on Ergo blockchain that enables automated crowdfunding with token-based contribution tracking. The platform allows project owners to deploy funding vaults with customizable parameters (funding token type, minimum amounts, deadlines, and reward rates) while automatically distributing "contribution accounting tokens" or "proof of funding tokens" to contributors. These tokens serve as verifiable proof of participation and can represent various value propositions depending on the project type.
 
-Jossemii demonstrated the platform's user interface, showcasing how projects can be created, funded, and managed through an intuitive web interface. The system supports diverse use cases from charitable donations and crowdfunding to startup funding and event ticket sales, with built-in safety mechanisms that allow contributors to reclaim funds if minimum goals aren't met by specified deadlines.
+Josemi demonstrated the platform's user interface, showcasing how projects can be created, funded, and managed through an intuitive web interface. The system supports diverse use cases from charitable donations and crowdfunding to startup funding and event ticket sales, with built-in safety mechanisms that allow contributors to reclaim funds if minimum goals aren't met by specified deadlines.
 
 ## Key Discussion Points
 
@@ -33,4 +33,4 @@ Jossemii demonstrated the platform's user interface, showcasing how projects can
 ## Participants
 
 • **Bruno Woltzenlogel Paleo** - Lead presenter, Bene platform creator/developer
-• **Jossemii** - Platform developer, UI/UX demonstration lead
+• **Josemi** - Platform developer, UI/UX demonstration lead
