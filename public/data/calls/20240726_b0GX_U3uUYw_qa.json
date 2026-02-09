@@ -1,0 +1,149 @@
+{
+  "call_date": "2024-07-26",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:35",
+      "question": "What is the Sigmanauts Mining Pool working on regarding storage rent collection?",
+      "asker": "context discussion",
+      "answer": "The Sigmanauts Mining Pool has set up a testnet node and bound mining core to it to start injecting storage rent into the Mining Core app. Once testing is successful on testnet, they plan to implement this on the actual Sigmanauts Mining Pool, making it potentially the first mining pool that collects storage rent for additional miner rewards.",
+      "responder": "qx()",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "storage_rent",
+        "mining_pool",
+        "testnet",
+        "mining_core"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "03:29",
+      "question": "What is SigmaLock and how does it work?",
+      "asker": "context discussion",
+      "answer": "SigmaLock is a product being developed by Four Eyes that allows users to lock any token for any amount of time. It functions like a time-locked vault - you can lock tokens and receive an NFT that allows unlocking after a certain date. It includes failsafes where the main address can unlock or modify the contract if desired. Use cases include life insurance scenarios, vested token distributions to influencers or developers, and low-budget token launching platforms.",
+      "responder": "qx()",
+      "category": "defi",
+      "difficulty": "beginner",
+      "related_terms": [
+        "token_locking",
+        "vesting",
+        "nft",
+        "smart_contracts"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "18:16",
+      "question": "What progress has been made with Hummingbot integration for Ergo?",
+      "asker": "context discussion",
+      "answer": "The Rosen team has successfully modified Hummingbot to include Spectrum DEX, and they released a video showing successful arbitraging from Spectrum to centralized exchanges like KuCoin. This allows anyone to set up self-custodial arbitrage bots between Spectrum and exchanges, potentially increasing volume for Ergo naturally without relying on paid market makers.",
+      "responder": "qx()",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "hummingbot",
+        "arbitrage",
+        "spectrum_dex",
+        "rosen_bridge"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "29:42",
+      "question": "I saw mgPai say there's a lack of Ergo documentation available for developers. Any plans to address this?",
+      "asker": "just a little better",
+      "answer": "There are bounties available for documentation work in the dev channels. FleetSDK documentation is expected to be the next major release. The challenge is that developers often focus on building and leave documentation for last. Projects like DuckPools that involve developers like Kraz and Four Eyes typically have excellent documentation. The suggestion is for projects needing documentation to apply for grants from the Sigmanauts or Ergo Foundation to crowdsource or fund this work.",
+      "responder": "qx() and CannonQ",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "documentation",
+        "fleetsdk",
+        "bounties",
+        "grants"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "34:09",
+      "question": "What do you think of the new Proton wallet? Would Ergo support be possible?",
+      "asker": "Luca (LGD)",
+      "answer": "Proton's new Bitcoin wallet would fit perfectly with Ergo's privacy-focused approach. The wallet allows users with Proton email accounts to automatically have Bitcoin wallets, and you can send Bitcoin to someone's Proton email address even if they don't have a Bitcoin address set up. This aligns well with Ergo's 'privacy as a choice' philosophy. The integration would depend on Proton's process for allowing other chains to add support.",
+      "responder": "qx() and CannonQ",
+      "category": "wallet",
+      "difficulty": "beginner",
+      "related_terms": [
+        "proton_wallet",
+        "privacy",
+        "self_custody",
+        "integration"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "36:39",
+      "question": "Any news on Keystone hardware wallet adding Ergo support?",
+      "asker": "just a little better",
+      "answer": "kushti met with the Keystone team, and mgPai is currently working on estimating the hours needed for integration. Once mgPai determines the scope of work (whether it's 24 hours, 40 hours, or three weeks of development), there are plans to submit a proposal for the Sigmanauts to fund mgPai's efforts to code Ergo support for Keystone wallet if the Ergo Foundation doesn't provide support.",
+      "responder": "qx()",
+      "category": "wallet",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "keystone_wallet",
+        "hardware_wallet",
+        "integration",
+        "funding"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "41:38",
+      "question": "What is the Ergo Foundation's new proposal framework for funding?",
+      "asker": "context discussion",
+      "answer": "The Ergo Foundation released a formal framework for projects and individuals to request funding for initiatives like development projects and marketing efforts. This isn't new policy but rather a formal structure for what the EF has always offered - community bootstrapping through funding good proposals. The framework includes a cap of $10,000 per month for marketing initiatives, with no specified cap for development projects.",
+      "responder": "qx() and CannonQ",
+      "category": "governance",
+      "difficulty": "beginner",
+      "related_terms": [
+        "ergo_foundation",
+        "grants",
+        "funding",
+        "proposals"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "44:35",
+      "question": "Where do I get Ergo roadmaps for 2024 and beyond?",
+      "asker": "Sho",
+      "answer": "Ergo roadmaps are available on the main Ergo platform website. Additionally, Glasgow created detailed flowcharts showing where Ergo has been and where it's going, presented in an interactive format that allows zooming out to follow the development tree. These materials provide both text-based roadmaps and visual representations of Ergo's development path.",
+      "responder": "qx()",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "roadmap",
+        "ergo_platform",
+        "development",
+        "timeline"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "55:23",
+      "question": "Do the Fiat on ramps have an API so people from ecosystem can integrate that API into community wallets?",
+      "asker": "Savonarola Labs",
+      "answer": "Yes, LetsExchange (the swap service) has an API and they've already requested integration with Nautilus wallet and potentially other wallets. Joe Armeanio and the Nautilus team have been brought into discussions about this integration. If implemented, users would be able to buy Ergo directly from within Nautilus wallet in the USA and other supported countries, though this requires significant development work from the wallet teams.",
+      "responder": "qx()",
+      "category": "wallet",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "fiat_onramp",
+        "api",
+        "nautilus_wallet",
+        "letsexchange"
+      ]
+    }
+  ]
+}

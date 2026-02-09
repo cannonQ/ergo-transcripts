@@ -1,0 +1,164 @@
+{
+  "call_date": "2024-07-04",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "05:33",
+      "question": "What cross-chain bridges does Ergo currently have available?",
+      "asker": "implied_from_presentation",
+      "answer": "Ergo now has bridges with Cardano and Bitcoin through Rosen Bridge. The Bitcoin bridge launched just two weeks ago, and we are currently waiting for a bridge with Ethereum, followed by other EVM chains.",
+      "responder": "kushti",
+      "category": "bridges",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Rosen Bridge",
+        "cross-chain",
+        "Bitcoin",
+        "Cardano",
+        "Ethereum",
+        "EVM"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "07:41",
+      "question": "What stablecoins are available or planned for the Ergo ecosystem?",
+      "asker": "implied_from_presentation",
+      "answer": "Currently we have only one stablecoin, SigmaUSD. Two more are ready for launch: Dexy (currently in the middle of launch) and Gluon (planning mainnet launch in weeks). All three are algorithmic cryptocurrency-backed stablecoins. Additionally, trusted options like USDT and USDC are expected through bridges.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "beginner",
+      "related_terms": [
+        "SigmaUSD",
+        "Dexy",
+        "Gluon",
+        "stablecoins",
+        "algorithmic",
+        "USDT",
+        "USDC"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "09:23",
+      "question": "What types of decentralized exchanges are available on Ergo?",
+      "asker": "implied_from_presentation",
+      "answer": "Ergo has several DEX types: Spectrum DEX with AMM pools (accessible through different UIs like Spectrum DEX and CruxFinance), TradingHouse (a fully on-chain peer-to-peer order book DEX launched two weeks ago), CrystalPool (a fast order book DEX with centralized matching from ErgoHack), and TeleFract for self-sovereign grid trading against AMM pools.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Spectrum DEX",
+        "TradingHouse",
+        "CrystalPool",
+        "TeleFract",
+        "AMM",
+        "order book",
+        "grid trading"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "13:04",
+      "question": "What new features will Sigma 6.0 bring to Ergo?",
+      "asker": "implied_from_presentation",
+      "answer": "Sigma 6.0 will include fixes and new features in the contraction layer that will allow for more efficient contracts for Lithos and more efficient rollups. It will also support trustless hash rate derivatives and trustless Bitcoin relay contracts.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "Sigma 6.0",
+        "contraction layer",
+        "Lithos",
+        "rollups",
+        "hash rate derivatives",
+        "Bitcoin relay"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "14:18",
+      "question": "What is storage rent and how will it affect Ergo's future?",
+      "asker": "implied_from_presentation",
+      "answer": "Storage rent is slowly unwrapping and will become more significant over time. As it grows compared to block rewards, it may create interesting dynamics where miners jump between pools based on efficiency in storage rent collecting. There are proposals like EIP-45 on storage rent redistribution that may need discussion in late 2024.",
+      "responder": "kushti",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "storage rent",
+        "block reward",
+        "EIP-45",
+        "mining pools",
+        "redistribution"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "15:21",
+      "question": "What is ChainCash and how would it work on Ergo?",
+      "asker": "implied_from_presentation",
+      "answer": "ChainCash is a proposal for creating money with elastic supply based on Ergo as collateral, along with other blockchain assets, tokenized real world assets, or trust. In ChainCash, it's up to the receiver of a payment whether to accept it or not based on the quality of collateral and trust involved between parties.",
+      "responder": "kushti",
+      "category": "tokenomics",
+      "difficulty": "advanced",
+      "related_terms": [
+        "ChainCash",
+        "elastic supply",
+        "collateral",
+        "tokenized assets",
+        "stable unit of account"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "18:17",
+      "question": "When is Lithos expected to launch on mainnet?",
+      "asker": "implied_from_presentation",
+      "answer": "Lithos mainnet launch is still planned for November or December this year. Lithos is part of efforts to decentralize and strengthen mining on Ergo.",
+      "responder": "kushti",
+      "category": "mining",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Lithos",
+        "mainnet",
+        "mining",
+        "decentralization"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "19:00",
+      "question": "What are Fair Initial Mining Offerings and why are they better than airdrops?",
+      "asker": "implied_from_presentation",
+      "answer": "Fair Initial Mining Offerings (FIMOs) use mining as a distribution mechanism, which is much more fair than ordinary airdrops. Airdrops are always messy with lots of cheating, insider games, and manipulation. With mining-based distribution, there's no way to cheat because you need to do real work with your hardware.",
+      "responder": "kushti",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "FIMO",
+        "mining distribution",
+        "airdrops",
+        "fair launch",
+        "proof of work"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "24:34",
+      "question": "What is the vision for Ergo in five years?",
+      "asker": "implied_from_presentation",
+      "answer": "In five years, Ergo can be imagined as a hyperconnected blockchain connected with external blockchains like Bitcoin, Cardano, Nervos, and Ethereum. It will have a rich sidechains ecosystem with the safest DeFi for users, largely built for peer-to-peer trustless and secure interactions. It will bring value to the real world with tools for stable pricing and elastic supply based on high-quality proof-of-work assets, all built by a decentralized community following a research-driven approach.",
+      "responder": "kushti",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "hyperconnected",
+        "sidechains",
+        "DeFi",
+        "peer-to-peer",
+        "proof-of-work",
+        "research-driven"
+      ]
+    }
+  ]
+}

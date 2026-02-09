@@ -1,0 +1,145 @@
+{
+  "call_date": "2024-07-19",
+  "call_title": "Weekly Update & AMA - July 18th 2024",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "16:59",
+      "decision": "Sigmanauts mining pool split off to become more autonomous with its own DAO, giving 5% of active tokens to Sigmanauts treasury",
+      "speaker": "qx()",
+      "context": "To allow mining pool to vote on their own things while still giving Sigmanauts a say",
+      "topic": "governance",
+      "significance": "major",
+      "quote": "The Sigmanauts mining pool also kind of split off on their own, a little bit more autonomous. They created a DAO and they essentially gave 5% of the active tokens to the Sigmanauts treasury"
+    },
+    {
+      "id": 2,
+      "timestamp": "25:23",
+      "decision": "Community awards distributed $7,100 total with scaling based on votes received",
+      "speaker": "qx()",
+      "context": "ErgoHack community awards voting completed on Paideia",
+      "topic": "ergohack",
+      "significance": "minor",
+      "quote": "This week I paid out $7,100 to the community awards"
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "02:46",
+      "commitment": "Expanding Web3 libraries for upcoming Palmyra Pro release with traceability modules and oracles",
+      "owner": "Dan Friedman/Palmyra",
+      "timeline": "unspecified",
+      "topic": "palmyra",
+      "quote": "we just released an update to the Winter Protocol, which is really nice. We're actually expanding our Web3 libraries for the upcoming Palmyra Pro release"
+    },
+    {
+      "id": 2,
+      "timestamp": "04:47",
+      "commitment": "Heading to Argentina to attend and sponsor ADN conference in Buenos Aires",
+      "owner": "Dan Friedman",
+      "timeline": "unspecified",
+      "topic": "palmyra",
+      "quote": "I'm going to be heading out to Bolivia. What the hell am I talking about? Sorry... Argentina. Heading over there... We're also going to be attending and sponsoring the ADN conference in Argentina in Buenos Aires"
+    },
+    {
+      "id": 3,
+      "timestamp": "15:47",
+      "commitment": "Migrating Sigmanauts mining pool to cheaper server to cut costs from $100/month to $40-45/month",
+      "owner": "Mark/Sigmanauts",
+      "timeline": "this week",
+      "topic": "sigmanauts",
+      "quote": "Mark also is working on, we're working on migrating the Sigmanauts mining pool to a cheaper server... hopefully this week we'll spin that up and do some tests on it"
+    },
+    {
+      "id": 4,
+      "timestamp": "16:12",
+      "commitment": "Fire up separate mining pool to test storage rent collection for kushti",
+      "owner": "qx()",
+      "timeline": "this week",
+      "topic": "technical",
+      "quote": "After that, kushti has asked me to fire up a separate mining pool so that he can test, what's it called, storage rent collection? So that's exciting. So I have to do that this week"
+    },
+    {
+      "id": 5,
+      "timestamp": "35:29",
+      "commitment": "Will ask mgPai about updating ErgPy",
+      "owner": "Dan Friedman",
+      "timeline": "unspecified",
+      "topic": "development",
+      "quote": "All right, all right. I'll ask him. I'll ask him"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "18:09",
+      "question": "Who are the current members of the EF? Are Joe and MHS off?",
+      "context": "Community question about Ergo Foundation membership status",
+      "topic": "governance",
+      "raised_by": "Community member"
+    },
+    {
+      "id": 2,
+      "timestamp": "19:48",
+      "question": "When will Gluon Gold mainnet launch?",
+      "context": "Community question about Gluon Gold timeline",
+      "topic": "development",
+      "raised_by": "Community member"
+    },
+    {
+      "id": 3,
+      "timestamp": "24:11",
+      "question": "How to implement wine tokenization on Palmyra - forward contracts for barrels or fractional ownership of casks?",
+      "context": "Exploring wine commodity onboarding options",
+      "topic": "palmyra",
+      "raised_by": "Community question"
+    },
+    {
+      "id": 4,
+      "timestamp": "28:01",
+      "question": "Amount and timeline for Rosen rewards distribution from ErgoHack",
+      "context": "ErgoHack rewards still pending distribution",
+      "topic": "ergohack",
+      "raised_by": "qx()"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "11:32",
+      "fact": "Sigmanauts successfully distributed $5,400 from treasury to merchandise supplier",
+      "speaker": "qx()",
+      "topic": "sigmanauts"
+    },
+    {
+      "id": 2,
+      "timestamp": "10:36",
+      "fact": "Rosen Runes got approved for Catalyst funding",
+      "speaker": "Dan Friedman",
+      "topic": "rosen-bridge"
+    },
+    {
+      "id": 3,
+      "timestamp": "16:37",
+      "fact": "About 400-500 ERGs currently ready to be collected by miners through storage rent collection",
+      "speaker": "qx()",
+      "topic": "technical"
+    },
+    {
+      "id": 4,
+      "timestamp": "25:23",
+      "fact": "Total community awards for ErgoHack were $7,100, funded largely by MX's 6-7k ERG donation",
+      "speaker": "qx()",
+      "topic": "ergohack"
+    },
+    {
+      "id": 5,
+      "timestamp": "28:01",
+      "fact": "1,000 ERGs remaining from community rewards to be distributed as 100 ERGs to each of 10 ErgoHack teams",
+      "speaker": "qx()",
+      "topic": "ergohack"
+    }
+  ]
+}

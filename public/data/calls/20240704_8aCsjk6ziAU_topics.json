@@ -1,0 +1,341 @@
+{
+  "call_date": "2024-07-04",
+  "call_title": "The Next 5 Years of Ergo | Alex Chepurnoy | Ergoversary Summit 2024",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Introduction and Talk Structure Overview",
+      "category": "ecosystem",
+      "start_time": "00:14",
+      "end_time": "01:19",
+      "primary_speaker": "kushti",
+      "summary": "Alex Chepurnoy introduces his personal reflections on Ergo's future and outlines the three-part structure covering history, current state, and future plans. He emphasizes these are his personal thoughts on core protocol and ecosystem development.",
+      "key_terms": [
+        "core protocol",
+        "ecosystem development",
+        "governance",
+        "personal reflections"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Ergo Launch History and Early Development",
+      "category": "ecosystem",
+      "start_time": "01:19",
+      "end_time": "02:57",
+      "primary_speaker": "kushti",
+      "summary": "Covers Ergo's painful launch on July 1st 2019 during crypto winter and the establishment of Ergo Foundation. Describes the first crowdfunding using node hackery and early smart contract developments including zero-join paper and multi-stage contracts.",
+      "key_terms": [
+        "mainnet launch",
+        "crypto winter",
+        "Ergo Foundation",
+        "crowdfunding",
+        "smart contracts",
+        "zero-join",
+        "multi-stage contracts"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "2020-2021 Application Ecosystem Growth",
+      "category": "ecosystem",
+      "start_time": "02:57",
+      "end_time": "04:41",
+      "primary_speaker": "kushti",
+      "summary": "Details the emergence of first end-user applications including ErgoMixer, Oracle Pools, Zero-Knowledge Treasury, auction house, and SigmaUSD. Highlights 2021 as the beginning of DeFi with Spectrum DEX launch.",
+      "key_terms": [
+        "ErgoMixer",
+        "Oracle Pools",
+        "Zero-Knowledge Treasury",
+        "auction house",
+        "SigmaUSD",
+        "Spectrum DEX",
+        "DeFi",
+        "multi-signature"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "2022-2024 DeFi Expansion and Cross-Chain",
+      "category": "defi",
+      "start_time": "04:41",
+      "end_time": "05:53",
+      "primary_speaker": "kushti",
+      "summary": "Chronicles solid DeFi growth with tools like Ergo Raffle, SigmaFi lending, and DuckPools. Emphasizes 2024 as the year of cross-chain connectivity with Rosen Bridge launches for Cardano, Bitcoin, and upcoming Ethereum support.",
+      "key_terms": [
+        "Ergo Raffle",
+        "SigmaFi",
+        "DuckPools",
+        "lending",
+        "Rosen Bridge",
+        "cross-chain",
+        "Cardano",
+        "Bitcoin",
+        "Ethereum",
+        "EVM chains"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Core Protocol Upgrades History",
+      "category": "technical",
+      "start_time": "05:53",
+      "end_time": "06:39",
+      "primary_speaker": "kushti",
+      "summary": "Reviews major protocol upgrades including hardening hard fork, EIP-27 soft fork, unplanned EIP-37 hard fork, and Sigma 5.0 soft fork. Notes the progression from hard forks to soft forks requiring only miner updates.",
+      "key_terms": [
+        "hardening hard fork",
+        "EIP-27",
+        "EIP-37",
+        "Sigma 5.0",
+        "soft fork",
+        "hard fork",
+        "protocol upgrades"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Governance Organizations Development",
+      "category": "governance",
+      "start_time": "06:39",
+      "end_time": "07:29",
+      "primary_speaker": "kushti",
+      "summary": "Outlines the establishment of three key governance organizations: Ergo Foundation (2019), Sigmanauts DAO (2022), and the recently formed ErgoDevs DAO. Shows the evolution toward decentralized governance structures.",
+      "key_terms": [
+        "Ergo Foundation",
+        "Sigmanauts DAO",
+        "ErgoDevs DAO",
+        "governance",
+        "organizations",
+        "decentralized governance"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Current Stablecoin Ecosystem Status",
+      "category": "defi",
+      "start_time": "07:29",
+      "end_time": "09:07",
+      "primary_speaker": "kushti",
+      "summary": "Details current stablecoin landscape with SigmaUSD operational, Dexy launching, and Gluon preparing for mainnet. Discusses future trusted stablecoins via bridges and the need for modified tooling like stable pools.",
+      "key_terms": [
+        "SigmaUSD",
+        "Dexy",
+        "Gluon",
+        "algorithmic stablecoins",
+        "USDT",
+        "USDC",
+        "stable pools",
+        "liquidity",
+        "stablecoin reserves"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "DEX Variety and Trading Options",
+      "category": "defi",
+      "start_time": "09:07",
+      "end_time": "10:40",
+      "primary_speaker": "kushti",
+      "summary": "Showcases diverse DEX ecosystem including Spectrum DEX with multiple UIs, new TradingHouse peer-to-peer order book, CrystalPool from ErgoHack, and TeleFract for self-sovereign grid trading. Demonstrates innovation in decentralized trading.",
+      "key_terms": [
+        "Spectrum DEX",
+        "CruxFinance",
+        "TradingHouse",
+        "order book",
+        "CrystalPool",
+        "TeleFract",
+        "grid trading",
+        "AMM pools",
+        "peer-to-peer"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Complete DeFi and Application Ecosystem",
+      "category": "ecosystem",
+      "start_time": "10:40",
+      "end_time": "12:21",
+      "primary_speaker": "kushti",
+      "summary": "Comprehensive overview of current ecosystem including lending (SigmaFi, DuckPools), games/NFTs (Blitz TCG, Cyberverse), derivatives (SigmaO), monetary experiments (auction/HODL coins), DAO tools (Paideia), and real-world applications like Xlair for Kenyan farmers.",
+      "key_terms": [
+        "SigmaFi",
+        "DuckPools",
+        "Blitz TCG",
+        "Cyberverse",
+        "SkyHarbor",
+        "SigmaO",
+        "derivatives",
+        "HODL coin",
+        "Paideia",
+        "Xlair",
+        "crowdfunding"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Sigma 6.0 Protocol Development",
+      "category": "technical",
+      "start_time": "12:21",
+      "end_time": "13:49",
+      "primary_speaker": "kushti",
+      "summary": "Introduces Sigma 6.0 development with fixes and new features in contraction layer enabling more efficient rollups, trustless hash rate derivatives, and Bitcoin relay contracts. Focuses on expanding protocol capabilities for Layer 2 solutions.",
+      "key_terms": [
+        "Sigma 6.0",
+        "contraction layer",
+        "rollups",
+        "Lithos",
+        "hash rate derivatives",
+        "Bitcoin relay",
+        "Layer 2",
+        "trustless contracts"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Performance and Storage Rent Improvements",
+      "category": "technical",
+      "start_time": "13:49",
+      "end_time": "15:05",
+      "primary_speaker": "kushti",
+      "summary": "Discusses need for fast confirmations and throughput improvements using sub-blocks or micro blocks. Addresses growing importance of storage rent and potential tweaking, mentioning EIP-45 for storage rent redistribution.",
+      "key_terms": [
+        "fast confirmations",
+        "throughput",
+        "sub-blocks",
+        "micro blocks",
+        "storage rent",
+        "EIP-45",
+        "storage rent redistribution"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Real World Money and ChainCash",
+      "category": "defi",
+      "start_time": "15:05",
+      "end_time": "17:00",
+      "primary_speaker": "kushti",
+      "summary": "Presents vision for real-world money with elastic supply using stable units like gold. Introduces ChainCash concept for creating collateral-backed money where payment acceptance depends on collateral quality and trust between parties.",
+      "key_terms": [
+        "elastic supply",
+        "stable unit of account",
+        "gold",
+        "ChainCash",
+        "collateral",
+        "tokenized real world assets",
+        "option coins",
+        "perpetuals"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Sidechains and Trustless Relays",
+      "category": "technical",
+      "start_time": "17:00",
+      "end_time": "18:17",
+      "primary_speaker": "kushti",
+      "summary": "Outlines sidechain development progress from ErgoHack 7 designs and ErgoHack 8 trustless relays. Plans to publish explanations and continue research while seeking interested parties for launches.",
+      "key_terms": [
+        "sidechains",
+        "ErgoHack 7",
+        "ErgoHack 8",
+        "trustless relay",
+        "sidechain designs",
+        "research"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "Mining Decentralization and Lithos Launch",
+      "category": "technical",
+      "start_time": "18:17",
+      "end_time": "20:10",
+      "primary_speaker": "kushti",
+      "summary": "Emphasizes need for mining decentralization with Lithos mainnet planned for November-December 2024. Discusses storage rent creating interesting mining dynamics and hopes for fair initial mining offerings revival as better alternative to airdrops.",
+      "key_terms": [
+        "mining decentralization",
+        "Lithos",
+        "storage rent",
+        "block reward",
+        "fair initial mining offerings",
+        "airdrops",
+        "mining pools"
+      ]
+    },
+    {
+      "topic_id": 15,
+      "title": "Cross-Chain Expansion Plans",
+      "category": "bridges",
+      "start_time": "20:10",
+      "end_time": "21:07",
+      "primary_speaker": "kushti",
+      "summary": "Details cross-chain roadmap including Bitcoin runes support, EVM chains post-Ethereum bridge, Bitcoin Cash, Nervos, and other UTXO Alliance blockchains. Mentions advanced protocols like RGB++ using isomorphic binding.",
+      "key_terms": [
+        "Bitcoin runes",
+        "EVM chains",
+        "Bitcoin Cash",
+        "Nervos",
+        "UTXO Alliance",
+        "RGB++",
+        "isomorphic binding",
+        "trustless relays"
+      ]
+    },
+    {
+      "topic_id": 16,
+      "title": "Developer Tooling Improvements",
+      "category": "technical",
+      "start_time": "21:07",
+      "end_time": "22:21",
+      "primary_speaker": "kushti",
+      "summary": "Outlines developer experience improvements including costing support in Sigma 6.0, better error reporting and debugging tools. Considers support for high-level languages like ErgoLisp and return to formal verification with real-world experience.",
+      "key_terms": [
+        "Sigma Rust",
+        "costing",
+        "error reporting",
+        "debugging",
+        "ErgoLisp",
+        "high-level languages",
+        "formal verification",
+        "developer experience"
+      ]
+    },
+    {
+      "topic_id": 17,
+      "title": "Governance and Protocol Development Rules",
+      "category": "governance",
+      "start_time": "22:21",
+      "end_time": "24:21",
+      "primary_speaker": "kushti",
+      "summary": "Envisions additional governance entities like Ergo Association or Ecosystem Fund for ecosystem-wide coordination. Calls for defining release rules, security protocols, and research-driven development standards for core protocol implementation.",
+      "key_terms": [
+        "Ergo Association",
+        "Ergo Ecosystem Fund",
+        "release security",
+        "reference clients",
+        "research-driven development",
+        "protocol governance"
+      ]
+    },
+    {
+      "topic_id": 18,
+      "title": "Five Year Vision Summary",
+      "category": "ecosystem",
+      "start_time": "24:21",
+      "end_time": "26:19",
+      "primary_speaker": "kushti",
+      "summary": "Concludes with vision of Ergo as hyperconnected blockchain with rich sidechain ecosystem, safest DeFi, real-world value tools with elastic supply, built by decentralized community following research-driven approach. Emphasizes trustless peer-to-peer interactions and proof-of-work foundation.",
+      "key_terms": [
+        "hyperconnected blockchain",
+        "sidechains ecosystem",
+        "safest DeFi",
+        "peer-to-peer",
+        "elastic supply",
+        "proof-of-work",
+        "decentralized community",
+        "research-driven"
+      ]
+    }
+  ]
+}

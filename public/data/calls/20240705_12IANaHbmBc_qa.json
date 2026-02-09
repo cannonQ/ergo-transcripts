@@ -1,0 +1,151 @@
+{
+  "call_date": "2024-07-05",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "13:42",
+      "question": "What would be your vision for the next five years of Ergo?",
+      "asker": "Wombo",
+      "answer": "I would like to see more user adoption by making novel innovations and having better UI/UX experience. We should focus on making the onboarding process really smooth, maybe leading the crypto industry in onboarding with one-tap wallets. We should also leverage Ergo's unique features like NIPoPoWs, which allow super light clients that can run your own node instantly in a few minutes using only a couple hundred megabits of storage.",
+      "responder": "mgPai",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "user adoption",
+        "NIPoPoWs",
+        "light clients",
+        "onboarding"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "15:14",
+      "question": "What are NIPoPoWs and why are they important for Ergo?",
+      "asker": "Wombo (follow-up context)",
+      "answer": "NIPoPoWs are super light clients for nodes that allow you to run your own node instantly, completely synced to the blockchain in a few minutes using only a couple hundred megabits of storage. You can run your own node each time you start up your wallet on your phone without needing to connect to anyone else's nodes. This is a really unique feature that I don't think any other blockchain has, and it could be especially useful for users dealing with censorship or being careful about which nodes they connect to.",
+      "responder": "mgPai",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "NIPoPoWs",
+        "light clients",
+        "nodes",
+        "censorship resistance"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "16:32",
+      "question": "What are the plans for layer two scaling solutions on Ergo?",
+      "asker": "Wombo (follow-up context)",
+      "answer": "Looking a few years down the line, I would like to see layer two scaling solutions for things like high frequency trading that want super fast block times. It would be more centralized, maybe needing Solana-based servers, but it makes sense when layer one is decentralized - layer two gives you a choice. You can stick to Ergo if you want decentralization, or use layer two for speed if you trust whoever's running it. I don't need the most trust when buying a cup of coffee, but for buying a car I want the best security and can wait two minutes.",
+      "responder": "mgPai",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "layer 2",
+        "scaling",
+        "decentralization",
+        "sigma chains"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "23:22",
+      "question": "Can you explain what the collaboration with Chainlink brings to both Cardano and Ergo?",
+      "asker": "Community member",
+      "answer": "We use Chainlink's existing IoT devices and sensors that are already deployed and running to extract real-world data. For example, weight sensors for commodities or humidity sensors for tea leaves storage. This data gets constantly posted to the chain for verification. Rather than building hardware partnerships from scratch, we leverage Chainlink's existing infrastructure, which saves ZenGate development time and resources. It also provides exposure since people know Chainlink is trustworthy, making them curious about why ZenGate chose Ergo over Ethereum.",
+      "responder": "mgPai",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Chainlink",
+        "oracles",
+        "IoT",
+        "ZenGate",
+        "real-world data"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "35:22",
+      "question": "Can you specifically talk about the Winter Protocol and what it is?",
+      "asker": "qx()",
+      "answer": "Winter Protocol is simply a traceability protocol to track commodities by storing data on the blockchain. It's purely a way to store data agnostically on UTXO blockchains so you can trace the life cycle of a commodity. It uses something called singletons, which allows you to know exactly where data is stored on the blockchain. The singleton always transfers over when UTXOs are spent and recreated, making it easy to track the current traceability object and see the complete history.",
+      "responder": "mgPai",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Winter Protocol",
+        "traceability",
+        "singletons",
+        "UTXO",
+        "commodities"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "37:45",
+      "question": "How do singletons work for tracing data on Ergo?",
+      "asker": "qx() (follow-up)",
+      "answer": "Singletons allow you to always find the box (UTXO) where data is located using the token ID. When someone updates traceability data, the old UTXO is spent and a new one is created, but the singleton always transfers over. Using Ergo node API endpoints, you can get boxes by token ID and see the history of every single UTXO the singleton has been inside of. This naturally works with how Ergo and UTXOs function, giving you a complete history of all events the commodity has gone through.",
+      "responder": "mgPai",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "singletons",
+        "UTXO",
+        "token ID",
+        "traceability",
+        "API endpoints"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "39:05",
+      "question": "What do you think is the coolest thing Ergo has accomplished in the last five years?",
+      "asker": "qx()",
+      "answer": "The most impressive thing Ergo has is its developer community. Given the price movement, size, market cap and users on Ergo, it's very impressive how many developers we have. These developers really don't have funding - it's all done out of interest. Everything is community funded and developers do it out of their interest without making much money. This shows that Ergo is real, not fake like other chains that are mostly funded by their teams and venture capitalists.",
+      "responder": "mgPai",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "developer community",
+        "community funding",
+        "organic growth"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "48:10",
+      "question": "What chain should Rosen Bridge add next in your opinion?",
+      "asker": "Wombo",
+      "answer": "Beyond Ethereum, I think they should go to BNB (Binance chain). They should hit the big guys first to make it an attractive offering, then hit the smaller chains. You're going to get volume by opening pathways to these main intersections that everybody wants to go to. The goal should be for Rosen to become such an attractive entity that it brings on everyone - Chainlink, Avalanche, Polkadot. However, there's a reason they chose Cardano first and Bitcoin second - they're working out everything before approaching larger chains.",
+      "responder": "qx()",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Rosen Bridge",
+        "interoperability",
+        "BNB",
+        "cross-chain"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "48:21",
+      "question": "What integration would you like to see for Rosen Bridge after Ethereum?",
+      "asker": "qx() (follow-up)",
+      "answer": "I want to see integration with Kaspa quite immediately. Kaspa recently launched KRC20 tokens, which are similar to tokens available on Bitcoin. They're not native tokens but work through off-chain indexers that do calculation and validation of token balance and transfers. The node has no clue about it, but centralized indexers handle the validation.",
+      "responder": "mgPai",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Kaspa",
+        "KRC20",
+        "indexers",
+        "token standards"
+      ]
+    }
+  ]
+}

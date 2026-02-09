@@ -1,0 +1,164 @@
+{
+  "call_date": "2024-08-02",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "08:31",
+      "question": "How can the Good Things DAO scale beyond its current small group of active participants?",
+      "asker": "qx()",
+      "answer": "We need a dashboard or website to track loans and defaults to build trust and transparency. While about 30 people donated to the raffles, only 4-5 are active in the DAO on Paideia. The next step is creating a proper dashboard that integrates loan data and historical repayment information, plus potentially having the DAO vote on future loan rounds to increase engagement.",
+      "responder": "qx()",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Good Things DAO",
+        "Paideia",
+        "loans",
+        "Kenya"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "12:41",
+      "question": "How does Ergo differentiate itself from other blockchain value propositions?",
+      "asker": "qx()",
+      "answer": "Most blockchains today have essentially the same value proposition focused on TPS metrics without clear real-world use cases. Ergo differentiates by focusing on real-world applications that have existed for hundreds of years rather than temporary fads. While high TPS might not be 'sexy,' building on lasting human needs creates more sustainable value than chasing trends like NFT crazes.",
+      "responder": "kushti",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "TPS",
+        "real-world adoption",
+        "value proposition"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "18:55",
+      "question": "Will the developer DAO utilize the EF grant program that was recently released?",
+      "asker": "qx()",
+      "answer": "We're currently discussing how to structure the dev DAO and funding sources. There are ongoing bounties including FleetSDK tutorials with two submissions being evaluated. We're exploring various funding options including talks with different entities, though it's challenging for a proof-of-work cryptocurrency without institutional backing.",
+      "responder": "kushti",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "developer DAO",
+        "EF grants",
+        "FleetSDK",
+        "bounties"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "21:49",
+      "question": "What's the current status of Ergo 6.0 release and sub-blocks development?",
+      "asker": "qx()",
+      "answer": "Ergo 6.0 is mostly finalized and currently being polished with testing and review. Optimistically, testnet launch could happen by mid-August depending on review progress. For sub-blocks, there's an updated proposal on the forum and basic code development has started with network messages and entities. A roadmap and contributor invitation will follow soon.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "Ergo 6.0",
+        "sub-blocks",
+        "testnet"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "23:11",
+      "question": "Will more Oracle tokens be sold on Auction House once Dexy Gold launches?",
+      "asker": "qx()",
+      "answer": "It's a complex decision because selling more Oracle tokens would increase gold emission since more oracles mean more emission. We need to balance getting more ERG for the pool versus having controlled emission. It might be better decided by existing oracles, and we should keep some tokens reserved for potential future players like gold vaults.",
+      "responder": "kushti",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Dexy Gold",
+        "Oracle tokens",
+        "Auction House",
+        "emission"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "34:43",
+      "question": "Will Ethereum people use Dexy or Gluon approaches for gold stablecoins?",
+      "asker": "Earth miner",
+      "answer": "There is an EVM implementation of Djed, and Gluon seems possible to implement. For Dexy, it's unclear about feasibility on Ethereum due to cost considerations. Some things are technically doable on Ethereum but too expensive, like order book based DEXes, so it's hard to determine if Dexy would be practical there.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "advanced",
+      "related_terms": [
+        "Dexy",
+        "Gluon",
+        "Ethereum",
+        "Djed",
+        "EVM"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "36:05",
+      "question": "What are the considerations for the first Sigma chain - merge mined sidechain vs standalone blockchain, and what restrictions would merge mining impose?",
+      "asker": "Anonymous",
+      "answer": "The decision depends on finding partners and funding sources, with talks ongoing with potential partners. It could be a private blockchain with timestamping on Ergo, or a dedicated Sigma chain. Merge mining has advantages like using existing hashpower without needing to advertise to miners, and simpler incentivization through fees. However, the approach depends on external factors and specific use case requirements.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "Sigma chain",
+        "merge mining",
+        "sidechain",
+        "hashpower"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "41:58",
+      "question": "Can you explain the fiat on-ramp integration and its potential for the ecosystem?",
+      "asker": "Wombo",
+      "answer": "We're working with a fiat on-ramp provider to integrate Spectrum DEX for direct token purchases. Users could buy tokens like Rosen directly with fiat through a widget on project websites. The system would buy ERG first, then automatically swap on Spectrum DEX to deliver the desired token. This would enable any project with a Spectrum liquidity pool to offer direct fiat purchasing, creating seamless on-ramps without leaving their websites.",
+      "responder": "qx()",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "fiat on-ramp",
+        "Spectrum DEX",
+        "Rosen",
+        "widget"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "47:06",
+      "question": "How does Russian regulation look for Ergo and other altcoins, given that Russia allows mining Bitcoin but not exchange or payments?",
+      "asker": "Luke Graysmith",
+      "answer": "There's a new law coming in September that needs legal interpretation, but it appears mining of everything (including altcoins) will be possible, which is quite positive. For exchanges, they will be allowed in certain regulated zones or sandbox environments. A lawyer will provide a detailed interpretation of the new regulations soon.",
+      "responder": "kushti",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Russia",
+        "regulation",
+        "mining",
+        "exchange"
+      ]
+    },
+    {
+      "qa_id": 10,
+      "timestamp": "59:16",
+      "question": "What makes Ergo's storage rent system unique compared to other cryptocurrencies?",
+      "asker": "qx()",
+      "answer": "Storage rent creates a truly fixed supply system that's neither inflationary nor deflationary. Unlike Bitcoin where supply constantly decreases as coins are lost over time, Ergo balances lost coins with storage rent collection. This creates a unique asset with genuinely fixed supply in the long run, unlike other cryptocurrencies with limited emission but no mechanism to replace lost coins.",
+      "responder": "kushti",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "storage rent",
+        "fixed supply",
+        "tokenomics",
+        "Bitcoin comparison"
+      ]
+    }
+  ]
+}

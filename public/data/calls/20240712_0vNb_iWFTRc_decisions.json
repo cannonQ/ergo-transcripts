@@ -1,0 +1,136 @@
+{
+  "call_date": "2024-07-12",
+  "call_title": "Weekly Update & AMA - July 11th 2024",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "15:55",
+      "decision": "Sigmanauts voted to break out mining pool to be more self-sustaining with 10% DAO tokens going to Sigmanauts",
+      "speaker": "qx()",
+      "context": "To make mining pool more autonomous while maintaining connection to Sigmanauts",
+      "topic": "governance",
+      "significance": "major",
+      "quote": "the Sigmanauts are doing, we just had our vote for kind of breaking out the mining pool to be more self-sustaining"
+    },
+    {
+      "id": 2,
+      "timestamp": "16:22",
+      "decision": "Sigmanauts voted to buy about five thousand dollars worth of Ergo merchandise",
+      "speaker": "qx()",
+      "context": "To create swag for RareEvo and ongoing sales",
+      "topic": "marketing",
+      "significance": "minor",
+      "quote": "we had a vote pass to buy about five thousand dollars worth of Ergo merchandise"
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "01:44",
+      "commitment": "Informal session about UTXO DeFi during Coffee with Crypto meetup",
+      "owner": "kushti",
+      "timeline": "this Saturday",
+      "topic": "education",
+      "quote": "we are thinking to talk exclusively about UTXO DeFi, peer-to-peer DeFi. So I've got some folks here excited about that. So maybe we will do an event about that"
+    },
+    {
+      "id": 2,
+      "timestamp": "08:47",
+      "commitment": "Finish 6.0 with one big pull request and new big integer data type",
+      "owner": "kushti",
+      "timeline": "this week conceptually ready",
+      "topic": "technical",
+      "quote": "finishing 6.0...finishing yeah, one pull request, the biggest one probably from the morning and I need to finish a new big integer data type...hopefully this week it will be conceptually ready"
+    },
+    {
+      "id": 3,
+      "timestamp": "10:53",
+      "commitment": "Send 6.0 specification to mining pools representatives",
+      "owner": "kushti",
+      "timeline": "at some point",
+      "topic": "technical",
+      "quote": "we will also send them 6.0 specification at some point because it's up to them to vote for it or not"
+    },
+    {
+      "id": 4,
+      "timestamp": "18:22",
+      "commitment": "Post full list of fiat onramp details and price for community review",
+      "owner": "qx()",
+      "timeline": "unspecified",
+      "topic": "integration",
+      "quote": "I will take that list along with the price of integration request and I'll post that in Sigmanauts. We'll talk about it and then I'll post it publicly"
+    },
+    {
+      "id": 5,
+      "timestamp": "34:35",
+      "commitment": "Call with Keystone hardware wallet team including kushti and mgPai",
+      "owner": "kushti",
+      "timeline": "10 days from now",
+      "topic": "integration",
+      "quote": "there will be a call with Lee Sin 10 days from now. So there will be a few Sigmanauts on the call, like me and mgPai"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "35:21",
+      "question": "Whether Rosen should add USDT given KYC and address blocking concerns",
+      "context": "Community asking about USDT support on Rosen bridge",
+      "topic": "rosen-bridge",
+      "raised_by": "Savonarola Labs"
+    },
+    {
+      "id": 2,
+      "timestamp": "35:02",
+      "question": "What's needed tech wise for Keystone hardware wallet integration",
+      "context": "Upcoming call to discuss integration requirements",
+      "topic": "integration",
+      "raised_by": "kushti"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "28:29",
+      "fact": "Gluon tokens were issued today and Mainnet contracts being deployed",
+      "speaker": "kushti",
+      "topic": "defi"
+    },
+    {
+      "id": 2,
+      "timestamp": "28:29",
+      "fact": "Dexy Gold LP contracts also in process of deployment with LP tokens issued",
+      "speaker": "kushti",
+      "topic": "defi"
+    },
+    {
+      "id": 3,
+      "timestamp": "39:43",
+      "fact": "Temperature is plus 50 degrees (122 Fahrenheit) in Dubai where kushti is located",
+      "speaker": "kushti",
+      "topic": "personal"
+    },
+    {
+      "id": 4,
+      "timestamp": "19:46",
+      "fact": "Non-KYC fiat onramp limit is about 700 euro a day for supported countries",
+      "speaker": "qx()",
+      "topic": "integration"
+    },
+    {
+      "id": 5,
+      "timestamp": "58:57",
+      "fact": "SigmaUSD went to $1.17 per token on Spectrum",
+      "speaker": "kushti",
+      "topic": "defi"
+    },
+    {
+      "id": 6,
+      "timestamp": "59:03",
+      "fact": "In the bank, SigmaUSD is always one dollar if it's mintable",
+      "speaker": "kushti",
+      "topic": "defi"
+    }
+  ]
+}
