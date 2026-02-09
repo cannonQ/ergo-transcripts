@@ -1,0 +1,347 @@
+[00:11] **Noob77777**: Hello everyone, so this is Noob77777 and today we will be presenting SigmaRand.
+
+[00:18] **Noob77777**: The idea with SigmaRand is generating secure random numbers on Ergo.
+
+[00:25] **Noob77777**: Understanding the problem.
+
+[00:27] **Noob77777**: So basically generating randomness on any blockchain is challenging because every node must come to the same conclusion on the state of the blockchain.
+
+[00:37] **Noob77777**: Naive approaches to generate randomness can be manipulated by miners or observant attackers.
+
+[00:43] **Noob77777**: Insecure randomness can be easily exploited by attackers to gain an unfair advantage in games, lotteries or any other contracts that rely on random number generation.
+
+[00:55] **Noob77777**: So, formally defining the problem statement, we need a secure random number generation service for Ergo and they must satisfy these three properties.
+
+[01:07] **Noob77777**: The scheme should be secure, the number generator should be equally unpredictable for all participants and all participants must agree on the same random number generated.
+
+[01:21] **Noob77777**: So how do we solve this?
+
+[01:23] **Noob77777**: This protocol has already been implemented in Ethereum.
+
+[01:28] **Noob77777**: So the way to solve this is via commit reveal protocol, which essentially has two phases.
+
+[01:35] **Noob77777**: One is the commit phase and the reveal phase.
+
+[01:39] **Noob77777**: So each of the participants generate their own secret random values in the commit state.
+
+[01:46] **Noob77777**: and they commit the values on chain.
+
+[01:49] **Noob77777**: So, once all the participants have committed their values, we can basically easily calculate the common random number that each of the participants must agree on.
+
+[02:02] **Noob77777**: For our example, we have chosen two parties.
+
+[02:05] **Noob77777**: One would be the client and one would be the server.
+
+[02:11] **Noob77777**: The client would submit one random number to the chain.
+
+[02:16] **Noob77777**: Then without knowing that random number, the server would submit its part of the random number.
+
+[02:22] **Noob77777**: And finally, we will be combining the random numbers by taking a bitwise XOR.
+
+[02:31] **Noob77777**: Now this slide gives a more detailed overview on the entire process.
+
+[02:38] **Noob77777**: So Alice in this case would be the client and Bob the server.
+
+[02:44] **Noob77777**: So Alice cannot reveal her random number initially.
+
+[02:48] **Noob77777**: So what she does is create a hash of that random number and commit that hash on chain in the first transaction.
+
+[03:00] **Noob77777**: Bob, when notified about that random number generation task creates its part of the random number that is in the second box so in the second box we have hash of random A and random B committed once the two transactions are confirmed on chain Alice would be revealing her random number in this case we create a third UTXO which
+
+[03:28] **Noob77777**: has random A revealed, random B is the same from the previous UTXO and the random number generated is random A bitwise XOR random B.
+
+[03:39] **Noob77777**: So, coming to this, we can see a few issues that might happen because the protocol that we decided to create had to be secure in all ways.
+
+[03:58] **Noob77777**: So the idea was even if Bob tries to be malicious, Alice can take refunds.
+
+[04:07] **Noob77777**: So what we have built is in the first box, Alice can take a refund if Bob doesn't act on it for the first two hours.
+
+[04:17] **Noob77777**: So we are allowing Alice to take a refund after 60 blocks.
+
+[04:24] **Noob77777**: This resolves
+
+[04:26] **Noob77777**: the case in which Bob the server is malicious and doesn't act on Alice trying to create a random number.
+
+[04:37] **Noob77777**: In the second state, when Bob and Alice both have committed the random number, Alice starts with revealing the random number.
+
+[04:51] **Noob77777**: So now anyone can create the third box because if anyone reveals random A, they can spend the previous commit UTXO and generate the random number.
+
+[05:06] **Noob77777**: So even in the second transaction, we are removing any dependency on the server.
+
+[05:14] **Noob77777**: Now one issue that might happen is
+
+[05:20] **Noob77777**: When the random number is generated, Alice would know what the final random number is at the end of the commit state because Alice already knows random A and Bob has revealed random B in the second transaction.
+
+[05:36] **Noob77777**: To prevent that, we would require Alice to send a simple token or any amount of ERG as a pledge and that would be only refunded or used after Alice reveals random A.
+
+[05:51] **Noob77777**: This is to prevent Alice from being malicious in case the random number that is being generated doesn't favor Alice.
+
+[06:02] **Noob77777**: So, this is how we are guaranteeing the random number that is being generated doesn't favor either Alice or Bob.
+
+[06:11] **Noob77777**: So, to give an overview, the start state is the client has a token.
+
+[06:19] **Noob77777**: We can think of it as an NFT or any token.
+
+[06:24] **Noob77777**: The client has to redeem that token for a random number.
+
+[06:29] **Noob77777**: So at the end state after commit reveal protocol, the token and the random number that is generated is locked in the third UTXO.
+
+[06:42] **Noob77777**: And the final lock state can be defined by the client itself.
+
+[06:47] **Noob77777**: So we are allowing the user to give a user defined ErgoScript in which we will be sending the random number and the
+
+[06:58] **Noob77777**: token that the user initially submitted.
+
+[07:06] **Noob77777**: In terms of implementation, we have exposed three APIs to the client which they can interact with and generate a random number and that would be secured on chain.
+
+[07:23] **Noob77777**: We are also defining three transactions.
+
+[07:26] **Noob77777**: One would be the hash transaction.
+
+[07:29] **Noob77777**: This is the first transaction that the client makes that commits hash of their part of the random number on chain.
+
+[07:37] **Noob77777**: The second transaction is the commit transaction.
+
+[07:40] **Noob77777**: This is the part in which the server would commit their part of the random number.
+
+[07:45] **Noob77777**: So after the commit transaction, hash of client-side random and
+
+[07:52] **Noob77777**: The actual server-side random, both are committed on chain.
+
+[07:56] **Noob77777**: And the final transaction is the reveal transaction in which the client reveals the transaction, the random number that he or she generated initially.
+
+[08:06] **Noob77777**: Coming to the design of the APIs.
+
+[08:08] **Noob77777**: So the first API is registered random number generation task.
+
+[08:13] **Noob77777**: In this, the client would call our API with the hash of the random number that they have created.
+
+[08:23] **Noob77777**: and the address they are using for the entire flow and the token they have to redeem.
+
+[08:31] **Noob77777**: So this would in turn create this workflow.
+
+[08:36] **Noob77777**: So how this workflow would go is we are essentially polling for the hash transaction to be committed.
+
+[08:44] **Noob77777**: Once that hash transaction gets committed on chain, we will create our side of the random number and submit that commit transaction on chain as well and wait till the commit transaction is also confirmed on chain.
+
+[09:02] **Noob77777**: Second API that we are exposing is Get Random Number Generation Task API.
+
+[09:08] **Noob77777**: This essentially would let the client query what the state of their random number generation process is.
+
+[09:16] **Noob77777**: So whenever we are creating a task for the first time, we'll mark it as not started, then it would move to commit in progress, committed, then reveal in progress, and then finally completed.
+
+[09:35] **Noob77777**: And the final API lets the client reveal their part of the random number.
+
+[09:41] **Noob77777**: So, this would again trigger a workflow on the backend that would keep on polling the explorer for the transaction status and once the status is confirmed will close the workflow and mark the entire random number generation task is completed.
+
+[10:07] **Noob77777**: So coming to an example, how would this work in case we want to open a pack of NFTs.
+
+[10:13] **Noob77777**: So how you have modeled the problem is the client would have a pack NFT token, which can be redeemed for
+
+[10:25] **Noob77777**: another NFT which can have different amount of rarity.
+
+[10:31] **Noob77777**: So a few NFTs can be very rare and a few can be common.
+
+[10:35] **Noob77777**: And we will be using our random number generation protocol to solve this problem.
+
+[10:40] **Noob77777**: So the first action is client must generate random A and calls the registered random number generation task to log that token with the hash of random A.
+
+[10:54] **Noob77777**: Service then would generate its part of the random number and would spend that initial UTXO in a commit transaction.
+
+[11:04] **Noob77777**: The client at this point would keep on polling our service to know about the task status and if the commit transaction is confirmed on chain or not.
+
+[11:15] **Noob77777**: When the commit transaction is confirmed on chain, the client would reveal its part of the random number and in a final transaction will commit random A, XOR, random B on chain.
+
+[11:28] **Noob77777**: So the dApp must use that final random number to essentially distribute the rare NFT to the client.
+
+[11:42] **Noob77777**: So we can go through the contracts in a second before that we'll do a working demo.
+
+[11:53] **Noob77777**: So the first transaction that we would do is the register random number generation part.
+
+[12:05] **Noob77777**: so what we have done is created a random number so this is a hexadecimal representation of the random and then we have used Blake2b256 hash to generate that random hash that we would be sending and then this is the
+
+[12:30] **Noob77777**: token that we are spending, so this can be any token that you can use.
+
+[12:36] **Noob77777**: It's fully configurable.
+
+[12:39] **Noob77777**: And the locking contract address is the final address where the token and the random number generated, the final box is locked with.
+
+[12:55] **Noob77777**: Address, here is the client address, nothing much there.
+
+[13:00] **Noob77777**: I can go a bit deeper on how the random number is generated.
+
+[13:06] **Noob77777**: So, you can use any tools.
+
+[13:19] **Noob77777**: Here we will just use this.
+
+[13:28] **Noob77777**: So this is any random the client generates and takes a standard hash which generates this part of the hash that we must send to the client, to the server.
+
+[13:42] **Noob77777**: And we are using this hash in the register task.
+
+[13:48] **Noob77777**: So invoke our SigmaRand API with this call.
+
+[13:52] **Noob77777**: And this API, you can test it out as this is now publicly available.
+
+[14:15] **Noob77777**: So this API would return an unsigned transaction for the client to sign.
+
+[14:22] **Noob77777**: And the task status is already commit in progress right now.
+
+[14:26] **Noob77777**: So I'll just sign this transaction.
+
+[14:37] **Noob77777**: And parse it.
+
+[14:45] **Noob77777**: to convert the serialized transaction to a JSON object and then sign it.
+
+[14:59] **Noob77777**: So I have already signed the transaction.
+
+[15:07] **Noob77777**: So now what this does is create
+
+[15:16] **Noob77777**: the initial box.
+
+[15:18] **Noob77777**: So if we go to the output of this transaction, the first transaction, the hash transaction, it commits the hash of the client side random on chain.
+
+[15:32] **Noob77777**: And what the server would now do is poll for the transaction status of this.
+
+[15:40] **Noob77777**: You can check
+
+[15:47] **Noob77777**: it should have the correct transaction ID 4ADCC and it would keep on polling for the transaction to get committed we can also check this transaction ID with the getTransactionTaskAPI that we are exposing to the client so the client
+
+[16:16] **Noob77777**: can check on any task status using this API.
+
+[16:21] **Noob77777**: And it's currently commit in progress.
+
+[16:25] **Noob77777**: So while the transaction gets confirmed, we can look into the contracts.
+
+[16:37] **Noob77777**: The transaction that we sent, the output is now locked into one box that is guarded by this hash UTXO script.
+
+[16:47] **Noob77777**: So we have a couple of inputs for this.
+
+[16:50] **Noob77777**: The first one is the client public key, the server public key.
+
+[16:55] **Noob77777**: We have a deadline that we are setting for 60 blocks.
+
+[16:59] **Noob77777**: So that is around two hours in actual time.
+
+[17:06] **Noob77777**: The locking
+
+[17:10] **Noob77777**: the proposition bytes.
+
+[17:14] **Noob77777**: So essentially we are checking that this box is only being spent if the output for the spending transaction has a commit UTXO script.
+
+[17:27] **Noob77777**: So the runtime proposition bytes for the first UTXO is the proposition bytes for the second UTXO.
+
+[17:37] **Noob77777**: So if we check the conditions, there is a refund condition that essentially allows us to get a refund.
+
+[17:45] **Noob77777**: The client can get a refund if the server doesn't act in the first two hours of the submission.
+
+[17:54] **Noob77777**: Second is the commit box or the output of the spending transaction has the correct proposition bytes or the contract.
+
+[18:07] **Noob77777**: We are making sure the sizes of the inputs and outputs are same.
+
+[18:13] **Noob77777**: So one would be for output, one would be the commit box and the second one would be the fee box.
+
+[18:19] **Noob77777**: And the token condition essentially makes sure that we are propagating the token to the commit box.
+
+[18:28] **Noob77777**: So either the client can spend it if it's in the refund window or the server can spend it.
+
+[18:38] **Noob77777**: now let's get back on the transaction and check if it has confirmed on chain or not yeah so we can see it's already committed right now so that means the hash transaction got committed so if
+
+[19:01] **Noob77777**: transaction status at this state was confirmed then we got the hash box id and set the hash box id from null to the actual hash box id and then we use those as the input for the commit transaction part to generate the server side random and commit on chain and then we spent polling for the transaction status to get confirmed
+
+[19:31] **Noob77777**: Then, at the last step, we made our task status to committed.
+
+[19:39] **Noob77777**: So, let's see on Ergo Explorer how this looks.
+
+[19:48] **Noob77777**: So, we have already spent this box.
+
+[19:51] **Noob77777**: So, this was the commit transaction that was automatically submitted from SigmaRand.
+
+[19:58] **Noob77777**: So if we check the output for this, so we have the hash of the client-side random at R4 and the random that the server generated at R5.
+
+[20:13] **Noob77777**: We can take a look at the commit transaction code once.
+
+[20:20] **Noob77777**: So for the commit part,
+
+[20:23] **Noob77777**: what we do is create the commit transaction use the input box as the hash box id create a output box and we lock it with the commit transaction script and the server would automatically sign it and send it on chain
+
+[20:55] **Noob77777**: The task has already committed.
+
+[21:09] **Noob77777**: Now we can reveal our random number.
+
+[21:41] **Noob77777**: so again we get the unsigned transaction for us to reveal the random number and again the task status has already been updated to reveal in progress we will sign this transaction
+
+[22:19] **Noob77777**: passing the JSON here and we can sign this transaction that we want and the transaction is already submitted so this would then start the second part of the flow which is revealing the random number so we can see we have already created a new workflow
+
+[22:46] **Noob77777**: and this has the correct transaction ID.
+
+[22:50] **Noob77777**: The task status is reveal in progress and we are waiting till the transaction is confirmed on chain.
+
+[22:59] **Noob77777**: So how this would work is we can take a look at the second contract.
+
+[23:07] **Noob77777**: So the conditions in which the commit UTXO is spent is
+
+[23:14] **Noob77777**: The first is the hash condition.
+
+[23:16] **Noob77777**: So, essentially the hash of the reveal box and the actual number in the commit box should be same.
+
+[23:29] **Noob77777**: The R5, so the server-side random that was generated must be correctly propagated to the reveal box.
+
+[23:40] **Noob77777**: And again the runtime proposition box is basically this box can be only spent if the correct address is given for the locking contract address that we are specifying initially.
+
+[23:54] **Noob77777**: So this box can be only spent if the output of the final transaction has this address, the locking contract address.
+
+[24:06] **Noob77777**: and we are checking the size of the inputs and outputs and the token is being propagated correctly.
+
+[24:21] **Noob77777**: So let's check back on the commit transaction and see if it has been confirmed on chain or not.
+
+[24:35] **Noob77777**: It's still not confirmed.
+
+[24:38] **Noob77777**: Let's see what Ergo Explorer says about this.
+
+[24:44] **Noob77777**: We have an unconfirmed transaction.
+
+[24:48] **Noob77777**: But yeah, in the output, we see that we have correctly populated R6, which is essentially the XOR values of R4 and R5.
+
+[25:03] **Noob77777**: So we do not have a check on R6, but the client can verify if R6 is being computed correctly or not just by taking the XOR of R4 and R5.
+
+[25:20] **Noob77777**: So in reveal transaction, we get R4 and R5 and take XOR of those two values.
+
+[25:37] **Noob77777**: You can even check the status just to reveal in progress.
+
+[25:52] **Noob77777**: So by the time this transaction gets confirmed, we can discuss more on the architecture on what these steps actually mean.
+
+[26:05] **Noob77777**: so each of these steps would correspond to one serverless lambda function.
+
+[26:16] **Noob77777**: In our case, we have these functions that we have created.
+
+[26:20] **Noob77777**: So getTransactionStatus essentially polls Ergo Explorer to get the transaction status.
+
+[26:27] **Noob77777**: RegisteredRandomNumberGenerations creates the first unsigned transaction for the hash box.
+
+[26:35] **Noob77777**: SubmitCommitTransaction would create the commitUTXO and revealRandomNumber would
+
+[26:45] **Noob77777**: is used to basically create the last transaction and start the polling workflow.
+
+[26:53] **Noob77777**: And Update Workflow State and Get Workflow State, these are essentially we are keeping track of the state in our own database.
+
+[27:03] **Noob77777**: So, I just revealed my password there but never mind.
+
+[27:15] **Noob77777**: These values, the task status, task ID and everything, those are coming from the database.
+
+[27:40] **Noob77777**: step functions will actually let us orchestrate various lambdas and serverless functions together to generate what this workflow is doing
+
+[28:20] **Noob77777**: Yeah, so we can see the transaction is now confirmed.
+
+[28:25] **Noob77777**: The step function should also get closed right now.
+
+[28:52] **Noob77777**: So we can see the step function is now closed.
+
+[28:58] **Noob77777**: and we have successfully updated the task status as completed as well.
+
+[29:05] **Noob77777**: So if I try to query the task ID, it should show us completed with the hash box ID, commit box ID and the reveal box ID.
+
+[29:15] **Noob77777**: So the reveal box ID would have the random number generated along with the token ID and is locked in this locking contract address.
+
+[29:32] **Noob77777**: So if anyone is interested in looking through our code or on how to actually generate a random number for their use case, they can visit our GitHub, look at the contracts, there's a working examples on how to generate a random number step by step as well in the readme.
+
+[29:55] **Noob77777**: And you can always look at the code.

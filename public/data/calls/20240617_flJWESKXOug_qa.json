@@ -1,0 +1,165 @@
+{
+  "call_date": "2024-06-17",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "00:27",
+      "question": "Why is generating randomness on blockchain challenging?",
+      "asker": "Implied question from presentation",
+      "answer": "Generating randomness on any blockchain is challenging because every node must come to the same conclusion on the state of the blockchain. Naive approaches to generate randomness can be manipulated by miners or observant attackers. Insecure randomness can be easily exploited by attackers to gain an unfair advantage in games, lotteries or any other contracts that rely on random number generation.",
+      "responder": "Noob77777",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "randomness",
+        "consensus",
+        "security",
+        "blockchain"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "01:07",
+      "question": "What properties must a secure random number generation service satisfy?",
+      "asker": "Implied question from presentation",
+      "answer": "The scheme should be secure, the number generator should be equally unpredictable for all participants and all participants must agree on the same random number generated.",
+      "responder": "Noob77777",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "randomness",
+        "security",
+        "consensus",
+        "unpredictability"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "01:28",
+      "question": "How does the commit reveal protocol solve secure random number generation?",
+      "asker": "Implied question from presentation",
+      "answer": "The commit reveal protocol has two phases - commit phase and reveal phase. Each participant generates their own secret random values in the commit state and commits the values on chain. Once all participants have committed their values, we can calculate the common random number that each participant must agree on by combining them with bitwise XOR.",
+      "responder": "Noob77777",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "commit-reveal",
+        "protocol",
+        "cryptography",
+        "XOR"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "04:07",
+      "question": "How does SigmaRand handle malicious behavior from the server?",
+      "asker": "Implied question from presentation",
+      "answer": "Alice can take a refund if Bob doesn't act on it for the first two hours - specifically after 60 blocks. This resolves the case in which Bob the server is malicious and doesn't act on Alice trying to create a random number. In the second state, anyone can create the third box because if anyone reveals random A, they can spend the previous commit UTXO and generate the random number, removing dependency on the server.",
+      "responder": "Noob77777",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "security",
+        "refund",
+        "malicious-behavior",
+        "UTXO"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "05:36",
+      "question": "How does SigmaRand prevent the client from being malicious?",
+      "asker": "Implied question from presentation",
+      "answer": "Alice would know what the final random number is at the end of the commit state because Alice already knows random A and Bob has revealed random B in the second transaction. To prevent that, we require Alice to send a simple token or any amount of ERG as a pledge that would be only refunded or used after Alice reveals random A. This prevents Alice from being malicious in case the random number being generated doesn't favor Alice.",
+      "responder": "Noob77777",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "pledge",
+        "token",
+        "malicious-behavior",
+        "economic-incentives"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "06:47",
+      "question": "How flexible is the final locking state in SigmaRand?",
+      "asker": "Implied question from presentation",
+      "answer": "The final lock state can be defined by the client itself. We are allowing the user to give a user defined ErgoScript in which we will be sending the random number and the token that the user initially submitted. This makes the system flexible for different use cases.",
+      "responder": "Noob77777",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "ErgoScript",
+        "smart-contracts",
+        "flexibility",
+        "customization"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "07:23",
+      "question": "What are the three main transactions in SigmaRand implementation?",
+      "asker": "Implied question from presentation",
+      "answer": "The hash transaction is the first transaction that the client makes that commits hash of their part of the random number on chain. The commit transaction is where the server commits their part of the random number. The reveal transaction is where the client reveals the random number that they generated initially.",
+      "responder": "Noob77777",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "transactions",
+        "hash",
+        "commit",
+        "reveal"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "08:13",
+      "question": "What information is required to register a random number generation task?",
+      "asker": "Implied question from presentation",
+      "answer": "The client calls the API with the hash of the random number that they have created, the address they are using for the entire flow, and the token they have to redeem. This creates a workflow that polls for the hash transaction to be committed, then creates the server's random number and submits the commit transaction.",
+      "responder": "Noob77777",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "API",
+        "registration",
+        "workflow",
+        "hash"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "09:16",
+      "question": "What are the different states in a random number generation task?",
+      "asker": "Implied question from presentation",
+      "answer": "When creating a task for the first time, we mark it as not started, then it moves to commit in progress, committed, then reveal in progress, and finally completed. The Get Random Number Generation Task API allows the client to query what the state of their random number generation process is.",
+      "responder": "Noob77777",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "state-machine",
+        "task-status",
+        "workflow",
+        "API"
+      ]
+    },
+    {
+      "qa_id": 10,
+      "timestamp": "17:45",
+      "question": "What conditions allow spending of the hash UTXO in SigmaRand?",
+      "asker": "Implied question from presentation",
+      "answer": "There is a refund condition that allows the client to get a refund if the server doesn't act in the first two hours (60 blocks) of submission. The other condition requires that the output of the spending transaction has the correct commit UTXO script proposition bytes, ensuring proper protocol flow and token propagation to the commit box.",
+      "responder": "Noob77777",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "UTXO",
+        "smart-contracts",
+        "conditions",
+        "proposition-bytes"
+      ]
+    }
+  ]
+}

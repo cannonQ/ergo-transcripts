@@ -1,0 +1,273 @@
+{
+  "call_date": "2024-06-21",
+  "call_title": "Weekly Update & AMA - June 20th 2024",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Community Vote Results and Mishaps",
+      "category": "governance",
+      "start_time": "01:39",
+      "end_time": "02:43",
+      "primary_speaker": "qx()",
+      "summary": "QX apologizes for missing kushti's Bitcoin relay project in the community vote and announces 6,700 ERGs will be distributed to winners. Sigmanauts are now voting on distribution methods.",
+      "key_terms": [
+        "community vote",
+        "Bitcoin relay",
+        "ERG distribution",
+        "Sigmanauts"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Rosen BTC Bridge Goes Live",
+      "category": "bridges",
+      "start_time": "03:22",
+      "end_time": "04:16",
+      "primary_speaker": "qx()",
+      "summary": "Rosen BTC bridge launched on Friday with recent fixes for watcher nodes. QX successfully tested BTC mining payouts through the Sigmanauts mining pool using the bridge.",
+      "key_terms": [
+        "Rosen Bridge",
+        "BTC bridge",
+        "watcher nodes",
+        "mining payouts",
+        "Sigmanauts mining pool"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Trade House Order Book DEX Launch",
+      "category": "defi",
+      "start_time": "04:16",
+      "end_time": "04:45",
+      "primary_speaker": "qx()",
+      "summary": "Trade House, an order book DEX from Auction House team, is now live allowing users to create custom liquidity pairs with configurable fees. Currently supports limit orders only.",
+      "key_terms": [
+        "Trade House",
+        "order book",
+        "DEX",
+        "Auction House",
+        "limit orders",
+        "liquidity pairs"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Nautilus Wallet Rewrite and Security Features",
+      "category": "ecosystem",
+      "start_time": "05:18",
+      "end_time": "06:41",
+      "primary_speaker": "qx()",
+      "summary": "Captain Nemo released Abyss, a rewritten version of Nautilus wallet for Chrome store compliance. Features include community-run blacklist for scam/NSFW tokens with automatic filtering.",
+      "key_terms": [
+        "Nautilus wallet",
+        "Abyss",
+        "Chrome store",
+        "token blacklist",
+        "NSFW filtering",
+        "Captain Nemo"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "ErgoHack Project Showcase",
+      "category": "ecosystem",
+      "start_time": "06:53",
+      "end_time": "09:41",
+      "primary_speaker": "qx()",
+      "summary": "ErgoHack featured exceptional projects including Crystal Pools, random number generator, Moria Finance for multi-sig automation, and DuckPools. Projects demonstrated innovative UTXO applications.",
+      "key_terms": [
+        "ErgoHack",
+        "Crystal Pools",
+        "Moria Finance",
+        "multi-sig",
+        "DuckPools",
+        "random number generator"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Multi-sig Contract Builder Without Coding",
+      "category": "technical",
+      "start_time": "09:41",
+      "end_time": "10:53",
+      "primary_speaker": "kushti",
+      "summary": "kushti announces a breakthrough allowing creation of multi-signature and timelock contracts without coding knowledge. This capability is unique compared to EVM chains due to Ergo's UTXO model.",
+      "key_terms": [
+        "multi-signature",
+        "timelock contracts",
+        "no-code",
+        "ErgoTree",
+        "UTXO model"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Ergoversary Event Announcement",
+      "category": "community",
+      "start_time": "10:53",
+      "end_time": "11:44",
+      "primary_speaker": "kushti",
+      "summary": "Ergoversary event announced featuring videos from academia and Nervos R&D, plus two Twitter Spaces on proof of work future and Ergo's five-year development roadmap.",
+      "key_terms": [
+        "Ergoversary",
+        "Twitter Spaces",
+        "proof of work",
+        "Nervos",
+        "academia",
+        "development roadmap"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Rosen EVM Bridge Development Status",
+      "category": "bridges",
+      "start_time": "12:06",
+      "end_time": "14:43",
+      "primary_speaker": "kushti",
+      "summary": "EVM codebase is nearly ready pending testing and setup ceremony. This will enable stable coins from Ethereum, Uniswap listings, and create a bridge between Cardano and EVM chains through Ergo.",
+      "key_terms": [
+        "EVM bridge",
+        "stable coins",
+        "Uniswap",
+        "Ethereum",
+        "Cardano bridge",
+        "setup ceremony"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Palmyra Platform Updates and Announcements",
+      "category": "ecosystem",
+      "start_time": "15:11",
+      "end_time": "18:48",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Dan teases upcoming Palmyra announcements in 6 hours featuring new innovative tooling. Public sale starts June 24th with ERG referral bonuses and discussions of synthetic commodities development.",
+      "key_terms": [
+        "Palmyra",
+        "public sale",
+        "ERG referrals",
+        "synthetic commodities",
+        "remittances",
+        "SigmaUSD"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Trade House Contract Security Review",
+      "category": "technical",
+      "start_time": "19:29",
+      "end_time": "21:08",
+      "primary_speaker": "kushti",
+      "summary": "kushti reviews Trade House contracts and encourages usage, noting potential for arbitrage between Spectrum and Trade House. Contracts are straightforward and based on 2018 order book designs.",
+      "key_terms": [
+        "contract review",
+        "arbitrage",
+        "Spectrum",
+        "order book contracts",
+        "shared liquidity"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Rosen Bridge Wallet Requirements",
+      "category": "bridges",
+      "start_time": "21:17",
+      "end_time": "25:57",
+      "primary_speaker": "qx()",
+      "summary": "Discussion of Rosen Bridge requiring wallet connections rather than direct exchange addresses, currently using XDeFi for Bitcoin. Users express preference for Electrum support and self-custodial approaches.",
+      "key_terms": [
+        "wallet connector",
+        "XDeFi",
+        "Electrum",
+        "exchange addresses",
+        "self-custody"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "RSBTC Use Cases and Advantages",
+      "category": "defi",
+      "start_time": "30:11",
+      "end_time": "35:18",
+      "primary_speaker": "qx()",
+      "summary": "RSBTC can be used on SigmaFi, DuckPools, Spectrum, and Trade House for yield opportunities. Advantages over WBTC include transparent multi-sig security with watchers and guards having skin in the game.",
+      "key_terms": [
+        "RSBTC",
+        "yield farming",
+        "SigmaFi",
+        "DuckPools",
+        "multi-sig security",
+        "watchers",
+        "guards"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Watcher Node Setup and Requirements",
+      "category": "technical",
+      "start_time": "37:59",
+      "end_time": "42:44",
+      "primary_speaker": "qx()",
+      "summary": "Detailed explanation of becoming a watcher requiring 800 ERG and 33,000 Rosen tokens. Watchers monitor blockchain actions and file reports, receiving rewards after consensus confirmation.",
+      "key_terms": [
+        "watcher nodes",
+        "800 ERG",
+        "33,000 Rosen",
+        "permits",
+        "blockchain monitoring",
+        "consensus rewards"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "Security Implications of Rosen Market Cap",
+      "category": "technical",
+      "start_time": "43:03",
+      "end_time": "45:48",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of what happens if Rosen market cap exceeds ERG's. kushti explains storage rent will eventually distribute Rosen to miners, and growing token values should benefit overall Ergo security.",
+      "key_terms": [
+        "market cap",
+        "security implications",
+        "storage rent",
+        "mining rewards",
+        "token distribution"
+      ]
+    },
+    {
+      "topic_id": 15,
+      "title": "MiCA Regulations Impact on Crypto",
+      "category": "governance",
+      "start_time": "46:44",
+      "end_time": "54:52",
+      "primary_speaker": "Dan Friedman",
+      "summary": "European MiCA regulations will tighten compliance requirements including technical standards, clawbacks, and blacklisting capabilities. May drive adoption of assets with sound monetary policies when restrictions tighten.",
+      "key_terms": [
+        "MiCA regulations",
+        "European compliance",
+        "technical standards",
+        "clawbacks",
+        "blacklisting",
+        "regulatory clarity"
+      ]
+    },
+    {
+      "topic_id": 16,
+      "title": "Mining Hardware Rental and Hash Rate Futures",
+      "category": "technical",
+      "start_time": "55:50",
+      "end_time": "59:52",
+      "primary_speaker": "qx()",
+      "summary": "Discussion of BlockX implementing Autolykos and hardware rental concepts. Sigmanauts exploring hash rate futures using NFTs and peer-to-peer mining arrangements between users in different electricity cost regions.",
+      "key_terms": [
+        "BlockX",
+        "Autolykos",
+        "hardware rental",
+        "hash rate futures",
+        "NFTs",
+        "peer-to-peer mining",
+        "electricity costs"
+      ]
+    }
+  ]
+}

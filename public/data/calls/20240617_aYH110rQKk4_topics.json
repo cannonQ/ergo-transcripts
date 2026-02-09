@@ -1,0 +1,119 @@
+{
+  "call_date": "2024-06-17",
+  "call_title": "Ergo to Bitcoin Lightning Swaps | Analog Ergo | ErgoHack VIII",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "ErgoHack VIII Project Goals and Setup",
+      "category": "technical",
+      "start_time": "00:14",
+      "end_time": "02:07",
+      "primary_speaker": "deathgripson",
+      "summary": "Presentation of the Ergo-Bitcoin Lightning Atomic Swaps project for ErgoHack VIII, outlining goals to establish Bitcoin testnet and Lightning environments, modify ErgoScript contracts to use SHA-256 pre-images, and execute proof of concept swaps. The team created Bitcoin Regtest Tooling with helper scripts for easy testing and development.",
+      "key_terms": [
+        "atomic swaps",
+        "lightning network",
+        "bitcoin testnet",
+        "LND",
+        "ErgoScript",
+        "SHA-256",
+        "pre-images",
+        "regtest",
+        "proof of concept"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Hash Pre-images vs Point-based Swaps Technical Overview",
+      "category": "technical",
+      "start_time": "02:07",
+      "end_time": "05:17",
+      "primary_speaker": "deathgripson",
+      "summary": "Explanation of hash pre-images as inputs to hash functions, their security requirements, and advantages over point-based swaps. Hash pre-images must be sufficiently random to resist rainbow table attacks and are already natively used in Lightning Network HTLCs, making them ideal for atomic swap protocols.",
+      "key_terms": [
+        "hash pre-images",
+        "HTLCs",
+        "PTLCs",
+        "SHA-256",
+        "rainbow table attacks",
+        "preimage attack resistant",
+        "time lock contracts",
+        "hash time lock contracts"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Lightning Network Invoice and Pre-image Mechanics",
+      "category": "technical",
+      "start_time": "05:17",
+      "end_time": "07:04",
+      "primary_speaker": "deathgripson",
+      "summary": "Detailed explanation of how Lightning Network uses hash pre-images in invoices, where the payee generates a payment request containing amount and pre-image hash, and the payer receives the secret pre-image upon successful payment. This native Lightning implementation allows the pre-image to be reused as a secret in atomic swaps.",
+      "key_terms": [
+        "lightning invoices",
+        "payment request",
+        "payee",
+        "payer",
+        "pre-image hash",
+        "lightning node",
+        "atomic swap secret"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "ErgoScript Contract Modifications for Hash-based Swaps",
+      "category": "technical",
+      "start_time": "07:04",
+      "end_time": "07:51",
+      "primary_speaker": "deathgripson",
+      "summary": "Technical details of modifying the existing ErgoScript atomic swap contract from point-based to hash-based verification. Changes include removing curve generator variables, replacing point checks with hash verification using SHA-256 and fromBase16 functions to compare byte collections.",
+      "key_terms": [
+        "ErgoScript",
+        "curve generator",
+        "public group elements",
+        "registers",
+        "sigma prop",
+        "fromBase16",
+        "hexadecimal string",
+        "byte collections"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Live Demonstration of Ergo-Lightning Atomic Swap",
+      "category": "technical",
+      "start_time": "07:51",
+      "end_time": "16:09",
+      "primary_speaker": "deathgripson",
+      "summary": "Complete live demonstration of the atomic swap process, from creating Lightning invoices and deploying ErgoScript contracts to claiming funds with pre-images. The demo showed successful cross-chain value transfer where node one received Lightning payment and node two claimed Ergo funds using the revealed pre-image.",
+      "key_terms": [
+        "live demo",
+        "lightning invoice",
+        "payment request",
+        "contract deployment",
+        "Ergo IDE",
+        "box ID",
+        "receiver claim",
+        "cross-chain",
+        "ErgoTree script"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Project Roadmap and Community Participation",
+      "category": "community",
+      "start_time": "16:09",
+      "end_time": "16:30",
+      "primary_speaker": "deathgripson",
+      "summary": "Announcement of upcoming public testnet launch and invitation for community participation in the Atomic Swap project. The team is seeking contributions and new ideas through their Discord channels and will post regular updates on development progress.",
+      "key_terms": [
+        "public testnet",
+        "Atomic Analog Swap Discord",
+        "Ergo Discord",
+        "community contributions",
+        "project updates",
+        "testnet participation"
+      ]
+    }
+  ]
+}

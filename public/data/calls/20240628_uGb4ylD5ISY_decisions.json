@@ -1,0 +1,125 @@
+{
+  "call_date": "2024-06-28",
+  "call_title": "Weekly Update & AMA - June 27th 2024",
+  "decisions": [],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "unspecified",
+      "commitment": "Will publish sidechain constructions to forum soon",
+      "owner": "kushti",
+      "timeline": "soon",
+      "topic": "technical",
+      "quote": "going to actually publish sidechain constructions forum other things already published now turn sidechain constructions"
+    },
+    {
+      "id": 2,
+      "timestamp": "unspecified",
+      "commitment": "Will do another round of discussion on speed improvements after Ergoversary",
+      "owner": "kushti",
+      "timeline": "right after our Ergoversary",
+      "topic": "technical",
+      "quote": "so we will do another round of discussion right after our anniversary maybe during the first community text chat"
+    },
+    {
+      "id": 3,
+      "timestamp": "unspecified",
+      "commitment": "Need to run 6.0 testnet in coming weeks",
+      "owner": "unspecified",
+      "timeline": "coming weeks",
+      "topic": "technical",
+      "quote": "there is a need in coming weeks to also run 6.0 testnet"
+    },
+    {
+      "id": 4,
+      "timestamp": "unspecified",
+      "commitment": "Will try to push manual TX again to refund people with slashed permit",
+      "owner": "Rosen team",
+      "timeline": "unspecified",
+      "topic": "rosen-bridge",
+      "quote": "we'll try to push it again So you guys should have your permits back soon because we are actively working on it"
+    },
+    {
+      "id": 5,
+      "timestamp": "unspecified",
+      "commitment": "Planning to potentially build out Ergo oracles with raised capital",
+      "owner": "Dan",
+      "timeline": "unspecified",
+      "topic": "oracles",
+      "quote": "One of the things that I'm actually thinking of doing is potentially taking some of the capital that we have raised through the token sale to actually build out ergo oracles"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "unspecified",
+      "question": "Which optimization path to choose for speed improvements",
+      "context": "Discussion about speeding up Ergo blockchain",
+      "topic": "technical",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "unspecified",
+      "question": "Why manual TX didn't go through to refund slashed permits",
+      "context": "Attempted manual TX to GARD's DAO failed for unknown reason",
+      "topic": "rosen-bridge",
+      "raised_by": "qx()"
+    }
+  ],
+  "reversals_or_updates": [
+    {
+      "id": 1,
+      "timestamp": "unspecified",
+      "previous": "Rosen Bridge version 3.1/3.01 was released",
+      "update": "Had to release 3.1.1 for Watcher UI and 2.2.1 for Watcher",
+      "reason": "There was a bug in the 3.1 release",
+      "speaker": "qx()",
+      "topic": "rosen-bridge"
+    }
+  ],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "unspecified",
+      "fact": "Ergo mainnet launched 5 years ago",
+      "speaker": "unspecified",
+      "topic": "anniversary"
+    },
+    {
+      "id": 2,
+      "timestamp": "unspecified",
+      "fact": "Currently there are Oracle Pool v1 with EF members and outside members, and Oracle Pool v2 running for Dexy Gold with GORT rewards",
+      "speaker": "qx()",
+      "topic": "oracles"
+    },
+    {
+      "id": 3,
+      "timestamp": "unspecified",
+      "fact": "Rosen Bridge latest versions are 3.1.1 for Watcher UI and 2.2.1 for Watcher",
+      "speaker": "qx()",
+      "topic": "rosen-bridge"
+    },
+    {
+      "id": 4,
+      "timestamp": "unspecified",
+      "fact": "There are spam protection features in reference client from version 4.0.44",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 5,
+      "timestamp": "unspecified",
+      "fact": "Node has fee estimation API that shows how much you need to pay to get into next block or next two blocks",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 6,
+      "timestamp": "unspecified",
+      "fact": "Current on-chain contracts include GARD protocols, Rosen, Oracle Pools, Spectrum AMM pool contracts, Trade House, lending contracts, and stablecoin",
+      "speaker": "kushti",
+      "topic": "ecosystem"
+    }
+  ]
+}

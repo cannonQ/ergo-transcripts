@@ -1,0 +1,111 @@
+[00:11] **c8**: First let's take a look at how Dark Mode Bob is trying to sell some of his Bitcoin.
+
+[00:16] **c8**: Bob is creating a few sell orders.
+
+[00:19] **c8**: As we can see the sell orders are appearing left in the order book.
+
+[00:23] **c8**: Nothing unusual.
+
+[00:25] **c8**: It looks like Bob is using a centralized exchange, except he is not.
+
+[00:30] **c8**: Each of his sell orders is a real Ergo transaction, built and signed in the background.
+
+[00:36] **c8**: But more on that later.
+
+[00:37] **c8**: Now we switch to Light Mode Alice.
+
+[00:40] **c8**: She is buying Bitcoin.
+
+[00:42] **c8**: Again, in the background transactions are built and signed, and Bob gets notified instantly.
+
+[00:48] **c8**: The cool part about this is that everything happens trustlessly.
+
+[00:53] **c8**: Bob and Alice interacted through a swap contract, each in control of their tokens during this whole time.
+
+[01:00] **c8**: Their wallets did all the transaction verifying and signing in the background.
+
+[01:07] **c8**: Now let's do a technical deep dive of what happened in the second that Bob created his first sell order.
+
+[01:13] **c8**: For Bob, he just clicked the sell button and an open order appeared.
+
+[01:18] **c8**: But there are actually 6 steps that happened.
+
+[01:22] **c8**: Step 1.
+
+[01:23] **c8**: After clicking sell, Bob's background agent requested a new swap order transaction from Crystal Pools.
+
+[01:30] **c8**: Step 2.
+
+[01:31] **c8**: Crystal Pools created an unsigned transaction that takes some of Bob's tokens at the deposit contract and sends them to the swap contract.
+
+[01:40] **c8**: Step 3. Bob's background agent validated this transaction and made sure that it 100% matches Bob's input and intent.
+
+[01:49] **c8**: Step 4. Bob's background agent signs the transaction and sends it back to Crystal Pools.
+
+[01:56] **c8**: Step 5.
+
+[01:57] **c8**: Crystal Pools receives a swap transaction signed by Bob, adds its own signature and submits it to the Ergo network if there is some free space in the Mempool or saves for later.
+
+[02:09] **c8**: More on transaction caching later.
+
+[02:12] **c8**: Step 6.
+
+[02:13] **c8**: Crystal Pools notifies Bob about an order book change.
+
+[02:19] **c8**: As we can see in this simple comparison table, at a centralized exchange you have no ownership over your assets, but trading is fast AF and on a DEX you are in control of your funds but it's resident sleeper sometimes.
+
+[02:34] **c8**: Crystal Pools model aims to offer instant trading while keeping the user in control of his funds and settling all transactions on layer 1.
+
+[02:43] **c8**: Crystal Pools has its own trade-offs, please take a look at the documentation for more on this topic.
+
+[02:52] **c8**: There are four smart contracts: Deposit, Buy, Sell and Swap.
+
+[02:58] **c8**: Each of the contracts includes a concept called Time Limited Multisig.
+
+[03:03] **c8**: This concept enables instant transactions without taking away users' control over their assets.
+
+[03:09] **c8**: When a user sends his funds to the deposit contract, his signature is still required to move funds, together with the signature of the Crystal Pools service.
+
+[03:19] **c8**: But making the deposit contract a simple classical multisig would make it possible for the service to hold users' funds hostage.
+
+[03:27] **c8**: That's where the time limiting factor comes into play.
+
+[03:31] **c8**: After the blockchain advances to a certain height, the user automatically gains full access over deposited funds and the Crystal Pools service loses its veto right.
+
+[03:42] **c8**: For a seamless trading experience, the time lock period can be extended with the user's consent.
+
+[03:49] **c8**: The second design decision that enables instant trading on layer 1 is transaction caching.
+
+[03:56] **c8**: Mempool space is limited and prone to spikes in transaction volume.
+
+[04:00] **c8**: Crystal Pools maintains and advances transactions without waiting for available mempool space.
+
+[04:07] **c8**: Of course, the service cannot create an unreasonably large amount of unconfirmed transactions, but it is very useful for spikes in trading activity.
+
+[04:17] **c8**: The third and last component of instant trading is the built-in wallet.
+
+[04:21] **c8**: There is no more need to review transaction details and sign each transaction manually.
+
+[04:28] **c8**: The built-in wallet handles all transaction validation for the user and only signs transactions if those match intent.
+
+[04:35] **c8**: Of course, it's not as secure as an external wallet for two reasons.
+
+[04:41] **c8**: Reason number one: malicious client code can access and exploit the wallet.
+
+[04:46] **c8**: Risk mitigation is done by limiting and carefully choosing client packages.
+
+[04:51] **c8**: The second reason why a built-in wallet can be a bad idea is when it's inside a website.
+
+[04:57] **c8**: If the server gets hacked it can be over for all clients.
+
+[05:01] **c8**: But luckily there is a way out.
+
+[05:04] **c8**: The solution is simple.
+
+[05:05] **c8**: Distribute the UI as native desktop and app.
+
+[05:09] **c8**: Desktop app build is already done.
+
+[05:11] **c8**: Mobile soon™.
+
+[05:14] **c8**: For more information and a list of implemented and not yet implemented features, please visit the Crystal Pools GitHub.

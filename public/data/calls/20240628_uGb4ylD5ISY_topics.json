@@ -1,0 +1,205 @@
+{
+  "call_date": "2024-06-28",
+  "call_title": "Weekly Update & AMA - June 27th 2024",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Ergoversary Celebration and Twitter Spaces Announcement",
+      "category": "community",
+      "start_time": "00:00",
+      "end_time": "03:15",
+      "primary_speaker": "qx()",
+      "summary": "Discussion of upcoming Ergoversary (5-year anniversary) celebrations including Twitter Spaces event with Nervos and Alephium. Mentions community videos and Saturday Metal Night telegram activities.",
+      "key_terms": [
+        "Ergoversary",
+        "Twitter Spaces",
+        "anniversary",
+        "Nervos",
+        "Alephium",
+        "community celebration"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Rosen Bridge Updates and Watcher Version Releases",
+      "category": "bridges",
+      "start_time": "03:15",
+      "end_time": "06:30",
+      "primary_speaker": "qx()",
+      "summary": "Update on Rosen Bridge watcher software versions 3.1.1 and 2.2.1, including docker update instructions. Discussion of manual transaction attempts for permit refunds from high fee transaction issues.",
+      "key_terms": [
+        "Rosen Bridge",
+        "watcher",
+        "docker compose",
+        "permits",
+        "refund",
+        "manual TX",
+        "GARD"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Bulletproofs and Zero-Knowledge Integration in ErgoScript",
+      "category": "technical",
+      "start_time": "06:30",
+      "end_time": "12:45",
+      "primary_speaker": "kushti",
+      "summary": "Technical explanation of bulletproofs as trustless alternatives to SNARKs for zero-knowledge proofs. Discussion of implementing bulletproof verification in ErgoScript to enable hybrid contracts with both on-chain execution and private data verification.",
+      "key_terms": [
+        "bulletproofs",
+        "zero-knowledge",
+        "ErgoScript",
+        "SNARKs",
+        "Sigma protocols",
+        "hybrid contracts",
+        "trustless"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Palmyra and Chainlink Partnership for Warehouse Receipts",
+      "category": "ecosystem",
+      "start_time": "12:45",
+      "end_time": "18:20",
+      "primary_speaker": "Dan",
+      "summary": "Explanation of Palmyra's partnership with Chainlink for proof of reserve functions in Winter Protocol. Focus on creating on-chain warehouse receipts for decentralized trade financing using IoT devices and oracles for commodity verification.",
+      "key_terms": [
+        "Palmyra",
+        "Chainlink",
+        "proof of reserve",
+        "warehouse receipts",
+        "Winter Protocol",
+        "IoT devices",
+        "trade financing",
+        "bonded warehouses"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Oracle Pool Development and Ergo Oracle Expansion Plans",
+      "category": "technical",
+      "start_time": "18:20",
+      "end_time": "22:30",
+      "primary_speaker": "Dan",
+      "summary": "Discussion of current Oracle Pool v1 and v2 status, including Dexy Gold operations. Plans to use raised capital to expand Ergo oracle network infrastructure and tooling for better ecosystem integration.",
+      "key_terms": [
+        "Oracle Pool",
+        "Dexy Gold",
+        "GORT rewards",
+        "Ergo oracles",
+        "native oracles",
+        "oracle network",
+        "EF members"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Multi-Chain Strategy and Ecosystem Cooperation Philosophy",
+      "category": "governance",
+      "start_time": "22:30",
+      "end_time": "26:15",
+      "primary_speaker": "qx()",
+      "summary": "Discussion of Ergo's position as a supplier of smart finance tools across chains via Rosen Bridge. Emphasis on avoiding tribalistic reactions and welcoming companies that utilize parts of Ergo's ecosystem alongside other technologies.",
+      "key_terms": [
+        "multi-chain",
+        "smart finance",
+        "Rosen Bridge",
+        "ecosystem cooperation",
+        "tribalistic",
+        "business strategy"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Ergo Speed Improvements and Scaling Considerations",
+      "category": "technical",
+      "start_time": "26:15",
+      "end_time": "35:45",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of potential speed improvements for Ergo including sub-blocks, microblocks, and sidechains. Analysis of current on-chain contract ecosystem as benchmark for optimization decisions, with emphasis on security considerations over speed.",
+      "key_terms": [
+        "speed improvements",
+        "sub-blocks",
+        "microblocks",
+        "sidechains",
+        "layer 2",
+        "throughput",
+        "security considerations",
+        "emission contracts"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Testnet Development and Parameter Testing Initiative",
+      "category": "technical",
+      "start_time": "35:45",
+      "end_time": "38:30",
+      "primary_speaker": "qx()",
+      "summary": "Call for community involvement in testnet operations for parameter tweaking and scientific observations. Mention of upcoming 6.0 testnet and need for motivated community members to lead testing efforts.",
+      "key_terms": [
+        "testnet",
+        "parameter tweaking",
+        "difficulty level",
+        "scientific study",
+        "6.0 testnet",
+        "community participation"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Trade House Order Book DEX Explanation",
+      "category": "defi",
+      "start_time": "38:30",
+      "end_time": "46:15",
+      "primary_speaker": "qx()",
+      "summary": "Detailed explanation of Trade House as an order book-based DEX, comparing it to AMM pools like Spectrum. Discussion of transparency, slippage control, partial fills, and peer-to-peer trading advantages over centralized exchanges.",
+      "key_terms": [
+        "Trade House",
+        "order book",
+        "DEX",
+        "slippage control",
+        "partial fills",
+        "peer-to-peer trading",
+        "liquidity depth",
+        "arbitrage"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Sidechains and Merge Mining Technical Overview",
+      "category": "technical",
+      "start_time": "46:15",
+      "end_time": "50:45",
+      "primary_speaker": "kushti",
+      "summary": "Technical explanation of Ergo's sidechain constructions and merge mining capabilities. Discussion of trustless pegging mechanisms, emission contracts for miner rewards, and potential for CPU mining on sidechains while GPU mining mainchain.",
+      "key_terms": [
+        "sidechains",
+        "merge mining",
+        "trustless pegging",
+        "emission contracts",
+        "mainchain",
+        "CPU mining",
+        "GPU mining",
+        "sidechain data"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "DDoS Attack Resilience and Fee Market Discussion",
+      "category": "technical",
+      "start_time": "50:45",
+      "end_time": "58:30",
+      "primary_speaker": "kushti",
+      "summary": "Comparison of Ergo's DDoS resistance to Cardano's recent issues, highlighting Ergo's fee market and mempool protections. Discussion of spam protection mechanisms, fee estimation API, and mempool management strategies.",
+      "key_terms": [
+        "DDoS attack",
+        "fee market",
+        "mempool",
+        "spam protection",
+        "fee estimation API",
+        "transaction fees",
+        "spam filtering"
+      ]
+    }
+  ]
+}

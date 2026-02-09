@@ -1,0 +1,126 @@
+{
+  "call_date": "2024-06-17",
+  "call_title": "Rosen Port | sangeet24 | ErgoHack VIII",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Rosenport Project Introduction and Team",
+      "category": "bridges",
+      "start_time": "00:11",
+      "end_time": "00:29",
+      "primary_speaker": "Sangi24",
+      "summary": "Introduction to Rosenport, a cross-chain bridging project with lower fees for smaller funds. Built by team members Sangi24, Key888, and Hammerman.",
+      "key_terms": [
+        "Rosenport",
+        "cross-chain bridging",
+        "lower fees",
+        "smaller funds"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Blockchain Interoperability and Rosen Bridge Context",
+      "category": "bridges",
+      "start_time": "00:29",
+      "end_time": "01:11",
+      "primary_speaker": "Sangi24",
+      "summary": "Discussion of blockchain ecosystem growth and interoperability needs. Overview of Rosen Bridge as the foundation for Ergo cross-chain functionality.",
+      "key_terms": [
+        "interoperability",
+        "multiple networks",
+        "Rosen Bridge",
+        "Ergo ecosystem"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Rosen Bridge Fee Structure Problems",
+      "category": "bridges",
+      "start_time": "01:11",
+      "end_time": "01:53",
+      "primary_speaker": "Sangi24",
+      "summary": "Explanation of current Rosen Bridge fee issues, including $10 minimum fee for transactions under $2,000 and 0.5% fee for larger amounts. These high fees create barriers for smaller fund transfers.",
+      "key_terms": [
+        "fee structure",
+        "minimum fee",
+        "$10 fee",
+        "$2000 threshold",
+        "0.5% fee",
+        "smaller funds"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Rosenport Batch Bridging Solution Overview",
+      "category": "bridges",
+      "start_time": "01:53",
+      "end_time": "03:20",
+      "primary_speaker": "Sangi24",
+      "summary": "Detailed explanation of Rosenport's batch bridging approach to solve fee problems. Users can contribute smaller amounts that are batched together to reach the $2,000 threshold for better fees.",
+      "key_terms": [
+        "batch bridging",
+        "complementary system",
+        "smaller holders",
+        "inclusive",
+        "$75-$200 contributions"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Development Status and Technical Architecture",
+      "category": "technical",
+      "start_time": "03:20",
+      "end_time": "04:01",
+      "primary_speaker": "Sangi24",
+      "summary": "Current development progress including Figma designs, collaboration with Rosen team on SDK development, and implementation of multi-chain payments and database systems.",
+      "key_terms": [
+        "Figma design",
+        "Rosen SDK",
+        "technical architecture",
+        "multi-chain payment",
+        "browser wallets",
+        "node wallets",
+        "database",
+        "cron jobs"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "UI Demo and User Experience Walkthrough",
+      "category": "technical",
+      "start_time": "04:01",
+      "end_time": "06:56",
+      "primary_speaker": "Sangi24",
+      "summary": "Comprehensive demo of Rosenport interface showing bridge process from Ergo to Bitcoin network. Demonstrates batch status tracking, transaction history, and withdrawal options with no claiming required.",
+      "key_terms": [
+        "UI demo",
+        "reserve Bitcoin",
+        "Ergo to BTC",
+        "batch status",
+        "average wait time",
+        "transaction history",
+        "withdrawal",
+        "no claiming"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Release Timeline and Future Development Plans",
+      "category": "ecosystem",
+      "start_time": "06:56",
+      "end_time": "08:03",
+      "primary_speaker": "Sangi24",
+      "summary": "Timeline for public testing in mid-July and full release by end of July. Plans to implement all future Rosen Bridge network additions and continuous UI improvements based on user feedback.",
+      "key_terms": [
+        "public testing",
+        "mid-July",
+        "public release",
+        "end of July",
+        "Bitcoin network",
+        "continuous feedback",
+        "seamless bridge",
+        "Discord contact"
+      ]
+    }
+  ]
+}

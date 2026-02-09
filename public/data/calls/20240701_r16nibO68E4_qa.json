@@ -1,0 +1,101 @@
+{
+  "call_date": "2024-07-01",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:03",
+      "question": "What is POEM and how does it differ from traditional proof-of-work systems like Bitcoin and Ergo?",
+      "asker": "Implied from presentation",
+      "answer": "POEM stands for 'proofs of entropy minima' and is a new proof-of-work protocol that changes the fork choice rule while keeping everything else the same. Unlike Bitcoin and Ergo which use the longest chain rule (scoring each block equally), POEM scores blocks based on their actual hash values - specifically counting the number of leading zeros in each block's hash. This means blocks that achieve more zeros than required contribute more to the chain's total score.",
+      "responder": "Dionysis Zindros",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "POEM",
+        "fork choice rule",
+        "proof of work",
+        "hash function"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "07:30",
+      "question": "How does the traditional heaviest chain rule work in Bitcoin and Ergo?",
+      "asker": "Implied from presentation",
+      "answer": "The heaviest chain rule uses a scoring function where each chain's score is the sum of its individual block scores. When the mining target is constant, each valid block contributes a score of 1, making it equivalent to the longest chain rule. The fork choice selects the chain with the highest total score, and blocks contribute proportionally to their target difficulty.",
+      "responder": "Dionysis Zindros",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "heaviest chain",
+        "fork choice rule",
+        "mining target",
+        "difficulty"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "12:17",
+      "question": "How does POEM calculate block scores differently from traditional systems?",
+      "asker": "Implied from presentation",
+      "answer": "POEM scores each block as the negative logarithm of its normalized hash value (score = -log\u2082(hash)). The hash is treated as a number between 0 and 1, and the logarithm essentially counts the number of leading zeros in a continuous fashion. So if a block hash starts with 3 zeros, it gets a score of approximately 3, and blocks with more zeros contribute more to the chain's total weight.",
+      "responder": "Dionysis Zindros",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "logarithm",
+        "hash scoring",
+        "leading zeros",
+        "continuous scoring"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "16:18",
+      "question": "Why does POEM provide better security than traditional longest chain rules?",
+      "asker": "Implied from presentation",
+      "answer": "POEM reduces adversarial advantage during network congestion when multiple blocks are mined simultaneously. In longest chain systems, an adversary with tight network coordination can gain significant advantage over honest miners who waste effort on simultaneous blocks. With POEM, even when honest miners produce competing blocks, the system selects the best one (with most zeros), reducing the adversary's relative advantage and improving security in fast blockchain configurations.",
+      "responder": "Dionysis Zindros",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "network delay",
+        "adversarial advantage",
+        "simultaneous mining",
+        "security"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "25:04",
+      "question": "What mathematical distributions govern POEM's block scoring system?",
+      "asker": "Implied from presentation",
+      "answer": "POEM block scores follow an exponential distribution with parameter ln(2), where having additional zeros becomes exponentially less likely. The sum of work across multiple blocks follows a gamma distribution, and block boundaries on a timeline follow a Poisson process. The challenge is connecting the discrete hash values to these continuous mathematical distributions for analysis.",
+      "responder": "Dionysis Zindros",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "exponential distribution",
+        "gamma distribution",
+        "Poisson process",
+        "probability theory"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "30:42",
+      "question": "Can POEM be combined with other blockchain scaling solutions?",
+      "asker": "Implied from presentation",
+      "answer": "Yes, POEM is highly composable because it only changes the fork choice rule without altering the combinatorial structure of the blockchain. It can be combined with other scaling solutions like parallel chains (Parallel Chains) or consensus/transaction block separation (Prism). This composability allows POEM's ~50% speed improvement to stack with other optimization techniques.",
+      "responder": "Dionysis Zindros",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "composability",
+        "scaling solutions",
+        "parallel chains",
+        "Prism"
+      ]
+    }
+  ]
+}

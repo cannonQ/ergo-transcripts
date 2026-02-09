@@ -1,0 +1,61 @@
+[00:11] **Sangi24**: Hello, welcome to Rosenport, a project that facilitates cross-chain bridging with lower fees for smaller funds.
+
+[00:19] **Sangi24**: This project was built by myself, Sangi24, Key888, and Hammerman.
+
+[00:25] **Sangi24**: Now, let's dive into what this is all about.
+
+[00:29] **Sangi24**: As we've noticed, blockchains have continued to grow and grow and grow, and they don't exist in a world where it's just one network. There's multiple networks for multiple different use cases. And it's given birth to something called interoperability. Basically, existing in an isolated environment is just not a thing anymore.
+
+[00:49] **Sangi24**: Everyone wants to use different networks for different things. And this is where I believe, slash we believe, the Ergo ecosystem has taken a leap forward by a lot of cross-chain bridging.
+
+[01:01] **Sangi24**: This was first possible by the Rosen Bridge, which is the center of interoperability between Ergo. It's been amazing and very useful for the entire community.
+
+[01:11] **Sangi24**: However, there are a few problems that exist within the Rosen Bridge, and they primarily exist between the fee structure. So if you want to be a user that wants to have a small transaction, anything below $2,000, let's say $50 or $100, you need to pay a pretty high minimum fee, which is up to $10. And if you choose to go above 2000, yay, because now you can qualify for the 0.5% fee.
+
+[01:39] **Sangi24**: Now, this is great as a first step, but it truly is an inhibitor for smaller funds as they have no access of getting to the 0.5 fee anymore. Ten can be quite a big amount when you want to just maybe bridge over $50.
+
+[01:53] **Sangi24**: Now, this is where we want to introduce Rosenport. What Rosenport is all about is solving this entire issue using batch bridging. Now, we'll dive deeper into what this means and how users can benefit from it.
+
+[02:09] **Sangi24**: But essentially, the first step is smaller holders can participate in the Ergo ecosystem. It's inclusive to everyone. And this is not a competition against the Rosen Bridge, rather a complementary system being built on top of it. We call it the Rosenport for this reason.
+
+[02:29] **Sangi24**: As you can see from the Rosenport design, what we're saying is we're going to allow users to have small little batches that you can see from the left screen or the right. They can get funds and they can actually say, hey, I want to put $75, $100, $200 as long as it batches up to $2,000.
+
+[02:50] **Sangi24**: And then we use the Rosen Bridge to bridge it onto the selected network, maybe Ergo, Cardano, or Bitcoin, or any future bridge that the Rosen team chooses to put on.
+
+[03:02] **Sangi24**: Now, the benefit of this is everyone needs to pay a significantly smaller fee, not the flat $10. And the moment it reaches the 2000 limit, or more depending on how the future iterations go with the Rosen team, we will shift the entire thing over leveraging the Rosen Bridge that exists.
+
+[03:20] **Sangi24**: Now, this is all amazing in theory, but why don't we see a demo of it?
+
+[03:26] **Sangi24**: As you can see, this is a Figma design that we want to call out, and this is what the team is currently working on. We're actually working with the Rosen team directly to develop the Rosen SDK, which will be the core component for the Rosenport, and we have completed the technical architecture and the UI design that you see on the screen.
+
+[03:45] **Sangi24**: Currently, we're also working on the multi-chain payment using the browser wallets and the node wallets, and also implementing the database and the cron jobs.
+
+[03:54] **Sangi24**: Now, kind of want to show you the demo, and then we can jump deeper into what the timelines look like for the public release.
+
+[04:01] **Sangi24**: Now, for the design standpoint, as you can see, we wanted to have a very simple bridge pattern. That basically means you can see the UI on the left on what the user's doing, and we do have context on the right on how the bridge works and how the user will go about on the transfer they're making.
+
+[04:23] **Sangi24**: So let's go ahead. What we'll do today is walk through one of the reserve Bitcoin being transferred from the Ergo network to the BTC network so we'll go ahead we'll connect our wallet and from here we can see our origin chain and our destination change don't match to Ergo and Bitcoin that we want to so we'll go ahead and change that we'll go to the Ergo chain and we'll actually want to transfer to the Bitcoin as we mentioned now as we have that we still want to change it to reserve Bitcoin and all you need to do is enter a amount.
+
+[04:54] **Sangi24**: So this amount is definitely less than the 2000 that the Rosen Bridge requires and that's intended. As you can see on the right hand side we can see that hey you're going to be adding X number of dollars which is 87 and the threshold we need for the batch transfer will be 2000. Once this is reached you will actually see the batch get executed.
+
+[05:16] **Sangi24**: One great call out we want to have is anytime you change the destination, the origin, or the amount change, you will see the current batch status and I guess the batch process, which is going to be the origin and destination change as well.
+
+[05:31] **Sangi24**: We have some extra information on what the average wait time is going to be, and this is basically calculated from the previous batches that we've had. And if we go ahead and initiate a bridge, we have a modal just to let the user know, hey, don't worry. Once the threshold is reached, we'll execute the batch.
+
+[05:50] **Sangi24**: You can go ahead and look at the transaction history so that you can see, hey, this is what's happening. And if you want, you can also withdraw your current batch execution you've done. And the last one is there's no claiming required. This is the only thing you need to do to initiate and receive the transfer.
+
+[06:07] **Sangi24**: If you go ahead and initiate it, we'll confirm our wallet information and boom, we're there. Now you can hit the transaction history or you can go ahead over here and hit the transaction history as well. We'll go do that.
+
+[06:19] **Sangi24**: So this is the current one we just initiated. Again, the same amount that we see here, $87 or 0.00125 reserve BTC. And once we have this, you can actually go ahead, you can look at the active batches that you have to see which batches exist. You can hit bridge via the batch directly and this will take you to the bridge modal and it would actually have it set up.
+
+[06:49] **Sangi24**: We'll have the origin and the destination chain set up as well. So you could have hit directly from the active batches that are available.
+
+[06:56] **Sangi24**: Now, what we do want to call out is we're trying to have this set up for public testing in mid-July and hoping to get a public release closer to the end of July for everyone to try out and work through.
+
+[07:11] **Sangi24**: For the future development, key callout, we will be implementing everything that the Rosen Bridge team goes ahead and implement. So the future iteration they have is the Bitcoin network, hence the demo towards the Bitcoin network. But any other chains that they, any chain or network that they go ahead and implement, we will also be leveraging that.
+
+[07:35] **Sangi24**: And we want to continuously work with the Ergo ecosystem and the users of the ecosystem to simplify the UI and make the bridge and swap easier and use the continuous feedback we get to make the bridge as seamless as possible.
+
+[07:51] **Sangi24**: Now, if you want to get in touch with either one of our team members, feel free to reach out to us on Discord. That would be myself, Sangi24, Key888 or The Hammerman.
+
+[08:03] **Sangi24**: Thank you so much and have a great day.

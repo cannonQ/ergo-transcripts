@@ -1,0 +1,165 @@
+{
+  "call_date": "2024-06-17",
+  "call_title": "Sigmanauts Mining Pool: Mine Any Token | qx() and Marc the Shark | ErgoHack VIII",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Sigmanauts Mining Pool Introduction and Formation",
+      "category": "community",
+      "start_time": "00:11",
+      "end_time": "02:27",
+      "primary_speaker": "qx()",
+      "summary": "qx() and Marc the Shark introduce themselves and explain how they joined forces to create the Sigmanauts mining pool. They discuss the educational goals of the pool and the challenges of running a community-based mining operation.",
+      "key_terms": [
+        "Sigmanauts pool",
+        "community mining",
+        "mining education",
+        "pool management"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Mining Pool Infrastructure and Bot Features",
+      "category": "technical",
+      "start_time": "02:41",
+      "end_time": "03:49",
+      "primary_speaker": "qx()",
+      "summary": "Overview of the Sigmanauts pool's technical infrastructure including monitoring bots, notification systems, and bonus payment features. The pool includes automated reporting every six hours and random hourly bonus payments to miners.",
+      "key_terms": [
+        "mining bots",
+        "bonus payments",
+        "pool monitoring",
+        "automated notifications",
+        "MiningCore"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "NFT-Based Pool Configuration Concept",
+      "category": "nft",
+      "start_time": "04:09",
+      "end_time": "07:07",
+      "primary_speaker": "Marc the Shark",
+      "summary": "Marc explains the innovative concept of using NFTs to drive permissionless mining pool configurations. This includes setting minimum payouts, UI backgrounds, and token swap preferences without requiring centralized web server modifications.",
+      "key_terms": [
+        "NFT configurator",
+        "permissionless",
+        "minimum payout",
+        "UI customization",
+        "decentralized preferences"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "ErgoHack Project Implementation Strategy",
+      "category": "technical",
+      "start_time": "07:20",
+      "end_time": "11:02",
+      "primary_speaker": "qx()",
+      "summary": "qx() describes the pivot from smart contracts to a layered approach for the ErgoHack submission due to time constraints. They demonstrate how miners can specify token preferences and payout addresses through rig name parameters.",
+      "key_terms": [
+        "ErgoHack",
+        "Rosen swap",
+        "smart contracts",
+        "Fleet SDK",
+        "rig configuration"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Data Architecture and API System Design",
+      "category": "technical",
+      "start_time": "11:02",
+      "end_time": "14:21",
+      "primary_speaker": "qx()",
+      "summary": "Technical deep-dive into the mirrored server architecture that extracts data from MiningCore without modifications. The system uses APIs to push data between servers and parse miner preferences into separate database columns.",
+      "key_terms": [
+        "mirrored server",
+        "API endpoints",
+        "MySQL database",
+        "data parsing",
+        "MiningCore integration"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "PPLNS Calculation Visual Explanation",
+      "category": "technical",
+      "start_time": "14:50",
+      "end_time": "18:29",
+      "primary_speaker": "Marc the Shark",
+      "summary": "Marc provides a detailed visual explanation of Pay Per Last N Shares (PPLNS) calculation methodology. He demonstrates how mining rewards are distributed based on share difficulty within a sliding window system.",
+      "key_terms": [
+        "PPLNS",
+        "share difficulty",
+        "mining window",
+        "reward distribution",
+        "pool hopping protection"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Token Swap Reward Distribution System",
+      "category": "technical",
+      "start_time": "18:29",
+      "end_time": "23:05",
+      "primary_speaker": "Marc the Shark",
+      "summary": "Explanation of how PPLNS calculations are applied specifically to miners requesting token swaps like Rosen BTC. The system calculates proportional rewards for swap participants and handles automatic ERG to token conversions.",
+      "key_terms": [
+        "token swaps",
+        "Rosen tokens",
+        "proportional rewards",
+        "automatic conversion",
+        "Spectrum DEX"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Advanced Trading and DeFi Integration Plans",
+      "category": "defi",
+      "start_time": "23:05",
+      "end_time": "24:27",
+      "primary_speaker": "qx()",
+      "summary": "Discussion of future features including grid bot trading, DuckPools integration for automatic yield farming, and strategic token purchasing to optimize miner rewards through market timing.",
+      "key_terms": [
+        "grid bot trading",
+        "DuckPools",
+        "yield farming",
+        "market timing",
+        "treasury management"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "NFT Dashboard Demo and Minting Process",
+      "category": "nft",
+      "start_time": "24:27",
+      "end_time": "29:23",
+      "primary_speaker": "Marc the Shark",
+      "summary": "Live demonstration of the NFT-based configuration system including the dashboard interface and minting process. The NFT stores miner preferences like ERG/token ratios and minimum payouts, with wallet verification for security.",
+      "key_terms": [
+        "NFT minting",
+        "wallet verification",
+        "configuration NFT",
+        "Nautilus wallet",
+        "preference storage"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Future Architecture and Smart Contract Plans",
+      "category": "technical",
+      "start_time": "29:23",
+      "end_time": "32:52",
+      "primary_speaker": "qx()",
+      "summary": "Overview of the transition plan to full NFT-based payments and eventual smart contract implementation. Discussion includes hash rate rental concepts and the team's learning experience with Fleet SDK during ErgoHack.",
+      "key_terms": [
+        "smart contracts",
+        "hash rate rentals",
+        "Fleet SDK",
+        "payment automation",
+        "decentralized mining"
+      ]
+    }
+  ]
+}

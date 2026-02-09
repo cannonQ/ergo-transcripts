@@ -1,0 +1,68 @@
+{
+  "call_date": "2024-06-17",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "04:37",
+      "question": "How does Ergo enable freedom of participation for miners and builders?",
+      "asker": "Reva",
+      "answer": "Ergo enables freedom of participation through flexible configuration of nodes, improved proof-of-work that needs less than a small snippet of data, easily templatable smart contracts with higher level languages like Python, and a nuanced Bitcoin-like UTXO model. This makes the network accessible to developers using languages taught in schools and provides flexible mining participation.",
+      "responder": "Reva",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "UTXO",
+        "proof-of-work",
+        "smart contracts",
+        "Python",
+        "mining"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "05:31",
+      "question": "What is the Ergo bridge called and where does its name come from?",
+      "asker": "Henry",
+      "answer": "The Ergo bridge is called Rosen Bridge, named after the Einstein-Rosen bridge concept from physics. This pays tribute to the scientific ideas that inspired the naming of Ergo's cross-chain bridge solution.",
+      "responder": "Henry",
+      "category": "bridges",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Rosen Bridge",
+        "cross-chain",
+        "Einstein-Rosen bridge"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "05:38",
+      "question": "How much of Ergo's token allocation is held by the public?",
+      "asker": "Henry",
+      "answer": "96% of Ergo's tokens are held by the public, which showcases Ergo's extremely decentralized nature and distinguishes it from other protocols at similar levels. This high percentage of public ownership demonstrates true decentralization in token distribution.",
+      "responder": "Reva",
+      "category": "tokenomics",
+      "difficulty": "beginner",
+      "related_terms": [
+        "token distribution",
+        "decentralization",
+        "public ownership"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "08:31",
+      "question": "How can developers create interfaces for test token faucets on Ergo similar to other chains?",
+      "asker": "Reva",
+      "answer": "Developers can create unique interfaces where people can request test Ergo tokens using faucets, similar to how GoerliETH works with MetaMask on Ethereum or test Solana. This helps beginners understand how to exchange value through smart contracts using fake money without real costs, demonstrating blockchain capabilities in a risk-free environment.",
+      "responder": "Reva",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "faucets",
+        "test tokens",
+        "smart contracts",
+        "developer tools"
+      ]
+    }
+  ]
+}

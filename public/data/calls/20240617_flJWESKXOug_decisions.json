@@ -1,0 +1,76 @@
+{
+  "call_date": "2024-06-17",
+  "call_title": "SigmaRand | Noob77777 | ErgoHack VIII",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "02:02",
+      "decision": "Use two parties for the implementation - one client and one server",
+      "speaker": "Noob77777",
+      "context": "Simplifying the commit-reveal protocol implementation",
+      "topic": "technical",
+      "significance": "major",
+      "quote": "For our example, we have chosen two parties. One would be the client and one would be the server."
+    },
+    {
+      "id": 2,
+      "timestamp": "02:22",
+      "decision": "Combine random numbers using bitwise XOR",
+      "speaker": "Noob77777",
+      "context": "Method for generating the final random number from both parties' inputs",
+      "topic": "technical",
+      "significance": "major",
+      "quote": "And finally, we will be combining the random numbers by taking a bitwise XOR."
+    },
+    {
+      "id": 3,
+      "timestamp": "04:17",
+      "decision": "Allow Alice to take refund after 60 blocks if Bob doesn't act",
+      "speaker": "Noob77777",
+      "context": "Security measure to prevent malicious server behavior",
+      "topic": "technical",
+      "significance": "major",
+      "quote": "So we are allowing Alice to take a refund after 60 blocks."
+    }
+  ],
+  "commitments": [],
+  "open_questions": [],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "04:24",
+      "fact": "Refund timeout is set to 60 blocks (approximately 2 hours)",
+      "speaker": "Noob77777",
+      "topic": "technical"
+    },
+    {
+      "id": 2,
+      "timestamp": "07:06",
+      "fact": "Three APIs are exposed to clients for random number generation",
+      "speaker": "Noob77777",
+      "topic": "technical"
+    },
+    {
+      "id": 3,
+      "timestamp": "07:23",
+      "fact": "Three transaction types are defined: hash transaction, commit transaction, and reveal transaction",
+      "speaker": "Noob77777",
+      "topic": "technical"
+    },
+    {
+      "id": 4,
+      "timestamp": "14:52",
+      "fact": "The SigmaRand API is publicly available for testing",
+      "speaker": "Noob77777",
+      "topic": "technical"
+    },
+    {
+      "id": 5,
+      "timestamp": "16:59",
+      "fact": "Deadline is set for 60 blocks, which is around two hours in actual time",
+      "speaker": "Noob77777",
+      "topic": "technical"
+    }
+  ]
+}

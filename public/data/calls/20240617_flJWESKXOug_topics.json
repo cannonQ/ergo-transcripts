@@ -1,0 +1,171 @@
+{
+  "call_date": "2024-06-17",
+  "call_title": "SigmaRand | Noob77777 | ErgoHack VIII",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "SigmaRand Introduction and Problem Definition",
+      "category": "technical",
+      "start_time": "00:11",
+      "end_time": "01:21",
+      "primary_speaker": "Noob77777",
+      "summary": "Introduction to SigmaRand for secure random number generation on Ergo blockchain. Explains the fundamental challenge of generating randomness on blockchain where all nodes must agree, and how naive approaches can be manipulated by miners or attackers.",
+      "key_terms": [
+        "SigmaRand",
+        "random number generation",
+        "blockchain consensus",
+        "miner manipulation",
+        "secure randomness"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Commit-Reveal Protocol Solution Architecture",
+      "category": "technical",
+      "start_time": "01:21",
+      "end_time": "03:39",
+      "primary_speaker": "Noob77777",
+      "summary": "Detailed explanation of the two-phase commit-reveal protocol implementation with client-server model. Shows how Alice commits a hash of her random number first, Bob commits his random number, then Alice reveals her number to generate final randomness via XOR operation.",
+      "key_terms": [
+        "commit-reveal protocol",
+        "hash commitment",
+        "XOR operation",
+        "two-phase protocol",
+        "client-server model"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Security Mechanisms and Anti-Malicious Safeguards",
+      "category": "technical",
+      "start_time": "03:39",
+      "end_time": "06:11",
+      "primary_speaker": "Noob77777",
+      "summary": "Describes security features including refund mechanisms for non-responsive servers, pledge requirements to prevent malicious behavior, and timeout protections. Ensures neither party can gain unfair advantage or prevent protocol completion.",
+      "key_terms": [
+        "refund mechanism",
+        "malicious behavior",
+        "pledge system",
+        "timeout protection",
+        "60 blocks deadline"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Token-Based Implementation and User-Defined Scripts",
+      "category": "technical",
+      "start_time": "06:11",
+      "end_time": "07:06",
+      "primary_speaker": "Noob77777",
+      "summary": "Explains how clients can redeem tokens (like NFTs) for random numbers through the protocol. The final state locks both token and random number in user-defined ErgoScript contracts, allowing flexible integration with various applications.",
+      "key_terms": [
+        "token redemption",
+        "NFT",
+        "user-defined ErgoScript",
+        "UTXO locking",
+        "flexible integration"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "API Design and Transaction Flow",
+      "category": "technical",
+      "start_time": "07:06",
+      "end_time": "10:07",
+      "primary_speaker": "Noob77777",
+      "summary": "Details the three-API system for client interaction and corresponding transaction types (hash, commit, reveal). Includes workflow states from registration through completion with polling mechanisms for transaction confirmation.",
+      "key_terms": [
+        "API design",
+        "hash transaction",
+        "commit transaction",
+        "reveal transaction",
+        "workflow polling",
+        "transaction status"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "NFT Pack Opening Use Case Example",
+      "category": "technical",
+      "start_time": "10:07",
+      "end_time": "11:53",
+      "primary_speaker": "Noob77777",
+      "summary": "Practical example showing how SigmaRand enables fair NFT pack opening with different rarity distributions. Demonstrates the complete flow from pack token redemption to rare NFT distribution using secure random numbers.",
+      "key_terms": [
+        "NFT pack opening",
+        "rarity distribution",
+        "pack NFT token",
+        "fair distribution",
+        "dApp integration"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Live Demonstration of SigmaRand Protocol",
+      "category": "technical",
+      "start_time": "11:53",
+      "end_time": "22:59",
+      "primary_speaker": "Noob77777",
+      "summary": "Complete live demo showing random number generation, Blake2b256 hashing, API calls, transaction signing and confirmation. Demonstrates the working system with real transactions on Ergo blockchain and API responses.",
+      "key_terms": [
+        "live demo",
+        "Blake2b256 hash",
+        "transaction signing",
+        "API testing",
+        "Ergo Explorer",
+        "hexadecimal representation"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Smart Contract Implementation Details",
+      "category": "technical",
+      "start_time": "16:25",
+      "end_time": "24:21",
+      "primary_speaker": "Noob77777",
+      "summary": "In-depth explanation of ErgoScript contracts including hash UTXO script conditions, refund mechanisms, proposition bytes validation, and commit UTXO spending conditions. Shows how contracts enforce protocol rules and security.",
+      "key_terms": [
+        "ErgoScript",
+        "hash UTXO script",
+        "proposition bytes",
+        "refund conditions",
+        "contract validation",
+        "spending conditions"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Serverless Architecture and AWS Implementation",
+      "category": "technical",
+      "start_time": "26:05",
+      "end_time": "28:20",
+      "primary_speaker": "Noob77777",
+      "summary": "Technical overview of the serverless backend architecture using AWS Lambda functions and Step Functions. Explains how different functions handle transaction status polling, commit transactions, and workflow orchestration.",
+      "key_terms": [
+        "serverless architecture",
+        "AWS Lambda",
+        "Step Functions",
+        "workflow orchestration",
+        "transaction polling",
+        "database state management"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Project Completion and GitHub Resources",
+      "category": "community",
+      "start_time": "28:20",
+      "end_time": "29:55",
+      "primary_speaker": "Noob77777",
+      "summary": "Demonstration of successful transaction completion and project wrap-up. Provides information about GitHub repository with contracts, working examples, and step-by-step documentation for developers interested in using SigmaRand.",
+      "key_terms": [
+        "GitHub repository",
+        "working examples",
+        "developer documentation",
+        "step-by-step guide",
+        "open source",
+        "contract code"
+      ]
+    }
+  ]
+}
