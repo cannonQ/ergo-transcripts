@@ -1,0 +1,168 @@
+{
+  "call_date": "2024-09-13",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "05:51",
+      "question": "What's new with Sigma 6.0 development?",
+      "asker": "qx()",
+      "answer": "Sigma 6.0 development is going smoothly. I've written a lot of tests and corrected behavior of new features. Planning to run next DevNet in a few days. I'm updating the new data type unsigned big integer for cryptographic applications. Before mainnet launch, I'll document efforts around supporting cryptographic applications like what's used in ErgoMixer, stealth addresses, ChainCash, and signature validation in smart contracts.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Sigma 6.0",
+        "DevNet",
+        "cryptographic applications",
+        "unsigned big integer"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "08:21",
+      "question": "What are sub-blocks and what's their current development status?",
+      "asker": "implicit",
+      "answer": "I've made peer-to-peer messages for sub-blocks and am looking at how to test them, including modifying the internal CPU miner. Then I need to work on candidate generation and the full stack to run a sub-blocks DevNet. I could do a public testnet but with one CPU there wouldn't be many blocks, so it makes sense to start with DevNet first.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "sub-blocks",
+        "DevNet",
+        "peer-to-peer",
+        "CPU miner"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "14:28",
+      "question": "What's the current status of Rosen Bridge development?",
+      "asker": "implicit",
+      "answer": "Rosen is getting close. We have a full watcher update recently - it's easy to update with no config changes, just Docker compose pull, down, and up. The guard set hasn't had an update since before the watcher update, but it's getting very close. There were recent screenshots showing Metamask integration with Rosen Bridge for Ethereum bridging.",
+      "responder": "qx()",
+      "category": "bridges",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Rosen Bridge",
+        "watcher",
+        "guard set",
+        "Metamask",
+        "Ethereum"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "15:53",
+      "question": "How does storage rent collection work in mining pools?",
+      "asker": "implicit",
+      "answer": "There are two types of storage rent collection. Type 1: Anyone can collect from boxes older than 4 years with insufficient ERG (less than ~0.14 ERG) - they destroy the box and take the ERG and any tokens. Type 2: Only miners can handle boxes with sufficient ERG by creating change boxes - they collect rent and recreate a box for the original owner with remaining funds. The Sigmanauts mining pool is the first to implement this with modified node, mining core, and built service.",
+      "responder": "qx()",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "storage rent",
+        "mining pools",
+        "UTXO",
+        "Sigmanauts"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "24:25",
+      "question": "Can you explain the difference between type 1 and type 2 storage rent collection?",
+      "asker": "implicit clarification",
+      "answer": "Actually, both types are spendable by anyone theoretically, but propagation is hard when it's about recreating the box (type 2). So there's very little chance to get into a block if you're not a miner for type 2 transactions, which is why practically only miners can do type 2 storage rent collection.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "storage rent",
+        "transaction propagation",
+        "mining"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "37:05",
+      "question": "How does ChainCash compare to traditional credit systems in terms of trust and collateralization?",
+      "asker": "UrsaMiner2010",
+      "answer": "ChainCash allows you to combine both approaches. You can mint notes without enough reserves, creating IOU notes that aren't backed, or you can require full collateralization. If collateral is on the blockchain, you get guarantees from smart contracts. Otherwise, it's trust-based. You can have whitelists of trusted people like friends or charities, while requiring collateralization from unknown parties.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "ChainCash",
+        "collateralization",
+        "IOU",
+        "smart contracts",
+        "trust"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "42:34",
+      "question": "What does Mark the Shark's mining pool proposal entail?",
+      "asker": "Wombo",
+      "answer": "Mark's proposal is a comprehensive package for gaining Ergo adoption through mining outreach. It includes marketing and infrastructure improvements, token-based wallet features for payment preferences, support for mining different tokens like Rosen BTC or ADA, treasury building, and community mining pool support. The plan includes creating mining pool packages for Cardano stake pool operators to offer their community additional rewards through GPU mining.",
+      "responder": "qx()",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "mining pools",
+        "adoption",
+        "stake pools",
+        "Cardano",
+        "Mark the Shark"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "46:09",
+      "question": "Can you explain the concept of 'Ergo after central banks' from your forum post?",
+      "asker": "Wombo",
+      "answer": "The idea is that while many in the Bitcoin community criticize central banks, there's a question of what tools you need when central banks disappear or fail. Ergo provides 'after central banks' tooling that's useful even now because central banks don't serve all communities well - most money creation goes to financial markets and big cities, leaving remote communities underserved. Ergo offers Plan B tooling that's useful now and will be more useful during crises.",
+      "responder": "kushti",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "central banks",
+        "financial tooling",
+        "Plan B",
+        "money creation"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "50:16",
+      "question": "How well can Ergo handle sudden spikes in transaction volume and scaling challenges?",
+      "asker": "Luke Graysmith",
+      "answer": "Short spikes are not the main issue - the peer-to-peer network can be optimized for that even on community hardware. The real challenge is sustained high TPS. Unlike some chains requiring expensive hardware like 1TB RAM for validators, Ergo runs on cheap hardware. The long-term concern is UTXO set growth, but the network can adapt by having limited devices like Raspberry Pi switch to stateless mode, which is already supported.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "scaling",
+        "TPS",
+        "UTXO set",
+        "stateless mode",
+        "hardware requirements"
+      ]
+    },
+    {
+      "qa_id": 10,
+      "timestamp": "53:27",
+      "question": "What are the main infrastructure bottlenecks for Ergo currently?",
+      "asker": "implicit",
+      "answer": "The biggest hurdle right now is Explorer infrastructure. We have the main Explorer instance, my instances, and alternatives like ErgoExplorer and Sigma Explorer, but many still depend on main Explorer endpoints. We need to either redo the node so everyone can be an Explorer, or make Explorer an easier package to deploy on top of nodes. Explorer often becomes a chokepoint when many applications hit the same instance.",
+      "responder": "qx()",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Explorer",
+        "infrastructure",
+        "bottlenecks",
+        "node"
+      ]
+    }
+  ]
+}

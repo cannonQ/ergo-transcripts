@@ -1,0 +1,164 @@
+{
+  "call_date": "2024-09-16",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "04:05",
+      "question": "How does storage rent work on Ergo and can developers steal funds through it?",
+      "asker": "qx()",
+      "answer": "Storage rent on Ergo charges approximately 0.14 ERG every four years on average, ranging from minimal amounts to 0.9 ERG depending on how much data is in the box. People are confused about trustlessness - any protocol-level changes require 90% super consensus and result in a hard fork, so miners wouldn't vote against their own interests. You can easily avoid storage rent by simply sending tokens to yourself, paying only a transaction fee.",
+      "responder": "qx()",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "storage rent",
+        "demurrage",
+        "consensus",
+        "protocol changes"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "16:04",
+      "question": "What is the purpose of storage rent and how does it maintain Ergo's supply?",
+      "asker": "implicit",
+      "answer": "Storage rent ensures a stable and fixed supply while keeping the ledger and dust under control. Unlike Bitcoin where coins are lost forever, Ergo can reclaim unused tokens over time. This means there are no permanently lost coins - the same supply is maintained as storage rent returns unused tokens to circulation through miner rewards.",
+      "responder": "qx()",
+      "category": "tokenomics",
+      "difficulty": "beginner",
+      "related_terms": [
+        "fixed supply",
+        "dust control",
+        "lost coins",
+        "demurrage"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "18:39",
+      "question": "What is MewMart and how does it work as a trading platform?",
+      "asker": "implicit",
+      "answer": "MewMart is an enhanced auction house where you can bundle multiple tokens, ERGs, and NFTs together and sell them as one package. It also functions as escrow - you can specify that only a particular address can purchase your bundle. This helps avoid liquidity issues and slippage that occur on DEXes when trading large amounts.",
+      "responder": "qx()",
+      "category": "defi",
+      "difficulty": "beginner",
+      "related_terms": [
+        "auction house",
+        "escrow",
+        "bundling",
+        "slippage"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "22:25",
+      "question": "How do auction houses like MewMart help with liquidity issues compared to DEXes?",
+      "asker": "implicit",
+      "answer": "When you have a large amount of tokens to sell on DEXes, you might shift the price 10% due to slippage. The buyer faces the same issue when purchasing. Auction houses circumvent slippage on both ends - you list tokens at a fixed price and buyers pay that exact price, making it beneficial for both parties.",
+      "responder": "qx()",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "liquidity",
+        "slippage",
+        "price impact",
+        "fixed pricing"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "37:17",
+      "question": "What new features are coming to Nautilus wallet?",
+      "asker": "implicit",
+      "answer": "Nautilus is working on a transaction history tab that will show your transaction history with potentially an export function. The team found roadblocks with the current explorer but PGR456 from sigmaspace.io helped make progress on this feature.",
+      "responder": "qx()",
+      "category": "wallet",
+      "difficulty": "beginner",
+      "related_terms": [
+        "transaction history",
+        "export",
+        "explorer API"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "38:52",
+      "question": "What recent developments have occurred with Rosen Bridge?",
+      "asker": "implicit",
+      "answer": "The Rosen app integrated MetaMask wallet functionality and fixed pub sub issues that were causing increasing message receiving delays. They're working on message retry implementation and eRosen integration. The bridge now has eRosen support with periodic reward collection jobs.",
+      "responder": "Marc the Shark",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "MetaMask",
+        "eRosen",
+        "pub sub",
+        "message retry"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "39:55",
+      "question": "Why did a large ERG to Cardano swap get stuck on Rosen Bridge?",
+      "asker": "implicit",
+      "answer": "A 30,000 ERG swap got stuck because there wasn't enough Rosen ERG in the Cardano hot wallet multisig. The bridge limits hot wallet funds for security - if compromised, only limited funds can be drained. They needed to inject more Rosen ERG but the public GraphQL instance they used went down, delaying the multisig operation until an alternative was found.",
+      "responder": "qx()",
+      "category": "bridges",
+      "difficulty": "advanced",
+      "related_terms": [
+        "hot wallet",
+        "multisig",
+        "GraphQL",
+        "security limits"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "43:10",
+      "question": "What is the storage rent dashboard and what does it show?",
+      "asker": "implicit",
+      "answer": "The storage rent dashboard by sigmaspace.io lets you track upcoming storage rent boxes and how much rent is being claimed. It provides an overview of your storage rent obligations for the next 24 hours, 7 days, and 30 days, helping users manage their tokens proactively.",
+      "responder": "qx()",
+      "category": "tokenomics",
+      "difficulty": "beginner",
+      "related_terms": [
+        "dashboard",
+        "tracking",
+        "storage rent",
+        "token management"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "43:52",
+      "question": "What are the benefits of having alternative Explorer APIs?",
+      "asker": "implicit",
+      "answer": "When Ergo gets busy, the main bottleneck is often people checking or sending transactions through the Explorer API. Having alternatives like sigmaspace.io's drop-in replacement for ergoplatform Explorer API reduces dependencies and prevents bottlenecks. Some apps require Explorer API calls that aren't available through node APIs.",
+      "responder": "qx()",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Explorer API",
+        "bottlenecks",
+        "dependencies",
+        "node API"
+      ]
+    },
+    {
+      "qa_id": 10,
+      "timestamp": "52:21",
+      "question": "Do you need indexing enabled when running a mining pool node?",
+      "asker": "implicit",
+      "answer": "No, you do not need an index node for mining core operations. This is a common misconception - if you're running mining core and only miners are connecting to it locally, indexing is unnecessary and just wastes resources.",
+      "responder": "qx()",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "indexing",
+        "mining core",
+        "node configuration",
+        "resource optimization"
+      ]
+    }
+  ]
+}

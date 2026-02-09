@@ -1,0 +1,439 @@
+[00:14] **qx()**: Hello and welcome to the hundred and twenty something dev update with us today.
+
+[00:21] **qx()**: And it's been a while for the whole dev update.
+
+[00:25] **qx()**: I apologize for that.
+
+[00:26] **qx()**: But with us today, we have a special guest, Mark the Shark.
+
+[00:34] **Marc the Shark**: Hey, how's it going, qx()?
+
+[00:35] **qx()**: How are you doing, Mark the Shark?
+
+[00:37] **Marc the Shark**: Yeah, pretty good, man. Nice relaxing Sunday.
+
+[00:40] **Marc the Shark**: Very nice.
+
+[00:41] **qx()**: I'm doing well. And just so people are wondering, Mark the Shark comes to us live from satellite. His internet connection is literally going up to space back down. And this is what we're seeing. I'm super impressed by how reliable it is. It's not an ad for Starlink, but I mean, it's pretty impressive.
+
+[01:01] **qx()**: I grew up on dial-up. I moved to like a rural area in my younger 20s, in my 20s. And back then they barely had 3G, I barely had a signal so it was not usable.
+
+[01:16] **qx()**: So I went from dial-up, I used dial-up for a while for about a year, and then used that thing called HughesNet, which was...
+
+[01:23] **Marc the Shark**: Okay.
+
+[01:24] **qx()**: Oh, it was a nightmare. So those satellites unlike Starlink, which are lower orbit. Those guys are I think it was a 35,000 mile trip up and down. They're geosynchronous. So they're geostationary. So they literally just - they're locked. They're locked like a tidal lock almost. And they just go with the rotation.
+
+[01:43] **qx()**: That was awful. They would oversell their nodes and it's just, yeah. So it's really nice to see something like this that's delivering on its promise mostly.
+
+[01:53] **Marc the Shark**: Yeah, it's come a long way. And it's actually a lot cheaper than - I got mine like last year. And they're pretty good. Not an ad or sponsor or anything, right?
+
+[02:04] **qx()**: But I mean, you might mine on the damn thing, right? You're mining.
+
+[02:07] **Marc the Shark**: Yeah, yeah, yeah. Mine on it. I've heard like people have gotten hail damage and they sent out like a new one. We got a power outage and they sent us a new one for free.
+
+[02:18] **qx()**: So they melt the snow that comes on it, right?
+
+[02:21] **Marc the Shark**: Yeah, yeah, yeah, has a setting for that and stuff. It's pretty neat. I think technology has come a long way in that respect. And it's invaluable too, because we both work from home, my wife and I. And so the internet speed is just far more capacity compared to everything out here, because we're in rural Colorado. So you've got to have the speed for both of us.
+
+[02:45] **qx()**: Speaking of things that deliver on their promises and are amazing technology, why don't we talk about Ergo?
+
+[02:50] **Marc the Shark**: Yeah, absolutely.
+
+[02:53] **qx()**: So something cool that happened this week. Well, it happened a while ago, but it's something that was in a lot of talk this week in chats, a lot of confusion. I saw something really funny online. I'll see if I can find it while we're talking here.
+
+[03:07] **qx()**: But with storage rent, we started kind of diving into storage rent, making it more public, talking about it in chats and getting people interested. But I think storage rent is one of the coolest things about Ergo, to be honest.
+
+[03:23] **Marc the Shark**: Yeah, absolutely. I mean, the ability to kind of just like pull in the tokens that are collecting dust, unlike Bitcoin. And it's interesting to kind of, I suppose, have that foresight from a protocol.
+
+[03:37] **qx()**: It is. I mean, when you're as deep as kushti, those kind of things probably just made sense at that point, right? It's like, you know, shit, you're losing Bitcoin forever, gone forever till the heat death of the universe and you're building a chain - how can we reclaim those?
+
+[03:58] **qx()**: But yeah, so for those of you that don't - I mean this is a dev update. I'm sure everybody knows but there are people not developers that watch the dev update.
+
+[04:05] **qx()**: Storage rent on Ergo - people are really confused sometimes outside of Ergo about the trustlessness of it and the changeability of it. So I believe to change any sort of those big settings, I've seen on Twitter people say "oh the devs can steal all your funds if they want to through storage rent" and I dig and dig and dig and they say "the storage rent mechanism." I'm like "how" and they're like "they can just take it." I was like, okay.
+
+[04:35] **qx()**: So but it's a 90% super consensus for any of those kind of protocol level changes. And I think it results in a hard fork, of course, for that. So I mean, that'd be a hell of a thing for miners to vote against their own interests to do. So that kind of thing's silly.
+
+[04:56] **qx()**: But there was a funny post. I think we talked about the storage rent on the Ergo AMA on the 12th. Somebody posted under, I think - let me see. Yeah, some guy commented on it and said, "careful, bro. If you hold Ergo for too long, they'll charge you rent."
+
+[05:20] **qx()**: So that kind of thing. I commented on it. I said, "hey, this reminds me of the historical depictions of people laughing at others when they stated that the earth wasn't flat." I said in quotes, "we have a mechanism to ensure a stable and fixed supply while keeping the ledger and dust under control. How dare you think that far ahead?"
+
+[05:40] **Marc the Shark**: Yeah, that's amazing.
+
+[05:41] **qx()**: So I see a freak about it. And it's like, oh my gosh, people.
+
+[05:45] **Marc the Shark**: Right. So yeah, what's it got to be like 50 ERG, or something, right? For the storage rent, that sounds kind of reasonable - 50 bucks every four years. Or what is it?
+
+[05:57] **qx()**: 50 or 1,000 ERG.
+
+[05:59] **qx()**: Yeah, 1,000 ERG. Good setup, Mark. So on average, it's 0.14 ERG per every four years. And that's on average. That's depending how much data is stuffed into it. So the more data into the box, essentially, the more you're gonna get charged.
+
+[06:25] **qx()**: That could range from less than 0.14, I believe for minimal, to even more to 0.9. I think almost a full freaking ERG of collection if I'm reading it correctly from our earlier endeavors.
+
+[06:36] **qx()**: But yeah, so an interesting thing too is you'll see the storage rent that's being collected right now is on a lot of like - you see like 30,000 ERG wallet that hasn't been touched or 70,000 ERG wallet that hasn't been touched. So kind of these sitting whales and it makes me smile knowing that hey, these guys haven't been using the ecosystem for four years, or they have, and they've just parked their tokens.
+
+[07:04] **qx()**: Who knows, it could be either one. But it's nice to see that miners are now being able to recoup some of that burden from storing that state all the time, essentially, and having that bloat in the blockchain. So I thought that was really cool.
+
+[07:21] **Marc the Shark**: I mean, you're talking about the fees then. So they went all the way up to 0.9. So does that just mean basically there's more boxes within this transaction, I suppose?
+
+[07:32] **qx()**: No, there's more things in the box, the box holds more data. So let's say you have a ton of ERG in the box, and you have a ton of tokens in the box and that kind of thing. And that box is up for storage rent. Since there's more data in that box and it's heavier bloat on the chain to store that data, they're gonna charge - it's a multiplier essentially, the way it's figured out. It's gonna be charged more rent.
+
+[07:59] **Marc the Shark**: Okay, interesting. I mean, yeah, 0.9 or whatever. That's pretty reasonable. Depending on like what that data holds - 90 some thousand ERG and you have a bunch of tokens in there too, kind of thing.
+
+[08:13] **Marc the Shark**: Right. Exactly. Where your bank accounts charge you 25 bucks a year or something like that, just to use your own money in your own bank. So this is like, obviously far less from like a banking kind of comparison.
+
+[08:27] **qx()**: And even further less, right? Because all you have to do is just send stuff to yourself to pay a transaction fee and you're done. So it's like a freebie kind of thing. It's like, hey, don't forget to clean behind the stove every four years kind of thing, so you don't get mice.
+
+[08:49] **qx()**: It's super easy to bypass and go around. But of course, the genius in that is by doing that, you're spending money on a transaction fee. So either way, you're paying the miners for use of the network, which is the original intent, which is a great kind of function of that.
+
+[09:05] **Marc the Shark**: Right. It's like almost the network is designed and incentivized to be used.
+
+[09:10] **qx()**: Yeah, who'd have thought, right? Exactly. So I can understand people coming from other ecosystems like Ethereum saying, oh, they can take stuff out of my wallet without asking that kind of thing. But assumptions are there when you start - it's a known thing. It's how it functions and there's a reason for how it functions and it is a hell of a lot better of a reason than some people I see get scammed in Ethereum where you do a transaction and 30 hops later that guy takes your entire wallet out and you didn't even know.
+
+[09:45] **Marc the Shark**: Kind of thing with those - where you give smart contracts like unfettered access to make that transaction kind of thing. You get screwed if you don't know what you're doing sometimes, right?
+
+[09:55] **Marc the Shark**: So yeah, I mean in that respect too, there could be some hesitation from a wallet optimization - maybe I don't want to optimize my wallet, I'll just create a new wallet sort of thing. But there's still going to be some level of dust because I know within the wallet - and obviously I've used it before.
+
+[10:15] **qx()**: It's safe to use but I wonder if other people would create sort of "reduce your boxes" and one would be like someone scammy is doing it. I wonder.
+
+[10:24] **qx()**: Yeah, I would not be surprised Mark if you start, with the popularity of Ergo going up, if you see like "here's a utility to keep your wallet clean" that kind of thing. But yeah, that'd be some pretty low-hanging fruit with some pretty basic scams going on there. But of course it's gonna happen right, to be honest.
+
+[10:42] **qx()**: It took a while for me to trust optimizing Nautilus and the Consolidate boxes in Minotaur. I was like, okay, am I sure this - let's try it. Let's try it on a small wallet. I would just take the time and send everything back to myself again, which is the same thing.
+
+[10:57] **Marc the Shark**: And that's like something that I think from a development perspective, FleetSDK does. So I think the only way that wouldn't work, and it's like somebody scams you, is somebody like, I guess, fork FleetSDK, right, and then change the UI to do that. So that would be like the only way somebody could actually - within the wallet?
+
+[11:18] **Marc the Shark**: Yeah, that would have to be in the wallet, right?
+
+[11:21] **qx()**: Yeah, they wouldn't get it out of - they wouldn't get it on the Chrome Store. That's the advantage of having Nautilus official on the Chrome Store. So they'd have to fork it, rebrand it, like "dog with bat wallet for Ergo" kind of thing. Get people to use it and do it.
+
+[11:37] **qx()**: But I guarantee when one of those kinds of things pops up, people in Ergo, at least they're going to be looking at it. Looking at the code immediately and say "we can't see this code guys. It looks like Nautilus work but there's nothing on GitHub about it" kind of thing.
+
+[11:51] **qx()**: At that point, and the same thing happened with - we don't know who did ergodex.com, right? So everybody knows that Spectrum rolled back down to ergodex.io. I believe it is, let me see. Let me see to make sure before I quote this.
+
+[12:11] **qx()**: ErgoDEX swap. Yeah, it's app.ergodex.io. So they went back to that. They split up. They split their brand - Spectrum, still kind of that backend network that they're going to foster. And Splash is the Cardano side. ErgoDEX is the Ergo side. And so they're no longer bound together, which I think is flipping fantastic.
+
+[12:33] **qx()**: I wanted to trade on Ergo and I didn't need to see a pull-down up there or accidentally switch to that when I'm in my menu bar if I ever used the Cardano side. So it's good. I'm sure Cardano people felt the same. So I think it's great to have two separate brands there, which is great.
+
+[12:49] **qx()**: But anyway back to the original topic. There's ergodex.com which is a clone fork of Spectrum interface and it's a fork before the - it's not a fork of ErgoDEX. It's a fork of Spectrum DEX. So you still have the Ergo/Cardano dropdown up top. And I don't know who runs it. Maybe it was figured out in dev chat, but I asked in dev chat and people said, "we don't know who runs it."
+
+[13:26] **qx()**: So even though it's zero fees, there's no fucking way I'm connecting myself to that until somebody comes up that's known in the ecosystem and says, "Hey guys, I'm running this."
+
+[13:39] **Marc the Shark**: Right. But until then, yeah, they're a bit like icebergs in a sense. You can see the little bit above the water, but what's underneath that I'm concerned about.
+
+[13:50] **Marc the Shark**: Yeah, absolutely.
+
+[13:52] **qx()**: Yeah. And I mean, a smart dev might come up and say, "Oh look, we can see the connector. It looks fine. You can see the UI being hosted here. That's fine." But yeah, caution for sure.
+
+[14:04] **qx()**: Especially with those kinds of things. But that being said, everybody, please have a goddamn trading wallet and not hook your whole bag to anything. Please, please make yourself a damn trading wallet.
+
+[14:15] **Marc the Shark**: For sure. Small amounts, things like that. I saw a video where it's like a point of view. You buy like 10,000 Bitcoin back in the day and then it's like now and he goes to essentially send Bitcoin while doing all this stuff. He copies and pastes the last character wrong and then he's just like, oh no, he's already done a non-refundable $600,000 vacation. Most expensive vacation.
+
+[14:45] **Marc the Shark**: Yeah, exactly. It's like, dude. So yeah, don't be that guy. Small amounts. Try again.
+
+[14:52] **qx()**: I don't even trust like ADA handles. People are sending stuff to ADA handles. I mean, bless that service, but goddamn, if I - I'd rather just put in a damn address and read it through. If it's any sort of serious value there, I get what it is. I know how those handles work, but whew.
+
+[15:11] **Marc the Shark**: It's like recreating systems that we already have today that again, they're just somewhat decentralized, but still run by people. And again, yeah, it could be good people, but still could be corruptible at some point, maybe.
+
+[15:24] **qx()**: Yeah, I mean, even in cases, I'm sure they have - I'm sure they built in some sort of redundancy. The transaction fails if they can't find the relay there. But yeah, I guess I'm just really conservative about that kind of stuff. Maybe too conservative.
+
+[15:46] **Marc the Shark**: It'd be a new series for dev updates, and it's like the dark files or something. We talk about the nastiness of crypto.
+
+[15:56] **qx()**: Oh, that'd be amazing. We can do that here. That's fine. No problem. It's always something to talk about, that's for sure.
+
+[16:04] **qx()**: Let's see. What else? Let's talk about - all right, so storage rent. Hopefully everybody has a good idea on storage rent. Just again, the basic idea is that we have a fixed supply of Ergo, of ERGs, and that never goes away to infinity, essentially, right?
+
+[16:19] **qx()**: I mean, granted, it may take tens of thousands of years to claim large amounts of Ergo out of the blockchain from storage rent, but it's possible. So in that kind of sense, it's always the same supply, you do not have lost coins, essentially, in that manner.
+
+[16:35] **qx()**: So super cool concept, again, takes a super majority, super consensus, 90% or more in a fork to do any of those kind of serious changes. So again, miners aren't going to be voting against their interest.
+
+[16:47] **qx()**: So anybody not on Ergo listening to this, and confused about storage rent, come into chat and chat about it. It's one of the favorite things in Ergo. And if you have any serious questions about it, talk to Louis, Louis Libre in main chat, he is happy to fill you in on all the great benefits of demurrage.
+
+[17:08] **qx()**: So very cool.
+
+[17:09] **Marc the Shark**: And isn't the Ergo coined name for it like demurrage? Right? That's like the one and the same.
+
+[17:16] **qx()**: Storage rent? Yeah. Well, I mean, demurrage came from the term back in the day with ships having to pay for just sitting in harbor, I think it was, or something like that, or sitting at the docks or offloading or that kind of thing.
+
+[17:28] **qx()**: So that was kind of repurposed. Louis, I think Louis started talking about it a lot. And then I think kushti came in and said something like, yeah, back in 2019, we did have the word floating around a little bit kind of thing. So it's funny how things come back full circle.
+
+[17:43] **Marc the Shark**: Yeah, okay, cool. I didn't know that, it's awesome.
+
+[17:47] **qx()**: Yep. What else - oh dev update we don't have a couple people didn't do dev update this week that I'd like to just mention. Because he caused a stink in one of the chats. I'm just kidding. You didn't cause a stink - MewMart he calls it. I call it MewMart. He calls it MewMart. Okay.
+
+[18:09] **qx()**: MewMart so that's HQx and I believe Aco as well doing those kind of things. I think kushti looked at an earlier smart contract for like the escrow kind of services and pinged them to look at the new smart contracts that they were using but it's pretty damn neat. It's like an enhanced - it's like a more nimble auction house as far as that goes.
+
+[18:39] **qx()**: So you can - I can take 10 different tokens and some ERGs and some NFTs and put them into a bundle and sell the whole bundle. Boom. They are going to the smart contract. Somebody can buy the whole thing. It's done. I can also use it as escrow too. So I can put in a bunch of tokens, some ERGs, and then I can say only Mark's address can buy it for this much.
+
+[19:01] **qx()**: And then Mark pops in and he sees it there. And he's the only one that sees it there and he can buy it right there. So it's a nice little peer to peer kind of transfer there.
+
+[19:11] **Marc the Shark**: It's pretty slick. I like the escrow feature a lot. I can see a lot of applicability maybe even like with mining, like, you could say, Hey, I want to rent my hash rate or something. And this could be a cool platform where we can offer the hash rate. And then in the backend, we'll have to figure that out. But it's exciting. I'm excited for it. Super cool.
+
+[19:34] **qx()**: And he's helping us out. Anon is busy with Gluon Gold, I believe, that got funded. So we were going to work with Anon to integrate the Sigmanauts swag into those NFT sales there. Essentially, you buy an NFT and it correlates to an actual physical item and then we ship you the item, essentially.
+
+[20:01] **qx()**: But MewMart jumped on board and said, "we could get you fired up and started." The idea in the end is to do both, of course. But we're going to develop a little API. So essentially, the pathway will be we put the tokens on MewMart and you buy it. It takes you to a little form. You fill in the shipping information. That never stays in MewMart. That goes right to an API that I'm going to build in our Sigmanauts database. And then we ship it out.
+
+[20:24] **qx()**: After a few days of shipping confirmation that it's been delivered, that gets nuked from our database from there. So we'll make sure to prune as much as we can while still holding on to at least the idea that it arrived on time. We don't want to nuke all those details before it arrived. But we certainly can probably prune some things even before it arrives. So we're going to be as conscious as we can to do that to keep anonymity.
+
+[20:52] **qx()**: And also remind you guys that there are relay services that are available in the USA. And probably other countries as well, where you can send it to an address - that address knows that you're linked to the address that comes in, and then they just relay to you. So it takes a couple days. So don't forget those exist as well. If you're worried about giving up your private information.
+
+[21:14] **Marc the Shark**: What's the cost look like for that? Is that like added costs, maybe like a few extra bucks? Or what's that kind of...
+
+[21:19] **qx()**: I'm not sure the pricing. I don't know if they do it per - you have to pay per month. I know my brother did something, not for these purposes, but he was in Denmark and ordered a lot of stuff in the US, because he's a US citizen. So it would go to someplace in DC, like a PO box. And then that would just ship internationally to Denmark from there for those things. I don't think it was too bad because he had it forever. So yeah, so those exist for people who are concerned about privacy there.
+
+[21:45] **qx()**: But we're looking forward to that and that's MewMart guys. So if you haven't used MewMart and you want to - just as I said, an auction house or a trade house launched an auction house - these are ways around liquidity issues. So if you have a token that you want to offload or sell or take profits on but you go to the DEXes - you go to GreasyCex, you go to MewDex or you go to ErgoDEX and you notice that you're gonna shift the entire price 10% because you have a bunch of tokens.
+
+[22:25] **qx()**: But you still want to give that opportunity. You got to remember that the buyer on the other side still feels that way when they buy - when they go to buy it, they're going to shift the price 10% in the other direction, essentially. So it's not a great agreement there, where you could go to a MewMart or auction house and you can list a bundle of tokens for a price and then they can buy it for that price.
+
+[22:46] **qx()**: So it's really a good bet for both the seller and the buyer because you're totally circumventing any slippage on both ends. So super cool.
+
+[22:55] **Marc the Shark**: Yeah. So what are the fees looking like? I think, right. There's no fees. Is it still no fees right now until like 2026 or something? Isn't it? I think so.
+
+[23:06] **qx()**: Let's see. I gotta get my other browser up Mark. Here we go. Switch to tab. And home. He doesn't have the banner up for fee-less. Do you see it? Is it popping up? No, not yet. No, OK. Yeah, so I think check out the Twitter. There's reduced fees there or no fees for a while.
+
+[23:30] **qx()**: And on top of that, another one that didn't announce in dev update this week and I don't blame him. I haven't been doing dev update videos. So they may have lost the thing - is Cyberverse, of course always plugging away.
+
+[23:46] **qx()**: I was building - they did a car mint, which was awesome. I hopped over to ADA and I had some ADA sitting in Cardano, I had some ADA sitting in my wallet and I immediately put it all together and connected my wallet to Cyberverse from ADA from Cardano and minted two cars because I had about 80 ADA kicking around or minted 68 because it was like 75.
+
+[24:04] **qx()**: But it's super cool like all of the Cyberverse Gen 3 minting. It's a really cool animation that they do and it's in the game, too. So you log into the game, you go to the mint and you mint a car and you get lucky. Hopefully it gets addicting though. It's like opening up individual matchbox cars when you were a kid. It's the same kind of nostalgia.
+
+[24:35] **qx()**: Alright, alright Mark. I think we covered a bunch of stuff. What about we jump to the developer chat?
+
+[24:42] **Marc the Shark**: Oh yeah, let's do it.
+
+[24:44] **qx()**: Alright, why don't you take Chris45 first?
+
+[24:48] **Marc the Shark**: OK, sweet. So help translate VoltPay and GreasyCex to the Grift token and then help maintenance Ergo Space wiki Bahasa Indonesia.
+
+[25:05] **qx()**: So this is a guy you guys see in chats that does all those translations. He'll come in, I think, right before the East Coast bedtime, that kind of late, because he's just waking up. And he'll post all those things. kushti will usually tip him or comment or that kind of thing. But doing a lot of translations for all these things. He's also the guy that does - he'll submit tokens like GreasyCex and those kind of things to CoinGecko or other sites to just try to help get them listed. He does a lot of that stuff. Super cool.
+
+[25:43] **qx()**: All right, we've got qx() with my side of the Sigmanauts mining pool, Mark's got his side coming up a little bit down further.
+
+[25:51] **qx()**: Tested service storage rent, which was written by qx(). It's now running on mainnet with about 30 gigahash on it. Found three blocks in 24 hours that automatically collects almost 30 freaking ERGs. These are the ones Mark was talking about where collecting from big boxes and it was like 0.789 for some of them. And cleaning up from blocks around 1,287,000. Installing storage rent onto Mark the Shark's new cheaper server today and will point all Sigmanauts mining hash to it. Let's go. Fantastic. And I'm gonna stop there, Mark, because you've got better news down below. So we'll go for it. Take it away, sir.
+
+[26:33] **Marc the Shark**: Okay, sweet. Ergo protocol and reference client research and development. So rework thread pools into 5.0.23 client. Now there is only one non-default pool for critical threads, block processing, and mining related. The candidate is good for days on a test server, would be good if Raspberry Pi owners can test as well. Good to know, might check that out.
+
+[26:57] **Marc the Shark**: There's pull requests, let's see, working on some new tests, or rather tests for new numeric methods in Sigma 6.0. The PR is merged into unsigned BigInt pull request. And with the unsigned pull requests more or less done, new DevNet will be released. Nice.
+
+[27:21] **Marc the Shark**: Done basic peer-to-peer message for sub-blocks, announced sub-blocks, requested transactions, and send transactions. Nice. Now looking into candidate generation, minor modifications to start initial DevNet with sub-blocks. That would be really neat. Cool, cool, keep it coming.
+
+[27:39] **Marc the Shark**: So ChainCash app added API methods to do a description to read me. Looks like we have a note, also indexing all the notes and getting notes by holder pub key implemented, reviewed and approved both pull requests.
+
+[27:57] **Marc the Shark**: And then Dexy with all the tokens issued, code for USE is finishing PR for ErgoDEX and reviewing payout action to deploy it after. So it's gonna be hard money.
+
+[28:11] **qx()**: Yeah, that's gonna be nice getting Dexy up there. That's gonna be good.
+
+[28:16] **qx()**: All right, we've got, oh, this was fun this week, Cornell AAP DAO. So I created some tokens and set up DAO for Cornell AAP students. There's a Paideia DAO right there. I created video tutorials for students on how to create a wallet and stake token on the DAO. Next up, meet with student body next Thursday.
+
+[28:37] **qx()**: That'll be this Thursday, so in four days. I'm going through to explain how this DAO will function, its purpose, and why the hell on a blockchain. Remember these are kids - these are not blockchain kids - these are just city and regional planning kids specifically at this point and then we'll branch out to the bigger body.
+
+[28:55] **qx()**: Create a token of value as well for our college that will help in creating a digital economy where students can pay for printing, plotting, trade and swap tools between themselves, pay fines and other peer-to-peer transactions. So you got to imagine if you're leaving the country at the end of the year, and you don't want to deal with US currency or something like that, it'll be nice to have a kind of central currency that will still hold value for you when you come back, perhaps.
+
+[29:24] **qx()**: So if you have tools that you're selling, like cutting tools, drawing tools, those kind of things, you potentially could sell with these tokens that still have a value when you come back on campus, as well as use it to pay for other services that we have. So, excited about that. So, that'll work. We'll see.
+
+[29:44] **qx()**: Notes: DAO resets each year as the top class graduates, and the first version of that will hold Cornell USC token, which is just a placeholder representation, non-value, and about $50,000 for the students to vote on how to spend those funds to augment and update the main computer teaching lab. As I prove successful, more funds will be integrated into the DAO and more things will also be able to be influenced by the students.
+
+[30:04] **qx()**: I mean, the issue everybody has in these kind of things is apathy, right? We have apathy issues in the Sigmanauts group as well. I'm sure the EF has apathy issues too with voting and participation and you only hear about stuff when it's bad or they don't agree with it, so it's so unproductive to put your blood sweat and tears into something and then only hear feedback about it being bad. It really wears you down after a while.
+
+[30:26] **qx()**: So the hope with these kind of things is creating a DAO, getting the students involved in the DAO, putting actual one-to-one representation of $50,000 in there to say hey, this $50,000 is gonna be - what is it - $15,000. How much - $10,000 times five, an extra $10,000. So there's gonna be about $13,000 added each year after this $50,000 forever essentially and your job as students is to figure out how best to utilize the space and we'll hand out tokens as well to faculty as well who teach in the lab so they can have input in there as well as the staff of course that support it. So it'll be really interesting.
+
+[31:14] **Marc the Shark**: Yeah, the ecosystem of a college is like perfect for blockchain just with all the different sort of bartering mechanisms you could do. Like, imagine you could make a token for your books. And then they're equally distributed. I think with like ChainCash could be applicable here.
+
+[31:30] **qx()**: ChainCash would be awesome in these environments. Yeah, some sort of bartering systems, those kind of things. It's right for that kind of stuff. It'd be perfect, you know, give the power back to ownership and actual rights ownership. So those kind of things. So yeah, super neat.
+
+[31:50] **qx()**: I think about ChainCash that's backed by - backed by Ergo that's setting up this stuff too. So students know that if they have a note that's backed by stuff that we're doing, it's gonna be actually legit. And that's kind of super neat.
+
+[32:07] **qx()**: Look at this. We've got NoRoYogi also known as Mark the Shark. What you got here, sir?
+
+[32:14] **Marc the Shark**: Yeah. So I'm not sure if you can see the image. Most likely, I guess the UI image or not.
+
+[32:20] **qx()**: Yep. They can see it.
+
+[32:21] **Marc the Shark**: Very cool. So yeah, this is a temporary dashboard I was creating. Because when we're sort of testing things, we just break the APIs, I guess have to remake them. So this was just something quick and dirty. So we'll be updating the API, but this is something maybe down the road project we might switch over. We'll see. But so new servers are up and running with mining core.
+
+[32:44] **Marc the Shark**: I personally solo mined three blocks within a week on two gigahash.
+
+[32:50] **qx()**: That was - you hurt us so bad with that. Good luck that we went a day without a block.
+
+[32:55] **Marc the Shark**: I know, right? I felt bad. I saw you message me. I was like, Oh no, what's up? And then, yeah, that's mining luck.
+
+[33:05] **Marc the Shark**: So, and then from there, so we're mirroring the database from mining core server. So that allows for some separation because that has all the payments. So just want to keep that separate. Created initial API for mining core. So that's what you see in that dashboard. Again, there's the new minimal dashboard. I'm coining Sigmanauts and MegaCore. I'm having fun with my naming convention.
+
+[33:31] **Marc the Shark**: It's containerized everything for all the pool operations. This eventually, I think, is going to be into some sort of GUI, similar to how I really like the look of the Cardano node, just like aesthetically. So that's kind of what I was going for. But in terms of functionality, we'll see. But the idea is to GUI everything.
+
+[33:53] **Marc the Shark**: And then at the time I wrote this, I needed a better understanding of mining core payment tables and the like before integrating the mining swaps. Should be simple and straightforward, but there's, of course, the unknown. So soon on that.
+
+[34:10] **Marc the Shark**: I did mess up the NGINX config for ergo-miners.com. So for some reason that's not showing up. But if you go to shark...
+
+[34:19] **qx()**: That's right. My bad. Yeah.
+
+[34:21] **Marc the Shark**: So I don't know what's going on. I need to look at that.
+
+[34:24] **qx()**: Yeah, it can just be something simple probably that happens since it's fine. Yeah, we'll look at it. It can be a pain. But yeah, the third one up where you're talking about Sigmanauts MegaCore. That's what everybody, that's what I was talking about during the AMA this week about - these are a package that Mark's developing that we can go out to Cardano stake pool operators and say, Hey guys, you want to get your stake pool members extra Ada essentially or extra something?
+
+[34:51] **qx()**: So they could essentially go and spin this up and anybody that has a video card in their gaming rig or anything. So I think the math Mark - let's say there's a thousand people staking at a stake pool on Cardano, right? A hundred of those guys are gamers and they have 3070s, 3080s. I think it's around 10 to 20 gigahash. I think I calculated out that it could be for those kind of - even only a hundred users. So that's a couple blocks a day even, or more kind of thing.
+
+[35:18] **qx()**: So they could offer their Cardano people Rosen ADA that could then essentially cross chain and come over - maybe take the Rosen bus when that gets developed so that there are fewer fees and they could just continue to get extra ADA or they could just collect Rosen ADA on Ergo, with another wallet kind of thing.
+
+[35:45] **qx()**: So that's part of your plan, Mark, for your proposal to the EF, right? Kind of adoption and education through mining, which I think is brilliant, because we're fucking proof of work, bro.
+
+[36:05] **Marc the Shark**: Right. Yeah. And I think, you know, kind of in your sort of breakdown of stake pools, most of the stake pool - folks that are staking to the pool, right, most likely have some GPUs. And in the same sense, most of the miners are most likely somewhat fluent in some type of language and would probably be interested in some manner to develop things. And so I think from an adoption perspective, you know, we probably should see a lot more apps maybe into the ecosystem that do a bunch of different stuff maybe made by miners. And so at least that's the hope, right?
+
+[36:43] **qx()**: Let's see what else we have here. Oh, you've got some GitHubs of your MegaCore and mining wave and miner view right there. Okay, down below.
+
+[36:52] **qx()**: All right, let's see. We've got Anon with Nautilus - found a lot of roadblocks for a smoother TX history mempool and user experience with the current explorer. Thankfully PGR456 from sigmaspace.io came to the rescue and we are finally making progress again. Let me make sure Sigmaspace - does he talk down here? He doesn't. Oh, yes, he does right there. Okay. I don't need to talk about it because he's down there.
+
+[37:17] **qx()**: For those of you that haven't been following, Nautilus is working on a transaction history tab. So if you go to Nautilus and you see those tabs up top, it's like non-NFTs, non-singletons, then NFT singletons or NFTs with artwork essentially. Then there's like the consolidate thing. Well, there's another tab that's coming in there for history. So you can get your history of transactions - I think there was going to be an export button Mark? Did I see an export button there? I don't think - I might be overspeaking. But at least you can see history there. So that's really nice.
+
+[37:55] **qx()**: FleetSDK Mark's new favorite tool besides ErgoPy - release version 0.6.4 blockchain providers retry on server errors, fixed stream methods return types for blockchain providers and miscalculation when tokens are present in subtrahend but not in minuend for fixed UTXO difference. So nice, nice Anon.
+
+[38:22] **Marc the Shark**: Okay, you've got the big boys right here, the heavy hitters man, cool cool. So Rosen Bridge so it looks like the Rosen app integrated the primary MetaMask wallet functionality into the Rosen app. Rose net fixed pub sub issue of increasing message receiving delay. Started working on message retry implementation work on fixing stream about abort issues.
+
+[38:52] **Marc the Shark**: And then we got watchers. So let's see release with some minor - release with some fixes minor bugs in eRosen integration. So that's pretty big update, right?
+
+[39:05] **qx()**: Right. Yeah, we're gonna be watching - they're gonna be receiving eRosen which can be swapped one for one for Rosen I believe so yeah neat.
+
+[39:13] **Marc the Shark**: Very cool. And then the services, release with eRosen, support periodic reward collection job and improve health check module experience.
+
+[39:25] **qx()**: Nice. There was a - I think there was a 30,000 ERG swap over to Cardano the other day. It got stuck. I think it just went through yesterday or today when it retried again. But the reason it got stuck is there's a limit to how much, depending on how busy the bridge is expected to be, there's a limit to how much funds are in the hot wallet, right? Because the last thing you want is something cracked and a hot wallet compromised and everything drains.
+
+[39:55] **qx()**: So that's the way those - that's another level of multi levels of Rosen Bridge. It's like a layer cake for Pete's sake, how it protects those things. So what happened is in order to do that, we need to inject Rosen ERG into the Cardano wallet, right, the hot wallet, but there wasn't enough there - there wasn't enough for 30,000 ERGs coming over - there weren't 30,000 Rosen ERGs in the Cardano wallet multisig.
+
+[40:20] **qx()**: So typically we use a service essentially. It's a multisig service very similar to what mgPai made for ErgoHack kind of - a website where you can see everybody's address, it's part of the multisig and you can sign and go from there. So it's outside of a wallet itself. You can use Nami, you can use Eternl, I think, to connect to it and sign right there from a normal wallet.
+
+[40:49] **qx()**: So what happened is the public instance, the public GraphQL instance that we were using went down that Roundtable uses and there was a hunt for a day or two to try to find one. Luckily I'll give a shout out - the Panel stake pool was syncing one as we were looking. He was a 16% but it wasn't quite up to the point where it recognized Rosen because it was still early on in creation essentially. So I think by the next day it had finished and we were able to do it from there.
+
+[41:26] **qx()**: But it's interesting, some of those, and I said to the Rosen team, I was like, oh, you know, hey, let's just, I'll spin up something. I'll spin up a GraphQL instance for Cardano. And the response was overwhelmingly, "that's extremely complicated. That's why we're not doing it" kind of thing. So I think we take for granted sometimes these things and I heard Louis say as well that at one point when he went over to Cardano is that he was spoiled from Ergo having an index node built right into the node and you can make calls right there for extended things. Whereas in Cardano, that's not the case.
+
+[42:06] **qx()**: So it's interesting the things that work well in one ecosystem and you expect them in others and they're not there. But I'm sure Cardano has things as well, the same way back and forth that you come over here and you're like, why can't I do this? Six and one half dozen of the other most cases.
+
+[42:23] **Marc the Shark**: That makes it interesting with the bridge, right? Because with each new connection to the bridge, you got to sort of write little, I guess pitfalls with respect to each chain and then kind of, I guess, compensate in that sort of manner. So definitely some great work that they're doing over there.
+
+[42:40] **qx()**: No, it's a lot of work. That's for sure.
+
+[42:43] **qx()**: We got sigmaspace.io PGR456 is in our mining channel, super swell guy. Finally finished a new blockchain index - full index into database in less than 24 hours. Amazing. Added box size to indexing as per works for storage rent dashboard. And he launched storage rent dashboard right here so you can see it - lets you track upcoming storage rent boxes and how much rent is being claimed also overview your storage rent in the next 24, seven days, 30 days.
+
+[43:10] **qx()**: Next up in roadmap is finishing and providing public explorer API, which is fully compatible - can be dropped in replacement for ergoplatform. Holy shit, this is gonna be awesome. The anything - so I said to kushti I think in the AMA, one of the things - or maybe it was in the Spaces - I said one of the things that I'd love to see in Ergo is less dependencies on Explorer right because when shit hits the fan, and it gets really busy. The big bottleneck sometimes is people checking or sending transactions to the Explorer API, not UI, essentially, or the Explorer URL.
+
+[43:52] **Marc the Shark**: So like, refreshing to see if it confirmed or not.
+
+[43:55] **qx()**: No, that's the GraphQL. I think Nautilus uses GraphQL to send transactions through there. I think central exchanges probably have their own instance of Explorer that they do that through. But it can get bogged down, right? Unless they're using - I have app.ergo.aap.cornell.edu Explorer as well that's out there that people use. But it was, I set it up maybe a year ago and it was a bitch to set up.
+
+[44:21] **qx()**: So anything that can give an alternative explorer that can be used with GraphQL, if he's going to be able to do that, I don't think he's talking about GraphQL here though at all, but maybe he is. But at least API calls so that any apps that are relying on Explorer API calls, which are different than node API calls, just for people to know that don't know that. So there's some things you need out of Explorer APIs that you can't get out of node API. So that'll be great. Hopefully that'll allow more people to do those things and easier installs, easier to spin up and take that bottleneck away.
+
+[45:00] **Marc the Shark**: Okay. So it's more of like a compute issue where it's like the current Explorer set up. It just, you know, everyone's just pumping stuff to that. This would just be...
+
+[45:08] **Marc the Shark**: You got it. Yep. Yep.
+
+[45:11] **qx()**: Yep.
+
+[45:13] **Marc the Shark**: Very cool. That's all you. Sweet, the LAW project, reputation system for Nota is done, actually working on a payment system, updated SigmaReputation panel with new contract improvements. OK, cool. So maybe competition for ErgoOne, maybe, in terms of reputation? Or is this going to be an application different?
+
+[45:38] **qx()**: No, this is essentially, I believe, from what I remember from ErgoHack 5. I think they addressed somebody, maybe did ErgoHack 5 or 6, but he sent two ErgoHacks. And I think this is legitimately essentially real people reputation, like essentially ways to determine how somebody is in a social gathering or a social environment like Ergo. So it allows it allows those kind of - and I think it's trustless essentially - so you can essentially trust in that way at least by social representation, social and how you're acting on the chain, your reputation there. If I'm - I could be completely off but this was a year and a year or so ago when I was reading the paper on that.
+
+[46:27] **qx()**: If anybody has any questions about that, please look them up on ErgoHack for the reputation system. He had a video on one of them as well, and then the submission definitions as well for that. So yeah, check that out.
+
+[46:42] **qx()**: All right, we've got Aberg. It's a Tergo dev. It is so nice to see Aberg here. Submitted a PR to AppKit that removes two libraries with vulnerabilities waiting for it to be merged. And then I plan to make a PR for a small new feature. Oof, I can't wait to see what it is. He may have talked about it already, but I've been lacking in chats the last couple of days. So I'm excited to see what it is.
+
+[47:06] **qx()**: Aberg whenever Aberg releases something it's usually for good reason, good function, and it's always welcome. It's not like something that you're like "whatever." It's usually something like "oh damn. I'm glad he's gonna put that in there."
+
+[47:19] **Marc the Shark**: Oh nice. Yeah.
+
+[47:20] **qx()**: All right, you can wrap it up right here with Luivatra.
+
+[47:25] **Marc the Shark**: All right, so Paideia partially fixed emoji DAOs.
+
+[47:30] **Marc the Shark**: That's pretty funny. I'm not sure what that is.
+
+[47:33] **qx()**: So Paul, who made the clown token, was setting up a DAO with the clown token. And Louis was not - whatever code he uses, was not prepared to actually have an emoji character as the DAO name. So it broke the DAO for a little bit until they fixed it. But I still think - yeah, it's partially fixed though. I think Paul was asking when it was gonna be fixed but Louis said - Louis said like "fuck my life. I wake up in the morning and in the terminal" - he showed a picture, but if you guys want to go through the chats - but it's like it was giving errors on unknown character or something and it literally showed the goddamn clown character in the terminal. That's hilarious. You gotta be prepared for anything.
+
+[48:25] **Marc the Shark**: I know right, that's funny because he asked me to distribute the clown tokens through the mining pool and so in sort of the command and a similar sense I had to come up - I just type in clown right instead of like you can't do it - you can't type in clown does that come up yeah yeah
+
+[48:41] **qx()**: Yeah. Same with alien token, right? You can't type any, you got to go hunt for it and copy and paste the damn thing.
+
+[48:47] **Marc the Shark**: Exactly. So it's like, you almost, it's like, if you do use the emoji, come up with a name too. So you can in the description, right? So we can just keep track of that.
+
+[48:55] **qx()**: Because then what happens - then the wallet has to actually search for the description, I guess too, but that's possible, right?
+
+[49:01] **Marc the Shark**: Yeah. Yeah. Yeah. So then yeah, for Paideia working on implementing a workaround for context variables, serialization issues.
+
+[49:11] **qx()**: That's good to see Louis working. Fantastic. You know, those European people when they take like 30, 40, 50 day vacations every year. Us Americans, we can't handle that. Yeah, right. A couple of days and we get calls from our bosses wondering where we are.
+
+[49:29] **Marc the Shark**: Where are you? Yeah, exactly. We needed you.
+
+[49:36] **qx()**: All right, let's see. Anything else here? I don't think so. Nope. That would be it, Mark.
+
+[49:46] **Marc the Shark**: Oh, cool.
+
+[49:47] **qx()**: Well, that was a fun chat. I appreciate you coming in after your trip.
+
+[49:51] **Marc the Shark**: Yeah, absolutely.
+
+[49:51] **qx()**: Say thank you to your wife for me for letting me take you away from the family.
+
+[49:55] **Marc the Shark**: Yeah, will do. Absolutely.
+
+[49:57] **qx()**: Anything to look forward to this week, Mark?
+
+[50:06] **Marc the Shark**: Well, my wife's actual birthday is on Tuesday, so that would be fun.
+
+[50:09] **qx()**: Oh my gosh, an Ergo happy birthday. Goodness gracious.
+
+[50:11] **Marc the Shark**: Yeah, yeah, yeah. Thank you, thank you. I'll let her know. Have her watch this video to the end. Be like, wait, there's something special at the end.
+
+[50:20] **Marc the Shark**: No, yeah, just getting, hopefully getting some more progress done just on the Sigmanauts mining pool stuff, so.
+
+[50:27] **qx()**: Oh, that's exciting. It's exciting to be in that chat. You know what I mean? I would say any miners watching this, even if you don't want to mine to our pool, the Sigmanauts pool, come in and chat. It's got that old flavor of talking about cards, talking about what we do.
+
+[50:46] **qx()**: And hell, man, even if you just want to point one card to us, like 200 megahash or 170 megahash, it doesn't matter. You know, you'll get a DAO token. You can then vote and steer the pool. You can participate in bonus rewards if you're mining. So even if you just fork off a little bit of hash, you're part of the decision making. So come in and be in - be part of the control and direction of something as a group.
+
+[51:15] **Marc the Shark**: Yeah. Come hang, give your input. It's cool to see ever since we got the storage rent sort of this last couple of weeks, we had more people to kind of chime in that I haven't seen before in the chats and stuff. So it's really cool to see, especially coming from January, where we were into now. It's to kind of look back, so to speak. It's come a long way.
+
+[51:36] **qx()**: And we had some stumbles and learning processes. 100%. Yeah, it's going. It's going well.
+
+[51:43] **Marc the Shark**: Rock and roll.
+
+[51:44] **qx()**: Maybe I can finally shut down that server that's charging me $130. Oh my gosh. Right.
+
+[51:50] **Marc the Shark**: And that's going to be another thing I really want to look at because like the nodes, right, we were talking about the nodes were kind of just so heavy because I tried to get a 4GB server. And it would just wouldn't do it, but I need to maybe do that first, but we got to prune the indexing though.
+
+[52:06] **qx()**: We got to prune the indexing. Yeah.
+
+[52:08] **Marc the Shark**: So that'd be something we'll have to do first of Sigmanauts MegaCore, just to kind of do super lightweight, you know, mining core would be really cool. I don't know. I'm dreaming and I don't know if it's possible, but it'd be cool to do like on a Raspberry Pi or something super small, just like here, maybe mining core and maybe it's connected to another Pi with some, I don't know, data or I don't know.
+
+[52:28] **qx()**: Well, run the database on one and the local network, run database on one, run the mining interface on the other that's actually taking connections and those things. So, yeah, I wonder if you could split it up on some powerful Raspberry Pis.
+
+[52:39] **qx()**: That being said, stupid me just doing things without thinking. It took qx() and I talking to qx() and we are working on implementing storage rent into the test server. And I'm like, oh man, I gotta redo this - I was talking about the node and he's like, "why do you have indexing on?" I was like, "don't you need indexing on for the miner mining core?" And he's like, "no," I was like, motherfucker.
+
+[53:07] **qx()**: What a waste of - I guess it wasn't a waste but yeah, but it is a waste because it's local right, nobody else is connecting to my node. So it is true. But we got to step through those pitfalls. So other people don't, right?
+
+[53:21] **qx()**: Just announcement if you're running mining core and you're mining to it, you do not need an index node for that thing.
+
+[53:27] **qx()**: Oh, boy. Oh, one last thing. I bugged Kwaka during the meeting today, Sigmanauts meeting today, and asked him how everything is going, the progress. And I think he said, smart contracts are 100% done. There's not much left. Backend's almost done. PostgreSQL database is the last thing. The front-end decentralized website is done, too.
+
+[53:49] **qx()**: And he wrote, let's see. I don't want to read all this private stuff. Okay, that's enough. But yeah, so they're also releasing the decentralized front-end right which is going to be much slower because it's going to be interacting with smart contracts yourself as opposed to their centralized front end that's going to have everything cached and it's going to be using cached images and those kinds of things.
+
+[54:14] **qx()**: But that's the beauty of Ergo, right? You're going to have the option to go ahead and download it yourself and use it yourself and interact with the smart contracts yourself without you having to use the main Sky Harbor front end, which is awesome. That's the spirit of Ergo. And I'm glad they're building like that.
+
+[54:28] **Marc the Shark**: Yeah. Yeah. I like the whole on-chain approach. I think it's cool that they're doing that. And it brings like an interesting use case for like another layer on top. So sort of facilitate the faster transition of transactions. So then, you know, that it's trusted aside. I mean, of course their software is, but just from a second layer blockchain perspective, it would be interesting to be able to like, because then if you did, you could have like live feeds of data, interacting with like the second layer, then it gets settled on Ergo's chain. For whatever application you're trying to do, you know, so then, I don't know if it makes sense, but something I was thinking about when I saw that they're doing it all on chain. I was like, that's pretty neat.
+
+[55:17] **qx()**: Yeah. Yeah. I always applaud projects that say, "Hey, here's our thing. But also if you want to just fire up the stack and run it yourself on your own computer." That's my kind of jam right there.
+
+[55:32] **Marc the Shark**: Absolutely. Yeah, provide something.
+
+[55:34] **qx()**: Sorry, what's that?
+
+[55:35] **Marc the Shark**: I was just gonna say with that you can do that on our Sigmanauts mining pool with our UI.
+
+[55:40] **qx()**: Right. Exactly. Exactly, guys. Hey, if you're any of the 10 miners - that's actually, let me see how many are still on the old pool, right? Let's make that announcement. So here's the old pool. Another good use case for you. Exactly. Right. There's 10 miners on our old pool, seven gigahash. I'm going to shut it down tomorrow, guys. So if you are still on the old Sigmanauts pool, please update to Mark's new address, which is pinned in Telegram.
+
+[56:10] **Marc the Shark**: It's on X. Maybe make an announcement like on the Sigmanauts or something like that.
+
+[56:16] **qx()**: That's right. I'll do Twitter and then I'll repost it on the main account. Perfect. Okay. Great idea, Mark.
+
+[56:23] **qx()**: All right, Mark. Well, thanks so much.
+
+[56:25] **Marc the Shark**: Yeah, no problem. Thank you for having me.
+
+[56:27] **qx()**: Appreciate you coming in. Enjoy the rest of your evening, sir.
+
+[56:30] **Marc the Shark**: Yeah, thanks. You too. All right.

@@ -1,0 +1,187 @@
+{
+  "call_date": "2024-10-13",
+  "call_title": "Dev Update Oct. 13th 2024 |  Satergo, Paideia, Celaut, Sigs Mining, Nautilus and more!",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "00:21",
+      "decision": "When it's hard to find a guest, will do spotlight on projects in the Ergo ecosystem as fallback",
+      "speaker": "qx()",
+      "context": "Sometimes hard to get dev update calls off the ground with guests",
+      "topic": "community",
+      "significance": "minor",
+      "quote": "this week I figured we would have a fallback on times when it's hard to find a guest. We would do kind of a spotlight on projects in the Ergo ecosystem"
+    },
+    {
+      "id": 2,
+      "timestamp": "13:28",
+      "decision": "Vote to be created for mint price suggested three ERG",
+      "speaker": "NoRoYogi",
+      "context": "Sigmanauts mining pool miner ID implementation",
+      "topic": "mining",
+      "significance": "minor",
+      "quote": "Vote to be created for mint price suggested three ERG"
+    },
+    {
+      "id": 3,
+      "timestamp": "10:47",
+      "decision": "Started voting on contract update to address storage rent issue, possibly burn update keys as well",
+      "speaker": "kushti",
+      "context": "SigmaUSD update contract box NFT can be storage rented in about seven months",
+      "topic": "sigmausd",
+      "significance": "major",
+      "quote": "started voting on contract update to address the issue possibly burn update keys as well"
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "08:40",
+      "commitment": "Will do some polishing and release an alpha on the Abyss channel over the weekend",
+      "owner": "AnonBR",
+      "timeline": "over the weekend",
+      "topic": "nautilus",
+      "quote": "We'll do some polishing and release an alpha on the Abyss channel over the weekend"
+    },
+    {
+      "id": 2,
+      "timestamp": "10:05",
+      "commitment": "Alpha 2 will be released later today",
+      "owner": "kushti",
+      "timeline": "later today",
+      "topic": "protocol",
+      "quote": "alpha 2 will be released later today, I guess"
+    },
+    {
+      "id": 3,
+      "timestamp": "12:11",
+      "commitment": "Hope to start coding this weekend",
+      "owner": "Josemai",
+      "timeline": "this weekend",
+      "topic": "celaut",
+      "quote": "I hope to start coding this weekend"
+    },
+    {
+      "id": 4,
+      "timestamp": "13:40",
+      "commitment": "Live sometimes next week",
+      "owner": "CannonQ",
+      "timeline": "next week",
+      "topic": "mining",
+      "quote": "live sometimes next week"
+    },
+    {
+      "id": 5,
+      "timestamp": "14:47",
+      "commitment": "Will maybe release a standalone library if people are interested",
+      "owner": "qx()",
+      "timeline": "unspecified",
+      "topic": "development",
+      "quote": "I will maybe release a standalone library if people are interested"
+    },
+    {
+      "id": 6,
+      "timestamp": "26:25",
+      "commitment": "Maybe try to get HQx next week to talk about MewFinance",
+      "owner": "qx()",
+      "timeline": "next week",
+      "topic": "community",
+      "quote": "maybe I'll try to get HQx next week to talk about MewFinance and the Mew Shop"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "11:30",
+      "question": "Waiting for code for USE to get back from vacation for mainnet deployment",
+      "context": "Dexy payout contract and mainnet deployment readiness",
+      "topic": "dexy",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "11:38",
+      "question": "Discussing fixing one issue with Dusek, will provide details after fix",
+      "context": "ChainCash development",
+      "topic": "chaincash",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 3,
+      "timestamp": "13:28",
+      "question": "Vote to be created for bonus distribution frequency",
+      "context": "Sigmanauts mining pool configuration",
+      "topic": "mining",
+      "raised_by": "NoRoYogi"
+    }
+  ],
+  "reversals_or_updates": [
+    {
+      "id": 1,
+      "timestamp": "09:46",
+      "previous": "Old PR for 6.0",
+      "update": "Close old PR and start a new one for 6.0 alpha 2",
+      "reason": "After messing with merging",
+      "speaker": "kushti",
+      "topic": "protocol"
+    }
+  ],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "01:08",
+      "fact": "MewFinance presale first round sold out, second round sold out within 30 minutes",
+      "speaker": "qx()",
+      "topic": "mewfinance"
+    },
+    {
+      "id": 2,
+      "timestamp": "05:07",
+      "fact": "Sold out of all five hats, did three shirts and three sweatshirts with only two of each left",
+      "speaker": "qx()",
+      "topic": "sigmanauts"
+    },
+    {
+      "id": 3,
+      "timestamp": "08:32",
+      "fact": "Contract work for the Paideia SDK 232 issue was finished, test case is finished and passing",
+      "speaker": "Luivatra",
+      "topic": "paideia"
+    },
+    {
+      "id": 4,
+      "timestamp": "10:05",
+      "fact": "Node version 5.023 was released",
+      "speaker": "qx()",
+      "topic": "protocol"
+    },
+    {
+      "id": 5,
+      "timestamp": "12:32",
+      "fact": "Satergo version 1.80 was released on October 6th",
+      "speaker": "qx()",
+      "topic": "satergo"
+    },
+    {
+      "id": 6,
+      "timestamp": "13:28",
+      "fact": "Beta testing for miner IDs is live for the main pool at ergo-miners.com",
+      "speaker": "NoRoYogi",
+      "topic": "mining"
+    },
+    {
+      "id": 7,
+      "timestamp": "16:59",
+      "fact": "Explorer is on block 1.2 million, needs to get to block 1.37 million",
+      "speaker": "qx()",
+      "topic": "infrastructure"
+    },
+    {
+      "id": 8,
+      "timestamp": "17:21",
+      "fact": "Explorer sync has taken about 48 hours and will be located in Singapore",
+      "speaker": "qx()",
+      "topic": "infrastructure"
+    }
+  ]
+}

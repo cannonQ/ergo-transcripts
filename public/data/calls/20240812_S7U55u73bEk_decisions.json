@@ -1,0 +1,171 @@
+{
+  "call_date": "2024-08-12",
+  "call_title": "Dev Update August 11 2024 |  Rosen Bridge, Crystal Pool, Paideia, Celaut, Sigs Mining, and more!",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "29:55",
+      "decision": "Both 5.0 and 5.1 will be supported for some time, with 5.0 being the default release in Docker",
+      "speaker": "kushti",
+      "context": "To not break compatibility and workflow of users using the latest tag",
+      "topic": "technical",
+      "significance": "major",
+      "quote": "For some time, well, both 5.0 and 5.1 will be supported, right? So both releases will be done. Yeah, 5.0 will be actually default release, right, in Docker and so on."
+    },
+    {
+      "id": 2,
+      "timestamp": "31:25",
+      "decision": "Proposing to eliminate dubious terms such as 'official' from the readme",
+      "speaker": "kushti",
+      "context": "The term 'official repository' was confusing and appears on every forked repository",
+      "topic": "documentation",
+      "significance": "minor",
+      "quote": "Proposing a readme update for the notes to eliminate some dubious terms, such as official."
+    },
+    {
+      "id": 3,
+      "timestamp": "34:05",
+      "decision": "LP redemption contract was deployed today",
+      "speaker": "kushti",
+      "context": "For Dexy development progress",
+      "topic": "dexy",
+      "significance": "major",
+      "quote": "And today the contract was deployed, so now I'm going to recheck"
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "28:50",
+      "commitment": "Release 0.23 after testing, maybe around the end of next week",
+      "owner": "kushti",
+      "timeline": "end of next week",
+      "topic": "technical",
+      "quote": "So maybe around the end of the, next week, let's see."
+    },
+    {
+      "id": 2,
+      "timestamp": "30:55",
+      "commitment": "Review PRs for 0.24 over the weekend",
+      "owner": "kushti",
+      "timeline": "over the weekend",
+      "topic": "technical",
+      "quote": "I will review them over the weekend"
+    },
+    {
+      "id": 3,
+      "timestamp": "34:13",
+      "commitment": "Recheck bank contracts and deploy remaining mainnet contracts to start Dexy",
+      "owner": "kushti",
+      "timeline": "unspecified",
+      "topic": "dexy",
+      "quote": "so now I'm going to recheck Bank contracts and yeah, with that we can deploy remaining mainnet contracts and start actually Dexy with that."
+    },
+    {
+      "id": 4,
+      "timestamp": "32:54",
+      "commitment": "Work on receives and other weekends, will play with the server",
+      "owner": "kushti",
+      "timeline": "weekends",
+      "topic": "chaincash",
+      "quote": "and other weekends I will play with the server"
+    },
+    {
+      "id": 5,
+      "timestamp": "50:33",
+      "commitment": "Write a paper for Amix on ChainCash",
+      "owner": "kushti",
+      "timeline": "coming weeks",
+      "topic": "chaincash",
+      "quote": "So yeah, we'll spend some time in coming weeks on that also."
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "24:09",
+      "question": "Are updates mandatory for guards?",
+      "context": "Regarding Rosen Bridge updates",
+      "topic": "rosen-bridge",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "40:20",
+      "question": "Do we call this pool a fork?",
+      "context": "Regarding the new Sigmanauts mining pool setup",
+      "topic": "mining",
+      "raised_by": "qx()"
+    },
+    {
+      "id": 3,
+      "timestamp": "48:16",
+      "question": "What to do with the Explorer",
+      "context": "There are few unfinished attempts to do something as a replacement of current Explorer",
+      "topic": "explorer",
+      "raised_by": "kushti"
+    }
+  ],
+  "reversals_or_updates": [
+    {
+      "id": 1,
+      "timestamp": "39:42",
+      "previous": "ergo-tx-factory",
+      "update": "renamed to SIGS mining core",
+      "reason": "Will be the primary backend for pool moving forward",
+      "speaker": "qx()",
+      "topic": "mining"
+    }
+  ],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "29:03",
+      "fact": "5.1 requires a full resync because it's a new database",
+      "speaker": "qx()",
+      "topic": "technical"
+    },
+    {
+      "id": 2,
+      "timestamp": "41:05",
+      "fact": "Current Sigmanauts pool costs $100 per month, $50 per server",
+      "speaker": "qx()",
+      "topic": "mining"
+    },
+    {
+      "id": 3,
+      "timestamp": "41:15",
+      "fact": "New service will cost 10-20 bucks per month per server, cutting costs to a quarter",
+      "speaker": "qx()",
+      "topic": "mining"
+    },
+    {
+      "id": 4,
+      "timestamp": "42:19",
+      "fact": "New version of SigmaRust released after many months without new releases",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 5,
+      "timestamp": "42:44",
+      "fact": "SigmaRust new release has three contributors: PGR456, Dusek, and UnknownBear",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 6,
+      "timestamp": "49:22",
+      "fact": "Have 100 wallets to hand out, will probably make a couple more cards",
+      "speaker": "qx()",
+      "topic": "marketing"
+    },
+    {
+      "id": 7,
+      "timestamp": "50:35",
+      "fact": "Abstract got accepted for Amix paper",
+      "speaker": "kushti",
+      "topic": "chaincash"
+    }
+  ]
+}

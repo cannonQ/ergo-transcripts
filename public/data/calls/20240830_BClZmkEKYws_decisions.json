@@ -1,0 +1,107 @@
+{
+  "call_date": "2024-08-30",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - August 29th 2024",
+  "decisions": [],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "01:21",
+      "commitment": "Continue working on 6.0 features to deliver the next release",
+      "owner": "kushti",
+      "timeline": "maybe even around the end of the next week",
+      "topic": "technical",
+      "quote": "continuing to work on 6.0 features to deliver the next release. Let's see. So it now depends on previewing mostly. But yeah, maybe even around the end of the next week, there will be another release"
+    },
+    {
+      "id": 2,
+      "timestamp": "03:08",
+      "commitment": "Move to different server infrastructure to reduce costs",
+      "owner": "qx()",
+      "timeline": "unspecified",
+      "topic": "mining",
+      "quote": "we're going to a different server infrastructure that's about $18 a month"
+    },
+    {
+      "id": 3,
+      "timestamp": "04:02",
+      "commitment": "Decommission the old pool and run the first pool officially with storage rent collection",
+      "owner": "qx()",
+      "timeline": "unspecified",
+      "topic": "mining",
+      "quote": "we'll decommission the old pool, and we'll be the first pool that's running officially storage rent and collection on that"
+    },
+    {
+      "id": 4,
+      "timestamp": "19:09",
+      "commitment": "Finish 6.0 EIP and propose it, then polish sub-blocks EIP documents and publish as EIP",
+      "owner": "kushti",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "I need to finish 6.0 EIP at some point, propose it and then polish sub-blocks, EIP, documents publish it as an EIP"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "05:46",
+      "question": "What other news from Mike who was off",
+      "context": "Mike was unavailable and there might be other developments",
+      "topic": "general",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "08:21",
+      "question": "Plans for Russian exchanges and crypto scene development",
+      "context": "Russian government announced crypto-friendly policies",
+      "topic": "business",
+      "raised_by": "White Cat"
+    },
+    {
+      "id": 3,
+      "timestamp": "01:53",
+      "question": "What to do with Banxa now that there are three people running servers with collateralization",
+      "context": "Banxa has reached a milestone with collateralized nodes",
+      "topic": "banxa",
+      "raised_by": "kushti"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "00:52",
+      "fact": "Released first alpha release of Node 6.0 for local deployments only",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 2,
+      "timestamp": "01:53",
+      "fact": "Three people running Banxa servers and nodes are collateralized",
+      "speaker": "kushti",
+      "topic": "banxa"
+    },
+    {
+      "id": 3,
+      "timestamp": "03:08",
+      "fact": "Current server costs about $100 a month, new infrastructure will cost about $18 a month",
+      "speaker": "qx()",
+      "topic": "mining"
+    },
+    {
+      "id": 4,
+      "timestamp": "06:45",
+      "fact": "There are 631 ERGs in the current auction",
+      "speaker": "qx()",
+      "topic": "governance"
+    },
+    {
+      "id": 5,
+      "timestamp": "20:54",
+      "fact": "After illness and death (referring to someone), only kushti is working on contracts currently",
+      "speaker": "kushti",
+      "topic": "development"
+    }
+  ]
+}

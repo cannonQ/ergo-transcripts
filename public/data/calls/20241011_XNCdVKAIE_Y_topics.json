@@ -1,0 +1,295 @@
+{
+  "call_date": "2024-10-11",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - October 10th 2024",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Sigma 6.0 Release and Sub-blocks Development",
+      "category": "technical",
+      "start_time": "01:20",
+      "end_time": "08:59",
+      "primary_speaker": "kushti",
+      "summary": "kushti announces two reference client releases (5.0.23 and 6.0.0.2) with Sigma 6.0 functionality. He explains progress on sub-blocks implementation, which aims to make block parameters configurable without hard forks, and discusses the need for security proofs before activation.",
+      "key_terms": [
+        "Sigma 6.0",
+        "sub-blocks",
+        "soft fork",
+        "reference client",
+        "peer-to-peer network",
+        "block time"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "MEV and Network Structure Philosophy",
+      "category": "technical",
+      "start_time": "10:18",
+      "end_time": "15:20",
+      "primary_speaker": "Armeanio",
+      "summary": "Armeanio discusses the benefits of public MEV in proof-of-work systems versus private mempools in structured networks. He argues that distributing MEV to miners creates better incentive alignment and supports retail users compared to centralized validator systems.",
+      "key_terms": [
+        "MEV",
+        "proof of work",
+        "structured networks",
+        "order flow",
+        "mining pools",
+        "decentralized finance"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Silver Stablecoin and Hard Asset Tokenization",
+      "category": "defi",
+      "start_time": "15:20",
+      "end_time": "18:08",
+      "primary_speaker": "Armeanio",
+      "summary": "Armeanio outlines plans to fork the Oracle framework to create a silver-backed stablecoin. He discusses the potential for digital representations of precious metals as peer-to-peer currencies, drawing parallels to the historical eGold system but with decentralized infrastructure.",
+      "key_terms": [
+        "silver stablecoin",
+        "Oracle framework",
+        "eGold",
+        "bearer asset",
+        "bullion dealers",
+        "hard money"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Rosen Bridge Public Testing and Launch Timeline",
+      "category": "bridges",
+      "start_time": "18:08",
+      "end_time": "24:01",
+      "primary_speaker": "Armeanio",
+      "summary": "Armeanio provides updates on Rosen bridge testing with 38 watchers using artificial test tokens. He explains the upcoming bulk minting phase to scale supported assets and outlines the path to mainnet launch including UI updates and final checks.",
+      "key_terms": [
+        "Rosen bridge",
+        "watchers",
+        "bulk minting",
+        "asset support",
+        "UI updates",
+        "mainnet launch"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Ledger Integration Progress and Hardware Wallet Support",
+      "category": "ecosystem",
+      "start_time": "24:01",
+      "end_time": "25:57",
+      "primary_speaker": "kushti",
+      "summary": "kushti reports on new Ledger integration requirements for Stax and Flex devices, with a developer already working on support. He also announces a 3000 ERG bounty for Keystone integration and mentions potential improvements to token limits per output.",
+      "key_terms": [
+        "Ledger integration",
+        "Stax",
+        "Flex",
+        "hardware wallet",
+        "Keystone",
+        "ErgoDevsDAO bounty"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Dexy Audit Completion and Mainnet Preparation",
+      "category": "defi",
+      "start_time": "25:57",
+      "end_time": "27:29",
+      "primary_speaker": "kushti",
+      "summary": "kushti reports that Dexy's audit is complete with code fixes implemented. The team is updating the whitepaper and preparing for mainnet launch with improved deployment procedures based on lessons learned from SigmaUSD deployment.",
+      "key_terms": [
+        "Dexy",
+        "audit",
+        "whitepaper",
+        "mainnet deployment",
+        "SigmaUSD",
+        "testnet"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Soft Fork Capabilities and Protocol Governance",
+      "category": "governance",
+      "start_time": "28:49",
+      "end_time": "32:01",
+      "primary_speaker": "kushti",
+      "summary": "kushti explains Ergo's advanced soft fork capabilities, including 90% supermajority voting for parameter changes and the ability to add new data structures without hard forks. He plans to propose making sub-blocks per block configurable through this mechanism.",
+      "key_terms": [
+        "soft fork",
+        "supermajority voting",
+        "parameter changes",
+        "data structures",
+        "protocol governance",
+        "miners voting"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Marketing Structure and Decentralized Protocol Philosophy",
+      "category": "marketing",
+      "start_time": "32:01",
+      "end_time": "39:21",
+      "primary_speaker": "kushti",
+      "summary": "kushti and Armeanio discuss the nature of marketing for decentralized protocols, comparing Ergo to Bitcoin's organic growth model. They critique centralized networks as resembling traditional databases like PayPal rather than true peer-to-peer systems.",
+      "key_terms": [
+        "decentralized marketing",
+        "peer-to-peer networks",
+        "Bitcoin comparison",
+        "centralized databases",
+        "PayPal",
+        "Napster vs BitTorrent"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Cardano Funding and Stablecoin Market Strategy",
+      "category": "bridges",
+      "start_time": "39:25",
+      "end_time": "47:29",
+      "primary_speaker": "Armeanio",
+      "summary": "Armeanio explains the rationale for requesting additional Cardano funding to support projects accessing stablecoin-rich environments. He discusses high exchange listing costs, market making requirements, and how Rosen provides lower-cost alternatives to traditional exchange listings.",
+      "key_terms": [
+        "Cardano funding",
+        "stablecoin environments",
+        "exchange listing costs",
+        "market making",
+        "liquidity requirements",
+        "trading access"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Dan Palmyra Promotion and Marketing Concerns",
+      "category": "marketing",
+      "start_time": "47:29",
+      "end_time": "50:50",
+      "primary_speaker": "Armeanio",
+      "summary": "Community questions about Dan's Palmyra promotion to Cardano without mentioning Ergo. Armeanio defends Dan's right to focus on his own project while kushti mentions upcoming Dubai meetings and plans to monitor Dan's Ergo mentions in presentations.",
+      "key_terms": [
+        "Dan Palmyra",
+        "Cardano promotion",
+        "SigmaRSV discount",
+        "Dubai events",
+        "Cardano Summit",
+        "marketing initiatives"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Community Sentiment and Development Focus",
+      "category": "community",
+      "start_time": "51:42",
+      "end_time": "54:07",
+      "primary_speaker": "Armeanio",
+      "summary": "Addressing community negativity concerns, Armeanio emphasizes focusing on building the future rather than market conditions. He advocates for maintaining practical development approaches aligned with Ergo's manifesto and principles despite emotional community reactions.",
+      "key_terms": [
+        "community sentiment",
+        "development focus",
+        "Ergo manifesto",
+        "practical building",
+        "emotional reactions",
+        "constructive approach"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Sigma Chain Partners and Merge Mining",
+      "category": "technical",
+      "start_time": "54:22",
+      "end_time": "56:28",
+      "primary_speaker": "Armeanio",
+      "summary": "Armeanio discusses potential Sigma chain partnerships, proposing support for miners with smaller 4GB cards who were pushed off Ergo's network. He suggests merge mining capabilities and shared computational environments as key benefits of compatible virtual machines.",
+      "key_terms": [
+        "Sigma chain",
+        "merge mining",
+        "4GB cards",
+        "DAG size",
+        "computational environment",
+        "virtual machines"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Uniswap Trading and Ethereum Market Access",
+      "category": "defi",
+      "start_time": "56:33",
+      "end_time": "57:54",
+      "primary_speaker": "Armeanio",
+      "summary": "Discussing whether Uniswap will become the biggest exchange for Ergo, Armeanio explains how Ethereum's larger user base and capital liquidity make it a superior market compared to siloed exchanges with limited active users and capital thresholds.",
+      "key_terms": [
+        "Uniswap",
+        "Ethereum markets",
+        "capital liquidity",
+        "user base",
+        "siloed exchanges",
+        "market access"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "Rosen Guard Security and Incentive Mechanisms",
+      "category": "bridges",
+      "start_time": "57:54",
+      "end_time": "58:57",
+      "primary_speaker": "Armeanio",
+      "summary": "Addressing concerns about guards potentially refusing asset transfers, Armeanio explains the game theory behind Rosen's design. Guards face consequences for malicious behavior including removal from the network, creating proper incentive alignment.",
+      "key_terms": [
+        "Rosen guards",
+        "malicious behavior",
+        "game theory",
+        "incentive alignment",
+        "transfer refusal",
+        "network consequences"
+      ]
+    },
+    {
+      "topic_id": 15,
+      "title": "Rosen Light Transition and Asset Scaling",
+      "category": "bridges",
+      "start_time": "58:57",
+      "end_time": "61:00",
+      "primary_speaker": "Armeanio",
+      "summary": "Armeanio explains the transition away from Rosen Light as they scale asset support beyond the initial base assets from Ergo and Hosky from Cardano. The system is moving toward supporting more projects listing in larger stablecoin-rich environments like Ethereum.",
+      "key_terms": [
+        "Rosen Light",
+        "asset scaling",
+        "Hosky testnet",
+        "pressure testing",
+        "permits system",
+        "market listings"
+      ]
+    },
+    {
+      "topic_id": 16,
+      "title": "Exchange Listing Issues and MEXC Concerns",
+      "category": "ecosystem",
+      "start_time": "61:00",
+      "end_time": "63:14",
+      "primary_speaker": "Armeanio",
+      "summary": "Responding to MEXC listing donation refund requests, Armeanio discusses problems with centralized exchange incentive alignment. He explains how exchanges often dump native tokens after payment and predicts a shift toward on-chain stablecoin operations.",
+      "key_terms": [
+        "MEXC listing",
+        "centralized exchanges",
+        "incentive alignment",
+        "token dumping",
+        "on-chain stablecoins",
+        "USDM Cardano"
+      ]
+    },
+    {
+      "topic_id": 17,
+      "title": "Partner Chains and MewFinance Integration",
+      "category": "ecosystem",
+      "start_time": "63:48",
+      "end_time": "66:42",
+      "primary_speaker": "Armeanio",
+      "summary": "Armeanio discusses confusion around partner chain terminology and highlights MewFinance's progress after merging ErgoCube and Ergo Explorer. The call concludes with mentions of Ergo Santa collaboration and Ergo Pulse podcast potential return.",
+      "key_terms": [
+        "partner chains",
+        "MewFinance",
+        "ErgoCube",
+        "Ergo Explorer",
+        "Ergo Santa",
+        "Ergo Pulse"
+      ]
+    }
+  ]
+}

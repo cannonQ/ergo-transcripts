@@ -1,0 +1,130 @@
+{
+  "call_date": "2024-10-18",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - October 17th 2024",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "51:07",
+      "decision": "Try Zoom call format instead of Spaces for once",
+      "speaker": "kushti",
+      "context": "HQx proposed trying a more open discussion format",
+      "topic": "community",
+      "significance": "minor",
+      "quote": "there is a proposal by HQx to make, to try at least for once to do instead of Spaces, something like Zoom call writes"
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "01:30",
+      "commitment": "Will describe 6.0 activation mechanics on the forum",
+      "owner": "kushti",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "So yeah, I will describe mechanics on the forum"
+    },
+    {
+      "id": 2,
+      "timestamp": "02:23",
+      "commitment": "Will do more checks on 6.0 features",
+      "owner": "kushti",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "And then, yeah, so all the features are ready for 6.0, but yeah, I will do more checks"
+    },
+    {
+      "id": 3,
+      "timestamp": "53:18",
+      "commitment": "Will write another forum post about security",
+      "owner": "kushti",
+      "timeline": "someday",
+      "topic": "technical",
+      "quote": "Yeah, I mean, but for security, you know, so I'm willing to write another forum post someday"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "03:58",
+      "question": "Need to discuss 6.0 and the approach for soft compatibility",
+      "context": "Still testing RocksDB version with few people",
+      "topic": "technical",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "02:53",
+      "question": "How sub-blocks feature would be called",
+      "context": "Discussing 6.0 protocol update features",
+      "topic": "technical",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 3,
+      "timestamp": "59:08",
+      "question": "Options for possible SigmaUSD bank update",
+      "context": "Three possible options mentioned but needs more discussion",
+      "topic": "sigmausd",
+      "raised_by": "community member"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "00:56",
+      "fact": "Already having in DevNet both 5.0 and 6.0 nodes coexisting with sub-blocks per blocks parameter being voted on by 6.0",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 2,
+      "timestamp": "02:37",
+      "fact": "6.0.0 alpha 2 version of the protocol client released with all the 6.0 soft fork features",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 3,
+      "timestamp": "03:00",
+      "fact": "6.0 is still using LevelDB database",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 4,
+      "timestamp": "20:57",
+      "fact": "Almost 30 watchers for Rosen Bridge",
+      "speaker": "qx()",
+      "topic": "rosen-bridge"
+    },
+    {
+      "id": 5,
+      "timestamp": "25:55",
+      "fact": "Sigmanauts mining pool is up to 72, 73 gigahash",
+      "speaker": "qx()",
+      "topic": "mining"
+    },
+    {
+      "id": 6,
+      "timestamp": "30:47",
+      "fact": "DuckPools has 84,000 out of 300,000 raised for the DAO",
+      "speaker": "qx()",
+      "topic": "duckpools"
+    },
+    {
+      "id": 7,
+      "timestamp": "41:23",
+      "fact": "Ledger, Trezor and Flex UIs are done for Raffles",
+      "speaker": "kushti",
+      "topic": "wallet-integration"
+    },
+    {
+      "id": 8,
+      "timestamp": "44:39",
+      "fact": "One NFT was sold for 2500 ERG on Auction House three years ago",
+      "speaker": "kushti",
+      "topic": "nft"
+    }
+  ]
+}

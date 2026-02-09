@@ -1,0 +1,101 @@
+{
+  "call_date": "2024-10-25",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:22",
+      "question": "What is a ring signature and how does it work in ErgoScript?",
+      "asker": "kushti",
+      "answer": "A ring signature in ErgoScript is a true ring signature that preserves zero-knowledge properties, not just a one-out-of-two multisig like in Bitcoin. When spending an output with a ring signature script, it's not known which key was actually used, providing privacy by hiding which of the possible signers actually signed the transaction.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "ring signature",
+        "zero-knowledge",
+        "ErgoScript",
+        "privacy"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "03:22",
+      "question": "How do you track payments to custom scripts since the node only tracks simple payments?",
+      "asker": "kushti",
+      "answer": "Since the node only tracks simple payments to public keys by default, you need to use custom scans to find money sent to custom scripts. You register a custom scan using the Swagger API with the script bytes as a predicate, and the scan will monitor the blockchain for outputs matching your script.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "custom scan",
+        "script tracking",
+        "node API",
+        "UTXO"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "04:54",
+      "question": "What is register R1 and how does it relate to custom scans?",
+      "asker": "kushti",
+      "answer": "According to EIP-1, register R1 is where the guarding script for a UTXO is stored. When creating a custom scan, if no register is specified in the tracking rule, register R1 is assumed by default, which means the scan will look for outputs protected by the specific script.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "registers",
+        "EIP-1",
+        "guarding script",
+        "UTXO"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "08:15",
+      "question": "What applications commonly use custom scans in the Ergo ecosystem?",
+      "asker": "kushti",
+      "answer": "Custom scans are widely used across Ergo applications. Examples include stablecoin bank backends using them via headless dApp framework, Ergo Auctions using custom scans to find auctions on the blockchain, and Proxy Service. ErgoMixer uses an alternative approach with the Explorer instead of custom scans.",
+      "responder": "kushti",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "custom scans",
+        "dApp framework",
+        "ErgoAuctions",
+        "ErgoMixer"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "09:03",
+      "question": "What are the alternative methods to custom scans for finding outputs on the blockchain?",
+      "asker": "kushti",
+      "answer": "Alternative methods to custom scans include using JDE (JSON Development Environment) or the Explorer API. For example, ErgoMixer backend uses the Explorer approach instead of custom scans to find and track relevant outputs on the blockchain.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "JDE",
+        "Explorer API",
+        "output tracking",
+        "blockchain scanning"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "11:32",
+      "question": "What wallet methods are useful for building complex applications with custom scans?",
+      "asker": "kushti",
+      "answer": "For complex applications using custom scans, useful wallet methods include the UTXO by binary method to get serialized outputs, and generate or generate unsigned wallet methods to create signed or unsigned transactions with custom inputs. To use custom inputs, you need to provide boxes from scans in serialized form.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "wallet methods",
+        "serialized outputs",
+        "custom inputs",
+        "transaction generation"
+      ]
+    }
+  ]
+}

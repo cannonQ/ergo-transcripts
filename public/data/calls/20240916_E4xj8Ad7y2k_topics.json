@@ -1,0 +1,166 @@
+{
+  "call_date": "2024-09-16",
+  "call_title": "Dev Update Sept. 15th 2024 |  Satergo, Paideia, Celaut, Sigs Mining, CU DAO, Rep System and more!",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Storage Rent Mechanism Deep Dive",
+      "category": "technical",
+      "start_time": "02:45",
+      "end_time": "17:08",
+      "primary_speaker": "qx()",
+      "summary": "Discussion of Ergo's storage rent feature, addressing misconceptions about trustlessness and explaining how it maintains fixed supply while preventing lost coins. Covers the charging mechanism (0.14-0.9 ERG per 4 years) and requires 90% consensus for protocol changes.",
+      "key_terms": [
+        "storage rent",
+        "demurrage",
+        "fixed supply",
+        "super consensus",
+        "dust control"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Wallet Security and Trading Best Practices",
+      "category": "community",
+      "start_time": "10:15",
+      "end_time": "16:04",
+      "primary_speaker": "qx()",
+      "summary": "Warning about potential scam wallets and services, discussing ErgoDEX rebranding separation from Spectrum. Strong emphasis on using separate trading wallets and being cautious with unknown services like ergodex.com.",
+      "key_terms": [
+        "trading wallet",
+        "ergodex.com",
+        "wallet security",
+        "scam prevention",
+        "Chrome Store"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "MewMart Auction House and Sigmanauts Integration",
+      "category": "ecosystem",
+      "start_time": "17:47",
+      "end_time": "23:06",
+      "primary_speaker": "qx()",
+      "summary": "Overview of MewMart's enhanced auction house features including bundle sales and escrow functionality. Discussion of integration plans for Sigmanauts merchandise with privacy-conscious shipping API.",
+      "key_terms": [
+        "MewMart",
+        "auction house",
+        "escrow",
+        "bundle sales",
+        "Sigmanauts swag"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Cyberverse Gaming and Car Minting",
+      "category": "nft",
+      "start_time": "23:30",
+      "end_time": "24:35",
+      "primary_speaker": "qx()",
+      "summary": "Brief update on Cyberverse's car minting feature with cross-chain functionality on Cardano. Describes the nostalgic gaming experience similar to opening collectible items.",
+      "key_terms": [
+        "Cyberverse",
+        "car minting",
+        "cross-chain",
+        "gaming",
+        "NFT"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Developer Chat Updates - Core Development",
+      "category": "technical",
+      "start_time": "26:33",
+      "end_time": "28:11",
+      "primary_speaker": "Marc the Shark",
+      "summary": "Updates from kushti on Ergo protocol development including thread pool rework for 5.0.23 client, sub-blocks implementation progress, and new DevNet release preparations with Sigma 6.0 testing.",
+      "key_terms": [
+        "thread pools",
+        "sub-blocks",
+        "DevNet",
+        "Sigma 6.0",
+        "BigInt"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Cornell University DAO Implementation",
+      "category": "governance",
+      "start_time": "28:16",
+      "end_time": "31:50",
+      "primary_speaker": "qx()",
+      "summary": "Details of creating a Paideia DAO for Cornell AAP students with $50,000 in voting funds for computer lab improvements. Plans to create a campus digital economy for peer-to-peer transactions and tool trading.",
+      "key_terms": [
+        "Cornell DAO",
+        "Paideia",
+        "student governance",
+        "digital economy",
+        "campus tokens"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Sigmanauts Mining Pool Infrastructure Upgrade",
+      "category": "technical",
+      "start_time": "32:07",
+      "end_time": "36:43",
+      "primary_speaker": "Marc the Shark",
+      "summary": "Marc's development of MegaCore containerized mining solution with new dashboard and API. Discussion of expansion plans to Cardano stake pools for cross-chain mining adoption and education.",
+      "key_terms": [
+        "MegaCore",
+        "mining core",
+        "containerization",
+        "Cardano adoption",
+        "stake pools"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Rosen Bridge Operations and MetaMask Integration",
+      "category": "bridges",
+      "start_time": "38:22",
+      "end_time": "42:40",
+      "primary_speaker": "Marc the Shark",
+      "summary": "Updates on Rosen Bridge including MetaMask integration and eRosen support. Discussion of a 30,000 ERG transaction delay due to hot wallet limits and GraphQL infrastructure dependencies.",
+      "key_terms": [
+        "Rosen Bridge",
+        "MetaMask",
+        "eRosen",
+        "hot wallet",
+        "GraphQL"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "SigmaSpace Explorer Alternative and Storage Rent Dashboard",
+      "category": "technical",
+      "start_time": "42:43",
+      "end_time": "45:13",
+      "primary_speaker": "qx()",
+      "summary": "PGR456's development of a full blockchain index and storage rent dashboard, plus plans for a drop-in replacement for current Explorer API to reduce infrastructure dependencies.",
+      "key_terms": [
+        "SigmaSpace",
+        "blockchain index",
+        "storage rent dashboard",
+        "Explorer API",
+        "infrastructure"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Reputation System and Paideia Emoji Bug Fix",
+      "category": "technical",
+      "start_time": "45:25",
+      "end_time": "49:11",
+      "primary_speaker": "qx()",
+      "summary": "Updates on LAW project's reputation system for social trust and Paideia's fixes for emoji character handling in DAO names. Humorous discussion about clown token DAO breaking the system.",
+      "key_terms": [
+        "reputation system",
+        "Paideia",
+        "emoji DAOs",
+        "clown token",
+        "social trust"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "call_date": "2024-09-20",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - September 19th 2024",
+  "decisions": [],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "06:00",
+      "commitment": "Release DevNet 1 today",
+      "owner": "kushti",
+      "timeline": "later today",
+      "topic": "technical",
+      "quote": "Later today, I will release another DevNet, so DevNet 1"
+    },
+    {
+      "id": 2,
+      "timestamp": "03:24",
+      "commitment": "Make announcement in developers channel for contract review",
+      "owner": "mgPai",
+      "timeline": "after small changes are complete",
+      "topic": "ergonames",
+      "quote": "after that, I'll probably make an announcement in the developers channel"
+    },
+    {
+      "id": 3,
+      "timestamp": "04:33",
+      "commitment": "Create off-chain bot in Go and make it open source",
+      "owner": "mgPai",
+      "timeline": "unspecified",
+      "topic": "development",
+      "quote": "I want to try to do is make an off-chain bot in Go. And of course, it'll be open source"
+    },
+    {
+      "id": 4,
+      "timestamp": "58:49",
+      "commitment": "Record hackathon lectures",
+      "owner": "mgPai",
+      "timeline": "unspecified",
+      "topic": "education",
+      "quote": "Yeah, yeah, for sure. I'll try to record them"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "03:15",
+      "question": "Need help for contract review and testing for Ergonames",
+      "context": "Contracts are complex with 6-7 contracts working together",
+      "topic": "ergonames",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "12:30",
+      "question": "Need to analyze security for atomic chain proposal due to spam possibilities",
+      "context": "Spam possibilities when announcing chain but not delivering part of it intentionally",
+      "topic": "technical",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 3,
+      "timestamp": "08:54",
+      "question": "Need to write proposal and analyze security for sub-blocks",
+      "context": "Need proofs for security for new construction to not lower the bar",
+      "topic": "technical",
+      "raised_by": "kushti"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "01:57",
+      "fact": "Ergonames contracts consist of about six or seven contracts working together",
+      "speaker": "mgPai",
+      "topic": "ergonames"
+    },
+    {
+      "id": 2,
+      "timestamp": "02:57",
+      "fact": "Completed end-to-end test from commit reveal to actual Ergo name mint",
+      "speaker": "mgPai",
+      "topic": "ergonames"
+    },
+    {
+      "id": 3,
+      "timestamp": "06:00",
+      "fact": "DevNet 1 will have support for new data structure, signed big integer for cryptographic applications, and higher order functions",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 4,
+      "timestamp": "00:38",
+      "fact": "Text updates are now translated to Russian, Spanish, Vietnamese with more languages coming",
+      "speaker": "kushti",
+      "topic": "community"
+    },
+    {
+      "id": 5,
+      "timestamp": "24:19",
+      "fact": "Trade House was recently launched as a peer-to-peer order book based decentralized exchange",
+      "speaker": "kushti",
+      "topic": "ecosystem"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+[00:11] **kushti**: Hello everyone, Alexander Chepurnoy, also known as kushti, is here.
+
+[00:17] **kushti**: I am a co-developer of the Ergo Protocol since 2016 and now on the 5th Ergoversary I would like to share some thoughts of mine on the completeness of the Ergo Protocol from co-developer point of view.
+
+[00:39] **kushti**: This talk is about reflections of mine on priorities in protocol research and development, as well as the core protocol development roadmap based on those priorities I have in mind and would like to share.
+
+[00:59] **kushti**: All right, in the first place, what do we want from a cryptocurrency?
+
+[01:06] **kushti**: So we want security - which means resilience to known attack vectors and even more in some sense security against unknown attacks if adversarial limits are known.
+
+[01:25] **kushti**: Then we want decentralization. There are some talks explaining what that could mean in details.
+
+[01:37] **kushti**: So I'm going to skip details now.
+
+[01:40] **kushti**: And we also want performance, obviously.
+
+[01:45] **kushti**: So we want from a cryptocurrency to handle load and be maybe even flexible so to accept more and more load with time. But then there is a result maybe well widely believed in the folklore known as a blockchain trilemma which basically says that if we have scalability, security and decentralization you have to choose only two out of three.
+
+[02:36] **kushti**: Alright, then what can we do about that, about performance?
+
+[02:48] **kushti**: Performance is measured in TPS, usually. TPS means Transactions Per Second, and this is quite misleading actually.
+
+[03:02] **kushti**: As well, transactions are not equal, they're different, dependent on accounting model, UTXO, accounts, well, some hybrid model.
+
+[03:19] **kushti**: Simple payments can be equalized with complex contract invocations and so on.
+
+[03:28] **kushti**: And also, we cannot use a single metric because many corporate centralized or pseudo-decentralized chains such as Binance Smart Chain do have pretty high TPS but then it's nearly impossible to check their chains since genesis - they're simply too heavy and then it's bringing new issues in regards with verifiability of what's there.
+
+[04:11] **kushti**: And what's an approach in Ergo - an Ergo approach in regards with the trilemma and performance and how to improve it.
+
+[04:27] **kushti**: So in the first place, the approach is about to be on the right side of the trilemma, which is obviously about to have security and decentralization as top priorities.
+
+[04:44] **kushti**: Then for performance, and in particular for scalability, the approach is about making the protocol secure in the presence of everything in blockchain possibly being pruned.
+
+[05:06] **kushti**: And then miners can increase TPS gradually without any concerns or with negligible concerns, let's say.
+
+[05:22] **kushti**: As well if everything is pruned then the protocol is allowing for that.
+
+[05:32] **kushti**: The Ergo protocol was designed in that way since day one basically.
+
+[05:42] **kushti**: So it's possible to securely prune the blockchain.
+
+[05:49] **kushti**: Both full blocks via NippoPoWs, which is already supported in the reference client since the recent 5.0.12 version.
+
+[06:07] **kushti**: and supported by the protocol since day one.
+
+[06:12] **kushti**: And with this pruning technique you can avoid downloading and storing full blocks before the UTXO set snapshot.
+
+[06:24] **kushti**: and then it's possible to even prune block headers via NIPoPoWs so you can avoid downloading and storing the headers even.
+
+[06:44] **kushti**: There was a talk on so-called log space mining done by Dionysis Zindros one year ago.
+
+[07:02] **kushti**: That's NIPoPoWs.
+
+[07:04] **kushti**: Alright, so I'm going to skip details.
+
+[07:09] **kushti**: But even more in Ergo it's possible to avoid storing UTXO set even so there is support for stateless clients if you are not mining.
+
+[07:24] **kushti**: Note, so it's supported in the protocol and the reference client since the very early test nets.
+
+[07:37] **kushti**: There are good presentations on that from RealWorldCrypto 2016, even other awesome presentation by Professor Leo Reyzin.
+
+[07:52] **kushti**: All right.
+
+[07:54] **kushti**: But then there is also an economic tool which is actually helping with pruning.
+
+[08:04] **kushti**: It's called storage rent, also known as demurrage.
+
+[08:09] **kushti**: And this is about miners charging some storage rent for bytes being stored in the UTXO set.
+
+[08:27] **kushti**: And this rent is charged every four years, so then every four years all the UTXOs are renewed.
+
+[08:36] **kushti**: Then even if every node in the network has four years of history maximum it is still okay for wallets and applications so it's still possible to find UTXOs which are yours even if every node is pruning everything before last four years.
+
+[09:09] **kushti**: All right so then with time nodes can slowly adopt such pruning even by default if no extra indexes are required so if then it's assumed that this node is basically willing to have explorer-like capabilities, being able to analyze historical data, not just having currently unspent UTXOs.
+
+[09:51] **kushti**: Then in the presence of Explorer nodes, at least one publicly available, the security is still the same basically.
+
+[10:01] **kushti**: And even if there are no Explorer nodes, at least four years of history can be objectively verified and for the time before last four years there is what Vitalik is calling weak subjectivity, but here it's actually pretty strong, right?
+
+[10:34] **kushti**: So there are commitments on the block headers still, even if transaction data is not available.
+
+[10:43] **kushti**: So you can check, you can trust that there is actually a blockchain with most proof of work.
+
+[10:57] **kushti**: as well that there is not any chain with more work absorbed being shown then you can actually trust this chain right and security wise pretty much the same.
+
+[11:27] **kushti**: Alright, then let's talk about completeness of the protocol as we have it.
+
+[11:35] **kushti**: It means do we need to add more features actually in regards with scalability performance in the first place.
+
+[11:45] **kushti**: and in the first place let me note that security wise and decentralization wise the protocol is quite perfect now so all the improvements which can be proposed not improving security and decentralization in a provable way, let's say.
+
+[12:15] **kushti**: Right, and in Ergo, we have now clear assumptions approach to study the protocol from a security point of view, from assumptions it is relying on in the first place.
+
+[12:33] **kushti**: And so the classic proof of work as done in Ergo is actually quite perfect at the moment, still.
+
+[12:56] **kushti**: All right, then there is a set of features to handle increasing load in the long term via pruning.
+
+[13:08] **kushti**: Right, and the protocol is supporting them since day one, and clients are getting supports for different features with time.
+
+[13:18] **kushti**: The clients are pruning slowly some parts of the blockchains.
+
+[13:29] **kushti**: So since late 2021, clients are pruning by default.
+
+[13:41] **kushti**: State UTXO set also known as blockchain state transformation proofs stateless clients as well, right?
+
+[13:54] **kushti**: And with time, more pruning will be done.
+
+[14:04] **kushti**: and then miners can increase TPS limits organically as well more performant clients appear and there are no forks needed for going towards that direction just client improvements.
+
+[14:25] **kushti**: Then the development roadmap would be like following.
+
+[14:30] **kushti**: So polishing pruning parts of the blockchain on layer one.
+
+[14:38] **kushti**: Make it flexible so it's up to a node which parts of the blockchain to store.
+
+[14:50] **kushti**: There are certain complexities involved in regards with peer-to-peer layer, but they are solvable.
+
+[15:06] **kushti**: What's actually on the table is further optimizations in transactions validation, mempool, optimizing internal data structures, parallel processing of transactions, and so on and so on.
+
+[15:26] **kushti**: So this work is going on all the time since 2020.
+
+[15:36] **kushti**: Then layer 1 is getting improvements but still a lot of improvements are possible.
+
+[15:43] **kushti**: One of the low hanging fruits is adopting something like compact blocks.
+
+[15:53] **kushti**: BIP in Bitcoin protocol but there are some improvements proposed after that BIP so they can be adopted.
+
+[16:06] **kushti**: And seemingly one or two order magnitudes improvements are possible here.
+
+[16:18] **kushti**: All right then we can think about adding new instructions to ErgoTree to support layer 2 sidechains and so on.
+
+[16:34] **kushti**: This is doable via soft forks only.
+
+[16:41] **kushti**: We can consider some sub-block protocols such as FLUX or Bitcoin NG.
+
+[16:57] **kushti**: That could be the next step but it's still not changing the proof-of-work consensus and it's still open question how to do that and why maybe some layer 2 improvements I can do the same job actually so concluding at the time the protocol is pretty complete and all the improvements would be not breaking so not painful to network participants and a lot of improvements are possible so performance wise.
+
+[18:01] **kushti**: A lot of achievements ahead.
+
+[18:05] **kushti**: Thank you for your attention.

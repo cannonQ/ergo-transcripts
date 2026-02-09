@@ -1,0 +1,120 @@
+{
+  "call_date": "2024-08-12",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "02:40",
+      "question": "Are you working on ChainCash alone or do you have help?",
+      "asker": "qx()",
+      "answer": "Actually, now it's mostly Dusek soloing. He is doing a server and I'm just checking the code briefly. There is also a pal of mine, a girl, with a GitHub account Larukh, so Dusek and Larukh are working on ChainCash at the moment. Larukh is doing CI, CD, and I hope to get her more involved.",
+      "responder": "kushti",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "ChainCash",
+        "development team",
+        "contributors"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "24:09",
+      "question": "Are the Rosen Bridge guard updates mandatory?",
+      "asker": "kushti",
+      "answer": "Some of them are - the guards will still work with some of them depending on them, but in order for it to be functional, yes, a certain amount of guards have to update for that to work. We have a simple system of checkboxes on the update, so Rosen will make the announcement to the guards, and the guards will check the green checkbox when they've updated.",
+      "responder": "qx()",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Rosen Bridge",
+        "guards",
+        "updates",
+        "functionality"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "28:18",
+      "question": "How is version 5.1 with RocksDB coming along?",
+      "asker": "qx()",
+      "answer": "It will be released along with 0.23 because 0.23 is merged into 5.1. I'm asking you guys to test the node 5.0.23 and after some testing, maybe around the end of next week. That'll require a full sync - 5.1 is about full re-sync, but it's tested by some volunteers already on different platforms including Raspi, Windows, macOS. It seems less platforms will be supported unlike 5.0, but it will be more stable and more performant.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "node",
+        "RocksDB",
+        "5.1",
+        "resync",
+        "performance"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "29:50",
+      "question": "Will both node versions 5.0 and 5.1 be supported simultaneously?",
+      "asker": "implicit",
+      "answer": "Yes, for some time both 5.0 and 5.1 will be supported. Both releases will be done. 5.0 will actually be the default release in Docker and so on, so our latest talking Docker would be about 5.0 for some months to come, not to break compatibility and not to break workflow of some guys using the latest tag.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "node versions",
+        "compatibility",
+        "Docker",
+        "5.0",
+        "5.1"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "44:49",
+      "question": "How does ChainCash handle valuation and what role does gold play?",
+      "asker": "qx()",
+      "answer": "Gold is used as a unit of account, but the system works like it's only you who defines what a note is worth of. It's your decision to accept it or not, but when talking about how to value it, there are different possible algorithms. You have a graph of previous transactions, reserves, debt, and you can make guesses about redemption of this debt. Based on that, you can get very different results for quality of analysis. There will be some default algorithm, but it's kind of an assembly layer for peer-to-peer financial systems of different kinds.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "advanced",
+      "related_terms": [
+        "ChainCash",
+        "valuation",
+        "gold oracle",
+        "peer-to-peer",
+        "mutual credit"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "43:03",
+      "question": "What areas need more contributors in the Ergo ecosystem?",
+      "asker": "implicit",
+      "answer": "There is need for more contributors for Ergonauts, tests especially for additional indices. There is need to review peer-to-peer where refactoring for sub-blocks and sidechains implementations. Tests for 6.0 activation, sigma 6.0 would be better with contributors while tests and audits are needed. For SigmaRust, we need a lot of work still to get full-fledged interpreter - next milestones are costing implementation and 6.0 implementation in Rust. For ChainCash we are looking for contributors as it could be commercially viable with time.",
+      "responder": "kushti",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "contributors",
+        "testing",
+        "sigma 6.0",
+        "SigmaRust",
+        "sub-blocks"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "36:43",
+      "question": "Who are the main contributors to the new SigmaRust release?",
+      "asker": "qx()",
+      "answer": "For the new release, we have three contributors: PGR456, Dusek, and UnknownBear. It's quite good that the development is continuing after many months without new releases, so finally we have a new SigmaRust version.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "SigmaRust",
+        "contributors",
+        "release",
+        "development"
+      ]
+    }
+  ]
+}

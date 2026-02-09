@@ -1,0 +1,110 @@
+{
+  "call_date": "2024-10-28",
+  "call_title": "Completeness of Ergo | Alex Chepurnoy | ErgoHack 9",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Introduction and Ergo Protocol Completeness Overview",
+      "category": "technical",
+      "start_time": "00:11",
+      "end_time": "00:59",
+      "primary_speaker": "kushti",
+      "summary": "Alexander Chepurnoy introduces himself as co-developer of Ergo Protocol since 2016 and presents his reflections on protocol completeness on the 5th Ergoversary. He outlines the talk's focus on protocol research priorities and core development roadmap.",
+      "key_terms": [
+        "Ergo Protocol",
+        "kushti",
+        "protocol completeness",
+        "development roadmap",
+        "Ergoversary"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Cryptocurrency Requirements and Blockchain Trilemma",
+      "category": "technical",
+      "start_time": "00:59",
+      "end_time": "02:36",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of fundamental cryptocurrency requirements including security, decentralization, and performance. Introduces the blockchain trilemma concept where only two of three aspects (scalability, security, decentralization) can be optimized simultaneously.",
+      "key_terms": [
+        "security",
+        "decentralization",
+        "performance",
+        "blockchain trilemma",
+        "scalability",
+        "attack vectors"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Performance Metrics and TPS Limitations",
+      "category": "technical",
+      "start_time": "02:36",
+      "end_time": "04:11",
+      "primary_speaker": "kushti",
+      "summary": "Explains why TPS (Transactions Per Second) is a misleading metric for blockchain performance. Discusses how different transaction types and accounting models make simple TPS comparisons inadequate, using Binance Smart Chain as an example of high TPS with poor verifiability.",
+      "key_terms": [
+        "TPS",
+        "Transactions Per Second",
+        "UTXO",
+        "accounts model",
+        "verifiability",
+        "Binance Smart Chain"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Ergo's Pruning-Based Scalability Approach",
+      "category": "technical",
+      "start_time": "04:11",
+      "end_time": "09:09",
+      "primary_speaker": "kushti",
+      "summary": "Details Ergo's approach to solving the trilemma by prioritizing security and decentralization while enabling scalability through comprehensive pruning capabilities. Covers full block pruning via NippoPoWs, header pruning, stateless clients, and the storage rent mechanism that charges fees every four years.",
+      "key_terms": [
+        "pruning",
+        "NippoPoWs",
+        "stateless clients",
+        "storage rent",
+        "demurrage",
+        "UTXO set",
+        "NIPoPoWs",
+        "log space mining"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Protocol Completeness and Security Assessment",
+      "category": "technical",
+      "start_time": "09:09",
+      "end_time": "12:56",
+      "primary_speaker": "kushti",
+      "summary": "Evaluates the current completeness of the Ergo protocol, concluding that security and decentralization aspects are nearly perfect. Emphasizes that future improvements should focus on provable enhancements rather than arbitrary feature additions.",
+      "key_terms": [
+        "protocol completeness",
+        "security assumptions",
+        "proof of work",
+        "decentralization",
+        "provable security"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Development Roadmap and Future Improvements",
+      "category": "technical",
+      "start_time": "12:56",
+      "end_time": "18:05",
+      "primary_speaker": "kushti",
+      "summary": "Outlines the development roadmap focusing on polishing pruning capabilities, optimizing transaction validation and mempool, implementing compact blocks, and potentially adding ErgoTree instructions for layer 2 support. Emphasizes that improvements can be made through soft forks and client upgrades without breaking changes.",
+      "key_terms": [
+        "development roadmap",
+        "compact blocks",
+        "ErgoTree",
+        "layer 2",
+        "soft forks",
+        "FLUX protocol",
+        "Bitcoin NG",
+        "parallel processing"
+      ]
+    }
+  ]
+}

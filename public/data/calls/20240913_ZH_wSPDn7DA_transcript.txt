@@ -1,0 +1,243 @@
+[00:18] **qx()**: Hello and welcome to the AMA. It's me and kushti today.
+
+[00:24] **qx()**: How are you doing kushti?
+
+[00:26] **kushti**: Doing well. Hi everyone. My pleasure to be here again. Yeah, busy time. So let's try to cover everything. That's a lot to cover, asking a lot.
+
+[00:44] **kushti**: Yeah. And in the first place, please join the spaces today, right? Since three hours, we'll have spaces on community marketing, memes and all that stuff.
+
+[01:00] **qx()**: Memetics. I remembered it this time, kushti.
+
+[01:02] **kushti**: Memetics. Yeah. Memetics.
+
+[01:06] **qx()**: Yeah, everybody's a pro at this guys. I mean, this is a good chance for you guys to get your ideas out and talk about it. And I mean there's a lot of things you guys sit through that you're like, oh, I'm not a dev I can't speak to that. But this is something that everybody can touch, everybody has an opinion on. So looking forward to hearing a lot of you jump up and talk about serious things or even the silly part of it, too. So it's a wide spectrum of things we can chat about when it comes to engagement and breaking through these bubbles and barriers using things like memes or marketing.
+
+[01:43] **kushti**: Yeah. Yeah. So let's discuss some bubbling because there are a lot of concerns about the community in a bubble. So yeah, let's discuss.
+
+[01:57] **qx()**: I do hear that. I just heard that about Cardano as well. Some of the people in Cardano on Twitter were talking about how they feel like they're in a bubble too. But I feel that's a - yeah, at least in this part of the market - that's what we're all experiencing. I think we're trying to - I was thinking about it last night. Actually, I feel like we're trying to reach, still focus on reaching other crypto users, right? So we're trying to market to people coming and jumping from chain to chain and that kind of thing.
+
+[02:30] **qx()**: I feel like Ergo is in a strong position, you know, especially with your paper from your little write up from two days ago, kushti, in a strong position to go beyond that and onboard people who are going to use this and use the financial systems that we're creating here - non-crypto people. So I think that's the next step. We've experienced how hard it is to get people from other ecosystems to come join us. I mean, it happens and we keep on doing it. But yeah, I think our focus really needs to be in getting this stuff into people's hands and getting them to use it that aren't even crypto users.
+
+[03:13] **kushti**: Right, right. So yeah, that's the next step, I guess, is to get such people involved.
+
+[03:20] **qx()**: So what's new with you, kushti? What have you been working on this week?
+
+[03:24] **kushti**: Yeah, so just to finish. So for crypto people, I think there is also a big room for anti-bubbling. We always have miners which are always jumping from chain to chain, but some are actually staying with us now permanently.
+
+[03:44] **qx()**: Yeah, you know, I think miners are a good group to be able to - I think miners are the easiest group to do that with, right? Miners, you can say, hey, you know, purely on profit, you can say come to this chain and mine because it's more profitable and they're going to do it. That's not - you know, I think the majority of them are doing it for those reasons, which is - you know, it's a business.
+
+[04:04] **qx()**: But yeah, I would say that's the first line of people that we can try to entice. And as we'll talk about in a bit, there are some things in Ergo now that will definitely entice them hopefully for that kind of stuff. But yeah, the harder people are the people who are socially engaged in like the platforms - like you know, like how hard is it to - even even Cardano, you know when we're at these conferences and we're talking to people at Cardano, you know, they're friendly and they're super nice and I'd say they're probably the most comfortable with Ergo at least because they've heard of it. But even that is hard to bring people over for those kind of things. So you can imagine how hard it'd be to bring over somebody from Ethereum or Solana or Bitcoin even. So it's definitely a challenge, but I do agree. I think miners are definitely the people that you can definitely get here a little easier perhaps with some incentives than other people perhaps.
+
+[05:04] **kushti**: Yeah, miners, hobbyist miners, right. But also I think some people like holistic Bitcoiners even, right, because finally after many years someone is now talking about doing better money, right.
+
+[05:25] **qx()**: I mean, that's got to be very attractive to these holistic Bitcoin miners and holders, where there's finally a system like Ergo that has that kind of security, that has that same kind of ethos as Bitcoin, but also has smart money. So yeah, I agree.
+
+[05:47] **qx()**: Go first, kushti. Tell me what's new.
+
+[05:51] **kushti**: Oh, a lot of things. How not to forget something. All right. So well, Sigma 6.0 development is going on smoothly. So I've written a lot of tests, corrected behavior of some new features and so on. And yeah, so I think to run next DevNet in a few days. So now I'm jumping on updating the new data type unsigned big integer for cryptographic applications. Then yeah it makes sense probably to document some efforts like what's doable in regards with supporting cryptographic applications right now. Like well what's used in ErgoMixer and stealth addresses, right? So, Sigma protocols.
+
+[06:49] **kushti**: Then, yeah, what's used in ChainCash, for example, and not Rosen Bridge, but yeah, so before Rosen Bridge, it was attempt to implement wormhole, right? And there was signature validation there. So, also kind of cryptography support via smart contracts. So, right, so it's possible to verify signature. Yeah, that could be used in other environments of the use case.
+
+[07:32] **kushti**: So before the mainnet launch, I even made an Oracle contract, right, just providing signed data, right and then yeah it's also possible to verify signature in the contract. And then yeah so what's new in Sigma 6.0, right, where yeah hopefully it would be possible to validate more even - yeah, like new Sigma protocols and things like bulletproofs, compressed Sigma protocols, all that stuff. Right, so better support.
+
+[08:21] **kushti**: And yeah, well, other things which are in 6.0, so there is need to cover. So qx() is doing a forum post about smart contracts in Lithos. It also will touch 6.0, which is being used in Lithos. Then sub-blocks. So yeah, I've made peer-to-peer messages. Yeah, now looking how to test the things, so how to modify internal CPU miner. And then, yeah, candidate generation and all that stuff, all that stack in order to run maybe sub-blocks DevNet.
+
+[09:21] **kushti**: Yeah, actually I can do even public testnet, but what can I do with one CPU? Probably not so many blocks right now. So, yeah, it makes sense to start with DevNet first and then, yeah, we can try software out on the public testnet.
+
+[09:47] **kushti**: Then what? So for ChainCash, Dusek completed redemption, right? So, and yeah, I've made documentation for API methods. So yeah, maybe it will be used. I don't know, to be honest. I haven't got latest updates, but yeah, it could be used by some students now to do some stuff for a college environment, right?
+
+[10:35] **kushti**: And then, yeah, there is another application we are now discussing with Jimmy, you probably know, right? Cup of sugar. So yeah, he's looking forward to actually have...
+
+[10:54] **qx()**: Oh yeah.
+
+[10:56] **qx()**: Yeah. He handed these out at - Oh, you saw my seed phrase. Oh, there goes that wallet.
+
+[11:06] **qx()**: He handed these out in Vegas. I love them. I keep it here on my desk.
+
+[11:13] **kushti**: All right. So. Well, yeah, development is going and yeah, all the Dexy tokens now issued and code for USE is going to finish the PR. Pull requests for Spectrum DEX to get support. So again, to get support from Spectrum DEX. And yeah, I'm now checking another, well, more or less complex smart action payout to deploy them. Yeah, so well, in like weeks, we will have a soft launch, right? So they're deploying contracts one by one.
+
+[12:08] **kushti**: Then we had a good developers chat yesterday with a lot of updates. Will you cover that?
+
+[12:23] **qx()**: Yeah. You want to join me this weekend?
+
+[12:26] **kushti**: Let's see. Let's see.
+
+[12:28] **qx()**: Maybe I'll try to rope - You know what? I can rope - I can rope Mark the Shark into it. I think I can rope Mark. And so I think we're pretty good.
+
+[12:38] **kushti**: All right. Then, yeah, published that forum post, right, about Ergo, well, after the central banks.
+
+[12:54] **qx()**: No, it's good. I wish more people would use those for discussion. I tried to comment on it and Real had a good comment after years as well. But those things would be nice guys. If you have something - don't be afraid to say something there. If that speaks to you at all or anything like that, then put a comment there or just say, yeah, you know, this is how I see it in my part of the world, or this is where it could be beneficial here or anything like that. Those kinds of things really help with the ideas, you know, engagement, that's for sure.
+
+[13:27] **kushti**: And yeah. And I actually like forum for thoughtful discussions, right. And for archival purposes as well. Because, well, with chats, it's not possible to find anything after, I don't know, a few days.
+
+[13:43] **qx()**: No, you got to sort through quite a few memes and peach pictures and things like that, right?
+
+[13:50] **kushti**: Right. Exactly. So yeah, I mean, after like two years, it's not possible, right, finding anything. But yeah, with the forum, that's possible. So everything is there since we made that launch, and yeah, pretty easily accessible.
+
+[14:16] **kushti**: All right, so then what's on your side? Maybe I will remember. But yeah, I actually left the rest for you, like Rosen and all that stuff.
+
+[14:28] **qx()**: Oh right, Rosen. Wow, yeah. Let's start with that. So it's getting close, right? We have a full watcher update recently. So if you guys miss that, please, please do your watcher update. It's really easy. There's no config changes. This time, I believe it's simply Docker compose pull, Docker compose down, Docker compose up -D, and you're done. And then just make sure it works.
+
+[14:55] **qx()**: I'm running a watcher on - What am I running it on? Linux, Windows and Mac. And I find the Mac one's rock solid, the Linux one's pretty rock solid, but the Windows one sucks. I have to at least reboot it or restart the services maybe every three or four weeks kind of thing. So be wary of that if you're running it on Windows. Just reboot, restart the service once in a while. You know, Docker compose down and up once in a while just to make sure that everything's good. It's classic Windows.
+
+[15:32] **qx()**: The guard set, we haven't had an update since right before the update for the watches, but I have a feeling it's getting very close. So super excited about that. It'll be nice to keep bridging and expanding to more things.
+
+[15:53] **qx()**: What else? Big news in the Sigmanauts mining pool. We have worked with qx() and qx() has delivered storage rent collection. So the way that works is there's a modified node. There's a modified mining core and there's a built service. So what happens is the service will scan the blockchain a thousand blocks at a time and depending on where you start the height from, it'll find the UTXOs that need to be collected for storage rent and it'll put those in a queue. And then mining core, when it's ready to go and we find a block, we essentially insert those UTXOs into the block and we spend them and we get the storage rent.
+
+[16:41] **qx()**: So for those of you, there's some confusion about storage rent I saw in chats. Let me just - I put it in chat, but I'll just make it real quick here. So there are two types of storage rent that can be collected. The first type, type one I call it, is the storage rent that anybody can collect. So what happens is, if a box is older than four years old, and it has less than the amount that's required for storage rent - and on average it's 0.14, right? So let's say a box has 0.02 ERG in it. That's less. It can't pay for storage rent. So, in that case, anybody, not just miners, anybody - and there's a developer right now that's running these all the time, they're getting them, they're snatching them up - can then destroy that box, spend that box essentially, and take the .02 ERG in it, because it's not enough for storage rent, and since they're destroying the box, they get to take any tokens with it as well.
+
+[17:32] **qx()**: So that's anybody - you guys can do that. I'm sure at some point in time there's going to be scripts out there that you can just download and run and do it yourself as well. The issue with that I find is that it's going to turn into - qx() and I were talking about it - it's going to turn into kind of a TX war. So if there are 30 people trying to claim - let's say there's a storage rent box coming up that's claimable by anybody. It's got some NFTs in it or it's got some tokens in it that might be worth, you know, like a thousand dollars. So what's gonna happen, right? People are gonna try to crank up their TX fee to get it included in the block first. So it's gonna kind of turn into a TX fee war at that point to see if you can get it to the highest point of profitability and still get that TX. But on top of that, if the mining pool that finds a block actually is running some sort of storage rent collector, they're gonna kill your TX and they're gonna write their own TX for that UTXO and put it through themselves at whatever price they want to put it through. So that's type one - anybody can claim it.
+
+[18:47] **qx()**: Type two is the kind of storage rent where you actually have to create another box - a change box. So let's say Bill has a hundred ERG in a box and it's been four years. So what's gonna happen is there's plenty of ERG in there to pay storage rent. So as a miner, the pool software has to actually recreate a change box. So they have to pull out all that hundred ERG out of that box and they have to pull away their storage rent fee and then they have to recreate a box for that person with the 99 point whatever ERG in it that follow the same rules as the first box - essentially is owned by that person that we collected rent from. So only miners can do that. So that's what we're collecting at the storage rent pool in Sigmanauts - we're the first pool to do it, I believe.
+
+[19:38] **qx()**: I believe there was a miner that was doing it a little bit earlier than us, just a solo miner, but the problem is you have to find a block to be able to include your transactions in it. So that's type two. That's what the Sigmanauts mining pool is. Hopefully we get lucky. The more hash that we get in the Sigmanauts mining pool, the better chances of finding a block. The better chances of finding a block means we can also include those transactions for the UTXOs that are spendable by everybody. So the higher the hash, the more likely we're to get TXs or boxes with tokens in them because we can push everybody else's out to try to steal them and grab them for ourselves at that point. So it's a really cool kind of game that came on top of this. Super, super, super cool.
+
+[20:21] **qx()**: And so we started out, we ran it on mainnet for like two days, found four or five blocks, did some tweaks with qx(), and then we just pushed to Mark's new server mining pool, and we're in the process of moving all the hash over from the Sigmanauts mining pool to that. So if you're a Sigmanauts mining pool member, please do that pool.
+
+[20:45] **qx()**: And yeah, super excited. Wombo, I'll get to your question in a little bit when we get the questions. So that's the Sigmanauts mining pool. Another cool thing that I pushed this week is I created the actual DAO for some of our student body at AAP at Cornell. And what that's going to do is that's going to allow - we're taking, I'm creating a value list token called Cornell USD, probably named maybe named after the semester, maybe not. And what that's going to do is that's going to serve as kind of a one to one indicator of how much money is in my budget that I'm going to allow them to spend essentially.
+
+[21:23] **qx()**: So what will happen is a DAO spun up, I will take that Cornell USD, drop it in the DAO at $50,000, let's say. And then they decide on upgrades they want to do to spaces or changes they want to do to computing equipment or software license they want to buy or that kind of thing. And they will route that Cornell USD to a wallet that I hold. That's the only way that I will allow a vote to pass essentially is if those Cornell USDs come back to me. And then we make the purchases from that. So super excited about that. Super cool.
+
+[21:53] **qx()**: And that's the basis that the next token that I'm going to make is actually a token of value that we're then going to utilize to perhaps swap and pay for plotting, do peer-to-peer swaps with students for equipment, that kind of thing. So that one will be on a DEX. That one will hold some kind of value, whatever it happens to make out there, it'll hold. So super excited about that.
+
+[22:18] **qx()**: I have a meeting next week with the student body for that group and where I explain everything and how it works, that kind of stuff. It's - I mean, imagine it's people that have heard of the blockchain, maybe, but maybe think it's a scam or that kind of thing. So it's going to be a really interesting meeting to talk to them about why we're actually using the blockchain for this kind of stuff and what benefits it has for us for doing that. So yeah, that's exciting.
+
+[22:46] **qx()**: I think Wombo may record it, but it'll be a Zoom. I'll see if they allow recording. If they do, then I'll show it to you guys.
+
+[22:55] **qx()**: What else happened in the Sigmanauts? We voted on a moderation policy for the Sigmanauts group. So that vote is up. I think there's probably about three more days to it. Once that's passed, that'll be pinned in the Sigmanauts channels, and we will abide by it. So that means any channel that you're in that the Sigmanauts own, essentially, you will need to abide by those rules or be moderated out or be warned or that kind of thing.
+
+[23:26] **qx()**: I believe Mark is also taking those moderation policies to the discord version of the Sigmanauts channel. So we'll abide by that as well as the standard Ergo policies. So I think that will hopefully lead to healthier, more kind of productive conversations, knowing that if you're going to be a dick, you're going to be muted or paused or kicked out if the infringements get too much kind of thing. So yeah, at least we have something to point to and say, look, it says right here in our policy, don't be an asshole. I'm sorry, you're being an asshole. So take a break.
+
+[24:04] **qx()**: But that's it. Super exciting week. We put them all on the Dev Update. So if you want to read more about those two things and all the work Mark the Shark's done on the new pool as well, then check out the Dev Update or check out the video of us later this weekend.
+
+[24:19] **kushti**: All right, so may I add a few notes to your update?
+
+[24:23] **qx()**: Yeah, go for it, kushti.
+
+[24:25] **kushti**: Yeah, so first type one and type two, right, for the storage rent. So actually, they both are spendable by anyone theoretically, but yeah, propagation is hard, right, when it's about recreating the box. So, yeah, there is a very little chance to get into a block if you're not a miner.
+
+[24:49] **qx()**: I thought I read you said that the other day, right? Yeah, yeah, yeah.
+
+[24:53] **kushti**: Yeah, yeah, yeah. Then, yeah, about Cornell, yeah, so that's also the case for contractual money, right? Exactly, with limited spendability. So, I mean, students are voting, you can spend, right, based on that. If I understand this correctly. So basically they put in one bin on another item, then you're spending from the winning bin or something like that. So yeah, that's interesting.
+
+[25:28] **kushti**: And yeah, so actually we already have some experiments, right? Like Kenyan folks and co-operative and students and a cup of sugar maybe and so on. So I think it makes sense maybe to organize some workshop to share experience and decide what would be useful to get in regards with support from blockchain, tooling and so on. Changes maybe, and so on. So yeah, we can do a workshop on, I don't know, like people's contractual money, right? And maybe also discuss, well, like grassroots contractual money versus CBDCs, right?
+
+[26:30] **kushti**: I don't know. So currently, CBDCs are understood just by like digital cash with surveillance, right? But yeah, actually, well, the next step is, well, in addition to surveillance, right, total surveillance, you can also be limited, right? And how you can spend your money. And actually, there were some experiments about that already. Right, so then, well, it could be quite dangerous, right? Most likely it would be. So there is need to discuss that, all those corresponding issues. Because, well, currently, anti-CBDC movement is concentrated on surveillance, right?
+
+[27:25] **qx()**: It's essentially a counter, right, to the open crypto market.
+
+[27:30] **kushti**: Yeah, but well, let's be clear. So well, outside of certain financial areas, right? So financial privacy is mostly lost, right? Especially if you're not a big guy, right? So special agency, which can bypass certain procedures. Then, yeah, well, the most worrisome thing, I guess, is not about surveillance or loss of privacy, which is already mostly lost. So it's about getting targeted by how you can spend your money, actually.
+
+[28:29] **qx()**: Right. Right. It's about not being in control of your own assets and also having the ability of your assets to be seized from you at any time. Right. If somebody controls the network, then they essentially own your funds.
+
+[28:42] **kushti**: Right. Right. I mean, then it's the question of the assets - are the assets yours, right? Essentially.
+
+[28:52] **qx()**: Right. Somebody's allowing you to use them. Yeah. Correct.
+
+[28:57] **kushti**: All right. Yeah, so actually a lot of things to discuss, but yeah, they mostly don't.
+
+[29:05] **qx()**: No, I'm really excited to see what kind of economy is going to fold out of this among students. Like, you know, I mean, for students who - the interesting thing is, right, at least in our department, you have students from a lot of different backgrounds. So, while they may be having a job here in the U.S. and have U.S. dollars and do those kind of things, you know, maybe their main source of income is somewhere else or their main source of savings is somewhere else.
+
+[29:35] **qx()**: So, when you bring in something like a common token of value to an economy here, that would essentially be an easier swap between people. So, if they know that they can spend the - if they can, you know, let's say they have, let's say it's the end of the semester, and they have these drawing tools that they don't have a use for anymore because they've only used them that year. They give them to somebody else and instead of a Venmo, somebody transfers 30 tokens of this value that we're enabling here.
+
+[30:10] **qx()**: So then they have those tokens and they either cash them in at the DEX or they then go and save them because next they know they may have to use it for plotting and they're going to use it to pay for plotting at that point on the large format printers. So I'm interested to see what kind of micro economy is going to grow from this kind of thing if there's a decent adoption.
+
+[30:33] **kushti**: Yeah, that's actually very interesting. Would be interesting to get the picture after some time. And then, yeah, so for Rosen, I also meant those screenshots, right? Maybe Systemic.
+
+[30:55] **qx()**: Oh, right. That nice screenshot on Twitter about in Metamask, was it?
+
+[31:02] **kushti**: Yeah, kind of something like that.
+
+[31:06] **qx()**: I'm going to it right now, let's see. That was last, this week, wasn't it?
+
+[31:12] **kushti**: Yeah, just like, I don't know, three days ago, two days ago.
+
+[31:18] **qx()**: There it is. Yes. He is. Oh, yeah. Yeah. Yeah. Yeah, so it's allowing you to hook Metamask to Rosen Bridge going from Ethereum. Yeah, it's a little teaser by CW. I imagine we'll see soon - we haven't gotten much "soon" yet though. Where's Joe to say soon? So we don't have a good timeline without him saying soon. But Rosen and a normal soon, but yeah, that'll be interesting.
+
+[31:42] **qx()**: I know the last thing they were struggling with was - Oh, what was it? It was something to do with the decimals. There was a decimal issue, I think, of crossing that they had to deal with that they were working on. I don't think I've heard an update on that recently, but yeah.
+
+[32:04] **kushti**: Yeah, but anyway, so Ethereum is closer, right? And that's probably a good news for Ethereum DeFi users, right? So they're going to get some good collateral for the blockchain. So, you know, proof of work backed.
+
+[32:26] **qx()**: Right, right, right. Not just that, but I mean, when I'm building these things, when like when I'm working on the DAO and I'm doing things and I'm planning to how to distribute things to students and work with that. It's amazing to not even have to think about, like, holy shit, is minting 10,000 NFTs going to cost me $1,000? Is, you know, sending all these airdrops to the students going to cost me 50 bucks? You know, it's like, on Ergo, no, those are not worries you ever have to think about. So you can focus solely on, you know, how to deliver the product or how to build the product. You don't have to worry about this bullshit kind of stuff. Is my transaction going to fail? What's going to happen? You know, am I going to be sandwiched or who knows, you know, that kind of stuff. You don't really have to think about it on Ergo.
+
+[33:15] **kushti**: All right. But yeah, but also the quality of money itself here. So the quality of Ethereum is degrading, right? Because it's not backed by proof of work anymore. And yeah, add on top of well some sudden changes in emission like per block and so on. So yeah, I mean, monetary wise it's I don't know, not so that good in comparison with Bitcoin and Ergo and some very few others actually proof of work. But yeah, Bitcoin is not programmable and bridges are not good, right? So WBTC probably still most popular, which is not even a multisig, right? So very limited multisig.
+
+[34:19] **kushti**: So yeah, something not very good there, that's why I don't know. And then, yeah, so, well, Ergo with Rosen can provide good collateral. So, just today, I've seen that 30,000 more ERG are bridged to Cardano blockchain, right? So, yeah, collateral in form of ERG. It's getting absorbed, right, outside. Yeah, so, with Ethereum, it probably will accelerate. But here also we will see some Ethereum assets like USDT. So maybe, I don't know, what's planned.
+
+[35:18] **qx()**: I'm interested to see, well, I guess this is later on. I'm interested to see how Rosen's going to handle token swapping with the singletons. I think that that could be a big market as well at some point. I imagine it's going to be very challenging though, but yeah. And then, right. What happened to - People don't forget, Rosen Fastlane is also something that they talked about as well, which will be a very cool feature that they add in at some point. Essentially it's pre-transferred funds that are available to you almost instantly for a higher fee, depending on what the demand is.
+
+[35:55] **qx()**: So, so we focus on, you know, the Ethereum bridge so much, or what chain are we coming to next, but don't forget that, you know, Rosen is chipping away at these really cool side things that are integrated into it, like messaging across blockchains, like Rosen Fastlane. And I mean even the potential of integration, some sort of ramp inside Rosen. Rosen is still like in - Rosen is still in its diapers guys. Rosen is still a baby compared to what Rosen is going to be. So, so yeah, not just a bridge for that general bridging stuff.
+
+[36:36] **qx()**: All right. What do you think, kushti? We go to questions. We got some.
+
+[36:41] **kushti**: Yeah, I think it's time. Finally. We already are talking too much.
+
+[36:45] **qx()**: We've talked too much. Yeah, damn it. All right, here we go. This is for you, kushti. This is from UrsaMiner2010. Please comment on credit as time shifted money usable in commerce versus ChainCash where the trust is distributed and collateralized.
+
+[37:05] **qx()**: He's asking comment on credit as time shifted money essentially - borrowed now pay later - usable in commerce versus ChainCash where trust is already distributed and collateralized when you utilize it, when you hand it out essentially. So I guess the question is what you know - borrowed money versus backed money when you do purchases or working through those kind of transactions peer-to-peer.
+
+[37:32] **kushti**: Yeah, I see. But actually ChainCash is allowing you to combine, right? So you can also borrow by just, well, minting notes without enough reserves, right? Then yeah, it's kind of IOU note, right, which is not backed.
+
+[37:54] **qx()**: But that's got to be - right, right. But that's how do you - how do you mint a note in a contract like that with not enough collateral? Can the blockchain guarantee some sort of percentage on return? You can't, right?
+
+[38:08] **kushti**: Yeah, not in this case. I mean, it can be under collateralized, right, then blockchain can give you back something. But yeah, not fully obviously, right. So yeah, I mean, if collateral is on the blockchain, then yeah, you can get it right with the guarantee provided by smart contract. Otherwise, it's trust based. So in the real world, right, so we had two options - so backed money like gold backed paper money in 19th century and trust-based money - so fiat. And so here you can combine both, right? And yeah, you can choose what do you accept actually. So maybe it's okay for you to trust someone, then yeah, you are free to do that. Otherwise, yeah, you are requiring for backing, which is also totally fine.
+
+[39:22] **qx()**: That's cool. I didn't know you could - I guess it makes sense. You can under collateralize the ChainCash note, but that's interesting.
+
+[39:28] **kushti**: And yeah, and you can combine, right? So for example, you trust - right? You can have a white list of people you do trust, like your friends, maybe some charities, and so on, right? And yeah, otherwise for the unknown people, so you have a requirement for collateralization.
+
+[40:05] **qx()**: And I mean, you think about it, too, you can - these kind of things can be made for - you know, it totally involves trust, but I can imagine a system where ChainCash is involved as well as physical redemption of the collateral. So essentially what I'm saying is like kushti, you know, if I want to buy something from you, I can commit a note with some things in it that are under collateralized and then I could also offer physical labor as the rest of it, like making you some designs or coding something for you or that kind of thing. So it can go hand in hand with those under collateralized things where it's off chain. But yeah, it's interesting how the level of trust that may be needed, but I guess that's how sometimes these P2P things work in the real world, right? Some layer of direct trust between the person that you're handing to.
+
+[41:00] **kushti**: Like, LETS system is essentially trust based, right? So you trust people in your community, then yeah, you're allowing them to create not IOU, but yeah, IOC notes. Yeah, it was said elegantly by her professor. Yeah, IOC means "I owe community," right? So and yeah that's about LETS and you can do LETS actually on top of ChainCash. I think about that - published some time ago. So but basically if we are willing to have LETS - so for example you, me and Joe - so we just white list each other, right? And then yeah we can have LETS on top of ChainCash just issuing notes which are accepted in the circle.
+
+[42:00] **qx()**: Very cool. All right, let's see, we've got - Wombo wants a little preview or speak on the Mark the Shark Mining Pool proposal, what might it entail. So Mark's Mining - Mark the Shark has really taken Sigmanauts mining pool to the next level. He's put a proposal into the grant proposal system that the EF has offered up to 10,000 a month, I think it was, but I'm not sure how long. But essentially Mark's in general, in short, Mark's proposal is a combination package of gaining adoption in Ergo through outreach, through mining.
+
+[42:34] **qx()**: So that means increasing marketing with outreach from mining, increasing the infrastructure of our pool, doing things like utilizing tokens in the wallets to be able to designate how much ERG you want from your payment or how often your payments, payouts are, or those kinds of things, or what wallet you want to send to if you want to change, or what token you want to mine if you want to mine a Rosen BTC, if you want to mine Cardano for gosh sakes. If you want to mine Ethereum again on Ergo, you can do that after Mark's the infrastructure.
+
+[43:05] **qx()**: So there's the infrastructure, the marketing, there is treasury buildups, there's support for community mining pools. Mark's also working on a package as well that would be part of this that essentially anybody can take and spin up and have their mining pool. So that's all part of the adoption wing. And so if we put it into short words, let's say, let's talk back to stake pools in Cardano, right? Stake pools are sexy, right? You have these front men or women saying, come to my stake pool, it's cool, it's a great social scene, and that kind of thing.
+
+[43:37] **qx()**: So our first outreach would be with Mark's tools, essentially, would be go to some stake pool operators and say, hey, look, here's a package. You can just click it, run it on a machine, give it to your guy or girl who's running your stake pool right now. You can run it on a similar machine, it doesn't take much juice to run a mining pool. And you can then offer your Cardano peeps, Rosen Cardano, to be able to mine it essentially. So they point their GPUs, their gaming rigs to it, you know, maybe somebody has a 3080, 3090. But if you have thousands of people in a stake pool that's a considerable amount of hash that you can add.
+
+[44:09] **qx()**: So then through that they can get Rosen Cardano as Rosen ADA sorry as a reward for in addition to their staking reward. So the idea is kind of make mining sexy, make mining great, all that kind of stuff rolled up into one utilizing promotions, utilizing things like stake pools, stake pool operators, kind of make a mining pool that kind of separate cool thing that is a social scene. That's surely how the Sigmanauts group has turned into. The Sigmanauts mining DAO is - it's fun, it's fun to be in, it's fun to chat in, there's a ton of chat going on all the time about what direction the pool should go in, how to manage it, what's going to happen to the rewards that we get from storage rent, all that kind of stuff.
+
+[44:58] **qx()**: So that proposal essentially is a huge proposal to push forward the adoption of Ergo in short via mining pools and that kind of outreach. So it's a very ambitious plan, but it's something that's never really been done before. I mean we've talked about in the past, you know, involving miners and getting miners to do things and being integrated and involved. But this is really the first kind of big proposal that I've ever seen in the system to take that by the horns and say yep, we're gonna put action to this. We're gonna get miners involved. We're gonna make people miners that never thought they could be miners just because they have a gaming PC and they want to be part of this stake pool kind of thing. So yeah, that's that's in short. Super cool, super excited.
+
+[45:44] **qx()**: Let's see what else we got. kushti? Yeah, yeah. Is my voice too soothing for you, kushti? Do I need to lay off the ASMR? We've got a question for you from Wombo. kushti, for people who have not read the forum post, can you talk a bit about Ergo after central banks?
+
+[46:09] **kushti**: All right, so the idea, you know, so back in early Bitcoin days, and yeah, I see that currently, maybe a bit in Monero community. So a lot of people are, well, yelling like every day, Bitcoin foundation, even. And the Fed, right? Well, globally thinking means like, and the central banks, right? Which, yeah, understandable, right? But the problem is, okay, I mean, but what will you do, right? There are no central banks. So and you need for some tooling for financial interactions when central banks disappear.
+
+[47:13] **kushti**: So the idea is that Ergo is actually this - so it's after central banks tooling, which is useful even when central banks are around because they are not - I think, well, right, a lot of places. Yeah, well, a lot of communities actually not quite covered by what they're doing. Right. So, well, most of money being created are going to just certain areas like financial markets, right, and big cities basically, and then remote communities are starting, right, basically all the time. So yeah, the idea here is to provide this kind of tooling, kind of Plan B for everything, right, which is useful now and will be even more useful in times of crisis.
+
+[48:23] **qx()**: While you were talking, kushti, I was looking at DuckPools because the other day, the ERG lending, people were interested, I guess, in shorting ERG. The ERG lending was at 5% APY for lenders. Now it's down to 3.2%. But I mean, if people are sitting on ERG and not doing anything, stick it in the darn ERG pool. At times like these, when the market's down, people are going to want to short it. And do it. So if you're planning on holding just, I mean, goodness, let's, can I show you this? I think I can show you guys this. Hang on one second. Yeah. Behind me. You see that guys?
+
+[49:05] **kushti**: Oh, SigmaUSD is now just like 3%.
+
+[49:12] **qx()**: Yeah. You got it. So guys, I mean, if you sit on your ERG, goodness gracious, that's a no brainer. If you're not going to move them, move them anyway, kind of thing. Super, super neat. Okay. What else do we have here?
+
+[49:36] **qx()**: Oh, that's a good question from Luke Graysmith. So back when we were talking about like micro economies and a lot of, you know, kind of busyness on the blockchain. And I think that's a question that comes up a lot, especially since if you look this week, kushti, you saw the SNEK launch the meme platform where you could kind of - what is the SNEK.io where in a kind of - there was some fumbling in the code somewhere and there was a bunch of backlogs. You got clogged for a bit. But people thought it was a blockchain, other people didn't think it was a blockchain and Cardano was acting fine. But I guess this question comes up a lot every once in a while.
+
+[50:16] **qx()**: How powerful is Ergo to be able to scale that kind of thing? What if we start, instead of a slow burn for popularity, there's an immediate hit of popularity? What tools or what circumstances have you seen that show you that Ergo can handle that? No problem. And we can handle an influx of a ton of transactions a second trying to fit into blocks.
+
+[50:46] **kushti**: Yeah, so that's actually possible. I talked about that just today. The main issue is not short spikes, but when you have high TPS all the time. If you just have spikes, then it's not hard to optimize peer-to-peer network for that, even on community hardware. But then we have people running the nodes on Raspberry Pi devices. And yeah, even Sigmanauts mining pool, for example. Is it using any expensive hardware?
+
+[51:36] **qx()**: Like, I don't know. We just dropped down to a cheap one, because when I first fired it up, it's about $70 a month for hardware. But we just moved to Hetzner, I think, is a German company. I probably mispronounced it. And I think Mark is like $16 a month. Yeah, so cheap. It's like four cores, eight gigs of RAM, $16 a month. So yeah, very cheap.
+
+[51:58] **kushti**: Yeah, because, I don't know, for some chain validators these days there are requirements to have like one terabyte of RAM and so on. And so, yeah, then there is issue, right, in the long term with UTXO set growth, which is actually the most worrisome, right, and that was the biggest argument during block size wars in Bitcoin. But here in Ergo, well, the network can adopt, I guess, by those, well, nodes like Raspberry Pi switching to stateless mode, which is already supported. And then, yeah, you take third growth, it's early ones. But there is a need for some time, right, for this transition anyway, because well, people need to run nodes in different regime, right, on limited devices and, yeah, rescan the blockchain, all that stuff. But yeah, that's not about long time, right? So that that's about property.
+
+[53:27] **qx()**: I think our biggest hurdle right now, kushti with, with choke points, right is Explorer, right? We have the main instance of Explorer. We have my instances of Explorer. And then there's some alternatives as ErgoExplorer, but even ErgoExplorer uses some Explorer endpoints of main and my Explorer. There's Sigma Explorer as well, which PG is working on, which is great. That's its own thing, which is great to have. But I think it'd be amazing if we had some sort of either redo the node so that we don't need Explorer, and then everybody's an Explorer, essentially, or else make the Explorer an easier package to lay on top of the node, perhaps, so that more people can run it with no issue. But yeah. Yeah, I mean, whenever there's a choke point, it's usually, you know, Explorer is lagging because 50,000, at least in the past, from what I remember, because there's a bunch of people trying to hit it hard.
+
+[54:30] **kushti**: Yeah. Yeah, and there is a need also to speed it up. And that's what we are discussing in ErgoDevs DAO right now, actually. So our efforts currently would be concentrated around Keystone wallets support delivery, right, hardware wallet. Then yeah, well, Explorer rework. I don't know. So maybe we will support Sigma space, right. So alternative one. But yeah, we need for some more performance Explorer definitely. And yeah, then there is a question of load, right, because when every application is well, hitting the same Explorer instance.
+
+[55:23] **qx()**: Exactly. Yeah. While you just mentioned that, kushti, I'd like to show that PG worked on this absolutely amazing tool right here. Check this out. Let me move myself off of it. If people can kind of see this. This is his sigmaspace.io and he made a storage rent dashboard. So essentially it shows the box value right there. It shows the storage rent that's going to be collected. And then it shows the ones that are collected and the ones that are already collected. And you can see that there are five blocks or five boxes right here that haven't been collected yet. And that's just because they're far back in the scanner, or at least block zero, and it takes a while for the scanner to get it. So we never set our scanner back that far. And I think there's also a weird thing in Explorer right now for these four boxes that aren't showing up. So once we do that, we'll make the chart nice and pretty by cleaning those off and collecting that storage rent. But if you are up for it, go to sigmaspace.io and check it out. He's worked really hard on that, and it's a really nice alternative Explorer as well.
+
+[56:36] **kushti**: Yeah, nice link.
+
+[56:37] **qx()**: All right, what else do we have, kushti? Oh, it's 10.02. Do we have another question here? Somebody's shit talking us and promoting Kaspa, but all right, whatever. We'll ignore that. I think that's it. I think this is a good to do it. Let's promote - make sure that people come to the spaces in two hours. Are you going to be ready?
+
+[57:06] **kushti**: Yeah. So please come to space and share your experience.
+
+[57:12] **qx()**: I expect all of you baseless marketing memetics to be there as well. That's the job.
+
+[57:18] **kushti**: Yeah. Yeah. Yeah, so please join us.
+
+[57:21] **qx()**: Yeah, two hours. Yeah, everybody should come up and talk. That'd be great. F1988, 1998, who's cranking around Kaspa. Come into chat. We're happy to talk with you in chat. Since we're closing, I'm not going to discuss on it now, but we don't hide anything here at Ergo. You want to talk about how Kaspa is better? Then come talk about it in chat or dev chat or whatever. Talk about it and talk to some real devs and see what they think. Yeah, see you in two hours everybody. Thanks so much kushti for joining Thanks, Andy for hosting and thanks everybody Thank you everyone bye

@@ -1,0 +1,170 @@
+{
+  "call_date": "2024-09-20",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "03:15",
+      "question": "What help is needed for testing the Ergonames contracts?",
+      "asker": "kushti",
+      "answer": "The contracts are almost complete with just a few small changes needed. After completion, there will be an announcement in the developers channel for people to review the contracts. Testing with AVL trees is more challenging but possible, and there are plans to create an off-chain bot in Go as an open source option for developers.",
+      "responder": "mgPai",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "ergonames",
+        "contracts",
+        "avl-trees",
+        "testing"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "04:33",
+      "question": "How can developers test contracts that use AVL plus trees?",
+      "asker": "mgPai",
+      "answer": "You can check scalar tests for ChainCash, which uses trees extensively. The tests use Plasma, a Scala library made by qx() to work with AVL plus trees, providing off-chain storage for current state committed on the blockchain. This pattern keeps only commitments on-chain while processing most data off-chain.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "avl-trees",
+        "plasma",
+        "chaincash",
+        "testing",
+        "scala"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "05:54",
+      "question": "What's the current status of Node 6.0 development?",
+      "asker": "mgPai",
+      "answer": "Development is going well. DevNet 1 will be released soon after DevNet 0 from two weeks ago. DevNet 1 will have support for new data structures, signed big integers for cryptographic applications, and higher order functions. After DevNet 2, there will be a release candidate, followed by public testnet and mainnet release.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "node-6.0",
+        "devnet",
+        "signed-integers",
+        "higher-order-functions"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "06:00",
+      "question": "What new features will ErgoScript 3.0 bring in Node 6.0?",
+      "asker": "implicit",
+      "answer": "ErgoScript 3.0 will make it much easier to develop rollups and layer 2 solutions. New features include the ability to reason about Ergo block headers within Ergo contracts, support for optional data in registers and context variables, and support for higher order functions. These changes will significantly alter the development landscape.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "ergoscript-3.0",
+        "rollups",
+        "layer-2",
+        "block-headers",
+        "higher-order-functions"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "12:30",
+      "question": "How can students get involved in Ergo development for career benefits?",
+      "asker": "implicit",
+      "answer": "Working on Ergo gives students unique projects for their resumes that stand out to recruiters. Contributing to blockchain nodes, writing off-chain bots, and other Ergo development work provides solid portfolio pieces beyond typical calculator apps. The open source codebase is accessible for learning, and students can earn bounties while contributing. There are plans to sponsor university hackathons with Ergo workshops.",
+      "responder": "mgPai",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "education",
+        "students",
+        "bounties",
+        "hackathon",
+        "open-source"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "30:40",
+      "question": "Can you register Ergonames through traditional domain registrars like Namecheap?",
+      "asker": "community",
+      "answer": "No, Ergonames are not traditional domains that resolve to websites. They purely resolve Ergo addresses and require using the Ergonames process with an Ergo wallet and sending funds on-chain. You cannot use standard domain registrars - you must go through the Ergonames system directly.",
+      "responder": "mgPai",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "ergonames",
+        "domains",
+        "addresses",
+        "wallet"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "36:02",
+      "question": "What are the plans for improving Ergo's user interface and user experience?",
+      "asker": "community",
+      "answer": "The most important focus is wallet experience, with Nemo and Anon working hard on refactoring everything in Nautilus. There are discussions about better UI for mobile wallets, possibly extending Nautilus to mobile. The main issue is that many developers working on applications aren't focused on frontend development. For Phoenix specifically, they're working with a new frontend developer to create a better UI before launching HODL coin.",
+      "responder": "mgPai",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "ui-ux",
+        "nautilus",
+        "mobile-wallet",
+        "phoenix",
+        "frontend"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "39:25",
+      "question": "How can AI tools help with Ergo application development?",
+      "asker": "implicit",
+      "answer": "AI can greatly speed up development, especially for routine tasks like generating UI and tests. New IDEs like Cursor provide AI chat windows that understand entire codebases, allowing developers to ask questions about where specific functionality is located. For new developers learning complex codebases like the Ergo node, AI can instantly locate relevant code sections and explain functionality.",
+      "responder": "mgPai",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "ai-development",
+        "cursor-ide",
+        "code-generation",
+        "developer-tools"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "50:46",
+      "question": "Why is mining marketing important for Ergo's growth?",
+      "asker": "implicit",
+      "answer": "The current GPU mining ecosystem is poor, mostly consisting of low-value coins and Kaspa forks. Ergo has huge potential to lead GPU mining as an original project that's still mineable with GPUs. Attracting miners could create a snowball effect - more miners improve price action, which attracts more miners due to increased profitability. Reaching around $4-5 per coin would make mining profitable across all hardware.",
+      "responder": "mgPai",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "gpu-mining",
+        "kaspa-forks",
+        "mining-profitability",
+        "price-action"
+      ]
+    },
+    {
+      "qa_id": 10,
+      "timestamp": "52:48",
+      "question": "What makes Ergo unique for home miners compared to other options?",
+      "asker": "implicit",
+      "answer": "With Ergo, you can truly be your own bank in all aspects of free banking. You can mint your own money through mining, which is immediately recognized in the Ergo network. Then you can use those coins in applications for trustless derivatives, convert to algorithmic synthetic gold or USD, lend them out, or put them in liquidity pools. It's like magic - creating money at home that has immediate utility in a full financial ecosystem.",
+      "responder": "kushti",
+      "category": "mining",
+      "difficulty": "beginner",
+      "related_terms": [
+        "home-mining",
+        "defi",
+        "synthetic-assets",
+        "liquidity-pools",
+        "financial-ecosystem"
+      ]
+    }
+  ]
+}
