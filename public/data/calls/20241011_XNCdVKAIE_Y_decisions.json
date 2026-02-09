@@ -1,0 +1,132 @@
+{
+  "call_date": "2024-10-11",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - October 10th 2024",
+  "decisions": [],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "02:13",
+      "commitment": "Work on activation details for 6.0, making proposals for miners to work on",
+      "owner": "kushti",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "I will work on activation details for 6.0, making proposals for miners to work on"
+    },
+    {
+      "id": 2,
+      "timestamp": "04:17",
+      "commitment": "Write down things and make security proof for sub-blocks proposal",
+      "owner": "kushti",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "I also need to write down things. To make security proof also, so I'm checking security proof in protocols"
+    },
+    {
+      "id": 3,
+      "timestamp": "24:42",
+      "commitment": "Support new Ledger devices (Stax and Flex)",
+      "owner": "new developer",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "the new developer is already working on supporting new devices"
+    },
+    {
+      "id": 4,
+      "timestamp": "26:30",
+      "commitment": "Update the white paper for Dexy and proceed to mainnet launch after audit",
+      "owner": "kushti/team",
+      "timeline": "unspecified",
+      "topic": "dexy",
+      "quote": "there is need to update the white paper a bit and then, yeah, we will do another round of communication for audit team, make the audit and then, yeah, we will proceed to mainnet launch"
+    },
+    {
+      "id": 5,
+      "timestamp": "49:05",
+      "commitment": "Visit Dubai in late October for multiple conferences",
+      "owner": "kushti",
+      "timeline": "late October",
+      "topic": "marketing",
+      "quote": "I'm going to visit Dubai in late October, so there will be Cardano Summit as well as some other events"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "08:59",
+      "question": "What to do after 6.0 and sub-blocks implementation",
+      "context": "kushti wants community input on future development priorities",
+      "topic": "technical",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "25:57",
+      "question": "Finding Rust developers for Keystone integrations",
+      "context": "There is a 3000 ERG bounty from ErgoDevsDAO for this work",
+      "topic": "technical",
+      "raised_by": "kushti"
+    }
+  ],
+  "reversals_or_updates": [
+    {
+      "id": 1,
+      "timestamp": "25:37",
+      "previous": "Need to support Nano S for Ledger integration",
+      "update": "No need to support Nano S anymore",
+      "reason": "New device support requirements from Ledger team",
+      "speaker": "kushti",
+      "topic": "technical"
+    }
+  ],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "01:52",
+      "fact": "Two reference client releases were done in two days: 5.0.23 today and 6.0.0.2 yesterday",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 2,
+      "timestamp": "07:22",
+      "fact": "Sub-blocks are already being generated in DevNet locally and branch can be found on GitHub",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 3,
+      "timestamp": "18:42",
+      "fact": "Rosen public testing had 38 watchers in private group using artificial test tokens",
+      "speaker": "Armeanio",
+      "topic": "rosen-bridge"
+    },
+    {
+      "id": 4,
+      "timestamp": "24:42",
+      "fact": "Ledger team requires support for new devices (Stax and Flex) before functional test and third party audits",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 5,
+      "timestamp": "25:57",
+      "fact": "3000 ERG bounty available from ErgoDevsDAO for Keystone integrations",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 6,
+      "timestamp": "26:19",
+      "fact": "Dexy audit was done recently and everything in the code is fixed",
+      "speaker": "kushti",
+      "topic": "dexy"
+    },
+    {
+      "id": 7,
+      "timestamp": "30:06",
+      "fact": "Soft fork voting requires 90 plus percent super majority",
+      "speaker": "kushti",
+      "topic": "governance"
+    }
+  ]
+}

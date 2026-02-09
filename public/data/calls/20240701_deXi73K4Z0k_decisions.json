@@ -1,0 +1,95 @@
+{
+  "call_date": "2024-07-01",
+  "call_title": "Sigma Trees | Alex Chepurnoy | Ergoversary Summit 2024",
+  "decisions": [],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "02:14",
+      "commitment": "Version 6.0 activation could take place in late 2024 in case of miner support",
+      "owner": "kushti/Development team",
+      "timeline": "late 2024",
+      "topic": "technical",
+      "quote": "the activation could take place in late 2024 in case of miner support"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "15:59",
+      "question": "What exactly to deliver in blockchain context and what can be efficiently delivered",
+      "context": "Discussion of ongoing development progress",
+      "topic": "technical",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "16:13",
+      "question": "What computations to do on top of blockchain context to allow for a variety of applications",
+      "context": "Discussion of ongoing development progress",
+      "topic": "technical",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 3,
+      "timestamp": "29:00",
+      "question": "Who will run the executing engine on layer 2s and what's the trust model",
+      "context": "Discussion of enhanced layer 2 systems with Sigma trees",
+      "topic": "technical",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 4,
+      "timestamp": "30:22",
+      "question": "What could be an execution context in a digital smart cash environment",
+      "context": "Discussion of non-blockchain systems using Sigma trees",
+      "topic": "technical",
+      "raised_by": "kushti"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "00:45",
+      "fact": "First design and initial version of interpreter was done in late 2016, early 2017",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 2,
+      "timestamp": "01:37",
+      "fact": "Ergo Mainnet launched in 2019",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 3,
+      "timestamp": "01:56",
+      "fact": "5.0 release with JIT costing happened in late 2022",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 4,
+      "timestamp": "02:14",
+      "fact": "Version 6.0 is in development stage with fixes and more functions",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 5,
+      "timestamp": "03:17",
+      "fact": "SigmaUSD appeared in early 2021",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 6,
+      "timestamp": "15:33",
+      "fact": "Formal verification of the first contract was done just three months after mainnet launch",
+      "speaker": "kushti",
+      "topic": "technical"
+    }
+  ]
+}

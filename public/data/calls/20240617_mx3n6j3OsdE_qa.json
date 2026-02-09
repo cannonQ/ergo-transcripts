@@ -1,0 +1,116 @@
+{
+  "call_date": "2024-06-17",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "00:27",
+      "question": "What is a trustless Bitcoin relay?",
+      "asker": "kushti",
+      "answer": "A trustless Bitcoin relay is a minimal Bitcoin client done as a contract on the Ergo blockchain, which validates proof of work and stores Bitcoin block headers and builds the best chain out of them. It's pretty similar to SPV Bitcoin clients, and with the best chain data, it's possible to validate a Bitcoin transaction and its inclusion into the blockchain.",
+      "responder": "kushti",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "SPV",
+        "proof of work",
+        "block headers",
+        "transaction validation"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "01:18",
+      "question": "What are the possible use cases for a trustless Bitcoin relay?",
+      "asker": "kushti",
+      "answer": "There are several use cases: First, building trustless Bitcoin hashrate derivatives on Ergo for miners to hedge against hashrate increases. Second, making Ergo a smart layer for Bitcoin where contracts can perform actions based on Bitcoin transactions or data in OP_RETURN fields. Third, enabling somewhat trustless bridging from Bitcoin to Ergo by unlocking Bitcoin tokens on Ergo when they're locked on Bitcoin blockchain.",
+      "responder": "kushti",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "hashrate derivatives",
+        "smart contracts",
+        "OP_RETURN",
+        "cross-chain bridging"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "02:39",
+      "question": "What's the challenge with trustless bridging back from Ergo to Bitcoin?",
+      "asker": "kushti",
+      "answer": "The challenge is that we cannot build a trustless relay for Ergo on the Bitcoin blockchain, so sending tokens back from Ergo to Bitcoin in a trustless way remains an open question. However, it might be possible to do trustless cross-chain decentralized exchanges by avoiding locking and just doing transfers backed by transfers in opposite directions.",
+      "responder": "kushti",
+      "category": "bridges",
+      "difficulty": "advanced",
+      "related_terms": [
+        "cross-chain",
+        "trustless bridging",
+        "decentralized exchange"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "03:45",
+      "question": "What's the history of Bitcoin relays on other blockchains?",
+      "asker": "kushti",
+      "answer": "The first Bitcoin relay was launched on Ethereum, possibly initially funded by the Ethereum Foundation and currently supported by ConsenSys. However, this relay was too expensive so it was often behind the Bitcoin blockchain and wasn't popular. Recently, Nervos Blockchain utilized a relay to build the RGB++ protocol.",
+      "responder": "kushti",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Ethereum",
+        "ConsenSys",
+        "Nervos",
+        "RGB++"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "05:54",
+      "question": "How is the relay contract organized?",
+      "asker": "kushti",
+      "answer": "The relay contract holds digests of two trees: one for the best headers with their heights for client applications, and another tree for all headers. It also stores Bitcoin blockchain tips (block ID) and cumulative work (chain quality). The contract does efficient switching from one fork to another because all headers contain digests of header chains, so switching just requires rewriting the bestHeaders tree digest.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "merkle trees",
+        "fork resolution",
+        "block headers",
+        "cumulative work"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "07:34",
+      "question": "How does the Bitcoin transaction inclusion validation contract work?",
+      "asker": "kushti",
+      "answer": "The contract validates that a transaction was included in a block with enough confirmations. It's provided with transaction bytes, has the relay contract as a read-only input, and requires two proofs: one proving that a header in the relay's best chain has enough confirmations, and another Merkle tree proof for transaction inclusion into the block with that header.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "transaction validation",
+        "merkle proof",
+        "confirmations",
+        "inclusion proof"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "09:32",
+      "question": "What are the next steps needed for further development?",
+      "asker": "kushti",
+      "answer": "The missing piece is a transaction parser for concrete goals like reading OP_RETURN data from specific outputs. On top of such parsers, concrete applications like RGB++ implementation could be built, along with front-end applications. Additionally, an economic model for the relay is needed to provide incentives for submitting blocks, since there's a need to pay transaction fees and increased fees for submitting block headers.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "transaction parser",
+        "OP_RETURN",
+        "RGB++",
+        "economic incentives"
+      ]
+    }
+  ]
+}

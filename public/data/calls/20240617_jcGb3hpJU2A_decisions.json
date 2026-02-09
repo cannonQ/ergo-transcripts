@@ -1,0 +1,98 @@
+{
+  "call_date": "2024-06-17",
+  "call_title": "Sigmanauts Mining Pool: Mine Any Token | qx() and Marc the Shark | ErgoHack VIII",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "07:20",
+      "decision": "Shifted from original NFT-based approach to current implementation due to time constraints",
+      "speaker": "qx()",
+      "context": "Learning Fleet would take too much time during ErgoHack",
+      "topic": "technical",
+      "significance": "major",
+      "quote": "So we kind of shifted from our original idea of populating NFTs with data, reading that data and then paying out there to another idea"
+    },
+    {
+      "id": 2,
+      "timestamp": "29:38",
+      "decision": "Will shut off MiningCore payments and build all transactions ourselves when using NFT method",
+      "speaker": "qx()",
+      "context": "Moving to more fluid system with NFT-based configuration",
+      "topic": "technical",
+      "significance": "major",
+      "quote": "So MiningCore will no longer process payments, we'll build the whole transactions ourselves"
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "22:30",
+      "commitment": "Need to write a script that automatically swaps ERG for Rosen tokens on Spectrum",
+      "owner": "qx()",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "so i need to write a script that actually does that automatically"
+    },
+    {
+      "id": 2,
+      "timestamp": "29:17",
+      "commitment": "Will create more APIs for Marc to get the pool fully functional",
+      "owner": "qx()",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "API seek a bit to make I only made two APIs for Marc for to get the pool up and running for this ErgoHack. They just take some time."
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "00:32",
+      "question": "What to officially call the project",
+      "context": "Initially called NFT mining configurator, then smart swapping for mining",
+      "topic": "governance",
+      "raised_by": "qx()"
+    },
+    {
+      "id": 2,
+      "timestamp": "29:02",
+      "question": "How to handle dashboard display when supporting multiple token swaps",
+      "context": "Will need to figure out UI for multiple token options",
+      "topic": "technical",
+      "raised_by": "Marc the Shark"
+    }
+  ],
+  "reversals_or_updates": [
+    {
+      "id": 1,
+      "timestamp": "14:53",
+      "previous": "Initially going to be NFT or mining NFT configurator",
+      "update": "Official project name is 'permissionless pool parameters and reward swapping'",
+      "reason": "Clarification of actual project scope",
+      "speaker": "Marc the Shark",
+      "topic": "governance"
+    }
+  ],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "16:48",
+      "fact": "PPLNS window multiplier is set to 0.5",
+      "speaker": "Marc the Shark",
+      "topic": "technical"
+    },
+    {
+      "id": 2,
+      "timestamp": "18:01",
+      "fact": "ERG block reward is 27",
+      "speaker": "Marc the Shark",
+      "topic": "technical"
+    },
+    {
+      "id": 3,
+      "timestamp": "07:59",
+      "fact": "Only qx(), Marc, and CannonQ are being paid out manually during testing phase",
+      "speaker": "qx()",
+      "topic": "technical"
+    }
+  ]
+}

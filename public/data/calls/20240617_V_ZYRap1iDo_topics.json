@@ -1,0 +1,92 @@
+{
+  "call_date": "2024-06-17",
+  "call_title": "Crystal Pool | c8 | ErgoHack VIII",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Crystal Pools Trading Demo with Bob and Alice",
+      "category": "defi",
+      "start_time": "00:11",
+      "end_time": "01:07",
+      "primary_speaker": "c8",
+      "summary": "Demonstrates how Crystal Pools enables trustless trading between users Bob and Alice, where sell and buy orders are real Ergo transactions built and signed in the background. The demo shows the user experience mimicking a centralized exchange while maintaining decentralized control through swap contracts.",
+      "key_terms": [
+        "Crystal Pools",
+        "trustless trading",
+        "swap contract",
+        "order book",
+        "background transactions",
+        "DEX"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Six-Step Technical Process for Creating Sell Orders",
+      "category": "technical",
+      "start_time": "01:07",
+      "end_time": "02:19",
+      "primary_speaker": "c8",
+      "summary": "Details the technical workflow when a user creates a sell order, involving request-response between user's agent and Crystal Pools, transaction validation and signing, and mempool management. The process ensures user control while enabling instant order placement through background automation.",
+      "key_terms": [
+        "background agent",
+        "unsigned transaction",
+        "deposit contract",
+        "transaction validation",
+        "mempool",
+        "transaction caching"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Crystal Pools Model vs CEX vs DEX Comparison",
+      "category": "defi",
+      "start_time": "02:19",
+      "end_time": "02:52",
+      "primary_speaker": "c8",
+      "summary": "Compares Crystal Pools with centralized exchanges and traditional DEXs, highlighting how Crystal Pools aims to provide instant trading while maintaining user control over funds. The model settles all transactions on layer 1 while addressing typical DEX slowness issues.",
+      "key_terms": [
+        "centralized exchange",
+        "DEX",
+        "instant trading",
+        "user control",
+        "layer 1",
+        "asset ownership"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Time Limited Multisig Smart Contract Design",
+      "category": "technical",
+      "start_time": "02:52",
+      "end_time": "03:49",
+      "primary_speaker": "c8",
+      "summary": "Explains the four smart contracts (Deposit, Buy, Sell, Swap) and the Time Limited Multisig concept that prevents Crystal Pools from holding user funds hostage. After a certain blockchain height, users automatically gain full control over their deposited funds.",
+      "key_terms": [
+        "smart contracts",
+        "Time Limited Multisig",
+        "deposit contract",
+        "blockchain height",
+        "time lock",
+        "veto right"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Transaction Caching and Built-in Wallet Security",
+      "category": "technical",
+      "start_time": "03:49",
+      "end_time": "05:14",
+      "primary_speaker": "c8",
+      "summary": "Describes transaction caching for handling mempool limitations and trading spikes, plus the built-in wallet system for automated transaction signing. Addresses security concerns with built-in wallets and proposes native desktop/mobile apps as the solution instead of web-based interfaces.",
+      "key_terms": [
+        "transaction caching",
+        "mempool space",
+        "built-in wallet",
+        "transaction validation",
+        "native desktop app",
+        "security risks",
+        "malicious client code"
+      ]
+    }
+  ]
+}

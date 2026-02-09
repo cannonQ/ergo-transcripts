@@ -1,0 +1,69 @@
+{
+  "call_date": "2024-06-20",
+  "call_title": "Ergoversary | Ergo Turns 5 | July 1st",
+  "decisions": [],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "04:58",
+      "commitment": "Planning to invest raised capital into building out Ergo's Oracle Pool infrastructure",
+      "owner": "Dan/Palmyra",
+      "timeline": "unspecified",
+      "topic": "oracle-pools",
+      "quote": "we're also planning to invest some of our raised capital into building out Ergo's Oracle Pool infrastructure"
+    },
+    {
+      "id": 2,
+      "timestamp": "06:15",
+      "commitment": "Will revisit scaling improvement draft proposals after Ergoversary",
+      "owner": "kushti",
+      "timeline": "after Ergoversary",
+      "topic": "scaling",
+      "quote": "We have several draft proposals for scaling improvements that we'll be revisiting after Ergoversary"
+    },
+    {
+      "id": 3,
+      "timestamp": "13:35",
+      "commitment": "Working on pushing through the failed Rosen Bridge transaction and refunding permits",
+      "owner": "Rosen team",
+      "timeline": "unspecified",
+      "topic": "rosen-bridge",
+      "quote": "The team is working on pushing it through again, and people should get their permits refunded. We're actively working on it"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "07:30",
+      "question": "How to handle backwards compatibility with existing contracts when changing block times",
+      "context": "Some contracts are tied to block height rather than timestamp, so faster blocks would affect them",
+      "topic": "scaling",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "07:30",
+      "question": "Need community members to lead testnet efforts for parameter tweaking",
+      "context": "Need people to run testnets, change configurations, mine them, and do scientific observations",
+      "topic": "scaling",
+      "raised_by": "kushti"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "09:28",
+      "fact": "Since version 4.0.44, nodes have limits on downloading too many transactions from a single peer",
+      "speaker": "kushti",
+      "topic": "security"
+    },
+    {
+      "id": 2,
+      "timestamp": "09:28",
+      "fact": "Spam transactions time out and get dropped from mempool after a few hours if not picked up",
+      "speaker": "kushti",
+      "topic": "security"
+    }
+  ]
+}

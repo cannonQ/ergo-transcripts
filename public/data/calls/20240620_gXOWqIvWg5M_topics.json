@@ -1,0 +1,192 @@
+{
+  "call_date": "2024-06-20",
+  "call_title": "Ergoversary | Ergo Turns 5 | July 1st",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Ergo Development State and Five-Year Vision",
+      "category": "ecosystem",
+      "start_time": "00:00",
+      "end_time": "01:12",
+      "primary_speaker": "kushti",
+      "summary": "kushti discusses the current state of Ergo development, highlighting improvements in node stability and ErgoScript adoption. He outlines plans for layer 2 solutions, better developer tooling, and research into NIPoPoWs and cross-chain interoperability for the next five years.",
+      "key_terms": [
+        "layer 2 solutions",
+        "ErgoScript",
+        "NIPoPoWs",
+        "cross-chain interoperability",
+        "developer experience"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Palmyra Real-World Asset Tokenization Platform",
+      "category": "defi",
+      "start_time": "01:12",
+      "end_time": "02:45",
+      "primary_speaker": "Dan",
+      "summary": "Dan explains Palmyra's focus on bringing real-world assets on-chain through tokenization and DeFi primitives. The platform leverages Ergo's UTXO model for commodity financing and supply chain management, integrating with Oracle Pools and Rosen Bridge.",
+      "key_terms": [
+        "real-world assets",
+        "tokenization",
+        "commodity financing",
+        "supply chain management",
+        "Oracle Pools",
+        "Rosen Bridge"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Trade House Order Book vs AMM Comparison",
+      "category": "defi",
+      "start_time": "02:45",
+      "end_time": "03:40",
+      "primary_speaker": "qx()",
+      "summary": "qx() explains how Trade House's order book model differs from AMM-based exchanges like Spectrum. Order books provide better transparency, market depth visibility, and avoid impermanent loss while enabling sophisticated trading strategies.",
+      "key_terms": [
+        "order book",
+        "AMM",
+        "market depth",
+        "impermanent loss",
+        "limit orders",
+        "slippage"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Bulletproofs Integration for Privacy-Preserving Contracts",
+      "category": "technical",
+      "start_time": "03:40",
+      "end_time": "04:45",
+      "primary_speaker": "kushti",
+      "summary": "kushti explains bulletproofs as zero-knowledge proofs without trusted setup, particularly useful for range proofs. He's working on implementing bulletproof verification in ErgoScript to enable privacy-preserving applications like verifiable credentials.",
+      "key_terms": [
+        "bulletproofs",
+        "zero-knowledge proofs",
+        "range proofs",
+        "ErgoScript",
+        "Sigma protocols",
+        "verifiable credentials"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Chainlink Partnership Strategy and Oracle Pool Investment",
+      "category": "ecosystem",
+      "start_time": "04:45",
+      "end_time": "06:02",
+      "primary_speaker": "Dan",
+      "summary": "Dan clarifies Palmyra's pragmatic approach to using both Chainlink for specific functions like proof of reserve and IoT monitoring, while also investing in Ergo's native Oracle Pool infrastructure. The strategy involves using the right tool for each specific use case.",
+      "key_terms": [
+        "Chainlink",
+        "proof of reserve",
+        "IoT devices",
+        "Oracle Pools",
+        "warehouse receipts",
+        "native Ergo oracles"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Ergo Scaling Solutions and Block Time Optimization",
+      "category": "technical",
+      "start_time": "06:02",
+      "end_time": "08:15",
+      "primary_speaker": "kushti",
+      "summary": "kushti discusses draft proposals for scaling improvements including sub-blocks and microblocks, optimized for real Ergo applications rather than abstract use cases. He addresses the impact of faster blocks on existing contracts and calls for community involvement in testnet parameter testing.",
+      "key_terms": [
+        "sub-blocks",
+        "microblocks",
+        "layer 2 solutions",
+        "block times",
+        "backwards compatibility",
+        "testnet",
+        "emission contracts"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Trade House Partial Fill Mechanism",
+      "category": "defi",
+      "start_time": "08:15",
+      "end_time": "09:15",
+      "primary_speaker": "qx()",
+      "summary": "qx() explains how Trade House handles partial fills automatically on-chain, creating new boxes with remaining tokens at the same price level. This enables complex trading strategies and systematic buying across multiple price levels without central authority.",
+      "key_terms": [
+        "partial fills",
+        "on-chain automation",
+        "trading strategies",
+        "price levels",
+        "market depth",
+        "systematic buying"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "DDoS and Spam Attack Prevention Mechanisms",
+      "category": "technical",
+      "start_time": "09:15",
+      "end_time": "10:45",
+      "primary_speaker": "kushti",
+      "summary": "kushti outlines Ergo's built-in protections against spam attacks, including peer transaction limits, mempool filters, and adjustable minimum propagation fees. The system allows honest users to pay slightly more during spam periods while dropping low-fee spam transactions.",
+      "key_terms": [
+        "DDoS protection",
+        "spam attacks",
+        "mempool filters",
+        "propagation fees",
+        "fee estimation API",
+        "transaction priority"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Multi-Chain Strategy and Ecosystem Growth Philosophy",
+      "category": "ecosystem",
+      "start_time": "10:45",
+      "end_time": "11:55",
+      "primary_speaker": "Dan",
+      "summary": "Dan discusses balancing multi-chain partnerships with Ergo ecosystem commitment. He argues against tribalistic responses to multi-chain projects, emphasizing that welcoming companies using multiple tools can help Ergo become a foundational layer for other projects.",
+      "key_terms": [
+        "multi-chain partnerships",
+        "ecosystem growth",
+        "foundational layer",
+        "tribalism",
+        "value creation"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Future Development Priorities and Real-World Applications",
+      "category": "ecosystem",
+      "start_time": "11:55",
+      "end_time": "13:25",
+      "primary_speaker": "kushti",
+      "summary": "All speakers share their priorities for the next year: kushti focuses on real-world applications and zero-knowledge integration, Dan on Winter Protocol commodity financing, and qx() on expanding order book trading beyond just token swaps to NFTs and unique assets.",
+      "key_terms": [
+        "Winter Protocol",
+        "commodity financing",
+        "Auction House",
+        "NFT trading",
+        "real-world applications",
+        "order book trading"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Rosen Bridge Permit Transaction Issues",
+      "category": "bridges",
+      "start_time": "13:25",
+      "end_time": "14:00",
+      "primary_speaker": "Dan",
+      "summary": "Dan addresses a technical issue with Rosen Bridge involving a high-fee transaction that failed due to a missed signature. The team is working on resolving the issue and refunding permits to affected users as part of mainnet preparation testing.",
+      "key_terms": [
+        "Rosen Bridge",
+        "permit refunds",
+        "high-fee transaction",
+        "signature failure",
+        "mainnet preparation",
+        "edge cases"
+      ]
+    }
+  ]
+}

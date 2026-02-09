@@ -1,0 +1,271 @@
+[00:14] **kushti**: Hello everyone and happy anniversary.
+
+[00:17] **kushti**: I'm Alexander Chepurnoy, also known as kushti, and I'm going to present Sigma Trees, a rational foundation for smart money and not only.
+
+[00:28] **kushti**: So this talk would be about the basics of contractual execution on Ergo.
+
+[00:37] **kushti**: And let's start with history of Ergo contractual layer also known as Sigma.
+
+[00:45] **kushti**: So our first design and the initial version of interpreter was done by me in late 2016, early 2017.
+
+[00:56] **kushti**: Then I gave few presentations. First one was during the poster session at Financial Cryptography 2017.
+
+[01:05] **kushti**: Then there were some more presentations at Dump 2017, Binary District Meetup 2017 and so on.
+
+[01:17] **kushti**: Then new developers joined and then initial contracts were done in just kind of assembler level, so Sigma trees.
+
+[01:31] **kushti**: And then high-level language ErgoScript appeared in 2018.
+
+[01:37] **kushti**: Then Ergo Mainnet launched in 2019.
+
+[01:41] **kushti**: And now we are celebrating fifth anniversary.
+
+[01:46] **kushti**: And since then only non-breaking development of the contractual layer took place.
+
+[01:56] **kushti**: So in late 2022 there was 5.0 release with JIT costing.
+
+[02:07] **kushti**: And now there is 6.0 with some fixes and more functions.
+
+[02:14] **kushti**: It's in the development stage at the moment and the activation could take place in late 2024 in case of miner support.
+
+[02:27] **kushti**: All right, and with the help of Sigma, a lot of applications already done.
+
+[02:34] **kushti**: So, Ergo Mixer, a mixing protocol done as an application.
+
+[02:42] **kushti**: So, not a core protocol feature, but an application on top of the protocol.
+
+[02:49] **kushti**: The core protocol, then decentralized peer-to-peer auctions, actually the second application, maybe the third one actually after Oracle Pools.
+
+[03:02] **kushti**: Also stable coins, so SigmaUSD appeared in early 2021 and now there are some new stable coins coming such as Dexy and Gluon.
+
+[03:17] **kushti**: DEXes, both AMM-based and order-based, lending tools such as peer-to-peer bonds and pooled lending, DuckPools, financial instruments such as options and option pools, trustless bridging.
+
+[03:42] **kushti**: From Bitcoin to Ergo uses trustless relay and then federated bridging uses Rosen Bridge federated bridging with Bitcoin Cardano.
+
+[03:57] **kushti**: Then some monetary experiments such as HODLcoin, auction coin, ChainCash and so on.
+
+[04:09] **kushti**: And much more applications are done, so you can visit corresponding websites to get more applications.
+
+[04:23] **kushti**: And in this talk I'm now unwrapping the underlying technologies and maybe it's a good time to go to basics again to unwrap development in other possible directions and enrich Ergo ecosystem for even more.
+
+[04:44] **kushti**: So this talk is about how contracts are encoded on Ergo blockchain and interpreted.
+
+[04:53] **kushti**: Why everything is so unified here?
+
+[04:56] **kushti**: So if you used some other blockchains such as Ethereum, maybe you know there are accounts like human-owned accounts and contracts there.
+
+[05:11] **kushti**: And in Ergo everything is a contract and I'm going to explain how is it possible.
+
+[05:19] **kushti**: And why Sigma trees is the best known choice for smart money?
+
+[05:26] **kushti**: I will try to explain that as well and how Sigma trees can enable better and novel constructions for sidechains, layer 2s and so on.
+
+[05:39] **kushti**: Also, stay tuned.
+
+[05:42] **kushti**: And Sigma trees, so let's start with just signatures actually.
+
+[05:50] **kushti**: That's how Sigma trees were started and the name is going from Sigma protocols in cryptography, which are in particular providing signatures and pretty flexible signatures.
+
+[06:11] **kushti**: So let's imagine that Alice and Bob are signing a transaction in details.
+
+[06:25] **kushti**: Let's imagine that Alice and Bob are needed to spend any input in some transaction.
+
+[06:34] **kushti**: Or even more simply, we can imagine some digital coin, maybe, which is needed to be signed by both Alice and Bob in order to be spent.
+
+[06:51] **kushti**: So we can write such statements using public keys of Alice and Bob as public key of Alice and public key of Bob.
+
+[07:08] **kushti**: So signatures from both Alice and Bob are required.
+
+[07:12] **kushti**: And for such multi-signature statements and single signature statements, we can use some visual tooling.
+
+[07:25] **kushti**: It's actually already done.
+
+[07:29] **kushti**: So you can use tool to construct such signature statements.
+
+[07:37] **kushti**: But initially, so what I did back in 2016, so I represented such statements with trees.
+
+[07:51] **kushti**: Right, so we have public key of Alice, public key of Bob, and then conjunction at the root of the tree.
+
+[08:05] **kushti**: All right.
+
+[08:06] **kushti**: And then we are using Sigma protocols machinery for implementing signatures with such statements and even more complex statements.
+
+[08:25] **kushti**: So and, or, and threshold signatures are supported by Sigma protocols and they can be freely combined those conjunctions.
+
+[08:36] **kushti**: So for example, you may have a condition like public key of Alice and public key of Bob or public key of Carol and then Alice can sign with either Bob or Carol.
+
+[08:57] **kushti**: which is kind of 2 out of 3 signature, but here Alice has a kind of master key, so her signature is required.
+
+[09:13] **kushti**: And what's good about Sigma protocols and Sigma protocol powered signatures, they preserve zero knowledge.
+
+[09:24] **kushti**: So in OR and threshold conjunctions no external observer knows who actually signed, so only signing parties have such knowledge.
+
+[09:36] **kushti**: So for example, from observing a signature corresponding to this example statement, the external observer cannot extract the information who actually signed Bob or Carol.
+
+[09:54] **kushti**: But from the statement it's obvious that Alice signed.
+
+[10:06] **kushti**: And actually, in addition to just public keys, we can have more complex statements about some facts to be proven in zero knowledge.
+
+[10:23] **kushti**: For example, we also have proof of Diffie-Hellman tuple as a building block in such statements and that's used in the Mixer protocol.
+
+[10:38] **kushti**: Alright, so we have pretty complex machinery, so we can have kind of complex trees already describing signature statements just.
+
+[10:57] **kushti**: But from these we can actually go further so we can add logic predicates because they are kind of similar to such statements we have here in Sigma protocols.
+
+[11:25] **kushti**: So, for example, we can add time locks, right?
+
+[11:29] **kushti**: So, for example, we can encode the following statement.
+
+[11:37] **kushti**: If block height is more than 100, then Alice signs, and if not, if block height is less or equal to 110, Bob signs.
+
+[11:59] **kushti**: And similar constructions, again, can be done without coding, so there is a tool, Blockly, which can be used for combining signature statements, such as public keys and time locks.
+
+[12:20] **kushti**: And here we are combining some computations over our blockchain context such as block heights with cryptographic signature statements.
+
+[12:42] **kushti**: All right and from such very simple examples and very simple context just like using block height and comparing it with some number from those very simple examples I started with back in 2016.
+
+[13:11] **kushti**: After years of evolution, we now have pretty complex computations of our blockchain context possible.
+
+[13:26] **kushti**: But the basic idea is still the same, so we have a tree with signature statements along with logic predicates and blockchain context and computations over blockchain context.
+
+[13:54] **kushti**: And for the years of evolution, we got different data types and operations, including collections, cryptographic group elements, and so on.
+
+[14:06] **kushti**: We got functions, scopes.
+
+[14:12] **kushti**: We got costing of operations first ahead of time.
+
+[14:17] **kushti**: We tried to do ahead of time like kind of done in very primitive way in Bitcoin, but we try to do more or less precise costing on top of more complex programs than in Bitcoin.
+
+[14:43] **kushti**: Then we switched in 5.0 soft fork to just-in-time costing, similar to one used in Ethereum, which is probably better for complex programs.
+
+[14:59] **kushti**: Then higher-level languages, so ErgoScript, which is used now by every developer.
+
+[15:08] **kushti**: But back in 2019, there was also Ergo Scala, a subset of Scala language used to describe contracts on Ergo.
+
+[15:22] **kushti**: And for Ergo Scala, just three months after the mainnet launch, formal verification of the first contract was done and so on.
+
+[15:33] **kushti**: So there is still progress here in how to represent blockchain context, what exactly to deliver, what can be efficiently delivered, and what makes sense to deliver.
+
+[15:59] **kushti**: So a lot of questions here.
+
+[16:01] **kushti**: Then what computations to do on top of to allow for a variety of applications and so on.
+
+[16:13] **kushti**: But only a few people actually do know about this tree machinery, and now everyone is just using ErgoScript.
+
+[16:28] **kushti**: Right, like in this example, but the basic idea is still the same.
+
+[16:35] **kushti**: So a developer is working with conditions which are describing when an output, unspent output can be spent, can be used in transaction.
+
+[17:04] **kushti**: And what actually is going on when you have such a contract in ErgoScript.
+
+[17:13] **kushti**: So it's actually compiled to a tree like this, which is containing signature statements along with computations in the same kind of syntax tree.
+
+[17:35] **kushti**: And on the blockchain just serialized sigma tree stored, which is actually probably one of the most compact forms for storing computations.
+
+[17:51] **kushti**: Now, execution then is about using blockchain context at execution time to reduce the tree written on the blockchain to just a statement for signature, right?
+
+[18:13] **kushti**: Sometimes there is no signature, like in case of orders, for example, in DEXes, which just in this case a contract is just reduced to a true statement if the matching condition is met.
+
+[18:37] **kushti**: But if there is a signature after reduction, then a signature is checked against transaction bytes.
+
+[18:45] **kushti**: Alright, so hopefully you've got the idea and actually it's quite simple and it's already quite obvious why everything is so unified on Ergo.
+
+[19:03] **kushti**: So we don't have accounts, contracts, whatever, so we just have trees where both signature statements and programs are encoded in the same way.
+
+[19:26] **kushti**: They're living under the same tree.
+
+[19:34] **kushti**: And with this approach we already have on Ergo, we can now do different experiments.
+
+[19:47] **kushti**: We can think about different extensions.
+
+[19:52] **kushti**: And the general approach here is about taking already developed Sigma tree implementation with its Sigma protocols, types, computations, operations, implemented functions.
+
+[20:12] **kushti**: And then augment Ergo context with some additional context, for example, coming from a sidechain layer 2, so off-chain environment and so on.
+
+[20:27] **kushti**: Or we can replace Ergo context completely with something application-specific if we are going to use the similar approach of smart money.
+
+[20:46] **kushti**: So just smart digital money with no blockchain.
+
+[20:51] **kushti**: We also considered back in 2017 with a peer of mine, Bingxiang Zhang, and also Hangxiang Zhou, Professor Zhou, to use such approach in statement voting by just replacing ergo context with some other deterministic context provided during votes counting in so-called statement voting.
+
+[21:47] **kushti**: So a voting where a ballot is actually not just encoding a vote like yes or no, but actually contains some program to be executed during ballots counting.
+
+[22:08] **kushti**: Unfortunately, it wasn't implemented, but there were some considerations about that.
+
+[22:14] **kushti**: Alright, so if we are talking about something more blockchain specific, so let's start with merge mined sidechains.
+
+[22:28] **kushti**: So in merge mined sidechains, there is no problem in delivering main chain data on sidechain.
+
+[22:43] **kushti**: Because miners, sidechain miners do know mainchain context.
+
+[22:55] **kushti**: And then during execution it is possible to easily use some main chain context in a side chain.
+
+[23:15] **kushti**: Contracts executions augment sidechain context with mainchain context.
+
+[23:22] **kushti**: For example, with just mainchain UTXO set commitments.
+
+[23:29] **kushti**: With the latest UTXO set commitment, it's already enough for a variety of protocols.
+
+[23:35] **kushti**: And then it is possible to work with mainchain UTXO set in sidechain contracts without any issues.
+
+[23:46] **kushti**: That was used for trustless pegging in sidechain contracts presented at ErgoHack VII.
+
+[24:02] **kushti**: Another example without contracts at the moment, so just imaginable.
+
+[24:10] **kushti**: Let's imagine some private consortium blockchains which are willing to have Ergo as a time-stamping service for all or some transactions.
+
+[24:32] **kushti**: So in this case, private blockchains may have different validation contexts.
+
+[24:39] **kushti**: For example, they may have white lists, black lists, and so on on the blockchain level even.
+
+[24:47] **kushti**: And then this additional context could be provided during execution and in addition to inputs and outputs we may have input trees reduced to signature statements and then we can add possibility for private blockchain to have a signed Ergo transaction with signature statements in inputs.
+
+[25:33] **kushti**: Right, and then it's possible to post this signed ergo transaction from private chain on the Ergo blockchain and thus it is possible to have Ergo timestamping.
+
+[25:49] **kushti**: which is actually not revealing what was executed on a private blockchain.
+
+[25:55] **kushti**: So what we have on the Ergo blockchain is signatures of participants, commitments from participants.
+
+[26:08] **kushti**: So it is possible to say that at some point some private chain participants interacted on the private blockchain, right?
+
+[26:29] **kushti**: If you know that public keys are coming from private blockchain.
+
+[26:35] **kushti**: But only by observing private blockchain it's possible to say what contract was actually executed.
+
+[26:48] **kushti**: Another idea is about enhanced layer 2s.
+
+[26:57] **kushti**: Ergo contracts sigma trees can be augmented with layer 2 context.
+
+[27:06] **kushti**: While we have layer 2 related nodes in the sigma tree, it's not spendable on the Ergo blockchain.
+
+[27:24] **kushti**: Right, so if some condition is not met on layer 2, then a condition related to that layer 2 node in the sigma tree, then it's unspendable on Ergo.
+
+[27:47] **kushti**: But when the condition is met, then the tree, layer 2 tree, sigma tree, can be reduced to Ergo sigma tree.
+
+[27:58] **kushti**: And then the contract, layer 2 contract is actually can be executed now on the Ergo blockchain.
+
+[28:12] **kushti**: So we may have a similar to time lock protocol, right, where transactions are not spendable until some time.
+
+[28:23] **kushti**: But even if participants are exchanging signed Ergo transactions, so if condition is not met on layer 2s by some executing engine on layer 2s, it's an open question who will run it and what's the trust here.
+
+[29:00] **kushti**: We are skipping details.
+
+[29:03] **kushti**: But it's still not spendable on Ergo blockchain.
+
+[29:10] **kushti**: But when the condition is met, right, then the contract can be reduced and transaction can be signed and submitted on the Ergo blockchain.
+
+[29:20] **kushti**: And then we can remove Ergo context and have completely non-blockchain systems.
+
+[29:33] **kushti**: For example, statement voting, I described digital smart cash with Sigma trees and I think for digital coins it is a very natural model so it allows for cryptography for complex signatures also for some context right so it's again a hard question.
+
+[30:08] **kushti**: It's hard to imagine what could be an execution context in a digital smart cash environment.
+
+[30:22] **kushti**: Anyway, this is much more natural model than having some virtual machine and execute programs for no reason, for cash systems.
+
+[30:41] **kushti**: Because after all, this tree model is naturally answering the question, can a digital coin be spent at the moment and with signatures provided or not.
+
+[31:00] **kushti**: That's all.
+
+[31:01] **kushti**: Thank you for your attention and happy anniversary again.
+
+[31:06] **kushti**: Bye.

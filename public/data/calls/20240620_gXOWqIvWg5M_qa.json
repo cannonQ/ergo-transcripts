@@ -1,0 +1,123 @@
+{
+  "call_date": "2024-06-20",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "00:25",
+      "question": "What is the current state of Ergo development and what are you most excited about for the next five years?",
+      "asker": "Glasgow",
+      "answer": "Right now we're focusing heavily on scaling solutions and improving the developer experience. The node is more stable than ever, we're seeing great adoption of ErgoScript, and the ecosystem is really maturing. For the next five years, I'm most excited about layer 2 solutions, better tooling for developers, and seeing more real-world applications built on Ergo. We're also working on some exciting research around NIPoPoWs and cross-chain interoperability.",
+      "responder": "kushti",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "ErgoScript",
+        "layer 2",
+        "NIPoPoWs",
+        "cross-chain"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "02:55",
+      "question": "How do order book DEXes like Trade House differ from AMM-based exchanges like Spectrum?",
+      "asker": "Glasgow",
+      "answer": "Trade House is an order book-based decentralized exchange, which gives users much more control over their trades compared to AMMs. With order books, you can see the full market depth, set specific price levels, and avoid impermanent loss that's common with liquidity provision on AMMs. The main advantage is transparency - you know exactly what price you're getting before you trade. You can also do more sophisticated trading strategies like limit orders, stop losses, and partial fills.",
+      "responder": "qx()",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "order book",
+        "AMM",
+        "impermanent loss",
+        "slippage",
+        "limit orders"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "03:50",
+      "question": "What are bulletproofs and how might they be used in Ergo?",
+      "asker": "Glasgow",
+      "answer": "Bulletproofs are a type of zero-knowledge proof system that doesn't require a trusted setup, unlike SNARKs. They're particularly good for range proofs - proving that a value is within a certain range without revealing the actual value. What I'm working on is implementing bulletproof verification directly in ErgoScript. If we can do this, it opens up a whole new world of privacy-preserving applications. The beauty is that because Ergo supports Sigma protocols natively, adding bulletproof support feels like a natural extension of our existing cryptographic capabilities.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "bulletproofs",
+        "zero-knowledge",
+        "SNARKs",
+        "range proofs",
+        "Sigma protocols",
+        "ErgoScript"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "04:58",
+      "question": "What is the significance of Palmyra working with Chainlink while also supporting Ergo's native Oracle Pools?",
+      "asker": "Glasgow",
+      "answer": "We chose Chainlink for specific functions - mainly proof of reserve for our on-chain warehouse receipts. When a producer deposits commodities in a bonded warehouse, we need continuous monitoring through IoT devices like weight sensors, cameras, and motion detectors. Chainlink's network size and existing infrastructure made them the right choice for this particular use case. However, we're also planning to invest some of our raised capital into building out Ergo's Oracle Pool infrastructure. The goal is to use the right tool for each job.",
+      "responder": "Dan",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Oracle Pools",
+        "Chainlink",
+        "proof of reserve",
+        "warehouse receipts",
+        "IoT"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "06:15",
+      "question": "What are the potential speed improvements being considered for Ergo?",
+      "asker": "Glasgow",
+      "answer": "We have several draft proposals for scaling improvements that we'll be revisiting after Ergoversary. Options include sub-blocks, microblocks, and various layer 2 solutions. What's good about this moment is that we now have a concrete set of applications - GARD protocols, Rosen Bridge, Oracle Pools, Spectrum DEX, Trade House - so we have real data about transaction patterns and bottlenecks. Rather than optimizing in the abstract like many chains do, we can optimize for actual use cases.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "sub-blocks",
+        "microblocks",
+        "layer 2",
+        "scaling",
+        "transaction patterns"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "08:25",
+      "question": "How does Trade House handle partial fills and why is that important?",
+      "asker": "Glasgow",
+      "answer": "When you place a sell order, if someone buys part of it, the system automatically creates a new box with the remaining tokens at the same price level. This happens completely on-chain with no central authority. It means you can set up complex trading strategies - like buying 50,000 tokens across 10 different price levels and just wait for the market to come to you. This is especially valuable during volatile periods when you want to buy dips systematically rather than trying to time the market perfectly.",
+      "responder": "qx()",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "partial fills",
+        "order book",
+        "trading strategies",
+        "UTXO"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "09:28",
+      "question": "How does Ergo protect against DDoS and spam attacks?",
+      "asker": "Glasgow",
+      "answer": "Ergo has several built-in protections against spam. Since version 4.0.44, nodes have limits on downloading too many transactions from a single peer. We also have mempool filters where node operators can raise minimum propagation fee rates to stop spam from even entering their mempool. The reference client also has a fee estimation API that shows how much you need to pay to get into the next block. If there's sustained spam, honest users just pay slightly more and spammers' transactions eventually time out and get dropped from the mempool after a few hours.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "DDoS",
+        "spam protection",
+        "mempool",
+        "fee estimation",
+        "transaction propagation"
+      ]
+    }
+  ]
+}

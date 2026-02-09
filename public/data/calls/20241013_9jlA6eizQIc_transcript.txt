@@ -1,0 +1,211 @@
+[00:10] **qx()**: Hello and welcome to the solo dev update.
+
+[00:15] **qx()**: I know it's been a while. I apologize. It's sometimes hard to get these things off the ground with guests.
+
+[00:21] **qx()**: So this week I figured we would have a fallback on times when it's hard to find a guest. We would do kind of a spotlight on projects in the Ergo ecosystem to get them out there and to get a little sneak peek at these kind of things.
+
+[00:39] **qx()**: So let's dive right in.
+
+[00:42] **qx()**: Today, this week, we're going to hit MewFinance, and maybe next week as a counter, we'll hit auction house and trade house kind of thing.
+
+[00:50] **qx()**: But this week, MewFinance, for those of you who haven't been following, Mew is a project by HQx and Aco. They just had their presale last week, which the first round sold out, and the second round sold out within, I think, 30 minutes.
+
+[01:08] **qx()**: So people seem to be fairly interested in what these guys can do, which is great to see.
+
+[01:14] **qx()**: I know that if we go to the, let's see, presale right here, no, tokenomics. You can see they give different tiers depending on how many Mew you have, and it can reduce or eliminate the listing fee from their marketplace.
+
+[01:31] **qx()**: So let's dive into the marketplace itself.
+
+[01:36] **qx()**: He has two sections here. We have a DEX, which actually let's launch, and a MART. Oh, it looks like it's going to the same tab. That's interesting how it does that.
+
+[01:48] **qx()**: Okay, so the DEX, what they've done, from what I hear, is they've taken the Spectrum code, which is open source of course, they've stripped out all of the Cardano side of it, so we're only running the Ergo side of it, and they've rethemed it here.
+
+[02:05] **qx()**: From what my use of it, it seems a little faster. And perhaps that's just because all that code base isn't loaded in all at once. And maybe it's a little more efficient. Maybe it's just anecdotal. I don't know. But it does seem a little faster.
+
+[02:21] **qx()**: But you can do similar swaps. I think they actually have Mew up too now. Wow, they have some Mew in there as well. So pretty cool.
+
+[02:32] **qx()**: So that's a DEX there. They also have the thing that I wanted to point to is the MewMart.
+
+[02:38] **qx()**: And the Sigmanauts have kind of started to embrace this with a new project that they're doing called Sigma Shop. Just like anything else, they have any other marketplace, they have individual things you can sell or buy. They have packs or bundles that you can sell or buy, so you can do different tokens along with ERG, along with anything else, bundle it together and sell that as a thing.
+
+[03:02] **qx()**: They also have, and maybe I can't find it right off the bat, they also allow you to list as an escrow. So if you know that you want to give something to Bill and you know Bill's wallet address, you can sell that item and put Bill's wallet address as the actual.
+
+[03:22] **qx()**: Well, let me do that here. Escrow. Yep. So if we had escrow right here. we can put the buyer address, then only that buyer can take it. So that eliminates those situations where you put something to list and somebody else snags it before the person you actually want to snag it gets it.
+
+[03:39] **qx()**: So very, very cool feature here where you can escrow that.
+
+[03:43] **qx()**: It's fairly fast, too. When I list tokens, it scans my wallet, and as soon as I list that token, it goes back to another page to list a token, and that token's immediately gone from my wallet, which is, well, from the interface.
+
+[03:58] **qx()**: So there's no confusion about, did I just list this token? Am I waiting for it to clear in the mempool before it's listed, but it's still in my wallet kind of thing? Yeah, it's still in your wallet, and it's in the mempool, but it knows that it's in the mempool, the system, and it completely removes it from your view in the next listing.
+
+[04:13] **qx()**: So that's really really handy for kind of listing multiple things all at once, bam bam bam kind of thing. There's no confusion about what tokens you've listed because you hide them from your wallet as soon as they hit the mempool.
+
+[04:26] **qx()**: I think that's a very good feature for people who've listed a lot of tokens and had to fight through that to see which is which.
+
+[04:33] **qx()**: So that's that.
+
+[04:35] **qx()**: So one thing that, a cool thing that the Sigmanauts are doing with Sigma Shop is we are selling, this was branded by HQx, I believe, FIGITAL tokens. And what FIGITAL tokens are is it's a digital representation of an actual physical item.
+
+[04:53] **qx()**: So you go to the store. We sold out of all five of our hats that we posted. We did three shirts and three sweatshirts, and it looks like there's only two of each left, which is great.
+
+[05:07] **qx()**: So we're going to post more things here soon, but the gist of it is we create one-to-one tokens, singletons, the Sigmanauts do, of the swag and the merch that we have. We then post it on SigmaShop, on MewFinance, and MewFinance has a special thing in the background that says, hey, you cannot list these tokens unless they're from this address.
+
+[05:29] **qx()**: So if somebody tries to relist the token after they buy it, it's not going to let them. So there's kind of that integration that they've worked with us on that.
+
+[05:37] **qx()**: So once somebody says, oh, yeah, I'd love a Sigmanauts Mining t-shirt, they click it. They fill in their shipping address. then they hit buy.
+
+[05:47] **qx()**: That shipping address gets sent directly to my API, the Sigma Shop API, so it never hits MewFinance, so you don't have to worry about that. It goes right to our API in Sigma Shop, and we take it from there.
+
+[06:00] **qx()**: If you look at the description of the t-shirt, there it tells you that it's size large. It's item number two of that t-shirt. It tells you this is a minting address and has some instructions on how to contact what the next steps are and how shipping is estimated.
+
+[06:16] **qx()**: So this was kind of the beta launch of that.
+
+[06:20] **qx()**: There's going to be a more robust method that SigmaShop is going to do. And what they're going to sell, the gist of it is we want to sell all merch that traverses Rosen.
+
+[06:31] **qx()**: So you might see ETH merch, you might see Cardano or Bitcoin or Dogecoin merch here. And you'll be able to pay in Rosen, ETH, Rosen, ADA, Rosen, you know, that's the idea. Keep it on Ergo, bring people to Ergo, sell merch, sell physical merch via one-to-one NFTs.
+
+[06:49] **qx()**: And even beyond that, too, the rest of the plan is that we're using MewMart to escrow video cards. So if you're selling video cards, you ship them to an address that's Sigmanauts certified. Our Sigmanauts will spin it up, make sure it's not burnt out. It's going to work. And then we'll verify it. And then we'll ship the card to who it goes to. And we'll release the escrowed money funds to the person who sold it.
+
+[07:17] **qx()**: So I think that'll be a handy service as well, all using MewMart. And it just makes it possible.
+
+[07:23] **qx()**: So this is a really cool thing. I suggest everybody use it for FIGITAL, for normal tokens, for anything else, as well as start using that DEX. It's fairly fast compared to others.
+
+[07:37] **qx()**: Great.
+
+[07:39] **qx()**: So stay tuned for both updates from Mew. I know they're going to have some more updates after their token sale that they did, as well as Sigma Shop when hopefully we start getting more robust and offering more things. We're working on a proposal at the moment.
+
+[07:55] **qx()**: All right.
+
+[07:57] **qx()**: Good. Let's jump into the developer update, which has been a long time coming.
+
+[08:03] **qx()**: We've got, hang on, we have to go ASMR for Luivatra. He likes that.
+
+[08:09] **qx()**: Luivatra with Paideia. Contacts for our work around contract work finished. Contract work for the Paideia SDK 232 issue was finished. Test case is finished and passing. Well, that's always good, Luivatra. And deploying to do final on-chain testing. This is very exciting. Can't wait for Paideia final.
+
+[08:32] **qx()**: Nautilus with AnonBR. Everything is in place for the zero-conf setup. We'll do some polishing and release an alpha on the Abyss channel over the weekend.
+
+[08:40] **qx()**: Yeah, if you guys are interested in testing out, in case you've missed it, there is an Abyss channel for Nautilus, which is kind of just a pre-build of it that gets all kind of the new features. And I recommend using it if you're into that and you kind of want to get the bleeding edge before it goes to the main wallet.
+
+[09:01] **qx()**: And you can run them side by side, you just have to kind of shut one off while you use the other one, otherwise the dApps will be confused when you try doing it. But you don't have to delete your main branch when you run the Canary or the Abyss branch.
+
+[09:15] **qx()**: Okay, we've got kushti with Ergo Protocol and Reference Client R&D. Last functional PR for 6.0, global.sum, global.none, methods to construct an instance of option. He's polished pull 1010, and it's merged now. That is a Sigma State interpreter. He's polished pull 97 on Sigma State interpreter. Then there are a few tests costing center in a couple of PRs, and then activation details and rechecking everything before finalizing proposal for miners voting.
+
+[09:46] **qx()**: After messing with merging, close old PR and start a new one for 6.0 alpha 2. Merging is now good, so alpha 2 will be released later today, I guess. Nice kushti. 5023 testing is going well. I think he released this yesterday, so that's great. So I think it released tomorrow. Yeah, and he did. He did release it.
+
+[10:05] **qx()**: This is Node. As a reminder, for anybody running an Ergo node, it can be easier to update. Just download that Java, change the name in your command line to run it to 5.023 instead of 5.022 or whatever you were on before, and run it. That's it. That's the rest. Super easy. Couldn't be easier.
+
+[10:23] **qx()**: slowly working on sub-blocks input process block input blocks processing and reviewed first Sigma Rust 6.0 PR's by Dusek SigmaUSD sometime ago I realized the update contract box NFT can be storage rented in about seven months so started voting on contract update to address the issue possibly burn update keys as well and let's see if we can get to that real quick I read this this morning
+
+[10:47] **qx()**: He's got it listed right here. He's got the current key holders. I think mgPai is a new holder. I think he was passed to it by Joe perhaps. And there's a brief discussion here about the options right here to do it.
+
+[11:02] **qx()**: So if you have time, go ahead and read that. It's interesting. One of them is to just throw 100 ERG in when you redo the contract and it'll be good for 500 years and let those guys, let your generations ahead deal with it.
+
+[11:16] **qx()**: We have Dexy, payout contract updated. For others, it seems, white paper update is needed. Waiting for code for USE, to get back from vacation, and we're good for mainnet deployment, it seems. How dare they go on vacation.
+
+[11:30] **qx()**: ChainCash, discussing fixing one issue with Dusek. We'll provide details after fix. Cool.
+
+[11:38] **qx()**: Did I like Nautilus's thing? No, we got to make sure to. There we go.
+
+[11:42] **qx()**: Okay, we have Josemai with Celaut Project. The documentation seems to be ready, although there was always room for improvement. I believe it is an acceptable point. If anyone has time to look, I would appreciate it. The judgment of third parties is always valuable. And there's a documentation right there.
+
+[11:57] **qx()**: Currently, the tests are being carried out between several nodes in search of potential issues. Benefactor platform. The implementation of the contract has begun. Bruno has reviewed it and suggested some improvements. I hope to start coding this weekend.
+
+[12:11] **qx()**: Awesome. That's the reputation system, I believe, if anybody's confused about the vendor name.
+
+[12:18] **qx()**: Satergo version 1.80 was released on October 6th. Four tools. Airdrop, consolidate UTXOs, burn tokens, transact everything. Fan-flipping-tastic. Airdrop right from your wallet. That is hot.
+
+[12:32] **qx()**: Sending just tokens is cheaper now. Token prices from Spectrum DEX. Sending to multiple addresses in one transaction. View passwords while entering them. Better accessibility support. Japanese translation. Bug fixes. Node connection test. Improved transaction history. Bravo, Aberg.
+
+[12:51] **qx()**: And then Aberg is stealing his point on doing Java stuff. It's annoying because the app gets inconsistent. I don't think anybody answered him here, but yeah. It's always good to hear feedback like that.
+
+[13:05] **qx()**: All right, we've got NoRoYogi with, that is Mark the shark, with Sigmanauts mining pool. Beta testing for miner IDs is live for the main pool at ergo-miners.com. Mining swap running in background for main pool. Mine is receiving shark tokens. Nice. Need to finalize a few UI metrics. Vote to be created for mint price suggested three ERG. Vote to be created for bonus distribution frequency.
+
+[13:28] **qx()**: I think this has already been created. It's just being voted on. CannonQ is working to get tokens from projects for swapping and live sometimes next week.
+
+[13:40] **qx()**: So for those of you who weren't following that, the evolution of the Sigmanauts mining pool is just like on fire.
+
+[13:47] **qx()**: So what Mark is now doing is the idea is that to make it as kind of decentralized as possible with not having to visit a website or log your IP or anything like that, right? You can determine what you want a payout in or what the threshold of that payout in is by minting a token and putting it in your wallet.
+
+[14:09] **qx()**: So it's super, super cool. And if you're done with that, you just remove that mint token from your wallet. You kind of go back to the defaults. So it's a really, really cool concept.
+
+[14:19] **qx()**: All right, we've got qx() with Lithos. I started testing NISP contracts, which has gone well so far. I have restarted work on an old idea of mine involving transaction building off-chain code. This goal is to treat UTXOs and transactions in a more functional way versus how they are built in AppKit. I believe this will help Lithos move along a bit quicker, as it will make it easier to code optimistic evaluation for NISPs. I will maybe release a standalone library if people are interested. Very cool.
+
+[14:47] **qx()**: And for those of you who don't know as well, qx() was responsible for making the storage rent collection for Sigmanauts mining pool, which I don't know if I've mentioned it because I haven't done a dev update in a month, but it's live. We are literally collecting storage rent. And we're competing with one other person that's doing it as well.
+
+[15:08] **qx()**: So it's really fun. We have the Ergo monitor on in the Sigmanauts mining channel. And every once in a while after a block's fine, you'll see a hit on the storage rent wallet, because we have it sent to a separate place so we can track it a little easier. And boom, you'll see 0.1 ERG, 0.9 ERG, 0.8 ERG sent to that wallet. It's really, really fun to watch, and that it's working. It's great.
+
+[15:28] **qx()**: Oh, myself, qx(). I'm working on a video tutorial of Explorer setup, how to activate Cloud VPS, essentially renting an instance through Hetzner. Connect via SSH, install Docker, install the node. I'm using the Docker from mgPaiFullySync just because it takes five hours instead of 24 hours. Install Explorer will be from a zip I have from my working one.
+
+[15:55] **qx()**: So I found that to be easier. There's less configs you have to do. I know it's not pulling from Git, but it'll be on a website, maybe the Sigmanauts website. The tutorial will be. It's essentially just a zip and you change two or three things on it. That's it. So it's super, super easy to do.
+
+[16:11] **qx()**: and then you docker compose up build and it installs everything for you in Hetzner and then you have to I believe create a network socket for Ergo node and a networks and a container for the database I think that's it but it's all in there the video just needs to be pieced together I have it all recorded in choppy I just have to make it a little smoother and nicer
+
+[16:34] **qx()**: install nginx so that is for like we want an HTTPS connection right so nginx will take all those api.ergo or the graphql.ergo and it'll forward them to the correct ports as well and install Let's Encrypt for HTTPS so that's all done I'm actually it's almost done let's see where it is this is the
+
+[16:59] **qx()**: No, this is the Explorer that's working. It is on block 1.2 million, and we need to get to block 1.3 million, 1.37. So it's really close. It's taken about 48 hours to sync, but it is what it is, and it is going to be in Singapore.
+
+[17:21] **qx()**: So we'll have a main node, my main node in New York, we'll have the main Ergo platform, explorer.ergoplatform. I believe that's somewhere central Europe, like Germany or somewhere. And then we'll have the Singapore node as a backup node. We also have Sigma Explorer.
+
+[17:40] **qx()**: Yeah, Sigma Explorer, I think I have it somewhere here. Let me see. I have a big list.
+
+[17:52] **qx()**: It is sigmaspace.io. That acts as alt explorer, Ergo explorer, alt explorer. Then we have Sigma explorer as well. It's still up. And we have a GraphQL as well from sigma space, as well as three other GraphQLs from those ones.
+
+[18:11] **qx()**: The idea here is that we're going to try to load balance. So if everybody's hitting the main explorer, it'll be kind of around Robin DNS where it'll send you to the New York one, it'll send you to the Singapore one, it'll send you to the Germany one kind of thing. And then we'll also parse them out as well so that you can go direct if you want to.
+
+[18:29] **qx()**: So let's say you're running a dApp and you're in New York and you don't want to get pushed to the Singapore one, you can just go direct to the New York one kind of thing.
+
+[18:38] **qx()**: So we're just trying to make it easier, trying to do a general load balance here for the explorers, because that is one thing I think that we're suffering on. We don't have enough explorer instances for the spike. So this will hopefully fix that. And then if you guys want to follow the instructions to make your own explorer, that's what that is for.
+
+[18:54] **qx()**: And do we have anything else? Did I miss anything?
+
+[19:06] **qx()**: Let's see if there are any last-minute ads. I didn't re-scroll through this, so it's as much as a surprise to you as it is to me.
+
+[19:15] **qx()**: And that's it.
+
+[19:20] **qx()**: Yes. That's it, very cool. So I'll try to keep doing these weekly on my own as I can't get some guests. Otherwise I'll bring guests in. But when I don't have a guest, I'll just feature something in the ecosystem.
+
+[19:37] **qx()**: So if you want to be featured or be talked about, please DM me. I'm happy to take suggestions as opposed to having to think about what to do other than that.
+
+[19:47] **qx()**: I just want to leave you guys with some things that I've been thinking of a lot lately on how Ergo can be successful and how these things become successful. And it brings me to thinking about how kind of economies evolved over time, right?
+
+[20:05] **qx()**: So you had a function, a need, and a demand for that economy to flourish and be fostered. And you maybe had goods that needed to be traded or sold inside that economy, inside that local bubble. And that's what sustained it. There wasn't like some outside influence, perhaps, big money that was supporting our property. I'm sure that's happened, but that's not the organic kind of growth.
+
+[20:34] **qx()**: I say this a lot, and I'll say it again. I think the best way to move Ergo forward and beat and outlast those chains that just get money funded and pumped into them is to create an economy that is reliant on the people in it. And the people in it are reliant on the economy, right?
+
+[20:53] **qx()**: So that's things like MewMart, where Sigmanauts are now going to be posting actual real swag and real things to it, and we're creating an economy and a revenue stream for people to do. If you want to hook up with SigmaShop, you can tag in with us, and we can act as an intermediate, and we can sell your stuff.
+
+[21:12] **qx()**: So things like that, where the economy is, they're relying on the people, the people are relying on that economy.
+
+[21:18] **qx()**: Things like, even as simple as, I know it sounds crazy, but creating some sort of financial investment package. When we have Sigma lockup, when we have DuckPools, we have SigmaFi.
+
+[21:36] **qx()**: So think about combining those two and actually going out into other spaces and saying, here's a return package, here's a life insurance policy that we could do and things like that. The idea is to create these things. We don't have the advantage, all right? We don't have the advantage of being in a central geolocation to evolve this economy, right? That was the advantage that these other pockets had back in the day.
+
+[22:01] **qx()**: So we have the disadvantage and the advantage that we can take, we can make this economy from sprinkled out all over the globe, right? So it doesn't look like it used to in the past, but it functions the same, even though we're not all located in the same spot, and we're different time zones, different ideas, different areas.
+
+[22:22] **qx()**: We still can have these main goals of, I want to sell stuff. I want to offer, excuse me, returns on investments. I want to do other stuff that we haven't even thought of yet, right? I want to create a bolstered economy that can then write ChainCash notes.
+
+[22:39] **qx()**: Could you imagine? talking too much. Could you imagine something like the Sigmanauts or something like the Lithos DAO or if there was a Lithos DAO or an NFT DAO, right? Or the mining DAO.
+
+[22:55] **qx()**: Let's say these guys got self-sustaining to where there's money coming in enough to sustain themselves enough to pay the people working on it. that these guys could then start issuing ChainCash notes to each other. They could then, those could go outside of those DAOs and people would be like, oh, I trust this ChainCash note because I know it was written by the Sigmanauts mining DAO or I know it was written by the Sigmanauts NFT DAO or some other kind of DAO or whatever.
+
+[23:25] **qx()**: So that's how I feel we should be building the Ergo up and pushing it forward. I know it might not be that popular because a lot of people think, hey, let's get money, let's get influences, let's, you know, do that. But yeah, that could be good and we could continue to do that kind of stuff and nobody's stopping anybody from doing that stuff.
+
+[23:46] **qx()**: But in my personal opinion, I don't think from what I've seen outside that that is sustainable. That's like a hurricane coming in, you know, the winds get really strong and everything, you know, the windmills are going, but, you know, it goes away.
+
+[24:01] **qx()**: And once that goes away, the windmills don't have anything to power themselves by. But if we can create something that can self-sustain and self-power. If the wind comes, then great. That's bolstering it and making it even stronger. But if it doesn't come, then we can still survive and we can still do what we're doing because we've built an economy that relies on each other and ourselves.
+
+[24:23] **qx()**: That's my speech today.
+
+[24:27] **qx()**: So the moral of that story is invest in yourselves. Sell stuff, build stuff, use your tokens for stuff. Support a project. Not just support the project with your ERG, but involve yourself in that project.
+
+[24:46] **qx()**: I am 99% sure any project that would love help with anything, maybe running Twitter, maybe helping with tweets, even if it's not running Twitter, helping with tweets. Hey, here's five suggested tweets for you this week. Or here's some artwork for some tweets. You know, you're investing passively in a project. Let's not be passive investors. Let's be active investors, all right?
+
+[25:08] **qx()**: So if you love Cyberverse, invest in it. Play the game. Push it out on social media. Help them that way. If you like MewMart, list some things. Join up with a Sigmanauts shop. Sell some things with us. and advertise that on your socials and talk to people about it.
+
+[25:26] **qx()**: That's what's going to get us going. That's what's going to give us a sustaining base that is unbreakable and unstoppable.
+
+[25:35] **qx()**: All right, that's enough for me today. I always said I hate and I would never do these one-on-one kind of solo things because it's like self-masturbatory and just like hearing yourself talk I guess but it is what it is and it's in need so you'll get more of these as we don't have guests every so often so
+
+[25:57] **qx()**: Everybody, enjoy your week, and we'll see you next week at the AMA on Thursday morning, and then maybe I'll try to get HQx next week to talk about MewFinance and the Mew Shop. If not, I'll talk about Auction House and Trade House and how that's kind of similar as well, and I believe it's a little more decentralized in the matter of speaking.
+
+[26:25] **qx()**: So yeah, I'll talk to you then guys. Ciao.

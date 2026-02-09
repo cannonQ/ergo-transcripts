@@ -1,0 +1,337 @@
+[00:14] **Marty**: Hey everyone, this is going to be a video demonstrating how the Paideia dApp works.
+
+[00:22] **Marty**: I'm going to go through, I'm going to register to vote, which is called staking, and then I'm going to create a proposal and vote on it.
+
+[00:30] **Marty**: So this is just the Paideia landing page.
+
+[00:33] **Marty**: We're going to go into the dApp here.
+
+[00:35] **Marty**: And I'm already a member of the Paideia DAO.
+
+[00:40] **Marty**: I've connected my wallet using Nautilus.
+
+[00:43] **Marty**: I've got this one here with my B Paideia, which are beta tokens.
+
+[00:47] **Marty**: You can get those on the Ergo faucet.
+
+[00:51] **Marty**: So when we go into the Paideia DAO here, you can see I already have 3.1 million tokens, as you can see here.
+
+[01:01] **Marty**: And it's picked those up.
+
+[01:04] **Marty**: But at the moment, if I wanted to vote on anything, I've already voted on this one, but I've unstaked now just to show you what it looks like.
+
+[01:15] **Marty**: So if I wanted to vote on this, I wouldn't be able to right now because I don't have any tokens.
+
+[01:20] **Marty**: Staking key is not present or in use in another transaction.
+
+[01:24] **Marty**: So that's where we'll start.
+
+[01:28] **Marty**: So you go in here over to staking,
+
+[01:31] **Marty**: Manage stake and we're going to actually change the name.
+
+[01:34] **Marty**: Staking is for if the DAO is going to distribute tokens to you.
+
+[01:38] **Marty**: Some DAOs won't do that, but you still need to stake.
+
+[01:40] **Marty**: So we're just going to call this voter registration or something like that.
+
+[01:43] **Marty**: But for now it's called staking.
+
+[01:45] **Marty**: So you go here, manage stake.
+
+[01:49] **Marty**: You don't want to stake all your tokens because you need some to create proposals and things like that.
+
+[01:55] **Marty**: So I'll probably just stake 3 million of them.
+
+[01:59] **Marty**: Let's keep it even.
+
+[02:04] **Marty**: This is going to send my tokens to the smart contract.
+
+[02:13] **Marty**: So we'll do that.
+
+[02:16] **Marty**: Check the transaction here.
+
+[02:18] **Marty**: So if you don't know, if you're not familiar with Ergo Explorer, it's just not displayed yet because it's just entered the mempool.
+
+[02:25] **Marty**: So sometimes if you just refresh a couple of times there, it shows up.
+
+[02:29] **Marty**: This is the inputs and this side is the outputs.
+
+[02:34] **Marty**: If you check over here, you can see my B Paideia tokens going into this smart contract here.
+
+[02:42] **Marty**: And if we go back to our wallet,
+
+[02:47] **Marty**: just take a moment.
+
+[02:48] **Marty**: You have to refresh in there.
+
+[02:50] **Marty**: So it's sent it to the proxy contract and this is sending back my state key to one of them will be my wallet.
+
+[03:04] **Marty**: And you'll see this will turn into a stake NFT.
+
+[03:06] **Marty**: This is just the token because it's not registered yet on chain.
+
+[03:10] **Marty**: So that was just the token ID.
+
+[03:12] **Marty**: Anyway, once that's gone through, let's see,
+
+[03:18] **Marty**: We'll come back when that's complete.
+
+[03:25] **Marty**: Okay, we're back.
+
+[03:26] **Marty**: We've got two confirmations.
+
+[03:28] **Marty**: The dApp's registered that I've now staked 3 million B Paideia tokens.
+
+[03:35] **Marty**: So now we can participate in the DAO.
+
+[03:39] **Marty**: We can vote on proposals, things like that.
+
+[03:42] **Marty**: So I'm going to create a proposal.
+
+[03:49] **Marty**: So you go here into proposals, create new.
+
+[03:53] **Marty**: You can see all the proposals here, but we're going to create a new one.
+
+[03:58] **Marty**: Click on create a proposal.
+
+[04:00] **Marty**: Just really quick, I just went back here.
+
+[04:02] **Marty**: Create a discussion does not actually create any votes.
+
+[04:07] **Marty**: So you can create a discussion if you sort of want to see what people think about something, but you don't want to put it to a vote just yet.
+
+[04:13] **Marty**: Discussions can later be upgraded to proposals.
+
+[04:15] **Marty**: But we know we want to have votes, so we're going to create a proposal.
+
+[04:20] **Marty**: I'm going to give it a name.
+
+[04:26] **Marty**: And choose a category.
+
+[04:27] **Marty**: So we're just going to choose General here.
+
+[04:29] **Marty**: I'm going to leave the image as it is, but you could replace this with any image you'd like for the proposal card.
+
+[04:39] **Marty**: Here, if you want, you can reference another proposal.
+
+[04:43] **Marty**: So let's say something failed and you wanted to adjust the parameters and then try again, you could reference it here.
+
+[04:50] **Marty**: So let's just say
+
+[04:53] **Marty**: we'll test the no vote as we'll reference test no vote.
+
+[04:58] **Marty**: We don't have this feature available yet, so it's just going to be a yes or no vote.
+
+[05:04] **Marty**: And then you can choose an action.
+
+[05:07] **Marty**: So there's a few different actions available at the moment.
+
+[05:10] **Marty**: You can just simply send funds to any address on the Ergo blockchain, or you can update the DAO configuration.
+
+[05:17] **Marty**: So that would be something like
+
+[05:19] **Marty**: and this will be a little bit more user-friendly in the future, but you could change the URL on the DAO's page or the description, for instance.
+
+[05:31] **Marty**: You could change the logo or there's other things like quorum.
+
+[05:35] **Marty**: So if you wanted to say, we're having trouble getting enough people to vote, let's lower the quorum to 5%.
+
+[05:41] **Marty**: You could do something like that.
+
+[05:43] **Marty**: Right now, we're going to remove that.
+
+[05:45] **Marty**: I am just going to, actually I'm not going to choose any actions.
+
+[05:50] **Marty**: We're just going to have a vote.
+
+[05:54] **Marty**: I'm going to set the duration to five days and I'm going to ask people what they want, whether they want to vote yes or no.
+
+[06:01] **Marty**: So this could be if you're just polling the DAO members, but you want an official vote to go through on chain.
+
+[06:07] **Marty**: So do you think we should change the DAO name or anything like that, right?
+
+[06:15] **Marty**: If they've all vote yes, then we'll make a proposal later that could update the DAO config and change the name.
+
+[06:22] **Marty**: But right now, I just want to know if people agree that we should change it.
+
+[06:29] **Marty**: So we're going to publish that.
+
+[06:35] **Marty**: And that's going to ask me to sign.
+
+[06:37] **Marty**: So I have to pay a thousand B Paideia tokens.
+
+[06:40] **Marty**: This is another setting.
+
+[06:42] **Marty**: So later, if you're a member of the real Paideia DAO with the real Paideia tokens, you'll be able to change this setting.
+
+[06:49] **Marty**: This is what the platform charges or the smart contracts charge to create a proposal.
+
+[06:54] **Marty**: So at the moment it's 1000 B Paideia, but that could change if the DAO decides to change that in the future.
+
+[07:00] **Marty**: So I'm just going to sign this.
+
+[07:04] **Marty**: And the transaction submitted.
+
+[07:06] **Marty**: And currently it's in a draft mode.
+
+[07:14] **Marty**: Let's check on chain here.
+
+[07:17] **Marty**: So this will be the submission transaction.
+
+[07:21] **Marty**: And what it does is it sends, it takes our vote registration key or our state key and the cost, which was a thousand B Paideia tokens.
+
+[07:34] **Marty**: And it creates the proposal and then it sends the state key back to me.
+
+[07:43] **Marty**: You can see it's creating a proposal on chain.
+
+[07:46] **Marty**: This will be the DAO registration token.
+
+[07:52] **Marty**: So all that stuff's taking place in this transaction.
+
+[07:59] **Marty**: We'll let that finish and then we'll come back.
+
+[08:04] **Marty**: Okay, so we've got a couple of confirmations on those transactions now and the proposal has switched to active.
+
+[08:13] **Marty**: It shows five days remaining.
+
+[08:14] **Marty**: Everything's set up.
+
+[08:17] **Marty**: So now, and if we check the all the proposals, you see it here, five days remaining.
+
+[08:23] **Marty**: So we can go in there and you can do stuff like follow it.
+
+[08:29] **Marty**: You can like it.
+
+[08:30] **Marty**: You can even add comments.
+
+[08:36] **Marty**: And have a discussion.
+
+[08:38] **Marty**: So that all loads in here.
+
+[08:40] **Marty**: And like I said, we referenced the other one.
+
+[08:44] **Marty**: So here's the no vote that we referenced.
+
+[08:46] **Marty**: This is a failed one.
+
+[08:48] **Marty**: We could go there and check it out.
+
+[08:51] **Marty**: And you can see it's referenced by our new test proposal.
+
+[08:55] **Marty**: So here's our new test proposal again.
+
+[08:56] **Marty**: At the moment, nobody's voted.
+
+[09:00] **Marty**: So we're going to put our vote through.
+
+[09:04] **Marty**: So I'm going to say, I'm going to approve the proposal and vote.
+
+[09:09] **Marty**: It's going to send our state key along with just a little bit of B Paideia tokens, but it doesn't charge you much to vote.
+
+[09:21] **Marty**: Sign that.
+
+[09:24] **Marty**: We've got our transaction here.
+
+[09:26] **Marty**: And we'll let that one go through.
+
+[09:31] **Marty**: And then I'll come back and show you what that looks like on the website.
+
+[09:36] **Marty**: All right, we're back.
+
+[09:38] **Marty**: The vote has confirmed on chain now and it's loaded on the DAO.
+
+[09:43] **Marty**: I just had to refresh the page and it's showing here at the bottom here, or on the sidebar here, we've got 3,000 votes.
+
+[09:51] **Marty**: Yes.
+
+[09:52] **Marty**: So those were my votes.
+
+[09:54] **Marty**: And that's done.
+
+[09:55] **Marty**: If you go back to the proposals page, you can see that here, our new test proposal currently has, sorry, 3 million votes.
+
+[10:05] **Marty**: It shows that I approved it.
+
+[10:07] **Marty**: We've met Quorum.
+
+[10:08] **Marty**: I guess I have enough tokens to meet 60% support of the total votes that are registered.
+
+[10:16] **Marty**: So the total number of staked tokens would give you the percent of support.
+
+[10:22] **Marty**: That means we've... Oh, sorry, pardon me.
+
+[10:25] **Marty**: This DAO requires a 60% yes vote.
+
+[10:29] **Marty**: So at the moment it's 100%.
+
+[10:30] **Marty**: And quorum has been achieved, so I do have enough to meet the quorum.
+
+[10:35] **Marty**: We can also check in DAO config here.
+
+[10:41] **Marty**: We can see what the quorum setting is that should be.
+
+[10:48] **Marty**: Here.
+
+[10:48] **Marty**: So 15% of registered voters or registered vote tokens need to be cast on any proposal in order for it to be passed.
+
+[11:00] **Marty**: And you need to have at least 60% yes.
+
+[11:03] **Marty**: So those settings are here.
+
+[11:05] **Marty**: If we wanted to change that, like if we said, let's change it to 10%, we could submit a proposal right here.
+
+[11:15] **Marty**: So this is like something you would do if like you were having trouble getting any votes to go through because not enough people were participating in the DAO.
+
+[11:28] **Marty**: You would lower the quorum or vice versa.
+
+[11:30] **Marty**: If you're like, you know, we don't want one whale to be able to influence all votes.
+
+[11:36] **Marty**: You'd raise the proposal so that it was above sort of like that whale's amount or, or it would depend on the DAO, right?
+
+[11:42] **Marty**: So, so we can do that.
+
+[11:44] **Marty**: This has automatically generated an update DAO config.
+
+[11:49] **Marty**: And like I said before, we'll make this look better so that the end user can read it easier.
+
+[11:57] **Marty**: Right now it's got these key settings, these object settings, which are a little bit of a developer thing, so we'll make that nicer.
+
+[12:05] **Marty**: But as you can see, it did automatically generate when I changed that on the DAO config page.
+
+[12:11] **Marty**: And we could make a proposal here, but I'm not going to demonstrate that.
+
+[12:15] **Marty**: Now, so that's Paideia.
+
+[12:17] **Marty**: That's how you use it.
+
+[12:18] **Marty**: So it's quite simple.
+
+[12:19] **Marty**: Just to reiterate, you get your DAO tokens.
+
+[12:25] **Marty**: Like I said, I had my B Paideia tokens.
+
+[12:28] **Marty**: You stake them in the manage stake section.
+
+[12:31] **Marty**: Once they're staked, they're registered to vote.
+
+[12:36] **Marty**: You can make proposals here in the proposal section, create new, and you can vote on them with the vote button.
+
+[12:42] **Marty**: So that's it.
+
+[12:44] **Marty**: That's Paideia.
+
+[12:46] **Marty**: There's a few other features.
+
+[12:47] **Marty**: You can see sort of all the DAO members.
+
+[12:50] **Marty**: These are all the people who hold DAO tokens and who've logged into the DAO.
+
+[12:55] **Marty**: And we've got an activity page.
+
+[12:59] **Marty**: It shows sort of what I've done recently here.
+
+[13:01] **Marty**: It should be showing votes, so we'll get that fixed too.
+
+[13:06] **Marty**: Hopefully we'll get out of beta shortly get some of these things fixed and we'll be on our way so thanks for watching if you have any questions join us in discord or telegram and we'll see you there

@@ -1,0 +1,401 @@
+[00:14] **Armeanio**: Hey, good morning, everybody.
+
+[00:17] **Armeanio**: Let's go back to the weekly AMA.
+
+[00:22] **Armeanio**: So thanks for tuning in everybody out there. Those of you that catch this later.
+
+[00:27] **Armeanio**: I'm here with kushti.
+
+[00:29] **Armeanio**: I haven't been on the AMA for quite some time. 7 a.m.
+
+[00:33] **Armeanio**: So I got my coffee with me. I'm ready to take some questions from the community.
+
+[00:38] **Armeanio**: How have you been, kushti? What's new?
+
+[00:40] **kushti**: Hello, everyone. Yeah, my pleasure to be here again.
+
+[00:44] **kushti**: And yeah, with good company. Also, yeah, a lot of things going on right now.
+
+[00:52] **kushti**: I think this is super active time, actually. Maybe like autumn 2020, right? By feeling so.
+
+[01:05] **kushti**: Well, a lot of things have been cooked at the same time. And yeah, a lot of interesting talks around and so on. So yeah, quite exciting.
+
+[01:20] **Armeanio**: So what are you cooking in the kitchen behind you? I know that you've got sub-blocks that you're actively working on. I've read periodically that there's a part of you that was thinking about parallelizing things across CPUs.
+
+[01:38] **Armeanio**: So what are you up to these days?
+
+[01:42] **kushti**: Yeah, well actually two reference client releases were done in two days. Today it was 5.0.23. Yesterday it was 6.0.0.2, which is actually about including all the functional features, all the functionalities of Sigma 6.0.
+
+[02:13] **kushti**: Then, yeah, well, I will work on activation details for 6.0, making proposals for miners to work on. Well, also, do some tweaks, soft forkable tweaks in regards with validating some parameters to introduce new parameters basically to make it's possible in future to work on a new parameter so a number of sub-blocks per block so the idea is to make it configurable right so to avoid hard forks or soft forks even when it will be possible to for example make it quicker in opposite to make them slower.
+
+[03:08] **kushti**: Well, it depends on how peer-to-peer network would be loaded and then it will be possible to change peer-to-peer network behavior and performance. Here on the fly, we are just minor sorting, so that's quite amazing as well.
+
+[03:28] **kushti**: And yeah, I mean, in regards with confirmations for DApps, that would mean like block time, right, and other protocols, but also without security considerations, basically, because the block time is still the same, would be the same. I mean, full block, ordering block.
+
+[03:52] **kushti**: So, yeah, well, I also need to write down things. To make security proof also, so I'm checking security proof in protocols. This sub-blocks proposal got inspiration from such as Prism.
+
+[04:17] **kushti**: parallel proof-of-work Prism yeah the old ideas from GKL-15 about two posts for one so yeah making two solutions with one hit and so on yeah so well i need to check how to proof security right somehow maybe not in the most formal way because it's time consuming but anyway so we need for guidance here we need to be sure that well it is no just dangerous vaporware like many shitcoins are doing so well Ergo was started with a lot of research like a dozen of papers published just by the foundational team members.
+
+[05:23] **kushti**: We've also used a lot of work from outside and so on. We consulted with developers and people in academia. Ergo even paid grants to some professors. You can find traces in some papers with acknowledgments of Ergo platform for grants assigned and so on.
+
+[05:52] **kushti**: So yeah, I mean, a few years ago, a lot of efforts were spent on making a solid foundation for the Ergo protocol. And well, there is no any reason to sacrifice that and to do vaporware instead.
+
+[06:17] **kushti**: So, yes, 6.0 is functionally ready, but I need to recheck things because it's about thousands of lines of code. Well, I made certain efforts to make everything standardized. So, well, easy to audit, then easy to review.
+
+[06:41] **kushti**: So yeah mostly well it's about just adding new methods and this is more or less standardized but then yeah on top of that there are some fixes to the current protocol but probably not noticeable even for ErgoScript developers and also the new data type for cryptographic applications.
+
+[07:22] **kushti**: So for sub-blocks, I already have them being generated in DevNet locally and actually everyone can run this DevNet locally. It's a branch, the old branch which can be found on the GitHub.
+
+[07:43] **kushti**: And, yeah, well, there is nothing hidden, right? Nothing private here. So, well, everything is public as usually and also under public domain license. So you can play with it, modify it, whatever.
+
+[08:02] **kushti**: Yeah, so I'm already generating the sub-blocks, so an internal miner in the reference client is doing that. And yeah, slowly working on processing, so well, distinguishing sub-blocks, input blocks, well, blocks, ordering blocks, and well, doing validation rules for them differently and so on and then yeah there is a big question so what to do after right so 6.0 and sub-blocks and that's the open question so I'm starting community discussions right because well I think well developers actually, co-developers should serve the need of the ecosystem and also the need of the real world, right?
+
+[08:59] **kushti**: Because after all, that's what does matter, right? So it's, well, to me personally, it should be about making a real world impact.
+
+[09:17] **kushti**: So, yeah, well, maybe we can do space on that or just Telegram chat, but you can drop on the main Telegram group bridged with Discord as well. And, yeah, well, discuss there if you prefer some other ways to communicate. You can, for example, drop an email in a encrypted one. We can do key exchange first. Whatever. So yeah, something like that. So what's on your site? And yeah, sorry, I have to switch my camera off for a couple of things.
+
+[10:06] **Armeanio**: Sure, no problem.
+
+[10:08] **Armeanio**: So what's new on my side? Looks like the video went crazy. I'll give kushti a minute.
+
+[10:18] **Armeanio**: Perfect. Let's see. Let's start with Lithos. Lithos client, I think is one of the more interesting development paths long term.
+
+[10:27] **Armeanio**: When I joined the crypto community the ideas around cryptocurrency a lot of it had to do with unstructured networks, right and one of the things that I think that Ethereum really did well that led to its success when it was a proof of work project, was this idea of public MEV.
+
+[10:54] **Armeanio**: You take transaction ordering and you take a certain element of profit out of the system and then you distribute that to miners via mining pool. And so then that added an extra incentive or revenue for miners that really led to the growth of their security wall.
+
+[11:15] **Armeanio**: Things have shifted more or less. Now we see networks that are very structured and oftentimes, in my opinion, they're structured specifically to capture MEV. You have some networks where they have this idea of private mempools where you can't really audit how trades are ordered.
+
+[11:36] **Armeanio**: And it creates a certain, I would call it an attack vector against retail. I guess we see that in traditional markets quite often where you have kings of order flow right and those kings of order flow kind of run their own high frequency algos that are constantly reacting to data inputs into the system and extracting profit, right?
+
+[12:01] **Armeanio**: So we've seen that I'm just going to call it Wall Street-esque style of order flow profit extraction that's more or less being baked into the structure of crypto networks, which I guess for some liquidity providers is attractive because it offers a set incentive that they're going to profit from trading activity.
+
+[12:30] **Armeanio**: But it does create a system that works against retail. And so in proof of work, having that MEV cost public and then distribute it is probably one of the more interesting aspects of decentralized finance that I've seen because when you have a network that's structured to manipulate order flow all of that profit is going to centralized parties let's just call it it is what it is usually you have pretty wealthy validators that have their own funds that they're constantly using to play with order flow and extract a certain profit.
+
+[13:17] **kushti**: Yeah, already happened, by the way. So for one network like that, so data center, based validators in the data center and on the day do have peer-to-peer protocol. Other clients are basically using client-server model to communicate with the validators network.
+
+[13:45] **kushti**: For such a network I've seen the requirements to lock half a million dollars worth of tokens, and then yeah, also to have expensive hardware and so on.
+
+[13:59] **Armeanio**: Yeah, so it kind of changes the dynamics of any basic assumption of like a peer-to-peer financial network, right? You just more or less have these structures in the system themselves that basically have an advantage.
+
+[14:17] **Armeanio**: And one of the cool things about Lithos is this idea that miners can submit their own blocks, right? And I think that as that project progresses, hopefully we get back to this idea of the cost of order flow changes being democratized and distributed back to miners, because that did work well.
+
+[14:45] **Armeanio**: I mean, you can even look at the numbers, when ETH was proof of work, cryptocurrency was more successful than it is today. And that was despite ETFs and all of the shiny bells and whistles that have been built around it.
+
+[14:59] **Armeanio**: And at least in my mind, I think a large part of that had to do with how the reward mechanism of MEV worked versus now staking tends to make that profit concentrate to a smaller group. Just changed the network itself.
+
+[15:20] **Armeanio**: Then we have, let's say, an avenue that I'm playing with where we're going to fork the Oracle framework and play around with this idea of silver stablecoin. We already have the one that's live.
+
+[15:41] **Armeanio**: And having silver, I think, is a nice addition to that. It's interesting to me. There's a part of me that says, OK, long term, if we were to see some sort of massive regulatory attack against our industry, and let's say it's some day central bank digital currencies roll out, what's left for peer-to-peer currencies?
+
+[16:05] **Armeanio**: And I do think that gold and silver have been resilient for thousands of years and embody some of the same principles as cryptocurrencies, where you have this idea of a bearer asset that you're in control of. that's broadly fungible, that you can potentially swap for goods and services, but you do have a certain fractionality aspect that gets tricky with hard money in the physical.
+
+[16:37] **Armeanio**: And so there's an interesting question, whether digital representations of that could be adopted as a form of peer-to-peer currency. Those of you that have been around the space for a while know there was a company called eGold that was actually relatively successful. kind of the actual adoption of the goldback currency.
+
+[17:02] **Armeanio**: Now, one flaw that it had is it wasn't built on a decentralized network, right? It was built more or less in a single company, and that single company created a single attack surface. And due to its success, it did end up getting shut down due to money transmission licensing issues and the same regulatory attack that we see more or less used against the crypto industry today.
+
+[17:27] **Armeanio**: So I think that creating some sort of potential avenue for people to swap hard assets for digital assets is a really interesting idea. Personally, I would say we have a nice network of bullion coin dealers that has emerged naturally globally.
+
+[17:51] **Armeanio**: And I think that if we could build a product on top of that, that allowed them to extend their margins in terms of the buy-sell side, there's a potential profit vector that would naturally plug onto that business quite nicely.
+
+[18:08] **Armeanio**: So that's something that I sometimes think about and I would like to create the foundation for. Now, obviously, Rosen is probably the big question many of you are waiting for.
+
+[18:20] **Armeanio**: We have gone through a public testing round. What that means is we had a bunch of the watchers that already support the network come into a private group. I think there was 38 of them. We created some artificial test token that doesn't have any value.
+
+[18:42] **Armeanio**: We did a series of tests. We got some feedback in terms of the UI. And so now we kind of have a linear path of what we need to complete before we launch.
+
+[18:53] **Armeanio**: Now everybody's going to say when, when, when, when, when. And I never actually like to say when. I know the linear steps it will take to get there, but those are also subject to time and checks, right?
+
+[19:06] **Armeanio**: So right now we're running final checks. We're trying to update the UI based on some of the feedback that we received. Then what we're going to do is we're going to go through a bulk minting, and I think the Ergo community will be pretty happy with that, the Cardano community as well, where we're actually going to start playing around with scaling the assets that Rosen has supported, right?
+
+[19:32] **Armeanio**: So until, let's say our current from launch to today, we really have had minimal assets that have been supported by the Rosen framework. And part of that is because we wanted to work primarily on the function of the system.
+
+[19:48] **Armeanio**: But we're approaching a point where we can add greater support to projects. And I think that long term, that's one of the unique aspects of Rosen relative to a lot of bridges. is that we have this ability to open up paths to new markets that don't have the same friction that we often see with exchanges and with market makers.
+
+[20:15] **Armeanio**: Now, those of you that have been paying attention, I think there's even a question in here somewhere about, let's say, the market making firms that got charged recently, which is its own little crazy story, where I guess the FBI and other three-letter agencies are out there creating shitcoins and God knows what else, and using that to kind of honeypot and run their own little sting operations on infrastructure providers and perhaps even influencers and marketing companies, et cetera, in the crypto space.
+
+[21:00] **Armeanio**: I know that there's a lot of shady stuff that happens in the crypto industry, so I tend to default to the position, fuck them if they're doing things that are crazy and illegal and stupid. They are creating their own bed. And so if that's their bed, let them lay in it, right?
+
+[21:23] **Armeanio**: At the end of the day, stupid is what stupid does. And there's a lot of stupid shit around. So that's kind of where I land, but it does go to show how certain things could be manipulated, right?
+
+[21:37] **Armeanio**: We're talking about wash volume. Sometimes you create like these digital assets with no input costs. And because essentially the cost of production was the cost to mint, which is relatively low, I guess it depends on the network and the fees. the specifics of the environment it's created in, but the actual input cost of some digital assets are basically nothing, right?
+
+[22:08] **Armeanio**: And then the question is, okay, so you've created money from nothing, how do you sell it? Right. And that's one thing that is probably the most interesting aspect of the crypto space where it's like these. I don't know. It's like multi-level marketing, but the layers of marketing are continuously rugging each other.
+
+[22:30] **Armeanio**: If you hire the right market maker that and pay them enough. They'll wash trade and try to make something that was created from basically nothing look really attractive and try to gain social energy.
+
+[22:48] **Armeanio**: I do think that over the arc of time things tend to default back towards their cost of production right and if the cost of the production is zero then over a long enough arc of time things tend to move back to zero and the truth is even things that do have a cost of production are still subject to like the entropy aspect of our universe where things have a tendency to move to disorder and naturally lose an element of their integrity or value over time, which is actually part of why I find storage rent interesting, but that's a whole other side track.
+
+[23:28] **Armeanio**: But anyway, those of you that are interested in Rosen, we are going to go through a series of checks. Then we're going to add some assets. The watchers out there that are tuning in, we'll be pushing a version update that you can support.
+
+[23:48] **Armeanio**: Then when we're ready to go live, the final step is usually to release the new UI that supports new assets. And at that point, off we go.
+
+[24:01] **kushti**: All right all right so then yeah more updates for me maybe not related to the core protocol so yeah well the first thing is that another round of Ledger integration started, so we received another reply from the Ledger team, which basically said that now the support for new devices is needed, so Stax and Flex.
+
+[24:42] **kushti**: and only after that there could be another functional test then audits by third party is needed and then it could be included into the live so well we found the developer in like two days because well the previous one is now only doing maintenance and yeah, well, the new developer is already working on supporting new devices.
+
+[25:17] **kushti**: The good news is also, well, now there is no need to support Nano S, so then maybe limits for tokens, the number of tokens per output can be raised up, but yeah, let's see.
+
+[25:37] **kushti**: And yeah, now we are looking for Rust developers for Keystone integrations, so there is Bounty from ErgoDevsDAO. For that, 3000 ERG, so yeah, well, please contact, well, me or someone or anyone from ErgoDevsDAO.
+
+[25:57] **kushti**: Then, yeah, so for Dexy, well, there was audit done recently. And, yeah, well, probably everything in the code is fixed for now. And, well, there is need to update the white paper a bit and then, yeah, we will do another round of communication for audit team, make the audit and then, yeah, we will proceed to mainnet launch.
+
+[26:30] **kushti**: So well, we've deployed actually a lot of mainnet contracts and got some experience on the way how to do things better this time in comparison with what ScalaHub, with a bit of my help, did with SigmaUSD for the first, which was later used by DarkSide, following basically guidance from ScalaHub. how to make the first testnet deployment.
+
+[27:14] **kushti**: So, yeah, well, now all things hopefully will be quite better in regards to certain aspects of deployment.
+
+[27:29] **kushti**: Then, yeah, what else? Then, yeah, well, the Rust side, so the Sigma Rust library is also getting 6.0 support. And, well, ErgoDevsDAO is actually supporting that, paying out bounties.
+
+[27:45] **kushti**: Well, more contributors are always needed, so please, well, contribute as you can. So there is need with documentation. testing, writing the code, core development libraries, all that stuff.
+
+[28:02] **kushti**: So we also need thinkers, philosophers right to shape the future of decentralized financial future and so on. So yeah, please join the movement.
+
+[28:20] **Armeanio**: Yeah, I saw that you've been on the forum more active as of lately. I've been reading from a device that I can't sign in and comment, but one of these days I'll spin up the old laptop that has my login password and drop some comments.
+
+[28:37] **Armeanio**: All right. Anything you'd like to expand on in that front? Anything you'd like to expand on in terms of the forum posts?
+
+[28:49] **Armeanio**: I think that actually it's one of those things.
+
+[28:52] **kushti**: Yeah, I actually made a lot of stuff there. Well, even yesterday I thought to make a post on bootstrapping. fairly bootstrapping proof-of-stake protocol via proof-of-work and emission contracts, right?
+
+[29:12] **kushti**: But then, yeah, got involved in some chat dramas. So, yeah, no time for that. So, yeah, no, not sure. I will find time. Actually, there is a plan for much more forum posts, especially in regards with coming well, soft fork updates, so there is need to uncover soft fork ability.
+
+[29:43] **kushti**: So there are some features there, which were not used, but quite exciting in the protocol since day one. Well, it makes sense to finally uncover. So for now, well, in the community, it's known that it's possible to vote on changing certain parameters, right?
+
+[30:06] **kushti**: But yeah, well, with a super majority voting, 90 plus percent, actually. Yeah, it's possible also to modify some non-critical parameters of the protocol. So, well, anyway, you cannot steal money, for example, right? Whatever in this way, yeah, soft fork, right?
+
+[30:34] **kushti**: But anyway, well, there is possibility, for example, to add support for new data structures. Change validation of parameters. I'm thinking to propose in order to introduce a new parameter for voting on number of sub-blocks per block.
+
+[31:07] **kushti**: The old nodes will actually support this protocol change. So, yeah, well, there is need to uncover that soft forkability, right? The art of soft forkability, which was made too extreme, I believe.
+
+[31:32] **kushti**: Well, probably because it was the right time for that, right? So after the civil wars in the Bitcoin community, there was a lot of experience, right? And well, a lot of articles were written and so on. So we analyzed a lot, actually, when I designed the rules for the protocol.
+
+[32:01] **Armeanio**: Are you ready for some questions?
+
+[32:06] **kushti**: In regards with spaces, we had very good spaces one week ago instead of the AMA. The next space event will be announced soon. Let's see. This week, likely. Yeah, about dates. I'm not sure. Let's see also. Maybe next week. All right, yeah. Let's do.
+
+[32:44] **Armeanio**: All right, let's see. Does Ergo have a marketing team? If yes, how can I join in?
+
+[32:50] **Armeanio**: We do have some community marketing channels. I'm sure if you're on Discord or Telegram and you hop into the main channel and you ask for directions, someone will push you in that direction. Feel free to contribute.
+
+[33:05] **Armeanio**: Ergo itself is the core protocol. Probably, yeah, there is an element of marketing. Hopefully, as applications mature, we see more marketing efforts that are more specifically directed to what people are building, why, and people push for adoption on that front.
+
+[33:26] **kushti**: Well, yeah, I mean, it's also a very strange kind of question, maybe for all folks here, because, well, it's, I don't know, I mean, what kind of marketing Bitcoin has? Definitely, there is a lot of marketing right around. There are some key opinion leaders, and actually, well, not very many of them probably, right, who are inventing, well, really new concepts, right, while others are usually just translating.
+
+[34:09] **kushti**: So yeah, there are key opinion leaders, influencers, right, and so on. But yeah, I mean, what does it mean? I mean it makes sense when it's not just protocol but also well kind of company rights like VC chains are having right but then yeah it's a bit different story.
+
+[34:42] **kushti**: Talking about eGold and those networks going back to hybrid networks. Architecturally, so all those networks are well going back to just databases like Oracle or Dynamo, where servers are only communicating in peer-to-peer way, right, and clients are well talking with servers in client-server fashion.
+
+[35:15] **kushti**: But then the question is, well, how are these hybrid networks different from PayPal database, for example? I mean, why PayPal, for example, need to have licenses on those networks or not?
+
+[35:36] **kushti**: I mean, no one can say because of the crypto, right? Because, well, it's not crypto after all. So the same architecture basically, PayPal.
+
+[35:49] **Armeanio**: I'm pretty sure PayPal uses encryption on their systems anyway, right? And I'm pretty sure that even their servers are somewhat distributed for load balancing in a global network. So I don't really know where the line is.
+
+[36:03] **Armeanio**: I think that if you look at unstructured networks versus structured networks, it creates a different assumption in terms of this idea of a central marketing term. The idea of Bitcoin or the idea of Ergo is to have an unstructured peer-to-peer network.
+
+[36:21] **kushti**: Yeah, so that was clear to Satoshi, for example, right? So he compared eGold and Bitcoin to Napster and Kazaa, right, specifically. So back then there was a hybrid peer-to-peer network, Napster, which had a centralized indexer.
+
+[36:44] **kushti**: And because of that, it got sued by all those companies interested in copyright, getting money from the rights to copyright. And then, well, after Napster shut down, so a new network started to appear, so unstructured peer-to-peer networks, right, which were not shut downable, like Kazaa,
+
+[37:16] **kushti**: And so on, right? And then, yeah, well, finally, after all, the most popular choice we have now is BitTorrent, right? Which is a bit structured, but yeah, it's tricky. So it's not having any centralized indexing like Napster, right?
+
+[37:45] **kushti**: And in principle, it's tracker paths could be also run on peer-to-peer DHT table. So it could be kind of truly peer-to-peer. But yeah, in reality, usually trackers are somewhat centralized, but there are a lot of them. So if you are going to shut them down, so you need to do a lot of work, right?
+
+[38:13] **kushti**: So some trackers will shut down, but yeah, well, you want to appear. But well, those networks, the common so-called crypto industry is introducing is basically a new Napster, right? New eGold.
+
+[38:30] **kushti**: And well, then there is question, why do they have unfair competition? Advantage over PayPal, for example. Because, well, yeah, I mean, I'm pretty sure PayPal is also using encryption and consensus protocols, probably. Maybe not Byzantine, but yeah, well, they can use Byzantine.
+
+[39:01] **kushti**: What could change? Nothing, I mean, the distinction is not there. With Byzantine agreements within PayPal data center, it's not different from all those networks.
+
+[39:21] **Armeanio**: It is what it is. All right, next question.
+
+[39:25] **Armeanio**: Why is Rosen asking for more funds from Cardano before completing the previous ETH launch promises?
+
+[39:32] **Armeanio**: Because the funds are structured for development. My hope is with the latest funds that we've proposed is that we offer projects an alternative path to stablecoin-rich environments.
+
+[39:46] **Armeanio**: And I do think that the space is probably going to see some structural changes in the next couple of years, where you start to see more direct rails built on top of ecosystems rather than coming through third parties.
+
+[40:05] **Armeanio**: Now, I do know that like Coinbase has a pretty dominant grip, let's say, in the stablecoin market. But it's fascinating. I think what's going to happen is you've seen Tether just print a massive profit margin, right?
+
+[40:25] **Armeanio**: And that type of profitability based on the amount of resources and employees they deploy is going to wake up a lot of banks. And we're going to start seeing, let's say, more traditional actors considering moving into that market because it's profitable, right?
+
+[40:46] **Armeanio**: It's a good line of business. Tether's just shown that. And so what I think will happen is, most likely, as traditional banks and players move into the crypto space, what they're going to try to do is they're going to try to regulate it in order to gain competitive advantage.
+
+[41:05] **Armeanio**: That tends to be what happens is they use regulation somewhat as a weapon to increase the cost of entry, so they narrow the field of competitors, and they retain their dominance.
+
+[41:22] **Armeanio**: I do think that we're probably in the early stages of that. You can look at the legislation that's happening in the EU. You can always hear rumbling in working groups and committees and all the other fun political theater in the United States.
+
+[41:39] **Armeanio**: So I do think that at some point we'll probably see more rails that are on-chain and regulated and I think we'll probably see a split where you do have this idea of decentralized stablecoins that are let's call them quote-unquote non-compliant but again because they exist in an unstructured peer-to-peer network with smart contracts they're going to be very difficult to actually stop.
+
+[42:06] **Armeanio**: Now, I do think that projects that are going into, let's say, growth and development on the market side need to look at the costs and considerations that come with listing with centralized exchanges. First is there's a lot of upfront costs that they have to go through.
+
+[42:29] **Armeanio**: There's legal aspects to that. There's listing aspects to that. There's marketing aspects to that. And oftentimes that comes with a pretty heavy burden depending on the actual tier or size of the exchange.
+
+[42:46] **Armeanio**: Then you also have this idea of liquidity requirements. You can look at market making is not free. The liquidity provisions that are required to stay actively listed on exchanges are not free.
+
+[43:00] **Armeanio**: So then you have this upfront cost as well as this overhead that you have to carry monthly to pay someone to manage the books and stay within the liquidity requirements of exchanges. And those costs are relatively significant.
+
+[43:16] **Armeanio**: Now, users oftentimes don't see that, right? They'll say, oh, win Binance, win Binance, win Binance, but they don't understand the listing cost of how much a project would actually have to pay Binance.
+
+[43:30] **Armeanio**: They don't understand that there's a certain liquidity requirement, meaning funds from the project have to exist and stay within that exchange. And then you have this idea of market making, volume generation, which sometimes is just fake.
+
+[43:48] **Armeanio**: You can look at the market making charges that dropped yesterday. A lot of them were just artificially generating volume. They do that to try to make traders say, oh, look at this new sexy asset, how popular it is, and I'm going to go throw some money at it.
+
+[44:07] **Armeanio**: Which is, it's not, I don't know. It's its own interesting thing where sometimes it's like attention follows money. And so if you create this artificial illusion of money, attention tends to follow, right?
+
+[44:23] **Armeanio**: That's kind of like this attack vector that. It's been around, but we're seeing it naked and stripped in some of these allegations.
+
+[44:34] **Armeanio**: But if projects on Cardano would like to reach stablecoin-rich environments without the high upfront costs, without the carry costs, and retain an element of their capital for development, as well as have lower cost liquidity, lower cost maintenance.
+
+[44:54] **Armeanio**: That's why we built Rosen, because that's something that frustrated the Ergo Foundation, because we're poor, right? And so due to that, we came up with this idea, why don't we use stablecoin rich environments and other ecosystems to create more transparent and lower cost access to markets.
+
+[45:21] **Armeanio**: So I think that as we launched ETH, we did receive some funding and support from the Cardano ecosystem. And I would like to try to return that favor in kind and support Cardano projects moving to Ethereum.
+
+[45:36] **Armeanio**: They have this ability to potentially balance some of their capital across stablecoins or a variety of assets, as well as potentially build depth and liquidity on markets, which allow them to potentially grow in a new ecosystem.
+
+[45:52] **Armeanio**: There's this idea that blockchains are competitive, and there's an element of truth to that. But I don't see much difference if you're able to retain the integrity of tokenomics, from using, let's say other systems as markets, right?
+
+[46:15] **Armeanio**: I don't see much difference from using like, I don't know, let's say Coinbase versus Ethereum. They both have a lot of capital, a lot of liquidity. The trust assumption is ultimately going to break down to some federated multisig and Coinbase and Rosen has the same and Rosen's you can actually see it and the communities continually auditing it versus in the exchanges you don't see anything you don't understand the order flow a lot of the properties that you get are just invisible.
+
+[46:51] **Armeanio**: So I think that there's a potential for more transparency and security in that sense. Now it's true that, when that's done poorly in bridging, it's subject to attacks, but the same is true with exchanges.
+
+[47:09] **Armeanio**: We've seen some massive exchange hacks, which ultimately is the same attack surface. So hopefully the Cardano community is interested in expanding across stablecoin rich environments at a low cost. Rosen is something they consider.
+
+[47:29] **Armeanio**: Let's see, next question. Why is Dan promoting Palmyra to the Cardano community and not mentioning Ergo anywhere?
+
+[47:39] **Armeanio**: I've never known Dan not to mention Ergo, but he's trying to build his own project. I would say that Dan's incentives to build Palmyra are his own. And so I'm not going to complain.
+
+[47:58] **Armeanio**: I've never known him to hide his affiliation with Ergo. And I've never known him not to invite me to his table or talk about what we're doing and the benefits of why we're doing it and talk about why part of his protocol is built on Ergo.
+
+[48:13] **Armeanio**: But if you want Dan to just be your marketing department, I'm sorry, he has his own incentives.
+
+[48:25] **kushti**: Yeah, but is it really happening? So, well, I met him back in April and he made somewhat discount for SigmaRSV, right? For somewhat Palmyra sale. So that's a form of marketing.
+
+[48:45] **kushti**: I believe, and it was towards Cardano community. Yeah, I'm not quite following, so I cannot, I don't know, calculate percent of, well, Ergo-related marketing efforts and compare with normal level, because, yeah, all that doesn't make sense, but, well, from what I see, but again, I'm not quite following. Yeah, there are some marketing initiatives, like providing a discount for SigmaRSV.
+
+[49:25] **Armeanio**: Yeah, so Dan, if you're out there, save us.
+
+[49:33] **kushti**: Yeah, I will meet Dan soon, by the way. I'm going to visit Dubai in late October, so there will be Cardano Summit as well as some other events. Some friends of mine are inviting me to Cosmoverse, so somewhat Cosmos related.
+
+[50:05] **kushti**: And then, yeah, there will be a somewhat big conference blockchain somewhat in Dubai and also a miners conference in Abu Dhabi Bitmain organized. So, yeah, like four big events in like five days or something like that.
+
+[50:26] **kushti**: So, yeah, Dan is going to present Palmyra there. So, yeah, I can attend the talk and calculate the frequency of the ergo term in his speech. But yeah, I don't quite know what to do with those numbers.
+
+[50:50] **Armeanio**: So I've got a question for you, kushti, if you're still there. Looks like the next question was what happened to Dexy Gold.
+
+[51:06] **Armeanio**: I'm not involved with Dexy Gold, but I believe it's actually being audited. I'm going through a review from Four Eyes, which is some Ergo developers that have spun up their own, let's say, auditing firm to assist projects with ErgoScript implementations.
+
+[51:25] **Armeanio**: That would be mgPai and ElGD. They've done some awesome work. So perhaps you can hop in and get some more information from them.
+
+[51:42] **Armeanio**: Looks like we have a question from the big 3D FPV. Says Ergo chats are depressing as hell recently, a lot of negativity. How can we fix this?
+
+[52:00] **Armeanio**: That's hard to say. I always try to remain positive by looking at the future and what we can create, right? A lot of things that happen in life you don't control, right? I don't control markets. I know kushti doesn't control markets, but we do have this ability to build the future that we'd like to see, and I think there's a lot of value in doing that.
+
+[52:24] **Armeanio**: So that's where I put my focus and I try to build things I find interesting and try to make sure that they're built the right way. If you do that, I think we can build good things.
+
+[52:35] **Armeanio**: Now, if the question is just, okay, the mood of the day, well, they're subject to a lot of things, right, and subject to a lot of movements in terms of the macro, the world around us, what changes.
+
+[52:50] **Armeanio**: And there's also this element of narrative and focus and salesmanship that goes on in the crypto space that sometimes we get shit for that we don't try to compete with the current state and trajectory of the common mind of the crypto space.
+
+[53:07] **Armeanio**: And that's fine. It's fair. But I do think that on some level, Ergo has tried to be very practical in terms of setting its manifesto, setting its milestones, the virtues or principles that it values, and then trying to build in that direction.
+
+[53:26] **Armeanio**: So that's what I'll continue to do. If people are negative about that, I don't care. That's life, right?
+
+[53:37] **Armeanio**: I usually try to sit back, let people make their statements, say their opinion, try to ask them rational questions, and sometimes people just get emotional, right? Even though many people try not to be humans are emotional creatures, let them be human.
+
+[53:54] **Armeanio**: Talk to them try to figure out where they're coming from why and be constructive rather than destructive but that takes an element of discipline and patience that isn't really something that a lot of people have developed.
+
+[54:07] **Armeanio**: So I don't know if you're gonna be negative Nancy gonna be negative Nancy. I'm but nothing I can do about it. Let's see next question.
+
+[54:22] **Armeanio**: How are ErgoDevsDAO's discussions with potential partners for the first Sigma chain going?
+
+[54:28] **Armeanio**: That's actually something kushti and I briefly discussed last week. I come from the perspective that probably one of the best things we could do with the first Sigma chain is try to support smaller cards, right?
+
+[54:49] **Armeanio**: the size of Ergo's DAG has kind of kicked these four gigabyte cards off of our network. And there's a lot of miners out there that have smaller cards because they have lower input costs. Right.
+
+[55:03] **Armeanio**: So I would be interested to see if we could create some Sigma chain that can be merge mined with Ergo itself that supports this ability for people to merge mine both and potentially direct their smaller cards right at that one specific Sigma chain.
+
+[55:29] **Armeanio**: You can create some really nice things. Having a shared computational environment opens up a lot of possibilities. That's something that we see primarily in the EVM world where you have a lot of these compatible virtual machines that then can communicate with each other in unique ways that becomes a lot more difficult when you're talking about chains with different execution environments things get a lot more complicated.
+
+[56:02] **Armeanio**: So I do think that that's something that we should pursue. I like the idea of lower barrier of entry getting more miners involved because ultimately if it is proof of work and smaller cards are a great place to start in terms of foundationally. Let's see
+
+[56:28] **Armeanio**: Yeah, we lost kushti, that's all right.
+
+[56:33] **Armeanio**: Do you believe Uniswap will be the biggest exchange for Ergo?
+
+[56:38] **Armeanio**: This goes back to the point I was trying to make earlier in terms of stablecoin-rich environments. In terms of the net capital and the net amount of users, Ethereum is larger than any exchange, right?
+
+[56:51] **Armeanio**: As a network, Ethereum is larger than any exchange and it's not siloed, right? So when you have an exchange, you have a siloed user base. which, you know, let's see how, you know, accurate those numbers are exchanges will give them to you.
+
+[57:09] **Armeanio**: And then the question is, okay, of those users, how many are actually active and you get a smaller subset. And then of those active users, how many of them actually have varying degrees of capital thresholds? And that's an even smaller subset.
+
+[57:24] **Armeanio**: So I think it's fair to assume that when you get into networks with a lot of users and a lot of capital liquidity, you get into a larger market. That's what I've been trying to build towards with Rosen.
+
+[57:40] **Armeanio**: And I do think that we can access larger markets at lower costs. And that makes sense to me. So that's something I'd like to try to pave the way and open for projects.
+
+[57:54] **Armeanio**: Let's see. We've got a question from Vadim. Can guards on Rosen refuse transferring assets back to users if they refuse to transfer assets between chains for some reason?
+
+[58:09] **Armeanio**: That's a question that breaks down to incentives. If a guard is maliciously acting, they're going to get kicked off the network. And so it's not in their incentive. You get into game theory.
+
+[58:22] **Armeanio**: Now, it's an interesting question. Like if we were subject to some sort of malicious transfer. It's ultimately up to the guards in terms of who signs. And maybe someone would say, OK, well, I don't want to sign this. I'll let the other guard sign, and it'll clear that threshold and settle without my signature on it.
+
+[58:45] **Armeanio**: Interesting edge case. But yeah, it would create situation that comes with consequence. That's how Rosen is designed.
+
+[58:57] **Armeanio**: Next question, Armeanio, when will Rosen Light end?
+
+[59:03] **Armeanio**: So I called it Rosen Light because we were not really exploring supporting a lot of new assets, right? We just had some base assets from Ergo. We had Hosky from Cardano, which was our testnet token.
+
+[59:24] **Armeanio**: And we wanted to make sure that the system operated and functioned as intended before we started to create more bandwidth for more assets. And we are approaching that time where we're going to start scaling assets and then we need to pressure test the amount of permits that need to be put in the system relative to the amount of transfers.
+
+[59:51] **Armeanio**: So it's something that we're going to have to play with and scale as we start adding more assets. That's just how Rosen operates.
+
+[60:01] **Armeanio**: So I think we're transitioning away from Rosen Light as we start opening the market for Rosen listings. And it makes no sense to say, hey, Cardano projects, you can list on Ergo, right?
+
+[60:14] **Armeanio**: The natural incentive initially is going to be for projects to want to list in larger environments. I mean, that's kind of like saying, hey, do you want to list on, I don't know, Hotbit or do you want to list on KuCoin, Kraken, Binance, right?
+
+[60:30] **Armeanio**: There's natural incentive to list in a larger market and Ethereum is a larger market than Cardano. There's a lot more stablecoin liquidity. There's a lot more funds that potentially projects can access and neat things that people can do.
+
+[60:45] **Armeanio**: So the incentive, I think, is there. It's just a matter of whether they realize that and whether they want to use that ecosystem as a market.
+
+[61:00] **Armeanio**: 8xPro, can I get a refund for MEXC listing donation? I feel like I have been robbed.
+
+[61:07] **Armeanio**: Yeah, that's the downside oftentimes to paying centralized exchanges. Especially if an element of the payment itself is done in the native coin or native token, you can kind of expect them to dump on you.
+
+[61:24] **Armeanio**: Like, I wish that were not the case, but the incentive alignment isn't there in many cases. Especially as we get more into this idea of exchanges seeding projects, and then they're listing the projects, and then they're selling assets at way higher than their seed price.
+
+[61:45] **Armeanio**: It's profit extraction. It is a business, but the incentive alignment isn't really there. And ultimately, I think that one of the reasons why we're probably going to see stablecoins directed more on-chain itself is because the reputation of centralized exchanges and being stewards for high quality digital assets, they've rugged themselves.
+
+[62:09] **Armeanio**: How can you list just nonsense assets that have a tendency to have major issues and then retain your user base? I don't understand that. In terms of like a mass adoption I think they're going to end up making their own bed.
+
+[62:28] **Armeanio**: It's just honest. I look at, we've got new animal coins. So I sometimes call them a digital zoo. So I don't know how long the digital zoos will last, but I do think that this idea of stablecoins and providing them into decentralized environments is there's a lot of value there.
+
+[62:47] **Armeanio**: There's a lot of demand there. So I think probably we'll shift away from this idea of central exchanges in time and we'll see things that operate more on networks themselves You can look at like USDM on Cardano is one that, it operates on Cardano.
+
+[63:14] **Armeanio**: It could potentially be ported to other blockchains. I think that makes a lot of sense from a design perspective so assuming that's true, that means that you'll probably get chains that are more regulated and support that.
+
+[63:27] **Armeanio**: And one of the reasons why Rosen is interesting is we can create a channel into those environments and provide projects that are building in different ecosystems, like a path to those markets.
+
+[63:48] **Armeanio**: Hello is the Ergo chain still? Last I checked we're still making blocks. Any interest in being partner chains with Cardano, I don't know what partner chains means to be totally honest.
+
+[64:12] **Armeanio**: Like sometimes you would get like word salads where it's like, what's the difference between a sidechain, a layer two, a partner chain? I don't really know how to measure that question.
+
+[64:27] **Armeanio**: I guess in some sense we already are, we are connected. So maybe that's a partner chain. I don't know. I need to know what that means in like a more concise way.
+
+[64:44] **Armeanio**: Let's see. All right, we got something from HQx. It said Ergo Santa was a collaboration between ErgoCube and Ergo Explorer, now merged into MewFinance. If the community wants Ergo Santa this year, please let us know.
+
+[65:03] **Armeanio**: Yeah, it's some great stuff happening with MewFinance. I'm excited to see what they're working on. They've done a lot of infrastructure work around, our explorers is really a nice instance. ErgoCube is a great aggregation site.
+
+[65:19] **Armeanio**: So seeing them get more directly involved in smart contract and DApp development, is a good thing.
+
+[65:33] **Armeanio**: Let's see. Did Ergo Pulse go bankrupt?
+
+[65:40] **Armeanio**: No, life just comes at you hard sometimes. It is something I think would be good to spin up, get the community together, chat and have unscripted conversations on different topics.
+
+[65:54] **Armeanio**: I think that oftentimes has a lot of benefits where people get different perspectives about issues that sometimes even like the community doesn't really want to look at or crypto as a whole doesn't want to look at but they matter so I think having a forum for like open discussion debate and exploring principles is always a good thing.
+
+[66:18] **Armeanio**: So I would love to see Ergo Pulse come back, but will I always be there? I don't know. I can't promise that right life is got me juggling a little bit. It's actually why I'm not on the AMAs as much anymore.
+
+[66:32] **Armeanio**: But, things come and go in life. So once I'm on the other side of it, I think I'll have more bandwidth for this kind of thing.
+
+[66:42] **Armeanio**: Looks like it's about 8:12 and I'm getting hungry. So I'm gonna sign off everybody. Thank you for tuning in I hope everybody learned something enjoyed the little show that we did and hopefully next time kushti can stay with me because I'm just looking at this picture of him frozen Have a good one everybody.

@@ -1,0 +1,311 @@
+{
+  "call_date": "2024-09-06",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - September 5th 2024",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Call Opening and Travel Updates",
+      "category": "community",
+      "start_time": "00:22",
+      "end_time": "04:01",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Dan opens the AMA call with his signature rhyming introduction and mentions being back in Japan after extensive travel. Light banter between Dan, qx(), and kushti about timing confusion for upcoming spaces event.",
+      "key_terms": [
+        "AMA",
+        "Ergo merch",
+        "Japan",
+        "spaces event"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Palmyra Lithium Tokenization Project Argentina",
+      "category": "ecosystem",
+      "start_time": "04:01",
+      "end_time": "07:13",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Dan discusses his Argentina trip to work on tokenizing lithium on Palmyra platform. The project addresses high lithium demand (20x more demand than supply) and will involve both security token offerings and commodity tokens for traceability and transparency.",
+      "key_terms": [
+        "Palmyra",
+        "lithium tokenization",
+        "Argentina",
+        "security token offering",
+        "commodity token",
+        "traceability"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Vegas Conference and Community Engagement",
+      "category": "community",
+      "start_time": "07:13",
+      "end_time": "10:22",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Dan recounts the productive Las Vegas conference where Palmyra gained significant interest and name recognition. Several community members attended including Mark the Shark, Shishir, and mgPai, with successful merch distribution and Rosen bridge promotion.",
+      "key_terms": [
+        "Las Vegas",
+        "Palmyra",
+        "Rosen",
+        "Sigmanauts",
+        "community meetup",
+        "merch"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Austin Cardano Meetup Impact",
+      "category": "community",
+      "start_time": "10:22",
+      "end_time": "12:56",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Dan reflects on the successful Austin meetup from 2022 that drew over 120 people and significantly increased Cardano community interest in Ergo. The event helped convert curious individuals into committed Ergo community members.",
+      "key_terms": [
+        "Austin meetup",
+        "Cardano community",
+        "120 attendees",
+        "community growth"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Greek Olive Oil Traceability Solution",
+      "category": "ecosystem",
+      "start_time": "13:06",
+      "end_time": "19:09",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Dan explains Palmyra's work with Greek olive oil producer Theo to solve counterfeiting issues through blockchain traceability. The Winter Protocol will verify authentic Greek olive oil from production to consumer, with alpha launch expected in coming weeks.",
+      "key_terms": [
+        "Greek olive oil",
+        "counterfeiting",
+        "Winter Protocol",
+        "traceability",
+        "Theo",
+        "verification"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Dubai Cardano Summit Meetup Planning",
+      "category": "community",
+      "start_time": "19:39",
+      "end_time": "22:45",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Discussion of upcoming Dubai events in October including Cardano Summit and potential Ergo meetup. Plans include possible participation from Charles Hoskinson and themed events around Rosen or Dexy Gold.",
+      "key_terms": [
+        "Dubai",
+        "Cardano Summit",
+        "October",
+        "Charles Hoskinson",
+        "Ergo meetup",
+        "Rosen",
+        "Dexy Gold"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Ergo 6.0 Development and DevNet Progress",
+      "category": "technical",
+      "start_time": "23:28",
+      "end_time": "26:37",
+      "primary_speaker": "kushti",
+      "summary": "kushti provides updates on Ergo 6.0 development with first DevNet released one week ago and used by Lithos team. Second DevNet coming in one week, with release candidates expected after third DevNet for new contractual interpreter features.",
+      "key_terms": [
+        "Sigma 6.0",
+        "DevNet",
+        "Lithos",
+        "contractual interpreter",
+        "release candidates",
+        "mainnet"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Sub-blocks Performance Enhancement Research",
+      "category": "technical",
+      "start_time": "26:37",
+      "end_time": "29:27",
+      "primary_speaker": "kushti",
+      "summary": "kushti discusses sub-blocks development for improved transaction propagation and maximum performance on commodity hardware. Rough DevNet with peer-to-peer network expected in few weeks for performance testing while maintaining classic proof-of-work architecture.",
+      "key_terms": [
+        "sub-blocks",
+        "transaction propagation",
+        "performance testing",
+        "peer-to-peer network",
+        "commodity hardware",
+        "proof-of-work"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Hardware Wallet Support Keystone vs Ledger",
+      "category": "technical",
+      "start_time": "26:59",
+      "end_time": "29:14",
+      "primary_speaker": "kushti",
+      "summary": "kushti explains preference for Keystone hardware wallet over Ledger due to its open-source nature and better security transparency. mgPai is working on Keystone integration with Ergo Foundation grant support, while Ledger integration status remains uncertain.",
+      "key_terms": [
+        "Keystone",
+        "Ledger",
+        "hardware wallet",
+        "open source",
+        "mgPai",
+        "Ergo Foundation",
+        "grants"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Sigmanauts Mining Pool Storage Rent Implementation",
+      "category": "technical",
+      "start_time": "29:42",
+      "end_time": "31:04",
+      "primary_speaker": "qx()",
+      "summary": "qx() announces successful storage rent collection running on testnet for week and half. Plans to upgrade mainnet test server this weekend with 28 gigahash volunteer miners to become first full pool implementing storage rent on mainnet.",
+      "key_terms": [
+        "Sigmanauts mining pool",
+        "storage rent",
+        "testnet",
+        "mainnet",
+        "28 gigahash",
+        "Cheats"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Ecosystem Project Updates Cyberverse and MewFinance",
+      "category": "ecosystem",
+      "start_time": "31:04",
+      "end_time": "33:07",
+      "primary_speaker": "qx()",
+      "summary": "qx() highlights Cyberverse's car mint on Cardano with cross-chain wallet connectivity and MewFinance's September 9th opening featuring P2P escrow trading for bundled item transactions with specific address permissions.",
+      "key_terms": [
+        "Cyberverse",
+        "car mint",
+        "Cardano",
+        "MewFinance",
+        "P2P escrow",
+        "cross-chain"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Nautilus Wallet TX History and Gluon SDK",
+      "category": "technical",
+      "start_time": "33:07",
+      "end_time": "34:25",
+      "primary_speaker": "qx()",
+      "summary": "qx() announces Nautilus wallet adding transaction history feature in fifth tab, eliminating need for manual explorer searches. Gluon SDK raffle is 30% filled with 6 days remaining and 5,000 ERGs needed for important developer interface funding.",
+      "key_terms": [
+        "Nautilus wallet",
+        "TX history",
+        "Gluon SDK",
+        "raffle",
+        "developer interface",
+        "5000 ERGs"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Ergo Node 7.x Future Development Vision",
+      "category": "technical",
+      "start_time": "35:11",
+      "end_time": "39:23",
+      "primary_speaker": "kushti",
+      "summary": "kushti outlines post-6.0 plans focusing on sidechain support through evolutionary work rather than major soft forks. Sub-blocks will require velvet fork (miners-only update), while future development will incorporate cryptography research breakthroughs.",
+      "key_terms": [
+        "Ergo node 7.x",
+        "sidechains",
+        "soft fork",
+        "velvet fork",
+        "cryptography research",
+        "evolutionary work"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "Sigmanauts DAO Roadmap and Revenue Strategy",
+      "category": "governance",
+      "start_time": "42:05",
+      "end_time": "47:41",
+      "primary_speaker": "qx()",
+      "summary": "qx() explains Sigmanauts' bottom-up approach building community before funding, contrasting with Cardano's treasury-first model. Four revenue streams planned: mining DAO, SigmaLock, Sky Harbor frontend, and M4L messaging for self-sustaining treasury development.",
+      "key_terms": [
+        "Sigmanauts DAO",
+        "revenue streams",
+        "SigmaLock",
+        "Sky Harbor",
+        "M4L messaging",
+        "treasury",
+        "self-sustaining"
+      ]
+    },
+    {
+      "topic_id": 15,
+      "title": "DAO Sub-Group Structure and Decentralization",
+      "category": "governance",
+      "start_time": "47:41",
+      "end_time": "51:59",
+      "primary_speaker": "qx()",
+      "summary": "qx() describes plan for autonomous sub-DAOs including mining DAO, NFT DAO, and treasury DAO to accommodate diverse interests. kushti supports similar small-team approach for developer DAO with partial leadership model for high efficiency.",
+      "key_terms": [
+        "sub-DAOs",
+        "autonomous groups",
+        "mining DAO",
+        "NFT DAO",
+        "partial leadership",
+        "small teams"
+      ]
+    },
+    {
+      "topic_id": 16,
+      "title": "Permissionless Innovation and Hacker Culture",
+      "category": "ecosystem",
+      "start_time": "51:59",
+      "end_time": "53:20",
+      "primary_speaker": "kushti",
+      "summary": "kushti and qx() discuss Ergo's permissionless nature enabling parallel development without central approval. Examples include Crux Finance forking Spectrum contracts, reflecting hacker culture values from 70s-80s that led to personal computers and Linux.",
+      "key_terms": [
+        "permissionless",
+        "hacker culture",
+        "Crux Finance",
+        "Spectrum",
+        "open source",
+        "Linux",
+        "personal computers"
+      ]
+    },
+    {
+      "topic_id": 17,
+      "title": "Ergo as Advanced Technology Metaphor",
+      "category": "ecosystem",
+      "start_time": "54:05",
+      "end_time": "56:46",
+      "primary_speaker": "Dan Friedman",
+      "summary": "Dan compares Ergo to advanced TI-92 graphing calculator in world of basic calculators, suggesting Ergo is ahead of its time with powerful built-in functions that people don't yet know how to use or appreciate.",
+      "key_terms": [
+        "TI-92",
+        "graphing calculator",
+        "advanced technology",
+        "ahead of time",
+        "powerful functions"
+      ]
+    },
+    {
+      "topic_id": 18,
+      "title": "Upcoming Spaces Events and Call Wrap-up",
+      "category": "community",
+      "start_time": "56:46",
+      "end_time": "60:00",
+      "primary_speaker": "kushti",
+      "summary": "kushti reminds about developer-focused spaces event in 2 hours and September 12th memetics/marketing spaces. Today's focus on developer needs and feedback, next week open discussion on marketing and ideological aspects.",
+      "key_terms": [
+        "spaces events",
+        "developer feedback",
+        "memetics",
+        "marketing",
+        "ideological aspects",
+        "adoption"
+      ]
+    }
+  ]
+}

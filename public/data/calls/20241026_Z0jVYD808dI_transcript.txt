@@ -1,0 +1,277 @@
+[00:11] **Nico**: Hi and welcome to ErgoHack number 6.
+
+[00:13] **Nico**: My name is Nico and I am the founder of BigPampa.
+
+[00:16] **Nico**: We offer design solutions ranging from branding, web design, animation, 3D, all the way to UX, UI design and prototyping, focusing only on Web3 and blockchain related projects.
+
+[00:29] **Nico**: You may have seen some of our work in the Ergo ecosystem with projects such as Paideia, Palmyra and Spreadly.
+
+[00:37] **Nico**: Today, the ErgoHack team has invited me to introduce the hackathon with a talk about design in the Web3 industry.
+
+[00:44] **Nico**: So yeah, let's start with it.
+
+[00:46] **Nico**: Today, I will talk about UX challenges in Web3.
+
+[00:50] **Nico**: I will start by explaining why UX is important to build better dApps.
+
+[00:56] **Nico**: Then I will identify 5 challenges in the way we think and build and even interact with products and I will not only give you a general view of the solutions but actionable things that you can start doing today to improve the way you think, build and interact with these Web3 products.
+
+[01:13] **Nico**: And even though this talk is oriented to builders, like it is a hackathon after all, I encourage everyone to take the time to see it, because at the end of the day, users will also play a key role in advocating for better products.
+
+[01:29] **Nico**: So yeah, this will probably be a long video, so grab a cup of coffee, tea, beer, whatever rocks your boat, and let's start with the talk.
+
+[01:38] **Nico**: So UX, the key to Web3 mass adoption.
+
+[01:44] **Nico**: Nowadays, blockchain products are not particularly famous for having an amazing UX or for even being enjoyable to use.
+
+[01:52] **Nico**: And this is actually true for lots of us that already have experience interacting with these Web3 products.
+
+[01:59] **Nico**: So how can we expect for new users that may not have any knowledge about the blockchain industry to not feel overwhelmed when interacting with dApps?
+
+[02:11] **Nico**: You go to Twitter for five minutes. Every three comments, you see one moon, one price up, one Lambo.
+
+[02:17] **Nico**: And even though I personally think that that's not the right approach to the space, markets will always be capped at some point if the technology is not adopted and used, if we don't get that mass adoption in the ecosystem.
+
+[02:32] **Nico**: So why do we say that UX is the key to that mass adoption?
+
+[02:38] **Nico**: Well, because people use products that they like interacting with, right? They use products that solve problems for them and real life problems for them.
+
+[02:49] **Nico**: So if using a product is a bad experience, it won't be used at all or at least not massively.
+
+[02:58] **Nico**: I identify here five problems or UX challenges that I think we can analyze together in order to start understanding this a bit better.
+
+[03:11] **Nico**: I will try to explain each of them so you guys can be mindful of them and when you're planning or building your next product you can go back and ask the right questions.
+
+[03:22] **Nico**: But because I don't want to keep things theoretical, as I said before, I will also give you specific examples of things that you can do today to start improving the way you think about product.
+
+[03:34] **Nico**: First challenge that we're going to talk today: Decision Fatigue.
+
+[03:40] **Nico**: Decision fatigue is not something new, this is already a challenge in Web2, but in Web3 it gets amplified a lot.
+
+[03:48] **Nico**: Users need to choose between blockchains, protocols, wallets, pools, settings that they may have not even heard in their life or do not understand, and all of this while avoiding scammers, bad actors, losing their funds in the process, and in some cases also they take a stake with the governance token of the protocol and they need to decide about the direction of this protocol.
+
+[04:13] **Nico**: It's just too much for them. So basically in Web3 there are more decisions to make and these decisions have greater risks.
+
+[04:21] **Nico**: You may lose all your money simply trying to mint an NFT or by sending funds to the wrong address.
+
+[04:28] **Nico**: So when users start feeling all of this, they get overwhelmed. And they get decision fatigue and simply freeze.
+
+[04:34] **Nico**: And most of them decide not to interact with the app or protocol at all.
+
+[04:40] **Nico**: How do we solve for this? Well, there's a few things.
+
+[04:43] **Nico**: The first one, and you will hear me say this throughout the whole presentation, and I think is the main thing I want you guys to get from this, is to be empathetic.
+
+[04:51] **Nico**: Try to stand in your user's shoes. What do you think they may feel when going through this flow you are developing?
+
+[04:57] **Nico**: And pro tip, you can actually ask them.
+
+[04:59] **Nico**: The next one, and more of a practical one, when possible, predefine the settings in your user journey and simply allow more expert users to tweak them around.
+
+[05:09] **Nico**: If in 90% of the cases your users do something in a certain way, don't ask them how they actually want to do it. Simply make that decision for them and let them edit it if they want to.
+
+[05:21] **Nico**: Number three, when you can't make a choice at all, recommend them a choice at least. Tell them what you would pick that makes more sense for that situation.
+
+[05:31] **Nico**: And number four, and this one goes perfectly with the last one, if you're going to present options, maybe try to label them. For example, this is the fastest choice, this is the safest choice, this is the cheapest one.
+
+[05:43] **Nico**: Last one, think of the information you show to the user. And there's two important things about this one.
+
+[05:50] **Nico**: On the one hand, think contextual UI, meaning show information that means something to the user in the specific time in your flow.
+
+[06:00] **Nico**: If I'm sending a transaction, maybe I don't need to know the number of the block or some other technical things that I may not even understand.
+
+[06:08] **Nico**: On the other hand, do not think what information you have available. Do not think all this from a database or blockchain type of view, like backend.
+
+[06:20] **Nico**: Go the other way around and think as a user. Do not think what information you have available as a builder and go ahead and show it.
+
+[06:26] **Nico**: Think of a user and try to think what as a user you would need to make the right choice and to understand the flow and what's going on.
+
+[06:34] **Nico**: So show the information the user needs.
+
+[06:38] **Nico**: The new user of Web3.
+
+[06:41] **Nico**: So users in Web3 are a bit different from users in Web2. The whole idea is that now they own their own content, right?
+
+[06:49] **Nico**: So out of the bat, they are no longer just users. Users in Web3 are also custodians of their own assets, liquidity providers.
+
+[06:59] **Nico**: Sometimes they even operate like a bank. They interact with protocol governance and play a role on the protocol decision.
+
+[07:07] **Nico**: And on top of all of that, let's not forget that they also need to be crypto lawyers and blockchain accountants because they are just trying to be sure that they are not breaking any rules or legislations.
+
+[07:18] **Nico**: So these new roles that the users are assuming sometimes are a bit much to deal with. Lacking the relevant knowledge or support on how to transit them and more often than not leaving them wary about even interacting with Web3.
+
+[07:34] **Nico**: What can we do? The best way to help this challenge is to be mindful of the complete user journey.
+
+[07:41] **Nico**: And what do I mean by complete? Do not only consider the user interacting with your app, think how, when and why the user will go to your app to begin with, and what does the user need to deal with after interacting with your app.
+
+[07:56] **Nico**: By doing this you could for example integrate solutions outside the specific scope of your app, meaning if after using your platform the user for example have to think about taxes, try to facilitate a tax solution inside of your product, or at least try to give them enough information to do their own taxes afterwards.
+
+[08:18] **Nico**: Or if your users are part of the governance of your app, maybe instead of communicating upcoming votes only on your Discord channel, try to notify them in app and even let them vote in your own app.
+
+[08:32] **Nico**: Basically, try to think all these new roles that the user is having and integrate them into your product seamlessly.
+
+[08:41] **Nico**: Lastly, if you can't integrate these solutions, try to at least provide guidance and support for these users.
+
+[08:48] **Nico**: Be clear about the new roles that they are assuming by using your protocol and help them not to feel overwhelmed with guidance and constant support.
+
+[08:59] **Nico**: So, how we communicate?
+
+[09:06] **Nico**: Most of the way we communicate with users in Web3, it's actually really bad. It tends to be completely impersonal and using vocabulary or jargon that most of them do not even understand.
+
+[09:19] **Nico**: But it is not only a problem of how we write, we also fail to understand what information the user needs to access and how they should access it and even in what context.
+
+[09:33] **Nico**: Also, countless of times users interact with the protocol, then they click something and they do not know what should happen next, if things are working correctly, if they need to wait on something, and if so, for how long.
+
+[09:48] **Nico**: A third problem on the way we communicate is that we tend to give an excessive amount of information to the users and we do a poor job prioritizing what information is more relevant.
+
+[10:01] **Nico**: So, a few tips on how we can communicate better.
+
+[10:06] **Nico**: First one, and one of the easiest one, avoid jargon. Try to talk in a way that most users understand and do not assume users will have the same amount of knowledge that you.
+
+[10:19] **Nico**: Next, give constant feedback. Think you're ordering food through Uber Eats, right? Imagine selecting your food, selecting your payment method, confirming your purchase, and then getting a green checkmark and a thing that says, transaction number 4A1AA375.
+
+[10:38] **Nico**: That's it. You will start asking yourself questions like, did the restaurant confirm the order? Are they preparing it? When does it arrive? Who is picking it up?
+
+[10:49] **Nico**: Well, that's the way most Web3 users feel nowadays when interacting with an app.
+
+[10:55] **Nico**: You need to give users feedback so they know what's happening.
+
+[11:00] **Nico**: Then really tied up to the previous one. When possible, try to apply optimistic UI patterns.
+
+[11:08] **Nico**: This means if something is loading, if a process is happening, if you're waiting on a block confirmation, showcase this to the user.
+
+[11:17] **Nico**: This goes from writing things like loading or searching to, for example, labeling a transaction as pending, using a notification when something is confirmed, explaining the current state of a specific task, or even using a skeleton UI while your content is loading.
+
+[11:35] **Nico**: Next one, and quite an easy one to implement, show users the end line. If they are, for example, going through a registration or an onboarding process, how will it look like? What will happen afterwards?
+
+[11:49] **Nico**: How long will it take to go through the process and what things will I need? This will help users be more relaxed with the process ahead.
+
+[11:58] **Nico**: Next, keep in mind that the blockchain is immutable, so you want to avoid users making mistakes. Check if an action seems weird to your system or if a transaction may fail before committing it to the blockchain.
+
+[12:11] **Nico**: Maybe ask the users to review it again, saying something like, this wallet address seems off. Please double check it before confirming your transaction.
+
+[12:20] **Nico**: Also communicate to the users the risks beforehand.
+
+[12:24] **Nico**: Now for the last one, remember that users are humans. They are not computers.
+
+[12:30] **Nico**: Think to be once again empathetic about what they may be feeling. If they have any fears or doubts, try to address them.
+
+[12:38] **Nico**: If possible, make them smile or even laugh. Talk to them in more of a personal way.
+
+[12:45] **Nico**: The risks of a tech-first approach.
+
+[12:49] **Nico**: It is no secret that we are in a technology-driven industry, where it seems everything needs to be on blockchain.
+
+[12:56] **Nico**: The problem with this is that when technology is the one leading, the final products are not being built thinking of the user who will actually interact with them.
+
+[13:07] **Nico**: This is a mistake. At the end of the day the deliverable is not your perfectly written code, the bug free audited smart contract or even the groundbreaking technology.
+
+[13:19] **Nico**: The final deliverable is the user-facing product, and when you do not think of the user, products tend to fail.
+
+[13:28] **Nico**: Users get frustrated, they try the product once, they decide not to use it again. This will mean that your product either doesn't work, fails, or you have to spend tons of money and time reinventing it.
+
+[13:43] **Nico**: So, what can we do? Start with the user-first approach from the ground up.
+
+[13:49] **Nico**: This means, when you're thinking of your next big idea, start by thinking who will use it. What problem will this solve?
+
+[13:57] **Nico**: Have empathy for the user and walk their shoes.
+
+[14:01] **Nico**: Then stop screaming blockchain. Understand that the majority do not care about the blockchain. They care about their problems.
+
+[14:09] **Nico**: It is our job to find what problems can we solve in an innovative way using the technology.
+
+[14:15] **Nico**: Does this problem need blockchain technology to solve it? Is this a better way to solve it, a more efficient one?
+
+[14:22] **Nico**: Don't find an idea that already exists in Web2 and simply put the word blockchain after it. We are creating Facebook, but on the blockchain.
+
+[14:31] **Nico**: Next, try to involve a design team, UX team, a product team, someone with a user-centered approach as early as possible.
+
+[14:41] **Nico**: If you wait too long to bring these people to your team, you will have one of two problems. Either they will only be able to make aesthetic changes, or you will have to go back in your steps and start from scratch to fix the core problems.
+
+[14:57] **Nico**: For the last one, I suggest doing UX research. Try to analyze everything from a user point of view.
+
+[15:04] **Nico**: Ask yourself questions. Think user flows and search for pain points.
+
+[15:08] **Nico**: Check for competitors and try to think what can you do better than them.
+
+[15:13] **Nico**: Focus on finding what actual core problems you're trying to solve and think if it's enough of an incentive to bring users to your app.
+
+[15:21] **Nico**: Lastly, try to get user feedback as soon as possible. Interact with your users and ask them questions.
+
+[15:28] **Nico**: This community has great users and those early adopters love giving feedback and helping you help them. Because remember, you are building things for them.
+
+[15:40] **Nico**: Technological constraints. Think outside the box.
+
+[15:44] **Nico**: So, what do I mean by thinking outside the box and technological constraints?
+
+[15:48] **Nico**: Well, blockchain is a fairly new technology and it is constantly evolving and changing. In fact, some of the things that today seem like they have always been here, they are actually quite new.
+
+[16:00] **Nico**: Sometimes when building a new app, projects tend to simply do things in a certain way because that's the way things are done.
+
+[16:08] **Nico**: At the end, this will cap how innovative the things that we create can be. And once again, we'll shift the focus from the user to the technology.
+
+[16:19] **Nico**: Think it this way. If we would have simply accepted the way things were done in the traditional way, and some of the limits of Web2, we wouldn't, for example, have streaming services today.
+
+[16:31] **Nico**: How does this affect us? What can we do?
+
+[16:35] **Nico**: I know I'm repeating myself here, but focus on the user. Avoid getting tangled in technological constraints at early stages.
+
+[16:43] **Nico**: Your first and main focus should always be the user and the problem you're trying to solve for them.
+
+[16:50] **Nico**: Question everything, especially if it's making the overall experience bad.
+
+[16:55] **Nico**: If you think needing tokens from the main chain in order to mint a free NFT may be annoying for the user, if you think the user experience is working poorly when interacting with external wallets, if you think that your users should not lose all their funds if they lose their seed phrase, find workarounds.
+
+[17:15] **Nico**: Do not simply accept something just because.
+
+[17:19] **Nico**: If it is making the overall experience worse for the user, try figuring out a way, a workaround, somehow to fix it.
+
+[17:28] **Nico**: It may be something too big for you and your team right now to tackle, but it is important for you to at least know and think about it.
+
+[17:38] **Nico**: Do not be complacent. Try to build new best practices.
+
+[17:43] **Nico**: There are already some accepted ways on which we do things in blockchain, but this doesn't mean that they are the best ones.
+
+[17:51] **Nico**: Think of new practices that will help the industry as a whole.
+
+[17:55] **Nico**: Maybe for example embedding test transactions into wallets when sending large amounts, or automatically creating new empty test wallets when interacting with a smart contract that you don't know to avoid scams.
+
+[18:09] **Nico**: So, we are getting to the end of it. We analyzed five challenges of UX design and I hope you learned a few things that you can take in mind when building your products in this hackathon.
+
+[18:22] **Nico**: As a last note, I wanted to say that mass adoption is also a huge responsibility.
+
+[18:27] **Nico**: As your apps become more accessible, easier to use, more user-friendly, intuitive, they will start bringing more users in.
+
+[18:35] **Nico**: And the overall risks of people losing their funds, interacting with bad actors and making harmful decisions will skyrocket.
+
+[18:44] **Nico**: Even though I have never interacted with it, I think the whole Luna situation is a great example of this.
+
+[18:50] **Nico**: Having such a user-friendly and easy to access product play a massive role in the amount of people that interacted with it, and hence the amount of people that ended up losing it all.
+
+[19:01] **Nico**: As founders, it's your obligation and responsibility to think what happens if your app gets massively adopted. How will it react?
+
+[19:10] **Nico**: What things can you do today to avoid exploits, bad practices, et cetera?
+
+[19:16] **Nico**: Do not wait until you get there to start asking these questions.
+
+[19:20] **Nico**: Something else to note is that everyone has a massive role into bringing Web3 and blockchain products into a more UX-friendly stage.
+
+[19:29] **Nico**: As founders, start by shifting your mindset to a user-centered one. Start caring more about the product itself than the code behind it.
+
+[19:38] **Nico**: Try to include design and user thinking as early as possible.
+
+[19:43] **Nico**: Then, as users, speak your mind about the dApps that you interact with. Support projects that advocate for good UX.
+
+[19:52] **Nico**: Demand things to work better. Don't just take it in because it's just blockchain and we assume and know that the UX is bad.
+
+[19:59] **Nico**: In fact, if you don't find an app that covers your needs, an app that works the way you want it, then become a founder.
+
+[20:08] **Nico**: Get a team and build it with you.
+
+[20:11] **Nico**: So yeah, that's all for today. I hope I haven't bored you guys to death.
+
+[20:16] **Nico**: I wish you luck in the hackathon. Feel free to reach out through Twitter.
+
+[20:20] **Nico**: That's my handle right there, at NicoUXUI. You can reach out with any questions or comments.
+
+[20:26] **Nico**: I will do my best to help you out. And yeah, thanks for watching and good luck.

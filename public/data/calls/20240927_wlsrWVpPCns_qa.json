@@ -1,0 +1,139 @@
+{
+  "call_date": "2024-09-27",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "00:33",
+      "question": "What are you currently working on in terms of development?",
+      "asker": "qx()",
+      "answer": "I'm working on Ergo 6.0 and sub-blocks. A lot of things are becoming crystal clear now. I'm also preparing documentation about what 6.0 will mean for miners and the soft forking capabilities that will be used, since these aren't well covered yet. Ergo's soft forkability is made too extreme in comparison with Bitcoin even.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "ergo 6.0",
+        "sub-blocks",
+        "soft fork",
+        "miners"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "03:58",
+      "question": "How would anonymous voting with stealth addresses work to prevent multiple votes while maintaining privacy?",
+      "asker": "qx()",
+      "answer": "The idea is simple - you have voting addresses for yes and no outcomes. You send participation tokens to stealth addresses instead of regular addresses, preserving recipient privacy. The organizer sends tokens and transaction fees to the stealth address, then you send from this stealth address to the yes or no outcome using only one input transaction. This prevents privacy leaks from fee payments, which is a major issue in many privacy protocols, especially on account-based cryptocurrencies like Ethereum.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "stealth addresses",
+        "anonymous voting",
+        "privacy",
+        "participation tokens"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "43:48",
+      "question": "How could Sigma chains attract miners from other coins, including ASICs, to Ergo pools?",
+      "asker": "qx()",
+      "answer": "Every sidechain has its own token to attract miners. It could be merge mined, where Ergo miners get those tokens for mining the sidechain along with the main chain. It could also be dedicated mining with trustless two-way pegging, using ASIC-friendly algorithms, CPU-oriented algorithms like RandomX, or other options like K-heavy hash or Blake tree.",
+      "responder": "kushti",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "sigma chains",
+        "merge mining",
+        "sidechains",
+        "ASIC",
+        "mining algorithms"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "24:25",
+      "question": "What's the difference between traditional asset tokenization and Winter Protocol's approach?",
+      "asker": "implicit",
+      "answer": "Traditional tokenization creates fractional ownership tokens backed by reserves in a vault - you tokenize the asset itself. Winter Protocol tokenizes provenance instead. The NFT becomes its own value chest holding information that moves with the commodity, including proof of reserve. This is crucial because traditional tokenization often has the problem where tokens or futures contracts exist but the actual reserve doesn't, which provenance tokenization solves through IoT devices and other proof methods.",
+      "responder": "Dan Friedman",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "tokenization",
+        "provenance",
+        "NFT",
+        "proof of reserve",
+        "Winter Protocol"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "32:31",
+      "question": "What are your thoughts on trading commodities on marketplaces like MewFinance using various tokens like Gold, ERG, or Rosen-ADA?",
+      "asker": "HQx",
+      "answer": "It's very viable as long as payments can be hedged against volatility. Right now crypto isn't viable for payments due to volatility - you don't want payments in something that can go up or down 20%. We need tools like SigmaUSD or other stable derivatives. People want the products but don't want to pay with volatile assets like ADA or ERG because of opportunity cost - they'd rather hold those and pay with stable tokens like SigmaUSD.",
+      "responder": "Dan Friedman",
+      "category": "defi",
+      "difficulty": "beginner",
+      "related_terms": [
+        "commodities trading",
+        "volatility",
+        "SigmaUSD",
+        "hedging",
+        "payments"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "35:50",
+      "question": "Will cryptocurrencies become less volatile over time as they mature?",
+      "asker": "implicit",
+      "answer": "Actually, Bitcoin is even more volatile now than before. Numbers from 2022 showed that average daily volatility in Bitcoin was basically the same as back in 2013. Volatility is not going away - cryptocurrencies will be volatile pretty much always. That's why trustless derivative tools like Gluon and SigmaUSD are good for payments, and for real world adoption you need monetary expansion through tokenized real world assets mixed with trustless options.",
+      "responder": "kushti",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "volatility",
+        "Bitcoin",
+        "derivatives",
+        "SigmaUSD",
+        "Gluon"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "49:23",
+      "question": "Could Sigma chains be combined with permission-based mining for community LETS systems?",
+      "asker": "qx()",
+      "answer": "It's possible but if it's permissioned, you need rules for updating permissions which requires forking. For CPU mining, while it's considered most accessible for ordinary people, if it's permissionless it usually gets dominated by botnets. If it's permissioned though, you can make additional conditions on mining. It might even work better as a different consensus mechanism rather than proof of work.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "sigma chains",
+        "permissioned mining",
+        "CPU mining",
+        "botnets",
+        "consensus"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "55:14",
+      "question": "What would it take to set up a Sigma chain and new mining setup on that chain?",
+      "asker": "Mark the Shark",
+      "answer": "Currently there's no easy-to-use framework unfortunately, so you need to fork the Ergo code or use Sigma or Sigma Rust and write blockchain logic around that. After 6.0 and sub-blocks, it would be a good time to work on creating a framework like Substrate - similar to Scorex which I created back in 2015-16 as a modular blockchain framework that several production blockchains were built on, including Ergo.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "sigma chains",
+        "framework",
+        "Scorex",
+        "Substrate",
+        "blockchain development"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "call_date": "2024-08-23",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - August 22nd 2024",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Rare Evo Conference Debrief and Booth Setup",
+      "category": "marketing",
+      "start_time": "02:14",
+      "end_time": "09:02",
+      "primary_speaker": "qx()",
+      "summary": "Team discusses their experience at Rare Evo conference, booth placement challenges, and the combined Palmyra/Sigmanauts/Ergo/Rosen Bridge booth setup. They note that Palmyra name recognition served as an effective entry point for explaining Ergo ecosystem.",
+      "key_terms": [
+        "Rare Evo",
+        "conference booth",
+        "Palmyra",
+        "Rosen Bridge",
+        "marketing strategy"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Make Mining Great Again Hat Success Story",
+      "category": "marketing",
+      "start_time": "05:51",
+      "end_time": "06:47",
+      "primary_speaker": "qx()",
+      "summary": "The mining-themed hats were the biggest hit at the conference, appealing to both crypto miners and political supporters due to their dual messaging. The team notes the merchandise's broad appeal across different audience segments.",
+      "key_terms": [
+        "mining hats",
+        "merchandise",
+        "swag",
+        "proof of work",
+        "marketing appeal"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Conference Demographics and Proof of Life Value",
+      "category": "marketing",
+      "start_time": "07:12",
+      "end_time": "09:02",
+      "primary_speaker": "qx()",
+      "summary": "Analysis reveals 50% exhibitors and 50% guests at the conference. The team concludes these events serve as 'proof of life' for crypto projects rather than pure marketing opportunities, demonstrating active development and community engagement.",
+      "key_terms": [
+        "conference demographics",
+        "exhibitors",
+        "proof of life",
+        "crypto events"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Cardano Hydra Layer 2 Doom Game Demo",
+      "category": "technical",
+      "start_time": "10:11",
+      "end_time": "11:22",
+      "primary_speaker": "mgPai",
+      "summary": "mgPai highlights the impressive Hydra demonstration running Doom entirely on-chain at 32 transactions per second. This showcases the potential for UTXO-based gaming applications and future possibilities for similar implementations on Ergo.",
+      "key_terms": [
+        "Hydra",
+        "Layer 2",
+        "on-chain gaming",
+        "UTXO",
+        "transactions per second"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Real Business Interest in Palmyra Solutions",
+      "category": "ecosystem",
+      "start_time": "11:42",
+      "end_time": "13:12",
+      "primary_speaker": "qx()",
+      "summary": "Multiple businesses approached the booth specifically seeking Palmyra-like solutions for exporting goods from countries, including opal miners from Washington/Oregon. This demonstrates real-world demand for blockchain-based supply chain solutions.",
+      "key_terms": [
+        "Palmyra",
+        "supply chain",
+        "business adoption",
+        "export solutions",
+        "real-world use cases"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "NFT-Based Swag Sales on Auction House",
+      "category": "nft",
+      "start_time": "13:43",
+      "end_time": "15:01",
+      "primary_speaker": "qx()",
+      "summary": "Team announces beta version of selling leftover conference merchandise through NFTs on Auction House. Each item will have a corresponding NFT, and buyers will use a portal to provide shipping information for physical delivery.",
+      "key_terms": [
+        "NFT merchandise",
+        "Auction House",
+        "swag sales",
+        "shipping NFTs",
+        "physical redemption"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Gluon Stablecoin Launch and Post-Launch Development",
+      "category": "defi",
+      "start_time": "15:21",
+      "end_time": "16:31",
+      "primary_speaker": "kushti",
+      "summary": "kushti reports ongoing discussions with Bruno about post-Gluon projects including HODLcoin variants and prediction markets. Gluon is currently in soft launch phase with broader announcement expected soon.",
+      "key_terms": [
+        "Gluon",
+        "stablecoin",
+        "soft launch",
+        "HODLcoin",
+        "prediction markets"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Dexy DEX Contract Deployment Progress",
+      "category": "defi",
+      "start_time": "16:35",
+      "end_time": "17:22",
+      "primary_speaker": "kushti",
+      "summary": "LP Redeem contract has been deployed for Dexy, with bank contracts currently under review. Soft launch is expected within weeks, with significant learning opportunities anticipated from the launch process.",
+      "key_terms": [
+        "Dexy",
+        "DEX",
+        "LP Redeem",
+        "bank contracts",
+        "soft launch"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Node 6.0 Development and Testing Progress",
+      "category": "technical",
+      "start_time": "17:37",
+      "end_time": "20:55",
+      "primary_speaker": "kushti",
+      "summary": "Initial pull requests for 6.0 testnet are ready, with kushti working on developer network testing. The update will be deployed via miner signaling soft fork, maintaining compatibility with older node versions.",
+      "key_terms": [
+        "Node 6.0",
+        "soft fork",
+        "miner signaling",
+        "testnet",
+        "backward compatibility"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Sigmanauts Mining DAO First Vote on 6.0",
+      "category": "governance",
+      "start_time": "20:55",
+      "end_time": "21:50",
+      "primary_speaker": "qx()",
+      "summary": "Node 6.0 will be the first vote for the Sigmanauts mining DAO on Paideia platform, marking a shift from previous GetBlok voting mechanisms used for EIP 27 approximately two years ago.",
+      "key_terms": [
+        "Sigmanauts mining DAO",
+        "Paideia",
+        "governance vote",
+        "EIP 27",
+        "GetBlok"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "ChainCash Mainnet Testing and Contract Updates",
+      "category": "technical",
+      "start_time": "22:23",
+      "end_time": "23:49",
+      "primary_speaker": "kushti",
+      "summary": "First mainnet ChainCash transactions completed between kushti and Kamal, revealing contract issues with note spending. Contracts and server have been updated, with broader community testing now possible.",
+      "key_terms": [
+        "ChainCash",
+        "mainnet testing",
+        "contract updates",
+        "note spending",
+        "privacy payments"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Developer DAO Restructuring and Challenges",
+      "category": "governance",
+      "start_time": "23:49",
+      "end_time": "27:42",
+      "primary_speaker": "kushti",
+      "summary": "Developer DAO progress is slow and needs restructuring due to distributed team challenges across time zones and cultures. Focus areas include tutorials, hardware wallet integrations, and Oracle Pool software updates.",
+      "key_terms": [
+        "Developer DAO",
+        "restructuring",
+        "tutorials",
+        "hardware wallets",
+        "Oracle Pool"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Good DAO Leadership and Time Allocation Issues",
+      "category": "governance",
+      "start_time": "25:37",
+      "end_time": "26:47",
+      "primary_speaker": "qx()",
+      "summary": "qx() considers temporarily stepping away from Sigmanauts to focus entirely on Good DAO development, recognizing that DAOs need dedicated leadership rather than partial time allocation to succeed.",
+      "key_terms": [
+        "Good DAO",
+        "dedicated leadership",
+        "time allocation",
+        "DAO management",
+        "Sigmanauts"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "Ergo's Unique Position as Open Source Financial Stack",
+      "category": "technical",
+      "start_time": "27:42",
+      "end_time": "29:23",
+      "primary_speaker": "kushti",
+      "summary": "kushti emphasizes Ergo's unique position as the most permissionless, fully open-sourced financial stack. Discussion touches on the contrast between Ergo's principled approach and typical conference atmospheres focused on hype.",
+      "key_terms": [
+        "open source",
+        "permissionless",
+        "financial stack",
+        "principled development"
+      ]
+    },
+    {
+      "topic_id": 15,
+      "title": "Keystone Hardware Wallet Integration Timeline",
+      "category": "technical",
+      "start_time": "29:38",
+      "end_time": "30:49",
+      "primary_speaker": "mgPai",
+      "summary": "Keystone integration will be much faster than Ledger due to simpler approval process. mgPai is back to active development after travel, working with Nemo and seeking Ergo DAO support for additional development help.",
+      "key_terms": [
+        "Keystone",
+        "hardware wallet",
+        "integration timeline",
+        "Ergo DAO support",
+        "Nemo"
+      ]
+    },
+    {
+      "topic_id": 16,
+      "title": "Ergo Names Development Status and Features",
+      "category": "technical",
+      "start_time": "30:56",
+      "end_time": "32:15",
+      "primary_speaker": "mgPai",
+      "summary": "Ergo Names is 70% complete with LGD working on contract refactoring. The system will support payment with any token and include recursive sub-names functionality from launch, making it highly robust and feature-rich.",
+      "key_terms": [
+        "Ergo Names",
+        "contract refactoring",
+        "LGD",
+        "multi-token payments",
+        "sub-names"
+      ]
+    },
+    {
+      "topic_id": 17,
+      "title": "SkyHarbor Fork and Revenue-Based Development Model",
+      "category": "ecosystem",
+      "start_time": "32:38",
+      "end_time": "33:37",
+      "primary_speaker": "qx()",
+      "summary": "Quokka's team is fixing SkyHarbor, after which Sigmanauts plans to fork it and fund ongoing development through frontend revenue sharing. This creates a sustainable maintenance model rather than one-time fixes.",
+      "key_terms": [
+        "SkyHarbor",
+        "fork",
+        "revenue sharing",
+        "sustainable development",
+        "Quokka"
+      ]
+    },
+    {
+      "topic_id": 18,
+      "title": "Palmyra Pro Business Integration on Ergo",
+      "category": "ecosystem",
+      "start_time": "33:40",
+      "end_time": "35:32",
+      "primary_speaker": "mgPai",
+      "summary": "Palmyra Pro development focuses on business onboarding and Ergo integration. The application allows businesses to add commodity metadata, which feeds into traceability systems stored directly on the Ergo blockchain.",
+      "key_terms": [
+        "Palmyra Pro",
+        "business integration",
+        "commodity metadata",
+        "traceability",
+        "supply chain"
+      ]
+    },
+    {
+      "topic_id": 19,
+      "title": "ErgoHack Duration Extension Considerations",
+      "category": "community",
+      "start_time": "35:32",
+      "end_time": "37:51",
+      "primary_speaker": "kushti",
+      "summary": "Discussion on extending ErgoHack duration reveals that longer timeframes don't necessarily increase participation due to developers' real-life constraints. Most participants would still only dedicate weekends regardless of total duration.",
+      "key_terms": [
+        "ErgoHack",
+        "hackathon duration",
+        "developer participation",
+        "time constraints"
+      ]
+    },
+    {
+      "topic_id": 20,
+      "title": "Cyberverse Gaming Demo at Rare Evo",
+      "category": "nft",
+      "start_time": "37:51",
+      "end_time": "39:42",
+      "primary_speaker": "qx()",
+      "summary": "Cyberverse was successfully demonstrated at Rare Evo with a custom Rare Evo character. Despite suboptimal booth setup, visitors loved the play-to-earn mechanics and NFT ownership features, with positive feedback on the unique neon aesthetic.",
+      "key_terms": [
+        "Cyberverse",
+        "gaming demo",
+        "play-to-earn",
+        "NFT ownership",
+        "Mr. Pixel"
+      ]
+    },
+    {
+      "topic_id": 21,
+      "title": "ChainCash Initial Use Cases Discussion",
+      "category": "technical",
+      "start_time": "39:42",
+      "end_time": "40:18",
+      "primary_speaker": "kushti",
+      "summary": "kushti discusses initial ChainCash applications focusing on trust-based community currencies and local exchange trading systems, indicating development of user interface solutions for these specific use cases.",
+      "key_terms": [
+        "ChainCash",
+        "community currencies",
+        "local exchange",
+        "trust-based systems",
+        "use cases"
+      ]
+    }
+  ]
+}

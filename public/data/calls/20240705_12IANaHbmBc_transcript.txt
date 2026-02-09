@@ -1,0 +1,569 @@
+[00:23] **qx()**: Hello guys.
+[00:25] **qx()**: Welcome to the weekly AMA.
+[00:29] **qx()**: We have the sit-ins this week.
+[00:32] **qx()**: I guess the important people are very busy.
+[00:34] **qx()**: So we have mgPai with us.
+[00:36] **qx()**: How are you doing mgPai?
+
+[00:40] **mgPai**: Yeah, I'm pretty good.
+[00:42] **mgPai**: Super hyped about the fifth birthday of Ergo.
+[00:45] **mgPai**: You know, it's been a good week getting all that content pumped out.
+
+[00:51] **qx()**: Happy fifth birthday to Ergo, Ergoversary.
+[00:55] **qx()**: It's been a great week too.
+[00:56] **qx()**: We've had starting on Monday.
+[00:58] **qx()**: We had several videos cranking out.
+[01:00] **qx()**: We had some community ones.
+[01:02] **qx()**: We had some good ones from kushti.
+[01:05] **qx()**: We had some other ones from the Stanford guy then, we even had that cross-chain one yesterday from CKB right from Nervos was that Nervos the RGB thing
+
+[01:20] **qx()**: Yeah, yeah, yeah.
+[01:21] **qx()**: Yeah, yeah, so that was pretty cool.
+[01:24] **qx()**: A lot of fun, a lot of crazy stuff.
+[01:26] **qx()**: I want to take a second to say that people don't notice much, but this stuff takes a lot to get together.
+[01:35] **qx()**: You have to first of all, you have to hound the shit out of everybody to get the videos in.
+[01:41] **qx()**: And when they finally do, they take a little bit of tweaking.
+[01:44] **qx()**: So I just want to thank our sire Andy here, who's behind the scenes.
+[01:49] **qx()**: If we could all clap for a second for Mr. Andy.
+[01:54] **qx()**: Who you see sometimes in chats, but he's a man behind the curtain like in the Wizard of Oz that makes all this kind of stuff happen. So thanks so much Andy.
+[02:02] **qx()**: It's always very professional what you put out and if people didn't know that also Andy composes the music that you hear in the beginning and the end. All that kind of stuff.
+[02:13] **qx()**: It's custom music creations from Andy. So a man of a lot of talents that we have behind the board here.
+[02:19] **qx()**: Thank you, Andy.
+[02:20] **qx()**: He's right now he's got a baby in one hand rocking him feeding him and he's controlling us with the other hand. So it never stops.
+[02:27] **qx()**: That's for sure. Well, let's get started.
+
+[02:31] **qx()**: Where are you?
+[02:33] **qx()**: mgPai has Dan kidnapped you and thrown you in a broom closet somewhere?
+
+[02:37] **mgPai**: Yeah, I mean, you know, he came out to Massachusetts picked me up and dragged me all the way over to Japan.
+
+[02:48] **qx()**: What are you doing right now?
+[02:50] **qx()**: You got like some meetings kind of groupings.
+
+[02:53] **mgPai**: Yeah.
+[02:54] **mgPai**: You know, we're pumping out some crazy ZenGate tech.
+[02:58] **mgPai**: Right now I'm in his old, near his old apartment in Osaka.
+[03:03] **mgPai**: And we have a really cool office.
+[03:04] **mgPai**: Unfortunately, it's quite late here or else I would be in the office.
+[03:08] **mgPai**: Now could I have given the AMA a tour?
+[03:11] **mgPai**: Here I am in my dining room.
+
+[03:15] **qx()**: Is it, is it midnight over there?
+
+[03:18] **mgPai**: It's about 10 PM.
+
+[03:20] **qx()**: 10 PM.
+[03:21] **qx()**: Oh, that's not bad.
+[03:22] **qx()**: That's not terrible.
+[03:24] **qx()**: So how was, so, you know, I want to get this experience from you.
+[03:28] **qx()**: You were, I want to say wined and dined, and given an opportunity to participate in Alephium's developer conference, right?
+[03:43] **qx()**: Or meetup.
+
+[03:44] **mgPai**: Yes.
+
+[03:45] **qx()**: How was that compared, not compared, but I guess I don't want to compare anything, but how did you experience that as in a developer from another chain?
+[03:56] **qx()**: I know you've tweaked a little bit in Alephium making, bringing your HODL token project to Phoenix Finance over to Alephium.
+[04:04] **qx()**: But how was that experience?
+[04:05] **qx()**: Why don't you talk about that, bring some insights back to Ergo about you know maybe what our meetup could look like when we do those kind of things in Denver or wherever Joe is.
+
+[04:15] **mgPai**: Yeah, yeah, for sure.
+[04:17] **mgPai**: So, you know, we had a good conference for a few days in Greece hosted by Alephium.
+[04:24] **mgPai**: And, you know, we had several presentations by a bunch of projects and a lot of developers about the protocol, where we're headed for the future and all sorts of upcoming projects and even tooling that's available in the ecosystem.
+[04:39] **mgPai**: Some of you may know that Alephium is a pretty new blockchain, newer than Ergo.
+[04:45] **mgPai**: It was mainnet in 2021, so it's still pretty fresh.
+[04:49] **mgPai**: And their tech is pretty interesting because they fused the UTXO and account-based model together.
+[04:55] **mgPai**: So a lot of their tooling has been built from the ground up to support this unique type of chain.
+[05:03] **mgPai**: So the developer conference was about getting familiarity with that chain and being welcoming to any new curious developers who made it to the conference.
+[05:17] **mgPai**: It was really nice.
+[05:18] **mgPai**: I also gave a lecture on how the UTXO models, Ergo and Cardano they're pure UTXO so you know I gave a speech on how their contracts work then I also compared it to Alephium's account-based contracts because Alephium's purely account-based contracts whereas it's day-to-day wallet transactions are all UTXO based so you know I was just comparing them you know I find them really interesting and I also find it important to foster
+[05:48] **mgPai**: some real friendliness towards proof of work chains because it's slowly starting to dissipate.
+[05:54] **mgPai**: So I think it's quite important to have support and be friendly rather than tribalism towards one specific chain.
+[06:02] **mgPai**: We should embrace, especially in the POW space where it's dying out.
+[06:07] **mgPai**: My hope for the future is to support cross-chain interoperability by bringing some stuff to Cardano, bringing some stuff to Ergo, some stuff to Alephium.
+[06:19] **mgPai**: And, you know, us at ZenGate too, we have built on Cardano, we have built on Ergo, and now we're also looking into Nervos as well, we partnered with them, or we at least we're good with their DAO and all.
+[06:33] **mgPai**: So, you know, we are all about cross-chain interoperability because if we want to move forward as the entire crypto industry, we've got to work together.
+
+[06:45] **qx()**: Yeah.
+[06:45] **qx()**: Yeah, I agree.
+[06:46] **qx()**: I think tribalism can alienate and isolate a chain in the end.
+[06:52] **qx()**: I think that's the only, unless you have a stronghold on the market itself, then feel free to be tribal, you know, because nobody else has a choice.
+[07:00] **qx()**: When there are choices like this out there and those other choices have some things that you don't and you have some things that they don't it's not in anybody's best interest to be tribalistic there and especially since you know the fight right now is not against each other the fight is against these goddamn corporate entities and government banking systems that
+[07:23] **qx()**: They have a stranglehold on these financial systems.
+[07:26] **qx()**: So yeah, yeah, it's a classic, you know, let's, you know, distract and have them fight amongst themselves so you can weaken them kind of thing.
+[07:34] **qx()**: You really need a strong united front if this is going to be the way of finance in the future, or at least some.
+
+[07:42] **mgPai**: We got to be focused on what the real goal is, right?
+[07:44] **mgPai**: The goal is to be separate from these centralized institutions that are inherently corrupted by the government or like human nature. That's a real goal.
+[07:53] **mgPai**: So we've got to keep that in mind and foster growth within our own ecosystem. Exactly, and I mean Rosen Bridge proves that right?
+
+[08:01] **qx()**: That's that's a whole that's all point of Rosen at least to open each other.
+
+[08:07] **qx()**: Yeah, so that'll be cool.
+[08:09] **qx()**: Let's see.
+[08:10] **qx()**: What else is new in your neck of the woods?
+[08:12] **qx()**: How's the food out there?
+[08:14] **qx()**: Which food do you like better, Greek food or Japanese food?
+
+[08:20] **mgPai**: I mean, I've been, you know, in Greece, I actually had a lot of fun with the comic guy, Poodleir.
+[08:25] **mgPai**: You know, we met up there in Greece.
+
+[08:27] **qx()**: Wait, wait, wait.
+[08:27] **qx()**: Who met you in Greece?
+
+[08:30] **qx()**: Yeah, yeah, yeah.
+
+[08:36] **mgPai**: So, you know, he's still alive.
+
+[08:38] **qx()**: That's a good thing.
+
+[08:40] **mgPai**: Yeah, luckily.
+[08:42] **mgPai**: You know if you guys scroll up you can see our chats and baseless and some photos but you know we went to some beaches together we had a lot of food together so it was a lot of fun and I'm personally vegetarian so it's a little harder for me to come by like vegetarian food but so far I was surprised by Greece they actually had a lot of options like with I guess carbs so like bread and cheese and you know a lot of delicious olives you know that was a lot of fun
+[09:10] **mgPai**: so you know I was surprised I love the food in Greece it was amazing and it's a lot different than like American food American food tradition you can say American food is shit period you can say yeah yeah it's like no there's like less options and like
+[09:26] **mgPai**: It's like more what is it processed food, right?
+[09:30] **mgPai**: That's the biggest difference recipes, you know, whenever we were at the restaurants it would take so long to get there because they were making it right compared to
+
+[09:40] **qx()**: They're killing the lamb out back there.
+[09:40] **qx()**: They're carving it up.
+[09:41] **qx()**: Yeah.
+[09:42] **qx()**: Yeah, you got it. No, you find that stuff like if you go to South America even and you ask for vegetarian dishes, you know, you're getting actual
+
+[09:53] **mgPai**: You know vegetarian things that are vegetables are things that are vegetable based in America. You get a vegetarian dish you get some fucking processed chickpea nugget that looks like a chicken. Yeah, I don't even enjoy any of that like people think I eat that but like no. But yeah, so, you know, it was pretty cool and now Japan I've been here for a few days, you know. And I mean it seems to be very
+[10:20] **mgPai**: carnivorous for the food, but I have found a few things so far, you know some noodles and some soup and so on, you know, I've been enjoying the flavor and different experiences.
+
+[10:33] **qx()**: Awesome.
+[10:33] **qx()**: Well, I'm glad you got that experience.
+[10:35] **qx()**: Can I ask what the drinking age is in Greece and Japan?
+
+[10:40] **mgPai**: Oh I mean in Greece, I think it's like 18.
+
+[10:43] **qx()**: You have to be able to walk I think in Greece.
+[10:45] **qx()**: That's the drinking age.
+
+[10:48] **mgPai**: Yeah, I mean, I really didn't know the ID properly.
+[10:51] **mgPai**: Never even asked once.
+[10:55] **mgPai**: And in Japan, I think they're a bit more strict.
+[10:58] **mgPai**: It's like 20.
+
+[10:59] **qx()**: Okay.
+[11:00] **qx()**: All right.
+[11:00] **qx()**: All right.
+[11:00] **qx()**: So somewhat safe.
+[11:02] **qx()**: All right.
+[11:02] **qx()**: So five years of Ergo, tons of progress throughout that time.
+[11:06] **qx()**: What's it called?
+[11:10] **qx()**: Sigmanauts, anything new for the Sigmanauts this week.
+[11:13] **qx()**: We are putting up a vote soon.
+[11:16] **qx()**: I think I already put it up.
+[11:17] **qx()**: We want to spend about five grand on shirts, long sleeve sweats, on stickers with the classic, blue cool.
+[11:29] **qx()**: You know the little blue Ergo. Yeah, yeah, yeah, yeah, so we're bringing that back. So we're making stickers of that and then we're gonna make a hundred hats that now bear with me here.
+[11:42] **qx()**: They're red hats
+
+[11:45] **qx()**: All right.
+[11:46] **qx()**: With white writing on the back, it says Ergo.
+[11:50] **qx()**: So I'm just establishing that, that it says Ergo on the back of it.
+[11:54] **qx()**: But on the front, two lines of text, it says make mining great again.
+
+[12:02] **mgPai**: That's wonderful.
+
+[12:03] **qx()**: So we're going to bring that to RareEvo if the vote passes.
+[12:07] **qx()**: And we're going to try to sell a bunch, maybe give a little bit away.
+[12:11] **qx()**: But the idea is we want to break a little bit even to give back to the Treasury.
+[12:16] **qx()**: And then on top of that, the plan is to kind of spin off some whatever inventory's left, perhaps put up a little pop-up site that people can buy that.
+[12:25] **qx()**: And then even on top of that, Mark the Shark in the mining pool always thinking of new stuff.
+[12:30] **qx()**: Is going to we may integrate like mine for merch.
+[12:36] **qx()**: So you point your mining rig to a separate wallet that is like the hat or the shirt and you mine and after a time when your amount gets up to what the price of the product is, you know, you shut off your miner turn it back to you know, the token or the coin and you get shipped the hat automatically or the shirt automatically so kind of like
+[12:58] **qx()**: Pay directly with mining.
+[13:00] **qx()**: So we're gonna we're gonna try that because we already have the system set up in the Sigmanauts mining pool with like Rosen Bitcoin, Rosen and you know soon other tokens.
+[13:09] **qx()**: So there's no reason why we can't mine to physical merchandise. So that'll be neat.
+[13:13] **qx()**: That's what's happened in the Sigmanauts. I don't think there's too much other news in the Sigmanauts kind of we've all been really focusing on Ergoversary and what that means in coming out with that?
+
+[13:27] **qx()**: Let's go right to a good question that could get us talking for a little bit.
+[13:33] **qx()**: Let me open this up. Here we go mgPai.
+[13:37] **qx()**: This is from our lovely buddy Wombo. All right?
+[13:42] **qx()**: What would be your vision for the next five years of Ergo?
+
+[13:46] **mgPai**: That's a good question.
+[13:49] **mgPai**: Personally, I would like to see more user adoption.
+[13:54] **mgPai**: Working on convincing people to get on Ergo by making some novel innovations.
+[14:03] **mgPai**: Maybe having better UI UX experience, that's pretty big.
+[14:07] **mgPai**: A lot of people complain about the over-complexity of crypto and getting into it.
+[14:13] **mgPai**: I would love to see in the near future, maybe in the next year or so, we collectively as developers and core members in Ergo, focus on making onboarding process really smooth.
+[14:26] **mgPai**: At least lead the crypto industry in onboarding.
+[14:32] **mgPai**: Really easy like one tap wallets to onboard something, you know, it would be really cool to show during like RareEvo events like, hey, you're curious in Ergo, here make download our like one tap wallet will give you one ERG, you know, promotions like that.
+[14:47] **mgPai**: And you really, you know, really make a difference and you know, get a bunch of users, right?
+[14:51] **mgPai**: Because what's the point of all this tech, if you know, no one uses it.
+[14:55] **mgPai**: So, you know, I think that that's a really good goal to have in the near future.
+[14:59] **mgPai**: So user adoption,
+[15:01] **mgPai**: And then next, what I would like to see, which I already been seeing from PG who participated in the recent hackathon is while it's leveraging all these unique features of Ergo, so we have the NIPoPoWs, right?
+[15:14] **mgPai**: which is a super light client for nodes so you can run your own node instantly completely synced to the blockchain in a few minutes using a couple hundred megabits of storage and you're running your own node each time you start up your wallet on your phone itself.
+[15:30] **mgPai**: You don't need to connect to anyone's nodes and this is a really unique feature that I don't even think any blockchain has.
+[15:38] **mgPai**: We should really stand out in that domain and capitalize on the uniqueness and potentially especially where some users might have to do with censorship or being careful with which nodes they directly connect to.
+[15:53] **mgPai**: So this could be a solution for that.
+[15:57] **mgPai**: So it's a bunch of little things here and there.
+[16:01] **mgPai**: So I think those are good goals for the near future.
+[16:04] **mgPai**: And with ROSEN, we're starting to get into interoperability.
+[16:09] **mgPai**: So I think we'll also have that in the next few six months.
+[16:13] **mgPai**: Maybe we'll have EVM, some EVM compatible chains, and maybe some new ones, some in the Proof of Work Alliance.
+[16:21] **mgPai**: Let's grow closer with the other chains, make some good partnerships.
+[16:25] **mgPai**: And then probably looking down a few years in the line, I would like to see layer two
+[16:32] **mgPai**: scaling solutions maybe right so maybe some projects like maybe like high frequency trading wants to make use of like super fast block times right like we can make a layer two solution for that where you know like there it's more it's a lot more centralized right maybe you'll need like Solana based
+[16:49] **mgPai**: servers or something but you know it makes sense when layer one is decentralized layer two you know you have a choice whether to use it or not you can stick to Ergo if you want decentralization or if you trust you know whoever's running the layer two solution you can go ahead and use that for speed right I mean I'm up for layer two for like everyday solutions I don't need the most trust when I want to buy a cup of coffee for example right costing a few bucks but if I'm like trying to buy a car or something of course I want a lot of money to have
+[17:19] **mgPai**: And the best security, of course, I'll just use Ergo, I can wait two minutes to buy a car.
+
+[17:24] **qx()**: Yeah, that's the beauty of open system and the pain that some people feel, right?
+[17:30] **qx()**: So anybody can take it and do whatever the hell they want to.
+[17:33] **qx()**: So with Sigma chains and side chains and sub-blocks, you know, you're right, you could develop some sort of very speedy chain on some very centralized hardware.
+[17:42] **qx()**: And people could choose to use it if they wanted to.
+[17:46] **qx()**: But the overall is that it's backed by very, very secure proof of work layer one.
+[17:51] **qx()**: I mean, heck, you could spin off a chain that's pure ASICs and funded by Bitmain.
+[17:57] **qx()**: And it's super fast block time and fairly centralized.
+[18:04] **qx()**: But yeah, then it's people's choice if they want to use it.
+[18:08] **qx()**: So yeah, I mean, all of those kind of things are possible.
+[18:11] **qx()**: I had a thought I had a thought process while you were talking to and I lost it because HQx just asked if that's a roadie maker behind you. What's what's a roadie maker I have no idea it's one of those devices behind you perhaps I mean clearly you can see
+
+[18:33] **qx()**: But what's it called?
+[18:42] **qx()**: I totally lost my train of thought and forgot everything we were talking about scaling solutions and like the idea of how Ergo beauty of open soil Ergo
+
+[18:53] **mgPai**: And we got Bitmain coming in.
+
+[18:55] **qx()**: Bitmain, Rosen going out, yep.
+[19:00] **qx()**: What's it called?
+[19:00] **qx()**: Did you see, speaking of Bitmain and ASICs, did you see the announcement yesterday with Radix?
+
+[19:07] **mgPai**: Yeah, yeah, I heard.
+[19:10] **mgPai**: I heard, you know, they're going more, they're going the ASIC route, so that'll be interesting to see.
+
+[19:16] **qx()**: Yeah, so apparently for a while now, this is apparently the announcement follows what has been happening for a bit just for, you know, them to bring it out in the open.
+[19:26] **qx()**: But an ASICs manufacturer, they call the entity.
+[19:31] **qx()**: That's interesting.
+[19:32] **qx()**: They call it the entity.
+[19:33] **qx()**: It sounds like something like shitty B sci-fi movie, you know?
+[19:37] **qx()**: As if there's a hundred years of ASIC.
+
+[19:41] **mgPai**: As if there's a hundred years of ASIC company.
+[19:43] **mgPai**: I know.
+
+[19:44] **qx()**: So they are, they've essentially pointing their new rigs that they've made at the chain and it's going to result in having over a 50% hash rate that they promise to distribute to different pools at this point in time.
+[20:01] **qx()**: But I mean, that's a promise from them and they are going to give 10% of their rewards back to the Radix community. I'm not sure if that was specified where that goes to but that's also 5% of the total emissions per day which equates out to the math equates out to them mining about 50% of the chain. So they do have you know control in that way at least but it's interesting that
+[20:32] **qx()**: Somebody can come along like that and just be like, okay, we own the chain now as a single entity even though they're not and and there was a good discussion last night in main chat about you know, it's not in their interest to to fuck over the chain.
+[20:47] **qx()**: It's not in their interest to do that in the media at least because they want to make money and I get it I agree with that but damn if that doesn't hurt or you know, maybe scare away some of the little miners and the little guys mining the chain at that point I'm not sure what would but but yeah interesting and just I wonder what would happen if a huge GPU farm came and pointed at Ergo at that point that take a lot of goddamn money though, I imagine to try to
+
+[21:15] **mgPai**: I mean, but yeah, again, if someone had their mindset on it, they could do it right now.
+
+[21:26] **qx()**: Yeah, somebody with a lot of money.
+[21:29] **qx()**: Yeah, yeah, correct.
+[21:30] **qx()**: Very interesting.
+[21:31] **qx()**: But I mean, that doesn't say that, you know, so something I said to Joe in chat last night was, you know, it's Joe, it's your job to, to, to make these side chains and make an ASICs one and steer and steer and kind of control Bitmain into it or somebody else, one of the other manufacturers.
+[21:49] **qx()**: And so, you know, we have a little bit more of a controlled or not controlled, but more of a guided
+[21:55] **qx()**: uptake of that kind of thing with ASICs, but we'll see.
+[22:01] **qx()**: I think it'll be really interesting when the Sigma chains comes into light and you have a CPU chain, you have an ASICs chain, you have maybe a chain with the
+[22:14] **qx()**: What's it called with a table that is less than four gigabytes so older cards can now mine as well?
+[22:20] **qx()**: And you know because you have you know we just hit the table size what last month over four gigabytes and a lot of people with these cards that have been mining for a while?
+[22:29] **qx()**: Like you know there goes my hash rate out the window it's cut in a third almost or cut in half or doesn't even work anymore in some cases. So you can open this open that
+[22:41] **qx()**: that set back up to people in that case of these cards that are either sold or collecting dust.
+[22:47] **qx()**: I doubt you could sell them for very much right now.
+[22:50] **qx()**: But yeah, super, super cool concepts.
+[22:53] **qx()**: All right, let's see what else we have here.
+[22:55] **qx()**: We have
+
+[22:58] **qx()**: Oh, here we go.
+[23:00] **qx()**: Why don't we do this?
+[23:01] **qx()**: You're in Japan.
+[23:02] **qx()**: You're with Dan.
+[23:03] **qx()**: It's a good time to ask this question again for clarification.
+[23:07] **qx()**: So MG, I understand that you developed a method to get information from Chainlink oracles back onto Ergo and Cardano, if I'm reading that correctly.
+[23:22] **qx()**: So the question is, can you explain what the collaboration with Chainlink brings to both Cardano and Ergo?
+
+[23:27] **qx()**: Again, he says, yeah, yeah.
+
+[23:29] **mgPai**: Yeah, for sure.
+[23:31] **mgPai**: So, you know, the reason why we're really first of all, right, we can of course use Ergo oracles, you know, there's probably Cardano solutions too, but the thing is that you have to do a lot of this from the ground up and Chainlink has already resources that's invested in making this happen.
+[23:49] **mgPai**: Like it's already out there.
+[23:50] **mgPai**: So a big thing that we use at ZenGate with Chainlink,
+[23:53] **mgPai**: Is there IoT devices and sensors that they already have deployed and running?
+[23:59] **mgPai**: So basically we extract data from the real world in order to see and we put it in order to get data that we actually know.
+[24:09] **mgPai**: We can't just take someone's word of mouth and say, someone says, I have 100 bananas.
+[24:15] **mgPai**: How can we trust that?
+[24:16] **mgPai**: So maybe we have a weight sensor developed by Chainlink that's always measuring the bananas.
+[24:22] **mgPai**: Or maybe there's, then maybe like to know, for example, tea, you know, tea leaves, you have to be very careful with them, like, you know, with the humidity and all, you know, probably.
+[24:32] **mgPai**: So just coming up with stuff off the top of my head.
+[24:35] **mgPai**: But what if like, you want to know your tea leaves are stored in a secure manner, so you can have like humidity sensors,
+[24:42] **mgPai**: connected to the blockchain, always reporting the humidity level.
+[24:47] **mgPai**: And then you know that it's stored at the same level, for example.
+[24:52] **mgPai**: Maybe if it goes too high, the leaves get ruined.
+[24:55] **mgPai**: So all this data, it's constantly posted to the chain.
+[24:59] **mgPai**: And then that's how people can verify.
+[25:03] **mgPai**: And we can prove that the tea leaves maybe haven't spoiled or been tampered with, et cetera.
+[25:08] **mgPai**: So this is, of course, this is possible on Ergo, no issue.
+[25:11] **mgPai**: Possible on Cardano, no issue.
+[25:13] **mgPai**: But to make these IoT devices or at least get the partnership with whatever company makes hardware, then deploying all this hardware, it's not a small task.
+[25:23] **mgPai**: ZenGate isn't like a huge team.
+[25:26] **mgPai**: Like, you know, we don't have like a crazy size, just like maybe like 10, 20 people, something along those lines.
+[25:32] **mgPai**: Not even all of them were full time.
+[25:33] **mgPai**: So, you know, we can't do everything.
+[25:35] **mgPai**: We got to optimize what we're best at.
+[25:37] **mgPai**: You know, we got few developers working on blockchain development, few developers making website, marketing business people, you know, we're very efficient and we do what we're best at, you know, we don't like waste our efficiency.
+[25:51] **mgPai**: You know, if we had to integrate
+[25:53] **mgPai**: or go from scratch, then maybe I would have to do hardware research or maybe we would have to hire more people to do all that.
+[26:00] **mgPai**: It's a waste of time.
+[26:02] **mgPai**: So I think it's good that we get caught the Chainlink integration.
+[26:05] **mgPai**: It saves us a lot of overhead we would have had to deal with and it accelerates growth.
+[26:11] **mgPai**: The growth of ZenGate is good for Ergo because it's based on Ergo.
+[26:15] **mgPai**: and Chainlink is also very good for exposure too because so many people are familiar like if you go to a random person who's involved in crypto and you say Ergo they're not going to know what Ergo is right there's not a big chance and if you say Cardano sure they might know Cardano but they don't they just know the name they won't really know much about what Cardano is but if you say Chainlink the chances that most of those people know what Chainlink is right it's been there for a while you know it has utility
+[26:43] **mgPai**: and so on.
+[26:44] **mgPai**: So now we get Chainlink's name from us integrating them.
+[26:49] **mgPai**: So we can say, hey, we work with Chainlink and we use their data feed.
+[26:53] **mgPai**: So some random person in crypto will be like, hey, I know Chainlink.
+[26:56] **mgPai**: They're trustworthy.
+[26:57] **mgPai**: They don't play around.
+[26:58] **mgPai**: So ZenGate's project must be legit.
+[27:01] **mgPai**: ZenGate is legit.
+[27:02] **mgPai**: Let me check out Ergo.
+[27:05] **mgPai**: Why didn't ZenGate use Ethereum or Polygon for their main blockchain?
+[27:10] **mgPai**: Why did they use Ergo?
+[27:11] **mgPai**: So people will get curious and we'll get more traffic on Ergo.
+[27:15] **mgPai**: And in any case, anything that ZenGate does on chain, it generates transaction fees for miners on Ergo too.
+[27:22] **mgPai**: So there's a lot of benefit going here.
+[27:24] **mgPai**: So like I said,
+[27:25] **mgPai**: We got to focus on interoperability and working with each other.
+[27:30] **mgPai**: Sure, you can do every single thing on Ergo, but why build what's already out there, right?
+[27:35] **mgPai**: Let's integrate everything and let's embrace what's there and get some partnerships and get more exposure.
+[27:42] **mgPai**: So, you know, that's really why we chose Chainlink.
+
+[27:45] **qx()**: Yeah, and I mean, I think people may tend to forget that ZenGate is a company trying to survive here and trying to get up off the ground and start up here.
+
+[27:55] **mgPai**: If we had infinite resources, I would do everything from scratch on Ergo.
+[28:00] **mgPai**: If I had infinite time, of course I would do it.
+[28:03] **mgPai**: That's not the case.
+
+[28:05] **qx()**: And you guys could get to a point, let's say in five years, you guys are big enough to where you're like, okay, whatever relationship we have with Chainlink might be costing our bottom line too much at some point.
+[28:15] **qx()**: So we're going to invest two years of working with Chainlink into R&D to create this product from scratch in Ergo and open it up and then take over from there.
+[28:27] **qx()**: So that kind of stuff is possible too, once you get large enough to do that.
+[28:31] **qx()**: It becomes interesting in your bottom line to make that choice, make that jump.
+[28:38] **qx()**: I feel like people are, what's the word I'm looking for?
+[28:43] **qx()**: My brain's not working this morning, holy cow.
+[28:46] **qx()**: I feel like people are conflating, you know, Dan's role as when he is advisor to the board of the EF, as well as his role as private CEO of a private company called ZenGate.
+[29:02] **qx()**: So it's, I understand those roles can be kind of blurry sometimes.
+[29:07] **qx()**: But, you know, when he makes those decisions for ZenGate, he's making them for ZenGate.
+[29:12] **qx()**: And then when he advises a board or assists beyond his role in the Ergo ecosystem to progress Ergo and make it better, you know, he's making those, could be making those for both at that instance.
+[29:24] **qx()**: So it does get kind of confusing.
+[29:26] **qx()**: So you may look at Dan and be like, Dan, what the heck, you're advising to the board and you're, you know, you're not using Ergo in this instance.
+[29:32] **qx()**: It's understandable.
+[29:33] **qx()**: He's got the ZenGate hat on and he's working in the best interest of ZenGate.
+[29:37] **qx()**: And he's using the tools that that are available to him in that instance for the interest of his company.
+[29:44] **qx()**: So yeah, nobody we shouldn't get so pissed off, you know, that kind of stuff turns people away.
+[29:49] **qx()**: It really does.
+[29:51] **qx()**: I mean, can you imagine somebody, you know, let's take it from Dan's point of view, and I'm not being a Dan apologist.
+[29:56] **qx()**: Let's take it from Dan's point of view, who's been advisor to the board.
+[29:59] **qx()**: He, you know, had
+[30:02] **qx()**: Excuse me, he grabbed two amazing devs from Ergo, LGD, and mgPai to build the Winter Protocol, which actually generates the NFT, right, on Ergo.
+[30:17] **qx()**: And then he goes over to Cardano, which we all know has a shit ton more liquidity.
+[30:25] **qx()**: And he creates a token on Cardano, so that gets some heat.
+[30:29] **qx()**: And then he's looking for a solution to bring data on chain.
+[30:34] **qx()**: And there's already a big solution on Chainlink.
+[30:39] **qx()**: So he goes with that in the best interest of the company and time and speed.
+[30:43] **qx()**: And every step of the way, I think he gets a massive amount of shit for it.
+
+[30:47] **mgPai**: Guys, don't forget.
+[30:48] **mgPai**: Don't forget.
+[30:49] **mgPai**: We're doing the sale on Cardano, but we're sure as hell using Rosen to bring it to Ergo.
+[30:54] **mgPai**: Like, you know, like people might know ZenGate and, you know, they'll buy into it because they're hyped with the concept of it.
+[31:02] **mgPai**: And guess what?
+[31:03] **mgPai**: They'll learn about Ergo.
+[31:04] **mgPai**: They'll learn about Rosen and so much, they need so much more growth through fostering by embracing cross-chain interoperability.
+
+[31:13] **qx()**: Correct.
+[31:13] **qx()**: And I mean, you saw that, you guys saw that too.
+[31:16] **qx()**: If you guys went to the spaces with kushti and Joe and Nervos and Alephium, it was really nice to sit there in that space and hear these guys talk about similar struggles that everybody's having.
+[31:30] **qx()**: and seeing that Alephium has something that we don't, and Nervos is just kind of starting out, and we have stuff that they don't.
+[31:39] **qx()**: So it was really interesting to see and experience that kind of self- similar struggle that we all have.
+[31:47] **qx()**: It really brings you back to the point that we discussed earlier that
+[31:50] **qx()**: We really shouldn't be fighting each other.
+[31:52] **qx()**: We're not at that stage yet.
+[31:55] **qx()**: Maybe in the years that come when these kind of decentralized financial tools become more commonplace, then we can start shit storms with other chains and be like, oh, you suck.
+[32:08] **qx()**: We're better at that point.
+[32:10] **qx()**: But when we're still fighting the same main goal together to bring about adoption of these decentralized and peer-to-peer networks,
+[32:19] **qx()**: I really think we need to take it easy on how hard we shit talk or go hard against some of the people that are working hard like us.
+[32:31] **qx()**: I mean, that's not saying that there aren't some really shitty corporate projects out there that are super centralized and that kind of thing.
+[32:37] **qx()**: I think it's okay to bring that to light, that's for sure.
+[32:40] **qx()**: I don't think it's terrible to say, yeah, this is a decentralized system that they claim
+[32:45] **qx()**: But how come it's running on data centers that, you know, costs $600 each month, you know, in Amazon or Azure or that kind of thing.
+[32:55] **qx()**: I think those are kind of things are okay to say, just to keep it honest.
+[32:59] **qx()**: But yeah, we're all fighting the same battle here, guys.
+
+[33:04] **qx()**: That being said, too, I am, I was approached by a company
+[33:10] **qx()**: a couple days ago, maybe last week.
+[33:14] **qx()**: They are a swap site, one that I hadn't ever heard of, so I used it.
+[33:18] **qx()**: And it actually is pretty good.
+[33:20] **qx()**: It's one of the better ones that I've used out of all the swap sites to get tokens from, where did I go?
+[33:27] **qx()**: I used it to go from Ergo to Bitcoin and Ergo to Cardano so that I could then make that video on how to Rosen Bridge from Bitcoin to Cardano and make liquidity.
+[33:36] **qx()**: So I used it for that and it's pretty nice.
+[33:39] **qx()**: You can put in a refund address as well and an email address for those that want to give up an email, but hell, you know, anybody can make a fake email account so you can use that.
+[33:48] **qx()**: Then it's much easier to deal with support if something goes wrong, I feel.
+[33:52] **qx()**: And they're open too.
+[33:54] **qx()**: They have a timer up top, you know, a time amount of time to take the deposit when you create the transaction or when you create the box for them to do it in.
+[34:03] **qx()**: And it was only 30 minute timer, but they're waiting for 30 blocks before they verify.
+[34:10] **qx()**: So that's about 60 minutes.
+[34:12] **qx()**: So the timer was off and I reached out to them and they were going to work on that and fix that.
+[34:16] **qx()**: But the good news is too, they have a fiat on-ramp.
+[34:19] **qx()**: that I believe is a non-KYC fiat OnRamp.
+[34:23] **qx()**: And they put me in touch with them, so I'm poking around there to see what the requirements are there to perhaps be integrated, see how much it costs, see what the developer time is, see how much of mgPai's time he has to donate to this cause.
+[34:41] **qx()**: And go from this I'll keep everybody updated on that as it comes. I don't I don't want to keep it in the dark because I don't want it to be like a surprise and then and not happen.
+[34:50] **qx()**: I think it's better if it's all out on the table and you guys are aware whether it's gonna happen or not gonna happen as it happens, so
+[34:57] **qx()**: I'll keep you guys posted on that kind of thing.
+[34:59] **qx()**: Well, that's exciting, too.
+[35:01] **qx()**: It's not as cheap as going through a centralized exchange, but it has the ability, I believe, to non-KYC credit card fee on ramp from anywhere.
+[35:13] **qx()**: So that would be very neat.
+[35:15] **qx()**: What else was I saying here?
+[35:16] **qx()**: Oh, yeah, here we go.
+[35:19] **qx()**: Got another one for you, mgPai.
+[35:22] **qx()**: Can you specifically talk about the Winter Protocol, what it is, remind people?
+
+[35:27] **mgPai**: Yeah, sure.
+[35:28] **mgPai**: So Winter Protocol, simply put, is just a traceability protocol to track commodities and also basically taking data, storing it on the blockchain.
+[35:41] **mgPai**: So Winter Protocol, as of now, is purely a way to store data agnostically on UTXO blockchains so you can trace the life cycle of a commodity.
+
+[35:56] **qx()**: And that is, so that means that when ZenGate's in full swing, we are going to see a lot of, like, NFTs created on-chain?
+[36:06] **qx()**: Is that what we're going to see from our end?
+
+[36:09] **mgPai**: Well, yes, there will be NFTs or tokens created, but they're all for data use.
+[36:15] **mgPai**: So there's something called singletons, and singletons is what allows you to know exactly where data is stored on the blockchain.
+[36:24] **mgPai**: So if you have the ID of this singleton or of this token,
+[36:29] **mgPai**: then you can you can always find the box the UTXO where the data is located because it's in a special contract where you can recreate this data because for example if someone adds a traceability data for a commodity and let's say they just made a mistake or it's a very human thing to do then that UTXO will be spent it will be gone so you can't just track the UTXO ID
+[36:53] **mgPai**: It will be recreated so they have a new UTXO.
+[36:56] **mgPai**: So you're spending the current UTXO and making a new UTXO.
+
+[37:00] **qx()**: But the singleton will be in it to trace it.
+
+[37:03] **mgPai**: Yes, the singleton will always transfer over.
+[37:06] **mgPai**: So it's incredibly easy to track which exact is the current traceability object
+[37:13] **mgPai**: And a cool thing, if you go through some Ergo node API endpoints, you'll see to get boxes by token ID.
+[37:24] **mgPai**: So what this means is you get the history of every single UTXO the Singleton has been inside of.
+[37:30] **mgPai**: So this naturally works with
+[37:32] **mgPai**: how Ergo works and UTXO works.
+[37:35] **mgPai**: Because if you query it like this, you get to see the history of all boxes so you know all the events that the commodity has gone through, just very simply put.
+[37:45] **mgPai**: So yeah, it's a really cool protocol which just works with how UTXOs are.
+
+[37:51] **qx()**: And that's a common thing, right?
+[37:53] **qx()**: Like GetBlok used singletons to trace the proper boxes.
+
+[37:56] **mgPai**: Yes, everything.
+[37:57] **mgPai**: So most of my contracts all use singletons, yes.
+
+[38:00] **qx()**: That's right.
+[38:01] **qx()**: That's right.
+[38:01] **qx()**: Very cool.
+[38:02] **qx()**: I'm looking at, we, it looks like we have two more videos posting today.
+[38:09] **qx()**: In 77 minutes we have, hash it out, with CW, myself, Quokka and Dan.
+[38:21] **qx()**: That's a, that's a riot.
+[38:22] **qx()**: I suggest you don't watch that with children in the room folks.
+[38:25] **qx()**: If you're going to watch that, but it's a lot of fun.
+[38:29] **qx()**: And then in about four hours, we have the next five years of Ergo with kushti, reflections on past and future of the core protocol and ecosystem development.
+[38:38] **qx()**: So those will be two cool videos.
+[38:40] **qx()**: Maybe there will be a fifth video, a third video out today if Joe wakes up and submits his Rosen Bridge one.
+[38:48] **qx()**: But chances are fairly pretty low on that.
+[38:52] **qx()**: We'll see what happens there.
+[38:55] **qx()**: Let me ask you a question, MG. What do you think in your head is the coolest thing in the last five years that Ergo has done?
+
+[39:05] **mgPai**: I think the most impressive thing Ergo has is its developer community.
+[39:12] **mgPai**: Given the price movement and size and market cap and users on Ergo, it's very impressive how much developers we have on Ergo.
+[39:22] **mgPai**: These developers, they really don't have funding.
+[39:26] **mgPai**: It's all done out of interest.
+[39:28] **mgPai**: I think it's quite interesting.
+[39:30] **mgPai**: I'm willing to bet Solana is quite similar in size really in terms of interest in developers because most of Solana is all
+[39:41] **mgPai**: funded by the Solana team and the venture capitalist foundation itself, right?
+[39:46] **mgPai**: It's all done by like the team basically does everything, you know, puts everything up.
+[39:50] **mgPai**: So on Ergo, the real only team is like maybe kushti, Morphic,
+[39:55] **mgPai**: and you know a few other people around the ecosystem who actually build just like the node and maybe explorers you know wallets and so on but that's about it everything else it's all done by community like you know we've got Anon Real building all these cool projects you know all self-funded by you know maybe the auction house token you know Ergo Raffle and so on
+[40:16] **mgPai**: the same thing with all my projects and then SkyHarbor DuckPools and all so on it's all community funded then developers do it out of their interest we really don't make much money off this so I think that's super interesting and it shows you the the reality of Ergo right Ergo is pretty real it's not fake like Solana you know most likely fakes a lot of things or at least fakes it by funding right we don't really have funds to fund projects so
+[40:44] **mgPai**: You can see it's like real adoption, real growth.
+[40:47] **mgPai**: So I think it's impressive that Ergo is real.
+
+[40:52] **qx()**: Yeah, yeah, that's a good point.
+[40:53] **qx()**: I mean could you imagine if you know somebody brought five ten million dollars to Ergo grabbed a few devs and then just started pumping volume out and paying for CEX listings and pumping and recycling that volume out. It'd be a different chain.
+[41:11] **qx()**: It wouldn't be Ergo anymore.
+[41:12] **qx()**: That's for sure. It'd be a fake Ergo. Fire Ergo maybe you can call it but yeah, yeah super.
+[41:20] **qx()**: Super interesting thought there I would say I would say in my thoughts the coolest thing about Ergo and the thing that keeps me here. Yeah, I would say I would say it's a couple things the are you still there MG?
+[41:41] **qx()**: Am I talking to myself? Andy did MG leave us? Yep MG left us.
+
+[41:51] **qx()**: All right, I can finish talking.
+[41:52] **qx()**: It's fine if he comes back.
+[41:55] **qx()**: You want to fix my video?
+[41:56] **qx()**: So they're not looking at the bottom.
+[41:57] **qx()**: I can move my head.
+[41:58] **qx()**: There we go.
+[41:59] **qx()**: Perfect.
+[41:59] **qx()**: Great.
+[42:00] **qx()**: So since you put us on this path, the thing about Ergo for me in the last five years, I've only been here since 2022.
+[42:10] **qx()**: Maybe I can't remember anymore.
+[42:13] **qx()**: I would say community community 100% and what Ergo stands for. I've never been one to to wear a you know, I say it with with an Audi hat on but I've never been one to wear the corporate bullshit kind of blindness of support, you know that kind of stuff when I hear that kind of stuff preaching at me that has a
+[42:37] **qx()**: It has a tone of insincerity and non-genuineness that I just cannot, I can't swallow.
+[42:45] **qx()**: Okay?
+[42:46] **qx()**: So if I have, even at work, you know, at work they have these things called support badges.
+[42:53] **qx()**: Okay?
+[42:53] **qx()**: And if you do something well, somebody can like give you a badge and you can put it at the bottom of your signature.
+[43:00] **qx()**: And those kind of things, you know, that's like very base level, but that's that's a feeling I get.
+[43:04] **qx()**: It's like, I feel it's such bullshit, you know, I mean, like, just fucking pay your workers, you know, an extra 10 bucks instead of a goddamn digital badge you put at the bottom of your signature.
+[43:13] **qx()**: So those kind of
+[43:15] **qx()**: Things don't trigger me, but they really give a bad taste in my mouth.
+[43:18] **qx()**: And you can see them when I was at the Cornell blockchain conference and I'm sitting there listening to Avalanche talk and I'm sitting and listening to Solana talk and it's just so full of some bullshit.
+[43:33] **qx()**: You know, their, their mission is to make a shit ton of money for their investors.
+[43:38] **qx()**: Their mission is not to create.
+[43:40] **qx()**: You know, their second mission may be to create some sort of decentralized system, you know, alongside of that.
+[43:48] **qx()**: But their main goal, they're beholden to the money that they've been given.
+[43:51] **qx()**: And I think the purity of Ergo is what attracts me to it, at least for the last several years is that.
+[43:57] **qx()**: There's nobody that we are beholden to.
+[44:00] **qx()**: We are beholden to ourselves.
+[44:02] **qx()**: If we want something to get done, we do it ourselves, or we find somebody and help them, or find somebody and try to raise money for them to do it.
+[44:11] **qx()**: Any speech that you hear, any AMA that you hear here, anybody that we have on the dev updates, it's a developer.
+[44:18] **qx()**: You hear Krass talk, you hear kushti talk, you hear Luivatra talk, you hear Marty talk.
+[44:24] **qx()**: You hear these guys talk, they are in it for the love of what the chain is and what the chain can do in the financial system for the world.
+[44:33] **qx()**: So that's really it for me.
+[44:35] **qx()**: I can't sit there and listen to somebody say, oh, you know, use our chain, blah, blah, blah.
+[44:39] **qx()**: And this is why it's great.
+[44:41] **qx()**: And we have all this speed and that kind of thing.
+[44:44] **qx()**: And back in reality, you are trying to sell me a packaged up corporate pile of dog shit.
+[44:52] **qx()**: And in my head, so so yeah, that's a tough pill for me to swallow and I think that's why Ergo is so attractive to me in that in that in that circumstance
+
+[45:02] **qx()**: All right.
+[45:04] **qx()**: I guess we're doing the psychedelic inception version of the dev update with all my photos here, Andy.
+[45:10] **qx()**: This is funny.
+[45:11] **qx()**: Any more questions?
+[45:12] **qx()**: It looks like mgPai is not coming back, which is fine.
+[45:17] **qx()**: So I want to remind everybody that you should be watching all the content that came out that everybody worked so hard on.
+[45:26] **qx()**: There's content on Monday.
+[45:27] **qx()**: Oh, here we go.
+[45:29] **qx()**: He's back.
+[45:30] **qx()**: There's content on Monday Tuesday and today and Wednesday and today. And that should be it.
+[45:39] **qx()**: We'll have the dev update maybe live, maybe not depending on how we feel but tons of content for you guys to dig into. Oh, here we go.
+[45:48] **qx()**: We got another question from Wombo.
+[45:50] **qx()**: Perfect mgPai.
+[45:52] **qx()**: It's nice to see you back, sir
+
+[45:55] **qx()**: Dan cut your internet briefly.
+[45:57] **qx()**: So what chain should Rosen add next in your opinion?
+[45:59] **qx()**: I think Rosen should, beyond Ethereum, I think they should go to BNB Binance.
+[46:06] **qx()**: I think they should go to any chain that I think they should hit the big guys first and then make that an attractive offering to then hit the little guys.
+[46:17] **qx()**: In this instance it sounds backwards, but I think you're gonna you're gonna get the volume there if you attract if you open up a pathway to these main intersections that everybody else will want to go to so once you do that once they have the big guys hopefully that can happen.
+[46:37] **qx()**: I mean it'd be nice right if we could
+[46:40] **qx()**: you know, not even stop there.
+[46:43] **qx()**: If we cut, if Rosen becomes such an attractive entity to connect to, that you bring on everybody, you bring on Chainlink, you bring on Avalanche, Polkadot, may I say, anything as far as that goes, I think would be really cool.
+[46:58] **qx()**: The point of Rosen is to be that kind of leveled out access that is super secure, store value transfer between chains.
+[47:07] **qx()**: And I don't think it should stop.
+[47:09] **qx()**: Yeah, I think it's great that they went to Cardano first then Bitcoin. They're in their Rosen Light era if anybody saw in chat I call it Rosen Light era next era is Rosen Whipped the era after that is Rosen Half-and-Half and the era after that is Rosen Heavy Cream and the era after that is Rosen Fresh from the Udder
+[47:36] **qx()**: So during all these stages, these guys are doing this intentionally.
+[47:41] **qx()**: There's a reason they didn't just go right to Ethereum or right to BNB.
+[47:45] **qx()**: There's a reason that they chose Cardano first.
+[47:47] **qx()**: There's a reason that they chose Bitcoin second.
+[47:52] **qx()**: getting their feet wet, getting their hands dirty, and really working out everything that they have to work out.
+[47:58] **qx()**: So that as we approach these, you know, larger chains and bring this cross-chain interoperability, then it's going to be really foolproof.
+[48:07] **qx()**: So, yeah.
+[48:08] **qx()**: mgPai, what do you think?
+[48:10] **qx()**: Where would you like to see Rosen go after Ethereum, let's say?
+
+[48:15] **mgPai**: Yeah, you know, I have a few ideas I've been discussing with the Rosen members.
+[48:21] **mgPai**: What I want to see quite immediately is the integration with Kaspa.
+[48:27] **mgPai**: And this is because Kaspa recently launched KRC20 tokens.
+[48:33] **mgPai**: So they're tokens in the sense that it's the same tokens that's available on Bitcoin.
+[48:39] **mgPai**: So it's not really a native token, it's more so something that people with indexers can do like off-chain calculation and validation of token balance and transfers and all.
+[48:53] **mgPai**: So the node has no clue about it, but you have centralized indexers that

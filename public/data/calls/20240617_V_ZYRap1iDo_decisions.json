@@ -1,0 +1,52 @@
+{
+  "call_date": "2024-06-17",
+  "call_title": "Crystal Pool | c8 | ErgoHack VIII",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "05:04",
+      "decision": "Distribute the UI as native desktop and app instead of website",
+      "speaker": "c8",
+      "context": "To mitigate security risks of built-in wallet being inside a website where server hacks can affect all clients",
+      "topic": "technical",
+      "significance": "major",
+      "quote": "The solution is simple. Distribute the UI as native desktop and app."
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "05:11",
+      "commitment": "Mobile app development",
+      "owner": "unspecified",
+      "timeline": "soon\u2122",
+      "topic": "technical",
+      "quote": "Mobile soon\u2122"
+    }
+  ],
+  "open_questions": [],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "01:18",
+      "fact": "There are 6 steps that happen when Bob creates a sell order",
+      "speaker": "c8",
+      "topic": "technical"
+    },
+    {
+      "id": 2,
+      "timestamp": "02:52",
+      "fact": "There are four smart contracts: Deposit, Buy, Sell and Swap",
+      "speaker": "c8",
+      "topic": "technical"
+    },
+    {
+      "id": 3,
+      "timestamp": "05:09",
+      "fact": "Desktop app build is already done",
+      "speaker": "c8",
+      "topic": "technical"
+    }
+  ]
+}

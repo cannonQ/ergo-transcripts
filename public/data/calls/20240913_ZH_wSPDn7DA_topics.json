@@ -1,0 +1,366 @@
+{
+  "call_date": "2024-09-13",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - September 12th 2024",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Upcoming Community Marketing Spaces Event",
+      "category": "community",
+      "start_time": "00:44",
+      "end_time": "01:57",
+      "primary_speaker": "kushti",
+      "summary": "Announcement of community spaces event in 3 hours focused on marketing, memes, and memetics. Discussion about community bubbles and need for broader outreach beyond crypto users to onboard non-crypto people.",
+      "key_terms": [
+        "spaces",
+        "memetics",
+        "marketing",
+        "community bubbles",
+        "outreach"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Breaking Out of Crypto Ecosystem Bubbles",
+      "category": "marketing",
+      "start_time": "01:57",
+      "end_time": "05:47",
+      "primary_speaker": "qx()",
+      "summary": "Extended discussion on challenges of attracting users from other crypto ecosystems versus targeting non-crypto users. Focus on miners as easiest group to attract and potential appeal to holistic Bitcoin supporters.",
+      "key_terms": [
+        "crypto bubbles",
+        "user acquisition",
+        "miners",
+        "Bitcoin supporters",
+        "ecosystem migration"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Sigma 6.0 Development Progress Update",
+      "category": "technical",
+      "start_time": "05:51",
+      "end_time": "08:21",
+      "primary_speaker": "kushti",
+      "summary": "Update on Sigma 6.0 development including new tests, DevNet preparations, and unsigned big integer support for cryptographic applications. Discussion of enhanced cryptography support including Sigma protocols, bulletproofs, and signature validation.",
+      "key_terms": [
+        "Sigma 6.0",
+        "DevNet",
+        "cryptographic applications",
+        "Sigma protocols",
+        "bulletproofs",
+        "signature validation"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Sub-blocks Implementation and Testing Plans",
+      "category": "technical",
+      "start_time": "08:21",
+      "end_time": "09:47",
+      "primary_speaker": "kushti",
+      "summary": "Progress on sub-blocks feature including peer-to-peer messaging implementation and plans for DevNet testing. Discussion of challenges with public testnet due to limited CPU mining capacity.",
+      "key_terms": [
+        "sub-blocks",
+        "peer-to-peer messaging",
+        "DevNet",
+        "CPU miner",
+        "testnet"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "ChainCash Development and Applications",
+      "category": "defi",
+      "start_time": "09:47",
+      "end_time": "11:13",
+      "primary_speaker": "kushti",
+      "summary": "ChainCash redemption completion by Dusek and API documentation progress. Discussion of potential college environment usage and Cup of Sugar application development with Jimmy.",
+      "key_terms": [
+        "ChainCash",
+        "redemption",
+        "API documentation",
+        "Cup of Sugar",
+        "college environment"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Dexy Token Launch and Spectrum DEX Integration",
+      "category": "defi",
+      "start_time": "11:13",
+      "end_time": "12:23",
+      "primary_speaker": "kushti",
+      "summary": "All Dexy tokens now issued with code completion for Spectrum DEX support. Plans for soft launch with gradual contract deployment over coming weeks.",
+      "key_terms": [
+        "Dexy tokens",
+        "Spectrum DEX",
+        "soft launch",
+        "contract deployment",
+        "pull requests"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Forum Post Discussion and Archival Benefits",
+      "category": "community",
+      "start_time": "12:54",
+      "end_time": "14:28",
+      "primary_speaker": "kushti",
+      "summary": "Promotion of forum usage for thoughtful discussions and archival purposes. Comparison with chat limitations for finding historical information and encouragement for community engagement on forum posts.",
+      "key_terms": [
+        "forum posts",
+        "thoughtful discussions",
+        "archival",
+        "community engagement",
+        "historical information"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Rosen Bridge Watcher Update and Guard Set Progress",
+      "category": "bridges",
+      "start_time": "14:28",
+      "end_time": "15:53",
+      "primary_speaker": "qx()",
+      "summary": "Full watcher update released with simple update process and platform-specific stability notes. Guard set update anticipated soon with continued bridge expansion plans.",
+      "key_terms": [
+        "Rosen Bridge",
+        "watcher update",
+        "guard set",
+        "bridge expansion",
+        "platform stability"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Storage Rent Collection Implementation in Mining Pool",
+      "category": "technical",
+      "start_time": "15:53",
+      "end_time": "20:45",
+      "primary_speaker": "qx()",
+      "summary": "Detailed explanation of storage rent collection system with modified node and mining core. Description of two types of storage rent collection and competitive dynamics between miners and regular users.",
+      "key_terms": [
+        "storage rent",
+        "mining pool",
+        "UTXO collection",
+        "modified node",
+        "mining core",
+        "competitive dynamics"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Cornell Student DAO Implementation",
+      "category": "governance",
+      "start_time": "20:45",
+      "end_time": "22:55",
+      "primary_speaker": "qx()",
+      "summary": "Creation of DAO for Cornell student body using Cornell USD token for budget management and decision-making. Plans for value-backed tokens and peer-to-peer economy development among students.",
+      "key_terms": [
+        "Cornell DAO",
+        "student governance",
+        "Cornell USD",
+        "budget management",
+        "peer-to-peer economy"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Sigmanauts Moderation Policy Vote",
+      "category": "governance",
+      "start_time": "22:55",
+      "end_time": "24:19",
+      "primary_speaker": "qx()",
+      "summary": "Active vote on moderation policy for Sigmanauts channels with 3 days remaining. Policy will apply to all Sigmanauts-owned channels and Discord to ensure productive conversations.",
+      "key_terms": [
+        "Sigmanauts",
+        "moderation policy",
+        "governance vote",
+        "community standards",
+        "channel management"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Storage Rent Technical Clarifications",
+      "category": "technical",
+      "start_time": "24:25",
+      "end_time": "29:05",
+      "primary_speaker": "kushti",
+      "summary": "Technical clarification that both storage rent types are theoretically spendable by anyone, but propagation difficulties make type 2 practically miner-only. Discussion of contractual money applications and experimental implementations.",
+      "key_terms": [
+        "storage rent types",
+        "propagation difficulties",
+        "contractual money",
+        "miner advantages",
+        "blockchain limitations"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "CBDCs vs Grassroots Contractual Money Discussion",
+      "category": "ecosystem",
+      "start_time": "29:05",
+      "end_time": "32:04",
+      "primary_speaker": "kushti",
+      "summary": "Deep discussion on dangers of Central Bank Digital Currencies beyond surveillance, focusing on spending restrictions. Proposal for workshop on grassroots contractual money alternatives and comparison with CBDC limitations.",
+      "key_terms": [
+        "CBDCs",
+        "spending restrictions",
+        "financial surveillance",
+        "grassroots money",
+        "contractual money",
+        "workshop proposal"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "Student Token Economy Predictions",
+      "category": "ecosystem",
+      "start_time": "29:05",
+      "end_time": "30:55",
+      "primary_speaker": "qx()",
+      "summary": "Speculation on micro-economy development among diverse student backgrounds using common value tokens. Examples of peer-to-peer exchanges for drawing tools, plotting services, and cross-border value transfer.",
+      "key_terms": [
+        "micro-economy",
+        "student diversity",
+        "value tokens",
+        "peer-to-peer exchanges",
+        "cross-border transfers"
+      ]
+    },
+    {
+      "topic_id": 15,
+      "title": "Rosen Bridge Ethereum Integration Preview",
+      "category": "bridges",
+      "start_time": "30:55",
+      "end_time": "35:55",
+      "primary_speaker": "qx()",
+      "summary": "Discussion of Metamask integration screenshots and upcoming Ethereum bridge launch. Analysis of Ergo as superior collateral compared to degraded Ethereum and limited Bitcoin bridge options.",
+      "key_terms": [
+        "Metamask integration",
+        "Ethereum bridge",
+        "collateral quality",
+        "proof of work backing",
+        "bridge limitations"
+      ]
+    },
+    {
+      "topic_id": 16,
+      "title": "Future Rosen Bridge Features",
+      "category": "bridges",
+      "start_time": "35:55",
+      "end_time": "36:45",
+      "primary_speaker": "qx()",
+      "summary": "Overview of advanced Rosen features in development including token swapping with singletons, Rosen Fastlane for instant transfers, cross-chain messaging, and potential fiat ramp integration.",
+      "key_terms": [
+        "token swapping",
+        "singletons",
+        "Rosen Fastlane",
+        "instant transfers",
+        "cross-chain messaging",
+        "fiat ramps"
+      ]
+    },
+    {
+      "topic_id": 17,
+      "title": "ChainCash Credit vs Collateral Systems",
+      "category": "defi",
+      "start_time": "37:05",
+      "end_time": "42:00",
+      "primary_speaker": "kushti",
+      "summary": "Detailed explanation of ChainCash flexibility allowing both backed and trust-based transactions. Discussion of under-collateralized notes, whitelist systems, and LETS (Local Exchange Trading Systems) implementation possibilities.",
+      "key_terms": [
+        "ChainCash flexibility",
+        "under-collateralized notes",
+        "trust-based transactions",
+        "whitelist systems",
+        "LETS implementation"
+      ]
+    },
+    {
+      "topic_id": 18,
+      "title": "Mark the Shark Mining Pool Proposal",
+      "category": "ecosystem",
+      "start_time": "42:00",
+      "end_time": "45:44",
+      "primary_speaker": "qx()",
+      "summary": "Comprehensive overview of ambitious mining pool proposal including infrastructure improvements, token-based payouts, cross-chain mining options, and partnership with Cardano stake pools for broader adoption.",
+      "key_terms": [
+        "mining pool proposal",
+        "infrastructure improvements",
+        "token payouts",
+        "cross-chain mining",
+        "stake pool partnerships",
+        "adoption strategy"
+      ]
+    },
+    {
+      "topic_id": 19,
+      "title": "Ergo After Central Banks Philosophy",
+      "category": "ecosystem",
+      "start_time": "46:09",
+      "end_time": "48:23",
+      "primary_speaker": "kushti",
+      "summary": "Explanation of Ergo's role as post-central bank financial infrastructure. Focus on serving underserved communities and remote areas not adequately covered by traditional banking systems.",
+      "key_terms": [
+        "post-central bank",
+        "financial infrastructure",
+        "underserved communities",
+        "remote areas",
+        "Plan B tooling"
+      ]
+    },
+    {
+      "topic_id": 20,
+      "title": "DuckPools Lending Rates Discussion",
+      "category": "defi",
+      "start_time": "48:23",
+      "end_time": "49:36",
+      "primary_speaker": "qx()",
+      "summary": "Brief discussion of ERG lending rates dropping from 5% to 3.2% APY and SigmaUSD rates. Encouragement for ERG holders to participate in lending for passive income during market downturns.",
+      "key_terms": [
+        "DuckPools",
+        "ERG lending",
+        "APY rates",
+        "SigmaUSD",
+        "passive income",
+        "market downturns"
+      ]
+    },
+    {
+      "topic_id": 21,
+      "title": "Ergo Scaling and Performance Capabilities",
+      "category": "technical",
+      "start_time": "50:16",
+      "end_time": "55:23",
+      "primary_speaker": "kushti",
+      "summary": "Technical discussion on Ergo's ability to handle transaction spikes and scaling challenges. Focus on UTXO set growth concerns, stateless mode solutions, and comparison with other blockchain hardware requirements.",
+      "key_terms": [
+        "transaction spikes",
+        "scaling challenges",
+        "UTXO set growth",
+        "stateless mode",
+        "hardware requirements",
+        "Raspberry Pi nodes"
+      ]
+    },
+    {
+      "topic_id": 22,
+      "title": "Explorer Infrastructure Improvements Needed",
+      "category": "technical",
+      "start_time": "53:27",
+      "end_time": "56:36",
+      "primary_speaker": "qx()",
+      "summary": "Discussion of Explorer as current bottleneck and potential solutions including node redesign or easier Explorer deployment. Showcase of PG's sigmaspace.io storage rent dashboard as alternative Explorer solution.",
+      "key_terms": [
+        "Explorer bottleneck",
+        "infrastructure improvements",
+        "sigmaspace.io",
+        "storage rent dashboard",
+        "alternative Explorer",
+        "performance optimization"
+      ]
+    }
+  ]
+}

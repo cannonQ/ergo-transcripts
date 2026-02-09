@@ -1,0 +1,104 @@
+{
+  "call_date": "2024-07-02",
+  "call_title": "Blink - An Optimal Proof of Proof-of-Work | Lukas Aumayr | Ergoversary Summit 2024",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Introduction and Lite Client Fundamentals",
+      "category": "technical",
+      "start_time": "00:14",
+      "end_time": "02:42",
+      "primary_speaker": "Lukas Aumayr",
+      "summary": "Lukas introduces the research paper on optimal proof-of-work lite clients and explains why lite clients are needed for mobile devices and blockchain bridges. He outlines the challenge of downloading full blockchain data (600GB for Bitcoin) and how lite clients enable verification with lightweight proofs.",
+      "key_terms": [
+        "lite clients",
+        "light clients",
+        "proof-of-work",
+        "blockchain synchronization",
+        "mobile verification"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Lite Client Protocol Architecture and Requirements",
+      "category": "technical",
+      "start_time": "02:42",
+      "end_time": "05:01",
+      "primary_speaker": "Lukas Aumayr",
+      "summary": "Describes lite client protocols as interactive prover-verifier systems requiring at least one honest full node. Explains the concept of stable vs unstable blockchain parts and defines the goal of finding 'admissible blocks' with optimal constant communication complexity.",
+      "key_terms": [
+        "prover-verifier protocol",
+        "stable blockchain",
+        "unstable blockchain",
+        "admissible blocks",
+        "communication complexity"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Existing Lite Client Solutions Analysis",
+      "category": "technical",
+      "start_time": "05:01",
+      "end_time": "09:25",
+      "primary_speaker": "Lukas Aumayr",
+      "summary": "Reviews current lite client approaches including SPV (Simplified Payment Verification), NIPoPoWs (Non-Interactive Proof of Proof-of-Work), and zero-knowledge proofs. Explains their trade-offs in terms of compatibility, communication complexity, and computational overhead.",
+      "key_terms": [
+        "SPV",
+        "Simplified Payment Verification",
+        "NIPoPoWs",
+        "superblocks",
+        "zero-knowledge proofs",
+        "Merkle trees"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Initial Blink Approach and Security Vulnerabilities",
+      "category": "technical",
+      "start_time": "09:25",
+      "end_time": "14:41",
+      "primary_speaker": "Lukas Aumayr",
+      "summary": "Presents the initial idea of requesting k+1 latest blocks and using randomness to prevent pre-mining attacks. Demonstrates a critical security flaw where minority adversaries can exploit chain reorganizations to convince lite clients of invalid states.",
+      "key_terms": [
+        "randomness injection",
+        "freshly mined blocks",
+        "pre-mining attacks",
+        "chain reorganization",
+        "minority adversary"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Secure Blink Construction with 2k+1 Blocks",
+      "category": "technical",
+      "start_time": "14:41",
+      "end_time": "17:31",
+      "primary_speaker": "Lukas Aumayr",
+      "summary": "Introduces the final Blink construction requiring 2k+1 blocks: k blocks before randomness, the randomness block, and k blocks after. Explains how this structure prevents attacks by ensuring proofs hit stable blocks while maintaining freshness guarantees.",
+      "key_terms": [
+        "Blink construction",
+        "2k+1 blocks",
+        "stable block guarantee",
+        "computational work",
+        "genesis block"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Blink Applications and Use Cases",
+      "category": "technical",
+      "start_time": "17:31",
+      "end_time": "22:33",
+      "primary_speaker": "Lukas Aumayr",
+      "summary": "Demonstrates practical applications including fast blockchain bootstrapping, historic transaction verification, state commitment verification, and optimistic bridge construction. Highlights the efficiency of requiring only 13 block headers for k=6 while requiring an on-chain transaction trade-off.",
+      "key_terms": [
+        "blockchain bootstrapping",
+        "state commitments",
+        "UTXO verification",
+        "optimistic bridges",
+        "dispute periods",
+        "proof of concept"
+      ]
+    }
+  ]
+}

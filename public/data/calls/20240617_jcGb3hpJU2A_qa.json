@@ -1,0 +1,133 @@
+{
+  "call_date": "2024-06-17",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:28",
+      "question": "What is the Sigmanauts mining pool and why was it created?",
+      "asker": "qx()",
+      "answer": "The Sigmanauts mining pool is a community-based mining pool designed to educate miners and help them understand their power to change parameters and configurations in the Ergo ecosystem. It was created as a collaborative effort after qx() and Marc the Shark realized they were both working on separate mining pool projects and decided to combine efforts rather than work in parallel.",
+      "responder": "qx()",
+      "category": "mining",
+      "difficulty": "beginner",
+      "related_terms": [
+        "mining pool",
+        "Sigmanauts",
+        "community",
+        "education"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "04:09",
+      "question": "How does the NFT-based mining pool configuration system work?",
+      "asker": "qx()",
+      "answer": "The system uses NFTs to drive UI configurations in a completely permissionless way, following blockchain principles. Miners can mint NFTs with specific parameters like background settings, minimum payout amounts, and token swap preferences. The NFT serves as a middleman until smart contract layers are implemented, allowing miners to interact with the system without requiring human intervention or centralized permissions.",
+      "responder": "Marc the Shark",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "NFT",
+        "permissionless",
+        "smart contracts",
+        "mining configuration"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "06:14",
+      "question": "Why use on-chain data instead of centralized web servers for mining pool preferences?",
+      "asker": "qx()",
+      "answer": "Using on-chain data eliminates reliance on centralized systems that can fail catastrophically. qx() referenced what happened with HiveOS where their centralized database was wiped out, causing people to burn up their cards with default settings. By storing preferences on a public ledger or having them propagated by miners themselves, the system becomes more resilient and aligns with Ergo's decentralized ethos.",
+      "responder": "qx()",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "decentralization",
+        "on-chain",
+        "resilience",
+        "mining preferences"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "08:42",
+      "question": "How does the Rosen token swap system work for miners?",
+      "asker": "qx()",
+      "answer": "Miners configure their mining software to mine to a specific designated Rosen pool address and append their preferences to the rig name, including the token type (Rosen), payout threshold, and their actual wallet address. MiningCore sees this as one person mining to the pool, while a secondary system parses this data to track individual miners and their token swap preferences, automatically swapping ERG for their desired tokens like Rosen BTC.",
+      "responder": "qx()",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Rosen",
+        "token swap",
+        "MiningCore",
+        "mining configuration"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "15:09",
+      "question": "How is PPLNS (Pay Per Last N Shares) calculated for token swap pools?",
+      "asker": "qx()",
+      "answer": "PPLNS creates a window based on cumulative share difficulty going backwards in time from when a block is found. If the cumulative difficulty exceeds the network difficulty multiplied by a factor (0.5 in their case), that defines the window. For token swap pools, they calculate each miner's percentage of shares within that window, then distribute the proportional ERG amount among swap participants and convert it to their desired tokens.",
+      "responder": "Marc the Shark",
+      "category": "mining",
+      "difficulty": "advanced",
+      "related_terms": [
+        "PPLNS",
+        "shares",
+        "difficulty",
+        "mining rewards"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "22:30",
+      "question": "What advantages does automated token swapping provide for mining pools?",
+      "asker": "qx()",
+      "answer": "Automated token swapping allows pools to optimize timing and potentially provide better rates to miners. Pool operators can analyze price movements and swap during favorable conditions, buying tokens when prices dip if they know upcoming payout amounts. This can result in miners receiving more tokens than they would have gotten with immediate swaps, while also providing opportunities for grid bot trading and treasury management.",
+      "responder": "qx()",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "token swapping",
+        "price optimization",
+        "grid trading",
+        "treasury"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "23:47",
+      "question": "How could mining pools integrate with DeFi protocols like DuckPools?",
+      "asker": "qx()",
+      "answer": "Miners could choose to have their rewards automatically deposited into DuckPools contracts for yield farming. For example, if a miner chooses SigmaUSD, their mining rewards would be automatically deposited into DuckPools, earning interest over time. Miners would only receive deposits to their wallet when collecting interest, or they could set thresholds like only receiving payouts after six months of accumulated mining rewards and interest.",
+      "responder": "qx()",
+      "category": "defi",
+      "difficulty": "advanced",
+      "related_terms": [
+        "DuckPools",
+        "yield farming",
+        "SigmaUSD",
+        "automated deposits"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "27:57",
+      "question": "How does the NFT system prevent spam and ensure security?",
+      "asker": "Marc the Shark",
+      "answer": "The NFT system requires that the wallet address that minted the NFT matches the wallet requesting the configuration change. The minter's address is embedded in the NFT metadata, and the system verifies ownership before applying any settings. This prevents people from creating spam NFTs for other users or attempting to manipulate other miners' configurations, as you must hold the NFT in the same wallet that originally minted it.",
+      "responder": "Marc the Shark",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "NFT security",
+        "wallet verification",
+        "spam prevention",
+        "address matching"
+      ]
+    }
+  ]
+}

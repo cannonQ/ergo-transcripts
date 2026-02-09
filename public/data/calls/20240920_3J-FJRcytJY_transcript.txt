@@ -1,0 +1,383 @@
+[00:19] **kushti**: Hello, everyone.
+
+[00:21] **kushti**: Hey, guys.
+
+[00:25] **kushti**: Good company today.
+
+[00:27] **kushti**: Yeah, a bit unusual still. So let's welcome mgPai to the show.
+
+[00:33] **mgPai**: Hey, guys. Glad to be back.
+
+[00:38] **kushti**: All right. So yeah, let's start with updates. Actually, a lot of them. And now there are actually text updates being posted over the Telegram and Ergoforum every week. So stay tuned.
+
+And yeah, well, they also translated now to some national languages, such as Russian, Spanish, Vietnamese. And yeah, maybe next week will be more. That's pretty cool. Let's see. Right, right, right.
+
+And yeah, so a lot of developments. Also, there was an intense developer start yesterday. There will be a video done by qx() over the weekend. And yeah, well, a lot of nice discussions from the community, a lot of updates well in regards with core developments and projects development.
+
+So what's new on your side in particular?
+
+[01:57] **mgPai**: Yeah, I've been making pretty good progress on Ergonames. The contracts are quite complex. It's like about six or seven contracts all working with each other because with Ergonames, we're having the normal names itself and we're having recursive subnames as well.
+
+So you can have like domains on top of your own like root domain so it's pretty complex and then to account for front running we have like the commit and review format so one can't steal your name ahead of time for example if you mint a really common name, like let's say like john.erg or something, and then someone sees that in the mempool, they could steal that, right?
+
+But with our method, it's not going to be possible through our schemes. So all these implementations are quite complex. So I'm happy to say that over the weekend, I was able to do an end-to-end test from a commit review. Yeah, from a commit reveal to an actual Ergo name mint itself, so it's going pretty well.
+
+And yeah, it's super exciting. It's the biggest development from me.
+
+[03:15] **kushti**: Nice to hear. So is there any help needed and any tests done for the contracts you've done?
+
+[03:24] **mgPai**: Yeah, I mean, probably it would be nice for people to look over the contract. It's like almost, there's like a few more small changes needed. So after that, I'll probably make an announcement in the developers channel.
+
+And yeah, and another new, and I think get testing, I have to think through a little more because with AVL trees, it's a little harder for testing, but it's probably possible though.
+
+And another cool thing I want to try to do is make an off-chain bot in Go. And of course, it'll be open source. And I'll add another option for developers to copy.
+
+So if I can get that done, I've been coding in Go since the last few months. It's quite fun, I find. And Go is really nice for concurrency, I find. It's really easy to do.
+
+In Scala, I think it's more abstracted. We haven't done much of it in Scala. And yeah, so I've been enjoying that. So I think doing it in Go will be quite interesting for developers and all. So yeah, I think that's something to look forward to as well.
+
+[04:33] **kushti**: I see. So for AVL plus trees related tests, so you can check scalar tests for ChainCash. So trees are used there.
+
+[04:45] **mgPai**: Oh, yeah, I'll check that out.
+
+[04:47] **kushti**: Yeah, I'm using Plasma made by qx(). He made a Scala library to work with AVL plus trees to have off-chain storage for the current state committed on the blockchain.
+
+[05:03] **mgPai**: That's perfect, thank you.
+
+[05:05] **kushti**: Yeah, actually it's quite cool and I think it's quite good pattern, right? So when you have only commitments on the blockchain and all the data process off-chain.
+
+And then off-chain is becoming actually the main part, right, in regards to the amount of code, which is how it should be, I believe, because, well, the blockchain is a very scarce resource, actually. Because, well, we still want it to be peer-to-peer, right? It means I need to be able to process on my laptop and so on.
+
+[05:54] **mgPai**: So, kushti, how are developments coming along with Node and 6.0?
+
+[06:00] **kushti**: It's going well, actually. Later today, I will release another DevNet, so DevNet 1. after DevNet Zero released like two weeks ago.
+
+So it will have support for new data structure and signed big integer for cryptographic applications specifically and then yeah support for higher order functions and some other things which could be quite useful for applications developers.
+
+And HGIS is doing, well, Lithos contracts already, as far as I know, using DevNet 0, right? After DevNet 1, there will be, hopefully, just DevNet 2, right? And then there will be a release candidate, and yeah, we will be close to actually Mainnet public testnet release.
+
+So public testnet could be started with release candidate. Mainnet should be not so much different.
+
+Also spending some time on sub-blocks right it's called but yeah well following my proposal from the forum so well it's maybe better to talk about like two kinds of blocks so input block and ordering block, right, which is quite following maybe pretty popular design patterns also.
+
+Yeah, I believe so. Well, there are some blockchains using the same terminology, even though similar. And actually, this construction was inspired by Prism a little bit, and also other blockchain constructions.
+
+But yeah, so it will be activated after 6.0, right? So I'm just at the beginning. And yeah, also I need to write actually proposal and there is need to analyze its security because yeah, well, this is very much needed because well, we need not to lower the bar down.
+
+So, well, initial design of Ergo was covered by a bunch of papers published. So, yeah, there is need, I think, not to lower the bar. So, we need to have some proofs for security, right, for new construction.
+
+That's, I believe, how, well, Ergo is different from, like, 99%.
+
+[09:10] **mgPai**: I think the coolest update for the community would be sub-blocks, right? I saw some more progress on that in the development chat.
+
+[09:20] **kushti**: Yeah, but actually, well, with 6.0, so new features in Ergo 3, ErgoScript, so yeah, it will be also, well, much easier to do many things such as roll-ups, layer 2 solutions and yeah it will be possible to reason for example about Ergo block headers within Ergo contracts itself right and so on so on so also also yeah so support for having optional data in registers, context variables, support for higher order functions.
+
+So yeah, actually a lot of things which would change the development landscape or not.
+
+[10:13] **mgPai**: Yeah, super exciting.
+
+Yeah, I think it'll be interesting to see how sub-blocks are used by projects. And then to look forward to we also have like the mempool proposal that I think Morphic was writing about.
+
+So we can have like, he was writing a mempool proposal so we can do more, I think better, more sound chain transactions directly rather than right now where the mempool can suddenly disappear. I think with like a new EIP, it's possible to make it more sound.
+
+And then I think we can see that more projects just directly using mempool and having transactions appear to be instantly confirmed. And Nemo and Anon have been working towards this quite well on Nautilus.
+
+I've been seeing really good updates on it so far and I've been talking to them as well. So that's really exciting to see because I think the most important thing is the user experience, right?
+
+Because the user has to see the actual like confirmed or unconfirmed asset in the wallet to determine like if they have it or not. So it's the first step towards that and they've been working hard towards it.
+
+[11:27] **kushti**: Do you mean atomic chain?
+
+Yes, but there is need to analyze security of it further, I guess, because it's missed basically in the EIP. So there are some spam possibilities, like when you announce the chain but not deliver part of it intentionally, right? Well, attack other peers and so on.
+
+So yeah, well, there is need to have some things. And actually, the same is for sub-blocks, right? And on the way, I'm thinking to analyze well peer-to-peer protocol for more so that they were actually a lot of spam protection measurements done and so on. Right.
+
+And yeah, now, well, I am inviting your friends, Celaut, Celaut, I don't know.
+
+[12:30] **mgPai**: Yes, that's how you say it.
+
+I think a really cool thing for the community to know is I'm trying to get more people from my college campus involved in Ergo development because a lot of students or especially a lot of computer science students are having issues in this market finding any internship or job opportunities.
+
+I'm a third year student so people are like this is the time where you got to like finish up it's either your second year you start early or your third year you really got to get something going right or else it'll be hard when you once you graduate to get a real job so a lot of people have been working on that and having trouble and I found a common issue with people or is that they don't really have solid projects to put on their resume like maybe they put like a python calculator app or something it's nothing nothing crazy.
+
+So I think working on Ergo gives them an opportunity to put something unique, right? That the recruiters or anyone who haven't seen the recruiters are going to be like, oh, what's Ergo? What does it mean to contribute to a node? What does it mean to write an off-chain bot and all? So these kids will have opportunities to include that.
+
+So I've been making that more well known and I got a friend, a close friend of mine and he started to write some node contributions and all and he's actually at first when he joined or when I told him about Ergo and all he wasn't really into it because he heard of like the FTX and all like from the mainstream news and he just thinks correlated crypto with scam right if you did crypto is some scam thing and all.
+
+But once I talked to him more and over time, I think it grew on him. And then he looked into and recently he looked into the Bitcoin white paper and all and he really enjoyed it.
+
+So I think that's a good case study to see how people's minds can change, especially when they are only exposed to mainstream media. I think, so I think that's a really nice sentiment, Ergo is so open source and the code isn't like too bad to understand and get comfortable with in the way that it's written.
+
+So I think it's really, it's really nice that people can contribute and especially earn bounties too. Cause that's a big part, right? A lot of people want to be nice for people that earn like small like cash or when he like funds on the side while making contributions. And I think it's a great opportunity.
+
+So I'm making it more well known, starting with my friend. And another thing I've been discussing with the Ergo Foundation and all is the possibility to sponsor my university's annual hackathon.
+
+So it's still in discussion at all but it's looking good and the idea is we're going to sponsor the hackathon because the barrier is quite low to actually do that and the idea is that I can like host a workshop and give some like lectures on how Ergo works and contributions you can do and just speak about like the what they can put on their resume and all.
+
+So yeah, I think that would be really a nice way to onboard a bunch of people on to development. So that's something to look forward to in the next few weeks.
+
+[16:03] **kushti**: All right, yeah, so everything is open and also a lot of interesting problems here, right? And also hard problems, actually, not like calculator and Python.
+
+Like peer-to-peer networks, for example, so even experienced developers, well, all the Ergo code developers actually always, well, my observations, try to avoid working with peer-to-peer layer. So I had to do all the stuff there basically.
+
+Yeah, because it's really hard, right? But well, but then, if as a student, you can do, well, such hard things, then yeah, in the first place, well, you already specialized, right? So you already can work on peer-to-peer protocols and actually there are many of them, right?
+
+So different kinds like BitTorrent, BitTorrent-like protocols, then blockchain nodes, some physical infrastructure actually, some data processing systems working in peer-to-peer operations and so on. So actually a lot of interesting possibilities already and also yeah if you can do hardcore stuff then you can always do some easier stuff right like I don't know that writing web applications, right?
+
+[17:48] **mgPai**: Yeah, yeah, there's like things for everyone to do, right? No matter what your stage in programming is and it's always room for growth. So that's a really cool part. You can start slow then work all the way up to like the most complex things and write node code, write the compiler. So that's like always the fun part and especially I think we should make that well known to anyone who's interested in the ecosystem.
+
+[18:12] **kushti**: Yeah, actually more contributors also welcome to the interpreter and the compiler part. Actually there is a lot to do there. Even writing tests or even writing programs automatically.
+
+So writing programs which are synthesizing valid ErgoScript programs and checking compiler for correctness. Already would be awesome because the compiler, to be honest, still needs a lot of improvements.
+
+And then, yeah, well, it's also very hard, actually. It's kind of a special area in computer science. programming languages theory and yeah compilers well it's also very hardcore stuff so yeah well after that you can do a lot of easy things kind of automatically.
+
+All right so let's go to questions. Maybe, yeah, well, I can disappear while reading them because I need to switch to another window on my device.
+
+[19:53] **kushti**: The link to the Ergo website doesn't work for me, but why? Can someone help me with the Ergo roadmap if it exists?
+
+So, well, we discussed that. Right. But yeah, it was about core development. But then, so what do we have during Wednesday's chat? So different projects are coming, right? And posting updates, and then asking for help if there is need for something to be improved in tooling and so on, the nodes.
+
+And yeah, asking questions. So then, yeah, it's hard to tell about the whole ecosystem update, but actually a lot of things coming like Ergonames, which is a name system, right, which can be used in conjunction with other financial tooling.
+
+So for example, you can have your key bounce right to some name and then yeah well because of that you can do actually a lot of other things right then yeah Paideia which is DAO so well decentralized governance so then Lithos peer-to-peer Ergo mining protocol.
+
+Then what else do we have? A bunch of DEXs. So recently Trade House was launched. So please check. It's quite awesome. Peer-to-peer order book based decentralized exchange.
+
+Then, yeah, we have MewFinance. I need to check what's new there. They just released white paper rights, I believe.
+
+Then Dexy has another synthetic gold. algorithmic assets, which is quite close to the actually in the process of mainnet launch. So currently we are discussing parameters for payout action. And well, after getting agreements from court for USE, I will deploy it. We will go further.
+
+Then, yeah, what else? ChainCash, which is peer-to-peer monitoring system and, well, there are discussions going, well, what's doable on top of that. So currently, we are just hacking around, like three of us, hacking around the command line interface.
+
+Then what else? Somewhat a Celaut system. I need to check kind of decentralized Kubernetes, right? Have you checked it actually? No?
+
+Celaut, cc-loud. Bye, you don't know?
+
+[23:44] **mgPai**: Oh, sorry, you know what?
+
+[23:47] **kushti**: So it's somewhat decentralized Kubernetes and they're using Ergo.
+
+[23:54] **mgPai**: Oh, no, I haven't.
+
+[23:56] **kushti**: Yeah, for payments and reputation system. So the guy made reputation system for ErgoHack, some writings about it.
+
+Oh, by who?
+
+It's Jossemii.
+
+[24:15] **mgPai**: Oh, yeah, yeah, yeah, I think I recall it.
+
+[24:19] **kushti**: Jossemii, yes.
+
+[24:21] **mgPai**: Yeah, yeah, I think I recall it, yeah.
+
+[24:24] **kushti**: Right, and then... Yeah, Rosen Bridge, yeah. How can you forget? So, yeah, we are waiting for Ethereum Bridge to be launched. And then they promised to start listing assets, right?
+
+So yeah, actually a lot of things. And yeah, with Rosen, so after Ethereum bridge, it would be runes, right? And Rosen ports. So yeah, actually a lot of things.
+
+So actually a lot of projects, but and yeah I think they are defining roadmap in the first place right so well core development is now quite incremental right so well it's just making more possibilities but not breaking anything because well doing breaking updates I think is a bad thing right after all because well.
+
+Yeah, I witnessed a lot of stories here. Back in NXT days, so well after every hard fork, some part of community was lost, right? And yeah, the same with Ethereum, Ethereum Classic, Ethereum BoF and so on. And more, yeah, so well with every hard fork that there is inevitable loss of part of community, I guess, right?
+
+Because well, after all, well, it's kind of a dirty story, right? When some part of community is deciding to push for protocol updates, right? Without getting concerned from everyone and you cannot really get concerned from everyone in this environment.
+
+So then, yeah, well, I think updates should be non-breaking. All right, but yeah, so for non-breaking updates, I think after 6.0 sub-blocks, there could be a lot of things done actually closer to application layer, maybe in between of core and application like support for side chains, right? Maybe some interesting layer two ideas.
+
+Let's see. that there is some time to think and to check what will be in demand from applications.
+
+All right, so let me read the next question.
+
+Can you repeat again? mgPai, where do you hang your hats? Will you keep doing this going forward or do you have any ambitions to start another career?
+
+[27:43] **mgPai**: Yeah, sure. So, yeah, I'm probably going to be doing this for the foreseeable future. I enjoy the domain of blockchain, so I find that quite fun.
+
+So, I mean, I won't be, I work at Palmyra currently and I think it's really cool that I get to work on like multiple chains at once. So that's what I find a lot of fun.
+
+But regarding Ergo though, I definitely want to keep on working on it. I think it's like really cool tech and like the Ergo libraries and all like AppKit are really robust. It's like one of the best libraries I've seen, like given how small the community is right how small the chain is we really don't have like that many developers compared to like something like Ethereum or EVM, right?
+
+They probably have like tens of thousands of developers easily and our libraries are quite like on par with how Ethereum libraries are so.
+
+Yeah, I think Ergo is like really well done. It's properly done and I don't ever want to leave the space. So yeah, no, I'll be here for the foreseeable future.
+
+[29:00] **kushti**: Yeah, and for Ethereum, actually, that's maybe partly because of breaking nature of many updates, right? Well, especially switching to proof of stake. yeah because yeah with that you need to rewrite basically everything right because well block header structure and everything broken right after so yeah there is a lot of value in incremental development but then yeah you need to.
+
+Well, have good basic principles and tech formations, only tech formations since day one.
+
+All right, next question.
+
+Oh, one second.
+
+It's not so easy on this device.
+
+Do you guys know if there are any talks with T1 exchanges?
+
+That's probably to you. Bye.
+
+[30:15] **mgPai**: Yeah, I mean, I think the answer is as usual, right? Even if they are or if they aren't, we can't really disclose them due to NDAs. Yeah, I mean, I'll just leave it at that.
+
+[30:30] **kushti**: All right. Ergonames, would it be possible to use standard domain register like Namecheap to register my name?
+
+[30:40] **mgPai**: Yeah, so no, this is not really like a traditional domain, right, which resolves to like a website or anything. This is just purely to resolve your address, your Ergo address.
+
+And we're just going to leave it at that because I think any more work is out of scope. Maybe in the future, we'll have the possibility for upgrades. But for now, you need to use our own process because you'll need an Ergo wallet and you'll need to send funds and all.
+
+So no, you can't just use a standard domain registrar for it.
+
+[31:21] **kushti**: For now, if my memory serves me well, there was some effort to plug Namecoin into that traditional domain registration system. That failed after some time. And the Namecoin is not so well recognized now. Right.
+
+But yeah, back in 2000 or 12, probably 13. So yeah, it was. Yeah, back in 2012 it was the second altcoin, the first after Bitcoin maybe even. Litecoin was small back then, so I mined Litecoin with CPU just back in January 2013, so before the first pump.
+
+It was actually how I came to that field of smart contracts writing data on chains. Namecoin was the only system which was possible to play with back in 2013. So I've written some data. pulled out some data and analyzed from Namecoin blockchain and so on.
+
+I need to relocate to charge my device, so I have to shut the video down. Next question. One second.
+
+kushti, what is your favorite dish? Can't be only potatoes and small pieces of meat.
+
+Yeah, indeed. But it's hard to say about anything. What about you, mgPai?
+
+[33:53] **mgPai**: Oh, my favorite dish? Yeah. Oh, well, honestly, it's probably like any Indian food. There's just so many, right? So I just, I guess, generalize it to really anything. But I think I think South Indian food is pretty good.
+
+[34:21] **kushti**: Then, yeah, no, it's not a question. Please film and distribute those lectures. I guess those College Hackathon lectures.
+
+[34:33] **mgPai**: Yeah, yeah, for sure. I'll try to record them. It probably would be a good resource.
+
+[34:40] **kushti**: kushti won a chess match. Actually, we can do maybe even like Ergo heart tournament if it's possible. But yeah, I need to check. But yeah, we can play at some point. Need to find out. That'll be fun.
+
+Yeah, because we already having poker, right? Bobber poker. Why not to have chess? Right.
+
+Although Ergo is great on the tech side, it's still not very user friendly. As a comparison, Windows got wide adoption once graphic user interface went mainstream. Any plan to build a nice interface for all things Ergo?
+
+Good question, actually. So, mgPai, what do you think as an application developer, kind of? So, you did Phoenix, right? Phoenix Finance, all that stuff.
+
+[36:02] **mgPai**: Yeah, sure. So I think, I mean, of course, the most important thing is wallet perspective, right? Wallet has to be done properly first. So Nemo and Anon have been working hard on this, like refactoring everything.
+
+So they definitely agree with user experience and all. And I've discussed, a lot of people I've discussed with them on this subject. So that's definitely is in consideration and will happen in the near future.
+
+Yeah, so wallet experience and we'll probably get a better UI too for like Ergo mobile wallet. Like maybe it'll just be Nautilus for mobile itself. But that's definitely in talks and all.
+
+I think Coutilier from Comet also wants to make his own Comet-themed mobile wallet or something along those lines. So he's also looking into development for that.
+
+And from application standpoint, yeah, I think we just have a lot of developers who aren't really into front end, working on front end. So I think that's the main issue.
+
+But for Phoenix, I want to get HODL coin out. The contracts have been there for a while. But I want a better UI first. So I'm working with a new front end developer who's rewriting the Phoenix front end to mint like the normal HODL coins on ERG and then an interface to also create your own HODL coin game and all.
+
+And yeah, I know we're trying to make this as user friendly as possible. Yeah.
+
+[37:49] **kushti**: All right. And actually, so what I'm thinking about, so well, some applications can be chosen, which are nice in terms of user interface. And then maybe other applications can be AI generated, based on them.
+
+Because in most cases, all those applications are quite similar in functionality. So you connect your wallets, you type like amounts, something like amounts or well, whatever. in a form, right? then a signed transaction and, yeah.
+
+So the, the, this part, I think, could be just standardized, right. And also AI ized, right. How to say that. So, yeah, my mates, AI friendly, right. Friendly to, code generation, through, AI.
+
+Because, yeah, I think for such standard things, well, time for manual work is actually already limited, right, to two years, likely. And then it can be just generated. I mean, all the standard applications.
+
+[39:25] **mgPai**: Yeah, I think... I think developers should leverage AI. It greatly speeds up your pace of output. There's a new developer IDE where you write the code called cursor where it directly has a window into your entire code repository the chat and then you can just like ask it questions on the repository if you're a new developer like for example looking at like the node code you can just open your the code base on this IDE and then the IDE will ignore where all the files are so you can ask oh where is the code where the.
+
+the mining stuff is handled. Where is the check that checks the Autolykos algorithm's sound and the difficulties? Where is that check in the code base? And you can ask that. And the AI will tell you instantly, because it knows where all the code is.
+
+So this idea is really cool. I've been learning about it a little more. And I think that has huge potential, especially for for new developers, right? Just trying to get used to something or like someone who just knows a little bit of like Python trying to like get familiar with this entire code base in Scala. It has a lot of potential I think people should look into it and use it and recently like yesterday last night I found about an IDE called a pair and.
+
+I think it's trypair.ai or something. And it's an open source version of this cursor IDE, basically. So it's an open source version of an IDE with a built-in chat for AI, which has all your context of your code. So I think this is really cool. It's just revolutionary for how fast it speeds your output.
+
+[41:27] **kushti**: Yeah, so I think the routine tasks like generating UI and tests should be and will be made by AI, right? That's already possible. And then, yeah, so then based on some good UI examples, right, as everything here in Ergo is open, right, so based on some best examples, it would be possible to generate good UI, right.
+
+Maybe not so super fancy, but yeah, in most cases, you just need for something functional, right? Not buggy and looking good for a wide range of devices, which is also important these days.
+
+All right, next question, I guess. Next question.
+
+Next question is from qx(), none else then. Hey, mgPai, what would it take to do updates to ErgPy? How much? All right.
+
+[43:05] **mgPai**: I mean, it's really just for me, it's a question of time, right? I have like other projects that I want to give priority to. So I mean, I just want to complete like, I think Ergonames is really on my priority list for Ergo. And I really want to get that out. It's been pending for a while.
+
+So I'm going to complete that. And then in parallel, we have a Phoenix, Phoenix HODL coin, we want to roll that out. And then another project I'm working on for the Sigmanauts. I think LDG Luca is writing the contracts for it currently.
+
+So it's a Sigmanauts project. I think those are the three immediate things I really have on Ergo itself. So then probably after those are complete, I can start looking to other projects and all.
+
+I also wanted to explore more mining stuff because recently, in a few months back, I wrote a mining pool for a meme coin on Cardano where you could mine this coin just to understand how the mining process worked. I really did it as an MVP of a mining server.
+
+Then I can just port that over for whatever Ergo needs. I wanted to work on that. I don't know if I will, but I might also be there in the future. But yeah, I mean, it's really those first three projects I want to finish up, then I can maybe look into doing more ErgPy stuff.
+
+But it would be nice to get other people doing it rather than me. because this is not complex either, because it's just porting over existing code. Maybe you can make bindings and all from AppKit. So yeah, I think it'd be better if other people can look into it.
+
+But maybe in the future, after my projects are complete, I can look into it.
+
+[45:16] **kushti**: Yeah, so actually, within Ergo Devs DAO, we are discussing even allocating some bounties for doing Python bindings for our Sigma Rust. Well, actually, I don't know how all those bindings do work for us.
+
+Because for our up-kits, yeah, it's using a growl-bm and, well, this is still not a very stable option. I don't know much about Rust bindings. If they are working well, then yeah, maybe it's better to go that route. Let's see.
+
+It would be good to find someone proficient in all that stuff. All right then.
+
+Your next question. Next question. So we have five minutes more questions.
+
+Yeah, Mark the shark will... Yeah, check. Bindings, but... Yeah, well, a lot of messages, but no questions. Yeah, just free flowchart, it seems.
+
+[47:42] **mgPai**: All right. So is that everything?
+
+[47:46] **kushti**: I don't know. So a lot of messages like we need to market using big crypto YouTube channels. I mean, if you want to comment, then we maybe can discuss how. how to do marketing, right? Because there are different opinions.
+
+Recently, I started to push for certain things like to have updates, regular updates in national groups, right? Because many were abandoned, actually. I found that Vietnamese, for example, Telegram group was abandoned.
+
+Then, yeah, well, Russian was very active, but full of different, I don't know, conspiracy theories. So, well, folks discussed things very disconnected from reality there. Well, very, very disconnected from very, very simple facts. I mean, facts which can be checked in like one click.
+
+Yeah, the same. Oh, yeah, I got control of our Persian group, which was full of spam and so on. Yeah, my mate's new moderator in Chinese group, a one-off because there are a lot of Chinese groups and I'm not aware most of them because they are in how is it called, the messaging systems. Right, so, well, yeah, so even, like translating and pushing and providing factual information instead of myths, right, to national communities.
+
+I think it's already a very big deal because, well, in total, maybe, well, all those groups are similar to the main one, quite in English, and they can grow, I guess, also significantly in observable time.
+
+Then, yeah, about big crypto YouTubers. I don't know. So I think, yeah, it makes sense to get on something relevant, right? Like mining, for example, right? And yeah, well, I don't know what's going on these days.
+
+[50:46] **mgPai**: So I can talk about this. So I think mining is a big big aspect that Ergo really needs to market because the overall mining ecosystems right now is pretty poor right it's it's really all just some shitcoins that people are mining and the profitability is like really bad because like I know for a while a lot of people are mining this coin called gram which is which is a proof of work coin on the ton blockchain.
+
+All right, so it's just all these coins which really don't have value, they're just profitable. And then there's a lot of Kaspa forks that are being mined. Again, they're just like forks of a successful coin, like they're not really going anywhere.
+
+So it's just all a bunch of these types of coins. So Ergo has a huge potential, right, to be leading in the mining industry. because the Ergo is an original project that you can still mine using a GPU.
+
+So I think this is something that the community really needs to focus on. And I think we had the Ergo Foundation, we received the proposal from the Sigmanauts, I believe, or some Sigmanauts mining pool.
+
+But they're deciding to make this more well known and also I think really for marketing, that's what we got to do because it's the miners that are really going to help with the price action, right?
+
+And if we can get to a certain level in price, then we'll, of course, we'll automatically attract the miners to do profitability. Then I believe that you'll have a snowball effect on the price with it going up since more and more miners will be involved. So yeah, I think really that's the milestone we got to hit.
+
+Probably like four or five dollars per coin would be more than enough to be profitable or go to be profitable across anything, everything.
+
+[52:48] **kushti**: Right. But yeah, also, yeah, well, the state of mining is pretty set, right? GPU mining. So yeah, now it's usually about mostly clones for Kaspa or anything.
+
+And yeah, well, and still, it's like magic when you can create money at home, right? By this money. very small mining creek with a few GPUs.
+
+So you can be your own bank in regards to all the aspects of free banking. So you can mint your money, but then they are recognized in the Ergo network and then you can immediately use them in applications doing trustless derivatives.
+
+So you can convert into algorithmic synthetic gold, right? So USD, you can lend it out. Yeah, yeah, so a lot of things, right? You can put into liquidity pools, right? So yeah, a lot of things.
+
+This is just up to you, right? How your bank is operating.
+
+And yeah, but well, what I realized, well, from chatting a bit in Russian group, so some miners even mining with ASICs now, right? Mining something ASIC friendly. And then yeah, actually, dumping, those, classic coins, for, to, to, to buy Ergo rights on, Zgex.
+
+So some, small exchange for miners and so on. So, yeah, well, actually, yeah, among miners, there are a lot of, tech savvy people who writes, we got a lot of developers from mining.
+
+And yeah, also many miners actually do care about principles, right? And even if they're doing money with ASICs, right, then they can actually support, well, GPU, mineable money, right? So there we go.
+
+Yeah, that's quite awesome. But outside that, so yeah, about big YouTubers. We can try something, but actually, it could be hard to find any professional big YouTuber. Because most of them just like, I don't know, buy this coin. Yeah, super pump this year. or whatever so yeah it's it's it's it's what can you talk about with them let's see all right so yeah let me check questions but.
+
+What do you guys do to blow off steam?
+
+Let's answer this question and finish with it.
+
+[56:53] **mgPai**: Yeah, sure. So I like to go to the gym. So I think that's like the best outlet. I like to run and all. So that's really what I do.
+
+[57:08] **kushti**: All right, so yeah, I actually like to do a lot of things, but not much time, but yeah, like cooking, walking around, running, bicycle, a bit of gym also. Swimming pool, yeah, to try to... It's actually quite good, yeah, after those computers.
+
+Yeah, yeah, yeah, for sure. Yeah, something like that, but yeah, we need to find time.
+
+[57:49] **mgPai**: Yeah, exactly.
+
+[57:52] **kushti**: All right, so yeah, we are good with that. So, thank you everyone. Please join next week. I guess there will be a different set of people, right? Maybe Dan and Joe, I don't know. Dan and qx(), qx() and Joe.
+
+mgPai, will you join next week?
+
+[58:20] **mgPai**: I'll see, depends on my schedule.
+
+[58:24] **kushti**: Let's see, but yeah, so we have different people. It's quite good to get different opinions, right? To highlight, different parts of, community, right? And, yeah, that's great. All right. Yeah. Have a good day.
+
+[58:47] **mgPai**: Thanks guys.
+
+[58:49] **UNKNOWN**: Bye.

@@ -1,0 +1,99 @@
+{
+  "call_date": "2024-06-17",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:11",
+      "question": "What problems exist with the current Rosen Bridge fee structure for smaller transactions?",
+      "asker": "Implied from presentation",
+      "answer": "The Rosen Bridge has a high minimum fee of up to $10 for transactions below $2,000, and only offers the lower 0.5% fee rate for transactions above $2,000. This creates a barrier for smaller fund holders who want to bridge amounts like $50 or $100, where a $10 fee represents a significant percentage of their transaction.",
+      "responder": "Sangi24",
+      "category": "bridges",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Rosen Bridge",
+        "cross-chain",
+        "fees",
+        "minimum threshold"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "02:09",
+      "question": "How does Rosenport solve the high fee problem for small transactions?",
+      "asker": "Implied from presentation",
+      "answer": "Rosenport uses batch bridging to solve this issue. It allows multiple smaller transactions (like $75, $100, $200) to be batched together until they reach the $2,000 threshold, then uses the Rosen Bridge to execute the batch transfer. This way, everyone pays a significantly smaller fee instead of the flat $10 minimum.",
+      "responder": "Sangi24",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "batch bridging",
+        "Rosenport",
+        "fee optimization",
+        "transaction batching"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "02:29",
+      "question": "Is Rosenport competing with or replacing the Rosen Bridge?",
+      "asker": "Implied from presentation",
+      "answer": "No, Rosenport is not a competition against the Rosen Bridge, but rather a complementary system built on top of it. It leverages the existing Rosen Bridge infrastructure to execute the actual cross-chain transfers once batches reach the required threshold.",
+      "responder": "Sangi24",
+      "category": "bridges",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Rosen Bridge",
+        "complementary system",
+        "infrastructure"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "03:26",
+      "question": "What is the current development status and what components are being worked on?",
+      "asker": "Implied from presentation",
+      "answer": "The team is working directly with the Rosen team to develop the Rosen SDK, which will be the core component for Rosenport. They have completed the technical architecture and UI design, and are currently working on multi-chain payment using browser and node wallets, as well as implementing the database and cron jobs.",
+      "responder": "Sangi24",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Rosen SDK",
+        "technical architecture",
+        "multi-chain payment",
+        "development status"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "06:56",
+      "question": "What is the timeline for public testing and release of Rosenport?",
+      "asker": "Implied from presentation",
+      "answer": "The team is aiming to have Rosenport set up for public testing in mid-July and hoping to achieve a public release closer to the end of July for everyone to try out and use.",
+      "responder": "Sangi24",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "public testing",
+        "release timeline",
+        "July 2024"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "07:11",
+      "question": "Will Rosenport support future blockchain networks that Rosen Bridge adds?",
+      "asker": "Implied from presentation",
+      "answer": "Yes, Rosenport will implement everything that the Rosen Bridge team implements. Any new chains or networks that the Rosen Bridge team adds in the future will also be leveraged by Rosenport, including the upcoming Bitcoin network support.",
+      "responder": "Sangi24",
+      "category": "bridges",
+      "difficulty": "beginner",
+      "related_terms": [
+        "future development",
+        "Bitcoin network",
+        "chain expansion",
+        "roadmap"
+      ]
+    }
+  ]
+}

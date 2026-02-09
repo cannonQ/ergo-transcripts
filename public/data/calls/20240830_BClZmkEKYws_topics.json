@@ -1,0 +1,166 @@
+{
+  "call_date": "2024-08-30",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - August 29th 2024",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Node 6.0 Alpha Release and Development Progress",
+      "category": "technical",
+      "start_time": "00:43",
+      "end_time": "03:04",
+      "primary_speaker": "kushti",
+      "summary": "kushti announced the first alpha release of Node 6.0 for local deployments and outlined the roadmap for upcoming releases. He also discussed ongoing work on sub-blocks implementation and Banxa deployment with three servers now running collateralized nodes.",
+      "key_terms": [
+        "Node 6.0",
+        "alpha release",
+        "sub-blocks",
+        "Banxa",
+        "collateralized nodes"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Sigmanauts Mining Pool Infrastructure Improvements",
+      "category": "ecosystem",
+      "start_time": "03:08",
+      "end_time": "04:17",
+      "primary_speaker": "qx()",
+      "summary": "qx() discussed reducing mining pool server costs from $100 to $18 per month and successfully integrating storage rent collection code into Mining Core. The pool will be the first to officially run storage rent collection.",
+      "key_terms": [
+        "mining pool",
+        "storage rent",
+        "Mining Core",
+        "server infrastructure",
+        "profitability"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Community Standards and Moderation Policies",
+      "category": "community",
+      "start_time": "04:17",
+      "end_time": "05:23",
+      "primary_speaker": "qx()",
+      "summary": "qx() explained the need to establish written community standards for Sigmanauts chats to manage growing pains and ensure proper discourse. These standards will be enforced as the community grows larger.",
+      "key_terms": [
+        "community standards",
+        "moderation",
+        "discourse",
+        "social policies",
+        "group management"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Russian Market Expansion Possibilities",
+      "category": "marketing",
+      "start_time": "07:58",
+      "end_time": "09:24",
+      "primary_speaker": "kushti",
+      "summary": "kushti responded to questions about expanding in Russian markets given new crypto-friendly government announcements. He noted the crypto scene in Russia has been underground and expressed uncertainty about current legal developments and exchange listings.",
+      "key_terms": [
+        "Russian markets",
+        "crypto friendly",
+        "exchanges",
+        "legislation",
+        "underground crypto"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Developer Privacy and Legal Concerns",
+      "category": "governance",
+      "start_time": "10:23",
+      "end_time": "14:06",
+      "primary_speaker": "kushti",
+      "summary": "Discussion about anonymous developers like Morphic and concerns about legal risks for crypto developers. kushti explained the difference between running centralized services versus permissionless blockchains and varying jurisdictional approaches to developer liability.",
+      "key_terms": [
+        "developer privacy",
+        "legal risks",
+        "permissionless",
+        "centralized services",
+        "jurisdiction"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Dan Friedman Performance Defense",
+      "category": "community",
+      "start_time": "14:28",
+      "end_time": "16:52",
+      "primary_speaker": "qx()",
+      "summary": "qx() defended Dan Friedman against community criticism, explaining his role as an EF advisor and his contributions through Palmyra and cross-chain technology development. He emphasized Dan's hard work and financial investment in projects that benefit Ergo.",
+      "key_terms": [
+        "Dan Friedman",
+        "EF advisor",
+        "Palmyra",
+        "cross-chain",
+        "community criticism"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Tailstorm Protocol Analysis",
+      "category": "technical",
+      "start_time": "17:19",
+      "end_time": "20:29",
+      "primary_speaker": "kushti",
+      "summary": "kushti discussed his analysis of Tailstorm, noting similarities to existing proposals but highlighting that many features aren't applicable to Ergo due to its fixed emission schedule. He emphasized the need to finish Node 6.0 and sub-blocks implementation before pursuing new protocols.",
+      "key_terms": [
+        "Tailstorm",
+        "incentivization",
+        "block rewards",
+        "emission schedule",
+        "hard fork"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "AI Impact on GPU Mining",
+      "category": "technical",
+      "start_time": "22:21",
+      "end_time": "23:21",
+      "primary_speaker": "kushti",
+      "summary": "kushti responded to concerns about AI corporations buying GPUs, stating that while some GPUs may still reach mining, the world increasingly needs GPUs for various computational tasks beyond just mining.",
+      "key_terms": [
+        "AI",
+        "GPU mining",
+        "data centers",
+        "computational tasks",
+        "mining hardware"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Cardano Partnership Chain Possibilities",
+      "category": "bridges",
+      "start_time": "23:39",
+      "end_time": "26:25",
+      "primary_speaker": "qx()",
+      "summary": "Discussion of potential Cardano partnership following Charles Hoskinson's tweets about partner chains. qx() suggested Ergo is already positioned as a partner through Rosen bridge, while kushti explored technical possibilities for trustless cross-chain relays using zero-knowledge proofs.",
+      "key_terms": [
+        "Cardano partnership",
+        "partner chains",
+        "Rosen bridge",
+        "trustless relays",
+        "zero-knowledge proofs"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "ChainCash Use Cases and Implementation",
+      "category": "defi",
+      "start_time": "26:33",
+      "end_time": "30:53",
+      "primary_speaker": "kushti",
+      "summary": "kushti explained ChainCash use cases including community finance, trust-based currencies, and developer payments with collateralized notes. He discussed how notes can be split, redeemed partially, and backed by multiple reserves including real-world assets.",
+      "key_terms": [
+        "ChainCash",
+        "community finance",
+        "collateralized notes",
+        "trust-based currency",
+        "real-world assets"
+      ]
+    }
+  ]
+}

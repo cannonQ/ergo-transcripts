@@ -1,0 +1,222 @@
+{
+  "call_date": "2024-10-13",
+  "call_title": "Dev Update Oct. 13th 2024 |  Satergo, Paideia, Celaut, Sigs Mining, Nautilus and more!",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "MewFinance DEX and Marketplace Spotlight",
+      "category": "defi",
+      "start_time": "00:42",
+      "end_time": "07:37",
+      "primary_speaker": "qx()",
+      "summary": "Overview of MewFinance project by HQx and Aco, featuring a DEX based on Spectrum code and MewMart marketplace. The presale rounds sold out quickly, with the DEX appearing faster due to stripped Cardano code and the marketplace supporting bundles, escrow listings, and FIGITAL tokens.",
+      "key_terms": [
+        "MewFinance",
+        "DEX",
+        "MewMart",
+        "Spectrum",
+        "presale",
+        "FIGITAL tokens",
+        "escrow",
+        "marketplace"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Sigmanauts Physical Merchandise via FIGITAL Tokens",
+      "category": "nft",
+      "start_time": "04:35",
+      "end_time": "07:23",
+      "primary_speaker": "qx()",
+      "summary": "Sigmanauts are selling physical merchandise through FIGITAL tokens (digital representations of physical items) on MewMart. The system prevents reselling and includes plans for cross-chain merch via Rosen bridge and video card escrow services.",
+      "key_terms": [
+        "FIGITAL tokens",
+        "Sigmanauts",
+        "physical merchandise",
+        "NFTs",
+        "Rosen bridge",
+        "escrow service",
+        "Sigma Shop"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Paideia SDK Contract Work Completion",
+      "category": "technical",
+      "start_time": "08:09",
+      "end_time": "08:32",
+      "primary_speaker": "qx()",
+      "summary": "Luivatra reports completion of contract work for Paideia SDK with 232 issues finished and test cases passing. The project is now deploying for final on-chain testing.",
+      "key_terms": [
+        "Paideia",
+        "SDK",
+        "contract work",
+        "test cases",
+        "on-chain testing",
+        "Luivatra"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Nautilus Wallet Zero-Conf Setup and Abyss Channel",
+      "category": "technical",
+      "start_time": "08:32",
+      "end_time": "09:15",
+      "primary_speaker": "qx()",
+      "summary": "AnonBR announces zero-conf setup completion for Nautilus wallet with alpha release planned for Abyss channel. The Abyss channel provides bleeding-edge features before main wallet release.",
+      "key_terms": [
+        "Nautilus",
+        "zero-conf",
+        "AnonBR",
+        "Abyss channel",
+        "alpha release",
+        "wallet"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Ergo Node 6.0 Development and 5.0.23 Release",
+      "category": "technical",
+      "start_time": "09:15",
+      "end_time": "10:47",
+      "primary_speaker": "qx()",
+      "summary": "Kushti reports final functional PR for 6.0 with global.sum and global.none methods merged, alpha 2 release planned, and successful 5.0.23 testing. Also mentions SigmaUSD contract update voting due to storage rent concerns.",
+      "key_terms": [
+        "Ergo node",
+        "6.0 alpha",
+        "5.0.23",
+        "global methods",
+        "kushti",
+        "SigmaUSD",
+        "storage rent",
+        "contract update"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Dexy and ChainCash Development Updates",
+      "category": "defi",
+      "start_time": "11:16",
+      "end_time": "11:38",
+      "primary_speaker": "qx()",
+      "summary": "Dexy payout contracts updated with white paper revisions needed, awaiting team return from vacation for mainnet deployment. ChainCash discussing fixes with Dusek.",
+      "key_terms": [
+        "Dexy",
+        "payout contract",
+        "white paper",
+        "mainnet deployment",
+        "ChainCash",
+        "Dusek"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Celaut Documentation and Benefactor Platform Development",
+      "category": "technical",
+      "start_time": "11:42",
+      "end_time": "12:18",
+      "primary_speaker": "qx()",
+      "summary": "Josemai reports Celaut documentation completion and multi-node testing in progress. Benefactor platform contract implementation has begun with Bruno's review and suggested improvements.",
+      "key_terms": [
+        "Celaut",
+        "documentation",
+        "multi-node testing",
+        "Benefactor platform",
+        "reputation system",
+        "Josemai",
+        "Bruno"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Satergo Wallet 1.8.0 New Features Release",
+      "category": "technical",
+      "start_time": "12:18",
+      "end_time": "13:05",
+      "primary_speaker": "qx()",
+      "summary": "Satergo version 1.8.0 released with four new tools including airdrop functionality, UTXO consolidation, token burning, and batch transactions. Also includes cheaper token-only sends, Spectrum DEX price integration, and Japanese translation.",
+      "key_terms": [
+        "Satergo",
+        "1.8.0",
+        "airdrop",
+        "UTXO consolidation",
+        "token burning",
+        "batch transactions",
+        "Spectrum DEX",
+        "Japanese translation"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Sigmanauts Mining Pool Miner ID Beta and Token Swapping",
+      "category": "technical",
+      "start_time": "13:05",
+      "end_time": "15:08",
+      "primary_speaker": "qx()",
+      "summary": "Mark the Shark reports beta testing of miner IDs and background mining swap functionality at ergo-miners.com. The system uses mint tokens in wallets to determine payout preferences without requiring website visits or IP logging.",
+      "key_terms": [
+        "Sigmanauts mining",
+        "miner IDs",
+        "mining swap",
+        "shark tokens",
+        "mint tokens",
+        "decentralized payouts",
+        "Mark the Shark"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Lithos NISP Contracts and Storage Rent Collection",
+      "category": "technical",
+      "start_time": "14:19",
+      "end_time": "15:28",
+      "primary_speaker": "qx()",
+      "summary": "qx() reports successful NISP contract testing and development of functional transaction building approach for Lithos. Storage rent collection is now live and operational for Sigmanauts mining pool.",
+      "key_terms": [
+        "Lithos",
+        "NISP contracts",
+        "transaction building",
+        "AppKit",
+        "storage rent collection",
+        "optimistic evaluation"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Ergo Explorer Infrastructure Expansion and Load Balancing",
+      "category": "technical",
+      "start_time": "15:28",
+      "end_time": "18:54",
+      "primary_speaker": "qx()",
+      "summary": "qx() details creation of video tutorial for Explorer setup on cloud VPS and deployment of Singapore node for load balancing. Plans include round-robin DNS across New York, Germany, and Singapore nodes with direct access options.",
+      "key_terms": [
+        "Ergo Explorer",
+        "cloud VPS",
+        "Hetzner",
+        "Docker",
+        "load balancing",
+        "Singapore node",
+        "round-robin DNS",
+        "GraphQL"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Building Sustainable Ergo Economy Philosophy",
+      "category": "ecosystem",
+      "start_time": "19:47",
+      "end_time": "26:25",
+      "primary_speaker": "qx()",
+      "summary": "qx() advocates for creating a self-sustaining Ergo economy where participants rely on each other rather than external funding. Emphasizes active investment through participation, collaboration, and building real utility like physical goods trading and financial services.",
+      "key_terms": [
+        "sustainable economy",
+        "self-sustaining",
+        "active investment",
+        "ChainCash notes",
+        "DAOs",
+        "community collaboration",
+        "organic growth"
+      ]
+    }
+  ]
+}

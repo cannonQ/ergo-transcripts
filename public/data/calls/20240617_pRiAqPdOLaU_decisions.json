@@ -1,0 +1,132 @@
+{
+  "call_date": "2024-06-17",
+  "call_title": "Moria Finance | Lgd and MGpai | ErgoHack VIII",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "00:51",
+      "decision": "To focus on multisig service instead of time lock contract and reversible address contract",
+      "speaker": "Luca",
+      "context": "Due to time constraints during ErgoHack VIII",
+      "topic": "technical",
+      "significance": "major",
+      "quote": "Just due to the time constraint, we thought it'd be better to do the multisig service."
+    },
+    {
+      "id": 2,
+      "timestamp": "01:14",
+      "decision": "To directly use the address provided by the creator instead of setting derivation index to zero as in EIP-42",
+      "speaker": "Luca",
+      "context": "Found it simpler for their use case",
+      "topic": "technical",
+      "significance": "minor",
+      "quote": "instead of doing that, we just directly use the address provided by the creator, since we found this to just be simpler for our use case"
+    },
+    {
+      "id": 3,
+      "timestamp": "01:55",
+      "decision": "To use a relational database using PostgreSQL with Supabase",
+      "speaker": "Luca",
+      "context": "Need to pass data around from each signer during multisig process",
+      "topic": "technical",
+      "significance": "major",
+      "quote": "we decided to use a relational database using PostgreSQL with Supabase, since it's just easy to set up and easy to use APIs"
+    },
+    {
+      "id": 4,
+      "timestamp": "07:05",
+      "decision": "Code will remain closed source for now",
+      "speaker": "mgPai",
+      "context": "Not specified",
+      "topic": "governance",
+      "significance": "major",
+      "quote": "our code will remain closed source for now"
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "02:05",
+      "commitment": "Implement Supabase Realtime for live chat messaging and notifications during the signing process",
+      "owner": "Moria Finance team",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "We didn't get to implement this during the hackathon, but as a next feature, we're going to use Supabase Realtime"
+    },
+    {
+      "id": 2,
+      "timestamp": "05:20",
+      "commitment": "Captain Nemo will add the multisig signing methods to the official Nautilus wallet in the new release with the v3 manifest",
+      "owner": "Captain Nemo",
+      "timeline": "new release with v3 manifest",
+      "topic": "technical",
+      "quote": "we'll be having Captain Nemo adding this to the official Nautilus wallet in the new release with the v3 manifest"
+    },
+    {
+      "id": 3,
+      "timestamp": "08:32",
+      "commitment": "Will be adding a fee to charge people for creating more accounts",
+      "owner": "Moria Finance team",
+      "timeline": "later on",
+      "topic": "tokenomics",
+      "quote": "Later on, we'll be adding a fee to charge people for creating more accounts so we don't get spammed in our database and backend"
+    },
+    {
+      "id": 4,
+      "timestamp": "11:46",
+      "commitment": "Will implement dynamic updates instead of manual reload",
+      "owner": "Moria Finance team",
+      "timeline": "in the future",
+      "topic": "technical",
+      "quote": "We'll be implementing stuff to make this dynamic in the future"
+    },
+    {
+      "id": 5,
+      "timestamp": "12:17",
+      "commitment": "Will be adding notifications in the future",
+      "owner": "Moria Finance team",
+      "timeline": "in the future",
+      "topic": "technical",
+      "quote": "we'll be adding notifications in the future"
+    }
+  ],
+  "open_questions": [],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "00:18",
+      "fact": "ErgoHack VIII team consisted of five people: Luca, mgPai, Anastasia, Apollo, and Dimitri, as well as Captain Nemo",
+      "speaker": "Luca",
+      "topic": "technical"
+    },
+    {
+      "id": 2,
+      "timestamp": "00:59",
+      "fact": "Multisig follows the protocol outlined in EIP-42 with one modification",
+      "speaker": "Luca",
+      "topic": "technical"
+    },
+    {
+      "id": 3,
+      "timestamp": "02:34",
+      "fact": "Database has four main entities: confirmed user, multisig wallet, multisig unsigned transaction, and multisig signed transaction",
+      "speaker": "Luca",
+      "topic": "technical"
+    },
+    {
+      "id": 4,
+      "timestamp": "04:51",
+      "fact": "Two methods were added to the Nautilus fork: generate commitments for transaction and sign transaction multi",
+      "speaker": "mgPai",
+      "topic": "technical"
+    },
+    {
+      "id": 5,
+      "timestamp": "12:21",
+      "fact": "The project was completed over a weekend",
+      "speaker": "mgPai",
+      "topic": "technical"
+    }
+  ]
+}

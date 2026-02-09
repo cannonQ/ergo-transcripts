@@ -1,0 +1,108 @@
+{
+  "call_date": "2024-07-02",
+  "call_title": "Paideia | Marty | Ergoversary Summit 2024",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Paideia dApp Overview and Demo Introduction",
+      "category": "technical",
+      "start_time": "00:14",
+      "end_time": "00:51",
+      "primary_speaker": "Marty",
+      "summary": "Marty introduces a demonstration of the Paideia dApp, explaining he will show how to register to vote (called staking), create a proposal, and vote on it. He shows the landing page and explains he's already a member with beta tokens from the Ergo faucet.",
+      "key_terms": [
+        "Paideia dApp",
+        "staking",
+        "voter registration",
+        "beta tokens",
+        "Ergo faucet",
+        "DAO"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Token Staking for Voter Registration Process",
+      "category": "governance",
+      "start_time": "00:51",
+      "end_time": "03:25",
+      "primary_speaker": "Marty",
+      "summary": "Marty demonstrates the staking process, showing how to stake 3 million B Paideia tokens to enable voting rights. He explains the transaction process, smart contract interaction, and how tokens are sent to the proxy contract while receiving a stake key back.",
+      "key_terms": [
+        "token staking",
+        "voter registration",
+        "B Paideia tokens",
+        "smart contract",
+        "proxy contract",
+        "stake key",
+        "mempool"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Proposal Creation and Configuration Options",
+      "category": "governance",
+      "start_time": "03:25",
+      "end_time": "07:00",
+      "primary_speaker": "Marty",
+      "summary": "Marty walks through creating a new proposal in the DAO, showing options for discussions vs proposals, categories, actions like sending funds or updating DAO configuration, and the 1000 B Paideia token cost. He demonstrates setting up a 5-day voting period for a simple yes/no vote.",
+      "key_terms": [
+        "proposal creation",
+        "DAO configuration",
+        "quorum",
+        "voting duration",
+        "proposal cost",
+        "discussions"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Voting Process and On-Chain Transaction Flow",
+      "category": "governance",
+      "start_time": "07:00",
+      "end_time": "09:36",
+      "primary_speaker": "Marty",
+      "summary": "Marty demonstrates the voting process, showing how the proposal transitions from draft to active status after on-chain confirmation. He explains the transaction structure, proposal registration token creation, and shows how to cast a vote using the staked tokens.",
+      "key_terms": [
+        "voting process",
+        "on-chain transactions",
+        "proposal status",
+        "vote registration key",
+        "DAO registration token"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Vote Results and Quorum Requirements",
+      "category": "governance",
+      "start_time": "09:36",
+      "end_time": "11:42",
+      "primary_speaker": "Marty",
+      "summary": "Marty shows the completed vote results, explaining how his 3 million tokens met both the 60% yes vote threshold and 15% quorum requirement. He demonstrates the DAO config page and explains how governance parameters like quorum can be changed through proposals to prevent whale dominance or increase participation.",
+      "key_terms": [
+        "vote results",
+        "quorum requirements",
+        "60% threshold",
+        "whale dominance",
+        "governance parameters",
+        "registered voters"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Paideia Platform Features and Beta Status",
+      "category": "technical",
+      "start_time": "11:42",
+      "end_time": "13:06",
+      "primary_speaker": "Marty",
+      "summary": "Marty concludes by summarizing the key Paideia workflow and highlighting additional features like DAO member listings and activity pages. He mentions the platform is in beta with some features needing fixes before full release, and directs users to Discord or Telegram for questions.",
+      "key_terms": [
+        "Paideia workflow",
+        "DAO members",
+        "activity page",
+        "beta status",
+        "Discord",
+        "Telegram"
+      ]
+    }
+  ]
+}

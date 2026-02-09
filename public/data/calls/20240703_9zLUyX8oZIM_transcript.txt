@@ -1,0 +1,317 @@
+[00:14] **Cipher**: My presentation is about a complete edition of RGB++ protocol.
+
+[00:20] **Cipher**: Maybe you guys have heard of RGB++ protocol.
+
+[00:24] **Cipher**: Maybe some of you are builders or token holders or newcomers who just got the name of RGB++ protocol.
+
+[00:34] **Cipher**: And today I will explain what is this protocol stand for and what's the so-called complete edition of this protocol is and our future plan.
+
+[00:50] **Cipher**: Okay, let's start from our mission or positioning.
+
+[00:56] **Cipher**: We are going to build some native programmability and scalability solution for Bitcoin with a native way.
+
+[01:07] **Cipher**: So what is the native way? What's the difference from the non-native way, right?
+
+[01:13] **Cipher**: So when we call the native, means we use the native feature of Bitcoin itself, which is PoW and UTXO, which is totally different from what Ethereum ecosystem does, which should be account model and PoS.
+
+[01:32] **Cipher**: So only your solution makes full advantage of these two features, you can call it a native way.
+
+[01:41] **Cipher**: It's not just a political thing, it's more about a native way that could provide a better solution.
+
+[01:48] **Cipher**: If we trace back maybe several years ago, in Ethereum ecosystem, you may know that there are several other scalability solutions for Ethereum, including plasma, routing, rating network, and of course, rollups.
+
+[02:08] **Cipher**: But now we know that rollups are the best solution for Ethereum scalability, right?
+
+[02:14] **Cipher**: Because the rollups make for you the advantage of account model and PoS.
+
+[02:21] **Cipher**: But for Bitcoin, we shouldn't assume that the rollups is automatically the best solution for Bitcoin.
+
+[02:30] **Cipher**: There may be another or more other solutions.
+
+[02:34] **Cipher**: And here we are exploring the possibilities.
+
+[02:39] **Cipher**: Okay, like I said, for now, there are four main directions for Bitcoin scalability or extension tech stacks.
+
+[02:49] **Cipher**: The first one is, we call it sidechain, which should be a bridge, a multisig bridge plus EVM compatible layer tool.
+
+[02:59] **Cipher**: Merlin, BVM, Satoshi VM is the best of them.
+
+[03:03] **Cipher**: However, you can't call it a Bitcoin Layer 2, or you can call it a bridge with Ethereum Layer 2.
+
+[03:12] **Cipher**: The security relies on the multisig bridge.
+
+[03:17] **Cipher**: There are little innovations here in this vertical.
+
+[03:21] **Cipher**: And the second solution is Rollup for Bitcoin.
+
+[03:25] **Cipher**: You need to verify the Layer 2 status directly on Bitcoin Layer 1.
+
+[03:32] **Cipher**: So you need something special in Bitcoin script.
+
+[03:37] **Cipher**: So we introduced BitVM.
+
+[03:41] **Cipher**: It's a very sophisticated technology.
+
+[03:44] **Cipher**: Maybe with the OP_CAT support, you can achieve it easier, but still it's very difficult.
+
+[03:52] **Cipher**: Typically, people in this field would believe that in this Bitcoin cycle, BitVM cannot finish the development.
+
+[04:02] **Cipher**: So the rollup solution, maybe we can have this in next bull market, next four years.
+
+[04:11] **Cipher**: Not this round, we believe.
+
+[04:15] **Cipher**: And another solution is what we call the native solution, which should be the channel or Lightning Network.
+
+[04:22] **Cipher**: We already have a mature Lightning Network running, building and running on Bitcoin.
+
+[04:29] **Cipher**: I think more than 10,000 nodes are running a Lightning Network node and millions of users are using this network.
+
+[04:39] **Cipher**: However, this network only supports Bitcoin itself.
+
+[04:42] **Cipher**: If someday it supports stablecoin or other user-defined coins or any form of states, it should be much more useful.
+
+[04:56] **Cipher**: We're also on CKB, building CKB Lightning Network, which should be connected with Bitcoin Lightning Network in this year.
+
+[05:04] **Cipher**: This is a very promising solution for Bitcoin.
+
+[05:08] **Cipher**: However, it's more dedicated to payment channel or payment network.
+
+[05:13] **Cipher**: It's also difficult to do state network.
+
+[05:17] **Cipher**: And the last solution is client-side validation, which means client-side validation.
+
+[05:23] **Cipher**: It's also Bitcoin-native, only available for UTXO model.
+
+[05:29] **Cipher**: And the typical project is RGB, Taproot Assets, or Taro, or RGB++.
+
+[05:36] **Cipher**: I will emphasize more on this vertical.
+
+[05:41] **Cipher**: OK, so what's the problem?
+
+[05:43] **Cipher**: We have lots of Layer 2 solutions, right?
+
+[05:47] **Cipher**: I think more than 100 Layer 2s are building on Bitcoin.
+
+[05:52] **Cipher**: So what's the problem?
+
+[05:53] **Cipher**: The problem is the most mature solution for Bitcoin Layer 2 is multisig bridge plus EVM compatible, right?
+
+[06:02] **Cipher**: So... They just bridge the real Bitcoin to another chain, which is not the real Bitcoin.
+
+[06:10] **Cipher**: It's a wrapped Bitcoin.
+
+[06:14] **Cipher**: And to make the wrapped Bitcoin programmability and scalability.
+
+[06:20] **Cipher**: That's strange, right?
+
+[06:21] **Cipher**: The real Bitcoin still retains on Bitcoin Layer 1.
+
+[06:25] **Cipher**: You just wrapped another Bitcoin.
+
+[06:27] **Cipher**: So there isn't a native solution yet.
+
+[06:31] **Cipher**: So our solution is here.
+
+[06:34] **Cipher**: It's simple.
+
+[06:35] **Cipher**: We mix programmability directly on Bitcoin Layer 1.
+
+[06:39] **Cipher**: And with this programmability, we do the extension on Layer 2 to make it scalable.
+
+[06:47] **Cipher**: So that's the basic diagram for our solution.
+
+[06:52] **Cipher**: So, recap, we are not BitVM, although we can provide a native Turing-complete compatibility on Bitcoin Layer 1 with the RGB++ protocol.
+
+[07:06] **Cipher**: With this protocol, we don't rely on any new OP operation code.
+
+[07:12] **Cipher**: Without any hard fork or soft fork, we directly provide the programmability on Layer 1.
+
+[07:19] **Cipher**: So we are not BitVM, and we are not EVM, and we are not Rollup, and there's no bridge needed.
+
+[07:26] **Cipher**: So how it works?
+
+[07:32] **Cipher**: So the idea is simple.
+
+[07:36] **Cipher**: Since we know every Bitcoin UTXO only consists of two important components.
+
+[07:43] **Cipher**: The first one is the amount field variable.
+
+[07:48] **Cipher**: The amount of variable means how much Bitcoin itself can turn in this UTXO.
+
+[07:56] **Cipher**: And another data field is your lock script.
+
+[08:01] **Cipher**: It's something like your address to indicate that who has the authority to unlock this input or unlock this UTXO, which means ownership.
+
+[08:14] **Cipher**: So you only have two data.
+
+[08:16] **Cipher**: One is the amount, two is the ownership.
+
+[08:18] **Cipher**: So the RGB, RGB++, Taproot Assets idea is basically simple.
+
+[08:25] **Cipher**: They're basically the same and simple.
+
+[08:28] **Cipher**: We just attach extra data, extra program logic to the original Bitcoin UTXO.
+
+[08:38] **Cipher**: One Bitcoin UTXO attached with one off-chain data cell, or we call it two link complete UTXO.
+
+[08:48] **Cipher**: If we could connect every on-chain UTXO with off-chain data execution logic, and when we transfer or when we spend this original UTXO and we together spend the off-chain UTXO and with the script constraint on the UTXO, then we could achieve that we can transfer the extra bits, extra assets from one UTXO to another UTXO.
+
+[09:19] **Cipher**: You just transfer the ownership.
+
+[09:22] **Cipher**: To execute the script, I mean, the smart contract is also the same thing.
+
+[09:29] **Cipher**: You just forge off-chain transaction with off-chain state transfer from one state to another state.
+
+[09:38] **Cipher**: That's a simple idea of RGB or RGB++, or we call it client-side validation.
+
+[09:43] **Cipher**: Only this method we call it isomorphic binding because our off-chain state transfer is verified by CKB.
+
+[09:55] **Cipher**: It's by another Turing-complete UTXO-based PoW-based chain to make sure the transaction is correct.
+
+[10:03] **Cipher**: To compare with the original RGB protocol, this off-chain thing is running by the user's client.
+
+[10:13] **Cipher**: However, RGB++ protocol, this off-chain thing is running on the CKB chain.
+
+[10:20] **Cipher**: But it's always an optional thing for the user.
+
+[10:24] **Cipher**: If you don't trust CKB, you just download the transaction or require the transaction history from your sender and you can verify it yourself.
+
+[10:33] **Cipher**: So let's explain more about the isomorphic binding technology.
+
+[10:40] **Cipher**: This part is a Bitcoin transaction and the right part is a CKB transaction.
+
+[10:45] **Cipher**: You can call it off-chain transaction compared with Bitcoin on-chain.
+
+[10:49] **Cipher**: It's also on-chain, it's only on CKB.
+
+[10:51] **Cipher**: So for the left part, it's a simple Bitcoin input and output.
+
+[10:57] **Cipher**: The Bitcoin input and output just stand for the assets of the state's ownership, nothing than ownership.
+
+[11:07] **Cipher**: However, the commitment which should be encoded in the OP_RETURN field of Bitcoin transaction is a hash of the CKB transaction in general.
+
+[11:18] **Cipher**: And what's in the CKB transaction?
+
+[11:21] **Cipher**: It's attached off-chain UTXO with a rich state.
+
+[11:27] **Cipher**: Maybe in this CKB UTXO, there's $1,000 USD.
+
+[11:33] **Cipher**: Or maybe it's a smart contract state.
+
+[11:37] **Cipher**: Anyway, it should be anything under the smart contract protection.
+
+[11:43] **Cipher**: And there's also a Bitcoin light client on CKB to act as the proof generator or proof verifier.
+
+[11:52] **Cipher**: The transaction triggers this transaction with this proof.
+
+[11:56] **Cipher**: And this smart contract will verify whether this transaction is correctly encoded in Bitcoin commitment.
+
+[12:05] **Cipher**: With this technology, we do the bidirectional binding with the Bitcoin transaction and the CKB transaction with the Bitcoin UTXO and the CKB UTXO, or we call it CKB cell.
+
+[12:19] **Cipher**: So we make sure that this transaction is controlled or constrained by the CKB smart contract.
+
+[12:27] **Cipher**: So that's how we achieve Bitcoin Layer 1 programmability with RGB++ protocol.
+
+[12:35] **Cipher**: With this basic knowledge of RGB++ protocol, we can introduce the cross-chain leap action.
+
+[12:44] **Cipher**: So you may see that the on Bitcoin transaction, the Bitcoin UTXO only stand for the ownership of your assets, of your smart contracts, only for the ownership.
+
+[12:57] **Cipher**: The smart contract and the assets actually running on off-chain or CKB chain.
+
+[13:03] **Cipher**: So what if we transfer the ownership from Bitcoin UTXO to another chain's UTXO?
+
+[13:12] **Cipher**: Let's say transfer Bitcoin UTXO to Litecoin UTXO.
+
+[13:18] **Cipher**: What will happen?
+
+[13:20] **Cipher**: Here we have Bitcoin UTXO as a isomorphic binding with, let's say, $1,000 here.
+
+[13:28] **Cipher**: If we transfer the ownership from Bitcoin UTXO to Litecoin UTXO, nothing changed.
+
+[13:36] **Cipher**: We just changed the isomorphic binding data structure from Bitcoin UTXO to Litecoin UTXO and $1,000 USD still live on CKB.
+
+[13:52] **Cipher**: That's it.
+
+[13:53] **Cipher**: We can continually transfer the ownership from Litecoin from one UTXO to another.
+
+[14:00] **Cipher**: And until we transfer back from Litecoin UTXO back to Bitcoin UTXO.
+
+[14:06] **Cipher**: That's how we call it cross-chain leap.
+
+[14:10] **Cipher**: With this cross-chain leap, you may find that there's no bridge.
+
+[14:14] **Cipher**: No matter if it's a centralized bridge or decentralized bridge, it's just a simple transfer from one chain to another chain.
+
+[14:23] **Cipher**: How to verify this transaction?
+
+[14:25] **Cipher**: It's also simple.
+
+[14:26] **Cipher**: It's just to trace back your transaction history with the proof of UTXO branch on one chain and another chain and back to Bitcoin chain.
+
+[14:36] **Cipher**: That's it.
+
+[14:37] **Cipher**: So that's the core idea of the client-side validation, client-side validation.
+
+[14:42] **Cipher**: So what if this UTXO live together with the off-chain or CKB's UTXO.
+
+[14:52] **Cipher**: If we live together on the same chain, then you can leap the assets from Bitcoin chain directly to CKB, or we call it Bitcoin Layer 2.
+
+[15:03] **Cipher**: That's how we achieved the assets leap in our application, the JoyID wallet.
+
+[15:10] **Cipher**: With the JoyID wallet, you can now leap your assets from Bitcoin Layer 1 to Bitcoin Layer 2 and leap back from Layer 2 to Layer 1.
+
+[15:20] **Cipher**: Also, it supports non-fungible token and the fungible token and even every kind of assets maintained on Bitcoin or on CKB with RGB++ protocol.
+
+[15:32] **Cipher**: It's a very interesting thing.
+
+[15:35] **Cipher**: Okay, with these two utilities prepared, I mean the Layer 1 programmability and the cross chain leap technology, we can finally achieve the final step of RGB++ protocol, which is scalability extension for Bitcoin Layer 2.
+
+[15:57] **Cipher**: We can build UTXO-based Layer 2 with PoS.
+
+[16:02] **Cipher**: UTXO Layer 2 with PoS, and how to verify the PoS malicious things, not doing malicious things, how to do the stake rewarding and slashing thing on Bitcoin Layer 1?
+
+[16:17] **Cipher**: You can use RGB++ protocol which provides the programmability layer.
+
+[16:24] **Cipher**: And your programmability layer runs the staking or slashing scripts.
+
+[16:29] **Cipher**: And these scripts provide security to UTXO Layer 2.
+
+[16:35] **Cipher**: And with leap functionality, you can leap your assets from UTXO Layer 2 to Layer 1 without any centralized or decentralized bridge.
+
+[16:44] **Cipher**: That's a complete edition of RGB++ protocol.
+
+[16:50] **Cipher**: So in terms of the security and the staking part, like we said, the first part, we will introduce Babylon or similar protocol to provide Bitcoin as a stake to provide the security for Layer 2s.
+
+[17:06] **Cipher**: And for other tokens like CKB or RGB++ coins, they can be accepted as a staking asset on Layer 1 in our smart contract.
+
+[17:18] **Cipher**: And the security for Bitcoin Layer 1, the RGB++ protocol Layer 1 part, the security level is exactly the same as Bitcoin itself, because the security is promised by Bitcoin PoW, correct chains.
+
+[17:35] **Cipher**: And the security of Layer 2 is similar to that of OP rollup.
+
+[17:40] **Cipher**: There will be a challenging period.
+
+[17:42] **Cipher**: During the challenging period, your security have a security cap, which should be similar as your deposit.
+
+[17:51] **Cipher**: But after the challenging period, your security will be better.
+
+[17:56] **Cipher**: So yeah, that's our plan, all the complete edition of RGB++ protocol.
+
+[18:03] **Cipher**: And my team, or my company, is doing the UTXO stack solution, which is mainly focused on the scalability scene of Bitcoin.
+
+[18:13] **Cipher**: We will build something like OP Stack plus EigenLayer for Bitcoin, only it's the UTXO native scene.
+
+[18:21] **Cipher**: It's not EVM compatible, and there's no bridge, like I said.
+
+[18:25] **Cipher**: And maybe it could connect with the future Lightning Network.
+
+[18:32] **Cipher**: It should be the best solution for Bitcoin extension instead of a rollup solution for Bitcoin.
+
+[18:40] **Cipher**: Okay, until now we have built a great community and ecosystem.
+
+[18:45] **Cipher**: Here are some limited projects and there are more I haven't listed here.
+
+[18:52] **Cipher**: We have a fungible token marketplace, launchpad, non-fungible token marketplace, community, DOBs, which is a new NFT standard on CKB, and Stable++, which is a stablecoin project, and we also have JoyID which is a Layer 1 asset wrapper which could wrap BRC-20, ORC-20 and Runes into RGB++.
+
+[19:17] **Cipher**: And we have Omega, mobile, JoyID Wallet and other more two other wallets and other tools.
+
+[19:28] **Cipher**: Okay, that's all about my presentation.

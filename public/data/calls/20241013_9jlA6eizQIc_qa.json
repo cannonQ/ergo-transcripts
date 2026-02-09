@@ -1,0 +1,165 @@
+{
+  "call_date": "2024-10-13",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:48",
+      "question": "What is the MewFinance DEX and how does it compare to other DEXes?",
+      "asker": "qx()",
+      "answer": "The MewFinance DEX is built using Spectrum's open-source code, but they've stripped out all the Cardano components to run only the Ergo side. This appears to make it faster and more efficient since less code is loaded at once, though this may be anecdotal.",
+      "responder": "qx()",
+      "category": "defi",
+      "difficulty": "beginner",
+      "related_terms": [
+        "spectrum",
+        "dex",
+        "cardano",
+        "ergo"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "03:02",
+      "question": "How does the escrow feature work on MewMart?",
+      "asker": "qx()",
+      "answer": "MewMart allows you to list items with escrow by specifying a buyer's wallet address. When you do this, only that specific buyer can purchase the item, preventing situations where someone else grabs an item before your intended recipient can get it.",
+      "responder": "qx()",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "escrow",
+        "mewmart",
+        "wallet",
+        "marketplace"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "04:35",
+      "question": "What are FIGITAL tokens and how do they work?",
+      "asker": "qx()",
+      "answer": "FIGITAL tokens are digital representations of actual physical items. They're one-to-one NFTs created for physical merchandise like shirts or hats. When someone buys a FIGITAL token, they fill in their shipping address, which gets sent directly to the merchant's API, and the physical item is shipped to them.",
+      "responder": "qx()",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "nft",
+        "physical",
+        "merchandise",
+        "shipping"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "05:29",
+      "question": "How does MewFinance prevent reselling of FIGITAL tokens?",
+      "asker": "qx()",
+      "answer": "MewFinance has a special integration that only allows FIGITAL tokens to be listed if they come from the original minting address. If someone tries to relist a FIGITAL token after purchasing it, the system won't allow them to do so.",
+      "responder": "qx()",
+      "category": "tokenomics",
+      "difficulty": "advanced",
+      "related_terms": [
+        "figital",
+        "minting",
+        "address",
+        "relisting"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "06:49",
+      "question": "How will the video card escrow service work through MewMart?",
+      "asker": "qx()",
+      "answer": "Sellers ship video cards to a Sigmanauts-certified address where the cards are tested to ensure they're functional and not burnt out. After verification, the cards are shipped to the buyer and the escrowed funds are released to the seller, all facilitated through MewMart.",
+      "responder": "qx()",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "escrow",
+        "video cards",
+        "sigmanauts",
+        "verification"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "08:40",
+      "question": "What is the Nautilus Abyss channel?",
+      "asker": "qx()",
+      "answer": "The Nautilus Abyss channel is a pre-release version of the Nautilus wallet that gets new features before they go to the main wallet. You can run it alongside the main wallet, but you need to shut one off while using the other to avoid confusing dApps.",
+      "responder": "qx()",
+      "category": "wallet",
+      "difficulty": "beginner",
+      "related_terms": [
+        "nautilus",
+        "abyss",
+        "pre-release",
+        "dapps"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "09:46",
+      "question": "What's included in Ergo node version 6.0 alpha 2?",
+      "asker": "qx()",
+      "answer": "Version 6.0 includes new global.sum and global.none methods to construct option instances, polished Sigma State interpreter improvements, additional tests, and activation details for miners voting. The alpha 2 version addresses merging issues from the previous release.",
+      "responder": "qx()",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "node",
+        "sigma state",
+        "global methods",
+        "miners voting"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "10:47",
+      "question": "What is the SigmaUSD contract update issue?",
+      "asker": "qx()",
+      "answer": "The SigmaUSD contract's update box NFT can have its storage rent expire in about seven months. Kushti has started voting on a contract update to address this issue, possibly burning the update keys as well to prevent future issues.",
+      "responder": "qx()",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "sigmausd",
+        "storage rent",
+        "contract update",
+        "nft"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "13:28",
+      "question": "How do miner IDs work in the Sigmanauts mining pool?",
+      "asker": "qx()",
+      "answer": "The mining pool uses a decentralized approach where miners can determine payout preferences and thresholds by minting a token and putting it in their wallet, without needing to visit a website or log IP addresses. When done, they simply remove the token from their wallet to revert to defaults.",
+      "responder": "qx()",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "miner id",
+        "sigmanauts",
+        "mining pool",
+        "payout"
+      ]
+    },
+    {
+      "qa_id": 10,
+      "timestamp": "15:08",
+      "question": "How does storage rent collection work in practice?",
+      "asker": "qx()",
+      "answer": "The Sigmanauts mining pool actively collects storage rent, competing with one other collector. They use Ergo monitor in their channel to track collections, and after blocks are found, you can see storage rent payments of 0.1-0.9 ERG being sent to their dedicated storage rent wallet.",
+      "responder": "qx()",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "storage rent",
+        "mining pool",
+        "ergo monitor",
+        "collection"
+      ]
+    }
+  ]
+}

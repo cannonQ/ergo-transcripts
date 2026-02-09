@@ -1,0 +1,349 @@
+[00:11] **qx()**: Hey guys, I'm qx() and we have my teammate here, Marc the Shark.
+
+[00:17] **qx()**: How you doing, Marc?
+
+[00:18] **Marc the Shark**: Hey, what's up, everybody?
+
+[00:19] **qx()**: As you can see, I flew to sunny wherever you're from and joined right next to you.
+
+[00:27] **qx()**: Where is it?
+
+[00:29] **Marc the Shark**: Yeah.
+
+[00:32] **qx()**: Perfect. So we're here today to talk to you about our ErgoHack project called, I don't even what's it called, Marc?
+
+[00:40] **Marc the Shark**: Initially it was going to be NFT or mining NFT configurator, but, I don't know. That's a good question. Smart swapping for mining.
+
+[00:53] **qx()**: Yeah, I guess we can call it, well, it's not just Rosen swap. It could be any token swap, right? It could be.
+
+[00:59] **Marc the Shark**: Yeah, correct. I forget what we put in our actual submission.
+
+[01:02] **qx()**: I think it's a Rosen BTC swap or something like that.
+
+[01:07] **qx()**: So why don't we start from the basics, where we got started for people who aren't familiar with the Sigmanauts pool. We can use this as an advertising opportunity for the Sigmanauts pool.
+
+[01:18] **Marc the Shark**: Absolutely.
+
+[01:19] **qx()**: All right, let me break up my screen here. Perfect. So this is our telegram, essentially.
+
+[01:28] **qx()**: We had been talking about making a mining group for the Sigmanauts to try to educate miners more and get them interested in knowing that they have the power to change some parameters and configs in the Ergo ecosystem.
+
+[01:41] **qx()**: And what better way to do that than create a mining pool that's community-based and run and trying to educate? So, I'm in the process of setting it up, but at the same time in parallel, somebody wrote on Twitter and was like, oh hey guys, I'm looking to start my own mining pool, you know, that kind of thing.
+
+[01:58] **qx()**: I was like, oh shit, we gotta get together before we do parallel jobs here. So I wrote the guy and that was you, Marc.
+
+[02:05] **Marc the Shark**: Yeah, absolutely. And honestly, I'm glad I found you guys or you guys found me because setting up a mining pool is a big endeavor, so lots of hats in the ring, you know?
+
+[02:16] **qx()**: Yes, yes, yes. It'd be nice if it was like an easy spin up and forget kind of thing, but even after you get it spun up, it's like, You know, all of a sudden people are like, hey, where's my payment?
+
+[02:27] **qx()**: I've been mining for two blocks and it's not quite what I want. You realize how much support level comes of, you know, trying to spin one of these things up and run it. It's not fun at times, but other times it is a lot of fun. We try to keep it fun in chat.
+
+[02:41] **Marc the Shark**: Yeah, absolutely. Especially, it's always fun when we push a new update to the UI and then it just doesn't work and it's like, oh, cool, cool, cool. Now we don't have a UI right now. Sorry, guys.
+
+[02:51] **qx()**: Well, we got a backup UI and somebody's running, SigmaSpace is running a UI on there into the official UI.
+
+[02:57] **qx()**: Absolutely. So we've got options. So, in part, we have a lot of bots running in this chat, as you can see.
+
+[03:05] **qx()**: We have a bot that reports essentially every six hours, I think, you know, how many gigahash the pool is, some ideas about the pool help, where to get notifications.
+
+[03:15] **qx()**: I have a bot that you can DM, and it will actually tell you when it gets blocked, so it'll DM you block. We also have bonus payments that are pretty cool that we wrote in and we've had projects donate to us and every hour about a random miner is grabbed from the miner list and a TX is built and automatically sent and notified in chat.
+
+[03:37] **qx()**: So that's kind of our base layer of what we have. We have a mining core server, Sigmanauts is up, we're trying to stress test the hell out of it, make sure that we have it nice and set, and we give bonus payouts for tokens.
+
+[03:49] **qx()**: So, on top of that, Marc, I think it was during an AMA, not an AMA, a dev update that you and I were talking, and you came up with an idea that was essentially, why don't you talk about the idea that you came up with on how to modify the dashboard?
+
+[04:09] **Marc the Shark**: Yeah, so we were kind of talking around NFTs, and I think previously someone was around like meme tokens and kind of had that sort of idea and you know we wanted to change configurations to the dashboard but we wanted it to be you know completely permissionless follow the ideas of the blockchain and so came up sort of the idea of using an NFT to drive the UI within specific
+
+[04:35] **Marc the Shark**: Settings and maybe I think initially we were kind of just talking about background so someone could change the background with respect to the NFT but kind of further on as we kind of got discussing we were thinking you know how cool would it be to actually change
+
+[04:52] **Marc the Shark**: Or rather, I guess, organically, some miners wanted to change their their minimum payout. And so we've and then thus the need for a new feature. And so qx() was doing it manually.
+
+[05:05] **Marc the Shark**: But of course, there's a human in the loop. What if he puts a thousand, two thousand and then takes all the money for the pool, right? It'd be great if we could have some type of system that allows the miners to interact with, and then they can essentially look at our code, see how that works, and then have this NFT essentially be the middleman until we have a smart contract type of layer.
+
+[05:29] **Marc the Shark**: So the idea is, the miners would mint this NFT with respect to specific parameters. So again, the background of the UI, the minimum payout, and then another feature kind of we were thinking about with respect to the hack was the
+
+[05:45] **Marc the Shark**: being able to swap for Rosen BTC, kind of like an unminable type of idea. And then so through this NFT sort of layer, we can then add that, make it permissionless.
+
+[05:58] **Marc the Shark**: So if I wanna do it, nobody has to give me permission, et cetera, kind of the build for war mentality, I suppose, on the cyberpunk side of things. So again, just give all the empowerment to the miners to make those decisions.
+
+[06:14] **qx()**: Yeah, the main goal I was looking for too is I don't want to have to go to a website to update something. If the ethos of Ergo is that I can point my miner to a pool and make decisions on a blockchain by supporting the pool that's supporting a new configuration, then why can't we utilize that kind of technique with wallets and what's on-chain
+
+[06:38] **qx()**: to to do that why are we relying on a web server in the amazon cloud or something to set preferences and to store those preferences like we saw what happened with high boss right their whole goddamn system got wiped out by a centralized you know the centralized database got wiped out so people were burning up their cards
+
+[06:55] **qx()**: with default settings. So yeah, it'd be nice to be able to have that data somewhere on a public ledger or being pushed, propagated by the miners themselves.
+
+[07:07] **qx()**: So that's the whole idea of that. So then I think it came strong with the idea of the swaps and we decided to enter ErgoHack with that.
+
+[07:20] **qx()**: And I set out to make a smart contract. I haven't made any smart contracts before. That's not the type of development work that I do.
+
+[07:28] **qx()**: And I got it. It's a very easy smart contract. But then implementing it is the next key. So I messed around with Fleet, which is great, but I didn't feel that the time to learn Fleet
+
+[07:40] **qx()**: would facilitate the time in the ErgoHack. So we kind of shifted from our original idea of populating NFTs with data, reading that data and then paying out there to another idea that let me show you here and let me preface this by warning.
+
+[07:59] **qx()**: If you guys mine to our pool and you try this You're your own whim because i'm not opening it. We're not opening up the people right now Um, not only to people right now. So if you switch to a Rosen pool that we're testing, um, you know, I made white payments and only manually pay out Marc and uh CannonQ, uh, who are the the teammates here And not you because I don't know who your wallet is. So please don't don't come yet and do that
+
+[08:26] **qx()**: So let me bring this up and show you what it looks like, what we decided to do on the Miner side. Okay, so this is a typical thing for, let's see, you can see I'm running Regal Miner right here, which we do recommend Regal.
+
+[08:42] **qx()**: It's fantastic. I personally recommend Regal. I don't want to say we, but Regal's been working great for me. I love that it's not endless scrolling. I love that it's an updated kind of console dash. It's really nice for that kind of thing.
+
+[08:54] **qx()**: So Regal is running and you can notice that here is my command for Regal right here. I'm using SSL on the pool for the Sigmanauts mining to that port.
+
+[09:04] **qx()**: But you'll notice that you won't notice but this address right here is a specific designated Rosen pool. So, I'm mining to this pool, Marc's mining to this pool, CannonQ is mining to this pool.
+
+[09:17] **qx()**: So, MiningCore sees it as one person's mining to this pool, and it's going to pay out to this wallet as if it were one person. Now you're going to say, how the hell do we decide what's going on? How do you track that? Well, here's where it gets interesting.
+
+[09:31] **qx()**: So, moving on that, we also found that we can append a shitload of data to the rig name this highlighted thing should typically just be the rig name so what we're appending is we're designating that it's a Rosen that's kind of the trigger that my database looks for we're showing that what our threshold for payouts is and an equivalent of one point point uh point point one ERG
+
+[09:55] **qx()**: and then we're putting the actual wallet that we want our funds to go to in the long run okay so that's my Tipsy wallet for testing and then of course we can name it the rig name alright so that's that part of it so
+
+[10:11] **qx()**: how that works again MiningCore is mining your your your miner is mining to MiningCore and MiningCore as far as it knows is simply just dumping the ERG into this main Rosen wallet okay so it is not paying out me specifically for MiningCore MiningCore is happy doing what it's doing doing its payouts and we did that on purpose because we didn't want to modify MiningCore who knows if that's going to be updated
+
+[10:36] **qx()**: We know that qx() is working on storage rent for us. So we know an update is coming there I didn't want to spend a week building something and then be like, oh, it's broken Kind of thing.
+
+[10:47] **qx()**: So we tried to build a layer on top of that Alright, so now all this data is coming into the MiningCore database. We want to get it out of it and we don't want to Disturb it.
+
+[10:58] **qx()**: So let me show this next
+
+[11:02] **qx()**: So this is what it takes here. We have APIs. And again, we did all this without rebooting MiningCore. We didn't do any mirroring tables or anything like that.
+
+[11:13] **qx()**: So what we have here is, if you see there are some things with the words API after them, Let's see, there are a couple, like balances API.
+
+[11:24] **qx()**: So on the secondary mirrored server that you're looking at, I've built a couple APIs that will do a push, essentially. So the MiningCore server has a small script that dumps a table every couple minutes and pushes it to this API, which then populates the MySQL database on the mirrored server.
+
+[11:45] **qx()**: It's very unconventional, but it's working for us now. It seems to be doing fine. we didn't have to mess with MiningCore then on top of that we have a bunch of scripts that now that we have you can see here now that we have data inside our new mirrored server we can then manipulate it all we want we can change it we can parse it we can add rows and we can add columns to the new databases that we've made to add additional data so the process goes like this
+
+[12:14] **qx()**: it pulls it pulls it from the MiningCore server it parses it on its way over to the MySQL server on the mirrored server and what it does with this is it says oh hey let me bring this up again it says hey you're mining to Rosen
+
+[12:30] **qx()**: I know by this address that you're mining to the Rosen so you want to be paid in Rosen. I know this is your main address and this is your rig name and this is your threshold payment.
+
+[12:42] **qx()**: So now all it does is it gets rid of this. It puts the token you want to be paid in its own column in the new database. It puts this back over to here so that it knows what wallet it should pay out to and it appends your rig name to where it should be in the database.
+
+[12:59] **qx()**: So now we have a complete database again of what the preference is of the person. And it looks just like this.
+
+[13:07] **qx()**: So if we look at this right up here, these are the last couple blocks found. You can see we've added two tabs, two columns on the far right hand side, calculated on and Rosen paid on.
+
+[13:19] **qx()**: You can see I haven't put data in the right column, but this calculated on is something we use for a trigger. And then you can see that we have a Rosen balances table instead of just a Rosen table.
+
+[13:31] **qx()**: and that table stores the new address. You can see right here the 9FYV is my actual wallet that I want to be paid in from right here. Right there.
+
+[13:46] **qx()**: And you can see that my effort is recorded when it's pending. My Rosen amount is recorded when it's pending. The type of token I want to be paid out as a new column and the total Rosen paid out as a new column So essentially, let me see if I can open this for you What is happening here is?
+
+[14:06] **qx()**: This is a short code not short really but this is code essentially what builds a transaction so after a certain amount of time it'll look and see if there is a block that has a certain confirmation if there is it will then build a
+
+[14:21] **qx()**: the balances so goes through it selects all this data here it puts it through a couple loops it does it again it selects network difficulty and blah hike and this is the magic that i am then going to have Marc explain this is how we calculate uh PPLNS which is uh was a bit of a a bit of a curmudgeon for a little bit so i am going to show let me make sure i have your screen Marc is your screen ready to show
+
+[14:50] **Marc the Shark**: Uh, yeah.
+
+[14:51] **qx()**: PPLNS?
+
+[14:53] **Marc the Shark**: Okay. Yeah, actually, real quick. Our project name is officially permissionless pool parameters and reward swapping.
+
+[14:59] **qx()**: PPRS.
+
+[15:01] **qx()**: I love it.
+
+[15:02] **Marc the Shark**: Yeah, we should have named it PPLNS and come up with an acronym.
+
+[15:07] **Marc the Shark**: Go ahead. Take away PPLNS.
+
+[15:09] **Marc the Shark**: OK, sweet. So just some assumptions here. We have miners A, B, C, and D. Each of these hashes is a entry into this MiningCore share table. With respect to that share table is the block height.
+
+[15:23] **qx()**: Marc made this, by the way. This is your creation. This is bravo. This is fantastic.
+
+[15:29] **qx()**: I don't think we've seen a better. We were commenting that we haven't seen a better representation of this visually online. So this is great to see.
+
+[15:36] **Marc the Shark**: But yeah, thank you. Hopefully it's correct. Please let us know. But at least this is our interpretation of it.
+
+[15:42] **Marc the Shark**: So right, so we have a specific difficulty with respect to this share entry. Then we have the block height, and that's kind of the only thing we really care about. But of course, miners care about their specific entries.
+
+[15:57] **Marc the Shark**: So for example, We have this is a window here. This is where a block was found. So we're going to sum up all the values. I say of the shares, but really it's the difficulty of the shares because each one of these has some type of difficulty.
+
+[16:11] **Marc the Shark**: Now, if that difficulty sum as we cumulatively go backwards in time, if that is greater than the difficulty, at which the time of the block was found, multiplied some arbitrary n. Then we're going to stop. That's going to be our PPLNS window.
+
+[16:27] **Marc the Shark**: So a larger the n, larger the window. So that could be really good for people pool hopping versus a smaller window. Not so good for pool hopping.
+
+[16:38] **Marc the Shark**: So ours is 0.5. So if it was n, it's going to be half that window. And so assuming from here, this is our
+
+[16:48] **Marc the Shark**: window that we're currently looking at. So we can see we have 12 total entries. So the ERG reward is 27. Red, miner red, has 5 out of 12. So they're going to get 42% of the total ERG. Blue, green, both have 16%. Pink has 1 fourth, so 25%.
+
+[17:09] **Marc the Shark**: Now moving towards the, so this is how the MiningCore will calculate the PPLNS. But now we want to calculate that for all the given miners mining Rosen or swapping for Rosen.
+
+[17:22] **Marc the Shark**: So red for this example is not and only blue, pink, and green are actually swapping for it. So essentially, like qx() said, they're all mining to that one specific address.
+
+[17:36] **Marc the Shark**: they're not mining to the their actual address and so from here blue has two still pink has three green has two and so with respect to that so we have seven of seven total entries out of the 12 right so then um let's see so 27 times the group participation ERG so that's 58 percent of this total
+
+[18:01] **Marc the Shark**: So that means we have 15.66 ERG to distribute between these three miners to swap to Rosen. So we swap that to Rosen. And then blue and green both have 28.5% participation for this Rosen pool. And then pink has 42.8.
+
+[18:21] **Marc the Shark**: And so then here's the distributed ERG to Rosen. So that's how we pretty much calculate it.
+
+[18:29] **Marc the Shark**: So again, for example, say in this example, we have block and then the next block found is that. So we have block height, say one, then block height two, we found both blocks. Well, that window is going to be very similar and we're going to have a lot of the same shares within that window.
+
+[18:45] **Marc the Shark**: So if you're very lucky, so finding blocks after blocks after blocks, multiple shares are going to go to multiple blocks. But if we're unlucky, the reverse is true.
+
+[18:55] **qx()**: Right, you could be mining and so let's say there's a day in between a block, but you didn't start mining that block until you didn't start mining an effort until maybe five hours into that 18 hour period.
+
+[19:12] **qx()**: It might not matter for you, right? Because the block counts don't go as far back as when you weren't mining, essentially.
+
+[19:18] **qx()**: Yeah, so this interesting, I guess you could gamify, it's hard to gamify because you can't tell when a block is being hit, but I'm sure you could if you knew when a block was coming, people would jump into the last three quarters of a, or one half of a block there, that kind of thing.
+
+[19:34] **Marc the Shark**: Yeah, you can even like rent hash, for example. So say, say, I'm most within a given window, you have 100 shares, but then you notice the difficulty is right. And then same thing with the effort, like you were saying, it's like, oh, well, I'm going to go rent out 10 gigahash.
+
+[19:50] **Marc the Shark**: So instead of 100 shares for the window, now that expands me to, I don't know, whatever it could be. 100 to 150. And so now all those extra shares are getting populated from 100 to 150.
+
+[20:01] **Marc the Shark**: So then your participation grows until it hits that maximum for the given window relative to your hash rate. So yeah, definitely. I think it could be gamified, but depends on the window sizes, I suppose.
+
+[20:12] **qx()**: Yeah, I mean, it's almost a good thing that there's random block timings there, and it's not specifically every two minutes. It's an average of two minutes, which kind of helps with that kind of security layer. That's interesting.
+
+[20:22] **qx()**: Let me show real quick what that looks like for right here in the database. So this is the table that we're using to calculate from. You can see there's a network difficulty right here that Marc was speaking about, and there's also a difficulty per worker.
+
+[20:38] **qx()**: all right so what our what our script has to do is it has to take remember since we're looking in the new database a mere database we have the proper wallets so we take all the workers per wallet join their difficulty together all the well first we look back as he said to where that where that line is then all the workers from the same wallet in there we join them together calculate their difficulties for everybody that's essentially how it's done and this is a table that does it it's called the shares table
+
+[21:06] **qx()**: and this table was also modified you can see there's a Rosen category on the right and rsn means they're collecting Rosen which is this person and ERG means they're collecting ERG so um that'll say a Rosen ADA at some point that'll say Rosen BTC that might say SigmaUSD for gosh sake it could be it really can be any token with this system here uh to do it
+
+[21:31] **qx()**: And then, as Marc was saying, once the block hits a threshold, the scripts in here build the TX and send build a TX from the table that you saw here, right here, when there are balances here.
+
+[21:49] **qx()**: If it's above the threshold and the block confirmation is above a certain amount, it'll build a TX and send it. So it can build a TX from multiple points. It can build a TX and get somebody from ADA, Rosen ADA, get somebody from Rosen Bitcoin or Rosen and bind it all together in one TX and send it out if they're above the thresholds and then write the data back to the table.
+
+[22:11] **qx()**: So yeah, we're not limited in the future about what we can offer as far as what people want to swap out. The only thing that we're doing manually right now is we have to take those ERG deposited in the designated Rosen wallet and swap them on Spectrum for the Rosen tokens.
+
+[22:30] **qx()**: so i need to write a script that actually does that automatically and the advantage here too is we can actually gamify that we can say look we see the price dropping and we know in one week we spent you know people suck out a thousand Rosen tokens so why don't we buy that now as Rosen is dipping you know if it's going to spike so you can you can do these kind of calculations and engage
+
+[22:54] **qx()**: you know, maybe buy cheaper so you can actually reward the pool operators with more or the miners with more tokens than they would have had before. So there's a couple different things that we can do.
+
+[23:05] **Marc the Shark**: And as well as if we have some type of treasury where like you're saying we buy like a week before we pay people out or something like that, you know, we could tie that to grid bot trading.
+
+[23:16] **Marc the Shark**: you know so then we can have that working in the background we can have all this and honestly it could be like a whole one-stop shop for miners where the pool about actively grid trading but if you want to grid trade you could do that with respect to token that we pay you out in so on and so forth so
+
+[23:32] **qx()**: So that's a project. We've got some future things we want to talk about too. I'll start off, Marc. One of the future things we'd like to do is not just what we spoke about there, about grid trading, but also have you mine straight to a DuckPools contract.
+
+[23:47] **qx()**: So let's say you choose SigmaUSD. You could mine and it would dump it right into a DuckPools and it would just keep populating there and then we could pay you out the interest there and you could of course check out at any time you wanted.
+
+[23:59] **qx()**: And yeah, so then you're only receiving a deposit into your wallet when you get interest or you just keep it there and we redeposit it back in for interest and you only get a deposit in your mining wallet after six months of mining if that's the case or that kind of thing. You can set your threshold.
+
+[24:16] **qx()**: So that's definitely something that's possible in the future with this system. And then we want to move back to kind of the more advanced thing that Marc's been working on.
+
+[24:27] **qx()**: Let me show you screen again, Marc. Are you ready for that?
+
+[24:29] **Marc the Shark**: OK, yeah, certainly.
+
+[24:31] **qx()**: All right, there you go.
+
+[24:33] **Marc the Shark**: All right, sweet. So here's the dashboard. If you guys are familiar with our pool, this will be very familiar.
+
+[24:41] **Marc the Shark**: So the add-ons we have is the swap rewards or set minimum payout. So if you don't want to swap rewards, but you do want to set your minimum payout, you can still do this. Just more of an FYI. You don't have to swap for anything if you just want to keep ERG. That's certainly fine.
+
+[24:56] **Marc the Shark**: So yeah, so right now here is our Rosen address if you want to swap to, but again, disclaimer might not work for you or at least let us know.
+
+[25:08] **qx()**: Don't do it.
+
+[25:09] **Marc the Shark**: This is an alpha. So we're still proving things out, right? So wait for us to beta test it. Maybe we'll choose you.
+
+[25:15] **qx()**: I mean, it'll work for you, but if I have to wipe something like history, those kind of things, I'm going to do it without asking. So it's not advised to even try this. Thank you. Let the testers test it.
+
+[25:28] **Marc the Shark**: Yeah. And so we have the swapping address. We have total paid out. We might eventually, once we have the data, the number of miners to that specific Rosen address, that would be really great to see.
+
+[25:42] **Marc the Shark**: And then, okay, let's see. So then you just again, how it works. I don't know, should I read this? Or is this kind of just?
+
+[25:50] **qx()**: No, it's okay. I think I got it when I was called when we went over the mining thing.
+
+[25:54] **Marc the Shark**: Okay, sweet. So then moving forward, here's a prototype again. Might not work. We don't have it. This is just the front end, I suppose. So if you did, once we did connect the back end, which is basically complete to this front end, you'll be able to mint this NFT.
+
+[26:10] **Marc the Shark**: We'll click this button. And so right now we have your ERG ratio, you have your Rosen ratio, and then your minimum payout. So say I want 50% Rosen, and then I want 55% ERG, and then my minimum payout can be 20.
+
+[26:27] **Marc the Shark**: I go mint it. Oh wait, doesn't add up to 100, so nobody can access it. certainly mess us up, I suppose.
+
+[26:36] **qx()**: But in any case, we should just take the left over right to the pull Marc.
+
+[26:39] **Marc the Shark**: Don't put that error. Just take it.
+
+[26:42] **qx()**: If people can't math and we'll take it.
+
+[26:45] **Marc the Shark**: We'll take your you guys will learn quick. No.
+
+[26:49] **Marc the Shark**: So yes, we have the ratio set up, you get your minimum payout, you will click mint NFT. And then boom, we're going to connect to Nautilus, right?
+
+[27:01] **Marc the Shark**: And then sweet here we go. Here's the the transaction. So total assets incoming, right? So this is they can't see that but just so you know, right? Yeah.
+
+[27:09] **Marc the Shark**: Oh, whoopsie. Yeah, not take my word for it.
+
+[27:12] **qx()**: The screen recording for that only records actual browser window, not the pop up.
+
+[27:19] **qx()**: There you go. Now it's showing.
+
+[27:20] **Marc the Shark**: Okay, well sweet. So then, so this is my actual wallet and here's the actual NFT I've minted a few days ago. And so here we can see in the description, right?
+
+[27:30] **Marc the Shark**: Here's the address that minted it. Here's the ERG that they want in terms of percentage, the Rosen, the minimum payout. And of course, right now is the test token.
+
+[27:40] **Marc the Shark**: But something important to talk about, because I believe in the dev update, we kind of mentioned like, well, what if I sent qx() You know a thousand as his minimum payment and then if we had you know the the background stuff something that like you know the BRICK token right that is the wallet to pay out.
+
+[27:57] **Marc the Shark**: Yeah exactly so whoever mints this will actually have that address and then it.
+
+[28:05] **Marc the Shark**: And basically, in our logic, you have to hold it in your wallet, obviously, but then also this address has to match your wallet. And if it doesn't, it's not going to work.
+
+[28:14] **Marc the Shark**: So then people can't spam other people and just make a bunch of NFTs and then just cause chaos. So more of an FYI there.
+
+[28:25] **Marc the Shark**: And then this is sort of what you would see for your dashboard. So for example, this miner has gotten 66 Rosen, their participation of the Rosen pool is this amount. Here is their hash rate for the Rosen.
+
+[28:39] **Marc the Shark**: And eventually,
+
+[28:42] **Marc the Shark**: Once we get more data kind of secured and stuff you will have everything else there but right now it's individualized as because right once we have the entities will have one address to look at rather than everything and then this will be the miner or rather the worker that's actually mining Rosen and then it will probably finesse it because we'll have.
+
+[29:02] **Marc the Shark**: you know, a bunch of different tokens you can swap out to. So we'll have to figure out how we're going to do that.
+
+[29:07] **qx()**: Yeah, API seek a bit to make I only made two APIs for Marc for to get the pool up and running for this ErgoHack. They just take some time.
+
+[29:17] **Marc the Shark**: So yeah, you're a legend. You Yeah, you made it happen.
+
+[29:23] **qx()**: So with this NFT method that we're going to eventually go to, we will then shut off MiningCore payments for MiningCore. So MiningCore will no longer process payments, we'll build the whole transactions ourselves because we'll have all that data and we'll send it out.
+
+[29:38] **qx()**: So it'll kind of not be a segment, it'll be more fluid in that aspect of it. And also,
+
+[29:43] **qx()**: Since, what's it called? Since that'll be the case too, I won't have to mirror as much of the MiningCore database and modify it as much. I'll only, I'll be able to pull everything I need from the MiningCore database.
+
+[29:55] **qx()**: And then I can reference a table that I have in another mirrored database essentially to see what the payouts are and see that kind of thing from there.
+
+[30:05] **qx()**: So yeah.
+
+[30:06] **Marc the Shark**: And then eventually the smart contracts, you know, whenever that makes sense.
+
+[30:11] **qx()**: Yeah, so I don't even I don't think we have to even have to calculate PPLNS in this method Marc because MiningCore will still estimate the payments and PPLNS it just won't execute the payment.
+
+[30:22] **qx()**: So all I have to do is go search the MiningCore database for you. and see what you're going to be paid out in ERG and just convert that to whatever token that you designated in the second database and pay it out kind of thing.
+
+[30:33] **qx()**: So that's going to make our lives a little easier.
+
+[30:35] **qx()**: Yeah, we kind of had to take the long way around the mountains and now we get to go through the mountain.
+
+[30:42] **qx()**: A week is pretty short for an ErgoHack. It'd be nice to have a month of ErgoHack maybe.
+
+[30:46] **qx()**: Yeah, seriously.
+
+[30:47] **qx()**: Oh my gosh, that would be really, really sick. All right, anything else we want to close with besides, we really appreciate you guys voting us to first place Marc.
+
+[30:57] **Marc the Shark**: You wanted to get that
+
+[30:59] **Marc the Shark**: No, yeah, I would say, you know, through this hack, it's honestly opened up a Fleet SDK for me with that little example. I thought it was more nebulous. And if anything, it's it was tough to just get my TypeScript settings set up because I normally develop in Python.
+
+[31:16] **Marc the Shark**: And so I think that was the biggest learning hurdle for me. And now
+
+[31:22] **Marc the Shark**: I think once we moved to smart contracts in a similar sense, I've already seen a video where somebody was using the blocks sort of thing.
+
+[31:27] **qx()**: Yeah, the block builder to do with lock contract. That was really, really cool.
+
+[31:31] **Marc the Shark**: Yeah, we can make some serious steps now with this mining pool. I think like we've already we're talking. Oh, you don't mind me saying but you know, we're talking about doing some type of rentals with hash rate.
+
+[31:41] **Marc the Shark**: So you know, you could put your on our dash or on our mining pool, you could
+
+[31:45] **Marc the Shark**: you know, mine to a specific address, just like what we described. And then somebody could then say, hey, I want to take this specific rig for a thousand megahash. And it's like, okay, fantastic.
+
+[31:56] **Marc the Shark**: You get an NFT as a receipt for the buyer, the lender gets an NFT also. once they're done just some transaction math right we don't have to get into but eventually again just like i think the sky's the limits now that we kind of are stepping into like the more decentralized app space which is pretty exciting because Sigmanauts mining pool to number one here soon hopefully yeah it'd be uh what's it called like you could do essentially
+
+[32:28] **qx()**: Well, I know that would work. Yeah. Yeah, I won't I won't speculate on this. That's for the dev update of the day. Maybe we can speculate on.
+
+[32:35] **qx()**: All right. Yeah. Well, thanks so much, everybody. Marc. It was a fun. It was a fun ErgoHack. I lost a lot of sleep in the last couple of days, but it's functional.
+
+[32:45] **Marc the Shark**: Absolutely. Absolutely. It's great working with you as well. And on to the next one.
+
+[32:50] **qx()**: For sure. Thanks, everybody. Ciao.
+
+[32:52] **Marc the Shark**: All right. Take care.

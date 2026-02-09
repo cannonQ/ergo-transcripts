@@ -1,0 +1,321 @@
+[00:16] **Dan Friedman**: Hey, hey, hey, hey, hey, hey, hey, hey.
+
+[00:20] **Dan Friedman**: This is Dan coming to you live from Japan. And you know what time it is. It's that magic time. Always an evening for me, but now it's less and less than not as late because we don't have daylight savings time in Asia. And that is the Ergo AMA, that's right. That's right. Yeah. And with me, I have QX() from Audi, however you pronounce it. And yeah, yeah, there you go. Audi or, you know, the four rings of power.
+
+And we have Alex, kushti coming to us from his, I still think he's above us in a space station that is, you know, like he's floating above us in orbit. I still think in a synchronous orbit. Yeah, but he says he's back home. He says he's back home. I don't know. But anyway, yeah, so we're here to answer the tough questions, especially QX. And, well, you know, Alex, he just came back from vacation, so we're not going to bug him too much. But QX, you're here to, you know, you're going to be pressed. You're going to be pressed.
+
+[01:36] **qx()**: I like it when you press me, Dan.
+
+[01:37] **Dan Friedman**: All right. Well, so what's been going on, QX?
+
+[01:39] **qx()**: Yeah, I'm going to start. All right, I'll start. Fantastic. So lots of things this week, lots of busy things. We had the Ergo community vote finish. And I just want to pause for one moment to formally apologize to kushti for missing his Bitcoin relay project in the community votes. When I did it, I pulled all the things from the folders and I missed his folder. And I put them up and as soon as the votes ended, they answered the votes ended, because kushti's like, where's the Bitcoin relay in the community votes? And I was like, oh, fuck my life. So I'm sorry.
+
+[02:20] **kushti**: Is it about the relay only or maybe if you need to check for some other projects, I don't know.
+
+[02:26] **qx()**: It's just, it was just a relay. Yeah. There was only 10, there were 10 projects with the relay. There were nine before the relay. So yes.
+
+[02:33] **kushti**: Yeah.
+
+[02:37] **Dan Friedman**: That's pretty bad. You know, we're going to have to talk about this at RareEvo.
+
+[02:43] **qx()**: It's rough. It's rough. But we announced all the winners. For the community vote, there's about 6,700 ERGs that are going to be distributed to the Sigmanauts are now voting on how to distribute that. So if you have any ideas, that's a job of the Sigmanauts is to listen to the community. So feel free to pitch ideas to the Sigmanauts on how best to distribute those 6,700 tokens ERGs to the community. And then, of course, we're still waiting on the Ergo Foundation results for the official rankings for that. So that'll be exciting to see.
+
+What else? Rosen BTC bridge is live. That's absolutely amazing. That happened on Friday. That's really exciting. And they came out with a couple of fixes for the watcher nodes recently as well. One's on pause now, but the latest update allows to use RPC username passwords if you're running your own Bitcoin node which I appreciate. I'm running one on Umbrel, so that was really nice.
+
+And on top of that for the Sigmanauts mining pool we added last night. I just added BTC to it. We were testing with Rosen just straight up Rosen token, but last night I added BTC and I pointed my miner to it with that configuration and this morning we found a block and an hour later it paid out me in nine cents with the BTC because I didn't have my miner on for very long and more in the TX soon, I guess, price.
+
+What else? We have Trade House that came out. That's really, really cool. If you guys haven't seen that, that's part of Auction House from unreal. It's an order book order book DEX right off of Auction House. So you can go there. You can create your own liquidity pair essentially with whatever percentage you want of a fee and then or just use what's there and add it to the books for that. So that's cool for now. It's just limit orders. But I think everybody knows how to do a market buy on limit orders. You just put your price astronomical and it buys whatever it is up until there. So similar thing. You just don't have a market buy button.
+
+What else? Oh, let me put this in chat too. Mark made something really cool that I want you guys to see. There we go. It's not done yet, but there's a website for roadmaps and he did a bunch of work stringing this up. It gives you a really cool visualization of Ergo and the roadmaps. So I just put that in chat.
+
+Another thing that happened this week, we have, or last week as well, I know it was mentioned though, Captain Nemo came out with a version of Nautilus called Abyss. And what Abyss is, it's essentially a rewrite to appease Chrome and be able to continue to be listed in the Chrome store. So a lot of work went into that. It was a lot of busy time for them. I just put the link in the chat. And the cool thing about this is that he's going to push new features to that. And he's already done two new features to it. One of the cool features is a community run blacklist list.
+
+So I'm going to put that in chat as well. And what that does, if you use ErgoExplorer at all, you know you can flag tokens as not suitable for work or scammy. And after 10 flags, I think by different community wallets, it will automatically activate it. We take that stream from there. Rustin has written a script that checks that and does that. Or you can add it directly to that YAML file I just put in GitHub. And Captain Nemo's Nautilus wallet just reads that YAML file. So you can go in the backend of Nautilus, click I don't want to see NSFW tokens or I don't want to see scam tokens and they're just hidden from your wallet. You never see them. So if you have a kid and you don't want them to get like BBC tokens, their wallet you can check that box and you don't have to worry about your kid or your wife coming across those kind of images in your wallet if you so desire. I think that's about it. That's all I got guys. How about you Dan or kushti?
+
+[06:41] **Dan Friedman**: Well, let's see. What do I have many things actually? Right, so well, we got ErgoHack. How did that go?
+
+[06:53] **qx()**: Oh. That was four days of intense coding at the end and almost a divorce by my wife. So I think it went okay.
+
+[07:02] **Dan Friedman**: Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. It's almost, you know, it's, but the projects are absolutely amazing.
+
+[07:08] **qx()**: Like it's, I think this is one of the ErgoHack where almost every project was like, holy cow. That's really, really cool. We got like Crystal Pools. We got random number generator. What else? We've got a wallet wonderland, which was a really cool survey that came out for all the wallets, getting the information, Moria Finance.
+
+I don't think people know enough about Moria Finance. I tested it with mgPai and LGD. If you guys are familiar with what's it called, Minotaur Multi-Sigs, where I have to keep, you have to keep, I mean I love it, beautiful wallet, but you have to kind of keep an Excel file and pass your commitments back and forth between each other so that you can go down the commitment and back up the sign.
+
+Well, what Moria does is it lets you connect to the site with a Nautilus wallet and it uses that of course as your key but it does the rest in itself. So it creates a multi-sig right there and then it facilitates you communicating with a multi-sig and passing it off to somebody else. So all you have to do is go to the site type in a bunch of wallets you want part of the multi-sig determine the threshold it then creates a multi-sig contract and your buddies go to the site they connect with their wallet and it just round robins everything so you just it's very automated very cool so that's very exciting too.
+
+What else? Analog Ergo, you know, the swaps the swap protocol also cranking away. DuckPools has an amazing video if you guys watch that. Crystal Pool as well, which is kind of a peer-to-peer order book system, if I'm not mistaken. And did I miss anything? Bitcoin Relay. Absolutely amazing project.
+
+[08:48] **kushti**: As usually missed here.
+
+[08:50] **Dan Friedman**: Yeah, yeah, yeah. Thanks for that, QX. Yeah, I think somebody said that. Yeah, there we go. Rugby QX. Haven't been there.
+
+[08:58] **kushti**: There we go. Yeah, a lot of massive projects, so Crystal Pool. Yeah, actually it's kind of fast order books DEX with centralized matcher, but yeah, it's not non-custodial, so no need to trust any funds with it.
+
+Then, yeah, option pools were interesting. Moria Finance is a new step towards convenience and multi-sig. And actually, after the ErgoHack, C8 did a personal hackathon. Block coding, that was amazing, yeah.
+
+[09:41] **qx()**: Personal reward set by me. So now we have the possibility to make some multi-signature and time lock contracts well without any coding and even getting an application without any coding that's absolutely massive so I haven't seen anything like that around in EVM or whatever because yeah well I guess that's so purely other thing so we also have upcoming Ergoversary and for the Ergoversary
+
+Well, I'm going to explain why this is possible in Ergo, hopefully. So I'm going to present how ErgoTrees, ErgoTrees are done under the hood, how they're interpreted and what are the possibilities here. So, yeah, well, looking forward.
+
+So yesterday it's already announced, right? Oh, like officially they just announced it.
+
+[10:53] **qx()**: Yep. Yep. You got it.
+
+[10:55] **kushti**: Yeah. So we will have a lot of videos, including some from people from outside, like academia and Nervos R&D folks. And then, yeah, we'll have also two Twitter Spaces, so one on future of proof of work and another on next five years of the Ergo protocols development and the ecosystem. So, yeah, stay tuned and check the announcements. Have you seen? Actually yeah so I just saw title but yeah haven't clicked it yet yeah yeah yeah coming up
+
+[11:44] **qx()**: Let me add before I get more flack, I don't want to forget Rosen team for like their bus going over Rosen Bridge project, as well as Huang Yin's from Cornell doing some kind of how to integrate and involve college students into the blockchain. So I just wanted to mention those so that I covered everybody. Don't want to fuck up 10 times this weekend.
+
+[12:06] **kushti**: All right. Yeah. So Rosen team is looking very interesting. Too late. Too late. Too late. By the way, there was a message from MHS from yesterday saying that the EVM codebase is basically ready, but yeah, it needs to be merged and some dependencies updated, all the stuff, then yeah, testing, and then also setup ceremony again, right? But yeah, anyway, it is close and yeah.
+
+It would be an extra big step for both Rosen and the whole Ergo ecosystem because well with EVM connections so it will be possible to bring stable coins at least right and other assets from Ethereum and EVM chains to Ergo and bring Ergo to EVM to get it listed on Uniswap and so on to use in Ethereum DeFi. And yeah, also Ergo assets like SigmaUSD and Dexy, which is also coming. So yeah, a lot of possibilities. And it also will be a bridge between Cardano and EVM, right, using Ergo as data layer.
+
+[13:43] **Dan Friedman**: Yep. So yeah, that's quite exciting. That's going to be exciting because you know what? We can use it too at Palmyra. That was the plan all along. We're going to utilize it for evil deeds. No, no, no, no. Our good deeds. They're going to be good deeds. I promise. I promise. QX. You don't have to give me that look. It's going to be okay.
+
+[14:07] **kushti**: And even, yeah, it will be possible to even bring a new kind of wrapped Bitcoin on Ethereum, right? And by the way, from what I know, in regards with assumptions, it would be the most trustless wrapped Bitcoin on Ethereum, right? Yeah. So, so yeah, I mean, actually it's quite amazing. So by adding a new chain, you're opening actually not one but many bridges. Right.
+
+[14:43] **qx()**: Yeah. Yeah. Yeah. Your times, how many of them are there? Correct. You're not just opening one really cool.
+
+[14:52] **Dan Friedman**: All right. So a lot of exciting stuff, you know, we're actually, well, you know, once again, I can't really say much because it's coming up in a, well, in about, I think like six hours or something like that, we're going to be, we're going to be letting people know what we've been up to.
+
+[15:11] **qx()**: You do an announcement of an announcement.
+
+[15:14] **Dan Friedman**: Yeah. This is again, an announcement of an announcement. Yeah. Yeah. Yeah. Yeah. That's how the space works. You have to do a bunch of announcements of an announcement after you do the announcement. And then when you do the announcement, you have to, you know, add to the announcement and announce other things that are after the announcement. So that's how it works, but it's only a few hours away and it is going to be, like I said, it's going to be really cool for Ergo. It's going to be new innovative tooling for Ergo, which is always exciting.
+
+It's a great addition, I think. And yeah, Shashir and Luca, I think they've outdone themselves with this solution. So I'm just excited to show it to people.
+
+Oh, and so the Palmyra public, the Palmyra public sale is starting on the 24th. And so there's a referral program, and so we included ERG as referral bonuses. So if anybody's interested in that, you know, and you got some peeps you want to send that way, you can earn ERG. I think that's a nice incentive.
+
+Yeah. Yeah. And just, you know, just extremely excited about the Bitcoin bridge going live. There's a lot of chatter about that. I'm really excited about the EVM bridge, although I would just, I'm just kind of like sitting there and saying, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on, come on.
+
+So, yeah, but that one is going to be fun because we actually have some EVM assets that we wanted to be able to move between UTXO and EVM. So that would be really, I think, really helpful. Plus, I think it's going to be crucial for remittances on the platform because we're going to be able to do a lot more remittances. Of course, we're going to be using SigmaUSD. We're also going to be using Moneta or Monetello as they rebranded USDM.
+
+But also, it'd be nice to be able to use other wrapped assets for other wrapped stables for payment. We've also been looking into Gluon indexing gold for potentially utilizing it on the platform. So just a lot of exciting stuff. We've actually been kind of thinking about how to create synthetic commodities on Ergo, which would be kind of fun, I think.
+
+[17:55] **qx()**: Oh, like perps?
+
+[17:57] **Dan Friedman**: Yeah, yeah.
+
+[17:59] **kushti**: Oh, that's actually interesting.
+
+[18:01] **Dan Friedman**: Yeah, I know. It's something that I actually want to talk to you about, kushti, at a less sunny time. But yeah, we've been thinking about doing that, and I think that's another really cool tech that we can build on Ergo, I think, fairly well, and then be able to move it across with Rosen to other ecosystems. So, yeah, yeah, just a lot of cool stuff happening.
+
+You know, actually, I haven't had a chance to go through all the ErgoHack entries, but excited to do that, to check that out. Still, you know, once again, getting pumped for August for RareEvo. We're gonna have a nice little ergo clique over there, ergo clique.
+
+[18:48] **qx()**: Oh, it's gonna be a clique all right, Dan.
+
+[18:50] **Dan Friedman**: Yeah, yeah, yeah, this is gonna be clickety clack. All right anyway anyways that's about it from me obviously you know still working on all the stuff that I'm working on talking to some peeps getting that getting that funding into the ecosystem but that's kind of a slow burn right now since it's you know, it's like the market drops 5% and everybody freaks out. So you need to need to give it a little bit more time. Anyway, though, this will happen, I think. So let's get to some questions.
+
+[19:29] **kushti**: And yeah, the last note, so please try Trade House. I actually made my first orders there, and the whole experience is great. And yeah, I'm waiting that soon there will be some arbitrage between Spectrum and Trade House because, well, it is possible. Just someone needs to do half-chain part for it. So, looking for liquidity and making matching transactions. So, yeah, well, shared liquidity ahead and that means great trading experience. So, yeah, please try Trade House.
+
+[20:18] **qx()**: You reviewed those contracts or that contract in kushti.
+
+[20:23] **kushti**: A little bit. Yeah. So I made my review in the middle of the ErgoHack. So probably need for another round, but yeah, it's actually, yeah, well, I didn't find anything suspicious. And yeah, well, our contracts are pretty straightforward. And actually, yeah, we did something similar back into 2020. So initially we had order books, order book contracts since like 2018. But then the first DEX was AMM because well, simplicity of UI, all that stuff.
+
+[21:08] **Dan Friedman**: So we've got a question here from Adam Jones. Can BTC be sent through the bridge, the Rosen Bridge from an exchange address and also vice versa?
+
+[21:17] **qx()**: Not in this version. You need a wallet connector when you, what's it called, when you start your first, your left-hand side. So if you choose Cardano, it pops up with a Connect Wallet to Cardano. If you choose Ergo, same thing, that kind of thing.
+
+[21:34] **kushti**: Yeah, and it is using some exotic wallet for Bitcoin still, right, like XDeFi. So, yeah, it would be good actually to support Electrum and all that stuff. Then yeah, I will start to use it because I'm using Electrum only. Since like 2016.
+
+[21:53] **Dan Friedman**: Yeah, actually I used that one. Yeah, I have been using that one continuously since 2016 actually as well.
+
+[22:05] **qx()**: Yeah, you're right. It's using XDeFi. You know, I get nervous when I recognize people are comfortable with exchanges. But, you know, my old pathway used to be for acquiring ERGs in the US, it used to be buy ADA on an exchange and put it through Simple Swap or those kinds of sites. And there's been a couple of times for speed, I've sent it right from the exchange to Simple Swap.
+
+But holy shit if that doesn't make me nervous as hell the entire time I feel like if something happens on Simple Swap center, they send it back to the exchange then I have to deal with the exchange on you know, that's my funds, you know, give it back here's the transaction that kind of thing. It's not something I want to deal with so I you know, maybe for ease of use Rosen will do that, but I definitely would not use that feature. Definitely fan of self-custodial wallets where I connected and I say the you know, I say what goes. Yeah, no, I just I just I just get nervous on CoinX I don't know.
+
+[23:04] **Dan Friedman**: It's just been the easiest for me. There's new CoinX get some Bitcoin spend some Bitcoin buy it on CoinX. I it works wonders. It's actually, I'll tell you, it's one of the least confusing interfaces out there for exchanges that I've seen, which is pretty bad because it's still a little bit confusing sometimes with all the pop-ups. But yeah, I tried these other ones and then just every single time, it's just like, oh, God, what are you talking about? I just want to buy some crypto. I don't want to go through all this entire circus. No circus, please. Can I have the no circus version of your exchange? Just like buy, buy ERG, you know, different types of different types of buys and that's it. That's all I want.
+
+[23:57] **qx()**: Just a command line version of a centralized exchange.
+
+[24:00] **Dan Friedman**: Something like that is just like, I'm telling you, it's like going to Coney Island sometimes. They're just like all this, you know, all this shit spinning around and lights flashing and stuff. And you're just like, okay, how do I check my like, where's my wallet? Come on, come on, come on. Where's my wallet? Like, okay. Okay. Now where's the-
+
+[24:17] **qx()**: Well, then sometimes some sites you have centralized exchanges, you have to swap from a main wallet to a trade wallet, and then you do the trade wallet.
+
+[24:25] **Dan Friedman**: Yeah, I don't use those sites anymore. That's why, you know, that's why CoinX. I like CoinX because it's still very simple, you know, just like you just send crypto there. It all stays in one place. Withdraw it from there and that's it. Yeah.
+
+Actually, I saw those guys in Hong Kong. Or, you know, there were, there were a little bit, it was a bit of an odd interaction. And I'm like, Hey guys, you know, I like your exchanges, your exchange. Oh yeah. Great. Like, yeah, yeah, yeah. You know, we, we listed with you, you know, we got ERG listed as like, Oh, okay. Like, can I have some of these stickers? Sure. Okay.
+
+[25:20] **kushti**: But actually, well, probably those guys were from VBTC. So I reached the CoinX booth at Token 2049, but actually guys were from VBTC capital because yeah, it's basically the same.
+
+[25:38] **Dan Friedman**: Is that why they were so weird? I think, I think actually, yeah, I think I saw them and yeah, I think it was a Token 2049 when I was, when you and I and then MHS were there. Yeah, but actually, most of our folks at that booth were from VBTC capital.
+
+Oh, okay. Okay. Yeah. Because I was just like, I mean, should I, is it okay for me to keep using your exchange? Okay. It was just a really odd interaction. I'm like, well, don't get up. It's okay. I mean, it's all right. Sorry to bother you. Yeah.
+
+[26:17] **kushti**: Actually, yeah. So CoinX is a part of VBTC holding, which is including one of the biggest Bitcoin mining pools. Also Bitcoin Cash probably, right? And also a venture capital firm, they have a wallet, which is having Ergo, but no support for custom tokens, so it's not popular in the community.
+
+[26:43] **Dan Friedman**: Yeah. Well, but you know, at least, you know, at least they don't, they don't play bullshit games with ERG and just, you know, it's just very straightforward with it, with them, I think with, with, with buying ERG and then holding ERG and getting it off of there. And it's just, you know, you can swap it. They got to swap as well. So you can like swap it.
+
+[27:00] **kushti**: Yeah, actually, it's maybe one of the best spot exchanges because these days many exchanges are trying to drive you to leverage trading futures, all that stuff, right? So they are hiding spot trading and so they are they're trying to seduce you into that.
+
+[27:26] **Dan Friedman**: Yeah, because I don't mess with that stuff. I really don't. I just do spot trading. Leveraging in futures and I was like-
+
+[27:40] **kushti**: I don't know. Yeah, I'm also not playing those casino games, but yeah, it seems centralized exchanges currently are relying on that mostly, right? On turning their users into gamblers using highest leverage possible, playing with futures, all those complex instruments and losing money mostly on them.
+
+[28:04] **qx()**: I mean, go to MEXC and log in and it looks like a casino for God's sake.
+
+[28:08] **Dan Friedman**: I mean, yeah, yeah, that's the thing. You know, I was, when, when, when ERG got listed in MEXC, I would, I wanted to go on there and buy some ERG and I just go on there and I'm like, what now? What, how do I buy? Like what, what, what is this? Like, no, no, I don't want that. No, no, I know, I don't, I, you know, no, I don't want any, any herbal Viagra. I'm thinking it's just, just where, where do I buy? Come on. You know, and then HooBi was also another one who HooBi was, they had this like weird thing where, and I don't know if they still have it cause I haven't used them for a while, but they used to have this setting where you had to actually, if you had a sell order or a buy order, you had to set the volume. So at what volume does the order execute? And so one time I didn't set the volume and it like liquidated me. And I'm just like, and it literally liquidated me because there was some weird like spike. It was like, like a, like a micro crash on their exchange, it was a micro crash. And I'm just like, what is this shit? Like, what do you mean? Oh, it went below your set price. I'm like, when? Like, no, it didn't. Like, look, look, these are the daily charts. No, it didn't go. I was like, yeah, yeah. So then I look at it, it's like a micro crash. And because it didn't set my volume, it liquidated it. I'm like, okay, I'm cool with that, guys. It's all right. Thank you. Thanks for playing.
+
+Anyway, simplicity. I want simplicity.
+
+All right. Let's see. Okay, so here's a question from Vadim. What can you do with RSBTC here? What advantages RSBTC has over WBTC except collateralization?
+
+[30:11] **Dan Friedman**: Well, how about you take that one, QX?
+
+[30:13] **qx()**: Me? Oh, okay. Well, you could lend RSBTC out on SigmaFi. You could lend, I don't think it's on DuckPools yet, is it? Let's see. I think they may be waiting for version two, perhaps.
+
+[30:27] **kushti**: I think they're having, watching now on adding RSBTC and it seems yeah, they will add it. So it was supportive. Yeah, I checked it like yesterday and it was supported.
+
+[30:46] **qx()**: So those are two platforms you could earn yield on right at that point. You could also add it to a liquidity pool on Spectrum or CruxFinance or ErgoDEX, or even add it to an order book pair on Trade House, make some yield off that. So there's lots of yield opportunities right out of the gate immediately on Ergo, at least. kushti, what were you saying?
+
+[31:14] **kushti**: Yeah, so you can trade on Trade House, right? You can provide liquidity on Spectrum. Yeah, you can lend it, borrow it, and so on. So yeah, a lot of possibilities. And also, you can use it to accumulate funds, right, to buy ERG during the dips, for example. So instead of USD, you can use BTC.
+
+[31:44] **qx()**: Right yeah so a lot of possibilities already and I would say the difference between WBTC and RSBTC are the assumptions. Rosen it's fairly clear how that functions it's you know we even had a either a not a fraudulent, but maybe a mistaken transaction try to go through the Rosen Bridge yesterday or the day before which kind of jacked the transaction fee up so if that would have passed through it would have given a ton of Rosen to the watchers by accident, of course or intentional. I don't know. I didn't I don't think we dug down to the bottom of that which one it was and
+
+But the GARD's, the beauty of the two layer system right there is a watchers pushed it through, the GARD's looked at it and were like, nope, something's up. Sorry. We're going to fail it. So that's the beauty of the system. And, and beyond that, the watchers are made up of you know on Bitcoin, it's what 30 or some watchers at the moment maybe plus Ergo, it's 80 or 90 Cardano, it's maybe similar amount to Ergo so you have all these people that are incentivized not to have their permit slashed you have GARD's that are incentivized not to have their deposit slashed which is not a small deposit in the future so the the assumptions are very clear with how Rosen Bridge works. Again, on Ethereum, on Cardano, on Bitcoin, you're only dealing with a multi-sig wallet on that side. So it's going to be as good as that trust is for the security of the multi-sig wallet. Whereas if you're using other bridges or other wrapped tokens, there may be more centralized trust involved in those kind of solutions. And we've all heard how those work out for people in the past. So I would say RSBTC on that alone is why I would trust my Bitcoin over the bridge wrapped there as opposed to WBTC.
+
+[33:41] **kushti**: Yeah, so WBTC is just a centralized gateway, right? So basically one trusted party. So there were attempts to do better bridging like Wren, but it was closed source, so they claimed like thousands of participants in multi-sig via MPC, but when it's closed source, so how can you trust those claims? I mean, any claims. And then if it's about centralized gateway, then like anything could happen, like hack. I mean, like anything.
+
+[34:34] **qx()**: Yeah, anything's possible. I mean here here the GARD's at least I think the original talk was about $75,000 for collateral to become a GARD. As I said in the past for the financial GARD's Rosen is holding that amount until it gets to 75 and then the GARD's will start making funds beyond that, but that's a lot of money for definitely for the Sigmanauts at least to get slashed. So, you know your you're facilitating a trust, you know, because you have skin in the game there. Whereas a centralized exchange, centralized entity, centralized party. Yeah, I'm not touching that shit.
+
+[35:18] **Dan Friedman**: Yeah. Yeah. No, so, you know, keep things decentralized. It's just, you know, it's better for the environment and better for you. And I just, you don't have to worry as much about the single points of failure. Which is always a good thing.
+
+All right. I'm going to answer a quick Palmyra question. So PCN Performance. So with Palmyra, will it make all kinds of goods and produce tradable from all regions? Yes. So basically, the aim is to have a wide range of commodities. Now, produce is, I mean, potentially we can do that later on. The problem with produce is obviously shelf life. So the commodities traded on the platform would probably need to have a longer shelf life because it's access to worldwide markets, right? So that's what Palmyra is about.
+
+It's a lot easier to basically do commodity trading with things like nuts, grains, and teas and things like that than like apples or strawberries or something. Not to say that that's not going to be something that we're going to be doing in the future, but at this point, we are working with commodities that have a long shelf life.
+
+So, and then the next question here is, how can people register to be listed? So to get listed on Palmyra, all you have to do is go to Palmyra.app. So it's, you know, just type in Palmyra.app in the browser and just sign up as a buyer. I mean, that's all you do. Then our onboarding team is going to contact you. You go through a business KYB and you get on boarded onto the platform and you're off to the races.
+
+And another question, let's see, another question from the same person. PCN performance is actually something that somebody else was asking, I think, when can anyone become a watcher? They said have been, they've been on the site twice, but with no luck. can, or can you all explain the watcher requirements and payouts? So, do you actually want to take that one?
+
+[37:59] **qx()**: That's for Rosen. Yeah. Yeah. Yeah. Anybody can be a watcher. You're not seeing my face right now because of what he went off. He accidentally went offline. So what happened? Booming voice. He went offline and it shifted him and Andy's probably got a baby in his hands. So he's not sliding me over.
+
+[38:18] **Dan Friedman**: I can, I can move to your left more. Oh, perfect. More. Okay. No, no, no. Move to your right. Move to your right, to the right, the other way, the other way, the other way. Not like, yeah, yeah, yeah, yeah. Okay, more. More. There you go. Oh, too much. There, okay. Talk like that. Now I can see your face. Talk like that.
+
+[38:40] **qx()**: Yeah, yeah. That's perfect. All right, I'll lean over like this. So, to run a watcher, it's fairly simple. I have some videos up for version one, and then some upgrade videos for version two. mgPai made a video for Linux, and I think Ergo Utilities made a Mac tutorial to do it. Essentially, you need 800 ERGs and at least 33,000 Rosen. So the initial lock for your Watcher ID tokens is 30,000 Rosen and 800 ERGs. Once you lock that up from your Watcher application, excuse me, you can then add permits at 3000 Rosen a piece and you lock those up. And essentially how it works is you're depending on if you're in Bitcoin or Ergo or Cardano, let's take Bitcoin for instance, you are watching the Bitcoin chain for a certain action to happen. And once that action happens, oh, because kushti's back, there we go, I can go back here.
+
+[39:39] **Dan Friedman**: No, that's Dan Friedman. Oh, wait. Oh, hey. Hey, it's QX. Hey QX. What's up? Yeah, you look like you look like kushti. Oh now I'm kushti. Hello, this is great. This is Alex Yeah, okay.
+
+[39:55] **qx()**: Yo, yo, yo, it's me Dan everybody. How's it going? This is Alex. I'd like to like hey, let me wear white. Hi, this is Alex. Hi guys There we go. Yeah, I would like to switch chairs. Just like, okay, screw you guys. I'm going home.
+
+[40:17] **Dan Friedman**: So then, so then it watches for you to the eyes of a blind man right now.
+
+[40:22] **qx()**: It watches a certain action happen on chain. And when that action happens, it files a report on the Ergo side always. And then the GARD's look for that after a consensus and reach a consensus and check it out. And then they pass a transaction through and you are then awarded after a certain amount of time. You're allocated a certain amount of the reward percentage. And then you're not actually paid that reward until you go out and get another thing. It's kind of done in that second transaction that you go out and get. So you may see that, well, I've won 50 Rosen and rewards for the last thing. How come I'm not paid out yet? Well, it needs to wait until it goes out and grabs it. And the next time it does a report. So there's sometimes a misconception there, but it's fairly easy. You know, this, this, you can DM me if you need help setting one up. Or help in the Rosen channel and one of the GARD's or myself will be there as well to help you out. CW is around sometimes to help as well in there. So there should be lots of support to get you started but the basic thing is a hundred ERGs thirty thousand plus three thousand per permit for the watcher ID and you're you're you're gone again QX. I moved over again. There we go.
+
+But yeah, check it out. BTC was a little more complicated because the public explorers are a little slow and they rate limit you. So mine would continuously get maybe 10 blocks behind while it got rate limited and brought back up. So what I did was I installed Umbrel, which is like a Linux based OS. And it just sits headless over here.
+
+[42:14] **kushti**: All right behind my desk and it runs. My device got discharged so yeah I'm now joining from my laptop you move down to the kitchen kushti perfect right yeah to my laptop.
+
+[42:14] **qx()**: So that's how you become a watcher. There's no limit anymore. I think the limit was 75 or something at start, but now it's fully open for now. I think the soft limits like 999 or something like that in the code. So you're good if you want to try it.
+
+[42:36] **Dan Friedman**: Alex, I feel very close to you right now. All right. Yeah. So. There we go.
+
+[42:42] **kushti**: Next question.
+
+[42:44] **Dan Friedman**: Yes. Well, you know, QX, you know, QX Alex looks like he can, he can eat you alive right now.
+
+[42:50] **qx()**: Do I need to get bigger?
+
+[42:52] **Dan Friedman**: Yeah. You need to pump up a little bit. All right. Here's a good question. What are security ramifications if Rosen ends up with a market cap higher than ERG?
+
+[43:03] **qx()**: Ooh, that's a good question. That's a very good question. kushti, you take that one.
+
+[43:08] **kushti**: But yeah, well, what's the problem? So-
+
+[43:11] **qx()**: Well, the problem is, right, so I guess the problem would be, I think what they're trying to imply is, let's say ERG is not profitable for mining and the hash rate goes down, so security of the Ergo network goes down essentially. But then you have this very highly valuable asset that relies on the security of Ergo that's priced higher than actual Ergo's market cap. So it'd be interesting what would happen there, I guess. Nothing's gonna happen, but yeah.
+
+[43:43] **kushti**: Yeah, but Ergo here is different from other blockchains even, right? So, well, miners will get some Rosen eventually, right, with storage rent. Like some forgotten Rosen, all that stuff. So then, yeah, I mean, eventually some miners will get some Rosen, right, as well as well as other tokens. So then now the bigger tokens on Ergo would be the better for Ergo security as well, right, in the long term. Then in short term, yeah, it's pretty much like for other blockchains, but I don't know, so maybe, well, all those things are linked, right, so well with growing Rosen market cap, so we also get a growing Ergo market cap, right?
+
+[44:38] **qx()**: Yeah, that would be the hope, right? They'd have to enter into Ergo to purchase that, which would cause the price of Ergo to go up. But then, of course, they'd swap for Rosen once they were in via Ergo. So I think you'd still see a rising tide there on everything. I mean you got to remember Rosen started from just started guys, so it's got a lot of room to grow in my opinion. So of course it's going to continue on that arc my in my non-financial advice opinion.
+
+[45:11] **Dan Friedman**: Which apparently still doesn't save you from legal ramifications.
+
+[45:16] **qx()**: Oh, really? It doesn't? Am I in trouble?
+
+[45:18] **Dan Friedman**: Yeah, yeah, yeah. No, I read that a while back. It's like, you know, all the whole Web3 space loves the whole, you know, NFA, not financial advice, like it's going to save them. And it like literally does nothing.
+
+[45:31] **qx()**: Okay. How about I say don't buy crypto? Don't buy anything.
+
+[45:36] **Dan Friedman**: I can say don't use a rocket emoji. You're in trouble. Okay, you're done. You're done. All right, you're done.
+
+[45:48] **qx()**: Can everybody convert your electricity to ERGs? That's that's my advice. That's my financial advice.
+
+[45:55] **Dan Friedman**: All right, let's go to another question here. Okay, so all right, so what do you think about this one? QX Ergo could get USDC pairs and exchanges well, listen a relatively quick if shit hits the fan due to MiCA, right? Let's like push the answer that one Yeah, like I've talked too much, but I don't know much about MiCA. So what's that? The European thing yeah. Yeah, it's like European regulations and what's the so I I don't quite following to be honest. Well, how about you QX? How about you take that one?
+
+[46:44] **qx()**: If you know if you know about the MiCA I'm in Europe for MiCA. Yeah, and I mean like I'm not familiar enough with it that's very funny, Dan. That was a clever part.
+
+[46:57] **Dan Friedman**: All right, you know what? All right. Yeah, let's I mean, basically, you know, you know, MiCA MiCA is basic crypto regulations in in the in in Europe. So that's I mean, it's going to it's going to tighten regulations. Yeah. And so they're basically going through different countries right now and going to be tightening regulations on MiCA, which I mean, it just has to do with classification of different digital assets.
+
+[47:33] **qx()**: So, I mean, are they, are they essentially asking like when most of the rest of crypto shits a bed when MiCA is enforced? Yeah, basically. Yeah.
+
+[47:47] **Dan Friedman**: I think what they're saying, I mean, I'll be, you know, I, I know enough about MiCA because we actually had to, we had to deal with it in, when we were putting together what Palmyra was going to be like and making sure that it's compliant in different regions, making sure that we're remitted, it's compliant with regulations. That's one of the reasons why we actually can't do it in the EU because of MiCA, because there's lack of clarity on digital assets in the EU.
+
+I think that with, yeah, I mean, we could get USDC pairs and exchanges, obviously, but there's actually, I mean, there are other moving parts, I think, that are gonna be in play. But like the thing about MiCA is that, I think there's a few years until it really starts going to affect. And I think at that point, there should be more regulatory clarity in other places of the world so that you don't, you know, you don't have to be confined to like say one jurisdiction or a couple of jurisdictions to make your, to make your, I guess, decisions, financial holdings decisions and whatnot. So, I mean, yeah, it can happen.
+
+[49:12] **qx()**: Yeah. I think centralized exchanges are going to extract as much value. Oh, because kushti's battery died again. Damn it. Let me go over here. I think centralized exchanges are going to extract as much value as they can until they can't. And right now they can extract value with shit coins and hype and gray legal things. So they're going to do that until they can't. And when they can't, things that have sound monetary policies and practices are going to become very attractive.
+
+Oops, I'll slide back over here. Perfect. And that's going to be the case when Ergo shines at centralized exchanges. But even that being said, guys, I fucking hate centralized exchanges. I'm a community member, by the way. I'm not Ergo Foundation. So I can say I fucking hate centralized exchanges. And I can't wait for a day when fiat on-ramp comes to Rosen Bridge, or I can go to my local, not local, but I can go to my investment firm and put some of my investments directly into Ergo. Maybe they have a path. Maybe there's a consortium of Ergo whales that hold a wallet that they'll give access to for these kind of investment firms that will allow them to pull out of that and swap.
+
+So I think there are a lot more options in centralized exchanges for this stuff. And centralized exchanges have shown us that who they are and what they do. And I personally don't want to be part of that. You know, they're important to a lot of people and to adoption. So it is what it is. But I fucking hate them.
+
+[50:52] **Dan Friedman**: Yeah. I mean, also, you know, MiCA also has to do with with technical standards as well. So, you know, like basically how is the asset minted? How is the asset traded? How is the asset stored? Is it decentralized? Is it not decentralized? So there's, you know, I mean, all of it is not necessarily bad, but it's just gonna be a lot more difficult to be compliant because there's a lot more details to go through to be compliant.
+
+Which is, you know, I mean, it's just, like the thing, the thing about, about regulations like this is like, for example, in Japan, right? Japan had, you know, the, the crypto spring, so to speak, right? When they said that Bitcoin is, is, is, is a currency. And so it's going to be regulated like a currency is like, okay, right. But then they said, oh, wait a second, but it doesn't exactly behave like cash or like the yen. So what do we do? How do we tax it? How do we do this? How do we do that? And so they started slapping on a lot of like, just convolutedness and essentially suffocated the crypto spring in Japan.
+
+It's coming back now, they're starting to think about it like, okay, wait a second, we killed that, but that was a good thing. They're talking about DAOs, they're talking about all this stuff. I was just in Tokyo last week, actually, and I was talking to the community over there. They're hopeful about it, but there's still kind of, there's still the sour taste in everybody's mouth about that, right? And so kind of MiCA, I mean, MiCA could potentially be the same thing.
+
+And it's not necessarily all bad, but it's just gonna be a lot tougher to launch something that is compliant in the EU. So yeah, yeah, I mean, yeah, like, yeah, the, the, the, the, the USDC pairs have to do with, with the denominations, right? So, so to the, which, which currency nominated. And so again, it's, it, it will have to, I mean, it's just kind of like one of those things you have to, we have to wait and see how the practice, like how, how things are practiced because, I mean, just even looking at some, there's law firms that are actually specializing in, in MiCA regulation, right?
+
+And so there are several different tiers of MiCA regulation. And so you have to then spend a bunch of money on lawyers to make sure that you're building under a specific tier and that you're compliant with that tier. It's just, yeah, like I said, it's not, you know, is going to be a lot harder than just like, you know, here's Ergo, here's the technology, fair launch, bam, it's in the world, you know. So yeah, it's well, we'll see how it plays out.
+
+All right, let's go to our next question. Yeah. So, so Luke, Lucas saying, yeah, technical issues like being able to censor or sanction certain people or countries. So yeah, so basically like things like clawbacks, you're going to have to put clawbacks and they're going to have to put blacklisting in there. I mean, it's, yeah, it's just, it's, it's, it's a, it's kind of a mess.
+
+All right. Let's see... Oh, okay. So, RareEvo news, will GreasyCex be there? Is he gonna be there, QX?
+
+[55:07] **qx()**: I had he last I heard he was going to be there. So we'll see.
+
+[55:12] **qx()**: Yeah. Yeah. Yeah. I'm going to bring the, I'll bring the hot dog suit for him as well so that he can wear it.
+
+[55:16] **Dan Friedman**: Yeah. Yeah. Yeah. We're getting the band back together. That's good. That's good. That's good. All right. Let's, let's find one, one nice juicy question for kushti. One last one. Aha. Okay, I saw kushti mention BlockX implementing Ergo's Autolykos protocol for their chain. I did some research and they build a client to host your hardware for people to rent and Ergo leverage this. What do you think kushti can Ergo leverage that?
+
+[55:50] **qx()**: I don't think it's he's not here, Dan.
+
+[55:52] **Dan Friedman**: Oh he's not there okay it's just this picture oh it's just this picture oh oh speak to me oh lord kushti my my my savior okay speak to me through QX please
+
+[56:08] **qx()**: Oh, yeah. So from what I remember, BlockX implemented a form of Autolykos for their chain. So they built a client to host your hardware for people to rent. That is interesting. I don't know if you're talking about renting the hash rate, if that's what you're talking about, Bilbo. Is that Bilbo that asked that question?
+
+[56:28] **Dan Friedman**: Yeah. But I think, isn't he talking about just renting the hardware?
+
+[56:31] **qx()**: The hardware for to run a node or what or to mine. I'm not sure if you can specify their bill both. Yeah. I don't see a hardware for people to rent. Interesting. So, so, I mean, that's, that's, that's. That's not an unfamiliar thing for renting hardware for that kind of thing. Sigmanauts mining pool is actually talking about how to do kind of futures with speculation and renting hash rate using NFTs. So the idea is that you somebody could speculate and rent somebody's hash for a fee by just plopping an NFT in the wallet that they own and then you'd rent the hardware if that's what you're talking about mining.
+
+So yeah, we can we can do things like this with crowdsourced crowdsourced miners so not not centralized miners, but miners that actually want to run out their hash rate to other Ergo users for that let's say that you have some miners in a place where electricity is 3 cents a kilowatt hour and somebody lives in an area that electricity is 50 cents a kilowatt hour. Perhaps you'd want to rent out that mining there or that kind of thing or buy a future in in what you speculated or will be at that point. So yeah, there's lots of possibilities there Mark the Shark and CannonQ are doing a lot of thinking on that and how that's gonna work out but we are definitely thinking about that if that's what you're talking about.
+
+You're talking about nodes on the other hand running the actual infrastructure I believe Dan weren't you interviewing somebody last week that actually sells node hardware for some one of their nodes specifically whatever that was and last week it was a Palmyra thing it was you Joe and this guy from oh yeah yeah yeah that's right yeah yeah so he sells hardware you just put in yeah yeah that's right yeah I think I think it's it connects with like six other people so your data is always that's right yeah people kind of thing so I don't think that's more of a node thing it's more of your data security network
+
+But Sigmanauts talked about that as well, finding a small device. And I found one online for about a hundred and some bucks. It's got eight gigs of RAM. It's got like a 120 hard drive. And the idea was to buy a stack of them and just clone a Linux image to them so that when you boot it up at DHCPs, you look it up just like you look up Umbrel and you configure your stuff, set your wallet and you go kind of thing. So that kind of stuff is possible too for buying hardware for node running but I think you're talking about renting mining hash if I'm not mistaken so yeah that's stuff I mean you can run it now from when we started up the Sigmanauts pool we ran in a bunch of hash to test it out to burn through some blocks but that's very centralized I mean it's peer-to-peer essentially but you're using a centralized service
+
+The way that we're trying to do it in the Sigmanauts eventually will be more kind of direct peer-to-peer, where you reach out to a miner that's advertising by dropping some information into his wallet, essentially bringing you guys into a multi-sig contract where funds are distributed via trust of the contract. So that's our end goal there.
+
+[59:52] **Dan Friedman**: Burn some hash.
+
+[59:54] **qx()**: That has different meanings to that phrase, Dan.
+
+[59:57] **Dan Friedman**: Yeah, yeah, yeah. It's a double. Okay, listen, I think we need to finish it up because Alex is turning black and white now.
+
+[60:04] **qx()**: Oh wow, he did turn black and white.
+
+[60:06] **Dan Friedman**: Yeah, he turned black and white. This is scary. Time is slowing down. Time is slowing down. We need to sign off.
+
+All right, guys. I think this is a good time to leave it off for this week. Hopefully Alex will gain some color next week. One can only hope. Anyway, all right. A lot of really good questions this week.
+
+[60:32] **qx()**: So thanks for that. Several I didn't know. That was great, guys.
+
+[60:34] **Dan Friedman**: Yeah. And some that had actually even had a stomp, which was actually really cool.
+
+[60:39] **qx()**: Anyway, six hours down for your big announcement.
+
+[60:42] **Dan Friedman**: Yeah, a few hours left. That's right. Big, big, big announcement. And, you know, none other than mgPai is going to tell you how it all works.
+
+[60:54] **qx()**: Oh, is he going to be live streaming this?
+
+[60:56] **Dan Friedman**: Yeah. Well, he's not live streaming it, but he did make a video about how the tech is going to work and that's going to, there's going to be out like an hour after the announcement. You're going to find out how it works and what it does. And it's really cool. But anyway, everybody, thanks for joining and you know what it is same place same time same channel next week and until then this is Dan coming to you live from Japan signing off. Ciao everybody.

@@ -1,0 +1,166 @@
+{
+  "call_date": "2024-10-28",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:04",
+      "question": "What's the easiest way to get ERG without dealing with borders or exchanges?",
+      "asker": "qx()",
+      "answer": "The best and easiest way without borders to get ERG is to convert your electricity into ERG through mining. It's as simple as that - there's no easier way to get ERG than mining it directly with your gaming card or mining rig.",
+      "responder": "qx()",
+      "category": "mining",
+      "difficulty": "beginner",
+      "related_terms": [
+        "mining",
+        "proof-of-work",
+        "electricity"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "02:09",
+      "question": "How is Ergo's proof of work different from other blockchains in terms of miner participation?",
+      "asker": "qx()",
+      "answer": "Ergo's proof of work is different because there's more incentive for miners to make choices and steer the chain. Miners can set small parameters or vote on large parameters that could result in more than a soft fork - even a hard fork. This gives miners more governance participation compared to other proof-of-work chains.",
+      "responder": "qx()",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "proof-of-work",
+        "governance",
+        "miners",
+        "voting"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "06:12",
+      "question": "What makes the Sigmanauts mining pool unique compared to other mining pools?",
+      "asker": "qx()",
+      "answer": "The Sigmanauts mining pool is the first actual mining pool to implement storage rent collection. They extract storage rent into a separate wallet, and then there are votes on Paideia (since it's a mining DAO) to decide what to do with the collected storage rent and how to distribute it. Everyone is an owner and gets a choice on what happens.",
+      "responder": "qx()",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "storage-rent",
+        "DAO",
+        "Paideia",
+        "mining-pool"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "08:37",
+      "question": "How does the mining pool's token swapping mechanism work?",
+      "asker": "qx()",
+      "answer": "The mechanism allows you to mine ERG but get paid in other tokens like Rosen Bitcoin or Rosen ADA. You put a designation in your miner ID string specifying what token you want, and the system extracts that information, runs calculation tables, and pays out in that token via a swap. You can set your threshold and payment request for any Rosen token.",
+      "responder": "qx()",
+      "category": "mining",
+      "difficulty": "advanced",
+      "related_terms": [
+        "Rosen-Bridge",
+        "token-swapping",
+        "cross-chain",
+        "mining-rewards"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "10:06",
+      "question": "How can you mine proof-of-stake chains while contributing to Ergo's security?",
+      "asker": "qx()",
+      "answer": "You can mine ERG (contributing to Ergo's proof-of-work security) but get paid in tokens from proof-of-stake chains like Ethereum or Cardano through the Rosen bridge integration. This allows you to effectively 'mine' proof-of-stake chains while actually securing the Ergo blockchain with your hash power.",
+      "responder": "qx()",
+      "category": "mining",
+      "difficulty": "advanced",
+      "related_terms": [
+        "proof-of-stake",
+        "proof-of-work",
+        "Rosen-Bridge",
+        "cross-chain"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "14:15",
+      "question": "What issue did Crux Finance encounter with PostgreSQL and token metadata?",
+      "asker": "Luivatra",
+      "answer": "PostgreSQL does not like the null character 0x00 in text columns even though it is valid UTF-8. A token with a null character in its description field broke the Crux backend, so they had to implement a fix for this issue. The system is working again now.",
+      "responder": "Luivatra",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "PostgreSQL",
+        "token-metadata",
+        "null-character",
+        "UTF-8"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "14:37",
+      "question": "What's the current status of Paideia's transition from beta to mainnet?",
+      "asker": "qx()",
+      "answer": "Paideia is currently in beta on mainnet and has been working well for 6+ months with many votes processed. Luivatra is working on fixing an off-chain bug with transaction replaying during syncing, then will bootstrap Live Paideia with zero profit sharing and staking rewards. The Sigmanauts will get a free DAO for testing, and both will run parallel with beta infrastructure to allow DAOs to move from beta to mainnet.",
+      "responder": "qx()",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Paideia",
+        "DAO",
+        "beta",
+        "mainnet",
+        "governance"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "17:43",
+      "question": "What is zero-conf and how does it relate to Nautilus wallet?",
+      "asker": "Anand BR",
+      "answer": "Zero-conf (zero confirmation) functionality has been enabled in Nautilus 0.15 beta zero, which is now available on the abyss channel for testing. This allows certain transactions to be processed before full blockchain confirmation, improving user experience for faster transaction handling.",
+      "responder": "Anand BR",
+      "category": "wallet",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "zero-conf",
+        "Nautilus",
+        "transactions",
+        "confirmation"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "33:36",
+      "question": "What is Rosenet and what problems does it solve for Rosen Bridge?",
+      "asker": "Armeanio (Joe)",
+      "answer": "Rosenet is a new implementation of Rosen guards' peer-to-peer communication layer in final testing stages. It solves current P2P layer problems by being more fault tolerant (improving bridging pace and preventing stuck events) and capable of scaling to a larger guard set, making the bridge more secure and efficient.",
+      "responder": "Armeanio (Joe)",
+      "category": "bridges",
+      "difficulty": "advanced",
+      "related_terms": [
+        "Rosenet",
+        "Rosen-Bridge",
+        "P2P",
+        "fault-tolerance",
+        "scaling"
+      ]
+    },
+    {
+      "qa_id": 10,
+      "timestamp": "34:02",
+      "question": "What are the hardware requirements for participating in Rosenet testing?",
+      "asker": "Armeanio (Joe)",
+      "answer": "To participate in Rosenet testing, you need a computer with perfectly stable internet connection capable of handling tens of gigabytes of data during test duration. Hardware requirements include at least 8GB of RAM and 8 cores of CPU (preferred) to handle the huge amount of data processing required for the decentralized network testing.",
+      "responder": "Armeanio (Joe)",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Rosenet",
+        "hardware-requirements",
+        "testing",
+        "decentralized-network"
+      ]
+    }
+  ]
+}

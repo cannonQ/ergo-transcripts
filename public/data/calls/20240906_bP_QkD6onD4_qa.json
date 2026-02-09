@@ -1,0 +1,142 @@
+{
+  "call_date": "2024-09-06",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "13:15",
+      "question": "How does Palmyra's tokenization help with olive oil counterfeiting and authentication?",
+      "asker": "qx()",
+      "answer": "Olive oil, especially Greek olive oil, faces extensive counterfeiting where products are mislabeled as Greek olive oil when they're not. Palmyra works directly with Greek olive oil producers to tokenize their products and track them through the entire supply chain using Winter Protocol on Ergo. This allows buyers to verify authenticity by checking on-chain data rather than relying on trust, eliminating the need for long-term relationship building just to establish product authenticity.",
+      "responder": "Dan Friedman",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Palmyra",
+        "Winter Protocol",
+        "supply chain",
+        "tokenization",
+        "traceability"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "23:51",
+      "question": "What's the current status of Sigma 6.0 development and rollout timeline?",
+      "asker": "General development update",
+      "answer": "The first DevNet for Sigma 6.0 was released about a week ago and is currently being used by Lithos for testing new contractual interpreter features. A second DevNet will be released in one week, followed by a third DevNet, and then release candidates before the mainnet release. Lithos has promised to write a forum post explaining how they're using the new features and what contracts they're building.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Sigma 6.0",
+        "DevNet",
+        "Lithos",
+        "smart contracts",
+        "mainnet"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "24:51",
+      "question": "What are sub-blocks and what performance goals are they designed to achieve?",
+      "asker": "General development update",
+      "answer": "Sub-blocks are being developed to improve transaction propagation in the peer-to-peer network. A rough DevNet with peer-to-peer network based on sub-blocks should be available in a few weeks for performance testing. The goal is to achieve maximum performance possible for classic proof-of-work cryptocurrency using commodity hardware, while maintaining the classic flat peer-to-peer network setting rather than moving to data center-based solutions.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "sub-blocks",
+        "peer-to-peer",
+        "performance",
+        "proof-of-work",
+        "scalability"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "26:59",
+      "question": "What's the difference between Keystone and Ledger hardware wallets, and why is Keystone preferred?",
+      "asker": "qx()",
+      "answer": "Keystone is more verifiable, open, and transparent compared to Ledger. They're trying to be fully open and verifiable with a really good spirit behind the project. Ledger currently has some audit request going through a company friendly to Ledger, but the status is unclear. Keystone is considered better because of their commitment to transparency and better security practices.",
+      "responder": "kushti",
+      "category": "wallet",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Keystone",
+        "Ledger",
+        "hardware wallet",
+        "open source",
+        "security"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "30:21",
+      "question": "What's the current progress on storage rent implementation in the Sigmanauts mining pool?",
+      "asker": "General update",
+      "answer": "Storage rent has been running successfully on testnet for about a week and a half. Plans are set for this weekend to upgrade the mainnet test server, with about 28 gigahash from current mining DAO participants pointing hash power to test storage rent collection. This should generate approximately 1-2 blocks per day. Once comfortable with the results, they'll upgrade the main pool server to become the first full pool implementing storage rent on mainnet.",
+      "responder": "qx()",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "storage rent",
+        "mining pool",
+        "Sigmanauts",
+        "testnet",
+        "mainnet"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "35:11",
+      "question": "What does the development roadmap look like for Ergo node versions beyond 6.0?",
+      "asker": "Luke Gray Smith",
+      "answer": "After 6.0, the plan is to see how it works out and potentially focus on refactoring to support sidechain constructions and launches. This would mostly involve evolutionary work without requiring many soft forks. The approach will be to do research and see how things develop, especially tracking new developments in cryptography. For peer-to-peer networking, optimal solutions seem to already be known, but cryptography will see many breakthroughs in coming years.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "roadmap",
+        "sidechains",
+        "soft fork",
+        "cryptography",
+        "peer-to-peer"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "42:23",
+      "question": "What is the Sigmanauts' roadmap and strategy for achieving financial sustainability?",
+      "asker": "Dan Friedman",
+      "answer": "The Sigmanauts are building community first, then finding funding options - opposite to Cardano's approach of building treasury first. Their roadmap includes four revenue streams: 1) Sigmanauts Mining DAO with transaction fees, 2) SigmaLock when completed by Four Eyes, 3) taking over Sky Harbor front-end UI, and 4) M4L messaging. Each will contribute a percentage of fees to build a treasury, making them self-sufficient rather than always requesting funds from the Ergo Foundation.",
+      "responder": "qx()",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Sigmanauts",
+        "DAO",
+        "revenue streams",
+        "treasury",
+        "SigmaLock",
+        "Sky Harbor"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "46:13",
+      "question": "How will the Sigmanauts organize into sub-DAOs and what's the benefit of this structure?",
+      "asker": "Follow-up discussion",
+      "answer": "The Sigmanauts plan to break into subgroups for efficiency, with each sub-DAO acting autonomously while pushing funds back to the main Sigmanauts mission. Examples include the existing mining DAO, planned Sky Harbor front-end DAO, and Sigmanauts NFT DAO. This allows people who don't like the main group to join specific sub-DAOs that match their interests. The structure leverages Ergo's permissionless nature - if people disagree with majority decisions, they can form their own groups and build competing solutions.",
+      "responder": "qx()",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "sub-DAOs",
+        "permissionless",
+        "autonomy",
+        "mining DAO",
+        "NFT DAO"
+      ]
+    }
+  ]
+}

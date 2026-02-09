@@ -1,0 +1,81 @@
+[00:14] **Bruno**: Hi everyone, my name is Bruno and exactly one year ago in the fourth Ergo anniversary I presented the Gluon stablecoin for the first time and since then we have been developing an implementation of Gluon for Ergo
+
+[00:32] **Bruno**: that will be pegged to gold. So that's Gluon Gold on Ergo, right? And this time in the fifth Ergo anniversary, I'm going to give you a development update telling you what we have been doing and what we're going to do next.
+
+[00:48] **Bruno**: So this had been joint work with Alexander Chepurnoy, kushti, Sanjit, Luca, Hammerman, Anastasia and Anon Real.
+
+[00:59] **Bruno**: So yeah, let's start. So let's first recall a bit how the Gluon protocol works. The Gluon protocol has four operations. These operations are inspired by nuclear physics.
+
+[01:15] **Bruno**: The first operation is fission, where you may take a certain amount of ERG and you split those ERG into stable coins pegged to gold. Here they are represented by these two circles, two yellow circles, two golden circles, and also volatile coins here represented by the red circles.
+
+[01:43] **Bruno**: So this, if you compare to, let's say, SigmaUSD, this operation of fission is like minting the stable coins and the reserved coins, but you must mint both types of coins simultaneously. And when you do so, it's as if the reserve ratio remains constant. The reserve ratio doesn't change.
+
+[02:06] **Bruno**: And then the other operation is fusion, and that corresponds to redeeming. And again, you have to redeem both types of coins simultaneously. So here you can see that we are redeeming a few stable coins and a few volatile coins simultaneously and getting back ERG.
+
+[02:22] **Bruno**: Now if you want to have more of one coin than the other what you have to do is for example let's suppose that you want to mint only stable coins then what you have to do is to use fission and then transmute the volatile coins to stable coins using this third operation that you see here in this slide they're transmuted to gold.
+
+[02:54] **Bruno**: And you can also do the transmutation in the other direction. You can transmute gold to the volatile coins. You can transmute the stable coins to the volatile coins.
+
+[03:10] **Bruno**: So that's a superficial recap of what the Gluon stablecoin protocol is. For those who would like more details, I would really recommend pausing now and watching the first video about the Gluon protocol from one year ago, from the fourth Ergo anniversary.
+
+[03:33] **Bruno**: And gluon.gold has also been live on Ergo's testnet for three months already. There is a video showing how you can use this deployment on the testnet and you can try it yourself in this address here, https://gluon.gold.
+
+[03:57] **Bruno**: So what have we been doing in the last three months? So first we had a logo design competition, and this design competition was won by Lama Del Rey, and he produced these three logos for Gluon.
+
+[04:15] **Bruno**: So the first one on the top is the logo for the Gluon protocol itself. The golden circle is the logo for GAO, the Gluon Gold stable token. And the red one is GALSI, the Gluon Gold Volatile Token. So the volatile coin, right?
+
+[04:39] **Bruno**: Another thing that we have done is a redesign of the user interface. So the new design was done by Hammerman and implementation was done by Anastasia and by another developer, an anonymous developer. And you can see it here. And if you visit the gluon.gold address, you can already interact with this new design in the testnet.
+
+[05:07] **Bruno**: We have also implemented some treasury features allowing us to update the treasury address. And we have also found one bug and fixed it. So it was a bug related to using the wrong price in the volume calculation for one of the transmutation operations. And these improvements have been done by kushti and Luca.
+
+[05:38] **Bruno**: So where are we going next? Mainnet launch, of course. So the launch is expected within a few weeks, hopefully. And what is missing is just some further UI refinements and tests related to the treasury.
+
+[06:01] **Bruno**: So for the mainnet, these are the parameters that we expect. So the peg will be to one gram of gold. The backing asset will be ERG, of course. The volume period will be 14 days. So what does this mean? And by the way, these parameters are also the parameters that are currently in the testnet.
+
+[06:24] **Bruno**: The contract monitors, so what does this volume period mean? The contract monitors the 14-day transmutation volumes and the higher the volume unbalanced in one direction is, the more costly further transmutations in that direction will be.
+
+[06:46] **Bruno**: So this means that, for example, if many people have been transmuting stable coins to reserve coins or vice versa, then the price of doing that operation becomes increasingly higher, right? So this is a bit similar to like the constant product formula in liquidity pools in automated market makers.
+
+[07:12] **Bruno**: But we don't use the constant product formula. We use another formula that uses this volume. But the idea is similar, to make these unbalances increasingly costly.
+
+[07:29] **Bruno**: Another parameter is this fusion ratio, which we denote by Q star, and this is set to 0.66. So this means that there's a minimum reserve ratio of 1.5, and it also means that at most 66% of the reserve is allocated to GAO. The remaining is allocated to GAUSC, to the volatile coin.
+
+[08:00] **Bruno**: And if necessary, GAO depegs to maintain this reserve ratio and allocation. Then we have an Oracle fee of 0.1% to incentivize the good Oracle operators.
+
+[08:17] **Bruno**: This is again a good innovation compared to SigmaUSD, right? Because SigmaUSD doesn't incentivize the Oracles at all, right? It just freerides on the Oracles and expect the Oracle operators to be altruistic and to keep providing price data without earning anything for that service.
+
+[08:41] **Bruno**: Now, Gluon Gold and as far as I know also Dexy Gold will both be incentivizing the Oracle operator, so hopefully the Oracle will be more sustainable.
+
+[08:54] **Bruno**: Then there may also be a UI fee that may be set to either 0% or 0.4%. It's an optional fee and it's up to each user interface to decide how much it wants to charge.
+
+[09:13] **Bruno**: There's an initial treasury fee of 0.5% and a final treasury fee of 0%. And the treasury fee decay is linear. So this means that it starts at 0.5% and the more it accumulates, the lower it becomes until finally it becomes 0%.
+
+[09:33] **Bruno**: So this is a bit similar to an emission schedule, but instead of emitting bitcoins or ERG, instead of emitting lower and lower amounts of, let's say, bitcoins or ERG, we are charging lower and lower amounts to the treasury.
+
+[09:55] **Bruno**: And the max treasury revenue at which point the final treasury fee, I mean, at which point the treasury fee becomes 0% is set to 10 million ERG. So once the treasury has received 10 million ERG, then the treasury fee becomes 0% permanently.
+
+[10:17] **Bruno**: Also, the oracle fee is only paid on transmutations because these are the only operations that require price data. And so the total external fees are going to be between 0% and 1%. And it should be less than or equal symbol there. So there is a typo in both cases.
+
+[10:41] **Bruno**: So then there are also the fees that are charged but remain in the reserve of the contract, right? So those are not external fees, they are internal fees. So the fusion and fission fee are currently set in the testnet to 1%.
+
+[10:58] **Bruno**: And for the transmutation fee, it's a variable fee that depends on the volume as previously discussed. So it's a fee that grows linearly with the volume unbalanced and the y-intercept of this linear function is 1% and the slope of this linear function is 50%.
+
+[11:25] **Bruno**: So what this means is that, for example, if the entire supply is only GAL and there's no GALC in circulation and you want to convert all that GAL to GALC, you will end up paying 51% in fees, but that's a very extreme case.
+
+[11:49] **Bruno**: So another thing that we're going to do next is to implement an SDK to make it easy to interact with the Gluon contract without having to rely on a backend. So this is going to be done by Anon Real. And it's been funded by the Ergo Raffle that was successfully funded, right?
+
+[12:10] **Bruno**: So I'd like to take the opportunity to thank everyone who has contributed to that raffle. It's going to be very helpful. And all the benefactors who contributed to this raffle are entitled to receiving GLUONs, the contribution accounting tokens that will give them a right to a portion of that revenue that goes into the treasury.
+
+[12:33] **Bruno**: And to claim, so if you have contributed to this raffle and you would like to receive your GLUONs, join our Discord server to receive instructions on how to claim your GLUONs.
+
+[12:47] **Bruno**: Another thing that we would like to do is a marketing campaign. And in fact, a massive marketing campaign with more than 200 PRs in top tier media. Angie from Ergo has been guiding us to do that.
+
+[13:03] **Bruno**: And we have just been waiting a bit for our UI to be improved and also for us to have the mainnet launch. We only want to do this marketing campaign after the mainnet launch.
+
+[13:23] **Bruno**: Funding for this campaign would be helpful. If you would like to contribute with capital to this campaign and become a benefactor of this stablecoin, get in touch with us.
+
+[13:35] **Bruno**: Other future activities that we have in mind include using the Rosen Bridge to bridge GAO and GAOC to Cardano and implement derived operations so that users can more easily mint and redeem just GAO and GAOC without having to do fission, fusion, and then transmutation if they're interested in only one of those two tokens.
+
+[14:04] **Bruno**: Thank you for listening. If you'd like to join us and if you'd like to contribute to what we are doing with software development or capital contributions or marketing contributions, whatever you'd like to do, you're very welcome.
+
+[14:22] **Bruno**: Please join our Discord server and Telegram channels, follow us on Twitter, Star and Fork our GitHub repos. You can see all the addresses in this slide. So that's it. Thank you very much and enjoy Gluon Gold on Ergo. Thank you.

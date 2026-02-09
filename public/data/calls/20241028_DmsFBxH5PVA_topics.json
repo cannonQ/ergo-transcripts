@@ -1,0 +1,205 @@
+{
+  "call_date": "2024-10-28",
+  "call_title": "Dev Update Oct. 28th 2024 |  Cyberverse, Paideia, MewFinance, Sigs Mining, Sigmaspace and more!",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Sigmanauts Mining Pool DAO Overview",
+      "category": "community",
+      "start_time": "00:30",
+      "end_time": "12:29",
+      "primary_speaker": "qx()",
+      "summary": "Detailed introduction to the Sigmanauts Mining Pool DAO, highlighting its community-driven approach, storage rent implementation, and educational mission. The pool features around 76 gigahash, implements bonus payments, and aims to make mining pools more engaging like Cardano stake pools.",
+      "key_terms": [
+        "Sigmanauts Mining Pool",
+        "storage rent",
+        "DAO",
+        "proof of work",
+        "mining",
+        "community governance"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Cross-Chain Mining Payment System Development",
+      "category": "technical",
+      "start_time": "08:37",
+      "end_time": "11:32",
+      "primary_speaker": "qx()",
+      "summary": "Mark the Shark is developing a system allowing miners to mine ERG but receive payments in other tokens like Rosen Bitcoin or ADA through NFT-based configuration. This enables mining proof-of-stake chains while contributing to Ergo's security.",
+      "key_terms": [
+        "cross-chain mining",
+        "Rosen tokens",
+        "NFT configuration",
+        "ErgoHack",
+        "Mark the Shark"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Kushti Protocol Development Updates",
+      "category": "technical",
+      "start_time": "12:51",
+      "end_time": "14:06",
+      "primary_speaker": "kushti",
+      "summary": "Protocol updates include polishing Sigma 6.0 PR, working on Sigma State Interpreter tests, sub-blocks input processing, testing 5.10 with database tweaks, and discussing LP contracts with Luca for Dexy.",
+      "key_terms": [
+        "Sigma 6.0",
+        "Sigma State Interpreter",
+        "sub-blocks",
+        "Dexy",
+        "LP contracts"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Paideia DAO Platform Beta Progress",
+      "category": "governance",
+      "start_time": "14:37",
+      "end_time": "16:05",
+      "primary_speaker": "Luivatra",
+      "summary": "Paideia fixes include handling null characters in PostgreSQL and off-chain transaction replay bugs. Live Paideia will bootstrap with zero rewards, and Sigmanauts will receive a free DAO for testing DAO creation functionality.",
+      "key_terms": [
+        "Paideia",
+        "DAO creation",
+        "beta infrastructure",
+        "Sigmanauts DAO",
+        "mainnet migration"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Nautilus Wallet Zero-Conf and Updates",
+      "category": "technical",
+      "start_time": "17:06",
+      "end_time": "18:19",
+      "primary_speaker": "Anand BR",
+      "summary": "Nautilus 0.15 beta with zero-conf is released on abyss channel for testing. Version 14.2 released on stable channel, fixing XLP creation bugs and implementing Ledger Flex and Stacks support with chain transaction building in Fleet SDK.",
+      "key_terms": [
+        "Nautilus wallet",
+        "zero-conf",
+        "XLP",
+        "Ledger support",
+        "Fleet SDK",
+        "chain transaction building"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Keystone Hardware Wallet Integration",
+      "category": "technical",
+      "start_time": "19:36",
+      "end_time": "20:20",
+      "primary_speaker": "qx()",
+      "summary": "Development of Ergo integration into Keystone hardware wallet with address generation working and transaction signing in progress. The wallet may be available through MewMart in the future.",
+      "key_terms": [
+        "Keystone hardware wallet",
+        "address generation",
+        "transaction signing",
+        "MewMart"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "SigmaSpace Explorer Performance Optimizations",
+      "category": "technical",
+      "start_time": "20:39",
+      "end_time": "21:18",
+      "primary_speaker": "PGR456",
+      "summary": "SigmaSpace implemented query monitoring and database optimizations making mempool transactions instantly visible. The explorer maintains GraphQL compatibility with other Ergo explorers and is now integrated into new Nautilus installations.",
+      "key_terms": [
+        "SigmaSpace",
+        "mempool optimization",
+        "GraphQL",
+        "database queries",
+        "blockchain explorer"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Token Flight Distribution Contract System",
+      "category": "technical",
+      "start_time": "21:32",
+      "end_time": "22:57",
+      "primary_speaker": "Neural Yogi",
+      "summary": "Token Flight system sends assets to proxy contracts for time-based distribution to users with various patterns including linear, quadratic, exponential, and logarithmic. Testing on testnet for Sigmanauts mining pool bonus rewards and ErgoHack 9 integration.",
+      "key_terms": [
+        "Token Flight",
+        "proxy contracts",
+        "vesting",
+        "distribution patterns",
+        "testnet",
+        "bonus rewards"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Cyberverse Rocket Rush Mini-Game Launch",
+      "category": "nft",
+      "start_time": "24:43",
+      "end_time": "27:39",
+      "primary_speaker": "Mixer Pixel",
+      "summary": "Cyberverse launched Rocket Rush, a multiplayer mini-game with competitive flying mechanics, power-ups, and point systems. Additional updates include chat improvements, music player enhancements, Halloween minting event, and increased emote selections.",
+      "key_terms": [
+        "Cyberverse",
+        "Rocket Rush",
+        "multiplayer gaming",
+        "NFT prizes",
+        "Halloween event",
+        "power-ups"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "MewFinance Ecosystem Expansion Updates",
+      "category": "defi",
+      "start_time": "27:39",
+      "end_time": "31:40",
+      "primary_speaker": "qx()",
+      "summary": "MewFinance updates include CLB development with Richie, MewDex Cardano native bridging, MewMart verified collections following EIP standards, Keystone integration, and SNEK payment support. Emphasis on practical blockchain utility through community commerce.",
+      "key_terms": [
+        "MewFinance",
+        "CLB",
+        "MewDex",
+        "MewMart",
+        "verified collections",
+        "EIP standards",
+        "community commerce"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Rosen Bridge P2P Communication Upgrade",
+      "category": "bridges",
+      "start_time": "33:05",
+      "end_time": "35:11",
+      "primary_speaker": "Armeanio",
+      "summary": "Rosenet implementation for improved guard peer-to-peer communication is in final testing phases. The upgrade aims to be more fault-tolerant, prevent stuck events, and scale to larger guard sets, requiring community participation in global decentralized testing.",
+      "key_terms": [
+        "Rosenet",
+        "Rosen guards",
+        "P2P communication",
+        "fault tolerance",
+        "decentralized testing",
+        "guard set scaling"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Liquidity Pool Development and Ecosystem Usage",
+      "category": "defi",
+      "start_time": "35:28",
+      "end_time": "38:47",
+      "primary_speaker": "qx()",
+      "summary": "Paul's raffle successfully raised over $2,200 for Rosen-ETH ERG liquidity pairs on Uniswap. Discussion of reaching out to mining pools for additional liquidity provision and emphasis on actively utilizing the ecosystem rather than just holding assets.",
+      "key_terms": [
+        "liquidity pools",
+        "Rosen-ETH",
+        "Uniswap",
+        "ecosystem utilization",
+        "mining pool liquidity",
+        "active participation"
+      ]
+    }
+  ]
+}

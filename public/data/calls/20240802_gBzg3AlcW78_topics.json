@@ -1,0 +1,287 @@
+{
+  "call_date": "2024-08-02",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - August 1st 2024",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Storage Rent Twitter Spaces Recap",
+      "category": "community",
+      "start_time": "00:54",
+      "end_time": "03:45",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of the recent Twitter Spaces focused on storage rent, featuring kushti, Joe Armeanio, and Luis Libre. The conversation addressed how to market storage rent to mainstream users and debunk common misconceptions about the feature.",
+      "key_terms": [
+        "storage rent",
+        "Twitter Spaces",
+        "marketing",
+        "adoption",
+        "Luis Libre",
+        "Joe Armeanio"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Upcoming Gold Trading Twitter Spaces",
+      "category": "community",
+      "start_time": "03:45",
+      "end_time": "07:07",
+      "primary_speaker": "kushti",
+      "summary": "Announcement of the next Twitter Spaces scheduled for August 9th at 4pm UTC focusing on gold trading derivatives, gold-backed on-chain assets, and digital insurance for physical gold. Plans to invite external participants and encourage community questions.",
+      "key_terms": [
+        "gold trading",
+        "derivatives",
+        "Twitter Spaces",
+        "Bruno",
+        "digital insurance",
+        "gold-backed assets"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Good Things DAO Kenyan Cooperative Loans",
+      "category": "ecosystem",
+      "start_time": "07:39",
+      "end_time": "12:11",
+      "primary_speaker": "kushti",
+      "summary": "Update on providing another loan to the Kenyan Cooperative through Good Things DAO with zero default rate so far. Discussion of scaling challenges and the need for better documentation and dashboard to track loans and increase participation.",
+      "key_terms": [
+        "Good Things DAO",
+        "Kenyan Cooperative",
+        "loans",
+        "default rate",
+        "Paideia",
+        "scaling",
+        "dashboard"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Real-World Use Cases Documentation Strategy",
+      "category": "ecosystem",
+      "start_time": "10:18",
+      "end_time": "16:15",
+      "primary_speaker": "kushti",
+      "summary": "Plans to create documentation for real-world Ergo use cases and potentially a new white paper reflecting five years of protocol operation. Focus on differentiating from other blockchains through practical applications rather than technical specs like TPS.",
+      "key_terms": [
+        "real-world adoption",
+        "white paper",
+        "use cases",
+        "TPS",
+        "value proposition",
+        "documentation"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Node Version 6.0 Development Progress",
+      "category": "technical",
+      "start_time": "18:55",
+      "end_time": "21:49",
+      "primary_speaker": "kushti",
+      "summary": "Node version 6.0 is mostly finalized and undergoing testing and review, with potential testnet launch by mid-August. Sub-blocks proposal has been updated and basic code development is underway with plans to invite contributors.",
+      "key_terms": [
+        "node 6.0",
+        "testnet",
+        "sub-blocks",
+        "FleetSDK",
+        "contributors",
+        "code review"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Dexy Gold Audit and Deployment Status",
+      "category": "defi",
+      "start_time": "21:49",
+      "end_time": "27:36",
+      "primary_speaker": "kushti",
+      "summary": "Dexy Gold undergoes audit by Four Eyes with minting and swap actions deployed. LP redeem functionality is being updated from Spectrum contracts. Discussion of oracle token distribution and emission mechanics for the gold-backed stablecoin.",
+      "key_terms": [
+        "Dexy Gold",
+        "Four Eyes audit",
+        "LP redeem",
+        "Spectrum",
+        "oracle tokens",
+        "gold emission",
+        "stablecoin"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "SigmaUSD Control Token Update",
+      "category": "defi",
+      "start_time": "26:53",
+      "end_time": "30:03",
+      "primary_speaker": "kushti",
+      "summary": "DarkSide has sent all SigmaUSD update tokens, giving kushti full control. Discussion of next steps including potential token burning or launching a new pool, with decisions pending on the protocol's future direction.",
+      "key_terms": [
+        "SigmaUSD",
+        "DarkSide",
+        "update tokens",
+        "token burning",
+        "protocol control"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Sigmanauts Merchandise and NFT Integration",
+      "category": "community",
+      "start_time": "30:13",
+      "end_time": "34:43",
+      "primary_speaker": "qx()",
+      "summary": "Sigmanauts preparing merchandise for RareEvo event including hats, crewnecks, and sticker packs. Planning NFT-based ordering system through Auction House with shipping integration and anonymous delivery options for community swag.",
+      "key_terms": [
+        "Sigmanauts",
+        "RareEvo",
+        "merchandise",
+        "NFT",
+        "Auction House",
+        "shipping",
+        "sticker packs",
+        "Unreal"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Sigmanauts Mining Pool Infrastructure Updates",
+      "category": "technical",
+      "start_time": "34:43",
+      "end_time": "35:05",
+      "primary_speaker": "qx()",
+      "summary": "Sigmanauts mining pool has established testnet infrastructure with mining core on server. Plans to integrate storage rent code and migrate to more cost-effective hosting to achieve profitability and potentially pay operator salaries.",
+      "key_terms": [
+        "mining pool",
+        "testnet",
+        "mining core",
+        "storage rent",
+        "server hosting",
+        "profitability"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Ethereum Integration and Sigma Chains",
+      "category": "technical",
+      "start_time": "35:05",
+      "end_time": "41:18",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of potential Ethereum implementations of Dexy and Gluon protocols. Exploration of first Sigma chain options including merge-mined sidechains versus standalone blockchains, with decisions dependent on finding suitable partners and funding.",
+      "key_terms": [
+        "Ethereum",
+        "Dexy",
+        "Gluon",
+        "Sigma chain",
+        "merge mining",
+        "sidechain",
+        "partnerships",
+        "funding"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Fiat On-Ramp and Spectrum DEX Integration",
+      "category": "ecosystem",
+      "start_time": "41:49",
+      "end_time": "50:27",
+      "primary_speaker": "qx()",
+      "summary": "Negotiations with fiat on-ramp provider to integrate Spectrum DEX for direct token purchases. Proposal to enable fiat-to-token swaps starting with Rosen, allowing projects to embed buy widgets on their websites without users needing to purchase ERG first.",
+      "key_terms": [
+        "fiat on-ramp",
+        "Spectrum DEX",
+        "Rosen",
+        "widgets",
+        "direct purchase",
+        "Europe",
+        "Canada"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Russian Mining Regulations and Legal Status",
+      "category": "governance",
+      "start_time": "47:06",
+      "end_time": "48:04",
+      "primary_speaker": "kushti",
+      "summary": "Update on Russian cryptocurrency regulations effective September, with mining of all cryptocurrencies expected to be legal. Exchange activities limited to regulated sandbox zones, with legal interpretation pending from lawyer consultation.",
+      "key_terms": [
+        "Russia",
+        "mining regulations",
+        "cryptocurrency law",
+        "sandbox zones",
+        "legal interpretation"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Rosen Bridge Guard Updates and Scaling",
+      "category": "bridges",
+      "start_time": "48:04",
+      "end_time": "50:27",
+      "primary_speaker": "qx()",
+      "summary": "Discussion of recent frequent Rosen guard updates and challenges of scaling to 50 guards. Current guards operate on loan system without immediate profits, but future collateral requirements should improve responsiveness and commitment levels.",
+      "key_terms": [
+        "Rosen bridge",
+        "guard updates",
+        "scaling",
+        "collateral",
+        "slashing",
+        "profit mechanism",
+        "Ethereum bridge"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "FleetSDK Documentation and Developer Resources",
+      "category": "technical",
+      "start_time": "50:27",
+      "end_time": "54:01",
+      "primary_speaker": "kushti",
+      "summary": "Progress on FleetSDK tutorials including transaction building and automatic signing. Developer DAO supporting documentation efforts for multi-signature functionality, with recognition of need for better tutorials across the ecosystem.",
+      "key_terms": [
+        "FleetSDK",
+        "tutorials",
+        "transaction building",
+        "multi-signature",
+        "Nemo",
+        "Developer DAO",
+        "documentation"
+      ]
+    },
+    {
+      "topic_id": 15,
+      "title": "Storage Rent as Fixed Supply Innovation",
+      "category": "technical",
+      "start_time": "58:42",
+      "end_time": "60:16",
+      "primary_speaker": "kushti",
+      "summary": "Explanation of storage rent creating truly fixed supply unlike Bitcoin's decreasing supply over time. Storage rent balances lost coins with emission, making Ergo unique among cryptocurrencies with a stable, non-inflationary/deflationary supply model.",
+      "key_terms": [
+        "storage rent",
+        "fixed supply",
+        "Bitcoin comparison",
+        "coin loss",
+        "emission rate",
+        "unique asset",
+        "inflation"
+      ]
+    },
+    {
+      "topic_id": 16,
+      "title": "Community Participation and Active Investment",
+      "category": "community",
+      "start_time": "60:16",
+      "end_time": "65:41",
+      "primary_speaker": "qx()",
+      "summary": "Call for passive investors to become active contributors through simple actions like social media engagement, documentation translation, or small development tasks. Recognition of community members like Wombo for consistent behind-the-scenes contributions to the ecosystem.",
+      "key_terms": [
+        "active investment",
+        "community participation",
+        "social media",
+        "documentation",
+        "Wombo",
+        "peer-to-peer",
+        "Sisyphus"
+      ]
+    }
+  ]
+}

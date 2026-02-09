@@ -1,0 +1,80 @@
+{
+  "call_date": "2024-06-17",
+  "call_title": "Trustless Bitcoin Relay on Ergo | Alex Chepurnoy | ErgoHack VIII",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "11:08",
+      "decision": "All code released in public domain for free use by non-commercial and commercial applications",
+      "speaker": "kushti",
+      "context": "Making the trustless Bitcoin relay code available for others to build upon",
+      "topic": "technical",
+      "significance": "major",
+      "quote": "All the code is in public domain as usually, so it can be absolutely freely used by non-commercial as well as commercial applications"
+    }
+  ],
+  "commitments": [],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "02:52",
+      "question": "How to send back from Ergo to Bitcoin in a trustless way",
+      "context": "While Bitcoin to Ergo bridging is possible, the reverse direction remains problematic because trustless relay for Ergo on Bitcoin blockchain cannot be built",
+      "topic": "technical",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "10:24",
+      "question": "Economic model for Relay incentives for submitting blocks",
+      "context": "Need to address transaction fees to miners and increased fees for submitting block headers",
+      "topic": "tokenomics",
+      "raised_by": "kushti"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "00:30",
+      "fact": "Trustless Bitcoin relay is a minimal Bitcoin client done as a contract on the Ergo blockchain, validating proof of work and storing Bitcoin block headers",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 2,
+      "timestamp": "03:45",
+      "fact": "First Bitcoin relay was launched on Ethereum, initially maybe a grant from Ethereum Foundation, currently supported by ConsenSys",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 3,
+      "timestamp": "04:07",
+      "fact": "Ethereum relay was too expensive and often behind the Bitcoin blockchain, making it unpopular",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 4,
+      "timestamp": "04:15",
+      "fact": "Nervos Blockchain recently utilized a relay to build RGB++ protocol",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 5,
+      "timestamp": "07:27",
+      "fact": "Contract relies on Sigma 6.0 features such as sign bits decoding",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 6,
+      "timestamp": "09:24",
+      "fact": "Both contracts are tested and tests show they are working in a simulated blockchain",
+      "speaker": "kushti",
+      "topic": "technical"
+    }
+  ]
+}

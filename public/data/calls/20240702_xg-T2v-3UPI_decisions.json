@@ -1,0 +1,54 @@
+{
+  "call_date": "2024-07-02",
+  "call_title": "Blink - An Optimal Proof of Proof-of-Work | Lukas Aumayr | Ergoversary Summit 2024",
+  "decisions": [],
+  "commitments": [],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "12:23",
+      "question": "But the question is, are we really fine? Is this secure?",
+      "context": "Questioning the security of the initial lite client construction approach",
+      "topic": "technical",
+      "raised_by": "Lukas Aumayr"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "00:58",
+      "fact": "Bitcoin blockchain is on the order of 600 gigabytes currently",
+      "speaker": "Lukas Aumayr",
+      "topic": "technical"
+    },
+    {
+      "id": 2,
+      "timestamp": "04:19",
+      "fact": "In Bitcoin folklore, the unstable part is usually taken to be six blocks",
+      "speaker": "Lukas Aumayr",
+      "topic": "technical"
+    },
+    {
+      "id": 3,
+      "timestamp": "18:10",
+      "fact": "We could download a 1.6 kilobyte proof instead of 600 gigabytes",
+      "speaker": "Lukas Aumayr",
+      "topic": "technical"
+    },
+    {
+      "id": 4,
+      "timestamp": "21:53",
+      "fact": "We require a proof of length 2k plus 1",
+      "speaker": "Lukas Aumayr",
+      "topic": "technical"
+    },
+    {
+      "id": 5,
+      "timestamp": "22:04",
+      "fact": "If we assume k to be 6, we would require 13 block headers to send and verify",
+      "speaker": "Lukas Aumayr",
+      "topic": "technical"
+    }
+  ]
+}

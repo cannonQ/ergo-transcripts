@@ -1,0 +1,111 @@
+{
+  "call_date": "2024-06-21",
+  "call_title": "Weekly Update & AMA - June 20th 2024",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "03:07",
+      "decision": "6,700 ERGs from community vote will be distributed to winners, with Sigmanauts voting on distribution method",
+      "speaker": "qx()",
+      "context": "Community vote has finished and funds need to be allocated",
+      "topic": "governance",
+      "significance": "minor",
+      "quote": "For the community vote, there's about 6,700 ERGs that are going to be distributed to the Sigmanauts are now voting on how to distribute that"
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "15:14",
+      "commitment": "Big announcement in about six hours with new innovative tooling for Ergo",
+      "owner": "Dan Friedman",
+      "timeline": "about six hours",
+      "topic": "technical",
+      "quote": "it's only a few hours away and it is going to be, like I said, it's going to be really cool for Ergo. It's going to be new innovative tooling for Ergo"
+    },
+    {
+      "id": 2,
+      "timestamp": "16:07",
+      "commitment": "Palmyra public sale starting on the 24th",
+      "owner": "Dan Friedman",
+      "timeline": "24th",
+      "topic": "palmyra",
+      "quote": "the Palmyra public sale is starting on the 24th"
+    },
+    {
+      "id": 3,
+      "timestamp": "60:56",
+      "commitment": "mgPai will create a video explaining how the new tech works, releasing an hour after the announcement",
+      "owner": "mgPai",
+      "timeline": "an hour after the announcement",
+      "topic": "technical",
+      "quote": "he did make a video about how the tech is going to work and that's going to, there's going to be out like an hour after the announcement"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "43:03",
+      "question": "What are security ramifications if Rosen ends up with a market cap higher than ERG?",
+      "context": "Community member asking about potential security issues if Rosen token becomes more valuable than ERG",
+      "topic": "rosen-bridge",
+      "raised_by": "Community member"
+    },
+    {
+      "id": 2,
+      "timestamp": "02:20",
+      "question": "Need to check if other projects besides Bitcoin relay were missed in community votes",
+      "context": "kushti asking if other projects were accidentally omitted from voting",
+      "topic": "governance",
+      "raised_by": "kushti"
+    }
+  ],
+  "reversals_or_updates": [
+    {
+      "id": 1,
+      "timestamp": "02:09",
+      "previous": "Bitcoin relay project should have been included in community votes",
+      "update": "Bitcoin relay was accidentally missed from the community voting",
+      "reason": "qx() missed kushti's folder when pulling projects for voting",
+      "speaker": "qx()",
+      "topic": "governance"
+    }
+  ],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "03:34",
+      "fact": "Rosen BTC bridge went live on Friday",
+      "speaker": "qx()",
+      "topic": "rosen-bridge"
+    },
+    {
+      "id": 2,
+      "timestamp": "13:00",
+      "fact": "EVM codebase is basically ready but needs merging, dependency updates, testing, and setup ceremony",
+      "speaker": "kushti",
+      "topic": "rosen-bridge"
+    },
+    {
+      "id": 3,
+      "timestamp": "39:03",
+      "fact": "Watcher requirements are 800 ERGs and at least 33,000 Rosen (30,000 initial lock + 3,000 per permit)",
+      "speaker": "qx()",
+      "topic": "rosen-bridge"
+    },
+    {
+      "id": 4,
+      "timestamp": "34:58",
+      "fact": "GARD collateral requirement is $75,000 to become a GARD",
+      "speaker": "qx()",
+      "topic": "rosen-bridge"
+    },
+    {
+      "id": 5,
+      "timestamp": "42:36",
+      "fact": "Soft limit for watchers is 999 in the code, fully open participation now",
+      "speaker": "qx()",
+      "topic": "rosen-bridge"
+    }
+  ]
+}
