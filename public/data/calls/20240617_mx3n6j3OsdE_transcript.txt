@@ -1,0 +1,139 @@
+[00:11] **kushti**: Hello folks, kushti is here and I'm going to present my ErgoHack VIII project, which is a trustless Bitcoin relay on Ergo.
+
+[00:23] **kushti**: Let's start with introduction.
+
+[00:27] **kushti**: So what is a trustless Bitcoin relay?
+
+[00:30] **kushti**: So basically it's a minimal Bitcoin client done as a contract on the Ergo blockchain, which is validating proof of work and storing Bitcoin block headers and building best chain out of them.
+
+[00:45] **kushti**: So it's pretty similar to SPV Bitcoin clients.
+
+[00:52] **kushti**: And then with the best chain data, it is also possible to validate a Bitcoin transaction.
+
+[01:02] **kushti**: It's possible to validate its inclusion into a blockchain and then pass it to other contracts.
+
+[01:11] **kushti**: if the transaction is indeed from the Bitcoin blockchain.
+
+[01:18] **kushti**: So what are possible use cases for trustless Bitcoin relay?
+
+[01:24] **kushti**: First, it's possible to build trustless Bitcoin hashrate derivatives on Ergo.
+
+[01:30] **kushti**: For example, Bitcoin miners can do contracts on Bitcoin hashrate on Ergo to hedge against possible hashrate increase.
+
+[01:41] **kushti**: And then it also can be used in the second place to make Ergo a smart layer for Bitcoin.
+
+[01:52] **kushti**: So with trustless relay, Ergo contracts can do actions based on Bitcoin transactions or data reading on Bitcoin blockchain, for example, in OP_RETURN fields.
+
+[02:05] **kushti**: That is how some already proposed protocols for the Bitcoin blockchain such as RGB and RGB++ and so on operate.
+
+[02:21] **kushti**: Also it's possible to do somewhat trustless bridging from Bitcoin to Ergo, basically unlocking Bitcoin tokens on Ergo if they are locked on Bitcoin blockchain.
+
+[02:39] **kushti**: The question is how to send back in a trustless way, because we cannot build trustless relay for Ergo on the Bitcoin blockchain.
+
+[02:52] **kushti**: So this is still the open question.
+
+[02:56] **kushti**: But it's possible probably to do trustless cross-chain decentralized exchanges by avoiding locking by just doing transfers from one chain to another, backed by a transfer in opposite directions, so basically doing cross-chain exchange, trustless relay based.
+
+[03:32] **kushti**: But still, well, this is a question for further research.
+
+[03:36] **kushti**: All right, so there is some history for Bitcoin relays on other blockchains.
+
+[03:45] **kushti**: The first Bitcoin relay was launched on Ethereum.
+
+[03:49] **kushti**: Maybe initially it was a grant from Ethereum Foundation.
+
+[03:54] **kushti**: I've forgotten actually about that, but currently it's supported by ConsenSys.
+
+[03:59] **kushti**: This relay was too expensive, so often it was behind the Bitcoin blockchain.
+
+[04:07] **kushti**: So yeah, it's not popular because of that.
+
+[04:15] **kushti**: Recently, Nervos Blockchain utilized a relay to build RGB++ protocol.
+
+[04:27] **kushti**: So what is the scope of the ErgoHack submission?
+
+[04:33] **kushti**: So in the first place, get relay contract done, and the contract is validating incoming headers, building commitments to database with the headers, and choosing best chain out of all the headers submitted.
+
+[04:57] **kushti**: Then a second contract is doing validation for a Merkle proof of Bitcoin transaction inclusion into a block with enough confirmations using relay contract data.
+
+[05:16] **kushti**: Then, considering problems with Bitcoin relays on Ethereum, the goal here is also to show feasibility of the approach, publish contracts along with detailed description and outline further research.
+
+[05:35] **kushti**: So let's go towards that step by step.
+
+[05:42] **kushti**: Okay, so contracts implementation.
+
+[05:45] **kushti**: There are two contracts here, relay contract and Bitcoin transaction inclusion validation contract.
+
+[05:54] **kushti**: So our relay contract is organized as follows.
+
+[05:57] **kushti**: So it holds digests of two trees, one for our best headers.
+
+[06:05] **kushti**: And also their heights for client applications like inclusion validation contract and another tree for all the headers.
+
+[06:17] **kushti**: And also the contract is storing separately.
+
+[06:22] **kushti**: Well, Bitcoin, blockchain tips, block ID and also cumulative work, which is the chain quality.
+
+[06:38] **kushti**: Then the contract is also doing efficient switching from one fork to another.
+
+[06:49] **kushti**: because all headers in the AllHeaders tree database are containing digests of header chains.
+
+[07:02] **kushti**: So to switch from one best chain to another, we're just rewriting bestHeaders tree digest.
+
+[07:12] **kushti**: The contract is doing Bitcoin proof-of-work validation.
+
+[07:18] **kushti**: And it relies on our Sigma 6.0 features such as sign bits decoding.
+
+[07:27] **kushti**: Maybe that could be bypassed.
+
+[07:30] **kushti**: Well, hard to say at this point.
+
+[07:34] **kushti**: Then Bitcoin transaction inclusion validation contract is validating that some transaction was included into a block with enough confirmations.
+
+[07:46] **kushti**: It is provided with transaction bytes.
+
+[07:51] **kushti**: Relay contract has a data read-only input and two proofs.
+
+[07:56] **kushti**: One proof is for proving that a header in the relays contract.
+
+[08:01] **kushti**: Best chain has enough confirmations.
+
+[08:04] **kushti**: And another is Merkle tree proof for transaction inclusion into a block with the header from the first proof.
+
+[08:13] **kushti**: And well, this check is pretty efficient.
+
+[08:18] **kushti**: And talking about efficiency, really, contact is also pretty efficient.
+
+[08:24] **kushti**: So, well, fork's resolution is not much different from just adding a block on top of a best block known.
+
+[08:43] **kushti**: And in both cases this is just about, well, kilobytes of data to be transferred to the contract and not so much computations.
+
+[08:55] **kushti**: So for transaction inclusion it's the same.
+
+[08:58] **kushti**: So proof is just are basically about transaction bytes, header proof and merkle proof, so yeah, a few kilobytes as well and not so much computations.
+
+[09:13] **kushti**: All right, so both contracts are tested and tests are showing that they are working in a simulated blockchain.
+
+[09:24] **kushti**: So what about further steps in research and development around?
+
+[09:32] **kushti**: So what's missed for now is a transaction parser.
+
+[09:37] **kushti**: So the next step, obviously, is about doing such a transaction parser for concrete goals for starters, like reading OP_RETURN data from concrete output, for example.
+
+[09:52] **kushti**: Then on top of such concrete parsers, concrete applications could be done, such as RGB++ implementation, for example.
+
+[10:06] **kushti**: And well, more front-end applications on top of that.
+
+[10:12] **kushti**: And well, what's missed is economic model for Relay, so incentives for submitting blocks.
+
+[10:24] **kushti**: to the relay contract, so there is need to pay transaction fees to miners and actually increased fees for submitting block headers, so there is need for some incentives probably here.
+
+[10:47] **kushti**: Alright, so I'm inviting everyone to build on it, so here is the GitHub.
+
+[10:58] **kushti**: All the code is in public domain as usually, so it can be absolutely freely used by non-commercial as well as commercial applications.
+
+[11:10] **kushti**: So come and build and profit from building smart players for Bitcoin on Ergo.
+
+[11:19] **kushti**: Thank you for your attention.
+
+[11:22] **kushti**: Bye.

@@ -1,0 +1,169 @@
+{
+  "call_date": "2024-06-23",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "02:23",
+      "question": "What projects from ErgoHack were you most excited about and how do you judge between different types of innovations?",
+      "asker": "qx()",
+      "answer": "It's incredibly difficult to judge because you have different types of value. For example, mgPai's multisig work drops the barrier of entry dramatically for user experience - that's huge for security and UX in the short term. But then you have something like kushti's trustless relay work that could be incredibly impactful long-term and open up new DeFi frameworks. How do you judge the trade-off between something that's massive for immediate security improvements versus something that could change the world in the future? I don't know how to make that choice.",
+      "responder": "Armeanio",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "ErgoHack",
+        "multisig",
+        "trustless relay",
+        "DeFi",
+        "user experience"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "07:22",
+      "question": "How does RosenPort enhance mining functionality?",
+      "asker": "qx()",
+      "answer": "RosenPort allows miners to mine directly to a RosenPort wallet and when it reaches a certain threshold, the bridge automatically moves your crypto to another chain. This enhances the mine-ability of other assets - if you mine Ergo, you can seamlessly move to other places. It opens up lots of possibilities for cross-chain mining workflows.",
+      "responder": "qx()",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "RosenPort",
+        "mining",
+        "cross-chain",
+        "bridge"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "19:40",
+      "question": "What makes Ergo's monetary policy unique compared to other cryptocurrencies?",
+      "asker": "qx()",
+      "answer": "Ergo has a unique demurrage-based security mechanism where all of the value on Ergo is potentially available to the miners, creating incentives to stay active and secure the network. This is a new experiment in the cryptocurrency space with unique long-term properties. The distribution curve was quite rapid and intense, but we're still stepping down through the monetary inflation schedule.",
+      "responder": "Armeanio",
+      "category": "tokenomics",
+      "difficulty": "advanced",
+      "related_terms": [
+        "demurrage",
+        "storage rent",
+        "monetary policy",
+        "mining rewards"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "22:53",
+      "question": "What are the advantages of commodity-backed stablecoins over fiat-backed ones?",
+      "asker": "qx()",
+      "answer": "Gold or silver-backed stable coins avoid huge regulatory attack vectors because you're not essentially counterfeiting money like with fiat-backed ones. There are already distributed networks of dealers globally trading these assets in every jurisdiction. If we can create profit margins for them to extend their business digitally, it makes sense and avoids the legal problems of fiat pegs. Most people globally want stability, not volatility - they want their money to preserve purchasing power.",
+      "responder": "Armeanio",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "stablecoins",
+        "gold-backed",
+        "regulatory",
+        "commodity money"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "27:17",
+      "question": "Why is consumer-grade mining important for global adoption?",
+      "asker": "qx()",
+      "answer": "Consumer-grade hardware proof-of-work can feed people globally. When ETH mining was profitable, people worldwide with just one GPU could earn a couple bucks a month, and in some places that goes a long way - literally putting food on tables and keeping lights on. Having low barrier of entry with the best security assumptions is important. Anyone around the world with basic computer hardware can hop on and earn extra value that's distributed globally.",
+      "responder": "Armeanio",
+      "category": "mining",
+      "difficulty": "beginner",
+      "related_terms": [
+        "consumer mining",
+        "GPU mining",
+        "decentralization",
+        "accessibility"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "33:15",
+      "question": "What is the vision for Sigmanauts regarding different mining algorithms?",
+      "asker": "qx()",
+      "answer": "I'd like to see Sigmanauts ported to multiple different energy inputs - CPU, GPU, different algorithms. We passed the four gigabyte cards so we had to harden over time, but it would be nice to have mechanisms where people could mine to Sigmanauts and potentially even Ergo. We could create unique constellations of proof-of-work and give people more access to financial tools through different types of consumer hardware.",
+      "responder": "Armeanio",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Sigmanauts",
+        "CPU mining",
+        "GPU mining",
+        "proof-of-work"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "48:25",
+      "question": "How could commodity-backed stablecoins enable global precious metals trading?",
+      "asker": "qx()",
+      "answer": "If we could create gold/silver stable coins with distributed networks of dealers who can charge their own premiums and settle physically, we could potentially fulfill the vision of digital gold from 1996. When war breaks out and someone needs to leave a jurisdiction, they could transfer their wealth digitally and settle physically anywhere. We'd essentially make precious metals weightless while maintaining the ability to convert back to physical assets through a global dealer network.",
+      "responder": "Armeanio",
+      "category": "defi",
+      "difficulty": "advanced",
+      "related_terms": [
+        "gold-backed stablecoins",
+        "precious metals",
+        "physical settlement",
+        "digital gold"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "54:07",
+      "question": "What is Ergo's approach to privacy and regulatory compliance?",
+      "asker": "qx()",
+      "answer": "We should advocate for privacy for everybody and deliver that in open source with clear assumptions. I've had people message me asking to delete the mixer because they don't like the look of it for regulatory reasons, but this is open source software that I don't control. My long-term goal is to build for resilience rather than compliance - to be an actual unstoppable network that offers counter-economic value rather than being co-opted by the old system.",
+      "responder": "Armeanio",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "privacy",
+        "mixer",
+        "regulatory compliance",
+        "open source",
+        "decentralization"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "58:45",
+      "question": "Why does Bitcoin's survivability make it valuable as a cryptocurrency?",
+      "asker": "qx()",
+      "answer": "Bitcoin's survivability is why it's king - it's died hundreds of times but keeps going. It's been attacked, banned in different jurisdictions, survived Mt. Gox where value went from $15 to a penny, and through all kinds of madness, but still tick tock next block. The net goal of open systems should be to try to be resilient rather than compliant. Bitcoin demonstrated that neutral money has to enable things you don't necessarily agree with in order to be truly free.",
+      "responder": "Armeanio",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Bitcoin",
+        "resilience",
+        "survivability",
+        "neutral money",
+        "censorship resistance"
+      ]
+    },
+    {
+      "qa_id": 10,
+      "timestamp": "62:52",
+      "question": "What makes proof-of-work superior to proof-of-stake as a monetary system?",
+      "asker": "qx()",
+      "answer": "Proof-of-work as energy input money fascinates me because excess cheap energy is a limited resource. If you move into a jurisdiction with cheap energy and start using a lot, they'll raise prices because demand is there. It's always chasing limited resources whether hydropower, solar, or computational power. It reminds me of commodity-based money distributed globally where players leverage whatever resources are in their environment to maximize profit. Proof-of-stake gets into social money with politics, governance complexity, and human nature issues.",
+      "responder": "Armeanio",
+      "category": "tokenomics",
+      "difficulty": "advanced",
+      "related_terms": [
+        "proof-of-work",
+        "proof-of-stake",
+        "energy input",
+        "commodity money",
+        "decentralization"
+      ]
+    }
+  ]
+}

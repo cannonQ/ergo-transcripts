@@ -1,0 +1,307 @@
+[00:14] **kushti**: Hello everyone, kushti is here and I'm going to provide some thoughts of mine, some fantasies on the next five years of Ergo.
+
+[00:27] **kushti**: So those are mine and just mine, just very personal reflections of mine on past and future of the Core Protocol and ecosystem development.
+
+[00:44] **kushti**: All right, and the talk is actually about three parts, unsurprisingly probably, so about history, the current state, and the future, I can imagine, in regards with core protocol.
+
+[01:07] **kushti**: ecosystem and governance of protocol development and maybe also ecosystem development.
+
+[01:19] **kushti**: Alright, so let's start with the past.
+
+[01:23] **kushti**: So how well we got the ecosystem we have now.
+
+[01:30] **kushti**: So it was started five years ago on July 1st 2019 and it was a painful launch actually in the middle of so-called crypto winter.
+
+[01:44] **kushti**: So, after a few months of shock and pain, Ergo Foundation was established.
+
+[02:03] **kushti**: First tools and libraries appeared.
+
+[02:11] **kushti**: like three or four months after the mainnet launch, we did the first crowdfunding using just the node.
+
+[02:21] **kushti**: So some hackery with the node and crowdfunding smart contracts.
+
+[02:29] **kushti**: We had, well, the first smart contract
+
+[02:36] **kushti**: I've forgotten which one, probably also crowdfunding, formally verified and so on.
+
+[02:43] **kushti**: Well, zero-join paper appeared back in 2019, so multi-stage contracts paper by Amitabh and so on.
+
+[02:57] **kushti**: 2020 was definitely much better with the first applications appeared.
+
+[03:13] **kushti**: for end users such as ErgoMixer, the very first application I'm still very proud of.
+
+[03:23] **kushti**: It was, well, initially some
+
+[03:31] **kushti**: Very raw application made by some unknown.
+
+[03:36] **kushti**: Then unknown 2020 did the application we basically have now.
+
+[03:46] **kushti**: Then Oracle Pools, so they were launched in late August 2020.
+
+[03:54] **kushti**: Then Zero-Knowledge Treasury from Unreal, so the first tool for end users to
+
+[04:04] **kushti**: do multi-signature and to decide on how to spend treasury, a common treasury, then auction house.
+
+[04:19] **kushti**: Then in early 2021, SigmaUSD
+
+[04:26] **kushti**: was launched then a few months after Spectrum DEX and well DeFi started to realize.
+
+[04:41] **kushti**: Then in 2022-2023 we had solid growth of DeFi along with tooling for developers.
+
+[04:55] **kushti**: So, we've got Ergo Raffle, we've got lending, so SigmaFi, DuckPools, and so on.
+
+[05:10] **kushti**: So, a lot of tooling for end users, DeFi tooling.
+
+[05:18] **kushti**: Then, yeah, well, now in 2024, well, we are finally getting cross-chain with Rosen Bridge.
+
+[05:33] **kushti**: So first, well, a bridge with Cardano and
+
+[05:40] **kushti**: just like two weeks ago with Bitcoin and now we are waiting for a bridge with Ethereum and then other EVM chains.
+
+[05:53] **kushti**: All right, so that's about ecosystem in regards with the core protocol.
+
+[05:59] **kushti**: We had a few upgrades.
+
+[06:04] **kushti**: First, the hardening hard fork in early 2021.
+
+[06:09] **kushti**: Then EIP-27 soft fork.
+
+[06:14] **kushti**: Very soft actually, so only miners updated.
+
+[06:20] **kushti**: Then EIP-37.
+
+[06:24] **kushti**: unplanned and quite unfortunate hard fork.
+
+[06:30] **kushti**: Then planned Sigma 5.0 soft fork in late 2022.
+
+[06:39] **kushti**: All right, and in regards with governance, well, we got a few organizations.
+
+[06:49] **kushti**: Over the years, started with Ergo Foundation, established around autumn 2019.
+
+[06:58] **kushti**: Then Sigmanauts, now DAO.
+
+[07:02] **kushti**: Well, I believe it was established back in 2022.
+
+[07:07] **kushti**: Maybe late 2022, I've actually forgotten.
+
+[07:12] **kushti**: And well, recently a new DAO was established, ErgoDevs DAO.
+
+[07:18] **kushti**: So now we have three organizations in the ecosystem and in regards with the current states.
+
+[07:29] **kushti**: What do we have now?
+
+[07:31] **kushti**: So let's start with the ecosystem.
+
+[07:32] **kushti**: So still,
+
+[07:36] **kushti**: We have only one stable coin, SigmaUSD.
+
+[07:41] **kushti**: Two are ready for launch, Dexy and Gluon, so we are actually in the middle of the Dexy launch at the moment.
+
+[07:48] **kushti**: And Gluon is also actually planning for a mainnet launch in weeks.
+
+[07:59] **kushti**: Those three stable coins are algorithmic cryptocurrency backed.
+
+[08:10] **kushti**: Stable coins and in regards with trusted options such as USDT, USDC, and so on, with bridges, they are expected as well.
+
+[08:27] **kushti**: So we will have a variety of stablecoins, which is good, so then we can expect for increased liquidity, more ERG to be locked in DeFi in stablecoin reserves to be, to say precisely.
+
+[08:51] **kushti**: And yeah, well, modified tooling would be needed for multiple stable coins environment, such as stable pools, for example.
+
+[09:07] **kushti**: And well, in regards with bridges, so we have Cardano and Bitcoin, as I mentioned, and Ethereum is on the way.
+
+[09:16] **kushti**: We have now a variety of DEXes, most of them are very new.
+
+[09:23] **kushti**: So we have Spectrum DEX, AMM pools with now different UIs even, so Spectrum DEX and CruxFinance.
+
+[09:35] **kushti**: Very recently, just like two weeks ago, a new DEX called TradingHouse was launched.
+
+[09:44] **kushti**: It's a fully on-chain peer-to-peer order book based decentralized exchange.
+
+[09:50] **kushti**: During the last ErgoHack, a new DEX called CrystalPool was implemented.
+
+[10:02] **kushti**: It's a fast order book based DEX with centralized matching.
+
+[10:09] **kushti**: Then there are more options such as decentralized grid trading.
+
+[10:17] **kushti**: For that there is a tool anyone can launch locally called TeleFract.
+
+[10:26] **kushti**: And it is doing self-sovereign grid trading against AMM pools.
+
+[10:33] **kushti**: Kind of cool.
+
+[10:34] **kushti**: Please try if your skills are up for that.
+
+[10:40] **kushti**: Then we have lending, so SigmaFi providing bonds and DuckPools for pooled lending.
+
+[10:55] **kushti**: We have games and NFTs such as Blitz TCG, Cyberverse, Auction House, SkyHarbor.
+
+[11:10] **kushti**: We have different derivatives and monetary experiments such as SigmaO,
+
+[11:24] **kushti**: It's a derivatives platform for options.
+
+[11:29] **kushti**: Then we have for auction coin, HODL coin.
+
+[11:37] **kushti**: We now have finally a tool for building DAOs by Paideia.
+
+[11:46] **kushti**: So already a few DAOs around.
+
+[11:51] **kushti**: using Paideia, we have Ergo Raffle for crowdfunding.
+
+[11:57] **kushti**: So actually a lot of tooling already and well many applications actually not mentioned here such as Xlair I'm using to provide loans to Kenyan farmers and here actually much more.
+
+[12:18] **kushti**: Alright.
+
+[12:21] **kushti**: So with that, let me provide some work of imagination on future of the protocol and ecosystem development.
+
+[12:35] **kushti**: Well, again, so no one can predict future and I'm definitely not an exception, but yeah, why not to think about it anyway.
+
+[12:47] **kushti**: So let me provide some thoughts on future.
+
+[12:51] **kushti**: So in regards with core protocol, I'm currently working on Sigma 6.0 with fixes and new features in contraction layer.
+
+[13:04] **kushti**: Those new features will allow for more contracts for Lithos.
+
+[13:10] **kushti**: For example, for more efficient rollups from what current research is showing in this area, because we still don't have rollups.
+
+[13:28] **kushti**: Then, yes, so with Sigma 6.0 there will be support for trustless hash rate derivatives.
+
+[13:42] **kushti**: There will be support for trustless Bitcoin relay contracts and so on.
+
+[13:49] **kushti**: Then, well, there is need to do another
+
+[13:54] **kushti**: round of research and development in fast confirmations and improved propagation for better throughput using sub-blocks or micro blocks, something like that.
+
+[14:09] **kushti**: And then well with storage rent slowly unwrapping.
+
+[14:18] **kushti**: And well, with storage rent being more and more significant with time, it will be good to have discussions on storage rent at some point and maybe on some tweaking around it.
+
+[14:37] **kushti**: if needed, so it's still a very open question.
+
+[14:42] **kushti**: But there are some EIPs on that.
+
+[14:45] **kushti**: For example, EIP-45 on storage rent
+
+[14:52] **kushti**: Redistribution.
+
+[14:54] **kushti**: So I guess it would be good to return to such discussions maybe in late 2024.
+
+[15:05] **kushti**: Then, well, to be useful in the real world we need for tooling to create money with elastic supply.
+
+[15:21] **kushti**: and also well using stable unit of account such as gold.
+
+[15:29] **kushti**: And so for that there are some proposals such as ChainCash, which is exactly about creating money with elastic supply based on Ergo as collateral, other blockchain assets, tokenized real world assets,
+
+[15:51] **kushti**: or trust.
+
+[15:52] **kushti**: So, well, in ChainCash it's up to the receiver of a payment whether to accept it or not based on quality of collateral and also trust involved between parties.
+
+[16:10] **kushti**: But we need also for more derivatives stable coins and monetary experiments such as option coins, for example, not auction, but option.
+
+[16:26] **kushti**: Maybe perpetuals.
+
+[16:30] **kushti**: So, yeah, there is a lot of experimentation on other chains.
+
+[16:37] **kushti**: Well, there are some truly unique things on Ergo, such as Auction Coin and Option Coin.
+
+[16:45] **kushti**: So yeah, it's good to have good ideas from outside implemented on Ergo and also to continue with unique experiments.
+
+[17:00] **kushti**: Alright, then sidechains.
+
+[17:04] **kushti**: So it makes sense and I'm working on that already.
+
+[17:08] **kushti**: It makes sense to publish and explain.
+
+[17:11] **kushti**: Sidechain designs already done from ErgoHack 7.
+
+[17:19] **kushti**: And then trustless relay from ErgoHack 8.
+
+[17:26] **kushti**: and so on and well it makes sense to continue this line of research and well I think about how to launch something with some parties interested in
+
+[17:47] **kushti**: Then, well, there is definitely a need to always work on decentralizing and strengthening mining.
+
+[18:01] **kushti**: So, well, Lithos, well, its mainnet launch is still planned for November or December this year.
+
+[18:17] **kushti**: so please check Lithos presentation
+
+[18:24] **kushti**: Then, yeah, well, with storage rent bringing more and more in comparison with block reward.
+
+[18:35] **kushti**: We may see a lot of interesting games coming here and, well, miners jumping from one pool to another, for example, based on, well, the efficiency in storage rent collecting and so on.
+
+[18:53] **kushti**: I really hope to see a revival of Fair initial mining offerings.
+
+[19:00] **kushti**: So, well, it seems much better than just ordinary airdrops, which
+
+[19:14] **kushti**: always messy you know a lot of cheating happens in about every airdrop a lot of insider games and so on so well with
+
+[19:35] **kushti**: Mining used as distribution mechanism, so it's definitely more fair usually.
+
+[19:47] **kushti**: So there is no way to cheat here.
+
+[19:50] **kushti**: You need to do real work with your hardware.
+
+[19:57] **kushti**: Alright, and hopefully, well, with time, miners will profit from sidechains also.
+
+[20:10] **kushti**: And then, well, if we imagine development of cross-chain, then yeah, well, there are some
+
+[20:21] **kushti**: Things for near future such as Bitcoin runes support different EVM chains after Ethereum bridge launch.
+
+[20:31] **kushti**: Then we can imagine support for Bitcoin Cash, Nervos and some other blockchains from UTXO Alliance not only.
+
+[20:47] **kushti**: And then, well, we can imagine some things to be built on top of trustless relays, such as RGB++ protocol, maybe using isomorphic binding and more.
+
+[21:07] **kushti**: And then, yeah, well,
+
+[21:14] **kushti**: Still there is need to improve tooling for developers and well, there are some things already planned such as support for costing and Sigma 6.0 in Sigma Rust.
+
+[21:31] **kushti**: Then definitely there is need for better error reporting for contract developers and for debugging.
+
+[21:41] **kushti**: Maybe at some point it would be good to add support for more high-level languages such as ErgoLisp maybe and more.
+
+[21:55] **kushti**: And it would be good to get back to formal verification again at some point.
+
+[22:03] **kushti**: Now well with concrete experience
+
+[22:12] **kushti**: from years of developing contracts on Ergo.
+
+[22:21] **kushti**: Well, aside of ecosystem development, core protocol and developers tooling, let's talk a bit about the social aspect.
+
+[22:40] **kushti**: So hopefully we will see more entities in addition to three we already have, so Ergo Foundation, Sigmanauts and ErgoDevs DAO.
+
+[22:55] **kushti**: Maybe at some point we will see something like Ergo Association or Ergo Ecosystem Fund.
+
+[23:03] **kushti**: Well, for
+
+[23:09] **kushti**: Well, discussing some common things for whole ecosystem projects and taking some actions needed for the whole ecosystem, maybe.
+
+[23:22] **kushti**: Then in regards with core
+
+[23:30] **kushti**: protocol implementation reference clients and libraries there is need to define I think in observable future even define rules for releases and consider more seriously release security here
+
+[23:59] **kushti**: and also to decide rules for research-driven development of core protocols and protocols around
+
+[24:11] **kushti**: I think it's a good time to start discussions on that.
+
+[24:21] **kushti**: That's all.
+
+[24:22] **kushti**: So then how can we imagine Ergo in five years combining all those thoughts about the future?
+
+[24:34] **kushti**: So we can imagine
+
+[24:38] **kushti**: Ergo has hyperconnected blockchain are connected with
+
+[24:47] **kushti**: external blockchains such as Bitcoin, Cardano, Nervos Ethereum and so on.
+
+[24:56] **kushti**: Also with rich sidechains ecosystem with safest DeFi for users and also largely built for peer-to-peer interactions to be trustless and secure.
+
+[25:17] **kushti**: Then, yeah, it will bring value to the real world with tools, with stable pricing and elastic supply to fulfill the real world economy's needs.
+
+[25:46] **kushti**: But, yeah, well, those tools would be based on high-quality digital assets, namely proof-of-work assets such as Ergo.
+
+[25:59] **kushti**: And, yeah, it will be built by a decentralized community following a research-driven approach.
+
+[26:14] **kushti**: All right, that's all.
+
+[26:17] **kushti**: Thank you for your attention.
+
+[26:19] **kushti**: Happy Ergoversary.

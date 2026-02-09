@@ -1,0 +1,117 @@
+{
+  "call_date": "2024-10-26",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "03:40",
+      "question": "What is decision fatigue in Web3 and how does it affect users?",
+      "asker": "Nico",
+      "answer": "Decision fatigue is amplified in Web3 because users need to choose between blockchains, protocols, wallets, pools, and settings they may not understand, all while avoiding scammers and potential fund loss. There are more decisions to make and these decisions have greater risks - you may lose all your money simply trying to mint an NFT or by sending funds to the wrong address. When users feel overwhelmed by these choices, they get decision fatigue and simply freeze, often deciding not to interact with the app or protocol at all.",
+      "responder": "Nico",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "UX",
+        "user experience",
+        "Web3 adoption",
+        "decision fatigue"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "05:09",
+      "question": "How can developers reduce decision fatigue for users in Web3 applications?",
+      "asker": "Nico",
+      "answer": "When possible, predefine settings in your user journey and allow expert users to tweak them - if 90% of users do something a certain way, make that decision for them and let them edit if needed. When you can't make a choice, recommend one and tell users what you would pick. If presenting options, label them clearly like 'fastest choice', 'safest choice', 'cheapest one'. Show contextual information that's relevant to the user's current step, and think from the user's perspective about what information they need to make the right choice, not just what data you have available.",
+      "responder": "Nico",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "UX design",
+        "user interface",
+        "settings",
+        "user journey"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "06:41",
+      "question": "What new roles do Web3 users have to assume compared to Web2 users?",
+      "asker": "Nico",
+      "answer": "Users in Web3 are no longer just users - they become custodians of their own assets, liquidity providers, and sometimes operate like a bank. They interact with protocol governance and play a role in protocol decisions. On top of that, they need to be crypto lawyers and blockchain accountants to ensure they're not breaking any rules or legislation. These new roles that users are assuming are often too much to deal with, lacking relevant knowledge or support on how to navigate them.",
+      "responder": "Nico",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Web3",
+        "self-custody",
+        "governance",
+        "DeFi"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "07:41",
+      "question": "How should developers approach the complete user journey in Web3 applications?",
+      "asker": "Nico",
+      "answer": "Consider the complete user journey by thinking about how, when and why users will come to your app, and what they need to deal with after interacting with it. For example, if users need to handle taxes after using your platform, try to facilitate a tax solution inside your product or provide enough information for them to do their own taxes. If users are part of governance, notify them in-app about upcoming votes and let them vote directly in your app instead of only communicating through Discord. Try to integrate these new user roles into your product seamlessly.",
+      "responder": "Nico",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "user journey",
+        "integration",
+        "governance",
+        "taxes"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "11:00",
+      "question": "What is optimistic UI and how should it be applied in Web3 applications?",
+      "asker": "Nico",
+      "answer": "Optimistic UI means if something is loading or a process is happening, like waiting for block confirmation, you should showcase this to the user. This includes writing things like 'loading' or 'searching', labeling transactions as 'pending', using notifications when something is confirmed, explaining the current state of specific tasks, or using skeleton UI while content loads. Users need constant feedback so they know what's happening, similar to how Uber Eats shows your order status rather than just giving you a transaction number.",
+      "responder": "Nico",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "UI patterns",
+        "user feedback",
+        "blockchain confirmations",
+        "loading states"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "13:49",
+      "question": "What does a user-first approach mean in Web3 product development?",
+      "asker": "Nico",
+      "answer": "Start by thinking who will use your product and what problem it will solve. Have empathy for the user and understand that the majority don't care about blockchain - they care about their problems. Ask whether the problem actually needs blockchain technology to solve it and if it's a better, more efficient way. Don't just take existing Web2 ideas and add blockchain to them. Involve design, UX, and product teams early, do UX research, analyze from a user point of view, and get user feedback as soon as possible.",
+      "responder": "Nico",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "product development",
+        "user research",
+        "problem solving",
+        "blockchain adoption"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "16:55",
+      "question": "How should developers handle technological constraints that create poor user experiences?",
+      "asker": "Nico",
+      "answer": "Question everything, especially if it's making the overall experience bad. If needing tokens from the main chain to mint a free NFT is annoying, if wallet interactions are poor, or if users losing seed phrases means losing all funds, find workarounds. Don't simply accept something just because that's how it's always been done. Try to build new best practices for the industry, like embedding test transactions into wallets for large amounts, or automatically creating empty test wallets when interacting with unknown smart contracts to avoid scams.",
+      "responder": "Nico",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "technological constraints",
+        "user experience",
+        "wallet security",
+        "best practices"
+      ]
+    }
+  ]
+}

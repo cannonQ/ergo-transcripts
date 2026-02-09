@@ -1,0 +1,173 @@
+{
+  "call_date": "2024-09-20",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - September 19th 2024",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Welcome and Weekly Updates Overview",
+      "category": "community",
+      "start_time": "00:19",
+      "end_time": "01:57",
+      "primary_speaker": "kushti",
+      "summary": "kushti welcomes mgPai and discusses weekly text updates being translated into multiple languages including Russian, Spanish, and Vietnamese. Mentions intense developer discussions from previous day with upcoming video coverage by qx().",
+      "key_terms": [
+        "weekly updates",
+        "translations",
+        "developer chat",
+        "Telegram",
+        "Ergoforum"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Ergonames Development Progress and Implementation",
+      "category": "technical",
+      "start_time": "01:57",
+      "end_time": "05:03",
+      "primary_speaker": "mgPai",
+      "summary": "mgPai reports significant progress on Ergonames with complex contract system including recursive subnames and commit-reveal scheme to prevent front-running. Successfully completed end-to-end testing and plans to develop off-chain bot in Go.",
+      "key_terms": [
+        "Ergonames",
+        "commit-reveal",
+        "front-running protection",
+        "AVL trees",
+        "Go programming",
+        "off-chain bot"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Node 6.0 Development and DevNet Releases",
+      "category": "technical",
+      "start_time": "05:54",
+      "end_time": "09:10",
+      "primary_speaker": "kushti",
+      "summary": "kushti announces DevNet 1 release with support for new data structures, signed big integers, and higher order functions. Plans include DevNet 2, release candidate, then public testnet and mainnet. Also working on sub-blocks design following forum proposal.",
+      "key_terms": [
+        "Node 6.0",
+        "DevNet",
+        "signed big integers",
+        "higher order functions",
+        "sub-blocks",
+        "testnet"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Sub-blocks and ErgoScript 6.0 Features",
+      "category": "technical",
+      "start_time": "09:10",
+      "end_time": "11:27",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of sub-blocks activation after 6.0 and new ErgoScript features enabling rollups, layer 2 solutions, and reasoning about Ergo block headers within contracts. Emphasis on maintaining security standards through formal analysis.",
+      "key_terms": [
+        "sub-blocks",
+        "ErgoScript 6.0",
+        "layer 2",
+        "rollups",
+        "block headers",
+        "security proofs"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "University Outreach and Student Development Programs",
+      "category": "community",
+      "start_time": "11:27",
+      "end_time": "18:12",
+      "primary_speaker": "mgPai",
+      "summary": "mgPai describes efforts to recruit computer science students from his university to contribute to Ergo development as unique resume projects. Plans include hackathon sponsorship, workshops, and lectures to onboard new developers while helping students gain employment opportunities.",
+      "key_terms": [
+        "university outreach",
+        "hackathon sponsorship",
+        "student recruitment",
+        "resume building",
+        "workshops"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Ecosystem Projects and Roadmap Discussion",
+      "category": "ecosystem",
+      "start_time": "19:53",
+      "end_time": "27:43",
+      "primary_speaker": "kushti",
+      "summary": "kushti provides comprehensive overview of ecosystem projects including Paideia DAO, Lithos mining protocol, Trade House DEX, MewFinance, Dexy synthetic assets, ChainCash, Celaut system, and Rosen Bridge. Discusses philosophy of non-breaking updates to avoid community fragmentation.",
+      "key_terms": [
+        "Paideia",
+        "Lithos",
+        "Trade House",
+        "Dexy",
+        "ChainCash",
+        "Rosen Bridge",
+        "non-breaking updates"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "mgPai Career Plans and Ergo Commitment",
+      "category": "community",
+      "start_time": "27:43",
+      "end_time": "29:00",
+      "primary_speaker": "mgPai",
+      "summary": "mgPai confirms long-term commitment to Ergo development, praising the quality of Ergo libraries like AppKit despite smaller developer community compared to Ethereum. Plans to continue working in blockchain domain at Palmyra while maintaining Ergo involvement.",
+      "key_terms": [
+        "career commitment",
+        "AppKit",
+        "Palmyra",
+        "library quality",
+        "long-term involvement"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Ergonames Technical Details and Limitations",
+      "category": "technical",
+      "start_time": "30:15",
+      "end_time": "31:21",
+      "primary_speaker": "mgPai",
+      "summary": "Clarification that Ergonames will only resolve to Ergo addresses, not traditional websites. Cannot use standard domain registrars like Namecheap, requires Ergo wallet and on-chain transactions. Future upgrades may expand functionality.",
+      "key_terms": [
+        "address resolution",
+        "domain registrars",
+        "Ergo wallet",
+        "on-chain transactions",
+        "scope limitations"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "User Interface and Experience Improvements",
+      "category": "technical",
+      "start_time": "36:02",
+      "end_time": "43:05",
+      "primary_speaker": "mgPai",
+      "summary": "Discussion of wallet UI improvements by Nemo and Anon, mobile wallet development plans, and Phoenix front-end redesign. Emphasis on user-friendly interfaces and leveraging AI tools like Cursor IDE for faster development.",
+      "key_terms": [
+        "wallet UI",
+        "mobile wallet",
+        "Phoenix redesign",
+        "user experience",
+        "Cursor IDE",
+        "AI development"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Mining Marketing Strategy and GPU Mining Advantages",
+      "category": "marketing",
+      "start_time": "50:46",
+      "end_time": "58:47",
+      "primary_speaker": "mgPai",
+      "summary": "mgPai emphasizes Ergo's unique position in GPU mining market dominated by low-value coins and Kaspa forks. Discusses potential snowball effect if Ergo reaches $4-5 price point and the appeal of being able to create money at home while accessing DeFi applications.",
+      "key_terms": [
+        "GPU mining",
+        "mining profitability",
+        "Kaspa forks",
+        "price targets",
+        "home mining",
+        "DeFi integration"
+      ]
+    }
+  ]
+}

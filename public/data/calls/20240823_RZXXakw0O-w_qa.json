@@ -1,0 +1,116 @@
+{
+  "call_date": "2024-08-23",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "10:11",
+      "question": "What was demonstrated with Cardano's Layer 2 Hydra at Rare Evo?",
+      "asker": "implicit from mgPai's presentation",
+      "answer": "They coded an entire game called Doom on-chain that was entirely running on Hydra. Every movement, every shot, everything you did in the game was an on-chain transaction. The game ran at 32 frames per second, which means 32 transactions per second on Hydra. They were running three Hydra heads to achieve this performance.",
+      "responder": "mgPai",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Hydra",
+        "Layer 2",
+        "UTXO",
+        "scaling"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "19:09",
+      "question": "What does the 6.0 deployment process look like for Ergo?",
+      "asker": "qx()",
+      "answer": "It's about miner signaling and automatic activation, similar to all soft forks. A couple of validation rules will be deactivated that are touching on serialization and doing obsolete checks where there is new functionality now. Old versions will still be in sync as they will deactivate the same rules and skip validation of scripts not being recognized.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "soft fork",
+        "mining",
+        "validation",
+        "signaling"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "29:38",
+      "question": "How is Keystone integration progressing and will it take as long as Ledger?",
+      "asker": "Vydom",
+      "answer": "Integration won't be as long as Ledger. It's much simpler and more frictionless because you don't have to talk to a lot of people for official approval like with Ledger, which takes a lot of time. Work has restarted on the integration and it's going pretty well. They may reach out to the Ergo DAO for help once responsibilities are structured.",
+      "responder": "mgPai",
+      "category": "wallet",
+      "difficulty": "beginner",
+      "related_terms": [
+        "hardware wallet",
+        "Keystone",
+        "Ledger",
+        "integration"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "31:03",
+      "question": "When will Ergo Names be released?",
+      "asker": "Michael (via kushti)",
+      "answer": "It's about 70% complete. There were some issues in the contract implementation that required a smaller refactor, which LGD is working on. Once that's done, they'll begin the off-chain implementation again. The system will be robust with features like paying with any token and recursive sub names from the start.",
+      "responder": "mgPai",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "naming system",
+        "contracts",
+        "tokens",
+        "sub names"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "33:40",
+      "question": "How is Palmyra development going for Ergo integration?",
+      "asker": "Michael (via kushti)",
+      "answer": "Development is focused on Ergo integration into the Palmyra Pro application, which businesses will use to add metadata to their commodities. This is the entry point into traceability, and the phone application will be directly connected to the Ergo chain. Traceability metadata that businesses input will be stored directly on Ergo.",
+      "responder": "mgPai",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Palmyra",
+        "traceability",
+        "metadata",
+        "business integration"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "35:49",
+      "question": "What would be the downsides of extending the duration of ErgoHack?",
+      "asker": "Neuro",
+      "answer": "The problem with long ErgoHacks is that people get distracted with real-life matters like families and jobs. Most developers would probably spend the same amount of time (just one or two weekends) whether it's three days or one month. There's not much difference for most people between three days and one month - they'd dedicate at most three days anyway.",
+      "responder": "kushti",
+      "category": "governance",
+      "difficulty": "beginner",
+      "related_terms": [
+        "ErgoHack",
+        "hackathon",
+        "developer participation"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "39:44",
+      "question": "What are the options being discussed for initial ChainCash use cases?",
+      "asker": "Wombo22",
+      "answer": "The first option being discussed is to use it for communities, mostly trust-based currencies like local exchange trading systems. This involves one UI for community-based trading systems.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "ChainCash",
+        "local exchange",
+        "community currency",
+        "LETS"
+      ]
+    }
+  ]
+}

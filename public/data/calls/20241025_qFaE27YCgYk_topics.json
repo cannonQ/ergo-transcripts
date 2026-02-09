@@ -1,0 +1,92 @@
+{
+  "call_date": "2024-10-25",
+  "call_title": "Communicating with Ergo | Alex Chepurnoy | ErgoHack 9",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Ring Signature Script Creation and Setup",
+      "category": "technical",
+      "start_time": "00:11",
+      "end_time": "03:01",
+      "primary_speaker": "kushti",
+      "summary": "Kushti demonstrates creating a simple ring signature script using ErgoScript that provides basic obfuscation by allowing spending with either of two public keys. The script preserves zero-knowledge properties, hiding which specific key was used for spending unlike Bitcoin's multisig approach.",
+      "key_terms": [
+        "ring signature",
+        "ErgoScript",
+        "zero-knowledge",
+        "public keys",
+        "hardened derivation",
+        "obfuscation"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Custom Scan Registration for Script Detection",
+      "category": "technical",
+      "start_time": "03:01",
+      "end_time": "06:14",
+      "primary_speaker": "kushti",
+      "summary": "Tutorial on registering custom scans in the node to detect payments sent to custom scripts, since nodes only track simple pay-to-public-key transactions by default. The process involves getting script bytes from ErgoScript playground and configuring scan parameters including wallet interaction flags.",
+      "key_terms": [
+        "custom scan",
+        "Swagger API",
+        "ErgoScript playground",
+        "register R1",
+        "EIP-1",
+        "wallet interaction",
+        "UTXO tracking"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Testing Script Functionality and Transaction Flow",
+      "category": "technical",
+      "start_time": "06:14",
+      "end_time": "10:38",
+      "primary_speaker": "kushti",
+      "summary": "Live demonstration of sending ERG to the custom script address and verifying that the funds can be detected by the custom scan and spent by the wallet. Shows the complete transaction flow from mempool to block inclusion and successful spending.",
+      "key_terms": [
+        "Pay2Script address",
+        "mempool",
+        "unspent output",
+        "block inclusion",
+        "transaction spending"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Custom Scan Applications in Ergo Ecosystem",
+      "category": "ecosystem",
+      "start_time": "08:15",
+      "end_time": "09:33",
+      "primary_speaker": "kushti",
+      "summary": "Overview of how custom scans are widely used across Ergo applications including stablecoin backends, anonymous applications, Ergo Auctions, and Proxy Service. Alternative methods like JDE and Explorer are also mentioned as used by ErgoMixer backend.",
+      "key_terms": [
+        "stablecoin bank",
+        "headless dApp framework",
+        "Ergo Auctions",
+        "ErgoMixer",
+        "JDE",
+        "Explorer",
+        "Proxy Service"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Advanced Wallet Methods for Custom Applications",
+      "category": "technical",
+      "start_time": "10:56",
+      "end_time": "12:19",
+      "primary_speaker": "kushti",
+      "summary": "Introduction to advanced wallet API methods for building complex applications with custom scans, including UTXO serialization and transaction generation methods. Explains how to work with custom inputs from scans in serialized form.",
+      "key_terms": [
+        "wallet methods",
+        "UTXO binary method",
+        "serialized outputs",
+        "generate unsigned",
+        "custom inputs",
+        "boxes from scans"
+      ]
+    }
+  ]
+}

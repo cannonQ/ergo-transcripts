@@ -1,0 +1,113 @@
+{
+  "call_date": "2024-06-17",
+  "call_title": "OptionPools | KrasaviceBlasen | ErgoHack VIII",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Option Pools Protocol Overview and DeFi Problems",
+      "category": "defi",
+      "start_time": "00:11",
+      "end_time": "02:33",
+      "primary_speaker": "Quokka",
+      "summary": "Introduction to Option Pools as a pool-to-peer options trading AMM protocol for ErgoHack VIII. Explains current DeFi options problems including risk, liquidity, and performance issues that prevent significant market adoption compared to CeFi.",
+      "key_terms": [
+        "option pools",
+        "AMM",
+        "pool-to-peer",
+        "liquidity providers",
+        "DeFi options",
+        "TVL",
+        "capital inefficiency"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Ergo Solution for On-Chain Options Pricing",
+      "category": "technical",
+      "start_time": "02:33",
+      "end_time": "03:19",
+      "primary_speaker": "Quokka",
+      "summary": "Presents Ergo as the solution to DeFi options problems by enabling layer 1 options pricing using Black-Scholes model. Leverages UTXO model for security and Ergo's performance capabilities for on-chain computation.",
+      "key_terms": [
+        "Black-Scholes",
+        "UTXO model",
+        "layer 1",
+        "on-chain pricing",
+        "verification",
+        "DuckPools"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Option Pools UI Demo and Pool Setup",
+      "category": "defi",
+      "start_time": "03:21",
+      "end_time": "05:21",
+      "primary_speaker": "Quokka",
+      "summary": "Live demonstration of the Option Pools user interface showing ERG-USD pool setup. Demonstrates adding liquidity with 10 ERG and explains pool ratio concepts including bearish/bullish positioning possibilities.",
+      "key_terms": [
+        "ERG-USD pool",
+        "SigmaUSD",
+        "TVL",
+        "pool ratios",
+        "bearish",
+        "bullish",
+        "Rosen BTC"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Call Option Purchase and Black-Scholes Comparison",
+      "category": "technical",
+      "start_time": "05:21",
+      "end_time": "08:35",
+      "primary_speaker": "Quokka",
+      "summary": "Demonstrates purchasing a call option with $1.24 strike price and compares pricing to theoretical Black-Scholes model. Shows on-chain options pricing working on Ergo layer 1 with volatility oracle and explains pricing discrepancies.",
+      "key_terms": [
+        "call option",
+        "strike price",
+        "expiration",
+        "volatility oracle",
+        "European options",
+        "D1 D2 values",
+        "price premium"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Option Trading and Dynamic Pricing Demo",
+      "category": "defi",
+      "start_time": "08:35",
+      "end_time": "11:16",
+      "primary_speaker": "Quokka",
+      "summary": "Shows selling the purchased call option and demonstrates dynamic pricing adjustments based on market demand. Also demonstrates put option pricing and explains dual-asset payment functionality that occurred accidentally but has potential use cases.",
+      "key_terms": [
+        "option selling",
+        "dynamic pricing",
+        "market demand",
+        "put option",
+        "dual-asset payment",
+        "pool profit"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "ErgoScript Math Functions and Future Roadmap",
+      "category": "technical",
+      "start_time": "11:16",
+      "end_time": "12:42",
+      "primary_speaker": "Quokka",
+      "summary": "Summarizes ErgoHack achievements including implementing mathematical functions in ErgoScript and creating a volatility oracle. Outlines future plans for Delta/Vega neutral pools and integration with DuckPools for improved liquidity.",
+      "key_terms": [
+        "ErgoScript",
+        "math functions",
+        "logarithms",
+        "exponentials",
+        "square roots",
+        "volatility oracle",
+        "Delta neutral",
+        "Vega neutral"
+      ]
+    }
+  ]
+}

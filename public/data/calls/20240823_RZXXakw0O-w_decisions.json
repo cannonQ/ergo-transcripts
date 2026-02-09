@@ -1,0 +1,165 @@
+{
+  "call_date": "2024-08-23",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - August 22nd 2024",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "13:47",
+      "decision": "Move forward with beta version of auction house swag selling without Anne Unreal's help",
+      "speaker": "qx()",
+      "context": "Anne Unreal is busy with other projects",
+      "topic": "sigmanauts",
+      "significance": "minor",
+      "quote": "And we are going to move forward kind of on a beta version of auction house swag selling. This is going to be without Anne Unreal's help."
+    },
+    {
+      "id": 2,
+      "timestamp": "13:58",
+      "decision": "Mint NFTs one-to-one for swag and post them on auction house with shipping NFTs",
+      "speaker": "qx()",
+      "context": "Need to sell remaining swag from conference",
+      "topic": "sigmanauts",
+      "significance": "minor",
+      "quote": "So for now, we're going to mint NFTs one-to-one for the swag. We're going to post them on auction house. We're also going to mint NFTs for general shipping to different countries."
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "01:04",
+      "commitment": "Create a community poll for next spaces topic",
+      "owner": "qx()",
+      "timeline": "couple of days",
+      "topic": "community",
+      "quote": "I forgot I was assigned to make a poll for the community."
+    },
+    {
+      "id": 2,
+      "timestamp": "01:20",
+      "commitment": "Host Twitter spaces in two weeks",
+      "owner": "kushti",
+      "timeline": "two weeks",
+      "topic": "community",
+      "quote": "So yeah, there will be space in two weeks."
+    },
+    {
+      "id": 3,
+      "timestamp": "16:31",
+      "commitment": "Broad announcement for Gluon launch",
+      "owner": "Bruno/Stability Nexus",
+      "timeline": "coming days",
+      "topic": "defi",
+      "quote": "But, yeah, it will be done in the coming days."
+    },
+    {
+      "id": 4,
+      "timestamp": "17:05",
+      "commitment": "Dexy soft launch after deploying remaining contracts",
+      "owner": "kushti",
+      "timeline": "weeks",
+      "topic": "defi",
+      "quote": "so yeah well soft launch will be yeah in weeks"
+    },
+    {
+      "id": 5,
+      "timestamp": "23:29",
+      "commitment": "Another round of ChainCash testing with more people",
+      "owner": "kushti",
+      "timeline": "unspecified",
+      "topic": "chaincash",
+      "quote": "So we are ready now for another round of testing. Now, well, we can include some more people there"
+    },
+    {
+      "id": 6,
+      "timestamp": "30:18",
+      "commitment": "Reach out to Ergo DAO for help with Keystone integration",
+      "owner": "mgPai",
+      "timeline": "unspecified",
+      "topic": "wallet",
+      "quote": "And yeah, we're probably going to reach out. For help from the Ergo DAO."
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "00:57",
+      "question": "What topic should be discussed in the next Twitter spaces",
+      "context": "Need community input for spaces content",
+      "topic": "community",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "23:54",
+      "question": "How to reshape the developer DAO structure",
+      "context": "Current progress is quite slow",
+      "topic": "governance",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 3,
+      "timestamp": "25:20",
+      "question": "Need to formalize requirements for Oracle Pool software update",
+      "context": "People have asked for billing and other features",
+      "topic": "oracles",
+      "raised_by": "kushti"
+    }
+  ],
+  "reversals_or_updates": [
+    {
+      "id": 1,
+      "timestamp": "05:33",
+      "previous": "Plan to sell swag at conference",
+      "update": "Need to rethink strategy, might be more beneficial to give swag away",
+      "reason": "People were taking swag for free despite prices being displayed",
+      "speaker": "qx()",
+      "topic": "marketing"
+    },
+    {
+      "id": 2,
+      "timestamp": "23:00",
+      "previous": "ChainCash contracts had an issue",
+      "update": "Contracts and server have been updated and are ready for testing",
+      "reason": "Found issue preventing spending same notes twice for same public key",
+      "speaker": "kushti",
+      "topic": "chaincash"
+    }
+  ],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "13:43",
+      "fact": "About $4,000-$4,500 worth of swag remaining from conference",
+      "speaker": "qx()",
+      "topic": "sigmanauts"
+    },
+    {
+      "id": 2,
+      "timestamp": "17:37",
+      "fact": "Initial pull requests for Sigma 6.0 for testnet are now available",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 3,
+      "timestamp": "29:49",
+      "fact": "Keystone integration will be much faster than Ledger integration",
+      "speaker": "mgPai",
+      "topic": "wallet"
+    },
+    {
+      "id": 4,
+      "timestamp": "31:44",
+      "fact": "Ergo Names is about 70% complete",
+      "speaker": "mgPai",
+      "topic": "names"
+    },
+    {
+      "id": 5,
+      "timestamp": "10:47",
+      "fact": "Cardano's Hydra demo ran Doom game at 32 transactions per second using three Hydra heads",
+      "speaker": "mgPai",
+      "topic": "technical"
+    }
+  ]
+}

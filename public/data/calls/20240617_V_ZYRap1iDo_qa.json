@@ -1,0 +1,85 @@
+{
+  "call_date": "2024-06-17",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "00:25",
+      "question": "How does Crystal Pools enable trustless trading that looks like a centralized exchange?",
+      "asker": "implicit",
+      "answer": "Crystal Pools creates real Ergo transactions in the background for each order. Bob and Alice interact through a swap contract where each remains in control of their tokens throughout the process. Their wallets handle all transaction verification and signing automatically while maintaining trustless operation.",
+      "responder": "c8",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Crystal Pools",
+        "swap contract",
+        "trustless",
+        "DEX"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "01:13",
+      "question": "What are the 6 steps that happen when creating a sell order on Crystal Pools?",
+      "asker": "implicit",
+      "answer": "1) Bob's agent requests a new swap order from Crystal Pools, 2) Crystal Pools creates an unsigned transaction moving tokens from deposit to swap contract, 3) Bob's agent validates the transaction matches his intent, 4) Bob's agent signs and returns the transaction, 5) Crystal Pools adds its signature and submits to Ergo network or caches for later, 6) Crystal Pools notifies Bob of the order book change.",
+      "responder": "c8",
+      "category": "defi",
+      "difficulty": "advanced",
+      "related_terms": [
+        "Crystal Pools",
+        "swap order",
+        "transaction signing",
+        "order book"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "02:52",
+      "question": "What smart contracts does Crystal Pools use and what is Time Limited Multisig?",
+      "asker": "implicit",
+      "answer": "Crystal Pools uses four smart contracts: Deposit, Buy, Sell and Swap. Each includes Time Limited Multisig, which requires both user and Crystal Pools signatures to move funds initially, but after a certain blockchain height, the user automatically gains full control and Crystal Pools loses veto power. This prevents the service from holding funds hostage while enabling instant transactions.",
+      "responder": "c8",
+      "category": "defi",
+      "difficulty": "advanced",
+      "related_terms": [
+        "smart contracts",
+        "Time Limited Multisig",
+        "deposit contract",
+        "time lock"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "03:49",
+      "question": "How does transaction caching work in Crystal Pools?",
+      "asker": "implicit",
+      "answer": "Crystal Pools maintains and advances transactions without waiting for available mempool space, since mempool is limited and prone to volume spikes. The service cannot create unreasonably large amounts of unconfirmed transactions, but this is very useful for handling spikes in trading activity and enabling instant trading on layer 1.",
+      "responder": "c8",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "transaction caching",
+        "mempool",
+        "layer 1",
+        "trading volume"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "04:17",
+      "question": "What are the security risks of Crystal Pools' built-in wallet and how are they mitigated?",
+      "asker": "implicit",
+      "answer": "The built-in wallet has two main risks: 1) Malicious client code can access and exploit the wallet (mitigated by limiting and carefully choosing client packages), and 2) If deployed as a website, server hacks could compromise all clients. The solution is distributing the UI as native desktop and mobile apps instead of web-based, with desktop already available and mobile coming soon.",
+      "responder": "c8",
+      "category": "wallet",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "built-in wallet",
+        "security risks",
+        "desktop app",
+        "native app"
+      ]
+    }
+  ]
+}

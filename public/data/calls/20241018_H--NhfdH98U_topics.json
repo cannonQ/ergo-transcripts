@@ -1,0 +1,301 @@
+{
+  "call_date": "2024-10-18",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - October 17th 2024",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Ergo 6.0 Soft Fork Development Progress",
+      "category": "technical",
+      "start_time": "00:44",
+      "end_time": "04:06",
+      "primary_speaker": "kushti",
+      "summary": "Kushti reports significant progress on Ergo 6.0 activation with sub-blocks parameter voting working on DevNet. The soft fork implementation is proving less complex than initially expected, with 5.0 and 6.0 nodes successfully coexisting.",
+      "key_terms": [
+        "soft fork",
+        "sub-blocks",
+        "DevNet",
+        "protocol upgrade",
+        "node compatibility"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Database Migration from LevelDB to RocksDB",
+      "category": "technical",
+      "start_time": "02:56",
+      "end_time": "03:58",
+      "primary_speaker": "kushti",
+      "summary": "Testing continues on RocksDB database replacement with mixed results on different hardware. Performance varies between SSDs and HDDs, with better Windows compatibility and crash durability.",
+      "key_terms": [
+        "LevelDB",
+        "RocksDB",
+        "database migration",
+        "performance testing",
+        "crash durability"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Ergo 2030 Vision and Protocol Evolution",
+      "category": "governance",
+      "start_time": "04:06",
+      "end_time": "09:21",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of long-term Ergo vision extending to 2030 and beyond, emphasizing building robust, evolving protocols that grow communities rather than causing splits. Kushti draws from experiences with NXT blockchain's community fragmentation due to frequent hard forks.",
+      "key_terms": [
+        "Ergo 2030",
+        "protocol evolution",
+        "community growth",
+        "hard forks",
+        "NXT blockchain"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Lessons from Bitcoin and Ethereum Community Splits",
+      "category": "governance",
+      "start_time": "09:21",
+      "end_time": "11:37",
+      "primary_speaker": "kushti",
+      "summary": "Analysis of how community splits in Bitcoin (Core vs Cash vs SV) and Ethereum (Classic split) influenced Ergo's governance design. The 90% consensus requirement for protocol changes aims to prevent destructive community fragmentation.",
+      "key_terms": [
+        "Bitcoin Cash",
+        "Ethereum Classic",
+        "community splits",
+        "90% consensus",
+        "governance rules"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Decentralized vs Centralized Protocol Governance",
+      "category": "governance",
+      "start_time": "11:58",
+      "end_time": "14:30",
+      "primary_speaker": "kushti",
+      "summary": "Comparison between modern centralized foundation-controlled blockchains and Ergo's community-driven approach. Discussion of how centralization leads to silent user migration between chains rather than constructive discussion.",
+      "key_terms": [
+        "foundations",
+        "centralized control",
+        "VC chains",
+        "community governance",
+        "protocol decisions"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Community Empowerment and Individual Impact Potential",
+      "category": "community",
+      "start_time": "13:36",
+      "end_time": "18:01",
+      "primary_speaker": "qx()",
+      "summary": "QX emphasizes how newcomers to Ergo can create significant impact with minimal resources, contrasting this with other ecosystems. Discussion of the foreign concept of individual empowerment in today's crypto landscape.",
+      "key_terms": [
+        "individual impact",
+        "community empowerment",
+        "ecosystem participation",
+        "decentralized development",
+        "user agency"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Sigmanauts Update: Rosen Bridge and Mining Pool",
+      "category": "ecosystem",
+      "start_time": "18:34",
+      "end_time": "27:25",
+      "primary_speaker": "qx()",
+      "summary": "Updates on Rosen Bridge ETH launch readiness with 30 watchers, Sigmanauts mining pool reaching 72-73 gigahash, and ongoing storage rent collection. Discussion of new NFT-based mining configuration system being developed.",
+      "key_terms": [
+        "Rosen Bridge",
+        "ETH launch",
+        "watchers",
+        "mining pool",
+        "storage rent",
+        "NFT configuration"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Sigma Shop Marketplace and Escrow Services",
+      "category": "ecosystem",
+      "start_time": "21:11",
+      "end_time": "24:55",
+      "primary_speaker": "qx()",
+      "summary": "Plans for expanding Sigma Shop to include physical goods marketplace with escrow services for items like mining hardware. The service would provide testing and certification of used equipment with cross-chain payment support.",
+      "key_terms": [
+        "Sigma Shop",
+        "escrow services",
+        "physical goods",
+        "mining hardware",
+        "cross-chain payments",
+        "product certification"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "MewFinance Launch Success and Integration",
+      "category": "defi",
+      "start_time": "28:02",
+      "end_time": "29:42",
+      "primary_speaker": "qx()",
+      "summary": "Report on MewFinance's successful token launch with rapid sellout of multiple rounds. The platform uses modified Spectrum code with custom branding and has integrated themes into Erg Explorer.",
+      "key_terms": [
+        "MewFinance",
+        "token launch",
+        "Spectrum code",
+        "MewDex",
+        "Erg Explorer themes"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Ecosystem Participation and DAO Engagement",
+      "category": "governance",
+      "start_time": "31:12",
+      "end_time": "36:01",
+      "primary_speaker": "qx()",
+      "summary": "Call for increased participation in ecosystem DAOs like DuckPools and Sigmanauts DAO. Emphasis on moving from passive to active investment through voting, proposals, and treasury utilization to build local economies.",
+      "key_terms": [
+        "DAO participation",
+        "active investment",
+        "treasury utilization",
+        "voting",
+        "local economies",
+        "DuckPools"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Bug Reporting and Developer Collaboration",
+      "category": "technical",
+      "start_time": "36:01",
+      "end_time": "40:37",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of the importance of detailed bug reports for developers and the accessibility of Ergo's development team. Most issues can be resolved quickly with proper information and community collaboration.",
+      "key_terms": [
+        "bug reporting",
+        "developer collaboration",
+        "issue resolution",
+        "technical support",
+        "community feedback"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "Physical Goods Trading and Hardware Wallets",
+      "category": "ecosystem",
+      "start_time": "40:37",
+      "end_time": "43:21",
+      "primary_speaker": "kushti",
+      "summary": "Encouragement for community members to sell physical goods on marketplaces like MewMart. Update on hardware wallet integrations including completed Ledger/Trezor/Flex support and upcoming Tangem and Keystone integrations.",
+      "key_terms": [
+        "physical goods trading",
+        "MewMart",
+        "hardware wallets",
+        "Ledger",
+        "Trezor",
+        "Tangem",
+        "Keystone"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Mining Economics and Automated Investment",
+      "category": "defi",
+      "start_time": "43:21",
+      "end_time": "47:02",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of GPU mining profitability and automated investment opportunities. Plans for miners to automatically split payments between different assets and DeFi protocols like DuckPools lending.",
+      "key_terms": [
+        "GPU mining",
+        "automated investment",
+        "payment splitting",
+        "DuckPools lending",
+        "mining profitability"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "UTXO Innovation and Composable Primitives",
+      "category": "technical",
+      "start_time": "47:15",
+      "end_time": "51:00",
+      "primary_speaker": "kushti",
+      "summary": "Exploration of Ergo's unique UTXO capabilities including peer-to-peer auctions and composable primitives. Discussion of how UTXO design enables more secure and flexible contracts compared to account-based systems.",
+      "key_terms": [
+        "extended UTXO",
+        "peer-to-peer auctions",
+        "composable primitives",
+        "security",
+        "auction house",
+        "liquidity pools"
+      ]
+    },
+    {
+      "topic_id": 15,
+      "title": "Community Town Hall Format Proposal",
+      "category": "community",
+      "start_time": "51:00",
+      "end_time": "52:31",
+      "primary_speaker": "kushti",
+      "summary": "Proposal to try Zoom-based community town halls instead of Twitter Spaces to enable more open discussion format. The change would allow for free-form community conversations rather than structured presentations.",
+      "key_terms": [
+        "town hall",
+        "community format",
+        "Zoom calls",
+        "open discussion",
+        "Twitter Spaces alternative"
+      ]
+    },
+    {
+      "topic_id": 16,
+      "title": "AI-Assisted ErgoScript Development",
+      "category": "technical",
+      "start_time": "52:33",
+      "end_time": "57:30",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of using AI tools like ChatGPT and Claude for ErgoScript development. Kushti explains common security issues in UTXO scripts and suggests AI could be helpful for finding forgotten conditions while emphasizing the need for verification.",
+      "key_terms": [
+        "AI development",
+        "ChatGPT",
+        "Claude",
+        "ErgoScript",
+        "security audit",
+        "smart contracts"
+      ]
+    },
+    {
+      "topic_id": 17,
+      "title": "TVL Reporting Discrepancies",
+      "category": "ecosystem",
+      "start_time": "57:30",
+      "end_time": "58:37",
+      "primary_speaker": "qx()",
+      "summary": "Community question about TVL dropping from 11 million to 1.6 million on CoinGecko. Glasgow is investigating the discrepancy and will contact CoinGecko to verify their calculation methodology.",
+      "key_terms": [
+        "TVL",
+        "Total Value Locked",
+        "CoinGecko",
+        "metrics discrepancy",
+        "data accuracy"
+      ]
+    },
+    {
+      "topic_id": 18,
+      "title": "Exchange Listings and SigmaUSD Updates",
+      "category": "ecosystem",
+      "start_time": "58:37",
+      "end_time": "59:43",
+      "primary_speaker": "qx()",
+      "summary": "Brief update on Kraken listing application status (still under review) and question about SigmaUSD bank update options including code updates and minting limits, though discussion is cut off.",
+      "key_terms": [
+        "Kraken listing",
+        "exchange applications",
+        "SigmaUSD bank",
+        "code updates",
+        "minting limits"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "call_date": "2024-10-28",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "00:59",
+      "question": "What are the key properties we want from a cryptocurrency?",
+      "asker": "kushti",
+      "answer": "We want security - which means resilience to known attack vectors and even more security against unknown attacks if adversarial limits are known. Then we want decentralization. And we also want performance - we want from a cryptocurrency to handle load and be maybe even flexible so to accept more and more load with time.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "security",
+        "decentralization",
+        "performance",
+        "blockchain trilemma"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "02:36",
+      "question": "How does Ergo approach the blockchain trilemma regarding performance?",
+      "asker": "kushti",
+      "answer": "The approach is about to be on the right side of the trilemma, which is to have security and decentralization as top priorities. For performance and scalability, the approach is about making the protocol secure in the presence of everything in blockchain possibly being pruned. Then miners can increase TPS gradually without any concerns, and the protocol allows for secure pruning of the blockchain.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "blockchain trilemma",
+        "pruning",
+        "scalability",
+        "TPS"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "05:32",
+      "question": "How does Ergo support blockchain pruning?",
+      "asker": "kushti",
+      "answer": "The Ergo protocol was designed to allow secure pruning since day one. It's possible to securely prune full blocks via NippoPoWs, which is already supported in the reference client since version 5.0.12. You can avoid downloading and storing full blocks before the UTXO set snapshot, and it's even possible to prune block headers via NIPoPoWs.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "NippoPoWs",
+        "blockchain pruning",
+        "UTXO",
+        "stateless clients"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "07:54",
+      "question": "What is storage rent and how does it help with pruning?",
+      "asker": "kushti",
+      "answer": "Storage rent, also known as demurrage, is an economic tool where miners charge some storage rent for bytes being stored in the UTXO set. This rent is charged every four years, so all UTXOs are renewed every four years. Even if every node in the network has four years of history maximum, it's still okay for wallets and applications to find UTXOs.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "storage rent",
+        "demurrage",
+        "UTXO",
+        "pruning"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "11:27",
+      "question": "Is the Ergo protocol complete in terms of features needed for scalability?",
+      "asker": "kushti",
+      "answer": "Security wise and decentralization wise the protocol is quite perfect now. The protocol has a set of features to handle increasing load in the long term via pruning, supported since day one. Clients are getting support for different features with time, and miners can increase TPS limits organically as more performant clients appear with no forks needed.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "protocol completeness",
+        "scalability",
+        "TPS",
+        "pruning"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "14:25",
+      "question": "What is the development roadmap for Ergo layer 1 improvements?",
+      "asker": "kushti",
+      "answer": "The roadmap includes polishing pruning parts of the blockchain to make it flexible so nodes can choose which parts to store. There are optimizations in transaction validation, mempool, internal data structures, and parallel processing. Low hanging fruits include adopting compact blocks, which could provide one or two order magnitude improvements. New ErgoTree instructions for layer 2 support can be added via soft forks only.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "roadmap",
+        "ErgoTree",
+        "compact blocks",
+        "soft forks",
+        "layer 2"
+      ]
+    }
+  ]
+}

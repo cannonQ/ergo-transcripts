@@ -1,0 +1,136 @@
+{
+  "call_date": "2024-06-28",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "19:48",
+      "question": "What are non-custodial dApps and how do they work?",
+      "asker": "Marc the Shark",
+      "answer": "A non-custodial dApp means that nobody actually takes control of your coins. It's like this machine that is perfectly sealed up where you put your money in and then you get something out of it or the other way around. Nobody can interrupt that process - the only way would be to kill all the miners. It only benefits average people, as rich people can't profit from it in a custodial way.",
+      "responder": "tmr.erg",
+      "category": "defi",
+      "difficulty": "beginner",
+      "related_terms": [
+        "custodial",
+        "dApps",
+        "SigmaUSD",
+        "decentralized"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "22:38",
+      "question": "What is the fundamental purpose of cryptocurrency according to Ergo's philosophy?",
+      "asker": "Implicit discussion",
+      "answer": "The purpose of crypto is not to make you rich, but to make you free. This represents a focus on the foundational principles of why crypto was first created - providing financial freedom and decentralization - rather than just speculation and making money.",
+      "responder": "tmr.erg",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "manifesto",
+        "decentralization",
+        "freedom",
+        "philosophy"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "31:43",
+      "question": "What does it mean for Ergo to serve as a 'smart layer' for Bitcoin?",
+      "asker": "Marc the Shark",
+      "answer": "Bitcoin is pretty limited by design - it's supposed to be simple and primary so it doesn't break. Ergo allows much more flexible programming without huge contract risk, with developed languages and infrastructure to keep things decentralized. Using the Rosen Bridge, people can bring their Bitcoin to Ergo and do proper DeFi like loans and Bitcoin-backed stablecoins, all fully decentralized and non-custodial.",
+      "responder": "tmr.erg",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Bitcoin",
+        "Rosen Bridge",
+        "smart contracts",
+        "DeFi",
+        "layer 2"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "35:07",
+      "question": "How do Bitcoin and Ergo block times compare for practical use?",
+      "asker": "Marc the Shark",
+      "answer": "Bitcoin has 10-minute block times while Ergo has 2-minute block times. If you don't want to wait 10 minutes but want to use Bitcoin as your central financial layer, you could skip over to Ergo, complete whatever transactions you need within that same 10-minute timeframe, and then bridge back to Bitcoin if needed.",
+      "responder": "Marc the Shark",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "block time",
+        "Bitcoin",
+        "transaction speed",
+        "smart layer"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "10:36",
+      "question": "What is Ergo's current mining reward and how does it change over time?",
+      "asker": "Implicit discussion",
+      "answer": "Currently, Ergo mining rewards are at 27 ERG per block. The emissions keep being reduced over time, and in the next five years, it will drop considerably. This creates considerations for miners regarding profitability and incentives for developers to continue working in the ecosystem.",
+      "responder": "Marc the Shark",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "mining rewards",
+        "emissions",
+        "tokenomics",
+        "block rewards"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "11:41",
+      "question": "How does Ergo's token distribution compare to other blockchain projects?",
+      "asker": "Implicit discussion",
+      "answer": "Ergo is very similar to Bitcoin with no pre-mine, meaning no VCs got extra tokens. Compared to much larger chains with more funding, a larger percentage of tokens in other projects went to private entities. Ergo maintains fair distribution where you can buy ERG, but that helps everyone rather than enriching insiders.",
+      "responder": "Marc the Shark and tmr.erg",
+      "category": "tokenomics",
+      "difficulty": "beginner",
+      "related_terms": [
+        "no pre-mine",
+        "fair launch",
+        "token distribution",
+        "VC funding"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "25:31",
+      "question": "How does Paideia facilitate DAO voting for community decisions?",
+      "asker": "Implicit discussion",
+      "answer": "Paideia allows creation of DAOs where community members can vote on proposals. For the ErgoHack, voters could receive DAO tokens - raffle ticket holders got 5 votes, Sigmanauts got 2 votes, and community members got 1 vote. You stake your tokens on the platform and then vote on proposals, creating a pseudo-democracy system where you can vote for anything and create proposals with logic to facilitate outcomes.",
+      "responder": "Marc the Shark",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Paideia",
+        "DAO",
+        "voting",
+        "governance tokens",
+        "proposals"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "07:59",
+      "question": "What is the future potential of proof-of-work consensus in relation to energy infrastructure?",
+      "asker": "Implicit discussion",
+      "answer": "As we develop more sustainable energy sources like wind, solar, and nuclear, we need more demand rather than just more energy supply, so we don't overload power grids. Proof-of-work mining can provide this demand and keep power available for peak usage times. Additionally, with AI creating demand for graphics cards, GPU mining like Ergo can help balance this demand in ways that Bitcoin ASICs cannot.",
+      "responder": "tmr.erg",
+      "category": "mining",
+      "difficulty": "advanced",
+      "related_terms": [
+        "proof-of-work",
+        "energy grid",
+        "GPU mining",
+        "sustainable energy",
+        "AI demand"
+      ]
+    }
+  ]
+}

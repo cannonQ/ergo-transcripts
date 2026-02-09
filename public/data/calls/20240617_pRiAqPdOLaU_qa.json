@@ -1,0 +1,85 @@
+{
+  "call_date": "2024-06-17",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "00:59",
+      "question": "How does Moria Finance's multisig implementation differ from the standard EIP-42 protocol?",
+      "asker": "Implied from presentation",
+      "answer": "Moria Finance follows the EIP-42 protocol with one modification. Instead of setting the derivation index of the user's wallet address to zero as specified in EIP-42, they directly use the address provided by the creator since they found this approach simpler for their use case.",
+      "responder": "Luca",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "EIP-42",
+        "multisig",
+        "wallet derivation",
+        "smart contracts"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "04:38",
+      "question": "What special signing methods are required for multisig transactions in Ergo?",
+      "asker": "Implied from presentation",
+      "answer": "Multisig requires different signing methods compared to usual transactions. Two methods were added to the Nautilus fork: 'generate commitments for transaction' (the first stage to generate public and private secrets) and 'sign transaction multi' (to sign the transaction with the secrets). These methods will be added to the official Nautilus wallet in a new release with the v3 manifest.",
+      "responder": "mgPai",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "multisig",
+        "Nautilus",
+        "commitment schemes",
+        "signing protocols"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "05:31",
+      "question": "Why is a backend server required for ErgoPay integration with multisig?",
+      "asker": "Implied from presentation",
+      "answer": "A backend server is required because ErgoPay only receives instructions from a website but can't reply back to the website. The server enables communication between ErgoPay and the website, and their database is set up to communicate from the backend. Although ErgoPay isn't supported yet because it needs the special multisig signing methods, the backend is ready for when they can fork Ergo Mobile Wallet.",
+      "responder": "mgPai",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "ErgoPay",
+        "backend architecture",
+        "mobile wallet",
+        "API communication"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "04:07",
+      "question": "What are the key database entities in Moria Finance's multisig system?",
+      "asker": "Implied from presentation",
+      "answer": "The database has four main entities: confirmed user, multisig wallet, multisig unsigned transaction, and multisig signed transaction. These have relations where a confirmed user can create multisig wallets and transactions, commit and sign unsigned transactions, and submit signed transactions. The design also allows for future functionality where users can upload unsigned transactions independently and sign them without creating a wallet first.",
+      "responder": "Luca",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "database design",
+        "relational model",
+        "transaction management",
+        "user workflows"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "09:29",
+      "question": "Do you need funds in your personal Nautilus wallet to participate in multisig transactions?",
+      "asker": "Implied from demo",
+      "answer": "No, you don't need any funds in your personal Nautilus wallet for multisig transactions because you're only signing. The inputs for the transaction come from the multisig wallet itself, not from the individual signer's wallet.",
+      "responder": "mgPai",
+      "category": "wallet",
+      "difficulty": "beginner",
+      "related_terms": [
+        "multisig",
+        "Nautilus",
+        "transaction inputs",
+        "wallet funding"
+      ]
+    }
+  ]
+}

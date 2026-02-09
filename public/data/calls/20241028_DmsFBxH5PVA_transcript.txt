@@ -1,0 +1,205 @@
+[00:18] **qx()**: Hello and welcome to the hundred and twenty-somethingth dev update.
+
+[00:30] **qx()**: Roland's solo again today. So I figured I'd take a chance to mention and feature an ecosystem item, project kind of thing.
+
+[00:43] **qx()**: And what better thing to do in a proof of work blockchain than to add something as open source and open community as Ergo then to feature the Sigmanauts mining pool DAO.
+
+[00:55] **qx()**: Now, you may say I'm a little partial to this, but this is exactly why I love Ergo.
+
+[01:04] **qx()**: For those of you that are mining or even have a gaming card or casual miners or anything like that, the best and easiest way without borders that you guys can get ERG is to convert your electricity into ERG. It's as simple as that. There's no easier way to get ERG than doing that.
+
+[01:25] **qx()**: So what we wanted to do is something that we suffer with in a lot of chains, I guess, is apathy, right? So with mining, at least in proof of work chains, miners have to pay bills, miners have to mine, so you have a lot of miners that are mining based on whatever is going to profit the most.
+
+[01:50] **qx()**: You still have miners that speculate. Of course, a lot of people speculate on Ergo, so they're mining Ergo with the hopes that Ergo is going up and they pay their bills with what they have now and use some of that for prospecting, at least speculating in the future, for the price of ERG.
+
+[02:09] **qx()**: So that's great. But one thing that we really wanted to do with Sigmanauts Mining Pool DAO is to get miners more involved and to recognize that Ergo's proof of work is a little bit different than other proof of works. There's more incentive for miners to make choices and steer the chain and set these small parameters or vote on large parameters that could result in more than a soft fork, a hard fork.
+
+[02:36] **qx()**: So the idea was what can we do to educate as well as have fun and spread open source stuff and build things. So we met up with Mark the Shark, and we developed the Sigmanauts Mining Pool DAO. It's super fun.
+
+[02:58] **qx()**: Again, I am partial but if anybody is interested we go to the sigmanauts.com and you'll see at the top here. My window's a little small. There's a little hamburger menu up to the upper right. You pull it down. It says mining and it takes you this nice page that our buddy Rust in my Eye, whom we all love dearly, has created for us.
+
+[03:22] **qx()**: Automatically gives you the pool hash rate. There's about seventy three point seventy six point three nine gigahash in there, which is a lot. I mean that's pretty decent hash for just starting up about six months ago and coming from nowhere. Little introduction about what we do - we're DAO driven, community run, supporting the Ergo ecosystem.
+
+[03:52] **qx()**: Some more verbiage there if you want to read it. We recommend some mining softwares - Rigel Miner seems to be the most updated, so we tend to run on that whenever we have issues. And we have two ports open, under 10 gigahash and over 10 gigahash for the beefy miners.
+
+[03:59] **qx()**: And there's a little thing you can put in your address here right on the Sigmanauts page to get your kind of instance stats there. Otherwise, we have three dashboards up now. I believe there's a shark pool dash, which is Mark's fancy dash that I don't think it's quite ready yet. There's a simple dashboard right here, which is just something I throw together every time I change something. Super super simple and then there's the Sigmanauts mining by XYZ.
+
+[04:26] **qx()**: I think this is - there's a Strofe or PGR. It's one of the two. I apologize in advance for fucking that up. It slipped my memory. So just some tips on how to set up your cards and you're good to go.
+
+[04:39] **qx()**: It is for people who have a gaming rig and want to support Ergo. It's one of the best things you can do. I have a 3090 downstairs. Usually I point it towards this pool. But lately I've just been hammering it down and toning it down and pointing it towards the testnet so people can have an actual usable testnet along with a few other people. But this is where I mine when I am mining.
+
+[05:07] **qx()**: So if you have a gaming card and you want to contribute, you want to join in and have some fun, win some blocks, win some extra bonuses, this is it.
+
+[05:21] **qx()**: So let me jump in a little more to this as well, to something unique that these guys do. Here's an example of a bot that's running on the channel in Telegram. You can just talk to the bot and give it your wallet address or your Telegram address, and it tells you every time a block is found.
+
+[05:44] **qx()**: You can see we've had pretty decent, I mean, with 76, it's ranged from 50 to 76. At one point when we first launched, it was around, we had a couple bit of rented hash just to test it out. We pumped it up to about 90 or 100. But this is fluctuating between 40 and 70, 40 and 80. So it's really, really good. Really good results there.
+
+[06:12] **qx()**: And if you look in here, something that makes us a little unique is we are the first actual mining pool to implement storage rent. We call it the Ergo Sigmanauts storage rent pool now. And if you look right up here at this alert, you'll notice there's an incoming TX to the storage rent wallet.
+
+[06:35] **qx()**: We have a separate wallet set up for tracking storage rent. So anytime storage rent is collected, it's extracted into a wallet, deposited into a special wallet. And then there was just a vote on Paideia because it's a mining DAO of what to do with this stuff, how to distribute it. I can't recall the vote. You'll have to dive in yourself and see that a little closer. But that's how this pool operates. Everybody is an owner. Everybody gets a choice on what happens.
+
+[06:59] **qx()**: And if you look up here at our every six hours right here, you can see that we even state that here. It's a pool of the community based and run for issues. Please ask in chat and everybody helps everybody.
+
+[07:11] **qx()**: So first pool that implemented storage rent, we commissioned it from qx() who ran GetBlok in the past. We've been collecting, I think we've maybe have 40 or so ERG so far, maybe a little less. We've collected since we started doing storage collection.
+
+[07:27] **qx()**: This pool also has some cool things that, let's see, where can I find it? Did we run out? We may have run out. We also have bonus payments. So either we use the funds to purchase tokens in the ecosystem, we get tokens donated to us, and every couple hours bonus payment is sent to a random wallet, or they're distributed. I believe the Paideia vote that just happened chose to distribute them evenly over everybody for a month. So look into that as well. That's a change that just happened because of the vote.
+
+[08:09] **qx()**: Too much good stuff about this. It's a great pool. Its intention is to engage miners and educate miners and for all of you people maybe who are mining ETH that maybe are watching this, Mark the Shark who runs a pool now is working on a swapping mechanism and what this does is if you checked out ErgoHack last ErgoHack.
+
+[08:37] **qx()**: Mark and I developed a technique that allows you to mine ERG but get paid in Rosen Bitcoin or Rosen - I think we tested it in those two. So essentially, point your rig. There's a designation we did to put what you wanted in the string of your miner ID. We extract that, run the calculation tables ourselves, and then pay out in that kind of swap.
+
+[09:05] **qx()**: So you can set your threshold with your miner ID, you can set your payment request in any Rosen token was the idea, and then you mine, but you get paid in Bitcoin or you get paid in ADA.
+
+[09:20] **qx()**: So Mark pumps some steroids into that and is developing a new thing for this ErgoHack that essentially will allow you to put a token, mint an NFT, put it in your mining wallet, and the system will then read that NFT to determine, yep, I want to be paid in Ethereum, a Rosen Ethereum. I want to be paid every two equivalent ERG or 30 equivalent ERG or whatever price that is. And you just mint that token, leave it in your wallet and the system checks that every couple cycles. And if you remove that, it goes back to the default. If you put something else in and remove that, it will update that. And then the next cycle will start getting those payments.
+
+[10:06] **qx()**: The really, really cool part of that is that you can mine proof of stake chains, like Ethereum, like Cardano, but also contribute to the security of the Ergo blockchain, which I think is really damn cool.
+
+[10:22] **qx()**: Yeah, so the overall idea of this baked into the education of the Sigmanauts mining pool DAO is education, and we want to be able to make mining pools kind of sexy again like stake pools are in Cardano.
+
+[10:40] **qx()**: So the idea would be to partner up with stake pool operators and say, hey, you have 2,000 people delegating to your pool, all right? Let's say 10% of that. So 200 people have a gaming rig or video card. They could then point that towards the Sigmanauts mining pool, or your own concoction of that with some software that Mark is making to spin up for these node operators.
+
+[11:09] **qx()**: And they could be mining to Ergo, but collecting Rosen ADA, or even Rosen SNEK, or even whatever reward token that could cross Rosen Bridge that's relevant to your stake pool. So it's another way for these stake pool operators potentially to give a benefit or an incentive to their delegators.
+
+[11:32] **qx()**: So that's how we're pushing it. That's how Mark's pushing it now. Mind for any token, educate, get miners involved, get them voting in the DAO and just get them to make decisions as a community. That's the spirit of it all. It's a long battle, of course, but it's going fantastically well.
+
+[11:53] **qx()**: The Sigmanauts Mining DAO Telegram channel is super fun to be in, I suggest. Even if you're not a miner, hop in there. It's not exclusively for miners. There's a lot of people that aren't miners in there that love chatting and keeping abreast on what the latest is for that kind of stuff.
+
+[12:10] **qx()**: Okay, enough about Sigmanauts mining pool. Please join it. Go to sigmanauts.com, pull down the mining, you'll get all the things, all the information here, and join the mining telegram chat as well as in Discord. It's called Sigmanauts mining pool as well on the side of the main Ergo area.
+
+[12:29] **qx()**: So please, please join us and help contribute to the security of the network by mining.
+
+[12:36] **qx()**: Okay, let's get into ASMR mode for Luivatra on the dev update. 12 minutes of me talking was plenty, so let's get right in here.
+
+[12:51] **qx()**: Okay, kushti says he's in Telegram this week because he was at, he was in Dubai rubbing elbows and getting a lot of info. It seems like he got a good kind of vision of the landscape of at least what kind of big money was thinking about crypto if you read some of the comments in main chat. Very, very interesting. Seemed like he was eating ramen at night and engaging in main chat. So if you missed that, go back to main chat, search for kushti. There's a lot of good chatting in the last three or so days, two or three days late in the UTC time.
+
+[13:30] **qx()**: OK, so here's what he did. Ergo protocol and reference client research and development. Polished, reviewed, and merged into Sigma 6.0 PR. Approved and will be merged into 6.0 PR later today. Polished and made more tests in the Sigma State Interpreter under review now. Right there, the two pulls. For sub-blocks working slowly on input versus key processing, continuing to test 5.10 along with tweaking some database settings.
+
+[13:59] **qx()**: With Dexy, he's discussing LP contracts with Luca. Fantastic.
+
+[14:06] **qx()**: Then our buddy Wombo came in and copied the discord right there so that kushti didn't have to from telegram perfect.
+
+[14:15] **qx()**: Luivatra with Crux Finance found out the PostgreSQL does not like the null character 0x00 in text columns even though it is valid UTF-8. Token cemented with null character in description field broke the Crux backend so had to put in a fix for this. All is working again now great.
+
+[14:37] **qx()**: Paideia. Found another off-chain bug which only occurs when dealing with replaying transactions, for example during syncing from scratch, in which votes are cast. Working on fix for that now. Once that fix is live, he will bootstrap Live Paideia with zero profit sharing and zero staking rewards so no one will miss out on anything with the final pieces I put into place. Treasury spending and config updates will be tested on main Paideia DAO. Sigmanauts DAO, yay, will be created to test DAO creation and give the Sigmanauts a free DAO.
+
+[15:11] **qx()**: When he says this, he means we're in beta right now, right? We're on main net, but we're in the beta version of this. So we've been using Paideia for six plus months now, a massive amount of void. We have a ton of votes that we've pushed through there. It's been working great. We've bugged the piss out of Luivatra in whatever channel we can find him in except for the Paideia channel, so that's just what we do.
+
+[15:42] **qx()**: So he's very very generous about giving the Sigmanauts a free DAO initially and he was so generous that he gave up his Sigmanauts token to create that DAO. Now we have to get him another one. I gotta put that vote in to distribute it to him.
+
+[15:53] **qx()**: All right. He says these will be run in parallel with a beta infrastructure to allow running DAOs to move from beta to main net. That'll be cool. That'll be awesome. Great. Awesome.
+
+[16:05] **qx()**: We have Abloat working on learning ErgoScript, spent time following Ergo by example and the advanced ErgoScript tutorial this week. That's awesome. It's always great to see people dive in, roll up their sleeves.
+
+[16:18] **qx()**: Last call for ErgoHack 9, that's ongoing as of two days I believe, so make sure you guys follow that.
+
+[16:28] **qx()**: And we have Chris45, my development updates for 2024, October, he added base Java which is Javanese to Ergo Explorer, Satergo, SigmaUSD wallet, Ergo wallet apps, translation Ergo manifesto to Javanese, and added Mew token into the Ergo tipper bot.
+
+[16:47] **qx()**: Fun fact, Javanese language is a regional language of the island of Java, Indonesia with a total of 95 million users worldwide. Also the second language in Suriname. Thanks and best regards. That's awesome. That's great. Thank you so much, Chris.
+
+[17:06] **qx()**: We've got Anand BR with Nautilus. 0.15 beta zero with zero conf enabled is finally reviewed and released on the abyss channel. Please test and let me know about any issues thoughts. Yeah, if anybody is waiting for the cutting edge and wants to do these things, I've used abyss off and on. You just, I think I mentioned in the last episode, you can't have them run at the same time. DApps get really pissy and confused. Also just disable one, you don't lose any configs and keep one up when you're working on it, but super, super cool to use new stuff before anybody else does.
+
+[17:43] **qx()**: Release version 14.2 on the stable channel, now waiting for Google's review. Fixed XLP creation bug by hardening the token metadata parser. Ledger, reviewed and functionally tested Flex and Stacks implementations. It would be great if someone else can take a look at the PR before we merge it. And I don't know if they have merged it yet, but any devs watching, please help out.
+
+[18:07] **qx()**: Fleet SDK added chain transaction building. Yippee, that's fantastic. That is music to my ears.
+
+[18:19] **qx()**: All right, we've got PGR 456 with sigmaspace.io. I suggest all of you that don't know about this to use it, but then again, people who've downloaded a new Nautilus will get, I don't know if it overwrites it with upgrades, but if you download a new Nautilus, Captain Nemo has pointed everything to the GraphQL and the Sigma Explorer.
+
+[18:43] **qx()**: Am I thinking something different? Hang on. I get so confused about this stuff. I think this is what I'm thinking. Let's see, sigmaspace.io. Yes, I'm correct. So this is yes. So the new Nautilus goes right to use a Sigma space as the alternate blockchain explorer right here.
+
+[19:10] **qx()**: So super cool that they've done that. PGR 456 has programmed it so that the same exact same GraphQL commands in the same trailing things on the URLs for explorer lookups work with either the main Ergo Explorer, the backup Ergo Explorers, Echo's Explorer, but PGR has also made it so that it works that way, but super, super cool.
+
+[19:36] **qx()**: All right, so Keystone started working on Ergo integration into Keystone hardware wallet, got the address generation working. There's a video. Super cool. And now I'm working on wallet connection and transaction signing. Currently waiting on some additional info from the Keystone team.
+
+[19:53] **qx()**: Let's see. Oh, super cool. These wallets are pretty neat looking, right? They kind of have the paper display on at least the one I saw. And they may be coming to MewMart at some point maybe. That's a rumor maybe I'm not supposed to tell. I don't know but whatever this is open source I can't remember what to keep secret anymore.
+
+[20:20] **qx()**: Sigma Space added a query monitoring to my database to identify optimization options. Found two queries slowing down mempool indexing after optimizing then transaction entering mempool are now more or less instant visible on Sigma Space. All the work is currently on hold until I finish the Keystone integration. This is awesome. PGR456. Wonderful stuff.
+
+[20:39] **qx()**: All right. And here's the guy I was talking about earlier that mans the Sigmanauts mining pool. This is Neural Yogi, also known in Telegram as Mark the Shark.
+
+[20:52] **qx()**: Did we just get a hang on? 11:10 we just found a block BAM what timing we come right to the Mark the Shark and we find a block as soon as I switch to him I mean it doesn't get any better than that here. Here's a proof in the pudding There we go new block 11:10 p.m.. Which is my time 11:10 p.m.. Beautiful
+
+[21:18] **qx()**: Okay, so 11.11 mining swap releases, mint miner ID and swap ERG reward for native tokens. He's working on that. He had a bunch of people running the test minting on a test, so that was really cool.
+
+[21:32] **qx()**: Token Flight, send assets to a proxy contract box to be distributed to a set number of users in a certain amount of time. Looking to use this for the bonus rewards for the Sigmanauts mining pool. Take some snapshot and use this as a people who get the tokens. Yeah. Could think of this like some sort of vesting contract only spendable after some blocks may occur and the number of recipients are valid or if you are a creator of the proxy contract so we can gather boxes in case for the time being. Generic linear implementation works on testnet and looking to implement other patterns on this. See somebody's using testnet. See this proof somebody is actually using testnet. That makes me real happy.
+
+[22:13] **qx()**: I'm looking to implement other patterns this week, currently testing one week distribution on testnet. When understanding the contract user can determine what tokens have which distribution mechanism, defaults the linear, sample patterns are progress linear, quadratic, exponential, logarithmic, and he's got them all lined up there in that nice little chart.
+
+[22:33] **qx()**: ErgoHack 9 looking to integrate some of the ideas from Token Flight into the submissions for this next hack. Awesome. So I think maybe I misspoke when I was talking about the Sigmanauts mining pool. I think he's got a lot of the token minting all baked in and tested. So it looks like his ErgoHack is building off that with this Token Flight integration cool beans Mark.
+
+[22:57] **qx()**: We've got a fan favorite. Pulsars with Ergo Monitor. Added Uniswap tracking of Rosen ERG and Telegram Group, Ergo trading original. Added Ethereum chain to Rosen Bridge monitoring. Fixed sporadic duplicate reporting of Rosen Bridge transactions. Improved layout of Rosen Bridge transactions messages. And you updated the logo. It's super cute.
+
+[23:25] **qx()**: Can I find it? Yeah, this is really cute. Let's see, I can't show it on here, I guess. It won't show up very well, but if you've noticed, there's a cute little... I don't know what it is. Somebody help me out, because I don't know what it is. It looks like some sort of blue robot with spikes sticking out of it. Maybe Pulsar can enlighten us.
+
+[23:49] **qx()**: All right, we've got Aberg, the Satergo dev. Mutoshi himself. Simple updates for Windows installations. Just click update. Awesome. New version of my P2P connection P2P node communication library is ready. Just waiting for the new SigmaState interpreter release because there are issues with this one. So he's waiting on what kushti was working on up there. So cool. Very cool.
+
+[24:14] **qx()**: Oh, here's me talking about pixel's thing, but it got deleted by the bots. So I had to forward it down here. But this is fucking cool. So Cyberverse by Mixer Pixel posted this patch notes for 2024 10/24. This is patch notes folks. Where's my other hand? I can't tell which hand. Patch notes. All right. Patch notes totally not a release of a whole fucking minigame.
+
+[24:43] **qx()**: Daily Spin. Change UI design for Daily Spins. Global Chat. Add a timestamp when player sends a message. And here we go. Rocket Rush. Introducing Rocket Rush. A new multiplayer mini-game. Fly to the moon as fast as you can. Avoid enemies and compete against other players to win. Reach the highest altitude. Collect coins and defeat enemies to earn victory points. The first player is the one that reaches a maximum feet and has the most victory score points.
+
+[25:08] **qx()**: Although there are extra points for coins, enemy kills are players as well as a maximum feet reached. You move with left click of the mouse. All players and AI have three hearts at the start. One player loses the three hearts, he dies. You lose one heart if you crash to the enemy or get hit by another player's ability. After you die, you can spectate other players when you press A or D left and right.
+
+[25:33] **qx()**: The more players playing, the more points there can be reached. A coin is worth 2, enemies are worth 3, player kills worth 6, and every 34 feet you get 1 point. 34 feet? Interesting number. 3, 4? I wonder what their relevance is there. Mr. Pixel, maybe you can enlighten us.
+
+[25:52] **qx()**: Power-ups. Heart. Increase player life by 1. Shockwave. Destroys all enemies within a range. The Invincible Shield. Destroy enemy for 4 seconds. Boost for a few seconds. Let's play that while I'm talking. Extra coins add shiny effect around the player. I think we gotta skip down here because it's waiting for multiplayer.
+
+[26:13] **qx()**: There we go. Shiny effect around the player. Increase collective points by two times and make the rocket burst time faster. Turbo burst fly up faster with no stop for three seconds then active small wave effect and the effect the rocket will active a boost that let it fly up faster hit all the targets in the way it lasts two seconds.
+
+[26:38] **qx()**: So I mean, what can I say? This is like the most humblest dev update ever. It's like, hey guys, we've got like a maintenance patch, but by the way, we just threw out a kick-ass mini game that's probably better than most games out on there, full games out on there and other chains.
+
+[26:57] **qx()**: So it's super fun. So grab your friends and go there. I believe it's right under - so right under the car race, I'm trying to think of it on my map. But it's right over there in that general region. Team up and, or it's above, right next to the statue. Yeah, check it out. Absolutely fantastic and so impressive. Love this.
+
+[27:23] **qx()**: And he's got some more stuff that he did. The first loading of a new game is faster. Load the music before start to avoid lags, fix bugs where a player can't move. Fixed bugs where the collectability slot didn't show up and improved multiplayer. Awesome.
+
+[27:39] **qx()**: Okay, we've got some update from MewFinance. Started working on CLB with Richie, a community liquidity bootstrap. MewDex bridged several Cardano natives to Ergo and built initial LPs. MewMart implementation of verified collections following the latest EIP standards, MewStore, integrates with Keystone. Oh good. He gave it away. Perfect. It wasn't a secret then. Integrates with Keystone and Italian Art Gallery to list as new stores. It listed Rosen SNEK as payment asset. MewTool NFT collection minting matches latest EIP standards now. Fantabulous sir.
+
+[28:18] **qx()**: So this guy is - guys you don't... What do I say here? MewStore is like, this is the kind of stuff that crypto should be, right? You have an amazing game here that gives you your actual items back in NFT form, so if the game fucks off ever, it doesn't matter, you still own everything. Like, amazing. You have an actual, like, shop where you can take your Rosen tokens or your community tokens, project tokens, or your ERG and actually buy stuff.
+
+[28:51] **qx()**: We're selling the hats, we're selling the coins. I opted to make this video tonight instead of posting a video card, but you'll soon see one of my Radeon 7s that works as well as a bonus Radeon 7 for parts in there to sell as well. They're called MewPhysicals.
+
+[29:14] **qx()**: This is what it's about guys. It's not about "moon me bro" and let's retire in two weeks and fuck everybody else kind of thing. You know cryptocurrency or blockchains are about - I think they're about community and they're about the freedom of the freedom of being able to participate equally in that community, right?
+
+[29:41] **qx()**: So here we have a store that has to have some centralized parts to it, right? But it also is based on trust and reputation, right? So if some of the centralized components of Mew start fucking you over, then it's gonna die pretty quick. So there's good incentive there for them to act in their best interest. In our best interest as well.
+
+[30:01] **qx()**: They have smart contracts as well that things enter into, so that's nice and open source, that's seeable on the chain. We know that when we put our assets on something like Mew that it's in a smart contract that nobody else can touch except for what we've programmed it to do, which is amazing.
+
+[30:18] **qx()**: But this kind of stuff is where it's at. This, combined with the gaming, combined with like TradeHouse for order books, kind of open source, well, almost open source, soon. Totally smart contract based. You have things like the Kenyan Cooperative that hopefully I can get some time to help pump up with kushti.
+
+[30:42] **qx()**: But that to me, this kind of stuff is what blockchain is supposed to be about, right? Somewhere along the way, yeah, people might get lucky and moon if they're an early adopter or that kind of stuff, but that stuff is so temporary, right? This is permanence right here. This is the stuff that makes it so that the blockchain makes sense, right?
+
+[31:03] **qx()**: If we can do this, if I can trade, if I can post an item for a few cents, right, on MewFinance and then ship it away to somebody, the physical part of that NFT away to somebody, and I'm not paying some fucking corporate entity to bone me every step of the way kind of thing. That's absolutely fantastic.
+
+[31:25] **qx()**: I mean, it's that kind of freedom that I think the blockchain gives us that people tend to overlook with dollar signs in their eyes. But anyway, it's late and I'm musing.
+
+[31:40] **qx()**: Okay, Cyberverse patch notes, hero comes in, it's a full Cyberverse week, and that was today, so great. We'll read this, we'll keep going.
+
+[31:50] **qx()**: Multiplayer music, music player UI improvements, the small UI edited, move server time, below music player UI sorting the music list prioritizes NFT songs over free music in the playlist. I love sometimes putting on Cyberverse and just leaving my character in the square and listening to the music. I thought there was talk about making a player somewhere, but maybe I've missed it. Sometimes I'm tuned out a little too far.
+
+[32:20] **qx()**: Alright, chat UI improvements. Move chat UI to the left bottom, improve typing to support all languages. Oh that's amazing, user profile improvements, change design and UI, add a Twitch link that you can add to profile, add more fonts to the game, and change the amount of favorite emotes you can select up to 24. Wow, that's a lot of emotes.
+
+[32:41] **qx()**: Halloween minting event, integrated new NFT prizes for upcoming cyber car minting event. Oof, that's amazing. I wonder if this is cyber car minting on Ergo, because I ran out of all the spare ADA I had by minting cyber cars. And I don't want to go convert anymore, so it would be nice to be able to spend some CYPX or ERG on minting a car.
+
+[33:05] **qx()**: OK, anybody else? Let's see, we've got Armeanio. This is Joe. To the Rosen community, Rosenet, new implementation of Rosen guards peer-to-peer communication layers and its final stages of testing. In simple words, it solves the problems with current P2P layer. It aims to one, be more fault tolerant, improving bridging pace a bit and preventing stuck events, and two, capable of being scaled to a larger guard set.
+
+[33:36] **qx()**: Yes, awesome. Securing the protocol even more. As part of these final test phases, we need a global decentralized network of Rosenet nodes that communicate with each other. It's not simple to achieve this level of decentralization without spending a lot of resources, so to get as close as possible to the center, we are asking the community members to participate in this test from anywhere around the world. The more participants, the more decentralized the network will be, and results will be far more real.
+
+[34:02] **qx()**: To participate, you need a computer with a perfectly stable internet connection capable of sending and receiving a considerable amount of messages, probably tens of gigabytes of data during the test duration. Wow. It also needs to have a modern hardware config, a system with at least 8GB of RAM and 8 cores of CPUs preferred in order to handle the huge amount of data. The instructions to run a node will be provided later. A non-permanent link of the draft version of instruction is available on Rosenet GitHub repo.
+
+[34:29] **qx()**: But in short, it will be far easier than setting up a watcher, which is already very simple. Sure it is, Joe. Sure it is. The test will take around a day and we appreciate if you don't bring your node down meanwhile, otherwise some wrong data may be collected as part of the test results were just to be avoided. Awesome. So that was today at 6:50. That's four hours ago guys Sunday night.
+
+[34:52] **qx()**: Yeah, keep an eye on that. Stay tuned. And that'd be amazing if you guys could all spread across the globe, test this so that we could really get a robust testing of Rosenet before it goes live to the guards. Really awesome.
+
+[35:11] **qx()**: Let's see. Anything else? That is it, folks. Let's go back to that so we can advertise more for the Sigmanauts stuff. Once again, another fantastic week in Ergo.
+
+[35:28] **qx()**: If any of you have noticed, I believe Paul's raffle should have ended successfully. Over $2,000, I think. Let's see. Is it still here? Success Stories is loading. And successful. There we go. 2249 of a thousand requested.
+
+[36:04] **qx()**: So that's going to go into the Rosen-ETH ERG pair over locally here in Ergo. So that is super cool to have that. So when people come across a bridge to ERG, there is some sort of liquidity pool there for them to do stuff with, which is much, much needed. I think last time I saw Uniswap was close to $15,000, $16,000, $17,000, but that was a couple days ago, so maybe it's gone up to there.
+
+[36:31] **qx()**: So Rosen ERG on Uniswap, Rosen ERG, WETH has about that much in it, which is great. I've reached out to, what's it called? One of the big mining pools that has kind of a reserve, but they have, I guess you could say a reserve of some of the miners that collect for them.
+
+[36:55] **qx()**: So I reached out to them recently, the suggestion of kushti, to see if they're interested in, instead of just sitting on their ERG, to pump it into the Rosen ERG WETH pool over on Uniswap if they have any Ethereum sitting around from the time that they mined it maybe kind of thing. So maybe they're sitting on both Ethereum and both ERG they can put some over the bridge and do it. I'm awaiting reply just ran them today. So could be - could be ignored, could be answered, but I figured why not put it out there see if they're interested in making their ERG and Ethereum work for them. So that's pretty neat, too.
+
+[37:40] **qx()**: Where was I? I think that's it. Thanks, everybody, for watching. Don't forget, I'll end it like I always do. Please utilize an ecosystem that means post stuff on MewFinance, on MewMart. You know, you got some like, I mean, goodness, I have like drawers of this stuff, you know, like I haven't used my Quest 2 in forever I'm thinking about posting that too, but you got cool stuff post it get rid of it.
+
+[38:18] **qx()**: Utilize a blockchain utilize MewFinance play Cyberverse. Put some of your stuff to work. Make some LP in MewDex for Rosen ETH, Rosen ETH and ERG pair if you have Ethereum. From the days put some ERG over the bridge and add a little bit of liquidity to Uniswap. Nothing happens good if we're just sitting on stuff and not utilizing it. Just like I said with the Kenyan cooperative with MewFinance with Cyberverse with other things. It's all about utilizing it and interacting with it.
+
+[38:47] **qx()**: And the more that happens and the more we make a stable foundation of us doing that, the more resilient Ergo is going to get. Right. So please join me in that. Thanks, everybody. And enjoy. Enjoy your week. Enjoy Halloween. If I don't see you for those of you that celebrate Halloween. Ciao.

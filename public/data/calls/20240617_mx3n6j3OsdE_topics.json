@@ -1,0 +1,105 @@
+{
+  "call_date": "2024-06-17",
+  "call_title": "Trustless Bitcoin Relay on Ergo | Alex Chepurnoy | ErgoHack VIII",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Bitcoin Relay Introduction and Core Concept",
+      "category": "bridges",
+      "start_time": "00:11",
+      "end_time": "01:18",
+      "primary_speaker": "kushti",
+      "summary": "Introduction to trustless Bitcoin relay as a minimal Bitcoin client implemented as an Ergo contract. The system validates proof of work, stores Bitcoin block headers, builds the best chain, and can validate Bitcoin transaction inclusion similar to SPV clients.",
+      "key_terms": [
+        "trustless Bitcoin relay",
+        "SPV client",
+        "proof of work",
+        "block headers",
+        "transaction validation"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Bitcoin Relay Use Cases and Applications",
+      "category": "bridges",
+      "start_time": "01:18",
+      "end_time": "03:36",
+      "primary_speaker": "kushti",
+      "summary": "Overview of potential applications including Bitcoin hashrate derivatives for miners, making Ergo a smart contract layer for Bitcoin, and enabling trustless bridging. Discussion of cross-chain exchange possibilities and limitations in reverse bridging from Ergo to Bitcoin.",
+      "key_terms": [
+        "hashrate derivatives",
+        "smart layer",
+        "RGB protocol",
+        "cross-chain exchange",
+        "OP_RETURN",
+        "trustless bridging"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Bitcoin Relay History on Other Blockchains",
+      "category": "bridges",
+      "start_time": "03:36",
+      "end_time": "04:27",
+      "primary_speaker": "kushti",
+      "summary": "Brief history of Bitcoin relays on other platforms, noting Ethereum's expensive and often lagging relay supported by ConsenSys, and Nervos blockchain's recent implementation for RGB++ protocol.",
+      "key_terms": [
+        "Ethereum relay",
+        "ConsenSys",
+        "Nervos blockchain",
+        "RGB++ protocol",
+        "relay costs"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "ErgoHack Submission Scope and Contract Architecture",
+      "category": "technical",
+      "start_time": "04:27",
+      "end_time": "08:18",
+      "primary_speaker": "kushti",
+      "summary": "Detailed technical explanation of the two-contract system: relay contract that validates headers and manages blockchain state, and inclusion validation contract that proves Bitcoin transaction inclusion. Description of data structures including best headers tree, all headers tree, and efficient fork switching mechanisms.",
+      "key_terms": [
+        "relay contract",
+        "inclusion validation",
+        "Merkle proof",
+        "fork switching",
+        "Sigma 6.0",
+        "cumulative work"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Contract Efficiency and Testing Results",
+      "category": "technical",
+      "start_time": "08:18",
+      "end_time": "09:24",
+      "primary_speaker": "kushti",
+      "summary": "Performance analysis showing efficient fork resolution and block addition operations requiring only kilobytes of data transfer. Confirmation that both contracts have been tested and are working in simulated blockchain environment.",
+      "key_terms": [
+        "contract efficiency",
+        "fork resolution",
+        "simulated blockchain",
+        "data transfer",
+        "performance testing"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Future Development and Research Directions",
+      "category": "technical",
+      "start_time": "09:24",
+      "end_time": "11:22",
+      "primary_speaker": "kushti",
+      "summary": "Outline of missing components including transaction parser development, economic incentive models for block submission, and potential applications like RGB++ implementation. Invitation for community development with code released in public domain for both commercial and non-commercial use.",
+      "key_terms": [
+        "transaction parser",
+        "economic model",
+        "incentive structure",
+        "public domain",
+        "RGB++ implementation",
+        "community development"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "call_date": "2024-10-18",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "00:44",
+      "question": "What's the current status of Ergo 6.0 development?",
+      "asker": "qx()",
+      "answer": "kushti is working on 6.0 activation details and it requires less work than initially thought. He already has both 5.0 and 6.0 nodes coexisting in his DevNet with sub-blocks per blocks parameter being voted on by 6.0 miners. The fork will be a very soft fork that won't require hard intervention into protocol rules, and existing pre-fork clients will just keep the voting parameter.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "node",
+        "soft fork",
+        "sub-blocks",
+        "protocol upgrade"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "02:56",
+      "question": "What database is Ergo 6.0 using?",
+      "asker": "qx()",
+      "answer": "Ergo 6.0 is still using LevelDB. kushti is testing RocksDB on a few machines with community help. It seems to perform better on some SSDs but could be slower on HDDs. RocksDB works better on Windows and has better durability in the presence of crashes, but more testing is still needed.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "database",
+        "LevelDB",
+        "RocksDB",
+        "performance"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "06:52",
+      "question": "How do community splits from hard forks affect blockchain ecosystems?",
+      "asker": "qx()",
+      "answer": "kushti explained from his experience as a co-developer of NXT (2014-15) that frequent hard forks (about 5 per year) caused major community splits. After a few splits, fractions would leave due to disagreements, and the community would mostly disappear. This pattern was also seen in Bitcoin (Core vs Cash vs SV) and Ethereum (Classic split). That's why Ergo has rules requiring 90% consensus for protocol updates to avoid breaking community unity.",
+      "responder": "kushti",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "hard forks",
+        "community governance",
+        "consensus",
+        "protocol updates"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "10:56",
+      "question": "Why does Ergo require 90% consensus for hard forks?",
+      "asker": "qx()",
+      "answer": "The 90% rule came from witnessing community splits in other blockchains like NXT, Bitcoin (Core/Cash/SV splits), and Ethereum (DAO hack rollback creating Ethereum Classic). These experiences showed that disagreements over protocol changes can fracture communities. Ergo's high consensus threshold and evolution capabilities are designed to avoid breaking changes while allowing the protocol to evolve without losing community members.",
+      "responder": "kushti",
+      "category": "governance",
+      "difficulty": "beginner",
+      "related_terms": [
+        "consensus",
+        "governance",
+        "hard forks",
+        "community"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "52:33",
+      "question": "Have you used ChatGPT or AI to write ErgoScript smart contracts?",
+      "asker": "Kent",
+      "answer": "kushti hasn't used AI much but recommends rechecking everything for security. In Ergo's extended UTXO model, there are only two main attack vectors: spending multiple inputs with same outputs (discovered in 2018), and ensuring UTXOs were created correctly in previous stages for multi-stage contracts. Most other mistakes are just human sloppiness, so AI might actually help find forgotten conditions. ErgoScript is actually friendlier to AI, which matters as more code gets written by AI.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "ErgoScript",
+        "AI",
+        "smart contracts",
+        "security",
+        "UTXO"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "27:05",
+      "question": "Why should miners choose the Sigmanauts mining pool?",
+      "asker": "qx()",
+      "answer": "The Sigmanauts pool pays more than other pools because it's more advanced in understanding Ergo's technology, particularly storage rent collection. The pool successfully collects storage rent (like 5 ERG when finding a block), which provides additional rewards beyond normal mining. They also have bonus tokens and are developing new features like NFT-based configuration management.",
+      "responder": "kushti",
+      "category": "mining",
+      "difficulty": "beginner",
+      "related_terms": [
+        "mining pool",
+        "storage rent",
+        "rewards",
+        "bonus tokens"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "48:38",
+      "question": "What makes Ergo's auction system different from other blockchains?",
+      "asker": "qx()",
+      "answer": "Ergo uses decentralized peer-to-peer auctions that are fundamentally different from account-based blockchains. Instead of gigantic marketplace contracts with freeze buttons and hacker vulnerabilities, Ergo has simple peer-to-peer contracts where users interact directly. The code is simpler (complexity is the enemy of security), has no freeze buttons, and is composable with other primitives like liquidity pools to create advanced features like auction coins.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "auctions",
+        "UTXO",
+        "peer-to-peer",
+        "composability",
+        "smart contracts"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "31:12",
+      "question": "How can community members better participate in the Ergo ecosystem?",
+      "asker": "qx()",
+      "answer": "qx() emphasized that creating a global economy requires active participation, not passive investment. This means engaging in DAOs like DuckPools and Sigmanauts, voting on proposals, spending treasury funds, making proposals, and using the various DeFi services. People need to practice using these tools regularly, set alarms to check DAOs weekly, and recognize that Ergo gives individuals much more power to shape the ecosystem compared to other blockchains.",
+      "responder": "qx()",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "DAO",
+        "participation",
+        "governance",
+        "community engagement"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "36:33",
+      "question": "How should users report bugs or issues to developers?",
+      "asker": "qx()",
+      "answer": "kushti emphasized that developers need detailed information to help fix issues, not just complaints that 'something isn't working'. Users should describe what's not working, their environment, what was observed exactly, and in what order. Most issues are actually not hard to fix (usually within an hour) if there's a reasonable description. Users can directly message developers like kushti or Captain Nemo with specific details and offer to help test solutions.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "bug reporting",
+        "debugging",
+        "developer communication",
+        "testing"
+      ]
+    },
+    {
+      "qa_id": 10,
+      "timestamp": "41:16",
+      "question": "What hardware wallet integrations are being worked on for Ergo?",
+      "asker": "qx()",
+      "answer": "kushti reported that Ledger, Trezor and Flex UIs are completed, supported by EF and ErgoDevs DAO bounties. With additional raffle funds, they can work on Tangem integration (someone is checking the possibility of a self-made implementation), Keystone (which has ErgoDevs bounty but could use more funding), and AppKit development bounties. This shows multiple hardware wallet options being actively developed.",
+      "responder": "kushti",
+      "category": "wallet",
+      "difficulty": "beginner",
+      "related_terms": [
+        "hardware wallets",
+        "Ledger",
+        "Trezor",
+        "Tangem",
+        "Keystone"
+      ]
+    }
+  ]
+}

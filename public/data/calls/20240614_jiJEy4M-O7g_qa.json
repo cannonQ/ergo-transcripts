@@ -1,0 +1,153 @@
+{
+  "call_date": "2024-06-14",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:40",
+      "question": "What is the major upgrade happening with Rosen Bridge and why do watchers need to update?",
+      "asker": "Armeanio",
+      "answer": "Rosen is launching the bridge Friday based on current test trajectories. They've updated the GARD layer and watchers are in the process of updating their instances. This is a major upgrade where people that are not on top of being a service operator in the network are potentially at risk of being slashed. If you're going to be a network service operator, you've got to keep your operation live, which requires maintenance and focus.",
+      "responder": "Armeanio",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Rosen Bridge",
+        "watchers",
+        "GARD layer",
+        "slashing"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "20:33",
+      "question": "How should Ergo explain its identity to the masses without using technical terms like NIPoPoWs or zero-knowledge proofs?",
+      "asker": "Flying Pig",
+      "answer": "Dan suggests Ergo should embrace being infrastructure builders, like US Steel - you might not see their products everywhere, but they support critical infrastructure. Sam agrees Ergo has a confused identity with too many good qualities, making it like having 10 job offers - harder to pick. The community needs to pick a few clear themes and stick with them to create a focused funnel for bringing people in.",
+      "responder": "Dan Friedman, Sam Lambert",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "identity",
+        "infrastructure",
+        "messaging",
+        "adoption"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "24:36",
+      "question": "What are the three core reasons someone should be interested in Ergo?",
+      "asker": "Armeanio",
+      "answer": "First is fair money - proof of work offers the best mechanism of fair distribution where every block is based on fair competition requiring real world resources like electricity and hardware. Second is network structure - having a flat network where you can equally compete and have local agency rather than relying on someone else's infrastructure. Third is local control and agency through open source software, allowing people to run infrastructure locally without trusting anyone.",
+      "responder": "Armeanio",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "proof of work",
+        "fair distribution",
+        "decentralization",
+        "local agency"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "31:20",
+      "question": "What are NIPoPoWs in simple terms and why are they important?",
+      "asker": "Armeanio",
+      "answer": "NIPoPoWs are basically compression. Compression is important because you need to store data if you're going to operate as part of the distributed machine. You don't want the state of that machine to require too many resources because then your barrier of entry becomes higher. If it requires too much capital to participate, you get massive trade-offs in terms of the distribution and resilience of your peer-to-peer system.",
+      "responder": "Armeanio",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "NIPoPoWs",
+        "compression",
+        "data storage",
+        "barrier to entry"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "04:29",
+      "question": "What partnerships and developments is Palmyra announcing?",
+      "asker": "Armeanio",
+      "answer": "Palmyra announced a partnership with World Mobile for a go-to-market strategy focusing on connectivity, starting with internet access followed by trade access. They also partnered with USDM, the first reserve-backed stablecoin on Cardano that just surpassed 3 million USD minted on-chain. On the product side, they're implementing the user interface for traceability applications and working on Winter Protocol V2, their open source traceability and tokenization standard powered by Ergo.",
+      "responder": "Sam Lambert",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Palmyra",
+        "World Mobile",
+        "USDM",
+        "Winter Protocol",
+        "tokenization"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "07:08",
+      "question": "What is DuckPools and what updates are happening with version 2.0?",
+      "asker": "Armeanio",
+      "answer": "DuckPools is an open source lending protocol built by Krass. They're working through 2.0 milestones starting with continuous yield and updating smart contracts in the backend. They have a roadmap for later stages of 2.0 including upgrading the UI. The protocol has been approaching funding rounds and has been able to out-deliver most DeFi products relative to capital input, doing so in an open source manner with good documentation.",
+      "responder": "Armeanio",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "DuckPools",
+        "lending protocol",
+        "continuous yield",
+        "open source",
+        "TVL"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "17:36",
+      "question": "How are other UTXO-based ecosystems responding to Ergo's technology and developers?",
+      "asker": "Sam Lambert",
+      "answer": "Several other UTXO-based ecosystems, some already bigger than Ergo, have been approaching Palmyra with interest in their technology and development talent. These ecosystems have gaps in DeFi infrastructure and ask two key questions: do you open source (yes), and do you have experience building on UTXO blockchains (yes). They have bigger treasuries and community funds to help bootstrap and bring projects over. The most interesting part is their search for strong development talent experienced with UTXO blockchains.",
+      "responder": "Sam Lambert",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "UTXO blockchains",
+        "cross-ecosystem",
+        "development talent",
+        "open source"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "41:41",
+      "question": "How will Rosen Bridge drive TVL and liquidity to the Ergo ecosystem?",
+      "asker": "Armeanio",
+      "answer": "Even though Rosen Bridge isn't necessarily Ergo-centric from the user side, there are properties that will drive TVL to Ergo. Projects that list will need to put liquidity on Ergo because they need to pay watchers and the security mechanism of the network. This creates a requirement where the system operates based on people submitting transactions to the Ergo blockchain, so projects need liquidity that gives watchers access, which acts as a funnel to build liquidity in Ergo and potentially filter to DuckPools and other applications.",
+      "responder": "Armeanio",
+      "category": "bridges",
+      "difficulty": "advanced",
+      "related_terms": [
+        "Rosen Bridge",
+        "TVL",
+        "watchers",
+        "liquidity",
+        "DuckPools"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "00:23",
+      "question": "How can community members participate in voting for hackathon rewards?",
+      "asker": "Armeanio",
+      "answer": "Community members can join a community DAO called Paideia where they have tokens in a faucet that you can claim. The instructions are embedded in the tokens. This gives the community the ability to vote and control some hackathon rewards, allowing people to look at the cool projects that have been built and have input in a flat, peer-to-peer system.",
+      "responder": "Armeanio",
+      "category": "governance",
+      "difficulty": "beginner",
+      "related_terms": [
+        "hackathon",
+        "community DAO",
+        "Paideia",
+        "voting",
+        "rewards"
+      ]
+    }
+  ]
+}

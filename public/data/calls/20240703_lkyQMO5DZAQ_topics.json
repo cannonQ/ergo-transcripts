@@ -1,0 +1,116 @@
+{
+  "call_date": "2024-07-03",
+  "call_title": "Gluon Gold on Ergo | Bruno Woltzenlogel Paleo | Ergoversary Summt 2024",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Gluon Gold Protocol Overview and Operations",
+      "category": "defi",
+      "start_time": "00:14",
+      "end_time": "03:33",
+      "primary_speaker": "Bruno",
+      "summary": "Bruno introduces the Gluon Gold stablecoin project, explaining the four core operations: fission (splitting ERG into stable and volatile coins), fusion (redeeming both types), and transmutation (converting between coin types). The protocol maintains constant reserve ratios and differs from SigmaUSD by requiring simultaneous minting/redemption of both coin types.",
+      "key_terms": [
+        "Gluon Gold",
+        "fission",
+        "fusion",
+        "transmutation",
+        "stablecoin",
+        "reserve ratio",
+        "GAO",
+        "GALSI",
+        "gold peg"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Testnet Progress and Design Competition Results",
+      "category": "technical",
+      "start_time": "03:33",
+      "end_time": "05:38",
+      "primary_speaker": "Bruno",
+      "summary": "The team reports three months of testnet operation at gluon.gold, featuring a logo design competition won by Lama Del Rey and a UI redesign by Hammerman and Anastasia. Technical improvements include treasury features and bug fixes related to price calculations in transmutation operations.",
+      "key_terms": [
+        "testnet",
+        "logo design",
+        "UI redesign",
+        "treasury features",
+        "bug fixes",
+        "gluon.gold",
+        "price calculation"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Mainnet Launch Parameters and Economics",
+      "category": "defi",
+      "start_time": "05:38",
+      "end_time": "10:41",
+      "primary_speaker": "Bruno",
+      "summary": "Bruno details the upcoming mainnet parameters including 1-gram gold peg, 14-day volume monitoring for transmutation costs, 0.66 fusion ratio with 1.5 minimum reserve ratio, and innovative Oracle fee structure of 0.1%. The system includes variable fees based on volume imbalances and treasury fee decay from 0.5% to 0%.",
+      "key_terms": [
+        "mainnet launch",
+        "gold peg",
+        "volume period",
+        "fusion ratio",
+        "Oracle fee",
+        "treasury fee decay",
+        "reserve ratio",
+        "transmutation costs"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Fee Structure and Internal Economics",
+      "category": "defi",
+      "start_time": "10:41",
+      "end_time": "11:49",
+      "primary_speaker": "Bruno",
+      "summary": "The protocol implements both external fees (0-1% total) and internal fees that remain in reserves, including 1% fusion/fission fees and variable transmutation fees starting at 1% with 50% slope based on volume imbalances. Extreme scenarios could result in up to 51% fees for complete supply conversions.",
+      "key_terms": [
+        "external fees",
+        "internal fees",
+        "fusion fee",
+        "fission fee",
+        "transmutation fee",
+        "volume imbalance",
+        "variable pricing"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "SDK Development and Community Funding",
+      "category": "technical",
+      "start_time": "11:49",
+      "end_time": "12:47",
+      "primary_speaker": "Bruno",
+      "summary": "Anon Real will develop an SDK for direct contract interaction funded by a successful Ergo Raffle. Contributors to the raffle will receive GLUON tokens granting rights to treasury revenue portions, with claiming instructions available through Discord.",
+      "key_terms": [
+        "SDK development",
+        "Ergo Raffle",
+        "GLUON tokens",
+        "treasury revenue",
+        "contribution accounting",
+        "backend independence"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Marketing Campaign and Future Roadmap",
+      "category": "marketing",
+      "start_time": "12:47",
+      "end_time": "14:22",
+      "primary_speaker": "Bruno",
+      "summary": "Plans include a major marketing campaign with 200+ PR placements in top-tier media, guided by Angie from Ergo, pending mainnet launch. Future developments involve Rosen Bridge integration for Cardano connectivity and derived operations for simplified single-token interactions.",
+      "key_terms": [
+        "marketing campaign",
+        "PR placements",
+        "Rosen Bridge",
+        "Cardano bridge",
+        "derived operations",
+        "funding opportunities",
+        "community contributions"
+      ]
+    }
+  ]
+}

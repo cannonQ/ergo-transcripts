@@ -1,0 +1,175 @@
+{
+  "call_date": "2024-07-19",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "18:09",
+      "question": "Who are the current members of the Ergo Foundation? Are Joe and MHS still active?",
+      "asker": "Community member",
+      "answer": "The current EF members include Morphic, Joe, and Justin Glasgow. Joe is still participating in the EF as far as we know - he's spoken about potentially leaving at some point, but hasn't officially done so. If he did leave, he would probably do it quietly without telling anyone, which would be classic Joe behavior.",
+      "responder": "qx()",
+      "category": "governance",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Ergo Foundation",
+        "governance",
+        "Joe Armeanio"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "19:48",
+      "question": "When will Gluon Gold mainnet launch?",
+      "asker": "Community member",
+      "answer": "I'm not sure about Gluon Gold specifically. I know kushti has done a lot of work on version 6 of the protocol and is now ramping up Dexy again after putting it on the back burner. Dexy Gold should be getting out there soon, sooner than before, but I don't have a timeline for Gluon Gold.",
+      "responder": "qx()",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Gluon Gold",
+        "Dexy",
+        "kushti",
+        "mainnet launch"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "20:45",
+      "question": "What can pioneer testers expect from testing the Winter Protocol?",
+      "asker": "Community member",
+      "answer": "Pioneer testers can essentially try and implement the shipping standard that the Winter Protocol supports in any supply chain they're part of. Palmyra pioneers will be testing Winter Protocol on Palmyra Pro, which utilizes it in a more robust way. We're also hoping other projects will use Winter Protocol for their own needs since it's open source on both Ergo and Cardano. We'd like to see people forking the code, doing their own implementations, and giving us feedback.",
+      "responder": "Dan Friedman",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Winter Protocol",
+        "Palmyra Pro",
+        "supply chain",
+        "open source"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "23:13",
+      "question": "What about onboarding wine to the Palmyra platform?",
+      "asker": "Community member",
+      "answer": "Wine was actually one of the first commodities I considered, even before tea, because of connections in Georgia for Georgian wine. Blazer Labs is working with the Moldova wine industry to onboard them onto blockchain. We'd like to bring Moldova wine onto Palmyra, but we need to figure out exactly how - whether we're creating forward contracts for barrels of wine, fractional ownership of casks (like with whiskey), or other tokenization methods. There are many ways to utilize the Palmyra platform with wine tokenization.",
+      "responder": "Dan Friedman",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Palmyra",
+        "wine tokenization",
+        "fractional ownership",
+        "forward contracts",
+        "Moldova"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "25:23",
+      "question": "Have you gone through all the ErgoHack submissions and distributed rewards?",
+      "asker": "Dan Friedman",
+      "answer": "Yes, I paid out $7,100 in community awards this week. This was separate from the EF rewards - kushti started a fundraiser for community awards, and MX donated 6-7 thousand ERGs to it, which was amazing. All voting was done on Paideia, and we distributed rewards on a scaling basis based on votes received. There were multiple tied places (two third places, two fourth places, etc.), with first place getting around $1,500. ErgoHack was incredible this time - it was really hard for the EF to judge because the quality was so high.",
+      "responder": "qx()",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "ErgoHack",
+        "Paideia",
+        "community rewards",
+        "MX donation",
+        "kushti"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "16:12",
+      "question": "What is storage rent collection and how will it work with mining pools?",
+      "asker": "Implied technical question",
+      "answer": "kushti has asked me to fire up a separate mining pool to test storage rent collection, which will be very exciting as we'll be one of the first mining pools to collect storage rent. From what I understand, there's currently about 400-500 ERGs ready to be collected by miners once storage rent collection is being utilized. This will provide additional revenue for miners beyond block rewards.",
+      "responder": "qx()",
+      "category": "mining",
+      "difficulty": "advanced",
+      "related_terms": [
+        "storage rent",
+        "mining pools",
+        "kushti",
+        "Sigmanauts",
+        "miner rewards"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "31:18",
+      "question": "How does Rosen Bridge compare to other cross-chain solutions like SimpleSwap in terms of security and user experience?",
+      "asker": "Implied from qx()'s experience",
+      "answer": "When I had to convert $5,400 to fiat, I tested both Rosen and SimpleSwap. I felt comfortable sending $5,500 through Rosen but only $500 through SimpleSwap because Rosen is completely transparent - you can watch every step in the watcher console, guard console, and main dashboard events. With SimpleSwap and similar services, it's a black box - you don't know what exchange they're using or if they have local liquidity pools. Rosen actually completed the transaction faster than SimpleSwap, and the transparency made it feel like 'tying my shoe' rather than stressful.",
+      "responder": "qx()",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Rosen Bridge",
+        "SimpleSwap",
+        "transparency",
+        "watcher",
+        "guard",
+        "cross-chain"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "33:58",
+      "question": "Can you update ErgPy to make it more robust for developers?",
+      "asker": "Mark the Shark",
+      "answer": "ErgPy is the lowest barrier of entry for developers - if you know Python, you can write transactions and mint NFTs easily. While mgPai might think people should just use Fleet SDK, many developers see ErgPy as golden and may never need to reach Fleet SDK level. The main request is to make transaction chaining more robust so it checks the mempool during transaction building and avoids taking boxes already in the mempool, preventing double spends.",
+      "responder": "qx() explaining the need",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "ErgPy",
+        "Fleet SDK",
+        "Python",
+        "transaction chaining",
+        "mempool",
+        "mgPai"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "35:29",
+      "question": "How should investors deal with Ergo's price decline and lack of excitement compared to other chains?",
+      "asker": "Big 3D",
+      "answer": "If you're comparing Ergo to chains like Solana that are funded by massive treasuries and VCs, you're making an improper comparison. Ergo is grassroots with organic growth, not artificially pumped by big money. All growth here is organic - unlike chains like Aptos that suddenly appeared in the top 50 with '200 projects' overnight, which is clearly artificial. Ergo has a long arc and intrinsic value beyond price speculation. If numbers going up is your only reason for being here, you're in the wrong ecosystem. The ecosystem has grown exponentially in builders, projects, and maturity, even if price doesn't always reflect that.",
+      "responder": "Dan Friedman and qx()",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "price action",
+        "organic growth",
+        "VC funding",
+        "Solana",
+        "Aptos",
+        "ecosystem development"
+      ]
+    },
+    {
+      "qa_id": 10,
+      "timestamp": "05:33",
+      "question": "What criteria does Palmyra use to select commodities for onboarding?",
+      "asker": "qx()",
+      "answer": "Commodities must check off several boxes: First, the market share must be over a billion dollars. Second, there needs to be existing infrastructure and trading happening, but they must be underserved and need more digitization. Third is traction - there must be real market need, significant global market size, and we can provide meaningful access. For example, Argentina's lithium industry meets these criteria - it's a large market but underserved due to foreign ownership, lack of standardized grading systems, and limited global market access.",
+      "responder": "Dan Friedman",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Palmyra",
+        "commodity selection",
+        "market size",
+        "digitization",
+        "lithium",
+        "Argentina"
+      ]
+    }
+  ]
+}

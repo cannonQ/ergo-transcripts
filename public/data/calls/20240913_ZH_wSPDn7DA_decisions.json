@@ -1,0 +1,149 @@
+{
+  "call_date": "2024-09-13",
+  "call_title": "Ergo PoW Blockchain - Weekly Update & AMA - September 12th 2024",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "23:26",
+      "decision": "Sigmanauts will adopt and abide by the voted moderation policy across all Sigmanauts channels",
+      "speaker": "qx()",
+      "context": "To ensure healthier and more productive conversations in community channels",
+      "topic": "governance",
+      "significance": "minor",
+      "quote": "Once that's passed, that'll be pinned in the Sigmanauts channels, and we will abide by it. So that means any channel that you're in that the Sigmanauts own, essentially, you will need to abide by those rules"
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "08:21",
+      "commitment": "Run next DevNet in a few days for Sigma 6.0",
+      "owner": "kushti",
+      "timeline": "a few days",
+      "topic": "technical",
+      "quote": "So I think to run next DevNet in a few days"
+    },
+    {
+      "id": 2,
+      "timestamp": "09:47",
+      "commitment": "Start with DevNet first for sub-blocks, then try public testnet",
+      "owner": "kushti",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "it makes sense to start with DevNet first and then, yeah, we can try software out on the public testnet"
+    },
+    {
+      "id": 3,
+      "timestamp": "12:08",
+      "commitment": "Soft launch of Dexy with contracts deployed one by one",
+      "owner": "kushti",
+      "timeline": "in like weeks",
+      "topic": "defi",
+      "quote": "in like weeks, we will have a soft launch, right? So they're deploying contracts one by one"
+    },
+    {
+      "id": 4,
+      "timestamp": "22:18",
+      "commitment": "Meeting with student body to explain DAO and blockchain usage",
+      "owner": "qx()",
+      "timeline": "next week",
+      "topic": "education",
+      "quote": "I have a meeting next week with the student body for that group and where I explain everything and how it works"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "09:35",
+      "question": "Whether ChainCash will be used by students for college environment",
+      "context": "Documentation for API methods was completed but usage uncertain",
+      "topic": "chaincash",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "31:18",
+      "question": "Timeline for Ethereum bridge completion on Rosen",
+      "context": "Screenshots showed progress but no clear timeline provided",
+      "topic": "rosen-bridge",
+      "raised_by": "qx()"
+    },
+    {
+      "id": 3,
+      "timestamp": "35:55",
+      "question": "How Rosen will handle token swapping with singletons",
+      "context": "Could be a big market but would be very challenging to implement",
+      "topic": "rosen-bridge",
+      "raised_by": "qx()"
+    }
+  ],
+  "reversals_or_updates": [
+    {
+      "id": 1,
+      "timestamp": "20:45",
+      "previous": "Running storage rent collection on original Sigmanauts mining pool",
+      "update": "Moving all hash to Mark's new server mining pool",
+      "reason": "Optimization and infrastructure improvements",
+      "speaker": "qx()",
+      "topic": "mining"
+    }
+  ],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "14:55",
+      "fact": "Full watcher update released for Rosen with no config changes required",
+      "speaker": "qx()",
+      "topic": "rosen-bridge"
+    },
+    {
+      "id": 2,
+      "timestamp": "17:32",
+      "fact": "Storage rent on average is 0.14 ERG for boxes older than four years",
+      "speaker": "qx()",
+      "topic": "storage-rent"
+    },
+    {
+      "id": 3,
+      "timestamp": "20:21",
+      "fact": "Storage rent collection found four or five blocks in two days of mainnet testing",
+      "speaker": "qx()",
+      "topic": "mining"
+    },
+    {
+      "id": 4,
+      "timestamp": "21:23",
+      "fact": "Cornell DAO will start with $50,000 in Cornell USD tokens",
+      "speaker": "qx()",
+      "topic": "education"
+    },
+    {
+      "id": 5,
+      "timestamp": "23:26",
+      "fact": "Sigmanauts moderation policy vote has about three more days remaining",
+      "speaker": "qx()",
+      "topic": "governance"
+    },
+    {
+      "id": 6,
+      "timestamp": "34:19",
+      "fact": "30,000 more ERG were bridged to Cardano blockchain",
+      "speaker": "kushti",
+      "topic": "rosen-bridge"
+    },
+    {
+      "id": 7,
+      "timestamp": "49:05",
+      "fact": "ERG lending APY dropped from 5% to 3.2% on DuckPools",
+      "speaker": "qx()",
+      "topic": "defi"
+    },
+    {
+      "id": 8,
+      "timestamp": "51:58",
+      "fact": "Mining pool now runs on $16/month Hetzner server with four cores and eight gigs of RAM",
+      "speaker": "qx()",
+      "topic": "mining"
+    }
+  ]
+}

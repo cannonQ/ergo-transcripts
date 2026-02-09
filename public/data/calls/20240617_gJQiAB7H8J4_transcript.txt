@@ -1,0 +1,297 @@
+[00:11] **Quokka**: Hello everyone.
+
+[00:12] **Quokka**: Today I'll go over our submission into ErgoHack VIII, Option Pools.
+
+[00:16] **Quokka**: Before we get into the submission, I want to take a moment to explain what option pools are and what problems they are trying to solve.
+
+[00:22] **Quokka**: Let's start with a diagram.
+
+[00:24] **Quokka**: This is effectively the overall design of option pools, a pool-to-peer options trading AMM protocol.
+
+[00:29] **Quokka**: Notice there we have two types of users, liquidity providers who deposit assets into an AMM option pool and traders who buy and sell options from this pool.
+
+[00:38] **Quokka**: And the way this works in general is that the automated market maker or option pool will generate a yield for liquidity providers from the way it sells and buys options from the traders.
+
+[00:48] **Quokka**: Now, this diagram is not novel.
+
+[00:51] **Quokka**: Pool-to-peer option protocols already exist in DeFi, and yet we assert that there is a problem with them currently.
+
+[00:57] **Quokka**: They are not capturing significant market share.
+
+[01:00] **Quokka**: Options are powerful financial instruments, and despite this, the options market make up a tiny percentage of DeFi TVL, just 0.2%.
+
+[01:08] **Quokka**: Why? Because for most users, CeFi is simply better.
+
+[01:12] **Quokka**: So where exactly is DeFi going wrong?
+
+[01:16] **Quokka**: Risk, liquidity, and performance.
+
+[01:18] **Quokka**: DeFi options are seen as too risky.
+
+[01:20] **Quokka**: Typically, DeFi options are built on layer 2, using third-party oracles with various complex EVM-based smart contracts.
+
+[01:28] **Quokka**: Users have to accept a large set of risk assumptions when using option protocols.
+
+[01:32] **Quokka**: Exploits have occurred in the past, and for many users, particularly institutional ones, engagement with DeFi options is too great of a security concern.
+
+[01:40] **Quokka**: This feeds into the second point, liquidity.
+
+[01:43] **Quokka**: There is not enough liquidity in DeFi options, with the primary factor for this being capital inefficiency.
+
+[01:49] **Quokka**: For instance, DeFi option protocols are usually order book or AMM.
+
+[01:53] **Quokka**: Order book are often fully collateralized and AMM might be partially collateralized.
+
+[01:58] **Quokka**: But in CeFi, options are significantly under-collateralized, allowing more options to be created with less capital.
+
+[02:05] **Quokka**: And then there's performance.
+
+[02:06] **Quokka**: Pricing options effectively actually involves some complex computation and in DeFi, we have some pretty strong performance constraints.
+
+[02:14] **Quokka**: So on a layer 1 network like Ethereum, it is simply too gas intensive to price options on-chain, which is why most protocols go to layer 2.
+
+[02:22] **Quokka**: Even there, costs remain higher and more volatile because of other fees like request costs to an Oracle, dApp interactions or heightened trading activity.
+
+[02:31] **Quokka**: So what's the solution to these problems?
+
+[02:33] **Quokka**: Ergo.
+
+[02:35] **Quokka**: On Ergo, we can build option pools directly on layer 1, minimizing the set of risk assumptions.
+
+[02:40] **Quokka**: By leveraging the UTXO model, we minimize potential attack surfaces as our AMM moves away from computation and instead towards verification.
+
+[02:47] **Quokka**: We can build on Ergo because it is far more performant than other L1s.
+
+[02:51] **Quokka**: So our goal for this ErgoHack was to address this particular factor, performance.
+
+[02:55] **Quokka**: Specifically, our goal was to price options directly on-chain using the Black-Scholes options pricing model.
+
+[03:01] **Quokka**: And that is what we're going to demonstrate today.
+
+[03:03] **Quokka**: With today's demonstration and planned future upgrades to DuckPools, Ergo's pool lending protocol, we believe an Ergo implementation of pooled options will finally be the protocol that popularizes on-chain options.
+
+[03:14] **Quokka**: That is, we envision a future where Ergo is the hub of DeFi options.
+
+[03:19] **Quokka**: Anyway, let's get into our demonstration.
+
+[03:21] **Quokka**: So here we're on the user interface we developed for option pools in this ErgoHack.
+
+[03:26] **Quokka**: As you can see, I'm on the pools page and there is one pool available, the ERG-USD pool.
+
+[03:32] **Quokka**: This pool allows liquidity providers to deposit both ERG and SigmaUSD and earn yield on their liquidity.
+
+[03:37] **Quokka**: The pool also allows traders to buy and sell ERG options priced in SigmaUSD.
+
+[03:42] **Quokka**: They could do this in the buy options section.
+
+[03:44] **Quokka**: This setup could be applied to any other assets like Rosen BTC against SigmaUSD when the upcoming Rosen Bridge launch to Bitcoin occurs.
+
+[03:52] **Quokka**: Then we would have Bitcoin option pools on Ergo.
+
+[03:55] **Quokka**: As you can see for this demonstration, this is a newly launched pool.
+
+[03:58] **Quokka**: We have marginal amounts of TVL and no utility yet.
+
+[04:01] **Quokka**: So ignore the APY.
+
+[04:02] **Quokka**: That's just displayed for cosmetic purposes.
+
+[04:04] **Quokka**: In future versions, it'll update and display the pool's historical earnings.
+
+[04:09] **Quokka**: So let's go ahead and add 10 ERG to the pool.
+
+[04:11] **Quokka**: Notice that this pool is designed to be one to one.
+
+[04:14] **Quokka**: So for every ERG we add, we need to add about one SigmaUSD.
+
+[04:18] **Quokka**: A cool possibility for option pools is you can design pools to have all kinds of ratios, not just one to one.
+
+[04:24] **Quokka**: Pools with ratios close to the market rate would be the most balanced, but you could also have pools maintain different ratios with the intention of being more bearish or bullish on one side of the pair.
+
+[04:33] **Quokka**: This pool is designed to be slightly bearish on ERG, where yield earnings will lean towards SigmaUSD.
+
+[04:39] **Quokka**: Now, these possibilities for option pools are cool, but it's important to stress we want to keep user interfaces simple, especially for liquidity providers.
+
+[04:47] **Quokka**: So one future design which might utilize this is to simply ask the user if they're more bearish or bullish and then recommend the appropriate pool for them.
+
+[04:56] **Quokka**: All right, let's submit this order.
+
+[05:06] **Quokka**: and submit it.
+
+[05:08] **Quokka**: Now we need to wait a few minutes for things to process.
+
+[05:12] **Quokka**: Alright, it's been a few minutes.
+
+[05:14] **Quokka**: Now we can see that the pool has 10.04 ERG and 10.04 SigmaUSD in TVL.
+
+[05:19] **Quokka**: So let's try to buy an option from the pool now.
+
+[05:21] **Quokka**: We'll start with the call option.
+
+[05:25] **Quokka**: As you can see, we can select a strike price of $1.24 and an expiration date of block height 1297804.
+
+[05:32] **Quokka**: For the ErgoHack, we created pools that only support one strike price and expiration.
+
+[05:36] **Quokka**: But for future versions, we would want pools to support any strike and expiration, which is an improvement to centralized exchanges, which often only have liquidity in a couple specific strikes and expiries.
+
+[05:46] **Quokka**: So to reiterate, a trader could pick the exact strike and expiry they want, and then the pool would use its pricing model to price that option.
+
+[05:54] **Quokka**: Let's go ahead and choose an option size of 1, meaning we'll purchase a call option for 1 ERG.
+
+[05:59] **Quokka**: As you can see, the interface displays the total cost of the option, which is about 10 cents, or 0.1 SigmaUSD.
+
+[06:05] **Quokka**: Let's see how this compares against the Black-Scholes model, which is the benchmark for options pricing.
+
+[06:13] **Quokka**: So our strike price was $1.24.
+
+[06:15] **Quokka**: I'll paste in the current price.
+
+[06:17] **Quokka**: Time to expiry is 25 days, which I calculated earlier using the block heights.
+
+[06:22] **Quokka**: The volatility is 65% in our case here.
+
+[06:25] **Quokka**: Now we developed a historical volatility oracle in this ErgoHack.
+
+[06:29] **Quokka**: But this version of the user interface does not support that yet.
+
+[06:32] **Quokka**: Instead, it's just using a simple flat volatility of 65% for demonstration purposes.
+
+[06:37] **Quokka**: There is no dividend, and the risk-free rate we choose is 5%.
+
+[06:40] **Quokka**: Again, this is something that pools could update over time, perhaps through a risk-free rate oracle or some governance mechanism.
+
+[06:49] **Quokka**: And the output option price is 0.0876 cents, and I should highlight that the protocol only supports European options.
+
+[06:55] **Quokka**: However, we will show shortly that a trader can sell options back to the pool anytime, even before expiry.
+
+[07:01] **Quokka**: You can also see the D1 and D2 values calculated here.
+
+[07:05] **Quokka**: These values are integral to options pricing, and we tested them and found that our smart contracts were giving D1 and D2 values very close to the theoretical, which shows that we can get very precise models built on Ergo.
+
+[07:17] **Quokka**: So the theoretical value is reasonably close to what we get on the interface.
+
+[07:20] **Quokka**: But there is a discrepancy, which is due to a few reasons.
+
+[07:24] **Quokka**: Firstly, our option pools calculate the Black-Scholes price, but then apply some fees based on the size of the option.
+
+[07:30] **Quokka**: So this option is actually one-tenth of the pool, which is pretty large.
+
+[07:34] **Quokka**: So there's around 10% price premium applied.
+
+[07:37] **Quokka**: There's also some less precise parts of our pricing, like the cumulative distribution function, which do lead to some price impact.
+
+[07:43] **Quokka**: Both of these aspects can be improved or adjusted in future models, but for ErgoHack, we were just going to do something kind of rough.
+
+[07:49] **Quokka**: Let's go ahead and buy this option.
+
+[08:00] **Quokka**: Alright, just note here there's a slight display issue with our test SigmaUSD.
+
+[08:03] **Quokka**: 10 test SigmaUSD should actually be 0.1 real SigmaUSD, but the token we minted used the wrong number of decimals.
+
+[08:18] **Quokka**: And there we go.
+
+[08:19] **Quokka**: A slight error on the pop-up, but ignoring that, we just purchased an option directly on-chain on Ergo using Black-Scholes on the layer 1.
+
+[08:29] **Quokka**: This is some pretty cool stuff.
+
+[08:30] **Quokka**: Let's give that a couple of minutes to confirm and then see what happens when we try to sell it.
+
+[08:35] **Quokka**: Okay, it's been a few minutes and I can now see my purchased call option displayed on the site.
+
+[08:40] **Quokka**: Various information regarding this call is displayed like the size, current value of the option, spot, strike, and expiry.
+
+[08:47] **Quokka**: Notice that the value of the option is about nine cents.
+
+[08:51] **Quokka**: Remember I purchased the option for 10 cents?
+
+[08:53] **Quokka**: So this one cent in price difference is profit to the pool.
+
+[08:56] **Quokka**: Also notice that if we go back to the buy option section and try to buy another call option, the price has risen.
+
+[09:03] **Quokka**: It is now nearly 11 cents.
+
+[09:05] **Quokka**: The price has increased because the call volume in the pool has risen, which caused the pool to dynamically adjust the price to match market sentiment.
+
+[09:12] **Quokka**: So this demonstrates that the pool not only uses Black-Scholes as the basis for options pricing, but is also capable of responding to real-time market demand.
+
+[09:20] **Quokka**: Now, I'm not advocating that this particular setup for the pool is optimal, but again, for this ErgoHack, we simply wanted to demonstrate what is possible to build into an option pool's protocol.
+
+[09:30] **Quokka**: We can make finer adjustments in future versions.
+
+[09:32] **Quokka**: So let's go ahead and sell the option.
+
+[09:46] **Quokka**: As you can see, 9 or 0.09 SigmaUSD is coming into our wallet.
+
+[09:55] **Quokka**: And we've submitted.
+
+[09:56] **Quokka**: I'll give that a few minutes to confirm and then we can check out a put option.
+
+[10:01] **Quokka**: All right, so here we are.
+
+[10:03] **Quokka**: Let's go to the put option section.
+
+[10:05] **Quokka**: Again, you'll notice one strike and one expiry available.
+
+[10:08] **Quokka**: If we select them, we get an output total cost of about 5.7 cents.
+
+[10:12] **Quokka**: Let's see how that compares to the theoretical value.
+
+[10:15] **Quokka**: Let's fill in these fields, just like we did for the call option.
+
+[10:20] **Quokka**: And then you can see the output value is about 5.3 cents.
+
+[10:23] **Quokka**: So quite close to the value on option pools.
+
+[10:28] **Quokka**: Now, if we go ahead and submit this order, you can see that we are paying the option premium in ERG this time.
+
+[10:36] **Quokka**: This actually happened by accident when we were designing the contracts for option pools, but it might have some interesting use cases.
+
+[10:43] **Quokka**: We could create option pools that allow traders to pay on either side of their option pair, and AMM pools could convert to the currency that best matches their risk profile.
+
+[10:51] **Quokka**: Either way, it's something we could think about for the future versions.
+
+[10:54] **Quokka**: I won't submit this order, it's quite similar to what we saw for call options.
+
+[10:58] **Quokka**: So instead, let's check out our pool's TVL.
+
+[11:05] **Quokka**: As you can see, our TVL has increased on the SigmaUSD side by one cent.
+
+[11:10] **Quokka**: This is our pool's profit.
+
+[11:16] **Quokka**: So to recap, in this ErgoHack, we demonstrated that options can be priced on-chain using Black-Scholes model.
+
+[11:22] **Quokka**: We also showed that pools can respond to real time market demand, and we created unique features like a dual asset option pool.
+
+[11:29] **Quokka**: All of this built on Ergo, a layer 1 blockchain.
+
+[11:32] **Quokka**: So we were able to tackle the performance issues of DeFi options.
+
+[11:35] **Quokka**: After we clean up the code and audit things, we'll be able to tackle risk.
+
+[11:39] **Quokka**: And in future versions, we can integrate with DuckPools for liquidity.
+
+[11:43] **Quokka**: This is the roadmap we set for option pools to become the hub of DeFi options.
+
+[11:47] **Quokka**: Also, for Ergo devs, this ErgoHack, we implemented various math functions in ErgoScript, which were necessary for on-chain options like logs, exponentials and square roots.
+
+[11:57] **Quokka**: We also created a volatility oracle, which is aggregating historical DEX volatility right now on-chain, completely free to use in your contracts, which is a really cool thing in Ergo.
+
+[12:07] **Quokka**: Because once data is on-chain, it's like public property, free for anyone to use.
+
+[12:12] **Quokka**: So we think these contributions will be valuable to the community.
+
+[12:15] **Quokka**: If you're interested, check out the code on GitHub or tech submission.
+
+[12:19] **Quokka**: I should mention as well that we had a goal of creating Delta and Vega neutral pools.
+
+[12:23] **Quokka**: This is something that we were close to having built into option pools, but we decided to leave this for a future version after we refactor the code a bit.
+
+[12:31] **Quokka**: If you like our submission, please show your support.
+
+[12:33] **Quokka**: This is a protocol that we think can deliver a lot of value in the Ergo ecosystem.
+
+[12:37] **Quokka**: If you have any questions at all, find us in the DuckPools Discord.
+
+[12:40] **Quokka**: We'll be happy to answer any of them.
+
+[12:42] **Quokka**: Thanks.

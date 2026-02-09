@@ -1,0 +1,103 @@
+**Glasgow:** [00:00] Welcome everybody to the Ergoversary AMA with kushti, Dan from Palmyra, and qx() from Trade House and Auction House. I'm Glasgow. We're here celebrating five years of Ergo, so let's jump right into it.
+
+kushti, let's start with you. Can you tell us about the current state of Ergo development and what you're most excited about for the next five years?
+
+**kushti:** [00:25] Thank you Glasgow. Well, it's been an incredible five years. Right now we're focusing heavily on scaling solutions and improving the developer experience. The node is more stable than ever, we're seeing great adoption of ErgoScript, and the ecosystem is really maturing.
+
+For the next five years, I'm most excited about layer 2 solutions, better tooling for developers, and seeing more real-world applications built on Ergo. We're also working on some exciting research around NIPoPoWs and cross-chain interoperability.
+
+**Glasgow:** [01:12] That's great to hear. Dan, let's talk about Palmyra. Can you explain what you're building and how it fits into the Ergo ecosystem?
+
+**Dan:** [01:20] Absolutely. Palmyra is focused on bringing real-world assets on-chain through tokenization and decentralized finance primitives. We're building infrastructure for commodity financing, supply chain management, and creating bridges between traditional finance and DeFi.
+
+What's exciting is we're using Ergo's UTXO model and smart contracts to create more secure and transparent financial products. We're working with Oracle Pools for price feeds and planning to integrate with Rosen Bridge for cross-chain functionality.
+
+**Glasgow:** [02:45] Excellent. qx(), can you tell us about Trade House and how order book DEXes differ from AMM-based exchanges like Spectrum?
+
+**qx():** [02:55] Sure thing. Trade House is an order book-based decentralized exchange, which gives users much more control over their trades compared to AMMs. With order books, you can see the full market depth, set specific price levels, and avoid impermanent loss that's common with liquidity provision on AMMs.
+
+The main advantage is transparency - you know exactly what price you're getting before you trade. You can also do more sophisticated trading strategies like limit orders, stop losses, and partial fills. It's especially useful for larger trades where slippage on AMMs becomes expensive.
+
+**Glasgow:** [03:40] That makes a lot of sense. kushti, I want to ask about something technical. Can you explain what bulletproofs are and how they might be used in Ergo?
+
+**kushti:** [03:50] Bulletproofs are a type of zero-knowledge proof system that doesn't require a trusted setup, unlike SNARKs. They're particularly good for range proofs - proving that a value is within a certain range without revealing the actual value.
+
+What I'm working on is implementing bulletproof verification directly in ErgoScript. If we can do this, it opens up a whole new world of privacy-preserving applications. You could have contracts that verify sensitive data without revealing it on-chain, which is huge for things like verifiable credentials or private financial transactions.
+
+The beauty is that because Ergo supports Sigma protocols natively, adding bulletproof support feels like a natural extension of our existing cryptographic capabilities.
+
+**Glasgow:** [04:45] That's fascinating. Dan, I want to ask about your Chainlink partnership. Can you explain the significance of working with Chainlink while also supporting Ergo's native Oracle Pools?
+
+**Dan:** [04:58] Great question. It's important to understand that this isn't a zero-sum game. We chose Chainlink for specific functions - mainly proof of reserve for our on-chain warehouse receipts. When a producer deposits commodities in a bonded warehouse, we need continuous monitoring through IoT devices like weight sensors, cameras, and motion detectors.
+
+Chainlink's network size and existing infrastructure made them the right choice for this particular use case. However, we're also planning to invest some of our raised capital into building out Ergo's Oracle Pool infrastructure. Native Ergo oracles are more secure and aligned with our ecosystem.
+
+The goal is to use the right tool for each job. Some functions work better with Chainlink's established network, others will work better with native Ergo solutions.
+
+**Glasgow:** [06:02] I appreciate that pragmatic approach. Let me ask a community question here - someone's asking about potential speed improvements for Ergo. kushti, what are your thoughts?
+
+**kushti:** [06:15] This is actually perfect timing for this discussion. We have several draft proposals for scaling improvements that we'll be revisiting after Ergoversary. Options include sub-blocks, microblocks, and various layer 2 solutions.
+
+What's good about this moment is that we now have a concrete set of applications - GARD protocols, Rosen Bridge, Oracle Pools, Spectrum DEX, Trade House - so we have real data about transaction patterns and bottlenecks.
+
+Rather than optimizing in the abstract like many chains do, we can optimize for actual use cases. We're also looking at faster confirmation protocols and potentially adjusting block times, though that affects contracts that rely on block height rather than timestamps.
+
+**Glasgow:** [07:25] Speaking of block times, would faster blocks affect existing contracts?
+
+**kushti:** [07:30] Yes, some contracts are tied to block height rather than timestamp, so we'd need to be careful about backwards compatibility. But emission contracts would actually benefit - they'd tail off faster with faster blocks, depending on how we implement it.
+
+The key is having community involvement. We have a testnet set up for parameter tweaking. If anyone's passionate about this and wants to lead the effort, they should DM me. We need people to run testnets, change configurations, mine them, and do scientific observations.
+
+**Glasgow:** [08:15] That's a great opportunity for community involvement. qx(), can you elaborate on how Trade House handles partial fills and why that's important?
+
+**qx():** [08:25] Partial fills are crucial for larger trades. When you place a sell order, if someone buys part of it, the system automatically creates a new box with the remaining tokens at the same price level. This happens completely on-chain with no central authority.
+
+It means you can set up complex trading strategies - like buying 50,000 tokens across 10 different price levels and just wait for the market to come to you. The order book shows real depth and liquidity, so you can see exactly what's available at each price level.
+
+This is especially valuable during volatile periods when you want to buy dips systematically rather than trying to time the market perfectly.
+
+**Glasgow:** [09:15] Excellent. Let me ask about a security question that came up. Someone's asking about DDoS attacks - could Ergo face the same kind of spam attacks that have affected other networks?
+
+**kushti:** [09:28] Ergo has several built-in protections against spam. Since version 4.0.44, nodes have limits on downloading too many transactions from a single peer. We also have mempool filters where node operators can raise minimum propagation fee rates to stop spam from even entering their mempool.
+
+The reference client also has a fee estimation API that shows how much you need to pay to get into the next block, though it's not widely used by applications yet. Unlike Bitcoin's fee market chaos, users can just adjust their transaction fees in wallets like Nautilus to get priority.
+
+If there's sustained spam, honest users just pay slightly more and spammers' transactions eventually time out and get dropped from the mempool after a few hours if they're not picked up.
+
+**Glasgow:** [10:45] That's reassuring. Dan, I want to circle back to something you mentioned about being multi-chain. How do you balance that with being part of the Ergo ecosystem?
+
+**Dan:** [10:55] That's a really important question, and I appreciate the community being thoughtful about it. The reality is that if we want Ergo to succeed long-term, we need to be welcoming to companies that might use multiple tools for different jobs.
+
+Palmyra is actually Ergo-exclusive right now - everything runs on Ergo. But as we grow, we might need to interface with other chains for certain functions. What's important is that we're bringing value to the Ergo ecosystem and helping it grow.
+
+I think tribalistic responses to multi-chain partnerships can actually hurt Ergo's growth. We should be grateful when companies choose to build on Ergo, even if they also work with other technologies. That's how we become a foundational layer that other projects build on.
+
+**Glasgow:** [11:55] That's a mature perspective. Let me ask everyone - what are you most looking forward to in the next year of Ergo development?
+
+**kushti:** [12:05] For me, it's seeing more real-world applications go live. We have the infrastructure now - stable nodes, mature smart contracts, good tooling. The next phase is seeing projects like Palmyra, Rosen Bridge, and the DEXes reach their full potential.
+
+I'm also excited about the zero-knowledge work and potential integration with other proof-of-work chains through merge mining.
+
+**Dan:** [12:30] I'm excited about launching Winter Protocol and showing how Ergo can handle real commodity financing. We're talking about millions of dollars in real-world assets being tokenized and traded. That's the kind of adoption that validates the entire ecosystem.
+
+I'm also looking forward to contributing back to Ergo's Oracle Pool infrastructure and helping other projects that want to tokenize real-world assets.
+
+**qx():** [12:55] For me, it's seeing order book trading become more mainstream in DeFi. Trade House is just the beginning - we're also working on Auction House for NFTs and other unique assets. The UTXO model is perfect for these kinds of peer-to-peer trading systems.
+
+I think 2024 will be the year where people realize that not everything needs to be an AMM, and that order books offer superior user experience for serious traders.
+
+**Glasgow:** [13:25] Those are all exciting developments. Before we wrap up, let me ask about the Rosen Bridge. There was some mention of manual transactions and permit issues?
+
+**Dan:** [13:35] Yeah, we had an accidental high-fee transaction that didn't go through properly - I think someone missed a signature. The team is working on pushing it through again, and people should get their permits refunded. We're actively working on it.
+
+The Rosen team has been great about handling these edge cases as we work toward mainnet. These kinds of issues are exactly why we do thorough testing.
+
+**Glasgow:** [14:00] Thanks for the transparency on that. Any final thoughts as we celebrate five years of Ergo?
+
+**kushti:** [14:08] Just that I'm incredibly proud of what this community has built. Five years ago, Ergo was just an idea. Now we have a thriving ecosystem with real applications solving real problems. The best is yet to come.
+
+**Dan:** [14:20] I'm grateful to be building on Ergo. The technology is solid, the community is supportive, and there's so much potential for growth. Here's to the next five years.
+
+**qx():** [14:30] Ergo has given developers like me the tools to build things that weren't possible before. The combination of UTXO model, powerful smart contracts, and strong cryptography is unique. Excited to see what everyone builds next.
+
+**Glasgow:** [14:45] Perfect. Thanks everyone for joining us for this Ergoversary AMA. Make sure to check out Trade House, follow Palmyra's development, and keep building on Ergo. Happy fifth birthday, Ergo!

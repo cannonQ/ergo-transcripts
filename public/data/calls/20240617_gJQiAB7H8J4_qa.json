@@ -1,0 +1,133 @@
+{
+  "call_date": "2024-06-17",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:00",
+      "question": "Why are DeFi options not capturing significant market share compared to CeFi options?",
+      "asker": "Implied question from presentation",
+      "answer": "DeFi options face three main problems: risk, liquidity, and performance. They're seen as too risky due to layer 2 complexity and third-party oracles, have insufficient liquidity due to capital inefficiency compared to under-collateralized CeFi options, and suffer from performance constraints where pricing options on-chain is too gas intensive on layer 1 networks like Ethereum.",
+      "responder": "Quokka",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "options",
+        "TVL",
+        "capital efficiency",
+        "oracles"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "02:33",
+      "question": "How does Ergo solve the performance problems of DeFi options?",
+      "asker": "Implied question from presentation",
+      "answer": "Ergo allows building option pools directly on layer 1, minimizing risk assumptions. By leveraging the UTXO model, it minimizes potential attack surfaces as the AMM moves away from computation towards verification. Ergo is far more performant than other L1s, enabling on-chain options pricing using the Black-Scholes model directly on layer 1.",
+      "responder": "Quokka",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "UTXO",
+        "Black-Scholes",
+        "AMM",
+        "layer 1"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "03:44",
+      "question": "What assets can be used in option pools and how would they expand?",
+      "asker": "Implied question from presentation",
+      "answer": "Currently demonstrated with ERG-USD pools using ERG and SigmaUSD, but the setup can be applied to any other assets. For example, when the upcoming Rosen Bridge launches to Bitcoin, there could be Rosen BTC against SigmaUSD pools, creating Bitcoin option pools on Ergo.",
+      "responder": "Quokka",
+      "category": "defi",
+      "difficulty": "beginner",
+      "related_terms": [
+        "SigmaUSD",
+        "Rosen Bridge",
+        "Bitcoin",
+        "asset pools"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "04:24",
+      "question": "How do different pool ratios work in option pools?",
+      "asker": "Implied question from presentation",
+      "answer": "Pools can have various ratios, not just one-to-one. Pools with ratios close to the market rate would be most balanced, but pools can maintain different ratios to be more bearish or bullish on one side of the pair. The demonstrated pool is designed to be slightly bearish on ERG, where yield earnings lean towards SigmaUSD.",
+      "responder": "Quokka",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "pool ratios",
+        "bearish",
+        "bullish",
+        "yield"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "05:36",
+      "question": "What strike prices and expiration dates are supported in option pools?",
+      "asker": "Implied question from presentation",
+      "answer": "For the ErgoHack demonstration, pools only support one strike price and expiration. However, future versions would support any strike and expiration, which is an improvement over centralized exchanges that often only have liquidity in a couple specific strikes and expiries. Traders could pick the exact strike and expiry they want, and the pool would use its pricing model to price that option.",
+      "responder": "Quokka",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "strike price",
+        "expiration",
+        "liquidity",
+        "pricing model"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "06:49",
+      "question": "How are volatility and risk-free rates determined in the option pricing?",
+      "asker": "Implied question from presentation",
+      "answer": "A historical volatility oracle was developed during ErgoHack that aggregates historical DEX volatility on-chain, though the demo interface uses a simple flat 65% volatility. The risk-free rate is set at 5% for demonstration, but pools could update this over time through a risk-free rate oracle or governance mechanism.",
+      "responder": "Quokka",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "volatility oracle",
+        "risk-free rate",
+        "governance",
+        "DEX"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "09:05",
+      "question": "How do option pools respond to market demand and adjust pricing?",
+      "asker": "Implied question from presentation",
+      "answer": "When call volume in the pool rises, the pool dynamically adjusts the price to match market sentiment. This demonstrates that the pool not only uses Black-Scholes as the basis for options pricing, but is also capable of responding to real-time market demand by increasing prices when demand increases.",
+      "responder": "Quokka",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Black-Scholes",
+        "market sentiment",
+        "dynamic pricing",
+        "volume"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "11:57",
+      "question": "What mathematical functions were implemented in ErgoScript for options trading?",
+      "asker": "Implied question from presentation",
+      "answer": "Various math functions necessary for on-chain options were implemented in ErgoScript, including logarithms, exponentials, and square roots. A volatility oracle was also created that aggregates historical DEX volatility on-chain, which is completely free to use in contracts since once data is on-chain in Ergo, it's like public property available for anyone to use.",
+      "responder": "Quokka",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "ErgoScript",
+        "mathematical functions",
+        "volatility oracle",
+        "on-chain data"
+      ]
+    }
+  ]
+}

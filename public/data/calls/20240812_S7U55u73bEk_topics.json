@@ -1,0 +1,368 @@
+{
+  "call_date": "2024-08-12",
+  "call_title": "Dev Update August 11 2024 |  Rosen Bridge, Crystal Pool, Paideia, Celaut, Sigs Mining, and more!",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Call Introduction and Kushti Welcome",
+      "category": "community",
+      "start_time": "00:13",
+      "end_time": "00:38",
+      "primary_speaker": "qx()",
+      "summary": "QX introduces the dev update call after a couple weeks break and welcomes kushti from Ergo as a special guest. He commits to returning to weekly updates and holding himself accountable for consistency.",
+      "key_terms": [
+        "dev update",
+        "kushti",
+        "weekly calls"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Kushti's Current Focus and Development Philosophy",
+      "category": "technical",
+      "start_time": "00:38",
+      "end_time": "02:40",
+      "primary_speaker": "kushti",
+      "summary": "Kushti discusses shifting from creating new schemes to implementing existing technology for real-world impact. He mentions having enough material now and focusing on practical implementation work including Dexy soft launch, ChainCash, Sigma 6.0, and sub-blocks development.",
+      "key_terms": [
+        "Dexy",
+        "ChainCash",
+        "Sigma 6.0",
+        "sub-blocks",
+        "soft launch",
+        "real world impact"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "ChainCash Development Team and Contributors",
+      "category": "technical",
+      "start_time": "02:40",
+      "end_time": "05:48",
+      "primary_speaker": "kushti",
+      "summary": "Kushti explains that ChainCash is primarily being developed by Dusek with help from Larukh on CI/CD. He discusses the challenge of getting people interested in monetary philosophy and the need for demos to make the concepts more understandable to attract contributors.",
+      "key_terms": [
+        "Dusek",
+        "Larukh",
+        "CI/CD",
+        "demos",
+        "monetary philosophy",
+        "contributors"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Blockchain Adoption Challenges and Target Audiences",
+      "category": "ecosystem",
+      "start_time": "05:48",
+      "end_time": "13:31",
+      "primary_speaker": "qx()",
+      "summary": "Discussion about the difficulty of explaining Ergo's financial tools to people accustomed to entertainment-focused blockchains. QX questions whether they should target transient users from other chains or focus on people who actually need financial tools in underserved locations.",
+      "key_terms": [
+        "financial tools",
+        "entertainment blockchain",
+        "underserved locations",
+        "target audience",
+        "transient users"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Real World Need for Better Money Systems",
+      "category": "ecosystem",
+      "start_time": "07:11",
+      "end_time": "10:26",
+      "primary_speaker": "kushti",
+      "summary": "Kushti argues there's genuine need for blockchain-based money in places where traditional banking fails, citing Lebanon's banking crisis as an example. He acknowledges that people with working Visa Platinum cards may not need blockchain, but emphasizes the value for excluded populations.",
+      "key_terms": [
+        "Lebanon banking crisis",
+        "Visa Platinum",
+        "excluded populations",
+        "peer-to-peer banking",
+        "uncensorable"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Community Development Strategy and Messaging",
+      "category": "marketing",
+      "start_time": "10:26",
+      "end_time": "19:30",
+      "primary_speaker": "kushti",
+      "summary": "Kushti discusses the permissionless nature of Ergo allowing both entertainment and serious financial use cases. He emphasizes the need for proper messaging to differentiate Ergo and mentions concerns about VCs redefining cryptographic terms in other blockchain spaces.",
+      "key_terms": [
+        "permissionless network",
+        "proper messaging",
+        "VCs",
+        "cryptographic terms",
+        "differentiation"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Developer Interest and Bitcoin Community Migration",
+      "category": "technical",
+      "start_time": "19:48",
+      "end_time": "22:38",
+      "primary_speaker": "kushti",
+      "summary": "Kushti reports positive conversations with developers who are tired of casino-like systems and are interested in Ergo. Many are longtime Bitcoin users from 2010 who are unhappy with current Bitcoin development direction and the space in general.",
+      "key_terms": [
+        "developer interest",
+        "casino-like systems",
+        "Bitcoin users",
+        "Bitcoin development",
+        "technical people"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Rosen Bridge Development and EVM Integration",
+      "category": "bridges",
+      "start_time": "22:43",
+      "end_time": "26:01",
+      "primary_speaker": "qx()",
+      "summary": "Update on Rosen Bridge progress including security improvements, EVM integration work, and guard updates. The team has released multiple updates and improved communication with guards through announcements in channels.",
+      "key_terms": [
+        "Rosen Bridge",
+        "EVM integration",
+        "security",
+        "guards",
+        "watchers",
+        "announcements"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Spectrum DEX Mobile Deposits and UI Updates",
+      "category": "defi",
+      "start_time": "26:01",
+      "end_time": "27:37",
+      "primary_speaker": "qx()",
+      "summary": "Spectrum DEX showcased fast mobile deposits for their Ergo hack entry and Gluon Gold is implementing a more serious UI design as requested by the community, moving away from anime-style gold theming.",
+      "key_terms": [
+        "Spectrum DEX",
+        "mobile deposits",
+        "Ergo hack",
+        "Gluon Gold",
+        "UI design",
+        "trustworthy design"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Ergo Node 5.1 Release and RocksDB Migration",
+      "category": "technical",
+      "start_time": "27:40",
+      "end_time": "31:16",
+      "primary_speaker": "kushti",
+      "summary": "Kushti provides updates on Ergo node development including 5.0.23 testing and the upcoming 5.1 release with RocksDB. Version 5.1 will require a full resync but offers better stability and performance, with both versions being supported simultaneously initially.",
+      "key_terms": [
+        "Ergo node",
+        "5.1 release",
+        "RocksDB",
+        "full resync",
+        "stability",
+        "performance",
+        "mgPai testing"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Sigma 6.0 and External Contributions Progress",
+      "category": "technical",
+      "start_time": "31:16",
+      "end_time": "32:17",
+      "primary_speaker": "kushti",
+      "summary": "Multiple pull requests for Sigma 6.0 are in review and testing phase. External contributors PGR456 and Zach Balbin have submitted PRs for version 0.24, which will likely be released shortly after 0.23.",
+      "key_terms": [
+        "Sigma 6.0",
+        "pull requests",
+        "external contributors",
+        "PGR456",
+        "Zach Balbin",
+        "version 0.24"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "ChainCash API Development and Money Issuance",
+      "category": "technical",
+      "start_time": "32:36",
+      "end_time": "33:35",
+      "primary_speaker": "kushti",
+      "summary": "Dusek has completed blockchain scanning for ChainCash and is working on the API. The next step is creating a simple command-line client to find hackers willing to experiment with peer-to-peer money issuance.",
+      "key_terms": [
+        "blockchain scanning",
+        "API",
+        "command-line client",
+        "money issuance",
+        "peer-to-peer",
+        "hackers"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Dexy Deployment and Contract Testing",
+      "category": "defi",
+      "start_time": "33:35",
+      "end_time": "34:31",
+      "primary_speaker": "kushti",
+      "summary": "Dexy development includes removing scan dependency from backend code and testing redemption functionality. LP redemption contract has been deployed and bank contracts are being reviewed for mainnet deployment to start Dexy operations.",
+      "key_terms": [
+        "Dexy",
+        "scan dependency",
+        "redemption functionality",
+        "LP redemption contract",
+        "bank contracts",
+        "mainnet deployment"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "Paideia DAO Notifications and Crux Features",
+      "category": "governance",
+      "start_time": "34:34",
+      "end_time": "36:17",
+      "primary_speaker": "qx()",
+      "summary": "Paideia is working on automatic notifications for each DAO and awaiting contract template fixes. Crux has enabled subscriptions with filter presets and address filtering on historic trades. A gold oracle chart was created at Bruno's request for Gluon data checking.",
+      "key_terms": [
+        "Paideia",
+        "DAO notifications",
+        "Crux",
+        "subscriptions",
+        "filter presets",
+        "gold oracle",
+        "Gluon"
+      ]
+    },
+    {
+      "topic_id": 15,
+      "title": "Nautilus Wallet and Fleet SDK Improvements",
+      "category": "technical",
+      "start_time": "36:17",
+      "end_time": "37:12",
+      "primary_speaker": "kushti",
+      "summary": "New Nautilus wallet version released with performance improvements. Fleet SDK added exponential delay retrying, fallback URL support, GraphQL operation URL override, and custom big integer mapping support.",
+      "key_terms": [
+        "Nautilus wallet",
+        "performance improvements",
+        "Fleet SDK",
+        "exponential delay",
+        "fallback URL",
+        "GraphQL",
+        "big integer mapping"
+      ]
+    },
+    {
+      "topic_id": 16,
+      "title": "Celaut P2P Network Development Progress",
+      "category": "technical",
+      "start_time": "37:12",
+      "end_time": "39:10",
+      "primary_speaker": "qx()",
+      "summary": "Celaut achieved single-command node installation on Ubuntu, developed terminal user interface for peer management, implemented reverse proxy support for nodes without public IPs, and is working on Ergo payment system integration and reputation system.",
+      "key_terms": [
+        "Celaut",
+        "single-command installation",
+        "terminal user interface",
+        "reverse proxy",
+        "ngrok",
+        "payment system",
+        "reputation system",
+        "peer-to-peer"
+      ]
+    },
+    {
+      "topic_id": 17,
+      "title": "SIGS Mining Pool Infrastructure Migration",
+      "category": "technical",
+      "start_time": "39:39",
+      "end_time": "41:31",
+      "primary_speaker": "qx()",
+      "summary": "SIGS mining pool renamed core backend, implemented serial transaction processing, and is migrating to new servers to reduce costs from $100 to $20 per month. New domain ergo-miners.com launched and beta testing is underway for the new infrastructure.",
+      "key_terms": [
+        "SIGS mining pool",
+        "ergo-tx-factory",
+        "serial transactions",
+        "server migration",
+        "cost reduction",
+        "ergo-miners.com",
+        "beta testing"
+      ]
+    },
+    {
+      "topic_id": 18,
+      "title": "SigmaRust Release and Contributor Needs",
+      "category": "technical",
+      "start_time": "42:15",
+      "end_time": "44:27",
+      "primary_speaker": "kushti",
+      "summary": "New SigmaRust version released after months of development by PGR456, Dusek, and UnknownBear. Kushti calls for more contributors needed for testing, peer-to-peer refactoring, Sigma 6.0 implementation, and ChainCash development which could become commercially viable.",
+      "key_terms": [
+        "SigmaRust",
+        "PGR456",
+        "Dusek",
+        "UnknownBear",
+        "contributors",
+        "testing",
+        "peer-to-peer refactoring",
+        "commercially viable"
+      ]
+    },
+    {
+      "topic_id": 19,
+      "title": "ChainCash Value System and Gold Oracle",
+      "category": "defi",
+      "start_time": "44:27",
+      "end_time": "47:00",
+      "primary_speaker": "kushti",
+      "summary": "ChainCash uses gold as unit of account but allows individual valuation decisions. The system provides an assembly layer for different peer-to-peer financial networks, supporting both high-quality nodes and trust-based friend networks with various valuation algorithms.",
+      "key_terms": [
+        "unit of account",
+        "gold oracle",
+        "individual valuation",
+        "assembly layer",
+        "peer-to-peer financial",
+        "trust-based networks",
+        "valuation algorithms"
+      ]
+    },
+    {
+      "topic_id": 20,
+      "title": "RareEvo Conference Plans and Community Outreach",
+      "category": "marketing",
+      "start_time": "48:42",
+      "end_time": "50:15",
+      "primary_speaker": "qx()",
+      "summary": "Team preparing for RareEvo conference with branded merchandise including 'make mining great again' hats and shirts. Plans to distribute 100+ wallets to attendees and set up informational booth with Dan, Brian from Palmyra, and Joe from Rosen Bridge.",
+      "key_terms": [
+        "RareEvo",
+        "conference",
+        "merchandise",
+        "branded hats",
+        "wallet distribution",
+        "informational booth",
+        "Palmyra",
+        "community outreach"
+      ]
+    },
+    {
+      "topic_id": 21,
+      "title": "Academic Paper and Future Development Plans",
+      "category": "ecosystem",
+      "start_time": "50:15",
+      "end_time": "50:54",
+      "primary_speaker": "kushti",
+      "summary": "Kushti's abstract was accepted for an academic paper on ChainCash for Amix conference. ErgoDevs DAO is discussing Oracle pools updates, tutorial support, integrations like Keystone hardware wallet, and Explorer replacement projects.",
+      "key_terms": [
+        "academic paper",
+        "ChainCash",
+        "Amix conference",
+        "ErgoDevs DAO",
+        "Oracle pools",
+        "Keystone integration",
+        "Explorer replacement"
+      ]
+    }
+  ]
+}

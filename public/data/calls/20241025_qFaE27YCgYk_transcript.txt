@@ -1,0 +1,89 @@
+[00:11] **kushti**: In today's video I will show how to make very simple application using the Node and also ErgoScript compiler only.
+
+[00:22] **kushti**: All right, let's start.
+
+[00:24] **kushti**: So, we have the node running, right, and its balance is about 1 ERG.
+
+[00:33] **kushti**: And what we are going to do is some very simple script, which is about the simplest ring signature and payments to this ring signature is spendable by the node's wallet.
+
+[00:54] **kushti**: So for this we have few addresses in the wallet.
+
+[01:00] **kushti**: All right. And we are going to make script.
+
+[01:11] **kushti**: What we are doing is actually very simple and pretty stupid and insecure kind of obfuscation.
+
+[01:22] **kushti**: So the script would be as following. So it is spendable to the first public key of the wallet, the second key.
+
+[01:53] **kushti**: And from outside there is no correspondence can be extracted for these two public keys, right, because they derived via hardened derivation from root secret.
+
+[02:09] **kushti**: And then this is ring signature.
+
+[02:18] **kushti**: And this ring signature is actually a true ring signature, not one out of two multisig as in Bitcoin, so this ring signature is preserving zero-knowledge property, so from spending an output with this script pretending. The output is not known which key was used actually.
+
+[02:48] **kushti**: So you can use this as a basis for most sophisticated application scripts. But yeah, let's start with this simplest example.
+
+[03:01] **kushti**: So now we need to somehow find payments to the script.
+
+[03:08] **kushti**: So the node is tracking only simple payments associated with pay to public key script, so just very simple money transfers to public keys.
+
+[03:22] **kushti**: Alright, so to find money sent to this script, we need to go to the Swagger API.
+
+[03:35] **kushti**: And then in the first place, we need to get bytes corresponding to the pay to script address, which we got via web-based ErgoScript playgrounds made by Jason Davis.
+
+[03:57] **kushti**: So we are getting bytes.
+
+[04:05] **kushti**: Execute yeah so here we have for the bytes and now all we need to register custom scan right so let's check what do we have now
+
+[04:28] **kushti**: Yeah, no any scan registered yet, so we are going to register one.
+
+[04:40] **kushti**: Alright, so predicate is about equals, means strict equality, and yeah, value would be about bytes.
+
+[04:54] **kushti**: And you see, the register is missed in the tracking rule. And in this case, according to EIP-1, register R1 is assumed, which is corresponding to the script.
+
+[05:10] **kushti**: So the guarding script for UTXO is stored in this register. I will provide some links under the video.
+
+[05:21] **kushti**: Scan name would be simplest ring sig and also I am going to add a non-default value for the wallet interaction flag and this value would be forced means that all the outputs found by the scan will be also added to the wallet and then, yeah, wallet is able to spend the ring sig because the wallet knows a secret.
+
+[06:04] **kushti**: Well, actually both secrets, but one is not.
+
+[06:09] **kushti**: All right, so we are going to register the scan.
+
+[06:14] **kushti**: Yeah, we are getting an ID for the new scan. Right, and now it's in the list.
+
+[06:24] **kushti**: Okay, so now time to test. So I'm going to send some money to this script.
+
+[06:46] **kushti**: How much? 1 ERG.
+
+[07:07] **kushti**: So, let's check if our payment. So, it's in the mempool. We are waiting for it to be included into a block.
+
+[07:27] **kushti**: And while we are waiting, a quick reminder. So, please use ErgoScript Playgrounds to compile scripts into Pay2Script address. You can send money to it.
+
+[07:44] **kushti**: Right, when you send money you are creating an unspent output protected by this script, basically.
+
+[07:59] **kushti**: Yeah, still waiting. And then use the node to create custom scan.
+
+[08:15] **kushti**: Right, and custom scans are actually used in many applications. So, for example, stablecoin bank backend is using them via headless dApp framework.
+
+[08:37] **kushti**: And then also Anon Reels applications are usually using custom scans. So Ergo Auctions are using custom scans to find auctions around the blockchain.
+
+[08:53] **kushti**: And Proxy Service, I believe, also using custom scans.
+
+[09:03] **kushti**: So it's quite popular way to find outputs around. Alternative methods are using JDE, so JSON development environment, or also Explorer, which is how ErgoMixer backend is working, for example.
+
+[09:33] **kushti**: Yeah, now we have two ERG and even more. Let me show that they're spendable. So I'm going to send money to self.
+
+[10:02] **kushti**: Not in the mempool yet, but will be soon, maybe. Oh, it's already there.
+
+[10:14] **kushti**: Alright, so transaction in the mempool and will be included into the next block. So, as you can see, this script is spendable by the wallet, but to find outputs with the script via custom scan.
+
+[10:38] **kushti**: So you can use it as a very simple and stupid form of obfuscation. And by using custom scans you can do more complex applications using just a node.
+
+[10:56] **kushti**: So if you are using custom scans for more complex applications, so likely you will find the following wallet methods useful.
+
+[11:32] **kushti**: Yes, you can use, when you know outputs, you can use UTXO by binary method to get serialized outputs.
+
+[11:45] **kushti**: And then you can use, for example, generate or generate unsigned wallet methods to generate signed or unsigned transaction with custom inputs.
+
+[12:07] **kushti**: To provide custom inputs you need to provide boxes from scans in serialized form.
+
+[12:19] **kushti**: Alright, that's it. Thank you for your attention. Bye.

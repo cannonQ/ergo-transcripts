@@ -1,0 +1,76 @@
+{
+  "call_date": "2024-10-25",
+  "call_title": "Communicating with Ergo | Alex Chepurnoy | ErgoHack 9",
+  "decisions": [],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "05:21",
+      "commitment": "Provide links under the video about register R1 and EIP-1",
+      "owner": "kushti",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "I will provide some links under the video"
+    }
+  ],
+  "open_questions": [],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "00:24",
+      "fact": "Node balance is about 1 ERG",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 2,
+      "timestamp": "05:04",
+      "fact": "Register R1 corresponds to the script according to EIP-1",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 3,
+      "timestamp": "05:10",
+      "fact": "The guarding script for UTXO is stored in register R1",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 4,
+      "timestamp": "08:15",
+      "fact": "Stablecoin bank backend uses custom scans via headless dApp framework",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 5,
+      "timestamp": "08:37",
+      "fact": "Anon Reels applications usually use custom scans",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 6,
+      "timestamp": "08:53",
+      "fact": "Ergo Auctions use custom scans to find auctions around the blockchain",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 7,
+      "timestamp": "08:53",
+      "fact": "Proxy Service uses custom scans",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 8,
+      "timestamp": "09:03",
+      "fact": "ErgoMixer backend works using Explorer",
+      "speaker": "kushti",
+      "topic": "technical"
+    }
+  ]
+}

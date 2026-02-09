@@ -1,0 +1,72 @@
+{
+  "call_date": "2024-07-01",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "00:22",
+      "question": "What are the main issues with AMM trading platforms like Spectrum?",
+      "asker": "anon_real",
+      "answer": "AMM trading suffers from several issues: low liquidity causes high slippage which results in users overpaying, the price is fixed at any moment with no options to put orders at different prices, and swaps result in high fluctuations of the market price. Order book trading does not suffer from these issues.",
+      "responder": "anon_real",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "AMM",
+        "Spectrum",
+        "slippage",
+        "order book",
+        "liquidity"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "00:43",
+      "question": "What are the key features of Trade House?",
+      "asker": "anon_real",
+      "answer": "Trade House offers six key features: all orders are protected by audited contracts and executed on-chain with no intermediary, buy and sell orders can be partially filled without exact amount matching, trustless off-chain bots immediately match orders for smooth user experience, all order statuses can be viewed live with immediate updates, 50% lower fees than SigmaUSD Bank Box, and orders can be filled with other liquidity sources like Spectrum LP boxes.",
+      "responder": "anon_real",
+      "category": "defi",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Trade House",
+        "partial filling",
+        "trustless",
+        "order book",
+        "DEX"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "01:31",
+      "question": "How does Trade House integrate with other Ergo DeFi protocols?",
+      "asker": "anon_real",
+      "answer": "Buy and sell orders can be filled with other kinds of liquidity such as Spectrum LP boxes. Although not implemented yet, this could make Trade House the single needed hub for trading. For example, a user could place an ERG sell order for $5 per ERG, and as soon as any other order, Spectrum LP box, or SigmaUSD bank box can offer the same price, the order will be executed.",
+      "responder": "anon_real",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "liquidity aggregation",
+        "Spectrum",
+        "SigmaUSD",
+        "LP boxes",
+        "cross-protocol"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "03:08",
+      "question": "How does price improvement work in Trade House orders?",
+      "asker": "anon_real",
+      "answer": "Users can get better prices than they set in their orders. In one example, a sell order was placed at 4.17 SigmaUSD but executed at an average price of 4.29 SigmaUSD, meaning the user sold at a higher price. In another case, a buy order set at 6.83 executed at an average of 6.66, so the user paid less than expected.",
+      "responder": "anon_real",
+      "category": "defi",
+      "difficulty": "beginner",
+      "related_terms": [
+        "price improvement",
+        "order execution",
+        "average price",
+        "SigmaUSD"
+      ]
+    }
+  ]
+}

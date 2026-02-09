@@ -1,0 +1,71 @@
+{
+  "call_date": "2024-06-17",
+  "call_title": "Ergo to Bitcoin Lightning Swaps | Analog Ergo | ErgoHack VIII",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "00:44",
+      "decision": "Use SHA-256 pre-images instead of curve points in atomic swap contract",
+      "speaker": "deathgripson",
+      "context": "Modifying existing ErgoScript atomic swap contract for Bitcoin Lightning integration",
+      "topic": "technical",
+      "significance": "major",
+      "quote": "We're also going to use SHA-256 pre-images instead of curve points in that contract"
+    },
+    {
+      "id": 2,
+      "timestamp": "00:44",
+      "decision": "Use LND as the lightning implementation",
+      "speaker": "deathgripson",
+      "context": "Establishing testnet lightning environment",
+      "topic": "technical",
+      "significance": "minor",
+      "quote": "We're using the lightning implementation called LND"
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "16:30",
+      "commitment": "Launch a public testnet soon",
+      "owner": "deathgripson/Atomic Swap Team",
+      "timeline": "very soon",
+      "topic": "atomic-swaps",
+      "quote": "We're planning on launching a public testnet soon. So yeah, anyone who wants to participate in the public testnet will be able to do so very, very soon"
+    },
+    {
+      "id": 2,
+      "timestamp": "16:30",
+      "commitment": "Post frequently in Atomic Analog Swap Discord and Ergo Discord",
+      "owner": "deathgripson/Atomic Swap Team",
+      "timeline": "unspecified",
+      "topic": "communication",
+      "quote": "We'll be posting frequently in both of there"
+    }
+  ],
+  "open_questions": [],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "01:13",
+      "fact": "Bitcoin Regtest Tooling GitHub repository created with updated tutorial instructions",
+      "speaker": "deathgripson",
+      "topic": "technical"
+    },
+    {
+      "id": 2,
+      "timestamp": "02:25",
+      "fact": "Existing atomic swap contract used with Sepolia EVM testnet",
+      "speaker": "deathgripson",
+      "topic": "technical"
+    },
+    {
+      "id": 3,
+      "timestamp": "11:03",
+      "fact": "Demo used 1000 Satoshis for invoice amount",
+      "speaker": "deathgripson",
+      "topic": "technical"
+    }
+  ]
+}

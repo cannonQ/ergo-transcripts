@@ -1,0 +1,142 @@
+{
+  "call_date": "2024-10-11",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:20",
+      "question": "What are you currently working on with sub-blocks and parallelization?",
+      "asker": "Armeanio",
+      "answer": "I've released two reference client versions - 5.0.23 and 6.0.0.2 which includes Sigma 6.0 functionalities. I'm working on making the number of sub-blocks per block configurable through soft fork parameters to avoid hard forks when adjusting network performance. Sub-blocks are already generating in DevNet locally and the code is publicly available on GitHub. The idea is inspired by parallel proof-of-work protocols like Prism, allowing faster confirmation times for DApps while maintaining the same security as the full block time.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "sub-blocks",
+        "Sigma 6.0",
+        "soft fork",
+        "parallel proof-of-work",
+        "DevNet"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "24:30",
+      "question": "What's the current status of Ledger integration?",
+      "asker": "kushti",
+      "answer": "We received another reply from the Ledger team requiring support for new devices - Stax and Flex - before proceeding. After device support, there will be functional testing, third-party audits, and then inclusion into the live version. We found a new developer within two days to work on supporting the new devices. The good news is we no longer need to support Nano S, so limits for the number of tokens per output can potentially be raised.",
+      "responder": "kushti",
+      "category": "wallet",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Ledger",
+        "Stax",
+        "Flex",
+        "Nano S",
+        "hardware wallet"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "25:57",
+      "question": "What's the status of Dexy and when will it launch on mainnet?",
+      "asker": "kushti",
+      "answer": "The audit was recently completed and everything in the code is fixed. We need to update the white paper and do another communication round with the audit team before proceeding to mainnet launch. We've deployed many mainnet contracts and gained experience on better deployment practices compared to the initial SigmaUSD deployment, so this deployment should be much better.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Dexy",
+        "audit",
+        "mainnet",
+        "SigmaUSD",
+        "deployment"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "30:06",
+      "question": "What soft fork capabilities does Ergo have that haven't been fully utilized?",
+      "asker": "kushti",
+      "answer": "Since day one, Ergo has had the ability to vote on changing certain parameters with 90+ percent super majority voting. It's also possible to modify non-critical parameters, add support for new data structures, and change validation parameters - all without being able to steal money. I'm thinking of proposing a new parameter for voting on the number of sub-blocks per block, where old nodes will still support the protocol change. This soft forkability was designed with extreme care after analyzing Bitcoin's civil wars and related experiences.",
+      "responder": "kushti",
+      "category": "governance",
+      "difficulty": "advanced",
+      "related_terms": [
+        "soft fork",
+        "voting",
+        "super majority",
+        "parameters",
+        "backwards compatibility"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "39:32",
+      "question": "Why is Rosen asking for more funds from Cardano before completing the ETH launch promises?",
+      "asker": "Community",
+      "answer": "The funds are structured for development to offer projects an alternative path to stablecoin-rich environments. We want to support Cardano projects moving to Ethereum with lower costs than traditional exchanges - no high upfront listing fees, no carry costs for liquidity requirements, and no expensive market making. Projects can access larger markets while retaining capital for development. This allows them to balance capital across stablecoins and build depth in new ecosystems without the traditional exchange burden.",
+      "responder": "Armeanio",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Rosen",
+        "Cardano",
+        "Ethereum",
+        "stablecoins",
+        "market making",
+        "liquidity"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "54:28",
+      "question": "How are ErgoDevsDAO's discussions with potential partners for the first Sigma chain going?",
+      "asker": "Community",
+      "answer": "I think one of the best approaches for the first Sigma chain would be to support smaller GPU cards that have been kicked off Ergo's network due to DAG size growth. We could create a Sigma chain that can be merge-mined with Ergo, allowing miners with smaller cards to direct them at that specific chain. This creates a shared computational environment with lower barrier of entry, getting more miners involved. Having compatible virtual machines opens up possibilities for communication between chains in ways that are much more difficult with different execution environments.",
+      "responder": "Armeanio",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Sigma chain",
+        "merge mining",
+        "DAG size",
+        "GPU",
+        "computational environment"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "58:09",
+      "question": "Can guards on Rosen refuse to transfer assets back to users for some reason?",
+      "asker": "Vadim",
+      "answer": "This breaks down to incentives and game theory. If a guard is maliciously acting, they get kicked off the network, so it's not in their incentive to refuse legitimate transfers. In edge cases, a guard might choose not to sign a suspicious transfer and let other guards handle it if it meets the threshold. But any malicious behavior comes with consequences - that's how Rosen is designed to maintain security through economic incentives.",
+      "responder": "Armeanio",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Rosen",
+        "guards",
+        "game theory",
+        "incentives",
+        "multisig"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "59:03",
+      "question": "When will Rosen Light end and full Rosen launch?",
+      "asker": "Community",
+      "answer": "I called it Rosen Light because we were only supporting base assets from Ergo and Hosky from Cardano as our testnet token. We wanted the system to operate and function as intended before scaling to more assets. We're now approaching the time to start scaling assets and pressure testing the system with more permits relative to transfers. We're transitioning away from Rosen Light as we open the market for Rosen listings, with natural incentive for projects to list in larger markets like Ethereum first due to more stablecoin liquidity and capital access.",
+      "responder": "Armeanio",
+      "category": "bridges",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Rosen Light",
+        "asset scaling",
+        "permits",
+        "listings",
+        "stablecoin liquidity"
+      ]
+    }
+  ]
+}

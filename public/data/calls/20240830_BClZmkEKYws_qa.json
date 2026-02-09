@@ -1,0 +1,128 @@
+{
+  "call_date": "2024-08-30",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "00:52",
+      "question": "What's the current status of Node 6.0 development?",
+      "asker": "qx()",
+      "answer": "The first alpha release of Node 6.0 has been released for local deployments only. Work continues on 6.0 features with another release expected around the end of next week, followed by a third release that would be closer to release candidates. Sub-blocks implementation is also being worked on slowly but surely.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "node_6.0",
+        "alpha_release",
+        "sub-blocks"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "08:18",
+      "question": "Are there any plans for Ergo to expand in Russian markets since the Russian government announced they will be more crypto friendly?",
+      "asker": "White Cat",
+      "answer": "The crypto scene in Russia has been fully underground for a long time. There's uncertainty about what exchanges or developments might emerge, and legal opinions need to be checked. The situation is still unclear regarding what new opportunities may arise.",
+      "responder": "kushti",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "russian_market",
+        "exchanges",
+        "regulation"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "12:45",
+      "question": "As a core developer of a permissionless blockchain, do you worry about potential legal issues like what happened with Telegram's founder?",
+      "asker": "qx()",
+      "answer": "The most problematic situations arise when running centralized services that allow many things, like Telegram. For permissionless blockchains like Ergo and Monero, the situation is different. Some jurisdictions like the UK have tried to make developers liable for open source work, but for most jurisdictions, that's not the case.",
+      "responder": "kushti",
+      "category": "governance",
+      "difficulty": "advanced",
+      "related_terms": [
+        "legal_risk",
+        "permissionless",
+        "centralized_services"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "17:19",
+      "question": "Have you had time to look into Tailstorm? What are your thoughts on it?",
+      "asker": "Wombo22",
+      "answer": "Tailstorm is similar to other proposals in many aspects but has some interesting differences, particularly around modifying incentivization. However, most features aren't applicable to Ergo, and implementing Tailstorm-like incentivization would require a hard fork since Ergo's emission is hard-coded in the protocol, which may actually be a good thing.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "tailstorm",
+        "incentivization",
+        "hard_fork",
+        "emission"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "23:39",
+      "question": "Are there any thoughts about Ergo providing something to the Cardano ecosystem as a partner chain?",
+      "asker": "Proven",
+      "answer": "Technically it would be interesting to consider sidechain possibilities, like trustless cross-chain relays between Cardano and Ergo. However, for proof-of-stake blockchains like Cardano, trustless relays would be much more complex since you cannot easily validate state transitions. Some tricks using zero-knowledge proofs like bulletproofs might be possible for succinct verification.",
+      "responder": "kushti",
+      "category": "bridges",
+      "difficulty": "advanced",
+      "related_terms": [
+        "cardano",
+        "sidechains",
+        "trustless_relays",
+        "zero_knowledge"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "26:52",
+      "question": "What are the initial use cases you're considering for ChainCash?",
+      "asker": "Wombo22",
+      "answer": "ChainCash is a generic tool with multiple potential use cases. Currently considering trust-based community currencies for community finance, where groups like Sigmanauts could provide trust backing. Other ideas include paying developers with collateralized notes that can be used to purchase services or merchandise, creating more economic activity as notes circulate before redemption.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "chaincash",
+        "community_currencies",
+        "collateralized_notes"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "29:27",
+      "question": "Can you partially redeem ChainCash notes?",
+      "asker": "qx()",
+      "answer": "Yes, you can split your note into two notes and redeem one while passing another. This provides flexibility in how the notes are used and redeemed.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "chaincash",
+        "partial_redemption",
+        "note_splitting"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "30:01",
+      "question": "How could real-world assets be integrated into ChainCash?",
+      "asker": "qx()",
+      "answer": "There would be a trust point regarding convertibility of real-world asset tokens. If you trust the provider of real-world asset tokens, you can accept a note backed by them. The same note can have multiple reserves behind it - for example, backed with real-world asset tokens that can be signed and trusted by different parties in the chain.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "advanced",
+      "related_terms": [
+        "chaincash",
+        "real_world_assets",
+        "tokenization",
+        "trust_model"
+      ]
+    }
+  ]
+}

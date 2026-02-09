@@ -1,0 +1,139 @@
+{
+  "call_date": "2024-09-16",
+  "call_title": "Dev Update Sept. 15th 2024 |  Satergo, Paideia, Celaut, Sigs Mining, CU DAO, Rep System and more!",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "55:40",
+      "decision": "Old Sigmanauts mining pool will be shut down tomorrow",
+      "speaker": "qx()",
+      "context": "Only 10 miners remain on old pool with seven gigahash",
+      "topic": "mining",
+      "significance": "minor",
+      "quote": "I'm going to shut it down tomorrow, guys. So if you are still on the old Sigmanauts pool, please update to Mark's new address"
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "25:51",
+      "commitment": "Installing storage rent onto Mark the Shark's new cheaper server today and will point all Sigmanauts mining hash to it",
+      "owner": "qx()",
+      "timeline": "today",
+      "topic": "mining",
+      "quote": "Installing storage rent onto Mark the Shark's new cheaper server today and will point all Sigmanauts mining hash to it"
+    },
+    {
+      "id": 2,
+      "timestamp": "28:37",
+      "commitment": "Meet with student body next Thursday to explain how the DAO will function",
+      "owner": "qx()",
+      "timeline": "next Thursday (four days from call)",
+      "topic": "governance",
+      "quote": "Next up, meet with student body next Thursday"
+    },
+    {
+      "id": 3,
+      "timestamp": "34:03",
+      "commitment": "Integrating mining swaps into mining core after understanding payment tables better",
+      "owner": "Marc the Shark",
+      "timeline": "soon",
+      "topic": "mining",
+      "quote": "before integrating the mining swaps. Should be simple and straightforward, but there's, of course, the unknown. So soon on that"
+    },
+    {
+      "id": 4,
+      "timestamp": "56:16",
+      "commitment": "Make announcement on Twitter and repost on main account about pool shutdown",
+      "owner": "Marc the Shark and qx()",
+      "timeline": "unspecified",
+      "topic": "mining",
+      "quote": "Maybe make an announcement like on the Sigmanauts or something like that"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "10:15",
+      "question": "Whether people will create scammy wallet optimization utilities as storage rent becomes more popular",
+      "context": "Discussion about potential low-hanging fruit scams related to storage rent cleanup",
+      "topic": "security",
+      "raised_by": "Marc the Shark"
+    },
+    {
+      "id": 2,
+      "timestamp": "13:49",
+      "question": "Who runs ergodex.com clone site",
+      "context": "Unknown operator of forked Spectrum interface creates security concerns",
+      "topic": "security",
+      "raised_by": "qx()"
+    },
+    {
+      "id": 3,
+      "timestamp": "21:19",
+      "question": "Pricing for relay services for anonymous shipping",
+      "context": "Discussion about anonymity options for physical goods purchases",
+      "topic": "privacy",
+      "raised_by": "Marc the Shark"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "05:57",
+      "fact": "Storage rent is 0.14 ERG on average per every four years, ranging from less than 0.14 to up to 0.9 ERG depending on data in the box",
+      "speaker": "qx()",
+      "topic": "tokenomics"
+    },
+    {
+      "id": 2,
+      "timestamp": "04:35",
+      "fact": "Storage rent protocol changes require 90% super consensus and result in a hard fork",
+      "speaker": "qx()",
+      "topic": "governance"
+    },
+    {
+      "id": 3,
+      "timestamp": "25:51",
+      "fact": "Sigmanauts mining pool collected almost 30 ERGs from storage rent, found three blocks in 24 hours with about 30 gigahash",
+      "speaker": "qx()",
+      "topic": "mining"
+    },
+    {
+      "id": 4,
+      "timestamp": "32:44",
+      "fact": "Mark solo mined three blocks within a week on two gigahash",
+      "speaker": "Marc the Shark",
+      "topic": "mining"
+    },
+    {
+      "id": 5,
+      "timestamp": "39:55",
+      "fact": "30,000 ERG swap to Cardano got stuck due to insufficient Rosen ERG in Cardano hot wallet",
+      "speaker": "qx()",
+      "topic": "rosen-bridge"
+    },
+    {
+      "id": 6,
+      "timestamp": "43:10",
+      "fact": "New blockchain index into database completed in less than 24 hours",
+      "speaker": "qx() (reporting PGR456's work)",
+      "topic": "infrastructure"
+    },
+    {
+      "id": 7,
+      "timestamp": "53:49",
+      "fact": "Sky Harbor smart contracts are 100% done, backend almost done with PostgreSQL database as last component",
+      "speaker": "qx() (reporting Kwaka's update)",
+      "topic": "development"
+    },
+    {
+      "id": 8,
+      "timestamp": "56:10",
+      "fact": "Old Sigmanauts pool has 10 miners with seven gigahash",
+      "speaker": "qx()",
+      "topic": "mining"
+    }
+  ]
+}

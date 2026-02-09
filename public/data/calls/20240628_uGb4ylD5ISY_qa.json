@@ -1,0 +1,126 @@
+{
+  "call_date": "2024-06-28",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "early",
+      "question": "Can you explain what bulletproofs are and how they could be used with Ergo?",
+      "asker": "community member",
+      "answer": "Bulletproofs are a zero-knowledge technique that allows specific statements to be proven without revealing underlying data, similar to what Monero uses for range proofs. They're trustless alternatives to SNARKs with no trusted setup required. If bulletproof verification can be done in ErgoScript, it would enable hybrid contracts where some data is verified on-chain while sensitive data uses zero-knowledge proofs, opening up new possibilities for combining contracts with zero-knowledge statements.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "bulletproofs",
+        "zero-knowledge",
+        "ErgoScript",
+        "SNARKs",
+        "hybrid contracts"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "mid",
+      "question": "Can you explain the significance of the Palmyra and Chainlink partnership?",
+      "asker": "Wombo22",
+      "answer": "We're utilizing Chainlink's proof of reserve functions through Winter Protocol to provide on-chain warehouse receipts for decentralized trade financing. When producers deposit commodities into bonded warehouses, they get receipts issued on-chain using Chainlink oracles coupled with IoT devices for continuous proof of existence. This creates collateral that can be borrowed against, de-risking capital for trade financing. We plan to also build out Ergo oracles using raised capital to complement Chainlink's network.",
+      "responder": "Dan",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Palmyra",
+        "Chainlink",
+        "warehouse receipts",
+        "trade financing",
+        "oracles",
+        "Winter Protocol"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "mid",
+      "question": "What are the current Oracle Pool options available on Ergo?",
+      "asker": "follow-up discussion",
+      "answer": "There's Oracle Pool v1 which has EF members and several members outside the foundation. Then there's Oracle Pool v2 which is running for Dexy Gold with GORT rewards. Currently we have limited oracle infrastructure, which is why building out more Ergo oracles would benefit the ecosystem's security and decentralization.",
+      "responder": "qx()",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Oracle Pool",
+        "Dexy Gold",
+        "GORT",
+        "EF",
+        "oracles"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "later",
+      "question": "Can you talk about possible speed improvements for Ergo?",
+      "asker": "Captain Ergo",
+      "answer": "We'll do another round of discussion after the Ergoversary, potentially during community chats. There are drafts and implementations of network objects in PRs that could be revived. Options include sub-blocks, microblocks, or sidechains. What's good now is we have a representative set of on-chain contracts like GARD, Rosen, Oracle pools, Spectrum AMM, Trade House, and lending contracts - giving us a perfect benchmark for optimization unlike blockchains with empty chains.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "sub-blocks",
+        "microblocks",
+        "sidechains",
+        "throughput",
+        "optimization"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "later",
+      "question": "Can you explain what Trade House is and its significance?",
+      "asker": "community member",
+      "answer": "Trade House is an order book-based DEX that provides total transparency of depth and liquidity levels with full control over slippage. Unlike AMMs, you can see exactly what levels people are selling at and choose specific price points. It supports partial order fills and peer-to-peer trading without a single upgrade key. You can set up complex trading strategies like buying tokens in 10 different steps automatically, and it enables arbitrage opportunities between different DEXes.",
+      "responder": "qx()",
+      "category": "defi",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Trade House",
+        "order book",
+        "DEX",
+        "slippage",
+        "partial fills",
+        "arbitrage"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "later",
+      "question": "How would sidechains work from a mining perspective, particularly for ERG miners?",
+      "asker": "Steven",
+      "answer": "In merge-mined sidechains, ERG miners could earn both ERG and sidechain tokens. The sidechain construction will be published soon on the forum. For trustless pegging, smart contracts handle the connection between chains. An emission contract could reward mainchain miners for delivering sidechain data to the Ergo blockchain. This creates Ergo-specific constructions that are potentially better than Bitcoin's BIP 301, with clearer security models.",
+      "responder": "kushti",
+      "category": "mining",
+      "difficulty": "advanced",
+      "related_terms": [
+        "sidechains",
+        "merge mining",
+        "pegging",
+        "emission contract",
+        "BIP 301"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "late",
+      "question": "Could the same DDoS attack that happened to Cardano happen to Ergo?",
+      "asker": "Luke Graysmith",
+      "answer": "Ergo is different because it has a fee market, unlike Cardano. We've had some unintentional spamming from mixers in autumn 2020, but users can just raise transaction fees to get priority. Ergo has spam protection from version 4.0.44 with limits on transaction downloads per peer, plus mempool filters and fee estimation APIs. Users can set custom fees in wallets like Nautilus to outbid spammers, and low-fee transactions eventually get flushed from mempools if not picked up.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "DDoS",
+        "fee market",
+        "spam protection",
+        "mempool",
+        "transaction fees"
+      ]
+    }
+  ]
+}

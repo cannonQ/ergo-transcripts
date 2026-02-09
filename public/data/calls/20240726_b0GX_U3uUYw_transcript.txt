@@ -1,0 +1,323 @@
+[00:20] **qx()**: Hello and welcome to the weekly Ergo AMA. I'm QX and with us today we have, oh, the Sigmanauts are taking over the AMA I see with the names right there.
+
+[00:34] **qx()**: We have CannonQ, our local resident Sigmanaut. How you doing, Cannon?
+
+[00:39] **CannonQ**: I'm doing well. It's great. So yeah, looking at a beach right now.
+
+[00:46] **qx()**: That's very nice of you to join us on holiday, man. Really appreciate it.
+
+[00:51] **qx()**: All right, so let's get started. Let me try to think of the top of my mind. Let me filter through all the drama this week, and we'll spit out some real news first, and then maybe we can go to that.
+
+[01:03] **qx()**: Yeah, this week in the Sigmanauts mining pool took a little while, but I found with the help of Paul, he sent me a cloud service that was fairly cheap. I think it's 13 bucks a month for like eight cores and eight gigabytes of RAM or something like that.
+
+[01:23] **qx()**: And I fired up a testnet node, which actually took a little while for some reason it was dying on me. So Gurnal mgPai gave me a zip of his node and we fired that up and that worked fine.
+
+[01:35] **qx()**: And then we bound mining core to it and I just handed all the credentials over to qx(). So that means qx() is going to start injecting his storage rent into the Mining Core app so that we can start trying to collect storage rent on testnet.
+
+[01:51] **qx()**: And once that is good, we will hot beef injection that into the actual Mining Core on the Sigmanauts Mining Pool and become the first mining pool, hopefully, that collects storage rent. So we're looking really forward to that. Everybody's super excited in the mining channel.
+
+[02:12] **qx()**: What else happened this week in the Sigmanauts? I just want to reiterate, because I've said this in chats a few times with people, the core mission at least that we're trying to drive, at least I'm trying to drive in the Sigmanauts, is initially establishing a revenue stream because we can't do much without funds.
+
+[02:34] **qx()**: We are gifted grants from the Ergo Foundation and the amounts of like, we've got some of their SPF, we got some ERG from that as well, initial ERG, and then we also got the big ERG around the Ergo raffle at that time, but that's running out.
+
+[02:52] **qx()**: We spent quite a bit already. We have about 11,000 ERG left, so it's obvious that we're using it and we're trying to create things, but the initial goal is a revenue stream, and we're going to hopefully achieve those with a couple things.
+
+[03:07] **qx()**: The first thing being, as you guys see, is a Sigmanauts mining pool. The hope is once that gets above, you know, a couple hundred gigahash, we should start seeing a decent return in profit off of that. And some of that profit will go to the Sigmanauts main treasury. The rest of it will go to sustaining the Sigmanauts mining pool, of course.
+
+[03:29] **qx()**: The next project that we have that hopefully is a revenue maker is the product called SigmaLock, which Four Eyes is working on. And that essentially will allow you to come lock any token for any amount of time. Think of it as like either a life insurance thing so that if you have a kid and you want to put some tokens in there and you lock it up it gives them an NFT and they can unlock it after a certain date with the NFT.
+
+[03:53] **qx()**: There's also some fail safes in there if you want. You can check a box and allow your main address to unlock it as well at any time or modify the contract at any time. So there's that built in as well.
+
+[04:04] **qx()**: So we're hoping it's going to be used for things like life insurance, things like token distribution. Let's say you find from the chat today some sort of influencer or some sort of media firm that is willing to work, and you want to be able to give them something to prove that you're going to pay them, but you don't necessarily want them to dump your community tokens.
+
+[04:26] **qx()**: So this is exactly where this would work. You'd create a token that is a value of a certain amount of locked tokens after a certain amount of time, and you could give this to them to work. Same with devs you're working on. Kind of give them vested tokens that unlock after a certain amount of time.
+
+[04:40] **qx()**: And on top of that, you can kind of use it as a low budget token launching platform. You can have, remember if you guys remember the bass thing where you would send a few ERG to the bass pond and you'd get some things back from that. Some of the GreasyCex did stuff with their mission as well.
+
+[04:58] **qx()**: So the idea would be a token launch person could create a ton of these locked tokens that represent maybe a hundred of their own tokens and then you could go ahead and submit ERG to a contract and get that locked token back thus completing that initial coin offering and then they're vested until you know six months 12 months whatever you set that as so you can actually have people purchase those have them in the wild but you can't dump them on the people can't dump them on a dex so.
+
+[05:29] **qx()**: That kind of SigmaLock we call it will open a host of all new kind of applications that hopefully people use. And then we'll of course take a small percentage off the top of that for maintaining it and building it.
+
+[05:46] **qx()**: And then the third revenue stream that we're hoping to do once Sky Harbor finishes their smart contracts from the raffle that they are hiring a dev to do or paying their devs to do. We will then hopefully take their open source UI and modify it, bring it up to date if it needs adjusting, make it powered by the Sigmanauts essentially, and take a small UI fee off the top of that to maintain it and make sure that the UI and the smart contracts are being updated beyond that.
+
+[06:18] **qx()**: So those are three or four sources of revenue initially that we're hoping to work on. The fourth one that's just in my head, hopefully when all these are done, is the MFIRMAL messaging as well, which is messaging that disappears and is mined by miners and fees are collected by the miners for mining and burning the messages that are encrypted or not encrypted on chains.
+
+[06:40] **qx()**: So that's a bigger project that's in the future that will hopefully be one of the more larger revenue streams, simply be the sheer volume that may happen from messaging on that. So that's the idea.
+
+[06:51] **qx()**: And once we establish some revenue streams, then I really hope we find ways to spend them, whether that be marketing engagement, whether that be supporting devs, core devs, or other devs, or even the devs that it take to build these systems and supporting those. But that's a general idea and the gist of it. Cannon, how was your week?
+
+[07:13] **CannonQ**: Week's been good. I also checked out, been in and out with chats. Yeah, first holiday in a long time. It's nice looking out at the beach. There's some dolphins bouncing around out there.
+
+[07:32] **CannonQ**: But one thing I wanted to do right up on top is congratulate, I found mgPai going strong. Heading himself for being added to the Ergo Foundation, which is pretty amazing. I think everyone should encourage him. I'm definitely excited for him to see sort of what becomes of that.
+
+[08:00] **CannonQ**: Obviously, I think everyone knows the shooting star. Hopefully, you know, stays here and doesn't get drawn off to other spots. I think it sort of augments him and Ergo, which is nice.
+
+[08:15] **qx()**: Yeah. I get worried, you know, mgPai is a fantastic dev young guy. And you have other chains like Alephium, you know, said, come to our conference. Here's a plane ticket and here's a hotel, you know, that kind of stuff. Hard to say no to and it's nice to be wined and dined, that's for sure.
+
+[08:40] **qx()**: So to have mgPai on the Ergo Foundation and to be able to give him that responsibility and that opportunity I think is a smart move by the EF.
+
+[08:55] **CannonQ**: It's good to have well-connected people too though, right? So he has programmed and released projects protocols on other chains. I mean, it's that's good. It's good to see cross-chain collaboration thinking. So I think that's nice the other thing sort of in the same announcement I know that occurred a few days before this other announcement, but the announcement foundation.
+
+[09:28] **CannonQ**: Basically, monthly grants. It didn't look like there was a cap per se on the development side, but on the marketing side, it's capped at 10 grand a month. So those of you who want something different, come up with a pretty nice proposal and see if you can get it funded.
+
+[09:47] **CannonQ**: I saw this thing like 15 minutes ago, ADA Orca, who's done a ton of token launches over on the Cardano side already put over a proposal. Pretty decent, robust proposal. There's still a lot of questions to be asked. Obviously, the foundation's going to go through it through the thing.
+
+[10:08] **CannonQ**: A lot of people put out proposals. I think they funded the long road, which Bruno and that team have been doing kind of this work, trying to get that thing going. And there's a lot of marketing. So I think it's going to be nice to see how that rolls out.
+
+[10:25] **CannonQ**: Be nice to just be able to learn Bruno's very strict and everybody about you know wanting to record engagements how many posts views things like that i think that's the kind of data that will help and help other projects you know what you can mimic what you need to just not hit unless you put a different spin on it so yeah pretty exciting about what's going on.
+
+[10:59] **qx()**: Yeah, and I think back to mgPai, I think another asset there is that mgPai is part of Palmyra. And as we know, Palmyra's very cross-chain with Chainlink, with Cardano, with Nervos, with Ergo. So having somebody like that that will have their fingers in a lot of these changes, these chains will, I think, will be very beneficial.
+
+[11:24] **CannonQ**: I'd be remiss not to say something fun for me this week was while I was on holiday, got a message from Kent's chat from Walrus DAO, we were talking about us trying to get him at Cyberverse. Said, oh, I got some, but I haven't done anything. The DAO has a citizen, so he sent it to me. I'm trying to level it up.
+
+[11:51] **CannonQ**: And I said, man, it's a lot of fun. You should be on there. Oh, I don't know. I didn't like it when I was on there before. And he got on there. He hadn't been on there since all their life. I don't know when the updates occurred and sort of towards the beginning of the year, I think, where there's multiple players, multi-player game kind of thing.
+
+[12:08] **CannonQ**: And a day and a half later, he's like, all right, I'm hooked. How do I get more citizens? That game alone, Mr. Pixel, big shout out. Dev chat a couple of weeks ago and that game alone is really great. A fair amount. And if you go to the monthly leaderboard, I'm like 98 and I think I play a decent amount.
+
+[12:34] **CannonQ**: It's like, there's a lot of people grinding that game. Every time you log on, there's 30 people. I mean, it doesn't matter what time of day you log on, there's 30 people on there.
+
+[12:44] **qx()**: I'm a fan of the DJ game, but mainly because I don't think many people appreciate it for what it is. It's fairly difficult. I did some grinding on it last week. Got to level five several times and put myself on top of the daily leaderboard for that specific mini game, but that's really fun. I like that. I play with two hands. I do up and down, left and left and up on my left hand and down and right on my right hand. So it makes it quite a bit easier to use your piano guy though. That's true.
+
+[13:25] **qx()**: So, Cyberverse and Bober there. They had an event this week or last week where they allowed, it's their poker event. They usually do it on Wednesday afternoons UTC or evenings UTC and Sundays. I think it's around 6 p.m. UTC on both days.
+
+[13:44] **qx()**: But they had 66 participants in the poker night on that free night. So that's amazing to do those things and bring those people in and get them attached to Cyberverse, to Bober, to Ergo, that all kind of coincides together. So seeing more of those things in the community and participating in those things is a win-win for everybody.
+
+[14:06] **CannonQ**: For sure, for sure, for sure. I was pretty stoked to see all the people in the game.
+
+[14:14] **qx()**: And Mr. Pixel kindly volunteered, well volunteered, I asked him and he nicely said yes. We are going to have a, he's going to buff up a cyber citizen for us and we're going to have that at the table at RareEvo so that people can jump on and play a buffed up cyber citizen with like a jackhammer, with like a fishing rod, with a greenhouse and all that kind of stuff.
+
+[14:41] **CannonQ**: Yeah, that'll be pretty fun to see. You know, people get to interact with it. I think it's just there for sort of waiting. Yeah. Yeah, it's interesting to say the least.
+
+[14:58] **CannonQ**: And then the other cool update I saw in the last couple of weeks, I mean, there's been a million. The other one that caught my eye was trajectory and knuckles, even though maybe the yield isn't super high right now. I think there's almost 400k loss value on that project.
+
+[15:20] **CannonQ**: And it's basically as a beta stage right now, right? I mean, they have three or four bases in their district. There's still a lot of questions. It's going strong, I think. Pretty interesting, Kraz had some good ideas the other day about go into their chat, look at it, but about locking into or tapping into spectrum or whatever it's going to be called now going forward or going next.
+
+[15:55] **CannonQ**: Tapping into those pools directly to where you can possibly deposit whatever tokens you have. ADA, but say you're going to go into the SigmaUSD pool and make it an easy part. You just click once and you're done. It does all the swaps for you. There's some cool, cool opportunities.
+
+[16:15] **CannonQ**: You have been in tooling that didn't even exist when that project launched. They're pretty, they're pretty in tune trying to figure out how to do things. And that's sort of it. It's a nice community thing where you can earn some yield on your ERG and not say, if you're just sitting on your ERG and not doing anything, which a lot of people are, then that's okay. That's what you want to do.
+
+[16:44] **CannonQ**: I would say maybe take 10% or 15% even up to a third, maybe not deposit into the ERG. And it's other people are going to use it. You know, it comes back to you. You can withdraw it whenever.
+
+[16:59] **CannonQ**: There was only one time when I had a thousand and a SigmaUSD pool that I couldn't withdraw. And that's when we're at like nine, eight percent. You know, I mean, it took a lot of borrowing to get back out. I mean, you're coming. I mean, it's not like you, you can withdraw whenever you find some pretty nice.
+
+[17:28] **CannonQ**: There's a lot of nice things you can do with that and trade apps.
+
+[17:37] **qx()**: Yeah, trade house arbitraging, Spectrum DEX, that'll be nice. You can do it manually now, of course, but hopefully once trade house starts utilizing the contracts, the pools, that would be neat too.
+
+[17:50] **qx()**: Speaking of that, speaking of arbitrage, in case you guys missed it, Rosen Bridge has successfully, the Rosen team has successfully modified Hummingbot to be able to include Spectrum. So they released a video that was successfully arbitraging from Spectrum to what's that, KuCoin or a different one.
+
+[18:16] **qx()**: So that is really cool. So that's one of the things that I think the community finds was a little tough with Hummingbot to kind of figure out the configs, but if Rosen can release a nice package like they have with their actual watcher systems and their guard systems, let's say they release their own config file for Hummingbot and they have a good explanation for what it does, I think that might make quite a big difference in community adoption for that.
+
+[18:42] **qx()**: So that means anybody could fire up a Hummingbot, throw some ERG in the exchange, throw some ERG in a wallet. And then just have an arbitrage and get that volume up for Ergo naturally, as opposed to, you know, paid market makers and things that create quite a big fee for us in the long run. But that's really exciting.
+
+[19:00] **CannonQ**: And the triangle effect on that, that's pretty cool is once it's on Spectrum, our sign or that should be the goal is to get it on both sides on the Cardano side as well. I don't know splash if that's going to be on there initially. Yasha said he'd add over time on Hummingbot, but the Spectrum side hopefully will be able to be poked.
+
+[19:29] **CannonQ**: So you'd have two chains there and then, or two dexes, two chains, dexes. And then when ABM hits, we'll have three. So I mean, even those in the U.S. or other jurisdictions where maybe you can't get on the KuCoin or some of these others can actually still participate. You know, arbitrage opportunities or even, you know, bringing tokens across, posing, you know, finding opportunities. But that'll be nice.
+
+[20:02] **qx()**: Yeah, 100%. So before we jump into questions, sorry, go for it. What were you going to say?
+
+[20:08] **CannonQ**: No, I was just going to say, like, a lot of folks couldn't even test on the bot. You know, like, it wasn't non-KYC, I think, worked a little bit. But there was a patch that needed to be pushed out initially. We had a same thing with ZEGX. I think it was having an issue. I think those have been cleared up. So those would be two nice opportunities, but I mean just being able to again, the bigger exchanges like it it doesn't You know are cracking so It's it's gonna be a pretty powerful tool I think.
+
+[20:49] **qx()**: Yeah, I agree and it's definitely gonna make me feel better about using it. I feel nervous enough putting my tokens, my coins on an exchange, a central exchange, but for about a month, I used a service called three comms, which was essentially a cloud-based arbitrage and grid bot.
+
+[21:06] **qx()**: And that even made me another layer of nervousness on top of that because you're giving a cloud-based service full access to your central exchange wallet to trade it. So this Hummingbot is going to be a self-custodial, amazing option, I think. Hopefully gets more adoption for people who don't want to give their access to any of their wallets to a cloud service. So that'll be good.
+
+[21:30] **qx()**: Before we go into questions, Cannon, I just want to reiterate something that I've been saying quite a bit lately that maybe some people miss, maybe some people don't, but I think it's important to say again. One of the big things that I think differs in the Ergo community is that people see their ERG as gold, right?
+
+[21:51] **qx()**: They see it as a store of value that is like really, really hard to get rid of, really hard to spend. So that, I think, in order for us to be successful, we really have to kind of fight that a little bit. You have projects starting up, like, you know, even meme tokens, or utility memes, I call them, like GreasyCex, like Bober, and those kind of projects are doing fun things for engagement.
+
+[22:16] **qx()**: But people are too nervous to spend their ERG on them. You have things like Cyberverse, which are full-fledged games. It's not like if you spend your coins on tokens for Cyberverse that you're going to lose anything per se. You're buying a store of value on a project and you're supporting the project.
+
+[22:35] **qx()**: So I think if we can just try to sit back and think, what's it going to take to make it attractive to build on Ergo? And that is that a developer can come in, they can make a product, and then they can feel comfortable that people are actually going to utilize it and spend their ERG on it.
+
+[22:54] **qx()**: I think that's always a fight in Ergo, just because the price of Ergo, what it was in the past, when people buy high and then the price goes down and they're like, why would I sell my ERG for that? But if you look at it, I use, what's it called? Of course, I use Crux Finance. I wouldn't want to hurt Louis' feelings.
+
+[23:13] **qx()**: I use Crux. On my phone, I have CoinGecko and I have my portfolio there with the tokens that I have that are tracked. And I'm watching it there. And I'm watching CYPX, I'm watching Rosen Bridge, I'm watching Paideia.
+
+[23:29] **qx()**: And for the most part, those puppies are rising sometimes higher than ERG when they're trading. So with everything that I've invested in those projects, the ecosystem projects, I'm not worried. I wouldn't invest in them or wouldn't support them if I didn't think they were being supported and held up by amazing devs and people who believe in the mission of Ergo and from that.
+
+[23:55] **qx()**: So I encourage you guys all to really think about you know, why are you holding your ERG? You're holding on to like a resource like it's literally like It's let's say that the developers on Ergo and projects survive on water And you're in charge of collecting the rainwater at your own house Or the river water and you just keep on filling up barrels and barrels and barrels and just having them at your house Meanwhile, these guys are potentially thirsty as hell and they can't get any water because you're just holding it all.
+
+[24:25] **qx()**: It's the same kind of concept. You know, these developers need to feel that they are being supported by the ecosystem. That'll then have outsiders look in and say, holy shit, this guy built a project on Ergo and they immediately got, you know, half their tokens sold and being held and the price is sustaining and they're actively building.
+
+[24:44] **qx()**: I'm going to come build on Ergo, not only just because the tooling is easy, But because we have so many people supporting in the ecosystem that are willing to Convert their store of value in ERG to a store of value in the project tokens. So that's my little soapbox for the morning.
+
+[24:59] **CannonQ**: I don't have anything then get out such grass, you know smell the air and look up at the sky Enjoy your days
+
+[25:16] **CannonQ**: Let's take some questions.
+
+[25:23] **qx()**: Let's see what we got. We've got Maverick saying that Sigmanauts mining pool, I just calculated I managed to get 4.4 ERG worth of rewards instead of the 1.5 ERG I'm supposed to mine normally at other pools. Can't wait for storage rent rewards.
+
+[25:37] **qx()**: Yeah, so that's something really fun that the Sigmanauts mining pool does is we're not only working towards storage rent for extra income for the miners, but we also have projects that donated tokens to the bonus token that we give out.
+
+[25:53] **qx()**: We give out about 15 or 16 injections per day, every hour, on the hour usually. We have Bober, we have GreasyCex, we have GIF. From that project, we have CYPX. Somebody donated a couple hundred ERG and then we did a raffle so we had 200 ERG worth of Rosen BTC.
+
+[26:16] **qx()**: I think I've donated Rosen, Love, some other tokens as well. So we have a plethora of tokens that are just donated by projects and if you remember correctly we also have a hundred ERG a month from the Sigmanauts treasury that we wrote a vote for that essentially says every month we spend a hundred ERG on just whatever tokens you know whoever's buying or I guess feels that are actively involved in the ecosystem just to kind of spike that needle on their on their on their dex chart.
+
+[26:49] **qx()**: So we've done that with GreasyCex Bober, CYPX, ERG-1 as well. We give out ERG-1 tokens too. So what Maverick is saying here is that Not only does he get the 1.5 ERG that he does from mining with his mining rigs, converting electricity to a store of value, he's also getting bonus rewards based on the random bonus bot that gives out the rewards.
+
+[27:10] **qx()**: So super cool, some super incentive. I hope that never goes away. I hope we always have bonus tokens and projects continue to support us, or else Lisa Sigmanauts continue to support that side of it. That'd be really cool in addition to storage rent. Come to the Sigmanauts mining pool, Mark the Shark is usually always in chats to help out and talk to you about stuff and fix things that are broken and we'll do our best to keep you afloat.
+
+[27:40] **qx()**: All right, let's see what else we have. Mm-hmm. We've got cyber versus amazing by Maverick. Yep. He hates a DJ game. He's really bad at it Maverick is correcting us about the poker night at 7 p.m. UTC on Wednesday and Sunday 6 p.m. UTC and
+
+[28:02] **qx()**: It's fun. I suggest you go. kushti's shown up a few times. I don't think Joe's shown up. CannonQ, you've been there several times. If you want my Bober, please join because I always lose. I last about 30 minutes before my bag's empty. But it's fun, nonetheless. We get the tables going.
+
+[28:22] **CannonQ**: We do a voice chat, usually.
+
+[28:25] **qx()**: Yeah. I was going to say, we get the tables going. And in the Bober Discord, you join the voice chat. It's a lot of fun. You get to hear Mr. Pixel's voice again, even though we've only ever heard it once in the dev update. Mr. Pixel has promised that he's working towards a video reveal for a dev update at some point. So I'll keep reminding him about that. That'll be fun.
+
+[28:46] **qx()**: And, yeah, and the cool thing, too, is you can not only watch your table, but you can open up other people's tables. And so you can see kind of the whole system of tables going and, you know, so when people are yelling and screaming, you know what table they're yelling and screaming about and that kind of thing. So it's a lot of fun.
+
+[29:08] **qx()**: Let's see, what else do we have? Just a little better says I saw mgPai say there's a lack of Ergo documentation available for developers other plans to address this Cannon What does I know that cross you you you work a lot with cross Kraz and Kraz is very adamant about proper documentation and if he wasn't he At least on the DuckPools side working on a lot of documentation for that Yes, that project's pretty well documented out I think
+
+[29:42] **CannonQ**: E and Four Eyes is LBG, LBD, which initials it is, which direction. I think any project those guys touch, there's great documentation around it, you know, with inside the syntax. That's, you know, what each line is doing or, you know, what you can see what it is.
+
+[30:08] **CannonQ**: Outside of DuckPools, I don't know if Kraz is really working on documentation in general. I mean, I know he has a ton of things he's working on. But I know the devs now, that kushti spearheaded, and there's 10 devs in there right now, I think, maybe. Shout out to anybody who wants to join. Just knock on the door and ask.
+
+[30:34] **CannonQ**: Working on a protocol for bringing people in. But there are bounties out already on documents. If that's your wheelhouse, that's what you like doing. Or if you're good at it, even if you don't like doing it, if you're good at it, if you want to get paid, there are bounties out there.
+
+[31:02] **qx()**: I think I've heard that FleetSDK is the next documentation release. Essentially, they've been working on that and building that. I don't see why this couldn't be for the projects that need it. That's a hard thing, right? If you're a developer, You develop with your head down, you're banging away. The last thing on the whole project is let's write documentation for any of our libraries that we do.
+
+[31:19] **qx()**: So that's a very hard thing to do at the end, especially. So I would encourage people that that feel that there's a lacking documentation on projects. If you're the project owner or they are the library owner to perhaps, you know, ask for a grant, ask for a grant from Sigmanauts, ask for a grant from the EF to help you crowdsource or get that done.
+
+[31:42] **qx()**: I know that I speak about ErgPy quite a bit and mgPai did a good job giving some tutorials and some examples, but that project alone is like a first touch ecosystem programmer project. And I think that would benefit from some, some very robust documentation and templates and up to date things too.
+
+[32:03] **qx()**: So yeah, I mean, honestly, I'd love to put in a proposal to fund mgPai to, to make, you know, a more robust ErgPy that is much easier to use with chain tier interactions and those kinds of things. So maybe you guys will see that come across the, the bend at some point. But yeah, I agree. We need documentation. We can't always rely on people just jumping in chat and saying, hey, devs, can you help me on this?
+
+[32:32] **qx()**: It's worked in the past because Ergo is a small and tight-knit community. But once we scale and get larger, that's really going to be impossible to maintain. So that's where documentation is key.
+
+[32:46] **CannonQ**: And that is part of the thing, though. I mean, for people who have get down how many times we don't ask questions about something else she'll probably either sign something out but this guy's talking about her he'll take us out of it's not people are out there
+
+[33:15] **qx()**: Yeah. I mean, it frees up dev time. Instead of answering the same question 100 times from the developer, you know, you have maybe a tenth of that because most people read the documentation and get it from there.
+
+[33:26] **qx()**: Cool. All right. So we've got Luca, LGD. Speaking of LGD, nice of you to join us today, Luca. Luca, LGD is from, is an employee at Palmyra, also has this firm Four Eyes with mgPai, and also was an instructor in Ergo Deco.
+
+[33:48] **qx()**: If you ever have a chance to see one of those lessons with qx() and Luca, it's really like ASMR. Their voices are so calm and comforting when they teach you about Ergo and UTXOs. Luca says, what do you think of the new Proton wallet? Would Ergo support? I think that would be amazing if we could get in there.
+
+[34:09] **qx()**: For those of you who don't know, Proton came out with a Bitcoin wallet the other day, recently. And I think that would fit perfectly into the privacy arm of what Ergo can be, essentially. You know, privacy as a choice on Ergo is there. And that would fit in. Yeah. I mean, right? We've got to get mgPai then. Yeah, sorry, go for it.
+
+[34:35] **CannonQ**: No, I think it's going to be interesting to see. They said it's going to be open and it's going to be interesting to see how they allow chains to add on to, or what that process looks like, what that check and balance is. But I would think they have a pretty nice built-in system of users similar to the Tor moment. Kind of people on their automatic, same thing. I would think it's, they must, they will probably have, you know, all kinds of things.
+
+[35:19] **qx()**: Yeah. The cool thing too that Proton's doing is that as long as you have a Proton email account, you have a Bitcoin wallet. So if I don't even know your Bitcoin address, Cannon, I can just send a Bitcoin payment to your Proton email address and boom, you get the thing. Using the same encryption, either the same encryption keys or some derivative of that. I didn't read up too fully on that, but super cool concept. Always a proponent of self-custody in those aspects.
+
+[35:48] **CannonQ**: Yeah, it looked like they're, they're just kind of ashy or something. Yeah, it was going to be, even if you didn't have a Bitcoin address, you know, in the background.
+
+[36:01] **qx()**: Yeah, it sounds like even if you don't have an email address, like even if you have a Gmail account that you have a Proton account with, you can still send Bitcoin to that address. So they're thinking of a lot of things that's super cool. So I think that'd be awesome. Maybe LGD is volunteering to help integrate that.
+
+[36:22] **qx()**: Well, that brings us on to our next one. We're just a little better asks. They think they saw Keystone going to add Ergo to the hardware wallet support any news on that. So, yeah, so kushti met with them. I think he had. I don't think mgPai was available. Maybe Joe met with him and kushti and the Keystone team.
+
+[36:39] **qx()**: But last I talked to mgPai, he is directly working on how many hours he thinks it will take him. I think he had a meeting with them to see what the details were as far as what are the requirements of doing it, so that mgPai can get a good concept of, hey, This is going to take me 24 hours straight or 40 hours of work or, you know, three weeks of work to integrate.
+
+[37:04] **qx()**: And I said to mgPai said, okay, please let me know what that is because if the Ergo dev style isn't going to help support it, maybe they will. But I'd like to put a proposal forward for the Sigmanauts to help fund mgPai in his efforts to do that So you'll see a proposal coming up to from the Sigmanauts at least to help support mgPai's effort in coding that for Keystone wallet But if any of you haven't seen Keystone wallets are pretty neat, right? They're this Small it looks like a Zune if anybody now now it might trigger people but Zune was my favorite mp3 player audio player it was it was a
+
+[37:40] **qx()**: Thing of freaking beauty dude not not just a click not the click wheel Zune the actual Zune HD Zune HD I love the Zune HD it was beautiful it was running like a version of like the Windows UI OS on that thing was amazing it's a shame it's really a shame that that that didn't get picked up better and the iPod kind of beat it because
+
+[38:02] **qx()**: The UX on that device was amazing audio quality the audio chip and that was so much better anyway so the Keystone wallet kind of looks like the Zune HD variants where you have a screen on a small flat device for hardware wallet it's super neat super cool so I'll look forward to getting my hands on one of those if if mgPai programs Ergo to to be part of that so really really looking forward to that it's going to be cool that was another
+
+[38:31] **CannonQ**: Instance where the community jumped on solutions. The Keystone guys were like, I don't really know if Ergo is going to be around. I think said, I'll build it for you for free jackass. And, and they, they thought it was a joke. And then I think qx() reached out for like, no, we're not going to, you know, let's have a meeting and set this thing up and get it done. So yeah there's a lot of it's funny how socials work right they work for you and against you but Ergo and schmob you know they get some
+
+[39:14] **qx()**: Interesting results it is good when they when they focus it's it's very productive i think when they focus and are polite but yeah same with same with the Kraken guy and the new Kraken guy as well in Canada yeah yeah that that seemed to work we're on its radar at least he knows about us and i think he's giving a talk in Canada soon somebody wanted me to go or maybe i offered to go i don't know we'll see we'll see just show up show up at his hotel room and be like hey
+
+[39:42] **qx()**: It's QX from Ergo. You want to go to dinner? Yeah. Let's talk about Ergo. I'll get some pepper spray in the eye. Oh boy.
+
+[39:54] **qx()**: All right. Let's see if we got any other questions. Savonarola Labs says buy Comet only real utility token on Ergo.
+
+[40:10] **CannonQ**: Finish up Crystal Balls maybe.
+
+[40:12] **qx()**: I love it. All right. Well, we got a question from Mark the Shark resident, Sigmanaut and Sigmanauts mining pool He wants to know what the Q stands for in CannonQ He's asking too many questions and put on the scalp and fire it out. I just asked him Yeah So you asked him any questions so you've labeled yourself as Q
+
+[40:43] **CannonQ**: Yeah, yeah Too many times Yeah, I think nearly every job i've had You cut out a little there, but I think I got the gist of what you said Yeah 35
+
+[41:11] **qx()**: No, that's all right. So I think we're running out of questions if nobody's answering and asking some more and we've got 10 minutes left in the hour, but I just want to review us again for everybody that missed the beginning What Cannon had mentioned that the EF after some Slight drama in an internal channel semi-internal channel. I don't know. How internal is the Sigmanauts channel? I don't even I don't know let's
+
+[41:38] **CannonQ**: You have to be, I think you have to have a say in that.
+
+[41:42] **qx()**: Perhaps. Yeah, well, all Sigmanauts can access it now because it's linked. There's 77 members. So after some internal drama that spilled out into Baseless 2, I think, about marketing and those kind of things, the Ergo Foundation released a
+
+[42:00] **qx()**: Proposal or framework for projects and individuals to essentially take control of their own destiny and ask for funds from the foundation to pursue things such as projects, marketing, things like that. So I think that's fantastic. Glasgow has always, always, always said that publicly.
+
+[42:21] **qx()**: Essentially in chats when people say when marketing when this Glasgow has always said that's Glasgow sorry Glasgow has always said you know you guys come up with a good proposal and you submit it to the EF and we're you know we'll look at it and we'll seriously consider funding it so this is not new this is something that the EF has always preached there you know their main job was community bootstrapping and that fits perfectly in line with community bootstrapping so
+
+[42:46] **qx()**: This framework that they're putting out for projects and people to ask for funding from them is a formal outreach there, which is fantastic. Make it nice and clear right out on the socials. And as you said, Cannon somebody from Cardano popped in already with a proposal. So hopefully we can get some Ergo people in there as well. I know Coltellier is very adamant about marketing as well. So hopefully we see a proposal from him about that.
+
+[43:15] **qx()**: And other people as well. Sorry, Cannon, what was that?
+
+[43:18] **CannonQ**: No, I was going to say it's nice to see somebody, an artist, that back here. It's actually really encouraging. It's nice. Regardless of the thoughts on the concept, I think it's great that people from other chains are looking at how they can build something.
+
+[43:43] **qx()**: Yeah, I would say that the easiest way to get engagement is to sprinkle money on something and put it in a pot somewhere. Same with the Sigmanauts, you know, the engagement spiked up hardcore when, you know, we got 38k in there, or 28k, whatever it was, plus the initial donation, you see a rise in interest. So that always helps kind of kickstart it.
+
+[44:05] **qx()**: All right, we have, Sho has one. Where do I get Ergo roadmaps for 2024 and beyond? I believe, they're on the main Ergo platform website and actually, I think, Glasgow and one of his, I can't sleep stupors made, some beautiful flowcharts. If, if Glasgow, if you're still here, if you don't mind posting that, I don't know if that was necessarily a roadmap.
+
+[44:35] **qx()**: But it definitely showed where we've been and where we're going. And it was like this kind of, it almost was like a mirror board where you could zoom out and follow the kind of tree of everything. It was beautiful and very well done. He's probably going to say it's not complete enough to show, but I disagree. I think it's cool enough to show people.
+
+[44:52] **qx()**: So if if Glasgow is still here, you don't mind popping that in chat or else popping it in Ergo chat So people can see that as well. I don't know if you only posted it to the Sigmanauts, but yeah, so go to Ergo platform I think there's a text version of a roadmap on the website there as well as that thing Glasgow made All right, any other questions before we close this out
+
+[45:22] **qx()**: Any soapboxes you want to stand on, Cannon?
+
+[45:25] **CannonQ**: No, I just want to give a quick update. I know some people have seen it, publicly or privately, that we were talking on an exchange with one of the, sort of like a Bit Panda kind of thing where you can do swaps, buy directs, or PR. The prom says we're good, and we're at the point where trying to get there
+
+[45:49] **CannonQ**: Feed to the fire and say give us a day when you would be able to guarantee that we would have on and off ramp capability like truly withdrawing and depositing, you know, ERG onto your platform. And that's the sticking point. I know internally in different Sigmanauts meetings, different things like that, we've been saying, you know, hey, two weeks or a week or this week, but that is starting to become a sticking point, which is good.
+
+[46:23] **CannonQ**: I mean, I don't want to make or suggest anyone make any kind of investment if we're not going to get what's actually being sort of put out there on a carrot for us, the pay you'll have, withdrawal, deposit access, or go. Like we told them pretty bluntly, I mean, our community is not going to use your platform, so you're not going to see any usage metrics that make sense unless you have that deposit withdrawal.
+
+[46:50] **CannonQ**: Our community is not a, typically is not a, let me leave my herbs on an exchange or leave them somewhere else. People want to use your service, be happy to pay a fee for your service, but we're not going to pay our investment or our
+
+[47:09] **CannonQ**: No monies on your service you know that's that unfortunately i thought we'd be able to make an announcement honestly three or four weeks ago i think in the next week it's going to be on their side or our side you know
+
+[47:32] **qx()**: Well, if you guys tune into an AMA and you see Coltellier here, you're going to know there's some sort of announcement, because I think he's volunteered to come on when there is. But that reminded me, Cannon, two things that I forgot to talk about. One is that, what's it called?
+
+[47:46] **qx()**: I finally made the wire payment to the Cornell blockchain for a sponsorship a few months ago. And holy shit, was it so painful. Wow. You know, we really spoil ourselves to be able to ask Cannon for an address and just send him stuff and be done. Like, yeah, it's been a while since I've done a wire, but that was painful.
+
+[48:08] **qx()**: So I reached out to Riva afterwards and Lee and let them know that it was made. And then I also said, hey, let's start chatting about Ergo sponsoring workshops for the Cornell blockchain group, as well as anybody else that wants to join.
+
+[48:23] **qx()**: Of students and that would look something like bringing people in like kushti or Luivatra or other devs that want to either volunteer their time or maybe for a small payment for their time to come in and give a workshop about programming on Ergo and decentralized peer-to-peer networks
+
+[48:38] **qx()**: And then hopefully there would be a theme to this and by the end of it it will also coincide with a hackathon and that hackathon could hopefully also at that point maybe be student kind of centered or maybe there's a mini student hackathon that we sponsor and go from there so that's all to build kind of engagements at the student level because as we know these a lot of these young people that you asked at least in the teens you know they're still under the perception that crypto is a scam and you know it's rugpull and that kind of thing so we really have to work hard at changing that perspective
+
+[49:08] **qx()**: And showing them that there's more than just these VC-pumped scams out there, and there's actual real peer-to-peer decentralized networks that serve a purpose and can serve a greater good purpose in the future. So that's our goal there. And I think once we have that framework down, we can hopefully start expanding on to other colleges and schools with any connections that we make along the way.
+
+[49:33] **qx()**: So that'd be ideal. Have these programs throughout these workshops that we could deliver to colleges and blockchain groups and colleges, and start hitting them on that level about Ergo. The second thing I have is, what's that? Go for it.
+
+[49:48] **CannonQ**: That was this one, Sy. I mean, the youth, right? I mean, it's good that they're not Taking it all a gliding sinker. I mean there is a lot of shit I mean and they're seeing that and that's what's getting publicized. So Yeah, you know the babies get torn out half water, right? Like some good projects you've never seen or you know, not getting spotlights. It's constantly seeing nonsense That's unfortunate, but yeah, I think I tried to figure that out
+
+[50:27] **CannonQ**: Smart college students and not smart college students right or people that aren't even in college but younger folks involved huge opportunity the other group that we should reach out to that's very active at that blockchain was the don't remember the name of it turkey but i have their socials i have their contacts there's a one of the turkish universities flew over to you know new york city for that blockchain conference i don't know if you bumped into them but we have a lot of jobs
+
+[50:58] **CannonQ**: General region that can probably reach out, you know, they can see us in our region, right? I mean, it's not just a...
+
+[51:06] **qx()**: I don't mean to make this US-centric. Yeah, yeah, yeah. Yep, yep. Yeah, great.
+
+[51:12] **qx()**: All right, the next thing, second thing I wanted to mention before we quit here is that I have a meeting with, I scheduled a meeting with Fiat OnRamp that I've been looking at, and I'll drop the names too so people know and can look into them. So about a month ago, I was contacted by a website called letsexchange.io. That's letsexchange.io.
+
+[51:36] **qx()**: And it's simple. It's like simple swap. It's like StealthX. It's like those kind of swap sites where you can either buy crypto or swap on it. From anything to anything. So it has Ergo on there. They onboarded it at some point and they were wanting to reach out and do some announcements.
+
+[51:52] **qx()**: So I let them know that I would try out their service a bit and see if others could try it out. So we get a good consensus that it's functioning properly and nicely. So if anybody's doing that and use a simple swap or StealthX, if you could ping us and let us know if you use less exchange at all and see how it works for you, it's got some cool options that the other ones don't.
+
+[52:13] **qx()**: Like you can put a refund address in during your transfer just in case something goes funky. You can put an email address in too. So if you have a Proton address that's anonymous, you can put that in at least so that your email address is then tied to your transaction. So it kind of brings a little bit more level of comfort when you reach out and contact support in that manner.
+
+[52:33] **qx()**: So it's got some neat things built in. It seems pretty cool if people want to poke that a little bit and let us know how that works. But in that process, I asked them, hey, why can't we buy Ergo with your onramp here? Because there's a buy button as well, a buy tab. And they were nice enough to hook us up with a company called Switch Here, which is their fiat on-ramp provider.
+
+[52:55] **qx()**: And I chatted with them for a little bit, but I've been busy. And this morning I scheduled a meeting with one of the guys from there. They already gave us a package offer for onboarding Ergo into their Fiat OnRamp. The only downside is right now, it's not a bad price. It's something we could fundraise for, honestly.
+
+[53:18] **qx()**: But the only bad thing right now is it's only available in Canada and South America, I believe. It is not quite available in the US yet. It is getting there. They say about six to eight months, I think. And poking him further and saying, you know, is it going to be an extra charge when the US is available?
+
+[53:36] **qx()**: He said, no, any country that we on board, it's just your coins automatically there and available by from that country. So it's not an extra thing. So potentially, depending on how that works and what it looks like,
+
+[53:49] **qx()**: You may see a public thing go up with more information about either for a fundraiser for something for the Sigmanauts for extra funds. But that meeting's Monday at I think like 8 or 8 a.m. my time. So I should know some more information about that. But what I'm also trying to do
+
+[54:05] **qx()**: Is I'm not just trying to get Ergo up on the site. I'm also trying to get the Rosen token from Ergo up there so that you can buy fiat right to Rosen token. You can buy fiat right to ERG. And that'd be, I think that'd be ideal. So people could come in, buy a Rosen token and go anywhere essentially without swapping from there, just starting on the Ergo platform.
+
+[54:30] **qx()**: So we'll see what they say. Maybe they'll throw it in as a freebie. Essentially by either of those two, but that's what I'm aiming for from there. So more info on that hopefully in the next coming weeks as well as what the initial cost would be. We also want to get together with our congratulations and promises.
+
+[54:50] **qx()**: Well thanks so much for, oh Cannon I see your beach, look at that, you lucky bastard.
+
+[55:02] **qx()**: Savonarola Labs ask one last question. Do the Fiat on ramps have an API so people from ecosystem can integrate that API into community wallets? So funny that you asked that. It's not the Fiat on ramps API. It's a lets exchange API. And they have already asked us to integrate with Nautilus and maybe another wallet.
+
+[55:23] **qx()**: So I've actually brought in the Nautilus team and I've brought in Joe Armeanio into that chat. It's not very lively right now, but they're still interested. Lets exchange is still interested in integrating into our wallets there. So if that were to happen, you would be able to potentially buy Ergo in the USA and other countries from Nautilus wallet right there.
+
+[55:46] **qx()**: So that would be that would be really cool. But that takes a lot of work on the wallet holders part as well. So, you know, at some point I'll poke that chat again and get the Nautilus team and Joe reactive on that. I mean, they're super busy, but yeah, I'm not forgetting that. But that is a possibility.
+
+[56:03] **qx()**: So, Savonarola, thanks for asking that. All right, everybody. Cannon, thanks again for joining us. That was really nice last minute for you to pop in. Hopefully you enjoy the beach, go out and touch some sand, right?
+
+[56:13] **CannonQ**: Yeah, no, we're going to. And it's a good time. Avoiding jellyfish has infiltrated me.
+
+[56:21] **qx()**: Nice, nice. All right, everybody. See you guys. Thanks for joining. Ciao, everybody. Bye-bye.

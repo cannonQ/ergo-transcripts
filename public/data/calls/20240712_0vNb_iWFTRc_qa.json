@@ -1,0 +1,164 @@
+{
+  "call_date": "2024-07-12",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:44",
+      "question": "What is the UTXO DeFi meetup you're organizing in Dubai?",
+      "asker": "qx()",
+      "answer": "We are thinking to talk exclusively about UTXO DeFi, peer-to-peer DeFi at a small local meetup called Coffee with Crypto. I've got some folks here excited about that and we may do an event focused on UTXO DeFi technologies.",
+      "responder": "kushti",
+      "category": "defi",
+      "difficulty": "beginner",
+      "related_terms": [
+        "UTXO",
+        "DeFi",
+        "peer-to-peer"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "04:24",
+      "question": "Are you planning to collaborate with other UTXO chains like Nervos and Alephium?",
+      "asker": "qx()",
+      "answer": "I actually invited all the folks to join and maybe co-organize the UTXO DeFi Summit. It would be good to have regular spaces with other UTXO communities like Nervos, Alephium, Bitcoin Cash, and even privacy-focused communities to discuss UTXO technologies together.",
+      "responder": "kushti",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "UTXO",
+        "Nervos",
+        "Alephium",
+        "Bitcoin Cash"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "08:47",
+      "question": "What are you currently working on for Ergo development?",
+      "asker": "qx()",
+      "answer": "I'm finishing version 6.0 and starting work on faster confirmation. I've checked all available papers and am having talks with academics about possibilities. I need to finish a new big integer data type, then work on activation code testing and compatibility testing for mining clients since it's a soft fork.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "6.0",
+        "faster confirmation",
+        "big integer",
+        "soft fork"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "10:53",
+      "question": "What's the process for getting miners to accept Ergo 6.0?",
+      "asker": "qx()",
+      "answer": "We need to involve mining pools and GPU miners in the process. It's up to them to vote for it or not, so we will send them the 6.0 specification and have talks with mining pool representatives about what we can do jointly. GPU mining KOLs are valuable because they're technically capable and understand proof of work economics.",
+      "responder": "kushti",
+      "category": "mining",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "mining pools",
+        "6.0",
+        "voting",
+        "GPU mining"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "19:59",
+      "question": "How does Rosen prevent rehypothecation of assets?",
+      "asker": "qx()",
+      "answer": "Rosen ensures assets trade one-to-one and are backed by something real. Unlike exchanges that have private internal ledgers where they could theoretically add extra assets, Rosen provides transparency. As long as exchanges can cover withdrawals, we can't tell if their private ledger matches the public blockchain ledger, but Rosen addresses this transparently.",
+      "responder": "Joe",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "rehypothecation",
+        "transparency",
+        "exchanges",
+        "ledger"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "22:30",
+      "question": "How will Hummingbot integration work with Rosen?",
+      "asker": "qx()",
+      "answer": "Hummingbot will provide market making tools across multiple exchanges including DEXs like Spectrum, Splash on Cardano, Uniswap on Ethereum, and centralized exchanges like MEXC, KuCoin, Gate. This allows distributing assets via Ergo blockchain and Rosen cross-chain, managing liquidity in a single hub for better market efficiency and arbitrage opportunities.",
+      "responder": "Joe",
+      "category": "bridges",
+      "difficulty": "advanced",
+      "related_terms": [
+        "Hummingbot",
+        "market making",
+        "arbitrage",
+        "liquidity"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "29:24",
+      "question": "How will Rosen Fast work for faster cross-chain transfers?",
+      "asker": "qx()",
+      "answer": "Rosen Fast creates a fast swap market around Rosen. Once funds enter the system, people can provide liquidity for faster settlement at a premium. For example, if you send 10 ERGs through, someone can charge 10.X ERG to speed up delivery while the original 10 ERG moves through the slower Rosen protocol. It's like paying extra for same-day delivery versus waiting three days.",
+      "responder": "Joe",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Rosen Fast",
+        "premium",
+        "liquidity",
+        "settlement"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "35:21",
+      "question": "Will Rosen add USDT support?",
+      "asker": "Savonarola Labs",
+      "answer": "Before supporting USDT, we should test what happens if we send transactions through Tornado Cash to see the response, since USDT addresses can be blocked. Being a non-bearer asset, USDT has attack vectors that are very real and potentially dangerous. We should understand these risks and try to break the system first rather than just saying we support USDT.",
+      "responder": "Joe",
+      "category": "bridges",
+      "difficulty": "advanced",
+      "related_terms": [
+        "USDT",
+        "Tornado Cash",
+        "compliance",
+        "attack vectors"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "42:58",
+      "question": "Are cryptocurrencies studied by academics outside of cryptography and computing?",
+      "asker": "Luke",
+      "answer": "Yes, there are a lot of studies regarding different game theoretic problems, economics of cryptocurrencies, and other fields. People from different fields are converging in cryptocurrency research. You can find papers about everything on preprint servers like arXiv to get an idea of the various research directions.",
+      "responder": "kushti",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "academia",
+        "game theory",
+        "economics",
+        "arXiv"
+      ]
+    },
+    {
+      "qa_id": 10,
+      "timestamp": "58:57",
+      "question": "Why did SigmaUSD trade above $1 on Spectrum?",
+      "asker": "CannonQ",
+      "answer": "In the bank, SigmaUSD is always $1 if it's mintable. On Spectrum it can trade above $1 due to magic constants in the protocol like the 400% ratio. When it's not mintable in the bank and current holders aren't redeeming, the price can go above $1. This is why mgPai removed magic constants in the new Gluon protocol to let markets find equilibrium naturally.",
+      "responder": "kushti",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "SigmaUSD",
+        "Spectrum",
+        "magic constants",
+        "Gluon"
+      ]
+    }
+  ]
+}

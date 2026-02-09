@@ -1,0 +1,123 @@
+{
+  "call_date": "2024-06-21",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "21:17",
+      "question": "Can BTC be sent through the Rosen Bridge from an exchange address and also vice versa?",
+      "asker": "Adam Jones",
+      "answer": "Not in this version. You need a wallet connector when you start your transaction on either side. If you choose Cardano, it pops up with a Connect Wallet to Cardano. If you choose Ergo, same thing. The bridge currently uses exotic wallets for Bitcoin like XDeFi, so it would be good to support Electrum and other standard wallets in the future.",
+      "responder": "qx()",
+      "category": "bridges",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Rosen Bridge",
+        "Bitcoin",
+        "wallet",
+        "XDeFi",
+        "Electrum"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "30:11",
+      "question": "What can you do with RSBTC and what advantages does RSBTC have over WBTC except collateralization?",
+      "asker": "Vadim",
+      "answer": "You can lend RSBTC out on SigmaFi, add it to liquidity pools on Spectrum, CruxFinance, or ErgoDEX, trade it on Trade House order books, or use it to accumulate funds to buy ERG during dips instead of using USD. The main advantage over WBTC is the trust assumptions - RSBTC uses a transparent two-layer system with watchers and guards who have collateral at stake, while WBTC is just a centralized gateway with one trusted party.",
+      "responder": "qx() and kushti",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "RSBTC",
+        "WBTC",
+        "Rosen Bridge",
+        "DeFi",
+        "collateralization"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "37:59",
+      "question": "When can anyone become a watcher and what are the watcher requirements and payouts?",
+      "asker": "PCN Performance",
+      "answer": "Anyone can be a watcher now - there's no limit anymore. You need 800 ERGs and at least 33,000 Rosen tokens. The initial lock is 30,000 Rosen and 800 ERGs for your Watcher ID, then you can add permits at 3,000 Rosen each. Watchers monitor specific blockchain actions and file reports on the Ergo side, earning rewards when their reports are validated by guards. Rewards are paid out in the next transaction cycle after you earn them.",
+      "responder": "qx()",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "watcher",
+        "Rosen",
+        "ERG",
+        "permits",
+        "rewards"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "43:03",
+      "question": "What are security ramifications if Rosen ends up with a market cap higher than ERG?",
+      "asker": "community member",
+      "answer": "Ergo is different from other blockchains because miners will eventually get some Rosen through storage rent from forgotten tokens. So bigger tokens on Ergo would actually be better for Ergo security in the long term. In the short term, it's similar to other blockchains, but with growing Rosen market cap, we should also see growing Ergo market cap since people need to enter through Ergo to purchase Rosen.",
+      "responder": "kushti and qx()",
+      "category": "tokenomics",
+      "difficulty": "advanced",
+      "related_terms": [
+        "Rosen",
+        "ERG",
+        "market cap",
+        "security",
+        "storage rent"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "02:20",
+      "question": "How are the Ergo community vote funds being distributed?",
+      "asker": "implicit from discussion",
+      "answer": "About 6,700 ERGs are going to be distributed from the community vote. The Sigmanauts are now voting on how to distribute those funds. The community can pitch ideas to the Sigmanauts on the best way to distribute these tokens, and they're still waiting on the Ergo Foundation results for the official rankings.",
+      "responder": "qx()",
+      "category": "governance",
+      "difficulty": "beginner",
+      "related_terms": [
+        "community vote",
+        "Sigmanauts",
+        "ERG",
+        "distribution"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "08:48",
+      "question": "What are some of the notable projects that came out of ErgoHack?",
+      "asker": "discussion context",
+      "answer": "This ErgoHack had amazing projects including Crystal Pools (a fast order book DEX with centralized matcher but non-custodial), Moria Finance (automated multi-sig management through web interface), random number generator, wallet wonderland survey, and Bitcoin Relay. After ErgoHack, there was also a personal hackathon that created the possibility to make multi-signature and time lock contracts without any coding.",
+      "responder": "kushti and qx()",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "ErgoHack",
+        "Crystal Pools",
+        "Moria Finance",
+        "multi-sig",
+        "DEX"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "12:06",
+      "question": "What is the status of the EVM bridge for Rosen?",
+      "asker": "discussion context",
+      "answer": "The EVM codebase is basically ready according to MHS, but it needs to be merged with some dependencies updated, then testing, and then a setup ceremony again. Once complete, it will be a huge step enabling stable coins and other assets to flow between Ethereum/EVM chains and Ergo, and also create a bridge between Cardano and EVM using Ergo as the data layer. It could even enable the most trustless wrapped Bitcoin on Ethereum given the assumptions.",
+      "responder": "kushti",
+      "category": "bridges",
+      "difficulty": "advanced",
+      "related_terms": [
+        "EVM",
+        "Rosen Bridge",
+        "Ethereum",
+        "stable coins",
+        "wrapped Bitcoin"
+      ]
+    }
+  ]
+}

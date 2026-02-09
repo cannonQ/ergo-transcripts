@@ -1,0 +1,91 @@
+{
+  "call_date": "2024-10-28",
+  "call_title": "Completeness of Ergo | Alex Chepurnoy | ErgoHack 9",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "04:27",
+      "decision": "The approach is about to be on the right side of the trilemma, which is obviously about to have security and decentralization as top priorities",
+      "speaker": "kushti",
+      "context": "Discussing Ergo's approach to the blockchain trilemma",
+      "topic": "technical",
+      "significance": "major",
+      "quote": "So in the first place, the approach is about to be on the right side of the trilemma, which is obviously about to have security and decentralization as top priorities."
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "09:09",
+      "commitment": "With time nodes can slowly adopt such pruning even by default if no extra indexes are required",
+      "owner": "kushti/Ergo development",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "All right so then with time nodes can slowly adopt such pruning even by default if no extra indexes are required"
+    },
+    {
+      "id": 2,
+      "timestamp": "13:54",
+      "commitment": "And with time, more pruning will be done",
+      "owner": "kushti/Ergo development",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "And with time, more pruning will be done."
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "16:57",
+      "question": "How to do sub-block protocols and why maybe some layer 2 improvements can do the same job actually",
+      "context": "Considering sub-block protocols like FLUX or Bitcoin NG as potential improvements",
+      "topic": "technical",
+      "raised_by": "kushti"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "00:17",
+      "fact": "Alexander Chepurnoy is a co-developer of the Ergo Protocol since 2016 and it's now the 5th Ergoversary",
+      "speaker": "kushti",
+      "topic": "governance"
+    },
+    {
+      "id": 2,
+      "timestamp": "05:49",
+      "fact": "Full blocks pruning via NippoPoWs is already supported in the reference client since the recent 5.0.12 version",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 3,
+      "timestamp": "08:36",
+      "fact": "Storage rent is charged every four years, so then every four years all the UTXOs are renewed",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 4,
+      "timestamp": "13:29",
+      "fact": "Since late 2021, clients are pruning by default",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 5,
+      "timestamp": "15:26",
+      "fact": "This work is going on all the time since 2020",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 6,
+      "timestamp": "16:06",
+      "fact": "Seemingly one or two order magnitudes improvements are possible with compact blocks",
+      "speaker": "kushti",
+      "topic": "technical"
+    }
+  ]
+}

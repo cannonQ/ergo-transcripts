@@ -1,0 +1,267 @@
+[00:11] **Luca**: Hi everyone, this is Luca.
+
+[00:13] **Luca**: I'm here with mgPai to present our ErgoHack VIII project called Moria Finance.
+
+[00:18] **Luca**: So during ErgoHack VIII, we were a team of five people: myself, mgPai, Anastasia, Apollo, and Dimitri, as well as Captain Nemo.
+
+[00:30] **Luca**: So we're going to present what we did for ErgoHack VIII.
+
+[00:34] **Luca**: The purpose of Moria Finance is to create a financial platform for managing individual or corporate funds with smart contract wallets and multisig.
+
+[00:42] **Luca**: So initially for our proposal, we wanted to do a time lock contract, a reversible address contract, and a multisig implementation.
+
+[00:51] **Luca**: Just due to the time constraint, we thought it'd be better to do the multisig service.
+
+[00:55] **Luca**: So that's what we're going to show in this presentation.
+
+[00:59] **Luca**: So for the multisig, we followed the protocol outlined in EIP-42 with one modification.
+
+[01:07] **Luca**: So in EIP-42, the derivation index of the user's wallet address is set to zero.
+
+[01:14] **Luca**: And instead of doing that, we just directly use the address provided by the creator, since we found this to just be simpler for our use case.
+
+[01:25] **Luca**: Since we didn't really know how the multisig process works, like the implementation, we reverse-engineered Minotaur Wallet in order to understand, and thankfully it was open source, so that was really great.
+
+[01:42] **Luca**: So in order to be able to sign a multisig transaction, we need to pass data around from each signer, from one signer to the next.
+
+[01:55] **Luca**: So in order to do that, we decided to use a relational database using PostgreSQL with Supabase, since it's just easy to set up and easy to use APIs.
+
+[02:05] **Luca**: We didn't get to implement this during the hackathon, but as a next feature, we're going to use Supabase Realtime in order to have live chat messaging and notifications during the signing process.
+
+[02:17] **Luca**: So you can think of it like every time you want to create a new multisig wallet, think of it as like a Slack channel or Discord channel, and then you can include all the members that are the signers, then you guys can all communicate with each other.
+
+[02:29] **Luca**: So it's much easier to coordinate the signing process.
+
+[02:34] **Luca**: So in the database, we have four main entities or tables: the confirmed user, the multisig wallet, the multisig unsigned transaction, and the multisig signed transaction.
+
+[02:45] **Luca**: And we have relations between all of those four entities.
+
+[02:51] **Luca**: So just as an example, like a confirmed user can create a multisig wallet, can create an unsigned transaction, will commit an unsigned transaction, and will sign an unsigned transaction, and finally submits a signed transaction.
+
+[03:04] **Luca**: And a signed transaction needs a multisig wallet and becomes an unsigned transaction.
+
+[03:08] **Luca**: So those words highlight in bold are the relations between the tables.
+
+[03:14] **Luca**: So here's just the relational diagram of the database.
+
+[03:19] **Luca**: So this diagram, the database implements this diagram.
+
+[03:23] **Luca**: So maybe an important thing to highlight would be the relations commits and signs.
+
+[03:30] **Luca**: So every time you sign an unsigned transaction, a signer in the ring will sign an unsigned transaction.
+
+[03:36] **Luca**: It generates the commitment secrets, which are unique to each signer.
+
+[03:39] **Luca**: So the commits relation and signs relations are like their own tables as well.
+
+[03:45] **Luca**: And they'll store for each user the unique secrets generated when they sign the transaction and the signature data as well.
+
+[03:51] **Luca**: So we can retrieve it when it's their turn to sign the transaction.
+
+[03:59] **Luca**: We can re-get the commit secrets and provide the correct data for them to sign.
+
+[04:07] **Luca**: And what's good about this design as well is in the future, right now, you have to create a wallet and then create an unsigned transaction using this wallet.
+
+[04:17] **Luca**: But the way the database is designed, you'll be able to upload an unsigned transaction on its own and then just be able to sign it by itself.
+
+[04:29] **Luca**: So this will just increase the use cases for Moria, for the multisig feature.
+
+[04:38] **mgPai**: For the Nautilus fork, we had to do this because the multisig requires different signing methods compared to a usual transaction.
+
+[04:51] **mgPai**: So two methods were added to the Nautilus fork: generate commitments for transaction.
+
+[04:57] **mgPai**: And this is the first stage of the multisig to generate some secrets, public and private.
+
+[05:03] **mgPai**: And after all this process you have to sign the transaction with the secrets and this is called sign transaction multi. And these were added into a custom Nautilus fork and we'll be having Captain Nemo adding this to the official Nautilus wallet in the new release with the v3 manifest.
+
+[05:31] **mgPai**: For the backend, backend is required for secure authentication and any services needed by ErgoPay or Ergo Mobile Wallet.
+
+[05:44] **mgPai**: Since ErgoPay only receives instructions from a website, it can't really reply back to the website.
+
+[05:53] **mgPai**: A server is required so it can communicate with it.
+
+[05:57] **mgPai**: Our database is all set up so we can also communicate from the backend to the database.
+
+[06:04] **mgPai**: There isn't really any additional work.
+
+[06:07] **mgPai**: So although ErgoPay isn't supported right now, because ErgoPay also needs these special signing methods, the backend is all set up to accommodate it when we have the chance to fork Ergo Mobile Wallet.
+
+[06:26] **mgPai**: And for the front end, we used Next.js and some state management tools like use context, CSS styles.
+
+[06:38] **mgPai**: The idea of the front end was formed around the name Moria.
+
+[06:42] **mgPai**: Moria is the city in the Lord of the Rings where the dwarves lived and they became royalty by mining material.
+
+[06:49] **mgPai**: Therefore, the design was based on a black and grey scheme with gold additions.
+
+[06:55] **mgPai**: Additionally, we used the approach of reusing components with buttons and style variables, just good practices in front-end, and our code will remain closed source for now.
+
+[07:12] **Luca**: Here's a few links you can find.
+
+[07:13] **Luca**: And now we're going to be presenting a demo.
+
+[07:20] **mgPai**: All right, so I'm here at our Moria landing page.
+
+[07:24] **mgPai**: So I'm going to first begin by connecting my brand new wallet.
+
+[07:28] **mgPai**: So this is like a process for if a user is onboarding for the first time.
+
+[07:36] **mgPai**: So you first have to log in.
+
+[07:50] **mgPai**: And now once the user is logged in, you click create multisig, name it whatever you want.
+
+[08:00] **mgPai**: Now you put the signers.
+
+[08:04] **mgPai**: So I'm going to do my wallet right here.
+
+[08:09] **mgPai**: Add another signer.
+
+[08:11] **mgPai**: I'll do Luca.
+
+[08:15] **mgPai**: Now let's increase the threshold for the demo, 2 out of 2.
+
+[08:20] **mgPai**: Everything looks good.
+
+[08:21] **mgPai**: Next.
+
+[08:23] **mgPai**: You can ignore this for now.
+
+[08:24] **mgPai**: Later on, we'll be adding a fee to charge people for creating more accounts so we don't get spammed in our database and backend.
+
+[08:36] **mgPai**: All right, so you can see here, it's still a bit buggy, but it's working.
+
+[08:42] **mgPai**: So you'll see if I reload, the address is loaded here.
+
+[08:47] **mgPai**: There's no transactions.
+
+[08:49] **mgPai**: And still a bit buggy, but there's no value here.
+
+[08:52] **mgPai**: 0.00.
+
+[08:57] **mgPai**: All right, so first for the demo, we go to fund the wallet.
+
+[09:02] **mgPai**: So we can go to receive and double click this to copy the wallet address.
+
+[09:08] **mgPai**: So I'm going to send some funds to this and I'll be right back.
+
+[09:14] **mgPai**: All right, so funds have been sent to the wallet, it's confirmed.
+
+[09:18] **mgPai**: And if I reload, I have 0.10.
+
+[09:26] **mgPai**: And so now let's create a multisig transaction.
+
+[09:29] **mgPai**: And note, you don't need any funds in your Nautilus for multisig, right?
+
+[09:33] **mgPai**: Because you're only signing.
+
+[09:34] **mgPai**: The inputs don't come from here.
+
+[09:37] **mgPai**: So let's build a new transaction.
+
+[09:40] **mgPai**: So I'll create a new address.
+
+[09:43] **mgPai**: Let's say you're paying someone off for doing some work or if they want a giveaway or if you're trying to donate to an Ergo raffle from a multisig, you can just paste the address here.
+
+[09:56] **mgPai**: You can put the amount here.
+
+[10:02] **mgPai**: Let me donate to the Sigmanauts.
+
+[10:07] **mgPai**: Let me grab the Sigmanauts address.
+
+[10:12] **mgPai**: Paste it here, that's their multisig, so it's going from one multisig to another multisig.
+
+[10:17] **mgPai**: I'm going to select ERG.
+
+[10:19] **mgPai**: You can see it's just around the Create step.
+
+[10:23] **mgPai**: I'm going to click Create.
+
+[10:25] **mgPai**: And Nautilus will prompt me to sign a commit transaction.
+
+[10:29] **mgPai**: And this is just like any other, similar to a normal transaction.
+
+[10:37] **mgPai**: And now the commit's been done.
+
+[10:40] **mgPai**: It's written to the database.
+
+[10:41] **mgPai**: And now let me switch over to how it looks for Luca.
+
+[10:50] **Luca**: Hey guys, it's Luca here again.
+
+[10:51] **Luca**: So I'm going to connect my wallet to the Moria website.
+
+[11:03] **Luca**: This is the transaction that mgPai created.
+
+[11:07] **Luca**: So I'm going to do my commitment now.
+
+[11:12] **Luca**: If you look at transaction status, you'll see that it shows one out of two commits are done.
+
+[11:22] **Luca**: All right, signing is done.
+
+[11:23] **Luca**: My commitment is done.
+
+[11:24] **mgPai**: Let me switch over.
+
+[11:27] **mgPai**: You can see threshold reached.
+
+[11:28] **mgPai**: So now we can begin the sign status.
+
+[11:30] **mgPai**: So let's switch over to my screen.
+
+[11:35] **mgPai**: So I haven't switched anything over just yet.
+
+[11:38] **mgPai**: So I have to click the exit sign and now I need to manually reload.
+
+[11:42] **mgPai**: We'll be implementing stuff to make this dynamic in the future.
+
+[11:46] **mgPai**: You can see here, exact same thing that Luca just saw.
+
+[11:51] **mgPai**: Sign status is pending.
+
+[11:52] **mgPai**: So let's initiate that.
+
+[11:57] **mgPai**: See here, commitments two of two.
+
+[12:00] **mgPai**: And there's no signatures.
+
+[12:02] **mgPai**: So let's begin.
+
+[12:04] **mgPai**: I'm going to click sign.
+
+[12:09] **mgPai**: Again, recognizable Nautilus UI, the password and click sign.
+
+[12:16] **mgPai**: It's complete.
+
+[12:17] **mgPai**: And again, we'll be adding notifications in the future.
+
+[12:19] **mgPai**: We just had very little time.
+
+[12:21] **mgPai**: We basically did this over a weekend.
+
+[12:25] **mgPai**: Now let's switch over to Luca's screen.
+
+[12:31] **Luca**: So, hey guys, we're back on my screen.
+
+[12:33] **Luca**: So, going to reload the page and we'll see that the signing process has started.
+
+[12:40] **Luca**: I'm going to click it.
+
+[12:41] **Luca**: As you can see, we can see mgPai's signature here.
+
+[12:44] **Luca**: And I'm going to do my sign.
+
+[12:47] **Luca**: So if I reload, we'll see the status change to threshold reached.
+
+[12:57] **Luca**: And if I click it, it'll bring me to the Explorer and we'll see that the transaction was submitted to the Ergo blockchain.
+
+[13:05] **Luca**: So this is, on the left is our multisig wallet.
+
+[13:08] **Luca**: The first address is where we're sending the funds to.
+
+[13:12] **Luca**: The second is the miner fee and the third is the change we're getting back.
+
+[13:19] **mgPai**: All right, so this concludes our demo.
+
+[13:24] **mgPai**: Everything's complete and that's what we completed for ErgoHack.
+
+[13:29] **mgPai**: Thanks for watching.

@@ -1,0 +1,989 @@
+[00:08] **tmr.erg**: We have been talking about starting a podcast, right?
+
+[00:14] **tmr.erg**: And yeah, for a few months now.
+
+[00:17] **tmr.erg**: Yeah, for like a few months and it's hard to make it happen.
+
+[00:19] **tmr.erg**: And so I'm glad we're kind of like jumping in a little bit cold, but just at the right time, you know, right before the Ergoversary, I think people are going to like kind of want to see some organic, like just content coming from regular people around the way.
+
+[00:35] **tmr.erg**: You know, I think lots of people will recognize our names, tmr.erg here and Marc the Shark.
+
+[00:42] **tmr.erg**: So I also encourage other people to do something like this too.
+
+[00:47] **tmr.erg**: I think it'll be fun.
+
+[00:50] **Marc the Shark**: Yeah, absolutely.
+
+[00:51] **Marc the Shark**: And I think the spirit of this and the podcast is trying to enable folks just to send it.
+
+[00:57] **Marc the Shark**: If you got an idea you want, you're super passionate about Ergo, no matter your tool set, figure out what you want to do and just give it a go.
+
+[01:04] **Marc the Shark**: Community members most likely are on board.
+
+[01:06] **Marc the Shark**: I remember I reached out and was like, hey, what do you guys think?
+
+[01:09] **Marc the Shark**: And tmr.erg's like, dude, that's a great idea.
+
+[01:11] **Marc the Shark**: Let's do that.
+
+[01:12] **Marc the Shark**: And here we are a few months later.
+
+[01:14] **Marc the Shark**: So it might take some time, but good things take time.
+
+[01:18] **tmr.erg**: It's like that with a lot of stuff.
+
+[01:21] **tmr.erg**: We'll talk about the ErgoHack in a little bit.
+
+[01:22] **tmr.erg**: But I've had people encourage me to contribute.
+
+[01:26] **tmr.erg**: And I've done two ErgoHacks now.
+
+[01:29] **tmr.erg**: And it's like, I don't have any coding skills.
+
+[01:31] **tmr.erg**: I really don't.
+
+[01:32] **tmr.erg**: I know, basically, what Python is, but that's not that useful.
+
+[01:39] **Marc the Shark**: For sure.
+
+[01:40] **Marc the Shark**: But I mean, sometimes though, you know, from my like career experience, like you don't even need to know how to code for the most part.
+
+[01:47] **Marc the Shark**: If, especially if you know, like the theory behind blockchain, you can just say, Hey, here's a diagram of how it works and just make sure that works for the Ergo ecosystem.
+
+[01:57] **Marc the Shark**: And then go hand that off to a software engineer or whoever's going to be actually developing it.
+
+[02:02] **Marc the Shark**: And then that way, you know, there's some more participation, I guess, on both sides.
+
+[02:09] **Marc the Shark**: But you know, I think coding scares a lot of people to kind of get involved and stuff.
+
+[02:13] **Marc the Shark**: But you certainly don't have to, from my perspective.
+
+[02:16] **tmr.erg**: And you know, I think it's kind of similar with this podcast, you know, it's like, none of us actually know how to record.
+
+[02:23] **tmr.erg**: And then here comes Andy is like, Oh, we'll help you out.
+
+[02:27] **tmr.erg**: And so you know, if anybody who's watching this, watch our growth over the like the next like three episodes, we'll see like how things show.
+
+[02:36] **tmr.erg**: And as we learn, and get better, like it's gonna be really cool.
+
+[02:39] **tmr.erg**: So the podcast, you want to talk about like how we named our podcast?
+
+[02:45] **Marc the Shark**: Yeah, so I guess it's kind of behind the idea of, you know, peer-to-peer network.
+
+[02:50] **Marc the Shark**: So we have one peer, tmr.erg's another peer.
+
+[02:54] **Marc the Shark**: And so we're just kind of, you know, just like within the network, pinging between each other, we're going to be pinging between different ideas around Ergo, the ecosystem.
+
+[03:04] **Marc the Shark**: So I'd say, I guess in my words, how about yourself?
+
+[03:08] **tmr.erg**: Yeah, I think something I also wanted to highlight for people was just like the story of Ergo and like really have a way to talk about why it matters for normal people and, and like how it's meaningfully different from other projects.
+
+[03:28] **tmr.erg**: Right. There's just like so many things like I started making this list of things that aren't like a project, you know, doesn't have a token or anything, but maybe just a story or like how Ergo developed organically and with the goal of just being a fair and transparent platform for DeFi.
+
+[03:54] **tmr.erg**: There's no entrance fee.
+
+[03:56] **tmr.erg**: You don't have to buy a token other than ERG.
+
+[03:59] **tmr.erg**: ERG is like a dollar right now and that will do transactions.
+
+[04:06] **Marc the Shark**: Yeah, yeah, definitely.
+
+[04:07] **Marc the Shark**: And I think too, like with part of this, at least I think I'd like to take a stab at so to speak is just like, you know, why this matters to like the normal person and even like translating that down to like, you know, non-crypto folks, because my mom, for example, last week was like, so what can you do with Ergo?
+
+[04:26] **Marc the Shark**: Like, what can you buy?
+
+[04:27] **Marc the Shark**: What can you actually do?
+
+[04:28] **Marc the Shark**: And I was like, you know, that is a really good question because from like you know non-crypto stuff you can't really buy things with Ergo at the moment sure you can do decentralized finance and but then also away from that there's all these sort of words like DeFi decentralized finance there's
+
+[04:48] **Marc the Shark**: I'm trying to think of other words.
+
+[04:49] **Marc the Shark**: Permissionless, there's all the decentralized, there's all these words that have like these inherent meanings, but like it's very nuanced in some sense.
+
+[04:57] **Marc the Shark**: And so sure, I guess you can understand obviously what decentralization means, but why it matters and like into the context of everyday life, I think is important to kind of spell out.
+
+[05:09] **Marc the Shark**: And maybe that can bring in more people down the road.
+
+[05:11] **Marc the Shark**: But I think I feel like, to me, at least, that information is very disparate.
+
+[05:19] **Marc the Shark**: It's very hard to find, or you just need to know where to look.
+
+[05:24] **Marc the Shark**: Sometimes I'm not really good at finding things, that's my wife.
+
+[05:27] **Marc the Shark**: And so yeah, so hopefully this podcast can hopefully, you know, as tmr.erg said, sort of bring everything together, grassroots, kind of explain Ergo, it's for everybody.
+
+[05:38] **Marc the Shark**: And then hopefully that that's our biggest takeaway for the viewers and even ourselves, I suppose.
+
+[05:44] **Marc the Shark**: But yeah, going on.
+
+[05:47] **tmr.erg**: I was as like I mentioned my list of things that we might talk about throughout the podcast series.
+
+[05:54] **tmr.erg**: I'm going to learn a ton.
+
+[05:56] **tmr.erg**: You know, like reaching out to people like, what was this thing?
+
+[05:59] **tmr.erg**: You know?
+
+[06:01] **tmr.erg**: What's up with that?
+
+[06:02] **tmr.erg**: So next thing, or I guess the first thing is, is talking about Ergoversary.
+
+[06:13] **tmr.erg**: Ergoversary is, of course, celebrating Ergo's birthday, and that's July 1st, right?
+
+[06:20] **tmr.erg**: And this happens every year where the community really comes together to talk about just what's going on around everything and like it's an exciting time because Ergo is still really young and there's a lot of core development that's still happening as well as like this sort of ancillary projects that that grow up as the the core protocol supports more and more things right so like node 6.0 is not even out yet you know like like this isn't my final form
+
+[06:57] **tmr.erg**: It's coming up and there's just like so much, there's going to be like actual legit academic papers discussed and, and new developments from like around the university.
+
+[07:14] **tmr.erg**: If you've been around Ergo for a little bit, you'll hear Dionysis Zindros, you hear that name.
+
+[07:20] **tmr.erg**: He was one of the people who was like early, early development of like what makes Ergo possible.
+
+[07:29] **tmr.erg**: So like people from Stanford, I don't know where Dionysis is from, but professors of computer science are going to share their new developments, new ideas.
+
+[07:43] **tmr.erg**: There's going to be some Twitter spaces from kind of around crypto.
+
+[07:47] **tmr.erg**: So folks from Nervos, CKB, from Alephium,
+
+[07:53] **tmr.erg**: and really just sharing, hey, what is the future of proof of work?
+
+[07:59] **tmr.erg**: And to me, that is such an important question.
+
+[08:04] **tmr.erg**: As everybody's transitioning to the proof of stake, it really rings to me one of those opportunities to have a counter-narrative that it's like, no, no, no, no, everyone's wrong.
+
+[08:19] **tmr.erg**: And this is going to be a time when projects like Ergo, like Alephium, like CKB, they're going to be rewarded for sticking to their guns and not just going along with the narrative of proof of stake.
+
+[08:36] **tmr.erg**: Right.
+
+[08:37] **tmr.erg**: Because, I mean, it's only 15 years old proof of work.
+
+[08:41] **tmr.erg**: It's like, how could we think like, oh, yeah, it's cool.
+
+[08:44] **tmr.erg**: But it's developed, you know, right.
+
+[08:47] **tmr.erg**: There's so much, especially regarding, like, balancing of power grids, which is which is really cool to me as we as we develop more like sustainable energy sources like wind and solar nuclear
+
+[09:04] **tmr.erg**: We need more demand.
+
+[09:05] **tmr.erg**: It's not that we need more energy.
+
+[09:07] **tmr.erg**: We need more demand so that we don't overload our grids and that power is available for when the peak rises up.
+
+[09:14] **tmr.erg**: So I just think that that's just one tiny example of like this whole universe that hasn't opened up yet for proof of work.
+
+[09:22] **tmr.erg**: And it's like there's so much more to do.
+
+[09:26] **tmr.erg**: And another one is AI, right?
+
+[09:29] **tmr.erg**: So now that is a bunch of demand for graphics cards.
+
+[09:35] **tmr.erg**: And guess who mines with a graphics card?
+
+[09:37] **tmr.erg**: You know, Ergo.
+
+[09:39] **tmr.erg**: Yeah, we do.
+
+[09:41] **tmr.erg**: And so it's like, oh, yeah, all those ASICs that are that are mining Bitcoin.
+
+[09:46] **tmr.erg**: Yeah, those those are that's that's great.
+
+[09:47] **tmr.erg**: But it doesn't like help balance the demand for AI and so I think there's just a lot to explore here and I am just an average bear and I don't even know what's going on.
+
+[10:03] **tmr.erg**: So I'm excited to hear the talk from all of these projects about what is the future of proof of work.
+
+[10:13] **tmr.erg**: Definitely.
+
+[10:14] **tmr.erg**: And then of course like the next five years of Ergo.
+
+[10:19] **Marc the Shark**: Yeah, that'll be interesting.
+
+[10:21] **tmr.erg**: I mean, Ergo's five years old, and the next five, I can't wait, man.
+
+[10:28] **Marc the Shark**: Yeah.
+
+[10:28] **Marc the Shark**: And especially too, I think from a miner perspective, we're always worried about, you know, the emissions is like keeps being reduced and reduced and reduced.
+
+[10:36] **Marc the Shark**: And now we're at 27 ERGs for one given block.
+
+[10:39] **Marc the Shark**: And so I think in the next five years, obviously, I think it drops considerably.
+
+[10:43] **Marc the Shark**: So it'll it'll certainly be interesting to see what the speakers have to say, maybe relative to that.
+
+[10:50] **Marc the Shark**: And then I guess, obviously, again, from a miner's perspective, the price action to it
+
+[10:56] **Marc the Shark**: And then, of course, how that incentivizes developers to kind of stick around and continue working with the ecosystem.
+
+[11:04] **Marc the Shark**: But I think, like you said, there's a lot here already.
+
+[11:07] **Marc the Shark**: And so in five years from now, I can't imagine the ecosystem probably just going to blow up in a good way.
+
+[11:12] **tmr.erg**: Yeah, and you know, it's like, there's so much here now.
+
+[11:16] **tmr.erg**: And so few people know about it.
+
+[11:19] **tmr.erg**: But it's ready, you know, Ergo is right.
+
+[11:22] **tmr.erg**: It's ready for more people.
+
+[11:25] **tmr.erg**: And not that we're done or anything like that.
+
+[11:27] **tmr.erg**: But it's like, comparable to much larger chains with more funding and definitely a larger percentage of the tokens went to a private somebody.
+
+[11:38] **tmr.erg**: You know, right?
+
+[11:39] **Marc the Shark**: Yeah.
+
+[11:40] **Marc the Shark**: Yeah.
+
+[11:40] **Marc the Shark**: And that's huge.
+
+[11:41] **Marc the Shark**: Again, going back to like, I guess, you know, why, why Ergo for me and for you, you know, for me, it was just like, you know, it's very similar to Bitcoin, the no pre-mine, you know, in that, with that respect, so no VCs got the extra money.
+
+[11:56] **Marc the Shark**: And then we're still with GPUs, you know, so very accessible at the moment, whereas like, Hey, I want to mine Bitcoin.
+
+[12:03] **Marc the Shark**: Well, it's not really super feasible for a lot of people, you know, $15,000 for one miner.
+
+[12:09] **Marc the Shark**: And then it's just, from that perspective, again, it's just like, it's kind of a scary investment, because what happens if it breaks?
+
+[12:17] **Marc the Shark**: I've seen sometimes these things break, and you're out $15,000 versus you say one GPU, although it's nice to consolidate your hardware, but still it's kind of a scary thing, especially if you're, you know, not used to that.
+
+[12:30] **tmr.erg**: Yeah.
+
+[12:31] **tmr.erg**: I mean, you can't, you can't solo mine.
+
+[12:35] **tmr.erg**: right?
+
+[12:35] **tmr.erg**: Like, no, no, no, no.
+
+[12:37] **tmr.erg**: And solo mine.
+
+[12:38] **Marc the Shark**: That's that's not Yeah, you could, I suppose.
+
+[12:41] **Marc the Shark**: They have like those little chips, where it's basically I think that's what they're doing is solo mining.
+
+[12:48] **Marc the Shark**: But like the odds that you get it is like so low.
+
+[12:51] **Marc the Shark**: But if you win, though, you get like, or not win.
+
+[12:53] **Marc the Shark**: But if you find a block, and you get like six, six Bitcoin right now, or is it three Bitcoin?
+
+[12:58] **Marc the Shark**: Yeah, yeah.
+
+[13:00] **Marc the Shark**: Okay, three.
+
+[13:01] **Marc the Shark**: So yeah, three Bitcoin right now is still considerable amount of money.
+
+[13:05] **Marc the Shark**: Yeah, it might be worth it.
+
+[13:08] **tmr.erg**: I don't know.
+
+[13:09] **tmr.erg**: So just like, since I heard you talking about, like kind of some of these things that attracted you to Ergo, how did you how did you get into Ergo?
+
+[13:17] **tmr.erg**: Like what?
+
+[13:18] **tmr.erg**: What's your story?
+
+[13:19] **Marc the Shark**: Yeah, yeah.
+
+[13:20] **Marc the Shark**: So I initially was like a huge fanboy for Cardano.
+
+[13:24] **Marc the Shark**: And then, and that was probably in 2020, 2022, very around the same time that they started doing the Plutus Pioneers.
+
+[13:33] **Marc the Shark**: And so I got on like the first wave of that, but it just felt like super nebulous.
+
+[13:38] **Marc the Shark**: And there were some other people that are in the development space that I was talking to, and I don't know, it just felt like super nebulous.
+
+[13:44] **Marc the Shark**: And then I think I saw like a few videos of like, like Big Pay, he was like mining Ergo or like Dan, the crypto recruiter.
+
+[13:53] **Marc the Shark**: he was talking about Ergo and yada yada.
+
+[13:56] **Marc the Shark**: And then some of the miners started talking about it on YouTube.
+
+[13:59] **Marc the Shark**: And I was like, Oh, maybe I should start looking into mining because I was going to set up a stake pool, but then quickly realized I don't have enough ADA.
+
+[14:06] **Marc the Shark**: People don't know who I am.
+
+[14:07] **Marc the Shark**: This doesn't really make too much sense to, to make a stake pool.
+
+[14:12] **Marc the Shark**: So, figured out Ergo made a bunch of spreadsheets in terms of cost analysis.
+
+[14:19] **Marc the Shark**: So, you know, Hey, if I'm going to put 5K in crypto equipment, how much should I expect to get back?
+
+[14:26] **Marc the Shark**: Ran the math to the numbers then it was like hey, this is kind of a no-brainer based on the previous cycle high so like Price didn't go to $18 yet So I think it was like maybe five or six bucks something like that.
+
+[14:39] **Marc the Shark**: I was like, hey this goes back to 18 20 bucks This is gonna be a great investment and then it did so I was like, yes This is awesome.
+
+[14:48] **Marc the Shark**: And then unfortunately though quickly I realized the or not that I quickly but some parameters changed the DAG or not the DAG, but the the the amount of data within the block changed.
+
+[15:01] **Marc the Shark**: And so one of my cards went from 170 mega hash all the way down to like 130.
+
+[15:07] **Marc the Shark**: So that was like a huge hit just in terms of ERG per day.
+
+[15:11] **Marc the Shark**: And then then the bear market happened.
+
+[15:13] **Marc the Shark**: And then I stopped mining.
+
+[15:14] **Marc the Shark**: So long story short, was a Cardano kind of led me to Ergo and then I was like, all right, I'm going to stay here.
+
+[15:21] **Marc the Shark**: And then as of late, I was like, Hey, how can I help?
+
+[15:25] **Marc the Shark**: What can I do?
+
+[15:26] **Marc the Shark**: Where can I be pointed to?
+
+[15:27] **Marc the Shark**: And then qx() kind of picked me up into the Sigmanauts mining pool.
+
+[15:32] **Marc the Shark**: And then here we are developing and doing stuff that I never thought I would do before.
+
+[15:37] **Marc the Shark**: And so this has been, it's been a fun journey.
+
+[15:39] **Marc the Shark**: Absolutely.
+
+[15:40] **tmr.erg**: That's exciting meant to like end up someplace you weren't expecting really.
+
+[15:45] **Marc the Shark**: Yeah, 100%.
+
+[15:46] **Marc the Shark**: I kind of wanted to be, I guess, in this vein, but it was just like, how do I get there?
+
+[15:52] **Marc the Shark**: It just felt so nebulous.
+
+[15:53] **Marc the Shark**: I'm still learning stuff today where it's like, oh, OK.
+
+[15:57] **Marc the Shark**: The Explorer has APIs, and I need to pull from the API.
+
+[16:02] **Marc the Shark**: So sometimes I guess my head is too far, close to the trees.
+
+[16:06] **Marc the Shark**: I can't see the forest through.
+
+[16:07] **Marc the Shark**: You know what I mean?
+
+[16:08] **Marc the Shark**: So it's been a very humbling experience.
+
+[16:11] **Marc the Shark**: You know, it's, and even like we were saying in the beginning of the podcast, it's like, if you're interested in something, there's likely somebody, you know, like, Hey, go this way in terms of whatever you're trying to do, whether it's this podcast, whether you're developing, whether you're like you were saying, you know, doing an ErgoHack, you know, this community is so friendly.
+
+[16:28] **Marc the Shark**: So if you truly do want to help, there's so many people out there that are most likely willing to help you.
+
+[16:34] **tmr.erg**: Yeah.
+
+[16:35] **tmr.erg**: Yeah.
+
+[16:35] **tmr.erg**: Totally agree, man.
+
+[16:36] **tmr.erg**: That's also a part of what brought me to Ergo.
+
+[16:40] **tmr.erg**: So I guess first, funny story, I had no knowledge or interest in crypto, really, until 2021.
+
+[16:51] **tmr.erg**: And I had seen Bitcoin go to 19,000 for the first time, and I saw it crash, and I was like, ah, I knew, obviously.
+
+[17:04] **tmr.erg**: And just kind of dismissed it from then.
+
+[17:07] **tmr.erg**: in early 2021, maybe like January, my mom, my like 65 year old mother asked me like, hey, Tim, like what's Bitcoin?
+
+[17:16] **tmr.erg**: My advisor was like saying that I should put like half a percent into Bitcoin.
+
+[17:23] **tmr.erg**: And I don't even know what that is.
+
+[17:24] **tmr.erg**: And I was hoping you could tell me.
+
+[17:25] **tmr.erg**: I was like, well, you know, like I kind of know, but let me like actually do a deep dive for you and give me like a week and then I'll call you back.
+
+[17:35] **tmr.erg**: And so I just like started learning so that I could explain it to my mom in terms, you know, it's like explain it simply and then understand.
+
+[17:43] **tmr.erg**: And then I was like, the light bulb went off.
+
+[17:45] **tmr.erg**: I was like, oh, this is great.
+
+[17:47] **tmr.erg**: Like, what was I thinking?
+
+[17:50] **tmr.erg**: So I got into Bitcoin and- Did your mom get into Bitcoin?
+
+[17:57] **tmr.erg**: Yeah.
+
+[18:01] **tmr.erg**: You know, and then I started looking at other things, like what are all these other projects?
+
+[18:06] **tmr.erg**: And I took that lens of Bitcoin maximalism and just like, okay, this is like, to some extent it's appropriate.
+
+[18:13] **tmr.erg**: You know, like there's like a lot of bullshit that goes on and people are trying to make money and they don't care about me.
+
+[18:20] **tmr.erg**: You know?
+
+[18:22] **tmr.erg**: So I just like did a whole survey of stuff.
+
+[18:25] **tmr.erg**: I like, of course, checked out Ethereum as that was like the main narrative in 2021.
+
+[18:31] **tmr.erg**: came across ADA as a top coin, surveyed the ADA ecosystem, and came across Ergo as like the oracles, right?
+
+[18:42] **tmr.erg**: And hearing, not Dan, hearing Charles talk about Ergo and kushti, and that led me into it.
+
+[18:48] **tmr.erg**: And I started, of course, with the manifesto, and it was just like,
+
+[18:54] **tmr.erg**: This is not a scam.
+
+[18:57] **tmr.erg**: This is not the same thing as all the shitcoins that the maximalists are talking about.
+
+[19:04] **tmr.erg**: And so to me it started to stand out there.
+
+[19:07] **tmr.erg**: The built-in privacy was super cool to me I've never been like a super private person online, but I also am like a little bit of a Libertarian like a little little streak of libertarian in me and it's like I totally think we should have the choice and Ergo just like gives people right and so so privacy and then
+
+[19:33] **tmr.erg**: like non-custodial dApps.
+
+[19:36] **tmr.erg**: To me, that just makes so much sense, like SigmaUSD.
+
+[19:40] **tmr.erg**: It's like nobody- Explain that.
+
+[19:42] **Marc the Shark**: Explain non-custodial dApps just for folks that just like, maybe they've never heard of Ergo and they're like, hey, what the heck is a non-custodial?
+
+[19:48] **tmr.erg**: So a non-custodial dApp means that nobody actually takes control of your coins.
+
+[19:54] **tmr.erg**: It's like this machine that is perfectly sealed up with like, you know, you put your money in and then you get something out of it or the other way around.
+
+[20:02] **tmr.erg**: And nobody can interrupt that process.
+
+[20:05] **tmr.erg**: It's literally the only way would be to kill all the miners, right?
+
+[20:08] **tmr.erg**: And don't try that.
+
+[20:15] **tmr.erg**: And so it's just like this indestructible, resilient thing.
+
+[20:22] **tmr.erg**: and it only benefits average people.
+
+[20:25] **tmr.erg**: Rich people don't need that.
+
+[20:27] **tmr.erg**: They can't profit from it.
+
+[20:30] **tmr.erg**: You can buy a bunch of ERG, but that helps everyone.
+
+[20:33] **tmr.erg**: That was my way in.
+
+[20:37] **tmr.erg**: I wanted to contribute.
+
+[20:40] **tmr.erg**: I started writing.
+
+[20:41] **tmr.erg**: I wrote an article called Ergo on the lessons of Bitcoin maximalism.
+
+[20:47] **tmr.erg**: And that, you know, is really like giving details about all the stuff that all the lessons I learned from like studying Bitcoin and people's like conservative approach to crypto, and how that is really lived out in Ergo.
+
+[21:02] **tmr.erg**: So once I made that, I just kind of like wrote it and put it out there.
+
+[21:04] **tmr.erg**: And then people started hitting me up to ask me to like, write some more.
+
+[21:07] **tmr.erg**: And so I wrote a ton of stuff.
+
+[21:09] **tmr.erg**: Okay, nice around.
+
+[21:12] **tmr.erg**: Yeah, yeah.
+
+[21:13] **tmr.erg**: And my life is getting crazy.
+
+[21:15] **tmr.erg**: And so like, I can contribute less and less, but I'm super happy to like, be able to be here with you and like do a podcast every now and then.
+
+[21:21] **Marc the Shark**: Absolutely.
+
+[21:23] **Marc the Shark**: So yeah, so you'll be the side of things that can explain it more clearly than maybe I can.
+
+[21:29] **Marc the Shark**: Absolutely.
+
+[21:30] **Marc the Shark**: I'll do my best.
+
+[21:32] **Marc the Shark**: No, that's awesome that you did the deep dive in.
+
+[21:34] **Marc the Shark**: Because I think that even goes again, like we don't normally see that I feel like and then people who do get involved in crypto crypto, whereas like right now everyone's like Nike right Charles is Pepe meme coin and they're just like, Oh, I'm going to make a bunch of money.
+
+[21:50] **Marc the Shark**: Let me just go full send into that.
+
+[21:52] **Marc the Shark**: They don't understand the basics, the, you know, the inputs and outputs, the all the, you know, so hats off to you for sure.
+
+[21:58] **Marc the Shark**: For like, you know, understanding the fundamentals because again, I don't think the general market.
+
+[22:04] **Marc the Shark**: It just feels like right now crypto in total is just feels like a wild west around trying to grab money, and everyone's just trying to make money, and it's just not to the primitives or the first principles of just why crypto was first created.
+
+[22:20] **Marc the Shark**: And so figuring out the system level of things and how things work, that's awesome that you did that.
+
+[22:28] **tmr.erg**: Yeah, so that was one of my favorite lines from that first article that I wrote was that the purpose of crypto is not to make you rich, but to make you free.
+
+[22:38] **tmr.erg**: And so for better and for worse, I remember seeing, what is it like, Pepe come up and I was like, oh yeah, that's probably gonna make somebody rich.
+
+[22:48] **tmr.erg**: And I ignored it.
+
+[22:50] **Marc the Shark**: But yeah, it's crazy.
+
+[22:57] **Marc the Shark**: Because I mean, even like for me when I was in Cardano for a little bit, that was when the NFT phase was starting to pick up.
+
+[23:03] **Marc the Shark**: Like I could have bought a, what's that?
+
+[23:08] **Marc the Shark**: Cardano buds, space buds.
+
+[23:12] **Marc the Shark**: I could have bought a couple space buds and I was like, what am I doing this for, you know, and then then I did jump into a Cardano project and then it got rugged, you know what I mean?
+
+[23:22] **Marc the Shark**: And then it was just like, and then it seemed like rug after rug.
+
+[23:24] **Marc the Shark**: And it was just like, you know, what's the point of creating all this stuff?
+
+[23:27] **Marc the Shark**: I got really upset with it.
+
+[23:30] **Marc the Shark**: Cause it's like, I don't want to just create a project and then I get bored of it.
+
+[23:33] **Marc the Shark**: And then, you know, I either rug people on purpose or rug people accidentally.
+
+[23:38] **Marc the Shark**: So that's why I was like, you know what, maybe I don't want to develop something.
+
+[23:40] **Marc the Shark**: Cause it's kind of, you know, cause then people did get upset.
+
+[23:43] **Marc the Shark**: Like this one project, Cardano gods,
+
+[23:47] **Marc the Shark**: I even got like one of the, I got two rare ones and I was like, dude, hell yeah, good for me.
+
+[23:52] **Marc the Shark**: And then they rugged it and it was just like, just frustrating.
+
+[23:55] **Marc the Shark**: You know, it's like, if that's your first experience, whether it's Ergo Cardano or whatever, you know, that that's gonna, that's gonna hurt a lot of people coming in and out of the ecosystem.
+
+[24:04] **Marc the Shark**: And so like the first entry doesn't need to be, in my opinion, this some type of meme coin, because people are going to get hurt because it's going to be all this FOMO.
+
+[24:14] **Marc the Shark**: They're not going to know how to handle it.
+
+[24:15] **Marc the Shark**: and then they FOMO into it and then they get pennies left or nothing at all.
+
+[24:21] **tmr.erg**: It's just a bubble.
+
+[24:22] **tmr.erg**: You're just trying to ride a bubble.
+
+[24:24] **tmr.erg**: Right.
+
+[24:24] **tmr.erg**: Exactly.
+
+[24:25] **Marc the Shark**: Exactly.
+
+[24:26] **tmr.erg**: So speaking of being discouraged and not developing something, there was an ErgoHack recently.
+
+[24:33] **tmr.erg**: You want to talk about something you did develop?
+
+[24:36] **Marc the Shark**: Yeah, for sure.
+
+[24:37] **Marc the Shark**: And let me pull up Paideia.
+
+[24:40] **Marc the Shark**: I had my page set up.
+
+[24:42] **Marc the Shark**: One moment.
+
+[24:46] **Marc the Shark**: to my window.
+
+[24:48] **Marc the Shark**: Yeah, so I since I'm now helping run the Sigmanauts mining pool with qx().
+
+[24:56] **Marc the Shark**: I was like, hey, let's, let's submit something for this ErgoHack.
+
+[24:58] **Marc the Shark**: I haven't done an ErgoHack before.
+
+[25:01] **Marc the Shark**: So I was like, yo, it'd be super sick.
+
+[25:02] **Marc the Shark**: We could do something.
+
+[25:04] **Marc the Shark**: So here's, most of the projects, I believe this screenshot, it's missing kushti's projects, but nonetheless, here's everybody's, and then here's in Paideia where we all voted.
+
+[25:17] **Marc the Shark**: And so a lot of really good projects.
+
+[25:18] **Marc the Shark**: I was very, very impressed.
+
+[25:20] **Marc the Shark**: I don't think that the final voting is complete yet, or rather, I think that it is complete.
+
+[25:25] **Marc the Shark**: The results just haven't been shared yet.
+
+[25:27] **Marc the Shark**: But for the community vote, again, super honored that our team won.
+
+[25:31] **Marc the Shark**: Shout out to the miners that supported us for the mining BTC swap.
+
+[25:36] **Marc the Shark**: But we had a lot of really cool projects that we got to see.
+
+[25:40] **Marc the Shark**: So if you didn't know, qx() set up this DAO on Paideia
+
+[25:46] **Marc the Shark**: And so from here, basically, we'll just click mine, ours.
+
+[25:52] **Marc the Shark**: So we have our name, the content, right?
+
+[25:57] **Marc the Shark**: So we got to see how many, so you could either vote yes or no.
+
+[26:00] **Marc the Shark**: We got 29 votes, heck yeah.
+
+[26:04] **Marc the Shark**: And then if you wanted to see our submissions here and our actual submissions for our swap, and then you can even see other projects like Crystal Pools,
+
+[26:17] **Marc the Shark**: at 25 votes.
+
+[26:20] **Marc the Shark**: So Paideia was a really cool tool where I think it was, if you submitted to, so kushti originally was like, hey, let's put together some sort of reward for the community and you guys get to vote on it.
+
+[26:33] **Marc the Shark**: So I think he donated like 500 ERGs and quickly that launched all the way up to like 7,500 ERG, which is great to see like the community just go out and be like, yeah, let's send it.
+
+[26:45] **Marc the Shark**: And so, the Sigmanauts were like, hey, all right, let's, let's vote on this, see who's going to win.
+
+[26:51] **Marc the Shark**: So whoever voted or whoever got raffle tickets gets five votes.
+
+[26:55] **Marc the Shark**: The Sigmanauts themselves individually, you get two votes.
+
+[26:58] **Marc the Shark**: And then the community members, regardless of who you are, you get one vote.
+
+[27:02] **Marc the Shark**: And so you get this DAO token from the ErgoHack.
+
+[27:07] **Marc the Shark**: And then from there, you came to this website, you stake it.
+
+[27:12] **Marc the Shark**: So we'll just check that out here real quick.
+
+[27:15] **Marc the Shark**: Right, so I got one staked token.
+
+[27:19] **Marc the Shark**: Cool, I already staked it, right, so it doesn't show anything else.
+
+[27:24] **Marc the Shark**: Let me go back.
+
+[27:25] **Marc the Shark**: And then from there, you just hit vote.
+
+[27:29] **Marc the Shark**: You sign the TX boom boom now you balance counted.
+
+[27:33] **Marc the Shark**: So again, going back to, you know, why Ergo, this is something that's really cool from a democracy standpoint.
+
+[27:39] **Marc the Shark**: So it's like a pseudo democracy, I suppose, in some sense, so you can vote for anything.
+
+[27:46] **Marc the Shark**: Create proposals for anything and then if it passes you put in the logic whether it's sending funds doing whatever the case to facilitate that so that was really cool.
+
+[27:55] **Marc the Shark**: But our project in particular allows originally we wanted to create an NFT which would act as some type of ID token.
+
+[28:04] **Marc the Shark**: So kind of we were talking about, tmr.erg, the custodial or non-custodial dApps.
+
+[28:10] **Marc the Shark**: We pretty much wanted to do something very similar to where the miners would prove that they're the miner with that specific address without having to give their IP, without having to give any type of sensitive data.
+
+[28:22] **Marc the Shark**: So by minting this NFT, this token, you now allow us to figure out that, hey, you are the miner you're saying you are.
+
+[28:30] **Marc the Shark**: And then with that, we can change different parameters, configurations.
+
+[28:34] **Marc the Shark**: So part of the parameters configurations in this was being able to swap for BTC, Rosen, whatever.
+
+[28:40] **Marc the Shark**: And so we actually have a... Can you see this?
+
+[28:48] **Marc the Shark**: Yeah, yeah.
+
+[28:50] **Marc the Shark**: Okay.
+
+[28:51] **Marc the Shark**: Well, kind of doxing somewhere I have, but in any case...
+
+[28:55] **Marc the Shark**: So here's the staking key.
+
+[28:58] **Marc the Shark**: Here's one of the tokens I minted.
+
+[29:01] **Marc the Shark**: So we got ERG, so that's going to be 80% of your reward would be ERG.
+
+[29:06] **Marc the Shark**: SigmaRSV, you're going to have 20%.
+
+[29:09] **Marc the Shark**: And then here's some other things I'm kind of just messing around with.
+
+[29:11] **Marc the Shark**: So fan club, qx(), we kind of joked around, like the qx() fan club, and then that would have like a theme within the UI.
+
+[29:19] **Marc the Shark**: And so maybe moving forward, there would be Cyberverse, maybe Bower, maybe Comet, et cetera.
+
+[29:24] **Marc the Shark**: So this is how we'll facilitate that.
+
+[29:28] **Marc the Shark**: But not to talk too much about our project,
+
+[29:31] **Marc the Shark**: So that's the ErgoHack.
+
+[29:33] **Marc the Shark**: Really great to see all these projects sort of, you know, make it happen.
+
+[29:39] **Marc the Shark**: I'm excited to see kind of what happens moving forward.
+
+[29:43] **Marc the Shark**: I know there's already talks about another ErgoHack with respect to UI, so that'll be interesting.
+
+[29:49] **Marc the Shark**: I don't know, tmr.erg, any thoughts on the hack?
+
+[29:52] **tmr.erg**: No, that's so sick, man.
+
+[29:54] **tmr.erg**: And I just, I love how the hacks are able to kind of leverage the new like kind of cornerstones that are being erected around the ecosystems, like all this stuff using Rosen, right?
+
+[30:09] **tmr.erg**: Like there's RosenPort, yours, you're swapping to Bitcoin, you know, through Rosen.
+
+[30:15] **tmr.erg**: And that's like, that's a nice counter.
+
+[30:18] **tmr.erg**: That's such a nice computer.
+
+[30:22] **tmr.erg**: What is the pool that just 100% of the people who mine in this pool just sell their ERG and buy Bitcoin with it?
+
+[30:29] **tmr.erg**: Yeah, two miners.
+
+[30:30] **tmr.erg**: Yeah.
+
+[30:31] **tmr.erg**: All right.
+
+[30:32] **tmr.erg**: Now we're keeping it local.
+
+[30:34] **tmr.erg**: People still get their Bitcoin.
+
+[30:36] **tmr.erg**: They can use it in DeFi and have to sell their ERGs.
+
+[30:41] **tmr.erg**: I think it's great, man.
+
+[30:44] **Marc the Shark**: Yeah, and then I saw a video to Son of a Tech.
+
+[30:48] **Marc the Shark**: He's had I think it's Varius coin or something like that, or Varius coin.
+
+[30:52] **Marc the Shark**: Anyways, they they they're like, oh, hey, you can mine up over 20 coins with our with our setup.
+
+[30:59] **Marc the Shark**: And I was like, well, in a very similar sense, you could mine if we had 20 tokens facilitated within the swap, you could eventually you could essentially
+
+[31:09] **Marc the Shark**: swap for 20 different tokens, including ERG.
+
+[31:13] **Marc the Shark**: So it's really the sky's the limit.
+
+[31:15] **Marc the Shark**: So if you're super bullish with a bunch of different projects, maybe do 50% ERG, 20% BTC, and then 5% a bunch of different stuff.
+
+[31:25] **Marc the Shark**: And honestly, the framework is going to allow us to do a bunch of different things we haven't really envisioned before.
+
+[31:33] **Marc the Shark**: But in any case, I'm getting ahead of myself.
+
+[31:35] **Marc the Shark**: All right.
+
+[31:37] **Marc the Shark**: But yeah, the whole hack itself was around Ergo as a smart layer around Bitcoin.
+
+[31:43] **Marc the Shark**: So we really needed to facilitate, you know, integrating Bitcoin in there because as itself didn't really make too much sense just in terms of the mining pool.
+
+[31:51] **Marc the Shark**: But yeah, here's the information here.
+
+[31:57] **Marc the Shark**: Let's see.
+
+[31:57] **Marc the Shark**: Yeah, so Ergo as a smart layer for Bitcoin.
+
+[32:02] **Marc the Shark**: Here's the prize pools.
+
+[32:05] **Marc the Shark**: Here's our schedule, right?
+
+[32:07] **Marc the Shark**: So we had our welcome with kushti and CannonQ, I believe.
+
+[32:12] **Marc the Shark**: And then we did some development.
+
+[32:14] **Marc the Shark**: Shout out to Andy for, again, for editing all of those videos.
+
+[32:18] **Marc the Shark**: That must have taken some time.
+
+[32:20] **Marc the Shark**: And then shout out to also for the judges.
+
+[32:23] **Marc the Shark**: So now we're just waiting on the judges and then I guess yeah, we're gonna they're gonna submit it in the Ergoversary.
+
+[32:29] **tmr.erg**: So Yeah, I love the concept of Ergo as a smart layer for Bitcoin that the whole like L2 Scene is a little is a little weird for me especially around Bitcoin where it's like we're gonna use the Lightning Network and it's like
+
+[32:47] **tmr.erg**: It doesn't seem like it's taken off.
+
+[32:50] **tmr.erg**: It seems limited.
+
+[32:52] **tmr.erg**: It's still doing the same thing that Bitcoin is able to do, or it's some off-chain thing, or it's custodial in some way, like the Fedimints.
+
+[33:03] **tmr.erg**: Those don't seem as good as the non-custodial dApps I mentioned.
+
+[33:11] **tmr.erg**: And it just makes a whole lot of sense to have this decentralized bridge facilitate Ergo like as an L2 for Bitcoin or like as a smart layer.
+
+[33:21] **tmr.erg**: Smart layer is better.
+
+[33:22] **Marc the Shark**: Right.
+
+[33:24] **Marc the Shark**: Explain that.
+
+[33:25] **Marc the Shark**: Explain like smart layer and like I guess like what that means to kind of like the average person.
+
+[33:31] **Marc the Shark**: Yeah.
+
+[33:33] **tmr.erg**: So Bitcoin is pretty limited.
+
+[33:35] **tmr.erg**: I would say for better, it's limited.
+
+[33:37] **tmr.erg**: It's supposed to be simple, not simple, but like primary, right?
+
+[33:41] **tmr.erg**: Like it's not fancy enough to break.
+
+[33:46] **tmr.erg**: Okay.
+
+[33:46] **tmr.erg**: And so since then, Ergo has come around that is allowing a lot more flexible programming to be done without a huge contract risk.
+
+[33:59] **tmr.erg**: The languages have developed.
+
+[34:01] **tmr.erg**: the infrastructure has developed to keep things more decentralized.
+
+[34:04] **tmr.erg**: And so now using the Rosen Bridge, people are able to, to bring their Bitcoin to Ergo and like do proper DeFi.
+
+[34:14] **tmr.erg**: Like you can do loans, you can do, like we could have a Bitcoin-backed stable coins, all fully decentralized, non-custodial, non-interactive dApps.
+
+[34:29] **tmr.erg**: And it could all be fully open source with like no attack vectors because it's all sealed up machine, you know, and it's open.
+
+[34:37] **tmr.erg**: You can see the insides.
+
+[34:38] **tmr.erg**: You don't have to trust anybody.
+
+[34:41] **tmr.erg**: Absolutely.
+
+[34:42] **tmr.erg**: Yeah.
+
+[34:42] **tmr.erg**: So I just think there's a huge, huge opportunity there.
+
+[34:45] **Marc the Shark**: And then isn't also like the sort of like the smart layer too, to where it's like, say if you, say you were like a Bitcoin maximalist or something like that, or you just wanted to stay on the Bitcoin network, you could use Ergo, right?
+
+[34:58] **Marc the Shark**: To sort of validate, do whatever you're trying to do on that layer too, like you're saying, you know, so how long is like Bitcoin's block time?
+
+[35:07] **Marc the Shark**: Do you know offhand?
+
+[35:08] **Marc the Shark**: 10 minutes.
+
+[35:09] **Marc the Shark**: 10 minutes.
+
+[35:10] **Marc the Shark**: Okay, so yeah, so say you don't have 10 minutes, you want to use Bitcoin as like your central sort of, I don't know, I guess financial layer, but then you could skip over to Ergo, our block times are two minutes.
+
+[35:24] **Marc the Shark**: knock out whatever you're trying to do.
+
+[35:26] **Marc the Shark**: And then within that same 10 minute time frame, we could do whatever you need to do on Ergo.
+
+[35:31] **Marc the Shark**: And then that slice that back into the Bitcoin layer.
+
+[35:34] **Marc the Shark**: And then that's all integrated, I guess.
+
+[35:38] **Marc the Shark**: Yeah, not too, not too sure.
+
+[35:40] **tmr.erg**: But I think that's, you know, yeah, yeah, totally.
+
+[35:43] **tmr.erg**: And I think, like, for me, what I would do is like, have my Bitcoin on my Ledger, you know, on Bitcoin network.
+
+[35:51] **tmr.erg**: But then like my the money I want to use, like Ergo, you know, why would I be buying coffee on Bitcoin?
+
+[36:00] **tmr.erg**: You know, like, eventually, yeah, Ergo will be able to do that, especially with, you know, sub-blocks and all this stuff that's coming out to make it faster usable.
+
+[36:08] **tmr.erg**: And you know, maybe, maybe here's a good time to like, transition to the end of our podcast.
+
+[36:15] **tmr.erg**: Okay, perfect.
+
+[36:16] **tmr.erg**: And talk about Think about what it is that you're most excited about.
+
+[36:21] **tmr.erg**: Like maybe just think like one or two things.
+
+[36:23] **tmr.erg**: I'm gonna pull up the roadmap.
+
+[36:25] **tmr.erg**: Okay.
+
+[36:28] **tmr.erg**: And then we can kind of just share things that we're excited about and we'll sign off.
+
+[36:33] **tmr.erg**: Perfect.
+
+[36:34] **tmr.erg**: Okay, here we go.
+
+[36:40] **tmr.erg**: I love how large, how large the roadmap is for Ergo.
+
+[36:49] **tmr.erg**: And when I started, when I started, all of this was red.
+
+[36:55] **tmr.erg**: None of this was done.
+
+[36:57] **tmr.erg**: Nice.
+
+[36:58] **tmr.erg**: Yeah.
+
+[36:58] **tmr.erg**: Working hard for the money, so to speak.
+
+[37:02] **tmr.erg**: So what do you think?
+
+[37:03] **tmr.erg**: What is, what is something that, that you're really excited about?
+
+[37:07] **Marc the Shark**: Yeah.
+
+[37:08] **Marc the Shark**: Honestly, I'd say really there's the community just cause I've always wanted to get into developing with, And I guess it's more of a selfish thing, but I've always wanted to be a blockchain developer working on the blockchain.
+
+[37:21] **Marc the Shark**: And so for me, it feels more feasible than ever.
+
+[37:24] **Marc the Shark**: But then, but also I think with a lot of these different solutions, you know, you could like the other day I was thinking like, oh, you can make an NFT then integrate that with maybe some RFID that automatically signs transactions.
+
+[37:36] **Marc the Shark**: And then you could use that as like a, like a gym card.
+
+[37:39] **Marc the Shark**: you know, then it's like permissionless gym card entry and exits.
+
+[37:43] **Marc the Shark**: And I feel like, and so going to I guess what I'm more excited about is like, I would like personally like to see more integrations within like real world type stuff, make it more tangible for somebody who doesn't know what the heck crypto even is.
+
+[37:56] **Marc the Shark**: And I think that idea of making it more tangible allows for it's like, who cares if it's crypto or not?
+
+[38:02] **Marc the Shark**: Who cares if it's I mean, obviously, we care, but The idea is like, you know, I don't know how to credit card transaction works.
+
+[38:08] **Marc the Shark**: I don't know all the stuff behind it, but as long as it works, it works.
+
+[38:11] **Marc the Shark**: I see the money leaving my account.
+
+[38:12] **Marc the Shark**: I see the money entering my account.
+
+[38:14] **Marc the Shark**: And so I think that is becoming more tangible.
+
+[38:18] **Marc the Shark**: And I guess to me, my perspective, but then I guess secondly, another thing I'm excited about is just to kind of see where the market goes.
+
+[38:29] **Marc the Shark**: as well as the ecosystem as we enter the bull market, or at least we think we're entering the bull market, it'll be interesting to see what the ecosystem does this sort of go around, you know, how we handle maybe NFT projects trying to scrounge for money and then like leave the ecosystem.
+
+[38:47] **Marc the Shark**: And since we've kind of been used to that people coming into Ergo leaving for Cardano, it'll be interesting once prices starts to come up.
+
+[38:55] **Marc the Shark**: So I guess it's kind of multifaceted and So it'll be interesting, I guess, with that perspective.
+
+[39:02] **tmr.erg**: Yeah, I totally agree with all of that, man.
+
+[39:05] **tmr.erg**: For me, the thing I'm most excited about, I guess it's not a single project, but just this attitude of like, oh, you know, we're trying to participate and play by the rules, but like, this is obviously like so crooked and scammy, like trying to get into these exchanges.
+
+[39:26] **tmr.erg**: You know like all this like regulation that could it's like looming over us and they're kind of the SEC is kind of like just really And then all of a sudden like oh, it's not a security like somebody just got the call, you know, and right It's just like so scammy.
+
+[39:42] **tmr.erg**: And so I I see Ergo Like you know what?
+
+[39:46] **tmr.erg**: F these guys like we're just gonna build our own we're just gonna build our own and they can't stop us and so that is what I really appreciate and so I'll point out a few things so like
+
+[39:56] **tmr.erg**: all of our stable coins, so SigmaUSD for sure, Dexy Gold coming out, Gluon Gold coming out, and those commodities are only going to grow in number.
+
+[40:09] **tmr.erg**: I've been telling them, make some uranium, man, make a uranium.
+
+[40:15] **tmr.erg**: I was like, I don't know, Glasgow gets mad at me when I talk about uranium.
+
+[40:20] **Marc the Shark**: Hey, that'd be cool.
+
+[40:20] **Marc the Shark**: Then we can track the nuclear projects with all the uranium being switched around.
+
+[40:25] **tmr.erg**: Yeah.
+
+[40:26] **tmr.erg**: My point is we're going to have all of these things that are not fiat currency that we can use to protect ourselves.
+
+[40:33] **tmr.erg**: Then it's enabled by things like Machina Finance or Lithos, just like these really high-level foundational projects that allow people to do for themselves what centralized authorities used to have to do.
+
+[40:54] **tmr.erg**: And you know, like there was one of the Ergo, I think it was, I can't remember the name of it.
+
+[40:59] **tmr.erg**: I think it was Crystal Pools.
+
+[41:00] **tmr.erg**: It was like, yeah, here's like a central exchange experience for people to use on Ergo.
+
+[41:06] **tmr.erg**: And it's just, it's fast trading.
+
+[41:07] **tmr.erg**: We have the Trade House just dropped from an Unreal.
+
+[41:12] **tmr.erg**: Like it's a decentralized order book.
+
+[41:16] **tmr.erg**: Like, what do we need the exchange for?
+
+[41:19] **tmr.erg**: The only thing we need the exchange for is because there's a law that says we have to go through somebody who's approved to take on.
+
+[41:29] **tmr.erg**: So that's what I'm excited for.
+
+[41:30] **tmr.erg**: To me, once that's up, Ergo is built to be the last man standing.
+
+[41:36] **Marc the Shark**: Absolutely.
+
+[41:38] **Marc the Shark**: Yeah, and I feel like it with that perspective, you know, where we are almost there, especially with like even Paideia, the beta right now about to be live or, you know, so we don't need B Paideia or anything like that, that's going to be huge, just like setting up the DAOs, the DAOs to be working effectively, the DAOs working efficiently.
+
+[41:56] **Marc the Shark**: So like even the Sigmanauts, we've been using that now for I'm not sure how long we've been using it for.
+
+[42:01] **Marc the Shark**: But I think it's been working pretty well.
+
+[42:03] **Marc the Shark**: We're going to integrate that with the Sigmanauts mining pool so the miners have a say with certain things.
+
+[42:09] **Marc the Shark**: I think that's going to be really interesting to see, because again, kind of going back to the, I guess, sort of a theme to this talk that we've been having is just like, you know, how can you sort of help within the ecosystem, regardless of experience?
+
+[42:23] **Marc the Shark**: Well, one thing would obviously is being able to vote and have a say and have a voice.
+
+[42:28] **Marc the Shark**: And so so I guess another thing that I'm excited for is like the miners being able to have a say, because I feel like constantly we always hear all miners are always in it for the money or we're always blah blah blah blah it's like also yes we've got a business but it would be great for the miners to be able to vote and say hey let's make some like miner tools for the ecosystem let's get more miners to let's do education
+
+[42:52] **Marc the Shark**: And I think the DAOs are going to be perfect for that.
+
+[42:54] **Marc the Shark**: You know, all the other decentralization tools that you mentioned, I know Lithos, I think, right, is going to be a decentralized mining setup.
+
+[43:01] **Marc the Shark**: So that'll be very interesting to see how that plays.
+
+[43:03] **Marc the Shark**: So if when the government's ever ever like, hey, you can't do this, you know, like you said, we're we're set up to be the last man standing with respect to, you know, you know, protecting our own cells.
+
+[43:15] **Marc the Shark**: You know what I mean?
+
+[43:16] **Marc the Shark**: We're not, you know, the government's not going to hopefully easily figure out, you know, who we are, I guess, from an anonymous perspective on the blockchain, although I'm sure it's transparent, so you could probably figure that out.
+
+[43:28] **Marc the Shark**: But we have the tools to sort of mix things around to sort of create some gray areas to kind of protect ourselves, and not even from a nasty sort of criminal perspective, but just from a, you know, the peering eye of Sauron, so to speak, that is the government, you

@@ -1,0 +1,109 @@
+{
+  "call_date": "2024-06-17",
+  "call_title": "OptionPools | KrasaviceBlasen | ErgoHack VIII",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "02:51",
+      "decision": "Goal for this ErgoHack was to address performance factor by pricing options directly on-chain using the Black-Scholes options pricing model",
+      "speaker": "Quokka",
+      "context": "To tackle performance issues that prevent DeFi options from capturing market share",
+      "topic": "technical",
+      "significance": "major",
+      "quote": "So our goal for this ErgoHack was to address this particular factor, performance. Specifically, our goal was to price options directly on-chain using the Black-Scholes options pricing model."
+    },
+    {
+      "id": 2,
+      "timestamp": "05:32",
+      "decision": "For the ErgoHack, created pools that only support one strike price and expiration",
+      "speaker": "Quokka",
+      "context": "Limited scope for demonstration purposes",
+      "topic": "technical",
+      "significance": "minor",
+      "quote": "For the ErgoHack, we created pools that only support one strike price and expiration."
+    },
+    {
+      "id": 3,
+      "timestamp": "12:23",
+      "decision": "Decided to leave Delta and Vega neutral pools for a future version after refactoring the code",
+      "speaker": "Quokka",
+      "context": "Was close to being built but needs more work",
+      "topic": "technical",
+      "significance": "minor",
+      "quote": "This is something that we were close to having built into option pools, but we decided to leave this for a future version after we refactor the code a bit."
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "11:35",
+      "commitment": "After cleaning up code and auditing, will tackle risk issues",
+      "owner": "Quokka/team",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "After we clean up the code and audit things, we'll be able to tackle risk."
+    },
+    {
+      "id": 2,
+      "timestamp": "11:39",
+      "commitment": "In future versions, can integrate with DuckPools for liquidity",
+      "owner": "Quokka/team",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "And in future versions, we can integrate with DuckPools for liquidity."
+    }
+  ],
+  "open_questions": [],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "01:00",
+      "fact": "Options market makes up only 0.2% of DeFi TVL",
+      "speaker": "Quokka",
+      "topic": "market-data"
+    },
+    {
+      "id": 2,
+      "timestamp": "03:26",
+      "fact": "ERG-USD pool allows liquidity providers to deposit both ERG and SigmaUSD and earn yield",
+      "speaker": "Quokka",
+      "topic": "technical"
+    },
+    {
+      "id": 3,
+      "timestamp": "05:14",
+      "fact": "Pool has 10.04 ERG and 10.04 SigmaUSD in TVL after deposit",
+      "speaker": "Quokka",
+      "topic": "technical"
+    },
+    {
+      "id": 4,
+      "timestamp": "05:25",
+      "fact": "Strike price of $1.24 and expiration date of block height 1297804",
+      "speaker": "Quokka",
+      "topic": "technical"
+    },
+    {
+      "id": 5,
+      "timestamp": "06:22",
+      "fact": "Volatility is 65% and risk-free rate chosen is 5%",
+      "speaker": "Quokka",
+      "topic": "technical"
+    },
+    {
+      "id": 6,
+      "timestamp": "11:47",
+      "fact": "Implemented various math functions in ErgoScript including logs, exponentials and square roots",
+      "speaker": "Quokka",
+      "topic": "technical"
+    },
+    {
+      "id": 7,
+      "timestamp": "11:57",
+      "fact": "Created a volatility oracle that aggregates historical DEX volatility on-chain, completely free to use",
+      "speaker": "Quokka",
+      "topic": "technical"
+    }
+  ]
+}

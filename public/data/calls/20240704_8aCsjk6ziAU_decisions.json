@@ -1,0 +1,105 @@
+{
+  "call_date": "2024-07-04",
+  "call_title": "The Next 5 Years of Ergo | Alex Chepurnoy | Ergoversary Summit 2024",
+  "decisions": [],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "13:04",
+      "commitment": "Working on Sigma 6.0 with fixes and new features in contraction layer",
+      "owner": "kushti",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "I'm currently working on Sigma 6.0 with fixes and new features in contraction layer"
+    },
+    {
+      "id": 2,
+      "timestamp": "18:17",
+      "commitment": "Lithos mainnet launch",
+      "owner": "unspecified",
+      "timeline": "November or December this year",
+      "topic": "technical",
+      "quote": "Lithos, well, its mainnet launch is still planned for November or December this year"
+    },
+    {
+      "id": 3,
+      "timestamp": "17:08",
+      "commitment": "Publish and explain sidechain designs from ErgoHack 7 and trustless relay from ErgoHack 8",
+      "owner": "kushti",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "It makes sense to publish and explain. Sidechain designs already done from ErgoHack 7. And then trustless relay from ErgoHack 8"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "14:37",
+      "question": "Storage rent discussions and potential tweaking",
+      "context": "Storage rent will be more significant with time",
+      "topic": "technical",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 2,
+      "timestamp": "23:59",
+      "question": "Rules for releases and release security for core protocol implementation",
+      "context": "Need to define rules for reference clients and libraries",
+      "topic": "governance",
+      "raised_by": "kushti"
+    },
+    {
+      "id": 3,
+      "timestamp": "24:11",
+      "question": "Rules for research-driven development of core protocols",
+      "context": "Need to decide rules for protocol development",
+      "topic": "governance",
+      "raised_by": "kushti"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "01:30",
+      "fact": "Ergo launched five years ago on July 1st 2019",
+      "speaker": "kushti",
+      "topic": "historical"
+    },
+    {
+      "id": 2,
+      "timestamp": "07:41",
+      "fact": "Currently only one stable coin SigmaUSD, two ready for launch: Dexy and Gluon",
+      "speaker": "kushti",
+      "topic": "ecosystem"
+    },
+    {
+      "id": 3,
+      "timestamp": "07:59",
+      "fact": "Gluon is planning mainnet launch in weeks",
+      "speaker": "kushti",
+      "topic": "ecosystem"
+    },
+    {
+      "id": 4,
+      "timestamp": "09:16",
+      "fact": "Bridges exist with Cardano and Bitcoin, Ethereum is on the way",
+      "speaker": "kushti",
+      "topic": "technical"
+    },
+    {
+      "id": 5,
+      "timestamp": "09:44",
+      "fact": "TradingHouse DEX launched two weeks ago as fully on-chain peer-to-peer order book based exchange",
+      "speaker": "kushti",
+      "topic": "ecosystem"
+    },
+    {
+      "id": 6,
+      "timestamp": "10:02",
+      "fact": "CrystalPool DEX implemented during last ErgoHack as fast order book based DEX with centralized matching",
+      "speaker": "kushti",
+      "topic": "ecosystem"
+    }
+  ]
+}

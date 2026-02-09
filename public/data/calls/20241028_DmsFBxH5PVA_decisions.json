@@ -1,0 +1,133 @@
+{
+  "call_date": "2024-10-28",
+  "call_title": "Dev Update Oct. 28th 2024 |  Cyberverse, Paideia, MewFinance, Sigs Mining, Sigmaspace and more!",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "14:37",
+      "decision": "Paideia vote chose to distribute bonus payments evenly over everybody for a month",
+      "speaker": "qx()",
+      "context": "Previously bonus payments were sent to random wallets, but a recent Paideia vote changed the distribution method",
+      "topic": "governance",
+      "significance": "minor",
+      "quote": "I believe the Paideia vote that just happened chose to distribute them evenly over everybody for a month"
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "13:59",
+      "commitment": "Approved PR will be merged into 6.0 later today",
+      "owner": "kushti",
+      "timeline": "later today",
+      "topic": "technical",
+      "quote": "Approved and will be merged into 6.0 PR later today"
+    },
+    {
+      "id": 2,
+      "timestamp": "14:37",
+      "commitment": "Bootstrap Live Paideia with zero profit sharing and zero staking rewards once off-chain bug fix is live",
+      "owner": "Luivatra",
+      "timeline": "after bug fix is complete",
+      "topic": "paideia",
+      "quote": "Once that fix is live, he will bootstrap Live Paideia with zero profit sharing and zero staking rewards so no one will miss out on anything"
+    },
+    {
+      "id": 3,
+      "timestamp": "14:37",
+      "commitment": "Sigmanauts DAO will be created to test DAO creation and give the Sigmanauts a free DAO",
+      "owner": "Luivatra",
+      "timeline": "unspecified",
+      "topic": "governance",
+      "quote": "Sigmanauts DAO, yay, will be created to test DAO creation and give the Sigmanauts a free DAO"
+    },
+    {
+      "id": 4,
+      "timestamp": "18:07",
+      "commitment": "It would be great if someone else can take a look at the Ledger PR before we merge it",
+      "owner": "community developers",
+      "timeline": "before merge",
+      "topic": "technical",
+      "quote": "It would be great if someone else can take a look at the PR before we merge it"
+    },
+    {
+      "id": 5,
+      "timestamp": "34:02",
+      "commitment": "Instructions to run a Rosenet node will be provided later",
+      "owner": "Armeanio",
+      "timeline": "later",
+      "topic": "rosen-bridge",
+      "quote": "The instructions to run a node will be provided later"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "25:52",
+      "question": "What is the relevance of the 34 feet measurement in Rocket Rush scoring",
+      "context": "qx() noticed the specific number and wondered about its significance",
+      "topic": "cyberverse",
+      "raised_by": "qx()"
+    },
+    {
+      "id": 2,
+      "timestamp": "33:05",
+      "question": "Whether cyber car minting event will be on Ergo blockchain",
+      "context": "qx() wondered if the Halloween cyber car minting would use ERG/CYPX instead of ADA",
+      "topic": "cyberverse",
+      "raised_by": "qx()"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "03:22",
+      "fact": "Sigmanauts mining pool has about 76.39 gigahash",
+      "speaker": "qx()",
+      "topic": "mining"
+    },
+    {
+      "id": 2,
+      "timestamp": "07:11",
+      "fact": "Sigmanauts mining pool has collected maybe 40 or so ERG from storage rent collection",
+      "speaker": "qx()",
+      "topic": "mining"
+    },
+    {
+      "id": 3,
+      "timestamp": "16:47",
+      "fact": "Javanese language has 95 million users worldwide and is the second language in Suriname",
+      "speaker": "Chris45",
+      "topic": "translation"
+    },
+    {
+      "id": 4,
+      "timestamp": "20:52",
+      "fact": "Mining pool found a block at 11:10 p.m. during the call",
+      "speaker": "qx()",
+      "topic": "mining"
+    },
+    {
+      "id": 5,
+      "timestamp": "34:02",
+      "fact": "Rosenet testing requires computers with at least 8GB RAM, 8 cores CPU, and will handle tens of gigabytes of data",
+      "speaker": "Armeanio",
+      "topic": "rosen-bridge"
+    },
+    {
+      "id": 6,
+      "timestamp": "34:52",
+      "fact": "Rosenet test will take around a day",
+      "speaker": "Armeanio",
+      "topic": "rosen-bridge"
+    },
+    {
+      "id": 7,
+      "timestamp": "36:04",
+      "fact": "Paul's raffle raised $2,249 of $1,000 requested for Rosen-ETH ERG pair",
+      "speaker": "qx()",
+      "topic": "liquidity"
+    }
+  ]
+}

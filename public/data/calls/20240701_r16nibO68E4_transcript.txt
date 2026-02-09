@@ -1,0 +1,169 @@
+[00:14] **Dionysis Zindros**: Hello, my name is Dionysis Zindros, I'm from Common Prefix and it's great to be back at Ergoversary 2024.
+
+[00:25] **Dionysis Zindros**: Today I will present a paper called A Better Proof-of-Work Fork Choice Rule that we wrote with my co-authors Kratika Shastri from Dominant Strategies, and then Apostolos Tzinas from the National Technical University of Athens, Shiram Vishwanath from the University of Texas at Austin, and myself. And I did this work while I was at Stanford University.
+
+[00:56] **Dionysis Zindros**: So this paper is already on preprint. You can find it out. And it's a construction that we call POEM.
+
+[01:03] **Dionysis Zindros**: So let's go to the whiteboard. The POEM stands for proofs of entropy minima. And what it does is it's a proof of work protocol. In that sense, it is similar to Bitcoin and Ergo.
+
+[01:18] **Dionysis Zindros**: And like every proof of work protocol, it employs a proof of work inequality. Let's start by writing down Bitcoin's proof of work inequality. And this is, by the way, the same inequality applies to all proof of work systems known today, including Ergo.
+
+[01:37] **Dionysis Zindros**: So what you do is you take a hash function like SHA-256 or maybe some more memory-intensive hash function, whatever you want to do. For example, Monero does that. And you hash the block. You hash the block. So these are the block contents. In particular, here you place the block header.
+
+[02:02] **Dionysis Zindros**: So you've already prepared your transactions into a header, and you hash it, and then you check if this value falls below a certain target. So that's the inequality. And this is what defines whether a block is valid. So this is the hash, this is the block header, and this is the target.
+
+[02:24] **Dionysis Zindros**: Intuitively, what this means is that you check that the hash falls below a target. What does that mean? It means that you treat the hash output as a number and then you compare it to a different number. Well, how do you treat the hash as a number?
+
+[02:41] **Dionysis Zindros**: The hash is a 256-bit integer, right? So you can write it down in hexadecimal format or you can write it down in binary format and if you write it down in binary format it might look something like that. So what we would say when we are describing these protocols intuitively is that well the hash has to start with a certain number of zeros here.
+
+[03:07] **Dionysis Zindros**: But that's not formally correct. That's not actually what the protocol does. It's a little bit more detailed in the fashion that it is comparing it against another number. So if your target was this number here, that means that any number, any binary number below that target number is a valid block, which in particular, for example, if you put this number, OK, this one is larger, right? So that's an invalid block.
+
+[03:38] **Dionysis Zindros**: And then if you put this number, it's a smaller number. So this one is bigger, this one is smaller, meaning that this is an invalid block, and this is a valid block, even though they both start with the same number of zeros. So the actual protocol is a little bit more detailed than just start with two zeros here. It's a little bit more detailed in that you are comparing it against a target.
+
+[04:05] **Dionysis Zindros**: OK, in the typical treatments of theoretical treatments of Bitcoin what you do to simplify the math is you keep the target constant. You keep it a constant, it doesn't change with the execution. You assume the population is fixed so the mining target does not need to be adjusted. But of course in real systems, the target will be adjusted from epoch to epoch in order to reflect how the miner population changes.
+
+[04:35] **Dionysis Zindros**: So if the miners are increased in either their count or their computational power because of hardware advances, then the target becomes more difficult, meaning the target is lowered, meaning the difficulty, one over target, is increased. Difficulty is one over the target.
+
+[04:55] **Dionysis Zindros**: If the miners reduce in count or in computational power, then the target increases, meaning the target becomes easier, the difficulty reduces. So there is this kind of variable difficulty situation. So that's kind of an overview of what is going on in existing proof of work protocols.
+
+[05:17] **Dionysis Zindros**: For this protocol, what I want to do is I want to change this inequality. I want to make it something different on what constitutes a valid block. In fact, the validity of a block itself will remain the same, but what I will do is I will change the fork choice rule that is based on this validity condition.
+
+[05:43] **Dionysis Zindros**: So let me go into what is the fork choice rule. OK, so when we are talking about chains and block trees, you have this idea of a fork choice rule, which tells you that, OK, you started Genesis, blocks are being produced. And then at some point you may have a fork due to either adversarial behavior or due to two honest miners mining two different blocks almost simultaneously.
+
+[06:14] **Dionysis Zindros**: And these things will tend to be resolved and they just become temporary forks. And this is what Ergo does as well. Maybe these temporary forks will be longer as well if you have a situation where multiple consecutive proof-of-work blocks were mined almost simultaneously by honest parties or you have some sort of attack here.
+
+[06:42] **Dionysis Zindros**: Regardless, this will tend to follow a canonical chain. It will tend to converge into a canonical chain. And this happens due to the fork choice rule that we have. So let's recall what is the fork choice rule in Bitcoin and Ergo.
+
+[06:57] **Dionysis Zindros**: So what happens here is you have a scoring function which takes in a chain and gives you a number which is the score of that chain. How much is that chain worth? And then what you do is you compare the scores of two different chains in order to extract the best one. And what we say always is we want the heaviest chain or we want the longest chain. So this is the heaviest chain rule.
+
+[07:30] **Dionysis Zindros**: That's what we do. So the score of a chain is really the sum of the scores of each individual block. So the scoring function can be applied either to a chain or to a block. And when we are scoring a chain, we're scoring each block, and then we're adding everything up together.
+
+[07:52] **Dionysis Zindros**: And in order to score a block, what we do is, well, we just look at its target and then it contributes proportionally to its target, right? For this discussion, just for simplicity, let's assume that the target is fixed because the miner population is constant. So the miner population doesn't change. There's no advances in hardware happening during our analysis and the target remains the same.
+
+[08:20] **Dionysis Zindros**: The analysis that I'm doing for POEM and for Bitcoin. Well, for Bitcoin, there's a paper that analyzes also how the behavior manifests during variable difficulty or target readjustment. For POEM, it's conjectured that the things that I will tell you also extend to variable difficulty settings.
+
+[08:47] **Dionysis Zindros**: OK, but for simplicity, let's just say that the target is a constant, which means that we can just score each block as counting for score of one, right? So if we just do that, this is known as the longest chain rule. And actually that is what happens if the target doesn't change, right? Each block is worth as much as its target says.
+
+[09:12] **Dionysis Zindros**: So because it's worth as much as its target says, this is also known as its nominal difficulty or nominal target. This is what you add, right? OK, very good.
+
+[09:27] **Dionysis Zindros**: So now let's move on to what this POEM thing is doing. So the idea here is that we will leverage some of the constructions from NIPoPoWs, which Ergo already leverages. And remember these NIPoPoWs, what we do is we look at the actual hash of a block instead of its target.
+
+[09:49] **Dionysis Zindros**: We look at the actual hash of a block instead of its target, namely the block we count it for its actually achieved hash instead of its nominal hash. So if you look at this inequality, this validity condition for whether a block is valid, there's two components.
+
+[10:10] **Dionysis Zindros**: There's the target itself, which is the nominal value. This is what you need to achieve in order to have a valid block. And then there's the actual hash that falls below the target. These two numbers, you can look at them separately. If you look at the hash itself, let's visualize how this looks like.
+
+[10:32] **Dionysis Zindros**: So if you have a bunch of blocks, and they're all valid, you can set the target here. OK, I'm drawing here on this axis, I'm drawing the hash value. And there is a threshold, the target. All the valid blocks will fall below that target. So they will have a value somewhere there. But some of them will fall much below the target.
+
+[10:55] **Dionysis Zindros**: OK, and then as you remember from NIPoPoWs, these things are called super blocks. OK, so the main idea here is that these things have more zeros than are required by the target itself. It might have one more zero if it falls below that line, or two more zeros if it falls below that line.
+
+[11:15] **Dionysis Zindros**: And again, the precise equality is that it falls below the target, or falls below target halves, or falls below target quarters. But you can think about it as counting number of zeros to simplify the intuition.
+
+[11:29] **Dionysis Zindros**: And in NIPoPoWs, we use it to make this highway of blockchains in order to make super light clients and this is something that Ergo also employs. Here we will use this idea to actually score the chains in a different fashion.
+
+[11:50] **Dionysis Zindros**: OK, so let me write down exactly what the scoring algorithm is. So this part here actually doesn't change, so each chain is the sum of the scores of its own blocks. But this part here will change. This part there will change. And we will make each block worth something different depending on not the target, because that's a constant, but on the actual hash that it has achieved.
+
+[12:17] **Dionysis Zindros**: So let me write this down. It's going to be score of the block. And then this is going to be minus the logarithm of the hash of the block. That's the idea. So this is a somewhat complicated equation. So let's just go through it and understand what this says.
+
+[12:40] **Dionysis Zindros**: OK, so here, firstly, the hash function that we have is treated as a number between 0 and 1. So we are normalizing it between 0 and 1.
+
+[12:57] **Dionysis Zindros**: OK, what does that mean is when I take my hash function, usually I take it to be any function that can map any string into a finite set of a fixed number of bits kappa, which could be let's say 256, right? So this is how I presented this to you when I wrote down these numbers here. But actually what we will do is we will just take these numbers, and we will map them to the range 0 to 1.
+
+[13:27] **Dionysis Zindros**: So what I will do is I will add a 0 comma this one. This is going to be a period here. OK, so this is how we put them in the range from 0 to 1. Or if you want to do this mathematically, if I have this function here, what I can do is I can hash the thing that I want, and then I want to divide by the maximum value that the hash could possibly take, and that maps it into the range 0 to 1. That's how I normalize it.
+
+[13:53] **Dionysis Zindros**: So what I will do is instead of just doing that every time, I will assume that my hash function already outputs things in this range. OK, very good.
+
+[14:03] **Dionysis Zindros**: And now, well, that's going to be a decimal number or a number between 0 and 1. And what the logarithm here, the binary logarithm does is it actually counts the number of zeros, but in a continuous fashion. So if the number is actually 0, 0, 1, and then all zeros, then the logarithm is going to be 2.
+
+[14:29] **Dionysis Zindros**: And then if I have the number that starts with three zeros and then has all zeros, it's going to be 3. So it really counts the number of zeros there. If there are intermediate values here with zeros and ones, then the logarithm is going to be a floating point number between 2 and 3.
+
+[14:49] **Dionysis Zindros**: So intuitively, this part here counts the number of zeros. But because it's a number between 0 and 1, the logarithm is going to be negative. So we need to flip the sign around. So that's what this inequality does. It tells you, count the number of zeros in each block. And then that's the score of the block.
+
+[15:09] **Dionysis Zindros**: And when the time comes to find the score for chain, what you do is, well, you count the sum of the number of zeros that exist across all the blocks in that chain. So you add them all up. How many zeros does each block begin with? You add them all up, and that gives you the score of the chain.
+
+[15:29] **Dionysis Zindros**: So that means that your rule, your fork choice rule now looks a little bit different. So it looks like you have blocks that are shorter and then blocks that are fatter in this fashion, because they managed to achieve a different number of zeros. So these are similar to super blocks. It's a continuous analog to super blocks.
+
+[15:50] **Dionysis Zindros**: And the chain looks a little bit like that. Contrary to a normal chain that would just look like that. Every block is the same. Here, blocks are different. And again, let's stress that this is not due to target recalculation. The target remains the same. We're looking at the actual hashes.
+
+[16:07] **Dionysis Zindros**: OK, so that's it. That's really the whole protocol. Nothing else changes. We're just changing the fork choice rule. And that is the construction that we have in the POEM paper.
+
+[16:18] **Dionysis Zindros**: So now let me tell you a little bit about the intuition about why this thing gives better results. So I will run an example in which we will have an execution of a longest chain rule versus this new sort of entropic rule. Let's call it the entropic rule.
+
+[16:39] **Dionysis Zindros**: OK, so this one I call the entropic rule, right? It's not longest chain. It's not heaviest chain. It's entropic and I will have here the longest chain rule and then here I have the entropic version of it.
+
+[17:00] **Dionysis Zindros**: Good. So now let me show you what happens in cases. I have some sort of adversary who is controlling, you know, approximately some sort of mining power, maybe half of the mining power.
+
+[17:16] **Dionysis Zindros**: OK. So let's say that we have the honest parties who are mining on one block tree and we have an adversary mining separately and independently a different block tree. And let's say that we try to produce blocks quite quickly or we try to make the block inter-arrival time short in order to have a faster system, and let's look at how the system will behave in terms of its security.
+
+[17:47] **Dionysis Zindros**: OK, so we have maybe the Genesis block, and because we are running the system in a fast parameterization, what happens here is you have one block there, maybe at the same height you have another block, and then at the same height you have another block.
+
+[18:02] **Dionysis Zindros**: So what happens is, well, due to the network delay being large or set differently due to the blockchain being a very fast configured system, it's possible that this situation arises where three honest miners mine at the same time. And then what will happen is you're hoping that a subsequent miner will choose a block to extend, and that thing will become the canonical chain.
+
+[18:31] **Dionysis Zindros**: So what happened here is that these blocks were some wasted effort by the honest network, even though honest proof of work was devoted to mine them, they were eventually abandoned in favor of the canonical chain.
+
+[18:50] **Dionysis Zindros**: OK, so let's now look at what the adversary is doing. The adversary is just a powerful entity that has all of its computers tightly connected to a very fast network, which means that she doesn't have to take into account these sort of situations where there are forks, but everything actually follows a chain.
+
+[19:13] **Dionysis Zindros**: So if the adversary has approximately a similar mining power as the honest parties, what she will do is she will produce a chain that looks like this. So let's say that during this time, there were three blocks produced simultaneously. So this is time 0, time 1, time 2.
+
+[19:32] **Dionysis Zindros**: But at the same time, the adversary, if she were to be in the same situation, she would produce this thing, where this is time 0, time 1, time 2, because she manages to synchronize these blocks. And so the effort here is not really wasted.
+
+[19:48] **Dionysis Zindros**: OK, so now what we observe is that this adversary has about the same mining power as the honest party. Let's see how many blocks there are. Let's count them. 1, 2, 3, 4, 5. Good. And then here we have 1, 2, 3, 4, 5.
+
+[20:04] **Dionysis Zindros**: OK. So this is approximately a 50% or close to 50% adversary. And what she has achieved is that whereas the honest parties have obtained a chain of length 3, the adversary here has obtained a chain of length 5, which, I mean, in the longest chain rule, it would be a preferable choice.
+
+[20:25] **Dionysis Zindros**: OK, let's see what happens when we employ the entropy fork choice rule. So now what will happen is that, again, we will have the Genesis block here. And then these three blocks that are produced like that will have the format that looks a little bit like this.
+
+[20:43] **Dionysis Zindros**: So you will have a block that is a little bit fatter, and then you will have another block that's a little bit shorter, and then another block that's a little bit slimmer as well. And then, due to the way that this works is, remember that it counts the number of zeros. It prefers fatter blocks to slimmer blocks. So this block will be the canonical choice.
+
+[21:07] **Dionysis Zindros**: So contrary to the system where each of these choices would be equally good, here there is a conflict resolution manner in which we choose the best block. But that conflict resolution manner is also not arbitrary, but it is the one that chooses the best among those.
+
+[21:25] **Dionysis Zindros**: OK, good. And now this is the one that's going to be extended. And let's say we have a moderately fat block here. OK, so here again, we have some proof of work that is being wasted by the honest parties.
+
+[21:38] **Dionysis Zindros**: Now let's see what the adversary's behavior will look like when we have a similar execution. And let's say that she gets exactly the same fatness of blocks here. So she starts with Genesis, and then she's able to mine this block that was larger, and then put these extra blocks that are a little bit slimmer one next to the other, and then she obtains this moderate block after all.
+
+[22:05] **Dionysis Zindros**: OK, so this one corresponds to this, this one here corresponds to this one, this one corresponds here, and so on, right? So these are the purple blocks that were wasted in the case of the honest execution.
+
+[22:19] **Dionysis Zindros**: OK, but now what happens is that let's look at how much advantage the adversary has and compare these two cases. OK, so during this duration of time one, now the adversary had two out of three extra blocks that helped her get to a longer chain.
+
+[22:46] **Dionysis Zindros**: Whereas here, what happened was, due to the advantage being only the slimmer blocks, I'm discussing the purple part. How much does it participate in the adversarial advantage? Here, because these happen to be slimmer, the adversary has only a one-half advantage, you see? Because the one that won is fatter than the ones that lost.
+
+[23:16] **Dionysis Zindros**: So the honest parties can really make better progress than the adversary is capable of doing here. I mean, the adversary still has a better chain, but the level at which it is better is not as much better as it was in the longest chain.
+
+[23:39] **Dionysis Zindros**: So hopefully this example convinces you that when you're running this thing in fast operating conditions, when sometimes blocks happen to be produced at the same time, here we even have three blocks produced at the same time, whereas in the longest chain rule, what happens is the adversary gets a lot of advantage in chain growth.
+
+[24:02] **Dionysis Zindros**: In the entropic case, what you see is that, yes, the adversary still has advantage in these cases where there's multiple blocks happening simultaneously or almost simultaneously. However, that advantage is more bounded. And that's really the intuition behind this whole thing.
+
+[24:21] **Dionysis Zindros**: For more information, you can take a look at the paper. This is very, very intuitive and high level. The paper includes a lot of math and theory in the analysis. It's actually a very, very interesting mathematical idea that we use to analyze these systems because we have to capture really what is the distribution that the blocks here, the fatness of the blocks here takes.
+
+[24:48] **Dionysis Zindros**: And if you're a little bit versed in probability theory, the fatness of these blocks follows something that resembles the exponential distribution. And this is also similar to NIPoPoWs in that fashion.
+
+[25:04] **Dionysis Zindros**: So if we're saying, OK, how fat a block can be or how much of a super block it is, and here is the probability of this occurring, you can also intuitively see that the block having one extra zero, or two extra zeros, or three extra zeros for the falls exponentially.
+
+[25:24] **Dionysis Zindros**: And in fact, the rate at which this falls is going to be the exponential distribution with an LN2 parameter. And namely, having one extra zero versus having two extra zeros versus having three, it's going to be falling by a factor of two. So the graph is going to look a little bit like that.
+
+[25:46] **Dionysis Zindros**: The difficulty in this analysis, and let me say a few words about that on the mathematical side, is that these blocks, because they're hashes, even though we've placed them in this 0 to 1 interval, there are still discretized objects. There are still 2 to the kappa possibilities of the hash values.
+
+[26:10] **Dionysis Zindros**: So it does not strictly follow this exponential distribution, which is a continuous object. And so a lot of the effort that we did on the mathematical side of things was to connect the discretized world where you have discrete hash values, even though it's in the range 0 to 1, to the mathematical tool of exponential distributions where you have really a continuous object and continuous objects are much more amenable to mathematical analysis.
+
+[26:42] **Dionysis Zindros**: We know a lot about them and they're easier to work with. Their continuity gives us nice smoothness and we have some very nice results about them. For example, if you look at the total, this amount here, the total amount that you get, the total amount of work that you get if you chain n number of blocks, if you treat each block as being a sort of continuous analog to its discrete self, the sum of the works in these blocks follows the gamma distribution, which is a very nice and well-behaved distribution.
+
+[27:22] **Dionysis Zindros**: And another observation is that if I have a chain that's growing like that, and you keep adding to it, you keep adding blocks to it that are distributed following the exponential distribution, the boundaries between those two blocks, if you draw them on the real line, that's going to follow a Poisson process.
+
+[27:44] **Dionysis Zindros**: So these are some very nice kind of results that we can get by connecting the discrete world where our computers are running to an imaginary continuous world where these nice distributions live, such as the exponential distribution, the gamma distribution, and the Poisson stochastic process.
+
+[28:02] **Dionysis Zindros**: So hopefully, that was not too much of a mouthful. But if you're a little bit mathematically inclined, maybe that's a little bit inspiring so that you can take a look at the paper. Yeah, so for the formal analysis, please consult that.
+
+[28:19] **Dionysis Zindros**: By the way, this is very, very new work. It's already on preprint. It's on ePrint. So you can download it. I will include a link with this presentation. But it has not been published at an official conference yet. It's still a work in progress and we're heavily working on expanding our understanding of this protocol as well as the mathematical tools that we have to keep analyzing it.
+
+[28:48] **Dionysis Zindros**: So keep your eyes open for more. And then one last comment before I close this presentation is that I want to say that there are all these proof of work systems. Whether it's Ergo, Bitcoin, Monero, Litecoin, I'm not even sure which ones have transitioned to proof of stake. But there's many proof of work systems out there.
+
+[29:13] **Dionysis Zindros**: And you might say, you know, what are the benefits of this POEM thing? It looks like Bitcoin is here, POEM is there. There is not such a huge difference. Maybe there's like a 50% speed up difference. And one kind of idea that you may have is that there are other constructions that you can use to speed things up. There are all sorts of papers on how can you run proof of work in an efficient fashion quickly.
+
+[29:42] **Dionysis Zindros**: My comment on this is that there's all these combinatorial structures that you can use to speed things up and put work. For example, you can run parallel chains following the people parallel chains of Agellos, Keyas, et al. Or you can say, I have blocks that are containing transactions and then consensus blocks that are containing these transaction blocks. And that way, I can parallelize things. And this is, for example, the Prism idea by David Tsai et al.
+
+[30:11] **Dionysis Zindros**: But one observation with this POEM construction is that this POEM construction is really at the heart of the proof of work because it changes just the fork choice rule. Doesn't really change any of the combinatorial parts of it. So if you want to run a different optimization or speed up algorithm, whether it's Prism or Powell Chains and one of these other algorithms, you can compose POEM together with them.
+
+[30:42] **Dionysis Zindros**: POEM changes just, you know, the scoring algorithm does not give you immediately, you know, additional combinatorial structures on how to do things. It changes this fork choice rule. So this advantage in making proof of work able to run faster while withstanding the same adversarial resilience can be composed with all these other systems to make things faster.
+
+[31:10] **Dionysis Zindros**: So this is quite a good advantage. If we are able to get this 50% faster by following the simple change here, that's quite a bit of an achievement because we can compose it with every other system. It's not like we have to make a choice. We change the fork choice rule to be this better system, and then we also change it to follow a combinatorial structure like power chains or prism.
+
+[31:36] **Dionysis Zindros**: OK, so this system is composable. That's all I'm going to say. I will post a link to the paper on the talk. Thank you very much for listening, and see you at the next Ergoversary.

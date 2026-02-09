@@ -1,0 +1,117 @@
+{
+  "call_date": "2024-07-01",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "00:28",
+      "question": "What is the historical timeline of Ergo's contractual layer development?",
+      "asker": "presentation context",
+      "answer": "The first design and initial interpreter was done in late 2016/early 2017, with presentations at Financial Cryptography 2017. Initial contracts were done at assembler level using Sigma trees, then ErgoScript high-level language appeared in 2018. Ergo Mainnet launched in 2019, followed by only non-breaking development including the 5.0 release with JIT costing in late 2022.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "beginner",
+      "related_terms": [
+        "sigma_trees",
+        "ergoscript",
+        "mainnet",
+        "jit_costing"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "04:53",
+      "question": "Why is everything unified on Ergo unlike other blockchains like Ethereum?",
+      "asker": "presentation context",
+      "answer": "Unlike Ethereum which has separate human-owned accounts and contracts, in Ergo everything is a contract. This is possible because both signature statements and programs are encoded in the same way using Sigma trees - they live under the same tree structure, creating a unified approach.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "sigma_trees",
+        "contracts",
+        "ethereum",
+        "accounts"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "05:50",
+      "question": "What are Sigma protocols and how do they relate to signatures?",
+      "asker": "presentation context",
+      "answer": "Sigma protocols in cryptography provide signatures and pretty flexible signatures. The name 'Sigma trees' comes from these Sigma protocols. They support AND, OR, and threshold signatures that can be freely combined, and importantly they preserve zero knowledge - external observers cannot tell who actually signed in OR and threshold conjunctions.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "sigma_protocols",
+        "zero_knowledge",
+        "threshold_signatures",
+        "cryptography"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "17:04",
+      "question": "How does ErgoScript compilation and execution work with Sigma trees?",
+      "asker": "presentation context",
+      "answer": "When you write a contract in ErgoScript, it's compiled to a tree containing signature statements along with computations in the same syntax tree. On the blockchain, a serialized sigma tree is stored in one of the most compact forms. Execution uses blockchain context at runtime to reduce the tree to just a signature statement, which is then checked against transaction bytes.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "ergoscript",
+        "sigma_trees",
+        "compilation",
+        "execution"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "22:28",
+      "question": "How can Sigma trees be used in merge-mined sidechains?",
+      "asker": "presentation context",
+      "answer": "In merge-mined sidechains, miners know mainchain context, so it's possible to augment sidechain context with mainchain context during contract execution. For example, using mainchain UTXO set commitments allows working with mainchain UTXO set in sidechain contracts without issues. This was demonstrated for trustless pegging in sidechain contracts at ErgoHack VII.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "sidechains",
+        "merge_mining",
+        "utxo",
+        "trustless_pegging"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "26:57",
+      "question": "How can Ergo contracts be enhanced with Layer 2 solutions?",
+      "asker": "presentation context",
+      "answer": "Ergo contracts (sigma trees) can be augmented with layer 2 context. While layer 2 related nodes exist in the sigma tree, it's not spendable on the Ergo blockchain until conditions are met. When layer 2 conditions are satisfied, the layer 2 tree can be reduced to an Ergo sigma tree, allowing the contract to be executed on the Ergo blockchain - similar to time lock protocols.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "layer2",
+        "sigma_trees",
+        "time_locks",
+        "contracts"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "30:08",
+      "question": "Why are Sigma trees a natural model for digital smart cash systems?",
+      "asker": "presentation context",
+      "answer": "For digital coins, Sigma trees allow for cryptography and complex signatures along with contextual conditions. This tree model naturally answers the fundamental question: can a digital coin be spent at the moment with the signatures provided or not? This is much more natural than having virtual machines execute programs for no reason in cash systems.",
+      "responder": "kushti",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "digital_cash",
+        "smart_money",
+        "signatures",
+        "virtual_machine"
+      ]
+    }
+  ]
+}
