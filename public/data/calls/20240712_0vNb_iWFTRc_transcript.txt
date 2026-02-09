@@ -1,0 +1,255 @@
+[00:24] **kushti**: Hey everyone.
+
+[00:26] **qx()**: Good morning.
+
+[00:26] **kushti**: How's it going?
+
+[00:28] **qx()**: Hanging in there, kushti, how about you?
+
+[00:32] **kushti**: I'm good, yeah.
+
+[00:34] **kushti**: So, yeah.
+
+[00:35] **qx()**: How's the weather where you are, kushti?
+
+[00:37] **qx()**: Is it warm?
+
+[00:38] **qx()**: Is it cold?
+
+[00:39] **kushti**: Oh, it's crazy hot, like plus 50, something like that.
+
+[00:43] **qx()**: Let me convert that into freedom units. Hang on.
+
+[00:47] **qx()**: That is 122 Fahrenheit.
+
+[00:50] **qx()**: Wow. That is really hot, kushti. Holy cow.
+
+[00:54] **kushti**: Yes, so I'm mostly working for like two days. But yeah, so this week I'm in Dubai and basically meeting some friends of mine. But also working in the space from VCs and check some possibilities.
+
+[01:18] **qx()**: Are you giving a talk or a presentation, too, as well?
+
+[01:23] **kushti**: Yeah, so I'm not sure about the presentation, but we're actually thinking about having a session, a very informal one, during a small local meetup called Coffee with Crypto.
+
+[01:44] **kushti**: And for this upcoming meetup, this Saturday, we are thinking to talk exclusively about UTXO DeFi, peer-to-peer DeFi. So I've got some folks here excited about that. So maybe we will do an event about that.
+
+[02:07] **kushti**: But the town is mostly empty now. Maybe around Saturday, it would be better because currently also, many folks are joining ECC Brussels. So on Saturday, maybe there will be more people around.
+
+[02:28] **qx()**: Speaking of the UTXO stuff, did you have fun at the spaces with Alephium and Nervos?
+
+[02:38] **kushti**: Yeah, so wrapping up the week before. So I think the Ergoversary was quite good, right? And I'm happy to see, well, unbubbling. So discussing different matters with some communities with similar efforts, such as Nervos. It would be good to talk with more communities from around, such as Bitcoin Cash, some Bitcoiners, even maybe more privacy inclined communities.
+
+[03:28] **qx()**: Well, not just that, right? We had, it was nice to see videos from people kind of even outside our ecosystem for this, like the video, right? The poem video, and blink, right? Those two videos are really cool to watch as typical stuff we see.
+
+[03:48] **kushti**: Blink poem. Yeah. Those made by folks from academia. So Dionysis and Lucas and well also there was a video from Cypher from Nervos on RGB++ isomorphic binding right, all that stuff so yeah also very interesting and well very much applicable to Ergo.
+
+[04:24] **kushti**: And yeah, also very interesting. I actually invited all the folks to join and maybe co-organize the UTXO DeFi Summit. So I'm currently proposing to do that.
+
+[04:42] **qx()**: Are you up for doing more spaces with UTXO groups as well? Bring in, like you said, Bitcoin Cash, bring in Alephium and Nervos again, maybe host a space once a month, bring everybody together, talk about stuff?
+
+[04:56] **kushti**: Yeah, it would be good. Actually, I think space is working quite well. So I'm also proposing to organize community spaces and marketing reports. Right, well, so I spent some time in person, discussing certain matters, explaining some folks how things should be organized around peer-to-peer network, right, because still it seems there is common pattern around, so quite unfortunate in my point of view, right? Just off-loads everything. Find responsible around. Yeah, asking about, I don't know, sometimes even price, like developers or whoever can control price and markets. So yeah, it shouldn't be the case.
+
+[06:00] **qx()**: Do you have a good idea of, do you think you got a good idea of what the community is interested in from that offer you said in the public community spaces as well as on chat where you're like, guys, tell me what you want to see for Ergo in the next five years. You think you got a good litmus of what the community is interested in, the developers, the community developers want to see, at least at the protocol level that you can support and help build?
+
+[06:28] **kushti**: Yeah, so actually, well, there are a lot of things to discuss. So maybe it's not about one space even. It would be good to have regular space. Maybe on your community. Yeah, well, DeFi and Ergo and then UTXO Summit with other chains, the communities.
+
+[06:56] **qx()**: Reckon in person a real live summit where people actually shake hands and touch grass.
+
+[07:03] **kushti**: Oh I actually think that virtual events are better these days because we can have folks from around the globe like Cypher, right? People from China, right?
+
+[07:21] **qx()**: Can remain anonymous as well, right? So you get more participation good point
+
+[07:25] **kushti**: Yeah, you're going to have anonymous folks. Well, especially when it comes to Ergo DeFi rights, where they have different people like Anon Real.
+
+[07:36] **qx()**: Yeah, I've lost track of which Anon is responsible for what thing, kushti. I can't keep track of it.
+
+[07:44] **kushti**: Anon 2020, Anon Real, Anomar. Yeah, so I think actually, and well, it's now quite common, right? So before the COVID pandemic, it was quite an exotic choice still, right? But now I think, well, it's very widespread and very well understood to have online events. Yeah. And so they're working better if we're talking about inclusion. Right, and if we are going to have something jointly with privacy concerned communities, right, so it's definitely working better online.
+
+[08:40] **qx()**: Agreed, agreed. All right, so what's new, kushti? What's new? We had a successful Ergoversary. What have you been working on this week since then?
+
+[08:47] **kushti**: Yeah, so actually a lot of things in parallel. So finishing 6.0. And then I was usually starting to think about the next thing. So going back to work on faster confirmation. So already checked all the papers available and having some talks with people from academia about possibilities here and rechecking papers and ready to get back on the specification and like today so for 6.0 so I'm right now finishing yeah, one pull request, the biggest one probably from the morning and I need to finish a new big integer data type. Yeah, just a small PR, so hopefully this week it will be conceptually ready, let's say, then a lot of work for sure to polish it and to work on activation, activation code testing.
+
+[10:07] **kushti**: compatibility testing for using clients because it's soft work so old clients should stay in the network after the ability that is to be insured and then talks with miners so actually what's up to is resume talks with the mining pools representatives here on what can we do jointly and we will also send them 6.0 specification at some point because it's up to them to vote for it or not.
+
+[10:53] **kushti**: Yeah, I also think that it would be good to involve mining pools and GPU miners, maybe GPU mining KOLs to the spaces. And well, generally, GPU mining KOLs are probably the best KOLs, right? They're not like Swiss folks, all those crazy men point of shoes. Right, so they're technically capable and do understand things and the value to whole work and well they know this stuff usually like how to set mining up and what to do to get maximum performance at least and how they're capable of doing some scripting and understanding of economics right behind mining and so on. So yeah, they're not just blades and sugars. So yeah, I think this is another vector, which is maybe quite missed at the moment, right? Community marketing is targeted around other issues, right? catching up with possibilities here.
+
+[12:28] **qx()**: Yeah, I think it'd be good to host spaces with miners before 6.0 was even thought about pushing. So we probably should, maybe the Sigmanauts mining group can get on that and start hosting some spaces and get some pools involved and get people talking about it.
+
+[12:44] **kushti**: Right. And well, we saw concrete specs coming for faster confirmation. So it would be good to start conceptual work on the next step. So sidechains and how to bring real-world adoption to serve the needs of the real world with technologies which are here. Right, so a lot of things to do in weeks and months. But that's quite exciting also.
+
+[13:36] **qx()**: Very cool. We might have a surprise guest join us in a second, kushti. We'll see if he hops in. Andy, if you're listening and if you're hearing, get ready to rearrange the video if somebody pops in. We'll see. All right, you mind if I go kushti I've got a couple updates
+
+[13:57] **qx()**: Oh, there we go. We've got our guest breaking up the video. Let's see if Andy catches it. There we go He's got it fixed already beautiful. He's a pro. He's a pro.
+
+[14:06] **Joe**: Fantastic Andy So welcome Joe Good to see I had I was running around looking for a laptop cord
+
+[14:19] **qx()**: You're not in your basement. Are you not in my basement? You're not up on the mountain.
+
+[14:24] **Joe**: No, I do adapt, man. Just trying to find a laptop cord, but here we are. I made it.
+
+[14:29] **kushti**: Do you have a coffee machine nearby?
+
+[14:32] **kushti**: I'm good. I'm good. All right.
+
+[14:36] **qx()**: Oh, boy. All right. Let me finish up, Joe. All right. So we've got, well, I won't mention Rosen. I was going to mention something about Rosen. I'll leave that to you.
+
+[14:44] **qx()**: So the Sigmanauts are doing, we just had our vote for kind of breaking out the mining pool to be more self-sustaining. The idea is that while there are Sigmanauts on the mining pool, it doesn't make up the total collective. So the idea was to kind of have the Sigmanauts mining pool adopt the mission statement of the Sigmanauts and what they do and also the ability to support the Sigmanauts moving forward and then kind of act autonomously. And then to create this DAO, we were also going to give 10% of the DAO tokens to the Sigmanauts so that they can also vote and partake in those kind of things. So, in the end, in short, the picture looks like we have a Sigmanauts mining pool, the Sigmanauts mine, they make decisions based on the group as well as the 10% Sigmanauts main group influence, and we also have a responsibility to fund the Sigmanauts based on the profits from the mining pool. So it makes it a little more autonomous, more of a segmented off kind of subgroup, as opposed to the Sigmanauts trying to manage it fully as part of their ecosystem there. So that's an interesting breakout that I think it was Mark the shark's idea, and we'll see how it goes.
+
+[15:55] **qx()**: Next thing that we're going to do is we had a vote pass to buy about five thousand dollars worth of Ergo merchandise and that means hats like Joe's wearing that means the sweatshirts shirts kushti we're bringing back the original original Ergo astronaut on a shirt that we're making so you'll see that at RareEvo I'll get one I'll wear it yeah the Moon Miner.
+
+[16:22] **qx()**: You got it, the Moon Miner. Yeah. So our hats too, our hats are going to be red hats, good old red hats with white writing across the top that says, make mining great again. And it'll have the Ergo logo on the back. So hopefully people will look at it and get ready to attack us because it looks like a Trump hat, but then they'll be like, oh, what do you mean mining? And we'll be like, oh, it's GPU Ergo mining. So it's a good conversation starter if you're not going to get shot first.
+
+[16:51] **qx()**: So that's coming. So the idea too is that we want to not just sell these at RareEvo, but we want to do it throughout the year too and just kind of have a Sigmanauts and Ergo swag store. But we don't want to we thought okay, this is Ergo. Why do we need to go out and make a storefront? So I spoke with Anon Real and he's gonna get back to me in a little bit about how it could possibly work but the idea is that for every hat or shirt or scarf or glove or whatever that we get in stock and inventory and we mint a unique NFT and put it on auction house and then you go and you purchase that NFT. We also mint generic shipping NFTs as well so like shipping to Dubai, shipping to China, shipping to that and that'll be a generic NFT as well for a price. So you buy the NFT of the item you want, you buy the shipping thing that you want and then auction house hopefully will take you to another page because it knows that's what you bought it'll read your wallet and it'll say, okay, you have five things that haven't been shipped yet. You only have four shipping, buy another shipping, or you have enough shipping, put in your address, boom, that gets sent to a Sigmanauts business account. And then we pack it up and ship it to you. So all the swag can be bought on auction house through NFTs with ERGs or whatever auction house supports in buying. So that's our next step, which is we think is really, really cool. We're really excited about doing that and working with Anon Real.
+
+[18:22] **qx()**: And next, lastly, for the Sigmanauts update, last week I told you I was talking to a wallet provider who hooked us up with their fiat onramp and did a little chatting with them this week. Yesterday, actually, they got back to me again. They gave me a price for integration. It's not terrible. They do offer non-KYC for non-KYC supporting countries at a limit of about 700 euro a day for non-KYC, but they also, of course, offer KYC for their fiat on-ramp. It's kind of like a MoonPay kind of thing where it's integrated into the wallet. They don't have US access right now, but they're working on it So I've asked what I've asked them for is a full list of everything that they have access to whether it's KYC or non-KYC as well as what their future roadmap looks like what they're doing I will take that list along with the price of integration request and I'll post that in Sigmanauts. We'll talk about it and then I'll post it publicly so you guys can all see and then if it's something that we like and we think that these guys look like they're gonna get to US access or we want to wait to see how they do then we go from there right now. They do have Canada access. So that's a pretty cool thing but yeah, so I'll keep you guys posted on that. That's all I got guys Joe just in time for your update awesome.
+
+[19:46] **Joe**: So some of you on the chats probably saw the hummingbot pictures that kind of were released yesterday. That's something that we're working on and that's an important component of Rosen.
+
+[19:59] **Joe**: Rosen itself is this transfer protocol that helps prevent the rehypothecation of assets. One nice thing or property of blockchains on-chain itself is you have this idea of assets trading one-to-one. They're backed by something real. But that's not really an assumption that is universally true if you look at the ability for exchanges to potentially add extra assets on their own internal index, right? Because you see funds flowing into this, let's say, black box. You see funds flowing out of the black box. But the actual balance and accounts held within exchanges are on their own internal private ledger, right? It's not the blockchain ledger. It's their own internal ledger and so in theory it is possible for them to have extra assets moving around in their own ledger that's not necessarily correlated one-to-one with the content of their wallet itself as long as they can cover withdraws we can't really tell whether the private ledger and the public ledger actually match.
+
+[21:12] **Joe**: And so that's one of the things that Rosen kind of transparently addresses. But having, let's say collateral in different environments still requires management, right? So there's you know, projects, people, traders out there that are saying, okay, well, if I want to have liquidity in multiple markets, I need the ability to manage that. And so what hummingbot, you know, our goal with that is to create tools, trading strategies and interface to where projects, users, teams can kind of support assets across multiple trading environments, you get into the market making side of crypto, right? Where if you have an asset that's in multiple environments and you have slippage between assets, you have an arbitrage potential. And Rosen itself is built to transfer liquidity into new environments, but having the ability to arbitrage and rebalance is going to be powerful long term for both market efficiency and new environments, and also allowing people and projects to kind of shift the assumptions back in their direction.
+
+[22:30] **Joe**: Now, one cool thing about Hummingbot is it does support liquidity management across multiple decentralized exchanges, but it also has connectors into central exchanges as well. So if I have a project like Ergo, where you have the listing on MEXC, KuCoin, Gate, Spectrum, let's say Splash on Cardano, Uniswap on Ethereum, it would allow me to potentially distribute assets via both the Ergo blockchain into the different exchange wallets and via Rosen into kind of these extraordinary environments, right? Cross-chain and being able to manage that in a single, let's say a single hub is powerful. It's a powerful tool potentially, because let's say that the Uniswap pool that eventually will come is more popular. Well, you may see liquidity that's rotating into that market because there's a premium there, right? And having that ability to kind of counterbalance where demand is ultimately creates more market efficiency long term, which is good for traders and kind of the market side adoption of liquidity.
+
+[23:59] **Joe**: So that's kind of our side goal. It's more like a middleware partnership on top of Rosen. One of the reasons why we chose Hummingbot is because they have a very nice open source base. They have a really great community on YouTube and in kind of their own forums that help users kind of adopt and understand these tools. That's something that we're going to try to build in parallel as like a free service on top of Rosen. You know, I do support open source software, so everything is going to be open source and free. And they do have kind of the hummingbot, let's say structures, the company themselves have two arms, one of which is a foundation that supports, maintains their open source software. And they do actually have a private market making arm. So if a project is listed across different centralized exchanges, there's a potential that they can outsource that to the private arm. And then you have a private market maker that's kind of integrated on top of Rosen, which is pretty cool.
+
+[25:17] **Joe**: pretty decent carry costs relative to the broader market. I actually talked to their team in ETH Denver about this idea, maybe in March. So it's something that we've been kind of pushing the development of, especially as we move towards ETH integration. We'll slowly come to the end of this Rosen light period and start adding more assets and really trying to kind of push the throughput and let's say pressure test the bridge. We will go through a period prior to listing on Ethereum where we start adding some more assets into the bridge itself to try to get some more transactions through there, see how it responds to more traffic, see if there's any let's say upgrades that are needed. And so that will mean that we're going to be supporting some Ergo tokens. I've already been talking to different projects about the capacity to create liquidity because you do need liquidity in multiple environments to really have Rosen be useful as a tool. And then we start kind of long-term discussions in terms of growth strategy and adoption. I'm already also talking to a variety of private partners that potentially you have a lot of funds out there that have their portfolios that they could potentially benefit from having less capex costs, opex costs in terms of market access and liquidity management. And so hopefully we can provide that service and some of that economic value that these funds carry could then flow to the watchers and kind of the people that are running the Rosen infrastructure rather than just third parties.
+
+[27:24] **Joe**: Oops, we lost kushti, huh?
+
+[27:25] **qx()**: No, we're still here. He shut off his video real quick, I think. Let me move over here so you can see me. Oh, there we go.
+
+[27:33] **qx()**: Full incursion you're also yeah, that's awesome.
+
+[27:38] **kushti**: Yeah. I missed that window with application zoom. Yeah, I even forgotten the name of the application using it Yeah, and so on this so I can provide some updates. So just today Gluon tokens were issued and it seems, yeah, they are going to deploy Mainnet contracts. And at the same time, so Dexy Gold LP contracts also in the process of deployment. So LP tokens issued. And yeah, I'm doing class check for Spot. And yeah, deploying the contracts. So yeah, finally, it's that. Both are going to be deployed.
+
+[28:29] **Joe**: It's going to be an interesting month with gold stablecoins, eh?
+
+[28:33] **kushti**: Yeah, and also, yeah, so for the Dexy Gold economy also, right, so finally we will see buybacks. So, also very interesting to see.
+
+[28:49] **qx()**: We'll know it's working when mgPai rolls around in a Lambo in a couple weeks, and we'll know that GOLD buyback contracts working.
+
+[29:02] **kushti**: All right.
+
+[29:06] **qx()**: All right. What else we got? Oh, Joe, you said, there was a, maybe it was a leak, but CW told me I could talk about it. Can you talk a little bit real quickly about what a Rosen Fast is going to look like?
+
+[29:24] **Joe**: So sure. sometimes when you're talking about speed and scaling, you're talking about pre-confirmations, right? I guess is a nice way to put it. So once Rosen itself, let's say as a transfer protocol, has kind of developed enough trust and we say, okay, well, somebody sent funds into the system on one side, right? And we can reasonably assume that once the transfer protocol goes through its process, it'll come out the other side, right? There's an ability to create like a fast swap market around Rosen. You could almost, I wouldn't really call it a layer two because it's just a DeFi product, but it does kind of in some similar fashion where because you have this trust in the protocol itself, you then say, okay, well, funds have come into the wallet and we allow people to kind of create a free market premium where they say, okay, well, if you're sending 10 ERGs through the system, right, and I trust the system, if you pay me 10.X ERG, we can cover the transfer on the other side of the slight premium, right? And so then what would happen is, you, as the user would send your 10 ERGs in and you would say, okay, we want to use Rosen Fast. And once that confirmation hits the wallet, somebody says, okay, well, you know, I'll step in, I'll take a premium and I will speed up the delivery of funds. And so then the 10 ERG itself is kind of moving through this slower transfer protocol that is Rosen. And kushti would say, okay, qx(), I'm going to charge a slight premium. I'm going to release the fund sooner and I'm going to take a small profit for your impatience, basically.
+
+[31:27] **Joe**: So sometimes we see that already in transfers where it's like, okay, well, if you want it today, you're going to pay this rate. And if you want it in three days, then you're going to get a lower rate. So there's an ability there to create a profit incentive for people that want to provide liquidity for faster settlement. And it also kind of opens the idea of saying, okay, well, if there is an arbitrage trade in a different environment and somebody wants to try to take advantage of that speed can become a factor, right? And so instead of trying to make Rosen itself faster, it makes more sense to me to not break the base assumptions and then kind of build a DeFi product where people have more or less clear risk assumptions in terms of what they're stepping in for and the service they're providing and potentially add yield to cover the transaction, let's say, Rosen fast costs.
+
+[32:37] **qx()**: Joe will this be a pooled market as in like if kushti and myself want to provide liquidity through the bridge earlier and get it over there and have a waiting like it's a certain percentage for everybody that's in there and it just takes from the pool and everybody gets a percent kind of thing.
+
+[32:55] **Joe**: That's the simplest, that's the simplest way to structure it initially, right?
+
+[32:59] **qx()**: Okay, longer term. I would be curious to see if you know, you meet with an open market like yeah, it was 2% I do 1.8.
+
+[33:06] **Joe**: Yeah, I think long term, the pooling is the simplest implementation, so that's probably where we'll start, right? There's the least complexity.
+
+[33:22] **kushti**: Yeah, sorry. So implementation wise, it seems like you can just use Spectrum pools, right, or auction house. So I just put my order on auction house and you can just buy from it. Outside the chain, right.
+
+[33:43] **Joe**: Yeah. So that's an interesting path long-term that also solves some of the speed complaints where it'll offer a way for people to move assets cross-chain faster with relatively clear assumptions and a premium.
+
+[34:00] **qx()**: Very cool. Very cool, Joe. All right, let's see, we're 36 minutes in. Should we take a question or two?
+
+[34:06] **kushti**: But yeah, last update. So there was a lot of action around Keystone hardware wallet, right?
+
+[34:16] **qx()**: Yeah, he's interested in us.
+
+[34:18] **kushti**: Yeah. And it seems there will be a call with Lee Sin 10 days from now. So there will be a few Sigmanauts on the call, like me and mgPai. Yeah, let's see.
+
+[34:35] **qx()**: I love mgPai. Any sort of integration, he's like, I'll do it. I'll help. I'll help. Get me in there. It's really nice to see.
+
+[34:43] **kushti**: All right. So let's see what's needed tech wise. But I think probably most of the work is already done because we have code for ledger. So yeah, let's see.
+
+[35:02] **qx()**: Cool. All right, let's see. Let's see what we have for questions we have. Oh, here we go. Here's a Rosen question we can start with. Will Rosen add USDT? The KYC is clear that addresses can be blocked. So no issue there. They say Savonarola Labs.
+
+[35:21] **Joe**: Well, I think that if we do experiment with USDT, the first thing we should do is send a transaction through Tornado Cash and see what happens. I mean, that's honest. You can say, OK, well, this bridge is supporting USDT. And it's like, well, what would happen if somebody just decided, hey, I'm going to send some money through Tornado Cash into this bridge? What's the response going to be? Because that's not a very high bar for a attack threshold. And I know everyone's like, oh, but we love USDT, and it would be so great to support it. And there's definitely benefits to having that liquidity potentially available. But being that it's a non-bearer asset, you have attack vectors that are very real and potentially dangerous. And so then it's like, okay, well, what kind of beast are we inheriting there? People love to look at the positive and not necessarily the red flags. And that's something that for me, if I wanted to have Rosen support USDT, that's the first thing I would try, is let's send it through Tornado Cash or send it in a way that would potentially create an issue and sit back and see what happens.
+
+[36:44] **Joe**: Now, I know that that's probably a different approach in marketing than most bridges would take. But if we're going to try to build a resilient system, we should probably have some idea what the assumptions of that are. So I would propose that if we're going to try to support it, why don't we send some illicit transactions and see what happens? Because that's on chain in Ethereum. Everybody could do that to every bridge.
+
+[37:16] **qx()**: That's true. I love your method of what does this button do Joe? That's a great method I wonder what this wonder wonder what this bolt does at the bottom of the yeah.
+
+[37:29] **Joe**: You can say like okay. Well this system supports USDT bridging right has anybody tried that what happens? It's actually not a very high bar for an attack threshold. I remember when they first arrested the Tornado Cash devs, there were some people that were spamming celebrities. Yeah, just taint everybody, right? If we're all dirty, what can you do? I'm not sure where that's at, but that's definitely the approach I would take, where at least then we have some idea what would happen.
+
+[38:14] **qx()**: Yeah, cool.
+
+[38:17] **kushti**: All right. And sorry, what's about that stable coin on Cardano Mehen?
+
+[38:24] **Joe**: So that's, that's a little bit more interesting. So because you don't have some global contracts that you're always interacting with and UTXO, you have a little bit different assumptions in terms of like how legal risk is actually approached because that contract's not being touched every time there's a transfer. So the this team on Cardano, which was Mehen and now they changed it to something else, which I don't know. I'm bad with the name changes. I still call them ErgoDEX. It's not an Ergo. So I'll catch up.
+
+[38:59] **qx()**: Don't worry. It's coming back around with ErgoDEX.
+
+[39:04] **Joe**: So I was just early. But anyway, so they've set up this system that actually has better assumptions than, let's say, account-based stablecoins just based on how contracts function. So because every transaction is not touching that global contract, it's more of like a native peer-to-peer asset, the friction point is based on minting and redemption. So like once you move through your bank and you move into their system, you go through a regulatory process. And when you move money out of the system, you again go through like potential checks. But once you're on chain, because of how contracts are structured, you have less legal friction because it's not touching that central contract every time a transaction happens. Which to me is fascinating. It's a better assumption. So I had reached out to the team and watched the development of that just because it's one of the first UTXO-based fiat-pegged stablecoins. And it's a team that I've met at various events. And so I reached out and said, hey, if you want to build on Ergo, I'll sign an NDA, give us the back end of what your implementation looks like on Cardano, and we'll build it. And that way, you get access to a new chain, new market, potentially can scale your business. We would get new product that I think is better than the USDT, which they've really been audited yet anyway. I don't know what the state of that is. But it's something long term. I would like to see that direct Fiat transfer onto Ergo. Now, I think it is state dependent, depending on where they have their license. And I'm not tracking that enough to where I can speak with any authority or real knowledge other than I saw a picture on their website a while ago. But something with better assumptions for people on chain and the ability to kind of sidestep the central exchange environment, which that's generally their primary purpose is to act as like intermediary infrastructure between the blockchain world and kind of the existing bank financial system. So having the ability to like rotate that towards the user and cut them out, I'm a big fan of. So I'm excited to see where that goes. It would be really nice to see stable pairs show up. That might be a nice use case in terms of driving liquidity.
+
+[42:00] **Joe**: So, USDT, let's send something through Tornado Cash and see what happens. Let's build it, try to break it. That's the proper way to approach these type of things instead of just say, hey, we support USDT and it's really great. And then people adopt it way too quickly, something breaks and we say, oh shit, what happened?
+
+[42:25] **qx()**: Sounds like a plan Joe.
+
+[42:28] **Joe**: Yeah. Probably I shouldn't be the one sending it through Tornado Cash. Get someone offshore to do it, right?
+
+[42:34] **qx()**: Yeah, yeah, exactly. I was gonna say that.
+
+[42:39] **qx()**: All right, we got a question for kushti from Luke. To what degree are cryptocurrencies studied by academics outside of cryptography and computing, i.e. is there anyone studying cryptocurrencies at an academic level that aren't necessarily in cryptography and computing or mathematics, I guess?
+
+[42:58] **kushti**: Yeah, so there are a lot of studies in regards with different game theoretic problems, right? economics, cryptocurrencies, and so on. So yeah, well, a lot of possible directions here. So yeah, there are actually a lot of papers about everything now on the preprint servers, such as arXiv. So you can just take a look what's published to get an idea. But yeah, a lot of different fields. people from different fields of ideas converging in cryptocurrencies research.
+
+[43:58] **qx()**: And I know this probably doesn't count to what they're saying, but a while back, I spoke of a position that we are hiring, and that person is hiring now at my university. And they've been here two weeks now, or two and a half weeks. And today, after they've taken some time to get caught up on everything, but today we're going to dive into creating our basic simple wallet linking app. So essentially it'll federate to your wallet. So because we're going to ask students to identify themselves by their wallet, essentially, so they can participate in as well as billing and other check in services. So the app that his first task for that today actually is going to be to create a portal where the student comes in, they log in with their federated Cornell user ID and they connect their wallet that they created and then we have a bind in the back end that this federated ID is linked to this wallet and we can go from there and then just manage and have them log in with their wallets after that. That'll be the first app we're making this week, and we'll see how that goes. He's not familiar with Ergo, but he will be soon enough. That's for sure.
+
+[45:13] **kushti**: All right. So yeah, well, actually a lot of papers about public infrastructure on blockchains. Then like three or four years ago, I was in a program committee for some workshop and well like half of papers were about well using blockchain for supply chain or energy trades like trading energy and so on IoT and well a lot of just I don't know papers were for engineering. It's blockchain.
+
+[46:05] **qx()**: So that was a question I always had, guys. And maybe you two are good to answer this. You know, Denmark and other countries, they have during non-peak power, these power station times, they'll have like a small motor brings a weight up to the top of the tower. So it stores the energy in that potential energy. and then it drops the weight to generate electricity during the day. So on the off-peak cycles, you're storing your energy. Why aren't miners and cryptocurrency chains approaching large power plants and saying, look, you could mine directly to a stablecoin, perhaps, and just do that in your off time and then sell your energy that way as well? To the to the market that I feel like that should that's like a that's got to be cheaper to buy mining rigs and to build a 200 foot pole in the air that drops a 500 ton weight with chains and pulling up with a motor or spins this thing on a magnet to keep the potential energy. I mean, it's gotta be a viable solution. I know
+
+[47:08] **kushti**: Yeah, and you can do the same of the grid, right? So if you have flare gas, for example, around some oil fields, you don't have a grid, right? Well, it's better than to mine and then buy electricity in some other place, right? So yeah, well, actually, cryptocurrencies are providing good possibilities in the arbitrage, let's say, energy market. So you can do mining off the grid and then buy electricity, mined cryptocurrency. You don't need electricity.
+
+[48:03] **Joe**: Most miners are chasing that. The question is just scale. I mean, I was reading an article the other day where it's like there's some rogue miners out there that are going to Airbnb's and setting up mining rigs and whatever they can do to get free electricity, right? They go into the hotel and every outlet in their room, they plug it in there. like it in their rigs and trying to say, okay, well you get, it's actually funny way, way back in the day, what was it like 2020 when there was a lot of college students that were like, Hey, dorm electricity is free. And so they're mining away. There's always funny stories in a way out there. Like I remember there was one, a guy at an airport in Italy that rerouted some power, plugged in a bunch of ASICs in the ceiling somewhere, had his own little private Bitcoin farm inside the airport. So there's always that demand for cheap power, right? That's something that proof of work actively seeks is kind of the lowest input or production cost and being that powers like the main friction point. I think we're going to continually see that. It makes sense. We can look at like Texas, and they're doing some really innovative things in terms of load balancing. Basically, they've got this cheap power rating in the summer when infrastructure is stressed because everybody's turning on their air conditioning, et cetera. They have the ability to turn off their input at the press of a button, and there's actually not a lot of large and industrial size users of power that have the ability to just be like, Hey, everybody shut down the plant. Right. Because usually that is a complex process and it takes a certain friction in order to properly shut down complex systems and then a certain friction to restart them, let alone the manpower. But when you're talking just mining, it can be done relatively quickly. So having that scale. In terms of load balancing, I think it's something that we'll continue to see because it benefits the energy producers because they now have more stable demand for their market as well as this flexibility in terms of balancing loads when peak capacity is approached. So I don't think that's going to stop.
+
+[50:36] **Joe**: Now, the question is like in my mind, if I like game theory this out over the next decade, you can look at the current, let's say estimates in terms of like AI computing in terms of the power draw that it will require. We're starting to see like, Primarily, financial analysts and others saying, if this technology scales, how much power do we need to bring online? Let alone, we have this electric car phenomenon in terms of the adoption of that. We need to be able to scale our infrastructure to potentially balance much greater loads. So I do think that the things that have the ability to capture arbitrage and load balance, energy and computational demand long term, are going to be important. And I think that for the pure power side, probably ASIC mining makes a lot of sense. But when you get into, let's say, computational density and these new, let's call them newer types of data centers that will probably pop up in the next decade, let alone the waste that they use could potentially be given a second life with proof of work. I do think that having some ability to load balance servers itself is interesting when it comes to mining. So I'm excited for proof of work. Just in terms of the incentive to take advantage of the input costs, it scales well in parallel with both needing more energy capacity and needing more computational capacity.
+
+[52:41] **qx()**: All right. All right. Let's see what else we have. Oh, here's one Joe. Sunday's the next not official Ergo poker tournament. You guys going to join?
+
+[52:55] **Joe**: I'd wanted to, but it's like, it's a weird time for me.
+
+[52:59] **kushti**: So actually I joined the tournament on Sunday, I believe, and tried to do it yesterday, but for some reason the server didn't work. Maybe, yeah, it's a result.
+
+[53:26] **qx()**: I think last week was a Cyberverse themed, the Cyberverse buy-in. So it's really fun. And they had 19 people, I think, join last Sunday. So that must split, that splits across probably two and a half tables. I would say like eight or nine in each table. So it was fun. I've been to a couple and it's a lot of fun. They do a Discord audio chat as well for people who want to join in audibly. So yeah.
+
+[53:51] **kushti**: Yeah, I've tried. It was about a lot of fun. A lot of bluff over the table.
+
+[54:00] **Joe**: saying the meme coin traders that High risk tolerance.
+
+[54:04] **qx()**: It's fun. It's funny that you can tell the risk the risk tolerance goes up as the person nears the time where they have to take off so if somebody has to leave it like 2:45 and they started at 2 but like 2:30 you can see him just bluffing and betting and you're like, oh they got to go soon Yeah, I was the same accident
+
+[54:26] **qx()**: kushti's like, I gotta go all in on an ace.
+
+[54:33] **kushti**: Yeah, that was kind of, yeah. So I went all in with just two players. So yeah, not that much for going all in. I didn't have much time.
+
+[54:46] **Joe**: Yeah, it keeps hitting me in the afternoon where I've got stuff going on, driving or whatever. So I haven't been able to show up yet. But one of these days,
+
+[54:55] **qx()**: One of these days, Joe. All right. We got another one for Joe here. Speaking of Rosen, would you welcome VC projects onto the bridge to provide liquidity for the new projects? Yeah.
+
+[55:06] **Joe**: Yeah. Well, no, it's something to talk to. It's something that, yeah, I actively do talk about, but welcome, it's one of those things that it breaks down to terms. Right? You have to know who you're getting in bed with, especially when it comes to VCs. I think that there are some that are more interested in long-term growth adoption and creating success. And then there are a lot that are like, okay, well, what's the exit schedule? What's my premium? to where the incentive alignment isn't there. Now, one thing funds could potentially really help bootstrap Rosen with is actually using the infrastructure. Let's say that I have a large distributed portfolio of assets. I could use Rosen to distribute them across markets, help build liquidity, and there's potentially a nice alignment there. But just to say everyone is welcome, I don't really operate there. If you're going to create partners, you need to know who you're getting in bed with and what their intentions are. That's my opinion.
+
+[56:26] **qx()**: Nice, Joe. Very nice. All right, let's see. We got a question for me real quick. what are the cost assessments for the student staff services risk conventional existing solutions as costs actually a benefit to, it's not much of a difference, but that's not the important thing to me. The important thing to me is that. we're presenting the students with one immutable source of governance. So no matter what happens, out of our hands, out of administration's hand, these students can make decisions that hopefully are enacted and effective on chain without our influence and without our tweaking or saying, yeah, we don't like that kind of thing. That's the risk that's involved, but that nothing else can do that. And that's what I'm excited about. And the second thing too is this stuff is also, the stuff we're going to do is on chain. So that takes administration out of the picture when it comes to students managing their own funds. So students, let's say we have tokens for our print center that are credits, okay? And let's say it's during the summer and we shut our services down. Now in a typical scenario, students would have no access to anything, right? But in the on-chain scenario, students graduating can now swap their print credit tokens to incoming class members or sell them to them for a reduced fee if they have extras. So this whole kind of stuff can happen completely outside of our control, self-managed by the students and with that self-custody. And students can also build on top of that. They can build swaps or other services to do what they want to. That's the main goal that I'm going for here. I don't think cost is, I think cost is negligible and most of the time what I find is these pre-packaged things don't really fit our bill. Where at least the school I'm in, the architecture and planning school is unique enough to where almost any off-the-shelf product that we try to get is we're trying to cram something, we're trying to shoehorn it in, shoehorn ourselves into it. So these kind of solutions that we build ourselves, we might as well build in something that can be immutable on chain and encourage self-governance of the students for that matter. So that's that reason.
+
+[58:42] **qx()**: Let's see, what else do we have? We have, oh, I don't know if CannonQ's talking about SigmaUSD went to 117 per token. Did that happen at the bank, or is he talking about Spectrum? Because that's two different things.
+
+[58:57] **kushti**: Yes, Spectrum. So in the bank, if it's mintable, it's always one dollar.
+
+[59:03] **qx()**: Yeah, on Spectrum, that's just liquidity pool slippage.
+
+[59:07] **kushti**: Yeah, in Spectrum, it could be above $1 because of major constants in the protocol, such as 400%, right? So when it's not mintable in the bank, there is no possibility sometimes to mint more. And so if current holders are not doing redemption, then yeah, it could be above $1. That's why, actually, mgPai removed all the magic constants in the new protocol such as Gluon right so initially he tried to do this extended Djed right I believe yeah I've actually forgotten maybe there are some magic constants there as well but yeah, there is some optimal reserve ratio, right? The protocol is trying to find its equilibrium. But yeah, in Gluon there are no magic constants, right? So you are just launching some reserve ratio, but then it's up to markets to shift it.
+
+[60:25] **Joe**: You just need to pay shifting Yeah, it's it's I wouldn't necessarily call it a depeg because it didn't come from the contract itself I guess I don't know you you see that a lot with like FX exchanges right where you have like the public price and then you also have kind of private markets around that right to where you may say okay well in this jurisdiction the Argentinian peso to the dollar is pegged at this rate and it is redeemable at that rate but then you also have like private markets that may have different pricing. So I'm not sure if that's a market inefficiency issue. That may be a better way to call it, where if you have more liquidity and more actors, then that type of arbitrage potential will more quickly be settled versus like a net depeg. But yeah, we see that in currency markets anyway, where you get into private exchange, you've got private dealers that are always having different rates. So I would say it's like Spectrum here just represents one particular market and it's subject to the amount of liquidity and demand. So if it makes sense for somebody to buy it at that reference price, they will.
+
+[61:57] **kushti**: Yeah, so with increased liquidity, there will be more liquidity providers while profiting from increased price. So yeah, that's just kind of a representation of low liquidity at the moment. And actually, it's quite surprising me that people are not printing dollars when prices are going up. So for some reason, well, the people are doing quite opposite things, so going into reserves when the prices are going up. But logically, well, to hedge the risks, well, they should need more dollars on the way, right?
+
+[62:51] **qx()**: Well guys, it's 10:05 on my time. That's five minutes after the hour. I say we wrap it up. Anything you guys want to close with?
+
+[63:01] **kushti**: Yeah, so a lot of things going on and stay tuned so we will have most places hopefully in coming weeks and see you the next time.
+
+[63:13] **Joe**: Yeah, it looks like the next poker game every Wednesday 7 p.m. UTC, Saturday at 6 p.m. UTC.
+
+[63:20] **qx()**: Sunday.
+
+[63:21] **Joe**: Oh, Sunday. Sorry, I woke up. I'm glad I found my cord and was able to make it My great surprise visit Joe.
+
+[63:31] **qx()**: Yeah You still got a whole day ahead of you it's only 8 a.m. there Wow Thanks so much for joining everybody have a great week have a good one bye

@@ -1,0 +1,123 @@
+{
+  "call_date": "2024-07-03",
+  "call_title": "Gluon Gold on Ergo | Bruno Woltzenlogel Paleo | Ergoversary Summt 2024",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "06:01",
+      "decision": "Set mainnet parameters including 1 gram gold peg, ERG backing, 14-day volume period, fusion ratio of 0.66",
+      "speaker": "Bruno",
+      "context": "Preparing for mainnet launch",
+      "topic": "tokenomics",
+      "significance": "major",
+      "quote": "So for the mainnet, these are the parameters that we expect. So the peg will be to one gram of gold. The backing asset will be ERG, of course. The volume period will be 14 days."
+    },
+    {
+      "id": 2,
+      "timestamp": "08:00",
+      "decision": "Set oracle fee at 0.1% and UI fee between 0% or 0.4%",
+      "speaker": "Bruno",
+      "context": "Incentivizing oracle operators and allowing UI customization",
+      "topic": "tokenomics",
+      "significance": "minor",
+      "quote": "Then we have an Oracle fee of 0.1% to incentivize the good Oracle operators... Then there may also be a UI fee that may be set to either 0% or 0.4%."
+    },
+    {
+      "id": 3,
+      "timestamp": "09:13",
+      "decision": "Set treasury fee structure: initial 0.5%, final 0%, linear decay until 10 million ERG accumulated",
+      "speaker": "Bruno",
+      "context": "Creating sustainable treasury funding model",
+      "topic": "tokenomics",
+      "significance": "major",
+      "quote": "There's an initial treasury fee of 0.5% and a final treasury fee of 0%. And the treasury fee decay is linear."
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "05:38",
+      "commitment": "Launch on mainnet within a few weeks",
+      "owner": "Bruno/team",
+      "timeline": "within a few weeks",
+      "topic": "development",
+      "quote": "So the launch is expected within a few weeks, hopefully."
+    },
+    {
+      "id": 2,
+      "timestamp": "12:10",
+      "commitment": "Implement SDK to interact with Gluon contract without backend",
+      "owner": "Anon Real",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "So another thing that we're going to do next is to implement an SDK to make it easy to interact with the Gluon contract without having to rely on a backend. So this is going to be done by Anon Real."
+    },
+    {
+      "id": 3,
+      "timestamp": "12:47",
+      "commitment": "Execute massive marketing campaign with 200+ PRs in top tier media after mainnet launch",
+      "owner": "Bruno/team with Angie guidance",
+      "timeline": "after mainnet launch",
+      "topic": "marketing",
+      "quote": "Another thing that we would like to do is a marketing campaign. And in fact, a massive marketing campaign with more than 200 PRs in top tier media."
+    },
+    {
+      "id": 4,
+      "timestamp": "13:55",
+      "commitment": "Use Rosen Bridge to bridge GAO and GAOC to Cardano and implement derived operations",
+      "owner": "Bruno/team",
+      "timeline": "unspecified",
+      "topic": "technical",
+      "quote": "Other future activities that we have in mind include using the Rosen Bridge to bridge GAO and GAOC to Cardano and implement derived operations"
+    }
+  ],
+  "open_questions": [],
+  "reversals_or_updates": [
+    {
+      "id": 1,
+      "timestamp": "05:07",
+      "previous": "Previous bug in volume calculation",
+      "update": "Fixed bug related to using wrong price in volume calculation for transmutation operations",
+      "reason": "Bug discovered during development",
+      "speaker": "Bruno",
+      "topic": "technical"
+    }
+  ],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "03:33",
+      "fact": "Gluon.gold has been live on Ergo's testnet for three months",
+      "speaker": "Bruno",
+      "topic": "development"
+    },
+    {
+      "id": 2,
+      "timestamp": "04:15",
+      "fact": "Logo design competition won by Lama Del Rey, produced three logos for Gluon protocol, GAO, and GALSI",
+      "speaker": "Bruno",
+      "topic": "design"
+    },
+    {
+      "id": 3,
+      "timestamp": "07:29",
+      "fact": "Fusion ratio Q star set to 0.66, meaning minimum reserve ratio of 1.5 and max 66% of reserve allocated to GAO",
+      "speaker": "Bruno",
+      "topic": "tokenomics"
+    },
+    {
+      "id": 4,
+      "timestamp": "10:58",
+      "fact": "Fusion and fission fees set to 1% in testnet, transmutation fee is variable starting at 1% with 50% slope",
+      "speaker": "Bruno",
+      "topic": "tokenomics"
+    },
+    {
+      "id": 5,
+      "timestamp": "12:10",
+      "fact": "Ergo Raffle successfully funded the SDK development",
+      "speaker": "Bruno",
+      "topic": "funding"
+    }
+  ]
+}

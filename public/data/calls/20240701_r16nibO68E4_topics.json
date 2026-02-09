@@ -1,0 +1,127 @@
+{
+  "call_date": "2024-07-01",
+  "call_title": "A Better Proof of Work Fork Choice Rule | Dionysis Zindros | Ergoversary Summit 2024",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Introduction to POEM Paper and Research",
+      "category": "technical",
+      "start_time": "00:14",
+      "end_time": "01:18",
+      "primary_speaker": "Dionysis Zindros",
+      "summary": "Dionysis introduces the POEM (Proofs of Entropy Minima) paper co-authored with researchers from multiple institutions. The paper presents a new proof-of-work protocol that improves upon existing systems like Bitcoin and Ergo.",
+      "key_terms": [
+        "POEM",
+        "proofs of entropy minima",
+        "proof of work",
+        "fork choice rule"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Bitcoin's Proof of Work Inequality Explained",
+      "category": "technical",
+      "start_time": "01:18",
+      "end_time": "05:17",
+      "primary_speaker": "Dionysis Zindros",
+      "summary": "Detailed explanation of how Bitcoin's proof-of-work system works, including the hash function inequality, target difficulty, and how blocks are validated. Covers the relationship between mining power, target adjustment, and difficulty.",
+      "key_terms": [
+        "hash function",
+        "SHA-256",
+        "target difficulty",
+        "block validation",
+        "mining target",
+        "difficulty adjustment"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Fork Choice Rules and Chain Scoring",
+      "category": "technical",
+      "start_time": "05:17",
+      "end_time": "09:27",
+      "primary_speaker": "Dionysis Zindros",
+      "summary": "Explains how blockchain networks handle forks and choose the canonical chain using scoring functions. Describes the heaviest chain rule and longest chain rule used in Bitcoin and Ergo, assuming constant difficulty for analysis simplicity.",
+      "key_terms": [
+        "fork choice rule",
+        "canonical chain",
+        "heaviest chain rule",
+        "longest chain rule",
+        "chain scoring",
+        "block scoring"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "POEM's Entropic Scoring Method",
+      "category": "technical",
+      "start_time": "09:27",
+      "end_time": "16:18",
+      "primary_speaker": "Dionysis Zindros",
+      "summary": "Introduces POEM's core innovation: scoring blocks based on their actual hash values rather than nominal difficulty. Uses logarithmic scoring to count leading zeros, creating a continuous analog to NIPoPoWs superblocks where blocks with more zeros contribute more to chain weight.",
+      "key_terms": [
+        "entropic scoring",
+        "actual hash values",
+        "logarithmic scoring",
+        "leading zeros",
+        "NIPoPoWs",
+        "superblocks",
+        "continuous scoring"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Longest Chain vs Entropic Rule Comparison",
+      "category": "technical",
+      "start_time": "16:18",
+      "end_time": "24:21",
+      "primary_speaker": "Dionysis Zindros",
+      "summary": "Demonstrates through examples how POEM's entropic rule provides better security against adversaries compared to longest chain rule. Shows that when honest miners produce simultaneous blocks, the entropic rule reduces adversarial advantage by preferring blocks with better hash values.",
+      "key_terms": [
+        "entropic rule",
+        "adversarial advantage",
+        "simultaneous blocks",
+        "chain growth",
+        "honest miners",
+        "network delay",
+        "wasted effort"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "Mathematical Framework and Probability Theory",
+      "category": "technical",
+      "start_time": "24:21",
+      "end_time": "28:19",
+      "primary_speaker": "Dionysis Zindros",
+      "summary": "Discusses the mathematical foundations of POEM analysis, including exponential distribution of block 'fatness', gamma distribution for chain work, and Poisson processes. Explains the challenge of connecting discrete hash values to continuous mathematical tools for analysis.",
+      "key_terms": [
+        "exponential distribution",
+        "gamma distribution",
+        "Poisson process",
+        "probability theory",
+        "discrete hash values",
+        "continuous analysis",
+        "mathematical modeling"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "POEM Composability and Future Applications",
+      "category": "technical",
+      "start_time": "28:19",
+      "end_time": "31:36",
+      "primary_speaker": "Dionysis Zindros",
+      "summary": "Explains POEM's key advantage of composability with other proof-of-work optimizations like Prism and parallel chains. Since POEM only changes the fork choice rule, it can be combined with other structural improvements to achieve cumulative performance gains while maintaining security.",
+      "key_terms": [
+        "composability",
+        "parallel chains",
+        "Prism protocol",
+        "combinatorial structures",
+        "fork choice optimization",
+        "proof of work improvements",
+        "system composition"
+      ]
+    }
+  ]
+}

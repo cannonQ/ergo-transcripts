@@ -1,0 +1,135 @@
+{
+  "call_date": "2024-07-03",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:07",
+      "question": "What does 'native way' mean for Bitcoin scalability solutions?",
+      "asker": "Implicit from presentation",
+      "answer": "When we call it native, it means we use the native features of Bitcoin itself, which are PoW and UTXO. This is totally different from what the Ethereum ecosystem does with account model and PoS. Only solutions that make full advantage of these two features can be called a native way.",
+      "responder": "Cipher",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "PoW",
+        "UTXO",
+        "Bitcoin",
+        "scalability"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "02:39",
+      "question": "What are the four main directions for Bitcoin scalability solutions?",
+      "asker": "Implicit from presentation",
+      "answer": "The four main directions are: 1) Sidechains (multisig bridge plus EVM compatible layer), 2) Rollups for Bitcoin using BitVM, 3) Native solutions like Lightning Network channels, and 4) Client-side validation protocols like RGB, Taproot Assets, and RGB++.",
+      "responder": "Cipher",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "sidechains",
+        "rollups",
+        "BitVM",
+        "Lightning Network",
+        "RGB++"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "03:44",
+      "question": "Why can't BitVM rollups be ready in the current Bitcoin cycle?",
+      "asker": "Implicit from presentation",
+      "answer": "BitVM is a very sophisticated technology that's difficult to implement. Even with OP_CAT support it would be easier but still very difficult. People in this field believe that BitVM cannot finish development in this Bitcoin cycle, so rollup solutions may only be available in the next bull market in four years.",
+      "responder": "Cipher",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "BitVM",
+        "rollups",
+        "OP_CAT",
+        "Bitcoin development"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "08:25",
+      "question": "How does RGB++ attach extra functionality to Bitcoin UTXOs?",
+      "asker": "Implicit from presentation",
+      "answer": "The idea is simple - we attach extra data and program logic to the original Bitcoin UTXO. One Bitcoin UTXO is linked with one off-chain data cell to create a complete UTXO. When we spend the original UTXO, we together spend the off-chain UTXO with script constraints, allowing transfer of extra assets and execution of smart contracts.",
+      "responder": "Cipher",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "RGB++",
+        "UTXO",
+        "client-side validation",
+        "smart contracts"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "10:03",
+      "question": "What's the difference between RGB and RGB++ in terms of off-chain validation?",
+      "asker": "Implicit from presentation",
+      "answer": "In the original RGB protocol, the off-chain validation runs on the user's client. However, in RGB++ protocol, this off-chain validation runs on the CKB chain. But it's always optional for users - if you don't trust CKB, you can download the transaction history and verify it yourself.",
+      "responder": "Cipher",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "RGB",
+        "RGB++",
+        "CKB",
+        "client-side validation"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "11:18",
+      "question": "How does isomorphic binding work between Bitcoin and CKB transactions?",
+      "asker": "Implicit from presentation",
+      "answer": "The Bitcoin transaction represents asset ownership through UTXOs, while the commitment is encoded in the OP_RETURN field as a hash of the CKB transaction. The CKB transaction contains the actual rich state and smart contract logic. A Bitcoin light client on CKB acts as proof verifier to ensure the transaction is correctly encoded in the Bitcoin commitment.",
+      "responder": "Cipher",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "isomorphic binding",
+        "OP_RETURN",
+        "CKB",
+        "light client"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "14:10",
+      "question": "How does cross-chain leap work without bridges?",
+      "asker": "Implicit from presentation",
+      "answer": "Cross-chain leap transfers ownership from one chain's UTXO to another without bridges. For example, transferring from Bitcoin UTXO to Litecoin UTXO - the assets remain on CKB, only the ownership binding changes. Verification is done by tracing transaction history with proof of UTXO ownership across chains back to the original Bitcoin chain.",
+      "responder": "Cipher",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "cross-chain",
+        "leap",
+        "bridges",
+        "UTXO",
+        "ownership"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "17:17",
+      "question": "What are the security levels for different components of RGB++?",
+      "asker": "Implicit from presentation",
+      "answer": "The RGB++ Layer 1 security is exactly the same as Bitcoin itself because it's secured by Bitcoin PoW. Layer 2 security is similar to OP rollup with a challenging period - during the challenging period there's a security cap similar to deposits, but after the challenging period the security improves significantly.",
+      "responder": "Cipher",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "security",
+        "PoW",
+        "challenging period",
+        "Layer 2"
+      ]
+    }
+  ]
+}

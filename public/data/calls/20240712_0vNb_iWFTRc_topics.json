@@ -1,0 +1,286 @@
+{
+  "call_date": "2024-07-12",
+  "call_title": "Weekly Update & AMA - July 11th 2024",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Dubai Meetings and UTXO DeFi Plans",
+      "category": "ecosystem",
+      "start_time": "00:54",
+      "end_time": "04:42",
+      "primary_speaker": "kushti",
+      "summary": "Kushti reports from Dubai where he's meeting VCs and planning a UTXO DeFi session at Coffee with Crypto meetup. He discusses the successful Ergoversary event and collaboration with other UTXO chains like Nervos and Alephium, proposing a joint UTXO DeFi Summit.",
+      "key_terms": [
+        "Dubai",
+        "UTXO DeFi",
+        "Coffee with Crypto",
+        "Ergoversary",
+        "Nervos",
+        "Alephium",
+        "UTXO Summit"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Community Spaces and Mining Pool Engagement",
+      "category": "community",
+      "start_time": "04:42",
+      "end_time": "08:40",
+      "primary_speaker": "kushti",
+      "summary": "Discussion about organizing regular community spaces with other UTXO chains and engaging GPU mining KOLs who are technically capable and understand proof-of-work economics. Kushti emphasizes the value of virtual events for global inclusion and anonymity.",
+      "key_terms": [
+        "community spaces",
+        "GPU mining",
+        "KOLs",
+        "proof-of-work",
+        "mining pools",
+        "virtual events",
+        "anonymity"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Ergo 6.0 Development and Mining Pool Coordination",
+      "category": "technical",
+      "start_time": "08:47",
+      "end_time": "12:28",
+      "primary_speaker": "kushti",
+      "summary": "Kushti provides update on finalizing Ergo 6.0 with new big integer data type and soft fork compatibility testing. He's resuming talks with mining pool representatives about the upgrade and emphasizes the need for miner approval through voting.",
+      "key_terms": [
+        "Ergo 6.0",
+        "big integer",
+        "soft fork",
+        "mining pools",
+        "compatibility testing",
+        "miner voting",
+        "activation"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Faster Confirmation Research and Sidechains",
+      "category": "technical",
+      "start_time": "08:47",
+      "end_time": "13:36",
+      "primary_speaker": "kushti",
+      "summary": "After Ergo 6.0 completion, kushti plans to return to faster confirmation research, reviewing academic papers and working on specifications. He also mentions conceptual work on sidechains for real-world adoption.",
+      "key_terms": [
+        "faster confirmation",
+        "academic papers",
+        "specifications",
+        "sidechains",
+        "real-world adoption"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "title": "Sigmanauts Mining Pool DAO Restructuring",
+      "category": "governance",
+      "start_time": "14:36",
+      "end_time": "15:55",
+      "primary_speaker": "qx()",
+      "summary": "The Sigmanauts voted to restructure their mining pool into an autonomous DAO while maintaining 10% voting influence for the main Sigmanauts group. The mining pool will fund the Sigmanauts organization based on profits.",
+      "key_terms": [
+        "Sigmanauts",
+        "mining pool",
+        "DAO",
+        "autonomous",
+        "voting influence",
+        "funding structure"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "title": "NFT-Based Merchandise Store on Auction House",
+      "category": "nft",
+      "start_time": "15:55",
+      "end_time": "18:22",
+      "primary_speaker": "qx()",
+      "summary": "Sigmanauts plans to create an innovative merchandise system where each physical item is represented by a unique NFT on Auction House. Customers buy item NFTs and shipping NFTs, then provide addresses for fulfillment, integrating physical goods with Ergo's NFT ecosystem.",
+      "key_terms": [
+        "NFT merchandise",
+        "Auction House",
+        "unique NFTs",
+        "shipping NFTs",
+        "physical goods",
+        "Anon Real"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "title": "Fiat On-Ramp Integration Progress",
+      "category": "ecosystem",
+      "start_time": "18:22",
+      "end_time": "19:46",
+      "primary_speaker": "qx()",
+      "summary": "Progress on integrating a fiat on-ramp provider that offers both KYC and non-KYC options (up to 700 euro daily limit). The provider has Canada access but not US access yet, with pricing and specifications to be shared publicly for community review.",
+      "key_terms": [
+        "fiat on-ramp",
+        "KYC",
+        "non-KYC",
+        "700 euro limit",
+        "Canada access",
+        "wallet integration"
+      ]
+    },
+    {
+      "topic_id": 8,
+      "title": "Rosen Bridge and Hummingbot Integration",
+      "category": "bridges",
+      "start_time": "19:46",
+      "end_time": "27:24",
+      "primary_speaker": "Joe",
+      "summary": "Joe explains Rosen's goal to prevent asset rehypothecation and the integration with Hummingbot for cross-chain liquidity management. The partnership enables market making across DEXs and CEXs, with plans for adding more assets and stress testing before Ethereum integration.",
+      "key_terms": [
+        "Rosen bridge",
+        "rehypothecation",
+        "Hummingbot",
+        "liquidity management",
+        "market making",
+        "cross-chain",
+        "Ethereum integration"
+      ]
+    },
+    {
+      "topic_id": 9,
+      "title": "Gluon and Dexy Gold Token Deployments",
+      "category": "defi",
+      "start_time": "27:24",
+      "end_time": "29:02",
+      "primary_speaker": "kushti",
+      "summary": "Gluon tokens have been issued and mainnet contracts are being deployed. Dexy Gold LP contracts are also in deployment process with LP tokens issued. Both projects are finally moving to mainnet with buyback mechanisms expected to activate.",
+      "key_terms": [
+        "Gluon tokens",
+        "mainnet deployment",
+        "Dexy Gold",
+        "LP tokens",
+        "buyback mechanisms",
+        "contracts"
+      ]
+    },
+    {
+      "topic_id": 10,
+      "title": "Rosen Fast - Speed Layer Solution",
+      "category": "bridges",
+      "start_time": "29:06",
+      "end_time": "34:00",
+      "primary_speaker": "Joe",
+      "summary": "Joe describes Rosen Fast, a DeFi product that enables faster cross-chain transfers through pre-confirmations. Users pay a premium to liquidity providers who advance funds while the slower Rosen transfer completes, creating a speed-versus-cost tradeoff market.",
+      "key_terms": [
+        "Rosen Fast",
+        "pre-confirmations",
+        "speed premium",
+        "liquidity providers",
+        "fast settlement",
+        "arbitrage"
+      ]
+    },
+    {
+      "topic_id": 11,
+      "title": "Keystone Hardware Wallet Integration",
+      "category": "ecosystem",
+      "start_time": "34:00",
+      "end_time": "35:02",
+      "primary_speaker": "kushti",
+      "summary": "There's been significant interest from Keystone hardware wallet for Ergo integration. A call is scheduled in 10 days with kushti and mgPai participating, with much of the technical work potentially already done due to existing Ledger integration code.",
+      "key_terms": [
+        "Keystone wallet",
+        "hardware wallet",
+        "integration",
+        "mgPai",
+        "Ledger code",
+        "wallet support"
+      ]
+    },
+    {
+      "topic_id": 12,
+      "title": "USDT Integration Risks and Testing Approach",
+      "category": "bridges",
+      "start_time": "35:02",
+      "end_time": "42:25",
+      "primary_speaker": "Joe",
+      "summary": "Joe takes a cautious approach to USDT integration, proposing to test attack vectors like Tornado Cash transactions first. He contrasts this with Cardano's Mehen stablecoin which has better UTXO-based assumptions, avoiding global contract interactions and reducing legal friction.",
+      "key_terms": [
+        "USDT",
+        "Tornado Cash",
+        "attack vectors",
+        "Mehen stablecoin",
+        "UTXO assumptions",
+        "legal friction",
+        "compliance risks"
+      ]
+    },
+    {
+      "topic_id": 13,
+      "title": "Academic Research in Cryptocurrency",
+      "category": "technical",
+      "start_time": "42:28",
+      "end_time": "46:05",
+      "primary_speaker": "kushti",
+      "summary": "Discussion of cryptocurrency research beyond cryptography, including game theory, economics, supply chain, energy trading, and IoT applications. Academic papers are widely available on preprint servers like arXiv across multiple disciplines.",
+      "key_terms": [
+        "academic research",
+        "game theory",
+        "economics",
+        "supply chain",
+        "energy trading",
+        "IoT",
+        "arXiv"
+      ]
+    },
+    {
+      "topic_id": 14,
+      "title": "Energy Arbitrage and Mining Economics",
+      "category": "technical",
+      "start_time": "45:13",
+      "end_time": "52:41",
+      "primary_speaker": "Joe",
+      "summary": "Extensive discussion on cryptocurrency mining as energy arbitrage, including off-grid mining, load balancing for power grids, and future scaling with AI computing demands. Mining provides flexible power consumption that can quickly adjust to grid demands.",
+      "key_terms": [
+        "energy arbitrage",
+        "off-grid mining",
+        "load balancing",
+        "power grids",
+        "AI computing",
+        "flexible consumption",
+        "Texas mining"
+      ]
+    },
+    {
+      "topic_id": 15,
+      "title": "University Blockchain Integration Project",
+      "category": "ecosystem",
+      "start_time": "55:06",
+      "end_time": "58:42",
+      "primary_speaker": "qx()",
+      "summary": "qx() describes implementing blockchain solutions at Cornell for student services, focusing on immutable governance and self-custody rather than cost savings. Students will manage their own funds and tokens on-chain, enabling peer-to-peer transactions without administrative control.",
+      "key_terms": [
+        "Cornell University",
+        "student services",
+        "immutable governance",
+        "self-custody",
+        "on-chain governance",
+        "peer-to-peer",
+        "print credits"
+      ]
+    },
+    {
+      "topic_id": 16,
+      "title": "SigmaUSD Price Discussion and Protocol Mechanics",
+      "category": "defi",
+      "start_time": "58:42",
+      "end_time": "62:51",
+      "primary_speaker": "kushti",
+      "summary": "Explanation of SigmaUSD trading above $1 on Spectrum due to liquidity pool mechanics versus the bank's fixed $1 rate. Discussion covers magic constants in the original protocol versus Gluon's market-driven approach, and user behavior during price movements.",
+      "key_terms": [
+        "SigmaUSD",
+        "Spectrum",
+        "liquidity slippage",
+        "magic constants",
+        "Gluon",
+        "reserve ratio",
+        "market inefficiency"
+      ]
+    }
+  ]
+}

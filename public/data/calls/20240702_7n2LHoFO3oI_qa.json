@@ -1,0 +1,138 @@
+{
+  "call_date": "2024-07-02",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "06:25",
+      "question": "How has Ergo's wallet ecosystem evolved over the past five years?",
+      "asker": "qx()",
+      "answer": "In 2021, Ergo users primarily had Yoroi wallet, which had significant limitations. Now we have Nautilus, which is much better and includes features like NSFW/scam token filters. Nautilus can check a GitHub repository for scam tokens and filter them automatically to protect users, especially newcomers who might not be familiar with malicious tokens.",
+      "responder": "Marc the Shark",
+      "category": "wallet",
+      "difficulty": "beginner",
+      "related_terms": [
+        "Nautilus",
+        "Yoroi",
+        "scam tokens",
+        "wallet evolution"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "07:17",
+      "question": "What are the key differences between proof-of-work and proof-of-stake from a participation perspective?",
+      "asker": "qx()",
+      "answer": "Proof-of-work gives anyone the ability to enter the ecosystem on their own terms at their own rate. You can use old gaming rigs or buy new GPUs, and you don't need permission - you can even solo mine if you want. With proof-of-stake, it's very permission-based - you have to own the token and buy it at a certain price through exchanges, requiring KYC in many cases.",
+      "responder": "qx()",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "proof-of-work",
+        "proof-of-stake",
+        "mining",
+        "permissionless"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "15:13",
+      "question": "What is the proposal for creating a DAO-controlled mining pool and how would it work?",
+      "asker": "qx()",
+      "answer": "The proposal on Paideia is to create a mining pool controlled by miners through a DAO structure. The intent is that the pool would be run and controlled by miners themselves, empowering them and teaching them they can control Ergo. Miners would receive DAO tokens and vote on things like pool fees, fund allocation, and strategic decisions. This would be 'for Ergo, by Ergo' rather than a traditional for-profit pool.",
+      "responder": "Marc the Shark",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "DAO",
+        "mining pool",
+        "Paideia",
+        "governance",
+        "Sigmanauts"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "20:54",
+      "question": "What are the challenges with distributing DAO tokens to miners in a mining pool?",
+      "asker": "qx()",
+      "answer": "There are several complex issues: miners often have multiple wallets, so per-miner distribution doesn't work fairly. Snapshot-based distribution has timing issues. If you give tokens to anyone who asks and verifies they're in the pool, what happens when they mine for one day then leave but still have voting power? The solution needs to account for miners joining and leaving while maintaining fair governance representation.",
+      "responder": "Marc the Shark",
+      "category": "governance",
+      "difficulty": "advanced",
+      "related_terms": [
+        "DAO tokens",
+        "mining pool",
+        "governance",
+        "token distribution"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "37:37",
+      "question": "What's the proper perspective on exchange listings and their impact on price?",
+      "asker": "qx()",
+      "answer": "Exchange listings should be viewed as setting up infrastructure for future accessibility, not as immediate price pumps. Historically, Ergo listings haven't sustained price increases and sometimes don't even cause initial pumps. The real value is laying the framework so when people eventually realize what Ergo is and need it, they'll be able to access it globally. This manages community expectations better than expecting immediate price appreciation.",
+      "responder": "qx()",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "exchange listings",
+        "price expectations",
+        "accessibility",
+        "adoption"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "45:16",
+      "question": "How does Paideia's new minimum stake requirement for proposal creation work?",
+      "asker": "qx()",
+      "answer": "Paideia now allows DAOs to set minimum stake requirements for creating proposals. For example, if you distribute 5 tokens to raffle donors, 2 to Sigmanauts, and 1 to others, you could require 4+ tokens to create proposals. This means only raffle donors could create proposals while others can still vote. The maximum is always half the total staked amount to prevent DAO lockup. This allows broad participation while controlling who can initiate governance actions.",
+      "responder": "qx()",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Paideia",
+        "governance",
+        "proposal creation",
+        "stake requirements",
+        "DAO"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "46:53",
+      "question": "How is CruxFinance evolving to support multiple DEXes on Ergo?",
+      "asker": "qx()",
+      "answer": "CruxFinance is refactoring from being Spectrum-specific to a more generic backend that can support multiple DEXes. They're integrating Trade House order history and order book data, and will soon show combined order history across different DEXes, indicating which DEX each order executed on. They can also differentiate between orders made on different UIs (Spectrum, CruxFinance, etc.) versus direct LP interaction. Adding Crystal Pools will be fairly trivial after this refactoring.",
+      "responder": "qx()",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "CruxFinance",
+        "DEX",
+        "Trade House",
+        "Crystal Pools",
+        "Spectrum",
+        "order book"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "49:52",
+      "question": "What node issue was affecting Ergo wallets and how is it being addressed?",
+      "asker": "qx()",
+      "answer": "There's a node issue where if wallets had over 200 boxes, it would start showing duplicate boxes in reporting. This doesn't allow double-spending (Ergo prevents that), it's just a display/reporting issue. The Rosen Bridge team created a workaround to fix the 'address extractor update query not to store duplicate boxes' while the core node team works on the underlying fix.",
+      "responder": "qx()",
+      "category": "technical",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "node",
+        "boxes",
+        "duplicate boxes",
+        "Rosen Bridge",
+        "wallet display"
+      ]
+    }
+  ]
+}

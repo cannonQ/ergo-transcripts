@@ -1,0 +1,325 @@
+[00:14] **Lukas Aumayr**: Hello everyone and happy anniversary.
+
+[00:16] **Lukas Aumayr**: I'm here to talk about our recent paper on optimal proof-of-work lite clients.
+
+[00:21] **Lukas Aumayr**: This is a joint work together with Zeta Varikyoti, Matteo Maffei, Julius Gaffino, Dionysis Zindros and also myself.
+
+[00:29] **Lukas Aumayr**: And in this talk, I want to outline the idea of this paper and also present some of the results.
+
+[00:35] **Lukas Aumayr**: So since we're talking about lite clients, let us quickly discuss what are lite clients and why do we use them.
+
+[00:42] **Lukas Aumayr**: And for this, let's assume we have a population of full nodes where these full nodes are maintaining a blockchain.
+
+[00:50] **Lukas Aumayr**: Now, if I come in and I want to participate as a full node, I need to connect to this network and I need to download the full blockchain, which is, if you think of Bitcoin, let's say, on the order of 600 gigabytes currently.
+
+[01:04] **Lukas Aumayr**: So this might be fine if I run a full node on my desktop computer, but if I'm on my phone, downloading and storing 600 gigabytes might not be feasible.
+
+[01:14] **Lukas Aumayr**: Especially since I most likely only want to verify some transaction has happened or I want to check maybe my balance in my wallet.
+
+[01:24] **Lukas Aumayr**: And for this, ideally, I don't need to download the full chain, but it's enough to download some chunk or maybe some proof that verifies these things.
+
+[01:32] **Lukas Aumayr**: Another use case might be that I perform a transaction and then on another chain in a smart contract I want to verify that this transaction has happened and because I want to avoid paying too many fees it's also a good idea that this proof should be very lightweight and then with this thing we can actually build bridges.
+
+[01:55] **Lukas Aumayr**: And the bridge is essentially connecting two blockchains without using a trusted third party.
+
+[02:05] **Lukas Aumayr**: We want to build it in a trustless way and also without the honest majority committee.
+
+[02:12] **Lukas Aumayr**: So, and what we want to achieve is essentially we want to synchronize two transactions.
+
+[02:17] **Lukas Aumayr**: So for instance, if I publish a deposit transaction to a bridge address on the source chain, I want to be able to withdraw some money from the bridge contract on the destination chain.
+
+[02:30] **Lukas Aumayr**: And for this, we can use such a light client to achieve this in a trustless way.
+
+[02:36] **Lukas Aumayr**: So this is why we would need to, why we would want to run a light client.
+
+[02:42] **Lukas Aumayr**: So now how does such a protocol look like?
+
+[02:45] **Lukas Aumayr**: So a lite client protocol is an interactive prover-verifier protocol, where we have a verifier that is connecting to a bunch of full nodes.
+
+[02:54] **Lukas Aumayr**: And we can see that at least one of these full nodes needs to be honest, because otherwise they can just send us whatever.
+
+[03:01] **Lukas Aumayr**: But this is the same assumption as if we connect as a full node to the network.
+
+[03:06] **Lukas Aumayr**: So we also need to find at least one honest prover that we connect to.
+
+[03:12] **Lukas Aumayr**: So then we ask them what is the current state of the ledger and they reply with some message.
+
+[03:19] **Lukas Aumayr**: And then we can, from these messages, we can extract what is the latest state of the ledger without needing to download the whole ledger or executing all of the transactions.
+
+[03:32] **Lukas Aumayr**: So in order to see how we can build such a thing, let's quickly take a look at blockchains again.
+
+[03:40] **Lukas Aumayr**: And from work such as the Bitcoin backbone protocol, we know that there is a stable part of blockchain and an unstable part.
+
+[03:48] **Lukas Aumayr**: And the unstable part essentially means that there exists some diverging view on this last part of the blockchain between different nodes.
+
+[03:59] **Lukas Aumayr**: And note that even honest nodes could have different blocks here in this unstable part.
+
+[04:07] **Lukas Aumayr**: And also that this unstable part is actually constant.
+
+[04:13] **Lukas Aumayr**: So in this drawing, it's four.
+
+[04:15] **Lukas Aumayr**: In Bitcoin folklore, this is usually taken to be six.
+
+[04:20] **Lukas Aumayr**: So we wait six blocks in order to have something be confirmed.
+
+[04:25] **Lukas Aumayr**: Whereas the stable part grows linearly with the lifetime of the system.
+
+[04:30] **Lukas Aumayr**: So now what we are interested in, in our lite client that we're trying to build, is we want to output a block that is part of this stable part of the blockchain, but it should also be fairly new.
+
+[04:45] **Lukas Aumayr**: So we don't want to output some very old block of this stable part, but a new one.
+
+[04:52] **Lukas Aumayr**: And we call this block an admissible block also in the paper.
+
+[04:57] **Lukas Aumayr**: And what do we want to achieve in terms of efficiency?
+
+[05:01] **Lukas Aumayr**: We say that we are optimal in the title of the paper.
+
+[05:04] **Lukas Aumayr**: And what we mean by this is that the communication complexity should be constant, or it should be dependent only on what we choose to be this k.
+
+[05:18] **Lukas Aumayr**: Okay, so with these goals in mind, let's see how lite clients are built currently.
+
+[05:24] **Lukas Aumayr**: So what kinds of constructions we have and let's look again at the blockchain.
+
+[05:30] **Lukas Aumayr**: So the majority of the storage overhead in storing the blockchain actually doesn't come from the block headers themselves but from the transactions.
+
+[05:36] **Lukas Aumayr**: And in the block header we actually only store a commitment to all of the transactions.
+
+[05:48] **Lukas Aumayr**: The transactions themselves are organized usually in Merkle tree and then we store the Merkle root in this block header.
+
+[05:56] **Lukas Aumayr**: So, as I mentioned, this majority of these 600 gigabytes is actually this transaction.
+
+[06:03] **Lukas Aumayr**: So a very simple idea could be, okay, let's just get rid of the transactions and only store the block headers.
+
+[06:10] **Lukas Aumayr**: And then if we want to verify that some transactions is part of the chain, we can ask a full node to give us a Merkle inclusion proof of some transaction in some block.
+
+[06:22] **Lukas Aumayr**: And then we can verify this and we are convinced that this is actually a part of the chain.
+
+[06:28] **Lukas Aumayr**: And this has actually been proposed as the simplified payment verification in the original Bitcoin white paper.
+
+[06:36] **Lukas Aumayr**: And this has a linear communication complexity in the lifetime of the system.
+
+[06:41] **Lukas Aumayr**: So in other words, we need to store something that is linear in the length of the chain.
+
+[06:47] **Lukas Aumayr**: Another idea is called NIPoPoWs, or also non-interactive proof of proof of work.
+
+[06:54] **Lukas Aumayr**: And the idea behind this paper is essentially that proof of work blocks are considered to be valid if they fulfill this proof of work inequality.
+
+[07:04] **Lukas Aumayr**: And we can visualize this as saying, OK, the hash of such a block needs to have a certain number of leading zeros.
+
+[07:13] **Lukas Aumayr**: So then we can observe that out of all of these valid blocks, if we assume this, if we think of this hash as a binary string, then we can see that half of these blocks will have one additional leading zero.
+
+[07:32] **Lukas Aumayr**: On average, then a fourth of these blocks will have two additional leading zeros and an eighth of these blocks will have three additional leading zeros.
+
+[07:42] **Lukas Aumayr**: These so-called super blocks, they appear randomly, but we can somehow predict how many of them will appear on average.
+
+[07:51] **Lukas Aumayr**: And then instead of providing the whole block headers to the lite client, we only need to provide these super blocks.
+
+[08:02] **Lukas Aumayr**: And since these super blocks are so heavy, it's sufficient to provide the lite client with the super blocks.
+
+[08:09] **Lukas Aumayr**: The lite client can verify them.
+
+[08:11] **Lukas Aumayr**: And instead of sending a linear amount of data, it is enough to send a logarithmic number of these super blocks.
+
+[08:19] **Lukas Aumayr**: So this is all good and well, however it's not compatible with the current system such as Bitcoin because it requires interlinking between these superblocks.
+
+[08:29] **Lukas Aumayr**: So essentially blocks need to link back to the last superblock that appeared.
+
+[08:36] **Lukas Aumayr**: Yet another idea is we can make use of zero-knowledge proofs.
+
+[08:41] **Lukas Aumayr**: So essentially we have the blockchain and we can create the zero-knowledge proof that we can send to the verifier.
+
+[08:48] **Lukas Aumayr**: The verifier checks it and can be convinced of some statements on this blockchain or for instance what is the current state of it.
+
+[08:58] **Lukas Aumayr**: And this actually works and we can do it in a constant communication complexity.
+
+[09:05] **Lukas Aumayr**: So these proofs will be of constant size and indeed also the verification can be fairly efficient.
+
+[09:12] **Lukas Aumayr**: However, there is quite the big overhead for the provers because creating these proofs is quite expensive.
+
+[09:19] **Lukas Aumayr**: Okay, so with this kind of related work in mind, let us move on to our construction.
+
+[09:25] **Lukas Aumayr**: And our construction, the idea is essentially okay we are only interested in this admissible block that I said so it's a stable block that is fairly new so essentially we can see that we are actually only interested in the tip of the blockchain so why not make a protocol where the verifier connects to the provers and then asks what are the latest blocks that you have.
+
+[09:53] **Lukas Aumayr**: So give me a chunk of k plus one blocks and I wait for you to send them to me and then I just take these blocks and I take the first block to be my stable block.
+
+[10:10] **Lukas Aumayr**: So this is a nice idea.
+
+[10:13] **Lukas Aumayr**: Unfortunately, it has some issues, because if we only construct it like this, then an attacker can essentially create this chunk of blocks in advance.
+
+[10:25] **Lukas Aumayr**: Or it could simply take an old chunk and it could send it to us and we would be convinced of the invalid state or maybe an old state.
+
+[10:37] **Lukas Aumayr**: So this is not what we want to do.
+
+[10:40] **Lukas Aumayr**: So we can see that the idea to fix this would be let us somehow force that this chunk is freshly mined.
+
+[10:50] **Lukas Aumayr**: And then if we force this to be freshly mined, then the rationale why this would work is that now the honest majority of miners will find such a proof first.
+
+[11:02] **Lukas Aumayr**: So let's look at it.
+
+[11:05] **Lukas Aumayr**: So first of all, how can we force such a chunk to be freshly mined?
+
+[11:10] **Lukas Aumayr**: We can do this by introducing some randomness.
+
+[11:14] **Lukas Aumayr**: So the light client, the verifier, which we call here V, injects some randomness to the ledger.
+
+[11:21] **Lukas Aumayr**: And what does this mean?
+
+[11:22] **Lukas Aumayr**: So this can simply be, for instance, okay, verifier creates a transaction that spends zero coins to a newly created address.
+
+[11:31] **Lukas Aumayr**: That is random and then the verifier sends this to the full nodes and waits for a response where there are k plus one blocks and the first block of this chunk contains this randomness.
+
+[11:47] **Lukas Aumayr**: So indeed, this would prevent that someone starts mining such a chunk in advance, because now they cannot, because they don't know the randomness.
+
+[11:57] **Lukas Aumayr**: And also they cannot take an old chunk anymore, because also the randomness won't be part of the previous blocks.
+
+[12:05] **Lukas Aumayr**: And then we can also convince ourselves that the honest majority will find this k plus one blocks first.
+
+[12:14] **Lukas Aumayr**: And since we accept the first proof that we receive, we should be fine.
+
+[12:21] **Lukas Aumayr**: But the question is, are we really fine?
+
+[12:23] **Lukas Aumayr**: Is this secure?
+
+[12:25] **Lukas Aumayr**: And for this, let's look at the following scenario.
+
+[12:29] **Lukas Aumayr**: Let's assume I'm the verifier.
+
+[12:32] **Lukas Aumayr**: I broadcast this randomness to the full nodes.
+
+[12:37] **Lukas Aumayr**: Some miner includes this transaction in a block and the honest miners start building on top of this block.
+
+[12:43] **Lukas Aumayr**: So now an adversary that let's say has a 49% mining power can create a fork in secret so they mine secretly privately on their own chain where they try to fork out this randomness.
+
+[13:02] **Lukas Aumayr**: And since this number of blocks is below k, they will be able to temporarily have a larger number of blocks with non-negligible probability.
+
+[13:17] **Lukas Aumayr**: So with non-negligible probability, they can beat the honest miners and they publish.
+
+[13:24] **Lukas Aumayr**: So in this setting, they found three blocks, let's say.
+
+[13:27] **Lukas Aumayr**: They publish these three blocks to the honest miners and the honest miners will switch to this chain.
+
+[13:34] **Lukas Aumayr**: Simultaneously, however, the adversary will now switch to the abandoned chain that was previously mined on by the honest miners.
+
+[13:44] **Lukas Aumayr**: And then they continue mining.
+
+[13:47] **Lukas Aumayr**: So we can see that now the honest miners still need to mine k plus one blocks because the randomness has not yet been included by the adversary.
+
+[13:57] **Lukas Aumayr**: However, the adversary only needs to mine in this case two more blocks because he's building on top of this chain that was already mined on by the honest users.
+
+[14:10] **Lukas Aumayr**: So he needs to mine only these two blocks where the honest users still need to mine this k plus one blocks.
+
+[14:17] **Lukas Aumayr**: And we can see also in this example that in total the adversary needs to mine fewer blocks than the honest users in the same time.
+
+[14:26] **Lukas Aumayr**: So indeed, a minority adversary can convince the light client of an invalid state of the blockchain.
+
+[14:37] **Lukas Aumayr**: So indeed, this construction is not secure.
+
+[14:41] **Lukas Aumayr**: And this is now where we come to our Blink construction.
+
+[14:45] **Lukas Aumayr**: It works very similarly and it uses exactly this idea of broadcasting this random transaction to the network and then waiting for a proof and the first proof we receive as a verifier, we accept it.
+
+[14:59] **Lukas Aumayr**: But now the proof has to look like this.
+
+[15:02] **Lukas Aumayr**: So instead of k plus one blocks, we now wait for two k plus one blocks.
+
+[15:08] **Lukas Aumayr**: However, the proof is k blocks, then a block containing the randomness and then another k blocks.
+
+[15:16] **Lukas Aumayr**: So now let's look at the rationale behind this.
+
+[15:19] **Lukas Aumayr**: So again, this randomness is to prevent this pre-mining of a proof.
+
+[15:27] **Lukas Aumayr**: The k-subsequent blocks is in order to ensure that whoever mines this faster gets the valid proof.
+
+[15:36] **Lukas Aumayr**: Together with the randomness, this necessitates some on-the-spot computational work and a below 50% adversary will be too slow to find such a proof.
+
+[15:48] **Lukas Aumayr**: Now however these k blocks before the block containing the randomness are there to ensure that we go back and hit a stable block.
+
+[15:59] **Lukas Aumayr**: So if you consider this attack from before where we had the adversary mining on top of this abandoned chain of the honest users we would be fine because the honest users they had previously extended something that was part of the honest longest chain.
+
+[16:23] **Lukas Aumayr**: And indeed, if we go back k blocks, we will be sure to hit the stable block.
+
+[16:29] **Lukas Aumayr**: And so this attack is prevented.
+
+[16:32] **Lukas Aumayr**: And actually in the paper we show that we formally prove that this construction is safe and we will hit the stable block with this proof.
+
+[16:41] **Lukas Aumayr**: So, yeah, this is the construction.
+
+[16:46] **Lukas Aumayr**: We can take it one step further.
+
+[16:47] **Lukas Aumayr**: We can, once we get such a proof and we accept it, we can look at this first block as a new genesis block, because we know this is stable and it's fairly new.
+
+[17:04] **Lukas Aumayr**: So we can start running an SPV on top of this block.
+
+[17:08] **Lukas Aumayr**: And we start listening for blocks that build on top of this block.
+
+[17:13] **Lukas Aumayr**: And then if we see that these blocks are part of the longest chain building on top of B and they have K confirmation, we can also consider these blocks as stable.
+
+[17:26] **Lukas Aumayr**: So this is an extension on this Blink scheme.
+
+[17:31] **Lukas Aumayr**: So now with this construction explained, let's circle back to some applications.
+
+[17:38] **Lukas Aumayr**: And here let's say that we are again connecting to these full nodes and we want to run a full node.
+
+[17:48] **Lukas Aumayr**: So instead of downloading the whole 600 gigabytes we could now download a 1.6 kilobyte proof and we could catch up to the network and then we could start mining from there or running an SPV from there and we significantly save on the communication cost of this bootstrapping.
+
+[18:10] **Lukas Aumayr**: Another thing we can do is we can verify historic transaction.
+
+[18:16] **Lukas Aumayr**: We say we have this block that is safe, so it's stable and it's also fairly new.
+
+[18:24] **Lukas Aumayr**: We know actually that all of the blocks before are also stable.
+
+[18:30] **Lukas Aumayr**: So we can simply go back until we hit a block where we have a historic transaction that we want to verify, or we can also use some more efficient proofs and also use them to confirm historic transactions.
+
+[18:48] **Lukas Aumayr**: Another thing we can do is we can use something like state commitments.
+
+[18:53] **Lukas Aumayr**: And state commitments is essentially, if we think of a UTXO-based blockchain, the state is represented by the set of all UTXOs.
+
+[19:03] **Lukas Aumayr**: So if every block now contains a commitment to this state, we could organize the UTXOs, let's say in a Merkle tree and then store the Merkle root in this block, similar to how we store the Merkle roots of the transactions, then getting a stable and new block would mean that we can actually confirm what is the current state of the blockchain.
+
+[19:31] **Lukas Aumayr**: This is something that is done in Ethereum Proof of Work, for instance, although Ethereum Proof of Work is not a UTXO based blockchain, but an account based, but still they use a similar mechanism to commit to the state of the blockchain.
+
+[19:47] **Lukas Aumayr**: And then if we have this in place, we can on our phone, we can run this and we can verify payments, we can check the balance and we can also verify any statement about the current state of the blockchain.
+
+[19:58] **Lukas Aumayr**: So let's also talk about bridges again.
+
+[20:02] **Lukas Aumayr**: How can we use this to build a bridge?
+
+[20:06] **Lukas Aumayr**: We can build an optimistic bridge.
+
+[20:09] **Lukas Aumayr**: Let's say Alice wants to deposit some money to the bridge address on Bitcoin and then withdraw some Ethereum from the bridge contract.
+
+[20:20] **Lukas Aumayr**: What she can do is she can say to the smart contract, look, I've published a transaction on Bitcoin that is now stable in some block B.
+
+[20:28] **Lukas Aumayr**: And then let's say there is a dispute period that starts.
+
+[20:35] **Lukas Aumayr**: If no one disputes the statement, then Alice will simply be able to withdraw.
+
+[20:41] **Lukas Aumayr**: But if there is a dispute, anyone can say look I don't believe you prove it to me here is some randomness and then Alice needs to come up with a proof that consists of two k plus one blocks and contains this randomness and then if she's able to provide such a proof then she can withdraw the money.
+
+[21:02] **Lukas Aumayr**: And this is the rough idea.
+
+[21:04] **Lukas Aumayr**: It can be made more efficient by allowing other verifiers to challenge this and then we combine somehow this randomness on chain.
+
+[21:14] **Lukas Aumayr**: Or we can also maybe use some on chain randomness.
+
+[21:17] **Lukas Aumayr**: But I think we can see how we can use this to build a bridge construction.
+
+[21:24] **Lukas Aumayr**: So it can be quite a useful scheme for all of these applications.
+
+[21:33] **Lukas Aumayr**: This anyway brings my talk to a close.
+
+[21:37] **Lukas Aumayr**: I want to quickly draw back to attention the fact that we have a light client construction that requires only a constant overhead in terms of communication.
+
+[21:49] **Lukas Aumayr**: In particular, we require a proof of length 2k plus 1.
+
+[21:53] **Lukas Aumayr**: So, for instance, if we assume k to be 6, we would require 13 block headers to send and verify, which is quite efficient.
+
+[22:04] **Lukas Aumayr**: It comes, however, at the trade-off that we need to publish an on-chain transaction on the blockchain.
+
+[22:11] **Lukas Aumayr**: So I encourage everyone to check out the paper.
+
+[22:15] **Lukas Aumayr**: It should be quite accessible and it contains all of the algorithms in case you want to implement it.
+
+[22:22] **Lukas Aumayr**: Also, feel free to reach out to any of us or to check out the repository on GitHub where we have a proof of concept implementation of this scheme.
+
+[22:33] **Lukas Aumayr**: So with this, I want to thank you again for your interest in this paper and have a nice day.

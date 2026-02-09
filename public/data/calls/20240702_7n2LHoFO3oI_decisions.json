@@ -1,0 +1,121 @@
+{
+  "call_date": "2024-07-02",
+  "call_title": "Dev Update July 1 2024 | Live Ergoversary w/Marc the Shark",
+  "decisions": [
+    {
+      "id": 1,
+      "timestamp": "30:44",
+      "decision": "Make mining great again hats will be red with white print matching the Trump hat font with Ergo logo on back",
+      "speaker": "Marc the Shark",
+      "context": "Planning merchandise for Rare Evo event",
+      "topic": "merchandise",
+      "significance": "minor",
+      "quote": "We're making hats for the event. It's going to say, make mining great again... They're going to be red with white print. It's going to look just like it. We're going to match the font."
+    },
+    {
+      "id": 2,
+      "timestamp": "31:00",
+      "decision": "Will order 100 hats and give away every fifth one to break even",
+      "speaker": "qx()",
+      "context": "Pricing strategy for merchandise sales",
+      "topic": "merchandise",
+      "significance": "minor",
+      "quote": "100 hats we're getting... We might do something where we give away every five, so maybe we'll give away 20 hats in total"
+    }
+  ],
+  "commitments": [
+    {
+      "id": 1,
+      "timestamp": "15:13",
+      "commitment": "Put up proposal on Paideia for mining pool DAO framework",
+      "owner": "Marc the Shark",
+      "timeline": "unspecified",
+      "topic": "governance",
+      "quote": "I created a proposal on Paideia"
+    },
+    {
+      "id": 2,
+      "timestamp": "31:02",
+      "commitment": "Put up Paideia proposal for Sigmanauts to fund the hats",
+      "owner": "qx()",
+      "timeline": "unspecified",
+      "topic": "governance",
+      "quote": "We're going to put in a Paideia proposal for the Sigmanauts"
+    },
+    {
+      "id": 3,
+      "timestamp": "47:59",
+      "commitment": "Run mining pool on ergo-miners.com domain on Flux",
+      "owner": "Marc the Shark",
+      "timeline": "unspecified",
+      "topic": "mining",
+      "quote": "we're going to run it on ergo-miners.com. So I bought that domain"
+    },
+    {
+      "id": 4,
+      "timestamp": "48:32",
+      "commitment": "Finalize APIs for mining pool beta swapping feature",
+      "owner": "qx()",
+      "timeline": "unspecified",
+      "topic": "mining",
+      "quote": "we're just waiting on qx() to finalize the APIs so we can open up the beta for swapping"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": 1,
+      "timestamp": "20:54",
+      "question": "How to distribute DAO tokens to miners fairly",
+      "context": "Mining pool DAO token distribution mechanism design",
+      "topic": "governance",
+      "raised_by": "Marc the Shark"
+    },
+    {
+      "id": 2,
+      "timestamp": "21:13",
+      "question": "How to handle DAO tokens when miners leave the pool after short time",
+      "context": "Preventing gaming of token distribution system",
+      "topic": "governance",
+      "raised_by": "Marc the Shark"
+    },
+    {
+      "id": 3,
+      "timestamp": "17:39",
+      "question": "What should the Sigmanauts mission statement be",
+      "context": "Defining organizational purpose and scope",
+      "topic": "governance",
+      "raised_by": "Marc the Shark"
+    }
+  ],
+  "reversals_or_updates": [],
+  "key_facts": [
+    {
+      "id": 1,
+      "timestamp": "01:23",
+      "fact": "Ergo is five years old today",
+      "speaker": "qx()",
+      "topic": "milestone"
+    },
+    {
+      "id": 2,
+      "timestamp": "34:43",
+      "fact": "Crystal Pools won first place in Ergo hack, DuckPools second place, Analog Ergo third place",
+      "speaker": "qx()",
+      "topic": "hackathon"
+    },
+    {
+      "id": 3,
+      "timestamp": "26:41",
+      "fact": "Mining pool currently has 60-85 gigahash and hits 1-10 blocks per day",
+      "speaker": "qx()",
+      "topic": "mining"
+    },
+    {
+      "id": 4,
+      "timestamp": "21:13",
+      "fact": "Mining pool has approximately 50 miners",
+      "speaker": "Marc the Shark",
+      "topic": "mining"
+    }
+  ]
+}

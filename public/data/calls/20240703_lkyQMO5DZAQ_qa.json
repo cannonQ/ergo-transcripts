@@ -1,0 +1,117 @@
+{
+  "call_date": "2024-07-03",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:15",
+      "question": "How does the Gluon protocol's fission operation work?",
+      "asker": "Bruno",
+      "answer": "In fission, you take a certain amount of ERG and split those ERG into stable coins pegged to gold and volatile coins simultaneously. This is like minting stable coins and reserved coins in SigmaUSD, but you must mint both types of coins at the same time, keeping the reserve ratio constant.",
+      "responder": "Bruno",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "fission",
+        "stable coins",
+        "volatile coins",
+        "reserve ratio",
+        "SigmaUSD"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "02:22",
+      "question": "What is transmutation in the Gluon protocol and when would you use it?",
+      "asker": "Bruno",
+      "answer": "Transmutation allows you to convert between stable coins and volatile coins in either direction. You would use it when you want to mint only one type of coin - for example, if you want only stable coins, you use fission to get both types, then transmute the volatile coins to stable coins.",
+      "responder": "Bruno",
+      "category": "defi",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "transmutation",
+        "stable coins",
+        "volatile coins",
+        "fission"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "06:24",
+      "question": "What does the 14-day volume period parameter mean in Gluon Gold?",
+      "asker": "Bruno",
+      "answer": "The contract monitors 14-day transmutation volumes, and the higher the volume unbalanced in one direction is, the more costly further transmutations in that direction become. This is similar to the constant product formula in automated market makers, making unbalances increasingly expensive.",
+      "responder": "Bruno",
+      "category": "defi",
+      "difficulty": "advanced",
+      "related_terms": [
+        "volume period",
+        "transmutation",
+        "automated market makers",
+        "constant product formula"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "07:29",
+      "question": "What does the fusion ratio (Q star) of 0.66 mean for Gluon Gold?",
+      "asker": "Bruno",
+      "answer": "A fusion ratio of 0.66 means there's a minimum reserve ratio of 1.5, and at most 66% of the reserve is allocated to GAO (stable coins). The remaining is allocated to GAUSC (volatile coins). If necessary, GAO depegs to maintain this reserve ratio and allocation.",
+      "responder": "Bruno",
+      "category": "tokenomics",
+      "difficulty": "advanced",
+      "related_terms": [
+        "fusion ratio",
+        "reserve ratio",
+        "GAO",
+        "GAUSC",
+        "depeg"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "08:17",
+      "question": "How does Gluon Gold's Oracle incentivization differ from SigmaUSD?",
+      "asker": "Bruno",
+      "answer": "Gluon Gold includes a 0.1% Oracle fee to incentivize Oracle operators, which is an innovation compared to SigmaUSD. SigmaUSD doesn't incentivize Oracles at all and just free-rides on them, expecting Oracle operators to be altruistic and provide price data without earning anything.",
+      "responder": "Bruno",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Oracle fee",
+        "SigmaUSD",
+        "Oracle operators",
+        "price data"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "09:13",
+      "question": "How does the treasury fee structure work in Gluon Gold?",
+      "asker": "Bruno",
+      "answer": "The treasury fee starts at 0.5% and decays linearly to 0% as revenue accumulates, similar to an emission schedule but in reverse. Once the treasury has received 10 million ERG, the treasury fee becomes 0% permanently.",
+      "responder": "Bruno",
+      "category": "tokenomics",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "treasury fee",
+        "fee decay",
+        "emission schedule"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "10:58",
+      "question": "How do transmutation fees work in Gluon Gold?",
+      "asker": "Bruno",
+      "answer": "Transmutation fees are variable and depend on volume unbalance. The fee grows linearly with volume unbalance, starting at 1% (y-intercept) with a slope of 50%. In an extreme case where you convert the entire supply from one type to another, you would pay 51% in fees.",
+      "responder": "Bruno",
+      "category": "defi",
+      "difficulty": "advanced",
+      "related_terms": [
+        "transmutation fees",
+        "volume unbalance",
+        "variable fees"
+      ]
+    }
+  ]
+}

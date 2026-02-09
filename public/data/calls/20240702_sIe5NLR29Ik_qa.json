@@ -1,0 +1,101 @@
+{
+  "call_date": "2024-07-02",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:20",
+      "question": "Why can't I vote on proposals in Paideia even though I have DAO tokens?",
+      "asker": "Marty (demonstrating)",
+      "answer": "You need to stake your tokens first before you can vote. Even if you hold DAO tokens, you must register to vote by staking them through the 'Manage Stake' section. The system will show 'Staking key is not present or in use in another transaction' if you try to vote without staking first.",
+      "responder": "Marty",
+      "category": "governance",
+      "difficulty": "beginner",
+      "related_terms": [
+        "staking",
+        "voting",
+        "DAO",
+        "Paideia"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "01:49",
+      "question": "Should I stake all my DAO tokens in Paideia?",
+      "asker": "Marty (demonstrating)",
+      "answer": "No, you shouldn't stake all your tokens because you need some unstaked tokens to create proposals and perform other actions. It's recommended to keep a portion of your tokens unstaked for transaction fees and proposal creation costs.",
+      "responder": "Marty",
+      "category": "governance",
+      "difficulty": "beginner",
+      "related_terms": [
+        "staking",
+        "tokens",
+        "proposals",
+        "transaction fees"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "04:07",
+      "question": "What's the difference between creating a discussion and creating a proposal in Paideia?",
+      "asker": "Marty (demonstrating)",
+      "answer": "Creating a discussion does not create any votes - it's for gauging community sentiment before putting something to an official vote. Discussions can later be upgraded to proposals. If you want actual voting to occur, you need to create a proposal instead of just a discussion.",
+      "responder": "Marty",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "discussions",
+        "proposals",
+        "voting",
+        "governance"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "05:10",
+      "question": "What types of actions can be included in Paideia proposals?",
+      "asker": "Marty (demonstrating)",
+      "answer": "Paideia proposals can include several types of actions: sending funds to any address on the Ergo blockchain, or updating the DAO configuration (such as changing the URL, description, logo, quorum requirements, etc.). You can also create proposals without actions for polling purposes.",
+      "responder": "Marty",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "proposals",
+        "DAO configuration",
+        "governance actions",
+        "quorum"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "06:49",
+      "question": "How much does it cost to create a proposal in Paideia?",
+      "asker": "Marty (demonstrating)",
+      "answer": "Creating a proposal costs 1000 B Paideia tokens (in the beta version). This fee is configurable and can be changed by the DAO through a governance vote. The cost is charged by the smart contracts to prevent spam proposals.",
+      "responder": "Marty",
+      "category": "governance",
+      "difficulty": "beginner",
+      "related_terms": [
+        "proposal fees",
+        "governance",
+        "smart contracts",
+        "spam prevention"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "10:48",
+      "question": "What are the quorum and approval requirements for Paideia proposals?",
+      "asker": "Marty (demonstrating)",
+      "answer": "In the demo DAO, 15% of registered vote tokens need to be cast on any proposal to meet quorum, and you need at least 60% yes votes for the proposal to pass. These settings are configurable and can be changed through governance proposals if the DAO wants to adjust participation requirements.",
+      "responder": "Marty",
+      "category": "governance",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "quorum",
+        "voting thresholds",
+        "governance parameters",
+        "DAO configuration"
+      ]
+    }
+  ]
+}

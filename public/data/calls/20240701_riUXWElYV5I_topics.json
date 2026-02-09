@@ -1,0 +1,78 @@
+{
+  "call_date": "2024-07-01",
+  "call_title": "Trade House | anon_real | Ergoversary Summit 2024",
+  "topics": [
+    {
+      "topic_id": 1,
+      "title": "Trade House Introduction and AMM vs Order Book",
+      "category": "defi",
+      "start_time": "00:14",
+      "end_time": "00:43",
+      "primary_speaker": "anon_real",
+      "summary": "Introduction of Trade House as a trustless order book DEX with partial filling capabilities. Comparison between AMM trading issues (high slippage, fixed prices, market fluctuations) versus order book trading advantages.",
+      "key_terms": [
+        "Trade House",
+        "order book DEX",
+        "AMM trading",
+        "Spectrum",
+        "slippage",
+        "partial filling",
+        "trustless"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "title": "Trade House Core Features and Technical Architecture",
+      "category": "defi",
+      "start_time": "00:43",
+      "end_time": "02:00",
+      "primary_speaker": "anon_real",
+      "summary": "Detailed explanation of Trade House's six key features including on-chain execution, partial fills, off-chain matching bots, live order tracking, competitive fees, and future integration with other liquidity sources like Spectrum LP boxes and SigmaUSD Bank Box.",
+      "key_terms": [
+        "audited contracts",
+        "on-chain execution",
+        "off-chain bots",
+        "order matching",
+        "SigmaUSD Bank Box",
+        "Spectrum LP boxes",
+        "trading fees",
+        "liquidity hub"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "title": "Trade House User Interface and Wallet Integration",
+      "category": "defi",
+      "start_time": "02:00",
+      "end_time": "02:48",
+      "primary_speaker": "anon_real",
+      "summary": "Walkthrough of the Trade House interface including wallet connectivity (Nautilus, Ergo Pay), trading pair support, order placement methods, and order management features. Demonstration of active order monitoring and cancellation functionality.",
+      "key_terms": [
+        "Nautilus wallet",
+        "Ergo Pay",
+        "trading pairs",
+        "order placement",
+        "active orders",
+        "order cancellation",
+        "wallet integration"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "title": "Order History and Execution Price Examples",
+      "category": "defi",
+      "start_time": "02:48",
+      "end_time": "03:37",
+      "primary_speaker": "anon_real",
+      "summary": "Explanation of order history tracking and detailed execution information. Real examples showing how users can achieve better execution prices than their original orders, with sell orders executing at higher prices and buy orders at lower prices than requested.",
+      "key_terms": [
+        "order history",
+        "execution details",
+        "average execution price",
+        "SigmaUSD",
+        "price improvement",
+        "order tracking"
+      ]
+    }
+  ]
+}

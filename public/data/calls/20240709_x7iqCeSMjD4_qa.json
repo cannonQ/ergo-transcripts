@@ -1,0 +1,164 @@
+{
+  "call_date": "2024-07-09",
+  "qa_pairs": [
+    {
+      "qa_id": 1,
+      "timestamp": "01:32",
+      "question": "What initially drew you to build on Ergo blockchain?",
+      "asker": "qx()",
+      "answer": "I started an NFT collection called Ergo Pixels because I saw Charles Hoskinson talking about Ergo. During that time there was only Ergo Auctions available. I found it was very easy to mint NFTs, very cheap, and the community was very welcoming.",
+      "responder": "Pixel",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "NFT",
+        "Ergo Pixels",
+        "Ergo Auctions",
+        "community"
+      ]
+    },
+    {
+      "qa_id": 2,
+      "timestamp": "11:41",
+      "question": "Is Cyberverse moving away from Ergo to other blockchains?",
+      "asker": "qx()",
+      "answer": "We will stay on Ergo. We are not moving to another chain. We are just connecting other chains. We recently connected to Cardano wallet and are planning some NFT drops there so people can fully play from Cardano as well, but we're staying on Ergo.",
+      "responder": "Pixel",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "cross-chain",
+        "Cardano",
+        "multi-chain"
+      ]
+    },
+    {
+      "qa_id": 3,
+      "timestamp": "13:03",
+      "question": "How will Cyberverse utilize Rosen Bridge for cross-chain functionality?",
+      "asker": "qx()",
+      "answer": "We'll be utilizing Rosen Bridge for our token. People can redeem Rosen CYPX from their blockchains. For example, if you are on Cardano, you can redeem Rosen CYPX and don't have to connect an Ergo wallet to redeem those tokens.",
+      "responder": "Pixel",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Rosen Bridge",
+        "CYPX",
+        "cross-chain",
+        "token bridging"
+      ]
+    },
+    {
+      "qa_id": 4,
+      "timestamp": "13:43",
+      "question": "How will NFTs work across different blockchains in Cyberverse?",
+      "asker": "qx()",
+      "answer": "If you create your account from Cardano, you can link your Ergo wallet in settings and hold those NFTs on Ergo and still use them in the game. We will also have items like jackhammers minted on different supported blockchains. Cyber Citizens will stay on Ergo, but we've talked about doing a centralized bridge so you can bridge citizens between Ergo and Cardano.",
+      "responder": "Pixel",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "NFT",
+        "cross-chain",
+        "Cyber Citizens",
+        "wallet linking"
+      ]
+    },
+    {
+      "qa_id": 5,
+      "timestamp": "17:40",
+      "question": "What new gameplay features are planned for Cyberverse?",
+      "asker": "qx()",
+      "answer": "Our next focus will be survival, like open world. There will be a lot of new items. You will be able to create items to kill mobs, to get better items, explore bigger maps. Cyber City will be a city on that map where you can go into the wilderness and kill mobs, gather resources, build things.",
+      "responder": "Pixel",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "survival mode",
+        "open world",
+        "mobs",
+        "crafting"
+      ]
+    },
+    {
+      "qa_id": 6,
+      "timestamp": "19:09",
+      "question": "How are crafting recipes designed and balanced in Cyberverse?",
+      "asker": "qx()",
+      "answer": "The crafting recipes are on me. Community members often complain because crafting takes a lot of time and stamina. Thanks to our community, I always try to balance things and improve them based on their suggestions. We're doing a rebalancing for energy items and stamina costs because the current recipes take too much time and energy.",
+      "responder": "Pixel",
+      "category": "ecosystem",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "crafting",
+        "game balance",
+        "stamina",
+        "community feedback"
+      ]
+    },
+    {
+      "qa_id": 7,
+      "timestamp": "29:51",
+      "question": "Can you play Cyberverse without owning any NFTs?",
+      "asker": "qx()",
+      "answer": "Yes, it's free to play. You can play with default characters, so you don't need a Cyber Citizen NFT. However, if you have one, you get better benefits in earning and such things. The free-to-play character cannot level up or accumulate rewards at the bank - you need an NFT for those features.",
+      "responder": "Pixel",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "free-to-play",
+        "NFT",
+        "Cyber Citizens",
+        "game benefits"
+      ]
+    },
+    {
+      "qa_id": 8,
+      "timestamp": "32:09",
+      "question": "What recent developments are happening with Ergo's core protocol?",
+      "asker": "qx()",
+      "answer": "Kushti finished Sigma State Interpreter with multiple polls for Sigma 6.0, now working on version 0.06 implementation. There's activation code with polish PRs done, need to finish unsigned begins implementation, and checking bulletproofs range proof verification. Also discussing variable difficulty settings and faster confirmations, with plans to return to sub-blocks design after 6.0.",
+      "responder": "qx()",
+      "category": "technical",
+      "difficulty": "advanced",
+      "related_terms": [
+        "Sigma State",
+        "bulletproofs",
+        "sub-blocks",
+        "protocol upgrade"
+      ]
+    },
+    {
+      "qa_id": 9,
+      "timestamp": "36:29",
+      "question": "What progress has been made on Rosen Bridge development?",
+      "asker": "qx()",
+      "answer": "Rosen finished scale testing of sending director broadcast messages up to 100 kilobytes over the network, started working on retry mechanisms for failed messages, fixing dial issues in burst messaging scenarios. For the UI, they're saving bridge token IDs in bridge assets table and implementing support for various Bitcoin address formats including P2WPKH, P2PKH and P2WSH.",
+      "responder": "qx()",
+      "category": "bridges",
+      "difficulty": "intermediate",
+      "related_terms": [
+        "Rosen Bridge",
+        "Bitcoin addresses",
+        "messaging",
+        "bridge testing"
+      ]
+    },
+    {
+      "qa_id": 10,
+      "timestamp": "37:50",
+      "question": "What new features were added to Cyberverse's racing game?",
+      "asker": "qx()",
+      "answer": "We added cyber racing multiplayer for up to 20 participants with AI bots filling remaining slots, single player mode, brake function, minimap, spectator mode, and car tiers. Cars are divided into tier 1 (slower) and tier 2 (faster) for fair racing. AI players use new drive technology and replace players who quit mid-race. Final scores are based on starting player count, not ending count.",
+      "responder": "Pixel",
+      "category": "ecosystem",
+      "difficulty": "beginner",
+      "related_terms": [
+        "multiplayer",
+        "AI bots",
+        "game tiers",
+        "racing"
+      ]
+    }
+  ]
+}
