@@ -9,7 +9,8 @@ import type {
   Topic,
   Speaker,
   AggregatedDecision,
-  AggregatedQA
+  AggregatedQA,
+  TelegramIndex,
 } from '../types';
 import {
   fetchIndex,
@@ -23,7 +24,8 @@ import {
   fetchCallMarketing,
   fetchAllQA,
   fetchAllDecisions,
-  findCallById
+  findCallById,
+  fetchTelegramIndex,
 } from '../services/dataService';
 
 interface DataContextType {
@@ -33,6 +35,10 @@ interface DataContextType {
   calls: CallSummary[];
   speakers: Speaker[];
   topics: Topic[];
+
+  // Telegram chat archive (lazy loaded on first access)
+  telegramIndex: TelegramIndex | null;
+  loadTelegramIndex: () => Promise<TelegramIndex>;
 
   // Loading states
   isLoading: boolean;
@@ -65,6 +71,7 @@ export function DataProvider({ children }: { children: React.ReactNode }) {
   const [error, setError] = useState<string | null>(null);
   const [allQA, setAllQA] = useState<AggregatedQA[] | null>(null);
   const [allDecisions, setAllDecisions] = useState<AggregatedDecision[] | null>(null);
+  const [telegramIndex, setTelegramIndex] = useState<TelegramIndex | null>(null);
 
   // Initialize core data on mount
   useEffect(() => {
@@ -136,6 +143,14 @@ export function DataProvider({ children }: { children: React.ReactNode }) {
     return fetchCallMarketing(filePrefix);
   }, []);
 
+  // Lazy load telegram navigation index
+  const loadTelegramIndex = useCallback(async (): Promise<TelegramIndex> => {
+    if (telegramIndex) return telegramIndex;
+    const data = await fetchTelegramIndex();
+    setTelegramIndex(data);
+    return data;
+  }, [telegramIndex]);
+
   const value: DataContextType = {
     index,
     stats: index?.stats || null,
@@ -155,6 +170,8 @@ export function DataProvider({ children }: { children: React.ReactNode }) {
     loadCallQA,
     loadCallDecisions,
     loadCallMarketing,
+    telegramIndex,
+    loadTelegramIndex,
   };
 
   return (

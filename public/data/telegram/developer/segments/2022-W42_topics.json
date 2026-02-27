@@ -1,0 +1,76 @@
+{
+  "chat": "developer",
+  "week": "2022-W42",
+  "topics": [
+    {
+      "title": "Ergo v4.0.105 and v5.0.0 Release Cycles",
+      "category": "technical",
+      "key_terms": ["v4.0.105", "v5.0.0", "v5.0.2", "release", "merged PRs"],
+      "participants": ["@kushti khushi", "@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "Transaction Serialization Security and Breaking Changes",
+      "category": "technical",
+      "key_terms": ["serialization", "ErgoTransaction", "sigma repo", "breaking changes", "security"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Token Limit Per Box and Wallet Constraints",
+      "category": "technical",
+      "key_terms": ["token limit", "box size", "100 tokens", "255 tokens", "protocol limits"],
+      "participants": ["@kushti khushi", "@MrStahlfelge | Won't DM", "@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "Dumdumdum Twitter-like Application Development",
+      "category": "ecosystem",
+      "key_terms": ["dumdumdum", "twitter", "backend", "frontend", "Flux deployment"],
+      "participants": ["@kii"],
+      "significance": "minor"
+    },
+    {
+      "title": "Satergo Wallet Design Beta 2 and Stratum4Ergo Mining Pool",
+      "category": "wallet",
+      "key_terms": ["Satergo", "design beta 2", "stratum4ergo", "solo mining pool"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "Explorer Data Type Mismatch and Chain-Grabber Issues",
+      "category": "technical",
+      "key_terms": ["explorer", "block 869219", "ClassCastException", "chain-grabber", "data type"],
+      "participants": ["@Flying Pig (™)", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Spectrum API Integration for Token Price Fetching",
+      "category": "ecosystem",
+      "key_terms": ["Spectrum API", "token prices", "ErgoDex", "ergcube"],
+      "participants": ["@HQΣr | Wont Dm 🐾 ⚡", "@MrStahlfelge | Won't DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "Dexy Payout Contract Development",
+      "category": "defi",
+      "key_terms": ["Dexy", "payout contract"],
+      "participants": ["@scalahub"],
+      "significance": "minor"
+    },
+    {
+      "title": "Privacy-Friendly Explorer Implementation with Spiral",
+      "category": "ecosystem",
+      "key_terms": ["spiral-rs", "privacy explorer"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti khushi",
+    "@Aberg Satergo dev",
+    "@kii",
+    "@MrStahlfelge | Won't DM"
+  ],
+  "message_count": 70
+}

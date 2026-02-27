@@ -1,0 +1,140 @@
+{
+  "chat": "developer",
+  "week": "2024-W39",
+  "topics": [
+    {
+      "title": "ErgoHack IX UI/UX and Mining Solutions",
+      "category": "ecosystem",
+      "key_terms": ["ErgoHack9", "hackathon", "UI/UX design", "mining solutions", "prizes"],
+      "participants": ["@Michael", "@kushti khushi", "@Aberg Satergo dev", "@cannon_q", "@Flying Pig (™)"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoHack IX Community Ideas Brainstorm",
+      "category": "ecosystem",
+      "key_terms": ["SigmaFi UI", "DEX routing", "limit orders", "token transaction explorer", "procedural NFTs", "mempool visualization", "FIMO launch tool", "stealth address voting", "L2 wallet"],
+      "participants": ["@kushti khushi", "@Michael", "@Paul", "@MDMTXO", "@Armeanio"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo 6.0 Protocol Development and Alpha Release",
+      "category": "technical",
+      "key_terms": ["v6.0.0-alpha1", "higher-order functions", "unsigned big integers", "Box.getReg", "devnet", "soft-fork"],
+      "participants": ["@kushti khushi", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaState Interpreter Pull Request Reviews",
+      "category": "technical",
+      "key_terms": ["sigmastate-interpreter", "PR #979", "PR #1010", "PR #997", "PR #1013", "ergomorphic"],
+      "participants": ["@kushti khushi", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus Wallet v0.14.1 Release and Transaction Chaining",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "v0.14.1", "token minting", "transaction chaining", "unconfirmed balance"],
+      "participants": ["@DiscordBridge", "@arobsn", "@HQΣr | Wont Dm 🐾 ⚡"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo-GraphQL v0.5.2 Bug Fix and Server Updates",
+      "category": "technical",
+      "key_terms": ["ergo-graphql", "v0.5.2", "chained transactions", "Spectrum LP creation"],
+      "participants": ["@arobsn", "@dmitryusov", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Paideia DAO Context Variables and Templates",
+      "category": "defi",
+      "key_terms": ["Paideia", "context vars", "ergo tree templates", "EIP-5 script", "ActionSendFundsBasic"],
+      "participants": ["@DiscordBridge", "@luivatra", "@Pgr456"],
+      "significance": "major"
+    },
+    {
+      "title": "SkyHarbor NFT Platform UI v2 and Smart Contract Updates",
+      "category": "nft",
+      "key_terms": ["SkyHarbor", "UI Version 2", "smart contracts", "backend scanner", "collection standard"],
+      "participants": ["@DiscordBridge", "@Quokka"],
+      "significance": "major"
+    },
+    {
+      "title": "Javanese Language Localization Across Ergo Tools",
+      "category": "ecosystem",
+      "key_terms": ["Basa Jawa", "Javanese translation", "Ergo Explorer", "Satergo Wallet", "SigmaUSD", "Ergo Wallet App"],
+      "participants": ["@DiscordBridge", "@chris45new"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigmanauts Mining Pool PPLNS and Token Minting",
+      "category": "mining",
+      "key_terms": ["Sigmanauts Mining Pool", "PPLNS calculation", "miner ID tokens", "beta testing", "dev.ergominers.com"],
+      "participants": ["@Marc the Shark"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaSpace API Expansion and Rosen Bridge Support",
+      "category": "bridges",
+      "key_terms": ["sigmaspace.io", "alternative explorer API", "rosen bridge", "Ergo Foundation sponsorship"],
+      "participants": ["@DiscordBridge", "@Pgr456"],
+      "significance": "major"
+    },
+    {
+      "title": "Celaut Payment System and Benefactor Platform",
+      "category": "defi",
+      "key_terms": ["Celaut", "payment system", "CATs benefaction", "Benefactor Platform"],
+      "participants": ["@DiscordBridge", "@jossemii"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge Testing Volunteer Recruitment",
+      "category": "bridges",
+      "key_terms": ["Rosen Alert", "final round testing", "30+ volunteers", "testbed"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoPlatform Website Redesign Integration",
+      "category": "ecosystem",
+      "key_terms": ["ErgoPlatform website", "design integration", "year-long project"],
+      "participants": ["@Austen Milbarge // GreasyCEX"],
+      "significance": "major"
+    },
+    {
+      "title": "Telegram Group Structure and Mobile UX Concerns",
+      "category": "community",
+      "key_terms": ["Telegram groups", "mobile UX", "channel organization", "sigmanuts"],
+      "participants": ["@Aberg Satergo dev", "@Flying Pig (™)", "@kushti khushi", "@Glasgow｜WON'T DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "NFT Holder and Collection Scanning Tools",
+      "category": "nft",
+      "key_terms": ["NFT holders", "collection holders", "ergo-node-explorer", "sigmaspace", "fetch-collection-holders"],
+      "participants": ["@DiscordBridge", "@mgpai", "@doomtroll", "@Flying Pig (™)"],
+      "significance": "major"
+    },
+    {
+      "title": "Educational Workshop Series on Ergo Foundations",
+      "category": "community",
+      "key_terms": ["blockchain foundations", "hash functions", "zero-knowledge proofs", "UTXO model", "Sigma protocols", "peer-to-peer networks"],
+      "participants": ["@kushti khushi", "@ab1aut_", "@mgpai"],
+      "significance": "major"
+    },
+    {
+      "title": "Block Propagation Optimization and Subblocks",
+      "category": "technical",
+      "key_terms": ["subblocks", "input blocks", "ordering blocks", "compact blocks", "Prism", "parallel PoW"],
+      "participants": ["@kushti khushi", "@dusek_", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Transaction Scalability and TPS Claims Analysis",
+      "category": "technical",
+      "key_terms": ["TPS", "Schnorr signatures", "Nexa", "block propagation", "security vs scalability"],
+      "participants": ["@kushti khushi", "@dusek_", "@alexandrianwisdom"],
+      "significance": "major"
+    },
+    {
+      "title": "Token Creation Metadata and Logo Management",
+      "category": "ecosystem",

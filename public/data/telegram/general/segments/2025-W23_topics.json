@@ -1,0 +1,152 @@
+{
+  "chat": "Ergo General",
+  "week": "2025-W23",
+  "topics": [
+    {
+      "title": "Node 6.0 Release Candidate and Testing",
+      "category": "technical",
+      "key_terms": ["Node 6.0", "RC6", "sub-blocks", "sigma chains", "testnet"],
+      "participants": ["@kushti_ru", "@TMR.ΣRG", "@Armeanio"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge Integration and Cross-Chain Operations",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "Bitcoin", "Cardano", "rsBTC", "watchers", "liquidity"],
+      "participants": ["@Armeanio", "@Flying Pig (™)", "@kushti_ru"],
+      "significance": "major"
+    },
+    {
+      "title": "Onramper and Banxa Fiat Onramp Integration Raffle",
+      "category": "ecosystem",
+      "key_terms": ["fiat onramp", "Banxa", "Onramper", "Nautilus wallet", "USD access", "raffle"],
+      "participants": ["@kushti_ru", "@cannon_q", "@Salu", "@qx()"],
+      "significance": "major"
+    },
+    {
+      "title": "DexyUSD Stablecoin Testing and Liquidity Operations",
+      "category": "defi",
+      "key_terms": ["DexyUSD", "DexyGold", "stablecoin", "liquidity", "mainnet"],
+      "participants": ["@kushti_ru", "@HQΣr", "@Armeanio"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma Chains and Merged Mining Architecture",
+      "category": "technical",
+      "key_terms": ["sigma chains", "merged mining", "consensus layer", "sidechain", "PoW"],
+      "participants": ["@Armeanio", "@TMR.ΣRG", "@Shai Deshe"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoPulse P2P Messaging Platform Development",
+      "category": "ecosystem",
+      "key_terms": ["Pulse", "p2p messaging", "on-chain", "mempool", "HQ3r"],
+      "participants": ["@HQΣr", "@Giufa OnliאΣ", "@qx()"],
+      "significance": "major"
+    },
+    {
+      "title": "Kashpa Community Integration and Welcome of Shai Deshe",
+      "category": "community",
+      "key_terms": ["Kaspa", "Shai Deshe", "PoW protocols", "community integration"],
+      "participants": ["@Shai Deshe", "@Cheese", "@kushti_ru", "@TMR.ΣRG"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoPulse Game Development and Security Postponement",
+      "category": "ecosystem",
+      "key_terms": ["TMR game", "ErgoScript", "security issues", "smart contracts"],
+      "participants": ["@TMR.ΣRG", "@HQΣr", "@Armeanio"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mining Difficulty and Network Parameters Discussion",
+      "category": "mining",
+      "key_terms": ["difficulty", "Autolykos", "mining pools", "hashrate", "network"],
+      "participants": ["@Shai Deshe", "@TMR.ΣRG", "@Pulsarz"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo vs Bitcoin Comparative Analysis and Philosophy",
+      "category": "community",
+      "key_terms": ["Bitcoin", "Ergo standard", "PoW", "decentralization", "principles"],
+      "participants": ["@mrtn_ergo", "@Grayman", "@Bruno Woltzenlogel Paleo"],
+      "significance": "major"
+    },
+    {
+      "title": "Storage Rent and UTXO Lifecycle Management",
+      "category": "technical",
+      "key_terms": ["storage rent", "demurrage", "4-year cycle", "UTXO preservation"],
+      "participants": ["@LouisLibre", "@Pulsarz", "@kushti_ru"],
+      "significance": "minor"
+    },
+    {
+      "title": "Explorer Infrastructure and GraphQL Availability",
+      "category": "ecosystem",
+      "key_terms": ["explorers", "GraphQL", "API", "Sigmaspace", "node infrastructure"],
+      "participants": ["@qx()", "@Pgr456", "@HQΣr"],
+      "significance": "minor"
+    },
+    {
+      "title": "DAO Governance and Reputation Systems",
+      "category": "governance",
+      "key_terms": ["DAO", "reputation system", "voting", "Paideia", "dot collector"],
+      "participants": ["@qx()", "@TMR.ΣRG", "@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "Oracle Pools and Decentralized Data Sources",
+      "category": "defi",
+      "key_terms": ["oracle pools", "data sources", "decentralization", "incentives"],
+      "participants": ["@qx()", "@cannon_q", "@mx"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mempool Visualization and Transaction Monitoring Tools",
+      "category": "ecosystem",
+      "key_terms": ["mempool visualizer", "transaction monitoring", "codeutxo", "real-time"],
+      "participants": ["@qx()", "@Pulsarz", "@HQΣr"],
+      "significance": "minor"
+    },
+    {
+      "title": "Coin Market League Voting and Community Engagement",
+      "category": "marketing",
+      "key_terms": ["Coin Market League", "voting", "rankings", "ERG promotion"],
+      "participants": ["@Yulius Kristianto", "@TMR.ΣRG"],
+      "significance": "minor"
+    },
+    {
+      "title": "Community Chat Moderation and Banning Controversies",
+      "category": "community",
+      "key_terms": ["moderation", "bans", "community guidelines", "governance"],
+      "participants": ["@Glasgow", "@c8", "@kusht_ru"],
+      "significance": "minor"
+    },
+    {
+      "title": "NIPoPoWs and Light Client Implementation",
+      "category": "technical",
+      "key_terms": ["NIPoPoWs", "light clients", "mobile nodes", "UTXO snapshots"],
+      "participants": ["@Shai Deshe", "@Pulsarz", "@TMR.ΣRG"],
+      "significance": "minor"
+    },
+    {
+      "title": "Lithos Protocol and Decentralized Mining Pools",
+      "category": "mining",
+      "key_terms": ["Lithos", "decentralized pools", "outsourcable puzzle", "merged mining"],
+      "participants": ["@mrtn_ergo", "@TMR.ΣRG", "@HQΣr"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Standard and Bitcoin Standard Comparison Book Project",
+      "category": "community",
+      "key_terms": ["Ergo Standard", "Bitcoin Standard", "research", "philosophy"],
+      "participants": ["@mrtn_ergo", "@TMR.ΣRG"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti_ru",
+    "@Armeanio",
+    "@HQΣr",
+    "@qx()",
+    "@TMR.ΣRG",
+    "@mr

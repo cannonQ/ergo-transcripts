@@ -1,21 +1,65 @@
 import React, { useEffect, useState, useMemo } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link, useSearchParams } from 'react-router-dom';
-import { Search, Mic, User, Hash, ArrowLeft, Filter } from 'lucide-react';
+import { Search, Mic, User, Hash, ArrowLeft, Filter, MessageSquare } from 'lucide-react';
 import { useSearch } from '../contexts/SearchContext';
+import type { TelegramSearchResult } from '../contexts/SearchContext';
 
 const TYPE_CONFIG: Record<string, { label: string; icon: typeof Mic; color: string; activeColor: string }> = {
-  speaker: { label: 'Speaker', icon: User, color: 'text-term-green', activeColor: 'bg-term-green/20 border-term-green/50 text-term-green' },
-  call:    { label: 'Call',    icon: Mic,  color: 'text-term-cyan',  activeColor: 'bg-term-cyan/20 border-term-cyan/50 text-term-cyan' },
-  topic:   { label: 'Topic',   icon: Hash, color: 'text-ergo-orange', activeColor: 'bg-ergo-orange/20 border-ergo-orange/50 text-ergo-orange' },
+  speaker: { label: 'Speaker', icon: User,          color: 'text-term-green',  activeColor: 'bg-term-green/20 border-term-green/50 text-term-green' },
+  call:    { label: 'Call',    icon: Mic,            color: 'text-term-cyan',   activeColor: 'bg-term-cyan/20 border-term-cyan/50 text-term-cyan' },
+  topic:   { label: 'Topic',   icon: Hash,           color: 'text-ergo-orange', activeColor: 'bg-ergo-orange/20 border-ergo-orange/50 text-ergo-orange' },
+  chat:    { label: 'Chat',    icon: MessageSquare,  color: 'text-purple-400',  activeColor: 'bg-purple-500/20 border-purple-500/50 text-purple-400' },
 };
+
+function monthLabel(period: string): string {
+  const [year, month] = period.split('-');
+  const d = new Date(parseInt(year), parseInt(month) - 1, 1);
+  return d.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+}
+function weekLabel(period: string): string {
+  const m = period.match(/^(\d{4})-W(\d+)([a-z]?)$/);
+  if (!m) return period;
+  return `Week ${parseInt(m[2])} · ${m[1]}${m[3] ? ` (${m[3].toUpperCase()})` : ''}`;
+}
+
+function TelegramResultCard({ result }: { result: TelegramSearchResult }) {
+  const isMonthly = /^\d{4}-\d{2}$/.test(result.period);
+  const title = isMonthly ? monthLabel(result.period) : weekLabel(result.period);
+  return (
+    <Link
+      to={`/telegram/${result.channel}/${result.period}`}
+      className="block bg-ergo-dark border border-purple-500/20 rounded-lg p-4 hover:border-purple-500/50 transition-all"
+    >
+      <div className="flex items-center gap-2 mb-2">
+        <div className="p-1.5 bg-ergo-darker rounded">
+          <MessageSquare className="w-4 h-4 text-purple-400" />
+        </div>
+        <span className="text-xs font-mono text-ergo-muted uppercase">
+          {result.channel} · {result.type}
+        </span>
+        <span className="text-xs font-mono text-ergo-muted ml-auto">{result.period}</span>
+      </div>
+      <h3 className="font-mono text-sm font-semibold text-purple-300 mb-2 line-clamp-2">{title}</h3>
+      {result.excerpt && (
+        <p className="text-ergo-light/60 text-xs line-clamp-2 mb-2">{result.excerpt}</p>
+      )}
+      {result.participants.length > 0 && (
+        <p className="text-xs font-mono text-ergo-muted line-clamp-1">
+          {result.participants.slice(0, 4).join(', ')}
+        </p>
+      )}
+    </Link>
+  );
+}
 
 export default function SearchResults() {
   const [searchParams] = useSearchParams();
   const query = searchParams.get('q') || '';
-  const { results, isSearching, setQuery } = useSearch();
+  const { results, telegramResults, isSearching, setQuery } = useSearch();
   const [activeTypes, setActiveTypes] = useState<Set<string>>(new Set());
   const [refineQuery, setRefineQuery] = useState('');
+  const [showChat, setShowChat] = useState(true);
 
   // Sync URL query param to search context
   useEffect(() => {
@@ -32,13 +76,13 @@ export default function SearchResults() {
 
   // Count results per type (before filtering)
   const typeCounts = useMemo(() => {
-    const counts: Record<string, number> = { speaker: 0, call: 0, topic: 0 };
+    const counts: Record<string, number> = { speaker: 0, call: 0, topic: 0, chat: telegramResults.length };
     for (const r of results) {
       const t = r.searchType;
       if (t in counts) counts[t]++;
     }
     return counts;
-  }, [results]);
+  }, [results, telegramResults]);
 
   // Apply type filter + refine query
   const filteredResults = useMemo(() => {
@@ -127,15 +171,34 @@ export default function SearchResults() {
       </div>
 
       {/* Filter bar — only show when there are results */}
-      {!isSearching && query && results.length > 0 && (
+      {!isSearching && query && (results.length > 0 || telegramResults.length > 0) && (
         <div className="flex flex-col sm:flex-row gap-3 mb-6">
           {/* Type pills */}
           <div className="flex flex-wrap gap-2">
             {Object.entries(TYPE_CONFIG).map(([type, cfg]) => {
               const count = typeCounts[type] || 0;
               if (count === 0) return null;
-              const isActive = activeTypes.has(type);
               const Icon = cfg.icon;
+              if (type === 'chat') {
+                // Chat pill toggles the entire chat section
+                return (
+                  <button
+                    key={type}
+                    onClick={() => setShowChat(v => !v)}
+                    className={`
+                      inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border font-mono text-xs transition-all
+                      ${showChat
+                        ? cfg.activeColor
+                        : 'border-ergo-orange/20 text-ergo-muted hover:border-ergo-orange/40 hover:text-ergo-light'}
+                    `}
+                  >
+                    <Icon className="w-3.5 h-3.5" />
+                    {cfg.label}
+                    <span className={`${showChat ? 'opacity-80' : 'text-ergo-muted'}`}>({count})</span>
+                  </button>
+                );
+              }
+              const isActive = activeTypes.has(type);
               return (
                 <button
                   key={type}
@@ -247,7 +310,7 @@ export default function SearchResults() {
       )}
 
       {/* No Results — from search itself */}
-      {!isSearching && query && results.length === 0 && (
+      {!isSearching && query && results.length === 0 && telegramResults.length === 0 && (
         <div className="text-center py-12">
           <Search className="w-16 h-16 text-ergo-muted mx-auto mb-4" />
           <h2 className="text-xl font-mono font-semibold mb-2">No results found</h2>
@@ -268,12 +331,55 @@ export default function SearchResults() {
               Browse Topics
             </Link>
             <Link
-              to="/faq"
+              to="/telegram"
               className="px-4 py-2 bg-ergo-dark border border-ergo-orange/30 rounded font-mono text-sm hover:border-ergo-orange transition-colors"
             >
-              Browse FAQ
+              Browse Chat Archive
             </Link>
           </div>
+        </div>
+      )}
+
+      {/* Chat Archive Results */}
+      {!isSearching && query && telegramResults.length > 0 && showChat && (
+        <div className="mt-8">
+          <div className="flex items-center gap-3 mb-4">
+            <MessageSquare className="w-5 h-5 text-purple-400" />
+            <h2 className="text-xl font-bold font-mono text-purple-400">Chat Archive</h2>
+            <span className="font-mono text-sm text-ergo-muted">
+              {telegramResults.length} result{telegramResults.length !== 1 ? 's' : ''}
+            </span>
+            <button
+              onClick={() => setShowChat(false)}
+              className="ml-auto text-xs font-mono text-ergo-muted hover:text-ergo-light transition-colors"
+            >
+              Hide
+            </button>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
+            {telegramResults.slice(0, 20).map((result, i) => (
+              <TelegramResultCard key={`tg-${result.id}-${i}`} result={result} />
+            ))}
+          </div>
+          {telegramResults.length > 20 && (
+            <p className="mt-4 text-sm font-mono text-ergo-muted text-center">
+              Showing 20 of {telegramResults.length} chat results.{' '}
+              <Link to="/telegram" className="text-purple-400 hover:text-purple-300">Browse Chat Archive →</Link>
+            </p>
+          )}
+        </div>
+      )}
+
+      {/* Re-show chat toggle if hidden */}
+      {!isSearching && query && telegramResults.length > 0 && !showChat && (
+        <div className="mt-4 text-center">
+          <button
+            onClick={() => setShowChat(true)}
+            className="inline-flex items-center gap-2 px-4 py-2 bg-purple-500/10 border border-purple-500/30 rounded font-mono text-sm hover:border-purple-500/60 transition-colors text-purple-400"
+          >
+            <MessageSquare className="w-4 h-4" />
+            Show {telegramResults.length} chat result{telegramResults.length !== 1 ? 's' : ''}
+          </button>
         </div>
       )}
     </div>

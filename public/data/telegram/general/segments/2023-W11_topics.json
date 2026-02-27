@@ -1,0 +1,136 @@
+{
+  "chat": "Ergo General",
+  "week": "2023-W11",
+  "topics": [
+    {
+      "title": "Rosen Bridge public testing and mainnet deployment",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "cross-chain", "Cardano", "test tokens", "guards", "watchers", "multisig"],
+      "participants": ["@MHS_SAM", "@kushti_ru", "@qx()", "@HQΣr", "@Pulsarz", "@Misfit_Toy"],
+      "significance": "major"
+    },
+    {
+      "title": "SigUSD stablecoin security and oracle consensus issues",
+      "category": "defi",
+      "key_terms": ["SigUSD", "SigRSV", "oracle", "consensus", "over-collateralized", "bear whale"],
+      "participants": ["@Unknown", "@qx()", "@Glasgow｜WON'T_DM", "@kushti_ru"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoHack and Ergo Summit: Cypherpunk Finance projects showcase",
+      "category": "ecosystem",
+      "key_terms": ["ErgoHack", "Ergo Summit", "Cypherpunk Finance", "Lilium", "Paideia", "Grand Gambit", "SigmaFi"],
+      "participants": ["@CW", "@Unknown", "@Ergo_NEWS", "@Grand_Gambit"],
+      "significance": "major"
+    },
+    {
+      "title": "Paideia DAO toolkit MVP release and governance features",
+      "category": "governance",
+      "key_terms": ["Paideia", "DAO", "governance", "proposals", "staking", "treasury management", "April MVP"],
+      "participants": ["@Gazza", "@LuivatraEP", "@kushti_ru", "@yasha"],
+      "significance": "major"
+    },
+    {
+      "title": "UTXO model explanation and storage rent mechanics",
+      "category": "technical",
+      "key_terms": ["UTXO", "eUTXO", "boxes", "storage rent", "consolidation", "4 years", "32 years"],
+      "participants": ["@kushti_ru", "@qx()", "@A_P", "@Pulsarz", "@Flying_Pig"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoMixer and privacy features including stealth addresses",
+      "category": "technical",
+      "key_terms": ["ErgoMixer", "mixing", "ring signatures", "stealth addresses", "covert addresses", "zero-join", "privacy"],
+      "participants": ["@rustinmyeye", "@qx()", "@Hassen", "@TMR.ΣRG", "@Glasgow｜WON'T_DM"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma protocols and cryptographic primitives for contracts",
+      "category": "technical",
+      "key_terms": ["sigma protocols", "composable", "zero-knowledge proofs", "cryptography", "ErgoScript"],
+      "participants": ["@Glasgow｜WON'T_DM", "@kushti_ku", "@Misfit_Toy"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mining updates and hardware requirements for Autolykos II",
+      "category": "mining",
+      "key_terms": ["Autolykos II", "GPU mining", "memory requirements", "emission reduction", "memtable increase"],
+      "participants": ["@kushti_ru", "@Unknown", "@HQΣr"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ledger hardware wallet integration and token limits",
+      "category": "wallet",
+      "key_terms": ["Ledger", "Nautlius", "20 token limit", "Ledger Stax", "Ledger Live"],
+      "participants": ["@Pulsarz", "@CW", "@A_P", "@TMR.ΣRG", "@HelixEvo"],
+      "significance": "major"
+    },
+    {
+      "title": "CEX listings and KuCoin adoption for ERG accessibility",
+      "category": "marketing",
+      "key_terms": ["KuCoin", "CEX listing", "Coinbase", "user accessibility", "DEX", "Spectrum Finance"],
+      "participants": ["@Hassen", "@qx()", "@Unknown", "@chrom"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoTipper bot token distribution and tipping mechanisms",
+      "category": "community",
+      "key_terms": ["ErgoTipper", "token tips", "Comet", "ChickenNuggies", "Love", "WoodenNickels"],
+      "participants": ["@qx()", "@Armeanio", "@HQΣr", "@kushti_ru"],
+      "significance": "minor"
+    },
+    {
+      "title": "Spectrum Finance and SingleTxSwap for DEX trading",
+      "category": "defi",
+      "key_terms": ["Spectrum Finance", "SingleTxSwap", "Discord swap", "atomic swap", "liquidity"],
+      "participants": ["@Unknown", "@HQΣr", "@qx()"],
+      "significance": "minor"
+    },
+    {
+      "title": "SigmaFi lending platform TVL growth and loan requests",
+      "category": "defi",
+      "key_terms": ["SigmaFi", "TVL", "lending", "loan requests", "growth"],
+      "participants": ["@kushti_ru", "@qx()"],
+      "significance": "minor"
+    },
+    {
+      "title": "Grand Gambit casino development and community engagement",
+      "category": "ecosystem",
+      "key_terms": ["Grand Gambit", "casino", "Comet tokens", "open source", "roulette"],
+      "participants": ["@Grand_Gambit", "@qx()", "@CW", "@yasha"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo wallet options and security best practices",
+      "category": "wallet",
+      "key_terms": ["Nautlius", "Terminus", "Yoroi", "Zelcore", "SAFEW", "hardware wallet"],
+      "participants": ["@Unknown", "@HQΣr", "@qx()", "@TMR.ΣRG"],
+      "significance": "minor"
+    },
+    {
+      "title": "New York crypto regulations and KYC requirements",
+      "category": "governance",
+      "key_terms": ["BitLicense", "New York", "KYC", "crypto crackdown", "regulatory"],
+      "participants": ["@Armeanio", "@qx()"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo developer education and Deco learning resources",
+      "category": "ecosystem",
+      "key_terms": ["Deco", "developer training", "ErgoScript", "ergpy", "programming"],
+      "participants": ["@Hassen", "@qx()", "@Glasgow｜WON'T_DM", "@chrom"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoCube ecosystem resource and wallet rankings",
+      "category": "marketing",
+      "key_terms": ["ErgoCube", "ecosystem tools", "wallet rankings", "community resources"],
+      "participants": ["@HQΣr", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Privacy and mixer usage patterns for transaction mixing",
+      "category": "technical",
+      "key_terms": ["mixer hops", "privacy", "transaction tracing", "covert addresses"],
+      "participants": ["@Hassen", "@qx()", "@Pulsarz", "@kushti_ru"],
+      "significance": "minor"

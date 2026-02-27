@@ -1,0 +1,163 @@
+{
+  "chat": "developer",
+  "week": "2025-W50",
+  "topics": [
+    {
+      "title": "Ergo Wallet App Release Candidate Planning",
+      "category": "wallet",
+      "key_terms": ["PR#188", "PR#183", "PR#182", "release candidate", "wallet-app"],
+      "participants": ["@kushti khushi", "@Superellipse"],
+      "significance": "major"
+    },
+    {
+      "title": "Sub-blocks (Matrix Protocol) Development and Testing",
+      "category": "technical",
+      "key_terms": ["sub-blocks", "Matrix protocol", "devnet", "input/ordering blocks", "deployment scenario"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo 6.0.2 Node Release Review and Finalization",
+      "category": "technical",
+      "key_terms": ["6.0.2 release", "PR review", "node implementation", "protocol updates"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoScript Language Server Provider (LSP) Development",
+      "category": "technical",
+      "key_terms": ["LSP", "ErgoScript", "language server", "code checker", "IDE support"],
+      "participants": ["@kushti khushi", "@anon_br Σ", "@MGpai"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge Base Chain Integration and Token Map Features",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "Base chain", "L2 integration", "token map", "unbridgeable tokens"],
+      "participants": ["@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge Guard Service Multi-Destination Fee Support",
+      "category": "bridges",
+      "key_terms": ["guard-service", "bridge fees", "TSS", "multisig", "sign status pulling"],
+      "participants": ["@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "USE and NIGHT Token Support in Rosen Bridge",
+      "category": "bridges",
+      "key_terms": ["USE token", "NIGHT token", "watcher service", "guard service", "v6.0.2"],
+      "participants": ["@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Unstoppable Hackathon Ergo Project Submissions",
+      "category": "ecosystem",
+      "key_terms": ["Unstoppable Hackathon", "Silvercents", "LSP for ErgoScript", "private offchain cash", "bounties"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "DuckPools v2 Multi-Collateral Borrowing and Quote Contracts",
+      "category": "defi",
+      "key_terms": ["DuckPools", "v2 pools", "quote contracts", "interest rate contracts", "multi-collateral"],
+      "participants": ["@cannon_q"],
+      "significance": "major"
+    },
+    {
+      "title": "Crux DEX Direct Pool Interaction and Swap Implementation",
+      "category": "defi",
+      "key_terms": ["Crux", "swap mechanism", "direct pool interaction", "mempool support", "subblocks"],
+      "participants": ["@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Explorer Infrastructure Redundancy and Performance Tuning",
+      "category": "technical",
+      "key_terms": ["explorer infra", "p2p infrastructure", "query optimization", "load balancing", "geolocation routing"],
+      "participants": ["@qx()"],
+      "significance": "major"
+    },
+    {
+      "title": "Basis/ChainCash Paper Presentation and Testing",
+      "category": "research",
+      "key_terms": ["Basis", "ChainCash", "tracker box", "First Stability Workshop", "private offchain cash"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "USE Token Implementation and LP Development",
+      "category": "defi",
+      "key_terms": ["USE token", "offchain bots", "LP implementation", "DexyGold", "token implementation"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "GitCircles Ergo Integration Development",
+      "category": "ecosystem",
+      "key_terms": ["GitCircles", "Ergo integration", "vibe-coding", "community website"],
+      "participants": ["@kushti khushi", "@bro_etiket"],
+      "significance": "minor"
+    },
+    {
+      "title": "Degens.World LLM Contract Auditing and Xergon AI Models",
+      "category": "ecosystem",
+      "key_terms": ["Degens.World", "contract auditing", "LLM integration", "Xergon", "local models"],
+      "participants": ["@ArØhβΣ @Arohbe 🍪"],
+      "significance": "major"
+    },
+    {
+      "title": "Game of Prompts Contract Testing and Simplification",
+      "category": "defi",
+      "key_terms": ["Game of Prompts", "contract tests", "ERG wrapper", "contract simplification"],
+      "participants": ["@Josemi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Claude AI Skills for Ergo Contract Auditing",
+      "category": "ecosystem",
+      "key_terms": ["Claude skills", "contract audit skill", "LLM projects", "AI-assisted development"],
+      "participants": ["@kushti khushi", "@cannon_q", "@n1ur0"],
+      "significance": "minor"
+    },
+    {
+      "title": "Rosen Bridge Box Selection and Scanner Refactoring",
+      "category": "bridges",
+      "key_terms": ["ergo-box-selection", "scanner", "custom change boxes", "abstract extractors", "parallel requests"],
+      "participants": ["@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "RustChain Nodes, Miners, and AI-Designed Game Levels",
+      "category": "ecosystem",
+      "key_terms": ["RustChain", "mining", "Xonotic fork", "AI level design", "MCP"],
+      "participants": ["@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Faku Website v2 Development and Game Payouts",
+      "category": "ecosystem",
+      "key_terms": ["Faku", "website v2", "game payouts", "HL2DM", "onchain integration"],
+      "participants": ["@Not Jumei"],
+      "significance": "minor"
+    },
+    {
+      "title": "No-Code Blockly-Based Contract Development Tool",
+      "category": "technical",
+      "key_terms": ["blockly", "no-code tool", "contract development", "hackathon team"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti khushi",
+    "@DiscordBridge",
+    "@cannon_q",
+    "@ArØhβΣ @Arohbe 🍪",
+    "@Not Jumei",
+    "@Superellipse",
+    "@anon_br Σ"
+  ],
+  "message_count": 76
+}

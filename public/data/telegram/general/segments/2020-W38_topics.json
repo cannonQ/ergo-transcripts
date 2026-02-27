@@ -1,0 +1,163 @@
+{
+  "chat": "general",
+  "week": "2020-W38",
+  "topics": [
+    {
+      "title": "P2S vs P2SH contract deployment and UTXO addressing",
+      "category": "technical",
+      "key_terms": ["P2S addresses", "P2SH addresses", "contract serialization", "UTXO", "smart contracts"],
+      "participants": ["@Unknown", "@scalahub", "@Gregg из Аризоны"],
+      "significance": "major"
+    },
+    {
+      "title": "Oracle pool datapoint hash submission and copy resistance",
+      "category": "defi",
+      "key_terms": ["oracle pools", "hash submission", "salt", "datapoint copying prevention", "oracle specification"],
+      "participants": ["@Unknown", "@scalahub", "@Gregg из Аризоны"],
+      "significance": "major"
+    },
+    {
+      "title": "UTXO model advantages over account-based smart contract systems",
+      "category": "technical",
+      "key_terms": ["UTXO model", "Emurgo Research", "smart contracts", "account-based systems", "eUTXO"],
+      "participants": ["@Unknown", "@Gregg из Аризоны", "@Richi [MANA]"],
+      "significance": "major"
+    },
+    {
+      "title": "Storage rent and garbage collection preventing contract spam",
+      "category": "technical",
+      "key_terms": ["storage rent", "garbage collection", "UTXO spam", "blockchain bloat"],
+      "participants": ["@Unknown", "@kushti khushi", "@Gregg из Аризоны"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo blockchain throughput: block size and computational cost increases",
+      "category": "technical",
+      "key_terms": ["max block size", "1M bytes", "computational cost limit", "TPS", "soft forks", "miner voting"],
+      "participants": ["@kushti khushi", "@Cheng.alph"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo mainnet liquidity and exchange listings challenges",
+      "category": "ecosystem",
+      "key_terms": ["Hotbit", "Tidex", "exchange listing", "liquidity", "market spread", "trading pairs"],
+      "participants": ["@Guy", "@mensrea", "@Kookster", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Yoroi wallet integration with Ergo backend development",
+      "category": "wallet",
+      "key_terms": ["Yoroi", "Emurgo", "wallet integration", "smart contracts", "browser extension"],
+      "participants": ["@Sebastien | Midnight / Starstream", "@kushti khushi", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Explorer backend 3.1.0 release and rich list implementation",
+      "category": "ecosystem",
+      "key_terms": ["explorer backend", "rich list", "SQL optimizations", "data loading"],
+      "participants": ["@kushti khushi", "@Dmitry Usov", "@Oskin1"],
+      "significance": "major"
+    },
+    {
+      "title": "Node dashboard feature enhancements with price feeds",
+      "category": "wallet",
+      "key_terms": ["node interface", "USD value display", "oracle pool data", "CoinGecko", "privacy concerns"],
+      "participants": ["@Dmitry Usov", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Multi-asset support for Ergo via Midnight/Starstream",
+      "category": "technical",
+      "key_terms": ["multi-asset", "native tokens", "Midnight", "asset support"],
+      "participants": ["@Sebastien | Midnight / Starstream"],
+      "significance": "major"
+    },
+    {
+      "title": "ViteX node withdrawal issues and resolution",
+      "category": "ecosystem",
+      "key_terms": ["ViteX", "node problems", "ERG withdrawals", "exchange support"],
+      "participants": ["@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Scorex framework relationship to Ergo blockchain",
+      "category": "technical",
+      "key_terms": ["Scorex", "framework", "barebones", "library"],
+      "participants": ["@mensrea", "@scalahub", "@kushti_ru"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo vs Cardano collaboration and positioning",
+      "category": "ecosystem",
+      "key_terms": ["Cardano", "collaboration", "Goguen", "UTXO-based", "smart contracts"],
+      "participants": ["@Hans Maulwurf", "@Selim", "@Crypto Rev"],
+      "significance": "major"
+    },
+    {
+      "title": "Distributed signatures and ZK treasury applications",
+      "category": "defi",
+      "key_terms": ["distributed signatures", "ZK treasury", "committee-based systems", "LETS"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Mining incentives and accumulation versus immediate selling",
+      "category": "mining",
+      "key_terms": ["mining rewards", "miner accumulation", "supply distribution", "daily emissions"],
+      "participants": ["@kushti khushi", "@Dmitry Usov", "@Renshi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Exchange listing costs and natural demand requirements",
+      "category": "ecosystem",
+      "key_terms": ["Binance listing", "exchange fees", "tokenomics", "word of mouth demand"],
+      "participants": ["@Damon AndTheSea", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Developer chat and software releases coordination",
+      "category": "governance",
+      "key_terms": ["weekly dev chat", "Discord", "software updates", "3.1.0 release"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Magnum wallet address handling and transaction confirmation delays",
+      "category": "wallet",
+      "key_terms": ["Magnum wallet", "address reuse", "transaction confirmation", "wallet behavior"],
+      "participants": ["@Skeeter Valentine", "@Jonesy"],
+      "significance": "minor"
+    },
+    {
+      "title": "Oracle pool script size and memory implications",
+      "category": "technical",
+      "key_terms": ["oracle scripts", "script size", "datapoint stage", "live epoch", "ErgoTree"],
+      "participants": ["@Gregg из Аризоны", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "NiPoPoWs for node bootstrapping and syncing optimization",
+      "category": "technical",
+      "key_terms": ["NiPoPoWs", "node bootstrapping", "sync speed", "history size"],
+      "participants": ["@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Blockfolio signal integration for community updates",
+      "category": "marketing",
+      "key_terms": ["Blockfolio", "signal", "community communication"],
+      "participants": ["@Kookster"],
+      "significance": "minor"
+    },
+    {
+      "title": "Hardfork discussions and Ledger support timeline",
+      "category": "governance",
+      "key_terms": ["hardfork", "Ledger", "September timeline"],
+      "participants": ["@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Trader sentiment and market manipulation discussions",
+      "category": "community",
+      "key_terms": ["whale suppression", "price action", "market manipulation", "accumulation"],
+      "participants":

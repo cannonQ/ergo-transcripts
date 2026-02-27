@@ -1,0 +1,160 @@
+{
+  "chat": "general",
+  "week": "2024-W36",
+  "topics": [
+    {
+      "title": "ChainCash Server redemption support and API implementation",
+      "category": "technical",
+      "key_terms": ["ChainCash", "redemption", "API", "gold-denominated notes"],
+      "participants": ["@kushti khushi", "@Patato"],
+      "significance": "major"
+    },
+    {
+      "title": "Node synchronization and database corruption issues",
+      "category": "technical",
+      "key_terms": ["LevelDB", "RocksDB", "database corruption", "node sync", "CURRENT file"],
+      "participants": ["@Patato", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo 6.0 devnet testing and upcoming features",
+      "category": "technical",
+      "key_terms": ["devnet", "higher-order lambdas", "unsigned big int", "AVL+ trees", "contracts"],
+      "participants": ["@kushti khushi", "@Cheese"],
+      "significance": "major"
+    },
+    {
+      "title": "BlocX Autolykos 2 implementation and code reuse",
+      "category": "technical",
+      "key_terms": ["Autolykos", "BlocX", "code copying", "pow scheme", "license change"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoScript and DeCo developer education resources",
+      "category": "technical",
+      "key_terms": ["ErgoScript", "DeCo course", "eUTXO", "AppKit", "contracts"],
+      "participants": ["@Cheese", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Single Tx Swap trustless P2P escrow service",
+      "category": "defi",
+      "key_terms": ["Single Tx Swap", "P2P escrow", "multisig", "trustless", "cypherpunk"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Gluon Gold SDK raffle campaign and funding progress",
+      "category": "governance",
+      "key_terms": ["Gluon Gold SDK", "raffle", "fundraising", "stable coins", "contribution tokens"],
+      "participants": ["@kushti khushi", "@Bruno Woltzenlogel Paleo", "@Σddie Lin"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge wrapped assets and cross-chain transfers",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "wrapped assets", "cross-chain", "runes on bitcoin", "liquidity"],
+      "participants": ["@kushti khushi", "@Armeanio", "@HQΣr"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma mining DAO pool governance and voting mechanisms",
+      "category": "mining",
+      "key_terms": ["Sigs mining pool", "DAO governance", "Paideia", "mining rewards", "storage rent"],
+      "participants": ["@qx()", "@Cheese", "@Marc the Shark", "@cannon_q"],
+      "significance": "major"
+    },
+    {
+      "title": "Mining block candidate generation and miner incentives",
+      "category": "mining",
+      "key_terms": ["block candidate", "miner responsivity", "Lithos", "storage rent", "censorship"],
+      "participants": ["@Jack Σ", "@Cheese", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo mining ecosystem challenges and Entity threat",
+      "category": "mining",
+      "key_terms": ["GPU mining", "FPGA mining", "Entity threat", "Bitmain", "profitability"],
+      "participants": ["@Thomas Eh", "@kushti khushi", "@HQΣr"],
+      "significance": "major"
+    },
+    {
+      "title": "MewFi platform soft launch and DEX escrow features",
+      "category": "defi",
+      "key_terms": ["MewFi", "escrow service", "DEX", "launch", "liquidity"],
+      "participants": ["@HQΣr", "@qx()"],
+      "significance": "major"
+    },
+    {
+      "title": "Monetary theory and Gresham's Law in crypto context",
+      "category": "ecosystem",
+      "key_terms": ["monetary theory", "Gresham's law", "inflationary fiat", "bitcoin lightning", "derivatives"],
+      "participants": ["@kushti khushi", "@qx()", "@Jordan Mack"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo Foundation funding strategy and ecosystem sustainability",
+      "category": "governance",
+      "key_terms": ["EF funding", "ecosystem sustainability", "subsidies", "project independence"],
+      "participants": ["@kushti khushi", "@cannon_q", "@Armeanio"],
+      "significance": "major"
+    },
+    {
+      "title": "Subblocks devnet testing and TPS improvement research",
+      "category": "technical",
+      "key_terms": ["subblocks", "devnet", "TPS testing", "load testing", "stratum proxy"],
+      "participants": ["@kushti khushi", "@dayumbbbb", "@Pulsarz"],
+      "significance": "major"
+    },
+    {
+      "title": "Trustless relays and Bitcoin light client integration",
+      "category": "bridges",
+      "key_terms": ["trustless relay", "light client", "Bitcoin", "oracle", "sidechaining"],
+      "participants": ["@kushti khushi", "@HQΣr"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo composability and contract interaction patterns",
+      "category": "technical",
+      "key_terms": ["composability", "eUTXO", "contract patterns", "examples"],
+      "participants": ["@Jack Σ", "@Cheese"],
+      "significance": "minor"
+    },
+    {
+      "title": "Indonesian community wiki translation and localization",
+      "category": "marketing",
+      "key_terms": ["Indonesian wiki", "localization", "documentation", "Kompasiana article"],
+      "participants": ["@Yulius Kristianto"],
+      "significance": "minor"
+    },
+    {
+      "title": "Contractual Money and CBDCs research papers",
+      "category": "ecosystem",
+      "key_terms": ["contractual money", "CBDC", "DeFi", "research papers"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Storage rent collection and box scanning mechanisms",
+      "category": "technical",
+      "key_terms": ["storage rent", "box collection", "UTXO scanning", "demurrage"],
+      "participants": ["@qx()", "@Pgr456", "@Pulsarz"],
+      "significance": "major"
+    },
+    {
+      "title": "Community standards and moderation in thematic channels",
+      "category": "community",
+      "key_terms": ["community standards", "SigsDAO voting", "permissionless", "moderation"],
+      "participants": ["@qx()", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Bitcoin Runes on multiple chains via Rosen Bridge",
+      "category": "bridges",
+      "key_terms": ["Bitcoin Runes", "serialization", "multiple UTXOs", "Rosen Bridge", "data chunking"],
+      "participants": ["@Armeanio", "@CW"],
+      "significance": "major"
+    },
+    {
+      "title": "Gluon benefactions and Sig

@@ -1,0 +1,145 @@
+{
+  "chat": "developer",
+  "week": "2024-W32",
+  "topics": [
+    {
+      "title": "Local blockchain node synchronization and fork management",
+      "category": "technical",
+      "key_terms": ["node sync", "blockchain forks", "devnet", "mainnet parameters", "magic bytes"],
+      "participants": ["@Emilio Aguilar Gutierrez", "@HQΣr | Wont Dm 🐾 ⚡", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Node mnemonic signing security design rationale",
+      "category": "technical",
+      "key_terms": ["mnemonic signing", "private key", "security", "node API", "derivation path"],
+      "participants": ["@Flying Pig (™)", "@Aberg Satergo dev", "@Pgr456"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo 5.0.22 release and 6.0 Sigma development progress",
+      "category": "technical",
+      "key_terms": ["node release", "Sigma 6.0", "sub-blocks", "PR reviews", "Scorex refactoring"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Fleet SDK change box token splitting and size limits",
+      "category": "technical",
+      "key_terms": ["Fleet SDK", "change box", "token limit", "box size", "TransactionBuilder"],
+      "participants": ["@Aco Šmrkas", "@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "Rosen Bridge cross-chain integration updates",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "EVM integration", "message sending", "decimals refactor"],
+      "participants": ["@moein_z"],
+      "significance": "minor"
+    },
+    {
+      "title": "Nautilus wallet performance and Abyss beta release",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "Abyss v0.13.0", "UTxO lookup", "performance optimization"],
+      "participants": ["@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "Swift bindings documentation for sigma-rust iOS library",
+      "category": "technical",
+      "key_terms": ["sigma-rust", "Swift bindings", "iOS", "Xcode", "documentation"],
+      "participants": ["@Pgr456", "@imgruntw"],
+      "significance": "major"
+    },
+    {
+      "title": "Crystal pool mobile deposit functionality implementation",
+      "category": "defi",
+      "key_terms": ["Crystal pool", "mobile wallet", "deposit", "UI/UX"],
+      "participants": ["@c8"],
+      "significance": "minor"
+    },
+    {
+      "title": "Gluon.gold alternative UI design and trustworthiness",
+      "category": "ecosystem",
+      "key_terms": ["gluon.gold", "UI design", "gold-denominated", "bounty"],
+      "participants": ["@c8", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigmanauts mining pool backend reorganization and testing",
+      "category": "mining",
+      "key_terms": ["mining pool", "Sigs-Mining-Core", "serial transactions", "beta testing"],
+      "participants": ["@Marc the Shark"],
+      "significance": "minor"
+    },
+    {
+      "title": "CELAUT peer-to-peer service deployment architecture",
+      "category": "ecosystem",
+      "key_terms": ["CELAUT", "p2p", "service deployment", "reputation system", "payment system"],
+      "participants": ["@jossemii"],
+      "significance": "minor"
+    },
+    {
+      "title": "Paideia DAO and Crux subscription filtering features",
+      "category": "defi",
+      "key_terms": ["Paideia", "Crux", "subscriptions", "presets", "historic trades"],
+      "participants": ["@luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "ChainCash blockchain scanning and CI/CD workflow",
+      "category": "technical",
+      "key_terms": ["ChainCash", "blockchain scanning", "CI/CD", "backend"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Fleet SDK array and complex data type register encoding",
+      "category": "technical",
+      "key_terms": ["Fleet SDK", "additional registers", "complex types", "NFT royalties"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Wallet UI terminology and user experience improvements",
+      "category": "wallet",
+      "key_terms": ["wallet name", "privacy", "permissions", "change address", "UX"],
+      "participants": ["@c8", "@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigma Rust 0.28 release with breaking changes",
+      "category": "technical",
+      "key_terms": ["Sigma Rust", "0.28 release", "breaking changes"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Nautilus browser extension testnet support and network switching",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "testnet", "browser extension", "network switching"],
+      "participants": ["@dΣathgripson"],
+      "significance": "minor"
+    },
+    {
+      "title": "UTXO consolidation UI terminology and implementation",
+      "category": "wallet",
+      "key_terms": ["consolidate", "UTXO", "box consolidation", "UI design"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@Emilio Aguilar Gutierrez",
+    "@HQΣr | Wont Dm 🐾 ⚡",
+    "@kushti khushi",
+    "@DiscordBridge",
+    "@Flying Pig (™)",
+    "@arobsn",
+    "@Aberg Satergo dev",
+    "@Marc the Shark",
+    "@c8",
+    "@Pgr456"
+  ],
+  "message_count": 223
+}

@@ -1,0 +1,155 @@
+{
+  "chat": "developer",
+  "week": "2024-W33",
+  "topics": [
+    {
+      "title": "Sigma 6.0 development and feature implementation",
+      "category": "technical",
+      "key_terms": ["Sigma 6.0", "checkPow", "nBits", "header serialization", "devnet", "PR reviews"],
+      "participants": ["@kushti khushi", "@cheeseenthusiast", "@ergomorphic"],
+      "significance": "major"
+    },
+    {
+      "title": "Box value calculation and minimum ERG requirements",
+      "category": "technical",
+      "key_terms": ["box size", "minimum value", "VLQ encoding", "output index", "cost per byte"],
+      "participants": ["@Aberg Satergo dev", "@kushti khushi", "@HQΣr | Wont Dm 🐾 ⚡"],
+      "significance": "major"
+    },
+    {
+      "title": "New Ergo-based chain development and PoW integration",
+      "category": "ecosystem",
+      "key_terms": ["new chain", "PoW", "sha256", "Bitcoin mining", "Polygon bridge", "dedicated PoW"],
+      "participants": ["@Emilio Aguilar Gutierrez", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Subblocks implementation and P2P messages",
+      "category": "technical",
+      "key_terms": ["subblocks", "P2P messages", "pre subblocks refactoring", "Lithos"],
+      "participants": ["@kushti khushi", "@dΣathgripson"],
+      "significance": "major"
+    },
+    {
+      "title": "AI training data integration with mining",
+      "category": "ecosystem",
+      "key_terms": ["AI training data", "GPU processing", "AutoLykos", "sub-blocks", "mining farms"],
+      "participants": ["@brendan8201", "@kii", "@dΣathgripson"],
+      "significance": "minor"
+    },
+    {
+      "title": "Nautilus wallet browser extension updates",
+      "category": "wallet",
+      "key_terms": ["Nautilus Abyss", "mempool support", "Manifest 3", "Firefox compatibility", "sigma-rust"],
+      "participants": ["@arobsn", "@capt_nemo429", "@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "Fleet SDK and blockchain provider improvements",
+      "category": "technical",
+      "key_terms": ["Fleet SDK", "urql migration", "token limit", "Header votes encoding", "query optimization"],
+      "participants": ["@arobsn"],
+      "significance": "major"
+    },
+    {
+      "title": "Paideia governance notification and contract testing",
+      "category": "defi",
+      "key_terms": ["Paideia", "notification service", "plugin development", "contract testing", "sigma-rust signing"],
+      "participants": ["@luivatra", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge Ethereum integration and testing",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "Ethereum", "RPC scanner", "pubsub", "health check", "EVM testing"],
+      "participants": ["@moein_z"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo explorer rewrite in Rust with RocksDB",
+      "category": "technical",
+      "key_terms": ["chain-indexer", "RocksDB", "Rust rewrite", "indexer", "query API", "Raspberry Pi"],
+      "participants": ["@pragmaxim"],
+      "significance": "major"
+    },
+    {
+      "title": "Satergo wallet multi-address transaction and token features",
+      "category": "wallet",
+      "key_terms": ["Satergo", "airdrop tool", "token consolidation", "token burning", "demurrage checker"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "ChainCash HTTP API and contract deployment",
+      "category": "defi",
+      "key_terms": ["ChainCash", "HTTP API", "reserve mint", "note spending", "contract testing", "RAMICS"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Dexy LP redemption and arb mint deployment",
+      "category": "defi",
+      "key_terms": ["Dexy", "LP redemption", "arb mint", "bank actions"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Crystal pool mempool monitoring and RBF implementation",
+      "category": "technical",
+      "key_terms": ["mempool monitoring", "RBF", "testing"],
+      "participants": ["@c8"],
+      "significance": "minor"
+    },
+    {
+      "title": "Analog Ergo atomic swap market UI and wallet integration",
+      "category": "defi",
+      "key_terms": ["atomic swap", "DEX UI", "pyo3 Rust library", "Nautilus integration", "Metamask"],
+      "participants": ["@dΣathgripson"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigmanaut mining pool expansion and toolset development",
+      "category": "mining",
+      "key_terms": ["Sigmanaut Mining Pool", "Sigs-Mining-Core", "API tables", "community mining"],
+      "participants": ["@Marc the Shark"],
+      "significance": "major"
+    },
+    {
+      "title": "Git version control reliability and workflow issues",
+      "category": "community",
+      "key_terms": ["git rebase", "merge conflicts", "force push", "branch management", "VCS alternatives"],
+      "participants": ["@dΣathgripson", "@mgpai"],
+      "significance": "minor"
+    },
+    {
+      "title": "Transaction verification errors and sigma-rust signing issues",
+      "category": "technical",
+      "key_terms": ["script verification", "P2PK", "sigma-rust", "transaction hash", "preheader"],
+      "participants": ["@Luivatra", "@dusek_", "@cheeseenthusiast"],
+      "significance": "major"
+    },
+    {
+      "title": "LevelDB dependency migration and RocksDB adoption",
+      "category": "technical",
+      "key_terms": ["leveldbjni-all", "Bintray", "RocksDB", "rocksdb-jni", "binary dependencies"],
+      "participants": ["@Pgr456", "@kushti khushi", "@Luivatra", "@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "Testnet mining coordination and hashrate management",
+      "category": "mining",
+      "key_terms": ["testnet mining", "hashrate regulation", "3090 GPU", "gaming laptop"],
+      "participants": ["@qx()", "@dΣathgripson"],
+      "significance": "minor"
+    },
+    {
+      "title": "Cryptographic primitives and elliptic curve soft-fork support",
+      "category": "technical",
+      "key_terms": ["elliptic curves", "soft-fork", "cryptographic primitives", "secp256k1"],
+      "participants": ["@Unknown", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo node version 5.0.23 release and thread fix",
+      "category": "technical",
+      "key_terms": ["Ergo 5.0.23", "indexed node", "

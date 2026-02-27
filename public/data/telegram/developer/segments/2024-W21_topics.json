@@ -1,0 +1,144 @@
+{
+  "chat": "developer",
+  "week": "2024-W21",
+  "topics": [
+    {
+      "title": "Sigma Compiler refactoring and v6.0 implementation",
+      "category": "technical",
+      "key_terms": ["SigmaCompiler", "ErgoTree", "v6.0", "sigmastate-interpreter", "serialization"],
+      "participants": ["@ergomorphic", "@kushti", "@luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "UnsignedBigInt type for 256-bit and 512-bit values",
+      "category": "technical",
+      "key_terms": ["UBigInt", "256-bit integers", "secp256k1", "cryptographic primitives", "performance"],
+      "participants": ["@kushti", "@ergomorphic"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoScript substConstants function parameter handling",
+      "category": "technical",
+      "key_terms": ["substConstants", "ErgoTree versions", "contentlength", "serialization bug"],
+      "participants": ["@luivatra", "@ergomorphic", "@kushti"],
+      "significance": "minor"
+    },
+    {
+      "title": "Trustless relay contracts and Bitcoin sidechaining",
+      "category": "technical",
+      "key_terms": ["ErgoHack", "relay contracts", "Bitcoin", "sidechaining", "hashrate derivatives"],
+      "participants": ["@kushti"],
+      "significance": "major"
+    },
+    {
+      "title": "The Field peer-to-pool pledging protocol MVP",
+      "category": "defi",
+      "key_terms": ["pledging protocol", "smart contracts", "dApp frontend", "DAO", "competition"],
+      "participants": ["@cannon_q"],
+      "significance": "major"
+    },
+    {
+      "title": "CrystalPool L1 realtime order-based exchange",
+      "category": "defi",
+      "key_terms": ["order-based exchange", "DEX", "buy contract", "swap contract", "Shadowpool"],
+      "participants": ["@c8"],
+      "significance": "major"
+    },
+    {
+      "title": "Paideia DAO platform EIP-5 contract integration",
+      "category": "defi",
+      "key_terms": ["Paideia", "EIP-5", "DAO frontend", "contract templates", "automated recompilation"],
+      "participants": ["@luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge Bitcoin and cross-chain integration",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "Bitcoin RPC", "Bitcoin Runes", "bridged tokens", "cross-chain"],
+      "participants": ["@vorujack"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus wallet Manifest v3 migration and refactoring",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "Manifest v3", "dApp bridge", "context invalidation"],
+      "participants": ["@capt_nemo429"],
+      "significance": "major"
+    },
+    {
+      "title": "NSFW token content filtering in wallets and explorer",
+      "category": "ecosystem",
+      "key_terms": ["NSFW content", "token filtering", "explicit flag", "EIP-0024", "wallet standards"],
+      "participants": ["@Paul"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigmanauts treasury and marketing initiatives",
+      "category": "community",
+      "key_terms": ["Sigmanauts", "treasury planning", "ErgoHack promotion", "conference partnerships"],
+      "participants": ["Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Token-bouncer wallet token management tool",
+      "category": "wallet",
+      "key_terms": ["token bouncer", "v1.1.0", "token filtering", "wallet utility"],
+      "participants": ["Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo node terminal installer setup utility",
+      "category": "ecosystem",
+      "key_terms": ["node installer", "TUI", "configuration", "developer tools"],
+      "participants": ["@aggergakker"],
+      "significance": "minor"
+    },
+    {
+      "title": "Smart contract design for user identity and token distribution",
+      "category": "technical",
+      "key_terms": ["smart contract", "token faucet", "Babel Fees", "identity verification", "Fleet"],
+      "participants": ["@justblake3911"],
+      "significance": "minor"
+    },
+    {
+      "title": "Autolykos2 proof-of-work implementation and specifications",
+      "category": "mining",
+      "key_terms": ["Autolykos2", "PoW", "memory-hard", "implementation", "unit tests"],
+      "participants": ["@Kartik", "@kushti"],
+      "significance": "minor"
+    },
+    {
+      "title": "Reputation system design and forum discussion",
+      "category": "community",
+      "key_terms": ["reputation system", "forum post", "user metrics"],
+      "participants": ["@jossemii", "@kushti"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoDevs DAO organizational structure and leadership roles",
+      "category": "governance",
+      "key_terms": ["ErgoDevs DAO", "leadership model", "R&D", "treasury", "fundraising"],
+      "participants": ["@kushti"],
+      "significance": "major"
+    },
+    {
+      "title": "Abandoned exchange orders tracking and cancellation bot",
+      "category": "ecosystem",
+      "key_terms": ["order tracking", "exchange API", "limit orders", "bot automation"],
+      "participants": ["@Odiseus", "@HQΣr", "@Ilya Oskin"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti",
+    "@ergomorphic",
+    "@DiscordBridge",
+    "@luivatra",
+    "@cannon_q",
+    "@c8",
+    "@vorujack",
+    "@Paul",
+    "@capt_nemo429"
+  ],
+  "message_count": 68
+}

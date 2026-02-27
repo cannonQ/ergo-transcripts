@@ -22,6 +22,7 @@ export default function Navbar() {
   const navLinks = [
     { path: '/', label: 'Home' },
     { path: '/calls', label: 'Calls' },
+    { path: '/telegram', label: 'Chat Archive' },
     { path: '/faq', label: 'FAQ' },
     { path: '/topics', label: 'Topics' },
     { path: '/decisions', label: 'Decisions' },

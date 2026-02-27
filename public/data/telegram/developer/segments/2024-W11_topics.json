@@ -1,0 +1,152 @@
+{
+  "chat": "developer",
+  "week": "2024-W11",
+  "topics": [
+    {
+      "title": "Git standards and development process decentralization",
+      "category": "governance",
+      "key_terms": ["git rules", "code standards", "PR squashing", "decentralization", "project management"],
+      "participants": ["@kushti0978", "@stenolog_79565", "@kii", "@cafebedouin.org"],
+      "significance": "major"
+    },
+    {
+      "title": "Minotaur V2 wallet release coordination",
+      "category": "wallet",
+      "key_terms": ["Minotaur V2", "multisig", "rc2", "rc3", "wallet release"],
+      "participants": ["@kushti0978", "@filippounits", "@ldgaetano", "@ccellado", "@cannon_q"],
+      "significance": "major"
+    },
+    {
+      "title": "Storage rent and creation height protocol rules",
+      "category": "technical",
+      "key_terms": ["storage rent", "creationHeight", "monotonic height rule", "v5.0 consensus", "box creation"],
+      "participants": ["@krasaviceblasen", "@Luivatra", "@omniawaha", "@dusek_", "@cannon_q"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaUSD V2 contract with minting limits",
+      "category": "defi",
+      "key_terms": ["SigmaUSD", "bank contract", "minting limits", "0.5% reserve limits", "kiosk testing"],
+      "participants": ["@kushti0978", "@ccellado", "@ldgaetano"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo node RocksDB implementation and testing",
+      "category": "technical",
+      "key_terms": ["RocksDB", "rocksdb-node", "ARM compatibility", "wallet functionality", "node releases"],
+      "participants": ["@mgpai", "@kushti0978", "@filippounits", "@Christophe Garant"],
+      "significance": "major"
+    },
+    {
+      "title": "P2SH address encoding and ErgoTree versioning",
+      "category": "technical",
+      "key_terms": ["P2SH", "ErgoTree version", "address encoding", "tracking", "dApp compatibility"],
+      "participants": ["@ergomorphic", "@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "Protocol version 5.0.21 release and updates",
+      "category": "technical",
+      "key_terms": ["5.0.21 RC", "protocol release", "5.1.0 experimental", "soft-fork", "node updates"],
+      "participants": ["@kushti0978", "@yee0576", "@mgpai"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge multichain development progress",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "EVM integration", "Bitcoin Esplora", "change box optimization", "guard-service"],
+      "participants": ["@zzzzbye"],
+      "significance": "major"
+    },
+    {
+      "title": "Paideia DAO governance MVP contract refinements",
+      "category": "defi",
+      "key_terms": ["Paideia", "DAO contracts", "storage rent protection", "dedicated updates", "proposal duration"],
+      "participants": ["@luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoScript developer tooling and language features",
+      "category": "technical",
+      "key_terms": ["ErgoScript", "imports", "vs code extension", "property-based testing", "contract composition"],
+      "participants": ["@mgpai", "@Luivatra", "@omniawaha", "@liquid_phase"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo vs Cardano smart contract development comparison",
+      "category": "ecosystem",
+      "key_terms": ["Cardano comparison", "Plutus", "Aiken", "EUTXO model", "developer experience"],
+      "participants": ["@kii", "@mgpai", "@Luivatra", "@liquid_phase", "@Glasgow"],
+      "significance": "major"
+    },
+    {
+      "title": "Developer documentation and onboarding improvements",
+      "category": "ecosystem",
+      "key_terms": ["developer docs", "ergoplatform.org", "Rust handbook model", "documentation PRs", "new builder onboarding"],
+      "participants": ["@kii", "@kushti0978", "@Glasgow", "@Armeanio"],
+      "significance": "major"
+    },
+    {
+      "title": "Fleet SDK transaction signing and blockchain submission",
+      "category": "technical",
+      "key_terms": ["Fleet SDK", "transaction signing", "Nautilus", "JavaScript SDK", "HTTP/2 support"],
+      "participants": ["@kii", "@mgpai", "@dusek_"],
+      "significance": "minor"
+    },
+    {
+      "title": "SAFEW wallet secret export and encryption standards",
+      "category": "wallet",
+      "key_terms": ["SAFEW", "mnemonic encryption", "AES256", "password salt", "wallet backup"],
+      "participants": ["@kushti0978", "@haileypdll", "@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "Repository organization under ErgoFoundation",
+      "category": "governance",
+      "key_terms": ["scorex", "repository organization", "ergoplatform org", "sigma repo", "scrypto"],
+      "participants": ["@omniawaha", "@Aberg Satergo dev", "@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "DarkErdoge miner reward token and decentralization incentives",
+      "category": "mining",
+      "key_terms": ["DarkErdoge", "miner rewards", "hashrate decentralization", "miner rewarder", "token distribution"],
+      "participants": ["@dark_erdoge", "@mgpai22"],
+      "significance": "minor"
+    },
+    {
+      "title": "Gold oracle pool GORT token and Dexy stablecoin",
+      "category": "defi",
+      "key_terms": ["GORT", "gold oracle", "Dexy", "oracle-core", "buyback contract"],
+      "participants": ["@kushti0978", "@Aco Šmrkas"],
+      "significance": "minor"
+    },
+    {
+      "title": "Integration test infrastructure and Docker image issues",
+      "category": "technical",
+      "key_terms": ["integration tests", "Docker", "OpenAPI spec", "WalletSpec", "DeepRollbackSpec"],
+      "participants": ["@ccellado", "@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Reputation system Rust library implementation",
+      "category": "technical",
+      "key_terms": ["reputation system", "Rust library", "contract implementation", "testing"],
+      "participants": ["@jossemii"],
+      "significance": "minor"
+    },
+    {
+      "title": "THz.FM UI/UX design and Degens & Dragons game development",
+      "category": "nft",
+      "key_terms": ["THz.FM", "UI/UX design", "Degens & Dragons", "character NFTs", "DungeonMaster contract"],
+      "participants": ["@liquid_phase", "@cannon_q"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti0978",
+    "@ccellalo",
+    "@mgpai",
+    "@Luivatra",
+    "@kii",
+    "@DiscordBridge",

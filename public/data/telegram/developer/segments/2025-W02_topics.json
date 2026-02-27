@@ -1,0 +1,142 @@
+{
+  "chat": "developer",
+  "week": "2025-W02",
+  "topics": [
+    {
+      "title": "Ergo 6.0 Protocol Soft-Fork Implementation and Testing",
+      "category": "technical",
+      "key_terms": ["6.0 protocol", "soft-fork", "versioning", "Global.decodeNBits", "DeserializeContext", "DeserializeRegister"],
+      "participants": ["@kushti khushi", "@DiscordBridge", "@dusek_"],
+      "significance": "major"
+    },
+    {
+      "title": "Sub-Blocks and Input/Ordering Boxes EIP Development",
+      "category": "technical",
+      "key_terms": ["sub-blocks", "input ordering", "EIP", "PR #2055", "prototyping"],
+      "participants": ["@kushti khushi", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus Wallet UI Redesign and Fiat Support",
+      "category": "wallet",
+      "key_terms": ["transaction history", "receive view", "address filters", "fiat denomination", "AssetInput component"],
+      "participants": ["@DiscordBridge", "@HQΣr | Wont Dm 🐾 ⚡"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaUSD and Oracle Pool Contract Updates",
+      "category": "defi",
+      "key_terms": ["SigmaUSD", "oracle pool", "contract deployment", "bank version update", "votes generation"],
+      "participants": ["@kushti khushi", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoFi DeFi Hub Development and Roadmap",
+      "category": "defi",
+      "key_terms": ["ergfi", "socket subscriptions", "stablecoin UI", "dexy gold", "smart contracts"],
+      "participants": ["@DiscordBridge", "@c8e4d2a", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Mempool Server Elixir Socket Implementation",
+      "category": "technical",
+      "key_terms": ["mempool_server", "elixir", "socket layer", "channel subscriptions", "transaction monitoring"],
+      "participants": ["@DiscordBridge", "@c8e4d2a"],
+      "significance": "minor"
+    },
+    {
+      "title": "SCypher Seed Encoding with Enhanced Cryptography",
+      "category": "technical",
+      "key_terms": ["SHAKE-256", "BIP39 checksum", "cryptographic salt", "memory protection", "Argon2id migration"],
+      "participants": ["@DiscordBridge", "@patato.55", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Crux DEX Price Scale and Limit Order Work",
+      "category": "defi",
+      "key_terms": ["Crux", "dynamic price scale", "low value tokens", "limit orders", "aggregator"],
+      "participants": ["@DiscordBridge", "@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Paideia DAO Backend State Management Fixes",
+      "category": "governance",
+      "key_terms": ["Paideia", "creation height", "box_id tracking", "state corruption", "transaction handling"],
+      "participants": ["@DiscordBridge", "@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Satergo Wallet Format Development and Ergonodes HTTPS",
+      "category": "wallet",
+      "key_terms": ["Satergo", "wallet format", "Ergonodes.net", "HTTPS support", "OS updates"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "Celaut and Sigma Reputation Panel Enhancements",
+      "category": "technical",
+      "key_terms": ["Celaut", "peer fault tolerance", "tree search", "reputation panel", "object hashing"],
+      "participants": ["@DiscordBridge", "@jossemii"],
+      "significance": "minor"
+    },
+    {
+      "title": "Keystone Hardware Wallet Transaction Parsing Integration",
+      "category": "wallet",
+      "key_terms": ["Keystone", "transaction parsing", "QR code signing", "device UI", "transaction details"],
+      "participants": ["@DiscordBridge", "@Pgr456 | sigmaspace.io"],
+      "significance": "minor"
+    },
+    {
+      "title": "P2P Anonymous Messaging Layer for Ergo DApps",
+      "category": "ecosystem",
+      "key_terms": ["p2p messaging", "anonymity", "mixnet", "Nym", "threshold multisig", "mobile smart wallet"],
+      "participants": ["@c8e4d2a", "@cafebedouin.org", "@kushti khushi", "@jossemii"],
+      "significance": "major"
+    },
+    {
+      "title": "AppKit Signature Verification and Message Signing",
+      "category": "technical",
+      "key_terms": ["AppKit", "message signing", "Schnorr signature", "signature verification", "private key"],
+      "participants": ["@DiscordBridge", "@jossemii", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Address-to-PublicKey Conversion in AppKit",
+      "category": "technical",
+      "key_terms": ["Ergo address", "public key", "P2PK", "register storage", "address conversion"],
+      "participants": ["@jossemii", "@HQΣr | Wont Dm 🐾 ⚡", "@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "XAU Oracle Pool Data Display Issue Fix",
+      "category": "defi",
+      "key_terms": ["XAU oracle", "oracle pool state", "explorer", "data projection"],
+      "participants": ["@DiscordBridge", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Platform API Balance Endpoint Debugging",
+      "category": "technical",
+      "key_terms": ["REST API", "balance endpoint", "address balance", "API debugging"],
+      "participants": ["@Lee # TabbyPOS", "@Michael", "@HQΣr | Wont Dm 🐾 ⚡"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigma-Rust 6.0 PR Reviews and Box.getReg Fixes",
+      "category": "technical",
+      "key_terms": ["sigma-rust", "6.0 PRs", "Box.getReg", "Global.powHit", "UnsignedBigInt"],
+      "participants": ["@kushti khushi", "@dusek_"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus Web Wallet Timeout Error Handling",
+      "category": "wallet",
+      "key_terms": ["web wallet", "promise timeout", "sign error", "error hints", "UI feedback"],
+      "participants": ["@DiscordBridge", "@c8e4d2a", "@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "Nautilus Fiat Price Conversion via CoinGecko and ErgoDEX",
+      "category": "wallet",
+      "key_terms": ["fiat conversion", "CoinGecko", "ErgoDEX", "price data", "token pricing"],
+      "participants": ["@DiscordBridge", "@HQΣr | W

@@ -1,0 +1,99 @@
+{
+  "chat": "developer",
+  "week": "2023-W47",
+  "topics": [
+    {
+      "title": "EUTXO model constraints and token blacklist implementation",
+      "category": "technical",
+      "key_terms": ["eutxo", "dataInput", "singleton NFT", "blacklist", "p2p transactions"],
+      "participants": ["@Luivatra", "@Pulsarz"],
+      "significance": "major"
+    },
+    {
+      "title": "Node network issues and misbehavior penalties",
+      "category": "technical",
+      "key_terms": ["CPU usage", "misbehavior penalty", "peer connection", "modifier parsing", "node synchronization"],
+      "participants": ["@Luivatra", "@HQΣr | Wont Dm 🐾 ⚡"],
+      "significance": "major"
+    },
+    {
+      "title": "Node API token information retrieval failures",
+      "category": "technical",
+      "key_terms": ["Node API", "token metadata", "blockchain/token endpoint", "bPaideia", "remission token"],
+      "participants": ["@Flying Pig (™)", "@Luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "Satergo solo mining pool feature testing",
+      "category": "mining",
+      "key_terms": ["solo mining pool", "Satergo", "testnet", "repository", "feature testing"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "BIP32 derivation path integer representation in Java",
+      "category": "technical",
+      "key_terms": ["BIP32", "derivation path", "unsigned integers", "hardened components", "Java library API"],
+      "participants": ["@Aberg Satergo dev", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "AppKit API design and access to internal implementations",
+      "category": "technical",
+      "key_terms": ["AppKit", "InputBox", "UnsignedTransaction", "ErgoBox", "OutBox", "getExtension"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "Node wallet seed restoration and mnemonic handling",
+      "category": "wallet",
+      "key_terms": ["node wallet", "seed restoration", "mnemonic", "derived addresses", "ergpy"],
+      "participants": ["@HQΣr | Wont Dm 🐾 ⚡", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoScript and ErgoTree evaluation benchmarking across languages",
+      "category": "technical",
+      "key_terms": ["ergoscript compilation", "ergotree evaluation", "sigma-rust", "language porting", "benchmark"],
+      "participants": ["@Pulsarz", "@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "Java vs Scala for Ergo core components rewrite",
+      "category": "technical",
+      "key_terms": ["Java rewrite", "Scala 3", "contributor availability", "JVM", "GraalVM"],
+      "participants": ["@Aberg Satergo dev", "@Pulsarz"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo AppKit Scala version compatibility and dependencies",
+      "category": "technical",
+      "key_terms": ["appkit", "Scala version", "Guava library", "Android support", "proguard"],
+      "participants": ["@Aberg Satergo dev", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Bootstrap configuration and node synchronization performance",
+      "category": "technical",
+      "key_terms": ["bootstrap config", "UTXO snapshot", "NiPoPoW", "node sync", "configuration"],
+      "participants": ["@HQΣr | Wont Dm 🐾 ⚡", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mobile wallet development tooling and iOS support",
+      "category": "wallet",
+      "key_terms": ["MobiVM", "RoboVM", "iOS", "JavaFX", "mobile development"],
+      "participants": ["@MrStahlfelge | Won't DM", "@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "ChainCash server development and Rust contributions",
+      "category": "ecosystem",
+      "key_terms": ["ChainCash", "chaincash-rs", "Rust", "bounties", "open source"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": ["@Aberg Satergo dev", "@Luivatra", "@kushti khushi", "@HQΣr | Wont Dm 🐾 ⚡", "@Pulsarz", "@Flying Pig (™)", "@MrStahlfelge | Won't DM"],
+  "message_count": 120
+}

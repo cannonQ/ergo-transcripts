@@ -1,0 +1,157 @@
+{
+  "chat": "developer",
+  "week": "2024-W48",
+  "topics": [
+    {
+      "title": "Ergo 6.0 Soft-Fork Protocol Upgrade",
+      "category": "technical",
+      "key_terms": ["6.0 soft-fork", "EIP-50", "protocol upgrade", "Schnorr signatures", "Bulletproofs"],
+      "participants": ["@kushti khushi", "@luivatra", "@arobsn"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoScript Compiler Features and Templates (EIP-5)",
+      "category": "technical",
+      "key_terms": ["EIP-5", "compiler", "contract templates", "template compiler"],
+      "participants": ["@kushti khushi", "@luivatra", "@arobsn", "@c8e4d2a"],
+      "significance": "major"
+    },
+    {
+      "title": "Box Register Comparison Sugar Function (equalBoxExcept)",
+      "category": "technical",
+      "key_terms": ["equalBoxExcept", "register comparison", "compiler sugar", "box equality"],
+      "participants": ["@kushti khushi", "@luivatra", "@arobsn", "@b_e_e_e_e_e", "@c8e4d2a"],
+      "significance": "major"
+    },
+    {
+      "title": "Testnet Node Synchronization and Peer Management",
+      "category": "technical",
+      "key_terms": ["testnet", "node sync", "peer banning", "network configuration"],
+      "participants": ["@kushti khushi", "@MGpai", "@Moein Zargarzadeh", "@qx()"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaUSD Pool and Bank Contract Deployment",
+      "category": "defi",
+      "key_terms": ["SigmaUSD", "pool", "bank", "oracle", "testnet deployment"],
+      "participants": ["@kushti khushi", "@Michael", "@MDMTXO"],
+      "significance": "major"
+    },
+    {
+      "title": "Random Number Generation for NFTs Without Backend",
+      "category": "nft",
+      "key_terms": ["random generation", "NFT minting", "block header", "onchain randomness"],
+      "participants": ["@c8e4d2a", "@kushti khushi", "@b_e_e_e_e_e", "@cheeseenthusiast"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus Wallet 0-conf Workflow and UX Improvements",
+      "category": "wallet",
+      "key_terms": ["0-conf", "Nautilus", "password UX", "wallet security"],
+      "participants": ["@arobsn", "@c8e4d2a"],
+      "significance": "major"
+    },
+    {
+      "title": "Ledger Hardware Wallet Integration and Security Audit",
+      "category": "wallet",
+      "key_terms": ["Ledger", "embedded app", "security audit", "hardware wallet"],
+      "participants": ["@arobsn", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Fleet SDK v0.8.0 Release and Transaction Chaining",
+      "category": "technical",
+      "key_terms": ["Fleet SDK", "transaction chaining", "deterministic building"],
+      "participants": ["@arobsn", "@b_e_e_e_e_e", "@c8e4d2a"],
+      "significance": "major"
+    },
+    {
+      "title": "Debug Utility Function for ErgoScript Interpreter",
+      "category": "technical",
+      "key_terms": ["debug function", "interpreter", "logging", "prover callback"],
+      "participants": ["@arobsn", "@kushti khushi", "@c8e4d2a"],
+      "significance": "minor"
+    },
+    {
+      "title": "Paideia DAO Migration to Mainnet",
+      "category": "governance",
+      "key_terms": ["Paideia", "DAO", "mainnet migration", "treasury multisig"],
+      "participants": ["@Unknown (Sigmanauts)", "@luivatra", "@qx()"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigmanauts Community Governance and Expansion",
+      "category": "community",
+      "key_terms": ["Sigmanauts", "community", "governance", "mining pool"],
+      "participants": ["@Marc the Shark", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Lithos NISP Fraud Proofs Development",
+      "category": "technical",
+      "key_terms": ["Lithos", "NISP", "fraud proofs", "L2"],
+      "participants": ["@cheeseenthusiast"],
+      "significance": "minor"
+    },
+    {
+      "title": "Celaut Service Framework and Bene Fundraising Platform",
+      "category": "ecosystem",
+      "key_terms": ["Celaut", "Bene", "service compilation", "fundraising"],
+      "participants": ["@jossemii"],
+      "significance": "minor"
+    },
+    {
+      "title": "3rgo.xyz 3D Blockchain Visualization Tool",
+      "category": "ecosystem",
+      "key_terms": ["3rgo.xyz", "3D visualization", "UTXO explorer", "blockchain data"],
+      "participants": ["@str4828"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoFi Stablecoin UI and SigmaUSD Integration",
+      "category": "defi",
+      "key_terms": ["ergofi", "stablecoin", "SigmaUSD", "UI"],
+      "participants": ["@c8e4d2a"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mempool Tracking and API Rate Limiting Questions",
+      "category": "technical",
+      "key_terms": ["mempool", "polling", "API rate limit", "node requests"],
+      "participants": ["@c8e4d2a", "@kushti khushi", "@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigma 5.0.15 Release Planning",
+      "category": "technical",
+      "key_terms": ["Sigma 5.0.15", "executeFromVar", "dependencies", "release"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Keystone Hardware Wallet Integration Support",
+      "category": "wallet",
+      "key_terms": ["Keystone", "hardware wallet", "sigma-rust"],
+      "participants": ["@kushti khushi", "@dusek_", "@pgr456"],
+      "significance": "minor"
+    },
+    {
+      "title": "Spectrum DEX SDK Update and Review",
+      "category": "defi",
+      "key_terms": ["Spectrum", "DEX SDK", "ergo-dex-sdk-js"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti khushi",
+    "@DiscordBridge",
+    "@luivatra",
+    "@arobsn",
+    "@c8e4d2a",
+    "@MGpai",
+    "@Michael",
+    "@b_e_e_e_e_e"
+  ],
+  "message_count": 183
+}

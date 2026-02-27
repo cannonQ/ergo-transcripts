@@ -1,0 +1,130 @@
+{
+  "chat": "developer",
+  "week": "2024-W28",
+  "topics": [
+    {
+      "title": "AVL Trees implementation in Go for Ergo",
+      "category": "technical",
+      "key_terms": ["AVL trees", "Go", "Rust bindings", "C-bindings", "ErgoNames"],
+      "participants": ["@DiscordBridge", "@kushti khushi", "@mgpai", "@pgr456"],
+      "significance": "minor"
+    },
+    {
+      "title": "Headless JavaScript wallet standardization",
+      "category": "wallet",
+      "key_terms": ["headless wallet", "Fleet SDK", "Nautilus", "Sigma.js", "multi-sig", "cross-platform"],
+      "participants": ["@DiscordBridge", "@c8", "@arobsn", "@ergomorphic"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma 6.0 protocol upgrade and new Numeric operations",
+      "category": "technical",
+      "key_terms": ["Sigma 6.0", "Numeric ops", "soft-fork", "testnet", "bitwise operations"],
+      "participants": ["@DiscordBridge", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo node development roadmap and improvements",
+      "category": "technical",
+      "key_terms": ["reference client", "block candidate generation", "faster confirmations", "sidechains", "extra indices"],
+      "participants": ["@DiscordBridge", "@kushti khushi", "@ccellado", "@Pgr456"],
+      "significance": "major"
+    },
+    {
+      "title": "Error message localization in sigmastate-interpreter",
+      "category": "technical",
+      "key_terms": ["error messages", "PR #1019", "customer support", "localization"],
+      "participants": ["@DiscordBridge", "@emmanueleclipse_", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Nautilus wallet and Fleet SDK performance improvements",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "Fleet SDK", "dApp connector", "dead code elimination", "startup times"],
+      "participants": ["@DiscordBridge", "@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "Rosen Bridge EVM decimals handling and integration",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "EVM integration", "decimal precision", "token mapping", "Bitcoin hardware wallet"],
+      "participants": ["@DiscordBridge", "@zzzzbye", "@mohammmmmad"],
+      "significance": "major"
+    },
+    {
+      "title": "Paideia DAO smart contracts and governance platform",
+      "category": "defi",
+      "key_terms": ["Paideia", "ergoscript", "garbage collection", "treasury", "bug bounty"],
+      "participants": ["@DiscordBridge", "@luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "duckpools v1 and v2 development with lending features",
+      "category": "defi",
+      "key_terms": ["duckpools", "lending pools", "rsBTC", "SPF", "continuous yield", "duckDAO"],
+      "participants": ["@DiscordBridge", "@krasaviceblasen"],
+      "significance": "major"
+    },
+    {
+      "title": "Crystal Pool DEX deposit features and order execution",
+      "category": "defi",
+      "key_terms": ["Crystal Pool", "deposit history", "transaction trees", "mempool"],
+      "participants": ["@DiscordBridge", "@c8"],
+      "significance": "minor"
+    },
+    {
+      "title": "ChainCash payment transaction and persistence layer",
+      "category": "defi",
+      "key_terms": ["ChainCash", "spend note transaction", "persistence layer"],
+      "participants": ["@DiscordBridge", "@kushti khushi", "@dusek"],
+      "significance": "minor"
+    },
+    {
+      "title": "The Field peer-to-pool pledging protocol MVP",
+      "category": "defi",
+      "key_terms": ["The Field", "pledging protocol", "smart contracts", "DAO-driven"],
+      "participants": ["@DiscordBridge", "@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigmaspace.io indexing API and Space wallet research",
+      "category": "ecosystem",
+      "key_terms": ["Sigmaspace.io", "chain indexing", "wallet persistence", "live sync", "mobile environment"],
+      "participants": ["@DiscordBridge", "@Pgr456"],
+      "significance": "major"
+    },
+    {
+      "title": "PoEM implementation and sub-blocks research",
+      "category": "technical",
+      "key_terms": ["PoEM", "sub-blocks", "Bitcoin-NG", "PRISM"],
+      "participants": ["@DiscordBridge", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Fleet SDK wallet prover and Sigma.JS integration",
+      "category": "wallet",
+      "key_terms": ["Fleet wallet", "Sigma.JS", "proveDLog", "multi-sig", "reduced tx signing"],
+      "participants": ["@DiscordBridge", "@arobsn", "@c8", "@zkastn"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoNames offchain infrastructure development",
+      "category": "ecosystem",
+      "key_terms": ["ErgoNames", "offchain", "Go implementation"],
+      "participants": ["@DiscordBridge", "@mgpai"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@DiscordBridge",
+    "@kushti khushi",
+    "@arobsn",
+    "@c8",
+    "@krasaviceblasen",
+    "@Pgr456",
+    "@zzzzbye",
+    "@mgpai",
+    "@mohammmmmad"
+  ],
+  "message_count": 64
+}

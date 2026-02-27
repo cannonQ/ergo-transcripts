@@ -1,0 +1,156 @@
+{
+  "chat": "Ergo General",
+  "week": "2022-W49",
+  "topics": [
+    {
+      "title": "Node 5.0 Activation and Protocol Upgrade",
+      "category": "technical",
+      "key_terms": ["node 5.0", "soft fork", "block height 889856", "protocol upgrade", "efficiency"],
+      "participants": ["@kushti", "@Cheese", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "NiPoPoWs Bootstrap Implementation and Testnet Planning",
+      "category": "technical",
+      "key_terms": ["NiPoPoWs", "bootstrapping", "UTXO set snapshot", "full node security", "30-60 minutes sync"],
+      "participants": ["@kushti", "@Aberg Satergo dev", "@Klaus"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo 6.0 Roadmap and Feature Planning",
+      "category": "governance",
+      "key_terms": ["6.0 planning", "EIP stub", "breaking changes", "L2 solutions", "scaling"],
+      "participants": ["@kushti", "@Armeanio", "@Cheese"],
+      "significance": "major"
+    },
+    {
+      "title": "GetBlok Mining Pool Shutdown",
+      "category": "mining",
+      "key_terms": ["GetBlok", "pool shutdown", "bear market", "mining profitability", "hashrate"],
+      "participants": ["@Cheese", "@HQΣr", "@Arcadian Computers", "@PalaZ"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoScript and AI Code Analysis Capabilities",
+      "category": "technical",
+      "key_terms": ["ErgoScript", "ChatGPT", "code explanation", "smart contracts", "AI understanding"],
+      "participants": ["@Unknown", "@qx()"],
+      "significance": "minor"
+    },
+    {
+      "title": "Rosen Bridge Cross-Chain Functionality",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "cross-chain", "BTC wrapping", "liquidity"],
+      "participants": ["@HQΣr", "@Abdulkrem"],
+      "significance": "major"
+    },
+    {
+      "title": "SigUSD Stablecoin Oracle Dependencies and Risks",
+      "category": "defi",
+      "key_terms": ["SigUSD", "oracle dependency", "USDT risk", "stablecoin stability"],
+      "participants": ["@Pulsarz", "@MrStahlfelge", "@Luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "Ledger Hardware Wallet Integration Status",
+      "category": "wallet",
+      "key_terms": ["Ledger", "hardware wallet", "app review", "Captain Nemo", "integration"],
+      "participants": ["@Kyle R", "@MrStahlfelge", "@Flying Pig"],
+      "significance": "minor"
+    },
+    {
+      "title": "Auction House NFT Marketplace Development",
+      "category": "nft",
+      "key_terms": ["Auction House", "NFT marketplace", "offer contracts", "artist collections"],
+      "participants": ["@HQΣr", "@anon_real"],
+      "significance": "minor"
+    },
+    {
+      "title": "Satergo Full Node Wallet UI Improvements",
+      "category": "wallet",
+      "key_terms": ["Satergo", "full node wallet", "UI redesign", "light theme"],
+      "participants": ["@Aberg Satergo dev", "@mewtoshi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Spectrum Finance and DEX Activity Post-Node 5.0",
+      "category": "defi",
+      "key_terms": ["Spectrum", "DEX", "transaction throughput", "swap efficiency"],
+      "participants": ["@gg", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoFlip Gaming Platform and New Game Additions",
+      "category": "ecosystem",
+      "key_terms": ["ErgoFlip", "gaming", "dice rolls", "degen games", "branding"],
+      "participants": ["@Grand Gambit", "@qx()"],
+      "significance": "minor"
+    },
+    {
+      "title": "COMET Token Lottery and Gamification",
+      "category": "defi",
+      "key_terms": ["COMET", "lottery", "token gamification", "gambling mechanics"],
+      "participants": ["@Koutelier", "@HQΣr", "@qx()"],
+      "significance": "minor"
+    },
+    {
+      "title": "Community Marketing and Social Media Presence",
+      "category": "marketing",
+      "key_terms": ["Twitter followers", "Sigmanauts account", "community marketing", "Presearch voting"],
+      "participants": ["@TMR.ΣRG", "@Unknown", "@Chris Ray"],
+      "significance": "minor"
+    },
+    {
+      "title": "ZenGate and Palmyra Ecosystem Development in Sri Lanka",
+      "category": "ecosystem",
+      "key_terms": ["ZenGate", "Palmyra", "Sri Lanka", "micro-credit", "commercial ecosystem"],
+      "participants": ["@Chris Ray", "@Dan Friedman", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoMixer Privacy Protocol and Zero-Join",
+      "category": "technical",
+      "key_terms": ["ErgoMixer", "privacy", "zero-join", "DH tuples", "anonymization"],
+      "participants": ["@kushti", "@Arbion Halili"],
+      "significance": "minor"
+    },
+    {
+      "title": "Nautilus Wallet Browser Extension and Integration",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "browser extension", "wallet integration", "open source"],
+      "participants": ["@Kyle R", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Block Reward Reduction Schedule and Emission",
+      "category": "governance",
+      "key_terms": ["block reward", "emission schedule", "3 ERG reduction", "EIP-27"],
+      "participants": ["@CW", "@Unknown", "@Reek"],
+      "significance": "minor"
+    },
+    {
+      "title": "Oracle Pool v2 and Price Feed Infrastructure",
+      "category": "defi",
+      "key_terms": ["Oracle pools", "price feeds", "oracle operators", "cross-chain usage"],
+      "participants": ["@Unknown", "@TMR.ΣRG", "@kushti"],
+      "significance": "major"
+    },
+    {
+      "title": "Centralized Exchange Withdrawal Limits and Non-KYC Options",
+      "category": "ecosystem",
+      "key_terms": ["KuCoin", "withdrawal limits", "Bisq", "non-KYC", "CoinEx"],
+      "participants": ["@Panda", "@MrStahlfelge", "@Abu Salih"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ka-Ching Telegram Bot and Balance Notifications",
+      "category": "ecosystem",
+      "key_terms": ["Ka-Ching bot", "balance notifications", "Telegram bot", "iOS limitations"],
+      "participants": ["@qx()", "@HelixEvo", "@MrStahlfelge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Twitter Account Switchover and Sigmanauts Management",
+      "category": "marketing",
+      "key_terms": ["Twitter account", "Ethereum Classic", "Charles Hoskinson", "Sigmanauts", "account management"],
+      "participants": ["@Maxim", "@Unknown", "@TMR.Σ

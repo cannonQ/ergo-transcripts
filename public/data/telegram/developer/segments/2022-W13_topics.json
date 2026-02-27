@@ -1,0 +1,57 @@
+{
+  "chat": "developer",
+  "week": "2022-W13",
+  "topics": [
+    {
+      "title": "Network sync issues and block propagation delays",
+      "category": "technical",
+      "key_terms": ["sync", "stuck blocks", "memory requirements", "nbminer", "block height 716799"],
+      "participants": ["@Luivatra", "@Cheese", "@ArØhβΣ @Arohbe 🍪", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "P2P node protocol documentation and implementation",
+      "category": "technical",
+      "key_terms": ["P2P protocol", "TCP handshake", "message specification", "peer connection", "network messages"],
+      "participants": ["@Aberg Satergo dev", "@Glasgow｜WON'T DM", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo node client implementation and debugging",
+      "category": "technical",
+      "key_terms": ["handshake", "connection closure", "DataInputStream", "address encoding", "port encoding"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen bridge guard set and game theory incentives",
+      "category": "bridges",
+      "key_terms": ["Rosen", "guard set", "staking", "slashing", "governance"],
+      "participants": ["@Armeanio"],
+      "significance": "minor"
+    },
+    {
+      "title": "Transaction confirmation limits and computational costs",
+      "category": "technical",
+      "key_terms": ["transaction chaining", "computational cost limit", "8M cost", "JIT", "v5.0"],
+      "participants": ["@Luivatra", "@Cheese"],
+      "significance": "minor"
+    },
+    {
+      "title": "Node seeding and DNS peer discovery mechanisms",
+      "category": "technical",
+      "key_terms": ["node seeding", "known peers", "DNS seeds", "centralization", "IRC"],
+      "participants": ["@Aberg Satergo dev", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Satergo wallet testnet and multiplatform support",
+      "category": "wallet",
+      "key_terms": ["Satergo", "testnet", "64-bit OS", "node management"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": ["@Aberg Satergo dev", "@Luivatra", "@ArØhβΣ @Arohbe 🍪", "@kushti khushi", "@Cheese"],
+  "message_count": 80
+}

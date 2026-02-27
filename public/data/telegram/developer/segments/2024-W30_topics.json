@@ -1,0 +1,170 @@
+{
+  "chat": "developer",
+  "week": "2024-W30",
+  "topics": [
+    {
+      "title": "Schnorr signature verification in ErgoScript",
+      "category": "technical",
+      "key_terms": ["Schnorr", "signature", "ErgoScript", "verification"],
+      "participants": ["@kushti khushi", "@dusek"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sub-blocks scalability proposal rework",
+      "category": "technical",
+      "key_terms": ["sub-blocks", "scalability", "miners", "protocol", "consensus"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Block timestamp vs height usage in dApps",
+      "category": "technical",
+      "key_terms": ["block timestamp", "block height", "confirmations", "dApps"],
+      "participants": ["@kushti khushi", "@Pulsarz"],
+      "significance": "minor"
+    },
+    {
+      "title": "Transaction construction and fee handling",
+      "category": "technical",
+      "key_terms": ["transaction", "fee", "inputs", "outputs", "box model"],
+      "participants": ["@DiscordBridge", "@kushti khushi", "@Luivatra", "@Pulsarz", "@HQΣr"],
+      "significance": "major"
+    },
+    {
+      "title": "Merkle tree format for transaction inclusion proofs",
+      "category": "technical",
+      "key_terms": ["merkle tree", "inclusion proofs", "block header", "ErgoScript"],
+      "participants": ["@Unknown", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "executeFromVar context variable evaluation",
+      "category": "technical",
+      "key_terms": ["executeFromVar", "context variable", "sigmaprop", "ergotree"],
+      "participants": ["@DiscordBridge", "@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigma 6.0 features and improvements",
+      "category": "technical",
+      "key_terms": ["Sigma 6.0", "unsigned big int", "interpreter", "compiler"],
+      "participants": ["@kushti khushi", "@ergomorphic"],
+      "significance": "major"
+    },
+    {
+      "title": "Alternative ErgoScript direct compiler implementation",
+      "category": "technical",
+      "key_terms": ["direct compiler", "ErgoTree", "optimization", "language specification"],
+      "participants": ["@ergomorphic", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus wallet global stores refactoring",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "wallet", "global stores", "refactoring"],
+      "participants": ["@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Fleet SDK mock-chain and transaction building",
+      "category": "technical",
+      "key_terms": ["Fleet SDK", "mock-chain", "transaction builder", "plugins"],
+      "participants": ["@DiscordBridge", "@arobsn", "@c8"],
+      "significance": "major"
+    },
+    {
+      "title": "Paideia DAO real-time updates and mempool management",
+      "category": "defi",
+      "key_terms": ["Paideia", "mempool", "real-time", "singleton", "ZMQ"],
+      "participants": ["@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Crystal-pool DEX limit order contracts",
+      "category": "defi",
+      "key_terms": ["crystal-pool", "limit order", "DEX", "swap", "partial fill"],
+      "participants": ["@DiscordBridge", "@c8", "@arobsn"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge decimals refactor across chains",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "decimals", "Bitcoin", "Cardano", "Ergo", "EVM"],
+      "participants": ["@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Token minting tools and frameworks",
+      "category": "ecosystem",
+      "key_terms": ["token minting", "fungible token", "memecoin", "Python", "ergoutils"],
+      "participants": ["@DiscordBridge", "@Flying Pig", "@HQΣr"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoNames domain name service implementation",
+      "category": "ecosystem",
+      "key_terms": ["ErgoNames", "domain", "offchain", "renewal", "permanent"],
+      "participants": ["@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mewpad meme token launchpad platform",
+      "category": "defi",
+      "key_terms": ["mewpad", "meme token", "launchpad", "UI"],
+      "participants": ["@DiscordBridge", "@c8"],
+      "significance": "minor"
+    },
+    {
+      "title": "Analog Ergo atomic swap implementation",
+      "category": "technical",
+      "key_terms": ["atomic swap", "event logging", "state recovery", "UI"],
+      "participants": ["@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoScript development language ecosystem",
+      "category": "technical",
+      "key_terms": ["ErgoScript", "compiler", "LSP", "Rust", "Scala", "JavaScript"],
+      "participants": ["@DiscordBridge", "@kushti khushi", "@mgpai", "@Luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "Transaction sorting in blockchain API v2.2",
+      "category": "technical",
+      "key_terms": ["getTxsByAddress", "sorting", "blockchain API", "explorer"],
+      "participants": ["@kushti khushi", "@Flying Pig", "@flyingpig69"],
+      "significance": "minor"
+    },
+    {
+      "title": "Node mempool validation and CleanupWorker optimization",
+      "category": "technical",
+      "key_terms": ["mempool", "validation", "CleanupWorker", "transaction pool"],
+      "participants": ["@DiscordBridge", "@kushti khushi", "@ccellado"],
+      "significance": "minor"
+    },
+    {
+      "title": "SigmaChain development roadmap",
+      "category": "technical",
+      "key_terms": ["SigmaChain", "UTXO blockchain", "sidechain", "Scorex", "consensus"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Mining node wallet consolidation scripts",
+      "category": "mining",
+      "key_terms": ["mining rewards", "wallet consolidation", "UTXO", "testnet"],
+      "participants": ["@DiscordBridge", "@Flying Pig", "@dΣathgripson"],
+      "significance": "minor"
+    },
+    {
+      "title": "SigmaUSD scaling with liquidity splitting",
+      "category": "defi",
+      "key_terms": ["SigmaUSD", "AgeUSD", "liquidity", "reserve ratio", "scaling"],
+      "participants": ["@c8", "@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Node peer configuration and connection API",
+      "category": "technical",
+      "key_terms": ["node configuration", "peers", "knownPeers", "API", "peer discovery"],
+      "participants": ["

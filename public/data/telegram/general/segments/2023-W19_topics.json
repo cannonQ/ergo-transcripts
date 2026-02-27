@@ -1,0 +1,156 @@
+{
+  "chat": "general",
+  "week": "2023-W19",
+  "topics": [
+    {
+      "title": "Bitcoin network congestion and fee blocks",
+      "category": "technical",
+      "key_terms": ["Bitcoin fees", "block subsidy", "MEV", "scalability", "Taproot"],
+      "participants": ["@kushti khushi", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Storage rent UTXO consolidation mechanics",
+      "category": "technical",
+      "key_terms": ["storage rent", "UTXO age", "tokenjay", "demurrage", "box consolidation"],
+      "participants": ["@OxCapitulation", "@Glasgow｜WON'T DM", "@kushti khushi", "@GliTcH_"],
+      "significance": "major"
+    },
+    {
+      "title": "PoW vs PoS consensus debate",
+      "category": "technical",
+      "key_terms": ["proof of work", "proof of stake", "Ethereum merge", "decentralization", "Monero"],
+      "participants": ["@Unknown", "@Aberg Satergo dev", "@R", "@JayDee12Thr33"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaFi bond protocol liquidation features",
+      "category": "defi",
+      "key_terms": ["SigmaFi", "bonds", "auto-liquidation", "collateralization", "P2P lending"],
+      "participants": ["@gg", "@Me", "@qx()", "@Cheese", "@capt nemo"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen bridge design and security model",
+      "category": "bridges",
+      "key_terms": ["Rosen bridge", "cross-chain", "watchers", "guards", "multisig"],
+      "participants": ["@qx()", "@Allen", "@mhs_sam"],
+      "significance": "major"
+    },
+    {
+      "title": "ERG price, market cap and exchange listing strategy",
+      "category": "marketing",
+      "key_terms": ["market cap", "liquidity", "CEX listing", "Binance", "Kraken", "trading volume"],
+      "participants": ["@Unknown", "@dayumbbbb", "@butzu 34", "@R"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo mining hashrate and pool operations",
+      "category": "mining",
+      "key_terms": ["mining pools", "hashrate", "storage rent collection", "miner payouts"],
+      "participants": ["@Pulsarz", "@butzu 34", "@Unknown", "@Eddie Moralez"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo mobile wallet and Nautilus integration",
+      "category": "wallet",
+      "key_terms": ["mobile wallet", "seed phrase", "Nautilus", "address generation", "@MrStahlfelge"],
+      "participants": ["@Ollie", "@Daskre", "@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoScript and developer tooling improvements",
+      "category": "technical",
+      "key_terms": ["ErgoScript", "ergotree", "FleetSDK", "ergopy", "developer libraries"],
+      "participants": ["@Benny", "@JotaJs", "@Luivatra", "@qx()"],
+      "significance": "major"
+    },
+    {
+      "title": "UTXO consolidation automated service proposals",
+      "category": "ecosystem",
+      "key_terms": ["automated consolidation", "premium service", "treasury funding", "user experience"],
+      "participants": ["@HQΣr", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Paper wallets and physical crypto cash concepts",
+      "category": "wallet",
+      "key_terms": ["paper wallet", "QR codes", "physical cash", "seed phrases", "offline transactions"],
+      "participants": ["@Ace", "@HQΣr", "@MrStahlfelge"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoPad IDO vetting and incubation process",
+      "category": "ecosystem",
+      "key_terms": ["ErgoPad", "IDO", "zenGate", "project vetting"],
+      "participants": ["@Unknown", "@kushti khushi", "@tefcek21"],
+      "significance": "minor"
+    },
+    {
+      "title": "Paideia DAO governance and voting mechanisms",
+      "category": "governance",
+      "key_terms": ["Paideia", "DAO voting", "governance", "preferences voting"],
+      "participants": ["@Unknown", "@Glasgow｜WON'T DM", "@qx()"],
+      "significance": "minor"
+    },
+    {
+      "title": "NiPoPow light node synchronization",
+      "category": "technical",
+      "key_terms": ["NiPoPow", "light node", "SPV", "sync time", "Satergo wallet"],
+      "participants": ["@qx()", "@Aberg Satergo dev", "@Albermonte"],
+      "significance": "minor"
+    },
+    {
+      "title": "BRC-20 tokens and Ordinals analysis",
+      "category": "technical",
+      "key_terms": ["BRC-20", "Ordinals", "Bitcoin inscriptions", "ORDI token"],
+      "participants": ["@kushti khushi", "@Unknown", "@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "Old tip bot recovery and maintenance",
+      "category": "ecosystem",
+      "key_terms": ["tip bot", "ERGO TIP BOT", "Albermonte", "transaction fees"],
+      "participants": ["@Albermonte", "@qx()", "@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "Spectrum Finance farm APY dynamics",
+      "category": "defi",
+      "key_terms": ["Spectrum", "liquidity farms", "APY", "smart contracts"],
+      "participants": ["@Unknown", "@qx()"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo hardware wallet integration requests",
+      "category": "wallet",
+      "key_terms": ["Keystone wallet", "hardware wallet", "airgapped signing", "integration"],
+      "participants": ["@The Horticulturalist"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ethereum consensus delays vs Ergo security",
+      "category": "technical",
+      "key_terms": ["Ethereum PoS", "consensus finality", "simple consensus", "protocol stability"],
+      "participants": ["@Unknown", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoHacks hackathon planning and ideas",
+      "category": "community",
+      "key_terms": ["ErgoHacks", "hackathon", "developer contest"],
+      "participants": ["@Aberg Satergo dev", "@kushti khushi", "@Armeanio"],
+      "significance": "minor"
+    },
+    {
+      "title": "Satergo wallet development and node setup",
+      "category": "wallet",
+      "key_terms": ["Satergo", "full node", "exe client", "open source"],
+      "participants": ["@Aberg Satergo dev", "@Koutelier", "@Man ish"],
+      "significance": "minor"
+    },
+    {
+      "title": "Gas fees comparison EVM vs UTXO model",
+      "category": "technical",
+      "key_terms": ["gas fees", "transaction fees", "Ethereum", "UTXO model"],
+      "participants

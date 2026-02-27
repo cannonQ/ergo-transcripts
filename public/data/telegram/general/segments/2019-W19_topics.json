@@ -1,0 +1,148 @@
+{
+  "chat": "general",
+  "week": "2019-W19",
+  "topics": [
+    {
+      "title": "Mainnet launch postponed to June 20",
+      "category": "governance",
+      "key_terms": ["mainnet launch", "June 20", "delay", "security audit", "testing"],
+      "participants": ["@Dmitry", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "GPU mining on testnet with CUDA support",
+      "category": "mining",
+      "key_terms": ["mining", "testnet", "GPU", "CUDA", "Nvidia", "AMD", "OpenCL"],
+      "participants": ["@scalahub", "@Dmitry", "@Unknown", "@Donald Fauntleroy"],
+      "significance": "major"
+    },
+    {
+      "title": "Testnet explorer frontend reconstruction",
+      "category": "technical",
+      "key_terms": ["testnet", "explorer", "frontend", "block format", "API"],
+      "participants": ["@Dmitry", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo token emission curve and max supply",
+      "category": "governance",
+      "key_terms": ["emission", "coin supply", "circulation", "treasury", "distribution"],
+      "participants": ["@Daniel", "@Unknown", "@Dmitry"],
+      "significance": "major"
+    },
+    {
+      "title": "Mining reward confirmation delay and block maturation",
+      "category": "mining",
+      "key_terms": ["mining rewards", "block confirmation", "720 blocks", "1 day delay"],
+      "participants": ["@Unknown", "@Dmitry"],
+      "significance": "minor"
+    },
+    {
+      "title": "Self-reproducing coins model and box lifespan",
+      "category": "technical",
+      "key_terms": ["self-reproducing coins", "boxes", "lifespan", "NiPoPoWs", "state evolution"],
+      "participants": ["@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoScript and smart contract scripting capabilities",
+      "category": "technical",
+      "key_terms": ["ErgoScript", "smart contracts", "p2s_address", "p2sh_address", "Sigma"],
+      "participants": ["@Unknown", "@Kirill"],
+      "significance": "major"
+    },
+    {
+      "title": "Comparison with Coda Protocol and blockchain differences",
+      "category": "community",
+      "key_terms": ["Coda Protocol", "comparison", "permissionless blockchain", "single block generator"],
+      "participants": ["@pietrod", "@Dmitry"],
+      "significance": "minor"
+    },
+    {
+      "title": "EFYT to Ergo mainnet token swap mechanism",
+      "category": "governance",
+      "key_terms": ["EFYT", "token swap", "mainnet conversion", "treasury distribution"],
+      "participants": ["@Arvin", "@Unknown", "@Dmitry"],
+      "significance": "major"
+    },
+    {
+      "title": "OpenSSL 1.1 compatibility for miner compilation",
+      "category": "technical",
+      "key_terms": ["OpenSSL", "compilation", "Ubuntu", "libssl", "miner build"],
+      "participants": ["@Rejinderi", "@Dmitry", "@Andrey Andreev"],
+      "significance": "minor"
+    },
+    {
+      "title": "Wallet persistence and seed phrase restoration",
+      "category": "wallet",
+      "key_terms": ["wallet persistence", "seed phrase", "balance", "blockchain rescan"],
+      "participants": ["@Александр Кравцов", "@Ilya Oskin"],
+      "significance": "minor"
+    },
+    {
+      "title": "AutoLykos PoW algorithm and mining details",
+      "category": "mining",
+      "key_terms": ["AutoLykos", "PoW algorithm", "GPU-friendly", "ErgoPow"],
+      "participants": ["@Unknown", "@Donald Fauntleroy"],
+      "significance": "major"
+    },
+    {
+      "title": "Contractual money definition and token nature",
+      "category": "governance",
+      "key_terms": ["contractual money", "token definition", "legal nature", "Erg token"],
+      "participants": ["@And", "@Dmitry", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "EFYT distribution from WCT holder airdrop",
+      "category": "governance",
+      "key_terms": ["EFYT", "airdrop", "WCT holders", "100K distribution"],
+      "participants": ["@Unknown", "@Dmitry"],
+      "significance": "minor"
+    },
+    {
+      "title": "Community voting system for treasury funds",
+      "category": "governance",
+      "key_terms": ["community voting", "treasury", "governance", "staking"],
+      "participants": ["@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Website redesign and feature feedback",
+      "category": "marketing",
+      "key_terms": ["website", "redesign", "FAQ", "roadmap", "use cases"],
+      "participants": ["@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Magnum wallet integration for Ergo",
+      "category": "wallet",
+      "key_terms": ["Magnum wallet", "integration", "wallet support"],
+      "participants": ["@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Transaction throughput and payment layer scaling",
+      "category": "technical",
+      "key_terms": ["TPS", "transactions per second", "scaling", "payment networks"],
+      "participants": ["@toni", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Exchange listing discussions and integration support",
+      "category": "ecosystem",
+      "key_terms": ["exchange listing", "integration", "Lescovex", "SWFT Blockchain"],
+      "participants": ["@Arvin", "@filippounits", "@Unknown"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@Dmitry",
+    "@Unknown",
+    "@Unknown",
+    "@pietrod",
+    "@Rejinderi",
+    "@Ilya Oskin"
+  ],
+  "message_count": 131
+}

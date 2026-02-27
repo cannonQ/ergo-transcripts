@@ -1,0 +1,162 @@
+{
+  "chat": "developer",
+  "week": "2024-W19",
+  "topics": [
+    {
+      "title": "Sigma 6.0 Protocol Development and Serialization",
+      "category": "technical",
+      "key_terms": ["Sigma 6.0", "serialization", "deserialization", "Header support", "ErgoTree", "ErgoScript"],
+      "participants": ["@kushti0978", "@dusek_", "@ergomorphic"],
+      "significance": "major"
+    },
+    {
+      "title": "executeFromVar Implementation and Merkleized FSM Contracts",
+      "category": "technical",
+      "key_terms": ["executeFromVar", "executeFromReg", "P2SH scripts", "macro expansion", "Merkleized FSM", "DeserializeContext"],
+      "participants": ["@kushti0978", "@Luivatra", "@dusek_", "@omniawaha"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma-rust Release 0.27 and Performance Improvements",
+      "category": "technical",
+      "key_terms": ["sigma-rust", "transaction validation", "interpreter performance", "300-400x speedup", "bindings"],
+      "participants": ["@dusek_", "@pgr456", "@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "Lithos Sidechain Implementation Requirements",
+      "category": "technical",
+      "key_terms": ["Lithos", "Header.checkPow", "Header.bytes", "devnet", "sidechain"],
+      "participants": ["@kushti0978", "@cheeseenthusiast"],
+      "significance": "minor"
+    },
+    {
+      "title": "Fleet SDK Babel Fees Integration Debugging",
+      "category": "technical",
+      "key_terms": ["Fleet SDK", "Babel Fees", "BabelSwapPlugin", "token swap", "Babel boxes"],
+      "participants": ["@justblake3911", "@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "Node Mempool Cleanup and Double-Spend Prevention",
+      "category": "technical",
+      "key_terms": ["mempool", "double-spend", "transaction processing", "PR #2156"],
+      "participants": ["@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Subblocks Implementation Timeline Post-6.0",
+      "category": "technical",
+      "key_terms": ["subblocks", "protocol upgrade", "late June timeline", "contributors"],
+      "participants": ["@kushti0978", "@omniawaha"],
+      "significance": "minor"
+    },
+    {
+      "title": "Blitz TCG Native Marketplace Launch",
+      "category": "nft",
+      "key_terms": ["Blitz TCG", "native marketplace", "burn contract", "BLTZ tokens", "card trading"],
+      "participants": ["@LowKeyNerd - Blitz TCG", "@luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "Cyberverse Game Economy Rebalancing",
+      "category": "ecosystem",
+      "key_terms": ["Cyberverse", "NPC market", "CYPX economy", "NFT rewards", "halving events", "parental controls"],
+      "participants": ["@pxl.erg"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge Cross-Chain Development",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "pub-sub APIs", "Rosen SDK", "guard-service", "scanner", "asset calculation"],
+      "participants": ["@zzzzbye"],
+      "significance": "major"
+    },
+    {
+      "title": "Shadowpool L1 Realtime Trading Protocol",
+      "category": "defi",
+      "key_terms": ["Shadowpool", "multisig trading", "token sell contract", "turbo-mempool", "vite tests"],
+      "participants": ["@c8"],
+      "significance": "minor"
+    },
+    {
+      "title": "Dexy LP Contract Deployment and Governance",
+      "category": "defi",
+      "key_terms": ["Dexy", "liquidity pools", "Spectrum comparison", "update key holders", "mainnet deployment"],
+      "participants": ["@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "The Field Peer-to-Pool Pledging Protocol MVP",
+      "category": "defi",
+      "key_terms": ["The Field", "pledging protocol", "DAO-driven", "smart contracts", "back door mechanism"],
+      "participants": ["@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "Atomic Swap Software Hot Reloading State Recovery",
+      "category": "defi",
+      "key_terms": ["Atomic Swap", "hot reloading", "account encryption", "price feed", "market making"],
+      "participants": ["@dΣathgripson"],
+      "significance": "minor"
+    },
+    {
+      "title": "Paideia DAO Creation Frontend Development",
+      "category": "governance",
+      "key_terms": ["Paideia", "DAO creation", "frontend", "beta testing"],
+      "participants": ["@luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigmanauts Mining Pool Growth and UI Integration",
+      "category": "mining",
+      "key_terms": ["Sigmanauts mining pool", "100 GH/s", "database integration", "Docker", "block notifications"],
+      "participants": ["@Marc the Shark", "@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigmanauts Treasury and Governance Updates",
+      "category": "governance",
+      "key_terms": ["Sigmanauts", "treasury", "multisig", "Cornell sponsorship", "promotion votes", "hackathon planning"],
+      "participants": ["@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "COMET Token LP Rewards and Staking Program",
+      "category": "defi",
+      "key_terms": ["COMET", "liquidity rewards", "hodlcomet", "1-year lock", "3-year lock"],
+      "participants": ["@koutelier"],
+      "significance": "minor"
+    },
+    {
+      "title": "Satergo Wallet Remote Node Connection Testing",
+      "category": "wallet",
+      "key_terms": ["Satergo", "remote node", "connection test", "solo mining pool", "demurrage warning"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "Reputation System WASM and Bitcoin Integration",
+      "category": "ecosystem",
+      "key_terms": ["reputation system", "Rust WASM", "Bitcoin Runes", "Ergohack", "social integration"],
+      "participants": ["@jossemii"],
+      "significance": "minor"
+    },
+    {
+      "title": "ChainCash Server Development and Rust Contributors",
+      "category": "ecosystem",
+      "key_terms": ["ChainCash", "server development", "Rust developers", "research paper"],
+      "participants": ["@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoDevs DAO Multisig Setup and Withdrawal Testing",
+      "category": "governance",
+      "key_terms": ["ErgoDevs DAO", "multisig", "withdrawal testing", "ErgoHack support"],
+      "participants": ["@kushti0978"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti0978",
+    "@dus

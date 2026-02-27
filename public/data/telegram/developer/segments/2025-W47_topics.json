@@ -1,0 +1,167 @@
+{
+  "chat": "developer",
+  "week": "2025-W47",
+  "topics": [
+    {
+      "title": "Testnet node configuration and setup troubleshooting",
+      "category": "technical",
+      "key_terms": ["testnet", "node configuration", "firewall", "port mapping", "--testnet flag"],
+      "participants": ["@TheStophe", "@qx()", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "P2P node messaging and peer discovery mechanisms",
+      "category": "technical",
+      "key_terms": ["peer-to-peer messaging", "node communication", "config flags", "/allpeers"],
+      "participants": ["@ArØhβΣ @Arohbe 🍪", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Subblocks devnet implementation and mining peer testing",
+      "category": "technical",
+      "key_terms": ["subblocks", "devnet", "forking", "mining peers", "whitepaper"],
+      "participants": ["@kushti khushi", "@qx()"],
+      "significance": "major"
+    },
+    {
+      "title": "AI-assisted code contributions and bounty guidelines",
+      "category": "governance",
+      "key_terms": ["AI generated code", "bounty submissions", "AGENTS.md", "scope compliance", "review process"],
+      "participants": ["@Pgr456", "@kushti khushi", "@cannon_q", "@C B"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigmastate interpreter pull requests and code review",
+      "category": "technical",
+      "key_terms": ["Sigmastate", "pull requests", "code review", "explorer backend"],
+      "participants": ["@C B", "@kushti khushi", "@BigPandaMX"],
+      "significance": "major"
+    },
+    {
+      "title": "Explorer backend performance optimization with database indexing",
+      "category": "technical",
+      "key_terms": ["database indexes", "query optimization", "RAM allocation", "PostgreSQL tuning"],
+      "participants": ["@qx()", "@Aco Šmrkas", "@Pgr456", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoScript template ID variation with empty and zero values",
+      "category": "technical",
+      "key_terms": ["ErgoScript templates", "template ID", "compiler optimization", "empty collections"],
+      "participants": ["@Josemi", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Fleet SDK v1 stable release and cryptographic dependencies",
+      "category": "technical",
+      "key_terms": ["Fleet SDK", "tsup", "crypto primitives", "@noble", "@scure"],
+      "participants": ["@arobsn"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus wallet Keystone hardware integration and supply chain security",
+      "category": "wallet",
+      "key_terms": ["Nautilus Wallet", "Keystone integration", "supply chain attack", "dependencies"],
+      "participants": ["@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "Lithos protocol mining pool testnet release v1.1",
+      "category": "mining",
+      "key_terms": ["Lithos", "mining pool", "stratum", "testnet v1.1"],
+      "participants": ["@Cheese", "@ArØhβΣ @Arohbe 🍪"],
+      "significance": "major"
+    },
+    {
+      "title": "RosenBridge cross-chain atomic swap cleanup and box tracking",
+      "category": "bridges",
+      "key_terms": ["RosenBridge", "cleanup service", "fraud detection", "box tracking"],
+      "participants": ["@zargarzadehmoein"],
+      "significance": "major"
+    },
+    {
+      "title": "USE stablecoin launch and comparison with SigUSD mechanisms",
+      "category": "defi",
+      "key_terms": ["USE stablecoin", "Dexy", "stablecoin mechanics", "SigUSD"],
+      "participants": ["@Alien", "@kushti khushi", "@Cheese"],
+      "significance": "minor"
+    },
+    {
+      "title": "Cornell AAP BRICK token ecosystem and student incentives",
+      "category": "ecosystem",
+      "key_terms": ["BRICK token", "student incentives", "fabrication shop", "community currency"],
+      "participants": ["@qx()"],
+      "significance": "major"
+    },
+    {
+      "title": "Degens.World cross-chain collaboration platform launch",
+      "category": "ecosystem",
+      "key_terms": ["Degens.World", "ErgoPay", "demo applications", "Ergo-centric"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo node incentive structures and DePIN mechanisms",
+      "category": "technical",
+      "key_terms": ["node incentives", "DePIN", "P2P networks", "proof-of-work"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Basis and Chaincash reserve box scanning functionality",
+      "category": "defi",
+      "key_terms": ["Basis", "Chaincash", "reserve box", "tracker box"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Hergmes block tracking and WebSocket API design research",
+      "category": "technical",
+      "key_terms": ["Hergmes", "block tracking", "WebSocket API", "event subscription"],
+      "participants": ["@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "DevDAO funding and bounty repository management",
+      "category": "governance",
+      "key_terms": ["DevDAO", "funding goal", "bounties", "community contributions"],
+      "participants": ["@kushti khushi", "@Glasgow｜WON'T DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "Lithos AI contract builder and ErgolabS demo deployment",
+      "category": "technical",
+      "key_terms": ["AI contract builder", "Fleet SDK compilation", "Nautilus integration", "token sale"],
+      "participants": ["@ArØhβΣ @Arohbe 🍪"],
+      "significance": "minor"
+    },
+    {
+      "title": "DuckPools v2 audit and dashboard infrastructure launch",
+      "category": "defi",
+      "key_terms": ["DuckPools", "proxy contracts", "fee structure", "database sync"],
+      "participants": ["@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mining reward API endpoint and contract integration",
+      "category": "mining",
+      "key_terms": ["mining rewards", "API route", "block rewards", "pool contracts"],
+      "participants": ["@Cheese", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "LoRa mesh network node synchronization research",
+      "category": "technical",
+      "key_terms": ["LoRa mesh", "node sync", "internet gateway", "remote connectivity"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Unified communication system with reactive flow and piped streams",
+      "category": "technical",
+      "key_terms": ["FlowProcess", "reactive streams", "piped streams", "registry architecture"],
+      "participants": ["@iospore"],
+      "significance": "minor"
+    },
+    {
+      "title": "Development chat scheduling adjustment

@@ -1,0 +1,141 @@
+{
+  "chat": "developer",
+  "week": "2025-W35",
+  "topics": [
+    {
+      "title": "Block candidate regeneration test implementation",
+      "category": "technical",
+      "key_terms": ["candidate regeneration", "testing", "PR#2237", "blockchain validation"],
+      "participants": ["@kushti khushi", "@Pgr456"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo 6.0 protocol soft-fork and input/ordering blocks",
+      "category": "technical",
+      "key_terms": ["6.0 soft-fork", "ordering blocks", "sub-blocks", "p2p layer", "devnet testing"],
+      "participants": ["@kushti khushi", "@Patato"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma-SDK development and SigmaState interpreter updates",
+      "category": "technical",
+      "key_terms": ["Sigma-SDK", "sigmastate-interpreter", "PR#1061", "PR#1076", "sub-blocks support"],
+      "participants": ["@kushti khushi", "@jozinek"],
+      "significance": "major"
+    },
+    {
+      "title": "Devnet node synchronization and peer connectivity issues",
+      "category": "technical",
+      "key_terms": ["node sync", "peer connection", "NAT", "blacklisting", "connection reset", "data folder"],
+      "participants": ["@kushti khushi", "@Patato"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo AppKit devnet network type compatibility",
+      "category": "technical",
+      "key_terms": ["AppKit", "devnet", "testnet", "network type mismatch", "Java exception"],
+      "participants": ["@Patato", "@Pulsarz", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Rosen Bridge Bitcoin Runes integration and UI enhancements",
+      "category": "bridges",
+      "key_terms": ["Bitcoin Runes", "WalletConnect", "xVerse Wallet", "dark theme", "Event Details page"],
+      "participants": ["@ZzZzBYE", "@lily.rh"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus Wallet Keystone integration and bundle optimization",
+      "category": "wallet",
+      "key_terms": ["Keystone", "hardware wallet", "CJS dependencies", "lazy loading", "bundle size"],
+      "participants": ["@arobsn", "@Pgr456"],
+      "significance": "major"
+    },
+    {
+      "title": "Minotaur wallet features and export/import functionality",
+      "category": "wallet",
+      "key_terms": ["Minotaur", "QR code display", "paste button", "wallet export", "wallet import", "LYKOS icon"],
+      "participants": ["@vorujack"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergoplatform.org website performance and redesign",
+      "category": "ecosystem",
+      "key_terms": ["Next.js upgrade", "performance optimization", "LCP improvement", "localization", "mobile UX"],
+      "participants": ["@Glasgow"],
+      "significance": "major"
+    },
+    {
+      "title": "Game of Prompts smart contract development",
+      "category": "defi",
+      "key_terms": ["Game of Prompts", "participation contract", "judge system", "Sigmaverse update"],
+      "participants": ["@Josemi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Lithos Protocol mining fraud proofs and off-chain code",
+      "category": "mining",
+      "key_terms": ["fraud proofs", "share validation", "rollup contracts", "stratum bug", "off-chain code"],
+      "participants": ["@Michael"],
+      "significance": "major"
+    },
+    {
+      "title": "MindHealer project notifications and service improvements",
+      "category": "ecosystem",
+      "key_terms": ["MindHealer", "notifications", "expert services", "smart contract actions"],
+      "participants": ["@Michael"],
+      "significance": "minor"
+    },
+    {
+      "title": "ChainCash wallet design and community discussion",
+      "category": "wallet",
+      "key_terms": ["ChainCash", "wallet design", "community feedback"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Git Circles offchain app and repository development",
+      "category": "ecosystem",
+      "key_terms": ["Git Circles", "offchain app", "repository integration", "commits"],
+      "participants": ["@bro_etiket", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "DIY hardware wallet for Ergo platform",
+      "category": "wallet",
+      "key_terms": ["DIY hardware wallet", "epmw", "physical device"],
+      "participants": ["@nitram147", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "EXLE Svelte dapp project bounty",
+      "category": "ecosystem",
+      "key_terms": ["EXLE bounty", "Svelte dapp", "5000 ERG", "end-to-end testing"],
+      "participants": ["@kushti khushi", "@HQΣr | Wont Dm 🐾 ⚡"],
+      "significance": "minor"
+    },
+    {
+      "title": "Rosen Bridge service refactoring and health checks",
+      "category": "bridges",
+      "key_terms": ["service manager", "health service", "asset-calculator", "data-adaptor", "chain scanners"],
+      "participants": ["@lily.rh"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Raffle backend integration and testnet testing",
+      "category": "ecosystem",
+      "key_terms": ["ergo-raffle", "backend services", "testnet integration"],
+      "participants": ["@lily.rh"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti khushi",
+    "@Patato",
+    "@DiscordBridge",
+    "@ZzZzBYE",
+    "@lily.rh",
+    "@Michael"
+  ],
+  "message_count": 81
+}

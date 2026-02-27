@@ -1,0 +1,90 @@
+{
+  "chat": "developer",
+  "week": "2025-W21",
+  "topics": [
+    {
+      "title": "Ergo 6.0 Protocol Soft-Fork and Tree Serialization Bug",
+      "category": "technical",
+      "key_terms": ["6.0 protocol", "tree serialization", "sigma-rust", "PR review"],
+      "participants": ["@kushti khushi", "@dusek", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Sub-Blocks Devnet Release and P2P Improvements",
+      "category": "technical",
+      "key_terms": ["sub-blocks devnet", "weak-blocks branch", "P2P layer", "node synchronization"],
+      "participants": ["@kushti khushi", "@Patato", "@Ody Bhoja", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge Cross-Chain Development and Bitcoin Runes",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "Bitcoin Runes", "Wallet Connect", "rate limiting", "guard-service"],
+      "participants": ["@ZzZzBYE", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Dexy Contracts Mainnet Deployment and UI Development",
+      "category": "defi",
+      "key_terms": ["Dexy contracts", "mainnet deployment", "CC0 license", "private testing"],
+      "participants": ["@kushti khushi", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Fleet SDK ErgoTree Operations and EIP-5 Support",
+      "category": "technical",
+      "key_terms": ["Fleet SDK", "ErgoTree extraction", "OutputBuilder", "EIP-5", "serialization"],
+      "participants": ["@arobsn", "@DiscordBridge", "@MGpai"],
+      "significance": "major"
+    },
+    {
+      "title": "Orphan Blocks Indexer Issue and Token Creation Fix",
+      "category": "technical",
+      "key_terms": ["orphan blocks", "indexer bug", "token creation", "rollback detection"],
+      "participants": ["@⭐Fanta⭐", "@kushti khushi", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "P2S Address Limitations in Cross-Chain Bridges",
+      "category": "bridges",
+      "key_terms": ["P2S address", "data size limitations", "cross-chain verification", "Cardano"],
+      "participants": ["@zargarzadehmoein", "@Josemi", "@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoScript Debugging and Contract Development Challenges",
+      "category": "technical",
+      "key_terms": ["ErgoScript", "debugging", "logging limitations", "contract development"],
+      "participants": ["@Josemi", "@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Keystone Implementation Status and Rust Contributors",
+      "category": "technical",
+      "key_terms": ["Keystone", "Rust contributors", "PR review feedback"],
+      "participants": ["@kushti khushi", "@Pgr456", "@dusek", "@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "SigmaChains Roadmap and Support Refactoring",
+      "category": "technical",
+      "key_terms": ["SigmaChains", "roadmap", "refactoring", "L2 research"],
+      "participants": ["@kushti khushi", "@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Transaction Deserialization in Fleet SDK",
+      "category": "technical",
+      "key_terms": ["transaction serialization", "hex/b64 deserialization", "Fleet SDK"],
+      "participants": ["@MGpai", "@arobsn", "@DiscordBridge"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti khushi",
+    "@DiscordBridge",
+    "@arobsn",
+    "@Patato"
+  ],
+  "message_count": 51
+}

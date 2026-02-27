@@ -1,0 +1,124 @@
+{
+  "chat": "developer",
+  "week": "2025-W13",
+  "topics": [
+    {
+      "title": "Ergo 6.0 Protocol Release and Testing",
+      "category": "technical",
+      "key_terms": ["6.0.0-RC", "sigmastate-interpreter", "mainnet blockchain processing", "versioning"],
+      "participants": ["@kushti", "@dusek_", "@jozinek", "@novamon_25735"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma-rust Library and Sigma-appkit Releases",
+      "category": "technical",
+      "key_terms": ["sigma-rust", "ergo-appkit", "global_allocator issue", "cdylib", "Keystone firmware"],
+      "participants": ["@kushti", "@dusek_", "@pgr456", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Debug Function Implementation for ErgoScript",
+      "category": "technical",
+      "key_terms": ["debug node", "AST reduction", "trace functionality", "DeserializeRegister", "expression evaluation"],
+      "participants": ["@novamon_25735", "@kushti", "@c8e4d2a", "@mgpai"],
+      "significance": "major"
+    },
+    {
+      "title": "Sub-blocks and P2P Protocol Specification",
+      "category": "technical",
+      "key_terms": ["sub-blocks", "p2p protocol spec", "oracle pools", "big data commitments"],
+      "participants": ["@kushti"],
+      "significance": "major"
+    },
+    {
+      "title": "Scala 3 Cross-compilation for Sigmastate",
+      "category": "technical",
+      "key_terms": ["Scala 3", "cross-compilation", "scala-js problems", "newcomer tasks"],
+      "participants": ["@jozinek"],
+      "significance": "minor"
+    },
+    {
+      "title": "ChainCash Updated Paper and Specifications",
+      "category": "ecosystem",
+      "key_terms": ["ChainCash", "configuration protocol", "updated documentation"],
+      "participants": ["@kushti"],
+      "significance": "minor"
+    },
+    {
+      "title": "Dexy Mainnet Launch Planning",
+      "category": "defi",
+      "key_terms": ["Dexy UI", "mainnet launch", "update key holders", "testnet validation"],
+      "participants": ["@kushti", "@arobsn"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus Wallet Bundle Size and i18n Optimization",
+      "category": "wallet",
+      "key_terms": ["lodash to es-toolkit migration", "bundle reduction", "i18n support", "lazy loading"],
+      "participants": ["@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "Lithos Rollup Contracts Development",
+      "category": "technical",
+      "key_terms": ["rollup contracts", "stratum issues", "mainnet voting May 1st"],
+      "participants": ["@cheeseenthusiast", "@kushti"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo Vanitygen Rust Tool Updates",
+      "category": "ecosystem",
+      "key_terms": ["vanitygen", "GUI implementation", "paper wallet generation", "appimage release"],
+      "participants": ["@arkadias"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Basic Template for New Developers",
+      "category": "ecosystem",
+      "key_terms": ["developer template", "React apps", "AI-assisted modification"],
+      "participants": ["@EddNorris"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mining Configuration and Miningcore Issues",
+      "category": "mining",
+      "key_terms": ["miningcore configuration", "duplicate share rejections", "pool setup"],
+      "participants": ["@ddobreff", "@Aberg"],
+      "significance": "minor"
+    },
+    {
+      "title": "PR Reviews and Merges for Core Libraries",
+      "category": "technical",
+      "key_terms": ["PR #1043", "PR #1055", "PR #1061", "PR #1062", "PR #1063", "version 5.0.16"],
+      "participants": ["@kushti", "@novamon_25735", "@jozinek", "@ccellado"],
+      "significance": "major"
+    },
+    {
+      "title": "Account Abstraction vs Ergo Contract Model",
+      "category": "technical",
+      "key_terms": ["intents", "MAST", "MFSM", "account-based contracts", "account abstraction"],
+      "participants": ["@kushti"],
+      "significance": "minor"
+    },
+    {
+      "title": "Scala JS Node Projection and CI Testing Issues",
+      "category": "technical",
+      "key_terms": ["AST node reflection", "JavaScript translation", "CI flakiness", "ReducedErgoLikeTransactionSpec"],
+      "participants": ["@novamon_25735", "@jozinek", "@kushti"],
+      "significance": "major"
+    }
+  ],
+  "active_participants": [
+    "@kushti",
+    "@novamon_25735",
+    "@jozinek",
+    "@DiscordBridge",
+    "@dusek_",
+    "@mgpai",
+    "@c8e4d2a",
+    "@arobsn",
+    "@pgr456",
+    "@cheeseenthusiast"
+  ],
+  "message_count": 134
+}

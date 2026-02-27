@@ -1,0 +1,170 @@
+{
+  "chat": "developer",
+  "week": "2025-W29",
+  "topics": [
+    {
+      "title": "Node API test vectors and endpoint design",
+      "category": "technical",
+      "key_terms": ["test vectors", "node API", "indexed node", "endpoints", "UTXO"],
+      "participants": ["@MGpai", "@kushti khushi", "@Orhan"],
+      "significance": "major"
+    },
+    {
+      "title": "Blockchain blocks API implementation and spending proofs",
+      "category": "technical",
+      "key_terms": ["spending proof", "ctx vars", "indexed node endpoint", "PR #2227", "openapi.yaml"],
+      "participants": ["@MGpai", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoScript constant placeholder support in ergoc",
+      "category": "technical",
+      "key_terms": ["constants", "ergoc", "v0.4.0", "placeholder tracking"],
+      "participants": ["@DiscordBridge", "@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "Fleet SDK v0.10.0 AvlTree serialization support",
+      "category": "ecosystem",
+      "key_terms": ["Fleet SDK", "AvlTree", "serialization", "type support", "offchain operations"],
+      "participants": ["@arobsn", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Protocol 6.0 type system expansion and UnsignedBigInt",
+      "category": "technical",
+      "key_terms": ["6.0 protocol", "UnsignedBigInt", "Header", "Option", "modular operations"],
+      "participants": ["@kushti khushi", "@MGpai"],
+      "significance": "minor"
+    },
+    {
+      "title": "Braid sidechain research and double merge-mining",
+      "category": "technical",
+      "key_terms": ["Braid", "sidechain", "Bitcoin merge-mined", "whitepaper", "sub-blocks"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Sub-blocks mining integration to mainnet",
+      "category": "technical",
+      "key_terms": ["sub-blocks", "mining", "mainnet injection", "testnet mining issues"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "USD oracle pool v2 voting and operator instructions",
+      "category": "defi",
+      "key_terms": ["oracle pool", "v2", "voting", "testnet operators"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "DarkERG privacy protocol and Bulletproof range proofs",
+      "category": "defi",
+      "key_terms": ["DarkERG", "Bulletproof", "range proof", "stealth addresses", "hidden amounts"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Lithos storage rent contract and fraud proof NISP",
+      "category": "ecosystem",
+      "key_terms": ["storage rent", "fraud proof", "NISP", "rollup", "devnet"],
+      "participants": ["@Michael"],
+      "significance": "minor"
+    },
+    {
+      "title": "Machina Finance AVL tree serialization and backend",
+      "category": "defi",
+      "key_terms": ["Machina Finance", "AVL tree", "order aggregation", "Rust backend"],
+      "participants": ["@Michael"],
+      "significance": "minor"
+    },
+    {
+      "title": "Rosen Bridge multi-chain integration expansion",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "Doge", "Runes", "Monero", "integration"],
+      "participants": ["@Michael"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigmanauts Mining Pool calculator and admin tools",
+      "category": "mining",
+      "key_terms": ["mining pool", "calculator", "admin tools", "alerts", "UI"],
+      "participants": ["@Marc the Shark"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigmapy Python bindings and Top Byte explorer integration",
+      "category": "ecosystem",
+      "key_terms": ["sigmapy", "Python library", "GraphQL", "blockchain explorer"],
+      "participants": ["@Marc the Shark"],
+      "significance": "minor"
+    },
+    {
+      "title": "Netnotes multi-threaded indexed file streaming framework",
+      "category": "ecosystem",
+      "key_terms": ["Netnotes", "file streaming", "multi-threaded", "data structure"],
+      "participants": ["@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Artifact Arena GIF minting and canvas optimization",
+      "category": "nft",
+      "key_terms": ["Artifact Arena", "GIF minting", "canvas", "IPFS", "threeJS"],
+      "participants": ["@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Celaut Game of Prompts node compatibility and refactoring",
+      "category": "ecosystem",
+      "key_terms": ["Celaut", "Game of Prompts", "reputation system", "macOS", "Windows"],
+      "participants": ["@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Node v5.0.25 indexer sync errors and recovery",
+      "category": "technical",
+      "key_terms": ["indexer", "sync issues", "box not found", "token errors"],
+      "participants": ["@Sheetoshi", "@Moein Zargarzadeh"],
+      "significance": "minor"
+    },
+    {
+      "title": "Testnet v6.1.0 height parsing and modifier errors",
+      "category": "technical",
+      "key_terms": ["testnet", "modifier parsing", "height 801365", "ConnectedPeer"],
+      "participants": ["@Michael", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Node version 6.0.0 sync performance improvements",
+      "category": "technical",
+      "key_terms": ["v6.0.0", "sync speed", "Raspberry Pi", "performance"],
+      "participants": ["@Sheetoshi"],
+      "significance": "minor"
+    },
+    {
+      "title": "CONTEXT.HEIGHT mempool execution semantics",
+      "category": "technical",
+      "key_terms": ["CONTEXT.HEIGHT", "mempool", "tip height", "ErgoScript"],
+      "participants": ["@MGpai"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo node system architecture and Rustchain hardening",
+      "category": "technical",
+      "key_terms": ["node structure", "Rustchain", "system architecture"],
+      "participants": ["@kushti khushi", "@AutoJanitor"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@MGpai",
+    "@kushti khushi",
+    "@DiscordBridge",
+    "@Michael",
+    "@arobsn",
+    "@Marc the Shark",
+    "@Sheetoshi"
+  ],
+  "message_count": 72
+}

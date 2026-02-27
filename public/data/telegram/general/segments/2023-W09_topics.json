@@ -1,0 +1,157 @@
+{
+  "chat": "general",
+  "week": "2023-W09",
+  "topics": [
+    {
+      "title": "Ergo v5.0 Performance and Transaction Throughput",
+      "category": "technical",
+      "key_terms": ["v5.0", "TPS", "complex transactions", "block finality", "max cost"],
+      "participants": ["@TMR.ΣRG", "@Luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "DeFi Protocol Comparison: Spectrum vs Sigma vs Machina Finance",
+      "category": "defi",
+      "key_terms": ["Spectrum Finance", "Sigma Finance", "Machina Finance", "DEX", "P2P"],
+      "participants": ["@Unknown", "@HQΣr"],
+      "significance": "minor"
+    },
+    {
+      "title": "SigUSD Reserve Dynamics and Secondary Market Pricing",
+      "category": "defi",
+      "key_terms": ["SigUSD", "SigRSV", "reserve ratio", "Spectrum Dex", "stablecoin"],
+      "participants": ["@Thomas Eh", "@qx()", "@TMR.ΣRG"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge Development Status and Tokenomics",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "Cardano", "cross-chain", "stress test", "public launch"],
+      "participants": ["@HQΣr", "@Glasgow", "@mhs_sam"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoTipperBot Twitter Integration and Usage",
+      "category": "community",
+      "key_terms": ["ErgoTipperBot", "Twitter", "tipping", "wallet", "token transfers"],
+      "participants": ["@HQΣr", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Yoroi Wallet Update and Migration to Alternative Wallets",
+      "category": "wallet",
+      "key_terms": ["Yoroi", "wallet migration", "Nautilius", "Terminus", "storage rent"],
+      "participants": ["@CW", "@Unknown", "@Glasgow"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoMixer Privacy Implementation and Volume Concerns",
+      "category": "ecosystem",
+      "key_terms": ["ErgoMixer", "privacy", "mixer", "volume", "anonymity"],
+      "participants": ["@TMR.ΣRG", "@qx()", "@Cristian Nagy"],
+      "significance": "major"
+    },
+    {
+      "title": "Binance Listing Strategy and CEX Accessibility",
+      "category": "marketing",
+      "key_terms": ["Binance listing", "exchange access", "liquidity", "charitable donation"],
+      "participants": ["@HQΣr", "@Glasgow", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "ERG Price Volatility and Market Sentiment",
+      "category": "community",
+      "key_terms": ["price action", "support levels", "DCA", "market correction"],
+      "participants": ["@prime", "@Unknown", "@Thomas Eh", "@Dilema"],
+      "significance": "major"
+    },
+    {
+      "title": "Paideia DAO Toolkit and Governance Framework",
+      "category": "governance",
+      "key_terms": ["Paideia", "DAO", "on-chain governance", "business automation"],
+      "participants": ["@Unknown", "@DanielTetsuyama"],
+      "significance": "minor"
+    },
+    {
+      "title": "Auction House NFT Platform Launch and Updates",
+      "category": "nft",
+      "key_terms": ["Auction House", "NFT marketplace", "March event", "vector art"],
+      "participants": ["@Jennie D", "@HQΣr", "@Maritsa"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoHack VI Cypherpunk Finance Community Vote",
+      "category": "governance",
+      "key_terms": ["ErgoHack VI", "community voting", "prize pool", "1000 ERG"],
+      "participants": ["@CW", "@Ergo NEWS", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "UTXO Model and ErgoScript Smart Contract Development",
+      "category": "technical",
+      "key_terms": ["UTXO", "ErgoScript", "smart contracts", "guard scripts", "boxes"],
+      "participants": ["@Flying Pig", "@Pulsarz", "@Luivatra", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Node Synchronization with UTXO Snapshots and NiPoPoWs",
+      "category": "technical",
+      "key_terms": ["UTXO snapshot", "NiPoPoWs", "node bootstrap", "light client", "node syncing"],
+      "participants": ["@TMR.ΣRG", "@Gazza", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Spectrum Finance ISPO and Token Economics",
+      "category": "defi",
+      "key_terms": ["Spectrum Finance", "ISPO", "SPF token", "Cardano delegation"],
+      "participants": ["@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Accessibility and User Experience for Non-Technical Users",
+      "category": "marketing",
+      "key_terms": ["user accessibility", "wallet setup", "grandma-friendly", "MetaMask comparison"],
+      "participants": ["@David Tortosa", "@Thomas Eh", "@qx()", "@Gazza"],
+      "significance": "major"
+    },
+    {
+      "title": "Ledger Hardware Wallet Integration Status",
+      "category": "wallet",
+      "key_terms": ["Ledger", "hardware wallet", "integration", "dev mode"],
+      "participants": ["@Nico", "@Unknown", "@Wayan Adam"],
+      "significance": "minor"
+    },
+    {
+      "title": "Grand Gambit Gambling Platform and Comet Lottery",
+      "category": "ecosystem",
+      "key_terms": ["Grand Gambit", "Comet", "lottery", "gambling", "Speed Pot"],
+      "participants": ["@qx()", "@Grand Gambit", "@Fabulaowski"],
+      "significance": "minor"
+    },
+    {
+      "title": "KuCoin and Exchange Integration Issues",
+      "category": "ecosystem",
+      "key_terms": ["Hotbit", "KuCoin", "node update", "transaction errors"],
+      "participants": ["@Bob x", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Minotaur Wallet Multisig Improvements",
+      "category": "wallet",
+      "key_terms": ["Minotaur wallet", "multisig", "UI improvements", "data persistence"],
+      "participants": ["@HQΣr", "@mhs_sam"],
+      "significance": "minor"
+    },
+    {
+      "title": "Djed Stablecoin Flash Crash Analysis",
+      "category": "defi",
+      "key_terms": ["Djed", "stablecoin", "flash crash", "SigUSD comparison"],
+      "participants": ["@Unknown", "@Luivatra", "@Pulsarz", "@Glasgow"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sky Harbor NFT Marketplace Listing Tracking",
+      "category": "nft",
+      "key_terms": ["Sky Harbor", "NFT listings", "wallet tracking", "API integration"],
+      "participants": ["@Unknown", "@qx()", "@CW"],
+      "significance":

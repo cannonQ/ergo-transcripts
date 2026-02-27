@@ -1,0 +1,148 @@
+{
+  "chat": "Ergo General",
+  "week": "2024-W12",
+  "topics": [
+    {
+      "title": "SigmaUSD protocol updates and minting caps",
+      "category": "defi",
+      "key_terms": ["SigmaUSD", "minting limits", "update keys", "immutability"],
+      "participants": ["@kushti khushi", "@Armeanio", "@Bruno Woltzenlogel Paleo", "@Ile"],
+      "significance": "major"
+    },
+    {
+      "title": "Gluon Gold stablecoin testnet launch",
+      "category": "defi",
+      "key_terms": ["Gluon Gold", "testnet", "GORT buyback", "Nautilus wallet"],
+      "participants": ["@Bruno Woltzenlogel Paleo", "@kushti khushi", "@Zahnentferner"],
+      "significance": "major"
+    },
+    {
+      "title": "Djed protocol variants and implementations",
+      "category": "defi",
+      "key_terms": ["Djed", "Zephyr", "oracle pairs", "reserve ratio", "Cardano"],
+      "participants": ["@Bruno Woltzenlogel Paleo", "@kushti khushi", "@Sergey Antonov"],
+      "significance": "major"
+    },
+    {
+      "title": "ChainCash video release and server development",
+      "category": "ecosystem",
+      "key_terms": ["ChainCash", "public group", "Rust developers", "server design"],
+      "participants": ["@kushti khushi", "@Bruno Woltzenlogel Paleo"],
+      "significance": "minor"
+    },
+    {
+      "title": "MEXC exchange listing status and integration",
+      "category": "marketing",
+      "key_terms": ["MEXC", "listing", "integration", "market making", "April timeline"],
+      "participants": ["@Glasgow｜WON'T DM", "@Mint LkV", "@Son Nguyen", "@Chris Ray"],
+      "significance": "major"
+    },
+    {
+      "title": "Kraken listing community campaign",
+      "category": "marketing",
+      "key_terms": ["Kraken", "listing campaign", "market contact"],
+      "participants": ["@Glasgow｜WON'T DM", "@€rgonauta"],
+      "significance": "minor"
+    },
+    {
+      "title": "DarkErdoge miner rewards and hashrate decentralization",
+      "category": "mining",
+      "key_terms": ["DarkErdoge", "miner rewarder", "solo mining", "pool incentives"],
+      "participants": ["@kushti khushi", "@MGpai", "@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "Coingecko token listings (PEPERG, QUACKS)",
+      "category": "marketing",
+      "key_terms": ["Coingecko", "token listing", "PEPERG rejected", "QUACKS approved"],
+      "participants": ["@Yulius Kristianto", "@Glasgow｜WON'T DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo mixer and Nautilus wallet technical issues",
+      "category": "wallet",
+      "key_terms": ["Ergo Mixer", "Nautilus", "block sync", "consolidation"],
+      "participants": ["@Ioannis", "@qx()", "@HQΣr"],
+      "significance": "minor"
+    },
+    {
+      "title": "Scammer identification and fund recovery attempts",
+      "category": "community",
+      "key_terms": ["scammer", "Eddie", "Kucoin", "dust detection", "box consolidation"],
+      "participants": ["@HQΣr", "@kushti khushi", "@Pgr456", "@Flying Pig", "@CW"],
+      "significance": "major"
+    },
+    {
+      "title": "Wallet dust boxes and transaction optimization",
+      "category": "technical",
+      "key_terms": ["unspent boxes", "dust", "consolidation", "0.00003996 ERG minimum"],
+      "participants": ["@Aco Šmrkas", "@Pulsarz", "@Flying Pig", "@HQΣr"],
+      "significance": "minor"
+    },
+    {
+      "title": "NIPoPoW (Non-Interactive Proofs of Proof-of-Work)",
+      "category": "technical",
+      "key_terms": ["NIPoPoW", "Nautilus", "cross-chain interoperability", "blockchain verification"],
+      "participants": ["@Ergo NEWS", "@Velvia", "@Andrius 11G"],
+      "significance": "minor"
+    },
+    {
+      "title": "Rosen bridge cross-chain data transfer capability",
+      "category": "bridges",
+      "key_terms": ["Rosen bridge", "cross-chain data", "oracle functionality", "Cardano bridge"],
+      "participants": ["@Jack Σ", "@qx()", "@Man ish"],
+      "significance": "minor"
+    },
+    {
+      "title": "Dexy protocol voting tokens and governance",
+      "category": "governance",
+      "key_terms": ["Dexy", "voting tokens", "DarkSide", "update keys", "6-month burn"],
+      "participants": ["@kushti khushi", "@Bruno Woltzenlogel Paleo", "@Glasgow｜WON'T DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "Community chat: stablecoins and protocol discussion",
+      "category": "community",
+      "key_terms": ["community chat", "Gluon", "SigmaUSD", "Djed variants", "live discussion"],
+      "participants": ["@kushti khushi", "@Bruno Woltzenlogel Paleo", "@Armeanio", "@Ile"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo transaction fee structure and batching",
+      "category": "technical",
+      "key_terms": ["transaction fees", "eUTXO", "batching", "1:many outputs", "0.001 ERG"],
+      "participants": ["@cannon_q", "@Aco Šmrkas"],
+      "significance": "minor"
+    },
+    {
+      "title": "Price discussion moderation and trading chat",
+      "category": "community",
+      "key_terms": ["price discussion", "chat moderation", "trading chat rules", "@ErgoTrading"],
+      "participants": ["@Z J", "@R", "@Glasgow｜WON'T DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo user onboarding and ecosystem guides",
+      "category": "ecosystem",
+      "key_terms": ["user guides", "DeFi yield strategies", "wallet setup", "ergonaut.space"],
+      "participants": ["@Z J", "@Glasgow｜WON'T DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "RGB protocol compatibility discussion",
+      "category": "technical",
+      "key_terms": ["RGB protocol", "UTXO model", "Nervos RGB++", "Bitcoin layer 2"],
+      "participants": ["@Fkn A Jared", "@kushti khushi", "@TMR.ΣRG"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sub-blocks proposal for transaction throughput",
+      "category": "technical",
+      "key_terms": ["sub-blocks", "transaction throughput", "TPS improvement", "miner revenue"],
+      "participants": ["@dayumbbbb", "@Z J"],
+      "significance": "minor"
+    },
+    {
+      "title": "Demurrage mechanism and token lock predictability",
+      "category": "defi",
+      "key_terms": ["demurrage", "token unlock", "inflation", "price stability"],

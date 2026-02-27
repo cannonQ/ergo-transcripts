@@ -1,0 +1,124 @@
+{
+  "chat": "developer",
+  "week": "2023-W49",
+  "topics": [
+    {
+      "title": "Mobile wallet development and Nautilus refactoring",
+      "category": "wallet",
+      "key_terms": ["mobile wallet", "Nautilus", "manifest v3", "cold storage", "QR code signing"],
+      "participants": ["@Capt. Nemo", "@Pulsarz", "@MrStahlfelge | Won't DM"],
+      "significance": "major"
+    },
+    {
+      "title": "UTXO consolidation and transaction box limits",
+      "category": "technical",
+      "key_terms": ["UTXO consolidation", "box inputs", "transaction size", "1k boxes", "96kb limit"],
+      "participants": ["@HQΣr | Wont Dm 🐾 ⚡", "@Flying Pig (™)", "@Luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "JavaScript BigInt handling for token amounts",
+      "category": "technical",
+      "key_terms": ["JavaScript", "i64 overflow", "BigInt", "token amounts", "json-bigint library"],
+      "participants": ["@Aco Šmrkas", "@Pulsarz", "@Luivatra", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoPay integration and server performance",
+      "category": "technical",
+      "key_terms": ["ErgoPay", "reduced transaction", "Python AppKit", "multiple addresses", "server load"],
+      "participants": ["@Aco Šmrkas", "@Glasgow｜WON'T DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "Node indexing issues in versions 5.0.15 and 5.0.16",
+      "category": "technical",
+      "key_terms": ["node indexing", "sigma serializer", "version rollback", "i2066 branch", "docker fix"],
+      "participants": ["@kushti khushi", "@Pulsarz", "@Flying Pig (™)", "@qx()", "@Luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "Native image compilation for iOS and Android",
+      "category": "technical",
+      "key_terms": ["GraalVM Native Image", "RoboVM", "Java bytecode", "mobile compilation"],
+      "participants": ["@Aberg Satergo dev", "@MrStahlfelge | Won't DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "Token airdrop tools and batch transfer solutions",
+      "category": "ecosystem",
+      "key_terms": ["airdrop", "YAAT", "ergpy", "CSV to TX builder", "multiple outputs"],
+      "participants": ["@Lee # TabbyPOS", "@qx()", "@Flying Pig (™)"],
+      "significance": "minor"
+    },
+    {
+      "title": "FleetSharp C# library development progress",
+      "category": "technical",
+      "key_terms": ["FleetSharp", "exception handling", "unit tests", "OutputBuilder", "BigInt support"],
+      "participants": ["@Pulsarz"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergosanta 2023 charitable NFT event",
+      "category": "nft",
+      "key_terms": ["Ergosanta", "NFT prizes", "token rewards", "vouchers", "community contribution"],
+      "participants": ["@HQΣr | Wont Dm 🐾 ⚡"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo-core publishing and framework stability",
+      "category": "technical",
+      "key_terms": ["ergo-core", "release.yaml", "framework development", "dependency stability"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Application size optimization to 6MB target",
+      "category": "technical",
+      "key_terms": ["app size", "6MB target", "class exclusion", "optimization"],
+      "participants": ["@MrStahlfelge | Won't DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergonaut.space localization and admin management",
+      "category": "community",
+      "key_terms": ["ergonaut.space", "Indonesian translation", "admin permissions", "localization"],
+      "participants": ["@Yulius Kristianto (cg listing boss)", "@Glasgow｜WON'T DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "Spectrum DEX integration and transaction parameters",
+      "category": "defi",
+      "key_terms": ["Spectrum", "DEX integration", "transaction parameters", "staking tokens"],
+      "participants": ["@HQΣr | Wont Dm 🐾 ⚡", "@Pulsarz"],
+      "significance": "minor"
+    },
+    {
+      "title": "Rosen Bridge documentation and wallet features",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "Indonesian documentation", "wallet integration"],
+      "participants": ["@Yulius Kristianto (cg listing boss)"],
+      "significance": "minor"
+    },
+    {
+      "title": "Node panel indexing status indicator",
+      "category": "technical",
+      "key_terms": ["node panel", "indexing status", "indexedHeight", "blockchain API"],
+      "participants": ["@CW", "@Flying Pig (™)"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@Aco Šmrkas",
+    "@Pulsarz",
+    "@HQΣr | Wont Dm 🐾 ⚡",
+    "@Yulius Kristianto (cg listing boss)",
+    "@MrStahlfelge | Won't DM",
+    "@kushti khushi",
+    "@Flying Pig (™)",
+    "@Aberg Satergo dev",
+    "@qx()",
+    "@Luivatra"
+  ],
+  "message_count": 156
+}

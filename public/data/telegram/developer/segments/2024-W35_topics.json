@@ -1,0 +1,131 @@
+{
+  "chat": "developer",
+  "week": "2024-W35",
+  "topics": [
+    {
+      "title": "Context extension serialization order inconsistency",
+      "category": "technical",
+      "key_terms": ["context extension", "transaction serialization", "sigma-rust", "hashmap ordering", "transaction ID mismatch"],
+      "participants": ["@Luivatra", "@DiscordBridge", "@kushti_ru"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo 6.0.0-alpha0 release and testing",
+      "category": "governance",
+      "key_terms": ["6.0.0-alpha0", "devnet activation", "transaction submission", "protocol upgrade"],
+      "participants": ["@kushti_ru", "@cheeseenthusiast"],
+      "significance": "major"
+    },
+    {
+      "title": "Node wallet key derivation path parsing",
+      "category": "wallet",
+      "key_terms": ["derivation path", "REST API", "swagger UI", "single quote escaping", "key reproduction"],
+      "participants": ["@Paul", "@Pgr456", "@kushti_ru"],
+      "significance": "minor"
+    },
+    {
+      "title": "AppKit vulnerable dependencies audit",
+      "category": "technical",
+      "key_terms": ["CVE vulnerabilities", "guava", "okhttp3", "bouncycastle", "dependency management"],
+      "participants": ["@Aberg Satergo dev", "@kushti_ru"],
+      "significance": "major"
+    },
+    {
+      "title": "Node process spontaneous shutdown troubleshooting",
+      "category": "technical",
+      "key_terms": ["SIGHUP", "nohup", "process management", "node stability", "version 5.0.21"],
+      "participants": ["@dΣathgripson", "@kushti_ru"],
+      "significance": "minor"
+    },
+    {
+      "title": "LevelDB JNI dependency sourcing and RocksDB migration",
+      "category": "technical",
+      "key_terms": ["leveldbjni-all", "maven repository", "RocksDB transition", "dependency publication"],
+      "participants": ["@Pgr456", "@Aberg Satergo dev", "@kushti_ru"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaMap implementation for deterministic serialization",
+      "category": "technical",
+      "key_terms": ["SigmaMap", "HashMap porting", "context extension", "soft fork compatibility"],
+      "participants": ["@kushti_ru", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus wallet transaction history and context ordering",
+      "category": "wallet",
+      "key_terms": ["Nautilus v0.13.0", "transaction history tab", "context variable ordering", "p2pk proof verification"],
+      "participants": ["@Luivatra", "@capt_nemo429", "@arobsn"],
+      "significance": "major"
+    },
+    {
+      "title": "Fleet SDK blockchain provider enhancements",
+      "category": "ecosystem",
+      "key_terms": ["Fleet SDK", "blockchain providers", "stream methods", "skip/take parameters"],
+      "participants": ["@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "Node HTTP server thread pool and indexer contention",
+      "category": "technical",
+      "key_terms": ["HTTP server crash", "thread pool", "indexer conflict", "API availability", "version 5.0.23"],
+      "participants": ["@Michael", "@Luivatra", "@kushti_ru"],
+      "significance": "major"
+    },
+    {
+      "title": "Explorer mempool display and sigmaspace.io availability",
+      "category": "ecosystem",
+      "key_terms": ["explorer mempool", "transaction confirmation", "sigmaspace.io", "ergexplorer"],
+      "participants": ["@Michael", "@Aco Šmrkas", "@Pgr456"],
+      "significance": "minor"
+    },
+    {
+      "title": "Merkle batch proofs and protocol compatibility testing",
+      "category": "technical",
+      "key_terms": ["Merkle batch proofs", "6.0 transactions", "version compatibility", "soft fork testing"],
+      "participants": ["@kushti_ru", "@mgpai"],
+      "significance": "major"
+    },
+    {
+      "title": "Paideia platform transaction signing workflow",
+      "category": "defi",
+      "key_terms": ["Paideia", "signed transactions", "context variable ordering", "p2pk proofs"],
+      "participants": ["@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "The Field peer-to-pool pledging protocol MVP",
+      "category": "defi",
+      "key_terms": ["The Field", "pledging protocol", "smart contracts", "dApp testing", "DAO"],
+      "participants": ["@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigs Mining Pool bonus rewards and integration",
+      "category": "mining",
+      "key_terms": ["Sigs Mining Pool", "bonus rewards", "mining core", "payment system", "proposal"],
+      "participants": ["@Marc the Shark"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mining pool development and helper recruitment",
+      "category": "mining",
+      "key_terms": ["mining pool dev", "test pool", "developer onboarding"],
+      "participants": ["@mgpai", "@ab1aut_"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti_ru",
+    "@Luivatra",
+    "@Pgr456",
+    "@arobsn",
+    "@DiscordBridge",
+    "@mgpai",
+    "@Paul",
+    "@Aberg Satergo dev",
+    "@dΣathgripson",
+    "@Michael"
+  ],
+  "message_count": 136
+}

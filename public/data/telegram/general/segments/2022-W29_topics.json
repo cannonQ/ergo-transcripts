@@ -1,0 +1,165 @@
+{
+  "chat": "Ergo General",
+  "week": "2022-W29",
+  "topics": [
+    {
+      "title": "Babel Fees and Price Dynamics in Smart Contracts",
+      "category": "technical",
+      "key_terms": ["babel fees", "price oracle", "dex pricing", "smart contracts"],
+      "participants": ["@MHS_SAM", "@MrStahlfelge", "@Ilya", "@Luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "UTXO Model and Box-Based Transaction Architecture",
+      "category": "technical",
+      "key_terms": ["UTXO", "boxes", "eUTXO", "guard scripts", "registers"],
+      "participants": ["@Unknown", "@Luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "Storage Rent Mechanism and Token Distribution",
+      "category": "technical",
+      "key_terms": ["storage rent", "2-year inactivity", "token distribution", "fund recovery"],
+      "participants": ["@Wilhelm Källström", "@Aberg Satergo dev", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Satergo Desktop Wallet v1.4.0 Release",
+      "category": "wallet",
+      "key_terms": ["Satergo", "offline mode", "node updates", "wallet release"],
+      "participants": ["@Aberg Satergo dev", "@Marty ErgoPad"],
+      "significance": "major"
+    },
+    {
+      "title": "Node Infrastructure and Decentralization",
+      "category": "ecosystem",
+      "key_terms": ["node count", "port forwarding", "ergonodes.net", "network distribution"],
+      "participants": ["@Aberg Satergo dev", "@Unknown", "@Klaus", "@TMR.ΣRG"],
+      "significance": "major"
+    },
+    {
+      "title": "Waves Exchange Gateway Withdrawal Delays",
+      "category": "bridges",
+      "key_terms": ["Waves gateway", "withdrawal delays", "transaction processing"],
+      "participants": ["@Nestrye Tyer", "@kushti khushi", "@filippounits"],
+      "significance": "minor"
+    },
+    {
+      "title": "Trust Wallet and Koinly Integration Efforts",
+      "category": "ecosystem",
+      "key_terms": ["Trust Wallet", "Koinly", "integration", "exchange listings"],
+      "participants": ["@Wilhelm Källström", "@Unknown", "@CW"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ledger Hardware Wallet Support Status",
+      "category": "wallet",
+      "key_terms": ["Ledger Nano X", "sideload", "official support", "Nautilus"],
+      "participants": ["@João", "@Ilya", "@Glasgow｜WON'T DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "SigUSD Stablecoin and Reserve Ratio Mechanics",
+      "category": "defi",
+      "key_terms": ["SigUSD", "SigRSV", "reserve ratio", "price stability"],
+      "participants": ["@J", "@Ile", "@Green_Diamond II Wont DM"],
+      "significance": "major"
+    },
+    {
+      "title": "DuckPools Collateralized Lending Platform",
+      "category": "defi",
+      "key_terms": ["DuckPools", "lending pool", "collateral", "APY rewards"],
+      "participants": ["@Unknown", "@RC", "@Glasgow｜WON'T DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "Network Mempool Transaction Validation Issues",
+      "category": "technical",
+      "key_terms": ["mempool", "transaction rejection", "96kb limit", "node versions"],
+      "participants": ["@Flying Pig", "@Ilya", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Raffle Bot Security and Scam Concerns",
+      "category": "community",
+      "key_terms": ["auction house bug", "raffle bot", "scam allegations"],
+      "participants": ["@Thomas Eh", "@Luivatra", "@Unknown", "@Cheese"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo Platform Visibility in Mainstream Media",
+      "category": "marketing",
+      "key_terms": ["Nasdaq article", "market coverage", "publicity"],
+      "participants": ["@Unknown", "@CW", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mining Economics and Network Security",
+      "category": "mining",
+      "key_terms": ["mining pools", "GetBlok", "hash rate", "electricity costs"],
+      "participants": ["@Unknown", "@Lee # TabbyPOS"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma Valley Metaverse Project",
+      "category": "ecosystem",
+      "key_terms": ["Sigma Valley", "metaverse", "land sales", "voting"],
+      "participants": ["@Unknown", "@Ilya"],
+      "significance": "minor"
+    },
+    {
+      "title": "Privacy Features and Mixer Discussion",
+      "category": "technical",
+      "key_terms": ["privacy", "mixer", "KYC", "Monero", "regulation"],
+      "participants": ["@Unknown", "@seedubya"],
+      "significance": "minor"
+    },
+    {
+      "title": "Node Version Compatibility and Hard Forks",
+      "category": "technical",
+      "key_terms": ["node 5.0", "version 4.0.x", "protocol compatibility", "soft fork"],
+      "participants": ["@Ilya", "@Aberg Satergo dev", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Developer Fraud and Resume Scams",
+      "category": "community",
+      "key_terms": ["fake resumes", "scammer accounts", "copy-paste GitHub"],
+      "participants": ["@Luivatra", "@Ilya", "@Gazza"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Watch Analytics Platform",
+      "category": "ecosystem",
+      "key_terms": ["ergo.watch", "accounting tools", "donation features"],
+      "participants": ["@Chris Ray", "@Unknown", "@Chris"],
+      "significance": "minor"
+    },
+    {
+      "title": "Fair Launch and Treasury Mechanisms",
+      "category": "governance",
+      "key_terms": ["fair launch", "no pre-mine", "treasury allocation", "4.43%"],
+      "participants": ["@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mobile Wallet Address Derivation Issues",
+      "category": "wallet",
+      "key_terms": ["address restoration", "gap limit", "Nautilus", "ErgoWallet"],
+      "participants": ["@Rj", "@Aberg Satergo dev", "@MrStahlfelge", "@Klaus"],
+      "significance": "minor"
+    },
+    {
+      "title": "TradeOgre Exchange Privacy and Market Activity",
+      "category": "ecosystem",
+      "key_terms": ["TradeOgre", "no KYC", "privacy exchange", "liquidity"],
+      "participants": ["@Aberg Satergo dev", "@Rj", "@Glasgow｜WON'T DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "ExLe Lending Protocol Development",
+      "category": "defi",
+      "key_terms": ["ExLe", "lending protocol", "ErgoLend"],
+      "participants": ["@Chris Ray"],
+      "significance": "minor"
+    },

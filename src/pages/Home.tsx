@@ -1,14 +1,24 @@
 import React, { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import { ArrowRight, TrendingUp, Activity, Loader2, ChevronDown } from 'lucide-react';
+import { ArrowRight, TrendingUp, Activity, Loader2, ChevronDown, MessageSquare } from 'lucide-react';
 import CallCard from '../components/CallCard';
 import StatCard from '../components/StatCard';
 import TopicTag from '../components/TopicTag';
 import { useData } from '../contexts/DataContext';
+import type { TelegramMonthEntry } from '../types';
+
+function monthLabel(period: string): string {
+  const [year, month] = period.split('-');
+  const d = new Date(parseInt(year), parseInt(month) - 1, 1);
+  return d.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+}
 
 export default function Home() {
-  const { stats, calls, topics, isLoading, isInitialized, loadAllDecisions, allDecisions } = useData();
+  const { stats, calls, topics, isLoading, isInitialized, loadAllDecisions, allDecisions, loadTelegramIndex } = useData();
+  const [recentChat, setRecentChat] = useState<{ channel: string; entry: TelegramMonthEntry }[]>([]);
+  const [totalChatWeeks, setTotalChatWeeks] = useState(0);
+  const [totalChatMonths, setTotalChatMonths] = useState(0);
   const [typedText, setTypedText] = useState('');
   const [decisionsLoading, setDecisionsLoading] = useState(false);
   const [statsOpen, setStatsOpen] = useState(false);
@@ -35,6 +45,25 @@ export default function Home() {
       loadAllDecisions().finally(() => setDecisionsLoading(false));
     }
   }, [isInitialized, allDecisions, loadAllDecisions]);
+
+  // Load telegram index for stats + recent chat section
+  useEffect(() => {
+    if (!isInitialized) return;
+    loadTelegramIndex().then(idx => {
+      const gMonths = idx.general?.months ?? [];
+      const dMonths = idx.developer?.months ?? [];
+      setTotalChatWeeks((idx.general?.weeks.length ?? 0) + (idx.developer?.weeks.length ?? 0));
+      setTotalChatMonths(gMonths.length + dMonths.length);
+
+      // Last 2 general + 1 developer month, sorted newest first
+      const recent: { channel: string; entry: TelegramMonthEntry }[] = [];
+      const gLast = [...gMonths].slice(-2).reverse();
+      const dLast = [...dMonths].slice(-1).reverse();
+      gLast.forEach(e => recent.push({ channel: 'general', entry: e }));
+      dLast.forEach(e => recent.push({ channel: 'developer', entry: e }));
+      setRecentChat(recent);
+    }).catch(console.error);
+  }, [isInitialized]);
 
   const recentCalls = calls.slice(0, 4);
   const recentDecisions = allDecisions?.slice(0, 4) || [];
@@ -92,6 +121,9 @@ export default function Home() {
                 <StatCard label="DECISIONS TRACKED" value={stats?.total_decisions || 0} />
                 <StatCard label="SPEAKERS" value={stats?.total_speakers || 0} />
                 <StatCard label="HOURS OF CONTENT" value={`${stats?.total_hours || 0}+`} />
+                <StatCard label="CHAT WEEKS" value={totalChatWeeks || '—'} />
+                <StatCard label="CHAT MONTHS" value={totalChatMonths || '—'} />
+                <StatCard label="CHAT COVERAGE" value={totalChatWeeks ? '2017–2026' : '—'} />
                 <StatCard label="LAST SYNC" value="LIVE" />
               </div>
             </div>
@@ -145,6 +177,46 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Recent Chat Activity */}
+      {recentChat.length > 0 && (
+        <section className="container mx-auto px-4 pt-4 pb-8">
+          <div className="flex items-center justify-between mb-4">
+            <h2 className="text-2xl font-bold font-mono text-ergo-orange flex items-center gap-2">
+              <MessageSquare className="w-6 h-6" />
+              Recent Chat Activity
+            </h2>
+            <Link
+              to="/telegram"
+              className="flex items-center gap-2 text-sm font-mono text-ergo-muted hover:text-ergo-orange transition-colors"
+            >
+              View all <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+            {recentChat.map(({ channel, entry }) => (
+              <Link
+                key={`${channel}-${entry.period}`}
+                to={`/telegram/${channel}/${entry.period}`}
+                className="block bg-ergo-dark border border-ergo-orange/20 rounded-lg p-5 hover:border-ergo-orange/50 transition-colors"
+              >
+                <div className="flex items-start justify-between mb-2">
+                  <span className="text-xs font-mono text-ergo-orange/60 uppercase tracking-wider">
+                    {channel === 'general' ? 'General' : 'Developer'} · Monthly
+                  </span>
+                  <span className="text-xs font-mono text-ergo-muted">{entry.period}</span>
+                </div>
+                <h3 className="font-mono font-semibold text-ergo-light mb-2">
+                  {monthLabel(entry.period)}
+                </h3>
+                <p className="text-xs font-mono text-ergo-muted">
+                  {entry.total_messages.toLocaleString()} messages · {entry.weeks.length} weeks
+                </p>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Recent Calls */}
       <section className="container mx-auto px-4 pt-4 pb-8">

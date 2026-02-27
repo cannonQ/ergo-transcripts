@@ -1,0 +1,119 @@
+{
+  "chat": "developer",
+  "week": "2025-W07",
+  "topics": [
+    {
+      "title": "Ergo Protocol Reference Client 5.0.25 and 5.1.2 Releases",
+      "category": "technical",
+      "key_terms": ["release", "node", "RocksDB", "leveldb", "pruned node", "reindexing"],
+      "participants": ["@kushti khushi", "@Aco Šmrkas", "@Pulsarz"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaSDK 5.0.15 executeFromVar and BigInt Functions",
+      "category": "technical",
+      "key_terms": ["SigmaSDK", "executeFromVar", "bigInt", "ContractTemplate", "Box serialization"],
+      "participants": ["@kushti khushi", "@devjoe4ever", "@dusek_"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus Wallet UI Refactoring and Mnemonic Support",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "UI refactoring", "24-word mnemonic", "AddWalletIndexView", "CreateWalletView", "LedgerConnectView"],
+      "participants": ["@arobsn"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma-rust PR Review and Commit History Best Practices",
+      "category": "technical",
+      "key_terms": ["sigma-rust", "PR submission", "commit squashing", "contributing guide", "bounty"],
+      "participants": ["@richhuze", "@dusek_", "@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Rosen Bridge Binance Release and Watcher V2 Implementation",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "Binance", "watcher-V2", "observationstatus", "aggregation"],
+      "participants": ["@moein_z"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo 6.0 Soft Fork Activation and Sub-blocks Implementation",
+      "category": "technical",
+      "key_terms": ["6.0 soft-fork", "testnet activation", "sub-blocks", "PoEM", "out-of-order processing"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Oracle Pool v2 Update Ceremony and Upgrade Script",
+      "category": "defi",
+      "key_terms": ["oracle pool", "v2 upgrade", "ERG/USD", "update ceremony"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "ChainCash Negative Testing and Refund Actions",
+      "category": "technical",
+      "key_terms": ["ChainCash", "negative testing", "AI testing", "refund actions", "registers"],
+      "participants": ["@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Dexy Gold Swap Widget and Bank/LP Implementation",
+      "category": "defi",
+      "key_terms": ["Dexy Gold", "swap widget", "bank widget", "LP widget", "ergopay"],
+      "participants": ["@c8e4d2a"],
+      "significance": "minor"
+    },
+    {
+      "title": "NodeView.xyz Address Detection and Performance Optimization",
+      "category": "ecosystem",
+      "key_terms": ["NodeView", "address detection", "ErgoDex", "Rosen Bridge", "SigmaUSD", "caching", "CloudFlare"],
+      "participants": ["@fantaerik"],
+      "significance": "minor"
+    },
+    {
+      "title": "LLM-based Smart Contract Auditing and Common Vulnerabilities",
+      "category": "technical",
+      "key_terms": ["LLM auditing", "contract analysis", "vulnerability patterns", "register checks"],
+      "participants": ["@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Rigel Mining Toolbox for Atomic Linux Distributions",
+      "category": "mining",
+      "key_terms": ["Rigel", "mining", "Aurora-DX", "Fedora", "Toolbox", "Linux"],
+      "participants": ["@richhuze"],
+      "significance": "minor"
+    },
+    {
+      "title": "Satergo Wallet Auto-startup and Language Translations",
+      "category": "wallet",
+      "key_terms": ["Satergo", "auto-startup", "node launch", "translations", "Indonesian", "Javanese", "Malaysian"],
+      "participants": ["@upwindstrategy", "@kushti khushi", "@Yulius Kristianto"],
+      "significance": "minor"
+    },
+    {
+      "title": "LLM Fine-tuning Community Group and AI Integration",
+      "category": "ecosystem",
+      "key_terms": ["LLM fine-tuning", "AI models", "local models", "open source"],
+      "participants": ["@richhuze", "@cannon_q", "@mgpai"],
+      "significance": "minor"
+    },
+    {
+      "title": "TabbyPOS and Account Model Blockchain Discussion",
+      "category": "ecosystem",
+      "key_terms": ["TabbyPOS", "account model", "Solidity", "tokenomics", "storage rent"],
+      "participants": ["@cannon_q", "@mgpai", "@c8e4d2a"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti khushi",
+    "@DiscordBridge",
+    "@Aco Šmrkas",
+    "@cannon_q",
+    "@dusek_"
+  ],
+  "message_count": 72
+}

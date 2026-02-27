@@ -6,7 +6,12 @@ import type {
   Topic,
   Speaker,
   AggregatedDecision,
-  AggregatedQA
+  AggregatedQA,
+  TelegramIndex,
+  TelegramSearchEntry,
+  TelegramTopicsIndex,
+  TelegramSpeakerStats,
+  TelegramTopicsFile,
 } from '../types';
 
 // Simple in-memory cache
@@ -262,4 +267,64 @@ export async function findCallById(id: string): Promise<{ call: CallMeta; filePr
 // Clear cache (useful for development)
 export function clearCache(): void {
   cache.clear();
+}
+
+// ---------------------------------------------------------------------------
+// Telegram chat archive
+// ---------------------------------------------------------------------------
+
+// Fetch the telegram navigation index (weekly + monthly entries, bidirectional links)
+export async function fetchTelegramIndex(): Promise<TelegramIndex> {
+  return fetchWithCache('telegram-index', async () => {
+    const response = await fetch('/data/telegram/index.json');
+    if (!response.ok) throw new Error('Failed to fetch telegram index');
+    return response.json();
+  });
+}
+
+// Fetch telegram search index (deferred — only loaded when search is used)
+export async function fetchTelegramSearchIndex(): Promise<TelegramSearchEntry[]> {
+  return fetchWithCache('telegram-search', async () => {
+    const response = await fetch('/data/telegram/search_index.json');
+    if (!response.ok) throw new Error('Failed to fetch telegram search index');
+    return response.json();
+  });
+}
+
+// Fetch telegram topics index (category-centric, loaded for Topics page)
+export async function fetchTelegramTopicsIndex(): Promise<TelegramTopicsIndex> {
+  return fetchWithCache('telegram-topics', async () => {
+    const response = await fetch('/data/telegram/topics_index.json');
+    if (!response.ok) throw new Error('Failed to fetch telegram topics index');
+    return response.json();
+  });
+}
+
+// Fetch telegram speakers stats (loaded on SpeakerDetail pages)
+export async function fetchTelegramSpeakers(): Promise<Record<string, TelegramSpeakerStats>> {
+  return fetchWithCache('telegram-speakers', async () => {
+    const response = await fetch('/data/telegram/speakers.json');
+    if (!response.ok) throw new Error('Failed to fetch telegram speakers');
+    return response.json();
+  });
+}
+
+// Lazily fetch a specific weekly or monthly summary markdown
+export async function fetchTelegramSummary(summaryFile: string): Promise<string> {
+  const key = `telegram-summary-${summaryFile}`;
+  return fetchWithCache(key, async () => {
+    const response = await fetch(`/data/telegram/${summaryFile}`);
+    if (!response.ok) throw new Error(`Failed to fetch telegram summary: ${summaryFile}`);
+    return response.text();
+  });
+}
+
+// Lazily fetch a specific weekly topics JSON file
+export async function fetchTelegramTopicsFile(topicsFile: string): Promise<TelegramTopicsFile> {
+  const key = `telegram-topics-file-${topicsFile}`;
+  return fetchWithCache(key, async () => {
+    const response = await fetch(`/data/telegram/${topicsFile}`);
+    if (!response.ok) throw new Error(`Failed to fetch telegram topics file: ${topicsFile}`);
+    return response.json();
+  });
 }

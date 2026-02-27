@@ -1,0 +1,156 @@
+{
+  "chat": "developer",
+  "week": "2025-W03",
+  "topics": [
+    {
+      "title": "Ergo 6.0 Protocol Soft-Fork: Audit and Deployment Timeline",
+      "category": "technical",
+      "key_terms": ["6.0", "audit", "testnet launch", "mainnet deployment", "protocol upgrade"],
+      "participants": ["@kushti khushi", "@dusek_"],
+      "significance": "major"
+    },
+    {
+      "title": "Sub-blocks EIP Implementation and Mining Pool Integration",
+      "category": "technical",
+      "key_terms": ["sub-blocks", "EIP draft", "miner implementation", "stratum protocol", "testnet"],
+      "participants": ["@kushti khushi", "@dusek_"],
+      "significance": "major"
+    },
+    {
+      "title": "Layer 2 and Sidechain Architecture Research",
+      "category": "technical",
+      "key_terms": ["L2", "sigmachains", "lightning-like contracts", "rollup design", "Lithos"],
+      "participants": ["@kushti khushi", "@cheeseenthusiast"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma-Rust 6.0 Implementation and Costing Methods",
+      "category": "technical",
+      "key_terms": ["sigma-rust", "6.0 implementation", "costing", "performance", "reference implementation"],
+      "participants": ["@kushti khushi", "@dusek_"],
+      "significance": "major"
+    },
+    {
+      "title": "Optimistic Rollup with NISP Fraud Proof Contracts",
+      "category": "technical",
+      "key_terms": ["optimistic rollup", "NISP", "fraud proof", "on-chain verification", "miners"],
+      "participants": ["@cheeseenthusiast", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Oracle Pool 2.0 Update and Vector Oracle Design",
+      "category": "defi",
+      "key_terms": ["oracle pool", "2.0 update", "vector oracles", "spot price feeds", "collateralized lending"],
+      "participants": ["@kushti khushi", "@c8e4d2a", "@zargarzadehmoein"],
+      "significance": "major"
+    },
+    {
+      "title": "Data Input Semantics and Mempool Transaction Chaining Issues",
+      "category": "technical",
+      "key_terms": ["data inputs", "mempool", "transaction chaining", "oracle inputs", "block validation"],
+      "participants": ["@mgpai", "@c8e4d2a", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Alternative Ergo Client Development in Rust",
+      "category": "technical",
+      "key_terms": ["Rust client", "alternative implementation", "modularity", "NIPoPoW", "reference client"],
+      "participants": ["@kushti khushi", "@luivatra", "@dusek_"],
+      "significance": "minor"
+    },
+    {
+      "title": "Input/Ordering Blocks EIP Draft Specification",
+      "category": "technical",
+      "key_terms": ["input ordering", "EIP draft", "block structure", "protocol specification"],
+      "participants": ["@kushti khushi", "@mgpai"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus Wallet UI Redesign and Components Refactoring",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "UI redesign", "SendView", "AssetSelector", "FeeSelector"],
+      "participants": ["@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "Keystone Hardware Wallet Ergo Integration and SDK",
+      "category": "wallet",
+      "key_terms": ["Keystone", "hardware wallet", "transaction parsing", "signing", "SDK integration"],
+      "participants": ["@Pgr456"],
+      "significance": "major"
+    },
+    {
+      "title": "Ledger Hardware Wallet Ergo Audit Progress",
+      "category": "wallet",
+      "key_terms": ["Ledger", "Quarkslab audit", "developer mode", "certification"],
+      "participants": ["@Glasgow"],
+      "significance": "minor"
+    },
+    {
+      "title": "SCypher BIP39 Seed Phrase Checksum Implementation",
+      "category": "wallet",
+      "key_terms": ["SCypher", "BIP39", "seed phrase", "checksum", "memory safety"],
+      "participants": ["@patato.55"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoFi SigmaUSD Integration and Dexy Development",
+      "category": "defi",
+      "key_terms": ["ErgoFi", "SigmaUSD", "oracle integration", "websocket", "alpha testing"],
+      "participants": ["@c8e4d2a"],
+      "significance": "minor"
+    },
+    {
+      "title": "Celaut Service Node Network and PoW-based Payments",
+      "category": "ecosystem",
+      "key_terms": ["Celaut", "service nodes", "PoW payments", "resource sharing", "reputation proofs"],
+      "participants": ["@jossemii"],
+      "significance": "minor"
+    },
+    {
+      "title": "Crux Aggregator Backend: Rust vs Go Language Evaluation",
+      "category": "technical",
+      "key_terms": ["Crux", "aggregator", "Rust", "Go", "off-chain code"],
+      "participants": ["@luivatra", "@Pgr456", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Bounties GitHub Repository and Ecosystem Visibility",
+      "category": "community",
+      "key_terms": ["bounties", "GitHub", "open issues", "contributors", "ecosystem"],
+      "participants": ["@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "Nurse Shark Bot Telegram Monitoring and Mining Pool Integration",
+      "category": "mining",
+      "key_terms": ["Nurse Shark Bot", "address monitoring", "Telegram", "mining pool", "wallet tracking"],
+      "participants": ["@Marc the Shark"],
+      "significance": "minor"
+    },
+    {
+      "title": "AI-Assisted Contract Testing and Development Workflow",
+      "category": "technical",
+      "key_terms": ["AI-generated code", "Claude", "ChatGPT", "contract testing", "test suites"],
+      "participants": ["@patato.55", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "AES-GCM Encryption Length Leakage and Padding Solutions",
+      "category": "technical",
+      "key_terms": ["AES-GCM", "encryption", "length leakage", "streaming", "padding"],
+      "participants": ["@Aberg Satergo dev", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigma-Rust Go Bindings and Off-Chain Bot Development",
+      "category": "technical",
+      "key_terms": ["sigma-rust", "Go bindings", "ergo-lib-go", "off-chain bots", "DEX trading"],
+      "participants": ["@Pgr456"],
+      "significance": "minor"
+    },
+    {
+      "title": "Oracle Pool Extra Indices Migration for Scalability",
+      "category": "defi",
+      "key_terms": ["oracle pool", "extra indices", "scans", "lightweight instances", "scalability"],
+      "participants": ["@kushti khushi", "@zargarzadehmoein", "@c8e4d2a"],

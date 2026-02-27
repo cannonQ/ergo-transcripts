@@ -1,0 +1,162 @@
+{
+  "chat": "Ergo General",
+  "week": "2021-W47",
+  "topics": [
+    {
+      "title": "Price rumors and market speculation",
+      "category": "community",
+      "key_terms": ["price prediction", "Binance listing", "rumors", "market cap"],
+      "participants": ["@Roxy", "@Stasis", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoDex development and Yoroi wallet integration issues",
+      "category": "defi",
+      "key_terms": ["ErgoDex", "Yoroi", "dApp connector", "swap functionality", "nightly version"],
+      "participants": ["@Gazza", "@Unknown", "@Emurgo"],
+      "significance": "major"
+    },
+    {
+      "title": "Cardano smart contracts deployment timeline versus Ergo",
+      "category": "technical",
+      "key_terms": ["PAB", "Alonzo", "eUTXO", "smart contracts", "Haskell"],
+      "participants": ["@Dmitri", "@Roxy", "@Glasgow"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaUSD stablecoin design and multiple stablecoin ecosystem",
+      "category": "defi",
+      "key_terms": ["SigmaUSD", "stablecoins", "minting fees", "miners support"],
+      "participants": ["@TMR.ΣRG", "@Glasgow"],
+      "significance": "minor"
+    },
+    {
+      "title": "Random number generation for dApps and lotteries",
+      "category": "technical",
+      "key_terms": ["RNG oracle", "randomness", "raffle", "blockchain data", "manipulation resistance"],
+      "participants": ["@nitche", "@Klaus", "@Glasgow", "@kushti"],
+      "significance": "major"
+    },
+    {
+      "title": "Network security and DoS attack mitigation",
+      "category": "technical",
+      "key_terms": ["port 9053", "DoS attack", "node security", "API protection"],
+      "participants": ["@kushti", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Wallet ecosystem expansion across platforms",
+      "category": "wallet",
+      "key_terms": ["Yoroi", "Minotaur", "Ledger support", "mobile wallet", "iOS wallet"],
+      "participants": ["@Unknown", "@MrStahlfelge", "@Aberg", "@Kevin"],
+      "significance": "major"
+    },
+    {
+      "title": "Transaction throughput and scaling solutions comparison",
+      "category": "technical",
+      "key_terms": ["TPS", "47.5 tx/s", "Hydra", "Layer 2", "sharding", "sidechains"],
+      "participants": ["@TMR.ΣRG", "@Unknown", "@Glasgow"],
+      "significance": "major"
+    },
+    {
+      "title": "Exchange liquidity and market maker engagement",
+      "category": "ecosystem",
+      "key_terms": ["volume", "Kairon Labs", "market making", "liquidity", "exchange listing"],
+      "participants": ["@Glasgow", "@Dani", "@Ilya"],
+      "significance": "major"
+    },
+    {
+      "title": "Emission soft fork proposal and mining reward structure",
+      "category": "governance",
+      "key_terms": ["emission schedule", "block reward", "soft fork", "re-emission contract", "inflation reduction"],
+      "participants": ["@Glasgow", "@Mint", "@A", "@Richi", "@Hamilton"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoPad launchpad platform and DAO governance",
+      "category": "defi",
+      "key_terms": ["ErgoPad", "launchpad", "DAO", "presale"],
+      "participants": ["@Glasgow", "@Fifajs", "@Dejan"],
+      "significance": "minor"
+    },
+    {
+      "title": "NFT infrastructure and ErgoAuctions platform",
+      "category": "nft",
+      "key_terms": ["ErgoAuctions", "NFT", "royalties", "PolyDog", "Comet"],
+      "participants": ["@Unknown", "@RETRO", "@CW"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mining pool activity and China mining restrictions",
+      "category": "mining",
+      "key_terms": ["666pool", "mining pools", "China ban", "hash rate"],
+      "participants": ["@Unknown", "@Glasgow", "@Armeanio"],
+      "significance": "minor"
+    },
+    {
+      "title": "Bridge integrations and cross-chain compatibility",
+      "category": "bridges",
+      "key_terms": ["Wormhole", "AnetaBTC", "Cardano bridge", "wrapped tokens", "atomic swaps"],
+      "participants": ["@Ben", "@Glasgow", "@Frosty"],
+      "significance": "major"
+    },
+    {
+      "title": "anetaBTC noncustodial Bitcoin bridge development",
+      "category": "bridges",
+      "key_terms": ["anetaBTC", "Taproot", "sigma protocols", "noncustodial", "atomic swaps"],
+      "participants": ["@Frosty", "@TMR.ΣRG", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Node infrastructure and incentivization strategies",
+      "category": "technical",
+      "key_terms": ["full nodes", "light nodes", "NiPoPoW", "SPV clients", "node operators"],
+      "participants": ["@Odiseus", "@Aberg", "@ArØhβΣ", "@kushti"],
+      "significance": "major"
+    },
+    {
+      "title": "Storage rent mechanism and UTXO management",
+      "category": "technical",
+      "key_terms": ["storage rent", "0.14 erg per UTXO", "4 year retention"],
+      "participants": ["@Glasgow", "@Noah"],
+      "significance": "minor"
+    },
+    {
+      "title": "Privacy mixer functionality and versions",
+      "category": "defi",
+      "key_terms": ["mixer", "anonymity", "0.2-1 erg fees", "privacy"],
+      "participants": ["@Unknown", "@TMR.ΣRG", "@Glasgow"],
+      "significance": "minor"
+    },
+    {
+      "title": "Community translation efforts and regional expansion",
+      "category": "community",
+      "key_terms": ["manifesto translation", "Hindi", "Portuguese", "regional groups"],
+      "participants": ["@Hamilton", "@Dani", "@Glasgow", "@RETRO"],
+      "significance": "minor"
+    },
+    {
+      "title": "Marketing agency engagement and commercial updates",
+      "category": "marketing",
+      "key_terms": ["marketing firm", "market maker", "announcements", "commercial partnerships"],
+      "participants": ["@Kevin", "@Glasgow", "@Poppi"],
+      "significance": "major"
+    },
+    {
+      "title": "Developer onboarding and ergohack contributions",
+      "category": "ecosystem",
+      "key_terms": ["ergohack", "developer bounties", "community devs", "ErgoPad founders"],
+      "participants": ["@Glasgow", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Atomic composability in L2 scaling solutions",
+      "category": "technical",
+      "key_terms": ["atomic composability", "Hydra", "L2 solutions", "cross-head communication"],
+      "participants": ["@Unknown", "@Glasgow", "@TMR.ΣRG"],
+      "significance": "major"
+    },
+    {
+      "title": "Token emission tracking and current supply data",
+      "category": "ecosystem",
+      "key_terms": ["50k ERG daily emission", "circulating supply", "C

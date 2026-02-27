@@ -1,0 +1,156 @@
+{
+  "chat": "general",
+  "week": "2020-W47",
+  "topics": [
+    {
+      "title": "Storage rent mechanism and UTXO recycling",
+      "category": "technical",
+      "key_terms": ["storage fee", "UTXO", "miners", "coin emission", "recycling"],
+      "participants": ["@Tri Origin", "@Dmitry Usov", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Gate.io listing and exchange accessibility",
+      "category": "ecosystem",
+      "key_terms": ["Gate.io", "Hotbit", "ProBit", "liquidity", "trading pairs", "KYC"],
+      "participants": ["@E Crypto", "@Ali", "@Richi", "@Seba Q"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergonaut NFT auction and collectible tokens",
+      "category": "nft",
+      "key_terms": ["Ergonaut", "NFT", "auction", "ergoauctions.org", "Yoroi", "collectibles"],
+      "participants": ["@kushti khushi", "@Fofo", "@Erik", "@mensrea"],
+      "significance": "major"
+    },
+    {
+      "title": "Mixer 3.1 release and privacy features",
+      "category": "technical",
+      "key_terms": ["ErgoMixer", "covert addresses", "privacy", "Magnum wallet", "node-independent"],
+      "participants": ["@kushti khushi", "@filippounits"],
+      "significance": "major"
+    },
+    {
+      "title": "Stablecoin development and DeFi partnerships",
+      "category": "defi",
+      "key_terms": ["stablecoin", "Emurgo", "IOG", "Yoroi integration", "USDN", "backing"],
+      "participants": ["@kushti khushi", "@A", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Autolykos V2 hard fork and mining algorithm",
+      "category": "mining",
+      "key_terms": ["Autolykos", "hard fork", "memory hardness", "ASIC resistance", "GPU mining", "difficulty"],
+      "participants": ["@kushti khushi", "@Richi", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Wrapped ERG deployment and token standards",
+      "category": "technical",
+      "key_terms": ["wrapped ERG", "WERG", "token standard", "1:1 backing", "smart contracts"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoScript and off-chain computation framework",
+      "category": "technical",
+      "key_terms": ["ErgoScript", "off-chain code", "UTXO model", "contracts", "dApps"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "DApp infrastructure grants and proposal process",
+      "category": "governance",
+      "key_terms": ["grants", "Ergo Foundation", "proposals", "dApp development", "funding"],
+      "participants": ["@kushti khushi", "@Anthony", "@Jonesy"],
+      "significance": "major"
+    },
+    {
+      "title": "ViteX AMA and NiPoPoWs discussion",
+      "category": "ecosystem",
+      "key_terms": ["ViteX", "AMA", "NiPoPoWs", "light clients", "partnerships"],
+      "participants": ["@kushti khushi", "@chrom"],
+      "significance": "minor"
+    },
+    {
+      "title": "Yoroi wallet mobile development and MetaMask integration",
+      "category": "wallet",
+      "key_terms": ["Yoroi", "mobile app", "MetaMask-like", "ADA support", "browser extension"],
+      "participants": ["@Unknown", "@chrom", "@Nik An", "@Erik"],
+      "significance": "major"
+    },
+    {
+      "title": "Hashrate trends and mining profitability concerns",
+      "category": "mining",
+      "key_terms": ["hashrate", "block size", "mining profit", "15 TH/s", "miner incentives"],
+      "participants": ["@Unknown", "@Bag Holder", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Emission schedule and coin supply mechanics",
+      "category": "technical",
+      "key_terms": ["emission", "97.74M supply", "75 ERG per block", "8-year schedule", "inflation curve"],
+      "participants": ["@kushti khushi", "@Damon AndTheSea", "@Richi", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Flash loans and DeFi security comparison to Ethereum",
+      "category": "defi",
+      "key_terms": ["flash loans", "oracle manipulation", "Solidity security", "DeFi hacks", "Ergo advantages"],
+      "participants": ["@kushti khushi", "@Erik", "@Unknown", "@Pandass"],
+      "significance": "major"
+    },
+    {
+      "title": "Price volatility and community sentiment",
+      "category": "community",
+      "key_terms": ["price", "market conditions", "community growth", "hodling", "altseason"],
+      "participants": ["@A", "@Mac", "@Tri Origin", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Roadmap announcements and development priorities",
+      "category": "governance",
+      "key_terms": ["roadmap", "video updates", "light clients", "development timeline", "features"],
+      "participants": ["@kushti khushi", "@Dom1nant", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Community governance and proposal submission",
+      "category": "governance",
+      "key_terms": ["grant proposals", "Ergo Foundation", "community ideas", "non-developer participation"],
+      "participants": ["@kushti khushi", "@Unknown", "@Jonesy"],
+      "significance": "minor"
+    },
+    {
+      "title": "Transaction fees and wallet functionality improvements",
+      "category": "technical",
+      "key_terms": ["transaction fee", "custom fee", "Send max button", "wallet UI", "explorer"],
+      "participants": ["@Dmitry Usov", "@Unknown", "@chrom"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mining decentralization and accessibility concerns",
+      "category": "mining",
+      "key_terms": ["mining pools", "decentralization", "ASIC resistance", "GPU accessibility", "technical barriers"],
+      "participants": ["@Mercury", "@UpwindStrategy", "@Unknown", "@Damon AndTheSea"],
+      "significance": "major"
+    },
+    {
+      "title": "Tokenomics analysis and distribution health",
+      "category": "governance",
+      "key_terms": ["tokenomics", "rich list", "exchanges", "foundation holdings", "miner distribution"],
+      "participants": ["@UpwindStrategy", "@Damon AndTheSea", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Binance and tier-1 exchange listing strategy",
+      "category": "ecosystem",
+      "key_terms": ["Binance", "Kraken", "tier-1 exchanges", "liquidity", "market maturity"],
+      "participants": ["@Unknown", "@Yeti", "@Jonesy"],
+      "significance": "major"
+    },
+    {
+      "title": "Bitcoin comparison and cryptocurrency philosophy",
+      "category": "community",
+      "key_terms": ["Bitcoin", "early adoption", "cypherpunk", "decentralization", "store of value"],
+      "participants": ["@Unknown", "@Clint HodLer", "@kush

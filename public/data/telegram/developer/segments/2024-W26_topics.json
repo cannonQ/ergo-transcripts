@@ -1,0 +1,164 @@
+{
+  "chat": "developer",
+  "week": "2024-W26",
+  "topics": [
+    {
+      "title": "Oracle pool bootstrap and state recovery issues",
+      "category": "technical",
+      "key_terms": ["oracle_core", "pool box", "bootstrap", "manual rescan", "datapoint box"],
+      "participants": ["@Michael", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Block time security parameters and network propagation",
+      "category": "technical",
+      "key_terms": ["blocktime", "15 sec", "verification dilemma", "execution cost", "network hops"],
+      "participants": ["@kushti khushi", "@MGpai", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo token registry and metadata management",
+      "category": "ecosystem",
+      "key_terms": ["token registry", "token metadata", "Nautilus", "signed metadata", "GitHub repository"],
+      "participants": ["@c8", "@Luivatra", "@Pgr456", "@HQΣr"],
+      "significance": "major"
+    },
+    {
+      "title": "DDoS resistance and transaction spam cost analysis",
+      "category": "technical",
+      "key_terms": ["DDoS", "transaction fees", "fee market", "mempool", "network spam"],
+      "participants": ["@Flying Pig", "@c8", "@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "BIP39 passphrase UX and wallet seed phrase design",
+      "category": "wallet",
+      "key_terms": ["BIP39 passphrase", "mnemonic", "seed phrase", "wallet UI", "accessibility"],
+      "participants": ["@Aberg Satergo dev", "@Michael", "@c8"],
+      "significance": "major"
+    },
+    {
+      "title": "Satergo wallet accessibility and keyboard navigation improvements",
+      "category": "wallet",
+      "key_terms": ["Satergo", "screen reader", "accessibility", "keyboard navigation", "Tools section"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "Crystal-pool DEX wallet integration and UX design",
+      "category": "defi",
+      "key_terms": ["crystal-pool", "wallet unlock", "mnemonic encryption", "LocalStorage", "token selection"],
+      "participants": ["@c8"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo 5.0.22 release stability and blockchain API paging",
+      "category": "technical",
+      "key_terms": ["5.0.22", "blockchain slicing", "paging logic", "unspent API", "testing"],
+      "participants": ["@kushti khushi", "@Pgr456"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma-rust WASM bundler compatibility fix",
+      "category": "technical",
+      "key_terms": ["sigma-rust", "WASM", "type exporting", "bundlers"],
+      "participants": ["@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "Nautilus wallet EIP-44 arbitrary data signing support",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "EIP-44", "arbitrary data signing", "v0.11.0"],
+      "participants": ["@arobsn"],
+      "significance": "major"
+    },
+    {
+      "title": "Fleet SDK v0.5.0 release and updates",
+      "category": "technical",
+      "key_terms": ["Fleet SDK", "v0.5.0"],
+      "participants": ["@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "SigmaFi UI revamp and usability improvements",
+      "category": "defi",
+      "key_terms": ["SigmaFi", "UI", "usability"],
+      "participants": ["@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "Paideia DAO treasury consolidation and min stake requirements",
+      "category": "governance",
+      "key_terms": ["Paideia", "treasury consolidation", "min stake", "proposal creation", "Danaides"],
+      "participants": ["@luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "Crux DEX data refactoring and order history integration",
+      "category": "defi",
+      "key_terms": ["Crux", "DEX data", "Spectrum", "trade house", "order history", "crystal pool"],
+      "participants": ["@luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigmanauts mining pool dashboard and miner autonomy DAO",
+      "category": "mining",
+      "key_terms": ["Sigmanauts", "mining pool", "Flux", "miner NFT", "rsBTC", "DAO"],
+      "participants": ["@Marc the Shark"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen bridge Bitcoin RPC scanner authentication and fixes",
+      "category": "bridges",
+      "key_terms": ["Rosen bridge", "Bitcoin RPC", "authentication", "address extractor", "scanner"],
+      "participants": ["@mohammmmmad"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen bridge UI fee handling and public API rate limiting",
+      "category": "bridges",
+      "key_terms": ["Rosen", "fee fetching", "rate limiting", "Xverse wallet", "hardware wallet"],
+      "participants": ["@mohammmmmad"],
+      "significance": "major"
+    },
+    {
+      "title": "Indexed node GraphQL facade for real-time balance queries",
+      "category": "technical",
+      "key_terms": ["indexed node", "GraphQL", "Nautilus", "mempool", "real-time balance"],
+      "participants": ["@luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "Analog Ergo atomic swap market price API integration",
+      "category": "defi",
+      "key_terms": ["atomic swap", "market price", "Bitpanda", "Kraken", "order types"],
+      "participants": ["@dΣathgripson"],
+      "significance": "major"
+    },
+    {
+      "title": "Spectrum API price tracking endpoint usage",
+      "category": "defi",
+      "key_terms": ["Spectrum", "price API", "price tracking"],
+      "participants": ["@Aberg Satergo dev", "@qx()"],
+      "significance": "minor"
+    },
+    {
+      "title": "Git commit history and squashing requirements for Ergo repo",
+      "category": "technical",
+      "key_terms": ["git", "commit history", "squashing", "Docker", "pull requests"],
+      "participants": ["@Aberg Satergo dev", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Stateless clients and UTXO commitment in Ergo headers",
+      "category": "technical",
+      "key_terms": ["stateless clients", "UTXO commitment", "AVL+ tree", "block header", "partially stateless"],
+      "participants": ["@kushti khushi", "@c8"],
+      "significance": "major"
+    },
+    {
+      "title": "NiPoPow bootstrapping and peer verification for SPV clients",
+      "category": "technical",
+      "key_terms": ["NiPoPow", "bootstrapping", "SPV", "peer verification", "honest peer"],
+      "participants": ["@kushti khushi", "@c8", "@dΣathgripson"],
+      "

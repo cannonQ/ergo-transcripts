@@ -1,0 +1,85 @@
+{
+  "chat": "developer",
+  "week": "2025-W18",
+  "topics": [
+    {
+      "title": "Explorer indexing issues with token box queries",
+      "category": "technical",
+      "key_terms": ["explorer", "indexing", "tokenid", "unspent boxes", "node API"],
+      "participants": ["@Flying Pig (™)", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Version 5.0.25 critical bug fix for 5.0.26 release",
+      "category": "technical",
+      "key_terms": ["5.0.26", "bug fix", "release planning", "ASAP", "github issue #2210"],
+      "participants": ["@kushti khushi", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus wallet multisig capabilities and JSON-RPC protocol",
+      "category": "wallet",
+      "key_terms": ["multisig", "Nautilus wallet", "JSON-RPC", "EIP-12", "wallet communication protocol"],
+      "participants": ["@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Protocol 6.0 soft-fork update and research topics",
+      "category": "governance",
+      "key_terms": ["6.0 protocol", "soft-fork", "Sigmachains", "L2", "input/ordering blocks EIP"],
+      "participants": ["@kushti khushi", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Developer experience and tooling improvements",
+      "category": "technical",
+      "key_terms": ["developer tooling", "ergoscript debugging", "off-chain code", "subblocks", "streaming"],
+      "participants": ["@DiscordBridge", "@c8"],
+      "significance": "major"
+    },
+    {
+      "title": "sigma_rust wallet library implementation gaps",
+      "category": "technical",
+      "key_terms": ["sigma_rust", "wallet library", "native wallets", "low-level API"],
+      "participants": ["@DiscordBridge", "@c8"],
+      "significance": "major"
+    },
+    {
+      "title": "Node API improvements for unconfirmed transactions",
+      "category": "technical",
+      "key_terms": ["API", "unconfirmed transactions", "full objects", "input boxes", "address field"],
+      "participants": ["@c8", "@Flying Pig (™)"],
+      "significance": "major"
+    },
+    {
+      "title": "UTXO tracking and mempool filtering API requirements",
+      "category": "technical",
+      "key_terms": ["UTXO", "mempool", "confirmed transactions", "byAddress endpoint", "includeUnconfirmed flag"],
+      "participants": ["@c8", "@Flying Pig (™)"],
+      "significance": "minor"
+    },
+    {
+      "title": "Awesome-ergo repository refresh and documentation",
+      "category": "ecosystem",
+      "key_terms": ["awesome-ergo", "documentation", "DeepWiki", "repository index"],
+      "participants": ["@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigma protocol dlog calculation bug in sigma-rust-mini",
+      "category": "technical",
+      "key_terms": ["sigma protocol", "dlog_protocol", "point multiplication", "generator"],
+      "participants": ["@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Pull request reviews for version 5.0.26 and 6.0.0",
+      "category": "technical",
+      "key_terms": ["PR #2204", "code review", "version planning", "sigma improvements"],
+      "participants": ["@kushti khushi", "@DiscordBridge"],
+      "significance": "major"
+    }
+  ],
+  "active_participants": ["@kushti khushi", "@DiscordBridge", "@c8", "@Flying Pig (™)"],
+  "message_count": 50
+}

@@ -20,6 +20,8 @@ const SpeakerDetail = lazy(() => import('./pages/SpeakerDetail'));
 const Marketing = lazy(() => import('./pages/Marketing'));
 const Learn = lazy(() => import('./pages/Learn'));
 const SearchResults = lazy(() => import('./pages/SearchResults'));
+const Telegram = lazy(() => import('./pages/Telegram'));
+const TelegramDetail = lazy(() => import('./pages/TelegramDetail'));
 
 function PageLoader() {
   return (
@@ -52,6 +54,8 @@ function App() {
                     <Route path="/decisions" element={<Decisions />} />
                     <Route path="/speakers" element={<Speakers />} />
                     <Route path="/speakers/:name" element={<SpeakerDetail />} />
+                    <Route path="/telegram" element={<Telegram />} />
+                    <Route path="/telegram/:channel/:period" element={<TelegramDetail />} />
                     <Route path="/marketing" element={<Marketing />} />
                     <Route path="/learn" element={<Learn />} />
                     <Route path="/search" element={<SearchResults />} />

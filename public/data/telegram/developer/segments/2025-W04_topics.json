@@ -1,0 +1,122 @@
+{
+  "chat": "developer",
+  "week": "2025-W04",
+  "topics": [
+    {
+      "title": "Dexy Stable LP Swap Testing and JavaScript Port",
+      "category": "technical",
+      "key_terms": ["dexy", "LP swap", "unit tests", "javascript", "mockchain", "contract testing"],
+      "participants": ["@c8e4d2a", "@kushti0978", "@arobsn"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaState Interpreter 6.0 Protocol Updates",
+      "category": "technical",
+      "key_terms": ["sigmastate-interpreter", "tree-versioned serialization", "protocol upgrade", "PR reviews"],
+      "participants": ["@kushti0978", "@ergomorphic", "@dusek_"],
+      "significance": "major"
+    },
+    {
+      "title": "Input Blocks and Ordering Blocks EIP Implementation",
+      "category": "technical",
+      "key_terms": ["input blocks", "ordering blocks", "EIP", "mempool", "transaction packing", "sidechain"],
+      "participants": ["@kushti0978", "@c8e4d2a", "@Pgr456"],
+      "significance": "major"
+    },
+    {
+      "title": "Mempool and Socket Service API Design",
+      "category": "technical",
+      "key_terms": ["socket service", "unconfirmed transactions", "input boxes", "API design", "real-time UX"],
+      "participants": ["@c8e4d2a", "@kushti0978", "@mgpai"],
+      "significance": "major"
+    },
+    {
+      "title": "ChainCash Reserve and Note System Development",
+      "category": "defi",
+      "key_terms": ["ChainCash", "reserve contracts", "note tokens", "offchain cash", "L2"],
+      "participants": ["@kushti0978", "@dusek_"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus Wallet UI Redesign and Features",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "UI redesign", "AssetInfoDialog", "JSON parsing", "side panel"],
+      "participants": ["@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "RosenBridge Testing and TSS Integration",
+      "category": "bridges",
+      "key_terms": ["RosenBridge", "watcher app", "TSS", "sign cache", "QA testing", "parallel events"],
+      "participants": ["@moein_z"],
+      "significance": "minor"
+    },
+    {
+      "title": "Paideia DAO Creation Flow Improvements",
+      "category": "defi",
+      "key_terms": ["Paideia", "DAO creation", "UI tooltips", "field optimization"],
+      "participants": ["@luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Bounties Board Maintenance and Categorization",
+      "category": "ecosystem",
+      "key_terms": ["bounties", "language tagging", "Scala", "Rust", "TypeScript", "27512 ERG"],
+      "participants": ["@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "Destiny Protocol Prediction Market Implementation",
+      "category": "defi",
+      "key_terms": ["Destiny Protocol", "prediction markets", "vaults", "AMM", "SDK development"],
+      "participants": ["@mgpai"],
+      "significance": "minor"
+    },
+    {
+      "title": "Blitz TCG Card Game Development Progress",
+      "category": "ecosystem",
+      "key_terms": ["Blitz TCG", "card abilities", "burn contract", "wallet queries"],
+      "participants": ["@LowKeyNerd"],
+      "significance": "minor"
+    },
+    {
+      "title": "Fleet SDK Serialization Integer Precision Fix",
+      "category": "technical",
+      "key_terms": ["Fleet SDK", "serialization", "Int.MaxValue", "JavaScript precision", "64-bit integers"],
+      "participants": ["@arobsn", "@c8e4d2a"],
+      "significance": "major"
+    },
+    {
+      "title": "Random Number Generation on Ergo Contracts",
+      "category": "technical",
+      "key_terms": ["random numbers", "future height", "block header ID", "token distribution"],
+      "participants": ["@c8e4d2a", "@kii"],
+      "significance": "minor"
+    },
+    {
+      "title": "Satergo P2P Library and AppKit Development",
+      "category": "wallet",
+      "key_terms": ["Satergo", "P2P library", "wallet file format", "AppKit", "release pending"],
+      "participants": ["@Aberg Satergo dev", "@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Rust Transaction Building and Wallet Development",
+      "category": "technical",
+      "key_terms": ["sigma-rust", "transaction building", "ergo-lib", "key derivation", "oracle-core"],
+      "participants": ["@c8e4d2a", "@Glasgow", "@Pgr456"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@c8e4d2a",
+    "@kushti0978",
+    "@arobsn",
+    "@dusek_",
+    "@cannon_q",
+    "@moein_z",
+    "@Pgr456",
+    "@mgpai"
+  ],
+  "message_count": 90
+}

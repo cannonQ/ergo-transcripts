@@ -1,0 +1,64 @@
+{
+  "chat": "developer",
+  "week": "2022-W05",
+  "topics": [
+    {
+      "title": "Satergo wallet development and feature updates",
+      "category": "wallet",
+      "key_terms": ["Satergo", "wallet", "application size", "security features", "NFT viewing", "transaction history", "installers"],
+      "participants": ["@Aberg Satergo dev", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "WebAssembly support in Ergo dApp websites",
+      "category": "technical",
+      "key_terms": ["WebAssembly", "wasm", "asm.js", "dApp websites", "embedded browser"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "Critical wallet security issue across Ergo clients",
+      "category": "wallet",
+      "key_terms": ["spending password", "wallet clients", "urlwallet", "security flaw", "Satergo release delay"],
+      "participants": ["@Aberg Satergo dev", "@kushti khushi", "@Luivatra", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Explorer backend synchronization and infrastructure",
+      "category": "technical",
+      "key_terms": ["explorer-backend", "node sync", "database indexing", "blockchain indexing", "server resources"],
+      "participants": ["@Luivatra", "@ArØhβΣ @Arohbe 🍪", "@kushti khushi", "@AllCloudy | GetBlok.io"],
+      "significance": "major"
+    },
+    {
+      "title": "GetBlok POV infrastructure and explorer deployment",
+      "category": "ecosystem",
+      "key_terms": ["GetBlok", "POV", "payouts", "explorer", "infrastructure"],
+      "participants": ["@AllCloudy | GetBlok.io", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Wallet key derivation scheme history and compatibility",
+      "category": "wallet",
+      "key_terms": ["derivation scheme", "Yoroi", "node wallet", "Coinbarn", "key derivation"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "UTXO snapshot bootstrapping for node synchronization",
+      "category": "technical",
+      "key_terms": ["UTXO snapshot", "bootstrapping", "node initialization", "database copying"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Extended public key to address conversion in ergo-wallet",
+      "category": "wallet",
+      "key_terms": ["ExtendedPublicKey", "address conversion", "sigma-rust", "ergo-wallet"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": ["@Aberg Satergo dev", "@kushti khushi", "@Luivatra", "@AllCloudy | GetBlok.io"],
+  "message_count": 50
+}

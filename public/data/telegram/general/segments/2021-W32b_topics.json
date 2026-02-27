@@ -1,0 +1,127 @@
+{
+  "chat": "general",
+  "week": "2021-W32b",
+  "topics": [
+    {
+      "title": "ErgoDEX beta launch first eUTXO DEX",
+      "category": "defi",
+      "key_terms": ["ErgoDEX", "beta", "eUTXO", "DEX", "swap", "liquidity pool", "ergolabs"],
+      "participants": ["@Ilya Oskin", "@Dmitry Usov", "@Glasgow｜WON'T DM", "@Gazza ｜WON'T DM", "@Armeanio"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoDEX beta slippage tolerance and price volatility issues",
+      "category": "defi",
+      "key_terms": ["slippage", "price volatility", "PriceTooHigh", "order execution", "test tokens", "Kushti", "Erdoge"],
+      "participants": ["@Ilya Oskin", "@Luivatra", "@Gazza ｜WON'T DM", "@blake starky"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoDEX beta bug reports and GitHub issue tracking",
+      "category": "technical",
+      "key_terms": ["GitHub issues", "bug report", "feedback form", "UI validation", "pool fix", "ergo-dex-frontend"],
+      "participants": ["@Dmitry Usov", "@Ilya Oskin", "@Gazza ｜WON'T DM", "@blake starky"],
+      "significance": "major"
+    },
+    {
+      "title": "Yoroi Nightly dApp connector setup for ErgoDEX",
+      "category": "wallet",
+      "key_terms": ["Yoroi Nightly", "dApp connector", "browser extension", "Chrome", "Brave", "Firefox unavailable"],
+      "participants": ["@Bubbles", "@Glasgow｜WON'T DM", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Yoroi wallet sync delays and transaction loss bugs",
+      "category": "wallet",
+      "key_terms": ["Yoroi sync", "pending transaction", "wallet resync", "transaction disappears", "chained tx", "eUTXO"],
+      "participants": ["@Luivatra", "@Gazza ｜WON'T DM", "@A", "@Dmitry Usov"],
+      "significance": "major"
+    },
+    {
+      "title": "eUTXO chained transactions parallel processing explained",
+      "category": "technical",
+      "key_terms": ["chained transactions", "eUTXO", "parallel processing", "input boxes", "non-blocking", "single thread"],
+      "participants": ["@Ilya Oskin", "@Dmitry Usov", "@Glasgow｜WON'T DM", "@Gazza ｜WON'T DM"],
+      "significance": "major"
+    },
+    {
+      "title": "Test tokens WT_ERG WT_ADA Erdoge Kushti distribution",
+      "category": "ecosystem",
+      "key_terms": ["WT_ERG", "WT_ADA", "Erdoge", "Kushti", "test tokens", "faucet", "airdrop", "beta testing"],
+      "participants": ["@Peppers CK", "@Chris Ray (Won't DM First)", "@Ron", "@Glasgow｜WON'T DM"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoDEX refund mechanism for unexecuted orders",
+      "category": "defi",
+      "key_terms": ["refund", "non-executed orders", "order history", "claim back funds", "pending order"],
+      "participants": ["@Ilya Oskin", "@Luivatra", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Liquidity provider mechanics and LP token incentives on ErgoDEX",
+      "category": "defi",
+      "key_terms": ["liquidity provider", "LP tokens", "liquidity pool", "AMM", "yield", "provide liquidity", "ADA ERG pool"],
+      "participants": ["@Lorem", "@Glasgow｜WON'T DM", "@gg", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo custom liquidity pool creation with native tokens",
+      "category": "defi",
+      "key_terms": ["custom pool", "native tokens", "SigmaRsv", "pool creation", "any token pair", "ErgoDEX mainnet"],
+      "participants": ["@Ilya Oskin", "@Ron", "@Glasgow｜WON'T DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo first eUTXO blockchain with working DEX milestone",
+      "category": "ecosystem",
+      "key_terms": ["first eUTXO DEX", "milestone", "Cardano", "UTXO DEX", "pioneering"],
+      "participants": ["@Gazza ｜WON'T DM", "@Ron", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoDEX beta launch competition on Reddit ergonauts",
+      "category": "community",
+      "key_terms": ["Reddit competition", "ergonauts", "Erdoge prize", "beta competition", "know your risks"],
+      "participants": ["@Chris Ray (Won't DM First)", "@Armeanio", "@Glasgow｜WON'T DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Ledger hardware wallet support announced in dev update",
+      "category": "wallet",
+      "key_terms": ["hardware wallet", "Ledger", "dev update", "August 11th", "secure storage"],
+      "participants": ["@Armeanio", "@Gazza ｜WON'T DM", "@Kevin"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo Raffle dApp deployment announcement this week",
+      "category": "ecosystem",
+      "key_terms": ["Ergo Raffle", "dApp deployment", "smart contract", "dev discord", "this week"],
+      "participants": ["@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Audio NFT creation and auction on Ergo auction house",
+      "category": "nft",
+      "key_terms": ["audio NFT", "ergoauctions.org", "NFT minting", "auction house", "Charles Hoskinson edit", "music NFT"],
+      "participants": ["@Unknown", "@Gazza ｜WON'T DM", "@RETRO", "@Peppers CK"],
+      "significance": "major"
+    },
+    {
+      "title": "NFT minting via ergoutils token decimal configuration",
+      "category": "nft",
+      "key_terms": ["ergoutils.org", "token minting", "decimal point", "native token", "remint"],
+      "participants": ["@blake starky", "@Ron", "@Chris Ray (Won't DM First)"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo transaction speed PoW block time and TPS roadmap",
+      "category": "technical",
+      "key_terms": ["transaction speed", "block time", "2 minutes", "PoW", "TPS improvement", "fork update"],
+      "participants": ["@Gazza ｜WON'T DM", "@Peppers CK", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "NiPoPoWs light clients and Africa adoption use case",
+      "category": "ecosystem",
+      "key_terms": ["NiPoPoWs", "light clients", "

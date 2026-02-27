@@ -1,0 +1,125 @@
+{
+  "chat": "developer",
+  "week": "2026-W05",
+  "topics": [
+    {
+      "title": "Ergo Node 6.0.2/6.1.2 Release and Updates",
+      "category": "technical",
+      "key_terms": ["node release", "version 6.0.2", "version 6.1.2", "extra indices", "docker integration tests"],
+      "participants": ["@kushti khushi", "@qx()", "@Pgr456", "@dadreboi"],
+      "significance": "major"
+    },
+    {
+      "title": "Sub-blocks (Matrix) Development and Testing",
+      "category": "technical",
+      "key_terms": ["sub-blocks", "input blocks", "ordering blocks", "devnet", "fork synchronization", "blockInterval"],
+      "participants": ["@kushti khushi", "@Patato", "@Netim", "@Sigmanaut"],
+      "significance": "major"
+    },
+    {
+      "title": "Explorer Backend Migration and Sigma Dependency Updates",
+      "category": "technical",
+      "key_terms": ["explorer-backend", "sigma-rust", "deserialization versioning", "ergo tree pretty printing", "DEX code removal"],
+      "participants": ["@kushti khushi", "@Pgr456", "@dusek", "@dadreboi"],
+      "significance": "major"
+    },
+    {
+      "title": "GraphQL and Infrastructure Service Reliability",
+      "category": "technical",
+      "key_terms": ["GraphQL", "node health checks", "load balancer", "endpoint routing", "monitoring dashboard"],
+      "participants": ["@qx()", "@kushti khushi", "@Josemi", "@anon_br Σ"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoPay Integration and Mobile Wallet Development",
+      "category": "wallet",
+      "key_terms": ["ErgoPay", "Nautilus wallet", "mobile signing", "CORS issues", "wallet connection"],
+      "participants": ["@arkadia", "@ArØhβΣ @Arohbe 🍪", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "DeFi Protocol Desktop Application Development",
+      "category": "defi",
+      "key_terms": ["desktop app", "Tauri", "node capability detection", "SigmaUSD", "Dexy", "Duckpools Lending"],
+      "participants": ["@arkadia", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Smart Contract Development and Auditing",
+      "category": "technical",
+      "key_terms": ["ErgoScript", "contract testing", "limit order contract", "input aggregation bug", "100% test coverage"],
+      "participants": ["@arobsn", "@ArØhβΣ @Arohbe 🍪", "@cannon_q"],
+      "significance": "major"
+    },
+    {
+      "title": "Stable Swap Pool Implementation on Ergo",
+      "category": "defi",
+      "key_terms": ["stable swap", "stable pool", "Spectrum", "pool type implementation", "stable math"],
+      "participants": ["@Luivatra", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Knowledge Base and Developer Documentation",
+      "category": "ecosystem",
+      "key_terms": ["EKB", "transcripts", "searchable knowledge", "ecosystem videos", "community calls"],
+      "participants": ["@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "ZK Rollup Research and MidenVM Compilation",
+      "category": "technical",
+      "key_terms": ["ZK rollup", "MidenVM", "ErgoTree compilation", "zkSTARKs", "hash verification"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "AppKit 6.0 Development Status",
+      "category": "technical",
+      "key_terms": ["AppKit 6.0", "SDK development"],
+      "participants": ["@CheeseEnthusiast", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Degens Mode Wallet Integration and DAPP Support",
+      "category": "wallet",
+      "key_terms": ["Degens mode", "Ergo Mobile Wallet", "dapp integration", "CORS", "Google Play Store"],
+      "participants": ["@ArØhβΣ @Arohbe 🍪"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigma-rust Parsing and ErgoDex Backend Issues",
+      "category": "technical",
+      "key_terms": ["sigma-rust", "parsing divergence", "ErgoDex backend", "reference interpreter"],
+      "participants": ["@kushti khushi", "@Pgr456", "@dusek"],
+      "significance": "minor"
+    },
+    {
+      "title": "AI-Generated Code and Vibecoding Hackathon Trends",
+      "category": "community",
+      "key_terms": ["vibecoding", "Claude Code", "AI generation", "hackathon submissions", "AI tools"],
+      "participants": ["@kushti khushi", "@ArØhβΣ @Arohbe 🍪", "@cannon_q", "@anon_br Σ"],
+      "significance": "minor"
+    },
+    {
+      "title": "ChainCash and Basis Protocol Refactoring",
+      "category": "defi",
+      "key_terms": ["ChainCash", "Basis", "signature verification", "redemption testing"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti khushi",
+    "@qx()",
+    "@ArØhβΣ @Arohbe 🍪",
+    "@Patato",
+    "@DiscordBridge",
+    "@Netim",
+    "@cannon_q",
+    "@arkadia",
+    "@Pgr456",
+    "@Josemi",
+    "@anon_br Σ"
+  ],
+  "message_count": 187
+}

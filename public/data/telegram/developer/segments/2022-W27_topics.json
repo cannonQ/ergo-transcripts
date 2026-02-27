@@ -1,0 +1,83 @@
+{
+  "chat": "developer",
+  "week": "2022-W27",
+  "topics": [
+    {
+      "title": "Sigma-rust token box limit bug and security implications",
+      "category": "technical",
+      "key_terms": ["sigma-rust", "token box limit", "255 tokens", "bug", "security", "transaction burning"],
+      "participants": ["@Aberg Satergo dev", "@Luivatra", "@MrStahlfelge | Won't DM", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Transaction burning prevention and explorer safety features",
+      "category": "technical",
+      "key_terms": ["token burning", "transaction verification", "explorer", "appkit", "burning flag"],
+      "participants": ["@Aberg Satergo dev", "@Luivatra", "@MrStahlfelge | Won't DM", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Block cooldown period and 5-second block time implementation",
+      "category": "technical",
+      "key_terms": ["cooldown period", "720 blocks", "5 second blocks", "block time", "testnet"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "BIP32 standard derivation flag merge status and timeline",
+      "category": "technical",
+      "key_terms": ["BIP32", "derivation flag", "seed generation", "wallet implementation"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "Node backwards compatibility and soft fork architecture",
+      "category": "technical",
+      "key_terms": ["backwards compatibility", "soft forks", "node upgrades", "protocol changes"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "Satergo wallet development and node runner features",
+      "category": "wallet",
+      "key_terms": ["Satergo", "one-click updates", "wallet", "node runner"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "Testnet explorer synchronization and deployment",
+      "category": "technical",
+      "key_terms": ["testnet explorer", "explorer", "syncing", "deployment"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Peer synchronization issues and debugging",
+      "category": "technical",
+      "key_terms": ["peers", "synchronization", "debugging", "API URL", "error handling"],
+      "participants": ["@kushti khushi", "@AllCloudy | GetBlok.io"],
+      "significance": "minor"
+    },
+    {
+      "title": "Raffle bot bounty using ka-ching notification system",
+      "category": "ecosystem",
+      "key_terms": ["raffle bot", "ka-ching", "bounty", "notification", "250 ERG"],
+      "participants": ["@kushti khushi", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Cardano/Ergo developer hackathon July 15th 2022",
+      "category": "community",
+      "key_terms": ["hackathon", "cardano", "ergo", "developers", "Build the Dip"],
+      "participants": ["@Unknown"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@Aberg Satergo dev",
+    "@kushti khushi",
+    "@Luivatra",
+    "@MrStahlfelge | Won't DM"
+  ],
+  "message_count": 62
+}

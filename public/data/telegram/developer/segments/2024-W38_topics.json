@@ -1,0 +1,144 @@
+{
+  "chat": "developer",
+  "week": "2024-W38",
+  "topics": [
+    {
+      "title": "API infrastructure issues and fixes",
+      "category": "technical",
+      "key_terms": ["api.ergoplatform.org", "disk space", "indexer", "threading issues", "5.0.23"],
+      "participants": ["@Aco Šmrkas", "@kushti khushi", "@Michael"],
+      "significance": "major"
+    },
+    {
+      "title": "Token minting and EIP-4 standard compliance",
+      "category": "technical",
+      "key_terms": ["token minting", "EIP-4", "issuance output", "preservation law", "token indexing"],
+      "participants": ["@kushti khushi", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma 6.0 protocol upgrade development",
+      "category": "technical",
+      "key_terms": ["Sigma 6.0", "unsigned big int", "devnet", "protocol upgrade", "6.0.0-alpha1", "soft-fork"],
+      "participants": ["@kushti khushi", "@DiscordBridge", "@cheeseenthusiast"],
+      "significance": "major"
+    },
+    {
+      "title": "DerivationPath encoding and equality issues",
+      "category": "technical",
+      "key_terms": ["DerivationPath.fromEncoded", "BIP-32", "master key", "path encoding"],
+      "participants": ["@Aberg Satergo dev", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Nautilus wallet and Fleet SDK releases",
+      "category": "wallet",
+      "key_terms": ["Nautilus v0.14.0", "Fleet SDK v0.7.0", "transaction history", "TransactionBuilder", "testnet wallet"],
+      "participants": ["@DiscordBridge", "@Michael"],
+      "significance": "major"
+    },
+    {
+      "title": "Paideia DAO context variables optimization",
+      "category": "defi",
+      "key_terms": ["Paideia", "context variables", "contract optimization", "createProposal", "vote transaction"],
+      "participants": ["@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigmaspace explorer API implementation",
+      "category": "ecosystem",
+      "key_terms": ["sigmaspace.io", "explorer API", "endpoint implementation", "ergoplatform compatibility"],
+      "participants": ["@DiscordBridge", "@Pgr456"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoNames contract development and testnet launch",
+      "category": "defi",
+      "key_terms": ["ErgoNames", "contract development", "end-to-end minting", "testnet deployment"],
+      "participants": ["@DiscordBridge", "@mgpai"],
+      "significance": "major"
+    },
+    {
+      "title": "Keystone hardware wallet integration",
+      "category": "wallet",
+      "key_terms": ["Keystone", "integration", "bounty tasks", "hardware wallet"],
+      "participants": ["@mgpai"],
+      "significance": "minor"
+    },
+    {
+      "title": "Lithos NISP and decentralized mining pools",
+      "category": "mining",
+      "key_terms": ["Lithos", "NISP", "MEV support", "mining pools", "6.0 devnet"],
+      "participants": ["@DiscordBridge", "@cheeseenthusiast"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigma-Rust 6.0 support and bounties",
+      "category": "technical",
+      "key_terms": ["Sigma-Rust", "6.0 support", "known limitations", "bounties", "issue costing"],
+      "participants": ["@kushti khushi", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Message signing verification implementation",
+      "category": "technical",
+      "key_terms": ["sign_message", "verify_signature", "Nautilus", "testnet signing"],
+      "participants": ["@owies", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "IPFS gateway migration from Cloudflare",
+      "category": "ecosystem",
+      "key_terms": ["IPFS gateway", "Cloudflare", "ipfs.io", "dweb.link", "NFT mirrors"],
+      "participants": ["@maritsaart", "@Aco Šmrkas"],
+      "significance": "major"
+    },
+    {
+      "title": "NFT image display issues across platforms",
+      "category": "nft",
+      "key_terms": ["SkyHarbor", "Ergotokens", "ErgExplorer", "NFT preview", "image URLs"],
+      "participants": ["@maritsaart", "@Aco Šmrkas"],
+      "significance": "major"
+    },
+    {
+      "title": "Satergo wallet Javanese language support",
+      "category": "wallet",
+      "key_terms": ["Satergo", "Javanese translation", "internationalization", "language support"],
+      "participants": ["@Yulius Kristianto", "@Aberg Satergo dev", "@mewtoshi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Dexy and ChainCash contract updates",
+      "category": "defi",
+      "key_terms": ["Dexy stable", "payout contract", "ChainCash", "timelock", "redemption"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Node version 5.0.23 release candidate testing",
+      "category": "technical",
+      "key_terms": ["5.0.23", "5.1.0", "rocksdb", "node release", "version upgrade"],
+      "participants": ["@kushti khushi", "@Pgr456", "@Michael"],
+      "significance": "major"
+    },
+    {
+      "title": "CyberVerse game updates and patch notes",
+      "category": "ecosystem",
+      "key_terms": ["CyberVerse", "playcyberverse.com", "game updates", "wiki"],
+      "participants": ["@DiscordBridge"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti khushi",
+    "@DiscordBridge",
+    "@Aberg Satergo dev",
+    "@mgpai",
+    "@Michael",
+    "@Pgr456",
+    "@Aco Šmrkas",
+    "@maritsaart",
+    "@Yulius Kristianto"
+  ],
+  "message_count": 120
+}

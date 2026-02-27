@@ -1,0 +1,181 @@
+{
+  "chat": "Ergo General",
+  "week": "2020-W30",
+  "topics": [
+    {
+      "title": "Explorer node failure and bug fixes",
+      "category": "technical",
+      "key_terms": ["explorer", "node", "bug", "database", "replica"],
+      "participants": ["@Dmitry Usov", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Network hashrate drop investigation",
+      "category": "mining",
+      "key_terms": ["hashrate", "7TH/S", "1.5TH/S", "miner", "network"],
+      "participants": ["@Steph", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Hardfork updates and proof-of-work improvements",
+      "category": "technical",
+      "key_terms": ["hardfork", "memory-hardness", "ASIC", "GPU", "security"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Oracle pools specification and design",
+      "category": "defi",
+      "key_terms": ["oracle pools", "epoch", "governance", "collateral", "Emurgo Research"],
+      "participants": ["@Unknown", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Stablecoin development roadmap",
+      "category": "defi",
+      "key_terms": ["stablecoin", "collateral", "ERG lockup", "Cardano partnership"],
+      "participants": ["@Unknown", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "CoinEx exchange listing announcement",
+      "category": "ecosystem",
+      "key_terms": ["CoinEx", "listing", "deposit", "trading", "35000 ERG reward"],
+      "participants": ["@kushti khushi", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Wallet integration with Yoroi and Ledger",
+      "category": "wallet",
+      "key_terms": ["Yoroi", "Ledger", "BIP44", "integration", "EMURGO"],
+      "participants": ["@Unknown", "@filippounits"],
+      "significance": "major"
+    },
+    {
+      "title": "Magnum and CoinBarn wallet options",
+      "category": "wallet",
+      "key_terms": ["Magnum wallet", "CoinBarn", "storage", "cold storage", "full node"],
+      "participants": ["@Unknown", "@Kookster"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mining pool development and Autolykos",
+      "category": "mining",
+      "key_terms": ["mining pool", "ergopool.io", "collateral", "GPU", "binary"],
+      "participants": ["@Unknown", "@D. 24"],
+      "significance": "major"
+    },
+    {
+      "title": "Tier-1 exchange listing strategy",
+      "category": "ecosystem",
+      "key_terms": ["Binance", "Bitfinex", "KuCoin", "listing fees", "organic growth"],
+      "participants": ["@kushti khushi", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma protocols and privacy-preserving contracts",
+      "category": "technical",
+      "key_terms": ["Sigma protocols", "ErgoMix", "privacy", "smart contracts"],
+      "participants": ["@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Extended UTXO model and dApp development",
+      "category": "technical",
+      "key_terms": ["extended UTXO", "smart contracts", "Cardano compatibility", "DeFi"],
+      "participants": ["@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Emission schedule and tokenomics discussion",
+      "category": "governance",
+      "key_terms": ["emission curve", "8-year schedule", "treasury", "inflation"],
+      "participants": ["@Unknown", "@filippounits"],
+      "significance": "major"
+    },
+    {
+      "title": "DDoS attack on explorer infrastructure",
+      "category": "technical",
+      "key_terms": ["DDoS", "API", "Russian IPs", "infrastructure"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoCast video series and content creation",
+      "category": "marketing",
+      "key_terms": ["ErgoCast", "YouTube", "mixer video", "node tutorial"],
+      "participants": ["@Unknown", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Community member grants and initiatives",
+      "category": "community",
+      "key_terms": ["grant", "Ergo Foundation", "developer contributions", "content"],
+      "participants": ["@kushti khushi", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Anon developer projects and privacy mixing",
+      "category": "ecosystem",
+      "key_terms": ["anon developers", "mixing", "privacy", "stealth mode"],
+      "participants": ["@kushti khushi", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Citex exchange volume and price manipulation",
+      "category": "ecosystem",
+      "key_terms": ["Citex", "fake volume", "high spread", "deposit/withdraw disabled"],
+      "participants": ["@Unknown", "@Kookster", "@filippounits"],
+      "significance": "minor"
+    },
+    {
+      "title": "Hotbit liquidity and trading activity",
+      "category": "ecosystem",
+      "key_terms": ["Hotbit", "liquidity", "order book", "KYC-free"],
+      "participants": ["@Milo Knowz", "@Vsevolod"],
+      "significance": "minor"
+    },
+    {
+      "title": "NiPoPoWs and cross-chain interoperability",
+      "category": "bridges",
+      "key_terms": ["NiPoPoW", "cross-chain", "stateless client", "bootstrapping"],
+      "participants": ["@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "LETS framework and local currency systems",
+      "category": "defi",
+      "key_terms": ["LETS", "local currency", "collateral", "trustless gateways"],
+      "participants": ["@Unknown", "@Jason Lasky | hubway fractal"],
+      "significance": "minor"
+    },
+    {
+      "title": "DEX development and atomic swaps",
+      "category": "defi",
+      "key_terms": ["DEX", "atomic exchange", "tokens", "privacy-preserving"],
+      "participants": ["@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Circulating vs total supply clarification",
+      "category": "governance",
+      "key_terms": ["circulating supply", "total supply", "97M", "20M", "CMC vs CoinGecko"],
+      "participants": ["@Unknown", "@Kookster"],
+      "significance": "minor"
+    },
+    {
+      "title": "Community meetup schedule and organization",
+      "category": "community",
+      "key_terms": ["weekly meetup", "community AMA", "Discord dev meetings"],
+      "participants": ["@kushti khushi", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "New user onboarding and education",
+      "category": "marketing",
+      "key_terms": ["token vs coin", "newcomers", "education", "Asia and Africa expansion"],
+      "participants": ["@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title":

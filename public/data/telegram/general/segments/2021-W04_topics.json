@@ -1,0 +1,142 @@
+{
+  "chat": "Ergo General",
+  "week": "2021-W04",
+  "topics": [
+    {
+      "title": "Autolykos V2 hard fork and mining preparation",
+      "category": "technical",
+      "key_terms": ["Autolykos V2", "hard fork", "block 417792", "February 1-3", "mining algorithm update"],
+      "participants": ["@kushti khushi", "@Eysteinh", "@wunderbaer", "@Unknown", "@S. Dbros"],
+      "significance": "major"
+    },
+    {
+      "title": "GPU mining setup and profitability calculations",
+      "category": "mining",
+      "key_terms": ["GPU mining", "hashrate", "RTX 3080", "RX 5700", "MH/s", "mining pools", "profitability"],
+      "participants": ["@Eysteinh", "@wunderbaer", "@kushti khushi", "@Gazza", "@Snowman Jason"],
+      "significance": "major"
+    },
+    {
+      "title": "AgeUSD stablecoin protocol and reserve coin mechanics",
+      "category": "defi",
+      "key_terms": ["AgeUSD", "stablecoin", "reserve coin", "Alice and Bob example", "protocol design", "EMURGO"],
+      "participants": ["@Daniel Ribar", "@Siavash", "@301231", "@Bardamug", "@c8", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo CoinMarketCal poll and community voting",
+      "category": "marketing",
+      "key_terms": ["CoinMarketCal", "poll voting", "Ethereum competition", "community engagement", "second place"],
+      "participants": ["@bez", "@Siavash", "@V", "@Unknown", "@chrom"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo Yoroi wallet integration and ERG wallet creation",
+      "category": "wallet",
+      "key_terms": ["Yoroi", "wallet creation", "ERG address", "separate wallet", "hardware wallet support"],
+      "participants": ["@PLANETSTAKE", "@Unknown", "@c8", "@Mr TJ", "@Eysteinh"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoMixer privacy features and fund recovery",
+      "category": "ecosystem",
+      "key_terms": ["ErgoMixer", "privacy", "fund recovery", "mixing rings", "Magnum wallet migration"],
+      "participants": ["@MHS_SAM", "@Unknown", "@chrom"],
+      "significance": "minor"
+    },
+    {
+      "title": "Exchange listings and trading availability",
+      "category": "ecosystem",
+      "key_terms": ["HotBit", "CoinEx", "Gate.io", "ProBit", "Waves DEX", "exchange deposits", "confirmation requirements"],
+      "participants": ["@kushti khushi", "@filippounits", "@Unknown", "@V", "@wunderbaer"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo node setup and synchronization troubleshooting",
+      "category": "technical",
+      "key_terms": ["node setup", "synchronization", "config file", "wallet keystore", "node sync time"],
+      "participants": ["@Gazza", "@Antonio", "@kushti khushi", "@Unknown", "@S. Dbros"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Summit highlights and partnership with Cardano",
+      "category": "ecosystem",
+      "key_terms": ["Ergo Summit", "Cardano partnership", "EMURGO", "interoperability", "UTXO model"],
+      "participants": ["@Unknown", "@Siavash", "@Eysteinh", "@wunderbaer", "@chrom"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma protocols and privacy-preserving smart contracts",
+      "category": "technical",
+      "key_terms": ["sigma protocols", "zero-knowledge proofs", "privacy contracts", "NiPoPoW", "Schnorr signatures"],
+      "participants": ["@Siavash", "@Unknown", "@Dom1nant", "@c8"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo NFT auction house and ErgoUtils platform",
+      "category": "nft",
+      "key_terms": ["NFT auction", "ErgoUtils", "Space Stories NFT", "Yoroi integration"],
+      "participants": ["@V", "@Bardamug", "@chrom", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mining software development and SRBMiner release",
+      "category": "mining",
+      "key_terms": ["SRBMiner", "mining software", "Autolykos v2 miner", "pool stratum", "AMD GPU optimization"],
+      "participants": ["@Eysteinh", "@Aleksandr Sh", "@Andrey Andreev", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "PoW vs PoS consensus comparison and mining economics",
+      "category": "technical",
+      "key_terms": ["proof of work", "proof of stake", "decentralization", "energy consumption", "ASIC resistance"],
+      "participants": ["@V", "@Eysteinh", "@Unknown", "@Nik An", "@wunderbaer"],
+      "significance": "minor"
+    },
+    {
+      "title": "Cardano SPO participation in Ergo ecosystem",
+      "category": "community",
+      "key_terms": ["Cardano stake pool", "SPO", "Ada North Pool", "Cardano community"],
+      "participants": ["@Eysteinh", "@PLANETSTAKE", "@Richi", "@Anton"],
+      "significance": "minor"
+    },
+    {
+      "title": "Tip bot functionality and community rewards",
+      "category": "community",
+      "key_terms": ["ERG tip bot", "telegram tips", "community tipping", "account creation"],
+      "participants": ["@ERGO TIP BOT", "@Unknown", "@kushti khushi", "@Sakata_ZK"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Poker Club and community gaming",
+      "category": "community",
+      "key_terms": ["Ergo Poker Club", "Texas Holdem", "LiPoker app", "community events"],
+      "participants": ["@chrom", "@V", "@Snowman Jason"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mainstream media coverage and public relations",
+      "category": "marketing",
+      "key_terms": ["media coverage", "mainstream publications", "article mentions", "brand visibility"],
+      "participants": ["@V", "@Unknown", "@chrom"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo blockchain architecture and extended UTXO model",
+      "category": "technical",
+      "key_terms": ["UTXO model", "eUTXO", "smart contracts", "ErgoScript", "first-class tokens"],
+      "participants": ["@Siavash", "@Unknown", "@chrom"],
+      "significance": "minor"
+    },
+    {
+      "title": "Community growth and new member onboarding",
+      "category": "community",
+      "key_terms": ["community growth", "new members", "Ergo Summit impact", "organic growth"],
+      "participants": ["@Eysteinh", "@Unknown", "@Żeśo NiPoPau"],
+      "significance": "minor"
+    },
+    {
+      "title": "Young community member educational journey in crypto",
+      "category": "community",
+      "key_terms": ["youth engagement", "early adoption", "Ergo education", "birthday celebration"],
+      "participants": ["@Unknown (Kimmy

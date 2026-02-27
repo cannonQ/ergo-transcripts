@@ -1,0 +1,158 @@
+{
+  "chat": "general",
+  "week": "2026-W02",
+  "topics": [
+    {
+      "title": "Ergo wallet app 2.5 release candidate",
+      "category": "wallet",
+      "key_terms": ["ergo-wallet-app", "PR #208", "testing", "Android 15"],
+      "participants": ["@cannon_q", "@rustinmyeye", "@dadreboi"],
+      "significance": "major"
+    },
+    {
+      "title": "Oracle pool bugs and fixes",
+      "category": "technical",
+      "key_terms": ["explorer bug", "USE decimals", "CoinGecko API", "oracle-core v2.0.5", "oracle-core v2.0.6"],
+      "participants": ["@Aco Šmrkas", "@cannon_q", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "USE stablecoin listings and integrations",
+      "category": "defi",
+      "key_terms": ["USE deployment", "Taptools verification", "GeckoTerminal", "CMC Dex", "DefiLlama"],
+      "participants": ["@Yulius Kristianto", "@Aco Šmrkas", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "VoltPay ADA to USE swap implementation",
+      "category": "bridges",
+      "key_terms": ["VoltPay", "Exolix", "Swapter", "StealthEx", "DEX integration"],
+      "participants": ["@HQΣr | Wont Dm 🐾 ⚡", "@ArØhβΣ @Arohbe 🍪"],
+      "significance": "major"
+    },
+    {
+      "title": "Sub-blocks and Matrix scalability roadmap",
+      "category": "technical",
+      "key_terms": ["Matrix", "input blocks", "2 second confirmation", "April block reward reduction"],
+      "participants": ["@cannon_q", "@kushti khushi", "@T U L O"],
+      "significance": "major"
+    },
+    {
+      "title": "Stable Miner auto-swap and USE minting",
+      "category": "defi",
+      "key_terms": ["StableMiner", "auto-mint", "v1.1 release", "local minting"],
+      "participants": ["@kusht khushi", "@ArØhβΣ @Arohbe 🍪", "@Grayman"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoDevs 2026 DAO scope and planning",
+      "category": "governance",
+      "key_terms": ["ErgoDevs DAO", "2026 plans", "node releases", "LLM applications"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Degens.World ecosystem updates",
+      "category": "ecosystem",
+      "key_terms": ["Ergo Emissions monitor", "Xergon", "Incubate bounty hub", "Ergo node dark mode"],
+      "participants": ["@kushti khushi", "@cannon_q"],
+      "significance": "major"
+    },
+    {
+      "title": "GPU vanity address generator for Ergo",
+      "category": "technical",
+      "key_terms": ["OpenCL", "GPU acceleration", "vanity addresses", "320k addresses/sec"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "CyberVerse NFT ecosystem relaunch",
+      "category": "nft",
+      "key_terms": ["CyberVerse", "15000 minted", "game relaunch", "playcyberverse.com"],
+      "participants": ["@cannon_q", "@limebread"],
+      "significance": "major"
+    },
+    {
+      "title": "Bulls vs Bears prediction market funding",
+      "category": "defi",
+      "key_terms": ["Bulls vs Bears", "ERG/USD", "oracle settlement", "decentralized prediction"],
+      "participants": ["@Aco Šmrkas"],
+      "significance": "minor"
+    },
+    {
+      "title": "Local currency research and discussion",
+      "category": "ecosystem",
+      "key_terms": ["complementary currencies", "local economy", "Bernard Lietaer", "community currencies"],
+      "participants": ["@T F", "@cannon_q", "@Armeanio", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo P2P messaging application launch",
+      "category": "technical",
+      "key_terms": ["P2P messaging", "privacy", "darkfi comparison", "qx messaging app"],
+      "participants": ["@T Mas", "@qx()", "@TMR.ΣRG"],
+      "significance": "major"
+    },
+    {
+      "title": "Media outreach and podcast interviews",
+      "category": "marketing",
+      "key_terms": ["influencer interviews", "Danny Jones podcast", "Togi", "content creation"],
+      "participants": ["@T Mas"],
+      "significance": "minor"
+    },
+    {
+      "title": "FAKU meme ecosystem and governance",
+      "category": "community",
+      "key_terms": ["FAKU movement", "no founder", "10000 FAKU delegation", "distributed governance"],
+      "participants": ["@HQΣr | Wont Dm 🐾 ⚡", "@Not Jumei", "@qx()"],
+      "significance": "minor"
+    },
+    {
+      "title": "Rosen bridge CKB integration voting",
+      "category": "bridges",
+      "key_terms": ["Rosen bridge", "Nervos CKB", "DAO voting", "cross-chain"],
+      "participants": ["@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "Chat moderation and community guidelines",
+      "category": "governance",
+      "key_terms": ["moderation", "trading discussion", "community standards", "core dev ethics"],
+      "participants": ["@Grayman", "@T U L O", "@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "Token minting and UTXO distribution concepts",
+      "category": "technical",
+      "key_terms": ["token uniqueness", "emission amount", "UTXO model", "token ID"],
+      "participants": ["@Josemi", "@Luca D'Angelo", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Oracle stats visualization and monitoring",
+      "category": "technical",
+      "key_terms": ["oracle-stats page", "epoch visualization", "health monitoring", "self-hosted"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoLend EXLE protocol local hosting",
+      "category": "defi",
+      "key_terms": ["ErgoLend", "EXLE protocol", "local hosting", "borrowing"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Crypto bridge and ZCash privacy updates",
+      "category": "ecosystem",
+      "key_terms": ["ZCash", "Lithos protocol", "privacy coins", "cross-chain developments"],
+      "participants": ["@kushti khushi", "@ArØhβΣ @Arohbe 🍪"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti khushi",
+    "@cannon_q",
+    "@Aco Šmrkas",
+    "@ArØhβΣ @Arohbe 🍪",
+    "@Yulius

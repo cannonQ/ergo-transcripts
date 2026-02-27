@@ -1,0 +1,155 @@
+{
+  "chat": "Ergo General",
+  "week": "2023-W24",
+  "topics": [
+    {
+      "title": "Open Sale Contract Development and EIP-76 Proposal",
+      "category": "technical",
+      "key_terms": ["open sell contract", "escrow", "EIP-76", "known buyer", "partial sales"],
+      "participants": ["@MrStahlfelge", "@HQΣr"],
+      "significance": "major"
+    },
+    {
+      "title": "Reference Client Implementation and Rust SDK",
+      "category": "technical",
+      "key_terms": ["Scala reference client", "Rust SDK", "ErgoScript compiler", "full node client"],
+      "participants": ["@Pulsarz", "@Flying Pig"],
+      "significance": "major"
+    },
+    {
+      "title": "UTXO Set Snapshots and Node Bootstrapping",
+      "category": "technical",
+      "key_terms": ["UTXO snapshot", "bootstrapping", "height 1044480", "pruning", "stateless clients"],
+      "participants": ["@kushti_ru", "@qx()", "@Pulsarz"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo Protocol 5.0.12 Release with NiPoPoW Support",
+      "category": "technical",
+      "key_terms": ["5.0.12 release", "NiPoPoWs", "5.0.14 upcoming", "protocol upgrade"],
+      "participants": ["@kushti_ru", "@Richi"],
+      "significance": "major"
+    },
+    {
+      "title": "Multiple Client Diversity and Network Resilience",
+      "category": "technical",
+      "key_terms": ["client diversity", "single client", "sigma-rust", "Ethereum clients", "bug resilience"],
+      "participants": ["@Pulsarz", "@Shiv Chauhan", "@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaUSD Protocol and AgeUSD Stability Mechanisms",
+      "category": "defi",
+      "key_terms": ["SigmaUSD", "AgeUSD", "collateralization ratio", "CDP", "stablecoin"],
+      "participants": ["@Unknown", "@kushti_ru", "@Kallo Shaman"],
+      "significance": "major"
+    },
+    {
+      "title": "Demurrage as Monetary Policy and Marketing Angle",
+      "category": "marketing",
+      "key_terms": ["demurrage", "storage rent", "supply stability", "monetary policy", "marketing messaging"],
+      "participants": ["@dayumbbbb", "@gg", "@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo's Unique Value Proposition and Competitive Positioning",
+      "category": "marketing",
+      "key_terms": ["killer use case", "eUTXO", "ErgoMix", "gasless transactions", "problem solving"],
+      "participants": ["@dayumbbbb", "@gg", "@qx()"],
+      "significance": "major"
+    },
+    {
+      "title": "Bitrue Exchange Listing and AMA Session",
+      "category": "ecosystem",
+      "key_terms": ["Bitrue listing", "AMA", "awareness", "volume", "exchange integration"],
+      "participants": ["@Unknown", "@Glasgow", "@Ergo NEWS"],
+      "significance": "minor"
+    },
+    {
+      "title": "Grand Gambit Gambling Dapp Live Streaming",
+      "category": "ecosystem",
+      "key_terms": ["Grand Gambit", "livestream", "gambling", "speed pot", "community engagement"],
+      "participants": ["@qx()", "@HQΣr", "@dadreboi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Auction House V3 NFT Marketplace Release",
+      "category": "nft",
+      "key_terms": ["Auction House V3", "NFT marketplace", "Anon_real", "decentralized trading"],
+      "participants": ["@Ergo NEWS", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Satergo Wallet Design Competition and COMET Tokens",
+      "category": "wallet",
+      "key_terms": ["Satergo", "design contest", "COMET tokens", "wallet UI"],
+      "participants": ["@Aberg Satergo dev", "@qx()", "@Koutelier"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Foundation Treasury and Developer Compensation",
+      "category": "governance",
+      "key_terms": ["EF treasury", "developer funding", "monthly outgoings", "project allocation"],
+      "participants": ["@Thomas Eh", "@Glasgow", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoRaffle Funding Kenya Cooperative Loan",
+      "category": "community",
+      "key_terms": ["ErgoRaffle", "Kenya", "cooperative", "interest-free loan", "community funding"],
+      "participants": ["@Ergo NEWS"],
+      "significance": "minor"
+    },
+    {
+      "title": "Zephyr Protocol - Monero with Enshrined Stablecoin",
+      "category": "ecosystem",
+      "key_terms": ["Zephyr", "Monero", "Djed", "privacy coin", "stablecoin integration"],
+      "participants": ["@Aberg Satergo dev", "@dayumbbbb", "@kushti_ru"],
+      "significance": "minor"
+    },
+    {
+      "title": "Crux Finance Portfolio Management IDO on ErgoPad",
+      "category": "ecosystem",
+      "key_terms": ["Crux Finance", "portfolio tracker", "ErgoPad IDO", "holdings management"],
+      "participants": ["@Marty ErgoPad", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "SkyHarbor API Update and ErgoPay Integration",
+      "category": "ecosystem",
+      "key_terms": ["SkyHarbor", "API update", "ErgoPay", "SAFEW support"],
+      "participants": ["@qx()"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigmanauts Treasury Management and Fundraising",
+      "category": "community",
+      "key_terms": ["Sigmanauts", "treasury", "fundraising", "donations", "sponsorships"],
+      "participants": ["@qx()", "@HQΣr", "@dadreboi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Storage Rent Implementation and Pruning Strategy",
+      "category": "technical",
+      "key_terms": ["storage rent", "4-year limit", "pruning", "chain history", "retroactive fees"],
+      "participants": ["@kushti_ru", "@Luivatra", "@qx()"],
+      "significance": "major"
+    },
+    {
+      "title": "Regulatory Status and US Securities Classification",
+      "category": "governance",
+      "key_terms": ["security status", "Howey test", "SEC regulation", "US market", "foundation control"],
+      "participants": ["@kushti_ru", "@R", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Price Speculation and Market Sentiment",
+      "category": "community",
+      "key_terms": ["price prediction", "market cycles", "asymmetric bet", "bargain pricing"],
+      "participants": ["@dayumbbbb", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ledger Wallet Integration and Development Mode",
+      "category": "wallet",
+      "key_terms": ["Ledger", "development mode", "hardware wallet", "app

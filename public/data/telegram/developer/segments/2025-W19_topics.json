@@ -1,0 +1,130 @@
+{
+  "chat": "developer",
+  "week": "2025-W19",
+  "topics": [
+    {
+      "title": "RocksDB crashes in v5.1.3 release",
+      "category": "technical",
+      "key_terms": ["rocksdb", "SIGSEGV", "database corruption", "version upgrade", "5.1.3"],
+      "participants": ["@Pulsarz", "@Pgr456", "@kushti khushi", "@Michael"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma-rust custom serialization for Keystone integration",
+      "category": "technical",
+      "key_terms": ["sigma-rust", "serialization", "ergo tree", "Keystone", "hardware wallet"],
+      "participants": ["@Pgr456", "@dusek", "@arobsn"],
+      "significance": "major"
+    },
+    {
+      "title": "Protocol 6.0 soft-fork and sub-blocks development",
+      "category": "technical",
+      "key_terms": ["protocol 6.0", "sub-blocks", "ordering blocks", "transaction distribution"],
+      "participants": ["@kushti khushi", "@Colby Cellador"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge Doge network and multisig implementation",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "Dogecoin", "multisig", "cross-chain", "address codec"],
+      "participants": ["@ZzZzBYE", "@zargarzadehmoein"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus wallet v1.3.0 internationalization and improvements",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "internationalization", "deserialization", "Fleet SDK"],
+      "participants": ["@arobsn", "@Pgr456"],
+      "significance": "major"
+    },
+    {
+      "title": "Missing extra indices and UTXO indexing issues",
+      "category": "technical",
+      "key_terms": ["indexing", "extra indices", "unknown box", "deterministic testing"],
+      "participants": ["@Colby Cellador", "@kushti khushi", "@zargarzadehmoein"],
+      "significance": "major"
+    },
+    {
+      "title": "WalletConnect and ErgoPay wallet integration standard",
+      "category": "wallet",
+      "key_terms": ["WalletConnect", "ErgoPay", "wallet standard", "dApp communication"],
+      "participants": ["@Michael", "@HQΣr"],
+      "significance": "minor"
+    },
+    {
+      "title": "Basis protocol for on-chain reserves and developer rewards",
+      "category": "defi",
+      "key_terms": ["Basis", "on-chain reserve", "offchain protocols", "developer rewards"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Fleet SDK AVL tree support for limit orderbooks",
+      "category": "technical",
+      "key_terms": ["AVL tree", "Fleet SDK", "limit orderbook", "parallel execution"],
+      "participants": ["@c8", "@MGpai", "@arobsn"],
+      "significance": "major"
+    },
+    {
+      "title": "Indexed nodes vs explorer APIs for dApp infrastructure",
+      "category": "ecosystem",
+      "key_terms": ["indexed nodes", "explorer API", "infrastructure", "node reliability"],
+      "participants": ["@Flying Pig", "@kushti khushi", "@Glasgow"],
+      "significance": "major"
+    },
+    {
+      "title": "Nostr protocol for wallet and dApp communication",
+      "category": "technical",
+      "key_terms": ["Nostr", "NIP-47", "relay", "RPC", "wallet communication"],
+      "participants": ["@arobsn", "@cannon_q", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Netnotes refactoring and ErgoDex contract debugging",
+      "category": "technical",
+      "key_terms": ["Netnotes", "P2P", "atomic exchange", "ErgoDex", "asynchronous"],
+      "participants": ["@iospore"],
+      "significance": "major"
+    },
+    {
+      "title": "Celaut gRPC-based p2p network and service migration",
+      "category": "technical",
+      "key_terms": ["Celaut", "gRPC", "p2p network", "reputation proof"],
+      "participants": ["@Josemi", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo-MCP AI agent DEX trading framework development",
+      "category": "defi",
+      "key_terms": ["Ergo-MCP", "AI agent", "DEX trading", "tool advancement"],
+      "participants": ["@Marc the Shark"],
+      "significance": "minor"
+    },
+    {
+      "title": "GraphQL server reliability and error reporting in Nautilus",
+      "category": "wallet",
+      "key_terms": ["GraphQL", "server reliability", "error reporting", "node responsiveness"],
+      "participants": ["@kb", "@Pgr456"],
+      "significance": "minor"
+    },
+    {
+      "title": "Atomic exchange contract design and UTXO orderbook models",
+      "category": "defi",
+      "key_terms": ["atomic exchange", "orderbook", "UTXO", "multisig", "GreenHat"],
+      "participants": ["@iospore", "@c8"],
+      "significance": "major"
+    }
+  ],
+  "active_participants": [
+    "@kushti khushi",
+    "@Pgr456",
+    "@Pulsarz",
+    "@DiscordBridge",
+    "@arobsn",
+    "@Flying Pig",
+    "@Colby Cellador",
+    "@c8",
+    "@iospore"
+  ],
+  "message_count": 115
+}

@@ -1,0 +1,158 @@
+{
+  "chat": "developer",
+  "week": "2024-W42",
+  "topics": [
+    {
+      "title": "Ergo 6.0 Protocol Activation and Sub-blocks Implementation",
+      "category": "technical",
+      "key_terms": ["6.0 activation", "sub-blocks", "voting parameters", "soft-fork", "protocol upgrade"],
+      "participants": ["@kushti khushi", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaState Interpreter Repository Migration to ErgoPlatform Org",
+      "category": "technical",
+      "key_terms": ["sigmastate-interpreter", "repository move", "validation rules", "pull requests"],
+      "participants": ["@kushti khushi", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus Wallet 0.15.0 Beta Release with 0-conf Support",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "0-conf", "Manifest v3", "browser extension"],
+      "participants": ["@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Ledger Hardware Wallet Integration - Stax and Flex Support",
+      "category": "wallet",
+      "key_terms": ["Ledger", "Stax", "Flex", "Nano S discontinued", "token limit increase to 100"],
+      "participants": ["@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Paideia DAO Platform Contract Deployment and Voting Implementation",
+      "category": "governance",
+      "key_terms": ["Paideia", "smart contracts", "proposals", "voting", "map ordering workaround"],
+      "participants": ["@DiscordBridge", "@Luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaUSD Update Proposal with Deposit Limits",
+      "category": "defi",
+      "key_terms": ["SigmaUSD", "voting", "deposit limits", "bank update", "pool update"],
+      "participants": ["@kushti khushi", "@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Dexy Decentralized Exchange LP Actions Audit Review",
+      "category": "defi",
+      "key_terms": ["Dexy", "4Eyes audit", "LP actions", "liquidity pool"],
+      "participants": ["@kushti khushi", "@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Gluon Stablecoin SDK Release and Frontend Migration",
+      "category": "defi",
+      "key_terms": ["Gluon", "SDK", "frontend migration", "tutorial development"],
+      "participants": ["@kushti khushi", "@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigmanauts Mining Pool Token Swap and Miner ID System",
+      "category": "mining",
+      "key_terms": ["Sigmanauts pool", "Miner ID", "token swaps", "payout customization", "3 ERG cost"],
+      "participants": ["@cannon_q", "@Marc the Shark", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo Node Containerization and Flux Network Deployment",
+      "category": "ecosystem",
+      "key_terms": ["Docker", "Flux network", "node deployment", "health check", "synced nodes"],
+      "participants": ["@DiscordBridge", "@HQΣr | Wont Dm 🐾 ⚡", "@cannon_q"],
+      "significance": "major"
+    },
+    {
+      "title": "AppKit API Improvements and Method Refactoring",
+      "category": "technical",
+      "key_terms": ["AppKit", "varargs methods", "List parameters", "API design", "backwards compatibility"],
+      "participants": ["@Aberg Satergo dev", "@kushti khushi", "@Luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "Fleet SDK Type Encoding and SPair Implementation",
+      "category": "technical",
+      "key_terms": ["Fleet SDK", "SPair", "tuple encoding", "register constants", "ErgScript"],
+      "participants": ["@DiscordBridge", "@Aco Šmrkas", "@jossemii"],
+      "significance": "minor"
+    },
+    {
+      "title": "Hodlbox Contract Vulnerability and Security Issue",
+      "category": "technical",
+      "key_terms": ["hodlbox", "contract bug", "token vulnerability", "security issue"],
+      "participants": ["@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Keystone Hardware Wallet Integration Bounty",
+      "category": "wallet",
+      "key_terms": ["Keystone", "Rust integration", "3K ERG bounty", "EF funding"],
+      "participants": ["@DiscordBridge", "@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "Celaut Project Architecture Rewrite and Service Control",
+      "category": "technical",
+      "key_terms": ["Celaut", "architecture", "paradigm", "resource control", "service execution"],
+      "participants": ["@DiscordBridge", "@jossemii"],
+      "significance": "minor"
+    },
+    {
+      "title": "Benefaction Platform Smart Contract Implementation",
+      "category": "defi",
+      "key_terms": ["Benefaction", "smart contracts", "collaborative development"],
+      "participants": ["@DiscordBridge", "@jossemii"],
+      "significance": "minor"
+    },
+    {
+      "title": "Node Synchronization Status Monitoring and API Endpoints",
+      "category": "technical",
+      "key_terms": ["node sync", "fullHeight", "headersHeight", "maxPeerHeight", "API health check"],
+      "participants": ["@DiscordBridge", "@Aberg Satergo dev", "@HQΣr | Wont Dm 🐾 ⚡"],
+      "significance": "minor"
+    },
+    {
+      "title": "Explorer API Downtime and Recovery Incident",
+      "category": "ecosystem",
+      "key_terms": ["Explorer API", "balance endpoints", "outage recovery"],
+      "participants": ["@HQΣr | Wont Dm 🐾 ⚡", "@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgScript Online Tool Infrastructure and Downtime",
+      "category": "ecosystem",
+      "key_terms": ["escript.online", "domain issue", "service availability"],
+      "participants": ["@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Protocol Reference Client 6.0.0 Alpha2 Release",
+      "category": "technical",
+      "key_terms": ["6.0.0 Alpha2", "devnet", "reference client", "protocol features"],
+      "participants": ["@kushti khushi", "@DiscordBridge"],
+      "significance": "major"
+    }
+  ],
+  "active_participants": [
+    "@kushti khushi",
+    "@DiscordBridge",
+    "@Aberg Satergo dev",
+    "@cannon_q",
+    "@HQΣr | Wont Dm 🐾 ⚡",
+    "@Marc the Shark",
+    "@Luivatra",
+    "@jossemii",
+    "@Aco Šmrkas"
+  ],
+  "message_count": 173
+}

@@ -1,0 +1,78 @@
+{
+  "chat": "developer",
+  "week": "2023-W52",
+  "topics": [
+    {
+      "title": "P2P Encrypted Data in Registers via Transactions",
+      "category": "technical",
+      "key_terms": ["registers", "p2p decryption", "encrypted data", "transaction design"],
+      "participants": ["@HQΣr | Wont Dm 🐾 ⚡", "@kushti_ru", "@mewtoshi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mempool Consistency Issues with Explorer API",
+      "category": "technical",
+      "key_terms": ["mempool", "explorer api", "load balancing", "zombie transactions", "node api"],
+      "participants": ["@Aco Šmrkas", "@Pulsarz", "@HQΣr | Wont Dm 🐾 ⚡"],
+      "significance": "major"
+    },
+    {
+      "title": "FleetSharp and hodlcoin UI .NET 8.0 Migration",
+      "category": "technical",
+      "key_terms": [".NET 8.0", "AOT", "WASM", "performance optimization", "mempool retrieval", "unspent boxes"],
+      "participants": ["@Pulsarz", "@Aco Šmrkas"],
+      "significance": "major"
+    },
+    {
+      "title": "Guardscript Address Derivation and User Signing",
+      "category": "technical",
+      "key_terms": ["guardscript", "address derivation", "user signing", "wallet implementation"],
+      "participants": ["@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Public Indexed Node Infrastructure and Load Distribution",
+      "category": "technical",
+      "key_terms": ["indexed nodes", "public nodes", "node explorer", "query performance", "vercel timeout"],
+      "participants": ["@Flying Pig (™)", "@qx()", "@Aco Šmrkas"],
+      "significance": "major"
+    },
+    {
+      "title": "Node API Query Optimization with Limit Parameter",
+      "category": "technical",
+      "key_terms": ["node api", "byTokenId endpoint", "limit 16384", "box retrieval", "performance tuning"],
+      "participants": ["@Flying Pig (™)", "@qx()", "@Pulsarz"],
+      "significance": "major"
+    },
+    {
+      "title": "Transaction Fee Mechanisms and Replace-By-Fee Logic",
+      "category": "technical",
+      "key_terms": ["RBF", "fee per byte", "mempool priority", "transaction propagation", "miner behavior"],
+      "participants": ["@Pulsarz"],
+      "significance": "minor"
+    },
+    {
+      "title": "Storage Rent Claims and UTXO Spending Mechanics",
+      "category": "technical",
+      "key_terms": ["storage rent", "utxo spending", "registers", "contract enforcement"],
+      "participants": ["@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Node API Global Index Retrieval Capabilities",
+      "category": "technical",
+      "key_terms": ["global index", "node api", "transactions", "boxes", "highest index"],
+      "participants": ["@Pulsarz"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@HQΣr | Wont Dm 🐾 ⚡",
+    "@Aco Šmrkas",
+    "@Pulsarz",
+    "@Flying Pig (™)",
+    "@qx()",
+    "@Luivatra"
+  ],
+  "message_count": 59
+}

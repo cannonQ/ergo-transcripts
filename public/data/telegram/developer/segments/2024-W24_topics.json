@@ -1,0 +1,135 @@
+{
+  "chat": "developer",
+  "week": "2024-W24",
+  "topics": [
+    {
+      "title": "sign_data implementation and EIP-44 signature fixes",
+      "category": "technical",
+      "key_terms": ["sign_data", "EIP-44", "sigma-rust", "transaction signing", "Ledger"],
+      "participants": ["@owies", "@dusek_", "@Pgr456", "@arobsn", "@krasaviceblasen"],
+      "significance": "major"
+    },
+    {
+      "title": "Transaction signing performance optimization in Go bindings",
+      "category": "technical",
+      "key_terms": ["ergo-lib-go", "signing performance", "1000+ inputs", "optimization", "benchmark"],
+      "participants": ["@Pgr456", "@dusek_", "@c8"],
+      "significance": "major"
+    },
+    {
+      "title": "Fleet Dapp connector wallet authentication and login security",
+      "category": "wallet",
+      "key_terms": ["Fleet", "Nautilus", "Babel Fees", "asset verification", "bot prevention", "ErgoAuth"],
+      "participants": ["@justblake3911", "@c8", "@HQΣr"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoScript blockly editor and multisig contract design",
+      "category": "technical",
+      "key_terms": ["blockly", "ergoscript", "multisig", "AT_LEAST", "logic gates", "composability"],
+      "participants": ["@c8", "@kushti0978", "@Michael"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo 6.0 scope finalization and EIP-50 implementation",
+      "category": "technical",
+      "key_terms": ["Ergo 6.0", "EIP-50", "sigmastate-interpreter", "collection methods", "Bulletproofs"],
+      "participants": ["@kushti0978", "@ergomorphic", "@cheeseenthusiast"],
+      "significance": "major"
+    },
+    {
+      "title": "Block time reduction and protocol scalability debate",
+      "category": "governance",
+      "key_terms": ["block time", "security budget", "hashrate", "throughput", "block validation"],
+      "participants": ["@kushti0978", "@dΣathgripson", "@mgpai", "@Michael"],
+      "significance": "major"
+    },
+    {
+      "title": "Crystal Pool offchain trading with timelock multisig",
+      "category": "defi",
+      "key_terms": ["crystal pool", "offchain trading", "timelock", "multisig", "AVL trees", "collateral"],
+      "participants": ["@c8", "@dΣathgripson", "@cheeseenthusiast"],
+      "significance": "major"
+    },
+    {
+      "title": "Sidechain design with merge mining and reduced scripts",
+      "category": "technical",
+      "key_terms": ["sidechain", "merge mining", "L2", "DEX orders", "atomic swap"],
+      "participants": ["@kushti0978", "@dΣathgripson", "@c8"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus wallet v0.10.2 and Fleet SDK v0.4.2 releases",
+      "category": "wallet",
+      "key_terms": ["Nautilus Abyss", "dApp Connector", "Fleet SDK", "SigmaJS", "token blacklist"],
+      "participants": ["@arobsn", "@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "Running multiple Ergo nodes on single machine",
+      "category": "technical",
+      "key_terms": ["node configuration", "port management", "wallet sync", "ergo.conf"],
+      "participants": ["@Michael", "@Flying Pig", "@qx()", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigma-rust multisig proof verification and WASM testing",
+      "category": "technical",
+      "key_terms": ["multisig", "proof verification", "ergo-lib-wasm", "schnorr signatures", "secp256k1"],
+      "participants": ["@c8", "@dusek_", "@zkastn"],
+      "significance": "major"
+    },
+    {
+      "title": "Transaction confirmation improvements and block candidate regeneration",
+      "category": "technical",
+      "key_terms": ["block candidate", "transaction confirmation", "regeneration time", "mempool"],
+      "participants": ["@Pgr456", "@kushti khushi", "@pragmaxim"],
+      "significance": "minor"
+    },
+    {
+      "title": "Satergo wallet feature development and cold signer proposal",
+      "category": "wallet",
+      "key_terms": ["Satergo", "transaction history", "price display", "replace-by-fee", "cold signer", "Bluetooth"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoMonitor RosenBridge monitoring updates",
+      "category": "ecosystem",
+      "key_terms": ["ErgoMonitor", "RosenBridge", "Bitcoin monitoring", "token mapping"],
+      "participants": ["@Pulsarz"],
+      "significance": "minor"
+    },
+    {
+      "title": "Testnet faucet access and ERG distribution",
+      "category": "community",
+      "key_terms": ["ergofaucet", "testnet", "test ERG", "faucet downtime"],
+      "participants": ["@imgruntw", "@Glasgow", "@Anastasia Polozova"],
+      "significance": "minor"
+    },
+    {
+      "title": "Schnorr signatures and cryptography learning resources",
+      "category": "technical",
+      "key_terms": ["Schnorr signatures", "DLOG", "secp256k1", "cryptography", "signature schemes"],
+      "participants": ["@c8", "@dusek_"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti0978",
+    "@c8",
+    "@dusek_",
+    "@Pgr456",
+    "@justblake3911",
+    "@Michael",
+    "@arobsn",
+    "@dΣathgripson",
+    "@cheeseenthusiast",
+    "@kushti khushi",
+    "@Aberg Satergo dev",
+    "@HQΣr",
+    "@Flying Pig",
+    "@mgpai"
+  ],
+  "message_count": 225
+}

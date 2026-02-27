@@ -1,0 +1,160 @@
+{
+  "chat": "developer",
+  "week": "2026-W04",
+  "topics": [
+    {
+      "title": "Node 6.0.2/6.1.2 release and extra indexer fixes",
+      "category": "technical",
+      "key_terms": ["node release", "extra indices", "indexer bug", "consensus"],
+      "participants": ["@kushti khushi", "@qx()"],
+      "significance": "major"
+    },
+    {
+      "title": "Explorer backend upgrade to Sigma 6.0 compatibility",
+      "category": "technical",
+      "key_terms": ["explorer", "sigma 6.0", "unparseable scripts", "pretty printing"],
+      "participants": ["@kushti khushi", "@Pgr456", "@dadreboi"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigmaspace indexer service enhancements and recovery",
+      "category": "technical",
+      "key_terms": ["sigmaspace", "indexer", "unparsable trees", "sigmastate-js fallback"],
+      "participants": ["@Pgr456", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Subblocks devnet testing with two mining peers",
+      "category": "technical",
+      "key_terms": ["subblocks", "devnet", "mining", "protocol testing"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "ChainCash non-custodial dApp integration with Nautilus",
+      "category": "defi",
+      "key_terms": ["ChainCash", "Nautilus", "EIP-12", "Schnorr signature", "Reserve contract"],
+      "participants": ["@kushti khushi", "@Josemi"],
+      "significance": "major"
+    },
+    {
+      "title": "Keystone wallet integration NPM dependency security concerns",
+      "category": "wallet",
+      "key_terms": ["Keystone", "supply chain attack", "transient dependencies", "security"],
+      "participants": ["@arobsn", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "AppKit 6.0 development and IndexedNodeDataSource implementation",
+      "category": "technical",
+      "key_terms": ["AppKit", "sigma 6.0", "IndexedNodeDataSource", "node operations"],
+      "participants": ["@Cheese Enthusiast"],
+      "significance": "major"
+    },
+    {
+      "title": "Minotaur wallet 3.4.0 release with node backend support",
+      "category": "wallet",
+      "key_terms": ["Minotaur", "release", "node support", "multi-sig"],
+      "participants": ["@vorujack"],
+      "significance": "minor"
+    },
+    {
+      "title": "Machina Finance SDK/Fleet plugins and GridOrder module",
+      "category": "defi",
+      "key_terms": ["Machina Finance", "GridOrder", "LimitOrder", "100% test coverage"],
+      "participants": ["@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "USE/DEXY stable protocol development and improvement proposals",
+      "category": "defi",
+      "key_terms": ["USE protocol", "UIP-001", "balancing interventions", "Dexy gold"],
+      "participants": ["@kushti khushi", "@Richie"],
+      "significance": "major"
+    },
+    {
+      "title": "DORT/GORT buyback bot automation and Oracle pool integration",
+      "category": "defi",
+      "key_terms": ["buyback bot", "DORT", "GORT", "Oracle pool 2.0", "USE minting"],
+      "participants": ["@cannon_q", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "ChainCash Basis tracker Schnorr signing and redemption testing",
+      "category": "defi",
+      "key_terms": ["ChainCash", "Basis tracker", "Schnorr signature", "node API", "redemption"],
+      "participants": ["@kushti khushi", "@Fitz", "@Josemi"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen bridge app UI improvements and Material UI upgrade",
+      "category": "bridges",
+      "key_terms": ["Rosen bridge", "UI/UX", "Material UI", "lazy loading", "Bitcoin Runes"],
+      "participants": ["@Moein Zargarzadeh"],
+      "significance": "minor"
+    },
+    {
+      "title": "Lithos mining pool Stratum efficiency and blockchain state upgrades",
+      "category": "mining",
+      "key_terms": ["Lithos", "Stratum", "mining pool", "difficulty", "blockchain state"],
+      "participants": ["@Cheese Enthusiast"],
+      "significance": "minor"
+    },
+    {
+      "title": "Crux AMM swap widget improvements and multi-pool price aggregation",
+      "category": "defi",
+      "key_terms": ["Crux", "AMM", "swap widget", "liquidity weighted averages", "RSN"],
+      "participants": ["@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Rust node AVL tree optimizations and test compatibility",
+      "category": "technical",
+      "key_terms": ["Rust node", "AVL tree", "genesis boxes", "test vectors", "compatibility"],
+      "participants": ["@Luivatra", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "StableMiner LocalDex AMM deployment and market maker features",
+      "category": "defi",
+      "key_terms": ["StableMiner", "LocalDex", "AMM", "arbitrage scanner", "batch swaps"],
+      "participants": ["@ArØhβΣ @Arohbe"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Mobile wallet UI/UX redesign and dApp browser integration",
+      "category": "wallet",
+      "key_terms": ["Ergo Mobile wallet", "UI/UX redesign", "dApp browser", "iOS App Store"],
+      "participants": ["@ArØhβΣ @Arohbe"],
+      "significance": "minor"
+    },
+    {
+      "title": "Xergon local AI inference P2P testing requirements",
+      "category": "ecosystem",
+      "key_terms": ["Xergon", "AI inference", "Ollama", "P2P", "beta testing"],
+      "participants": ["@ArØhβΣ @Arohbe"],
+      "significance": "minor"
+    },
+    {
+      "title": "Game of Prompts contract development and Celaut node rootless config",
+      "category": "ecosystem",
+      "key_terms": ["Game of Prompts", "Celaut", "node configuration", "Docker isolation"],
+      "participants": ["@Josemi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Nautilus wallet Dexy/USE price fetch service implementation",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "Dexy price", "USE price", "price service"],
+      "participants": ["@Michael", "@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "Spectrum DEX backend offline investigation and alternative APIs",
+      "category": "defi",
+      "key_terms": ["Spectrum", "DEX API", "backend", "sigmaspace"],
+      "participants": ["@Moein Zargarzadeh", "@Aco Šmrkas", "@Pgr456"],
+      "significance": "minor"
+    },
+    {
+      "title": "Unstopp

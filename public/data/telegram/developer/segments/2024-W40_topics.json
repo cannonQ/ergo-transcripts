@@ -1,0 +1,156 @@
+{
+  "chat": "developer",
+  "week": "2024-W40",
+  "topics": [
+    {
+      "title": "6.0 Protocol Soft-Fork Development and PR Reviews",
+      "category": "technical",
+      "key_terms": ["6.0.0-candidate", "sigmastate-interpreter", "protocol upgrade", "sub-blocks"],
+      "participants": ["@kushti khushi", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "GraphQL Server Issues and Node Infrastructure",
+      "category": "technical",
+      "key_terms": ["graphql", "explorer", "sigmaspace.io", "load balancer", "nginx docker"],
+      "participants": ["@anon_br Σ", "@Moein Zargarzadeh", "@Pulsarz", "@Dmitry Usov", "@Paul"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus Wallet Transaction Chaining and 0-Conf UX",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "transaction chaining", "unconfirmed balance", "edge cases"],
+      "participants": ["@arobsn", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Ledger Hardware Wallet Support for Stax and Flex Devices",
+      "category": "wallet",
+      "key_terms": ["Ledger", "C development", "Stax", "Flex", "UI support", "bounty"],
+      "participants": ["@kushti khushi", "@anon_br Σ", "@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge Ethereum Integration and Testing",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "Ethereum", "guard-app", "watcher-app", "minimum fee"],
+      "participants": ["@moein_z", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Node Version 5.0.23 and 5.1.0 Release Candidates",
+      "category": "technical",
+      "key_terms": ["node release", "thread pools", "indexer", "API", "Raspberry Pi"],
+      "participants": ["@kushti khushi", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Satergo v1.8.0 Release with Javanese Translation",
+      "category": "wallet",
+      "key_terms": ["Satergo", "translation", "Javanese", "release"],
+      "participants": ["@Aberg Satergo dev", "@chris45new", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo Manifesto Translation to Javanese",
+      "category": "community",
+      "key_terms": ["translation", "Javanese", "manifesto", "localization"],
+      "participants": ["@chris45new", "@kushti khushi", "@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoHack9 Project Ideas and Research Topics",
+      "category": "community",
+      "key_terms": ["ErgoHack9", "reversible payments", "timed payments", "thesis ideas"],
+      "participants": ["@kushti khushi", "@DiscordBridge", "@ioannisleontiadis"],
+      "significance": "major"
+    },
+    {
+      "title": "Lithos NISP Contracts and MEV Features",
+      "category": "defi",
+      "key_terms": ["Lithos", "NISP contracts", "MEV", "6.0 devnet testing"],
+      "participants": ["@cheeseenthusiast", "@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigmanauts Mining Pool Swaps Integration",
+      "category": "mining",
+      "key_terms": ["mining pool", "mining swaps", "RSN", "rsBTC", "CYPX", "GAU"],
+      "participants": ["@Marc the Shark", "@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Paideia DAO Platform Development Progress",
+      "category": "defi",
+      "key_terms": ["Paideia", "DAO", "deployment", "testing"],
+      "participants": ["@luivatra", "@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Scala JDK Compatibility Issues in Satergo Build",
+      "category": "technical",
+      "key_terms": ["Scala", "JDK 23", "Proguard", "jdeps", "unnamed methods"],
+      "participants": ["@Aberg Satergo dev", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigma-Rust 6.0 Implementation and Review",
+      "category": "technical",
+      "key_terms": ["sigma-rust", "6.0 PR", "implementation"],
+      "participants": ["@dusek_", "@kushti khushi", "@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Node Reindexing Process and Extra Indices",
+      "category": "technical",
+      "key_terms": ["node reindexing", "extra indices", "API method"],
+      "participants": ["@kushti khushi", "@Flying Pig (™)"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo NFT Marketplace Recommendations",
+      "category": "nft",
+      "key_terms": ["NFT marketplace", "Mewmart", "SkyHarbor", "ErgoAuctions"],
+      "participants": ["@Michael", "@Paul", "@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "KYA Standard Writing Guidelines and Resources",
+      "category": "technical",
+      "key_terms": ["KYA", "standard", "documentation"],
+      "participants": ["@jossemii", "@wombo22", "@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Decentralized Node Selection and Auto-Switching",
+      "category": "technical",
+      "key_terms": ["node selection", "auto-switch", "decentralization", "wallet improvements"],
+      "participants": ["@Paul", "@jossemii", "@cannon_q", "@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "Blockchain Research Paper Topics and Analysis",
+      "category": "community",
+      "key_terms": ["research paper", "small-cap blockchains", "arbitrage", "venture capital"],
+      "participants": ["@bigchocolatepie", "@cannon_q", "@mgpai", "@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Forum Thesis and Research Topics Compilation",
+      "category": "community",
+      "key_terms": ["thesis", "research papers", "forum"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Dexy Protocol Audit Updates and Token Redeployment",
+      "category": "defi",
+      "key_terms": ["Dexy", "audit", "payout contract", "token reissue"],
+      "participants": ["@kushti khushi", "@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "ChainCash Notes Transfer Testing",
+      "category": "defi",
+      "key_terms": ["ChainCash", "notes transfer"],
+      "participants":

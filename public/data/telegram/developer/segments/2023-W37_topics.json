@@ -1,0 +1,114 @@
+{
+  "chat": "developer",
+  "week": "2023-W37",
+  "topics": [
+    {
+      "title": "UTXO Set Scan Implementation and Threading Architecture",
+      "category": "technical",
+      "key_terms": ["UTXO set scan", "threading", "block scan process", "performance optimization"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Storage Rent Implementation and Miner Incentives",
+      "category": "technical",
+      "key_terms": ["storage rent", "miners", "transaction inclusion", "economic model"],
+      "participants": ["@Pulsarz", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Explorer Synchronization Issues and Block Processing",
+      "category": "technical",
+      "key_terms": ["explorer lag", "mempool", "block sync", "API performance", "database"],
+      "participants": ["@Flying Pig (™)", "@kushti khushi", "@Pulsarz"],
+      "significance": "major"
+    },
+    {
+      "title": "Mempool Configuration and Transaction Rebroadcasting",
+      "category": "technical",
+      "key_terms": ["rebroadcastCount", "mempoolCleanupDuration", "transaction propagation", "node config"],
+      "participants": ["@Pulsarz", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Greasy Royale Mission #2 and Partnership Announcements",
+      "category": "marketing",
+      "key_terms": ["Greasy Royale", "MEXC partnership", "NFT missions", "sponsorships", "rewards"],
+      "participants": ["@Austen Milbarge // GreasyCEX"],
+      "significance": "major"
+    },
+    {
+      "title": "Java Virtual Machine Performance vs Rust for Blockchain",
+      "category": "technical",
+      "key_terms": ["JVM", "garbage collection", "Rust", "performance optimization", "memory management"],
+      "participants": ["@Aberg Satergo dev", "@kushti khushi", "@Luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "Explorer Database Schema and Query Optimization",
+      "category": "technical",
+      "key_terms": ["database indexing", "query performance", "UTXO model", "PostgreSQL", "data modeling"],
+      "participants": ["@Luivatra", "@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "Layer Zero and Transaction Per Second Bottlenecks",
+      "category": "technical",
+      "key_terms": ["P2P layer", "bandwidth optimization", "consensus protocol", "layer 2", "sidechains"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Scala Compiler Backward Compatibility and Maven Artifacts",
+      "category": "technical",
+      "key_terms": ["Scala version", "breaking changes", "Maven artifacts", "ecosystem stability"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "AppKit Context Variables and Deserialization",
+      "category": "technical",
+      "key_terms": ["AppKit", "context variables", "consecutive indices", "ergoscript"],
+      "participants": ["@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Node Wallet Configuration and Application Settings",
+      "category": "technical",
+      "key_terms": ["ergo.conf", "application.conf", "mainnet.conf", "configuration override"],
+      "participants": ["@Flying Pig (™)", "@Luivatra", "@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "Satergo Java Runtime and JDK Version Requirements",
+      "category": "wallet",
+      "key_terms": ["Satergo", "JDK 20", "JRE bundling", "P2P library requirements"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "Node Recovery and Database Snapshot Strategy",
+      "category": "technical",
+      "key_terms": ["database corruption", "snapshot recovery", "incremental backups", "disk management"],
+      "participants": ["@HQΣr | Wont Dm 🐾 ⚡"],
+      "significance": "minor"
+    },
+    {
+      "title": "Legacy Explorer vs Ergexplorer User Experience",
+      "category": "technical",
+      "key_terms": ["explorer UI/UX", "address loading", "legacy explorer API", "user feedback"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti khushi",
+    "@Aberg Satergo dev",
+    "@Pulsarz",
+    "@Flying Pig (™)",
+    "@Luivatra",
+    "@HQΣr | Wont Dm 🐾 ⚡",
+    "@Austen Milbarge // GreasyCEX"
+  ],
+  "message_count": 144
+}

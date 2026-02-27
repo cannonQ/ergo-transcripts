@@ -1,0 +1,106 @@
+{
+  "chat": "developer",
+  "week": "2023-W18",
+  "topics": [
+    {
+      "title": "ErgoPay URI Fragment Encoding and Specification Design",
+      "category": "technical",
+      "key_terms": ["ErgoPay", "URI specification", "fragment encoding", "percent encoding", "#P2PK_ADDRESS#", "backwards compatibility"],
+      "participants": ["@MrStahlfelge | Won't DM", "@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo Node v5.0.10 Release and Adoption Tracking",
+      "category": "ecosystem",
+      "key_terms": ["node release", "v5.0.10", "version updates", "node auto-update", "Satergo"],
+      "participants": ["@kushti khushi", "@Aberg Satergo dev", "@Luivatra", "@qx()"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaFi Bond Platform and Context Variables in FleetSharp",
+      "category": "defi",
+      "key_terms": ["SigmaFi", "bonds", "collateralization", "context variables", "FleetSharp"],
+      "participants": ["@Pulsarz", "@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "OpenAPI Code Generation and Swagger Configuration Issues",
+      "category": "technical",
+      "key_terms": ["OpenAPI Generator", "Swagger Codegen", "code generation", "node openapi.yaml", "AllOf classes"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "REST API Address Parameter JSON String Support in Node",
+      "category": "technical",
+      "key_terms": ["REST API", "blockchain balance endpoint", "address parameter", "JSON strings", "POST endpoints"],
+      "participants": ["@Aberg Satergo dev", "@qx()", "@Pulsarz"],
+      "significance": "major"
+    },
+    {
+      "title": "Node Indexing Status and Blockchain Balance Endpoint Performance",
+      "category": "technical",
+      "key_terms": ["node indexing", "blockchain balance", "endpoint timeout", "unindexed nodes", "stress testing"],
+      "participants": ["@Aberg Satergo dev", "@qx()"],
+      "significance": "major"
+    },
+    {
+      "title": "EXLE Crowdfunding Platform V1 Launch and Nautilus Integration",
+      "category": "defi",
+      "key_terms": ["EXLE", "crowdfunding", "V1 launch", "Nautilus", "JSON transactions", "Kenya loan"],
+      "participants": ["@Unknown", "@Haskell_plus", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Node Peer Name Configuration and HOCON Variable Substitution",
+      "category": "technical",
+      "key_terms": ["peer name", "node configuration", "HOCON", "mainnet.conf", "version value"],
+      "participants": ["@Aberg Satergo dev", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "EIP-27 Pay-2-Reemission Contract Box Merging Script",
+      "category": "technical",
+      "key_terms": ["EIP-27", "pay-2-reemission", "miner rewards", "box merging", "ErgoTree"],
+      "participants": ["@kushti khushi", "@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "Lightning Network and Payment Channel Implementation on Ergo",
+      "category": "ecosystem",
+      "key_terms": ["Lightning Network", "payment channels", "Eclair", "ErgoScript", "LN support"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mining Pool Variance and Lithos Pool Implementation",
+      "category": "mining",
+      "key_terms": ["mining pools", "pool variance", "Lithos", "small miners", "block processing"],
+      "participants": ["@Flying Pig (™)"],
+      "significance": "minor"
+    },
+    {
+      "title": "Batcher Decentralization and Open Source Availability",
+      "category": "ecosystem",
+      "key_terms": ["batchers", "decentralization", "open source", "closed source"],
+      "participants": ["@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": ".NET Developer Community in Ergo Development",
+      "category": "community",
+      "key_terms": [".NET", "developer community", "TabbyPOS"],
+      "participants": ["@Lee # TabbyPOS"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@Aberg Satergo dev",
+    "@MrStahlfelge | Won't DM",
+    "@kushti khushi",
+    "@qx()",
+    "@Pulsarz",
+    "@Luivatra"
+  ],
+  "message_count": 99
+}

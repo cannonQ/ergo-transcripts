@@ -1,0 +1,138 @@
+{
+  "chat": "developer",
+  "week": "2024-W36",
+  "topics": [
+    {
+      "title": "Wallet transaction generation and API integration",
+      "category": "technical",
+      "key_terms": ["wallet/transaction/generate", "inputsRaw", "binary encoding", "Bitget integration", "Node API"],
+      "participants": ["@nicolavon", "@Luivatra", "@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "Testnet wallet scanning and synchronization issues",
+      "category": "technical",
+      "key_terms": ["wallet scan", "testnet resync", "index initialization", "wallet height", "node configuration"],
+      "participants": ["@qx()", "@kushti0978", "@dΣathgripson"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma 6.0 development and numeric methods",
+      "category": "technical",
+      "key_terms": ["Sigma 6.0", "numeric methods", "UnsignedBigInt", "higher-order lambdas", "devnet release"],
+      "participants": ["@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "Sub-blocks implementation and P2P messaging",
+      "category": "technical",
+      "key_terms": ["sub-blocks", "P2P messages", "transaction requests", "Stratum proxy modification", "TPS testing"],
+      "participants": ["@kushti0978", "@LouisLibre"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo 5.0.23 node release testing",
+      "category": "technical",
+      "key_terms": ["5.0.23 release", "thread dispatchers", "RocksDB", "stability testing"],
+      "participants": ["@kushti0978", "@Michael"],
+      "significance": "major"
+    },
+    {
+      "title": "ChainCash mainnet deployment and oracle integration",
+      "category": "defi",
+      "key_terms": ["ChainCash", "oracle NFT", "buyback NFT", "testnet/mainnet mismatch", "note redemptions"],
+      "participants": ["@kushti0978", "@dusek_"],
+      "significance": "major"
+    },
+    {
+      "title": "Dexy token issuance and free mint action",
+      "category": "defi",
+      "key_terms": ["Dexy", "token issuance", "mainnet tokens", "free mint deployment"],
+      "participants": ["@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Paideia context variable serialization issues",
+      "category": "technical",
+      "key_terms": ["context vars ordering", "serialization", "node/sigma-rust differences", "Nautilus", "transaction submission"],
+      "participants": ["@luivatra", "@kushti0978", "@arobsn"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigs Mining Pool development and bonus system",
+      "category": "mining",
+      "key_terms": ["mining pool", "bonus payments", "dashboard UI", "ergohack 9", "pool DAO"],
+      "participants": ["@Marc the Shark"],
+      "significance": "minor"
+    },
+    {
+      "title": "The Field pledging protocol MVP and testing",
+      "category": "defi",
+      "key_terms": ["pledging protocol", "smart contracts", "redemption", "DAO", "market testing"],
+      "participants": ["@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo-lib-go v0.28.0 release and sigmaspace indexer",
+      "category": "ecosystem",
+      "key_terms": ["ergo-lib-go", "sigma-rust v0.28.0", "chain indexer", "storage rent", "explorer API"],
+      "participants": ["@Pgr456 | sigmaspace.io"],
+      "significance": "minor"
+    },
+    {
+      "title": "AppKit and sigmastate-interpreter dependency management",
+      "category": "technical",
+      "key_terms": ["scrypto release", "Maven snapshots", "vulnerable dependencies", "commons-io", "guava"],
+      "participants": ["@Aberg Satergo dev", "@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoScript decompilation and AST pretty-printing",
+      "category": "technical",
+      "key_terms": ["ErgoTree", "binary to AST", "decompiler", "pretty-printing", "proposition display"],
+      "participants": ["@Aberg Satergo dev", "@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "P2P tests framework and improvements",
+      "category": "technical",
+      "key_terms": ["P2P tests", "ErgoNodeViewSynchronizer", "test framework", "Scala"],
+      "participants": ["@kushti0978", "@ab1aut_"],
+      "significance": "minor"
+    },
+    {
+      "title": "Transaction signing and multi-input ledger integration",
+      "category": "technical",
+      "key_terms": ["transaction signing", "proof bytes", "ledger signature", "multi-input transactions", "signature validation"],
+      "participants": ["@Aberg Satergo dev", "@dusek_"],
+      "significance": "major"
+    },
+    {
+      "title": "Blockchain education and developer onboarding",
+      "category": "community",
+      "key_terms": ["Bitcoin whitepaper", "blockchain education", "developer motivation", "hackathon sponsorship"],
+      "participants": ["@ab1aut_", "@mgpai", "@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Nautilus wallet pricing display issue",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "ERG/ONE price", "pricing display", "liquidity pool"],
+      "participants": ["@Giufa OnliאΣ", "@HQΣr | Wont Dm"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti0978",
+    "@Aberg Satergo dev",
+    "@qx()",
+    "@DiscordBridge",
+    "@Luivatra",
+    "@Pgr456 | sigmaspace.io",
+    "@ab1aut_",
+    "@dusek_",
+    "@luivatra",
+    "@Marc the Shark"
+  ],
+  "message_count": 182
+}

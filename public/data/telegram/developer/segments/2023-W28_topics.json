@@ -1,0 +1,134 @@
+{
+  "chat": "developer",
+  "week": "2023-W28",
+  "topics": [
+    {
+      "title": "Integer Overflow and Type Conversion in Price Calculations",
+      "category": "technical",
+      "key_terms": ["int overflow", "bigint conversion", "Long type", "price calculation"],
+      "participants": ["@kushti khushi", "@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Explorer API Endpoints and SSL Certificate Issues",
+      "category": "technical",
+      "key_terms": ["explorer API", "SSL", "endpoint issues", "mainnet"],
+      "participants": ["@HQΣr | Wont Dm 🐾 ⚡"],
+      "significance": "minor"
+    },
+    {
+      "title": "UTXO Set Snapshot Bootstrap on Mainnet",
+      "category": "technical",
+      "key_terms": ["UTXO snapshot", "bootstrap", "node v5.0.12", "height 1044479"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "ZeroMQ vs TCP P2P Network Communication Architecture",
+      "category": "technical",
+      "key_terms": ["zeromq", "TCP", "P2P", "node architecture", "Inv message"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoTree Size Metadata and SigmaState Handling",
+      "category": "technical",
+      "key_terms": ["ergotree", "sigmastate", "p2pk", "tree size"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergonnection Library for Node Connection Protocol",
+      "category": "technical",
+      "key_terms": ["ergonnection", "mempool events", "node connection", "TCP P2P"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "HODL Contract Proxy Implementation and Validation",
+      "category": "defi",
+      "key_terms": ["hodl contract", "proxy", "validation", "contract design"],
+      "participants": ["@kushti khushi", "@Luca D'Angelo"],
+      "significance": "major"
+    },
+    {
+      "title": "Testnet Faucet Availability and Alternative Endpoints",
+      "category": "ecosystem",
+      "key_terms": ["testnet faucet", "502 error", "testnet coins"],
+      "participants": ["@Кирилл", "@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "Raw Transaction Serialization via Node API in Go",
+      "category": "technical",
+      "key_terms": ["transaction serialization", "hex bytes", "Node API", "Go client", "validateBytes"],
+      "participants": ["@Кирилл"],
+      "significance": "minor"
+    },
+    {
+      "title": "Transaction Fee Calculation and Size Estimation",
+      "category": "technical",
+      "key_terms": ["transaction size", "fee estimation", "getrecommendedfee"],
+      "participants": ["@Кирилл"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigma-Rust Go Wrapper Development and Bindings",
+      "category": "technical",
+      "key_terms": ["sigma-rust", "Go wrapper", "ergo-lib-go", "language bindings"],
+      "participants": ["@Pgr456", "@Кирилл"],
+      "significance": "major"
+    },
+    {
+      "title": "NFT Minting Implementation and Tools",
+      "category": "nft",
+      "key_terms": ["NFT minting", "minting tools", "project advice"],
+      "participants": ["@Austen Milbarge // GreasyCEX", "@HQΣr | Wont Dm 🐾 ⚡"],
+      "significance": "minor"
+    },
+    {
+      "title": "Smart Contract Development Resources and Languages",
+      "category": "technical",
+      "key_terms": ["ergoscript", "smart contracts", "validators", "UTXO model", "off-chain"],
+      "participants": ["@Cheung Wai Lok", "@Flying Pig (™)", "@Pulsarz"],
+      "significance": "major"
+    },
+    {
+      "title": "Off-Chain Development Tools: AppKit, Fleet, and Language Support",
+      "category": "technical",
+      "key_terms": ["appkit", "sigma-rust", "fleet", "fleetsharp", "language bindings"],
+      "participants": ["@Pulsarz", "@Cheung Wai Lok"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaState Maven Dependencies and Scala Version Management",
+      "category": "technical",
+      "key_terms": ["sigma-state", "maven", "scala versions", "2.11 2.12 2.13"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "SigmaState IntelliJ IDE Integration and Build Issues",
+      "category": "technical",
+      "key_terms": ["sigmastate-interpreter", "sbt", "intellij", "JDK", "npm dependencies"],
+      "participants": ["@Aberg Satergo dev", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "UTXO Alliance Technical Working Group Meeting",
+      "category": "governance",
+      "key_terms": ["UTXO alliance", "technical WG", "meeting"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti khushi",
+    "@Aberg Satergo dev",
+    "@Cheung Wai Lok",
+    "@HQΣr | Wont Dm 🐾 ⚡",
+    "@Кирилл",
+    "@Pulsarz"
+  ],
+  "message_count": 75
+}

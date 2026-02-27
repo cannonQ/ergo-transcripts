@@ -1,0 +1,144 @@
+{
+  "chat": "developer",
+  "week": "2024-W22",
+  "topics": [
+    {
+      "title": "Sigmastate-interpreter v6.0 PR review and merging strategy",
+      "category": "technical",
+      "key_terms": ["sigmastate-interpreter", "PR review", "versioning", "v6.0", "refactoring"],
+      "participants": ["@kushti", "@ergomorphic"],
+      "significance": "major"
+    },
+    {
+      "title": "UnsignedBigInt implementation and numeric methods",
+      "category": "technical",
+      "key_terms": ["UnsignedBigInt", "256-bit bigint", "ErgoScript", "numeric methods", "toBigEndianBytes"],
+      "participants": ["@kushti", "@ergomorphic"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoHack VIII trustless Bitcoin relay and sidechain contracts",
+      "category": "defi",
+      "key_terms": ["ErgoHack", "Bitcoin relay", "tx inclusion proof", "sidechain", "contracts"],
+      "participants": ["@kushti", "@ross-weir"],
+      "significance": "major"
+    },
+    {
+      "title": "CrystalPool L1 real-time trading protocol development",
+      "category": "defi",
+      "key_terms": ["CrystalPool", "time-limited multisigs", "trading webUI", "transaction validation", "native app distribution"],
+      "participants": ["@c8"],
+      "significance": "major"
+    },
+    {
+      "title": "Paideia DAO framework and EIP-5 contract templates",
+      "category": "defi",
+      "key_terms": ["Paideia", "DAO creation", "EIP-5", "contract templates", "SigmaTemplateCompiler"],
+      "participants": ["@luivatra", "@mgpai"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge Bitcoin integration and launch testing",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "Bitcoin support", "PSBT finalization", "EVM RPC", "keygen ceremony"],
+      "participants": ["@moein_z", "@kii"],
+      "significance": "major"
+    },
+    {
+      "title": "Blitz TCG Skyharbor integration and game updates",
+      "category": "nft",
+      "key_terms": ["Blitz TCG", "Skyharbor integration", "pack sale", "UI updates", "playtest"],
+      "participants": ["@LowKeyNerd"],
+      "significance": "minor"
+    },
+    {
+      "title": "Dexy extract-to-the-future action testnet deployment",
+      "category": "ecosystem",
+      "key_terms": ["Dexy", "extract-to-the-future", "testnet", "intervention script", "mainnet launch"],
+      "participants": ["@kushti"],
+      "significance": "minor"
+    },
+    {
+      "title": "The Field peer-to-pool pledging protocol MVP launch",
+      "category": "defi",
+      "key_terms": ["The Field", "pledging protocol", "smart contracts", "dApp frontend", "DAO-driven"],
+      "participants": ["@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "Analog Ergo atomic swap software and BTC-Lightning integration",
+      "category": "bridges",
+      "key_terms": ["atomic swaps", "BTC-Lightning", "swap state reloading", "price API", "regtest environment"],
+      "participants": ["@dΣathgripson"],
+      "significance": "minor"
+    },
+    {
+      "title": "Crux database bug fixes and token position tracking",
+      "category": "ecosystem",
+      "key_terms": ["Crux", "database bug", "token positions", "record deletion"],
+      "participants": ["@luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Reputation System Bitcoin network integration",
+      "category": "ecosystem",
+      "key_terms": ["Reputation System", "Bitcoin network", "Sigma Reputation Panel", "Bitcoin RPC"],
+      "participants": ["@jossemii"],
+      "significance": "minor"
+    },
+    {
+      "title": "Supply chain trust and third-party library security concerns",
+      "category": "community",
+      "key_terms": ["library trust", "XZ Utils backdoor", "software supply chain", "native libraries", "USB/HID"],
+      "participants": ["@Aberg", "@cafebedouin", "@Glasgow"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo node setup and wallet configuration for bots",
+      "category": "technical",
+      "key_terms": ["full node", "pruned node", "wallet", "grid training bot", "node indexing"],
+      "participants": ["@Unknown", "@mgpai", "@HQΣr"],
+      "significance": "minor"
+    },
+    {
+      "title": "Address and public key conversion in Fleet SDK and ErgoPy",
+      "category": "technical",
+      "key_terms": ["address conversion", "public key", "Fleet SDK", "ErgoPy", "fromPublicKey"],
+      "participants": ["@HQΣr", "@Aco", "@mgpai"],
+      "significance": "minor"
+    },
+    {
+      "title": "AppKit and Ergo node release coordination",
+      "category": "ecosystem",
+      "key_terms": ["AppKit release", "v5.0.22", "ergo-wallet", "sigma v5.0.14"],
+      "participants": ["@ergomorphic", "@kushti"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigmastate compiler version and fromBase16 function availability",
+      "category": "technical",
+      "key_terms": ["sigmastate compiler", "fromBase16", "fromBase64", "version update"],
+      "participants": ["@dΣathgripson", "@mgpai", "@kushti"],
+      "significance": "minor"
+    },
+    {
+      "title": "Satergo wallet internationalization to Indonesian and Malaysian",
+      "category": "wallet",
+      "key_terms": ["Satergo", "translation", "Bahasa Indonesia", "Malaysian"],
+      "participants": ["@Yulius"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti",
+    "@ergomorphic",
+    "@luivatra",
+    "@mgpai",
+    "@moein_z",
+    "@Aberg",
+    "@dΣathgripson",
+    "@HQΣr",
+    "@Aco"
+  ],
+  "message_count": 110
+}

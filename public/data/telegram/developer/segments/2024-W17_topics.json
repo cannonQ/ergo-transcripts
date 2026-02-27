@@ -1,0 +1,152 @@
+{
+  "chat": "Ergo Developer",
+  "week": "2024-W17",
+  "topics": [
+    {
+      "title": "Sigma 6.0 EIP and ErgoScript language features",
+      "category": "technical",
+      "key_terms": ["bigInt constructor", "PoW validation", "Autolykos2", "ErgoScript 6.0"],
+      "participants": ["@kushti0978", "@cheeseenthusiast"],
+      "significance": "major"
+    },
+    {
+      "title": "Contract parameter handling and type resolution",
+      "category": "technical",
+      "key_terms": ["parameters", "ConstantPlaceholders", "type errors", "sigmastate-interpreter"],
+      "participants": ["@luivatra", "@ergomorphic"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo-lib wallet derivation path and address generation",
+      "category": "wallet",
+      "key_terms": ["ergo-lib", "fleet-sdk", "Nautilus", "ExtSecretKey", "derivation path"],
+      "participants": ["@jossemii", "@Pgr456"],
+      "significance": "major"
+    },
+    {
+      "title": "Headless DAPP framework maintenance and updates",
+      "category": "ecosystem",
+      "key_terms": ["ergo-headless-dapp-framework", "transaction building", "ergo-lib 0.14.0"],
+      "participants": ["@jossemii", "@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoDevs DAO bootstrapping and governance structure",
+      "category": "governance",
+      "key_terms": ["multisig", "treasury", "Paideia", "ErgoDevs DAO", "grants"],
+      "participants": ["@kushti0978", "@ccellado", "@mgpai", "@ldgaetano", "@cannon_q"],
+      "significance": "major"
+    },
+    {
+      "title": "Node reference client PR reviews and optimizations",
+      "category": "technical",
+      "key_terms": ["node PRs", "code cleanup", "header format", "Autolykos"],
+      "participants": ["@kushti0978", "@ccellado", "@ergomorphic"],
+      "significance": "major"
+    },
+    {
+      "title": "Blitz TCG pack sale launch and open source release",
+      "category": "nft",
+      "key_terms": ["Blitz TCG", "pack sale", "burn contract", "open source"],
+      "participants": ["@luivatra", "@LowKeyNerd"],
+      "significance": "major"
+    },
+    {
+      "title": "Oracle pool contract testing and mainnet token issuance",
+      "category": "defi",
+      "key_terms": ["oracle-core", "oracle pools", "gold oracle", "LP price ratio"],
+      "participants": ["@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge multi-chain integration and scaling",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "peer discovery", "NAT traversal", "Bitcoin integration", "ARM v7"],
+      "participants": ["@mohammmmmad", "@moein_z"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigmanaut Mining Dashboard v2 database backend",
+      "category": "mining",
+      "key_terms": ["mining dashboard", "hashrate metrics", "pool effort", "miner effort"],
+      "participants": ["@Marc the Shark"],
+      "significance": "minor"
+    },
+    {
+      "title": "Atomic Swap Software encrypted account handling",
+      "category": "defi",
+      "key_terms": ["atomic swap", "encrypted accounts", "testnet phase"],
+      "participants": ["@dΣathgripson"],
+      "significance": "minor"
+    },
+    {
+      "title": "The Field peer-to-pool pledging protocol MVP",
+      "category": "defi",
+      "key_terms": ["pledging protocol", "smart contracts", "DAO-driven", "userPayout"],
+      "participants": ["@cannon_q"],
+      "significance": "major"
+    },
+    {
+      "title": "Camera NFT minting and content authenticity application",
+      "category": "nft",
+      "key_terms": ["camera NFT", "image hash", "deepfake prevention", "content verification"],
+      "participants": ["@luis_avila_", "@soupsa", "@mgpai"],
+      "significance": "minor"
+    },
+    {
+      "title": "Python development on Ergo with ergpy and REST APIs",
+      "category": "ecosystem",
+      "key_terms": ["ergpy", "Python wrapper", "REST requests", "development tooling"],
+      "participants": ["@tsm121", "@Paul", "@dΣathgripson", "@kii"],
+      "significance": "minor"
+    },
+    {
+      "title": "Confirmation finality and exchange deposit requirements",
+      "category": "technical",
+      "key_terms": ["practical finality", "confirmations", "rollback", "exchange deposits"],
+      "participants": ["@Flying Pig", "@Pulsarz"],
+      "significance": "minor"
+    },
+    {
+      "title": "Hodlbox Erdoge UI integration",
+      "category": "wallet",
+      "key_terms": ["Hodlbox", "Erdoge", "UI integration"],
+      "participants": ["@c8"],
+      "significance": "minor"
+    },
+    {
+      "title": "Minotaur wallet multi-sig transaction signing fixes",
+      "category": "wallet",
+      "key_terms": ["Minotaur", "multi-sig", "transaction signing", "token display"],
+      "participants": ["@moein_z"],
+      "significance": "minor"
+    },
+    {
+      "title": "EIP-5 parameter implementation in contract templates",
+      "category": "technical",
+      "key_terms": ["EIP-5", "parameters", "ConstantPlaceholders", "sigmastate-interpreter"],
+      "participants": ["@luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Oracle price feed data and sidechain PoW validation",
+      "category": "defi",
+      "key_terms": ["oracle sidechains", "Lithos", "Autolykos variation", "PoW NFTs"],
+      "participants": ["@kushti0978", "@cheeseenthusiast"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti0978",
+    "@luivatra",
+    "@DiscordBridge",
+    "@mgpai",
+    "@jossemii",
+    "@mohammmmmad",
+    "@moein_z",
+    "@cannon_q",
+    "@LowKeyNerd",
+    "@ccellado"
+  ],
+  "message_count": 84
+}

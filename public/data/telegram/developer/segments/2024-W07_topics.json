@@ -1,0 +1,129 @@
+{
+  "chat": "developer",
+  "week": "2024-W07",
+  "topics": [
+    {
+      "title": "Ergo v5.0.20 release and protocol updates",
+      "category": "technical",
+      "key_terms": ["v5.0.20", "reference client", "release", "SigmaMap", "ErgoLikeContext"],
+      "participants": ["@kushti", "@ccellado", "@dmitryusov"],
+      "significance": "major"
+    },
+    {
+      "title": "Scrypto Scala3 migration and type testing issues",
+      "category": "technical",
+      "key_terms": ["Scala3", "opaque types", "Digest32", "Digest64", "supertagged", "runtime type checks"],
+      "participants": ["@ccellado", "@ergomorphic", "@stenolog_79565"],
+      "significance": "major"
+    },
+    {
+      "title": "Wallet API transaction signing errors and UTXO management",
+      "category": "wallet",
+      "key_terms": ["wallet/payment/send", "400 Bad Request", "maxInputs", "timeout", "UTXO boxes"],
+      "participants": ["@peterpan0708", "@kushti"],
+      "significance": "minor"
+    },
+    {
+      "title": "Nautilus wallet message signing and EIP-44 implementation",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "message signing", "EIP-44", "SigmaProp", "GroupElement", "Manifest v3"],
+      "participants": ["@capt_nemo429", "@mgpai", "@kushti"],
+      "significance": "major"
+    },
+    {
+      "title": "Dexy sidechain prototype and stablecoin development",
+      "category": "defi",
+      "key_terms": ["Dexy", "stablecoin", "sidechain", "chained transactions", "redemption support"],
+      "participants": ["@kushti", "@dmitryusov", "@code_for_uss"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge network topology and scanner implementation",
+      "category": "bridges",
+      "key_terms": ["RoseNet", "hole punching", "NAT traversal", "EVM scanner", "Bitcoin observation extractor"],
+      "participants": ["@zzzzbye"],
+      "significance": "major"
+    },
+    {
+      "title": "THz.FM music platform and DAO infrastructure on Ergo",
+      "category": "ecosystem",
+      "key_terms": ["THz.FM", "IRBO", "Cardano cross-chain", "DAO royalty sharing", "AHT framework"],
+      "participants": ["@liquid_phase"],
+      "significance": "major"
+    },
+    {
+      "title": "Crux subscription and Koinly CSV export development",
+      "category": "ecosystem",
+      "key_terms": ["Crux", "subscription", "prepaid balance", "Koinly", "async export"],
+      "participants": ["@luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigmaspace rich list and storage rent overview",
+      "category": "ecosystem",
+      "key_terms": ["Sigmaspace", "rich list", "dark mode", "storage rent", "miner overview"],
+      "participants": ["@Pgr456"],
+      "significance": "minor"
+    },
+    {
+      "title": "Atomic Swap WebUI ElGamal communication and account initialization",
+      "category": "defi",
+      "key_terms": ["Atomic Swap", "WebUI", "ElGamal", "Sepolia", "account initialization"],
+      "participants": ["@dΣathgripson"],
+      "significance": "minor"
+    },
+    {
+      "title": "Blitz TCG launch and ErgoPad pack sale",
+      "category": "nft",
+      "key_terms": ["Blitz", "TCG", "ErgoPad", "pack sale", "playtests"],
+      "participants": ["@LowKeyNerd"],
+      "significance": "minor"
+    },
+    {
+      "title": "Lithos client and NISP parameter evaluation",
+      "category": "mining",
+      "key_terms": ["Lithos", "client", "Stratum", "NISP", "statistical tests"],
+      "participants": ["@cheeseenthusiast"],
+      "significance": "minor"
+    },
+    {
+      "title": "Minotaur wallet v2.0.0 release candidate launch",
+      "category": "wallet",
+      "key_terms": ["Minotaur", "v2.0.0-rc1", "redesign", "bug fixes", "performance optimization"],
+      "participants": ["@mhs_sam"],
+      "significance": "major"
+    },
+    {
+      "title": "Community proposals and Sigmanauts governance discussions",
+      "category": "governance",
+      "key_terms": ["MM proposal", "community feedback", "Sigmanauts", "Paideia", "Gluon design contest"],
+      "participants": ["@wombo22"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo-node integration tests and message class refactoring",
+      "category": "technical",
+      "key_terms": ["ergo-node", "ergo-core", "Message class", "integration tests", "Docker"],
+      "participants": ["@ccellado"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo repositories project management and categorization",
+      "category": "ecosystem",
+      "key_terms": ["GitHub repositories", "Grist", "project management", "cataloging"],
+      "participants": ["@Glasgow"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@ccellado",
+    "@kushti",
+    "@DiscordBridge",
+    "@ergomorphic",
+    "@stenolog_79565",
+    "@capt_nemo429",
+    "@mgpai",
+    "@liquid_phase"
+  ],
+  "message_count": 144
+}

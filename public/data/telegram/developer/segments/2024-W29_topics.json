@@ -1,0 +1,176 @@
+{
+  "chat": "developer",
+  "week": "2024-W29",
+  "topics": [
+    {
+      "title": "AVL Trees vs Merkle Patricia Trees comparison",
+      "category": "technical",
+      "key_terms": ["AVL trees", "merkle patricia trees", "data structures", "blockchain optimization"],
+      "participants": ["@kushti khushi", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoScript debugging and development tooling",
+      "category": "technical",
+      "key_terms": ["debugger", "LSP", "developer experience", "error messages", "tooling"],
+      "participants": ["@c8", "@ergomorphic", "@kushti khushi", "@luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "Testing contracts with Fleet SDK mock-chain",
+      "category": "technical",
+      "key_terms": ["mock-chain", "transaction testing", "unit tests", "test infrastructure"],
+      "participants": ["@c8", "@arobsn", "@luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "UTXO vs Account model design tradeoffs",
+      "category": "technical",
+      "key_terms": ["UTXO model", "account model", "p2p applications", "development"],
+      "participants": ["@kushti khushi", "@mgpai", "@c8"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoScript documentation and tutorials",
+      "category": "ecosystem",
+      "key_terms": ["documentation", "tutorials", "learning resources", "onboarding"],
+      "participants": ["@c8", "@kushti khushi", "@luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma 6.0 protocol release roadmap",
+      "category": "technical",
+      "key_terms": ["Sigma 6.0", "BigInt support", "protocol upgrade", "release candidate"],
+      "participants": ["@kushti khushi", "@arobsn"],
+      "significance": "major"
+    },
+    {
+      "title": "ChainCash peer-to-peer payment implementation",
+      "category": "defi",
+      "key_terms": ["ChainCash", "p2p payments", "storage implementation", "API design"],
+      "participants": ["@kushti khushi", "@c8"],
+      "significance": "major"
+    },
+    {
+      "title": "Oracle Core 2.0.2 release and rewards",
+      "category": "defi",
+      "key_terms": ["Oracle Core", "release", "developer rewards"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoNames deployment CLI tool",
+      "category": "ecosystem",
+      "key_terms": ["ErgoNames", "deployment tool", "contract deployment"],
+      "participants": ["@mgpai"],
+      "significance": "minor"
+    },
+    {
+      "title": "Crystal-pool token swap implementation",
+      "category": "defi",
+      "key_terms": ["crystal-pool", "token swap", "limit orders", "DeFi protocol"],
+      "participants": ["@c8", "@arobsn"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus wallet refactoring and Ledger support",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "wallet development", "Ledger integration", "mempool chaining"],
+      "participants": ["@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "Paideia DAO contract optimization and bug bounty",
+      "category": "governance",
+      "key_terms": ["Paideia", "DAO contracts", "bug bounty", "contract optimization"],
+      "participants": ["@luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "Crux indexer websocket optimization",
+      "category": "technical",
+      "key_terms": ["Crux", "indexer", "websockets", "database optimization"],
+      "participants": ["@luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigs Mining Pool DAO token swap integration",
+      "category": "mining",
+      "key_terms": ["mining pool", "DAO token", "token swap", "miner ID"],
+      "participants": ["@Marc the Shark"],
+      "significance": "minor"
+    },
+    {
+      "title": "Gluon Protocol stablecoin bug bounty on Ergo",
+      "category": "defi",
+      "key_terms": ["Gluon Protocol", "stablecoin", "bug bounty", "gold-backed"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "SigmaChains chain commitment design and launch",
+      "category": "technical",
+      "key_terms": ["SigmaChains", "chain commitments", "subblocks", "scalability"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Aiken language and Cardano contract development comparison",
+      "category": "technical",
+      "key_terms": ["Aiken", "Cardano", "language comparison", "contract syntax"],
+      "participants": ["@mgpai", "@c8", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Fleet SDK SString and convenience utilities",
+      "category": "technical",
+      "key_terms": ["Fleet SDK", "SString", "type utilities", "parameter passing"],
+      "participants": ["@HQΣr", "@c8", "@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "Block template regeneration and mining pool integration",
+      "category": "mining",
+      "key_terms": ["block template", "mining pool", "share protocol", "candidate refreshing"],
+      "participants": ["@Pgr456", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Node API box filtering for transaction chaining",
+      "category": "technical",
+      "key_terms": ["Node API", "box filtering", "transaction chaining", "efficiency"],
+      "participants": ["@mgpai", "@arobsn", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoScript intermediate value logging for debugging",
+      "category": "technical",
+      "key_terms": ["debugging", "value logging", "interpreter", "developer experience"],
+      "participants": ["@c8", "@ergomorphic", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Mobile wallet development with p2p features",
+      "category": "wallet",
+      "key_terms": ["mobile wallet", "p2p chat", "multisig", "iOS development"],
+      "participants": ["@c8"],
+      "significance": "minor"
+    },
+    {
+      "title": "Minimum box value and storage rent calculations",
+      "category": "technical",
+      "key_terms": ["box value", "storage rent", "nanoerg", "parameter enforcement"],
+      "participants": ["@c8", "@luivatra", "@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "Lithos project mainnet launch timeline update",
+      "category": "ecosystem",
+      "key_terms": ["Lithos", "mainnet", "NISP contracts", "Sigma 6.0"],
+      "participants": ["@cheeseenthusiast", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Testnet explorer and node synchronization issues",
+      "category": "technical",
+      "key_terms":

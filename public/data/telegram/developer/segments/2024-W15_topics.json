@@ -1,0 +1,155 @@
+{
+  "chat": "developer",
+  "week": "2024-W15",
+  "topics": [
+    {
+      "title": "EIP-5 Support Implementation in AppKit and SigmaState",
+      "category": "technical",
+      "key_terms": ["EIP-5", "AppKit", "sigmastate-interpreter", "contract finalization"],
+      "participants": ["@kushti0978", "@luivatra", "@ergomorphic"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo Node 5.1.0 Release and 6.0 EIP Development",
+      "category": "technical",
+      "key_terms": ["rocksdb", "node release", "EIP-50", "NBits encoding", "versioned serialization"],
+      "participants": ["@kushti0978", "@ergomorphic"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge TSS and Chain Updates",
+      "category": "bridges",
+      "key_terms": ["tss-sign function", "ECDSA", "signatureRecovery", "guard-service", "rosen-chains"],
+      "participants": ["@zzzzbye", "@moein_z"],
+      "significance": "major"
+    },
+    {
+      "title": "Token and Contract Metadata Registry Development",
+      "category": "ecosystem",
+      "key_terms": ["metadata registry", "token metadata", "EIP-4", "Nautilus wallet", "CI validation"],
+      "participants": ["@luivatra", "@capt_nemo429", "@Pgr456"],
+      "significance": "major"
+    },
+    {
+      "title": "ergo-lib-go First Release with Sigma-Rust Bindings",
+      "category": "technical",
+      "key_terms": ["ergo-lib-go", "sigma-rust", "GoLang bindings", "transaction support"],
+      "participants": ["@Pgr456"],
+      "significance": "major"
+    },
+    {
+      "title": "Mempool-Aware UTXO Endpoint Enhancement",
+      "category": "technical",
+      "key_terms": ["blockchain/box/unspent", "mempool", "minConfirmations", "excludeMempoolSpent"],
+      "participants": ["@Pulsarz", "@kushti0978", "@mgpai", "@yee0576"],
+      "significance": "major"
+    },
+    {
+      "title": "Proof of Work JPGs NFT Collection Launch",
+      "category": "nft",
+      "key_terms": ["PoW JPGs", "hexspeak", "SHA-256", "IPFS CID", "EIP-0024 royalty"],
+      "participants": ["@maritsaart", "@powjpgs"],
+      "significance": "major"
+    },
+    {
+      "title": "Paideia DAO Frontend Refactoring and Contract Development",
+      "category": "defi",
+      "key_terms": ["Paideia", "EIP-5 support", "frontend refactoring", "contract finalization"],
+      "participants": ["@luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Crux Token Integration and Database Optimization",
+      "category": "ecosystem",
+      "key_terms": ["Crux", "koinly integration", "missing index", "token metadata"],
+      "participants": ["@luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergopad Offchain Bot Stabilization",
+      "category": "ecosystem",
+      "key_terms": ["Ergopad", "offchain bots", "bot stability"],
+      "participants": ["@luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Blitz TCG Collection Structure and Launch Timeline",
+      "category": "nft",
+      "key_terms": ["Blitz TCG", "collection generation", "card packs", "April 26 launch"],
+      "participants": ["@luivatra", "@LowKeyNerd"],
+      "significance": "minor"
+    },
+    {
+      "title": "Dexy Mainnet Token Issuance and Contract Validation",
+      "category": "ecosystem",
+      "key_terms": ["Dexy", "mainnet tokens", "contract parameters"],
+      "participants": ["@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Rosen Bridge Watcher v2 and Raffle v2 Development",
+      "category": "bridges",
+      "key_terms": ["rosen-watcher", "database service", "scanner", "ErgoRaffle v2"],
+      "participants": ["@moein_z"],
+      "significance": "minor"
+    },
+    {
+      "title": "Oracle-Core Buyback Function Issue Resolution",
+      "category": "defi",
+      "key_terms": ["oracle-core", "buyback function", "issue #327"],
+      "participants": ["@Pgr456", "@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Lithos Custom Stratum and Sigma Mining Pool Development",
+      "category": "mining",
+      "key_terms": ["Lithos", "custom stratum", "Sigma Mining Pool", "storage rent"],
+      "participants": ["@cheeseenthusiast"],
+      "significance": "minor"
+    },
+    {
+      "title": "The Field Peer-to-Pool Pledging Protocol MVP",
+      "category": "ecosystem",
+      "key_terms": ["The Field", "pledging protocol", "guard signing", "MVP May deadline"],
+      "participants": ["@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigmanauts DAO Governance and Mining Operations",
+      "category": "governance",
+      "key_terms": ["Sigmanauts DAO", "mining pool", "treasury management", "revenue streams"],
+      "participants": ["@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "2-out-of-2 Multisig Signing Algorithm and Documentation",
+      "category": "technical",
+      "key_terms": ["multisig signing", "2-of-2 ceremony", "node API interaction"],
+      "participants": ["@kushti0978", "@c8"],
+      "significance": "major"
+    },
+    {
+      "title": "Time-Limited Multisig Offchain Exchange Concept",
+      "category": "defi",
+      "key_terms": ["time-limited multisig", "offchain exchange", "L1 layer 2"],
+      "participants": ["@c8", "@kushti0978"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti0978",
+    "@luivatra",
+    "@Pgr456",
+    "@DiscordBridge",
+    "@moein_z",
+    "@Pulsarz",
+    "@maritsaart",
+    "@zzzzbye",
+    "@capt_nemo429",
+    "@mgpai",
+    "@c8",
+    "@cheeseenthusiast",
+    "@cannon_q"
+  ],
+  "message_count": 78
+}
