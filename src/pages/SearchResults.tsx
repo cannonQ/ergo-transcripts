@@ -59,7 +59,6 @@ export default function SearchResults() {
   const { results, telegramResults, isSearching, setQuery } = useSearch();
   const [activeTypes, setActiveTypes] = useState<Set<string>>(new Set());
   const [refineQuery, setRefineQuery] = useState('');
-  const [showChat, setShowChat] = useState(true);
 
   // Sync URL query param to search context
   useEffect(() => {
@@ -144,6 +143,10 @@ export default function SearchResults() {
 
   const hasActiveFilters = activeTypes.size > 0 || refineQuery.trim().length > 0;
 
+  // Chat section visible when: no type filter active (show all), or 'chat' explicitly selected
+  const showChatSection = telegramResults.length > 0 &&
+    (activeTypes.size === 0 || activeTypes.has('chat'));
+
   return (
     <div className="container mx-auto px-4 py-8">
       <Helmet><title>{query ? `"${query}" — Search` : 'Search'} — Ergo Knowledge Base</title></Helmet>
@@ -164,8 +167,8 @@ export default function SearchResults() {
         {query && !isSearching && (
           <p className="text-ergo-muted font-mono">
             {hasActiveFilters
-              ? `Showing ${filteredResults.length} of ${results.length} results for "${query}"`
-              : `Found ${results.length} results for "${query}"`}
+              ? `Showing ${filteredResults.length} of ${results.length + telegramResults.length} results for "${query}"`
+              : `Found ${results.length + telegramResults.length} results for "${query}"`}
           </p>
         )}
       </div>
@@ -179,25 +182,6 @@ export default function SearchResults() {
               const count = typeCounts[type] || 0;
               if (count === 0) return null;
               const Icon = cfg.icon;
-              if (type === 'chat') {
-                // Chat pill toggles the entire chat section
-                return (
-                  <button
-                    key={type}
-                    onClick={() => setShowChat(v => !v)}
-                    className={`
-                      inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border font-mono text-xs transition-all
-                      ${showChat
-                        ? cfg.activeColor
-                        : 'border-ergo-orange/20 text-ergo-muted hover:border-ergo-orange/40 hover:text-ergo-light'}
-                    `}
-                  >
-                    <Icon className="w-3.5 h-3.5" />
-                    {cfg.label}
-                    <span className={`${showChat ? 'opacity-80' : 'text-ergo-muted'}`}>({count})</span>
-                  </button>
-                );
-              }
               const isActive = activeTypes.has(type);
               return (
                 <button
@@ -293,7 +277,7 @@ export default function SearchResults() {
       )}
 
       {/* No Results — from search or from filtering */}
-      {!isSearching && query && results.length > 0 && filteredResults.length === 0 && (
+      {!isSearching && query && results.length > 0 && filteredResults.length === 0 && !showChatSection && (
         <div className="text-center py-12">
           <Filter className="w-12 h-12 text-ergo-muted mx-auto mb-4" />
           <h2 className="text-xl font-mono font-semibold mb-2">No matching results</h2>
@@ -341,7 +325,7 @@ export default function SearchResults() {
       )}
 
       {/* Chat Archive Results */}
-      {!isSearching && query && telegramResults.length > 0 && showChat && (
+      {!isSearching && query && showChatSection && (
         <div className="mt-8">
           <div className="flex items-center gap-3 mb-4">
             <MessageSquare className="w-5 h-5 text-purple-400" />
@@ -349,12 +333,6 @@ export default function SearchResults() {
             <span className="font-mono text-sm text-ergo-muted">
               {telegramResults.length} result{telegramResults.length !== 1 ? 's' : ''}
             </span>
-            <button
-              onClick={() => setShowChat(false)}
-              className="ml-auto text-xs font-mono text-ergo-muted hover:text-ergo-light transition-colors"
-            >
-              Hide
-            </button>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
             {telegramResults.slice(0, 20).map((result, i) => (
@@ -370,18 +348,6 @@ export default function SearchResults() {
         </div>
       )}
 
-      {/* Re-show chat toggle if hidden */}
-      {!isSearching && query && telegramResults.length > 0 && !showChat && (
-        <div className="mt-4 text-center">
-          <button
-            onClick={() => setShowChat(true)}
-            className="inline-flex items-center gap-2 px-4 py-2 bg-purple-500/10 border border-purple-500/30 rounded font-mono text-sm hover:border-purple-500/60 transition-colors text-purple-400"
-          >
-            <MessageSquare className="w-4 h-4" />
-            Show {telegramResults.length} chat result{telegramResults.length !== 1 ? 's' : ''}
-          </button>
-        </div>
-      )}
     </div>
   );
 }

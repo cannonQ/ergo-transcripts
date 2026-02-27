@@ -37,8 +37,7 @@ export default function Navbar() {
           <Link to="/" className="flex items-center space-x-3">
             <Database className="w-8 h-8 text-ergo-orange" />
             <div>
-              <span className="font-mono text-lg font-bold text-gradient">ERGO KB</span>
-              <span className="hidden sm:inline-block ml-2 text-xs text-ergo-muted font-mono">v1.0.0</span>
+              <span className="font-mono text-lg font-bold text-gradient">EKB v2.0</span>
             </div>
           </Link>
 

@@ -1,12 +1,26 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import { Hash, TrendingUp, Grid, List, Loader2 } from 'lucide-react';
+import { Hash, TrendingUp, Grid, List, Loader2, Mic, MessageSquare } from 'lucide-react';
 import { useData } from '../contexts/DataContext';
+import { fetchTelegramTopicsIndex } from '../services/dataService';
+import type { TelegramTopicsIndex } from '../types';
 
 export default function Topics() {
   const { topics, isLoading } = useData();
   const [viewMode, setViewMode] = useState<'cloud' | 'list' | 'trending'>('cloud');
+  const [source, setSource] = useState<'video' | 'chat'>('video');
+  const [chatTopics, setChatTopics] = useState<TelegramTopicsIndex | null>(null);
+  const [isLoadingChat, setIsLoadingChat] = useState(false);
+
+  useEffect(() => {
+    if (source !== 'chat' || chatTopics) return;
+    setIsLoadingChat(true);
+    fetchTelegramTopicsIndex()
+      .then(setChatTopics)
+      .catch(console.error)
+      .finally(() => setIsLoadingChat(false));
+  }, [source, chatTopics]);
 
   const sortedByMentions = [...topics].sort((a, b) => b.mention_count - a.mention_count);
   const sortedAlphabetically = [...topics].sort((a, b) => a.name.localeCompare(b.name));
@@ -29,13 +43,41 @@ export default function Topics() {
     <div className="container mx-auto px-4 py-8">
       <Helmet><title>Topics — Ergo Knowledge Base</title></Helmet>
       {/* Header */}
-      <div className="mb-8">
+      <div className="mb-6">
         <h1 className="text-4xl font-bold font-mono text-gradient mb-2">
           Topics Browser
         </h1>
         <p className="text-ergo-muted font-mono">
-          Explore {topics.length} topics across all community calls
+          {source === 'video'
+            ? `Explore ${topics.length} topics across all community calls`
+            : `Browse chat discussion categories across General & Developer channels`}
         </p>
+      </div>
+
+      {/* Source Toggle */}
+      <div className="flex items-center gap-2 mb-4">
+        <button
+          onClick={() => setSource('video')}
+          className={`flex items-center gap-2 px-4 py-2 rounded font-mono text-sm transition-all ${
+            source === 'video'
+              ? 'bg-ergo-orange text-ergo-darker'
+              : 'bg-ergo-dark border border-ergo-orange/30 hover:border-ergo-orange'
+          }`}
+        >
+          <Mic className="w-4 h-4" />
+          Video
+        </button>
+        <button
+          onClick={() => setSource('chat')}
+          className={`flex items-center gap-2 px-4 py-2 rounded font-mono text-sm transition-all ${
+            source === 'chat'
+              ? 'bg-purple-500/80 text-white'
+              : 'bg-ergo-dark border border-ergo-orange/30 hover:border-ergo-orange'
+          }`}
+        >
+          <MessageSquare className="w-4 h-4" />
+          Chat
+        </button>
       </div>
 
       {/* View Mode Toggle */}
@@ -75,8 +117,71 @@ export default function Topics() {
         </button>
       </div>
 
+      {/* Chat Topics View */}
+      {source === 'chat' && (
+        isLoadingChat ? (
+          <div className="flex items-center justify-center py-16">
+            <Loader2 className="w-8 h-8 text-ergo-orange animate-spin" />
+          </div>
+        ) : chatTopics ? (
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+            {Object.entries(chatTopics.categories)
+              .sort(([, a], [, b]) => b.topic_count - a.topic_count)
+              .map(([key, cat]) => (
+                <div key={key} className="bg-ergo-dark border border-purple-500/20 rounded-lg p-5 hover:border-purple-500/40 transition-colors">
+                  <div className="flex items-start justify-between mb-3">
+                    <Link
+                      to={`/topics/chat/${key}`}
+                      className="font-mono text-lg font-semibold text-purple-300 hover:text-purple-100 transition-colors"
+                    >
+                      {cat.label}
+                    </Link>
+                    <Link
+                      to={`/topics/chat/${key}`}
+                      className="text-xs font-mono text-ergo-muted hover:text-purple-300 transition-colors"
+                    >
+                      {cat.topic_count} discussions →
+                    </Link>
+                  </div>
+                  <div className="flex gap-1.5 mb-3">
+                    {cat.channels.map(ch => (
+                      <span key={ch} className="text-xs font-mono px-2 py-0.5 rounded bg-purple-500/10 text-purple-400 border border-purple-500/20">
+                        {ch}
+                      </span>
+                    ))}
+                  </div>
+                  <div className="flex flex-wrap gap-1.5 mb-3">
+                    {cat.key_terms.slice(0, 8).map(term => (
+                      <Link
+                        key={term}
+                        to={`/topics/chat/${key}?term=${encodeURIComponent(term)}`}
+                        className="text-xs font-mono px-2 py-0.5 rounded bg-ergo-darker text-ergo-muted hover:bg-purple-500/20 hover:text-purple-300 transition-colors"
+                      >
+                        {term}
+                      </Link>
+                    ))}
+                  </div>
+                  {cat.major_topics.length > 0 && (
+                    <div className="space-y-1">
+                      {cat.major_topics.slice(0, 3).map((mt, i) => (
+                        <Link
+                          key={i}
+                          to={`/telegram/${mt.channel}/${mt.week}`}
+                          className="block text-xs font-mono text-ergo-muted hover:text-purple-300 transition-colors truncate"
+                        >
+                          · {mt.title}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              ))}
+          </div>
+        ) : null
+      )}
+
       {/* Tag Cloud View */}
-      {viewMode === 'cloud' && (
+      {source === 'video' && viewMode === 'cloud' && (
         <div className="bg-ergo-dark border border-ergo-orange/20 rounded-lg p-8">
           <div className="flex flex-wrap gap-4 justify-center">
             {sortedByMentions.map(topic => {
@@ -104,7 +209,7 @@ export default function Topics() {
       )}
 
       {/* List View */}
-      {viewMode === 'list' && (
+      {source === 'video' && viewMode === 'list' && (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {sortedAlphabetically.map(topic => (
             <div
@@ -142,7 +247,7 @@ export default function Topics() {
       )}
 
       {/* Trending View */}
-      {viewMode === 'trending' && (
+      {source === 'video' && viewMode === 'trending' && (
         <div className="space-y-4">
           {sortedByMentions.map((topic, index) => (
             <div
@@ -195,7 +300,7 @@ export default function Topics() {
         </div>
       )}
 
-      {topics.length === 0 && (
+      {source === 'video' && topics.length === 0 && (
         <div className="text-center py-12">
           <p className="font-mono text-ergo-muted">No topics found.</p>
         </div>

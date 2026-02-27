@@ -93,7 +93,7 @@ export default function TelegramDetail() {
   const { channel, period } = useParams<{ channel: string; period: string }>();
   const { loadTelegramIndex } = useData();
 
-  const [isMonthly] = useState(() => isMonthlyPeriod(period ?? ''));
+  const isMonthly = isMonthlyPeriod(period ?? '');
   const [activeTab, setActiveTab] = useState<'summary' | 'topics'>('summary');
 
   const [summary, setSummary] = useState<string | null>(null);
@@ -102,6 +102,14 @@ export default function TelegramDetail() {
   const [monthEntry, setMonthEntry] = useState<TelegramMonthEntry | null>(null);
   const [isLoadingSummary, setIsLoadingSummary] = useState(true);
   const [isLoadingTopics, setIsLoadingTopics] = useState(false);
+
+  // Reset per-period state when navigating to a different period
+  useEffect(() => {
+    setTopics(null);
+    setWeekEntry(null);
+    setMonthEntry(null);
+    setActiveTab('summary');
+  }, [period]);
 
   const ch = (channel ?? 'general') as TelegramChannel;
 

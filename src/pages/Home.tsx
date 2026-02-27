@@ -15,12 +15,12 @@ function monthLabel(period: string): string {
 }
 
 export default function Home() {
-  const { stats, calls, topics, isLoading, isInitialized, loadAllDecisions, allDecisions, loadTelegramIndex } = useData();
-  const [recentChat, setRecentChat] = useState<{ channel: string; entry: TelegramMonthEntry }[]>([]);
+  const { stats, calls, topics, isLoading, isInitialized, loadTelegramIndex } = useData();
+  const [recentGeneralChat, setRecentGeneralChat] = useState<TelegramMonthEntry[]>([]);
+  const [recentDevChat, setRecentDevChat] = useState<TelegramMonthEntry[]>([]);
   const [totalChatWeeks, setTotalChatWeeks] = useState(0);
   const [totalChatMonths, setTotalChatMonths] = useState(0);
   const [typedText, setTypedText] = useState('');
-  const [decisionsLoading, setDecisionsLoading] = useState(false);
   const [statsOpen, setStatsOpen] = useState(false);
   const [trendingOpen, setTrendingOpen] = useState(false);
   const fullText = 'The public meetings of Ergo';
@@ -38,14 +38,6 @@ export default function Home() {
     return () => clearInterval(timer);
   }, []);
 
-  // Load decisions for the recent decisions section
-  useEffect(() => {
-    if (isInitialized && !allDecisions) {
-      setDecisionsLoading(true);
-      loadAllDecisions().finally(() => setDecisionsLoading(false));
-    }
-  }, [isInitialized, allDecisions, loadAllDecisions]);
-
   // Load telegram index for stats + recent chat section
   useEffect(() => {
     if (!isInitialized) return;
@@ -55,18 +47,12 @@ export default function Home() {
       setTotalChatWeeks((idx.general?.weeks.length ?? 0) + (idx.developer?.weeks.length ?? 0));
       setTotalChatMonths(gMonths.length + dMonths.length);
 
-      // Last 2 general + 1 developer month, sorted newest first
-      const recent: { channel: string; entry: TelegramMonthEntry }[] = [];
-      const gLast = [...gMonths].slice(-2).reverse();
-      const dLast = [...dMonths].slice(-1).reverse();
-      gLast.forEach(e => recent.push({ channel: 'general', entry: e }));
-      dLast.forEach(e => recent.push({ channel: 'developer', entry: e }));
-      setRecentChat(recent);
+      setRecentGeneralChat([...gMonths].slice(-4).reverse());
+      setRecentDevChat([...dMonths].slice(-4).reverse());
     }).catch(console.error);
   }, [isInitialized]);
 
   const recentCalls = calls.slice(0, 4);
-  const recentDecisions = allDecisions?.slice(0, 4) || [];
   const trendingTopics = [...topics].sort((a, b) => b.mention_count - a.mention_count).slice(0, 10);
 
   if (isLoading) {
@@ -178,130 +164,81 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Recent Chat Activity */}
-      {recentChat.length > 0 && (
-        <section className="container mx-auto px-4 pt-4 pb-8">
-          <div className="flex items-center justify-between mb-4">
-            <h2 className="text-2xl font-bold font-mono text-ergo-orange flex items-center gap-2">
-              <MessageSquare className="w-6 h-6" />
-              Recent Chat Activity
-            </h2>
-            <Link
-              to="/telegram"
-              className="flex items-center gap-2 text-sm font-mono text-ergo-muted hover:text-ergo-orange transition-colors"
-            >
+      {/* Recent Calls + Recent Chat — 50/50 split */}
+      <section className="container mx-auto px-4 pt-4 pb-8">
+        {/* Column headers */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-4">
+          <div className="flex items-center justify-between">
+            <h2 className="text-2xl font-bold font-mono text-ergo-orange">Recent Calls</h2>
+            <Link to="/calls" className="flex items-center gap-2 text-sm font-mono text-ergo-muted hover:text-ergo-orange transition-colors">
               View all <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
-            {recentChat.map(({ channel, entry }) => (
-              <Link
-                key={`${channel}-${entry.period}`}
-                to={`/telegram/${channel}/${entry.period}`}
-                className="block bg-ergo-dark border border-ergo-orange/20 rounded-lg p-5 hover:border-ergo-orange/50 transition-colors"
-              >
-                <div className="flex items-start justify-between mb-2">
-                  <span className="text-xs font-mono text-ergo-orange/60 uppercase tracking-wider">
-                    {channel === 'general' ? 'General' : 'Developer'} · Monthly
-                  </span>
-                  <span className="text-xs font-mono text-ergo-muted">{entry.period}</span>
-                </div>
-                <h3 className="font-mono font-semibold text-ergo-light mb-2">
-                  {monthLabel(entry.period)}
-                </h3>
-                <p className="text-xs font-mono text-ergo-muted">
-                  {entry.total_messages.toLocaleString()} messages · {entry.weeks.length} weeks
-                </p>
-              </Link>
+          <div className="flex items-center justify-between">
+            <h2 className="text-2xl font-bold font-mono text-ergo-orange flex items-center gap-2">
+              <MessageSquare className="w-6 h-6" />
+              Recent Chat
+            </h2>
+            <Link to="/telegram" className="flex items-center gap-2 text-sm font-mono text-ergo-muted hover:text-ergo-orange transition-colors">
+              View all <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
+        </div>
+
+        {/* Content row */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          {/* LEFT: Recent Calls stacked */}
+          <div className="flex flex-col gap-4">
+            {recentCalls.map(call => (
+              <CallCard key={call.id} call={call} />
             ))}
           </div>
-        </section>
-      )}
 
-      {/* Recent Calls */}
-      <section className="container mx-auto px-4 pt-4 pb-8">
-        <div className="flex items-center justify-between mb-4">
-          <h2 className="text-2xl font-bold font-mono text-ergo-orange">
-            Recent Calls
-          </h2>
-          <Link
-            to="/calls"
-            className="flex items-center gap-2 text-sm font-mono text-ergo-muted hover:text-ergo-orange transition-colors"
-          >
-            View all <ArrowRight className="w-4 h-4" />
-          </Link>
-        </div>
-
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-          {recentCalls.map(call => (
-            <CallCard key={call.id} call={call} />
-          ))}
-        </div>
-      </section>
-
-      {/* Recent Decisions */}
-      <section className="container mx-auto px-4 pt-4 pb-8">
-        <div className="flex items-center justify-between mb-4">
-          <h2 className="text-2xl font-bold font-mono text-ergo-orange">
-            Recent Decisions
-          </h2>
-          <Link
-            to="/decisions"
-            className="flex items-center gap-2 text-sm font-mono text-ergo-muted hover:text-ergo-orange transition-colors"
-          >
-            View all <ArrowRight className="w-4 h-4" />
-          </Link>
-        </div>
-
-        {decisionsLoading ? (
-          <div className="flex items-center justify-center py-8">
-            <Loader2 className="w-6 h-6 text-ergo-orange animate-spin" />
-          </div>
-        ) : (
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            {recentDecisions.map(decision => (
-              <div
-                key={decision.id}
-                className="bg-ergo-dark border border-ergo-orange/20 rounded-lg p-6 hover:border-ergo-orange/50 transition-all"
-              >
-                <div className="flex items-start justify-between mb-3">
-                  <span className={`
-                    text-xs font-mono px-2 py-1 rounded
-                    ${decision.type === 'decision' ? 'bg-blue-500/20 text-blue-400' : ''}
-                    ${decision.type === 'commitment' ? 'bg-green-500/20 text-green-400' : ''}
-                    ${decision.type === 'open_question' ? 'bg-yellow-500/20 text-yellow-400' : ''}
-                  `}>
-                    {decision.type.toUpperCase().replace('_', ' ')}
-                  </span>
-                  <span className="text-xs font-mono text-ergo-muted">{decision.date}</span>
-                </div>
-
-                <Link to={`/calls/${decision.call_id}`}>
-                  <h3 className="font-mono text-lg font-semibold text-ergo-orange hover:text-orange-400 transition-colors mb-2">
-                    {decision.title}
-                  </h3>
+          {/* RIGHT: General + Developer split 50/50 */}
+          <div className="grid grid-cols-2 gap-3">
+            {/* General column */}
+            <div className="flex flex-col gap-3">
+              <span className="text-xs font-mono text-ergo-orange/70 uppercase tracking-wider">General</span>
+              {recentGeneralChat.map(entry => (
+                <Link
+                  key={entry.period}
+                  to={`/telegram/general/${entry.period}`}
+                  className="block bg-ergo-dark border border-ergo-orange/20 rounded-lg p-3 hover:border-ergo-orange/50 transition-colors"
+                >
+                  <div className="text-xs font-mono text-ergo-muted mb-1">{entry.period}</div>
+                  <div className="font-mono text-sm font-semibold text-ergo-light leading-snug mb-1">
+                    {monthLabel(entry.period)}
+                  </div>
+                  <div className="text-xs font-mono text-ergo-muted">
+                    {entry.total_messages.toLocaleString()} msgs
+                  </div>
                 </Link>
+              ))}
+            </div>
 
-                <p className="text-sm text-ergo-light/80 mb-3 line-clamp-2">
-                  {decision.content}
-                </p>
-
-                <div className="flex items-center justify-between">
-                  <span className="text-xs font-mono text-ergo-muted">
-                    {decision.speaker} | Topic: {decision.topic}
-                  </span>
-                  <Link
-                    to={`/calls/${decision.call_id}`}
-                    className="text-xs font-mono text-ergo-orange hover:text-orange-400"
-                  >
-                    View source
-                  </Link>
-                </div>
-              </div>
-            ))}
+            {/* Developer column */}
+            <div className="flex flex-col gap-3">
+              <span className="text-xs font-mono text-ergo-orange/70 uppercase tracking-wider">Developer</span>
+              {recentDevChat.map(entry => (
+                <Link
+                  key={entry.period}
+                  to={`/telegram/developer/${entry.period}`}
+                  className="block bg-ergo-dark border border-ergo-orange/20 rounded-lg p-3 hover:border-ergo-orange/50 transition-colors"
+                >
+                  <div className="text-xs font-mono text-ergo-muted mb-1">{entry.period}</div>
+                  <div className="font-mono text-sm font-semibold text-ergo-light leading-snug mb-1">
+                    {monthLabel(entry.period)}
+                  </div>
+                  <div className="text-xs font-mono text-ergo-muted">
+                    {entry.total_messages.toLocaleString()} msgs
+                  </div>
+                </Link>
+              ))}
+            </div>
           </div>
-        )}
+        </div>
       </section>
+
 
       {/* Activity Feed */}
       <section className="container mx-auto px-4 py-12">
@@ -312,36 +249,70 @@ export default function Home() {
           </h2>
         </div>
 
-        <div className="bg-ergo-dark/50 border border-ergo-orange/20 rounded-lg p-6 font-mono text-sm">
-          <div className="space-y-3">
-            {recentCalls[0] && (
-              <div className="flex items-center gap-3">
-                <span className="text-term-green">●</span>
-                <span className="text-ergo-muted">{new Date(recentCalls[0].date).toLocaleDateString()}</span>
-                <span>New call indexed: "{recentCalls[0].title}"</span>
-              </div>
-            )}
-            {stats && (
-              <div className="flex items-center gap-3">
-                <span className="text-term-amber">●</span>
-                <span className="text-ergo-muted">Total</span>
-                <span>{stats.total_qa} Q&A pairs across {stats.total_calls} calls</span>
-              </div>
-            )}
-            {trendingTopics[0] && (
-              <div className="flex items-center gap-3">
-                <span className="text-term-cyan">●</span>
-                <span className="text-ergo-muted">Trending</span>
-                <span>Topic "{trendingTopics[0].name}" ({trendingTopics[0].mention_count} mentions)</span>
-              </div>
-            )}
-            {stats && (
-              <div className="flex items-center gap-3">
-                <span className="text-term-green">●</span>
-                <span className="text-ergo-muted">Archive</span>
-                <span>{stats.total_hours}+ hours of community knowledge indexed</span>
-              </div>
-            )}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 font-mono text-sm">
+          {/* Video */}
+          <div className="bg-ergo-dark/50 border border-ergo-orange/20 rounded-lg p-5">
+            <div className="text-xs text-ergo-orange/70 uppercase tracking-wider mb-3">Video</div>
+            <div className="space-y-3">
+              {recentCalls[0] && (
+                <div className="flex items-start gap-3">
+                  <span className="text-term-green mt-0.5">●</span>
+                  <div>
+                    <span className="text-ergo-muted">{new Date(recentCalls[0].date).toLocaleDateString()} · </span>
+                    <span>New call: "{recentCalls[0].title}"</span>
+                  </div>
+                </div>
+              )}
+              {stats && (
+                <div className="flex items-start gap-3">
+                  <span className="text-term-amber mt-0.5">●</span>
+                  <span>{stats.total_qa} Q&A pairs across {stats.total_calls} calls</span>
+                </div>
+              )}
+              {trendingTopics[0] && (
+                <div className="flex items-start gap-3">
+                  <span className="text-term-cyan mt-0.5">●</span>
+                  <span>Trending: "{trendingTopics[0].name}" ({trendingTopics[0].mention_count} mentions)</span>
+                </div>
+              )}
+              {stats && (
+                <div className="flex items-start gap-3">
+                  <span className="text-term-green mt-0.5">●</span>
+                  <span>{stats.total_hours}+ hours of community knowledge indexed</span>
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Chat */}
+          <div className="bg-ergo-dark/50 border border-ergo-orange/20 rounded-lg p-5">
+            <div className="text-xs text-ergo-orange/70 uppercase tracking-wider mb-3">Chat</div>
+            <div className="space-y-3">
+              {recentGeneralChat[0] && (
+                <div className="flex items-start gap-3">
+                  <span className="text-term-green mt-0.5">●</span>
+                  <div>
+                    <span className="text-ergo-muted">{recentGeneralChat[0].period} · </span>
+                    <span>General: {recentGeneralChat[0].total_messages.toLocaleString()} messages archived</span>
+                  </div>
+                </div>
+              )}
+              {recentDevChat[0] && (
+                <div className="flex items-start gap-3">
+                  <span className="text-term-amber mt-0.5">●</span>
+                  <div>
+                    <span className="text-ergo-muted">{recentDevChat[0].period} · </span>
+                    <span>Developer: {recentDevChat[0].total_messages.toLocaleString()} messages archived</span>
+                  </div>
+                </div>
+              )}
+              {totalChatWeeks > 0 && (
+                <div className="flex items-start gap-3">
+                  <span className="text-term-cyan mt-0.5">●</span>
+                  <span>{totalChatWeeks} weekly segments across {totalChatMonths} months (2017–2026)</span>
+                </div>
+              )}
+            </div>
           </div>
         </div>
       </section>
