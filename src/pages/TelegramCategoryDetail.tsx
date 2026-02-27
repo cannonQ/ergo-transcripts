@@ -37,8 +37,19 @@ export default function TelegramCategoryDetail() {
       fetchTelegramTopicsIndex(),
       fetchTelegramSearchIndex(),
     ]).then(([idx, entries]) => {
-      setCatData(idx.categories[category] ?? null);
+      const cat = idx.categories[category] ?? null;
+      setCatData(cat);
       setSearchEntries(entries);
+      // Clear pre-selected terms that don't actually appear in any segment
+      if (cat) {
+        const catTerms = new Set(cat.key_terms.map((t: string) => t.toLowerCase()));
+        const inSegments = new Set(
+          entries
+            .filter((e: { key_terms: string[] }) => e.key_terms.some((t: string) => catTerms.has(t.toLowerCase())))
+            .flatMap((e: { key_terms: string[] }) => e.key_terms.map((t: string) => t.toLowerCase()))
+        );
+        setSelectedTerms(prev => new Set([...prev].filter(t => inSegments.has(t))));
+      }
     }).catch(console.error)
       .finally(() => setIsLoading(false));
   }, [category]);
@@ -54,6 +65,13 @@ export default function TelegramCategoryDetail() {
     if (!searchEntries || !catData) return [];
     return searchEntries.filter(e => e.key_terms.some(t => catTermsLower.has(t.toLowerCase())));
   }, [searchEntries, catData, catTermsLower]);
+
+  // Only show chips for terms that actually appear in matching segments
+  const usableTerms = useMemo(() => {
+    if (!catData) return [];
+    const inSegments = new Set(matchingEntries.flatMap(e => e.key_terms.map(t => t.toLowerCase())));
+    return catData.key_terms.filter(t => inSegments.has(t.toLowerCase()));
+  }, [catData, matchingEntries]);
 
   // Apply term filter, channel filter, and sort
   const filteredEntries = useMemo(() => {
@@ -136,7 +154,7 @@ export default function TelegramCategoryDetail() {
           )}
         </div>
         <div className="flex flex-wrap gap-2">
-          {catData.key_terms.map(term => {
+          {usableTerms.map(term => {
             const active = selectedTerms.has(term.toLowerCase());
             return (
               <button
