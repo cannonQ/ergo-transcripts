@@ -1,0 +1,133 @@
+{
+  "chat": "general",
+  "week": "2022-W39",
+  "topics": [
+    {
+      "title": "EIP-37 Hard Fork Voting and Activation Process",
+      "category": "governance",
+      "key_terms": ["EIP-37", "hard fork", "voting", "miners", "activation", "90%", "epoch", "256 blocks"],
+      "participants": ["@kushti khushi", "@Armeanio", "@Pulsarz", "@CW", "@Glasgow｜WON'T DM", "@Flying Pig (™)", "@Daskre", "@AllCloudy | GetBlok.io"],
+      "significance": "major"
+    },
+    {
+      "title": "Difficulty Adjustment Algorithm Changes Under EIP-37",
+      "category": "technical",
+      "key_terms": ["difficulty", "DAA", "128 blocks", "1024 blocks", "epoch length", "50% cap", "adjustment"],
+      "participants": ["@kushti khushi", "@Pulsarz", "@Unknown", "@nostalgia", "@Flying Pig (™)", "@Jesper Agger"],
+      "significance": "major"
+    },
+    {
+      "title": "Post-Merge Difficulty Bomb and Block Time Issues",
+      "category": "mining",
+      "key_terms": ["difficulty bomb", "block time", "merge", "hashrate", "10 minute blocks", "epoch"],
+      "participants": ["@Daniel", "@Rj", "@kushti khushi", "@Gazza ｜WON'T DM", "@Murat", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "GetBlok.io Proof-of-Vote Implementation for EIP-37",
+      "category": "governance",
+      "key_terms": ["GetBlok", "proof of vote", "GBGT tokens", "miner voting", "governance"],
+      "participants": ["@AllCloudy | GetBlok.io", "@kushti khushi", "@ArØhβΣ @Arohbe 🍪", "@Cheese", "@Alex"],
+      "significance": "major"
+    },
+    {
+      "title": "Mining Profitability During High Difficulty Period",
+      "category": "mining",
+      "key_terms": ["profitability", "electricity cost", "loss", "rational mining", "yield", "freeriders"],
+      "participants": ["@Rj", "@Eddie Moralez", "@Armeanio", "@Şerafettin Bayrakdar", "@nostalgia", "@A"],
+      "significance": "major"
+    },
+    {
+      "title": "Node Version Updates for EIP-37 (4.0.100-103)",
+      "category": "technical",
+      "key_terms": ["node version", "4.0.100", "4.0.101", "4.0.103", "upgrade", "pools"],
+      "participants": ["@kushti khushi", "@Armeanio", "@Pulsarz", "@MrStahlfelge | Won't DM", "@Glasgow｜WON'T DM"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge Soft Launch on Mainnet",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "Cardano", "mainnet", "test tokens", "watchers", "guards"],
+      "participants": ["@kushti khushi", "@Daskre", "@Gazza ｜WON'T DM", "@Pulsarz"],
+      "significance": "major"
+    },
+    {
+      "title": "KuCoin and Exchange Withdrawal/Deposit Issues",
+      "category": "ecosystem",
+      "key_terms": ["KuCoin", "withdrawal", "deposit", "confirmations", "60 blocks", "node upgrade"],
+      "participants": ["@kushti khushi", "@Hasnain", "@Armeanio", "@Fred Clark Jr", "@Zzzz", "@Daniel"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Foundation Mining Rewards Bonus During EIP-37",
+      "category": "mining",
+      "key_terms": ["bonus rewards", "36 ERG", "foundation", "incentive", "loyal miners"],
+      "participants": ["@A", "@nostalgia", "@ArØhβΣ @Arohbe 🍪", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Coin Hopping and DAA Security Analysis",
+      "category": "technical",
+      "key_terms": ["coin hopping", "DAA", "profit mining", "security", "manipulation"],
+      "participants": ["@Jesper Agger", "@Glasgow｜WON'T DM", "@Cheese", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Spectrum Finance Cross-Chain Liquidity Development",
+      "category": "defi",
+      "key_terms": ["Spectrum", "cross-chain", "liquidity", "spectrum.network", "L2"],
+      "participants": ["@Pulsarz", "@Gazza ｜WON'T DM", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "NightOwl Casino Launch Preparations",
+      "category": "ecosystem",
+      "key_terms": ["NightOwl", "casino", "October 18", "liquidity provider", "house"],
+      "participants": ["@kushti khushi", "@Pulsarz", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoHack V Registration and Prize Pool Announcement",
+      "category": "community",
+      "key_terms": ["ErgoHack V", "Flux", "Alephium", "Djed Alliance", "mining and minting"],
+      "participants": ["@Ergo NEWS $ERG", "@Jennie D", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Voting System Design Philosophy Discussion",
+      "category": "governance",
+      "key_terms": ["voting mechanism", "abstain", "explicit vote", "implicit vote", "neutral"],
+      "participants": ["@Unknown", "@Pulsarz", "@Kallo Shaman", "@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Marketing and Visibility Concerns",
+      "category": "marketing",
+      "key_terms": ["marketing", "visibility", "fair launch", "exposure", "commercial"],
+      "participants": ["@Seba Q", "@Unknown", "@Tramadol 🐾 ▪️", "@Crypto Miner0256"],
+      "significance": "minor"
+    },
+    {
+      "title": "DexyGold Stablecoin Development",
+      "category": "defi",
+      "key_terms": ["DexyGold", "gold-backed", "stablecoin", "SigmaUSD", "logo contest"],
+      "participants": ["@RETRO", "@HQΣr | Wont Dm 🐾 ⚡", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoMixer Handling of Hard Fork Events",
+      "category": "wallet",
+      "key_terms": ["ErgoMixer", "hard fork", "transaction failures", "configuration"],
+      "participants": ["@Glasgow｜WON'T DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "Bitmain Interest in Ergo PoW Community",
+      "category": "mining",
+      "key_terms": ["Bitmain", "partnership", "PoW support", "collaboration"],
+      "participants": ["@Chloe Luo", "@kushti khushi", "@gg"],
+      "significance": "minor"
+    },
+    {
+      "title": "AnetaBTC Governance and Community Fund Voting",
+      "category": "ecosystem

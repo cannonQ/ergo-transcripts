@@ -1,0 +1,130 @@
+{
+  "chat": "developer",
+  "week": "2023-W30",
+  "topics": [
+    {
+      "title": "Ergonnection P2P Library Development and Testing",
+      "category": "technical",
+      "key_terms": ["Ergonnection", "P2P", "ErgoSocket", "block headers", "bouncycastle", "dependencies"],
+      "participants": ["@Aberg Satergo dev", "@Luivatra", "@kii"],
+      "significance": "major"
+    },
+    {
+      "title": "Java Library Dependency Management and Maven Publishing",
+      "category": "technical",
+      "key_terms": ["shadowJar", "maven-publish", "classpath", "bouncycastle", "sigmastate"],
+      "participants": ["@Aberg Satergo dev", "@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "P2P Connection Stability and Peer Eviction",
+      "category": "technical",
+      "key_terms": ["connection timeout", "peer eviction", "reconnection logic", "modifier requests"],
+      "participants": ["@Aberg Satergo dev", "@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Magic Bytes Protocol Validation Errors",
+      "category": "technical",
+      "key_terms": ["magic bytes", "protocol validation", "node version", "message format"],
+      "participants": ["@Aberg Satergo dev", "@Luivatra", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Satergo v1.6.0 Wallet Release with DeFi Support",
+      "category": "wallet",
+      "key_terms": ["Satergo", "ErgoPay", "DeFi", "Spectrum DEX", "Windows installer", "fiat conversion"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "Token Registry Centralization and EIP-0021 Discussion",
+      "category": "governance",
+      "key_terms": ["token registry", "EIP-0021", "centralization", "token validation service"],
+      "participants": ["@Glasgow｜WON'T DM", "@Aberg Satergo dev", "@MrStahlfelge | Won't DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "Explorer Synchronization Issues and Recovery",
+      "category": "ecosystem",
+      "key_terms": ["explorer", "block synchronization", "stuck blocks", "Anetabtc explorer"],
+      "participants": ["@Flying Pig (™)", "@kushti khushi", "@qx()"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mempool Transaction Removal and Confirmation Issues",
+      "category": "technical",
+      "key_terms": ["mempool", "pending transactions", "double spending", "Ergopad", "transaction failure"],
+      "participants": ["@Aco Šmrkas", "@Luivatra", "@HQΣr | Wont Dm 🐾 ⚡"],
+      "significance": "major"
+    },
+    {
+      "title": "Erg Explorer Development with Telegram Bot Integration",
+      "category": "ecosystem",
+      "key_terms": ["Erg Explorer", "financial data", "volume tracking", "whale alerts", "Nautilus wallet"],
+      "participants": ["@Aco Šmrkas"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergasia Decentralized Job Board Platform",
+      "category": "ecosystem",
+      "key_terms": ["ergasia", "job board", "decentralized platform", "NextJS", "ErgoScript", "ErgoAuth"],
+      "participants": ["@Unknown", "@Lee # TabbyPOS", "@HQΣr | Wont Dm 🐾 ⚡"],
+      "significance": "major"
+    },
+    {
+      "title": "GreasyCEX Mission Launch and NFT Campaign",
+      "category": "marketing",
+      "key_terms": ["GreasyCEX", "GCX", "Mission #1", "NFT minting", "Twitter Spaces AMA"],
+      "participants": ["@Austen Milbarge // GreasyCEX", "@HQΣr | Wont Dm 🐾 ⚡"],
+      "significance": "major"
+    },
+    {
+      "title": "Node Logging Configuration with Akka Framework",
+      "category": "technical",
+      "key_terms": ["logging", "scorex.logging.level", "akkaDeadLetter", "node configuration"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Node Project Build and Dependency Issues",
+      "category": "technical",
+      "key_terms": ["sbt", "project loading", "repository cloning", "build configuration"],
+      "participants": ["@Aberg Satergo dev", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Autolykos Mining Algorithm Efficiency and ASIC Resistance",
+      "category": "mining",
+      "key_terms": ["Autolykos", "ASIC resistance", "memory bandwidth", "mining efficiency", "power usage"],
+      "participants": ["@Pulsarz", "@Armeanio", "@Luivatra", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "GPU Mining Concentration and Pooling Strategy",
+      "category": "mining",
+      "key_terms": ["GPU farms", "solo mining", "subpools", "mining pools", "decentralization"],
+      "participants": ["@Pulsarz", "@Unknown", "@Armeanio"],
+      "significance": "major"
+    },
+    {
+      "title": "Hodlcoin Documentation and Project Resources",
+      "category": "ecosystem",
+      "key_terms": ["hodlcoin", "documentation", "project paper", "source code"],
+      "participants": ["@Unknown", "@Glasgow｜WON'T DM"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@Aberg Satergo dev",
+    "@Luivatra",
+    "@Pulsarz",
+    "@kushti khushi",
+    "@HQΣr | Wont Dm 🐾 ⚡",
+    "@Unknown",
+    "@Aco Šmrkas",
+    "@Armeanio",
+    "@Austen Milbarge // GreasyCEX"
+  ],
+  "message_count": 140
+}

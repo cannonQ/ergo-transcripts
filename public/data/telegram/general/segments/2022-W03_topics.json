@@ -1,0 +1,149 @@
+{
+  "chat": "general",
+  "week": "2022-W03",
+  "topics": [
+    {
+      "title": "Network DDoS attack and node synchronization issues",
+      "category": "technical",
+      "key_terms": ["ddos", "node crash", "network issues", "orphan blocks", "p2p layer"],
+      "participants": ["@kushti_ru", "@glasgowm", "@Gazza_ERG", "@Seedubya"],
+      "significance": "major"
+    },
+    {
+      "title": "AnetaBTC 5000 transaction output causing network exhaustion",
+      "category": "technical",
+      "key_terms": ["anetaBTC", "5000 outputs", "utxo", "network congestion", "eUTXO model"],
+      "participants": ["@kushti_ru", "@glasgowm", "@gilgaMesh_98"],
+      "significance": "major"
+    },
+    {
+      "title": "EIP-27 emission soft fork debate and voting mechanism",
+      "category": "governance",
+      "key_terms": ["EIP-27", "soft fork", "emission", "storage rent", "miner voting"],
+      "participants": ["@kushti_ru", "@LuckyRainmaker", "@C4lculista", "@Seedubya", "@glasgowm"],
+      "significance": "major"
+    },
+    {
+      "title": "Storage rent vs emission extension discussion",
+      "category": "governance",
+      "key_terms": ["storage rent", "emission schedule", "perpetual PoW", "tail emission", "cryptoeconomic security"],
+      "participants": ["@LuckyRainmaker", "@kushti_ru", "@C4lculista", "@Gazza_ERG"],
+      "significance": "major"
+    },
+    {
+      "title": "GetBlok raffle fundraiser and smart contract mining",
+      "category": "mining",
+      "key_terms": ["GetBlok", "raffle", "smart contracts", "mining pool", "decentralization"],
+      "participants": ["@kushti_ru", "@Arohbe", "@Seedubya"],
+      "significance": "major"
+    },
+    {
+      "title": "GetBlok Governance Tokens for miner voting rights",
+      "category": "governance",
+      "key_terms": ["GBGT", "governance tokens", "miner voting", "fair distribution", "proof of vote"],
+      "participants": ["@Arohbe", "@NoahErgo", "@Armeanio"],
+      "significance": "major"
+    },
+    {
+      "title": "Yoroi wallet performance issues and alternatives",
+      "category": "wallet",
+      "key_terms": ["Yoroi", "slow", "performance", "consolidate UTXOs", "send all"],
+      "participants": ["@glasgowm", "@kushti_ru", "@rothhamilton"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus wallet beta release announcement",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "beta", "mixer integration", "dApp connector", "browser wallet"],
+      "participants": ["@NoahErgo", "@kushti_ru", "@Daniumy", "@glasgowm"],
+      "significance": "major"
+    },
+    {
+      "title": "Ledger hardware wallet integration progress",
+      "category": "wallet",
+      "key_terms": ["Ledger", "hardware wallet", "Yoroi integration", "binding library"],
+      "participants": ["@glasgowm", "@LuckyRainmaker"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoDex mainnet status and Cardano bridge timeline",
+      "category": "defi",
+      "key_terms": ["ErgoDex", "mainnet", "Cardano bridge", "cross-chain", "Q2"],
+      "participants": ["@Gazza_ERG", "@glasgowm", "@MrGooseYT"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo Auction House NFT scams and verification",
+      "category": "nft",
+      "key_terms": ["auction house", "fake NFTs", "CoinCharacters", "verification", "decentralized"],
+      "participants": ["@Ignbed", "@Gazza_ERG", "@Maarten_V"],
+      "significance": "minor"
+    },
+    {
+      "title": "KuCoin and CoinEx withdrawal maintenance issues",
+      "category": "ecosystem",
+      "key_terms": ["KuCoin", "CoinEx", "withdrawal", "maintenance", "node issues"],
+      "participants": ["@glasgowm", "@Jalaldinho", "@nirvanush"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoHack III hackathon announcements",
+      "category": "ecosystem",
+      "key_terms": ["ErgoHack", "hackathon", "dApp development", "oracle pools", "mixer"],
+      "participants": ["@ergomergoadargo", "@Haskell_plus"],
+      "significance": "major"
+    },
+    {
+      "title": "Daniel Tetsuyama marketing hire and rebranding",
+      "category": "marketing",
+      "key_terms": ["Daniel Tetsuyama", "marketing", "rebranding", "new website", "PR team"],
+      "participants": ["@Tobiasdr", "@Seedubya", "@ergomergoadargo"],
+      "significance": "major"
+    },
+    {
+      "title": "Mining profitability concerns and hashrate stability",
+      "category": "mining",
+      "key_terms": ["profitability", "hashrate", "electricity costs", "price action", "miners"],
+      "participants": ["@gilgaMesh_98", "@Filip", "@yoyo020120", "@Maarten_V"],
+      "significance": "minor"
+    },
+    {
+      "title": "Layer 2 scaling solutions and transaction batching",
+      "category": "technical",
+      "key_terms": ["layer 2", "scaling", "transaction batching", "zk rollups", "TPS"],
+      "participants": ["@kushti_ru", "@nirvanush", "@Marty_ErgoPad"],
+      "significance": "major"
+    },
+    {
+      "title": "eUTXO advantages for bulk payments and privacy",
+      "category": "technical",
+      "key_terms": ["eUTXO", "bulk payments", "privacy", "transaction efficiency", "per-tx overhead"],
+      "participants": ["@kushti_ru", "@nirvanush"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoMixer explanation and security best practices",
+      "category": "technical",
+      "key_terms": ["ErgoMixer", "privacy", "mixing", "security patterns", "DarkFund"],
+      "participants": ["@kushti_ru", "@Tobiasdr", "@filippounits"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mobile wallet setup and TestFlight distribution",
+      "category": "wallet",
+      "key_terms": ["iOS wallet", "TestFlight", "Android", "Ergo Wallet", "mobile"],
+      "participants": ["@glasgowm", "@MrStahlfelge", "@Armeanio", "@KRYPTOKYLE001"],
+      "significance": "minor"
+    },
+    {
+      "title": "Satergo desktop wallet and dApp connector",
+      "category": "wallet",
+      "key_terms": ["Satergo", "desktop wallet", "full node", "32-bit support"],
+      "participants": ["@Aberg", "@Seedubya", "@Alex"],
+      "significance": "minor"
+    },
+    {
+      "title": "Price action concerns and exchange listing requests",
+      "category": "community",
+      "key_terms": ["price", "Binance", "exchange listings", "bear market", "holders"],
+      "participants": ["@

@@ -1,0 +1,160 @@
+{
+  "chat": "general",
+  "week": "2021-W23",
+  "topics": [
+    {
+      "title": "ErgoDEX AMM Beta Launch End of June",
+      "category": "defi",
+      "key_terms": ["ErgoDEX", "AMM", "beta", "launch", "Yoroi Nightly", "dApp connector"],
+      "participants": ["@Ilya Oskin", "@Glasgow", "@Gazza", "@Snowman Jason"],
+      "significance": "major"
+    },
+    {
+      "title": "Mining Pool Decentralization and SmartPool",
+      "category": "mining",
+      "key_terms": ["SmartPool", "decentralized pool", "nanopool", "pool fees", "smart contracts"],
+      "participants": ["@Gazza", "@Unknown", "@Glasgow"],
+      "significance": "major"
+    },
+    {
+      "title": "Yoroi Wallet ERG Support and Compatibility Issues",
+      "category": "wallet",
+      "key_terms": ["Yoroi", "desktop wallet", "seed phrase", "wallet recovery", "compatibility"],
+      "participants": ["@Artur Martins", "@Snowman Jason", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Exchange Listings and Binance Availability",
+      "category": "ecosystem",
+      "key_terms": ["Binance", "CoinEx", "Gate.io", "BiKi", "exchange listing", "KYC"],
+      "participants": ["@Glasgow", "@Unknown", "@Mustaffa"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaUSD and AgeUSD Stablecoin Protocol",
+      "category": "defi",
+      "key_terms": ["SigmaUSD", "AgeUSD", "sigRSV", "collateral ratio", "stablecoin design"],
+      "participants": ["@Ron", "@Matthew Capps", "@Ilya Oskin"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoHack Hackathon Weekend Event",
+      "category": "community",
+      "key_terms": ["ErgoHack", "hackathon", "judges", "development", "smart contracts"],
+      "participants": ["@Orhan", "@Glasgow", "@Armeanio", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "GPU Mining Profitability and Hardware Configuration",
+      "category": "mining",
+      "key_terms": ["GPU mining", "hashrate", "OC settings", "3070", "RTX", "power usage"],
+      "participants": ["@Felipe Saldanha", "@SEREYVUTH SENG", "@D T"],
+      "significance": "major"
+    },
+    {
+      "title": "Cardano Interoperability and Cross-chain Bridge",
+      "category": "bridges",
+      "key_terms": ["Cardano", "interoperability", "ADA", "wrapped assets", "Gravity"],
+      "participants": ["@Glasgow", "@Ilya Oskin", "@Kryptik dp"],
+      "significance": "major"
+    },
+    {
+      "title": "NiPoPoWs and Proof of Work Efficiency",
+      "category": "technical",
+      "key_terms": ["NiPoPoWs", "proof of work", "PoW", "PoS comparison", "energy efficiency"],
+      "participants": ["@Kryptik dp", "@kushti khushi", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoScript Language and Developer Tools",
+      "category": "technical",
+      "key_terms": ["ErgoScript", "Scala", "smart contracts", "developer tools", "documentation"],
+      "participants": ["@Glasgow", "@Kryptik dp", "@Emilien"],
+      "significance": "major"
+    },
+    {
+      "title": "NFT Auction House and Artist Features",
+      "category": "nft",
+      "key_terms": ["ergoauctions.org", "NFT minting", "artist profiles", "messaging"],
+      "participants": ["@Peppers CK", "@Boozehound77", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Liqwid Finance and Yield Farming",
+      "category": "defi",
+      "key_terms": ["Liqwid", "yield farming", "liquidity pools", "rewards"],
+      "participants": ["@Unknown", "@Andromeda"],
+      "significance": "minor"
+    },
+    {
+      "title": "Wrapped Assets and Cross-chain Tokens",
+      "category": "bridges",
+      "key_terms": ["wrapped ETH", "wrapped BTC", "wrapassets.io", "cross-chain"],
+      "participants": ["@Ilya Oskin", "@Autolykos Megistos"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mobile Wallet Development Timeline",
+      "category": "wallet",
+      "key_terms": ["mobile wallet", "Android wallet", "MrShtalfelge", "Ledger support"],
+      "participants": ["@Gazza", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Full Node Setup and Wallet Recovery",
+      "category": "technical",
+      "key_terms": ["full node", "ergo.conf", "wallet recovery", "API keys"],
+      "participants": ["@Raphael", "@Dennis TheMenace", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergomixer Staking and Privacy Features",
+      "category": "defi",
+      "key_terms": ["Ergomixer", "staking", "privacy", "mixing"],
+      "participants": ["@Glasgow", "@Andromeda"],
+      "significance": "minor"
+    },
+    {
+      "title": "Developer Recruitment and Collaboration",
+      "category": "community",
+      "key_terms": ["developer hiring", "DeFi development", "blockchain development"],
+      "participants": ["@Unknown", "@Andrey Willson", "@devil", "@Armeanio"],
+      "significance": "minor"
+    },
+    {
+      "title": "Scammer DMs and Community Safety",
+      "category": "community",
+      "key_terms": ["scammers", "DM security", "telegram security", "fraud"],
+      "participants": ["@Steph K", "@Peppers CK", "@Kevin", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Community Building and Regional Channels",
+      "category": "community",
+      "key_terms": ["regional communities", "Portuguese community", "Brazilian community"],
+      "participants": ["@Unknown", "@Amorim", "@ogander"],
+      "significance": "minor"
+    },
+    {
+      "title": "Charles Hoskinson NFT Release on Ergo",
+      "category": "nft",
+      "key_terms": ["Charles Hoskinson", "NFT", "celebrity", "ergo auction house"],
+      "participants": ["@Glasgow", "@Crypto Quokka", "@Autolykos Megistos"],
+      "significance": "major"
+    },
+    {
+      "title": "Cardano vs Ergo Technical Comparison",
+      "category": "technical",
+      "key_terms": ["eUTXO model", "account-based model", "Solidity vs ErgoScript", "smart contracts"],
+      "participants": ["@Dmitry Usov", "@Snowman Jason", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Price Discussion and Market Sentiment",
+      "category": "community",
+      "key_terms": ["price speculation", "market cap", "trading"],
+      "participants": ["@Unknown", "@R", "@Siavash"],
+      "significance": "minor"
+    },
+    {
+      "title": "Waves Exchange

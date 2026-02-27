@@ -1,0 +1,161 @@
+{
+  "chat": "developer",
+  "week": "2024-W25",
+  "topics": [
+    {
+      "title": "Multisig address SigmaProp serialization and ErgoTree conversion",
+      "category": "technical",
+      "key_terms": ["multisig", "SigmaProp", "ErgoTree", "serialization", "ErgoAddressEncoder"],
+      "participants": ["@kii", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus Abyss wallet release and Ledger integration fixes",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "Abyss", "Ledger", "serialization", "dataInputs"],
+      "participants": ["@arobsn", "@krasaviceblasen"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma 6.0 modular arithmetic and bulletproofs implementation",
+      "category": "technical",
+      "key_terms": ["Sigma 6.0", "mod operations", "bulletproofs", "range proof", "sigmastate-interpreter"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Node database corruption recovery and RocksDB stability",
+      "category": "technical",
+      "key_terms": ["LevelDB", "corruption", "RocksDB", "database repair", "power outage"],
+      "participants": ["@Michael", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo Script playground blockly no-code contract builder",
+      "category": "technical",
+      "key_terms": ["blockly", "no-code", "escript.online", "ergoblocks", "multisig"],
+      "participants": ["@c8", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Trade House decentralized orderbook exchange implementation",
+      "category": "defi",
+      "key_terms": ["Trade House", "orderbook", "partial filling", "Spectrum", "limit orders"],
+      "participants": ["@anon_real", "@c8", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Paideia DAO contract refactor with register handling and composition",
+      "category": "defi",
+      "key_terms": ["Paideia", "DAO", "contract refactor", "register functions", "treasury consolidation"],
+      "participants": ["@luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "Fleet SDK arbitrary data signing and EIP-44 support",
+      "category": "technical",
+      "key_terms": ["Fleet SDK", "data signing", "verification", "EIP-44"],
+      "participants": ["@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mempool RBF transaction handling and fee replacement mechanism",
+      "category": "technical",
+      "key_terms": ["RBF", "mempool", "fee replacement", "mempoolCapacity", "transaction ordering"],
+      "participants": ["@c8", "@Pulsarz", "@Luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "UTXO box selection and multiple change outputs optimization",
+      "category": "technical",
+      "key_terms": ["box selection", "knapsack problem", "change outputs", "sigma-rust", "fleet-sdk"],
+      "participants": ["@Pulsarz", "@kushti khushi", "@Luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigmanaut Mining Pool NFT integration and token swapping",
+      "category": "mining",
+      "key_terms": ["Sigmanaut", "mining pool", "NFT", "swapping", "rsBTC rewards"],
+      "participants": ["@Marc the Shark"],
+      "significance": "major"
+    },
+    {
+      "title": "The Field peer-to-pool pledging protocol MVP development",
+      "category": "defi",
+      "key_terms": ["The Field", "pledging protocol", "DAO", "smart contracts", "peer-to-pool"],
+      "participants": ["@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "CELAUT peer-to-peer network service deployment and reputation system",
+      "category": "ecosystem",
+      "key_terms": ["CELAUT", "reputation system", "peer-to-peer", "payment mechanism"],
+      "participants": ["@jossemii"],
+      "significance": "minor"
+    },
+    {
+      "title": "Storage rent fee mechanism and ERG price adjustment concerns",
+      "category": "governance",
+      "key_terms": ["storage rent", "fee adjustment", "miner voting", "UTXO cost", "economic incentives"],
+      "participants": ["@dΣathgripson", "@odybhoja", "@cafebedouin"],
+      "significance": "major"
+    },
+    {
+      "title": "Wallet restoration and address consistency issue investigation",
+      "category": "wallet",
+      "key_terms": ["wallet restoration", "address change", "rescan", "keystore"],
+      "participants": ["@Michael", "@Glasgow", "@Flying Pig"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo AppKit SecP256K1 API migration and platform context",
+      "category": "technical",
+      "key_terms": ["AppKit", "SecP256K1", "platform context", "Ecp", "bouncycastle"],
+      "participants": ["@Aberg Satergo dev", "@ergomorphic"],
+      "significance": "minor"
+    },
+    {
+      "title": "Solidity versus ErgoScript developer experience and design patterns",
+      "category": "technical",
+      "key_terms": ["Solidity", "ErgoScript", "UTXO model", "account model", "developer experience"],
+      "participants": ["@kii", "@dΣathgripson", "@jossemii"],
+      "significance": "major"
+    },
+    {
+      "title": "Password encryption and secure key management in wallets",
+      "category": "technical",
+      "key_terms": ["encryption", "PBKDF2", "AES", "symmetric encryption", "SecretString"],
+      "participants": ["@Aberg Satergo dev", "@kushti khushi", "@dΣathgripson"],
+      "significance": "minor"
+    },
+    {
+      "title": "Indexed node GraphQL API layer for Nautilus instant UI updates",
+      "category": "technical",
+      "key_terms": ["indexed node", "GraphQL", "Nautilus", "mempool", "instant updates"],
+      "participants": ["@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Testnet explorer and node synchronization stability issues",
+      "category": "technical",
+      "key_terms": ["testnet", "explorer", "node sync", "mempool", "unknown tokens"],
+      "participants": ["@dΣathgripson", "@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "ChainCash Schnorr signature vulnerability and verification examples",
+      "category": "technical",
+      "key_terms": ["ChainCash", "Schnorr", "signature forgery", "vulnerability", "verification"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Weekly Ergo developer chat and community project updates",
+      "category": "community",
+      "key_terms": ["developer chat", "weekly updates", "project showcase", "ErgoHack VIII"],
+      "participants": ["@kushti khushi", "@qx()"],
+      "significance": "major"
+    }
+  ],
+  "active_participants": [
+    "@

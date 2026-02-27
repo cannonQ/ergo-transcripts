@@ -1,0 +1,159 @@
+{
+  "chat": "developer",
+  "week": "2025-W25",
+  "topics": [
+    {
+      "title": "Ergo Protocol 6.0.0 and 6.1.0 Release",
+      "category": "technical",
+      "key_terms": ["protocol release", "version 6.0.0", "version 6.1.0", "RocksDB", "node upgrade"],
+      "participants": ["@kushti", "@Pulsarz", "@Pgr456", "@qx()"],
+      "significance": "major"
+    },
+    {
+      "title": "Sub-blocks Implementation and Testing",
+      "category": "technical",
+      "key_terms": ["sub-blocks", "transaction propagation", "block assembly", "multiple peers", "public testnet"],
+      "participants": ["@kushti"],
+      "significance": "major"
+    },
+    {
+      "title": "Merged-mined Sidechains and Sigmachains Design",
+      "category": "technical",
+      "key_terms": ["Sigmachains", "merged-mined sidechain", "Bitcoin integration", "AVL+ tree", "input/ordering blocks"],
+      "participants": ["@kushti"],
+      "significance": "major"
+    },
+    {
+      "title": "Node Indexing Issues Resolution",
+      "category": "technical",
+      "key_terms": ["extra indices resync", "indexing bug", "5.0.27 candidate", "database reindex"],
+      "participants": ["@kushti", "@HQΣr"],
+      "significance": "major"
+    },
+    {
+      "title": "Keystone Hardware Wallet Nautilus Integration",
+      "category": "wallet",
+      "key_terms": ["Keystone", "Nautilus integration", "transaction signing", "QR code scanning", "custom serialization"],
+      "participants": ["@Pgr456", "@arobsn"],
+      "significance": "major"
+    },
+    {
+      "title": "Machina Finance Token-to-Token Grid Contract",
+      "category": "defi",
+      "key_terms": ["Machina Finance", "grid contract", "T2T tests", "size optimization", "ErgoScript"],
+      "participants": ["@arobsn", "@kushti"],
+      "significance": "major"
+    },
+    {
+      "title": "DexyGold and Stablecoin LP Development",
+      "category": "defi",
+      "key_terms": ["DexyGold", "Gluon", "stablecoin LP", "USD pool v2", "GluonUSD"],
+      "participants": ["@kushti"],
+      "significance": "major"
+    },
+    {
+      "title": "SkyHarbor NFT Marketplace Backend Release",
+      "category": "nft",
+      "key_terms": ["SkyHarbor", "NFT marketplace", "open source", "backend infrastructure", "raffle funded"],
+      "participants": ["@quokka"],
+      "significance": "major"
+    },
+    {
+      "title": "Finintelligence AI Agents for Contract Development",
+      "category": "ecosystem",
+      "key_terms": ["AI agents", "contract validation", "code generation", "vector databases", "LLM providers"],
+      "participants": ["@Marc the Shark"],
+      "significance": "major"
+    },
+    {
+      "title": "Cortex GPU Mining Optimization Dashboard",
+      "category": "mining",
+      "key_terms": ["Cortex", "GPU mining", "Random Forest ML", "CUDA miner", "stratum proxy", "solo miner"],
+      "participants": ["@Cortex"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma Reputation System Panel",
+      "category": "ecosystem",
+      "key_terms": ["reputation system", "sigma-reputation-panel", "TypeNFT", "service proofs", "celaut"],
+      "participants": ["@Josemi"],
+      "significance": "minor"
+    },
+    {
+      "title": "CodeUTXO Mempool Visualizer and Simple Explorer",
+      "category": "ecosystem",
+      "key_terms": ["mempool visualizer", "simple explorer", "chain monitoring", "oracle tracking", "direct psql"],
+      "participants": ["@qx()"],
+      "significance": "minor"
+    },
+    {
+      "title": "RocksDB Version Upgrade Decision",
+      "category": "technical",
+      "key_terms": ["RocksDB 10.x", "dependency upgrade", "Docker base image", "version compatibility"],
+      "participants": ["@kushti", "@Pulsarz", "@Pgr456"],
+      "significance": "major"
+    },
+    {
+      "title": "API Infrastructure and Explorer Status",
+      "category": "ecosystem",
+      "key_terms": ["API endpoints", "explorer tools", "GraphQL", "CloudFlare issue", "status recovery"],
+      "participants": ["@kushti", "@Josemi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigma-Rust and Sigmastate-Interpreter Updates",
+      "category": "technical",
+      "key_terms": ["sigma-rust", "sigmastate-interpreter", "serializers", "Upcast node", "PR reviews"],
+      "participants": ["@kushti", "@dusek"],
+      "significance": "minor"
+    },
+    {
+      "title": "Fleet SDK Custom Serialization Support",
+      "category": "technical",
+      "key_terms": ["Fleet SDK", "ErgoTree serialization", "reduced transactions", "SigmaByteWriter", "SPair"],
+      "participants": ["@arobsn", "@Pgr456", "@anon_br"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Manifesto Translations",
+      "category": "community",
+      "key_terms": ["Ergo manifesto", "Bahasa Malaysia", "Bahasa Melayu", "localization"],
+      "participants": ["@Yulius Kristianto", "@CHRIS45"],
+      "significance": "minor"
+    },
+    {
+      "title": "Docker Image Versioning Strategy",
+      "category": "technical",
+      "key_terms": ["Docker tags", "latest tag removal", "RocksDB vs LevelDB", "version management"],
+      "participants": ["@kushti", "@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Testnet 6.0 Migration and Peer Connectivity",
+      "category": "technical",
+      "key_terms": ["testnet upgrade", "6.0 protocol", "peer discovery", "node configuration", "known peers"],
+      "participants": ["@qx()", "@Cortex"],
+      "significance": "minor"
+    },
+    {
+      "title": "Aletheia Protocol Research",
+      "category": "technical",
+      "key_terms": ["Aletheia Protocol", "protocol research"],
+      "participants": ["@Upwind"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti",
+    "@DiscordBridge",
+    "@arobsn",
+    "@Pgr456",
+    "@qx()",
+    "@Pulsarz",
+    "@Josemi",
+    "@Cortex",
+    "@HQΣr",
+    "@anon_br"
+  ],
+  "message_count": 147
+}

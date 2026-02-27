@@ -1,0 +1,92 @@
+{
+  "chat": "developer",
+  "week": "2025-W15",
+  "topics": [
+    {
+      "title": "Transaction verification and blockchain polling strategy",
+      "category": "technical",
+      "key_terms": ["transaction verification", "blockchain polling", "transaction ID", "chain reorgs", "5 second interval"],
+      "participants": ["@Dmitriy B.", "@anon_br Σ", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo 6.0 protocol release candidate and mainnet sync",
+      "category": "governance",
+      "key_terms": ["6.0.0-RC4", "mainnet sync", "protocol upgrade", "tree version check", "soft-fork"],
+      "participants": ["@DiscordBridge", "@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "Merklized ASTs and one-of-many script wallets",
+      "category": "technical",
+      "key_terms": ["Merklized ASTs", "one-of-many scripts", "ErgoScript", "wallet policies", "MAST"],
+      "participants": ["@DiscordBridge", "@ccellado", "@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "JDK 24 performance optimization with compact object headers",
+      "category": "technical",
+      "key_terms": ["JDK 24", "CompactObjectHeaders", "performance", "Satergo node", "Java 22"],
+      "participants": ["@DiscordBridge", "@Aberg Satergo dev", "@ccellado"],
+      "significance": "minor"
+    },
+    {
+      "title": "Nautilus wallet i18n implementation and Ledger integration",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "i18n support", "language fallback", "Ledger", "en-US dictionary"],
+      "participants": ["@DiscordBridge", "@arobsn"],
+      "significance": "major"
+    },
+    {
+      "title": "Sub-blocks P2P layer and transaction classification",
+      "category": "technical",
+      "key_terms": ["sub-blocks", "P2P layer", "devnet", "transaction packing", "transaction validation"],
+      "participants": ["@DiscordBridge", "@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "Documentation refresh across ergohack and developer guides",
+      "category": "ecosystem",
+      "key_terms": ["documentation", "FleetSDK recipes", "blockchain indexing", "mining core", "debugging"],
+      "participants": ["@DiscordBridge", "@Glasgow"],
+      "significance": "minor"
+    },
+    {
+      "title": "LinkedHashMap serialization compatibility issues",
+      "category": "technical",
+      "key_terms": ["LinkedHashMap", "serialization", "context extension", "map traversal order", "sigma 5.0.13"],
+      "participants": ["@DiscordBridge", "@ccellado", "@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoScript type system and BigInt methods availability",
+      "category": "technical",
+      "key_terms": ["ErgoScript", "BigInt", "type system", "LangSpec", "hex literals"],
+      "participants": ["@DiscordBridge", "@iospore", "@ccellado"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigma-rust mobile app development and iOS native bindings",
+      "category": "wallet",
+      "key_terms": ["sigma-rust", "iOS native app", "MoboVM", "mobile bindings", "Scala versions"],
+      "participants": ["@DiscordBridge", "@ccellado", "@dusek_", "@HQΣr"],
+      "significance": "major"
+    },
+    {
+      "title": "Reduced transaction parsing and opcode requirements",
+      "category": "technical",
+      "key_terms": ["ReducedTransaction", "sigma-rust-mini", "opcodes", "ErgoTree serialization", "Keystone firmware"],
+      "participants": ["@DiscordBridge", "@Pgr456", "@dusek_", "@arobsn"],
+      "significance": "major"
+    },
+    {
+      "title": "Serialization schema extensions for reduced transactions",
+      "category": "technical",
+      "key_terms": ["serialization schema", "CBOR protocol", "ErgoTreeHeader", "transaction size", "multi-input optimization"],
+      "participants": ["@DiscordBridge", "@Pgr456", "@arobsn"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": ["@DiscordBridge", "@kushti0978", "@ccellado", "@Dmitriy B.", "@anon_br Σ"],
+  "message_count": 53
+}

@@ -1,0 +1,161 @@
+{
+  "chat": "general",
+  "week": "2022-W50",
+  "topics": [
+    {
+      "title": "Storage Rent Implementation and NFT Safety",
+      "category": "technical",
+      "key_terms": ["storage rent", "box consolidation", "NFT assets", "miner collection", "token burning", "EIP-33"],
+      "participants": ["@kushti khushi", "@CW", "@qx()", "@Glasgow｜WON'T DM", "@Armeanio"],
+      "significance": "major"
+    },
+    {
+      "title": "UTXO Model and Box Management for Users",
+      "category": "technical",
+      "key_terms": ["UTXO", "box age tracking", "transaction consolidation", "dust cleaning"],
+      "participants": ["@CW", "@Ian Lee", "@Armeanio"],
+      "significance": "major"
+    },
+    {
+      "title": "Ledger Hardware Wallet Support Status",
+      "category": "wallet",
+      "key_terms": ["ledger nano", "hardware wallet", "terminus wallet", "sideloading"],
+      "participants": ["@Kallo Shaman", "@MatrixMaarten", "@Flying Pig (™)"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mining Pool Difficulty Adjustment and EIP-37",
+      "category": "mining",
+      "key_terms": ["difficulty algorithm", "EIP-37", "hashrate", "mining pools", "block time"],
+      "participants": ["@CW", "@Ian Lee"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo Game Development and NFT Creation",
+      "category": "nft",
+      "key_terms": ["AI-generated art", "NFT games", "ergflip", "game utility"],
+      "participants": ["@Grand Gambit", "@HQΣr | Wont Dm 🐾 ⚡"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoFund Vesting and Rug-Pull Prevention",
+      "category": "governance",
+      "key_terms": ["vesting contracts", "trustless release", "ErgoFad", "token distribution"],
+      "participants": ["@johnjones"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoGames.io DAO and Game Showcase Platform",
+      "category": "ecosystem",
+      "key_terms": ["EGIO DAO", "game development", "Paideia"],
+      "participants": ["@CW"],
+      "significance": "minor"
+    },
+    {
+      "title": "Community Marketing and User Adoption Strategy",
+      "category": "marketing",
+      "key_terms": ["marketing materials", "user acquisition", "project visibility", "use cases"],
+      "participants": ["@Flying Pig (™)", "@Koutelier || WONT DM", "@qx()"],
+      "significance": "major"
+    },
+    {
+      "title": "Comet Token Lottery and Gamification",
+      "category": "defi",
+      "key_terms": ["comet lottery", "smart contract", "NFT tickets", "random winner"],
+      "participants": ["@Koutelier || WONT DM", "@qx()"],
+      "significance": "minor"
+    },
+    {
+      "title": "Emporas E-Commerce Platform Integration",
+      "category": "ecosystem",
+      "key_terms": ["multi-vendor marketplace", "ERG payments", "gift cards", "vendor fees"],
+      "participants": ["@Koutelier || WONT DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "Wallet Migration from Yoroi and Best Practices",
+      "category": "wallet",
+      "key_terms": ["Yoroi deprecation", "Nautilus wallet", "Ergo mobile wallet", "seed phrases"],
+      "participants": ["@David Wong", "@MrStahlfelge | Won't DM", "@J€"],
+      "significance": "minor"
+    },
+    {
+      "title": "FPGA and ASIC Resistance in Proof of Work",
+      "category": "mining",
+      "key_terms": ["FPGA mining", "ASIC resistance", "RandomX algorithm", "GPU efficiency"],
+      "participants": ["@Wolf9466", "@CW", "@ApophisRO"],
+      "significance": "major"
+    },
+    {
+      "title": "Useful Proof of Work and Future Mining Models",
+      "category": "technical",
+      "key_terms": ["useful PoW", "proof of work discussion"],
+      "participants": ["@CW"],
+      "significance": "minor"
+    },
+    {
+      "title": "Binance Centralization Risks and DEX Solutions",
+      "category": "governance",
+      "key_terms": ["exchange centralization", "Bisq decentralized trading", "self-custody", "proof of reserves"],
+      "participants": ["@eπ", "@R", "@MrStahlfelge | Won't DM"],
+      "significance": "major"
+    },
+    {
+      "title": "Spectrum Finance DEX and Token Launch",
+      "category": "defi",
+      "key_terms": ["spectrum finance", "ERGODex successor", "Cardano testnet", "IDO planning"],
+      "participants": ["@Koutelier || WONT DM", "@Ada"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Blockchain Trilemma and Scalability",
+      "category": "technical",
+      "key_terms": ["blockchain trilemma", "scalability", "decentralization", "security"],
+      "participants": ["@Blargh", "@Armeanio"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoCube NFT Aggregation and Community Platform",
+      "category": "ecosystem",
+      "key_terms": ["ergcube", "NFT collections", "community funding", "artist exposure"],
+      "participants": ["@HQΣr | Wont Dm 🐾 ⚡", "@CW"],
+      "significance": "minor"
+    },
+    {
+      "title": "Shipping and KYC Challenges for Merch Distribution",
+      "category": "community",
+      "key_terms": ["dropshipping", "KYC requirements", "merchandise", "international shipping"],
+      "participants": ["@HQΣr | Wont Dm 🐾 ⚡", "@Koutelier || WONT DM", "@MrStahlfelge | Won't DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "Hash It Out Podcast and Community Engagement",
+      "category": "community",
+      "key_terms": ["Hash It Out", "podcast", "AMA", "developer updates"],
+      "participants": ["@CW", "@qx()"],
+      "significance": "minor"
+    },
+    {
+      "title": "Babel Fees and Advanced Transaction Features",
+      "category": "technical",
+      "key_terms": ["babel fees", "orderbook visualization", "BabelBook"],
+      "participants": ["@MrStahlfelge | Won't DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "Paideia DAO and Multi-Stakeholder Governance",
+      "category": "governance",
+      "key_terms": ["Paideia", "DAO", "property ownership", "fractional ownership"],
+      "participants": ["@Louis"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@CW",
+    "@HQΣr | Wont Dm 🐾 ⚡",
+    "@Koutelier || WONT DM",
+    "@qx()",
+    "@kushti khushi",
+    "@Unknown",
+    "@Armeanio",
+    "@MrStahlfelge | Won't

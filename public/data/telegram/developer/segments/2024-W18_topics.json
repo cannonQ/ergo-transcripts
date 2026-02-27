@@ -1,0 +1,147 @@
+{
+  "chat": "developer",
+  "week": "2024-W18",
+  "topics": [
+    {
+      "title": "Nipopow proof generation and extra indexer failures",
+      "category": "technical",
+      "key_terms": ["Nipopow", "proof generation", "NoSuchElementException", "extra indexer", "node error"],
+      "participants": ["@Aco Šmrkas", "@DiscordBridge", "@HQΣr | Wont Dm 🐾 ⚡", "@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma 6.0 protocol upgrade and bounty issues",
+      "category": "technical",
+      "key_terms": ["Sigma 6.0", "EIP-50", "PoW check", "bigInt constructor", "bounty tasks"],
+      "participants": ["@kushti0978", "@DiscordBridge", "@ergomorphic", "@Pgr456 | sigmaspace.io"],
+      "significance": "major"
+    },
+    {
+      "title": "Mempool cleanup and double-spend transaction handling",
+      "category": "technical",
+      "key_terms": ["mempool", "orphan transactions", "double-spend", "cleanup duration", "invalid txs"],
+      "participants": ["@luivatra", "@kushti0978", "@Flying Pig (™)", "@Pulsarz", "@Aco Šmrkas"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma-rust performance issues with large input transactions",
+      "category": "technical",
+      "key_terms": ["sigma-rust", "transaction signing", "900 inputs", "performance bottleneck", "context recreation"],
+      "participants": ["@Pgr456 | sigmaspace.io", "@dusek_", "@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "C-bindings and missing types in sigma-rust",
+      "category": "technical",
+      "key_terms": ["C-bindings", "ExtPubKey", "DerivationPath", "ExtSecretKey", "bindings issue #741"],
+      "participants": ["@Pgr456 | sigmaspace.io", "@kushti0978", "@dusek_"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sub-blocks proposal and GHOST algorithm discussion",
+      "category": "technical",
+      "key_terms": ["sub-blocks", "GHOST algorithm", "velvet forking", "block selection", "v7.0 protocol"],
+      "participants": ["@ergomorphic", "@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoHack VIII announcement and promotion",
+      "category": "community",
+      "key_terms": ["ErgoHack VIII", "May 25-June 2", "event announcement", "smart layer"],
+      "participants": ["@DiscordBridge", "@Glasgow", "@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "Blitz TCG successful launch and secondary market activity",
+      "category": "nft",
+      "key_terms": ["Blitz TCG", "pack sale", "card tokens", "3k packs sold", "burn contract"],
+      "participants": ["@LowKeyNerd - Blitz TCG", "@luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "Paideia DAO updates and proposal system improvements",
+      "category": "governance",
+      "key_terms": ["Paideia", "new auth system", "multi-action proposals", "staked tokens", "PAI"],
+      "participants": ["@luivatra", "@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigmanauts mining pool rewards and treasury management",
+      "category": "mining",
+      "key_terms": ["Sigmanauts", "mining pool", "bonus tokens", "PAI proposal", "pool rewards"],
+      "participants": ["@DiscordBridge", "@Marc the Shark", "@MavΣrickBg (bober)", "@qx()"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge development for Bitcoin Runes support",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "Bitcoin Runes", "signTransaction", "EVM chain", "RoseNet"],
+      "participants": ["@vorujack"],
+      "significance": "minor"
+    },
+    {
+      "title": "On-chain limit order exchange with shadow mempool design",
+      "category": "defi",
+      "key_terms": ["limit order exchange", "shadow mempool", "multisig script", "real-time execution"],
+      "participants": ["@c8", "@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Dexy tracking contracts deployed on mainnet",
+      "category": "defi",
+      "key_terms": ["Dexy", "tracking contracts", "mainnet deployment", "oracle utility"],
+      "participants": ["@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Testnet mining activity restoration",
+      "category": "ecosystem",
+      "key_terms": ["testnet", "mining", "GPU mining", "block production", "explorer"],
+      "participants": ["@dΣathgripson", "@Pulsarz", "@mgpai"],
+      "significance": "minor"
+    },
+    {
+      "title": "Field protocol peer-to-pool pledging for competitions",
+      "category": "defi",
+      "key_terms": ["The Field", "pledging protocol", "DAO-driven", "MVP smart contracts", "real data testing"],
+      "participants": ["@DiscordBridge", "@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgOne weekly voting and link submission updates",
+      "category": "community",
+      "key_terms": ["ErgOne", "daily snapshot", "weekly links and votes", "voting power"],
+      "participants": ["@koukarin"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigmanaut UI dashboard with mining analytics",
+      "category": "mining",
+      "key_terms": ["Sigmanaut UI", "postgres database", "mining dashboard", "payment tracking", "10th largest pool"],
+      "participants": ["@Marc the Shark", "@MavΣrickBg (bober)"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ledger wallet transaction signing discrepancy investigation",
+      "category": "wallet",
+      "key_terms": ["Ledger", "Nautilus", "transaction verification", "serialization", "script verification failure"],
+      "participants": ["@DiscordBridge", "@arobsn"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti0978",
+    "@DiscordBridge",
+    "@Pgr456 | sigmaspace.io",
+    "@luivatra",
+    "@ergomorphic",
+    "@Pulsarz",
+    "@Flying Pig (™)",
+    "@Marc the Shark",
+    "@dusek_",
+    "@Aco Šmrkas",
+    "@HQΣr | Wont Dm 🐾 ⚡",
+    "@MavΣrickBg (bober)"
+  ],
+  "message_count": 159
+}

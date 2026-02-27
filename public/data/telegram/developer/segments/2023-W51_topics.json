@@ -1,0 +1,120 @@
+{
+  "chat": "developer",
+  "week": "2023-W51",
+  "topics": [
+    {
+      "title": "Node Database Migration from LevelDB to RocksDB",
+      "category": "technical",
+      "key_terms": ["LevelDB", "RocksDB", "LMDB", "database", "storage", "JNI drivers", "performance"],
+      "participants": ["@Pulsarz", "@kushti khushi", "@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "Node 5.0.17 NIPoPoW and UTXO Snapshot Stability Issues",
+      "category": "technical",
+      "key_terms": ["NIPoPoW", "UTXO snapshot", "NipopowAlgos", "UnsupportedOperationException", "LevelDB errors", "crash", "manifest"],
+      "participants": ["@Aberg Satergo dev", "@kushti khushi", "@qx()"],
+      "significance": "major"
+    },
+    {
+      "title": "Version Number Mismatch in Node Releases",
+      "category": "technical",
+      "key_terms": ["version automation", "release version", "Satergo", "ergonodes.net", "update prompts"],
+      "participants": ["@Aberg Satergo dev", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Logging System Gaps - Errors Missing from ergo.log",
+      "category": "technical",
+      "key_terms": ["logging", "ergo.log", "console output", "multiple loggers", "issue tracking"],
+      "participants": ["@Aberg Satergo dev", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoSanta Holiday Campaign and Bot Development",
+      "category": "community",
+      "key_terms": ["ErgoSanta", "key creator bot", "inbox bot", "chest redeeming", "rewards mechanism", "token contributions"],
+      "participants": ["@HQΣr | Wont Dm 🐾 ⚡", "@Aco Šmrkas"],
+      "significance": "minor"
+    },
+    {
+      "title": "Indonesian Wiki Restructuring and Documentation",
+      "category": "ecosystem",
+      "key_terms": ["ergonaut.space", "wiki", "Bahasa Indonesia", "localization", "documentation structure"],
+      "participants": ["@Yulius Kristianto (cg listing boss)"],
+      "significance": "minor"
+    },
+    {
+      "title": "Rosen Bridge Transaction Volume and Network Throughput",
+      "category": "bridges",
+      "key_terms": ["Rosen bridge", "watchers", "transaction volume", "fee wars", "throughput", "permits"],
+      "participants": ["@Pulsarz", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Block Time Reduction and ErgoTree Contract Compatibility",
+      "category": "technical",
+      "key_terms": ["block time", "block height", "ErgoTree", "timestamp context", "contract verification", "mempool"],
+      "participants": ["@Pulsarz", "@HQΣr | Wont Dm 🐾 ⚡", "@Luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "Sub-blocks Design and Implementation Strategy",
+      "category": "technical",
+      "key_terms": ["sub-blocks", "throughput", "latency", "UX improvement", "transaction speed", "architectural design"],
+      "participants": ["@Pulsarz", "@Luivatra", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Block Size and Computational Cost Governance",
+      "category": "governance",
+      "key_terms": ["block size", "maximum execution cost", "miner voting", "governance", "complex contracts", "cost limits"],
+      "participants": ["@Pulsarz", "@HQΣr | Wont Dm 🐾 ⚡"],
+      "significance": "major"
+    },
+    {
+      "title": "Node API Endpoint for Transaction IDs by Address",
+      "category": "technical",
+      "key_terms": ["/blockchain/transaction/byAddress", "API", "endpoint", "transaction filtering", "lean response"],
+      "participants": ["@Flying Pig (™)"],
+      "significance": "minor"
+    },
+    {
+      "title": "Extra Indexing Configuration and Index Height Queries",
+      "category": "technical",
+      "key_terms": ["extra indexing", "index height", "configuration", "REST API", "node queries"],
+      "participants": ["@Lee # TabbyPOS"],
+      "significance": "minor"
+    },
+    {
+      "title": "Transaction Size vs Complexity Limits in V5",
+      "category": "technical",
+      "key_terms": ["transaction size", "complexity limits", "V5 improvement", "block limits", "performance metrics"],
+      "participants": ["@Pulsarz", "@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Timestamp Oracle Sidechain for DApp Time-keeping",
+      "category": "bridges",
+      "key_terms": ["oracle", "sidechain", "timestamp", "trusted clock", "DApp integration", "low-wattage hardware"],
+      "participants": ["@Unknown", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Go-Ergo Library Support and Language Capabilities",
+      "category": "ecosystem",
+      "key_terms": ["go-ergo", "Go language", "library", "community support"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@Aberg Satergo dev",
+    "@Pulsarz",
+    "@kushti khushi",
+    "@HQΣr | Wont Dm 🐾 ⚡",
+    "@Yulius Kristianto (cg listing boss)",
+    "@Lee # TabbyPOS"
+  ],
+  "message_count": 160
+}

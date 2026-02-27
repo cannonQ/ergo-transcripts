@@ -1,0 +1,135 @@
+{
+  "chat": "Ergo Developer",
+  "week": "2025-W09",
+  "topics": [
+    {
+      "title": "Limit Order Contract Template Hash Verification",
+      "category": "technical",
+      "key_terms": ["limit order", "template hash", "contract compilation", "DexLimitOrder", "ErgoTree"],
+      "participants": ["@iospore", "@greenhat"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus Wallet Beta Refactor and Chrome Extension Release",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "dApp connector", "Tailwind v4", "reka-ui", "Chrome extension", "Abyss channel"],
+      "participants": ["@arobsn", "@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaState Interpreter Compiler Implementation Tasks",
+      "category": "technical",
+      "key_terms": ["SigmaState", "compiler design", "issue #1039", "executeFromSelfReg", "ErgoScript"],
+      "participants": ["@kushti0978", "@novamon_25735", "@ccellado"],
+      "significance": "major"
+    },
+    {
+      "title": "Paideia DAO Stake Box Sorting and Proposal Token Display Bug",
+      "category": "defi",
+      "key_terms": ["Paideia", "stake box", "creationheight", "proposal", "frontend bug"],
+      "participants": ["@luivatra", "@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgFi DEX Swap Widget and Dexy Gold Contract Development",
+      "category": "defi",
+      "key_terms": ["ergfi.xyz", "mempool server", "swap widget", "Dexy gold contract", "tx building"],
+      "participants": ["@c8e4d2a", "@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "SigUSD Bank Contract Update and Dexy Token Issuance",
+      "category": "defi",
+      "key_terms": ["SigUSD", "bank contract", "Dexy tokens", "contract deployment", "mainnet"],
+      "participants": ["@kushti0978", "@luivatra", "@anon2020s", "@mgpai"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo Protocol 6.0 Soft-Fork and Sub-Blocks Fork Resolution",
+      "category": "technical",
+      "key_terms": ["protocol 6.0", "sub-blocks", "fork resolution", "blockchain API", "context extensions"],
+      "participants": ["@kushti0978", "@zargarzadehmoein"],
+      "significance": "major"
+    },
+    {
+      "title": "Ledger Hardware Wallet Production Ready Status Update",
+      "category": "wallet",
+      "key_terms": ["Ledger", "hardware wallet", "audit", "release date", "production ready"],
+      "participants": ["@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Keystone Hardware Wallet Integration PR and March Timeline",
+      "category": "wallet",
+      "key_terms": ["Keystone", "hardware wallet", "PR review", "development resources"],
+      "participants": ["@pgr456", "@HQΣr"],
+      "significance": "minor"
+    },
+    {
+      "title": "RosenBridge Multi-Chain Swap Infrastructure Development",
+      "category": "bridges",
+      "key_terms": ["RosenBridge", "guard-app", "watcher-app", "guard-service", "Nami wallet", "Binance tokens"],
+      "participants": ["@moein_z"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma Mining Pool NFT Minting and Demurage Metrics",
+      "category": "mining",
+      "key_terms": ["Sigma Bytes", "mining pool", "NFT minting", "demurage token", "bonus metrics"],
+      "participants": ["@Marc the Shark"],
+      "significance": "minor"
+    },
+    {
+      "title": "Lithos Rollup Fraud Proofs and Testnet Launch Preparation",
+      "category": "technical",
+      "key_terms": ["Lithos", "rollup contracts", "fraud proofs", "stratum implementation", "testnet"],
+      "participants": ["@cheeseenthusiast"],
+      "significance": "major"
+    },
+    {
+      "title": "Atomic Swap Contract Research and Liquidity Bridge Design",
+      "category": "defi",
+      "key_terms": ["atomic swap", "template hash", "limit order", "ErgoDex pools", "bridge bots"],
+      "participants": ["@iospore", "@greenhat"],
+      "significance": "major"
+    },
+    {
+      "title": "Contract Compiler Reproducibility and Template Hash Tracking",
+      "category": "technical",
+      "key_terms": ["compiler reproducibility", "template hash", "contract versioning", "backward compatibility"],
+      "participants": ["@iospore", "@novamon_25735"],
+      "significance": "major"
+    },
+    {
+      "title": "Parser Generator Selection and Language Design Trade-offs",
+      "category": "technical",
+      "key_terms": ["ANTLR", "parser generator", "PEG parser", "language design"],
+      "participants": ["@c8e4d2a", "@novamon_25735"],
+      "significance": "minor"
+    },
+    {
+      "title": "SigUSD Contract Fixed Indices Migration and Context Variables",
+      "category": "defi",
+      "key_terms": ["SigUSD", "fixed indices", "context variables", "minting limits", "audit"],
+      "participants": ["@krasaviceblasen", "@c8e4d2a", "@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Nautilus 0-Conf UTXO Change Streaming and Real-Time Updates",
+      "category": "wallet",
+      "key_terms": ["0-conf", "UTXO streaming", "window.postMessage", "wallet updates", "Manifest v3"],
+      "participants": ["@c8e4d2a", "@arobsn"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti0978",
+    "@novamon_25735",
+    "@iospore",
+    "@arobsn",
+    "@c8e4d2a",
+    "@luivatra",
+    "@moein_z"
+  ],
+  "message_count": 59
+}

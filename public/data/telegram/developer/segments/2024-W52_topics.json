@@ -1,0 +1,134 @@
+{
+  "chat": "developer",
+  "week": "2024-W52",
+  "topics": [
+    {
+      "title": "Ergo Protocol 6.0 Release and Versioning",
+      "category": "technical",
+      "key_terms": ["sigma 6.0 RC", "tree-based versioning", "node upgrade", "testnet activation"],
+      "participants": ["@kushti khushi", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Sub-blocks and Input Blocks Implementation",
+      "category": "technical",
+      "key_terms": ["input blocks", "transaction packing", "UTXO set commitments", "linking logic"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Node Synchronization and Indexing Configuration",
+      "category": "technical",
+      "key_terms": ["node sync", "extra index", "isExplorer config", "Docker setup"],
+      "participants": ["@Luivatra", "@Pulsarz", "@kushti khushi", "@error"],
+      "significance": "major"
+    },
+    {
+      "title": "SigUSD Pool Update and Smart Contracts",
+      "category": "defi",
+      "key_terms": ["SigUSD", "update script", "ballot tokens", "contract versioning"],
+      "participants": ["@kushti khushi", "@cafebedouin.org"],
+      "significance": "minor"
+    },
+    {
+      "title": "Wallet Transaction Parsing and Account Aggregation",
+      "category": "wallet",
+      "key_terms": ["transaction data parsing", "/wallet API", "blockchain/transactions/byAddress", "accounting automation"],
+      "participants": ["@DiscordBridge", "@kushti khushi", "@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "Keystone Hardware Wallet Integration",
+      "category": "wallet",
+      "key_terms": ["Keystone SDK", "transaction signing", "firmware integration", "display data"],
+      "participants": ["@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Fleet SDK and Nautilus Wallet Development",
+      "category": "wallet",
+      "key_terms": ["Fleet SDK", "Nautilus wallet", "blake2b crypto", "UI redesign", "dark theme", "NFT assets view"],
+      "participants": ["@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Paideia DAO Stake Contracts and State Management",
+      "category": "defi",
+      "key_terms": ["Paideia stake contracts", "state corruption", "mempool handling", "off-chain code"],
+      "participants": ["@DiscordBridge", "@Luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge UI and Infrastructure Updates",
+      "category": "bridges",
+      "key_terms": ["Rosen bridge", "binance chain scanner", "transaction modal", "health check", "guard service"],
+      "participants": ["@Moein Zargarzadeh"],
+      "significance": "minor"
+    },
+    {
+      "title": "Raffle V2 Contract Design and Database",
+      "category": "defi",
+      "key_terms": ["raffle contract", "unit tests", "database ERD"],
+      "participants": ["@Moein Zargarzadeh"],
+      "significance": "minor"
+    },
+    {
+      "title": "Bene Fundraising Platform Launch",
+      "category": "ecosystem",
+      "key_terms": ["Bene platform", "fundraising", "project launch"],
+      "participants": ["@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Cealut Reputation System and Node Configuration",
+      "category": "ecosystem",
+      "key_terms": ["Cealut reputation", "zero configuration", "JSON proofs", "node sharing"],
+      "participants": ["@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Lithos Optimistic Rollup and Fraud Proofs",
+      "category": "technical",
+      "key_terms": ["Lithos", "NISP contracts", "optimistic rollup", "fraud proofs"],
+      "participants": ["@Cheese"],
+      "significance": "minor"
+    },
+    {
+      "title": "Nakamoto Consensus and Verifier's Dilemma Research",
+      "category": "technical",
+      "key_terms": ["Nakamoto consensus", "bounded processing capacity", "teasing strategy", "PoS security"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Gluon SDK Architecture and Pure Functions Design",
+      "category": "technical",
+      "key_terms": ["Gluon SDK", "pure functions", "state management", "Fleet SDK"],
+      "participants": ["@DiscordBridge", "@Luca D'Angelo"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mempool Indexing and Input Box Queries",
+      "category": "technical",
+      "key_terms": ["mempool indexing", "input boxes", "query timeouts", "transaction timestamps"],
+      "participants": ["@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Documentation and Explainer Bot Implementation",
+      "category": "community",
+      "key_terms": ["docs.ergoplatform.com", "explainer bot", "technical papers", "GitHub PR"],
+      "participants": ["@DiscordBridge", "@cannon_q", "@Glasgow｜WON'T DM"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti khushi",
+    "@DiscordBridge",
+    "@Luivatra",
+    "@Pulsarz",
+    "@Moein Zargarzadeh",
+    "@cannon_q"
+  ],
+  "message_count": 82
+}

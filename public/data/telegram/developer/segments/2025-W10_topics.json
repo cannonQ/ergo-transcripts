@@ -1,0 +1,165 @@
+{
+  "chat": "developer",
+  "week": "2025-W10",
+  "topics": [
+    {
+      "title": "SigUSD Bank Update Box Refresh and Voting",
+      "category": "defi",
+      "key_terms": ["SigUSD", "ballot contract", "bank update", "voting", "storage rent"],
+      "participants": ["@kushti", "@anon_real", "@Luivatra", "@mgpai"],
+      "significance": "major"
+    },
+    {
+      "title": "Scala Version Migration Strategy 2.11 to 2.13",
+      "category": "technical",
+      "key_terms": ["Scala 2.11", "Scala 2.13", "Scala 3", "Android compatibility", "JDK versions"],
+      "participants": ["@kushti", "@novamon_25735", "@Aberg", "@devjoe4ever", "@jozinek"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo 6.0 Protocol Soft-Fork Implementation",
+      "category": "technical",
+      "key_terms": ["6.0 soft-fork", "input-blocks", "fork resolution", "protocol upgrade", "testnet activation"],
+      "participants": ["@kushti", "@novamon_25735", "@mgpai"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaState Interpreter PR Reviews and Compiler Issues",
+      "category": "technical",
+      "key_terms": ["sigmastate-interpreter", "compiler", "DeserializeRegister", "executeFromSelfReg", "pull requests"],
+      "participants": ["@kushti", "@novamon_25735", "@dusek_", "@ccellado"],
+      "significance": "major"
+    },
+    {
+      "title": "Android JDK Target Compatibility for Mobile Nodes",
+      "category": "technical",
+      "key_terms": ["Android SDK", "JDK versions", "desugar library", "methodhandles", "mobile compatibility"],
+      "participants": ["@novamon_25735", "@Aberg", "@MrStahlfelge", "@cannon_q"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoScript Debugging Experience Improvements",
+      "category": "technical",
+      "key_terms": ["debugging", "console logging", "traces", "imports", "developer experience"],
+      "participants": ["@mgpai", "@kushti"],
+      "significance": "minor"
+    },
+    {
+      "title": "Nautilus Wallet Browser Connection Error Fix",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "get_used_addresses", "fresh wallet", "Manifest v3", "error handling"],
+      "participants": ["@Anastasia", "@anon_br", "@Michael"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus Wallet Internationalization Support",
+      "category": "wallet",
+      "key_terms": ["i18n", "internationalization", "Russian translation", "localization", "Nautilus"],
+      "participants": ["@Anastasia", "@anon_br", "@Aberg"],
+      "significance": "minor"
+    },
+    {
+      "title": "Light Node UTXO and NiPoPoW Bootstrap Configuration",
+      "category": "technical",
+      "key_terms": ["light node", "UTXO bootstrap", "NiPoPoW", "stateless node", "configuration"],
+      "participants": ["@Unknown", "@MrStahlfelge", "@kushti", "@Michael"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Node API Rate Limiting and Index Issues",
+      "category": "technical",
+      "key_terms": ["node API", "rate limit", "token index", "explorer", "node performance"],
+      "participants": ["@Flying Pig", "@c8e4d2a"],
+      "significance": "minor"
+    },
+    {
+      "title": "Testnet Node Setup and Peer Configuration",
+      "category": "technical",
+      "key_terms": ["testnet", "6.0-RC2", "peer discovery", "node compilation", "known peers"],
+      "participants": ["@mgpai", "@kushti", "@c8e4d2a"],
+      "significance": "minor"
+    },
+    {
+      "title": "Satergo Desktop Wallet Russian Translation",
+      "category": "wallet",
+      "key_terms": ["Satergo", "Russian translation", "ErgoPay", "desktop wallet"],
+      "participants": ["@Aberg", "@Anastasia", "@c8e4d2a"],
+      "significance": "minor"
+    },
+    {
+      "title": "Paideia DAO UI Token Amount Bug Fix",
+      "category": "defi",
+      "key_terms": ["Paideia", "voting", "token amounts", "UI bug", "proposal actions"],
+      "participants": ["@luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Node Android Implementation Restoration",
+      "category": "ecosystem",
+      "key_terms": ["Ergo Node Android", "mobile node", "battery life", "dependency management"],
+      "participants": ["@Unknown", "@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigma Rust SDK and Node Interface PRs",
+      "category": "technical",
+      "key_terms": ["sigma-rust", "ergo-lib", "node interface", "block data indexing"],
+      "participants": ["@kushti", "@dusek_", "@arkadias"],
+      "significance": "minor"
+    },
+    {
+      "title": "GitHub Actions Workflow Pipeline Fixes",
+      "category": "technical",
+      "key_terms": ["GitHub Actions", "CI/CD", "scrypto", "scorex-util", "workflow updates"],
+      "participants": ["@jozinek", "@kushti"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigs Mining Pool Demurrage Fee Voting",
+      "category": "mining",
+      "key_terms": ["mining pool", "demurrage", "fee voting", "token updates"],
+      "participants": ["@Marc the Shark"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Bounties Program Status Update",
+      "category": "community",
+      "key_terms": ["bounties", "Keystone integration", "Fleet SDK tutorials", "open issues"],
+      "participants": ["@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "L2 Scaling Centralization and Security Tradeoffs",
+      "category": "ecosystem",
+      "key_terms": ["Layer 2", "scaling", "centralization", "security", "censorship"],
+      "participants": ["@mgpai", "@kushti"],
+      "significance": "minor"
+    },
+    {
+      "title": "Rust Node Implementation Strategy Discussion",
+      "category": "technical",
+      "key_terms": ["Rust node", "NiPoPoWs", "UTXO snapshot", "light node", "stateless mode"],
+      "participants": ["@kushti", "@devjoe4ever"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti",
+    "@novamon_25735",
+    "@mgpai",
+    "@Aberg",
+    "@jozinek",
+    "@c8e4d2a",
+    "@devjoe4ever",
+    "@ccellado",
+    "@Anastasia",
+    "@anon_br",
+    "@cannon_q",
+    "@Luivatra",
+    "@Flying Pig",
+    "@Unknown",
+    "@dusek_",
+    "@Marc the Shark"
+  ],
+  "message_count": 213
+}

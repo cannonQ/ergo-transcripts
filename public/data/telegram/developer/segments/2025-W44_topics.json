@@ -1,0 +1,163 @@
+{
+  "chat": "developer",
+  "week": "2025-W44",
+  "topics": [
+    {
+      "title": "Ergo 6.0.2 Release PR Review and Finalization",
+      "category": "technical",
+      "key_terms": ["6.0.2", "PR review", "protocol update", "release candidate"],
+      "participants": ["@kushti khushi", "@anon_br Σ"],
+      "significance": "major"
+    },
+    {
+      "title": "Sub-blocks Implementation and Fork Processing",
+      "category": "technical",
+      "key_terms": ["sub-blocks", "forking", "input blocks", "block cost limit", "devnet testing"],
+      "participants": ["@kushti khushi", "@Patato", "@Netim"],
+      "significance": "major"
+    },
+    {
+      "title": "UTXO and Mempool API Box State Handling",
+      "category": "technical",
+      "key_terms": ["UTXO", "mempool", "box state", "double-spend", "spendingProof"],
+      "participants": ["@kushti khushi", "@anon_br Σ"],
+      "significance": "minor"
+    },
+    {
+      "title": "SigmaSDK and Financial Contract Development",
+      "category": "technical",
+      "key_terms": ["SigmaSDK", "financial contracts", "gold insurance", "contract examples"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus Wallet v1.3.1 Release and Internationalization",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "v1.3.1", "Ledger transport", "internationalization", "language support"],
+      "participants": ["@anon_br Σ", "@CHRIS45 | NEW"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaDApp Oracle Pool Outage and Recovery",
+      "category": "defi",
+      "key_terms": ["SigmaUSD oracle", "oracle pool", "monitoring", "outage"],
+      "participants": ["@Flying Pig (™)", "@HQΣr | Wont Dm 🐾 ⚡", "@kushti khushi", "@qx()"],
+      "significance": "major"
+    },
+    {
+      "title": "Explorer Backend Global Index and Indexing Issues",
+      "category": "ecosystem",
+      "key_terms": ["explorer", "globalindex", "indexer", "ordering", "sorting"],
+      "participants": ["@kushti khushi", "@anon_br Σ", "@qx()"],
+      "significance": "major"
+    },
+    {
+      "title": "Storage Rent Collection Integer Overflow Bug",
+      "category": "technical",
+      "key_terms": ["storage rent", "integer overflow", "box size calculation", "sigma-rust"],
+      "participants": ["@kushti khushi", "@Pgr456"],
+      "significance": "major"
+    },
+    {
+      "title": "GitCircles Project Tracking and Specification",
+      "category": "ecosystem",
+      "key_terms": ["GitCircles", "project tracking", "specification", "development workflow"],
+      "participants": ["@kushti khushi", "@bro_etiket", "@wishyoubalance"],
+      "significance": "minor"
+    },
+    {
+      "title": "ChainCash and Basis Protocol Development",
+      "category": "defi",
+      "key_terms": ["ChainCash", "Basis", "reserve deployment", "Silver Cents", "storage rent pattern"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "AppKit 6.0 Compatibility and Testing",
+      "category": "technical",
+      "key_terms": ["AppKit", "6.0 support", "testing", "Lithos"],
+      "participants": ["@kushti khushi", "@Michael", "@Cheese Enthusiast"],
+      "significance": "major"
+    },
+    {
+      "title": "Reputation System Forum Application Development",
+      "category": "ecosystem",
+      "key_terms": ["reputation system", "forum application", "reputation proof", "ergotree"],
+      "participants": ["@Josemi", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo to Bitcoin Runes Bridge Transaction",
+      "category": "bridges",
+      "key_terms": ["cross-chain bridge", "Bitcoin Runes", "Foxtrot token", "watcher commitments"],
+      "participants": ["@Armeanio"],
+      "significance": "minor"
+    },
+    {
+      "title": "Lithos Protocol Mining and Contract Refinement",
+      "category": "mining",
+      "key_terms": ["Lithos", "mining pool", "stratum", "contract documentation", "rigel", "NBminer"],
+      "participants": ["@Michael"],
+      "significance": "major"
+    },
+    {
+      "title": "Netnotes Plugin System and UI Architecture",
+      "category": "technical",
+      "key_terms": ["Netnotes", "plugin manager", "streaming UI", "JavaFx", "binary format"],
+      "participants": ["@iospore"],
+      "significance": "minor"
+    },
+    {
+      "title": "Open Source Development Coordination and Workflow",
+      "category": "governance",
+      "key_terms": ["open source", "development coordination", "GitHub issues", "avoiding duplicate work"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Wallet App UI and Translation Testing",
+      "category": "wallet",
+      "key_terms": ["ergo-wallet-app", "desktop JAR", "translation", "UI testing"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Full Node Setup and Peer Connection Issues",
+      "category": "technical",
+      "key_terms": ["full node", "peer connection", "network setup", "Ubuntu"],
+      "participants": ["@BlendChiller", "@kushti khushi", "@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo-GraphQL v0.5.5 Performance Improvements",
+      "category": "ecosystem",
+      "key_terms": ["ergo-graphql", "v0.5.5", "indexer", "load balancer", "alternative ordering"],
+      "participants": ["@anon_br Σ", "@qx()"],
+      "significance": "major"
+    },
+    {
+      "title": "Hergmes Library Error Handling and Mempool Client",
+      "category": "technical",
+      "key_terms": ["hergmes", "error handling", "serialization", "mempool client"],
+      "participants": ["@anon_br Σ"],
+      "significance": "minor"
+    },
+    {
+      "title": "Repository Maintenance Monthly Bounties via ErgoDevs",
+      "category": "governance",
+      "key_terms": ["bounties", "repository maintenance", "code review", "dependency updates"],
+      "participants": ["@kushti khushi", "@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "SigmaState Interpreter PR 1069 Review and Subblock Support",
+      "category": "technical",
+      "key_terms": ["sigmastate-interpreter", "PR 1069", "sub-blocks", "code review"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Testnet 6.0.1 Without Subblocks Node Discovery",
+      "category": "technical",
+      "key_terms": ["testnet", "6.0.1", "subblocks", "peer discovery", "node sync"],
+      "participants": ["

@@ -1,0 +1,149 @@
+{
+  "chat": "general",
+  "week": "2022-W15",
+  "topics": [
+    {
+      "title": "Wallet ecosystem and Yoroi deprecation",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "Yoroi", "SAFEW", "Minotaur", "wallet restoration", "address derivation"],
+      "participants": ["@Glasgow｜WON'T DM", "@MrStahlfelge", "@Unknown", "@Gazza"],
+      "significance": "major"
+    },
+    {
+      "title": "Ledger hardware wallet integration status",
+      "category": "wallet",
+      "key_terms": ["Ledger", "Tesseract", "signing issue", "SAFEW support", "Nautilus support"],
+      "participants": ["@Unknown", "@Glasgow｜WON'T DM", "@Sander"],
+      "significance": "major"
+    },
+    {
+      "title": "Mining difficulty adjustment and hopper incentives",
+      "category": "mining",
+      "key_terms": ["difficulty adjustment", "Autolykos", "coin hopping", "block time", "epoch adjustment"],
+      "participants": ["@Flying Pig", "@Kursat", "@Gazza", "@HQΣr"],
+      "significance": "major"
+    },
+    {
+      "title": "Cold wallet security and airgapped devices",
+      "category": "wallet",
+      "key_terms": ["cold wallet", "LineageOS", "QR code signing", "airgapped device", "GrapheneOS"],
+      "participants": ["@MrStahlfelge", "@Kallo Shaman", "@Unknown", "@Marty ErgoPad"],
+      "significance": "major"
+    },
+    {
+      "title": "UTXO model and smart contract development challenges",
+      "category": "technical",
+      "key_terms": ["UTXO", "eUTXO", "ErgoScript", "off-chain code", "tax function tokens"],
+      "participants": ["@Aberg Satergo dev", "@Unknown", "@Glasgow｜WON'T DM"],
+      "significance": "major"
+    },
+    {
+      "title": "EIP-27 soft fork activation timeline",
+      "category": "governance",
+      "key_terms": ["EIP-27", "soft fork", "block 724000", "tokenomics", "emission box"],
+      "participants": ["@Unknown", "@Armeanio", "@Glasgow｜WON'T DM"],
+      "significance": "major"
+    },
+    {
+      "title": "Centralized exchange listings and integration progress",
+      "category": "ecosystem",
+      "key_terms": ["Binance", "Coinbase", "exchange listing", "liquidity requirements", "node integration"],
+      "participants": ["@Eduardo", "@Unknown", "@Glasgow｜WON'T DM", "@Armeanio"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoDEX and decentralized trading functionality",
+      "category": "defi",
+      "key_terms": ["ErgoDEX", "AMM", "DEX price", "arbitrage", "grid bots"],
+      "participants": ["@Glasgow｜WON'T DM", "@Unknown", "@Gazza"],
+      "significance": "major"
+    },
+    {
+      "title": "Block size and transaction throughput specifications",
+      "category": "technical",
+      "key_terms": ["block size", "soft cap", "transaction limit", "mempool", "layer 2 scaling"],
+      "participants": ["@Unknown", "@Glasgow｜WON'T DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "Staking mechanisms and governance token discussion",
+      "category": "governance",
+      "key_terms": ["staking", "governance token", "yield farming", "ErgoRaffle", "profit sharing"],
+      "participants": ["@Eduardo", "@TMR.ΣRG", "@Kallo Shaman"],
+      "significance": "major"
+    },
+    {
+      "title": "51% attack vulnerability and network security",
+      "category": "technical",
+      "key_terms": ["51% attack", "Nanopool", "hash rate concentration", "mining pools", "GPU mining"],
+      "participants": ["@Glasgow｜WON'T DM", "@Unknown", "@gg", "@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "Privacy and mixing capabilities with ErgoMixer",
+      "category": "technical",
+      "key_terms": ["ErgoMixer", "privacy", "SigmaJoin", "mixing", "Monero comparison"],
+      "participants": ["@Aberg Satergo dev", "@Unknown", "@TMR.ΣRG", "@Snowman Jason"],
+      "significance": "major"
+    },
+    {
+      "title": "NiPoPoWs and light client protocol research",
+      "category": "technical",
+      "key_terms": ["NiPoPoWs", "light clients", "scalability", "sub-block finality"],
+      "participants": ["@Jennie D", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "COMET memecoin and community engagement",
+      "category": "community",
+      "key_terms": ["COMET", "memecoin", "tipping", "ErgoTipperBot", "community memes"],
+      "participants": ["@Eduardo", "@Unknown", "@Arthur", "@RETRO"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoRaffle fundraising for DeCo education initiative",
+      "category": "community",
+      "key_terms": ["ErgoRaffle", "DeCo", "developer education", "fundraising"],
+      "participants": ["@Jennie D", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Phishing attacks and wallet security incidents",
+      "category": "community",
+      "key_terms": ["phishing", "seed phrase compromise", "wallet theft", "scams"],
+      "participants": ["@dimylkamtc", "@Unknown", "@HQΣr"],
+      "significance": "minor"
+    },
+    {
+      "title": "Cardano-Ergo partnership and Charles Hoskinson endorsement",
+      "category": "ecosystem",
+      "key_terms": ["Cardano", "Charles Hoskinson", "partnership", "market positioning"],
+      "participants": ["@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Storage rent mechanism and blockchain pruning",
+      "category": "technical",
+      "key_terms": ["storage rent", "UTXO lifecycle", "node size", "blockchain data", "archive nodes"],
+      "participants": ["@Unknown", "@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "Token query API and explorer functionality",
+      "category": "technical",
+      "key_terms": ["ergoexplorer API", "token holders", "byTokenId endpoint", "address lookup"],
+      "participants": ["@Koutelier", "@Luivatra", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Rosen bridge ADA-Ergo cross-chain protocol",
+      "category": "bridges",
+      "key_terms": ["Rosen bridge", "cross-chain", "ADA", "bridge integration"],
+      "participants": ["@Unknown", "@Abdulkrem", "@Glasgow｜WON'T DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ethereum 2.0 merge and GPU miner migration",
+      "category": "ecosystem",
+      "key_terms": ["Ethereum 2.0", "PoS merge", "GPU miners", "difficulty bomb", "hash rate"],
+      "participants": ["@Unknown", "@Jalaldinho", "@Leo

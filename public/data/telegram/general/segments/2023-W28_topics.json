@@ -1,0 +1,135 @@
+{
+  "chat": "general",
+  "week": "2023-W28",
+  "topics": [
+    {
+      "title": "Bridging ERG between Cardano and Ergo via wrapped tokens",
+      "category": "bridges",
+      "key_terms": ["wrapped ERG", "Cardano", "bridge", "spectrum", "native tokens"],
+      "participants": ["@Luivatra", "@Sugon Deez", "@R", "@Glasgow｜WON'T DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "US exchange restrictions and alternatives for American users",
+      "category": "ecosystem",
+      "key_terms": ["KuCoin", "Coinbase", "US regulations", "TradeOgre", "SimpleSwap", "VPN"],
+      "participants": ["@R", "@MavΣrickBg (bober)", "@Sugon Deez", "@Glasgow｜WON'T DM", "@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo Foundation treasury status and funding allocation",
+      "category": "governance",
+      "key_terms": ["EF wallet", "treasury", "developer salaries", "exchange listings", "funding"],
+      "participants": ["@Armeanio", "@卡卡罗特", "@kushti khushi", "@Me"],
+      "significance": "major"
+    },
+    {
+      "title": "Oracle Pools v2 upgrades and incentivization model",
+      "category": "technical",
+      "key_terms": ["oracle pools", "v2", "reward tokens", "GORT", "single pool box", "Denis Zadorozhnyi"],
+      "participants": ["@Dennis Zadorozhnyi", "@kushti khushi", "@Armeanio", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Dexy stablecoin development and testnet launch timeline",
+      "category": "defi",
+      "key_terms": ["Dexy", "stablecoin", "testnet", "gold oracle", "buyback contract"],
+      "participants": ["@kushti khushi", "@R", "@Armeanio", "@Bruno Woltzenlogel Paleo"],
+      "significance": "major"
+    },
+    {
+      "title": "Gluon protocol design and comparison to SigmaUSD/Djed",
+      "category": "defi",
+      "key_terms": ["Gluon", "reserve ratio", "discontinuities", "stablecoin", "reservecoin", "fees"],
+      "participants": ["@Bruno Woltzenlogel Paleo", "@kushti khushi", "@Richi [MANA]", "@Hassen | Launch imminent"],
+      "significance": "major"
+    },
+    {
+      "title": "Node sync speed improvements with UTXO snapshots",
+      "category": "technical",
+      "key_terms": ["UTXO snapshots", "sync speed", "5.0.12", "bootstrapping", "20-30 minutes"],
+      "participants": ["@Unknown", "@kushti khushi", "@qx()", "@Me", "@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaFi peer-to-peer bond marketplace activity",
+      "category": "defi",
+      "key_terms": ["SigmaFi", "bonds", "loans", "collateral", "38% APR", "P2P"],
+      "participants": ["@CW", "@Me", "@Hassen | Launch imminent", "@qx()", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "HodlERG contract vulnerability and funds recovery",
+      "category": "defi",
+      "key_terms": ["hodlERG", "exploit", "white hat", "Krasavice", "relaunch", "open source"],
+      "participants": ["@Me", "@Unknown", "@Bruno Woltzenlogel Paleo", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge development status and guard/watcher infrastructure",
+      "category": "bridges",
+      "key_terms": ["Rosen", "guards", "watchers", "TSS", "collateral", "RSN token", "testnet"],
+      "participants": ["@MHS_SAM", "@Unknown", "@kushti khushi", "@Hassen | Launch imminent"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo marketing raffle and community engagement strategies",
+      "category": "marketing",
+      "key_terms": ["raffle", "marketing machine", "community powered", "ErgoRaffle", "Summit"],
+      "participants": ["@kushti khushi", "@qx()", "@ThatOtherFella", "@gg"],
+      "significance": "minor"
+    },
+    {
+      "title": "Twitter poll competition with Snek memecoin",
+      "category": "community",
+      "key_terms": ["ProTheDoge", "Twitter poll", "Snek", "engagement", "voting"],
+      "participants": ["@R", "@Arthur", "@Misfit Toy", "@HQΣr | Wont Dm 🐾 ⚡", "@qx()"],
+      "significance": "minor"
+    },
+    {
+      "title": "Satergo wallet development and Ledger integration",
+      "category": "wallet",
+      "key_terms": ["Satergo", "full node", "Ledger", "ErgoPay", "desktop wallet"],
+      "participants": ["@Aberg Satergo dev", "@qx()", "@Me", "@Unknown", "@Velvia"],
+      "significance": "major"
+    },
+    {
+      "title": "Mining pool decentralization and hashrate distribution",
+      "category": "mining",
+      "key_terms": ["hashrate", "mining pools", "decentralization", "51% attack", "Nano pool"],
+      "participants": ["@CW", "@HQΣr | Wont Dm 🐾 ⚡"],
+      "significance": "minor"
+    },
+    {
+      "title": "Spectrum Network white paper and cross-chain messaging",
+      "category": "technical",
+      "key_terms": ["Spectrum", "white paper", "cross-chain", "programmable messaging", "v1.0"],
+      "participants": ["@Gazza ｜WON'T DM", "@yasha"],
+      "significance": "major"
+    },
+    {
+      "title": "Explorer infrastructure issues and maintenance",
+      "category": "technical",
+      "key_terms": ["explorer", "SSL certificate", "Cornell instance", "ergo.aap.cornell.edu"],
+      "participants": ["@qx()", "@kushti khushi", "@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "Tangem hardware wallet integration discussions",
+      "category": "wallet",
+      "key_terms": ["Tangem", "hardware wallet", "self custody", "integration", "NFC"],
+      "participants": ["@Glasgow｜WON'T DM", "@Koutelier || WONT DM", "@Flying Pig (™)", "@Sugon Deez"],
+      "significance": "minor"
+    },
+    {
+      "title": "Block time optimization and sub-block confirmation protocols",
+      "category": "technical",
+      "key_terms": ["block time", "2 minutes", "Bitcoin-NG", "NiPoPoWs", "sub-block", "security"],
+      "participants": ["@kushti khushi", "@Me"],
+      "significance": "minor"
+    },
+    {
+      "title": "Crux Finance IDO and product features overview",
+      "category": "ecosystem",
+      "key_terms": ["Crux Finance", "IDO", "Taptools", "tax reporting", "analytics", "notifications"],
+      "participants": ["@

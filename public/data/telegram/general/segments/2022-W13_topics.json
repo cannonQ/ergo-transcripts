@@ -1,0 +1,149 @@
+{
+  "chat": "general",
+  "week": "2022-W13",
+  "topics": [
+    {
+      "title": "Network block production stuck at height 716475",
+      "category": "technical",
+      "key_terms": ["stuck block", "mempool", "mining", "network halt", "orphan blocks"],
+      "participants": ["@Ustin", "@Hatseflats.82", "@Glasgow", "@crozillo", "@Hap Ghost"],
+      "significance": "major"
+    },
+    {
+      "title": "Yoroi wallet performance degradation and failures",
+      "category": "wallet",
+      "key_terms": ["Yoroi broken", "slow sync", "wallet alternatives", "Nautilus migration", "seed phrase recovery"],
+      "participants": ["@MoonBear", "@Unknown", "@Geralt", "@Tommy", "@Dave P"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus wallet adoption and functionality",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "beta testing", "DAPP connectors", "Ergodex integration", "fast sync"],
+      "participants": ["@HQΣr", "@Unknown", "@Gazza", "@Ralph Craig"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoDex swap failures and slippage settings",
+      "category": "defi",
+      "key_terms": ["pending swaps", "refund function", "slippage tolerance", "pool liquidity"],
+      "participants": ["@Unknown", "@Glasgow", "@Gazza", "@vidicmu"],
+      "significance": "major"
+    },
+    {
+      "title": "SigRSV redemption issues on SigmaUSD protocol",
+      "category": "defi",
+      "key_terms": ["SigRSV redeem", "SigmaUSD.io", "refund mechanism", "ERG minimum fee"],
+      "participants": ["@Daniel", "@Unknown", "@Glasgow"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mining difficulty adjustment and hashrate dynamics",
+      "category": "mining",
+      "key_terms": ["difficulty adjustment", "hashrate hoppers", "block time", "miner profitability"],
+      "participants": ["@Kursat", "@Glasgow", "@HQΣr", "@Aleksandr Sh"],
+      "significance": "major"
+    },
+    {
+      "title": "NBMiner compatibility issues with memory requirements",
+      "category": "mining",
+      "key_terms": ["NBMiner rejected shares", "memory requirements increase", "TRex alternative", "pool issues"],
+      "participants": ["@Zzzz", "@Glasgow", "@Aleksandr Sh", "@Gazza"],
+      "significance": "minor"
+    },
+    {
+      "title": "Exchange listing updates and market access",
+      "category": "marketing",
+      "key_terms": ["Binance listing", "Coinbase", "tier-1 exchanges", "liquidity", "integration pipeline"],
+      "participants": ["@Ahmed Magdy", "@Jay", "@Glasgow", "@Eduardo"],
+      "significance": "major"
+    },
+    {
+      "title": "KuCoin ERG withdrawal suspensions",
+      "category": "ecosystem",
+      "key_terms": ["KuCoin node down", "withdrawal suspended", "trading account transfer", "CEX issues"],
+      "participants": ["@SB", "@Klaus", "@Unknown", "@Dean P"],
+      "significance": "minor"
+    },
+    {
+      "title": "EIP-27 soft fork emission reduction implementation",
+      "category": "governance",
+      "key_terms": ["emission drop", "63 ERG per block", "soft fork activation", "block 724000", "halving schedule"],
+      "participants": ["@S", "@Glasgow", "@kushti khushi", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "NIPoPoWs technical explanation and use cases",
+      "category": "technical",
+      "key_terms": ["Non-Interactive PoPoW", "light clients", "compression technique", "mobile mining", "bandwidth reduction"],
+      "participants": ["@Armeanio", "@Unknown", "@TMR.ΣRG", "@Snowman Jason"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoLend protocol microfinance lending platform",
+      "category": "defi",
+      "key_terms": ["ErgoLend launch", "p2p lending", "credit systems", "May deployment", "ErgoHack winner"],
+      "participants": ["@Chris Ray", "@Misfit Toy", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Stablecoin design options and research initiatives",
+      "category": "defi",
+      "key_terms": ["Dexy USD", "yield protocol", "asset-pegged stables", "LETS", "stability mechanism"],
+      "participants": ["@Snowman Jason", "@Unknown", "@gg"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoPulse episode 2022 recording with Charles Hoskinson",
+      "category": "community",
+      "key_terms": ["ErgoPulse", "Charles Hoskinson", "Dubai recording", "editing pending", "April 4 release"],
+      "participants": ["@Ergo Boy", "@Gazza", "@Jennie D", "@Andy L"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge cross-chain functionality development",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "AnetaBTC", "cross-chain", "testnet pending", "wrapped tokens"],
+      "participants": ["@Unknown", "@Hap Ghost", "@Frosty"],
+      "significance": "minor"
+    },
+    {
+      "title": "EU wallet KYC regulation proposal and implications",
+      "category": "governance",
+      "key_terms": ["EU Parliament vote", "wallet regulation", "non-custodial KYC", "April final vote", "privacy concerns"],
+      "participants": ["@Unknown", "@kushti khushi", "@Koutelier", "@Hap Ghost"],
+      "significance": "major"
+    },
+    {
+      "title": "Mi Goreng airdrop test and token spam",
+      "category": "ecosystem",
+      "key_terms": ["Mi Goreng airdrop", "token spam", "massive airdrop test", "blockchain congestion"],
+      "participants": ["@gg", "@Jack B", "@TMR.ΣRG", "@Ralph Craig"],
+      "significance": "minor"
+    },
+    {
+      "title": "NFT viewing and marketplace options",
+      "category": "nft",
+      "key_terms": ["SkyHarbor", "ergonfts.org", "Nautilus NFT support", "auction house", "ergopad display"],
+      "participants": ["@Sander", "@RETRO", "@vidicmu", "@CW"],
+      "significance": "minor"
+    },
+    {
+      "title": "Community developer training and education initiatives",
+      "category": "ecosystem",
+      "key_terms": ["DeCo training program", "ErgoScript learning", "developer shortage", "GitHub bounties", "SimpleErgoDocs"],
+      "participants": ["@Galim81", "@Gazza", "@MrStahlfelge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Proof of Work energy efficiency and sustainability",
+      "category": "marketing",
+      "key_terms": ["PoW energy usage", "Bitcoin comparison", "efficiency metrics", "green blockchain", "sustainability messaging"],
+      "participants": ["@BeatTheSystem", "@Unknown", "@Jason Lasky"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ledger hardware wallet support status",
+      "category": "wallet",
+      "key_terms": ["Ledger integration", "hardware wallet", "support timeline", "AMA discussion"],
+      "participants": ["@andrew", "@Arm

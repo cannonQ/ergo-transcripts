@@ -1,0 +1,166 @@
+{
+  "chat": "Ergo General",
+  "week": "2023-W05",
+  "topics": [
+    {
+      "title": "Wallet management and private key security",
+      "category": "wallet",
+      "key_terms": ["seedphrase", "private key", "zelcore", "custodial wallet", "wallet security"],
+      "participants": ["@Man ish", "@HQΣr", "@qx()"],
+      "significance": "minor"
+    },
+    {
+      "title": "Rosen Bridge implementation and testing progress",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "private tests", "public testnet", "UI development", "memory leak fix"],
+      "participants": ["@mhs_sam", "@Koutelier"],
+      "significance": "major"
+    },
+    {
+      "title": "SigUSD and SigRSV mechanism explanation",
+      "category": "defi",
+      "key_terms": ["SigUSD", "SigRSV", "reserve ratio", "stablecoin", "AgeUSD protocol"],
+      "participants": ["@qx()", "@Gabriel", "@TMR.ΣRG", "@Green_Diamond II"],
+      "significance": "major"
+    },
+    {
+      "title": "Dexy stablecoin design and oracle mechanics",
+      "category": "defi",
+      "key_terms": ["Dexy", "stablecoin", "oracle", "liquidity pool", "emissions contract"],
+      "participants": ["@qx()", "@eπ", "@Armeanio"],
+      "significance": "major"
+    },
+    {
+      "title": "DuckPools lending protocol IDO and mechanics",
+      "category": "defi",
+      "key_terms": ["DuckPools", "lending", "collateral", "pool-based lending", "ErgoPad"],
+      "participants": ["@HelixEvo", "@qx()", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaFi peer-to-peer lending in beta",
+      "category": "defi",
+      "key_terms": ["SigmaFi", "P2P lending", "collateral", "liquidation", "loan proposals"],
+      "participants": ["@HelixEvo", "@qx()", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoHack VI Cypherpunk Finance hackathon",
+      "category": "ecosystem",
+      "key_terms": ["ErgoHack VI", "hackathon", "team formation", "Cypherpunk Finance"],
+      "participants": ["@chrom", "@Ergo Platform"],
+      "significance": "major"
+    },
+    {
+      "title": "Minotaur wallet multisig support and bug fixes",
+      "category": "wallet",
+      "key_terms": ["Minotaur wallet", "multisig", "EIP42", "browser extension", "bug fixes"],
+      "participants": ["@mhs_sam", "@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo names NFT domain registration service",
+      "category": "nft",
+      "key_terms": ["Ergo names", "domain names", "account verification", "ADAhandle comparison"],
+      "participants": ["@Jerry", "@TMR.ΣRG", "@Foeniculum NFTs"],
+      "significance": "minor"
+    },
+    {
+      "title": "Social media DeFi application development",
+      "category": "ecosystem",
+      "key_terms": ["social media", "DeFi app", "Buddy Chat", "tipping bot", "Ergo names integration"],
+      "participants": ["@Jerry", "@Abu Salih", "@Foeniculum NFTs"],
+      "significance": "minor"
+    },
+    {
+      "title": "Lightning network implementation feasibility",
+      "category": "technical",
+      "key_terms": ["Lightning Network", "transaction fees", "node incentives", "implementation"],
+      "participants": ["@Ian Lee", "@Chris Ray"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ledger hardware wallet integration status",
+      "category": "wallet",
+      "key_terms": ["Ledger", "Ledger X", "developer mode", "integration"],
+      "participants": ["@JCFishing", "@MatrixMaarten"],
+      "significance": "minor"
+    },
+    {
+      "title": "Nautilus wallet Ledger support and usage",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "Ledger", "transaction signing", "browser extension"],
+      "participants": ["@MatrixMaarten", "@Foeniculum NFTs"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mining box consolidation and UTXO management",
+      "category": "technical",
+      "key_terms": ["box consolidation", "UTXO", "mining rewards", "Ergo mobile wallet"],
+      "participants": ["@Mh Mh", "@Gazza", "@Pulsarz"],
+      "significance": "minor"
+    },
+    {
+      "title": "Spectrum Labs DEX and liquidity pools",
+      "category": "defi",
+      "key_terms": ["Spectrum", "DEX", "liquidity", "SigUSD pools"],
+      "participants": ["@CW", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Paideia DAO governance platform features",
+      "category": "governance",
+      "key_terms": ["Paideia", "DAO creation", "voting structures", "treasury management"],
+      "participants": ["@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo collateralized lending mechanisms comparison",
+      "category": "defi",
+      "key_terms": ["collateral", "lending", "leverage trading", "liquidation risk"],
+      "participants": ["@David", "@TMR.ΣRG", "@eπ"],
+      "significance": "major"
+    },
+    {
+      "title": "Community marketing and social media strategy",
+      "category": "marketing",
+      "key_terms": ["marketing", "community outreach", "Nostr", "Reddit engagement"],
+      "participants": ["@Glasgow", "@CW", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Tier 1 exchange listing discussions",
+      "category": "marketing",
+      "key_terms": ["tier 1 exchange", "exchange listing", "BKEX"],
+      "participants": ["@MatrixMaarten", "@Desmond Khor"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Watch data tracking issues",
+      "category": "technical",
+      "key_terms": ["Ergo Watch", "data updates", "monitoring"],
+      "participants": ["@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Weekly developer updates and community AMAs",
+      "category": "ecosystem",
+      "key_terms": ["developer update", "AMA", "community Q&A"],
+      "participants": ["@CW", "@Armeanio", "@Ergo Platform"],
+      "significance": "major"
+    },
+    {
+      "title": "Flux token integration across wallets",
+      "category": "wallet",
+      "key_terms": ["Flux", "Nautilus", "Spectrum", "parallel asset"],
+      "participants": ["@qx()", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigma protocol and cryptographic innovations",
+      "category": "technical",
+      "key_terms": ["Sigma protocol", "zero-knowledge proofs", "ErgoScript", "discrete log"],
+      "participants": ["@kushti khushi", "@Glasgow"],
+      "significance": "major"
+    },
+    {

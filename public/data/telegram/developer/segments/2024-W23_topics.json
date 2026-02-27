@@ -1,0 +1,139 @@
+{
+  "chat": "developer",
+  "week": "2024-W23",
+  "topics": [
+    {
+      "title": "Ergo 5.0.22 Release Finalization and Review",
+      "category": "technical",
+      "key_terms": ["release", "PR review", "version finalization", "sigmastate-interpreter"],
+      "participants": ["@kushti0978", "@mgpai", "@ccellado", "@ergomorphic"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma 6.0 Development - Serialization and New Types",
+      "category": "technical",
+      "key_terms": ["Option[] serialization", "Header serialization", "Global.serialize", "MethodCall tests", "EIP-50"],
+      "participants": ["@kushti0978", "@ergomorphic", "@mgpai"],
+      "significance": "major"
+    },
+    {
+      "title": "Node Wallet Password Recovery and Encryption Issues",
+      "category": "wallet",
+      "key_terms": ["wallet deletion", "seed phrase", "Tag Mismatch error", "encryption", "password reset"],
+      "participants": ["@justblake3911", "@Aberg Satergo dev", "@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "PR Management and Code Review Workflow Conflicts",
+      "category": "governance",
+      "key_terms": ["PR dependencies", "test coverage", "code organization", "cherry-picking", "commit authorship"],
+      "participants": ["@kushti0978", "@ergomorphic"],
+      "significance": "major"
+    },
+    {
+      "title": "Multisig Transaction Signing Support Implementation",
+      "category": "technical",
+      "key_terms": ["multisig hints", "transaction signing", "Appkit", "sigma-js", "Fleet SDK"],
+      "participants": ["@ergomorphic", "@mgpai", "@c8", "@arobsn"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoHack VIII - Bitcoin Relay and Cross-Chain Proofs",
+      "category": "ecosystem",
+      "key_terms": ["Bitcoin relay", "transaction inclusion proof", "sidechain", "atomic swaps", "Lightning Network"],
+      "participants": ["@kushti0978", "@dΣathgripson", "@c8"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus Wallet Manifest v3 and dApp Bridge Refactoring",
+      "category": "wallet",
+      "key_terms": ["Manifest v3", "dApp connector", "multisig support", "Ledger integration", "arbitrary data signing"],
+      "participants": ["@capt_nemo429", "@mrstahlfelge"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge Bitcoin Launch and Integration",
+      "category": "bridges",
+      "key_terms": ["Bitcoin observation", "keygen ceremony", "asset health checks", "BTC native token", "guard configuration"],
+      "participants": ["@vorujack"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigmanauts Mining Pool Token Payouts Implementation",
+      "category": "mining",
+      "key_terms": ["PPLNS", "RSN payouts", "mining core", "storage rent", "pool wallet"],
+      "participants": ["@qx()"],
+      "significance": "major"
+    },
+    {
+      "title": "CrooksFinance DEX and P2P Marketplace Development",
+      "category": "defi",
+      "key_terms": ["Crooks-Fi dex", "Crooksmart marketplace", "staking", "yield farming", "token sales"],
+      "participants": ["@HQΣr | Wont Dm 🐾 ⚡"],
+      "significance": "major"
+    },
+    {
+      "title": "CyberVerse Multi-Chain Support and NFT Skins",
+      "category": "nft",
+      "key_terms": ["Cardano wallet support", "NFT skins", "ETERNL wallet", "monthly leaderboard", "friends chat"],
+      "participants": ["@pxl.erg"],
+      "significance": "major"
+    },
+    {
+      "title": "Fleet SDK and Sigma-JS Documentation Gaps",
+      "category": "ecosystem",
+      "key_terms": ["Fleet examples", "register serialization", "dApp connector", "multisig documentation", "onboarding"],
+      "participants": ["@Flying Pig (™)", "@Paul", "@arobsn", "@Glasgow｜WON'T DM"],
+      "significance": "major"
+    },
+    {
+      "title": "Bitcoin Collateral for Ergo DeFi Exploration",
+      "category": "defi",
+      "key_terms": ["cold BTC collateral", "cross-chain proofs", "rsBTC", "bearer assets", "DeFi lending"],
+      "participants": ["@__del", "@dΣathgripson", "@c8", "@Michael"],
+      "significance": "minor"
+    },
+    {
+      "title": "Bounty Programs for Development Tasks",
+      "category": "community",
+      "key_terms": ["SigUSD bounties", "Blockly support", "BulletProofs verification", "unsigned big integers"],
+      "participants": ["@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "SigmaScript fromBase64 Encoding Issues",
+      "category": "technical",
+      "key_terms": ["fromBase64", "tokenId", "escript.online", "link sharing bug"],
+      "participants": ["@HQΣr | Wont Dm 🐾 ⚡", "@kushti khushi", "@c8"],
+      "significance": "minor"
+    },
+    {
+      "title": "Node Sync Monitoring and Documentation",
+      "category": "technical",
+      "key_terms": ["node synchronization", "/panel endpoint", "block height", "wallet sync", "documentation"],
+      "participants": ["@Unknown", "@kushti khushi", "@HQΣr | Wont Dm 🐾 ⚡"],
+      "significance": "minor"
+    },
+    {
+      "title": "Weekly Ergo Developer Chat Organization",
+      "category": "community",
+      "key_terms": ["developer updates", "team coordination", "project sharing"],
+      "participants": ["@kushti0978"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti0978",
+    "@ergomorphic",
+    "@mgpai",
+    "@c8",
+    "@capt_nemo429",
+    "@HQΣr | Wont Dm 🐾 ⚡",
+    "@Paul",
+    "@Flying Pig (™)",
+    "@dΣathgripson",
+    "@vorujack",
+    "@Aberg Satergo dev"
+  ],
+  "message_count": 192
+}

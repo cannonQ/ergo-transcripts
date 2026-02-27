@@ -1,0 +1,169 @@
+{
+  "chat": "Ergo Developer",
+  "week": "2024-W14",
+  "topics": [
+    {
+      "title": "Ergo Protocol v5.0.21 and v5.1.0 Release",
+      "category": "technical",
+      "key_terms": ["node release", "protocol version", "testing", "release notes"],
+      "participants": ["@kushti khushi", "@Pulsarz"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma 6.0 EIP and nbits Encoding Methods",
+      "category": "technical",
+      "key_terms": ["EIP-50", "Sigma language", "encoding", "method implementation"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Node Sidechains and Sub-blocks Development",
+      "category": "technical",
+      "key_terms": ["sidechains", "sub-blocks", "P2P network", "refactoring"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Paideia DAO Contract Security and Frontend Updates",
+      "category": "defi",
+      "key_terms": ["contract hardening", "config variables", "TypeScript", "Node.js upgrade"],
+      "participants": ["@Luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "Blitz TCG Pack Sale and Odds Calculation Fix",
+      "category": "nft",
+      "key_terms": ["pack mechanics", "rarity odds", "stress testing", "performance"],
+      "participants": ["@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "The Field Peer-to-Pool Pledging Protocol",
+      "category": "defi",
+      "key_terms": ["smart contracts", "off-chain bot", "DAO project", "team recruitment"],
+      "participants": ["@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge TSS and ECDSA Signature Implementation",
+      "category": "bridges",
+      "key_terms": ["threshold signature scheme", "ECDSA", "EdDSA", "signature recovery"],
+      "participants": ["@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge Security: API Key Hash Attacks Prevention",
+      "category": "bridges",
+      "key_terms": ["salt implementation", "precomputed hash", "guard service", "watcher"],
+      "participants": ["@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Flash Loan Feasibility on Ergo Blockchain",
+      "category": "defi",
+      "key_terms": ["atomic transactions", "composability", "arbitrage", "contract interaction"],
+      "participants": ["@kushti khushi", "@Luivatra", "@Ilya Oskin", "@Paul"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaUSD Update Keys Multi-signature Holders",
+      "category": "defi",
+      "key_terms": ["SigmaUSD", "key holders", "governance"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Gluon Testnet and Mainnet Launch Progress",
+      "category": "defi",
+      "key_terms": ["testnet deployment", "UI updates", "multisig setup"],
+      "participants": ["@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Dexy Testnet Depeg and Mainnet Deployment Planning",
+      "category": "defi",
+      "key_terms": ["depeg intervention", "stablecoin", "mainnet parameters"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Foundation DAO Reincorporation and Infrastructure",
+      "category": "governance",
+      "key_terms": ["DAO LLC", "multisig handover", "2FA", "incorporation"],
+      "participants": ["@Glasgow｜WON'T DM"],
+      "significance": "major"
+    },
+    {
+      "title": "MEXC Exchange Integration via FleetSDK",
+      "category": "ecosystem",
+      "key_terms": ["exchange integration", "FleetSDK", "signing capabilities"],
+      "participants": ["@Glasgow｜WON'T DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Community Moderation and Matrix Server Setup",
+      "category": "community",
+      "key_terms": ["scam prevention", "auto mod", "Matrix server", "administration standards"],
+      "participants": ["@Glasgow｜WON'T DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Developer Analytics and Repository Tracking",
+      "category": "ecosystem",
+      "key_terms": ["analytics notebooks", "Grist database", "Artemis tracking", "806 repos"],
+      "participants": ["@Glasgow｜WON'T DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "COMET Token Liquidity Rewards on Spectrum",
+      "category": "defi",
+      "key_terms": ["liquidity provider", "Spectrum LP", "token rewards", "hodl incentives"],
+      "participants": ["@Koutelier || WONT DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "Bober Token Launch and LP Locking Strategy",
+      "category": "ecosystem",
+      "key_terms": ["token launch", "Spectrum DEX", "LP locking", "bot filtering"],
+      "participants": ["@MavΣrickBg (bober)", "@Koutelier || WONT DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigmanaut Mining Pool UI Beta Release",
+      "category": "mining",
+      "key_terms": ["mining pool", "UI interface", "beta testing", "bug fixes"],
+      "participants": ["@Marc the Shark"],
+      "significance": "minor"
+    },
+    {
+      "title": "ExtraIndexer Database Corruption and Recovery",
+      "category": "technical",
+      "key_terms": ["node indexing", "DB corruption", "unknown tokens", "rescan"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Testnet Node Configuration and Peer Discovery",
+      "category": "technical",
+      "key_terms": ["testnet node", "peer list", "configuration", "knownPeers"],
+      "participants": ["@cafebedouin.org", "@Luivatra", "@mgpai", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Scala.js Compilation Issues in FleetSDK Integration",
+      "category": "technical",
+      "key_terms": ["sigmastate", "Scala.js wrappers", "IDEA IDE", "sbt compilation"],
+      "participants": ["@kushti khushi", "@ergomorphic"],
+      "significance": "minor"
+    },
+    {
+      "title": "Node Wallet Scan API and Unspent Box Queries",
+      "category": "wallet",
+      "key_terms": ["wallet rescan", "box scanning", "unspent boxes", "explorer API"],
+      "participants": ["@kushti khushi", "@jossemii"],
+      "significance": "minor"
+    },
+    {
+      "title": "Rust Integration with Ergo Node and Fleet SDK",
+      "category": "technical",
+      "key_terms": ["Rust", "ergo-node-interface", "sigma-rust", "

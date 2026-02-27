@@ -1,0 +1,156 @@
+{
+  "chat": "general",
+  "week": "2022-W52",
+  "topics": [
+    {
+      "title": "Storage rent mechanism and UTXO set pruning",
+      "category": "technical",
+      "key_terms": ["storage rent", "UTXO set", "dust consolidation", "blockchain size", "node efficiency"],
+      "participants": ["@kushti", "@qx()", "@zhang zee"],
+      "significance": "major"
+    },
+    {
+      "title": "Spam attacks and miner incentives on Ergo",
+      "category": "technical",
+      "key_terms": ["spam attacks", "miners", "storage rent collection", "Bitcoin comparison"],
+      "participants": ["@kushti", "@Rj", "@gg"],
+      "significance": "major"
+    },
+    {
+      "title": "Node syncing and UTXO snapshot bootstrapping",
+      "category": "technical",
+      "key_terms": ["node size", "16GB", "UTXO snapshot", "NiPoPoWs", "fast bootstrapping"],
+      "participants": ["@kushti", "@qx()", "@zhang zee", "@TMR.ΣRG"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo mixer privacy and anonymity set improvements",
+      "category": "defi",
+      "key_terms": ["ErgoMixer", "SigmaJoin", "privacy", "liquidity providers", "mixing incentives"],
+      "participants": ["@kushti", "@qx()", "@Unknown", "@Armeanio"],
+      "significance": "major"
+    },
+    {
+      "title": "Mixing protocol fee structures and long-tail incentives",
+      "category": "defi",
+      "key_terms": ["mixer fees", "round-based pricing", "anonymity subsidy", "Whirlpool"],
+      "participants": ["@Unknown", "@qx()", "@kushti"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaUSD stablecoin reserve ratio and redemption dynamics",
+      "category": "defi",
+      "key_terms": ["SigmaUSD", "reserve ratio", "minting", "redemptions", "price peg"],
+      "participants": ["@gg", "@Pulsarz", "@MrStahlfelge"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen bridge ADA-ERG cross-chain implementation",
+      "category": "bridges",
+      "key_terms": ["Rosen bridge", "wrapped tokens", "Cardano integration", "1:1 ratio", "bridge safety"],
+      "participants": ["@Misfit Toy", "@qx()", "@Armeanio", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Ledger hardware wallet Ergo support",
+      "category": "wallet",
+      "key_terms": ["Ledger integration", "Nautilus wallet", "SafeW", "Ledger manager"],
+      "participants": ["@Renato Silva", "@Flying Pig", "@Glasgow"],
+      "significance": "major"
+    },
+    {
+      "title": "2022 Ergo ecosystem milestones review",
+      "category": "ecosystem",
+      "key_terms": ["year in review", "emission reductions", "SigmaFinance UI", "development progress"],
+      "participants": ["@kushti", "@Glasgow", "@qx()"],
+      "significance": "major"
+    },
+    {
+      "title": "Hackathon themes and 2023 development priorities",
+      "category": "ecosystem",
+      "key_terms": ["hackathon", "DeFi", "oracles", "Sigma protocols", "ZKPs", "education"],
+      "participants": ["@Glasgow", "@qx()", "@Armeanio"],
+      "significance": "major"
+    },
+    {
+      "title": "SkyHarbor NFT marketplace and raffle funding",
+      "category": "nft",
+      "key_terms": ["SkyHarbor raffle", "server funding", "NFT community", "Crypto Quokka"],
+      "participants": ["@kushti", "@qx()", "@Unknown", "@Crypto Quokka"],
+      "significance": "major"
+    },
+    {
+      "title": "Yoroi wallet Ergo support discontinuation",
+      "category": "wallet",
+      "key_terms": ["Yoroi deprecation", "Nautilus alternative", "mobile wallet", "wallet migration"],
+      "participants": ["@Renato Silva", "@dominatingSlash", "@TMR.ΣRG"],
+      "significance": "major"
+    },
+    {
+      "title": "Spectrum Finance AMM and SigUSD price depegging",
+      "category": "defi",
+      "key_terms": ["Spectrum", "AMM pool", "price discovery", "reserve ratio tracking"],
+      "participants": ["@gg", "@Glasgow"],
+      "significance": "minor"
+    },
+    {
+      "title": "Autolykos PoW vs PoS consensus model discussion",
+      "category": "technical",
+      "key_terms": ["Proof of Work", "Autolykos", "staking", "energy consumption", "security"],
+      "participants": ["@Ergo NEWS", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "FPGA and ASIC resistance mining dynamics",
+      "category": "mining",
+      "key_terms": ["FPGA", "ASIC", "memory requirements", "algorithm adjustment"],
+      "participants": ["@Reek", "@R", "@TMR.ΣRG"],
+      "significance": "minor"
+    },
+    {
+      "title": "ERG price volatility and market conditions",
+      "category": "community",
+      "key_terms": ["bear market", "price action", "liquidation", "tax loss harvesting"],
+      "participants": ["@嬉", "@TMR.ΣRG", "@Pulsarz", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "French translation of ergotutorials and ergoplatform.org",
+      "category": "community",
+      "key_terms": ["translation", "French", "documentation", "localization"],
+      "participants": ["@koukarin"],
+      "significance": "minor"
+    },
+    {
+      "title": "Scam prevention and admin impersonation warnings",
+      "category": "community",
+      "key_terms": ["phishing", "DM scams", "security awareness", "admin verification"],
+      "participants": ["@Koutelier", "@kushti", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Duckpools SigUSD and token launch developments",
+      "category": "defi",
+      "key_terms": ["Duckpools", "liquidity pools", "token launch", "GraphQL optimization"],
+      "participants": ["@kushti"],
+      "significance": "minor"
+    },
+    {
+      "title": "DJED stablecoin oracle and reserve ratio mechanisms",
+      "category": "defi",
+      "key_terms": ["DJED", "Cardano", "oracle design", "bearwhale protection", "paced liquidity"],
+      "participants": ["@Unknown", "@Glasgow", "@Green_Diamond"],
+      "significance": "minor"
+    },
+    {
+      "title": "Conceal bridge CCX-ERG partnership status",
+      "category": "bridges",
+      "key_terms": ["Conceal bridge", "CCX", "custodial bridge", "bridge readiness"],
+      "participants": ["@Unknown", "@Abu Salih", "@Armeanio"],
+      "significance": "minor"
+    },
+    {
+      "title": "ChatGPT knowledge of Ergo platform and updates",
+      "category": "marketing",
+      "key_terms": ["ChatGPT", "AI training", "platform awareness", "bullish sentiment"],
+      "participants": ["@Morphy

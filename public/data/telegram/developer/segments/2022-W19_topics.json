@@ -1,0 +1,92 @@
+{
+  "chat": "developer",
+  "week": "2022-W19",
+  "topics": [
+    {
+      "title": "Node synchronization issues and header application optimization",
+      "category": "technical",
+      "key_terms": ["node sync", "height 746557", "headers", "forks resolution", "issue #1702"],
+      "participants": ["@kushti khushi", "@pragmaxim"],
+      "significance": "major"
+    },
+    {
+      "title": "EIP-27 activation and miner update requirements",
+      "category": "governance",
+      "key_terms": ["EIP-27", "hashrate support", "92.68%", "miner activation", "locked in"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Extended public key derivation and wallet address indexing",
+      "category": "wallet",
+      "key_terms": ["EIP-3", "extended public key", "derivation path", "child method", "appkit"],
+      "participants": ["@Aberg Satergo dev", "@MrStahlfelge | Won't DM"],
+      "significance": "major"
+    },
+    {
+      "title": "Koinly integration with Ergo read-only keys and native tokens",
+      "category": "ecosystem",
+      "key_terms": ["Koinly", "read-only keys", "xpub key", "native tokens", "integration"],
+      "participants": ["@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Node version release tagging and pre-release management",
+      "category": "technical",
+      "key_terms": ["testnet-sync", "pre-release", "version filtering", "release tagging"],
+      "participants": ["@Aberg Satergo dev", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "SigUSD token burning and staking security in Ergopad",
+      "category": "defi",
+      "key_terms": ["token burning", "Ergopad staking", "burn address", "penalty", "dapp security"],
+      "participants": ["@Luivatra", "@MrStahlfelge | Won't DM"],
+      "significance": "major"
+    },
+    {
+      "title": "Wallet UI improvements for transaction signing transparency",
+      "category": "wallet",
+      "key_terms": ["signing screen", "spent boxes", "token display", "user transparency"],
+      "participants": ["@MrStahlfelge | Won't DM", "@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "AppKit API changes and BoxOperations deprecation",
+      "category": "technical",
+      "key_terms": ["appkit", "BoxOperations", "BoxSelectorsJavaHelpers", "deprecated", "BlockchainDataSource"],
+      "participants": ["@Aberg Satergo dev", "@MrStahlfelge | Won't DM"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoScript atomic exchange contract semantics and examples",
+      "category": "technical",
+      "key_terms": ["ErgoScript", "atomic exchange", "proposition bytes", "contract logic"],
+      "participants": ["@zhang zee"],
+      "significance": "minor"
+    },
+    {
+      "title": "Satergo stable release 3 and new wallet format",
+      "category": "wallet",
+      "key_terms": ["Satergo", "wallet format", "stable release", "ErgoSock library"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "Re-emission token economics and contract implementation",
+      "category": "defi",
+      "key_terms": ["re-emission tokens", "nanoergs", "emission contract", "EIP-27 address"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Testnet token faucet access and token requests",
+      "category": "ecosystem",
+      "key_terms": ["testnet tokens", "ergofaucet", "fake sigusd", "Discord requirement"],
+      "participants": ["@Aberg Satergo dev", "@MrStahlfelge | Won't DM"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": ["@kushti khushi", "@Aberg Satergo dev", "@Luivatra", "@MrStahlfelge | Won't DM", "@zhang zee"],
+  "message_count": 76
+}

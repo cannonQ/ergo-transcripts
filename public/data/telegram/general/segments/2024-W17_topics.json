@@ -1,0 +1,156 @@
+{
+  "chat": "Ergo General",
+  "week": "2024-W17",
+  "topics": [
+    {
+      "title": "Cross-chain fee reduction port/bus architecture",
+      "category": "bridges",
+      "key_terms": ["fees", "cross-chain", "port", "Rosen", "liquidity"],
+      "participants": ["@kii", "@Chris Ray (Won't DM First)", "@Pulsarz"],
+      "significance": "major"
+    },
+    {
+      "title": "Block validation time and network security tradeoffs",
+      "category": "technical",
+      "key_terms": ["block validation", "consensus", "timewarp vulnerability", "Bitcoin cleanup"],
+      "participants": ["@kushti khushi", "@qx()", "@HQΣr | Wont Dm 🐾 ⚡", "@Rj"],
+      "significance": "major"
+    },
+    {
+      "title": "Inconsistent block times and user experience impact",
+      "category": "technical",
+      "key_terms": ["block times", "2 min average", "10 min blocks", "timing attacks", "subblocks"],
+      "participants": ["@Rj", "@lexymon", "@qx()", "@TMR.ΣRG", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "MEXC exchange listing announcement and timeline",
+      "category": "ecosystem",
+      "key_terms": ["MEXC", "listing", "CEX", "trading volume", "exchange"],
+      "participants": ["@Pulsarz", "@Hasnain", "@Mint LkV", "@HQΣr | Wont Dm 🐾 ⚡"],
+      "significance": "major"
+    },
+    {
+      "title": "eUTXO model advantages over account-based blockchains",
+      "category": "technical",
+      "key_terms": ["eUTXO", "transaction costs", "guaranteed success", "smart contracts"],
+      "participants": ["@Ergo NEWS $ERG"],
+      "significance": "minor"
+    },
+    {
+      "title": "Good Things DAO token distribution and participation",
+      "category": "governance",
+      "key_terms": ["DAO", "token", "raffle", "Kenya", "Paideia"],
+      "participants": ["@qx()", "@HQΣr | Wont Dm 🐾 ⚡"],
+      "significance": "minor"
+    },
+    {
+      "title": "ERG price analysis and circulating supply inflation",
+      "category": "community",
+      "key_terms": ["price", "emission curve", "MCap", "supply inflation", "market conditions"],
+      "participants": ["@Unknown", "@Chris Ray (Won't DM First)", "@Muhammet uğur"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo mixer privacy tool and regulatory considerations",
+      "category": "technical",
+      "key_terms": ["mixer", "privacy", "GitHub", "regulatory risk", "anonymity"],
+      "participants": ["@qx()", "@Alien", "@Unknown", "@filippounits", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "CrooksFi DEX milestone and community engagement",
+      "category": "defi",
+      "key_terms": ["CrooksFi", "swaps", "volume", "liquidity"],
+      "participants": ["@HQΣr | Wont Dm 🐾 ⚡", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoHack VIII Bitcoin-Ergo interoperability hackathon",
+      "category": "ecosystem",
+      "key_terms": ["hackathon", "Bitcoin", "interoperability", "prize pool", "stablecoins"],
+      "participants": ["@Ergo NEWS $ERG"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma 6.0 update and ErgoScript language improvements",
+      "category": "technical",
+      "key_terms": ["Sigma 6.0", "ErgoScript", "reference client", "sigmastate-interpreter"],
+      "participants": ["@BTCMini", "@Glasgow｜WON'T DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "Rosen Bridge rsERG and cross-chain asset wrapping",
+      "category": "bridges",
+      "key_terms": ["rsERG", "Rosen Bridge", "Cardano", "wrapped tokens", "rstBTC"],
+      "participants": ["@Unknown", "@Dream Big", "@Pulsarz"],
+      "significance": "major"
+    },
+    {
+      "title": "Demurrage mechanism and abandoned UTXO cleanup",
+      "category": "technical",
+      "key_terms": ["demurrage", "UTXO", "message clearing", "network security", "state growth"],
+      "participants": ["@@dayumbbbb", "@cannon_q", "@qx()"],
+      "significance": "minor"
+    },
+    {
+      "title": "DeFi yield farming and liquidity provision strategies",
+      "category": "defi",
+      "key_terms": ["yield farming", "impermanent loss", "liquidity pools", "lending", "SigmaFi"],
+      "participants": ["@Bye H8er", "@Alien", "@qx()"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ledger wallet output confirmation issues and token limits",
+      "category": "wallet",
+      "key_terms": ["Ledger", "Nautilus", "output confirmation", "token limit", "box consolidation"],
+      "participants": ["@Dream Big", "@Unknown", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Blitz TCG card pack purchasing on Ergo",
+      "category": "nft",
+      "key_terms": ["Blitz TCG", "NFT", "card packs", "trading cards"],
+      "participants": ["@Chris Ray (Won't DM First)", "@theta decay"],
+      "significance": "minor"
+    },
+    {
+      "title": "Bober token meme competition and community incentives",
+      "category": "community",
+      "key_terms": ["Bober", "meme", "Twitter", "bounty", "community rewards"],
+      "participants": ["@MavΣrickBg (bober)"],
+      "significance": "minor"
+    },
+    {
+      "title": "Forbes zombie chain article critique and legitimacy metrics",
+      "category": "community",
+      "key_terms": ["Forbes", "zombie chain", "Kaspa", "Monero", "regulatory capture"],
+      "participants": ["@Bye H8er", "@kushti khushi", "@@dayumbbbb", "@Pulsarz"],
+      "significance": "minor"
+    },
+    {
+      "title": "Alien token dice game and community engagement rewards",
+      "category": "community",
+      "key_terms": ["Alien token", "dice game", "reward distribution", "community"],
+      "participants": ["@Saphuza"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigma protocol lending and rsERG collateralization",
+      "category": "defi",
+      "key_terms": ["Sigma protocol", "lending", "borrowing", "rsERG", "Lenfi risks"],
+      "participants": ["@Unknown"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@qx()",
+    "@Unknown",
+    "@kushti khushi",
+    "@HQΣr | Wont Dm 🐾 ⚡",
+    "@Pulsarz",
+    "@kii",
+    "@Chris Ray (Won't DM First)",
+    "@cannon_q",
+    "@Rj",
+    "@Glasgow｜WON'T DM",

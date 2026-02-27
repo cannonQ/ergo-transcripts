@@ -1,0 +1,164 @@
+{
+  "chat": "Ergo Developer",
+  "week": "2025-W05",
+  "topics": [
+    {
+      "title": "Protocol 6.0 Soft-Fork Activation and Testing",
+      "category": "technical",
+      "key_terms": ["6.0 protocol", "testnet activation", "voting", "soft-fork"],
+      "participants": ["@kushti0978", "@mgpai", "@cafebedouin.org"],
+      "significance": "major"
+    },
+    {
+      "title": "Input/Ordering Blocks EIP Implementation",
+      "category": "technical",
+      "key_terms": ["input blocks", "ordering", "mempool chaining", "subblocks"],
+      "participants": ["@kushti0978", "@c8e4d2a"],
+      "significance": "major"
+    },
+    {
+      "title": "Dexy Gold Stablecoin Integration and UI Design",
+      "category": "defi",
+      "key_terms": ["DexyGold", "LP swap", "liquidity tokens", "ergfi", "stablecoin"],
+      "participants": ["@c8e4d2a", "@kushti0978", "@code_for_uss"],
+      "significance": "major"
+    },
+    {
+      "title": "Fleet SDK v0.8.2 Release and Improvements",
+      "category": "technical",
+      "key_terms": ["Fleet SDK", "ZigZag encoding", "SInt type", "sigmastate-js"],
+      "participants": ["@arobsn"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus Wallet Mobile UI Rework",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "TransactionSign component", "Drawer", "mobile UX"],
+      "participants": ["@arobsn"],
+      "significance": "major"
+    },
+    {
+      "title": "Keystone Hardware Wallet Integration",
+      "category": "wallet",
+      "key_terms": ["Keystone", "hardware wallet", "Rust SDK", "JavaScript SDK", "Web USB"],
+      "participants": ["@Pgr456"],
+      "significance": "major"
+    },
+    {
+      "title": "ChainCash L2 and Note Registration Development",
+      "category": "defi",
+      "key_terms": ["ChainCash", "L2 options", "note registration", "refund mechanism"],
+      "participants": ["@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "USD Oracle Pool and SigmaUSD Mainnet Update",
+      "category": "defi",
+      "key_terms": ["oracle pool", "SigmaUSD", "V1 contract", "V2 update"],
+      "participants": ["@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "Minotaur Wallet v2.4.0 Release",
+      "category": "wallet",
+      "key_terms": ["Minotaur", "token burning", "transaction signing", "QR scanning"],
+      "participants": ["@vorujack"],
+      "significance": "minor"
+    },
+    {
+      "title": "Satergo Wallet Format Update and Native Binaries",
+      "category": "wallet",
+      "key_terms": ["Satergo", "wallet format", "Android signer", "Ledger hidapi"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigma-Rust Global Deserialization and String Handling",
+      "category": "technical",
+      "key_terms": ["Sigma-Rust", "Global.deserialize", "SString", "PR reviews"],
+      "participants": ["@kushti0978", "@dusek_"],
+      "significance": "minor"
+    },
+    {
+      "title": "Miner Rights Protocol Token Flight System",
+      "category": "mining",
+      "key_terms": ["MRP", "token emission", "miners rewards", "Ignifox tokens"],
+      "participants": ["@Marc the Shark"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigs Mining Pool MRP Deployment and Demurrage",
+      "category": "mining",
+      "key_terms": ["Sigs pool", "Flame Shards", "rsDIS tokens", "Nurse Shark bot"],
+      "participants": ["@Marc the Shark"],
+      "significance": "major"
+    },
+    {
+      "title": "Hashmon NFT Evolution Project and Tokenomics",
+      "category": "nft",
+      "key_terms": ["Hashmon", "evolution shards", "protocol fees", "tokenomics"],
+      "participants": ["@Marc the Shark", "@c8e4d2a"],
+      "significance": "major"
+    },
+    {
+      "title": "Thresher Reinforcement Learning DEX Trading Agent",
+      "category": "ecosystem",
+      "key_terms": ["Thresher", "RL agent", "DEX trading", "hyperparameter tuning"],
+      "participants": ["@Marc the Shark"],
+      "significance": "minor"
+    },
+    {
+      "title": "Celaut Project Service Payment and Classification",
+      "category": "ecosystem",
+      "key_terms": ["Celaut", "service payment", "Bene", "UI improvements"],
+      "participants": ["@jossemii"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoScript Debugging and Development Tools",
+      "category": "technical",
+      "key_terms": ["ErgoScript debug", "development tools", "contract debugging"],
+      "participants": ["@c8e4d2a"],
+      "significance": "minor"
+    },
+    {
+      "title": "Fleet SDK Transaction Signing Without Wallet Keys",
+      "category": "technical",
+      "key_terms": ["Fleet SDK", "Prover", "transaction signing", "secret key"],
+      "participants": ["@mohsen6070", "@mgpai"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Node API Enhancement Requests",
+      "category": "technical",
+      "key_terms": ["node API", "balance by timestamp", "token filtering", "historical data"],
+      "participants": ["@HQΣr", "@kushti_ru", "@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Spectrum SDK and Pool Integration Updates",
+      "category": "defi",
+      "key_terms": ["Spectrum SDK", "pool integration", "ergoDex SDK"],
+      "participants": ["@kushti0978", "@code_for_uss"],
+      "significance": "minor"
+    },
+    {
+      "title": "Bounty Program Updates and Reward Distribution",
+      "category": "community",
+      "key_terms": ["bounties", "Keystone integration", "Fleet SDK tutorials"],
+      "participants": ["@cannon_q"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti0978",
+    "@c8e4d2a",
+    "@DiscordBridge",
+    "@arobsn",
+    "@Marc the Shark",
+    "@Pgr456",
+    "@cannon_q",
+    "@HQΣr"
+  ],
+  "message_count": 89
+}

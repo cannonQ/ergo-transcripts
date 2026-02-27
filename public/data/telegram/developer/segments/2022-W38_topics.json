@@ -1,0 +1,78 @@
+{
+  "chat": "developer",
+  "week": "2022-W38",
+  "topics": [
+    {
+      "title": "ContextExtension and Cross-Input Script Validation in ErgoScript",
+      "category": "technical",
+      "key_terms": ["ContextExtension", "Inputs(x).contextVars(y)", "script validation", "transaction inputs", "PlutusV2"],
+      "participants": ["@Ilya Oskin", "@Luivatra", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Node Version 4.0.43-4.0.46 Updates and Network Issues",
+      "category": "technical",
+      "key_terms": ["v4.0.43", "v4.0.44", "v4.0.45", "v4.0.46", "spam attack vectors", "network noise"],
+      "participants": ["@kushti khushi", "@Flying Pig (™)", "@Odiseus Me"],
+      "significance": "major"
+    },
+    {
+      "title": "Testnet Stability and Block Synchronization Problems",
+      "category": "technical",
+      "key_terms": ["testnet", "explorer sync", "block confirmation", "slow blocks", "painet"],
+      "participants": ["@kushti khushi", "@Flying Pig (™)", "@Odiseus Me", "@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "Difficulty Adjustment Algorithm and Epoch-Based Recalculation",
+      "category": "technical",
+      "key_terms": ["difficulty adjustment", "least squares method", "epoch", "1024 blocks", "diff readjustment"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "EIP-79 Timestamp-Based Difficulty Adjustment Proposal",
+      "category": "governance",
+      "key_terms": ["EIP-79", "difficulty adjustment", "timestamp intervals", "soft fork", "security analysis"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Soft Fork and Hard Fork Activation Epochs",
+      "category": "governance",
+      "key_terms": ["soft fork", "hard fork", "voting epochs", "activation epochs", "pre-activation"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Java Ergo Wallet Cryptography Bug in Key Derivation",
+      "category": "wallet",
+      "key_terms": ["java wallet crypto lib", "key derivation", "signed vs unsigned", "Satergo", "Yoroi", "Nautilus"],
+      "participants": ["@Aberg Satergo dev", "@Luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "Satergo Full Node Setup Wizard and Testnet Removal",
+      "category": "wallet",
+      "key_terms": ["Satergo", "full node setup wizard", "testnet removal", "remote node"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "PaiNet Testnet Setup and Documentation",
+      "category": "ecosystem",
+      "key_terms": ["painet", "testnet", "node API", "faucet", "testing environment"],
+      "participants": ["@kushti khushi", "@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Educational Content and Tutorial Development",
+      "category": "community",
+      "key_terms": ["ergcube", "tutorial videos", "beginner resources", "website", "educational content"],
+      "participants": ["@HQΣr | Wont Dm 🐾 ⚡"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": ["@kushti khushi", "@Aberg Satergo dev", "@Flying Pig (™)", "@Ilya Oskin", "@Luivatra"],
+  "message_count": 97
+}

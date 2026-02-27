@@ -1,0 +1,158 @@
+{
+  "chat": "ergo-general",
+  "week": "2022-W31",
+  "topics": [
+    {
+      "title": "Ledger Hardware Wallet Support for Ergo",
+      "category": "wallet",
+      "key_terms": ["ledger", "hardware wallet", "cold storage", "native support"],
+      "participants": ["@João", "@Armeanio", "@glasgowm"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo Mixer Privacy and Anonymity Implementation",
+      "category": "technical",
+      "key_terms": ["mixer", "privacy", "anonymity", "rounds", "traceability"],
+      "participants": ["@Daniel", "@cafebedouin", "@glasgowm"],
+      "significance": "major"
+    },
+    {
+      "title": "Sidechains, Plasma, and Layer 2 Scaling Solutions",
+      "category": "technical",
+      "key_terms": ["sidechains", "plasma", "rollups", "state channels", "L2", "scaling"],
+      "participants": ["@kushti", "@CW", "@Gazza", "@Armeanio"],
+      "significance": "major"
+    },
+    {
+      "title": "Proof of Useful Work (PoUW) Concept and Implementation",
+      "category": "technical",
+      "key_terms": ["PoUW", "useful work", "mining rewards", "neural networks", "computation"],
+      "participants": ["@kushti", "@Natanael", "@Armeanio", "@Ile"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge Security and Nomad Bridge Exploit Analysis",
+      "category": "bridges",
+      "key_terms": ["rosen bridge", "nomad exploit", "bridge security", "multisig", "watchers"],
+      "participants": ["@kushti", "@CW", "@Rj", "@J"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoPay Mobile Wallet Integration and Developer Adoption",
+      "category": "technical",
+      "key_terms": ["ergopay", "mobile integration", "appkit", "backend server", "dapp development"],
+      "participants": ["@MrStahlfelge", "@Ilya", "@theta decay"],
+      "significance": "major"
+    },
+    {
+      "title": "Solana Wallet Security Breach and Cross-chain Implications",
+      "category": "ecosystem",
+      "key_terms": ["solana hack", "wallet security", "seed phrase", "ledger safety", "software wallets"],
+      "participants": ["@Benny", "@CW", "@J", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Comet Token Market Dynamics and Price Movement",
+      "category": "defi",
+      "key_terms": ["comet", "token price", "liquidity pool", "whale activity", "ergodex"],
+      "participants": ["@Koutelier", "@Ilya", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoPad Dashboard and Price API Integration",
+      "category": "defi",
+      "key_terms": ["ergopad", "price API", "dashboard", "token prices", "danaides"],
+      "participants": ["@MrStahlfelge", "@theta decay", "@Marty ErgoPad"],
+      "significance": "minor"
+    },
+    {
+      "title": "Storage Rent and Native Asset Mining from Stagnant Wallets",
+      "category": "technical",
+      "key_terms": ["storage rent", "native assets", "mining", "UTXO", "token recovery"],
+      "participants": ["@qx", "@glasgowm"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mobile Wallet UI/UX Improvements and Design Refresh",
+      "category": "wallet",
+      "key_terms": ["satergo", "UI design", "mobile app", "user experience", "frontend"],
+      "participants": ["@Aberg Satergo dev", "@MrStahlfelge", "@mewtoshi"],
+      "significance": "minor"
+    },
+    {
+      "title": "TokenJay Website Redesign and ErgoPay Implementation",
+      "category": "ecosystem",
+      "key_terms": ["tokenjay", "ErgoPay", "website design", "AgeUSD", "proxy address"],
+      "participants": ["@MrStahlfelge", "@Unknown", "@Ilya"],
+      "significance": "minor"
+    },
+    {
+      "title": "Blitz TCG Gaming Platform and NFT Card System",
+      "category": "nft",
+      "key_terms": ["blitz TCG", "trading cards", "gaming", "NFT", "ergo pulse"],
+      "participants": ["@Andy L", "@Unknown", "@Mark"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Wallet Address Privacy and Transaction Linking",
+      "category": "wallet",
+      "key_terms": ["privacy", "address linking", "transaction analysis", "dust attack"],
+      "participants": ["@Daniel", "@Aberg Satergo dev", "@Σddie Lin"],
+      "significance": "minor"
+    },
+    {
+      "title": "Community Discussion on Alex Chepurnoy's Communication Style",
+      "category": "community",
+      "key_terms": ["presentation", "english proficiency", "AMA quality", "communication"],
+      "participants": ["@Mike", "@Armeanio", "@Louis", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoNation Identity Verification Event and ΣID System",
+      "category": "governance",
+      "key_terms": ["ErgoNation", "identity verification", "sigma ID", "1-person-1-vote", "governance"],
+      "participants": ["@glasgowm", "@Ulmo"],
+      "significance": "minor"
+    },
+    {
+      "title": "Developer Onboarding and Scala/Rust Language Preferences",
+      "category": "technical",
+      "key_terms": ["sigma-rust", "scala", "developer tools", "ergoscript", "appkit"],
+      "participants": ["@Ilya", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Autolykos Consensus and ASIC Resistance Analysis",
+      "category": "mining",
+      "key_terms": ["autolykos", "ASIC resistance", "GPU mining", "E9", "hash power"],
+      "participants": ["@Abdulkrem", "@Agent 47", "@glasgowm"],
+      "significance": "minor"
+    },
+    {
+      "title": "Services Marketplace DApp Development for Ergo",
+      "category": "ecosystem",
+      "key_terms": ["fiverr-like dapp", "services marketplace", "ergoscript", "sound design"],
+      "participants": ["@J", "@Dani", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Cross-Game NFT Asset Transfer and Interoperability",
+      "category": "nft",
+      "key_terms": ["NFT interoperability", "game assets", "digital skins", "cross-game", "account model"],
+      "participants": ["@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Seed Phrase Generation and 24-Word Wallet Import",
+      "category": "wallet",
+      "key_terms": ["seed phrase", "24 words", "checksum", "wallet import", "electrum"],
+      "participants": ["@DrTwentyOne", "@MrStahlfelge"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti",
+    "@CW",
+    "@MrStahlfelge",
+    "@Aberg Satergo dev",
+    "@

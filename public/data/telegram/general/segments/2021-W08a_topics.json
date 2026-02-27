@@ -1,0 +1,121 @@
+{
+  "chat": "general",
+  "week": "2021-W08a",
+  "topics": [
+    {
+      "title": "SigmaUSD stablecoin launch and minting mechanics",
+      "category": "defi",
+      "key_terms": ["SigmaUSD", "SigmaRSV", "AgeUSD", "stablecoin", "minting", "reserve coin", "collateralization"],
+      "participants": ["@Glasgow|WON'T DM", "@kushti khushi", "@Dmitry Usov", "@Armeanio", "@scalahub", "@Chris", "@c8", "@Snowman Jason"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaRSV reserve coin long position mechanics explained",
+      "category": "defi",
+      "key_terms": ["SigmaRSV", "reservecoin", "long ERG", "short ERG", "reserve ratio", "400% threshold", "800% cap", "bootstrap period"],
+      "participants": ["@Glasgow|WON'T DM", "@Chris", "@c8", "@Rodrigo Pacini", "@Klaus", "@Martin"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaUSD UI transaction failures and congestion fixes",
+      "category": "technical",
+      "key_terms": ["transaction failed", "mempool congestion", "UTXO", "sigmausd.io", "anon_real", "refund", "throughput"],
+      "participants": ["@Glasgow|WON'T DM", "@Dmitry Usov", "@kushti khushi", "@Armeanio", "@scalahub", "@EMonty", "@Mr Krabs"],
+      "significance": "major"
+    },
+    {
+      "title": "BitMart exchange listing for ERG trading",
+      "category": "ecosystem",
+      "key_terms": ["BitMart", "ERG_USDT", "ERG_BTC", "listing", "exchange", "deposit", "withdrawal", "node maintenance"],
+      "participants": ["@kushti khushi", "@cymatic", "@Siavash", "@David F", "@Mercury", "@leeva"],
+      "significance": "major"
+    },
+    {
+      "title": "BiKi Chinese exchange listing announcement",
+      "category": "ecosystem",
+      "key_terms": ["BiKi", "Chinese exchange", "listing", "KOL", "Gate.io", "top exchange"],
+      "participants": ["@kushti khushi", "@Dmitry Usov", "@Rowin", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo GPU mining hashrate and difficulty adjustment",
+      "category": "mining",
+      "key_terms": ["hashrate", "difficulty", "Autolykos", "GPU", "RX580", "RTX3080", "epoch", "solo mining", "pool mining"],
+      "participants": ["@Glasgow|WON'T DM", "@wunderbaer", "@Drm", "@Ivan", "@Why So Serious", "@Armeanio"],
+      "significance": "minor"
+    },
+    {
+      "title": "Yoroi wallet ERG support and UI improvement requests",
+      "category": "wallet",
+      "key_terms": ["Yoroi", "chrome extension", "dark mode", "ledger support", "hardware wallet", "2FA", "coin control", "UTXO"],
+      "participants": ["@DD RUFF", "@JCFishing", "@Saylor Jerry", "@Glasgow|WON'T DM", "@Kyle R", "@Klaus"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ledger hardware wallet support for ERG roadmap",
+      "category": "wallet",
+      "key_terms": ["Ledger", "hardware wallet", "cold storage", "Waves DEX", "roadmap", "Q1", "community developer"],
+      "participants": ["@DD RUFF", "@JCFishing", "@Klaus", "@c8", "@Bardamug", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoDEX development timeline and token trading plans",
+      "category": "defi",
+      "key_terms": ["ErgoDEX", "atomic swaps", "Gravity protocol", "ERC20", "liquidity", "Q1", "Q2", "DEX listing"],
+      "participants": ["@Unknown", "@David F", "@mensrea", "@Glasgow|WON'T DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "Liqwid Finance ADA and ERG yield farming integration",
+      "category": "defi",
+      "key_terms": ["Liqwid", "LQ token", "yield farming", "Hydroponica", "qTokens", "ADA staking", "ERG", "liquidity"],
+      "participants": ["@Unknown", "@Adam", "@DD RUFF", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Cardano Mary hard fork and AgeUSD protocol port",
+      "category": "ecosystem",
+      "key_terms": ["Mary hard fork", "multi-asset", "AgeUSD", "adaUSD", "adaRSV", "Cardano", "IOHK", "Emurgo"],
+      "participants": ["@Daniel Ribar", "@Pachua", "@Mohamed", "@Richi", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo NFT auction house trading and creation",
+      "category": "nft",
+      "key_terms": ["NFT", "auction house", "ErgoUtils", "minting", "ergo_nft_trading", "Telegram group", "token"],
+      "participants": ["@UpwindStrategy | King de' Medici", "@zebbra2014", "@Snowman Jason", "@Allll🦴", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo node setup on Raspberry Pi and Linux",
+      "category": "technical",
+      "key_terms": ["Raspberry Pi", "node", "light fullnode", "Linux", "guide", "filippounits"],
+      "participants": ["@Jimmy B", "@kushti khushi", "@filippounits"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergonaut.space community wiki resource launch",
+      "category": "community",
+      "key_terms": ["ergonaut.space", "wiki", "Markdown", "GitHub", "FAQ", "guides", "tutorials"],
+      "participants": ["@Glasgow|WON'T DM", "@Snowman Jason", "@Dmitry Usov", "@chrom"],
+      "significance": "minor"
+    },
+    {
+      "title": "ERG cryptocurrency taxation and regulatory discussion",
+      "category": "community",
+      "key_terms": ["IRS", "capital gains", "tax", "short-term", "long-term", "coinbase", "reporting", "fiat off-ramp"],
+      "participants": ["@Unknown", "@Glasgow|WON'T DM", "@A", "@filippounits"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoMixer privacy protocol liquidity and tokenization",
+      "category": "defi",
+      "key_terms": ["ErgoMixer", "privacy", "mixing", "rings", "liquidity", "tokens", "non-custodial", "zero-knowledge"],
+      "participants": ["@kushti khushi", "@AlctoinFacts", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo exchange listings and market cap growth discussion",
+      "category": "ecosystem",
+      "key_terms": ["exchange listing", "Binance", "market cap", "Coinex", "Hotbit", "Gate.io", "100M", "top exchange"],
+      "participants": ["@Unknown", "@Snowman Jason", "@Yusuf", "@A", "@

@@ -1,0 +1,105 @@
+{
+  "chat": "developer",
+  "week": "2022-W30",
+  "topics": [
+    {
+      "title": "Ergo Node 4.0.35 Release and STDOUT Logging Issues",
+      "category": "technical",
+      "key_terms": ["node release", "v4.0.35", "STDOUT logging", "ProcessBuilder", "pty4j", "logback configuration"],
+      "participants": ["@kushti khushi", "@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "Node Process Execution Without Terminal PTY Library",
+      "category": "technical",
+      "key_terms": ["terminal-less process", "java.lang.Process", "PTY library", "pty4j", "inheritIO", "bytecode generation"],
+      "participants": ["@Aberg Satergo dev", "@kushti khushi", "@Luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo 5.0 Testnet Launch and Testing",
+      "category": "technical",
+      "key_terms": ["5.0 testnet", "testnet launch", "mainnet", "protocol upgrade"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Node Peer Connectivity Issues in v4.0.35",
+      "category": "technical",
+      "key_terms": ["peer dropping", "v4.0.35 regression", "peer removal", "delivery checks", "node banning"],
+      "participants": ["@Flying Pig (™)", "@Luivatra", "@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "Node IP Address Configuration and Link-Local Addresses",
+      "category": "technical",
+      "key_terms": ["declaredAddress", "169.254.x.x", "link-local addresses", "node discovery"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "Trees as Optimistic Rollup Design",
+      "category": "technical",
+      "key_terms": ["optimistic rollup", "tree structure", "scaling"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Market-Driven Emission Contracts Discussion",
+      "category": "defi",
+      "key_terms": ["emission contracts", "market-driven", "tokenomics"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Decentralized Grid Trading on Ergo",
+      "category": "defi",
+      "key_terms": ["grid trading", "decentralized trading", "dex"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Blockchain File Storage and Hash Verification",
+      "category": "technical",
+      "key_terms": ["file storage", "on-chain", "hash", "contract execution"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "REST API Exposure on Public Nodes",
+      "category": "technical",
+      "key_terms": ["REST API", "public nodes", "node configuration"],
+      "participants": ["@AllCloudy | GetBlok.io", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Testnet Faucet Functionality Issues",
+      "category": "technical",
+      "key_terms": ["testnet faucet", "faucet bug", "test tokens"],
+      "participants": ["@Aberg Satergo dev", "@Moein Zargarzadeh"],
+      "significance": "minor"
+    },
+    {
+      "title": "Flux Infrastructure Hosting for Ergo Nodes",
+      "category": "ecosystem",
+      "key_terms": ["Flux hosting", "infrastructure", "docker", "node hosting"],
+      "participants": ["@Armeanio", "@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigma-Rust WebAssembly and DApp Development",
+      "category": "technical",
+      "key_terms": ["sigma-rust", "webassembly", "dapp development", "HTTP API"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti khushi",
+    "@Aberg Satergo dev",
+    "@Flying Pig (™)",
+    "@Luivatra",
+    "@Armeanio"
+  ],
+  "message_count": 60
+}

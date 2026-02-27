@@ -1,0 +1,71 @@
+{
+  "chat": "developer",
+  "week": "2022-W39",
+  "topics": [
+    {
+      "title": "EIP-37 Hard Fork Activation and Voting Timeline",
+      "category": "governance",
+      "key_terms": ["EIP-37", "hard fork", "voting", "activation", "block height 844800", "232/256 votes"],
+      "participants": ["@kushti khushi", "@Glasgow｜WON'T DM", "@Armeanio", "@MHS_SAM"],
+      "significance": "major"
+    },
+    {
+      "title": "Difficulty Adjustment and Mining Block Time Issues",
+      "category": "mining",
+      "key_terms": ["difficulty", "gravity well", "block time", "2 minutes", "hashrate"],
+      "participants": ["@kushti khushi", "@Flying Pig (™)", "@MHS_SAM", "@AllCloudy | GetBlok.io"],
+      "significance": "major"
+    },
+    {
+      "title": "Protocol Version Compatibility and Client Implementation",
+      "category": "technical",
+      "key_terms": ["protocol version", "version check", "reference client", "compatibility", "versions 100/101/103"],
+      "participants": ["@MrStahlfelge | Won't DM", "@kushti khushi", "@Pulsarz"],
+      "significance": "major"
+    },
+    {
+      "title": "Community Sentiment on EIP-37 and Hard Fork Process",
+      "category": "community",
+      "key_terms": ["user experience", "community consensus", "miner vote", "intervention", "profitability"],
+      "participants": ["@Flying Pig (™)", "@MHS_SAM", "@AllCloudy | GetBlok.io"],
+      "significance": "major"
+    },
+    {
+      "title": "NTP Hijacking Vulnerability in Mining Difficulty",
+      "category": "technical",
+      "key_terms": ["NTP hijacking", "gravity well", "min difficulty", "time provider", "trust assumptions"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "AppKit Address Creation Exception Handling",
+      "category": "technical",
+      "key_terms": ["appkit", "Address.create()", "exception handling", "Scala"],
+      "participants": ["@MrStahlfelge | Won't DM", "@Aberg Satergo dev", "@Capt. Nemo"],
+      "significance": "minor"
+    },
+    {
+      "title": "JSON On-Chain Storage Commitment Limits",
+      "category": "technical",
+      "key_terms": ["4kb per utxo", "JSON onchain", "commitment", "hash"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Testnet Reset and PaiNet Restoration",
+      "category": "technical",
+      "key_terms": ["testnet", "paiNet", "node reset", "explorer reset"],
+      "participants": ["@kushti khushi", "@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergohack Registration and Community Outreach",
+      "category": "ecosystem",
+      "key_terms": ["Ergohack", "registration deadline", "community promotion"],
+      "participants": ["@Jennie D"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": ["@kushti khushi", "@MHS_SAM", "@Aberg Satergo dev", "@Flying Pig (™)", "@MrStahlfelge | Won't DM"],
+  "message_count": 54
+}

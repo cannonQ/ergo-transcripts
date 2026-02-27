@@ -1,0 +1,170 @@
+{
+  "chat": "developer",
+  "week": "2024-W31",
+  "topics": [
+    {
+      "title": "Sigma-Rust PR Review and Release Planning",
+      "category": "technical",
+      "key_terms": ["sigma-rust", "PR#758", "release", "5.0.22", "5.0.23"],
+      "participants": ["@kushti0978", "@dusek_", "@mgpai"],
+      "significance": "major"
+    },
+    {
+      "title": "Svelte Framework Adoption for UI Development",
+      "category": "technical",
+      "key_terms": ["svelte", "sveltekit", "vite", "wasm", "react", "frontend"],
+      "participants": ["@c8", "@mgpai", "@Luivatra", "@Aco Šmrkas"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge UI Bounty Program",
+      "category": "bridges",
+      "key_terms": ["rosen-bridge", "bounty", "user interface", "community"],
+      "participants": ["@CW"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigma 6.0 Protocol Finalization and PRs",
+      "category": "technical",
+      "key_terms": ["sigma 6.0", "sigmastate-interpreter", "protocol", "PR#972", "PR#968", "PR#965", "PR#1008"],
+      "participants": ["@kushti0978", "@ergomorphic"],
+      "significance": "major"
+    },
+    {
+      "title": "Node Mempool API and Event Subscription Design",
+      "category": "technical",
+      "key_terms": ["mempool", "API", "unconfirmed transactions", "polling", "socket subscription", "p2p"],
+      "participants": ["@c8", "@kushti0978", "@arobsn"],
+      "significance": "major"
+    },
+    {
+      "title": "ChainCash Server Implementation and API Design",
+      "category": "technical",
+      "key_terms": ["ChainCash", "server", "API", "dusek_"],
+      "participants": ["@kushti0978", "@dusek_"],
+      "significance": "minor"
+    },
+    {
+      "title": "Dexy LP Mint and Redeem Contract Deployment",
+      "category": "defi",
+      "key_terms": ["Dexy", "LP mint", "LP redeem", "contract deployment"],
+      "participants": ["@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Gluon Buyback Action Testing on Mainnet",
+      "category": "defi",
+      "key_terms": ["Gluon", "buyback action", "mainnet contract"],
+      "participants": ["@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Fleet SDK File Separation and Crystal Pool Development",
+      "category": "technical",
+      "key_terms": ["fleet-sdk", "crystal-pool", "mempool monitor", "zmq", "tcp", "deposits"],
+      "participants": ["@c8", "@arobsn"],
+      "significance": "major"
+    },
+    {
+      "title": "Paideia Contract Deployment and Nautilus Integration",
+      "category": "defi",
+      "key_terms": ["Paideia", "contracts", "off-chain code", "sigma-rust", "Nautilus"],
+      "participants": ["@luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Crux API Token Filter and Endpoint Improvements",
+      "category": "technical",
+      "key_terms": ["Crux", "token_list endpoint", "paging", "filtering"],
+      "participants": ["@luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Nautilus Wallet Refactoring and Performance Optimization",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "refactoring", "performance", "global stores", "mempool chaining"],
+      "participants": ["@arobsn"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge Decimal Drop Refactor and Transaction Handling",
+      "category": "bridges",
+      "key_terms": ["rosen-bridge", "decimal drop", "watcher", "scanner", "guard-service"],
+      "participants": ["@vorujack"],
+      "significance": "major"
+    },
+    {
+      "title": "The Field Pledging Protocol MVP Testing",
+      "category": "defi",
+      "key_terms": ["The Field", "pledging protocol", "DAO", "MVP", "smart contracts"],
+      "participants": ["@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sub-Blocks Implementation and Contributors Needed",
+      "category": "technical",
+      "key_terms": ["sub-blocks", "protocol", "network messages", "bounties"],
+      "participants": ["@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "RocksDB Performance and Database Optimization",
+      "category": "technical",
+      "key_terms": ["rocksdb", "LSM tree", "B+ tree", "database performance", "hardware tuning"],
+      "participants": ["@kushti0978", "@c8", "@mgpai"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Node API OpenAPI Documentation Fixes",
+      "category": "technical",
+      "key_terms": ["openapi.yaml", "API documentation", "node"],
+      "participants": ["@kushti0978", "@zargarzadehmoein"],
+      "significance": "minor"
+    },
+    {
+      "title": "AVL+ Trees vs Merkle Patricia Trie Data Structures",
+      "category": "technical",
+      "key_terms": ["AVL+ tree", "merkle patricia trie", "data structure", "research"],
+      "participants": ["@kushti0978", "@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo-Lib-iOS Update and SwiftUI Support",
+      "category": "technical",
+      "key_terms": ["ergo-lib-ios", "SwiftUI", "sigma-rust bindings"],
+      "participants": ["@c8"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Protocol 5.0.22 Release and 5.1.0 Planning",
+      "category": "technical",
+      "key_terms": ["ergo", "5.0.22", "5.1.0", "release"],
+      "participants": ["@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "Testnet and Sidechain Integration Planning",
+      "category": "technical",
+      "key_terms": ["testnet", "sidechain", "mainnet", "token appreciation"],
+      "participants": ["@kushti0978", "@c8"],
+      "significance": "minor"
+    },
+    {
+      "title": "Constant Substitution in Sigma Compiler Optimization",
+      "category": "technical",
+      "key_terms": ["substConstants", "compiler optimization", "sigma"],
+      "participants": ["@kushti0978", "@luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Protocol R&D and Whitepaper 2.0 Development",
+      "category": "technical",
+      "key_terms": ["protocol R&D", "whitepaper 2.0", "ergo manifesto"],
+      "participants": ["@kushti0978"],
+      "significance": "major"
+    }
+  ],
+  "active_participants": [
+    "@kushti0978",
+    "@c8",
+    "@arob

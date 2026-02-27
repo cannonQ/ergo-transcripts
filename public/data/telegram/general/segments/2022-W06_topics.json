@@ -1,0 +1,149 @@
+{
+  "chat": "general",
+  "week": "2022-W06",
+  "topics": [
+    {
+      "title": "EIP-27 Miner Voting and Implementation Timeline",
+      "category": "governance",
+      "key_terms": ["EIP-27", "miner voting", "block 699393", "March implementation", "emission schedule"],
+      "participants": ["@ArØhβΣ @Arohbe", "@Glasgow｜WON'T DM", "@Jalaldinho"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo Explorer Header Update and UI Improvements",
+      "category": "ecosystem",
+      "key_terms": ["explorer redesign", "header update", "user interface", "desktop mobile compatibility"],
+      "participants": ["@Dmitry Usov", "@Glasgow｜WON'T DM", "@theodork"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoDex and Cross-Chain Bridge Development",
+      "category": "bridges",
+      "key_terms": ["ErgoDex", "Solana bridge", "Cardano bridge", "SUSY", "wormhole"],
+      "participants": ["@MHS_SAM", "@Glasgow｜WON'T DM", "@OxCapitulation"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus Wallet Ledger Hardware Support Implementation",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "Ledger integration", "hardware wallet", "private key management"],
+      "participants": ["@CW", "@Glasgow｜WON'T DM", "@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoHack III Projects and Ledger Integration Team",
+      "category": "community",
+      "key_terms": ["ErgoHack III", "hackathon prizes", "Satergo ledger support", "SafeW integration"],
+      "participants": ["@Armeanio", "@Glasgow｜WON'T DM", "@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "CoinEx ERG Withdrawal Issues and Resolution",
+      "category": "ecosystem",
+      "key_terms": ["CoinEx withdrawals", "exchange delays", "transaction confirmation"],
+      "participants": ["@Glasgow｜WON'T DM", "@mark", "@dj"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Emission Schedule and Inflation Analysis",
+      "category": "technical",
+      "key_terms": ["emission schedule", "miner rewards", "inflation rate", "block height reduction"],
+      "participants": ["@Richi [MANA]", "@Jalaldinho", "@Snowman Jason"],
+      "significance": "major"
+    },
+    {
+      "title": "CMC Circulating Supply Data Accuracy Issues",
+      "category": "marketing",
+      "key_terms": ["CoinMarketCap", "supply misreporting", "data accuracy", "retail visibility"],
+      "participants": ["@OxCapitulation", "@Glasgow｜WON'T DM", "@Hamilton Filho"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoPad DAO and Paideia Governance Framework",
+      "category": "defi",
+      "key_terms": ["ErgoPad", "Paideia whitepaper", "DAO governance", "community treasury"],
+      "participants": ["@Unknown", "@Louis", "@JCFishing"],
+      "significance": "major"
+    },
+    {
+      "title": "Minotaur Wallet Development and ErgoPayments",
+      "category": "wallet",
+      "key_terms": ["Minotaur wallet", "ErgoPayments", "multi-platform", "bridge integration"],
+      "participants": ["@MHS_SAM", "@Unknown", "@MrStahlfelge | Won't DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "NiPoPoW Implementation and L2 Scaling Solutions",
+      "category": "technical",
+      "key_terms": ["NiPoPoW", "light client", "sidechains", "block header compression"],
+      "participants": ["@Glasgow｜WON'T DM", "@OxCapitulation", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "LETS Local Exchange Trading System Use Cases",
+      "category": "ecosystem",
+      "key_terms": ["LETS", "trustless ledger", "barter system", "community exchange"],
+      "participants": ["@Ian Lee", "@CW", "@Glasgow｜WON'T DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "Wallet Comparison and Ecosystem Standards",
+      "category": "wallet",
+      "key_terms": ["Yoroi stability", "Nautilus performance", "SAFEW dApp support", "wallet selection"],
+      "participants": ["@Dani", "@MrStahlfelge | Won't DM", "@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "Tax Reporting and Transaction History Export Tools",
+      "category": "ecosystem",
+      "key_terms": ["wallet history export", "CSV transaction data", "token tracking", "tax reporting"],
+      "participants": ["@Unknown", "@MrStahlfelge | Won't DM", "@Hasnain"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Film Series and Community Content Creation",
+      "category": "community",
+      "key_terms": ["Ergo film series", "4K wallpapers", "content production", "marketing materials"],
+      "participants": ["@Unknown", "@Jennie D", "@theta decay"],
+      "significance": "minor"
+    },
+    {
+      "title": "Marketing Strategy and Ecosystem Maturity Debate",
+      "category": "marketing",
+      "key_terms": ["marketing approach", "influencer partnerships", "ecosystem readiness", "utility first"],
+      "participants": ["@E", "@Unknown", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "NETA Airdrop and ErgoDex Liquidity Provisioning",
+      "category": "defi",
+      "key_terms": ["NETA airdrop", "liquidity pools", "token distribution", "ergodex mechanics"],
+      "participants": ["@Pervisage", "@Gazza ｜WON'T DM", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoMixer Privacy Token and Incentive Mechanisms",
+      "category": "defi",
+      "key_terms": ["ErgoMixer", "privacy tokens", "FEMX supply", "mixer incentives"],
+      "participants": ["@MHS_SAM", "@Unknown", "@theodork"],
+      "significance": "minor"
+    },
+    {
+      "title": "GitHub Activity Rankings and Crypto Development Metrics",
+      "category": "community",
+      "key_terms": ["GitHub contributions", "CryptoMiso", "development activity", "project ranking"],
+      "participants": ["@Snowman Jason", "@Glasgow｜WON'T DM", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Node Configuration and Logging Optimization",
+      "category": "technical",
+      "key_terms": ["node setup", "Docker configuration", "logging levels", "java options"],
+      "participants": ["@André", "@Glasgow｜WON'T DM", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mining Difficulty Adjustment and Block Time Parameters",
+      "category": "mining",
+      "key_terms": ["difficulty algorithm", "block time", "hashrate adjustment", "protocol parameters"],
+      "participants": ["@Glasgow

@@ -1,0 +1,140 @@
+{
+  "chat": "general",
+  "week": "2022-W01",
+  "topics": [
+    {
+      "title": "EIP-027 Re-emission Proposal Discussion and Timeline",
+      "category": "governance",
+      "key_terms": ["EIP-027", "re-emission", "storage rent", "miner rewards", "emission schedule"],
+      "participants": ["@kushti_ru", "@glasgowm", "@Frosty", "@cryptoquokka", "@Haskell_plus"],
+      "significance": "major"
+    },
+    {
+      "title": "Solana Bridge Development Status and Timeline",
+      "category": "bridges",
+      "key_terms": ["Solana bridge", "SuSy", "USDT", "cross-chain", "oracle"],
+      "participants": ["@glasgowm", "@Gazza_ERG", "@MHS_sam", "@andrew"],
+      "significance": "major"
+    },
+    {
+      "title": "Coinbase Listing Reddit Poll Community Vote",
+      "category": "marketing",
+      "key_terms": ["Coinbase", "Reddit poll", "Ravencoin", "community voting", "exchange listing"],
+      "participants": ["@TMR.ΣRG", "@REROLABS", "@darkcastle21", "@Kevin"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoMixer Privacy Features and Tokenization",
+      "category": "defi",
+      "key_terms": ["ErgoMixer", "privacy", "MIX tokens", "anonymity", "Monero comparison"],
+      "participants": ["@TMR.ΣRG", "@glasgowm", "@Jose Costa"],
+      "significance": "minor"
+    },
+    {
+      "title": "Wallet Development Updates (iOS, Android, Satergo, Nautilus)",
+      "category": "wallet",
+      "key_terms": ["Ergo Wallet", "Yoroi", "Satergo", "Nautilus", "iOS", "Android", "cold storage"],
+      "participants": ["@MrStahlfelge", "@Aberg", "@glasgowm", "@Gazza_ERG"],
+      "significance": "major"
+    },
+    {
+      "title": "Ledger Hardware Wallet Integration Progress",
+      "category": "wallet",
+      "key_terms": ["Ledger", "hardware wallet", "contract signing", "Anon_br", "security"],
+      "participants": ["@MrStahlfelge", "@Dani", "@andrew"],
+      "significance": "minor"
+    },
+    {
+      "title": "NiPoPoWs Development and Light Client Implementation",
+      "category": "technical",
+      "key_terms": ["NiPoPoWs", "light clients", "UTXO snapshots", "FlyClient", "proof verification"],
+      "participants": ["@kushti_ru", "@glasgowm", "@TMR.ΣRG", "@Louis"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoDex TVL Growth and Liquidity Provision",
+      "category": "defi",
+      "key_terms": ["ErgoDex", "TVL", "liquidity pools", "SigUSD", "APY"],
+      "participants": ["@Peter Horsfall", "@Benny", "@Gabriel Falls", "@Gazza_ERG"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Tip Bot Migration and Multi-Platform Support",
+      "category": "community",
+      "key_terms": ["tip bot", "ErgoTipperBot", "wallet restore", "multi-platform", "Telegram"],
+      "participants": ["@glasgowm", "@Luivatra", "@TMR.ΣRG", "@Snowman Jason"],
+      "significance": "minor"
+    },
+    {
+      "title": "NFT Marketplace Development on Ergo Auctions",
+      "category": "nft",
+      "key_terms": ["Ergo Auctions", "NFT", "royalties", "minting", "artwork"],
+      "participants": ["@Phantasma Punks", "@Max", "@Daniel Oravec", "@ergomergoadargo"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mining Rewards Reduction First Drop in Emission",
+      "category": "mining",
+      "key_terms": ["block rewards", "emission reduction", "whitepaper", "mining profitability"],
+      "participants": ["@kushti_ru", "@CW", "@glasgow"],
+      "significance": "major"
+    },
+    {
+      "title": "KuCoin Exchange Transaction Issues and Resolution",
+      "category": "ecosystem",
+      "key_terms": ["KuCoin", "transaction delays", "mempool", "exchange issues"],
+      "participants": ["@andrew", "@Gazza_ERG", "@Nomad Loko", "@glasgowm"],
+      "significance": "minor"
+    },
+    {
+      "title": "Autolykos Algorithm ASIC Resistance and Memory-Hardness",
+      "category": "mining",
+      "key_terms": ["Autolykos", "ASIC resistant", "memory-hardness", "GPU mining", "pool mining"],
+      "participants": ["@Oliver Aemmer", "@glasgowm", "@Hamilton Filho", "@C4lculista"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoLend Interview on Ergo Pulse Episode 2",
+      "category": "ecosystem",
+      "key_terms": ["ErgoLend", "Ergo Pulse", "Chris Ray", "lending protocol", "ErgoHack"],
+      "participants": ["@Andy L", "@Dani", "@Armeanio", "@chris_ray"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigma Valley Metaverse Development and UI Feedback",
+      "category": "ecosystem",
+      "key_terms": ["Sigma Valley", "metaverse", "UI design", "UX improvements"],
+      "participants": ["@Jennie D", "@darkcastle21", "@glasgowm"],
+      "significance": "minor"
+    },
+    {
+      "title": "Web3 Decentralization Concerns and NiPoPoWs Solution",
+      "category": "technical",
+      "key_terms": ["Web3", "decentralization", "Moxie Marlinspike", "light clients", "infrastructure"],
+      "participants": ["@kushti_ru", "@TMR.ΣRG", "@MrStahlfelge", "@Louis"],
+      "significance": "minor"
+    },
+    {
+      "title": "Charles Hoskinson AMA Mentions Ergo Smart Contracts",
+      "category": "ecosystem",
+      "key_terms": ["Charles Hoskinson", "Cardano AMA", "smart contracts", "eUTXO", "developer approach"],
+      "participants": ["@Richi[MANA]", "@Gazza_ERG", "@Dani", "@Kevin"],
+      "significance": "major"
+    },
+    {
+      "title": "GetBlok.io Proof of Vote (PoV) Tokens Launch",
+      "category": "mining",
+      "key_terms": ["GetBlok", "Proof of Vote", "mining pool", "governance tokens"],
+      "participants": ["@C4lculista", "@Hamilton Filho", "@CW"],
+      "significance": "minor"
+    },
+    {
+      "title": "SigmaUSD Stablecoin Reserves and Liquidity Pools",
+      "category": "defi",
+      "key_terms": ["SigmaUSD", "SigRSV", "reserve ratio", "algorithmic stablecoin", "collateralization"],
+      "participants": ["@glasgowm", "@Gabriel Falls", "@Dani"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoPad Launch and Strategic Sale Discussion",
+      "category": "ecosystem

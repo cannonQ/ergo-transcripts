@@ -1,0 +1,64 @@
+{
+  "chat": "developer",
+  "week": "2022-W34",
+  "topics": [
+    {
+      "title": "ANSI escape codes and logging issues in Windows node",
+      "category": "technical",
+      "key_terms": ["ANSI codes", "Windows", "logging", "akka", "node log"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo protocol reference client 4.0.41 release",
+      "category": "technical",
+      "key_terms": ["v4.0.41", "release", "byte allocation", "efficiency"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo 5.0 hard fork voting and activation timeline",
+      "category": "governance",
+      "key_terms": ["5.0", "voting", "consensus", "activation", "mainnet", "epochs"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Explorer node optimization with light and full index tiers",
+      "category": "technical",
+      "key_terms": ["explorer", "indexes", "API methods", "load balancing", "configurable indexes"],
+      "participants": ["@Ilya Oskin", "@Capt. Nemo", "@MrStahlfelge | Won't DM"],
+      "significance": "major"
+    },
+    {
+      "title": "Address index vs ErgoTree index for explorer API",
+      "category": "technical",
+      "key_terms": ["address index", "ErgoTree", "APIv1", "encoding", "GraphQL"],
+      "participants": ["@Capt. Nemo", "@Ilya Oskin", "@MrStahlfelge | Won't DM"],
+      "significance": "major"
+    },
+    {
+      "title": "Explorer transactions disappearing and node sync issues",
+      "category": "technical",
+      "key_terms": ["explorer", "mempool", "transaction tracking", "node sync", "confirmed transactions"],
+      "participants": ["@Luivatra", "@Ilya Oskin", "@MrStahlfelge | Won't DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "Testnet reset and block time configuration challenges",
+      "category": "technical",
+      "key_terms": ["testnet", "reset", "5 sec blocks", "blocknet", "5.0 activation"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Transaction propagation issues with mainnet scripts on testnet",
+      "category": "technical",
+      "key_terms": ["scripts", "mainnet", "testnet", "transaction propagation"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": ["@kushti khushi", "@Aberg Satergo dev", "@Ilya Oskin", "@Capt. Nemo", "@MrStahlfelge | Won't DM"],
+  "message_count": 52
+}

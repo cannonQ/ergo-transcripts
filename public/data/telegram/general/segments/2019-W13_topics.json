@@ -1,0 +1,64 @@
+{
+  "chat": "general",
+  "week": "2019-W13",
+  "topics": [
+    {
+      "title": "Light nodes implementation and PoPoW proofs",
+      "category": "technical",
+      "key_terms": ["light nodes", "ADProofs", "PoPoW", "state root hash", "stateless clients"],
+      "participants": ["@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "EFYT token conversion to Ergo mainnet",
+      "category": "governance",
+      "key_terms": ["EFYT", "token conversion", "mainnet launch", "foundation tax", "emission curve"],
+      "participants": ["@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "GPU mining setup and tutorials",
+      "category": "mining",
+      "key_terms": ["GPU mining", "miner tutorial", "CUDA", "mining setup", "testnet mining"],
+      "participants": ["@Dmitry", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoScript language Turing completeness and security",
+      "category": "technical",
+      "key_terms": ["ErgoScript", "Turing complete", "smart contracts", "formal verification"],
+      "participants": ["@Dmitry", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Atomic exchange protocol and token interaction",
+      "category": "defi",
+      "key_terms": ["atomic exchange", "decentralized trading", "cross-chain", "token protocols"],
+      "participants": ["@Unknown", "@Larry Salibra"],
+      "significance": "major"
+    },
+    {
+      "title": "Erg-backed Waves tokens vs native Ergo storage",
+      "category": "wallet",
+      "key_terms": ["Waves tokens", "counterparty risk", "token storage", "gateway"],
+      "participants": ["@Unknown", "@Larry Salibra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Node setup and API authorization issues",
+      "category": "technical",
+      "key_terms": ["node setup", "API authorization", "apiKeyHash", "wallet configuration", "Blake2b"],
+      "participants": ["@Unknown", "@Dmitry"],
+      "significance": "minor"
+    },
+    {
+      "title": "AMD GPU mining compatibility concerns",
+      "category": "mining",
+      "key_terms": ["AMD GPU", "mining hardware", "GPU support"],
+      "participants": ["@Rumato Estorsky"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": ["@Unknown", "@Dmitry"],
+  "message_count": 66
+}

@@ -1,0 +1,99 @@
+{
+  "chat": "developer",
+  "week": "2025-W32",
+  "topics": [
+    {
+      "title": "Ergo Node 6.0.1 Release and Review Process",
+      "category": "technical",
+      "key_terms": ["v6.0.1", "release", "PR review", "finalization"],
+      "participants": ["@kushti khushi", "@MGpai", "@Moein Zargarzadeh"],
+      "significance": "major"
+    },
+    {
+      "title": "Sub-blocks Implementation and Security Audit",
+      "category": "technical",
+      "key_terms": ["sub-blocks", "security audit", "optimization", "public testnet", "mining"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Data Input Semantics and Spent Box References",
+      "category": "technical",
+      "key_terms": ["data inputs", "spent boxes", "same block", "certificate pattern"],
+      "participants": ["@kushti khushi", "@Josemi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Wallet Address Derivation Path Issue Resolution",
+      "category": "wallet",
+      "key_terms": ["derivation path", "m/44'/429'/0'/0/0", "Fleet", "address mismatch"],
+      "participants": ["@HQΣr | Wont Dm 🐾 ⚡", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigma SDK 6.0.2 Release and Publishing",
+      "category": "technical",
+      "key_terms": ["Sigma SDK", "v6.0.2", "Sonatype", "sigmastate-interpreter"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "OpenAPI Schema and REST API Documentation Updates",
+      "category": "technical",
+      "key_terms": ["openapi.yaml", "swagger", "API schema", "unconfirmed transactions"],
+      "participants": ["@kushti khushi", "@Moein Zargarzadeh", "@MGpai"],
+      "significance": "major"
+    },
+    {
+      "title": "NFT Storage Rent Collection Mechanics",
+      "category": "nft",
+      "key_terms": ["storage rent", "NFT box", "miner collection", "token preservation"],
+      "participants": ["@Josemi", "@Pgr456"],
+      "significance": "minor"
+    },
+    {
+      "title": "Lithos Protocol Mining Contract Development",
+      "category": "mining",
+      "key_terms": ["Lithos", "difficulty contract", "fraud proof", "stratum", "NISP"],
+      "participants": ["@Michael"],
+      "significance": "minor"
+    },
+    {
+      "title": "ChainCash and SigmaLok Contract Review",
+      "category": "defi",
+      "key_terms": ["ChainCash", "SigmaLok", "USD pool v2", "contract review"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Game of Prompts Cancellation and Anti-Censorship Features",
+      "category": "ecosystem",
+      "key_terms": ["Game of Prompts", "cancellation", "Proof of Omitted Participation", "creator censorship"],
+      "participants": ["@Josemi"],
+      "significance": "minor"
+    },
+    {
+      "title": "LLM Code Generation Limitations and Best Practices",
+      "category": "technical",
+      "key_terms": ["LLM", "code generation", "security audit", "cline", "comments"],
+      "participants": ["@kushti khushi", "@_"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigmastate Repository Branching Rules Standardization",
+      "category": "governance",
+      "key_terms": ["sigmastate-interpreter", "branching rules", "master branch", "release candidate"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Node Mode Visibility and Network Handshake Information",
+      "category": "technical",
+      "key_terms": ["node mode", "handshake", "network visibility"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": ["@kushti khushi", "@Josemi", "@Moein Zargarzadeh", "@DiscordBridge"],
+  "message_count": 71
+}

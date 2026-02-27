@@ -1,0 +1,164 @@
+{
+  "chat": "developer",
+  "week": "2025-W51",
+  "topics": [
+    {
+      "title": "Testnet Explorer Server Migration and Rebuilding",
+      "category": "technical",
+      "key_terms": ["testnet explorer", "server migration", "p2p package", "UI updates"],
+      "participants": ["@qx()", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Pull Request Reviews and Test Fixes",
+      "category": "technical",
+      "key_terms": ["PR #2287", "PR #2255", "sbt assembly", "test compilation", "testnet branch"],
+      "participants": ["@Cheese", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Weekly Developers Chat and Community Feedback",
+      "category": "community",
+      "key_terms": ["weekly chat", "development updates", "dapp development", "research topics"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Smart Contract Authorization Logic Debugging",
+      "category": "technical",
+      "key_terms": ["SigmaProp", "P2PK prefix", "proposition bytes", "transaction verification", "mockchain vs on-chain"],
+      "participants": ["@Josemi", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma State Interpreter Documentation and Learning Resources",
+      "category": "ecosystem",
+      "key_terms": ["sigmastate-interpreter", "sigma-book", "Zig documentation", "sigma-rust"],
+      "participants": ["@x10zyn", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Game of Prompts Contract and Bene Wallet Development",
+      "category": "technical",
+      "key_terms": ["Game of Prompts", "Bene Wallet UI library", "ErgoPay", "contract audit", "Unstoppable Hackathon"],
+      "participants": ["@Josemi"],
+      "significance": "major"
+    },
+    {
+      "title": "ChainCash and Stability Workshop Presentation",
+      "category": "defi",
+      "key_terms": ["ChainCash paper", "Stability Workshop", "financial contracts"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Explorer Token Tracking Enhancement",
+      "category": "technical",
+      "key_terms": ["Ergo Explorer", "USE token", "DexyGold LP swaps", "token tracking"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Crux Platform Dexy LP Swap Integration",
+      "category": "defi",
+      "key_terms": ["Crux", "Dexy LP swapping", "ergotree constants", "swap NFT"],
+      "participants": ["@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Node POWER Architecture Port and Deployment",
+      "category": "technical",
+      "key_terms": ["IBM POWER", "ergo-power", "OpenJDK 17", "systemd service", "rustchain"],
+      "participants": ["@AutoJanitor"],
+      "significance": "major"
+    },
+    {
+      "title": "Lithos Protocol Version 2.2.0 Release",
+      "category": "technical",
+      "key_terms": ["Lithos v2.2.0", "multi-threaded sync", "Rollups", "NISPTrees", "LDB database"],
+      "participants": ["@Cheese"],
+      "significance": "minor"
+    },
+    {
+      "title": "Degens.World Mini dApps Launch",
+      "category": "ecosystem",
+      "key_terms": ["ΣTokenBoard", "ErgoTrace", "token leaderboard", "transaction tracing"],
+      "participants": ["@ArØhβΣ @Arohbe 🍪"],
+      "significance": "minor"
+    },
+    {
+      "title": "Xergon GPU Mining and Context.md AI Integration",
+      "category": "technical",
+      "key_terms": ["Xergon", "GPU mining", "local LLM models", "contract auditing", "Context.md"],
+      "participants": ["@ArØhβΣ @Arohbe 🍪"],
+      "significance": "minor"
+    },
+    {
+      "title": "Nautilus Wallet and Ergo Explorer Pull Requests",
+      "category": "wallet",
+      "key_terms": ["Nautilus Wallet PR #317", "PR #316", "Explorer PR #198", "ErgoPay integration"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Anonymous Ergo Node Tor Integration",
+      "category": "technical",
+      "key_terms": ["Tor anonymity", "BIP 155 addrv2", "P2P protocol", "onion addresses", "Tor Controller"],
+      "participants": ["@x10zyn", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoScript Language Server Protocol Development",
+      "category": "technical",
+      "key_terms": ["ErgoScript LSP", "language server", "type inference", "error reporting", "EIP-5 support"],
+      "participants": ["@Luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo P2P Implementation in Go",
+      "category": "technical",
+      "key_terms": ["ergonnection-go", "Go implementation", "P2P protocol", "Java equivalence"],
+      "participants": ["@MGpai", "@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Unstoppable Hackathon Submissions and Code Review",
+      "category": "community",
+      "key_terms": ["hackathon submissions", "code review", "PR quality", "contract audits"],
+      "participants": ["@x10zyn", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Testnet Explorer UI Enhancements and Language Support",
+      "category": "technical",
+      "key_terms": ["explorer UI", "community section", "commercial apps", "language translations", "localization"],
+      "participants": ["@qx()", "@CHRIS45"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo Wallet Distribution and F-Droid Integration",
+      "category": "wallet",
+      "key_terms": ["F-Droid", "Android wallet", "AltStore", "iOS distribution", "app marketing"],
+      "participants": ["@arkadia", "@Michael", "@cafebedouin.org"],
+      "significance": "minor"
+    },
+    {
+      "title": "Backup Infrastructure and Database Maintenance",
+      "category": "technical",
+      "key_terms": ["ergobackup.aap.cornell.edu", "RocksDB", "database corruption", "space management"],
+      "participants": ["@qx()"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti khushi",
+    "@Josemi",
+    "@qx()",
+    "@Luivatra",
+    "@x10zyn",
+    "@DiscordBridge",
+    "@Cheese",
+    "@ArØhβΣ @Arohbe 🍪"
+  ],
+  "message_count": 67
+}

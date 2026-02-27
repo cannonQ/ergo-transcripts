@@ -1,0 +1,162 @@
+{
+  "chat": "developer",
+  "week": "2024-W51",
+  "topics": [
+    {
+      "title": "Paideia staking contract exploit discovery and remediation",
+      "category": "technical",
+      "key_terms": ["exploit", "staking", "negative amounts", "contract fix", "bug bounty"],
+      "participants": ["@Luivatra", "@cannon_q", "@glasgowm"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaState interpreter v6.0 protocol update and tree-based versioning",
+      "category": "technical",
+      "key_terms": ["sigmastate-interpreter", "tree versioning", "serialization", "protocol 6.0", "RC release"],
+      "participants": ["@kushti khushi", "@dusek_", "@Pgr456"],
+      "significance": "major"
+    },
+    {
+      "title": "SigUSD oracle pool consensus failure and operator incentivization",
+      "category": "defi",
+      "key_terms": ["oracle pool", "consensus", "operator incentives", "DORT", "oracle 2.0"],
+      "participants": ["@Flying Pig", "@kushti khushi", "@Michael", "@qx()", "@cannon_q"],
+      "significance": "major"
+    },
+    {
+      "title": "Cornell Blockchain payment system integration with ErgoTipperBot",
+      "category": "ecosystem",
+      "key_terms": ["Cornell Brick token", "LETS", "tipper bot", "payment system", "blockchain adoption"],
+      "participants": ["@qx()", "@kii", "@cannon_q"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus wallet mobile build and dependency migration",
+      "category": "wallet",
+      "key_terms": ["Nautilus mobile", "UI revamp", "dependencies", "lucide icons"],
+      "participants": ["@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "Documentation expansion for Ergo platform concepts",
+      "category": "ecosystem",
+      "key_terms": ["docs", "Rosen Bridge", "Babel Fees", "Merkle Trees", "soft fork"],
+      "participants": ["@Glasgow"],
+      "significance": "minor"
+    },
+    {
+      "title": "Oracle core ERG/XAG and RSN/XAG oracle pair additions",
+      "category": "defi",
+      "key_terms": ["oracle-core", "ERG/XAG", "RSN/XAG", "coingecko", "API tests"],
+      "participants": ["@Pgr456"],
+      "significance": "minor"
+    },
+    {
+      "title": "Keystone hardware wallet sigma-rust integration and transaction signing",
+      "category": "wallet",
+      "key_terms": ["Keystone", "sigma-rust", "transaction parsing", "hardware wallet"],
+      "participants": ["@Pgr456", "@dusek_"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigmanauts mining pool record performance and bonus token distribution",
+      "category": "mining",
+      "key_terms": ["mining pool", "storage rent", "bonus tokens", "110GH/S"],
+      "participants": ["@Marc the Shark"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoScript compilation and ergotree decompilation verification",
+      "category": "technical",
+      "key_terms": ["ErgoScript", "ergotree", "compilation", "decompilation", "deterministic"],
+      "participants": ["@jossemii", "@Luivatra", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "SCypher security improvements with variable iteration and seed generation",
+      "category": "technical",
+      "key_terms": ["SCypher", "brute force resistance", "iteration count", "seed chain"],
+      "participants": ["@patato.55"],
+      "significance": "minor"
+    },
+    {
+      "title": "Bene protocol final testing and potential end-of-week readiness",
+      "category": "technical",
+      "key_terms": ["Bene", "protocol testing", "final tests"],
+      "participants": ["@jossemii"],
+      "significance": "minor"
+    },
+    {
+      "title": "API rate limiting implementation for node 213 server stability",
+      "category": "technical",
+      "key_terms": ["rate limiting", "API", "node stability", "DDoS", "Hetzner"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoScript token validation patterns and best practices",
+      "category": "technical",
+      "key_terms": ["INPUTS", "token checking", "exists pattern"],
+      "participants": ["@Aco Šmrkas", "@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergopay design philosophy and wallet security architecture debate",
+      "category": "technical",
+      "key_terms": ["ergopay", "proxy contracts", "wallet UX", "contract verification"],
+      "participants": ["@c8e4d2a", "@Flying Pig", "@MrStahlfelge", "@Pulsarz"],
+      "significance": "major"
+    },
+    {
+      "title": "SigUSD UI update development and deployment timeline",
+      "category": "wallet",
+      "key_terms": ["SigUSD", "UI update", "quality of life features"],
+      "participants": ["@c8e4d2a"],
+      "significance": "minor"
+    },
+    {
+      "title": "Smart contract address repository and template standardization",
+      "category": "technical",
+      "key_terms": ["contract repository", "address labels", "templates", "contract verification"],
+      "participants": ["@Luivatra", "@c8e4d2a"],
+      "significance": "minor"
+    },
+    {
+      "title": "Node memory management and RocksDB synchronization issues",
+      "category": "technical",
+      "key_terms": ["node crashes", "heap space", "RocksDB", "checksum mismatch"],
+      "participants": ["@Michael", "@kushti khushi", "@Pulsarz", "@error"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo node installation packages and startup/shutdown documentation",
+      "category": "ecosystem",
+      "key_terms": ["node installation", "docker-compose", "TUI", "startup guide"],
+      "participants": ["@Odiseus Me", "@Christophe Garant"],
+      "significance": "minor"
+    },
+    {
+      "title": "Subnet firewall ban and unusual Hetzner server API activity",
+      "category": "technical",
+      "key_terms": ["firewall", "subnet ban", "Azerbaijan", "API requests"],
+      "participants": ["@kushti khushi", "@HQΣr"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti khushi",
+    "@Luivatra",
+    "@Flying Pig",
+    "@DiscordBridge",
+    "@cannon_q",
+    "@MrStahlfelge",
+    "@Pgr456",
+    "@Michael",
+    "@qx()",
+    "@HQΣr",
+    "@c8e4d2a",
+    "@Pulsarz",
+    "@kii"
+  ],
+  "message_count": 248
+}

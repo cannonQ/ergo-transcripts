@@ -1,0 +1,92 @@
+{
+  "chat": "developer",
+  "week": "2025-W36",
+  "topics": [
+    {
+      "title": "Node connectivity and peer discovery configuration",
+      "category": "technical",
+      "key_terms": ["testnet peers", "port configuration", "node syncing", "connectivity"],
+      "participants": ["@kushti khushi", "@Patato"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sub-blocks protocol and p2p layer rework",
+      "category": "technical",
+      "key_terms": ["sub-blocks", "p2p protocol", "INV messages", "announcement propagation", "input blocks"],
+      "participants": ["@kushti khushi", "@Patato"],
+      "significance": "major"
+    },
+    {
+      "title": "Devnet seed node deployment and testing",
+      "category": "technical",
+      "key_terms": ["devnet seed node", "input blocks delivery", "database layer", "penalization"],
+      "participants": ["@kushti khushi", "@Patato"],
+      "significance": "major"
+    },
+    {
+      "title": "MCP server development and integration",
+      "category": "technical",
+      "key_terms": ["MCP server", "CodeUTXO", "dapp development", "agent tools"],
+      "participants": ["@kushti khushi", "@cannon_q", "@Marc the Shark"],
+      "significance": "major"
+    },
+    {
+      "title": "ChainCash Basis micropayment protocol design",
+      "category": "defi",
+      "key_terms": ["ChainCash", "Basis", "micropayments", "off-chain payments", "tracker contracts", "redemption"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "GitCircles peer-to-peer contribution tracking",
+      "category": "ecosystem",
+      "key_terms": ["GitCircles", "persistence layer", "testing tokens", "distribution"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Hergmes realtime box streamer and mempool indexing",
+      "category": "technical",
+      "key_terms": ["Hergmes", "box streamer", "mempool-aware", "indexed node", "dApp support"],
+      "participants": ["@anon_br Σ"],
+      "significance": "minor"
+    },
+    {
+      "title": "EPMW hardware wallet firmware and entropy generation",
+      "category": "wallet",
+      "key_terms": ["EPMW", "hardware wallet", "entropy generation", "mnemonic recovery", "transaction signing", "Schnorr signing"],
+      "participants": ["@nitram147"],
+      "significance": "major"
+    },
+    {
+      "title": "Log analysis and statistics collection for sub-blocks",
+      "category": "technical",
+      "key_terms": ["logs analysis", "sub-blocks statistics", "orphaned blocks", "full blocks assembly"],
+      "participants": ["@kushti khushi", "@Patato"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo protocol v6.0 soft-fork and sidechains specification",
+      "category": "technical",
+      "key_terms": ["v6.0 soft-fork", "sidechains", "merged mining", "L2 solutions"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Invalid modifiers and peer penalization debugging",
+      "category": "technical",
+      "key_terms": ["invalid modifiers", "peer penalization", "blacklisting", "latency issues"],
+      "participants": ["@kushti khushi", "@Patato"],
+      "significance": "major"
+    }
+  ],
+  "active_participants": [
+    "@kushti khushi",
+    "@Patato",
+    "@DiscordBridge",
+    "@cannon_q",
+    "@anon_br Σ",
+    "@qx()"
+  ],
+  "message_count": 84
+}

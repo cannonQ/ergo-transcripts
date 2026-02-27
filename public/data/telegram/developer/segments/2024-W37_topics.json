@@ -1,0 +1,159 @@
+{
+  "chat": "developer",
+  "week": "2024-W37",
+  "topics": [
+    {
+      "title": "Node wallet UTXO input limit configuration",
+      "category": "technical",
+      "key_terms": ["node wallet", "MaxInputsExceededError", "100 inputs limit", "ergo.conf", "transaction assembly"],
+      "participants": ["@Michael", "@Luivatra", "@Aberg Satergo dev", "@Pulsarz"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo 5.0.23 thread pool rework and optimization",
+      "category": "technical",
+      "key_terms": ["5.0.23 release candidate", "thread pools", "block processing", "mining", "Raspberry Pi testing"],
+      "participants": ["@kushti khushi", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma 6.0 protocol numeric methods and unsigned big int",
+      "category": "technical",
+      "key_terms": ["Sigma 6.0", "numeric methods", "unsigned big int", "devnet", "sigmastate-interpreter"],
+      "participants": ["@kushti khushi", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Sub-blocks P2P messaging and miner modifications",
+      "category": "technical",
+      "key_terms": ["sub-blocks", "P2P messages", "candidate generation", "internal miner", "devnet"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "ChainCash note redemption and indexing implementation",
+      "category": "technical",
+      "key_terms": ["ChainCash", "note redemption", "indexing", "holder pubkey"],
+      "participants": ["@kushti khushi", "@dusek"],
+      "significance": "minor"
+    },
+    {
+      "title": "Dexy ErgoDex integration and payout action deployment",
+      "category": "defi",
+      "key_terms": ["Dexy", "ErgoDex", "payout action", "token issuance"],
+      "participants": ["@kushti khushi", "@code_for_uss"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigmanaut mining pool storage rent and server deployment",
+      "category": "mining",
+      "key_terms": ["Sigmanaut Mining Pool", "storage rent", "mainnet", "server setup", "block mining"],
+      "participants": ["@qx()", "@cheeseenthusiast", "@neuralyogi"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigs Mega Core containerization and mining infrastructure",
+      "category": "mining",
+      "key_terms": ["Sigs Mega Core", "containerization", "pool operators", "payment tables", "Mining Swaps"],
+      "participants": ["@Marc the Shark"],
+      "significance": "major"
+    },
+    {
+      "title": "Cornell AAP student DAO creation and governance",
+      "category": "governance",
+      "key_terms": ["Cornell AAP DAO", "token creation", "Paideia", "student governance", "digital economy"],
+      "participants": ["@qx()"],
+      "significance": "minor"
+    },
+    {
+      "title": "Nautilus wallet transaction history and mempool chaining",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "TX history", "mempool chaining", "explorer integration"],
+      "participants": ["@arobsn", "@pgr456"],
+      "significance": "minor"
+    },
+    {
+      "title": "Fleet SDK v0.6.4 release and blockchain provider fixes",
+      "category": "technical",
+      "key_terms": ["Fleet SDK", "v0.6.4", "blockchain-providers", "retry logic", "utxoDiff"],
+      "participants": ["@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "Rosen Bridge MetaMask integration and message reliability",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "MetaMask", "pubsub", "message retry", "watcher"],
+      "participants": ["@moein_z"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigmaspace.io storage rent dashboard and explorer API",
+      "category": "technical",
+      "key_terms": ["sigmaspace.io", "storage rent dashboard", "blockchain indexer", "explorer API"],
+      "participants": ["@Pgr456"],
+      "significance": "major"
+    },
+    {
+      "title": "Celaut reputation system and payment system implementation",
+      "category": "technical",
+      "key_terms": ["Celaut", "reputation system", "payment system", "sigma panel"],
+      "participants": ["@jossemii", "@mgpai"],
+      "significance": "minor"
+    },
+    {
+      "title": "Paideia emoji DAO and context serialization workarounds",
+      "category": "technical",
+      "key_terms": ["Paideia", "emoji DAOs", "context variable serialization"],
+      "participants": ["@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Appkit dependency vulnerability removal and features",
+      "category": "technical",
+      "key_terms": ["ergo-appkit", "vulnerability fixes", "dependency removal", "new features"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "Stable Order apprenticeship programme and mentorship",
+      "category": "community",
+      "key_terms": ["Stable Order", "apprenticeship", "mentorship", "hodlCoin", "learning"],
+      "participants": ["@kushti khushi", "@Marc the Shark"],
+      "significance": "minor"
+    },
+    {
+      "title": "External wallet transaction signing without private key exposure",
+      "category": "wallet",
+      "key_terms": ["wallet signing", "ECDSA signature", "appkit", "sigmaRust", "fleet SDK"],
+      "participants": ["@nicolavon", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "DerivationPath encoding and equality check issues",
+      "category": "technical",
+      "key_terms": ["DerivationPath", "fromEncoded", "decodedPath", "equality checks"],
+      "participants": ["@Aberg Satergo dev", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Testnet mining synchronization and offline generation issues",
+      "category": "mining",
+      "key_terms": ["testnet mining", "offline generation", "node synchronization", "candidate generation"],
+      "participants": ["@mgpai", "@qx()", "@deathgripson"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti khushi",
+    "@DiscordBridge",
+    "@qx()",
+    "@Aberg Satergo dev",
+    "@Marc the Shark",
+    "@arobsn",
+    "@Pgr456",
+    "@Michael",
+    "@jossemii",
+    "@moein_z"
+  ],
+  "message_count": 85
+}

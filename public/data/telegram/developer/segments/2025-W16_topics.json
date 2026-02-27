@@ -1,0 +1,138 @@
+{
+  "chat": "developer",
+  "week": "2025-W16",
+  "topics": [
+    {
+      "title": "ErgoTree serialization schema for hardware wallets",
+      "category": "technical",
+      "key_terms": ["ErgoTree", "serialization", "VLQ", "unparsed trees", "Keystone", "hardware wallet"],
+      "participants": ["@anon_br", "@Pgr456", "@kushti"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo 6.0 protocol finalization and RC5 release",
+      "category": "technical",
+      "key_terms": ["6.0", "protocol update", "RC5", "sigma-state-interpreter", "mainnet voting"],
+      "participants": ["@kushti", "@dusek"],
+      "significance": "major"
+    },
+    {
+      "title": "Sub-blocks implementation and transaction validation",
+      "category": "technical",
+      "key_terms": ["sub-blocks", "EIP", "transaction classification", "p2p protocol", "block candidate generation"],
+      "participants": ["@kushti", "@dusek"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus wallet internationalization support",
+      "category": "wallet",
+      "key_terms": ["i18n", "localization", "Portuguese BR", "Russian pluralization", "IPFS gateway"],
+      "participants": ["@arobsn", "@c8"],
+      "significance": "minor"
+    },
+    {
+      "title": "Fleet SDK v0.8.3 signed transaction serialization",
+      "category": "technical",
+      "key_terms": ["Fleet SDK", "unsigned transaction", "AgeUSDExchangePlugin", "serialization"],
+      "participants": ["@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "Rosen Bridge Dogecoin and Bitcoin Runes integration",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "Dogecoin", "Bitcoin Runes", "Taproot", "multisig wallet", "TSS"],
+      "participants": ["@ZzZzBYE"],
+      "significance": "major"
+    },
+    {
+      "title": "Oracle Core 2.0.3 release without node scans",
+      "category": "technical",
+      "key_terms": ["Oracle Core", "2.0.3", "node scans removal"],
+      "participants": ["@kushti"],
+      "significance": "minor"
+    },
+    {
+      "title": "Satergo wallet translation updates multiple languages",
+      "category": "wallet",
+      "key_terms": ["Satergo", "Indonesian", "Javanese", "Malaysian", "localization"],
+      "participants": ["@CHRIS45"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigs Mining Pool dashboard and iOS app development",
+      "category": "mining",
+      "key_terms": ["Sigs Mining Pool", "dashboard", "iOS app", "MRP UI", "Mining Wave API"],
+      "participants": ["@Marc the Shark"],
+      "significance": "minor"
+    },
+    {
+      "title": "Crux DEX Token2Token support and portfolio improvements",
+      "category": "defi",
+      "key_terms": ["Crux", "Token2Token", "LP tokens", "portfolio history", "Paideia staking"],
+      "participants": ["@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Celaut service specification and metering computation pricing",
+      "category": "technical",
+      "key_terms": ["Celaut", "service specification", "computation metering", "pricing"],
+      "participants": ["@Josemi", "@kushti"],
+      "significance": "minor"
+    },
+    {
+      "title": "Dexy mainnet token reissue and contract deployment",
+      "category": "defi",
+      "key_terms": ["Dexy", "mainnet tokens", "contract deployment", "private testing"],
+      "participants": ["@kushti"],
+      "significance": "minor"
+    },
+    {
+      "title": "Testnet node setup and CPU mining lottery proposal",
+      "category": "technical",
+      "key_terms": ["testnet", "node configuration", "peer management", "mining lottery", "airdrop"],
+      "participants": ["@qx()", "@Marc the Shark"],
+      "significance": "minor"
+    },
+    {
+      "title": "Node 5.0.26 release and index synchronization issues",
+      "category": "technical",
+      "key_terms": ["node 5.0.26", "5.1.3", "rollback handling", "token index"],
+      "participants": ["@kushti", "@Marc the Shark"],
+      "significance": "minor"
+    },
+    {
+      "title": "Address encoding from unparsed ErgoTree bytes",
+      "category": "technical",
+      "key_terms": ["address encoding", "base58", "blake2b256", "checksum", "unparsed trees"],
+      "participants": ["@arobsn", "@Pgr456"],
+      "significance": "minor"
+    },
+    {
+      "title": "Google Summer of Code mentorship for Ergo projects",
+      "category": "community",
+      "key_terms": ["GSoC", "AOSSIE", "mentorship", "contributors"],
+      "participants": ["@Bruno", "@Josemi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Netnotes-engine project decoupling and SDK development",
+      "category": "technical",
+      "key_terms": ["netnotes-engine", "SDK", "atomic exchange", "contracts", "encryption"],
+      "participants": ["@iospore"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti",
+    "@arobsn",
+    "@Marc the Shark",
+    "@Pgr456",
+    "@anon_br",
+    "@DiscordBridge",
+    "@ZzZzBYE",
+    "@Luivatra",
+    "@CHRIS45",
+    "@iospore"
+  ],
+  "message_count": 93
+}

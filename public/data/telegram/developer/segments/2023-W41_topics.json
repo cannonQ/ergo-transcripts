@@ -1,0 +1,140 @@
+{
+  "chat": "developer",
+  "week": "2023-W41",
+  "topics": [
+    {
+      "title": "UTXO scanning API and /unspent methods behavior",
+      "category": "technical",
+      "key_terms": ["/unspent", "/scan API", "boxes", "offchain spending"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Token change amount calculation in AppKit vs Node",
+      "category": "technical",
+      "key_terms": ["AppKit", "change amounts", "multiple tokens per box", "node logic"],
+      "participants": ["@Luivatra", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Re-emission mechanism and contract architecture",
+      "category": "technical",
+      "key_terms": ["re-emission tokens", "emission box", "pay-to-reemission contract", "EIP-0027", "consensus-level", "contract-level"],
+      "participants": ["@Flying Pig (™)", "@Glasgow｜WON'T DM"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoPay protocol naming and standardization",
+      "category": "ecosystem",
+      "key_terms": ["ErgoPay", "mobile wallet", "naming convention"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "API pagination and data fetching with offset/limit",
+      "category": "technical",
+      "key_terms": ["API endpoints", "offset", "limit", "pagination", "response ordering"],
+      "participants": ["@Paul", "@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Multi-sender transaction construction in ergpy",
+      "category": "technical",
+      "key_terms": ["ergpy", "multi-sender transactions", "contract inputs", "transaction signing", "P2S boxes"],
+      "participants": ["@Flying Pig (™)", "@koukarin - Σ", "@Luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "Node wallet box scanning for derived addresses",
+      "category": "technical",
+      "key_terms": ["node wallet", "derived addresses", "unsigned transactions", "box selection"],
+      "participants": ["@Flying Pig (™)", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Token price valuation methods and data sources",
+      "category": "defi",
+      "key_terms": ["token pricing", "Spectrum API", "pool data", "CoinGecko", "explorer API", "DEX pricing"],
+      "participants": ["@Aberg Satergo dev", "@HQΣr | Wont Dm 🐾 ⚡"],
+      "significance": "major"
+    },
+    {
+      "title": "Stealth address privacy and address linking attacks",
+      "category": "technical",
+      "key_terms": ["stealth addresses", "address privacy", "key generation", "transaction linkability"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "Satergo wallet UI improvements and light node support",
+      "category": "wallet",
+      "key_terms": ["Satergo", "light node", "toggle switches", "UI animation"],
+      "participants": ["@Aberg Satergo dev", "@HQΣr | Wont Dm 🐾 ⚡"],
+      "significance": "minor"
+    },
+    {
+      "title": "Spectrum Network consensus whitepaper updates",
+      "category": "technical",
+      "key_terms": ["Spectrum Network", "whitepaper", "PoS synchronization", "VRF lottery", "consensus algorithm"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Mempool spam protection and transaction acceptance policies",
+      "category": "technical",
+      "key_terms": ["mempool", "spam protection", "cumulative cost", "contract evaluation", "peer throttling"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Block time variance and mining difficulty algorithms",
+      "category": "mining",
+      "key_terms": ["block time", "variance", "PoW algorithm", "Bobtail", "mining consistency"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo marketing strategy for users vs developers",
+      "category": "marketing",
+      "key_terms": ["UX", "marketing messaging", "end users", "developers", "extended UTXO"],
+      "participants": ["@Flying Pig (™)", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Verified token list management and PR submissions",
+      "category": "ecosystem",
+      "key_terms": ["AuctionCoin", "verified tokens", "token list", "GitHub PR", "Spectrum"],
+      "participants": ["@HQΣr | Wont Dm 🐾 ⚡", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Spectrum contract compiler version and backwards compatibility",
+      "category": "technical",
+      "key_terms": ["Pluto", "compiler", "byte differences", "legacy code"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Explorer API status and debugging tools",
+      "category": "technical",
+      "key_terms": ["explorer API", "400 errors", "blockheight", "data corruption"],
+      "participants": ["@HQΣr | Wont Dm 🐾 ⚡"],
+      "significance": "minor"
+    },
+    {
+      "title": "Spectrum liquidity pool management and removal",
+      "category": "defi",
+      "key_terms": ["liquidity pools", "pool removal", "Spectrum interface"],
+      "participants": ["@HQΣr | Wont Dm 🐾 ⚡", "@Pulsarz"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti khushi",
+    "@Luivatra",
+    "@Aberg Satergo dev",
+    "@Flying Pig (™)",
+    "@HQΣr | Wont Dm 🐾 ⚡"
+  ],
+  "message_count": 98
+}

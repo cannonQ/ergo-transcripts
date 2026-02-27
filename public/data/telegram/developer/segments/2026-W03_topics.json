@@ -1,0 +1,144 @@
+{
+  "chat": "developer",
+  "week": "2026-W03",
+  "topics": [
+    {
+      "title": "Ergo Rust Node Implementation and Sync Optimization",
+      "category": "technical",
+      "key_terms": ["rust-node", "sync speed", "rocksdb tuning", "block syncing", "performance"],
+      "participants": ["@Luivatra", "@cannon_q", "@kushti khushi", "@qx()"],
+      "significance": "major"
+    },
+    {
+      "title": "AutolykosV2 Proof of Work Validation Development",
+      "category": "technical",
+      "key_terms": ["AutolykosV2", "PoW validation", "mining"],
+      "participants": ["@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Storage Rent Calculation Hardfork Issues",
+      "category": "technical",
+      "key_terms": ["storage rent", "integer overflow", "hardfork", "scala implementation", "u64"],
+      "participants": ["@Pgr456", "@Luivatra", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Basis Server and ChainCash Development",
+      "category": "technical",
+      "key_terms": ["Basis", "ChainCash", "AVL+ proof", "signature", "redemption", "note signature"],
+      "participants": ["@kushti khushi", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo Node 6.0.2 Release and PR Review",
+      "category": "governance",
+      "key_terms": ["release", "6.0.2", "6.0.3", "6.0.4", "PR review"],
+      "participants": ["@kushti khushi", "@DiscordBridge", "@Cheese"],
+      "significance": "major"
+    },
+    {
+      "title": "Input Blocks and Subblocks API Implementation",
+      "category": "technical",
+      "key_terms": ["input blocks", "subblocks", "openapi.yaml", "devnet", "API methods"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma-Rust Hardfork Divergences from Reference Interpreter",
+      "category": "technical",
+      "key_terms": ["sigma-rust", "hardfork divergences", "reference interpreter", "parity"],
+      "participants": ["@kushti khushi", "@Luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "Schnorr Message Signing Wallet API",
+      "category": "technical",
+      "key_terms": ["Schnorr signing", "message signing", "wallet API", "pubkey"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sidechains Development and Braid Framework",
+      "category": "technical",
+      "key_terms": ["sidechains", "Braid", "Scala vs Rust", "framework generalization"],
+      "participants": ["@kushti khushi", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Crux DeFi Platform and Dexy Minting",
+      "category": "defi",
+      "key_terms": ["Crux", "dexy minting", "UI fixes"],
+      "participants": ["@DiscordBridge", "@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "CyberVerse NFT/FT Portfolio Viewer Tool",
+      "category": "nft",
+      "key_terms": ["CyberVerse", "NFT viewer", "portfolio tracking", "floor pricing", "multi-chain"],
+      "participants": ["@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "USE Stablecoin DeFi Integration and Tracking",
+      "category": "defi",
+      "key_terms": ["USE stablecoin", "DeFiLlama", "PeggedAssets", "stable miner"],
+      "participants": ["@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Degens.world Stable Miner and AMM Development",
+      "category": "defi",
+      "key_terms": ["Degens.world", "stable miner", "USE mint", "Autoswap", "AMM integration", "DEX"],
+      "participants": ["@ArØhβΣ @Arohbe 🍪"],
+      "significance": "minor"
+    },
+    {
+      "title": "Incubate Platform Direct Funding Integration",
+      "category": "defi",
+      "key_terms": ["Incubate", "Bene proposal", "direct funding"],
+      "participants": ["@ArØhβΣ @Arohbe 🍪", "@Josemi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Game of Prompts Competitive Gaming Platform",
+      "category": "ecosystem",
+      "key_terms": ["Game of Prompts", "snake game", "NFT rewards", "algorithmic trading", "on-chain contracts"],
+      "participants": ["@Josemi", "@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "AppKit 6.0 Development and Release",
+      "category": "technical",
+      "key_terms": ["AppKit", "6.0", "Lithos 3.0"],
+      "participants": ["@Cheese", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Testnet Explorer and Node Synchronization",
+      "category": "technical",
+      "key_terms": ["testnet explorer", "node sync", "docker", "p2p API timeout"],
+      "participants": ["@qx()", "@Aco Šmrkas"],
+      "significance": "minor"
+    },
+    {
+      "title": "AI-Assisted Vibe-Coding and Development Philosophy",
+      "category": "community",
+      "key_terms": ["vibe-coding", "AI coding", "legitimacy", "credible neutrality", "distribution mechanics"],
+      "participants": ["@Fitz D", "@qx()"],
+      "significance": "major"
+    }
+  ],
+  "active_participants": [
+    "@kushti khushi",
+    "@DiscordBridge",
+    "@Luivatra",
+    "@qx()",
+    "@cannon_q",
+    "@Josemi",
+    "@ArØhβΣ @Arohbe 🍪",
+    "@Cheese",
+    "@Aco Šmrkas"
+  ],
+  "message_count": 80
+}

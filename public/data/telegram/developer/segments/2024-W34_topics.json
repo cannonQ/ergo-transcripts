@@ -1,0 +1,164 @@
+{
+  "chat": "developer",
+  "week": "2024-W34",
+  "topics": [
+    {
+      "title": "Transaction ID Serialization Issues in Sigma-Rust",
+      "category": "technical",
+      "key_terms": ["sigma-rust", "transaction signing", "serialization", "txId mismatch", "node validation"],
+      "participants": ["@Luivatra", "@DiscordBridge", "@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma 6.0 Protocol Implementation and Activation",
+      "category": "technical",
+      "key_terms": ["Sigma 6.0", "devnet", "activation", "protocol upgrade", "testnet deployment"],
+      "participants": ["@kushti0978", "@DiscordBridge", "@cheeseenthusiast"],
+      "significance": "major"
+    },
+    {
+      "title": "Non-Interactive Sigma Protocols (NISPs) Development",
+      "category": "technical",
+      "key_terms": ["NISP", "smart contracts", "Sigma 6.0 features", "Lithos integration"],
+      "participants": ["@cheeseenthusiast", "@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoScript Cryptographic Parameters and Generator Points",
+      "category": "technical",
+      "key_terms": ["ErgoScript", "secp256k1", "generator point", "curve validation", "dlogGroup"],
+      "participants": ["@DiscordBridge", "@kushti0978", "@dΣathgripson"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mempool Transaction Inclusion and Block Refresh",
+      "category": "technical",
+      "key_terms": ["mempool", "block mining", "transaction confirmation", "block refresh timing"],
+      "participants": ["@Pgr456", "@Michael"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo AppKit Module Compatibility and Dependencies",
+      "category": "technical",
+      "key_terms": ["ergo-appkit", "modular project", "vulnerable dependencies", "retrofit package"],
+      "participants": ["@Aberg Satergo dev", "@kushti khushi", "@mgpai"],
+      "significance": "major"
+    },
+    {
+      "title": "Box Selector Logic in Transaction Construction",
+      "category": "technical",
+      "key_terms": ["ergpy", "box selection", "UTXOs", "input selection", "transaction building"],
+      "participants": ["@jossemii", "@mgpai", "@dΣathgripson", "@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Weak Blocks and Merkle Proof Implementation",
+      "category": "technical",
+      "key_terms": ["weak blocks", "Merkle proof", "subblock transactions", "protocol refactoring"],
+      "participants": ["@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus Wallet Dependency Reduction and Features",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "dependency management", "transaction history", "qrcode library", "uqr"],
+      "participants": ["@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "Bridged USDC Implementation in UTXO Model",
+      "category": "bridges",
+      "key_terms": ["bridged USDC", "UTXO smart contracts", "asset bridging", "Rosen bridge"],
+      "participants": ["@Adaptive Blocksize Limit", "@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Crux Backend Synchronization and Reliability",
+      "category": "technical",
+      "key_terms": ["Crux", "backend servers", "synchronization", "downtime mitigation"],
+      "participants": ["@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Paideia DAO Testing and Contract Bug Fixes",
+      "category": "defi",
+      "key_terms": ["Paideia", "sigma-rust", "contract testing", "bug fixes"],
+      "participants": ["@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "DegenFi Scheme Implementation and Bruno Collaboration",
+      "category": "defi",
+      "key_terms": ["DegenFi", "new scheme", "protocol research"],
+      "participants": ["@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Lithos Client Development and MEV Integration",
+      "category": "technical",
+      "key_terms": ["Lithos", "MEV", "client development", "NISP contracts"],
+      "participants": ["@cheeseenthusiast"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigmanauts Mining Pool Storage Rent Integration",
+      "category": "mining",
+      "key_terms": ["Sigmanauts Mining Pool", "storage rent", "miningcore integration"],
+      "participants": ["@cheeseenthusiast", "@Marc the Shark"],
+      "significance": "minor"
+    },
+    {
+      "title": "Atomic Swap Software and Python API Documentation",
+      "category": "technical",
+      "key_terms": ["Analog Ergo", "atomic swap", "Python API", "ElGamal encryption"],
+      "participants": ["@dΣathgripson"],
+      "significance": "minor"
+    },
+    {
+      "title": "Cup of Sugar Local Currency Implementation",
+      "category": "ecosystem",
+      "key_terms": ["Cup of Sugar", "LETS", "ChainCash", "token economics", "local commerce"],
+      "participants": ["@Not Jumei"],
+      "significance": "minor"
+    },
+    {
+      "title": "ChainCash Server Testing and Mainnet Deployment",
+      "category": "defi",
+      "key_terms": ["ChainCash", "server update", "mainnet testing", "contract fixes"],
+      "participants": ["@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Dexy Bank Actions and Arbitrage Mint Contract",
+      "category": "defi",
+      "key_terms": ["Dexy", "arbitrage", "mint contract", "bank actions"],
+      "participants": ["@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Peer 2 Peer Pod Podcast Production",
+      "category": "community",
+      "key_terms": ["Peer 2 Peer Pod", "podcast", "episode recording"],
+      "participants": ["@Marc the Shark"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Node Repository Compilation and Dependency Issues",
+      "category": "technical",
+      "key_terms": ["ergo node", "sbt assembly", "leveldbjni", "Maven resolvers"],
+      "participants": ["@ab1aut_", "@mgpai", "@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoScript Error Handling and Lazy Evaluation Security",
+      "category": "technical",
+      "key_terms": ["ErgoScript", "error handling", "lazy evaluation", "security implications"],
+      "participants": ["@krasaviceblasen", "@dΣathgripson", "@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Chain Indexer and OpenAPI WASM Client Development",
+      "category": "technical",
+      "key_terms": ["chain indexer", "REST API", "WASM", "Rust client", "JavaScript client"],
+      "participants": ["@pragmaxim"],
+      "significance": "

@@ -1,0 +1,160 @@
+{
+  "chat": "Ergo General",
+  "week": "2024-W49",
+  "topics": [
+    {
+      "title": "Ergo's deflationary supply model vs inflationary coins",
+      "category": "technical",
+      "key_terms": ["deflationary", "circulating supply", "supply shocks", "demurrage"],
+      "participants": ["@LouisLibre ⚡️"],
+      "significance": "major"
+    },
+    {
+      "title": "Storage rent and demurrage implementation discussion",
+      "category": "technical",
+      "key_terms": ["storage rent", "demurrage", "UTXO management", "lost coins"],
+      "participants": ["@LouisLibre ⚡️", "@Chris Ray (Won't DM First)", "@cafebedouin.org"],
+      "significance": "major"
+    },
+    {
+      "title": "6.0 soft-fork proposal and ledger integration progress",
+      "category": "governance",
+      "key_terms": ["soft-fork", "EIP-50", "ledger integration", "security audit"],
+      "participants": ["@Ergo NEWS $ERG", "@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen bridge expansion to BSC, Dogecoin, and Solana",
+      "category": "bridges",
+      "key_terms": ["Rosen", "BSC", "Dogecoin", "cross-chain", "watchers"],
+      "participants": ["@kushti khushi", "@Glasgow｜WON'T DM", "@Flying Pig (™)"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen watcher setup requirements and profitability",
+      "category": "defi",
+      "key_terms": ["RSN", "permits", "APY", "watcher setup", "bridge fees"],
+      "participants": ["@Flying Pig (™)", "@Koutelier || WONT DM", "@S N"],
+      "significance": "major"
+    },
+    {
+      "title": "Mew Finance liquidity bootstrapping and token launches",
+      "category": "defi",
+      "key_terms": ["Mew Finance", "fund.mewfinance.com", "liquidity pools", "token campaigns"],
+      "participants": ["@HQΣr | Wont Dm 🐾 ⚡", "@PEPErg | won't DM"],
+      "significance": "major"
+    },
+    {
+      "title": "PEPERG memecoin listings and farm launch",
+      "category": "ecosystem",
+      "key_terms": ["PEPERG", "Livecoinwatch", "yield farm", "meme token"],
+      "participants": ["@Yulius Kristianto (cg listing boss)", "@PEPErg | won't DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "Real-world transaction processing and TPS comparisons",
+      "category": "technical",
+      "key_terms": ["TPS", "UTXO set", "state size", "transaction throughput"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Hydra heads and layer 2 scalability on Ergo",
+      "category": "technical",
+      "key_terms": ["Hydra", "state channels", "scalability", "doom game"],
+      "participants": ["@kushti khushi", "@cannon_q", "@Matt"],
+      "significance": "major"
+    },
+    {
+      "title": "Keystone hardware wallet development and sigma-rust",
+      "category": "wallet",
+      "key_terms": ["Keystone", "sigma-rust", "hardware wallet", "firmware"],
+      "participants": ["@Pgr456", "@qx()", "@dusek"],
+      "significance": "major"
+    },
+    {
+      "title": "Wrapped ERG on Ethereum and bridge mechanics",
+      "category": "bridges",
+      "key_terms": ["wrapped ERG", "rsERG", "Ethereum", "contract security"],
+      "participants": ["@Glasgow｜WON'T DM", "@Pulsarz", "@E"],
+      "significance": "minor"
+    },
+    {
+      "title": "Bridged token naming convention and user safety",
+      "category": "ecosystem",
+      "key_terms": ["rs prefix", "wrapped tokens", "trust assumptions", "security"],
+      "participants": ["@Alex", "@HQΣr | Wont Dm 🐾 ⚡", "@kushti khushi", "@cafebedouin.org"],
+      "significance": "major"
+    },
+    {
+      "title": "Bluesky adoption and cross-posting strategy",
+      "category": "marketing",
+      "key_terms": ["Bluesky", "migration", "organic interactions", "Twitter alternative"],
+      "participants": ["@Rj", "@Glasgow｜WON'T DM", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "CEX listings and trading volume accessibility",
+      "category": "ecosystem",
+      "key_terms": ["Kraken", "Bitmart", "CEX listing", "volume", "withdrawal fees"],
+      "participants": ["@Jon", "@Rj", "@DrTwentyOne", "@Johnny"],
+      "significance": "minor"
+    },
+    {
+      "title": "Spectrum SDK updates and Dexy team contributions",
+      "category": "technical",
+      "key_terms": ["Spectrum SDK", "Dexy team", "DEX integration"],
+      "participants": ["@Ergo NEWS $ERG"],
+      "significance": "minor"
+    },
+    {
+      "title": "Fleet SDK 0.8.0 release and developer tools",
+      "category": "technical",
+      "key_terms": ["Fleet SDK", "developer tools"],
+      "participants": ["@Ergo NEWS $ERG"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mining ecosystem development and storage rent",
+      "category": "mining",
+      "key_terms": ["mining infrastructure", "storage rent", "community expansion", "decentralization"],
+      "participants": ["@Ergo NEWS $ERG", "@Cheese"],
+      "significance": "major"
+    },
+    {
+      "title": "Lithos and NISPs fraud proof contracts",
+      "category": "technical",
+      "key_terms": ["Lithos", "NISPs", "fraud proofs", "PoW validation"],
+      "participants": ["@Ergo NEWS $ERG"],
+      "significance": "minor"
+    },
+    {
+      "title": "3D blockchain visualization tool 3rgo.xyz launch",
+      "category": "ecosystem",
+      "key_terms": ["3rgo.xyz", "UTXO visualization", "blockchain explorer"],
+      "participants": ["@Ergo NEWS $ERG"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigmanauts BlueSky account setup and content strategy",
+      "category": "marketing",
+      "key_terms": ["Sigmanauts", "BlueSky", "official accounts"],
+      "participants": ["@Ergo NEWS $ERG"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgosScript contract templates and EIP-5",
+      "category": "technical",
+      "key_terms": ["EIP-5", "contract templates", "ErgosScript"],
+      "participants": ["@Ergo NEWS $ERG", "@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergonaut airdrop tool for miner distributions",
+      "category": "ecosystem",
+      "key_terms": ["airdrop", "miners", "command-line tool"],
+      "participants": ["@Ergo NEWS $ERG"],
+      "significance": "minor"
+    },
+    {
+      "title":

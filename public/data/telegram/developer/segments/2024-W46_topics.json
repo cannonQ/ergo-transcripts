@@ -1,0 +1,128 @@
+{
+  "chat": "developer",
+  "week": "2024-W46",
+  "topics": [
+    {
+      "title": "Nautilus dApp Connector Documentation and Wallet Integration",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "dApp Connector", "documentation", "wallet interaction", "transaction signing"],
+      "participants": ["@arobsn", "@kii8888"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo Protocol 6.0 Soft-Fork and Sigma-Rust Updates",
+      "category": "technical",
+      "key_terms": ["6.0 protocol", "soft-fork", "sigma-rust", "unsigned big int", "PR #777"],
+      "participants": ["@kushti", "@dusek_"],
+      "significance": "major"
+    },
+    {
+      "title": "Fork Processing Bug Fix and Node Database Issues",
+      "category": "technical",
+      "key_terms": ["spent box indices", "fork processing", "bug fix", "5.0.25 release", "database sync"],
+      "participants": ["@kushti", "@fantaerik", "@Michael"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaUSD Contract Testing and Testnet Deployment",
+      "category": "defi",
+      "key_terms": ["SigmaUSD", "contract tests", "testnet deployment", "pool", "bank"],
+      "participants": ["@kushti", "@mdmtxo"],
+      "significance": "major"
+    },
+    {
+      "title": "Paideia DAO Mainnet Launch and Profit Sharing",
+      "category": "defi",
+      "key_terms": ["Paideia", "mainnet launch", "treasury", "profit sharing", "staking"],
+      "participants": ["@luivatra", "@kushti"],
+      "significance": "major"
+    },
+    {
+      "title": "Contract Templates and SubstConstants Implementation",
+      "category": "technical",
+      "key_terms": ["contract templates", "substConstants", "EIP-5", "ergoscript", "JSON format"],
+      "participants": ["@kushti", "@luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma-Rust no_std Support Development",
+      "category": "technical",
+      "key_terms": ["sigma-rust", "no_std support", "PR #779"],
+      "participants": ["@dusek_"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigs Mining Pool Swaps and Weekly Bonus Features",
+      "category": "mining",
+      "key_terms": ["mining pool", "swap payments", "weekly bonus", "pool tools"],
+      "participants": ["@Marc the Shark"],
+      "significance": "major"
+    },
+    {
+      "title": "Cealut Project Tutorials and Documentation",
+      "category": "ecosystem",
+      "key_terms": ["Cealut", "tutorials", "project documentation"],
+      "participants": ["@jossemii"],
+      "significance": "minor"
+    },
+    {
+      "title": "Bene Platform Actions Implementation and Testing",
+      "category": "technical",
+      "key_terms": ["Bene platform", "actions implementation", "testing"],
+      "participants": ["@jossemii"],
+      "significance": "minor"
+    },
+    {
+      "title": "Netnotes UI Refactoring and Backend Decoupling",
+      "category": "technical",
+      "key_terms": ["Netnotes", "UI refactoring", "messaging system", "dApp connector"],
+      "participants": ["@iospore"],
+      "significance": "major"
+    },
+    {
+      "title": "The Field Peer-to-Pool Pledging Protocol MVP",
+      "category": "defi",
+      "key_terms": ["The Field", "pledging protocol", "smart contracts", "MVP", "beta testing"],
+      "participants": ["@cannon_q"],
+      "significance": "major"
+    },
+    {
+      "title": "Token ID Determination and First Input Reference",
+      "category": "technical",
+      "key_terms": ["token ID", "minting transaction", "first input"],
+      "participants": ["@Aberg Satergo dev", "@kushti"],
+      "significance": "minor"
+    },
+    {
+      "title": "Fleet SDK Type Encoding for Complex Sigma Types",
+      "category": "technical",
+      "key_terms": ["Fleet SDK", "type encoding", "SColl", "SPair", "UTF8 encoding"],
+      "participants": ["@b_e_e_e_e_e", "@arobsn", "@mgpai"],
+      "significance": "major"
+    },
+    {
+      "title": "GraalVM Native Image Compilation and Build Performance",
+      "category": "technical",
+      "key_terms": ["GraalVM", "native image", "gradle", "compilation time", "memory usage"],
+      "participants": ["@mgpai", "@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "Pull Request Reviews and Approvals",
+      "category": "technical",
+      "key_terms": ["sigma-rust PR #777", "SigmaUSD PR #71", "explorer-frontend PR #198", "code review"],
+      "participants": ["@chris45new", "@anon_real", "@kushti"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti",
+    "@DiscordBridge",
+    "@arobsn",
+    "@luivatra",
+    "@mgpai",
+    "@Michael",
+    "@Aberg Satergo dev"
+  ],
+  "message_count": 79
+}

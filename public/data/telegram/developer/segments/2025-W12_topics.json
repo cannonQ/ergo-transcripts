@@ -1,0 +1,144 @@
+{
+  "chat": "developer",
+  "week": "2025-W12",
+  "topics": [
+    {
+      "title": "PR Reviews and Merges for 6.0 Protocol Update",
+      "category": "technical",
+      "key_terms": ["sigma-rust", "sigmastate-interpreter", "ergo", "pull requests", "code review", "6.0 release"],
+      "participants": ["@kushti0978", "@jozinek", "@novamon_25735", "@ccellado"],
+      "significance": "major"
+    },
+    {
+      "title": "executeFromSelfReg Function Type and Default Arguments",
+      "category": "technical",
+      "key_terms": ["executeFromSelfReg", "type system", "default arguments", "ErgoScript", "LangSpec"],
+      "participants": ["@kushti0978", "@novamon_25735", "@jozinek", "@luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "Scrypto 3.1.0 Release with Scala 3 Support",
+      "category": "technical",
+      "key_terms": ["scrypto", "Scala 3", "release", "scorex-utils", "debox"],
+      "participants": ["@kushti0978", "@jozinek"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo 6.0.0-RC3 Protocol Reference Client Release",
+      "category": "technical",
+      "key_terms": ["ergo 6.0", "release candidate", "testnet", "docker", "protocol update"],
+      "participants": ["@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "Sub-blocks Implementation and P2P Propagation",
+      "category": "technical",
+      "key_terms": ["sub-blocks", "fork resolution", "P2P layer", "protocol", "testing"],
+      "participants": ["@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma-Rust Python Bindings and PyPI Distribution",
+      "category": "technical",
+      "key_terms": ["sigma-rust", "python bindings", "pypi", "ergo-lib-python", "version 0.28.0"],
+      "participants": ["@dusek_", "@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus Wallet v1.1.0 with SigmaUSD Integration",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "wallet", "SigmaUSD", "dApp integration", "Ledger", "i18n"],
+      "participants": ["@arobsn", "@c8e4d2a"],
+      "significance": "major"
+    },
+    {
+      "title": "Dexy Testnet UI Deployment and Token Support",
+      "category": "defi",
+      "key_terms": ["Dexy", "testnet UI", "dApp", "token support", "SigmaUSD", "Gluon Gold"],
+      "participants": ["@c8e4d2a", "@kushti0978", "@jossemii"],
+      "significance": "major"
+    },
+    {
+      "title": "Paideia Staking and Crux Backend Issues",
+      "category": "defi",
+      "key_terms": ["Paideia", "staking cycle", "token display", "Crux", "error handling"],
+      "participants": ["@luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Ecosystem Bounty Board Rework and Automation",
+      "category": "ecosystem",
+      "key_terms": ["bounty board", "automation", "claim system", "repository tracking", "payment requests"],
+      "participants": ["@cannon_q", "@markglasgow", "@neuralyogi"],
+      "significance": "major"
+    },
+    {
+      "title": "Phantom Wallet Integration and Exchange Listing Discussion",
+      "category": "wallet",
+      "key_terms": ["Phantom wallet", "wallet integration", "exchange listing", "visibility", "integration requests"],
+      "participants": ["@gandolfgrey", "@cannon_q", "@Michael"],
+      "significance": "minor"
+    },
+    {
+      "title": "libsecp256k1 JNI Integration and C Library Maintenance",
+      "category": "technical",
+      "key_terms": ["secp256k1", "JNI", "C library", "BitcoinS", "benchmarking"],
+      "participants": ["@novamon_25735", "@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Unit Type Support in SigmaState Interpreter",
+      "category": "technical",
+      "key_terms": ["unit type", "SigmaState", "Scala 3 support", "type system"],
+      "participants": ["@jozinek", "@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Testnet ERG Funding for DexyGold Testing",
+      "category": "technical",
+      "key_terms": ["testnet", "ERG funding", "dApp testing", "DexyGold"],
+      "participants": ["@c8e4d2a", "@dusek_", "@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "ChainCash Research Paper Publication",
+      "category": "technical",
+      "key_terms": ["ChainCash", "research paper", "preprint", "protocol research"],
+      "participants": ["@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Merkle Trees in Sigma Script Implementation",
+      "category": "technical",
+      "key_terms": ["merkle trees", "sigma script", "SigmaState", "implementation"],
+      "participants": ["@ccellado"],
+      "significance": "minor"
+    },
+    {
+      "title": "Testnet Reliability and Decentralized Infrastructure",
+      "category": "governance",
+      "key_terms": ["testnet uptime", "decentralization", "non-interactive innovation", "infrastructure"],
+      "participants": ["@c8e4d2a"],
+      "significance": "minor"
+    },
+    {
+      "title": "PoWJPGs Hexspeak NFT Minting Addresses",
+      "category": "nft",
+      "key_terms": ["PoWJPGs", "NFT minting", "hexspeak", "address generation"],
+      "participants": ["@arkadias", "@powjpgs"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti0978",
+    "@novamon_25735",
+    "@jozinek",
+    "@cannon_q",
+    "@c8e4d2a",
+    "@ccellado",
+    "@dusek_",
+    "@arobsn",
+    "@luivatra"
+  ],
+  "message_count": 101
+}

@@ -1,0 +1,174 @@
+{
+  "chat": "developer",
+  "week": "2024-W20",
+  "topics": [
+    {
+      "title": "Deserialization and DataSerializer standardization",
+      "category": "technical",
+      "key_terms": ["deserialize", "DataSerializer", "serialization", "round-trip property", "deserializeRaw"],
+      "participants": ["@kushti0978", "@ergomorphic"],
+      "significance": "major"
+    },
+    {
+      "title": "Option[T] constructors and Some/None implementation",
+      "category": "technical",
+      "key_terms": ["Option", "Some", "None", "constructors", "ErgoScript"],
+      "participants": ["@kushti0978", "@luivatra", "@ergomorphic"],
+      "significance": "major"
+    },
+    {
+      "title": "GetVar context variable cross-input access",
+      "category": "technical",
+      "key_terms": ["getVar", "context variables", "inputIndex", "varId", "AVL tree proof"],
+      "participants": ["@kushti0978", "@i.oskin", "@luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "AvlTree.bytes serialization implementation",
+      "category": "technical",
+      "key_terms": ["AvlTree", "serialization", "bytes", "modular arithmetic"],
+      "participants": ["@kushti0978", "@ergomorphic"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo v5.0.22 and v6.0 protocol updates",
+      "category": "technical",
+      "key_terms": ["executeFromVar", "EIP-50", "deserialize PR", "protocol release"],
+      "participants": ["@kushti0978", "@ergomorphic"],
+      "significance": "major"
+    },
+    {
+      "title": "Node API stability with additional indices",
+      "category": "technical",
+      "key_terms": ["API", "indexing", "fork-join executor", "stability"],
+      "participants": ["@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Testnet mining stability and miner configuration",
+      "category": "mining",
+      "key_terms": ["testnet mining", "difficulty adjustment", "offlineGeneration", "stratum server"],
+      "participants": ["@dΣathgripson", "@kushti0978", "@mgpai", "@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "Stratum4Ergo and alternative mining pool implementations",
+      "category": "mining",
+      "key_terms": ["stratum4ergo", "miningcore", "ErgoStratumServer", "solo-mining"],
+      "participants": ["@Aberg Satergo dev", "@dΣathgripson", "@mgpai"],
+      "significance": "minor"
+    },
+    {
+      "title": "Paideia DAO frontend and EIP-5 implementation",
+      "category": "governance",
+      "key_terms": ["Paideia", "DAO frontend", "EIP-5", "create DAO"],
+      "participants": ["@luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergopad staking bot infrastructure refactoring",
+      "category": "defi",
+      "key_terms": ["Ergopad", "staking bots", "transaction indexing", "node infrastructure"],
+      "participants": ["@luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Reputation systems TypeScript and Rust implementation",
+      "category": "ecosystem",
+      "key_terms": ["reputation system", "WASM", "TypeScript rewrite", "graph search"],
+      "participants": ["@jossemii", "@ergomorphic"],
+      "significance": "minor"
+    },
+    {
+      "title": "Rosen Bridge Bitcoin integration and RPC scanner",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "Bitcoin RPC", "observation extractor", "cross-chain"],
+      "participants": ["@zzzzbye"],
+      "significance": "minor"
+    },
+    {
+      "title": "Fleet SDK documentation and integration support",
+      "category": "technical",
+      "key_terms": ["Fleet SDK", "documentation", "blockchain providers", "GraphQL"],
+      "participants": ["@arobsn", "@kushti0978", "@jossemii"],
+      "significance": "minor"
+    },
+    {
+      "title": "Babel Fees implementation and tutorial",
+      "category": "defi",
+      "key_terms": ["Babel Fees", "box serialization", "explorer API mapping"],
+      "participants": ["@justblake3911", "@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "ChainCash protocol and contract development",
+      "category": "defi",
+      "key_terms": ["ChainCash", "Rust server", "smart contracts", "transaction builder"],
+      "participants": ["@kushti0978", "@_victory_413", "@wombo22"],
+      "significance": "minor"
+    },
+    {
+      "title": "SkyHarbor NFT marketplace multi-royalty upgrade",
+      "category": "nft",
+      "key_terms": ["SkyHarbor", "royalties", "audio NFTs", "collection standard"],
+      "participants": ["@Quokka"],
+      "significance": "minor"
+    },
+    {
+      "title": "CyberVerse car racing minigame v2 and partnerships",
+      "category": "ecosystem",
+      "key_terms": ["CyberVerse", "car racing", "minigame", "Cardano partnerships"],
+      "participants": ["@pxl.erg"],
+      "significance": "minor"
+    },
+    {
+      "title": "The Field peer-to-pool pledging protocol MVP",
+      "category": "defi",
+      "key_terms": ["The Field", "pledging protocol", "DAO", "smart contracts MVP"],
+      "participants": ["@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "Atomic Swap REST API and state management refactor",
+      "category": "defi",
+      "key_terms": ["Atomic Swap", "REST API", "hot reload", "state handling"],
+      "participants": ["@dΣathgripson"],
+      "significance": "minor"
+    },
+    {
+      "title": "RosenPort bridge minimum transaction cost solution",
+      "category": "bridges",
+      "key_terms": ["RosenPort", "bridge costs", "minimum transfer", "Rosen Bridge"],
+      "participants": ["@kii"],
+      "significance": "minor"
+    },
+    {
+      "title": "Token Bouncer and Dice Faucet community tools",
+      "category": "ecosystem",
+      "key_terms": ["token bouncer", "dice faucet", "telegram bot", "token filtering"],
+      "participants": ["@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "OVH DDoS protection and network node attacks",
+      "category": "technical",
+      "key_terms": ["DDoS protection", "node network", "OVH", "firewall rules"],
+      "participants": ["@andrei_krx", "@kushti0978"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti0978",
+    "@ergomorphic",
+    "@DiscordBridge",
+    "@luivatra",
+    "@dΣathgripson",
+    "@mgpai",
+    "@Aberg Satergo dev",
+    "@jossemii",
+    "@arobsn",
+    "@pxl.erg",
+    "@kii"
+  ],
+  "message_count": 208
+}

@@ -1,0 +1,124 @@
+{
+  "chat": "developer",
+  "week": "2025-W33",
+  "topics": [
+    {
+      "title": "Ergo 6.0.1 Release and Testnet Deployment",
+      "category": "technical",
+      "key_terms": ["6.0.1", "testnet", "public testnet", "node release"],
+      "participants": ["@kushti khushi", "@Michael", "@Matus"],
+      "significance": "major"
+    },
+    {
+      "title": "Sub-blocks Implementation and DoS Mitigation",
+      "category": "technical",
+      "key_terms": ["sub-blocks", "refactoring PR #2180", "DoS vectors", "BIP152", "compact block relay"],
+      "participants": ["@kushti khushi", "@ntech"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaSDK 6.0.2/6.0.3 Release Process",
+      "category": "technical",
+      "key_terms": ["SigmaSDK", "6.0.3", "release process", "sigma-rust PR #836"],
+      "participants": ["@kushti khushi", "@Pgr456"],
+      "significance": "major"
+    },
+    {
+      "title": "Braid Sidechain Whitepaper - Bitcoin and Ergo Double Merge-Mining",
+      "category": "technical",
+      "key_terms": ["Braid", "sidechain", "Bitcoin", "merge-mined", "whitepaper"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge UI and Service Enhancements",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "Event page", "scanner service", "health-check", "box selection"],
+      "participants": ["@zargarzadehmoein"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo Raffle Service Development",
+      "category": "ecosystem",
+      "key_terms": ["ergo-raffle", "transactions package", "box-lookup", "health-check"],
+      "participants": ["@zargarzadehmoein"],
+      "significance": "minor"
+    },
+    {
+      "title": "Nautilus Wallet Passwordless Transaction Signing",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "passwordless signing", "Keystone integration"],
+      "participants": ["@arobsn", "@Pgr456"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigmaspace API and ErgoDEX Transition",
+      "category": "defi",
+      "key_terms": ["Sigmaspace", "API endpoints", "ErgoDEX", "DAO conversion"],
+      "participants": ["@Pgr456"],
+      "significance": "minor"
+    },
+    {
+      "title": "Minotaur Wallet 3.1.0 Release",
+      "category": "wallet",
+      "key_terms": ["Minotaur 3.1.0", "asset collapse", "Buy ERG button", "ErgoPay"],
+      "participants": ["@vorujack", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "LithosProtocol Fraud Proof Contracts Development",
+      "category": "technical",
+      "key_terms": ["LithosProtocol", "fraud proof", "off-chain code", "stratum"],
+      "participants": ["@Michael"],
+      "significance": "minor"
+    },
+    {
+      "title": "Smart Contract Debugging Methods and Tools",
+      "category": "technical",
+      "key_terms": ["contract debugging", "mock-chain", "scastie", "fleet-sdk"],
+      "participants": ["@Josemi", "@MGpai", "@c8", "@anon_br Σ"],
+      "significance": "minor"
+    },
+    {
+      "title": "NiPoPoW Implementation and Rustchain Development",
+      "category": "technical",
+      "key_terms": ["NiPoPoW", "Rustchain", "p2p messages", "deserialization"],
+      "participants": ["@kushti khushi", "@ntech"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mining Setup with Ergo Stratum Server and Rigel Miner",
+      "category": "mining",
+      "key_terms": ["testnet mining", "ergostratumserver", "rigel miner", "ethernet"],
+      "participants": ["@Matus"],
+      "significance": "minor"
+    },
+    {
+      "title": "Security Alert - North Korean Hacker Job Infiltration",
+      "category": "community",
+      "key_terms": ["security", "North Korean hackers", "open-source poisoning", "recruiter scams"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Feeless ErgoDEX Setup Script",
+      "category": "defi",
+      "key_terms": ["ErgoDEX", "zero fees", "bash script", "environment setup"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti khushi",
+    "@DiscordBridge",
+    "@Michael",
+    "@Matus",
+    "@Pgr456",
+    "@ntech",
+    "@zargarzadehmoein",
+    "@vorujack",
+    "@Josemi",
+    "@c8"
+  ],
+  "message_count": 86
+}

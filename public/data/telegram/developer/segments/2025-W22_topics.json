@@ -1,0 +1,142 @@
+{
+  "chat": "developer",
+  "week": "2025-W22",
+  "topics": [
+    {
+      "title": "sigma-rust PR reviews and approvals",
+      "category": "technical",
+      "key_terms": ["sigma-rust", "pull requests", "code review", "PR#827", "PR#829", "PR#830"],
+      "participants": ["@kushti", "@dusek"],
+      "significance": "major"
+    },
+    {
+      "title": "ergoc CLI compiler v0.1.2 release and features",
+      "category": "technical",
+      "key_terms": ["ergoc", "ErgoScript compiler", "watch mode", "Base16", "Base58", "compilation optimization"],
+      "participants": ["@arobsn", "@Luivatra", "@c8"],
+      "significance": "major"
+    },
+    {
+      "title": "Satergo frontend dependencies and React optimization",
+      "category": "technical",
+      "key_terms": ["Satergo", "npm node_modules", "React", "Svelte", "frontend build", "satergo.com"],
+      "participants": ["@Aberg Satergo dev", "@c8", "@anon_br Σ", "@HQΣr | Wont Dm 🐾 ⚡"],
+      "significance": "minor"
+    },
+    {
+      "title": "Fleet SDK v0.9.0 and EIP-5 JSON support",
+      "category": "technical",
+      "key_terms": ["Fleet SDK", "OutputBuilder", "EIP-5", "JSON output", "ErgoTree templates"],
+      "participants": ["@arobsn", "@Luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo protocol 6.0 and EIP-50 development",
+      "category": "technical",
+      "key_terms": ["Ergo 6.0", "EIP-50", "protocol upgrade", "soft-fork", "sub-blocks testing"],
+      "participants": ["@kushti"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge multi-chain integration progress",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "WalletConnect", "Bitcoin Runes", "Dogecoin", "Cardano", "rate limiting"],
+      "participants": ["@Moein Zargarzadehmoein", "@ZzZzBYE"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigmachains refactoring roadmap and architecture",
+      "category": "technical",
+      "key_terms": ["Sigmachains", "sidechains", "refactoring roadmap", "sigma", "reference client"],
+      "participants": ["@kushti"],
+      "significance": "major"
+    },
+    {
+      "title": "Dexy private UI testing phase",
+      "category": "defi",
+      "key_terms": ["Dexy", "UI testing", "private beta"],
+      "participants": ["@kushti"],
+      "significance": "minor"
+    },
+    {
+      "title": "ChainCash and offchain cash options research",
+      "category": "defi",
+      "key_terms": ["ChainCash", "Basis", "offchain cash", "presentation", "forum post"],
+      "participants": ["@kushti"],
+      "significance": "minor"
+    },
+    {
+      "title": "Satergo v1.9.2 release and Offline Vault bugfix",
+      "category": "wallet",
+      "key_terms": ["Satergo", "v1.9.2", "Offline Vault", "Android app"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergoc constant placeholder support discussion",
+      "category": "technical",
+      "key_terms": ["ergoc", "script constants", "placeholders", "ErgoTree assembly"],
+      "participants": ["@arobsn", "@kushti", "@c8", "@MGpai"],
+      "significance": "major"
+    },
+    {
+      "title": "MGpai offchain executor framework in Golang",
+      "category": "technical",
+      "key_terms": ["offchain executor", "Golang", "actor model", "transaction executor", "resilience"],
+      "participants": ["@MGpai", "@arobsn"],
+      "significance": "major"
+    },
+    {
+      "title": "Keystone and Nautilus wallet integration testing",
+      "category": "wallet",
+      "key_terms": ["Keystone", "Nautilus integration", "transaction signing", "end-to-end test"],
+      "participants": ["@Pgr456", "@dusek"],
+      "significance": "minor"
+    },
+    {
+      "title": "Fleet SDK mnemonic import and transaction signing",
+      "category": "wallet",
+      "key_terms": ["Fleet SDK", "mnemonic import", "transaction signing", "wallet"],
+      "participants": ["@HQΣr | Wont Dm 🐾 ⚡", "@Moein Zargarzadeh"],
+      "significance": "minor"
+    },
+    {
+      "title": "Node sync issues and alternative node configuration",
+      "category": "technical",
+      "key_terms": ["node synchronization", "mobile wallet", "node endpoints", "storage issue"],
+      "participants": ["@elduko5029", "@kushti"],
+      "significance": "minor"
+    },
+    {
+      "title": "Explorer API mempool lag and direct node usage",
+      "category": "technical",
+      "key_terms": ["Explorer API", "mempool latency", "node querying", "API performance"],
+      "participants": ["@HQΣr | Wont Dm 🐾 ⚡", "@Aco Šmrkas", "@Pulsarz"],
+      "significance": "minor"
+    },
+    {
+      "title": "Git Circles community currency framework",
+      "category": "ecosystem",
+      "key_terms": ["Git Circles", "community currencies", "open source", "programmable assets"],
+      "participants": ["@kushti"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ledger app for Ergo bounty and development",
+      "category": "wallet",
+      "key_terms": ["Ledger app", "Ergo", "bounty"],
+      "participants": ["@arobsn"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@arobsn",
+    "@kushti",
+    "@Aberg Satergo dev",
+    "@HQΣr | Wont Dm 🐾 ⚡",
+    "@Moein Zargarzadeh",
+    "@MGpai",
+    "@DiscordBridge"
+  ],
+  "message_count": 83
+}

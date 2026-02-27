@@ -1,0 +1,83 @@
+{
+  "chat": "developer",
+  "week": "2023-W06",
+  "topics": [
+    {
+      "title": "P2P Protocol Transaction Parsing and ErgoTree Serialization",
+      "category": "technical",
+      "key_terms": ["P2P protocol", "ErgoTransaction", "ErgoTree", "ContextExtension", "SigmaBoolean", "ProveDlog", "serialization"],
+      "participants": ["@Aberg Satergo dev", "@Alex Slesarenko", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaState Library Integration and Low-Level Protocol Implementation",
+      "category": "technical",
+      "key_terms": ["SigmaState", "serializers", "SigmaByteReader", "ErgoScript compiler", "interpreter module"],
+      "participants": ["@Aberg Satergo dev", "@Alex Slesarenko"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoTree PDF Specification Errors and Corrections",
+      "category": "technical",
+      "key_terms": ["ErgoTree.pdf", "specification", "header parsing", "byte encoding", "documentation"],
+      "participants": ["@Aberg Satergo dev", "@Alex Slesarenko"],
+      "significance": "minor"
+    },
+    {
+      "title": "HD Wallet Derivation Paths and Hardened Keys",
+      "category": "wallet",
+      "key_terms": ["BIP44", "derivation path", "hardened derivation", "44'/429'/0'/0/0"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoHack VI Cypherpunk Finance Event",
+      "category": "community",
+      "key_terms": ["ErgoHack VI", "cypherpunk", "privacy", "cryptocurrency", "first principles"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Spectrum DEX API Volume Query and Filtering",
+      "category": "defi",
+      "key_terms": ["Spectrum.fi", "AMM pool", "24h volume", "API filters", "from/to parameters"],
+      "participants": ["@HQΣr | Wont Dm 🐾 ⚡"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoExplorer Queries for Token Staking Contracts",
+      "category": "defi",
+      "key_terms": ["ErgoExplorer", "staking contract", "Ergopad", "SQL queries", "token extraction"],
+      "participants": ["@Flying Pig (™)"],
+      "significance": "minor"
+    },
+    {
+      "title": "Protocol v5.0.7 Release",
+      "category": "ecosystem",
+      "key_terms": ["Ergo v5.0.7", "protocol release", "client update"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Crosschain Integration for Fluid Token Smart Contracts",
+      "category": "bridges",
+      "key_terms": ["crosschain", "smart contracts", "Fluid Token", "interoperability"],
+      "participants": ["@MaluiinPool"],
+      "significance": "minor"
+    },
+    {
+      "title": "Affiliate and Referral System Using Smart Contracts",
+      "category": "defi",
+      "key_terms": ["affiliate tracking", "referral links", "p2pk address", "metadata", "influencer rewards"],
+      "participants": ["@HQΣr | Wont Dm 🐾 ⚡", "@Flying Pig (™)"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@Aberg Satergo dev",
+    "@Alex Slesarenko",
+    "@kushti khushi",
+    "@HQΣr | Wont Dm 🐾 ⚡"
+  ],
+  "message_count": 80
+}

@@ -1,0 +1,160 @@
+{
+  "chat": "developer",
+  "week": "2024-W50",
+  "topics": [
+    {
+      "title": "AES-GCM encryption parameters and PBKDF2 configuration",
+      "category": "technical",
+      "key_terms": ["AES-128 vs AES-256", "PBKDF2 iterations", "IV derivation", "encryption key management"],
+      "participants": ["@Aberg Satergo dev", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Wallet format versioning and encryption salt handling",
+      "category": "wallet",
+      "key_terms": ["wallet format", "key derivation", "seed phrase encryption", "format versioning"],
+      "participants": ["@Aberg Satergo dev", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma-rust PRs and deterministic nonces implementation",
+      "category": "technical",
+      "key_terms": ["sigma-rust", "PR #781", "PR #782", "deterministic nonces"],
+      "participants": ["@dusek_", "@kushti khushi", "@Pgr456"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoScript tree versioning for 6.0 protocol activation",
+      "category": "technical",
+      "key_terms": ["tree versioning", "v3 trees", "6.0 soft-fork", "semantics changes", "lazy evaluation"],
+      "participants": ["@kushti khushi", "@arobsn", "@c8e4d2a", "@dusek_"],
+      "significance": "major"
+    },
+    {
+      "title": "NFT authenticity verification via issuer contracts",
+      "category": "nft",
+      "key_terms": ["NFT minting", "contract validation", "certificate box", "recipe-contract pattern", "monster evolution"],
+      "participants": ["@c8e4d2a", "@ldgaetano", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Hashmon NFT generation and parallelized minting",
+      "category": "nft",
+      "key_terms": ["Hashmon", "NFT minting", "template UTXOs", "recipe contracts", "parallel style"],
+      "participants": ["@c8e4d2a", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "SCypher BIP39 seed phrase cipher tool development",
+      "category": "ecosystem",
+      "key_terms": ["BIP39", "seed cipher", "bash script", "Fisher-Yates shuffle", "AI-assisted development"],
+      "participants": ["@patato.55", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Lithos layer-2 protocol and NISP contracts",
+      "category": "defi",
+      "key_terms": ["Lithos", "NISP contracts", "optimistic rollup", "storage rent", "share proofs"],
+      "participants": ["@cheeseenthusiast", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "6.0 protocol activation timeline and voting schedule",
+      "category": "governance",
+      "key_terms": ["6.0 activation", "3-month timeline", "miner voting", "post-voting period", "January/February window"],
+      "participants": ["@kushti khushi", "@cheeseenthusiast"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigmanauts Mining Pool weekly updates and features",
+      "category": "mining",
+      "key_terms": ["mining pool", "bonus rewards", "airdrop code", "storage rent distribution", "token swapping"],
+      "participants": ["@Marc the Shark", "@cannon_q"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoMonitor zeromq event notifications upgrade",
+      "category": "ecosystem",
+      "key_terms": ["ErgoMonitor", "zeromq events", "mempool notifications", "real-time monitoring"],
+      "participants": ["@Pulsarz"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mempool server and address history socket subscriptions",
+      "category": "technical",
+      "key_terms": ["mempool server", "socket subscriptions", "API endpoints", "address history"],
+      "participants": ["@c8e4d2a"],
+      "significance": "minor"
+    },
+    {
+      "title": "Exle UI redesign in Svelte framework",
+      "category": "ecosystem",
+      "key_terms": ["Exle", "Svelte UI", "Figma specs", "user interface redesign"],
+      "participants": ["@c8e4d2a"],
+      "significance": "minor"
+    },
+    {
+      "title": "Discord bridge connection failures and monitoring",
+      "category": "community",
+      "key_terms": ["Discord bridge", "connection failures", "watchers", "automation alerts"],
+      "participants": ["@kushti khushi", "@Glasgow", "@qx()"],
+      "significance": "minor"
+    },
+    {
+      "title": "Node hanging issues and extraIndexer investigation",
+      "category": "technical",
+      "key_terms": ["node hanging", "process stall", "extraIndexer", "logging issues"],
+      "participants": ["@Luivatra", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sub-blocks implementation and bounty contributions",
+      "category": "technical",
+      "key_terms": ["sub-blocks", "implementation", "bounties", "testing"],
+      "participants": ["@kushti khushi", "@mgpai", "@kii"],
+      "significance": "major"
+    },
+    {
+      "title": "Node 213 connection overload and P2P port changes",
+      "category": "technical",
+      "key_terms": ["node overload", "P2P connections", "connection flooding", "network stability"],
+      "participants": ["@kushti khushi", "@Luivatra", "@Moein Zargarzadeh", "@MGpai"],
+      "significance": "major"
+    },
+    {
+      "title": "Android Studio build conflicts and dependency management",
+      "category": "technical",
+      "key_terms": ["Android Studio", "build conflicts", "jitpack", "dependency versioning"],
+      "participants": ["@HQΣr", "@MrStahlfelge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Oracle pool contract epoch preparation mechanism",
+      "category": "defi",
+      "key_terms": ["oracle pool", "epoch preparation", "EIP-29", "oracle voting"],
+      "participants": ["@Ahmet", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "CyberVerse game updates and holiday event rollout",
+      "category": "ecosystem",
+      "key_terms": ["CyberVerse", "game mechanics", "Christmas event", "in-game items", "candy system"],
+      "participants": ["@pxlcv", "@MavΣrickBg"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigmanauts DAO operations and governance updates",
+      "category": "governance",
+      "key_terms": ["Sigmanauts DAO", "Paideia voting", "multi-sig treasury", "community guidelines"],
+      "participants": ["@Unknown"],
+      "significance": "major"
+    }
+  ],
+  "active_participants": [
+    "@kushti khushi",
+    "@DiscordBridge",
+    "@c8e4d2a",
+    "@Aberg Satergo dev",
+    "@HQΣr | Wont Dm 🐾 ⚡",
+    "@Luivatra",
+    "@

@@ -1,0 +1,170 @@
+{
+  "chat": "general",
+  "week": "2023-W10",
+  "topics": [
+    {
+      "title": "Oracle Pools v2 beta release and reward mechanisms",
+      "category": "technical",
+      "key_terms": ["Oracle Pools v2", "beta6", "reward tokens", "protocol upgrade"],
+      "participants": ["@kushti khushi", "@greenhat", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Dexy algorithmic stablecoin design and LP integration",
+      "category": "defi",
+      "key_terms": ["Dexy", "stablecoin", "bank reserves", "fee split", "Spectrum"],
+      "participants": ["@kushti khushi", "@Unknown", "@Gazza"],
+      "significance": "major"
+    },
+    {
+      "title": "ChainCash elastic p2p money protocol overview",
+      "category": "defi",
+      "key_terms": ["ChainCash", "elastic money", "trust-based", "blockchain assets"],
+      "participants": ["@kushti khushi", "@CW"],
+      "significance": "minor"
+    },
+    {
+      "title": "Rosen bridge cross-chain development progress",
+      "category": "bridges",
+      "key_terms": ["Rosen bridge", "ETH/BTC connectors", "public beta", "sigma-rust"],
+      "participants": ["@Glasgow", "@Unknown", "@mhs_sam"],
+      "significance": "major"
+    },
+    {
+      "title": "SigUSD upgrade path and reserve-of-last-resort mechanics",
+      "category": "defi",
+      "key_terms": ["SigUSD", "RoLR", "overcollateralization", "reserve conditions"],
+      "participants": ["@Armeanio", "@kushti khushi", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Spectrum Finance yield farming and stableswap launch",
+      "category": "defi",
+      "key_terms": ["Spectrum", "yield farming", "stableswap pools", "DEX"],
+      "participants": ["@Gazza", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "SigmaFi lending platform updates and features",
+      "category": "defi",
+      "key_terms": ["SigmaFi", "lending", "ongoing loans", "UX improvements"],
+      "participants": ["@Unknown", "@Man ish"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoHack VI participant project showcase and Ergo Summit",
+      "category": "community",
+      "key_terms": ["ErgoHack VI", "Ergo Summit", "Cypherpunk Finance", "video showcase"],
+      "participants": ["@CW", "@Glasgow"],
+      "significance": "minor"
+    },
+    {
+      "title": "Hopium Herald video deck project discovery format",
+      "category": "marketing",
+      "key_terms": ["Hopium Herald", "1-minute videos", "project discovery", "newsletter"],
+      "participants": ["@Beau | Slance.co", "@chrom", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Exchange listings strategy and OFAC compliance concerns",
+      "category": "ecosystem",
+      "key_terms": ["OKX", "Binance", "exchange listings", "OFAC compliance"],
+      "participants": ["@Muhlis Sata", "@Glasgow", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "EVM-compatible rollup exploration for Ergo",
+      "category": "technical",
+      "key_terms": ["EVM rollup", "optimistic rollup", "appkit", "L2 sidechain"],
+      "participants": ["@Unknown", "@HQΣr"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo foundation 2022 roadmap and development priorities",
+      "category": "governance",
+      "key_terms": ["2023 roadmap", "foundation", "ecosystem development"],
+      "participants": ["@Abdulkrem", "@chrom"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoPOS Tabby wallet mobile test release",
+      "category": "wallet",
+      "key_terms": ["ErgoPOS", "Tabby", "mobile wallet", "pocket money"],
+      "participants": ["@Gazza", "@Lee # TabbyPOS"],
+      "significance": "minor"
+    },
+    {
+      "title": "Satergo desktop wallet full node and security features",
+      "category": "wallet",
+      "key_terms": ["Satergo", "desktop wallet", "full node", "Cardano support"],
+      "participants": ["@Aberg Satergo dev", "@eπ"],
+      "significance": "minor"
+    },
+    {
+      "title": "Minotaur multi-sig wallet design and architecture",
+      "category": "wallet",
+      "key_terms": ["Minotaur wallet", "multi-sig", "co-signing server"],
+      "participants": ["@kushti khushi", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Reddit grassroots marketing strategy and anti-shill moderation",
+      "category": "marketing",
+      "key_terms": ["Reddit", "grassroots marketing", "r/cc", "anti-shill policy"],
+      "participants": ["@Unknown", "@lexymon", "@Glasgow"],
+      "significance": "minor"
+    },
+    {
+      "title": "Crypto scam identification and security awareness",
+      "category": "community",
+      "key_terms": ["scams", "phishing", "fake wallets", "security tips"],
+      "participants": ["@Ergo NEWS", "@Glasgow", "@big sad"],
+      "significance": "minor"
+    },
+    {
+      "title": "US crypto regulation and OFAC compliance discussions",
+      "category": "ecosystem",
+      "key_terms": ["regulation", "OFAC", "blockchain compliance", "policy"],
+      "participants": ["@gg", "@kushti khushi", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Banking crisis impact on stablecoins and BTC narrative",
+      "category": "ecosystem",
+      "key_terms": ["USDC conversion", "banking crisis", "market impact"],
+      "participants": ["@theta decay", "@TMR.ΣRG", "@lexymon"],
+      "significance": "minor"
+    },
+    {
+      "title": "Tax reporting and IRS compliance for crypto trades",
+      "category": "ecosystem",
+      "key_terms": ["capital gains tax", "IRS reporting", "tax compliance"],
+      "participants": ["@qx()", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Dexy bank UX mockups feedback and design review",
+      "category": "defi",
+      "key_terms": ["Dexy bank", "UX design", "Figma mockups"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "SigGold precious metal stablecoin development consideration",
+      "category": "defi",
+      "key_terms": ["SigGold", "gold stablecoin", "multi-asset expansion"],
+      "participants": ["@kushti khushi", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Paideia staking emissions and Ergopad distribution schedule",
+      "category": "defi",
+      "key_terms": ["Paideia", "staking", "auto-compound", "48-month emissions"],
+      "participants": ["@big sad", "@theta decay"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti khushi",
+    "@Unknown",
+    "@Glasgow｜W

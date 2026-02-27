@@ -1,0 +1,165 @@
+{
+  "chat": "Ergo General",
+  "week": "2020-W40",
+  "topics": [
+    {
+      "title": "Yoroi wallet integration and release timeline",
+      "category": "wallet",
+      "key_terms": ["Yoroi", "wallet", "nightly", "BIP44", "migration", "Cardano", "release"],
+      "participants": ["@Sebastien | Midnight / Starstream", "@Jason Davies", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoMixer v3.0.0 release with covert addresses",
+      "category": "defi",
+      "key_terms": ["ErgoMixer", "mixing", "covert address", "privacy", "Tor", "110000 ERG"],
+      "participants": ["@kushti khushi", "@anon2020s"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo node v3.3.4 and v3.3.5 updates",
+      "category": "technical",
+      "key_terms": ["node", "3.3.4", "3.3.5", "EIP-3", "distributed signatures", "bugfixes"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Oracle pools architecture and Chainlink comparison",
+      "category": "defi",
+      "key_terms": ["Oracle pools", "extended UTXO", "Chainlink", "data-inputs", "staking"],
+      "participants": ["@Unknown", "@Gregg из Аризоны", "@scalahub"],
+      "significance": "major"
+    },
+    {
+      "title": "Stablecoin collateralization and Cardano interoperability",
+      "category": "defi",
+      "key_terms": ["stablecoin", "collateral", "ERG", "Cardano", "USDN", "interoperability"],
+      "participants": ["@Unknown", "@Eduardo", "@mensrea"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoDEX development and December launch timeline",
+      "category": "defi",
+      "key_terms": ["DEX", "ErgoDEX", "GUI", "atomic swaps", "wrapped tokens", "November"],
+      "participants": ["@kushti khushi", "@Unknown", "@Kookster"],
+      "significance": "major"
+    },
+    {
+      "title": "Exchange listings and liquidity concerns",
+      "category": "ecosystem",
+      "key_terms": ["Hotbit", "Tidex", "Coinex", "liquidity", "Binance", "Kraken", "KuCoin"],
+      "participants": ["@Unknown", "@Kookster", "@E Crypto", "@OxCapitulation"],
+      "significance": "major"
+    },
+    {
+      "title": "Mining setup and GPU configuration troubleshooting",
+      "category": "mining",
+      "key_terms": ["mining", "GPU", "Autolykos", "CUDA", "compute_75", "prehash"],
+      "participants": ["@Mike", "@kushti khushi", "@scalahub"],
+      "significance": "minor"
+    },
+    {
+      "title": "Full node setup and configuration issues",
+      "category": "technical",
+      "key_terms": ["full node", "Debian", "conf file", "synchronization", "API key"],
+      "participants": ["@Unknown", "@kushti khushi", "@Hedges"],
+      "significance": "minor"
+    },
+    {
+      "title": "Wallet compatibility and migration between CoinBarn and Yoroi",
+      "category": "wallet",
+      "key_terms": ["CoinBarn", "Yoroi", "migration", "recovery phrase", "derivation path"],
+      "participants": ["@Sebastien | Midnight / Starstream", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo vs Ethereum and other smart contract platforms",
+      "category": "ecosystem",
+      "key_terms": ["Ethereum", "Cardano", "UTXO model", "smart contracts", "DeFi", "privacy"],
+      "participants": ["@Unknown", "@Damon AndTheSea", "@mensrea"],
+      "significance": "major"
+    },
+    {
+      "title": "Tokenomics comparison and no premine advantage",
+      "category": "ecosystem",
+      "key_terms": ["tokenomics", "premine", "presale", "supply", "fairness", "distribution"],
+      "participants": ["@Unknown", "@Damon AndTheSea", "@Eduardo"],
+      "significance": "minor"
+    },
+    {
+      "title": "Monero privacy comparison and ERG privacy features",
+      "category": "ecosystem",
+      "key_terms": ["Monero", "privacy", "XMR", "Sigma protocols", "mixing"],
+      "participants": ["@Unknown", "@mensrea", "@Velvia"],
+      "significance": "minor"
+    },
+    {
+      "title": "CoinEx withdrawal delays and exchange issues",
+      "category": "ecosystem",
+      "key_terms": ["CoinEx", "withdrawal", "transaction", "explorer", "support"],
+      "participants": ["@Mercury", "@Unknown", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo price speculation and market cap potential",
+      "category": "community",
+      "key_terms": ["price", "market cap", "$2", "$10", "$100", "ATH"],
+      "participants": ["@Unknown", "@OxCapitulation", "@Eduardo"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo hard fork and PoW memory-hardness fix",
+      "category": "technical",
+      "key_terms": ["hard fork", "PoW", "memory-hardness", "security", "soft-fork"],
+      "participants": ["@Unknown", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Atomic wallet and wallet address compatibility",
+      "category": "wallet",
+      "key_terms": ["Atomic wallet", "address", "ERC20", "Magnum wallet", "support"],
+      "participants": ["@Unknown", "@filippounits"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo technical advantages and unique features",
+      "category": "ecosystem",
+      "key_terms": ["extended UTXO", "Sigma protocols", "light clients", "storage rent", "dApps"],
+      "participants": ["@Unknown", "@Damon AndTheSea"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo Cast podcast revival and community engagement",
+      "category": "marketing",
+      "key_terms": ["Ergo Cast", "podcast", "Sakata_ZK", "oracle pools", "community"],
+      "participants": ["@Unknown", "@Kookster"],
+      "significance": "minor"
+    },
+    {
+      "title": "Hardware wallet support roadmap",
+      "category": "wallet",
+      "key_terms": ["hardware wallet", "Ledger", "support", "roadmap"],
+      "participants": ["@Unknown", "@Jason Davies"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti khushi",
+    "@Unknown",
+    "@Kookster",
+    "@mensrea",
+    "@Eduardo",
+    "@Damon AndTheSea",
+    "@Sebastien | Midnight / Starstream",
+    "@E Crypto (DMs Restricted🙏)",
+    "@OxCapitulation",
+    "@Mike",
+    "@Jonesy",
+    "@filippounits",
+    "@Dante22",
+    "@scalahub",
+    "@CryptoTeller | TREEINCAT",
+    "@Crypto Rev"
+  ],
+  "message_count": 823
+}

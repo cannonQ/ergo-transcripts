@@ -1,0 +1,151 @@
+{
+  "chat": "developer",
+  "week": "2024-W45",
+  "topics": [
+    {
+      "title": "Sigma 6.0 protocol upgrade and UnsignedBigInt implementation",
+      "category": "technical",
+      "key_terms": ["Sigma 6.0", "UnsignedBigInt", "bitwise operations", "sigmastate-interpreter", "protocol upgrade"],
+      "participants": ["@kushti khushi", "@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo node ZMQ message protocol and socket errors",
+      "category": "technical",
+      "key_terms": ["zmqpub", "ErgoSocket", "magic bytes", "message protocol", "event publishing"],
+      "participants": ["@Luivatra", "@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "SigmaUSD bank update and oracle pool migration",
+      "category": "defi",
+      "key_terms": ["SigmaUSD", "oracle pool", "bank update", "mainnet deployment", "pool 1.0"],
+      "participants": ["@kushti khushi", "@Michael"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo reference client 5.1.0 release and indexer rollback issues",
+      "category": "technical",
+      "key_terms": ["reference client 5.1.0", "indexer", "rollback", "EIP-1 scans", "network issues"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus dApp connector documentation and Ledger integration",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "dApp connector", "Ledger", "0-conf", "mempool backend"],
+      "participants": ["@arobsn"],
+      "significance": "major"
+    },
+    {
+      "title": "Satergo Mac aarch64 support and Ledger hardware wallet",
+      "category": "wallet",
+      "key_terms": ["Satergo", "Mac aarch64", "arm64", "Ledger support"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "Miner Rights Protocol and mining pool token distribution",
+      "category": "mining",
+      "key_terms": ["Miner Rights Protocol", "ErgoHack IX", "mining rights tokens", "GPU synthetic mining", "token distribution"],
+      "participants": ["@Marc the Shark"],
+      "significance": "minor"
+    },
+    {
+      "title": "Paideia DAO platform deployment timeline",
+      "category": "ecosystem",
+      "key_terms": ["Paideia", "DAO platform", "deployment", "timezone coordination"],
+      "participants": ["@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Keystone hardware wallet transaction signing implementation",
+      "category": "wallet",
+      "key_terms": ["Keystone", "transaction signing", "sigma-rust", "non_std environments"],
+      "participants": ["@Pgr456"],
+      "significance": "minor"
+    },
+    {
+      "title": "RoseNet L2 protocol testing and network performance metrics",
+      "category": "technical",
+      "key_terms": ["RoseNet", "L2 construction", "network testing", "message delivery", "pubsub latency"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigmachains and sidechain development opportunities",
+      "category": "technical",
+      "key_terms": ["sigmachains", "sidechains", "merge-mining", "L2 alternatives"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Token Flight testnet validation and mainnet deployment",
+      "category": "ecosystem",
+      "key_terms": ["Token Flight", "testnet", "mainnet validation"],
+      "participants": ["@Marc the Shark"],
+      "significance": "minor"
+    },
+    {
+      "title": "Celaut demo service and Bene fundraising platform",
+      "category": "ecosystem",
+      "key_terms": ["Celaut", "Bene", "fundraising platform", "demo service"],
+      "participants": ["@jossemii"],
+      "significance": "minor"
+    },
+    {
+      "title": "Fleet SDK non-standard token minting and multi-box distribution",
+      "category": "technical",
+      "key_terms": ["Fleet SDK", "token minting", "non-EIP-4", "multi-box transactions"],
+      "participants": ["@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "SigmaUSD contract querying and register value interpretation",
+      "category": "defi",
+      "key_terms": ["SigmaUSD", "contract ID", "UTXO model", "register values", "price decoding"],
+      "participants": ["@Flying Pig (™)", "@Michael", "@Pulsarz"],
+      "significance": "minor"
+    },
+    {
+      "title": "DEX interface reliability and trusted platform providers",
+      "category": "defi",
+      "key_terms": ["ErgoDex", "MEWFinance", "DEX security", "interface trust", "Spectrum Finance"],
+      "participants": ["@Flying Pig (™)", "@HQΣr | Wont Dm 🐾 ⚡"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mempool visualization and contribution opportunities",
+      "category": "ecosystem",
+      "key_terms": ["memepool", "mempool visualization", "live mempool"],
+      "participants": ["@c8e4d2a"],
+      "significance": "minor"
+    },
+    {
+      "title": "Valencia emergency response platform and mesh network setup",
+      "category": "community",
+      "key_terms": ["Valencia flooding", "disaster response", "mesh network", "offline portal"],
+      "participants": ["@HQΣr | Wont Dm 🐾 ⚡", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Transaction signing error debugging and expression evaluation",
+      "category": "technical",
+      "key_terms": ["transaction signing", "debugging", "expression evaluation", "signature validation"],
+      "participants": ["@b_e_e_e_e_e"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti khushi",
+    "@Luivatra",
+    "@Michael",
+    "@arobsn",
+    "@Marc the Shark",
+    "@Flying Pig (™)",
+    "@Aberg Satergo dev",
+    "@Pgr456",
+    "@HQΣr | Wont Dm 🐾 ⚡"
+  ],
+  "message_count": 94
+}

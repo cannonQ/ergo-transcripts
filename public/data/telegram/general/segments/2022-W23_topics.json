@@ -1,0 +1,155 @@
+{
+  "chat": "Ergo General",
+  "week": "2022-W23",
+  "topics": [
+    {
+      "title": "Exchange listings and Tier 1 trading platform discussions",
+      "category": "marketing",
+      "key_terms": ["Kraken", "Binance", "Coinbase", "FTX", "tier 1 exchange", "listing timeline"],
+      "participants": ["@CW", "@Kevin", "@Unknown", "@Eduardo"],
+      "significance": "major"
+    },
+    {
+      "title": "NETA mining subpool and anetaBTC smart contract implementation",
+      "category": "mining",
+      "key_terms": ["NETA", "anetaBTC", "subpool", "wrapped BTC", "smart pool", "emission contract"],
+      "participants": ["@Unknown", "@Meta", "@Cheese", "@GetBlok_io"],
+      "significance": "major"
+    },
+    {
+      "title": "Proof of Work vs Proof of Stake consensus mechanism debate",
+      "category": "governance",
+      "key_terms": ["PoW", "PoS", "Cardano", "Solana", "energy efficiency", "decentralization"],
+      "participants": ["@Eduardo", "@Antonis", "@Gazza", "@PalaZ", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigmaverse and dApp ecosystem development updates",
+      "category": "ecosystem",
+      "key_terms": ["sigmaverse.io", "dApp design", "GitHub feedback", "UI/UX improvements"],
+      "participants": ["@Dmitry Usov", "@icelandsoul", "@NoahErgo"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoHack Fest hackathon winners and judging process",
+      "category": "community",
+      "key_terms": ["ErgoHack Fest", "judges", "submissions", "Swamp Audio", "Night Owl"],
+      "participants": ["@Ergo NEWS", "@Unknown", "@Grand Gambit"],
+      "significance": "major"
+    },
+    {
+      "title": "Wallet synchronization issues and Yoroi vs Nautilus comparison",
+      "category": "wallet",
+      "key_terms": ["Yoroi", "Nautilus", "sync issues", "balance updates", "explorer problems"],
+      "participants": ["@Unknown", "@Benny", "@MrStahlfelge", "@Glasgow"],
+      "significance": "major"
+    },
+    {
+      "title": "Night Owl casino mixer integration and feature development",
+      "category": "defi",
+      "key_terms": ["Night Owl", "casino", "mixer", "decentralized", "BlackJack"],
+      "participants": ["@J", "@Unknown", "@Koutelier"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge non-custodial cross-chain solution progress",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "SuSy", "non-custodial", "testnet", "MHS_sam"],
+      "participants": ["@CW", "@Jad", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "FPGA mining development and Wolf9466 Ergo miner optimization",
+      "category": "mining",
+      "key_terms": ["FPGA", "XCVU35P", "E300", "Wolf9466", "600MH/s", "prehash"],
+      "participants": ["@Wolf9466", "@rubens", "@Giufa Onli", "@J"],
+      "significance": "major"
+    },
+    {
+      "title": "Token burning and GramSwap incident with token loss",
+      "category": "technical",
+      "key_terms": ["token burn", "GramSwap", "UTXO outputs", "token loss", "user error"],
+      "participants": ["@Unknown", "@Gazza", "@RC", "@Shiv Chauhan"],
+      "significance": "major"
+    },
+    {
+      "title": "Ledger hardware wallet integration status and timeline",
+      "category": "wallet",
+      "key_terms": ["Ledger", "integration", "ETA", "hardware wallet support"],
+      "participants": ["@Unknown", "@gg"],
+      "significance": "minor"
+    },
+    {
+      "title": "Satergo desktop wallet Java dependencies and node setup fixes",
+      "category": "wallet",
+      "key_terms": ["Satergo", "Java", "ergo.conf", "testnet release", "hotfix"],
+      "participants": ["@Aberg Satergo dev", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergodex Nitro parameter and swap execution optimization",
+      "category": "defi",
+      "key_terms": ["Ergodex", "Nitro", "swap fees", "race conditions", "offchain bots"],
+      "participants": ["@Unknown", "@Gazza", "@Armeanio"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoLend uncollateralized lending protocol features",
+      "category": "defi",
+      "key_terms": ["ErgoLend", "uncollateralized lending", "protocol"],
+      "participants": ["@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "SigmaUSD stablecoin reliability and DJED comparison",
+      "category": "defi",
+      "key_terms": ["SigmaUSD", "DJED", "AgeUSD protocol", "peg stability"],
+      "participants": ["@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "NIPoPoW and SPV light client protocol improvements",
+      "category": "technical",
+      "key_terms": ["NIPoPoW", "SPV", "light nodes", "Bitcoin comparison"],
+      "participants": ["@Unknown", "@CW"],
+      "significance": "minor"
+    },
+    {
+      "title": "COMET token emission and lottery NFT rewards",
+      "category": "ecosystem",
+      "key_terms": ["COMET", "mining rewards", "block finders", "NFT airdrops"],
+      "participants": ["@Unknown", "@Koutelier", "@GetBlok_io"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo node API development and transaction submission issues",
+      "category": "technical",
+      "key_terms": ["node API", "transaction submission", "mempool", "Nautilius wallet"],
+      "participants": ["@Stan", "@MrStahlfelge", "@Ustin"],
+      "significance": "minor"
+    },
+    {
+      "title": "TOSI airdrop execution and maximum transaction output limits",
+      "category": "ecosystem",
+      "key_terms": ["TOSI", "airdrop", "20k wallets", "output limits", "transaction fragmentation"],
+      "participants": ["@Brandon", "@Shiv Chauhan", "@Flying Pig"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo community regional groups and localization expansion",
+      "category": "community",
+      "key_terms": ["German group", "Balkan", "Dutch", "Belgian", "regional chats"],
+      "participants": ["@Eduardo", "@CW", "@RETRO"],
+      "significance": "minor"
+    },
+    {
+      "title": "eTUXO model and smart contract flexibility advantages",
+      "category": "technical",
+      "key_terms": ["eUTXO", "smart contracts", "Ethereum comparison", "NFT drops"],
+      "participants": ["@Unknown", "@Benny"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo media coverage and marketing efforts discussion",
+      "category": "marketing",
+      "key_terms": ["crypto media", "FUD", "marketing", "YouTube", "

@@ -1,0 +1,175 @@
+{
+  "chat": "Ergo Developer",
+  "week": "2024-W13",
+  "topics": [
+    {
+      "title": "Sigma 6.0 finalization and issue resolution",
+      "category": "technical",
+      "key_terms": ["Sigma 6.0", "sigmastate-interpreter", "code cleaning", "EIP composition"],
+      "participants": ["@kushti0978", "@ergomorphic"],
+      "significance": "major"
+    },
+    {
+      "title": "Sub-blocks and weak blocks development",
+      "category": "technical",
+      "key_terms": ["sub-blocks", "weak blocks", "sidechains", "ADProofs", "light clients"],
+      "participants": ["@kushti0978", "@kii", "@zkastn"],
+      "significance": "major"
+    },
+    {
+      "title": "Pull request compilation fixes and merging",
+      "category": "technical",
+      "key_terms": ["PR 2131", "PR 2107", "compilation", "recursion review"],
+      "participants": ["@kushti0978", "@yee0576"],
+      "significance": "minor"
+    },
+    {
+      "title": "Autolykos proof-of-work algorithm explanation",
+      "category": "technical",
+      "key_terms": ["Autolykos", "PoW", "decentralization", "mining security"],
+      "participants": ["@omniawaha", "@sheon9527"],
+      "significance": "minor"
+    },
+    {
+      "title": "Oracle integration for smart contract data feeds",
+      "category": "defi",
+      "key_terms": ["oracle", "smart contract communication", "external data", "API integration"],
+      "participants": ["@aquaritek", "@mgpai"],
+      "significance": "minor"
+    },
+    {
+      "title": "Crux accounting feature deployment",
+      "category": "ecosystem",
+      "key_terms": ["Crux", "accounting", "mainnet launch"],
+      "participants": ["@luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Paideia DAO governance and contract updates",
+      "category": "governance",
+      "key_terms": ["Paideia", "authentication", "EIP-5", "long-living contracts", "contract refresh"],
+      "participants": ["@luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "Escript.online smart contract visualization tool",
+      "category": "developer-tools",
+      "key_terms": ["escript.online", "HTML export", "contract display", "documentation"],
+      "participants": ["@c8"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo cross-chain capabilities research",
+      "category": "bridges",
+      "key_terms": ["cross-chain", "interoperability", "protocol R&D"],
+      "participants": ["@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "GORT emission contract and Dexy stablecoin deployment",
+      "category": "defi",
+      "key_terms": ["GORT", "Gold Oracle Pool", "Dexy", "buyback token", "bank interventions"],
+      "participants": ["@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "ChainCash project establishment",
+      "category": "ecosystem",
+      "key_terms": ["ChainCash", "Rust developers", "community formation"],
+      "participants": ["@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Gluon testnet testing launch",
+      "category": "ecosystem",
+      "key_terms": ["Gluon", "testnet", "public testing"],
+      "participants": ["@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Nautilus Wallet v0.9.3 and Manifest v3 migration",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "Manifest v3", "bridge rewrite", "cross-chain modularization"],
+      "participants": ["@capt_nemo429"],
+      "significance": "major"
+    },
+    {
+      "title": "Fleet SDK Prover and Verifier modules development",
+      "category": "developer-tools",
+      "key_terms": ["Fleet SDK", "Prover", "Verifier", "sigma-rust", "SigmaJS adapters"],
+      "participants": ["@capt_nemo429"],
+      "significance": "minor"
+    },
+    {
+      "title": "Blitz TCG pack sale launch and burn contract testing",
+      "category": "nft",
+      "key_terms": ["Blitz TCG", "pack sale", "burn contract", "card rendering", "marketing"],
+      "participants": ["@LowKeyNerd", "@ldgaetano"],
+      "significance": "major"
+    },
+    {
+      "title": "Minotaur Wallet v2.0.1 release and multisig features",
+      "category": "wallet",
+      "key_terms": ["Minotaur", "cold signing", "multisig", "signing server", "dApp connector"],
+      "participants": ["@mhs_sam"],
+      "significance": "major"
+    },
+    {
+      "title": "Raffle v2 contract refactoring",
+      "category": "defi",
+      "key_terms": ["Raffle v2", "contract refactoring", "offchain logic"],
+      "participants": ["@mhs_sam"],
+      "significance": "minor"
+    },
+    {
+      "title": "Rosen bridge Bitcoin integration and core module updates",
+      "category": "bridges",
+      "key_terms": ["Rosen", "Bitcoin", "minimum-fee", "infrastructure updates"],
+      "participants": ["@mhs_sam"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigmanaut Mining Pool UI v2 development",
+      "category": "mining",
+      "key_terms": ["Sigmanaut", "mining pool", "dashboard redesign", "rolling average", "stress testing"],
+      "participants": ["@Marc the Shark"],
+      "significance": "major"
+    },
+    {
+      "title": "DAO legal formation and governance structures",
+      "category": "governance",
+      "key_terms": ["DAO formation", "Marshall Islands", "KYC", "Paideia governance"],
+      "participants": ["@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergohost.io endpoint maintenance and failover infrastructure",
+      "category": "ecosystem",
+      "key_terms": ["ergohost.io", "router upgrade", "load balancing", "failover"],
+      "participants": ["@reqlez"],
+      "significance": "minor"
+    },
+    {
+      "title": "The Field peer-to-pool pledging protocol development",
+      "category": "defi",
+      "key_terms": ["The Field", "pledging protocol", "oracle guards", "sports betting", "prediction pools"],
+      "participants": ["@cannon_q"],
+      "significance": "major"
+    },
+    {
+      "title": "Stealth address implementation in wallets",
+      "category": "wallet",
+      "key_terms": ["stealth address", "privacy", "payment address", "box scanning"],
+      "participants": ["@__daddychill__", "@dusek_"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ledger hardware wallet signing compatibility issues",
+      "category": "wallet",
+      "key_terms": ["Ledger", "proveDlog", "contract signing", "Satergo app"],
+      "participants": ["@krasaviceblasen", "@ypopovych"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mobile wallet development with Fleet SDK and React Native",
+      "category": "

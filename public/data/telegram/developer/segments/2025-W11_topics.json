@@ -1,0 +1,159 @@
+{
+  "chat": "developer",
+  "week": "2025-W11",
+  "topics": [
+    {
+      "title": "Explorer service outage and alternative endpoints",
+      "category": "ecosystem",
+      "key_terms": ["explorer", "downtime", "frontend", "backend", "ergobackup", "ergexplorer"],
+      "participants": ["@kushti khushi", "@HQΣr | Wont Dm 🐾 ⚡", "@Pgr456"],
+      "significance": "major"
+    },
+    {
+      "title": "Scala 3 migration and dependency updates",
+      "category": "technical",
+      "key_terms": ["Scala 3", "scrypto", "debox", "scorex-util", "sigmastate", "migration"],
+      "participants": ["@kushti khushi", "@jozinek.", "@novamon_25735"],
+      "significance": "major"
+    },
+    {
+      "title": "ExecuteFromSelfReg and DeserializeRegister implementation",
+      "category": "technical",
+      "key_terms": ["executeFromSelfReg", "DeserializeRegister", "default values", "Option types", "ErgoTree"],
+      "participants": ["@kushti khushi", "@novamon_25735", "@jozinek."],
+      "significance": "major"
+    },
+    {
+      "title": "Sub-blocks fork resolution and P2P implementation",
+      "category": "technical",
+      "key_terms": ["sub-blocks", "fork switching", "consensus", "P2P messages", "PoW"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo 6.0 protocol soft-fork and protocol updates",
+      "category": "technical",
+      "key_terms": ["6.0 protocol", "soft-fork", "input ordering", "Sigmachains", "L2"],
+      "participants": ["@kushti khushi", "@jozinek."],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaUSD bank storage rent security update",
+      "category": "defi",
+      "key_terms": ["SigmaUSD", "bank contract", "storage rent", "security"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma-rust Python bindings alpha release",
+      "category": "technical",
+      "key_terms": ["sigma-rust", "Python bindings", "ergo-lib-python", "serialization"],
+      "participants": ["@dusek_", "@arobsn", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Satergo wallet v1.9.0 with Ledger and Vault features",
+      "category": "wallet",
+      "key_terms": ["Satergo", "Ledger hardware wallet", "Offline Vault", "Android", "wallet format"],
+      "participants": ["@Aberg Satergo dev"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus wallet v1.0.0 stable release and SigmaUSD integration",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "v1.0.0", "SigmaUSD", "bug fix", "used addresses"],
+      "participants": ["@arobsn"],
+      "significance": "major"
+    },
+    {
+      "title": "SkyHarbor DEX v2 UI launch and bug fixes",
+      "category": "defi",
+      "key_terms": ["SkyHarbor", "v2 UI", "DEX", "address assets", "purchase"],
+      "participants": ["@Quokka"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo Node Android with NiPoPoW and UTXO snapshot",
+      "category": "wallet",
+      "key_terms": ["Ergo Node Android", "NiPoPoW", "UTXO snapshot", "rocksdb", "mobile node"],
+      "participants": ["@Unknown", "@Aco Šmrkas", "@Michael", "@cannon_q"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo Book collaborative documentation project",
+      "category": "community",
+      "key_terms": ["Ergo Book", "documentation", "p2p money", "grassroots finance", "programmable money"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo bounties program management and updates",
+      "category": "ecosystem",
+      "key_terms": ["Ergo Bounties", "bounty claims", "DevDAO", "Keystone wallet", "Fleet SDK"],
+      "participants": ["@cannon_q"],
+      "significance": "major"
+    },
+    {
+      "title": "BouncyCastle library version standardization",
+      "category": "technical",
+      "key_terms": ["BouncyCastle", "bcprov", "version consistency", "dependencies"],
+      "participants": ["@Aberg Satergo dev", "@jozinek.", "@novamon_25735"],
+      "significance": "minor"
+    },
+    {
+      "title": "GitHub Actions and CI/CD pipeline maintenance",
+      "category": "technical",
+      "key_terms": ["GitHub Actions", "CI/CD", "workflow", "apex dependency", "plugin cleanup"],
+      "participants": ["@jozinek.", "@ccellado", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo node interface mobile responsiveness improvements",
+      "category": "wallet",
+      "key_terms": ["node interface", "mobile UI", "responsive design"],
+      "participants": ["@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Crux tax report generation for 2024",
+      "category": "ecosystem",
+      "key_terms": ["Crux", "tax reports", "2024"],
+      "participants": ["@luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo node database corruption and recovery procedures",
+      "category": "technical",
+      "key_terms": ["leveldb", "corruption", "extra folder", "index rebuild"],
+      "participants": ["@HQΣr | Wont Dm 🐾 ⚡", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Satergo Indonesian language translations",
+      "category": "community",
+      "key_terms": ["Satergo", "translations", "Bahasa Indonesia", "localization"],
+      "participants": ["@chris45new"],
+      "significance": "minor"
+    },
+    {
+      "title": "Token minting parameter validation awareness",
+      "category": "community",
+      "key_terms": ["token minting", "parameters", "broken tokens", "education"],
+      "participants": ["@Aco Šmrkas"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti khushi",
+    "@jozinek.",
+    "@novamon_25735",
+    "@DiscordBridge",
+    "@Unknown",
+    "@ccellado",
+    "@arobsn",
+    "@Aberg Satergo dev",
+    "@cannon_q",
+    "@Pgr456"
+  ],
+  "message_count": 178
+}

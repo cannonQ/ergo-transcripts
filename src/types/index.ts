@@ -171,6 +171,95 @@ export interface AggregatedDecision {
   quote?: string;
 }
 
+// ---------------------------------------------------------------------------
+// Telegram chat archive types
+// ---------------------------------------------------------------------------
+
+export type TelegramChannel = 'general' | 'developer';
+
+// Entry in telegram_index.json → {channel}.weeks[]
+export interface TelegramWeekEntry {
+  period: string;           // e.g. "2024-W01"
+  month: string;            // e.g. "2024-01"
+  message_count: number;
+  summary_file: string;     // relative path under public/data/telegram/
+  topics_file: string | null;
+  top_topics: string[];     // first 3 topic titles
+  sibling_parts: string[];  // other parts of the same base week (e.g. W31a, W31b)
+}
+
+// Entry in telegram_index.json → {channel}.months[]
+export interface TelegramMonthEntry {
+  period: string;           // e.g. "2024-01"
+  summary_file: string;
+  weeks: string[];          // week labels belonging to this month
+  total_messages: number;
+}
+
+export interface TelegramChannelIndex {
+  weeks: TelegramWeekEntry[];
+  months: TelegramMonthEntry[];
+}
+
+export interface TelegramIndex {
+  general: TelegramChannelIndex;
+  developer: TelegramChannelIndex;
+}
+
+// Entry in telegram_search_index.json
+export interface TelegramSearchEntry {
+  id: string;               // "{channel}__{period}"
+  channel: TelegramChannel;
+  period: string;
+  type: 'weekly' | 'monthly';
+  month?: string;           // only for weekly entries
+  message_count?: number;
+  topics: string[];
+  key_terms: string[];
+  participants: string[];
+  excerpt: string;
+}
+
+// telegram_topics_index.json
+export interface TelegramCategoryData {
+  label: string;
+  topic_count: number;
+  channels: TelegramChannel[];
+  key_terms: string[];
+  major_topics: { title: string; week: string; channel: TelegramChannel }[];
+}
+
+export interface TelegramTopicsIndex {
+  categories: Record<string, TelegramCategoryData>;
+  top_key_terms: { term: string; count: number }[];
+}
+
+// telegram_speakers.json — keyed by @username
+export interface TelegramSpeakerStats {
+  display_name: string;
+  weeks_active: number;
+  channels: TelegramChannel[];
+  top_categories: string[];
+  known_speaker: boolean;
+}
+
+// Lazily-fetched weekly topics file content
+export interface TelegramTopicItem {
+  title: string;
+  category: string;
+  key_terms: string[];
+  participants: string[];
+  significance: 'major' | 'minor';
+}
+
+export interface TelegramTopicsFile {
+  chat: string;
+  week: string;
+  topics: TelegramTopicItem[];
+  active_participants: string[];
+  message_count: number;
+}
+
 // Aggregated QA for UI display
 export interface AggregatedQA {
   id: string;

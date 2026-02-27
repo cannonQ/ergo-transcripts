@@ -1,0 +1,127 @@
+{
+  "chat": "developer",
+  "week": "2025-W08",
+  "topics": [
+    {
+      "title": "UTXO State Database Corruption and Node Initialization",
+      "category": "technical",
+      "key_terms": ["ActorInitializationException", "PersistentBatchAVLProver", "readers not initialized", "database corruption"],
+      "participants": ["@Aco Šmrkas", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Node Configuration and Network Settings",
+      "category": "technical",
+      "key_terms": ["scorex.network.nodeName", "node name parameter", "configuration brackets"],
+      "participants": ["@Aco Šmrkas", "@Glasgow｜WON'T DM", "@qx()"],
+      "significance": "minor"
+    },
+    {
+      "title": "Testnet Node Peers and Block Synchronization",
+      "category": "technical",
+      "key_terms": ["testnet peers", "header sync", "block production", "node connectivity"],
+      "participants": ["@kushti khushi", "@qx()"],
+      "significance": "minor"
+    },
+    {
+      "title": "Nautilus Wallet UI Redesign and Feature Roadmap",
+      "category": "wallet",
+      "key_terms": ["design system port", "recovery phrase backup", "multi-recipient transactions", "mobile build priority"],
+      "participants": ["@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo Protocol 6.0 Audit and Input Block Ordering",
+      "category": "technical",
+      "key_terms": ["6.0 protocol soft-fork", "input blocks out of order", "fork resolution", "code cleaning"],
+      "participants": ["@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "ERG/USD Oracle Pool v2 Update",
+      "category": "defi",
+      "key_terms": ["oracle pool v2", "update script", "oracle feed"],
+      "participants": ["@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoDex Integration and NodeView.xyz Event Tracking",
+      "category": "defi",
+      "key_terms": ["ErgoDex swaps", "SigUSD swaps", "Rosen Bridge events", "price chart optimization"],
+      "participants": ["@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Rosen Bridge Testing and Wallet Integration",
+      "category": "bridges",
+      "key_terms": ["step-by-step testing", "manual transaction verification", "wallet disconnect feature", "responsive design"],
+      "participants": ["@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigmanauts Mining Pool Operations and Updates",
+      "category": "mining",
+      "key_terms": ["ergominers.com", "Miner ID rework", "pool hash rate", "demurrage distribution"],
+      "participants": ["@Marc the Shark"],
+      "significance": "minor"
+    },
+    {
+      "title": "SharkNet LLM Training and Smart Contract Audit",
+      "category": "ecosystem",
+      "key_terms": ["LLM generation", "smart contract auditing", "DRPO training", "community fundraising"],
+      "participants": ["@Marc the Shark"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgiFi DEX UI Development and Mempool Server",
+      "category": "defi",
+      "key_terms": ["ErgiFi swap UI", "mempool_server", "history tracking", "ErgoPay integration"],
+      "participants": ["@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Decentralized Node Architecture and Mempool Services",
+      "category": "technical",
+      "key_terms": ["local node connectivity", "mempool_server", "socket layer", "dapp independence"],
+      "participants": ["@DiscordBridge", "@Pulsarz", "@Luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo Bounties Program Status and Tracking",
+      "category": "ecosystem",
+      "key_terms": ["open bounties", "ERG rewards", "bounty tracking", "developer incentives"],
+      "participants": ["@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Celaut Project Services Architecture and Node Improvements",
+      "category": "ecosystem",
+      "key_terms": ["Celaut services", "node bug fixes", "terminal usability"],
+      "participants": ["@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergexplorer Addressbook and Mempool Live Tracking",
+      "category": "ecosystem",
+      "key_terms": ["addressbook labels", "transaction tracking", "oracle feeds", "fund raising tracking"],
+      "participants": ["@HQΣr | Wont Dm 🐾 ⚡"],
+      "significance": "minor"
+    },
+    {
+      "title": "GitHub PR Review Process and Pull Request Attention",
+      "category": "technical",
+      "key_terms": ["PR notifications", "code review", "tagging maintainers", "GitHub workflow"],
+      "participants": ["@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Debox Library Release and Scrypto/SigmaState Reviews",
+      "category": "technical",
+      "key_terms": ["debox 0.11.0 release", "scrypto PR review", "sigmastate-interpreter"],
+      "participants": ["@DiscordBridge"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": ["@Aco Šmrkas", "@DiscordBridge", "@kushti khushi", "@qx()"],
+  "message_count": 96
+}

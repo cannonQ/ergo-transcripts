@@ -1,0 +1,156 @@
+{
+  "chat": "general",
+  "week": "2021-W01",
+  "topics": [
+    {
+      "title": "Proof of Work vs Proof of Stake debate",
+      "category": "technical",
+      "key_terms": ["PoW", "PoS", "mining", "energy efficiency", "decentralization", "Autolykos"],
+      "participants": ["@Just Checking", "@mensrea", "@Matgee", "@Eysteinh", "@Armeanio", "@kushti_ru"],
+      "significance": "major"
+    },
+    {
+      "title": "Pool resistance removal in Autolykos v2",
+      "category": "mining",
+      "key_terms": ["pool resistance", "Autolykos v2", "mining centralization", "hardening"],
+      "participants": ["@Carlos Agarie", "@kushti_ru", "@mensrea", "@nuc"],
+      "significance": "major"
+    },
+    {
+      "title": "Oracle pools and Cardano interoperability",
+      "category": "bridges",
+      "key_terms": ["oracle pools", "Cardano", "EMURGO", "interoperability", "data feeds"],
+      "participants": ["@kushti_ru", "@UpwindStrategy", "@Bardamug", "@Eysteinh"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo Summit 2021 announcements and roadmap",
+      "category": "governance",
+      "key_terms": ["Ergo Summit", "January 23", "AgeUSD", "stablecoin", "announcements"],
+      "participants": ["@kushti_ru", "@Erik", "@Richi", "@Jonesy"],
+      "significance": "major"
+    },
+    {
+      "title": "Extended UTXO model and smart contract capabilities",
+      "category": "technical",
+      "key_terms": ["EUTXO", "smart contracts", "ErgoScript", "data inputs", "Sigma protocols"],
+      "participants": ["@mensrea", "@Unknown", "@UpwindStrategy", "@kushti_ru"],
+      "significance": "major"
+    },
+    {
+      "title": "Mixer and wallet recovery for legacy wallets",
+      "category": "wallet",
+      "key_terms": ["ErgoMixer", "Yoroi", "wallet recovery", "keystore", "old wallet format"],
+      "participants": ["@kushti_ru", "@ニック ᴏʟᴇᴜᴍ", "@Dmitry Usov"],
+      "significance": "major"
+    },
+    {
+      "title": "ERG token exchanges and liquidity",
+      "category": "ecosystem",
+      "key_terms": ["Hotbit", "Gate.io", "CoinEx", "CMC listing", "CITEX", "spread"],
+      "participants": ["@Unknown", "@Mac", "@mensrea", "@Richi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo auction house and NFT platform",
+      "category": "nft",
+      "key_terms": ["auctions", "NFT", "ergoauctions.org", "smart contracts", "digital art"],
+      "participants": ["@kushti_ru", "@V", "@Żeśo NiPoPau", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "Mining setup and GPU hashrate expectations",
+      "category": "mining",
+      "key_terms": ["GPU mining", "RTX2070", "miner benchmarks", "mining pools", "herominers"],
+      "participants": ["@Martin", "@ponte", "@kushti_ru"],
+      "significance": "minor"
+    },
+    {
+      "title": "Charles Hoskinson holding ERG",
+      "category": "marketing",
+      "key_terms": ["Charles Hoskinson", "holdings", "BTC", "ADA", "ERG"],
+      "participants": ["@Erik", "@Moneyhun", "@Richi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Community article contest results",
+      "category": "marketing",
+      "key_terms": ["article contest", "community writing", "Medium", "education"],
+      "participants": ["@Sid", "@JAGO", "@Erik"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo101.org website and documentation",
+      "category": "community",
+      "key_terms": ["Ergo101", "education", "tutorials", "documentation", "resources"],
+      "participants": ["@Jonesy", "@Erik", "@Richi"],
+      "significance": "major"
+    },
+    {
+      "title": "NiPoPoWs and lightweight client bootstrapping",
+      "category": "technical",
+      "key_terms": ["NiPoPoW", "light clients", "blockchain bootstrapping", "verification"],
+      "participants": ["@UpwindStrategy", "@kushti_ru", "@Unknown"],
+      "significance": "major"
+    },
+    {
+      "title": "dApp bridge and Yoroi wallet integration",
+      "category": "wallet",
+      "key_terms": ["dApp bridge", "Yoroi", "MetaMask equivalent", "EIP-12"],
+      "participants": ["@Unknown", "@Dom1nant", "@Damon AndTheSea"],
+      "significance": "major"
+    },
+    {
+      "title": "Ledger hardware wallet support",
+      "category": "wallet",
+      "key_terms": ["Ledger", "hardware wallet", "security", "support timeline"],
+      "participants": ["@Martin", "@Sid", "@kushti_ru"],
+      "significance": "minor"
+    },
+    {
+      "title": "Developer recruitment and application development",
+      "category": "ecosystem",
+      "key_terms": ["developer recruitment", "stablecoin", "dApps", "DarkFund0 grants"],
+      "participants": ["@kushti_ru", "@chrom", "@Żeśo NiPoPau"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoScript and smart contract programming",
+      "category": "technical",
+      "key_terms": ["ErgoScript", "Playground", "programming", "tutorials", "learning"],
+      "participants": ["@Eysteinh", "@Unknown", "@kushti_ru"],
+      "significance": "minor"
+    },
+    {
+      "title": "Storage rent mechanism and emission end",
+      "category": "technical",
+      "key_terms": ["storage rent", "emission", "mining rewards", "blockchain sustainability"],
+      "participants": ["@UpwindStrategy", "@kushti_ru", "@Richi"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo tip bot functionality and usage",
+      "category": "community",
+      "key_terms": ["tip bot", "ERG tipping", "community rewards", "Telegram"],
+      "participants": ["@chrom", "@Dmitry Usov", "@Unknown"],
+      "significance": "minor"
+    },
+    {
+      "title": "Price discussion and market speculation",
+      "category": "marketing",
+      "key_terms": ["ERG price", "$100 target", "market cap", "trading"],
+      "participants": ["@Unknown", "@Moneyhun", "@Sid"],
+      "significance": "minor"
+    },
+    {
+      "title": "Spanish and Portuguese community expansion",
+      "category": "community",
+      "key_terms": ["Spanish community", "Brazilian community", "Cardano partnership", "localization"],
+      "participants": ["@Unknown", "@JM", "@Eysteinh"],
+      "significance": "minor"
+    },
+    {
+      "title": "REST API design and explorer improvements",
+      "category": "technical",
+      "key_terms": ["REST API", "API spec", "explorer", "v1 API", "OpenAPI standards"],
+      "participants": ["@Żeśo NiPoPau", "@kushti_ru", "@Dmitry Usov

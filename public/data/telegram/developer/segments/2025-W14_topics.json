@@ -1,0 +1,86 @@
+{
+  "chat": "Ergo Developer",
+  "week": "2025-W14",
+  "topics": [
+    {
+      "title": "Keystone Hardware Wallet secp256k1 Integration",
+      "category": "wallet",
+      "key_terms": ["secp256k1", "k256", "sigma-rust-mini", "firmware size", "no_std", "Prover trait"],
+      "participants": ["@Pgr456", "@dusek_", "@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo Protocol 6.0 Release Candidate Testing",
+      "category": "technical",
+      "key_terms": ["6.0.0-RC4", "protocol soft-fork", "sub-blocks", "p2p messages", "mainnet sync"],
+      "participants": ["@kushti0978", "@mgpai", "@Pgr456", "@Luivatra", "@odybhoja"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaState Interpreter Debug and Script Inspection",
+      "category": "technical",
+      "key_terms": ["debug", "inspect", "callback", "Verifier", "AST", "script evaluation"],
+      "participants": ["@novamon_25735", "@kushti0978", "@c8e4d2a", "@arobsn"],
+      "significance": "major"
+    },
+    {
+      "title": "Merklized Abstract Syntax Tree Implementation",
+      "category": "technical",
+      "key_terms": ["MAST", "ErgoScript", "context extension", "executeFromVar", "SBoolean"],
+      "participants": ["@ccellado", "@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Fleet SDK Tuple Extraction and Type Handling",
+      "category": "technical",
+      "key_terms": ["Fleet", "SigmaProps", "decode", "register", "UInt8Array", "ergoTree"],
+      "participants": ["@ldgaetano", "@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "Offchain Code Development and Integration Patterns",
+      "category": "technical",
+      "key_terms": ["offchain", "smart contract", "reduced transactions", "prover", "verifier"],
+      "participants": ["@Dmitriy B.", "@Anastasia Polozova", "@HQΣr"],
+      "significance": "minor"
+    },
+    {
+      "title": "Bitcoin On-Ramp Insurance and Offchain Money Research",
+      "category": "ecosystem",
+      "key_terms": ["Bitcoin on-ramp", "Ergo contracts", "offchain money", "redemption", "real-world solutions"],
+      "participants": ["@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "Crux LP Token Portfolio Integration",
+      "category": "defi",
+      "key_terms": ["Crux", "LP tokens", "t2t pools", "portfolio", "LP positions"],
+      "participants": ["@luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "SkyHarbor v2 Frontend Open Source Release",
+      "category": "ecosystem",
+      "key_terms": ["SkyHarbor", "frontend", "open source", "DEX"],
+      "participants": ["@Quokka", "@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigma-Rust and Sigmastate-Interpreter PR Reviews",
+      "category": "technical",
+      "key_terms": ["sigma-rust", "sigmastate-interpreter", "pull requests", "cross-compilation", "Scala 3"],
+      "participants": ["@dusek_", "@jozinek."],
+      "significance": "major"
+    }
+  ],
+  "active_participants": [
+    "@kushti0978",
+    "@dusek_",
+    "@Pgr456",
+    "@novamon_25735",
+    "@ccellado",
+    "@jozinek.",
+    "@arobsn"
+  ],
+  "message_count": 78
+}

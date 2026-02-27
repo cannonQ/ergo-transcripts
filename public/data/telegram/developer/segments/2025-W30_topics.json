@@ -1,0 +1,145 @@
+{
+  "chat": "developer",
+  "week": "2025-W30",
+  "topics": [
+    {
+      "title": "Mining candidate block timeout errors and performance",
+      "category": "technical",
+      "key_terms": ["POST /mining/candidate", "AskTimeoutException", "candidate block regeneration", "RAM allocation"],
+      "participants": ["@DiscordBridge", "@kushti"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma 6.0 protocol soft-fork activation and updates",
+      "category": "technical",
+      "key_terms": ["Sigma 6.0.1", "protocol upgrade", "September activation", "sigmastate-interpreter"],
+      "participants": ["@DiscordBridge", "@kushti", "@Glasgow"],
+      "significance": "major"
+    },
+    {
+      "title": "LithosProtocol development and testing progress",
+      "category": "technical",
+      "key_terms": ["storage rent contract", "NISP Fraud Proof", "difficulty contract", "emission contract", "Lithos BTC on Braid"],
+      "participants": ["@cannon_q"],
+      "significance": "major"
+    },
+    {
+      "title": "Sub-blocks and input-blocks fork resolution using PoEM",
+      "category": "technical",
+      "key_terms": ["sub-blocks", "input-blocks", "quick fork resolution", "PoEM"],
+      "participants": ["@kushti"],
+      "significance": "major"
+    },
+    {
+      "title": "Braid sidechain framework and merged-mined sidechains",
+      "category": "technical",
+      "key_terms": ["Braid whitepaper", "merged-mined sidechains", "Rust implementation", "sidechain framework"],
+      "participants": ["@kushti"],
+      "significance": "major"
+    },
+    {
+      "title": "RustChain Proof-of-Antiquity consensus mechanism",
+      "category": "technical",
+      "key_terms": ["Proof-of-Antiquity", "hardware fingerprinting", "vintage hardware preservation", "temporal validation", "RandomX hash layer"],
+      "participants": ["@AutoJanitor", "@kushti", "@ntech", "@riceandbeans"],
+      "significance": "major"
+    },
+    {
+      "title": "AI-generated code licensing and legal implications",
+      "category": "governance",
+      "key_terms": ["AI copyright", "open source licensing", "MIT/Apache/GPL compliance", "AI training data", "attribution"],
+      "participants": ["@AutoJanitor", "@riceandbeans"],
+      "significance": "major"
+    },
+    {
+      "title": "Keystone and hardware wallet integration improvements",
+      "category": "wallet",
+      "key_terms": ["keystone-ergo-js", "Ledger integration", "custom transaction serialization", "token limit constraints"],
+      "participants": ["@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo node API enhancements for input box proofs",
+      "category": "technical",
+      "key_terms": ["input box proofs", "API response enhancement", "MGpai PR", "node API"],
+      "participants": ["@MGpai", "@kushti"],
+      "significance": "minor"
+    },
+    {
+      "title": "Celaut and Game of Prompts beta release progress",
+      "category": "ecosystem",
+      "key_terms": ["Celaut", "Game of Prompts", "local execution", "service packaging", "landing page"],
+      "participants": ["@Josemi"],
+      "significance": "minor"
+    },
+    {
+      "title": "SigmaLok contract indexer and mempool handling",
+      "category": "technical",
+      "key_terms": ["SigmaLok", "Go indexer", "mempool indexing", "rollback handling", "actor framework"],
+      "participants": ["@MGpai"],
+      "significance": "minor"
+    },
+    {
+      "title": "Minotaur wallet 3.0.0 release with multi-sig updates",
+      "category": "wallet",
+      "key_terms": ["Minotaur v3.0.0", "multi-sig communication", "breaking changes", "AirDrop dapp"],
+      "participants": ["@vorujack", "@kushti"],
+      "significance": "minor"
+    },
+    {
+      "title": "ChainCash and cryptographic contract reviews",
+      "category": "technical",
+      "key_terms": ["ChainCash", "contract review", "Rust implementation"],
+      "participants": ["@kushti"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo infrastructure monitoring and dashboard expansion",
+      "category": "ecosystem",
+      "key_terms": ["infra DAO", "node monitoring", "explorer integration", "SigmaSpace", "ErgExplorer"],
+      "participants": ["@qx()", "@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "Global Transfer Policies for sidechain use cases",
+      "category": "technical",
+      "key_terms": ["Global Transfer Policies", "sidechain experimentation", "UTXO contracts", "first-class citizens"],
+      "participants": ["@kushti", "@Luca", "@MGpai"],
+      "significance": "minor"
+    },
+    {
+      "title": "Crux dApp landing page and token chart features",
+      "category": "ecosystem",
+      "key_terms": ["Crux", "landing page", "token overview", "DexGold/ERG chart"],
+      "participants": ["@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Phoenix hodlToken deployment framework",
+      "category": "defi",
+      "key_terms": ["Phoenix", "hodlToken", "permissionless deployment"],
+      "participants": ["@MGpai"],
+      "significance": "minor"
+    },
+    {
+      "title": "Testnet sync fixes and candidate cache issues",
+      "category": "technical",
+      "key_terms": ["testnet sync", "previousCachedCandidate", "PR review", "cache invalidation"],
+      "participants": ["@kushti", "@Pgr456"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti",
+    "@DiscordBridge",
+    "@AutoJanitor",
+    "@MGpai",
+    "@cannon_q",
+    "@riceandbeans",
+    "@arobsn",
+    "@Josemi",
+    "@qx()",
+    "@Luca"
+  ],
+  "message_count": 141
+}

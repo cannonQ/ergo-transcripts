@@ -1,0 +1,99 @@
+{
+  "chat": "developer",
+  "week": "2025-W20",
+  "topics": [
+    {
+      "title": "Ergo 6.0.0 protocol soft-fork and Sigma 6.0.0 implementation",
+      "category": "technical",
+      "key_terms": ["6.0.0", "soft-fork", "Sigma", "protocol upgrade", "voting"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Sub-blocks devnet deployment and weak-blocks branch testing",
+      "category": "technical",
+      "key_terms": ["sub-blocks", "devnet", "weak-blocks", "mining", "CPU mining"],
+      "participants": ["@kushti khushi", "@Patato", "@Pgr456"],
+      "significance": "major"
+    },
+    {
+      "title": "Input-ordering blocks and block announcement optimization",
+      "category": "technical",
+      "key_terms": ["ordering blocks", "EIP", "sub-blocks", "transaction section", "client"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Rosen Bridge multi-chain integration and feature enhancements",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "Doge", "scanner", "guard-service", "health-check"],
+      "participants": ["@zargarzadehmoein", "@ZzZzBYE"],
+      "significance": "major"
+    },
+    {
+      "title": "Fleet SDK v0.8.5 release and AVL+ tree implementation research",
+      "category": "technical",
+      "key_terms": ["Fleet SDK", "v0.8.5", "AVL trees", "SBox serialization", "JavaScript"],
+      "participants": ["@arobsn"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma-JS multisig aggregation and code optimization",
+      "category": "technical",
+      "key_terms": ["Sigma-JS", "multisig", "AVL+ tree ops", "tree-shakeable", "frontend optimization"],
+      "participants": ["@arobsn", "@c8"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo-node ExtraIndexer bug and mempool asynchronous updates",
+      "category": "technical",
+      "key_terms": ["Ergo-node", "ExtraIndexer", "mempool", "asynchronous"],
+      "participants": ["@Colby Cellador", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "SigmaMap implementation in Sigmastate",
+      "category": "technical",
+      "key_terms": ["Sigmastate", "SigmaMap", "implementation"],
+      "participants": ["@Colby Cellador"],
+      "significance": "minor"
+    },
+    {
+      "title": "EIP-4 token metadata update with minting transaction verification",
+      "category": "technical",
+      "key_terms": ["ergo-meta", "NIPoPoWs", "EIP-4", "metadata", "minting transaction"],
+      "participants": ["@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "Dexy liquidity pool contracts deployment and payout contract verification",
+      "category": "defi",
+      "key_terms": ["Dexy", "LP swap", "mint", "redeem", "payout contract", "bank"],
+      "participants": ["@c8"],
+      "significance": "minor"
+    },
+    {
+      "title": "ChainCash and Basis offchain application design and reserves",
+      "category": "defi",
+      "key_terms": ["ChainCash", "Basis", "offchain application", "on-chain reserves"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Minimum box value and transaction fee optimization",
+      "category": "technical",
+      "key_terms": ["minimum box value", "nanoerg", "box size", "transaction fees", "OutputBuilder"],
+      "participants": ["@HQΣr | Wont Dm 🐾 ⚡", "@Luivatra", "@Aco Šmrkas"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sub-blocks devnet node synchronization and fork issues",
+      "category": "technical",
+      "key_terms": ["devnet node", "synchronization", "fork", "height sync", "peer connections"],
+      "participants": ["@Patato", "@kushti khushi"],
+      "significance": "major"
+    }
+  ],
+  "active_participants": ["@kushti khushi", "@DiscordBridge", "@Patato", "@arobsn", "@Aco Šmrkas"],
+  "message_count": 59
+}

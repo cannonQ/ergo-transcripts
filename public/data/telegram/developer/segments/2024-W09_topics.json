@@ -1,0 +1,163 @@
+{
+  "chat": "Ergo Developer",
+  "week": "2024-W09",
+  "topics": [
+    {
+      "title": "Dexy DEX Launch Preparation and Testing",
+      "category": "defi",
+      "key_terms": ["Dexy", "launch", "audit", "testnet", "LP", "deployment"],
+      "participants": ["@kushti0978", "@mgpai", "@ldgaetano"],
+      "significance": "major"
+    },
+    {
+      "title": "Ledger Hardware Wallet Integration Issues",
+      "category": "wallet",
+      "key_terms": ["Ledger", "Nautilus", "proveDlog", "transaction verification", "script validation"],
+      "participants": ["@krasaviceblasen", "@HQΣr"],
+      "significance": "minor"
+    },
+    {
+      "title": "Core Protocol PR Reviews and Merges",
+      "category": "technical",
+      "key_terms": ["pull requests", "code review", "ergo-appkit", "sigma-rust", "version compatibility"],
+      "participants": ["@kushti0978", "@ergomorphic", "@ccellado", "@stenolog_79565"],
+      "significance": "major"
+    },
+    {
+      "title": "RocksDB Storage Integration and Testing",
+      "category": "technical",
+      "key_terms": ["RocksDB", "storage optimization", "macOS issues", "file locking", "node performance"],
+      "participants": ["@fantaerik", "@kushti0978", "@ccellado", "@filippounits"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaMap Implementation for Context Optimization",
+      "category": "technical",
+      "key_terms": ["SigmaMap", "context rework", "data structures", "protocol R&D"],
+      "participants": ["@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sidechain Verification and Transaction Processing",
+      "category": "technical",
+      "key_terms": ["sidechain", "interpreter", "transaction verification", "protocol development"],
+      "participants": ["@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigma Protocol Cryptography and Post-Quantum Security",
+      "category": "technical",
+      "key_terms": ["sigma protocols", "quantum computing", "post-quantum cryptography", "dlog signatures"],
+      "participants": ["@kii", "@kushti khushi", "@Glasgow", "@liquid_phase"],
+      "significance": "minor"
+    },
+    {
+      "title": "SelfBoxIndex Semantics Change in v5.0",
+      "category": "technical",
+      "key_terms": ["selfBoxIndex", "v5.0 upgrade", "sigma-rust versioning", "transaction validation"],
+      "participants": ["@dusek_", "@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Gluon Protocol Private UI Testing",
+      "category": "defi",
+      "key_terms": ["Gluon", "UI testing", "private testing"],
+      "participants": ["@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Rosen Bridge Bitcoin and EVM Integration",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "Bitcoin", "EVM", "chain integration", "guard service"],
+      "participants": ["@zzzzbye"],
+      "significance": "minor"
+    },
+    {
+      "title": "Testudo Staking Aggregation with Auth Methods",
+      "category": "defi",
+      "key_terms": ["Testudo", "ErgoPay", "Nautilus Auth", "staking aggregation"],
+      "participants": ["@c1ph3rn0va"],
+      "significance": "minor"
+    },
+    {
+      "title": "Crux Koinly CSV Integration and Ergopad Improvements",
+      "category": "ecosystem",
+      "key_terms": ["Crux", "Koinly", "CSV export", "token tracking", "Ergopad", "staking"],
+      "participants": ["@luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigmanauts Mining Pool and Storage Rent",
+      "category": "mining",
+      "key_terms": ["Sigmanauts", "mining pool", "storage rent", "pool dashboard"],
+      "participants": ["@cheeseenthusiast", "@wombo22"],
+      "significance": "minor"
+    },
+    {
+      "title": "Lithos Mining Client Configuration and Java Stratum",
+      "category": "mining",
+      "key_terms": ["Lithos", "mining configuration", "Java Stratum", "NISP parameters"],
+      "participants": ["@cheeseenthusiast"],
+      "significance": "minor"
+    },
+    {
+      "title": "Alephium vs Ergo UTXO and Sharding Analysis",
+      "category": "technical",
+      "key_terms": ["Alephium", "sharding", "UTXO model", "DEX design", "scalability"],
+      "participants": ["@mgpai", "@omniawaha", "@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "THz.FM Publisher Dashboard Development",
+      "category": "ecosystem",
+      "key_terms": ["THz.FM", "dashboard", "frontend development", "music platform"],
+      "participants": ["@liquid_phase"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mempool Protection and Network Spam Mitigation",
+      "category": "technical",
+      "key_terms": ["mempool", "spam protection", "peer limits", "transaction flooding"],
+      "participants": ["@kushti0978", "@omniawaha"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoTree Decompilation and Script Validation Issues",
+      "category": "technical",
+      "key_terms": ["ErgoTree", "decompilation", "script validation", "explorer API", "sigma-rust"],
+      "participants": ["@dusek_", "@Aco Šmrkas"],
+      "significance": "minor"
+    },
+    {
+      "title": "Node Release Workflow and External Repo Approvals",
+      "category": "technical",
+      "key_terms": ["v5.0.14 release", "appkit approval", "release management"],
+      "participants": ["@kushti0978", "@ergomorphic", "@mgpai"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaUSD Test Suite Development",
+      "category": "technical",
+      "key_terms": ["SigmaUSD", "test suite", "contract testing", "Scala"],
+      "participants": ["@kushti0978", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Single Node Multi-DApp Configuration Limitations",
+      "category": "ecosystem",
+      "key_terms": ["node wallet", "multiple dApps", "Spectrum", "duckpools", "Oracle pool"],
+      "participants": ["@Michael", "@krasaviceblasen", "@Christophe Garant"],
+      "significance": "minor"
+    },
+    {
+      "title": "Raspberry Pi Node Synchronization Testing",
+      "category": "technical",
+      "key_terms": ["Raspberry Pi", "node sync", "RocksDB performance", "ARM compatibility"],
+      "participants": ["@filippounits", "@kushti khushi", "@stenolog_79565"],
+      "significance": "minor"
+    },
+    {
+      "title": "Extended UTXO Sharding Research and Analysis",
+      "category": "technical",
+      "key_terms": ["sharding", "extended UTXO", "layer-one scalability", "research paper"],
+      "participants": ["

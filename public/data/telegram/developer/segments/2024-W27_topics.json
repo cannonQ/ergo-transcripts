@@ -1,0 +1,145 @@
+{
+  "chat": "developer",
+  "week": "2024-W27",
+  "topics": [
+    {
+      "title": "Node API transaction ordering inconsistency on indexed nodes",
+      "category": "technical",
+      "key_terms": ["byAddress endpoint", "transaction sorting", "indexer", "API paging", "sliced storage"],
+      "participants": ["@Flying Pig (™)", "@kushti khushi", "@DiscordBridge", "@Pgr456"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma 6.0 development and unsigned big integers implementation",
+      "category": "technical",
+      "key_terms": ["Sigma 6.0", "sigmastate-interpreter", "unsigned big ints", "Bulletproofs", "range proof verification"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "HTTP service failures on indexed nodes with extra indices",
+      "category": "technical",
+      "key_terms": ["HTTP API crash", "indexer threadpool", "timeout exception", "node startup", "BlockchainApiRoute"],
+      "participants": ["@Luivatra", "@kushti khushi", "@DiscordBridge"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus Wallet v0.11.0 release with connector improvements",
+      "category": "wallet",
+      "key_terms": ["Nautilus Wallet", "ergoConnector", "isConnected", "isAuthorized", "performance improvements"],
+      "participants": ["@DiscordBridge", "@arobsn"],
+      "significance": "major"
+    },
+    {
+      "title": "ErgoTree compilation discrepancies between local and chain deployment",
+      "category": "technical",
+      "key_terms": ["ergoscript contract", "ergoTree bytesHex", "ergopy", "appkit encoding", "testnet deployment"],
+      "participants": ["@DiscordBridge", "@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Variable difficulty setting and fork choice rule research",
+      "category": "technical",
+      "key_terms": ["variable difficulty", "fork choicing rule", "consensus research", "faster confirmations"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Blink light client implementation for Ergo proof-of-work",
+      "category": "technical",
+      "key_terms": ["Blink", "O(1) light client", "proof-of-work", "trusted setup", "ScaffoldPM implementation"],
+      "participants": ["@kushti khushi", "@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Crystal Pool deposit feature development with dynamic fee contracts",
+      "category": "defi",
+      "key_terms": ["deposit proxy", "mobile wallets", "dynamic tx fee", "contract compilation", "web3 deposit"],
+      "participants": ["@DiscordBridge"],
+      "significance": "minor"
+    },
+    {
+      "title": "Paideia treasury consolidation and long-living contract updates",
+      "category": "defi",
+      "key_terms": ["Paideia", "treasury consolidation", "long-living contracts", "UTXO refresh", "proposal voting"],
+      "participants": ["@DiscordBridge", "@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Crux DEX backend generalization with multi-exchange support",
+      "category": "defi",
+      "key_terms": ["Crux", "DEX order backend", "multiple dexes", "websocket updates", "custom UI"],
+      "participants": ["@DiscordBridge", "@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Rosen Bridge rosenet network scaling and message retry mechanisms",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "rosenet", "large messages", "burst messaging", "dial issues", "retry mechanism"],
+      "participants": ["@DiscordBridge", "@vorujack"],
+      "significance": "minor"
+    },
+    {
+      "title": "OpenSSH vulnerability CVE-2024 patching and mitigation",
+      "category": "ecosystem",
+      "key_terms": ["OpenSSH exploit", "root execution", "arbitrary code", "update script", "Linux systems"],
+      "participants": ["@DiscordBridge", "@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "SigUSD bank update contract testing and review process",
+      "category": "defi",
+      "key_terms": ["SigUSD", "bank update", "Ergoscript review", "unit tests", "smart contract audit"],
+      "participants": ["@DiscordBridge", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "LinkedIn community growth initiative for Ergo developers",
+      "category": "marketing",
+      "key_terms": ["LinkedIn", "community growth", "content distribution", "developer recruitment", "engagement metrics"],
+      "participants": ["@Glasgow｜WON'T DM"],
+      "significance": "minor"
+    },
+    {
+      "title": "Nautilus landing page frontend development by Koutelier",
+      "category": "ecosystem",
+      "key_terms": ["Nautilus frontend", "landing page", "website redesign", "Satergo stats integration"],
+      "participants": ["@Koutelier || WONT DM", "@Aberg Satergo dev"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigma-rust C-bindings usage and support coordination",
+      "category": "technical",
+      "key_terms": ["sigma-rust", "C-bindings", "ergo-lib-go", "language bindings"],
+      "participants": ["@DiscordBridge", "@Pgr456", "@zkastn"],
+      "significance": "minor"
+    },
+    {
+      "title": "Contract template parameter limitations and constant placeholder indexing",
+      "category": "technical",
+      "key_terms": ["contract template", "parameters limit", "constant placeholders", "script compilation"],
+      "participants": ["@DiscordBridge", "@Luivatra"],
+      "significance": "minor"
+    },
+    {
+      "title": "Mobile wallet development discussion for iPhone and Apple Watch",
+      "category": "wallet",
+      "key_terms": ["mobile wallet", "iPhone", "Apple Watch", "wallet feature planning"],
+      "participants": ["@DiscordBridge", "@Pgr456", "@c8"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@Flying Pig (™)",
+    "@kushti khushi",
+    "@DiscordBridge",
+    "@Luivatra",
+    "@Pgr456",
+    "@Aberg Satergo dev",
+    "@HQΣr | Wont Dm 🐾 ⚡",
+    "@Koutelier || WONT DM",
+    "@Glasgow｜WON'T DM",
+    "@Affable Villain"
+  ],
+  "message_count": 117
+}

@@ -1,0 +1,164 @@
+{
+  "chat": "developer",
+  "week": "2026-W06",
+  "topics": [
+    {
+      "title": "Subblocks devnet testing and configuration",
+      "category": "technical",
+      "key_terms": ["subblocks", "devnet", "blockInterval", "ordering blocks", "input blocks", "60s delay"],
+      "participants": ["@kushti khushi", "@Netim", "@Patato"],
+      "significance": "major"
+    },
+    {
+      "title": "Node synchronization issues and debugging",
+      "category": "technical",
+      "key_terms": ["node sync", "disk performance", "logs", "height mismatch", "networking errors"],
+      "participants": ["@Patato", "@Netim", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus wallet signing and transaction issues",
+      "category": "wallet",
+      "key_terms": ["Nautilus", "public key invalid", "complex transactions", "transaction signing"],
+      "participants": ["@anon_br", "@kushti khushi", "@kb"],
+      "significance": "major"
+    },
+    {
+      "title": "Fleet SDK register mutation and input selection",
+      "category": "technical",
+      "key_terms": ["Fleet SDK", "ghost register", "R5 register", "input selection", "ensureInclusion"],
+      "participants": ["@Josemi", "@anon_br"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo protocol reference client 6.0.3 and 6.0.4 releases",
+      "category": "technical",
+      "key_terms": ["6.0.3", "6.0.4", "PR review", "testnet nodes", "subblocks PRs"],
+      "participants": ["@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Schnorr signature endpoint implementation",
+      "category": "technical",
+      "key_terms": ["/utils/schnorrSign", "Schnorr signatures", "P2PK address", "offchain applications"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "NFT viewer in Ergo node with privacy considerations",
+      "category": "nft",
+      "key_terms": ["NFT viewer", "node integration", "IPFS", "R9 register", "URL tracking", "privacy"],
+      "participants": ["@ArØhβΣ @Arohbe", "@Maritsa Art", "@kushti khushi"],
+      "significance": "major"
+    },
+    {
+      "title": "Ergo documentation book mdbook structure and contributions",
+      "category": "community",
+      "key_terms": ["Ergo Book", "mdbook", "documentation", "Reddit AMA", "contributors"],
+      "participants": ["@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "EIP-4 NFT standard hash function choice",
+      "category": "nft",
+      "key_terms": ["EIP-4", "SHA-256", "BLAKE", "NFT standard"],
+      "participants": ["@Josemi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Vibe transcript indexing and KPI dashboard",
+      "category": "ecosystem",
+      "key_terms": ["ergo-transcripts", "Vibe update", "Demurrage Tracker", "storage rent claims"],
+      "participants": ["@cannon_q"],
+      "significance": "major"
+    },
+    {
+      "title": "Dexy stablecoin intervention bots and testing",
+      "category": "defi",
+      "key_terms": ["Dexy", "intervention bot", "DORT buyback", "stablecoin maintenance"],
+      "participants": ["@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "Game of Prompts AI contract platform development",
+      "category": "ecosystem",
+      "key_terms": ["Game of Prompts", "AI robots", "competition", "Ergo contracts"],
+      "participants": ["@Josemi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Degens World expansion and ecosystem tools",
+      "category": "ecosystem",
+      "key_terms": ["Degens World", "Ergo Mobile Wallet", "ErgoLabs", "Openclaw agents"],
+      "participants": ["@ArØhβΣ @Arohbe", "@cannon_q"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaVerse repository maintenance and app listings",
+      "category": "ecosystem",
+      "key_terms": ["SigmaVerse", "app directory", "repository management", "Degens World"],
+      "participants": ["@Michael", "@qx()", "@cannon_q"],
+      "significance": "minor"
+    },
+    {
+      "title": "Desktop application development with SigmaUSD and DEX",
+      "category": "ecosystem",
+      "key_terms": ["SigmaUSD", "Dexy", "DuckPools", "DEX", "pool discovery"],
+      "participants": ["@arkadia"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoMonitor pricing and oracle data integration",
+      "category": "ecosystem",
+      "key_terms": ["ErgoMonitor", "ERG/USD pricing", "oracle data"],
+      "participants": ["@Pulsarz"],
+      "significance": "minor"
+    },
+    {
+      "title": "Spectrum DEX API backend maintenance and issues",
+      "category": "defi",
+      "key_terms": ["Spectrum", "DEX API", "sigmaspace.io", "API cache", "RAM management"],
+      "participants": ["@Moein Zargarzadeh", "@Pgr456", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigma-Rust map behavior consistency with Scala",
+      "category": "technical",
+      "key_terms": ["sigma-rust", "Scala", "map behavior", "reference vectors"],
+      "participants": ["@Luivatra", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "Subblocks monitoring script for devnet stress testing",
+      "category": "technical",
+      "key_terms": ["monitoring script", "input block production", "ordering blocks", "transaction inclusion"],
+      "participants": ["@Patato"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo paper wallet BIP39 passphrase support",
+      "category": "wallet",
+      "key_terms": ["paper wallet", "BIP39 passphrase", "address generation", "Satergo"],
+      "participants": ["@Patato"],
+      "significance": "minor"
+    },
+    {
+      "title": "ErgoAuth EIP-0028 Terminus iOS implementation issues",
+      "category": "wallet",
+      "key_terms": ["ErgoAuth", "EIP-0028", "Terminus", "iOS", "reply URL"],
+      "participants": ["@bmfink"],
+      "significance": "minor"
+    },
+    {
+      "title": "Template hash generation from ergotree contracts",
+      "category": "technical",
+      "key_terms": ["template hash", "ergotree", "script conversion", "constants"],
+      "participants": ["@Pulsarz", "@cannon_q", "@kushti khushi"],
+      "significance": "minor"
+    },
+    {
+      "title": "AI coding assistants comparison and usage",
+      "category": "community",
+      "key_terms": ["Claude Opus", "GPT-5.3-Codex", "ChatGPT", "code generation", "MCP"],
+      "participants": ["@Pulsarz", "@arkadia", "@n1ur0"],
+      "significance": "

@@ -1,0 +1,163 @@
+{
+  "chat": "developer",
+  "week": "2024-W12",
+  "topics": [
+    {
+      "title": "Ergo 5.0.21 and 5.1.0 Release Finalization",
+      "category": "technical",
+      "key_terms": ["release", "PR review", "compilation", "v5.0.21", "v5.1.0"],
+      "participants": ["@kushti0978", "@ccellado", "@yee0576"],
+      "significance": "major"
+    },
+    {
+      "title": "Sidechain Design and Implementation Research",
+      "category": "technical",
+      "key_terms": ["sidechains", "BIP 300/301", "merged mining", "PoS", "peg designs"],
+      "participants": ["@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "Blockly Support for Non-Technical DApp Developers",
+      "category": "ecosystem",
+      "key_terms": ["blockly", "visual programming", "offchain generator", "DApp development"],
+      "participants": ["@kushti khushi", "@Christophe Garant"],
+      "significance": "major"
+    },
+    {
+      "title": "Dark Erdoge Miner Rewarder Launch and Hashrate Decentralization",
+      "category": "mining",
+      "key_terms": ["miner rewarder", "Dark Erdoge", "hashrate decentralization", "DErdoge token"],
+      "participants": ["@dark_erdoge", "@mgpai"],
+      "significance": "major"
+    },
+    {
+      "title": "Paideia DAO Contracts MVP Development",
+      "category": "defi",
+      "key_terms": ["Paideia", "DAO contracts", "staking rewards", "ergoscript preprocessor"],
+      "participants": ["@luivatra"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigmanaut Mining Pool UI Version 2 Redesign",
+      "category": "mining",
+      "key_terms": ["mining pool UI", "dashboard", "UX improvements", "Version 2"],
+      "participants": ["@Marc the Shark"],
+      "significance": "major"
+    },
+    {
+      "title": "SigmaUSD v1 and v2 Bank Script Comparison",
+      "category": "defi",
+      "key_terms": ["SigmaUSD", "bank scripts", "minting", "v1 v2 compare"],
+      "participants": ["@ccellado"],
+      "significance": "minor"
+    },
+    {
+      "title": "THz.FM Music Streaming and CyberVerse Partnership",
+      "category": "ecosystem",
+      "key_terms": ["THz.FM", "music streaming", "CyberVerse", "livestream"],
+      "participants": ["@liquid_phase"],
+      "significance": "minor"
+    },
+    {
+      "title": "Atomic Swap Software Cross-Chain Integration",
+      "category": "bridges",
+      "key_terms": ["atomic swaps", "password encryption", "EVM integration", "BTC lightning"],
+      "participants": ["@dΣathgripson"],
+      "significance": "major"
+    },
+    {
+      "title": "Dexy DeFi Protocol Mainnet Deployment",
+      "category": "defi",
+      "key_terms": ["Dexy", "pay-to-dev-emission", "buyback contract", "Spectrum bots"],
+      "participants": ["@kushti0978"],
+      "significance": "major"
+    },
+    {
+      "title": "Testnet Mining Resource Allocation",
+      "category": "mining",
+      "key_terms": ["testnet mining", "CPU resources", "docker containers"],
+      "participants": ["@kushti0978", "@mgpai", "@qx()"],
+      "significance": "minor"
+    },
+    {
+      "title": "EIP Management and Editorial Guidelines",
+      "category": "governance",
+      "key_terms": ["EIPs", "editorial guidelines", "BIP-0001", "repository maintenance"],
+      "participants": ["@kushti0978", "@cannon_q", "@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "Fiat-Backed Stablecoin Project Inquiry and Technical Discussion",
+      "category": "defi",
+      "key_terms": ["stablecoin", "fiat-backed", "self-custody", "smart contracts"],
+      "participants": ["@tonymas31", "@qx()", "@krasaviceblasen", "@cannon_q"],
+      "significance": "major"
+    },
+    {
+      "title": "Node Extra Indexes Configuration Error Resolution",
+      "category": "technical",
+      "key_terms": ["extra indexes", "node configuration", "RocksDB", "v5.0.20"],
+      "participants": ["@arobsn", "@moein_z", "@ccellalo", "@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Offline Wallet Generation CLI Tools",
+      "category": "wallet",
+      "key_terms": ["offline wallet", "CLI generation", "paper wallet", "seed phrase"],
+      "participants": ["@__daddychill__", "@Unknown", "@cafebedouin.org"],
+      "significance": "minor"
+    },
+    {
+      "title": "Ergo Developer DAO Formation and Community Contributions",
+      "category": "governance",
+      "key_terms": ["developer DAO", "community contributions", "ecosystem members"],
+      "participants": ["@kii", "@qx()"],
+      "significance": "minor"
+    },
+    {
+      "title": "P2SH Disabling and Sigma Compatibility",
+      "category": "technical",
+      "key_terms": ["P2SH", "sigma 5.0.14 release", "protocol changes"],
+      "participants": ["@kushti0978"],
+      "significance": "minor"
+    },
+    {
+      "title": "Thesis Project: On-Chain Tutoring Platform Development",
+      "category": "ecosystem",
+      "key_terms": ["thesis project", "tutoring platform", "smart contracts", "education"],
+      "participants": ["@ioannisleontiadis", "@kii"],
+      "significance": "minor"
+    },
+    {
+      "title": "Sigma Branch Strategy and Release Management",
+      "category": "technical",
+      "key_terms": ["master branch", "develop branch", "v5.0.14-RC", "release workflow"],
+      "participants": ["@kushti0978", "@ergomorphic"],
+      "significance": "minor"
+    },
+    {
+      "title": "Hardware Security and Processor Supply Chain Concerns",
+      "category": "community",
+      "key_terms": ["CPU security", "processor backdoors", "RISC-V", "supply chain"],
+      "participants": ["@liquid_phase", "@cannon_q", "@ccellado"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti0978",
+    "@ccellado",
+    "@qx()",
+    "@mgpai",
+    "@kii",
+    "@liquid_phase",
+    "@luivatra",
+    "@Marc the Shark",
+    "@dark_erdoge",
+    "@cannon_q",
+    "@tonymas31",
+    "@kushti khushi",
+    "@moein_z",
+    "@DiscordBridge"
+  ],
+  "message_count": 171
+}

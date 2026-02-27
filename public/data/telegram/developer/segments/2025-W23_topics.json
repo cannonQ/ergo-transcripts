@@ -1,0 +1,132 @@
+{
+  "chat": "developer",
+  "week": "2025-W23",
+  "topics": [
+    {
+      "title": "Ergo 6.0.0 Protocol Release and Testing",
+      "category": "technical",
+      "key_terms": ["6.0.0", "RC6", "soft-fork", "protocol upgrade", "node testing", "devnet"],
+      "participants": ["@kushti", "@TheStophe", "@dusek", "@Colby Cellador", "@Fanta"],
+      "significance": "major"
+    },
+    {
+      "title": "Sigma SDK 6.0.0 and Sigmachains Refactoring",
+      "category": "technical",
+      "key_terms": ["Sigma SDK", "sigmachains", "refactoring plan", "contractual layer", "pegging"],
+      "participants": ["@kushti", "@Luivatra", "@dusek", "@morphic"],
+      "significance": "major"
+    },
+    {
+      "title": "Sub-blocks and Input Ordering Implementation",
+      "category": "technical",
+      "key_terms": ["sub-blocks", "EIP-12", "chained transactions", "input ordering", "double-spending"],
+      "participants": ["@kushti", "@Patato", "@TheStophe"],
+      "significance": "major"
+    },
+    {
+      "title": "Fleet SDK and ergoc Compiler Releases",
+      "category": "technical",
+      "key_terms": ["Fleet SDK v0.10.0", "ergoc v0.3.0", "ErgoTree v2/v3", "mock-chain", "context variables"],
+      "participants": ["@arobsn", "@kushti"],
+      "significance": "major"
+    },
+    {
+      "title": "Nautilus Wallet v1.2.1 Updates",
+      "category": "wallet",
+      "key_terms": ["Nautilus Wallet", "v1.2.1", "rendering fixes"],
+      "participants": ["@arobsn"],
+      "significance": "minor"
+    },
+    {
+      "title": "Dexy UI Testing and Development",
+      "category": "defi",
+      "key_terms": ["Dexy UI", "test.crystalpool.cc", "private testing"],
+      "participants": ["@kushti"],
+      "significance": "minor"
+    },
+    {
+      "title": "Rosen Bridge Development and Doge Integration",
+      "category": "bridges",
+      "key_terms": ["Rosen Bridge", "Dogecoin", "watcher", "stratum", "testnet"],
+      "participants": ["@Glasgow", "@Armeanio"],
+      "significance": "minor"
+    },
+    {
+      "title": "Lithos Protocol Mining Pool Stratum Fixes",
+      "category": "mining",
+      "key_terms": ["Lithos Protocol", "stratum", "mining software", "testnet launch"],
+      "participants": ["@Glasgow", "@Armeanio"],
+      "significance": "minor"
+    },
+    {
+      "title": "Machina Finance Grid Order Contracts",
+      "category": "defi",
+      "key_terms": ["Machina Finance", "grid orders", "ERG token swaps", "unit tests"],
+      "participants": ["@arobsn", "@kushti"],
+      "significance": "minor"
+    },
+    {
+      "title": "SCypher v2.0 BIP39 Seed Encryption Tool",
+      "category": "ecosystem",
+      "key_terms": ["SCypher", "BIP39", "XOR cipher", "seed phrase encryption", "SHAKE-256"],
+      "participants": ["@Patato"],
+      "significance": "minor"
+    },
+    {
+      "title": "CodeUTXO MCP Servers and LLM Integration",
+      "category": "ecosystem",
+      "key_terms": ["MCP servers", "ergo-mcp", "natural language queries", "Claude", "RAG"],
+      "participants": ["@Marc the Shark", "@CodeUTXO"],
+      "significance": "minor"
+    },
+    {
+      "title": "Top Byte Token Holder Analytics Platform",
+      "category": "ecosystem",
+      "key_terms": ["token metrics", "holder analysis", "airdrop tools", "on-chain data"],
+      "participants": ["@Marc the Shark"],
+      "significance": "minor"
+    },
+    {
+      "title": "Fintelligence RAG AI Agent for Smart Contracts",
+      "category": "ecosystem",
+      "key_terms": ["RAG AI agents", "LLM", "vector database", "contract generation", "Ollama"],
+      "participants": ["@Marc the Shark"],
+      "significance": "minor"
+    },
+    {
+      "title": "SigmaQuest Game Backend Migration and Validation",
+      "category": "ecosystem",
+      "key_terms": ["SigmaQuest", "payment validation", "CORS", "explorer API", "session management"],
+      "participants": ["@TMR.ΣRG", "@HQΣr"],
+      "significance": "minor"
+    },
+    {
+      "title": "RustChain Proof of Antiquity Mining Sidechain",
+      "category": "technical",
+      "key_terms": ["RustChain", "proof of antiquity", "sidechain", "merged mining", "AI governance"],
+      "participants": ["@AutoJanitor", "@kushti"],
+      "significance": "minor"
+    },
+    {
+      "title": "Testnet IPv6 Peer Connectivity and Seed Updates",
+      "category": "technical",
+      "key_terms": ["testnet peers", "IPv6", "seed peers", "node synchronization"],
+      "participants": ["@TheStophe", "@qx", "@kushti", "@Cortex"],
+      "significance": "minor"
+    }
+  ],
+  "active_participants": [
+    "@kushti",
+    "@arobsn",
+    "@Marc the Shark",
+    "@DiscordBridge",
+    "@TheStophe",
+    "@Glasgow",
+    "@AutoJanitor",
+    "@Colby Cellador",
+    "@qx",
+    "@TMR.ΣRG",
+    "@Patato"
+  ],
+  "message_count": 83
+}
