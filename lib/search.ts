@@ -2,7 +2,10 @@ import OpenAI from "openai";
 import fs from "fs";
 import path from "path";
 
-const DATA_DIR = path.join(process.cwd(), "public", "data");
+// Vectors/metadata in data/ (bundled with serverless function)
+// Content files in public/data/ (also readable at runtime via fs)
+const VECTOR_DIR = path.join(process.cwd(), "data");
+const CONTENT_DIR = path.join(process.cwd(), "public", "data");
 const EMBED_MODEL = "text-embedding-3-small";
 const EMBED_DIM = 1024;
 
@@ -26,7 +29,7 @@ function loadIndex(): { vectors: Float32Array; metadata: ChunkMeta[] } {
     return { vectors, metadata };
   }
 
-  const vectorsBuf = fs.readFileSync(path.join(DATA_DIR, "vectors.bin"));
+  const vectorsBuf = fs.readFileSync(path.join(VECTOR_DIR, "vectors.bin"));
   vectors = new Float32Array(
     vectorsBuf.buffer,
     vectorsBuf.byteOffset,
@@ -34,7 +37,7 @@ function loadIndex(): { vectors: Float32Array; metadata: ChunkMeta[] } {
   );
 
   const metaJson = fs.readFileSync(
-    path.join(DATA_DIR, "metadata.json"),
+    path.join(VECTOR_DIR, "metadata.json"),
     "utf-8"
   );
   metadata = JSON.parse(metaJson);
@@ -239,9 +242,9 @@ export function listContent(
  * Read a specific file from the data directory.
  */
 export function readDataFile(filePath: string): string | null {
-  const fullPath = path.join(DATA_DIR, filePath);
+  const fullPath = path.join(CONTENT_DIR, filePath);
   // Prevent path traversal
-  if (!fullPath.startsWith(DATA_DIR)) return null;
+  if (!fullPath.startsWith(CONTENT_DIR)) return null;
   try {
     return fs.readFileSync(fullPath, "utf-8");
   } catch {
