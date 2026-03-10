@@ -225,4 +225,4 @@ This is a volunteer-run project still figuring out governance, funding, and long
 
 ## License
 
-MIT License (TBD - confirm before publishing). Goal is to make this reusable by other blockchain ecosystems.
+[AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.html). Goal is to make this reusable by other blockchain ecosystems.

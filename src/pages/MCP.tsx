@@ -238,7 +238,8 @@ export default function MCP() {
       {/* Footer note */}
       <section className="container mx-auto px-4 pb-8">
         <p className="text-xs font-mono text-ergo-muted/50 text-center">
-          Source: <a href="https://github.com/cannonQ/ergo-transcripts" className="text-ergo-orange/50 hover:text-ergo-orange transition-colors">cannonQ/ergo-transcripts</a> ·
+          Source: <a href="https://github.com/cannonQ/ergo-transcripts" className="text-ergo-orange/50 hover:text-ergo-orange transition-colors">cannonQ/ergo-transcripts</a> · Licensed under{' '}
+          <a href="https://www.gnu.org/licenses/agpl-3.0.html" className="text-ergo-orange/50 hover:text-ergo-orange transition-colors">AGPL-3.0</a> ·
           9,086 embedded chunks · Powered by OpenAI embeddings + MCP Protocol
         </p>
       </section>
