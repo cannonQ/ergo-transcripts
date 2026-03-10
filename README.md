@@ -39,6 +39,34 @@ Most blockchain ecosystems have this same problem. Research shows only Bitcoin (
 
 ---
 
+## MCP Server (AI Assistant Integration)
+
+**[Setup instructions →](https://ergo-transcripts.vercel.app/mcp)**
+
+An MCP (Model Context Protocol) server that lets any AI assistant search across the full community knowledge base — 138 video call transcripts, 153 months of Telegram discussions, 677 forum posts, and 394 blog articles.
+
+**Quick setup (Claude.ai):** Go to [claude.ai/customize/connectors](https://claude.ai/customize/connectors), click **+**, and add:
+```
+https://ergo-transcripts.vercel.app/api/mcp
+```
+
+**Available tools:**
+
+| Tool | Description |
+|------|-------------|
+| `search_conversations` | Semantic vector search across all community content |
+| `get_video` | Full video call summary, Q&A, decisions by title/date |
+| `get_telegram_summary` | Weekly or monthly Telegram summaries |
+| `get_forum_topic` | Search and retrieve ErgoForum topics |
+| `timeline` | Cross-source digest for a date range |
+| `list_content` | Browse available content by source/year |
+
+Works with Claude, Gemini CLI, Codex CLI, VS Code/Copilot, Cursor, Windsurf, and Cline. See the [setup page](https://ergo-transcripts.vercel.app/mcp) for client-specific configuration.
+
+**Companion server:** For curated developer docs (ErgoScript reference, contract analyses, EIPs, security audits), add the [Ergo Knowledge Base MCP](https://ergo-knowledge-base.vercel.app/api/mcp) alongside this one.
+
+---
+
 ## The Pipeline
 
 **What works right now:**
@@ -159,11 +187,20 @@ Check the Issues tab for specific tasks. For questions or collaboration, open a 
 
 ```
 /
-├── api/                    # Serverless functions (correction endpoint)
+├── api/                    # Serverless functions (MCP, OAuth, corrections)
+│   ├── mcp.ts             # MCP endpoint (6 tools, semantic search)
+│   ├── authorize.js       # No-op OAuth for MCP protocol compliance
+│   ├── token.js           # No-op OAuth token endpoint
+│   └── correction.js      # GitHub issue creation for corrections
+├── data/                   # Vector index (bundled with serverless functions)
+│   ├── vectors.bin        # Pre-computed embeddings (9,086 chunks)
+│   └── metadata.json      # Chunk text + metadata
+├── lib/                    # Shared server-side code
+│   └── search.ts          # Vector search engine (cosine similarity)
 ├── public/
-│   └── data/              # Transcript JSON files
+│   └── data/              # Content files (video, telegram, forum, blog)
 ├── src/                   # React application source
-├── scripts/               # Processing pipeline (transcription, speaker ID, etc.)
+├── scripts/               # Processing pipeline (transcription, embeddings, etc.)
 ├── glossary/              # 300+ term reference for Claude processing
 └── docs/                  # Implementation specs, quality guidelines
 ```

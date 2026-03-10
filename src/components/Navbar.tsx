@@ -27,6 +27,7 @@ export default function Navbar() {
     { path: '/topics', label: 'Topics' },
     { path: '/decisions', label: 'Decisions' },
     { path: '/speakers', label: 'Speakers' },
+    { path: '/mcp', label: 'MCP' },
   ];
 
   return (

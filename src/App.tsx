@@ -23,6 +23,7 @@ const SearchResults = lazy(() => import('./pages/SearchResults'));
 const Telegram = lazy(() => import('./pages/Telegram'));
 const TelegramDetail = lazy(() => import('./pages/TelegramDetail'));
 const TelegramCategoryDetail = lazy(() => import('./pages/TelegramCategoryDetail'));
+const MCP = lazy(() => import('./pages/MCP'));
 
 function PageLoader() {
   return (
@@ -60,6 +61,7 @@ function App() {
                     <Route path="/topics/chat/:category" element={<TelegramCategoryDetail />} />
                     <Route path="/marketing" element={<Marketing />} />
                     <Route path="/learn" element={<Learn />} />
+                    <Route path="/mcp" element={<MCP />} />
                     <Route path="/search" element={<SearchResults />} />
                   </Routes>
                 </Suspense>
