@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W30"
+date_start: "2024-07-22"
+date_end: "2024-07-28"
+type: telegram_weekly
+channel: developer
+week: "2024-W30"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo Developer Chat — 2024-W30 Summary
 
 ## Key Topics Discussed

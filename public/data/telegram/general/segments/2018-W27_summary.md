@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2018-W27"
+date_start: "2018-07-02"
+date_end: "2018-07-08"
+type: telegram_weekly
+channel: general
+week: "2018-W27"
+source: telegram
+message_count: 56
+categories: [technical, governance, ecosystem, marketing, wallet]
+key_terms: [non-interactive proofs, proof-of-work, superblocks, node storage, testnet, node setup, bootstrapping, GitHub releases, faucet, Docker, OutOfMemoryError, JVM heap, -Xmx parameter, container memory, roadmap, mainnet launch, Q4 2018, testnet updates, production environment, tokens support]
+---
 # Ergo General Chat — 2018-W27 Summary
 
 ## Key Topics Discussed

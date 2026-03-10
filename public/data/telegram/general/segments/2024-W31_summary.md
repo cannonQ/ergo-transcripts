@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2024-W31"
+date_start: "2024-07-29"
+date_end: "2024-08-04"
+type: telegram_weekly
+channel: general
+week: "2024-W31"
+source: telegram
+message_count: 455
+categories: [governance, technical, ecosystem, wallet, bridges, defi, nft, community, marketing, mining]
+key_terms: [task management, backlog, project coordination, Jira, Scrum, product owners, UTXO, boxes, wallet, escrow, transaction model, blockchain fundamentals, mempool, visualization, Tetris design, block explorer, transaction display, listing, BingX exchange, token listing]
+---
 # Ergo General Chat — 2024-W31 Summary
 
 ## Key Topics Discussed

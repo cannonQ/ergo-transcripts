@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W46"
+date_start: "2021-11-15"
+date_end: "2021-11-21"
+type: telegram_weekly
+channel: general
+week: "2021-W46"
+source: telegram
+message_count: 0
+categories: [community, ecosystem, defi, wallet, bridges, mining, marketing, technical, nft, governance]
+key_terms: [COMET, meme coin, community values, fun vs serious, AMA, weekly updates, Kushti, Dan Friedman, YouTube, Binance, exchange listings, market access, liquidity, ErgoDex, eUTXO, AMM, liquidity pools, launch, Yoroi, dApp connector]
+---
 ## Key Topics Discussed
 
 - **Weekly AMA with kushti and Dan Friedman**: The first weekly Ergo AMA was held on November 19th, 2021 at 13:00 UTC via YouTube live stream. Technical difficulties with bandwidth caused the stream to freeze initially, requiring a switch to audio-only format via Telegram. The AMA covered topics including Binance listing progress, marketing plans, oracle pools, Ledger integration status, wallet development, NIPoPoWs, eUTXO limitations, emission schedule soft fork, Bitcoin interoperability via Taproot, Hydra implementation potential, and developer education initiatives.

@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W33"
+date_start: "2025-08-11"
+date_end: "2025-08-17"
+type: telegram_weekly
+channel: developer
+week: "2025-W33"
+source: telegram
+message_count: 86
+categories: [technical, bridges, ecosystem, wallet, defi, mining, community]
+key_terms: [6.0.1, testnet, public testnet, node release, sub-blocks, "refactoring PR #2180", DoS vectors, BIP152, compact block relay, SigmaSDK, 6.0.3, release process, "sigma-rust PR #836", Braid, sidechain, Bitcoin, merge-mined, whitepaper, Rosen Bridge, Event page]
+---
 # Ergo Developer Chat Summary — 2025-W33
 
 ## Key Topics Discussed

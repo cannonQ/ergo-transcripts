@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - February 12th"
+date: "2025-02-13"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=m3MdlXmfj-Q
+video_id: m3MdlXmfj-Q
+duration_minutes: 66
+speakers: [Dan Friedman]
+topics: [rosen-bridge, binance, kraken, watcher, guard, docker, postgresql, palmyra, multi-chain, market-makers]
+companion_files: [20250213_m3MdlXmfj-Q_transcript.txt, 20250213_m3MdlXmfj-Q_qa.json, 20250213_m3MdlXmfj-Q_decisions.json, 20250213_m3MdlXmfj-Q_topics.json]
+---
 # Ergo PoW Blockchain - Weekly Update & AMA - February 12th, 2025
 
 ## Executive Summary

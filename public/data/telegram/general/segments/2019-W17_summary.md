@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W17"
+date_start: "2019-04-22"
+date_end: "2019-04-28"
+type: telegram_weekly
+channel: general
+week: "2019-W17"
+source: telegram
+message_count: 95
+categories: [mining, technical, governance, ecosystem]
+key_terms: [GPU mining, CPU mining, vRAM, memory requirements, hash power, efficiency, CUDA miner, Ubuntu setup, libcurl downgrade, GPU architecture, compilation errors, full node, config setup, API key, Blake2b hash, wallet addresses, port forwarding, EFYT token, emission curve, mining tax]
+---
 # Ergo General Chat — Week 2019-W17 Summary
 
 ## Key Topics Discussed

@@ -1,3 +1,16 @@
+---
+title: "Bene | Bruno Woltzenlogel Paleo & Josemi | ErgoHack 9"
+date: "2024-12-11"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=KYdE_jiDq80
+video_id: KYdE_jiDq80
+duration_minutes: 10
+speakers: [Bruno, Josemi]
+topics: [beene, proof-of-funding, contribution-accounting-tokens, funding-vault, crowdfunding, minimum-amount, deadline, withdrawal-rules, refund-mechanism, time-based-actions]
+companion_files: [20241211_KYdE_jiDq80_transcript.txt, 20241211_KYdE_jiDq80_qa.json, 20241211_KYdE_jiDq80_decisions.json, 20241211_KYdE_jiDq80_topics.json]
+---
 # Ergo Community Call Summary - December 11, 2024
 ## Bene | Bruno Woltzenlogel Paleo & Josemi | ErgoHack 9
 

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2024-W01"
+date_start: "2024-01-01"
+date_end: "2024-01-07"
+type: telegram_weekly
+channel: general
+week: "2024-W01"
+source: telegram
+message_count: 0
+categories: [mining, bridges, technical, marketing, defi, ecosystem, wallet, community, governance]
+key_terms: [bearwhale, sell pressure, price suppression, miners, tail emissions, Rosen Bridge, ERG-Cardano, bridging, watchers, permits, rsERG, sub-blocks, block time, 1 second blocks, scaling, sidechains, Binance, CEX listings, trading volume, Huobi]
+---
 # Ergo General Chat — 2024-W01 Summary
 
 ## Key Topics Discussed

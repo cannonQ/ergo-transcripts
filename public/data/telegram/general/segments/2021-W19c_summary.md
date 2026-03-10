@@ -1,3 +1,16 @@
+---
+title: "Ergo General Chat — 2021-W19 (Part C)"
+date_start: "2021-05-10"
+date_end: "2021-05-16"
+type: telegram_weekly
+channel: general
+week: "2021-W19"
+part: "c"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo General Chat — 2021-W19c Summary
 **Period:** 2021-05-14 to 2021-05-16
 

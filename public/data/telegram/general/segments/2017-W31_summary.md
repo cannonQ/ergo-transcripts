@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2017-W31"
+date_start: "2017-07-31"
+date_end: "2017-08-06"
+type: telegram_weekly
+channel: general
+week: "2017-W31"
+source: telegram
+message_count: 50
+categories: [ecosystem, technical]
+key_terms: [testnet, platform release, september, first year token, EFYT, economy model, Scorex, library, Space Scarce Economy, Rollerchain, PoS, blockchain bloat, security, transaction recovery, Waves exchange, Ergo First Year Token, coinmarketcap, Nimiq, competitor, web browser mining]
+---
 # Ergo General Chat — 2017-W31 Summary
 
 ## Key Topics Discussed

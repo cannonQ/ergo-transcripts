@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2024-W05"
+date_start: "2024-01-29"
+date_end: "2024-02-04"
+type: telegram_weekly
+channel: general
+week: "2024-W05"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo General Chat Summary — 2024-W05
 **Period:** 2024-01-29 to 2024-02-04  
 **Messages Processed:** 646 across 57 participants

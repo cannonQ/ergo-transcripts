@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W35"
+date_start: "2021-08-30"
+date_end: "2021-09-05"
+type: telegram_weekly
+channel: general
+week: "2021-W35"
+source: telegram
+message_count: 3175
+categories: [marketing, defi, ecosystem, technical, mining, wallet, nft, bridges, governance, community]
+key_terms: [KuCoin, AMA, rewards, questions, ErgoDEX, beta, liquidity pools, AMM, orderbook, ErgoRaffle, crowdfunding, raffle, smart contracts, SigUSD, SigRSV, reserve ratio, stablecoin, eUTXO, concurrency, off-chain]
+---
 # Ergo General Chat — 2021-W35 Summary
 ## Period: 2021-08-30 to 2021-09-05
 

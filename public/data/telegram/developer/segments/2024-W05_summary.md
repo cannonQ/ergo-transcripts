@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W05"
+date_start: "2024-01-29"
+date_end: "2024-02-04"
+type: telegram_weekly
+channel: developer
+week: "2024-W05"
+source: telegram
+message_count: 134
+categories: [technical, wallet, mining, ecosystem]
+key_terms: [stealth addresses, point encoding, compressed points, bouncycastle, light node support, chained transactions, stealth address support, token sending, UTXO age, storage rent, demurrage, creationHeight, 1051200 blocks, explorer API, unspent boxes, sortDirection, blockchain queries, mining pools, address book, known miners]
+---
 # Ergo Developer Chat — 2024-W05 Summary
 
 ## Key Topics Discussed

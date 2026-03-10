@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2022-W02"
+date_start: "2022-01-10"
+date_end: "2022-01-16"
+type: telegram_weekly
+channel: general
+week: "2022-W02"
+source: telegram
+message_count: 0
+categories: [technical, governance, defi, bridges, wallet, community, nft, mining, ecosystem, marketing]
+key_terms: [KuCoin, withdrawal, mempool, node maintenance, transaction delays, soft fork, emission, EIP-0027, miner voting, long-term security, storage rent, UTXO, 4-year cycle, 0.14 ERG fee, consolidation, ErgoDex, liquidity pools, token listings, impermanent loss, yield farming]
+---
 # Ergo General Chat — 2022-W02 Summary
 
 ## Key Topics Discussed

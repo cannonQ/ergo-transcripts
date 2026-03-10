@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W01"
+date_start: "2024-12-30"
+date_end: "2025-01-05"
+type: telegram_weekly
+channel: general
+week: "2025-W01"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo General Chat — 2025-W01 Summary
 
 ## Key Topics Discussed

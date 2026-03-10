@@ -1,3 +1,16 @@
+---
+title: "Trustless Bitcoin Relay on Ergo | Alex Chepurnoy | ErgoHack VIII"
+date: "2024-06-17"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=mx3n6j3OsdE
+video_id: mx3n6j3OsdE
+duration_minutes: 10
+speakers: [kushti]
+topics: [trustless-bitcoin-relay, spv-client, proof-of-work, block-headers, transaction-validation, hashrate-derivatives, smart-layer, rgb-protocol, cross-chain-exchange, op_return]
+companion_files: [20240617_mx3n6j3OsdE_transcript.txt, 20240617_mx3n6j3OsdE_qa.json, 20240617_mx3n6j3OsdE_decisions.json, 20240617_mx3n6j3OsdE_topics.json]
+---
 # Ergo Community Call Summary: Trustless Bitcoin Relay on Ergo
 
 **Call Date:** June 17, 2024  

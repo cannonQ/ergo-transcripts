@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2018-W30"
+date_start: "2018-07-23"
+date_end: "2018-07-29"
+type: telegram_weekly
+channel: general
+week: "2018-W30"
+source: telegram
+message_count: 67
+categories: [governance, mining, wallet, technical]
+key_terms: [mainnet, release, Q4, testnet, timeline, EFYT, conversion, swap, "1:1", emission curve, mining, pools, decentralization, solo mining, nicehash, wallet, prototype, mobile wallet, development, Scorex]
+---
 # Ergo General Chat — 2018-W30 Summary
 **Period:** 2018-07-23 to 2018-08-04  
 **Participants:** 9  

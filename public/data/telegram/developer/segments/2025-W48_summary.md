@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W48"
+date_start: "2025-11-24"
+date_end: "2025-11-30"
+type: telegram_weekly
+channel: developer
+week: "2025-W48"
+source: telegram
+message_count: 128
+categories: [wallet, technical, bridges, marketing, defi, ecosystem, community]
+key_terms: [ergo-wallet-app, pull requests, compilation issues, testing, gradle, JVM, ErgoScript, AI agents, context management, security issues, LLM instruction, Celaut, NiPoPoW, blockchain verification, trustless design, service isolation, explorer-backend, circulating supply, reemission, database sync]
+---
 # Ergo Developer Chat Summary — 2025-W48
 
 ## Key Topics Discussed

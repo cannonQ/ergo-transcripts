@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W07"
+date_start: "2020-02-10"
+date_end: "2020-02-16"
+type: telegram_weekly
+channel: general
+week: "2020-W07"
+source: telegram
+message_count: 263
+categories: [ecosystem, mining, technical, marketing, community]
+key_terms: [HotBit, exchange, withdrawal, listing, verification, ergopool, mining pool, decentralized mining, testnet, 2TH hashrate, miner distribution, 51% attack resistance, PoW security, decentralization, PoW, PoS, Autolykos, consensus mechanism, efficiency, onboarding]
+---
 # Ergo General Chat — 2020-W07 Summary
 
 ## Key Topics Discussed

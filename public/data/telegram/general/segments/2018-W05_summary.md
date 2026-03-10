@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2018-W05"
+date_start: "2018-01-29"
+date_end: "2018-02-04"
+type: telegram_weekly
+channel: general
+week: "2018-W05"
+source: telegram
+message_count: 61
+categories: [marketing, governance, community, ecosystem, technical, mining]
+key_terms: [rebrand, website, branding proposal, trustability, mainnet, EFYT to ERGO conversion, circulating supply, token migration, AMA, "Q&A session", founders Dmitry and Alexander, transcript, exchange listings, Waves, market cap, mass adoption, granny adoption, consumer accessibility, merchant integration, ease of use]
+---
 # Ergo General Chat — 2018-W05 Summary
 **Period:** 2018-01-29 to 2018-02-04  
 **Participants:** 11 (primarily community members; no core developers present)  

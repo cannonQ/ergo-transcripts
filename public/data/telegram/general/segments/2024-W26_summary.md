@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2024-W26"
+date_start: "2024-06-24"
+date_end: "2024-06-30"
+type: telegram_weekly
+channel: general
+week: "2024-W26"
+source: telegram
+message_count: 228
+categories: [marketing, technical, wallet, defi, mining, governance, ecosystem, community]
+key_terms: [Ergoversary, July 1st, anniversary content, ecosystem updates, mempool spam, fee market, DDoS protection, p2p layer, fee estimation API, Nautilus, v0.10.4, Abyss features, wallet update, rsBTC pool, SPF lending, Rosen Bridge, duckpools.io, P2Podcast, TMRERG, Marc the Shark]
+---
 # Ergo General Chat — 2024-W26 Summary
 
 ## Key Topics Discussed

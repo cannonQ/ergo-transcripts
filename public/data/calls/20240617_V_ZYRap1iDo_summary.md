@@ -1,3 +1,16 @@
+---
+title: "Crystal Pool | c8 | ErgoHack VIII"
+date: "2024-06-17"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=V_ZYRap1iDo
+video_id: V_ZYRap1iDo
+duration_minutes: 10
+speakers: [c8]
+topics: [crystal-pools, trustless-trading, swap-contract, order-book, background-transactions, dex, background-agent, unsigned-transaction, deposit-contract, transaction-validation]
+companion_files: [20240617_V_ZYRap1iDo_transcript.txt, 20240617_V_ZYRap1iDo_qa.json, 20240617_V_ZYRap1iDo_decisions.json, 20240617_V_ZYRap1iDo_topics.json]
+---
 # Crystal Pool | c8 | ErgoHack VIII - Community Call Summary
 
 **Date:** June 17, 2024

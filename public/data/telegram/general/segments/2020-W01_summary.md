@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W01"
+date_start: "2019-12-30"
+date_end: "2020-01-05"
+type: telegram_weekly
+channel: general
+week: "2020-W01"
+source: telegram
+message_count: 162
+categories: [marketing, technical, ecosystem, wallet, defi, community]
+key_terms: [Bittrex, Poloniex, OKEX, Binance, exchange listing, volume, fees, regulations, hash rate, explorer, charts, emission curve, 10M ERG supply, EFYT, token swap, "1:1 conversion", Waves platform, demand, light node, development]
+---
 # Ergo General Chat — 2020-W01 Summary
 
 ## Key Topics Discussed

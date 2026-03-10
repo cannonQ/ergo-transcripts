@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2023-W20"
+date_start: "2023-05-15"
+date_end: "2023-05-21"
+type: telegram_weekly
+channel: developer
+week: "2023-W20"
+source: telegram
+message_count: 83
+categories: [nft, wallet, technical, ecosystem, defi]
+key_terms: [NFT game, gang wars, meme tokens, playable NFTs, weapons, maps, ErgoScript, API, JSON, wallet, cryptography, Satergo, P2S, address, sigmastate-interpreter, ErgoAddress, multi-sig, proxy box, transaction fees, smart contracts]
+---
 # Ergo Developer Chat Summary — 2023-W20
 **Period:** 2023-05-15 to 2023-05-28  
 **Messages analyzed:** 83  

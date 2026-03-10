@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W45"
+date_start: "2025-11-03"
+date_end: "2025-11-09"
+type: telegram_weekly
+channel: developer
+week: "2025-W45"
+source: telegram
+message_count: 159
+categories: [technical, defi, wallet, bridges, ecosystem, governance]
+key_terms: [Hetzner, datacenter outage, p2p servers, failover, cloudflare, load balancing, API timeouts, explorer backend, database indexing, query performance, byErgoTree, TimescaleDB, p2p explorer, performance metrics, hetzner comparison, database optimization, SSD requirements, protocol 6.0, script context, input context extension]
+---
 # Ergo Developer Chat Summary — W45 2025-11-03 to 2025-11-09
 
 ## Key Topics Discussed

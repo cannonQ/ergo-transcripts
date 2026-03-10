@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2022-W38"
+date_start: "2022-09-19"
+date_end: "2022-09-25"
+type: telegram_weekly
+channel: general
+week: "2022-W38"
+source: telegram
+message_count: 3126
+categories: [mining, technical, bridges, governance, ecosystem, community, defi, nft]
+key_terms: [difficulty, EIP-37, DAA, epoch, hard fork, hashrate, merge, difficulty bomb, miners, profitability, node 5.0, JIT costing, activation, voting, bootstrapping, Rosen Bridge, soft launch, testnet, mainnet, Cardano]
+---
 # Ergo General Chat — 2022-W38 Summary
 
 ## Key Topics Discussed

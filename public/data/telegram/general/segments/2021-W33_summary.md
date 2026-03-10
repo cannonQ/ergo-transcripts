@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W33"
+date_start: "2021-08-16"
+date_end: "2021-08-22"
+type: telegram_weekly
+channel: general
+week: "2021-W33"
+source: telegram
+message_count: 0
+categories: [defi, wallet, bridges, ecosystem, mining, nft, technical, marketing, community]
+key_terms: [ergodex, beta, swap, liquidity, testing, yoroi nightly, djed, ageusd, sigmausd, stablecoin, cardano, ledger, hardware wallet, tesseract, security, gravity, graviton, cross-chain, susy gateway, wrapped assets]
+---
 ## Key Topics Discussed
 
 - **Changelly Listing Delay**: The Changelly listing originally planned for mid-August was delayed to August 31st due to technical issues on Changelly's side preventing the ERG asset from running properly on their engine.

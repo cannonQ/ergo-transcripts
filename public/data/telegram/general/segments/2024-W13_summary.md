@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2024-W13"
+date_start: "2024-03-25"
+date_end: "2024-03-31"
+type: telegram_weekly
+channel: general
+week: "2024-W13"
+source: telegram
+message_count: 0
+categories: [ecosystem, community, technical, defi, bridges, wallet, marketing, mining, nft]
+key_terms: [MexC listing, exchange integration, 2-3 months, EF funded, price stagnation, ATL, marketing, VC scams, altcoin comparison, ErgoScript, Sigma Protocols, smart contracts, eUTXO model, off-chain execution, pledging protocol, sports betting, oracle integration, MVP, DAO-driven, AI]
+---
 # Ergo General Chat — 2024-W13 Summary
 **Period:** 2024-03-25 to 2024-03-31  
 **Message Count:** 538  

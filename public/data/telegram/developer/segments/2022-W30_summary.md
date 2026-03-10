@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2022-W30"
+date_start: "2022-07-25"
+date_end: "2022-07-31"
+type: telegram_weekly
+channel: developer
+week: "2022-W30"
+source: telegram
+message_count: 60
+categories: [technical, defi, ecosystem]
+key_terms: [node release, v4.0.35, STDOUT logging, ProcessBuilder, pty4j, logback configuration, terminal-less process, java.lang.Process, PTY library, inheritIO, bytecode generation, 5.0 testnet, testnet launch, mainnet, protocol upgrade, peer dropping, v4.0.35 regression, peer removal, delivery checks, node banning]
+---
 # Ergo Developer Chat Summary — 2022-W30
 
 ## Key Topics Discussed

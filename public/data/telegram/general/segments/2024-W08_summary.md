@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2024-W08"
+date_start: "2024-02-19"
+date_end: "2024-02-25"
+type: telegram_weekly
+channel: general
+week: "2024-W08"
+source: telegram
+message_count: 0
+categories: [mining, governance, ecosystem, technical, defi, community, wallet, bridges]
+key_terms: [decentralized pool, Lithos Protocol, mining, hashrate, ErgoDevs DAO, core development, research, infrastructure, MEXC listing, raffle, crowdfunding, market making, exchange access, Xeggex, listing, MM requirements, Sigmanauts pool, 10g/h, storage rent, subblocks]
+---
 # Ergo General Chat Summary — 2024-W08 (2024-02-19 to 2024-02-25)
 
 ## Key Topics Discussed

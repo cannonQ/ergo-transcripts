@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W38"
+date_start: "2019-09-16"
+date_end: "2019-09-22"
+type: telegram_weekly
+channel: general
+week: "2019-W38"
+source: telegram
+message_count: 69
+categories: [ecosystem, technical, community]
+key_terms: [Bisq, v1.1.6, ERG_BTC, decentralized exchange, Tidex, withdrawal, stuck transaction, customer support, MSD confusion, EFYT, Ergo First Year Token, Waves DEX, "1:1 swap", gateway, exchange listing, CoinLim, cooperation, partnership, exchange integration, technical support]
+---
 # Ergo General Chat Summary — 2019-W38
 **Period:** 2019-09-16 to 2019-09-22  
 **Participants:** 11  

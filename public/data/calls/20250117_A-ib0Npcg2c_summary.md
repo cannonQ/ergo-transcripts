@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - January 16th 2025 PART 2"
+date: "2025-01-17"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=A-ib0Npcg2c
+video_id: A-ib0Npcg2c
+duration_minutes: 38
+speakers: [kushti, qx(), AI]
+topics: [merchandise, ergonaut, community-distribution, consignment, cyberverse, cross-chain, gaming, user-adoption, npcs, mining-pool]
+companion_files: [20250117_A-ib0Npcg2c_transcript.txt, 20250117_A-ib0Npcg2c_qa.json, 20250117_A-ib0Npcg2c_decisions.json, 20250117_A-ib0Npcg2c_topics.json]
+---
 # Ergo PoW Blockchain Community Call Summary
 **Date:** January 17, 2025  
 **Call Title:** Weekly Update & AMA - January 16th 2025 PART 2

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2022-W01"
+date_start: "2022-01-03"
+date_end: "2022-01-09"
+type: telegram_weekly
+channel: general
+week: "2022-W01"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo General Chat — 2022-W01 Summary
 
 ## Key Topics Discussed

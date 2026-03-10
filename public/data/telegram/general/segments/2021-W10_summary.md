@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W10"
+date_start: "2021-03-08"
+date_end: "2021-03-14"
+type: telegram_weekly
+channel: general
+week: "2021-W10"
+source: telegram
+message_count: 1316
+categories: [defi, ecosystem, mining, wallet, nft, community, technical, marketing]
+key_terms: [SigmaUSD, SigRSV, whale manipulation, oracle pricing, front-running, protocol upgrade, redemption, Hotbit withdrawal, dust collection, BiKi listing delay, liquidity, mining dust, transaction backlog, difficulty adjustment, mining pools, hashrate, GPU mining, Autolykos, pool resistance, ErgoSwap]
+---
 # Ergo General Chat — 2021-W10 Summary
 
 ## Key Topics Discussed

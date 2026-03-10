@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W30"
+date_start: "2025-07-21"
+date_end: "2025-07-27"
+type: telegram_weekly
+channel: general
+week: "2025-W30"
+source: telegram
+message_count: 0
+categories: [technical, mining, ecosystem, defi, governance, wallet, community]
+key_terms: [sub-blocks, mining, block propagation, orphan reduction, bandwidth, Lithos, mining pools, difficulty fraud, on-chain, LITHOS token, Sigma 6.0, protocol upgrade, flexibility, ErgoHack X, Game of Prompts, CodeUTXO, Cortex, hackathon, MEXC, withdrawals]
+---
 # Ergo General Chat — 2025-W30 Summary
 
 ## Key Topics Discussed

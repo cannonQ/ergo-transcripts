@@ -1,3 +1,16 @@
+---
+title: "Ergo POW Blockchain Weekly Update & AMA - July 25th 2024"
+date: "2024-07-26"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=b0GX_U3uUYw
+video_id: b0GX_U3uUYw
+duration_minutes: 61
+speakers: [qx(), CannonQ]
+topics: [storage-rent, testnet-node, mining-core, sigmanauts-mining-pool, revenue-stream, treasury, "11,000-erg", sigmalock, four-eyes, token-locking]
+companion_files: [20240726_b0GX_U3uUYw_transcript.txt, 20240726_b0GX_U3uUYw_qa.json, 20240726_b0GX_U3uUYw_decisions.json, 20240726_b0GX_U3uUYw_topics.json]
+---
 # Ergo POW Blockchain Weekly Update & AMA - July 25th 2024
 
 ## Executive Summary

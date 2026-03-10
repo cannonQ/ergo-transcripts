@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2023-W41"
+date_start: "2023-10-09"
+date_end: "2023-10-15"
+type: telegram_weekly
+channel: general
+week: "2023-W41"
+source: telegram
+message_count: 0
+categories: [technical, ecosystem, marketing, bridges, community, governance, defi, wallet, mining, nft]
+key_terms: [weak blocks, block confirmation time, 15 second blocks, user experience, "R&D phase", 30 million SPF tokens, $1.6 million donation, Spectrum Finance, treasury, CEX listings, Bitpanda, CoinEx, Huobi, MEXC, market access, Rosen Bridge, cross-chain, Cardano, ADA pair, validator tokens]
+---
 # Ergo General Chat — 2023-W41 Summary
 
 ## Key Topics Discussed

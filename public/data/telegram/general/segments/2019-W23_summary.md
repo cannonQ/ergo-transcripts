@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W23"
+date_start: "2019-06-03"
+date_end: "2019-06-09"
+type: telegram_weekly
+channel: general
+week: "2019-W23"
+source: telegram
+message_count: 315
+categories: [governance, wallet, technical, mining, ecosystem, marketing]
+key_terms: [mainnet launch, June 20, security audit, testnet, bill of lading, Magnum wallet, standalone wallet, wallet support, ergo-js, transaction building, GitHub, swagger, node API, Autolykos, PoW, block size, storage fee, scalability, sharding, ErgoScript]
+---
 # Ergo General Chat Summary — 2019-W23
 
 ## Key Topics Discussed

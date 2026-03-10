@@ -1,3 +1,16 @@
+---
+title: "Ergo to Bitcoin Lightning Swaps | Analog Ergo | ErgoHack VIII"
+date: "2024-06-17"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=aYH110rQKk4
+video_id: aYH110rQKk4
+duration_minutes: 12
+speakers: [deathgripson]
+topics: [atomic-swaps, lightning-network, bitcoin-testnet, lnd, ergoscript, sha-256, pre-images, regtest, proof-of-concept, hash-pre-images]
+companion_files: [20240617_aYH110rQKk4_transcript.txt, 20240617_aYH110rQKk4_qa.json, 20240617_aYH110rQKk4_decisions.json, 20240617_aYH110rQKk4_topics.json]
+---
 # Ergo Community Call Summary - June 17, 2024
 
 ## Executive Summary

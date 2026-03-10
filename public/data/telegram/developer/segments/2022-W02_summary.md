@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2022-W02"
+date_start: "2022-01-10"
+date_end: "2022-01-16"
+type: telegram_weekly
+channel: developer
+week: "2022-W02"
+source: telegram
+message_count: 60
+categories: [wallet, technical, defi, ecosystem, community]
+key_terms: [mnemonic extension, bip39 password, passphrase, tooltip, UI terminology, ergotree, hash, contract, output box, profit sharing, python implementation, transaction confirmation, mempool, fee, priority, chained transactions, staking contract, ergopad, backend implementation, L1]
+---
 # Ergo Developer Chat Summary — 2022-W02
 
 ## Key Topics Discussed

@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W01"
+date_start: "2024-12-30"
+date_end: "2025-01-05"
+type: telegram_weekly
+channel: developer
+week: "2025-W01"
+source: telegram
+message_count: 68
+categories: [technical, defi, wallet, ecosystem, community, governance, marketing]
+key_terms: [node sync, indexer, VPS benchmarks, disk I/O, Linode, Hetzner, performance optimization, fixed index boxes, context variables, oracle pool NFT, box filtering, contract design, password input, session management, user experience, authentication, security trade-offs, sub-blocks, stablecoins, bridges]
+---
 # Ergo Developer Chat Summary — 2025-W01
 
 ## Key Topics Discussed

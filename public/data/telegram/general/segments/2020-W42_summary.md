@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W42"
+date_start: "2020-10-12"
+date_end: "2020-10-18"
+type: telegram_weekly
+channel: general
+week: "2020-W42"
+source: telegram
+message_count: 1162
+categories: [nft, wallet, ecosystem, technical, defi, mining, bridges, community]
+key_terms: [auction house, NFT, anon_real, collectibles, smart contracts, Yoroi, EMURGO, mobile, browser extension, dApp bridge, Gate.io, Coinex, liquidity, orderbook, exchange withdrawal issues, double-spend, transaction assembly, withdrawal, technical support, stablecoin]
+---
 # Ergo General Chat — 2020-W42 Summary
 
 ## Key Topics Discussed

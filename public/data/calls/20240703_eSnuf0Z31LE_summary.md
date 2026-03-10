@@ -1,3 +1,16 @@
+---
+title: "Dan's Ergoversary Message | Dan Friedman | Ergoversary Summit 2024"
+date: "2024-07-03"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=eSnuf0Z31LE
+video_id: eSnuf0Z31LE
+duration_minutes: 10
+speakers: [Dan Friedman]
+topics: [mainnet-anniversary, ecosystem-growth, innovation, first-principles, exponential-growth, ergohack, hackathon, innovation-platform, product-development, solutions]
+companion_files: [20240703_eSnuf0Z31LE_transcript.txt, 20240703_eSnuf0Z31LE_qa.json, 20240703_eSnuf0Z31LE_decisions.json, 20240703_eSnuf0Z31LE_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Date:** July 3, 2024  
 **Title:** Dan's Ergoversary Message | Dan Friedman | Ergoversary Summit 2024

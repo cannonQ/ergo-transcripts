@@ -1,3 +1,16 @@
+---
+title: "SCypher | Patato | ErgoHack 10"
+date: "2025-06-27"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=tUsw5NZdwmw
+video_id: tUsw5NZdwmw
+duration_minutes: 10
+speakers: []
+topics: [community-call, setup, opening]
+companion_files: [20250627_tUsw5NZdwmw_transcript.txt, 20250627_tUsw5NZdwmw_qa.json, 20250627_tUsw5NZdwmw_decisions.json, 20250627_tUsw5NZdwmw_topics.json]
+---
 ## Executive Summary
 
 Based on the provided transcript, this appears to be an incomplete or corrupted recording of the Ergo blockchain community call from June 27, 2025, focused on SCypher, Patato, and ErgoHack 10. The transcript only contains minimal audio fragments with unidentified speakers saying "I..." and "you" at timestamps 00:55 and 03:27 respectively.

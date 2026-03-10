@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2022-W32"
+date_start: "2022-08-08"
+date_end: "2022-08-14"
+type: telegram_weekly
+channel: developer
+week: "2022-W32"
+source: telegram
+message_count: 65
+categories: [technical, wallet, governance]
+key_terms: [ergo, protocol, reference client, release, v4.0.37, Scala, Android, JDK, Java 8, API level, Oreo, language features, sigma-rust, JNI bindings, native library, pure Java/Scala implementation, transaction, mempool, cancel, input boxes]
+---
 ## Key Topics Discussed
 
 - **Scala/Java compatibility in Android development**: Discussion of Scala 2.11/2.12 variants in Ergo libraries, JDK versions on Android devices, and whether devices need to support older Java versions (API level 26+) for Ergo wallet development.

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W12"
+date_start: "2021-03-22"
+date_end: "2021-03-28"
+type: telegram_weekly
+channel: general
+week: "2021-W12"
+source: telegram
+message_count: 2206
+categories: [defi, marketing, ecosystem, nft, governance, mining, wallet, technical, bridges, community]
+key_terms: [sigmausd, ageusd, stablecoin, oracle pool, fee increase, reserve ratio, posting schedule, deviation checking, 12 minutes, front-running prevention, biki, airdrop, uid, exchange listing, 1000 erg, coinex, maintenance, withdrawal suspended, node upgrade, deposit issues]
+---
 # Ergo General Chat — 2021-W12 Summary
 **Period:** 2021-03-22 to 2021-03-28
 

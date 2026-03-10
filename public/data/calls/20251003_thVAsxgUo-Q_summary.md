@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Community Chat - October 2nd"
+date: "2025-10-03"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=thVAsxgUo-Q
+video_id: thVAsxgUo-Q
+duration_minutes: 52
+speakers: [qx(), kushti, CannonQ, HQ3rr, benzel]
+topics: [ama, colorado-springs, meetup, streaming, community-event, usc, stablecoin, richie, developers-chat, defi]
+companion_files: [20251003_thVAsxgUo-Q_transcript.txt, 20251003_thVAsxgUo-Q_qa.json, 20251003_thVAsxgUo-Q_decisions.json, 20251003_thVAsxgUo-Q_topics.json]
+---
 # Ergo Community Call Summary - October 2nd, 2025
 
 ## Executive Summary

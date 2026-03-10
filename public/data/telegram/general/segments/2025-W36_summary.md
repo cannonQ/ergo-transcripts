@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W36"
+date_start: "2025-09-01"
+date_end: "2025-09-07"
+type: telegram_weekly
+channel: general
+week: "2025-W36"
+source: telegram
+message_count: 301
+categories: [technical, community, defi, governance, wallet, ecosystem, bridges, nft]
+key_terms: [Braid, merged mining, Bitcoin, sidechain, ASIC, GPU mining, community chat, AMA, YouTube live, Zoom, developer update, tokenized gold, tokenized silver, RWA, backing, junk silver, chain cash, token utility, DePIN, tokenomics]
+---
 # Ergo General Chat Summary — 2025-W36
 
 ## Key Topics Discussed

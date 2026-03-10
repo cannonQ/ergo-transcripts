@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W36"
+date_start: "2021-09-06"
+date_end: "2021-09-12"
+type: telegram_weekly
+channel: general
+week: "2021-W36"
+source: telegram
+message_count: 1842
+categories: [defi, ecosystem, mining, wallet, community, governance, nft, marketing, technical]
+key_terms: [concurrency, ErgoDEX, off-chain bots, eUTXO, decentralized, Alonzo, Cardano, smart contracts, September 12, hard fork, Nanopool, hashrate, pool dominance, Flypool, 2miners, Binance, Changelly, Kucoin, CoinEx, exchange listings]
+---
 # Ergo General Chat — 2021-W36 Summary
 ## Key Topics Discussed
 

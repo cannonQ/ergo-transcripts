@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W06"
+date_start: "2024-02-05"
+date_end: "2024-02-11"
+type: telegram_weekly
+channel: developer
+week: "2024-W06"
+source: telegram
+message_count: 68
+categories: [ecosystem, defi, technical, community]
+key_terms: [dapps, speed, functionality, quality, consistency, dapp, skillshare, LETS, marketplace, developers, oracles, indexes, MSCI, cross-chain, tokenization, ergonodes.net, node crawler, concurrency, HTTPS, treasury]
+---
 # Ergo Developer Chat Summary — 2024-W06
 
 ## Key Topics Discussed

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W22"
+date_start: "2025-05-26"
+date_end: "2025-06-01"
+type: telegram_weekly
+channel: general
+week: "2025-W22"
+source: telegram
+message_count: 0
+categories: [governance, technical, bridges, ecosystem, defi, community, wallet, marketing]
+key_terms: [6.0 soft fork, voting, miners, protocol update, subblocks, pruning, UTXO set snapshots, testnet, devnet, Rosen Bridge, Handshake, cross-chain, 5000 ERG bounty, integration kit, ErgoHack, AI-based projects, hackathon, submissions, 70% AI code, live streams]
+---
 # Ergo General Chat — 2025-W22 Summary
 **Period:** 2025-05-26 to 2025-06-01 | **Messages:** 850 | **Participants:** 51
 

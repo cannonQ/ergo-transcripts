@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W09"
+date_start: "2020-02-24"
+date_end: "2020-03-01"
+type: telegram_weekly
+channel: general
+week: "2020-W09"
+source: telegram
+message_count: 275
+categories: [technical, ecosystem, marketing, community, mining, wallet, bridges, governance]
+key_terms: [node, wallet, config, panel, swagger, systemd, Tidex, Waves Exchange, Bittrex, Binance, P2B2, volume, liquidity, marketing, advertising, community, promotion, Bitcoin Talk signature campaign, giveaways, airdrop]
+---
 # Ergo General Chat — 2020-W09 Summary
 
 ## Key Topics Discussed

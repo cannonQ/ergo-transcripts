@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W45"
+date_start: "2024-11-04"
+date_end: "2024-11-10"
+type: telegram_weekly
+channel: developer
+week: "2024-W45"
+source: telegram
+message_count: 94
+categories: [technical, defi, wallet, mining, ecosystem, community]
+key_terms: [Sigma 6.0, UnsignedBigInt, bitwise operations, sigmastate-interpreter, protocol upgrade, zmqpub, ErgoSocket, magic bytes, message protocol, event publishing, SigmaUSD, oracle pool, bank update, mainnet deployment, pool 1.0, reference client 5.1.0, indexer, rollback, EIP-1 scans, network issues]
+---
 # Ergo Developer Chat Summary — 2024-W45
 
 ## Key Topics Discussed

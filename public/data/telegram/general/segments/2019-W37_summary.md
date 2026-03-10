@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W37"
+date_start: "2019-09-09"
+date_end: "2019-09-15"
+type: telegram_weekly
+channel: general
+week: "2019-W37"
+source: telegram
+message_count: 63
+categories: [ecosystem, technical, bridges, governance]
+key_terms: [GJ.COM, exchange listing, scam concerns, withdrawal issues, EFYT vs ERG, P2PB2B, exchange launch, deposit, withdrawal, trading live, ViteX, price, volume, trading pairs, price oracle, VWAP, CoinMarketCap, data reliability, exchange data, crowdfunding CLI]
+---
 # Ergo General Chat — 2019-W37 Summary
 
 ## Key Topics Discussed

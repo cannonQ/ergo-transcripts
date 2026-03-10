@@ -1,3 +1,16 @@
+---
+title: "The Next 5 Years of Ergo | Alex Chepurnoy | Ergoversary Summit 2024"
+date: "2024-07-04"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=8aCsjk6ziAU
+video_id: 8aCsjk6ziAU
+duration_minutes: 15
+speakers: [kushti]
+topics: [core-protocol, ecosystem-development, governance, personal-reflections, mainnet-launch, crypto-winter, ergo-foundation, crowdfunding, smart-contracts, zero-join]
+companion_files: [20240704_8aCsjk6ziAU_transcript.txt, 20240704_8aCsjk6ziAU_qa.json, 20240704_8aCsjk6ziAU_decisions.json, 20240704_8aCsjk6ziAU_topics.json]
+---
 # Ergo Community Call Summary - July 4, 2024
 
 ## Executive Summary

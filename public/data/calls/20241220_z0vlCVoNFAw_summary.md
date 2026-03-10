@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - December 19th 2024"
+date: "2024-12-20"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=z0vlCVoNFAw
+video_id: z0vlCVoNFAw
+duration_minutes: 48
+speakers: [qx(), kushti]
+topics: [brick-token, lets, cornell, nautilus-wallet, tipper-bot, large-format-printing, mewfinance, mac-pro, cornell-dao-treasury, physical-goods-marketplace]
+companion_files: [20241220_z0vlCVoNFAw_transcript.txt, 20241220_z0vlCVoNFAw_qa.json, 20241220_z0vlCVoNFAw_decisions.json, 20241220_z0vlCVoNFAw_topics.json]
+---
 # Ergo PoW Blockchain Community Call Summary
 **Date:** December 20, 2024  
 **Call Title:** Weekly Update & AMA - December 19th 2024

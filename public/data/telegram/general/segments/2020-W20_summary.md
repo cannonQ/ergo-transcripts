@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W20"
+date_start: "2020-05-11"
+date_end: "2020-05-17"
+type: telegram_weekly
+channel: general
+week: "2020-W20"
+source: telegram
+message_count: 1650
+categories: [marketing, technical, wallet, mining, ecosystem, community]
+key_terms: [CoinsBit, listing, airdrop, 25000 ERG, coinsbit.io, ErgoMix, ZeroJoin, mixing, privacy, non-interactive, CoinJoin, Cypra, wallet, SPV, atomic swaps, ErgoMix integration, SNICKER, mining pool, Jason Davies, PPS]
+---
 # Ergo General Chat — 2020-W20 Summary
 
 ## Key Topics Discussed

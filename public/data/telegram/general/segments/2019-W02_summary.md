@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W02"
+date_start: "2019-01-07"
+date_end: "2019-01-13"
+type: telegram_weekly
+channel: general
+week: "2019-W02"
+source: telegram
+message_count: 72
+categories: [governance, defi, technical, marketing, ecosystem]
+key_terms: [mainnet, launch, January, ERGO coin, ERGOmoney, ERGOdata, EFYT, swap, Waves DEX, token supply, "97,739,925 coins", Scala, smart contracts, Ergo script, sigma-state, 100 EFYT reward, PoW, distribution, Autolycus, mining]
+---
 # Ergo General Chat — 2019-W02 Summary
 
 ## Key Topics Discussed

@@ -1,3 +1,16 @@
+---
+title: "SigmaFi | tmr.erg | Ergoversary 2025"
+date: "2025-07-02"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=C64haFPNPJY
+video_id: C64haFPNPJY
+duration_minutes: 14
+speakers: [tmr.erg]
+topics: [sigmafi, peer-to-peer-lending, loan-requests, collateral, apr, blockchain-lending, dashboard, under-collateralized, bearer-assets, loan-terms]
+companion_files: [20250702_C64haFPNPJY_transcript.txt, 20250702_C64haFPNPJY_qa.json, 20250702_C64haFPNPJY_decisions.json, 20250702_C64haFPNPJY_topics.json]
+---
 # Ergo Community Call Summary
 **Date:** July 2, 2025  
 **Title:** SigmaFi | tmr.erg | Ergoversary 2025

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W43"
+date_start: "2025-10-20"
+date_end: "2025-10-26"
+type: telegram_weekly
+channel: general
+week: "2025-W43"
+source: telegram
+message_count: 492
+categories: [wallet, ecosystem, technical, defi, governance, bridges, community, marketing]
+key_terms: [Ledger Live, wallet integration, account display, maintenance, AWS outage, blockchain downtime, PoS networks, infrastructure resilience, ErgoScript, contract library, sigmastate-interpreter, perpetual tokens, stealth addresses, NiPoPoW, Android nodes, mobile sync, rocksdb, 2-hour bootstrap, LP transactions, box consolidation]
+---
 # Ergo General Chat — 2025-W43 Summary
 
 ## Key Topics Discussed

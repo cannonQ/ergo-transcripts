@@ -1,3 +1,16 @@
+---
+title: "Palmyra | Dan and QX() | Ergoversary 2025"
+date: "2025-07-03"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=ASJqaXid4po
+video_id: ASJqaXid4po
+duration_minutes: 34
+speakers: [qx(), Dan Friedman]
+topics: [ergoversary, zengate, dan-friedman, anniversary, msmes, real-world-impact, rwi, commodities, opportunity-inclusion, palmyra]
+companion_files: [20250703_ASJqaXid4po_transcript.txt, 20250703_ASJqaXid4po_qa.json, 20250703_ASJqaXid4po_decisions.json, 20250703_ASJqaXid4po_topics.json]
+---
 # Ergo Community Call Summary: Palmyra & ZenGate Deep Dive
 
 **Call Date:** July 3, 2025  

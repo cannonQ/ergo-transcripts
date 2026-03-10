@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W25"
+date_start: "2020-06-15"
+date_end: "2020-06-21"
+type: telegram_weekly
+channel: general
+week: "2020-W25"
+source: telegram
+message_count: 326
+categories: [wallet, defi, technical, mining, ecosystem]
+key_terms: [Cypra, BIP-158, light wallet, non-custodial, privacy, ErgoMix, ErgoMixer, token mixing, desktop application, Docker, node 3.2.7, block cost limit, transaction throughput, refactoring, ergopool.io, hashrate, 7.79 TH/s, Sistemkoin, airdrop, CoinsBit]
+---
 # Ergo General Chat — 2020-W25 Summary
 
 ## Key Topics Discussed

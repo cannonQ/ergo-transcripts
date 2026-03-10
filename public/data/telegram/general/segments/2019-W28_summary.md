@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W28"
+date_start: "2019-07-08"
+date_end: "2019-07-14"
+type: telegram_weekly
+channel: general
+week: "2019-W28"
+source: telegram
+message_count: 148
+categories: [community, ecosystem, mining, wallet, technical]
+key_terms: [discourse, forum, bitcointalk, user-friendly, token supply, inflation rate, emission, EFYT, WAVES, Tidex, SWFT, P2PB2B, Waves gateway, DEX, Bione Exchange, GPU miner, Autolykos, mining pool, mainnet, hashrate]
+---
 # Ergo General Chat — 2019-W28 Summary
 
 ## Key Topics Discussed

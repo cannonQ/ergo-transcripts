@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2022-W19"
+date_start: "2022-05-09"
+date_end: "2022-05-15"
+type: telegram_weekly
+channel: developer
+week: "2022-W19"
+source: telegram
+message_count: 76
+categories: [technical, governance, wallet, ecosystem, defi]
+key_terms: [node sync, height 746557, headers, forks resolution, "issue #1702", EIP-27, hashrate support, 92.68%, miner activation, locked in, EIP-3, extended public key, derivation path, child method, appkit, Koinly, read-only keys, xpub key, native tokens, integration]
+---
 # Ergo Developer Chat Summary — 2022-W19
 
 **Period:** 2022-05-09 to 2022-06-19  

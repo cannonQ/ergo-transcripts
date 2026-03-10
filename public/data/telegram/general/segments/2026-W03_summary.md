@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2026-W03"
+date_start: "2026-01-12"
+date_end: "2026-01-18"
+type: telegram_weekly
+channel: general
+week: "2026-W03"
+source: telegram
+message_count: 251
+categories: [governance, wallet, nft, technical, community, bridges, ecosystem, defi]
+key_terms: [Catalyst, Rosen Bridge, voting, BASE integration, INK integration, Ergo Wallet, node sync, balance display, Nautilus Wallet, address reuse, SkyHarbor, NFT marketplace, DuckPools, open source, ErgExplorer, market cap, liquid supply, circulating supply, Keystone, Nautilus]
+---
 # Ergo General Chat Summary — 2026-W03
 **Period:** 2026-01-12 to 2026-01-18  
 **Message Count:** 251 | **Active Participants:** 27

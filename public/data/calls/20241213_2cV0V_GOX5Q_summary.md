@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - December 12th 2024"
+date: "2024-12-13"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=2cV0V_GOX5Q
+video_id: 2cV0V_GOX5Q
+duration_minutes: 58
+speakers: [Armeanio, kushti]
+topics: [node-6.0, sub-blocks, eap-proposal, local-miner, prototype, dexy, spectrum-dex, ui-maintainer, ui-fee, sigmausd]
+companion_files: [20241213_2cV0V_GOX5Q_transcript.txt, 20241213_2cV0V_GOX5Q_qa.json, 20241213_2cV0V_GOX5Q_decisions.json, 20241213_2cV0V_GOX5Q_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Call Date:** December 13, 2024  
 **Call Title:** Ergo PoW Blockchain - Weekly Update & AMA - December 12th 2024

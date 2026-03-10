@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W50"
+date_start: "2020-12-07"
+date_end: "2020-12-13"
+type: telegram_weekly
+channel: general
+week: "2020-W50"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo General Chat — 2020-W50 Summary
 
 ## Key Topics Discussed

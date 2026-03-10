@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - May 1st"
+date: "2025-05-02"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=IRflAi_vnro
+video_id: IRflAi_vnro
+duration_minutes: 53
+speakers: [qx(), kushti, AI]
+topics: [tokenization, real-world-assets, minerals, cooperatives, funding-model, version-5.0.26, version-6.0, block-candidate-regeneration, voting, super-majority]
+companion_files: [20250502_IRflAi_vnro_transcript.txt, 20250502_IRflAi_vnro_qa.json, 20250502_IRflAi_vnro_decisions.json, 20250502_IRflAi_vnro_topics.json]
+---
 # Ergo PoW Blockchain - Weekly Update & AMA - May 1st, 2025
 
 ## Executive Summary

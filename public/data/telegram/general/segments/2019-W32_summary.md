@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W32"
+date_start: "2019-08-05"
+date_end: "2019-08-11"
+type: telegram_weekly
+channel: general
+week: "2019-W32"
+source: telegram
+message_count: 146
+categories: [wallet, technical, ecosystem, mining, community]
+key_terms: [wallet API, transaction sending, tx fee, unconfirmed transactions, change address, registers, box, asset type, issue type, ErgoScript, EFYT, token swap, "1:1 swap", Waves exchange, circulating tokens, solo mining, hashrate database, 51% attack, mining farms, network security]
+---
 # Ergo General Chat — Week 2019-W32 Summary
 **Period:** 2019-08-05 to 2019-08-18  
 **Active Participants:** 14  

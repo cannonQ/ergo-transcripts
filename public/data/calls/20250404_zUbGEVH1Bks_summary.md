@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - April 3rd"
+date: "2025-04-04"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=zUbGEVH1Bks
+video_id: zUbGEVH1Bks
+duration_minutes: 45
+speakers: [kushti, Marc the Shark]
+topics: [ai-agents, grid-trading-bot, open-web-ui, llm, blockchain-analysis, oracle-pool, usd-oracle-pool, stable-coins, options-contracts, farmers]
+companion_files: [20250404_zUbGEVH1Bks_transcript.txt, 20250404_zUbGEVH1Bks_qa.json, 20250404_zUbGEVH1Bks_decisions.json, 20250404_zUbGEVH1Bks_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Date:** April 4, 2025  
 **Title:** Ergo PoW Blockchain - Weekly Update & AMA - April 3rd

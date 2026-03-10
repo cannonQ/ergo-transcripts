@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - August 28th"
+date: "2025-08-28"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=fNPoCSHWZgs
+video_id: fNPoCSHWZgs
+duration_minutes: 21
+speakers: [qx()]
+topics: [community-ama, peer-to-peer, ef-servers, decentralization, community-centric, kraken, mark, livestream, hashrate, mining-network]
+companion_files: [20250828_fNPoCSHWZgs_transcript.txt, 20250828_fNPoCSHWZgs_qa.json, 20250828_fNPoCSHWZgs_decisions.json, 20250828_fNPoCSHWZgs_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Date:** August 28, 2025  
 **Host:** qx()

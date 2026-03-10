@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2018-W20"
+date_start: "2018-05-14"
+date_end: "2018-05-20"
+type: telegram_weekly
+channel: general
+week: "2018-W20"
+source: telegram
+message_count: 72
+categories: [ecosystem, mining, technical, wallet]
+key_terms: [Waves, airdrop, Scorex framework, exchange listing, mainnet, ASIC resistance, pools resistance, computational cost, GPU, FPGA, stateless clients, NiPoPoW, energy consumption, Bitcoin mining, renewable energy, sustainability, solar power, testnet1, testnet2, Sigma-State]
+---
 # Ergo General Chat — 2018-W20 Summary
 **Period:** 2018-05-15 to 2018-05-27  
 **Message Count:** 72  

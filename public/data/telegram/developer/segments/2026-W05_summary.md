@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2026-W05"
+date_start: "2026-01-26"
+date_end: "2026-02-01"
+type: telegram_weekly
+channel: developer
+week: "2026-W05"
+source: telegram
+message_count: 187
+categories: [technical, wallet, defi, ecosystem, community]
+key_terms: [node release, version 6.0.2, version 6.1.2, extra indices, docker integration tests, sub-blocks, input blocks, ordering blocks, devnet, fork synchronization, blockInterval, explorer-backend, sigma-rust, deserialization versioning, ergo tree pretty printing, DEX code removal, GraphQL, node health checks, load balancer, endpoint routing]
+---
 # Ergo Developer Chat — 2026-W05 Summary
 
 ## Key Topics Discussed

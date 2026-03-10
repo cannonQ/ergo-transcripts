@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W46"
+date_start: "2025-11-10"
+date_end: "2025-11-16"
+type: telegram_weekly
+channel: developer
+week: "2025-W46"
+source: telegram
+message_count: 78
+categories: [technical, wallet, defi, bridges, ecosystem]
+key_terms: [testnet, devnet, LITHOS_NET, 6.0, known peers, database wipe, explorer-backend, explorer-frontend, PR review, README.md, sigmastate-interpreter, ergo-wallet-app, Android, "PR#188", @Superellipse, RWA hub, chaincash, developer recruitment, Basis contract, Rosen Bridge]
+---
 # Ergo Developer Chat Summary — W46 (2025-11-10 to 2025-11-16)
 
 ## Key Topics Discussed

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W30"
+date_start: "2021-07-26"
+date_end: "2021-08-01"
+type: telegram_weekly
+channel: general
+week: "2021-W30"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 ## Key Topics Discussed
 
 - **Android Wallet Release**: Ergo's first mobile wallet built on Ergo AppKit was released on Google Play Store, developed by Benjamin Schulte (MrStahlfelge). The wallet was audited by Ergo devs and supports read-only wallet functionality. Community initially had concerns about trust/verification, but the wallet is legitimate and EF-supported.

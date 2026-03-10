@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2022-W05"
+date_start: "2022-01-31"
+date_end: "2022-02-06"
+type: telegram_weekly
+channel: general
+week: "2022-W05"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo General Chat Summary — 2022-W05
 **Period:** 2022-01-31 to 2022-02-06  
 **Messages Processed:** 885  

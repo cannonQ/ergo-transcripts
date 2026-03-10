@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W42"
+date_start: "2025-10-13"
+date_end: "2025-10-19"
+type: telegram_weekly
+channel: developer
+week: "2025-W42"
+source: telegram
+message_count: 70
+categories: [technical, defi, ecosystem]
+key_terms: [coding agents, LLM, security-critical code, test generation, AGENTS.md, sub-blocks, L2, sidechains, throughput, settlement layer, sigma-rust, WASM bindings, JS documentation, AppKit 6.0, ergo-lib-wasm, USE stablecoins, parameters, bank interventions, liquidity bootstrapping, oracle pool]
+---
 # Ergo Developer Chat Summary — 2025-W42
 **Period:** 2025-10-13 to 2025-10-19  
 **Participants:** 10 | **Messages:** 70

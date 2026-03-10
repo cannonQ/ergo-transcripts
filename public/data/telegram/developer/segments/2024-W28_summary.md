@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W28"
+date_start: "2024-07-08"
+date_end: "2024-07-14"
+type: telegram_weekly
+channel: developer
+week: "2024-W28"
+source: telegram
+message_count: 64
+categories: [technical, wallet, bridges, defi, ecosystem]
+key_terms: [AVL trees, Go, Rust bindings, C-bindings, ErgoNames, headless wallet, Fleet SDK, Nautilus, Sigma.js, multi-sig, cross-platform, Sigma 6.0, Numeric ops, soft-fork, testnet, bitwise operations, reference client, block candidate generation, faster confirmations, sidechains]
+---
 # Ergo Developer Chat Summary — 2024-W28
 
 ## Key Topics Discussed

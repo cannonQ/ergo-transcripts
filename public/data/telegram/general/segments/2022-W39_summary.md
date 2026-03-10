@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2022-W39"
+date_start: "2022-09-26"
+date_end: "2022-10-02"
+type: telegram_weekly
+channel: general
+week: "2022-W39"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 ## Key Topics Discussed
 
 - **EIP-37 Hard Fork Voting and Activation**: The week was dominated by discussion and voting on EIP-37, which proposes reducing difficulty adjustment epochs from 1024 blocks to 128 blocks and limiting difficulty changes to 50% per epoch. Voting started earlier than initially planned (block 844294 instead of 844800) after release of node version 4.0.103. The proposal required 232 yes votes out of the last 256 blocks (90% threshold) to activate, with checks every 128 blocks.

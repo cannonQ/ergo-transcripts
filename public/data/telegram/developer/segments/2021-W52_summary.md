@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2021-W52"
+date_start: "2021-12-27"
+date_end: "2022-01-02"
+type: telegram_weekly
+channel: developer
+week: "2021-W52"
+source: telegram
+message_count: 74
+categories: [technical, defi, ecosystem, wallet]
+key_terms: [token icons, asset mapping, SVG, icon repositories, wallet integration, IPFS, blockchain storage, hashes, Fleek, decentralization, NFTs, liquidity aggregator, ErgoMixer, ErgoDex, privacy, LP incentives, UX, fee tokens, mining fees, privacy leaks]
+---
 # Ergo Developer Chat Summary — 2021-W52
 **Period:** 2021-12-29 to 2022-01-09  
 **Message Count:** 74  

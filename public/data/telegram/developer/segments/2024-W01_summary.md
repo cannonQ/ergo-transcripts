@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W01"
+date_start: "2024-01-01"
+date_end: "2024-01-07"
+type: telegram_weekly
+channel: developer
+week: "2024-W01"
+source: telegram
+message_count: 74
+categories: [technical, ecosystem, wallet]
+key_terms: [sub-blocks, weak confirmations, transaction speed, block time, scaling, sub-block fees, incentives, miners, sidechains, native tokens, dApp scaling, L2, p2p transactions, exchange confirmations, Rosen, mempool size, rebroadcast, transaction propagation, network efficiency, casino games]
+---
 # Ergo Developer Chat Summary — 2024-W01
 
 ## Key Topics Discussed

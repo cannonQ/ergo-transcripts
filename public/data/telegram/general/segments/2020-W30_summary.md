@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W30"
+date_start: "2020-07-20"
+date_end: "2020-07-26"
+type: telegram_weekly
+channel: general
+week: "2020-W30"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo General Chat Summary — 2020-W30 (July 20–26)
 
 ## Key Topics Discussed

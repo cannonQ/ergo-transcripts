@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2022-W13"
+date_start: "2022-03-28"
+date_end: "2022-04-03"
+type: telegram_weekly
+channel: general
+week: "2022-W13"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo General Chat — Week 2022-W13 Summary
 **Period:** 2022-03-28 to 2022-04-03  
 **Total Messages:** 1084

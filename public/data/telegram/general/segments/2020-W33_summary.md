@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W33"
+date_start: "2020-08-10"
+date_end: "2020-08-16"
+type: telegram_weekly
+channel: general
+week: "2020-W33"
+source: telegram
+message_count: 636
+categories: [defi, technical, bridges, wallet, ecosystem, governance, mining, community]
+key_terms: [oracle pools, Emurgo, Cardano, pricing oracle, non-custodial DeFi, mixer, privacy, excess deposit, donation, cross-chain, wrapped ERG, ETH integration, USDT, atomic swaps, UTXO, programmable money, scripting language, Bitcoin model, Yoroi, Ledger integration]
+---
 # Ergo General Chat — 2020-W33 Summary
 
 ## Key Topics Discussed

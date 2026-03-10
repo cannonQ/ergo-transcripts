@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W30"
+date_start: "2025-07-21"
+date_end: "2025-07-27"
+type: telegram_weekly
+channel: developer
+week: "2025-W30"
+source: telegram
+message_count: 141
+categories: [technical, governance, wallet, ecosystem, defi]
+key_terms: [POST /mining/candidate, AskTimeoutException, candidate block regeneration, RAM allocation, Sigma 6.0.1, protocol upgrade, September activation, sigmastate-interpreter, storage rent contract, NISP Fraud Proof, difficulty contract, emission contract, Lithos BTC on Braid, sub-blocks, input-blocks, quick fork resolution, PoEM, Braid whitepaper, merged-mined sidechains, Rust implementation]
+---
 # Ergo Developer Chat — 2025-W30 Summary
 
 ## Key Topics Discussed

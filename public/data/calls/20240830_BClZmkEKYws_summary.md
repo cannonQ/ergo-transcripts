@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - August 29th 2024"
+date: "2024-08-30"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=BClZmkEKYws
+video_id: BClZmkEKYws
+duration_minutes: 25
+speakers: [kushti, qx()]
+topics: [node-6.0, alpha-release, sub-blocks, banxa, collateralized-nodes, mining-pool, storage-rent, mining-core, server-infrastructure, profitability]
+companion_files: [20240830_BClZmkEKYws_transcript.txt, 20240830_BClZmkEKYws_qa.json, 20240830_BClZmkEKYws_decisions.json, 20240830_BClZmkEKYws_topics.json]
+---
 # Ergo Blockchain Community Call Summary - August 30, 2024
 
 ## Executive Summary

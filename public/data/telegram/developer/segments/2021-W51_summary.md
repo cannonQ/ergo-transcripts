@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2021-W51"
+date_start: "2021-12-20"
+date_end: "2021-12-26"
+type: telegram_weekly
+channel: developer
+week: "2021-W51"
+source: telegram
+message_count: 66
+categories: [technical, ecosystem, wallet, nft]
+key_terms: [CSV, chain data, web scraping, explorer, node, binary format, explorer-backend, API, local setup, network stress, chain analysis, ergo.watch, statistics, node version, conf files, release automation, version tracking, address verification, wallet authentication, signature]
+---
 # Ergo Developer Chat Summary — 2021-W51
 **Period:** 2021-12-22 to 2021-12-26  
 **Participants:** 8 (Aberg, Glasgow, Ilya, Ilya Oskin, Luivatra, Unknown, anon_br, kushti)  

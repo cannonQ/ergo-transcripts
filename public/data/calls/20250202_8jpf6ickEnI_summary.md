@@ -1,3 +1,16 @@
+---
+title: "Dev Update Feb 2nd 2025 |  Cornell AAP Brick, ChainCash, Miners Rights Protocol, Minotaur, and more!"
+date: "2025-02-02"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=8jpf6ickEnI
+video_id: 8jpf6ickEnI
+duration_minutes: 57
+speakers: [Armeanio, qx()]
+topics: [meme-tokens, trump-token, financial-nihilism, meaningful-usage, speculation, value-extraction, brick-token, cornell, 3d-printing, tipperbot]
+companion_files: [20250202_8jpf6ickEnI_transcript.txt, 20250202_8jpf6ickEnI_qa.json, 20250202_8jpf6ickEnI_decisions.json, 20250202_8jpf6ickEnI_topics.json]
+---
 # Ergo Dev Update Summary - February 2nd, 2025
 
 ## Executive Summary

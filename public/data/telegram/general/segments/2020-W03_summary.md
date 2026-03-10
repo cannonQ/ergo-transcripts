@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W03"
+date_start: "2020-01-13"
+date_end: "2020-01-19"
+type: telegram_weekly
+channel: general
+week: "2020-W03"
+source: telegram
+message_count: 69
+categories: [ecosystem, mining, wallet, governance, marketing]
+key_terms: [liquidity, exchanges, Tidex, Waves.exchange, market makers, full node, sync, mining, RTX 2080 Ti, CUDA_COMPUTE_ARCH, JRE, Waves token, mainnet, swap, token migration, security audit, core development, quality assurance, distributed mining pool, private key management]
+---
 # Ergo General Chat — 2020-W03 Summary
 
 ## Key Topics Discussed

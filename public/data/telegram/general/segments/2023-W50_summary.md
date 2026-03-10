@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2023-W50"
+date_start: "2023-12-11"
+date_end: "2023-12-17"
+type: telegram_weekly
+channel: general
+week: "2023-W50"
+source: telegram
+message_count: 0
+categories: [bridges, marketing, technical, wallet, defi, governance, mining, community, ecosystem]
+key_terms: [RSN, Rosen Bridge, token launch, watchers, ISPO, market cap, liquidity, coinmarketleague, listing, GreasyCEX, Comet, QUACKS, SigmaUSD, ErgoScript, ErgoTree, authentication language, crypto-predicates, compilation, Ledger, connect-kit]
+---
 # Ergo General Chat — 2023-W50 Summary
 
 ## Key Topics Discussed

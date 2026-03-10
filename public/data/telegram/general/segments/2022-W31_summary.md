@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2022-W31"
+date_start: "2022-08-01"
+date_end: "2022-08-07"
+type: telegram_weekly
+channel: general
+week: "2022-W31"
+source: telegram
+message_count: 0
+categories: [wallet, technical, bridges, ecosystem, defi, nft, community, governance, mining]
+key_terms: [ledger, hardware wallet, cold storage, native support, mixer, privacy, anonymity, rounds, traceability, sidechains, plasma, rollups, state channels, L2, scaling, PoUW, useful work, mining rewards, neural networks, computation]
+---
 # Ergo General Chat — 2022-W31 Summary
 
 ## Key Topics Discussed

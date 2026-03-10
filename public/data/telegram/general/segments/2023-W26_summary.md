@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2023-W26"
+date_start: "2023-06-26"
+date_end: "2023-07-02"
+type: telegram_weekly
+channel: general
+week: "2023-W26"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 ## Key Topics Discussed
 
 - **KuCoin KYC Requirements (2023-06-26 onwards)**: KuCoin announced mandatory KYC for all users starting July 15, with US users unable to deposit or complete KYC legitimately. Community discussed alternatives including TradeOgre, SevenSeas, CoinEx, and Bitrue for non-KYC trading, with most agreeing bridges (especially Rosen) will be critical for liquidity access once live.

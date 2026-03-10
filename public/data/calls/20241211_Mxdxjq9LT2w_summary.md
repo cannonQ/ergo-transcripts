@@ -1,3 +1,16 @@
+---
+title: "Minotaur Multi-sig Wallet | vorujack | ErgoHack 9"
+date: "2024-12-11"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=Mxdxjq9LT2w
+video_id: Mxdxjq9LT2w
+duration_minutes: 10
+speakers: [vourjack]
+topics: [multi-sig-wallet, multisignature, client-registration, 3-of-4-signature, server-registration, minotaur-wallet]
+companion_files: [20241211_Mxdxjq9LT2w_transcript.txt, 20241211_Mxdxjq9LT2w_qa.json, 20241211_Mxdxjq9LT2w_decisions.json, 20241211_Mxdxjq9LT2w_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 
 **Call Date:** December 11, 2024  

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2017-W50"
+date_start: "2017-12-11"
+date_end: "2017-12-17"
+type: telegram_weekly
+channel: general
+week: "2017-W50"
+source: telegram
+message_count: 160
+categories: [technical, mining, ecosystem, community, marketing, wallet]
+key_terms: [TestNet, version 0.1.2, version 0.1.3, syncing issues, debugging, GPU mining, Equihash, Q2 2018, mining algorithm, rig, EFYT, 100 million total supply, 50 million first year, "1:1 conversion", token swap, Waves wallet, DEX, EFYT trading, BTC pair, WAVES pair]
+---
 # Ergo General Chat — 2017-W50 Summary
 
 ## Key Topics Discussed

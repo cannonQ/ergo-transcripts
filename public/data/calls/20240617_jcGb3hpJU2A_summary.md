@@ -1,3 +1,16 @@
+---
+title: "Sigmanauts Mining Pool: Mine Any Token | qx() and Marc the Shark | ErgoHack VIII"
+date: "2024-06-17"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=jcGb3hpJU2A
+video_id: jcGb3hpJU2A
+duration_minutes: 42
+speakers: [Marc the Shark, qx()]
+topics: [sigmanauts-pool, community-mining, mining-education, pool-management, mining-bots, bonus-payments, pool-monitoring, automated-notifications, miningcore, nft-configurator]
+companion_files: [20240617_jcGb3hpJU2A_transcript.txt, 20240617_jcGb3hpJU2A_qa.json, 20240617_jcGb3hpJU2A_decisions.json, 20240617_jcGb3hpJU2A_topics.json]
+---
 # Sigmanauts Mining Pool Community Call Summary
 
 **Date:** June 17, 2024  

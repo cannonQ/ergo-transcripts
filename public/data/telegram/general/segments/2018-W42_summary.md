@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2018-W42"
+date_start: "2018-10-15"
+date_end: "2018-10-21"
+type: telegram_weekly
+channel: general
+week: "2018-W42"
+source: telegram
+message_count: 99
+categories: [technical, governance, mining, ecosystem, community]
+key_terms: [privacy, transactions, Monero, ring signatures, Sigma-language, optional privacy, mainnet, launch date, December 2018, Version 1.7, Version 2.0, Q1 2019, mining, Nicehash, GPU, CPU, testnet2, mining algorithm, ETH trading, Waves pair]
+---
 # Ergo General Chat — 2018-W42 Summary
 **Period:** 2018-10-15 to 2018-10-28  
 **Participants:** 7 (0xSeb, 1v4n, Crypto Bunny 🐜, Dmitry, Noah, Unknown, 𝖒𝖊𝖓𝖙𝖆𝖑𝖎𝖘𝖙կշօ)  

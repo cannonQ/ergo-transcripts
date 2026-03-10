@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2023-W34"
+date_start: "2023-08-21"
+date_end: "2023-08-27"
+type: telegram_weekly
+channel: developer
+week: "2023-W34"
+source: telegram
+message_count: 68
+categories: [technical, ecosystem, wallet, nft]
+key_terms: [block height, extraction, stability, mgpai, dApps, frontend, UX, local instances, combined index, Ergo Explorer, pull requests, language support, Indonesian, Ergo Wallet, pull request, workflow, review, difficulty adjustment, statistics, post-merge data]
+---
 # Ergo Developer Chat Summary — 2023-W34
 
 ## Key Topics Discussed

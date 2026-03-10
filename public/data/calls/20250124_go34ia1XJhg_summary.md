@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - January 23rd 2025 PART 2"
+date: "2025-01-24"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=go34ia1XJhg
+video_id: go34ia1XJhg
+duration_minutes: 46
+speakers: [kushti, qx(), Dan Friedman]
+topics: [positioning, coordination, town-halls, pivot-point, cryptocurrency-movement, sub-blocks, devnet, local-miner, apis, peer-to-peer-network]
+companion_files: [20250124_go34ia1XJhg_transcript.txt, 20250124_go34ia1XJhg_qa.json, 20250124_go34ia1XJhg_decisions.json, 20250124_go34ia1XJhg_topics.json]
+---
 # Ergo Community Call Summary - January 24, 2025
 
 ## Executive Summary

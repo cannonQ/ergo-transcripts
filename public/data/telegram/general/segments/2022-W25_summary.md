@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2022-W25"
+date_start: "2022-06-20"
+date_end: "2022-06-26"
+type: telegram_weekly
+channel: general
+week: "2022-W25"
+source: telegram
+message_count: 0
+categories: [governance, mining, technical, ecosystem, defi, wallet, community, marketing]
+key_terms: [EIP-27, emission, block 777217, mining rewards, re-emission contract, soft fork, mining software, NBMiner, HiveOS, pool selection, GetBlok, laptop mining thermal concerns, node setup, off-chain bots, Ergodex, Ubuntu, Docker, CLI, SwampAudio, ErgoPad]
+---
 # Ergo General Chat — 2022-W25 Summary
 
 ## Key Topics Discussed

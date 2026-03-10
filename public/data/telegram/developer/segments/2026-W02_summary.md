@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2026-W02"
+date_start: "2026-01-05"
+date_end: "2026-01-11"
+type: telegram_weekly
+channel: developer
+week: "2026-W02"
+source: telegram
+message_count: 131
+categories: [technical, defi, wallet, ecosystem, governance, community]
+key_terms: [Matrix, input blocks, ordering blocks, whitepaper, testnet, devnet, Rust node, header sync, p2p scoring, blacklisting, Claude AI, USE, stablecoin, cross-chain, Binance Chain, DefiLlama, CoinGecko, oracle pools, CoinGecko API, user-agent]
+---
 # Ergo Developer Chat — 2026-W02 Summary
 
 ## Key Topics Discussed

@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2023-W22"
+date_start: "2023-05-29"
+date_end: "2023-06-04"
+type: telegram_weekly
+channel: developer
+week: "2023-W22"
+source: telegram
+message_count: 54
+categories: [wallet, ecosystem, technical, defi]
+key_terms: [deep links, mobile wallet, "ergo: protocol", token transfers, transaction building, explorer, issued tokens list, block details, token search, NFT previews, light theme, REST API, pagination, transaction limits, ergoplatform.com, address endpoints, Spectrum, DEX, token swaps, API endpoints]
+---
 # Ergo Developer Chat Summary — 2023-W22
 **Period:** 2023-05-29 to 2023-06-04  
 **Participants:** 8 (Aberg, Aco, HQΣr, Luivatra, koukarin, kushti, qx(), Unknown)  

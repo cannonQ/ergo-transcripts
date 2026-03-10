@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2022-W27"
+date_start: "2022-07-04"
+date_end: "2022-07-10"
+type: telegram_weekly
+channel: developer
+week: "2022-W27"
+source: telegram
+message_count: 62
+categories: [technical, wallet, ecosystem, community]
+key_terms: [sigma-rust, token box limit, 255 tokens, bug, security, transaction burning, token burning, transaction verification, explorer, appkit, burning flag, cooldown period, 720 blocks, 5 second blocks, block time, testnet, BIP32, derivation flag, seed generation, wallet implementation]
+---
 # Ergo Developer Chat — 2022-W27 Summary
 **Period:** 2022-07-04 to 2022-07-15 | **Messages:** 62 | **Participants:** 7
 

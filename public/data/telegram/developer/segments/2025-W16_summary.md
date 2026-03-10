@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W16"
+date_start: "2025-04-14"
+date_end: "2025-04-20"
+type: telegram_weekly
+channel: developer
+week: "2025-W16"
+source: telegram
+message_count: 93
+categories: [technical, wallet, bridges, mining, defi, community]
+key_terms: [ErgoTree, serialization, VLQ, unparsed trees, Keystone, hardware wallet, 6.0, protocol update, RC5, sigma-state-interpreter, mainnet voting, sub-blocks, EIP, transaction classification, p2p protocol, block candidate generation, i18n, localization, Portuguese BR, Russian pluralization]
+---
 # Ergo Developer Chat — 2025-W16 Summary
 
 ## Key Topics Discussed

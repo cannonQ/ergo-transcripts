@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W26"
+date_start: "2021-06-28"
+date_end: "2021-07-04"
+type: telegram_weekly
+channel: general
+week: "2021-W26"
+source: telegram
+message_count: 0
+categories: [community, ecosystem, defi, wallet, technical, marketing, nft, mining, governance, bridges]
+key_terms: [ergoversary, anniversary, july 1st, team ama, reddit, bitcoin.com, changelly, changelly pro, tier 1 exchange, listings, ergodex, mid july, yoroi dapp connector, governance token, uniswap, sigmausd, sigmarsv, reserve ratio, stablecoin, algorithmic]
+---
 ## Key Topics Discussed
 
 - **Exchange Listings Announced**: On July 1st (Ergo's 2nd anniversary), three new exchange partnerships were announced: Bitcoin.com, Changelly, and Changelly Pro. A fourth tier-1 exchange remains unannounced. Changelly integration will enable a "Buy ERG" button in Yoroi wallet similar to the existing "Buy ADA" feature. No specific listing dates were provided, though July 2021 was indicated as the target timeframe.

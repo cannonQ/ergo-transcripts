@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA (COMMUNITY EDITION) - July 24th"
+date: "2025-07-25"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=dv4Z2ztRFaQ
+video_id: dv4Z2ztRFaQ
+duration_minutes: 67
+speakers: [qx(), Armeanio, kushti, Grayman, AI, HQ3rr, Haskell_plus, benzel]
+topics: [sub-blocks, sigma-chains, horizontal-scaling, mining-sustainability, layer-2, proof-of-work, global-transfer-policies, dark-tokens, encrypted-amounts, privacy]
+companion_files: [20250725_dv4Z2ztRFaQ_transcript.txt, 20250725_dv4Z2ztRFaQ_qa.json, 20250725_dv4Z2ztRFaQ_decisions.json, 20250725_dv4Z2ztRFaQ_topics.json]
+---
 # Ergo Blockchain Community Call - July 25, 2025
 
 ## Executive Summary

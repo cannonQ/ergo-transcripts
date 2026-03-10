@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W17"
+date_start: "2020-04-20"
+date_end: "2020-04-26"
+type: telegram_weekly
+channel: general
+week: "2020-W17"
+source: telegram
+message_count: 171
+categories: [mining, ecosystem, defi, technical, community, marketing]
+key_terms: [node setup, mining instructions, github wiki, installation, Coinbarn wallet, ProBit, Tidex, HotBit, Waves.exchange, Bittrex, liquidity, USDT pairs, DEX contracts, partial filling, sigma-rust, ErgoTree, formal verification, mixer, anonymity, web app]
+---
 # Ergo General Chat — 2020-W17 Summary
 
 ## Key Topics Discussed

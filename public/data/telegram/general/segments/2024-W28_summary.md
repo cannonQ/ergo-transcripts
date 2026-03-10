@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2024-W28"
+date_start: "2024-07-08"
+date_end: "2024-07-14"
+type: telegram_weekly
+channel: general
+week: "2024-W28"
+source: telegram
+message_count: 0
+categories: [governance, technical, mining, defi, ecosystem, community, wallet, bridges]
+key_terms: [emission reduction, block rewards, security budget, storage rent, long-term sustainability, box collection, ledger pruning, 4-year history, dust management, Autolykos 2, GPU mining, ASIC resistance, k-sum problem, mining profitability, p2pfi, self-sovereign DeFi, UTXO-based contracts, bonds, decentralized finance, MEV]
+---
 # Ergo General Chat — 2024-W28 Summary
 
 ## Key Topics Discussed

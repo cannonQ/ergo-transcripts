@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W51"
+date_start: "2025-12-15"
+date_end: "2025-12-21"
+type: telegram_weekly
+channel: developer
+week: "2025-W51"
+source: telegram
+message_count: 67
+categories: [technical, community, ecosystem, defi, wallet]
+key_terms: [testnet explorer, server migration, p2p package, UI updates, "PR #2287", "PR #2255", sbt assembly, test compilation, testnet branch, weekly chat, development updates, dapp development, research topics, SigmaProp, P2PK prefix, proposition bytes, transaction verification, mockchain vs on-chain, sigmastate-interpreter, sigma-book]
+---
 # Ergo Developer Chat Summary — 2025-W51
 
 ## Key Topics Discussed

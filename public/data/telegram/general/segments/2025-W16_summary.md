@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W16"
+date_start: "2025-04-14"
+date_end: "2025-04-20"
+type: telegram_weekly
+channel: general
+week: "2025-W16"
+source: telegram
+message_count: 322
+categories: [ecosystem, technical, community, governance, defi, marketing, wallet, mining]
+key_terms: [ErgoHACK X, AI, eUTXO, "$9,000 prize pool", May 25 - June 1, token minting, AI generation, web app, beta testing, ErgoHack submission, Colorado Springs, May meetup, hiking, venue planning, community gathering, Kraken listing, rsERG, volume concerns, liquidity, market capitulation]
+---
 # Ergo General Chat Summary — 2025-W16 (2025-04-14 to 2025-04-20)
 
 ## Key Topics Discussed

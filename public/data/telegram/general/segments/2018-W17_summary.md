@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2018-W17"
+date_start: "2018-04-23"
+date_end: "2018-04-29"
+type: telegram_weekly
+channel: general
+week: "2018-W17"
+source: telegram
+message_count: 74
+categories: [governance, technical, mining, community, wallet, ecosystem]
+key_terms: [EFYT, swap, token migration, "1:1 ratio", announcement, Bitcoin replacement, sigma-protocols, light nodes, blockchain efficiency, soft-forkability, script verification, emission curve, mining tax, 10% team allocation, "1,971,000 EFYT", "3,029,000 EFYT burnt", 8 years, whale wallets, 100K coins, price manipulation]
+---
 ## Key Topics Discussed
 
 - **EFYT Token Swap Mechanics**: Discussion of the planned swap from EFYT (pre-mainnet) to Ergo mainnet tokens. The swap is non-automatic and requires manual action during an announced window; early indicators suggest a 1:2 split (1 EFYT → 1 Data + 1 Money token).

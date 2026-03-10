@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2023-W40"
+date_start: "2023-10-02"
+date_end: "2023-10-08"
+type: telegram_weekly
+channel: developer
+week: "2023-W40"
+source: telegram
+message_count: 56
+categories: [technical, wallet]
+key_terms: [explorer API, service interruption, Erg Explorer, My Erg Explorer, UTXO spam, mass airdrop, box consolidation, Nautilus wallet, Safew, Satergo, lite node, stateless, super blocks, indexed node, wallet architecture, testnet, full sync, extraindex, p2p, node stability]
+---
 ## Key Topics Discussed
 
 - **Explorer API stability and infrastructure**: Ergo Explorer and My Ergo Explorer services experienced downtime due to official Ergo platform API issues (2023-10-02). Discussion around hosting requirements for independent explorer instances, with participants noting dependency on explorer for wallet transaction generation.

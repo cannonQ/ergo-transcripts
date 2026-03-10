@@ -1,3 +1,16 @@
+---
+title: "Weekly Update & AMA - June 13th 2024"
+date: "2024-06-14"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=jiJEy4M-O7g
+video_id: jiJEy4M-O7g
+duration_minutes: 65
+speakers: [Armeanio, Sam Lambert, Dan Friedman]
+topics: [ergohack, paideia-dao, community-voting, hackathon-rewards, peer-to-peer-system, rosen-bridge, gard-layer, watchers, slashing, network-service-operator]
+companion_files: [20240614_jiJEy4M-O7g_transcript.txt, 20240614_jiJEy4M-O7g_qa.json, 20240614_jiJEy4M-O7g_decisions.json, 20240614_jiJEy4M-O7g_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Date:** June 14, 2024  
 **Call Title:** Weekly Update & AMA - June 13th 2024

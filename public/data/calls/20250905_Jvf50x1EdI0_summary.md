@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Community Chat - September 4th"
+date: "2025-09-05"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=Jvf50x1EdI0
+video_id: Jvf50x1EdI0
+duration_minutes: 56
+speakers: [qx(), kushti, Grayman, Armeanio, tmr.erg]
+topics: [community-ama, open-format, participation, korean-blockchain-week, conference, presentation, token-2049, sub-blocks, peer-to-peer, inv-messages]
+companion_files: [20250905_Jvf50x1EdI0_transcript.txt, 20250905_Jvf50x1EdI0_qa.json, 20250905_Jvf50x1EdI0_decisions.json, 20250905_Jvf50x1EdI0_topics.json]
+---
 # Ergo Community Call Summary - September 5th, 2025
 
 ## Executive Summary

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W18"
+date_start: "2019-04-29"
+date_end: "2019-05-05"
+type: telegram_weekly
+channel: general
+week: "2019-W18"
+source: telegram
+message_count: 62
+categories: [mining, governance, ecosystem, wallet, community]
+key_terms: [mining, autolykos, miner setup, public key mismatch, wallet configuration, node synchronization, mainnet launch, May 26, security audit, timeline, exchange listing, waves exchange, confidential, NDA, stex, native wallet, UI wallet, mainnet, testnet, bug]
+---
 ## Key Topics Discussed
 
 - **MainNet Launch Timeline**: Security audit underway targeting May 26, 2019 launch date, though progress reported as slow.

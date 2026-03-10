@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W06"
+date_start: "2021-02-08"
+date_end: "2021-02-14"
+type: telegram_weekly
+channel: general
+week: "2021-W06"
+source: telegram
+message_count: 2738
+categories: [defi, marketing, ecosystem, mining, wallet, bridges, nft, technical, governance]
+key_terms: [SigmaUSD, SigRSV, AgeUSD, naming, stablecoin, reservecoin, deployment, DarkSideOfBrrrrr, February 16-17, UI, testing, minting, leverage, collateral, profit, Savo, marketing, foundation, transparency, community]
+---
 # Ergo General Chat — 2021-W06 (Feb 8-14, 2021)
 
 ## Key Topics Discussed

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2022-W18"
+date_start: "2022-05-02"
+date_end: "2022-05-08"
+type: telegram_weekly
+channel: general
+week: "2022-W18"
+source: telegram
+message_count: 0
+categories: [governance, defi, wallet, technical, nft, bridges, marketing, community, ecosystem, mining]
+key_terms: [EIP-27, emission rules, block 777217, June 21, miner voting, storage rent, Spectrum, ErgoDex, Cardano, cross-chain pools, native assets, Roll-dPoS, Ledger Nano S, Nautilus, Mac OS, Linux, hardware security, ErgoHack, DeFi marathon, team forming]
+---
 # Ergo General Chat — 2022-W18 Summary
 **Period:** 2022-05-02 to 2022-05-08 | **Messages:** 906 | **Participants:** 101
 

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W27"
+date_start: "2021-07-05"
+date_end: "2021-07-11"
+type: telegram_weekly
+channel: general
+week: "2021-W27"
+source: telegram
+message_count: 2395
+categories: [defi, ecosystem, technical, wallet, nft, marketing, mining, governance, community]
+key_terms: [ergodex, governance token, mid-july, cardano, dex launch, oracle pools, chainlink, charli3, cardano oracles, first decentralized, bitcoin.com, changelly, tier 1 exchange, binance, kucoin, emission, halving, block reward, treasury, 67.5 erg]
+---
 # Ergo General Chat — 2021-W27 Summary
 **Period:** 2021-07-05 to 2021-07-11
 

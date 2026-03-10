@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Dev Update Feb 16th 2025 |  Wallets, Stable Coin, SubBlocks, Bounties, Nodes, and more!"
+date: "2025-02-16"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=jXYo3RkUOvs
+video_id: jXYo3RkUOvs
+duration_minutes: 18
+speakers: [qx()]
+topics: [dev-update, ecosystem, sigmaverse, financial-tools, market-resilience, nautilus-wallet, chrome-extension, 24-word-mnemonic, mobile-version, ui-improvements]
+companion_files: [20250216_jXYo3RkUOvs_transcript.txt, 20250216_jXYo3RkUOvs_qa.json, 20250216_jXYo3RkUOvs_decisions.json, 20250216_jXYo3RkUOvs_topics.json]
+---
 # Ergo PoW Dev Update - February 16, 2025
 
 ## Executive Summary

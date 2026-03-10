@@ -1,3 +1,16 @@
+---
+title: "Weekly Update & AMA - June 20th 2024"
+date: "2024-06-21"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=qPpWnYhDclI
+video_id: qPpWnYhDclI
+duration_minutes: 62
+speakers: [qx(), kushti, Dan Friedman]
+topics: [community-vote, bitcoin-relay, erg-distribution, sigmanauts, rosen-bridge, btc-bridge, watcher-nodes, mining-payouts, sigmanauts-mining-pool, trade-house]
+companion_files: [20240621_qPpWnYhDclI_transcript.txt, 20240621_qPpWnYhDclI_qa.json, 20240621_qPpWnYhDclI_decisions.json, 20240621_qPpWnYhDclI_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Date:** June 21, 2024  
 **Title:** Weekly Update & AMA - June 20th 2024

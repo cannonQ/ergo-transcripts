@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2022-W50"
+date_start: "2022-12-12"
+date_end: "2022-12-18"
+type: telegram_weekly
+channel: general
+week: "2022-W50"
+source: telegram
+message_count: 0
+categories: [technical, wallet, mining, nft, governance, ecosystem, marketing, defi, community]
+key_terms: [storage rent, box consolidation, NFT assets, miner collection, token burning, EIP-33, UTXO, box age tracking, transaction consolidation, dust cleaning, ledger nano, hardware wallet, terminus wallet, sideloading, difficulty algorithm, EIP-37, hashrate, mining pools, block time, AI-generated art]
+---
 # Ergo General Chat Summary — 2022-W50 (Dec 12–18)
 
 ## Key Topics Discussed

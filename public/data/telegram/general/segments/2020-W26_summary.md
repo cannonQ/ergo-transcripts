@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W26"
+date_start: "2020-06-22"
+date_end: "2020-06-28"
+type: telegram_weekly
+channel: general
+week: "2020-W26"
+source: telegram
+message_count: 217
+categories: [wallet, defi, technical, mining, ecosystem, governance, community, marketing]
+key_terms: [Yoroi, Emurgo, wallet integration, DApps support, partnership, Oracle Pools, Emurgo Research, oracle system, extended UTXO, DeFi infrastructure, hard fork, memory-hardness PoW, storage rent, JIT costing, security fixes, ErgoPool, mining pool, block time, hash rate, mine rewards]
+---
 # Ergo General Chat — 2020-W26 Summary
 
 ## Key Topics Discussed

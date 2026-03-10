@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W42"
+date_start: "2024-10-14"
+date_end: "2024-10-20"
+type: telegram_weekly
+channel: developer
+week: "2024-W42"
+source: telegram
+message_count: 173
+categories: [technical, wallet, governance, defi, mining, ecosystem]
+key_terms: [6.0 activation, sub-blocks, voting parameters, soft-fork, protocol upgrade, sigmastate-interpreter, repository move, validation rules, pull requests, Nautilus, 0-conf, Manifest v3, browser extension, Ledger, Stax, Flex, Nano S discontinued, token limit increase to 100, Paideia, smart contracts]
+---
 # Ergo Developer Chat Summary — 2024-W42
 
 ## Key Topics Discussed

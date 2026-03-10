@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W12"
+date_start: "2020-03-16"
+date_end: "2020-03-22"
+type: telegram_weekly
+channel: general
+week: "2020-W12"
+source: telegram
+message_count: 57
+categories: [ecosystem, wallet, mining, technical, community]
+key_terms: [airdrop, distribution, token, wallet, April 27, gateway, confirmation, waves.exchange, transaction delay, digital gold, privacy, smart contracts, financial systems, light clients, mining, 1Gh, coins per day, mining pools, ProBit, Tidex]
+---
 # Ergo General Chat — Week 2020-W12 Summary
 
 ## Key Topics Discussed

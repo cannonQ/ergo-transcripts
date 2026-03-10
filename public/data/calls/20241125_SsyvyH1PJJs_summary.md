@@ -1,3 +1,16 @@
+---
+title: "P2Podcast | Episode 3"
+date: "2024-11-25"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=SsyvyH1PJJs
+video_id: SsyvyH1PJJs
+duration_minutes: 38
+speakers: [tmr.erg, Marc the Shark]
+topics: [ergohack, ui/ux, mining, workshops, hackathon, user-experience, duckpools, sigmafi, user-interface, liquidation]
+companion_files: [20241125_SsyvyH1PJJs_transcript.txt, 20241125_SsyvyH1PJJs_qa.json, 20241125_SsyvyH1PJJs_decisions.json, 20241125_SsyvyH1PJJs_topics.json]
+---
 # P2Podcast Episode 3 - Ergo Community Call Summary
 **Date:** November 25, 2024
 

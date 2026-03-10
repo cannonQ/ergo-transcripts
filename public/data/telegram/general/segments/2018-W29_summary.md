@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2018-W29"
+date_start: "2018-07-16"
+date_end: "2018-07-22"
+type: telegram_weekly
+channel: general
+week: "2018-W29"
+source: telegram
+message_count: 60
+categories: [technical, mining, governance, ecosystem, community]
+key_terms: [Sigma-State, Zero-Knowledge proofs, smart contracts, Bitcoin 2.0, scalability, state size, soft-forking, hardforks, interoperability, Equihash, PoW, GPU mining, proof-of-data-possession, pooling, voting system, miner governance, storage rent, parameter adjustment, lightweight fullnode, UTXO set]
+---
 # Ergo General Chat — 2018-W29 Summary
 **Period:** 2018-07-16 to 2018-07-21  
 **Participants:** 7 (mostly unknown/unregistered users, with Dmitry, Crypto Bunny 🐜, Crypto Rev, and others)

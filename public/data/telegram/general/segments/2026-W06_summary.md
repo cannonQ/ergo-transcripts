@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2026-W06"
+date_start: "2026-02-02"
+date_end: "2026-02-08"
+type: telegram_weekly
+channel: general
+week: "2026-W06"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo General Chat — 2026-W06 Summary
 
 ## Key Topics Discussed

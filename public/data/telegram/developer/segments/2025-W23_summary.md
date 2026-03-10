@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W23"
+date_start: "2025-06-02"
+date_end: "2025-06-08"
+type: telegram_weekly
+channel: developer
+week: "2025-W23"
+source: telegram
+message_count: 83
+categories: [technical, wallet, defi, bridges, mining, ecosystem]
+key_terms: [6.0.0, RC6, soft-fork, protocol upgrade, node testing, devnet, Sigma SDK, sigmachains, refactoring plan, contractual layer, pegging, sub-blocks, EIP-12, chained transactions, input ordering, double-spending, Fleet SDK v0.10.0, ergoc v0.3.0, ErgoTree v2/v3, mock-chain]
+---
 # Ergo Developer Chat Summary — 2025-W23
 **Period:** 2025-06-02 to 2025-06-15  
 **Participants:** 7 active  

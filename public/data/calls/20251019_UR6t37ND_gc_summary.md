@@ -1,3 +1,16 @@
+---
+title: "Machina Finance: eUTXO-Native P2P DEX on Ergo — Alison Robson (Ergo Meetup 2025)"
+date: "2025-10-19"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=UR6t37ND_gc
+video_id: UR6t37ND_gc
+duration_minutes: 15
+speakers: [anon_BR, mgPai]
+topics: [nautilus-wallet, fleet-sdk, alison, community-meetup, p2p-dex, eutxo-native, grid-orders, individual-contracts, self-custodial, proxy-contracts]
+companion_files: [20251019_UR6t37ND_gc_transcript.txt, 20251019_UR6t37ND_gc_qa.json, 20251019_UR6t37ND_gc_decisions.json, 20251019_UR6t37ND_gc_topics.json]
+---
 # Machina Finance: eUTXO-Native P2P DEX on Ergo — Community Call Summary
 
 **Call Date:** 2025-10-19  

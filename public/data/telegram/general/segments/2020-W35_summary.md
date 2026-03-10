@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W35"
+date_start: "2020-08-24"
+date_end: "2020-08-30"
+type: telegram_weekly
+channel: general
+week: "2020-W35"
+source: telegram
+message_count: 1817
+categories: [defi, ecosystem, wallet, governance, technical, mining, marketing, community]
+key_terms: [oracle pools, Emurgo, mainnet, Robert Kornacki, ADA/USD, ERG/USD, Chainlink, hierarchies, stake slashing, threshold signatures, HotBit, Tidex, CoinEx, KuCoin, Binance, liquidity, listing fees, Yoroi, wallet integration, Daedalus]
+---
 # Ergo General Chat — 2020-W35 (Aug 24-30, 2020)
 
 ## Key Topics Discussed

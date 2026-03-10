@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W53"
+date_start: "2020-12-28"
+date_end: "2021-01-03"
+type: telegram_weekly
+channel: general
+week: "2020-W53"
+source: telegram
+message_count: 0
+categories: [technical, defi, ecosystem, wallet, marketing, community, mining, governance, nft]
+key_terms: [oracle pool, ADA/USD, price feed, underfunded, data sources, stablecoin, algorithmic, "1:1 backed", AgeUSD, protocol upgrade, Gate.io, Bittrex, FTX, listing fees, liquidity, KYC requirements, Yoroi, desktop extension, mobile version, ADA integration]
+---
 # Ergo General Chat — 2020-W53 Summary
 **Period:** 2020-12-28 to 2021-01-03  
 **Message Count:** 776  

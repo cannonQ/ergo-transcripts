@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W31"
+date_start: "2019-07-29"
+date_end: "2019-08-04"
+type: telegram_weekly
+channel: general
+week: "2019-W31"
+source: telegram
+message_count: 96
+categories: [wallet, ecosystem, governance, community, mining]
+key_terms: [EFYT, ERG, token swap, Waves platform, exchange pair, ergo.jar, node sync, "localhost:9053", apiKeyHash, blockchain height, Waves DEX, Tidex, p2pb2b, exchange listing, CMC, 200K tokens, early investors, large orders, EFYT holdings, team location]
+---
 # Ergo General Chat — 2019-W31 Summary
 
 ## Key Topics Discussed

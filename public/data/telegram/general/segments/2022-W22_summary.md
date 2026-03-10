@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2022-W22"
+date_start: "2022-05-30"
+date_end: "2022-06-05"
+type: telegram_weekly
+channel: general
+week: "2022-W22"
+source: telegram
+message_count: 709
+categories: [ecosystem, marketing, wallet, technical, defi, bridges, nft, community, governance]
+key_terms: [NFT, ticketing, ErgoAuth, events, verification, Darkpool, funding, ergolend, EGIO, games, exchange listing, Binance, Kraken, Huobi, NDA, May deadline, Ledger, Nano S, sideload, app store]
+---
 # Ergo General Chat — 2022-W22 Summary
 
 ## Key Topics Discussed

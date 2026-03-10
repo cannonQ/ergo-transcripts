@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2022-W11"
+date_start: "2022-03-14"
+date_end: "2022-03-20"
+type: telegram_weekly
+channel: general
+week: "2022-W11"
+source: telegram
+message_count: 0
+categories: [technical, governance, defi, bridges, wallet, nft, ecosystem, mining, marketing, community]
+key_terms: [PoW, PoS, energy consumption, legislation, FUD, EIP-27, block reward, 90% activation, testnet, soft fork, SigUSD, SigRSV, reserve ratio, minting, overcollateralization, stablecoin, money market, lending, oracle pools, collateral]
+---
 # Ergo General Chat Summary — 2022-W11 (2022-03-14 to 2022-03-20)
 
 ## Key Topics Discussed

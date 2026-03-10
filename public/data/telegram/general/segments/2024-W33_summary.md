@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2024-W33"
+date_start: "2024-08-12"
+date_end: "2024-08-18"
+type: telegram_weekly
+channel: general
+week: "2024-W33"
+source: telegram
+message_count: 305
+categories: [bridges, technical, mining, wallet, defi, marketing, ecosystem, governance, community]
+key_terms: [ETH bridge, cross-chain, lock transaction, commitment transactions, testnet, end-to-end test, JIT costing, protocol update, v5.0, table size increase, 4.3GB, nbminer, GMiner, T-rex, GPU mining, Satergo, multi-output, wallet testing, UTXO consolidation, Rosenbridge]
+---
 # Ergo General Chat Summary — 2024-W33
 **Period:** 2024-08-12 to 2024-08-18  
 **Messages Reviewed:** 305  

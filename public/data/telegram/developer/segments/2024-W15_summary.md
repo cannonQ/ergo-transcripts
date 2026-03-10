@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W15"
+date_start: "2024-04-08"
+date_end: "2024-04-14"
+type: telegram_weekly
+channel: developer
+week: "2024-W15"
+source: telegram
+message_count: 78
+categories: [technical, bridges, ecosystem, nft, defi, mining, governance]
+key_terms: [EIP-5, AppKit, sigmastate-interpreter, contract finalization, rocksdb, node release, EIP-50, NBits encoding, versioned serialization, tss-sign function, ECDSA, signatureRecovery, guard-service, rosen-chains, metadata registry, token metadata, EIP-4, Nautilus wallet, CI validation, ergo-lib-go]
+---
 # Ergo Developer Chat Summary — 2024-W15
 **Period:** 2024-04-08 to 2024-04-14  
 **Messages Processed:** 78  

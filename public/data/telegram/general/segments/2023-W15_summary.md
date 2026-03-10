@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2023-W15"
+date_start: "2023-04-10"
+date_end: "2023-04-16"
+type: telegram_weekly
+channel: general
+week: "2023-W15"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo General Chat — 2023-W15 Summary
 ## Period: 2023-04-10 to 2023-04-16
 

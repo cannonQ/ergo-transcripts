@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2022-W49"
+date_start: "2022-12-05"
+date_end: "2022-12-11"
+type: telegram_weekly
+channel: developer
+week: "2022-W49"
+source: telegram
+message_count: 62
+categories: [technical, governance, defi, wallet, marketing]
+key_terms: [v5.0, mining pool payments, EIP-27, creation height, akka, closed source, version management, dependencies, EIP, Ergo Improvement Proposals, v6.0, community chat, p2pk, p2s, context variables, stealth addresses, registers, FPGA, ASIC resistance, Proof of Work]
+---
 # Ergo Developer Chat Summary — 2022-W49
 **Period:** 2022-12-05 to 2022-12-23  
 **Participants:** 10  

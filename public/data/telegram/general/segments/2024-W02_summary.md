@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2024-W02"
+date_start: "2024-01-08"
+date_end: "2024-01-14"
+type: telegram_weekly
+channel: general
+week: "2024-W02"
+source: telegram
+message_count: 0
+categories: [bridges, defi, mining, marketing, technical, governance, wallet, nft, community]
+key_terms: [Rosen Bridge, Cardano, Ethereum, Bitcoin, cross-chain, rsADA, rsERG, DuckPools, SigmaFi, rsADA pool, duckDAO, lending, borrowing, APR, mining pools, Autolykos, miner DAO, hash rate, governance, DEMA]
+---
 # Ergo General Chat — 2024-W02 Summary
 
 ## Key Topics Discussed

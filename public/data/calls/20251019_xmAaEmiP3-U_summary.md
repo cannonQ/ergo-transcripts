@@ -1,3 +1,16 @@
+---
+title: "Lithos: The Future of Proof-of-Work Mining — Cheese Enthusiast (Ergo Meetup 2025)"
+date: "2025-10-19"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=xmAaEmiP3-U
+video_id: xmAaEmiP3-U
+duration_minutes: 61
+speakers: [Cheese Enthusiast]
+topics: [lithos, mining-pools, smart-pools, getblock.io, decentralization, transparency, 51%-attacks, transaction-censorship, tornado-cash, block-production]
+companion_files: [20251019_xmAaEmiP3-U_transcript.txt, 20251019_xmAaEmiP3-U_qa.json, 20251019_xmAaEmiP3-U_decisions.json, 20251019_xmAaEmiP3-U_topics.json]
+---
 # Lithos: The Future of Proof-of-Work Mining — Community Call Summary
 
 ## Executive Summary

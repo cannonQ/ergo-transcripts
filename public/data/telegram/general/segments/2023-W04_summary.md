@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2023-W04"
+date_start: "2023-01-23"
+date_end: "2023-01-29"
+type: telegram_weekly
+channel: general
+week: "2023-W04"
+source: telegram
+message_count: 484
+categories: [community, wallet, defi, bridges, technical, governance, ecosystem, marketing]
+key_terms: [ErgoHack VI, hackathon, registration, prize pool, SigUSD, ErgoPad, Yoroi, migration, February 28, Nautilus, SafeW, Terminus, seed phrase, duckpools, ErgoLend, collateralization, pool lending, p2p lending, Spectrum, SPF]
+---
 # Ergo General Chat Summary — 2023-W04 (Jan 23–29)
 
 ## Key Topics Discussed

@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain 2025: A Year of Real Progress | What Comes Next"
+date: "2026-01-01"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=zVKtvaLDwjE
+video_id: zVKtvaLDwjE
+duration_minutes: 59
+speakers: [armeanio, richi, kushti]
+topics: [chaincash, basis, off-chain-cash, elasticity, credit-expansion, mesh-network, lets, sub-blocks, devnets, white-paper]
+companion_files: [20260101_zVKtvaLDwjE_transcript.txt, 20260101_zVKtvaLDwjE_qa.json, 20260101_zVKtvaLDwjE_decisions.json, 20260101_zVKtvaLDwjE_topics.json]
+---
                 # Ergo PoW Blockchain 2025: A Year of Real Progress | What Comes Next
 
 ## Executive Summary

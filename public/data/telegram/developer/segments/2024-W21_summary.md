@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W21"
+date_start: "2024-05-20"
+date_end: "2024-05-26"
+type: telegram_weekly
+channel: developer
+week: "2024-W21"
+source: telegram
+message_count: 68
+categories: [technical, defi, bridges, wallet, ecosystem, community, mining, governance]
+key_terms: [SigmaCompiler, ErgoTree, v6.0, sigmastate-interpreter, serialization, UBigInt, 256-bit integers, secp256k1, cryptographic primitives, performance, substConstants, ErgoTree versions, contentlength, serialization bug, ErgoHack, relay contracts, Bitcoin, sidechaining, hashrate derivatives, pledging protocol]
+---
 # Ergo Developer Chat Summary — 2024-W21
 **Period:** 2024-05-20 to 2024-05-26  
 **Participants:** 11  

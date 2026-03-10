@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W03"
+date_start: "2021-01-18"
+date_end: "2021-01-24"
+type: telegram_weekly
+channel: general
+week: "2021-W03"
+source: telegram
+message_count: 0
+categories: [technical, community, defi, bridges, nft, ecosystem, wallet, mining, marketing, governance]
+key_terms: [v4.0.0, node update, activation, 417792, hardening, summit, livestream, presentations, youtube, agenda, AgeUSD, stablecoin, ReserveCoin, algorithmic, overcollateralization, oracle pools, Cardano, Emurgo, data feeds, interoperability]
+---
 # Ergo General Chat Summary — 2021-W03 (2021-01-18 to 2021-01-24)
 
 ## Key Topics Discussed

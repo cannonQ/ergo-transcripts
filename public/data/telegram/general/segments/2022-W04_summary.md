@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2022-W04"
+date_start: "2022-01-24"
+date_end: "2022-01-30"
+type: telegram_weekly
+channel: general
+week: "2022-W04"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo General Chat — 2022-W04 Summary
 **Period:** 2022-01-24 to 2022-01-30  
 **Total Messages:** 1,424 | **Active Participants:** 155+

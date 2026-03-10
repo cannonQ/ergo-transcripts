@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - June 5th"
+date: "2025-06-06"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=RDwNGp81TH0
+video_id: RDwNGp81TH0
+duration_minutes: 57
+speakers: [kushti, qx()]
+topics: [ergo-6.0, rc6, release-candidate, maintenance-warning-height, sigma-6.0, korean-blockchain-week, dubai, conference, google-summer-of-code, new-contributors]
+companion_files: [20250606_RDwNGp81TH0_transcript.txt, 20250606_RDwNGp81TH0_qa.json, 20250606_RDwNGp81TH0_decisions.json, 20250606_RDwNGp81TH0_topics.json]
+---
 # Ergo Blockchain Community Call Summary - June 5th, 2025
 
 ## Executive Summary

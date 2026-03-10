@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2023-W03"
+date_start: "2023-01-16"
+date_end: "2023-01-22"
+type: telegram_weekly
+channel: general
+week: "2023-W03"
+source: telegram
+message_count: 937
+categories: [technical, mining, governance, bridges, defi, wallet, marketing, ecosystem, community]
+key_terms: [node update, protocol release, core development, decentralized mining pools, on-chain share processing, GetBlok successor, MEV, meeting transparency, accessibility, voting process, accountability, cross-chain bridge, multi-sig wallet, public testing, wrapped assets, reserve ratio, collateralization, SigRSV, minting conditions, privacy mixer]
+---
 # Ergo General Chat — 2023-W03 Summary
 
 ## Key Topics Discussed

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W08"
+date_start: "2025-02-17"
+date_end: "2025-02-23"
+type: telegram_weekly
+channel: general
+week: "2025-W08"
+source: telegram
+message_count: 244
+categories: [wallet, ecosystem, marketing, community, governance, technical, bridges, defi]
+key_terms: [ledger, consolidation, token limit, nautilus, nano s, ledger nano s, deprecated, keystone, hardware wallet, token limit increase, mew finance, ergexplorer, block explorer, addressbook, mempool, product adoption, user experience, stop selling chain, market positioning, memecoins]
+---
 # Ergo General Chat — 2025-W08 Summary
 
 ## Key Topics Discussed

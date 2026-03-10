@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2018-W09"
+date_start: "2018-02-26"
+date_end: "2018-03-04"
+type: telegram_weekly
+channel: general
+week: "2018-W09"
+source: telegram
+message_count: 67
+categories: [governance, technical, mining, ecosystem]
+key_terms: [EFYT, token conversion, ErgoMoney, ErgoData, 2 for 1 exchange, mainnet, testnet, May 2018, Q2 roadmap, launch date, mining, ETA, roadmap clarity, TestNet, v0.2.3, GitHub release, January testnet launch, SEC regulation, commodities, CFTC jurisdiction]
+---
 # Ergo General Chat — 2018-W09 Summary
 
 ## Key Topics Discussed

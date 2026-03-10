@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2026-W02"
+date_start: "2026-01-05"
+date_end: "2026-01-11"
+type: telegram_weekly
+channel: general
+week: "2026-W02"
+source: telegram
+message_count: 0
+categories: [wallet, technical, defi, bridges, governance, ecosystem, nft, marketing, community]
+key_terms: [ergo-wallet-app, "PR #208", testing, Android 15, explorer bug, USE decimals, CoinGecko API, oracle-core v2.0.5, oracle-core v2.0.6, USE deployment, Taptools verification, GeckoTerminal, CMC Dex, DefiLlama, VoltPay, Exolix, Swapter, StealthEx, DEX integration, Matrix]
+---
 # Ergo General Chat — 2026-W02 Summary
 
 ## Key Topics Discussed

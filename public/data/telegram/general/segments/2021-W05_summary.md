@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W05"
+date_start: "2021-02-01"
+date_end: "2021-02-07"
+type: telegram_weekly
+channel: general
+week: "2021-W05"
+source: telegram
+message_count: 2282
+categories: [technical, governance, ecosystem, mining, marketing, wallet, nft, bridges, defi, community]
+key_terms: [hard fork, Autolykos v2, difficulty adjustment, mining, block time, CoinEx, Hotbit, withdrawal, transaction assembly, mempool, SigmaUSD, AgeUSD, naming, ticker, kUSD, eUSD, AIR, exchanges, listings, Binance]
+---
 # Ergo General Chat — 2021-W05 Summary
 **Period:** 2021-02-01 to 2021-02-07
 

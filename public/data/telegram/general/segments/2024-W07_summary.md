@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2024-W07"
+date_start: "2024-02-12"
+date_end: "2024-02-18"
+type: telegram_weekly
+channel: general
+week: "2024-W07"
+source: telegram
+message_count: 558
+categories: [defi, governance, bridges, marketing, wallet, community, ecosystem, technical]
+key_terms: [stablecoin, USD peg, gold backing, Dexy, Gluon, Kraken listing, crowdfunder, market makers, XBTO Global, Xeggex, MEXC, Rosen bridge, Bitcoin, Ethereum, cross-chain, rsERG, marketing, social media, Farcaster, visibility]
+---
 # Ergo General Chat — 2024-W07 Summary
 
 ## Key Topics Discussed

@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W37"
+date_start: "2025-09-08"
+date_end: "2025-09-14"
+type: telegram_weekly
+channel: developer
+week: "2025-W37"
+source: telegram
+message_count: 52
+categories: [technical, defi, ecosystem, wallet, community, bridges]
+key_terms: [6.0, protocol, soft-fork, node, PR review, sub-blocks, SigmaSDK, sigmastate-interpreter, "PR #1069", p2p, synchronization, peers, penalties, seed node, blacklisting, extraIndex, v6 node, explorer mode, configuration, Basis]
+---
 # Ergo Developer Chat Summary — 2025-W37
 **Period:** 2025-09-08 to 2025-09-14  
 **Participants:** 7 | **Messages:** 52

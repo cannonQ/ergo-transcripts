@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2024-W38"
+date_start: "2024-09-16"
+date_end: "2024-09-22"
+type: telegram_weekly
+channel: general
+week: "2024-W38"
+source: telegram
+message_count: 417
+categories: [technical, bridges, mining, ecosystem, defi, wallet, community]
+key_terms: [storage rent, percentage-based fees, ledger state cleanup, garbage collection, NIPoPoWs, superblocks, difficulty levels, block propagation, input blocks, Rosen Bridge, Ethereum, sigUSD, Bitcoin Runes, cross-chain, Lithos, NISP, decentralized mining pools, MEV, collateralized pool, ErgoNames]
+---
 # Ergo General Chat — Week 2024-W38 Summary
 
 ## Key Topics Discussed

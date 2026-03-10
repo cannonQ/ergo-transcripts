@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2022-W42"
+date_start: "2022-10-17"
+date_end: "2022-10-23"
+type: telegram_weekly
+channel: developer
+week: "2022-W42"
+source: telegram
+message_count: 70
+categories: [technical, ecosystem, wallet, defi]
+key_terms: [v4.0.105, v5.0.0, v5.0.2, release, merged PRs, serialization, ErgoTransaction, sigma repo, breaking changes, security, token limit, box size, 100 tokens, 255 tokens, protocol limits, dumdumdum, twitter, backend, frontend, Flux deployment]
+---
 # Ergo Developer Chat — 2022-W42 Summary
 
 ## Key Topics Discussed

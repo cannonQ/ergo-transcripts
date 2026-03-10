@@ -1,3 +1,16 @@
+---
+title: "Ergomempool Visualiser | 2ndTL Mining | ErgoHack 10"
+date: "2025-06-25"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=5B7r-S_P9dU
+video_id: 5B7r-S_P9dU
+duration_minutes: 27
+speakers: [2ndTLMining]
+topics: [mempool, block-visualization, mining-pools, transaction-fees, sigma-spaces, mempool-visualizer, pending-transactions, transaction-size, unconfirmed-transactions, blockchain-ledger]
+companion_files: [20250625_5B7r-S_P9dU_transcript.txt, 20250625_5B7r-S_P9dU_qa.json, 20250625_5B7r-S_P9dU_decisions.json, 20250625_5B7r-S_P9dU_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Date:** June 25, 2025  
 **Topic:** Ergomempool Visualiser | 2ndTL Mining | ErgoHack 10

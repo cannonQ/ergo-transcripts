@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W48"
+date_start: "2025-11-24"
+date_end: "2025-11-30"
+type: telegram_weekly
+channel: general
+week: "2025-W48"
+source: telegram
+message_count: 399
+categories: [bridges, defi, marketing, ecosystem, community, nft, wallet, technical]
+key_terms: [Rosen Bridge, Bitcoin Runes, cross-chain, wrapped assets, stablecoin runes, USE, CLB, liquidity bootstrap, stablecoin launch, Dexy framework, Coingecko, Coinmarketcap, explorer, community website, listing, Bene V2, fundraising, custom tokens, campaign creation, Duckpools V2]
+---
 # Ergo General Chat — 2025-W48 Summary
 
 ## Key Topics Discussed

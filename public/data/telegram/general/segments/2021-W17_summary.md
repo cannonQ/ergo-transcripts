@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W17"
+date_start: "2021-04-26"
+date_end: "2021-05-02"
+type: telegram_weekly
+channel: general
+week: "2021-W17"
+source: telegram
+message_count: 1566
+categories: [community, governance, defi, technical, ecosystem, wallet, nft, marketing, mining]
+key_terms: [manifesto, cypherpunk, decentralization, privacy, Cardano, regulation, metadata, identity, ErgoDEX, AMM, orderbook, Catalyst, Plutus, oracle, Chainlink, oracle pools, trust scores, data feeds, Hotbit, hack]
+---
 # Ergo General Chat — 2021-W17 (April 26 – May 2, 2021)
 
 ## Key Topics Discussed

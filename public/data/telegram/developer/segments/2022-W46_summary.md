@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2022-W46"
+date_start: "2022-11-14"
+date_end: "2022-11-20"
+type: telegram_weekly
+channel: developer
+week: "2022-W46"
+source: telegram
+message_count: 67
+categories: [technical, ecosystem, bridges, wallet]
+key_terms: [IPv6, node, declaredAddress, network connectivity, peer broadcasting, Ergflip, UI, Next.js, frontend, React, Vue, backend, smart contract, verification, ergoscript, server implementation, release, protocol reference client, v5.0.3, TOR]
+---
 # Ergo Developer Chat Summary — 2022-W46
 **Period:** 2022-11-14 to 2022-11-20  
 **Message Count:** 67 | **Active Participants:** 14

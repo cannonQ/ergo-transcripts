@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W25"
+date_start: "2019-06-17"
+date_end: "2019-06-23"
+type: telegram_weekly
+channel: general
+week: "2019-W25"
+source: telegram
+message_count: 558
+categories: [governance, mining, technical, wallet, defi, ecosystem, community]
+key_terms: [mainnet launch, June 28, postponed, security audit, AMD miner, GPU mining, NVIDIA, GTX 1070, RTX 2070, CUDA, miner.exe, configuration, external developers, GPU support, ready by launch, full node, wallet initialization, mnemonic, seed string, synchronization]
+---
 # Ergo General Chat — 2019-W25 Summary
 **Period:** 2019-06-17 to 2019-06-23  
 **Messages:** 558 | **Participants:** 37

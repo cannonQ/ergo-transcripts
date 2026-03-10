@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W39"
+date_start: "2024-09-23"
+date_end: "2024-09-29"
+type: telegram_weekly
+channel: developer
+week: "2024-W39"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo Developer Chat Summary — 2024-W39
 **Period:** 2024-09-23 to 2024-09-29  
 **Message Range:** #30314–#30476  

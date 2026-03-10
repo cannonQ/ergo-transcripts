@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W22"
+date_start: "2019-05-27"
+date_end: "2019-06-02"
+type: telegram_weekly
+channel: general
+week: "2019-W22"
+source: telegram
+message_count: 98
+categories: [wallet, mining, technical, ecosystem, governance, community]
+key_terms: [EFYT, Waves, DEX, BTC, Ledger, token purchase, hashrate, pool-resistant, GPU mining, CUDA, centralization, solo mining, wallet API, swagger UI, apiKeyHash, Blake2b hash, authentication, ErgoScript, testnet, sigma language]
+---
 # Ergo General Chat — 2019-W22
 ## Summary
 Low-activity week dominated by new user onboarding questions about purchasing Ergo First Year Token (EFYT) on Waves DEX, testnet mining setup, and API configuration. Limited technical depth; primarily procedural guidance.

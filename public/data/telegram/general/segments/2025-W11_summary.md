@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W11"
+date_start: "2025-03-10"
+date_end: "2025-03-16"
+type: telegram_weekly
+channel: general
+week: "2025-W11"
+source: telegram
+message_count: 453
+categories: [marketing, technical, defi, wallet, bridges, community, ecosystem, mining, governance]
+key_terms: [Binance listing, price prediction, ACPU, market dump, exchange listings, sub-blocks, out-of-order application, fork handling, rollback, p2p messaging, testnet, quantum resistance, Schnorr signatures, Lamport schemes, post-quantum cryptography, sigma protocols, SigUSD bank, storage rent, Mew Finance UI, stablecoin]
+---
 # Ergo General Chat — 2025-W11 Summary
 
 ## Key Topics Discussed

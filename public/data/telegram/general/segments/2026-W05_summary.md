@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2026-W05"
+date_start: "2026-01-26"
+date_end: "2026-02-01"
+type: telegram_weekly
+channel: general
+week: "2026-W05"
+source: telegram
+message_count: 422
+categories: [ecosystem, bridges, defi, marketing, technical, mining, community]
+key_terms: [EKB, transcripts, searchable knowledge, community calls, AMAs, Rosen Bridge, component PRs, revenue distribution, developer incentives, DexyGold, DexyUSD, USE, ticker GOLDmg, grams, @ergo_platform, content moderation, delegate access, posting guidelines, Ergo Book, mdbook]
+---
 # Ergo General Chat — 2026-W05 Summary
 
 ## Key Topics Discussed

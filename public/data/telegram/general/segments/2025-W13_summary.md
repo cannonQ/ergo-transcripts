@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W13"
+date_start: "2025-03-24"
+date_end: "2025-03-30"
+type: telegram_weekly
+channel: general
+week: "2025-W13"
+source: telegram
+message_count: 200
+categories: [wallet, mining, defi, technical, community, ecosystem, bridges]
+key_terms: [Nautilus 1.1.0, Satergo 1.9.1, Ledger support, wallet UI, ITurkMining, SOLO, PPLNS, mining pool, MEW Bank, SigUSD, SigRSV, minting, redemption, sub-blocks, difficulty, transaction fees, storage rent, protocol 6.0.0-RC3, security audit, Docker Hub]
+---
 # Ergo General Chat — 2025-W13 Summary
 
 ## Key Topics Discussed

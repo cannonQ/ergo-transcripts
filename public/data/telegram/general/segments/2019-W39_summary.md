@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W39"
+date_start: "2019-09-23"
+date_end: "2019-09-29"
+type: telegram_weekly
+channel: general
+week: "2019-W39"
+source: telegram
+message_count: 70
+categories: [ecosystem, technical, wallet, marketing, community]
+key_terms: [EFYT, ERG, swap, gateway, mandatory, Tidex, Bisq, Waves, exchange, listing, EIP-1, wallet, dApps, crowdfunding, Metamask, transfer speed, confirmations, delay, withdrawal, Magnum]
+---
 # Ergo General Chat Summary — 2019-W39
 
 ## Key Topics Discussed

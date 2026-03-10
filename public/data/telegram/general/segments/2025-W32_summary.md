@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W32"
+date_start: "2025-08-04"
+date_end: "2025-08-10"
+type: telegram_weekly
+channel: general
+week: "2025-W32"
+source: telegram
+message_count: 0
+categories: [technical, wallet, ecosystem, marketing, defi, mining, bridges, governance, community, nft]
+key_terms: [sub-blocks, testnet, miners, performance, security audit, Keystone, Nautilus, integration, serialization, sigma-rust, Spectrum Network, ErgoDex, SPF, liquidity pools, domain transfer, marketing, adoption, community effort, influencers, grassroots]
+---
 # Ergo General Chat — 2025-W32 Summary
 
 ## Key Topics Discussed

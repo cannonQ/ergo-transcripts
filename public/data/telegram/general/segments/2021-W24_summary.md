@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W24"
+date_start: "2021-06-14"
+date_end: "2021-06-20"
+type: telegram_weekly
+channel: general
+week: "2021-W24"
+source: telegram
+message_count: 1326
+categories: [defi, technical, mining, wallet, marketing, ecosystem, community]
+key_terms: [ErgoDex, launch, beta, Plutus, liquidity pools, Cardano, oracle pools, data accuracy, collusion resistance, sigma protocols, chainlink comparison, mining pools, Autolykos, difficulty, nanopool centralization, smart contracts, SigmaUSD, AgeUSD, collateral ratio, stablecoin]
+---
 # Ergo General Chat Summary — 2021-W24
 
 ## Key Topics Discussed

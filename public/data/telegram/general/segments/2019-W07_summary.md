@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W07"
+date_start: "2019-02-11"
+date_end: "2019-02-17"
+type: telegram_weekly
+channel: general
+week: "2019-W07"
+source: telegram
+message_count: 54
+categories: [governance, mining, technical, ecosystem]
+key_terms: [EFYT, token supply, swap, 1.97M, 100M maximum supply, token conversion, mining, PoW, PoS, hash power, masternode, 75 Ergos per block, ERGO(cash), ERGO(data), dual chain, mining rewards, TestNet, CPU mining, node API, wallet]
+---
 # Ergo General Chat — Week 2019-W07 Summary
 
 ## Key Topics Discussed

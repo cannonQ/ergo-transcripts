@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2018-W40"
+date_start: "2018-10-01"
+date_end: "2018-10-07"
+type: telegram_weekly
+channel: general
+week: "2018-W40"
+source: telegram
+message_count: 62
+categories: [governance, technical, mining, ecosystem, marketing]
+key_terms: [mainnet, release date, Q1 2019, testnet2, scheduling, recursive calls, contract references, standard library, smart contracts, centralization, core developers, governance decentralization, community control, hardforks, ASIC resistant, PoW, pool resistance, light nodes, miners centralization, Waves pair]
+---
 # Ergo General Chat — 2018-W40 Summary
 
 ## Key Topics Discussed

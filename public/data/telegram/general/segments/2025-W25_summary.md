@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W25"
+date_start: "2025-06-16"
+date_end: "2025-06-22"
+type: telegram_weekly
+channel: general
+week: "2025-W25"
+source: telegram
+message_count: 261
+categories: [technical, bridges, marketing, wallet, governance, community, mining, nft, ecosystem, defi]
+key_terms: [sub-blocks, mining peers, testing, optimizations, events tracing, ErgoMixer, privacy, anonymity, ring signatures, mixing strategy, user count, Rosen Protocol, Dogecoin watcher, token emission, cross-chain, CoinGecko ranking, voting, native ranking, market visibility, explorer]
+---
 # Ergo General Chat — Week 2025-W25 Summary
 
 ## Key Topics Discussed

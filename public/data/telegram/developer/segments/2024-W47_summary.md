@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W47"
+date_start: "2024-11-18"
+date_end: "2024-11-24"
+type: telegram_weekly
+channel: developer
+week: "2024-W47"
+source: telegram
+message_count: 108
+categories: [technical, defi, ecosystem, community, marketing, research]
+key_terms: [6.0.0-RC1, sigmastate-interpreter, protocol upgrade, soft-fork, EIP-50, v5.0.25-RC, indexer rollbacks, persistent modifier, node testing, SigmaUSD, oracle pool, testnet, mining requirements, sigma-rust, Python bindings, bounty, "issue #780", Paideia, Sigmanauts, bonus token airdrop]
+---
 # Ergo Developer Chat Summary — 2024-W47
 
 ## Key Topics Discussed

@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W23"
+date_start: "2024-06-03"
+date_end: "2024-06-09"
+type: telegram_weekly
+channel: developer
+week: "2024-W23"
+source: telegram
+message_count: 192
+categories: [technical, wallet, governance, ecosystem, bridges, mining, defi, nft, community]
+key_terms: [release, PR review, version finalization, sigmastate-interpreter, "Option[] serialization", Header serialization, Global.serialize, MethodCall tests, EIP-50, wallet deletion, seed phrase, Tag Mismatch error, encryption, password reset, PR dependencies, test coverage, code organization, cherry-picking, commit authorship, multisig hints]
+---
 # Ergo Developer Chat Summary — 2024-W23
 **Period:** 2024-06-03 to 2024-06-09  
 **Messages:** 192 | **Participants:** 12

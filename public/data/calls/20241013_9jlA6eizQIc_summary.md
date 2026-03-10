@@ -1,3 +1,16 @@
+---
+title: "Dev Update Oct. 13th 2024 |  Satergo, Paideia, Celaut, Sigs Mining, Nautilus and more!"
+date: "2024-10-13"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=9jlA6eizQIc
+video_id: 9jlA6eizQIc
+duration_minutes: 30
+speakers: [qx()]
+topics: [mewfinance, dex, mewmart, spectrum, presale, figital-tokens, escrow, marketplace, sigmanauts, physical-merchandise]
+companion_files: [20241013_9jlA6eizQIc_transcript.txt, 20241013_9jlA6eizQIc_qa.json, 20241013_9jlA6eizQIc_decisions.json, 20241013_9jlA6eizQIc_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 
 **Date:** October 13, 2024  

@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2023-W38"
+date_start: "2023-09-18"
+date_end: "2023-09-24"
+type: telegram_weekly
+channel: developer
+week: "2023-W38"
+source: telegram
+message_count: 74
+categories: [technical, wallet, mining, nft, ecosystem]
+key_terms: [flash loans, oracle manipulation, onchain oracles, Spectrum, duckpools, minValuePerByte, token boxes, nanoErgs, p2pk, seed phrase, private key, hierarchical deterministic, HD wallets, storage rent, mining pool, Sig pool, burn test, payout, Greasy Royale, NFT production]
+---
 # Ergo Developer Chat Summary — 2023-W38
 **Period:** 2023-09-18 to 2023-09-22 | **Messages:** 74 | **Participants:** 10
 

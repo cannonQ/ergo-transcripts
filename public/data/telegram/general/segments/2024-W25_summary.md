@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2024-W25"
+date_start: "2024-06-17"
+date_end: "2024-06-23"
+type: telegram_weekly
+channel: general
+week: "2024-W25"
+source: telegram
+message_count: 959
+categories: [ecosystem, defi, bridges, governance, technical, mining, wallet, marketing, community]
+key_terms: [ergohack, projects, community vote, hackathon, crystal pool, dex, spectrum, liquidity, utxo, rosen bridge, cross-chain, tradehouse, interoperability, zengate, palmyra, chainlink, oracle pools, partnerships, bitcoin relay, trustless]
+---
 # Ergo General Chat — 2024-W25 Summary
 **Period:** 2024-06-17 to 2024-06-23
 **Messages Processed:** 959 across 52 participants

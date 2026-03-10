@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W35"
+date_start: "2019-08-26"
+date_end: "2019-09-01"
+type: telegram_weekly
+channel: general
+week: "2019-W35"
+source: telegram
+message_count: 93
+categories: [ecosystem, technical, mining, bridges, governance, community]
+key_terms: [EFYT, ERG, token swap, Waves DEX, exchange listing, node, sync, wallet, balance, transactions, blockchain, GPU mining, 1080ti, RX Vega, hashrate, AMD, NVIDIA, GJ.com, Chinese community, airdrop]
+---
 ## Key Topics Discussed
 
 - **EFYT to ERG Token Swap**: Discussion of the EFYT token migration to ERG, including swap mechanics on Waves DEX and confusion about whether the swap would be automatic on exchanges.

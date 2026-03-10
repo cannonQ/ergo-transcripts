@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2022-W09"
+date_start: "2022-02-28"
+date_end: "2022-03-06"
+type: telegram_weekly
+channel: general
+week: "2022-W09"
+source: telegram
+message_count: 692
+categories: [governance, wallet, defi, bridges, ecosystem, technical, community, mining]
+key_terms: [EIP-27, soft fork, miner voting, block reward, testnet, emission, Ledger, Nautilus wallet, P2S signing, Ukraine war impact, Nautilus, Yoroi, wallet performance, UX improvements, ErgoDEX, liquidity pools, slippage, pending transactions, refund mechanism, Rosen bridge]
+---
 # Ergo General Chat — 2022-W09 Summary
 
 ## Key Topics Discussed

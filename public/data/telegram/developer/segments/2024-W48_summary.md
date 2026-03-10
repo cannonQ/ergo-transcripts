@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W48"
+date_start: "2024-11-25"
+date_end: "2024-12-01"
+type: telegram_weekly
+channel: developer
+week: "2024-W48"
+source: telegram
+message_count: 183
+categories: [technical, defi, nft, wallet, governance, community, ecosystem]
+key_terms: [6.0 soft-fork, EIP-50, protocol upgrade, Schnorr signatures, Bulletproofs, EIP-5, compiler, contract templates, template compiler, equalBoxExcept, register comparison, compiler sugar, box equality, testnet, node sync, peer banning, network configuration, SigmaUSD, pool, bank]
+---
 # Ergo Developer Chat Summary — 2024-W48
 
 ## Key Topics Discussed

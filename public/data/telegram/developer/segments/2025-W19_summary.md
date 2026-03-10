@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W19"
+date_start: "2025-05-05"
+date_end: "2025-05-11"
+type: telegram_weekly
+channel: developer
+week: "2025-W19"
+source: telegram
+message_count: 115
+categories: [technical, bridges, wallet, defi, ecosystem]
+key_terms: [rocksdb, SIGSEGV, database corruption, version upgrade, 5.1.3, sigma-rust, serialization, ergo tree, Keystone, hardware wallet, protocol 6.0, sub-blocks, ordering blocks, transaction distribution, Rosen Bridge, Dogecoin, multisig, cross-chain, address codec, Nautilus]
+---
 # Ergo Developer Chat Summary — 2025-W19
 
 ## Key Topics Discussed

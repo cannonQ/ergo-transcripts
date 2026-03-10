@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W42"
+date_start: "2019-10-14"
+date_end: "2019-10-20"
+type: telegram_weekly
+channel: general
+week: "2019-W42"
+source: telegram
+message_count: 138
+categories: [ecosystem, mining, wallet, community, defi]
+key_terms: [hotbit, withdrawal, deposit, account lockdown, gateway issues, mining, AMD, NVIDIA, hashrate, miner setup, Ledger, Magnum wallet, private key storage, Waves DEX, security, community manager, ambassador, job application, ergoplatform@protonmail.com, Tidex]
+---
 # Ergo General Chat — 2019-W42 Summary
 
 ## Key Topics Discussed

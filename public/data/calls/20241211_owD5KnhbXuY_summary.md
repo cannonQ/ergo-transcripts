@@ -1,3 +1,16 @@
+---
+title: "ONERGO | Kropli | ErgoHack 9"
+date: "2024-12-11"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=owD5KnhbXuY
+video_id: owD5KnhbXuY
+duration_minutes: 10
+speakers: [Gvuldis]
+topics: [cardano, information-overload, ecosystem-tracking, proactive-solution, centralized-exchanges, user-experience, newcomers, ecosystem-navigation, complexity-barriers, event-calendar]
+companion_files: [20241211_owD5KnhbXuY_transcript.txt, 20241211_owD5KnhbXuY_qa.json, 20241211_owD5KnhbXuY_decisions.json, 20241211_owD5KnhbXuY_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 
 **Call Date:** December 11, 2024  

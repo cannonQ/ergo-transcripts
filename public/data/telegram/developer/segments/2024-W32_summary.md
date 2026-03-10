@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W32"
+date_start: "2024-08-05"
+date_end: "2024-08-11"
+type: telegram_weekly
+channel: developer
+week: "2024-W32"
+source: telegram
+message_count: 223
+categories: [technical, bridges, wallet, defi, ecosystem, mining]
+key_terms: [node sync, blockchain forks, devnet, mainnet parameters, magic bytes, mnemonic signing, private key, security, node API, derivation path, node release, Sigma 6.0, sub-blocks, PR reviews, Scorex refactoring, Fleet SDK, change box, token limit, box size, TransactionBuilder]
+---
 # Ergo Developer Chat — 2024-W32 Summary
 
 ## Key Topics Discussed

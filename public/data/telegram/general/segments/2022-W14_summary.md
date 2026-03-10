@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2022-W14"
+date_start: "2022-04-04"
+date_end: "2022-04-10"
+type: telegram_weekly
+channel: general
+week: "2022-W14"
+source: telegram
+message_count: 1023
+categories: [wallet, marketing, defi, governance, technical, ecosystem, mining, community, bridges]
+key_terms: [Yoroi, Nautilus, wallet stability, extension problems, ErgoPulse, Charles Hoskinson, Alex Chepurnoy, DanielTetsuyama, Armeanio, ErgoDEX token, airdrop, liquidity providers, early participants, EIP-27, emission reduction, testnet, soft fork, block height, Ledger, Tesseract-one]
+---
 # Ergo General Chat — 2022-W14 Summary
 
 ## Key Topics Discussed

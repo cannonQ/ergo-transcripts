@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W20"
+date_start: "2025-05-12"
+date_end: "2025-05-18"
+type: telegram_weekly
+channel: general
+week: "2025-W20"
+source: telegram
+message_count: 0
+categories: [technical, governance, bridges, ecosystem, community, defi, marketing, mining]
+key_terms: [sub-blocks, weak blocks, block announcement, devnet, CPU mining, ordering blocks, Extended UTXO, AI agents, parallelism, smart contracts, Artificial Economic Intelligence, 6.0 final release, protocol upgrade, voting, soft-fork, RosenBridge, rsERG, liquidity, ADA correlation, cross-chain]
+---
 # Ergo General Chat — 2025-W20 Summary
 
 ## Key Topics Discussed

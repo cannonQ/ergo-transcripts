@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2023-W05"
+date_start: "2023-01-30"
+date_end: "2023-02-05"
+type: telegram_weekly
+channel: developer
+week: "2023-W05"
+source: telegram
+message_count: 73
+categories: [technical, defi, mining, ecosystem, nft]
+key_terms: [security, design philosophy, conservative approach, Spectrum, API, token prices, verified feeds, market data, market cap, token supply, price manipulation, LOVE token, GPU, DAG size, 3GB, mining capability, Dexy, soundness tests, bug fixes, test cases]
+---
 # Ergo Developer Chat Summary — 2023-W05
 
 ## Key Topics Discussed

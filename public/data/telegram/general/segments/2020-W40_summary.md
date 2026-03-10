@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W40"
+date_start: "2020-09-28"
+date_end: "2020-10-04"
+type: telegram_weekly
+channel: general
+week: "2020-W40"
+source: telegram
+message_count: 823
+categories: [wallet, defi, technical, ecosystem, mining, community, marketing]
+key_terms: [Yoroi, wallet, nightly, BIP44, migration, Cardano, release, ErgoMixer, mixing, covert address, privacy, Tor, 110000 ERG, node, 3.3.4, 3.3.5, EIP-3, distributed signatures, bugfixes, Oracle pools]
+---
 # Ergo General Chat — 2020-W40 Summary
 
 ## Key Topics Discussed

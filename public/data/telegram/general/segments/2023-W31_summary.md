@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2023-W31"
+date_start: "2023-07-31"
+date_end: "2023-08-06"
+type: telegram_weekly
+channel: general
+week: "2023-W31"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo General Chat — 2023-W31 Summary
 **Period:** 2023-07-31 to 2023-08-06
 **Activity:** 984 messages across 70 participants

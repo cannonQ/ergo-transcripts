@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2023-W11"
+date_start: "2023-03-13"
+date_end: "2023-03-19"
+type: telegram_weekly
+channel: developer
+week: "2023-W11"
+source: telegram
+message_count: 57
+categories: [defi, wallet, technical, nft, ecosystem]
+key_terms: [Djed, SigmaUSD, Gresham's law, reserve assets, metastablecoin, liquidity pool, Ledger, developer mode, pending review, installation, approval timeline, storage rent, dust, bloat, UTXO, blockchain size, Satoshi wallet, oracle pool 2.0, XAU oracle, testnet explorer]
+---
 # Ergo Developer Chat Summary — 2023-W11
 **Period:** 2023-03-15 to 2023-03-26  
 **Participants:** 9 | **Messages:** 57  

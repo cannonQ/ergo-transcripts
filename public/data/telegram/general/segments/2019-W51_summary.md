@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W51"
+date_start: "2019-12-16"
+date_end: "2019-12-22"
+type: telegram_weekly
+channel: general
+week: "2019-W51"
+source: telegram
+message_count: 86
+categories: [wallet, technical, mining, ecosystem, governance]
+key_terms: [private keys, storage, Magnum wallet, web wallet, security, max supply, emission curve, circulating supply, token economics, GPU mining, GTX 1070, power consumption, electricity costs, Autolykos, node requirements, RAM usage, Raspberry Pi, CPU usage, sync time, browser extension]
+---
 # Ergo General Chat Summary — 2019-W51
 
 ## Key Topics Discussed

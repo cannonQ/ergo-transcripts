@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W38"
+date_start: "2025-09-15"
+date_end: "2025-09-21"
+type: telegram_weekly
+channel: developer
+week: "2025-W38"
+source: telegram
+message_count: 129
+categories: [technical, wallet, defi, bridges, ecosystem]
+key_terms: [sub-blocks, voteable parameter, block headers, p2p layer, whitepaper, penalty, blacklist, peer ban, transaction propagation, devnet, Sigma, nested functions, semantics, LLM generated code, sigmastate-interpreter, input block, transactions announce, serializer, error handling, Nautilus Wallet]
+---
 # Ergo Developer Chat Summary — 2025-W38
 
 ## Key Topics Discussed

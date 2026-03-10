@@ -1,3 +1,16 @@
+---
+title: "Weekly Update & AMA - July 18th 2024"
+date: "2024-07-19"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=S0YgfBRzFZg
+video_id: S0YgfBRzFZg
+duration_minutes: 63
+speakers: [Dan Friedman, qx()]
+topics: [winter-protocol, palmyra-pro, traceability-modules, oracles, web3-libraries, rareevo, conference, las-vegas, ihop, airbnb]
+companion_files: [20240719_S0YgfBRzFZg_transcript.txt, 20240719_S0YgfBRzFZg_qa.json, 20240719_S0YgfBRzFZg_decisions.json, 20240719_S0YgfBRzFZg_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Call Date:** July 19, 2024  
 **Call Title:** Weekly Update & AMA - July 18th 2024

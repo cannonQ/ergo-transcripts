@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W37"
+date_start: "2024-09-09"
+date_end: "2024-09-15"
+type: telegram_weekly
+channel: developer
+week: "2024-W37"
+source: telegram
+message_count: 85
+categories: [technical, defi, mining, governance, wallet, bridges, community]
+key_terms: [node wallet, MaxInputsExceededError, 100 inputs limit, ergo.conf, transaction assembly, 5.0.23 release candidate, thread pools, block processing, mining, Raspberry Pi testing, Sigma 6.0, numeric methods, unsigned big int, devnet, sigmastate-interpreter, sub-blocks, P2P messages, candidate generation, internal miner, ChainCash]
+---
 # Ergo Developer Chat Summary — 2024-W37
 **Period:** 2024-09-09 to 2024-09-15  
 **Participants:** 11 community developers and core team members  

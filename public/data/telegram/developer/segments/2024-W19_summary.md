@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W19"
+date_start: "2024-05-06"
+date_end: "2024-05-12"
+type: telegram_weekly
+channel: developer
+week: "2024-W19"
+source: telegram
+message_count: 0
+categories: [technical, nft, ecosystem, bridges, defi, governance, mining, wallet]
+key_terms: [Sigma 6.0, serialization, deserialization, Header support, ErgoTree, ErgoScript, executeFromVar, executeFromReg, P2SH scripts, macro expansion, Merkleized FSM, DeserializeContext, sigma-rust, transaction validation, interpreter performance, 300-400x speedup, bindings, Lithos, Header.checkPow, Header.bytes]
+---
 # Ergo Developer Chat Summary — 2024-W19
 **Period:** 2024-05-06 to 2024-05-12  
 **Participants:** 8 core contributors + DiscordBridge relay

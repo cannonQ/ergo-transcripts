@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2023-W39"
+date_start: "2023-09-25"
+date_end: "2023-10-01"
+type: telegram_weekly
+channel: developer
+week: "2023-W39"
+source: telegram
+message_count: 90
+categories: [technical, governance, wallet, nft, community, defi]
+key_terms: [TPS, BPM, blocks per minute, maxBlockCost, ergotree complexity, block assembly, 1M, 10-12M, voting proposal, miners, testnet, Nautilus v0.9.0, Fleet SDK, ergographql-client, Ledger wallet signing, GraphQL client, GCX, Character NFTs, CyberVerse partnership, Terahertz]
+---
 # Ergo Developer Chat — 2023-W39 Summary
 
 ## Key Topics Discussed

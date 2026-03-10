@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2023-W23"
+date_start: "2023-06-05"
+date_end: "2023-06-11"
+type: telegram_weekly
+channel: developer
+week: "2023-W23"
+source: telegram
+message_count: 70
+categories: [wallet, ecosystem, defi, technical, community]
+key_terms: [Satergo, ErgoPay, beta, dApp integration, testing, Yoroi, wallet recovery, seed phrase, password decryption, Erg Explorer, smart contracts, NFT previews, token search, UI improvements, DuckPools, contract testing, Ergo v5, proxy contracts, refunds, indexed node API]
+---
 # Ergo Developer Chat Summary — 2023-W23
 **Period:** 2023-06-06 to 2023-06-10  
 **Participants:** 9 developers (Aberg, Aco, HQΣr, qx(), kushti, Luivatra, Koutelier, Flying Pig, Unknown)

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2018-W52"
+date_start: "2018-12-24"
+date_end: "2018-12-30"
+type: telegram_weekly
+channel: general
+week: "2018-W52"
+source: telegram
+message_count: 54
+categories: [governance, technical, ecosystem, community]
+key_terms: [mainnet, launch date, testing, security audit, March, May, demurrage, 4-year inactivity, coin circulation, economy model, emission, bounty, TestNet bugs, promoters, whitepaper translation, airdrop, swap, EFYT, token migration, Q2 2019]
+---
 # Ergo General Chat — 2018-W52
 ## Summary
 

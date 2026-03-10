@@ -1,3 +1,16 @@
+---
+title: "Game of Prompts | Josemi | ErgoHack 10"
+date: "2025-06-26"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=ApeN_hckNKs
+video_id: ApeN_hckNKs
+duration_minutes: 32
+speakers: [Josemi]
+topics: [game-of-prompts, gop, ai-challenges, blockchain-solutions, celaut, immutable-services, collaborative-ai, game-service, solver-service, gopweb-portal]
+companion_files: [20250626_ApeN_hckNKs_transcript.txt, 20250626_ApeN_hckNKs_qa.json, 20250626_ApeN_hckNKs_decisions.json, 20250626_ApeN_hckNKs_topics.json]
+---
 # Game of Prompts (GOP) - ErgoHack 10 Community Call Summary
 
 **Call Date:** 2025-06-26  

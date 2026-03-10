@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W15"
+date_start: "2025-04-07"
+date_end: "2025-04-13"
+type: telegram_weekly
+channel: general
+week: "2025-W15"
+source: telegram
+message_count: 168
+categories: [bridges, technical, defi, wallet, community, ecosystem, marketing]
+key_terms: [NFT bridge, cross-chain, Cardano, Mew Finance, DiscoSolaris, v6.0.0-RC4, reference client, mainnet, protocol upgrade, Rosen Bridge, watcher-service, v4.1.3, PALM, SOCKZ, oracle, multiple instances, SigEUR, stablecoin, Ledger, app-ergo]
+---
 # Ergo General Chat — 2025-W15 Summary
 
 ## Key Topics Discussed

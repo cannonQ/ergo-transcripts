@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2023-W33"
+date_start: "2023-08-14"
+date_end: "2023-08-20"
+type: telegram_weekly
+channel: general
+week: "2023-W33"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo General Chat — 2023-W33 Summary
 
 ## Key Topics Discussed

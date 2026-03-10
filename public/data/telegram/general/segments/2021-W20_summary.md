@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W20"
+date_start: "2021-05-17"
+date_end: "2021-05-23"
+type: telegram_weekly
+channel: general
+week: "2021-W20"
+source: telegram
+message_count: 3520
+categories: [wallet, defi, ecosystem, marketing, mining, nft, bridges, governance, technical]
+key_terms: [yoroi, wallet, transfer, confirmations, coinex, sigusd, reserve ratio, minting, sigrsv, exchange, listing, NDA, binance, kucoin, charles hoskinson, video, shilling, difficulty control, difficulty, hashrate]
+---
 ## Key Topics Discussed
 
 - **Ergo Integration with Gravity Network**: After months of work, cross-chain tests completed and Gravity-Ergo-Proxy contracts are almost complete. This partnership enables Ergo to access different chains through Gravity Network, opening up digital assets from blockchain networks integrated with Gravity.

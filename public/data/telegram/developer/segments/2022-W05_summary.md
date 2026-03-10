@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2022-W05"
+date_start: "2022-01-31"
+date_end: "2022-02-06"
+type: telegram_weekly
+channel: developer
+week: "2022-W05"
+source: telegram
+message_count: 50
+categories: [wallet, technical, ecosystem]
+key_terms: [Satergo, wallet, application size, security features, NFT viewing, transaction history, installers, WebAssembly, wasm, asm.js, dApp websites, embedded browser, spending password, wallet clients, urlwallet, security flaw, Satergo release delay, explorer-backend, node sync, database indexing]
+---
 # Ergo Developer Chat Summary — 2022-W05
 ## Period: 2022-02-02 to 2022-02-13
 

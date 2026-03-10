@@ -1,3 +1,16 @@
+---
+title: "Dev Update Oct. 28th 2024 |  Cyberverse, Paideia, MewFinance, Sigs Mining, Sigmaspace and more!"
+date: "2024-10-28"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=DmsFBxH5PVA
+video_id: DmsFBxH5PVA
+duration_minutes: 40
+speakers: [qx()]
+topics: [sigmanauts-mining-pool, storage-rent, dao, proof-of-work, mining, community-governance, cross-chain-mining, rosen-tokens, nft-configuration, ergohack]
+companion_files: [20241028_DmsFBxH5PVA_transcript.txt, 20241028_DmsFBxH5PVA_qa.json, 20241028_DmsFBxH5PVA_decisions.json, 20241028_DmsFBxH5PVA_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Date:** October 28, 2024  
 **Title:** Dev Update Oct. 28th 2024 | Cyberverse, Paideia, MewFinance, Sigs Mining, Sigmaspace and more!

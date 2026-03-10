@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2018-W22"
+date_start: "2018-05-28"
+date_end: "2018-06-03"
+type: telegram_weekly
+channel: general
+week: "2018-W22"
+source: telegram
+message_count: 76
+categories: [governance, mining, technical, ecosystem, bridges, marketing]
+key_terms: [EFYT, token swap, "1:1 ratio", airdrop, Waves DEX, Σ-Data, Σ-Cash, emission curve, 8-year schedule, inflation, POW, mining rewards, node incentives, testnet1, testnet2, mainnet, POW finalization, september, whitepaper, one-pager]
+---
 # Ergo General Chat Summary — 2018-W22 (2018-05-28 to 2018-06-03)
 
 ## Key Topics Discussed

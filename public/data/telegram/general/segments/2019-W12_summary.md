@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W12"
+date_start: "2019-03-18"
+date_end: "2019-03-24"
+type: telegram_weekly
+channel: general
+week: "2019-W12"
+source: telegram
+message_count: 134
+categories: [governance, mining, wallet, technical, ecosystem, bridges, community, marketing]
+key_terms: [mainnet launch, May 26, security audit, announcement, CPU mining, GPU miner, equihash, autolykos, mining configuration, wallet, seed phrase, apiKeyHash, swagger, wallet balances, ErgoScript, contracts, oracles, atomic swaps, crowdfunding, tutorials]
+---
 # Ergo General Chat — 2019-W12 Summary
 **Period:** 2019-03-18 to 2019-03-24  
 **Participants:** 13 (including kushti, Dmitry, Andrey Andreev)

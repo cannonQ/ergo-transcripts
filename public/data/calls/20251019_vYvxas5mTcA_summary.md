@@ -1,3 +1,16 @@
+---
+title: "Faith, Trust, Proof of Work - Armeanio on the Social Layer of Decentralization | Ergo Meetup 2025"
+date: "2025-10-19"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=vYvxas5mTcA
+video_id: vYvxas5mTcA
+duration_minutes: 27
+speakers: [armeanio]
+topics: [peer-to-peer-networks, social-system, trust, attack-vector, decentralized-systems, deleveraging, risk-management, leverage, crypto-ecosystem, market-volatility]
+companion_files: [20251019_vYvxas5mTcA_transcript.txt, 20251019_vYvxas5mTcA_qa.json, 20251019_vYvxas5mTcA_decisions.json, 20251019_vYvxas5mTcA_topics.json]
+---
 # Ergo Community Call Summary - 2025-10-19
 
 ## Executive Summary

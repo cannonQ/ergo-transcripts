@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2024-W44"
+date_start: "2024-10-28"
+date_end: "2024-11-03"
+type: telegram_weekly
+channel: general
+week: "2024-W44"
+source: telegram
+message_count: 0
+categories: [bridges, technical, nft, defi, ecosystem, wallet, marketing, governance, community]
+key_terms: [Rosen, rsERG, Ethereum, liquidity, arbitrage, uniswap, RoseNet, p2p, decentralized, testing, guards, fault tolerance, Lilium, NFT, minting, pricing, logarithmic, collection standards, sigUSD, collateral]
+---
 # Ergo General Chat — 2024-W44 Summary
 
 ## Key Topics Discussed

@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W52"
+date_start: "2025-12-22"
+date_end: "2025-12-28"
+type: telegram_weekly
+channel: developer
+week: "2025-W52"
+source: telegram
+message_count: 100
+categories: [technical, wallet, defi, ecosystem, nft]
+key_terms: [testnet, Hetzner, server migration, explorer, infrastructure, wallet-app, "PR #208", bounty, testing, release candidate, ChainCash, Basis, reserves API, tracker, redemption, sub-blocks, devnet, whitepaper, protocol research, node panel]
+---
 # Ergo Developer Chat Summary — 2025-W52
 **Period:** 2025-12-22 to 2026-01-04  
 **Participants:** 12 | **Messages Reviewed:** 100

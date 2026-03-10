@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - September 26th 2024"
+date: "2024-09-27"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=wlsrWVpPCns
+video_id: wlsrWVpPCns
+duration_minutes: 63
+speakers: [kushti, qx(), Dan Friedman]
+topics: [ergo-6.0, sub-blocks, soft-fork, mining, education-initiative, ergohack-9, anonymous-voting, stealth-addresses, dao-governance, ergodevelopers]
+companion_files: [20240927_wlsrWVpPCns_transcript.txt, 20240927_wlsrWVpPCns_qa.json, 20240927_wlsrWVpPCns_decisions.json, 20240927_wlsrWVpPCns_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Date:** September 27, 2024  
 **Title:** Ergo PoW Blockchain - Weekly Update & AMA - September 26th 2024

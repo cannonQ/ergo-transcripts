@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W14"
+date_start: "2025-03-31"
+date_end: "2025-04-06"
+type: telegram_weekly
+channel: general
+week: "2025-W14"
+source: telegram
+message_count: 195
+categories: [technical, wallet, governance, ecosystem, marketing, defi, community]
+key_terms: [emission contract, EIP-27, mining rewards, reemission tokens, dxpool, node sync, mainnet, Ubuntu, configuration, Extra Index, Keystone, firmware, cypherpunk version, Bitcoin, Zcash, Monero, Kraken, CEX listing, rsERG, Cardano]
+---
 # Ergo General Chat — 2025-W14 Summary
 
 ## Key Topics Discussed

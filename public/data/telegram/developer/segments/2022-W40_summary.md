@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2022-W40"
+date_start: "2022-10-03"
+date_end: "2022-10-09"
+type: telegram_weekly
+channel: developer
+week: "2022-W40"
+source: telegram
+message_count: 141
+categories: [technical, governance, ecosystem, nft, defi]
+key_terms: [storage rent, creation height, box manipulation, protocol verification, monotonic height rule, Spectrum, token2token pools, sigma-rust, ErgoBoxCandidateBuilder, soft fork, token burning, reemission contract, protocol changes, node synchronization, mempool management, fork handling, transaction confirmation, difficulty algorithm, node update, parameters]
+---
 # Ergo Developer Chat Summary — 2022-W40
 
 ## Key Topics Discussed

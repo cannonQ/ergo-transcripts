@@ -1,3 +1,16 @@
+---
+title: "Wallet Wonderland | ErgoMinnow | ErgoHack 9"
+date: "2024-10-27"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=VIj9Mnwza1M
+video_id: VIj9Mnwza1M
+duration_minutes: 12
+speakers: [ErgoMinnow]
+topics: [ergohack, wallet-wonderland, survey, sigmanauts, next-gen-wallet, nautilus, safew, minotaur, satergo, ergo-mobile]
+companion_files: [20241027_VIj9Mnwza1M_transcript.txt, 20241027_VIj9Mnwza1M_qa.json, 20241027_VIj9Mnwza1M_decisions.json, 20241027_VIj9Mnwza1M_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 
 **Date:** October 27, 2024  

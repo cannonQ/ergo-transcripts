@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2024-W22"
+date_start: "2024-05-27"
+date_end: "2024-06-02"
+type: telegram_weekly
+channel: general
+week: "2024-W22"
+source: telegram
+message_count: 722
+categories: [bridges, ecosystem, security, technical, wallet, governance, defi, community, marketing]
+key_terms: [trustless relay, Bitcoin header validation, merkle proof, Bitcoin interoperability, Rosen Bridge, Bitcoin bridge, keygen ceremony, BTC transfer, ErgoHack VIII, Lightning Swaps, CrystalPool, "$40,000 prize pool", rsBTC, token scam, fraud prevention, ErgExplorer, node setup, Termux, Android node, 127.0.0.1]
+---
 # Ergo General Chat Summary — 2024-W22
 **Period:** 2024-05-27 to 2024-06-02  
 **Message Count:** 722  

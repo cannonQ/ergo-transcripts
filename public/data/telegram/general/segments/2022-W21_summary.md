@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2022-W21"
+date_start: "2022-05-23"
+date_end: "2022-05-29"
+type: telegram_weekly
+channel: general
+week: "2022-W21"
+source: telegram
+message_count: 0
+categories: [wallet, governance, technical, defi, ecosystem, community, mining, bridges, nft]
+key_terms: [cold wallet, UTXO, QR codes, transaction complexity, box consolidation, EIP-27, emissions, soft fork, governance, block 777272, Ledger Nano S, Nautilus, hardware wallet, sideloading, Ledger Nano X, ErgoMixer, privacy, token mixing, sigma protocols, concealed messages]
+---
 # Ergo General Chat — 2022-W21 Summary
 
 ## Key Topics Discussed

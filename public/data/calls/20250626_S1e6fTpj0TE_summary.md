@@ -1,3 +1,16 @@
+---
+title: "Pulse | HQΣr | ErgoHack 10"
+date: "2025-06-26"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=S1e6fTpj0TE
+video_id: S1e6fTpj0TE
+duration_minutes: 10
+speakers: [HQ3rr]
+topics: [pulse, decentralized-messaging, peer-to-peer-communication, blockchain-messaging, data-privacy, corporate-control, end-to-end-encryption, stealth-addresses, web3-social-platform, live-streaming]
+companion_files: [20250626_S1e6fTpj0TE_transcript.txt, 20250626_S1e6fTpj0TE_qa.json, 20250626_S1e6fTpj0TE_decisions.json, 20250626_S1e6fTpj0TE_topics.json]
+---
 # Ergo Community Call Summary
 
 **Call Date:** 2025-06-26  

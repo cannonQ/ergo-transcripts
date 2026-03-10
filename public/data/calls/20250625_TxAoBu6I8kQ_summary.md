@@ -1,3 +1,16 @@
+---
+title: "Cortex | Arohbe | ErgoHack 10"
+date: "2025-06-25"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=TxAoBu6I8kQ
+video_id: TxAoBu6I8kQ
+duration_minutes: 28
+speakers: [Arohbe]
+topics: [getblok, decentralized-mining-pool, lithos-protocol, proof-of-work-mining, centralized-mining-software, ai-integration, gpu-mining-optimization, temperature-monitoring, overclock-settings, mining-efficiency]
+companion_files: [20250625_TxAoBu6I8kQ_transcript.txt, 20250625_TxAoBu6I8kQ_qa.json, 20250625_TxAoBu6I8kQ_decisions.json, 20250625_TxAoBu6I8kQ_topics.json]
+---
 # Cortex | Arohbe | ErgoHack 10 - Community Call Summary
 
 **Date:** 2025-06-25

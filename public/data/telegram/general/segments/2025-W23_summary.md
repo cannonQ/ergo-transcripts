@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W23"
+date_start: "2025-06-02"
+date_end: "2025-06-08"
+type: telegram_weekly
+channel: general
+week: "2025-W23"
+source: telegram
+message_count: 0
+categories: [technical, bridges, ecosystem, defi, community, mining, governance, marketing]
+key_terms: [Node 6.0, RC6, sub-blocks, sigma chains, testnet, Rosen Bridge, Bitcoin, Cardano, rsBTC, watchers, liquidity, fiat onramp, Banxa, Onramper, Nautilus wallet, USD access, raffle, DexyUSD, DexyGold, stablecoin]
+---
 # Ergo General Chat Summary — 2025-W23
 **Period:** 2025-06-02 to 2025-06-08  
 **Messages:** 712 | **Participants:** 53

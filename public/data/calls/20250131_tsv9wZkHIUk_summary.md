@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - January 30th"
+date: "2025-01-31"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=tsv9wZkHIUk
+video_id: tsv9wZkHIUk
+duration_minutes: 51
+speakers: [qx(), kushti, Dan Friedman]
+topics: [brick-token, cornell, recycling-incentives, circular-economy, student-rewards, storage-rent, digital-waste-recycling, monetary-innovation, erg/php-token, blockchain-economics]
+companion_files: [20250131_tsv9wZkHIUk_transcript.txt, 20250131_tsv9wZkHIUk_qa.json, 20250131_tsv9wZkHIUk_decisions.json, 20250131_tsv9wZkHIUk_topics.json]
+---
 # Ergo PoW Blockchain - Weekly Community Call Summary
 
 **Date:** January 31, 2025  

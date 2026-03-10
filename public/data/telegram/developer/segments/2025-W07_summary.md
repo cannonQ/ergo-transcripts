@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W07"
+date_start: "2025-02-10"
+date_end: "2025-02-16"
+type: telegram_weekly
+channel: developer
+week: "2025-W07"
+source: telegram
+message_count: 72
+categories: [technical, wallet, bridges, defi, ecosystem, mining]
+key_terms: [release, node, RocksDB, leveldb, pruned node, reindexing, SigmaSDK, executeFromVar, bigInt, ContractTemplate, Box serialization, Nautilus, UI refactoring, 24-word mnemonic, AddWalletIndexView, CreateWalletView, LedgerConnectView, sigma-rust, PR submission, commit squashing]
+---
 # Ergo Developer Chat Summary — 2025-W07
 
 ## Key Topics Discussed

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2022-W37"
+date_start: "2022-09-12"
+date_end: "2022-09-18"
+type: telegram_weekly
+channel: general
+week: "2022-W37"
+source: telegram
+message_count: 0
+categories: [mining, technical, defi, wallet, marketing, community, bridges, ecosystem]
+key_terms: [eth merge, hashrate, difficulty, miners, profitability, difficulty adjustment, epoch, block time, autolykos, hard fork, 2miners, 51% attack, pool distribution, getblok, decentralization, sigusd, oracle, price feed, update mechanism, ledger]
+---
 # Ergo General Chat — 2022-W37 Summary
 **Period:** 2022-09-12 to 2022-09-18
 

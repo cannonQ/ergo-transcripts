@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W24"
+date_start: "2020-06-08"
+date_end: "2020-06-14"
+type: telegram_weekly
+channel: general
+week: "2020-W24"
+source: telegram
+message_count: 572
+categories: [ecosystem, wallet, technical, mining, marketing, defi, governance]
+key_terms: [Emurgo, partnership, Yoroi wallet, DeFi solutions, research collaboration, Yoroi, Ledger support, wallet integration, signing protocol, Metamask-like functionality, EIP-11, distributed signatures, threshold signatures, zero-knowledge, API, hashrate, mining pools, collateral-based pools, hardware efficiency, Radeon VII]
+---
 # Ergo General Chat — 2020-W24 Summary
 
 ## Key Topics Discussed

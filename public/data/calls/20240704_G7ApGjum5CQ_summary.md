@@ -1,3 +1,16 @@
+---
+title: "Hash it Out | CW, QX, Quokka & Dan | Ergoversary Summit 2024"
+date: "2024-07-04"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=G7ApGjum5CQ
+video_id: G7ApGjum5CQ
+duration_minutes: 62
+speakers: [qx(), CW, Dan Friedman, Quokka]
+topics: [ergohack, sigmanauts, cardano-migration, reddit-posts, community-growth, iog, kushti, ergo-foundation, business-development, commercial-adoption]
+companion_files: [20240704_G7ApGjum5CQ_transcript.txt, 20240704_G7ApGjum5CQ_qa.json, 20240704_G7ApGjum5CQ_decisions.json, 20240704_G7ApGjum5CQ_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Date:** July 4, 2024  
 **Title:** Hash it Out | CW, QX, Quokka & Dan | Ergoversary Summit 2024

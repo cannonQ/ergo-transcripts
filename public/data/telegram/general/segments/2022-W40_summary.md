@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2022-W40"
+date_start: "2022-10-03"
+date_end: "2022-10-09"
+type: telegram_weekly
+channel: general
+week: "2022-W40"
+source: telegram
+message_count: 2580
+categories: [governance, mining, marketing, bridges, technical, ecosystem, community, defi]
+key_terms: [EIP-37, hard fork, difficulty adjustment, block time, epoch, hashrate, difficulty, profitability, ETH merge, coin hopping, @eth_classic, @ergoplatformorg, Charles Hoskinson, ETC community, Twitter followers, Rosen bridge, ADA bridge, wrapped tokens, github, soft launch]
+---
 # Ergo General Chat — 2022-W40 Summary
 **Period:** 2022-10-03 to 2022-10-09
 

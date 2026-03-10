@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W44"
+date_start: "2019-10-28"
+date_end: "2019-11-03"
+type: telegram_weekly
+channel: general
+week: "2019-W44"
+source: telegram
+message_count: 122
+categories: [wallet, mining, governance, ecosystem, community, technical]
+key_terms: [EFYT, ERG, Waves DEX, token swap, "1:1 exchange", node, mining, Raspberry Pi, memory requirements, blockchain sync, mining pool, pool contract, decentralized mining, 6-7 weeks ETA, development fund, 740K EFYT, 2.8M ERG, voting, threshold signature, treasury]
+---
 # Ergo General Chat — 2019-W44 Summary
 
 ## Key Topics Discussed

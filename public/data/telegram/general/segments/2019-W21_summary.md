@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W21"
+date_start: "2019-05-20"
+date_end: "2019-05-26"
+type: telegram_weekly
+channel: general
+week: "2019-W21"
+source: telegram
+message_count: 54
+categories: [ecosystem, technical, marketing, governance, wallet, mining]
+key_terms: [fake token, asset scam, Waves wallet, EFYT, token verification, blockchain launch, separate chain, June 20 mainnet, token vs blockchain, Waves DEX, Charles Hoskinson, IOHK, Cardano, proof of no premine, whitepaper, mainnet launch, June 20, mining, swap process, EFYT to ERG]
+---
 # Ergo General Chat — 2019-W21 Summary
 
 ## Key Topics Discussed

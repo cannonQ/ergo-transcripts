@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W48"
+date_start: "2021-11-29"
+date_end: "2021-12-05"
+type: telegram_weekly
+channel: general
+week: "2021-W48"
+source: telegram
+message_count: 0
+categories: [wallet, bridges, governance, defi, marketing, mining, nft, ecosystem, community, technical]
+key_terms: [Yoroi, Android wallet, iOS wallet, wallet crashes, nightly, Waves Enterprise, oracle pools, partnership, data oracles, enterprise blockchain, emission reduction, soft fork, block reward, mining incentives, storage rent, ErgoDex, Cardano bridge, mid-January launch, JavaScript SDK, transaction assembly]
+---
 # Ergo General Chat — 2021-W48 Summary
 
 ## Key Topics Discussed

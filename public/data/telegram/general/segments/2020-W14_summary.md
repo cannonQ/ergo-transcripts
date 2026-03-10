@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W14"
+date_start: "2020-03-30"
+date_end: "2020-04-05"
+type: telegram_weekly
+channel: general
+week: "2020-W14"
+source: telegram
+message_count: 95
+categories: [community, ecosystem, defi, mining, wallet, technical]
+key_terms: [airdrop, distribution, April 27, rewards, wallet, Citex, Tidex, ProBit, deposits, trading pairs, volume, DEX, atomic swaps, noncustodial contracts, regulations, mixing, smart contracts, mainnet, financial contracts, roadmap]
+---
 # Ergo General Chat — 2020-W14 Summary
 **Period:** 2020-03-30 to 2020-04-12  
 **Participants:** 10  

@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2023-W43"
+date_start: "2023-10-23"
+date_end: "2023-10-29"
+type: telegram_weekly
+channel: developer
+week: "2023-W43"
+source: telegram
+message_count: 169
+categories: [technical, wallet, mining, governance, defi]
+key_terms: [v5.0.15, protocol, release, client, seed, mnemonic, private key, keystore, encrypted, stratum, mining pool, port, testnet mining, ErgOne, voting, content incentives, rewards, ergpy, token directory, verification]
+---
 # Ergo Developer Chat Summary — 2023-W43
 **Period:** 2023-10-23 to 2023-11-05  
 **Activity Level:** Moderate — mostly infrastructure, node operations, and tooling discussions

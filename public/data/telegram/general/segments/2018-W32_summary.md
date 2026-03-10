@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2018-W32"
+date_start: "2018-08-06"
+date_end: "2018-08-12"
+type: telegram_weekly
+channel: general
+week: "2018-W32"
+source: telegram
+message_count: 56
+categories: [governance, technical, wallet, marketing, ecosystem]
+key_terms: [EFYT, ERGO, token swap, mainnet launch, airdrop, Q4, UTXO, transaction model, mixing protocols, transaction chaining, flexibility, Sigma language, smart contracts, Turing-complete, sigmastate-interpreter, unbounded loops, account model, address reuse, privacy, WAVES wallet]
+---
 # Ergo General Chat — 2018-W32 Summary
 
 ## Key Topics Discussed

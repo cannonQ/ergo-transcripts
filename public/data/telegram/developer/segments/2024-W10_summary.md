@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W10"
+date_start: "2024-03-04"
+date_end: "2024-03-10"
+type: telegram_weekly
+channel: developer
+week: "2024-W10"
+source: telegram
+message_count: 151
+categories: [technical, defi, bridges, mining, wallet, nft, ecosystem, governance]
+key_terms: [P2SH, ErgoTree, script version, tree version byte, ScalaCheck, generator functions, recursion, flatMap, conditionals, RocksDB, ARM32, ARM64, JNI, Raspberry Pi, SigmaUSD, contracts, test suite, protocol v2, kiosk, Sonatype]
+---
 # Ergo Developer Chat — 2024-W10 Summary
 
 ## Key Topics Discussed

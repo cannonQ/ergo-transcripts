@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2023-W47"
+date_start: "2023-11-20"
+date_end: "2023-11-26"
+type: telegram_weekly
+channel: developer
+week: "2023-W47"
+source: telegram
+message_count: 120
+categories: [technical, mining, wallet, ecosystem]
+key_terms: [eutxo, dataInput, singleton NFT, blacklist, p2p transactions, CPU usage, misbehavior penalty, peer connection, modifier parsing, node synchronization, Node API, token metadata, blockchain/token endpoint, bPaideia, remission token, solo mining pool, Satergo, testnet, repository, feature testing]
+---
 # Ergo Developer Chat Summary — 2023-W47
 **Period:** 2023-11-20 to 2023-12-03  
 **Participants:** 8 | **Messages:** 120

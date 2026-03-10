@@ -1,3 +1,16 @@
+---
+title: "RustChain | Scott Boudreaux | ErgoHack 10"
+date: "2025-06-27"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=l5Qd0NTcuAU
+video_id: l5Qd0NTcuAU
+duration_minutes: 12
+speakers: [AI]
+topics: [rustchain, proof-of-antiquity, cultural-preservation, power-mac-1400c, validator, sophia-core, sustainable-mining, hardware-age-validation, nft-mining-boosts, low-wattage]
+companion_files: [20250627_l5Qd0NTcuAU_transcript.txt, 20250627_l5Qd0NTcuAU_qa.json, 20250627_l5Qd0NTcuAU_decisions.json, 20250627_l5Qd0NTcuAU_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Date:** 2025-06-27  
 **Title:** RustChain | Scott Boudreaux | ErgoHack 10

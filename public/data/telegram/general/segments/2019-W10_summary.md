@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W10"
+date_start: "2019-03-04"
+date_end: "2019-03-10"
+type: telegram_weekly
+channel: general
+week: "2019-W10"
+source: telegram
+message_count: 81
+categories: [technical, mining, ecosystem, wallet]
+key_terms: [testnet 2.0, mainnet launch, March 14th, May timeline, security audit, GPU miners, ASIC resistant, mining pools, algo configuration, EFYT swap, ERGOcash, ERGOdata, coin emission, 19m supply, DApp, smart contracts, ErgoScript, development examples, node configuration, wallet seed]
+---
 # Ergo General Chat — 2019-W10 Summary
 
 ## Key Topics Discussed

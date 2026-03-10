@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - November 14th 2024"
+date: "2024-11-15"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=-uG26zl5Wjc
+video_id: -uG26zl5Wjc
+duration_minutes: 63
+speakers: [qx(), AI]
+topics: [ergo-names, smart-contracts, off-chain, domain-names, palmyra, zengate, rwa, real-world-assets, cross-chain, commodities]
+companion_files: [20241115_-uG26zl5Wjc_transcript.txt, 20241115_-uG26zl5Wjc_qa.json, 20241115_-uG26zl5Wjc_decisions.json, 20241115_-uG26zl5Wjc_topics.json]
+---
 # Ergo Community Call Summary - November 15, 2024
 
 ## Executive Summary

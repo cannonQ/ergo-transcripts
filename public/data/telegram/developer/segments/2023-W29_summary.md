@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2023-W29"
+date_start: "2023-07-17"
+date_end: "2023-07-23"
+type: telegram_weekly
+channel: developer
+week: "2023-W29"
+source: telegram
+message_count: 113
+categories: [technical, wallet, defi, marketing, ecosystem]
+key_terms: [P2P, network modifiers, transaction listening, sigmastate-interpreter, maven central, ergo.watch API, ergopad API, token supply, market cap, vesting, staking, storage rent, monotonic creation height, box settlement, spectrum off-chain bots, translation, Lang_id.properties, Indonesian, Spanish, localization]
+---
 # Ergo Developer Chat Summary — 2023-W29
 
 ## Key Topics Discussed

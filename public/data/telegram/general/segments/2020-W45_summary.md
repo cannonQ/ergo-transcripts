@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W45"
+date_start: "2020-11-02"
+date_end: "2020-11-08"
+type: telegram_weekly
+channel: general
+week: "2020-W45"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo General Chat — 2020-W45 Summary
 
 ## Key Topics Discussed

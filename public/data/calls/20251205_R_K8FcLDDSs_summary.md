@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - AMA - December 4th 17UTC"
+date: "2025-12-05"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=R_K8FcLDDSs
+video_id: R_K8FcLDDSs
+duration_minutes: 60
+speakers: [qx(), richi, kushti, Joe]
+topics: [ama-format, monthly-schedule, community-chat, guest-speakers, use-stablecoin, off-chain-bots, community-liquidity, fair-launch, clb-framework, algorithmic-stablecoin]
+companion_files: [20251205_R_K8FcLDDSs_transcript.txt, 20251205_R_K8FcLDDSs_qa.json, 20251205_R_K8FcLDDSs_decisions.json, 20251205_R_K8FcLDDSs_topics.json]
+---
 # Ergo PoW Blockchain - AMA - December 4th 17UTC
 
 ## Executive Summary

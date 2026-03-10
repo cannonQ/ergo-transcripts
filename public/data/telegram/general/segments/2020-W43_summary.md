@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W43"
+date_start: "2020-10-19"
+date_end: "2020-10-25"
+type: telegram_weekly
+channel: general
+week: "2020-W43"
+source: telegram
+message_count: 1112
+categories: [defi, nft, wallet, mining, ecosystem, technical, bridges, community, governance]
+key_terms: [stablecoin, collateralization, Yoroi integration, reserve protocol, algorithmic stablecoin, ergoauctions.org, NFT auction, 555 ERG, node operator access, ErgoWallet, desktop wallet, Windows bugs, Magnum migration, BIP44 derivation, mining difficulty, hash rate, emission reduction, July 2021, miner profitability, DEX]
+---
 # Ergo General Chat Summary — 2020-W43
 
 ## Key Topics Discussed

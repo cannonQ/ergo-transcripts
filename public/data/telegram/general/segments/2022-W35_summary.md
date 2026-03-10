@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2022-W35"
+date_start: "2022-08-29"
+date_end: "2022-09-04"
+type: telegram_weekly
+channel: general
+week: "2022-W35"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo General Chat — 2022-W35 Summary
 **Period:** 2022-08-29 to 2022-09-04  
 **Messages:** 1375 | **Participants:** 143

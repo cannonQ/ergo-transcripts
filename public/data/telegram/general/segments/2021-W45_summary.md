@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W45"
+date_start: "2021-11-08"
+date_end: "2021-11-14"
+type: telegram_weekly
+channel: general
+week: "2021-W45"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo General Chat — Week 2021-W45 Summary
 
 ## Key Topics Discussed

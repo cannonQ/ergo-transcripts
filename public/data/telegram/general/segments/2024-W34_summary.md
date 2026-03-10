@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2024-W34"
+date_start: "2024-08-19"
+date_end: "2024-08-25"
+type: telegram_weekly
+channel: general
+week: "2024-W34"
+source: telegram
+message_count: 387
+categories: [marketing, technical, defi, wallet, ecosystem, bridges, nft, community]
+key_terms: [user acquisition, marketing coordination, community engagement, messaging, sigmanauts, Ergo 6.0, devnet, NISP contracts, cryptographic protocols, crosschaining, rollups, Lithos, MEV integration, state signers, oracle pools, scaling, ChainCash, CCIP-0, CCIP-1, NFT control]
+---
 # Ergo General Chat Summary — 2024-W34
 **Period:** 2024-08-19 to 2024-08-25  
 **Messages Processed:** 387  

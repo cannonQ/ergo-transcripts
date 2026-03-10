@@ -1,3 +1,16 @@
+---
+title: "Ergo in 2025 | Predictions and Possibilities"
+date: "2025-01-13"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=9QneAIjfKhM
+video_id: 9QneAIjfKhM
+duration_minutes: 47
+speakers: [kushti, Armeanio]
+topics: [sub-blocks, prism, parallel-proof-of-work, network-bandwidth, peer-to-peer, load-distribution, centralization, validators, proof-of-stake, sharding]
+companion_files: [20250113_9QneAIjfKhM_transcript.txt, 20250113_9QneAIjfKhM_qa.json, 20250113_9QneAIjfKhM_decisions.json, 20250113_9QneAIjfKhM_topics.json]
+---
 # Ergo Community Call Summary
 **Date:** January 13, 2025  
 **Title:** Ergo in 2025 | Predictions and Possibilities

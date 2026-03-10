@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W32"
+date_start: "2020-08-03"
+date_end: "2020-08-09"
+type: telegram_weekly
+channel: general
+week: "2020-W32"
+source: telegram
+message_count: 489
+categories: [defi, technical, mining, ecosystem, governance, wallet, bridges, community, marketing]
+key_terms: [ErgoMixer, token mixing, privacy, airdrop, Docker image, Oracle Pools, UTXO, ChainLink, datafeeds, governance, v3.3.0, node wallet, external applications, code changes, Autolykos, Equihash, ProgPow, ASIC resistance, FPGA, Hotbit]
+---
 # Ergo General Chat — 2020-W32 Summary
 
 ## Key Topics Discussed

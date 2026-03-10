@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2022-W27"
+date_start: "2022-07-04"
+date_end: "2022-07-10"
+type: telegram_weekly
+channel: general
+week: "2022-W27"
+source: telegram
+message_count: 524
+categories: [defi, technical, wallet, mining, ecosystem, governance, nft, community]
+key_terms: [SigUSD, SigRSV, AgeUSD, reserve ratio, minting, redemption, PayPal, fiat, on-ramp, sigUSD, KYC, liquidity, Satergo, full node, node setup, REST API, https, wallet, Nautilus, EXLE]
+---
 # Ergo General Chat Summary — 2022-W27
 
 ## Key Topics Discussed

@@ -1,3 +1,16 @@
+---
+title: "P2Podcast | Episode 1"
+date: "2024-06-28"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=vWEQtHl3pXo
+video_id: vWEQtHl3pXo
+duration_minutes: 58
+speakers: [Marc the Shark, tmr.erg]
+topics: [p2podcast, community-contribution, organic-content, ergoversary, grassroots, ergohack, non-technical-participation, blockchain-theory, software-development, community-involvement]
+companion_files: [20240628_vWEQtHl3pXo_transcript.txt, 20240628_vWEQtHl3pXo_qa.json, 20240628_vWEQtHl3pXo_decisions.json, 20240628_vWEQtHl3pXo_topics.json]
+---
 # P2Podcast Episode 1 Community Call Summary
 
 **Call Date:** June 28, 2024  

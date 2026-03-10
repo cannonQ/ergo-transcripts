@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W40"
+date_start: "2019-09-30"
+date_end: "2019-10-06"
+type: telegram_weekly
+channel: general
+week: "2019-W40"
+source: telegram
+message_count: 129
+categories: [marketing, ecosystem, technical, mining, wallet, governance]
+key_terms: [CMC, ticker, ERG, ERGO, EFYT, circulating supply, listing, Hotbit, launch, ERG/BTC, deposits, withdrawals, liquidity, fake trades, oracle, aggregation, trusted parties, collusion, price discovery, mining]
+---
 # Ergo General Chat — 2019-W40 Summary
 
 ## Key Topics Discussed

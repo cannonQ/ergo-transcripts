@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2026-W03"
+date_start: "2026-01-12"
+date_end: "2026-01-18"
+type: telegram_weekly
+channel: developer
+week: "2026-W03"
+source: telegram
+message_count: 80
+categories: [technical, governance, defi, nft, ecosystem, community]
+key_terms: [rust-node, sync speed, rocksdb tuning, block syncing, performance, AutolykosV2, PoW validation, mining, storage rent, integer overflow, hardfork, scala implementation, u64, Basis, ChainCash, AVL+ proof, signature, redemption, note signature, release]
+---
 # Ergo Developer Chat Summary — 2026-W03
 **Period:** 2026-01-12 to 2026-01-18  
 **Participants:** 11  

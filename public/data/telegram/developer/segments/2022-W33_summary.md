@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2022-W33"
+date_start: "2022-08-15"
+date_end: "2022-08-21"
+type: telegram_weekly
+channel: developer
+week: "2022-W33"
+source: telegram
+message_count: 59
+categories: [technical, wallet, defi, ecosystem, nft]
+key_terms: [transaction index, blockchain search, node performance, txindex, Ergonodes API, country codes, geolocation, latitude longitude, Satergo, node updating, address management, Portuguese translation, protocol client, release, version update, IPv6, InetSocketAddress, Java version, network configuration, AMM]
+---
 # Ergo Developer Chat Summary — 2022-W33
 
 ## Key Topics Discussed

@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2023-W09"
+date_start: "2023-02-27"
+date_end: "2023-03-05"
+type: telegram_weekly
+channel: developer
+week: "2023-W09"
+source: telegram
+message_count: 75
+categories: [technical, defi, ecosystem, wallet]
+key_terms: [pagination, API limits, box retrieval, UTXO, performance, appkit, package separation, modular projects, retrofit, on-chain polls, voting tokens, token burn, expiration, manipulation prevention, Paizo, React, frontend, project completion, scroll option, tabs]
+---
 # Ergo Developer Chat Summary — 2023-W09
 
 ## Key Topics Discussed

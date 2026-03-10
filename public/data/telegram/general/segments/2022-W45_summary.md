@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2022-W45"
+date_start: "2022-11-07"
+date_end: "2022-11-13"
+type: telegram_weekly
+channel: general
+week: "2022-W45"
+source: telegram
+message_count: 1274
+categories: [technical, bridges, defi, ecosystem, mining, wallet, marketing, community]
+key_terms: [babel fees, token fees, transaction costs, tokenjay, EIP-0031, rosen bridge, cardano, cross-chain, soft launch, test tokens, grid trading, concentrated liquidity, decentralized, spectrum, FTX, SBF, exchange risk, custody, self-custody, bitmain]
+---
 # Ergo General Chat — 2022-W45 Summary
 **Period:** 2022-11-07 to 2022-11-13  
 **Total Messages:** 1,274 across 104 participants

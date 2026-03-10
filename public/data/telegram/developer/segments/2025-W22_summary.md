@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W22"
+date_start: "2025-05-26"
+date_end: "2025-06-01"
+type: telegram_weekly
+channel: developer
+week: "2025-W22"
+source: telegram
+message_count: 83
+categories: [technical, bridges, defi, wallet, ecosystem]
+key_terms: [sigma-rust, pull requests, code review, "PR#827", "PR#829", "PR#830", ergoc, ErgoScript compiler, watch mode, Base16, Base58, compilation optimization, Satergo, npm node_modules, React, Svelte, frontend build, satergo.com, Fleet SDK, OutputBuilder]
+---
 # Ergo Developer Chat Summary — 2025-W22
 
 ## Key Topics Discussed

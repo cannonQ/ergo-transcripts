@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - January 16th 2025"
+date: "2025-01-16"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=Md5rk7kWlm0
+video_id: Md5rk7kWlm0
+duration_minutes: 10
+speakers: [qx(), kushti, AI]
+topics: [ergo-6.0, audit, dusek, sub-blocks, prototype, devnet, transaction-spreading, testnet-activation, 6.0-release-candidate, soft-fork]
+companion_files: [20250116_Md5rk7kWlm0_transcript.txt, 20250116_Md5rk7kWlm0_qa.json, 20250116_Md5rk7kWlm0_decisions.json, 20250116_Md5rk7kWlm0_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Date:** January 16, 2025  
 **Call Title:** Ergo PoW Blockchain - Weekly Update & AMA

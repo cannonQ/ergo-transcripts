@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - June 26th"
+date: "2025-06-27"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=yhkPcpvZhTk
+video_id: yhkPcpvZhTk
+duration_minutes: 29
+speakers: [kushti, qx()]
+topics: [dexy, crystal-pools, dex-aggregator, sigmausd-bank, arbitrage, liquidity-pools, oracle-pool, dexyusd, gluon-usd, rosen-bridge]
+companion_files: [20250627_yhkPcpvZhTk_transcript.txt, 20250627_yhkPcpvZhTk_qa.json, 20250627_yhkPcpvZhTk_decisions.json, 20250627_yhkPcpvZhTk_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Date:** June 27, 2025  
 **Title:** Ergo PoW Blockchain - Weekly Update & AMA - June 26th

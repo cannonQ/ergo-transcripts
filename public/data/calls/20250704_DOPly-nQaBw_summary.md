@@ -1,3 +1,16 @@
+---
+title: "Rosen Bridge Update | Joseph Armeano & tmr.erg | Ergoversary 2025"
+date: "2025-07-04"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=DOPly-nQaBw
+video_id: DOPly-nQaBw
+duration_minutes: 41
+speakers: [Armeanio, tmr.erg]
+topics: [interchange-protocol, interoperability, fair-launch, permissionless, market-access, gatekeepers, lock-unlock, mint-burn, vaults, watchers]
+companion_files: [20250704_DOPly-nQaBw_transcript.txt, 20250704_DOPly-nQaBw_qa.json, 20250704_DOPly-nQaBw_decisions.json, 20250704_DOPly-nQaBw_topics.json]
+---
 # Ergo Community Call: Rosen Bridge Update
 **Date:** July 4, 2025  
 **Participants:** Joseph Armeanio (Rosen Bridge Creator), tmr.erg (Host)  

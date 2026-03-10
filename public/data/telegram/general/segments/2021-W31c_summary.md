@@ -1,3 +1,16 @@
+---
+title: "Ergo General Chat — 2021-W31 (Part C)"
+date_start: "2021-08-02"
+date_end: "2021-08-08"
+type: telegram_weekly
+channel: general
+week: "2021-W31"
+part: "c"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 ## Key Topics Discussed
 
 - **KuCoin Listing & Trading Campaign**: Ergo was recently listed on KuCoin with a $30,000 ERG prize pool campaign (Activity 1: deposit competition for $10,000; Activity 2: trading competition for $20,000). The listing also enabled ERG/USDT tracking on TradingView. Significant volume and price movement (~36% in one day, reaching ~$9+) followed.

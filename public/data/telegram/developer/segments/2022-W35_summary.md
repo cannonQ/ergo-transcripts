@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2022-W35"
+date_start: "2022-08-29"
+date_end: "2022-09-04"
+type: telegram_weekly
+channel: developer
+week: "2022-W35"
+source: telegram
+message_count: 74
+categories: [technical, wallet, mining]
+key_terms: [testnet, node setup, version 5.0.0, peer connection, block synchronization, release, version 4.0.42, protocol client, Ledger, Nano S Plus, hardware wallet, sideload, Ergonodes, mobile, nodes per day chart, landscape orientation, bloknet, block time, mining reward delay, 5 second blocks]
+---
 # Ergo Developer Chat Summary — 2022-W35
 
 ## Key Topics Discussed

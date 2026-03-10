@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W50"
+date_start: "2024-12-09"
+date_end: "2024-12-15"
+type: telegram_weekly
+channel: developer
+week: "2024-W50"
+source: telegram
+message_count: 0
+categories: [technical, wallet, nft, ecosystem, defi, governance, mining, community]
+key_terms: [AES-128 vs AES-256, PBKDF2 iterations, IV derivation, encryption key management, wallet format, key derivation, seed phrase encryption, format versioning, sigma-rust, "PR #781", "PR #782", deterministic nonces, tree versioning, v3 trees, 6.0 soft-fork, semantics changes, lazy evaluation, NFT minting, contract validation, certificate box]
+---
 # Ergo Developer Chat Summary — 2024-W50
 
 ## Key Topics Discussed

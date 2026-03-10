@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W05"
+date_start: "2025-01-27"
+date_end: "2025-02-02"
+type: telegram_weekly
+channel: developer
+week: "2025-W05"
+source: telegram
+message_count: 89
+categories: [technical, defi, wallet, mining, nft, ecosystem, community]
+key_terms: [6.0 protocol, testnet activation, voting, soft-fork, input blocks, ordering, mempool chaining, subblocks, DexyGold, LP swap, liquidity tokens, ergfi, stablecoin, Fleet SDK, ZigZag encoding, SInt type, sigmastate-js, Nautilus, TransactionSign component, Drawer]
+---
 # Ergo Developer Chat Summary — 2025-W05
 
 ## Key Topics Discussed

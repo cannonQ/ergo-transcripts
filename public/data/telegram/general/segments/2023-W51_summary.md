@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2023-W51"
+date_start: "2023-12-18"
+date_end: "2023-12-24"
+type: telegram_weekly
+channel: general
+week: "2023-W51"
+source: telegram
+message_count: 0
+categories: [bridges, governance, nft, defi, marketing, ecosystem, technical, wallet, community]
+key_terms: [Rosen Bridge, cross-chain, Cardano, test transactions, rsERG, rsADA, Aneta, rug pull, community funds, abandoned development, Frosty, refund proposal, Ergosanta, key minting, 0.2 ERG, grand prize, 26th December reveal, COMET rewards, Spectrum Finance, Splash]
+---
 # Ergo General Chat — 2023-W51 Summary
 **Period:** 2023-12-18 to 2023-12-24  
 **Message Count:** 740  

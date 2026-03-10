@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2023-W20"
+date_start: "2023-05-15"
+date_end: "2023-05-21"
+type: telegram_weekly
+channel: general
+week: "2023-W20"
+source: telegram
+message_count: 2092
+categories: [governance, bridges, technical, wallet, defi, ecosystem, mining, community, marketing]
+key_terms: [ETC, twitter account, Charles Hoskinson, POW alliance, custody, community vote, rosen bridge, watchers, guards, cardano, koios, rollup, watcher commitment, babel fees, token fees, nautilus, sigUSD, ERG requirement, UX, storage rent]
+---
 # Ergo General Chat — 2023-W20 Summary
 **Period:** 2023-05-15 to 2023-05-21
 

@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - March 27th"
+date: "2025-03-28"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=FRSG7XYHpRc
+video_id: FRSG7XYHpRc
+duration_minutes: 47
+speakers: [qx(), Marc the Shark, HQ3rr, Grayman, kushti]
+topics: [community-format, zoom-participation, sigmanauts, mining-disrupt, mewfinance, full-pay-per-share, fpps, pplns, ocean-pool, bitcoin-mining]
+companion_files: [20250328_FRSG7XYHpRc_transcript.txt, 20250328_FRSG7XYHpRc_qa.json, 20250328_FRSG7XYHpRc_decisions.json, 20250328_FRSG7XYHpRc_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 
 **Call Date:** March 28, 2025  

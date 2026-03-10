@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W29"
+date_start: "2019-07-15"
+date_end: "2019-07-21"
+type: telegram_weekly
+channel: general
+week: "2019-W29"
+source: telegram
+message_count: 203
+categories: [bridges, technical, mining, ecosystem, defi]
+key_terms: [EFYT, ERG, gateway, Waves, swap, redemption, token conversion, node, configuration, mainnet, API key, wallet unlock, Java, REST API, mining, hashrate, 1080ti, GPU, RX47, pool]
+---
 # Ergo General Chat — 2019-W29 Summary
 
 ## Key Topics Discussed

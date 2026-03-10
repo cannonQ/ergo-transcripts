@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W51"
+date_start: "2024-12-16"
+date_end: "2024-12-22"
+type: telegram_weekly
+channel: developer
+week: "2024-W51"
+source: telegram
+message_count: 248
+categories: [technical, defi, ecosystem, wallet, mining]
+key_terms: [exploit, staking, negative amounts, contract fix, bug bounty, sigmastate-interpreter, tree versioning, serialization, protocol 6.0, RC release, oracle pool, consensus, operator incentives, DORT, oracle 2.0, Cornell Brick token, LETS, tipper bot, payment system, blockchain adoption]
+---
 # Ergo Developer Chat Summary — 2024-W51
 **Period:** 2024-12-16 to 2024-12-22  
 **Participants:** 19 | **Messages:** 248

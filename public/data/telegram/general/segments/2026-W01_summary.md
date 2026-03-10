@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2026-W01"
+date_start: "2025-12-29"
+date_end: "2026-01-04"
+type: telegram_weekly
+channel: general
+week: "2026-W01"
+source: telegram
+message_count: 871
+categories: [technical, mining, ecosystem, governance, defi, nft, wallet, community]
+key_terms: [subblocks, scalability, whitepaper, devnet, matrix protocol, Autolykos, POW, GPU mining, non-outsourceability, Catena, RandomX, p2p money, stablecoins, circular economy, regulatory challenges, grassroots finance, community rules, moderation, code of conduct, social framework]
+---
 # Ergo General Chat — 2026-W01 Summary
 
 ## Key Topics Discussed

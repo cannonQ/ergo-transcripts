@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W42"
+date_start: "2025-10-13"
+date_end: "2025-10-19"
+type: telegram_weekly
+channel: general
+week: "2025-W42"
+source: telegram
+message_count: 0
+categories: [wallet, mining, ecosystem, defi, marketing, community, bridges, governance, technical]
+key_terms: [Trezor, Ledger, Nautilus, hardware wallet, Keystone, Lithos Protocol, mining pools, testnet, transparent payouts, miner-controlled blocks, GitCircles, GitHub contributions, developer rewards, smart contracts, open source, ChainCash, chain cash notes, monetary theory, basis, off-chain transactions]
+---
 # Ergo General Chat — 2025-W42 Summary
 
 ## Key Topics Discussed

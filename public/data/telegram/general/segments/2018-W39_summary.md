@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2018-W39"
+date_start: "2018-09-24"
+date_end: "2018-09-30"
+type: telegram_weekly
+channel: general
+week: "2018-W39"
+source: telegram
+message_count: 55
+categories: [governance, technical, mining, marketing]
+key_terms: [supply policy, emission curve, token distribution, max supply, current supply, testnet, node setup, config file, peer connection, docker, swagger API, mining, testnet version 1.6.1, POW, mainnet prototype, release timeline, ICO, airdrop, premine, POW minting]
+---
 # Ergo General Chat Summary — 2018-W39 (2018-09-24 to 2018-09-29)
 
 ## Key Topics Discussed

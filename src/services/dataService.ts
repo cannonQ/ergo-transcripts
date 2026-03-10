@@ -14,6 +14,15 @@ import type {
   TelegramTopicsFile,
 } from '../types';
 
+// Strip YAML frontmatter (---...---) from markdown content
+function stripFrontmatter(text: string): string {
+  if (text.startsWith('---')) {
+    const end = text.indexOf('---', 3);
+    if (end !== -1) return text.slice(end + 3).trimStart();
+  }
+  return text;
+}
+
 // Simple in-memory cache
 const cache = new Map<string, any>();
 
@@ -69,7 +78,8 @@ export async function fetchCallSummary(filePrefix: string): Promise<string> {
   return fetchWithCache(key, async () => {
     const response = await fetch(`/data/calls/${filePrefix}_summary.md`);
     if (!response.ok) throw new Error(`Failed to fetch call summary: ${filePrefix}`);
-    return response.text();
+    const text = await response.text();
+    return stripFrontmatter(text);
   });
 }
 
@@ -109,7 +119,8 @@ export async function fetchCallMarketing(filePrefix: string): Promise<string> {
   return fetchWithCache(key, async () => {
     const response = await fetch(`/data/calls/${filePrefix}_marketing.md`);
     if (!response.ok) throw new Error(`Failed to fetch marketing: ${filePrefix}`);
-    return response.text();
+    const text = await response.text();
+    return stripFrontmatter(text);
   });
 }
 
@@ -315,7 +326,8 @@ export async function fetchTelegramSummary(summaryFile: string): Promise<string>
   return fetchWithCache(key, async () => {
     const response = await fetch(`/data/telegram/${summaryFile}`);
     if (!response.ok) throw new Error(`Failed to fetch telegram summary: ${summaryFile}`);
-    return response.text();
+    const text = await response.text();
+    return stripFrontmatter(text);
   });
 }
 

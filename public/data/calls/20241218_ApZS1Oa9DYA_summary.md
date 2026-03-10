@@ -1,3 +1,16 @@
+---
+title: "P2Podcast | Episode 6"
+date: "2024-12-18"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=ApZS1Oa9DYA
+video_id: ApZS1Oa9DYA
+duration_minutes: 58
+speakers: [tmr.erg, Marc the Shark, PepERG]
+topics: [p2podcast, peperg, guest-interview, meme-coins, quantum-computing, hash-function, difficulty-adjustment, blockchain-security, sha256, fair-launch]
+companion_files: [20241218_ApZS1Oa9DYA_transcript.txt, 20241218_ApZS1Oa9DYA_qa.json, 20241218_ApZS1Oa9DYA_decisions.json, 20241218_ApZS1Oa9DYA_topics.json]
+---
 # P2Podcast Episode 6 Community Call Summary
 **Date:** December 18, 2024
 

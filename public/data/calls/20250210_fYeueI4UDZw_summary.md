@@ -1,3 +1,16 @@
+---
+title: "Ergo Dev Update Feb 9th 2025 |  SigmaUSD, Ledger, Minotaur, Nautilus, Rosen, ergfi, and more!"
+date: "2025-02-10"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=fYeueI4UDZw
+video_id: fYeueI4UDZw
+duration_minutes: 24
+speakers: [qx()]
+topics: [sigmausd, sigmarsv, arbitrage, proxy-contracts, reserve-ratio, tokenj, dex, liquidity-pools, nautilus, ledger]
+companion_files: [20250210_fYeueI4UDZw_transcript.txt, 20250210_fYeueI4UDZw_qa.json, 20250210_fYeueI4UDZw_decisions.json, 20250210_fYeueI4UDZw_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Date:** February 10, 2025  
 **Title:** Ergo Dev Update Feb 9th 2025 | SigmaUSD, Ledger, Minotaur, Nautilus, Rosen, ergfi, and more!

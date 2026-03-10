@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W43"
+date_start: "2025-10-20"
+date_end: "2025-10-26"
+type: telegram_weekly
+channel: developer
+week: "2025-W43"
+source: telegram
+message_count: 72
+categories: [technical, mining, defi, wallet, ecosystem]
+key_terms: [ErgoScript, contract patterns, sigmastate-interpreter, perpetual token, stealth address, daily withdrawal limit, Silver Oracles, modular oracle, datasources, API integration, Keystone, input blocks, mempool processing, protocol 6.0, soft-fork, tree version, escript.online, p2sAddress, address encoding, Lithos]
+---
 # Ergo Developer Chat Summary — 2025-W43
 
 ## Key Topics Discussed

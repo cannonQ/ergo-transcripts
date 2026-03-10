@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2018-W07"
+date_start: "2018-02-12"
+date_end: "2018-02-18"
+type: telegram_weekly
+channel: general
+week: "2018-W07"
+source: telegram
+message_count: 107
+categories: [governance, technical, ecosystem, wallet, marketing]
+key_terms: [Russian Ltd company, non-profit foundation, GB registration, legal compliance, anonymous transactions, privacy features, anon features, token price, market price, ten dollar, ERGO valuation, ICO, airdrop, Waves DEX, MainNet launch, mining, Waves wallet, EFYT token, wavesplatform.com, token storage]
+---
 # Ergo General Chat — 2018-W07 Summary
 
 ## Key Topics Discussed

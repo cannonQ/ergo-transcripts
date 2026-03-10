@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2022-W16"
+date_start: "2022-04-18"
+date_end: "2022-04-24"
+type: telegram_weekly
+channel: developer
+week: "2022-W16"
+source: telegram
+message_count: 53
+categories: [wallet, technical, ecosystem, governance]
+key_terms: [EIP27, wallet settings, mining rewards, appkit, box selector, HOCON, config format, .conf, lightbend, script, guardian condition, box spending, proof size, cost estimation, transaction ordering, UTXO, block inclusion, same block, ergodocs, P2P network]
+---
 # Ergo Developer Chat Summary — 2022-W16
 
 ## Key Topics Discussed

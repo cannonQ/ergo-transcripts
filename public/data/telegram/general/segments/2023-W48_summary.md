@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2023-W48"
+date_start: "2023-11-27"
+date_end: "2023-12-03"
+type: telegram_weekly
+channel: general
+week: "2023-W48"
+source: telegram
+message_count: 0
+categories: [technical, bridges, governance, wallet, defi, ecosystem, mining, community, marketing]
+key_terms: [fee box, min fee, dust prevention, storage rent, fee per byte, Rosen Bridge, Cardano liquidity, cross-chain, launch window, 51% attack, mining security, proof of work, block confirmation, hashrate, US exchanges, derivatives, listing negotiations, regulatory compliance, Ergo wallet app, APK debug build]
+---
 # Ergo General Chat — 2023-W48 Summary
 
 ## Key Topics Discussed

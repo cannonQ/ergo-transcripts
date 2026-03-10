@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W52"
+date_start: "2025-12-22"
+date_end: "2025-12-28"
+type: telegram_weekly
+channel: general
+week: "2025-W52"
+source: telegram
+message_count: 347
+categories: [technical, defi, bridges, mining, community, governance, marketing, ecosystem]
+key_terms: [quantum computing, ECC security, quantum-resistant, cryptography, USE, stablecoin, reserve ratio, peg stability, mint, arb, RosenBridge, multi-chain, Firo, HNS, CKB, KDA, bridge access, block reward, emission reduction, miners]
+---
 # Ergo General Chat — 2025-W52 Summary
 
 ## Key Topics Discussed

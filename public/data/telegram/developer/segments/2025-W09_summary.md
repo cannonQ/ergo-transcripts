@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W09"
+date_start: "2025-02-24"
+date_end: "2025-03-02"
+type: telegram_weekly
+channel: developer
+week: "2025-W09"
+source: telegram
+message_count: 59
+categories: [technical, wallet, defi, bridges, mining]
+key_terms: [limit order, template hash, contract compilation, DexLimitOrder, ErgoTree, Nautilus, dApp connector, Tailwind v4, reka-ui, Chrome extension, Abyss channel, SigmaState, compiler design, "issue #1039", executeFromSelfReg, ErgoScript, Paideia, stake box, creationheight, proposal]
+---
 # Ergo Developer Chat Summary — 2025-W09
 **Period:** 2025-02-24 to 2025-02-28  
 **Participants:** 6 active developers + DiscordBridge relay

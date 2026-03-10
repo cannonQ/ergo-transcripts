@@ -1,3 +1,16 @@
+---
+title: "Weekly Update & AMA - July 11th 2024"
+date: "2024-07-12"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=0vNb_iWFTRc
+video_id: 0vNb_iWFTRc
+duration_minutes: 57
+speakers: [qx(), kushti]
+topics: [dubai, utxo-defi, coffee-with-crypto, ergoversary, nervos, alephium, utxo-summit, community-spaces, gpu-mining, kols]
+companion_files: [20240712_0vNb_iWFTRc_transcript.txt, 20240712_0vNb_iWFTRc_qa.json, 20240712_0vNb_iWFTRc_decisions.json, 20240712_0vNb_iWFTRc_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Date:** July 12, 2024  
 **Call Title:** Weekly Update & AMA - July 11th 2024

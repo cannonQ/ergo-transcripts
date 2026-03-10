@@ -1,3 +1,16 @@
+---
+title: "Ergoversary | Ergo Turns 5 | July 1st"
+date: "2024-06-20"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=gXOWqIvWg5M
+video_id: gXOWqIvWg5M
+duration_minutes: 12
+speakers: []
+topics: [layer-2-solutions, ergoscript, nipopows, cross-chain-interoperability, developer-experience, real-world-assets, tokenization, commodity-financing, supply-chain-management, oracle-pools]
+companion_files: [20240620_gXOWqIvWg5M_transcript.txt, 20240620_gXOWqIvWg5M_qa.json, 20240620_gXOWqIvWg5M_decisions.json, 20240620_gXOWqIvWg5M_topics.json]
+---
 # Ergo Community Call Summary: Ergoversary - 5 Years of Ergo
 
 **Date:** June 20, 2024  

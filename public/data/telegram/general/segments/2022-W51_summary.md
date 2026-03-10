@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2022-W51"
+date_start: "2022-12-19"
+date_end: "2022-12-25"
+type: telegram_weekly
+channel: general
+week: "2022-W51"
+source: telegram
+message_count: 0
+categories: [mining, bridges, technical, defi, governance, wallet, ecosystem, nft, community]
+key_terms: [FPGA, ASIC, EIP-37, pool resistance, difficulty adjustment, tx fees, 0.001 erg, miners profitability, fee increase, pool operators, Rosen Bridge, Cardano, Bitcoin bridge, wrapped tokens, smart contracts, Useful PoW, UPOW, decentralized science, protein folding, Spectrum Finance]
+---
 # Ergo General Chat — 2022-W51 Summary
 **Period:** 2022-12-19 to 2022-12-25  
 **Messages:** 1060 | **Participants:** 81

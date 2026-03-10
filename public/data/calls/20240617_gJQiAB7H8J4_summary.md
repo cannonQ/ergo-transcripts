@@ -1,3 +1,16 @@
+---
+title: "OptionPools | KrasaviceBlasen | ErgoHack VIII"
+date: "2024-06-17"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=gJQiAB7H8J4
+video_id: gJQiAB7H8J4
+duration_minutes: 16
+speakers: [Quokka]
+topics: [option-pools, amm, pool-to-peer, liquidity-providers, defi-options, tvl, capital-inefficiency, black-scholes, utxo-model, layer-1]
+companion_files: [20240617_gJQiAB7H8J4_transcript.txt, 20240617_gJQiAB7H8J4_qa.json, 20240617_gJQiAB7H8J4_decisions.json, 20240617_gJQiAB7H8J4_topics.json]
+---
 # Ergo Community Call Summary: Option Pools for ErgoHack VIII
 
 **Date:** June 17, 2024  

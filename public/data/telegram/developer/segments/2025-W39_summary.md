@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W39"
+date_start: "2025-09-22"
+date_end: "2025-09-28"
+type: telegram_weekly
+channel: developer
+week: "2025-W39"
+source: telegram
+message_count: 76
+categories: [technical, governance, defi, wallet, ecosystem, bridges]
+key_terms: [dataInputCost, transaction inputs, mempool, miners, protocol parameters, 6.0 activation, soft-fork, protocol upgrade, testing, subblocks, input blocks, node wallet, devnet node, mining, node syncing, height decoupling, logs, coding agents, LLMs, test generation]
+---
 # Ergo Developer Chat Summary — Week 2025-W39
 
 ## Key Topics Discussed

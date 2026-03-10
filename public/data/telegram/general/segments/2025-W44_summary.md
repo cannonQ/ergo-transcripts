@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W44"
+date_start: "2025-10-27"
+date_end: "2025-11-02"
+type: telegram_weekly
+channel: general
+week: "2025-W44"
+source: telegram
+message_count: 0
+categories: [technical, ecosystem, defi, mining, bridges, community, wallet, marketing, nft]
+key_terms: [storage rent, spam filter, recycled ERG, secondary emissions, Banxa, KYC, fiat conversion, onramp, Voltpay, mewfinance, LP tokens, locking, redemable NFTs, peer-to-peer, node operators, Lithos, distributed block production, subblocks, Bitcoin TPS, layer 2]
+---
 # Ergo General Chat — 2025-W44 Summary
 
 ## Key Topics Discussed

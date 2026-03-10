@@ -1,3 +1,16 @@
+---
+title: "Dev Update July 8 2024 |  Nautilus, RosenBridge, Crystal Pool, Paideia, and more!"
+date: "2024-07-09"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=x7iqCeSMjD4
+video_id: x7iqCeSMjD4
+duration_minutes: 47
+speakers: [qx(), Pixel]
+topics: [cyberverse, mr.-pixel, dev-update, community-call, ergo-pixels, nft-collection, charles-hoskinson, ergo-auctions, pixel-art, cyber-citizens]
+companion_files: [20240709_x7iqCeSMjD4_transcript.txt, 20240709_x7iqCeSMjD4_qa.json, 20240709_x7iqCeSMjD4_decisions.json, 20240709_x7iqCeSMjD4_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Date:** July 9, 2024  
 **Call #:** 124th Dev Update

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2023-W17"
+date_start: "2023-04-24"
+date_end: "2023-04-30"
+type: telegram_weekly
+channel: general
+week: "2023-W17"
+source: telegram
+message_count: 933
+categories: [bridges, defi, wallet, ecosystem, governance, nft, mining, community, technical]
+key_terms: [Rosen Bridge, beta launch, cross-chain, ERG-ADA, HOSKY, COMET, SigmaFi, TVL growth, loan requests, SigUSD demand, collateralization, Spectrum Finance, yield farming, SPF token, Cardano AMM planned, SigmaFi alerts, loan notifications, bond matching, interest rates, Ledger Live]
+---
 # Ergo General Chat Summary — 2023-W17
 **Period:** 2023-04-24 to 2023-04-30  
 **Message Count:** 933 | **Participants:** 58+

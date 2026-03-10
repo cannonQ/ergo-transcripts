@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W24"
+date_start: "2019-06-10"
+date_end: "2019-06-16"
+type: telegram_weekly
+channel: general
+week: "2019-W24"
+source: telegram
+message_count: 454
+categories: [mining, technical, ecosystem, governance, community, marketing]
+key_terms: [RTX 2080, GTX 1080 Ti, GPU selection, hashrate, mining rig, AutoLykos, ASIC resistant, pool resistant, decentralization, solo mining, node setup, wallet initialization, swagger API, apiKeyHash, mnemonic configuration, miner compilation, CUDA, Visual Studio, OpenSSL, Windows build]
+---
 # Ergo General Chat — Week 2019-W24 Summary
 
 ## Key Topics Discussed

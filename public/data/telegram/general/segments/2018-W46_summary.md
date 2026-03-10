@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2018-W46"
+date_start: "2018-11-12"
+date_end: "2018-11-18"
+type: telegram_weekly
+channel: general
+week: "2018-W46"
+source: telegram
+message_count: 118
+categories: [mining, technical, community, governance, ecosystem]
+key_terms: [NiceHash, GPU mining, pool mining, Autolykos, ASIC resistance, PoW algorithm, solo mining, mining pools, centralization, PoW, testnet2, algorithm, equihash, Scala, programming language, developer adoption, Rust, Kotlin, Java, GitHub]
+---
 # Ergo General Chat Summary — 2018-W46
 
 ## Key Topics Discussed

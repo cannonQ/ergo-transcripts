@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W11"
+date_start: "2020-03-09"
+date_end: "2020-03-15"
+type: telegram_weekly
+channel: general
+week: "2020-W11"
+source: telegram
+message_count: 322
+categories: [ecosystem, community, mining, wallet, technical]
+key_terms: [multi-asset, Proof-of-Work, UTXO, sigma-protocols, storage rent, crypto-contracts, airdrop, magnum wallet, 0.7 ERG, referral, task completion, distribution April 27, price, 0.18$, CMC, ProBit, Tidex, HotBit, Waves.exchange, mining]
+---
 # Ergo General Chat — 2020-W11 Summary
 **Period:** 2020-03-09 to 2020-03-15  
 **Message Count:** 322  

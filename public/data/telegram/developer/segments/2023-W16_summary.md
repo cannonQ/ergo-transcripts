@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2023-W16"
+date_start: "2023-04-17"
+date_end: "2023-04-23"
+type: telegram_weekly
+channel: developer
+week: "2023-W16"
+source: telegram
+message_count: 81
+categories: [technical, ecosystem, defi, bridges, nft]
+key_terms: [v5.0.9, release, node, re-index, indexing, mempool, transaction fees, fee replacement, VLQ encoding, Coll, Collection, Array, type code, compiler alias, React, Tailwind, UI, dApp, transaction builder, SigmaFi]
+---
 # Ergo Developer Chat Summary — 2023-W16
 **Period:** 2023-04-17 to 2023-04-30  
 **Participants:** 12  

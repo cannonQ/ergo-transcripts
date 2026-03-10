@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W22"
+date_start: "2021-05-31"
+date_end: "2021-06-06"
+type: telegram_weekly
+channel: general
+week: "2021-W22"
+source: telegram
+message_count: 1764
+categories: [wallet, mining, ecosystem, defi, community, nft, marketing, technical, bridges, governance]
+key_terms: [Yoroi, wallet, syncing, mobile support, ledger, mining, herominers, nanopool, hashrate, 3080, decentralization, CoinEx, gate.io, Binance, listings, NDA, exchanges, ErgoDEX, launch, June]
+---
 # Ergo General Chat — 2021-W22
 ## Period: 2021-05-31 to 2021-06-06
 

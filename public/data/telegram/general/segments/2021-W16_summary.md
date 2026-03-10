@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W16"
+date_start: "2021-04-19"
+date_end: "2021-04-25"
+type: telegram_weekly
+channel: general
+week: "2021-W16"
+source: telegram
+message_count: 1816
+categories: [technical, defi, governance, wallet, bridges, nft, marketing, community, ecosystem]
+key_terms: [withdrawal, locked funds, miner dust, hotbit, coinex, sigmausd, sigrsv, reserve ratio, bearwhale, v2, ergodex, sigmadex, naming, branding, cardano interoperability, yoroi, dapp connector, auction house, sigmausd integration, catalyst]
+---
 # Ergo General Chat — 2021-W16 (2021-04-19 to 2021-04-25)
 
 ## Key Topics Discussed

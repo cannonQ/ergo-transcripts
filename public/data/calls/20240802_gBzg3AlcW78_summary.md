@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - August 1st 2024"
+date: "2024-08-02"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=gBzg3AlcW78
+video_id: gBzg3AlcW78
+duration_minutes: 55
+speakers: [qx(), kushti]
+topics: [storage-rent, twitter-spaces, marketing, adoption, luis-libre, joe-armeanio, gold-trading, derivatives, bruno, digital-insurance]
+companion_files: [20240802_gBzg3AlcW78_transcript.txt, 20240802_gBzg3AlcW78_qa.json, 20240802_gBzg3AlcW78_decisions.json, 20240802_gBzg3AlcW78_topics.json]
+---
 # Ergo Community Call Summary - August 2nd, 2024
 
 ## Executive Summary

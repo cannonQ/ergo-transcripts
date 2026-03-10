@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2023-W52"
+date_start: "2023-12-25"
+date_end: "2023-12-31"
+type: telegram_weekly
+channel: general
+week: "2023-W52"
+source: telegram
+message_count: 0
+categories: [bridges, technical, community, defi, ecosystem, nft, mining, wallet]
+key_terms: [Rosen Bridge, cross-chain, Cardano, wrapped assets, rsERG, rsADA, watchers, permits, RSN collateral, 77 watcher slots, permit requirements, transaction bottleneck, ErgoSanta, NFT prizes, mempool issues, coal tokens, COMET rewards, 10M COMET grand prize, SigmaFi, SigUSD collateral]
+---
 # Ergo General Chat Summary — 2023-W52 (Dec 25-31)
 
 ## Key Topics Discussed

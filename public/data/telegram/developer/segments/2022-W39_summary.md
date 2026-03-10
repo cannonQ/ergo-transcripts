@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2022-W39"
+date_start: "2022-09-26"
+date_end: "2022-10-02"
+type: telegram_weekly
+channel: developer
+week: "2022-W39"
+source: telegram
+message_count: 54
+categories: [governance, mining, technical, community, ecosystem]
+key_terms: [EIP-37, hard fork, voting, activation, block height 844800, 232/256 votes, difficulty, gravity well, block time, 2 minutes, hashrate, protocol version, version check, reference client, compatibility, versions 100/101/103, user experience, community consensus, miner vote, intervention]
+---
 # Ergo Developer Chat Summary — 2022-W39
 **Period:** 2022-09-26 to 2022-10-02 | **Messages:** 54 | **Participants:** 12
 

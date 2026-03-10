@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2023-W26"
+date_start: "2023-06-26"
+date_end: "2023-07-02"
+type: telegram_weekly
+channel: developer
+week: "2023-W26"
+source: telegram
+message_count: 175
+categories: [technical, ecosystem, defi]
+key_terms: [contract exploit, vulnerability, refund, token drain, smart contract bug, explorer, UI/UX updates, testnet support, token ordering, CSS theme, spectrum, yield farming, liquidity pool, DEX, BASS token, API, transactions, address interactions, endpoint design, snapshot]
+---
 # Ergo Developer Chat Summary — 2023-W26
 **Period:** 2023-06-26 to 2023-07-09  
 **Participants:** 15 | **Messages:** 175

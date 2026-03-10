@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2018-W24"
+date_start: "2018-06-11"
+date_end: "2018-06-17"
+type: telegram_weekly
+channel: general
+week: "2018-W24"
+source: telegram
+message_count: 77
+categories: [ecosystem, technical, governance, mining, community, marketing]
+key_terms: [emission, inflation, hyper-inflationary, 8-year schedule, economic model, EFYT supply, mainnet launch, EFYT, 1.97M supply, private investors, airdrops, token burn, 100K coins, dev team rewards, Equihash, ASIC-resistant, Z9 antminer, PoW function, proof-of-data-possession, Testnet2]
+---
 # Ergo General Chat Summary — 2018-W24
 **Period:** 2018-06-12 to 2018-06-16  
 **Participants:** 6 (mostly unknown/community members, with Dmitry translating for kushti)

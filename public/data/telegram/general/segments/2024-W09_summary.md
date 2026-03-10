@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2024-W09"
+date_start: "2024-02-26"
+date_end: "2024-03-03"
+type: telegram_weekly
+channel: general
+week: "2024-W09"
+source: telegram
+message_count: 0
+categories: [community, defi, bridges, ecosystem, wallet, privacy, governance, security, technical]
+key_terms: [Russian translation, ergonaut.space, manifesto, domain expired, ChainCash, collateral, IOU notes, trustless, backing, SigUSD, SigRSV, BearWhale, market manipulation, reserve ratio, Oracle, short squeeze, Rosen Bridge, rsERG, rsADA, arbitrage]
+---
 # Ergo General Chat — 2024-W09 Summary
 
 ## Key Topics Discussed

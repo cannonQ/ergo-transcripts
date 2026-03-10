@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W04"
+date_start: "2020-01-20"
+date_end: "2020-01-26"
+type: telegram_weekly
+channel: general
+week: "2020-W04"
+source: telegram
+message_count: 96
+categories: [community, technical, ecosystem, governance]
+key_terms: [Discord, Slack, community platform, migration, Raspberry Pi, node, memory constraints, 1GB RAM, light nodes, full node, node sync, configuration, headersHeight, UTXO, jar release, mainnet, exchange listing, Binance, Kucoin, Huobi]
+---
 # Ergo General Chat — Week 2020-W04 Summary
 
 ## Key Topics Discussed

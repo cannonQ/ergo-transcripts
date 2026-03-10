@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2023-W10"
+date_start: "2023-03-06"
+date_end: "2023-03-12"
+type: telegram_weekly
+channel: general
+week: "2023-W10"
+source: telegram
+message_count: 0
+categories: [technical, defi, bridges, community, marketing, ecosystem, governance, wallet]
+key_terms: [Oracle Pools v2, beta6, reward tokens, protocol upgrade, Dexy, stablecoin, bank reserves, fee split, Spectrum, ChainCash, elastic money, trust-based, blockchain assets, Rosen bridge, ETH/BTC connectors, public beta, sigma-rust, SigUSD, RoLR, overcollateralization]
+---
 # Ergo General Chat — 2023-W10 Summary
 
 ## Key Topics Discussed

@@ -1,3 +1,16 @@
+---
+title: "Weekly Update & AMA - June 27th 2024"
+date: "2024-06-28"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=uGb4ylD5ISY
+video_id: uGb4ylD5ISY
+duration_minutes: 77
+speakers: [qx(), Dan Friedman, kushti]
+topics: [ergoversary, twitter-spaces, anniversary, nervos, alephium, community-celebration, rosen-bridge, watcher, docker-compose, permits]
+companion_files: [20240628_uGb4ylD5ISY_transcript.txt, 20240628_uGb4ylD5ISY_qa.json, 20240628_uGb4ylD5ISY_decisions.json, 20240628_uGb4ylD5ISY_topics.json]
+---
 # Ergo Community Call Summary - June 28, 2024
 
 ## Executive Summary

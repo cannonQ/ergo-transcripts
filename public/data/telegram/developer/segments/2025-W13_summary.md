@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W13"
+date_start: "2025-03-24"
+date_end: "2025-03-30"
+type: telegram_weekly
+channel: developer
+week: "2025-W13"
+source: telegram
+message_count: 134
+categories: [technical, ecosystem, defi, wallet, mining]
+key_terms: [6.0.0-RC, sigmastate-interpreter, mainnet blockchain processing, versioning, sigma-rust, ergo-appkit, global_allocator issue, cdylib, Keystone firmware, debug node, AST reduction, trace functionality, DeserializeRegister, expression evaluation, sub-blocks, p2p protocol spec, oracle pools, big data commitments, Scala 3, cross-compilation]
+---
 # Ergo Developer Chat Summary — 2025-W13
 
 ## Key Topics Discussed

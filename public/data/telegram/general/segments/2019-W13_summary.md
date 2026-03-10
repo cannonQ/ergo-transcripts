@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W13"
+date_start: "2019-03-25"
+date_end: "2019-03-31"
+type: telegram_weekly
+channel: general
+week: "2019-W13"
+source: telegram
+message_count: 66
+categories: [technical, governance, mining, defi, wallet]
+key_terms: [light nodes, ADProofs, PoPoW, state root hash, stateless clients, EFYT, token conversion, mainnet launch, foundation tax, emission curve, GPU mining, miner tutorial, CUDA, mining setup, testnet mining, ErgoScript, Turing complete, smart contracts, formal verification, atomic exchange]
+---
 # Ergo General Chat — 2019-W13 Summary
 
 ## Key Topics Discussed

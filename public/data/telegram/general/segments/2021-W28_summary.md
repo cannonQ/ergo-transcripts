@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W28"
+date_start: "2021-07-12"
+date_end: "2021-07-18"
+type: telegram_weekly
+channel: general
+week: "2021-W28"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 ## Key Topics Discussed
 
 - **Ergo Oracle Pools and Cardano Compatibility**: Extended discussion clarified that Ergo Oracle Pools are not currently compatible with Cardano mainnet due to Cardano's lack of read-only data inputs (data inputs). Ergo added data inputs to solve the problem of burning UTXOs when reading external data. A workaround exists via metadata slots (nut.link implementation) but is inefficient. Cardano may add read-only inputs in future iterations post-Alonzo launch, which would enable native Ergo Oracle Pool integration.

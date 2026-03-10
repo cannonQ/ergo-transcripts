@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W31"
+date_start: "2020-07-27"
+date_end: "2020-08-02"
+type: telegram_weekly
+channel: general
+week: "2020-W31"
+source: telegram
+message_count: 251
+categories: [ecosystem, bridges, wallet, mining, technical, defi, governance, marketing]
+key_terms: [CoinEx, listing, trading event, 8000 ERG reward, Call Auction, Cardano, Shelley, Yoroi wallet, integration, stablecoin, DeFi, Ledger, hardware wallet, support, Ergo Foundation, mining, token dump, miner reserves, daily withdrawals, 4.0 release]
+---
 # Ergo General Chat — 2020-W31 Summary
 
 ## Key Topics Discussed

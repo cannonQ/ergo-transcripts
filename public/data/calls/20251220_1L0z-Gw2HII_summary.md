@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - LATE NIGHT AMA - HAPPY HOLIDAYS!"
+date: "2025-12-20"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=1L0z-Gw2HII
+video_id: 1L0z-Gw2HII
+duration_minutes: 72
+speakers: [armeanio, qx(), Luca]
+topics: [infrastructure, peer-to-peer-networks, rosen-watchers, lithos, solo-mining, block-templates, proof-of-work, mining-pools, bitaxe, digital-farming]
+companion_files: [20251220_1L0z-Gw2HII_transcript.txt, 20251220_1L0z-Gw2HII_qa.json, 20251220_1L0z-Gw2HII_decisions.json, 20251220_1L0z-Gw2HII_topics.json]
+---
 # Ergo PoW Blockchain - LATE NIGHT AMA - HAPPY HOLIDAYS!
 **Date:** 2025-12-20
 

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2024-W51"
+date_start: "2024-12-16"
+date_end: "2024-12-22"
+type: telegram_weekly
+channel: general
+week: "2024-W51"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo General Chat — 2024-W51 Summary
 
 ## Key Topics Discussed

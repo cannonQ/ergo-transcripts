@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W52"
+date_start: "2020-12-21"
+date_end: "2020-12-27"
+type: telegram_weekly
+channel: general
+week: "2020-W52"
+source: telegram
+message_count: 1084
+categories: [technical, defi, nft, community, ecosystem, marketing, mining, wallet]
+key_terms: [Autolykos v2, memory hardening, GPU mining, pool resistance, AgeUSD, stablecoin, Cardano, EMURGO, Plutus, ErgoScript, auction house, NFT, image preview, ergoauctions.org, ErgoMixer, mixer API, privacy, anonymity, programmable interface, Ergo Summit 2021]
+---
 # Ergo General Chat — 2020-W52 Summary
 
 ## Key Topics Discussed

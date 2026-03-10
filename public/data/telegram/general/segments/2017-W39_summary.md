@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2017-W39"
+date_start: "2017-09-25"
+date_end: "2017-10-01"
+type: telegram_weekly
+channel: general
+week: "2017-W39"
+source: telegram
+message_count: 56
+categories: [ecosystem, mining, governance, marketing]
+key_terms: [testnet, launch date, announcement, release, mining, testnet mining, Equihash, dedicated hardware, PoW, token supply, inflation, 100M supply, 50M first year, miner rewards, economy model, IOHK, collaboration, independence, research, Berkeley talk]
+---
 # Ergo General Chat — 2017-W39 Summary
 **Period:** 2017-09-30 to 2017-11-01  
 **Messages Analyzed:** 56  

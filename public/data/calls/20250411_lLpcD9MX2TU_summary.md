@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - April 10th"
+date: "2025-04-11"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=lLpcD9MX2TU
+video_id: lLpcD9MX2TU
+duration_minutes: 47
+speakers: [kushti, qx(), Dan Friedman]
+topics: [disco-solaris, nft-bridge, mewfinance, cardano, metadata, lock-contract, emission-reduction, 15-erg, block-reward, sigmanauts-mining-pool]
+companion_files: [20250411_lLpcD9MX2TU_transcript.txt, 20250411_lLpcD9MX2TU_qa.json, 20250411_lLpcD9MX2TU_decisions.json, 20250411_lLpcD9MX2TU_topics.json]
+---
 # Ergo PoW Blockchain Weekly Update & AMA - April 10th, 2025
 
 ## Executive Summary

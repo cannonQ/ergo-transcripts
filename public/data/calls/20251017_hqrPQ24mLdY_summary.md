@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Community Chat - October 16th"
+date: "2025-10-17"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=hqrPQ24mLdY
+video_id: hqrPQ24mLdY
+duration_minutes: 57
+speakers: [qx(), CannonQ, Grayman, kushti, benzel, tmr.erg]
+topics: [community-ama, ergo-meetup, colorado-springs, cypherpunk, colorado-meetup, joe-armeanio, community-dinner, garden-of-the-gods, lithos, developer-presentations]
+companion_files: [20251017_hqrPQ24mLdY_transcript.txt, 20251017_hqrPQ24mLdY_qa.json, 20251017_hqrPQ24mLdY_decisions.json, 20251017_hqrPQ24mLdY_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Date:** October 17, 2025 (Call titled October 16th)
 

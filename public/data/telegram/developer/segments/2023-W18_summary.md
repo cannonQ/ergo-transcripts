@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2023-W18"
+date_start: "2023-05-01"
+date_end: "2023-05-07"
+type: telegram_weekly
+channel: developer
+week: "2023-W18"
+source: telegram
+message_count: 99
+categories: [technical, ecosystem, defi, mining, community]
+key_terms: [ErgoPay, URI specification, fragment encoding, percent encoding, "#P2PK_ADDRESS#", backwards compatibility, node release, v5.0.10, version updates, node auto-update, Satergo, SigmaFi, bonds, collateralization, context variables, FleetSharp, OpenAPI Generator, Swagger Codegen, code generation, node openapi.yaml]
+---
 # Ergo Developer Chat Summary — 2023-W18 (May 1-7)
 
 ## Key Topics Discussed

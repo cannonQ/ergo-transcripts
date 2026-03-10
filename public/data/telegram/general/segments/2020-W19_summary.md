@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W19"
+date_start: "2020-05-04"
+date_end: "2020-05-10"
+type: telegram_weekly
+channel: general
+week: "2020-W19"
+source: telegram
+message_count: 285
+categories: [ecosystem, technical, defi, wallet, community, mining, marketing]
+key_terms: [voting, Atomars, exchange listing, community mobilization, version 3.2.3, version 3.3.0, explorer backend, ErgoTree interpreter, mixer, anonymity, token mixing, vulnerability fix, DEX, swap orders, matcher service, contract development, MuSig, aggregated signatures, cross-chain swap, private swaps]
+---
 # Ergo General Chat — 2020-W19 Summary
 **Period:** 2020-05-04 to 2020-05-10 | **Messages:** 285 | **Participants:** 23
 

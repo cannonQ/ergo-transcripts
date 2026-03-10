@@ -1,3 +1,16 @@
+---
+title: "Bene Fundraising Platform | Josemi | Ergoversary 2025"
+date: "2025-07-02"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=c8E22bN_Mus
+video_id: c8E22bN_Mus
+duration_minutes: 10
+speakers: [Josemi]
+topics: [proof-of-funding, contribution-accounting-tokens, funding-vault, vouchers, minimum-funding-goal, gluon-gold, sdk-development, deadline-protection, refund-mechanism, goal-achievement]
+companion_files: [20250702_c8E22bN_Mus_transcript.txt, 20250702_c8E22bN_Mus_qa.json, 20250702_c8E22bN_Mus_decisions.json, 20250702_c8E22bN_Mus_topics.json]
+---
 # Ergo Community Call Summary
 **Date:** July 2, 2025  
 **Title:** Bene Fundraising Platform | Josemi | Ergoversary 2025

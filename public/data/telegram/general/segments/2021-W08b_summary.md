@@ -1,3 +1,16 @@
+---
+title: "Ergo General Chat — 2021-W08 (Part B)"
+date_start: "2021-02-22"
+date_end: "2021-02-28"
+type: telegram_weekly
+channel: general
+week: "2021-W08"
+part: "b"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo General Chat — 2021-W08b Summary (2021-02-26 to 2021-02-28)
 
 **Context:** This period covers the first 72 hours after the SigmaUSD/SigmaRSV launch, generating enormous community activity around understanding the AgeUSD protocol mechanics.

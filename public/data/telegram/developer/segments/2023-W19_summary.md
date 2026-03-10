@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2023-W19"
+date_start: "2023-05-08"
+date_end: "2023-05-14"
+type: telegram_weekly
+channel: developer
+week: "2023-W19"
+source: telegram
+message_count: 104
+categories: [technical, governance, ecosystem, wallet, mining]
+key_terms: [storage rent, UTXO collection, miner incentives, garbage collection, racing, EIP, tx fee script, anyone-can-spend, standardization, blockchain API, JSON strings, POST body, API endpoint, Ergonodes.net, node infrastructure, port forwarding, version market share, Yoroi wallet recovery, BIP32, ExtendedSecretKey]
+---
 # Ergo Developer Chat Summary — 2023-W19
 **Period:** 2023-05-08 to 2023-05-14
 

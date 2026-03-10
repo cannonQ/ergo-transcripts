@@ -1,3 +1,16 @@
+---
+title: "Communicating with Ergo | Alex Chepurnoy | ErgoHack 9"
+date: "2024-10-25"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=qFaE27YCgYk
+video_id: qFaE27YCgYk
+duration_minutes: 10
+speakers: [kushti]
+topics: [ring-signature, ergoscript, zero-knowledge, public-keys, hardened-derivation, obfuscation, custom-scan, swagger-api, ergoscript-playground, register-r1]
+companion_files: [20241025_qFaE27YCgYk_transcript.txt, 20241025_qFaE27YCgYk_qa.json, 20241025_qFaE27YCgYk_decisions.json, 20241025_qFaE27YCgYk_topics.json]
+---
 # Ergo Community Call Summary
 
 **Call Date:** October 25, 2024  

@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - June 26th"
+date: "2025-06-27"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=nZdGFdVKwQw
+video_id: nZdGFdVKwQw
+duration_minutes: 17
+speakers: [kushti, qx()]
+topics: [6.0-release, 6.1-release, voting, activation, sub-blocks, october, mining-pools, voting-parameters, soft-fork, 90-percent-consensus]
+companion_files: [20250627_nZdGFdVKwQw_transcript.txt, 20250627_nZdGFdVKwQw_qa.json, 20250627_nZdGFdVKwQw_decisions.json, 20250627_nZdGFdVKwQw_topics.json]
+---
 # Ergo PoW Blockchain - Weekly Update & AMA Summary
 **Date:** June 27, 2025 (Call dated June 26th)
 

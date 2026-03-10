@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2022-W07"
+date_start: "2022-02-14"
+date_end: "2022-02-20"
+type: telegram_weekly
+channel: developer
+week: "2022-W07"
+source: telegram
+message_count: 50
+categories: [technical, community, wallet]
+key_terms: [appkit, API, scala objects, Tuple2, ErgoValue, wrapper, EIP4Token, Asset, token standard, NFT, sigUSD, Schnorr signatures, ErgoScript, cryptography, mixing protocol, privacy, derivation, xpub, hex, base52]
+---
 # Ergo Developer Chat Summary — 2022-W07
 **Period:** 2022-02-14 to 2022-03-25  
 **Activity Level:** Moderate (50 messages, 9 participants)

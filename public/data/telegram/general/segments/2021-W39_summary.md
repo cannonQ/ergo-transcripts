@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W39"
+date_start: "2021-09-27"
+date_end: "2021-10-03"
+type: telegram_weekly
+channel: general
+week: "2021-W39"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo General Chat — 2021-W39 Summary
 **Period:** 2021-09-27 to 2021-10-03
 

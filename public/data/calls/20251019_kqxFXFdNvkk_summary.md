@@ -1,3 +1,16 @@
+---
+title: "Commercial Barter Meets Permissionless Infrastructure — Cannon (Ergo Meetup 2025)"
+date: "2025-10-19"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=kqxFXFdNvkk
+video_id: kqxFXFdNvkk
+duration_minutes: 59
+speakers: [CannonQ]
+topics: [barter-exchange, b2b-economy, non-fiat-currency, tax-compliance, 1099b, variable-cost-arbitrage, idle-capacity, ltp-credits, roi, fixed-costs]
+companion_files: [20251019_kqxFXFdNvkk_transcript.txt, 20251019_kqxFXFdNvkk_qa.json, 20251019_kqxFXFdNvkk_decisions.json, 20251019_kqxFXFdNvkk_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 
 **Call Date:** 2025-10-19  

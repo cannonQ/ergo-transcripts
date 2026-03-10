@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W44"
+date_start: "2021-11-01"
+date_end: "2021-11-07"
+type: telegram_weekly
+channel: general
+week: "2021-W44"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo General Chat Summary — 2021-W44
 **Period:** 2021-11-01 to 2021-11-07  
 **Messages Processed:** ~1414

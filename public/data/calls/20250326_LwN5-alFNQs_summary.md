@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Dev Update - March 25th"
+date: "2025-03-26"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=LwN5-alFNQs
+video_id: LwN5-alFNQs
+duration_minutes: 64
+speakers: [Armeanio, qx()]
+topics: [trump-token, blockchain-adoption, speculation, legitimate-use-cases, institutional-adoption, stablecoins, financial-surveillance, privacy, regulatory-oversight, ai-verification]
+companion_files: [20250326_LwN5-alFNQs_transcript.txt, 20250326_LwN5-alFNQs_qa.json, 20250326_LwN5-alFNQs_decisions.json, 20250326_LwN5-alFNQs_topics.json]
+---
 # Ergo PoW Blockchain - Dev Update Summary
 **Call Date:** March 26, 2025  
 **Duration:** ~64 minutes

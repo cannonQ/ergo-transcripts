@@ -1,3 +1,16 @@
+---
+title: "ErgOne | Giufa | Ergoversary 2025"
+date: "2025-07-04"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=OFSwJ7NWBnE
+video_id: OFSwJ7NWBnE
+duration_minutes: 10
+speakers: [unknown]
+topics: [community-call, opening, setup]
+companion_files: [20250704_OFSwJ7NWBnE_transcript.txt, 20250704_OFSwJ7NWBnE_qa.json, 20250704_OFSwJ7NWBnE_decisions.json, 20250704_OFSwJ7NWBnE_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 
 **Date:** July 4, 2025  

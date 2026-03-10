@@ -1,3 +1,16 @@
+---
+title: "Blitz TCG Update | Mick | Ergoversary 2025"
+date: "2025-07-01"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=WoPHY5PlKLs
+video_id: WoPHY5PlKLs
+duration_minutes: 10
+speakers: [Mick]
+topics: [funding-challenges, life-changes, development-delays, team-collaboration, passion-project, security-updates, api-integrations, abilities-completion, downloadable-game, deck-builder]
+companion_files: [20250701_WoPHY5PlKLs_transcript.txt, 20250701_WoPHY5PlKLs_qa.json, 20250701_WoPHY5PlKLs_decisions.json, 20250701_WoPHY5PlKLs_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 
 **Call Date:** July 1, 2025  

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W04"
+date_start: "2019-01-21"
+date_end: "2019-01-27"
+type: telegram_weekly
+channel: general
+week: "2019-W04"
+source: telegram
+message_count: 109
+categories: [governance, ecosystem, mining, technical, community, marketing]
+key_terms: [mainnet, 2.0, launch, timeline, weeks away, EFYT, Waves DEX, token distribution, OTC, liquidity, solo mining, testnet, node setup, GPU miners, configuration, Scorex, documentation, tutorial, SyncInfoMessageSpec, Scala]
+---
 # Ergo General Chat — 2019-W04 Summary
 **Period:** 2019-01-23 to 2019-02-10  
 **Participants:** 13 | **Messages:** 109

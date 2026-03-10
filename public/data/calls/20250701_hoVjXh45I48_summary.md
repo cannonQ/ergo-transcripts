@@ -1,3 +1,16 @@
+---
+title: "Opening Doors with Ergo | PandaV | Ergoversary 2025"
+date: "2025-07-01"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=hoVjXh45I48
+video_id: hoVjXh45I48
+duration_minutes: 10
+speakers: [AI]
+topics: [pandavee, access-control, token-id, blockchain-verification, immutable-records, on-chain-identity, ergonode, arduino, wiegand, hardware-module]
+companion_files: [20250701_hoVjXh45I48_transcript.txt, 20250701_hoVjXh45I48_qa.json, 20250701_hoVjXh45I48_decisions.json, 20250701_hoVjXh45I48_topics.json]
+---
 # Ergo Community Call Summary - July 1, 2025
 
 ## Executive Summary

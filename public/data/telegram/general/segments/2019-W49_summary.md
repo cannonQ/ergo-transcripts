@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W49"
+date_start: "2019-12-02"
+date_end: "2019-12-08"
+type: telegram_weekly
+channel: general
+week: "2019-W49"
+source: telegram
+message_count: 102
+categories: [ecosystem, wallet, technical, marketing, community, defi, bridges]
+key_terms: [supply, CoinMarketCap, CoinGecko, market cap, treasury, wallet, in-browser, JavaScript, library, UI, testnet, node, synchronization, blocks, headers, exchange listings, price tracking, CryptoCompare, branding, Ergo]
+---
 # Ergo General Chat — 2019-W49 Summary
 **Period:** 2019-12-02 to 2019-12-15  
 **Activity Level:** Low-to-moderate; primarily announcements, exchange listings discussion, and wallet development updates

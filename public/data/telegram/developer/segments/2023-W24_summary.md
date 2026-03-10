@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2023-W24"
+date_start: "2023-06-12"
+date_end: "2023-06-18"
+type: telegram_weekly
+channel: developer
+week: "2023-W24"
+source: telegram
+message_count: 59
+categories: [technical, nft, mining]
+key_terms: [EIP-76, contract implementation, code review, IPFS, Cloudflare-ipfs, content provider, node hosting, Erg Explorer, NFT search, case insensitive, NFT types, smart contract UI, protocol reference client, v5.0.12, release, Duckpools, security audit, private testing, ERG pool, SigUSD pool]
+---
 # Ergo Developer Chat Summary — 2023-W24
 
 ## Key Topics Discussed

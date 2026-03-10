@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W34"
+date_start: "2025-08-18"
+date_end: "2025-08-24"
+type: telegram_weekly
+channel: developer
+week: "2025-W34"
+source: telegram
+message_count: 75
+categories: [technical, defi, wallet, ecosystem, nft]
+key_terms: [ergodex, UI, installation, localhost, master branch, spectrum, ErgoScript, maximum call stack size exceeded, nested loops, JS implementation, mock-chain, sub-blocks, P2P layer, input blocks, weak IDs, devnet, bandwidth modes, 6.0 soft-fork, SigmaSDK, protocol upgrade]
+---
 # Ergo Developer Chat Summary — 2025-W34 (2025-08-18 to 2025-08-24)
 
 ## Key Topics Discussed

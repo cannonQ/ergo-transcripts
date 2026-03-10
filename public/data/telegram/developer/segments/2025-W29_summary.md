@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W29"
+date_start: "2025-07-14"
+date_end: "2025-07-20"
+type: telegram_weekly
+channel: developer
+week: "2025-W29"
+source: telegram
+message_count: 72
+categories: [technical, ecosystem, defi, bridges, mining, nft]
+key_terms: [test vectors, node API, indexed node, endpoints, UTXO, spending proof, ctx vars, indexed node endpoint, "PR #2227", openapi.yaml, constants, ergoc, v0.4.0, placeholder tracking, Fleet SDK, AvlTree, serialization, type support, offchain operations, 6.0 protocol]
+---
 # Ergo Developer Chat Summary — 2025-W29
 **Period:** 2025-07-14 to 2025-07-19  
 **Participants:** 8 active  

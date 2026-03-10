@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2023-W41"
+date_start: "2023-10-09"
+date_end: "2023-10-15"
+type: telegram_weekly
+channel: developer
+week: "2023-W41"
+source: telegram
+message_count: 98
+categories: [technical, ecosystem, defi, wallet, mining, marketing]
+key_terms: [/unspent, /scan API, boxes, offchain spending, AppKit, change amounts, multiple tokens per box, node logic, re-emission tokens, emission box, pay-to-reemission contract, EIP-0027, consensus-level, contract-level, ErgoPay, mobile wallet, naming convention, API endpoints, offset, limit]
+---
 # Ergo Developer Chat — 2023-W41 Summary
 
 ## Key Topics Discussed

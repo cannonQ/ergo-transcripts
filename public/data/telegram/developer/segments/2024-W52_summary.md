@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W52"
+date_start: "2024-12-23"
+date_end: "2024-12-29"
+type: telegram_weekly
+channel: developer
+week: "2024-W52"
+source: telegram
+message_count: 82
+categories: [technical, defi, wallet, bridges, ecosystem, community]
+key_terms: [sigma 6.0 RC, tree-based versioning, node upgrade, testnet activation, input blocks, transaction packing, UTXO set commitments, linking logic, node sync, extra index, isExplorer config, Docker setup, SigUSD, update script, ballot tokens, contract versioning, transaction data parsing, /wallet API, blockchain/transactions/byAddress, accounting automation]
+---
 # Ergo Developer Chat Summary — 2024-W52
 
 ## Key Topics Discussed

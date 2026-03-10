@@ -1,3 +1,16 @@
+---
+title: "Dev Update July 1 2024 | Live Ergoversary w/Marc the Shark"
+date: "2024-07-02"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=7n2LHoFO3oI
+video_id: 7n2LHoFO3oI
+duration_minutes: 70
+speakers: [qx(), Marc the Shark]
+topics: [ergoversary, 5th-anniversary, community-celebration, yoroi, nautilus, scam-token-filter, nsfw-filter, captain-nemo, proof-of-work, proof-of-stake]
+companion_files: [20240702_7n2LHoFO3oI_transcript.txt, 20240702_7n2LHoFO3oI_qa.json, 20240702_7n2LHoFO3oI_decisions.json, 20240702_7n2LHoFO3oI_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Date:** July 2, 2024  
 **Title:** Dev Update July 1 2024 | Live Ergoversary w/Marc the Shark

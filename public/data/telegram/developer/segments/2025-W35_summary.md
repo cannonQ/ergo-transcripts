@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W35"
+date_start: "2025-08-25"
+date_end: "2025-08-31"
+type: telegram_weekly
+channel: developer
+week: "2025-W35"
+source: telegram
+message_count: 81
+categories: [technical, bridges, wallet, ecosystem, defi, mining]
+key_terms: [candidate regeneration, testing, "PR#2237", blockchain validation, 6.0 soft-fork, ordering blocks, sub-blocks, p2p layer, devnet testing, Sigma-SDK, sigmastate-interpreter, "PR#1061", "PR#1076", sub-blocks support, node sync, peer connection, NAT, blacklisting, connection reset, data folder]
+---
 # Ergo Developer Chat Summary — 2025-W35
 **Period:** 2025-08-25 to 2025-08-31  
 **Messages:** 81 | **Participants:** 7

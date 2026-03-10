@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W50"
+date_start: "2025-12-08"
+date_end: "2025-12-14"
+type: telegram_weekly
+channel: developer
+week: "2025-W50"
+source: telegram
+message_count: 76
+categories: [wallet, technical, bridges, ecosystem, defi, research]
+key_terms: ["PR#188", "PR#183", "PR#182", release candidate, wallet-app, sub-blocks, Matrix protocol, devnet, input/ordering blocks, deployment scenario, 6.0.2 release, PR review, node implementation, protocol updates, LSP, ErgoScript, language server, code checker, IDE support, Rosen Bridge]
+---
 # Ergo Developer Chat Summary — 2025-W50
 
 ## Key Topics Discussed

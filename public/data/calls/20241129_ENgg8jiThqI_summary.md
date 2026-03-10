@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - November 28th 2024"
+date: "2024-11-29"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=ENgg8jiThqI
+video_id: ENgg8jiThqI
+duration_minutes: 64
+speakers: [qx(), kushti, Dan Friedman]
+topics: [community-calls, twitter-spaces, house-of-chimera, formats, eip-50, soft-fork, miner-voting, 90-percent-consensus, config-file, trustless-bitcoin-bridge]
+companion_files: [20241129_ENgg8jiThqI_transcript.txt, 20241129_ENgg8jiThqI_qa.json, 20241129_ENgg8jiThqI_decisions.json, 20241129_ENgg8jiThqI_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Date:** November 29, 2024  
 **Title:** Ergo PoW Blockchain - Weekly Update & AMA - November 28th 2024

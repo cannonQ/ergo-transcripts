@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W29"
+date_start: "2021-07-19"
+date_end: "2021-07-25"
+type: telegram_weekly
+channel: general
+week: "2021-W29"
+source: telegram
+message_count: 3601
+categories: [defi, governance, ecosystem, wallet, mining, community, nft, technical, marketing]
+key_terms: [ErgoDEX, AMM, public testing, Yoroi connector, roadmap, Catalyst, voting, Plutus port, Liqwid, rigged reviews, bitcoin.com, exchange listing, July 29, Changelly, tier 1 exchange, Ledger, hardware wallet, integration, demo video, security]
+---
 ## Key Topics Discussed
 
 - **ErgoDEX Development Progress**: The AMM DEX public testing was imminent, with final Yoroi connector fixes underway. The team confirmed first version launch within 1-2 days, with incremental releases planned through early 2022. The DEX will use NIPoPoWs for cross-chain interoperability with Cardano without wrapping tokens, leveraging eUTXO compatibility. KYA (Know Your Assumptions) principles will inform users about trust assumptions and contract control levels.

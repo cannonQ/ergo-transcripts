@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2024-W20"
+date_start: "2024-05-13"
+date_end: "2024-05-19"
+type: telegram_weekly
+channel: general
+week: "2024-W20"
+source: telegram
+message_count: 0
+categories: [technical, ecosystem, governance, wallet, community, bridges, defi]
+key_terms: [demurrage, storage rent, monetary policy, UTXO scalability, inflation, SkyHarbor, NFT listing, technical support, dApp errors, user experience, VC investment, token allocation, PoW vs PoS, Cantillon effect, ErgoDevs DAO, mixer, privacy, spending address, change address, SAFEW]
+---
 # Ergo General Chat — 2024-W20 Summary
 
 ## Key Topics Discussed

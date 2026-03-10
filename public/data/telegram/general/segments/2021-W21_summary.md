@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W21"
+date_start: "2021-05-24"
+date_end: "2021-05-30"
+type: telegram_weekly
+channel: general
+week: "2021-W21"
+source: telegram
+message_count: 3000
+categories: [wallet, ecosystem, defi, technical, bridges, nft, mining, community]
+key_terms: [Yoroi, syncing, transaction, balance, Edge browser, exchange listing, NDA, KuCoin, wallet integration, ErgoDEX, governance token, liquidity pool, June release, SigmaUSD, SigRSV, reserve ratio, fees, bearwhale, PoW, energy]
+---
 # Ergo General Chat — 2021-W21 Summary
 ## Period: 2021-05-24 to 2021-05-30
 

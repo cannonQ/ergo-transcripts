@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W49"
+date_start: "2020-11-30"
+date_end: "2020-12-06"
+type: telegram_weekly
+channel: general
+week: "2020-W49"
+source: telegram
+message_count: 1023
+categories: [wallet, technical, ecosystem, defi, mining, governance, marketing, community]
+key_terms: [Yoroi, Ledger, Trezor, mobile wallet, desktop support, Headless dApps, Rust framework, UTXO-based, Robert Kornacki, EMURGO, NiPoPoW, cross-chain, Dionysis Zindros, interoperability, light clients, Autolykos v2, pool-resistance, ASIC-resistant, block candidates, mining]
+---
 # Ergo General Chat — 2020-W49 Summary
 
 ## Key Topics Discussed

@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - May 8th"
+date: "2025-05-09"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=RyMe22HE27Q
+video_id: RyMe22HE27Q
+duration_minutes: 56
+speakers: [kushti, qx()]
+topics: [node-6.0, miner-voting, soft-fork, config-parameters, sub-blocks, peer-to-peer, block-propagation, transaction-broadcasting, public-testnet, devnet]
+companion_files: [20250509_RyMe22HE27Q_transcript.txt, 20250509_RyMe22HE27Q_qa.json, 20250509_RyMe22HE27Q_decisions.json, 20250509_RyMe22HE27Q_topics.json]
+---
 # Ergo PoW Blockchain Weekly AMA - May 8th, 2025
 
 ## Executive Summary

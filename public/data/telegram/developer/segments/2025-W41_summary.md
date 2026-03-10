@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W41"
+date_start: "2025-10-06"
+date_end: "2025-10-12"
+type: telegram_weekly
+channel: developer
+week: "2025-W41"
+source: telegram
+message_count: 73
+categories: [technical, bridges, mining, community, ecosystem, defi, wallet]
+key_terms: [6.0 activation, soft fork, mainnet, consensus, nodes, subblocks, whitepaper, node wallet, devnet, test cases, SigmaSDK, whitelisted transfers, stealth address, withdrawal limit, perpetual token, hashrate oracle, velvet fork, checkpoints, Bitcoin, consensus strengthening]
+---
 # Ergo Developer Chat — Week 2025-W41 Summary
 
 ## Key Topics Discussed

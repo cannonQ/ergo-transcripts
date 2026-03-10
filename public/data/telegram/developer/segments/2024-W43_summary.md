@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W43"
+date_start: "2024-10-21"
+date_end: "2024-10-27"
+type: telegram_weekly
+channel: developer
+week: "2024-W43"
+source: telegram
+message_count: 0
+categories: [technical, wallet, defi, bridges, community, nft, ecosystem]
+key_terms: [ergonnection, p2p, sigmastate-interpreter, maven central, serialization, sigma 6.0, protocol upgrade, PR review, nautilus, 0-conf, experimental feature, backend, paideia, dao, mainnet, treasury, sigmanauts, rosenet, rosen bridge, p2p layer]
+---
 # Ergo Developer Chat Summary — 2024-W43
 **Period:** 2024-10-21 to 2024-11-03  
 **Participants:** 17 developers and community members  

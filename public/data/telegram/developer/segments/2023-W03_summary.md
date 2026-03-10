@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2023-W03"
+date_start: "2023-01-16"
+date_end: "2023-01-22"
+type: telegram_weekly
+channel: developer
+week: "2023-W03"
+source: telegram
+message_count: 58
+categories: [technical, ecosystem]
+key_terms: [v5.0.6, release, reference client, node, Scala, expressiveness, AVL+ trees, language design, v6.0, community discussion, development, node upgrade, price feeds, coingecko, exchanges, KuCoin, CoinEx, oracle, FROST, IETF]
+---
 # Ergo Developer Chat — 2023-W03 Summary
 
 ## Key Topics Discussed

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W52"
+date_start: "2021-12-27"
+date_end: "2022-01-02"
+type: telegram_weekly
+channel: general
+week: "2021-W52"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo General Chat Summary — 2021-W52
 **Period:** 2021-12-27 to 2022-01-02  
 **Total Messages Processed:** 1,412

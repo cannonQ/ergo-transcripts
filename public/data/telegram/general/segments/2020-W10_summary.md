@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W10"
+date_start: "2020-03-02"
+date_end: "2020-03-08"
+type: telegram_weekly
+channel: general
+week: "2020-W10"
+source: telegram
+message_count: 130
+categories: [community, mining, ecosystem, technical, marketing]
+key_terms: [airdrop, distribution, timing, bounty, mining, GPU, GTX 1080, block reward, hashrate, pool, price dump, weak hands, miners selling, market pressure, capitulation, Binance, listing, liquidity, exchange, CMC]
+---
 # Ergo General Chat — 2020-W10 Summary
 **Period:** 2020-03-02 to 2020-03-08 | **Messages:** 130 | **Participants:** 23
 

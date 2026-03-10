@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W49"
+date_start: "2025-12-01"
+date_end: "2025-12-07"
+type: telegram_weekly
+channel: general
+week: "2025-W49"
+source: telegram
+message_count: 1018
+categories: [ecosystem, marketing, defi, bridges, governance, mining, technical, wallet, community]
+key_terms: [Bene V2, proof-of-funding, multi-asset, decentralized, Google Summer of Code, CoinGecko, CoinMarketCap, social links, sigmaspace.io, ergexplorer.com, USE, stablecoin, deployment, ChainCash, Basis, Rosen Bridge, cross-chain, trustless, Firo partnership, interoperability]
+---
 # Ergo General Chat — 2025-W49 Summary
 
 ## Key Topics Discussed

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2024-W06"
+date_start: "2024-02-05"
+date_end: "2024-02-11"
+type: telegram_weekly
+channel: general
+week: "2024-W06"
+source: telegram
+message_count: 0
+categories: [bridges, technical, ecosystem, marketing, wallet, governance, defi, nft]
+key_terms: [Rosen Bridge, wrapped tokens, multisig, decentralized, Bitcoin, oracle pool, full node, index, GORTS rewards, Gold oracle, dApp development, mass adoption, disruptive applications, user experience, hackathon ideas, LETS, local currency, mutual credit, community exchange, accessible UI]
+---
 # Ergo General Chat — 2024-W06 Summary
 
 ## Key Topics Discussed

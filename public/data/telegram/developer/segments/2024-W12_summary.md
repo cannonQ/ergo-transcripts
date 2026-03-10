@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W12"
+date_start: "2024-03-18"
+date_end: "2024-03-24"
+type: telegram_weekly
+channel: developer
+week: "2024-W12"
+source: telegram
+message_count: 171
+categories: [technical, ecosystem, mining, defi, bridges, governance, wallet, community]
+key_terms: [release, PR review, compilation, v5.0.21, v5.1.0, sidechains, BIP 300/301, merged mining, PoS, peg designs, blockly, visual programming, offchain generator, DApp development, miner rewarder, Dark Erdoge, hashrate decentralization, DErdoge token, Paideia, DAO contracts]
+---
 # Ergo Developer Chat — 2024-W12 Summary
 
 ## Key Topics Discussed

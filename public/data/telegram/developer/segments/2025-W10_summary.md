@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W10"
+date_start: "2025-03-03"
+date_end: "2025-03-09"
+type: telegram_weekly
+channel: developer
+week: "2025-W10"
+source: telegram
+message_count: 213
+categories: [defi, technical, wallet, ecosystem, mining, community]
+key_terms: [SigUSD, ballot contract, bank update, voting, storage rent, Scala 2.11, Scala 2.13, Scala 3, Android compatibility, JDK versions, 6.0 soft-fork, input-blocks, fork resolution, protocol upgrade, testnet activation, sigmastate-interpreter, compiler, DeserializeRegister, executeFromSelfReg, pull requests]
+---
 # Ergo Developer Chat Summary — 2025-W10
 **Period:** 2025-03-03 to 2025-03-09  
 **Participants:** 14 | **Messages:** 213

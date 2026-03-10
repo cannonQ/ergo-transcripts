@@ -1,3 +1,16 @@
+---
+title: "Ergo General Chat — 2021-W32 (Part C)"
+date_start: "2021-08-09"
+date_end: "2021-08-15"
+type: telegram_weekly
+channel: general
+week: "2021-W32"
+part: "c"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo General Chat — 2021-W32c Summary
 **Period:** 2021-08-12 to 2021-08-15
 

@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2023-W06"
+date_start: "2023-02-06"
+date_end: "2023-02-12"
+type: telegram_weekly
+channel: developer
+week: "2023-W06"
+source: telegram
+message_count: 80
+categories: [technical, wallet, community, defi, ecosystem, bridges]
+key_terms: [P2P protocol, ErgoTransaction, ErgoTree, ContextExtension, SigmaBoolean, ProveDlog, serialization, SigmaState, serializers, SigmaByteReader, ErgoScript compiler, interpreter module, ErgoTree.pdf, specification, header parsing, byte encoding, documentation, BIP44, derivation path, hardened derivation]
+---
 # Ergo Developer Chat — 2023-W06 Summary
 
 ## Key Topics Discussed

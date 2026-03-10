@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W06"
+date_start: "2025-02-03"
+date_end: "2025-02-09"
+type: telegram_weekly
+channel: general
+week: "2025-W06"
+source: telegram
+message_count: 0
+categories: [technical, community, defi, bridges, ecosystem, governance, mining, wallet, nft, marketing]
+key_terms: [6.0 soft fork, sub-blocks, testnet voting, block propagation, performance, demurrage, emission reduction, miners incentives, money printing, long-term security, community town hall, monetary policy, miners rights, storage rent, ChainCash, agentic wallet, UTXO dapps, p2p design, proxy contracts, Rosen Bridge]
+---
 # Ergo General Chat — Week 2025-W06 Summary
 
 ## Key Topics Discussed

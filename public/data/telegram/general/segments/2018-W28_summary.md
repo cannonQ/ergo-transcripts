@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2018-W28"
+date_start: "2018-07-09"
+date_end: "2018-07-15"
+type: telegram_weekly
+channel: general
+week: "2018-W28"
+source: telegram
+message_count: 242
+categories: [technical, governance, wallet, ecosystem, mining, marketing]
+key_terms: [mainnet, testnet, launch date, Q4 2018, testnet public, EFYT swap, Σ-Cash, Σ-Data, distribution fairness, mining tax, economic model, Equihash, ASIC resistance, PoW function, proof-of-data-possession, 51% attack, smart contracts, Alexander, contract protocol, IOHK history]
+---
 # Ergo General Chat Summary — 2018-W28
 
 ## Key Topics Discussed

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2024-W17"
+date_start: "2024-04-22"
+date_end: "2024-04-28"
+type: telegram_weekly
+channel: general
+week: "2024-W17"
+source: telegram
+message_count: 0
+categories: [bridges, technical, ecosystem, governance, community, defi, wallet, nft]
+key_terms: [fees, cross-chain, port, Rosen, liquidity, block validation, consensus, timewarp vulnerability, Bitcoin cleanup, block times, 2 min average, 10 min blocks, timing attacks, subblocks, MEXC, listing, CEX, trading volume, exchange, eUTXO]
+---
 # Ergo General Chat — 2024-W17 Summary
 
 ## Key Topics Discussed

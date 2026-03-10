@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - June 19th"
+date: "2025-06-20"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=-1IRIQWv71Q
+video_id: -1IRIQWv71Q
+duration_minutes: 54
+speakers: [qx(), kushti]
+topics: [node-6.0, soft-fork, leveldb, rocksdb, mining-pools, nipopows, utxo-snapshots, sigmachain, merge-mined-sidechains, zephyr]
+companion_files: [20250620_-1IRIQWv71Q_transcript.txt, 20250620_-1IRIQWv71Q_qa.json, 20250620_-1IRIQWv71Q_decisions.json, 20250620_-1IRIQWv71Q_topics.json]
+---
 # Ergo PoW Blockchain Community Call Summary
 **Date:** June 20, 2025  
 **Title:** Ergo PoW Blockchain - Weekly Update & AMA - June 19th

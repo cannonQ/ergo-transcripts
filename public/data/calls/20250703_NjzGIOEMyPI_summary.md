@@ -1,3 +1,16 @@
+---
+title: "The Four states of a UTXO transaction | c8 | Ergoversary 2025"
+date: "2025-07-03"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=NjzGIOEMyPI
+video_id: NjzGIOEMyPI
+duration_minutes: 10
+speakers: [AI]
+topics: [utxo, proof-of-work, transaction-states, user-experience, unconfirmed, confirmed, erg, dexy-gold, swap, mempool]
+companion_files: [20250703_NjzGIOEMyPI_transcript.txt, 20250703_NjzGIOEMyPI_qa.json, 20250703_NjzGIOEMyPI_decisions.json, 20250703_NjzGIOEMyPI_topics.json]
+---
 # Ergo Community Call Summary: The Four States of a UTXO Transaction
 
 **Call Date:** July 3, 2025  

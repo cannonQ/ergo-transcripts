@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Dev Update Feb 24th 2025 |  Wallet, Node, Reputation, Mining, Rosen Bridge, and more!"
+date: "2025-02-24"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=nYqX9VC6mYw
+video_id: nYqX9VC6mYw
+duration_minutes: 20
+speakers: [qx()]
+topics: [hack, resilience, storage-rent, demurrage, multi-sig, smart-contract-security, mining-dao, sigmanauts, storage-rent-collection, paideia-voting]
+companion_files: [20250224_nYqX9VC6mYw_transcript.txt, 20250224_nYqX9VC6mYw_qa.json, 20250224_nYqX9VC6mYw_decisions.json, 20250224_nYqX9VC6mYw_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Date:** February 24, 2025  
 **Title:** Ergo PoW Dev Update - Wallet, Node, Reputation, Mining, Rosen Bridge Updates

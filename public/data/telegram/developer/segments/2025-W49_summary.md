@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W49"
+date_start: "2025-12-01"
+date_end: "2025-12-07"
+type: telegram_weekly
+channel: developer
+week: "2025-W49"
+source: telegram
+message_count: 70
+categories: [technical, community, wallet, defi, ecosystem, mining]
+key_terms: [pool contract, token IDs, stablecoin, action NFTs, compiler, good first issues, contributor onboarding, bounty list, GitHub labeling, explorer-backend, pull requests, safety deposit boxes, inheritance features, ergo-wallet-app, Android 15, iOS 18, MobiVM 2.3.24, XCode, USD Oracle V2, explorer-frontend]
+---
 # Ergo Developer Chat Summary — 2025-W49
 ## Period: 2025-12-01 to 2025-12-07
 

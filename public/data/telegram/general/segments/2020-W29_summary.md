@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W29"
+date_start: "2020-07-13"
+date_end: "2020-07-19"
+type: telegram_weekly
+channel: general
+week: "2020-W29"
+source: telegram
+message_count: 402
+categories: [ecosystem, wallet, technical, governance, defi, community, mining]
+key_terms: [Tidex, HotBit, ProBit, CITEX, liquidity, slippage, volume, Magnum Wallet, Coinbarn, Yoroi, desktop wallet, mobile app, browser extension, storage rent, lost coins, circulation, whitepaper, hard fork, v3.3.0, release]
+---
 # Ergo General Chat — 2020-W29 Summary
 
 ## Key Topics Discussed

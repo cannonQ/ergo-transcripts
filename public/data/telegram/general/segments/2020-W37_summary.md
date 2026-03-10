@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W37"
+date_start: "2020-09-07"
+date_end: "2020-09-13"
+type: telegram_weekly
+channel: general
+week: "2020-W37"
+source: telegram
+message_count: 0
+categories: [wallet, mining, ecosystem, defi, community, bridges, technical, marketing, governance]
+key_terms: [Magnum wallet, Yoroi, Coinbarn, wallet security, Ledger support, mining profits, daily emissions, hashrate, difficulty, miner dumps, halving schedule, Hotbit, exchange listing, Binance, KuCoin, liquidity, trading volume, USDT pair, oracle pools, Emurgo partnership]
+---
 # Ergo General Chat — Week 2020-W37 Summary
 
 ## Key Topics Discussed

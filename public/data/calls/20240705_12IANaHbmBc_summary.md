@@ -1,3 +1,16 @@
+---
+title: "Weekly Update & AMA - July 4th 2024"
+date: "2024-07-05"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=12IANaHbmBc
+video_id: 12IANaHbmBc
+duration_minutes: 59
+speakers: [AI, qx()]
+topics: [ergoversary, kushti, nervos, ckb, rgb, video-production, zengate, osaka, japan, dan]
+companion_files: [20240705_12IANaHbmBc_transcript.txt, 20240705_12IANaHbmBc_qa.json, 20240705_12IANaHbmBc_decisions.json, 20240705_12IANaHbmBc_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Date:** July 5, 2024  
 **Title:** Weekly Update & AMA - July 4th 2024

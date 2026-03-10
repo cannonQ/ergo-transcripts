@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W33"
+date_start: "2024-08-12"
+date_end: "2024-08-18"
+type: telegram_weekly
+channel: developer
+week: "2024-W33"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo Developer Chat Summary — 2024-W33
 **Period:** 2024-08-12 to 2024-08-18  
 **Messages:** 162 | **Participants:** 15

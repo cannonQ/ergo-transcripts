@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2026-W04"
+date_start: "2026-01-19"
+date_end: "2026-01-25"
+type: telegram_weekly
+channel: general
+week: "2026-W04"
+source: telegram
+message_count: 168
+categories: [technical, defi, ecosystem, bridges, wallet, governance]
+key_terms: [app store, direct publish, iOS, mobile wallet, VoltPay, integration, stables, testing, merchandise, mug, transaction, SigUSD, popup issue, Rosen, bridge, Nervos, Firo, cross-chain, USD pricing, backend]
+---
 # Ergo General Chat — 2026-W04 Summary
 
 ## Key Topics Discussed

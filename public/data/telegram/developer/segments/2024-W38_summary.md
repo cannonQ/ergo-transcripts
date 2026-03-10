@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W38"
+date_start: "2024-09-16"
+date_end: "2024-09-22"
+type: telegram_weekly
+channel: developer
+week: "2024-W38"
+source: telegram
+message_count: 120
+categories: [technical, wallet, defi, ecosystem, mining, nft]
+key_terms: [api.ergoplatform.org, disk space, indexer, threading issues, 5.0.23, token minting, EIP-4, issuance output, preservation law, token indexing, Sigma 6.0, unsigned big int, devnet, protocol upgrade, 6.0.0-alpha1, soft-fork, DerivationPath.fromEncoded, BIP-32, master key, path encoding]
+---
 # Ergo Developer Chat — 2024-W38 Summary
 
 ## Key Topics Discussed

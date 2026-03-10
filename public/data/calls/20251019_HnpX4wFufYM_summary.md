@@ -1,3 +1,16 @@
+---
+title: "Staking w/UTXO Model - MGPai - Implementing Native Token Staking on Ergo | Ergo Meetup 2025"
+date: "2025-10-19"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=HnpX4wFufYM
+video_id: HnpX4wFufYM
+duration_minutes: 46
+speakers: [AI]
+topics: [palm-staking, utxo-model, native-token-staking, sushiswap, pancakeswap, defi-summer, meme-coins, utxo, unspent-transaction-outputs, account-model]
+companion_files: [20251019_HnpX4wFufYM_transcript.txt, 20251019_HnpX4wFufYM_qa.json, 20251019_HnpX4wFufYM_decisions.json, 20251019_HnpX4wFufYM_topics.json]
+---
 # Ergo Community Call Summary - October 19, 2025
 
 ## Executive Summary

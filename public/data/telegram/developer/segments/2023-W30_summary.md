@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2023-W30"
+date_start: "2023-07-24"
+date_end: "2023-07-30"
+type: telegram_weekly
+channel: developer
+week: "2023-W30"
+source: telegram
+message_count: 140
+categories: [technical, wallet, governance, ecosystem, marketing, mining]
+key_terms: [Ergonnection, P2P, ErgoSocket, block headers, bouncycastle, dependencies, shadowJar, maven-publish, classpath, sigmastate, connection timeout, peer eviction, reconnection logic, modifier requests, magic bytes, protocol validation, node version, message format, Satergo, ErgoPay]
+---
 # Ergo Developer Chat — 2023-W30
 ## Summary (2023-07-24 to 2023-08-06)
 

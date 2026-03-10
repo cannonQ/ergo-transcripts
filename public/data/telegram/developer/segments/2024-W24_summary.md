@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W24"
+date_start: "2024-06-10"
+date_end: "2024-06-16"
+type: telegram_weekly
+channel: developer
+week: "2024-W24"
+source: telegram
+message_count: 225
+categories: [technical, wallet, governance, defi, ecosystem, community]
+key_terms: [sign_data, EIP-44, sigma-rust, transaction signing, Ledger, ergo-lib-go, signing performance, 1000+ inputs, optimization, benchmark, Fleet, Nautilus, Babel Fees, asset verification, bot prevention, ErgoAuth, blockly, ergoscript, multisig, AT_LEAST]
+---
 # Ergo Developer Chat Summary — 2024-W24
 **Period:** 2024-06-10 to 2024-06-16
 

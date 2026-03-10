@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W07"
+date_start: "2024-02-12"
+date_end: "2024-02-18"
+type: telegram_weekly
+channel: developer
+week: "2024-W07"
+source: telegram
+message_count: 144
+categories: [technical, wallet, defi, bridges, ecosystem, nft, mining, governance]
+key_terms: [v5.0.20, reference client, release, SigmaMap, ErgoLikeContext, Scala3, opaque types, Digest32, Digest64, supertagged, runtime type checks, wallet/payment/send, 400 Bad Request, maxInputs, timeout, UTXO boxes, Nautilus, message signing, EIP-44, SigmaProp]
+---
 # Ergo Developer Chat — 2024-W07 Summary
 
 ## Key Topics Discussed

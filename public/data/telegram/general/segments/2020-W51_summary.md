@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W51"
+date_start: "2020-12-14"
+date_end: "2020-12-20"
+type: telegram_weekly
+channel: general
+week: "2020-W51"
+source: telegram
+message_count: 0
+categories: [technical, ecosystem, nft, defi, bridges, wallet, community, mining, marketing, governance]
+key_terms: [Autolykos V2, pool resistance, hard fork, 2GB cards, FPGA, mining democratization, Ergo Summit, January 23, online presentations, headless dApp framework, headless dApp, EMURGO, Robert Kornacki, frontend decentralization, ErgoLib, React template, NFT auctions, ergoauctions.org, ergoutils.org, token issuance]
+---
 # Ergo General Chat — 2020-W51 Summary
 
 ## Key Topics Discussed

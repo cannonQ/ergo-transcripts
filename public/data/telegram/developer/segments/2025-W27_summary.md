@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W27"
+date_start: "2025-06-30"
+date_end: "2025-07-06"
+type: telegram_weekly
+channel: developer
+week: "2025-W27"
+source: telegram
+message_count: 76
+categories: [technical, nft, defi, wallet, mining, ecosystem, governance, research]
+key_terms: [subblocks, devnet, seed node, "PR #2055", optimization, NFT, minting, image format, IPFS, Lighthouse, Pinata, mewfinance, 6.0.1, protocol update, sonatype publishing, sigma-rust, consensus, merged mined, sidechains, Bitcoin]
+---
 # Ergo Developer Chat Summary — 2025-W27
 
 ## Key Topics Discussed

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2018-W01"
+date_start: "2018-01-01"
+date_end: "2018-01-07"
+type: telegram_weekly
+channel: general
+week: "2018-W01"
+source: telegram
+message_count: 188
+categories: [ecosystem, technical, governance, community]
+key_terms: [Bitcoin competitor, market adoption, merchant integration, established coins, PoW, Equihash, fair distribution, mining, NG protocol, 1100 tps, Waves implementation, block propagation, private transactions, smart contracts, non-Turing complete, hashgraph, PoW comparison, consensus mechanisms, token swap, EFYT to ERGO conversion]
+---
 # Ergo General Chat — 2018-W01 Summary
 
 ## Key Topics Discussed

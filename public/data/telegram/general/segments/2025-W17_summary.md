@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W17"
+date_start: "2025-04-21"
+date_end: "2025-04-27"
+type: telegram_weekly
+channel: general
+week: "2025-W17"
+source: telegram
+message_count: 423
+categories: [wallet, technical, governance, defi, ecosystem, marketing, community]
+key_terms: [Ledger Live, audited app, Nano S deprecation, developer mode removal, sub-blocks, block candidate generation, Sigma validation, devnet testing, testnet deployment, 6.0.0 release, soft-fork, code review, new applications, 16k lines, DexyGold, DexyUSD v2, liquidity pools, stability mechanism, Binance chain, collateral]
+---
 # Ergo General Chat — 2025-W17 Summary
 
 ## Key Topics Discussed

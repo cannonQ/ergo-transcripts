@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2023-W36"
+date_start: "2023-09-04"
+date_end: "2023-09-10"
+type: telegram_weekly
+channel: general
+week: "2023-W36"
+source: telegram
+message_count: 0
+categories: [defi, technical, marketing, ecosystem, governance, mining, bridges, wallet, community, nft]
+key_terms: [ergomixer, withdraw, transaction stuck, blocked mix, storage rent, demurrage, 4-year dormancy, miner revenue, Bitpanda, proof of work, staking misinformation, exchange listing, oracle-core v2.0.0, oracle pools, price oracles, Crux Finance, portfolio tracking, dApp aggregator, MVP, SigmaFi]
+---
 # Ergo General Chat Summary — 2023-W36
 
 ## Key Topics Discussed

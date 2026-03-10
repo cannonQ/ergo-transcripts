@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2022-W25"
+date_start: "2022-06-20"
+date_end: "2022-06-26"
+type: telegram_weekly
+channel: developer
+week: "2022-W25"
+source: telegram
+message_count: 101
+categories: [wallet, ecosystem, technical, community, governance]
+key_terms: [Satergo, v0.0.3, release, UI optimization, transaction history, price chart, mobile app, B4X, Visual Basic, wallet creation, address generation, API integration, TabbyPOS, payment terminal, wallet module, transaction receiving, testnet, 5.0 activation, tx cost, staking]
+---
 # Ergo Developer Chat Summary — 2022-W25
 
 ## Key Topics Discussed

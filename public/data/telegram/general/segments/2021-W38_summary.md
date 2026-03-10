@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W38"
+date_start: "2021-09-20"
+date_end: "2021-09-26"
+type: telegram_weekly
+channel: general
+week: "2021-W38"
+source: telegram
+message_count: 2204
+categories: [ecosystem, defi, wallet, mining, technical, nft, community]
+key_terms: [Cardano Summit, UTXO Alliance, partnership, announcement, Chainlink, oracle, competition, integration, price feeds, ErgoDEX, token, governance, liquidity, beta, Cardano, SigmaUSD, SigRSV, reserve ratio, collateral, AgeUSD]
+---
 # Ergo General Chat — 2021-W38 Summary
 **Period:** 2021-09-20 to 2021-09-26
 

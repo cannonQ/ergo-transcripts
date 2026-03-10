@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W36"
+date_start: "2025-09-01"
+date_end: "2025-09-07"
+type: telegram_weekly
+channel: developer
+week: "2025-W36"
+source: telegram
+message_count: 84
+categories: [technical, defi, ecosystem, wallet]
+key_terms: [testnet peers, port configuration, node syncing, connectivity, sub-blocks, p2p protocol, INV messages, announcement propagation, input blocks, devnet seed node, input blocks delivery, database layer, penalization, MCP server, CodeUTXO, dapp development, agent tools, ChainCash, Basis, micropayments]
+---
 # Ergo Developer Chat Summary — 2025-W36
 
 ## Key Topics Discussed

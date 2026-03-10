@@ -1,3 +1,16 @@
+---
+title: "SigmaQuest | TMR.ΣRG | ErgoHack 10"
+date: "2025-06-27"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=AlPaMbVyt4k
+video_id: AlPaMbVyt4k
+duration_minutes: 11
+speakers: [tmr.erg]
+topics: [sigmaquest, ergohack, first-project, vibe-coded, honeypot-wallet, seed-words, nautilus-wallet, 200-erg, prize-pool, cryopod]
+companion_files: [20250627_AlPaMbVyt4k_transcript.txt, 20250627_AlPaMbVyt4k_qa.json, 20250627_AlPaMbVyt4k_decisions.json, 20250627_AlPaMbVyt4k_topics.json]
+---
 # Ergo Community Call Summary: SigmaQuest | TMR.ΣRG | ErgoHack 10
 
 **Call Date:** 2025-06-27  

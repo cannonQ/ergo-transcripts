@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA (COMMUNITY EDITION) - August 7th"
+date: "2025-08-08"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=x-gTulAcJOE
+video_id: x-gTulAcJOE
+duration_minutes: 55
+speakers: [kushti, HQ3rr, qx(), glasgowm, Armeanio, Grayman]
+topics: [paper-wallet, vanity-address, on-chain-voting, alephium, paideia, node-6.1, sub-blocks, testnet, miners, soft-fork]
+companion_files: [20250808_x-gTulAcJOE_transcript.txt, 20250808_x-gTulAcJOE_qa.json, 20250808_x-gTulAcJOE_decisions.json, 20250808_x-gTulAcJOE_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Date:** August 8, 2025  
 **Call Title:** Ergo PoW Blockchain - Weekly Update & AMA (COMMUNITY EDITION) - August 7th

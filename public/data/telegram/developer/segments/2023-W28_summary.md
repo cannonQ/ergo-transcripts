@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2023-W28"
+date_start: "2023-07-10"
+date_end: "2023-07-16"
+type: telegram_weekly
+channel: developer
+week: "2023-W28"
+source: telegram
+message_count: 75
+categories: [technical, defi, ecosystem, nft, governance]
+key_terms: [int overflow, bigint conversion, Long type, price calculation, explorer API, SSL, endpoint issues, mainnet, UTXO snapshot, bootstrap, node v5.0.12, height 1044479, zeromq, TCP, P2P, node architecture, Inv message, ergotree, sigmastate, p2pk]
+---
 # Ergo Developer Chat Summary — 2023-W28
 **Period:** 2023-07-10 to 2023-07-16  
 **Participants:** 13 | **Messages:** 75

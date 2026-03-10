@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W21"
+date_start: "2025-05-19"
+date_end: "2025-05-25"
+type: telegram_weekly
+channel: developer
+week: "2025-W21"
+source: telegram
+message_count: 51
+categories: [technical, bridges, defi]
+key_terms: [6.0 protocol, tree serialization, sigma-rust, PR review, sub-blocks devnet, weak-blocks branch, P2P layer, node synchronization, Rosen Bridge, Bitcoin Runes, Wallet Connect, rate limiting, guard-service, Dexy contracts, mainnet deployment, CC0 license, private testing, Fleet SDK, ErgoTree extraction, OutputBuilder]
+---
 # Ergo Developer Chat Summary — Week 2025-W21
 
 ## Key Topics Discussed

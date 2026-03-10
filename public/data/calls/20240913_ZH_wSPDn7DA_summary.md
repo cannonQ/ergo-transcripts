@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - September 12th 2024"
+date: "2024-09-13"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=ZH_wSPDn7DA
+video_id: ZH_wSPDn7DA
+duration_minutes: 54
+speakers: [qx(), kushti]
+topics: [spaces, memetics, marketing, community-bubbles, outreach, crypto-bubbles, user-acquisition, miners, bitcoin-supporters, ecosystem-migration]
+companion_files: [20240913_ZH_wSPDn7DA_transcript.txt, 20240913_ZH_wSPDn7DA_qa.json, 20240913_ZH_wSPDn7DA_decisions.json, 20240913_ZH_wSPDn7DA_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Date:** September 13, 2024  
 **Title:** Ergo PoW Blockchain - Weekly Update & AMA - September 12th 2024

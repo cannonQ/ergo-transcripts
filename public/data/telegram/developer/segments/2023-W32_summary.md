@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2023-W32"
+date_start: "2023-08-07"
+date_end: "2023-08-13"
+type: telegram_weekly
+channel: developer
+week: "2023-W32"
+source: telegram
+message_count: 108
+categories: [technical, defi, nft, marketing, wallet, community]
+key_terms: [PR review, ergo-wallet-app, explorer-frontend, GitHub, P2P protocol, magic number, connection handling, ergonnection, P2P library, Maven central, testnet magic, ErgoScript, auto-upcast, ErgoTree, type conversion, Ergasia, Prisma ORM, authentication, API endpoints, database schema]
+---
 # Ergo Developer Chat Summary — 2023-W32
 **Period:** 2023-08-07 to 2023-08-20  
 **Messages reviewed:** 108  

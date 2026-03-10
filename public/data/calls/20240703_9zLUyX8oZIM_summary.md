@@ -1,3 +1,16 @@
+---
+title: "RGB++ Protocol | Cipher | Ergoversary Summit 2024"
+date: "2024-07-03"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=9zLUyX8oZIM
+video_id: 9zLUyX8oZIM
+duration_minutes: 16
+speakers: [Cipher]
+topics: [rgb++-protocol, native-programmability, bitcoin-scalability, pow, utxo, rollups, bitcoin-layer-2, sidechains, bitvm, lightning-network]
+companion_files: [20240703_9zLUyX8oZIM_transcript.txt, 20240703_9zLUyX8oZIM_qa.json, 20240703_9zLUyX8oZIM_decisions.json, 20240703_9zLUyX8oZIM_topics.json]
+---
 # Ergo Community Call Summary - July 3, 2024
 
 ## Executive Summary

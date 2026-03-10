@@ -1,3 +1,16 @@
+---
+title: "Lithos | Cheese Enthusiast | Ergoversary 2025"
+date: "2025-07-02"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=oCvNSxSff4k
+video_id: oCvNSxSff4k
+duration_minutes: 13
+speakers: [Cheese Enthusiast]
+topics: [lithos, decentralized-mining-pool, smart-contracts, block-production, storage-rent, collateralization, mev, demurrage, lithos-client, stratum-server]
+companion_files: [20250702_oCvNSxSff4k_transcript.txt, 20250702_oCvNSxSff4k_qa.json, 20250702_oCvNSxSff4k_decisions.json, 20250702_oCvNSxSff4k_topics.json]
+---
 # Ergo Community Call Summary: Lithos Mining Pool Protocol
 
 **Call Date:** 2025-07-02  

@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W49"
+date_start: "2024-12-02"
+date_end: "2024-12-08"
+type: telegram_weekly
+channel: developer
+week: "2024-W49"
+source: telegram
+message_count: 224
+categories: [technical, defi, nft, wallet, ecosystem, mining, community]
+key_terms: [AVL trees, metadata hashing, context variables, sigmastate-js, Fleet SDK, SigmaUSD, bank v2, contract deployment, testnet, oracle pool, 6.0 release, sigmastate-interpreter, PR reviews, RC2 release, protocol upgrade, Fleet, mainnet/testnet, compiler flag, network parameter, PK() function]
+---
 # Ergo Developer Chat Summary — 2024-W49
 
 ## Key Topics Discussed

@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Community Chat - September 25th"
+date: "2025-09-26"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=H6MvJSM72R4
+video_id: H6MvJSM72R4
+duration_minutes: 48
+speakers: [qx(), kushti, HQ3rr, Grayman]
+topics: [htx-global, delisting-threats, extortion-fees, marketing-fees, github-repository, receipts, sub-blocks, devnet, mempool-tracking, transaction-bombing]
+companion_files: [20250926_H6MvJSM72R4_transcript.txt, 20250926_H6MvJSM72R4_qa.json, 20250926_H6MvJSM72R4_decisions.json, 20250926_H6MvJSM72R4_topics.json]
+---
 # Ergo Community AMA Summary - September 25th, 2025
 
 ## Executive Summary

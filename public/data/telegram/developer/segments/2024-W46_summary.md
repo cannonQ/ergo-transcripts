@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W46"
+date_start: "2024-11-11"
+date_end: "2024-11-17"
+type: telegram_weekly
+channel: developer
+week: "2024-W46"
+source: telegram
+message_count: 79
+categories: [wallet, technical, defi, mining, ecosystem]
+key_terms: [Nautilus, dApp Connector, documentation, wallet interaction, transaction signing, 6.0 protocol, soft-fork, sigma-rust, unsigned big int, "PR #777", spent box indices, fork processing, bug fix, 5.0.25 release, database sync, SigmaUSD, contract tests, testnet deployment, pool, bank]
+---
 # Ergo Developer Chat Summary — 2024-W46
 **Period:** 2024-11-11 to 2024-11-17  
 **Participants:** kushti, anon_BR (Alison Robson), luivatra (Luca), Marc the Shark, Michael, Aberg, mgPai, and others via DiscordBridge

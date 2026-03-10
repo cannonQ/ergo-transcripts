@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2023-W13"
+date_start: "2023-03-27"
+date_end: "2023-04-02"
+type: telegram_weekly
+channel: developer
+week: "2023-W13"
+source: telegram
+message_count: 56
+categories: [technical, nft, defi]
+key_terms: [remote node, explorer, peer list, Satergo, ergohack library, PostgreSQL btree index, hash index, ergo_tree, node_outputs, index row size, buffer page, mempool, double spending, transaction replacement, minimum fee, config box, ECDSA, EdDSA, threshold signature, security disclosure]
+---
 # Ergo Developer Chat — 2023-W13 Summary
 
 ## Key Topics Discussed

@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - October 17th 2024"
+date: "2024-10-18"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=H--NhfdH98U
+video_id: H--NhfdH98U
+duration_minutes: 57
+speakers: [kushti, qx()]
+topics: [soft-fork, sub-blocks, devnet, protocol-upgrade, node-compatibility, leveldb, rocksdb, database-migration, performance-testing, crash-durability]
+companion_files: [20241018_H--NhfdH98U_transcript.txt, 20241018_H--NhfdH98U_qa.json, 20241018_H--NhfdH98U_decisions.json, 20241018_H--NhfdH98U_topics.json]
+---
 # Ergo PoW Blockchain Community Call Summary
 **Date:** October 18, 2024
 **Call Title:** Ergo PoW Blockchain - Weekly Update & AMA - October 17th 2024

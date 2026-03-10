@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2024-W35"
+date_start: "2024-08-26"
+date_end: "2024-09-01"
+type: telegram_weekly
+channel: general
+week: "2024-W35"
+source: telegram
+message_count: 471
+categories: [technical, marketing, community, defi, mining, bridges, ecosystem, wallet]
+key_terms: [v6.0.0-alpha0, devnets, protocol client, CoinGecko, listing, volume, organic attention, bober, GIF, Telegram, IRC, Matrix, Slack, DarkIRC, messenger alternatives, privacy, Gluon Gold SDK, raffle, StabilityNexus, contributors]
+---
 # Ergo General Chat — 2024-W35 Summary
 
 ## Key Topics Discussed

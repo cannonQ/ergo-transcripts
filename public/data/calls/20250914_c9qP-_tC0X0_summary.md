@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Community Chat - September 11th"
+date: "2025-09-14"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=c9qP-_tC0X0
+video_id: c9qP-_tC0X0
+duration_minutes: 60
+speakers: [kushti, qx(), Grayman, Dmitriy, Ben]
+topics: [community-ama, infrastructure, p2p-network, hosting-migration, cost-reduction, node-6.0, sub-blocks, sigma-sdk, devnet, block-timing]
+companion_files: [20250914_c9qP-_tC0X0_transcript.txt, 20250914_c9qP-_tC0X0_qa.json, 20250914_c9qP-_tC0X0_decisions.json, 20250914_c9qP-_tC0X0_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Date:** September 14, 2025 (Call Title references September 11th)
 

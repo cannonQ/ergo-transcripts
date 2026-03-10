@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W40"
+date_start: "2025-09-29"
+date_end: "2025-10-05"
+type: telegram_weekly
+channel: general
+week: "2025-W40"
+source: telegram
+message_count: 345
+categories: [defi, ecosystem, bridges, technical, governance, mining, community, wallet]
+key_terms: [USE, stablecoin, Dexy, DORT, USD-pegged, algorithmic, GitCircles, community currencies, open source, monetary innovation, Basis, Chaincash, offchain cash, p2p networks, agent-to-agent payments, Rosen Bridge, Bitcoin Runes, wrapped assets, cross-chain, Cardano]
+---
 # Ergo General Chat — Week 2025-W40 Summary
 
 ## Key Topics Discussed

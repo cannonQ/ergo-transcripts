@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2023-W49"
+date_start: "2023-12-04"
+date_end: "2023-12-10"
+type: telegram_weekly
+channel: general
+week: "2023-W49"
+source: telegram
+message_count: 708
+categories: [defi, technical, bridges, mining, governance, wallet, community, marketing, ecosystem, nft]
+key_terms: [SigUSD, collateralization, oracle, governance, risk, subblocks, soft confirmations, block time, ETA, Rosen, watcher, guard, ADA, cross-chain, protocol development, sigmastate, ChainCash, sidechains, Dexy, hashrate]
+---
 # Ergo General Chat — 2023-W49 Summary
 
 ## Key Topics Discussed

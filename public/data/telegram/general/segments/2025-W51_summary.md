@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W51"
+date_start: "2025-12-15"
+date_end: "2025-12-21"
+type: telegram_weekly
+channel: general
+week: "2025-W51"
+source: telegram
+message_count: 0
+categories: [technical, governance, defi, community, mining, bridges, marketing, ecosystem, wallet]
+key_terms: [ergoforum.org, server migration, DNS, Chrome cache, 301 redirect, EIP-33, demurrage, token burning, miners, reemission, wrapped ERG, wERG, native tokens, ErgoDex, contract design, testnet node, knownPeers, peer discovery, node configuration, mining]
+---
 # Ergo General Chat — 2025-W51 Summary
 
 ## Key Topics Discussed

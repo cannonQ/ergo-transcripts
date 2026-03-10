@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2024-W04"
+date_start: "2024-01-22"
+date_end: "2024-01-28"
+type: telegram_weekly
+channel: general
+week: "2024-W04"
+source: telegram
+message_count: 0
+categories: [technical, bridges, defi, governance, marketing, community, wallet, ecosystem]
+key_terms: [Fleet, Sigma Rust, AppKit, ergpy, Python wrapper, Rosen Bridge, rsERG, rsADA, cross-chain, Watchers, RSN tokens, SigUSD, SigRSV, minting, reserve ratio, treasury, AgeUSD, Spectrum Finance, ERG/SPF pool, ERG/SigRSV]
+---
 # Ergo General Chat Summary — 2024-W04 (2024-01-22 to 2024-01-28)
 
 ## Key Topics Discussed

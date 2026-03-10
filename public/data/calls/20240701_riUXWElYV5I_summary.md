@@ -1,3 +1,16 @@
+---
+title: "Trade House | anon_real | Ergoversary Summit 2024"
+date: "2024-07-01"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=riUXWElYV5I
+video_id: riUXWElYV5I
+duration_minutes: 10
+speakers: [anon_real]
+topics: [trade-house, order-book-dex, amm-trading, spectrum, slippage, partial-filling, trustless, audited-contracts, on-chain-execution, off-chain-bots]
+companion_files: [20240701_riUXWElYV5I_transcript.txt, 20240701_riUXWElYV5I_qa.json, 20240701_riUXWElYV5I_decisions.json, 20240701_riUXWElYV5I_topics.json]
+---
 # Ergo Community Call Summary
 
 **Date:** July 1, 2024  

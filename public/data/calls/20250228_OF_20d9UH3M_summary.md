@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - February 27th"
+date: "2025-02-28"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=OF_20d9UH3M
+video_id: OF_20d9UH3M
+duration_minutes: 63
+speakers: [kushti, qx()]
+topics: [ergo-ecosystem, decentralized-protocol, hong-kong-consensus, official-entities, sigmanauts, github-repository, reference-implementation, sigma-rust, ergotree, ergoscript]
+companion_files: [20250228_OF_20d9UH3M_transcript.txt, 20250228_OF_20d9UH3M_qa.json, 20250228_OF_20d9UH3M_decisions.json, 20250228_OF_20d9UH3M_topics.json]
+---
 # Ergo PoW Blockchain - Weekly Update & AMA - February 27th, 2025
 
 ## Executive Summary

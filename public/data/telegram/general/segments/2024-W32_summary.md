@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2024-W32"
+date_start: "2024-08-05"
+date_end: "2024-08-11"
+type: telegram_weekly
+channel: general
+week: "2024-W32"
+source: telegram
+message_count: 747
+categories: [defi, ecosystem, technical, bridges, mining, community, wallet]
+key_terms: [Gluon Gold, GAU, GAUC, fission, fusion, transmute, reserve ratio, stablecoin, SigUSD, liquidations, duckpools, borrower safety, UI fees, user experience, minimal design, protocol fees, sustainability, essential tools, airdrop, token minting]
+---
 # Ergo General Chat Summary — 2024-W32
 
 ## Key Topics Discussed

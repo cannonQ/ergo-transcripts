@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2018-W15"
+date_start: "2018-04-09"
+date_end: "2018-04-15"
+type: telegram_weekly
+channel: general
+week: "2018-W15"
+source: telegram
+message_count: 63
+categories: [mining, technical, ecosystem, community, marketing]
+key_terms: [POW, GPU mining, masternode, smart contracts, SigmaState, LangSpec, contract memory, OOP, Tauchain, non-Turing complete, development comparison, commits, token price, buy vs mine, mainnet launch, market stability, ZCash comparison, hackathon, Moscow Digital October, Sigma language]
+---
 # Ergo General Chat — 2018-W15 Summary
 **Period:** 2018-04-09 to 2018-04-22  
 **Participants:** 10  

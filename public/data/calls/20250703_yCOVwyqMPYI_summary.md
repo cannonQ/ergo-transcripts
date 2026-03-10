@@ -1,3 +1,16 @@
+---
+title: "Gluon Update | Bruno | Ergoversary 2025"
+date: "2025-07-03"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=yCOVwyqMPYI
+video_id: yCOVwyqMPYI
+duration_minutes: 10
+speakers: [Bruno]
+topics: [gluon, stablecoin-protocol, gluon-golden-ergo, autonomous, gold-backed, gluon.gold, security-audit, krasavice-blazen, vulnerabilities, code-inspection]
+companion_files: [20250703_yCOVwyqMPYI_transcript.txt, 20250703_yCOVwyqMPYI_qa.json, 20250703_yCOVwyqMPYI_decisions.json, 20250703_yCOVwyqMPYI_topics.json]
+---
 # Ergo Community Call Summary
 **Date:** July 3, 2025  
 **Topic:** Gluon Update | Bruno | Ergoversary 2025

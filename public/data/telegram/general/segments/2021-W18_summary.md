@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W18"
+date_start: "2021-05-03"
+date_end: "2021-05-09"
+type: telegram_weekly
+channel: general
+week: "2021-W18"
+source: telegram
+message_count: 2249
+categories: [ecosystem, wallet, defi, bridges, nft, mining, marketing]
+key_terms: [binance, kucoin, huobi, exchange listings, liquidity, premine, coinex, gate.io, withdrawal suspended, maintenance, deposit problems, ledger, hardware wallet, tesseract, opolo, yoroi, sigmausd, sigrsv, bearwhale, reserve ratio]
+---
 # Ergo General Chat — 2021-W18 Summary
 **Period:** 2021-05-03 to 2021-05-09
 

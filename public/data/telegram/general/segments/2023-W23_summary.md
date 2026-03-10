@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2023-W23"
+date_start: "2023-06-05"
+date_end: "2023-06-11"
+type: telegram_weekly
+channel: general
+week: "2023-W23"
+source: telegram
+message_count: 1042
+categories: [technical, bridges, defi, wallet, governance, ecosystem, community]
+key_terms: [explorer, API, token search, NFT data, hex conversion, Rosen Bridge, Cardano, wrapped tokens, public beta, EVM chains, Spectrum Network, Cardano DEX, liquidity, marketing, whitepaper, Yoroi, seed phrase recovery, Nautilus, Ergo Wallet, migration]
+---
 # Ergo General Chat — 2023-W23 Summary
 
 ## Key Topics Discussed

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2024-W30"
+date_start: "2024-07-22"
+date_end: "2024-07-28"
+type: telegram_weekly
+channel: general
+week: "2024-W30"
+source: telegram
+message_count: 0
+categories: [technical, ecosystem, defi, bridges, governance, community, mining]
+key_terms: [sub-blocks, scalability, weak confirmation, p2p load distribution, block time, SigmaChain, merged mining, Sigma 6.0, sidechain, standalone blockchain, developer report, Artemis, ErgCube, SigmaVerse, ecosystem tools, ChainCash, BRICS, mutual credit clearing, CFA zone, reserve commodity currency]
+---
 # Ergo General Chat — Week 2024-W30 Summary
 
 ## Key Topics Discussed

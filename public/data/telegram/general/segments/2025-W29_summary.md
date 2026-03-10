@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W29"
+date_start: "2025-07-14"
+date_end: "2025-07-20"
+type: telegram_weekly
+channel: general
+week: "2025-W29"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo General Chat — 2025-W29 Summary
 **Period:** 2025-07-14 to 2025-07-20  
 **Total Messages:** 827  

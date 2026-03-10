@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W37"
+date_start: "2025-09-08"
+date_end: "2025-09-14"
+type: telegram_weekly
+channel: general
+week: "2025-W37"
+source: telegram
+message_count: 0
+categories: [community, wallet, defi, ecosystem, marketing, technical, mining, governance]
+key_terms: [community chat, weekly update, AMA, developer update, Zoom, YouTube broadcast, scam tokens, airdrop, wallet security, Nautilus, ErgExplorer, scam list, burning tokens, SigmaUSD, SigUSD, stablecoin, peg, collateralization, minting, ErgoMixer]
+---
 # Ergo General Chat — Week 2025-W37 Summary
 
 ## Key Topics Discussed

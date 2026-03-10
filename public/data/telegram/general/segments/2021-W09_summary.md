@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W09"
+date_start: "2021-03-01"
+date_end: "2021-03-07"
+type: telegram_weekly
+channel: general
+week: "2021-W09"
+source: telegram
+message_count: 2536
+categories: [defi, governance, wallet, nft, ecosystem, marketing, bridges]
+key_terms: [SigmaUSD, SigRSV, front-running, whale, oracle pool, contract freeze, reserve ratio, AgeUSD, v2.0, fee increase, redeployment, oracle pool governance, parameter changes, oracle pools, governance token, decentralization, parameter updates, anonymous developers, redemption, losses]
+---
 # Ergo General Chat — 2021-W09 Summary
 ## Period: 2021-03-01 to 2021-03-07
 

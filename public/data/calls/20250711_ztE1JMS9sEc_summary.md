@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - July 10th"
+date: "2025-07-11"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=ztE1JMS9sEc
+video_id: ztE1JMS9sEc
+duration_minutes: 43
+speakers: [qx(), kushti]
+topics: [6.0-voting, miners, sigmausd, storage-rent, dubai, btc-asia, korean-blockchain-week, conferences, marketing, useful-applications]
+companion_files: [20250711_ztE1JMS9sEc_transcript.txt, 20250711_ztE1JMS9sEc_qa.json, 20250711_ztE1JMS9sEc_decisions.json, 20250711_ztE1JMS9sEc_topics.json]
+---
 # Ergo Community Call Summary - July 11, 2025
 
 ## Executive Summary

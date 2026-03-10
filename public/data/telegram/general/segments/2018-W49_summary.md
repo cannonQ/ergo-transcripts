@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2018-W49"
+date_start: "2018-12-03"
+date_end: "2018-12-09"
+type: telegram_weekly
+channel: general
+week: "2018-W49"
+source: telegram
+message_count: 87
+categories: [governance, mining, community, technical, ecosystem, wallet, marketing]
+key_terms: [mainnet, launch, January 2019, TestNet, version 1.8, version 1.9, GPU mining, equihash, 2GB memory, testnet2, PoW, CPU mining, mining firm, Community Common Goods Pool, mining rewards, launch support, testnet 1.8, GitHub release, v1.8.0, developers]
+---
 # Ergo General Chat — 2018-W49 Summary
 
 ## Key Topics Discussed

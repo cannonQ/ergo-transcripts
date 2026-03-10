@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2022-W41"
+date_start: "2022-10-10"
+date_end: "2022-10-16"
+type: telegram_weekly
+channel: developer
+week: "2022-W41"
+source: telegram
+message_count: 50
+categories: [technical, defi, wallet, ecosystem]
+key_terms: [block version 3, interpreter 5.0, 5.0.0-RC3, protocol upgrade, 4.0.104, PaiNet settings, node development, monotonic creation height, EIP, "PR #1865", protocol review, grid trading, offchain bots, contract tracking, Dexy, payment identifier, iOS wallet, QR code, payment portal, local economy wallet]
+---
 # Ergo Developer Chat Summary — 2022-W41
 
 ## Key Topics Discussed

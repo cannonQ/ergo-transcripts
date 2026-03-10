@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W52"
+date_start: "2019-12-23"
+date_end: "2019-12-29"
+type: telegram_weekly
+channel: general
+week: "2019-W52"
+source: telegram
+message_count: 80
+categories: [technical, ecosystem, community, defi, wallet]
+key_terms: [api-key, secret, installer, automation, ERG, ERGO, Waves exchange, token symbol, mobile app, medium of exchange, store of value, barter, free markets, PoW cryptocurrencies, Scala, ErgoTree, ErgoScript, sigmastate-interpreter, minimal state representation, atomic swaps]
+---
 # Ergo General Chat — 2019-W52 Summary
 **Period:** 2019-12-23 to 2019-12-28 | **Messages:** 80 | **Participants:** 13
 

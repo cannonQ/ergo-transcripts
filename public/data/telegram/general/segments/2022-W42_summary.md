@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2022-W42"
+date_start: "2022-10-17"
+date_end: "2022-10-23"
+type: telegram_weekly
+channel: general
+week: "2022-W42"
+source: telegram
+message_count: 606
+categories: [ecosystem, wallet, governance, defi, bridges, mining, nft, marketing, community]
+key_terms: [KuCoin, withdrawals, deposits, UTXO dust, miner consolidation, exchange friction, Ledger, Nano S, Nano X, RAM constraints, TX display, security audit, Tesseract, Paideia, DAO creation, web2 demo, community space, giveaway, Twitter space, Night Owl Casino]
+---
 # Ergo General Chat — 2022-W42 Summary
 
 ## Key Topics Discussed

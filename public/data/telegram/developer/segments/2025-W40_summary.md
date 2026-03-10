@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W40"
+date_start: "2025-09-29"
+date_end: "2025-10-05"
+type: telegram_weekly
+channel: developer
+week: "2025-W40"
+source: telegram
+message_count: 55
+categories: [technical, governance, ecosystem, wallet, defi, marketing, bridges]
+key_terms: [node sync, block desync, penalty scoring, network configuration, input blocks, ordering blocks, mempool, protocol 6.0, whitepaper, bounties, fundraising, sigma-rust, KeyStone integration, token burning, inputs/outputs, transaction validation, GitCircles, LLM, pull requests, infrastructure]
+---
 # Ergo Developer Chat Summary — 2025-W40
 
 ## Key Topics Discussed

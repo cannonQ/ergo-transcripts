@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W34"
+date_start: "2020-08-17"
+date_end: "2020-08-23"
+type: telegram_weekly
+channel: general
+week: "2020-W34"
+source: telegram
+message_count: 779
+categories: [governance, technical, defi, wallet, ecosystem, mining, community, marketing]
+key_terms: [EMURGO, Robert Kornacki, board member, partnership, Cardano, 3.3.1, protocol, release, client, GitHub, oracle pools, proof of concept, ChainLink comparison, August deadline, mixer, ZeroJoin, privacy, covert address, token mixing, Yoroi]
+---
 # Ergo General Chat — 2020-W34 Summary
 **Period:** 2020-08-17 to 2020-08-23 | **Messages:** 779
 

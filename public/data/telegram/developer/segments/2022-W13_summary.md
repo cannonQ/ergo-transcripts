@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2022-W13"
+date_start: "2022-03-28"
+date_end: "2022-04-03"
+type: telegram_weekly
+channel: developer
+week: "2022-W13"
+source: telegram
+message_count: 80
+categories: [technical, bridges, wallet]
+key_terms: [sync, stuck blocks, memory requirements, nbminer, block height 716799, P2P protocol, TCP handshake, message specification, peer connection, network messages, handshake, connection closure, DataInputStream, address encoding, port encoding, Rosen, guard set, staking, slashing, governance]
+---
 # Ergo Developer Chat Summary — 2022-W13
 **Period:** 2022-03-28 to 2022-04-17  
 **Participants:** 9 developers  

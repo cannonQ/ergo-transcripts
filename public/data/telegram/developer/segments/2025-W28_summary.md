@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W28"
+date_start: "2025-07-07"
+date_end: "2025-07-13"
+type: telegram_weekly
+channel: developer
+week: "2025-W28"
+source: telegram
+message_count: 74
+categories: [technical, wallet, ecosystem, defi]
+key_terms: [sidechains, merged-mining, Rust, framework, sidechain spec, testnet, wallet, scanning, synchronization, EIP-27, node configuration, rollbacks, finality, block confirmation, double-spending, security, Nautilus, multi-transaction, chaining, Fleet SDK]
+---
 # Ergo Developer Chat — Week 2025-W28 Summary
 
 ## Key Topics Discussed

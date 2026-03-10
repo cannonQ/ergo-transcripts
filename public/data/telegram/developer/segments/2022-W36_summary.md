@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2022-W36"
+date_start: "2022-09-05"
+date_end: "2022-09-11"
+type: telegram_weekly
+channel: developer
+week: "2022-W36"
+source: telegram
+message_count: 80
+categories: [technical, mining, ecosystem, defi]
+key_terms: [mempool, double spending, transaction fees, rejection, Minergo, mining pools, GPU overclocking, web UI, pool statistics, Ergonodes.net, explorer API, GraphQL, UI deployment, node browsing, Akka, Spring Boot, Micronaut, Netty, JVM framework, servlet containers]
+---
 # Ergo Developer Chat — 2022-W36 Summary
 
 ## Key Topics Discussed

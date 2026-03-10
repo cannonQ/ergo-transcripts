@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W22"
+date_start: "2020-05-25"
+date_end: "2020-05-31"
+type: telegram_weekly
+channel: general
+week: "2020-W22"
+source: telegram
+message_count: 538
+categories: [technical, governance, mining, ecosystem, community, defi, marketing, wallet]
+key_terms: [v3.2.5, node update, connectivity improvements, fork handling, storage rent, 4-year to 2-year reduction, economic stability, hardening fork, memory-hardness, Autolykos, ASIC resistance, BigEvilSoloMiner proposal, JIT costing, script execution, contract optimization, @morphic proposal, mining pool, pool resistance, collateral contracts, decentralized pools]
+---
 # Ergo General Chat — 2020-W22 Summary
 **Period:** 2020-05-25 to 2020-05-31  
 **Key Participants:** kushti (core dev), Jason Davies (pool dev), bez, scalahub, others

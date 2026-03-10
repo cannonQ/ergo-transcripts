@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2018-W11"
+date_start: "2018-03-12"
+date_end: "2018-03-18"
+type: telegram_weekly
+channel: general
+week: "2018-W11"
+source: telegram
+message_count: 118
+categories: [ecosystem, governance, mining, community, technical]
+key_terms: [EFYT, token purchase, Waves DEX, liquidity, trading, mainnet launch, TestNet, ICO decision, May timeline, year timeline, total supply, circulating supply, emission rate, 100M coins, token release, market cap valuation, PoW mining, ErgoMoney, ErgoData, mining launch]
+---
 # Ergo General Chat — 2018-W11 Summary
 
 ## Key Topics Discussed

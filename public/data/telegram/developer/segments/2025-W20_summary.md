@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W20"
+date_start: "2025-05-12"
+date_end: "2025-05-18"
+type: telegram_weekly
+channel: developer
+week: "2025-W20"
+source: telegram
+message_count: 59
+categories: [technical, bridges, defi]
+key_terms: [6.0.0, soft-fork, Sigma, protocol upgrade, voting, sub-blocks, devnet, weak-blocks, mining, CPU mining, ordering blocks, EIP, transaction section, client, Rosen Bridge, Doge, scanner, guard-service, health-check, Fleet SDK]
+---
 # Ergo Developer Chat Summary — 2025-W20
 **Period:** 2025-05-13 to 2025-05-18  
 **Participants:** 8  

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2024-W12"
+date_start: "2024-03-18"
+date_end: "2024-03-24"
+type: telegram_weekly
+channel: general
+week: "2024-W12"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo General Chat Summary — 2024-W12
 **Period:** 2024-03-18 to 2024-03-24  
 **Messages Processed:** 781  

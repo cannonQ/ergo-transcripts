@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2018-W04"
+date_start: "2018-01-22"
+date_end: "2018-01-28"
+type: telegram_weekly
+channel: general
+week: "2018-W04"
+source: telegram
+message_count: 104
+categories: [marketing, wallet, technical, ecosystem, governance, community]
+key_terms: [website design, UX/UI, branding, mainnet, logo, rebranding, EFYT, Waves DEX, waveswallet.io, cold storage, token purchase, Waves security, desktop wallet, Kudelski audit, decentralized, sigma protocol, research paper, technical education, decentralized mining, smart contracts]
+---
 # Ergo General Chat — 2018-W04 Summary
 
 ## Key Topics Discussed

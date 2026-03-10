@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2017-W45"
+date_start: "2017-11-06"
+date_end: "2017-11-12"
+type: telegram_weekly
+channel: general
+week: "2017-W45"
+source: telegram
+message_count: 178
+categories: [governance, technical, mining, ecosystem, marketing]
+key_terms: [supply, inflation, 50M first year, 100M total, market valuation, EFYT conversion, TestNet, internal testing, debugging, December 4 release, benchmarks, Equihash, smartphone validation, transaction fees, rewards, validators, authenticated data structures, verifiers, provers, balance information]
+---
 # Ergo General Chat — 2017-W45 Summary
 
 ## Key Topics Discussed

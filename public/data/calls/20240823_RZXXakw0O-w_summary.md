@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - August 22nd 2024"
+date: "2024-08-23"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=RZXXakw0O-w
+video_id: RZXXakw0O-w
+duration_minutes: 40
+speakers: [AI, kushti, qx()]
+topics: [rare-evo, conference-booth, palmyra, rosen-bridge, marketing-strategy, mining-hats, merchandise, swag, proof-of-work, marketing-appeal]
+companion_files: [20240823_RZXXakw0O-w_transcript.txt, 20240823_RZXXakw0O-w_qa.json, 20240823_RZXXakw0O-w_decisions.json, 20240823_RZXXakw0O-w_topics.json]
+---
 # Ergo PoW Blockchain Community Call Summary
 **Date:** August 23, 2024  
 **Call Title:** Ergo PoW Blockchain - Weekly Update & AMA - August 22nd 2024

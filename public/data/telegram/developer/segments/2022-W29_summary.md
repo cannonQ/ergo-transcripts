@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2022-W29"
+date_start: "2022-07-18"
+date_end: "2022-07-24"
+type: telegram_weekly
+channel: developer
+week: "2022-W29"
+source: telegram
+message_count: 55
+categories: [technical, wallet, ecosystem, defi]
+key_terms: [node, sync, database, JDK 18, blockchain, AVL tree, PersistentBatchAVLProver, Satergo, release, offline mode, addresses, sync progress, explorer, API, Cloudflare, Tor, browser verification, ergonodes.net, monitoring, dashboard]
+---
 # Ergo Developer Chat Summary — 2022-W29
 
 ## Key Topics Discussed

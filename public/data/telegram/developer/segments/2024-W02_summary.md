@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W02"
+date_start: "2024-01-08"
+date_end: "2024-01-14"
+type: telegram_weekly
+channel: developer
+week: "2024-W02"
+source: telegram
+message_count: 61
+categories: [technical, ecosystem, wallet, bridges, community]
+key_terms: [ergonodes.net, web library, HTTPS support, infrastructure, website repo, i18n, content locales, GitHub, stealth addresses, cryptography, covert addresses, privacy, mempool, rebroadcastCount, epoch, transactions, address derivation, seed, mnemonic, wallet synchronization]
+---
 # Ergo Developer Chat Summary — 2024-W02
 
 ## Key Topics Discussed

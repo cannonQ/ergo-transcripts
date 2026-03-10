@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2017-W49"
+date_start: "2017-12-04"
+date_end: "2017-12-10"
+type: telegram_weekly
+channel: general
+week: "2017-W49"
+source: telegram
+message_count: 100
+categories: [technical, ecosystem, governance, mining, marketing]
+key_terms: [testnet, debugging, full nodes, Docker, node configuration, bounty, IADD, authenticated dictionaries, block bloating, Waves-NG, protocol testing, Waves partnership, NG protocol, collaboration, independent projects, synergy, EFYT, token distribution, MoneyChain, DataChain]
+---
 # Ergo General Chat — 2017-W49 Summary
 
 ## Key Topics Discussed

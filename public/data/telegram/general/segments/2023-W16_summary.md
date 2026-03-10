@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2023-W16"
+date_start: "2023-04-17"
+date_end: "2023-04-23"
+type: telegram_weekly
+channel: general
+week: "2023-W16"
+source: telegram
+message_count: 755
+categories: [defi, ecosystem, bridges, nft, marketing, technical, wallet]
+key_terms: [SigmaFi, lending, collateral, SigUSD, loans, TVL, interest rates, yield farming, Spectrum Finance, testing, farms, unstaking, ErgoPad, Seven Seas Exchange, trading, USDT pair, Rosen Bridge, cross-chain, watchers, guards]
+---
 # Ergo General Chat — 2023-W16 Summary
 
 ## Key Topics Discussed

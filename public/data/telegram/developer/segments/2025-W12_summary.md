@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W12"
+date_start: "2025-03-17"
+date_end: "2025-03-23"
+type: telegram_weekly
+channel: developer
+week: "2025-W12"
+source: telegram
+message_count: 101
+categories: [technical, wallet, defi, ecosystem, governance, nft]
+key_terms: [sigma-rust, sigmastate-interpreter, ergo, pull requests, code review, 6.0 release, executeFromSelfReg, type system, default arguments, ErgoScript, LangSpec, scrypto, Scala 3, release, scorex-utils, debox, ergo 6.0, release candidate, testnet, docker]
+---
 # Ergo Developer Chat — 2025-W12 Summary
 
 ## Key Topics Discussed

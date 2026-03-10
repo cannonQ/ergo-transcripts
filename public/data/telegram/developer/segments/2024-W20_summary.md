@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W20"
+date_start: "2024-05-13"
+date_end: "2024-05-19"
+type: telegram_weekly
+channel: developer
+week: "2024-W20"
+source: telegram
+message_count: 208
+categories: [technical, mining, governance, defi, ecosystem, bridges, nft]
+key_terms: [deserialize, DataSerializer, serialization, round-trip property, deserializeRaw, Option, Some, None, constructors, ErgoScript, getVar, context variables, inputIndex, varId, AVL tree proof, AvlTree, bytes, modular arithmetic, executeFromVar, EIP-50]
+---
 # Ergo Developer Chat Summary — 2024-W20
 **Period:** 2024-05-13 to 2024-05-19  
 **Participants:** 9 active developers  

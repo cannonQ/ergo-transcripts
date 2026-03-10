@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W32"
+date_start: "2025-08-04"
+date_end: "2025-08-10"
+type: telegram_weekly
+channel: developer
+week: "2025-W32"
+source: telegram
+message_count: 71
+categories: [technical, wallet, nft, mining, defi, ecosystem, governance]
+key_terms: [v6.0.1, release, PR review, finalization, sub-blocks, security audit, optimization, public testnet, mining, data inputs, spent boxes, same block, certificate pattern, derivation path, m/44'/429'/0'/0/0, Fleet, address mismatch, Sigma SDK, v6.0.2, Sonatype]
+---
 # Ergo Developer Chat Summary — 2025-W32
 
 ## Key Topics Discussed

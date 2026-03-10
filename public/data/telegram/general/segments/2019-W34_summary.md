@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W34"
+date_start: "2019-08-19"
+date_end: "2019-08-25"
+type: telegram_weekly
+channel: general
+week: "2019-W34"
+source: telegram
+message_count: 84
+categories: [ecosystem, mining, technical, governance, wallet, defi, marketing, community]
+key_terms: [EFYT, token swap, Waves DEX, trading, Bisq, decentralized exchange, listing, Iran, hashrate, 1070, 1080ti, Nvidia, GPU mining, mainnet, launch, API, version 3.0.7, mining pool, decentralization, trusted parties]
+---
 # Ergo General Chat — 2019-W34 Summary
 
 ## Key Topics Discussed

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2024-W42"
+date_start: "2024-10-14"
+date_end: "2024-10-20"
+type: telegram_weekly
+channel: general
+week: "2024-W42"
+source: telegram
+message_count: 542
+categories: [bridges, ecosystem, technical, defi, wallet, governance, marketing, community]
+key_terms: [Rosen bridge, ETH bridge, cross-chain, wrapped assets, rsETH, ErgoHack 9, hackathon, UI/UX, mining tools, user experience, sub-blocks, protocol 6.0, soft-forking, block parameters, finality, Mew Finance, Mew Kitties, DEX, NFT membership, profit sharing]
+---
 # Ergo General Chat — 2024-W42 Summary
 
 ## Key Topics Discussed

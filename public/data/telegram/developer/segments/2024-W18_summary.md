@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W18"
+date_start: "2024-04-29"
+date_end: "2024-05-05"
+type: telegram_weekly
+channel: developer
+week: "2024-W18"
+source: telegram
+message_count: 159
+categories: [technical, community, nft, governance, mining, bridges, defi, ecosystem, wallet]
+key_terms: [Nipopow, proof generation, NoSuchElementException, extra indexer, node error, Sigma 6.0, EIP-50, PoW check, bigInt constructor, bounty tasks, mempool, orphan transactions, double-spend, cleanup duration, invalid txs, sigma-rust, transaction signing, 900 inputs, performance bottleneck, context recreation]
+---
 # Ergo Developer Chat Summary — 2024-W18
 
 ## Key Topics Discussed

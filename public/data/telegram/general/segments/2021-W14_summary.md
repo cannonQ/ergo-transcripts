@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W14"
+date_start: "2021-04-05"
+date_end: "2021-04-11"
+type: telegram_weekly
+channel: general
+week: "2021-W14"
+source: telegram
+message_count: 0
+categories: [defi, wallet, ecosystem, community, mining, nft, technical, marketing, governance, bridges]
+key_terms: [SigmaUSD, SigmaRSV, reserve ratio, 800% cap, minting, redemption, ErgoDEX, ErgoSwap, dApp connector, liquidity mining, AMM, Yoroi, desktop wallet, mobile support, sync issues, hardware wallet, Hotbit maintenance, miner dust, withdrawal processing, exchange issues]
+---
 # Ergo General Chat — 2021-W14 Summary
 
 ## Key Topics Discussed

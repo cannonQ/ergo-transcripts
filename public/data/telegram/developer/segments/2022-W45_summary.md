@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2022-W45"
+date_start: "2022-11-07"
+date_end: "2022-11-13"
+type: telegram_weekly
+channel: developer
+week: "2022-W45"
+source: telegram
+message_count: 56
+categories: [technical, defi, ecosystem]
+key_terms: [explorer-backend, release, 9.17.4, instances, BigInt, registers, context extension, sig check, bridges, PeerManager, handshake, peer broadcasting, GetPeers, "PR#1867", 5.0.3, node, coinflip game, backend, smart contract, liquidity pool]
+---
 ## Key Topics Discussed
 
 - **BigInt Storage in Registers**: Discussion on storing BigInt values in ErgoScript registers. kushti noted that BigInt can be provided in context extension for signature checks within contracts, with similar application to registers.

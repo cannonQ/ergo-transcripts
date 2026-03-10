@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2018-W25"
+date_start: "2018-06-18"
+date_end: "2018-06-24"
+type: telegram_weekly
+channel: general
+week: "2018-W25"
+source: telegram
+message_count: 73
+categories: [technical, mining, community]
+key_terms: [testnet, unstable, nodes, bug fix, release, twin chains, PoW, PoS, Sigma-Cash, Sigma-Data, sidechains, nipopows, node configuration, conf file, well known peers, dependencies, mining, wallet, transactions, testnet updates]
+---
 # Ergo General Chat — Week 2018-W25 Summary
 
 ## Key Topics Discussed

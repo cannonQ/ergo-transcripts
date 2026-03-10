@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W31"
+date_start: "2025-07-28"
+date_end: "2025-08-03"
+type: telegram_weekly
+channel: developer
+week: "2025-W31"
+source: telegram
+message_count: 108
+categories: [technical, bridges, wallet, defi, governance, ecosystem]
+key_terms: [6.0.1 candidate, protocol release, PR review, sonatype issues, sub-blocks, API methods, whitepaper, optimizations, input blocks, ordering blocks, sidechain data, NFT boxes, transaction classes, Braid whitepaper, merged-mined framework, sidechain specification, Nautilus Wallet, Banxa, Buy ERG, token blacklist]
+---
 # Ergo Developer Chat Summary — 2025-W31
 
 ## Key Topics Discussed

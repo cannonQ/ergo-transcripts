@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2018-W02"
+date_start: "2018-01-08"
+date_end: "2018-01-14"
+type: telegram_weekly
+channel: general
+week: "2018-W02"
+source: telegram
+message_count: 165
+categories: [governance, mining, technical, ecosystem, marketing, community]
+key_terms: [token swap, "1:1 conversion", early adopter rewards, funding wallet, mainnet launch, TestNet0, 3+ months, yellow paper, team expansion, Equihash, PoW, light-full node, mobile mining, hardware decentralization, Sigma language, non-Turing complete, safe contracts, formal verification, contract security, 400k tokens]
+---
 # Ergo General Chat — 2018-W02 Summary
 
 ## Key Topics Discussed

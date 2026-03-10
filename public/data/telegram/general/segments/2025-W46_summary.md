@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W46"
+date_start: "2025-11-10"
+date_end: "2025-11-16"
+type: telegram_weekly
+channel: general
+week: "2025-W46"
+source: telegram
+message_count: 0
+categories: [bridges, defi, mining, technical, governance, marketing, community, wallet, ecosystem]
+key_terms: [Rosen, Bitcoin Runes, rspv2BitcoinRunesRWT, cross-chain, watcher token, RWA, decentralized exchange, IPFS, OrbitDB, Nautilus, escrow, delayed signing, Lithos, Stratum, rollup support, testnet, mining protocol, SigmaUSD Runes, stealth addresses, privacy]
+---
 # Ergo General Chat — Week 2025-W46 Summary
 
 ## Key Topics Discussed

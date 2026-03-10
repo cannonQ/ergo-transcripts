@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2018-W18"
+date_start: "2018-04-30"
+date_end: "2018-05-06"
+type: telegram_weekly
+channel: general
+week: "2018-W18"
+source: telegram
+message_count: 58
+categories: [ecosystem, mining, technical, community, governance]
+key_terms: [Cardano, IOHK, collaboration, separate projects, Scorex, ASIC, Bitmain, Z9 miner, equihash, centralization, anti-ASIC, protocol, built from scratch, PoPoW, simplicity, papers, website, FAQ, TECH sections, YouTube channel]
+---
 # Ergo General Chat Summary — 2018-W18
 **Period:** 2018-05-03 to 2018-05-12  
 **Participants:** 7  

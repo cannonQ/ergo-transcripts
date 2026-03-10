@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W19"
+date_start: "2025-05-05"
+date_end: "2025-05-11"
+type: telegram_weekly
+channel: general
+week: "2025-W19"
+source: telegram
+message_count: 313
+categories: [ecosystem, technical, defi, community, governance, marketing, wallet]
+key_terms: [ErgoScript developers, Scala, protocol development, developer list, subblocks, devnet, p2p protocol, testnet timeline, client release, version update, docker container, on-chain reserve, off-chain protocols, community currencies, carbon credits, ErgoHack, hackathon, AI agents, project ideas, Shinkai]
+---
 # Ergo General Chat — 2025-W19 Summary
 
 ## Key Topics Discussed

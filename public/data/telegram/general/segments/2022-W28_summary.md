@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2022-W28"
+date_start: "2022-07-11"
+date_end: "2022-07-17"
+type: telegram_weekly
+channel: general
+week: "2022-W28"
+source: telegram
+message_count: 602
+categories: [ecosystem, technical, bridges, nft, governance, community, defi, wallet, marketing]
+key_terms: [token burning, storage rent, dapp fees, long-term stability, babel fees, native tokens, transaction fees, liquidity pools, Rosen bridge, Susy bridge, Conceal, cross-chain, integration, COMET oniric NFT, lottery, minting, Sky Harbor, treasury, token burn, sigma-rust bug]
+---
 # Ergo General Chat Summary — 2022-W28
 
 ## Key Topics Discussed

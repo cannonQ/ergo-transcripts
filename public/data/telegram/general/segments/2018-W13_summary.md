@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2018-W13"
+date_start: "2018-03-26"
+date_end: "2018-04-01"
+type: telegram_weekly
+channel: general
+week: "2018-W13"
+source: telegram
+message_count: 139
+categories: [governance, mining, technical, wallet]
+key_terms: [emission, total supply, 100 million, EFYT, circulating supply, first year emission, ASIC, equihash, GPU mining, non-outsourceability, solo mining, mining pools, ErgoScript, Scala, TypeScript, sigma protocols, smart contracts, Sigma state, MainNet launch, Q2]
+---
 # Ergo General Chat Summary — 2018-W13
 **Period:** 2018-03-26 to 2018-04-06  
 **Messages:** 139 | **Participants:** 18 | **Primary Voice:** @𝖒𝖊𝖓𝖙𝖆𝖑𝖎𝖘𝖙կշօ (mentalist420)

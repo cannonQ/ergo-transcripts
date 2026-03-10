@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Community Chat - October 23rd"
+date: "2025-10-24"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=V1-Dcx9e56g
+video_id: V1-Dcx9e56g
+duration_minutes: 51
+speakers: [qx, kushti, benzel, Grayman, hq3rr]
+topics: [lithos, testnet, mining-rigs, meetup-videos, rug-season, kadena, amazon-outage, decentralization, company-blockchains, community-action]
+companion_files: [20251024_V1-Dcx9e56g_transcript.txt, 20251024_V1-Dcx9e56g_qa.json, 20251024_V1-Dcx9e56g_decisions.json, 20251024_V1-Dcx9e56g_topics.json]
+---
 # Ergo Community Call Summary - October 23rd, 2025
 
 ## Executive Summary

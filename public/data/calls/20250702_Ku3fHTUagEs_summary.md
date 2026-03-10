@@ -1,3 +1,16 @@
+---
+title: "Ergoversary Special - Weekly Update & AMA - July 1st"
+date: "2025-07-02"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=Ku3fHTUagEs
+video_id: Ku3fHTUagEs
+duration_minutes: 54
+speakers: [kushti, qx(), Armeanio, Dan Friedman]
+topics: [anniversary, ergoversary, bitcoin-comparison, multi-sig, maturity, node-release, ethereum-hard-fork, dependencies, testing, packages]
+companion_files: [20250702_Ku3fHTUagEs_transcript.txt, 20250702_Ku3fHTUagEs_qa.json, 20250702_Ku3fHTUagEs_decisions.json, 20250702_Ku3fHTUagEs_topics.json]
+---
 # Ergoversary Special Community Call Summary
 **Date:** July 2, 2025  
 **Title:** Ergoversary Special - Weekly Update & AMA - July 1st

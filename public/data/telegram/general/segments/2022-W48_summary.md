@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2022-W48"
+date_start: "2022-11-28"
+date_end: "2022-12-04"
+type: telegram_weekly
+channel: general
+week: "2022-W48"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo General Chat — 2022-W48 Summary
 **Period:** 2022-11-28 to 2022-12-04  
 **Message Volume:** 1,171 messages | **Participants:** 71

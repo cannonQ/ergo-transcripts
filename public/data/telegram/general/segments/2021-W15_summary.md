@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W15"
+date_start: "2021-04-12"
+date_end: "2021-04-18"
+type: telegram_weekly
+channel: general
+week: "2021-W15"
+source: telegram
+message_count: 0
+categories: [ecosystem, wallet, defi, marketing, bridges, nft, mining, technical, community]
+key_terms: [BiKi, exchange, listing, announcement, Yoroi, dApp connector, Emurgo, MetaMask, EIP-12, SigmaUSD, SigmaRSV, bearwhale, short position, reserve ratio, Cointelegraph, Life Beyond Ethereum, Layer One, DeFi, ErgoDex, Plutus]
+---
 # Ergo General Chat — 2021-W15 Summary
 ## Period: 2021-04-12 to 2021-04-18
 

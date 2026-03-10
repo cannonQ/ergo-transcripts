@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2023-W52"
+date_start: "2023-12-25"
+date_end: "2023-12-31"
+type: telegram_weekly
+channel: developer
+week: "2023-W52"
+source: telegram
+message_count: 59
+categories: [technical]
+key_terms: [registers, p2p decryption, encrypted data, transaction design, mempool, explorer api, load balancing, zombie transactions, node api, .NET 8.0, AOT, WASM, performance optimization, mempool retrieval, unspent boxes, guardscript, address derivation, user signing, wallet implementation, indexed nodes]
+---
 # Ergo Developer Chat Summary — 2023-W52
 
 ## Key Topics Discussed

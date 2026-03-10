@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W12"
+date_start: "2025-03-17"
+date_end: "2025-03-23"
+type: telegram_weekly
+channel: general
+week: "2025-W12"
+source: telegram
+message_count: 364
+categories: [defi, wallet, bridges, technical, mining, community, ecosystem]
+key_terms: [property financing, oracle integration, title registration, hybrid on-off-chain model, collateral management, P2P lending, collateral-less loans, community development, protocol revival, user adoption, Nautilus v1.1.0, SigmaUSD dApp, browser extension, GraphQL update, Rosen watcher, RSN rewards, Ergo node setup, multi-chain bridge, reward economics, ChainCash]
+---
 # Ergo General Chat — 2025-W12 Summary
 
 ## Key Topics Discussed

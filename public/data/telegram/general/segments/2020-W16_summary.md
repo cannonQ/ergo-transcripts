@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W16"
+date_start: "2020-04-13"
+date_end: "2020-04-19"
+type: telegram_weekly
+channel: general
+week: "2020-W16"
+source: telegram
+message_count: 143
+categories: [ecosystem, community, wallet, mining, technical, governance]
+key_terms: [exchange listing, Waves.exchange, Tidex, Coinbarn, Probit, Hotbit, liquidity, market cap, airdrop, distribution, April 27th deadline, ERGO wallet, wallet, Magnum, offline storage, security, mining calculator, 1080ti, 2080ti, hashrate]
+---
 # Ergo General Chat Summary — 2020-W16
 **Period:** 2020-04-13 to 2020-04-19  
 **Activity Level:** Low technical content; primarily exchange listing inquiries and community support

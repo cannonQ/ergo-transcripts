@@ -1,3 +1,16 @@
+---
+title: "Looking to the Future | Armeanio and Kushti | Ergoversary 2025"
+date: "2025-07-01"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=m6CEAdaYRME
+video_id: m6CEAdaYRME
+duration_minutes: 36
+speakers: [Armeanio, kushti]
+topics: [better-money, economic-freedom, inflation, surveillance, open-money, debt-spiral, chaincash, digital-free-banking, algorithmic-stablecoins, trustless-derivatives]
+companion_files: [20250701_m6CEAdaYRME_transcript.txt, 20250701_m6CEAdaYRME_qa.json, 20250701_m6CEAdaYRME_decisions.json, 20250701_m6CEAdaYRME_topics.json]
+---
 # Ergoversary 2025 Community Call Summary
 
 **Call Date:** July 1, 2025  

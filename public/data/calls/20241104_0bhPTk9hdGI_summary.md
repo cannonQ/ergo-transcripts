@@ -1,3 +1,16 @@
+---
+title: "P2Podcast | Episode 2"
+date: "2024-11-04"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=0bhPTk9hdGI
+video_id: 0bhPTk9hdGI
+duration_minutes: 50
+speakers: [Marc the Shark, tmr.erg]
+topics: [emission-reduction, block-reward, mining, halving, erg-supply, re-emission-contract, miner-consensus, emission-curve, storage-rent, mining-incentives]
+companion_files: [20241104_0bhPTk9hdGI_transcript.txt, 20241104_0bhPTk9hdGI_qa.json, 20241104_0bhPTk9hdGI_decisions.json, 20241104_0bhPTk9hdGI_topics.json]
+---
 # P2Podcast Episode 2 - Ergo Community Call Summary
 
 **Call Date:** 2024-11-04  

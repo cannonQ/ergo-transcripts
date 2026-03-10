@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2023-W43"
+date_start: "2023-10-23"
+date_end: "2023-10-29"
+type: telegram_weekly
+channel: general
+week: "2023-W43"
+source: telegram
+message_count: 822
+categories: [bridges, technical, ecosystem, governance, defi, wallet]
+key_terms: [RSN token, bridge launch, liquidity pools, IDO, Cardano integration, storage rent, demurrage, Gesell economics, circulation-secured money, monetary policy, Huobi withdrawal suspension, KYC restrictions, exchange access, US listings, liquidity sources, node release, protocol updates, network improvements, SigmaUSD, admin keys]
+---
 # Ergo General Chat — 2023-W43 Summary
 
 ## Key Topics Discussed

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2024-W21"
+date_start: "2024-05-20"
+date_end: "2024-05-26"
+type: telegram_weekly
+channel: general
+week: "2024-W21"
+source: telegram
+message_count: 0
+categories: [marketing, ecosystem, bridges, wallet, technical, governance, defi]
+key_terms: [Binance, listing, application, market cap, compliance, exchange requirements, ErgoHack VIII, prize pool, raffle, crowdfunding, UTXO-based lending, Rosen Bridge, Ethereum, EVM, multi-sig, ECDSA, Catalyst Fund 11, Terminus wallet, Nautilus, privacy]
+---
 # Ergo General Chat — 2024-W21 Summary
 
 ## Key Topics Discussed

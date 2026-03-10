@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W41"
+date_start: "2020-10-05"
+date_end: "2020-10-11"
+type: telegram_weekly
+channel: general
+week: "2020-W41"
+source: telegram
+message_count: 2585
+categories: [wallet, ecosystem, defi, technical, community, mining, governance, nft, marketing]
+key_terms: [yoroi, nightly, pending transactions, coinbarn compatibility, magnum, gate.io, voting, airdrop, listing fee, GT token, ergomixer, covert address, tor support, dark wallet, erebus, mempool, double-spend, fee estimation, magnum withdrawal, coinex]
+---
 ## Key Topics Discussed
 
 - **Gate.io listing and voting campaign**: Gate.io listing was confirmed via voting campaign that reached 44+ million votes (target was 10 million). Trading went live on October 10th with ERG/USDT, ERG/BTC, and ERG/ETH pairs. The listing involved 100k ERG from foundation (50k for airdrop/rewards at $0.40 price, rest for market making). Gate.io ranked #4 on CoinGecko, #8 on BTI rating, considered a tier-1 exchange.

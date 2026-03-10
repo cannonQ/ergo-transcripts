@@ -1,3 +1,16 @@
+---
+title: "Gluon Gold on Ergo | Bruno Woltzenlogel Paleo | Ergoversary Summt 2024"
+date: "2024-07-03"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=lkyQMO5DZAQ
+video_id: lkyQMO5DZAQ
+duration_minutes: 12
+speakers: [Bruno]
+topics: [gluon-gold, fission, fusion, transmutation, stablecoin, reserve-ratio, gao, galsi, gold-peg, testnet]
+companion_files: [20240703_lkyQMO5DZAQ_transcript.txt, 20240703_lkyQMO5DZAQ_qa.json, 20240703_lkyQMO5DZAQ_decisions.json, 20240703_lkyQMO5DZAQ_topics.json]
+---
 # Gluon Gold on Ergo - Community Call Summary
 
 **Call Date:** July 3, 2024  

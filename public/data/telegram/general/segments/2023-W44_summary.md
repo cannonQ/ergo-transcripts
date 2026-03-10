@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2023-W44"
+date_start: "2023-10-30"
+date_end: "2023-11-05"
+type: telegram_weekly
+channel: general
+week: "2023-W44"
+source: telegram
+message_count: 1218
+categories: [marketing, bridges, ecosystem, defi, governance, wallet, technical, community]
+key_terms: [circulating supply, EFYT chart, listing fees, $5000, CMC extortion, Rosen, cross-chain, Cardano, Ethereum, liquidity, zenGate, Palmyra, Winter Protocol, tokenization, PALM token, compliance, MEXC listing, raffle, crowdfunding, whale donations]
+---
 # Ergo General Chat Summary — Week 2023-W44 (Oct 30 – Nov 5)
 
 ## Key Topics Discussed

@@ -1,3 +1,16 @@
+---
+title: "Ergo General Chat — 2021-W34 (Part B)"
+date_start: "2021-08-23"
+date_end: "2021-08-29"
+type: telegram_weekly
+channel: general
+week: "2021-W34"
+part: "b"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo General Chat — 2021-W34b Summary
 **Period:** 2021-08-25 to 2021-08-29
 

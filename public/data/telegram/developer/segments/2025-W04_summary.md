@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W04"
+date_start: "2025-01-20"
+date_end: "2025-01-26"
+type: telegram_weekly
+channel: developer
+week: "2025-W04"
+source: telegram
+message_count: 90
+categories: [technical, defi, wallet, bridges, ecosystem]
+key_terms: [dexy, LP swap, unit tests, javascript, mockchain, contract testing, sigmastate-interpreter, tree-versioned serialization, protocol upgrade, PR reviews, input blocks, ordering blocks, EIP, mempool, transaction packing, sidechain, socket service, unconfirmed transactions, input boxes, API design]
+---
 # Ergo Developer Chat Summary — 2025-W04
 
 ## Key Topics Discussed

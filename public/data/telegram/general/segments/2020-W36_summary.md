@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W36"
+date_start: "2020-08-31"
+date_end: "2020-09-06"
+type: telegram_weekly
+channel: general
+week: "2020-W36"
+source: telegram
+message_count: 1791
+categories: [defi, ecosystem, wallet, technical, mining, bridges, community]
+key_terms: [oracle pools, emurgo, cardano, data feeds, chainlink comparison, kucoin, hotbit, binance, liquidity, listing fees, tidex, probit, yoroi, magnum, coinbarn, ledger support, desktop wallet, dex, orderbook, uniswap]
+---
 # Ergo General Chat — 2020-W36 (Aug 31 - Sep 6)
 
 ## Key Topics Discussed

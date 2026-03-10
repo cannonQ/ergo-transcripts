@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - April 17th"
+date: "2025-04-18"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=uuSQNq6Mhqg
+video_id: uuSQNq6Mhqg
+duration_minutes: 61
+speakers: [Dan Friedman, qx()]
+topics: [palm-token, rosen-bridge, multi-chain, arbitrage, ispo, staking, dynamic-staking, unlocked-staking, epochs, apy-calculator]
+companion_files: [20250418_uuSQNq6Mhqg_transcript.txt, 20250418_uuSQNq6Mhqg_qa.json, 20250418_uuSQNq6Mhqg_decisions.json, 20250418_uuSQNq6Mhqg_topics.json]
+---
 # Ergo PoW Blockchain Community Call Summary
 **Date:** April 18, 2025  
 **Title:** Ergo PoW Blockchain - Weekly Update & AMA - April 17th

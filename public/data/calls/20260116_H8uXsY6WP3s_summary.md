@@ -1,3 +1,16 @@
+---
+title: "Ergo Call 2026-01-16"
+date: "2026-01-16"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=H8uXsY6WP3s
+video_id: H8uXsY6WP3s
+duration_minutes: 57
+speakers: []
+topics: [vibe-coding, ai, basis-tracker, rust-node, android-dapp, mobile-wallet, VoltPay.store, in-wallet-swapping, ipfs, unstoppable-apps]
+companion_files: [20260116_H8uXsY6WP3s_transcript.txt, 20260116_H8uXsY6WP3s_qa.json, 20260116_H8uXsY6WP3s_decisions.json, 20260116_H8uXsY6WP3s_topics.json]
+---
 # Ergo Community Call: AI & Vibe Coding
 
 ## Executive Summary

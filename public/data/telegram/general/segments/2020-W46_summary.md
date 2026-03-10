@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W46"
+date_start: "2020-11-09"
+date_end: "2020-11-15"
+type: telegram_weekly
+channel: general
+week: "2020-W46"
+source: telegram
+message_count: 401
+categories: [community, ecosystem, bridges, technical, wallet, defi, mining]
+key_terms: [Wikipedia, censorship, Cardano, crypto-related content, DarkFund0, community rewards, crowdfunding, 3500 ERG, Huobi, exchange listing, CoinEx, listing fees, Gravity Network, gateways, USDN, USDT, Tron, Waves, Binance Chain, oracle pools]
+---
 # Ergo General Chat Summary — 2020-W46
 **Period:** 2020-11-09 to 2020-11-15  
 **Messages analyzed:** 401

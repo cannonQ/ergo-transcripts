@@ -1,3 +1,16 @@
+---
+title: "Sigma Trees | Alex Chepurnoy | Ergoversary Summit 2024"
+date: "2024-07-01"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=deXi73K4Z0k
+video_id: deXi73K4Z0k
+duration_minutes: 17
+speakers: [kushti]
+topics: [sigma, ergoscript, contractual-layer, jit-costing, interpreter, ergo-mixer, sigmausd, oracle-pools, dex, rosen-bridge]
+companion_files: [20240701_deXi73K4Z0k_transcript.txt, 20240701_deXi73K4Z0k_qa.json, 20240701_deXi73K4Z0k_decisions.json, 20240701_deXi73K4Z0k_topics.json]
+---
 # Ergoversary Summit 2024: Sigma Trees Community Call Summary
 
 **Call Date:** July 1, 2024  

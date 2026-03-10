@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W11"
+date_start: "2024-03-11"
+date_end: "2024-03-17"
+type: telegram_weekly
+channel: developer
+week: "2024-W11"
+source: telegram
+message_count: 0
+categories: [governance, wallet, technical, defi, bridges, ecosystem, mining, nft]
+key_terms: [git rules, code standards, PR squashing, decentralization, project management, Minotaur V2, multisig, rc2, rc3, wallet release, storage rent, creationHeight, monotonic height rule, v5.0 consensus, box creation, SigmaUSD, bank contract, minting limits, 0.5% reserve limits, kiosk testing]
+---
 # Ergo Developer Chat Summary — 2024-W11
 **Period:** 2024-03-11 to 2024-03-17  
 **Messages Reviewed:** 261  

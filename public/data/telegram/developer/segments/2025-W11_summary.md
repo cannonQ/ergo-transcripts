@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W11"
+date_start: "2025-03-10"
+date_end: "2025-03-16"
+type: telegram_weekly
+channel: developer
+week: "2025-W11"
+source: telegram
+message_count: 178
+categories: [ecosystem, technical, defi, wallet, community]
+key_terms: [explorer, downtime, frontend, backend, ergobackup, ergexplorer, Scala 3, scrypto, debox, scorex-util, sigmastate, migration, executeFromSelfReg, DeserializeRegister, default values, Option types, ErgoTree, sub-blocks, fork switching, consensus]
+---
 # Ergo Developer Chat Summary — 2025-W11 (Mar 10–16)
 
 ## Key Topics Discussed

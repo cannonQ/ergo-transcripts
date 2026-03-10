@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2023-W27"
+date_start: "2023-07-03"
+date_end: "2023-07-09"
+type: telegram_weekly
+channel: general
+week: "2023-W27"
+source: telegram
+message_count: 1556
+categories: [defi, mining, ecosystem, bridges, technical, community, marketing, wallet]
+key_terms: [hodlERG, exploit, vulnerability, Krasavice Blasen, white hat, refund, emission reduction, block rewards, 36 ERG, halving, storage rent, KuCoin, US users, TradeOgre, liquidity, fiat onramp, CEX, Rosen bridge, Cardano, watcher app]
+---
 ## Key Topics Discussed
 
 - **hodlERG Exploit and Resolution**: A vulnerability was discovered in the hodlERG smart contract that allowed minting of tokens without proper ERG backing. Community member Krasavice Blasen white-hat exploited the contract and drained ~90k ERG to prevent malicious exploitation. All users were refunded their ERG, with kushti personally compensating the LP provider whose liquidity was affected. The vulnerability was traced to a commit that made reserveDelta correct but broke a validation check, which was then removed as it appeared tautological.

@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Community Chat - December 18th (time: 17 UTC)"
+date: "2025-12-19"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=Clzn6tyHUsQ
+video_id: Clzn6tyHUsQ
+duration_minutes: 61
+speakers: [HQ3rr, Qx, CannonQ]
+topics: [ergo-foundation, market-making, community-transition, trading-bots, quarterly-costs, explorers, hetzner, p2p-dao, infrastructure, large-queries]
+companion_files: [20251219_Clzn6tyHUsQ_transcript.txt, 20251219_Clzn6tyHUsQ_qa.json, 20251219_Clzn6tyHUsQ_decisions.json, 20251219_Clzn6tyHUsQ_topics.json]
+---
 # Ergo Community Chat - December 19, 2025
 
 ## Executive Summary

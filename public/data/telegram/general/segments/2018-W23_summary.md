@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2018-W23"
+date_start: "2018-06-04"
+date_end: "2018-06-10"
+type: telegram_weekly
+channel: general
+week: "2018-W23"
+source: telegram
+message_count: 196
+categories: [governance, mining, technical, marketing, ecosystem, community]
+key_terms: [EFYT, circulating supply, mainnet launch, token swap, "1:1+1 ratio", emission curve, inflation, block rewards, supply distribution, early adopter incentives, GPU mining, ASIC resistant, hardware requirements, TestNet1, TestNet2, node setup, consensus testing, 90 days, equihash, ZenCash attack]
+---
 # Ergo General Chat — 2018-W23 Summary
 
 ## Key Topics Discussed

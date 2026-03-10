@@ -1,3 +1,16 @@
+---
+title: "Ergo General Chat — 2021-W08 (Part A)"
+date_start: "2021-02-22"
+date_end: "2021-02-28"
+type: telegram_weekly
+channel: general
+week: "2021-W08"
+part: "a"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo General Chat — 2021-W08a Summary
 **Period:** 2021-02-22 to 2021-02-26
 

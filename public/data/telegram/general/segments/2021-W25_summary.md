@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W25"
+date_start: "2021-06-21"
+date_end: "2021-06-27"
+type: telegram_weekly
+channel: general
+week: "2021-W25"
+source: telegram
+message_count: 0
+categories: [defi, ecosystem, community, technical, mining, bridges, nft, wallet, governance, marketing]
+key_terms: [ErgoDex, user interface, backend testing, Yoroi dApp connector, SigmaUSD, reserve ratio, price volatility, stablecoin backing, exchange listings, Binance, KYC, CoinEx, NDA, bear market, Bitcoin dominance, price prediction, market sentiment, NiPoPoWs, light client, state root]
+---
 # Ergo General Chat — 2021-W25 Summary
 
 ## Key Topics Discussed

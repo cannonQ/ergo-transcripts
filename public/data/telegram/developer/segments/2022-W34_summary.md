@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2022-W34"
+date_start: "2022-08-22"
+date_end: "2022-08-28"
+type: telegram_weekly
+channel: developer
+week: "2022-W34"
+source: telegram
+message_count: 52
+categories: [technical, governance]
+key_terms: [ANSI codes, Windows, logging, akka, node log, v4.0.41, release, byte allocation, efficiency, 5.0, voting, consensus, activation, mainnet, epochs, explorer, indexes, API methods, load balancing, configurable indexes]
+---
 # Ergo Developer Chat Summary — 2022-W34
 
 ## Key Topics Discussed

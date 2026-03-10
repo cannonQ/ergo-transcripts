@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - October 10th 2024"
+date: "2024-10-11"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=XNCdVKAIE_Y
+video_id: XNCdVKAIE_Y
+duration_minutes: 54
+speakers: [kushti, Armeanio]
+topics: [sigma-6.0, sub-blocks, soft-fork, reference-client, peer-to-peer-network, block-time, mev, proof-of-work, structured-networks, order-flow]
+companion_files: [20241011_XNCdVKAIE_Y_transcript.txt, 20241011_XNCdVKAIE_Y_qa.json, 20241011_XNCdVKAIE_Y_decisions.json, 20241011_XNCdVKAIE_Y_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Date:** October 11, 2024  
 **Call Title:** Ergo PoW Blockchain - Weekly Update & AMA - October 10th 2024

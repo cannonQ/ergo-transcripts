@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W24"
+date_start: "2025-06-09"
+date_end: "2025-06-15"
+type: telegram_weekly
+channel: general
+week: "2025-W24"
+source: telegram
+message_count: 482
+categories: [ecosystem, mining, technical, defi, wallet, marketing, bridges]
+key_terms: [ErgoHack, AI, innovation, hackathon, prize pool, storage rent, demurrage, snipe bots, pool operators, Sigmanauts, Banxa, Onramper, raffle, onboarding, fiat integration, ErgoScript, contract, emission, governance, token distribution]
+---
 # Ergo General Chat — 2025-W24 Summary
 
 ## Key Topics Discussed

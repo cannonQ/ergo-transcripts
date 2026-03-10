@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Community Chat - October 9th"
+date: "2025-10-10"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=IKhesMqpNR8
+video_id: IKhesMqpNR8
+duration_minutes: 46
+speakers: [qx(), kushti, Aberg, CannonQ, benzel, Grayman]
+topics: [community-marketing, paid-marketing, grassroots, skin-in-the-game, viral-marketing, ergo-6.0, sub-blocks, miners, voting, block-parameters]
+companion_files: [20251010_IKhesMqpNR8_transcript.txt, 20251010_IKhesMqpNR8_qa.json, 20251010_IKhesMqpNR8_decisions.json, 20251010_IKhesMqpNR8_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Date:** October 10, 2025  
 **Title:** Ergo PoW Blockchain - Community Chat - October 9th

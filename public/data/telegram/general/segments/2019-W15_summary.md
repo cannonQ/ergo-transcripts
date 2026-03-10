@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W15"
+date_start: "2019-04-08"
+date_end: "2019-04-14"
+type: telegram_weekly
+channel: general
+week: "2019-W15"
+source: telegram
+message_count: 69
+categories: [governance, mining, ecosystem, technical]
+key_terms: [mainnet, token swap, EFYT, emission curve, security audit, May 26, Autolykos-GPU-miner, CUDA, NVIDIA drivers, compilation error, GTX1060, Ubuntu, exchange listing, Waves DEX, liquidity, EFYT trading, Autolykos, PoW, private key mining, mining pools]
+---
 # Ergo General Chat — 2019-W15 Summary
 
 ## Key Topics Discussed

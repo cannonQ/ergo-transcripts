@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W13"
+date_start: "2020-03-23"
+date_end: "2020-03-29"
+type: telegram_weekly
+channel: general
+week: "2020-W13"
+source: telegram
+message_count: 107
+categories: [ecosystem, technical, community, marketing, defi]
+key_terms: [OKEx, USDC, Binance, exchange listings, NDA discussions, mixer, non-custodial, zero-knowledge proofs, privacy, law enforcement concerns, miners, developers, traders, industrial miners, top-100 CMC, articles, Reddit, Twitter, Telegram, BTT]
+---
 # Ergo General Chat — 2020-W13 Summary
 
 ## Key Topics Discussed

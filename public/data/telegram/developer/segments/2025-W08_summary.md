@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W08"
+date_start: "2025-02-17"
+date_end: "2025-02-23"
+type: telegram_weekly
+channel: developer
+week: "2025-W08"
+source: telegram
+message_count: 96
+categories: [technical, wallet, defi, bridges, mining, ecosystem]
+key_terms: [ActorInitializationException, PersistentBatchAVLProver, readers not initialized, database corruption, scorex.network.nodeName, node name parameter, configuration brackets, testnet peers, header sync, block production, node connectivity, design system port, recovery phrase backup, multi-recipient transactions, mobile build priority, 6.0 protocol soft-fork, input blocks out of order, fork resolution, code cleaning, oracle pool v2]
+---
 # Ergo Developer Chat Summary — 2025-W08
 
 ## Key Topics Discussed

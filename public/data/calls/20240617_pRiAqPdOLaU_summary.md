@@ -1,3 +1,16 @@
+---
+title: "Moria Finance | Lgd and MGpai | ErgoHack VIII"
+date: "2024-06-17"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=pRiAqPdOLaU
+video_id: pRiAqPdOLaU
+duration_minutes: 13
+speakers: [Luca, AI]
+topics: [moria-finance, ergohack-viii, multisig, smart-contract-wallets, financial-platform, eip-42, multisig-protocol, derivation-index, minotaur-wallet, reverse-engineered]
+companion_files: [20240617_pRiAqPdOLaU_transcript.txt, 20240617_pRiAqPdOLaU_qa.json, 20240617_pRiAqPdOLaU_decisions.json, 20240617_pRiAqPdOLaU_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Date:** June 17, 2024  
 **Topic:** Moria Finance | Lgd and MGpai | ErgoHack VIII

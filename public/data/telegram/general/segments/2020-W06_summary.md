@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W06"
+date_start: "2020-02-03"
+date_end: "2020-02-09"
+type: telegram_weekly
+channel: general
+week: "2020-W06"
+source: telegram
+message_count: 68
+categories: [defi, bridges, mining, governance, wallet, ecosystem, community, marketing]
+key_terms: [DeFi, strategy, vision, banking, decentralization, THORChain, Kava, stablecoins, cross-chain, liquidity pools, oracles, real-world data, Chainlink, smart contracts, mining pools, Whattomine, testnet, pool launch, voting, sigma protocols]
+---
 # Ergo General Chat — 2020-W06 Summary
 
 ## Key Topics Discussed

@@ -1,3 +1,16 @@
+---
+title: "Ergo Meetup 2025 LIVE!"
+date: "2025-10-12"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=FlSTE7PVDik
+video_id: FlSTE7PVDik
+duration_minutes: 71
+speakers: [Armeanio, AI, Luca, Cheese Enthusiast, qx(), CannonQ, Marc the Shark, anon_BR]
+topics: [peer-to-peer-networks, social-systems, trust, attack-vectors, deleveraging, risk-management, leverage, monetary-policy, control-system, bitcoin]
+companion_files: [20251012_FlSTE7PVDik_transcript.txt, 20251012_FlSTE7PVDik_qa.json, 20251012_FlSTE7PVDik_decisions.json, 20251012_FlSTE7PVDik_topics.json]
+---
 # Ergo Meetup 2025 Community Call Summary
 
 **Call Date:** 2025-10-12  

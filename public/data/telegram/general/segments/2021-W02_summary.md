@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W02"
+date_start: "2021-01-11"
+date_end: "2021-01-17"
+type: telegram_weekly
+channel: general
+week: "2021-W02"
+source: telegram
+message_count: 1282
+categories: [marketing, defi, technical, wallet, ecosystem, bridges, mining, community, nft]
+key_terms: [Ergo Summit, January 23, announcements, roadmap, presentations, AgeUSD, stablecoin, Yoroi, Q2 release, algo stablecoin, privacy, oracle pools, dark pools, sigma protocols, blockchain data, ErgoDEX, DEX, atomic swaps, Cardano interoperability, tipbot bugs]
+---
 # Ergo General Chat — 2021-W02 Summary
 
 ## Key Topics Discussed

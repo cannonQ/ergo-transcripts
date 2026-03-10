@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W22"
+date_start: "2024-05-27"
+date_end: "2024-06-02"
+type: telegram_weekly
+channel: developer
+week: "2024-W22"
+source: telegram
+message_count: 110
+categories: [technical, defi, bridges, nft, ecosystem, community, wallet]
+key_terms: [sigmastate-interpreter, PR review, versioning, v6.0, refactoring, UnsignedBigInt, 256-bit bigint, ErgoScript, numeric methods, toBigEndianBytes, ErgoHack, Bitcoin relay, tx inclusion proof, sidechain, contracts, CrystalPool, time-limited multisigs, trading webUI, transaction validation, native app distribution]
+---
 # Ergo Developer Chat Summary — 2024-W22
 **Period:** 2024-05-27 to 2024-06-02  
 **Participants:** 11 core developers and contributors

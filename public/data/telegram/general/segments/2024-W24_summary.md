@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2024-W24"
+date_start: "2024-06-10"
+date_end: "2024-06-16"
+type: telegram_weekly
+channel: general
+week: "2024-W24"
+source: telegram
+message_count: 0
+categories: [bridges, wallet, ecosystem, governance, community, defi, technical, marketing]
+key_terms: [rsBTC, BTC bridge, Rosen Bridge, guard service, watcher update, Ledger, dev mode, audit, app-ergo, three-year integration, Gluon Gold SDK, raffle, ErgoScript SDK, funding, blocklist, flagging, ergexplorer, YAML repository, NFT content filter, ErgoHack VIII]
+---
 # Ergo General Chat — 2024-W24 Summary
 
 ## Key Topics Discussed

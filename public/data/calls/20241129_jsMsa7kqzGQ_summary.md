@@ -1,3 +1,16 @@
+---
+title: "P2Podcast | Episode 4"
+date: "2024-11-29"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=jsMsa7kqzGQ
+video_id: jsMsa7kqzGQ
+duration_minutes: 56
+speakers: [Marc the Shark, Wade, tmr.erg]
+topics: [education-background, center-for-advanced-technology, technical-exposure, crypto-newcomer, early-bitcoin-exposure, 2010s, programming, traditional-investments, conservative-approach, business-degree]
+companion_files: [20241129_jsMsa7kqzGQ_transcript.txt, 20241129_jsMsa7kqzGQ_qa.json, 20241129_jsMsa7kqzGQ_decisions.json, 20241129_jsMsa7kqzGQ_topics.json]
+---
 # Ergo Community Call Summary: P2Podcast Episode 4
 
 **Call Date:** 2024-11-29  

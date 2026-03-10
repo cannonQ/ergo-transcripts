@@ -1,3 +1,16 @@
+---
+title: "Pattern | Mehrdad | ErgoHack 10"
+date: "2025-06-26"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=o2GEInJx_cY
+video_id: o2GEInJx_cY
+duration_minutes: 10
+speakers: [Mehrdad]
+topics: [pattern, ai-agent, blockchain-insights, modular-architecture, data-connectors, real-time-data, blockchain-integration, smart-contracts, abi, transaction-history]
+companion_files: [20250626_o2GEInJx_cY_transcript.txt, 20250626_o2GEInJx_cY_qa.json, 20250626_o2GEInJx_cY_decisions.json, 20250626_o2GEInJx_cY_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Date:** 2025-06-26  
 **Topic:** Pattern | Mehrdad | ErgoHack 10

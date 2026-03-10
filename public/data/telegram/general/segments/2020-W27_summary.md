@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W27"
+date_start: "2020-06-29"
+date_end: "2020-07-05"
+type: telegram_weekly
+channel: general
+week: "2020-W27"
+source: telegram
+message_count: 339
+categories: [technical, mining, governance, wallet, defi, ecosystem, community, marketing]
+key_terms: [Autolykos, memory-hardness, pool-resistant mining, ASIC, GPU, FPGA, exploit, GPU mining, HBM FPGA, professional lineup GPUs, hashrate, solo mining, pool mining, hard fork, memory-hardness fix, network upgrade, miner poll, Yoroi wallet, Coinbarn, Magnum wallet]
+---
 # Ergo General Chat — 2020-W27 Summary
 
 ## Key Topics Discussed

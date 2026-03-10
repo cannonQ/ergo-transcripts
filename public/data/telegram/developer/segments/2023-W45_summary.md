@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2023-W45"
+date_start: "2023-11-06"
+date_end: "2023-11-12"
+type: telegram_weekly
+channel: developer
+week: "2023-W45"
+source: telegram
+message_count: 59
+categories: [technical, ecosystem, defi, mining, governance]
+key_terms: [creation height, weak blocks, box storage, consensus, ErgOne, PoCoP, voting, rewards distribution, content incentives, halving, liquidity pool, redeem, deposit, interface, bug report, token minting, UTXO, box spending, duplicate tokens, EIP-4]
+---
 # Ergo Developer Chat Summary — 2023-W45
 
 ## Key Topics Discussed

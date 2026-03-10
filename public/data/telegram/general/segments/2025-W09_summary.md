@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W09"
+date_start: "2025-02-24"
+date_end: "2025-03-02"
+type: telegram_weekly
+channel: general
+week: "2025-W09"
+source: telegram
+message_count: 577
+categories: [governance, bridges, defi, technical, ecosystem, wallet, marketing, community]
+key_terms: [Binance, listing, market maker, MM requirements, liquidity, Rosen Bridge, Binance Smart Chain, rsERG, cross-chain, trustless, MewFund, liquidity pool, rsBNB/ERG, community bootstrap, MewDex, soft-fork, v6.0.0-RC2, testnet, security audit, block protocol]
+---
 # Ergo General Chat — 2025-W09 Summary
 
 ## Key Topics Discussed

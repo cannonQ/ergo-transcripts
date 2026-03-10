@@ -1,3 +1,16 @@
+---
+title: "UX challenges in web3 | Big Pampa | ErgoHack 9"
+date: "2024-10-26"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=Z0jVYD808dI
+video_id: Z0jVYD808dI
+duration_minutes: 23
+speakers: [Mick]
+topics: [bigpampa, ux, dapps, paideia, palmyra, spreadly, mass-adoption, blockchain-products, user-experience, ux-challenges]
+companion_files: [20241026_Z0jVYD808dI_transcript.txt, 20241026_Z0jVYD808dI_qa.json, 20241026_Z0jVYD808dI_decisions.json, 20241026_Z0jVYD808dI_topics.json]
+---
 # ErgoHack 9 Community Call Summary
 **Date:** October 26, 2024  
 **Topic:** UX challenges in web3 | Big Pampa

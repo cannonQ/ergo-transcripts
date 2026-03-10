@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2022-W32"
+date_start: "2022-08-08"
+date_end: "2022-08-14"
+type: telegram_weekly
+channel: general
+week: "2022-W32"
+source: telegram
+message_count: 1589
+categories: [governance, ecosystem, technical, bridges, wallet, defi, marketing, mining, community]
+key_terms: [tornado cash, sanctions, arrest, privacy, ergomixer, regulation, ergodex, spectrum, rebrand, crosschain, L2, node, 4.0.37, 4.0.38, sync, voting, bootstrap, night owl, casino, rng]
+---
 # Ergo General Chat — 2022-W32 Summary
 ## Period: 2022-08-08 to 2022-08-14
 

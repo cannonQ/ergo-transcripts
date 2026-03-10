@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2022-W52"
+date_start: "2022-12-26"
+date_end: "2023-01-01"
+type: telegram_weekly
+channel: general
+week: "2022-W52"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo General Chat — 2022-W52 Summary
 **Period:** 2022-12-26 to 2023-01-01  
 **Messages analyzed:** 909

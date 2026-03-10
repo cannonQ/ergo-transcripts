@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W07"
+date_start: "2021-02-15"
+date_end: "2021-02-21"
+type: telegram_weekly
+channel: general
+week: "2021-W07"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo General Chat — 2021-W07 (Feb 15–21, 2021)
 
 ## Key Topics Discussed

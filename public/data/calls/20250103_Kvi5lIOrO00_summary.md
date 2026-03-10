@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - January 2nd 2025"
+date: "2025-01-03"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=Kvi5lIOrO00
+video_id: Kvi5lIOrO00
+duration_minutes: 54
+speakers: [qx(), kushti]
+topics: [sub-blocks, cep, transaction-ordering, state-updates, proof-of-concept, storage-rent, php-token, sigmanauts-mining-dao, token-recycling, meme-token]
+companion_files: [20250103_Kvi5lIOrO00_transcript.txt, 20250103_Kvi5lIOrO00_qa.json, 20250103_Kvi5lIOrO00_decisions.json, 20250103_Kvi5lIOrO00_topics.json]
+---
 # Ergo Community Call Summary - January 3, 2025
 
 ## Executive Summary

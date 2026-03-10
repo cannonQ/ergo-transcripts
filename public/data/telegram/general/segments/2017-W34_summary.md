@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2017-W34"
+date_start: "2017-08-21"
+date_end: "2017-08-27"
+type: telegram_weekly
+channel: general
+week: "2017-W34"
+source: telegram
+message_count: 58
+categories: [technical, governance, mining, ecosystem, community]
+key_terms: [testnet, development, September deadline, 4 developers, Swiss assembly, Ergo foundation, legal staff, difficulty algorithm, economy model, blockchain workshop, Oslo, Berkeley, mineable, token supply, no ICO, ring signatures, confidentiality, blockchain bloat, transactional language, EFYT price]
+---
 # Ergo General Chat — Week 2017-W34
 **Period:** 2017-08-22 to 2017-09-22  
 **Activity Level:** Low (58 messages, 8 participants) — mostly announcements and onboarding

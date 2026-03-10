@@ -1,3 +1,16 @@
+---
+title: "Blink - An Optimal Proof of Proof-of-Work | Lukas Aumayr | Ergoversary Summit 2024"
+date: "2024-07-02"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=xg-T2v-3UPI
+video_id: xg-T2v-3UPI
+duration_minutes: 24
+speakers: [Lukas Aumayr]
+topics: [lite-clients, light-clients, proof-of-work, blockchain-synchronization, mobile-verification, prover-verifier-protocol, stable-blockchain, unstable-blockchain, admissible-blocks, communication-complexity]
+companion_files: [20240702_xg-T2v-3UPI_transcript.txt, 20240702_xg-T2v-3UPI_qa.json, 20240702_xg-T2v-3UPI_decisions.json, 20240702_xg-T2v-3UPI_topics.json]
+---
 # Ergo Community Call Summary - Blink: An Optimal Proof of Proof-of-Work
 
 **Call Date:** July 2, 2024  

@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W16"
+date_start: "2024-04-15"
+date_end: "2024-04-21"
+type: telegram_weekly
+channel: developer
+week: "2024-W16"
+source: telegram
+message_count: 80
+categories: [technical, wallet, governance, bridges, ecosystem, defi]
+key_terms: [Sigma 6.0, EIP-50, ErgoTree, ErgoScript, method support, nbits encoding, UTXO management, box selection, SAFEW, Nautilus, privacy, dapp connector, derivation path, Autolykos2, verification, mining, Fleet SDK, ProveDLog, blind prover, Sigmanauts DAO]
+---
 # Ergo Developer Chat Summary — 2024-W16
 
 ## Key Topics Discussed

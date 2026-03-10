@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2022-W47"
+date_start: "2022-11-21"
+date_end: "2022-11-27"
+type: telegram_weekly
+channel: developer
+week: "2022-W47"
+source: telegram
+message_count: 71
+categories: [technical, defi, wallet, nft, ecosystem]
+key_terms: [Dexy, LP contracts, Intervention contracts, testing, kiosk, double-spend, input contract, height, v2, betting game, World Cup, oracle, Spreadly, pools, IPFS, R9, gateway, standardization, cid, node API]
+---
 # Ergo Developer Chat Summary — 2022-W47
 
 ## Key Topics Discussed

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W18"
+date_start: "2020-04-27"
+date_end: "2020-05-03"
+type: telegram_weekly
+channel: general
+week: "2020-W18"
+source: telegram
+message_count: 230
+categories: [mining, marketing, ecosystem, bridges, defi, technical, community, governance]
+key_terms: [mining, HiveOS, pools, ergopool.io, jasondavies, Autolykos, Atomars, voting, competition, community, engagement, ProBit, HotBit, Tidex, Citex, Waves.exchange, ViteX, P2PB2B, delisting, atomic swaps]
+---
 # Ergo General Chat — 2020-W18 Summary
 **Period:** 2020-04-27 to 2020-05-03 | **Messages:** 230 | **Participants:** 21
 

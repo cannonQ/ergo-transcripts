@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2023-W38"
+date_start: "2023-09-18"
+date_end: "2023-09-24"
+type: telegram_weekly
+channel: general
+week: "2023-W38"
+source: telegram
+message_count: 709
+categories: [defi, bridges, ecosystem, mining, technical, nft, governance, wallet, marketing, community]
+key_terms: [Dexy Gold, oracle pool, gold price feed, stablecoin, buyback mechanism, Rosen, Catalyst Fund 10, 850k ADA, cross-chain bridge, SPO toolkit, CoinEx hack, KYC requirements, Bitpanda, SimpleSwap, USDT pairs, Sigmanauts, DAO mining pool, storage rent, 1% fee, ergoport dashboard]
+---
 # Ergo General Chat — 2023-W38 Summary
 
 ## Key Topics Discussed

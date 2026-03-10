@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W35"
+date_start: "2024-08-26"
+date_end: "2024-09-01"
+type: telegram_weekly
+channel: developer
+week: "2024-W35"
+source: telegram
+message_count: 136
+categories: [technical, governance, wallet, ecosystem, defi, mining]
+key_terms: [context extension, transaction serialization, sigma-rust, hashmap ordering, transaction ID mismatch, 6.0.0-alpha0, devnet activation, transaction submission, protocol upgrade, derivation path, REST API, swagger UI, single quote escaping, key reproduction, CVE vulnerabilities, guava, okhttp3, bouncycastle, dependency management, SIGHUP]
+---
 # Ergo Developer Chat Summary — 2024-W35
 
 ## Key Topics Discussed

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W19"
+date_start: "2019-05-06"
+date_end: "2019-05-12"
+type: telegram_weekly
+channel: general
+week: "2019-W19"
+source: telegram
+message_count: 131
+categories: [governance, mining, technical, community, wallet, marketing, ecosystem]
+key_terms: [mainnet launch, June 20, delay, security audit, testing, mining, testnet, GPU, CUDA, Nvidia, AMD, OpenCL, explorer, frontend, block format, API, emission, coin supply, circulation, treasury]
+---
 # Ergo General Chat — 2019-W19 Summary
 
 ## Key Topics Discussed

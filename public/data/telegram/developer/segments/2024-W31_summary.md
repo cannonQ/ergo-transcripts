@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W31"
+date_start: "2024-07-29"
+date_end: "2024-08-04"
+type: telegram_weekly
+channel: developer
+week: "2024-W31"
+source: telegram
+message_count: 0
+categories: [technical, bridges, defi, wallet]
+key_terms: [sigma-rust, "PR#758", release, 5.0.22, 5.0.23, svelte, sveltekit, vite, wasm, react, frontend, rosen-bridge, bounty, user interface, community, sigma 6.0, sigmastate-interpreter, protocol, "PR#972", "PR#968"]
+---
 # Ergo Developer Chat Summary — 2024-W31
 
 ## Key Topics Discussed

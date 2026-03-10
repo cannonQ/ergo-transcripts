@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W04"
+date_start: "2021-01-25"
+date_end: "2021-01-31"
+type: telegram_weekly
+channel: general
+week: "2021-W04"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo General Chat Summary — 2021-W04
 **Period:** 2021-01-25 to 2021-01-31  
 **Message Range:** #80059 to #82357

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W26"
+date_start: "2019-06-24"
+date_end: "2019-06-30"
+type: telegram_weekly
+channel: general
+week: "2019-W26"
+source: telegram
+message_count: 454
+categories: [governance, technical, mining, defi, community, wallet, ecosystem]
+key_terms: [mainnet, launch, July 1, "10:00 AM UTC", postponed from June 28, wallet/init, 403 forbidden, API key hash, swagger authorization, configuration, CUDA miner, GPU miner, CPU mining, AutoLykos, miner compilation, AMD miner, EFYT swap, token conversion curve, circulating supply, locked tokens]
+---
 # Ergo General Chat — 2019-W26 Summary
 
 ## Key Topics Discussed

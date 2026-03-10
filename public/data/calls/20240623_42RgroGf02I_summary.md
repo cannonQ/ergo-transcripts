@@ -1,3 +1,16 @@
+---
+title: "Dev Update June 23 2024 | Live AMA Edition w/Armeanio"
+date: "2024-06-23"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=42RgroGf02I
+video_id: 42RgroGf02I
+duration_minutes: 74
+speakers: [qx(), Armeanio]
+topics: [ergohack, multisig, trustless-relay, atomic-swaps, duckpools, option-pools, judging, rosenport, miners, cross-chain]
+companion_files: [20240623_42RgroGf02I_transcript.txt, 20240623_42RgroGf02I_qa.json, 20240623_42RgroGf02I_decisions.json, 20240623_42RgroGf02I_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Call Date:** June 23, 2024  
 **Call Title:** Dev Update June 23 2024 | Live AMA Edition w/Armeanio

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W34"
+date_start: "2025-08-18"
+date_end: "2025-08-24"
+type: telegram_weekly
+channel: general
+week: "2025-W34"
+source: telegram
+message_count: 0
+categories: [defi, technical, governance, ecosystem, marketing, wallet, community, mining]
+key_terms: [liquid staking token, stERG, perpetuals protocol, yield tokenization, fee distribution, PoW, PoS, security budget, 51% attack, Monero, mining, Autolykos, Mew Finance, $LYKOS, seed round, DAO membership, ErgoDex, zero platform fees, local deployment, decentralization]
+---
 # Ergo General Chat — 2025-W34 Summary
 
 ## Key Topics Discussed

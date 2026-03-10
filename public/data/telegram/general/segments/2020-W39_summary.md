@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W39"
+date_start: "2020-09-21"
+date_end: "2020-09-27"
+type: telegram_weekly
+channel: general
+week: "2020-W39"
+source: telegram
+message_count: 923
+categories: [ecosystem, mining, wallet, nft, defi, technical, marketing, governance, community]
+key_terms: [Binance, KuCoin, Hotbit, Tidex, liquidity, thin sell walls, Autolykos V2, testnet, AMD miner, collateral, pool UI, Yoroi, wallet integration, EIP-3, address compatibility, Ledger support, NFT, proof-of-work tokens, identity, Sybil resistance]
+---
 # Ergo General Chat Summary — 2020-W39 (Sept 21–27)
 
 ## Key Topics Discussed

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W11"
+date_start: "2021-03-15"
+date_end: "2021-03-21"
+type: telegram_weekly
+channel: general
+week: "2021-W11"
+source: telegram
+message_count: 943
+categories: [ecosystem, defi, community, technical, mining, wallet, nft, bridges, governance, marketing]
+key_terms: [Biki, liquidity, Hotbit, CoinEx, trading volume, exchange listing, SigmaUSD, SigmaRSV, v2 release, oracle manipulation, front-running, whale attack, price crash, 50% drop, market sentiment, DCA strategy, volatility, SigRSV redemption, token migration, protocol upgrade]
+---
 # Ergo General Chat Summary — 2021-W11 (2021-03-15 to 2021-03-21)
 
 ## Key Topics Discussed

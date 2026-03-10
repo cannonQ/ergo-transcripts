@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W48"
+date_start: "2020-11-23"
+date_end: "2020-11-29"
+type: telegram_weekly
+channel: general
+week: "2020-W48"
+source: telegram
+message_count: 686
+categories: [ecosystem, defi, marketing, wallet, nft, technical, mining, governance]
+key_terms: [ErgoData, EFYT, sidechain, token snapshot, launch plans, oracle pools, refresh rate, 30 blocks, 2 minutes, datapoints, price manipulation, CMC, CoinGecko, Citex, wash trading, low volume, Hotbit, hidden orders, wash trading bots, market manipulation]
+---
 # Ergo General Chat Summary — 2020-W48 (2020-11-23 to 2020-11-29)
 
 ## Key Topics Discussed

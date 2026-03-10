@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W25"
+date_start: "2025-06-16"
+date_end: "2025-06-22"
+type: telegram_weekly
+channel: developer
+week: "2025-W25"
+source: telegram
+message_count: 147
+categories: [technical, wallet, defi, nft, ecosystem, mining, community]
+key_terms: [protocol release, version 6.0.0, version 6.1.0, RocksDB, node upgrade, sub-blocks, transaction propagation, block assembly, multiple peers, public testnet, Sigmachains, merged-mined sidechain, Bitcoin integration, AVL+ tree, input/ordering blocks, extra indices resync, indexing bug, 5.0.27 candidate, database reindex, Keystone]
+---
 # Ergo Developer Chat Summary — 2025-W25
 **Period:** 2025-06-16 to 2025-06-27  
 **Participants:** 10 core developers + Discord bridge relay

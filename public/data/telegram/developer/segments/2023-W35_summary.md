@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2023-W35"
+date_start: "2023-08-28"
+date_end: "2023-09-03"
+type: telegram_weekly
+channel: developer
+week: "2023-W35"
+source: telegram
+message_count: 143
+categories: [technical, bridges, ecosystem, defi, marketing, wallet, mining, community, nft]
+key_terms: [release, protocol, reference client, v5.0.14, Rosen Bridge, cross-chain, Cardano, native assets, ErgoHack VII, hackathon, finance, adoption, October 2023, Paideia, DAO, decentralized autonomous organization, beta, GreasyCEX, GCX, Greasy Royale]
+---
 # Ergo Developer Chat Summary — 2023-W35
 
 ## Key Topics Discussed

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W38"
+date_start: "2025-09-15"
+date_end: "2025-09-21"
+type: telegram_weekly
+channel: general
+week: "2025-W38"
+source: telegram
+message_count: 0
+categories: [ecosystem, bridges, defi, technical, marketing, wallet, community, mining]
+key_terms: [HTX, delisting, extortion, $100k bribe, delisting fee, volume requirements, Rosen Bridge, liquidity, multi-chain, integration, watchers, guards, USE, Dexy USD, stablecoin, oracle pool, Aerodrome, capital efficiency, ChainCash, LETS]
+---
 # Ergo General Chat — Week 38 Summary (2025-09-15 to 2025-09-21)
 
 ## Key Topics Discussed

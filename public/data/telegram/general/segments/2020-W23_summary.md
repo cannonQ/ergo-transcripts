@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W23"
+date_start: "2020-06-01"
+date_end: "2020-06-07"
+type: telegram_weekly
+channel: general
+week: "2020-W23"
+source: telegram
+message_count: 93
+categories: [ecosystem, technical, defi, wallet, marketing, governance, bridges, community]
+key_terms: [airdrop, CoinsBit, distribution, token allocation, list verification, ErgoScript, Scala, smart contracts, developer education, syntax, version 3.2.7, protocol compatibility, client update, backward compatibility, mixer, tokens, privacy, ErgoForum, microwallet, URLwallet]
+---
 # Ergo General Chat Summary — 2020-W23 (2020-06-01 to 2020-06-07)
 
 ## Key Topics Discussed

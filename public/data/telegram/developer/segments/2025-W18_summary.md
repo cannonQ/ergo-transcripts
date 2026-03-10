@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W18"
+date_start: "2025-04-28"
+date_end: "2025-05-04"
+type: telegram_weekly
+channel: developer
+week: "2025-W18"
+source: telegram
+message_count: 50
+categories: [technical, wallet, governance, ecosystem]
+key_terms: [explorer, indexing, tokenid, unspent boxes, node API, 5.0.26, bug fix, release planning, ASAP, "github issue #2210", multisig, Nautilus wallet, JSON-RPC, EIP-12, wallet communication protocol, 6.0 protocol, soft-fork, Sigmachains, L2, input/ordering blocks EIP]
+---
 # Ergo Developer Chat — 2025-W18 Summary
 
 ## Key Topics Discussed

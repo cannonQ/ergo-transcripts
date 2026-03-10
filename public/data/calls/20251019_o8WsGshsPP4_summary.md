@@ -1,3 +1,16 @@
+---
+title: "Why Mine Ergo: Profitability, Sustainability & the Sigmanauts Mining Pool — Ergo Meetup 2025"
+date: "2025-10-19"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=o8WsGshsPP4
+video_id: o8WsGshsPP4
+duration_minutes: 53
+speakers: [Marc the Shark]
+topics: [fair-launch, no-pre-mine, proof-of-work, hash-rate, blockchain-security, autolykos, asic-resistant, memory-hard, gpu-mining, emission-schedule]
+companion_files: [20251019_o8WsGshsPP4_transcript.txt, 20251019_o8WsGshsPP4_qa.json, 20251019_o8WsGshsPP4_decisions.json, 20251019_o8WsGshsPP4_topics.json]
+---
 # Ergo Community Call Summary
 **Date:** October 19, 2025  
 **Topic:** Why Mine Ergo: Profitability, Sustainability & the Sigmanauts Mining Pool

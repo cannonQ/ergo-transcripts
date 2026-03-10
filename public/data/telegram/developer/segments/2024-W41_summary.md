@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W41"
+date_start: "2024-10-07"
+date_end: "2024-10-13"
+type: telegram_weekly
+channel: developer
+week: "2024-W41"
+source: telegram
+message_count: 102
+categories: [technical, wallet, defi, mining, ecosystem, nft]
+key_terms: [Sigma 6.0, Some/None constructors, AVL+ tree, activation, alpha2 release, appkit, API consistency, Gradle migration, Automatic-Module-Name, Java modules, Nautilus, 0-conf, Firefox extension, alpha release, Paideia, context variables, contract testing, on-chain deployment, SigmaUSD, storage rent]
+---
 # Ergo Developer Chat Summary — 2024-W41
 
 ## Key Topics Discussed

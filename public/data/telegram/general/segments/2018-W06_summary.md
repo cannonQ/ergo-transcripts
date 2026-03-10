@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2018-W06"
+date_start: "2018-02-05"
+date_end: "2018-02-11"
+type: telegram_weekly
+channel: general
+week: "2018-W06"
+source: telegram
+message_count: 105
+categories: [governance, mining, technical, community, bridges, wallet, ecosystem, marketing]
+key_terms: [EFYT, ERGO, token swap, "1:1 conversion", dual chain, ErgoMoney, ErgoData, mainnet launch, testnet, April release, Sigma transactions, rollerchain, Q2 timeline, PoW, Equihash, GPU mining, mining requirements, mining rigs, privacy, anonymity]
+---
 # Ergo General Chat — 2018-W06 Summary
 
 ## Key Topics Discussed

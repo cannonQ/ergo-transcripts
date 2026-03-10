@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W28"
+date_start: "2020-07-06"
+date_end: "2020-07-12"
+type: telegram_weekly
+channel: general
+week: "2020-W28"
+source: telegram
+message_count: 350
+categories: [mining, ecosystem, defi, technical, governance, marketing, community, wallet]
+key_terms: [ergopool, pool collateral, mining, hashrate, exchange listing, Tidex, HotBit, Binance, liquidity, tier-1 exchanges, stablecoin, IOHK, EMURGO, joint venture, monetary policy, 4.0 hard fork, PoW improvements, testnet, difficulty, activation protocol]
+---
 # Ergo General Chat — 2020-W28 Summary
 
 ## Key Topics Discussed

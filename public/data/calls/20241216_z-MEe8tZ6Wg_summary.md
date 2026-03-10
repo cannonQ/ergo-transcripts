@@ -1,3 +1,16 @@
+---
+title: "P2Podcast | Episode 5"
+date: "2024-12-16"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=z-MEe8tZ6Wg
+video_id: z-MEe8tZ6Wg
+duration_minutes: 49
+speakers: [tmr.erg, Marc the Shark]
+topics: [bitcoin, bull-run, 90k, reserve-currency, collateral, normie-friends, market-cap, all-time-high, emissions, springboard]
+companion_files: [20241216_z-MEe8tZ6Wg_transcript.txt, 20241216_z-MEe8tZ6Wg_qa.json, 20241216_z-MEe8tZ6Wg_decisions.json, 20241216_z-MEe8tZ6Wg_topics.json]
+---
 # P2Podcast Episode 5 - Ergo Community Call Summary
 
 **Date:** December 16, 2024  

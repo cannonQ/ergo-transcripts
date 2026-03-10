@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2023-W45"
+date_start: "2023-11-06"
+date_end: "2023-11-12"
+type: telegram_weekly
+channel: general
+week: "2023-W45"
+source: telegram
+message_count: 1404
+categories: [technical, marketing, bridges, governance, ecosystem, defi, nft, community, mining]
+key_terms: [sub-blocks, weak-blocks, swift-blocks, block naming, terminology, CMC, ergogate, circulating supply, data integrity, platform fees, Rosen Bridge, RSN token, cross-chain, Cardano, watchers, multisig, sub-block rewards, emission schedule, miner incentives, sidechain rewards]
+---
 # Ergo General Chat — 2023-W45 Summary
 
 ## Key Topics Discussed

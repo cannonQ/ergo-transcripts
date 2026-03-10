@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2018-W44"
+date_start: "2018-10-29"
+date_end: "2018-11-04"
+type: telegram_weekly
+channel: general
+week: "2018-W44"
+source: telegram
+message_count: 55
+categories: [governance, mining, ecosystem, marketing, technical]
+key_terms: [mainnet, testnet, launch date, Q1 2019, end of year, PoW, GPU mining, ASIC resistance, mining algorithm, pools, emission, 19.7 million, inflation, first year, market cap, EFYT, exchange, Waves, token swap, mainnet conversion]
+---
 # Ergo General Chat Summary — 2018-W44
 **Period:** 2018-10-29 to 2018-11-11  
 **Activity Level:** Low-to-moderate; primarily community Q&A and announcement sharing

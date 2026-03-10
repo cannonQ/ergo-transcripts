@@ -1,3 +1,16 @@
+---
+title: "Rosen Port | sangeet24 | ErgoHack VIII"
+date: "2024-06-17"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=AmMQns6ECL8
+video_id: AmMQns6ECL8
+duration_minutes: 10
+speakers: [sangeet24]
+topics: [rosenport, cross-chain-bridging, lower-fees, smaller-funds, interoperability, multiple-networks, rosen-bridge, ergo-ecosystem, fee-structure, minimum-fee]
+companion_files: [20240617_AmMQns6ECL8_transcript.txt, 20240617_AmMQns6ECL8_qa.json, 20240617_AmMQns6ECL8_decisions.json, 20240617_AmMQns6ECL8_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 
 **Date:** June 17, 2024  

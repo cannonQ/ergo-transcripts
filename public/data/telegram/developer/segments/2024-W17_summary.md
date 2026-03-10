@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W17"
+date_start: "2024-04-22"
+date_end: "2024-04-28"
+type: telegram_weekly
+channel: developer
+week: "2024-W17"
+source: telegram
+message_count: 84
+categories: [technical, wallet, ecosystem, governance, nft, defi, bridges, mining]
+key_terms: [bigInt constructor, PoW validation, Autolykos2, ErgoScript 6.0, parameters, ConstantPlaceholders, type errors, sigmastate-interpreter, ergo-lib, fleet-sdk, Nautilus, ExtSecretKey, derivation path, ergo-headless-dapp-framework, transaction building, ergo-lib 0.14.0, multisig, treasury, Paideia, ErgoDevs DAO]
+---
 # Ergo Developer Chat Summary — 2024-W17
 
 ## Key Topics Discussed

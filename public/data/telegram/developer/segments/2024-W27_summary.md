@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W27"
+date_start: "2024-07-01"
+date_end: "2024-07-07"
+type: telegram_weekly
+channel: developer
+week: "2024-W27"
+source: telegram
+message_count: 117
+categories: [technical, wallet, defi, bridges, ecosystem, marketing]
+key_terms: [byAddress endpoint, transaction sorting, indexer, API paging, sliced storage, Sigma 6.0, sigmastate-interpreter, unsigned big ints, Bulletproofs, range proof verification, HTTP API crash, indexer threadpool, timeout exception, node startup, BlockchainApiRoute, Nautilus Wallet, ergoConnector, isConnected, isAuthorized, performance improvements]
+---
 # Ergo Developer Chat Summary — 2024-W27
 
 ## Key Topics Discussed

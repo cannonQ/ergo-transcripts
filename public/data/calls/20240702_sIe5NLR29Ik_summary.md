@@ -1,3 +1,16 @@
+---
+title: "Paideia | Marty | Ergoversary Summit 2024"
+date: "2024-07-02"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=sIe5NLR29Ik
+video_id: sIe5NLR29Ik
+duration_minutes: 14
+speakers: [Marty]
+topics: [paideia-dapp, staking, voter-registration, beta-tokens, ergo-faucet, dao, token-staking, b-paideia-tokens, smart-contract, proxy-contract]
+companion_files: [20240702_sIe5NLR29Ik_transcript.txt, 20240702_sIe5NLR29Ik_qa.json, 20240702_sIe5NLR29Ik_decisions.json, 20240702_sIe5NLR29Ik_topics.json]
+---
 # Paideia DAO Demonstration - Community Call Summary
 **Date:** July 2, 2024  
 **Title:** Paideia | Marty | Ergoversary Summit 2024

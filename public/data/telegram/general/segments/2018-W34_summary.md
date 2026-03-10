@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2018-W34"
+date_start: "2018-08-20"
+date_end: "2018-08-26"
+type: telegram_weekly
+channel: general
+week: "2018-W34"
+source: telegram
+message_count: 87
+categories: [technical, ecosystem, mining, wallet, governance, community]
+key_terms: [testnet, explorer, ergoplatform.com, EFYT, ERGOcash, ERGOdata, dual blockchain, data storage, ASIC, hashrate, mining, hard fork, Monero, wallet prototype, privacy by design, mainnet, Q4 2018, PoW finalization, stateless clients, price]
+---
 # Ergo General Chat — 2018-W34 Summary
 
 ## Key Topics Discussed

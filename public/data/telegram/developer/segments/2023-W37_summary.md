@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2023-W37"
+date_start: "2023-09-11"
+date_end: "2023-09-17"
+type: telegram_weekly
+channel: developer
+week: "2023-W37"
+source: telegram
+message_count: 144
+categories: [technical, marketing, wallet]
+key_terms: [UTXO set scan, threading, block scan process, performance optimization, storage rent, miners, transaction inclusion, economic model, explorer lag, mempool, block sync, API performance, database, rebroadcastCount, mempoolCleanupDuration, transaction propagation, node config, Greasy Royale, MEXC partnership, NFT missions]
+---
 # Ergo Developer Chat Summary — 2023-W37
 
 ## Key Topics Discussed

@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2022-W52"
+date_start: "2022-12-26"
+date_end: "2023-01-01"
+type: telegram_weekly
+channel: developer
+week: "2022-W52"
+source: telegram
+message_count: 50
+categories: [technical, wallet, defi, ecosystem, governance]
+key_terms: [transaction, script verification, data inputs, UTXO, input validation, block propagation, TPS, throughput, consensus, scalability, Satergo, wallet, release, UI redesign, derived addresses, auto-update, keyboard navigation, Android, APK, Linux]
+---
 # Ergo Developer Chat Summary — 2022-W52
 **Period:** 2022-12-26 to 2023-01-15  
 **Participants:** 10 (kushti, Aberg, CW, HQΣr, Koutelier, Luivatra, qx(), scalahub, Grand Gambit, Unknown)

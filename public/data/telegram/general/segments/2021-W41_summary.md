@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W41"
+date_start: "2021-10-11"
+date_end: "2021-10-17"
+type: telegram_weekly
+channel: general
+week: "2021-W41"
+source: telegram
+message_count: 1914
+categories: [ecosystem, defi, community, governance, technical, mining, wallet, nft, bridges]
+key_terms: [Cardano Summit, Chainlink, oracle pools, partnership, ErgoDEX, launch date, Cardano integration, October, November, logo contest, foundation branding, submissions, deadline, SigmaUSD, SigRSV, stablecoin, AgeUSD protocol, reserve tokens, emission schedule, soft fork]
+---
 # Ergo General Chat — 2021-W41 Summary
 ## Period: 2021-10-11 to 2021-10-17
 

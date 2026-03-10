@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2025-W39"
+date_start: "2025-09-22"
+date_end: "2025-09-28"
+type: telegram_weekly
+channel: general
+week: "2025-W39"
+source: telegram
+message_count: 0
+categories: [defi, community, bridges, mining, ecosystem, marketing, technical, wallet, governance]
+key_terms: [life insurance, DAO, LIFE token, term life, whole life, APY, collateralization, HTX delisting, exchange pressure, CEX resistance, "#HTXtortion", "#ENDtheCEX", Rosen Bridge, interoperability, atomic swaps, Bitcoin, Cardano, Litecoin, Runes protocol, hashrate]
+---
 # Ergo General Chat Summary — 2025-W39
 ## September 22–28, 2025
 

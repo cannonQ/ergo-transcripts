@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W25"
+date_start: "2024-06-17"
+date_end: "2024-06-23"
+type: telegram_weekly
+channel: developer
+week: "2024-W25"
+source: telegram
+message_count: 0
+categories: [technical, wallet, defi, mining, ecosystem, governance, community]
+key_terms: [multisig, SigmaProp, ErgoTree, serialization, ErgoAddressEncoder, Nautilus, Abyss, Ledger, dataInputs, Sigma 6.0, mod operations, bulletproofs, range proof, sigmastate-interpreter, LevelDB, corruption, RocksDB, database repair, power outage, blockly]
+---
 # Ergo Developer Chat Summary — 2024-W25
 **Period:** 2024-06-17 to 2024-06-23  
 **Participants:** 14 (kushti, Aberg, qx(), anon_BR, c8, and others)  

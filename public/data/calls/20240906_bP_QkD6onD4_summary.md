@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - September 5th 2024"
+date: "2024-09-06"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=bP_QkD6onD4
+video_id: bP_QkD6onD4
+duration_minutes: 55
+speakers: [Dan Friedman, qx(), kushti]
+topics: [ama, ergo-merch, japan, spaces-event, palmyra, lithium-tokenization, argentina, security-token-offering, commodity-token, traceability]
+companion_files: [20240906_bP_QkD6onD4_transcript.txt, 20240906_bP_QkD6onD4_qa.json, 20240906_bP_QkD6onD4_decisions.json, 20240906_bP_QkD6onD4_topics.json]
+---
 # Ergo Community Call Summary - September 6, 2024
 
 ## Executive Summary

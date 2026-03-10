@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W47"
+date_start: "2020-11-16"
+date_end: "2020-11-22"
+type: telegram_weekly
+channel: general
+week: "2020-W47"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo General Chat — 2020-W47 Summary
 ## 2020-11-16 to 2020-11-22
 

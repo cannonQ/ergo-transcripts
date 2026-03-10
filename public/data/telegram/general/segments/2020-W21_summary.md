@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2020-W21"
+date_start: "2020-05-18"
+date_end: "2020-05-24"
+type: telegram_weekly
+channel: general
+week: "2020-W21"
+source: telegram
+message_count: 363
+categories: [technical, marketing, mining, wallet, ecosystem, defi, community]
+key_terms: [smart contracts, sigma protocols, UTXO model, non-outsourceable puzzles, zero-knowledge proofs, airdrop, Coinsbit, free coins, registration, bounty campaign, hash rate, difficulty, TH/s, miners, pool, GPU mining, CoinBarn, Magnum Wallet, Cypra, node API]
+---
 # Ergo General Chat — 2020-W21 Summary
 
 ## Key Topics Discussed

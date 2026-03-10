@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2018-W35"
+date_start: "2018-08-27"
+date_end: "2018-09-02"
+type: telegram_weekly
+channel: general
+week: "2018-W35"
+source: telegram
+message_count: 85
+categories: [technical, ecosystem, marketing, wallet, community]
+key_terms: [mainnet, testnet, launch, 2018, development, EFYT, token swap, ergo, waves platform, emission curve, ergoscript, compiler, static type safety, zero knowledge, cost estimation, clutch ico, rating, voting, community engagement, waves token]
+---
 # Ergo General Chat — 2018-W35 Summary
 **Period:** 2018-08-27 to 2018-09-22  
 **Active Participants:** 8  

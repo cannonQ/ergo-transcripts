@@ -1,3 +1,16 @@
+---
+title: "Ways to Bring Ergo to College Students | Reva and Henry | ErgoHack VIII"
+date: "2024-06-17"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=Kg8p0g2I0xI
+video_id: Kg8p0g2I0xI
+duration_minutes: 15
+speakers: [Reva, Henry]
+topics: [developer-workshops, university-blockchain-clubs, hackathons, cornell, recruitment-events, erg-prizes, learn-to-earn, nautilus-wallet, onboarding, utxo-model]
+companion_files: [20240617_Kg8p0g2I0xI_transcript.txt, 20240617_Kg8p0g2I0xI_qa.json, 20240617_Kg8p0g2I0xI_decisions.json, 20240617_Kg8p0g2I0xI_topics.json]
+---
 # ErgoHack VIII Community Call Summary
 
 **Call Date:** 2024-06-17  

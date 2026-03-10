@@ -1,3 +1,16 @@
+---
+title: "SigmaRand | Noob77777 | ErgoHack VIII"
+date: "2024-06-17"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=flJWESKXOug
+video_id: flJWESKXOug
+duration_minutes: 21
+speakers: [Noob77777]
+topics: [sigmarand, random-number-generation, blockchain-consensus, miner-manipulation, secure-randomness, commit-reveal-protocol, hash-commitment, xor-operation, two-phase-protocol, client-server-model]
+companion_files: [20240617_flJWESKXOug_transcript.txt, 20240617_flJWESKXOug_qa.json, 20240617_flJWESKXOug_decisions.json, 20240617_flJWESKXOug_topics.json]
+---
 # SigmaRand Presentation - Ergo Community Call Summary
 **Date:** June 17, 2024  
 **Presenter:** Noob77777  

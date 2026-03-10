@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - September 19th 2024"
+date: "2024-09-20"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=3J-FJRcytJY
+video_id: 3J-FJRcytJY
+duration_minutes: 42
+speakers: [AI, kushti]
+topics: [weekly-updates, translations, developer-chat, telegram, ergoforum, ergonames, commit-reveal, front-running-protection, avl-trees, go-programming]
+companion_files: [20240920_3J-FJRcytJY_transcript.txt, 20240920_3J-FJRcytJY_qa.json, 20240920_3J-FJRcytJY_decisions.json, 20240920_3J-FJRcytJY_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Date:** September 20, 2024  
 **Call Title:** Ergo PoW Blockchain - Weekly Update & AMA - September 19th 2024

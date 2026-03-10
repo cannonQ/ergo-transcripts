@@ -1,3 +1,16 @@
+---
+title: "Property Rights in the Age of Programmable Money | Alexander Chepurnoy"
+date: "2025-01-08"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=DDDjaIBTMUw
+video_id: DDDjaIBTMUw
+duration_minutes: 13
+speakers: [kushti]
+topics: [programmable-money, property-rights, smart-contracts, tokenized-assets, autonomous-code, tornado-cash, immutable-smart-contracts, privacy-protocol, autonomous-contracts, us-sanctions]
+companion_files: [20250108_DDDjaIBTMUw_transcript.txt, 20250108_DDDjaIBTMUw_qa.json, 20250108_DDDjaIBTMUw_decisions.json, 20250108_DDDjaIBTMUw_topics.json]
+---
 # Ergo Community Call Summary
 **Date:** January 8, 2025  
 **Title:** Property Rights in the Age of Programmable Money  

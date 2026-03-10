@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W14"
+date_start: "2025-03-31"
+date_end: "2025-04-06"
+type: telegram_weekly
+channel: developer
+week: "2025-W14"
+source: telegram
+message_count: 78
+categories: [wallet, technical, ecosystem, defi]
+key_terms: [secp256k1, k256, sigma-rust-mini, firmware size, no_std, Prover trait, 6.0.0-RC4, protocol soft-fork, sub-blocks, p2p messages, mainnet sync, debug, inspect, callback, Verifier, AST, script evaluation, MAST, ErgoScript, context extension]
+---
 # Ergo Developer Chat Summary — 2025-W14
 **Period:** 2025-03-31 to 2025-04-06  
 **Participants:** 6 active (kushti, dusek_, novamon_25735, Pgr456, jozinek., ccellado, and others)

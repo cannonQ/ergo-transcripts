@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2017-W52"
+date_start: "2017-12-25"
+date_end: "2017-12-31"
+type: telegram_weekly
+channel: general
+week: "2017-W52"
+source: telegram
+message_count: 294
+categories: [governance, technical, ecosystem, mining, community]
+key_terms: [EFYT, token swap, "1:1 conversion", early adopter rewards, MoneyChain, DataChain, light nodes, mobile mining, Aspen protocol, blockchain partitioning, storage rent, TestNet, node synchronization, version 0.1.4, peers, config file, port forwarding, Waves DEX, EFYT purchase, trading volume]
+---
 # Ergo General Chat — Week 2017-W52 Summary
 
 ## Key Topics Discussed

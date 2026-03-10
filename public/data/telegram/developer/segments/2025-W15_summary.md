@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W15"
+date_start: "2025-04-07"
+date_end: "2025-04-13"
+type: telegram_weekly
+channel: developer
+week: "2025-W15"
+source: telegram
+message_count: 53
+categories: [technical, governance, wallet, ecosystem]
+key_terms: [transaction verification, blockchain polling, transaction ID, chain reorgs, 5 second interval, 6.0.0-RC4, mainnet sync, protocol upgrade, tree version check, soft-fork, Merklized ASTs, one-of-many scripts, ErgoScript, wallet policies, MAST, JDK 24, CompactObjectHeaders, performance, Satergo node, Java 22]
+---
 # Ergo Developer Chat Summary — 2025-W15
 
 ## Key Topics Discussed

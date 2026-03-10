@@ -1,3 +1,16 @@
+---
+title: "The Sigmanauts | qx(), Noah and Glasgow | Ergoversary Summit 2024"
+date: "2024-07-02"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=pjGIR3wWQVY
+video_id: pjGIR3wWQVY
+duration_minutes: 50
+speakers: [glasgowm, Noah, qx()]
+topics: [sigmanauts, community-organizing, dao-structure, paideia, multi-sig-wallet, consensus-building, paideia-voting, community-governance, discord-organization, proof-of-work]
+companion_files: [20240702_pjGIR3wWQVY_transcript.txt, 20240702_pjGIR3wWQVY_qa.json, 20240702_pjGIR3wWQVY_decisions.json, 20240702_pjGIR3wWQVY_topics.json]
+---
 # Ergoversary Summit 2024: The Sigmanauts History and Future
 
 **Call Date:** July 2, 2024  

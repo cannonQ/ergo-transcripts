@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W46"
+date_start: "2019-11-11"
+date_end: "2019-11-17"
+type: telegram_weekly
+channel: general
+week: "2019-W46"
+source: telegram
+message_count: 87
+categories: [ecosystem, technical, bridges, defi, governance, marketing, community]
+key_terms: [exchanges, Tidex, ProBit, CoinMarketCap, Utrum Crypto Playbook, node, miner, AMD, CUDA, ergo.node.miningPubKeyHex, wallet, desktop wallet, NiPoPoW, FlyClient, cross-chain swaps, velvet forks, opcodes, interoperability, smart contracts, DAO hack]
+---
 # Ergo General Chat Summary — 2019-W46
 **Period:** 2019-11-12 to 2019-12-01  
 **Active Participants:** 18  

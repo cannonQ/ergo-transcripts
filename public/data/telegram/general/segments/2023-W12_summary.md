@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2023-W12"
+date_start: "2023-03-20"
+date_end: "2023-03-26"
+type: telegram_weekly
+channel: general
+week: "2023-W12"
+source: telegram
+message_count: 875
+categories: [bridges, defi, wallet, ecosystem, technical, governance, community]
+key_terms: [Rosen Bridge, private testing, public testing, mainnet, cross-chain, Spectrum Finance, yield farming, liquidity provision, APY, testing, Dexy, stablecoin, DexyUSD, frontend, oracle pools, Nautilus, Ledger, hardware wallet, developer mode, official release]
+---
 # Ergo General Chat — 2023-W12 Summary
 
 ## Key Topics Discussed

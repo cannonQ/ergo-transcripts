@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2022-W38"
+date_start: "2022-09-19"
+date_end: "2022-09-25"
+type: telegram_weekly
+channel: developer
+week: "2022-W38"
+source: telegram
+message_count: 97
+categories: [technical, governance, wallet, ecosystem, community]
+key_terms: [ContextExtension, Inputs(x).contextVars(y), script validation, transaction inputs, PlutusV2, v4.0.43, v4.0.44, v4.0.45, v4.0.46, spam attack vectors, network noise, testnet, explorer sync, block confirmation, slow blocks, painet, difficulty adjustment, least squares method, epoch, 1024 blocks]
+---
 # Ergo Developer Chat — 2022-W38 Summary
 
 ## Key Topics Discussed

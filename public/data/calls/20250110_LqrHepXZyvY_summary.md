@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - January 9th 2025"
+date: "2025-01-10"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=LqrHepXZyvY
+video_id: LqrHepXZyvY
+duration_minutes: 59
+speakers: [kushti, Dan Friedman]
+topics: [new-year, ama, community-call, holidays, palmyra, smart-contracts, audits, traceability-suite, blockchain-traceability, lithium-pricing-index]
+companion_files: [20250110_LqrHepXZyvY_transcript.txt, 20250110_LqrHepXZyvY_qa.json, 20250110_LqrHepXZyvY_decisions.json, 20250110_LqrHepXZyvY_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 
 **Call Date:** January 10, 2025  

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2022-W33"
+date_start: "2022-08-15"
+date_end: "2022-08-21"
+type: telegram_weekly
+channel: general
+week: "2022-W33"
+source: telegram
+message_count: 1729
+categories: [governance, technical, wallet, defi, mining, ecosystem, community, marketing]
+key_terms: [AnetaBTC, code review, open source, GitHub, wrapped BTC, mixer, privacy, Tornado Cash, ErgoMixer, sanctions, Node 5.0, storage rent, soft fork, voting, costing, Ledger, Nano S, sideload, token limit, hardware wallet]
+---
 # Ergo General Chat Summary — 2022-W33
 **Period:** 2022-08-15 to 2022-08-21
 

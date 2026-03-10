@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Community Chat - November 6th"
+date: "2025-11-07"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=AUYdYuX4m4g
+video_id: AUYdYuX4m4g
+duration_minutes: 55
+speakers: [kushti, qx, Grayman, Richi]
+topics: [community-ama, daylight-savings-time, call-scheduling, ai-inference, gpu-mining, programmable-money, open-source, sigma-quest, ai-game, puzzle-guardians]
+companion_files: [20251107_AUYdYuX4m4g_transcript.txt, 20251107_AUYdYuX4m4g_qa.json, 20251107_AUYdYuX4m4g_decisions.json, 20251107_AUYdYuX4m4g_topics.json]
+---
 # Ergo Community Call Summary - November 6th, 2025
 
 ## Executive Summary

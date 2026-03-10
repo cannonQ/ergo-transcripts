@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2022-W41"
+date_start: "2022-10-10"
+date_end: "2022-10-16"
+type: telegram_weekly
+channel: general
+week: "2022-W41"
+source: telegram
+message_count: 0
+categories: [wallet, technical, ecosystem, defi, bridges, community, mining]
+key_terms: [Ledger, 16kb memory constraint, 10 token limit, UX issues, Nano S, emission, block reward, 45 erg, mining incentive, KuCoin, withdrawals disabled, 60k UTXOs, dusty node, box consolidator, ErgoHack V, 14 teams, hackathon, mining, minting, NightOwl]
+---
 # Ergo General Chat — 2022-W41 Summary
 
 ## Key Topics Discussed

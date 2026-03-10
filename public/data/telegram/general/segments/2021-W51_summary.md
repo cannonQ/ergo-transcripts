@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W51"
+date_start: "2021-12-20"
+date_end: "2021-12-26"
+type: telegram_weekly
+channel: general
+week: "2021-W51"
+source: telegram
+message_count: 0
+categories: [marketing, community, governance, wallet, defi, technical, ecosystem, bridges, nft, mining]
+key_terms: [CoinSwitch Kuber, WazirX, CoinCDX, Indian market, tier 2 exchanges, Devanagri script, English transliteration, formal Hindi, translation quality, emission schedule, soft fork, miner voting, 90% approval, supply squeeze, Ledger Nano, Yoroi integration, Tesseract, pending approval, mixer, stealth address]
+---
 # Ergo General Chat Summary — Week 2021-W51
 
 ## Key Topics Discussed

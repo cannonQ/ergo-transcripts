@@ -1,3 +1,16 @@
+---
+title: "Completeness of Ergo | Alex Chepurnoy | ErgoHack 9"
+date: "2024-10-28"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=R-2qZtiiKfg
+video_id: R-2qZtiiKfg
+duration_minutes: 10
+speakers: [kushti]
+topics: [ergo-protocol, kushti, protocol-completeness, development-roadmap, ergoversary, security, decentralization, performance, blockchain-trilemma, scalability]
+companion_files: [20241028_R-2qZtiiKfg_transcript.txt, 20241028_R-2qZtiiKfg_qa.json, 20241028_R-2qZtiiKfg_decisions.json, 20241028_R-2qZtiiKfg_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Date:** October 28, 2024  
 **Title:** Completeness of Ergo | Alex Chepurnoy | ErgoHack 9

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2023-W24"
+date_start: "2023-06-12"
+date_end: "2023-06-18"
+type: telegram_weekly
+channel: general
+week: "2023-W24"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo General Chat Summary — 2023-W24
 **Period:** 2023-06-12 to 2023-06-18  
 **Messages analyzed:** 890  

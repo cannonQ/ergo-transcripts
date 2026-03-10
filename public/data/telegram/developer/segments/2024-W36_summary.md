@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W36"
+date_start: "2024-09-02"
+date_end: "2024-09-08"
+type: telegram_weekly
+channel: developer
+week: "2024-W36"
+source: telegram
+message_count: 182
+categories: [technical, defi, mining, ecosystem, community, wallet]
+key_terms: [wallet/transaction/generate, inputsRaw, binary encoding, Bitget integration, Node API, wallet scan, testnet resync, index initialization, wallet height, node configuration, Sigma 6.0, numeric methods, UnsignedBigInt, higher-order lambdas, devnet release, sub-blocks, P2P messages, transaction requests, Stratum proxy modification, TPS testing]
+---
 # Ergo Developer Chat — 2024-W36 Summary
 
 ## Key Topics Discussed

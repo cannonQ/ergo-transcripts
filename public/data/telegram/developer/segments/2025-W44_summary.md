@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W44"
+date_start: "2025-10-27"
+date_end: "2025-11-02"
+type: telegram_weekly
+channel: developer
+week: "2025-W44"
+source: telegram
+message_count: 0
+categories: []
+key_terms: []
+---
 # Ergo Developer Chat Summary — 2025-W44
 
 ## Key Topics Discussed

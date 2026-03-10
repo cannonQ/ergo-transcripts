@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2023-W15"
+date_start: "2023-04-10"
+date_end: "2023-04-16"
+type: telegram_weekly
+channel: developer
+week: "2023-W15"
+source: telegram
+message_count: 146
+categories: [nft, technical, defi, ecosystem, community, wallet, marketing]
+key_terms: [NFT minting, Scala, metadata, ErgoTokenMetadataBuilder, bulk minting, traceability, testnet, faucet, token minting, Base58 encoding, jar rebuild, Appkit, OkHttp, RestApiErgoClient, daemon threads, resource cleanup, on-chain voting, smart contracts, ErgoScript, order matching]
+---
 # Ergo Developer Chat Summary — 2023-W15
 
 ## Key Topics Discussed

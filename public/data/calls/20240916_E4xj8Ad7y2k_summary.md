@@ -1,3 +1,16 @@
+---
+title: "Dev Update Sept. 15th 2024 |  Satergo, Paideia, Celaut, Sigs Mining, CU DAO, Rep System and more!"
+date: "2024-09-16"
+type: video_summary
+call_type: community_chat
+source: youtube
+source_url: https://youtube.com/watch?v=E4xj8Ad7y2k
+video_id: E4xj8Ad7y2k
+duration_minutes: 66
+speakers: [Marc the Shark, qx()]
+topics: [storage-rent, demurrage, fixed-supply, super-consensus, dust-control, trading-wallet, ergodex.com, wallet-security, scam-prevention, chrome-store]
+companion_files: [20240916_E4xj8Ad7y2k_transcript.txt, 20240916_E4xj8Ad7y2k_qa.json, 20240916_E4xj8Ad7y2k_decisions.json, 20240916_E4xj8Ad7y2k_topics.json]
+---
 # Ergo Blockchain Community Call Summary
 **Date:** September 16, 2024  
 **Title:** Dev Update Sept. 15th 2024 | Satergo, Paideia, Celaut, Sigs Mining, CU DAO, Rep System and more!

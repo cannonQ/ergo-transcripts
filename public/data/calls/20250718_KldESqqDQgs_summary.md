@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA - July 17th"
+date: "2025-07-18"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=KldESqqDQgs
+video_id: KldESqqDQgs
+duration_minutes: 46
+speakers: [qx(), kushti]
+topics: [ergo-6.0, sub-blocks, voting, testnet, merge-mining, sidechain, dex, user-experience, chain-transactions, nautilus]
+companion_files: [20250718_KldESqqDQgs_transcript.txt, 20250718_KldESqqDQgs_qa.json, 20250718_KldESqqDQgs_decisions.json, 20250718_KldESqqDQgs_topics.json]
+---
 # Ergo PoW Blockchain - Weekly Update & AMA - July 17th, 2025
 
 **Call Date:** July 18, 2025  

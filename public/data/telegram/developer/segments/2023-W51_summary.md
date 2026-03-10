@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2023-W51"
+date_start: "2023-12-18"
+date_end: "2023-12-24"
+type: telegram_weekly
+channel: developer
+week: "2023-W51"
+source: telegram
+message_count: 160
+categories: [technical, community, ecosystem, bridges, governance]
+key_terms: [LevelDB, RocksDB, LMDB, database, storage, JNI drivers, performance, NIPoPoW, UTXO snapshot, NipopowAlgos, UnsupportedOperationException, LevelDB errors, crash, manifest, version automation, release version, Satergo, ergonodes.net, update prompts, logging]
+---
 # Ergo Developer Chat Summary — 2023-W51
 **Period:** 2023-12-19 to 2023-12-24  
 **Participants:** 11 | **Messages:** 160

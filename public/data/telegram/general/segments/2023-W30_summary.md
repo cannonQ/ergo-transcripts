@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2023-W30"
+date_start: "2023-07-24"
+date_end: "2023-07-30"
+type: telegram_weekly
+channel: general
+week: "2023-W30"
+source: telegram
+message_count: 1148
+categories: [technical, community, ecosystem, bridges, defi, marketing, wallet]
+key_terms: [storage rent, block 1051200, miner rewards, state pruning, NIPoPoW, node 5.0.13, bootstrapping, light clients, Fleet SDK, JavaScript, Nautilus Wallet, Sigmanauts, treasury, fundraising, OKX listing, KuCoin, trading volume, tier 2 exchanges, US regulations, Rosen Bridge]
+---
 # Ergo General Chat Summary — 2023-W30
 **Period:** 2023-07-24 to 2023-07-30  
 **Messages Analyzed:** 1148

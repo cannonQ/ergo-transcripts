@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2024-W08"
+date_start: "2024-02-19"
+date_end: "2024-02-25"
+type: telegram_weekly
+channel: developer
+week: "2024-W08"
+source: telegram
+message_count: 157
+categories: [technical, governance, ecosystem, bridges, mining, defi, nft, community]
+key_terms: [optimalInputs, dustLimit, unspent boxes, wallet rescan, input consolidation, mempool, explorer API, node sync, disk space, unconfirmed transactions, ErgoDevs DAO, "R&D organization", core development, transparency, contributor recruitment, PHP integration, payment gateway, dApp connector, Nautilus, ErgoPay]
+---
 # Ergo Developer Chat Summary — 2024-W08 (Feb 19–25)
 
 ## Key Topics Discussed

@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2025-W06"
+date_start: "2025-02-03"
+date_end: "2025-02-09"
+type: telegram_weekly
+channel: developer
+week: "2025-W06"
+source: telegram
+message_count: 100
+categories: [governance, technical, defi, bridges, ecosystem, wallet, community]
+key_terms: [6.0, soft-fork, voting, testnet, block version, parameter 120, sub-blocks, DAG, input blocks, ordering blocks, P2P network, SigUSD, pool update, oracle pool, update box, Dexy, liquidity pool, SDK integration, mainnet launch, Rosen Bridge]
+---
 # Ergo Developer Chat — Week 2025-W06 Summary
 
 ## Key Topics Discussed

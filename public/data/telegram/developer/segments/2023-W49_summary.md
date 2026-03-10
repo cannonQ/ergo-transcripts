@@ -1,3 +1,15 @@
+---
+title: "Ergo Developer Chat — 2023-W49"
+date_start: "2023-12-04"
+date_end: "2023-12-10"
+type: telegram_weekly
+channel: developer
+week: "2023-W49"
+source: telegram
+message_count: 156
+categories: [wallet, technical, ecosystem, nft, community, defi, bridges]
+key_terms: [mobile wallet, Nautilus, manifest v3, cold storage, QR code signing, UTXO consolidation, box inputs, transaction size, 1k boxes, 96kb limit, JavaScript, i64 overflow, BigInt, token amounts, json-bigint library, ErgoPay, reduced transaction, Python AppKit, multiple addresses, server load]
+---
 # Ergo Developer Chat Summary — 2023-W49
 
 ## Key Topics Discussed

@@ -1,3 +1,16 @@
+---
+title: "Ergo PoW Blockchain - Weekly Update & AMA (COMMUNITY EDITION) - July 31st"
+date: "2025-08-01"
+type: video_summary
+call_type: ama
+source: youtube
+source_url: https://youtube.com/watch?v=rICaZBdO6q4
+video_id: rICaZBdO6q4
+duration_minutes: 43
+speakers: [Grayman, qx(), kushti, glasgowm, HQ3rr]
+topics: [sigmalock, sigmanauts, dao-vote, mewfinance, code-review, mewphysicals, tutorials, bounties, ecosystem-circulation, physical-goods]
+companion_files: [20250801_rICaZBdO6q4_transcript.txt, 20250801_rICaZBdO6q4_qa.json, 20250801_rICaZBdO6q4_decisions.json, 20250801_rICaZBdO6q4_topics.json]
+---
 # Ergo Community Call Summary - July 31st, 2025
 
 ## Executive Summary

@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2019-W27"
+date_start: "2019-07-01"
+date_end: "2019-07-07"
+type: telegram_weekly
+channel: general
+week: "2019-W27"
+source: telegram
+message_count: 1379
+categories: [technical, mining, wallet, governance, ecosystem, community]
+key_terms: [mainnet launch, node setup, configuration, bootstrap, genesis block, GPU mining, NVIDIA miner, Autolykos, AMD support, hashrate, difficulty retarget, wallet unlock, apiKeyHash, swagger, wallet initialization, mnemonic restore, reward address, rewardAddress, P2S address, 720 block delay]
+---
 # Ergo General Chat — 2019-W27 Summary
 **Period:** 2019-07-01 to 2019-07-07
 

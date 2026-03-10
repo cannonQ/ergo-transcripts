@@ -1,3 +1,15 @@
+---
+title: "Ergo General Chat — 2021-W13"
+date_start: "2021-03-29"
+date_end: "2021-04-04"
+type: telegram_weekly
+channel: general
+week: "2021-W13"
+source: telegram
+message_count: 0
+categories: [defi, wallet, technical, ecosystem, nft, mining, bridges, marketing, community, governance]
+key_terms: [SigmaUSD, SigRSV, stablecoin, v2 launch, reserve ratio, bootstrapping period, CoinEx, withdrawal suspension, miner dust, deposit collection, network upgrade, mixer, privacy, SigUSD mixing, zero-join, anon2020s, KuCoin, exchange listing, Binance, Gate.io]
+---
 # Ergo General Chat — 2021-W13 Summary
 **Period:** 2021-03-29 to 2021-04-04
 
