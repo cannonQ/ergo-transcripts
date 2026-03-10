@@ -5,7 +5,7 @@ import {
   getTimeline,
   listContent,
   readDataFile,
-} from "../lib/search";
+} from "../lib/search.js";
 
 function sourceLabel(source: string): string {
   switch (source) {
